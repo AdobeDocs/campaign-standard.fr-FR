@@ -4,7 +4,7 @@ seo-title: Appel d'une ressource à l'aide d'une clé d'identification constitu�
 description: Appel d'une ressource à l'aide d'une clé d'identification constituée de deux champs
 seo-description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification constituée de deux champs
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ Les étapes principales de ce cas d'utilisation sont les suivantes :
 
 Rubriques connexes :
 
-* [Création ou extension de la ressource](help/developing/using/creating-or-extending-the-resource.md)
-* [Définir les clés d'identification](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
+* [Définir les clés d'identification](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API REST de Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Étape 1 : Configuration de la clé d'identification
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. Avant de configurer la clé d'identification, assurez-vous que la ressource a été étendue avec les champs souhaités et qu'elle a été publiée. Voir à ce propos [cette section](help/developing/using/creating-or-extending-the-resource.md).
+1. Avant de configurer la clé d'identification, assurez-vous que la ressource a été étendue avec les champs souhaités et qu'elle a été publiée. Voir à ce propos [cette section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. Go to the **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, then open the **[!UICONTROL Profile]** resource.
 
@@ -47,14 +47,14 @@ Rubriques connexes :
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. Voir à ce propos [cette section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. Voir à ce propos [cette section](../../developing/using/configuring-the-screen-definition.md).
 
 1. Vous pouvez maintenant configurer la définition de filtre pour qu'elle puisse appeler la ressource à l'aide de sa clé d'identification.
 
 ## Étape 2 : Configuration de la définition de filtre
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
@@ -87,7 +87,7 @@ Rubriques connexes :
 
 Une fois la clé d'identification configurée et sa définition de filtre, vous pouvez l'utiliser pour appeler la ressource, soit à partir de l'interface standard de Campaign, soit d'API REST.
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). Le filtre est ensuite disponible dans le volet gauche.
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). Le filtre est ensuite disponible dans le volet gauche.
 
 ![](assets/uc_idkey9.png)
 
