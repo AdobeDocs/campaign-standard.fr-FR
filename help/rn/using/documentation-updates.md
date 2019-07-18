@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ Ajout d'une nouvelle page aux limites de la page d'entrée. [En savoir plus](../
 
 Un cas d'utilisation a été ajouté sur la manière d'appeler un profil à l'aide d'une clé d'identification composite. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
 
-Une recommandation a été ajoutée concernant l'utilisation de distributions récurrentes sans période d'aggreagation lors de l'appel d'un flux avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Une recommandation a été ajoutée concernant l'utilisation de distributions récurrentes sans période d'agrégation lors de l'appel d'un flux de travail avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+La section relative à l'enregistrement du contenu de courrier électronique en tant que fragment dans le concepteur de courrier électronique a été mise à jour. [En savoir plus](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
