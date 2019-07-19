@@ -1,15 +1,15 @@
 ---
-title: Appel d'une ressource à l'aide d'une clé d'identification constituée de deux champs
-seo-title: Appel d'une ressource à l'aide d'une clé d'identification constituée de deux champs
-description: Appel d'une ressource à l'aide d'une clé d'identification constituée de deux champs
-seo-description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification constituée de deux champs
+title: Appel d'une ressource à l'aide d'une clé d'identification composite
+seo-title: Appel d'une ressource à l'aide d'une clé d'identification composite
+description: Appel d'une ressource à l'aide d'une clé d'identification composite
+seo-description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite
 translation-type: tm+mt
-source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
+source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
 
 ---
 
 
-# Appel d'une ressource à l'aide d'une clé d'identification constituée de deux champs
+# Appel d'une ressource à l'aide d'une clé d'identification composite
 
 Dans certains cas, vous devrez peut-être définir pour une ressource une clé d'identification constituée de deux champs. Une fois la clé d'identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d'identification, soit à partir de l'interface de Campaign Standard, soit à partir des API.
 
@@ -38,16 +38,16 @@ Rubriques connexes :
 
    ![](assets/uc_idkey1.png)
 
-1. In the **[UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
-1. Add the two custom "CRM ID" and "Category" fields, then click **[UICONTROL Confirm]**.
+1. Add the two custom "CRM ID" and "Category" fields, then click **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. Voir à ce propos [cette section](../../developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[!UICONTROL Screen definition]** tab. Voir à ce propos [cette section](../../developing/using/configuring-the-screen-definition.md).
 
 1. Vous pouvez maintenant configurer la définition de filtre pour qu'elle puisse appeler la ressource à l'aide de sa clé d'identification.
 
@@ -56,7 +56,7 @@ Rubriques connexes :
 >[!NOTE]
 > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
-1. In the **[UICONTROL Filter definition]** tab, click **[UICONTROL Add an element]**, then enter the filter definition's label and ID.
+1. In the **[!UICONTROL Filter definition]** tab, click **[!UICONTROL Add an element]**, then enter the filter definition's label and ID.
 
 1. Modifiez les propriétés de la définition de filtre pour configurer ses règles.
 
@@ -66,11 +66,11 @@ Rubriques connexes :
 
    ![](assets/uc_idkey5.png)
 
-1. Select the first field used in the identification key ("CRM ID"), then activate the **[UICONTROL Switch to parameters]** option.
+1. Select the first field used in the identification key ("CRM ID"), then activate the **[!UICONTROL Switch to parameters]** option.
 
    ![](assets/uc_idkey6.png)
 
-1. In the **[UICONTROL Filter conditions]** section, keep the **[UICONTROL Equal]** operator, then define the parameter's name and click the plus sign to create it.
+1. In the **[!UICONTROL Filter conditions]** section, keep the **[!UICONTROL Equal]** operator, then define the parameter's name and click the plus sign to create it.
 
    ![](assets/uc_idkey7.png)
 
@@ -87,16 +87,20 @@ Rubriques connexes :
 
 Une fois la clé d'identification configurée et sa définition de filtre, vous pouvez l'utiliser pour appeler la ressource, soit à partir de l'interface standard de Campaign, soit d'API REST.
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). Le filtre est ensuite disponible dans le volet gauche.
+To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). Le filtre est ensuite disponible dans le volet gauche.
 
 ![](assets/uc_idkey9.png)
 
 Pour utiliser la définition de filtre des API REST de Campaign Standard, utilisez la syntaxe ci-dessous :
 
-\ « GET /profileAndServicesExt/ &lt; resourcename &gt; &lt; filtername &gt; ? &lt; param 1_ parameter &gt; = &lt; value &gt; &amp; &lt; param 2_ parameter &gt; = &lt; value &gt;\ "
+```
+GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+```
 
 Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie « printemps » et l'identifiant CRM « 123456 » sont les suivantes :
 
-\ « GET https://mc.adobe.io/ &lt; ORGANISATION &gt;/campaign/profileandservicesext/profile/identification_ key ? category_ parameter = spring &amp; crm_ id_ parameter = 123456\ "
+```
+GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
