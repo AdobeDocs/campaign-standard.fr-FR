@@ -15,7 +15,7 @@ context-tags: incrémentiel, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15bba7a6f76cbd17b07f1243075da0832619278b
+source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
 
 ---
 
@@ -79,7 +79,7 @@ Le workflow est construit de la manière suivante :
 
 ![](assets/incremental_query_example1.png)
 
-* Un **[!UICONTROL Planificateur], afin que le workflow s'exécute chaque lundi à 7h.**
+* Un **[!UICONTROL Planificateur], afin que le workflow s'exécute chaque lundi à 6h.**
 
    ![](assets/incremental_query_example2.png)
 
