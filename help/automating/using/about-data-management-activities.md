@@ -14,7 +14,7 @@ discoiquuid: 332 bd 6 be -6 ca 3-4 d 38-b 608-8 a 66 c 156 d 080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ La section **[!UICONTROL Gestion des données (ETL)]fournit les activités suiva
 * [Extraction de fichier](../../automating/using/extract-file.md)
 * [Services d'inscriptions](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Les activités de gestion des données (ETL)]** vous permettent de définir **des codes** de segment pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports basés sur ces codes de segments afin de mesurer l'efficacité des campagnes de marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
