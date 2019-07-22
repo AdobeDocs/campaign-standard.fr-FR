@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -277,7 +277,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Cliquez sur<br /> </td> 
-   <td> Nombre de fois où les utilisateurs interagissent avec la notification push, par exemple clics sur la notification ou le bouton.<br /> </td> 
+   <td> Nombre de fois où une notification Push a été diffusée sur le périphérique et sur laquelle l'utilisateur a cliqué. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics publicitaires<br /> </td> 
@@ -293,7 +293,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Nombre total de notifications push vues par les destinataires.<br /> </td> 
+   <td> Nombre de fois où une notification Push a été diffusée sur le périphérique et n'est pas affectée dans le centre de notification. Dans la plupart des cas, le nombre d'impressions doit être similaire au nombre livré. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
@@ -301,7 +301,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Ouverture<br /> </td> 
-   <td> Nombre total d'applications lancées lorsque les utilisateurs ouvrent la notification push.<br /> </td> 
+   <td> Nombre total de notifications Push diffusées sur le périphérique et sur lesquelles les utilisateurs ont cliqué pour ouvrir l'application. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux d'ouverture<br /> </td> 
