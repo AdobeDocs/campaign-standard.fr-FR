@@ -14,7 +14,7 @@ discoiquuid: d 7088 c 18-7 daf -4 c 30-b 633-2 f 19496 b 1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ Obtenez des informations supplémentaires sur Adobe Campaign en consultant les c
 
 * [Principales étapes pour concevoir un email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch) : lisez les principales étapes pour concevoir le contenu d'un email à partir de zéro.
 * [Utilisation des Triggers Experience Cloud avec Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md) : envoyez des emails personnalisés à vos clients suite à des comportements spécifiques trackés sur votre site web par Adobe Analytics.
-* [Ajouter ou étendre une ressource](../../developing/using/key-steps-of-adding-a-resource.md) : découvrez comment créer des ressources ou étendre des ressources existantes.
+* [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md) : découvrez comment créer des ressources ou étendre des ressources existantes.
 * [Modèle de workflow d'import](../../automating/using/importing-data.md#example--import-workflow-template) : utilisez un modèle d'import pour importer régulièrement des fichiers avec la même structure.
 * [Configuration d'un processus de double opt-in](../../channels/using/setting-up-a-double-opt-in-process.md) : découvrez comment envoyer un email associé à une landing page afin de confirmer l'inscription d'un client.
 * [Personnalisation d'un email](../../designing/using/example--email-personalization.md) : personnalisez un email en fonction de l'âge du client.
