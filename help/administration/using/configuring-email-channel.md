@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview ; Emailconfig, main ; Ruleset, overview 
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ Cette section détaille la liste des paramètres disponibles dans l'écran des p
 
 >[!NOTE]
 >
->Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos permissions](../../administration/using/types-of-users.md).
+>Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos permissions](../../administration/using/users-management.md).
 
 Pour éditer les propriétés d'un email ou d'un modèle d'email, utilisez le bouton **[!UICONTROL Editer les propriétés].**
 
@@ -250,7 +250,10 @@ La préparation des messages est présentée dans la section [Valider les messag
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../administration/using/about-typology-rules.md) section.
 
-* **[!UICONTROL Calculer le libellé lors de l'analyse de la diffusion]** : permet de calculer la valeur du libellé de l'email lors de la phase de préparation des messages.
+* **[!UICONTROL Calculer l'étiquette lors de la préparation de la diffusion]**: vous permet de calculer la valeur d'étiquette du courriel pendant la phase de préparation du message à l'aide des champs de personnalisation, des blocs de contenu et du texte dynamique.
+
+   Il est également possible de personnaliser le libellé de diffusion avec les variables d'événements qui ont été déclarées dans l'activité du signal externe du processus. Voir à ce propos [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : cette option permet d'ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
 
 ### Liste des paramètres SMTP des emails {#list-of-email-smtp-parameters}
