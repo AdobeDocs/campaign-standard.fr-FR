@@ -14,7 +14,7 @@ discoiquuid: 0766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ Pour gérer les destinataires des notifications, définir les critères des aler
 
 >[!NOTE]
 >
->Pour accéder aux tableaux de bord ainsi qu'aux critères des alertes et les configurer, vous devez disposer de droits d'administration ou figurer dans le groupe de sécurité **Superviseurs de diffusion.** Les utilisateurs standard n'ont pas accès aux tableaux de bord dans l'interface d'Adobe Campaign. Ils peuvent uniquement recevoir les notifications d'alerte. Pour plus d'informations sur les utilisateurs et la sécurité dans Adobe Campaign, voir [Types d'utilisateurs](../../administration/using/types-of-users.md) et [Groupes de sécurité](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>Pour accéder aux tableaux de bord ainsi qu'aux critères des alertes et les configurer, vous devez disposer de droits d'administration ou figurer dans le groupe de sécurité **Superviseurs de diffusion.** Les utilisateurs standard n'ont pas accès aux tableaux de bord dans l'interface d'Adobe Campaign. Ils peuvent uniquement recevoir les notifications d'alerte. Pour plus d'informations sur les utilisateurs et la sécurité dans Adobe Campaign, voir [Types d'utilisateurs](../../administration/using/users-management.md) et [Groupes de sécurité](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Depuis l'interface d'Adobe Campaign, vous pouvez :
 
@@ -182,7 +182,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres crit�
 
 **Rubrique connexe :**
 
-[Ajouter ou étendre une ressource](../../developing/using/key-steps-of-adding-a-resource.md)
+[Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Paramètres des alertes de diffusion {#delivery-alerting-parameters}
 
