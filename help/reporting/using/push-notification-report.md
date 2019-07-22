@@ -14,7 +14,7 @@ discoiquuid: a 425 cd 59-edfd -42 c 5-a 6 bd -38773 c 353 ff 0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ Le premier tableau **Résumé d'engagement des notifications push** (Push notifi
 
 * **[!UICONTROL Traités/envoyés]** : nombre total de notifications push envoyées.
 * **[!UICONTROL Délivrés]** : nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.
-* **[!UICONTROL Impressions]** : nombre total de notifications push vues par les destinataires.
+* **[!UICONTROL Impressions]**: Nombre de fois où une notification Push a été diffusée sur le périphérique et n'est pas affectée dans le centre de notification. Dans la plupart des cas, le nombre d'impressions doit être similaire au nombre livré. Ainsi, le périphérique a obtenu le message et retransmet ces informations au serveur.
 * **[!UICONTROL Impressions uniques]** : nombre d'impressions par destinataire.
 * **[!UICONTROL Taux de clics]** : pourcentage d'utilisateurs ayant interagi avec la notification push.
 * **[!UICONTROL Taux d'ouverture]** : pourcentage de notifications push ouvertes.
@@ -48,8 +48,8 @@ Le deuxième tableau **Clics et ouvertures des notifications push** (Push notifi
 
 * **[!UICONTROL Impressions]** : nombre total de notifications push vues par les destinataires.
 * **[!UICONTROL Impressions uniques]** : nombre d'impressions par destinataire.
-* **[!UICONTROL Clic]** : nombre de fois où les utilisateurs interagissent avec la notification push, par exemple clics sur la notification ou le bouton.
+* **[!UICONTROL Cliquez]** sur : Nombre de fois où une notification Push a été diffusée sur le périphérique et a cliqué par l'utilisateur. L'utilisateur souhaitait afficher la notification, qui sera ensuite déplacée vers le suivi Ouvrir l'ouvrir ou la fermer.
 * **[!UICONTROL Clics uniques]** : nombre de fois où un utilisateur unique interagit avec la notification push, par exemple clics sur la notification ou le bouton.
-* **[!UICONTROL Ouverture]** : nombre total d'applications lancées lorsque les utilisateurs ouvrent la notification push.
+* **[!UICONTROL Ouvrir]**: Nombre total de notifications Push diffusées sur le périphérique et sur lesquelles les utilisateurs ont cliqué pour ouvrir l'application. Cette fonction est similaire au clic Push, sauf qu'une notification Push ne sera pas déclenchée si la notification a été interrompue.
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
 
