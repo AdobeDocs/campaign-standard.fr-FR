@@ -15,7 +15,7 @@ context-tags: flux de travail, présentation ; flux de travail, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ Un workflow est toujours démarré manuellement. Une fois lancé, il peut toutef
 
 >[!CAUTION]
 >
->Nous vous recommandons de ne pas exécuter plus de 5 workflows simultanément. Si trop de workflows sont exécutés en même temps, le système risque de manquer de ressources et peut devenir instable. Il est également conseillé de répartir les workflows dans la durée.
+> Adobe recommande aux clients de hiérarchiser les exécutions de workflows et d'exécuter au maximum 20 workflows simultanément de façon à obtenir constamment des performances maximales sur leur instance. Il est possible de planifier plus de 20 exécutions de workflows simultanées ; elles s'exécuteront en séquence par défaut. Vous pouvez ajuster les paramètres par défaut pour le nombre maximum d'exécutions de flux de travaux simultanés en envoyant un ticket au service d'assistance clientèle.
 
 Les actions relatives à l'exécution (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur est disponible pour l'appliquer.
 
