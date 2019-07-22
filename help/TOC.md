@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: utilisateur final
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
+source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
 
 ---
 
@@ -175,6 +175,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [Interface du reporting](reporting/using/reporting-interface.md)
       + [Liste des composants ](reporting/using/list-of-components-.md)
       + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
+      + [Résolution des problèmes](reporting/using/troubleshooting.md)
    + Liste des rapports {#list-of-reports}
       + [Définir la période d'un rapport](reporting/using/defining-the-report-period.md)
       + [Synthèse des rebonds (Bounce summary)](reporting/using/bounce-summary.md)
@@ -196,6 +197,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [Ajouter des visualisations](reporting/using/adding-visualizations.md)
       + [Ajouter des composants](reporting/using/adding-components.md)
       + [Création d'une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
+      + [Création d'un rapport basé sur des segments de processus](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Utilisation de Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
@@ -274,6 +276,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [Réconciliation](automating/using/reconciliation.md)
       + [Extraction de fichier](automating/using/extract-file.md)
       + [Services d'inscriptions](automating/using/subscription-services.md)
+      + [API externe](automating/using/external-api.md)
    + Filtrer les données {#filtering-data}
       + [Edition de requêtes](automating/using/editing-queries.md)
       + [Edition avancée d'expressions](automating/using/advanced-expression-editing.md)
@@ -291,7 +294,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [Statuts des ressources](developing/using/resource-statuses.md)
       + [Contrôle des modifications du modèle de données](developing/using/monitoring-data-model-changes.md)
    + Ajouter ou étendre une ressource {#adding-or-extending-a-resource}
-      + [Principales étapes pour ajouter une ressource](developing/using/key-steps-of-adding-a-resource.md)
+      + [Procédure clé pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
       + [Configuration de la structure de données de la ressource](developing/using/configuring-the-resource-s-data-structure.md)
       + [Configuration de la définition d'écran](developing/using/configuring-the-screen-definition.md)
@@ -311,7 +314,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
    + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
-      + [Types d'utilisateurs](administration/using/types-of-users.md)
+      + [Gestion des utilisateurs](administration/using/users-management.md)
       + [Entités organisationnelles](administration/using/organizational-units.md)
       + [Liste des rôles](administration/using/list-of-roles.md)
       + [Gestion des groupes et des utilisateurs](administration/using/managing-groups-and-users.md)
