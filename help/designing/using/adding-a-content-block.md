@@ -14,7 +14,7 @@ discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Pour créer un bloc de contenu, respectez les étapes suivantes :
 1. Saisissez le contenu du ou des blocs de contenu, et cliquez sur le bouton **[!UICONTROL Créer].**
 
 Votre bloc de contenu est désormais utilisable dans l'éditeur de contenu d'un message ou d'une landing page.
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. Dans le code HTML, les espaces blancs s'affichent à l'écran ; ils affecteront donc la disposition de votre contenu.
 
 ## A propos de la dimension de ciblage {#about-targeting-dimension}
 
