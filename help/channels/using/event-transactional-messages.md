@@ -15,7 +15,7 @@ context-tags: Deliverytransactionaltemplate, présentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ Par exemple, l'événement ne pourrait pas être assigné à une diffusion d'ex�
 
 Une fois que l'événement a été assigné à une diffusion d'exécution, le message transactionnel peut échouer en raison d'une erreur temporaire, par exemple si la boîte du destinataire est pleine. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-Si un événement transactionnel a été affecté à une livraison d'exécution qui a échoué, cet événement est repoussé et réévalué ultérieurement. Lorsqu'elle est tentée, elle est affectée à une nouvelle remise d'exécution.
-
 >[!NOTE]
 >
 >Lorsqu'un événement est assigné à une diffusion d'exécution, il apparaît dans les logs d'envoi de cette diffusion d'exécution, et uniquement à ce moment. Les diffusions en échec sont affichées dans l'onglet **[!UICONTROL Liste des exécutions]du message transactionnel.**
@@ -323,9 +321,7 @@ Si un événement transactionnel a été affecté à une livraison d'exécution 
 
 **Mise à jour des logs d'envoi**
 
-Lorsqu'un événement transactionnel a été affecté à une livraison d'exécution qui a échoué, cet événement est repoussé et tentait quelques minutes plus tard. Lorsqu'elle est tentée, elle est affectée à une nouvelle remise d'exécution.
-
-Toutefois, les journaux d'envoi de la nouvelle livraison d'exécution ne sont pas immédiatement mis à jour (la mise à jour est effectuée via un processus planifié). Cela signifie que le message peut être à l'état **[!UICONTROL En attente], même si l'événement transactionnel a été traité par la nouvelle diffusion d'exécution.**
+Dans le processus de reprise, les logs d'envoi de la nouvelle diffusion d'exécution ne sont pas immédiatement mis à jour (la mise à jour est réalisée via un workflow planifié). Cela signifie que le message peut être à l'état **[!UICONTROL En attente], même si l'événement transactionnel a été traité par la nouvelle diffusion d'exécution.**
 
 **Diffusion d'exécution en échec**
 
