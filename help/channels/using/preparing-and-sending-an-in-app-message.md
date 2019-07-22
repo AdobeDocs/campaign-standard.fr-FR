@@ -15,7 +15,7 @@ context-tags: delivery, triggers, back ; Deliverycreation, assistant
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** : ce type de message permet de cibler tous les utilisateurs connus ou anonymes d'une application mobile ayant un profil mobile dans Adobe Campaign. Ce type de message peut être personnalisé à l'aide d'attributs qui ne sont pas personnels ni sensibles. Il n'est pas nécessaire d'établir une liaison sécurisée entre le SDK Mobile et le service de messagerie In-App d'Adobe Campaign.
 
    Pour plus d'informations sur la gestion des données personnelles et sensibles, reportez-vous à la section [Gestion des champs de profil mobile avec des données personnelles et sensibles](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Gestion des champs de profil mobile avec des données personnelles et sensibles {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
