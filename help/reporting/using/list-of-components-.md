@@ -14,7 +14,7 @@ discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -83,7 +83,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Profils<br /> </td> 
-   <td> Regroupe les champs de paramètres d'usine et de profil personnalisé créés lors de l'extension de la ressource de profil. Pour plus d'informations, consultez cette <a href="../../developing/using/key-steps-of-adding-a-resource.md">page</a> ou cet <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemple</a>.<br /> Notez que les données de cette dimension sont récupérées dès la publication de la ressource personnalisée liée au champ de profil.<br /> </td> 
+   <td> Regroupe les champs de paramètres d'usine et de profil personnalisé créés lors de l'extension de la ressource de profil. Pour plus d'informations, consultez cette <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> ou cet <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemple</a>.<br /> Notez que les données de cette dimension sont récupérées dès la publication de la ressource personnalisée liée au champ de profil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plateforme push<br /> </td> 
