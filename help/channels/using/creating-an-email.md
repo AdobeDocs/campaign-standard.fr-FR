@@ -14,7 +14,7 @@ discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
    >
    >Pour pouvoir enregistrer votre email, vous devez éditer le contenu. Si vous cliquez sur **[!UICONTROL Annuler]à cette étape, vous ne terminerez pas l'assistant et votre email ne sera pas créé.**
 
-   Le dashboard d'email s'affiche alors. Voir à ce propos la section [Valider les messages](../../sending/using/preparing-the-send.md).
+   Le dashboard d'email s'affiche alors. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Vous pouvez, par exemple, configurer le courrier électronique de sorte que son libellé soit calculé au moment de la préparation de la remise. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
