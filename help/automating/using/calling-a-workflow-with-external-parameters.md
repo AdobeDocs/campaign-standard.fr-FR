@@ -14,7 +14,7 @@ discoiquuid: 1676 da 91-55 e 3-414 f-bcd 3-bb 0804 b 682 bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7c3b44a97af080ea7a1c28c7b7573d690d4df308
+source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
 
 ---
 
@@ -200,6 +200,10 @@ Les variables d'événements déclarées sont à présent disponibles dans la li
 >Cette action peut être réalisée à partir de n'importe quelle activité qui vous permet de définir un code segment, tel que des activités **[!UICONTROL Requête]** ou **Segmentation[!UICONTROL .]**
 
 ![](assets/extsignal_activities_segment.png)
+
+**Libellé de diffusion**: définissez le libellé de diffusion en fonction des variables d'événements.
+
+![](assets/extsignal_activities_label.png)
 
 ## Utilisation :{#use-case}
 
