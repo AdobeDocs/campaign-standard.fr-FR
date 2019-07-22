@@ -15,7 +15,7 @@ context-tags: livraison, principale
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ Le tableau de bord d'un message est un espace de travail composé de différente
 La barre grise regroupe différentes icônes en lien avec votre message.
 
 * **[!UICONTROL Afficher le résumé]** : affiche/masque les informations principales relatives au message.
-* **[!UICONTROL Editer les propriétés]** : permet d'accéder à l'écran d'édition des paramètres avancés du message.
+* **[!UICONTROL Editer les propriétés]**[ : permet d'accéder à l'écran d'édition des paramètres avancés du message](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Rapports]** : permet d'accéder à la liste des rapports relatifs au message.
 
 **Rubriques connexes :**
