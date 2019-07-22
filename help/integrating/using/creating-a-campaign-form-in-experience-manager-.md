@@ -14,7 +14,7 @@ discoiquuid: 4 a 8 b 5807-87 dd -4 db 4-bd 67-890 f 0 adae 932
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez créer des pages de type « formulaire » sur vos sites AEM et map
 
 Pour créer un formulaire Adobe Campaign sur votre site AEM :
 
-1. Sur votre site AEM, créez une page basée sur le modèle** Adobe Campaign Profile**.
+1. Dans votre site AEM, créez une page basée sur le modèle **Profil Adobe Campaign**.
 
    ![](assets/aem_content_forms.png)
 
