@@ -15,7 +15,7 @@ context-tags: planifier, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
 
 ---
 
@@ -45,10 +45,10 @@ Lors de la construction de votre workflow, n'utilisez pas plus d'une activité *
 1. Specify the **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Une seule fois]** : le workflow n'est exécuté qu'une seule fois.
-   * **[!UICONTROL Plusieurs fois par jour]** : le workflow est exécuté de manières régulière plusieurs fois par jour.
+   * **[!UICONTROL Plusieurs fois par jour]** : le workflow est exécuté de manières régulière plusieurs fois par jour. Vous pouvez configurer des exécutions à des moments spécifiques ou régulièrement.
    * **[!UICONTROL Quotidienne]** : le workflow est exécuté à une heure précise, une fois par jour.
    * **[!UICONTROL Hebdomadaire]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par semaine.
-   * **[!UICONTROL Mensuelle]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par mois.
+   * **[!UICONTROL Mensuelle]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par mois. Vous pouvez sélectionner des mois lorsque vous avez besoin du flux de travail. Vous pouvez également configurer les exécutions le jour de semaine spécifié du mois, comme le deuxième mardi du mois.
    * **[!UICONTROL Annuelle]** : le workflow est exécuté à un instant défini, une ou plusieurs fois par an.
 
 1. Spécifiez les détails de l'exécution selon la fréquence choisie. Les champs du détail peuvent varier en fonction de la fréquence sélectionnée (heure, fréquence de répétition, jours spécifiques, etc.).
@@ -62,6 +62,8 @@ Lors de la construction de votre workflow, n'utilisez pas plus d'une activité *
    * **[!UICONTROL Jamais]** : Le workflow sera exécuté selon la fréquence d'exécution définie, sans limite dans le temps ni au niveau du nombre d'itérations.
    * **[!UICONTROL Après un certain nombre d'itérations]** : le workflow sera exécuté selon la fréquence d'exécution définie, dans la limite de **X** itérations. Indiquez alors le **[!UICONTROL Nombre d'itérations].**
    * **[!UICONTROL A la date spécifiée]** : le workflow sera exécuté selon la fréquence d'exécution définie, jusqu'à une date précise. Indiquez alors la date limite d'exécution.
+
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. Dans l'onglet **[!UICONTROL Options d'exécution]**, définissez le fuseau horaire du Planificateur dans le champ **Fuseau horaire[!UICONTROL .]** Vous pouvez ainsi démarrer le workflow dans un fuseau horaire spécifique. Sinon, celui-ci s'exécutera par défaut dans le fuseau horaire du serveur.
 
