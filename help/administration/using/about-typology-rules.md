@@ -15,7 +15,7 @@ context-tags: typologie, présentation ; Tycategoryrule, main ; Tycategoryrule, 
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -85,10 +85,6 @@ Dans la catégorie **[!UICONTROL Contexte de ciblage]**, vous pouvez sélectionn
 By default, filtering is carried out on the **[!UICONTROL Profiles]**. Par exemple, si la règle est destinée à une application mobile, la **[!UICONTROL Dimension de filtrage]** peut être changée en **[!UICONTROL Abonnements à une application]**.
 
 ![](assets/typology_rule-order_2.png)
-
->[!NOTE]
->
->Le contenu des règles de contrôle n'étant pas modifiable, ce sont essentiellement les règles de filtrage qui sont utilisées.
 
 ## Ordre d'exécution des règles de typologie {#typology-rules-execution-order}
 
