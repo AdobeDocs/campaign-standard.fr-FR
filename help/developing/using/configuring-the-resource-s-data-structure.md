@@ -15,7 +15,7 @@ context-tags: Cusresource, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
    >[!NOTE]
    >
    >Si vous laissez le champ **[!UICONTROL Libellé]vide, il sera automatiquement renseigné à partir de l'identifiant.**
+   >Nous vous recommandons d'utiliser 30 caractères maximum.
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ Chaque ressource doit posséder au moins une clé permettant de l'identifier de 
 
 1. Utilisez le bouton **[!UICONTROL Créer un élément]pour créer une clé.**
 
-   Les champs **[!UICONTROL Libellé]** et **Identifiant]sont renseignés par défaut, mais ils peuvent être édités.[!UICONTROL **
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >Nous vous recommandons d'utiliser 30 caractères maximum.
 
 1. Pour définir les éléments composant cette clé, cliquez sur **[!UICONTROL Créer un élément]et sélectionnez les champs que vous avez créés pour cette ressource.**
 
@@ -102,6 +107,11 @@ La définition des index est recommandée mais elle n'est pas obligatoire.
    ![](assets/schema_extension_26.png)
 
 1. Les champs **[!UICONTROL Libellé]** et **Identifiant]sont renseignés par défaut, mais vous pouvez les modifier.[!UICONTROL **
+
+   >[!NOTE]
+   >
+   >Nous vous recommandons d'utiliser 30 caractères maximum.
+
 1. Pour définir les éléments composant cet index, sélectionnez les champs parmi ceux que vous avez créés pour cette ressource.
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ Un lien décrit l'association d'une table avec d'autres tables.
    ![](assets/schema_extension_29.png)
 
 1. Dans l'écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]et** Identifiant] sont renseignés par défaut, mais vous pouvez les modifier.**[!UICONTROL **
+
+   >[!NOTE]
+   >
+   >Nous vous recommandons d'utiliser 30 caractères maximum.
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ Dans l'écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]in
    ![](assets/schema_extension_30.png)
 
 1. Si besoin, modifiez le libellé et l'identifiant de la ressource.
+
+   >[!NOTE]
+   >
+   >Nous vous recommandons d'utiliser 30 caractères maximum.
+
 1. Si vous devez restreindre l'accès de cette ressource à certaines entités organisationnelles, indiquez-les ici. Seuls les utilisateurs des entités autorisées pourront utiliser cette ressource dans l'application.
 1. Enregistrez les modifications.
 
