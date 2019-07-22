@@ -15,7 +15,7 @@ context-tags: livraison, déploiement, retour
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ Le message est en cours d'envoi.
 >[!NOTE]
 >
 >Si le message est planifié, il sera envoyé à l'heure d'envoi. Pour plus d'informations sur la planification des messages, consultez [cette section](../../sending/using/about-scheduling-messages.md).
+
+Si vous utilisez une remise récurrente sans période d'agrégation, vous pouvez demander confirmation avant l'envoi de la diffusion. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 La zone **[!UICONTROL Déploiement]affiche la progression de l'envoi.**
 
