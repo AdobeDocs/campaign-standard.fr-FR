@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ Vous recherchez une version spécifique d’Adobe Campaign Standard ?
 Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez sur une version pour consulter son contenu. Pour connaître la date de la prochaine version, consultez le [calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html).
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une version précédente, consultez ces pages : [Notes de mise à jour de l'année 2018](../../rn/using/release-notes-2018.md), [Notes de mise à jour de l'année 2017](../../rn/using/release-notes-2017.md), [Notes de mise à jour des années 2015-2016](../../rn/using/release-notes-2015-2016.md). Consultez également la liste des [fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+
+## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Fonctionnalité<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion.</p><p>Pour plus d'informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Améliorations de la sécurité {#security-enhancements-2}
+
+* Correction d'un problème de sécurité empêchant les attaques par déni de service (DoS) d'obtenir des images. (CAMP-33454)
+
+### Améliorations du Concepteur d'email {#email-designer-enhancements-3}
+
+* Correction d'un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu'un composant était ajouté, ce qui pouvait considérablement accroître la taille du modèle. (CAMP-34694)
+* Correction d'un problème qui empêchait la disponibilité des options de menu de barre d'outils supérieure droite. (CAMP-34577)
+* Correction d'un problème survenant lorsque le bloc de contenu de l'URL de la page Miroir était inséré dans un contenu de courrier électronique. (CAMP-34779)
+* Correction d'un problème survenant lors de l'utilisation du code JPSP par courriel, rendant difficile la modification du contenu. (CAMP-34574)
+* Correction d'un problème en raison duquel les images étaient tronquées en cas d'ajout d'un hyperlien. (CAMP-34382)
+* Correction d'un problème d'affichage lors de l'utilisation de Designer Designer avec Firefox. (CAMP-34364)
+* Correction de plusieurs problèmes survenant avec le mode Avancé lors de la définition de contenu dynamique par courriel. (CAMP -34351, CAMP -34333, CAMP -34331)
+* Correction de plusieurs problèmes survenant avec l'éditeur de règles de contenu dynamique (CAMP -34304, CAMP -34303).
+* Correction d'un problème qui empêchait l'affichage du champ Link dans le volet Settings Designer Settings (CAMP -33749).
+* Correction d'un problème lié à l'icône YouTube surdimensionnée dans les courriers électroniques envoyés. (CAMP-33726)
+* Correction d'un problème de sécurité qui modifiait le contenu de la page miroir. (CAMP-33691)
+* Correction d'un problème qui rompt la sortie HTML lors de l'utilisation du symbole plus grand que dans le contenu dynamique. (CAMP-33688)
+* Correction d'un problème survenant lors de l'utilisation de l'option Annuler lors de la modification du texte dans Designer. (CAMP-32565)
+* Correction d'un problème qui créait des balises supplémentaires lors de l'annulation de styles au lieu de les supprimer. (CAMP-32359)
+* Il est désormais possible de définir si chaque image utilisée par courriel s'affiche uniquement sur les périphériques de bureau ou uniquement sur les périphériques mobiles.
+* Il est désormais possible de définir la largeur et la hauteur d'un composant de contenu Social.
+* Correction d'un problème en raison duquel le code source ancien du contenu dynamique n'était pas supprimé après suppression du contenu dynamique.
+* Correction d'un problème qui empêchait la mise à jour du sujet d'un courrier électronique après sa modification.
+* Correction d'un problème qui empêchait un n : n la structure de colonne n'est pas sélectionnée une fois déposée dans l'espace de travail.
+* Correction d'un problème en raison duquel la miniature du message apparaissait floue dans le tableau de bord Courriel.
+* Correction d'un problème qui empêchait l'affichage correct de l'arrière-plan pour les courriers électroniques reçus dans Outlook.
+* Correction de certains problèmes de tri sur la page d'accueil de Designer.
+* Correction d'un problème survenant lors de la duplication de variantes lors de l'utilisation du contenu dynamique.
+* Certains champs indésirables ont été supprimés du volet Paramètres de Designer.
+
+### Autres améliorations {#other-improvements-3}
+
+* Grâce à l'intégration aux services de localisation Adobe Experience Platform, Adobe Campaign est désormais compatible pour envoyer des messages marketing basés sur l'emplacement aux abonnés de votre application mobile via le SDK d'Experience Platform. Pour plus d'informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* La fonctionnalité de création de rapports a été améliorée pour une meilleure expérience. Pour utiliser cette fonctionnalité, vous devez accepter l'accord d'utilisation dynamique des rapports. Consultez à ce sujet la [documentation détaillée](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* Dans les flux de travaux, une nouvelle option a été ajoutée pour prévisualiser les dix prochaines exécutions d'un flux de travaux. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
+* Dans l'activité du planificateur, une nouvelle option vous permet de sélectionner un jour spécifique d'une semaine spécifique pour les livraisons mensuelles. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
+* Lors de la création de distributions récurrentes sans période d'agrégation, le tableau de bord de diffusion vous permet désormais de demander confirmation avant l'envoi de la livraison. Consultez à ce sujet la [documentation détaillée](../../sending/using/confirming-the-send.md).
+* Vous pouvez désormais personnaliser l'étiquette d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* La requête de suppression GDPR a été améliorée pour une meilleure performance. (CAMP-33504)
+* L'option « ftp » a été supprimée de l'interface de configuration du compte externe. (CAMP-34472)
+
+### Autres changements {#other-changes-2}
+
+* Un avertissement a été ajouté à l'interface des propriétés de diffusion. Elle indique que les remises sont préparées en fonction de leur période d'agrégation et de leur appel pour appeler le flux de travail plusieurs fois par jour, vous devez vous assurer qu'elles n'ont aucune période. (CAMP-34393)
+* Un avertissement a été ajouté aux écrans de configuration des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens.
+* Un message s'affiche désormais lorsque vous tentez de supprimer un message transactionnel utilisé par une page d'entrée comme message de confirmation.
+* Un avertissement s'affiche désormais dans les journaux de processus lorsqu'une activité est en cours d'exécution pendant plus de 6 heures. Ceci ne s'applique pas aux activités de notification Push, de livraison, de signal, de début, de fin, de fourchette et de liaison, de planification et d'attente.
+* Un avertissement s'affiche désormais dans les journaux de processus lorsque vous atteignez le nombre maximal de flux de travaux en cours d'exécution simultanément.
+* Les flux de travaux en pause ou en échec pendant plus de 7 jours sont maintenant arrêtés pour consommer moins d'espace disque. La tâche de nettoyage s'affiche dans les journaux de flux de travaux.
+* Lors de l'utilisation d'une activité de transfert de fichier, une erreur est maintenant consignée si la taille du fichier dépasse l'espace disque disponible.
+* L'action Rediriger vers l'URL de destination ne peut plus être sélectionnée pour le bouton secondaire dans les messages in-app.
+
+### Correctifs {#patches-3}
+
+* Correction d'un problème qui entraînait l'échec des demandes d'accès GDPR.
+* Correction d'un problème qui entraînait l'annulation de déclencheurs lors de la réception de plusieurs déclencheurs pour un profil unique.
+* Correction d'un problème qui entraînait un message d'erreur de publication de ressource personnalisée erroné après la connexion.
+* Correction d'un problème qui affichait une page vierge lors de la création ou de l'extension d'une ressource personnalisée.
+* Correction d'un problème qui empêchait une audience avec appsubscriptionrcp comme dimension de ciblage d'être disponible pour le ciblage dans une diffusion mobile.
+* Correction d'une erreur qui empêchait la mise en quarantaine des adresses électroniques de rebonds. (CAMP-24587)
+* Correction d'un problème qui survenait lors de l'ajout d'une règle de typologie, puis la supprimait avant d'enregistrer la typologie. (CAMP-32789)
+* Correction d'un problème qui empêchait l'affichage du contenu de la page d'entrée lors de la désactivation du contenu dynamique. (CAMP-32924)
+* Correction d'un problème lié aux remises périodiques qui survenait lors de l'utilisation de la personnalisation sur les attributs d'une remise principale. (CAMP-32983)
+* Correction d'un problème dans les flux de travaux qui empêchait la lecture des résultats d'une transition contenant des données SMS entrants. (CAMP-33134)
+* Correction d'un problème dans les flux de travaux qui se produisait lors de la combinaison d'activités de fourre et d'exclusion pour créer des audiences. (CAMP-33401)
+* Correction d'un problème qui empêchait l'affichage du contenu de la page miroir et l'envoi des messages d'épreuves pour les remises récurrentes. (CAMP-33413)
+* Correction d'un problème qui entraînait une erreur lors de l'utilisation d'une activité Union entre les profils et les audiences. Ce problème était dû à une incompatibilité des clés d'identification dans les transitions d'entrée. (CAMP-33713)
+* Correction d'un problème dans les activités Test qui empêchait l'expression « reccount » d'utiliser la syntaxe correcte lors de la double-clic dessus. (CAMP-33756)
+* Correction d'un problème qui pouvait entraîner un message d'erreur lors de l'ouverture des journaux de flux de travaux techniques de facturation. (CAMP-34313)
+* Correction d'un problème dans les pages d'entrée qui pouvait se produire lors de la configuration des champs de case à cocher avec des abonnements. (CAMP-34369)
+* Correction d'un problème survenant lors de la configuration d'une liste et l'ajout du champ « icône ». (CAMP-34585)
+* Correction d'un problème qui empêchait l'utilisation de la variable| » et les symboles " %" comme séparateurs de date ou d'heure dans les activités de chargement des fichiers de fichier. (CAMP-34706)
+* Correction d'un problème qui survenait dans les processus lors de l'ajout d'une activité, l'enregistrement du flux de travail, puis l'accès au bouton Précédent du navigateur. L'activité nouvellement ajoutée a été supprimée de l'espace de travail. (CAMP-34788)
+* Correction d'un problème qui survenait lors de l'utilisation de conditions de visibilité avec des cases à cocher dans les pages d'entrée. (CAMP-34802)
+* Correction d'un problème de l'activité d'enrichissement qui empêchait l'affichage des champs dans l'onglet « Données supplémentaires » si la dimension de filtrage était définie sur les journaux de suivi et la dimension cible dans le profil.
+* Correction d'un problème qui entraînait un message d'erreur lors de l'exportation d'une ressource de type « workflowtemplate ».
+* Correction d'un problème lors de la création d'un nouveau profil, qui empêchait l'enregistrement du champ « Pays/région » s'il était sélectionné dans la boîte de dialogue.
+* Correction de plusieurs problèmes survenant lors de l'utilisation du modèle d'importation Direct Mail (updatequarantinesdeliverylogsdirectmail).
+* Correction d'un problème lié à l'intégration de la demande Ressources on -.
+* Correction d'un problème survenant lors du zoom avant sur la vue Chronologie. (CAMP-33628)
+* Correction d'un problème qui empêchait l'envoi instantané des épreuves pour les messages électroniques avec une date et une heure planifiées. (CAMP-33723)
+* Correction d'un problème lié aux messages transactionnels qui générait des journaux d'erreur lors de la déconnexion d'un utilisateur. (CAMP-31698)
+* Correction d'une erreur qui pouvait se produire dans des environnements spécifiques lors de la planification d'un courriel.
+* Correction d'un problème en raison duquel le processus d'exécution de remise de la remise échouait.
+* Correction d'un problème de sécurité qui rompait le contenu du courrier électronique lorsque le sujet contenait plusieurs lignes.
+
 
 ## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
 
