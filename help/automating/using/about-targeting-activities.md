@@ -14,7 +14,7 @@ discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ La section **[!UICONTROL Ciblage]fournit les activités suivantes :**
 * [Déduplication](../../automating/using/deduplication.md)
 * [Enrichissement](../../automating/using/enrichment.md)
 
+**[!UICONTROL Les]** activités de ciblage vous permettent de définir **des codes** de segment pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports basés sur ces codes de segments afin de mesurer l'efficacité des campagnes de marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
