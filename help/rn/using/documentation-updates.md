@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ Découvrez l'ensemble des mises à jour les plus récentes de la documentation d
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Standard.
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
+
+## Version 19.3 - Juillet 30 {#release-19-3---july-2019}
+
+### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-19}
+
+### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. Elle indique que les remises sont préparées en fonction de leur période d'agrégation et que, si vous prévoyez d'appeler le flux de travail plusieurs fois par jour, vous devez vérifier qu'elles n'ont pas de période.
+
+Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ Déplacement vers cet [emplacement](https://helpx.adobe.com/campaign/kb/configur
 
 Mise à jour des vidéos et déplacement vers cet [emplacement](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-Mise à jour de la section Type des utilisateurs – [En savoir plus](../../administration/using/types-of-users.md)
+Mise à jour de la section Type des utilisateurs – [En savoir plus](../../administration/using/users-management.md)
 
 ## Version 18.9 - Septembre 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Vidéo Nouveau rapport dynamique – [En savoir plus](../../start/using/how-to-
 
 Ajout de recommandations relatives au compte S3 – [En savoir plus](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-Mise à jour de la section sur les différents types d'utilisateurs – [En savoir plus](../../administration/using/types-of-users.md)
+Mise à jour de la section sur les différents types d'utilisateurs – [En savoir plus](../../administration/using/users-management.md)
 
 Mise à jour de la section sur la personnalisation des images sources – [En savoir plus](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Intégration de Dreamweaver disponible – [En savoir plus](https://helpx.adob
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-14}
 
-Section ajoutée sur les différents types d'utilisateurs d'Adobe Campaign – [En savoir plus](../../administration/using/types-of-users.md)
+Section ajoutée sur les différents types d'utilisateurs d'Adobe Campaign – [En savoir plus](../../administration/using/users-management.md)
 
 Le guide des workflows a été réorganisé et étoffé. Trouvez facilement comment [créer](../../automating/using/building-a-workflow.md) et [exécuter](../../automating/using/executing-a-workflow.md) un workflow, comment [cibler](../../automating/using/targeting-data.md) et [gérer](../../automating/using/targeting-data.md#enriching-data) vos données, comment [importer](../../automating/using/importing-data.md) des données et [comment utiliser les données de workflow](../../automating/using/using-workflow-data.md) afin de mettre à jour la base de données ou d'envoyer des diffusions.
 
