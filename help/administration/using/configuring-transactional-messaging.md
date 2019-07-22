@@ -14,7 +14,7 @@ discoiquuid: 3 f 968556-e 774-43 dc-a 0 b 8-7188 d 7665 fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -99,7 +99,7 @@ Ces informations peuvent également être stockées dans de nouvelles ressources
 
 ![](assets/message-center_usecaseschema.png)
 
-Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-of-adding-a-resource.md).
+Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Dans la section **[!UICONTROL Enrichissement]**, cliquez sur le bouton **Créer un élément[!UICONTROL .]**
 
@@ -307,7 +307,7 @@ Puisque nous voulons identifier notre client grâce à son identifiant CRM, assu
 
 De la même manière, une ressource personnalisée correspondant aux achats doit être créée et publiée, et doit être liée à la ressource **[!UICONTROL Profil].** De cette façon, vous pourrez récupérer les informations de cette ressource pour enrichir le contenu du message.
 
-Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-of-adding-a-resource.md).
+Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. Créez un événement en utilisant le canal **[!UICONTROL Email]** et la dimension de ciblage **[!UICONTROL Profil](voir[Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).**
 1. Définissez les attributs qui seront disponibles pour personnaliser le message transactionnel. Dans notre cas, ajoutez les champs "Identifiant CRM" et "Identificateur produit" (voir [Définir les attributs d'événement](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
