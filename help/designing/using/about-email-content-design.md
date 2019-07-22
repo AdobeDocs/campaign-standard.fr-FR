@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Vous pouvez également masquer un composant. Lorsque vous cochez cette option, le composant correspondant est masqué sur un appareil mobile.
+1. Vous pouvez masquer un composant lorsqu'il est affiché sur un périphérique mobile. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+Vous pouvez également choisir de masquer ce composant sur les périphériques de bureau. Cela signifie qu'il s'affichera uniquement sur les périphériques mobiles. To do this, select **[!UICONTROL Show only on mobile devices]**.
+Par exemple, cette option vous permet d'afficher une image spécifique sur les périphériques mobiles et une autre image sur les périphériques de bureau.
+Vous pouvez définir cette option à partir de la vue mobile ou de bureau.
 
    ![](assets/email_designer_mobile_hide.png)
 
