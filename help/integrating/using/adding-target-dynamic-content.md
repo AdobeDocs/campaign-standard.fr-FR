@@ -14,7 +14,7 @@ discoiquuid: 45 ddf 7 b 7-98 f 7-4 fdd-bb 4 a -49 ec 8490 e 877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ Pendant l'édition d'un email, vous pouvez insérer depuis Adobe Target une imag
 
 Avant d'accéder à l'image dans Adobe Campaign, les tâches suivantes doivent être réalisées dans Adobe Target :
 
-* créer une ou plusieurs [offres de redirection](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), dans lesquelles vous devez spécifier l'URL de l'image que vous souhaitez utiliser.
+* créer une ou plusieurs [offres de redirection](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), dans lesquelles vous devez spécifier l'URL de l'image que vous souhaitez utiliser.
 * créer une ou plusieurs [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html) pour définir la cible de l'activité.
 * créer une activité de type [Compositeur d'expérience d'après les formulaires](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html), dans laquelle vous devez sélectionner un "rawbox" et définir plusieurs expériences, en fonction du nombre d'offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
 * créer des segments à l'aide des informations issues d'Adobe Campaign pour spécifier des expériences. Si vous souhaitez utiliser des données issues d'Adobe Campaign dans les règles de sélection de l'offre, vous devez les spécifier au niveau du "rawbox" dans Adobe Target.
