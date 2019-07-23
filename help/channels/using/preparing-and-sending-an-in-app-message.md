@@ -53,9 +53,9 @@ Pour permettre une personnalisation plus sécurisée de vos messages In-App, les
 
 ![](assets/in_app_personal_data_2.png)
 
-Une fois la ressource personnalisée **[!UICONTROL Abonnements à une application]** configurée et personnalisée, vous pouvez commencer à préparer la diffusion In-App à l'aide du modèle **Cibler les utilisateurs en fonction de leur profil Mobile (inApp)[!UICONTROL .]** Seuls les champs qui ne sont pas personnels ni sensibles sont disponibles pour la personnalisation depuis la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)].**
+Une fois la ressource personnalisée **[!UICONTROL Abonnements à une application]** configurée et personnalisée, vous pouvez commencer à préparer la diffusion In-App à l'aide du modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**. Seuls les champs qui ne sont pas personnels ni sensibles sont disponibles pour la personnalisation depuis la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**.
 
-Si vous devez effectuer une personnalisation avec les champs **Personal and Sensitive**, il est recommandé d'utiliser le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]qui possède un mécanisme de sécurité supplémentaire pour veiller à ce que les informations PII de vos utilisateurs restent protégées.**
+Si vous devez effectuer une personnalisation avec les champs **Personal and Sensitive**, il est recommandé d'utiliser le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** qui possède un mécanisme de sécurité supplémentaire pour veiller à ce que les informations PII de vos utilisateurs restent protégées.
 
 ## Préparation de votre message In-App {#preparing-your-in-app-message}
 
@@ -81,17 +81,17 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
    * **[!UICONTROL Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)]**
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**
 
-1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion].**
+1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
 
    ![](assets/inapp_creating_3.png)
 
 1. Sélectionnez l'audience que vous souhaitez cibler pour votre message in-app. Votre audience est préfiltrée selon l'application mobile associée à cette diffusion.
 
-   Cette étape n'est pas nécessaire avec le modèle **[!UICONTROL Diffuser comme message In-App (inAppBroadcast)], car il cible tous les utilisateurs d'une application mobile.**
+   Cette étape n'est pas nécessaire avec le modèle **[!UICONTROL Diffuser comme message In-App (inAppBroadcast)]**, car il cible tous les utilisateurs d'une application mobile.
 
    ![](assets/inapp_creating_8.png)
 
-1. Dans l'onglet **[!UICONTROL Triggers], placez l'événement qui déclenchera votre message.** En choisissant un trigger, vous choisissez une action effectuée par les utilisateurs qui entraînera l'affichage du message in-app.
+1. Dans l'onglet **[!UICONTROL Triggers]**, placez l'événement qui déclenchera votre message. En choisissant un trigger, vous choisissez une action effectuée par les utilisateurs qui entraînera l'affichage du message in-app.
 
    Quatre catégories d'événements sont disponibles :
 
@@ -118,11 +118,11 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    ![](assets/inapp_creating_7.png)
 
-1. Si vous utilisez un trigger **[!UICONTROL Places], des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d'événement Places seront automatiquement renseignés d'après l'ensemble des bibliothèques et leurs points d'intérêt créés dans Adobe Places.**
+1. Si vous utilisez un trigger **[!UICONTROL Places]**, des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d'événement Places seront automatiquement renseignés d'après l'ensemble des bibliothèques et leurs points d'intérêt créés dans Adobe Places.
 
    Notez que ce déclencheur sera appliqué sur le périphérique uniquement pour les points ciblés des bibliothèques sélectionnées dans l'extension Lieux dans le lancement de la plateforme Experience. Pour plus d'informations sur l'extension Places et son installation, consultez cette [documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
 
-1. Dans l'onglet **[!UICONTROL Fréquence et durée], sélectionnez la fréquence du trigger, la date de début et de fin, le jour de la semaine et l'heure du jour auxquels le message in-app sera actif.**
+1. Dans l'onglet **[!UICONTROL Fréquence et durée]**, sélectionnez la fréquence du trigger, la date de début et de fin, le jour de la semaine et l'heure du jour auxquels le message in-app sera actif.
 
    ![](assets/inapp_creating_5.png)
 
@@ -154,13 +154,13 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
    ![](assets/inapp_sending_5.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer]pour commencer l'envoi de votre message in-app.**
+1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l'envoi de votre message in-app.
 
    ![](assets/inapp_sending_6.png)
 
 1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Voir à ce propos cette [section](../../sending/using/monitoring-a-delivery.md).
 
-   **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages.** Ces KPI ne constituent pas une indication du nombre d'appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages. 
+   **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d'appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages. 
 
    ![](assets/inapp_sending_7.png)
 
