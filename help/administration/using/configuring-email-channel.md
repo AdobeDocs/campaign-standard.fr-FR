@@ -15,7 +15,7 @@ context-tags: Extaccountemail, overview ; Emailconfig, main ; Ruleset, overview 
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ Par défaut, cinq reprises sont planifiées le premier jour de l'envoi, avec un 
 
 Le nombre de reprises peut être changé de manière globale (contactez l'administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
 
-L'option **[!UICONTROL Tester l'envoi par SMTP]vous permet de tester l'envoi des messages par SMTP.** Les messages sont traités jusqu'à la connexion au serveur SMTP, mais ne sont pas envoyés. Pour plus d'informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
-
 #### Paramètres de format des emails {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
@@ -191,6 +189,24 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
    >Cette option inclut les deux versions du message et, par conséquent, a un impact sur le débit de diffusion, car la taille du message est supérieure.
 
 * **Envoyer tous les messages au format texte** : le message est envoyé au format texte. Le format HTML ne sera pas envoyé, mais uniquement utilisé pour la page miroir, lorsque le destinataire clique sur le lien dans le message.
+
+#### Mode test SMTP {#smtp-test-mode}
+
+The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+Les messages sont traités jusqu'à ce que la connexion au serveur SMTP soit établie, mais ils ne sont pas envoyés.
+
+![](assets/smtp-test-mode.png)
+
+Cette option est disponible pour les courriels et les modèles de courrier électronique.
+
+Si vous activez l'option Mode de test SMTP pour un modèle de courrier électronique, cette option sera activée tous les messages électroniques créés à partir de ce modèle.
+
+>[!CAUTION]
+>
+>Lorsque cette option est activée pour un courrier électronique, aucun message n'est envoyé tant qu'il n'est pas décoché.
+>Un avertissement s'affiche dans le tableau de bord du modèle de courriel ou de courriel.
+
+Pour plus d'informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
 ### Paramètres de période de validité {#validity-period-parameters}
 
