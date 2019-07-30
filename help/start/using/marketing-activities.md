@@ -15,7 +15,7 @@ context-tags: activité, présentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
 
@@ -51,6 +51,7 @@ Dans la zone principale, chaque type d'activité de la liste est caractérisé p
 * ![](assets/marketing_email_icon.png) : e-mail
 * ![](assets/marketing_sms_icon.png) : SMS
 * ![](assets/marketing_push_icon.png) : notification push
+* ![](assets/marketing_lp_icon.png) : Message In-App
 * ![](assets/marketing_lp_icon.png) : landing page
 * ![](assets/marketing_workflow_icon.png) : workflow
 
