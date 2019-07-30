@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a>.</p></td> 
+   <td> <p>Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion.</p><p>Pour plus d'informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a>.</p></td> 
+   <td> <p>Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,8 +70,8 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui rompt la sortie HTML lors de l'utilisation du symbole plus grand que dans le contenu dynamique. (CAMP-33688)
 * Correction d'un problème survenant lors de l'utilisation de l'option Annuler lors de la modification du texte dans Designer. (CAMP-32565)
 * Correction d'un problème qui créait des balises supplémentaires lors de l'annulation de styles au lieu de les supprimer. (CAMP-32359)
-* Il est désormais possible de définir si chaque image utilisée par courriel s'affiche uniquement sur les périphériques de bureau ou uniquement sur les périphériques mobiles.
-* Il est désormais possible de définir la largeur et la hauteur d'un composant de contenu Social.
+* Vous pouvez maintenant définir si chaque composant utilisé par courriel s'affiche uniquement sur les périphériques de bureau ou uniquement sur les périphériques mobiles.
+* Vous pouvez désormais définir la largeur et la hauteur d'un composant de contenu Social.
 * Correction d'un problème en raison duquel le code source ancien du contenu dynamique n'était pas supprimé après suppression du contenu dynamique.
 * Correction d'un problème qui empêchait la mise à jour du sujet d'un courrier électronique après sa modification.
 * Correction d'un problème qui empêchait un n : n la structure de colonne n'est pas sélectionnée une fois déposée dans l'espace de travail.
@@ -91,6 +91,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Vous pouvez désormais personnaliser l'étiquette d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * La requête de suppression GDPR a été améliorée pour une meilleure performance. (CAMP-33504)
 * L'option « ftp » a été supprimée de l'interface de configuration du compte externe. (CAMP-34472)
+* Vous pouvez désormais activer et désactiver l'option Mode de test SMTP pour chaque courrier électronique. Consultez à ce sujet la [documentation détaillée](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 ### Autres changements {#other-changes-2}
 
@@ -123,7 +124,6 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème dans les pages d'entrée qui pouvait se produire lors de la configuration des champs de case à cocher avec des abonnements. (CAMP-34369)
 * Correction d'un problème survenant lors de la configuration d'une liste et l'ajout du champ « icône ». (CAMP-34585)
 * Correction d'un problème qui empêchait l'utilisation de la variable| » et les symboles " %" comme séparateurs de date ou d'heure dans les activités de chargement des fichiers de fichier. (CAMP-34706)
-* Correction d'un problème qui survenait dans les processus lors de l'ajout d'une activité, l'enregistrement du flux de travail, puis l'accès au bouton Précédent du navigateur. L'activité nouvellement ajoutée a été supprimée de l'espace de travail. (CAMP-34788)
 * Correction d'un problème qui survenait lors de l'utilisation de conditions de visibilité avec des cases à cocher dans les pages d'entrée. (CAMP-34802)
 * Correction d'un problème de l'activité d'enrichissement qui empêchait l'affichage des champs dans l'onglet « Données supplémentaires » si la dimension de filtrage était définie sur les journaux de suivi et la dimension cible dans le profil.
 * Correction d'un problème qui entraînait un message d'erreur lors de l'exportation d'une ressource de type « workflowtemplate ».
