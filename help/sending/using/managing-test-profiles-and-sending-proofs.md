@@ -15,7 +15,7 @@ context-tags: Seedmember, présentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ Vous devez envoyer autant de BAT que nécessaire jusqu'à ce que le contenu de v
 **Rubrique connexe :**
 
 Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+Cette section explique comment envoyer des épreuves à l'aide de données client réelles accessibles via un flux de travail, plutôt que d'utiliser des données de profil de test factice. Cela vous permet de vérifier que les variables utilisées dans le processus sont exactes et d'obtenir une vue du message reçu par vos destinataires.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. Voir à ce sujet la section [Gérer les profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   Ce profil de test fait partie du public ciblé.
+
+   >[!NOTE]
+   >
+   >Lors de l'utilisation d'un profil de test comme recouvrement, pour les champs enrichis d'un message, les données supplémentaires correspondantes sont sélectionnées de manière aléatoire à partir d'un profil ciblé réel et affectées au profil du test de recouvrement.
+
+1. Accédez à la liste des activités marketing et créez un processus de test.
+
+   Voir à ce propos la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Placez une activité **[!UICONTROL Requête]dans votre workflow, puis ouvrez-la.**
+
+   L'activité Requête est présentée dans la section [Requête](../../automating/using/query.md).
+
+1. Ajoutez des données supplémentaires à partir d'un tableau lié. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. Placez une activité **Diffusion Email** dans votre workflow, puis ouvrez-la.
+
+   L'activité Diffusion Email est présentée dans la section [Diffusion Email](../../automating/using/email-delivery.md).
+
+1. Dans le tableau de bord des messages électroniques, sélectionnez le profil de test avec l'utilisation du recouvrement que vous avez créée.
+
+1. Ajoutez aux champs de personnalisation de votre contenu email les données supplémentaires que vous avez définies dans l'activité Requête.
+
+1. Enregistrez le courrier électronique et démarrez le processus.
+
+Lors de la préparation du message, le nombre de cibles inclut le profil de test que vous avez sélectionné.
+Une fois le message envoyé, d'autres données sont remplacées par des données provenant d'un profil réel.
+
+>[!NOTE]
+>
+>Seules les données supplémentaires sont remplacées. Aucune donnée de profil réelle, telle que prénom ou nom, ne sera utilisée pour le profil de test.
