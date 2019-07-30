@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
 
-## Version 19.3 - Juillet 30 {#release-19-3---july-2019}
+## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+Une nouvelle section a été ajoutée, expliquant comment créer un utilisateur dans Adobe Campaign Standard. [En savoir plus](../../administration/using/users-management.md)
+
+Un dépannage a été ajouté pour la création de rapports dynamiques. [En savoir plus](../../reporting/using/troubleshooting.md)
+
+Un diagramme expliquant comment les différents modèles In-App traitent les informations personnelles a été ajouté. [En savoir plus](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+La section relative à l'enregistrement du contenu de courrier électronique en tant que fragment dans le concepteur de courrier électronique a été mise à jour. [En savoir plus](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+Un avertissement a été ajouté sur la manière dont les espaces blancs supplémentaires peuvent avoir une incidence sur la disposition d'un contenu de courrier électronique. [En savoir plus](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+Une nouvelle section sur les mises à jour recommandées pour Designer Designer a été ajoutée. [En savoir plus](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+Une nouvelle section sur la manière d'envoyer des épreuves à l'aide de données client réelles a été ajoutée. [En savoir plus](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+Une nouvelle section sur les meilleures pratiques de flux de travail a été ajoutée. [En savoir plus](../../automating/using/best-practices-workflows.md)
+
+Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Ajout d'un avertissement dans la documentation des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 Ajout d'une nouvelle page aux limites de la page d'entrée. [En savoir plus](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Un cas d'utilisation a été ajouté sur la manière d'appeler un profil à l'ai
 
 Une recommandation a été ajoutée concernant l'utilisation de distributions récurrentes sans période d'agrégation lors de l'appel d'un flux de travail avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-La section relative à l'enregistrement du contenu de courrier électronique en tant que fragment dans le concepteur de courrier électronique a été mise à jour. [En savoir plus](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Ajout d'un avertissement dans la documentation des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Ajout d'informations sur la nouvelle option des activités Requête ([en savoir 
 Ajout d'informations à la section sur l'activité Mise à jour de données. Ces informations concernent le nouveau champ Taille du lot qui permet de définir la taille maximale du lot des données à charger –  [En savoir plus](../../automating/using/update-data.md#configuration)
 
 Ajout d'informations à la section sur l'activité Extraction de fichier. Ces informations concernent la nouvelle option permettant de désactiver le processus de génération de fichier si la transition sortante est vide –  [En savoir plus](../../automating/using/extract-file.md#configuration)
-
-Ajout d'une technote sur la mise à jour de l'API Profiles &amp; Services Ext –  [En savoir plus](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Version 19.0 - Janvier 2019 {#release-19-0---january-2019}
 
