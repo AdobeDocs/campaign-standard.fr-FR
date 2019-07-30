@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 * Vous ne pouvez pas enregistrer directement comme fragment le contenu d'un email que vous éditez au sein du Concepteur d'email. Vous devez copier le code HTML correspondant à ce contenu et le coller dans un nouveau fragment. Voir à ce propos [Enregistrer du contenu en tant que fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * Lors de l'édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d'email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d'informations sur les styles, voir [cette section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+Le concepteur de courrier électronique est en cours d'amélioration continue. Si vous avez créé un contenu par courrier électronique, depuis un modèle prêt à l'emploi ou si vous avez créé des fragments, vous pouvez obtenir le message de mise à jour suivant lors de l'ouverture suivante du contenu :
+
+![](assets/email_designer_fragment-patch-message.png)
+
+Adobe recommande de mettre à jour votre contenu vers la dernière version afin d'éviter tout problème lié aux problèmes de collision CSS. Click **[!UICONTROL Update now]**.
+
+Si une erreur se produit pendant la mise à jour du contenu, vérifiez votre code HTML et corrigez-le avant d'exécuter cette mise à jour.
+
+Pour les fragments, veuillez tenir compte des points suivants :
+
+* Si vous souhaitez ajouter un fragment à un nouveau courrier électronique ou modèle et que vous obtenez ce message, vous devez d'abord mettre à jour ce fragment.
+
+* Si vous disposez de plusieurs fragments, vous devez mettre à jour chaque fragment que vous souhaitez utiliser dans un contenu de courriel.
+
+* Pour éviter toute incidence sur vos messages électroniques actuels, car certains d'entre eux peuvent être traités ou dans une campagne spécifique dans laquelle vous ne souhaitez pas modifier, vous pouvez choisir de ne pas mettre à jour certains fragments.
+
+* Vous pouvez toujours envoyer des messages électroniques où un fragment qui n'est pas mis à jour est déjà utilisé, mais ce fragment n'est pas modifiable.
 
 ## Concevoir entièrement un contenu d'email {#designing-an-email-content-from-scratch}
 
