@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 
 Le concepteur de courrier électronique est en cours d'amélioration continue. Si vous avez créé un contenu par courrier électronique, depuis un modèle prêt à l'emploi ou si vous avez créé des fragments, vous pouvez obtenir le message de mise à jour suivant lors de l'ouverture suivante du contenu :
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 Adobe recommande de mettre à jour votre contenu vers la dernière version afin d'éviter tout problème lié aux problèmes de collision CSS. Click **[!UICONTROL Update now]**.
 
