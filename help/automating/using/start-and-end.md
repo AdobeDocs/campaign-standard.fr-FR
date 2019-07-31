@@ -14,7 +14,7 @@ discoiquuid: a 0 a 8 a 725-8 ede -4626-9798-b 86924 b 58 beb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez déclencher un autre workflow à l'aide de l'onglet **[!UICONTROL Si
 
 ## Exemple {#example}
 
-L'exemple suivant montre l'exécution d'un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **Fin.** La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **Fin.** Une fois que la tâche correspondante sera terminée, l'ensemble du workflow sera interrompu : l'effet sera le même que si l'on avait sélectionné le bouton ![](assets/stop_darkgrey-24px.png) (voir la section [La barre d'actions](../../automating/using/workflow-interface.md#action-bar)).
+L'exemple suivant montre l'exécution d'un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **Fin.** La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **Fin.** Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
 
 ![](assets/wkf_start_end_example.png)
 
