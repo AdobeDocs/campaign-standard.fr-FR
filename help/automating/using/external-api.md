@@ -12,7 +12,7 @@ context-tags: Externalapi, workflow, main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ Ces messages de journal sont utilisés pour consigner des informations sur des c
   <tr> 
    <td> WKF -560246 - La clé d'en-tête HTTP est incorrecte (clé d'en-tête : ' % s ').</td> 
    <td> <p>La clé d'en-tête HTTP est incorrecte (clé d'en-tête : ' % s ').</p>
-   <p> Remarque : Cette erreur est consignée lorsque la clé d'en-tête personnalisée échoue en fonction de [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248 - La clé d'en-tête HTTP n'est pas autorisée (clé d'en-tête : ' % s ').</td> 
@@ -206,7 +206,7 @@ Ces messages de journal sont utilisés pour consigner des informations sur des c
   <tr> 
    <td> WKF -560247 - La valeur d'en-tête AHTTP est mauvais (valeur d'en-tête : ' % s ').</td> 
    <td> <p>Bad header value is bad (header value : ' % s '). </p>
-    <p>Remarque : Cette erreur est consignée lorsque la valeur d'en-tête personnalisée échoue en fonction de [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - La charge JSON présente une propriété erronée '% s '.</td> 
