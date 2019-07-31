@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Un avertissement a été ajouté sur la manière dont les espaces blancs supplé
 
 Une nouvelle section sur les mises à jour recommandées pour Designer Designer a été ajoutée. [En savoir plus](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-Une nouvelle section sur la manière d'envoyer des épreuves à l'aide de données client réelles a été ajoutée. [En savoir plus](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 Une nouvelle section sur les meilleures pratiques de flux de travail a été ajoutée. [En savoir plus](../../automating/using/best-practices-workflows.md)
 
