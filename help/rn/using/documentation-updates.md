@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. Elle indique que les remises sont préparées en fonction de leur période d'agrégation et que, si vous prévoyez d'appeler le flux de travail plusieurs fois par jour, vous devez vérifier qu'elles n'ont pas de période.
+Le Guide de mise en œuvre standard de Campaign est maintenant disponible.[En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
+Un ensemble de nouveaux articles d'aide a été créé à propos de l'implémentation et de l'utilisation du connecteur Microsoft Dynamics 365. Notez que cette fonctionnalité se trouve actuellement dans la section Disponibilité limitée.[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../automating/using/external-signal.md)
 
 Une nouvelle section a été ajoutée, expliquant comment créer un utilisateur dans Adobe Campaign Standard. [En savoir plus](../../administration/using/users-management.md)
+
+Un nouvel article est désormais disponible avec des conseils pour simplifier les campagnes marketing, notamment des liens vers la documentation du produit et des vidéos de didacticiel.[En savoir plus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 Un dépannage a été ajouté pour la création de rapports dynamiques. [En savoir plus](../../reporting/using/troubleshooting.md)
 
