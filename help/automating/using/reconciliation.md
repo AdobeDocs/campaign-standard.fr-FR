@@ -86,6 +86,7 @@ Le workflow se compose des activités suivantes :
    * la date de la transaction
    * l'adresse email du client
    * le code du produit acheté.
+   
    ```
    date;client;product
    2015-05-19 09:00:00;mail1@email.com;ZZ1
