@@ -14,7 +14,7 @@ discoiquuid: 39 b 86 fda -7766-4 e 5 f-ab 48-bcc 536 ab 66 b 3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
+source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 
 ---
 
@@ -129,13 +129,13 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 * Lors de l'édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d'email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d'informations sur les styles, voir [cette section](../../designing/using/editing-email-styles.md).
 
-### Email Designer updates {#email-designer-updates}
+### Mises à jour de Designer {#email-designer-updates}
 
 Le concepteur de courrier électronique est en cours d'amélioration continue. Si vous avez créé un contenu par courrier électronique, depuis un modèle prêt à l'emploi ou si vous avez créé des fragments, vous pouvez obtenir le message de mise à jour suivant lors de l'ouverture suivante du contenu :
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe recommande de mettre à jour votre contenu vers la dernière version afin d'éviter tout problème lié aux problèmes de collision CSS. Click **[!UICONTROL Update now]**.
+Adobe recommande de mettre à jour votre contenu vers la dernière version afin d'éviter tout problème lié aux problèmes de collision CSS. Cliquez sur **[!UICONTROL Mettre à jour maintenant]**.
 
 Si une erreur se produit pendant la mise à jour du contenu, vérifiez votre code HTML et corrigez-le avant d'exécuter cette mise à jour.
 
@@ -145,9 +145,11 @@ Pour les fragments, veuillez tenir compte des points suivants :
 
 * Si vous disposez de plusieurs fragments, vous devez mettre à jour chaque fragment que vous souhaitez utiliser dans un contenu de courriel.
 
-* Pour éviter toute incidence sur vos messages électroniques actuels, car certains d'entre eux peuvent être traités ou dans une campagne spécifique dans laquelle vous ne souhaitez pas modifier, vous pouvez choisir de ne pas mettre à jour certains fragments.
+* Pour éviter tout impact sur les messages électroniques actuels qui ne sont pas encore préparés, vous pouvez choisir de ne pas mettre à jour certains fragments.
 
 * Vous pouvez toujours envoyer des messages électroniques où un fragment qui n'est pas mis à jour est déjà utilisé, mais ce fragment n'est pas modifiable.
+
+* La mise à jour des fragments utilisés dans les courriers électroniques déjà préparés n'a aucun impact sur ces courriers électroniques.
 
 ## Concevoir entièrement un contenu d'email {#designing-an-email-content-from-scratch}
 
@@ -385,8 +387,8 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Vous pouvez masquer un composant lorsqu'il est affiché sur un périphérique mobile. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
-Vous pouvez également choisir de masquer ce composant sur les périphériques de bureau. Cela signifie qu'il s'affichera uniquement sur les périphériques mobiles. To do this, select **[!UICONTROL Show only on mobile devices]**.
+1. Vous pouvez masquer un composant lorsqu'il est affiché sur un périphérique mobile. Pour ce faire, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques]** de bureau à partir des options **[!UICONTROL d'affichage]**.
+Vous pouvez également choisir de masquer ce composant sur les périphériques de bureau. Cela signifie qu'il s'affichera uniquement sur les périphériques mobiles. Pour ce faire, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques mobiles]**.
 Par exemple, cette option vous permet d'afficher une image spécifique sur les périphériques mobiles et une autre image sur les périphériques de bureau.
 Vous pouvez définir cette option à partir de la vue mobile ou de bureau.
 
@@ -551,30 +553,30 @@ Adobe Campaign propose plusieurs options de création d'email. Le tableau ci-apr
   <tr> 
    <td> <strong>Avantages</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     - Création aisée de courriers électroniques par glisser-déposer -<br/>
+ Fonctionnalités similaires à l'éditeur
+ de contenu hérité<br/>- Contenu réutilisable avec fragments
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     - Réutilisation des ressources du site web dans les courriers électroniques<br/>
+ - Exploitation de la puissance d'Experience Manager dans le contenu des courriers électroniques
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    - Capacité d'un développeur à coder directement un courrier électronique<br/>
+ - Synchronisation
+ bidirectionnelle<br/>- Modification hors ligne dans Dreamweaver et synchronisation ultérieure<br/>
+ - Chargement d'images vers Adobe Campaign via Dreamweaver
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Limites</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     - Aucun contenu conditionnel dans les fragments<br/>
+ - Utilisation des fragments Experience Manager impossible
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     - Personnalisation avancée difficile à implémenter<br/>
+ - Envoi de tests dans Adobe Campaign
   </td> 
    <td> Contenu dynamique non pris en charge<br /> </td> 
   </tr> 
