@@ -3,17 +3,17 @@ title: Insérer des images
 seo-title: Insérer des images
 description: Insérer des images
 seo-description: Découvrez comment ajouter des images à votre contenu.
-page-status-flag: jamais activé
-uuid: ac 42 b 1 d 3-50 ad -4323-b 474-1 e 50 e 468901 f
+page-status-flag: never-activated
+uuid: ac42b1d3-50ad-4323-b474-1e50e468901f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: using-images
-discoiquuid: ede 832 ac -96 e 5-41 e 1-8390-6669 ba 30 d 4 d 8
+discoiquuid: ede832ac-96e5-41e1-8390-6669ba30d4d8
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -35,10 +35,10 @@ Si cette fonctionnalité est activée, vous pouvez modifier les images avec le S
 >
 >Si vous choisissez d'ajouter une image directement en éditant la version HTML de l'email, vous ne devez pas appeler les **fichiers externes dans une balise &lt;script&gt;** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
-## Insérer des images dans un email {#inserting-images-in-an-email}
+## Insérer des images dans un email  {#inserting-images-in-an-email}
 
 1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image].**
+1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,14 +51,14 @@ Si cette fonctionnalité est activée, vous pouvez modifier les images avec le S
 
    ![](assets/des_insert_images_3.png)
 
-## Insérer des images dans une landing page {#inserting-images-in-a-landing-page}
+## Insérer des images dans une landing page  {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d'une landing page, sélectionnez un bloc contenant une image.
-1. Sélectionnez le bouton **[!UICONTROL Insérer].**
+1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Sélectionnez **[!UICONTROL Image locale]dans la barre d'outils contextuelle.**
+1. Sélectionnez **[!UICONTROL Image locale]** dans la barre d'outils contextuelle.
 
    ![](assets/des_insert_images_lp_2.png)
 
