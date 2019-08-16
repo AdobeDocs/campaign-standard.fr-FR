@@ -3,17 +3,17 @@ title: Editer les styles d'un email
 seo-title: Editer les styles d'un email
 description: Editer les styles d'un email
 seo-description: Editez rapidement le style de votre contenu par le biais du Concepteur d'email grâce aux paramètres faciles d'accès.
-page-status-flag: jamais activé
-uuid: 1 fac 228 d-c 02 c -410 a-a 4 bd -0 c 3 b 163 ab 5 f 9
+page-status-flag: never-activated
+uuid: 1fac228d-c02c-410a-a4bd-0c3b163ab5f9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: modification-courrier électronique-contenu
-discoiquuid: 09 c 66 cd 5-2 bbf -4846-ac 8 a -312 ab 5 c 18473
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
+discoiquuid: 09c66cd5-2bbf-4846-ac8a-312ab5c18473
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 ---
@@ -23,9 +23,9 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 ## Editer un élément {#editing-an-element}
 
-Dans le Concepteur d'email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s'affichent dans le volet **[!UICONTROL Paramètres].** Vous pouvez utiliser ces options pour changer facilement le style de votre email.
+Dans le Concepteur d'email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s'affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
-### Sélectionner un élément {#selecting-an-element}
+### Sélectionner un élément  {#selecting-an-element}
 
 Pour sélectionner un élément dans l'interface du Concepteur d'email, vous pouvez :
 
@@ -45,11 +45,11 @@ Parcourir la structure permet d'effectuer une sélection plus précise. Vous pou
 Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 1. Sélectionnez un composant de structure (directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche).
-1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]pour choisir la colonne désirée.**
+1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** pour choisir la colonne désirée.
 
 Consultez un exemple dans [cette section](../../designing/using/editing-email-styles.md#example--adjusting-vertical-alignment-and-padding).
 
-### Ajuster les paramètres de style {#adjusting-style-settings}
+### Ajuster les paramètres de style  {#adjusting-style-settings}
 
 1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](../../designing/using/editing-email-styles.md#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
@@ -62,7 +62,7 @@ Consultez un exemple dans [cette section](../../designing/using/editing-email-st
 
 1. Enregistrez votre contenu.
 
-### A propos de la marge et de la marge intérieure {#about-padding-and-margin}
+### A propos de la marge et de la marge intérieure  {#about-padding-and-margin}
 
 L'interface du Concepteur d'email permet d'ajuster rapidement les paramètres de marge et de marge intérieure.
 
@@ -73,7 +73,7 @@ L'interface du Concepteur d'email permet d'ajuster rapidement les paramètres de
 Par exemple :
 
 * Utilisez la marge intérieure pour définir des marges à gauche et à droite d'une image.
-* Utilisez la marge intérieure du haut et du bas pour ajouter davantage d'espace à un composant **[!UICONTROL Texte]** ou **Diviseur[!UICONTROL .]**
+* Utilisez la marge intérieure du haut et du bas pour ajouter davantage d'espace à un composant **[!UICONTROL Texte]** ou **[!UICONTROL Diviseur]**.
 * Pour définir les bordures entre les colonnes au sein d'un élément de structure, définissez la marge intérieure de chaque colonne.
 
 **[!UICONTROL Marge]** : ce paramètre permet de gérer l'espace entre la bordure de l'élément et l'élément suivant.
@@ -82,19 +82,19 @@ Par exemple :
 
 >[!NOTE]
 >
->Selon votre sélection (composant de structure, de colonne ou de contenu), le résultat sera différent. Adobe vous recommande de définir les paramètres **[!UICONTROL Marge intérieure]** et **Marge]au niveau des colonnes.[!UICONTROL **
+>Selon votre sélection (composant de structure, de colonne ou de contenu), le résultat sera différent. Adobe vous recommande de définir les paramètres **[!UICONTROL Marge intérieure]** et **[!UICONTROL Marge]** au niveau des colonnes.
 
-For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock icon to break synchronization between top and bottom or right and left parameters. Vous pouvez ainsi ajuster séparément chaque paramètre.
+Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez sur l'icône représentant un verrou pour rompre la synchronisation entre les paramètres supérieur et inférieur ou droite et gauche. Vous pouvez ainsi ajuster séparément chaque paramètre.
 
 ![](assets/des_padding_lock_icon.png)
 
-### A propos de l'alignement {#about-alignment}
+### A propos de l'alignement  {#about-alignment}
 
 * **Alignement du texte** : placez le curseur de votre souris sur du texte et servez-vous de la barre d'outils contextuelle pour l'aligner.
 
    ![](assets/des_text_alignment.png)
 
-* L'**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **Social[!UICONTROL à l'heure actuelle.]**
+* L'**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **[!UICONTROL Social]** à l'heure actuelle.
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -102,7 +102,7 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 
    ![](assets/des_set_vertical_alignment.png)
 
-### A propos des fonds {#about-backgrounds}
+### A propos des fonds  {#about-backgrounds}
 
 Lorsqu'il s'agit de définir des fonds dans le Concepteur d'email, Adobe a les recommandations suivantes :
 
@@ -112,11 +112,11 @@ Lorsqu'il s'agit de définir des fonds dans le Concepteur d'email, Adobe a les r
 
 Vous trouverez ci-dessous les paramètres de fond disponibles.
 
-* Définissez une **[!UICONTROL Couleur de fond]pour l'ensemble de l'email.** Assurez-vous de sélectionner les paramètres du corps dans l'arborescence de navigation accessible à partir de la palette gauche.
+* Définissez une **[!UICONTROL Couleur de fond]** pour l'ensemble de l'email. Assurez-vous de sélectionner les paramètres du corps dans l'arborescence de navigation accessible à partir de la palette gauche.
 
    ![](assets/des_background_body.png)
 
-* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
+* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
 
    ![](assets/des_background_viewport.png)
 
@@ -126,7 +126,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
    Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
-* Définissez une **[!UICONTROL Image de fond]pour le contenu d'un composant de structure.**
+* Définissez une **[!UICONTROL Image de fond]** pour le contenu d'un composant de structure.
 
    ![](assets/des_background_image.png)
 
@@ -149,11 +149,11 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intérieur d'un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
 
 1. Sélectionnez le composant de structure, directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche.
-1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]et choisissez celle à éditer.** Vous pouvez également la sélectionner dans l'arborescence.
+1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l'arborescence.
 
    ![](assets/des_selecting_column.png)
 
-   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]situé à droite.**
+   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** situé à droite.
 
 1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Monter]**.
 
@@ -161,7 +161,7 @@ Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intér
 
    Le composant de contenu s'affiche au-dessus de la colonne.
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column. Cliquez sur l'icône représentant un verrou pour rompre la synchronisation avec la marge intérieure inférieure.
+1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l'intérieur de la colonne. Cliquez sur l'icône représentant un verrou pour rompre la synchronisation avec la marge intérieure inférieure.
 
    Définissez la marge intérieure droite et gauche de cette colonne.
 
@@ -173,12 +173,12 @@ Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intér
 
 1. Enregistrez vos modifications.
 
-## Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
+## Ajouter des attributs de style intégrés  {#adding-inline-styling-attributes}
 
 Dans l'interface du Concepteur d'email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un élément de votre contenu.
-1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés].**
+1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés]**.
 
    ![](assets/email_designer_inlineattributes.png)
 
