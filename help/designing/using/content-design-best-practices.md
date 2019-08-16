@@ -3,17 +3,17 @@ title: Bonnes pratiques relatives à la conception de contenu
 seo-title: Bonnes pratiques relatives à la conception de contenu
 description: Bonnes pratiques relatives à la conception de contenu
 seo-description: Lisez ces recommandations afin de garantir un fonctionnement optimal de l'éditeur.
-page-status-flag: jamais activé
-uuid: ad 74 f 49 d -999 f -4140-89 b 0-d 1 ead 8642 d 89
+page-status-flag: never-activated
+uuid: ad74f49d-999f-4140-89b0-d1ead8642d89
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: about-content-design
-discoiquuid: d 33 f 5 f 14-a 4 e 3-4327-bd 16-eb 3135 a 32076
+discoiquuid: d33f5f14-a4e3-4327-bd16-eb3135a32076
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -42,4 +42,4 @@ Afin de garantir un fonctionnement optimal de l'éditeur, il est recommandé de 
 
       La liste officielle des attributs 'type' est disponible à l'adresse suivante : [http://www.w3schools.com/tags/att_input_type.asp](http://www.w3schools.com/tags/att_input_type.asp)
 
-D'autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+D'autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
