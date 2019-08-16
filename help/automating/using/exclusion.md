@@ -3,18 +3,18 @@ title: Exclusion
 seo-title: Exclusion
 description: Exclusion
 seo-description: L'activité Exclusion permet d'exclure des éléments d'une population selon certains critères.
-page-status-flag: jamais activé
-uuid: b 79 e 7 f 73-37 a 0-4 ec 3-ac 5 a -5449 dc 1 b 1 f 22
+page-status-flag: never-activated
+uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: ciblage-activités
-discoiquuid: d 5312 fcd -43 ad -428 e-bde 9-90 f 062 e 9358 c
-context-tags: exclusion, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
+context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
 ---
@@ -26,19 +26,19 @@ source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
 ![](assets/exclusion.png)
 
-L'activité **[!UICONTROL Exclusion]permet d'exclure des éléments d'une population selon certains critères.**
+L'activité **[!UICONTROL Exclusion]** permet d'exclure des éléments d'une population selon certains critères.
 
 ## Contexte d'utilisation {#context-of-use}
 
-L'activité **[!UICONTROL Exclusion]est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.**
+L'activité **[!UICONTROL Exclusion]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
 
 Un ensemble principal est défini parmi les transitions entrantes. Les membres des autres transitions entrantes sont exclus de l'ensemble principal. La transition sortante de l'activité d'exclusion contient uniquement les membres de l'ensemble principal non rencontrés dans les autres transitions entrantes.
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
-1. Placez une activité **[!UICONTROL Exclusion]dans votre workflow.**
-1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![, disponible dans les actions rapides qui s'affichent.](assets/edit_darkgrey-24px.png)
-1. Sélectionnez l'**[!UICONTROL Ensemble principal]parmi les transitions entrantes.** C'est l'ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l'ensemble principal.
+1. Placez une activité **[!UICONTROL Exclusion]** dans votre workflow.
+1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
+1. Sélectionnez l'**[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C'est l'ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l'ensemble principal.
 
    >[!NOTE]
    >
