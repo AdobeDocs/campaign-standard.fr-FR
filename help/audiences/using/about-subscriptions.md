@@ -3,17 +3,17 @@ title: A propos des inscriptions
 seo-title: A propos des inscriptions
 description: A propos des inscriptions
 seo-description: null
-page-status-flag: jamais activé
-uuid: b 0263 e 40-f 910-49 f 2-a 138-0 a 1302 aeeec 6
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
-topic-tags: gestion-abonnements
-discoiquuid: 27 de 5 a 13-7 b 7 c -4 c 91-bf 26-3 dfd 324 beb 8 f
+content-type: reference
+topic-tags: managing-subscriptions
+discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -27,8 +27,8 @@ Des mécanismes d'inscription peuvent être configurés pour offrir à vos clien
 
 Chaque service est fourni avec :
 
-* **Les mécanismes d'abonnement** (souscription) et **[!UICONTROL de désabonnement]** (exclusion).
+* des mécanismes d'**inscription** (opt-in) et de **[!UICONTROL désinscription]**.
 * des **mécanismes de confirmation** d'inscription et/ou de désinscription.
 * un suivi de l'**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions).
+Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
