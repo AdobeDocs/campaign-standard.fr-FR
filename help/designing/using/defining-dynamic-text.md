@@ -3,17 +3,17 @@ title: Définir un texte dynamique
 seo-title: Définir un texte dynamique
 description: Définir un texte dynamique
 seo-description: Découvrez comment afficher différents textes de manière dynamique à l'utilisateur selon les conditions définies dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: bbcd 200 c -4 fb 4-467 b-ba 39-09 b 8 bee 9 bcaa
+page-status-flag: never-activated
+uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: définition-conditionnelle-contenu
-discoiquuid: 6 bb 6 cee 3-5674-4113-8073-5 a 9572 b 3 e 830
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
+discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -34,7 +34,7 @@ L'exemple ci-dessous montre comment définir du texte dynamique dans un SMS.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   L'option **[!UICONTROL Texte dynamique]apparaît dans la palette.** Son paramétrage est identique au contenu dynamique.
+   L'option **[!UICONTROL Texte dynamique]** apparaît dans la palette. Son paramétrage est identique au contenu dynamique.
 
 1. Sélectionnez une variante.
 
