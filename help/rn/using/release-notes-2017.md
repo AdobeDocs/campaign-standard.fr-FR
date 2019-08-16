@@ -3,17 +3,17 @@ title: Notes de mise à jour 2017
 seo-title: Notes de mise à jour 2017
 description: Notes de mise à jour 2017
 seo-description: Cette page répertorie toutes les versions 2017 d'Adobe Campaign Standard.
-page-status-flag: jamais activé
-uuid: d 73 f 8186-e 309-441 b -969 d -71 d 0 a 1 c 33 cf 4
+page-status-flag: never-activated
+uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: référence
-topic-tags: campagne-standard-release
-discoiquuid: 1 cfd 9 b 3 b -9 b 3 e -4587-9 c 46-b 6 fb 02131654
+content-type: reference
+topic-tags: campaign-standard-releases
+discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -27,7 +27,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017 {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017  {#release-17-10---october-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
@@ -50,7 +50,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches}
+### Correctifs  {#patches}
 
 #### Plate-forme {#platform}
 
@@ -60,7 +60,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur d'interface lors de l'affichage et du filtrage des activités marketing.
 * Correction d'une erreur qui empêchait la mise à jour des champs de date d'abonnement avec un appel d'API REST POST.
 
-#### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail}
+#### Emails, SMS et courrier  {#emails--sms-messages-and-direct-mail}
 
 * Correction d'une erreur qui empêchait le ciblage d'une audience de type Liste dans un message, ce qui provoquait l'échec de la préparation.
 * Des langues manquantes ont été ajoutées aux fonctionnalités de diffusion email multilingue.
@@ -76,7 +76,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Il est désormais possible de créer ou de mettre à jour un profil de la base de données Adobe Campaign en réconciliant les données des utilisateurs de l'application mobile.
 * Adobe Campaign privilégie maintenant le traitement des notifications push transactionnelles par rapport aux notifications push standard.
 
-#### Rapports {#reports}
+#### Rapports  {#reports}
 
 * Correction d'une erreur qui empêchait l'affichage des pourcentages de hot clicks dans le contenu de l'email.
 * Correction d'une erreur en raison de laquelle la mesure de blacklistage était comptabilisée en tant que hard bounce au lieu de bounce.
@@ -84,20 +84,20 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui entraînait le comptage des profils dans un segment d'âge incorrect.
 * Les formules de calcul des soft et hard bounces ont été modifiées.
 
-#### Workflows {#workflows}
+#### Workflows  {#workflows}
 
-* Correction d'un problème lié à l'activité **[!UICONTROL Chargement de fichier]qui entraînait des erreurs après l'ajout et la suppression manuels de colonnes dans l'activité.**
-* L'exécution du workflow technique **[!UICONTROL deliverabilityUpdate]est désormais planifiée à 2h00, heure du serveur.**
+* Correction d'un problème lié à l'activité **[!UICONTROL Chargement de fichier]** qui entraînait des erreurs après l'ajout et la suppression manuels de colonnes dans l'activité.
+* L'exécution du workflow technique **[!UICONTROL deliverabilityUpdate]** est désormais planifiée à 2h00, heure du serveur.
 * Correction d'un problème de sécurité qui permettait l'export d'une liste sans détenir le rôle Export.
-* Correction d'une erreur liée à l'activité **[!UICONTROL Réconciliation].**
-* Correction d'une erreur liée à l'utilisation des jokers dans l'activité **[!UICONTROL Transfert de fichier].**
+* Correction d'une erreur liée à l'activité **[!UICONTROL Réconciliation]**.
+* Correction d'une erreur liée à l'utilisation des jokers dans l'activité **[!UICONTROL Transfert de fichier]**.
 
 #### Profils et audiences {#profiles-and-audiences}
 
 * Correction d'une erreur qui empêchait la prise en compte d'une condition d'une requête dans certains cas spécifiques, ce qui donnait des résultats erronés.
 * Correction d'une erreur qui empêchait l'accès aux profils s'ils étaient ciblés dans un message préparé, mais jamais envoyé et arrivé à expiration.
 
-#### Intégrations {#integrations}
+#### Intégrations  {#integrations}
 
 * Correction d'une erreur qui empêchait l'affichage et la sélection de certaines Data sources créées pour les triggers.
 
@@ -106,7 +106,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui se produisait dans les écrans de type Liste dans lesquels les lignes de ressources personnalisées étaient affichées sans aucune donnée.
 * Correction d'une erreur qui empêchait les champs de type booléen avec la valeur 'False' de s'afficher dans les ressources personnalisées.
 
-## Version 17.9 - Septembre 2017 {#release-17-9---september-2017}
+## Version 17.9 - Septembre 2017  {#release-17-9---september-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-1}
 
@@ -133,14 +133,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-1}
+### Correctifs  {#patches-1}
 
 #### Plate-forme {#platform-1}
 
 * Certains clients doivent pouvoir utiliser un identifiant provenant d'Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d'informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Le protocole FTP devient obsolète. Vous devez à présent utiliser le protocole SFTP à la place. Pour ne pas bloquer les implémentations existantes, les configurations sur FTP continueront à fonctionner comme avant, mais l'option ne sera plus visible pour les nouvelles activités.
 
-#### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail-1}
+#### Emails, SMS et courrier  {#emails--sms-messages-and-direct-mail-1}
 
 * Il est désormais possible de créer des critères d'alerte afin de les utiliser dans les notifications d'alerte de diffusion. Pour plus d'informations, consultez la [documentation détaillée](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion).
 * Les notifications d'alerte de diffusion sont dotées d'un nouveau design et l'expérience utilisateur du tableau de bord des alertes de diffusion a été améliorée.
@@ -164,21 +164,21 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Les [mesures des rapports dynamiques](../../reporting/using/indicator-calculation.md) et les [KPI des campagnes](../../sending/using/confirming-the-send.md) (affichés dans le tableau de bord des messages envoyés) ont été harmonisés pour plus de cohérence.
 * Correction d'une erreur qui entraînait l'arrêt du pipeline sur debian 7.
 
-#### Workflows {#workflows-1}
+#### Workflows  {#workflows-1}
 
 * Correction d'une erreur qui empêchait le fonctionnement de la rétention des fichiers importés.
 
-#### Intégrations {#integrations-1}
+#### Intégrations  {#integrations-1}
 
 * Les eVars et les événements sont maintenant pris en charge pour l'intégration Analytics et Campaign.
 * Lors de l'envoi d'un email comportant le contenu du panier abandonné, le paramètre de payload pour les éléments supprimés du panier est désormais facultatif.
 
-#### Profils et audiences {#profiles-and-audiences-1}
+#### Profils et audiences  {#profiles-and-audiences-1}
 
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d'information ; il n'a aucune incidence directe sur la facturation. Pour plus d'informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d'une erreur qui empêchait l'inscription des profils à un service lors de l'utilisation de l'API Profils et Services.
 
-## Version 17.7 - Juillet 2017 {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017  {#release-17-7---july-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
@@ -217,21 +217,21 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-2}
+### Correctifs  {#patches-2}
 
 #### Général {#general}
 
-* Correction d'une erreur qui permettait à n'importe quel utilisateur d'exporter des listes. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Export]peuvent effectuer cette action.**
+* Correction d'une erreur qui permettait à n'importe quel utilisateur d'exporter des listes. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Export]** peuvent effectuer cette action.
 
 #### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail-2}
 
 * Correction d'une erreur liée au workflow **updateDeliveryExecInfo** qui définissait l'indicateur **To deliver** sur 0 pour les diffusions SMS.
 * Dans les **Paramètres avancés** des propriétés du modèle de diffusion, la liste déroulante **Routage** n'affiche désormais que les comptes externes qui correspondent au type du message du modèle. Par exemple, un modèle de diffusion email affiche uniquement les comptes externes de type email.
-* Correction d'une erreur liée à la préférence de format d'email **[!UICONTROL Texte]définie pour les profils de test.**
+* Correction d'une erreur liée à la préférence de format d'email **[!UICONTROL Texte]** définie pour les profils de test.
 * Correction d'un problème qui entraînait une erreur Javascript lors de la sélection du fuseau horaire par défaut dans l'écran de sélection de planning d'une diffusion.
 * Correction d'une erreur qui empêchait l'affichage des pièges dans les envois.
 * Dans l'écran de sélection de modèle de l'assistant de création de diffusion, les modèles de relance et de test A/B sont désormais masqués par défaut. Pour plus d'informations, consultez la [documentation détaillée](../../channels/using/creating-an-email.md).
-* Correction d'une erreur qui permettait à n'importe quel utilisateur d'envoyer des diffusions. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]peuvent effectuer cette action.** Pour plus d'informations, consultez la [documentation détaillée](../../sending/using/confirming-the-send.md).
+* Correction d'une erreur qui permettait à n'importe quel utilisateur d'envoyer des diffusions. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]** peuvent effectuer cette action. Pour plus d'informations, consultez la [documentation détaillée](../../sending/using/confirming-the-send.md).
 
 #### Notifications push {#push-notifications-1}
 
@@ -240,21 +240,21 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui empêchait l'affichage d'une notification push sur les appareils iOS lorsque celle-ci ne contenait qu'un titre (et pas de texte dans le corps du message).
 * Correction d'une erreur qui forçait le tracking des URL de pièce jointe multimédia dans une diffusion, ce qui empêchait l'incorporation des vidéos et des images dans la diffusion. Le tracking des URL du type mediaAttachmentURL est désormais désactivé par défaut pour les notifications push.
 
-#### Rapports {#reports-2}
+#### Rapports  {#reports-2}
 
 * Correction d'une erreur en raison de laquelle les valeurs des graphiques étaient différentes dans les tableaux.
 * Correction d'une erreur en raison de laquelle les valeurs des notifications push étaient affichées en tant que valeurs d'email.
 * Correction d'une erreur qui indiquait des valeurs comme inconnues lorsqu'une diffusion était créée en dehors d'une campagne.
 * Correction d'une erreur en raison de laquelle les données des rapports SMS étaient affichées en tant que données des applications mobiles.
 
-#### Workflows {#workflows-2}
+#### Workflows  {#workflows-2}
 
 * Vous pouvez désormais filtrer les logs des workflows (période et recherche de texte). Pour plus d'informations, consultez la [documentation détaillée](../../automating/using/executing-a-workflow.md#monitoring).
 * Dans les diffusions des workflows, une option est désormais disponible pour désactiver la confirmation avant l'envoi.
 * Correction d'une erreur qui vous empêchait de définir une transition sortante dans l'assistant de création de diffusion récurrente.
 * Correction d'une erreur qui se produisait lors de l'utilisation d'une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017 {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017  {#release-17-5---may-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-3}
 
@@ -277,7 +277,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-3}
+### Correctifs  {#patches-3}
 
 #### Mises à jour de l'interface {#interface-updates}
 
@@ -285,23 +285,23 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Emails et SMS {#emails-and-sms-messages}
 
-* Correction d'une erreur qui affichait une couleur incorrecte pour l'état de diffusion **[!UICONTROL Reprise en cours.]** La couleur était grise au lieu d'être bleue.
+* Correction d'une erreur qui affichait une couleur incorrecte pour l'état de diffusion **[!UICONTROL Reprise en cours]**. La couleur était grise au lieu d'être bleue.
 
-#### Workflows {#workflows-3}
+#### Workflows  {#workflows-3}
 
-* Correction d'une erreur qui se produisait lors du changement de l'action à exécuter dans une activité **[!UICONTROL Transfert de fichier].**
+* Correction d'une erreur qui se produisait lors du changement de l'action à exécuter dans une activité **[!UICONTROL Transfert de fichier]**.
 
 #### Rapports {#reports-3}
 
-* Les calculs des indicateurs **[!UICONTROL Spam]** et **Taux de spam]ont été modifiés.[!UICONTROL **
-* Les mesures de **[!UICONTROL Rebond]ont été améliorées pour un résultat plus précis.**
+* Les calculs des indicateurs **[!UICONTROL Spam]** et **[!UICONTROL Taux de spam]** ont été modifiés.
+* Les mesures de **[!UICONTROL Rebond]** ont été améliorées pour un résultat plus précis.
 
 #### Notifications push {#push-notifications-2}
 
 * Correction d'une erreur qui vous empêchait de cliquer sur une notification push dans l'historique marketing d'un profil.
 * L'utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017 {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017  {#release-17-4---april-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-4}
 
@@ -331,18 +331,18 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver disponible<br /> </td> 
-   <td> L'intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L'intégration nécessite l'installation de l'extension Adobe Campaign Integration à partir de la page suivante : <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
+   <td> L'intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L'intégration nécessite l'installation de l'extension Adobe Campaign Integration à partir de la page suivante : <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Correctifs {#patches-4}
+### Correctifs  {#patches-4}
 
 #### Plate-forme {#platform-2}
 
 * Résolution d'un problème de consommation de mémoire.
 
-#### Emails et SMS {#emails-and-sms-messages-1}
+#### Emails et SMS  {#emails-and-sms-messages-1}
 
 * Correction d'une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications lors de la prévisualisation d'un message.
 * Correction d'une erreur qui empêchait la création ou la suppression d'une règle de gestion des emails MX ou de domaine.
@@ -355,23 +355,23 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Le champ rtEventHistoId n'est plus exposé en tant que champ de personnalisation dans un modèle de message transactionnel.
 
-#### Landing pages {#landing-pages}
+#### Landing pages  {#landing-pages}
 
-* Le filtre **[!UICONTROL par email]utilisé dans les landing pages a été optimisé pour réconcilier les nouveaux abonnés avec les profils de la base de données.**
+* Le filtre **[!UICONTROL par email]** utilisé dans les landing pages a été optimisé pour réconcilier les nouveaux abonnés avec les profils de la base de données.
 * Correction d'une erreur qui affichait des entrées de texte libre à la place de cases à cocher lors de l'utilisation de champs booléens dans une configuration de formulaire.
 * Correction d'une erreur qui empêchait la génération des miniatures des landing pages.
 
-#### Workflows {#workflows-4}
+#### Workflows  {#workflows-4}
 
-* Correction d'une erreur d'affichage lors de l'édition d'une activité **[!UICONTROL Fin]** ou **Signal externe](dans Safari uniquement).[!UICONTROL **
-* Amélioration du message d'erreur affiché lors de l'édition d'une activité **[!UICONTROL Lecture d'audience]contenant une audience en erreur.**
+* Correction d'une erreur d'affichage lors de l'édition d'une activité **[!UICONTROL Fin]** ou **[!UICONTROL Signal externe]** (dans Safari uniquement).
+* Amélioration du message d'erreur affiché lors de l'édition d'une activité **[!UICONTROL Lecture d'audience]** contenant une audience en erreur.
 * Résolution d'un problème qui entraînait une erreur SQL lors de l'exécution d'une activité d'inscription.
 
-#### Intégrations {#integrations-2}
+#### Intégrations  {#integrations-2}
 
 * Données de points ciblés : correction d'une erreur qui se produisait lors du comptage des abonnés.
 
-#### Audiences et requêtes {#audiences-and-queries}
+#### Audiences et requêtes  {#audiences-and-queries}
 
 * Correction d'une erreur qui empêchait l'utilisation des agrégats (somme et moyenne) sur une collection dans l'éditeur de requêtes.
 * Correction d'une erreur qui empêchait le rechargement de l'éditeur de requêtes après le changement de la ressource du filtre.
@@ -386,7 +386,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur en raison de laquelle un message d'erreur n'était pas affiché lors de la création d'une application Android associée à une application mobile n'ayant pas pu être créée sur MCPNS.
 * Correction d'une erreur qui permettait à un utilisateur d'ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017 {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017  {#release-17-2---march-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-5}
 
@@ -404,11 +404,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l'intégration d'Adobe Campaign et de Dreamweaver, vous disposez à présent d'un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l'intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l'activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
+   <td> Avec l'intégration d'Adobe Campaign et de Dreamweaver, vous disposez à présent d'un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l'intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l'activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l'heure d'envoi<br /> </td> 
-   <td> Vous pouvez maintenant définir manuellement une heure d'envoi personnalisée par destinataire au niveau de remise ou à l'aide d'un processus. <br /> Deux nouvelles options sont disponibles : <br /> 
+   <td> Vous pouvez à présent définir une heure d'envoi personnalisée par destinataire – au niveau de la diffusion ou via un workflow. <br /> Deux nouvelles options sont disponibles : <br /> 
     <ul> 
      <li> Tous les destinataires reçoivent le message avec la prise en compte de leur fuseau horaire. </li> 
      <li> Chaque destinataire reçoit le message à une date et une heure calculées selon une formule. </li> 
@@ -448,26 +448,26 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-5}
+### Correctifs  {#patches-5}
 
 #### Général {#general-1}
 
 * Il est à présent possible d'ajouter des données de profil lors de l'import de logs de diffusion.
 
-#### Emails et SMS {#emails-and-sms-messages-2}
+#### Emails et SMS  {#emails-and-sms-messages-2}
 
-* Correction d'une erreur suite à laquelle l'option **[!UICONTROL Demander une confirmation avant d'envoyer les messages]restait sélectionnée même après avoir été décochée et la diffusion sauvegardée.**
+* Correction d'une erreur suite à laquelle l'option **[!UICONTROL Demander une confirmation avant d'envoyer les messages]** restait sélectionnée même après avoir été décochée et la diffusion sauvegardée.
 * Correction d'une erreur qui pouvait provoquer la dépublication d'emails transactionnels.
 * Correction d'une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications avant la prévisualisation d'une diffusion.
 
-#### Landing pages {#landing-pages-1}
+#### Landing pages  {#landing-pages-1}
 
 * Correction d'une erreur qui empêchait l'édition en cliquant dans le contenu d'une landing page.
 
-#### Workflows {#workflows-5}
+#### Workflows  {#workflows-5}
 
-* Correction d'une erreur qui pouvait empêcher la lecture de la transition Rejet d'une activité **[!UICONTROL Chargement de fichier].**
-* Correction d'une erreur qui empêchait la prise en compte correcte des colonnes échangées lors de la configuration d'une activité **[!UICONTROL Chargement de fichier].**
+* Correction d'une erreur qui pouvait empêcher la lecture de la transition Rejet d'une activité **[!UICONTROL Chargement de fichier]**.
+* Correction d'une erreur qui empêchait la prise en compte correcte des colonnes échangées lors de la configuration d'une activité **[!UICONTROL Chargement de fichier]**.
 
 ## Version 17.1 - Janvier 2017 {#release-17-1---january-2017}
 
@@ -511,37 +511,37 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-6}
+### Correctifs  {#patches-6}
 
 #### Général {#general-2}
 
-* Les options d'**[!UICONTROL Autorisation d'accès]figurent à nouveau dans les propriétés des landing pages.**
+* Les options d'**[!UICONTROL Autorisation d'accès]** figurent à nouveau dans les propriétés des landing pages.
 * Correction d'une erreur qui était susceptible d'entraîner le rendu d'une ancienne image au lieu de la bonne. Cette erreur se produisait lorsque l'image source avait été mise à jour dans la définition du contenu d'une diffusion ou d'une landing page.
 * Correction d'un problème qui empêchait les utilisateurs d'éditer certains champs dans un compte externe SFTP existant.
 * Correction de plusieurs problèmes liés à l'interface utilisateur. Par exemple, les utilisateurs peuvent désormais éditer les attributs des profils et enregistrer les modifications sans rencontrer de problème dans l'interface utilisateur.
 
-#### Emails et SMS {#emails-and-sms-messages-3}
+#### Emails et SMS  {#emails-and-sms-messages-3}
 
 * Correction d'une erreur liée aux modèles de diffusion comportant du contenu HTML avec une
 
 #### Notifications push {#push-notifications-4}
 
 * Correction d'une erreur qui était susceptible d'empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
-* Correction d'une erreur qui était susceptible d'empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **Champs personnalisés]pour Android.[!UICONTROL **
+* Correction d'une erreur qui était susceptible d'empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d'une erreur qui était susceptible d'entraîner l'ajout d'un caractère d'échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
 * Lorsque le jeton d'enregistrement d'un abonné devient blacklisté, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l'application, dans Adobe Campaign.
 
-#### Workflows {#workflows-6}
+#### Workflows  {#workflows-6}
 
 * Correction d'une erreur qui était susceptible d'empêcher les prévisualisations des requêtes sur les ressources d'événement (rtEvent, par exemple).
-* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]peut désormais être récupéré dans sa transition sortante et traité dans l'activité suivante.** Par exemple, transférez le fichier de rejets via un serveur SFTP à l'aide d'une activité **[!UICONTROL Transfert de fichier]** .
-* Fixed an issue that may have prevented a user from limiting the population of a segment if **[!UICONTROL Temporary resource]** was selected in the **[!UICONTROL General]** tab of **[!UICONTROL Segmentation]** .
+* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l'activité suivante. Par exemple, transférez le fichier de rejets via un serveur SFTP à l'aide d'une activité **[!UICONTROL Transfert de fichier]** .
+* Correction d'une erreur qui était susceptible d'empêcher un utilisateur de limiter la population d'un segment lorsque **[!UICONTROL Ressource temporaire]** était sélectionnée dans l'onglet **[!UICONTROL Général]** de l'activité **[!UICONTROL Segmentation]** .
 * **[!UICONTROL Les activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
-* Correction d'une erreur qui était susceptible d'empêcher le bon fonctionnement de l'option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **Union[!UICONTROL .]**
+* Correction d'une erreur qui était susceptible d'empêcher le bon fonctionnement de l'option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **[!UICONTROL Union]**.
 
 #### Intégrations {#integrations-3}
 
 * Correction d'un problème qui était susceptible d'entraîner une erreur lors du déploiement d'un déclenchement d'événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées "Probabilité de retour avant 30 jours" avait été ajoutées au trigger Abandon dans Adobe Marketing Cloud.
 * Correction d'une erreur qui était susceptible d'entraîner l'effacement du champ Dimension cible par un workflow technique lors de l'import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
-* Correction d'une erreur qui était susceptible d'entraîner l'échec d'une activité **[!UICONTROL Sauvegarde d'audience]** d'un workflow lorsque l'option **Partager dans Adobe Marketing Cloud]était cochée.[!UICONTROL **
+* Correction d'une erreur qui était susceptible d'entraîner l'échec d'une activité **[!UICONTROL Sauvegarde d'audience]** d'un workflow lorsque l'option **[!UICONTROL Partager dans Adobe Marketing Cloud]** était cochée.
 
