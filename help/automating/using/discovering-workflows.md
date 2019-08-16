@@ -3,17 +3,17 @@ title: Présentation des workflows
 seo-title: Présentation des workflows
 description: Présentation des workflows
 seo-description: Adobe Campaign propose un environnement graphique complet qui permet de concevoir et automatiser des processus.
-page-status-flag: jamais activé
-uuid: 7 c 1 e 8 cea -90 d 0-491 f-ab 8 f -6 cd 69 f 8 a 6 c 3 b
+page-status-flag: never-activated
+uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 40503917-7 a 53-4 d 99-96 a 4-57 aa 9 e 98 ec 87
+discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 ---
@@ -34,10 +34,10 @@ Les workflows peuvent intervenir dans **différents contextes**, par exemple :
 * import de données dans la base de Campaign. Voir à ce sujet [Import et export de données](../../automating/using/about-data-import-and-export.md).
 * processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc. Obtenez des informations supplémentaires sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md).
 
-Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Voir à ce propos la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Rubriques connexes :**
 
-* [Principes opérationnels du flux de travail](../../automating/using/workflow-operating-principles.md)
+* [Principes opérationnels des workflows](../../automating/using/workflow-operating-principles.md)
 * [A propos de l'import et de l'export de données](../../automating/using/about-data-import-and-export.md)
 
