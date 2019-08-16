@@ -3,17 +3,17 @@ title: Test de vos triggers
 seo-title: Test de vos triggers
 description: Test de vos triggers
 seo-description: null
-page-status-flag: jamais activé
-uuid: b 3 a 6667 d-e 843-4 ad 6-817 e-d 91542 b 5 f 2 e 2
+page-status-flag: never-activated
+uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: intégration
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: f 67 e 69 f 2-09 fb -4 f 33-b 2 c 3-c 67 a 060743 e 3
+discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 ---
@@ -25,7 +25,7 @@ Les conseils de dépannage suivants vous aideront à résoudre les problèmes le
 
 **La fonctionnalité est-elle activée ?**
 
-To check if the Triggers - Campaign integration is activated, click the Adobe Campaign logo, in the top left corner, then select **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]**. Vous devriez voir l'élément **[!UICONTROL Triggers Experience Cloud].**
+Pour vérifier si l'intégration des triggers Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** &gt; **[!UICONTROL Messages transactionnels]**. Vous devriez voir l'élément **[!UICONTROL Triggers Experience Cloud]**.
 
 Si vous le voyez, passez à l'étape suivante.
 
