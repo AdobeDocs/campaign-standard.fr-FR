@@ -3,18 +3,18 @@ title: Synthèse des rebonds (Bounce summary)
 seo-title: Synthèse des rebonds (Bounce summary)
 description: Synthèse des rebonds (Bounce summary)
 seo-description: Grâce au rapport d'usine Synthèse des rebonds (Bounce summary), découvrez le statut des campagnes envoyées et les erreurs qu'elles ont peut-être rencontrées.
-page-status-flag: jamais activé
-uuid: 90087311-4236-4 df 9-ae 7 d -4 a 15 c 00 c 70 ab
+page-status-flag: never-activated
+uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: 5 ae 561 b 4-03 cf -4541-87 ff -47 f 1027 d 53 b 8
-context-tags: Bouncereport, main ; Campaigncirculationreport, main ; Programcirculationreport, main
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
+context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
