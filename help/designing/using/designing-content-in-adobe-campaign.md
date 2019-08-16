@@ -3,17 +3,17 @@ title: Concevoir du contenu dans Adobe Campaign
 seo-title: Concevoir du contenu dans Adobe Campaign
 description: Concevoir du contenu dans Adobe Campaign
 seo-description: Découvrez tous les éléments que vous pouvez définir dans vos contenus avec Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 8 f 73407 f-ab 90-46 bc-aeb 6-bd 87 fcb 0404 c
+page-status-flag: never-activated
+uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: about-content-design
-discoiquuid: 20800 cde -50 ad -4 d 2 b-a 2 f 9-812258 bec 665
+discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
