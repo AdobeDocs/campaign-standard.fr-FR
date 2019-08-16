@@ -3,17 +3,17 @@ title: Configurer les propriétés d'une image
 seo-title: Configurer les propriétés d'une image
 description: Configurer les propriétés d'une image
 seo-description: Découvrez comment gérer les propriétés des images incluses dans votre contenu.
-page-status-flag: jamais activé
-uuid: 1 a 439105-d 9 aa -4 b 30-a 00 d-bcf 731 a 04 e 08
+page-status-flag: never-activated
+uuid: 1a439105-d9aa-4b30-a00d-bcf731a04e08
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: using-images
-discoiquuid: 80 c 9 c 1 a 5-6050 0-443 d -810 a -6 bb 755 d 39 dca
+discoiquuid: 80c9c1a5-6050-443d-810a-6bb755d39dca
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
