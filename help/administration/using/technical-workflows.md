@@ -3,17 +3,17 @@ title: Workflows techniques
 seo-title: Workflows techniques
 description: Workflows techniques
 seo-description: Les workflows techniques sont des workflows d'usine conçus pour gérer des processus techniques en arrière-plan dans Adobe Campaign, tout en assurant un comportement correct de la plate-forme.
-page-status-flag: jamais activé
-uuid: 6 e 763 dc 1-e 1 d 3-4 d 94-bc 0 b-ef 5 b 1703 d 8 e 5
+page-status-flag: never-activated
+uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
+content-type: reference
 topic-tags: application-settings
-discoiquuid: e 9 f 147 bd -6 a 5 b -4 b 82-b 9 bb -311 e 38 e 22 c 62
+discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2541b6dadd005c74d6bb737a0e3692e63a5b85db
 
 ---
@@ -25,7 +25,7 @@ Les workflows techniques sont livrés d'usine avec Adobe Campaign. Les workflows
 
 Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions.
 
-Les administrateurs fonctionnels peuvent accéder aux workflows techniques depuis le menu **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Workflows].**
+Les administrateurs fonctionnels peuvent accéder aux workflows techniques depuis le menu **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Workflows]**.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> Ce workflow envoie les données KPI toutes les 15 minutes depuis Adobe Campaign Standard vers Adobe Analytics.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Mettre à jour l'exécution des diffusions.</span><br /> </td> 
+   <td> <span class="uicontrol">Mettre à jour l'exécution des diffusions.</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
    <td> Ce workflow met à jour les indicateurs de tracking de la diffusion. Par défaut, il se déclenche toutes les 10 minutes.<br /> </td> 
   </tr> 
