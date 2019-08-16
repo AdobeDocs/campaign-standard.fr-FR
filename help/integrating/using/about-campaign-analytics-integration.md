@@ -3,17 +3,17 @@ title: A propos de l'intégration Campaign-Analytics
 seo-title: A propos de l'intégration Campaign-Analytics
 description: A propos de l'intégration Campaign-Analytics
 seo-description: Grâce à la collecte des données de KPI depuis Adobe Campaign, vous pouvez désormais partager les données sur les campagnes avec Adobe Analytics afin d'évaluer les mesures de marketing par email depuis Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 7 a 351 e 1 d -50 cb -4 ec 5-8 b 66-318 b 797 af 77 f
+page-status-flag: never-activated
+uuid: 7a351e1d-50cb-4ec5-8b66-318b797af77f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: intégration
-content-type: référence
-topic-tags: work-with-campaign-and-analytics
-discoiquuid: 2 ea 51543-fe 4 d -462 b-b 47 e -9 ccaa 1 d 68 dfa
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
+discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -38,5 +38,5 @@ Une intégration entre le core service **Triggers** d'Adobe Analytics et Adobe�
 
 * [Dimensions et mesures de Campaign dans Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Reporting](../../reporting/using/about-dynamic-reports.md)
-* Documentation [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
+* Documentation [Adobe Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/adobe-campaign.html)
 
