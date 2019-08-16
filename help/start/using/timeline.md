@@ -3,18 +3,18 @@ title: Planning
 seo-title: Planning
 description: Planning
 seo-description: Découvrez comment visualiser les programmes en cours et leur contenu à l'aide de l'interface d'Adobe Campaign Standard.
-page-status-flag: jamais activé
-uuid: ffa 0 a 63 a -2 e 77-45 c 0-8 e 60-212 f 7 aaeb 447
+page-status-flag: never-activated
+uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
-topic-tags: plans marketing
-discoiquuid: 53 e 3 db 10-5 fed -4 fc 3-b 41 e -5226 f 1 e 05246
-context-tags: Campaigncalendar, principale
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
+context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 # Planning{#timeline}
 
-Le **[!UICONTROL Planning]permet de visualiser les programmes en cours ainsi que leur contenu.**
+Le **[!UICONTROL Planning]** permet de visualiser les programmes en cours ainsi que leur contenu.
 
 Pour accéder au planning, cliquez sur la vignette correspondante depuis la page d'accueil.
 
@@ -34,7 +34,7 @@ Chaque programme est représenté par un cadre contenant la miniature et le libe
 
 La ligne verticale bleue est un repère chronologique correspondant à la date du jour, figurant par défaut au milieu de l'écran. Il est possible de faire défiler l'écran vers la droite ou la gauche pour modifier la période affichée.
 
-Les boutons ![](assets/timeline_zoom_in.png) et ![ permettent de restreindre ou d'élargir le périmètre. ](assets/timeline_zoom_out.png) Le bouton ![](assets/timeline_zoom_in.png) permet ainsi d'augmenter le niveau de détail sur une période plus restreinte, jusqu'à afficher les jours, tandis que le bouton ![ permet d'afficher une période plus large.](assets/timeline_zoom_out.png)
+Les boutons ![](assets/timeline_zoom_in.png) et ![](assets/timeline_zoom_out.png) permettent de restreindre ou d'élargir le périmètre. Le bouton ![](assets/timeline_zoom_in.png) permet ainsi d'augmenter le niveau de détail sur une période plus restreinte, jusqu'à afficher les jours, tandis que le bouton ![](assets/timeline_zoom_out.png) permet d'afficher une période plus large.
 
 Cliquez sur la flèche située à droite du nom de chaque programme pour afficher son contenu. Un programme peut contenir des sous-programmes, des campagnes et des landing pages. Une campagne se déploie de la même façon qu'un programme et peut contenir des emails, des SMS et des landing pages.
 
