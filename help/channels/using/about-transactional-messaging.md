@@ -3,17 +3,17 @@ title: A propos des messages transactionnels
 seo-title: A propos des messages transactionnels
 description: A propos des messages transactionnels
 seo-description: Découvrez les différents types de messages transactionnels que vous pouvez envoyer et leur utilisation dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 8470 e 9 e 2-ee 17-456 f -9 e 4 c -460 e 69 c 78 a 2 c
+page-status-flag: never-activated
+uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 71 a 4 d 5 d 5-fe 2 a -4 ce 5-b 22 b-a 4736 f 7 add 83
+discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
 
 ---
@@ -70,11 +70,11 @@ Au cours de la conception et de la publication de messages transactionnels, cert
 
 * Un seul canal peut être utilisé pour chaque configuration d'événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Une fois l'événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n'est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l'envoyer depuis un autre canal à l'aide d'un workflow. Voir la section [Données de workflow et processus](../../automating/using/workflow-data-and-processes.md).
-* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Une fois l'événement créé, vous ne pouvez pas modifier la dimension de ciblage (**[!UICONTROL Evénement temps réel]** ou **[!UICONTROL Profil]**). Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Il n'est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l'événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l'événement](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personnalisation {#personalization}
+### Personnalisation  {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d'un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous :
 
@@ -93,19 +93,19 @@ La manière dont vous pouvez personnaliser le contenu d'un message dépend du ty
 
 Les listes de produits ne sont disponibles que dans les emails transactionnels. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-### Permissions et marques {#permissions-and-branding}
+### Permissions et marques  {#permissions-and-branding}
 
-En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à l'entité organisationnelle **[!UICONTROL Tous].** Pour plus d'informations, lisez l'explication détaillée ci-après.
+En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à l'entité organisationnelle **[!UICONTROL Tous]**. Pour plus d'informations, lisez l'explication détaillée ci-après.
 
-Lorsque vous éditez un message transactionnel, vous pouvez le lier à une marque pour appliquer automatiquement certains paramètres tels que le nom ou le logo de la marque. La **[!UICONTROL Marque par défaut]est sélectionnée par défaut dans les propriétés des messages transactionnels.**
+Lorsque vous éditez un message transactionnel, vous pouvez le lier à une marque pour appliquer automatiquement certains paramètres tels que le nom ou le logo de la marque. La **[!UICONTROL Marque par défaut]** est sélectionnée par défaut dans les propriétés des messages transactionnels.
 
 ![](assets/message-center_branding.png)
 
-Pour accéder aux messages transactionnels, vous devez appartenir au groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec) qui est lié à l'**[!UICONTROL entité organisationnelle]** Message Center[. ](../../administration/using/organizational-units.md) Par conséquent, tous les objets (notamment les marques) utilisés dans un message transactionnel doivent être visibles à partir de l'unité organisationnelle **[!UICONTROL Message Center]**, ce qui signifie qu'ils doivent figurer dans les unités organisationnelles **[!UICONTROL Message Center]ou** Tous **.**
+Pour accéder aux messages transactionnels, vous devez appartenir au groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec) qui est lié à l'[entité organisationnelle](../../administration/using/organizational-units.md) **[!UICONTROL Message Center]**. Par conséquent, tous les objets (notamment les marques) utilisés dans un message transactionnel doivent être visibles à partir de l'unité organisationnelle **[!UICONTROL Message Center]**, ce qui signifie qu'ils doivent figurer dans les unités organisationnelles **[!UICONTROL Message Center]** ou **[!UICONTROL Tous]**.
 
-However, if the brand selected in the message properties is linked to an organizational unit which is different from **[!UICONTROL Message Center]** or **[!UICONTROL All]**, this will cause an error and you will not be able to send the transactional message.
+Si la marque sélectionnée dans les propriétés du message est liée à une entité organisationnelle autre que **[!UICONTROL Message Center]** ou **[!UICONTROL Tous]**, une erreur sera générée et vous ne pourrez pas envoyer le message transactionnel.
 
-Par conséquent, si vous souhaitez utiliser le multi-branding dans le contexte des messages transactionnels, vous devez lier toutes les marques aux unités organisationnelles **[!UICONTROL Message Center]** ou **Tous[!UICONTROL .]**
+Par conséquent, si vous souhaitez utiliser le multi-branding dans le contexte des messages transactionnels, vous devez lier toutes les marques aux unités organisationnelles **[!UICONTROL Message Center]** ou **[!UICONTROL Tous]**.
 
 ### Exporter et importer des messages transactionnels {#exporting-and-importing-transactional-messages}
 
