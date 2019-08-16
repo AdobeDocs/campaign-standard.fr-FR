@@ -3,17 +3,17 @@ title: Notifications push transactionnelles
 seo-title: Notifications push transactionnelles
 description: Notifications push transactionnelles
 seo-description: Découvrez comment créer et publier une notification push transactionnelle.
-page-status-flag: jamais activé
-uuid: ef 31 c 1 b 6-9 ef 8-42 e 3-b 49 d -72 f 9 eac 8 ea 32
+page-status-flag: never-activated
+uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: e 645 d 4 b 9-001 f -47 d 9-8 a 0 f-b 4696 c 75 c 5 d 3
+discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
 
 ---
@@ -40,7 +40,7 @@ Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group.
+>Pour accéder aux messages transactionnels, vous devez disposer des droits d'administration ou figurer dans le groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec).
 
 ## Notifications push transactionnelles ciblant un événement {#transactional-push-notifications-targeting-an-event}
 
@@ -58,13 +58,13 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
 
    ![](assets/message-center_push_message.png)
 
-1. Cliquez sur le bloc **[!UICONTROL Contenu]pour modifier le titre et le corps de votre message.**
+1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le titre et le corps de votre message.
 
    Vous pouvez insérer des champs de personnalisation pour ajouter les éléments que vous avez définis lors de la création de votre événement.
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**.
+   Pour trouver ces champs, cliquez sur le crayon situé en regard d'un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Evénement transactionnel]** &gt; **[!UICONTROL Contexte de l'événement]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -93,7 +93,7 @@ Si le jeton d'enregistrement existe, l'utilisateur correspondant reçoit une not
 
 "Bonjour Jeanne Lambert, l'embarquement vient de commencer à la porte B18."
 
-## Notifications push transactionnelles ciblant un profil {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil  {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/inserting-a-personalization-field.md) comme le prénom du destinataire.
 
@@ -101,13 +101,13 @@ Dans ce cas, l'événement doit contenir certains champs permettant la réconcil
 
 Lors du ciblage des profils, une notification push transactionnelle est envoyée par application mobile et par appareil. Par exemple, si un utilisateur Adobe Campaign s'est abonné à deux applications, il recevra deux notifications. Si un utilisateur s'est abonné à une même application à partir de deux appareils différents, il recevra une notification sur chaque appareil.
 
-Les applications mobiles auxquelles un profil s'est abonné sont répertoriées dans l'onglet **[!UICONTROL Abonnements à l'application mobile]de ce profil.** Pour accéder à cet onglet, sélectionnez un profil et cliquez sur le bouton **[!UICONTROL Editer les propriétés du profil]à droite.**
+Les applications mobiles auxquelles un profil s'est abonné sont répertoriées dans l'onglet **[!UICONTROL Abonnements à l'application mobile]** de ce profil. Pour accéder à cet onglet, sélectionnez un profil et cliquez sur le bouton **[!UICONTROL Editer les propriétés du profil]** à droite.
 
 ![](assets/push_notif_subscriptions.png)
 
 Pour plus d'informations sur l'accès aux profils et leur édition, voir la section [Profils](../../audiences/using/creating-profiles.md).
 
-### Envoyer une notification push transactionnelle ciblant un profil {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envoyer une notification push transactionnelle ciblant un profil  {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l'embarquement à tous les utilisateurs Adobe Campaign qui se sont abonnés à son application mobile.
 
@@ -115,7 +115,7 @@ Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l'em
 
    ![](assets/message-center_push_message_profile.png)
 
-1. Cliquez sur le bloc **[!UICONTROL Contenu]pour modifier le titre et le corps de votre message.**
+1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le titre et le corps de votre message.
 
    Contrairement aux configurations reposant sur des événements temps réel, vous disposez d'un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d'un champ de personnalisation](../../designing/using/inserting-a-personalization-field.md).
 
