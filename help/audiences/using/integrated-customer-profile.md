@@ -3,18 +3,18 @@ title: Profil client intégré
 seo-title: Profil client intégré
 description: Profil client intégré
 seo-description: '"Trackez l''interaction de chaque client dans une vue unique : le profil client intégré d''Adobe Campaign est mis à jour tout au long du cycle de vie du client."'
-page-status-flag: jamais activé
-uuid: da 2 eb 13 a -2268-4 a 99-939 c-c 6388 f 5 d 34 f 3
+page-status-flag: never-activated
+uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
-topic-tags: gestion-profils
-discoiquuid: d 44656 e 8-e 652-45 fc-a 05 c -0 d 5 ffe 456 ecb
-context-tags: Marketinghistory, main
+content-type: reference
+topic-tags: managing-profiles
+discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
+context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
 
 ---
@@ -41,5 +41,5 @@ Cliquez sur un événement de la liste pour l'ouvrir : vous pouvez accéder au 
 
 >[!NOTE]
 >
->L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
+>L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Voir à ce propos la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
 
