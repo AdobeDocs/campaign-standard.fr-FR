@@ -3,18 +3,18 @@ title: Interface de l'éditeur de contenu de SMS et de notification push
 seo-title: Interface de l'éditeur de contenu de SMS et de notification push
 description: Interface de l'éditeur de contenu de SMS et de notification push
 seo-description: Découvrez comment utiliser les différentes sections de l'éditeur pour modifier le contenu de vos SMS et notifications push.
-page-status-flag: jamais activé
-uuid: 4 af 5 d 247-555 b -45 c 5-95 a 7-cb 27 f 356 b 5 a 0
+page-status-flag: never-activated
+uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 4 e 214 eb 9-d 299-4095-b 786-8 d 1 de 9 b 1 c 8 a 2
-context-tags: livraison, smscontent, back
+discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
+context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c880b265cf83cb76b2cdbe3cbdd77182adb71bb1
 
 ---
@@ -27,7 +27,7 @@ L'éditeur de contenu de SMS et de notification push comporte deux sections diff
 1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez insérer des champs de personnalisation ou des blocs de contenu, ajouter du texte conditionnel et prévisualiser le contenu de votre SMS grâce à celle-ci. Voir [Barre d'actions de l'éditeur de contenu de SMS et de notification push](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar).
 1. La **zone d'édition** de l'écran permet de saisir directement le SMS et de sélectionner l'endroit où vous souhaitez insérer une personnalisation. Voir [Modes d'édition du contenu d'un SMS et d'une notification push](../../designing/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes).
 
-## Barre d'actions de l'éditeur de contenu de SMS et de notification push {#sms-and-push-content-editor-action-bar}
+## Barre d'actions de l'éditeur de contenu de SMS et de notification push  {#sms-and-push-content-editor-action-bar}
 
 La barre d'actions contient différents boutons permettant d'agir sur le contenu en cours de création.
 
