@@ -3,18 +3,18 @@ title: Programmes et campagnes
 seo-title: Programmes et campagnes
 description: Programmes et campagnes
 seo-description: Dans Adobe Campaign, les programmes et les campagnes permettent de regrouper et orchestrer les différentes activités marketing qui leur sont associées. Des rapports sur les programmes et les campagnes permettent d'analyser leur impact.
-page-status-flag: jamais activé
-uuid: fe 2812 a 8-196 f -4 aba-a 739-fbbfffd 754 cb
+page-status-flag: never-activated
+uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
-topic-tags: plans marketing
-discoiquuid: 21 b 84028-d 1 a 7-4 ad 6-891 a -862 a 94565514
-context-tags: campaign, overview ; Campaignexplorer, main
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
+context-tags: campaign,overview;campaignExplorer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 
 ---
@@ -40,19 +40,19 @@ Des rapports sur les programmes et les campagnes permettent d'analyser leur impa
 * [Planning](../../start/using/timeline.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Créer un programme {#creating-a-program}
+## Créer un programme  {#creating-a-program}
 
 Le programme correspond au premier niveau de l'organisation. Il peut contenir des sous-programmes, des campagnes, des workflows ou des landing pages.
 
-1. Depuis la page d'accueil d'Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes].**
-1. Cliquez sur le bouton **[!UICONTROL Créer].**
-1. Dans l'écran **[!UICONTROL Mode de création], sélectionnez un type de programme.**
+1. Depuis la page d'accueil d'Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**.
+1. Dans l'écran **[!UICONTROL Mode de création]**, sélectionnez un type de programme.
 
    ![](assets/programs_and_campaigns_2.png)
 
-   The program types available are based on templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Program templates]** section. Voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
+   Les types de programme disponibles sont issus des modèles définis dans la section **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de programme]**. Voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
 
-1. Dans l'écran **[!UICONTROL Propriétés], saisissez le nom du programme et son identifiant.**
+1. Dans l'écran **[!UICONTROL Propriétés]**, saisissez le nom du programme et son identifiant.
 
    ![](assets/programs_and_campaigns_3.png)
 
@@ -60,34 +60,34 @@ Le programme correspond au premier niveau de l'organisation. Il peut contenir de
 
    Vous pouvez choisir de créer votre programme à l'intérieur d'un programme parent. Sélectionnez alors celui-ci parmi les programmes existants.
 
-1. Cliquez sur **[!UICONTROL Créer]pour valider la création du programme.**
+1. Cliquez sur **[!UICONTROL Créer]** pour valider la création du programme.
 
-Le programme est créé et affiché. Utilisez le bouton **[!UICONTROL Créer]pour ajouter des sous-programmes, des campagnes, des workflows ou des landing pages.**
+Le programme est créé et affiché. Utilisez le bouton **[!UICONTROL Créer]** pour ajouter des sous-programmes, des campagnes, des workflows ou des landing pages.
 
 >[!NOTE]
 >
 >Vous pouvez également créer un programme depuis la liste des activités marketing.
 
-## Créer une campagne {#creating-a-campaign}
+## Créer une campagne  {#creating-a-campaign}
 
 Dans les programmes et sous-programmes, vous pouvez ajouter des campagnes. Les campagnes peuvent contenir des activités marketing telles que des emails, des SMS, des notifications push, des workflows et des landing pages.
 
-1. Depuis la page d'accueil d'Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]et accédez à un programme ou sous-programme.**
+1. Depuis la page d'accueil d'Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]** et accédez à un programme ou sous-programme.
 1. Cliquez sur le bouton **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Campagne]**.
-1. Dans l'écran **[!UICONTROL Mode de création], sélectionnez un type de campagne.**
+1. Dans l'écran **[!UICONTROL Mode de création]**, sélectionnez un type de campagne.
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Campaign templates]**. Voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
+   Les types de campagne disponibles sont issus des modèles définis dans **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de campagne]**. Voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
 
-1. Dans l'écran **[!UICONTROL Propriétés], saisissez le nom de la campagne et son identifiant.**
+1. Dans l'écran **[!UICONTROL Propriétés]**, saisissez le nom de la campagne et son identifiant.
 1. Sélectionnez une date de début et une date de fin pour la campagne. Ces dates s'appliquent uniquement à la campagne.
 
    ![](assets/programs_and_campaigns_8.png)
 
-1. Cliquez sur **[!UICONTROL Créer]pour valider la création de la campagne.**
+1. Cliquez sur **[!UICONTROL Créer]** pour valider la création de la campagne.
 
-La campagne est créée et affichée. Utilisez le bouton **[!UICONTROL Créer]pour ajouter des activités marketing à votre campagne.**
+La campagne est créée et affichée. Utilisez le bouton **[!UICONTROL Créer]** pour ajouter des activités marketing à votre campagne.
 
 >[!NOTE]
 >
@@ -95,12 +95,12 @@ La campagne est créée et affichée. Utilisez le bouton **[!UICONTROL Créer]po
 
 Vous pouvez également créer une campagne depuis la liste des activités marketing. Vous pouvez choisir d'associer l'activité marketing à un sous-programme ou programme parent via la fenêtre des propriétés de la campagne.
 
-## Icônes et statuts des programmes et campagnes {#programs-and-campaigns-icons-and-statuses}
+## Icônes et statuts des programmes et campagnes  {#programs-and-campaigns-icons-and-statuses}
 
 Chaque programme et chaque campagne de la liste sont représentés par un visuel et une icône dont la couleur indique le statut d'exécution. Ce statut dépend de la période de validité du programme ou de la campagne.
 
-* Gris : le programme/la campagne n'a pas encore commencé - statut **[!UICONTROL En édition].**
-* Bleu : le programme/la campagne est en cours - statut **[!UICONTROL En cours].**
+* Gris : le programme/la campagne n'a pas encore commencé - statut **[!UICONTROL En édition]**.
+* Bleu : le programme/la campagne est en cours - statut **[!UICONTROL En cours]**.
 * Vert : le programme/la campagne est terminé(e) - statut **[!UICONTROL Terminé.]** Par défaut, la date de début de validité est automatiquement renseignée avec la date du jour, et la date de fin est calculée par rapport à la date de début (**J+186 jours**). Vous pouvez modifier ces dates dans les propriétés du programme ou de la campagne.
 
 ![](assets/programs_and_campaigns.png)
