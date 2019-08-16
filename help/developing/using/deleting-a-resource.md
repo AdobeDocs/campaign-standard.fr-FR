@@ -3,17 +3,17 @@ title: Supprimer une ressource
 seo-title: Supprimer une ressource
 description: Supprimer une ressource
 seo-description: 'Découvrez comment supprimer une ressource. '
-page-status-flag: jamais activé
-uuid: 5 de 27589-6 fa 5-412 c -8 e 5 a-a 4976 de 05715
+page-status-flag: never-activated
+uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: développement
-content-type: référence
-topic-tags: ajout-extension-a-resource
-discoiquuid: 0130733 d -4 e 3 f -40 cd-b 959-56381 f 2 c 8 f 44
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
+discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 # Supprimer une ressource{#deleting-a-resource}
 
-Pour supprimer une ressource, celle-ci doit être **[!UICONTROL En création]**. La ressource est **[!UICONTROL En création]si :**
+Pour supprimer une ressource, celle-ci doit être **[!UICONTROL En création]**. La ressource est **[!UICONTROL En création]** si :
 
 * Elle vient d'être créée et n'est pas encore publiée.
 * Si elle est déjà publiée, la ressource doit être réinitialisée.
@@ -33,7 +33,7 @@ Pour supprimer une ressource, celle-ci doit être **[!UICONTROL En création]**.
 Pour réinitialiser et supprimer une ressource publiée :
 
 1. Sélectionnez la ressource que vous souhaitez réinitialiser.
-1. Cliquez sur le bouton **[!UICONTROL Réinitialiser]disponible dans la barre d'actions.**
+1. Cliquez sur le bouton **[!UICONTROL Réinitialiser]** disponible dans la barre d'actions.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -53,7 +53,7 @@ Pour réinitialiser et supprimer une ressource publiée :
 
    La ressource passe en mode **En création** et son statut d'activation est **[!UICONTROL Désactivé]**.
 
-1. En mode **[!UICONTROL Liste]**, cochez la ressource à supprimer puis cliquez sur l'icône ![ ](assets/delete_darkgrey-24px.png)Supprimer l'élément **.**
+1. En mode **[!UICONTROL Liste]**, cochez la ressource à supprimer puis cliquez sur l'icône ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Supprimer l'élément]**.
 
    ![](assets/schema_extension_uc28.png)
 
