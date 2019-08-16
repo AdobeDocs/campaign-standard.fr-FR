@@ -3,18 +3,18 @@ title: A propos des landing pages
 seo-title: A propos des landing pages
 description: A propos des landing pages
 seo-description: Découvrez les landing pages Campaign et leur cycle de vie.
-page-status-flag: jamais activé
-uuid: b 316 bf 47-7 d 98-46 fa-ab 4 f -67 ff 50 de 8095
+page-status-flag: never-activated
+uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: landing-pages
-discoiquuid: ca 8 d 1698-6 e 8 a -4 f 5 a-b 017-74 a 152 e 14286
-context-tags: Landingpage, assistant ; Landingpage, overview ; Landingpage, main
+discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a0fe48630748472047d417df97cfd74d178d6ab
 
 ---
@@ -43,7 +43,7 @@ Adobe vous recommande de créer vos propres modèles en dupliquant un modèle in
 
 >[!NOTE]
 >
->To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**.
+>Pour accéder aux modèles, cliquez sur le logo Adobe Campaign dans le coin supérieur gauche et sélectionnez **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de landing page]**.
 
 Le cycle de vie complet d'une landing page est le suivant :
 
@@ -58,5 +58,5 @@ Une fois créée et publiée, vous pouvez rendre la landing page accessible sur 
 
 **Rubriques connexes :**
 
-* Vidéo [Créer une landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Vidéo [Créer une landing page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Utiliser une landing page pour s'inscrire à un service](../../audiences/using/creating-a-service.md)
