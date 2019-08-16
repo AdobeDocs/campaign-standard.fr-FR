@@ -3,17 +3,17 @@ title: Intégration avec les solutions Adobe
 seo-title: Intégration avec les solutions Adobe
 description: Intégration avec les solutions Adobe
 seo-description: Découvrez comment les intégrations avec les core services et les solutions Adobe Experience Cloud, par exemple Adobe Analytics et Experience Manager, peuvent améliorer votre stratégie Adobe Campaign grâce à des informations détaillées et une gestion de contenu pratique.
-page-status-flag: jamais activé
-uuid: e 142 e 449-1 cf 4-4 d 3 f-a 318-6572 d 78 e 6 f 85
+page-status-flag: never-activated
+uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: 3 aebc 89 c-ed 08-46 ab -909 c-e 077 ce 2 ab 5 da
+discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -63,5 +63,5 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Automatisez l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide du SDK Adobe Experience Platform.
 
-   Voir à ce propos [Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Voir à ce propos [ Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
