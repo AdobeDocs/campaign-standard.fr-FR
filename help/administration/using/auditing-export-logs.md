@@ -3,17 +3,17 @@ title: Audit des logs d'export
 seo-title: Audit des logs d'export
 description: Audit des logs d'export
 seo-description: Les administrateurs peuvent tracker les exports qui ont été effectués depuis Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 2 a 93485 e-f 6 b 9-4 b 01-b 3 a 1-c 91 f 2739 d 188
+page-status-flag: never-activated
+uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: utilisateurs-sécurité
-discoiquuid: 1033 d 0 ce-a 400-47 ad-afda-bcf 7419 c 94 c 7
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 # Audit des logs d'export{#auditing-export-logs}
 
-From **[!UICONTROL Administration]** &gt; **[!UICONTROL Users &amp; Security]** &gt; **[!UICONTROL Export audits]**, administrators can view a list of all the following exports, including their date and the user who performed the export:
+Depuis **[!UICONTROL Administration]** &gt; **[!UICONTROL Utilisateurs &amp; sécurité]** &gt; **[!UICONTROL Audits d'export]**, les administrateurs peuvent afficher la liste de tous les exports suivants, ainsi que la date et l'utilisateur ayant effectué l'export :
 
-* chargement de fichier depuis une activité **[!UICONTROL Transfert de fichier]dans un workflow ;**
+* chargement de fichier depuis une activité **[!UICONTROL Transfert de fichier]** dans un workflow ;
 * export d'une liste depuis une liste ou une sous-liste ;
 * fichier téléchargé depuis le tableau de bord des diffusions d'un message de type Courrier.
 
