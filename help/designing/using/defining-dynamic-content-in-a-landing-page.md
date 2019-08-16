@@ -3,17 +3,17 @@ title: Définir le contenu dynamique dans une landing page
 seo-title: Définir le contenu dynamique dans une landing page
 description: Définir le contenu dynamique dans une landing page
 seo-description: Suivez ces étapes pour afficher différents contenus de manière dynamique dans une landing page selon les conditions définies au moyen de l'éditeur d'expression Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 64 a 8 ddd 2-8 bb 0-44 ef-bae 9-b 6 b 77 a 84 ca 8 b
+page-status-flag: never-activated
+uuid: 64a8ddd2-8bb0-44ef-bae9-b6b77a84ca8b
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: définition-conditionnelle-contenu
-discoiquuid: 00 e 5 ed 81-d 3 d 1-4211-8352-71805 a 7042 c 9
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: defining-conditional-content
+discoiquuid: 00e5ed81-d3d1-4211-8352-71805a7042c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -35,7 +35,7 @@ Les étapes suivantes pour définir le contenu dynamique dans une landing page s
 >
 >Les éléments de variante encadrés en rouge sont ceux pour lesquels une expression n'a pas encore été définie.
 
-## Prévisualiser le contenu dynamique dans une landing page {#previewing-dynamic-content-in-a-landing-page}
+## Prévisualiser le contenu dynamique dans une landing page  {#previewing-dynamic-content-in-a-landing-page}
 
 Vous pouvez naviguer parmi les différents contenus dynamiques d'un bloc. Pour cela :
 
@@ -51,7 +51,7 @@ Vous pouvez naviguer parmi les différents contenus dynamiques d'un bloc. Pour c
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Pour supprimer toutes les conditions appliquées à un bloc, sélectionnez celui-ci et cliquez de nouveau sur l'icône **[!UICONTROL Désactiver le contenu dynamique].**
+1. Pour supprimer toutes les conditions appliquées à un bloc, sélectionnez celui-ci et cliquez de nouveau sur l'icône **[!UICONTROL Désactiver le contenu dynamique]**.
 1. Sélectionnez le contenu dynamique que vous souhaitez conserver.
 
    ![](assets/dynamic_content_lp_5.png)
