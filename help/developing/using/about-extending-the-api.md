@@ -3,17 +3,17 @@ title: A propos de l'extension de l'API
 seo-title: A propos de l'extension de l'API
 description: A propos de l'extension de l'API
 seo-description: null
-page-status-flag: jamais activé
-uuid: c 7 b 9 c 171-0409-4707-9 d 45-3 fa 72 aee 8008
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: développement
-content-type: référence
-topic-tags: use-case—extend-the-api
-discoiquuid: 304 e 7779-42 d 2-430 a -9704-8 c 599 a 4 eb 1 da
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 
 Ce cas pratique présente l'exposition des champs étendus de la ressource personnalisée Profiles dans l'API Profiles publique, afin de mettre à jour instantanément le profil d'un client avec un code promotion généré à partir d'un système de facturation, par exemple.
 
-Pour pouvoir publier l'API, vous devez disposer du rôle **[!UICONTROL Datamodel].**
+Pour pouvoir publier l'API, vous devez disposer du rôle **[!UICONTROL Datamodel]**.
 
 * Etendre la ressource personnalisée Profiles
 * Publier l'extension
