@@ -115,7 +115,7 @@ Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recomm
 
 * Créez une stratégie de compartiment stricte afin de limiter l'accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d'un compartiment. Pour plus d'informations, consultez la [documentation Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Lors de la création d'un compte externe, activez le cryptage pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
-* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l'objet dans un compartiment. Pour plus d'informations sur les autorisations de compartiment, consultez la [documentation d'Amazon S3](.http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l'objet dans un compartiment. Pour plus d'informations sur les autorisations de compartiment, consultez la [documentation d'Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
 
