@@ -3,18 +3,18 @@ title: Créer un modèle
 seo-title: Créer un modèle
 description: Créer un modèle
 seo-description: Découvrez comment créer un modèle à partir des modèles d'activité d'usine pour les diffusions email, SMS, par notification push, etc.
-page-status-flag: jamais activé
-uuid: 26 e 368 ae -06 e 1-4 c 11-9899-c 23 cc 727 d 398
+page-status-flag: never-activated
+uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
-topic-tags: gestion-templates
-discoiquuid: d 3 e 37141-1170-4332-a 46 c -66 a 847 ed 3531
-context-tags: Campaigntemplate, overview ; Deliverytemplate, overview ; Programtemplate, overview ; Workflowtemplate, overview ; Importtemplate, overview ;
+content-type: reference
+topic-tags: managing-templates
+discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
+context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 
 ---
@@ -22,13 +22,13 @@ source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
 
 # Créer un modèle{#creating-a-new-template}
 
-Les modèles de message peuvent être gérés par l'administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Ressources &gt; Modèles.]** Les modèles d'usine ne peuvent être ni modifiés, ni supprimés. Pour créer un modèle, vous devez en dupliquer un existant.
+Les modèles de message peuvent être gérés par l'administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Ressources &gt; Modèles]**. Les modèles d'usine ne peuvent être ni modifiés, ni supprimés. Pour créer un modèle, vous devez en dupliquer un existant.
 
 1. Sélectionnez un modèle existant. Dans notre exemple, nous avons choisi un **[!UICONTROL Modèle de diffusion]**.
 
    ![](assets/template_2.png)
 
-1. Survolez-le avec la souris, puis sélectionnez l'option **[!UICONTROL Dupliquer l'élément].**
+1. Survolez-le avec la souris, puis sélectionnez l'option **[!UICONTROL Dupliquer l'élément]**.
 
    ![](assets/template_3.png)
 
