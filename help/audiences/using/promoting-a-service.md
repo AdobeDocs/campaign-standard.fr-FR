@@ -3,17 +3,17 @@ title: Promouvoir un service
 seo-title: Promouvoir un service
 description: Promouvoir un service
 seo-description: Utilisez Adobe Campaign pour promouvoir un service et interagir avec vos clients par le biais de landing pages et d'emails dédiés ou directement sur votre site web.
-page-status-flag: jamais activé
-uuid: 2 b 71 d 2 a 1-3 e 48-4 a 21-ab 21-4 a 360 abc 1 d 36
+page-status-flag: never-activated
+uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
-topic-tags: gestion-abonnements
-discoiquuid: 98650305-7 abf -456 f -8 c 91-cf 0 b 61 f 53763
+content-type: reference
+topic-tags: managing-subscriptions
+discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
