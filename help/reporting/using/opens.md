@@ -3,18 +3,18 @@ title: Ouvertures (Opens)
 seo-title: Ouvertures (Opens)
 description: Ouvertures (Opens)
 seo-description: Grâce au rapport Ouvertures (Opens), découvrez quelle diffusion a été la plus visualisée en fonction de différents critères.
-page-status-flag: jamais activé
-uuid: fe 5453 b 6-cac 1-43 be -860 e-c 65 c 8 a 5168 d 6
+page-status-flag: never-activated
+uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: c 87188 e 8-cea 7-4 cc 6-becf-b 9788 e 5 ec 36 b
-context-tags: Deliveryopenratereport, main ; Campaignopenratereport, main ; Programopenratereport, main
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
+context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
