@@ -3,18 +3,18 @@ title: Edition de requêtes
 seo-title: Edition de requêtes
 description: Edition de requêtes
 seo-description: Créez une population grâce aux règles et aux filtres prédéfinis.
-page-status-flag: jamais activé
-uuid: a 49 c 7739-a 96 c -45 cb -9 ac 5-1 ce 299161 a 97
+page-status-flag: never-activated
+uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: filtrage-données
-discoiquuid: 84306 a 1 e -0 d 9 f -44 cc -88 a 7-36 d 7 e 5 b 4 da 1 f
-context-tags: Queryfilter, overview ; audience, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: filtering-data
+discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ---
@@ -34,13 +34,13 @@ Cet outil est partagé par plusieurs fonctionnalités de l'application :
 * définition de la cible d'un **email**
 * définition d'une population dans des activités de **workflows**.
 
-## Interface de l'éditeur de requêtes {#query-editor-interface}
+## Interface de l'éditeur de requêtes  {#query-editor-interface}
 
 L'éditeur de requêtes se compose d'une **Palette** et d'un **Espace de travail**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### Palette  {#palette}
 
 La palette, située sur la gauche de l'éditeur, est divisée en deux onglets, composés d'éléments répartis dans des blocs thématiques. Ces onglets sont :
 
@@ -54,13 +54,13 @@ Les éléments contenus dans les onglets doivent être déplacés dans l'espace 
 * définir des règles simples sur les champs de votre choix
 * définir des règles avancées permettant d'appliquer des fonctions sur certains champs.
 
-### Espace de travail {#workspace}
+### Espace de travail  {#workspace}
 
 L'espace de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles, audiences et filtres prédéfinis ajoutés depuis la palette.
 
 Lorsque vous déplacez un élément de la palette dans l'espace de travail, une nouvelle fenêtre s'ouvre et vous permet de [Créer une requête](../../automating/using/editing-queries.md#creating-queries).
 
-## Créer une requête {#creating-queries}
+## Créer une requête  {#creating-queries}
 
 L'éditeur de requêtes peut être utilisé pour définir une audience ou un profil de test dans un message, une population dans un workflow et pour créer une audience de type Requête.
 
@@ -89,7 +89,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
       Spécifier une sous-condition n'est pas obligatoire.
 
-      Vous pouvez par exemple seulement sélectionner l'opérateur **[!UICONTROL Existe]sur le tracking des profils et valider la règle.** La règle renverra tous les profils pour lesquels le tracking existe.
+      Vous pouvez par exemple seulement sélectionner l'opérateur **[!UICONTROL Existe]** sur le tracking des profils et valider la règle. La règle renverra tous les profils pour lesquels le tracking existe.
 
       ![](assets/query_editor_audience_definition6.png)
 
@@ -106,7 +106,7 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
    * **[!UICONTROL OU]** : union de deux critères. Les éléments répondant à au moins l'un des deux critères sont comptabilisés.
    * **[!UICONTROL SAUF]** : critère d'exclusion. Les éléments répondant au premier critère sont comptabilisés sauf s'ils répondent également au second critère.
 
-1. Vous pouvez à tout moment compter et prévisualiser les éléments ciblés par votre requête à l'aide des boutons ![](assets/count.png) et ![ de la barre d'actions.](assets/preview.png)
+1. Vous pouvez à tout moment compter et prévisualiser les éléments ciblés par votre requête à l'aide des boutons ![](assets/count.png) et ![](assets/preview.png) de la barre d'actions.
 
    ![](assets/query_editor_combining_rules.png)
 
