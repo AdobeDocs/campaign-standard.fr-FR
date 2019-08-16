@@ -3,17 +3,17 @@ title: Préparer l'envoi
 seo-title: Préparer l'envoi
 description: Préparer l'envoi
 seo-description: Découvrez comment définir la préparation avant l'envoi.
-page-status-flag: jamais activé
-uuid: 1038 dae 2-164 c -4579-9294-bdf 2 a 4 eb 12 d 6
+page-status-flag: never-activated
+uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
-topic-tags: préparation-test-messages
-discoiquuid: 003 abc 83-7 f 07-471 f-ab 2 f -1 d 352 d 22 c 26 f
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -27,7 +27,7 @@ La préparation correspond à l'étape de calcul de la population cible et de g�
 
    ![](assets/preparing_delivery_2.png)
 
-1. Le bloc **[!UICONTROL Déploiement]affiche l'état d'avancement de la préparation, puis le résultat de la préparation : nombre de messages ciblés et à envoyer, etc.**
+1. Le bloc **[!UICONTROL Déploiement]** affiche l’état d'avancement de la préparation, puis le résultat de la préparation : nombre de messages ciblés et à envoyer, etc.
 
    La durée de cette opération varie en fonction de la taille de la population ciblée.
 
@@ -39,7 +39,7 @@ La préparation correspond à l'étape de calcul de la population cible et de g�
 
    ![](assets/preparing_delivery_6.png)
 
-1. Votre message est automatiquement enregistré pendant la préparation de la phase de diffusion. Si vous devez apporter des modifications au planning de votre message après l'étape de préparation, vous devrez cliquer de nouveau sur le bouton **[!UICONTROL Préparer]pour que les modifications soient prises en compte.** Pour plus d'informations sur la planification d'un message, consultez cette [page](../../sending/using/about-scheduling-messages.md).
+1. Votre message est automatiquement enregistré pendant la préparation de la phase de diffusion. Si vous devez apporter des modifications au planning de votre message après l'étape de préparation, vous devrez cliquer de nouveau sur le bouton **[!UICONTROL Préparer]** pour que les modifications soient prises en compte. Pour plus d'informations sur la planification d'un message, consultez cette [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -47,7 +47,7 @@ La préparation correspond à l'étape de calcul de la population cible et de g�
 
    ![](assets/preparing_delivery_4.png)
 
-1. La fenêtre **[!UICONTROL Déploiement]s'affiche. Corrigez les erreurs, puis relancez la préparation.**
+1. La fenêtre **[!UICONTROL Déploiement]** s'affiche. Corrigez les erreurs, puis relancez la préparation.
 
    Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Une icône spécifique permet de visualiser le type d'erreur rencontrée : l'icône jaune indique une erreur de traitement non bloquante, l'icône rouge indique une erreur qui empêche le lancement de la diffusion.
 
