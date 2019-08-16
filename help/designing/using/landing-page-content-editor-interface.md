@@ -3,17 +3,17 @@ title: Interface de l'éditeur de contenu de landing page
 seo-title: Interface de l'éditeur de contenu de landing page
 description: Interface de l'éditeur de contenu de landing page
 seo-description: Découvrez comment utiliser les différentes sections de l'éditeur, telles que la barre d'actions, pour modifier le contenu de votre landing page.
-page-status-flag: jamais activé
-uuid: 53729 a 68-eed 2-4 c 5 d-bc 14-02 c 80 e 897 c 44
+page-status-flag: never-activated
+uuid: 53729a68-eed2-4c5d-bc14-02c80e897c44
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: édition-landing-page-content
-discoiquuid: 08 e 2 bbda-e 409-467 f-b 462-d 74256 dc 6 ebc
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-landing-page-content
+discoiquuid: 08e2bbda-e409-467f-b462-d74256dc6ebc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76c3d473f6cc7e825fdabadeec2405cb5c13abd1
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 76c3d473f6cc7e825fdabadeec2405cb5c13abd1
 
 # Interface de l'éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
-L'éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]dans le tableau de bord des landing pages.**
+L'éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
 
 L'éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
 
@@ -31,7 +31,7 @@ L'éditeur de contenu est organisé en trois sections distinctes. Elles permette
 1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage. Voir [Barre d'actions de l'éditeur de landing page](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
 1. La **zone d'édition** principale permet d'interagir directement avec le contenu, grâce à la barre d'outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Voir [Barre d'outils de l'éditeur de landing page](../../designing/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Barre d'actions de l'éditeur de landing page {#landing-page-editor-action-bar}
+## Barre d'actions de l'éditeur de landing page  {#landing-page-editor-action-bar}
 
 La barre d'actions contient différents boutons permettant d'agir sur le contenu en cours de création.
 
@@ -80,7 +80,7 @@ La barre d'actions contient différents boutons permettant d'agir sur le contenu
  </tbody> 
 </table>
 
-## Barre d'outils de l'éditeur de landing page {#landing-page-editor-toolbar}
+## Barre d'outils de l'éditeur de landing page  {#landing-page-editor-toolbar}
 
 La barre d'outils est un **élément contextuel** de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
 
