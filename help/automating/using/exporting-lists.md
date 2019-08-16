@@ -3,17 +3,17 @@ title: Export de listes
 seo-title: Export de listes
 description: Export de listes
 seo-description: 'Adobe Campaign vous permet d''exporter les données affichées sous forme de listes depuis un écran de présentation directement dans un fichier en vue d''une utilisation ultérieure. '
-page-status-flag: jamais activé
-uuid: c 64 fe 706-bd 6 e -4746-958 e-f 94226 f 4 e 2 cb
+page-status-flag: never-activated
+uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: importation-exportation-données
-discoiquuid: 12 c 874 da -435 f -44 b 6-a 3 c 8-873301 e 177 cc
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
+discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 ---
@@ -21,18 +21,18 @@ source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 # Export de listes{#exporting-lists}
 
-Adobe Campaign vous permet d'exporter le contenu de vos listes directement dans un fichier en vue d'une utilisation ultérieure. L'export d'une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports.]** Pour plus d'informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+Adobe Campaign vous permet d'exporter le contenu de vos listes directement dans un fichier en vue d'une utilisation ultérieure. L'export d'une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d'informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
 
-L'option d'export de liste permet d'exporter un maximum de 100 000 lignes par défaut et est définie par l'option **Nms_ExportListLimit.** This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+L'option d'export de liste permet d'exporter un maximum de 100 000 lignes par défaut et est définie par l'option **Nms_ExportListLimit**. Cette option peut être gérée par l'administrateur fonctionnel depuis le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Options]**.
 
-Elle est présente dans tous les écrans disposant d'une vue en mode **Liste**, pour les utilisateurs disposant du rôle **[!UICONTROL EXPORT (export)].**
+Elle est présente dans tous les écrans disposant d'une vue en mode **Liste**, pour les utilisateurs disposant du rôle **[!UICONTROL EXPORT (export)]**.
 
-1. Accédez à l'écran de type **Liste** de votre choix. For example, the test profile overview screen ( **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Test profiles]** ).
+1. Accédez à l'écran de type **Liste** de votre choix. Par exemple, la vue d'ensemble des profils de test (**[!UICONTROL Profils &amp; audiences]** &gt; **[!UICONTROL Profils de test]**).
 1. Assurez-vous que l'écran se trouve en mode **Liste**.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organisez les colonnes de la liste tel que vous souhaitez les exporter à l'aide du bouton **[!UICONTROL Configurer la liste], en haut à droite.** Outre les colonnes configurées, la clé primaire de la ressource sera également exportée.
+1. Organisez les colonnes de la liste tel que vous souhaitez les exporter à l'aide du bouton **[!UICONTROL Configurer la liste]**, en haut à droite. Outre les colonnes configurées, la clé primaire de la ressource sera également exportée.
 1. Si vous le souhaitez, appliquez un filtre. Pour cela, cliquez sur le bouton en haut à gauche pour afficher le volet de recherche.
 
    Si vous effectuez un export à partir d'une liste contenant différentes ressources, vous devez appliquer vos filtres de manière à ce qu'un seul type de ressource soit affiché dans la liste.
@@ -77,5 +77,5 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Rôles](../../administration/using/list-of-roles.md)
 * [Personnalisation des listes](../../start/using/customizing-lists.md)
-* Vidéo [Configurer une liste](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
+* Vidéo [Configurer une liste](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
 
