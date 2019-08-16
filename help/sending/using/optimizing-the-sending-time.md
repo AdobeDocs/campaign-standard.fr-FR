@@ -3,17 +3,17 @@ title: Optimiser l'heure d'envoi
 seo-title: Optimiser l'heure d'envoi
 description: Optimiser l'heure d'envoi
 seo-description: Découvrez comment configurer l'heure d'envoi et accroître le taux d'ouverture de vos messages.
-page-status-flag: jamais activé
-uuid: c 2 c 13934-9819-4 e 18-b 5 c 7-60915 c 907 f 37
+page-status-flag: never-activated
+uuid: c2c13934-9819-4e18-b5c7-60915c907f37
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 609355 f 6-9003-41 b 9-9981-ea 787419 fbf 5
+discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
 
 ---
@@ -36,11 +36,11 @@ Plusieurs options sont disponibles :
 
 * **[!UICONTROL Pas d'optimisation]** : les messages sont envoyés à l'heure de l'utilisateur.
 
-   Par exemple, si votre fuseau horaire est GMT+1 et que vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l'envoi le], un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 11 heures (heure locale du destinataire).**
+   Par exemple, si votre fuseau horaire est GMT+1 et que vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l'envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 11 heures (heure locale du destinataire).
 
 * **[!UICONTROL Envoyer en fonction du fuseau horaire du destinataire]** : tous les destinataires recevront le message en fonction de leur fuseau horaire.
 
-   Par exemple, si vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l'envoi le], un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 9 heures (heure locale du destinataire).**
+   Par exemple, si vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l'envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 9 heures (heure locale du destinataire).
 
    Voir [Envoi des messages au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
