@@ -3,18 +3,18 @@ title: Edition avancée d'expressions
 seo-title: Edition avancée d'expressions
 description: Edition avancée d'expressions
 seo-description: L'assistant d'édition de requêtes permet de définir des expressions avancées.
-page-status-flag: jamais activé
-uuid: a 635 f 999-27 ce -41 e 0-a 88 c -8 a 3882 e 31 efe
+page-status-flag: never-activated
+uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: filtrage-données
-discoiquuid: 4375153 c -0621-4 d 4 c-bfcc -66 d 157 f 04 f 4 c
-context-tags: Queryfilter, overview ; audience, principale
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: filtering-data
+discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
+context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ---
@@ -32,14 +32,14 @@ Il est également possible d'utiliser des variables d'événements lors de l'éd
 
 L'édition d'expressions peut être utilisée lors des opérations suivantes :
 
-* définition d'une requête, via l'option **[!UICONTROL Mode avancé]disponible lors de l'ajout d'une règle.**
+* définition d'une requête, via l'option **[!UICONTROL Mode avancé]** disponible lors de l'ajout d'une règle.
 
    ![](assets/expression_editor_2.png)
 
 * édition d'une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d'une condition de visibilité pour définir l'affichage d'un bloc de l'éditeur de contenus HTML. Dans ce cas, l'expression est éditée au format JavaScript et ne propose pas l'utilisation des fonctions avancées standard.
 
-## Editer une expression {#edit-an-expression}
+## Editer une expression  {#edit-an-expression}
 
 L'édition avancée d'expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -67,7 +67,7 @@ L'édition d'une expression vous permet de personnaliser l'expression Audiences 
 * [Syntaxe des expressions](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions {#expression-syntax}
+## Syntaxe des expressions  {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -95,7 +95,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l'année courants.
 
-### Syntaxe JavaScript {#javascript-syntax}
+### Syntaxe JavaScript  {#javascript-syntax}
 
 Lors de la définition des conditions de visibilité d'un bloc de type texte de l'éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
 
@@ -111,7 +111,7 @@ Les expressions JavaScript sont composées d'une ou plusieurs conditions, respec
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l'aide d'opérateurs logiques.
 
-   * **[!UICONTROL &amp; &amp;]**: deux conditions sont intersectées.
+   * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions.
    * **[!UICONTROL ||]**: union des deux conditions.
 
 Par exemple :
@@ -122,7 +122,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison {#comparison-operators}
+## Opérateurs de comparaison  {#comparison-operators}
 
 Pour certaines règles, l'éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
