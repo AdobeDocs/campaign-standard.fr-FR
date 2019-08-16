@@ -3,17 +3,17 @@ title: Ajouter des panneaux
 seo-title: Ajouter des panneaux
 description: Ajouter des panneaux
 seo-description: Un rapport dynamique permet d'ajouter un panneau pour mieux filtrer les données selon la période choisie.
-page-status-flag: jamais activé
-uuid: 8 e 76 e 837-5 efc -4250-8192-dee 1 a 0 bd 62 fe
+page-status-flag: never-activated
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: personnalisation des rapports
-discoiquuid: f 4 e 1 e 676-5 ca 2-4 a 58-96 d 7-d 378 ff 803710
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -37,7 +37,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre  {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l'aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
@@ -53,7 +53,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. En cas de besoin, déplacez des **[!UICONTROL Segments]** de l'onglet **Composants]vers la barre supérieure pour filtrer le rapport selon la tranche d'âge du destinataire.[!UICONTROL **
+1. En cas de besoin, déplacez des **[!UICONTROL Segments]** de l'onglet **[!UICONTROL Composants]** vers la barre supérieure pour filtrer le rapport selon la tranche d'âge du destinataire.
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -65,7 +65,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   L'option **[!UICONTROL Paramètres de colonne]est composée des éléments suivants :**
+   L'option **[!UICONTROL Paramètres de colonne]** est composée des éléments suivants :
 
    * **[!UICONTROL Nombre]** : permet d'afficher ou de masquer les nombres de synthèse dans la colonne.
    * **[!UICONTROL Pourcentage]** : permet d'afficher ou de masquer le pourcentage dans la colonne.
