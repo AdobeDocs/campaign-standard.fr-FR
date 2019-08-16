@@ -3,17 +3,17 @@ title: Créer un modèle multilingue
 seo-title: Créer un modèle multilingue
 description: Créer un modèle multilingue
 seo-description: Découvrez comment définir et exécuter des diffusions email/SMS multilingues en une seule vague à partir des préférences linguistiques de vos clients segmentés automatiquement. Créez des rapports sur les performances de chaque diffusion en affinant par langue et par niveau individuel.
-page-status-flag: jamais activé
-uuid: 7 a 2 cd 5 f 7-c 0 fc -4825-a 770-a 62816 c 66 b 3 f
+page-status-flag: never-activated
+uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
-topic-tags: gestion-templates
-discoiquuid: 064 c 5 c 4 a-f 579-4 bab-adf 3-51 c 92 eb 4518 f
+content-type: reference
+topic-tags: managing-templates
+discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -41,14 +41,14 @@ Pour créer un modèle d'email ou de SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous pouvez également modifier un modèle standard existant dans un modèle multilingue en cliquant sur le bouton **[!UICONTROL Initialiser la variante du contenu]dans les propriétés du modèle.**
+   >Vous pouvez également modifier un modèle standard existant dans un modèle multilingue en cliquant sur le bouton **[!UICONTROL Initialiser la variante du contenu]** dans les propriétés du modèle.
 
 1. Modifiez les propriétés pour personnaliser le libellé, le tracking, etc.
 1. Changez le nombre de variantes en cliquant sur la vignette des variantes. La fenêtre des variantes s'affiche,
 
    ![](assets/multi_template_variants.png)
 
-   dans laquelle vous pouvez ajouter ou supprimer des variantes. Pour ajouter une variante, renseignez la fenêtre **[!UICONTROL Nouvelle variante du contenu].**
+   dans laquelle vous pouvez ajouter ou supprimer des variantes. Pour ajouter une variante, renseignez la fenêtre **[!UICONTROL Nouvelle variante du contenu]**.
 
    ![](assets/multi_template_newvariant.png)
 
