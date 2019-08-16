@@ -3,17 +3,17 @@ title: Règles de fatigue
 seo-title: Règles de fatigue
 description: Règles de fatigue
 seo-description: Créez des règles de fatigue afin de gérer la sur-sollicitation des profils en matière de communication.
-page-status-flag: jamais activé
-uuid: fa 5 e 3 ded -36 c 2-4 f 16-b 97 a -119 b 85 adf 679
+page-status-flag: never-activated
+uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: working-with-tyloy-rules
-discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-bce 3-fe 2121 a 66586
+content-type: reference
+topic-tags: working-with-typology-rules
+discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -37,11 +37,11 @@ Rubriques connexes :
 * [Gestion des typologies](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Règles de typologie](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Créer une règle de fatigue {#creating-a-fatigue-rule}
+## Créer une règle de fatigue  {#creating-a-fatigue-rule}
 
-Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue], les étapes sont les suivantes :**
+Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue]**, les étapes sont les suivantes :
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Cliquez sur le logo Adobe Campaign, en haut à gauche de l'interface, puis sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Règles de typologie]**.
 
    ![](assets/fatigue4.png)
 
@@ -53,25 +53,25 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue
 
    ![](assets/fatigue3.png)
 
-1. Dans le champ **[!UICONTROL Canal], sélectionnez le canal auquel s'appliquera la règle.** Vous pouvez choisir un seul canal (Email, SMS, Courrier, Application mobile) ou sélectionner **[!UICONTROL Tous les canaux]**. Voir [Choisir le canal](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. Dans le champ **[!UICONTROL Canal]**, sélectionnez le canal auquel s'appliquera la règle. Vous pouvez choisir un seul canal (Email, SMS, Courrier, Application mobile) ou sélectionner **[!UICONTROL Tous les canaux]**. Voir [Choisir le canal](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. Dans l'onglet **[!UICONTROL Général], définissez la méthode de calcul du nombre maximum de messages par profil.** Vous pouvez choisir un seuil constant ou variable. Vous pouvez également affiner le seuil sur les profils et diffusions. Voir à ce sujet la section [Définir le seuil](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. Dans l'onglet **[!UICONTROL Général]**, définissez la méthode de calcul du nombre maximum de messages par profil. Vous pouvez choisir un seuil constant ou variable. Vous pouvez également affiner le seuil sur les profils et diffusions. Voir à ce sujet la section [Définir le seuil](../../administration/using/fatigue-rules.md#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Sélectionnez une **[!UICONTROL Période glissante]pendant laquelle la règle doit s'appliquer.** Consultez à ce sujet la section [Définir la période glissante](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Sélectionnez une **[!UICONTROL Période glissante]** pendant laquelle la règle doit s'appliquer. Consultez à ce sujet la section [Définir la période glissante](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
    Dans cet exemple (voir les captures d'écran précédentes), nous avons choisi d'envoyer un nombre maximum de 4 messages sur une période glissante de 15 jours.
 
-1. Dans l'onglet **[!UICONTROL Critères d'application], vous pouvez choisir d'appliquer cette règle à toutes les diffusions ou limiter l'application de la règle selon le message à envoyer.** La règle ne s'exécutera que si la condition d'application est remplie. Vous pouvez par exemple appliquer uniquement la règle aux messages dont le libellé commence par un mot donné ou dont l'identifiant contient certaines lettres. Voir [Restreindre la portée d'une règle de filtrage](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. Dans l'onglet **[!UICONTROL Critères d'application]**, vous pouvez choisir d'appliquer cette règle à toutes les diffusions ou limiter l'application de la règle selon le message à envoyer. La règle ne s'exécutera que si la condition d'application est remplie. Vous pouvez par exemple appliquer uniquement la règle aux messages dont le libellé commence par un mot donné ou dont l'identifiant contient certaines lettres. Voir [Restreindre la portée d'une règle de filtrage](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
-1. Sélectionnez l'onglet **[!UICONTROL Typologies]et associez votre règle de typologie à la typologie utilisée pour vos diffusions.** Voir [Gestion des typologies](../../administration/using/about-typology-rules.md#managing-typologies) et [Règles de typologie](../../administration/using/about-typology-rules.md#typology-rules).
+1. Sélectionnez l'onglet **[!UICONTROL Typologies]** et associez votre règle de typologie à la typologie utilisée pour vos diffusions. Voir [Gestion des typologies](../../administration/using/about-typology-rules.md#managing-typologies) et [Règles de typologie](../../administration/using/about-typology-rules.md#typology-rules).
 
    ![](assets/fatigue12.png)
 
@@ -87,9 +87,9 @@ Lors de la préparation de la diffusion, les profils sont exclus ou non de la di
 >
 >Pour que les règles de fatigue fonctionnent, vous devez définir une date de contact pour votre diffusion. Si vous choisissez d'envoyer immédiatement les messages, la règle de fatigue ne sera pas appliquée.
 
-## Choisir le canal {#choosing-the-channel}
+## Choisir le canal  {#choosing-the-channel}
 
-Les règles de fatigue sont disponibles pour divers canaux. Le canal est défini dans le champ **[!UICONTROL Canal]des paramètres des règles de typologie.** Vous pouvez sélectionner un seul canal ou **[!UICONTROL Tous les canaux]**.
+Les règles de fatigue sont disponibles pour divers canaux. Le canal est défini dans le champ **[!UICONTROL Canal]** des paramètres des règles de typologie. Vous pouvez sélectionner un seul canal ou **[!UICONTROL Tous les canaux]**.
 
 ![](assets/fatigue5.png)
 
@@ -114,7 +114,7 @@ Les règles de fatigue sont compatibles avec tous les types de diffusions : dif
 
 Les **messages transactionnels** peuvent être utilisés pour envoyer des messages de service ciblant un événement (rtEvent) et des messages de remarketing (ciblant des profils). Les règles de fatigue sont compatibles uniquement avec les messages marketing (ciblant des profils). Les messages transactionnels basés sur un événement ne contiennent pas d'informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d'un enrichissement avec des profils). Grâce à la prise en charge des messages marketing dans les messages transactionnels, vous pouvez **appliquer une règle de fatigue à tous les canaux, notamment les messages transactionnels de marketing**.
 
-## Définir le seuil {#defining-the-threshold}
+## Définir le seuil  {#defining-the-threshold}
 
 Chaque règle de fatigue définit un seuil, c'est-à-dire le nombre maximum de messages pouvant être envoyés à chaque profil sur une période. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu'à la fin de la période concernée. Ce mode de fonctionnement permet d'exclure automatiquement un profil d'une diffusion si l'envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
@@ -130,48 +130,48 @@ Par défaut, le seuil est constant et vous devez indiquer le nombre maximum de m
 
 **Utiliser un seuil variable**
 
-Pour définir un seuil variable, sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **Type de seuil[!UICONTROL .]**
+Pour définir un seuil variable, sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]**.
 
 ![](assets/fatigue15.png)
 
 Vous avez ensuite deux possibilités :
 
-* sélectionner un champ de profil : le seuil variera pour chaque profil en fonction du champ sélectionné. Par exemple, si vous avez étendu la ressource Profiles avec un champ 'Fréquence des communications', cliquez sur le bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]et sélectionnez votre champ.** Pour chaque profil, le seuil prendra la valeur du champ 'Fréquence des communications'.
+* sélectionner un champ de profil : le seuil variera pour chaque profil en fonction du champ sélectionné. Par exemple, si vous avez étendu la ressource Profiles avec un champ 'Fréquence des communications', cliquez sur le bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]** et sélectionnez votre champ. Pour chaque profil, le seuil prendra la valeur du champ 'Fréquence des communications'.
 
    ![](assets/fatigue21.png)
 
-* définir une formule : cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]pour définir une formule sophistiquée de calcul du seuil.** Par exemple, vous pouvez faire dépendre le nombre de messages autorisés en fonction du segment auquel appartient le profil. Ainsi, un profil répertorié dans un segment 'Web' pourrait recevoir plus de messages que les autres profils. Une formule de type **[!UICONTROL Iif (@origin='Web', 5, 3)]permet d'autoriser l'envoi de 5 messages à ces profils contre seulement 3 messages pour les profils des autres segments.**
+* définir une formule : cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]** pour définir une formule sophistiquée de calcul du seuil. Par exemple, vous pouvez faire dépendre le nombre de messages autorisés en fonction du segment auquel appartient le profil. Ainsi, un profil répertorié dans un segment 'Web' pourrait recevoir plus de messages que les autres profils. Une formule de type **[!UICONTROL Iif (@origin='Web', 5, 3)]** permet d'autoriser l'envoi de 5 messages à ces profils contre seulement 3 messages pour les profils des autres segments.
 
    ![](assets/fatigue14.png)
 
 **Affiner le seuil sur les profils et diffusions**
 
-Par défaut, tous les messages sont pris en compte pour le calcul du seuil. Cochez la case **[!UICONTROL Affiner le seuil sur les profils et diffusions]pour filtrer les profils et les diffusions à comptabiliser lors de la préparation de la diffusion.**
+Par défaut, tous les messages sont pris en compte pour le calcul du seuil. Cochez la case **[!UICONTROL Affiner le seuil sur les profils et diffusions]** pour filtrer les profils et les diffusions à comptabiliser lors de la préparation de la diffusion.
 
 Dans l'exemple ci-après, seuls les profils masculins et les diffusions dont le libellé commence par **Newsletters** sont comptabilisés.
 
 ![](assets/fatigue13.png)
 
-Affiner le seuil sur les diffusions est différent de limiter l'application de la règle entière (onglet **[!UICONTROL Critères d'application]) :**
+Affiner le seuil sur les diffusions est différent de limiter l'application de la règle entière (onglet **[!UICONTROL Critères d'application]**) :
 
 * **[!UICONTROL Critères d'application]** : vous choisissez d'exécuter ou non la règle en fonction de critères spécifiques. Par exemple, si votre condition d'application est 'Libellé commence par Newsletter', la règle ne s'appliquera qu'aux diffusions respectant cette condition. Si le libellé de la diffusion commence par 'Promotion', la règle ne s'exécutera pas.
 * **[!UICONTROL Affiner le seuil sur les profils et diffusions &gt; Diffusions à comptabiliser]** : toutes les diffusions utilisant cette règle de typologie exécuteront la règle, mais vous décidez quelles diffusions sont à comptabiliser parmi celles déjà envoyées et celles planifiées. Par exemple, si votre restriction est 'Libellé commence par Newsletter', la règle sera exécutée même si le libellé de la diffusion commence par 'Promo'. Sur la période glissante, elle comptabilisera le nombre de diffusions dont le libellé commence par 'Newsletter'.
 
-## Définir la période glissante {#setting-the-sliding-period}
+## Définir la période glissante  {#setting-the-sliding-period}
 
-Les règles de fatigue sont définies par périodes glissantes de n jours. La période est configurée dans la section **[!UICONTROL Période glissante], par exemple 2 semaines, 7 jours ou 5 heures.**
+Les règles de fatigue sont définies par périodes glissantes de n jours. La période est configurée dans la section **[!UICONTROL Période glissante]**, par exemple 2 semaines, 7 jours ou 5 heures.
 
 ![](assets/fatigue6.png)
 
 Lors de l'exécution de la règle, les diffusions déjà envoyées et les diffusions planifiées sont prises en compte. Ainsi, le seuil n'est jamais dépassé pendant une période glissante donnée.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. La période sélectionnée est donc doublée afin de permettre l'intégration des diffusions à venir ainsi que celles déjà envoyées.
+Par exemple, si vous définissez une période de 48 heures, le système effectuera une recherche 48 heures **avant la date de contact ** et 48 heures **après la date de contact**. La période sélectionnée est donc doublée afin de permettre l'intégration des diffusions à venir ainsi que celles déjà envoyées.
 
 Pour limiter à une période de 15 jours la prise en compte des diffusions, entrez **Jour** et **7** ou 1 semaine dans la section **Période glissante.** Les diffusions envoyées jusqu'à 7 jours avant la date de diffusion et planifiées jusqu'à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 
-## Consulter les résultats de la fatigue {#viewing-the-fatigue-results}
+## Consulter les résultats de la fatigue  {#viewing-the-fatigue-results}
 
-Lors de la préparation de la diffusion, les profils sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Pour consulter les résultats de l'exécution de la règle de fatigue, cliquez sur le bouton situé en bas à droite du bloc **[!UICONTROL Déploiement].**
+Lors de la préparation de la diffusion, les profils sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Pour consulter les résultats de l'exécution de la règle de fatigue, cliquez sur le bouton situé en bas à droite du bloc **[!UICONTROL Déploiement]**.
 
 ![](assets/fatigue22.png)
 
@@ -189,11 +189,11 @@ Trois onglets sont disponibles. Ils indiquent les détails des résultats de l'e
 
    ![](assets/fatigue19.png)
 
-## Affichage du rapport Synthèse des règles de fatigue {#viewing-the-fatigue-rule-summary-report}
+## Affichage du rapport Synthèse des règles de fatigue  {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign propose un rapport dédié sur les règles de fatigue afin de vous aider à comprendre la façon dont elles sont appliquées à vos campagnes. Vous pouvez ainsi déterminer l'incidence que vos campagnes ont les unes sur les autres et effectuer les réglages nécessaires.
 
-Le rapport **[!UICONTROL Synthèse des règles de fatigue]** est accessible à partir du bouton **Rapports], dans le coin supérieur droit de chaque programme, campagne et message.[!UICONTROL **
+Le rapport **[!UICONTROL Synthèse des règles de fatigue]** est accessible à partir du bouton **[!UICONTROL Rapports]**, dans le coin supérieur droit de chaque programme, campagne et message.
 
 ![](assets/fatigue27.png)
 
@@ -204,7 +204,7 @@ Le graphique en secteurs présente les informations suivantes sur la période s�
 * **[!UICONTROL Total ciblé]** : cible totale avant préparation du message
 * **[!UICONTROL Exclu]** : nombre total d'exclusions en raison de l'application de la règle de fatigue
 * **[!UICONTROL Autres exclusions]** : nombre total d'exclusions en raison d'autres règles de typologie
-* **[!UICONTROL Pour diffuser]**: nombre total de messages à diffuser après préparation des messages ( **[!UICONTROL livraison]** = **[!UICONTROL Total ciblé]** - **[!UICONTROL Exclus]** - **[!UICONTROL Autres exclusions]** )
+* **[!UICONTROL A envoyer]** : nombre total de messages à diffuser après préparation (**[!UICONTROL A envoyer]** = **[!UICONTROL Total ciblé]** - **[!UICONTROL Exclu]** - **[!UICONTROL Autres exclusions]**)
 
 A droite du graphique, vous trouverez le nombre d'exclusions, répartis par règle de fatigue.
 
@@ -218,7 +218,7 @@ La table du bas présente toutes les diffusions au cours de la période sélecti
 >
 >Les données affichées ne dépendent pas du contexte du programme, du message ou de la campagne à partir duquel vous accédez au rapport. Ce rapport affiche toutes les règles de fatigue et diffusions pour l'ensemble des entités organisationnelles. Vous obtenez ainsi une vue globale de toutes les diffusions afin de comprendre la façon dont vos campagnes s'influencent entre elles.
 
-## Exemples {#examples}
+## Exemples  {#examples}
 
 L'implémentation de la gestion de la fatigue offre de nombreuses possibilités. Voici quelques exemples de ce que vous pouvez faire :
 
@@ -256,20 +256,20 @@ Vous trouverez ci-dessous un exemple détaillé de règle de fatigue utilisant u
 
 Dans ce cas pratique, nous allons créer une règle de typologie afin de ne pas envoyer plus de 2 messages par semaine aux profils Premium et pas plus de 2 messages par semaine aux profils standards.
 
-Pour identifier les clients et les prospects, nous avons étendu la ressource Profiles avec le champ **[!UICONTROL Statut], qui contient 0 pour les profils Premium et 1 pour les profils standards.**
+Pour identifier les clients et les prospects, nous avons étendu la ressource Profiles avec le champ **[!UICONTROL Statut]**, qui contient 0 pour les profils Premium et 1 pour les profils standards.
 
 Les étapes de création de cette règle sont les suivantes :
 
 1. Créez une règle de typologie de type **Fatigue**.
-1. Dans la section **[!UICONTROL Seuil], nous allons créer une formule de calcul du seuil qui dépendra de chaque profil.** Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil], puis cliquez sur le second bouton situé à droite du champ** Formule de calcul du seuil **.**
+1. Dans la section **[!UICONTROL Seuil]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque profil. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]**, puis cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]**.
 
    ![](assets/fatigue7.png)
 
-1. Dans la section **[!UICONTROL Liste des fonctions]**, double-cliquez sur la fonction **Iif** dans le nœud **Autres[!UICONTROL .]**
+1. Dans la section **[!UICONTROL Liste des fonctions]**, double-cliquez sur la fonction **Iif** dans le nœud **[!UICONTROL Autres]**.
 
    ![](assets/fatigue8.png)
 
-1. Sélectionnez ensuite le **Statut** du profil, dans la section **[!UICONTROL Champs disponibles].**
+1. Sélectionnez ensuite le **Statut** du profil, dans la section **[!UICONTROL Champs disponibles]**.
 
    ![](assets/fatigue9.png)
 
@@ -279,12 +279,12 @@ Les étapes de création de cette règle sont les suivantes :
 
    Cette formule permet d'attribuer la valeur 2 si le statut est égal à 0, et la valeur 4 pour tout autre statut.
 
-1. Cliquez sur **[!UICONTROL Confirmer]pour valider cette formule.**
-1. Indiquez la **[!UICONTROL Période glissante]pendant laquelle la règle doit s'appliquer : ici 7 jours pour limiter à 15 jours la prise en compte des diffusions.**
+1. Cliquez sur **[!UICONTROL Confirmer]** pour valider cette formule.
+1. Indiquez la **[!UICONTROL Période glissante]** pendant laquelle la règle doit s'appliquer : ici 7 jours pour limiter à 15 jours la prise en compte des diffusions.
 
    ![](assets/fatigue11.png)
 
-1. Vous devez maintenant associer la règle que vous venez de créer à une typologie afin de pouvoir l'appliquer à vos diffusions. Pour cela, sélectionnez l'onglet **[!UICONTROL Typologies]**, cliquez sur **Créer un élément], puis sélectionnez la typologie utilisée pour vos diffusions.[!UICONTROL **
+1. Vous devez maintenant associer la règle que vous venez de créer à une typologie afin de pouvoir l'appliquer à vos diffusions. Pour cela, sélectionnez l'onglet **[!UICONTROL Typologies]**, cliquez sur **[!UICONTROL Créer un élément]**, puis sélectionnez la typologie utilisée pour vos diffusions.
 
    ![](assets/fatigue12.png)
 
