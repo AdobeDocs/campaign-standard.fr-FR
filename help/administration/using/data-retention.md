@@ -3,17 +3,17 @@ title: Conservation des données
 seo-title: Conservation des données
 description: Conservation des données
 seo-description: null
-page-status-flag: jamais activé
-uuid: d 90852 b 4-e 9 f 3-4187-bbea-e 748 d 16 d 1590
+page-status-flag: never-activated
+uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
+content-type: reference
 topic-tags: application-settings
-discoiquuid: b 791562 b -6 c 51-447 d -9 e 5 b-bb 77136 f 3 dd 8
+discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
