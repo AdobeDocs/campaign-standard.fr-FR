@@ -3,17 +3,17 @@ title: Modifier des images avec Adobe Creative SDK
 seo-title: Modifier des images avec Adobe Creative SDK
 description: Modifier des images avec le SDK Adobe Creative
 seo-description: Découvrez l'ensemble complet de fonctionnalités du SDK Adobe Creative permettant d'améliorer vos images directement dans l'éditeur de contenu.
-page-status-flag: jamais activé
-uuid: 5 da 5 f 9 be -8576-45 e 7-933 b -82129 a 1 a 43 e 7
+page-status-flag: never-activated
+uuid: 5da5f9be-8576-45e7-933b-82129a1a43e7
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
 topic-tags: using-images
-discoiquuid: 2 d 6193 cc -2 e 5 c -4 d 7 f -980 d -7924 beec 59 c 9
+discoiquuid: 2d6193cc-2e5c-4d7f-980d-7924beec59c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -36,7 +36,7 @@ Pour modifier une image avec Adobe Creative SDK :
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. Lorsque les modifications sont terminées, cliquez sur **[!UICONTROL Enregistrer.]** L'image mise à jour est enregistrée sur le serveur Adobe Campaign et prête à être utilisée.
+1. Lorsque les modifications sont terminées, cliquez sur **[!UICONTROL Enregistrer]**. L'image mise à jour est enregistrée sur le serveur Adobe Campaign et prête à être utilisée.
 
 >[!NOTE]
 >
