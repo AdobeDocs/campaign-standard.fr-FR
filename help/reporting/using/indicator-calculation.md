@@ -3,17 +3,17 @@ title: Calcul des indicateurs
 seo-title: Calcul des indicateurs
 description: Calcul des indicateurs
 seo-description: Comprenez les résultats de vos rapports grâce à la liste des formules de chaque mesure.
-page-status-flag: jamais activé
-uuid: dfbc 9 d 7 e -62 db -4 e 77-bb 8 e -0 ac 826 ec 7333
+page-status-flag: never-activated
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: création de rapports
-discoiquuid: 45 b 11631-6 b 32-4074-8 c 8 d-affd 06407810
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email {#email-delivery}
+## Diffusion Email  {#email-delivery}
 
 <table> 
  <thead> 
@@ -230,7 +230,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion Notification push {#push-notification-delivery}
+## Diffusion Notification push  {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -304,7 +304,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion In-App {#in-app-delivery}
+## Diffusion In-App  {#in-app-delivery}
 
 <table> 
  <thead> 
