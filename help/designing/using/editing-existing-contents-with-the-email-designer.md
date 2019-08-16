@@ -3,17 +3,17 @@ title: Editer des contenus existants avec le Concepteur d'email
 seo-title: Editer des contenus existants avec le Concepteur d'email
 description: Editer des contenus existants avec le Concepteur d'email
 seo-description: Découvrez comment rendre les contenus existants entièrement compatibles avec l'interface du Concepteur d'email.
-page-status-flag: jamais activé
-uuid: c 2 b 8843 c -6 dbc -47 de-bd 34-ff 6 c 5 eee 5 bd 8
+page-status-flag: never-activated
+uuid: c2b8843c-6dbc-47de-bd34-ff6c5eee5bd8
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: chargement-contenu
-discoiquuid: 1 ee 53 dae -1 aaa -4 f 72-af 71-c 8031 dec 3265
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: loading-content
+discoiquuid: 1ee53dae-1aaa-4f72-af71-c8031dec3265
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
