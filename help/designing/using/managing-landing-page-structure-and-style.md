@@ -3,17 +3,17 @@ title: Gérer la structure et le style d'une landing page
 seo-title: Gérer la structure et le style d'une landing page
 description: Gérer la structure et le style d'une landing page
 seo-description: Découvrez comment gérer les différents éléments de contenu HTML et le style global dans une landing page.
-page-status-flag: jamais activé
-uuid: 4 f 74097 e -3 d 62-461 f-b 0 d 3-402 be 20 f 6 ad 2
+page-status-flag: never-activated
+uuid: 4f74097e-3d62-461f-b0d3-402be20f6ad2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: édition-landing-page-content
-discoiquuid: 18041 bc 7-e 1 d 0-416 e -9 bae -1 a 18 ff 949 fa 9
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-landing-page-content
+discoiquuid: 18041bc7-e1d0-416e-9bae-1a18ff949fa9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ## Gérer les blocs dans l'éditeur de contenu {#managing-blocks-in-the-content-editor}
 
-The different HTML content elements are displayed in the landing page as blocks, corresponding to the **&lt;div&gt;** **&lt;/div&gt;** tag.
+Les différents éléments du contenu HTML sont affichés dans la landing page sous forme de blocs, correspondant à la balise **&lt;div&gt;** **&lt;/div&gt;**.
 
 Pour agir sur un bloc, sélectionnez-le. Celui-ci est alors entouré d'un cadre de couleur bleue.
 
@@ -45,7 +45,7 @@ Les paramètres définis pour un élément d'un bloc (liens, champs de personnal
 
 ![](assets/des_lp_content_4.png)
 
-## Ajouter une bordure et un arrière-plan dans l'éditeur de contenu {#adding-a-border-and-a-background-in-the-content-editor}
+## Ajouter une bordure et un arrière-plan dans l'éditeur de contenu  {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -55,7 +55,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-## Changer le style du texte dans l'éditeur de contenu {#changing-the-text-style-in-the-content-editor}
+## Changer le style du texte dans l'éditeur de contenu  {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l'intérieur d'un bloc de texte.
 
