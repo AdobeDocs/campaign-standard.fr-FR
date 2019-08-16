@@ -3,17 +3,17 @@ title: Profils et audiences
 seo-title: Profils et audiences
 description: Profils et audiences
 seo-description: '"Découvrez la gestion des profils et des audiences dans Adobe Campaign : définissez les populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils."'
-page-status-flag: jamais activé
-uuid: f 4 cb 6 c 38-c 8 d 1-44 ec -93 f 0-d 0 f 5 f 30 a 3 d 9 a
+page-status-flag: never-activated
+uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
+content-type: reference
 topic-tags: about-profiles-and-audiences
-discoiquuid: fb 436 b 17-1 fc 3-4 fc 3-94 b 9-f 09 f 8 aaf 9699
+discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -41,11 +41,11 @@ Identifiez les clients plus efficacement sur tous les canaux à l'aide des profi
 
 >[!CAUTION]
 >
->Vous devez toujours respecter la [Politique d'utilisation acceptable pour Adobe Campaign](http://www.adobe.com/legal/terms/aup.html).
+>Vous devez toujours respecter la [Politique d'utilisation acceptable pour Adobe Campaign](http://www.adobe.com/fr/legal/terms/aup.html).
 
 Le RGPD est la nouvelle loi de l'Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans l'UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
-Pour plus d'informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html).
+Pour plus d'informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html).
 
 **Rubriques connexes :**
 
