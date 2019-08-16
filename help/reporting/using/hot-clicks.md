@@ -3,18 +3,18 @@ title: Hot clicks
 seo-title: Hot clicks
 description: Hot clicks
 seo-description: Grâce au rapport d'usine Hot clicks, découvrez à quel endroit votre client a cliqué dans votre diffusion.
-page-status-flag: jamais activé
-uuid: 7 ed 49 dd 3-d 7 ee -466 a -9 a 7 b-d 2 aa 16961667
+page-status-flag: never-activated
+uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: ecbc 1 ade -63 d 9-4 ac 2-9828-380 a 1 aa 95094
-context-tags: Deliveryhotclicksreport, main
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
+context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
 
 # Hot clicks{#hot-clicks}
 
-Ce rapport est consultable au niveau de chaque diffusion ou chaque message transactionnel, à partir du bouton **[!UICONTROL Rapports].**
+Ce rapport est consultable au niveau de chaque diffusion ou chaque message transactionnel, à partir du bouton **[!UICONTROL Rapports]**.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -37,17 +37,17 @@ Imaginez par exemple que vous avez créé une diffusion avec les conditions suiv
 * Le lien de l'image principale est différent selon que le destinataire est un homme ou une femme.
 * Vous avez également ajouté un lien vers une offre spéciale visible uniquement par les destinataires de plus de 25 ans.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Une fois le message envoyé, sélectionnez **[!UICONTROL Rapports]** &gt; **[!UICONTROL Hot clicks]** dans le tableau de bord des diffusions.
 
 Par défaut, aucun profil n'est sélectionné. Seuls les clics des destinataires dont le genre est inconnu et ceux âgés de moins de 25 ans ou dont l'âge est inconnu sont affichés.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Pour afficher les clics des femmes, cliquez sur le bouton **[!UICONTROL Charger un profil]et sélectionnez un profil de test féminin.** Pour afficher les clics des hommes, procédez de façon identique et sélectionnez un profil de test masculin.
+Pour afficher les clics des femmes, cliquez sur le bouton **[!UICONTROL Charger un profil]** et sélectionnez un profil de test féminin. Pour afficher les clics des hommes, procédez de façon identique et sélectionnez un profil de test masculin.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Pour afficher les clics des destinataires de plus de 25 ans, cliquez sur le bouton **[!UICONTROL Charger un profil]et sélectionnez un profil de test dont la date de naissance correspond à cette condition.**
+Pour afficher les clics des destinataires de plus de 25 ans, cliquez sur le bouton **[!UICONTROL Charger un profil]** et sélectionnez un profil de test dont la date de naissance correspond à cette condition.
 
 Pour en savoir plus sur les profils de test, voir [Profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
 
@@ -73,9 +73,9 @@ Une diffusion d'exécution est un message technique non fonctionnel et non explo
 >
 >Dans la mesure où les identifiants des URL trackées sont différents pour chaque exécution, les données de hot clicks ne peuvent pas être agrégées pour toutes les diffusions d'exécution d'un message donné. Elles s'affichent pour une seule diffusion d'exécution à la fois.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Une fois le message envoyé, sélectionnez **[!UICONTROL Rapports]** &gt; **[!UICONTROL Hot clicks]** dans le tableau de bord des diffusions.
 
-Par défaut, la dernière diffusion d'exécution est sélectionnée. Cliquez sur le bouton **[!UICONTROL Modifier la diffusion d'exécution]pour en sélectionner une autre.**
+Par défaut, la dernière diffusion d'exécution est sélectionnée. Cliquez sur le bouton **[!UICONTROL Modifier la diffusion d'exécution]** pour en sélectionner une autre.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
