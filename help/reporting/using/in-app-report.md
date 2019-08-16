@@ -3,17 +3,17 @@ title: Rapport In-App
 seo-title: Rapport In-App
 description: Rapport In-App
 seo-description: Grâce au rapport d'usine In-App, découvrez les performances de vos messages In-App.
-page-status-flag: jamais activé
-uuid: 802 dc 606-a 314-46 dd-b 361-b 746 b 0772303
+page-status-flag: never-activated
+uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: 3 f 17 c 2 ad -8 ba 3-4795-93 ed -288 b 2 bcee 872
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
 >[!CAUTION]
 >
->Vous devez faire glisser les mesures **[!UICONTROL Type de message]dans vos tableaux pour fractionner vos données en fonction de vos types de diffusion, dans ce cas des diffusions In-App.**
+>Vous devez faire glisser les mesures **[!UICONTROL Type de message]** dans vos tableaux pour fractionner vos données en fonction de vos types de diffusion, dans ce cas des diffusions In-App.
 
 Le rapport **In-App** fournit des détails liés aux diffusions In-App.
 
