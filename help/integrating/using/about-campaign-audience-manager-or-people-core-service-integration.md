@@ -3,17 +3,17 @@ title: A propos de l'intégration Campaign-Audience Manager ou People core servi
 seo-title: A propos de l'intégration Campaign-Audience Manager ou People core service
 description: A propos de l'intégration Campaign-Audience Manager ou People core service
 seo-description: Avec l'intégration d'Audience Manager/de People core service, vous pouvez partager des audiences ou des segments au sein des différentes solutions d'Adobe Experience Cloud.
-page-status-flag: jamais activé
-uuid: 39 e 3 c 78 e-cccd -4823-afe 9-abc 7 f 8 aef 034
+page-status-flag: never-activated
+uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: intégration
-content-type: référence
-topic-tags: work-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf 718329-f 181-46 f 7-80 a 2-b 525 a 8 dee 46 d
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
+discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,8 +23,8 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Adobe Campaign vous permet d'échanger et de partager des audiences/segments avec les autres applications d'Adobe Experience Cloud. En intégrant **Adobe Campaign** à **People core service** (aussi appelé **Profiles &amp; Audiences core service**) ou Adobe Audience Manager, vous pouvez :
 
-* importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d'Adobe Experience Cloud. L'import d'audiences peut être réalisé depuis le menu **[!UICONTROL Audiences]dans Adobe Campaign.**
-* exporter des audiences en tant qu'audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d'Adobe Experience Cloud que vous utilisez. L'export d'audiences peut être réalisé à la suite d'un ciblage dans un workflow, à l'aide de l'activité **[!UICONTROL Sauvegarde d'audience].**
+* importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d'Adobe Experience Cloud. L'import d'audiences peut être réalisé depuis le menu **[!UICONTROL Audiences]** dans Adobe Campaign.
+* exporter des audiences en tant qu'audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d'Adobe Experience Cloud que vous utilisez. L'export d'audiences peut être réalisé à la suite d'un ciblage dans un workflow, à l'aide de l'activité **[!UICONTROL Sauvegarde d'audience]**.
 
 L'intégration prend en charge deux types d'identifiants Adobe Experience Cloud :
 
