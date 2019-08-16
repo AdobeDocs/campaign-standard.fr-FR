@@ -3,17 +3,17 @@ title: Contenu dynamique et personnalisé
 seo-title: Contenu dynamique et personnalisé
 description: Contenu dynamique et personnalisé
 seo-description: Grâce à Adobe Campaign, vous pouvez vous servir de vos données et préférences client pour créer des campagnes personnalisées via email, SMS, notification push, messages In-App ou courrier.
-page-status-flag: jamais activé
-uuid: a 36 a 581 e -25 d 4-426 d -865 a-c 646519 c 961 d
+page-status-flag: never-activated
+uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: 7 cbca 5 fb-a 99 b -43 ea-b 629-6236 cf 2 a 5 ef 4
+discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
