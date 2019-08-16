@@ -3,17 +3,17 @@ title: Retour à l'expéditeur
 seo-title: Retour à l'expéditeur
 description: Retour à l'expéditeur
 seo-description: Découvrez comment être informé d'une adresse incorrecte et l'exclure des prochaines communications.
-page-status-flag: jamais activé
-uuid: 11981 c 2 f -0 b 7 f -4166-9 daa-ec 6 a 6 b 4 d 5367
+page-status-flag: never-activated
+uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
-topic-tags: courrier direct
-discoiquuid: 5 f 20 ff 3 f -8242-4735-8 c 60-c 57610 edff 52
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: direct-mail
+discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
 
 ---
