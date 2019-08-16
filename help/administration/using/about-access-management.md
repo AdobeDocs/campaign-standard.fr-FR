@@ -3,17 +3,17 @@ title: Gestion des accès
 seo-title: Gestion des accès
 description: Gestion des accès
 seo-description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des groupes et des entités organisationnelles.
-page-status-flag: jamais activé
-uuid: 4 f 538452-cc 67-4 e 03-9 e 2 f -2 d 9 eecc 081 c 7
+page-status-flag: never-activated
+uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: utilisateurs-sécurité
-discoiquuid: 54028 f 63-c 9 ca -4397-a 079-e 27 e 0 cfdebf 6
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
 
 ---
@@ -30,13 +30,13 @@ Adobe Campaign vous permet de définir et de gérer les permissions attribuées 
 
 >[!CAUTION]
 >
->Les entités géographiques sont devenues obsolètes. Pour plus d'informations à ce propos, consultez [cette page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>Les entités géographiques sont devenues obsolètes. Pour plus d'informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Les rôles, les groupes et les entités organisationnelles peuvent être gérés par l'administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Administration &gt; Utilisateurs &amp; sécurité].**
+Les rôles, les groupes et les entités organisationnelles peuvent être gérés par l'administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Administration &gt; Utilisateurs &amp; sécurité]**.
 
 ![](assets/user_management_1.png)
 
-La gestion des utilisateurs s'effectue dans la console d'administration (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation à propos de la console d'administration](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+La gestion des utilisateurs s'effectue dans la console d'administration (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation à propos de la console d'administration](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 
