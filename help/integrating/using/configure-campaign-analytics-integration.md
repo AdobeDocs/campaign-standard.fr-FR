@@ -3,17 +3,17 @@ title: Configurer l'intégration Campaign-Analytics
 seo-title: Configurer l'intégration Campaign-Analytics
 description: Configurer l'intégration Campaign-Analytics
 seo-description: Découvrez comment configurer l'intégration d'Adobe Analytics pour commencer à mesurer les performances de vos diffusions email.
-page-status-flag: jamais activé
-uuid: bdaa 00 b 0-7445-469 c -8268-9 d 06 c 53 ce 2 b 0
+page-status-flag: never-activated
+uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: intégration
-content-type: référence
-topic-tags: work-with-campaign-and-analytics
-discoiquuid: 92 b 9004 c-cba 0-41 fd-a 035-32 bee 1 d 6 a 42 c
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
+discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 ---
@@ -28,20 +28,20 @@ Pour commencer l'intégration entre Adobe Campaign Standard et Adobe Analytics, 
 Les comptes externes et les workflows techniques peuvent uniquement être gérés par l'administrateur fonctionnel de la plate-forme.
 
 1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Comptes externes]**.
-1. Sélectionnez le compte externe **[!UICONTROL Partager les KPI avec Adobe Analytics].**
+1. Sélectionnez le compte externe **[!UICONTROL Partager les KPI avec Adobe Analytics]**.
 
    ![](assets/analytics_2.png)
 
-1. Renseignez le **[!UICONTROL Nom d'utilisateur du service Web]** et le **[!UICONTROL Secret partagé du service Web]dans le champ** Connexion **.**
+1. Renseignez le **[!UICONTROL Nom d'utilisateur du service Web]** et le **[!UICONTROL Secret partagé du service Web]** dans le champ **[!UICONTROL Connexion]**.
 
    Ces paramètres sont accessibles dans Analytics en sélectionnant **[!UICONTROL Admin &gt; Paramètres de la société &gt; Services Web]**.
 
    ![](assets/analytics_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Actualiser les suites de rapports].**
-1. Dans la liste déroulante **[!UICONTROL Suite de rapports par défaut Analytics], sélectionnez la suite de rapports Adobe Analytics que vous souhaitez enrichir avec les données Adobe Campaign.**
+1. Cliquez sur le bouton **[!UICONTROL Actualiser les suites de rapports]**.
+1. Dans la liste déroulante **[!UICONTROL Suite de rapports par défaut Analytics]**, sélectionnez la suite de rapports Adobe Analytics que vous souhaitez enrichir avec les données Adobe Campaign.
 
-   Votre compte externe est maintenant prêt et associé à Adobe Analytics. Vous pouvez le désactiver à tout moment en cochant la case **[!UICONTROL Activé].**
+   Votre compte externe est maintenant prêt et associé à Adobe Analytics. Vous pouvez le désactiver à tout moment en cochant la case **[!UICONTROL Activé]**.
 
    ![](assets/analytics.png)
 
