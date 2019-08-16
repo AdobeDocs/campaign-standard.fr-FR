@@ -3,18 +3,18 @@ title: Créer un SMS
 seo-title: Créer un SMS
 description: Créer un SMS
 seo-description: Suivez ces étapes pour créer une diffusion SMS unique dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 591 ae 97 e -2 d 19-4 f 93-be 4 b-d 8 d 20 f 1 d 2 d 12
+page-status-flag: never-activated
+uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: sms-messages
-discoiquuid: b 27381 a 9-19 e 5-4 b 65-b 194-c 72 f 475 ba 54 d
-delivercontext-tags: Deliverycreation, assistant
+discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
+delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
 
 ---
@@ -28,7 +28,7 @@ Les paramètres avancés des SMS sont détaillés dans la section [Configuration
 
 Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]avec le mode de diffusion** Envoi en masse. **** Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing),
+* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing),
 * un modèle de diffusion correctement lié à ce compte externe.
 
 1. Créez une diffusion SMS depuis la [page d'accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d'une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
@@ -53,7 +53,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
    ![](assets/sms_creation_3.png)
 
-1. Ajoutez du contenu à votre SMS. Vous pouvez également définir le contenu en cliquant sur la section **[!UICONTROL Contenu]du tableau de bord de la diffusion, une fois la création du SMS terminée.** Voir [A propos de la conception du contenu d'un SMS](../../designing/using/about-sms-and-push-content-design.md).
+1. Ajoutez du contenu à votre SMS. Vous pouvez également définir le contenu en cliquant sur la section **[!UICONTROL Contenu]** du tableau de bord de la diffusion, une fois la création du SMS terminée. Voir [A propos de la conception du contenu d'un SMS](../../designing/using/about-sms-and-push-content-design.md).
 
    Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message varie d'un destinataire à l'autre, car cela peut introduire des caractères non pris en charge par l'encodage GSM. La longueur du message doit être évaluée une fois la personnalisation effectuée. Voir [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -82,5 +82,5 @@ Une fois l'envoi terminé, vous pouvez commencer à mesurer l'impact de votre me
 
 * [A propos de l'édition du contenu d'un SMS et d'une notification push](../../designing/using/about-sms-and-push-content-design.md)
 * [Gestion des modèles](../../start/using/about-templates.md)
-* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
