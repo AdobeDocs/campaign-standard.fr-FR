@@ -3,17 +3,17 @@ title: Les processus d’inscription et de désinscription dans Campaign
 seo-title: Les processus d’inscription et de désinscription dans Campaign
 description: Les processus d’inscription et de désinscription dans Campaign
 seo-description: Le blacklistage (opt-out) entraîne la fin du ciblage d’un profil par n’importe quelle diffusion ou des diffusions d’un canal spécifique.
-page-status-flag: jamais activé
-uuid: 501 d 9485-976 b -4 de 7-b 242-6886 f 2814 c 6 c
+page-status-flag: never-activated
+uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
-topic-tags: compréhension-inclusion-inclusion-exclusion-processus
-discoiquuid: 2 f 26 ec 22-0809-4541-b 2 a 1-e 84 ff 868 ba 6 e
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
+discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
