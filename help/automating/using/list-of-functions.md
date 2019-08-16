@@ -3,17 +3,17 @@ title: Liste des fonctions
 seo-title: Liste des fonctions
 description: Liste des fonctions
 seo-description: L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes.
-page-status-flag: jamais activé
-uuid: fd 50 fc 99-1 e 7 a -479 b-beb 7-1 f 246 b 419 d 46
+page-status-flag: never-activated
+uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: filtrage-données
-discoiquuid: 3 cdbe 962-1 c 59-4 cd 8-b 29 e -36 aa 2562 fac 6
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: filtering-data
+discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ## A propos des fonctions {#about-functions}
 
-L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l'outil contient l'élément **[!UICONTROL Expression]que vous pouvez utiliser dans l'espace de travail.** L'utilisation de cet élément est détaillée dans une [section spécifique](../../automating/using/advanced-expression-editing.md).
+L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l'outil contient l'élément **[!UICONTROL Expression]** que vous pouvez utiliser dans l'espace de travail. L'utilisation de cet élément est détaillée dans une [section spécifique](../../automating/using/advanced-expression-editing.md).
 
 Cet élément vous permet de saisir manuellement vos conditions. Vous pouvez y utiliser les fonctions définies dans les sections ci-après.
 
@@ -37,7 +37,7 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 * manipulation de chaînes
 * tri
 
-## Dates {#dates}
+## Dates  {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'heure.
 
@@ -281,7 +281,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'he
  </tbody> 
 </table>
 
-## Géomarketing {#geomarketing}
+## Géomarketing  {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -300,7 +300,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques {#numerical}
+## Numériques  {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -384,7 +384,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres {#others}
+## Autres  {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -483,7 +483,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne {#string}
+## Chaîne  {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
@@ -669,7 +669,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
 ## des agrégats.{#aggregates}
 
-Les fonctions d'agrégation sont disponibles uniquement lors de l'[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]d'un workflow.**
+Les fonctions d'agrégation sont disponibles uniquement lors de l'[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]** d'un workflow.
 
 Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
 
@@ -718,7 +718,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation {#representation}
+## Représentation  {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
