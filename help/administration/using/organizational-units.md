@@ -3,18 +3,18 @@ title: Entités organisationnelles
 seo-title: Entités organisationnelles
 description: Entités organisationnelles
 seo-description: Définissez les niveaux d'accès de vos utilisateurs à l'aide des entités organisationnelles.
-page-status-flag: jamais activé
-uuid: 8 c 82 ffea-cef 4-4 a 89-b 823-d 8 b 7 bae 1 db 4 f
+page-status-flag: never-activated
+uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: utilisateurs-sécurité
-discoiquuid: 6 f 60 c 653-1 d 12-4 d 27-9 bc 8-ce 8 c 19 bca 466
-context-tags: Orgunit, présentation ; Orgunit, main ; Geounit, overview ; Geounit, main
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
+context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 ---
@@ -28,11 +28,11 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 
 >[!CAUTION]
 >
->Si un utilisateur n'est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d'un utilisateur ou d'un groupe d'utilisateur, ne le rattachez pas à l'entité **[!UICONTROL Toutes].**
+>Si un utilisateur n'est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d'un utilisateur ou d'un groupe d'utilisateur, ne le rattachez pas à l'entité **[!UICONTROL Toutes]**.
 
 Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités filles. Un utilisateur n'a pas accès aux objets des branches parallèles.
 
-Par défaut, seules les entités **[!UICONTROL Toutes]sont disponibles.**
+Par défaut, seules les entités **[!UICONTROL Toutes]** sont disponibles.
 
 Lorsqu'une entité organisationnelle est affectée à l'utilisateur, celle-ci sera toujours appliquée aux objets créés par l'utilisateur.
 
@@ -42,7 +42,7 @@ Lorsqu'une entité organisationnelle est affectée à l'utilisateur, celle-ci se
 >
 >Lorsqu'un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s'appliquent. Voir à ce propos la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
-## Création et gestion des entités {#creating-and-managing-units}
+## Création et gestion des entités  {#creating-and-managing-units}
 
 Les entités organisationnelles vous permettent de filtrer votre instance en fonction de l'organisation à laquelle vos utilisateurs sont liés. Cette entité peut représenter une région, un pays et même une marque dans votre instance.
 
@@ -50,30 +50,30 @@ Nous avons auparavant créé des groupes de sécurité avec différents rôles a
 
 Il nous faut à présent créer les entités organisationnelles pour les groupes de sécurité Geometrixx Clothes et Geometrixx :
 
-1. From Adobe campaign advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Users &amp; security]** &gt; **[!UICONTROL Organizational units]**.
-1. Cliquez sur **[!UICONTROL Créer]pour commencer à configurer votre entité organisationnelle.**
+1. Dans le menu avancé d'Adobe Campaign, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Utilisateurs &amp; sécurité]** &gt; **[!UICONTROL Entités organisationnelles]**.
+1. Cliquez sur **[!UICONTROL Créer]** pour commencer à configurer votre entité organisationnelle.
 
    ![](assets/manage_units_1.png)
 
-1. Remplacez le **[!UICONTROL Libellé]** et l'**Identifiant]par défaut par Geometrixx.[!UICONTROL **
+1. Remplacez le **[!UICONTROL Libellé]** et l'**[!UICONTROL Identifiant]** par défaut par Geometrixx.
 1. Liez ensuite cette entité à une entité parente. Nous choisissons ici **[!UICONTROL Toutes]**.
 
    ![](assets/manage_units_2.png)
 
-1. Enfin, cliquez sur **[!UICONTROL Créer]pour commencer à assigner votre entité organisationnelle au groupe de sécurité.**
+1. Enfin, cliquez sur **[!UICONTROL Créer]** pour commencer à assigner votre entité organisationnelle au groupe de sécurité.
 1. Suivez la même procédure pour l'entité Geometrixx Clothes, à l'exception que l'entité parente doit être l'entité créée précédemment : Geometrixx.
 
    ![](assets/manage_units_3.png)
 
 Pour connaître l'impact de l'assignation de différentes entités à différents groupes de sécurité, l'utilisateur assigné aux groupes Administrateur et Geometrixx créera deux modèles d'email pour déterminer ce à quoi l'autre utilisateur assigné à Utilisateur standard et Geometrixx Clothes peut ou non accéder.
 
-1. From the advanced menu, select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery Templates]**.
+1. Dans le menu avancé, sélectionnez **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
 1. Dupliquez un modèle existant et personnalisez-le selon vos besoins. Voir à ce propos la section [Modèles](../../start/using/about-templates.md).
-1. Une fois le modèle créé, sélectionnez l'icône **[!UICONTROL Editer les propriétés]pour lui assigner des entités.**
+1. Une fois le modèle créé, sélectionnez l'icône **[!UICONTROL Editer les propriétés]** pour lui assigner des entités.
 
    ![](assets/manage_units_6.png)
 
-1. Dans le menu déroulant **[!UICONTROL Autorisation d'accès], sélectionnez l'entité organisationnelle.**
+1. Dans le menu déroulant **[!UICONTROL Autorisation d'accès]**, sélectionnez l'entité organisationnelle.
 
    Nous allons créer un modèle avec l'entité organisationnelle Geometrixx que nous avons créée.
 
@@ -89,7 +89,7 @@ L'entité Geometrixx Clothes étant une entité fille de Geometrixx, le message 
 
 ![](assets/manage_units_8.png)
 
-Les entités organisationnelles peuvent restreindre l'accès aux différentes fonctionnalités telles que les profils. Par exemple, si notre utilisateur Geometrixx Clothes accède à l'onglet **[!UICONTROL Profils], il aura un accès complet aux profils de l'entité organisationnelle Geometrixx Clothes et pourra les modifier.**
+Les entités organisationnelles peuvent restreindre l'accès aux différentes fonctionnalités telles que les profils. Par exemple, si notre utilisateur Geometrixx Clothes accède à l'onglet **[!UICONTROL Profils]**, il aura un accès complet aux profils de l'entité organisationnelle Geometrixx Clothes et pourra les modifier.
 
 Alors que les profils de l'entité organisationnelle Geometrixx seront en lecture seule, l'erreur suivante apparaîtra si notre utilisateur tente de modifier un profil : **[!UICONTROL Vous n'avez pas les droits nécessaires pour modifier la ressource 'profil' d'identifiant]**.
 
@@ -116,7 +116,7 @@ Les profils sans entité organisationnelle ne sont pas accessibles par les utili
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Mettez à jour la structure en publiant de nouveau les ressources personnalisées. Pour plus d'informations sur la publication, voir la section [Mettre à jour la structure](../../developing/using/data-model-concepts.md).
 
-Les champs de l'entité organisationnelle sont ajoutés à vos profils, dans la section **[!UICONTROL Autorisation d'accès].**
+Les champs de l'entité organisationnelle sont ajoutés à vos profils, dans la section **[!UICONTROL Autorisation d'accès]**.
 
 ![](assets/user_management_10.png)
 
