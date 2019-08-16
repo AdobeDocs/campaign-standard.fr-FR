@@ -3,17 +3,17 @@ title: Notes de mise à jour 2018
 seo-title: Notes de mise à jour 2018
 description: Notes de mise à jour 2018
 seo-description: Cette page répertorie toutes les versions 2018 d'Adobe Campaign Standard.
-page-status-flag: jamais activé
-uuid: 99 f 92 a 54-4 b 3 d -48 b 9-b 08 d-e 98 b 24 e 75 f 62
+page-status-flag: never-activated
+uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: référence
-topic-tags: campagne-standard-release
-discoiquuid: e 54 f 8305-7 e 32-4193-8 e 5 a-b 5 d 87 b 03038 c
+content-type: reference
+topic-tags: campaign-standard-releases
+discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
 
 ---
@@ -29,7 +29,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 ## Version 18.9 - Septembre 2018 {#release-18-9---september-2018}
 
-### What's new? {#what-s-new-}
+### Nouveautés {#what-s-new-}
 
 <table> 
  <thead> 
@@ -45,21 +45,21 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d'Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L'intégration d'Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d'activation de la propriété Mobile App dans Campaign à l'aide du SDK Mobile V5.<br /> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L'intégration d'Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d'activation de la propriété Mobile App dans Campaign à l'aide du SDK Mobile V5.<br /> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Améliorations {#improvements}
+### Améliorations  {#improvements}
 
 * Adobe Campaign Standard prend maintenant en charge la version 4 de l'API d'Amazon S3.
 
-### Autres changements {#other-changes}
+### Autres changements  {#other-changes}
 
 * Dans les broadlogs, il existe maintenant une distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de déterminer pourquoi le débit est limité. Auparavant, le même message ("quota atteint") s'appliquait aux deux cas.
 * Lors de la configuration d'une application mobile dans Campaign, l'utilisateur peut désormais savoir si le certificat iOS et la clé du serveur Android ont été téléchargés avec succès et leur date d'expiration.
 
-   Pour plus d'informations, consultez la documentation détaillée sur la configuration d'une application mobile à l'aide de [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Pour plus d'informations, consultez la documentation détaillée sur la configuration d'une application mobile à l'aide du [SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et du [SDK V5](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 * Ciblez des utilisateurs sur une application mobile spécifique en sélectionnant cette application mobile lorsque vous définissez les propriétés de Campaign. Cette fonctionnalité est destinée aux canaux Push et Messagerie in-app.
 
@@ -69,7 +69,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
    Consultez à ce sujet la [documentation détaillée](../../designing/using/adding-a-content-block.md).
 
-### Correctifs {#patches}
+### Correctifs  {#patches}
 
 * Correction d'un problème en raison duquel le nombre de logs était différent entre le tableau de bord et le rapport de synthèse des emails transactionnels. (CAMP-28237
 * Correction d'une erreur dans les workflows qui pouvait afficher un message d'erreur lors de l'import d'un fichier via une activité Transfert de fichier. (CAMP-27435)
@@ -92,9 +92,9 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui empêchait l'affichage des erreurs à l'origine de l'échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d'une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018  {#release-18-7---july-2018}
 
-### What's new? {#what-s-new--1}
+### Nouveautés {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -122,17 +122,17 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Gestion des utilisateurs<br /> </td> 
-   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n'est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br />Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n'est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br />Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Améliorations {#improvements-1}
 
-* L'intégration d'Adobe Campaign et Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d'Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L'intégration d'Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://marketing.adobe.com/resources/help/fr_FR/target/target/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d'Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d'un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d'accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner "La suppression/duplication de l'enregistrement cible implique celle des enregistrements référencés par le lien" dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez "La suppression/duplication de l'enregistrement implique celle de l'enregistrement cible référencé par le lien".
 
-### Autres changements {#other-changes-1}
+### Autres changements  {#other-changes-1}
 
 * Le délai de partage des rapports a été prolongé d'une à quatre minutes afin d'éviter toute erreur de timeout.
 * Lors de l'édition du contenu d'un email, le nouveau Creative Designer s'ouvre par défaut. Si vous le souhaitez, vous pouvez revenir à l'éditeur de contenu par défaut à tout moment après avoir enregistré vos modifications. Consultez à ce sujet la [documentation détaillée](../../designing/using/about-email-content-design.md).
@@ -155,29 +155,29 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème dans Creative Designer qui entraînait l'apparition d'un formatage et d'une couleur de police non souhaités lors du changement d'un texte avec un style intégré en un lien ou lors de l'édition de ce lien. (CAMP-26001)
 * Correction d'un problème qui empêchait le rapport Hot clicks d'afficher les pourcentages pour chaque condition dans les diffusions comportant du contenu dynamique. Auparavant, seuls les clics sur la variante par défaut étaient affichés.
 
-## Version 18.6 - Juin 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juin 2018  {#release-18-6---june-2018}
 
 ### Améliorations {#improvements-2}
 
-* L'API **[!UICONTROL History]a été ajoutée à Adobe.IO.** Elle permet d'accéder aux informations relatives à l'historique marketing d'un profil : nombre de points de contact, diffusions envoyées, URL de page miroir, etc. Voir à ce propos le [cas pratique dédié](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile).
-* Le workflow technique **[!UICONTROL Nettoyage de la base]a été optimisé pour améliorer les performances du nettoyage de la base de données.**
+* L'API **[!UICONTROL History]** a été ajoutée à Adobe.IO. Elle permet d'accéder aux informations relatives à l'historique marketing d'un profil : nombre de points de contact, diffusions envoyées, URL de page miroir, etc. Voir à ce propos le [cas pratique dédié](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile).
+* Le workflow technique **[!UICONTROL Nettoyage de la base]** a été optimisé pour améliorer les performances du nettoyage de la base de données.
 * Creative Designer pour les e-mails est désormais disponible en français et en allemand.
 
-### Autres changements {#other-changes-2}
+### Autres changements  {#other-changes-2}
 
-* Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **Déploiement]des diffusions envoyées.[!UICONTROL ** Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l'envoi prend trop de temps ou si les résultats n'ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
+* Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **[!UICONTROL Déploiement]** des diffusions envoyées. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l'envoi prend trop de temps ou si les résultats n'ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
 * Dans le workflow technique d'usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d'erreurs consécutives à ignorer dans l'activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
 * Le code SQL généré lors de la gestion des conditions de restriction d'accès à l'entité a été optimisé.
-* L'activité **[!UICONTROL Mise à jour]permet maintenant d'ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).**
-* The **[!UICONTROL Update delivery execution]** technical workflow has been divided into two workflows in order to optimize performance: - **[!UICONTROL Update delivery execution]**: updates the delivery's tracking. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (IPC) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d'informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* When a delivery is sending messages, the status in the **[!UICONTROL Deployment]** section can now have two values: **[!UICONTROL Sending]**: the messages are being sent. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
-* Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]peuvent maintenant envoyer des bons à tirer.** (CAMP-24313)
+* L'activité **[!UICONTROL Mise à jour]** permet maintenant d'ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
+* Le workflow technique **[!UICONTROL Mise à jour de l'exécution des diffusions]** a été divisé en deux workflows afin d'optimiser les performances : - **[!UICONTROL Mise à jour de l'exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (IPC) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d'informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Lorsqu'une diffusion envoie des messages, le statut dans la section **[!UICONTROL Déploiement]** peut maintenant avoir deux valeurs : **[!UICONTROL Envoi]** : les messages sont en cours d'envoi. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
+* Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]** peuvent maintenant envoyer des bons à tirer. (CAMP-24313)
 * L'option **Activer TLS via SMPP** a été ajoutée au compte externe **Routage des SMS par SMPP**. Voir à ce propos cette [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### Correctifs {#patches-2}
+### Correctifs  {#patches-2}
 
 * Correction d'une erreur qui empêchait l'envoi des e-mails lors de l'inclusion d'une image dynamique depuis Adobe Target (CAMP-24848).
-* Correction d'une erreur liée aux workflows techniques **[!UICONTROL Demande d'accès/de suppression des informations personnelles]. Ils ne se terminaient pas en cas d'échec d'une des demandes.**
+* Correction d'une erreur liée aux workflows techniques **[!UICONTROL Demande d'accès/de suppression des informations personnelles]**. Ils ne se terminaient pas en cas d'échec d'une des demandes.
 * Correction d'une erreur qui empêchait Privacy Core service de recevoir les mises à jour des statuts de demande de Campaign.
 * Correction d’une erreur qui empêchait le fonctionnement correct du workflow technique **[!UICONTROL Import de l'audience partagée]** (CAMP-25465).
 * Correction d'une erreur qui empêchait les demandes d'accès aux informations personnelles de Campaign d'être marquées comme étant terminées dans Privacy Core Service.
@@ -186,16 +186,16 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur lors de l'utilisation des règles de fatigue des notifications push pour les abonnés sans profil dans la base de données. (CAMP-25344)
 * Correction d'une erreur qui affichait un message d'erreur lors de l'accès aux exclus des diffusions. (CAMP-24724)
 * Correction d'une erreur qui empêchait la préparation des bons à tirer dans les instances avec des envois étendus.
-* Correction de deux erreurs qui se produisaient lors de la publication de ressources personnalisées avec l'extension des **[!UICONTROL Envois]activée.**
+* Correction de deux erreurs qui se produisaient lors de la publication de ressources personnalisées avec l'extension des **[!UICONTROL Envois]** activée.
 * Correction d'une erreur liée à la non-prise en compte de la durée de la diffusion dans les diffusions récurrentes.
-* Correction d'une erreur qui se produisait lors du tri des données dans le menu **[!UICONTROL Données client]pour les ressources personnalisées comprenant plus de 100 000 enregistrements.** (CAMP-24308)
+* Correction d'une erreur qui se produisait lors du tri des données dans le menu **[!UICONTROL Données client]** pour les ressources personnalisées comprenant plus de 100 000 enregistrements. (CAMP-24308)
 * Correction d'une erreur liée aux dimensions de profil personnalisées qui n'étaient pas prises en compte lors de l'utilisation de la fonction de recherche dans les rapports dynamiques.
 * Correction d'une erreur liée à l'affichage des données internationales pour les niveaux de compte dans les rapports dynamiques.
 * Il est désormais possible de créer un service sans message de confirmation d'abonnement ou de désabonnement.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018  {#release-18-5---may-2018}
 
-### What's new? {#what-s-new--2}
+### Nouveautés {#what-s-new--2}
 
 <table> 
  <thead> 
@@ -207,10 +207,10 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> RGPD : intégration avec Core Service<br /> </td> 
-   <td> L'intégration de Privacy Core Service vous permet d'automatiser vos demandes RGPD dans un contexte multisolution à l'aide d'un seul appel d'API JSON. <br /> Les demandes RGPD émises depuis Privacy Core Service vers toutes les solutions Experience Cloud sont désormais traitées automatiquement par Campaign. <br /> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+   <td> L'intégration de Privacy Core Service vous permet d'automatiser vos demandes RGPD dans un contexte multisolution à l'aide d'un seul appel d'API JSON. <br /> Les demandes RGPD émises depuis Privacy Core Service vers toutes les solutions Experience Cloud sont désormais traitées automatiquement par Campaign. <br /> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push improvements - detailed delivery feedback<br /> </td> 
+   <td> Améliorations des notifications push – retours détaillés de la diffusion<br /> </td> 
    <td> Adobe Campaign permet désormais de recevoir des retours détaillés (envois et exclus) sur les messages push provenant des fournisseurs (APNS/GCM) via MCPNS.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -228,11 +228,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Améliorations {#improvements-3}
+### Améliorations  {#improvements-3}
 
 * Amélioration de l'utilisation globale de la mémoire et du processeur par l'application
 
-### Autres changements {#other-changes-3}
+### Autres changements  {#other-changes-3}
 
 * L'activité de workflow Lecture d'audience peut désormais lire les audiences Experience Cloud. Cette activité ne pouvait auparavant lire que les audiences de type Requête et Liste. Consultez à ce sujet la [documentation détaillée](../../automating/using/read-audience.md). (CAMP-23623)
 * L'identifiant de la Source de données partagée par défaut est désormais en lecture seule uniquement et ne peut plus être modifié. La modification de cet identifiant peut entraîner des problèmes lors du partage d'audiences avec Experience Cloud.
@@ -248,7 +248,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Lors de l'utilisation d'une activité Segmentation avec un lien Données additionnelles (targetData), un message vous informe désormais que les données ne sont pas disponibles en dehors du workflow. Ce message s'affiche lorsque vous cliquez sur le bouton Compter ou Aperçu depuis l'activité Segmentation. (CAMP-23651)
 * Des améliorations ont été réalisées pour optimiser l'espace disque utilisé par les workflows : (CAMP-21979) : les fichiers traités par l'activité "Chargement de fichier" sont désormais supprimés par défaut. Une option vous permet de les conserver en cas de besoin. Lorsqu'un workflow est supprimé, son dossier dédié est automatiquement supprimé du répertoire du serveur.
 
-### Correctifs {#patches-3}
+### Correctifs  {#patches-3}
 
 * Correction d'un problème selon lequel des événements de reporting bruts n'avaient pas d'événements de suivi associés, car le champ eventDate n'était pas correctement rempli.
 * Correction d'un problème qui empêchait des champs personnalisés de s'afficher dans la fenêtre d'aperçu d'une diffusion de notification push.
@@ -265,7 +265,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d'un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l'objet d'un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018 {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018  {#release-18-4---april-2018}
 
 ### Correctifs {#patches-4}
 
@@ -273,15 +273,15 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Corrections d'une erreur qui pouvait empêcher le bon traitement des demandes d'accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l'un des caractères suivants : &amp; &lt;&gt; " '.
 
-#### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail}
+#### Emails, SMS et courrier  {#emails--sms-messages-and-direct-mail}
 
 * Correction d'un problème qui pouvait entraîner le remplacement des KPI par des valeurs incorrectes si la synchronisation du broadlog prenait plus d'une heure.
 
-#### Workflows {#workflows}
+#### Workflows  {#workflows}
 
 * Gestion améliorée de la mémoire et optimisation des performances dans les workflows.
 
-#### Reporting {#reporting}
+#### Reporting  {#reporting}
 
 * Le workflow de partage des KPI récupère désormais les valeurs des diffusions pour les deux derniers mois au lieu des six derniers. Correction d'un problème lié au compte externe de partage des KPI qui affichait des dates tronquées.
 * Correction d'un problème qui pouvait entraîner la non-prise en compte de certains messages dans les mesures **Envoyés**, **Délivrés** et **Bounce**.
@@ -291,7 +291,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui entraînait l'échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018 {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018  {#release-18-3---march-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
@@ -309,7 +309,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
     <ul> 
      <li> Droit d'accès : permet à la personne concernée de recevoir une copie de ses données personnelles capturées par les Contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise la personne concernée à demander la suppression de ses données personnelles capturées par les Contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
@@ -336,39 +336,39 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-5}
+### Correctifs  {#patches-5}
 
 #### Plate-forme {#platform-1}
 
 * Correction d'un problème qui empêchait l'export de plus de 5 000 enregistrements d'une liste.
 * Correction d'un problème lors de l'export de données vers des fichiers nommés avec des champs de personnalisation.
 
-#### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail-1}
+#### Emails, SMS et courrier  {#emails--sms-messages-and-direct-mail-1}
 
 * Correction d'un problème qui entraînait la troncature des SMS en plusieurs parties, car la taille des parties était calculée en caractères et non en octets.
-* Ajout d'une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **Bounces + erreurs]après l'envoi de la diffusion.[!UICONTROL ** Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
+* Ajout d'une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **[!UICONTROL Bounces + erreurs]** après l'envoi de la diffusion. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
 * Correction d'un problème lié au widget de calendrier dans le planificateur de diffusion.
 * Correction d'un problème d'affichage lors de l'ouverture d'une cible pour la seconde fois dans une diffusion envoyée.
 * Correction d'un problème qui entraînait l'affichage d'un message d'erreur demandant une date de début lors de la création d'un modèle d'email avec une date d'envoi différée.
 * Correction d'une erreur qui entraînait des problèmes de rendu d'image lors de l'édition du contenu d'une diffusion.
 * Correction d'un problème lié aux bons à tirer lors de la duplication d'une campagne.
 * Correction d'une erreur qui entraînait l'affichage d'un message d'erreur lors de l'accès à un modèle de campagne via la barre de navigation, après l'ajout d'une diffusion au workflow.
-* Correction d'un problème qui empêchait la sélection automatique du gagnant d'un email de test A/B, ce qui entraînait le non-envoi de l'email. Ce problème se produisait lorsque l'état de la diffusion était **[!UICONTROL retryInProgress].**
+* Correction d'un problème qui empêchait la sélection automatique du gagnant d'un email de test A/B, ce qui entraînait le non-envoi de l'email. Ce problème se produisait lorsque l'état de la diffusion était **[!UICONTROL retryInProgress]**.
 * Correction d'un problème qui entraînait l'affichage d'un message d'erreur lors de la réouverture des paramètres d'un email de test A/B.
 
-#### Audiences et requêtes {#audiences-e-queries}
+#### Audiences et requêtes  {#audiences-e-queries}
 
 * Correction d'un problème qui empêchait d'accéder aux données et de configurer des requêtes pour les destinataires répliqués d'Adobe Campaign Classic vers Standard.
 * Correction d'un problème qui se produisait lors de l'utilisation d'un champ de type filtre dans l'éditeur de requêtes, après avoir utilisé le bouton **Compter** ou **Prévisualiser**.
 
-#### Workflows {#workflows-1}
+#### Workflows  {#workflows-1}
 
 * Le workflow **Facturation** a été optimisé pour réduire le délai de préparation de la diffusion.
 * Correction d'un problème qui empêchait l'affichage des données de population dans une transition sortante lors de l'utilisation d'une activité de diffusion récurrente.
 * Correction d'un problème qui empêchait l'affichage des enregistrements de rejet dans une transition après une activité **Mise à jour de données**.
 * Correction d'un problème qui entraînait l'échec du workflow technique **deliverabilityUpdate**.
 
-#### Intégrations {#integrations}
+#### Intégrations  {#integrations}
 
 * Correction d'un problème qui empêchait d'envoyer correctement des caractères internationaux à Adobe Analytics.
 * Les ressources doivent à présent se charger plus rapidement lorsque vous insérez une image dans un message depuis votre bibliothèque de ressources Experience Cloud.
@@ -381,7 +381,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur liée au modèle de message transactionnel lors de l'extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018 {#release-18-2---february-2018}
+## Version 18.2 - Février 2018  {#release-18-2---february-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities-1}
 
@@ -404,12 +404,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  </tbody> 
 </table>
 
-### Correctifs {#patches-6}
+### Correctifs  {#patches-6}
 
 #### Plate-forme {#platform-2}
 
 * Mise à jour de la barre supérieure de l'interface d'Adobe Campaign avec le nouveau menu d'Experience Cloud.
-* Correction d'une erreur qui empêchait l'affichage du lien vers les **[!UICONTROL Offres]dans la liste déroulante de la solution.**
+* Correction d'une erreur qui empêchait l'affichage du lien vers les **[!UICONTROL Offres]** dans la liste déroulante de la solution.
 
 #### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail-2}
 
@@ -425,19 +425,19 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Rapports {#reports}
 
 * Correction d'une erreur qui affichait une liste de rapports vide dans certains navigateurs.
-* Correction d'une erreur qui se produisait dans le workflow technique **[!UICONTROL Partage des rapports]juste avant l'atteinte de sa limite de validité.**
+* Correction d'une erreur qui se produisait dans le workflow technique **[!UICONTROL Partage des rapports]** juste avant l'atteinte de sa limite de validité.
 
 #### Workflows {#workflows-2}
 
 * Correction d'un problème qui empêchait l'accessibilité des activités après les avoir placées dans un workflow.
-* Correction d'un problème qui entraînait, dans certains cas, la modification de l'ordre des transitions en sortie d'une activité **[!UICONTROL Segmentation].**
+* Correction d'un problème qui entraînait, dans certains cas, la modification de l'ordre des transitions en sortie d'une activité **[!UICONTROL Segmentation]**.
 * Correction d'une erreur qui se produisait lors de la lecture d'une audience contenant un champ de type énumération et ayant été précédemment enregistrée dans un workflow.
-* Correction d'une erreur suite à laquelle l'option **[!UICONTROL Demander une confirmation avant d'envoyer les messages]restait cochée même après avoir été décochée pendant la définition des propriétés de planification d'une diffusion créée dans un workflow.**
-* La suppression automatique des doublons (clause DISTINCT) peut désormais être désactivée dans les activités **[!UICONTROL Requête]**, via une nouvelle option située dans l'onglet **Données additionnelles.** Pour des raisons de performance, il est recommandé de décocher cette option si vous définissez de nombreuses données additionnelles (plus de 100).
+* Correction d'une erreur suite à laquelle l'option **[!UICONTROL Demander une confirmation avant d'envoyer les messages]** restait cochée même après avoir été décochée pendant la définition des propriétés de planification d'une diffusion créée dans un workflow.
+* La suppression automatique des doublons (clause DISTINCT) peut désormais être désactivée dans les activités **[!UICONTROL Requête]**, via une nouvelle option située dans l'onglet **[!UICONTROL Données additionnelles]**. Pour des raisons de performance, il est recommandé de décocher cette option si vous définissez de nombreuses données additionnelles (plus de 100).
 
-#### Intégrations {#integrations-1}
+#### Intégrations  {#integrations-1}
 
-* Certaines améliorations ont été apportées à l'écran de configuration **[!UICONTROL Sources de données].**
+* Certaines améliorations ont été apportées à l'écran de configuration **[!UICONTROL Sources de données]**.
 
 ### Problèmes connus {#known-issues}
 
@@ -445,7 +445,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide contextuelle dans l'interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018 {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018  {#release-18-1---january-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
@@ -473,7 +473,7 @@ Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide c
      <li> télécharger des images ou d'autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d'une notification ; </li> 
      <li> ajouter un identifiant de thread à une notification. </li> 
-    </ul> Pour plus d'informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d'informations, consultez <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">cette technote</a>.<br /> </td> 
+    </ul> Pour plus d'informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d'informations, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">cette technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions optimisées avec les fuseaux horaires<br /> </td> 
@@ -486,23 +486,23 @@ Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide c
  </tbody> 
 </table>
 
-### Correctifs {#patches-7}
+### Correctifs  {#patches-7}
 
 #### Plate-forme {#platform-3}
 
 * La recherche de profils a été optimisée afin d'améliorer les performances.
 * L'identifiant interne des groupes de sécurité par défaut est désormais en mode de lecture seule pour les utilisateurs standard.
 
-#### Emails, SMS et courrier {#emails--sms-messages-and-direct-mail-3}
+#### Emails, SMS et courrier  {#emails--sms-messages-and-direct-mail-3}
 
 * Correction d'une erreur d'affichage qui se produisait lors de l'insertion d'emojis dans le contenu des diffusions.
 * Correction d'une erreur qui permettait à l'utilisateur d'accéder aux envois alors que la diffusion était toujours en édition.
-* L'activité **[!UICONTROL Planificateur]permet désormais d'envoyer des diffusions selon le fuseau horaire du destinataire.**
-* SMS : l'option **[!UICONTROL Stocker les MO entrants]dans la base de données a été ajoutée aux comptes externes.** Lorsque cette option est cochée, tous les SMS entrants sont stockés dans la table **inSMS**.
+* L'activité **[!UICONTROL Planificateur]** permet désormais d'envoyer des diffusions selon le fuseau horaire du destinataire.
+* SMS : l'option **[!UICONTROL Stocker les MO entrants]** dans la base de données a été ajoutée aux comptes externes. Lorsque cette option est cochée, tous les SMS entrants sont stockés dans la table **inSMS**.
 * SMS : les services sont désormais attachés à un événement au lieu d'un modèle transactionnel.
 * SMS : le timeout des connexions SMTP par défaut a été réduit à 30 secondes.
 
-#### Notifications push {#push-notifications-1}
+#### Notifications push  {#push-notifications-1}
 
 * Correction d'une erreur qui empêchait l'arrêt des diffusions des notifications push.
 * Ajout d'une option aux options avancées des notifications push qui permet de mettre en éveil une application à l'aide d'une notification push.
@@ -511,18 +511,18 @@ Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide c
 
    tous les canaux
 
-#### Rapports {#reports-1}
+#### Rapports  {#reports-1}
 
 * Correction d'une erreur qui affichait des taux supérieurs à 100 %.
 * Correction d'une erreur qui empêchait les utilisateurs de télécharger les rapports au format CSV.
-* Ajout d'un nouvel élément **[!UICONTROL Rapport]sur la page d'accueil.**
+* Ajout d'un nouvel élément **[!UICONTROL Rapport]** sur la page d'accueil.
 
 #### Workflows {#workflows-3}
 
 * Correction d'un problème qui entraînait l'affichage d'un message d'erreur lors de l'utilisation de données additionnelles dans une requête et de l'ajout d'alias contenant des espaces. Les caractères qui ne sont pas alphanumériques ont été remplacés par "_".
 * Correction d'une erreur qui entraînait dans certains cas l'arrêt par défaut du workflow technique calculant les KPI.
 
-#### Profils et audiences {#profiles-and-audiences}
+#### Profils et audiences  {#profiles-and-audiences}
 
 * Correction d'une erreur qui se produisait lors de l'ajout de plusieurs filtres à une requête d'audience.
 * Correction d'une erreur qui se produisait lors du changement de la photo d'un profil.
