@@ -3,17 +3,17 @@ title: Personnaliser une URL
 seo-title: Personnaliser une URL
 description: Personnaliser une URL
 seo-description: Découvrez comment personnaliser des URL dans un message en ajoutant des champs de personnalisation, des blocs de contenu ou du contenu dynamique.
-page-status-flag: jamais activé
-uuid: 23795417-b 469-4 a 0 d-bcf 1-440 dcdba 4004
+page-status-flag: never-activated
+uuid: 23795417-b469-4a0d-bcf1-440dcdba4004
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: gestion-liens
-discoiquuid: cc 041490-3 e 61-4 af 0-a 833-43 b 9 fe 63 e 405
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: managing-links
+discoiquuid: cc041490-3e61-4af0-a833-43b9fe63e405
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ---
