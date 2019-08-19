@@ -2,7 +2,7 @@
 title: Transfert de fichier
 seo-title: Transfert de fichier
 description: Transfert de fichier
-seo-description: L'activité Transfert de fichier permet de recevoir ou d'envoyer des fichiers; de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
+seo-description: L'activité Transfert de fichier permet de recevoir ou d'envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -14,8 +14,8 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
+translation-type: tm+mt
+source-git-commit: 4fe36a1747aca69e8857cf415593086781947a47
 
 ---
 
@@ -120,7 +120,7 @@ A chaque exécution de l'activité, le dossier est vérifié comme suit :
 >[!NOTE]
 Si l'activité n'est pas exécutée à nouveau, son dossier ne sera pas vérifié ni purgé. Faites donc preuve de prudence lorsque vous transférez des fichiers de grande taille.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 L'exemple suivant montre le paramétrage d'une activité **Transfert de fichier** qui sera ensuite suivie d'une activité **Chargement de fichier** puis **Mise à jour de données**. Le but de ce workflow est d'ajouter ou de mettre à jour les profils de la base Adobe Campaign avec les données récupérées par le workflow.
 
