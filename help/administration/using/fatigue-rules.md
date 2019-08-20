@@ -13,8 +13,8 @@ topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 
 ---
 
@@ -33,9 +33,9 @@ Pour implémenter une règle de fatigue, vous devez définir un nombre maximum d
 
 Rubriques connexes :
 
-* [Préparation](../../administration/using/configuring-email-channel.md#preparation)
+* [Préparation ](../../administration/using/configuring-email-channel.md#preparation)
 * [Gestion des typologies](../../administration/using/about-typology-rules.md#managing-typologies)
-* [Règles de typologie](../../administration/using/about-typology-rules.md#typology-rules)
+* [Règles de typologie ](../../administration/using/about-typology-rules.md#typology-rules)
 
 ## Créer une règle de fatigue  {#creating-a-fatigue-rule}
 
@@ -97,7 +97,7 @@ Les règles de fatigue sont disponibles pour divers canaux. Le canal est défini
 
 Les canaux suivants sont disponibles :
 
-* email
+* Email
 * Mobile (SMS)
 * Canal Courrier
 * Application mobile : ce canal permet d'envoyer des notifications push à des profils ou des abonnés de l'application. Si vous choisissez d'envoyer des notifications push à des profils, ils seront compatibles avec les règles de fatigue multicanal.
@@ -165,7 +165,7 @@ Les règles de fatigue sont définies par périodes glissantes de n jours. La p
 
 Lors de l'exécution de la règle, les diffusions déjà envoyées et les diffusions planifiées sont prises en compte. Ainsi, le seuil n'est jamais dépassé pendant une période glissante donnée.
 
-Par exemple, si vous définissez une période de 48 heures, le système effectuera une recherche 48 heures **avant la date de contact ** et 48 heures **après la date de contact**. La période sélectionnée est donc doublée afin de permettre l'intégration des diffusions à venir ainsi que celles déjà envoyées.
+Par exemple, si vous définissez une période de 48 heures, le système effectuera une recherche 48 heures **avant la date de contact** et 48 heures **après la date de contact**. La période sélectionnée est donc doublée afin de permettre l'intégration des diffusions à venir ainsi que celles déjà envoyées.
 
 Pour limiter à une période de 15 jours la prise en compte des diffusions, entrez **Jour** et **7** ou 1 semaine dans la section **Période glissante.** Les diffusions envoyées jusqu'à 7 jours avant la date de diffusion et planifiées jusqu'à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 
@@ -181,11 +181,11 @@ Trois onglets sont disponibles. Ils indiquent les détails des résultats de l'e
 
    ![](assets/fatigue17.png)
 
-* Exclus :
+* Exclus:
 
    ![](assets/fatigue18.png)
 
-* Exclusions appliquées :
+* Exclusions appliquées:
 
    ![](assets/fatigue19.png)
 
