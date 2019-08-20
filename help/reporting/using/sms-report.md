@@ -3,25 +3,25 @@ title: Rapport SMS
 seo-title: Rapport SMS
 description: Rapport SMS
 seo-description: 'Grâce au rapport d''usine SMS, découvrez les performances de vos diffusions SMS. '
-page-status-flag: jamais activé
-uuid: af 672 a 56-f 304-4 ea 9-99 b 1-e 9886 a 6 e 1823
+page-status-flag: never-activated
+uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: a 9 afbb 76-d 2 b 3-44 c 7-b 97 a -1694501 aa 913
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
 # Rapport SMS{#sms-report}
 
-Le rapport** SMS** fournit des détails sur les remises SMS, telles que les taux de remise et de rebond.
+Le rapport **SMS** fournit des détails sur les diffusions SMS tels que les débits de diffusion et les taux de bounce.
 
 ![](assets/dynamic_report_sms.png)
 
