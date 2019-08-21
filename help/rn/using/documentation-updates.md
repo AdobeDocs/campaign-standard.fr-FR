@@ -3,18 +3,18 @@ title: Mises à jour de la documentation
 seo-title: Mises à jour de la documentation
 description: Mises à jour de la documentation
 seo-description: Découvrez l'ensemble des mises à jour les plus récentes de la documentation d'Adobe Campaign Standard.
-page-status-flag: jamais activé
-uuid: 3 bdc 7 d 11-8421-4110-a 5 ba -7 b 1376 a 03 dda
+page-status-flag: never-activated
+uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: référence
-topic-tags: campagne-standard-release
-discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
+content-type: reference
+topic-tags: campaign-standard-releases
+discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
 
 ---
 
@@ -27,13 +27,17 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
 
+## Mises à jour de la documentation - Août 2019 {#doc-updates-august-2019}
+
+Une procédure a été ajoutée dans la section Dépannage de processus sur la manière d'afficher les requêtes SQL dans l'onglet Journal. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
 ## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-19}
 
-External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+Activité API externe (version bêta publique) - [En savoir plus](../../automating/using/external-api.md)
 
-Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
+Rapport sur le segment de processus - [En savoir plus](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
 
@@ -41,7 +45,7 @@ Le Guide de mise en œuvre standard de Campaign est maintenant disponible.[En sa
 
 Un ensemble de nouveaux articles d'aide a été créé à propos de l'implémentation et de l'utilisation du connecteur Microsoft Dynamics 365. Notez que cette fonctionnalité se trouve actuellement dans la section Disponibilité limitée.[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+Une note a été ajoutée à l' [appel d'un flux de travail avec la section Paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) au sujet de la préparation de la remise et de leur période d'agrégation.
 
 Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../automating/using/external-signal.md)
 
@@ -67,7 +71,7 @@ Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic�
 
 Ajout d'un avertissement dans la documentation des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentation updates - July 2019 {#doc-updates-2019}
+## Mises à jour de la documentation - Juillet 2019 {#doc-updates-2019}
 
 Ajout d'une nouvelle page aux limites de la page d'entrée. [En savoir plus](../../channels/using/landing-page-limitations.md)
 
@@ -259,7 +263,7 @@ Ajout d'informations sur la suppression d'une audience – [En savoir plus](../
 
 Mise à jour de la section du rapport d'usine sur les notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018 {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018  {#release-18-7---july-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-4}
 
@@ -309,7 +313,7 @@ Ajout d'une section dans la documentation sur les API relative aux **filtres per
 
 RGPD : intégration avec Core Service – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Push improvements - detailed delivery feedback - [Read more](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
+Améliorations des notifications push – retours détaillés de la diffusion – [En savoir plus](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
 Extension des logs de diffusion – [En savoir plus](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
@@ -335,9 +339,9 @@ Découvrez les bonnes pratiques relatives à l'utilisation de serveurs SFTP héb
 
 La liste des solutions/core services Analytics pris en charge en vue de l'intégration avec Triggers a été mise à jour – [En savoir plus](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Certaines pages de la documentation consacrée à l'éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/about-email-content-design.md) 
+Certaines pages de la documentation consacrée à l'éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/about-email-content-design.md)
 
-## Version 18.3 - Mars 2018 {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018  {#release-18-3---march-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-7}
 
@@ -369,7 +373,7 @@ Mise à jour de la liste des ressources d'aide concernant l'intégration des sol
 
 Mise à jour de l'aide contextuelle intégrée à Campaign Standard.
 
-## Version 18.2 - Février 2018 {#release-18-2---february-2018}
+## Version 18.2 - Février 2018  {#release-18-2---february-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-8}
 
@@ -387,15 +391,15 @@ Ajout d'informations sur la préparation d'un message dans une diffusion – [
 
 Réorganisation des notes de mise à jour en deux pages afin d'obtenir une vue plus globale de toutes les différentes versions : [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) et [Notes de mise à jour précédentes](../../rn/using/release-notes-2015-2016.md)
 
-Mise à jour de la section **[!UICONTROL Utilisation des typologies]pour une meilleure visibilité –** [En savoir plus](../../administration/using/about-typology-rules.md)
+Mise à jour de la section **[!UICONTROL Utilisation des typologies]** pour une meilleure visibilité – [En savoir plus](../../administration/using/about-typology-rules.md)
 
-Disponibilité d'une nouvelle option permettant d'optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête] –** [En savoir plus](../../automating/using/query.md)
+Disponibilité d'une nouvelle option permettant d'optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête]** – [En savoir plus](../../automating/using/query.md)
 
 Mise à jour de l'exemple d'import de profil avec quelques conseils pour que les profils soient prêts à recevoir des courriers – [En savoir plus](../../automating/using/importing-data.md)
 
-Nouvelle activité disponible dans les workflows : l'activité **[!UICONTROL Enrichissement] –** [En savoir plus](../../automating/using/enrichment.md)
+Nouvelle activité disponible dans les workflows : l'activité **[!UICONTROL Enrichissement]** – [En savoir plus](../../automating/using/enrichment.md)
 
-Mise à jour de la section sur l'activité **[!UICONTROL Services d'abonnements]afin qu'elle comporte d'autres cas pratiques, notamment l'utilisation d'un seul fichier pour mettre à jour les abonnements à plusieurs services –** [En savoir plus](../../automating/using/subscription-services.md)
+Mise à jour de la section sur l'activité **[!UICONTROL Services d'abonnements]** afin qu'elle comporte d'autres cas pratiques, notamment l'utilisation d'un seul fichier pour mettre à jour les abonnements à plusieurs services – [En savoir plus](../../automating/using/subscription-services.md)
 
 Ajout d'un cas pratique détaillé sur la préparation d'une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
@@ -405,7 +409,7 @@ Ajout d'un cas pratique détaillé sur l'utilisation des réponses automatiques 
 
 Ajout d'informations sur l'envoi d'une diffusion en fonction des fuseaux horaires des utilisateurs dans un workflow récurrent – [En savoir plus](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Réorganisation de la section **[!UICONTROL Personnaliser une notification push]avec des cas pratiques détaillés –** [En savoir plus](../../channels/using/customizing-a-push-notification.md)
+Réorganisation de la section **[!UICONTROL Personnaliser une notification push]** avec des cas pratiques détaillés – [En savoir plus](../../channels/using/customizing-a-push-notification.md)
 
 Nouvelle section consacrée à la gestion du blacklistage – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -413,7 +417,7 @@ Mises à jour des informations sur les diffusions en échec et les mises en quar
 
 Nouvelles sections consacrées aux [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et aux [dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Janvier 2018 {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018  {#release-18-1---january-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-9}
 
@@ -441,7 +445,7 @@ Ajout d'informations sur les Paramètres d'historisation de l'activité Transfer
 
 Mise à jour des instructions pour configurer l'intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Octobre 2017 {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017  {#release-17-10---october-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-10}
 
@@ -469,7 +473,7 @@ Clarification de la section 'Ressources personnalisées' avec une procédure plu
 
 Mise à jour et clarification de la [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sur l'intégration du SDK Mobile Adobe Marketing Cloud avec une application mobile pour recevoir des notifications push Adobe Campaign Standard.
 
-Ajout d'une technote expliquant la structure de la payload reçue dans une application mobile – [En savoir plus](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Ajout d'une technote expliquant la structure de la payload reçue dans une application mobile – [En savoir plus.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 Mise à jour de la [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) sur la configuration du canal des notifications push avec de nouvelles données de payload à ajouter en fonction du système d'exploitation lors de la définition des postbacks dans l'interface Adobe Mobile Services.
 
@@ -521,7 +525,7 @@ Mise à jour de la section sur l'activité de workflow Transfert de fichier –
 
 Ajout d'informations sur l'option Demander une confirmation avant l'envoi des messages de l'activité de workflow Diffusion email – [En savoir plus](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juillet 2017 {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017  {#release-17-7---july-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-12}
 
@@ -553,7 +557,7 @@ Le mécanisme de double opt-in est maintenant documenté via une procédure comp
 
 La section présentant la liste des rôles a été mise à jour – [En savoir plus](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017 {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017  {#release-17-5---may-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-13}
 
@@ -575,7 +579,7 @@ Le tableau des autorisations a été modifié de façon à clarifier la fonction
 
 Mise à jour des liens d'aide contextuelle disponibles directement dans Adobe Campaign.
 
-## Version 17.4 - Avril 2017 {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017  {#release-17-4---april-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-14}
 
@@ -605,7 +609,7 @@ Mise à jour de la section sur l'utilisation des images dans Adobe Campaign �
 
 Mise à jour de la section sur l'intégration avec Adobe Analytics pour Mobile (point ciblé), avec des étapes de configuration et un cas pratique – [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - Mars 2017 {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017  {#release-17-2---march-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-15}
 
@@ -655,7 +659,7 @@ Changement d'URL : People core service – [En savoir plus](../../integrating
 
 Le guide Profils et audiences a été réorganisé – [En savoir plus](../../audiences/using/about-profiles-and-audiences.md)
 
-## Version 16.11 - Novembre 2016 {#release-16-11---november-2016}
+## Version 16.11 - Novembre 2016  {#release-16-11---november-2016}
 
 ### Mises à jour de la documentation accompagnant cette version {#documentation-updates-coming-with-the-release}
 
@@ -685,7 +689,7 @@ La section Diffusions SMS a été mise à jour afin de refléter les changements
 
 Les diffusions par notification push ont été ajoutées au planning – [En savoir plus](../../start/using/timeline.md)
 
-## Version 16.10 - Octobre 2016 {#release-16-10---october-2016}
+## Version 16.10 - Octobre 2016  {#release-16-10---october-2016}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-17}
 
@@ -697,7 +701,7 @@ Message de relance pour les messages transactionnels – [En savoir plus](../.
 
 Extension de l'API Profile &amp; Services – [En savoir plus](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-## Version 16.9 - Septembre 2016 {#release-16-9---september-2016}
+## Version 16.9 - Septembre 2016  {#release-16-9---september-2016}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-18}
 
