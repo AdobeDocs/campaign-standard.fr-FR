@@ -3,23 +3,23 @@ title: Meilleures pratiques de flux de travaux
 seo-title: Meilleures pratiques de flux de travaux
 description: Meilleures pratiques de flux de travaux
 seo-description: Découvrez comment appliquer les meilleures pratiques à vos processus.
-page-status-flag: jamais activé
-uuid: ff 02 b 74 e -53 e 8-49 c 6-bf 8 e -0 c 729 eaa 7 d 25
+page-status-flag: never-activated
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
-context-tags: flux de travail, présentation ; flux de travail, principale
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# Meilleures pratiques du flux de travail{#workflow-best-practices}
 
 Avec Adobe Campaign, vous pouvez configurer tous les types de processus pour effectuer une grande étendue de tâches. Toutefois, lors de la conception et de l'exécution de vos flux de travail, vous devez être très prudent car une implémentation incorrecte peut entraîner de mauvaises performances, erreurs et problèmes de plateforme. Vous trouverez ci-dessous une liste des bonnes pratiques et des conseils de dépannage.
 
@@ -27,7 +27,7 @@ Avec Adobe Campaign, vous pouvez configurer tous les types de processus pour eff
 >
 >La conception et l'exécution du flux de travail doivent être effectuées par un utilisateur avancé Adobe Campaign.
 
-## Naming{#naming}
+## Attribution d'un nom{#naming}
 
 Pour faciliter le dépannage du flux de travail, Adobe conseille de nommer et d'étiqueter explicitement vos flux de travail. Renseignez le champ Description du processus pour résumer le processus à exécuter afin que l'opérateur puisse facilement le comprendre.
 Si le processus fait partie d'un processus impliquant plusieurs flux de travail, vous pouvez utiliser des nombres lors de la saisie d'un libellé pour les classer clairement.
@@ -40,9 +40,9 @@ Par exemple :
 * 010 - Exportation - Journaux de diffusion Exporter
 * 011 - Exportation - Journaux de suivi Exporter
 
-## Duplicating workflows{#duplicating-workflows}
+## Duplication de processus{#duplicating-workflows}
 
-Vous pouvez dupliquer des processus. In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. Une fois dupliqué, les modifications du processus ne sont pas transférées à la copie du processus. La copie du processus peut être modifiée.
+Vous pouvez dupliquer des processus. Dans les activités **[!UICONTROL marketing]**, passez la souris sur le processus et cliquez **[!UICONTROL sur Dupliquer l'élément]**. Une fois dupliqué, les modifications du processus ne sont pas transférées à la copie du processus. La copie du processus peut être modifiée.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,13 @@ Les flux de travaux en pause ou en échec pendant plus de 7 jours sont arrêtés
 
 Un flux de travail contenant des transitions non terminées peut toujours être exécuté : elle génère un message d'avertissement et le processus s'interrompt une fois la transition atteinte, mais ne génère pas d'erreur. Vous pouvez également démarrer un flux de travail sans terminer la conception et le terminer au fur et à mesure que vous avancez.
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+Pour plus d'informations, voir [Exécution de processus](../../automating/using//executing-a-workflow.md).
 
 ## Activité{#activity}
 
 ### Conception de processus
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. Evitez de quitter la dernière transition d'un processus.
+Pour vous assurer que le processus se termine correctement, utilisez une **[!UICONTROL activité de fin]**. Evitez de quitter la dernière transition d'un processus.
 
 To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
 
@@ -83,7 +83,7 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### d'autres activités d'étiquetage{#activity-labeling}
 
 Lors du développement de votre flux de travail, un nom est généré pour chaque activité, comme pour tous les objets Adobe Campaign. Bien que le nom d'une activité soit généré par l'outil et ne puisse pas être modifié, il est recommandé de le nommer avec un nom explicite lors de sa configuration.
 
@@ -95,45 +95,64 @@ Pour dupliquer des activités existantes, vous pouvez utiliser copier-coller. Ai
 
 When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. Si la même branche d'un flux de travail comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surcharge considérablement la base de données.
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+Vous pouvez prévisualiser les dix prochaines exécutions de vos flux de travail en cliquant **[!UICONTROL sur Aperçu des exécutions suivantes]**.
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+Pour plus d'informations, reportez-vous à l'activité [Planificateur](../../automating/using/scheduler.md).
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## Appel de workflow avec des paramètres{#workflow-with-parameters}
 
 Assurez-vous que le nom et le nombre de paramètres correspondent à ce qui est défini lors de l'appel du workflow (voir [Définir les paramètres lors de l'appel du workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). Les types de paramètres doivent également être cohérents avec les valeurs attendues.
 
 Veillez à ce que tous les paramètres soient déclarés dans l'activité **[!UICONTROL Signal externe]**. Dans le cas contraire, une erreur se produira lors de l'exécution de l'activité.
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Pour plus d'informations, voir [Appel d'un flux de travail avec des paramètres externes](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Exporting packages{#exporting-packages}
+## Exportation de packages{#exporting-packages}
 
 Pour exporter des packages, les ressources exportées ne doivent pas contenir d'ID par défaut. Par conséquent, les ID des ressources exportables doivent être modifiés en utilisant un autre nom parmi ceux fournis par Adobe Campaign Standard.
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+Pour plus d'informations, voir [Gestion des packages](../../automating/using/managing-packages.md).
 
 ## Export de listes{#exporting-lists}
 
 L'option d'export de liste permet d'exporter un maximum de 100 000 lignes par défaut et est définie par l'option **Nms_ExportListLimit**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+Pour plus d'informations, voir [Exportation de listes](../../automating/using/exporting-lists.md).
 
 ## Résolution des problèmes{#workflow-troubleshooting}
 
 Adobe Campaign propose divers journaux pour mieux comprendre vos problèmes de flux de travaux.
 
-### Using workflow logs{#using-workflow-logs}
+### Utilisation des journaux de processus{#using-workflow-logs}
 
-Vous pouvez accéder aux journaux de flux de travaux pour surveiller l'exécution de vos activités. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d'exécution.
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+Vous pouvez accéder aux journaux de flux de travaux pour surveiller l'exécution de vos activités. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d'exécution. L'onglet Journaux se compose de l'historique de l'exécution de toutes ou d'activités sélectionnées.
+L'onglet Tâches permet de voir le séquencement de l'exécution des activités. Pour obtenir plus d'informations sur une activité, cliquez sur une tâche.
+Pour plus d'informations, consultez [l'exécution du flux de travail Surveillance](../../automating/using/executing-a-workflow.md#monitoring).
 
-### Using delivery logs{#using-delivery-logs}
+#### Troubleshooting data management activities{#troubleshooting-data-management-activities}
+
+Vous pouvez analyser les requêtes SQL dans l'onglet Journal.
+
+1. Dans l'espace de travail de flux de travail, cliquez **sur Modifier les propriétés**.
+1. En général ******, cochez la case****Enregistrer les requêtes SQL dans le journal** et **Exécuter dans les options du moteur** et cliquez **sur Confirmer**.
+
+**Pour afficher les requêtes SQL dans le journal :**
+1. Cliquez **sur Journal et tâches**.
+1. Dans l'onglet **Journal** , ouvrez le panneau **Rechercher** .
+1. Check **Display SQL logs only**.
+
+La requête est affichée dans la colonne **Message** des journaux.
+
+### Utilisation des journaux de diffusion{#using-delivery-logs}
 
 Les journaux de diffusion permettent de surveiller le succès de vos remises. Les journaux d'exclusion renvoient des messages exclus lors de la préparation de l'envoi. L'envoi de journaux fournit l'état de la diffusion pour chaque profil.
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+Pour plus d'informations, voir [Compréhension des échecs de remise](../../sending/using/understanding-delivery-failures.md).
 
-### Using delivery alerting{#delivery-alerting}
+### Utilisation des alertes de diffusion{#delivery-alerting}
 
 La fonctionnalité Alertes de diffusion est un système de gestion des alertes qui permet à un groupe d'utilisateurs de recevoir automatiquement des notifications contenant des informations sur l'exécution de leurs diffusions.
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+Pour plus d'informations, voir Alertes [de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md).
+
+**Rubriques connexes :**
+
+* [Gestion des erreurs](../../automating/using/executing-a-workflow.md#error-management)
