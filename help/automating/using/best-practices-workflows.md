@@ -14,7 +14,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Pour plus d'informations, voir [Gestion des packages](../../automating/using/man
 
 ## Export de listes{#exporting-lists}
 
-L'option d'export de liste permet d'exporter un maximum de 100 000 lignes par défaut et est définie par l'option **Nms_ExportListLimit**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
+L'option d'export de liste permet d'exporter un maximum de 100 000 lignes par défaut et est définie par l'option **Nms_ExportListLimit**. This option can be managed by the functional administrator, under **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**.
 Pour plus d'informations, voir [Exportation de listes](../../automating/using/exporting-lists.md).
 
 ## Résolution des problèmes{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Pour plus d'informations, consultez [l'exécution du flux de travail Surveillanc
 
 Vous pouvez analyser les requêtes SQL dans l'onglet Journal.
 
-1. Dans l'espace de travail de flux de travail, cliquez **sur Modifier les propriétés**.
-1. En général ******, cochez la case****Enregistrer les requêtes SQL dans le journal** et **Exécuter dans les options du moteur** et cliquez **sur Confirmer**.
+1. Dans l'espace de travail de flux de travail, cliquez **[!UICONTROL sur Modifier les propriétés]**.
+1. En général ******[!UICONTROL , cochez la case]****[!UICONTROL Enregistrer les requêtes SQL dans le journal]** et **[!UICONTROL Exécuter dans les options du moteur]** et cliquez **[!UICONTROL sur Confirmer]**.
 
 **Pour afficher les requêtes SQL dans le journal :**
-1. Cliquez **sur Journal et tâches**.
-1. Dans l'onglet **Journal** , ouvrez le panneau **Rechercher** .
-1. Check **Display SQL logs only**.
+1. Cliquez **[!UICONTROL sur Journal et tâches]**.
+1. Dans l'onglet **[!UICONTROL Journaux,]** ouvrez le panneau **[!UICONTROL Rechercher]** .
+1. Check **[!UICONTROL Display SQL logs only]**.
 
-La requête est affichée dans la colonne **Message** des journaux.
+La requête est affichée dans la colonne **[!UICONTROL Message]** des journaux.
 
 ### Utilisation des journaux de diffusion{#using-delivery-logs}
 
