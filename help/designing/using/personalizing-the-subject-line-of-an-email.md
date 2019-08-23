@@ -3,18 +3,18 @@ title: Personnaliser l'objet d'un email
 seo-title: Personnaliser l'objet d'un email
 description: Personnaliser l'objet d'un email
 seo-description: Vous pouvez personnaliser l'objet d'un email et tester aussi différents objets et obtenir une estimation de son taux d'ouverture.
-page-status-flag: jamais activé
-uuid: 345 b 5 f 4 b -8 e 2 c -4 f 8 e-bce 7-0 e 9 b 40 a 44932
+page-status-flag: never-activated
+uuid: 345b5f4b-8e2c-4f8e-bce7-0e9b40a44932
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: personnalisation-contenu
-discoiquuid: f 7 a 5 e 935-54 cf -422 e -8459-27221409 a 200
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: personalizing-content
+discoiquuid: f7a5e935-54cf-422e-8459-27221409a200
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -29,7 +29,7 @@ L'objet de l'email est obligatoire pour préparer et envoyer le message.
 >
 >Si l'objet est vide, un avertissement apparaît dans le dashboard du message ainsi que dans le Concepteur d'email.
 
-Pour configurer l'objet de l'email, accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible via l'icône de maison) et remplissez la section **Objet[!UICONTROL .]**
+Pour configurer l'objet de l'email, accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible via l'icône de maison) et remplissez la section **[!UICONTROL Objet]**.
 
 ![](assets/email_designer_subject.png)
 
@@ -57,7 +57,7 @@ Pour tester un objet, procédez comme suit :
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l'objet de l'email dans le champ de saisie prévu à cet effet.
-1. Cliquez sur le bouton **[!UICONTROL Tester l'objet]** pour afficher la fenêtre **Tester la ligne d'objet.** Vous pouvez toujours éditer l'objet dans cette fenêtre.
+1. Cliquez sur le bouton **[!UICONTROL Tester l'objet]** pour afficher la fenêtre **[!UICONTROL Tester la ligne d'objet]**. Vous pouvez toujours éditer l'objet dans cette fenêtre.
 1. Choisissez le bon modèle à prendre en compte pour la prédiction du taux d'ouverture. Plusieurs modèles sont disponibles. Chacun d'entre eux correspond à un secteur d'activité spécifique.
 1. Cliquez sur **[!UICONTROL Tester]**.
 
@@ -80,14 +80,14 @@ Plusieurs indicateurs sont calculés et un ensemble d'outils s'affiche en vue de
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importer des modèles {#importing-models}
+### Importer des modèles  {#importing-models}
 
 Par défaut, aucun modèle n'est exécuté sur le serveur Adobe Campaign. Deux méthodes permettent d'obtenir un modèle et d'activer la fonctionnalité :
 
 * Vous pouvez entraîner un modèle local à partir des données des emails envoyés :
 
    * Si vous utilisez déjà Adobe Campaign, le modèle local sera automatiquement entraîné avec les messages que vous avez déjà envoyés.
-   * Si vous utilisez Adobe Campaign pour la première fois, vous pouvez extraire de votre précédent système/fournisseur de services de messagerie un fichier CSV contenant 4 colonnes : date, subject, sent, opens. To do that, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** and follow the instructions provided on the successive screens. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
+   * Si vous utilisez Adobe Campaign pour la première fois, vous pouvez extraire de votre précédent système/fournisseur de services de messagerie un fichier CSV contenant 4 colonnes : date, subject, sent, opens. Pour cela, accédez à **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Import d'objet]**, puis suivez les instructions affichées dans les différents écrans. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
    * Si vous utilisez Adobe Campaign pour la première fois et si vous ne pouvez pas obtenir de fichier CSV comme décrit plus haut, vous pouvez utiliser un modèle pré-entraîné ou attendre que le système dispose de suffisamment de données de diffusion pour entraîner un modèle local. Le système détermine automatiquement si le jeu de données actuel contient suffisamment de données pour reconnaître des constantes et entraîner le modèle.
 
       >[!NOTE]
@@ -95,7 +95,7 @@ Par défaut, aucun modèle n'est exécuté sur le serveur Adobe Campaign. Deux m
       >Il n'y a pas de nombre défini d'objets requis pour entraîner votre propre modèle. Pour l'entraîner, les objets doivent être variés et ne pas présenter de doublons. Si les données à traiter ne sont pas suffisantes, le système ne sera pas en mesure d'entraîner le modèle. Votre instance ne peut contenir qu'un seul modèle entraîné.
    Pour entraîner un modèle local, téléchargez le fichier subjectLineTraining.xml depuis [cet emplacement](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) et utilisez la fonctionnalité d'[import de package](../../automating/using/managing-packages.md) pour le charger dans votre instance Adobe Campaign. Un workflow technique entraînera automatiquement le modèle.
 
-   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** menu.
+   Lorsque vous entraînez un modèle pour la première fois, un administrateur peut forcer le démarrage du **[!UICONTROL Workflow d'apprentissage de l'objet]** depuis le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Workflows]**.
 
    Une fois un modèle téléchargé et entraîné, la fonctionnalité est automatiquement activée. Une nouvelle option apparaît alors en regard de l'objet de vos messages.
 
@@ -116,3 +116,6 @@ Les modèles disponibles sont les suivants :
 * Secteur médical : subjectInsightMedical.xml
 * Modèle à entraîner : subjectlineTraining.xml.
 
+**Rubrique connexe :**
+
+* [Optimisation des lignes d'objet avec les prédictions Adobe Sensei](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
