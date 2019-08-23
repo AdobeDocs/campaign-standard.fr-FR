@@ -13,8 +13,8 @@ topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -49,6 +49,7 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
+* [Partage automatique de rapports avec les parties prenantes par courriel](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Onglets  {#tabs}
 
@@ -104,7 +105,7 @@ L'onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant des 
 * **Nouveau panneau vierge** : ajoute un nouveau panneau vierge à votre tableau de bord.
 * **Nouvelle structure libre** : ajoute une nouvelle structure libre à votre tableau de bord.
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
-* **Nouvelle barre** : ajoute un nouveau graphique à barre à votre tableau de bord.
+* **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
 ### Onglet Partager  {#share-tab}
 
@@ -147,3 +148,7 @@ L'onglet **[!UICONTROL Partager]** permet d'envoyer vos rapports aux utilisateur
    1. La fenêtre **[!UICONTROL Modifier le rapport planifié]** s'affiche. Vous pouvez maintenant modifier les destinataires ou la fréquence de votre email en cas de besoin.
 
 Les utilisateurs ciblés recevront alors votre rapport joint à un email directement dans leur boîte de messagerie. Les utilisateurs peuvent choisir de ne plus recevoir les emails récurrents en cliquant sur le lien de désinscription qui se trouve dans chaque email récurrent.
+
+**Rubrique connexe :**
+
+* [Partage automatique de rapports avec les parties prenantes par courriel](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
