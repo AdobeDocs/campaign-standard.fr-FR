@@ -3,18 +3,18 @@ title: Définir la structure d'un email
 seo-title: Définir la structure d'un email
 description: Définir la structure d'un email
 seo-description: Découvrez comment utiliser le Concepteur d'email dans Campaign pour former des emails et les remplir avec des composants de contenu.
-page-status-flag: jamais activé
-uuid: 6 ec 63 f 65-1425-4 c 28-84 e 8-b 09574458 db 3
+page-status-flag: never-activated
+uuid: 6ec63f65-1425-4c28-84e8-b09574458db3
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: modification-courrier électronique-contenu
-discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: editing-email-content
+discoiquuid: 207fdf6d-165a-41af-ad53-ba97d3403b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
+source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 ---
 
@@ -44,7 +44,7 @@ Pour éditer la structure d'un email :
 
 1. Plusieurs composants de structure constitués d'une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]pour définir le nombre de colonnes de votre choix (entre 3 et 10).** Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -54,13 +54,13 @@ Pour éditer la structure d'un email :
 
 Lorsque la structure est définie, vous pouvez ajouter des fragments de contenu et des composants à votre email.
 
-## Ajouter des fragments et des composants de contenu {#adding-fragments-and-content-components}
+## Ajouter des fragments et des composants de contenu  {#adding-fragments-and-content-components}
 
 Avec le Concepteur d'email, après avoir ajouté des composants de structure à votre email, vous pouvez définir leur contenu. Pour cela, vous devez ajouter des éléments à l'intérieur de chaque composant de structure.
 
 Vous pouvez utiliser deux catégories d'éléments de contenu : les **fragments** et les **composants de contenu**.
 
-### A propos des fragments {#about-fragments}
+### A propos des fragments  {#about-fragments}
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 
@@ -78,7 +78,7 @@ Pour déverrouiller un fragment dans un email, sélectionnez-le et cliquez sur l
 
 Ce fragment devient alors un composant autonome qui n'est plus lié au fragment d'origine. Il peut ensuite être édité comme n'importe quel autre composant de contenu. Voir [A propos des composants de contenu](../../designing/using/defining-the-email-structure.md#about-content-components).
 
-### A propos des composants de contenu {#about-content-components}
+### A propos des composants de contenu  {#about-content-components}
 
 Les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu'ils ont été placés dans un email.
 
@@ -88,7 +88,7 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 * **[!UICONTROL Bouton]**
 
-   Si vous avez besoin d'utiliser plusieurs boutons, plutôt que d'éditer chaque bouton à partir de zéro, vous pouvez dupliquer le composant **[!UICONTROL Bouton]à l'aide de la barre d'outils contextuelle.**
+   Si vous avez besoin d'utiliser plusieurs boutons, plutôt que d'éditer chaque bouton à partir de zéro, vous pouvez dupliquer le composant **[!UICONTROL Bouton]** à l'aide de la barre d'outils contextuelle.
 
    Vous pouvez aussi enregistrer des boutons dans des fragments réutilisables. Voir à ce propos [Créer un fragment de contenu](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
@@ -103,7 +103,7 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
    >[!NOTE]
    >
-   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la     section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la      section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
 * **[!UICONTROL Image]**
 * **[!UICONTROL Social]**
@@ -111,12 +111,12 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 #### Utilisation du composant carrousel {#using-the-carousel-component}
 
-1. Placez le composant **[!UICONTROL Carrousel]à l'intérieur d'un composant de structure.**
+1. Placez le composant **[!UICONTROL Carrousel]** à l'intérieur d'un composant de structure.
 1. Parcourez votre ordinateur pour sélectionner des images.
 
    ![](assets/des_carousel_browse.png)
 
-1. Dans le volet **[!UICONTROL Paramètres], définissez le nombre de vignettes souhaitées dans le carrousel.**
+1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de vignettes souhaitées dans le carrousel.
 1. Sélectionnez une image de remplacement à partir de votre ordinateur.
 
    ![](assets/des_carousel_fallback.png)
@@ -127,7 +127,7 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
    >
    >Le composant carrousel est compatible avec les plateformes de messagerie suivantes : Apple Mail 7, Apple Mail 8, Outlook 2011 pour Mac, Outlook 2016 pour Mac, Mozilla Thunderbird, iPad et iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox et Safari).
 
-1. Sélectionnez **[!UICONTROL Vue de la version de secours]pour afficher l'image de remplacement dans le Concepteur d'email.**
+1. Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l'image de remplacement dans le Concepteur d'email.
 
 ### Insérer des éléments dans un email {#inserting-elements-into-an-email}
 
@@ -161,19 +161,19 @@ Maintenant que la structure de l'email est remplie, vous pouvez modifier le styl
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Créer un fragment de contenu {#creating-a-content-fragment}
+### Créer un fragment de contenu  {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** and click **[!UICONTROL Create]**.
-1. Cliquez sur le libellé d'email de façon à accéder à l'onglet **[!UICONTROL Propriétés]du Concepteur d'email.**
+1. Accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis cliquez sur **[!UICONTROL Créer]**.
+1. Cliquez sur le libellé d'email de façon à accéder à l'onglet **[!UICONTROL Propriétés]** du Concepteur d'email.
 1. Spécifiez un libellé reconnaissable et sélectionnez les paramètres suivants afin de retrouver ultérieurement le fragment dans les nouveaux emails :
 
-   * Les fragments étant uniquement compatibles avec les emails, sélectionnez **[!UICONTROL Diffusion]** dans la liste déroulante **Type de contenu[!UICONTROL .]**
-   * Sélectionnez **[!UICONTROL Fragment]** dans la liste déroulante **Type HTML]afin de pouvoir utiliser ce contenu en tant que fragment dans vos emails.[!UICONTROL **
+   * Les fragments étant uniquement compatibles avec les emails, sélectionnez **[!UICONTROL Diffusion]** dans la liste déroulante **[!UICONTROL Type de contenu]**.
+   * Sélectionnez **[!UICONTROL Fragment]** dans la liste déroulante **[!UICONTROL Type HTML]** afin de pouvoir utiliser ce contenu en tant que fragment dans vos emails.
    ![](assets/email_designer_createfragment.png)
 
-1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du fragment. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]des propriétés de modèle.**
+1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du fragment. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
@@ -183,13 +183,13 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
 1. Ajoutez un composant de structure et un composant de contenu que vous pouvez personnaliser au besoin.
 1. Une fois le fragment édité, enregistrez-le.
 
-Le fragment peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Il apparaît sous la section **[!UICONTROL Fragments]de la palette.**
+Le fragment peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Il apparaît sous la section **[!UICONTROL Fragments]** de la palette.
 
 >[!NOTE]
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s'il est utilisé dans un email. Pour cela, vous devez déverrouiller ce fragment. Voir [A propos des fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
-### Enregistrer du contenu en tant que fragment {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment  {#saving-content-as-a-fragment}
 
 Lorsque vous modifiez un courrier électronique avec le concepteur de courrier électronique, vous pouvez directement enregistrer une partie de ce courriel sous forme de fragment.
 
@@ -197,7 +197,7 @@ Lorsque vous modifiez un courrier électronique avec le concepteur de courrier �
 >
 >Vous ne pouvez pas enregistrer comme fragment une structure contenant des champs de personnalisation, un contenu dynamique ou un autre fragment.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+1. Lors de la modification d'un courrier électronique dans Designer Designer, sélectionnez **[!UICONTROL Enregistrer comme fragment]** dans la barre d'outils principale.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -211,11 +211,11 @@ Lorsque vous modifiez un courrier électronique avec le concepteur de courrier �
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+1. Ajoutez une étiquette et une description si nécessaire, puis cliquez **[!UICONTROL sur Enregistrer]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
+1. Pour trouver le fragment que vous venez de créer, accédez **[!UICONTROL à Ressources]** &gt; **[!UICONTROL Modèles de contenu et fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
