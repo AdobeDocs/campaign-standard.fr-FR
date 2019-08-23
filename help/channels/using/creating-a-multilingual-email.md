@@ -13,8 +13,8 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -47,3 +47,6 @@ L'audience est composée de profils dont la préférence linguistique a été in
 1. Planifiez l'envoi à l'aide de l'option **[!UICONTROL Envoi après confirmation]**.
 1. Une fois l'email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d'informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
 
+**Rubrique connexe :**
+
+* [Accès à des audiences multilingues à l'aide d'un processus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
