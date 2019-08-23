@@ -14,8 +14,8 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,7 +36,7 @@ Cette activité contient plus de fonctions avancées d'enrichissement que l'acti
 
 Avec l'activité **[!UICONTROL Enrichissement]**, vous pouvez utiliser la transition entrante et configurer l'activité pour ajouter des données additionnelles à la transition sortante. Elle permet de combiner des données provenant de plusieurs ensembles ou de créer des liens avec une ressource temporaire.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 Pour configurer une activité **[!UICONTROL Enrichissement]** :
 
@@ -137,4 +137,8 @@ Le workflow est configuré comme suit :
 * Une activité **[!UICONTROL Diffusion Email]** utilise les données additionnelles définies dans l'**[!UICONTROL Enrichissement]** pour récupérer dynamiquement les deux derniers achats effectués par le profil. Les données additionnelles sont accessibles depuis le nœud **Données additionnelles (TargetData)** lors de l'ajout d'un champ personnalisé.
 
    ![](assets/enrichment_example_workflow10.png)
+
+**Rubrique connexe :**
+
+* [Enrichir les profils client avec des données externes](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
