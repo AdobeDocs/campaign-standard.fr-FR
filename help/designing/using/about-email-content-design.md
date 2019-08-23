@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -177,6 +177,7 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 * [Planification de l'envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
+* [Créer des courriels personnalisés sans avoir besoin de HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Concevoir un email à l'aide d'un contenu existant  {#designing-an-email-using-existing-contents}
 
