@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ Vous pouvez également consulter les [notes de mise à jour](../../rn/using/rele
 ## Mises à jour de la documentation - Août 2019 {#doc-updates-august-2019}
 
 Une procédure a été ajoutée dans la section Dépannage de processus sur la manière d'afficher les requêtes SQL dans l'onglet Journal. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+Un nouvel article d'aide a été ajouté, avec des informations relatives aux sous-domaines et à la gestion des certificats dans le Panneau de configuration. [En savoir plus](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
