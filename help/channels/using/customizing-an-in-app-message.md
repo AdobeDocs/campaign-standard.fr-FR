@@ -14,8 +14,8 @@ discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+translation-type: tm+mt
+source-git-commit: 43183a3adc35da3dac807a888f1b694fbb9a623c
 
 ---
 
@@ -152,7 +152,7 @@ Pour personnaliser une notification locale :
    ![](assets/inapp_customize_18.png)
 
 1. Sous la catégorie **[!UICONTROL Option avancée]**, dans le champ **[!UICONTROL Attendre pour afficher]**, choisissez la durée (en secondes) pendant laquelle votre notification locale apparaîtra à l'écran une fois votre événement déclenché.
-1. Dans le champ **[!UICONTROL Son]**, saisissez le nom du fichier sonore (sans l'extension) que l'appareil mobile doit lire lors de la réception de la notification locale.
+1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, with the extension, to be played by the mobile device when the local notification is received.
 
    Le fichier son est lu lors de la diffusion de la notification s'il est défini dans le package de l'application mobile. Sinon, le son par défaut de l'appareil est émis.
 
