@@ -13,8 +13,8 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
 
 ---
 
@@ -29,8 +29,8 @@ Cet élément vous permet de saisir manuellement vos conditions. Vous pouvez y u
 
 Plusieurs types de fonctions sont disponibles, en fonction des résultats souhaités et du types des données manipulées :
 
-* Dates
-* Géomarketing
+* Dates 
+* Géomarketing 
 * numériques
 * autres fonctions
 * des agrégats.
@@ -459,11 +459,6 @@ Ce tableau contient les autres fonctions disponibles.
    <td> <strong>SetBit</strong><br /> </td> 
    <td> Force le Flag dans la valeur<br /> </td> 
    <td> SetBit(&lt;identifiant&gt;, &lt;flag&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>SetVar</strong><br /> </td> 
-   <td> Définit une variable.<br /> </td> 
-   <td> SetVar(&lt;variable&gt;, &lt;expression&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
