@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
+source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
 
 ---
 
@@ -27,63 +27,67 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
 
-## Mises à jour de la documentation - Août 2019 {#doc-updates-august-2019}
+## Mises à jour de la documentation - août 2019 {#doc-updates-august-2019}
 
-Une procédure a été ajoutée dans la section Dépannage de processus sur la manière d'afficher les requêtes SQL dans l'onglet Journal. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+Une procédure a été ajoutée dans la section de dépannage du flux de travail sur la manière d'afficher les requêtes SQL dans l'onglet Journal. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 Un nouvel article d'aide a été ajouté, avec des informations relatives aux sous-domaines et à la gestion des certificats dans le Panneau de configuration. [En savoir plus](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+La section décrivant les modèles et les fragments de contenu a été mise à jour. [En savoir plus](../../start/using/about-templates.md#content-templates)
+
+Une nouvelle section sur la façon de sauvegarder le contenu de courriel comme modèle dans le concepteur de courriels a été ajoutée. [En savoir plus](../../start/using/about-templates.md#saving-content-as-template)
 
 ## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-19}
 
-Activité API externe (version bêta publique) - [En savoir plus](../../automating/using/external-api.md)
+Activité API externe (Beta publique) - [Lire la suite](../../automating/using/external-api.md)
 
-Rapport sur le segment de processus - [En savoir plus](../../reporting/using/creating-a-report-workflow-segment.md)
+Rapport sur le segment des flux de travail - [Lire la suite](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
 
-Le Guide de mise en œuvre standard de Campaign est maintenant disponible.[En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+Le Guide de mise en oeuvre de la campagne est maintenant en direct.[En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Un ensemble de nouveaux articles d'aide a été créé à propos de l'implémentation et de l'utilisation du connecteur Microsoft Dynamics 365. Notez que cette fonctionnalité se trouve actuellement dans la section Disponibilité limitée.[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Un ensemble de nouveaux articles d'aide a été créé sur la mise en œuvre et l'utilisation de connecteurs Microsoft Dynamics 365. Notez que cette fonctionnalité est actuellement en Disponibilité Limitée.[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-Une note a été ajoutée à l' [appel d'un flux de travail avec la section Paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) au sujet de la préparation de la remise et de leur période d'agrégation.
+Une note a été ajoutée dans [l'appel d'un workflow avec section paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) sur la préparation de la livraison et leur période d'agrégation.
 
-Des informations ont été ajoutées sur la personnalisation du libellé d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. [En savoir plus](../../automating/using/external-signal.md)
+Des informations ont été ajoutées sur la façon de personnaliser l'étiquette d'une livraison avec des variables d'événements qui ont été déclarées dans l'activité de signal externe du flux de travail. [En savoir plus](../../automating/using/external-signal.md)
 
-Une nouvelle section a été ajoutée, expliquant comment créer un utilisateur dans Adobe Campaign Standard. [En savoir plus](../../administration/using/users-management.md)
+Une nouvelle section a été ajoutée sur la façon de créer un utilisateur dans la norme de campagne Adobe. [En savoir plus](../../administration/using/users-management.md)
 
-Un nouvel article est désormais disponible avec des conseils pour simplifier les campagnes marketing, notamment des liens vers la documentation du produit et des vidéos de didacticiel.[En savoir plus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
+Un nouvel article est maintenant disponible avec des conseils pour simplifier les campagnes de marketing, y compris des liens vers la documentation du produit et les vidéos tutorielles.[En savoir plus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
-Un dépannage a été ajouté pour la création de rapports dynamiques. [En savoir plus](../../reporting/using/troubleshooting.md)
+Un dépannage a été ajouté pour Dynamic Reporting. [En savoir plus](../../reporting/using/troubleshooting.md)
 
-Un diagramme expliquant comment les différents modèles In-App traitent les informations personnelles a été ajouté. [En savoir plus](../../channels/using/preparing-and-sending-an-in-app-message.md)
+Un diagramme expliquant comment les différents modèles In-App traitent les renseignements personnels a été ajouté. [En savoir plus](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-La section relative à l'enregistrement du contenu de courrier électronique en tant que fragment dans le concepteur de courrier électronique a été mise à jour. [En savoir plus](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+La section sur la façon de sauvegarder le contenu de courriel en tant que fragment dans le concepteur email a été mise à jour. [En savoir plus](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
-Un avertissement a été ajouté sur la manière dont les espaces blancs supplémentaires peuvent avoir une incidence sur la disposition d'un contenu de courrier électronique. [En savoir plus](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+Un avertissement a été ajouté sur la façon dont les espaces blancs supplémentaires peuvent influer sur la présentation d'un contenu de courriel. [En savoir plus](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
 
-Une nouvelle section sur les mises à jour recommandées pour Designer Designer a été ajoutée. [En savoir plus](../../designing/using/about-email-content-design.md#email-designer-updates)
+Une nouvelle section sur les mises à jour recommandées a été ajoutée. [En savoir plus](../../designing/using/about-email-content-design.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
-Une nouvelle section sur les meilleures pratiques de flux de travail a été ajoutée. [En savoir plus](../../automating/using/best-practices-workflows.md)
+Une nouvelle section sur les pratiques exemplaires en matière de flux de travail a été ajoutée. [En savoir plus](../../automating/using/best-practices-workflows.md)
 
 Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Ajout d'un avertissement dans la documentation des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
+Ajout d'un avertissement dans la documentation sur les ressources personnalisées. Nous recommandons d'utiliser 30 caractères maximum pour les identifiants de ressources personnalisées. Cela vaut aussi pour les champs de ressources personnalisées, les clés, les index et les liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
-## Mises à jour de la documentation - Juillet 2019 {#doc-updates-2019}
+## Mises à jour de la documentation - juillet 2019 {#doc-updates-2019}
 
-Ajout d'une nouvelle page aux limites de la page d'entrée. [En savoir plus](../../channels/using/landing-page-limitations.md)
+Ajout d'une nouvelle page sur les limitations de page d'atterrissage. [En savoir plus](../../channels/using/landing-page-limitations.md)
 
-Un cas d'utilisation a été ajouté sur la manière d'appeler un profil à l'aide d'une clé d'identification composite. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
+Un cas d'utilisation a été ajouté sur la façon d'appeler un profil en utilisant une clé d'identification composite. [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
 
-Une recommandation a été ajoutée concernant l'utilisation de distributions récurrentes sans période d'agrégation lors de l'appel d'un flux de travail avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
+Une recommandation a été ajoutée concernant l'utilisation de livraisons récurrentes sans période d'agrégation lorsque l'on appelle un flux de travail avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Ajout d'un avertissement dans la documentation des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
+Ajout d'un avertissement dans la documentation sur les ressources personnalisées. Nous recommandons d'utiliser 30 caractères maximum pour les identifiants de ressources personnalisées. Cela vaut aussi pour les champs de ressources personnalisées, les clés, les index et les liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
