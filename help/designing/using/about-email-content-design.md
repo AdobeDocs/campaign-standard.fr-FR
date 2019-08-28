@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -128,27 +128,27 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 * Lors de l'édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d'email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d'informations sur les styles, voir [cette section](../../designing/using/editing-email-styles.md).
 
-### Mises à jour de Designer {#email-designer-updates}
+### Mises à jour {#email-designer-updates}
 
-Le concepteur de courrier électronique est en cours d'amélioration continue. Si vous avez créé un contenu par courrier électronique, depuis un modèle prêt à l'emploi ou si vous avez créé des fragments, vous pouvez obtenir le message de mise à jour suivant lors de l'ouverture suivante du contenu :
+Le concepteur de courriels est en constante amélioration. Si vous avez créé un contenu de courriel à partir de zéro, à partir d'un modèle hors de la boîte ou si vous avez créé des fragments, vous pouvez obtenir le message de mise à jour suivant la prochaine fois que vous ouvrez votre contenu :
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe recommande de mettre à jour votre contenu vers la dernière version afin d'éviter tout problème lié aux problèmes de collision CSS. Cliquez sur **[!UICONTROL Mettre à jour maintenant]**.
+Adobe recommande de mettre à jour votre contenu à la dernière version pour éviter des problèmes tels que les problèmes de collision CSS. Cliquez **[!UICONTROL sur Mettre à jour maintenant]**.
 
-Si une erreur se produit pendant la mise à jour du contenu, vérifiez votre code HTML et corrigez-le avant d'exécuter cette mise à jour.
+Si une erreur survient pendant la mise à jour du contenu, vérifiez votre HTML et corrigez-le avant de recommencer cette mise à jour.
 
-Pour les fragments, veuillez tenir compte des points suivants :
+En ce qui concerne les fragments, veuillez prendre note de ce qui suit :
 
-* Si vous souhaitez ajouter un fragment à un nouveau courrier électronique ou modèle et que vous obtenez ce message, vous devez d'abord mettre à jour ce fragment.
+* Si vous voulez ajouter un fragment à un nouveau courriel ou un nouveau modèle, et si vous obtenez ce message, vous devez d'abord mettre à jour ce fragment.
 
-* Si vous disposez de plusieurs fragments, vous devez mettre à jour chaque fragment que vous souhaitez utiliser dans un contenu de courriel.
+* Si vous avez plusieurs fragments, vous devez mettre à jour chaque fragment que vous souhaitez utiliser dans un contenu email.
 
-* Pour éviter tout impact sur les messages électroniques actuels qui ne sont pas encore préparés, vous pouvez choisir de ne pas mettre à jour certains fragments.
+* Pour éviter l'impact sur les messages électroniques actuels qui ne sont pas encore préparés, vous pouvez choisir de ne pas mettre à jour certains fragments.
 
-* Vous pouvez toujours envoyer des messages électroniques où un fragment qui n'est pas mis à jour est déjà utilisé, mais ce fragment n'est pas modifiable.
+* Vous pouvez toujours envoyer des emails où un fragment qui n'est pas mis à jour est déjà utilisé, mais ce fragment n'est pas modifiable.
 
-* La mise à jour des fragments utilisés dans les courriers électroniques déjà préparés n'a aucun impact sur ces courriers électroniques.
+* La mise à jour des fragments utilisés dans les courriels déjà préparés n'a aucun impact sur ces courriels.
 
 ## Concevoir entièrement un contenu d'email {#designing-an-email-content-from-scratch}
 
@@ -177,7 +177,7 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 * [Planification de l'envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
-* [Créer des courriels personnalisés sans avoir besoin de HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
+* [Créer des courriels personnalisés sans besoin de HTML](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## Concevoir un email à l'aide d'un contenu existant  {#designing-an-email-using-existing-contents}
 
@@ -387,10 +387,10 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Vous pouvez masquer un composant lorsqu'il est affiché sur un périphérique mobile. Pour ce faire, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques]** de bureau à partir des options **[!UICONTROL d'affichage]**.
-Vous pouvez également choisir de masquer ce composant sur les périphériques de bureau. Cela signifie qu'il s'affichera uniquement sur les périphériques mobiles. Pour ce faire, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques mobiles]**.
+1. Vous pouvez cacher un composant lorsqu'il est affiché sur un périphérique mobile. Pour cela, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques]** de bureau des options **[!UICONTROL Display]**.
+Vous pouvez aussi choisir de cacher ce composant sur les périphériques de bureau, ce qui signifie qu'il ne sera affiché que sur les périphériques mobiles. Pour cela, sélectionnez **[!UICONTROL Afficher uniquement sur les périphériques mobiles]**.
 Par exemple, cette option vous permet d'afficher une image spécifique sur les périphériques mobiles et une autre image sur les périphériques de bureau.
-Vous pouvez définir cette option à partir de la vue mobile ou de bureau.
+Vous pouvez choisir cette option à partir de la vue mobile ou bureau.
 
    ![](assets/email_designer_mobile_hide.png)
 
@@ -429,6 +429,10 @@ Vous pouvez définir cette option à partir de la vue mobile ou de bureau.
    La couleur de fond définie dans la vue de poste de travail est maintenant appliquée : elle devient grise (non vide).
 
    La seule exception concerne le paramètre **[!UICONTROL Couleur de bordure]**. Lorsqu'il est désactivé dans la vue mobile, aucune bordure n'est plus appliquée, même si une couleur de bordure est définie dans la vue de poste de travail.
+
+>[!NOTE]
+>
+>La vue mobile n'est pas disponible en [fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
 
 ## Texte simple et modes HTML  {#plain-text-and-html-modes}
 
