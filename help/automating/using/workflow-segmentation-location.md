@@ -15,7 +15,7 @@ context-tags: 'flux de travail, utilisation, requête, segmentation, livraison '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ Note : Pour atteindre toutes les personnes qui sont entrées Boston, n'ayant pas
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 1. Dans **[!UICONTROL Liste des segments]** sortants, cliquez **[!UICONTROL sur Ajouter un élément]** et cliquez ![](assets/edit_darkgrey-24px.png) pour créer un segment ciblant les gens dans la deuxième ville. Ici Chicago.
 1. Drag-and-Drop **[!UICONTROL Emplacement]** et sélectionnez **[!UICONTROL City]** avec l'opérateur **[!UICONTROL équivalent à]** et entrer **[!UICONTROL Chicago]** en valeur.
-
->[!NOTE]
->
->Pour atteindre toutes les personnes qui sont entrées Chicago, n'en pas à propos de l'affaire décoché l'option sensible de cas.
-
+1. Pour atteindre toutes les personnes qui sont entrées Chicago, n'en pas à propos de l'affaire décoché l'option sensible de cas.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 ## Creating an email delivery{#creating-an-email-delivery}
