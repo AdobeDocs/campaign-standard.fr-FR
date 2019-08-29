@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -28,6 +28,8 @@ Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
 
 ## Mises à jour de la documentation - août 2019 {#doc-updates-august-2019}
+
+Une nouvelle section avec des cas d'utilisation sur des flux de travail axés sur des requêtes a été ajoutée. [En savoir plus](../../automating/using/workflow-created-query-with-complement.md)
 
 Une procédure a été ajoutée dans la section de dépannage du flux de travail sur la manière d'afficher les requêtes SQL dans l'onglet Journal. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
