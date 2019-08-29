@@ -13,8 +13,8 @@ topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25fd443c580d83eb4de0a8becfcbae8f450525cb
+translation-type: tm+mt
+source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
 
 ---
 
@@ -26,17 +26,17 @@ Adobe Campaign vous permet de définir et de gérer les permissions attribuées 
 * **Les entités organisationnelles** : elles permettent de définir une hiérarchie de permissions sur les différents objets de la plate-forme (emails, workflows, modèles, utilisateurs, profils, etc.). Reportez-vous à la section [Entités organisationnelles](../../administration/using/organizational-units.md).
 * **Les rôles** : ensemble de droits unitaires qui permettent de définir les autorisations attribuées aux utilisateurs et groupes d'utilisateurs. Consultez la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
-   Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l'interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des rôles et des permissions](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l'interface et définissent leur accès aux différentes fonctionnalités. For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
->Les entités géographiques sont devenues obsolètes. Pour plus d'informations à ce propos, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
+>Les entités géographiques sont devenues obsolètes. Pour plus d'informations à ce propos, consultez [cette page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
 Les rôles, les groupes et les entités organisationnelles peuvent être gérés par l'administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Administration &gt; Utilisateurs &amp; sécurité]**.
 
 ![](assets/user_management_1.png)
 
-La gestion des utilisateurs s'effectue dans la console d'administration (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation à propos de la console d'administration](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html)).
+La gestion des utilisateurs s'effectue dans la console d'administration (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation à propos de la console d'administration](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 
