@@ -1,10 +1,10 @@
 ---
-product: adobe campaign
-sub-product: adobe campaign standard
-audience: utilisateur final
+product: campagne Adobe
+sub-product: norme de campagne Adobe
+audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
+source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
    + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Notes de mise à jour 2015-2016](rn/using/release-notes-2015-2016.md)
    + [Mises à jour de la documentation](rn/using/documentation-updates.md)
-+ Getting started {#getting-started}
++ Prise en main {#getting-started}
    + A propos d'Adobe Campaign {#about-adobe-campaign}
       + [Orchestration des campagnes](start/using/campaign-orchestration.md)
       + [Segmentation et ciblage](start/using/segmentation-and-targeting.md)
@@ -103,7 +103,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Messages de relance](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
       + [A propos des landing pages](channels/using/about-landing-pages.md)
-      + [Limites de la page d'entrée](channels/using/landing-page-limitations.md)
+      + [Limites des landing pages](channels/using/landing-page-limitations.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
       + [Partager une landing page](channels/using/sharing-a-landing-page.md)
       + [Réconciliation et stockage des données](channels/using/data-storage-and-reconciliation.md)
@@ -198,8 +198,8 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Ajouter des visualisations](reporting/using/adding-visualizations.md)
       + [Ajouter des composants](reporting/using/adding-components.md)
       + [Création d'une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Création d'un rapport basé sur des segments de processus](reporting/using/creating-a-report-workflow-segment.md)
-+ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
+      + [Création d'un rapport basé sur les segments de flux de travail](reporting/using/creating-a-report-workflow-segment.md)
++ Intégration avec Adobe Cloud {#integrating-with-adobe-cloud}
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Utilisation de Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [Intégration avec Experience Manager](integrating/using/integrating-with-experience-manager.md)
@@ -228,7 +228,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Test de vos triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques Triggers d'abandon](integrating/using/abandonment-triggers-use-cases.md)
-+ Managing processes and data {#managing-processes-and-data}
++ Gestion des processus et des données {#managing-processes-and-data}
    + Workflows et gestion des données {#about-workflows-and-data-management}
       + [Données de workflow et processus](automating/using/workflow-data-and-processes.md)
       + [Présentation des workflows](automating/using/discovering-workflows.md)
@@ -241,7 +241,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Utiliser les données de workflow](automating/using/using-workflow-data.md)
       + [Exécuter un workflow](automating/using/executing-a-workflow.md)
       + [Appeler un workflow avec des paramètres externes](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Meilleures pratiques du flux de travail](automating/using/best-practices-workflows.md)
+      + [pratiques exemplaires](automating/using/best-practices-workflows.md)
    + Activités de ciblage {#targeting-activities}
       + [A propos des activités de ciblage](automating/using/about-targeting-activities.md)
       + [Requête](automating/using/query.md)
@@ -265,11 +265,11 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Test](automating/using/test.md)
    + Activités des canaux {#channel-activities}
       + [A propos des activités des canaux](automating/using/about-channel-activities.md)
-      + [Diffusion Email](automating/using/email-delivery.md)
+      + [Diffusion Email ](automating/using/email-delivery.md)
       + [Diffusion SMS](automating/using/sms-delivery.md)
-      + [Diffusion Notification push](automating/using/push-notification-delivery.md)
+      + [Diffusion Notification push ](automating/using/push-notification-delivery.md)
       + [Diffusion courrier](automating/using/direct-mail-delivery.md)
-      + [Diffusion In-App](automating/using/in-app-delivery.md)
+      + [Diffusion In-App ](automating/using/in-app-delivery.md)
    + Activités de Data Management {#data-management-activities}
       + [A propos des activités de Data Management](automating/using/about-data-management-activities.md)
       + [Mise à jour de données](automating/using/update-data.md)
@@ -290,13 +290,19 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
+   + Cas d'utilisation : flux de travail {#workflow-use-case}
+      + [Créer des livraisons avec un complément](automating/using/workflow-created-query-with-complement.md)
+      + [Création de livraisons à la date de création](automating/using/workflow-creation-date-query.md)
+      + [Création d'une livraison hebdomadaire](automating/using/workflow-weekly-offer.md)
+      + [Créer une segmentation sur place](automating/using/workflow-segmentation-location.md)
+      + [Retargeting non ouvert](automating/using/workflow-cross-channel-retargeting.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
       + [Statuts des ressources](developing/using/resource-statuses.md)
       + [Contrôle des modifications du modèle de données](developing/using/monitoring-data-model-changes.md)
    + Ajouter ou étendre une ressource {#adding-or-extending-a-resource}
-      + [Procédure clé pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
+      + [Étapes clés pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
       + [Configuration de la structure de données de la ressource](developing/using/configuring-the-resource-s-data-structure.md)
       + [Configuration de la définition d'écran](developing/using/configuring-the-screen-definition.md)
@@ -316,7 +322,7 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
    + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
-      + [Gestion des utilisateurs](administration/using/users-management.md)
+      + [gestion des utilisateurs](administration/using/users-management.md)
       + [Entités organisationnelles](administration/using/organizational-units.md)
       + [Liste des rôles](administration/using/list-of-roles.md)
       + [Gestion des groupes et des utilisateurs](administration/using/managing-groups-and-users.md)
