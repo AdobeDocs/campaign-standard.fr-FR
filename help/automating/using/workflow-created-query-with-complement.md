@@ -15,7 +15,7 @@ context-tags: flux de travail, utilisation, segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ Vous pouvez envoyer un courriel aux clients : un pour les clients créés il y a
 1. Hover sur le segment puis cliquez ![](assets/edit_darkgrey-24px.png) sur les clients ciblés ajoutés cette année dans la base de données.
 1. **[!UICONTROL Profils de Drag-and-Drop]** et Sélection **[!UICONTROL avec]** le type de filtre **[!UICONTROL Relatif]**.
 1. Changer le **[!UICONTROL niveau de précision]** à **[!UICONTROL l'année]** et sélectionner **[!UICONTROL cette année]**.
-
->[!NOTE]
->
->Pour observer la structure de la règle, cliquez sur **[!UICONTROL Mode avancé]**.
-
 1. Cliquez **[!UICONTROL sur Confirmer]** deux fois.
 1. Dans **[!UICONTROL les options avancées]**, vérifiez **[!UICONTROL Générer un complément]** pour créer un segment ciblant les autres bénéficiaires.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+>[!NOTE]
+>
+>Pour observer la structure de la règle, cliquez sur **[!UICONTROL Mode avancé]**.
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ Vous pouvez envoyer un courriel aux clients : un pour les clients créés il y a
 1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL le designer Email]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre email avec des offres spécifiques à chaque livraison.
-
-Pour plus d'informations, reportez-vous [à la conception d'un courriel](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-
 1. Cliquez **[!UICONTROL sur Aperçu]** pour vérifier votre disposition.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+Pour plus d'informations, reportez-vous [à la conception d'un courriel](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
 
 **Rubriques connexes :**
 
