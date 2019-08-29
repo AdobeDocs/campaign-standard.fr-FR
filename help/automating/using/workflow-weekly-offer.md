@@ -15,7 +15,7 @@ context-tags: flux de travail, utilisation, requête, livraison, planificateur
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ Vous pouvez envoyer un email chaque mardi à tous les clients pour les offres sp
 1. Sélectionnez **[!UICONTROL un temps]** et une **[!UICONTROL fréquence de répétition]** pour vos livraisons.
 1. Dans **[!UICONTROL les jours de la semaine]**, sélectionnez **[!UICONTROL Mardi]**.
 1. Spécifiez un **[!UICONTROL paramètre Start]** et **[!UICONTROL un]** paramètre d'expiration pour votre flux de travail.
+1. Validez votre activité et sauvegardez votre workflow.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >Pour démarrer votre flux de travail dans une zone **** temporelle **[!UICONTROL spécifique, dans]** l'onglet Options d'exécution, installez le fuseau horaire pour votre programmeur dans le champ Time Zone.
-
-1. Validez votre activité et sauvegardez votre workflow.
 
 ## Creating a Query activity{#creating-a-query-activity}
 
