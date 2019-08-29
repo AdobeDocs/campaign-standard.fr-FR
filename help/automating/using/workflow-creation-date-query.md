@@ -15,7 +15,7 @@ context-tags: flux de travail, utilisation, requête
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ Vous pouvez envoyer une offre par courriel à l'anniversaire de la création du 
 1. Dans **[!UICONTROL la fréquence d'exécution]**, sélectionnez **[!UICONTROL Daily]**.
 1. Sélectionnez **[!UICONTROL un temps]** et la **[!UICONTROL fréquence de répétition]** de l'exécution pour votre flux de travail.
 1. Sélectionnez la **[!UICONTROL date de début]** et **[!UICONTROL l'expiration]** de votre flux de travail.
+1. Validez votre activité et sauvegardez votre workflow.
 
 >[!NOTE]
 >
 >Pour commencer votre flux de travail à une fuseau horaire **[!UICONTROL spécifique, dans]** l'onglet Options d'exécution, installez le fuseau horaire pour votre programmeur dans le champ **[!UICONTROL Time Zone]**.
 
 ![](assets/time_zone.png)
-
-1. Validez votre activité et sauvegardez votre workflow.
 
 ## Creating a Query activity {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ Cliquez sur **[!UICONTROL Confirmer]**.
 1. Dans l'éditeur **[!UICONTROL de requêtes]** , sélectionnez la première requête et répétez-le.
 1. Ouvrez le duplicata.
 1. Remplacer **[!UICONTROL Day]** par **[!UICONTROL mois]** dans la requête.
-Vous devriez finir avec ceci :
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 ![](assets/month_rule.png)
+
+Vous devriez finir avec ceci :
+
+``` Month(@created) = Month(GetDate()) ```
 
 La requête finale affiche :
 
