@@ -3,17 +3,17 @@ title: 'Création d''un formulaire Campaign dans Experience Manager '
 seo-title: 'Création d''un formulaire Campaign dans Experience Manager '
 description: 'Création d''un formulaire Campaign dans Experience Manager '
 seo-description: Avec l'intégration d'Adobe Experience Manager, vous pouvez concevoir des formulaires directement dans AEM afin de créer et mettre à jour des profils ou gérer des abonnements.
-page-status-flag: jamais activé
-uuid: 43057 f 81-d 47 d -4 b 96-b 150-217 c 289 cd 608
+page-status-flag: never-activated
+uuid: 43057f81-d47d-4b96-b150-217c289cd608
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: intégration
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: integrating
+content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-discoiquuid: 4 a 8 b 5807-87 dd -4 db 4-bd 67-890 f 0 adae 932
+discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
@@ -29,11 +29,11 @@ Pour créer un formulaire Adobe Campaign sur votre site AEM :
 
    ![](assets/aem_content_forms.png)
 
-1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]correspondant à votre instance Adobe Campaign.**
+1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]** correspondant à votre instance Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Sélectionnez le type de formulaire à partir du composant **[!UICONTROL Début du formulaire] :**
+1. Sélectionnez le type de formulaire à partir du composant **[!UICONTROL Début du formulaire]** :
 
    * **Adobe Campaign : enregistrer le profil**
    * **Adobe Campaign : s'abonner aux services**
@@ -42,4 +42,4 @@ Pour créer un formulaire Adobe Campaign sur votre site AEM :
 1. Editez le contenu du formulaire en ajoutant différents champs et composants que vous pouvez mapper aux champs de la base Adobe Campaign.
 1. Testez et publier le formulaire afin de le rendre accessible sur votre site AEM.
 
-Pour plus d'informations, consultez la [documentation détaillée](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/adobe-campaign-forms.html).
+Pour plus d'informations, consultez la [documentation détaillée](https://helpx.adobe.com/fr/experience-manager/6-2/sites/authoring/using/adobe-campaign-forms.html).
