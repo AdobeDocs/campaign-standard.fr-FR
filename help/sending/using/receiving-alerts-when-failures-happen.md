@@ -3,17 +3,17 @@ title: Recevoir des alertes en cas d'échec
 seo-title: Recevoir des alertes en cas d'échec
 description: Recevoir des alertes en cas d'échec
 seo-description: Découvrez comment utiliser le système de gestion des alertes.
-page-status-flag: jamais activé
-uuid: a 3 ab 733 a-e 3 db -4 adc-b 930-cd 4064 b 6 dc 1 c
+page-status-flag: never-activated
+uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
-topic-tags: surveillance-messages
-discoiquuid: 0766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
+discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
@@ -45,8 +45,8 @@ Ces notifications d'alerte peuvent être personnalisées selon des critères d'a
 
 Les notifications envoyées contiennent les éléments suivants :
 
-* Une **[!UICONTROL Synthèse]indiquant le nombre de diffusions répondant aux critères définis et le libellé/la couleur choisis pour chaque critère.**
-* Une section **[!UICONTROL Détails]répertoriant tous les critères de diffusion définis pour le tableau de bord correspondant et toutes les diffusions pour chaque critère.**
+* Une **[!UICONTROL Synthèse]** indiquant le nombre de diffusions répondant aux critères définis et le libellé/la couleur choisis pour chaque critère.
+* Une section **[!UICONTROL Détails]** répertoriant tous les critères de diffusion définis pour le tableau de bord correspondant et toutes les diffusions pour chaque critère.
 
 ![](assets/delivery-alerting_notification.png)
 
@@ -71,7 +71,7 @@ Depuis l'interface d'Adobe Campaign, vous pouvez :
 
 * Accéder à l'historique de toutes les alertes envoyées pour chaque tableau de bord.
 
-   Lorsque vous sélectionnez un tableau de bord, la dernière alerte envoyée associée à celui-ci s'affiche par défaut. Toutes les alertes envoyées sont répertoriées dans la partie gauche de l'écran. Cliquez sur un élément dans la liste **[!UICONTROL Historique]pour accéder aux alertes correspondantes.**
+   Lorsque vous sélectionnez un tableau de bord, la dernière alerte envoyée associée à celui-ci s'affiche par défaut. Toutes les alertes envoyées sont répertoriées dans la partie gauche de l'écran. Cliquez sur un élément dans la liste **[!UICONTROL Historique]** pour accéder aux alertes correspondantes.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -79,26 +79,26 @@ Depuis l'interface d'Adobe Campaign, vous pouvez :
 
 Si vous souhaitez envoyer des notifications selon des critères spécifiques à différents groupes d'utilisateurs, vous devez utiliser plusieurs tableaux de bord. Pour créer un tableau de bord :
 
-1. Go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**.
+1. Accédez à **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Alertes de diffusion]**.
 1. Sélectionnez **[!UICONTROL Tableaux de bord des alertes de diffusion]** et cliquez sur **[!UICONTROL Créer]**.
-1. Cochez la case **[!UICONTROL Activé]pour activer le tableau de bord en cours.**
+1. Cochez la case **[!UICONTROL Activé]** pour activer le tableau de bord en cours.
 
    Si cette option est désactivée, les notifications associées à ce tableau de bord ne sont plus envoyées. Par défaut, cette option est désactivée.
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. Sélectionnez le groupe de destinataires que vous souhaitez avertir dans la liste déroulante **[!UICONTROL Groupe d'alertes.]** Pour créer ou modifier un groupe, consultez la section [Créer un groupe de sécurité et affecter des utilisateurs](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. Dans la section **[!UICONTROL Critères des alertes de diffusion]**, cliquez sur **Créer un élément]pour ajouter des critères.[!UICONTROL ** Voir [À propos des critères des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés.]** Dans l'onglet **[!UICONTROL Paramètres des critères], définissez comment les critères seront appliqués.** Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
-1. Cliquez sur **[!UICONTROL Créer]pour enregistrer le tableau de bord.**
+1. Sélectionnez le groupe de destinataires que vous souhaitez avertir dans la liste déroulante **[!UICONTROL Groupe d'alertes]**. Pour créer ou modifier un groupe, consultez la section [Créer un groupe de sécurité et affecter des utilisateurs](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
+1. Dans la section **[!UICONTROL Critères des alertes de diffusion]**, cliquez sur **[!UICONTROL Créer un élément]** pour ajouter des critères. Voir [À propos des critères des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]**. Dans l'onglet **[!UICONTROL Paramètres des critères]**, définissez comment les critères seront appliqués. Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le tableau de bord.
 
 Désormais, dès qu'une diffusion répond aux critères définis dans ce tableau de bord, une notification d'alerte est envoyée aux groupes d'utilisateurs indiqués.
 
-## Critères des alertes de diffusion {#delivery-alerting-criteria}
+## Critères des alertes de diffusion   {#delivery-alerting-criteria}
 
 ### A propos des critères des alertes de diffusion {#about-alerting-criteria}
 
-To access the delivery alerting criteria, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]** and select **[!UICONTROL Delivery alerting criteria]**.
+Pour accéder aux critères des alertes de diffusion, cliquez sur **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Alertes de diffusion]** et sélectionnez **[!UICONTROL Critères des alertes de diffusion]**.
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -106,23 +106,23 @@ Les critères suivants peuvent être utilisés dans les tableaux de bord des ale
 
 * **[!UICONTROL Diffusions en échec]** : toute diffusion planifiée sur une période définie, ayant un statut en erreur.
 * **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l'étape de préparation (calcul de la cible et génération du contenu) n'a pas réussi. Voir à ce propos la section [Préparer l'envoi](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Diffusion avec un taux d'erreur incorrect pour les rebonds soft]**: Toute livraison planifiée dans une plage définie, avec un état au moins **[!UICONTROL En cours]**, avec un rapport d'erreur de rebond soft supérieur à un pourcentage défini.
-* **[!UICONTROL Diffusion avec un taux d'erreur incorrect pour les rebonds durs]**: Toute livraison planifiée dans une plage définie, avec un état au moins **[!UICONTROL En cours]**, avec un rapport d'erreur de rebond hard supérieur à un pourcentage défini.
-* **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée. Le statut **Démarrage en attente]signifie que les messages n'ont pas encore été pris en compte par le système.[!UICONTROL **
+* **[!UICONTROL Diffusion avec taux de soft bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de soft bounces est supérieur à un pourcentage défini.
+* **[!UICONTROL Diffusion avec taux de hard bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de hard bounces est supérieur à un pourcentage défini.
+* **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n'ont pas encore été pris en compte par le système.
 * **[!UICONTROL Diffusions avec faible débit]** : toute diffusion ayant démarré depuis plus longtemps qu'une durée définie, avec un pourcentage de messages traités inférieur à un pourcentage défini et un débit inférieur à une valeur définie.
-* **[!UICONTROL Diffusions en cours]** :toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL En cours].**
+* **[!UICONTROL Diffusions en cours]** :toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL En cours]**.
 
 >[!NOTE]
 >
->Tous les paramètres s'appliquant aux critères ci-dessus possèdent des valeurs par défaut. Ces valeurs peuvent être modifiées dans l'onglet **[!UICONTROL Paramètres des critères]des tableaux de bord des alertes de diffusion.** Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>Tous les paramètres s'appliquant aux critères ci-dessus possèdent des valeurs par défaut. Ces valeurs peuvent être modifiées dans l'onglet **[!UICONTROL Paramètres des critères]** des tableaux de bord des alertes de diffusion. Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
 
-Vous pouvez sélectionner n'importe quel élément dans la liste **[!UICONTROL Critères des alertes de diffusion]pour accéder à ses détails.**
+Vous pouvez sélectionner n'importe quel élément dans la liste **[!UICONTROL Critères des alertes de diffusion]** pour accéder à ses détails.
 
 ![](assets/delivery-alerting_criteria_definition.png)
 
 Pour chaque critère, vous pouvez définir les paramètres suivants :
 
-* **[!UICONTROL Indicateurs à ajouter dans les alertes]**, c'est-à-dire les colonnes qui apparaîtront dans la section **[!UICONTROL Détails]de la notification pour les diffusions correspondant au critère sélectionné.**
+* **[!UICONTROL Indicateurs à ajouter dans les alertes]**, c'est-à-dire les colonnes qui apparaîtront dans la section **[!UICONTROL Détails]** de la notification pour les diffusions correspondant au critère sélectionné.
 
    ![](assets/delivery-alerting_notification_colums.png)
 
@@ -138,28 +138,28 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
 * [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Fréquence des alertes](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
-* [Icônes et statuts des activités marketing](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Créer un critère d'alerte de diffusion {#creating-a-delivery-alerting-criterion}
+### Créer un critère d'alerte de diffusion   {#creating-a-delivery-alerting-criterion}
 
 Vous pouvez créer des critères d'alerte de diffusion en fonction de vos besoins.
 
-Vous pouvez par exemple créer un critère qui permet l'envoi d'une notification répertoriant toutes les diffusions ayant le statut **[!UICONTROL Terminé].**
+Vous pouvez par exemple créer un critère qui permet l'envoi d'une notification répertoriant toutes les diffusions ayant le statut **[!UICONTROL Terminé]**.
 
-Pour cela, vous devez d'abord étendre la ressource **Diffusion** et ajouter un nouveau filtre permettant de sélectionner uniquement les diffusions ayant le statut **[!UICONTROL Terminé].**
+Pour cela, vous devez d'abord étendre la ressource **Diffusion** et ajouter un nouveau filtre permettant de sélectionner uniquement les diffusions ayant le statut **[!UICONTROL Terminé]**.
 
 1. Accédez à **Adobe Campaign** &gt; **Administration** &gt; **Développement** &gt; **Ressources personnalisées** et cliquez sur **[!UICONTROL Créer]**.
-1. Sélectionnez **[!UICONTROL Etendre une ressource existante]**, sélectionnez la ressource **[!UICONTROL Diffusion]dans la liste déroulante et cliquez sur** Créer] pour l'éditer.**[!UICONTROL **
+1. Sélectionnez **[!UICONTROL Etendre une ressource existante]**, sélectionnez la ressource **[!UICONTROL Diffusion]** dans la liste déroulante et cliquez sur **[!UICONTROL Créer]** pour l'éditer.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
    Pour plus d'informations sur l'extension d'une ressource existante, voir [Définir la ressource](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Dans la ressource **[!UICONTROL Diffusion]**, accédez à l'onglet **[!UICONTROL Définition des filtres]et cliquez sur** Ajouter un élément] pour créer un filtre.**[!UICONTROL **
+1. Dans la ressource **[!UICONTROL Diffusion]**, accédez à l'onglet **[!UICONTROL Définition des filtres]** et cliquez sur **[!UICONTROL Ajouter un élément]** pour créer un filtre.
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Editez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l'élément **[!UICONTROL Statut]dans l'espace de travail et sélectionnez** Terminé] en tant que condition de filtre.**[!UICONTROL **
+1. Editez la définition du nouveau filtre : dans la fenêtre **[!UICONTROL Définition des filtres]**, placez l'élément **[!UICONTROL Statut]** dans l'espace de travail et sélectionnez **[!UICONTROL Terminé]** en tant que condition de filtre.
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -169,8 +169,8 @@ Pour cela, vous devez d'abord étendre la ressource **Diffusion** et ajouter un 
 
    Le filtre est créé. Il peut maintenant être sélectionné dans un nouveau critère d'alerte de diffusion.
 
-1. Go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**, select **[!UICONTROL Delivery alerting criteria]** and click **[!UICONTROL Create]**.
-1. Dans la liste déroulante **[!UICONTROL Filtre de diffusion appliqué par ce critère], sélectionnez le filtre que vous venez de créer.**
+1. Accédez à **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Alertes de diffusion]**, sélectionnez **[!UICONTROL Critères des alertes de diffusion]** et cliquez sur **[!UICONTROL Créer]**.
+1. Dans la liste déroulante **[!UICONTROL Filtre de diffusion appliqué par ce critère]**, sélectionnez le filtre que vous venez de créer.
 
    ![](assets/delivery-alerting_cus-filter.png)
 
@@ -184,7 +184,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres crit�
 
 [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Paramètres des alertes de diffusion {#delivery-alerting-parameters}
+## Paramètres des alertes de diffusion   {#delivery-alerting-parameters}
 
 ### Paramètres des critères {#criteria-parameters}
 
@@ -205,23 +205,23 @@ Dans l'onglet **[!UICONTROL Paramètres des critères]** d'un [tableau de bord d
 
    Pour plus d'informations sur les hard bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Limite de durée minimale pour une diffusion ayant le statut 'Démarrage en attente' (en minutes)]** : une notification est envoyée pour toutes les diffusions ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée dans le champ. Le statut **Démarrage en attente]signifie que les messages n'ont pas encore été pris en compte par le système.[!UICONTROL **
-* **[!UICONTROL Délai minimal (en minutes) nécessaire pour le calcul du débit]** : seules les diffusions ayant démarré (avec le statut **[!UICONTROL En cours]**) depuis plus longtemps que la durée spécifiée sont prises en compte pour le critère **Diffusions avec faible débit[!UICONTROL .]**
-* **[!UICONTROL Pourcentage maximal des messages traités pour le calcul du débit]** : seules les diffusions dont le pourcentage de messages traités est inférieur au pourcentage spécifié sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit].**
-* **[!UICONTROL Débit minimal attendu (dans les messages envoyés par heure)]** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit].**
+* **[!UICONTROL Limite de durée minimale pour une diffusion ayant le statut 'Démarrage en attente' (en minutes)]** : une notification est envoyée pour toutes les diffusions ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée dans le champ. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n'ont pas encore été pris en compte par le système.
+* **[!UICONTROL Délai minimal (en minutes) nécessaire pour le calcul du débit]** : seules les diffusions ayant démarré (avec le statut **[!UICONTROL En cours]**) depuis plus longtemps que la durée spécifiée sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit]**.
+* **[!UICONTROL Pourcentage maximal des messages traités pour le calcul du débit]** : seules les diffusions dont le pourcentage de messages traités est inférieur au pourcentage spécifié sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit]**.
+* **[!UICONTROL Débit minimal attendu (dans les messages envoyés par heure)]** : seules les diffusions dont le débit est inférieur à la valeur spécifiée sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit]**.
 * **[!UICONTROL Taux de traitement minimal requis pour le critère 'Diffusions en cours']** : seules les diffusions dont le pourcentage de messages traités est supérieur au pourcentage spécifié sont prises en compte.
 
 ### Fréquence des alertes {#alerting-frequency}
 
-L'option **[!UICONTROL Fréquence des alertes de diffusion]permet de définir le délai entre deux envois d'alerte.** Par défaut, elle est définie sur 10 minutes.
+L'option **[!UICONTROL Fréquence des alertes de diffusion]** permet de définir le délai entre deux envois d'alerte. Par défaut, elle est définie sur 10 minutes.
 
-You can change this setting through the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+Vous pouvez changer ce paramètre dans le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Options]**.
 
 >[!NOTE]
 >
 >Cette option s'applique à tous les tableaux de bord définis dans Adobe Campaign. Vous ne pouvez pas définir une fréquence spécifique pour chaque tableau de bord.
 
-## Motifs des alertes de diffusion {#delivery-alerting-reasons}
+## Motifs des alertes de diffusion   {#delivery-alerting-reasons}
 
 La fonctionnalité **Alertes de diffusion** maintient automatiquement informés tous les utilisateurs actifs d'Adobe Campaign en ce qui concerne le statut d'exécution des diffusions, par email ou par le biais d'un tableau de bord.
 
@@ -229,7 +229,7 @@ Lorsque vous recevez une notification d'alerte de diffusion, voici ce que vous p
 
 Tout d'abord, consultez l'onglet **Log** de la diffusion pour afficher toutes les informations relatives à la diffusion et aux BAT. Les icônes rouge et jaune permettent de repérer les erreurs ou avertissements. L'icône rouge indique une erreur critique qui empêche le démarrage de la diffusion.
 
-Pour afficher l'historique de chaque occurrence d'une diffusion, sélectionnez l'onglet **[!UICONTROL Envois].** Il contient la liste des messages envoyés et leur statut. There you can check the delivery status for each recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). Pour plus d'informations à ce sujet, voir [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Pour afficher l'historique de chaque occurrence d'une diffusion, sélectionnez l'onglet **[!UICONTROL Envois]**. Il contient la liste des messages envoyés et leur statut. Vous pouvez y vérifier l'état de la diffusion pour chaque destinataire (**[!UICONTROL Envoyé]**, **[!UICONTROL En attente]**, **[!UICONTROL En échec]**, etc.). Pour plus d'informations à ce sujet, voir [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Vous trouverez ci-dessous quelques raisons possibles de la réception de notifications d'alerte lorsque les critères d'une diffusion sont respectés.
 
@@ -249,13 +249,13 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * La diffusion dépasse la taille limite.
    Voir à ce propos la section [Préparer l'envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l'analyse des messages. Voir [Règles de contrôle](../../administration/using/control-rules.md).
 
-* Les causes possibles d'une alerte **[!UICONTROL Diffusion avec taux d'erreurs soft incorrect]peuvent être les suivantes :**
+* Les causes possibles d'une alerte **[!UICONTROL Diffusion avec taux d'erreurs soft incorrect]** peuvent être les suivantes :
 
    * Le serveur du destinataire est en panne.
    * La boîte de messagerie du destinataire est pleine.
-   Pour plus d'informations, consultez les onglets **[!UICONTROL Exclus]** et **Exclusions appliquées]des logs de diffusion.[!UICONTROL ** Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+   Pour plus d'informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Les causes possibles d'une alerte **[!UICONTROL Diffusion avec taux d'erreurs hard incorrect]peuvent être les suivantes :**
+   Les causes possibles d'une alerte **[!UICONTROL Diffusion avec taux d'erreurs hard incorrect]** peuvent être les suivantes :
 
    * Le destinataire est blacklisté, ce qui signifie qu'il ne souhaite plus être contacté.
    * L'adresse email du destinataire n'existe pas.
@@ -265,7 +265,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l'analyse de la diffusion. Voir [Créer une règle de filtrage](../../administration/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [A propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
+   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
 
 
 
