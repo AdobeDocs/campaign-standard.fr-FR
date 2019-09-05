@@ -3,18 +3,18 @@ title: Tableau de bord des messages
 seo-title: Tableau de bord des messages
 description: Tableau de bord des messages
 seo-description: Découvrez la composition du tableau de bord d'un message, notamment la barre d'actions et les différents blocs fonctionnels.
-page-status-flag: jamais activé
-uuid: 9 bb 44 ee 8-2 cf 6-43 ce -94 a 4-367 f 4 e 469713
+page-status-flag: never-activated
+uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90 a 78742-697 f -46 da -8 c 54-108048 e 57 b 67
-context-tags: livraison, principale
+discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
+context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
@@ -26,7 +26,7 @@ Le tableau de bord d'un message est un espace de travail composé de différente
 
 ![](assets/delivery_dashboard_2.png)
 
-## Barre grise {#gray-bar}
+## Barre grise   {#gray-bar}
 
 La barre grise regroupe différentes icônes en lien avec votre message.
 
@@ -51,7 +51,7 @@ Selon les paramètres renseignés et l'avancement du processus de création, cer
 
    Pour plus d'informations sur les bons à tirer, voir la section [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-* **[!UICONTROL Envoyer un test]**: vous permet de sélectionner le mode d'approbation à utiliser : **[!UICONTROL Rendu par courrier électronique]**, **[!UICONTROL Preuve]** ou les deux pour un courriel. Pour plus d'informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* **[!UICONTROL Envoyer un test]** : permet de sélectionner le mode de validation à utiliser : **[!UICONTROL Rendu des emails]**, **[!UICONTROL Bon à tirer]** ou les deux pour un email. Pour plus d'informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
 
    Ce bouton n'est actif que lorsque vous avez défini des profils de test.
 
@@ -59,15 +59,15 @@ Selon les paramètres renseignés et l'avancement du processus de création, cer
    >
    >Dans le cas d'un SMS, ce choix n'est pas possible : il s'agit automatiquement d'un **[!UICONTROL Bon à tirer]**.
 
-* **[!UICONTROL Préparer l'envoi]** : lance la préparation de l'envoi. Le bloc **[!UICONTROL Déploiement]apparaît et affiche le résultat de la préparation.** Ce bouton n'apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant.
+* **[!UICONTROL Préparer l'envoi]** : lance la préparation de l'envoi. Le bloc **[!UICONTROL Déploiement]** apparaît et affiche le résultat de la préparation. Ce bouton n'apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant.
 
    Pour plus d'informations sur la préparation, voir la section [Préparer l'envoi](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirmer l'envoi]** : confirme l'envoi définitif du message. Le résultat de l'envoi apparaît dans le bloc **[!UICONTROL Déploiement.]** Ce bouton n'apparaît qu'après la préparation de l'envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l'envoi à l'aide des boutons **Arrêter l'envoi** et **[!UICONTROL Mettre en pause].**
+* **[!UICONTROL Confirmer l'envoi]** : confirme l'envoi définitif du message. Le résultat de l'envoi apparaît dans le bloc **[!UICONTROL Déploiement]**. Ce bouton n'apparaît qu'après la préparation de l'envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l'envoi à l'aide des boutons **Arrêter l'envoi** et **[!UICONTROL Mettre en pause]**.
 
    Pour plus d'informations sur la validation d'un envoi, voir la section [Envoyer les messages](../../sending/using/confirming-the-send.md).
 
-## Blocs {#blocks}
+## Blocs   {#blocks}
 
 L'écran principal est composé de différents blocs. Cliquez dans un bloc pour accéder à l'écran de paramètres correspondant :
 
