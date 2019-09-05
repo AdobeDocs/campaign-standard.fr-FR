@@ -1,120 +1,120 @@
 ---
-title: Création d'un rapport basé sur des segments de processus
-seo-title: Création d'un rapport basé sur des segments de processus
-description: Création d'un rapport basé sur des segments de processus
-seo-description: Découvrez comment vérifier la réussite de votre diffusion en fonction des segments de vos flux de travail dans vos rapports.
-page-status-flag: jamais activé
-uuid: f 75 e 005 b -5328-4 c 98-9 e 78-51 d 54 fd 0 e 246
+title: Création d'un rapport à partir de segments de workflow
+seo-title: Création d'un rapport à partir de segments de workflow
+description: Création d'un rapport à partir de segments de workflow
+seo-description: Découvrez comment vérifier le succès de votre diffusion en fonction des segments de vos workflows dans vos rapports.
+page-status-flag: never-activated
+uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: beneat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: personnalisation des rapports
-discoiquuid: b 6 d 3 de 63-3 add -4881-8917-04 a 6 f 8 b 6 be 4 d
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
+discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
 
-# Creating a report based on workflow segments{#creating-a-report-workflow-segment}
+# Création d'un rapport à partir des segments de workflow{#creating-a-report-workflow-segment}
 
-Après avoir créé un flux de travail et filtré votre population en une audience ciblée différente, vous pouvez mesurer l'efficacité de vos campagnes marketing en fonction des segments définis dans ce processus de ciblage.
-Pour cibler ces segments dans vos rapports :
+Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l'efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
+Pour cibler ces segments dans vos rapports :
 
-* [Étape 1 : Mise à jour des ressources personnalisées avec les segments](#step-1--update-profiles-custom-resource-segments)
-* [Étape 2 : Création d'un processus avec des segments](#step-2--create-a-workflow-segments)
-* [Étape 3 : Création d'un rapport dynamique pour filtrer les segments](#step-3--create-a-dynamic-report-filter-segments)
+* [Etape 1 : mise à jour de la ressource personnalisée Profils avec les segments](#step-1--update-profiles-custom-resource-segments)
+* [Etape 2 : création d'un workflow avec des segments](#step-2--create-a-workflow-segments)
+* [Etape 3 : création d'un rapport dynamique pour filtrer les segments](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
->L'accord d'utilisation dynamique des rapports doit être accepté pour commencer à collecter ces données.
->For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+>Le contrat d'utilisation des rapports dynamiques doit être accepté pour commencer à collecter ces données.
+>Pour plus d'informations sur ce contrat, consultez [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Step 1: Update Profiles custom resource with segments{#step-1--update-profiles-custom-resource-segments}
+## Etape 1 : mise à jour de la ressource personnalisée Profils avec les segments{#step-1--update-profiles-custom-resource-segments}
 
-Before reporting on your segment code, you need to update your **[!UICONTROL Profiles]** custom resource for your segment codes to be stored.
+Avant de créer des rapports sur le code segment, vous devez mettre à jour la ressource personnalisée **[!UICONTROL Profils]** pour que les codes segment soient stockés.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
-1. In the **[!UICONTROL Sending logs extension]** menu from the **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** to allow storage of your segment codes from targeting workflows and to send it to dynamic reporting.
+1. Dans le menu avancé, (via le logo Adobe Campaign), sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Développement]** &gt; Ressources personnalisées ****, puis sélectionnez la ressource **[!UICONTROL Profil (profil)]**.
+1. Dans le menu **[!UICONTROL Extension des logs d'envoi]**, à partir de l'onglet **[!UICONTROL Structure de données]**, cochez la case **[!UICONTROL Ajouter un code segment]** pour permettre le stockage de vos codes segment à partir des workflows de ciblage et pour les envoyer aux rapports dynamiques.
 
-   The **[!UICONTROL Segment code]** will then be available in the **[!UICONTROL Profile]** dimension section of your report.
+   Le **[!UICONTROL Code segment]** sera ensuite disponible dans la section de dimension **[!UICONTROL Profil]** de votre rapport.
 
    ![](assets/report_segment_4.png)
 
 1. Enregistrez votre ressource personnalisée.
 
 1. Vous devez maintenant publier votre ressource personnalisée.
-From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publishing]**.
+Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Développement]** &gt; **[!UICONTROL Publication]**.
 
    ![](assets/custom_profile_7.png)
 
-1. Cliquez sur **[!UICONTROL Préparer la publication]** puis, une fois la préparation terminée, cliquez sur le bouton **Publier.** For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
+1. Cliquez sur **[!UICONTROL Préparer la publication]** puis, une fois la préparation terminée, cliquez sur le bouton **[!UICONTROL Publier]**. Pour plus d'informations sur la ressource personnalisée, consultez cette [page](../../developing/using/updating-the-database-structure.md).
 
-Vous pouvez désormais commencer à créer votre flux de travail avec des codes de segment.
+Vous pouvez maintenant commencer à créer votre workflow avec des codes segment.
 
-Note that segment codes will be collected as soon as you enable the segment code in the **[!UICONTROL Sending logs extension]**.
+Les codes segment seront collectés dès que vous aurez activé l'option de code segment dans **[!UICONTROL Extension des logs d'envoi]**.
 
-## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
+## Etape 2 : création d'un workflow avec des segments{#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->Si la transition d'entrée de la livraison par courrier électronique est vide, le code Segment de la transition précédente sera ajouté par défaut.
+>Si la transition d'entrée de la diffusion email est vide, le code segment de la transition précédente sera ajouté par défaut.
 
-Vous devez d'abord créer un flux de travail avec une population ciblée différente. Ici, nous souhaitons envoyer un courriel personnalisé selon l'âge de l'audience : une remise de 20 à 30 ans et une autre pour les profils entre 30 et 40 ans.
+Vous devez d'abord créer un workflow avec une population ciblée différente. Dans le cas présent, nous souhaitons envoyer un email qui sera personnalisé en fonction de l'âge de l'audience : une diffusion pour les profils âgés entre 20 et 30 ans et une autre pour les profils âgés entre 30 et 40 ans.
 
-1. Créez votre flux de travail. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
+1. Créez votre workflow. Pour plus d'informations sur la création de votre workflow, consultez cette [page](../../automating/using/building-a-workflow.md).
 
-1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
+1. Ajoutez une activité **[!UICONTROL Requête]** en la sélectionnant dans la palette et en la relâchant dans l'espace de travail.
 
-1. Ciblez les profils de 20 à 40 ans pour les segmenter ultérieurement en populations plus ciblées.
+1. Ciblez les profils âgés entre 20 et 40 ans pour les segmenter ultérieurement en populations plus ciblées.
 
    ![](assets/report_segment_1.png)
 
-1. Add a **[!UICONTROL Segmentation]** activity to split your query results into two targeted populations. For more on segmentation, refer to this [page](../../automating/using/targeting-data.md#segmenting-data).
+1. Ajoutez une activité **[!UICONTROL Segmentation]** pour diviser vos résultats de requête en deux populations ciblées. Pour plus d'informations sur la segmentation, consultez cette [page](../../automating/using/targeting-data.md#segmenting-data).
 
-1. Double click the **[!UICONTROL Segmentation]** activity to configure it. Edit the first segment by clicking **[!UICONTROL Edit properties]**.
+1. Double-cliquez sur l'activité **[!UICONTROL Segmentation]** pour la configurer. Editez le premier segment en cliquant sur **[!UICONTROL Editer les propriétés]**.
 
    ![](assets/report_segment_7.png)
 
-1. Query profiles between the age of 20 to 30 and click **[!UICONTROL Confirm]** when done.
+1. Interrogez les profils entre 20 et 30 ans et cliquez sur **[!UICONTROL Confirmer]** lorsque vous avez terminé.
 
    ![](assets/report_segment_8.png)
 
-1. Click **[!UICONTROL Add an element]** to create your second segment and configure it as described in the steps above to target profiles between the age of 30 to 40.
+1. Cliquez sur **[!UICONTROL Ajouter un élément]** pour créer votre second segment et configurez-le comme décrit dans la procédure ci-dessus pour cibler les profils entre 30 et 40 ans.
 
-1. Edit the **[!UICONTROL Segment code]** for each population to be passed on through dynamic reporting.
+1. Editez le **[!UICONTROL Code segment]** pour chaque population à transmettre par le biais des rapports dynamiques.
 
    >[!NOTE]
    >Cette étape est obligatoire ou vous ne pourrez pas identifier les segments sur lesquels créer des rapports.
 
    ![](assets/report_segment_9.png)
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
+1. Placez une activité **[!UICONTROL Diffusion Email]** après vos segments.
 
    ![](assets/report_segment_3.png)
 
-1. Personnalisez vos remises selon les populations ciblées différentes. For more on email creation, refer to this [page](../../designing/using/about-email-content-design.md).
+1. Personnalisez vos diffusions selon les différentes populations ciblées. Pour plus d'informations sur la création d'un email, consultez cette [page](../../designing/using/about-email-content-design.md).
 
 1. Enregistrez le workflow.
 
-1. Click **[!UICONTROL Start]** when your workflow is ready.
+1. Cliquez sur **[!UICONTROL Démarrer]** lorsque votre workflow est prêt.
 
-Vous pouvez maintenant accéder à vos rapports pour assurer le suivi des codes de segments.
+Vous pouvez maintenant accéder à vos rapports pour tracker les codes segment.
 
-## Step 3: Create a dynamic report to filter segments {#step-3--create-a-dynamic-report-filter-segments}
+## Etape 3 : création d'un rapport dynamique pour filtrer les segments{#step-3--create-a-dynamic-report-filter-segments}
 
-Après avoir envoyé des distributions avec votre flux de travail, vous pouvez ventiler les rapports à l'aide de vos codes de segments depuis votre flux de travail.
+Après avoir envoyé des diffusions avec votre workflow, vous pouvez répartir les rapports à l'aide des codes segment de votre workflow.
 
-1. From the **[!UICONTROL Reports]** tab, select an out-of-the-box report or click the **[!UICONTROL Create new project]** button to start one from scratch.
+1. Dans l'onglet **[!UICONTROL Rapports]**, sélectionnez un rapport d'usine et cliquez sur le bouton **[!UICONTROL Créer un projet]** pour en lancer un à partir de zéro.
 
    ![](assets/custom_profile_18.png)
-1. Drag and drop the **[!UICONTROL Delivery]** dimension to your freeform table.
+1. Placez la dimension **[!UICONTROL Diffusion]** dans votre tableau à structure libre.
 
    ![](assets/report_segment_5.png)
 
-1. Drag and drop different metrics to your table such as the **[!UICONTROL Open]** and **[!UICONTROL Click]** metrics to start filtering your data.
-1. In the **[!UICONTROL Dimensions]** category, click the **[!UICONTROL Profile]** dimension then drag and drop the **[!UICONTROL Segment code]** dimension on your workflow's delivery to measure the success of your email delivery depending on the targeted populations.
+1. Placez différentes mesures dans votre tableau, telles que **[!UICONTROL Ouverture]** et **[!UICONTROL Clic]**, pour commencer à filtrer vos données.
+1. Dans la catégorie **[!UICONTROL Dimensions]**, cliquez sur la dimension **[!UICONTROL Profil]**, puis placez la dimension **[!UICONTROL Code segment]** sur la diffusion de votre workflow pour mesurer le succès de votre diffusion email selon les populations ciblées.
 
    ![](assets/report_segment_6.png)
 
