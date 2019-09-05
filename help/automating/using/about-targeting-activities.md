@@ -3,17 +3,17 @@ title: A propos des activités de ciblage
 seo-title: A propos des activités de ciblage
 description: A propos des activités de ciblage
 seo-description: Les activités de ciblage sont disponibles à gauche de l'écran.
-page-status-flag: jamais activé
-uuid: a 6 cbc 431-1 ae 3-428 e-b 2 c 9-893454 b 32 ae 2
+page-status-flag: never-activated
+uuid: a6cbc431-1ae3-428e-b2c9-893454b32ae2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: ciblage-activités
-discoiquuid: 5 f 7607 a 1-5 f 71-4 d 66-9688-3 e 5 a 1774 f 1 b 4
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
+discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
@@ -21,13 +21,13 @@ source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 # A propos des activités de ciblage{#about-targeting-activities}
 
-Depuis la palette, située à gauche de l'écran, développez la section **[!UICONTROL Ciblage].**
+Depuis la palette, située à gauche de l'écran, développez la section **[!UICONTROL Ciblage]**.
 
 Ces activités sont spécifiques à la réalisation d'un ciblage, à la manipulation et au filtrage de populations. Elles permettent de construire une ou plusieurs cibles en définissant des ensembles, puis en partitionnant ou en combinant ces ensembles à l'aide des opérations d'intersection, d'union ou d'exclusion.
 
 ![](assets/wkf_targeting_activities.png)
 
-La section **[!UICONTROL Ciblage]fournit les activités suivantes :**
+La section **[!UICONTROL Ciblage]** fournit les activités suivantes :
 
 * [Requête](../../automating/using/query.md)
 * [Requête incrémentale](../../automating/using/incremental-query.md)
@@ -40,4 +40,4 @@ La section **[!UICONTROL Ciblage]fournit les activités suivantes :**
 * [Déduplication](../../automating/using/deduplication.md)
 * [Enrichissement](../../automating/using/enrichment.md)
 
-**[!UICONTROL Les]** activités de ciblage vous permettent de définir **des codes** de segment pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports basés sur ces codes de segments afin de mesurer l'efficacité des campagnes de marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+Les activités **[!UICONTROL Ciblage]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l'efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
