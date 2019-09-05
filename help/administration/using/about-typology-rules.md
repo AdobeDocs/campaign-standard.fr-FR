@@ -3,18 +3,18 @@ title: A propos des règles de typologie
 seo-title: A propos des règles de typologie
 description: A propos des règles de typologie
 seo-description: Découvrez comment les règles de typologie fonctionnent dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: a 98 ebc 36-172 d -4 f 46-b 6 ee-b 2636 a 1007 c 9
+page-status-flag: never-activated
+uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: working-with-tyloy-rules
-discoiquuid: 2590 d 94 c -51 ef -4 c 0 f-b 1 ec-c 2837 e 94 da 40
-context-tags: typologie, présentation ; Tycategoryrule, main ; Tycategoryrule, présentation
+content-type: reference
+topic-tags: working-with-typology-rules
+discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
+context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
@@ -30,7 +30,7 @@ Dans Adobe Campaign, chaque message contient un lien vers une typologie. Ce lien
 >
 >Chaque message ne peut se voir affecter qu'une seule typologie.
 
-Pour chaque typologie, la section **[!UICONTROL Règles de typologie]répertorie l'ensemble des règles de cette typologie.**
+Pour chaque typologie, la section **[!UICONTROL Règles de typologie]** répertorie l'ensemble des règles de cette typologie.
 
 ![](assets/typology_typo-rule-list.png)
 
@@ -38,13 +38,13 @@ Pour chaque typologie, la section **[!UICONTROL Règles de typologie]répertorie
 
 Plusieurs typologies sont présentes par défaut dans l'application. Selon vos besoins, vous pouvez créer vos propres typologies ou modifier celles qui existent déjà.
 
-1. Access the **[!UICONTROL List of typologies]** from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** menu.
+1. Accédez à la **[!UICONTROL Liste des typologies]** depuis le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Typologies]**.
 1. Sélectionnez une typologie pour modifier son contenu et ses propriétés ou créez-en une nouvelle.
 
    ![](assets/typology_list.png)
 
 1. Définissez le type de la typologie. Les typologies peuvent être de type Standard ou Filtrage.
-1. Ajoutez les règles de typologie dont vous avez besoin à l'aide du bouton **[!UICONTROL Ajouter un élément]ou supprimez celles que vous ne souhaitez pas utiliser.**
+1. Ajoutez les règles de typologie dont vous avez besoin à l'aide du bouton **[!UICONTROL Ajouter un élément]** ou supprimez celles que vous ne souhaitez pas utiliser.
 
    Il est possible de modifier l'ordre dans lequel les règles sont appliquées dans le cadre d'une typologie donnée. Pour cela, déplacez les éléments afin de modifier leur ordre d'affichage à l'écran. Les chiffres correspondant à l'ordre d'exécution sont alors automatiquement recalculés. Le mode d'application des règles est présenté dans la section [Ordre d'exécution des règles de typologie](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
 
@@ -54,13 +54,13 @@ Votre typologie est prête à être utilisée. Vous pouvez la sélectionner dans
 
 >[!NOTE]
 >
->Le champ **[!UICONTROL Affinité IP]permet de gérer les affinités selon votre configuration.** Celles-ci sont définies dans le fichier de configuration de l'instance. Si vous souhaitez utiliser les affinités, contactez votre administrateur.
+>Le champ **[!UICONTROL Affinité IP]** permet de gérer les affinités selon votre configuration. Celles-ci sont définies dans le fichier de configuration de l'instance. Si vous souhaitez utiliser les affinités, contactez votre administrateur.
 
-## Règles de typologie {#typology-rules}
+## Règles de typologie   {#typology-rules}
 
 Les règles de typologie sont des règles métier qui sont appliquées pendant la préparation du message. Elles servent à vérifier qu'un message est valide et qu'il répond à vos critères de qualité. Elles contrôlent également si chaque membre de l’audience cible est éligible pour recevoir le message.
 
-Typology rules are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** menu.
+Les règles de typologie sont disponibles depuis le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Règles de typologie]**.
 
 Il existe plusieurs types de règles :
 
@@ -72,28 +72,28 @@ Une règle de typologie peut être appliquée uniquement à un canal ou à tous 
 
 ![](assets/typology_channel.png)
 
-Dans les **[!UICONTROL Propriétés]d'une règle de typologie, vous pouvez définir son ordre d'exécution.** Lorsque plusieurs règles doivent être appliquées, l'ordre d'exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d'exécution des règles de typologie](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
+Dans les **[!UICONTROL Propriétés]** d'une règle de typologie, vous pouvez définir son ordre d'exécution. Lorsque plusieurs règles doivent être appliquées, l'ordre d'exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d'exécution des règles de typologie](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
 
 ![](assets/typology_rule-active.png)
 
-Une règle de typologie peut être désactivée via ses **[!UICONTROL Propriétés]si vous souhaitez que la règle ne soit pas appliquée au moment de l'analyse des messages sur lesquels elle porte.**
+Une règle de typologie peut être désactivée via ses **[!UICONTROL Propriétés]** si vous souhaitez que la règle ne soit pas appliquée au moment de l'analyse des messages sur lesquels elle porte.
 
 ![](assets/typology_rule-order.png)
 
 Dans la catégorie **[!UICONTROL Contexte de ciblage]**, vous pouvez sélectionner la **Dimension de ciblage** et la **Dimension de filtrage**, selon les données à cibler.
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. Par exemple, si la règle est destinée à une application mobile, la **[!UICONTROL Dimension de filtrage]** peut être changée en **[!UICONTROL Abonnements à une application]**.
+Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si la règle est destinée à une application mobile, la **[!UICONTROL Dimension de filtrage]** peut être changée en **[!UICONTROL Abonnements à une application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## Ordre d'exécution des règles de typologie {#typology-rules-execution-order}
+## Ordre d'exécution des règles de typologie   {#typology-rules-execution-order}
 
 Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d'analyse et de personnalisation des messages.
 
 Dans un fonctionnement standard, les règles sont appliquées dans l'ordre suivant :
 
 1. Règles de contrôle, si elles s'appliquent au début du ciblage.
-1. Règles de filtrage :
+1. Règles de filtrage:
 
    * Règles natives de l'application pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse en blackliste / adresse en quarantaine / qualité de l'adresse.
    * Règles de filtrage définies par l'utilisateur.
