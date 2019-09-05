@@ -3,17 +3,17 @@ title: Cas des règles de contrôle
 seo-title: Cas des règles de contrôle
 description: Cas des règles de contrôle
 seo-description: Apprenez comment renforcer la vérification de la qualité des messages avec les règles de contrôle.
-page-status-flag: jamais activé
-uuid: 33 a 1 c 90 c -534 e -4 fe 1-982 c-f 4 e 1858 d 4 d 2 d
+page-status-flag: never-activated
+uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: working-with-tyloy-rules
-discoiquuid: 305 cadde -6424-4 c 6 f-b 11 b -1 e 8 bdbad 6 ef 1
+content-type: reference
+topic-tags: working-with-typology-rules
+discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
@@ -34,7 +34,7 @@ Un ensemble de règles disponibles par défaut dans Adobe Campaign assurent les 
 * **[!UICONTROL Vérification du lien de partage vers les réseaux sociaux]** (email) : vérifie la présence d'un lien vers une page miroir lors de l'inclusion d'un lien de partage vers les réseaux sociaux (ViralLinks) dans le contenu.
 * **[!UICONTROL Test A/B]** : extrait la population d'apprentissage pour une diffusion avec test A/B.
 
-Vous pouvez choisir le moment où la règle sera appliquée parmi les étapes du cycle de vie des diffusions. Sélectionnez la valeur à appliquer dans la liste déroulante du champ **[!UICONTROL Phase]de la règle de typologie.**
+Vous pouvez choisir le moment où la règle sera appliquée parmi les étapes du cycle de vie des diffusions. Sélectionnez la valeur à appliquer dans la liste déroulante du champ **[!UICONTROL Phase]** de la règle de typologie.
 
 ![](assets/typology_phase.png)
 
@@ -60,4 +60,4 @@ Les valeurs possibles sont les suivantes :
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, il est impossible de modifier le contenu des règles de contrôle. The **[!UICONTROL Code]** field is read-only.
+>Pour des raisons de sécurité, le contenu des règles de contrôle ne peut pas être modifié. Le champ **[!UICONTROL Code]** est en lecture seule.
