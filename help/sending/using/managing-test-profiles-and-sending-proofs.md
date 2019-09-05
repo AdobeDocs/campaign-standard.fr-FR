@@ -3,18 +3,18 @@ title: Gérer les profils de test et envoyer un bon à tirer
 seo-title: Gérer les profils de test et envoyer un bon à tirer
 description: Gérer les profils de test et envoyer un bon à tirer
 seo-description: Découvrez comment gérer les profils de test et les bons à tirer.
-page-status-flag: jamais activé
-uuid: eb 4 d 893 b -3724-4 b 15-9312-1 ec 74784368 d
+page-status-flag: never-activated
+uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
-topic-tags: préparation-test-messages
-discoiquuid: 37320 ec 5-196 c -4260-8156-98932 da 3 e 4 a 5
-context-tags: Seedmember, présentation
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
+context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
@@ -40,7 +40,7 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
 ![](assets/test_profile.png)
 
-## Gestion des profils de test {#managing-test-profiles}
+## Gestion des profils de test   {#managing-test-profiles}
 
 ### Créer un profil de test {#creating-test-profiles}
 
@@ -60,20 +60,20 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_4.png)
 
-1. Enter the contact channels **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, as well as the test profile address if necessary.
+1. Renseignez les canaux de contacts **[!UICONTROL Email, Téléphone, Mobile, Application mobile]**, ainsi que l'adresse du profil de test si besoin.
 
    >[!NOTE]
    >
    >Vous pouvez définir une préférence de format d'email : **[!UICONTROL Texte]** ou **[!UICONTROL HTML]**.
 
 1. Spécifiez un type d'événement et les données de cet événement si vous souhaitez utiliser ce profil de test pour tester la personnalisation d'un message transactionnel.
-1. Cliquez sur **[!UICONTROL Créer]pour enregistrer le profil de test.**
+1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le profil de test.
 
 Le profil de test est alors ajouté dans la liste des profils.
 
 **Rubrique connexe :**
 
-Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html).
+Vidéo [Créer un profil de test](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Editer un profil de test {#editing-test-profiles}
 
@@ -84,7 +84,7 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
    ![](assets/test_profile_edit.png)
 
-1. Choisissez **[!UICONTROL Enregistrer]** si vous avez saisi des modifications ; ou sélectionnez le nom du profil de test puis **Profils de test]dans la section supérieure de l'écran pour revenir au tableau de bord des profils de test.[!UICONTROL **
+1. Choisissez **[!UICONTROL Enregistrer]** si vous avez saisi des modifications ; ou sélectionnez le nom du profil de test puis **[!UICONTROL Profils de test]** dans la section supérieure de l'écran pour revenir au tableau de bord des profils de test.
 
 ## Envoyer un bon à tirer {#sending-proofs}
 
@@ -96,7 +96,7 @@ Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus d
 
 Au niveau d'un message :
 
-1. Cliquez sur le bouton **[!UICONTROL Envoyer un test].**
+1. Cliquez sur le bouton **[!UICONTROL Envoyer un test]**.
 
    ![](assets/bat_select.png)
 
@@ -113,21 +113,21 @@ Au niveau d'un message :
 
    ![](assets/bat_select2.png)
 
-1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL Bons à tirer].**
+1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL Bons à tirer]**.
 
    ![](assets/bat_view.png)
 
-1. Sélectionnez un BAT pour accéder à son résumé. Pour un email, si vous avez sélectionné l'option **rendu des emails** lors du choix des BAT, l'icône **[!UICONTROL Accéder au rendu des emails]est affichée à droite du libellé du BAT.** Voir [Rendu des emails](../../sending/using/email-rendering.md).
+1. Sélectionnez un BAT pour accéder à son résumé. Pour un email, si vous avez sélectionné l'option **rendu des emails** lors du choix des BAT, l'icône **[!UICONTROL Accéder au rendu des emails]** est affichée à droite du libellé du BAT. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer la préparation de l'email puis envoyer à nouveau un BAT. Chaque nouveau BAT est accessible depuis le bouton **[!UICONTROL Afficher les bons à tirer].**
+En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer la préparation de l'email puis envoyer à nouveau un BAT. Chaque nouveau BAT est accessible depuis le bouton **[!UICONTROL Afficher les bons à tirer]**.
 
 Vous devez envoyer autant de BAT que nécessaire jusqu'à ce que le contenu de votre diffusion soit finalisé. Dès lors, vous pouvez envoyer la diffusion à la cible principale et clore le cycle de validation.
 
 **Rubrique connexe :**
 
-Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
 <!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
