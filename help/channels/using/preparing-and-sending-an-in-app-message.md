@@ -3,18 +3,18 @@ title: Préparation et envoi d'un message In-App
 seo-title: Préparation et envoi d'un message In-App
 description: Préparation et envoi d'un message In-App
 seo-description: Créez un message In-App pour cibler les abonnés à votre application avec du contenu spécifique.
-page-status-flag: jamais activé
-uuid: a 79 b 0466-8641-46 cc-a 70 f-e 4 e 839587 bb 2
+page-status-flag: never-activated
+uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: 18 bf 5297-a 688-4302-abe 4-e 2 fbcafdb 515
-context-tags: delivery, triggers, back ; Deliverycreation, assistant
+discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
+context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
@@ -39,7 +39,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Gestion des champs de profil mobile avec des données personnelles et sensibles {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles   {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 Dans Adobe Campaign, les données d'attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
@@ -61,9 +61,9 @@ Si vous devez effectuer une personnalisation avec les champs **Personal and Sens
 
 Les étapes de création d'un message In-App autonome avec Adobe Campaign sont les suivantes :
 
-1. Depuis la page d'accueil d'Adobe Campaign, cliquez sur la vignette **[!UICONTROL Messagerie In-App].**
+1. Depuis la page d'accueil d'Adobe Campaign, cliquez sur la vignette **[!UICONTROL Messagerie In-App]**.
 
-   Vous pouvez également créer un message In-App depuis l'onglet **Activités marketing**, en cliquant sur le bouton **[!UICONTROL Créer].**
+   Vous pouvez également créer un message In-App depuis l'onglet **Activités marketing**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
    Il est également possible de créer un message in-app depuis une campagne, à partir de la page d'accueil Adobe Campaign ou dans un workflow.
 
@@ -97,11 +97,11 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    * **[!UICONTROL Evénements d'application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d'usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
+      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/metrics.html).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d'affichage.
 
@@ -112,7 +112,7 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
       Pour plus d'informations sur Adobe Places, consultez la [documentation relative à Places](https://placesdocs.com/).
    ![](assets/inapp_creating_4.png)
 
-1. If you use an **[!UICONTROL Analytics Events]**, Adobe Analytics and View state events will be automatically populated based on the report suites configured in the Analytics extension in Adobe Experience Platform Launch whereas Context data events have to be manually added.
+1. Si vous utilisez un **[!UICONTROL événement Analytics]**, les événements Adobe Analytics et Etat d'affichage seront automatiquement renseignés en fonction des suites de rapports configurées dans l'extension Analytics dans Adobe Experience Platform Launch. Les événements Données de contexte, quant à eux, devront être ajoutés manuellement.
 
    Ces événements ne sont disponibles que si vous possédez une licence Adobe Analytics.
 
@@ -120,13 +120,13 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
 1. Si vous utilisez un trigger **[!UICONTROL Places]**, des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d'événement Places seront automatiquement renseignés d'après l'ensemble des bibliothèques et leurs points d'intérêt créés dans Adobe Places.
 
-   Notez que ce déclencheur sera appliqué sur le périphérique uniquement pour les points ciblés des bibliothèques sélectionnées dans l'extension Lieux dans le lancement de la plateforme Experience. Pour plus d'informations sur l'extension Places et son installation, consultez cette [documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
+   Notez que ce trigger sera appliqué sur l'appareil uniquement pour les points d'intérêt des bibliothèques sélectionnées dans l'extension Places dans Experience Platform Launch. Pour plus d'informations sur l'extension Places et son installation, consultez cette [documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension).
 
 1. Dans l'onglet **[!UICONTROL Fréquence et durée]**, sélectionnez la fréquence du trigger, la date de début et de fin, le jour de la semaine et l'heure du jour auxquels le message in-app sera actif.
 
    ![](assets/inapp_creating_5.png)
 
-1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message In-App](https://helpx.adobe.com/fr/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
@@ -144,13 +144,13 @@ Votre message in-app est maintenant prêt à être envoyé à votre audience cib
 
 Une fois que la préparation de votre diffusion est terminée et que les étapes de validation ont été réalisées, vous pouvez envoyer votre message.
 
-1. Cliquez sur **[!UICONTROL Préparer]pour calculer la cible et générer les messages.**
+1. Cliquez sur **[!UICONTROL Préparer]** pour calculer la cible et générer les messages.
 
    ![](assets/inapp_sending_4.png)
 
 1. Dès que la préparation est terminée, la fenêtre **Déploiement** présente les KPI suivants : **Cible** et **A envoyer**.
 
-   Dans la fenêtre Déploiement, vous pouvez afficher les exclusions ou les erreurs potentielles dans votre diffusion en cliquant sur le bouton ![.](assets/lp_link_properties.png)
+   Dans la fenêtre Déploiement, vous pouvez afficher les exclusions ou les erreurs potentielles dans votre diffusion en cliquant sur le bouton ![](assets/lp_link_properties.png).
 
    ![](assets/inapp_sending_5.png)
 
