@@ -3,17 +3,17 @@ title: Créer un email
 seo-title: Créer un email
 description: Créer un email
 seo-description: Suivez ces étapes pour créer une diffusion email unique dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 74 c 7 ef 35-82 c 0-4 bc 4-b 1 f 6-8 e 74 fdcaea 3 c
+page-status-flag: never-activated
+uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
-topic-tags: messages électroniques
-discoiquuid: b 27 e 0170-e 73 f -4782-8568-02927 fb 374 f 4
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: email-messages
+discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
@@ -31,7 +31,7 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
    >[!NOTE]
    >
-   >Les modèles de relance et de test A/B sont masqués par défaut. Cochez les cases situées à gauche (au niveau du panneau latéral **[!UICONTROL Filtrer]) si vous souhaitez les afficher.**
+   >Les modèles de relance et de test A/B sont masqués par défaut. Cochez les cases situées à gauche (au niveau du panneau latéral **[!UICONTROL Filtrer]**) si vous souhaitez les afficher.
 
 1. Renseignez les propriétés générales de l'email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l'identifiant. Le nom de l'activité et son identifiant apparaissent dans l'interface, mais ne sont pas visibles par les destinataires des messages.
 
@@ -60,11 +60,11 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
    >[!NOTE]
    >
-   >Pour pouvoir enregistrer votre email, vous devez éditer le contenu. Si vous cliquez sur **[!UICONTROL Annuler]à cette étape, vous ne terminerez pas l'assistant et votre email ne sera pas créé.**
+   >Pour pouvoir enregistrer votre email, vous devez éditer le contenu. Si vous cliquez sur **[!UICONTROL Annuler]** à cette étape, vous ne terminerez pas l'assistant et votre email ne sera pas créé.
 
-   Le dashboard d'email s'affiche alors. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+   Le tableau de bord de l'email s'affiche alors. Il vous permet de vérifier votre message et de [préparer l'envoi](../../sending/using/preparing-the-send.md).
 
-   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Vous pouvez, par exemple, configurer le courrier électronique de sorte que son libellé soit calculé au moment de la préparation de la remise. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   Le bouton **[!UICONTROL Editer les propriétés]** dans le coin supérieur droit permet d'éditer les propriétés de l'email. Vous pouvez, par exemple, configurer l'email de sorte que son libellé soit calculé au moment de la préparation de la diffusion. Les paramètres disponibles sont répertoriés dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -92,8 +92,8 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
-* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GettingStartedEmail.html)
+* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
