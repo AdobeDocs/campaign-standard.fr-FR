@@ -3,18 +3,18 @@ title: Activités marketing
 seo-title: Activités marketing
 description: Activités marketing
 seo-description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer une activité, éditer une activité existante et consulter leur état et validité."'
-page-status-flag: jamais activé
-uuid: 5 d 45 a 935-6 d 03-4 b 27-aabd -7 c 47 c 11241 ba
+page-status-flag: never-activated
+uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
-topic-tags: plans marketing
-discoiquuid: 3 ba 165 e 1-420 f -4 d 6 f-b 339-467 b 066 b 42 d 0
-context-tags: activité, présentation
+content-type: reference
+topic-tags: marketing-plans
+discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
+context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
 
 ---
@@ -28,21 +28,21 @@ Vous pouvez créer et gérer les activités marketing depuis les programmes et l
 
 La liste des activités marketing centralise toutes les activités, quels que soient les programmes ou les campagnes dans lesquels elles ont été créées. Programmes, campagnes, diffusions (emails, SMS et notifications push), landing pages et workflows sont ainsi répertoriés sans aucune notion de hiérarchie.
 
-Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]dans la barre supérieure.**
+Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]** dans la barre supérieure.
 
 >[!NOTE]
 >
->Depuis la page d'accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing].**
+>Depuis la page d'accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
 
 ![](assets/marketing_activities_1.png)
 
-Le volet **[!UICONTROL Recherche]permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d'activité.** Par défaut, tous les types d'activité sont sélectionnés, à l'exception des programmes.
+Le volet **[!UICONTROL Recherche]** permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d'activité. Par défaut, tous les types d'activité sont sélectionnés, à l'exception des programmes.
 
 Pour accéder directement au contenu de chaque activité, choisissez un des éléments de la liste.
 
-Le bouton **[!UICONTROL Créer]peut être utilisé pour créer une autre activité.** Consultez la section [Créer une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) pour en savoir plus.
+Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing   {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d'activité de la liste est caractérisé par une icône :
 
@@ -57,11 +57,11 @@ Dans la zone principale, chaque type d'activité de la liste est caractérisé p
 
 La couleur associée à cette icône indique le statut d'exécution de l'activité correspondante, en fonction de sa période de validité et de son état.
 
-* Gris : l'activité n'a pas encore commencé - statut **[!UICONTROL En édition].**
-* Bleu : l'activité est en cours - statut **[!UICONTROL En cours].**
-* Vert : l'activité est terminée - statut **[!UICONTROL Terminé].**
-* Jaune : l'activité a fait l'objet d'un avertissement - statut **[!UICONTROL Avertissement].**
-* Rouge : une erreur est survenue - statut **[!UICONTROL En erreur].**
+* Gris : l'activité n'a pas encore commencé - statut **[!UICONTROL En édition]**.
+* Bleu : l'activité est en cours - statut **[!UICONTROL En cours]**.
+* Vert : l'activité est terminée - statut **[!UICONTROL Terminé]**.
+* Jaune : l'activité a fait l'objet d'un avertissement - statut **[!UICONTROL Avertissement]**.
+* Rouge : une erreur est survenue - statut **[!UICONTROL En erreur]**.
 
 ## Créer une activité marketing {#creating-a-marketing-activity}
 
@@ -75,7 +75,7 @@ Depuis un programme existant, vous pouvez créer d'autres programmes, des campag
 
 Les programmes et les campagnes sont présentés dans la section [Programmes et campagnes](../../start/using/programs-and-campaigns.md).
 
-1. Dans le tableau de bord d'un programme ou d'une campagne, créez une activité marketing à l'aide du bouton **[!UICONTROL Créer].**
+1. Dans le tableau de bord d'un programme ou d'une campagne, créez une activité marketing à l'aide du bouton **[!UICONTROL Créer]**.
 
    ![](assets/marketing_activiy_creation_1.png)
 
