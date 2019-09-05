@@ -3,17 +3,17 @@ title: 'Liste des composants '
 seo-title: 'Liste des composants '
 description: 'Liste des composants '
 seo-description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
-page-status-flag: jamais activé
-uuid: a 2403806-8 df 4-4 bb 1-bac 2-2689 dc 584 ae 0
+page-status-flag: never-activated
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: création de rapports
-discoiquuid: 17 cf 126 a -7 ce 1-4 e 11-bb 5 e -2 bdce 01 cfded
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
@@ -132,11 +132,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures {#metrics}
+## Mesures   {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS {#email-and-sms-metrics}
+### Mesures des emails et SMS   {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push {#push-notification-metrics}
+### Mesures des notifications push   {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -276,8 +276,8 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de notifications push qui ont fait l'objet d'un bounce par rapport au nombre de notifications push envoyées.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliquez sur<br /> </td> 
-   <td> Nombre de fois où une notification Push a été diffusée sur le périphérique et sur laquelle l'utilisateur a cliqué. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> Clic<br /> </td> 
+   <td> Nombre de fois qu'une notification push a été diffusée sur l'appareil et a fait l'objet d'un clic par l'utilisateur. L'utilisateur souhaitait afficher la notification, qui sera déplacée vers le tracking Ouverture push, ou l'ignorer.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics publicitaires<br /> </td> 
@@ -293,7 +293,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Nombre de fois où une notification Push a été diffusée sur le périphérique et n'est pas affectée dans le centre de notification. Dans la plupart des cas, le nombre d'impressions doit être similaire au nombre livré. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> Nombre de fois qu'une notification push a été diffusée sur l'appareil et laissée intacte dans le centre de notification. Dans la plupart des cas, le nombre d'impressions doit être similaire au nombre délivrés. Cela garantit que l'appareil reçoit le message et transmet cette information au serveur.<br /> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
@@ -301,7 +301,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Ouverture<br /> </td> 
-   <td> Nombre total de notifications Push diffusées sur le périphérique et sur lesquelles les utilisateurs ont cliqué pour ouvrir l'application. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> Nombre total de notifications push diffusées sur l'appareil et ayant fait l'objet d'un clic par les utilisateurs ouvrant l'application. Cette mesure est similaire au Clic push, sauf qu'une Ouverture push ne sera pas déclenchée si la notification a été ignorée.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux d'ouverture<br /> </td> 
@@ -322,7 +322,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App {#in-app-metrics}
+### Mesures In-App   {#in-app-metrics}
 
 <table> 
  <thead> 
