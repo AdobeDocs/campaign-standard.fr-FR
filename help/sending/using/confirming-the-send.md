@@ -3,18 +3,18 @@ title: Confirmer l'envoi
 seo-title: Confirmer l'envoi
 description: Confirmer l'envoi
 seo-description: Découvrez comment finaliser la préparation des messages.
-page-status-flag: jamais activé
-uuid: 1 eaecb 32-ffd 2-45 d 0-a 8 b 4-f 97 bee 59 a 1 bd
+page-status-flag: never-activated
+uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
-topic-tags: envoi et suivi-messages
-discoiquuid: 8 bb 160 b 1-7 de 9-4 c 1 f-bb 89-b 2 e 5 fdafed 41
-context-tags: livraison, déploiement, retour
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: sending-and-tracking-messages
+discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
+context-tags: delivery,deployment,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
@@ -24,17 +24,17 @@ source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 Une fois que la préparation de vos messages est terminée et que les étapes de validation ont été réalisées, vous pouvez démarrer l'envoi. Pour plus d'informations sur la préparation des messages, consultez la section [Préparer l'envoi](../../sending/using/preparing-the-send.md).
 
-Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]peuvent confirmer l'envoi.** Voir à ce propos la section [Liste des rôles](../../administration/using/list-of-roles.md).
+Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]** peuvent confirmer l'envoi. Voir à ce propos la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
 Le message suivant s'affiche pour les utilisateurs qui ne possèdent pas ce rôle :
 
 ![](assets/confirm_delivery_2.png)
 
-Pour envoyer votre diffusion, cliquez sur le bouton **[!UICONTROL Confirmer l'envoi]dans la barre d'actions du message.**
+Pour envoyer votre diffusion, cliquez sur le bouton **[!UICONTROL Confirmer l'envoi]** dans la barre d'actions du message.
 
 ![](assets/confirm_delivery.png)
 
-Validez l'envoi en cliquant sur **[!UICONTROL OK].**
+Validez l'envoi en cliquant sur **[!UICONTROL OK]**.
 
 ![](assets/confirm_delivery1.png)
 
@@ -44,13 +44,13 @@ Le message est en cours d'envoi.
 >
 >Si le message est planifié, il sera envoyé à l'heure d'envoi. Pour plus d'informations sur la planification des messages, consultez [cette section](../../sending/using/about-scheduling-messages.md).
 
-Si vous utilisez une remise récurrente sans période d'agrégation, vous pouvez demander confirmation avant l'envoi de la diffusion. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+Si vous utilisez une diffusion récurrente sans période d'agrégation, vous pouvez demander confirmation avant l'envoi de la diffusion. Pour ce faire, ouvrez la zone **[!UICONTROL Planning]** du tableau de bord de diffusion, puis activez l'option dédiée.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-La zone **[!UICONTROL Déploiement]affiche la progression de l'envoi.**
+La zone **[!UICONTROL Déploiement]** affiche la progression de l'envoi.
 
-Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]affiche vos données d'indicateurs de performance clés (KPI) avec :**
+Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]** affiche vos données d'indicateurs de performance clés (KPI) avec :
 
 * le nombre de messages à envoyer,
 * le nombre de messages envoyés,
@@ -61,11 +61,11 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Taux d’ouverture]** et le **Taux de clics]sont mis à jour toutes les heures.[!UICONTROL **
+   >Le **[!UICONTROL Taux d’ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
 
 ![](assets/sending_delivery.png)
 
-Si les indicateurs de performance clés sont trop longs à se mettre à jour ou ne prennent pas en compte les résultats à partir des envois, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **Déploiement[!UICONTROL .]**
+Si les indicateurs de performance clés sont trop longs à se mettre à jour ou ne prennent pas en compte les résultats à partir des envois, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **[!UICONTROL Déploiement]**.
 
 ![](assets/sending_delivery7.png)
 
