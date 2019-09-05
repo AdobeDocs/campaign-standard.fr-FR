@@ -3,17 +3,17 @@ title: Ajouter un bloc de contenu
 seo-title: Ajouter un bloc de contenu
 description: Ajouter un bloc de contenu
 seo-description: Découvrez les différents blocs de contenu dynamique d'usine que vous pouvez utiliser pour personnaliser vos messages. Apprenez également à créer des blocs de contenu personnalisés.
-page-status-flag: jamais activé
-uuid: 08153 ea 0-42 fb -4 c 0 b -8 d 4 b -9407540748 d 6
+page-status-flag: never-activated
+uuid: 08153ea0-42fb-4c0b-8d4b-9407540748d6
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: conception
-content-type: référence
-topic-tags: personnalisation-contenu
-discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
+products: SG_CAMPAIGN/STANDARD
+audience: designing
+content-type: reference
+topic-tags: personalizing-content
+discoiquuid: 3ffda143-f42a-4cf9-b43c-e53d24549025
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
@@ -67,8 +67,8 @@ Vous pouvez définir de nouveaux blocs de contenu qui pourront être insérés d
 
 Pour créer un bloc de contenu, respectez les étapes suivantes :
 
-1. Cliquez sur **[!UICONTROL Ressources &gt; Blocs de contenu]depuis le menu avancé pour accéder à la liste des blocs de contenu.**
-1. Cliquez sur le bouton **[!UICONTROL Créer]ou dupliquez un bloc de contenu déjà existant.**
+1. Cliquez sur **[!UICONTROL Ressources &gt; Blocs de contenu]** depuis le menu avancé pour accéder à la liste des blocs de contenu.
+1. Cliquez sur le bouton **[!UICONTROL Créer]** ou dupliquez un bloc de contenu déjà existant.
 
    ![](assets/content_bloc_01.png)
 
@@ -80,29 +80,29 @@ Pour créer un bloc de contenu, respectez les étapes suivantes :
    * **[!UICONTROL Landing page]** : le bloc de contenu ne peut être utilisé que dans une landing page.
    ![](assets/content_bloc_02.png)
 
-1. You can select a **[!UICONTROL Targeting dimension]**. Voir à ce propos la section [A propos de la dimension de ciblage](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
+1. Vous pouvez sélectionner une **[!UICONTROL Dimension de ciblage]**. Voir à ce propos la section [A propos de la dimension de ciblage](../../designing/using/adding-a-content-block.md#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. Sélectionnez éventuellement l'option **[!UICONTROL Dépend du format]pour définir deux blocs distincts : un pour les emails au format HTML et un autre pour les emails au format texte.** Deux onglets seront alors affichés dans la section inférieure de cet éditeur (HTML et Texte) pour définir les contenus correspondants.
+1. Sélectionnez éventuellement l'option **[!UICONTROL Dépend du format]** pour définir deux blocs distincts : un pour les emails au format HTML et un autre pour les emails au format texte. Deux onglets seront alors affichés dans la section inférieure de cet éditeur (HTML et Texte) pour définir les contenus correspondants.
 
    ![](assets/content_bloc_03.png)
 
-1. Saisissez le contenu du ou des blocs de contenu, et cliquez sur le bouton **[!UICONTROL Créer].**
+1. Saisissez le contenu du ou des blocs de contenu, et cliquez sur le bouton **[!UICONTROL Créer]**.
 
 Votre bloc de contenu est désormais utilisable dans l'éditeur de contenu d'un message ou d'une landing page.
 
 >[!CAUTION]
 >
->When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. Dans le code HTML, les espaces blancs s'affichent à l'écran ; ils affecteront donc la disposition de votre contenu.
+>Lorsque vous éditez le contenu d'un bloc, vérifiez qu'aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s'affichent à l'écran ; ils auront donc un impact sur la présentation de votre contenu.
 
-## A propos de la dimension de ciblage {#about-targeting-dimension}
+## A propos de la dimension de ciblage   {#about-targeting-dimension}
 
 La dimension de ciblage permet de définir dans quel type de message vous pouvez utiliser le bloc de contenu. Cela permet d'éviter d'utiliser des blocs inadéquats dans un message, ce qui peut entraîner des erreurs.
 
 En effet, lors de l'édition d'un message, vous ne pouvez sélectionner que des blocs de contenu avec une dimension de ciblage compatible avec celle du message.
 
-Par exemple, la dimension de ciblage du bloc **[!UICONTROL Lien de désabonnement]** est **[!UICONTROL Profils], car elle contient des champs de personnalisation spécifiques à la ressource** Profils **.** Therefore, you cannot use an **[!UICONTROL Unsubscription link]** block in an [event transactional message](../../channels/using/event-transactional-messages.md), because the targeting dimension of that type of message is **[!UICONTROL Real-time events]**. Vous pouvez toutefois utiliser un bloc **Lien de désabonnement** dans un [message transactionnel basé sur un profil](../../channels/using/profile-transactional-messages.md), car la dimension de ciblage de ce type de message est **Profils**. Enfin, le bloc **[!UICONTROL Lien vers la page miroir]ne comporte pas de dimension de ciblage. Vous pouvez donc l'utiliser dans n'importe quel message.**
+Par exemple, la dimension de ciblage du bloc **[!UICONTROL Lien de désabonnement]** est **[!UICONTROL Profils]**, car elle contient des champs de personnalisation spécifiques à la ressource **[!UICONTROL Profils]**. Par conséquent, vous ne pouvez pas utiliser de bloc **[!UICONTROL Lien de désabonnement]** dans un [message transactionnel basé sur un événement](../../channels/using/event-transactional-messages.md), car la dimension de ciblage de ce type de message est **[!UICONTROL Evénements temps réel]**. Vous pouvez toutefois utiliser un bloc **Lien de désabonnement** dans un [message transactionnel basé sur un profil](../../channels/using/profile-transactional-messages.md), car la dimension de ciblage de ce type de message est **Profils**. Enfin, le bloc **[!UICONTROL Lien vers la page miroir]** ne comporte pas de dimension de ciblage. Vous pouvez donc l'utiliser dans n'importe quel message.
 
 Si vous laissez ce champ vide, le bloc de contenu sera compatible avec tous les messages, quelle que soit la dimension de ciblage. Si vous définissez une dimension de ciblage, ce bloc ne sera compatible qu'avec les messages ayant la même dimension de ciblage.
 
