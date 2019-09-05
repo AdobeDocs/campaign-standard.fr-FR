@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,19 +54,19 @@ La gestion de ces modèles s'effectue sur l'écran **[!UICONTROL Ressources]** &
 
 ## Modèles de contenu  {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). De là, vous pouvez gérer les modèles de contenu de page d'atterrissage, les modèles de contenu e-mail et les fragments.
+The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). A partir de là, vous pouvez gérer des modèles de contenu de page d'atterrissage, des modèles de contenu e-mail et aussi des fragments.
 
 ![](assets/content_templates_list.png)
 
-Les modèles de contenu hors-la-boîte sont uniquement lisibles. Pour éditer l'un de ces contenus, vous devez d'abord le dupliquer.
+Les modèles de contenu hors-la-boîte sont uniquement lisibles. Pour en modifier l'un, vous devez d'abord reproduire le modèle souhaité.
 
 Vous pouvez créer de nouveaux modèles ou fragments et définir votre propre contenu. Pour plus d'informations, voir [Créer un modèle de contenu](../../start/using/about-templates.md#creating-a-content-template) et [Créer un fragment de contenu](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
 
-Lors de l'édition du contenu avec le concepteur de courriels, vous pouvez également créer des modèles de contenu en sauvegardant votre contenu comme fragment ou modèle. Pour plus d'informations, voir [Sauvegarder le contenu comme modèle](../../start/using/about-templates.md#saving-content-as-template) et [Sauvegarder le contenu comme fragmentment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Lors de l'édition du contenu avec le concepteur de courriels, vous pouvez aussi créer des modèles de contenu en sauvegardant votre contenu comme un fragment ou comme un modèle. Pour plus d'informations, voir [Sauvegarder le contenu comme modèle](../../start/using/about-templates.md#saving-content-as-template) et [Sauvegarder le contenu comme fragmentment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 
 ### gabarits de contenu électronique {#email-content-templates}
 
-You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+You can manage the HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
 
 Les modèles de contenu e-mail de l'email comprennent dix-huit mises en page optimisées par mobile et quatre modèles adaptés à la classe conçus par les artistes Behance. Ils correspondent aux utilisations les plus courantes : messages de bienvenue, newsletters, emails de réengagement, etc. Ils peuvent être facilement personnalisés avec le contenu de vos marques afin de faciliter la création des emails.
 
