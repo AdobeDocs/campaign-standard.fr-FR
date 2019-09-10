@@ -15,7 +15,7 @@ context-tags: flux de travail, utilisation, requête, livraison, planificateur
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -53,6 +53,8 @@ Vous pouvez envoyer un email chaque mardi à tous les clients pour les offres sp
 1. Dans **[!UICONTROL Raccourcis]** &gt; **[!UICONTROL Généralités]**, ajoutez des profils et ne sélectionnez **[!UICONTROL plus le contact par email]** avec la valeur **[!UICONTROL No]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an Email delivery{#creating-an-email-delivery}
 
 1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Canaux]**, glisser-déposer une **[!UICONTROL livraison par courriel]**.
@@ -70,6 +72,6 @@ Pour plus d'informations, reportez-vous [à la conception d'un courriel](../../d
 **Rubriques connexes :**
 
 * [activité de requête](../..//automating/using/query.md)
-* [activité de l'ordonnateur](../..//automating/using/scheduler.md)
+* [Activité Planificateur](../..//automating/using/scheduler.md)
 * [Diffusion Email ](../..//automating/using/email-delivery.md)
 * [Canal email](../..//channels/using/creating-an-email.md)
