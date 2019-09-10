@@ -14,8 +14,8 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 L'activité **[!UICONTROL Chargement de fichier]** permet d'importer les données d'un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l'utilisation d'une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
-## Contexte d'utilisation  {#context-of-use}
+## Contexte d'utilisation {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l'activité. Le fichier à charger peut par exemple être une liste de contacts.
 
@@ -41,7 +41,7 @@ Vous pouvez ainsi :
 * utiliser la structure du fichier pour l'appliquer aux données d'un autre fichier (récupéré grâce à l'activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous devez définir la structure du fichier attendue en téléchargeant un fichier d'exemple. Une fois cela réalisé, vous pouvez spécifier la provenance du fichier dont les données seront importées.
 
@@ -152,11 +152,13 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Insérer NULL dans le champ correspondant]** : autorise les valeurs vides. La valeur NULL est alors insérée.
    * **[!UICONTROL Générer une erreur]** : génère une erreur en cas de valeur vide.
 
-## Exemple {#example}
+## Exemple 1 : Actualiser la base de données {#example-1-update-the-database}
 
 L'activité de chargement de fichier sert essentiellement à structurer des données issues d'une activité de transfert de fichier en vue de les intégrer à des données existantes.
 
 L'exemple suivant montre le résultat d'une activité de chargement d'un fichier automatiquement téléchargé via une activité de transfert, suivie d'une mise à jour de données. Le but de ce workflow est d'enrichir la base Adobe Campaign avec de nouveaux profils ou de mettre à jour les profils existants à partir des données récupérées dans le fichier importé.
+
+![](assets/load_file_workflow_ex1.png)
 
 1. Placez une activité **[!UICONTROL Transfert de fichier]** dans votre workflow et paramétrez-la de façon à récupérer le fichier de votre choix.
 1. Placez une activité **[!UICONTROL Chargement de fichier]** et connectez-la à la suite de l'activité **[!UICONTROL Transfert de fichier]**.
@@ -169,3 +171,55 @@ L'exemple suivant montre le résultat d'une activité de chargement d'un fichier
 1. Placez une activité **[!UICONTROL Mise à jour de données]**, connectez-la à la suite de l'activité **[!UICONTROL Chargement de fichier]** et paramétrez-la. Voir [Mise à jour de données](../../automating/using/update-data.md).
 
 Une fois le workflow lancé, le fichier voulu est téléchargé, les données sont extraites, puis elles sont utilisées pour enrichir la base Adobe Campaign.
+
+## Exemple 2 : Envoyer un courriel avec des champs enrichis {#example-2-email-with-enriched-fields}
+
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+L'activité de fichier de charge permet également d'envoyer un email enrichi de données supplémentaires provenant d'un fichier externe dans le même flux de travail.
+
+L'exemple ci-dessous montre comment envoyer un e-mail à l'aide de données supplémentaires extraites d'un fichier externe via l'activité de chargement de charge. Dans cet exemple, le fichier externe contient une liste de profils avec leur numéro de compte associé. Vous voulez importer ces données pour envoyer un email à chaque profil avec leur numéro de compte.
+
+![](assets/load_file_workflow_ex2.png)
+
+1. Glisser-déposer une **[!UICONTROL activité de requête]** dans votre flux de travail et l'ouvrir pour définir la cible principale.
+
+   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
+
+1. Glisser-déposer une **[!UICONTROL activité de fichier]** Charger pour assigner certaines données à un profil. Dans cet exemple, charger un fichier contenant des numéros de compte correspondant à certains profils de la base de données.
+
+   ![](assets/load_file_activity.png)
+
+1. Glisser-déposer une **[!UICONTROL activité d'enrichissement]** dans votre flux de travail et lier le fichier de charge et les activités de requête.
+
+1. Dans **[!UICONTROL l'onglet Relations]** avancées de l'activité d'enrichissement, sélectionnez le **[!UICONTROL lien 0 ou 1 cardinalité simple]** et définissez les champs à utiliser pour la réconciliation. Ici nous utilisons le nom de famille pour réconcilier les données avec les profils de base de données.
+
+   ![](assets/load_file_enrichment_relation.png)
+
+1. Dans l'onglet **[!UICONTROL Données supplémentaires, sélectionnez]** les éléments que vous souhaitez utiliser dans votre e-mail. Cliquez ici pour sélectionner Numéro de compte (colonne du fichier que vous avez récupéré dans l'activité de charge de charge).
+
+   ![](assets/load_file_enrichment_select_element.png)
+
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
+
+   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
+
+1. Glisser-déposer une **[!UICONTROL activité Segmentation]** dans votre flux de travail et l'ouvrir pour affiner la cible principale.
+
+   ![](assets/load_file_segmentation.png)
+
+   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
+
+1. Placez une activité **[!UICONTROL Diffusion Email]dans votre workflow, puis ouvrez-la.**
+
+   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
+
+1. Ajoutez un champ de personnalisation et sélectionnez les données supplémentaires définies dans l'activité d'enrichissement (ici numéro de compte) du noeud **[!UICONTROL de données supplémentaires (targetdata)]** . Ceci permet de récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l'email.
+
+   ![](assets/load_file_perso_field.png)
+
+1. Enregistrez le courriel et commencez le flux de travail.
+
+Le courriel est envoyé à la cible. Chaque profil reçoit le courriel avec leur numéro de compte correspondant.
+
+![](assets/load_file_email.png)
