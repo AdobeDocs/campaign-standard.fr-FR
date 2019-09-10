@@ -14,8 +14,8 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -60,7 +60,7 @@ La création d'une activité marketing est présentée dans la section [Créer u
 
 **Rubrique connexe :**
 
-Vidéo [Créer un workflow](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Vidéo [Créer un workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Ajouter et relier les activités {#adding-and-linking-activities}
 
@@ -99,6 +99,13 @@ Une fois vos activités de workflow reliées, vous pouvez personnaliser les tran
 
 De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l'efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
+**Cas d'utilisation des flux de travail :**
+
+* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
+* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
+* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
+
 ## Configurer les activités {#configuring-activities}
 
 Par défaut, les activités ne sont pas définies et ne traiteront pas correctement les données si elles ne sont pas configurées. Chaque activité contient plusieurs onglets permettant de gérer des configurations spécifiques et des options génériques telles que les transitions sortantes, les libellés, etc.
@@ -109,4 +116,3 @@ Par défaut, les activités ne sont pas définies et ne traiteront pas correctem
 1. Définissez toutes les différentes options dont vous avez besoin pour traiter les données. Pour découvrir les options possibles pour chaque activité, reportez-vous à la section spécifique à l'activité dans cette documentation.
 1. Enregistrez l'activité et répétez ces opérations pour chaque activité du workflow.
 1. Enregistrez le workflow.
-
