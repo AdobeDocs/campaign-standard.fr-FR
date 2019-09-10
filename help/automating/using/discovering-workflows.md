@@ -13,8 +13,8 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -34,10 +34,13 @@ Les workflows peuvent intervenir dans **différents contextes**, par exemple :
 * import de données dans la base de Campaign. Voir à ce sujet [Import et export de données](../../automating/using/about-data-import-and-export.md).
 * processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc. Obtenez des informations supplémentaires sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md).
 
-Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Voir à ce propos la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Rubriques connexes :**
 
 * [Principes opérationnels des workflows](../../automating/using/workflow-operating-principles.md)
 * [A propos de l'import et de l'export de données](../../automating/using/about-data-import-and-export.md)
-
+* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
+* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
+* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
