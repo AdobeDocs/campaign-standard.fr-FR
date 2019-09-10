@@ -14,8 +14,8 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -34,7 +34,7 @@ Les emails uniques sont des emails standard, envoyés une seule fois.
 
 Les emails récurrents permettent d'envoyer plusieurs fois sur une période définie un même email à des cibles différentes. Vous pouvez agréger les diffusions par période afin d'obtenir des rapports adaptés.
 
-## Contexte d'utilisation  {#context-of-use}
+## Contexte d'utilisation {#context-of-use}
 
 L'activité **[!UICONTROL Diffusion Email]** est généralement utilisée afin d'automatiser l'envoi d'un email à une cible calculée dans le même workflow.
 
@@ -44,7 +44,7 @@ Les destinataires de l'email sont définis en amont de l'activité dans le même
 
 La préparation du message est déclenchée selon les paramètres d'exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d'en automatiser l'exécution.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion Email]** dans votre workflow.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
@@ -106,3 +106,9 @@ Cet exemple représente un workflow d'anniversaire. Un email est envoyé chaque 
 
    ![](assets/wkf_delivery_example_4.png)
 
+**Rubriques connexes :**
+
+* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
+* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
+* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
