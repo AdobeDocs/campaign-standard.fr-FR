@@ -1,10 +1,10 @@
 ---
-product: campagne Adobe
-sub-product: norme de campagne Adobe
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
 
 ---
 
@@ -84,6 +84,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Préparation et envoi d'une notification push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personnalisation d'une notification push](channels/using/customizing-a-push-notification.md)
       + [Création d'une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
+      + [Création et mise à jour d'informations sur le profil basées sur les données de l'application mobile](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d'un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -198,7 +199,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Ajouter des visualisations](reporting/using/adding-visualizations.md)
       + [Ajouter des composants](reporting/using/adding-components.md)
       + [Création d'une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Création d'un rapport basé sur les segments de flux de travail](reporting/using/creating-a-report-workflow-segment.md)
+      + [Création d'un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Intégration avec Adobe Cloud {#integrating-with-adobe-cloud}
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Utilisation de Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
@@ -241,7 +242,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Utiliser les données de workflow](automating/using/using-workflow-data.md)
       + [Exécuter un workflow](automating/using/executing-a-workflow.md)
       + [Appeler un workflow avec des paramètres externes](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [pratiques exemplaires](automating/using/best-practices-workflows.md)
+      + [Bonnes pratiques relatives aux workflows](automating/using/best-practices-workflows.md)
    + Activités de ciblage {#targeting-activities}
       + [A propos des activités de ciblage](automating/using/about-targeting-activities.md)
       + [Requête](automating/using/query.md)
@@ -302,7 +303,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [Statuts des ressources](developing/using/resource-statuses.md)
       + [Contrôle des modifications du modèle de données](developing/using/monitoring-data-model-changes.md)
    + Ajouter ou étendre une ressource {#adding-or-extending-a-resource}
-      + [Étapes clés pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
+      + [Principales étapes pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
       + [Configuration de la structure de données de la ressource](developing/using/configuring-the-resource-s-data-structure.md)
       + [Configuration de la définition d'écran](developing/using/configuring-the-screen-definition.md)
@@ -322,7 +323,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
    + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
-      + [gestion des utilisateurs](administration/using/users-management.md)
+      + [Gestion des utilisateurs](administration/using/users-management.md)
       + [Entités organisationnelles](administration/using/organizational-units.md)
       + [Liste des rôles](administration/using/list-of-roles.md)
       + [Gestion des groupes et des utilisateurs](administration/using/managing-groups-and-users.md)
