@@ -15,7 +15,7 @@ context-tags: 'flux de travail, utilisation, requête, segmentation, livraison '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ Vous pouvez envoyer un email de ciblage aux clients avec des offres sur leurs ma
 1. Dans **[!UICONTROL les raccourcis]**, les **[!UICONTROL profils de glisser-déposer]** et de sélectionner **[!UICONTROL le courriel]** avec l'opérateur **[!UICONTROL n'est pas vide]**.
 1. Dans **[!UICONTROL Raccourcis]**, **[!UICONTROL profils glisser-déposer]** et sélectionner le champ **[!UICONTROL n'est plus contact par email]** avec la valeur **[!UICONTROL non]**.
 1. Cliquez **[!UICONTROL sur Confirmer]** deux fois.
+
+![](assets/wf-complement-query.png)
 
 ## Creating a Segmentation activity{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ Pour plus d'informations, reportez-vous [à la conception d'un courriel](../../d
 
 1. Cliquez **[!UICONTROL sur Aperçu]** pour vérifier votre disposition.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+![](assets/wf-segmentation-location.png)
 
 **Rubriques connexes :**
 
