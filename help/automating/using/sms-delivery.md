@@ -14,8 +14,8 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -34,7 +34,7 @@ Les SMS uniques sont des SMS standard, envoyés une seule fois.
 
 Les SMS récurrents permettent d'envoyer plusieurs fois sur une période définie un même SMS à des cibles différentes. Vous pouvez agréger les diffusions par période afin d'obtenir des rapports adaptés.
 
-## Contexte d'utilisation  {#context-of-use}
+## Contexte d'utilisation {#context-of-use}
 
 L'activité **[!UICONTROL Diffusion SMS]** est généralement utilisée afin d'automatiser l'envoi d'un SMS à une cible calculée dans le même workflow.
 
@@ -44,7 +44,7 @@ Les destinataires du SMS sont définis en amont de l'activité dans le même wor
 
 La préparation du message est déclenchée selon les paramètres d'exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d'en automatiser l'exécution.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion SMS]** dans votre workflow.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
@@ -100,3 +100,4 @@ Cet exemple représente un workflow d'anniversaire. Un SMS est envoyé chaque jo
 
    ![](assets/wkf_sms_example_4.png)
 
+Pour un autre exemple de livraison SMS dans un flux de travail, voir [Utilisation : Retargeting workflow envoie une nouvelle livraison à des non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md).
