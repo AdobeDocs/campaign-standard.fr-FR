@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 382ea74e-1662-4c64-96d7-676040586913
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -48,3 +48,9 @@ L'onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTROL R
 * des agrégats.
 * des collections
 
+**Rubriques connexes :**
+
+* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
+* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
+* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
