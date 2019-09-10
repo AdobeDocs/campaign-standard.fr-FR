@@ -14,8 +14,8 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
+translation-type: tm+mt
+source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
 
 ---
 
@@ -35,8 +35,8 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    L'usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
-* Comme **Piège** : le message est envoyé au profil de test au même titre que la cible principale, notamment pour identifier une utilisation frauduleuse de votre fichier client.
-* Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d'un message afin de tester les éléments de personnalisation.
+* **En tant que piège**: le message est envoyé au profil d'essai tout comme il est envoyé à la cible principale. Voir [Utilisation des pièges](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d'un message afin de tester les éléments de personnalisation. Voir [Prévisualiser le message](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -73,7 +73,7 @@ Le profil de test est alors ajouté dans la liste des profils.
 
 **Rubrique connexe :**
 
-Vidéo [Créer un profil de test](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html).
 
 ### Editer un profil de test {#editing-test-profiles}
 
@@ -127,43 +127,48 @@ Vous devez envoyer autant de BAT que nécessaire jusqu'à ce que le contenu de v
 
 **Rubrique connexe :**
 
-Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
-<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
+## À l'aide de pièges {#using-traps}
 
-This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
+Lorsque vous utilisez des pièges, le message est envoyé au profil d'essai comme il est envoyé à la cible principale, comme moyen de déterminer si votre dossier client est utilisé frauduleusement.
 
-1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Les pièges ont été conçus à l'origine pour des livraisons directes. Ils vous permettent :
+* Vérifiez que votre fournisseur de courrier direct envoie réellement la communication.
+* Recevez le courrier en même temps et dans les mêmes conditions que vos clients.
+* Conservez une copie exacte du courrier envoyé.
+* Vérifiez que votre liste de clients n'est pas utilisée par votre fournisseur de courrier direct. En effet, si une autre communication est envoyée à l'adresse de votre profil d'essai, votre dossier client peut avoir été utilisé sans votre connaissance. C'est pourquoi l'adresse du profil d'essai ne devrait être utilisée qu'à cette fin.
 
-    This test profile becomes part of the targeted audience.
+Pour plus d'informations sur l'ajout de pièges à un public de publipostage direct, voir [Ajouter des profils d'essai et de capture](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-   >[!NOTE]
-   >
-   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
+Pour les autres canaux de communication, vous pouvez ajouter des profils d'essai de piège à votre cible principale afin de :
+* Vérifiez que votre message a été envoyé avec succès.
+* Obtenez et conservez une copie exacte de votre message.
+* Track quand il a été envoyé et reçu.
 
-1. Access the marketing activity list and create a test workflow.
-
-   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
-
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
-
-   The Query activity is presented in the [Query](../../automating/using/query.md) section.
-
-1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
-
-1. Drag and drop an **Email delivery** activity into your workflow and open it.
-
-   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
-
-1. From the email message dashboard, select the test profile with trap usage that you created.
-
-1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
-
-1. Save the email and start the workflow.
-
-During message preparation, the target count includes the test profile that you selected.
-Once the message is sent, additional data is replaced by data from a real profile.
+Pour utiliser un profil d'essai comme piège, il doit être inclus dans le public de votre message.
 
 >[!NOTE]
+>
+>Par opposition aux profils d'essai utilisés pour [les épreuves](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) ou [le rendu électronique](../../sending/using/email-rendering.md), le message est envoyé en même temps à la cible principale et aux profils d'essai utilisés comme pièges.
+
+Lorsque vous définissez le public d'un message :
+
+1. À partir de **[!UICONTROL l'onglet Profils]** d'essai, sélectionnez un profil d'essai. Assurez-vous qu'il a **[!UICONTROL le piège]** comme l'usage prévu.
+
+   ![](assets/trap_select.png)
+
+1. Une fois le contenu de votre message prêt, cliquez sur **[!UICONTROL le]** bouton Préparer. Voir [Préparer l'envoi](../../sending/using/preparing-the-send.md).
+   >[!NOTE]
    >
-   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
+   >Assurez-vous que vous avez choisi un objectif principal. Sinon, votre message ne peut pas être envoyé.
+
+1. Cliquez sur le bouton **[!UICONTROL Confirmer.]** Voir [Confirmer l'envoi](../../sending/using/confirming-the-send.md).
+
+   ![](assets/trap_confirm.png)
+
+Le message est envoyé à la cible principale et au profil d'essai.
+
+>[!NOTE]
+>
+>Lorsque l'on utilise un profil d'essai comme piège, pour tout champ enrichi dans un message, les données supplémentaires correspondantes sont choisies aléatoirement à partir d'un profil ciblé réel et assigné au profil d'essai du piège. Pour plus d'enrichissement, voir [cet exemple](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
