@@ -15,7 +15,7 @@ context-tags: 'flux de travail, utilisation, requête, attente, livraison '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Vous pouvez envoyer un email aux clients, puis un SMS à ceux qui n'ont pas ouve
 1. Dans **[!UICONTROL Raccourcis]**, profils de drag-and-drop **[!UICONTROL et]** sélectionnez **[!UICONTROL ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
+![](assets/wf-complement-query.png)
+
 ## Creating an email delivery{#creating-an-email-delivery}
 
 1. Glisser-déposer un**[!UICONTROL Livraison par courriel]** livraison par courriel après chaque segment.
@@ -44,7 +46,6 @@ Vous pouvez envoyer un email aux clients, puis un SMS à ceux qui n'ont pas ouve
 1. Sélectionnez **[!UICONTROL Ajouter une transition de sortie sans la population]** et cliquez **[!UICONTROL sur Suivant]**.
 1. Sélectionnez un modèle de courriel et cliquez **[!UICONTROL sur Suivant]**.
 1. Entrez les propriétés de courriel et cliquez **[!UICONTROL sur Suivant]**.
-1. Renommez l'offre **email email**.
 1. Pour créer la disposition de votre courriel, cliquez **[!UICONTROL sur Utiliser le concepteur de courriel]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre email avec des offres spécifiques à chaque emplacement. Pour plus d'informations, reportez-vous [à la conception d'un email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
@@ -76,6 +77,8 @@ Vous pouvez envoyer un email aux clients, puis un SMS à ceux qui n'ont pas ouve
 Pour plus d'informations, reportez-vous [à la conception d'un SMS](../../channels/using/creating-an-sms-message.md).
 1. Cliquez **[!UICONTROL sur Aperçu]** pour vérifier votre disposition.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **Rubriques connexes :**
 
