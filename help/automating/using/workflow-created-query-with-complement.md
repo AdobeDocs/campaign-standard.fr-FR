@@ -15,7 +15,7 @@ context-tags: flux de travail, utilisation, segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ Vous pouvez envoyer un courriel aux clients : un pour les clients créés il y a
 1. Dans **[!UICONTROL Raccourcis]**, profils de drag-and-drop **[!UICONTROL et]** sélectionnez **[!UICONTROL ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
+![](assets/wf-complement-query.png)
+
 ## Créer une activité de segmentation {#create-a-segmentation-activity}
 
 1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Cibler]**, glisser-déposer une **[!UICONTROL activité de segmentation]** et double-cliquez dessus.
@@ -46,6 +48,8 @@ Vous pouvez envoyer un courriel aux clients : un pour les clients créés il y a
 1. Dans **[!UICONTROL les options avancées]**, vérifiez **[!UICONTROL Générer un complément]** pour créer un segment ciblant les autres bénéficiaires.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ Vous pouvez envoyer un courriel aux clients : un pour les clients créés il y a
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Pour plus d'informations, reportez-vous [à la conception d'un courriel](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **Rubriques connexes :**
 
