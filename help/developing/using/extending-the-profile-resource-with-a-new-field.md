@@ -13,8 +13,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 ---
 
@@ -29,10 +29,10 @@ Nous souhaitons ici mettre à jour nos profils avec le nouveau champ à l'aide d
 
 Pour ce faire, procédez comme suit :
 
-* [Etape 1 : Etendre la ressource Profil](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Etape 2 : Etendre le profil de test](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Etape 3 : Publier votre ressource personnalisée](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Etape 4 : Mettre à jour et cibler les profils avec un workflow](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Etape 1 : Etendre la ressource Profil ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
+* [Etape 2 : Etendre le profil de test ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
+* [Etape 3 : Publier votre ressource personnalisée ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
+* [Etape 4 : Mettre à jour et cibler les profils avec un workflow ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
 
 Le champ suivant sera ensuite ajouté à nos profils et pourra être ciblé dans une diffusion :
 
@@ -178,7 +178,7 @@ Votre landing page est maintenant prête. Pour mettre à jour les profils, vous 
 
    ![](assets/schema_extension_uc3.png)
 
-1. Créez votre email selon vos besoins. Pour plus d'informations sur la personnalisation des emails, consultez cette [page](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Créez votre email selon vos besoins. Pour plus d'informations sur la personnalisation des emails, consultez cette [page](../../designing/using/quick-start.md).
 1. Ajoutez un bouton à votre email qui redirigera les profils vers votre landing page.
 1. Sélectionnez le bouton ajouté et cliquez sur ![](assets/schema_extension_uc7.png) dans la section **[!UICONTROL Lien]** du volet gauche.
 
