@@ -14,8 +14,8 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
+translation-type: tm+mt
+source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
@@ -83,7 +83,7 @@ Vous pouvez maintenant accéder au message que vous avez créé et sélectionner
 
 Pour configurer la personnalisation dans un message transactionnel, procédez comme suit :
 
-1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier l'objet et le contenu de votre message. Pour cet exemple, importez un modèle HTML contenant les images, la feuille de style et un fichier HTML. L'import de modèles HTML est présenté dans la section [Charger un contenu existant](../../designing/using/selecting-an-existing-content.md).
+1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier l'objet et le contenu de votre message. Pour cet exemple, importez un modèle HTML contenant les images, la feuille de style et un fichier HTML. L'import de modèles HTML est présenté dans la section [Charger un contenu existant](../../designing/using/using-existing-content.md).
 
    ![](assets/message-center_6.png)
 
@@ -97,7 +97,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
    ![](assets/message-center_7-enrichment.png)
 
-   Les étapes d'insertion d'un champ de personnalisation sont présentées dans la section [Insertion d'un champ de personnalisation](../../designing/using/inserting-a-personalization-field.md).
+   Les étapes d'insertion d'un champ de personnalisation sont présentées dans la section [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_8.png)
 
@@ -115,11 +115,11 @@ Vous pouvez créer des listes de produits référençant une ou plusieurs collec
 
 >[!CAUTION]
 >
->Les listes de produits ne sont disponibles que lorsque vous éditez des emails transactionnels via l'interface du [Concepteur d'email](../../designing/using/about-email-content-design.md#about-the-email-designer).
+>Les listes de produits ne sont disponibles que lorsque vous éditez des emails transactionnels via l'interface du [Concepteur d'email](../../designing/using/overview.md#email-designer).
 
 Pour ajouter une liste de produits abandonnés dans un message transactionnel, suivez les étapes ci-dessous.
 
-Vous pouvez également regarder une série de vidéos expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+Vous pouvez également regarder une série de vidéos expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
@@ -130,9 +130,9 @@ Vous pouvez également regarder une série de vidéos expliquant les étapes né
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l'événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
 1. Dans le message transactionnel, cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le contenu de l'email.
-1. Placez un composant de structure dans l'espace de travail. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Placez un composant de structure dans l'espace de travail. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d'image et un composant de bouton. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d'image et un composant de bouton. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez le composant de structure que vous venez de créer et cliquez sur l'icône **[!UICONTROL Activer la liste de produits]** dans la barre d'outils contextuelle.
 
@@ -148,7 +148,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
    * **[!UICONTROL Colonne]** : verticalement, c'est-à-dire que les éléments sont côte à côte sur une même ligne.
    >[!NOTE]
    >
-   >L'option **[!UICONTROL Colonne]** n'est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]**). Lors de l'édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d'informations sur la sélection de composants de structure, consultez la section [Editer la structure de l'email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >L'option **[!UICONTROL Colonne]** n'est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]**). Lors de l'édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d'informations sur la sélection de composants de structure, consultez la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez la collection de données que vous avez créée lors de la configuration de l'événement associé au message transactionnel. Elle se trouve sous le nœud **[!UICONTROL Contexte]** &gt; **[!UICONTROL Evénement temps réel]** &gt; **[!UICONTROL Contexte de l'événement]**.
 
@@ -164,7 +164,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    >[!NOTE]
    >
-   >Si vous souhaitez que les éléments de votre liste s'affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d'éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d'informations sur la sélection de composants de structure, consultez la section [Editer la structure de l'email](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   >Si vous souhaitez que les éléments de votre liste s'affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d'éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d'informations sur la sélection de composants de structure, consultez la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ### Remplir la liste de produits   {#populating-the-product-listing}
 
@@ -221,7 +221,7 @@ Pour plus d'informations sur la création d'une collection et de champs associé
 
    Le contenu de remplacement sera affiché si la collection est vide lorsque l'événement est déclenché, par exemple lorsqu'un client ne possède aucun produit dans son panier.
 
-1. Dans le volet Paramètres, éditez les styles de la liste de produits. Voir à ce propos la section [Editer les styles d'un email](../../designing/using/editing-email-styles.md).
+1. Dans le volet Paramètres, éditez les styles de la liste de produits. Voir à ce propos la section [Editer les styles d'un email](../../designing/using/styles.md).
 1. Prévisualisez l'email en utilisant un profil de test associé à l'événement transactionnel adéquat et pour lequel vous avez défini des données de collection. Par exemple, ajoutez les informations suivantes dans la section **[!UICONTROL Données de l'événement]** pour le profil de test que vous souhaitez utiliser :
 
    ![](assets/message-center_loop_test-profile_payload.png)
