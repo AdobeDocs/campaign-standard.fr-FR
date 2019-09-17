@@ -13,8 +13,8 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
+translation-type: tm+mt
+source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
 ---
 
@@ -49,11 +49,11 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
    ![](assets/email_creation_3.png)
 
-1. Définissez et personnalisez le contenu du message, le nom de l'expéditeur et l'objet à l'aide du [Concepteur d'email](../../designing/using/about-email-content-design.md#about-the-email-designer). Voir à ce propos [A propos de la conception du contenu d'un email](../../designing/using/about-email-content-design.md).
+1. Définissez et personnalisez le contenu du message, le nom de l'expéditeur et l'objet à l'aide du [Concepteur d'email](../../designing/using/overview.md). Voir à ce propos [A propos de la conception du contenu d'un email](../../designing/using/overview.md).
 
    ![](assets/email_creation_4.png)
 
-   Vous pouvez concevoir votre message directement au moyen d'un modèle de contenu prédéfini, ou utiliser Dreamweaver ou Adobe Experience Manager. Si vous ne souhaitez pas concevoir le contenu par vous-même, vous pouvez également charger un contenu qui a été préparé pour vous ou importer un contenu existant depuis une URL. Voir [Sélectionner un contenu existant](../../designing/using/selecting-an-existing-content.md).
+   Vous pouvez concevoir votre message directement au moyen d'un modèle de contenu prédéfini, ou utiliser Dreamweaver ou Adobe Experience Manager. Si vous ne souhaitez pas concevoir le contenu par vous-même, vous pouvez également charger un contenu qui a été préparé pour vous ou importer un contenu existant depuis une URL. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md).
 
 1. Prévisualisez votre message. Voir [Prévisualiser le message](../../sending/using/previewing-messages.md).
 1. Validez la création de l'email.
@@ -92,8 +92,8 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GettingStartedEmail.html)
-* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) vidéo
+* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
+* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
