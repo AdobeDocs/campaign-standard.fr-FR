@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez utiliser Adobe Campaign pour envoyer des notifications push transac
 
 Vous pouvez envoyer deux types de notification push transactionnelle :
 
-* Notifications push transactionnelles ciblant un événement
+* Notifications push transactionnelles ciblant un événement.
 * Notifications push transactionnelles ciblant des profils de la base de données Adobe Campaign
 
 Une fois que vous avez créé et publié l'événement de votre choix (l'abandon de panier, comme expliqué dans [cette section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), la notification push transactionnelle correspondante est automatiquement créée.
@@ -95,7 +95,7 @@ Si le jeton d'enregistrement existe, l'utilisateur correspondant reçoit une not
 
 ## Notifications push transactionnelles ciblant un profil  {#transactional-push-notifications-targeting-a-profile}
 
-Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/inserting-a-personalization-field.md) comme le prénom du destinataire.
+Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme le prénom du destinataire.
 
 Dans ce cas, l'événement doit contenir certains champs permettant la réconciliation avec un profil de la base de données Adobe Campaign.
 
@@ -117,7 +117,7 @@ Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l'em
 
 1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le titre et le corps de votre message.
 
-   Contrairement aux configurations reposant sur des événements temps réel, vous disposez d'un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d'un champ de personnalisation](../../designing/using/inserting-a-personalization-field.md).
+   Contrairement aux configurations reposant sur des événements temps réel, vous disposez d'un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/message-center_push_content_profile.png)
 
