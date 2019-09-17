@@ -14,8 +14,8 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -39,7 +39,7 @@ Les étapes de création d'une notification push avec Adobe Campaign sont les su
 
    Par défaut, vous avez le choix entre deux modèles :
 
-   * **[!UICONTROL Envoyer un push aux profils Campaign]** : utilisez ce modèle pour cibler les profils CRM Adobe Campaign qui se sont abonnés à votre application mobile et ont choisi de recevoir des notifications push. Vous pouvez insérer des champs de [personnalisation](../../designing/using/inserting-a-personalization-field.md), tels que le prénom du destinataire, dans votre notification push.
+   * **[!UICONTROL Envoyer un push aux profils Campaign]** : utilisez ce modèle pour cibler les profils CRM Adobe Campaign qui se sont abonnés à votre application mobile et ont choisi de recevoir des notifications push. Vous pouvez insérer des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), tels que le prénom du destinataire, dans votre notification push.
    * **[!UICONTROL Envoyer un push aux abonnés de l'application]** : utilisez ce modèle pour envoyer une notification push à tous les utilisateurs anonymes ou connus qui ont accepté de recevoir des notifications en provenance de vos applications. Vous pouvez personnaliser ces messages avec les données collectées à partir de votre application mobile.
    Vous pouvez également sélectionner des modèles multilingues. Pour plus d'informations, consultez la section [Création d'une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -65,7 +65,7 @@ Les étapes de création d'une notification push avec Adobe Campaign sont les su
 
    ![](assets/push_notif_content.png)
 
-   Les options et le contenu de la notification push configurés ici sont transmis à votre application mobile sous la forme d'une payload. La structure détaillée de la payload est présentée dans la technote de [présentation de la structure de la payload des notifications push ACS](https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+   Les options et le contenu de la notification push configurés ici sont transmis à votre application mobile sous la forme d'une payload. La structure détaillée de la payload est présentée dans la technote de [présentation de la structure de la payload des notifications push ACS](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -119,7 +119,7 @@ Il est possible d’envoyer les notifications push à une audience sélectionné
 
    >[!NOTE]
    >
-   >Des défaillances en aval d’Adobe Campaign peuvent en être la cause. Cela peut également être lié à des défaillances des fournisseurs comme apns et fcm. Pour plus d’informations sur les défaillances des fournisseurs, consultez la documentation d'[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) et d'[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref).
+   >Des défaillances en aval d’Adobe Campaign peuvent en être la cause. Cela peut également être lié à des défaillances des fournisseurs comme apns et fcm. Pour plus d’informations sur les défaillances des fournisseurs, consultez la documentation d’[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) et d’[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref).
 
    ![](assets/push_send_6.png)
 
