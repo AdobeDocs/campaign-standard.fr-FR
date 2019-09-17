@@ -13,8 +13,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -51,7 +51,7 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Créer et modifier le contenu de vos emails dans Dreamweaver.
 
-   Voir à ce propos la section [Editer le contenu dans Dreamweaver](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver).
+   Voir à ce propos la section [Editer le contenu dans Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver).
 
 * Envoyez des emails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques suivis sur votre site web par Adobe Analytics.
 
@@ -59,9 +59,9 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Editez des images et utilisez un ensemble complet de fonctionnalités du SDK Adobe Creative afin d'améliorer vos images directement dans l'éditeur de contenu.
 
-   Voir à ce propos [Modifier des images avec le SDK Adobe Creative](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md).
+   Voir à ce propos [Modifier des images avec le SDK Adobe Creative](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
 
 * Automatisez l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide du SDK Adobe Experience Platform.
 
-   Voir à ce propos [ Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
+   Voir à ce propos [Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
