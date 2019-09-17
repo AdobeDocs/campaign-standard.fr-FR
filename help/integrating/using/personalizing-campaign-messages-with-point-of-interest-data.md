@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -66,6 +66,6 @@ L'email contenant la réduction de 10 % sera envoyé aux abonnés :
 **Rubriques connexes :**
 
 * [Créer un email](../../channels/using/creating-an-email.md)
-* [Définir le contenu](../../designing/using/example--email-personalization.md)
+* [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)
 * [Envoyer les messages](../../sending/using/confirming-the-send.md)
 
