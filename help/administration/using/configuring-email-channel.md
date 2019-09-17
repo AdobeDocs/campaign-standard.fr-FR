@@ -14,8 +14,8 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -234,7 +234,7 @@ La section **[!UICONTROL Validité]** propose les paramètres suivants :
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
-* **[!UICONTROL Activer le tracking]** : permet d'activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l'icône **[!UICONTROL Liens]** dans la barre d'actions Concepteur d'email. Voir [A propos des URL trackées](../../designing/using/about-tracked-urls.md).
+* **[!UICONTROL Activer le tracking]** : permet d'activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l'icône **[!UICONTROL Liens]** dans la barre d'actions Concepteur d'email. Voir [A propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d'activation du tracking sur les URL.
 * **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
 
@@ -242,7 +242,7 @@ La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
 La section **[!UICONTROL Paramètres avancés]** propose les paramètres suivants :
 
-Les deux premiers champs permettent de saisir les informations nécessaires à l'élaboration des en-têtes de messages email (adresse de réponse et texte de l'adresse de réponse). Ces informations peuvent être personnalisées. Pour cela, cliquez sur le bouton situé à droite du champ à éditer, puis ajoutez des champs de personnalisation. L'insertion et l'utilisation de champs de personnalisation sont présentées dans la section [Insertion d'un champ de personnalisation](../../designing/using/inserting-a-personalization-field.md).
+Les deux premiers champs permettent de saisir les informations nécessaires à l'élaboration des en-têtes de messages email (adresse de réponse et texte de l'adresse de réponse). Ces informations peuvent être personnalisées. Pour cela, cliquez sur le bouton situé à droite du champ à éditer, puis ajoutez des champs de personnalisation. L'insertion et l'utilisation de champs de personnalisation sont présentées dans la section [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 
 #### Contexte de ciblage   {#target-context}
 
