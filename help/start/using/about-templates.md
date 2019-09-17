@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -31,7 +31,7 @@ Par exemple, dans le cas d'un modèle d'email, vous pouvez pré-renseigner le co
 
 ![](assets/template_1.png)
 
-Pour chaque type d'activité marketing, un ou plusieurs modèles hors-la-boîte sont disponibles avec une configuration minimale. Ces modèles d'usine ne peuvent être ni modifiés, ni supprimés.
+Pour chaque type d'activité marketing, un ou plusieurs modèles disponibles sont disponibles avec une configuration minimale. Ces modèles d'usine ne peuvent être ni modifiés, ni supprimés.
 
 Des modèles sont disponibles pour les activités marketing suivantes :
 
@@ -54,79 +54,79 @@ La gestion de ces modèles s'effectue sur l'écran **[!UICONTROL Ressources]** &
 
 ## Modèles de contenu  {#content-templates}
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). A partir de là, vous pouvez gérer des modèles de contenu de page d'atterrissage, des modèles de contenu e-mail et aussi des fragments.
+The HTML content templates are accessible from the **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). De là, vous pouvez gérer des modèles de contenu de page de lancement, des modèles de contenu de messagerie et aussi des fragments.
 
 ![](assets/content_templates_list.png)
 
-Les modèles de contenu hors-la-boîte sont uniquement lisibles. Pour en modifier l'un, vous devez d'abord reproduire le modèle souhaité.
+Les modèles de contenu disponibles sont en lecture seule. Pour modifier l'un d'eux, vous devez d'abord dupliquer le modèle souhaité.
 
-Vous pouvez créer de nouveaux modèles ou fragments et définir votre propre contenu. Pour plus d'informations, voir [Créer un modèle de contenu](../../start/using/about-templates.md#creating-a-content-template) et [Créer un fragment de contenu](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+Vous pouvez créer de nouveaux modèles ou fragments et définir votre propre contenu. Pour plus d'informations à ce sujet, consultez [Création d'un modèle](../../start/using/about-templates.md#creating-a-content-template) de contenu et [Création d'un fragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment)de contenu.
 
-Lors de l'édition du contenu avec le concepteur de courriels, vous pouvez aussi créer des modèles de contenu en sauvegardant votre contenu comme un fragment ou comme un modèle. Pour plus d'informations, voir [Sauvegarder le contenu comme modèle](../../start/using/about-templates.md#saving-content-as-template) et [Sauvegarder le contenu comme fragmentment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+Lorsque vous modifiez du contenu avec le Concepteur d'e-mails, vous pouvez également créer des modèles de contenu en enregistrant votre contenu en tant que fragment ou modèle. Pour plus d'informations à ce sujet, consultez [Enregistrement du contenu en tant que modèle](../../start/using/about-templates.md#saving-content-as-template) et [Enregistrement du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-### gabarits de contenu électronique {#email-content-templates}
+### Modèles de contenu de courrier électronique hors de la boîte {#email-content-templates}
 
-You can manage the HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/about-email-content-design.md#about-the-email-designer) home page.
+You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md) home page.
 
-Les modèles de contenu e-mail de l'email comprennent dix-huit mises en page optimisées par mobile et quatre modèles adaptés à la classe conçus par les artistes Behance. Ils correspondent aux utilisations les plus courantes : messages de bienvenue, newsletters, emails de réengagement, etc. Ils peuvent être facilement personnalisés avec le contenu de vos marques afin de faciliter la création des emails.
+Les modèles de contenu électronique disponibles comprennent dix-huit mises en page optimisées pour les mobiles et quatre modèles réactifs les plus performants conçus par Behance. Ils correspondent aux utilisations les plus courantes : messages de bienvenue, newsletters, emails de réengagement, etc. Ils peuvent être facilement personnalisés avec le contenu de vos marques afin de faciliter la création des emails.
 
 ![](assets/content_templates.png)
 
 **Rubriques connexes :**
 
 * Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* Pour plus d'informations sur l'édition de contenu, voir [A propos de la conception du contenu d'un email](../../designing/using/about-email-content-design.md).
+* Pour plus d'informations sur l'édition de contenu, voir [A propos de la conception du contenu d'un email](../../designing/using/overview.md).
 
 ### Creating a content template {#creating-a-content-template}
 
 Vous pouvez créer vos propres modèles de contenu pour les utiliser autant de fois que nécessaire.
 
-L'exemple suivant montre comment créer un modèle de contenu email.
+L'exemple suivant montre comment créer un modèle de contenu de messagerie.
 
 1. Accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis cliquez sur **[!UICONTROL Créer]**.
 1. Cliquez sur le libellé d'email de façon à accéder à l'onglet **[!UICONTROL Propriétés]** du Concepteur d'email.
-1. Spécifiez une étiquette reconnaissable et sélectionnez les paramètres suivants pour pouvoir utiliser ce modèle dans les courriels :
+1. Spécifiez une étiquette reconnaissable et sélectionnez les paramètres suivants pour pouvoir utiliser ce modèle dans les e-mails:
 
-   * Sélectionnez **[!UICONTROL Shared]** ou **[!UICONTROL Livraison]** à partir de **[!UICONTROL la liste]** déroulante Type de contenu.
-   * Sélectionnez **[!UICONTROL Template]** dans **[!UICONTROL la liste]** déroulante Type HTML.
+   * Sélectionnez **[!UICONTROL Partagé]** ou **[!UICONTROL Livraison]** dans la liste déroulante Type **[!UICONTROL de]** contenu.
+   * Sélectionnez **[!UICONTROL Modèle]** dans la liste déroulante Type **** HTML.
    ![](assets/email_designer_create-template.png)
 
-1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme vignette pour le modèle. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
+1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature pour le modèle. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Cette vignette sera affichée dans l'onglet **[!UICONTROL Modèles]** de la [page d'accueil du concepteur](../../designing/using/about-email-content-design.md#about-the-email-designer) de courriels.
+   Cette vignette s'affichera dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md) .
 
-1. Fermez l'onglet **[!UICONTROL Propriétés]** pour retourner à l'espace de travail principal.
-1. Ajoutez des composants de structure et des composants de contenu que vous pouvez personnaliser au besoin.
+1. Fermez l'onglet **[!UICONTROL Propriétés]** pour revenir à l'espace de travail principal.
+1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser selon vos besoins.
    >[!NOTE]
    >
    > Vous ne pouvez pas insérer de champs de personnalisation ou de contenu conditionnel dans un modèle de contenu.
-1. Une fois édité, enregistrez votre modèle.
+1. Une fois modifié, enregistrez votre modèle.
 
-Ce modèle peut maintenant être utilisé dans n'importe quel email construit avec le concepteur email. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la [page d'accueil du concepteur](../../designing/using/about-email-content-design.md#about-the-email-designer) de courriels.
+Ce modèle peut maintenant être utilisé dans n'importe quel e-mail créé avec le concepteur de messagerie. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md) .
 
 ![](assets/content_template_new.png)
 
-### Sauvegarder le contenu comme modèle {#saving-content-as-template}
+### Enregistrement du contenu en tant que modèle {#saving-content-as-template}
 
-Lors de l'édition d'un email avec le concepteur email, vous pouvez sauvegarder directement le contenu de ce courriel comme modèle.
+Lors de la modification d'un e-mail avec le Concepteur d'e-mails, vous pouvez enregistrer directement le contenu de cet e-mail en tant que modèle.
 
 <!--[!CAUTION]
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Sélectionnez **[!UICONTROL Enregistrer sous la]** barre d'outils principale de la barre d'outils.
+1. Sélectionnez **[!UICONTROL Enregistrer comme modèle]** dans la barre d'outils principale du Concepteur d'e-mails.
 
    ![](assets/email_designer_save-as-template.png)
 
-1. Ajoutez une étiquette et une description si nécessaire, puis cliquez **[!UICONTROL sur Enregistrer]**.
+1. Ajoutez un libellé et une description en cas de besoin, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. Pour trouver le modèle que vous venez de créer, allez aux **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**.
+1. To find the template that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
 
-1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la [page d'accueil du concepteur](../../designing/using/about-email-content-design.md#about-the-email-designer) de courriels.
+1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md) .
 
    ![](assets/content_template_new.png)
 
