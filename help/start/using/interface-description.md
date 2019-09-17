@@ -13,8 +13,8 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
 
@@ -75,7 +75,7 @@ Le menu avancé s'affiche lorsque vous cliquez sur l'icône **Adobe Campaign**, 
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 
-### Plans marketing  {#marketing-plans}
+### Plans marketing {#marketing-plans}
 
 L'icône **[!UICONTROL Plans Marketing]** permet d'accéder aux fonctionnalités suivantes :
 
@@ -98,8 +98,8 @@ L'icône **[!UICONTROL Profils &amp; audiences]** permet d'accéder aux fonction
 L'icône **[!UICONTROL Ressources]** permet d'accéder aux fonctionnalités suivantes :
 
 * **[!UICONTROL Modèles]**, qui contient les sous-menus pour chaque type de modèle - voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
-* **[!UICONTROL Blocs de contenu]** - voir à ce propos la section [Ajouter un bloc de contenu](../../designing/using/adding-a-content-block.md).
-* **[!UICONTROL Modèles et fragments de contenu]** - voir à ce propos la section [Modèle de contenu](../../start/using/about-templates.md#content-templates).
+* **[!UICONTROL Blocs de contenu]** - voir à ce propos la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
+* **[!UICONTROL Modèles et fragments de contenu]** - voir à ce propos la section [Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
 ### Administration {#administration}
 
@@ -133,7 +133,7 @@ Le contenu et le format d'affichage de la zone centrale peuvent varier :
 
    ![](assets/ux_workspace.png)
 
-## La barre d'actions  {#action-bar}
+## La barre d'actions {#action-bar}
 
 Selon le type d'écran affiché, une barre contenant des actions liées à l'écran, s'affiche en position haute.
 
