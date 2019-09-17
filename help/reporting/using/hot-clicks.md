@@ -14,8 +14,8 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -30,7 +30,7 @@ Il présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le 
 
 ![](assets/delivery_reports_10.png)
 
-Si vous avez créé du contenu dynamique pour votre diffusion, vous pouvez afficher les pourcentages de chaque condition que vous avez définie. Pour plus d'informations sur l'insertion de contenu conditionnel dans une diffusion, voir [Définir un contenu dynamique](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+Si vous avez créé du contenu dynamique pour votre diffusion, vous pouvez afficher les pourcentages de chaque condition que vous avez définie. Pour plus d'informations sur l'insertion de contenu conditionnel dans une diffusion, voir [Définir un contenu dynamique](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 
 Imaginez par exemple que vous avez créé une diffusion avec les conditions suivantes :
 
