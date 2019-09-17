@@ -3,18 +3,18 @@ title: Orchestration des campagnes
 seo-title: Orchestration des campagnes
 description: Orchestration des campagnes
 seo-description: Adobe Campaign est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne de façon à créer des expériences client personnalisées.
-page-status-flag: jamais activé
-uuid: 027 f 6787-d 2 ef -44 ae-a 40 a -8 facdfe 2 ae 77
+page-status-flag: never-activated
+uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: aee 81724-b 425-47 b 4-af 92-e 55 eff 97836 f
+discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 80dffe691855a22f1a337df5fb4bda58c8bcc4a0
 
 ---
 
@@ -37,7 +37,7 @@ Les principales phases de création et d'orchestration d'une campagne marketing 
 
 * **Préparation** - Cette phase préliminaire permet de formaliser le besoin, le propos et l'objectif de la campagne. Elle comprend ainsi la création du plan marketing, l'identification de la cible, la définition du contenu et de son mode de création, les résultats attendus et les personnes impliquées.
 * **Ciblage** - La phase de ciblage permet de définir le mode de collecte des données, leur structure, leur segmentation, les audiences, témoins et test, les conditions de filtrage à mettre en œuvre, etc. Lors de cette phase, vous pouvez également configurer les méthodes d'abonnement/de désabonnement. Voir [Profils et audiences](../../audiences/using/about-profiles.md).
-* **Création de messages et de contenu** - Cette phase implique la sélection du [canal de communication](../../channels/using/discovering-communication-channels.md) et la [conception du contenu du message](../../designing/using/designing-content-in-adobe-campaign.md). Vous pouvez également concevoir des [landing pages](../../designing/using/about-landing-page-content-design.md) afin d'acquérir ou de mettre à jour des profils, et de développer votre base de données. Voir [Créer un email](../../channels/using/creating-an-email.md), [Créer un SMS](../../channels/using/creating-an-sms-message.md), [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md), [Créer un message In-App](../../channels/using/about-in-app-messaging.md) et [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md).
+* **Création de messages et de contenu** - Cette phase implique la sélection du canal [de](../../channels/using/discovering-communication-channels.md)communication. Vous pouvez également concevoir des [landing pages](../../channels/using/about-landing-page-content-design.md) afin d'acquérir ou de mettre à jour des profils, et de développer votre base de données. Voir [Créer un email](../../channels/using/creating-an-email.md), [Créer un SMS](../../channels/using/creating-an-sms-message.md), [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md), [Créer un message In-App](../../channels/using/about-in-app-messaging.md) et [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md).
 * **Test et envoi** - La phase d'exécution permet de réaliser les phases de validation (du contenu, de la cible) notamment à travers les écrans de prévisualisation et l'envoi de BAT aux validants, puis d'envoi. Voir [Tester et envoyer](../../sending/using/about-sending-messages-with-campaign.md).
 * **Contrôle et reporting** - Une fois la campagne exécutée et les différents messages envoyés, cette étape permet de collecter les statuts des différents envois, ainsi que les informations de tracking et de contrôle. Les rapports de campagnes et de diffusions sont générés afin de tracker l'impact de la campagne et les activités des destinataires. Voir [Outils de reporting](../../reporting/using/about-dynamic-reports.md).
 * **Automatisation** - Pendant cette phase, sont définis d'autres facteurs tels que les méthodes de mise en œuvre des mécanismes d'import/export, la gestion des données et les modes de mise à jour, l'identification des données de personnalisation, etc. Voir [Workflows et gestion des données](../../automating/using/workflow-data-and-processes.md).
