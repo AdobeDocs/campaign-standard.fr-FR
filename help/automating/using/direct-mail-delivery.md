@@ -14,8 +14,8 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -34,7 +34,7 @@ Les courriers classiques ne sont envoyés qu'une seule fois
 
 Les courriers récurrents permettent d'envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes. Vous pouvez agréger les diffusions par période afin d'obtenir des rapports adaptés.
 
-## Contexte d'utilisation  {#context-of-use}
+## Contexte d'utilisation {#context-of-use}
 
 En règle générale, l'activité **[!UICONTROL Diffusion courrier]** est utilisée pour automatiser la préparation d'un fichier contenant des données de profil. Ce fichier peut ensuite être envoyé à un partenaire/prestataire en charge de l'envoi.
 
@@ -44,7 +44,7 @@ Les destinataires du courrier sont définis en amont de l'activité dans le mêm
 
 La préparation du message est déclenchée selon les paramètres d'exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d'en automatiser l'exécution.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion courrier]** dans votre workflow.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
@@ -66,7 +66,7 @@ La préparation du message est déclenchée selon les paramètres d'exécution d
 
 1. Sélectionnez un type de courrier. Les types de courrier sont issus des modèles définis dans le menu **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du courrier. Vous pouvez également rattacher l'activité à une campagne existante. Le libellé de l'activité de diffusion dans le workflow est mis à jour avec le libellé du courrier.
-1. Définissez le contenu du courrier. Consultez la section concernant l'[édition de contenu](../../designing/using/about-personalization.md).
+1. Définissez le contenu du courrier. Consultez la section concernant l'[édition de contenu](../../designing/using/personalization.md).
 1. Par défaut, l'activité **[!UICONTROL Diffusion courrier]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion courrier]**, accédez à l'onglet **[!UICONTROL Général]** des options avancées de l'activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l'activité), puis cochez l'une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante. Cette transition contient le fichier généré par l'activité Diffusion courrier et la population initiale reçue par l'activité Diffusion courrier.
