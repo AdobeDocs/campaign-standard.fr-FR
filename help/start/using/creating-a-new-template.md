@@ -14,8 +14,8 @@ discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -41,5 +41,5 @@ Les modèles créés peuvent être ensuite sélectionnés par un utilisateur sta
 **Rubriques connexes :**
 
 * [Marques](../../administration/using/branding.md)
-* [Conception du contenu](../../designing/using/about-email-content-design.md)
+* [Conception du contenu](../../designing/using/overview.md)
 
