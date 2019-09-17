@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -189,7 +189,7 @@ Les variables d'événements déclarées sont à présent disponibles dans la li
 
 * Personnalisez la diffusion : lorsque vous sélectionnez un champ de personnalisation pour configurer une diffusion, des variables d'événements sont disponibles dans l'élément **[!UICONTROL Paramètres de workflow]**. Vous pouvez les utiliser comme tout autre champ de personnalisation, par exemple pour définir l'objet de la diffusion, l'expéditeur, etc.
 
-   La personnalisation de la diffusion est présentée dans [cette section](../../designing/using/about-personalization.md).
+   La personnalisation de la diffusion est présentée dans [cette section](../../designing/using/personalization.md).
 
    ![](assets/extsignal_activities_perso.png)
 
