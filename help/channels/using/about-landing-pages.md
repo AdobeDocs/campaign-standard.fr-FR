@@ -14,8 +14,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5a0fe48630748472047d417df97cfd74d178d6ab
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -54,9 +54,9 @@ Le cycle de vie complet d'une landing page est le suivant :
 
 ![](assets/lp_livecycle.png)
 
-Une fois créée et publiée, vous pouvez rendre la landing page accessible sur votre site Web ou [insérer un lien direct vers la landing page dans un email](../../designing/using/inserting-a-link.md).
+Une fois créée et publiée, vous pouvez rendre la landing page accessible sur votre site Web ou [insérer un lien direct vers la landing page dans un email](../../designing/using/links.md#inserting-a-link).
 
 **Rubriques connexes :**
 
-* Vidéo [Créer une landing page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Vidéo [Créer une landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Utiliser une landing page pour s'inscrire à un service](../../audiences/using/creating-a-service.md)
