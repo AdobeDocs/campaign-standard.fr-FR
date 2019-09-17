@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 725c9bf196988717f313bbf72448067fef8e8647
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -27,15 +27,15 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une version précédente, consultez ces pages : [Notes de mise à jour de l'année 2018](../../rn/using/release-notes-2018.md), [Notes de mise à jour de l'année 2017](../../rn/using/release-notes-2017.md), [Notes de mise à jour des années 2015-2016](../../rn/using/release-notes-2015-2016.md). Consultez également la liste des [fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 
-## Mise à jour du Panneau de configuration - Août 2019 {#controlpanel-update---august-2019}
+## Mise à jour du Panneau de configuration - août 2019 {#controlpanel-update---august-2019}
 
 ### Nouveautés{#what-s-new-4}
 
-Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs administrateurs de recevoir des notifications avant que les certificats SSL de leurs domaines arrivent à expiration. Pour plus d'informations, consultez la [documentation détaillée](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
+Nous avons ajouté de nouvelles fonctionnalités permettant aux utilisateurs d'Admin de recevoir des notifications avant l'expiration des certificats SSL pour leurs domaines. Pour plus d'informations, consultez la [documentation détaillée](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
 
-En outre, les utilisateurs administrateurs peuvent désormais supprimer les clés SSH ajoutées pour accéder aux serveurs SFTP.
+De plus, les utilisateurs admin peuvent désormais supprimer les clés SSH ajoutées pour accéder aux serveurs SFTP.
 
-Notez que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement. Ces mises à jour seront disponibles le 26 août.
+Veuillez noter que le Panneau de configuration est disponible pour les clients hébergés sur AWS uniquement. Ces mises à jour seront disponibles le 26 août.
 
 ## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
@@ -50,102 +50,102 @@ Notez que le Panneau de configuration est disponible pour les clients hébergés
  </thead> 
  <tbody> 
   <tr> 
-   <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>Pour une personnalisation plus poussée, l'activité API externe vous permet d'importer des données provenant de systèmes externes dans un flux de travail via un appel API REST. Les points de fin REST peuvent être un système de gestion client, un endpoint de fin Adobe I/S Runtime ou un endpoint de fin REST Adobe Experience Cloud (par exemple, Platform Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p></td> 
+   <td> Activité API externe (version bêta publique)<br /> </td> 
+   <td> <p>Pour accroître la personnalisation, l'activité API externe permet de récupérer des données provenant de systèmes externes dans un workflow via un appel API REST. Les points d'entrée REST peuvent être un système de gestion client, le Runtime Adobe I/O Runtime ou un point d'entrée REST Adobe Experience Cloud (par exemple, Data Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> Rapport sur le segment de processus<br /> </td> 
-   <td> <p>Cette fonctionnalité permet aux spécialistes du marketing de ventiler leurs performances de diffusion par code de segment. Lorsque vous créez un flux de travail et que vous utilisez une activité de segmentation pour affecter des segments à la population de diffusion, ces segments peuvent maintenant accéder à la même diffusion. Cela vous permet d'afficher les statistiques d'ouverture/clic basées sur plusieurs segments au sein d'une seule diffusion.</p><p>Pour plus d'informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">vidéo de procédure</a>.</p></td>
+   <td> Rapport sur le segment de workflow<br /> </td> 
+   <td> <p>Cette fonctionnalité permet aux marketeurs de répartir les performances de diffusion par code segment. Lorsque vous créez un workflow et que vous utilisez une activité de segmentation pour affecter des segments à la population de la diffusion, ces derniers peuvent maintenant être intégrés dans la même diffusion. Vous pouvez ainsi afficher les statistiques d'ouverture/clic selon plusieurs segments au sein d'une seule diffusion.</p><p>Pour plus d'informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">vidéo de procédure</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
 
 ### Améliorations de la sécurité {#security-enhancements-2}
 
-* Correction d'un problème de sécurité empêchant les attaques par déni de service (DoS) d'obtenir des images. (CAMP-33454)
+* Correction d'un problème de sécurité pour empêcher les attaques par déni de service (DoS) sur les demandes d'obtention d'images non valides. (CAMP-33454)
 
 ### Améliorations du Concepteur d'email {#email-designer-enhancements-3}
 
-* Correction d'un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu'un composant était ajouté, ce qui pouvait considérablement accroître la taille du modèle. (CAMP-34694)
-* Correction d'un problème qui empêchait la disponibilité des options de menu de barre d'outils supérieure droite. (CAMP-34577)
-* Correction d'un problème survenant lorsque le bloc de contenu de l'URL de la page Miroir était inséré dans un contenu de courrier électronique. (CAMP-34779)
-* Correction d'un problème survenant lors de l'utilisation du code JPSP par courriel, rendant difficile la modification du contenu. (CAMP-34574)
-* Correction d'un problème en raison duquel les images étaient tronquées en cas d'ajout d'un hyperlien. (CAMP-34382)
-* Correction d'un problème d'affichage lors de l'utilisation de Designer Designer avec Firefox. (CAMP-34364)
-* Correction de plusieurs problèmes survenant avec le mode Avancé lors de la définition de contenu dynamique par courriel. (CAMP -34351, CAMP -34333, CAMP -34331)
-* Correction de plusieurs problèmes survenant avec l'éditeur de règles de contenu dynamique (CAMP -34304, CAMP -34303).
-* Correction d'un problème qui empêchait l'affichage du champ Link dans le volet Settings Designer Settings (CAMP -33749).
-* Correction d'un problème lié à l'icône YouTube surdimensionnée dans les courriers électroniques envoyés. (CAMP-33726)
-* Correction d'un problème de sécurité qui modifiait le contenu de la page miroir. (CAMP-33691)
-* Correction d'un problème qui rompt la sortie HTML lors de l'utilisation du symbole plus grand que dans le contenu dynamique. (CAMP-33688)
-* Correction d'un problème survenant lors de l'utilisation de l'option Annuler lors de la modification du texte dans Designer. (CAMP-32565)
+* Correction d'un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu'un composant était ajouté, ce qui augmentait considérablement la taille du modèle. (CAMP-34694)
+* Correction d'un problème qui empêchait la disponibilité de certaines options de menu de la barre d'outils supérieure droite. (CAMP-34577)
+* Correction d'un problème qui se produisait lorsque le bloc de contenu URL de la page miroir était inséré dans un contenu d'email. (CAMP-34779)
+* Correction d'un problème qui se produisait lors de l'utilisation du code JPSP dans un email, rendant difficile l'édition du contenu. (CAMP-34574)
+* Correction d'un problème en raison duquel les images étaient tronquées dans la partie supérieure en cas d'ajout d'un lien hypertexte sur celles-ci. (CAMP-34382)
+* Correction d'un problème d'affichage lors de l'utilisation du Concepteur d'email avec Firefox. (CAMP-34364)
+* Correction de plusieurs problèmes liés au mode Avancé qui se produisaient lors de la définition du contenu dynamique d'un email. (CAMP-34351, CAMP-34333, CAMP-34331)
+* Correction de plusieurs problèmes liés à l'éditeur de règles de contenu dynamique (CAMP-34304, CAMP-34303).
+* Correction d'un problème qui empêchait l'affichage du champ Lien dans le volet Paramètres du Concepteur d'email (CAMP-33749).
+* Correction d'un problème lié à l'icône YouTube qui était surdimensionnée dans les emails envoyés. (CAMP-33726)
+* Correction d'un problème de sécurité qui permettait d'éditer le contenu de la page miroir. (CAMP-33691)
+* Correction d'un problème qui endommageait la sortie HTML lors de l'utilisation du symbole supérieur à dans du contenu dynamique. (CAMP-33688)
+* Correction d'un problème qui se produisait lors de l'utilisation de l'option Annuler pendant l'édition de texte dans le Concepteur d'email. (CAMP-32565)
 * Correction d'un problème qui créait des balises supplémentaires lors de l'annulation de styles au lieu de les supprimer. (CAMP-32359)
-* Vous pouvez maintenant définir si chaque composant utilisé par courriel s'affiche uniquement sur les périphériques de bureau ou uniquement sur les périphériques mobiles.
+* Vous pouvez maintenant définir si chaque composant utilisé dans un email s'affichera uniquement sur les postes de travail ou sur les appareils mobiles.
 * Vous pouvez désormais définir la largeur et la hauteur d'un composant de contenu Social.
-* Correction d'un problème en raison duquel le code source ancien du contenu dynamique n'était pas supprimé après suppression du contenu dynamique.
-* Correction d'un problème qui empêchait la mise à jour du sujet d'un courrier électronique après sa modification.
-* Correction d'un problème qui empêchait un n : n la structure de colonne n'est pas sélectionnée une fois déposée dans l'espace de travail.
-* Correction d'un problème en raison duquel la miniature du message apparaissait floue dans le tableau de bord Courriel.
-* Correction d'un problème qui empêchait l'affichage correct de l'arrière-plan pour les courriers électroniques reçus dans Outlook.
-* Correction de certains problèmes de tri sur la page d'accueil de Designer.
-* Correction d'un problème survenant lors de la duplication de variantes lors de l'utilisation du contenu dynamique.
-* Certains champs indésirables ont été supprimés du volet Paramètres de Designer.
+* Correction d'un problème qui empêchait l'ancien code source d'un contenu dynamique d'être supprimé après la suppression de ce contenu dynamique.
+* Correction d'un problème qui empêchait la mise à jour de l'objet d'un email après sa modification.
+* Correction d'un problème qui empêchait la sélection d'une structure de colonne n:n une fois déposée dans l'espace de travail.
+* Correction d'un problème en raison duquel la miniature du message apparaissait floue dans le tableau de bord de l'email.
+* Correction d'un problème qui empêchait l'affichage correct de l'arrière-plan des emails reçus dans Outlook.
+* Correction de certains problèmes de tri sur la page d'accueil du Concepteur d'email.
+* Correction d'un problème qui se produisait lors de la duplication de variantes pendant l'utilisation de contenu dynamique.
+* Certains champs indésirables ont été supprimés du volet Paramètres du Concepteur d'email.
 
 ### Autres améliorations {#other-improvements-3}
 
-* Grâce à l'intégration aux services de localisation Adobe Experience Platform, Adobe Campaign est désormais compatible pour envoyer des messages marketing basés sur l'emplacement aux abonnés de votre application mobile via le SDK d'Experience Platform. Pour plus d'informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
-* La fonctionnalité de création de rapports a été améliorée pour une meilleure expérience. Pour utiliser cette fonctionnalité, vous devez accepter l'accord d'utilisation dynamique des rapports. Consultez à ce sujet la [documentation détaillée](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* Dans les flux de travaux, une nouvelle option a été ajoutée pour prévisualiser les dix prochaines exécutions d'un flux de travaux. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
-* Dans l'activité du planificateur, une nouvelle option vous permet de sélectionner un jour spécifique d'une semaine spécifique pour les livraisons mensuelles. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
-* Lors de la création de distributions récurrentes sans période d'agrégation, le tableau de bord de diffusion vous permet désormais de demander confirmation avant l'envoi de la livraison. Consultez à ce sujet la [documentation détaillée](../../sending/using/confirming-the-send.md).
-* Vous pouvez désormais personnaliser l'étiquette d'une diffusion avec des variables d'événement qui ont été déclarées dans l'activité du signal externe du processus. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* Grâce à l'intégration avec Adobe Experience Platform Location Services, Adobe Campaign est maintenant compatible pour envoyer des messages marketing géolocalisés aux abonnés de votre application mobile via le SDK Experience Platform. Pour plus d'informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* La fonctionnalité de reporting a été améliorée pour offrir une meilleure expérience. Pour utiliser cette fonctionnalité, vous devez accepter le contrat d'utilisation des rapports dynamiques. Consultez à ce sujet la [documentation détaillée](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* Dans les workflows, une option a été ajoutée pour prévisualiser les dix prochaines exécutions d'un workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
+* Dans l'activité Planificateur, une nouvelle option permet de sélectionner un jour spécifique d'une semaine particulière pour les diffusions mensuelles. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
+* Lors de la création de diffusions récurrentes sans période d'agrégation, le tableau de bord de diffusion permet maintenant de demander confirmation avant l'envoi de la diffusion. Consultez à ce sujet la [documentation détaillée](../../sending/using/confirming-the-send.md).
+* Vous pouvez maintenant personnaliser le libellé d'une diffusion avec des variables d'événements qui ont été déclarées dans l'activité de signal externe du workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * Amélioration de la requête de suppression RGPD pour de meilleures performances. (CAMP-33504)
-* L'option « ftp » a été supprimée de l'interface de configuration du compte externe. (CAMP-34472)
-* Vous pouvez désormais activer et désactiver l'option Mode de test SMTP pour chaque courrier électronique. Consultez à ce sujet la [documentation détaillée](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
+* Suppression de l'option "ftp" de l'interface de configuration des comptes externes. (CAMP-34472)
+* Vous pouvez maintenant activer et désactiver l'option Mode test SMTP pour chaque email. Consultez à ce sujet la [documentation détaillée](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-### Autres changements  {#other-changes-2}
+### Autres changements   {#other-changes-2}
 
-* Un avertissement a été ajouté à l'interface des propriétés de diffusion. Elle indique que les remises sont préparées en fonction de leur période d'agrégation et de leur appel pour appeler le flux de travail plusieurs fois par jour, vous devez vous assurer qu'elles n'ont aucune période. (CAMP-34393)
-* Un avertissement a été ajouté aux écrans de configuration des ressources personnalisées. Nous vous recommandons d'utiliser 30 caractères maximum pour les ID de ressource personnalisés. Cela s'applique également aux champs de ressource personnalisés, aux clés, aux index et aux liens.
-* Un message s'affiche désormais lorsque vous tentez de supprimer un message transactionnel utilisé par une page d'entrée comme message de confirmation.
-* Un avertissement s'affiche désormais dans les journaux de processus lorsqu'une activité est en cours d'exécution pendant plus de 6 heures. Ceci ne s'applique pas aux activités de notification Push, de livraison, de signal, de début, de fin, de fourchette et de liaison, de planification et d'attente.
-* Un avertissement s'affiche désormais dans les journaux de processus lorsque vous atteignez le nombre maximal de flux de travaux en cours d'exécution simultanément.
-* Les flux de travaux en pause ou en échec pendant plus de 7 jours sont maintenant arrêtés pour consommer moins d'espace disque. La tâche de nettoyage s'affiche dans les journaux de flux de travaux.
-* Lors de l'utilisation d'une activité de transfert de fichier, une erreur est maintenant consignée si la taille du fichier dépasse l'espace disque disponible.
+* Un avertissement a été ajouté à l'interface des propriétés de diffusion. Il indique que les diffusions sont préparées en fonction de leur période d'agrégation. Pour appeler le workflow plusieurs fois par jour, vous devez donc vérifier qu'elles n'ont aucune période. (CAMP-34393)
+* Un avertissement a été ajouté aux écrans de configuration des ressources personnalisées. Il est recommandé d'utiliser 30 caractères maximum pour les identifiants des ressources personnalisées. Cette recommandation s'applique également aux champs de ressources personnalisées, aux clés, aux index et aux liens.
+* Un message s'affiche maintenant lorsque vous essayez de supprimer un message transactionnel utilisé par une landing page en tant que message de confirmation.
+* Un avertissement s'affiche maintenant dans les logs de workflow lorsqu'une activité est en cours d'exécution pendant plus de 6 heures. Cela ne s'applique pas aux activités Notification push, Diffusion, Signal, Début, Fin, Branchement, Union, Planificateur et Attente.
+* Un avertissement s'affiche maintenant dans les logs de workflow lorsque vous atteignez le nombre maximal de workflows en cours d'exécution simultanément.
+* Les workflows en pause ou en échec pendant plus de 7 jours sont maintenant arrêtés pour consommer moins d'espace disque. La tâche de nettoyage s'affiche dans les logs de workflow.
+* Lors de l'utilisation d'une activité "Transfert de fichier", une erreur est maintenant consignée si la taille du fichier dépasse l'espace disque disponible.
 * L'action Rediriger vers l'URL de destination ne peut plus être sélectionnée pour le bouton secondaire dans les messages in-app.
 
 ### Correctifs {#patches-3}
 
-* Correction d'un problème qui entraînait l'échec des demandes d'accès GDPR.
-* Correction d'un problème qui entraînait l'annulation de déclencheurs lors de la réception de plusieurs déclencheurs pour un profil unique.
+* Correction d'un problème qui entraînait l'échec des demandes d'accès RGPD.
+* Correction d'un problème qui entraînait l'annulation des triggers lors de la réception de plusieurs triggers pour un profil unique.
 * Correction d'un problème qui entraînait un message d'erreur de publication de ressource personnalisée erroné après la connexion.
 * Correction d'un problème qui affichait une page vierge lors de la création ou de l'extension d'une ressource personnalisée.
-* Correction d'un problème qui empêchait une audience avec appsubscriptionrcp comme dimension de ciblage d'être disponible pour le ciblage dans une diffusion mobile.
-* Correction d'une erreur qui empêchait la mise en quarantaine des adresses électroniques de rebonds. (CAMP-24587)
-* Correction d'un problème qui survenait lors de l'ajout d'une règle de typologie, puis la supprimait avant d'enregistrer la typologie. (CAMP-32789)
-* Correction d'un problème qui empêchait l'affichage du contenu de la page d'entrée lors de la désactivation du contenu dynamique. (CAMP-32924)
-* Correction d'un problème lié aux remises périodiques qui survenait lors de l'utilisation de la personnalisation sur les attributs d'une remise principale. (CAMP-32983)
-* Correction d'un problème dans les flux de travaux qui empêchait la lecture des résultats d'une transition contenant des données SMS entrants. (CAMP-33134)
-* Correction d'un problème dans les flux de travaux qui se produisait lors de la combinaison d'activités de fourre et d'exclusion pour créer des audiences. (CAMP-33401)
-* Correction d'un problème qui empêchait l'affichage du contenu de la page miroir et l'envoi des messages d'épreuves pour les remises récurrentes. (CAMP-33413)
+* Correction d'un problème qui empêchait une audience avec appSubscriptionrcp comme dimension de ciblage d'être disponible pour le ciblage dans une diffusion mobile.
+* Correction d'une erreur qui empêchait la mise en quarantaine des adresses hard bounce. (CAMP-24587)
+* Correction d'un problème qui se produisait lors de l'ajout d'une règle de typologie et qui la supprimait avant de l'enregistrer. (CAMP-32789)
+* Correction d'un problème qui empêchait l'affichage du contenu de la landing page lors de la désactivation du contenu dynamique. (CAMP-32924)
+* Correction d'un problème lié aux diffusions récurrentes qui se produisait lors de l'utilisation de la personnalisation sur les attributs d'une diffusion principale. (CAMP-32983)
+* Correction d'un problème dans les workflows qui empêchait la lecture des résultats d'une transition contenant des données de SMS entrants. (CAMP-33134)
+* Correction d'un problème dans les workflows qui se produisait lors de la combinaison d'activités de branchement et d'exclusion pour créer des audiences. (CAMP-33401)
+* Correction d'un problème qui empêchait l'affichage du contenu de la page miroir et l'envoi des messages du BAT pour les diffusions récurrentes. (CAMP-33413)
 * Correction d'un problème qui entraînait une erreur lors de l'utilisation d'une activité Union entre les profils et les audiences. Ce problème était dû à une incompatibilité des clés d'identification dans les transitions d'entrée. (CAMP-33713)
-* Correction d'un problème dans les activités Test qui empêchait l'expression « reccount » d'utiliser la syntaxe correcte lors de la double-clic dessus. (CAMP-33756)
-* Correction d'un problème qui pouvait entraîner un message d'erreur lors de l'ouverture des journaux de flux de travaux techniques de facturation. (CAMP-34313)
-* Correction d'un problème dans les pages d'entrée qui pouvait se produire lors de la configuration des champs de case à cocher avec des abonnements. (CAMP-34369)
-* Correction d'un problème survenant lors de la configuration d'une liste et l'ajout du champ « icône ». (CAMP-34585)
-* Correction d'un problème qui empêchait l'utilisation de la variable| » et les symboles " %" comme séparateurs de date ou d'heure dans les activités de chargement des fichiers de fichier. (CAMP-34706)
-* Correction d'un problème qui survenait lors de l'utilisation de conditions de visibilité avec des cases à cocher dans les pages d'entrée. (CAMP-34802)
-* Correction d'un problème de l'activité d'enrichissement qui empêchait l'affichage des champs dans l'onglet « Données supplémentaires » si la dimension de filtrage était définie sur les journaux de suivi et la dimension cible dans le profil.
-* Correction d'un problème qui entraînait un message d'erreur lors de l'exportation d'une ressource de type « workflowtemplate ».
-* Correction d'un problème lors de la création d'un nouveau profil, qui empêchait l'enregistrement du champ « Pays/région » s'il était sélectionné dans la boîte de dialogue.
-* Correction de plusieurs problèmes survenant lors de l'utilisation du modèle d'importation Direct Mail (updatequarantinesdeliverylogsdirectmail).
-* Correction d'un problème lié à l'intégration de la demande Ressources on -.
-* Correction d'un problème survenant lors du zoom avant sur la vue Chronologie. (CAMP-33628)
-* Correction d'un problème qui empêchait l'envoi instantané des épreuves pour les messages électroniques avec une date et une heure planifiées. (CAMP-33723)
-* Correction d'un problème lié aux messages transactionnels qui générait des journaux d'erreur lors de la déconnexion d'un utilisateur. (CAMP-31698)
-* Correction d'une erreur qui pouvait se produire dans des environnements spécifiques lors de la planification d'un courriel.
-* Correction d'un problème en raison duquel le processus d'exécution de remise de la remise échouait.
-* Correction d'un problème de sécurité qui rompait le contenu du courrier électronique lorsque le sujet contenait plusieurs lignes.
+* Correction d'un problème dans les activités Test qui empêchait l'expression "recCount" d'utiliser la syntaxe correcte lors d'un double-clic dessus. (CAMP-33756)
+* Correction d'un problème qui entraînait un message d'erreur lors de l'ouverture des logs de workflow technique de facturation. (CAMP-34313)
+* Correction d'un problème dans les landing pages qui se produisait lors de la configuration des champs de case à cocher avec des abonnements. (CAMP-34369)
+* Correction d'un problème qui se produisait lors de la configuration d'une liste et de l'ajout du champ "icône" à celle-ci. (CAMP-34585)
+* Correction d'un problème qui empêchait l'utilisation des symboles "|" et "%" en tant que séparateurs de date ou d'heure dans les activités de workflow de chargement de fichier. (CAMP-34706)
+* Correction d'un problème qui se produisait lors de l'utilisation des conditions de visibilité avec des cases à cocher dans les landing pages. (CAMP-34802)
+* Correction d'un problème dans l'activité Enrichissement qui empêchait l'affichage des champs de l'onglet "Données additionnelles" si la dimension de filtrage était définie sur les logs de tracking et la dimension cible dans le profil.
+* Correction d'un problème qui entraînait un message d'erreur lors de l'export d'une ressource « workflowTemplate ».
+* Correction d'un problème qui empêchait, lors de la création d'un profil, d'enregistrer le champ « Code pays/zone géographique » s'il était sélectionné dans la boîte de dialogue.
+* Correction de plusieurs problèmes qui se produisaient lors de l'utilisation du modèle d'import de courrier (updateQuarantinesDeliveryLogsDirectMail).
+* Correction d'un problème lié à l'intégration d'Assets on Demand.
+* Correction d'un problème qui se produisait lors de la réalisation d'un zoom avant dans la vue Planning. (CAMP-33628)
+* Correction d'un problème qui empêchait l'envoi instantané des BAT pour les emails avec une date et une heure planifiées. (CAMP-33723)
+* Correction d'un problème lié aux messages transactionnels qui générait des logs d'erreur lors de la déconnexion d'un utilisateur. (CAMP-31698)
+* Correction d'une erreur qui se produisait dans des environnements spécifiques lors de la planification d'un email.
+* Correction d'un problème qui entraînait l'échec du workflow Mise à jour de l'exécution des diffusions.
+* Correction d'un problème de sécurité qui endommageait le contenu d'un email lorsque l'objet contenait plusieurs lignes.
 
 
 ## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
@@ -237,7 +237,7 @@ Mise en place d'une série d'améliorations et de correctifs afin d'optimiser le
 * Correction d'un problème lié au sélecteur de couleurs qui se produisait lors de la définition d'une couleur à l'aide de valeurs RVB.
 * Correction d'un problème qui empêchait la page miroir d'être réactive lors de la réception de l'email sur un mobile.
 
-### Améliorations apportées aux messages transactionnels  {#transactional-messaging-enhancements}
+### Améliorations apportées aux messages transactionnels   {#transactional-messaging-enhancements}
 
 Pour optimiser le fonctionnement et les performances, plusieurs améliorations ont été ajoutées au canal Messages transactionnels.
 
@@ -249,7 +249,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d'un problème qui se produisait lors de l'import d'un package avec une configuration d'événement et le message transactionnel associé. Consultez à ce sujet la [documentation détaillée](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Correction d'un problème qui supprimait les données de collecte des profils de test créés pour un message transactionnel contenant des listes de produits.
 
-### Autres changements  {#other-changes}
+### Autres changements   {#other-changes}
 
 * Une nouvelle option a été ajoutée au compte externe SMS. Elle permet de limiter le nombre maximal de processus MTA envoyant des SMS afin de mieux contrôler le nombre de connexions parallèles. Pour plus d'informations, consultez la technote [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Lors de la publication d'une ressource avec une extension d'API, si l'API a déjà été publiée, elle est automatiquement mise à jour à chaque nouvelle publication. Auparavant, cette action était manuelle et le fait de ne pas mettre à jour l'API pouvait endommager la ressource profil ou les ressources de services de celle-ci. Consultez à ce sujet la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -286,7 +286,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d'un problème qui entraînait la désactivation du workflow de délivrabilité s'il ne se terminait pas correctement.
 * Correction d'un problème qui empêchait les utilisateurs d'enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019  {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019   {#release-19-1-3---march-2019}
 
 ### Améliorations du Concepteur d'email {#email-designer-enhancements-1}
 
@@ -344,19 +344,19 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Un ensemble de quatre modèles d'email réactif conçus par des artistes Behance est maintenant disponible.
 
-   Pour plus d'informations, consultez la [documentation détaillée](../../start/using/about-templates.md#content-templates).
+   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/using-reusable-content.md#content-templates).
 
 * Notre nouvelle expérience d'intégration vous permet de commencer à créer plus rapidement des emails et facilite l'accès à la documentation et aux tutoriels.
 
-   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/about-email-content-design.md#email-designer-home-page).
+   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/overview.md#email-designer-home-page).
 
 * Vous avez maintenant la possibilité de configurer le nombre et la largeur des colonnes en fonction de vos besoins.
 
-   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Lors de l'édition dans la vue mobile, vous pouvez masquer certains composants uniquement dans l'affichage mobile pour utiliser efficacement l'espace.
 
-   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+   Pour plus d'informations, consultez la [documentation détaillée](../../designing/using/styles.md#switching-to-mobile-view).
 
 * Vous pouvez maintenant ajouter des canaux sociaux personnalisés à votre modèle d'email en plus de ceux déjà disponibles.
 * Correction d'un problème qui empêchait de faire défiler le menu de structure lorsque plus de 18 structures étaient utilisées. (CAMP-31173)
@@ -378,7 +378,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
    Pour plus d'informations, consultez la [documentation détaillée](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
-### Autres changements  {#other-changes-1}
+### Autres changements   {#other-changes-1}
 
 * A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 * Le champ **Code pays** de la ressource Profil a été renommé en **Code pays/zone géographique**.
@@ -424,10 +424,10 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
    <td> <p>Le nouveau Concepteur d'email intuitif (anciennement Creative Designer) est passé à la phase de disponibilité générale. Il prend maintenant en charge toutes les fonctionnalités de l'ancien éditeur de contenu, notamment :</p> 
     <ul> 
      <li> Utilisation des <a href="../../integrating/using/adding-target-dynamic-content.md">images dynamiques d'Adobe Target</a> </li> 
-     <li> Possibilité de <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
-     <li> <a href="../../start/using/about-templates.md#content-templates">Modèles de contenu d'usine</a> entièrement compatibles </li> 
+     <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
+     <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d'usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d'informations, consultez la <a href="../../designing/using/about-email-content-design.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p> Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>Pour plus d'informations, consultez la <a href="../../designing/using/overview.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p> Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
@@ -435,7 +435,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
   </tr> 
   <tr> 
    <td> Vue mobile dans le Concepteur d'email<br /> </td> 
-   <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l'édition du contenu d'un email. Vous pouvez ainsi affiner le responsive design d'un email en éditant séparément toutes les options de style pour l'affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur fond, etc.).</p><p> Pour plus d'informations, consultez la <a href="../../designing/using/about-email-content-design.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
+   <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l'édition du contenu d'un email. Vous pouvez ainsi affiner le responsive design d'un email en éditant séparément toutes les options de style pour l'affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur fond, etc.).</p><p> Pour plus d'informations, consultez la <a href="../../designing/using/styles.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Améliorations de la Messagerie In-App (version bêta)<br /> </td> 
