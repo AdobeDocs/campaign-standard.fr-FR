@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
+translation-type: tm+mt
+source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 ---
 
