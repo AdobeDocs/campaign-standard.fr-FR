@@ -3,38 +3,38 @@ title: Prévisualiser un message
 seo-title: Prévisualiser un message
 description: Prévisualiser un message
 seo-description: Découvrez comment prévisualiser un message dans l'éditeur de contenu ou le Concepteur d'email.
-page-status-flag: jamais activé
-uuid: 8 dffca 95-59 fe -4 e 9 b -93 cb -73 b 33 ffde 020
+page-status-flag: never-activated
+uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: envoi
-content-type: référence
-topic-tags: préparation-test-messages
-discoiquuid: 8428 f 8 ac -8 ef 5-46 cd -9 d 93-10 ec 0 prêt 3
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
 
 # Prévisualiser un message{#previewing-messages}
 
-Une fois des profils de test ajoutés à la fenêtre **[!UICONTROL Audience], vous pouvez prévisualiser votre message pour vérifier sa personnalisation et l'affichage de la diffusion par vos destinataires.**
+Une fois des profils de test ajoutés à la fenêtre **[!UICONTROL Audience]**, vous pouvez prévisualiser votre message pour vérifier sa personnalisation et l'affichage de la diffusion par vos destinataires.
 
-1. Dans le [Concepteur d'email](../../designing/using/about-email-content-design.md#about-the-email-designer), cliquez sur le bouton **[!UICONTROL Aperçu].**
+1. Dans le [Concepteur d'email](../../designing/using/overview.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/sending_preview.png)
 
    Une vue pour les postes de travail et une vue réactive pour les mobiles de votre email s'affichent côte à côte.
 
-1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Cliquez sur le bouton **[!UICONTROL Analyse anti-spam]pour connaitre les raisons de l'avertissement.**
+1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Cliquez sur le bouton **[!UICONTROL Analyse anti-spam]** pour connaitre les raisons de l'avertissement.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Sélectionnez le bouton **[!UICONTROL Charger un profil]pour choisir le profil de test sur lequel vous souhaitez tester les éléments de personnalisation.**
-1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton **Editer]en haut à gauche de l'écran.[!UICONTROL **
+1. Sélectionnez le bouton **[!UICONTROL Charger un profil]** pour choisir le profil de test sur lequel vous souhaitez tester les éléments de personnalisation.
+1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton **[!UICONTROL Editer]** en haut à gauche de l'écran.
 
    ![](assets/sending_preview_edit.png)
 
