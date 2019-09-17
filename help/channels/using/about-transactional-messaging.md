@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
+translation-type: tm+mt
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -88,7 +88,7 @@ La manière dont vous pouvez personnaliser le contenu d'un message dépend du ty
 **Messages transactionnels basés sur un profil** :
 
 * les informations de personnalisation peuvent provenir des données contenues dans l'événement ou de l'enregistrement de profil réconcilié. Voir [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md).
-* Vous pouvez utiliser les blocs de contenu **Lien de désabonnement** dans un message transactionnel basé sur un profil. Voir [Ajouter un bloc de contenu](../../designing/using/adding-a-content-block.md).
+* Vous pouvez utiliser les blocs de contenu **Lien de désabonnement** dans un message transactionnel basé sur un profil. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
 Les listes de produits ne sont disponibles que dans les emails transactionnels. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
