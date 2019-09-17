@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
+translation-type: tm+mt
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -94,7 +94,7 @@ Vous devez d'abord créer un workflow avec une population ciblée différente. D
 
    ![](assets/report_segment_3.png)
 
-1. Personnalisez vos diffusions selon les différentes populations ciblées. Pour plus d'informations sur la création d'un email, consultez cette [page](../../designing/using/about-email-content-design.md).
+1. Personnalisez vos diffusions selon les différentes populations ciblées. Pour plus d'informations sur la création d'un email, consultez cette [page](../../designing/using/overview.md).
 
 1. Enregistrez le workflow.
 
