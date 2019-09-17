@@ -13,8 +13,8 @@ topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -32,7 +32,7 @@ Pour envoyer une diffusion au fuseau horaire du destinataire, vous pouvez égale
 Dans l'exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour avoir le temps d'utiliser ce code dans la journée, chaque destinataire doit recevoir votre message le 14 février à 8 heures, selon son fuseau horaire.
 
 1. Dans l'onglet **[!UICONTROL Activités marketing]**, commencez à créer votre diffusion, un email dans le cas présent. Pour plus d'informations sur la création d'une diffusion, consultez cette [section](../../channels/using/creating-an-email.md).
-1. Après avoir conçu l'email pour le jour de la Saint-Valentin, cliquez sur **[!UICONTROL Créer]** pour accéder au tableau de bord des diffusions. Pour plus d'informations sur la conception d'un email, consultez cette [page](../../designing/using/example--email-personalization.md).
+1. Après avoir conçu l'email pour le jour de la Saint-Valentin, cliquez sur **[!UICONTROL Créer]** pour accéder au tableau de bord des diffusions. Pour plus d'informations sur la conception d'un email, consultez cette [page](../../designing/using/personalization.md#example-email-personalization).
 
    ![](assets/send-time_opt_valentine_1.png)
 
