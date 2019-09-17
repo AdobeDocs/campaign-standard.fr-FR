@@ -1,8 +1,8 @@
 ---
-title: « Utilisation du flux de travail : » Retargeting non ouvert
-seo-title: « Utilisation du flux de travail : » Retargeting non ouvert
-description: « Utilisation du flux de travail : » Retargeting non ouvert
-seo-description: « Utilisation du flux de travail : » Retargeting non ouvert
+title: '"Case d''utilisation du workflow: Recibler les non-ouvriers"'
+seo-title: '"Case d''utilisation du workflow: Recibler les non-ouvriers"'
+description: '"Case d''utilisation du workflow: Recibler les non-ouvriers"'
+seo-description: '"Case d''utilisation du workflow: Recibler les non-ouvriers"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,71 +11,71 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'flux de travail, utilisation, requête, attente, livraison '
+context-tags: 'workflow,cas d''utilisation,requête,attente,livraison '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Utilisation du flux de travail : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs{#retargeting-delivery-to-non-openers}
+# Dossier d'utilisation du workflow : Retarguer le flux de travail en envoyant une nouvelle livraison à des non-ouvriers{#retargeting-delivery-to-non-openers}
 
-Vous pouvez envoyer un email aux clients, puis un SMS à ceux qui n'ont pas ouvert le courrier.
+Vous pouvez envoyer un courriel à vos clients, puis un SMS à ceux qui n'ont pas ouvert le courrier.
 
 1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Sélectionnez **[!UICONTROL Nouveau Workflow]** comme type de flux de travail et cliquez **[!UICONTROL sur Suivant]**.
-1. Entrez les propriétés du flux de travail et cliquez **[!UICONTROL sur Créer]**.
+1. Sélectionnez **[!UICONTROL Nouveau workflow]** comme type de workflow et cliquez sur **[!UICONTROL Suivant]**.
+1. Entrez les propriétés du workflow et cliquez sur **[!UICONTROL Créer]**.
 
 ## Creating a query activity{#creating-a-query-activity}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Cibler]**, glisser-déposer une **[!UICONTROL activité de requête]**![](assets/query.png).
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, faites glisser et déposez une activité **[!UICONTROL de]** ![](assets/query.png)requête.
 1. Double-cliquez sur l'activité.
-1. Dans **[!UICONTROL les raccourcis]**, les **[!UICONTROL profils]** de drag-and-drop et le **[!UICONTROL courriel]** avec l'opérateur **[!UICONTROL n'est pas vide]**.
-1. Dans **[!UICONTROL Raccourcis]**, profils de drag-and-drop **[!UICONTROL et]** sélectionnez **[!UICONTROL ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
+1. Dans **[!UICONTROL Raccourcis]**, faites glisser-déplacer **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL e-mail]** avec l'opérateur **[!UICONTROL n'est pas vide]**.
+1. Dans **[!UICONTROL Raccourcis]**, faites glisser et déplacer **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL ne plus contacter par e-mail]** avec la valeur **[!UICONTROL no]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Creating an email delivery{#creating-an-email-delivery}
 
-1. Glisser-déposer un**[!UICONTROL Livraison par courriel]** livraison par courriel après chaque segment.
+1. Faites glisser et déposez une livraison **[!UICONTROL par]** e-mail après chaque segment.
 1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) à modifier.
-1. Sélectionnez **[!UICONTROL Simple Email]** et cliquez **[!UICONTROL sur Suivant]**.
-1. Sélectionnez **[!UICONTROL Ajouter une transition de sortie sans la population]** et cliquez **[!UICONTROL sur Suivant]**.
-1. Sélectionnez un modèle de courriel et cliquez **[!UICONTROL sur Suivant]**.
-1. Entrez les propriétés de courriel et cliquez **[!UICONTROL sur Suivant]**.
-1. Pour créer la disposition de votre courriel, cliquez **[!UICONTROL sur Utiliser le concepteur de courriel]**.
+1. Sélectionnez **[!UICONTROL Simple email]** et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez **[!UICONTROL Ajouter une transition sortante sans la population]** et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez un modèle de courriel et cliquez sur **[!UICONTROL Suivant]**.
+1. Entrez les propriétés du courrier électronique et cliquez sur **[!UICONTROL Suivant]**.
+1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL Utiliser le Concepteur]** d'e-mails.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre email avec des offres spécifiques à chaque emplacement. Pour plus d'informations, reportez-vous [à la conception d'un email](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. Cliquez **[!UICONTROL sur Aperçu]** pour vérifier votre disposition.
+1. Personnalisez votre e-mail avec des offres spécifiques à chaque emplacement.Pour plus d'informations, reportez-vous à la [conception d'un e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre disposition.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Ciblant les non-initiateurs dans une activité de requête{#targeting-non-openers-in-a-query-activity}
+## Ciblage des non-ouverture dans une activité de requête{#targeting-non-openers-in-a-query-activity}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Exécution]**, glisser-déposer une **[!UICONTROL activité]** ![](assets/wait.png)d'attente.
-1. Dans **[!UICONTROL la durée]**, cliquez ![](assets/duration-icon.png) et sélectionnez un jour.
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Cibler]**, glisser-déposer une **[!UICONTROL activité de requête]**![](assets/query.png).
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Exécution]**, faites glisser et déposez une activité **** ![](assets/wait.png)Attente.
+1. Dans **[!UICONTROL Durée]**, cliquez sur ![](assets/duration-icon.png) et sélectionnez un jour.
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, faites glisser et déposez une activité **[!UICONTROL de]** ![](assets/query.png)requête.
 1. Double-cliquez sur l'activité.
-1. Dans **[!UICONTROL Raccourcis]**, les logs **[!UICONTROL de suivi de glisser-déposer]** et de l'opérateur **[!UICONTROL existent]**.
-1. Dans **[!UICONTROL Raccourcis]**&gt; **[!UICONTROL Livraison]**, **[!UICONTROL livraison de glisser-déposer]** avec l'opérateur **[!UICONTROL est égal]** et sélectionner la livraison en valeur.
-1. Dans **[!UICONTROL Raccourcis]**&gt; **[!UICONTROL Livraison]**, **[!UICONTROL type de glisser-déposer]** et vérifier **[!UICONTROL en]** fonction de la valeur.
-1. Sélectionnez l'opérateur entre les règles comme **[!UICONTROL à l'exception]**.
+1. Dans **[!UICONTROL Raccourcis]**, faites glisser-déplacer les journaux **[!UICONTROL de]** suivi et l'opérateur **[!UICONTROL existe]**.
+1. Dans **[!UICONTROL Raccourcis]**&gt; **[!UICONTROL Livraison]**, glisser-déplacer la **[!UICONTROL livraison]** avec l'opérateur **[!UICONTROL est égal à]** et sélectionnez la livraison comme valeur.
+1. Dans **[!UICONTROL Raccourcis]**&gt; **[!UICONTROL Livraison]**, faites glisser et déplacer le **[!UICONTROL type]** et cochez **[!UICONTROL Ouvrir]** comme valeur.
+1. Sélectionnez l'opérateur entre les règles comme **[!UICONTROL sauf]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-## Créer une livraison SMS{#creating-a-sms-delivery}
+## Création d'une livraison sms{#creating-a-sms-delivery}
 
-1. Glisser-déposer une livraison SMS après chaque segment.
+1. Faites glisser et déposez une livraison sms après chaque segment.
 1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) à modifier.
-1. Sélectionnez **[!UICONTROL Simple SMS]** et cliquez **[!UICONTROL sur Suivant]**.
-1. Sélectionnez un modèle de SMS et cliquez **[!UICONTROL sur Suivant]**.
-1. Entrez les propriétés de SMS et cliquez **[!UICONTROL sur Suivant]**.
-1. Pour créer la configuration de vos SMS, cliquez sur **[!UICONTROL le designer Email]**.
+1. Sélectionnez **[!UICONTROL Simple sms]** et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez un modèle sms et cliquez sur **[!UICONTROL Suivant]**.
+1. Entrez les propriétés sms et cliquez sur **[!UICONTROL Suivant]**.
+1. Pour créer la mise en page de votre sms, cliquez sur **[!UICONTROL Email Designer]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez vos SMS avec des offres spécifiques à chaque emplacement.
-Pour plus d'informations, reportez-vous [à la conception d'un SMS](../../channels/using/creating-an-sms-message.md).
-1. Cliquez **[!UICONTROL sur Aperçu]** pour vérifier votre disposition.
+1. Personnalisez votre sms avec des offres spécifiques à chaque emplacement.
+Pour plus d'informations, reportez-vous à [la conception d'un système de gestion des données](../../channels/using/creating-an-sms-message.md).
+1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre disposition.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/wf-retargeting-non-openers.png)
