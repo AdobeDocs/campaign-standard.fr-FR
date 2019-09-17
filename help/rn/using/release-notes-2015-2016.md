@@ -3,18 +3,18 @@ title: Notes de mise à jour 2015-2016
 seo-title: Notes de mise à jour 2015-2016
 description: Notes de mise à jour 2015-2016
 seo-description: Cette page répertorie toutes les versions 2015 et 2016 d'Adobe Campaign Standard.
-page-status-flag: jamais activé
-uuid: d 5 a 0 f 6 cc -0 bed -46 cf -8 dff -1717 fb 624 f 8 f
+page-status-flag: never-activated
+uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: référence
-topic-tags: campagne-standard-release
-discoiquuid: a 3 ce 6 b 80-1858-49 d 1-8880-3543181127 f 4
+content-type: reference
+topic-tags: campaign-standard-releases
+discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -27,7 +27,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 16.11 - Novembre 2016 {#release-16-11---november-2016}
+## Version 16.11 - Novembre 2016  {#release-16-11---november-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
@@ -62,20 +62,20 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui empêchait les utilisateurs de télécharger des fichiers zip dans l'éditeur de contenu.
 * Correction d'une erreur qui empêchait l'ouverture d'un bon à tirer après son envoi.
-* Résolution d'un problème qui entraînait l'affichage d'un message d'erreur lors de l'accès au rapport **[!UICONTROL Hot Clicks]à partir d'un email de type test A/B.**
-* Correction d'une erreur qui empêchait la prise en compte de modifications effectuées en mode **[!UICONTROL Afficher la source].**
+* Résolution d'un problème qui entraînait l'affichage d'un message d'erreur lors de l'accès au rapport **[!UICONTROL Hot Clicks]** à partir d'un email de type test A/B.
+* Correction d'une erreur qui empêchait la prise en compte de modifications effectuées en mode **[!UICONTROL Afficher la source]**.
 * Correction d'une erreur qui pouvait empêcher l'import des fichiers de modèle XML d'objet prédictif.
 * Un nouvel écran dédié à l'import de données pour le modèle entraîné des objets est désormais accessible dans **[!UICONTROL Administration &gt; Canaux &gt; Emails &gt; Objet prédictif]** .
 * Correction d'une erreur qui permettait aux utilisateurs non-administrateurs d'éditer des masques autorisés dans l'écran de configuration des emails.
 
 #### Notifications push {#push-notifications}
 
-* Correction d'une erreur qui empêchait l'affichage des envois et des logs d'événement des destinataires après l'envoi d'une notification push utilisant le modèle **[!UICONTROL Diffuser par notification push (vers profils)].**
+* Correction d'une erreur qui empêchait l'affichage des envois et des logs d'événement des destinataires après l'envoi d'une notification push utilisant le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
 * Correction d'une erreur qui pouvait empêcher la création d'applications mobiles.
 
 #### Workflows {#workflows}
 
-* Résolution d'un problème de performance lors de l'utilisation de l'activité **[!UICONTROL Inscription].**
+* Résolution d'un problème de performance lors de l'utilisation de l'activité **[!UICONTROL Inscription]**.
 * Correction d'une erreur qui empêchait un workflow de fonctionner lorsque son nom interne contenait un espace.
 
 #### Intégrations {#integrations}
@@ -89,7 +89,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui empêchait l'extension des profils et la définition des clés d'identifiant avec un champ dynamique.
 * Correction d'une erreur qui pouvait survenir lors de l'ajout de liens à une ressource personnalisée.
 
-## Version 16.10 - Octobre 2016 {#release-16-10---october-2016}
+## Version 16.10 - Octobre 2016  {#release-16-10---october-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-1}
 
@@ -103,7 +103,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> Optimisation prédictive de l'objet des emails<br /> </td> 
-   <td> Lors de l'édition d'un email, une nouvelle option permet de tester différents objets et d'obtenir une estimation du taux d'ouverture de l'email avant envoi. Ces résultats sont rendus possibles à l'aide de modèles créés en analysant les données de vos anciennes diffusions ou de modèles prédéfinis spécifiques à votre secteur d'activité. Cette fonctionnalité est disponible pour les emails et les bases de données dont le contenu est en anglais uniquement. <br /> Pour plus d'informations sur l'activation et l'utilisation de cette fonctionnalité, consultez la <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">documentation détaillée</a>.<br /> </td> 
+   <td> Lors de l'édition d'un email, une nouvelle option permet de tester différents objets et d'obtenir une estimation du taux d'ouverture de l'email avant envoi. Ces résultats sont rendus possibles à l'aide de modèles créés en analysant les données de vos anciennes diffusions ou de modèles prédéfinis spécifiques à votre secteur d'activité. Cette fonctionnalité est disponible pour les emails et les bases de données dont le contenu est en anglais uniquement. <br /> Pour plus d'informations sur l'activation et l'utilisation de cette fonctionnalité, consultez la <a href="../../designing/using/subject-line.md#predictive-subject-line">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Messages transactionnels : canal SMS<br /> </td> 
@@ -128,18 +128,18 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Emails et SMS {#emails-and-sms-messages-1}
 
-* The SMS external account configuration screen ( **[!UICONTROL Administration &gt; Channels &gt; SMS &gt; SMS accounts]** ) has been improved. Plusieurs paramètres ont été ajoutés à la section **[!UICONTROL Spécificités du SMSC]afin de prendre en charge les codes d'erreur du champ "Texte".**
+* L'écran de paramétrage des comptes externes SMS (**[!UICONTROL Administration &gt; Canaux &gt; SMS &gt; Comptes SMS]**) a été amélioré. Plusieurs paramètres ont été ajoutés à la section **[!UICONTROL Spécificités du SMSC]** afin de prendre en charge les codes d'erreur du champ "Texte".
 
 #### Notifications push {#push-notifications-1}
 
-* Fixed an issue that prevented the predefined filters from being displayed when editing the audience of a push notification based on the **[!UICONTROL Send via push notification]** (mobileApp) template.
-* The mobile application configuration screen ( **[!UICONTROL Administration &gt; Channels &gt; Push Notification &gt; Mobile applications]** ) now displays a message to indicate that the iOS or Android platform has been successfully created.
+* Correction d'un problème qui empêchait l'affichage des filtres prédéfinis lors de l'édition de l'audience d'une notification push créée à partir du modèle **[!UICONTROL Diffuser par notification push]** (mobileApp).
+* L'écran de paramétrage des applications mobiles (**[!UICONTROL Administration &gt; Canaux &gt; Notification push &gt; Applications mobiles]**) affiche désormais un message indiquant que la plateforme iOS ou Android a été créée avec succès.
 
 #### Landing pages {#landing-pages}
 
 * Correction de problèmes qui empêchaient l'envoi des emails de confirmation lorsque le formulaire d'une landing page était validé.
 
-#### Audiences et requêtes {#audiences-and-queries}
+#### Audiences et requêtes  {#audiences-and-queries}
 
 * Correction de plusieurs problèmes qui survenaient lors de la sélection d'un profil dans l'éditeur de requêtes.
 
@@ -151,10 +151,10 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Intégrations {#integrations-1}
 
 * Correction d'un problème qui empêchait l'utilisation d'une audience partagée dans une diffusion après la mise à jour de cette audience.
-* Correction d'un problème qui empêchait l'utilisation d'une ressource partagée (option **[!UICONTROL Image partagée depuis Adobe Marketing Cloud]) dans une page d'entrée.**
+* Correction d'un problème qui empêchait l'utilisation d'une ressource partagée (option **[!UICONTROL Image partagée depuis Adobe Marketing Cloud]**) dans une page d'entrée.
 * Correction de problèmes qui survenaient lors de l'édition d'une audience partagée importée depuis Adobe Audience Manager.
 
-## Version 16.9 - Septembre 2016 {#release-16-9---september-2016}
+## Version 16.9 - Septembre 2016  {#release-16-9---september-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
@@ -216,7 +216,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur d'affichage qui survenait lorsqu'une image haute résolution était insérée par le biais de l'option **Image dynamique servie par Adobe Target**.
 * Correction d'une erreur qui permettait d'enregistrer une audience partagée même si l'identifiant de la destination (destination ID) n'était pas défini dans l'AMC Data Source.
 
-## Version 16.7 - Juillet 2016 {#release-16-7---july-2016}
+## Version 16.7 - Juillet 2016  {#release-16-7---july-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-3}
 
@@ -234,14 +234,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> URL dynamiques pour les images<br /> </td> 
-   <td> Cette nouvelle fonctionnalité permet de personnaliser la source d'une image en insérant des blocs de contenu et du texte dynamique à des fins de tracking et de personnalisation.<br /> Il devient entre autres possible de profiter des fonctionnalités de médias dynamiques d'AEM Asset (S7) en passant des paramètres dans les URL des images. Vous pouvez par exemple envoyer un email avec des images personnalisées indiquant “Bonjour Alexandre, découvrez nos prochains événements à Paris !” ou “Bonjour Frank, découvrez nos prochains événements à New York !”.<br /> Pour plus d'informations, consultez la <a href="../../designing/using/personalizing-urls.md">documentation détaillée</a>.<br /> </td> 
+   <td> Cette nouvelle fonctionnalité permet de personnaliser la source d'une image en insérant des blocs de contenu et du texte dynamique à des fins de tracking et de personnalisation.<br /> Il devient entre autres possible de profiter des fonctionnalités de médias dynamiques d'AEM Asset (S7) en passant des paramètres dans les URL des images. Vous pouvez par exemple envoyer un email avec des images personnalisées indiquant “Bonjour Alexandre, découvrez nos prochains événements à Paris !” ou “Bonjour Frank, découvrez nos prochains événements à New York !”.<br /> Pour plus d'informations, consultez la <a href="../../designing/using/personalization.md#personalizing-urls">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration avec People core service<br /> </td> 
    <td> Les identifiants Adobe Marketing Cloud de type <strong>Declared ID</strong> sont désormais pris en charge par l'intégration entre Adobe Campaign et People core service (Profiles &amp; Audiences).<br /> Vous pouvez ainsi importer des segments et exporter des audiences composées de <strong>Visitor ID</strong> ou de <strong>Declared ID</strong>.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Logs de diffusion<br /> </td> 
+   <td> Logs de diffusion <br /> </td> 
    <td> Les logs MTA (serveur de diffusion) affichent désormais l'historique complet de chaque message, notamment toutes les tentatives d'envoi ainsi que les statuts d'erreur associés, et ce sans impact sur les performances de l'application.<br /> </td> 
   </tr> 
  </tbody> 
@@ -252,12 +252,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Général {#general-3}
 
 * Correction d'une erreur qui pouvait provoquer l'affichage de champs non pertinents au lieu des champs devant être renseignés après avoir modifié plusieurs fois l'opérateur de comparaison lors de l'édition d'une condition dans une requête.
-* Correction du comportement de l'option **[!UICONTROL Les X derniers jours/mois/trimestres/années]lors de la définition d'une condition de filtrage de type relatif sur un champ de date.** La période calculée est désormais glissante par rapport à la date et l'heure du serveur et non plus calendaire.
+* Correction du comportement de l'option **[!UICONTROL Les X derniers jours/mois/trimestres/années]** lors de la définition d'une condition de filtrage de type relatif sur un champ de date. La période calculée est désormais glissante par rapport à la date et l'heure du serveur et non plus calendaire.
 
 #### Workflows {#workflows-1}
 
-* Correction d'une erreur qui renvoyait une mauvaise liste de valeurs dans l'écran de sélection de la dimension de ciblage dans les propriétés d'une activité de **[!UICONTROL Requête].**
-* Correction d'une erreur qui forçait la sélection de l'opérateur **existe** lors de l'ajout d'un agrégat de type moyenne ou comptage sur un élément d'une collection dans une activité de **[!UICONTROL Requête].**
+* Correction d'une erreur qui renvoyait une mauvaise liste de valeurs dans l'écran de sélection de la dimension de ciblage dans les propriétés d'une activité de **[!UICONTROL Requête]**.
+* Correction d'une erreur qui forçait la sélection de l'opérateur **existe** lors de l'ajout d'un agrégat de type moyenne ou comptage sur un élément d'une collection dans une activité de **[!UICONTROL Requête]**.
 
 #### Edition de contenus {#content-editing}
 
@@ -270,7 +270,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Lors de l'intégration à un site web, il est désormais possible de définir une date d'expiration pour un événement donné. Une fois cette date passée, le message correspondant à l'événement ne peut plus être envoyé.
 
-## Version 16.6 - Juin 2016 {#release-16-6---june-2016}
+## Version 16.6 - Juin 2016  {#release-16-6---june-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-4}
 
@@ -312,7 +312,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Workflows {#workflows-2}
 
 * Les transitions entre deux activités d'un workflow affichent désormais le comptage des éléments calculés et transmis d'une activité à l'autre.
-* Les champs non compatibles sont désormais masqués lors de l'ajout de données additionnelles dans une activité de **[!UICONTROL Requête].**
+* Les champs non compatibles sont désormais masqués lors de l'ajout de données additionnelles dans une activité de **[!UICONTROL Requête]**.
 * La fenêtre de définition d'un agrégat lors de l'ajout de données additionnelles a été améliorée afin de ne proposer que des options compatibles (par exemple : calculer une moyenne n'est possible que sur des données numériques).
 * Le démarrage ou redémarrage d'un workflow technique d'usine est désormais uniquement réalisable par un utilisateur disposant des droits d'administration.
 
@@ -323,11 +323,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Ressources personnalisées {#custom-resources-2}
 
-* L'option **[!UICONTROL Définir des paramètres]est désormais masquée lors de la définition d'un filtre portant sur les abonnements à un service d'un profil.**
+* L'option **[!UICONTROL Définir des paramètres]** est désormais masquée lors de la définition d'un filtre portant sur les abonnements à un service d'un profil.
 * Correction d'une erreur qui pouvait être provoquée lorsqu'un lien de type 0 - 1 était paramétré depuis une ressource personnalisée.
 * Correction d'une erreur qui empêchait, le cas échéant, d'éditer la **Valeur par défaut constante** définie lors de l'ajout d'un champ de type **Date et heure** dans une ressource personnalisée.
 
-## Version 16.5 - Mai 2016 {#release-16-5---may-2016}
+## Version 16.5 - Mai 2016  {#release-16-5---may-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-5}
 
@@ -375,13 +375,13 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Diverses nouvelles fonctionnalités de l'interface des workflows
 * Correction d'une erreur d'affichage des actions rapides.
-* Correction d'une erreur qui provoquait l'échec d'un workflow lors de l'utilisation d'une activité de type **[!UICONTROL Segmentation]contenant un lien 1-N.**
+* Correction d'une erreur qui provoquait l'échec d'un workflow lors de l'utilisation d'une activité de type **[!UICONTROL Segmentation]** contenant un lien 1-N.
 * Correction d'une erreur qui empêchait d'ouvrir les transitions d'un workflow sur appareil hybride.
 * Correction d'une erreur qui empêchait l'affichage du bouton de pause au premier démarrage d'un workflow.
 
 #### Editeur de contenus {#content-editor}
 
-* L'éditeur de contenu permet à présent de personnaliser n'importe quelle URL dans un email ou une landing page. Consultez à ce sujet la [documentation détaillée](../../designing/using/personalizing-urls.md).
+* L'éditeur de contenu permet à présent de personnaliser n'importe quelle URL dans un email ou une landing page. Consultez à ce sujet la [documentation détaillée](../../designing/using/personalization.md#personalizing-urls).
 * Correction d'une erreur qui provoquait la perte des images lorsque celles-ci étaient ajoutées dans l'assistant de création de la diffusion, puis que le contenu était modifié par la suite.
 
 #### Ressources personnalisées {#custom-resources-3}
@@ -397,7 +397,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui permettait l'ajout, dans un modèle de message transactionnel, d'un bloc de contenu ayant une dimension de ciblage non compatible.
 * Correction d'un erreur qui empêchait l'affichage de l'aperçu de l'API dans l'écran de configuration d'un événement.
 
-#### Audiences et requêtes {#audiences-and-queries-1}
+#### Audiences et requêtes  {#audiences-and-queries-1}
 
 * Corrections diverses liées à l'utilisation des dates dans l'éditeur de requête. Consultez à ce sujet la [documentation détaillée](../../automating/using/editing-queries.md#creating-queries).
 
@@ -405,7 +405,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur liée au nom du groupe de sécurité "Utilisateurs standards", qui empêchait les utilisateurs de se connecter.
 
-## Version 16.3 - Mars 2016 {#release-16-3---march-2016}
+## Version 16.3 - Mars 2016  {#release-16-3---march-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-6}
 
@@ -447,8 +447,8 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Workflows {#workflows-4}
 
 * Certaines options de formatage de fichier étaient visibles mais non prises en compte lors d'une extraction de fichier au format CSV. Ces options ne sont désormais plus visibles.
-* Correction d'une erreur provoquée dans le cas d'un transfert de fichier de type **** SFTP] pour lequel l'option **[!UICONTROL Effacer les fichiers source après leur transfert]était cochée.[!UICONTROL **
-* Correction d'une erreur qui pouvait empêcher d'afficher le comptage et la prévisualisation des données d'une **[!UICONTROL Requête]après avoir actualisé la page.**
+* Correction d'une erreur provoquée dans le cas d'un transfert de fichier de type **[!UICONTROL SFTP]** pour lequel l'option **[!UICONTROL Effacer les fichiers source après leur transfert]** était cochée.
+* Correction d'une erreur qui pouvait empêcher d'afficher le comptage et la prévisualisation des données d'une **[!UICONTROL Requête]** après avoir actualisé la page.
 * Correction d'une erreur provoquée à l'ouverture de certaines transitions dans un workflow, notamment après une activité de diffusion ou une requête dont les dimensions de ciblage et de filtrage étaient différentes.
 * Correction d'une erreur qui empêchait d'insérer un champ de personnalisation dans une activité de diffusion d'un workflow si le workflow n'avait pas été sauvegardé après l'ajout de l'activité.
 * Correction d'une erreur qui empêchait d'afficher la dimension de ciblage de la transition sortante d'une activité de diffusion par email.
@@ -504,7 +504,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher l'affichage du bouton permettant d'insérer des champs de personnalisation lors de la création d'un message (email ou SMS).
 * Correction d'une erreur qui pouvait empêcher les SMS envoyés via Mblox d'être transmis correctement.
 
-#### Audiences et requêtes {#audiences-and-queries-2}
+#### Audiences et requêtes  {#audiences-and-queries-2}
 
 * Correction d'une erreur de comptage qui pouvait être entrainée lors de l'ajout d'une condition supplémentaire dans une requête, après avoir modifié la dimension de filtrage.
 * Correction d'une erreur qui pouvait entraîner une pagination incorrecte lors de la prévisualisation des résultats d'une requête.
@@ -515,23 +515,23 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Workflows {#workflows-5}
 
-* Correction d'une erreur qui pouvait empêcher d'effectuer toute action dans un workflow en cas de présence d'une ligne vide dans l'onglet **[!UICONTROL Champs à mettre à jour]** d'une activité de **Mise à jour de données[!UICONTROL .]**
+* Correction d'une erreur qui pouvait empêcher d'effectuer toute action dans un workflow en cas de présence d'une ligne vide dans l'onglet **[!UICONTROL Champs à mettre à jour]** d'une activité de **[!UICONTROL Mise à jour de données]**.
 * Correction d'une erreur qui empêchait d'importer des données comportant des informations concernant les entités géographiques et organisationnelles.
-* Correction d'une erreur provoquée par l'ajout d'une règle d'**[!UICONTROL Exclusion]de type****Changement d'axe[!UICONTROL .]**
-* Correction d'une erreur qui pouvait entraîner la création d'un segment supplémentaire non souhaité lors de la manipulation d'une transition sortante d'une activité de **[!UICONTROL Segmentation].**
+* Correction d'une erreur provoquée par l'ajout d'une règle d'**[!UICONTROL Exclusion]** de type **[!UICONTROL Changement d'axe]**.
+* Correction d'une erreur qui pouvait entraîner la création d'un segment supplémentaire non souhaité lors de la manipulation d'une transition sortante d'une activité de **[!UICONTROL Segmentation]**.
 * Correction d'une erreur entraînée par le chargement d'un fichier dans un modèle de workflow.
-* Correction d'une erreur qui pouvait empêcher d'utiliser des espaces comme séparateurs de colonne dans une activité de **[!UICONTROL Chargement de fichier].**
+* Correction d'une erreur qui pouvait empêcher d'utiliser des espaces comme séparateurs de colonne dans une activité de **[!UICONTROL Chargement de fichier]**.
 
 #### Ressources personnalisées {#custom-resources-5}
 
 * Correction d'une erreur qui empêchait le statut d'une ressource personnalisée d'être réinitialisé après un import de package, si la ressource était publiée au moment de l'export.
 
-#### Packages {#packages}
+#### Packages  {#packages}
 
 * Correction d'une erreur qui empêchait d'exporter un package contenant un workflow.
 * Correction d'une erreur qui pouvait empêcher de sélectionner plusieurs éléments d'une même ressource.
 
-## Version 16.1 - Janvier 2016 {#release-16-1---january-2016}
+## Version 16.1 - Janvier 2016  {#release-16-1---january-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-8}
 
@@ -578,7 +578,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher de générer la miniature du contenu depuis l'écran de prévisualisation d'un email.
 * Correction d'une erreur qui pouvait empêcher d'afficher le contenu brut d'un message (email ou SMS) depuis l'écran de prévisualisation de ce dernier.
 
-#### Audiences et requêtes {#audiences-and-queries-3}
+#### Audiences et requêtes  {#audiences-and-queries-3}
 
 * Correction d'une erreur qui pouvait empêcher de créer une audience de type **Requête** sur la ressource **Service**.
 * Correction d'une erreur qui pouvait empêcher la liste des fonctions de correctement s'afficher lors de l'édition d'une condition d'une requête en mode avancé.
@@ -589,23 +589,23 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Ressources personnalisées {#custom-resources-6}
 
 * Correction d'une erreur qui pouvait entraîner un crash du serveur lorsqu'une ressource personnalisée contenait un champ dont la valeur par défaut était dynamique.
-* Correction d'une erreur provoquée lors de la définition des écrans d'une ressource personnalisée, suite au déplacement puis à la suppression d'un élément dans la section **[!UICONTROL Configuration de l'écran de détail].**
+* Correction d'une erreur provoquée lors de la définition des écrans d'une ressource personnalisée, suite au déplacement puis à la suppression d'un élément dans la section **[!UICONTROL Configuration de l'écran de détail]**.
 * Correction d'une erreur provoquée lorsqu'une valeur par défaut était définie pour une liste de type **integer** qui ne comptait pas **0** parmi les valeurs possibles.
 * Correction d'une erreur qui pouvait empêcher d'ajouter un élément dans la configuration de l'écran de détail d'une ressource personnalisée après une réinitialisation.
 
 #### Workflows {#workflows-6}
 
 * Correction d'une erreur qui provoquait l'affichage des journaux de toutes les activités d'un workflow au lieu d'afficher uniquement ceux de l'activité sélectionnée.
-* Correction d'une erreur au niveau de l'activité **[!UICONTROL Planificateur.]** L'option **[!UICONTROL Jour du mois]** pouvait ne pas être correctement prise en compte et remplacée par **[!UICONTROL Jour de la semaine]** .
+* Correction d'une erreur au niveau de l'activité **[!UICONTROL Planificateur]**. L'option **[!UICONTROL Jour du mois]** pouvait ne pas être correctement prise en compte et remplacée par **[!UICONTROL Jour de la semaine]** .
 * Correction d'une erreur qui pouvait empêcher une activité **[!UICONTROL Planificateur]** de fonctionner correctement lorsque le mode d'expiration était paramétré sur **[!UICONTROL Après un certain nombre d'itérations]** .
-* Correction d'une erreur lors de l'export de données à l'aide d'une activité d'**[!UICONTROL Extraction de fichier.]** Le nombre de lignes présentes dans le fichier exporté était inférieur au nombre d'éléments exportés.
-* Correction d'une erreur qui pouvait empêcher de sélectionner un fichier dans une activité de **[!UICONTROL Chargement de fichier].**
-* Correction d'une erreur qui empêchait de supprimer des champs à mettre à jour dans une activité de **[!UICONTROL Mise à jour de données].**
+* Correction d'une erreur lors de l'export de données à l'aide d'une activité d'**[!UICONTROL Extraction de fichier]**. Le nombre de lignes présentes dans le fichier exporté était inférieur au nombre d'éléments exportés.
+* Correction d'une erreur qui pouvait empêcher de sélectionner un fichier dans une activité de **[!UICONTROL Chargement de fichier]**.
+* Correction d'une erreur qui empêchait de supprimer des champs à mettre à jour dans une activité de **[!UICONTROL Mise à jour de données]**.
 * Correction d'une erreur qui empêchait d'enregistrer les modifications apportées à un workflow après avoir ouvert les journaux d'exécution de ce dernier.
-* Correction d'une erreur qui conduisait une activité de **[!UICONTROL Chargement de fichier]** à être exécutée deux fois si elle était configurée pour utiliser le fichier provenant de sa transition entrante, et que le fichier était téléchargé via une activité de **Transfert de fichier[!UICONTROL .]**
+* Correction d'une erreur qui conduisait une activité de **[!UICONTROL Chargement de fichier]** à être exécutée deux fois si elle était configurée pour utiliser le fichier provenant de sa transition entrante, et que le fichier était téléchargé via une activité de **[!UICONTROL Transfert de fichier]**.
 * Correction d'une erreur qui pouvait empêcher certaines entités temporaires d'être correctement traitées par une activité d'**Exclusion**.
-* Correction d'une erreur qui pouvait empêcher une activité de **[!UICONTROL Requête]d'être exécutée correctement si la dimension de ciblage et la dimension de filtrage paramétrées dans l'activité étaient différentes.**
-* Correction d'une erreur de nommage automatique des transitions sortantes ajoutées à une activité de **[!UICONTROL Branchement]qui pouvait empêcher de sauvegarder le workflow.**
+* Correction d'une erreur qui pouvait empêcher une activité de **[!UICONTROL Requête]** d'être exécutée correctement si la dimension de ciblage et la dimension de filtrage paramétrées dans l'activité étaient différentes.
+* Correction d'une erreur de nommage automatique des transitions sortantes ajoutées à une activité de **[!UICONTROL Branchement]** qui pouvait empêcher de sauvegarder le workflow.
 
 #### Edition de contenus {#content-editing-2}
 
@@ -620,7 +620,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Il est maintenant possible de spécifier une adresse IP de confiance dans les paramètres de sécurité de l'opérateur Agent Push Message Center.
 * Correction d'une erreur qui pouvait empêcher de créer un nouveau type d'événement.
 
-## Version 15.11 - Novembre 2015 {#release-15-11---november-2015}
+## Version 15.11 - Novembre 2015  {#release-15-11---november-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-9}
 
@@ -680,13 +680,13 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Workflows {#workflows-7}
 
-* Correction d'une erreur qui pouvait empêcher de configurer manuellement les champs à mettre à jour dans une activité de **[!UICONTROL Mise à jour de données].**
-* Correction d'une erreur qui pouvait provoquer un chargement infini lors de l'ouverture d'une activité de **[!UICONTROL Requête]si le workflow n'avait pas été sauvegardé après avoir placé l'activité dans le diagramme.**
-* Correction d'une erreur qui pouvait provoquer l'arrêt du serveur lors du comptage ou de la prévisualisation d'une audience sélectionnée depuis une **[!UICONTROL Requête]dans un workflow.**
+* Correction d'une erreur qui pouvait empêcher de configurer manuellement les champs à mettre à jour dans une activité de **[!UICONTROL Mise à jour de données]**.
+* Correction d'une erreur qui pouvait provoquer un chargement infini lors de l'ouverture d'une activité de **[!UICONTROL Requête]** si le workflow n'avait pas été sauvegardé après avoir placé l'activité dans le diagramme.
+* Correction d'une erreur qui pouvait provoquer l'arrêt du serveur lors du comptage ou de la prévisualisation d'une audience sélectionnée depuis une **[!UICONTROL Requête]** dans un workflow.
 * Correction d'une erreur non bloquante qui pouvait s'afficher à l'ouverture d'une activité dans un workflow.
-* Correction d'une erreur qui empêchait de configurer une activité **[!UICONTROL Planificateur]de manière à exécuter un workflow plusieurs fois par jour.**
+* Correction d'une erreur qui empêchait de configurer une activité **[!UICONTROL Planificateur]** de manière à exécuter un workflow plusieurs fois par jour.
 * Correction d'une erreur qui provoquait l'affichage de champs sur lesquels il n'était pas possible d'effectuer une requête dans certaines activités de workflows.
-* Correction d'une erreur qui empêchait de retrouver des KPI ajoutés à partir d'une **[!UICONTROL Requête]sur des diffusions dans la transition sortante.**
+* Correction d'une erreur qui empêchait de retrouver des KPI ajoutés à partir d'une **[!UICONTROL Requête]** sur des diffusions dans la transition sortante.
 * Correction d'une erreur qui pouvait empêcher la création d'une audience de type fichier après un import de fichier dans un workflow.
 * Correction d'une erreur qui pouvait empêcher la mise à jour de données sur des profils si le champ **location/address3** de la ressource était utilisé.
 * Correction d'une erreur qui empêchait la duplication de collections hétérogènes d'activités dans un workflow.
@@ -696,13 +696,13 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui rendait impossible la recherche dans le code source d'une landing page ou d'un email.
 
-#### Packages {#packages-1}
+#### Packages  {#packages-1}
 
 * Correction de diverses erreurs qui pouvaient empêcher l'export de certains types d'éléments dans des packages (notamment landing pages, workflows).
 * Correction d'une erreur qui provoquait l'affichage de l'ancien libellé d'un import de package si le libellé avait été modifié.
 * Correction d'une erreur qui pouvait provoquer l'affichage de ressources non compatibles dans la liste des ressources exportables.
 
-## Version 15.10 - Octobre 2015 {#release-15-10---october-2015-}
+## Version 15.10 - Octobre 2015  {#release-15-10---october-2015-}
 
 ### Nouvelles fonctionnalités {#new-capabilities-10}
 
@@ -724,7 +724,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Workflows : activité Extraction de fichier<br /> </td> 
-   <td> La date et l'heure de l'export sont désormais automatiquement ajoutées au libellé des fichiers exportés à l'aide d'une activité d'<span class="uicontrol">Extraction de fichier. </span> Cela permet de générer des fichiers uniques.<br /> </td> 
+   <td> La date et l'heure de l'export sont désormais automatiquement ajoutées au libellé des fichiers exportés à l'aide d'une activité d'<span class="uicontrol">Extraction de fichier</span>. Cela permet de générer des fichiers uniques.<br /> </td> 
   </tr> 
   <tr> 
    <td> Import de données simplifié<br /> </td> 
@@ -743,7 +743,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui empêchait un lien de désinscription à un service de fonctionner correctement depuis une page miroir.
 * Correction d'une erreur qui pouvait empêcher l'affichage du libellé d'une diffusion email au niveau de la page d'édition de l'email.
-* Correction d'une erreur qui pouvait empêcher la sélection d'un compte externe de **[!UICONTROL Routage]dans un modèle de diffusion dupliqué.**
+* Correction d'une erreur qui pouvait empêcher la sélection d'un compte externe de **[!UICONTROL Routage]** dans un modèle de diffusion dupliqué.
 
 #### Audiences {#audiences-1}
 
@@ -753,18 +753,18 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Workflows {#workflows-8}
 
 * Correction d'une erreur qui pouvait provoquer des problèmes d'affichage lors du paramétrage d'une diffusion email dans un workflow.
-* Correction d'une erreur qui pouvait empêcher l'activité de **[!UICONTROL Chargement de fichier]de fonctionner correctement.** Une erreur sans message s'affichait alors.
-* Correction d'une erreur qui pouvait empêcher l'activité de **[!UICONTROL Transfert de fichier]de fonctionner correctement.** Les droits d'accès pouvaient ne pas être correctement pris en compte.
+* Correction d'une erreur qui pouvait empêcher l'activité de **[!UICONTROL Chargement de fichier]** de fonctionner correctement. Une erreur sans message s'affichait alors.
+* Correction d'une erreur qui pouvait empêcher l'activité de **[!UICONTROL Transfert de fichier]** de fonctionner correctement. Les droits d'accès pouvaient ne pas être correctement pris en compte.
 * Correction d'une erreur qui pouvait empêcher d'exporter un fichier si le workflow contenait un **[!UICONTROL Email récurrent]** .
 * Correction d'une erreur qui pouvait empêcher de créer une diffusion email dans un workflow ou qui empêchait la prise en compte de l'objet et du contenu défini.
-* Correction d'une erreur qui pouvait empêcher de sélectionner une clé de réconciliation dans une activité de **[!UICONTROL Mise à jour de données]lors du paramétrage du workflow d'un modèle d'import simplifié.**
+* Correction d'une erreur qui pouvait empêcher de sélectionner une clé de réconciliation dans une activité de **[!UICONTROL Mise à jour de données]** lors du paramétrage du workflow d'un modèle d'import simplifié.
 * Correction d'une erreur qui pouvait empêcher la sauvegarde d'un workflow après avoir supprimé une activité.
 
 #### Plate-forme {#platform}
 
 * Correction d'une erreur qui pouvait empêcher la création d'un nouvel élément si une ressource personnalisée contenait un lien vers le type de ressource de cet élément.
 * Correction d'une erreur qui pouvait provoquer un délai de 15 minutes dans l'écriture de certains journaux.
-* Correction d'une erreur qui pouvait empêcher l'affichage de la liste des activités marketing en cas de tri sur les colonnes **[!UICONTROL Date]** ou **Indicateurs[!UICONTROL .]**
+* Correction d'une erreur qui pouvait empêcher l'affichage de la liste des activités marketing en cas de tri sur les colonnes **[!UICONTROL Date]** ou **[!UICONTROL Indicateurs]**.
 
 #### Landing pages {#landing-pages-5}
 
@@ -782,7 +782,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur de gestion des balises HTML lors du traitement de blocs de contenu dynamique.
 
-## Version 15.8 - Août 2015 {#release-15-8---august-2015}
+## Version 15.8 - Août 2015  {#release-15-8---august-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-11}
 
@@ -807,7 +807,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
     </ul> Pour plus d'informations, consultez la <a href="../../start/using/programs-and-campaigns.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> email<br /> </td> 
+   <td> Email<br /> </td> 
    <td> La liste des URLs trackées est désormais en lecture seule.<br /> </td> 
   </tr> 
   <tr> 
@@ -846,14 +846,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Workflows {#workflows-9}
 
 * Correction d'une erreur qui pouvait empêcher l'envoi d'emails depuis un workflow.
-* Correction d'une erreur qui pouvait empêcher l'exécution d'un workflow lorsque le nom du fichier de rejets n'était pas spécifié dans une activité de **[!UICONTROL Chargement de fichier].**
-* Fixed an error that could prevent a workflow from executing when the **[!UICONTROL Execution frequency]** of a **[!UICONTROL Schedule]** activity was set to **[!UICONTROL Daily]** .
+* Correction d'une erreur qui pouvait empêcher l'exécution d'un workflow lorsque le nom du fichier de rejets n'était pas spécifié dans une activité de **[!UICONTROL Chargement de fichier]**.
+* Correction d'une erreur qui pouvait empêcher l'exécution d'un workflow lorsque la **[!UICONTROL Fréquence d'exécution]** d'une activité **[!UICONTROL Planificateur]** était définie sur **[!UICONTROL Quotidienne]**.
 
 #### Plate-forme {#platform-1}
 
 * Correction d'une erreur qui empêchait la génération des miniatures en cas d'utilisation de serveurs de répartition de charges.
 
-## Version 15.7 - Juillet 2015 {#release-15-7---july-2015}
+## Version 15.7 - Juillet 2015  {#release-15-7---july-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-12}
 
@@ -879,7 +879,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Digital Content Editor - Contenu dynamique<br /> </td> 
-   <td> L'interface du contenu dynamique a été améliorée. Des flèches sont désormais disponibles pour naviguer entre les différents contenus dynamiques, directement dans le corps de l'email.<br /> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
+   <td> L'interface du contenu dynamique a été améliorée. Des flèches sont désormais disponibles pour naviguer entre les différents contenus dynamiques, directement dans le corps de l'email.<br /> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Texte dynamique<br /> </td> 
@@ -888,7 +888,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
      <li> dans l'objet de l'email, </li> 
      <li> en mode HTML, </li> 
      <li> ou en mode Texte. </li> 
-    </ul> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../designing/using/defining-dynamic-text.md">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../channels/using/defining-dynamic-text.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Programmes et campagnes - rapports<br /> </td> 
@@ -917,11 +917,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui empêchait l'édition d'une landing page depuis une tablette.
 
-#### Assets Core Service {#assets-core-service}
+#### Assets Core Service  {#assets-core-service}
 
 * Lors de la sélection d'une ressource partagée depuis l'édition d'un email ou d'une landing page, la liste des ressources disponibles est désormais filtrée pour Adobe Campaign.
 
-## Version 15.6 - Juin 2015 {#release-15-6---june-2015}
+## Version 15.6 - Juin 2015  {#release-15-6---june-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-13}
 
@@ -963,10 +963,10 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Editeur de contenus : contenu dynamique<br /> </td> 
-   <td> Vous pouvez définir différents contenus qui s'afficheront de manière dynamique à l'utilisateur selon les conditions définies au moyen de l'éditeur d'expression.<br /> Consultez à ce sujet la <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez définir différents contenus qui s'afficheront de manière dynamique à l'utilisateur selon les conditions définies au moyen de l'éditeur d'expression.<br /> Consultez à ce sujet la <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> email<br /> </td> 
+   <td> Email<br /> </td> 
    <td> Une colonne <strong>Profils de test</strong> est désormais disponible dans les envois d'un email.<br /> </td> 
   </tr> 
  </tbody> 
@@ -984,12 +984,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Audiences {#audiences-2}
 
-* Correction d'une erreur qui empêchait l'utilisation du bouton **[!UICONTROL Ajouter]depuis l'interface des audiences.**
+* Correction d'une erreur qui empêchait l'utilisation du bouton **[!UICONTROL Ajouter]** depuis l'interface des audiences.
 
 #### Emails {#emails-1}
 
 * Correction d'une erreur JavaScript qui empêchait d'utiliser l'option de prévisualisation deux fois de suite lors de l'édition d'un email.
-* Correction d'une erreur qui empêchait l'utilisation des boutons **[!UICONTROL Editer les propriétés]** et Afficher les bons à tirer sur les tablettes Microsoft Surface Pro3 utilisant Internet Explorer 11.****
+* Correction d'une erreur qui empêchait l'utilisation des boutons **[!UICONTROL Editer les propriétés]** et **[!UICONTROL Afficher les bons à tirer]** sur les tablettes Microsoft Surface Pro3 utilisant Internet Explorer 11.
 * Correction d'une erreur qui pouvait empêcher l'affichage des envois d'un email.
 
 #### Landing pages {#landing-pages-7}
@@ -1008,11 +1008,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher une règle d'exclusion d'être correctement prise en compte dans une activité d'**Exclusion**.
 * Correction d'une erreur lors de la suppression d'une activité de diffusion par email dans un workflow. Les diffusions liées n'étaient pas supprimées dans la liste des activités marketing.
 
-#### Navigation {#navigation}
+#### Navigation  {#navigation}
 
 * L'utilisation de la touche de tabulation permet désormais de naviguer correctement entre les champs d'une page.
 
-## Version 15.4 - Avril 2015 {#release-15-4---april-2015}
+## Version 15.4 - Avril 2015  {#release-15-4---april-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-14}
 
@@ -1057,12 +1057,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Digital Content Editor : <strong>Sélection des blocs</strong><br /> </td> 
-   <td> Lorsqu'un bloc est sélectionné dans l'éditeur de contenus HTML, un fil d'Ariane s'affiche au bas de la zone d'édition, ce qui facilite la navigation et la sélection des différents éléments.<br /> Consultez à ce sujet la <a href="../../designing/using/managing-landing-page-structure-and-style.md">documentation détaillée</a>.<br /> </td> 
+   <td> Lorsqu'un bloc est sélectionné dans l'éditeur de contenus HTML, un fil d'Ariane s'affiche au bas de la zone d'édition, ce qui facilite la navigation et la sélection des différents éléments.<br /> Consultez à ce sujet la <a href="../../channels/using/managing-landing-page-structure-and-style.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Version 15.3 - Mars 2015 {#release-15-3---march-2015}
+## Version 15.3 - Mars 2015  {#release-15-3---march-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-15}
 
