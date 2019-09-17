@@ -15,7 +15,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 43183a3adc35da3dac807a888f1b694fbb9a623c
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
@@ -98,7 +98,7 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
 1. Saisissez le contenu de votre message et ajoutez vos champs de personnalisation en cas de besoin.
 
-   Pour plus d'informations sur les champs de personnalisation, consultez cette [section](../../designing/using/inserting-a-personalization-field.md).
+   Pour plus d'informations sur les champs de personnalisation, consultez cette [section](../../designing/using/personalization.md#inserting-a-personalization-field).
 
    ![](assets/inapp_customize_10.png)
 
