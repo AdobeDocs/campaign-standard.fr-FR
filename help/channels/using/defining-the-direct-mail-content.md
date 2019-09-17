@@ -14,8 +14,8 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
@@ -32,7 +32,7 @@ L'écran de définition du **[!UICONTROL Contenu]** est spécifique au canal cou
 
 ## Définir l'extraction {#defining-the-extraction}
 
-1. Définissez tout d'abord le nom du fichier d'extraction. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Fichier de sortie]** et saisissez le libellé souhaité. Vous pouvez utiliser des champs de personnalisation, des blocs de contenu et du texte dynamique (voir [Définir le contenu](../../designing/using/example--email-personalization.md)). Vous pouvez, par exemple, renseigner le libellé avec l'identifiant de la diffusion ou la date d'extraction.
+1. Définissez tout d'abord le nom du fichier d'extraction. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Fichier de sortie]** et saisissez le libellé souhaité. Vous pouvez utiliser des champs de personnalisation, des blocs de contenu et du texte dynamique (voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)). Vous pouvez, par exemple, renseigner le libellé avec l'identifiant de la diffusion ou la date d'extraction.
 
    ![](assets/direct_mail_12.png)
 
@@ -66,7 +66,7 @@ Vous pouvez parfois avoir besoin d'ajouter des informations au début ou à la f
 
 ![](assets/direct_mail_7.png)
 
-Par exemple, vous souhaiterez peut-être inclure dans l'en-tête du fichier des informations sur l'expéditeur pour l'opérateur de services postaux. Il est possible de personnaliser le pied de page et l'en-tête avec des informations qui sont disponibles dans le cadre de la diffusion. Voir [Définir le contenu](../../designing/using/example--email-personalization.md).
+Par exemple, vous souhaiterez peut-être inclure dans l'en-tête du fichier des informations sur l'expéditeur pour l'opérateur de services postaux. Il est possible de personnaliser le pied de page et l'en-tête avec des informations qui sont disponibles dans le cadre de la diffusion. Voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization).
 
 L'adresse de l'expéditeur est définie dans la section **[!UICONTROL Envoi]** des propriétés du courrier ou au niveau du modèle.
 
