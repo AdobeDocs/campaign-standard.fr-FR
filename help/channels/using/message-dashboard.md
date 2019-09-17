@@ -14,8 +14,8 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -76,5 +76,5 @@ L'écran principal est composé de différents blocs. Cliquez dans un bloc pour 
 * **[!UICONTROL Déploiement]** : permet de tracker l'état d'avancement de la préparation ou de l'envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d'analyse et d'envoi. Ce bloc n'apparaît qu'après la préparation de l'envoi. Voir à ce propos la section [Confirmer l'envoi](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]** : permet de définir la cible principale du message ainsi que les profils de test. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Planning]** : permet de définir la date d'envoi du message. Voir [Planning](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Contenu]** : permet de définir le contenu du message et de le prévisualiser. Voir [Définir le contenu](../../designing/using/designing-content-in-adobe-campaign.md).
+* **[!UICONTROL Contenu]**: vous permet de définir le contenu du message et de le prévisualiser. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
