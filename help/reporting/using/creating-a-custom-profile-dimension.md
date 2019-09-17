@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
 
@@ -139,7 +139,7 @@ Une fois votre champ de profil publié, vous pouvez lancer votre diffusion. Dans
    ![](assets/custom_profile_17.png)
 
 1. Cliquez sur **[!UICONTROL Confirmer]** puis, une fois le filtrage terminé, cliquez sur **[!UICONTROL Suivant]**.
-1. Définissez et personnalisez le contenu, le nom de l'expéditeur et l'objet du message. Pour plus d'informations sur la création d'emails, consultez cette [page](../../designing/using/about-email-content-design.md#about-the-email-designer).
+1. Définissez et personnalisez le contenu, le nom de l'expéditeur et l'objet du message. Pour plus d'informations sur la création d'emails, consultez cette [page](../../designing/using/overview.md).
 
    Cliquez ensuite sur **[!UICONTROL Créer]**.
 
@@ -169,4 +169,4 @@ Après l'envoi de votre diffusion, vous pouvez ventiler des rapports à l'aide d
 
 **Rubrique connexe :**
 
-* [Utilisation de données de profil personnalisées pour créer des rapports compréhensibles](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Utilisation de données de profil personnalisées pour créer des rapports détaillés](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
