@@ -14,8 +14,8 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+translation-type: tm+mt
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
@@ -53,7 +53,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
    ![](assets/sms_creation_3.png)
 
-1. Ajoutez du contenu à votre SMS. Vous pouvez également définir le contenu en cliquant sur la section **[!UICONTROL Contenu]** du tableau de bord de la diffusion, une fois la création du SMS terminée. Voir [A propos de la conception du contenu d'un SMS](../../designing/using/about-sms-and-push-content-design.md).
+1. Ajoutez du contenu à votre SMS. Vous pouvez également définir le contenu en cliquant sur la section **[!UICONTROL Contenu]** du tableau de bord de la diffusion, une fois la création du SMS terminée. Voir [A propos de la conception du contenu d'un SMS](../../channels/using/about-sms-and-push-content-design.md).
 
    Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message varie d'un destinataire à l'autre, car cela peut introduire des caractères non pris en charge par l'encodage GSM. La longueur du message doit être évaluée une fois la personnalisation effectuée. Voir [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -80,7 +80,7 @@ Une fois l'envoi terminé, vous pouvez commencer à mesurer l'impact de votre me
 
 **Rubriques connexes :**
 
-* [A propos de l'édition du contenu d'un SMS et d'une notification push](../../designing/using/about-sms-and-push-content-design.md)
+* [A propos de l'édition du contenu d'un SMS et d'une notification push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gestion des modèles](../../start/using/about-templates.md)
-* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
