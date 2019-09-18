@@ -13,7 +13,7 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
 
 ---
@@ -29,15 +29,15 @@ Cet élément vous permet de saisir manuellement vos conditions. Vous pouvez y u
 
 Plusieurs types de fonctions sont disponibles, en fonction des résultats souhaités et du types des données manipulées :
 
-* Dates 
-* Géomarketing 
+* Dates
+* Géomarketing
 * numériques
 * autres fonctions
 * des agrégats.
 * manipulation de chaînes
 * tri
 
-## Dates  {#dates}
+## Dates {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'heure.
 
@@ -84,7 +84,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'he
    <td> DateOnly(&lt;date&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Day</strong><br /> </td> 
+   <td> <strong>Jour</strong><br /> </td> 
    <td> Renvoie le nombre représentant le jour de la date<br /> </td> 
    <td> Day(&lt;date&gt;)<br /> </td> 
   </tr> 
@@ -281,7 +281,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'he
  </tbody> 
 </table>
 
-## Géomarketing  {#geomarketing}
+## Géomarketing {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -300,7 +300,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques  {#numerical}
+## Numériques {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -384,7 +384,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres  {#others}
+## Autres {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -478,7 +478,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne  {#string}
+## Chaîne {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
@@ -713,7 +713,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation  {#representation}
+## Représentation {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
