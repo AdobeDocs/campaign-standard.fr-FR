@@ -14,7 +14,7 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
 
 ---
@@ -32,7 +32,7 @@ Lors de l'édition de la ressource, dans l'onglet **[!UICONTROL Structure de don
 * [des liens.](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 * [Envois](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource  {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d'usine.
 
@@ -44,7 +44,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
    >[!NOTE]
    >
    >Si vous laissez le champ **[!UICONTROL Libellé]** vide, il sera automatiquement renseigné à partir de l'identifiant.
-   >Nous vous recommandons d'utiliser 30 caractères maximum.
+   >Il est recommandé d'utiliser 30 caractères maximum.
 
    ![](assets/schema_extension_4.png)
 
@@ -72,7 +72,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
 Les champs de votre ressource sont maintenant définis.
 
-## Définir les clés d'identification  {#defining-identification-keys}
+## Définir les clés d'identification {#defining-identification-keys}
 
 Chaque ressource doit posséder au moins une clé permettant de l'identifier de manière unique. Vous pouvez par exemple définir une clé pour que deux produits ne puissent pas avoir le même ID dans une table d'achats.
 
@@ -82,11 +82,11 @@ Chaque ressource doit posséder au moins une clé permettant de l'identifier de 
 
 1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour créer une clé.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+   Les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les éditer.
 
    >[!NOTE]
    >
-   >Nous vous recommandons d'utiliser 30 caractères maximum.
+   >Il est recommandé d'utiliser 30 caractères maximum.
 
 1. Pour définir les éléments composant cette clé, cliquez sur **[!UICONTROL Créer un élément]** et sélectionnez les champs que vous avez créés pour cette ressource.
 
@@ -96,7 +96,7 @@ Chaque ressource doit posséder au moins une clé permettant de l'identifier de 
 
 Les clés d'identification de la ressource sont maintenant créées.
 
-## Définir les index  {#defining-indexes}
+## Définir les index {#defining-indexes}
 
 Un index peut référencer un ou plusieurs champs de la ressource. Les index permettent à la base de données de trier les enregistrements afin de les retrouver plus facilement. Ils optimisent les performances des requêtes SQL.
 
@@ -110,7 +110,7 @@ La définition des index est recommandée mais elle n'est pas obligatoire.
 
    >[!NOTE]
    >
-   >Nous vous recommandons d'utiliser 30 caractères maximum.
+   >Il est recommandé d'utiliser 30 caractères maximum.
 
 1. Pour définir les éléments composant cet index, sélectionnez les champs parmi ceux que vous avez créés pour cette ressource.
 
@@ -148,7 +148,7 @@ Un lien décrit l'association d'une table avec d'autres tables.
 
    >[!NOTE]
    >
-   >Nous vous recommandons d'utiliser 30 caractères maximum.
+   >Il est recommandé d'utiliser 30 caractères maximum.
 
    >[!CAUTION]
    >
@@ -245,7 +245,7 @@ Pour plus d’informations sur les rapports dynamiques, voir la [Liste des compo
 >
 >Le nombre de champs envoyés aux rapports dynamiques est limité à 20.
 
-## Editer les propriétés d'une ressource  {#editing-resource-properties}
+## Editer les propriétés d'une ressource {#editing-resource-properties}
 
 Dans l'écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]** indique le statut de la ressource nouvellement créée. Vous pouvez gérer son accès et ses propriétés générales.
 
@@ -259,7 +259,7 @@ Dans l'écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]**
 
    >[!NOTE]
    >
-   >Nous vous recommandons d'utiliser 30 caractères maximum.
+   >Il est recommandé d'utiliser 30 caractères maximum.
 
 1. Si vous devez restreindre l'accès de cette ressource à certaines entités organisationnelles, indiquez-les ici. Seuls les utilisateurs des entités autorisées pourront utiliser cette ressource dans l'application.
 1. Enregistrez les modifications.
