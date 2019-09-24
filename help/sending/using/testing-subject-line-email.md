@@ -1,8 +1,8 @@
 ---
-title: Test de la ligne d'objet d'un e-mail
-seo-title: Test de la ligne d'objet d'un e-mail
-description: Test de la ligne d'objet d'un e-mail
-seo-description: Découvrez comment définir la ligne d'objet d'un e-mail dans le Concepteur de e-mails.
+title: Test de l'objet d'un email
+seo-title: Test de l'objet d'un email
+description: Test de l'objet d'un email
+seo-description: Découvrez comment définir l’objet d’un email dans le Concepteur d’email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
 
 ---
