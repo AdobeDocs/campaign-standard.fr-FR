@@ -2,14 +2,14 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Aide d'Adobe Campaign Standard
-translation-type: tm+mt
+user-guide-title: Aide d’Adobe Campaign Standard
+translation-type: ht
 source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
 
 ---
 
 
-# Aide d'Adobe Campaign Standard {#using}
+# Aide d’Adobe Campaign Standard {#using}
 
 + [Documentation du produit](campaign-standard-home.md)
 + Notes de mise à jour {#release-notes}
@@ -19,7 +19,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + [Notes de mise à jour 2015-2016](rn/using/release-notes-2015-2016.md)
    + [Mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
-   + A propos d'Adobe Campaign {#about-adobe-campaign}
+   + A propos d’Adobe Campaign {#about-adobe-campaign}
       + [Orchestration des campagnes](start/using/campaign-orchestration.md)
       + [Segmentation et ciblage](start/using/segmentation-and-targeting.md)
       + [Contenu dynamique et personnalisé](start/using/dynamic-and-personalized-content.md)
@@ -27,7 +27,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Intégration avec les solutions Adobe](start/using/integrating-with-adobe-solutions.md)
    + Découverte de l'interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
-      + [Description de l'interface](start/using/interface-description.md)
+      + [Description de l’interface](start/using/interface-description.md)
       + [Navigateurs compatibles](start/using/compatible-browsers.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
    + Plans marketing {#marketing-plans}
@@ -52,7 +52,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Profils actifs](audiences/using/active-profiles.md)
    + Gestion des audiences {#managing-audiences}
       + [A propos des audiences](audiences/using/about-audiences.md)
-      + [Création d'une audience](audiences/using/creating-audiences.md)
+      + [Création d’une audience](audiences/using/creating-audiences.md)
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestion des inscriptions {#managing-subscriptions}
       + [A propos des inscriptions](audiences/using/about-subscriptions.md)
@@ -79,15 +79,15 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Créer un SMS](channels/using/creating-an-sms-message.md)
       + [Personnaliser un SMS](channels/using/personalizing-sms-messages.md)
       + [Gérer les SMS entrants](channels/using/managing-incoming-sms.md)
-      + [A propos de la conception du contenu d'un SMS et d'une notification push](channels/using/about-sms-and-push-content-design.md)
+      + [A propos de la conception de contenu de SMS et de notification push](channels/using/about-sms-and-push-content-design.md)
       + [Interface de l'éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
-      + [Définir un texte dynamique](channels/using/defining-dynamic-text.md)
+      + [Définition d’un texte dynamique](channels/using/defining-dynamic-text.md)
    + Notifications push {#push-notifications}
       + [A propos des notifications push](channels/using/about-push-notifications.md)
       + [Préparation et envoi d'une notification push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personnalisation d'une notification push](channels/using/customizing-a-push-notification.md)
       + [Création d'une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Création et mise à jour d'informations de profil à partir des données d'application mobile](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d'un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -118,19 +118,19 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Modifier les propriétés des données d'un formulaire pour une landing page](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Définir le contenu dynamique dans une landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur de courriels de campagne](designing/using/designing-content-in-adobe-campaign.md)
+   + [Concepteur d’emails de campagne](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
-   + [Définition de la ligne d'objet et de l'expéditeur](designing/using/subject-line.md)
-   + [Concevoir des e-mails à partir de zéro](designing/using/designing-from-scratch.md)
-   + [Conception d'e-mails à l'aide de contenus existants](designing/using/using-existing-content.md)
-   + [Conception d'e-mails à l'aide de contenus réutilisables](designing/using/using-reusable-content.md)
-   + [Conception de messagerie multisolution](designing/using/using-integrations.md)
+   + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
+   + [Conception d’emails à partir de zéro](designing/using/designing-from-scratch.md)
+   + [Conception d’emails à l’aide de contenu existant](designing/using/using-existing-content.md)
+   + [Conception d’emails l’aide de contenu réutilisable](designing/using/using-reusable-content.md)
+   + [Conception d’emails multi-solutions](designing/using/using-integrations.md)
    + [Personnalisation ](designing/using/personalization.md)
-   + [Texte simple et modes HTML  ](designing/using/plain-text-html-modes.md)
+   + [Texte simple et modes HTML](designing/using/plain-text-html-modes.md)
    + [Gestion des styles](designing/using/styles.md)
    + [Gestion des images](designing/using/images.md)
-   + [Gérer des liens](designing/using/links.md)
+   + [Gestion des liens](designing/using/links.md)
 + Test et envoi {#testing-and-sending}
    + [A propos de l'envoi de messages avec Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
@@ -271,12 +271,12 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
-   + Utiliser les cas: Workflows {#workflow-use-case}
-      + [Création de livraisons avec un complément](automating/using/workflow-created-query-with-complement.md)
-      + [Création de livraisons à la date de création](automating/using/workflow-creation-date-query.md)
-      + [Création d'une livraison hebdomadaire](automating/using/workflow-weekly-offer.md)
-      + [Création d'une segmentation sur un emplacement](automating/using/workflow-segmentation-location.md)
-      + [Recibler les non-ouvriers](automating/using/workflow-cross-channel-retargeting.md)
+   + Cas pratiques : workflows {#workflow-use-case}
+      + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
+      + [Création de diffusions à la date de création](automating/using/workflow-creation-date-query.md)
+      + [Création d'une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
+      + [Création d'une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
+      + [Reciblage des personnes n'ayant pas ouvert l'email](automating/using/workflow-cross-channel-retargeting.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
