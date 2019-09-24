@@ -13,7 +13,7 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 ---
@@ -30,7 +30,7 @@ Dans cet exemple, nous souhaitons créer le champ de profil personnalisé **Prog
 * [Étape 3 : Création d'une diffusion ciblant des destinataires inscrits dans le programme de fidélité ](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Étape 4 : Création d'un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé ](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Étape 1 : Création d'un champ de profil  {#step-1--create-a-new-profile-field}
+## Etape 1 : Création d'un champ de profil  {#step-1--create-a-new-profile-field}
 
 Nous devons d'abord créer le champ de profil **Programme de fidélité** qui attribuera un niveau de fidélité à nos destinataires : or, argent ou bronze.
 
@@ -87,7 +87,7 @@ Votre nouveau champ de profil est maintenant prêt à être utilisé et sélecti
 
 ![](assets/custom_profile_8.png)
 
-## Étape 2 : Extension des envois avec le champ de profil  {#step-2--extend-the-sending-logs-with-the-profile-field}
+## Etape 2 : Extension des envois avec le champ de profil  {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 Maintenant que votre champ de profil est créé, nous devons étendre les envois avec notre champ de profil pour créer la dimension de profil personnalisé associé dans les rapports dynamiques.
 
@@ -123,7 +123,7 @@ Votre profil personnalisé est maintenant disponible en tant que dimension de pr
 
 À présent que votre champ a été créé et que les envois ont été étendus avec ce champ de profil, vous pouvez commencer à cibler des destinataires dans les diffusions.
 
-## Étape 3 : Création d'une diffusion ciblant des destinataires inscrits dans le programme de fidélité  {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Etape 3 : Création d'une diffusion ciblant des destinataires inscrits dans le programme de fidélité  {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Une fois votre champ de profil publié, vous pouvez lancer votre diffusion. Dans cet exemple, nous voulons cibler tous les destinataires inscrits dans le programme de fidélité.
 
@@ -147,7 +147,7 @@ Une fois votre champ de profil publié, vous pouvez lancer votre diffusion. Dans
 
 Une fois votre email correctement envoyé aux destinataires sélectionnés, vous pouvez commencer à filtrer vos données et à tracker le succès de vos diffusions avec les rapports.
 
-## Étape 4 : Création d'un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé  {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Etape 4 : Création d'un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé  {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Après l'envoi de votre diffusion, vous pouvez ventiler des rapports à l'aide de la dimension de votre profil personnalisé à partir de l'onglet **[!UICONTROL Profil]**.
 
@@ -169,4 +169,4 @@ Après l'envoi de votre diffusion, vous pouvez ventiler des rapports à l'aide d
 
 **Rubrique connexe :**
 
-* [Utilisation de données de profil personnalisées pour créer des rapports détaillés](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Utilisation de données de profil personnalisées pour créer des rapports pertinents](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
