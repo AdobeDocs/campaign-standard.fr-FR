@@ -13,7 +13,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 Retenez l'attention de vos clients et améliorez vos taux de réponses grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil, leurs préférences et leur activité. Toutes les informations concernant vos clients sont centralisées dans Adobe Campaign et vous pouvez leur proposer des messages au contenu adapté, sur les différents canaux.
 
-Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d'ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi :
+Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d'ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi :
 
 * insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
