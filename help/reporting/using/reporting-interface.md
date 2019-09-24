@@ -51,7 +51,7 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 * [Partage automatique de rapports avec des parties prenantes via email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Onglets {#tabs}
+## Onglets  {#tabs}
 
 Les onglets de gauche vous permettent de créer votre rapport et de filtrer les données selon les besoins.
 
@@ -75,7 +75,7 @@ La barre d'outils se trouve au-dessus de votre espace de travail. Composée de d
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 
-### Onglet Projet {#project-tab}
+### Onglet Projet  {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -96,7 +96,7 @@ L'onglet **Modifier** vous permet de :
 * **Annuler** : annule la dernière action effectuée sur votre tableau de bord.
 * **Effacer tout** : supprime tous les panneaux sur votre tableau de bord.
 
-### Onglet Insérer {#insert-tab}
+### Onglet Insérer  {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -107,7 +107,7 @@ L'onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant des 
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
 * **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
-### Onglet Partager {#share-tab}
+### Onglet Partager  {#share-tab}
 
 ![](assets/tab_share_1.png)
 
