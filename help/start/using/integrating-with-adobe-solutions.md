@@ -13,7 +13,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -63,5 +63,5 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Automatisez l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide du SDK Adobe Experience Platform.
 
-   Voir à ce propos [Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Voir à ce propos [ Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
