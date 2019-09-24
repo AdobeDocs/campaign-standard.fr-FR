@@ -42,7 +42,7 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing   {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing    {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d'activité de la liste est caractérisé par une icône :
 
