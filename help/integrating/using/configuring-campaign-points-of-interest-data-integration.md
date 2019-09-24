@@ -206,7 +206,7 @@ Pour accéder aux applications créées dans Adobe Campaign :
 
 Une liste des abonnés de l'application est également affichée dans l'onglet **[!UICONTROL Abonnés à l'application mobile]**. Les abonnés correspondent à tous les utilisateurs qui ont installé l'application sur leur appareil mobile. Les profils de la base de données Adobe Campaign sont identifiés par un jeton d'enregistrement.
 
-## Accéder aux données de localisation collectées {#accessing-collected-location-data}
+## Accéder aux données de localisation collectées  {#accessing-collected-location-data}
 
 Une fois la configuration terminée, les données de points ciblés collectées sont répertoriées dans l'onglet **[!UICONTROL Lieux]** de chaque profil. Pour accéder à la liste :
 
