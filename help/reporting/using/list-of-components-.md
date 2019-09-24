@@ -132,11 +132,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures   {#metrics}
+## Mesures    {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS   {#email-and-sms-metrics}
+### Mesures des emails et SMS    {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -171,7 +171,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de clics dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Delivrés<br /> </td> 
    <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
@@ -257,7 +257,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push   {#push-notification-metrics}
+### Mesures des notifications push    {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -284,7 +284,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage d'utilisateurs ayant interagi avec la notification push.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Délivrés<br /> </td> 
+   <td> Delivrés<br /> </td> 
    <td> Nombre de notifications push envoyées avec succès, par rapport au nombre total de notifications push envoyées.<br /> </td> 
   </tr> 
   <tr> 
@@ -322,7 +322,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App   {#in-app-metrics}
+### Mesures In-App    {#in-app-metrics}
 
 <table> 
  <thead> 
