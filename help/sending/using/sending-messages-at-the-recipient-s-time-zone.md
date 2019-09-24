@@ -13,7 +13,7 @@ topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
