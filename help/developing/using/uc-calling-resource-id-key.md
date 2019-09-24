@@ -3,7 +3,7 @@ title: Appel d'une ressource à l'aide d'une clé d'identification composite
 seo-title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Appel d'une ressource à l'aide d'une clé d'identification composite
 seo-description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 ---
@@ -15,7 +15,7 @@ Dans certains cas, il est possible que vous deviez définir pour une ressource u
 
 Dans ce cas pratique, la ressource **Profil** a été étendue avec les champs personnalisés **"Identifiant CRM"** et **"catégorie"**. Nous allons créer une clé d'identification pour la ressource Profil qui sera composée de ces deux champs. Nous configurerons ensuite une définition de filtre afin de pouvoir accéder à la ressource Profil à l'aide de la clé d'identification.
 
-Les principales étapes de ce cas d'utilisation sont les suivantes:
+Les étapes principales de ce cas pratique sont les suivantes :
 
 1. Configurer la clé d'identification pour la ressource Profil en fonction des deux champs
 1. Configurer la définition de filtre pour pouvoir appeler la ressource Profil à l'aide de sa clé d'identification
@@ -25,7 +25,7 @@ Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 * [Définir les clés d'identification ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST standard de campagne](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API REST Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Etape 1 : configurer la clé d'identification{#step-1-configure-the-identification-key}
 
@@ -98,12 +98,12 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Pour appeler un filtre client, utilisez le préfixe "par" suivi du nom de filtre défini lors de la configuration de la définition du filtre à l' [étape 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Pour appeler un filtre client, utilisez le préfixe "par" suivi du nom du filtre défini lors de la configuration de la définition du filtre à l’[étape 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
-Dans notre cas, la syntaxe pour récupérer un profil de la catégorie "ressort" avec l'ID CRM "123456" serait la suivante:
+Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie "printemps" avec l'identifiant CRM "123456" est la suivante :
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Pour plus d'informations, consultez la [documentation des API REST Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
