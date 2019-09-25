@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
-translation-type: ht
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+translation-type: tm+mt
+source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
 
 ---
 
@@ -118,7 +118,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Modifier les propriétés des données d'un formulaire pour une landing page](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Définir le contenu dynamique dans une landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
+   + [Concepteur d’emails de campagne](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
    + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
@@ -129,8 +129,8 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
    + [Personnalisation ](designing/using/personalization.md)
    + [Texte simple et modes HTML](designing/using/plain-text-html-modes.md)
    + [Gestion des styles](designing/using/styles.md)
-   + [Gestion des images](designing/using/images.md)
    + [Gestion des liens](designing/using/links.md)
+   + [Gestion des images](designing/using/images.md)
 + Test et envoi {#testing-and-sending}
    + [A propos de l'envoi de messages avec Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
