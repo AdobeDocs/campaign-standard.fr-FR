@@ -118,7 +118,7 @@ source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
       + [Modifier les propriétés des données d'un formulaire pour une landing page](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Définir le contenu dynamique dans une landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur d’emails de campagne](designing/using/designing-content-in-adobe-campaign.md)
+   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
    + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
