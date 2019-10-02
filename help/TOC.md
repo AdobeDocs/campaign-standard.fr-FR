@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -59,6 +59,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les inscriptions](audiences/using/monitoring-subscriptions.md)
+      + [Confirmation de l’abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
    + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
       + [Les processus d’inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d’inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -137,6 +138,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [Prévisualiser un message](sending/using/previewing-messages.md)
       + [Préparer l'envoi](sending/using/preparing-the-send.md)
       + [Gérer les profils de test et envoyer un bon à tirer](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Test de l'objet d'un email](sending/using/testing-subject-line-email.md)
       + [Rendu des emails](sending/using/email-rendering.md)
    + Planification des messages {#sheduling-messages}
       + [A propos de la planification des messages](sending/using/about-scheduling-messages.md)
