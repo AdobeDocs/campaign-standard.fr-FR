@@ -15,7 +15,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32a11ad57eee6bc0b7ab693fbaa55811f36f94dc
+source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
 
 ---
 
@@ -43,7 +43,7 @@ Pour configurer un service :
 
       >[REMARQUE]
       >
-      >Vous pouvez modifier un message par défaut en cliquant sur son libellé dans la section Propriétés **[!UICONTROL du]** service ou en le sélectionnant dans la liste des messages transactionnels Adobe Campaign, après avoir coché la case **[!UICONTROL Afficher les messages]** transactionnels internes.
+      >You can modify a default message by clicking its label in the Service properties section or by selecting it from the Adobe Campaign transactional message list, after checking the Show internal transactional messages box.********
 
    * **[!UICONTROL Message personnalisé]** : ce mode vous permet de gérer des messages de confirmation personnalisés, spécifiques à chaque service. Vous pouvez ensuite sélectionner la **[!UICONTROL Configuration d'événement d'abonnement personnalisé]** qui est associée à un modèle de message transactionnel spécifique. [](../../channels/using/about-transactional-messaging.md) Pour plus d’informations, voir [Confirmation de l’abonnement à un service](../../audiences/using/confirming-subscription-to-a-service.md).
 
