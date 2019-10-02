@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -38,14 +38,14 @@ Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez
 >
 >Pour accéder aux messages transactionnels, vous devez disposer des droits d'administration ou figurer dans le groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec). Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
-## Envoyer un message transactionnel basé sur un profil  {#sending-a-profile-transactional-message}
+## Envoyer un message transactionnel basé sur un profil   {#sending-a-profile-transactional-message}
 
 Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d'événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
 Les différences sont énumérées ci-dessous.
 
 1. Accédez au message transactionnel qui a été créé afin de l'éditer.
-1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre le modèle transactionnel, vous pouvez également choisir le modèle d'email par défaut qui cible **[!UICONTROL Profil]**.
+1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -59,7 +59,7 @@ Les différences sont énumérées ci-dessous.
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Contrôler la diffusion d'un message transactionnel selon les profils  {#monitoring-a-profile-transactional-message-delivery}
+## Contrôler la diffusion d'un message transactionnel selon les profils   {#monitoring-a-profile-transactional-message-delivery}
 
 Une fois le message publié et l'intégration à un site effectuée, vous pouvez contrôler la diffusion.
 
