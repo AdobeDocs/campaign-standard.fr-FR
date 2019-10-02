@@ -13,14 +13,14 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+translation-type: tm+mt
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # Tester un objet {#testing-a-subject}
 
-Pour tester un objet, procédez comme suit :
+Pour tester votre objet, procédez comme suit :
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l'objet de l'email dans le champ de saisie prévu à cet effet.
