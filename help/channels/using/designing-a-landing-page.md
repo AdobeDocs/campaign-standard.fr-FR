@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -36,7 +36,7 @@ Utilisez le sélecteur situé sous la barre d'actions pour afficher et configure
 
 Le contenu de ces pages est conçu dans l'éditeur de contenu de Campaign. Voir [Conception du contenu](../../channels/using/about-landing-page-content-design.md).
 
-## Association des champs de formulaire  {#mapping-form-fields}
+## Association des champs de formulaire   {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
@@ -59,7 +59,7 @@ Les champs de saisie sont utilisés pour stocker ou mettre à jour les données 
 >
 >Les champs par défaut des landing pages intégrées sont préconfigurés. Vous pouvez les modifier si nécessaire.
 
-## Valider le formulaire  {#submitting-the-form}
+## Valider le formulaire   {#submitting-the-form}
 
 Vous pouvez sélectionner l'action à effectuer lorsque le visiteur clique sur le bouton de validation. Pour cela :
 
@@ -76,7 +76,7 @@ De plus, vous pouvez modifier le libellé du bouton ou configurer un lien spéci
 
    ![](assets/lp_link_custom.png)
 
-## Associer un formulaire à un service  {#linking-a-form-to-a-service}
+## Associer un formulaire à un service   {#linking-a-form-to-a-service}
 
 Vous pouvez associer un formulaire à un service afin que les profils puissent s'inscrire à un service spécifique lors de la validation des landing pages.
 
@@ -96,7 +96,7 @@ Pour sélectionner le service à associer, procédez comme suit :
 
    Utilisez l'option **[!UICONTROL Service provenant de l'URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
-### Confirmer la validation d'une landing page  {#confirm-a-landing-page-submission}
+### Confirmer la validation d'une landing page   {#confirm-a-landing-page-submission}
 
 Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
@@ -112,7 +112,7 @@ Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les
 
    ![](assets/lp_parameters_6.png)
 
-## Définir les permissions et pré-charger les données  {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données   {#setting-permissions-and-pre-loading-data}
 
 L'accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d'un lien figurant dans un message envoyé par Campaign, par exemple. Dans ce cas, vous pouvez précharger leurs données dans la landing page. Pour cela :
 
