@@ -14,13 +14,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
 
 ---
 
-# Tester un objet {#testing-a-subject}
+# Test de l'objet d'un email {#testing-a-subject}
 
-Pour tester votre objet, procédez comme suit :
+To test your subject line, follow the steps below:
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l'objet de l'email dans le champ de saisie prévu à cet effet.
