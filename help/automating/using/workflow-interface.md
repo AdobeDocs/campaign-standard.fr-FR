@@ -24,16 +24,16 @@ source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 Dans le cadre de vos campagnes et programmes, vous pouvez créer des workflows afin de gérer des processus complets.
 
-L'écran d'édition d'un workflow se compose des éléments suivants:
+L'écran d'édition d'un workflow se compose des éléments suivants :
 
-* la [palette](../../automating/using/workflow-interface.md#palette), référençant les activités disponibles.
-* l'[espace de travail](../../automating/using/workflow-interface.md#workspace), dans lequel les activités sont paramétrées et organisées.
-* la [barre d'actions](../../automating/using/workflow-interface.md#action-bar), composée des boutons permettant d'interagir avec le workflow et ses composants.
-* les [actions rapides](../../automating/using/workflow-interface.md#quick-actions), qui s'affichent autour d'une activité sélectionnée, permettant d'interagir avec cette dernière.
+* La [palette](../../automating/using/workflow-interface.md#palette), référençant les activités disponibles.
+* L'[espace de travail](../../automating/using/workflow-interface.md#workspace), dans lequel les activités sont paramétrées et organisées.
+* La [barre d'actions](../../automating/using/workflow-interface.md#action-bar), composée des boutons permettant d'interagir avec le workflow et ses composants.
+* Les [actions rapides](../../automating/using/workflow-interface.md#quick-actions), qui s'affichent autour d'une activité sélectionnée, permettant d'interagir avec cette dernière.
 
 ![](assets/wkf_overview.png)
 
-## Palette   {#palette}
+## Palette    {#palette}
 
 La palette se situe sur la partie gauche de l'écran. Toutes les activités disponibles sont réparties en plusieurs catégories:
 
@@ -48,7 +48,7 @@ Vous devez paramétrer chaque activité ajoutée depuis la palette avant de dém
 
 ![](assets/workflow_palette.png)
 
-## Espace de travail   {#workspace}
+## Espace de travail    {#workspace}
 
 L'espace de travail est la zone centrale de l'éditeur de workflows. C'est dans cette zone que vous pouvez déposer vos activités, les relier entre-elles à l'aide de transitions et les paramétrer.
 
@@ -60,11 +60,11 @@ Lorsqu'une activité est sélectionnée, des actions rapides s'affichent autour 
 
 Certains raccourcis sont activés uniquement au niveau de l'espace de travail :
 
-* sélection de plusieurs activités et transitions en dessinant une zone autour de ces dernières.
-* touche **Ctrl** + clic gauche pour sélectionner plusieurs activités et/ou transitions.
-* touche **Entrée** pour accéder au détail de l'activité ou de la transition actuellement sélectionnée.
-* touche **Suppr** pour supprimer l'activité actuellement sélectionnée.
-* touches **Ctrl + C** pour copier les activités sélectionnées et touches **Ctrl + V** pour les coller dans l'espace de travail.
+* Sélection de plusieurs activités et transitions en dessinant une zone autour de ces dernières.
+* Touche **Ctrl** + clic gauche pour sélectionner plusieurs activités et/ou transitions.
+* Touche **Entrée** pour accéder au détail de l'activité ou de la transition actuellement sélectionnée.
+* Touche **Suppr** pour supprimer l'activité actuellement sélectionnée.
+* Touches **Ctrl + C** pour copier les activités sélectionnées et touches **Ctrl + V** pour les coller dans l'espace de travail.
 
 ![](assets/workflow_workspace.png)
 
