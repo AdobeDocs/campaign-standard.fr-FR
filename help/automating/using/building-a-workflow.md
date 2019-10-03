@@ -14,7 +14,7 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
@@ -24,11 +24,11 @@ source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 Cette section détaille les principes généraux et les bonnes pratiques pour la création d'un nouveau workflow :
 
-* Créer un workflow.
-* Ajouter et relier les activités.
-* Configurer les activités.
+* Créer un workflow
+* Ajouter et relier les activités
+* Configurer les activités
 
-## Créer un workflow   {#creating-a-workflow}
+## Créer un workflow  {#creating-a-workflow}
 
 La création d'un workflow est possible au sein d'un programme ou d'une campagne, ou dans la liste des activités marketing.
 
@@ -60,7 +60,7 @@ La création d'une activité marketing est présentée dans la section [Créer u
 
 **Rubrique connexe :**
 
-Vidéo [Créer un workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Vidéo [Créer un workflow](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Ajouter et relier les activités {#adding-and-linking-activities}
 
@@ -99,12 +99,12 @@ Une fois vos activités de workflow reliées, vous pouvez personnaliser les tran
 
 De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l'efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
-**Cas d'utilisation des flux de travail :**
+**Cas pratiques de workflow :**
 
-* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
-* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
-* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : création d'une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d'une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Configurer les activités {#configuring-activities}
 
