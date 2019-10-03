@@ -1,7 +1,7 @@
 ---
 title: 'Personnaliser un email '
-seo-title: À propos du concepteur de messagerie
-description: À propos du concepteur de messagerie
+seo-title: A propos du Concepteur d'email
+description: A propos du Concepteur d'email
 seo-description: Découvrez le Concepteur d'email qui permet de concevoir du contenu pour vos emails.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
