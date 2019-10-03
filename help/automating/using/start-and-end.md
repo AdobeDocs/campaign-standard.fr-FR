@@ -43,13 +43,13 @@ Il est recommandé d'utiliser une activité **[!UICONTROL Fin]** au lieu de lais
 1. Vous pouvez paramétrer l'objet **Fin** pour qu'il interrompe toutes les tâches en cours du workflow, y compris celles qui ne sont pas terminées. Pour cela, sélectionnez l'option correspondante.
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Déclenchement d'un autre workflow   {#triggering-another-workflow}
+## Déclenchement d'un autre workflow    {#triggering-another-workflow}
 
 Vous pouvez déclencher un autre workflow à l'aide de l'onglet **[!UICONTROL Signal externe]** d'une activité **[!UICONTROL Fin]**. Consultez la section [Signal externe](../../automating/using/external-signal.md).
 
 ## Exemple {#example}
 
-L'exemple suivant montre l'exécution d'un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **[!UICONTROL Fin]**. La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **[!UICONTROL Fin]**. Une fois que la tâche correspondante sera terminée, l'ensemble du workflow sera interrompu : l'effet sera le même que si l'on avait sélectionné le bouton ![](assets/stop_darkgrey-24px.png) (voir la section [La barre d'actions](../../automating/using/workflow-interface.md#action-bar))..
+L'exemple suivant montre l'exécution d'un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **[!UICONTROL Fin]**. La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **[!UICONTROL Fin]**. Une fois que la tâche correspondante sera terminée, l'ensemble du workflow sera interrompu : l'effet sera le même que si l'on avait sélectionné le bouton ![](assets/stop_darkgrey-24px.png) (voir la section [La barre d'actions](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)
 
