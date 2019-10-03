@@ -1,8 +1,8 @@
 ---
-title: 'Création et utilisation de contenu réutilisable '
-seo-title: Création et utilisation de contenu réutilisable
-description: Création et utilisation de contenu réutilisable
-seo-description: Commencez à créer du contenu de messagerie réutilisable avec le concepteur de messagerie.
+title: 'Création et utilisation d''un contenu réutilisable '
+seo-title: Création et utilisation d'un contenu réutilisable
+description: Création et utilisation d'un contenu réutilisable
+seo-description: Commencez à créer du contenu d'email réutilisable avec le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,20 +13,20 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
 
-# Création et utilisation de contenu réutilisable {#using-reusable-content}
+# Création et utilisation d'un contenu réutilisable {#using-reusable-content}
 
-Apprenez à maîtriser l'édition de contenu de messagerie. Avec Email Designer, vous pouvez créer des modèles et des fragments avec votre propre contenu prédéfini et les réutiliser pour les livraisons suivantes.
+Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur d'email, vous pouvez créer des modèles et des fragments avec votre contenu prédéfini et les réutiliser pour les prochaines diffusions.
 
 ## Conception à l'aide de modèles {#designing-templates}
 
 >[!NOTE]
 >
-> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** &gt; **Modèles** . Les modèles utilisés dans le Concepteur de courriels sont des modèles de contenu. Pour plus d'informations, consultez [À propos des modèles](../../start/using/about-templates.md).
+> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** &gt; **Modèles**. Les modèles utilisés dans le Concepteur d'email sont des modèles de contenu. Pour plus d'informations, voir [A propos des modèles](../../start/using/about-templates.md).
 
 ### Modèles de contenu  {#content-templates}
 
@@ -34,48 +34,48 @@ Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICO
 
 ![](assets/template_content.png)
 
-Pour savoir comment créer un e-mail à partir d'un modèle "out-of-box-template", consultez [Email Designer](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
+Pour savoir comment créer un email à partir d'un modèle d'usine, reportez-vous à [Concepteur d'email](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
 
-### Creating a content template {#creating-a-content-template}
+### Créer un modèle de contenu {#creating-a-content-template}
 
 Vous pouvez créer vos propres modèles de contenu pour les utiliser autant de fois que nécessaire.
 
-L'exemple suivant montre comment créer un modèle de contenu de messagerie.
+L'exemple ci-dessous montre comment créer un modèle de contenu d'email.
 
 1. Accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis cliquez sur **[!UICONTROL Créer]**.
 1. Cliquez sur le libellé d'email de façon à accéder à l'onglet **[!UICONTROL Propriétés]** du Concepteur d'email.
-1. Spécifiez une étiquette reconnaissable et sélectionnez les paramètres suivants pour pouvoir utiliser ce modèle dans les e-mails:
+1. Spécifiez un libellé reconnaissable et sélectionnez les paramètres suivants afin d'utiliser ce modèle dans les emails :
 
-   * Sélectionnez **[!UICONTROL Partagé]** ou **[!UICONTROL Livraison]** dans la liste déroulante Type **[!UICONTROL de]** contenu.
-   * Sélectionnez **[!UICONTROL Modèle]** dans la liste déroulante Type **** HTML.
+   * Sélectionnez **[!UICONTROL Partagé]** ou **[!UICONTROL Diffusion]** dans la liste déroulante **[!UICONTROL Type de contenu]**.
+   * Sélectionnez **[!UICONTROL Modèle]** dans la liste déroulante **[!UICONTROL Type HTML]**.
    ![](assets/email_designer_create-template.png)
 
-1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature pour le modèle. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
+1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du modèle. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Cette vignette s'affichera dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+   Cette miniature sera affichée dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md#about-the-email-designer).
 
-1. Fermez l'onglet **[!UICONTROL Propriétés]** pour revenir à l'espace de travail principal.
-1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser selon vos besoins.
+1. Fermez l'onglet **[!UICONTROL Propriétés]** pour retourner à l'espace de travail principal.
+1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser au besoin.
    >[!NOTE]
    >
-   > Vous ne pouvez pas insérer de champs de personnalisation ou de contenu conditionnel dans un modèle de contenu.
-1. Une fois modifié, enregistrez votre modèle.
+   > Vous ne pouvez pas insérer des champs de personnalisation ni du contenu conditionnel dans un modèle de contenu.
+1. Une fois le modèle édité, enregistrez-le.
 
-Ce modèle peut maintenant être utilisé dans n'importe quel e-mail créé avec le concepteur de messagerie. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+Ce modèle peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md#about-the-email-designer).
 
 ![](assets/content_template_new.png)
 
-### Enregistrement du contenu en tant que modèle {#saving-content-as-template}
+### Enregistrer du contenu en tant que modèle {#saving-content-as-template}
 
-Lors de la modification d'un e-mail avec le Concepteur d'e-mails, vous pouvez enregistrer directement le contenu de cet e-mail en tant que modèle.
+Lorsque vous éditez un email avec le Concepteur d'email, vous ne pouvez pas enregistrer directement le contenu de cet email en tant que modèle.
 
 <!--[!CAUTION]
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Sélectionnez **[!UICONTROL Enregistrer comme modèle]** dans la barre d'outils principale du Concepteur d'e-mails.
+1. Sélectionnez **[!UICONTROL Enregistrer en tant que modèle]** dans la barre d'outils principale du Concepteur d'email.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -83,9 +83,9 @@ Lors de la modification d'un e-mail avec le Concepteur d'e-mails, vous pouvez en
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. To find the template that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates &amp; fragments]**.
+1. Pour retrouver le modèle que vous venez de créer, accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**.
 
-1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil de [Email Designer](../../designing/using/overview.md#about-the-email-designer) .
+1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md#about-the-email-designer).
 
    ![](assets/content_template_new.png)
 
@@ -127,10 +127,10 @@ Pour l'utiliser, créez un email et sélectionnez le modèle de contenu que vous
 * [Vidéo d'introduction au Concepteur d'email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## A propos des fragments   {#about-fragments}
+## A propos des fragments  {#about-fragments}
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
-Ils se trouvent dans l'interface sous **Ressources** &gt; Fragments de **contenu et modèles**.
+Il se trouve dans l'interface sous **Ressources** &gt; **Contenu, fragments et modèles**.
 
 Pour optimiser les fragments dans le Concepteur d'email :
 
@@ -146,7 +146,7 @@ Pour déverrouiller un fragment dans un email, sélectionnez-le et cliquez sur l
 
 Ce fragment devient alors un composant autonome qui n'est plus lié au fragment d'origine. Il peut ensuite être édité comme n'importe quel autre composant de contenu. Voir [A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### Inserting fragments into an email {#inserting-elements-into-an-email}
+### Insertion de fragments dans un email {#inserting-elements-into-an-email}
 
 Pour définir le contenu de votre email, vous pouvez ajouter des éléments de contenu aux composants de structure que vous avez préalablement placés. Voir [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -178,16 +178,16 @@ Maintenant que la structure de l'email est remplie, vous pouvez modifier le styl
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
-### Créer un fragment de contenu   {#creating-a-content-fragment}
+### Créer un fragment de contenu  {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
 1. Accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis cliquez sur **[!UICONTROL Créer]**.
 1. Cliquez sur le libellé d'email de façon à accéder à l'onglet **[!UICONTROL Propriétés]** du Concepteur d'email.
-1. Spécifiez une étiquette reconnaissable et sélectionnez les paramètres suivants pour rechercher le fragment lors de la modification du contenu de l'e-mail:
+1. Spécifiez un libellé reconnaissable et sélectionnez les paramètres suivants afin de retrouver le fragment lors de l'édition d'un contenu d'email :
 
    * Les fragments étant uniquement compatibles avec les emails, sélectionnez **[!UICONTROL Diffusion]** dans la liste déroulante **[!UICONTROL Type de contenu]**.
-   * Select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list to be able to use this content as a fragment.
+   * Sélectionnez **[!UICONTROL Fragment]** dans la liste déroulante **[!UICONTROL Type HTML]** afin de pouvoir utiliser ce contenu en tant que fragment.
    ![](assets/email_designer_createfragment.png)
 
 1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du fragment. Sélectionnez-la dans l'onglet **[!UICONTROL Miniature]** des propriétés de modèle.
@@ -196,23 +196,23 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
 
    Cette miniature apparaîtra en regard du libellé du fragment lorsque vous éditez un email.
 
-1. Fermez l'onglet **[!UICONTROL Propriétés]** pour revenir à l'espace de travail principal.
-1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser selon vos besoins.
+1. Fermez l'onglet **[!UICONTROL Propriétés]** pour retourner à l'espace de travail principal.
+1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser au besoin.
 
    >[!NOTE]
    >
-   >Les fragments ne peuvent pas inclure des champs de personnalisation, du contenu dynamique ou un autre fragment.
-   >La vue [](../../designing/using/styles.md#switching-to-mobile-view) mobile n'est pas disponible en fragments.
+   >Les fragments ne peuvent pas inclure des champs de personnalisation, un contenu dynamique ni un autre fragment.
+   >La [vue mobile](../../designing/using/styles.md#switching-to-mobile-view) n'est pas disponible dans les fragments.
 
 1. Une fois le fragment édité, enregistrez-le.
 
-Ce fragment peut maintenant être utilisé dans n'importe quel e-mail construit avec le Concepteur de courriels. Il apparaît sous la section **[!UICONTROL Fragments]** de la palette.
+Ce fragment peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Il apparaît sous la section **[!UICONTROL Fragments]** de la palette.
 
 >[!NOTE]
 >
->Vous ne pouvez pas insérer de champs de personnalisation dans un fragment, à moins qu'il ne soit utilisé dans un e-mail et déverrouillé. Voir [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
+>Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s'il est utilisé dans un email et qu'il est déverrouillé. Voir [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
 
-### Enregistrer du contenu en tant que fragment   {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment  {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d'email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
@@ -230,7 +230,7 @@ Lorsque vous éditez un email avec le Concepteur d'email, vous pouvez enregistre
 
    >[!NOTE]
    >
-   >Assurez-vous de sélectionner des structures adjacentes et ne comportant pas de champs de personnalisation, de contenu dynamique ou d'autre fragment.
+   >Veillez à sélectionner des structures qui sont adjacentes et qui ne comprennent pas de champs de personnalisation, de contenu dynamique ni un autre fragment.
    <!--You cannot select an empty structure.-->
 
 1. Cliquez sur **[!UICONTROL Créer]**.
@@ -243,12 +243,12 @@ Lorsque vous éditez un email avec le Concepteur d'email, vous pouvez enregistre
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. Pour utiliser le nouveau fragment, ouvrez tout contenu de messagerie et sélectionnez-le dans la liste des fragments.
+1. Pour utiliser le nouveau fragment, ouvrez n'importe quel contenu d'email et sélectionnez-le dans la liste des fragments.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->La vue [](../../designing/using/styles.md#switching-to-mobile-view) mobile n'est pas disponible en fragments. Si vous souhaitez modifier un affichage mobile de messagerie, faites-le avant d'enregistrer votre contenu sous forme de fragment.
+>La [vue mobile](../../designing/using/styles.md#switching-to-mobile-view) n'est pas disponible dans les fragments. Si vous souhaitez éditer la vue mobile d'un email, faites-le avant d'enregistrer votre contenu en tant que fragment.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
