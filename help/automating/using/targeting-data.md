@@ -13,7 +13,7 @@ topic-tags: workflow-general-operation
 discoiquuid: 382ea74e-1662-4c64-96d7-676040586913
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
@@ -50,7 +50,7 @@ L'onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTROL R
 
 **Rubriques connexes :**
 
-* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
-* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
-* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : création d'une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d'une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
