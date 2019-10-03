@@ -1,8 +1,8 @@
 ---
-title: Gestion des images dans les e-mails
-seo-title: Gestion des images dans les e-mails
-description: Gestion des images dans les e-mails
-seo-description: Découvrez comment gérer les images dans les e-mails avec le concepteur de e-mails.
+title: Gestion des images dans les emails
+seo-title: Gestion des images dans les emails
+description: Gestion des images dans les emails
+seo-description: Découvrez comment gérer des images dans les emails avec le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
@@ -37,7 +37,7 @@ Si cette fonctionnalité est activée, vous pouvez modifier les images avec le S
 >
 >Si vous choisissez d'ajouter une image directement en éditant la version HTML de l'email, vous ne devez pas appeler les **fichiers externes dans une balise &lt;script&gt;** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
-### Insérer des images dans un email  {#inserting-images-in-an-email}
+### Insérer des images dans un email   {#inserting-images-in-an-email}
 
 1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
