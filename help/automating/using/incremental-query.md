@@ -14,7 +14,7 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -71,7 +71,7 @@ L'activité **[!UICONTROL Requête incrémentale]** peut être utilisée dans pl
 
 De la même manière que pour une requête, vous pouvez enrichir les données issues d'une **[!UICONTROL Requête incrémentale]**. Consultez la section [Enrichir des données](../../automating/using/query.md#enriching-data).
 
-## Exemple : requête incrémentale sur les abonnés à un service  {#example--incremental-query-on-subscribers-to-a-service}
+## Exemple : requête incrémentale sur les abonnés à un service   {#example--incremental-query-on-subscribers-to-a-service}
 
 L'exemple suivant illustre le paramétrage d'une activité de **[!UICONTROL Requête incrémentale]** visant à filtrer les profils de la base Adobe Campaign qui sont abonnés au service **Newsletter Running**, afin de leur envoyer un email de bienvenue contenant un code promotion.
 
@@ -97,7 +97,7 @@ Le workflow est construit de la manière suivante :
 
 Lancez alors l'exécution du workflow. Chaque semaine les nouveaux abonnés recevront l'email de bienvenue avec le code promotion.
 
-## Exemple : requête incrémentale sur les logs de diffusion  {#example--incremental-query-on-delivery-logs}
+## Exemple : requête incrémentale sur les logs de diffusion   {#example--incremental-query-on-delivery-logs}
 
 Vous pouvez utiliser une activité **[!UICONTROL Requête incrémentale]** pour exporter de manière régulière les nouveaux logs vers des fichiers. Cet export peut s'avérer utile si vous souhaitez par exemple utiliser les données des logs dans des outils de Business Intelligence ou de reporting externes.
 
