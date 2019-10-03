@@ -1,8 +1,8 @@
 ---
-title: 'Personnalisation '
-seo-title: 'Personnalisation '
-description: 'Personnalisation '
-seo-description: Découvrez comment personnaliser un e-mail dans le concepteur de e-mails.
+title: Personnalisation
+seo-title: Personnalisation
+description: Personnalisation
+seo-description: Découvrez comment personnaliser un email dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -27,11 +27,11 @@ Le contenu et l'affichage des messages diffusés par Adobe Campaign peuvent êtr
 * Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * Personnaliser l'expéditeur d'un email. Voir [Personnaliser l'expéditeur](../../designing/using/personalization.md#personalizing-the-sender).
 * Personnaliser l'objet d'un email. Voir [Personnaliser l'objet d'un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Créer du contenu conditionnel. See [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Créer du contenu conditionnel. Voir [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Personnaliser l'expéditeur {#personalizing-the-sender}
 
-Pour définir le nom de l'expéditeur qui apparaîtra dans l'en-tête des messages, accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible par le biais de l'icône Accueil). Pour plus d'informations à ce sujet, voir [Définir l'expéditeur d'un message électronique](../../designing/using/subject-line.md#email-sender)
+Pour définir le nom de l'expéditeur qui apparaîtra dans l'en-tête des messages, accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible par le biais de l'icône Accueil). Voir à ce sujet [Définition de l'expéditeur d'un email](../../designing/using/subject-line.md#email-sender)
 
 Vous pouvez changer le nom de l'expéditeur en cliquant sur le bloc **Nom de l'expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
@@ -164,7 +164,7 @@ Votre bloc de contenu est désormais utilisable dans l'éditeur de contenu d'un 
 >
 >Lorsque vous éditez le contenu d'un bloc, vérifiez qu'aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s'affichent à l'écran ; ils auront donc un impact sur la présentation de votre contenu.
 
-### A propos de la dimension de ciblage   {#about-targeting-dimension}
+### A propos de la dimension de ciblage    {#about-targeting-dimension}
 
 La dimension de ciblage permet de définir dans quel type de message vous pouvez utiliser le bloc de contenu. Cela permet d'éviter d'utiliser des blocs inadéquats dans un message, ce qui peut entraîner des erreurs.
 
@@ -288,7 +288,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 * [Envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Edition avancée d'expressions](../../automating/using/editing-queries.md#about-query-editor)
 
-### Ordre de priorité  {#order-of-priority}
+### Ordre de priorité   {#order-of-priority}
 
 Lorsque vous définissez un contenu dynamique dans l'éditeur d'expression, l'ordre de priorité est défini de la manière suivante :
 
@@ -364,7 +364,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 Vos contenus dynamiques sont correctement paramétrés.
 
-### Paramétrer le texte  {#configuring-text}
+### Paramétrer le texte   {#configuring-text}
 
 Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétrés comme suit :
 
@@ -394,7 +394,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
 Vos champs de personnalisation sont correctement insérés dans le contenu dynamique choisi.
 
-### Prévisualiser l'email  {#previewing-emails}
+### Prévisualiser l'email   {#previewing-emails}
 
 La prévisualisation permet de vérifier que les champs de personnalisation et les contenus dynamiques sont paramétrés correctement avant d'envoyer les **[!UICONTROL Bons à tirer]**. Différents profils de test qui correspondent aux cibles de l'email peuvent être sélectionnés lors de la prévisualisation.
 
