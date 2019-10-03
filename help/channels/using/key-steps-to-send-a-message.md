@@ -13,7 +13,7 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 # Principales étapes pour envoyer un message{#key-steps-to-send-a-message}
 
-Pour découvrir les bonnes pratiques de diffusion, consultez le guide de prise en main [Bonnes pratiques de diffusion](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Pour découvrir les bonnes pratiques de diffusion, consultez le guide de prise en main [Bonnes pratiques de diffusion](http://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
 Les étapes de création et d'envoi des messages sont les suivantes :
 
