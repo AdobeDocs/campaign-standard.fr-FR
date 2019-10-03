@@ -14,7 +14,7 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ![](assets/recurrentsms.png)
 
-L'activité **[!UICONTROL Diffusion SMS]** permet de paramétrer l'envoi d’un SMS dans un workflow. Ce SMS peut être **unique** et n'être envoyé qu'une seule fois ou être **récurrent**.
+L'activité **[!UICONTROL Diffusion SMS]** permet de paramétrer l'envoi d'un SMS dans un workflow. Ce SMS peut être **unique** et n'être envoyé qu'une seule fois ou être **récurrent**.
 
 Les SMS uniques sont des SMS standard, envoyés une seule fois.
 
@@ -74,7 +74,7 @@ Lorsque vous ouvrez à nouveau l'activité par la suite, vous accédez au tablea
 
 Par défaut, le démarrage d'un workflow de diffusion déclenche uniquement la préparation des messages. L'envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques  {#remarks}
+## Remarques   {#remarks}
 
 Les diffusions créées à partir d'un workflow sont accessibles dans la liste des activités marketing de l'application. Vous pouvez visualiser l'état d'exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé du SMS vous permettent d'accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d'un SMS récurrent).
 
@@ -100,4 +100,4 @@ Cet exemple représente un workflow d'anniversaire. Un SMS est envoyé chaque jo
 
    ![](assets/wkf_sms_example_4.png)
 
-Pour un autre exemple de livraison SMS dans un flux de travail, voir [Utilisation : Retargeting workflow envoie une nouvelle livraison à des non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md).
+Pour obtenir un autre exemple de diffusion SMS dans un workflow, reportez-vous à [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md).
