@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 08e2bbda-e409-467f-b462-d74256dc6ebc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
 ---
@@ -31,7 +31,7 @@ L'éditeur de contenu est organisé en trois sections distinctes. Elles permette
 1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage. Voir [Barre d'actions de l'éditeur de landing page](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-action-bar).
 1. La **zone d'édition** principale permet d'interagir directement avec le contenu, grâce à la barre d'outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc. Voir [Barre d'outils de l'éditeur de landing page](../../channels/using/landing-page-content-editor-interface.md#landing-page-editor-toolbar).
 
-## Barre d'actions de l'éditeur de landing page  {#landing-page-editor-action-bar}
+## Barre d'actions de l'éditeur de landing page   {#landing-page-editor-action-bar}
 
 La barre d'actions contient différents boutons permettant d'agir sur le contenu en cours de création.
 
@@ -80,7 +80,7 @@ La barre d'actions contient différents boutons permettant d'agir sur le contenu
  </tbody> 
 </table>
 
-## Barre d'outils de l'éditeur de landing page  {#landing-page-editor-toolbar}
+## Barre d'outils de l'éditeur de landing page   {#landing-page-editor-toolbar}
 
 La barre d'outils est un **élément contextuel** de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
 
