@@ -14,7 +14,7 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -74,7 +74,7 @@ Lorsque vous ouvrez à nouveau l'activité par la suite, vous accédez au tablea
 
 Par défaut, le démarrage d'un workflow de diffusion déclenche uniquement la préparation des messages. L'envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques  {#remarks}
+## Remarques   {#remarks}
 
 Les diffusions créées à partir d'un workflow sont accessibles dans la liste des activités marketing de l'application. Vous pouvez visualiser l'état d'exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de l'email vous permettent d'accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d'un email récurrent).
 
@@ -108,7 +108,7 @@ Cet exemple représente un workflow d'anniversaire. Un email est envoyé chaque 
 
 **Rubriques connexes :**
 
-* [Cas d'utilisation: Créer une livraison de courrier électronique une fois par semaine](../../automating/using/workflow-weekly-offer.md)
-* [Cas d'utilisation: Création d'un segment de livraison sur l'emplacement](../../automating/using/workflow-segmentation-location.md)
-* [Cas d'utilisation:Création de livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Cas d'utilisation: Retarguer le flux de travail en envoyant une nouvelle livraison à des non-ouvriers](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : création d'une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d'une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
