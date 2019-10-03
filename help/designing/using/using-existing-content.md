@@ -1,8 +1,8 @@
 ---
-title: 'Conception d''e-mails à l''aide de contenus existants '
-seo-title: 'Conception d''e-mails à l''aide de contenus existants '
-description: 'Conception d''e-mails à l''aide de contenus existants '
-seo-description: Découvrez comment concevoir des e-mails à l'aide du contenu de messagerie existant dans le concepteur de e-mails.
+title: 'Conception d''emails à l''aide de contenu existant '
+seo-title: 'Conception d''emails à l''aide de contenu existant '
+description: 'Conception d''emails à l''aide de contenu existant '
+seo-description: Découvrez comment concevoir des emails à l'aide d'un contenu d'email existant dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
@@ -108,7 +108,7 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
 **Rubrique connexe :**
 
-Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Récupérer automatiquement du contenu depuis une URL au moment de la préparation {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -168,9 +168,9 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 * [Vidéo d'introduction au Concepteur d'email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Convertir un contenu HTML   {#converting-an-html-content}
+## Convertir un contenu HTML  {#converting-an-html-content}
 
-Si vous souhaitez créer un cadre de modèles et de fragments modulaires pouvant être combinés pour être réutilisés dans plusieurs e-mails, vous devriez envisager de convertir votre HTML de messagerie en modèle de concepteur de e-mails.
+Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d'être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d'email.
 
 Ce cas pratique présente comment convertir rapidement le code HTML d'un email en composants du Concepteur d'email.
 
@@ -230,6 +230,6 @@ Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Co
 
    >[!NOTE]
    >
-   >Ne modifiez pas le CSS généré par le Concepteur d'email : `<style acrite-template-css="true">`   et `<style acrite-custom-styles="" type="text/css">`. Veillez à ajouter votre style après.
+   >Ne modifiez pas le CSS généré par le Concepteur d'email : `<style acrite-template-css="true">`  et `<style acrite-custom-styles="" type="text/css">`. Veillez à ajouter votre style après.
 
 1. Revenez à la vue mobile pour vérifier que votre contenu s'affiche correctement et enregistrez vos modifications.
