@@ -13,7 +13,7 @@ topic-tags: defining-conditional-content
 discoiquuid: 00e5ed81-d3d1-4211-8352-71805a7042c9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -35,7 +35,7 @@ Les étapes suivantes pour définir le contenu dynamique dans une landing page s
 >
 >Les éléments de variante encadrés en rouge sont ceux pour lesquels une expression n'a pas encore été définie.
 
-## Prévisualiser le contenu dynamique dans une landing page  {#previewing-dynamic-content-in-a-landing-page}
+## Prévisualiser le contenu dynamique dans une landing page   {#previewing-dynamic-content-in-a-landing-page}
 
 Vous pouvez naviguer parmi les différents contenus dynamiques d'un bloc. Pour cela :
 
