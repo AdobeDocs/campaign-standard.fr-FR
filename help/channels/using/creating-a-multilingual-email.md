@@ -13,7 +13,7 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -49,4 +49,4 @@ L'audience est composée de profils dont la préférence linguistique a été in
 
 **Rubrique connexe :**
 
-* [Atteindre des publics multilingues à l'aide d'un flux de travail unique](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l'aide d'un workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
