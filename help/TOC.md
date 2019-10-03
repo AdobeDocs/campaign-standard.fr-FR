@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
+source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 
 ---
 
@@ -119,7 +119,7 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [Modifier les propriétés des données d'un formulaire pour une landing page](channels/using/changing-a-landing-page-form-data-properties.md)
       + [Définir le contenu dynamique dans une landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur d’emails de campagne](designing/using/designing-content-in-adobe-campaign.md)
+   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
    + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
@@ -129,7 +129,7 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + [Conception d’emails multi-solutions](designing/using/using-integrations.md)
    + [Personnalisation ](designing/using/personalization.md)
    + [Texte simple et modes HTML](designing/using/plain-text-html-modes.md)
-   + [Gestion des styles](designing/using/styles.md)
+   + [Gestion des styles de courrier électronique](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
 + Test et envoi {#testing-and-sending}
