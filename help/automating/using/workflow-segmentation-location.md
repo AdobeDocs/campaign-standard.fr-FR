@@ -1,8 +1,8 @@
 ---
-title: '"Case d''utilisation du workflow: Segmentation sur site"'
-seo-title: '"Case d''utilisation du workflow: Segmentation sur site"'
-description: '"Case d''utilisation du workflow: Segmentation sur site"'
-seo-description: '"Case d''utilisation du workflow: Segmentation sur site"'
+title: '"Cas pratique de workflow : segmentation sur la localisation"'
+seo-title: '"Cas pratique de workflow : segmentation sur la localisation"'
+description: '"Cas pratique de workflow : segmentation sur la localisation"'
+seo-description: '"Cas pratique de workflow : segmentation sur la localisation"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,65 +11,65 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: 'workflow,case d''utilisation,requête,segmentation,livraison '
+context-tags: 'workflow,use-case,query,segmentation,delivery '
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 ---
 
 
-# Dossier d'utilisation du workflow : Segmentation sur l'emplacement {#segmentation-on-location}
+# Cas pratique de workflow : segmentation sur la localisation {#segmentation-on-location}
 
-Vous pouvez envoyer un e-mail de ciblage aux clients avec des offres sur leurs magasins locaux.
+Vous pouvez envoyer un email de ciblage aux clients avec des offres dans leurs magasins locaux.
 
-1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Sélectionnez **[!UICONTROL Nouveau workflow]** comme type de workflow et cliquez sur **[!UICONTROL Suivant]**.
-1. Entrez les propriétés du workflow et cliquez sur **[!UICONTROL Créer]**.
+1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Workflow]**.
+1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés du workflow, puis cliquez sur **[!UICONTROL Créer]**.
 
-## Sélection de destinataires pouvant être contactés par e-mail{#selecting-recipients-contactable-via-email}
+## Sélectionner les destinataires pouvant être contactés par email{#selecting-recipients-contactable-via-email}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, faites glisser et déposez une activité **[!UICONTROL de]** ![](assets/query.png)requête.
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Requête]** ![](assets/query.png).
 1. Double-cliquez sur l'activité.
-1. Dans **[!UICONTROL Raccourcis]**, faites glisser-déplacer **[!UICONTROL Profils]** et sélectionnez le champ **[!UICONTROL e-mail]** avec l'opérateur **[!UICONTROL n'est pas vide]**.
-1. Dans **[!UICONTROL Raccourcis]**, faites glisser-déplacer **[!UICONTROL Profils]** et sélectionnez le champ **[!UICONTROL ne plus contacter par e-mail]** avec la valeur **[!UICONTROL no]**.
-1. Cliquez deux fois sur **[!UICONTROL Confirmer]** .
+1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d'un élément **[!UICONTROL Profils]** et sélectionnez le champ **[!UICONTROL email]** avec l'opérateur **[!UICONTROL n'est pas vide]**.
+1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d'un élément **[!UICONTROL Profils]** et sélectionnez le champ **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
+1. Cliquez sur **[!UICONTROL Confirmer]** à deux reprises.
 
 ![](assets/wf-complement-query.png)
 
-## Creating a Segmentation activity{#creating-a-segmentation-activity}
+## Créer une activité Segmentation{#creating-a-segmentation-activity}
 
-1. Faites glisser une activité de **[!UICONTROL segmentation]** et double-cliquez dessus.
-1. Cliquez sur le segment puis ouvrez la transition pour cibler les personnes dans la première ville. Ici Boston.
-1. Glissez et déposez **[!UICONTROL Emplacement]** et sélectionnez **[!UICONTROL Ville]** avec l'opérateur **[!UICONTROL égal à]** et la valeur **[!UICONTROL Boston]**.
-Note : Pour atteindre toutes les personnes qui sont entrées à Boston, sans tenir compte de l'affaire, décochez l'option sensible à la casse.
+1. Effectuez un glisser-déposer d'une activité **[!UICONTROL Segmentation]** et double-cliquez dessus.
+1. Cliquez sur le segment, puis ouvrez la transition pour cibler les gens de la première ville. Ici, Paris.
+1. Effectuez un glisser-déposer de l'élément **[!UICONTROL Localisation]** et sélectionnez **[!UICONTROL Ville]** avec l'opérateur **[!UICONTROL égal à]** et la valeur **[!UICONTROL Paris]**.
+Remarque : pour atteindre toutes les personnes qui ont entré paris, quelle que soit la casse, décochez l'option Sensible à la casse.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
-1. Dans **[!UICONTROL Liste des segments]** sortants, cliquez sur **[!UICONTROL Ajouter un élément]** et cliquez sur ![](assets/edit_darkgrey-24px.png) pour créer un segment ciblant les personnes de la deuxième ville. Ici Chicago.
-1. Faites glisser et déposer **[!UICONTROL Emplacement]** et sélectionnez **[!UICONTROL Ville]** avec l'opérateur **[!UICONTROL égale à]** et entrez **[!UICONTROL Chicago]** en valeur.
-1. Pour atteindre toutes les personnes qui sont entrées chicago, sans tenir compte de l'affaire, décochez l'option sensible à la casse.
+1. Dans **[!UICONTROL Liste des segments en sortie]**, cliquez sur **[!UICONTROL Ajouter un élément]** et sur ![](assets/edit_darkgrey-24px.png) pour créer un segment ciblant les personnes dans la deuxième ville. Ici, Toulouse.
+1. Effectuez un glisser-déposer de l'élément **[!UICONTROL Localisation]**, sélectionnez **[!UICONTROL Ville]** avec l'opérateur **[!UICONTROL égal à]** et saisissez la valeur **[!UICONTROL Toulouse]**.
+1. Pour atteindre toutes les personnes qui ont entré toulouse, quelle que soit la casse, décochez l'option Sensible à la casse.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-## Creating an email delivery{#creating-an-email-delivery}
+## Créer une diffusion email{#creating-an-email-delivery}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Chaînes]**, faites glisser et déposer une livraison **[!UICONTROL par]** courriel après chaque segment.
-1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) à modifier.
-1. Sélectionnez **[!UICONTROL Simple email]** et cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un modèle de courriel et cliquez sur **[!UICONTROL Suivant]**.
-1. Entrez les propriétés du courrier électronique et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL Email Designer]**.
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Canaux]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Diffusion Email]** après chaque segment.
+1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
+1. Sélectionnez **[!UICONTROL Email simple]** et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez un modèle d'email et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés de l'email et cliquez sur **[!UICONTROL Suivant]**.
+1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Concepteur d'email]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre e-mail avec des offres spécifiques à chaque emplacement.
+1. Personnalisez votre email avec des offres spécifiques à chaque emplacement.
 
-Pour plus d'informations, reportez-vous à la [conception d'un e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Pour plus d'informations, consultez la section décrivant la [conception d'un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre disposition.
+1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/wf-segmentation-location.png)
 
 **Rubriques connexes :**
 
-* [Activité de requête](../../automating/using/query.md)
-* [Activité de segmentation](../../automating/using/segmentation.md)
+* [Activité Requête](../../automating/using/query.md)
+* [Activité Segmentation](../../automating/using/segmentation.md)
 * [Diffusion Email ](../../automating/using/email-delivery.md)
