@@ -1,8 +1,8 @@
 ---
-title: 'Concevoir des e-mails à partir de zéro '
-seo-title: 'Concevoir des e-mails à partir de zéro '
-description: 'Concevoir des e-mails à partir de zéro '
-seo-description: Découvrez comment concevoir des e-mails à partir d'un contenu de messagerie à partir de zéro dans le concepteur de e-mails.
+title: 'Conception d''emails à partir de zéro '
+seo-title: 'Conception d''emails à partir de zéro '
+description: 'Conception d''emails à partir de zéro '
+seo-description: Découvrez comment concevoir des emails à partir de zéro dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,17 +13,17 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
 
 ---
 
 
-# Concevoir des e-mails à partir de zéro {#designing-an-email-content-from-scratch}
+# Conception d'emails à partir de zéro {#designing-an-email-content-from-scratch}
 
-Apprenez à maîtriser l'édition de contenu de messagerie. Avec Email Designer, vous pouvez créer des e-mails et des modèles à partir de votre propre contenu prédéfini.
+Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur d'email, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
 
-## Principales étapes de création de votre e-mail {#key-steps-to-create-your-email}
+## Etapes clés de création de votre email {#key-steps-to-create-your-email}
 
 Voici les principales étapes pour créer entièrement un contenu d'email à l'aide du Concepteur d'email :
 
@@ -42,7 +42,7 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 >
 >Pour éviter de créer entièrement un contenu d'email, vous pouvez utiliser des modèles de contenu d'usine. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
-### Defining Email Structure {#defining-the-email-structure}
+### Définition de la structure d'un email {#defining-the-email-structure}
 
 Le Concepteur d'email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l'aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
@@ -93,19 +93,19 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 - **[!UICONTROL Texte]**
 
-   Utilisez ce composant pour insérer du texte dans votre e-mail. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans Paramètres **[!UICONTROL de]** composant.
+   Utilisez ce composant pour insérer du texte dans votre email. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Diviseur]**
 
-   Utilisez ce composant pour insérer une ligne de séparation dans votre e-mail. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans Paramètres **[!UICONTROL du]** composant.
+   Utilisez ce composant pour insérer une ligne de séparation dans votre email. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Html]**
 
-   Utilisez ce composant pour copier-coller les différentes parties de votre HTML existant. Vous pouvez ainsi créer des composants HTML modulaires autonomes.
+   Utilisez ce composant pour copier-coller les différentes parties de votre code HTML existant. Vous pouvez ainsi créer des composants HTML modulaires autonomes.
 
    >[!NOTE]
    >
-   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la       section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la  section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
    Pour rendre un contenu externe compatible avec le Concepteur d'email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
@@ -125,19 +125,19 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 - **[!UICONTROL Vidéo]**
 
-   Utilisez ce composant pour insérer une vidéo dans votre e-mail.
+   Utilisez ce composant pour insérer une vidéo dans votre email.
 
-   Insérez le composant vidéo dans un composant de structure de votre e-mail et entrez le lien vidéo dans les paramètres **[!UICONTROL du]** composant.
+   Insérez le composant vidéo dans un composant de structure de votre email et saisissez le lien vidéo dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Image]**
 
-   Utilisez ce composant pour insérer une image dans votre e-mail.
+   Utilisez ce composant pour insérer une image dans votre email.
 
-   Insérez le composant d'image dans un composant de structure et cliquez sur Parcourir pour télécharger un fichier image depuis votre ordinateur.
+   Insérez le composant d'image dans un composant de structure, puis cliquez sur Parcourir pour télécharger un fichier image depuis votre ordinateur.
 
 - **[!UICONTROL Social]**
 
-   Utilisez ce composant pour insérer des liens vers des pages de médias sociaux dans votre courriel. Vous pouvez sélectionner les liens à afficher et la taille de leur icône dans Paramètres **** de composant.
+   Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux dans votre email. Vous pouvez sélectionner les liens à afficher et la taille de leur icône dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Carrousel]**
 
