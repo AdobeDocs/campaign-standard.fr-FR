@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 212720d2-5d57-4e7a-bb72-10512050e78c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
@@ -41,7 +41,7 @@ Consultez également les [bonnes pratiques générales pour concevoir du contenu
 >
 >Si votre instance a été installée avant la version 19.0 d’Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l'interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d'email](../../designing/using/overview.md).
 
-## Meilleures pratiques en matière de conception de pages d'atterrissage {#landing-pages-best-practices-design}
+## Meilleures pratiques de conception d'une landing page{#landing-pages-best-practices-design}
 
 * Lors de l'édition du **contenu d'une landing page** :
 
