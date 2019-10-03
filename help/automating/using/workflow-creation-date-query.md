@@ -1,8 +1,8 @@
 ---
-title: '"Case d''utilisation du workflow: Création de livraisons à la date de création du profil"'
-seo-title: '"Case d''utilisation du workflow: Création de livraisons à la date de création du profil"'
-description: '"Case d''utilisation du workflow: Création de livraisons à la date de création du profil"'
-seo-description: '"Case d''utilisation du workflow: Création de livraisons à la date de création du profil"'
+title: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
+seo-title: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
+description: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
+seo-description: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -11,57 +11,57 @@ audience: automating
 content-type: reference
 topic-tags: 'execution-activities '
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
-context-tags: workflow,case d'utilisation,requête
+context-tags: workflow,use-case,query
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Cas d'utilisation du workflow : Créer des livraisons à la date de création des profils {#creation-date-query}
+# Cas pratique de workflow : création de diffusions à la date de création des profils {#creation-date-query}
 
-Vous pouvez envoyer une offre par courriel à l'occasion de l'anniversaire de la création du profil du client.
+Vous pouvez envoyer une offre par email à la date anniversaire de la création du profil du client.
 
-1. In **[!UICONTROL Marketing Activities]**, click **[!UICONTROL Create]** and select **[!UICONTROL Workflow]**.
-1. Sélectionnez **[!UICONTROL Nouveau workflow]** comme type de workflow et cliquez sur **[!UICONTROL Suivant]**.
-1. Entrez les propriétés du workflow et cliquez sur **[!UICONTROL Créer]**.
+1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Workflow]**.
+1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés du workflow, puis cliquez sur **[!UICONTROL Créer]**.
 
-## Creating a Scheduler activity {#creating-a-scheduler-activity}
+## Créer une activité Planificateur {#creating-a-scheduler-activity}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Exécution]**, faites glisser et déposez une activité **[!UICONTROL du]** Planificateur.
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Exécution]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Planificateur]**.
 1. Double-cliquez sur l'activité.
-1. Configurez l'exécution de votre livraison.
-1. Dans la fréquence **** d'exécution, sélectionnez **[!UICONTROL Quotidien]**.
-1. Sélectionnez une **[!UICONTROL heure]** et la fréquence **[!UICONTROL d'exécution de la]** répétition pour votre workflow.
-1. Sélectionnez une date de **[!UICONTROL début]** et une date d' **[!UICONTROL expiration]** pour votre workflow.
+1. Configurez l'exécution de votre diffusion.
+1. Dans **[!UICONTROL Fréquence d'exécution]**, sélectionnez **[!UICONTROL Quotidienne]**.
+1. Sélectionnez une **[!UICONTROL Heure]** et **[!UICONTROL Répéter le traitement selon la périodicité suivante]** pour votre workflow.
+1. Sélectionnez une date de **[!UICONTROL Début]** et d'**[!UICONTROL Expiration]** de votre workflow.
 1. Validez votre activité et sauvegardez votre workflow.
 
 >[!NOTE]
 >
->Pour démarrer votre workflow à un fuseau horaire spécifique, dans l'onglet Options **[!UICONTROL d']** exécution, définissez le fuseau horaire de votre planificateur dans le champ **[!UICONTROL fuseau]** horaire.
+>Pour démarrer votre workflow dans un fuseau horaire spécifique, dans l'onglet **[!UICONTROL Options d'exécution]**, configurez le fuseau horaire du planificateur dans le champ **[!UICONTROL Fuseau horaire]**.
 
 ![](assets/time_zone.png)
 
-## Creating a Query activity {#creating-a-query-activity}
+## Créer une activité Requête {#creating-a-query-activity}
 
-1. Pour sélectionner des destinataires, faites glisser-déplacer une activité **** Requête et double-cliquez dessus.
-1. Ajouter **[!UICONTROL des profils]** et sélectionner **[!UICONTROL ne plus contacter par e-mail]** avec la valeur **[!UICONTROL no]**.
+1. Pour sélectionner les destinataires, effectuez un glisser-déposer d'une activité **[!UICONTROL Requête]** et double-cliquez dessus.
+1. Ajoutez des **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
 
-### Récupération des profils créés le même jour que le jour de l'exécution {#retriving-profiles-created-on-the-same-day}
+### Récupération des profils créés le même jour que le jour d'exécution {#retriving-profiles-created-on-the-same-day}
 
-1. Dans **[!UICONTROL Profil]**, faites glisser et déposez le champ **[!UICONTROL Créé]** . et cliquez sur Mode ****Avancé.
+1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Créé le]**. et cliquez sur **[!UICONTROL Mode avancé]**.
    ![](assets/advanced_mode.png)
-1. Dans la **[!UICONTROL liste des fonctions]**, double-cliquez sur **[!UICONTROL Jour]** à partir du noeud **[!UICONTROL Date]**.
-1. Ensuite, insérez le champ **[!UICONTROL Créé]** comme argument.
+1. Dans la **[!UICONTROL Liste des fonctions]**, double-cliquez sur **[!UICONTROL Jour]** depuis le nœud **[!UICONTROL Date]**.
+1. Ensuite, insérez le champ **[!UICONTROL Créé le]** en tant qu'argument.
 1. Sélectionnez **[!UICONTROL égal à (=)]** comme opérateur.
-1. Pour Valeur, sélectionnez **[!UICONTROL Jour]** dans le noeud **[!UICONTROL Date]** de la **[!UICONTROL liste des fonctions]**.
-1. Insérez la fonction **[!UICONTROL GetDate()]** comme argument.
+1. Pour la valeur, sélectionnez **[!UICONTROL Jour]** depuis le nœud **[!UICONTROL Date]** dans la **[!UICONTROL Liste des fonctions]**.
+1. Insérez la fonction **[!UICONTROL GetDate()]** en tant qu'argument.
 
-Vous avez récupéré les profils dont le jour de création est égal au jour actuel.
+Vous avez récupéré les profils dont le jour de création correspond au jour en cours.
 
-Vous devriez finir par :
+Vous devez obtenir :
 
 ```Day(@created) = Day(GetDate())```
 
@@ -69,37 +69,37 @@ Vous devriez finir par :
 
 Cliquez sur **[!UICONTROL Confirmer]**.
 
-### Récupération des profils créés le même mois que le mois d'exécution{#retriving-profiles-created-on-the-same-month}
+### Récupérer les profils créés le même mois que le mois d'exécution{#retriving-profiles-created-on-the-same-month}
 
-1. Dans l'éditeur **[!UICONTROL Requête]** , sélectionnez la première requête et dupliquez-la.
-1. Ouvrez le doublon.
+1. Dans l'éditeur de **[!UICONTROL requêtes]**, sélectionnez la première requête et dupliquez-la.
+1. Ouvrez le duplicata.
 1. Remplacez **[!UICONTROL Jour]** par **[!UICONTROL Mois]** dans la requête.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 ![](assets/month_rule.png)
 
-Vous devriez finir par ceci :
+Vous devez obtenir :
 
 ``` Month(@created) = Month(GetDate()) ```
 
-La dernière requête s'affiche:
+La requête finale affiche :
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
 ![](assets/expression_editor_1.png)
 
-## Creating an Email delivery{#creating-an-email-delivery}
+## Créer une diffusion email{#creating-an-email-delivery}
 
-1. Faites glisser et déposez une livraison de courrier électronique.
-1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) à modifier.
-1. Sélectionnez **[!UICONTROL Courrier]** récurrent et cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un modèle de courriel et cliquez sur **[!UICONTROL Suivant]**.
-1. Entrez les propriétés du courrier électronique et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL Email Designer]**.
+1. Effectuez un glisser-déposer d'une diffusion email.
+1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
+1. Sélectionnez **[!UICONTROL Email récurrent]** et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez un modèle d'email et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés de l'email et cliquez sur **[!UICONTROL Suivant]**.
+1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Concepteur d'email]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre e-mail en utilisant des champs et des liens.
-Pour plus d'informations, reportez-vous à la [conception d'un e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre disposition.
+1. Personnalisez votre email à l'aide de champs et de liens.
+Pour plus d'informations, consultez la section décrivant la [conception d'un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 **Rubriques connexes :**
