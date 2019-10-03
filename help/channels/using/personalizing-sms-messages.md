@@ -14,7 +14,7 @@ discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
