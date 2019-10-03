@@ -13,7 +13,7 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
@@ -74,7 +74,7 @@ Au cours de la conception et de la publication de messages transactionnels, cert
 * Il n'est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l'événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l'événement](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personnalisation  {#personalization}
+### Personnalisation   {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d'un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous :
 
@@ -85,7 +85,7 @@ La manière dont vous pouvez personnaliser le contenu d'un message dépend du ty
 * Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l'événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d'enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichir le contenu d'un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 * Comme les messages transactionnels basés sur un événement ne contiennent pas d'informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d'un enrichissement avec des profils. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
-**Messages transactionnels basés sur un profil** :
+**Messages transactionnels basés sur un profil**:
 
 * les informations de personnalisation peuvent provenir des données contenues dans l'événement ou de l'enregistrement de profil réconcilié. Voir [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md).
 * Vous pouvez utiliser les blocs de contenu **Lien de désabonnement** dans un message transactionnel basé sur un profil. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
@@ -93,7 +93,7 @@ La manière dont vous pouvez personnaliser le contenu d'un message dépend du ty
 
 Les listes de produits ne sont disponibles que dans les emails transactionnels. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-### Permissions et marques  {#permissions-and-branding}
+### Permissions et marques   {#permissions-and-branding}
 
 En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à l'entité organisationnelle **[!UICONTROL Tous]**. Pour plus d'informations, lisez l'explication détaillée ci-après.
 
