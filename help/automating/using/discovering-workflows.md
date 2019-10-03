@@ -13,7 +13,7 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
@@ -29,18 +29,18 @@ Un workflow peut également faire intervenir des utilisateurs, pour leur affecte
 
 Les workflows peuvent intervenir dans **différents contextes**, par exemple :
 
-* ciblage afin de gérer des audiences ou envoyer des messages. Voir à ce propos les sections [Activités des canaux](../../automating/using/about-channel-activities.md) et [Activités de ciblage](../../automating/using/about-targeting-activities.md).
-* data management (ETL) pour manipuler des données. Voir à ce propos [Activités de Data Management](../../automating/using/about-data-management-activities.md).
-* import de données dans la base de Campaign. Voir à ce sujet [Import et export de données](../../automating/using/about-data-import-and-export.md).
-* processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc. Obtenez des informations supplémentaires sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md).
+* Ciblage afin de gérer des audiences ou envoyer des messages. Voir à ce propos les sections [Activités des canaux](../../automating/using/about-channel-activities.md) et [Activités de ciblage](../../automating/using/about-targeting-activities.md).
+* Data management (ETL) pour manipuler des données. Voir à ce propos [Activités de Data Management](../../automating/using/about-data-management-activities.md).
+* Import de données dans la base de Campaign. Voir à ce sujet [Import et export de données](../../automating/using/about-data-import-and-export.md).
+* Processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc. En savoir plus sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md).
 
-Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Voir à ce propos la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Rubriques connexes :**
 
 * [Principes opérationnels des workflows](../../automating/using/workflow-operating-principles.md)
 * [A propos de l'import et de l'export de données](../../automating/using/about-data-import-and-export.md)
-* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
-* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
-* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : création d'une diffusion email une fois par semaine](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d'une diffusion segmentée sur l'emplacement](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
