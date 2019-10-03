@@ -103,7 +103,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Paramètres d'historisation   {#historization-settings}
+## Paramètres d'historisation    {#historization-settings}
 
 A chacune de ses exécutions, l'activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité **[!UICONTROL Transfert de fichier]** d'un workflow. Par conséquent, il est important de pouvoir limiter la taille de ce dossier de façon à préserver l'espace physique sur le serveur.
 
