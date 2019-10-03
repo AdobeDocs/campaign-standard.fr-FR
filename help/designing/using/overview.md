@@ -2,7 +2,7 @@
 title: Utiliser le Concepteur d'email
 seo-title: Utiliser le Concepteur d'email
 description: Utiliser le Concepteur d'email
-seo-description: Découvrez le concepteur de courrier électronique et comment il active le contenu de conception de courrier électronique.
+seo-description: Découvrez le Concepteur d'email et comment il active le contenu de conception d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,7 +13,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 # Utiliser le Concepteur d'email {#email-designer}
 
-## Présentation du concepteur de e-mails {#about-the-email-designer}
+## Présentation du Concepteur d'email {#about-the-email-designer}
 
 Le Concepteur d'email permet de créer du contenu d'email et des modèles de contenu d'email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
 
-Pour commencer à utiliser le Concepteur d'email, regardez cet [ensemble de vidéos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) qui expliquent la fonctionnalité générale de l'outil et qui décrivent comment créer entièrement un email ou le concevoir à l'aide de modèles.
+Pour commencer à utiliser le Concepteur d'email, regardez cet [ensemble de vidéos](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) qui expliquent la fonctionnalité générale de l'outil et décrivent comment créer entièrement un email ou le concevoir à l'aide de modèles.
 
 ### Page d'accueil du Concepteur d'email {#email-designer-home-page}
 
@@ -73,13 +73,13 @@ La **barre d'outils contextuelle** de l'interface de l'éditeur présente des fo
 
 ### Terminologie {#terminology}
 
-**Modèles**: Les modèles sont des structures de messagerie que vous pouvez créer et réutiliser pour plusieurs livraisons.
+**Modèles** : les modèles sont des structures d'email que vous pouvez créer et réutiliser pour plusieurs diffusions.
 
-**Fragments**: Un fragment est un composant réutilisable qui peut être référencé dans un ou plusieurs courriels.
+**Fragments** : un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 
-**Composants** de structure: Éléments structurels définissant la disposition du courrier électronique
+**Composants de structure** : éléments structurels définissant la disposition de l'email.
 
-**Composants** de contenu : Les composants de contenu sont des composants bruts et vides que vous pouvez modifier une fois placés dans un e-mail.
+**Composants de contenu** : les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu'ils ont été placés dans un email.
 
 ### Bonnes pratiques relatives à la conception de contenu {#content-design-best-practices}
 
@@ -89,7 +89,7 @@ Pour utiliser correctement le Concepteur d'email et créer des emails optimaux a
 
    Voir [Ajouter des attributs de style intégrés](../../designing/using/styles.md#adding-inline-styling-attributes).
 
-* Si vous importez des fichiers ZIP contenant votre contenu HTML, utilisez le format CSS standard. Les feuilles de style SCSS ne sont pas prises en charge.
+* Si vous importez des fichiers ZIP comportant le contenu HTML, utilisez une feuille CSS standard. Les feuilles de style SCSS ne sont pas prises en charge.
 
 * Etablissez facilement votre marque en créant et en réutilisant des fragments de contenu pour assurer la cohérence de vos campagnes marketing.
 
@@ -99,9 +99,9 @@ Pour utiliser correctement le Concepteur d'email et créer des emails optimaux a
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l'aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-D'autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+D'autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
-### Limitations du Concepteur d'email   {#email-designer-limitations}
+### Limitations du Concepteur d'email  {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d'informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
