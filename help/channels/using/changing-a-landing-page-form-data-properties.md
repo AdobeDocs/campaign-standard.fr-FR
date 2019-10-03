@@ -13,7 +13,7 @@ topic-tags: editing-landing-page-content
 discoiquuid: 2a21cf84-3db9-428f-833e-3f0f8bde7f53
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
