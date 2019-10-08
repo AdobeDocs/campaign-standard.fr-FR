@@ -13,8 +13,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -31,4 +31,4 @@ Chaque service est fourni avec :
 * des **mécanismes de confirmation** d'inscription et/ou de désinscription.
 * un suivi de l'**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions).
