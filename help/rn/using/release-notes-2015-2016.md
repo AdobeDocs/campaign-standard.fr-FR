@@ -13,8 +13,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -34,14 +34,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Règles d'exclusion de délivrabilité<br /> </td> 
-   <td> Une liste de suppression globale cryptée est désormais gérée dans l'instance de délivrabilité afin d'éviter tout blacklistage lié à une activité malveillante, notamment l'utilisation d'un spam trap (piège à spam).<br /> Pour chaque diffusion email, deux règles de typologie par défaut comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans cette liste. S'il existe une correspondance, le message n'est pas envoyé au destinataire concerné.<br /> Pour plus d'informations, consultez la <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">documentation détaillée</a>.<br /> </td> 
+   <td> Une liste de suppression globale cryptée est désormais gérée dans l'instance de délivrabilité afin d'éviter tout blacklistage lié à une activité malveillante, notamment l'utilisation d'un spam trap (piège à spam).<br /> Pour chaque diffusion e-mail, deux règles de typologie par défaut comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale gérée dans l'instance de délivrabilité. S'il existe une correspondance, le message n'est pas envoyé au destinataire concerné.<br /> Pour plus d'informations, consultez la <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation générale<br /> </td> 
@@ -96,7 +96,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -161,7 +161,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -171,7 +171,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
    <td> L'intégration entre le core service <span class="uicontrol">Triggers</span> et Adobe Campaign permet d'envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site Web par Adobe Analytics (dans un délai de 15 minutes).<br /> Dans Adobe Marketing Cloud, vous définissez les différents triggers, c'est-à-dire les comportements des clients que vous souhaitez suivre, comme les clients qui ont abandonné leur panier ou formulaire, supprimé un produit du panier ou dont la session a expiré. Lors de la création d'un trigger, vous définissez la condition du trigger et les données qui seront envoyées à Adobe Campaign dans l'événement (pload). <br /> Dans Adobe Campaign, vous sélectionnez le trigger qui a été précédemment créé, vous enrichissez les données de l'événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au trigger. Par exemple, lorsqu'un client abandonne son panier, un événement est envoyé à Adobe Campaign. Adobe Campaign peut ensuite utiliser cet événement par le biais d'un email de remarketing envoyé au client dans un délai de 15 minutes.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Messages transactionnels : Mettre en pause/Dépublier<br /> </td> 
+   <td> Messages transactionnels : pause / dépublication<br /> </td> 
    <td> Vous pouvez désormais suspendre la publication d'un modèle transactionnel pendant la mise à jour de son contenu. Les messages correspondants ne sont plus envoyés, mais ils sont stockés dans la base de données. A la reprise, les messages placés dans la file d'attente sont traités et envoyés s'ils n'ont pas expiré.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">documentation détaillée</a>.<br /> Vous pouvez désormais dépublier des événements et des modèles transactionnels. Les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -223,7 +223,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -277,7 +277,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -334,7 +334,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -381,7 +381,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Editeur de contenus {#content-editor}
 
-* L'éditeur de contenu permet à présent de personnaliser n'importe quelle URL dans un email ou une landing page. Consultez à ce sujet la [documentation détaillée](../../designing/using/personalization.md#personalizing-urls).
+* L'éditeur de contenu permet à présent de personnaliser n'importe quelle URL dans un email ou une landing page. Consultez la [documentation détaillée](../../designing/using/personalization.md#personalizing-urls).
 * Correction d'une erreur qui provoquait la perte des images lorsque celles-ci étaient ajoutées dans l'assistant de création de la diffusion, puis que le contenu était modifié par la suite.
 
 #### Ressources personnalisées {#custom-resources-3}
@@ -399,7 +399,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Audiences et requêtes   {#audiences-and-queries-1}
 
-* Corrections diverses liées à l'utilisation des dates dans l'éditeur de requête. Consultez à ce sujet la [documentation détaillée](../../automating/using/editing-queries.md#creating-queries).
+* Corrections diverses liées à l'utilisation des dates dans l'éditeur de requête. Consultez la [documentation détaillée](../../automating/using/editing-queries.md#creating-queries).
 
 #### Administration {#administration}
 
@@ -412,7 +412,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -468,7 +468,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -538,7 +538,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -627,7 +627,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -709,7 +709,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -789,7 +789,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -860,7 +860,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -879,7 +879,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Digital Content Editor - Contenu dynamique<br /> </td> 
-   <td> L'interface du contenu dynamique a été améliorée. Des flèches sont désormais disponibles pour naviguer entre les différents contenus dynamiques, directement dans le corps de l'email.<br /> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
+   <td> L'interface du contenu dynamique a été améliorée. Des flèches sont désormais disponibles pour naviguer entre les différents contenus dynamiques, directement dans le corps de l'email.<br /> Pour plus d'informations sur l'utilisation de cette fonctionnalité, consultez la <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor - Texte dynamique<br /> </td> 
@@ -928,7 +928,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -939,11 +939,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
     <ul> 
      <li> <strong>Ajout de relations</strong> : un onglet <strong>Relations</strong> permet d'ajouter des liens entre les données entrantes et plusieurs autres dimensions de la base de données Adobe Campaign. </li> 
      <li> <strong>Identification de données</strong> : un onglet <strong>Identification</strong> permet d'associer simplement les données entrantes à des colonnes d'une dimension existante dans la base de données Adobe Campaign. En sortie de l'activité, les données sont identifiées comme appartenant à la dimension définie. </li> 
-    </ul> Consultez à ce sujet la <a href="../../automating/using/reconciliation.md">documentation détaillée</a>.<br /> </td> 
+    </ul> Consultez la <a href="../../automating/using/reconciliation.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows : activité Extraction de fichier<br /> </td> 
-   <td> Une nouvelle activité <strong>Extraction de fichier</strong> permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe depuis un workflow. <br /> Limitation : il n'est actuellement pas possible d'utiliser des noms dynamiques pour les fichiers de sortie.<br /> Consultez à ce sujet la <a href="../../automating/using/extract-file.md">documentation détaillée</a>.<br /> </td> 
+   <td> Une nouvelle activité <strong>Extraction de fichier</strong> permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe depuis un workflow. <br /> Limitation : il n'est actuellement pas possible d'utiliser des noms dynamiques pour les fichiers de sortie.<br /> Consultez la <a href="../../automating/using/extract-file.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows : activité Planificateur<br /> </td> 
@@ -955,15 +955,15 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Ressources personnalisées<br /> </td> 
-   <td> Le menu <span class="uicontrol">Développement</span> permet désormais aux utilisateurs disposant de droits d'administration d'enrichir le modèle de données fourni en créant leurs propres ressources personnalisées, comme des tables d'achats ou de produits. <br /> Il est également possible d'étendre les ressources d'usine pour leur ajouter de nouveaux champs.<br /> Enfin, la navigation dans les écrans correspondant à une ressource personnalisée nouvelle ou étendue est configurable.<br /> Consultez à ce sujet la <a href="../../developing/using/data-model-concepts.md">documentation détaillée</a>.<br /> </td> 
+   <td> Le menu <span class="uicontrol">Développement</span> permet désormais aux utilisateurs disposant de droits d'administration d'enrichir le modèle de données fourni en créant leurs propres ressources personnalisées, comme des tables d'achats ou de produits. <br /> Il est également possible d'étendre les ressources d'usine pour leur ajouter de nouveaux champs.<br /> Enfin, la navigation dans les écrans correspondant à une ressource personnalisée nouvelle ou étendue est configurable.<br /> Consultez la <a href="../../developing/using/data-model-concepts.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> les profils de test.<br /> </td> 
+   <td> Profils de test<br /> </td> 
    <td> Le <strong>Deuxième prénom</strong> et la <strong>Civilité</strong> des profils de test peuvent désormais être sélectionnés lors de la configuration de la liste des profils de test.<br /> </td> 
   </tr> 
   <tr> 
    <td> Editeur de contenus : contenu dynamique<br /> </td> 
-   <td> Vous pouvez définir différents contenus qui s'afficheront de manière dynamique à l'utilisateur selon les conditions définies au moyen de l'éditeur d'expression.<br /> Consultez à ce sujet la <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez définir différents contenus qui s'afficheront de manière dynamique à l'utilisateur selon les conditions définies au moyen de l'éditeur d'expression.<br /> Consultez la <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email<br /> </td> 
@@ -1019,14 +1019,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Exports de package / Imports de package<br /> </td> 
-   <td> Le menu <strong>Déploiement</strong> permet désormais aux utilisateurs disposant de droits d'administration d'échanger des ressources entre différentes instances Adobe Campaign par le biais d'exports et d'imports de packages.<br /> Consultez à ce sujet la <a href="../../automating/using/managing-packages.md">documentation détaillée</a>.<br /> </td> 
+   <td> Le menu <strong>Déploiement</strong> permet désormais aux utilisateurs disposant de droits d'administration d'échanger des ressources entre différentes instances Adobe Campaign par le biais d'exports et d'imports de packages.<br /> Consultez la <a href="../../automating/using/managing-packages.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rapports<br /> </td> 
@@ -1037,27 +1037,27 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
      <li> Répartition par domaine du programme </li> 
      <li> Echecs et retours du programme </li> 
      <li> URLs et flux de clics du programme </li> 
-    </ul> Ces rapports peuvent être filtrés sur une période donnée (par exemple, trois mois, six mois, etc.). Les rapports de campagne peuvent aussi être filtrés.<br /> Consultez à ce sujet la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
+    </ul> Ces rapports peuvent être filtrés sur une période donnée (par exemple, trois mois, six mois, etc.). Les rapports de campagne peuvent aussi être filtrés.<br /> Consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows : activité <strong>Diffusion email</strong><br /> </td> 
-   <td> L'activité de <strong>Diffusion email</strong> disponible dans les workflows a été améliorée. Vous pouvez désormais retrouver les emails, les emails récurrents, ainsi que le détail des exécutions des emails récurrents depuis la liste des activités marketing de l'application.<br /> Consultez à ce sujet la <a href="../../automating/using/email-delivery.md">documentation détaillée</a>.<br /> </td> 
+   <td> L'activité de <strong>Diffusion email</strong> disponible dans les workflows a été améliorée. Vous pouvez désormais retrouver les emails, les emails récurrents, ainsi que le détail des exécutions des emails récurrents depuis la liste des activités marketing de l'application.<br /> Consultez la <a href="../../automating/using/email-delivery.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows : activité <strong>Segmentation</strong><br /> </td> 
-   <td> L'activité <strong>Segmentation</strong> est désormais disponible dans les workflows. Cette activité permet de créer un ou plusieurs segments et de leur associer un code segment à partir d'une population calculée par des activités placées en amont dans le même workflow. En sortie d'activité, les segments peuvent être traités dans une seule transition ou dans des transitions distinctes. Des options permettent de filtrer la population et de limiter la taille de chaque segment afin de les personnaliser au mieux. Par exemple vous pouvez effectuer des sélections aléatoires de profils répondant à des critères spécifiques.<br /> Consultez à ce sujet la <a href="../../automating/using/segmentation.md">documentation détaillée</a>.<br /> </td> 
+   <td> L'activité <strong>Segmentation</strong> est désormais disponible dans les workflows. Cette activité permet de créer un ou plusieurs segments et de leur associer un code segment à partir d'une population calculée par des activités placées en amont dans le même workflow. En sortie d'activité, les segments peuvent être traités dans une seule transition ou dans des transitions distinctes. Des options permettent de filtrer la population et de limiter la taille de chaque segment afin de les personnaliser au mieux. Par exemple vous pouvez effectuer des sélections aléatoires de profils répondant à des critères spécifiques.<br /> Consultez la <a href="../../automating/using/segmentation.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégrations : <strong>Assets Core Service</strong><br /> </td> 
-   <td> Vous pouvez désormais utiliser des ressources partagées via <strong>Assets Core Service</strong> dans le contenu de vos emails et de vos landing pages. Vous pouvez gérer vos ressources partagées directement depuis Adobe Marketing Cloud.<br /> Consultez à ce sujet la <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez désormais utiliser des ressources partagées via <strong>Assets Core Service</strong> dans le contenu de vos emails et de vos landing pages. Vous pouvez gérer vos ressources partagées directement depuis Adobe Marketing Cloud.<br /> Consultez la <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégrations : <strong>Adobe Target</strong><br /> </td> 
-   <td> Vous pouvez désormais insérer des images calculées dynamiquement par <strong>Adobe Target</strong> dans vos emails Adobe Campaign. Cela vous permet de proposer plusieurs versions d'un même email en personnalisant son contenu en fonction de critères définis dans des segments Adobe Target.<br /> Consultez à ce sujet la <a href="../../integrating/using/about-campaign-target-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez désormais insérer des images calculées dynamiquement par <strong>Adobe Target</strong> dans vos emails Adobe Campaign. Cela vous permet de proposer plusieurs versions d'un même email en personnalisant son contenu en fonction de critères définis dans des segments Adobe Target.<br /> Consultez la <a href="../../integrating/using/about-campaign-target-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Digital Content Editor : <strong>Sélection des blocs</strong><br /> </td> 
-   <td> Lorsqu'un bloc est sélectionné dans l'éditeur de contenus HTML, un fil d'Ariane s'affiche au bas de la zone d'édition, ce qui facilite la navigation et la sélection des différents éléments.<br /> Consultez à ce sujet la <a href="../../channels/using/managing-landing-page-structure-and-style.md">documentation détaillée</a>.<br /> </td> 
+   <td> Lorsqu'un bloc est sélectionné dans l'éditeur de contenus HTML, un fil d'Ariane s'affiche au bas de la zone d'édition, ce qui facilite la navigation et la sélection des différents éléments.<br /> Consultez la <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1069,22 +1069,22 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Rapports<br /> </td> 
-   <td> Les rapports sont désormais accessibles directement depuis un programme ou une campagne. Le rapport <strong>Synthèse des diffusions</strong> a été ajouté au niveau des programmes.<br /> Consultez à ce sujet la <a href="../../reporting/using/delivery-summary.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les rapports sont désormais accessibles directement depuis un programme ou une campagne. Le rapport <strong>Synthèse des diffusions</strong> a été ajouté au niveau des programmes.<br /> Consultez la <a href="../../reporting/using/delivery-summary.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mise à jour de données<br /> </td> 
-   <td> Dans les workflows, l'activité <strong>Mise à jour de données</strong> disponible propose une nouvelle option qui permet d'associer automatiquement les champs des données entrantes avec les champs d'un schéma de l'application. Elle permet de faciliter le processus de sélection des champs à mettre à jour.<br /> Consultez à ce sujet la <a href="../../automating/using/update-data.md">documentation détaillée</a>.<br /> </td> 
+   <td> Dans les workflows, l'activité <strong>Mise à jour de données</strong> disponible propose une nouvelle option qui permet d'associer automatiquement les champs des données entrantes avec les champs d'un schéma de l'application. Elle permet de faciliter le processus de sélection des champs à mettre à jour.<br /> Consultez la <a href="../../automating/using/update-data.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusion email<br /> </td> 
-   <td> Dans les workflows, les options avancées de l'activité <strong>Diffusion email</strong> sont désormais accessibles via un bouton spécifique de la barre d'actions. Ce bouton n'est disponible que si une activité <strong>Diffusion email </strong>est sélectionnée. Il permet notamment d'ajouter une transition sortante à l'activité et de modifier le nom de l'activité affiché dans le workflow.<br /> Consultez à ce sujet la <a href="../../automating/using/email-delivery.md">documentation détaillée</a>.<br /> </td> 
+   <td> Dans les workflows, les options avancées de l'activité <strong>Diffusion email</strong> sont désormais accessibles via un bouton spécifique de la barre d'actions. Ce bouton n'est disponible que si une activité <strong>Diffusion email </strong>est sélectionnée. Il permet notamment d'ajouter une transition sortante à l'activité et de modifier le nom de l'activité affiché dans le workflow.<br /> Consultez la <a href="../../automating/using/email-delivery.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
