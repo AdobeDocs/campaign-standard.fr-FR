@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -123,7 +123,7 @@ Pour en savoir plus sur la création et la publication de ressources, consultez 
 
    Vous pouvez également enrichir le contenu des messages transactionnels à l’aide de la ressource **[!UICONTROL Service]** . Pour plus d'informations, voir .
 
-1. Dans la section **[!UICONTROL Enrichissement de ciblage]**, sélectionnez l'enrichissement qui sera utilisé en tant que cible des messages pendant l'exécution de la diffusion. Dans cet exemple, sélectionnez **[!UICONTROL Profil]**. Un enrichissement de ciblage doit obligatoirement être sélectionné pour les événements basés sur un profil.
+1. Dans la section **[!UICONTROL Enrichissement de la cible]**, sélectionnez l'enrichissement qui sera utilisé en tant que cible des messages pendant l'exécution de la diffusion. Dans cet exemple, sélectionnez **[!UICONTROL Profil]**. Un enrichissement de la cible doit obligatoirement être sélectionné pour les événements basés sur un profil.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
@@ -186,7 +186,7 @@ Une fois que vous avez créé l'événement de votre choix, il vous faut intégr
 
 Dans l'exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle), vous souhaitez qu'un événement de type "Abandon de panier" soit déclenché lorsque l'un de vos clients quitte votre site web avant d'avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l'API REST Adobe Campaign Standard.
 
-Consultez la [documentation API REST](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+Consultez la [documentation API REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
 
 ## Configurations spécifiques des événements transactionnels {#transactional-event-specific-configurations}
 
