@@ -3,18 +3,18 @@ title: Segmentation et ciblage
 seo-title: Segmentation et ciblage
 description: Segmentation et ciblage
 seo-description: '"Découvrez les profils, le ciblage et la création d''une audience dans Campaign : créez des audiences, importez des contacts, partagez des audiences avec des solutions Experience Cloud et évitez la lassitude marketing."'
-page-status-flag: jamais activé
-uuid: 71 f 53808-0309-49 f 6-a 4 ee -3446 eac 9758 a
+page-status-flag: never-activated
+uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: référence
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: d 8 c 8 a 318-9433-4 aec-b 378-fd 0 beb 50 e 9 fb
+discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -31,7 +31,7 @@ La fonctionnalité des profils client intègre l'ensemble de vos données client
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign propose différents mécanismes pour l'acquisition de profils : la collecte de données en ligne via [landing pages](../../channels/using/about-landing-pages.md), des [mécanismes d'import automatisé](../../automating/using/about-data-import-and-export.md) ou manuel, la [saisie directe](../../audiences/using/creating-profiles.md) dans l'interface Adobe Campaign, ainsi que la création en masse via les [API Campaign](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Adobe Campaign propose différents mécanismes pour l'acquisition de profils : la collecte de données en ligne via des [landing pages](../../channels/using/about-landing-pages.md), des [mécanismes d'import automatisé](../../automating/using/about-data-import-and-export.md) ou manuel, la [saisie directe](../../audiences/using/creating-profiles.md) dans l'interface Adobe Campaign, ainsi que la création en masse via les [API Campaign](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 **Rubriques connexes :**
 
@@ -55,7 +55,7 @@ Les audiences sont présentées [sur cette page](../../audiences/using/about-aud
 
 ## Règlement général sur la protection des données {#general-data-protection-regulation}
 
-Le RGPD est la nouvelle loi de l'Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant dans l'UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
+Le RGPD est la nouvelle loi de l'Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s'applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l'UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
 Pour plus d'informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html).
 
