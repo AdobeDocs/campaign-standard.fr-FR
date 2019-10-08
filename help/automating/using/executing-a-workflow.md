@@ -14,8 +14,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -60,7 +60,7 @@ Lorsqu'une transition est ouverte, vous pouvez modifier son **[!UICONTROL Libell
 
 L'API REST vous permet de **démarrer**, **mettre en pause**, **reprendre** et **arrêter** un workflow.
 
-Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
 ## Cycle de vie {#life-cycle}
 
@@ -98,9 +98,9 @@ Les icônes de la barre d'actions permettent de lancer, de tracker et de modifie
 
 ![](assets/wkf_execution_2.png)
 
-Les actions disponibles sont les suivantes :
+Les actions disponibles sont les suivantes :
 
-**Démarrer**
+**Début**
 
 Le bouton ![](assets/play_darkgrey-24px.png) permet de lancer l'exécution d'un workflow, qui prend alors le statut **En cours** (bleu). Si le workflow était en pause, il s'agit d'une reprise, sinon il s'agit d'un démarrage et les activités initiales sont alors activées.
 
@@ -112,7 +112,7 @@ Le bouton ![](assets/play_darkgrey-24px.png) permet de lancer l'exécution d'un 
 
 Le bouton ![](assets/pause_darkgrey-24px.png) a pour effet de mettre l'exécution en pause. Le workflow prend le statut **Avertissement** (jaune). Aucune nouvelle activité ne sera activée jusqu'à la prochaine reprise, mais les opérations en cours ne sont pas suspendues.
 
-**Arrêter**
+**Stopper**
 
 Le bouton ![](assets/stop_darkgrey-24px.png) arrête un workflow en cours d'exécution, qui prend alors le statut **Terminé** (vert). Les opérations en cours sont interrompues, si possible, et les imports ou requêtes SQL en cours sont immédiatement annulées. Il n'est pas possible de reprendre à l'endroit où le workflow s'est arrêté.
 
