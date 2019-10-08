@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -29,9 +29,13 @@ Vous pouvez également consulter les [notes de mise à jour](../../rn/using/rele
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
+Une nouvelle section relative aux paramètres de Campaign Standard a été ajoutée. [En savoir plus](../../administration/using/about-campaign-standard-settings.md)
+
 Une nouvelle section décrivant comment envoyer un courrier électronique de confirmation personnalisé automatique aux profils qui s’abonnent à un service spécifique a été ajoutée. [En savoir plus](../../audiences/using/confirming-subscription-to-a-service.md)
 
 La section de messagerie transactionnelle a été modifiée avec les dernières mises à jour de l’interface utilisateur, y compris la modification du contenu avec le concepteur de courrier électronique. [En savoir plus](../../channels/using/event-transactional-messages.md)
+
+Le chapitre des pages d'entrée a été réorganisé. Il a également été enrichi d'une nouvelle section décrivant les étapes de configuration d'une page d'entrée. [En savoir plus](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
 ## Mises à jour de la documentation - Septembre 2019 {#doc-updates-september-2019}
 
@@ -99,7 +103,7 @@ Ajout d'un avertissement à la documentation des ressources personnalisées. Il 
 
 ## Mises à jour de la documentation – Juillet 2019 {#doc-updates-2019}
 
-Ajout d'une page sur les limites des landing pages –  [En savoir plus](../../channels/using/landing-page-limitations.md)
+Ajout d'une page sur les limites des landing pages –  [En savoir plus](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 Ajout d'un cas pratique sur la façon d'appeler un profil à l'aide d'une clé d'identification composite –  [En savoir plus](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -137,7 +141,7 @@ Ajout d'une section sur les mises à jour et les opérations de maintenance –
 
 Ajout d'informations sur la nouvelle option de tri de l'activité **Transfert de fichier** –  [En savoir plus](../../automating/using/transfer-file.md)
 
-Mise à jour de la [documentation sur les API REST](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) :
+Mise à jour de la [documentation sur les API REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) :
 
 * Ajout d'une nouvelle section comportant des informations génériques sur les raisons d'utiliser les API REST Campaign Standard
 * Mise à disposition d'un ensemble de requêtes d'API préconçues, représentant des cas pratiques courants
@@ -317,7 +321,7 @@ Le guide Utilisateurs &amp; sécurité a été mis à jour pour refléter le fai
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-5}
 
-Mise à jour de la documentation sur les API avec des informations sur l'API **History**. Ajout d'un cas pratique permettant de récupérer la page miroir pour une diffusion envoyée à un profil – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+Mise à jour de la documentation sur les API avec des informations sur l'API **History**. Ajout d'un cas pratique permettant de récupérer la page miroir pour une diffusion envoyée à un profil – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-5}
 
@@ -331,7 +335,7 @@ Mise à jour de la définition du rôle Préparer les diffusions – [En savoir 
 
 Ajout d'un exemple dans la section d'activité de requête indiquant comment cibler des profils ayant cliqué sur un lien spécifique dans une diffusion – [En savoir plus](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-Ajout d'une section dans la documentation sur les API relative aux **filtres personnalisés** – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Ajout d'une section dans la documentation sur les API relative aux **filtres personnalisés** – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
 
@@ -381,7 +385,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-7}
 
-L'API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+L'API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
 Ajout d'informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d'être blacklistés – [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -455,7 +459,7 @@ Améliorations des notifications push – En savoir plus [ici](../../channels/
 
 Diffusions optimisées avec les fuseaux horaires – [En savoir plus](../../automating/using/scheduler.md)
 
-Déclenchement de l'activité Signal via l'API – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+Déclenchement de l'activité Signal via l'API – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-9}
 
@@ -505,11 +509,11 @@ Mise à jour de la [section](https://helpx.adobe.com/campaign/kb/configuring-app
 
 Mise à jour de la documentation sur les SMS avec l'ajout d'une clarification à la section [Réponses automatiques des SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-Nouvelle section consacrée à la gestion des workflows via l'API – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+Nouvelle section consacrée à la gestion des workflows via l'API – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
-Nouvelle section consacrée aux clés primaires et à l'utilisation d'un identifiant d'entreprise comme clé dans l'API – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+Nouvelle section consacrée aux clés primaires et à l'utilisation d'un identifiant d'entreprise comme clé dans l'API – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
 
-Ajout d'informations sur le filtrage simple et multiple dans l'API – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+Ajout d'informations sur le filtrage simple et multiple dans l'API – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## Version 17.9 - Septembre 2017 {#release-17-9---september-2017}
 
@@ -659,7 +663,7 @@ Ressources liées dans les API REST – [En savoir plus](../../developing/usin
 
 Intégration de Triggers : ajout de deux cas pratiques. [En savoir plus](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Nous avons repensé la documentation sur l'API destinée aux développeurs avec de nouvelles informations et de nouveaux fragments de code pour une meilleure expérience utilisateur – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+Nous avons repensé la documentation sur l'API destinée aux développeurs avec de nouvelles informations et de nouveaux fragments de code pour une meilleure expérience utilisateur – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Découvrez des exemples des nouvelles activités de workflow [Lecture d'audience](../../automating/using/read-audience.md) et [Signal externe](../../automating/using/external-signal.md).
 
@@ -669,7 +673,7 @@ Découvrez des exemples des nouvelles activités de workflow [Lecture d'audience
 
 Export des logs pour un reporting externe – [En savoir plus](../../automating/using/exporting-logs.md)
 
-API des messages transactionnels – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+API des messages transactionnels – [En savoir plus](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 Capacités marketing des messages transactionnels – [En savoir plus](../../channels/using/profile-transactional-messages.md)
 
@@ -693,7 +697,7 @@ Nouvelle page d'accueil et nouvelle interface de la documentation.
 
 Présentation des permissions utilisateur : un cas pratique a été ajouté. Consultez également la [grille des permissions utilisateur](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Utilisation des API : un [cas pratique d'utilisation d'extension d'API](../../developing/using/about-extending-the-api.md) a été ajouté. Consultez également la [documentation sur les API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Utilisation des API : un [cas pratique d'utilisation d'extension d'API](../../developing/using/about-extending-the-api.md) a été ajouté. Consultez également la [documentation sur les API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Messages d'erreur d'Adobe Campaign : accédez à la liste complète des messages d'erreur d'Adobe Campaign v6 et Standard, filtrés par version et langue – [En savoir plus](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
