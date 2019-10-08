@@ -13,8 +13,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Le type du message est défini lors de la configuration de l'événement qui ser
 >
 >Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
-Les messages transactionnels sont également disponibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Les messages transactionnels sont également disponibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Les étapes de mise en œuvre sont les suivantes :
 Une fois toutes ces étapes effectuées, dès qu'un utilisateur quitte le site sans commander les produits de son panier, il reçoit automatiquement un email de notification.
 
 ## Limites des messages transactionnels {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>Pour accéder aux messages transactionnels, vous devez disposer des droits d’administration.
 
 ### Conception et publication {#design-and-publication}
 
@@ -95,13 +99,13 @@ Les listes de produits ne sont disponibles que dans les emails transactionnels. 
 
 ### Permissions et marques   {#permissions-and-branding}
 
-En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à l'entité organisationnelle **[!UICONTROL Tous]**. Pour plus d'informations, lisez l'explication détaillée ci-après.
+En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md). Pour plus d'informations, lisez l'explication détaillée ci-après.
 
 Lorsque vous éditez un message transactionnel, vous pouvez le lier à une marque pour appliquer automatiquement certains paramètres tels que le nom ou le logo de la marque. La **[!UICONTROL Marque par défaut]** est sélectionnée par défaut dans les propriétés des messages transactionnels.
 
 ![](assets/message-center_branding.png)
 
-Pour accéder aux messages transactionnels, vous devez appartenir au groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec) qui est lié à l'[entité organisationnelle](../../administration/using/organizational-units.md) **[!UICONTROL Message Center]**. Par conséquent, tous les objets (notamment les marques) utilisés dans un message transactionnel doivent être visibles à partir de l'unité organisationnelle **[!UICONTROL Message Center]**, ce qui signifie qu'ils doivent figurer dans les unités organisationnelles **[!UICONTROL Message Center]** ou **[!UICONTROL Tous]**.
+All objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
 
 Si la marque sélectionnée dans les propriétés du message est liée à une entité organisationnelle autre que **[!UICONTROL Message Center]** ou **[!UICONTROL Tous]**, une erreur sera générée et vous ne pourrez pas envoyer le message transactionnel.
 
