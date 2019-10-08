@@ -14,8 +14,8 @@ discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign vous permet de gérer des contacts dans toutes les étapes de leu
 
 >[!NOTE]
 >
->Les profils sont également disponibles à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>Les profils sont également disponibles à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles).
 
 ![](assets/marketing_history.png)
 
