@@ -13,8 +13,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -32,5 +32,5 @@ Pour pouvoir publier l'API, vous devez disposer du rôle **[!UICONTROL Datamodel
 **Rubriques connexes :**
 
 * [Ressources personnalisées](../../developing/using/data-model-concepts.md)
-* [Documentation des API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Documentation des API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
