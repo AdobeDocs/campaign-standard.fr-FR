@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez
 
 >[!NOTE]
 >
->Pour accéder aux messages transactionnels, vous devez disposer des droits d'administration ou figurer dans le groupe de sécurité **[!UICONTROL Agents Message Center]** (mcExec). Les messages transactionnels basés sur un événement ne contiennent pas d'informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d'un enrichissement avec des profils). Voir [Règles de fatigue](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes les unités)]** .
+>
+>Les messages transactionnels basés sur un événement ne contiennent pas d'informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d'un enrichissement avec des profils). Voir [Règles de fatigue](../../administration/using/fatigue-rules.md#choosing-the-channel).
 
 ## Définir un profil de test dans un message transactionnel    {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
 1. Prévisualisez votre message en sélectionnant le profil que vous avez défini pour cet événement.
 
-   Les étapes de prévisualisation d'un message sont présentées dans la section [Prévisualiser le message](../../sending/using/preparing-the-send.md).
+   Les étapes de prévisualisation d'un message sont présentées dans la section [Prévisualiser le message](../../sending/using/previewing-messages.md).
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d'attente, dans la base de données Adobe Campaign.
 
-Les événements placés dans la file d'attente sont conservés pendant une période définie dans l'API REST (voir la [documentation sur l'API REST](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) ou dans l'événement trigger si vous utilisez le core service Triggers (voir [Utilisation de Campaign et des triggers Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Les événements placés dans la file d'attente sont conservés pendant une période définie dans l'API REST (voir la [documentation sur l'API REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) ou dans l'événement trigger si vous utilisez le core service Triggers (voir [Utilisation de Campaign et des triggers Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
