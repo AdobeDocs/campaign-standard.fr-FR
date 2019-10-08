@@ -14,8 +14,8 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -32,7 +32,7 @@ L'activité **[!UICONTROL Signal externe]** déclenche un workflow lorsque certa
 
 L'activité **[!UICONTROL Signal externe]** permet d'organiser et d'orchestrer différents processus qui composent un même parcours client dans différents workflows. Elle permet de démarrer un workflow à partir d'un autre, supportant ainsi des parcours client plus complexes tout en améliorant le contrôle et la réactivité en cas de problèmes.
 
-L'activité **[!UICONTROL Signal externe]** est conçue pour être utilisée comme première activité de workflow. Elle peut être déclenchée à partir de l'activité **[!UICONTROL Fin]** d'un autre workflow ou d'un appel API REST (voir à ce propos la [documentation de l'API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)).
+L'activité **[!UICONTROL Signal externe]** est conçue pour être utilisée comme première activité de workflow. Elle peut être déclenchée à partir de l'activité **[!UICONTROL Fin]** d'un autre workflow ou d'un appel API REST (voir à ce propos la [documentation de l'API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)).
 
 Quand elle est déclenchée, des paramètres externes peuvent être définis et disponibles dans les variables d'événements du workflow. Le processus d'appel d'un workflow avec des paramètres externes est détaillé dans [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
@@ -42,7 +42,7 @@ Quand elle est déclenchée, des paramètres externes peuvent être définis et 
 
 Notez qu'une activité **[!UICONTROL Signal externe]** peut être déclenchée via plusieurs événements différents. Dans ce cas, le **[!UICONTROL Signal externe]** est déclenché dès que l'un des workflows source ou l'appel de l'API est exécuté. Il n'est pas nécessaire que tous les workflows source aient terminé leur exécution.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 Lors de la configuration d'un signal externe, il est important de commencer par configurer l'activité **[!UICONTROL Signal externe]** dans le workflow de destination. Une fois cette configuration terminée, l'activité **[!UICONTROL Signal externe]** de ce workflow devient disponible et vous pouvez configurer l'activité **[!UICONTROL Fin]** du workflow source.
 
@@ -58,7 +58,7 @@ Lors de la configuration d'un signal externe, il est important de commencer par 
 
    >[!NOTE]
    >
-   >Si vous souhaitez déclencher le workflow de destination à partir d'un autre workflow, effectuez la procédure suivante. Si vous souhaitez déclencher le workflow de destination depuis un appel de l'API REST, consultez la [documentation de l'API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) pour plus d'informations.
+   >Si vous souhaitez déclencher le workflow de destination à partir d'un autre workflow, effectuez la procédure suivante. Si vous souhaitez déclencher le workflow de destination depuis un appel de l'API REST, consultez la [documentation de l'API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) pour plus d'informations.
 
 1. Ouvrez le workflow source et sélectionnez une activité **[!UICONTROL Fin]**. Si aucune activité **[!UICONTROL Fin]** n’est disponible, ajoutez-en une après la dernière activité d'une branche du workflow.
 
