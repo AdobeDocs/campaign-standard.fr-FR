@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -51,7 +51,7 @@ Pour appeler un workflow avec des paramètres, la première étape consiste à l
 
 ## Définir les paramètres lors de l'appel du workflow    {#defining-the-parameters-when-calling-the-workflow}
 
-Cette section explique comment définir des paramètres lors de l'appel d'un workflow. Pour plus d'informations sur l'exécution de cette opération à partir d'un appel API, consultez la [documentation des API REST](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Cette section explique comment définir des paramètres lors de l'appel d'un workflow. Pour plus d'informations sur l'exécution de cette opération à partir d'un appel API, consultez la [documentation des API REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Avant de définir les paramètres, vérifiez les éléments suivants :
 
@@ -76,7 +76,7 @@ Pour configurer l'activité **[!UICONTROL Fin]**, suivez les étapes ci-dessous�
 
 ## Suivi des variables d'événements    {#monitoring-the-events-variables}
 
-Il est possible de suivre les variables d'événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour ce faire, procédez comme suit :
+Il est possible de suivre les variables d'événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
 1. Sélectionnez l'activité qui suit l'activité **[!UICONTROL Signal externe]**, puis cliquez sur le bouton **[!UICONTROL Journal et tâches]**.
 1. Dans l'onglet **[!UICONTROL Tâches]**, cliquez sur le bouton ![](assets/edit_darkgrey-24px.png).
@@ -225,7 +225,7 @@ Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec 
 
 ### Etape 1 : configurer l'appel API    {#step-1--configuring-the-api-call}
 
-Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d'informations sur la syntaxe de l'appel API, consultez la [documentation des API REST Campaign Standard](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d'informations sur la syntaxe de l'appel API, consultez la [documentation des API REST Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dessous :
 
