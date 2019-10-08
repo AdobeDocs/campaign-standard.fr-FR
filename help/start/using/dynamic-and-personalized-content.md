@@ -13,8 +13,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
 * [personnaliser l'expéditeur](../../designing/using/subject-line.md) d'un email ou d'un SMS ;
 * [personnaliser l'objet](../../designing/using/subject-line.md) d'un email ou utiliser les fonctionnalités d'[optimisation prédictive de l'objet](../../designing/using/subject-line.md#predictive-subject-line) pour ce faire ;
-* créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md) ;
+* créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
 * insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push.
 
 ![](assets/delivery_content_43.png)
