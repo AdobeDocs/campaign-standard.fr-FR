@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -108,18 +108,14 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Messages de relance](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
       + [A propos des landing pages](channels/using/about-landing-pages.md)
-      + [Limites des landing pages](channels/using/landing-page-limitations.md)
+      + [Etapes principales de configuration d’une page d’entrée](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [A propos des modèles de page d’entrée](channels/using/landing-page-templates.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
+      + [Gestion des données de formulaire de page d’entrée](channels/using/managing-landing-page-form-data.md)
       + [Partager une landing page](channels/using/sharing-a-landing-page.md)
-      + [Réconciliation et stockage des données](channels/using/data-storage-and-reconciliation.md)
       + [Configuration d'un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
-      + [A propos de la conception du contenu d'une landing page](channels/using/about-landing-page-content-design.md)
-      + [Interface de l'éditeur de contenu de landing page](channels/using/landing-page-content-editor-interface.md)
-      + [Gérer la structure et le style d'une landing page](channels/using/managing-landing-page-structure-and-style.md)
-      + [Modifier les propriétés des données d'un formulaire pour une landing page](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [Définir le contenu dynamique dans une landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
+   + [Campaign EmailDesigner](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
    + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
@@ -323,6 +319,7 @@ source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
       + [Règles de fatigue](administration/using/fatigue-rules.md)
       + [Cas des règles de contrôle](administration/using/control-rules.md)
    + Paramétrage de l'application {#application-settings}
+      + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
       + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
       + [Workflows techniques](administration/using/technical-workflows.md)
