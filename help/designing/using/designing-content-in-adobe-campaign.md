@@ -13,8 +13,8 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+translation-type: tm+mt
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Lorsque vous créez un email, vous pouvez choisir d'utiliser un modèle prédéf
 
 Pour augmenter l'efficacité de vos campagnes marketing, personnalisez votre contenu. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) et [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 
-Vous pouvez également définir un contenu dynamique qui varie en fonction de chaque profil. Voir [Définir le contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) et [Définir le contenu dynamique dans une landing page](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+Vous pouvez également définir un contenu dynamique qui varie en fonction de chaque profil. Voir [Définir le contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) et [Définir le contenu dynamique dans une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
 Améliorez vos messages et landing pages avec des liens et des images. Voir [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Insérer des images](../../designing/using/images.md#inserting-images).
 
