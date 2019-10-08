@@ -13,8 +13,8 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -34,13 +34,13 @@ Les workflows peuvent intervenir dans **différents contextes**, par exemple :
 * Import de données dans la base de Campaign. Voir à ce sujet [Import et export de données](../../automating/using/about-data-import-and-export.md).
 * Processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc. En savoir plus sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md).
 
-Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Voir à ce propos la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+Les workflows sont également accessibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
 
 **Rubriques connexes :**
 
 * [Principes opérationnels des workflows](../../automating/using/workflow-operating-principles.md)
 * [A propos de l'import et de l'export de données](../../automating/using/about-data-import-and-export.md)
 * [Cas pratique : création d'une diffusion email une fois par semaine](../../automating/using/workflow-weekly-offer.md)
-* [Cas pratique : création d'une diffusion segmentée sur l'emplacement](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création d'une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
 * [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
 * [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
