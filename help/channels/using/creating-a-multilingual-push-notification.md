@@ -13,8 +13,8 @@ topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
 
 ---
 
@@ -55,12 +55,15 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 1. Dans la fenêtre **[!UICONTROL Audiences]**, déposez vos requêtes pour affiner votre audience.
 
    Les requêtes ajoutées dépendent du modèle sélectionné : si vous avez choisi le modèle **[!UICONTROL Envoyer des notifications push multilingues aux profils Campaign]**, vous pouvez interroger les destinataires connus de votre application mobile. Si vous avez sélectionné en revanche le modèle **[!UICONTROL Envoyer des notifications push multilingues aux abonnés de l'application]**, vous pouvez interroger tous les abonnés d'une application spécifique qui ont accepté de recevoir des notifications.
+   >[!NOTE]
+   >
+   >Si vous ciblez des audiences avec des langues spécifiques, vous devez répertorier toutes les langues ciblées dans votre fichier CSV.
 
    ![](assets/push_notif_audience.png)
 
 1. Dans la fenêtre **[!UICONTROL Gérez les variantes de contenu]**, déposez votre fichier ou sélectionnez un fichier sur votre ordinateur.
 
-   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l'option **[!UICONTROL Télécharger le fichier d'exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d'informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [technote](http://helpx.adobe.com/fr/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l'option **[!UICONTROL Télécharger le fichier d'exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d'informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [technote](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -133,4 +136,4 @@ Vous pouvez maintenant mesurer l'impact de la diffusion de votre notification pu
 
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
 * [Envoi d'une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
-* [Atteindre des audiences multilingues à l'aide d'un workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l’aide d’un seul processus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
