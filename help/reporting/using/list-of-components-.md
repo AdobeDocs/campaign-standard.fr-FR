@@ -13,8 +13,8 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+translation-type: tm+mt
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
@@ -42,7 +42,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Navigateur dans lequel le message a été ouvert ou a fait l'objet d'un clic.<br /> </td> 
   </tr> 
   <tr> 
-   <td> campagne<br /> </td> 
+   <td> Campaign<br /> </td> 
    <td> Libellé et identifiant de votre campagne.<br /> </td> 
   </tr> 
   <tr> 
@@ -60,6 +60,10 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   <tr> 
    <td> Appareil<br /> </td> 
    <td> Appareil sur lequel l'email/le SMS/la notification push ont été ouverts/vus ou ont fait l'objet d'un clic.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> Raison de l'échec<br /> </td> 
+   <td> Types d’erreurs qui provoquaient des retours pour chaque remise, par exemple : utilisateur inconnu, domaine non valide ou boîte aux lettres pleine.<br /> </td> 
   </tr> 
   <tr> 
    <td> Genre<br /> </td> 
@@ -110,7 +114,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Etat enregistré dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
-   <td> URL de tracking<br /> </td> 
+   <td> l'URL de tracking<br /> </td> 
    <td> URL sur laquelle a cliqué l'utilisateur dans le message.<br /> </td> 
   </tr> 
   <tr> 
@@ -203,7 +207,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de clics sur une offre.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br /> </td> 
+   <td> Ouvertures<br /> </td> 
    <td> Nombre d’ouvertures d’un message dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
@@ -223,7 +227,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de mises en quarantaine par rapport au nombre de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
+   <td> Refusée<br /> </td> 
    <td> Nombre de messages classés comme spam par les serveurs SMTP.<br /> </td> 
   </tr> 
   <tr> 
@@ -300,7 +304,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre total de notifications push envoyées.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br /> </td> 
+   <td> Ouvertures<br /> </td> 
    <td> Nombre total de notifications push diffusées sur l'appareil et ayant fait l'objet d'un clic par les utilisateurs ouvrant l'application. Cette mesure est similaire au Clic push, sauf qu'une Ouverture push ne sera pas déclenchée si la notification a été ignorée.<br /> </td> 
   </tr> 
   <tr> 
@@ -377,6 +381,10 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 ## Segments {#segments}
 
+>[!NOTE]
+>
+>Par défaut, le segment Exclure la preuve **** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
+
 Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
 <table> 
@@ -450,6 +458,10 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
   <tr> 
    <td> Toutes les visites<br /> </td> 
    <td> Tous les destinataires<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> Exclure la preuve<br /> </td> 
+   <td> Exclure les preuves de vos rapports (à partir de la version 19.4 uniquement)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
