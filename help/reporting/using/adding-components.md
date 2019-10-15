@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
@@ -33,7 +33,7 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
 
    * **Dimensions** : obtenez des détails issus du log de diffusion, tels que le navigateur du destinataire, son domaine, ou la réussite d'une diffusion.
    * **Mesures** : obtenez des détails sur le statut d'un message. Par exemple, s'il a été délivré et si l'utilisateur l'a ouvert.
-   * **[!UICONTROL Segments]** : filtrez les données selon la tranche d'âge du destinataire. **[!UICONTROL Les Segments]** peuvent être placés directement dans un tableau Structure libre ou dans la barre supérieure du panneau.
+   * **[!UICONTROL Segments]** : filtrez les données selon la tranche d'âge du destinataire. **[!UICONTROL Les Segments]** peuvent être placés directement dans un tableau Structure libre ou dans la barre supérieure du panneau. À compter de la version 19.4 de Campaign, la **[!UICONTROL preuve]** Exclure sera déjà sélectionnée par défaut, mais peut être modifiée si nécessaire.
 
       Cette catégorie est disponible uniquement lorsque l'administrateur a accepté les conditions générales de l'accord sur l'utilisation des rapports dynamiques qui s'affiche à l'écran. Si l'administrateur refuse les conditions générales de l'accord, les segments ne sont pas visibles dans l'onglet **[!UICONTROL Composants]** et les données ne sont pas collectées.
 
