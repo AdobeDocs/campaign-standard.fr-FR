@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Découvrez l'ensemble des mises à jour les plus récentes de la documentation d
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Standard.
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
+
+## Version 19.4 - Octobre 2019  {#release-19-4---october-2019}
+
+### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-20}
+
+California Consumer Privacy Act (CCPA) - [Lire la suite](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Intégration de Microsoft Dynamics 365 (GA) - [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-18}
+
+Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+Le guide de mise en route du RDPC a été amélioré et enrichi. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, y compris le RMR et l’ACCP. [En savoir plus](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+Un nouveau graphique présentant le processus de publication des messages transactionnels a été ajouté. [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+Le guide de prise en main des bonnes pratiques de livraison a été mis à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
