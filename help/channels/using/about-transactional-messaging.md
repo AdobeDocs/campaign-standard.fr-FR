@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Les étapes de mise en œuvre sont les suivantes :
 1. Par ailleurs, pour que cet événement soit déclenché lorsqu'un client abandonne son panier, il faut l'envoyer depuis le site web de la société en utilisant l'API REST Adobe Campaign Standard. Voir [Intégration à un site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 Une fois toutes ces étapes effectuées, dès qu'un utilisateur quitte le site sans commander les produits de son panier, il reçoit automatiquement un email de notification.
+
+## Processus de publication de messages transactionnels {#transactional-messaging-pub-process}
+
+Le graphique ci-dessous illustre le processus de publication des messages transactionnels.
+
+![](assets/message-center_pub-process.png)
+
+Pour plus d’informations sur les étapes de configuration des événements, voir Configuration [des messages](../../administration/using/configuring-transactional-messaging.md)transactionnels.
 
 ## Limites des messages transactionnels {#transactional-messaging-limitations}
 
