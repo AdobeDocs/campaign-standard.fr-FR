@@ -13,8 +13,8 @@ topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+translation-type: tm+mt
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
@@ -211,8 +211,18 @@ Dans l'exemple ci-dessous, la cellule est de la même couleur car sa valeur est 
 
 ![](assets/troubleshooting_1.png)
 
-Si vous définissez la **mise en forme conditionnelle** sur personnalisée, lorsque la valeur atteint la limite supérieure, la cellule devient verte. En revanche, si elle atteint la limite inférieure, elle devient rouge.
+Si vous définissez la **[!UICONTROL mise en forme conditionnelle]sur personnalisée, lorsque la valeur atteint la limite supérieure, la cellule devient verte.** En revanche, si elle atteint la limite inférieure, elle devient rouge.
 
-Par exemple, ici, nous définissons la **limite supérieure** sur 500 et la **limite inférieure** sur 0.
+For example, here, we set the **[!UICONTROL Upper limit]** to 500 and **[!UICONTROL Lower limit**] to 0.
 
 ![](assets/troubleshooting_2.png)
+
+## Pourquoi la valeur S/O apparaît-elle dans mes rapports ?
+
+![](assets/troubleshooting_3.png)
+
+La valeur **S/O** peut parfois apparaître dans vos rapports dynamiques. Cela peut être affiché pour deux raisons :
+
+* La remise a été supprimée et s’affiche ici sous la forme **S/O** pour ne pas provoquer d’incohérence dans les résultats.
+* Lorsque vous faites glisser et déposez la dimension Livraison **** transactionnelle dans vos rapports, la valeur **S/O** peut apparaître en conséquence. Cela se produit car le rapport dynamique récupère chaque remise, même si elles ne sont pas transactionnelles.
+Cela peut également se produire lorsque vous faites glisser et déposez la dimension **[!UICONTROL Livraison]** dans votre rapport, mais dans ce cas, la valeur **S/O** représente des livraisons transactionnelles.
