@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+translation-type: tm+mt
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
@@ -53,7 +53,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. En cas de besoin, déplacez des **[!UICONTROL Segments]** de l'onglet **[!UICONTROL Composants]** vers la barre supérieure pour filtrer le rapport selon la tranche d'âge du destinataire.
+1. À compter de la version 19.4 de Campaign, la **[!UICONTROL preuve]** Exclure sera déjà sélectionnée par défaut. Si nécessaire, vous pouvez le modifier en faisant glisser l’un des **[!UICONTROL segments]** depuis l’onglet **[!UICONTROL Composants]** vers la barre supérieure.
 
    ![](assets/dynamic_report_panel_3.png)
 
