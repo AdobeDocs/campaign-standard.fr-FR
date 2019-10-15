@@ -14,8 +14,8 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+translation-type: tm+mt
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
 
 Par défaut, Adobe Campaign propose un ensemble de rôles qui permettent de définir les autorisations unitaires attribuées aux utilisateurs et groupes d'utilisateurs. Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l'interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des rôles et des permissions](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-![](assets/user_management_3.png)
+[![image](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 Les rôles peuvent être gérés depuis le menu **[!UICONTROL Administration &gt; Utilisateurs &amp; sécurité &gt; Rôles]**.
 
@@ -34,13 +34,13 @@ Les droits par défaut sont les suivants :
 * **[!UICONTROL Datamodel]** : droit pour l'exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Export]** : droit pour l'export des données.
 * **[!UICONTROL Import générique]** : droit pour l'exécution d'un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.
-* **[!UICONTROL Préparer des diffusions]** : droit pour la création, l'édition et le démarrage d'une préparation de diffusion, et l'envoi des bons à tirer.
-* **[!UICONTROL Démarrer des diffusions]** : droit pour la validation des diffusions préalablement préparées.
-* **[!UICONTROL Workflow]** : droit pour l'utilisation des workflows.
+* **[!UICONTROL Préparer les livraisons]**: Droit de créer, modifier, préparer et supprimer des livraisons. Les utilisateurs bénéficiant de ce rôle peuvent préparer la diffusion, mais pas l’envoyer.
+* **[!UICONTROL Commencer les livraisons]**: Droit de créer, modifier, préparer, envoyer et supprimer des livraisons.
+* **[!UICONTROL Workflow]**: Droit de créer, modifier, démarrer et supprimer des processus. Les utilisateurs bénéficiant de ce rôle ne peuvent pas envoyer de diffusion, même dans un flux de travail.
 
 >[!CAUTION]
 >
->Le rôle DELIVRABILITE est réservé uniquement aux administrateurs Adobe. Il ne doit pas être accordé à un utilisateur.
+>Les rôles **[!UICONTROL Deliverability]**, **[!UICONTROL Command Execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access et Message Center push sont réservés aux administrateurs d’Adobe à des fins internes.]****** Ils ne doivent pas être accordés à un utilisateur.
 
 **Rubriques connexes :**
 
