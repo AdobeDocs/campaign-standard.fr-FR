@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ Ressources supplémentaires :
     <li><p>Lors de la création d’une demande de protection de la vie privée, le type de réglementation (RDPC ou ACCP) a été ajouté au service principal de protection de la vie privée. Cette méthode est celle que vous devez utiliser pour toutes les requêtes d’accès et de suppression. L’utilisation de l’API et de l’interface Campaign pour l’accès et la suppression des requêtes est obsolète. Toutefois, si vous devez encore utiliser ces méthodes dans la version 19.4, veuillez noter que le type de réglementation a été ajouté dans l’interface de campagne et dans l’API et qu’il est obligatoire. Pour l’interface, la valeur par défaut sera définie sur GDPR. Pour l’API, vous devez inclure ce champ dans votre charge utile. See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
     <li>Un champ d’exclusion <strong>de l’</strong> ACCP a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client a choisi de ne pas vendre ses informations personnelles. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
+    <p>Reportez-vous à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">pratique</a>.</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 integration (GA)<br /> </td> 
    <td> 
     <p>L’intégration entre Adobe Campaign Standard et Microsoft Dynamics 365 est désormais disponible. Vous pourrez transférer vos enregistrements de contacts et d'entités personnalisées de Dynamics 365 vers Campaign et récupérer les données d'événement de courriel de Campaign vers Dynamics 365 pour un meilleur alignement ventes/marketing.</p>
-    <p>Consultez la documentation <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> détaillée pour configurer cette intégration.</p>
+    <p>Reportez-vous à la documentation <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html"></a> détaillée pour configurer cette intégration et voir la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>pratique.</p>
   </td>
   </tr> 
  </tbody> 
