@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les
 
 ## Définir les permissions et pré-charger les données   {#setting-permissions-and-pre-loading-data}
 
-L'accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d'un lien figurant dans un message envoyé par Campaign, par exemple. Dans ce cas, vous pouvez précharger leurs données dans la landing page. Pour cela :
+L'accès à une page d'entrée peut être limité aux visiteurs identifiés, qui proviennent d'un lien dans un message envoyé par Campaign, par exemple, ou à une unité d'organisation spécifique.
+Dans le cas des visiteurs identifiés, vous pouvez précharger leurs données dans la page d’entrée. Pour cela :
 
 1. Editez les propriétés de la landing page accessibles via l'icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Accès &amp; chargement]**.
 
@@ -384,6 +385,26 @@ Vous pouvez également :
 
 * Utiliser les paramètres d'URL pour identifier les visiteurs, à l'aide de l'option **[!UICONTROL Autoriser l'identification des visiteurs via les paramètres de l'URL]** : vous devez ensuite choisir la clé de chargement et mapper les paramètres de filtre avec les paramètres de l'URL correspondante.
 * Autoriser n'importe quel visiteur à accéder à la landing page, à l'aide de l'option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
+
+Les pages d'entrée peuvent également être liées à une unité organisationnelle. L'accès des utilisateurs aux différentes pages d'entrée sera ainsi défini. Pour affecter une unité d'organisation :
+
+1. Accédez aux propriétés de votre page d’entrée via l’icône **[!UICONTROL Modifier les propriétés]** .
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Dépliez l’autorisation **[!UICONTROL d’accès]**.
+
+1. Cliquez sur le menu déroulant et sélectionnez votre unité d'organisation. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+
+   ![](assets/lp_org_unit_2.png)
+
+1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
+
+1. Cliquez sur **[!UICONTROL Confirmer]**, puis sur **[!UICONTROL Enregistrer]**.
+
+Votre page d'entrée est désormais accessible et gérée uniquement par les utilisateurs de l'unité d'organisation choisie.
+
+![](assets/lp_org_unit_3.png)
 
 ## Définir Google reCAPTCHA {#setting-google-recaptcha}
 
