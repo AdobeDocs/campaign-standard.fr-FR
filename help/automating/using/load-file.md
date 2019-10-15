@@ -14,8 +14,8 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
+translation-type: tm+mt
+source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ---
 
@@ -97,7 +97,7 @@ Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous dev
       ![](assets/wkf_file_loading1.png)
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l'option **[!UICONTROL Décompression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l'activité.
-1. L'option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s'étant produites lors de l'import et de l'appliquer à une étape de post-traitement.
+1. L'option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s'étant produites lors de l'import et de l'appliquer à une étape de post-traitement. Lorsque l’option est activée, la transition sortante est renommée "Rejette".
 
    >[!NOTE]
    >
@@ -106,6 +106,8 @@ Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous dev
    ![](assets/wkf_file_loading_keeprejects.png)
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
+
+Si une erreur se produit avec l’activité après l’exécution du flux de travail, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
 
 ## Format des colonnes   {#column-format}
 
