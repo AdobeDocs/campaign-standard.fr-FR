@@ -11,8 +11,8 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
 
 ---
 
@@ -26,6 +26,10 @@ source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 L'activité **[!UICONTROL API externe]** récupère des données dans le workflow d'un **système externe** via un appel **API REST**.
 
 Les points d'entrée REST peuvent être un système de gestion client, une instance [Runtime Adobe I/O](https://www.adobe.io/apis/experienceplatform/runtime.html) ou un point d'entrée REST Experience Cloud (Data Platform, Target, Analytics, Campaign, etc.).
+
+>[!NOTE]
+>
+>Pour des raisons de sécurité, l’utilisation de JSSP n’est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance d’exécution d’E/S Adobe via l’activité API externe.
 
 >[!CAUTION]
 >
