@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -148,7 +148,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 #### Exemple : ajustement de la marge intérieure et de l'alignement vertical {#example--adjusting-vertical-alignment-and-padding}
 
-Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intérieur d'un composant de structure composé de trois colonnes. Pour ce faire, procédez comme suit :
+Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intérieur d'un composant de structure composé de trois colonnes. Pour cela, procédez comme suit :
 
 1. Sélectionnez le composant de structure, directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche.
 1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l'arborescence.
@@ -172,6 +172,30 @@ Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intér
 1. Procédez de façon similaire pour ajuster l'alignement et la marge intérieure des autres colonnes.
 
    ![](assets/des_adjusting_columns.png)
+
+1. Enregistrez vos modifications.
+
+### A propos du style des liens {#about-styling-links}
+
+Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le concepteur de courrier électronique.
+
+1. Dans un composant où un lien est inséré, sélectionnez le texte d’étiquette du lien.
+
+1. Dans les paramètres du composant, cochez la case **[!UICONTROL Souligné]** pour souligner le texte d’étiquette de votre lien.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez une **[!UICONTROL cible]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. Pour changer la couleur de votre lien, cliquez sur **[!UICONTROL Lien couleur]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. Choisissez la couleur dont vous avez besoin.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. Enregistrez vos modifications.
 
