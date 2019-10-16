@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## Nouveautés
 
-* **[Concepteur](channels/using/event-transactional-messages.md)**<br/>de courrier électronique Utilisez le concepteur de courrier électronique dans vos messages transactionnels.
+* **[Gestion](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>de la confidentialité Découvrez les outils fournis par Adobe Campaign pour vous aider à respecter la confidentialité.
 
-* **[Segments](reporting/using/creating-a-report-workflow-segment.md)**<br/>de processus Créez un rapport basé sur les segments de processus.
+* **[Meilleures pratiques](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>en matière de prestation En savoir plus sur les meilleures pratiques en matière de conception et d’envoi de la prestation.
 
-* **[Nouvelles cas](automating/using/workflow-created-query-with-complement.md)**<br/>d'utilisation du workflow Lisez nos cas d'utilisation de la requête du workflow.
+* **[Concepteur](designing/using/designing-content-in-adobe-campaign.md)**<br/>de courrier électronique Consultez la documentation du concepteur de courrier électronique réorganisée.
 
-* **[Activité](automating/using/load-file.md)**<br/>du fichier de chargement Utilisez l’activité Charger le fichier pour envoyer un courrier électronique contenant des données supplémentaires.
+* **[Pages d'entrée](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>En savoir plus sur la configuration d'une page d'entrée.
 
 [Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
 
