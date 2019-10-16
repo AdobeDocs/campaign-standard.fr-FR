@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
+source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 ---
 
@@ -176,6 +176,10 @@ Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intér
 1. Enregistrez vos modifications.
 
 ### A propos du style des liens {#about-styling-links}
+
+>[!NOTE]
+>
+>Cette fonctionnalité sera disponible à partir de la version 19.4 de Campaign Standard.
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le concepteur de courrier électronique.
 
