@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
+source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
 
 ---
 
@@ -44,6 +44,8 @@ Le guide de mise en route du RDPC a été amélioré et enrichi. Il s’agit mai
 Un nouveau graphique présentant le processus de publication des messages transactionnels a été ajouté. [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 Le guide de prise en main des bonnes pratiques de livraison a été mis à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Une nouvelle section a été ajoutée. Il fournit un aperçu des différentes méthodes qui vous permettent d'enrichir la base de données Campaign Standard. [En savoir plus](../../start/using/enriching-campaign-database.md)
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
