@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
 
 ---
 
@@ -41,7 +41,7 @@ Cette intégration doit être d'abord configurée. Pour demander la mise en serv
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l'organisation IMS</strong><br /> </td> 
-   <td> Votre identifiant de l'organisation IMS* </td> 
+   <td> Votre identifiant de l'organisation IMS. <br> Vous pouvez trouver votre ID d’organisation IMS dans Experience Cloud, dans le menu **Administration**. Elle est également fournie lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement :</strong><br /> </td> 
@@ -62,15 +62,23 @@ Cette intégration doit être d'abord configurée. Pour demander la mise en serv
  </tbody> 
 </table>
 
-* Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu **Administration**. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud.
+* L’ID **[!UICONTROL déclaré]** fonctionne pour chaque intégration d’audiences partagées. Notez que si vous utilisez le service principal People, l’utilisation de l’ID **** déclaré peut changer selon la solution :
+
+* Si les audiences sont partagées entre Adobe Campaign et Adobe Target via le service principal Personnes, l’ID **[!UICONTROL déclaré]** peut être mis en service.
+* Si les audiences sont partagées d’Adobe Campaign vers Ad Cloud via le service principal People, vous ne pourrez pas utiliser l’attribution des identifiants **** déclarés pour le renvoi historique des audiences. Une certaine latence est également attendue lors de la création d’audiences.
+* Si les audiences sont partagées d’Adobe Analytics vers Adobe Campaign via le service principal Personnes, les segments ne seront pas renseignés dans Adobe Campaign avec un ID **** déclaré.
+
+Si vous utilisez Adobe Audience Manager au lieu du service principal People, l’ID **[!UICONTROL déclaré]** fonctionne dans tous les scénarios.
+
+Vous pouvez envoyer une demande de mise en service d’ID **** déclaré à l’adresse suivante : [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configuration de l'intégration dans Adobe Campaign  {#configuring-the-integration-in-adobe-campaign}
 
 Après l'envoi de cette demande, Adobe met en service l'intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
-* [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [Étape 2 : Configuration des sources de données](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [Étape 3: Configuration du serveur de tracking Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
+* [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign ](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [Étape 2 : Configuration des sources de données ](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
+* [Étape 3: Configuration du serveur de tracking Campaign ](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
 * [Étape 4: Configuration du service d'identification des visiteurs](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
 
 ### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign  {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
@@ -134,6 +142,6 @@ Ici, vous devez vérifier que le serveur de tracking Campaign est enregistré su
 
 ### Étape 4: Configuration du service d'identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Dans l'hypothèse où votre service d'identification des visiteurs n'aurait jamais été configuré sur vos propriétés web ou sur vos sites web, consultez le [document](https://marketing.adobe.com/resources/help/fr_FR/mcvid/mcvid-setup-aam-analytics.html) suivant pour apprendre à configurer votre service ou regardez la [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) suivante.
+Si le service d'identification des visiteurs (Visitor ID) n'a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
 La configuration et la mise en service sont terminées. L'intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
