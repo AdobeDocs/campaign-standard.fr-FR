@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign vous permet d'échanger et de partager des audiences/segments ave
 L'intégration prend en charge deux types d'identifiants Adobe Experience Cloud :
 
 * **Visitor ID** : ce type d'identifiant permet de réconcilier des visiteurs Adobe Experience Cloud avec des profils Adobe Campaign.
-* **Declared ID** : ce type d'identifiant permet de réconcilier tout type de données avec des profils Adobe Campaign. Cette intégration prend en charge les identifiants Declared ID standard, hachés et cryptés.
+* **Declared ID** : ce type d'identifiant permet de réconcilier tout type de données avec des profils Adobe Campaign. Cette intégration prend en charge les identifiants Declared ID standard, hachés et cryptés. Pour **[!UICONTROL la validité des identifiants]** déclarés, reportez-vous à cette [page](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
 
    Le cryptage permet de partager des données cryptées dans des sources de données (informations d'identification personnelles, par exemple) à l'aide de l'identifiant Declared ID en spécifiant l'algorithme de cryptage.
 
