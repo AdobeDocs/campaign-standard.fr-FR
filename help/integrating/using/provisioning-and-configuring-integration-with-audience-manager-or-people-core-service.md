@@ -14,7 +14,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
 
 ---
 
@@ -41,7 +41,7 @@ Cette intégration doit être d'abord configurée. Pour demander la mise en serv
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l'organisation IMS</strong><br /> </td> 
-   <td> Votre identifiant de l'organisation IMS. <br> Vous pouvez trouver votre ID d’organisation IMS dans Experience Cloud, dans le menu **Administration**. Elle est également fournie lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
+   <td> Votre identifiant de l'organisation IMS. <br> Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement :</strong><br /> </td> 
