@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
+source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ---
 
@@ -45,7 +45,7 @@ Ressources supplémentaires :
  <tbody> 
   <tr> 
    <td> California Consumer Privacy Act (CCPA)<br /> </td> 
-   <td> <p>L’ACCP est la nouvelle loi sur la protection de la vie privée de l’État de Californie qui harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. L’ACCP s’applique aux clients d’Adobe Campaign qui détiennent des données pour les sujets de données résidant en Californie.</p>
+   <td> <p>L'ACCP est la nouvelle loi sur la protection des renseignements personnels de l'État de Californie qui harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. L’ACCP s’applique aux clients d’Adobe Campaign qui détiennent des données pour les sujets de données résidant en Californie.</p>
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous profitons de l’occasion pour inclure des fonctionnalités supplémentaires afin de faciliter votre préparation à l’ACCP :</p>
    <ul>
     <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées au RMPC. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
