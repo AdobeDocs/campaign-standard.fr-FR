@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Intégration de Microsoft Dynamics 365 (GA) - [En savoir plus](https://helpx.ado
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-18}
 
-Mise à jour de la liste des messages d'erreur de Campaign Standard et Classic –  [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+La liste des messages d’erreur pour Campaign Standard et Campaign Classic a été mise à jour. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Le guide de mise en route du RDPC a été amélioré et enrichi. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, y compris le RMR et l’ACCP. [En savoir plus](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
