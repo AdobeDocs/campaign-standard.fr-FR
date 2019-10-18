@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a206521e458620c7b452f403353fec482fe18dee
+source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
 
 ---
 
@@ -49,7 +49,7 @@ Ressources supplémentaires :
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous profitons de l’occasion pour inclure des fonctionnalités supplémentaires afin de faciliter votre préparation à l’ACCP :</p>
    <ul>
     <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées au RMPC. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande de protection de la vie privée, le type de réglementation (RDPC ou ACCP) a été ajouté au service principal de protection de la vie privée. Cette méthode est celle que vous devez utiliser pour toutes les requêtes d’accès et de suppression. L’utilisation de l’API et de l’interface Campaign pour l’accès et la suppression des requêtes est obsolète. Toutefois, si vous devez encore utiliser ces méthodes dans la version 19.4, veuillez noter que le type de réglementation a été ajouté dans l’interface de campagne et dans l’API et qu’il est obligatoire. Pour l’interface, la valeur par défaut sera définie sur GDPR. Pour l’API, vous devez inclure ce champ dans votre charge utile. See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
+    <li><p>Lors de la création d’une demande de protection de la vie privée, le type de réglementation (RDPC ou ACCP) a été ajouté au service principal de protection de la vie privée. Cette méthode est celle que vous devez utiliser pour toutes les requêtes d’accès et de suppression. L’utilisation de l’API et de l’interface Campaign pour l’accès et la suppression des requêtes est obsolète.  Consultez l’article <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Fonctions</a>obsolètes et supprimées.</p></li>
     <li>Un champ d’exclusion <strong>de l’</strong> ACCP a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client a choisi de ne pas vendre ses informations personnelles. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">pratique</a>.</p>
