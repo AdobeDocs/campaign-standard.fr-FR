@@ -14,8 +14,8 @@ discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign permet de distribuer des messages SMS (Short Message Service).
 >
 >Le canal SMS est un composant additionnel. Veuillez vérifier votre accord de licence.
 
-Pour les SMS, vous pouvez créer, modifier et personnaliser les messages, au format texte uniquement. Vous pouvez également prévisualiser vos SMS avant leur envoi.
+Pour les SMS, vous pouvez créer, modifier et personnaliser des messages au format texte uniquement. Vous pouvez également prévisualiser les SMS avant leur envoi.
 
 La longueur des messages SMS est limitée à 160 caractères si l'encodage GSM est utilisé, à 70 caractères seulement si le message est rédigé en Unicode. Par ailleurs, certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour en savoir plus, consultez la section [Encodage des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
@@ -43,6 +43,7 @@ Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 
 * [Gestion des modèles](../../start/using/about-templates.md)
 * [Configuration des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [Rapport SMS](../../reporting/using/sms-report.md)
 
 ## Modèle de diffusion SMS {#sms-delivery-template}
 
