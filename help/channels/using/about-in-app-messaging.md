@@ -14,8 +14,8 @@ discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 74f037ba618639ab61edfb8311adeb44a7a99ebd
+translation-type: tm+mt
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -31,24 +31,17 @@ Pour ce canal, les applications mobiles doivent être intégrées avec le SDK Ad
 Pour commencer à envoyer des messages In-App sur des applications mobiles en utilisant le SDK Experience Platform, vous devez remplir les conditions préalables suivantes :
 
 1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL In-App]**. Si vous ne pouvez pas accéder à ces canaux, contactez l'équipe de votre compte.
-1. Dans Experience Platform Launch, concevez l'application mobile en créant une propriété mobile et instrumentez-la avec le SDK Experience Platform.
 
-   Pour plus d'informations, consultez la section sur la [configuration d'une application mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) dans la documentation Adobe Launch.
+1. Pour tirer parti des cas d’utilisation mobile dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign Standard. Pour le guide détaillé, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-1. Dans Experience Platform Launch, installez l'extension **[!UICONTROL Adobe Campaign Standard]** pour votre application mobile :
+1. Une fois configuré, vous pouvez désormais préparer votre message in-app. Voir à ce propos [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
-   Pour plus d'informations sur les extensions, consultez la section [Configurer l'extension Campaign Standard dans Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) dans la documentation Experience Platform Launch.
+1. Vous pouvez ensuite décider d’envoyer un message [](../../channels/using/customizing-an-in-app-message.md) in-app ou une [personnalisation du type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)d’un message de notification local.
 
-1. Dans Experience Platform Launch, configurez les règles et les éléments de données pour votre application. Voir [Configurer votre application dans Experience Platform Launch](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
-
-1. Configurez votre application Experience Platform Launch dans Adobe Campaign Standard. Voir [Configuration de votre application Experience Platform Launch dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
-
-Pour découvrir comment configurer les SDK Experience Platform, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+1. Votre livraison est maintenant prête à être envoyée. Pour en savoir plus, consultez cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
 
 **Contenu connexe :**
 
-* [Préparation et envoi d'un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Personnalisation d'un message in-app](../../channels/using/customizing-an-in-app-message.md)
-* [Personnaliser un type de message de notification locale ](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
-* [Envoi d'un message In-App dans un workflow](../../automating/using/in-app-delivery.md)
-* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/fr/campaign/kb/push_inapp_faq.html)
+* [Rapport In-App](../../reporting/using/in-app-report.md)
+* [FAQ push et in-app](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
