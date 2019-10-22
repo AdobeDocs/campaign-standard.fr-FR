@@ -3,19 +3,19 @@ title: A propos des notifications push
 seo-title: A propos des notifications push
 description: A propos des notifications push
 seo-description: Découvrez les spécificités principales du canal Notification push dans Adobe Campaign.
-page-status-flag: jamais activé
-uuid: 961 aaeb 5-6948-4 fd 2-b 8 d 7-de 4510 c 10566
+page-status-flag: never-activated
+uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: canaux
-content-type: référence
-topic-tags: notifications Push
-discoiquuid: 23 b 4212 e-e 878-4922-be 20-50 fb 7 fa 88 ae 8
-context-tags: Mobileapp, présentation
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: push-notifications
+discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
+context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80e65c3fedc5452105c296144a683948daa69150
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
@@ -36,9 +36,9 @@ Cette ressource doit être étendue pour collecter les données que vous avez l'
 
 Dans Adobe Campaign, deux types de notification push sont disponibles :
 
-* **[!UICONTROL Les notifications de type Alerte/Message/Badge]** vous permettent d'envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) définissables dans la section **[!UICONTROL Options avancées].**
+* **[!UICONTROL Les notifications de type Alerte/Message/Badge]** vous permettent d'envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) définissables dans la section **[!UICONTROL Options avancées]**.
 
-   Ces types de notification permettent d'ajouter un titre et un message dans lequel l'utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)].**
+   Ces types de notification permettent d'ajouter un titre et un message dans lequel l'utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
 
 * **[!UICONTROL Les notifications de type Notification silencieuse]** sont utilisées pour avertir de façon silencieuse l'application sans message ni contenu pour l'utilisateur final. Un cas pratique classique de ce type de message est d'avertir l'application de la disponibilité de contenu à télécharger depuis le serveur.
 
@@ -54,20 +54,20 @@ En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe
 
 * [Préparation et envoi d'une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d'une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
-* [Envoi d'une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
-* [FAQ sur les notifications Push et In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
+* [FAQ push et in-app](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 
 ## Prérequis {#prerequisites}
 
 >[!NOTE]
->Pour tirer parti de la fonctionnalité de notification Push de Campaign, vous devez fournir un certificat Push valide au format. pem sans mot de passe.
-Si vous disposez d'un certificat p 12 valide, vous pouvez le convertir facilement en fichier. pem à l'aide de ressources en ligne.
+>Pour tirer parti de la fonctionnalité de notification push de Campaign, vous devez fournir un certificat push valide au format. pem sans mot de passe.
+Si vous disposez d'un certificat p12 valide, vous pouvez le convertir facilement en fichier. pem à l'aide de ressources en ligne.
 
-Tout d'abord, pour pouvoir envoyer des notifications push, vous devez configurer votre application mobile à l'aide du SDK V4. Vous pouvez également configurer votre application mobile à l'aide des SDK Experience Platform. Pour plus d'informations à ce propos, consultez [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Tout d'abord, pour pouvoir envoyer des notifications push, vous devez configurer votre application mobile à l'aide du SDK V4. Vous pouvez également configurer votre application mobile à l'aide des SDK Experience Platform. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 Avant d'envoyer les notifications push, vous devez effectuer les opérations suivantes :
 
-1. Vérifiez que vous avez accès au canal **[!UICONTROL Application mobile]dans Adobe Campaign.**
+1. Vérifiez que vous avez accès au canal **[!UICONTROL Application mobile]** dans Adobe Campaign.
 1. Configurez votre application mobile dans :
 
    * Adobe Campaign
