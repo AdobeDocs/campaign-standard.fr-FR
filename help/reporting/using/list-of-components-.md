@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 Pour plus d'informations sur la compatibilité entre les dimensions et les mesures, consultez ce [tableau](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
-![](assets/dynamic_report_compatibility.png)
+[![image](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 ## Dimensions {#dimensions}
 
@@ -50,7 +50,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Ville enregistrée dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Pays<br /> </td> 
+   <td> Pays/zone géographique<br /> </td> 
    <td> Pays enregistré dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
