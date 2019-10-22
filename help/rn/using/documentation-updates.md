@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
 
 ---
 
@@ -45,7 +45,7 @@ Un nouveau graphique présentant le processus de publication des messages transa
 
 Le guide de prise en main des bonnes pratiques de livraison a été mis à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Une nouvelle section a été ajoutée. Il fournit un aperçu des différentes méthodes qui vous permettent d'enrichir la base de données Campaign Standard. [En savoir plus](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
