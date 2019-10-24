@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7df9d0d4a3cb801619d703857fb71f2ee9ccb435
+source-git-commit: 4388d4f07e633651a4cad6ff6ec8b25b47111b83
 
 ---
 
@@ -88,8 +88,8 @@ Le tableau ci-dessous indique ce qui se passe après la déclinaison de cet acco
 
 | Région | Reporting dynamique | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
-| Amériques et Asie-Pacifique | **Fonction disponible**. <br> Aucune information prête à l’emploi ni aucune information sur les profils personnalisés n’est transmise au centre de rapports des États-Unis, à l’exception de ExternalID. | **Fonction disponible**. <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données des États-Unis, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données des Etats-Unis, à l’exception du code de segment et de l’ID de page miroir. |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonction disponible**. <br>Aucune information prête à l’emploi et aucun profil personnalisé n’est envoyé vers le centre de rapports EMEA, à l’exception de ExternalID. | **Fonction disponible.** <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données EMEA, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l’exception du code de segment et de l’ID de page miroir.  <br>**[!UICONTROL Contrôlez les données]** qui contiennent les données d’enregistrement des E/S Adobe et les ID des événements d’utilisateur final envoyés et stockés dans le centre de données des États-Unis. |
+| Amériques et Asie-Pacifique | **Fonction disponible**. <br> Aucune information prête à l’emploi ni aucune information sur les profils personnalisés n’est transmise au centre de rapports des États-Unis, à l’exception de ExternalID. | **Fonction disponible**. <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données des États-Unis, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données des États-Unis, à l’exception de l’ID de page miroir. |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonction disponible**. <br>Aucune information prête à l’emploi et aucun profil personnalisé n’est envoyé vers le centre de rapports EMEA, à l’exception de ExternalID. | **Fonction disponible.** <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données EMEA, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l’exception de l’ID de page miroir.  <br>**[!UICONTROL Contrôlez les données]** qui contiennent les données d’enregistrement des E/S Adobe et les ID des événements d’utilisateur final envoyés et stockés dans le centre de données des États-Unis. |
 
 Ce choix n'est pas définitif. Vous pouvez toujours changer d'option en sélectionnant **[!UICONTROL Autoriser le transfert des données de PII vers les Etats-Unis afin d'utiliser le reporting sur les données de profil]** dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Options]**.
 
