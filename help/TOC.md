@@ -1,15 +1,15 @@
 ---
-product: adobe campaign
-sub-product: adobe campaign standard
+product: Adobe Campaign
+sub-product: Adobe Campaign standard
 audience: end-user
-user-guide-title: Aide d’Adobe Campaign Standard
+user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
 
-# Aide d’Adobe Campaign Standard {#using}
+# Aide d'Adobe Campaign Standard {#using}
 
 + [Documentation du produit](campaign-standard-home.md)
 + Notes de mise à jour {#release-notes}
@@ -19,16 +19,15 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
    + [Notes de mise à jour 2015-2016](rn/using/release-notes-2015-2016.md)
    + [Mises à jour de la documentation](rn/using/documentation-updates.md)
 + Prise en main {#getting-started}
-   + A propos d’Adobe Campaign {#about-adobe-campaign}
+   + A propos d'Adobe Campaign {#about-adobe-campaign}
       + [Orchestration des campagnes](start/using/campaign-orchestration.md)
       + [Segmentation et ciblage](start/using/segmentation-and-targeting.md)
       + [Contenu dynamique et personnalisé](start/using/dynamic-and-personalized-content.md)
       + [Tracking, suivi et reporting](start/using/tracking--monitoring-and-reporting.md)
       + [Intégration avec les solutions Adobe](start/using/integrating-with-adobe-solutions.md)
-      + [Enrichissement de la base de données Campaign](start/using/enriching-campaign-database.md)
    + Découverte de l'interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
-      + [Description de l’interface](start/using/interface-description.md)
+      + [Description de l'interface](start/using/interface-description.md)
       + [Navigateurs compatibles](start/using/compatible-browsers.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
    + Plans marketing {#marketing-plans}
@@ -53,17 +52,17 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Profils actifs](audiences/using/active-profiles.md)
    + Gestion des audiences {#managing-audiences}
       + [A propos des audiences](audiences/using/about-audiences.md)
-      + [Création d’une audience](audiences/using/creating-audiences.md)
+      + [Création d'une audience](audiences/using/creating-audiences.md)
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestion des inscriptions {#managing-subscriptions}
       + [A propos des inscriptions](audiences/using/about-subscriptions.md)
       + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les inscriptions](audiences/using/monitoring-subscriptions.md)
-      + [Confirmation de l’abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
-   + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
-      + [Les processus d’inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-      + [Gestion des processus d’inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+      + [Confirmer l'abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
+   + Comprendre les processus d'inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
+      + [Les processus d'inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [Gestion des processus d'inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canaux de communication {#communication-channels}
    + Canaux de communication {#about-communication-channels}
@@ -83,13 +82,13 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Gérer les SMS entrants](channels/using/managing-incoming-sms.md)
       + [A propos de la conception de contenu de SMS et de notification push](channels/using/about-sms-and-push-content-design.md)
       + [Interface de l'éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
-      + [Définition d’un texte dynamique](channels/using/defining-dynamic-text.md)
+      + [Définition d'un texte dynamique](channels/using/defining-dynamic-text.md)
    + Notifications push {#push-notifications}
       + [A propos des notifications push](channels/using/about-push-notifications.md)
       + [Préparation et envoi d'une notification push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personnalisation d'une notification push](channels/using/customizing-a-push-notification.md)
       + [Création d'une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Création et mise à jour des informations de profil en fonction des données d'applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d'un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -109,24 +108,24 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Messages de relance](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
       + [A propos des landing pages](channels/using/about-landing-pages.md)
-      + [Etapes principales de configuration d’une page d’entrée](channels/using/main-steps-to-set-up-a-landing-page.md)
-      + [A propos des modèles de page d’entrée](channels/using/landing-page-templates.md)
+      + [Etapes principales pour configurer une landing page](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
-      + [Gestion des données de formulaire de page d’entrée](channels/using/managing-landing-page-form-data.md)
+      + [Gérer des données de formulaire de landing page](channels/using/managing-landing-page-form-data.md)
       + [Partager une landing page](channels/using/sharing-a-landing-page.md)
       + [Configuration d'un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
 + Concevoir un contenu d'email {#designing-content}
-   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
+   + [Concepteur d'emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
    + [Démarrage rapide](designing/using/quick-start.md)
    + [Utilisation et recommandations](designing/using/overview.md)
-   + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
-   + [Conception d’emails à partir de zéro](designing/using/designing-from-scratch.md)
-   + [Conception d’emails à l’aide de contenu existant](designing/using/using-existing-content.md)
-   + [Conception d’emails l’aide de contenu réutilisable](designing/using/using-reusable-content.md)
-   + [Conception d’emails multi-solutions](designing/using/using-integrations.md)
+   + [Définition de l'objet et de l'expéditeur](designing/using/subject-line.md)
+   + [Conception d'emails à partir de zéro](designing/using/designing-from-scratch.md)
+   + [Conception d'emails à l'aide de contenu existant](designing/using/using-existing-content.md)
+   + [Conception d'emails l'aide de contenu réutilisable](designing/using/using-reusable-content.md)
+   + [Conception d'emails multi-solutions](designing/using/using-integrations.md)
    + [Personnalisation ](designing/using/personalization.md)
    + [Texte simple et modes HTML](designing/using/plain-text-html-modes.md)
-   + [Gestion des styles de courrier électronique](designing/using/styles.md)
+   + [Gestion des styles d'email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
 + Test et envoi {#testing-and-sending}
@@ -299,7 +298,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [Extension de la ressource Profil avec un nouveau champ](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extension des abonnements à une ressource d'application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
 + Administration {#administrating}
-   + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
       + [Gestion des utilisateurs](administration/using/users-management.md)
