@@ -13,8 +13,8 @@ topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5b3ea982f08e1198e8c88f78a5faf8a80b935db4
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,23 +25,23 @@ source-git-commit: 5b3ea982f08e1198e8c88f78a5faf8a80b935db4
 
 Une adresse email ou un numéro de téléphone peut être mis en quarantaine, par exemple, lorsque la boîte de messagerie est pleine ou si l'adresse n'existe pas.
 
-Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites dans cette [section](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).
+Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites dans cette [section](#conditions-for-sending-an-address-to-quarantine).
 
 ### Optimiser votre diffusion par le biais des mises en quarantaine  {#optimizing-your-delivery-through-quarantines}
 
-Les profils dont l'adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-a-delivery)). Le taux d'erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
+Les profils dont l'adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d'erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
 Certains fournisseurs d'accès Internet considèrent automatiquement les emails comme du spam si le taux d'adresses invalides est trop élevé. Les mises en quarantaine permettent donc d'éviter des blacklistages de la part de ces fournisseurs.
 
 De plus, elles réduisent les coûts d'envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
-Pour plus d'informations sur les bonnes pratiques en matière de sécurisation et d'optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
+Pour plus d'informations sur les bonnes pratiques en matière de sécurisation et d'optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 ### Mise en quarantaine et blacklistage {#quarantine-vs-blacklisting}
 
 La **mise en quarantaine** concerne uniquement une adresse, pas le profil lui-même. Cela signifie que si deux profils utilisent la même adresse email, en cas de mise en quarantaine de l'adresse, les deux profils seront impactés.
 
-De même, un profil, dont l'adresse email est en quarantaine, qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
+De même, un profil, dont l'adresse email est en quarantaine qui met à jour son profil et enregistre une nouvelle adresse pourra de nouveau être ciblé par des actions de diffusions.
 
 En revanche, en cas de **blacklistage**, c'est le profil qui ne sera plus ciblé par aucune diffusion, par exemple après une désinscription (opt-out). Pour plus d'informations sur le blacklistage, consultez la section [Gestion du blacklistage dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -69,13 +69,13 @@ Les administrateurs peuvent répertorier les adresses en quarantaine pour l'ense
 
 >[!NOTE]
 >
->Ce menu répertorie les éléments en quarantaine pour les canaux **Email**, **SMS** et **Notification push**.
+>Ce menu répertorie les éléments en quarantaine pour les canaux **email**, **SMS** et **notification push**.
 
 ![](assets/quarantines1.png)
 
 >[!NOTE]
 >
->L'augmentation du nombre de quarantaines est un phénomène normal, lié à "l'usure" de la base de données. Par exemple, si l'on considère que la durée de vie d'une adresse email est de trois ans et que la table des destinataires augmente de 50 % tous les ans, l'augmentation des quarantaines peut être calculée comme suit : Fin de l'année 1 : (1*0,33)/(1+0,5)=22 %. Fin de l'année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
+>L'augmentation du nombre de quarantaines est un phénomène normal, lié à "l'usure" de la base de données. Par exemple, si l'on considère que la durée de vie d'une adresse email est de trois ans et que la table des destinataires augmente de 50 % tous les ans, l'augmentation des quarantaines peut être calculée comme suit : Fin de l'année 1 : (1*0,33)/(1+0,5)=22 %. Fin de l'année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5%.
 
 ## Conditions de mise en quarantaine d'une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
@@ -83,7 +83,7 @@ Adobe Campaign gère les quarantaines selon le type de diffusion en échec et l
 
 * **Erreur de type Ignoré** : les erreurs de type Ignoré ne mettent pas une adresse en quarantaine.
 * **Erreur de type Hard** : l'adresse email correspondante est mise immédiatement en quarantaine.
-* **Erreur de type Soft** : les erreurs de type Soft ne provoquent pas de mise en quarantaine immédiate mais incrémentent un compteur d'erreurs. Quand le compteur d'erreurs atteint le seuil limite, l'adresse passe en quarantaine. Dans les paramétrages par défaut, le seuil est de cinq erreurs : deux erreurs sont significatives si elles sont séparées d'au moins 24h. L'adresse est mise en quarantaine à la sixième erreur. Le seuil du compteur d'erreurs peut être modifié. Pour plus d'informations à ce propos, consultez [cette page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+* **Erreur** douce : les erreurs douces n’envoient pas immédiatement une adresse à la quarantaine, mais elles incrémentent un compteur d’erreurs. Lorsque le compteur d’erreurs atteint le seuil limite, l’adresse est placée en quarantaine. Dans la configuration par défaut, le seuil est défini sur cinq erreurs, où deux erreurs sont importantes si elles se produisent au moins à 24 heures d’intervalle. L'adresse est placée en quarantaine à la sixième erreur. Le seuil du compteur d’erreurs peut être modifié. Voir à ce propos [cette page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
 
    Lorsqu'une diffusion aboutit après une nouvelle tentative, le compteur d'erreurs de l'adresse précédemment en quarantaine est réinitialisé. Le statut de l'adresse passe en **[!UICONTROL Valide]** et est supprimé de la liste des quarantaines après deux jours grâce au workflow **[!UICONTROL Nettoyage de la base]**.
 
@@ -92,7 +92,7 @@ Si un utilisateur qualifie un email comme du spam (**système de gestion des pla
 >[!NOTE]
 La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu'elles ne soient pas reciblées ultérieurement.
 
-Dans la liste des adresses en quarantaine (voir [Identifier les adresses en quarantaine pour l’ensemble de la plateforme](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
+Dans la liste des adresses en quarantaine (voir [Identifier les adresses en quarantaine pour l’ensemble de la plateforme](#identifying-quarantined-addresses-for-the-entire-platform)), le champ **[!UICONTROL Raison de l’erreur]** indique pourquoi l’adresse sélectionnée a été mise en quarantaine.
 
 ![](assets/quarantines2.png)
 
