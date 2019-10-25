@@ -13,8 +13,8 @@ topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -36,7 +36,7 @@ Rubriques connexes :
 * [Préparation](../../administration/using/configuring-email-channel.md#preparation)
 * [Gestion des typologies](../../administration/using/about-typology-rules.md#managing-typologies)
 * [Règles de typologie](../../administration/using/about-typology-rules.md#typology-rules)
-* [Optimiser la fréquence des communications pour éviter toute fatigue liée aux contacts](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Optimisation de la fréquence de communication pour prévenir la fatigue de contact](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Créer une règle de fatigue  {#creating-a-fatigue-rule}
 
@@ -54,15 +54,15 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue
 
    ![](assets/fatigue3.png)
 
-1. Dans le champ **[!UICONTROL Canal]**, sélectionnez le canal auquel s'appliquera la règle. Vous pouvez choisir un seul canal (Email, SMS, Courrier, Application mobile) ou sélectionner **[!UICONTROL Tous les canaux]**. Voir [Choisir le canal](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. Dans le champ **[!UICONTROL Canal]**, sélectionnez le canal auquel s'appliquera la règle. Vous pouvez choisir un seul canal (Email, SMS, Courrier, Application mobile) ou sélectionner **[!UICONTROL Tous les canaux]**. Voir [Choisir le canal](#choosing-the-channel).
 
    ![](assets/fatigue5.png)
 
-1. Dans l'onglet **[!UICONTROL Général]**, définissez la méthode de calcul du nombre maximum de messages par profil. Vous pouvez choisir un seuil constant ou variable. Vous pouvez également affiner le seuil sur les profils et diffusions. Voir à ce sujet la section [Définir le seuil](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. Dans l'onglet **[!UICONTROL Général]**, définissez la méthode de calcul du nombre maximum de messages par profil. Vous pouvez choisir un seuil constant ou variable. Vous pouvez également affiner le seuil sur les profils et diffusions. Voir à ce sujet la section [Définir le seuil](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
-1. Sélectionnez une **[!UICONTROL Période glissante]** pendant laquelle la règle doit s'appliquer. Consultez à ce sujet la section [Définir la période glissante](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. Sélectionnez une **[!UICONTROL Période glissante]** pendant laquelle la règle doit s'appliquer. Consultez à ce sujet la section [Définir la période glissante](#setting-the-sliding-period).
 
    ![](assets/fatigue6.png)
 
@@ -78,9 +78,9 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue
 
    >[!NOTE]
    >
-   >La typologie peut être définie au niveau du modèle de diffusion afin de l'appliquer automatiquement à toutes les diffusions créées à partir de ce modèle.
+   >La typologie peut être définie au niveau du modèle de diffusion afin d'être appliquée automatiquement à toutes les diffusions créées à partir de ce modèle.
 
-Lors de la préparation de la diffusion, les profils sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Vous pouvez consulter les résultats de l'exécution des règles de fatigue dans les logs de diffusion. Voir [Consulter les résultats de la fatigue](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+Lors de la préparation de la diffusion, les profils sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Vous pouvez consulter les résultats de l'exécution des règles de fatigue dans les logs de diffusion. Voir [Consulter les résultats de la fatigue](#viewing-the-fatigue-results).
 
 ![](assets/fatigue16.png)
 
@@ -178,7 +178,7 @@ Lors de la préparation de la diffusion, les profils sont exclus ou non de la di
 
 Trois onglets sont disponibles. Ils indiquent les détails des résultats de l'exécution de la fatigue, notamment le nom de la règle qui a été appliquée :
 
-* Logs de diffusion :
+* Logs de diffusion:
 
    ![](assets/fatigue17.png)
 
@@ -259,7 +259,7 @@ Dans ce cas pratique, nous allons créer une règle de typologie afin de ne pas 
 
 Pour identifier les clients et les prospects, nous avons étendu la ressource Profiles avec le champ **[!UICONTROL Statut]**, qui contient 0 pour les profils Premium et 1 pour les profils standards.
 
-Les étapes de création de cette règle sont les suivantes :
+Les étapes de création de cette règle sont les suivantes :
 
 1. Créez une règle de typologie de type **Fatigue**.
 1. Dans la section **[!UICONTROL Seuil]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque profil. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]**, puis cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]**.
