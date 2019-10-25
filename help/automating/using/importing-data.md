@@ -13,8 +13,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -42,9 +42,9 @@ L'utilisation de modèles d'import facilite la préparation d'imports similaires
 
 Pour de nombreux projets, les imports sont construits sans activité de **[!UICONTROL Déduplication]** car les fichiers utilisés n'ont pas de doublon. Des doublons apparaissent parfois suite à l'import d'autres fichiers. La déduplication est alors difficile. C'est pourquoi l'ajout d'une étape de déduplication est une précaution utile pour tous les workflows d'import.
 
-Ne partez pas de l'hypothèse selon laquelle les données entrantes sont cohérentes et justes, ou que le département informatique ou le responsable Adobe Campaign s'en occupera. Gardez la normalisation des données à l'esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence lorsque vous importez des données.
+Ne partez pas de l'hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le département informatique ou le responsable Adobe Campaign s'en occupera. Gardez la normalisation des données à l'esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence des données lors des imports.
 
-Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow d'import](../../automating/using/importing-data.md#example--import-workflow-template).
+Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow d'import](#example--import-workflow-template).
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 ### Importer en mode Delta {#importing-in-delta-mode}
 
-Les imports standard doivent être effectués en mode delta. Cela signifie qu'au lieu d'envoyer la table entière à chaque fois, seules les données modifiées ou nouvelles sont envoyée à Adobe Campaign.
+Les importations régulières doivent être effectuées en mode delta. Cela signifie que seules les données modifiées ou nouvelles sont envoyées à Adobe Campaign, au lieu de l’ensemble du tableau à chaque fois.
 
 Les imports complets sont réservés au chargement initial.
 
@@ -85,8 +85,8 @@ Les imports complets sont réservés au chargement initial.
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
-* Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec cette table dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
-* Assurez-vous que les données importées sont toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation est fiable et ne risque pas de changer au fil des années. Si ce n'est pas le cas, des doublons risquent d'apparaître dans la base de données et, dans la mesure où Adobe Campaign ne fournit pas d'outils de « correspondance approximative », leur suppression sera très difficile.
+* Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec ce tableau dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
+* Assurez-vous que les données importées soient toujours **« normalisées »** (email, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n'est pas le cas, des doublons risquent d'apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d'outils de « correspondance approximative », leur suppression sera très difficile.
 * Les données transactionnelles doivent être dotées d'une clé de réconciliation et être réconciliées avec les données existantes afin d'éviter la création de doublons.
 * **Les fichiers liés doivent être importés dans l'ordre**. Si l'import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l'ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.
@@ -114,7 +114,8 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
 1. Configurez l'activité **[!UICONTROL Chargement de fichier]** :
 
-   * Définissez la structure attendue en téléchargeant un fichier d'exemple. Le fichier exemple doit contenir quelques lignes uniquement, mais toutes les colonnes nécessaires pour l'import. Vérifiez et éditez le format du fichier pour vous assurer que le type de chaque colonne est paramétré correctement : texte, date, nombre entier, etc. Par exemple :
+   * Définissez la structure attendue en téléchargeant un fichier exemple. Le fichier exemple ne doit contenir que quelques lignes mais toutes les colonnes nécessaires pour l'import. Vérifiez et éditez le format du fichier pour vous assurer que le type de chaque colonne est paramétré correctement : texte, date, nombre entier, etc.
+Par exemple :
 
       ```
       lastname;firstname;birthdate;email;crmID
