@@ -14,8 +14,8 @@ discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+translation-type: tm+mt
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -30,7 +30,7 @@ Les étapes de création et de modification d'un compte externe sont présentée
 
 Le compte externe **[!UICONTROL Routage des SMS par SMPP]** est fourni par défaut, mais il peut être utile d'ajouter d'autres comptes.
 
-Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d'informations sur les paramètres et le protocole SMS, reportez-vous à cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
+Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d'informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Créez un compte externe depuis **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Comptes externes]**.
 1. Définissez le type de compte sur **[!UICONTROL Routage]**, le canal sur **[!UICONTROL Mobile (SMS)]** et le mode de diffusion sur **[!UICONTROL Envoi en masse]**.
@@ -50,7 +50,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
    **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier de log]** permet de vider tout le trafic SMPP des fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
 
 1. Contactez Adobe qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l'implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
-1. Définissez les paramètres du canal SMPP. Pour plus d'informations, consultez la section [Encodage et formats des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding-and-formats).
+1. Définissez les paramètres du canal SMPP. Pour plus d'informations, consultez la section [Encodage et formats des SMS](#sms-encoding-and-formats).
 
    Activez l'option **[!UICONTROL Stocker les MO entrants dans la base de données]** si vous souhaitez que tous les SMS entrants soient stockés dans la table SMS entrants. Pour plus d'informations sur la façon de récupérer vos SMS entrants, reportez-vous à cette [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
@@ -64,7 +64,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
-1. Spécifiez les paramètres propres au SMSC si vous devez définir un mapping spécifique des encodages. Voir à ce sujet la section [Spécificités du SMSC](../../administration/using/configuring-sms-channel.md#smsc-specifics).
+1. Spécifiez les paramètres propres au SMSC si vous devez définir un mapping spécifique des encodages. Voir à ce sujet la section [Spécificités du SMSC](#smsc-specifics).
 
    Activez l'option **[!UICONTROL Envoyer le numéro de téléphone complet (utiliser des caractères autres que des chiffres)]** si vous ne souhaitez pas respecter le protocole SMPP et transférer le préfixe **[!UICONTROL +]** sur le serveur du fournisseur SMS (SMS-C).
 
@@ -79,13 +79,13 @@ Vous pouvez utiliser à présent votre nouveau routage pour envoyer des SMS avec
 
 ### Encodage, longueur et translittération des SMS {#sms-encoding--length-and-transliteration}
 
-Par défaut, le nombre de caractères d'un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications).
+Par défaut, le nombre de caractère d'un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications).
 
 Les SMS utilisant l'encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
 >[!NOTE]
 >
->Certains caractères comptent pour deux (accolades, crochets, symbole de l'euro, etc.). La liste des caractères GSM disponibles est présentée dans la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+>Certains caractères comptent pour deux (accolades, crochets, symbole de l'euro, etc.). La liste des caractères GSM disponibles est présentée dans la section [Table des caractères - Norme GSM](#table-of-characters---gsm-standard).
 
 Vous pouvez si vous le souhaitez autoriser la translittération des caractères en cochant la case correspondante.
 
@@ -94,7 +94,7 @@ Vous pouvez si vous le souhaitez autoriser la translittération des caractères 
 La translittération consiste à remplacer un caractère d'un SMS par un autre lorsque ce caractère n'est pas pris en charge par la norme GSM.
 
 * Lorsque la translittération est **autorisée**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l'envoi du message. Par exemple, la lettre "ë" est remplacée par "e". Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
-* Lorsque la translittération n'est **pas autorisée**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l'encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
+* Lorsque la translittération **n'est pas autorisée**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l'encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
 >[!CAUTION]
 >
@@ -106,7 +106,7 @@ En revanche, si vos SMS contiennent beaucoup de caractères générant des messa
 
 ### Tables des caractères - Norme GSM  {#table-of-characters---gsm-standard}
 
-Cette section présente les caractères pris en charge par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+Cette section présente les caractères pris en compte par la norme GSM. Tous les caractères insérés dans le corps du message, autres que ceux mentionnés ci-dessous, convertissent l’intégralité du message au format binaire (Unicode) et le limitent donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 
 **Caractères simples**
 
@@ -299,7 +299,7 @@ Le champ **[!UICONTROL Data_coding]** permet à Adobe Campaign de signaler au SM
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l'encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>The mapping between the **data_coding** value and the encoding actually used is standardized. Nevertheless, certain SMS-C have their own specific mapping: in this case, your **Adobe Campaign** administrator needs to declare this mapping. Check with your provider to find out more.
 
 La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** vous permet de déclarer des **data_coding** et de forcer l'encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
@@ -315,7 +315,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
    L'ordre de déclaration est important : il est recommandé d'ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 
-   Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMSC ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
+   Ne déclarez que les codages que vous souhaitez utiliser. Si certains encodages fournis par le SMS-C ne doivent pas correspondre à votre objectif d'utilisation, ne les déclarez pas dans la liste.
 
    ![](assets/sms_data_coding1.png)
 
@@ -335,7 +335,7 @@ Les paramètres spécifiques à l'envoi des SMS sont regroupés dans les section
 
 * L'option **[!UICONTROL De]** vous permet de personnaliser le nom de l'émetteur du SMS à l'aide d'une chaîne de caractères. C'est le nom qui s'affichera dans le champ correspondant à l'expéditeur du SMS sur le téléphone mobile du destinataire.
 
-   Si ce champ est vide, c'est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n'y figure, c'est le numéro court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Compte externe SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+   Si ce champ est vide, le numéro d’origine fourni dans le compte externe sera utilisé. Si aucun numéro de source n'est fourni, ce sera le code court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Compte externe SMS](#defining-an-sms-routing).
 
    ![](assets/sms_smpp.png)
 
