@@ -15,7 +15,7 @@ context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -58,7 +58,7 @@ Les éléments contenus dans les onglets doivent être déplacés dans l'espace 
 
 L'espace de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles, audiences et filtres prédéfinis ajoutés depuis la palette.
 
-Lorsque vous déplacez un élément de la palette dans l'espace de travail, une nouvelle fenêtre s'ouvre et vous permet de [Créer une requête](../../automating/using/editing-queries.md#creating-queries).
+Lorsque vous déplacez un élément de la palette dans l'espace de travail, une nouvelle fenêtre s'ouvre et vous permet de [Créer une requête](#creating-queries).
 
 ## Créer une requête  {#creating-queries}
 
@@ -118,7 +118,7 @@ Vos requêtes sont à présent créées et définies. Vous pouvez créer une pop
 
 * [Fonctions avancées](../../automating/using/advanced-expression-editing.md)
 * [Définir des filtres](../../developing/using/configuring-filter-definition.md)
-* [Utilisation : Créer une fois par semaine un courrier électronique](../../automating/using/workflow-weekly-offer.md)
-* [Utilisation : Création d'une livraison segmentée sur place](../../automating/using/workflow-segmentation-location.md)
-* [Utilisation : Créer des livraisons avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Utilisation : Retargeting workflow envoie une nouvelle livraison aux non-initiateurs](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : création d'une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d'une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n'ayant pas ouvert l'email](../../automating/using/workflow-cross-channel-retargeting.md)
