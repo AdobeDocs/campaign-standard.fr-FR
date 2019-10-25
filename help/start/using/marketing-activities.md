@@ -14,8 +14,8 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a0823161ff03fac0a617c3d89a8d3cac0ed3afb9
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -40,7 +40,7 @@ Le volet **[!UICONTROL Recherche]** permet de filtrer les éléments selon diff�
 
 Pour accéder directement au contenu de chaque activité, choisissez un des éléments de la liste.
 
-Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity) pour en savoir plus.
+Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
 ## Icônes et statuts des activités marketing    {#marketing-activity-icons-and-statuses}
 
@@ -85,13 +85,13 @@ Les programmes et les campagnes sont présentés dans la section [Programmes et 
 
 Selon le contexte, vous pouvez :
 
-* [créer un email,](../../channels/using/creating-an-email.md)
+* [Créez un email](../../channels/using/creating-an-email.md)
 * [créer un SMS,](../../channels/using/creating-an-sms-message.md)
 * [créer une notification push,](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [créer un message In-App,](../../channels/using/about-in-app-messaging.md)
 * [créer un workflow,](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * [créer une landing page,](../../channels/using/about-landing-pages.md)
-* [créer une campagne,](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* [Créez une campagne](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [créer un programme](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
