@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 1. Sélectionnez un composant de structure (directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche).
 1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** pour choisir la colonne désirée.
 
-Consultez un exemple dans [cette section](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding).
+Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
 ### Ajuster les paramètres de style   {#adjusting-style-settings}
 
-1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](../../designing/using/styles.md#selecting-an-element).
+1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
 
-   Vous pouvez insérer des arrière-plans, modifier les tailles, changer l'alignement horizontal ou vertical, gérer les couleurs, ajouter une [marge ou une marge intérieure](../../designing/using/styles.md#selecting-an-element), etc.
+   Vous pouvez insérer des arrière-plans, modifier les tailles, changer l'alignement horizontal ou vertical, gérer les couleurs, ajouter une [marge ou une marge intérieure](#selecting-an-element), etc.
 
-   Pour cela, utilisez les options affichées dans le volet **[!UICONTROL Paramètres]** ou [ajoutez des attributs de style intégré](../../designing/using/styles.md#adding-inline-styling-attributes).
+   Pour cela, utilisez les options affichées dans le volet **[!UICONTROL Paramètres]** ou [ajoutez des attributs de style intégré](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ Le style est ensuite appliqué à l'élément sélectionné. Si aucun attribut d
 
 Vous pouvez affiner le responsive design d'un email en éditant séparément toutes les options de style pour l'affichage mobile. Par exemple, vous pouvez adapter les marges et la marge intérieure, utiliser des polices de plus grande ou plus petite taille, modifier les boutons ou appliquer différentes couleurs de fond qui seront spécifiques à la version mobile de votre email.
 
-Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du Concepteur d'email sont présentés dans la section [Editer les styles d'un email](../../designing/using/styles.md).
+Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du Concepteur d'email sont présentés dans la section [Editer les styles d'un email](#editing-email-styles).
 
 1. Créez un email et commencez à éditer le contenu. Voir à ce propos la section [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Pour accéder à la vue mobile dédiée, cliquez sur le bouton **[!UICONTROL Passer en vue Mobile]**.
