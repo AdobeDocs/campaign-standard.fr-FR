@@ -13,8 +13,8 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,13 +62,13 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
 
    ![](assets/email_rendering_04.png)
 
-Le rapport dédié au rendu des emails s'affiche. Voir [Description du rapport de rendu des emails](../../sending/using/email-rendering.md#email-rendering-report-description).
+Le rapport dédié au rendu des emails s'affiche. Voir [Description du rapport de rendu des emails](#email-rendering-report-description).
 
 **Rubriques connexes** :
 
 * [Créer un email](../../channels/using/creating-an-email.md)
 * [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [Editeur de requêtes](../../automating/using/editing-queries.md#about-query-editor)
+* [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Description du rapport de rendu des emails  {#email-rendering-report-description}
 
