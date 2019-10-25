@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 
    * [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates) : cliquez sur l'onglet **[!UICONTROL Modèles]**.
    * [Contenu entièrement nouveau](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) : cliquez sur le bouton **[!UICONTROL Créer]**.
-   * [Contenu depuis votre ordinateur sous la forme d'un fichier ZIP ou HTML](../../designing/using/using-existing-content.md#importing-content-from-a-file) : cliquez sur le bouton **[!UICONTROL Télécharger]**.
-   * [Contenu depuis une URL existante](../../designing/using/using-existing-content.md#importing-content-from-a-url) (uniquement pour les emails) : cliquez sur le bouton **[!UICONTROL Importer depuis l'URL]**.
+   * [Contenu depuis votre ordinateur sous la forme d'un fichier ZIP ou HTML](#importing-content-from-a-file) : cliquez sur le bouton **[!UICONTROL Télécharger]**.
+   * [Contenu depuis une URL existante](#importing-content-from-a-url) (uniquement pour les emails) : cliquez sur le bouton **[!UICONTROL Importer depuis l'URL]**.
    ![](assets/des_loading_2.png)
 
 1. Chargez le contenu. Le contenu sélectionné remplace le contenu actuel.
@@ -49,7 +49,7 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 
    >[!NOTE]
    >
-   >Le [Concepteur d'email](../../designing/using/overview.md) utilise un balisage spécifique. Le contenu HTML standard téléchargé dans Campaign doit correspondre au balisage attendu pour être entièrement compatible et éditable dans le Concepteur d'email. S'il ne correspond pas, votre contenu est téléchargé en [mode de compatibilité](../../designing/using/using-existing-content.md#compatibility-mode). Pour rendre compatibles les contenus existants, reportez-vous à [cette section](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer).
+   >Le [Concepteur d'email](../../designing/using/overview.md) utilise un balisage spécifique. Le contenu HTML standard téléchargé dans Campaign doit correspondre au balisage attendu pour être entièrement compatible et éditable dans le Concepteur d'email. S'il ne correspond pas, votre contenu est téléchargé en [mode de compatibilité](#compatibility-mode). Pour rendre compatibles les contenus existants, reportez-vous à [cette section](#editing-existing-contents-with-the-email-designer).
 
 **Rubriques connexes :**
 
@@ -60,7 +60,7 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 
 Pour tirer pleinement parti des possibilités d'édition du [Concepteur d'email](../../designing/using/overview.md), votre code HTML importé doit contenir des balises spécifiques qui le rendent compatibles avec l'éditeur WYSIWYG.
 
-Si tout ou partie du code HTML ne contient pas ce balisage, le contenu est alors chargé en '[mode de compatibilité](../../designing/using/using-existing-content.md#compatibility-mode)'.
+Si tout ou partie du code HTML ne contient pas ce balisage, le contenu est alors chargé en '[mode de compatibilité](#compatibility-mode)'.
 
 Pour rendre du contenu externe existant entièrement éditable dans le Concepteur d'email, voir la section [Concevoir un email à l'aide d'un contenu existant](../../designing/using/using-existing-content.md).
 
@@ -108,7 +108,7 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
 **Rubrique connexe :**
 
-Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Récupérer automatiquement du contenu depuis une URL au moment de la préparation {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -128,7 +128,7 @@ Pour récupérer du contenu au moment de la préparation d'une diffusion, procé
 
 1. Pour prévisualiser le contenu de l'URL récupéré, ouvrez le message une fois qu'il a été créé, puis cliquez sur le bouton **[!UICONTROL Prévisualiser]**.
 
-Il est possible de personnaliser l'URL distante à partir de laquelle le contenu sera récupéré. Pour ce faire, procédez comme suit :
+Il est possible de personnaliser l'URL distante à partir de laquelle le contenu sera récupéré. Pour cela, procédez comme suit :
 
 1. Cliquez sur le libellé de l'email en haut de l'écran pour accéder à l'onglet **[!UICONTROL Propriétés]** du Concepteur d'email.
 1. Recherchez le champ **[!UICONTROL URL distante]**.
