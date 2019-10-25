@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur 
 Voici les principales étapes pour créer entièrement un contenu d'email à l'aide du Concepteur d'email :
 
 1. Créez un email et ouvrez son contenu.
-1. Ajoutez des composants de structure pour former l'email. Voir [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Insérez des composants de contenu et des fragments dans les composants de structure. Voir [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez des composants de structure pour former l'email. Voir [Editer la structure de l'email](#defining-the-email-structure).
+1. Insérez des composants de contenu et des fragments dans les composants de structure. Voir [Ajouter des fragments et des composants de contenu](#defining-the-email-structure).
 1. Ajoutez des images et éditez le texte de l'email. Voir [Insérer des images](../../designing/using/images.md#inserting-images).
 1. Personnalisez votre email en ajoutant des champs de personnalisation, des liens, etc. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Définissez l'objet de l'email. Voir [Personnaliser l'objet d'un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
