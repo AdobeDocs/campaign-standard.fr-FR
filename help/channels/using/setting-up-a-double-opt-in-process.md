@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,9 +59,9 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Ce contexte retire le champ de blackliste pour permettre l'envoi d'emails. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d'empêcher l'envoi d'emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d'acquisition](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page).
+   Ce contexte retire le champ de blackliste pour permettre l'envoi d'emails. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d'empêcher l'envoi d'emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d'acquisition](#step-3--create-the-acquisition-landing-page).
 
-1. Personnalisez le contenu de la landing page : vous pouvez afficher les données personnalisées et modifier le libellé du bouton de confirmation, par exemple en « Cliquer ici pour confirmer mon inscription ».
+1. Personnalisez le contenu de la landing page : vous pouvez afficher les données personnalisées et modifier le libellé du bouton de confirmation, par exemple en « Cliquez ici pour confirmer votre inscription ! ».
 
    ![](assets/optin_confirmlp_design.png)
 
@@ -93,10 +93,10 @@ L'email de confirmation est un [message transactionnel](../../channels/using/abo
 
    Si vous devez utiliser les services, ajoutez la ressource **[!UICONTROL Service]** cible et mappez-la dans le champ **[!UICONTROL serviceName]** . Pour plus d'informations, voir .
 
-1. Sélectionnez **[!UICONTROL Profil]** comme **[!UICONTROL Enrichissement du ciblage]** dans la liste déroulante.
+1. Sélectionnez **[!UICONTROL profile]** comme **[!UICONTROL Enrichissement de la cible]** dans la liste déroulante.
 1. Cliquez sur **[!UICONTROL Publier]** pour publier l'événement.
 
-L'événement est prêt. Vous pouvez maintenant concevoir le modèle d'email. Ce modèle doit inclure un lien vers la landing page **CONFIRMATION** créée préalablement. Voir à ce propos [Concevoir le message de confirmation](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message).
+L'événement est prêt. Vous pouvez maintenant concevoir le modèle d'email. Ce modèle doit inclure un lien vers la landing page **CONFIRMATION** créée préalablement. Voir à ce propos [Concevoir le message de confirmation](#design-the-confirmation-message).
 
 ### Création de la règle de typologie {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    puis définissez la valeur sur **vrai**.
 
-   Cela est obligatoire pour forcer le blacklistage et éviter d'envoyer des messages aux visiteurs qui n'ont pas confirmé qu'ils donnaient leur accord. La validation de la landing page CONFIRMATION définira ce champ sur **faux** après confirmation. Voir à ce propos [Etape 1 : créer la landing page de confirmation](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page).
+   Cela est obligatoire pour forcer le blacklistage et éviter d'envoyer des messages aux visiteurs qui n'ont pas confirmé qu'ils donnaient leur accord. La validation de la landing page CONFIRMATION définira ce champ sur **faux** après confirmation. Voir à ce propos [Etape 1 : créer la landing page de confirmation](#step-1--create-the-confirmation-landing-page).
 
 1. Dans la section **[!UICONTROL Traitement]** &gt; **[!UICONTROL Actions spécifiques]**, sélectionnez l'option **[!UICONTROL Déclencher l'envoi d'un message]**.
 1. Dans la liste déroulante associée, sélectionnez le modèle de message transactionnel **CONFIRMER** que vous avez créé.
