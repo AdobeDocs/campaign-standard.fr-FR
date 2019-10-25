@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur 
 
 ### Modèles de contenu  {#content-templates}
 
-Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email. ](../../designing/using/overview.md) Les différents modèles présentent de multiples combinaisons de plusieurs types d'éléments. Par exemple, les modèles 'Contour progressif' possèdent des marges, tandis que les modèles 'Astro' en sont dépourvus. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email. ](../../designing/using/overview.md) Les différents modèles présentent de multiples combinaisons de plusieurs types d'éléments. Par exemple, les modèles 'Contour progressif' possèdent des marges, tandis que les modèles 'Astro' en sont dépourvus. Voir à ce propos la section [Modèles de contenu](#content-templates).
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ Lorsque vous éditez un email avec le Concepteur d'email, vous ne pouvez pas enr
 
 Vous pouvez maintenant créer un modèle d'email à l'aide du Concepteur d'email. Utilisez des composants de contenu pour représenter les différentes sections de votre email et ajustez les paramètres pour qu'ils ressemblent autant que possible à votre newsletter d'origine. Insérez enfin les fragments que vous venez de créer.
 
-1. A l'aide du Concepteur d'email, créez un modèle. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+1. A l'aide du Concepteur d'email, créez un modèle. Voir à ce propos la section [Modèles de contenu](#content-templates).
 1. Insérez plusieurs composants de structure dans votre modèle, correspondant à l'en-tête, au pied de page et au corps de votre email. Pour plus d'informations sur l'ajout de composants de structure, voir [Editer la structure d'un email à l'aide du Concepteur d'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insérez autant de composants de contenu que nécessaire pour créer le corps de votre newsletter. Il s'agit du contenu éditable de l'email que vous mettrez à jour tous les mois.
 
@@ -134,8 +134,8 @@ Il se trouve dans l'interface sous **Ressources** &gt; **Contenu, fragments et m
 
 Pour optimiser les fragments dans le Concepteur d'email :
 
-* Créez vos propres fragments. Voir [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
-* Utilisez-les autant de fois que nécessaire dans vos emails. Voir [Insérer des éléments dans un email](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email).
+* Créez vos propres fragments. Voir [Créer un fragment de contenu](#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](#saving-content-as-a-fragment).
+* Utilisez-les autant de fois que nécessaire dans vos emails. Voir [Insérer des éléments dans un email](#inserting-elements-into-an-email).
 * Lorsque vous éditez un fragment, les modifications sont synchronisées : elles sont automatiquement propagées à tous les emails (à condition qu'ils n'aient pas encore été préparés ou envoyés) contenant ce fragment.
 
 Lorsqu'ils sont ajoutés à un email, les fragments sont verrouillés par défaut. Si vous souhaitez modifier un fragment pour un email spécifique, vous pouvez arrêter la synchronisation avec le fragment d'origine en le déverrouillant dans l'email dans lequel il est utilisé. Les modifications ne seront plus synchronisées.
@@ -150,7 +150,7 @@ Ce fragment devient alors un composant autonome qui n'est plus lié au fragment 
 
 Pour définir le contenu de votre email, vous pouvez ajouter des éléments de contenu aux composants de structure que vous avez préalablement placés. Voir [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Accédez aux éléments de contenu en sélectionnant l'icône **+** sur la gauche. Sélectionnez [Fragments](../../designing/using/using-reusable-content.md#about-fragments) ou [Composants du contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+1. Accédez aux éléments de contenu en sélectionnant l'icône **+** sur la gauche. Sélectionnez [Fragments](#about-fragments) ou [Composants du contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 1. Si vous connaissez déjà tout ou partie du libellé du fragment que vous souhaitez ajouter, vous pouvez le rechercher.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ Pour définir le contenu de votre email, vous pouvez ajouter des éléments de c
 
    >[!NOTE]
    >
-   >Les fragments sont verrouillés par défaut lorsqu'ils sont ajoutés à un email. Vous pouvez arrêter la synchronisation avec le fragment d'origine si vous souhaitez modifier le fragment d'un email spécifique. Vous pouvez aussi directement apporter votre modification dans le fragment. Voir [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
+   >Les fragments sont verrouillés par défaut lorsqu'ils sont ajoutés à un email. Vous pouvez arrêter la synchronisation avec le fragment d'origine si vous souhaitez modifier le fragment d'un email spécifique. Vous pouvez aussi directement apporter votre modification dans le fragment. Voir [A propos des fragments](#about-fragments).
 
 1. Répétez cette procédure pour tous les éléments que vous devez ajouter à votre email.
 1. Enregistrez votre email.
@@ -176,7 +176,7 @@ Maintenant que la structure de l'email est remplie, vous pouvez modifier le styl
 
 >[!NOTE]
 >
->Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
+>Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
 ### Créer un fragment de contenu  {#creating-a-content-fragment}
 
@@ -199,9 +199,12 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
 1. Fermez l'onglet **[!UICONTROL Propriétés]** pour retourner à l'espace de travail principal.
 1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser au besoin.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Les fragments ne peuvent pas inclure des champs de personnalisation, un contenu dynamique ni un autre fragment.
+   >
+   >Evitez d’enregistrer en tant que contenu de fragment avec des composants de structure vides. Une fois le fragment &gt;inséré, il ne sera plus modifiable.
+   >
    >La [vue mobile](../../designing/using/styles.md#switching-to-mobile-view) n'est pas disponible dans les fragments.
 
 1. Une fois le fragment édité, enregistrez-le.
@@ -210,7 +213,7 @@ Ce fragment peut à présent être utilisé dans n'importe quel email créé ave
 
 >[!NOTE]
 >
->Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s'il est utilisé dans un email et qu'il est déverrouillé. Voir [A propos des fragments](../../designing/using/using-reusable-content.md#about-fragments).
+>Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s'il est utilisé dans un email et qu'il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
 ### Enregistrer du contenu en tant que fragment  {#saving-content-as-a-fragment}
 
@@ -270,9 +273,9 @@ To save as a fragment some email content that you created, follow the steps belo
 
 A l'aide du Concepteur d'email, créez un fragment pour chaque section réutilisable. Dans cet exemple, vous allez créer deux fragments : un pour l'en-tête et un autre pour le pied de page. Vous pouvez ensuite copier les parties pertinentes de votre contenu existant dans ces fragments.
 
-Pour ce faire, procédez comme suit :
+Pour cela, procédez comme suit :
 
-1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Voir à ce propos la section [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Voir à ce propos la section [Créer un fragment de contenu](#creating-a-content-fragment).
 1. Ajoutez autant de composants de structure que vous le souhaitez à votre fragment.
 
 ![](assets/des_loading_compatible_fragment_1.png)
