@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Intégration de Microsoft Dynamics 365 (GA) - [En savoir plus](https://helpx.ado
 
 La liste des messages d’erreur pour Campaign Standard et Campaign Classic a été mise à jour. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-Le guide de mise en route du RDPC a été amélioré et enrichi. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, y compris le RMR et l’ACCP. [En savoir plus](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+Le guide de mise en route du RDPC a été amélioré et enrichi. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, y compris le RMR et l’ACCP. [En savoir plus](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 Un nouveau graphique présentant le processus de publication des messages transactionnels a été ajouté. [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
