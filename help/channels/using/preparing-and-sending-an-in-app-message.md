@@ -14,8 +14,8 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -35,7 +35,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 * **[!UICONTROL Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)]** : ce type de message vous permet d'envoyer des messages à tous les utilisateurs (actuels ou futurs) de votre application mobile, même s'ils ne disposent pas d'un profil existant dans Adobe Campaign. La personnalisation n'est donc pas possible lors de la personnalisation des messages, car le profil de l'utilisateur peut ne pas exister dans Adobe Campaign.
 * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** : ce type de message permet de cibler tous les utilisateurs connus ou anonymes d'une application mobile ayant un profil mobile dans Adobe Campaign. Ce type de message peut être personnalisé à l'aide d'attributs qui ne sont pas personnels ni sensibles. Il n'est pas nécessaire d'établir une liaison sécurisée entre le SDK Mobile et le service de messagerie In-App d'Adobe Campaign.
 
-   Pour plus d'informations sur la gestion des données personnelles et sensibles, reportez-vous à la section [Gestion des champs de profil mobile avec des données personnelles et sensibles](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+   Pour plus d'informations sur la gestion des données personnelles et sensibles, reportez-vous à la section [Gestion des champs de profil mobile avec des données personnelles et sensibles](#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
@@ -97,11 +97,11 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    * **[!UICONTROL Evénements d'application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d'usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/metrics.html).
+      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d'affichage.
 
@@ -126,7 +126,7 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    ![](assets/inapp_creating_5.png)
 
-1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message In-App](https://helpx.adobe.com/fr/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
