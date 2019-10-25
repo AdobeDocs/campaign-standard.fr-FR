@@ -14,8 +14,8 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -46,7 +46,7 @@ Plusieurs typologies sont présentes par défaut dans l'application. Selon vos b
 1. Définissez le type de la typologie. Les typologies peuvent être de type Standard ou Filtrage.
 1. Ajoutez les règles de typologie dont vous avez besoin à l'aide du bouton **[!UICONTROL Ajouter un élément]** ou supprimez celles que vous ne souhaitez pas utiliser.
 
-   Il est possible de modifier l'ordre dans lequel les règles sont appliquées dans le cadre d'une typologie donnée. Pour cela, déplacez les éléments afin de modifier leur ordre d'affichage à l'écran. Les chiffres correspondant à l'ordre d'exécution sont alors automatiquement recalculés. Le mode d'application des règles est présenté dans la section [Ordre d'exécution des règles de typologie](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
+   Il est possible de modifier l'ordre dans lequel les règles sont appliquées dans le cadre d'une typologie donnée. Pour cela, déplacez les éléments afin de modifier leur ordre d'affichage à l'écran. Les chiffres correspondant à l'ordre d'exécution sont alors automatiquement recalculés. Le mode d'application des règles est présenté dans la section [Ordre d'exécution des règles de typologie](#typology-rules-execution-order).
 
    Les règles affichées dans cet écran sont accessibles en lecture seule.
 
@@ -72,7 +72,7 @@ Une règle de typologie peut être appliquée uniquement à un canal ou à tous 
 
 ![](assets/typology_channel.png)
 
-Dans les **[!UICONTROL Propriétés]** d'une règle de typologie, vous pouvez définir son ordre d'exécution. Lorsque plusieurs règles doivent être appliquées, l'ordre d'exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d'exécution des règles de typologie](../../administration/using/about-typology-rules.md#typology-rules-execution-order).
+Dans les **[!UICONTROL Propriétés]** d'une règle de typologie, vous pouvez définir son ordre d'exécution. Lorsque plusieurs règles doivent être appliquées, l'ordre d'exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d'exécution des règles de typologie](#typology-rules-execution-order).
 
 ![](assets/typology_rule-active.png)
 
