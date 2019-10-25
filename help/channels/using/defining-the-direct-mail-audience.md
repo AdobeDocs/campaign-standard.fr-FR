@@ -14,8 +14,8 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ Vous pouvez définir l'audience dans l'assistant de création ou en cliquant sur
 
 Pour les courriers, les profils ciblés sont ceux qui seront inclus dans le fichier d'extraction qui sera envoyé à l'opérateur de services postaux.
 
-Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d'extraction. La quantité d'informations de profil qui sera incluse pour chaque destinataire est définie dans l'écran [Définir l'extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction).
+Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d'extraction. La quantité d'informations de profil qui sera incluse pour chaque destinataire est définie dans l'écran [Définir l'extraction](#defining-the-extraction).
 
 >[!CAUTION]
 >
