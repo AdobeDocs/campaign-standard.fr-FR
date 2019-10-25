@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
    ![](assets/message-center_9.png)
 
-   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Voir à ce sujet [Définir un profil de test dans un message transactionnel](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Voir à ce sujet [Définir un profil de test dans un message transactionnel](#defining-a-test-profile-in-a-transactional-message).
 
 ## Utiliser des listes de produits dans un message transactionnel    {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ Pour plus d'informations sur la création d'une collection et de champs associé
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Pour plus d'informations sur la définition d'un profil de test dans un message transactionnel, consultez [cette section](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message).
+   Pour plus d'informations sur la définition d'un profil de test dans un message transactionnel, consultez [cette section](#defining-a-test-profile-in-a-transactional-message).
 
 ## Tester un message transactionnel {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ Cliquez sur **[!UICONTROL Dépublier]** pour annuler la publication du message t
 
 >[!NOTE]
 >
->Pour publier de nouveau le message, revenez d'abord à la configuration de l'événement correspondant et publiez-le. Vous pouvez alors republier votre message. Voir à ce propos la section [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+>Pour publier de nouveau le message, revenez d'abord à la configuration de l'événement correspondant et publiez-le. Vous pouvez alors republier votre message. Voir à ce propos la section [Publier un message transactionnel](#publishing-a-transactional-message).
 
-Si vous dépubliez un message transactionnel mis en pause, vous devrez attendre jusqu'à 24 heures avant de pouvoir le republier. Ce délai permet au workflow **[!UICONTROL Nettoyage de la base]** de nettoyer tous les événements qui ont été envoyés dans la file d'attente. Les étapes de mise en pause d'un message sont présentées dans la section [Suspendre la publication d'un message transactionnel](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
+Si vous dépubliez un message transactionnel mis en pause, vous devrez attendre jusqu'à 24 heures avant de pouvoir le republier. Ce délai permet au workflow **[!UICONTROL Nettoyage de la base]** de nettoyer tous les événements qui ont été envoyés dans la file d'attente. Les étapes de mise en pause d'un message sont présentées dans la section [Suspendre la publication d'un message transactionnel](#suspending-a-transactional-message-publication).
 
 Le workflow **[!UICONTROL Nettoyage de la base]**, qui s'exécute tous les jours à 4h00, est accessible via **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Workflows]**.
 
@@ -288,7 +288,7 @@ En sélectionnant un message transactionnel, vous pouvez le supprimer à l'aide 
 
 * **Messages transactionnels** : pour supprimer un message transactionnel, ce message doit être dépublié et ne pas être en pause.
 
-   Si le message transactionnel est dépublié, la configuration de l'événement doit également être dépubliée pour supprimer votre message transactionnel, sauf si un autre message transactionnel est lié à l'événement correspondant. Pour plus d'informations sur la dépublication d'un message transactionnel, consultez cette [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   Si le message transactionnel est dépublié, la configuration de l'événement doit également être dépubliée pour supprimer votre message transactionnel, sauf si un autre message transactionnel est lié à l'événement correspondant. Pour plus d'informations sur la dépublication d'un message transactionnel, consultez cette [section](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ Un message transactionnel temporairement non diffusé fait l'objet de reprises a
 
 En cas d'échec de l'envoi d'un message transactionnel, il existe deux systèmes de reprise :
 
-* Au niveau des messages transactionnels, un message transactionnel peut échouer avant que l'événement ne soit assigné à une diffusion d'exécution, c'est-à-dire entre la réception de l'événement et la préparation de la diffusion. Voir [Processus de reprise du traitement d'un événement](../../channels/using/event-transactional-messages.md#event-processing-retry-process).
-* Au niveau du processus d'envoi, une fois l'événement assigné à une diffusion d'exécution, le message transactionnel peut échouer en raison d'une erreur temporaire. Voir [Processus de reprise de l'envoi d'un message](../../channels/using/event-transactional-messages.md#message-sending-retry-process).
+* Au niveau des messages transactionnels, un message transactionnel peut échouer avant que l'événement ne soit assigné à une diffusion d'exécution, c'est-à-dire entre la réception de l'événement et la préparation de la diffusion. Voir [Processus de reprise du traitement d'un événement](#event-processing-retry-process).
+* Au niveau du processus d'envoi, une fois l'événement assigné à une diffusion d'exécution, le message transactionnel peut échouer en raison d'une erreur temporaire. Voir [Processus de reprise de l'envoi d'un message](#message-sending-retry-process).
 
 ### Processus de reprise du traitement d'un événement    {#event-processing-retry-process}
 
