@@ -13,8 +13,8 @@ topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ Les rapports peuvent également être créés et gérés en fonction des donnée
 
 Dans cet exemple, nous souhaitons créer le champ de profil personnalisé **Programmes de fidélité**, qui sera divisé en trois niveaux : or, argent et bronze. Le profil personnalisé sera étendu pour pouvoir l'utiliser comme une dimension de profil personnalisé dans les rapports dynamiques.
 
-* [Étape 1 : Création d'un champ de profil ](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [Étape 2 : Extension des envois avec le champ de profil ](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Étape 3 : Création d'une diffusion ciblant des destinataires inscrits dans le programme de fidélité ](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Étape 4 : Création d'un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé ](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Étape 1 : Création d'un champ de profil ](#step-1--create-a-new-profile-field)
+* [Étape 2 : Extension des envois avec le champ de profil ](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Étape 3 : Création d'une diffusion ciblant des destinataires inscrits dans le programme de fidélité ](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Étape 4 : Création d'un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé ](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Etape 1 : Création d'un champ de profil  {#step-1--create-a-new-profile-field}
 
@@ -91,7 +91,7 @@ Votre nouveau champ de profil est maintenant prêt à être utilisé et sélecti
 
 Maintenant que votre champ de profil est créé, nous devons étendre les envois avec notre champ de profil pour créer la dimension de profil personnalisé associé dans les rapports dynamiques.
 
-Avant d'étendre le log avec votre champ de profil, veillez à ce que la fenêtre des PII a été acceptée pour accéder à l'onglet **[!UICONTROL Extension des envois]**. Pour plus d'informations à ce propos, consultez [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Avant d'étendre le log avec votre champ de profil, veillez à ce que la fenêtre des PII a été acceptée pour accéder à l'onglet **[!UICONTROL Extension des envois]**. Voir à ce propos [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Avant d'étendre le log avec votre champ de profil, veillez à ce que la fenêtr
 
    ![](assets/custom_profile_10.png)
 
-   Cette option n'est disponible que si la fenêtre de PII a été acceptée. Pour plus d'informations à ce propos, consultez [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   Cette option n'est disponible que si la fenêtre de PII a été acceptée. Voir à ce propos [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 1. Cliquez sur **[!UICONTROL Ajouter]**, puis enregistrez votre ressource personnalisée.
 1. La ressource personnalisée étant modifiée, nous devons la publier pour implémenter les nouvelles modifications.
@@ -169,4 +169,4 @@ Après l'envoi de votre diffusion, vous pouvez ventiler des rapports à l'aide d
 
 **Rubrique connexe :**
 
-* [Utilisation de données de profil personnalisées pour créer des rapports pertinents](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Utilisation de données de profil personnalisées pour créer des rapports pertinents](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
