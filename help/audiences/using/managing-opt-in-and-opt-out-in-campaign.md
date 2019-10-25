@@ -13,8 +13,8 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -33,7 +33,7 @@ Dans la section **[!UICONTROL Ne plus contacter (blackliste)]**, les cases à co
 
 Pour que les utilisateurs puissent s’inscrire ou se désinscrire, vous devez créer et publier une landing page **[!UICONTROL Acquisition de profils]**. Ils seront ensuite en mesure de choisir les canaux en fonction de leurs besoins. Pour ce faire, suivez les étapes suivantes.
 
-Vous pouvez également configurer une landing page **[!UICONTROL Blackliste]**, qui permettra aux utilisateurs de se désinscrire de toutes les diffusions. Pour plus d’informations, consultez [Configuration d’une landing page pour désactiver toutes les diffusions](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Vous pouvez également configurer une landing page **[!UICONTROL Blackliste]**, qui permettra aux utilisateurs de se désinscrire de toutes les diffusions. Pour plus d’informations, consultez [Configuration d’une landing page pour désactiver toutes les diffusions](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
