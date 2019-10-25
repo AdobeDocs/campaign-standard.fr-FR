@@ -13,8 +13,8 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,9 +62,9 @@ Pour gérer les destinataires des notifications, définir les critères des aler
 
 Depuis l'interface d'Adobe Campaign, vous pouvez :
 
-* Créer et gérer des tableaux de bord d'alerte de diffusion. Voir [Création d'un tableau de bord des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard).
-* Définir et gérer les critères des alertes de diffusion de chaque tableau de bord. Par exemple, vous pouvez créer des alertes basées sur les diffusions avec préparation en échec ou les diffusions avec faible débit uniquement. Voir [À propos des critères des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-* Modifier les paramètres des critères pour chaque tableau de bord. Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+* Créer et gérer des tableaux de bord d'alerte de diffusion. Voir [Création d'un tableau de bord des alertes de diffusion](#creating-a-delivery-alerting-dashboard).
+* Définir et gérer les critères des alertes de diffusion de chaque tableau de bord. Par exemple, vous pouvez créer des alertes basées sur les diffusions avec préparation en échec ou les diffusions avec faible débit uniquement. Voir [À propos des critères des alertes de diffusion](#about-alerting-criteria).
+* Modifier les paramètres des critères pour chaque tableau de bord. Voir [Paramètres des critères](#criteria-parameters).
 * Définir un groupe de destinataires pour chaque tableau de bord.
 
    Vous souhaitez par exemple informer les utilisateurs disposant de droits d'administration des diffusions en échec uniquement. Vous voulez également que les utilisateurs marketing reçoivent des informations sur les diffusions avec mauvais taux de soft bounces. Vous devez donc créer deux tableaux de bord différents et définir les critères souhaités pour chaque groupe de destinataires.
@@ -88,8 +88,8 @@ Si vous souhaitez envoyer des notifications selon des critères spécifiques à 
    ![](assets/delivery-alerting_dashboard_general.png)
 
 1. Sélectionnez le groupe de destinataires que vous souhaitez avertir dans la liste déroulante **[!UICONTROL Groupe d'alertes]**. Pour créer ou modifier un groupe, consultez la section [Créer un groupe de sécurité et affecter des utilisateurs](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. Dans la section **[!UICONTROL Critères des alertes de diffusion]**, cliquez sur **[!UICONTROL Créer un élément]** pour ajouter des critères. Voir [À propos des critères des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]**. Dans l'onglet **[!UICONTROL Paramètres des critères]**, définissez comment les critères seront appliqués. Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+1. Dans la section **[!UICONTROL Critères des alertes de diffusion]**, cliquez sur **[!UICONTROL Créer un élément]** pour ajouter des critères. Voir [À propos des critères des alertes de diffusion](#about-alerting-criteria).
+1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]**. Dans l'onglet **[!UICONTROL Paramètres des critères]**, définissez comment les critères seront appliqués. Voir [Paramètres des critères](#criteria-parameters).
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le tableau de bord.
 
 Désormais, dès qu'une diffusion répond aux critères définis dans ce tableau de bord, une notification d'alerte est envoyée aux groupes d'utilisateurs indiqués.
@@ -114,7 +114,7 @@ Les critères suivants peuvent être utilisés dans les tableaux de bord des ale
 
 >[!NOTE]
 >
->Tous les paramètres s'appliquant aux critères ci-dessus possèdent des valeurs par défaut. Ces valeurs peuvent être modifiées dans l'onglet **[!UICONTROL Paramètres des critères]** des tableaux de bord des alertes de diffusion. Voir [Paramètres des critères](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>Tous les paramètres s'appliquant aux critères ci-dessus possèdent des valeurs par défaut. Ces valeurs peuvent être modifiées dans l'onglet **[!UICONTROL Paramètres des critères]** des tableaux de bord des alertes de diffusion. Voir [Paramètres des critères](#criteria-parameters).
 
 Vous pouvez sélectionner n'importe quel élément dans la liste **[!UICONTROL Critères des alertes de diffusion]** pour accéder à ses détails.
 
@@ -137,7 +137,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 **Rubriques connexes :**
 
 * [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs)
-* [Fréquence des alertes](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
+* [Fréquence des alertes](#alerting-frequency)
 * [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Créer un critère d'alerte de diffusion    {#creating-a-delivery-alerting-criterion}
@@ -174,9 +174,9 @@ Pour cela, vous devez d'abord étendre la ressource **Diffusion** et ajouter un 
 
    ![](assets/delivery-alerting_cus-filter.png)
 
-   Vous pouvez définir les paramètres du critère de la même manière que pour les critères par défaut. Voir [À propos des critères des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+   Vous pouvez définir les paramètres du critère de la même manière que pour les critères par défaut. Voir [À propos des critères des alertes de diffusion](#about-alerting-criteria).
 
-Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres critères, à un tableau de bord des alertes de diffusion. Voir [À propos des tableaux de bord des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#about-delivery-alerting-dashboards).
+Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres critères, à un tableau de bord des alertes de diffusion. Voir [À propos des tableaux de bord des alertes de diffusion](#about-delivery-alerting-dashboards).
 
 ![](assets/delivery-alerting_new-criterion.png)
 
@@ -188,7 +188,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres crit�
 
 ### Paramètres des critères {#criteria-parameters}
 
-Dans l'onglet **[!UICONTROL Paramètres des critères]** d'un [tableau de bord des alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard), vous pouvez définir les paramètres qui s'appliquent aux critères sélectionnés du tableau de bord donné.
+Dans l'onglet **[!UICONTROL Paramètres des critères]** d'un [tableau de bord des alertes de diffusion](#creating-a-delivery-alerting-dashboard), vous pouvez définir les paramètres qui s'appliquent aux critères sélectionnés du tableau de bord donné.
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
@@ -265,11 +265,11 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l'analyse de la diffusion. Voir [Créer une règle de filtrage](../../administration/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [A propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
+   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
 
 
 
-* **[!UICONTROL Diffusions avec un état de démarrage en attente long ]**: cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d'exécution attend la disponibilité de certaines ressources. Le MTA peut ne pas avoir été démarré.
+* **[!UICONTROL Diffusions avec un état de démarrage en attente long ]**: cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d'exécution attend la disponibilité de certaines ressources. Le MTA n'a peut-être pas été démarré.
 
    **[!UICONTROL Diffusions avec faible débit]** : il s'agit encore une fois d'un problème de délivrabilité qui signale que le MTA est trop lent.
 
