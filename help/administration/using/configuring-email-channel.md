@@ -14,8 +14,8 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -36,7 +36,7 @@ L'écran Configuration email vous permet de définir les paramètres du canal em
 
    Cet identifiant vous est fourni par le support. Il est nécessaire au bon fonctionnement des rapports de délivrabilité.
 
-* **Paramètres de diffusion**
+* **Paramètres de la diffusion**
 
    Adobe Campaign envoie les messages à compter de la date de début. Le champ **[!UICONTROL Durée de diffusion des messages]** vous permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
 
@@ -74,7 +74,7 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l'erreur en **Hard**, **Soft** ou **Ignoré**.
 
-Les règles par défaut sont les suivantes :
+Les règles par défaut sont les suivantes :
 
 **Mails rebonds**
 
@@ -92,12 +92,12 @@ Les règles de gestion des domaines permettent de réguler le flux des emails so
 
 Pour configurer des règles de gestion de domaines, il vous suffit de fixer un seuil et de sélectionner certains paramètres SMTP. Le **seuil** est une limite calculée en pourcentage d'erreur au-delà de laquelle tout message vers un domaine spécifique est bloqué.
 
-Par exemple, dans le cas général, pour un minimum de 300 messages, l'envoi d'email est bloqué pendant 3 heures si le taux d'erreur atteint 90%.
+Par exemple, dans le cas général, pour un minimum de 300 messages , l'envoi d'email est bloqué pendant 3 heures si le taux d'erreur atteint 90%.
 
 Les **paramètres SMTP** agissent comme des filtres appliqués pour une règle de blocage.
 
-* Vous pouvez choisir d'activer ou non certaines normes d'identification et clés de cryptage afin de vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
-* **Relais SMTP** : permet de configurer l'adresse IP et le port d'un serveur relais pour un domaine particulier.
+* Vous pouvez choisir d'activer ou non certaines normes d'identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
+* **Relais SMTP** : permet de configurer l'adresse IP et le port d'un serveur relais pour un domaine particulier.
 
 **Gestion des MX**
 
@@ -121,7 +121,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 * **[!UICONTROL Plage des identifiants]** : cette option permet d'indiquer les plages d'identifiants (publicId) pour lesquelles la règle s'applique. Vous pouvez indiquer :
 
    * Un nombre : la règle ne s'appliquera qu'à ce publicId.
-   * Une plage de nombres (nombre1-nombre2) : la règle s'appliquera à tous les publicId compris entre ces deux nombres.
+   * Une plage de nombres (nombre1-nombre2) la règle s'appliquera à tous les publicId compris entre ces deux nombres.
    Lorsque ce champ est vide, la règle s'applique à tous les identifiants.
 
 * **[!UICONTROL Partagé]** : cette option indique que la limite du nombre de messages par heure et du nombre de connexions s'applique à l'ensemble des MX associés à cette règle.
@@ -173,7 +173,7 @@ La section **[!UICONTROL Envoi]** est uniquement disponible pour les modèles d'
 
 Les messages qui n'ont pas abouti de manière temporaire font l'objet de reprises automatiques. Cette section indique combien de reprises doivent être effectuées le jour du démarrage de l'envoi (**[!UICONTROL Nombre max. de reprises]**) ainsi que le délai minimum entre deux reprises (**[!UICONTROL Intervalle entre deux reprises]** ).
 
-Par défaut, cinq reprises sont planifiées le premier jour de l'envoi, avec un intervalle minimum d'une heure, réparties sur les 24h de la journée. Après cela, une reprise est programmée chaque jour jusqu'à la date limite de diffusion, qui est définie dans la section [Paramètres de période de validité](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Par défaut, cinq reprises sont planifiées le premier jour de l'envoi, avec un intervalle minimum d'une heure, réparties sur les 24h de la journée. Après cela, une reprise est programmée chaque jour jusqu'à la date limite de diffusion, qui est définie dans la section [Paramètres de période de validité](#validity-period-parameters).
 
 Le nombre de reprises peut être changé de manière globale (contactez l'administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
 
@@ -206,7 +206,7 @@ Si vous activez l'option de mode test SMTP pour un modèle d'email, cette option
 >Lorsque cette option est activée pour un email, aucun message n'est envoyé tant qu'elle n'est pas décochée.
 >Un avertissement s'affiche dans le tableau de bord de l'email ou du modèle d'email.
 
-Pour plus d'informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+Pour plus d'informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
 ### Paramètres de période de validité    {#validity-period-parameters}
 
@@ -298,16 +298,16 @@ La section **[!UICONTROL Autorisation d'accès]** propose les paramètres suivan
 
 ## Archiver des emails {#archiving-emails}
 
-Vous pouvez configurer Adobe Campaign afin de conserver une copie des emails envoyés à partir de votre plateforme.
+Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
 
-Cependant, Adobe Campaign ne gère pas en tant que tel les fichiers archivés. Il vous permet d'envoyer les messages de votre choix à une adresse dédiée, à partir de laquelle ils peuvent être traités et archivés au moyen d'un système externe.
+Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il vous permet d'envoyer les messages de votre choix à une adresse dédiée, depuis laquelle ils peuvent être traités et archivés dans un système externe.
 
 Lorsqu'elle est activée dans le modèle de diffusion, cette fonctionnalité vous permet d'envoyer une copie exacte des messages envoyés correspondants à une adresse email en bcc (invisible pour les destinataires de diffusion) que vous devez spécifier.
 
 ### Recommandations et limitations    {#recommendations-and-limitations}
 
 * Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l'activer.
-* Vous pouvez uniquement utiliser une adresse email en bcc.
+* Vous ne pouvez utiliser qu'une seule adresse email en Cci.
 * Seuls les emails envoyés sont pris en compte, les rebonds ne le sont pas.
 * Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d'archivage capable de stocker en toute sécurité les informations d'identification personnelles (PII).
 * Lors de la création d'un modèle de diffusion, l'option Email BCC n'est pas activée par défaut, même si elle a été achetée. Vous devez l'activer manuellement dans chaque modèle de diffusion où vous souhaitez l'utiliser.
