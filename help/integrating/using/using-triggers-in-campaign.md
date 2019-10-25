@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
 
 ## Création d'un trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un trigger Adobe Experience Cloud existant.
 
@@ -63,7 +63,7 @@ Une fois la publication effectuée, un modèle transactionnel associé au nouvel
 
 ## Édition du modèle de message transactionnel  {#editing-the-transactional-message-template}
 
-Une fois que vous avez créé et publié l'événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d'un trigger mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
+Une fois que vous avez créé et publié l'événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d'un trigger mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
 Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Voir à ce propos la section [Modèle transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
