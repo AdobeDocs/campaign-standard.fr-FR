@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+translation-type: tm+mt
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 L'éditeur vous permet de personnaliser un email ou une landing page en insérant des liens dans les éléments du contenu HTML.
 
-Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe de mots, bloc de texte, etc.
+Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe de mots, bloc de texte, etc.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Une fois le lien créé, vous pouvez encore le modifier dans le volet Paramètre
 
 ![](assets/des_link_edit.png)
 
-Lorsque vous éditez un email à l'aide du [Concepteur d'email](../../designing/using/overview.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l'email et les modifier. Cette liste permet d'avoir une vue centrale et de localiser chaque URL dans le contenu de l'email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
+Lorsque vous éditez un email à l'aide du [Concepteur d'email](../../designing/using/overview.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l'email et les modifier. Cette liste permet d'avoir une vue centrale et de localiser chaque URL dans le contenu de l'email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
@@ -96,9 +96,9 @@ L'URL, la catégorie, le libellé et le type de tracking de chaque lien peuvent 
 Pour chaque URL trackée, vous pouvez définir le mode de tracking sur l'une des valeurs suivantes :
 
 * **Tracké** : active le tracking sur cette URL.
-* **Page miroir** : traite cette URL comme une URL de page miroir.
+* **Page miroir** : considère cette URL comme une URL de page miroir.
 * **Jamais** : n'active jamais le tracking de cette URL. Ces informations sont enregistrées : si l'URL apparaît à nouveau dans un message futur, son tracking est automatiquement désactivé.
-* **Opt-out** : traite cette URL comme une URL de désabonnement.
+* **Opt-out** : considère cette URL comme une option d'opt-out ou une URL de désabonnement.
 
 ![](assets/des_link_tracking_type.png)
 
