@@ -15,7 +15,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ Une fois qu'il a été démarré, un workflow peut également se voir attribuer 
 
 * **En erreur** (rouge)
 
-   Une erreur est survenue pendant l'exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l'utilisateur. Pour connaître l'origine de l'erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d'accéder au journal du workflow (voir [Contrôle](../../automating/using/executing-a-workflow.md#monitoring)).
+   Une erreur est survenue pendant l'exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l'utilisateur. Pour connaître l'origine de l'erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d'accéder au journal du workflow (voir [Contrôle](#monitoring)).
 
 La liste des activités marketing permet d'afficher tous les workflows ainsi que leur statut. Voir à ce sujet la section [Gérer les activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -146,7 +146,7 @@ Le bouton ![](assets/checkdisable.png) désactive la ou les activités sélectio
 
 L'icône ![](assets/printpreview_darkgrey-24px.png) permet d'accéder au menu Journal et tâches du workflow.
 
-L'historique d'un workflow est conservé pendant la durée que vous indiquez dans les options d'exécution du workflow (voir [Propriétés des workflows](../../automating/using/executing-a-workflow.md#workflow-properties)). Pendant cette durée, tous les messages sont donc conservés, même après un redémarrage. Si vous ne voulez pas conserver les messages d'une exécution précédente, vous devez purger l'historique en cliquant sur le bouton ![](assets/delete_darkgrey-24px.png).
+L'historique d'un workflow est conservé pendant la durée que vous indiquez dans les options d'exécution du workflow (voir [Propriétés des workflows](#workflow-properties)). Pendant cette durée, tous les messages sont donc conservés, même après un redémarrage. Si vous ne voulez pas conserver les messages d'une exécution précédente, vous devez purger l'historique en cliquant sur le bouton ![](assets/delete_darkgrey-24px.png).
 
 L'onglet **[!UICONTROL Journal]** contient l'historique de l'exécution de toutes les activités ou des activités sélectionnées. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d'exécution.
 
@@ -174,9 +174,9 @@ Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement 
 
 >[!NOTE]
 >
->Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour cela, sélectionnez l'activité de votre choix puis ouvrez-là à l'aide de l'action rapide ![](assets/edit_darkgrey-24px.png) et sélectionnez le mode de gestion des erreurs dans l'onglet **Options d'exécution.** Voir [Options d'exécution d'une activité](../../automating/using/executing-a-workflow.md#activity-execution-options).
+>Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour cela, sélectionnez l'activité de votre choix puis ouvrez-là à l'aide de l'action rapide ![](assets/edit_darkgrey-24px.png) et sélectionnez le mode de gestion des erreurs dans l'onglet **Options d'exécution.** Voir [Options d'exécution d'une activité](#activity-execution-options).
 
-La section **[!UICONTROL Exécution]** des propriétés du workflow permet également de définir un nombre d'**[!UICONTROL erreurs consécutives]** autorisées avant que l'exécution du workflow ne soit automatiquement suspendue. Tant que ce nombre n'est pas atteint, les éléments en erreur sont ignorés et les autres branches du workflow sont exécutées normalement. Si ce nombre est atteint, le workflow est suspendu et les superviseurs du workflow sont informés automatiquement (email et notification dans l'application). Voir [Propriétés des workflows](../../automating/using/executing-a-workflow.md#workflow-properties) et [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+La section **[!UICONTROL Exécution]** des propriétés du workflow permet également de définir un nombre d'**[!UICONTROL erreurs consécutives]** autorisées avant que l'exécution du workflow ne soit automatiquement suspendue. Tant que ce nombre n'est pas atteint, les éléments en erreur sont ignorés et les autres branches du workflow sont exécutées normalement. Si ce nombre est atteint, le workflow est suspendu et les superviseurs du workflow sont informés automatiquement (email et notification dans l'application). Voir [Propriétés des workflows](#workflow-properties) et [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 Les superviseurs peuvent également être définis dans les propriétés d'exécution du workflow.
 
