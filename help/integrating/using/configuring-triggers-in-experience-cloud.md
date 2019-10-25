@@ -13,8 +13,8 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Il vous faudra également un site web opérationnel.
 >
 >La délégation de sous-domaine est également un élément clé de la délivrabilité. Assurez-vous que les emails Adobe Campaign sont envoyés à partir du même domaine que celui utilisé par le site web.
 
-Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-experience-cloud-people-core-service) et [Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-triggers-and-aliases-in-campaign).
+Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) et [Campaign](#configuring-triggers-and-aliases-in-campaign).
 
 ### Configurer Experience Cloud DTM Core Service  {#configuring-experience-cloud-dtm-core-service}
 
@@ -99,7 +99,7 @@ Un trigger Adobe Experience Cloud doit être créé pour pouvoir l'utiliser dans
 
 Créez un trigger dans Experience Cloud et assurez-vous de sélectionner la suite de rapports utilisée sur votre site Web. Veillez à choisir les bonnes dimensions pour que le trigger se déclenche.
 
-Consultez la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/triggers.html) et regardez cette [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Consultez la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html) et regardez cette [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Bonnes pratiques et limites de triggers {#triggers-best-practices-and-limitations}
 
