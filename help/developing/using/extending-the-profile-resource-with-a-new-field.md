@@ -13,8 +13,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ Nous souhaitons ici mettre à jour nos profils avec le nouveau champ à l'aide d
 
 Pour ce faire, procédez comme suit :
 
-* [Etape 1 : Etendre la ressource Profil ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [Etape 2 : Etendre le profil de test ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [Etape 3 : Publier votre ressource personnalisée ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [Etape 4 : Mettre à jour et cibler les profils avec un workflow ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [Etape 1 : Etendre la ressource Profil ](#step-1--extend-the-profile-resource)
+* [Etape 2 : Etendre le profil de test ](#step-2--extend-the-test-profile)
+* [Etape 3 : Publier votre ressource personnalisée ](#step-3--publish-your-custom-resource)
+* [Etape 4 : Mettre à jour et cibler les profils avec un workflow ](#step-4--update-and-target-profiles-with-a-workflow)
 
 Le champ suivant sera ensuite ajouté à nos profils et pourra être ciblé dans une diffusion :
 
