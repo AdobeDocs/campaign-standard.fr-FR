@@ -14,8 +14,8 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,7 +32,7 @@ Les éléments de chaque liste s'affichent par défaut selon leur date de modifi
 
 ![](assets/packages_1.png)
 
-Pour afficher le contenu d'un élément et le modifier, cliquez sur son libellé. Reportez-vous aux sections [Export d'un package](../../automating/using/managing-packages.md#exporting-a-package) et [Import d'un package](../../automating/using/managing-packages.md#importing-a-package).
+Pour afficher le contenu d'un élément et le modifier, cliquez sur son libellé. Reportez-vous aux sections [Export d'un package](#exporting-a-package) et [Import d'un package](#importing-a-package).
 
 ## Exports de package  {#package-exports}
 
@@ -46,7 +46,7 @@ Pour afficher le contenu d'un élément et le modifier, cliquez sur son libellé
 >
 >L'export de package n'est pas autorisé si les ressources exportées ont des identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s'éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur "SDM" ou "sdm". Lors de l'export de packages contenant des identifiants par défaut, les erreurs du type suivant peuvent s'afficher : "L'entité de type 'Marques (branding)' utilise un identifiant par défaut ('BRD1') susceptible de provoquer un conflit lors de l'import du package. Modifiez ce nom et renouvelez l'opération."
 
-Les étapes d'export d'un package sont présentées dans la section [Export d'un package](../../automating/using/managing-packages.md#exporting-a-package).
+Les étapes d'export d'un package sont présentées dans la section [Export d'un package](#exporting-a-package).
 
 * Le package **[!UICONTROL Plate-forme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, triggers et options d'application de type **[!UICONTROL Système]**.
 * Le package **[!UICONTROL Administration]** regroupe tous les objets ajoutés pendant la configuration métier : modèles d'opération, modèles de contenu, modèles de diffusion, modèles de landing page, modèles de programme et modèles de workflow.
@@ -55,7 +55,7 @@ Les étapes d'export d'un package sont présentées dans la section [Export d'un
 
 >[!NOTE]
 >
->Il n'est pas possible de modifier la définition de ces deux packages. En revanche, ces derniers contiennent toujours les données disponibles les plus à jour. Vous pouvez [créer vos propres packages](../../automating/using/managing-packages.md#creating-a-package) pour exporter des éléments spécifiques.
+>Il n'est pas possible de modifier la définition de ces deux packages. En revanche, ces derniers contiennent toujours les données disponibles les plus à jour. Vous pouvez [créer vos propres packages](#creating-a-package) pour exporter des éléments spécifiques.
 
 ### Création de package  {#creating-a-package}
 
@@ -142,7 +142,7 @@ La vue **[!UICONTROL Logs d'exécution]** répertorie toutes les étapes de l'im
 
 ### Import d'un package  {#importing-a-package}
 
-Un administrateur peut importer manuellement un package issu d'un export réalisé au préalable à partir d'une instance Adobe Campaign. Voir à ce propos la section [Exports de package](../../automating/using/managing-packages.md#package-exports).
+Un administrateur peut importer manuellement un package issu d'un export réalisé au préalable à partir d'une instance Adobe Campaign. Voir à ce propos la section [Exports de package](#package-exports).
 
 L'import manuel d'un package consiste en deux étapes : il faut d'abord télécharger un fichier avant de pouvoir importer son contenu.
 
