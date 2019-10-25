@@ -13,8 +13,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Le contenu et l'affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d'effectuer les opérations suivantes :
 
-* Insérer des champs de personnalisation dynamiques. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
-* Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
-* Personnaliser l'expéditeur d'un email. Voir [Personnaliser l'expéditeur](../../designing/using/personalization.md#personalizing-the-sender).
+* Insérer des champs de personnalisation dynamiques. Voir [Insertion d'un champ de personnalisation](#inserting-a-personalization-field).
+* Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](#adding-a-content-block).
+* Personnaliser l'expéditeur d'un email. Voir [Personnaliser l'expéditeur](#personalizing-the-sender).
 * Personnaliser l'objet d'un email. Voir [Personnaliser l'objet d'un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Créer du contenu conditionnel. Voir [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* Créer du contenu conditionnel. Voir [Définir du contenu dynamique dans un email](#defining-dynamic-content-in-an-email)
 
 ## Personnaliser l'expéditeur {#personalizing-the-sender}
 
@@ -148,7 +148,7 @@ Pour créer un bloc de contenu, respectez les étapes suivantes :
    * **[!UICONTROL Landing page]** : le bloc de contenu ne peut être utilisé que dans une landing page.
    ![](assets/content_bloc_02.png)
 
-1. Vous pouvez sélectionner une **[!UICONTROL Dimension de ciblage]**. Voir à ce propos la section [A propos de la dimension de ciblage](../../designing/using/personalization.md#about-targeting-dimension).
+1. Vous pouvez sélectionner une **[!UICONTROL Dimension de ciblage]**. Voir à ce propos la section [A propos de la dimension de ciblage](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -178,9 +178,9 @@ Voir à ce sujet [Dimensions de ciblage et ressources](../../automating/using/qu
 
 **Rubriques connexes :**
 
-* [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
-* [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Insertion d'un champ de personnalisation](#inserting-a-personalization-field)
+* [Ajouter un bloc de contenu](#adding-a-content-block)
+* [Définir du contenu dynamique dans un email](#defining-dynamic-content-in-an-email)
 
 ## Personnaliser la source d'une image{#personalizing-an-image-source}
 
@@ -228,7 +228,7 @@ Ces conditions adoptent la syntaxe des expressions XTK (par ex : **context.prof
 
 Dans un email, vous pouvez définir différents contenus qui s'afficheront de manière dynamique aux destinataires selon les conditions définies au moyen de l'éditeur d'expression. Vous pouvez par exemple, à partir du même email, faire en sorte que chaque profil reçoive un message différent selon sa tranche d'âge.
 
-La définition du contenu dynamique est différente de la [définition des conditions de visibilité](../../designing/using/personalization.md#defining-a-visibility-condition).
+La définition du contenu dynamique est différente de la [définition des conditions de visibilité](#defining-a-visibility-condition).
 
 1. Sélectionnez un fragment, un composant ou un élément. Dans cet exemple, sélectionnez une image.
 1. Cliquez sur l'icône **[!UICONTROL Contenu dynamique]** dans la barre d'outils contextuelle.
@@ -261,7 +261,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 
    ![](assets/dynamic_content_7.png)
 
-   Les contenus s'affichent par ordre de priorité dans la palette, de haut en bas. Pour plus d'informations sur les priorités, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   Les contenus s'affichent par ordre de priorité dans la palette, de haut en bas. Pour plus d'informations sur les priorités, consultez [cette section](#defining-dynamic-content-in-an-email).
 
 1. Téléchargez une nouvelle image pour la variante que vous venez de définir.
 
@@ -318,13 +318,13 @@ L'email est donc créé comme suit :
 
    ![](assets/delivery_content_43.png)
 
-   L'insertion et le paramétrage des contenus dynamiques sont décrits dans la section [Définir le contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   L'insertion et le paramétrage des contenus dynamiques sont décrits dans la section [Définir le contenu dynamique dans un email](#defining-dynamic-content-in-an-email).
 
 * des champs de personnalisation et des contenus dynamiques sont appliqués sur le texte. En fonction de l'âge, l'email commence par le prénom du profil, ou par sa civilité et son nom.
 
    ![](assets/delivery_content_44.png)
 
-   L'ajout et le paramétrage de champs de personnalisation sont présentés dans la section [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+   L'ajout et le paramétrage de champs de personnalisation sont présentés dans la section [Insertion d'un champ de personnalisation](#inserting-a-personalization-field).
 
 ### Paramétrer les illustrations {#configuring-images}
 
@@ -371,7 +371,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 **Pour cibler les profils qui ont entre 18 et 27 ans :**
 
 1. Sélectionnez le composant de structure voulu et ajoutez un contenu dynamique.
-1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](../../designing/using/personalization.md#configuring-images).
+1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
 1. Dans le composant de structure, à l'emplacement désiré, cliquez sur l'icône **[!UICONTROL Personnaliser]** depuis la barre d'outils contextuelle et sélectionnez **[!UICONTROL Insérer un champ de personnalisation]**.
 
    ![](assets/delivery_content_53.png)
@@ -385,7 +385,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 **Pour cibler les profils de plus de 27 ans :**
 
 1. Sélectionnez le composant de structure voulu et ajoutez un contenu dynamique.
-1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](../../designing/using/personalization.md#configuring-images).
+1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
 1. Dans le composant de structure, à l'emplacement désiré, cliquez sur l'icône **[!UICONTROL Personnaliser]** depuis la barre d'outils contextuelle et sélectionnez **[!UICONTROL Insérer un champ de personnalisation]**.
 1. Dans la liste déroulante, sélectionnez le champ **[!UICONTROL Civilité]**.
 1. Procédez de la même manière pour ajouter le champ **[!UICONTROL Nom]**.
