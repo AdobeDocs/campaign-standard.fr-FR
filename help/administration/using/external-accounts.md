@@ -14,8 +14,8 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 0fcedd464ae2074e7eda793bbf20cc53ce04f324
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,11 +28,11 @@ Ces comptes externes peuvent être utilisés dans les workflows de Campaign pour
 
 Vous pouvez configurer les types de comptes externes suivants :
 
-* SFTP. Voir à ce propos [cette section](../../administration/using/external-accounts.md#sftp-external-account).
-* Amazon Storage Service (S3). Voir à ce propos [cette section](../../administration/using/external-accounts.md#amazon-s3-external-account).
-* Adobe Experience Manager. Voir à ce propos [cette section](../../administration/using/external-accounts.md#adobe-experience-manager-external-account).
+* SFTP. Voir à ce propos [cette section](#sftp-external-account).
+* Amazon Storage Service (S3). Voir à ce propos [cette section](#amazon-s3-external-account).
+* Adobe Experience Manager. Voir à ce propos [cette section](#adobe-experience-manager-external-account).
 * Adobe Analytics. Voir à ce propos [cette section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. Voir à ce propos [cette section](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+* reCAPTCHA Google. Voir à ce propos [cette section](#google-recaptcha-external-account).
 
 >[!NOTE]
 >
@@ -42,9 +42,9 @@ Les comptes externes peuvent être configurés par les administrateurs depuis le
 
 ## Création d'un compte externe {#creating-an-external-account}
 
-Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
+Adobe Campaign est livré avec un ensemble de comptes externes prédéfinis. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
 
-Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne. Lors de la configuration d'un transfert de fichier dans un workflow ou d'un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
+Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un libellé. Le libellé et l'identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
@@ -69,29 +69,29 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 
 ### Recommandations relatives au serveur SFTP hébergé par Adobe  {#adobe-hosted-sftp-server-recommendations}
 
-Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Ce SFTP est conçu en tant qu’espace de stockage temporaire sur lequel vous pouvez contrôler la conservation et la suppression des fichiers.
+Lors de la gestion de fichiers et de données à des fins d'ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
-Lorsqu’il n’est pas correctement utilisé ou contrôlé, cet espace peut rapidement remplir l’espace physique disponible sur le serveur et causer de sérieux problèmes. Cela peut entraîner une perte ou une corruption des données de votre plateforme.
+Lorsqu'il n'est pas correctement utilisé ou suivi, cet espace peut rapidement remplir l'espace physique disponible sur le serveur et entraîner de graves problèmes, tels que la perte ou l'endommagement de données sur votre plateforme.
 
-Afin d’éviter de tels problèmes, Adobe recommande de suivre les bonnes pratiques ci-dessous :
+Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques suivantes :
 
-* Conservez le minium de données possible.
-* Évitez l’expiration du mot de passe en utilisant l’authentification basée sur une clé. Seuls les formats **OpenSSH** et **SSH2** sont pris en charge. Il vous faudra fournir la clé publique à l’assistance d’Adobe pour qu’elle soit transférée sur le serveur Campaign.
-* Ne conservez pas les données plus longtemps que nécessaire. Le délai maximal est de 15 jours.
-* Utilisez les workflows afin de supprimer correctement les données (gérez la conservation via les workflows qui utilisent les données).
-* Utilisez le traitement par lots pour les téléchargements SFTP et les workflows.
-* Gérez les erreurs et les exceptions.
+* Conservez le minimum de données possible.
+* Utilisez l'authentification par clé pour éviter l'expiration du mot de passe. Seuls les formats **OpenSSH** et **SSH2** sont pris en charge. Vous devrez fournir la clé publique à l'équipe de support Adobe pour qu'elle soit téléchargée sur le serveur Campaign.
+* Conservez les données que le temps nécessaire. 15 jours est la durée maximale.
+* Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
+* Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
+* Gérez les erreurs/exceptions.
 * Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
 * Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
 Notez également que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être whitelistées sur l’instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://support.neolane.net).
 
-Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d'informations, consultez la [documentation du Panneau de contrôle](https://helpx.adobe.com/fr/campaign/kb/control-panel-sftp.html).
+Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
 >Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
-Vérifiez [ici](https://helpx.adobe.com/fr/campaign/kb/control-panel-faq.html#IMSOrgID) si votre instance est hébergée sur AWS.
+Vérifiez si votre instance est hébergée sur AWS [ici](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
 
 ## Compte externe Amazon S3 {#amazon-s3-external-account}
 
@@ -107,15 +107,15 @@ Pour stocker votre fichier en mode crypté dans S3, cochez la case **[!UICONTROL
 
 Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
-Indiquez la **[!UICONTROL région AWS]** associée à votre point d’entrée. Vous pouvez vérifier les versions de signature et les régions prises en charge dans la [documentation Amazon S3 documentation](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) officielle.
+Indiquez la **[!UICONTROL région AWS]** associée à votre point d’entrée. Pour vérifier les régions et les versions de signatures prises en charge, consultez la [documentation officielle d’Amazon S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 ### Recommandations relatives au compte Amazon S3 {#amazon-s3-account-recommendations}
 
 Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recommandations suivantes :
 
-* Créez une stratégie de compartiment stricte afin de limiter l'accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d'un compartiment. Pour plus d'informations, consultez la [documentation Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* Créez une stratégie de compartiment stricte afin de limiter l'accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d'un compartiment. Pour plus d'informations, consultez la [documentation d'Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Lors de la création d'un compte externe, activez le cryptage pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
-* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l'objet dans un compartiment. Pour plus d'informations sur les autorisations de compartiment, consultez la [documentation d'Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l'objet dans un compartiment. Pour plus d'informations sur les autorisations de compartiment, consultez la [documentation d'Amazon S3](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -134,7 +134,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 >
 >La configuration Google reCAPTCHA nécessite un compte Google.
 
-Le mécanisme Google reCAPTCHA vous permet de protéger votre landing page du spam et des abus causés par les bots. Il ne présente pas d'intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. Pour enregistrer votre site, consultez cette [page](https://www.google.com/recaptcha/admin/create). Vous devez choisir le type reCAPTCHA version 3.
+Le mécanisme Google reCAPTCHA vous permet de protéger votre landing page du spam et des abus causés par les bots. Il ne présente pas d'intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. Pour inscrire votre site, consultez cette [page](https://www.google.com/recaptcha/admin/create). Vous devez choisir le type reCAPTCHA version 3.
 
 Pour ajouter le Google reCAPTCHA version 3 à votre landing page, vous devez tout d'abord le configurer dans votre compte externe. Pour plus d'informations sur la façon de l'ajouter à votre landing page, consultez [cette section](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
 
