@@ -14,8 +14,8 @@ discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -47,7 +47,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
 1. Cliquez sur le bouton **[!UICONTROL Préparer la publication]** pour lancer l'analyse. Veuillez noter que les mises à jour importantes des tables devraient être réalisées lorsque l'instance ne fait pas l'objet d'une utilisation intense par les workflows.
 
-   Pour plus d'informations sur l'action à réaliser sur l'API Profiles &amp; Services, consultez [Publier une ressource avec l'extension de l'API](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+   Pour plus d'informations sur l'action à réaliser sur l'API Profiles &amp; Services, consultez [Publier une ressource avec l'extension de l'API](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
 
