@@ -14,8 +14,8 @@ discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,10 +26,10 @@ Dans le cadre de vos campagnes et programmes, vous pouvez créer des workflows a
 
 L'écran d'édition d'un workflow se compose des éléments suivants :
 
-* La [palette](../../automating/using/workflow-interface.md#palette), référençant les activités disponibles.
-* L'[espace de travail](../../automating/using/workflow-interface.md#workspace), dans lequel les activités sont paramétrées et organisées.
-* La [barre d'actions](../../automating/using/workflow-interface.md#action-bar), composée des boutons permettant d'interagir avec le workflow et ses composants.
-* Les [actions rapides](../../automating/using/workflow-interface.md#quick-actions), qui s'affichent autour d'une activité sélectionnée, permettant d'interagir avec cette dernière.
+* La [palette](#palette), référençant les activités disponibles.
+* L'[espace de travail](#workspace), dans lequel les activités sont paramétrées et organisées.
+* La [barre d'actions](#action-bar), composée des boutons permettant d'interagir avec le workflow et ses composants.
+* Les [actions rapides](#quick-actions), qui s'affichent autour d'une activité sélectionnée, permettant d'interagir avec cette dernière.
 
 ![](assets/wkf_overview.png)
 
