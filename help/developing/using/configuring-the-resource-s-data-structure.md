@@ -14,8 +14,8 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,11 +26,11 @@ Suite à la création d'une ressource personnalisée, vous devez paramétrer la 
 
 Lors de l'édition de la ressource, dans l'onglet **[!UICONTROL Structure de données]**, il est possible d'ajouter :
 
-* [des champs ;](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
-* [des clés d'identification ;](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [des index ;](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)
-* [des liens.](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
-* [Envois](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+* [les champs,](#adding-fields-to-a-resource)
+* [des clés d'identification ;](#defining-identification-keys)
+* [les index,](#defining-indexes)
+* [Liens](#defining-links-with-other-resources)
+* [Envois](#defining-sending-logs-extension)
 
 ## Ajouter des champs à une ressource  {#adding-fields-to-a-resource}
 
