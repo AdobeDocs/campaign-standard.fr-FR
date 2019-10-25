@@ -13,8 +13,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ Utilisez l'interface d'Adobe Campaign pour tracker vos abonnés et mesurer le su
 
 Vous disposez de plusieurs options pour contrôler les inscriptions et désinscriptions :
 
-* Affichez la liste des personnes actuellement inscrites à votre service dans le tableau de bord du service. Voir [Tableau de bord du service](../../audiences/using/monitoring-subscriptions.md#service-dashboard).
-* Consultez l'historique des abonnements et des désabonnements depuis l'onglet **Historique des abonnements** du tableau de bord du service. Voir [Historique des abonnements](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* Affichez un rapport détaillant l'évolution des inscriptions et des désinscriptions dans les **Rapports** du service. Voir [Rapports du service](../../audiences/using/monitoring-subscriptions.md#service-reports).
-* Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* Affichez la liste des personnes actuellement inscrites à votre service dans le tableau de bord du service. Voir [Tableau de bord du service](#service-dashboard).
+* Consultez l'historique des abonnements et des désabonnements depuis l'onglet **Historique des abonnements** du tableau de bord du service. Voir [Historique des abonnements](#subscription-history).
+* Affichez un rapport détaillant l'évolution des inscriptions et des désinscriptions dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
+* Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
 ## Tableau de bord du service  {#service-dashboard}
 
