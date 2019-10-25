@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ Le Concepteur d'email propose quatre méthodes pour créer des emails.
 
 Vous pouvez créer un email à partir de zéro :
 
-* Vous pouvez créer un email à partir d'un canevas vierge en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d'informations, consultez la [documentation de prise en main rapide](../../designing/using/quick-start.md#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Vous pouvez créer un email à partir d'un canevas vierge en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d'informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* Vous pouvez créer un email à partir d'un modèle d'usine. Pour ce faire, sélectionnez un modèle et créez votre contenu d'email à partir de celui-ci. [En savoir plus](quick-start.md#building-content-from-an-out-of-the-box-template)
+* Vous pouvez créer un email à partir d'un modèle d'usine. Pour ce faire, sélectionnez un modèle et créez votre contenu d'email à partir de celui-ci. [En savoir plus](#building-content-from-an-out-of-the-box-template)
 
 Vous pouvez également créer un email avec du contenu existant :
 
-* Vous pouvez convertir du contenu HTML existant (créé en externe ou dans l'ancien éditeur). [En savoir plus](quick-start.md#converting-an-html-content)
-* Vous pouvez importer du contenu HTML existant directement en mode de compatibilité. [En savoir plus](quick-start.md#compatibility-mode)
+* Vous pouvez convertir du contenu HTML existant (créé en externe ou dans l'ancien éditeur). [En savoir plus](#converting-an-html-content)
+* Vous pouvez importer du contenu HTML existant directement en mode de compatibilité. [En savoir plus](#compatibility-mode)
 
 ## Sans contenu existant {#without-existing-content}
 
