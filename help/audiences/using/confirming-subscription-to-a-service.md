@@ -1,7 +1,7 @@
 ---
-title: Confirmation de l’abonnement à un service
-seo-title: Confirmation de l’abonnement à un service
-description: Confirmation de l’abonnement à un service
+title: Confirmer l'abonnement à un service
+seo-title: Confirmer l'abonnement à un service
+description: Confirmer l'abonnement à un service
 seo-description: Pour configurer un message de confirmation pour les profils abonnés à un service dans Adobe Campaign, procédez comme suit.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
@@ -14,12 +14,12 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Confirming subscription to a service{#confirming-subscription-to-a-service}
+# Confirmer l'abonnement à un service{#confirming-subscription-to-a-service}
 
 ## A propos de l’envoi de la confirmation d’abonnement {#sending-subscription-confirmation}
 
@@ -32,8 +32,8 @@ Si vous choisissez d’utiliser le message par défaut, vous pouvez modifier son
 * Ce message sera le même pour tous les services qui utilisent le mode par défaut.
 
 Pour envoyer un message de confirmation spécifique pour un service donné, vous pouvez créer un message personnalisé dans lequel vous pourrez également exploiter les champs de personnalisation d’autres ressources. Pour ce faire, vous devez créer et configurer un message transactionnel. Ce message peut être référencé :
-* Du service lui-même. Pour plus d’informations, voir [Configuration du message de confirmation à partir d’un service](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service).
-* Depuis une page d’entrée d’abonnement. Pour plus d’informations, voir [Configuration du message de confirmation à partir d’une page](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)d’entrée.
+* Du service lui-même. Pour plus d’informations, voir [Configuration du message de confirmation à partir d’un service](#configuring-confirmation-message-from-service).
+* Depuis une page d’entrée d’abonnement. Pour plus d’informations, voir [Configuration du message de confirmation à partir d’une page](#configuring-confirmation-message-from-landing-page)d’entrée.
 
 ## Configuration du message de confirmation à partir d’un service {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ The confirmation email is a [transactional message](../../channels/using/about-t
 
 #### Conception du message de confirmation    {#design-the-confirmation-message-2}
 
-Les étapes de conception du message transactionnel sont présentées dans cette [section](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1).
+Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
 ### Étape 2 : Création et configuration du service {#step-2--create-and-configure-the-service-2}
 
