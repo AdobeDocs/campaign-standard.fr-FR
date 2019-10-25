@@ -15,7 +15,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ Pour parfaire votre message in-app, Adobe Campaign vous permet d'accéder à un 
 
 L'éditeur de contenu in-app vous permet de choisir entre deux modes de message in-app :
 
-* [Modèle de message](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template) : ce modèle permet de personnaliser entièrement votre message in-app avec des images ou des vidéos et des boutons d'action.
-* [Message personnalisé](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message) : ce modèle permet d'importer du code HTML personnalisé.
+* [Modèle de message](#customizing-with-a-message-template) : ce modèle permet de personnaliser entièrement votre message in-app avec des images ou des vidéos et des boutons d'action.
+* [Message personnalisé](#customizing-with-a-custom-html-message) : ce modèle permet d'importer du code HTML personnalisé.
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ La liste déroulante **[!UICONTROL Disposition]** propose quatre options différ
 
 * **[!UICONTROL Notification locale]** : ce type de disposition apparaît en tant que message de bannière.
 
-   Il prend uniquement en charge le son, le texte et la destination. Pour plus d'informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
+   Il prend uniquement en charge le son, le texte et la destination. Pour plus d'informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](#customizing-a-local-notification-message-type).
 
 Chaque type de disposition peut être prévisualisé sur différents appareils tels que téléphone, tablette, plate-forme (Android ou iOS, par exemple) et orientation (paysage ou portrait) dans la fenêtre de droite de l'éditeur de contenu.
 
@@ -125,7 +125,7 @@ Vous pouvez ajouter jusqu'à deux boutons à votre message In-App.
 1. Saisissez l'URL web ou le lien profond dans le champ **[!UICONTROL URL destination]**, si vous avez choisi l'action **[!UICONTROL Rediriger]**.
 1. Vérifiez le contenu de votre message dans la fenêtre de prévisualisation ou en cliquant sur le bouton Aperçu.
 
-   Consultez la page [Prévisualisation du message in-app](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message).
+   Consultez la page [Prévisualisation du message in-app](#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
