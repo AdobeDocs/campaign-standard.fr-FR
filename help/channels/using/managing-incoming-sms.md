@@ -14,8 +14,8 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -62,7 +62,7 @@ Pour ce faire :
 
 Les destinataires peuvent maintenant être automatiquement désabonnés de vos messages et mis en quarantaine avec cette réponse automatique. Les destinataires en quarantaine sont répertoriés dans la table **[!UICONTROL Adresses]** accessible via le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Quarantaines]**. Pour plus d'informations sur les quarantaines, consultez cette [section](../../sending/using/understanding-quarantine-management.md).
 
-Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
+Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
 ## Stocker les SMS entrants  {#storing-incoming-sms}
 
