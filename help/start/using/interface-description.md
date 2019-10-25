@@ -13,8 +13,8 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Les principes de navigation sont les suivants :
 
 * Le logo **[!UICONTROL Adobe Campaign]**, situé dans le coin supérieur gauche de la page, vous donne accès aux configurations et fonctionnalités avancées. Les menus dépendent de votre profil et de vos permissions.
 
-   Le menu avancé est présenté dans la section [Menu avancé](../../start/using/interface-description.md#advanced-menu).
+   Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
 * Le lien **[!UICONTROL Accueil]** permet d'afficher la page d'accueil d'Adobe Campaign.
 * Les liens **[!UICONTROL Activités marketing]**, **[!UICONTROL Programmes et Campagnes]**, **[!UICONTROL Profils]**, **[!UICONTROL Audiences]** et **[!UICONTROL Rapports]** permettent d'accéder aux vues liées à ces fonctionnalités.
