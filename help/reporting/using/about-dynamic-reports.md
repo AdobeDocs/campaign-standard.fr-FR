@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
 
 ---
 
@@ -67,13 +67,13 @@ Les rapports dynamiques sont divisés en deux catégories :
 
 >[!NOTE]
 >
->Ces modifications s’appliquent uniquement au lancement de la version 19.4 de Campaign Standard.
+> Depuis la version 19.4 de Campaign Standard, la fenêtre contextuelle de consentement pour la création de rapports dynamiques a été mise à jour afin d’inclure Adobe Campaign Standard et l’intégration de Microsoft Dynamics 365.
 
 L’accord d’utilisation des rapports dynamiques a pour objectif de fonctionner comme un consentement contextuel pour le traitement des données. Par défaut, seuls les utilisateurs auxquels sont affectés des droits d'administration peuvent afficher et accepter ou refuser cet accord.
 
 Trois options sont disponibles :
 
-* **[!UICONTROL Me demander plus tard]** : lorsque vous cliquez sur Me demander plus tard, la fenêtre ne s'affiche plus pendant 24 heures.
+* **[!UICONTROL Me demander plus tard]****** : lorsque vous cliquez sur Me demander plus tard, la fenêtre ne s'affiche plus pendant 24 heures. Tant que vous n’acceptez pas ou refusez le contrat, les dimensions du profil n’apparaîtront pas dans vos rapports et les informations d’identification personnelle de vos clients ne seront pas collectées ni envoyées.
 * **[!UICONTROL Accepter]**: En acceptant cet accord, vous autorisez Adobe Campaign à collecter les informations d’identification personnelle de vos clients et à les transférer au centre de création de rapports ou de données.
 * **[!UICONTROL Refuser]** : lorsque vous refusez les termes de l'accord, les dimensions de profil ne s'affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées. Notez que dans ce cas, externalID sera toujours collecté et utilisé pour identifier les utilisateurs finaux.
 
@@ -88,11 +88,13 @@ Le tableau ci-dessous indique ce qui se passe après la déclinaison de cet acco
 
 | Région | Reporting dynamique | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
-| Amériques et Asie-Pacifique | **Fonction disponible**. <br> Aucune information prête à l’emploi ni aucune information sur les profils personnalisés n’est transmise au centre de rapports des États-Unis, à l’exception de ExternalID. | **Fonction disponible**. <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données des États-Unis, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données des États-Unis, à l’exception de l’ID de page miroir. |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonction disponible**. <br>Aucune information prête à l’emploi et aucun profil personnalisé n’est envoyé vers le centre de rapports EMEA, à l’exception de ExternalID. | **Fonction disponible.** <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données EMEA, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l’exception de l’ID de page miroir.  <br>**[!UICONTROL Contrôlez les données]** qui contiennent les données d’enregistrement des E/S Adobe et les ID des événements d’utilisateur final envoyés et stockés dans le centre de données des États-Unis. |
+| Amériques et Asie-Pacifique | **Fonction disponible**. <br> Aucune information prête à l’emploi ni aucune information sur les profils personnalisés n’est transmise au centre de rapports des États-Unis, à l’exception de ExternalID. | **Fonction disponible**. <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données des États-Unis, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données des États-Unis, à l’exception de l’ID de page miroir. <br>Pour plus d'informations sur l'intégration de Microsoft Dynamics 365, consultez cette [page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonction disponible**. <br>Aucune information prête à l’emploi et aucun profil personnalisé n’est envoyé vers le centre de rapports EMEA, à l’exception de ExternalID. | **Fonction disponible.** <br>Aucun champ de profil personnalisé ou prêt à l’emploi n’est envoyé au centre de données EMEA, à l’exception des champs ID externe et ID de destinataire. <br>Tous les champs d’événement Adobe Campaign Standard sont traités dans le centre de données EMEA, à l’exception de l’ID de page miroir.  <br>**[!UICONTROL Contrôlez les données]** qui contiennent les données d’enregistrement des E/S Adobe et les ID des événements d’utilisateur final envoyés et stockés dans le centre de données des États-Unis.<br>Pour plus d'informations sur l'intégration de Microsoft Dynamics 365, consultez cette [page](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html). |
 
 Ce choix n'est pas définitif. Vous pouvez toujours changer d'option en sélectionnant **[!UICONTROL Autoriser le transfert des données de PII vers les Etats-Unis afin d'utiliser le reporting sur les données de profil]** dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Options]**.
 
 La valeur peut être modifiée à tout moment. The value 1 corresponds to **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** and 3 **[!UICONTROL Accept]**.
+
+Notez que pour les versions antérieures à Adobe Campaign Standard 19.4, la valeur -1 correspond à **[!UICONTROL Me demander plus tard]**, 0 **[!UICONTROL refuser]** et 1 **[!UICONTROL accepter]**.
 
 ![](assets/pii_window_2.png)
