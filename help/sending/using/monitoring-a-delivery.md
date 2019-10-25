@@ -14,8 +14,8 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,7 +28,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
    Pour visualiser les logs des messages, cliquez sur l'icône située en bas à droite du bloc **[!UICONTROL Déploiement]**.
 
-   Plusieurs onglets contiennent les informations (si elles existent) relatives aux **[!UICONTROL Envois]**, aux **[!UICONTROL Exclus]**, aux **[!UICONTROL Causes d'exclusion]**, aux **[!UICONTROL Logs de tracking]** et **[!UICONTROL URL trackées]**. Voir [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+   Plusieurs onglets contiennent les informations (si elles existent) relatives aux **[!UICONTROL Envois]**, aux **[!UICONTROL Exclus]**, aux **[!UICONTROL Causes d'exclusion]**, aux **[!UICONTROL Logs de tracking]** et **[!UICONTROL URL trackées]**. Voir [Logs de diffusion](#delivery-logs).
 
    ![](assets/sending_delivery1.png)
 
@@ -47,7 +47,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 * [Recevoir des alertes en cas d'échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports](../../reporting/using/about-dynamic-reports.md)
 
-## Logs de diffusion  {#delivery-logs}
+## Logs de diffusion {#delivery-logs}
 
 ### Envois {#sending-logs}
 
