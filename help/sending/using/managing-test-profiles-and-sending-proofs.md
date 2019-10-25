@@ -14,8 +14,8 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
+translation-type: tm+mt
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,12 +30,12 @@ Vous pouvez gérer vos profils de test depuis le menu avancé **[!UICONTROL Prof
 
 Un profil de test est un profil contenant des informations de contact fictives ou contrôlées par l'expéditeur et pouvant être utilisé dans un message dans les contextes suivants :
 
-* Pour envoyer un **Bon à tirer** : le bon à tirer (BAT) est un message spécifique qui permet de valider le message avant l'envoi de la diffusion finalisée aux destinataires. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+* Pour envoyer un **Bon à tirer** : le bon à tirer (BAT) est un message spécifique qui permet de valider le message avant l'envoi de la diffusion finalisée aux destinataires. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](#sending-proofs).
 * Pour le **Rendu des emails** : un profil de test de type Rendu des emails est utilisé pour contrôler l'affichage d'un message en fonction de la boîte de messagerie qui le réceptionne. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    L'usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
-* Comme **Piège** : le message est envoyé au profil de test tel qu’il est envoyé à la cible principale. Voir [Utilisation des pièges](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+* Comme **Piège** : le message est envoyé au profil de test tel qu’il est envoyé à la cible principale. Voir [Utilisation des pièges](#using-traps).
 * Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d'un message afin de tester les éléments de personnalisation. Voir [Prévisualiser un message](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
@@ -73,7 +73,7 @@ Le profil de test est alors ajouté dans la liste des profils.
 
 **Rubrique connexe :**
 
-Vidéo [Créer un profil de test](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html).
 
 ### Editer un profil de test {#editing-test-profiles}
 
@@ -90,7 +90,7 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
 Le bon à tirer (BAT) est un message spécifique qui permet de tester un message avant son envoi à la cible principale.
 
-Les destinataires du BAT sont chargés de la validation du message (contenu et forme). Ils sont définis dans les **Profils de test**. Voir à ce sujet la section [Gérer les profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+Les destinataires du BAT sont chargés de la validation du message (contenu et forme). Ils sont définis dans les **Profils de test**. Voir à ce sujet la section [Gérer les profils de test](#managing-test-profiles).
 
 Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus dans l'audience de votre message.
 
@@ -127,7 +127,7 @@ Vous devez envoyer autant de BAT que nécessaire jusqu'à ce que le contenu de v
 
 **Rubrique connexe :**
 
-Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
 ## Utilisation des pièges {#using-traps}
 
@@ -150,7 +150,7 @@ Pour utiliser un profil de test comme piège, il doit être inclus dans l’audi
 
 >[!NOTE]
 >
->Contrairement aux profils de test utilisés pour les [bons à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) ou le [rendu des emails](../../sending/using/email-rendering.md), le message est envoyé simultanément à la cible principale et aux profils de test utilisés comme pièges.
+>Contrairement aux profils de test utilisés pour les [bons à tirer](#sending-proofs) ou le [rendu des emails](../../sending/using/email-rendering.md), le message est envoyé simultanément à la cible principale et aux profils de test utilisés comme pièges.
 
 Lors de la définition de l’audience d’un message :
 
