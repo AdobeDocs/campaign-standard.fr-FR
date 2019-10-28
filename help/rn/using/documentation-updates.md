@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ Un nouveau graphique présentant le processus de publication des messages transa
 
 Le guide de prise en main des bonnes pratiques de livraison a été mis à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+Une nouvelle section a été ajoutée. Il fournit un aperçu des différentes méthodes qui vous permettent d'enrichir la base de données Campaign Standard. [En savoir plus](../../start/using/enriching-campaign-database.md)
+
+Une nouvelle section décrivant le style des liens avec le concepteur de courrier électronique a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ Une nouvelle section décrivant comment envoyer un courrier électronique de con
 La section de messagerie transactionnelle a été modifiée avec les dernières mises à jour de l’interface utilisateur, y compris la modification du contenu avec le concepteur de courrier électronique. [En savoir plus](../../channels/using/event-transactional-messages.md)
 
 Le chapitre des pages d'entrée a été réorganisé. Il a également été enrichi d'une nouvelle section décrivant les étapes de configuration d'une page d'entrée. [En savoir plus](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+La page d’intégration d’Audience Manager a été mise à jour afin de refléter les modifications d’ID **** déclarés. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Mises à jour de la documentation - Septembre 2019 {#doc-updates-september-2019}
 
