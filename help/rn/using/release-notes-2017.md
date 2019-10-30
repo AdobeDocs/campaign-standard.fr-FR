@@ -27,14 +27,14 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017   {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017    {#release-17-10---october-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -113,7 +113,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -178,14 +178,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d'information ; il n'a aucune incidence directe sur la facturation. Pour plus d'informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d'une erreur qui empêchait l'inscription des profils à un service lors de l'utilisation de l'API Profils et Services.
 
-## Version 17.7 - Juillet 2017   {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017    {#release-17-7---july-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -254,14 +254,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui vous empêchait de définir une transition sortante dans l'assistant de création de diffusion récurrente.
 * Correction d'une erreur qui se produisait lors de l'utilisation d'une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017   {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017    {#release-17-5---may-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-3}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -301,20 +301,20 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui vous empêchait de cliquer sur une notification push dans l'historique marketing d'un profil.
 * L'utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017   {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017    {#release-17-4---april-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-4}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Amélioration des fonctionnalités d'édition d'image avec le Creative SDK<br /> </td> 
+   <td> Des capacités d'édition d'images enrichies grâce au Creative SDK<br /> </td> 
    <td> Grâce au Creative SDK, vous avez désormais accès à un ensemble complet de fonctionnalités afin d'améliorer vos images directement dans l'éditeur de contenu lors de l'édition des emails ou des landing pages.<br /> Cette fonctionnalité ne nécessite pas l'achat de solutions Creative Cloud supplémentaires.<br /> Pour plus d'informations, consultez la <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -327,10 +327,10 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Connecteur Amazon Simple Storage Service (S3)<br /> </td> 
-   <td> Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. La configuration est réalisée dans un compte externe.<br /> Pour plus d'informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /> </td> 
+   <td> Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. La configuration est réalisée dans un compte externe.<br /> Pour plus d'informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Intégration de Dreamweaver disponible<br /> </td> 
+   <td> Intégration de Dreamweaver en ligne<br /> </td> 
    <td> L'intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L'intégration nécessite l'installation de l'extension Adobe Campaign Integration à partir de la page suivante : <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -371,7 +371,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Données de points ciblés : correction d'une erreur qui se produisait lors du comptage des abonnés de localisation.
 
-#### Audiences et requêtes   {#audiences-and-queries}
+#### Audiences et requêtes    {#audiences-and-queries}
 
 * Correction d'une erreur qui empêchait l'utilisation des agrégats (somme et moyenne) sur une collection dans l'éditeur de requêtes.
 * Correction d'une erreur qui empêchait le rechargement de l'éditeur de requêtes après le changement de la ressource du filtre.
@@ -386,14 +386,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur en raison de laquelle un message d'erreur n'était pas affiché lors de la création d'une application Android associée à une application mobile n'ayant pas pu être créée sur MCPNS.
 * Correction d'une erreur qui permettait à un utilisateur d'ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017   {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017    {#release-17-2---march-2017}
 
 ### Nouvelles fonctionnalités {#new-capabilities-5}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -438,7 +438,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
    <td> Démarrez votre processus de ciblage avec une audience existante qui peut facilement être sélectionnée et affinée dans une même activité.<br /> Pour plus d'informations, consultez la <a href="../../automating/using/read-audience.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Données de points ciblés<br /> </td> 
+   <td> Données Points of Interest<br /> </td> 
    <td> Les données de points ciblés sont une intégration entre Adobe Campaign et Adobe Analytics pour Mobile. Il est possible de collecter des données sur localisations mobiles d'un utilisateur - appelées <strong>points ciblés</strong> - lorsque celui-ci ouvre l'application d'une marque. Celle-ci peut alors utiliser les workflows Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de ses clients. Ce canal utilise le SDK de Adobe Mobile Services.<br /> Notez que l'utilisation de cette fonctionnalité requiert Analytics pour Mobile, une solution payante.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
@@ -476,7 +476,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalité<br /> </th> 
+   <th> Fonctionnalités<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
