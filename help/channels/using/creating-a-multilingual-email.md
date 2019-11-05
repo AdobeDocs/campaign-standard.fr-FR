@@ -1,8 +1,6 @@
 ---
 title: Créer un email multilingue
-seo-title: Créer un email multilingue
-description: Créer un email multilingue
-seo-description: Suivez ces étapes pour créer un email multilingue qui cible des destinataires avec des préférences linguistiques différentes.
+description: Suivez ces étapes pour créer un email multilingue qui cible des destinataires avec des préférences linguistiques différentes.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -49,4 +47,4 @@ L'audience est composée de profils dont la préférence linguistique a été in
 
 **Rubrique connexe :**
 
-* [Atteindre des audiences multilingues à l'aide d'un workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l’aide d’un seul processus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
