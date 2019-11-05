@@ -1,8 +1,6 @@
 ---
 title: Gérer les profils de test et envoyer un bon à tirer
-seo-title: Gérer les profils de test et envoyer un bon à tirer
-description: Gérer les profils de test et envoyer un bon à tirer
-seo-description: Découvrez comment gérer les profils de test et les bons à tirer.
+description: Découvrez comment gérer les profils de test et les bons à tirer.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
