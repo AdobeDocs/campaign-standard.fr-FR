@@ -1,8 +1,6 @@
 ---
 title: Créer un email de test A/B
-seo-title: Créer un email de test A/B
-description: Créer un email de test A/B
-seo-description: Découvrez la fonctionnalité de test A/B et suivez ces étapes pour créer un email depuis un modèle de test A/B dans Adobe Campaign.
+description: Découvrez la fonctionnalité de test A/B et suivez ces étapes pour créer un email depuis un modèle de test A/B dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -89,7 +87,7 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 **Rubrique connexe** :
 
-Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
+[Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
 
 ## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
