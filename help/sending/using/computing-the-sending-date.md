@@ -1,8 +1,6 @@
 ---
 title: Calcul de la date d'envoi
-seo-title: Calcul de la date d'envoi
-description: Calcul de la date d'envoi
-seo-description: Découvrez comment envoyer un message à une date et à une heure précises.
+description: Découvrez comment envoyer un message à une date et à une heure précises.
 page-status-flag: never-activated
 uuid: fbbb37a0-7257-4407-a4c9-f76bf04460d4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 28abc1e8aa31f3e0c7f09926f34a977d4c491fd8
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ Vous pouvez également définir une formule pour envoyer le message à chaque de
 
 Par exemple, vous pouvez utiliser l'optimisation de l'heure d'envoi lors de l'installation d'une nouvelle plate-forme.
 
-Lorsque d'importants volumes d'emails sont envoyés de façon soudaine, les Fournisseurs d'accès Internet (FAI) se méfient des adresses IP non reconnues et classent souvent ces messages dans le courrier indésirable. Si d'importants volumes d'emails sont envoyés de façon soudaine, les FAI les classent souvent en indésirables.
+Lorsque vous envoyez des emails à l'aide d'une nouvelle plate-forme, rien n'est plus suspect pour un FAI (fournisseur d'accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
 Pour éviter d'être bloqué par les FAI, vous pouvez augmenter progressivement les volumes envoyés en les répartissant sur plusieurs périodes. Cela devrait vous assurer une phase de démarrage en douceur tout en réduisant le taux d'adresses invalides.
 
