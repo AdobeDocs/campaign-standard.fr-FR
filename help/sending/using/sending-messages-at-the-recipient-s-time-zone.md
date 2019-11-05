@@ -1,8 +1,6 @@
 ---
 title: Envoi des messages au fuseau horaire du destinataire
-seo-title: Envoi des messages au fuseau horaire du destinataire
-description: Envoi des messages au fuseau horaire du destinataire
-seo-description: Apprenez comment envoyer les messages au fuseau horaire du destinataire.
+description: Apprenez comment envoyer les messages au fuseau horaire du destinataire.
 page-status-flag: never-activated
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ Lorsque vous gérez une campagne dans laquelle la date et l'heure sont important
 >
 >Pour utiliser cette fonctionnalité, assurez-vous qu'un fuseau horaire est défini pour chaque profil ciblé par votre diffusion (**[!UICONTROL Propriétés &gt; section Adresse]**). Pour plus d'informations sur l'accès aux propriétés d'un profil, consultez cette [section](../../audiences/using/editing-profiles.md).
 
-Pour envoyer une diffusion au fuseau horaire du destinataire, vous pouvez également utiliser l'activité **[!UICONTROL Planificateur]** dans un workflow. Pour plus d'informations à ce propos, consultez [cette page](../../automating/using/scheduler.md).
+Pour envoyer une diffusion au fuseau horaire du destinataire, vous pouvez également utiliser l'activité **[!UICONTROL Planificateur]** dans un workflow. Voir à ce propos [cette page](../../automating/using/scheduler.md).
 
 Dans l'exemple ci-après, vous voulez envoyer un code promotionnel valable uniquement le jour de la Saint-Valentin à tous vos clients à travers le monde. Pour avoir le temps d'utiliser ce code dans la journée, chaque destinataire doit recevoir votre message le 14 février à 8 heures, selon son fuseau horaire.
 
