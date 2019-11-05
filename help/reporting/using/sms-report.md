@@ -1,8 +1,6 @@
 ---
 title: Rapport SMS
-seo-title: Rapport SMS
-description: Rapport SMS
-seo-description: 'Grâce au rapport d''usine SMS, découvrez les performances de vos diffusions SMS. '
+description: 'Grâce au rapport d''usine SMS, découvrez les performances de vos diffusions SMS. '
 page-status-flag: never-activated
 uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: list-of-reports
 discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
