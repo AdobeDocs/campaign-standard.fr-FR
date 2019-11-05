@@ -1,8 +1,6 @@
 ---
 title: Mise en service et configuration de l'intégration avec Audience Manager ou People core service
-seo-title: Mise en service et configuration de l'intégration avec Audience Manager ou People core service
-description: Mise en service et configuration de l'intégration avec Audience Manager ou People core service
-seo-description: 'Découvrez comment configurer l''intégration d''Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d''Adobe Experience Cloud. '
+description: 'Découvrez comment configurer l''intégration d''Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d''Adobe Experience Cloud. '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ La mise en service et la configuration d'Audience Manager et de People core dans
 
 L'intégration d'Audience Manager ou de People core service permet d'importer et exporter des audiences ou des segments dans Adobe Campaign.
 
-Cette intégration doit être d'abord configurée. Pour demander la mise en service de cette intégration, envoyez un email à l'adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) en incluant les informations suivantes :
+Cette intégration doit d’abord être configurée. Pour demander la mise en service de cette intégration, écrivez un courrier électronique à l’adresse [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) avec les informations suivantes :
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Cette intégration doit être d'abord configurée. Pour demander la mise en serv
 
 Si vous utilisez Adobe Audience Manager au lieu du service principal People, l’ID **[!UICONTROL déclaré]** fonctionne dans tous les scénarios.
 
-Vous pouvez envoyer une demande de mise en service d’ID **** déclaré à l’adresse suivante : [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+Vous pouvez envoyer une requête de mise en service **[!UICONTROL d’ID déclaré]** à l’adresse suivante suivante : [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Configuration de l'intégration dans Adobe Campaign  {#configuring-the-integration-in-adobe-campaign}
 
