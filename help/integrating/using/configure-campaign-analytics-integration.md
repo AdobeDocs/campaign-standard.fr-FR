@@ -1,8 +1,6 @@
 ---
 title: Configurer l'intégration Campaign-Analytics
-seo-title: Configurer l'intégration Campaign-Analytics
-description: Configurer l'intégration Campaign-Analytics
-seo-description: Découvrez comment configurer l'intégration d'Adobe Analytics pour commencer à mesurer les performances de vos diffusions email.
+description: Découvrez comment configurer l'intégration d'Adobe Analytics pour commencer à mesurer les performances de vos diffusions email.
 page-status-flag: never-activated
 uuid: bdaa00b0-7445-469c-8268-9d06c53ce2b0
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 92b9004c-cba0-41fd-a035-32bee1d6a42c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
