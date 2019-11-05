@@ -1,8 +1,6 @@
 ---
 title: Principales étapes pour envoyer un message
-seo-title: Principales étapes pour envoyer un message
-description: Principales étapes pour envoyer un message
-seo-description: Suivez ces étapes pour créer et envoyer des messages avec Adobe Campaign.
+description: Suivez ces étapes pour créer et envoyer des messages avec Adobe Campaign.
 page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat
@@ -13,15 +11,15 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Principales étapes pour envoyer un message{#key-steps-to-send-a-message}
 
-Pour découvrir les bonnes pratiques de diffusion, consultez le guide de prise en main [Bonnes pratiques de diffusion](http://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
+Pour découvrir les bonnes pratiques de diffusion, consultez le guide de prise en main [Bonnes pratiques de diffusion](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
 Les étapes de création et d'envoi des messages sont les suivantes :
 
