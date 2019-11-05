@@ -1,8 +1,6 @@
 ---
 title: Création ou extension de la ressource
-seo-title: Création ou extension de la ressource
-description: Création ou extension de la ressource
-seo-description: Découvrez comment définir entièrement une ressource.
+description: Découvrez comment définir entièrement une ressource.
 page-status-flag: never-activated
 uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
