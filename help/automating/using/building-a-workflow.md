@@ -1,8 +1,6 @@
 ---
 title: Construire un workflow
-seo-title: Construire un workflow
-description: Construire un workflow
-seo-description: Cette section détaille les principes généraux et les bonnes pratiques pour la création d'un workflow.
+description: Cette section détaille les principes généraux et les bonnes pratiques pour la création d'un workflow.
 page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -60,7 +58,7 @@ La création d'une activité marketing est présentée dans la section [Créer u
 
 **Rubrique connexe :**
 
-Vidéo [Créer un workflow](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
+Vidéo [Créer un workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html)
 
 ## Ajouter et relier les activités {#adding-and-linking-activities}
 
@@ -77,7 +75,7 @@ Les activités sont regroupées par catégories dans les différentes sections d
 * La troisième section regroupe des activités qui peuvent être utilisées pour envoyer les messages sur différents canaux. Les activités de cette section peuvent varier en fonction des canaux activés sur votre instance.
 * La quatrième section regroupe les activités de Data Management et de manipulation de fichiers.
 
-Pour construire le diagramme :
+Pour construire le diagramme:
 
 1. Ajoutez une activité en la sélectionnant dans la palette et en la relâchant dans le diagramme.
 
