@@ -1,8 +1,6 @@
 ---
 title: Modèles de landing page
-seo-title: Modèles de landing page
-description: Modèles de landing page
-seo-description: En savoir plus sur les modèles de page d’entrée.
+description: En savoir plus sur les modèles de page d’entrée.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About landing page templates {#landing-page-templates}
+# A propos des modèles de landing page {#landing-page-templates}
 
 Campaign intègre un jeu de modèles de landing page intégrés.
 
