@@ -1,8 +1,6 @@
 ---
 title: Créer un email
-seo-title: Créer un email
-description: Créer un email
-seo-description: Suivez ces étapes pour créer une diffusion email unique dans Adobe Campaign.
+description: Suivez ces étapes pour créer une diffusion email unique dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -92,8 +90,8 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)
-* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GettingStartedEmail.html)
-* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+* [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
+* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
+* Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
