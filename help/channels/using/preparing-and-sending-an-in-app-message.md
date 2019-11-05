@@ -1,8 +1,6 @@
 ---
 title: Préparation et envoi d'un message In-App
-seo-title: Préparation et envoi d'un message In-App
-description: Préparation et envoi d'un message In-App
-seo-description: Créez un message In-App pour cibler les abonnés à votre application avec du contenu spécifique.
+description: Créez un message In-App pour cibler les abonnés à votre application avec du contenu spécifique.
 page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
