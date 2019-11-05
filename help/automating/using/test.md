@@ -1,8 +1,6 @@
 ---
 title: Test
-seo-title: Test
-description: Test
-seo-description: L'activité Test active une transition en fonction d'un résultat au test.
+description: L'activité Test active une transition en fonction d'un résultat au test.
 page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,7 +41,7 @@ Les conditions peuvent être basées sur des **fonctions** ou des **variables**,
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 * [Appeler un workflow avec des paramètres externes](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Faites glisser une activité **[!UICONTROL Test]** et déposez-la dans le workflow.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
