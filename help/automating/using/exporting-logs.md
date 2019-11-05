@@ -1,8 +1,6 @@
 ---
 title: Export des logs
-seo-title: Export des logs
-description: Export des logs
-seo-description: Qu'elles concernent les diffusions ou les abonnements, les données de log peuvent être exportées par le biais d'un workflow simple.
+description: Qu'elles concernent les diffusions ou les abonnements, les données de log peuvent être exportées par le biais d'un workflow simple.
 page-status-flag: never-activated
 uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: importing-and-exporting-data
 discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
