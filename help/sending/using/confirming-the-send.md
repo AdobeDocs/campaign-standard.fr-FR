@@ -1,8 +1,6 @@
 ---
 title: Confirmer l'envoi
-seo-title: Confirmer l'envoi
-description: Confirmer l'envoi
-seo-description: Découvrez comment finaliser la préparation des messages.
+description: Découvrez comment finaliser la préparation des messages.
 page-status-flag: never-activated
 uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
