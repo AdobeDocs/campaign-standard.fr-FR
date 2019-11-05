@@ -1,8 +1,6 @@
 ---
 title: Début et Fin
-seo-title: Début et Fin
-description: Début et Fin
-seo-description: Les activités Début et Fin permettent respectivement de marquer graphiquement les points de départ et de fin d'un workflow.
+description: Les activités Début et Fin permettent respectivement de marquer graphiquement les points de départ et de fin d'un workflow.
 page-status-flag: never-activated
 uuid: 146b6337-122c-453d-8ffd-5c157db29217
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: execution-activities
 discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
