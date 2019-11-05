@@ -1,8 +1,6 @@
 ---
 title: Réconciliation
-seo-title: Réconciliation
-description: Réconciliation
-seo-description: L'activité Réconciliation permet de relier des données non identifiées à des ressources existantes.
+description: L'activité Réconciliation permet de relier des données non identifiées à des ressources existantes.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -83,23 +81,22 @@ Le workflow se compose des activités suivantes :
 
 * un **[!UICONTROL Chargement de fichier]** permettant de charger et détecter les données du fichier à importer. Le fichier importé contient les données suivantes :
 
-    * la date de la transaction
-    * l'adresse email du client
-    * le code du produit acheté.
+   * la date de la transaction
+   * l'adresse email du client
+   * le code du produit acheté.
+   ```
+   date;client;product
+   2015-05-19 09:00:00;mail1@email.com;ZZ1
+   2015-05-19 09:01:00;mail2@email.com;ZZ2
+   2015-05-19 09:01:01;mail3@email.com;ZZ2
+   2015-05-19 09:01:02;mail4@email.com;ZZ2
+   2015-05-19 09:02:00;mail5@email.com;ZZ3
+   2015-05-19 09:03:00;mail6@email.com;ZZ4
+   2015-05-19 09:04:00;mail7@email.com;ZZ5
+   2015-05-19 09:05:00;mail8@email.com;ZZ7
+   2015-05-19 09:06:00;mail9@email.com;ZZ6
+   ```
 
-     ```
-     date;client;product
-     2015-05-19 09:00:00;mail1@email.com;ZZ1
-     2015-05-19 09:01:00;mail2@email.com;ZZ2
-     2015-05-19 09:01:01;mail3@email.com;ZZ2
-     2015-05-19 09:01:02;mail4@email.com;ZZ2
-     2015-05-19 09:02:00;mail5@email.com;ZZ3
-     2015-05-19 09:03:00;mail6@email.com;ZZ4
-     2015-05-19 09:04:00;mail7@email.com;ZZ5
-     2015-05-19 09:05:00;mail8@email.com;ZZ7
-     2015-05-19 09:06:00;mail9@email.com;ZZ6
-     ```
-     
 * une **[!UICONTROL Réconciliation]** permettant de rattacher les données d'achat à des profils de la base ainsi qu'à des produits. Il est ainsi nécessaire de définir une relation entre les données du fichier et la table des profils ainsi que la table des produits. Cette configuration est réalisée dans l'onglet **[!UICONTROL Relations]** de l'activité :
 
    * Relation avec les **Profils** : la colonne **client** du fichier est liée au champ **email** de la dimension des **Profils**.
