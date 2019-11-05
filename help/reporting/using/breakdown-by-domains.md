@@ -1,8 +1,6 @@
 ---
 title: Répartition par domaine (Breakdown by domains)
-seo-title: Répartition par domaine (Breakdown by domains)
-description: Répartition par domaine (Breakdown by domains)
-seo-description: Grâce au rapport d'usine Répartition par domaine (Breakdown by domains), découvrez les données de performance de vos diffusions selon chaque domaine de votre client.
+description: Grâce au rapport d'usine Répartition par domaine (Breakdown by domains), découvrez les données de performance de vos diffusions selon chaque domaine de votre client.
 page-status-flag: never-activated
 uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
