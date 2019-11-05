@@ -1,8 +1,6 @@
 ---
 title: Partager une landing page
-seo-title: Partager une landing page
-description: Partager une landing page
-seo-description: Découvrez comment tester et publier une landing page dans Adobe Campaign.
+description: Découvrez comment tester et publier une landing page dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
