@@ -1,8 +1,6 @@
 ---
 title: Extraction de fichier
-seo-title: Extraction de fichier
-description: Extraction de fichier
-seo-description: L'activité Extraction de fichier permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
+description: L'activité Extraction de fichier permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -116,4 +114,3 @@ Le but de ce workflow est d'exporter une liste de profils sous la forme d'un fic
 1. Démarrez le workflow.
 
    Lorsque le workflow s'est correctement exécuté, le fichier extrait est disponible sur le compte externe.
-
