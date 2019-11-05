@@ -1,8 +1,6 @@
 ---
 title: Envoi de notifications internes
-seo-title: Envoi de notifications internes
-description: Envoi de notifications internes
-seo-description: Découvrez comment envoyer des notifications système en temps réel à vos utilisateurs Adobe Campaign.
+description: Découvrez comment envoyer des notifications système en temps réel à vos utilisateurs Adobe Campaign.
 page-status-flag: never-activated
 uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: application-settings
 discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
