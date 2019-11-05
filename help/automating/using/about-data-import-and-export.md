@@ -1,8 +1,6 @@
 ---
 title: A propos de l'import et de l'export de données
-seo-title: A propos de l'import et de l'export de données
-description: A propos de l'import et de l'export de données
-seo-description: Découvrez les différentes manières d'importer et d'exporter des données avec Adobe Campaign.
+description: Découvrez les différentes manières d'importer et d'exporter des données avec Adobe Campaign.
 page-status-flag: never-activated
 uuid: f6810364-555c-4b72-8a9c-4ae2fcb2ba63
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
