@@ -1,8 +1,6 @@
 ---
 title: Administration d'Adobe Campaign
-seo-title: Administration d'Adobe Campaign
-description: Administration d'Adobe Campaign
-seo-description: Adobe Campaign offre un ensemble complet d'outils d'administration. Découvrez comment gérer vos utilisateurs et configurer vos canaux.
+description: Adobe Campaign offre un ensemble complet d'outils d'administration. Découvrez comment gérer vos utilisateurs et configurer vos canaux.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,5 +48,5 @@ Voici la liste des différents menus disponibles :
 * [Paramétrage de l'instance](../../administration/using/branding.md) : c'est ici que vous définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d'URL d'accès aux landing pages, etc.).
 * [Déploiement](../../automating/using/managing-packages.md) : ce menu regroupe l'import et l'export de packages.
 * [Mesures des clients](../../audiences/using/active-profiles.md) : Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d'information ; il n'a aucune incidence directe sur la facturation.
-* [Outils de confidentialité](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html) : ce menu permet de créer des demandes d'accès et de suppression RGPD et de suivre leur évolution.
+* [Outils d'accès à des informations personnelles](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
 
