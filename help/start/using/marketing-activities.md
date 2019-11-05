@@ -1,8 +1,6 @@
 ---
 title: Activités marketing
-seo-title: Activités marketing
-description: Activités marketing
-seo-description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer une activité, éditer une activité existante et consulter leur état et validité."'
+description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer une activité, éditer une activité existante et consulter leur état et validité."'
 page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
