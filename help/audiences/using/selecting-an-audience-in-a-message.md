@@ -1,21 +1,19 @@
 ---
 title: Sélectionner une audience dans un message
-seo-title: Sélectionner une audience dans un message
-description: Sélectionner une audience dans un message
-seo-description: '"Cette section contient une procédure détaillée pour sélectionner les audiences d''un email : population cible principale et profils de test."'
-page-status-flag: jamais activé
-uuid: 7 d 8 f 8446-f 2 e 0-49 c 1-83 f 6-9667 b 29 bc 228
+description: '"Cette section contient une procédure détaillée pour sélectionner les audiences d''un email : population cible principale et profils de test."'
+page-status-flag: never-activated
+uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: référence
-topic-tags: gestion-audiences
-discoiquuid: 158 da 6 ff -8899-4 e 7 b-b 925-8 a 42 c 3 de 46 a 1
-context-tags: Deliverycreation, assistant ; diffusion, audience, retour
+content-type: reference
+topic-tags: managing-audiences
+discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
+context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -36,21 +34,21 @@ Les audiences peuvent être définies au moment de la création du message via l
 
    L'écran de définition des audiences s'ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d'audience qui recevra le message :
 
-   * Target
-   * les profils de test.
+   * Cible.
+   * Profils de test
    ![](assets/delivery_audience_definition_2.png)
 
-1. Définissez la **[!UICONTROL cible]principale de l'email.** Il s'agit de l'audience cible standard de l'email.
+1. Définissez la **[!UICONTROL cible]** principale de l’email. Il s'agit de l'audience cible standard de l'email.
 
-   La cible est définie dans l'onglet **[!UICONTROL Cible]. Elle est constituée des profils identifiés de votre base de données.**
+   La cible est définie dans l'onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données.
 
    Vous pouvez constituer votre cible principale à l'aide des fonctionnalités de l'[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
-   Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés.** L'onglet **[!UICONTROL Explorateur]vous permet d'accéder à des paramétrages supplémentaires.**
+   Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]** contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés. L'onglet **[!UICONTROL Explorateur]** vous permet d'accéder à des paramétrages supplémentaires.
 
    Vous pouvez ainsi réutiliser et combiner des audiences existantes, leur appliquer des filtres supplémentaires, etc.
 
-1. Définissez les **[!UICONTROL profils de test]que vous souhaitez utiliser pour l'email.** Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l'email avant son envoi à la cible principale.
+1. Définissez les **[!UICONTROL profils de test]** que vous souhaitez utiliser pour l'email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l'email avant son envoi à la cible principale.
 
    Pour plus d'informations sur le paramétrage des profils de test, consultez la section [Profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
