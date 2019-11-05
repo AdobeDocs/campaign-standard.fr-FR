@@ -1,8 +1,6 @@
 ---
 title: 'Création et utilisation d''un contenu réutilisable '
-seo-title: Création et utilisation d'un contenu réutilisable
-description: Création et utilisation d'un contenu réutilisable
-seo-description: Commencez à créer du contenu d'email réutilisable avec le Concepteur d'email.
+description: Commencez à créer du contenu d'email réutilisable avec le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
