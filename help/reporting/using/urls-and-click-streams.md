@@ -1,8 +1,6 @@
 ---
 title: URL et flux de clics (URLs and click streams)
-seo-title: URL et flux de clics (URLs and click streams)
-description: URL et flux de clics (URLs and click streams)
-seo-description: Grâce au rapport d'usine URL et flux de clics (URLs and click streams), découvrez les performances des URL dans vos diffusions.
+description: Grâce au rapport d'usine URL et flux de clics (URLs and click streams), découvrez les performances des URL dans vos diffusions.
 page-status-flag: never-activated
 uuid: 712b26b2-3b4b-487c-8d47-e56dc34609a4
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 9349de98-6b77-4d1c-b2fe-cf44cdcd07ce
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
