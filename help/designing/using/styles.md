@@ -1,8 +1,6 @@
 ---
 title: Gestion des styles
-seo-title: Gestion des styles
-description: Gestion des styles
-seo-description: Découvrez comment gérer les styles d'email dans le Concepteur d'email.
+description: Découvrez comment gérer les styles d'email dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
