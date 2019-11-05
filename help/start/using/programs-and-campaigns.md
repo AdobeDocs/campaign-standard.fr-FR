@@ -1,8 +1,6 @@
 ---
 title: Programmes et campagnes
-seo-title: Programmes et campagnes
-description: Programmes et campagnes
-seo-description: Dans Adobe Campaign, les programmes et les campagnes permettent de regrouper et orchestrer les différentes activités marketing qui leur sont associées. Des rapports sur les programmes et les campagnes permettent d'analyser leur impact.
+description: Dans Adobe Campaign, les programmes et les campagnes permettent de regrouper et orchestrer les différentes activités marketing qui leur sont associées. Des rapports sur les programmes et les campagnes permettent d'analyser leur impact.
 page-status-flag: never-activated
 uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
 context-tags: campaign,overview;campaignExplorer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
