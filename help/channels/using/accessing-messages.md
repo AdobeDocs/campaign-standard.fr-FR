@@ -1,8 +1,6 @@
 ---
 title: Accéder aux messages
-seo-title: Accéder aux messages
-description: Accéder aux messages
-seo-description: '"Découvrez comment accéder aux messages et à leurs fonctionnalités avancées : création, ciblage, personnalisation, exécution et reporting."'
+description: '"Découvrez comment accéder aux messages et à leurs fonctionnalités avancées : création, ciblage, personnalisation, exécution et reporting."'
 page-status-flag: never-activated
 uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
