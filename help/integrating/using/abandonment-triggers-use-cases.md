@@ -1,8 +1,6 @@
 ---
 title: Cas pratiques Triggers d'abandon
-seo-title: Cas pratiques Triggers d'abandon
-description: Cas pratiques Triggers d'abandon
-seo-description: Découvrez comment utiliser l'intégration des Triggers Adobe Experience Cloud grâce à ces différents cas pratiques.
+description: Découvrez comment utiliser l'intégration des Triggers Adobe Experience Cloud grâce à ces différents cas pratiques.
 page-status-flag: never-activated
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
