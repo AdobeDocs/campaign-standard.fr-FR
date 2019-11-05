@@ -1,8 +1,6 @@
 ---
 title: Désinscriptions (Unsubscriptions)
-seo-title: Désinscriptions (Unsubscriptions)
-description: Désinscriptions (Unsubscriptions)
-seo-description: Grâce au rapport d'usine Désinscriptions (Unsubscriptions), découvrez combien de fois les clients se sont désabonnés à vos diffusions.
+description: Grâce au rapport d'usine Désinscriptions (Unsubscriptions), découvrez combien de fois les clients se sont désabonnés à vos diffusions.
 page-status-flag: never-activated
 uuid: 62e24335-dd63-4767-86e3-4084be04fc50
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
