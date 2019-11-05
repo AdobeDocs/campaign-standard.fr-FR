@@ -1,8 +1,6 @@
 ---
 title: Edition avancée d'expressions
-seo-title: Edition avancée d'expressions
-description: Edition avancée d'expressions
-seo-description: L'assistant d'édition de requêtes permet de définir des expressions avancées.
+description: L'assistant d'édition de requêtes permet de définir des expressions avancées.
 page-status-flag: never-activated
 uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -64,7 +62,7 @@ L'édition d'une expression vous permet de personnaliser l'expression Audiences 
 
 **Rubriques connexes :**
 
-* [Syntaxe des expressions](../../automating/using/advanced-expression-editing.md#expression-syntax)
+* [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
 ## Syntaxe des expressions  {#expression-syntax}
@@ -133,7 +131,7 @@ Les conditions doivent être liées aux valeurs à l'aide de l'un des opérateur
   <tr> 
    <th> Opérateur<br /> </th> 
    <th> Syntaxe standard<br /> </th> 
-   <th> Syntaxe JavaScript<br /> </th> 
+   <th> Syntaxe JavaScript <br /> </th> 
    <th> Description<br /> </th> 
    <th> Exemple<br /> </th> 
   </tr> 
