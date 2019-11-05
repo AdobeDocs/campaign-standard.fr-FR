@@ -1,8 +1,6 @@
 ---
 title: Création d'une notification push multilingue
-seo-title: Création d'une notification push multilingue
-description: Création d'une notification push multilingue
-seo-description: Créez des notifications push multilingues pour cibler les utilisateurs dans leur langue et zone géographique préférées.
+description: Créez des notifications push multilingues pour cibler les utilisateurs dans leur langue et zone géographique préférées.
 page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
