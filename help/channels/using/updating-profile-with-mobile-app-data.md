@@ -1,8 +1,6 @@
 ---
 title: Création et mise à jour des informations de profil en fonction des données d'application mobile
-seo-title: Création et mise à jour des informations de profil en fonction des données d'application mobile
-description: Création et mise à jour des informations de profil en fonction des données d'application mobile
-seo-description: Découvrez comment créer et mettre à jour les informations de profil en fonction des données d'application mobile.
+description: Découvrez comment créer et mettre à jour les informations de profil en fonction des données d'application mobile.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: lemaitre
@@ -14,8 +12,8 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -36,8 +34,8 @@ L'objectif de ce cas pratique est de créer ou de mettre à jour un profil Campa
 Avant que les profils puissent être créés ou mis à jour en fonction des données d'abonnement aux applications mobiles, vous devez suivre plusieurs étapes de configuration pour activer les notifications push dans Campaign Standard :
 
 1. [Créer une application mobile](../../administration/using/configuring-a-mobile-application.md)
-1. [Intégrer le SDK Adobe Mobile avec votre application mobile](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configurer Adobe Campaign pour envoyer des notifications push](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Intégrez le SDK mobile Adobe à votre application](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)mobile.
+1. [Configurez Adobe Campaign pour envoyer des notifications](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)Push.
 
 ## Etape 1 - Etendre la ressource Profil pour les notifications push/abonnements
 
