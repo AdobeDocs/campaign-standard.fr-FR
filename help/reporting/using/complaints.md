@@ -1,21 +1,19 @@
 ---
 title: Plaintes (Complaints)
-seo-title: Plaintes (Complaints)
-description: Plaintes (Complaints)
-seo-description: Grâce au rapport d'usine Plaintes (Complaints), découvrez combien de fois une diffusion a été déclarée comme spam.
-page-status-flag: jamais activé
-uuid: 9 a 973460-fda 1-4 eb 0-9 b 6 e-df 421 df 8 ca 02
+description: Grâce au rapport d'usine Plaintes (Complaints), découvrez combien de fois une diffusion a été déclarée comme spam.
+page-status-flag: never-activated
+uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: e 32 cfb 8 f-e 973-4 bf 2-a 7 f 9-e 99951 a 6 bfbd
-context-tags: Deliverycomplaintsreport, main ; Campaigncomplaintsreport, main ; Programplaintsreport, main
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
+context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
