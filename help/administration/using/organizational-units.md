@@ -1,8 +1,6 @@
 ---
 title: Entités organisationnelles
-seo-title: Entités organisationnelles
-description: Entités organisationnelles
-seo-description: Définissez les niveaux d'accès de vos utilisateurs à l'aide des entités organisationnelles.
+description: Définissez les niveaux d'accès de vos utilisateurs à l'aide des entités organisationnelles.
 page-status-flag: never-activated
 uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
