@@ -1,8 +1,6 @@
 ---
 title: '"Etape 2 : Publier l''extension"'
-seo-title: '"Etape 2 : Publier l''extension"'
-description: '"Etape 2 : Publier l''extension"'
-seo-description: null
+description: null
 page-status-flag: never-activated
 uuid: 0c944ed0-3007-4c1b-8960-41c7ef6121cf
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
