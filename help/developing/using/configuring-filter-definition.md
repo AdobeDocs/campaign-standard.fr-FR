@@ -1,8 +1,6 @@
 ---
 title: Configuration de la définition des filtres
-seo-title: Configuration de la définition des filtres
-description: Configuration de la définition des filtres
-seo-description: Découvrez la fonctionnalité de filtre pour gérer un jeu de données volumineux.
+description: Découvrez la fonctionnalité de filtre pour gérer un jeu de données volumineux.
 page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
