@@ -1,8 +1,6 @@
 ---
 title: '"Etape 3 : Vérifier l''extension"'
-seo-title: '"Etape 3 : Vérifier l''extension"'
-description: '"Etape 3 : Vérifier l''extension"'
-seo-description: Apprenez à accéder au champ étendu avec l'API REST.
+description: Apprenez à accéder au champ étendu avec l'API REST.
 page-status-flag: never-activated
 uuid: 35ba89a5-a354-466f-91a0-50de111a2e00
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
