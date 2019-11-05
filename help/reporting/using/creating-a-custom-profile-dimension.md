@@ -1,8 +1,6 @@
 ---
 title: Création d'une dimension de profil personnalisé
-seo-title: Création d'une dimension de profil personnalisé
-description: Création d'une dimension de profil personnalisé
-seo-description: Découvrez comment créer une dimension de profil personnalisé à partir des données de profil personnalisé.
+description: Découvrez comment créer une dimension de profil personnalisé à partir des données de profil personnalisé.
 page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
