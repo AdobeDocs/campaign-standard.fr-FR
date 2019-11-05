@@ -1,8 +1,6 @@
 ---
 title: Liste des fonctions
-seo-title: Liste des fonctions
-description: Liste des fonctions
-seo-description: L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes.
+description: L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes.
 page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
