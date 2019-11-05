@@ -1,8 +1,6 @@
 ---
 title: '"Cas pratique de workflow : création d''une diffusion hebdomadaire"'
-seo-title: '"Cas pratique de workflow : création d''une diffusion hebdomadaire"'
 description: '"Cas pratique de workflow : création d''une diffusion hebdomadaire"'
-seo-description: '"Cas pratique de workflow : création d''une diffusion hebdomadaire"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
