@@ -1,8 +1,6 @@
 ---
 title: Notions de modèle de données
-seo-title: Notions de modèle de données
-description: Notions de modèle de données
-seo-description: Découvrez le modèle de données Adobe Campaign et comment le modifier.
+description: Découvrez le modèle de données Adobe Campaign et comment le modifier.
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
