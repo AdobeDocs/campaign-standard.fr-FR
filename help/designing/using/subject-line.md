@@ -1,8 +1,6 @@
 ---
-title: Définition de l’objet et de l’expéditeur d’un email
-seo-title: Définition de l’objet et de l’expéditeur d’un email
-description: Définition de l’objet et de l’expéditeur d’un email
-seo-description: Découvrez comment définir l’objet et l’expéditeur d’un email dans le Concepteur d’email.
+title: Définition de l'objet et de l'expéditeur d'un email
+description: Découvrez comment définir l'objet et l'expéditeur d'un email dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Définition de l’objet et de l’expéditeur d’un email{#defining-the-subject-line-of-an-email}
+# Définition de l'objet et de l'expéditeur d'un email{#defining-the-subject-line-of-an-email}
 
 L'objet de l'email est obligatoire pour préparer et envoyer le message.
 
@@ -29,10 +27,10 @@ L'objet de l'email est obligatoire pour préparer et envoyer le message.
 
 Pour configurer l'objet de l'email, accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible via l'icône de maison) et remplissez la section **[!UICONTROL Objet]**.
 
-**Pour définir l’objet d’un email** :
+**Pour définir l'objet d'un email** :
 
 1. Créez un email.
-1. Fermez la page d’accueil.
+1. Fermez la page d'accueil.
 1. Accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible par le biais de l'icône Accueil) et renseignez la section **Objet[!UICONTROL .]**
 
 ![](assets/email_designer_subject.png)
