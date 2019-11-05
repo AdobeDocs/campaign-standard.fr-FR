@@ -1,8 +1,6 @@
 ---
 title: Test de l'objet d'un email
-seo-title: Test de l'objet d'un email
-description: Test de l'objet d'un email
-seo-description: Découvrez comment définir l’objet d’un email dans le Concepteur d’email.
+description: Découvrez comment définir l’objet d’un email dans le Concepteur d’email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -14,13 +12,13 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 # Test de l'objet d'un email {#testing-a-subject}
 
-To test your subject line, follow the steps below:
+Pour tester votre objet, procédez comme suit :
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l'objet de l'email dans le champ de saisie prévu à cet effet.
