@@ -1,8 +1,6 @@
 ---
-title: Etapes principales de configuration d’une page d’entrée
-seo-title: Etapes principales de configuration d’une page d’entrée
-description: Etapes principales de configuration d’une page d’entrée
-seo-description: Découvrez les étapes principales pour configurer une page d'entrée
+title: Etapes principales pour configurer une landing page
+description: Découvrez les étapes principales pour configurer une page d'entrée
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Etapes principales de configuration d’une page d’entrée {#main-steps-create-a-landing-page}
+# Etapes principales pour configurer une landing page {#main-steps-create-a-landing-page}
 
 ## A propos de la création de la page d’entrée
 
