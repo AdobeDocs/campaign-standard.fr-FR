@@ -1,8 +1,6 @@
 ---
 title: Rapport des notifications push (Push notification)
-seo-title: Rapport des notifications push (Push notification)
-description: Rapport des notifications push (Push notification)
-seo-description: Grâce au rapport d'usine Notification push (Push notification), découvrez les performances de vos notifications push.
+description: Grâce au rapport d'usine Notification push (Push notification), découvrez les performances de vos notifications push.
 page-status-flag: never-activated
 uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,7 +25,7 @@ source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 Le rapport **notification push** (Push notification) fournit des informations détaillées sur les performances marketing des notifications push dans Adobe Campaign. Ce rapport d'usine permet de comprendre comment les utilisateurs interagissent avec les notifications push, les applications mobiles et les diffusions.
 
-Une configuration est nécessaire dans l'application mobile pour mettre en œuvre le tracking des notifications push. Pour obtenir les étapes détaillées, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/push-tracking.html).
+Une configuration est nécessaire dans l'application mobile pour mettre en œuvre le tracking des notifications push. Pour obtenir les étapes détaillées, consultez cette [page](https://helpx.adobe.com/campaign/kb/push-tracking.html).
 
 ![](assets/dynamic_report_push.png)
 
