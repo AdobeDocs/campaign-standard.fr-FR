@@ -1,8 +1,6 @@
 ---
 title: Retour à l'expéditeur
-seo-title: Retour à l'expéditeur
-description: Retour à l'expéditeur
-seo-description: Découvrez comment être informé d'une adresse incorrecte et l'exclure des prochaines communications.
+description: Découvrez comment être informé d'une adresse incorrecte et l'exclure des prochaines communications.
 page-status-flag: never-activated
 uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: direct-mail
 discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
