@@ -1,8 +1,6 @@
 ---
 title: Gestion des packages
-seo-title: Gestion des packages
-description: Gestion des packages
-seo-description: Les administrateurs peuvent définir des packages pour échanger des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
+description: Les administrateurs peuvent définir des packages pour échanger des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 page-status-flag: never-activated
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
