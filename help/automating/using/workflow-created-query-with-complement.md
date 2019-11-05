@@ -1,8 +1,6 @@
 ---
 title: '"Cas pratique de workflow : création de diffusions avec un complémentaire"'
-seo-title: '"Cas pratique de workflow : création de diffusions avec un complémentaire"'
 description: '"Cas pratique de workflow : création de diffusions avec un complémentaire"'
-seo-description: '"Cas pratique de workflow : création de diffusions avec un complémentaire"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
