@@ -1,8 +1,6 @@
 ---
 title: A propos de la conception du contenu d'un SMS et d'une notification push
-seo-title: A propos de la conception du contenu d'un SMS et d'une notification push
-description: A propos de la conception du contenu d'un SMS et d'une notification push
-seo-description: Découvrez l'éditeur utilisé pour modifier le contenu des SMS et des notifications push dans Adobe Campaign.
+description: Découvrez l'éditeur utilisé pour modifier le contenu des SMS et des notifications push dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
