@@ -1,8 +1,6 @@
 ---
 title: Promouvoir un service
-seo-title: Promouvoir un service
-description: Promouvoir un service
-seo-description: Utilisez Adobe Campaign pour promouvoir un service et interagir avec vos clients par le biais de landing pages et d'emails dédiés ou directement sur votre site web.
+description: Utilisez Adobe Campaign pour promouvoir un service et interagir avec vos clients par le biais de landing pages et d'emails dédiés ou directement sur votre site web.
 page-status-flag: never-activated
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
