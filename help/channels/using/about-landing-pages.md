@@ -1,8 +1,6 @@
 ---
 title: A propos des landing pages
-seo-title: A propos des landing pages
-description: A propos des landing pages
-seo-description: Découvrez les landing pages Campaign et leur cycle de vie.
+description: Découvrez les landing pages Campaign et leur cycle de vie.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
