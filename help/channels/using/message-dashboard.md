@@ -1,8 +1,6 @@
 ---
 title: Tableau de bord des messages
-seo-title: Tableau de bord des messages
-description: Tableau de bord des messages
-seo-description: Découvrez la composition du tableau de bord d'un message, notamment la barre d'actions et les différents blocs fonctionnels.
+description: Découvrez la composition du tableau de bord d'un message, notamment la barre d'actions et les différents blocs fonctionnels.
 page-status-flag: never-activated
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
