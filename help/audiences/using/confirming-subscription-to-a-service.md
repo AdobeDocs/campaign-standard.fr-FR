@@ -1,8 +1,6 @@
 ---
 title: Confirmer l'abonnement à un service
-seo-title: Confirmer l'abonnement à un service
-description: Confirmer l'abonnement à un service
-seo-description: Pour configurer un message de confirmation pour les profils abonnés à un service dans Adobe Campaign, procédez comme suit.
+description: Pour configurer un message de confirmation pour les profils abonnés à un service dans Adobe Campaign, procédez comme suit.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
