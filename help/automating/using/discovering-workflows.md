@@ -1,8 +1,6 @@
 ---
 title: Présentation des workflows
-seo-title: Présentation des workflows
-description: Présentation des workflows
-seo-description: Adobe Campaign propose un environnement graphique complet qui permet de concevoir et automatiser des processus.
+description: Adobe Campaign propose un environnement graphique complet qui permet de concevoir et automatiser des processus.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
