@@ -1,8 +1,6 @@
 ---
 title: Diffusion SMS
-seo-title: Diffusion SMS
-description: Diffusion SMS
-seo-description: L'activité Diffusion SMS permet de paramétrer l'envoi d'un SMS unique ou récurrent dans un workflow.
+description: L'activité Diffusion SMS permet de paramétrer l'envoi d'un SMS unique ou récurrent dans un workflow.
 page-status-flag: never-activated
 uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
