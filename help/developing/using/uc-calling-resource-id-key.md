@@ -1,10 +1,8 @@
 ---
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
-seo-title: Appel d'une ressource à l'aide d'une clé d'identification composite
-description: Appel d'une ressource à l'aide d'une clé d'identification composite
-seo-description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
+description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
