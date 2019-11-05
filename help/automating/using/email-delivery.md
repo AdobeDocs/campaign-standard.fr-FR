@@ -1,8 +1,6 @@
 ---
-title: Diffusion Email
-seo-title: Diffusion Email
-description: Diffusion Email
-seo-description: L'activité Diffusion Email permet de paramétrer l'envoi d'un email unique ou récurrent dans un workflow.
+title: 'Diffusion Email '
+description: L'activité Diffusion Email permet de paramétrer l'envoi d'un email unique ou récurrent dans un workflow.
 page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -60,7 +58,7 @@ La préparation du message est déclenchée selon les paramètres d'exécution d
 
       Par exemple, pour un email récurrent d'anniversaire, envoyé chaque jour, vous pouvez choisir d'agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que l'email est envoyé chaque jour.
 
-1. Sélectionnez un type d'email. Les types d'emails sont issus des modèles d'emails définis dans **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
+1. Choisissez un type d'email. Les types d'emails sont issus des modèles d'emails définis dans **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales de l'email. Vous pouvez également rattacher l'activité à une campagne existante. Le libellé de l'activité de la diffusion dans le workflow est mis à jour avec le libellé de l'email.
 1. Définissez le contenu de l'email. Consultez la section concernant l'[édition de contenu](../../designing/using/overview.md).
 1. Par défaut, l'activité de **[!UICONTROL Diffusion Email]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l'onglet **[!UICONTROL Général]** des options avancées de l'activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l'activité) puis cochez l'une des options suivantes :
