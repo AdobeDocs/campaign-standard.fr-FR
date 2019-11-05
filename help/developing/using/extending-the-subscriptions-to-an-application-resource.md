@@ -1,8 +1,6 @@
 ---
 title: Extension des abonnements à une ressource d'application
-seo-title: Extension des abonnements à une ressource d'application
-description: Extension des abonnements à une ressource d'application
-seo-description: null
+description: null
 page-status-flag: never-activated
 uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
