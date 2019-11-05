@@ -1,8 +1,6 @@
 ---
 title: Enrichissement
-seo-title: Enrichissement
-description: Enrichissement
-seo-description: L'activité Enrichissement est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
+description: L'activité Enrichissement est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -140,5 +138,5 @@ Le workflow est configuré comme suit :
 
 **Rubrique connexe :**
 
-* [Enrichir les profils de client avec des données externes](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Enrichir les profils des clients avec des données externes](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
