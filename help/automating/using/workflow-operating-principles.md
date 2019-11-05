@@ -1,8 +1,6 @@
 ---
 title: Principes de fonctionnement des workflows
-seo-title: Principes de fonctionnement des workflows
-description: Principes de fonctionnement des workflows
-seo-description: Découvrez les principaux aspects des workflows.
+description: Découvrez les principaux aspects des workflows.
 page-status-flag: never-activated
 uuid: 85755e85-617b-4a9b-bb30-96ba8333f4f0
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 3a13785d-1ef7-4043-9927-2d495b83709f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
