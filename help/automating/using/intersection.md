@@ -1,8 +1,6 @@
 ---
 title: Intersection
-seo-title: Intersection
-description: Intersection
-seo-description: L'activité Intersection permet de ne conserver que les éléments communs aux différentes populations entrantes dans l'activité.
+description: L'activité Intersection permet de ne conserver que les éléments communs aux différentes populations entrantes dans l'activité.
 page-status-flag: never-activated
 uuid: a60f9811-0158-44b3-952b-392685c006cc
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
