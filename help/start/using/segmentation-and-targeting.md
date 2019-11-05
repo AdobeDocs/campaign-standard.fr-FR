@@ -1,8 +1,6 @@
 ---
 title: Segmentation et ciblage
-seo-title: Segmentation et ciblage
-description: Segmentation et ciblage
-seo-description: '"Découvrez les profils, le ciblage et la création d''une audience dans Campaign : créez des audiences, importez des contacts, partagez des audiences avec des solutions Experience Cloud et évitez la lassitude marketing."'
+description: '"Découvrez les profils, le ciblage et la création d''une audience dans Campaign : créez des audiences, importez des contacts, partagez des audiences avec des solutions Experience Cloud et évitez la lassitude marketing."'
 page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
