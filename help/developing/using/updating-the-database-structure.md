@@ -1,8 +1,6 @@
 ---
 title: Mettre à jour la structure de la base de données
-seo-title: Mettre à jour la structure de la base de données
-description: Mettre à jour la structure de la base de données
-seo-description: Découvrez comment mettre à jour la base de données Adobe Campaign.
+description: Découvrez comment mettre à jour la base de données Adobe Campaign.
 page-status-flag: never-activated
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: deploy,main;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
