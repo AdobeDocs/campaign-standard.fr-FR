@@ -1,8 +1,6 @@
 ---
 title: Exclusion
-seo-title: Exclusion
-description: Exclusion
-seo-description: L'activité Exclusion permet d'exclure des éléments d'une population selon certains critères.
+description: L'activité Exclusion permet d'exclure des éléments d'une population selon certains critères.
 page-status-flag: never-activated
 uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ L'activité **[!UICONTROL Exclusion]** est essentiellement utilisée afin de ré
 
 Un ensemble principal est défini parmi les transitions entrantes. Les membres des autres transitions entrantes sont exclus de l'ensemble principal. La transition sortante de l'activité d'exclusion contient uniquement les membres de l'ensemble principal non rencontrés dans les autres transitions entrantes.
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Exclusion]** dans votre workflow.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
