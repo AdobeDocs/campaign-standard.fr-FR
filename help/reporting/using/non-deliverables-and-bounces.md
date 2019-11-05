@@ -1,8 +1,6 @@
 ---
 title: Echecs et retours
-seo-title: Echecs et retours
-description: Echecs et retours
-seo-description: 'Grâce au rapport d''usine Echecs et retours (Non-deliverables and bounces), découvrez les erreurs qui peuvent s''être produites pendant votre diffusion. '
+description: 'Grâce au rapport d''usine Echecs et retours (Non-deliverables and bounces), découvrez les erreurs qui peuvent s''être produites pendant votre diffusion. '
 page-status-flag: never-activated
 uuid: b70ae9ec-b659-42bf-b663-73615307005b
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
