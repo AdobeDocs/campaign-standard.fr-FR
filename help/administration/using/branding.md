@@ -1,21 +1,19 @@
 ---
 title: Marques
-seo-title: Marques
-description: Marques
-seo-description: Découvrez tous les outils disponibles pour gérer les identités des marques.
-page-status-flag: jamais activé
-uuid: d 66 ac 5 a 2-2 ae 1-4870-b 48 e -7 f 276744 ffdd
+description: Découvrez tous les outils disponibles pour gérer les identités des marques.
+page-status-flag: never-activated
+uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
+content-type: reference
 topic-tags: application-settings
-discoiquuid: cbb 1 dcec -3 bc 6-4013-87 fa -27 d 0 e 5 d 32 bf 8
-context-tags: marque, présentation ; marque, principale
+discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -28,7 +26,7 @@ Chaque entreprise dispose de directives visuelles et techniques en ce qui concer
 
 Les administrateurs techniques peuvent définir une ou plusieurs marques afin de renseigner de manière centralisée les paramètres qui touchent à l'identité d'une marque, par exemple : le logo de la marque, le domaine d'URL d'accès aux landing pages ainsi que les paramètres du tracking des messages. Avec Adobe Campaign, vous pouvez créer ces marques et les associer à des messages ou des landing pages. Cette configuration est gérée dans des modèles.
 
-## Configuration et utilisation des marques {#configuring-and-using-brands}
+## Configuration et utilisation des marques  {#configuring-and-using-brands}
 
 Le principe général de paramétrage et d'utilisation des marques est le suivant :
 
@@ -40,7 +38,7 @@ Le principe général de paramétrage et d'utilisation des marques est le suivan
 >
 >Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l'administrateur technique Adobe Campaign. Pour toute demande, contactez l'assistance client Adobe. Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Les marques figurent dans **[!UICONTROL Administration &gt; Paramétrage de l'instance &gt; Paramétrage des marques].**
+Les marques figurent dans **[!UICONTROL Administration &gt; Paramétrage de l'instance &gt; Paramétrage des marques]**.
 
 Par défaut, la marque nouvellement créée est uniquement visible par les utilisateurs auxquels les droits correspondants ont été affectés par l'administrateur.
 
@@ -82,7 +80,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
    ![](assets/branding_05.png)
 
-## Affectation d'une marque à un email {#assigning-a-brand-to-an-email}
+## Affectation d'une marque à un email  {#assigning-a-brand-to-an-email}
 
 ### Liaison d'une marque à un modèle {#linking-a-brand-to-a-template}
 
@@ -94,7 +92,7 @@ Pour utiliser les paramètres définis pour une marque, elle doit être liée à
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
-1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]pour accéder aux propriétés de votre modèle.**
+1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]** pour accéder aux propriétés de votre modèle.
 
    ![](assets/branding_04.png)
 
@@ -102,11 +100,11 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
    >[!NOTE]
    >
-   >Par défaut, la marque **[!UICONTROL Marque par défaut (branding)]est sélectionnée.**
+   >Par défaut, la marque **[!UICONTROL Marque par défaut (branding)]** est sélectionnée.
 
    ![](assets/branding_05.png)
 
-   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l'icône **[!UICONTROL Naviguer vers le détail de l'élément sélectionné].**
+   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l'icône **[!UICONTROL Naviguer vers le détail de l'élément sélectionné]**.
 
    ![](assets/branding_06.png)
 
@@ -114,17 +112,17 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
 Votre modèle est lié à la marque. Dans l'éditeur d'email, les éléments comme l'**adresse email de l'expéditeur par défaut**, le **nom de l'expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
-### Cas pratique de marque {#branding-use-case}
+### Cas pratique de marque  {#branding-use-case}
 
 Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
 
-#### Configurer une nouvelle marque {#configure-a-new-brand}
+#### Configurer une nouvelle marque  {#configure-a-new-brand}
 
 >[!CAUTION]
 >
 >La configuration des marques n'est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
 
-1. The Adobe Campaign administrator creates the brand in **[!UICONTROL Administration &gt; Instance settings &gt; Brand configuration]**. il ajoute l'élément **Voyages sous les tropiques** et configure l'**[!UICONTROL identité]** et les **paramètres d'en-tête des emails envoyés]de la marque.[!UICONTROL **
+1. L'administrateur Adobe Campaign crée la marque dans **[!UICONTROL Administration &gt; Paramétrage de l'instance &gt; Paramétrage des marques]**. il ajoute l'élément **Voyages sous les tropiques** et configure l'**[!UICONTROL identité]** et les **[!UICONTROL paramètres d'en-tête des emails envoyés]** de la marque.
 
    ![](assets/branding_07.png)
 
@@ -136,11 +134,11 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Mettre en œuvre une nouvelle marque {#implement-a-new-brand}
+#### Mettre en œuvre une nouvelle marque  {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d'utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
-1. In the advanced menu **[!UICONTROL Resources &gt; Templates &gt; Delivery templates]**, duplicate a built-in template to configure a new delivery template.
+1. Dans le menu avancé **[!UICONTROL Ressources &gt; Modèles &gt; Modèles de diffusion]**, dupliquez un modèle intégré afin de configurer un nouveau modèle de diffusion.
 
    ![](assets/branding_08.png)
 
@@ -155,15 +153,15 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Utiliser la nouvelle marque dans une diffusion {#use-the-new-brand-in-a-delivery}
+#### Utiliser la nouvelle marque dans une diffusion  {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** dans le menu **Activités marketing[!UICONTROL .]**
+1. Cliquez sur le bouton **[!UICONTROL Créer]** dans le menu **[!UICONTROL Activités marketing]**.
 
    ![](assets/branding_14.png)
 
-1. Sélectionnez l'activité **[!UICONTROL Email], puis choisissez le modèle lié à la nouvelle marque.**
+1. Sélectionnez l'activité **[!UICONTROL Email]**, puis choisissez le modèle lié à la nouvelle marque.
 
    ![](assets/branding_15.png)
 
