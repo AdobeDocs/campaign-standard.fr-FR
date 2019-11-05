@@ -1,8 +1,6 @@
 ---
 title: A propos de la configuration des canaux
-seo-title: A propos de la configuration des canaux
-description: A propos de la configuration des canaux
-seo-description: '"Chaque canal doit être configuré : configuration technique, modèles et propriétés des messages."'
+description: '"Chaque canal doit être configuré : configuration technique, modèles et propriétés des messages."'
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
