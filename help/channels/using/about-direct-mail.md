@@ -1,8 +1,6 @@
 ---
 title: A propos du canal Courrier
-seo-title: A propos du canal Courrier
-description: A propos du canal Courrier
-seo-description: Découvrez les spécificités principales du canal Courrier dans Adobe Campaign.
+description: Découvrez les spécificités principales du canal Courrier dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Le canal Courrier est un canal off-line qui vous permet de personnaliser et de g
 
 >[!NOTE]
 >
->Cette fonctionnalité est en option. Veuillez vérifier votre accord de licence. Le rôle **[!UICONTROL Export]** est requis pour utiliser le canal Courrier. Veuillez contacter votre administrateur.
+>Cette fonctionnalité est en option. Vérifiez votre contrat de licence. Le rôle **[!UICONTROL Export]** est requis pour utiliser le canal Courrier. Veuillez contacter votre administrateur.
 
 Les canaux on-line vous permettent de créer vos messages (email, SMS, diffusion sur des applications mobiles, etc.) et de les envoyer à votre audience directement depuis Adobe Campaign. Les canaux off-line fonctionnent différemment. Lors de la préparation d'une diffusion courrier, Adobe Campaign génère un fichier comprenant tous les profils ciblés et les informations de contact sélectionnées (adresse postale, par exemple). Vous pouvez ensuite envoyer ce fichier à votre opérateur de services postaux qui se chargera de l'envoi.
 
