@@ -1,8 +1,6 @@
 ---
 title: Définir un texte dynamique
-seo-title: Définir un texte dynamique
-description: Définir un texte dynamique
-seo-description: Découvrez comment afficher différents textes de manière dynamique à l'utilisateur selon les conditions définies dans Adobe Campaign.
+description: Découvrez comment afficher différents textes de manière dynamique à l'utilisateur selon les conditions définies dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
