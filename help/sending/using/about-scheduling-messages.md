@@ -1,8 +1,6 @@
 ---
 title: A propos de la planification des messages
-seo-title: A propos de la planification des messages
-description: A propos de la planification des messages
-seo-description: Découvrez comment planifier vos messages.
+description: Découvrez comment planifier vos messages.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
