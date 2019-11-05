@@ -1,8 +1,6 @@
 ---
 title: A propos des profils
-seo-title: A propos des profils
-description: A propos des profils
-seo-description: Les contacts sont stockés sous forme de profils dans la base de données de Campaign et sont mis à jour à toutes les étapes de leur cycle de vie.
+description: Les contacts sont stockés sous forme de profils dans la base de données de Campaign et sont mis à jour à toutes les étapes de leur cycle de vie.
 page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
