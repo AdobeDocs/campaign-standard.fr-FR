@@ -1,8 +1,6 @@
 ---
 title: Liste des rôles
-seo-title: Liste des rôles
-description: Liste des rôles
-seo-description: Obtenez des informations sur la liste des rôles que vous pouvez affecter à vos utilisateurs.
+description: Obtenez des informations sur la liste des rôles que vous pouvez affecter à vos utilisateurs.
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
