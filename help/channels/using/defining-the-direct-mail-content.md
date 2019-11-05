@@ -1,8 +1,6 @@
 ---
 title: Définir le contenu du courrier
-seo-title: Définir le contenu du courrier
-description: Définir le contenu du courrier
-seo-description: Découvrez comment définir le contenu de votre diffusion courrier.
+description: Découvrez comment définir le contenu de votre diffusion courrier.
 page-status-flag: never-activated
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
