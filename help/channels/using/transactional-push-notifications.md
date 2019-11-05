@@ -1,8 +1,6 @@
 ---
 title: Notifications push transactionnelles
-seo-title: Notifications push transactionnelles
-description: Notifications push transactionnelles
-seo-description: Découvrez comment créer et publier une notification push transactionnelle.
+description: Découvrez comment créer et publier une notification push transactionnelle.
 page-status-flag: never-activated
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
