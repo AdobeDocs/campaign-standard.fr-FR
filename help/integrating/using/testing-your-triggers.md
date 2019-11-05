@@ -1,8 +1,6 @@
 ---
 title: Test de vos triggers
-seo-title: Test de vos triggers
-description: Test de vos triggers
-seo-description: null
+description: null
 page-status-flag: never-activated
 uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
