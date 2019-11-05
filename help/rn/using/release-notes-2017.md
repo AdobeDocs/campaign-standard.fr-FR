@@ -1,8 +1,6 @@
 ---
 title: Notes de mise à jour 2017
-seo-title: Notes de mise à jour 2017
-description: Notes de mise à jour 2017
-seo-description: Cette page répertorie toutes les versions 2017 d'Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2017 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -331,7 +329,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver en ligne<br /> </td> 
-   <td> L'intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L'intégration nécessite l'installation de l'extension Adobe Campaign Integration à partir de la page suivante : <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
+   <td> L'intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L'intégration nécessite l'installation de l'extension Adobe Campaign Integration à partir de la page suivante : <a href="http://adobe.ly/acdw_addon">http://adobe.ly/acdw_addon</a><br />. Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -404,7 +402,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l'intégration d'Adobe Campaign et de Dreamweaver, vous disposez à présent d'un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l'intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l'activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
+   <td> Avec l'intégration d'Adobe Campaign et de Dreamweaver, vous disposez à présent d'un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l'intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l'activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d'informations, regardez cette <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l'heure d'envoi<br /> </td> 
