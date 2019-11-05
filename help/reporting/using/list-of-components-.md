@@ -1,8 +1,6 @@
 ---
 title: 'Liste des composants '
-seo-title: 'Liste des composants '
-description: 'Liste des composants '
-seo-description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
+description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
 page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
