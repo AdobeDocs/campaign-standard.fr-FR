@@ -1,8 +1,6 @@
 ---
 title: Interface des workflows
-seo-title: Interface des workflows
-description: Interface des workflows
-seo-description: Découvrez l'interface et les options pour créer, éditer et exécuter un workflow.
+description: Découvrez l'interface et les options pour créer, éditer et exécuter un workflow.
 page-status-flag: never-activated
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
