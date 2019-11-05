@@ -1,21 +1,19 @@
 ---
 title: Gestion des groupes et des utilisateurs
-seo-title: Gestion des groupes et des utilisateurs
-description: Gestion des groupes et des utilisateurs
-seo-description: Découvrez comment créer des groupes de sécurité et gérer les utilisateurs.
-page-status-flag: jamais activé
-uuid: b 3 a 3 a 2 e 3-9 d 69-4231-b 724-8 f 37419 f 7 a 61
+description: Découvrez comment créer des groupes de sécurité et gérer les utilisateurs.
+page-status-flag: never-activated
+uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
+products: SG_CAMPAIGN/STANDARD
 audience: administration
-content-type: référence
-topic-tags: utilisateurs-sécurité
-discoiquuid: 12 f 896 ab-ee 79-4 d 96-976 d-cf 34643491 b 4
-context-tags: utilisateur, présentation ; user, main ; sécurité, présentation ; sécurité, principale
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
+context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,7 +38,7 @@ Les groupes de sécurité par défaut sont :
 
 Si un utilisateur n'est rattaché à aucun groupe de sécurité, il ne pourra pas accéder à Adobe Campaign.
 
-Si vous souhaitez restreindre les accès d'un utilisateur, ne l'ajoutez pas dans le groupe des utilisateurs standard (Campaign Standard users), car celui-ci est rattaché à **[!UICONTROL toute]l'entité organisationnelle.**
+Si vous souhaitez restreindre les accès d'un utilisateur, ne l'ajoutez pas dans le groupe des utilisateurs standard (Campaign Standard users), car celui-ci est rattaché à **[!UICONTROL toute]** l'entité organisationnelle.
 
 ## Créer un groupe de sécurité et affecter des utilisateurs {#creating-a-security-group-and-assigning-users}
 
@@ -64,12 +62,12 @@ Pour commencer, vous devez assigner l'un des groupes d'usine à vos utilisateurs
 
    ![](assets/manage_security_group_2.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]et saisissez l'adresse email de votre utilisateur.**
-1. Dans l'onglet **[!UICONTROL Assigner des produits]**, sélectionnez votre instance, puis le groupe de sécurité d'usine **Administrateurs]dans la liste déroulante.[!UICONTROL ** L'utilisateur pourra ainsi accéder aux menus d'administration et créer les prochains groupes de sécurité.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter un utilisateur]** et saisissez l'adresse email de votre utilisateur.
+1. Dans l'onglet **[!UICONTROL Assigner des produits]**, sélectionnez votre instance, puis le groupe de sécurité d'usine **[!UICONTROL Administrateurs]** dans la liste déroulante. L'utilisateur pourra ainsi accéder aux menus d'administration et créer les prochains groupes de sécurité.
 
    ![](assets/ootb_security_group_2.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d'assigner le groupe de sécurité d'usine Utilisateurs standard à votre nouvel utilisateur.****
+1. Cliquez sur **[!UICONTROL Enregistrer]** et suivez les mêmes procédures afin d'assigner le groupe de sécurité d'usine **[!UICONTROL Utilisateurs standard]** à votre nouvel utilisateur.
 
    ![](assets/ootb_security_group_3.png)
 
@@ -80,7 +78,7 @@ Une fois vos deux utilisateurs associés aux groupes de sécurité d'usine **[!U
 
    ![](assets/create_security_1.png)
 
-1. Type the **[!UICONTROL Profile name]** by following this exact syntax: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** and click **[!UICONTROL Done]**.
+1. Saisissez le **[!UICONTROL Nom du profil]** en suivant cette syntaxe : **[!UICONTROL Campaign Standard- nom de l'instance - Identifiant du groupe de sécurité]**, puis cliquez sur **[!UICONTROL Terminé]**.
 
    L'identifiant choisi servira ensuite à créer le groupe de sécurité dans Adobe Campaign.
 
@@ -91,17 +89,17 @@ Une fois vos deux utilisateurs associés aux groupes de sécurité d'usine **[!U
    ![](assets/manage_security_group_1.png)
 
 1. Suivez ensuite la même procédure pour créer le groupe de sécurité **Geometrixx Clothes**.
-1. Assignez votre groupe de sécurité à votre utilisateur en sélectionnant l'onglet **[!UICONTROL Utilisateurs].**
+1. Assignez votre groupe de sécurité à votre utilisateur en sélectionnant l'onglet **[!UICONTROL Utilisateurs]**.
 
    ![](assets/manage_security_group_2.png)
 
-1. Cliquez sur l'utilisateur que vous avez créé, puis sur l'icône ![](assets/managing_security_group_10.png) dans la catégorie **Produits[!UICONTROL .]**
+1. Cliquez sur l'utilisateur que vous avez créé, puis sur l'icône ![](assets/managing_security_group_10.png) dans la catégorie **[!UICONTROL Produits]**.
 
-   Sélectionnez **[!UICONTROL Editer les produits assignés directement]pour commencer à assigner un nouveau groupe de sécurité à votre utilisateur.**
+   Sélectionnez **[!UICONTROL Editer les produits assignés directement]** pour commencer à assigner un nouveau groupe de sécurité à votre utilisateur.
 
    ![](assets/manage_security_group_8.png)
 
-1. Dans l'onglet **[!UICONTROL Assigner des produits], sélectionnez votre instance, puis le groupe de sécurité Geometrixx que vous avez créé dans la liste déroulante pour l'affecter à votre utilisateur Administrateur.**
+1. Dans l'onglet **[!UICONTROL Assigner des produits]**, sélectionnez votre instance, puis le groupe de sécurité Geometrixx que vous avez créé dans la liste déroulante pour l'affecter à votre utilisateur Administrateur.
 
    Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -126,11 +124,11 @@ L'utilisateur Administrateur doit créer le jeu de groupes de sécurité utilis�
 
    L'identifiant doit être identique à celui choisi dans la console d'administration.
 
-1. Dans le champ **[!UICONTROL Accès des utilisateurs], assignez l'entité organisationnelle.** Le groupe de sécurité Geometrixx est ici assigné à l'entité **[!UICONTROL Toute].**
+1. Dans le champ **[!UICONTROL Accès des utilisateurs]**, assignez l'entité organisationnelle. Le groupe de sécurité Geometrixx est ici assigné à l'entité **[!UICONTROL Toute]**.
 
    ![](assets/manage_security_group_6.png)
 
-1. Vous pouvez également assigner des rôles à votre groupe de sécurité. Dans notre cas, cette étape n'est pas nécessaire, car les groupes de sécurité d'usine **[!UICONTROL Administrateurs]** et **Utilisateurs standard]sont utilisés pour assigner des rôles.[!UICONTROL **
+1. Vous pouvez également assigner des rôles à votre groupe de sécurité. Dans notre cas, cette étape n'est pas nécessaire, car les groupes de sécurité d'usine **[!UICONTROL Administrateurs]** et **[!UICONTROL Utilisateurs standard]** sont utilisés pour assigner des rôles.
 1. Suivez les mêmes procédures pour créer le dernier groupe de sécurité Geometrixx Clothes et assigner l'entité organisationnelle Geometrixx Clothes.
 
    ![](assets/manage_security_group_7.png)
