@@ -1,28 +1,26 @@
 ---
 title: Synthèse des diffusions (Delivery summary)
-seo-title: Synthèse des diffusions (Delivery summary)
-description: Synthèse des diffusions (Delivery summary)
-seo-description: Grâce au rapport d'usine Synthèse des diffusions (Delivery summary), découvrez les statistiques de vos diffusions comme le nombre d'envois, de bounces et d'ouvertures.
-page-status-flag: jamais activé
-uuid: 9 f 64 a 430-8 fee -4 c 4 c -96 e 6-2913 f 4 d 6 b 831
+description: Grâce au rapport d'usine Synthèse des diffusions (Delivery summary), découvrez les statistiques de vos diffusions comme le nombre d'envois, de bounces et d'ouvertures.
+page-status-flag: never-activated
+uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: création de rapports
-content-type: référence
-topic-tags: liste de rapports
-discoiquuid: 536067 df-d 16 d -472 a -850 a -5 fb 7 c 609 d 60 a
-context-tags: Deliverycirculationreport, main ; Campaigncirculationreport, main ; Programcirculationreport, main
+products: SG_CAMPAIGN/STANDARD
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
+discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
+context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # Synthèse des diffusions (Delivery summary){#delivery-summary}
 
-Le rapport **[!UICONTROL Synthèse des diffusions](Delivery summary) présente l'ensemble des informations principales relatives à un email, ou à plusieurs emails.**
+Le rapport **[!UICONTROL Synthèse des diffusions]** (Delivery summary) présente l'ensemble des informations principales relatives à un email, ou à plusieurs emails.
 
 ![](assets/campaign_reports_1.png)
 
