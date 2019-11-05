@@ -1,8 +1,6 @@
 ---
 title: Préparer l'envoi
-seo-title: Préparer l'envoi
-description: Préparer l'envoi
-seo-description: Découvrez comment définir la préparation avant l'envoi.
+description: Découvrez comment définir la préparation avant l'envoi.
 page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
