@@ -1,8 +1,6 @@
 ---
 title: A propos des activités de Data Management
-seo-title: A propos des activités de Data Management
-description: A propos des activités de Data Management
-seo-description: Les activités de gestion des données sont disponibles dans le côté gauche de l'écran.
+description: Les activités de gestion des données sont disponibles dans le côté gauche de l'écran.
 page-status-flag: never-activated
 uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: data-management-activities
 discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
