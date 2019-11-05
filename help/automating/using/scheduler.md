@@ -1,8 +1,6 @@
 ---
 title: Planificateur
-seo-title: Planificateur
-description: Planificateur
-seo-description: L'activité Planificateur permet de planifier le déclenchement d'un workflow ou d'une activité.
+description: L'activité Planificateur permet de planifier le déclenchement d'un workflow ou d'une activité.
 page-status-flag: never-activated
 uuid: f5e50a11-8dc9-4d98-9531-024c0fb3f7da
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
