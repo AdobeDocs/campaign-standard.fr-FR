@@ -1,8 +1,6 @@
 ---
 title: A propos des règles de typologie
-seo-title: A propos des règles de typologie
-description: A propos des règles de typologie
-seo-description: Découvrez comment les règles de typologie fonctionnent dans Adobe Campaign.
+description: Découvrez comment les règles de typologie fonctionnent dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
