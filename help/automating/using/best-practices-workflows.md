@@ -1,8 +1,6 @@
 ---
 title: Bonnes pratiques relatives aux workflows
-seo-title: Bonnes pratiques relatives aux workflows
-description: Bonnes pratiques relatives aux workflows
-seo-description: Découvrez les bonnes pratiques à appliquer à vos workflows.
+description: Découvrez les bonnes pratiques à appliquer à vos workflows.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
