@@ -1,8 +1,6 @@
 ---
 title: Notes de mise à jour 2015-2016
-seo-title: Notes de mise à jour 2015-2016
-description: Notes de mise à jour 2015-2016
-seo-description: Cette page répertorie toutes les versions 2015 et 2016 d'Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2015 et 2016 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
