@@ -1,8 +1,6 @@
 ---
 title: Principales étapes pour ajouter une ressource
-seo-title: Principales étapes pour ajouter une ressource
-description: Principales étapes pour ajouter une ressource
-seo-description: Découvrez ici les étapes clés pour ajouter une ressource dans le modèle de données Adobe Campaign.
+description: Découvrez ici les étapes clés pour ajouter une ressource dans le modèle de données Adobe Campaign.
 page-status-flag: never-activated
 uuid: b8a32659-17ec-4e3e-92f2-0a0d6aaf2629
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e8348a9c262b5aab17ddfd1c9e69705687919e94
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
