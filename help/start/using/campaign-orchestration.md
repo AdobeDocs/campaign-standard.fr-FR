@@ -1,8 +1,6 @@
 ---
 title: Orchestration des campagnes
-seo-title: Orchestration des campagnes
-description: Orchestration des campagnes
-seo-description: Adobe Campaign est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne de façon à créer des expériences client personnalisées.
+description: Adobe Campaign est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne de façon à créer des expériences client personnalisées.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
