@@ -1,8 +1,6 @@
 ---
 title: Requête
-seo-title: Requête
-description: Requête
-seo-description: L'activité Requête permet de filtrer et d'extraire une population d'éléments de la base de données Adobe Campaign.
+description: L'activité Requête permet de filtrer et d'extraire une population d'éléments de la base de données Adobe Campaign.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
