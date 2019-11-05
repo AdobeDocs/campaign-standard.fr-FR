@@ -1,8 +1,6 @@
 ---
 title: Guides détaillés
-seo-title: Guides détaillés
-description: Guides détaillés
-seo-description: Découvrez les notions de base d'Adobe Analytics par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.
+description: Découvrez les notions de base d'Adobe Analytics par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.
 page-status-flag: never-activated
 uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
