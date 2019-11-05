@@ -1,8 +1,6 @@
 ---
 title: Calcul des indicateurs
-seo-title: Calcul des indicateurs
-description: Calcul des indicateurs
-seo-description: Comprenez les résultats de vos rapports grâce à la liste des formules de chaque mesure.
+description: Comprenez les résultats de vos rapports grâce à la liste des formules de chaque mesure.
 page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email  {#email-delivery}
+## Diffusion email {#email-delivery}
 
 <table> 
  <thead> 
@@ -36,7 +34,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br /> </td> 
+   <td> Compte désactivé<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
@@ -78,7 +76,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Delivrés<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -90,7 +88,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> Erreurs hard<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
@@ -102,13 +100,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br /> </td> 
+   <td> Domaine invalide<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br /> </td> 
+   <td> Boîte pleine<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
@@ -126,13 +124,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br /> </td> 
+   <td> Non connecté<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br /> </td> 
+   <td> Ouvertures<br /> </td> 
    <td> @opens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
@@ -156,13 +154,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
+   <td> Refusé<br /> </td> 
+   <td> @Refusé<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
+   <td> Refusée<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
@@ -198,14 +196,14 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> Ouvertures uniques<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br /> </td> 
-   <td> @unreachable<br /> </td> 
+   <td> Inatteignable <br /> </td> 
+   <td> @Inatteignable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
@@ -222,7 +220,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br /> </td> 
+   <td> Utilisateur inconnu<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -230,7 +228,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion Notification push  {#push-notification-delivery}
+## Diffusion Notification push {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -247,7 +245,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Delivrés<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
@@ -262,7 +260,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Ouverture<br /> </td> 
+   <td> Ouvertures<br /> </td> 
    <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
@@ -272,7 +270,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> Ouvertures uniques<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques.<br /> </td> 
   </tr> 
@@ -304,7 +302,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion In-App  {#in-app-delivery}
+## Diffusion In-App {#in-app-delivery}
 
 <table> 
  <thead> 
@@ -323,7 +321,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
+   <td> Delivrés<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
    <td> delivered=sent<br /> </td> 
