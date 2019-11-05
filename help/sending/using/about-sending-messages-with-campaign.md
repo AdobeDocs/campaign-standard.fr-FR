@@ -1,8 +1,6 @@
 ---
 title: A propos de l'envoi de messages avec Campaign
-seo-title: A propos de l'envoi de messages avec Campaign
-description: A propos de l'envoi de messages avec Campaign
-seo-description: Découvrez les différentes étapes pour tester et envoyer un message.
+description: Découvrez les différentes étapes pour tester et envoyer un message.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -42,5 +40,5 @@ Une fois que vous avez défini la cible et créé le contenu de votre message, v
 * [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
 * [Recevoir des alertes en cas d'échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Optimiser votre délivrabilité](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_Deliverability.html)
+* [Optimiser votre délivrabilité](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
