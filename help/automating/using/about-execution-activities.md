@@ -1,8 +1,6 @@
 ---
 title: A propos des activités d'exécution
-seo-title: A propos des activités d'exécution
-description: A propos des activités d'exécution
-seo-description: Les activités d'exécution sont disponibles à gauche de l'écran.
+description: Les activités d'exécution sont disponibles à gauche de l'écran.
 page-status-flag: never-activated
 uuid: af2d19d7-a819-4064-806f-46e946387799
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: execution-activities
 discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
