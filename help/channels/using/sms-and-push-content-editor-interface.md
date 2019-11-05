@@ -1,8 +1,6 @@
 ---
 title: Interface de l'éditeur de contenu de SMS et de notification push
-seo-title: Interface de l'éditeur de contenu de SMS et de notification push
-description: Interface de l'éditeur de contenu de SMS et de notification push
-seo-description: Découvrez comment utiliser les différentes sections de l'éditeur pour modifier le contenu de vos SMS et notifications push.
+description: Découvrez comment utiliser les différentes sections de l'éditeur pour modifier le contenu de vos SMS et notifications push.
 page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: sauviat
@@ -15,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
