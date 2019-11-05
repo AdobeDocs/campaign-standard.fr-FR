@@ -1,20 +1,18 @@
 ---
 title: Statuts des ressources
-seo-title: Statuts des ressources
-description: Statuts des ressources
-seo-description: Découvrez les différents statuts des ressources en fonction de leur état de publication.
-page-status-flag: jamais activé
-uuid: 215 c 0 a 2 e -27 ec -43 f 3-baac -1 eaac 7640784
+description: Découvrez les différents statuts des ressources en fonction de leur état de publication.
+page-status-flag: never-activated
+uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: développement
-content-type: référence
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 85516477-1 b 95-4273-a 0 a 7-d 2 cbb 9950 afd
+discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -23,7 +21,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 Les ressources peuvent avoir différents statuts en fonction de leur état de publication ou d'activation.
 
-Deux colonnes sont dédiées à l'affichage des statuts dans l'écran **[!UICONTROL Ressources personnalisées].**
+Deux colonnes sont dédiées à l'affichage des statuts dans l'écran **[!UICONTROL Ressources personnalisées]**.
 
 ![](assets/schema_colonne_1.png)
 
@@ -36,10 +34,10 @@ Deux colonnes sont dédiées à l'affichage des statuts dans l'écran **[!UICONT
 
    >[!NOTE]
    >
-   >L'option **[!UICONTROL Annuler la réinitialisation]est disponible lorsque la ressource que vous souhaitez réinitialiser contient toujours des liens vers d'autres ressources avec le statut « Publiée ».** Cette option permet de rétablir le processus de « réinitialisation ». Les statuts d'origine des ressources personnalisées sont alors rétablis.
+   >L'option **[!UICONTROL Annuler la réinitialisation]** est disponible lorsque la ressource que vous souhaitez réinitialiser contient toujours des liens vers d'autres ressources avec le statut « Publiée ». Cette option permet de rétablir le processus de « réinitialisation ». Les statuts d'origine des ressources personnalisées sont alors rétablis.
 
 * **Publiée** : la ressource a été publiée. Si la ressource est modifiée après la date de dernière publication, alors un message invite l'utilisateur à republier afin de prendre en compte les dernières modifications.
 
-Le champ **[!UICONTROL Ne pas publier les dernières modifications]empêche les modifications d'être prises en compte lors des prochaines publications.**
+Le champ **[!UICONTROL Ne pas publier les dernières modifications]** empêche les modifications d'être prises en compte lors des prochaines publications.
 
 Ce champ est configurable dans la définition de la ressource personnalisée.
