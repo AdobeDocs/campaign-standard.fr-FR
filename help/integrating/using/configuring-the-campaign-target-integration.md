@@ -1,8 +1,6 @@
 ---
 title: Configurer l'intégration Campaign-Target
-seo-title: Configurer l'intégration Campaign-Target
-description: Configurer l'intégration Campaign-Target
-seo-description: Découvrez comment configurer l'intégration d'Adobe Target pour commencer à utiliser du contenu dynamique dans Adobe Campaign.
+description: Découvrez comment configurer l'intégration d'Adobe Target pour commencer à utiliser du contenu dynamique dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -29,7 +27,7 @@ Les éléments suivants sont nécessaires pour cette procédure :
 
 * un Tenant Adobe Experience Cloud
 * un tenant Adobe Target
-* un rawbox Adobe Target dédié à Adobe Campaign.
+* un "rawbox" Adobe Target défini afin d'établir la connexion avec Adobe Campaign
 
 1. Depuis le menu avancé, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Options]**, accessible via le logo Adobe Campaign, en haut à gauche.
 1. Pour configurer les options de tenant et de serveur pour Adobe Target, renseignez les champs suivants :
