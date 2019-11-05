@@ -1,8 +1,6 @@
 ---
 title: Personnaliser un SMS
-seo-title: Personnaliser un SMS
-description: Personnaliser un SMS
-seo-description: Découvrez la spécificité des options de translittération lors de la personnalisation des SMS.
+description: Découvrez la spécificité des options de translittération lors de la personnalisation des SMS.
 page-status-flag: never-activated
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
