@@ -1,8 +1,6 @@
 ---
 title: Interface du reporting
-seo-title: Interface du reporting
-description: Interface du reporting
-seo-description: Découvrez l'interface du reporting dynamique. Apprenez également comment passer d'un onglet et d'un menu à un autre.
+description: Découvrez l'interface du reporting dynamique. Apprenez également comment passer d'un onglet et d'un menu à un autre.
 page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -49,7 +47,7 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
-* [Partage automatique de rapports avec des parties prenantes via email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par courrier électronique](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## Onglets  {#tabs}
 
@@ -151,4 +149,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique de rapports avec des parties prenantes via email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par courrier électronique](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
