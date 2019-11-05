@@ -1,8 +1,6 @@
 ---
 title: Résolution des problèmes
-seo-title: Résolution des problèmes
-description: Résolution des problèmes
-seo-description: Vous trouverez ici des questions courantes relatives aux rapports dynamiques.
+description: Vous trouverez ici des questions courantes relatives aux rapports dynamiques.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: beneat
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
