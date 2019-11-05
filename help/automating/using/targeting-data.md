@@ -1,8 +1,6 @@
 ---
 title: Cibler les données
-seo-title: Cibler les données
-description: Cibler les données
-seo-description: Découvrez les différentes manières de cibler et sélectionner les données dont vous avez besoin.
+description: Découvrez les différentes manières de cibler et sélectionner les données dont vous avez besoin.
 page-status-flag: never-activated
 uuid: 0645d6e5-6a7e-4917-874a-7e7725f06abd
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 382ea74e-1662-4c64-96d7-676040586913
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -31,7 +29,7 @@ Vous pouvez sélectionner les données à l'aide des activités suivantes :
 
 ## Segmenter des données {#segmenting-data}
 
-Adobe Campaign permet de procéder à des traitements d'ensembles sur des données en entrée. Il est ainsi possible de regrouper plusieurs populations, d'en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
+Adobe Campaign permet de procéder à des traitements d'ensembles sur des données en entrée. Il est ainsi possible de regrouper plusieurs populations, d'en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
 
 * L'activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible. Voir la section [Union](../../automating/using/union.md).
 * L'activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l'activité. Voir la section [Intersection](../../automating/using/intersection.md).
@@ -46,7 +44,7 @@ L'onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTROL R
 
 * des données simples.
 * des agrégats.
-* des collections
+* Les collections
 
 **Rubriques connexes :**
 
