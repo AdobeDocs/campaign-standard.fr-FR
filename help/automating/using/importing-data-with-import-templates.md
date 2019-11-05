@@ -1,20 +1,18 @@
 ---
 title: Importer des données avec des modèles d'import
-seo-title: Importer des données avec des modèles d'import
-description: Importer des données avec des modèles d'import
-seo-description: Découvrez comment collecter des données afin d'alimenter la base de données de Campaign.
-page-status-flag: jamais activé
-uuid: bfc 03235-2032-448 a-a 9 ed -21 ff 2 a 83 fa 09
+description: Découvrez comment collecter des données afin d'alimenter la base de données de Campaign.
+page-status-flag: never-activated
+uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
 contentOwner: sauviat
-products: SG_ CAMPAIGN/STANDARD
-audience: automatisation
-content-type: référence
-topic-tags: importation-exportation-données
-discoiquuid: fb 511 bb 8-6 be 7-43 f 6-86 ab -94 d 5 cfa 3 efc 9 efc 9
+products: SG_CAMPAIGN/STANDARD
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
+discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -25,7 +23,7 @@ L'import de données vous permet de collecter des données afin d'alimenter la b
 
 Alternativement aux [workflows](../../automating/using/discovering-workflows.md), Adobe Campaign propose une fonction d'import simplifiée permettant de gérer certains types d'import, préalablement définis par un administrateur.
 
-Le principe de fonctionnement est le suivant : un **administrateur** définit et gère des modèles d'import (voir [Définir des modèles d'import](../../automating/using/defining-import-templates.md)). These import templates are then made available to users with simplified views under the **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Imports]** menu.
+Le principe de fonctionnement est le suivant : un **administrateur** définit et gère des modèles d'import (voir [Définir des modèles d'import](../../automating/using/defining-import-templates.md)). Ces modèles d'import sont ensuite mis à disposition des utilisateurs avec des vues simplifiées dans le menu **[!UICONTROL Profils &amp; audiences]** &gt; **[!UICONTROL Imports]**.
 
 Ces utilisateurs n'ont alors qu'à sélectionner le type d'import qu'ils souhaitent réaliser et à charger le fichier contenant les données à importer. Le workflow définit par l'administrateur est exécuté de manière transparente pour l'utilisateur, qui peut accéder au détail du résultat de son import une fois ce dernier terminé.
 
@@ -35,7 +33,7 @@ Ces utilisateurs n'ont alors qu'à sélectionner le type d'import qu'ils souhait
 
 Les imports peuvent être filtrés en fonction du modèle à partir duquel ils ont été exécutés, de leur date d'exécution ainsi que de leur statut d'exécution.
 
-1. Depuis la vue d'ensemble des imports, cliquez sur le bouton **[!UICONTROL Créer.]** L'assistant d'import s'ouvre.
+1. Depuis la vue d'ensemble des imports, cliquez sur le bouton **[!UICONTROL Créer]**. L'assistant d'import s'ouvre.
 1. Sélectionnez le type d'import que vous souhaitez réaliser. Les types d'import correspondent aux modèles d'import disponibles.
 1. Si besoin, téléchargez le fichier d'exemple associé au modèle sur votre poste afin de visualiser les types de données attendus dans le fichier à importer.
 1. Téléchargez le fichier contenant les données à importer dans l'assistant.
