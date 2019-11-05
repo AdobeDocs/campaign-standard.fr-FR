@@ -1,8 +1,6 @@
 ---
 title: Texte simple et modes HTML
-seo-title: Texte simple et modes HTML
-description: Texte simple et modes HTML
-seo-description: Découvrez le texte simple et les modes HTML
+description: Découvrez le texte simple et les modes HTML
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
