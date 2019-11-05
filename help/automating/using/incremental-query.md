@@ -1,8 +1,6 @@
 ---
 title: Requête incrémentale
-seo-title: Requête incrémentale
-description: Requête incrémentale
-seo-description: L'activité Requête incrémentale permet de filtrer et d'extraire une population d'éléments de la base de données Adobe Campaign.
+description: L'activité Requête incrémentale permet de filtrer et d'extraire une population d'éléments de la base de données Adobe Campaign.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -41,7 +39,7 @@ L'onglet **[!UICONTROL Données traitées]**, spécifique à cette activité, pe
 L'activité **[!UICONTROL Requête incrémentale]** peut être utilisée dans plusieurs cas d'utilisation type :
 
 * segmentation d'individus afin de définir la cible d'un message, une audience, etc.
-* export de données.
+* Exporter les données.
 
 ## Configuration {#configuration}
 
