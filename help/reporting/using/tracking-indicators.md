@@ -1,8 +1,6 @@
 ---
 title: Indicateurs de tracking
-seo-title: Indicateurs de tracking
-description: Indicateurs de tracking
-seo-description: Grâce au rapport d'usine Indicateurs de tracking (Tracking indicators), découvrez le comportement de vos clients lorsqu'ils reçoivent des emails.
+description: Grâce au rapport d'usine Indicateurs de tracking (Tracking indicators), découvrez le comportement de vos clients lorsqu'ils reçoivent des emails.
 page-status-flag: never-activated
 uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
