@@ -1,8 +1,6 @@
 ---
 title: Mappings de ciblage dans Campaign
-seo-title: Mappings de ciblage dans Campaign
-description: Mappings de ciblage dans Campaign
-seo-description: Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques nécessaires pour envoyer des diffusions.
+description: Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques nécessaires pour envoyer des diffusions.
 page-status-flag: never-activated
 uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
