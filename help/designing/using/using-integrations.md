@@ -1,8 +1,6 @@
 ---
 title: 'Conception d''emails par le biais des intégrations d''Adobe Campaign '
-seo-title: 'Conception d''emails par le biais des intégrations d''Adobe Campaign  '
-description: 'Conception d''emails par le biais des intégrations d''Adobe Campaign '
-seo-description: Découvrez comment concevoir des emails via les intégrations d'Adobe Campaign dans le Concepteur d'email.
+description: Découvrez comment concevoir des emails via les intégrations d'Adobe Campaign dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -36,7 +34,7 @@ L'intégration d'Adobe Campaign Standard à Dreamweaver permet d'éditer le cont
 
    Le développeur d'email n'a plus besoin d'ajouter du texte du type `[[FIRSTNAME_PLACEHOLDER]]` ni de rechercher la syntaxe des tables de votre modèle de données. La barre d'outils Campaign dans Dreamweaver se connecte directement au modèle de données de votre instance Campaign. Cela signifie que vous pouvez extraire toutes les données que vous voulez pour les personnaliser, du prénom à l'adresse. Si vous avez créé des blocs de contenu au sein de Campaign, vous pouvez également les intégrer directement dans Dreamweaver.
 
-Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Une [vidéo](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) de démonstration est également disponible.
+Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Une [vidéo](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) de démonstration est également disponible.
 
 ## Editer le contenu dans Experience Manager {#editing-content-in-experience-manager}
 
@@ -138,7 +136,7 @@ Adobe Campaign propose plusieurs options de création d'email. Le tableau ci-apr
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/overview.md">A propos du Concepteur d'email</a><br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a><br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a><br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">vidéo</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
