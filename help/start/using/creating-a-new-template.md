@@ -1,8 +1,6 @@
 ---
 title: Créer un modèle
-seo-title: Créer un modèle
-description: Créer un modèle
-seo-description: Découvrez comment créer un modèle à partir des modèles d'activité d'usine pour les diffusions email, SMS, par notification push, etc.
+description: Découvrez comment créer un modèle à partir des modèles d'activité d'usine pour les diffusions email, SMS, par notification push, etc.
 page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
