@@ -1,8 +1,6 @@
 ---
 title: Messages de relance
-seo-title: Messages de relance
-description: Messages de relance
-seo-description: Découvrez comment créer et publier un message de relance.
+description: Découvrez comment créer et publier un message de relance.
 page-status-flag: never-activated
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
