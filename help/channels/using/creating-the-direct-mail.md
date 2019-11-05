@@ -1,8 +1,6 @@
 ---
 title: Créer le courrier
-seo-title: Créer le courrier
-description: Créer le courrier
-seo-description: Suivez ces étapes pour créer une diffusion courrier dans Adobe Campaign.
+description: Suivez ces étapes pour créer une diffusion courrier dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
