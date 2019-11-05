@@ -1,11 +1,10 @@
 ---
 keywords: Campaign Standard;home;popular topics
-seo-title: Documentation du produit Adobe Campaign Standard
 solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -16,10 +15,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## Nouveautés
 
-* **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
+* **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
 
-* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Découvrez les bonnes pratiques en matière de conception de diffusion et d'envoi.
 
 * **[Concepteur d'email](designing/using/designing-content-in-adobe-campaign.md)**<br/>
@@ -71,10 +70,10 @@ Découvrez comment configurer une landing page.
 
 * [Notes de mise à jour](rn/using/release-notes.md)
 
-* [Panneau de contrôle](https://helpx.adobe.com/fr/campaign/kb/control-panel.html)
+* [Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
 * [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
+* [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
