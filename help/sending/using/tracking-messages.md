@@ -1,8 +1,6 @@
 ---
 title: Tracker les messages
-seo-title: Tracker les messages
-description: Tracker les messages
-seo-description: Découvrez comment tracker le comportement des destinataires de vos diffusions.
+description: Découvrez comment tracker le comportement des destinataires de vos diffusions.
 page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -27,10 +25,10 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de tracker le 
 
 Ainsi, vous pouvez informer les utilisateurs de vos sites soumis au tracking web via une zone de demande de consentement (par exemple en surimpression de la page) proposant une case à cocher pour autoriser l'utilisation de cookies, ou afficher une bannière en haut de la première page visitée, etc. Les fenêtres de type pop-up sont à éviter car elles sont souvent bloquées par les navigateurs.
 
-Adobe Campaign utilise deux types de cookies :
+Adobe Campaign utilise deux types de cookies :
 
 * Un cookie de session (nlid). Il contient l'identifiant de l'email envoyé au contact (broadlogId) et l'identifiant du modèle de message (deliveryId). Il est déposé lorsque le contact clique sur une URL contenue dans un email envoyé par Adobe Campaign et permet de tracker son comportement sur le web. Ce cookie de session est effacé automatiquement à la fermeture du navigateur. Le contact a la possibilité d'en interdire le dépôt en adaptant les paramètres de son navigateur.
-* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d'identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible ici : [https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html).
+* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d'identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible ici : [https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
 
 Les informations de tracking sont disponibles pour chaque contact de votre base de données dans des **[!UICONTROL profils client intégrés]**. Voir à ce propos [cette section](../../audiences/using/integrated-customer-profile.md).
 
