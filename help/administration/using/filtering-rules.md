@@ -1,8 +1,6 @@
 ---
 title: Règles de filtrage
-seo-title: Règles de filtrage
-description: Règles de filtrage
-seo-description: Utilisez des règles de filtrage pour affiner l'audience des messages.
+description: Utilisez des règles de filtrage pour affiner l'audience des messages.
 page-status-flag: never-activated
 uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
