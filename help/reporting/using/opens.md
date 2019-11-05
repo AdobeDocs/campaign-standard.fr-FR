@@ -1,8 +1,6 @@
 ---
 title: Ouvertures (Opens)
-seo-title: Ouvertures (Opens)
-description: Ouvertures (Opens)
-seo-description: Grâce au rapport Ouvertures (Opens), découvrez quelle diffusion a été la plus visualisée en fonction de différents critères.
+description: Grâce au rapport Ouvertures (Opens), découvrez quelle diffusion a été la plus visualisée en fonction de différents critères.
 page-status-flag: never-activated
 uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
