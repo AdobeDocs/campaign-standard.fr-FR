@@ -1,8 +1,6 @@
 ---
 title: Sauvegarde d'audience
-seo-title: Sauvegarde d'audience
-description: Sauvegarde d'audience
-seo-description: L'activité Sauvegarde d'audience permet de mettre à jour une audience existante ou de créer une audience à partir de la population calculée en amont dans un workflow.
+description: L'activité Sauvegarde d'audience permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow.
 page-status-flag: never-activated
 uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
 contentOwner: sauviat
@@ -14,8 +12,8 @@ discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ L'activité **[!UICONTROL Sauvegarde d'audience]** permet de mettre à jour une 
 
 Cette activité permet également d'exporter des profils en tant qu'audience/segment Adobe Experience Cloud. Cela permet par la suite de pouvoir exploiter ces audiences dans d'autres solutions Adobe Experience Cloud. Pour plus d'informations sur les audiences partagées, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Contexte d'utilisation  {#context-of-use}
+## Contexte d'utilisation {#context-of-use}
 
 L'activité **[!UICONTROL Sauvegarde d'audience]** est essentiellement utilisée afin de conserver des groupes de population calculés dans le même workflow, en les convertissant en audiences réutilisables.
 
@@ -78,7 +76,7 @@ L'activité **[!UICONTROL Sauvegarde d'audience]** est essentiellement utilisée
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
 Le workflow défini dans cet exemple illustre la mise à jour régulière d'une audience à partir d'un ciblage :
 
