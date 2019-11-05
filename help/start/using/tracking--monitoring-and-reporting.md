@@ -1,8 +1,6 @@
 ---
 title: Tracking, suivi et reporting
-seo-title: Tracking, suivi et reporting
-description: Tracking, suivi et reporting
-seo-description: Découvrez comment tracker les messages et comprenez le comportement de vos clients en enrichissant leurs données de profil. Avec Adobe Campaign, utilisez les outils de reporting et d'analyse pour capitaliser à chaque nouvelle campagne.
+description: Découvrez comment tracker les messages et comprenez le comportement de vos clients en enrichissant leurs données de profil. Avec Adobe Campaign, utilisez les outils de reporting et d'analyse pour capitaliser à chaque nouvelle campagne.
 page-status-flag: never-activated
 uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
 contentOwner: sauviat
@@ -13,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
