@@ -1,8 +1,6 @@
 ---
 title: Editer des profils
-seo-title: Editer des profils
-description: Editer des profils
-seo-description: Découvrez comment éditer des profils existants et accéder aux informations sur les contacts, les préférences en matière de canaux, le tracking, les abonnements, etc.
+description: Découvrez comment éditer des profils existants et accéder aux informations sur les contacts, les préférences en matière de canaux, le tracking, les abonnements, etc.
 page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: sauviat
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
