@@ -1,8 +1,6 @@
 ---
 title: A propos des SMS
-seo-title: A propos des SMS
-description: A propos des SMS
-seo-description: Découvrez les spécificités principales du canal SMS dans Adobe Campaign.
+description: Découvrez les spécificités principales du canal SMS dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: sauviat
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
