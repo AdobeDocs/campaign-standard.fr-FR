@@ -26,7 +26,7 @@ Chaque entreprise dispose de directives visuelles et techniques en ce qui concer
 
 Les administrateurs techniques peuvent définir une ou plusieurs marques afin de renseigner de manière centralisée les paramètres qui touchent à l'identité d'une marque, par exemple : le logo de la marque, le domaine d'URL d'accès aux landing pages ainsi que les paramètres du tracking des messages. Avec Adobe Campaign, vous pouvez créer ces marques et les associer à des messages ou des landing pages. Cette configuration est gérée dans des modèles.
 
-## Configuration et utilisation des marques  {#configuring-and-using-brands}
+## Configuration et utilisation des marques   {#configuring-and-using-brands}
 
 Le principe général de paramétrage et d'utilisation des marques est le suivant :
 
@@ -80,7 +80,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
    ![](assets/branding_05.png)
 
-## Affectation d'une marque à un email  {#assigning-a-brand-to-an-email}
+## Affectation d'une marque à un email   {#assigning-a-brand-to-an-email}
 
 ### Liaison d'une marque à un modèle {#linking-a-brand-to-a-template}
 
@@ -112,11 +112,11 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
 Votre modèle est lié à la marque. Dans l'éditeur d'email, les éléments comme l'**adresse email de l'expéditeur par défaut**, le **nom de l'expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
-### Cas pratique de marque  {#branding-use-case}
+### Cas pratique de marque   {#branding-use-case}
 
 Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
 
-#### Configurer une nouvelle marque  {#configure-a-new-brand}
+#### Configurer une nouvelle marque   {#configure-a-new-brand}
 
 >[!CAUTION]
 >
@@ -134,7 +134,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Mettre en œuvre une nouvelle marque  {#implement-a-new-brand}
+#### Mettre en œuvre une nouvelle marque   {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d'utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -153,7 +153,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Utiliser la nouvelle marque dans une diffusion  {#use-the-new-brand-in-a-delivery}
+#### Utiliser la nouvelle marque dans une diffusion   {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 
