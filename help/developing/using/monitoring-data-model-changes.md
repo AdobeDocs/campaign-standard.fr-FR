@@ -32,6 +32,6 @@ Vous pouvez visualiser les types d'objets suivants :
 * Schémas de données
 * Pages web
 * Filtres
-* Navigation   
+* Navigation
 * Traitements batch
 
