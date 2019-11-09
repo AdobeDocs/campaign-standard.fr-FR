@@ -50,7 +50,7 @@ Vous pouvez créer vos propres groupes de sécurité si les groupes d'usine ne s
 
 Il nous faut tout d'abord assigner les deux groupes d'usine Utilisateurs standard et Administrateurs à nos utilisateurs. Ces groupes de sécurité limitent certaines fonctionnalités d'Adobe Campaign : l'Utilisateur standard dispose d'un accès simple à Adobe Campaign, tandis que l'Administrateur peut accéder aux menus d'administration, par exemple.
 
-Notez que toute modification apportée aux groupes de sécurité sur la console d’administration sera synchronisée dès que les utilisateurs se connecteront à Adobe Campaign.
+Notez que toute modification apportée aux groupes de sécurité sur la console d'administration sera synchronisée dès que les utilisateurs se connecteront à Adobe Campaign.
 
 Nous souhaitons ensuite créer un ensemble de groupes de sécurité Geometrixx et Geometrixx Clothes qui limitent certains accès en fonction des entités organisationnelles de nos Utilisateur standard et Administrateur.
 
@@ -137,5 +137,5 @@ Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent
 
 >[!CAUTION]
 >
->Lorsque les utilisateurs sont supprimés d’un groupe de sécurité dans la console d’administration, ils restent membres du groupe de sécurité d’Adobe Campaign, mais ne sont plus en mesure de se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses e-mail des utilisateurs dans la console d’administration pour éviter qu’ils ne reçoivent des informations sensibles.
+>Lorsque les utilisateurs sont supprimés d'un groupe de sécurité dans la console d'administration, ils restent membres du groupe de sécurité d'Adobe Campaign, mais ne sont plus en mesure de se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses e-mail des utilisateurs dans la console d'administration pour éviter qu'ils ne reçoivent des informations sensibles.
 
