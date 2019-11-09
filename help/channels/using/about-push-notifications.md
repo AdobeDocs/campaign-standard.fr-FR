@@ -53,7 +53,7 @@ En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe
 * [Préparation et envoi d'une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d'une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
-* [FAQ push et in-app](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 
 ## Prérequis {#prerequisites}
 
