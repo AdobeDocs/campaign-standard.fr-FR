@@ -29,7 +29,7 @@ Découvrez les fonctionnalités essentielles en regardant nos [vidéos pratiques
 * [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) : envoyez un test, préparez un email et envoyez-le dans Adobe Campaign.
 * [Tester et publier une landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) : testez et publiez une landing page dans Adobe Campaign.
 * [Gérer les permissions utilisateur](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) : définissez et gérez les permissions dans Adobe Campaign.
-* [Gérer un service et des inscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) : créez un service et gérez ses inscriptions dans Adobe Campaign.
+* [Gérer un service et des abonnements](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) : créez un service et gérez ses abonnements dans Adobe Campaign.
 * [Gérer les campagnes](https://helpx.adobe.com/campaign/kt/acs/using/acs-managing-campaigns-feature-video-use.html) : gérez une campagne dans Adobe Campaign.
 * [Gérer un modèle de landing page](https://docs.campaign.adobe.com/doc/standard/en/Videos/LP_template_configuration.mp4) : créez et gérez un modèle de landing page dans Adobe Campaign.
 * [Importer des profils avec un workflow](https://docs.campaign.adobe.com/doc/standard/en/Videos/importing_profiles.mp4) : importez des profils avec un workflow dans Adobe Campaign.
