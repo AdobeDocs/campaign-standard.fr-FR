@@ -26,7 +26,7 @@ Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur 
 >
 > Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** &gt; **Modèles**. Les modèles utilisés dans le Concepteur d'email sont des modèles de contenu. Pour plus d'informations, voir [A propos des modèles](../../start/using/about-templates.md).
 
-### Modèles de contenu  {#content-templates}
+### Modèles de contenu   {#content-templates}
 
 Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email. ](../../designing/using/overview.md) Les différents modèles présentent de multiples combinaisons de plusieurs types d'éléments. Par exemple, les modèles 'Contour progressif' possèdent des marges, tandis que les modèles 'Astro' en sont dépourvus. Voir à ce propos la section [Modèles de contenu](#content-templates).
 
@@ -125,7 +125,7 @@ Pour l'utiliser, créez un email et sélectionnez le modèle de contenu que vous
 * [Vidéo d'introduction au Concepteur d'email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## A propos des fragments  {#about-fragments}
+## A propos des fragments   {#about-fragments}
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 Il se trouve dans l'interface sous **Ressources** &gt; **Contenu, fragments et modèles**.
@@ -176,7 +176,7 @@ Maintenant que la structure de l'email est remplie, vous pouvez modifier le styl
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
-### Créer un fragment de contenu  {#creating-a-content-fragment}
+### Créer un fragment de contenu   {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
@@ -201,7 +201,7 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
    >
    >Les fragments ne peuvent pas inclure des champs de personnalisation, un contenu dynamique ni un autre fragment.
    >
-   >Evitez d’enregistrer en tant que contenu de fragment avec des composants de structure vides. Une fois le fragment &gt;inséré, il ne sera plus modifiable.
+   >Evitez d'enregistrer en tant que contenu de fragment avec des composants de structure vides. Une fois le fragment inséré, il ne sera plus modifiable.
    >
    >La [vue mobile](../../designing/using/styles.md#switching-to-mobile-view) n'est pas disponible dans les fragments.
 
@@ -213,7 +213,7 @@ Ce fragment peut à présent être utilisé dans n'importe quel email créé ave
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s'il est utilisé dans un email et qu'il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
-### Enregistrer du contenu en tant que fragment  {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment   {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d'email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
