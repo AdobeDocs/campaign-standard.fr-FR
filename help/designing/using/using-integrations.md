@@ -40,7 +40,7 @@ Cette fonctionnalité est présentée dans la documentation de Dreamweaver, acce
 
 Un contenu d'email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d'email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
 
-## Comparaison des options de conception d'email  {#email-design-options-comparison}
+## Comparaison des options de conception d'email   {#email-design-options-comparison}
 
 Adobe Campaign propose plusieurs options de création d'email. Le tableau ci-après présente les possibilités, avantages et limites de chacune d'elles.
 
