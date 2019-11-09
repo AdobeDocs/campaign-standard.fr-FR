@@ -25,8 +25,8 @@ Cette intégration permet à un destinataire de recevoir un email via Adobe Camp
 
 Plusieurs types de données peuvent être utilisés par Adobe Target :
 
-* données provenant du datamart Adobe Campaign
-* segments associés à l'identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales
-* données d'Adobe Target : user agent, adresse IP, données de géolocalisation.
+* données provenant du datamart Adobe Campaign ;
+* segments associés à l'identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
+* données d'Adobe Target : user agent, adresse IP, données de géolocalisation.
 
 Vous pouvez également trouver des informations supplémentaires sur l'intégration entre Adobe Campaign et Adobe Target sur le [Portail Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html).
