@@ -1,6 +1,6 @@
 ---
 title: Modèles de landing page
-description: En savoir plus sur les modèles de page d’entrée.
+description: En savoir plus sur les modèles de landing page.
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -37,7 +37,7 @@ Pour accéder aux modèles, cliquez sur le logo Adobe Campaign dans le coin sup�
 >
 >Adobe vous recommande de créer vos propres modèles en dupliquant un modèle intégré. Certains paramètres peuvent seulement être définis dans les modèles de landing page et ne sont pas modifiables directement sur les landing pages.
 
-Lors de la construction d'un modèle, il est conseillé d'ajouter un attribut **'type'** aux balises . Cette information sera interprétée par l'éditeur et aidera l'utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l'application Web.
+Lors de la construction d'un modèle, il est conseillé d'ajouter un attribut **'type'** aux balises. Cette information sera interprétée par l'éditeur et aidera l'utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l'application Web.
 
 Exemple de code HTML dans le modèle :
 
