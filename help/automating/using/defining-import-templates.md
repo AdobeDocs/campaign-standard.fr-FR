@@ -85,5 +85,5 @@ Le modèle d'import est à présent disponible pour les utilisateurs et peut êt
 
 * [Workflows](../../automating/using/discovering-workflows.md)
 * [Importer des données](../../automating/using/importing-data.md)
-* [Exemple : modèle de workflow d'import   ](../../automating/using/importing-data.md#example--import-workflow-template)
+* [Exemple : modèle de workflow d'import ](../../automating/using/importing-data.md#example--import-workflow-template)
 
