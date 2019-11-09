@@ -19,7 +19,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Identification des profils blacklistés pour une diffusion{#identifying-opt-out-profiles-for-a-delivery}
 
-Les profils en blackliste pour une diffusion spécifique sont répertoriés après la phase de préparation, dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions.
+Les profils en blackliste pour une diffusion spécifique sont répertoriés après la phase de préparation, dans l'onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions.
 
 ![](assets/exclusion_blacklisting.png)
 
