@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 L'éditeur vous permet de personnaliser un email ou une landing page en insérant des liens dans les éléments du contenu HTML.
 
-Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe de mots, bloc de texte, etc.
+Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe de mots, bloc de texte, etc.
 
 >[!NOTE]
 >
