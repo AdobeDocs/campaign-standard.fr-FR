@@ -39,5 +39,5 @@ Cliquez sur un événement de la liste pour l'ouvrir : vous pouvez accéder au 
 
 >[!NOTE]
 >
->L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history).
+>L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
 
