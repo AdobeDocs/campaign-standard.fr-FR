@@ -1,6 +1,6 @@
 ---
-title: Gérer des données de formulaire de landing page
-description: Découvrez comment gérer les données de formulaire de page d’entrée.
+title: Gestion des données de formulaire de landing page
+description: Découvrez comment gérer les données de formulaire de landing page.
 page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
@@ -18,7 +18,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ---
 
 
-# Gérer des données de formulaire de landing page{#managing-landing-page-form-data}
+# Gestion des données de formulaire de landing page{#managing-landing-page-form-data}
 
 ## Modifier les propriétés des données d'un formulaire pour une landing page{#changing-a-landing-page-form-data-properties}
 
@@ -29,7 +29,7 @@ Vous pouvez associer des champs de la base à des blocs de type zone de saisie, 
 * La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 * L'option **Obligatoire** permet de n'autoriser la validation de la page que si l'utilisateur a renseigné le champ. Si un champ obligatoire n'est pas renseigné, un message d'erreur sera affiché.
 
-## Association des champs de formulaire   {#mapping-form-fields}
+## Association des champs de formulaire    {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
@@ -52,7 +52,7 @@ Les champs de saisie sont utilisés pour stocker ou mettre à jour les données 
 >
 >Les champs par défaut des landing pages intégrées sont préconfigurés. Vous pouvez les modifier si nécessaire.
 
-## Associer un formulaire à un service   {#linking-a-form-to-a-service}
+## Associer un formulaire à un service    {#linking-a-form-to-a-service}
 
 Vous pouvez associer un formulaire à un service afin que les profils puissent s'inscrire à un service spécifique lors de la validation des landing pages.
 
