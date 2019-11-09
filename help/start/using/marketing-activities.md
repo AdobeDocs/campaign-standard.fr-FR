@@ -40,18 +40,18 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing    {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing     {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d'activité de la liste est caractérisé par une icône :
 
-* ![](assets/marketing_program_icon.png) : programme
-* ![](assets/marketing_campaign_icon.png) : Campaign
-* ![](assets/marketing_email_icon.png) : e-mail
+* ![](assets/marketing_program_icon.png) : Programme
+* ![](assets/marketing_campaign_icon.png) : Campagne
+* ![](assets/marketing_email_icon.png) : Email
 * ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : notification push
-* ![](assets/marketing_lp_icon.png) : Message In-App
-* ![](assets/marketing_lp_icon.png) : landing page
-* ![](assets/marketing_workflow_icon.png) : workflow
+* ![](assets/marketing_push_icon.png) : Notification push
+* ![](assets/marketing_lp_icon.png) : Message In-App
+* ![](assets/marketing_lp_icon.png) : Landing page
+* ![](assets/marketing_workflow_icon.png) : Workflow
 
 La couleur associée à cette icône indique le statut d'exécution de l'activité correspondante, en fonction de sa période de validité et de son état.
 
@@ -83,14 +83,14 @@ Les programmes et les campagnes sont présentés dans la section [Programmes et 
 
 Selon le contexte, vous pouvez :
 
-* [Créez un email](../../channels/using/creating-an-email.md)
-* [créer un SMS,](../../channels/using/creating-an-sms-message.md)
-* [créer une notification push,](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [créer un message In-App,](../../channels/using/about-in-app-messaging.md)
-* [créer un workflow,](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [créer une landing page,](../../channels/using/about-landing-pages.md)
-* [Créez une campagne](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [créer un programme](../../start/using/programs-and-campaigns.md#creating-a-program)
+* [créer un email ;](../../channels/using/creating-an-email.md)
+* [créer un SMS ;](../../channels/using/creating-an-sms-message.md)
+* [créer une notification push ;](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [créer un message In-App ;](../../channels/using/about-in-app-messaging.md)
+* [créer un workflow ;](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* [créer une landing page ;](../../channels/using/about-landing-pages.md)
+* [créer une campagne ;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* [créer un programme.](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
