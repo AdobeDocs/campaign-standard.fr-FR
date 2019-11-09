@@ -32,13 +32,13 @@ Les droits par défaut sont les suivants :
 * **[!UICONTROL Datamodel]** : droit pour l'exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Export]** : droit pour l'export des données.
 * **[!UICONTROL Import générique]** : droit pour l'exécution d'un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.
-* **[!UICONTROL Préparer les livraisons]**: Droit de créer, modifier, préparer et supprimer des livraisons. Les utilisateurs bénéficiant de ce rôle peuvent préparer la diffusion, mais pas l’envoyer.
-* **[!UICONTROL Commencer les livraisons]**: Droit de créer, modifier, préparer, envoyer et supprimer des livraisons.
-* **[!UICONTROL Workflow]**: Droit de créer, modifier, démarrer et supprimer des processus. Les utilisateurs bénéficiant de ce rôle ne peuvent pas envoyer de diffusion, même dans un flux de travail.
+* **[!UICONTROL Préparer des diffusions]** : droit pour la création, la modification, la préparation et la suppression des diffusions. Les utilisateurs dotés de ce rôle peuvent préparer la diffusion, mais pas l'envoyer.
+* **[!UICONTROL Démarrer des diffusions]** : droit pour la création, la modification, la préparation, l'envoi et la suppression des diffusions.
+* **[!UICONTROL Workflow]** : droit pour la création, la modification, le démarrage et la suppression des workflows. Les utilisateurs dotés de ce rôle ne peuvent pas envoyer de diffusion, même dans un workflow.
 
 >[!CAUTION]
 >
->Les rôles **[!UICONTROL Deliverability]**, **[!UICONTROL Command Execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access et Message Center push sont réservés aux administrateurs d’Adobe à des fins internes.]****** Ils ne doivent pas être accordés à un utilisateur.
+>Les rôles **[!UICONTROL Délivrabilité]**, **[!UICONTROL Exécution de commandes]**, **[!UICONTROL Export]**, **[!UICONTROL Accès aux fichiers]** et **[!UICONTROL Push Message Center]** sont réservés aux administrateurs d'Adobe à des fins d'utilisation interne. Ils ne doivent pas être accordés à un utilisateur.
 
 **Rubriques connexes :**
 
