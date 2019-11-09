@@ -69,7 +69,7 @@ Pour définir le nom de l'expéditeur qui apparaîtra dans l'en-tête des messag
 
    Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique en cliquant sur les icônes situées sous le nom de l'expéditeur.
 
-* Le champ **[!UICONTROL De : adresse email]** n'est pas éditable depuis cette section. Vous pouvez le modifier en éditant les propriétés de l'email depuis son tableau de bord. For more information, see [List of email advanced parameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Le champ **[!UICONTROL De : adresse email]** n'est pas éditable depuis cette section. Vous pouvez le modifier en éditant les propriétés de l'email depuis son tableau de bord. Pour plus d'informations, voir [Liste des paramètres avancés des emails](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
