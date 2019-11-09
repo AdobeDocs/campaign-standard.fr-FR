@@ -47,4 +47,4 @@ L'audience est composée de profils dont la préférence linguistique a été in
 
 **Rubrique connexe :**
 
-* [Atteindre des audiences multilingues à l’aide d’un seul processus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
