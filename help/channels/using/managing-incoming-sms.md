@@ -54,7 +54,7 @@ Pour ce faire :
    * L'action **[!UICONTROL Envoyer en quarantaine]** permet de mettre automatiquement en quarantaine le numéro de téléphone du profil.
    * L'action **[!UICONTROL Supprimer de la quarantaine]** retire de la quarantaine le numéro de téléphone du profil.
    * L'action **[!UICONTROL Aucune]** permet d'envoyer uniquement le message aux destinataires sans effectuer d'action.
-   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé "STOP", ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Blacklisté]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n’est pas blacklisté afin que l’utilisateur puisse continuer à recevoir des emails.
+   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé "STOP", ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Blacklisté]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n'est pas blacklisté afin que l'utilisateur puisse continuer à recevoir des emails.
 
    ![](assets/sms_mo.png)
 
@@ -62,7 +62,7 @@ Les destinataires peuvent maintenant être automatiquement désabonnés de vos m
 
 Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
-## Stocker les SMS entrants  {#storing-incoming-sms}
+## Stocker les SMS entrants   {#storing-incoming-sms}
 
 Dans le compte externe **[!UICONTROL Routage des SMS par SMPP]**, vous pouvez choisir de stocker les messages entrants, par exemple lorsqu'un abonné répond "STOP" à un message SMS afin d'être retiré de la liste des destinataires.
 
