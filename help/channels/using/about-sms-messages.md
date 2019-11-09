@@ -34,7 +34,7 @@ La création d'un SMS est possible depuis le menu **[!UICONTROL Activités marke
 
 Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing),
+* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * un modèle de diffusion correctement lié à ce compte externe.
 
 **Rubriques connexes :**
