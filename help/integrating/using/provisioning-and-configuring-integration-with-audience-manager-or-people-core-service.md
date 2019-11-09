@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 La mise en service et la configuration d'Audience Manager et de People core dans Adobe Campaign se fait en deux étapes : l'[envoi d'une demande à Adobe](#submitting-request-to-adobe), puis la [configuration de l'intégration dans Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Envoi d'une demande à Adobe  {#submitting-request-to-adobe}
+## Envoi d'une demande à Adobe   {#submitting-request-to-adobe}
 
 L'intégration d'Audience Manager ou de People core service permet d'importer et exporter des audiences ou des segments dans Adobe Campaign.
 
@@ -60,26 +60,26 @@ Cette intégration doit d’abord être configurée. Pour demander la mise en se
  </tbody> 
 </table>
 
-* L’ID **[!UICONTROL déclaré]** fonctionne pour chaque intégration d’audiences partagées. Notez que si vous utilisez le service principal People, l’utilisation de l’ID **** déclaré peut changer selon la solution :
+* L'identifiant **[!UICONTROL Declared ID]** fonctionne pour chaque intégration d'audiences partagées. Notez que si vous utilisez People core Service, l'utilisation de l'identifiant **[!UICONTROL Declared ID]** peut changer selon la solution :
 
-* Si les audiences sont partagées entre Adobe Campaign et Adobe Target via le service principal Personnes, l’ID **[!UICONTROL déclaré]** peut être mis en service.
-* Si les audiences sont partagées d’Adobe Campaign vers Ad Cloud via le service principal People, vous ne pourrez pas utiliser l’attribution des identifiants **** déclarés pour le renvoi historique des audiences. Une certaine latence est également attendue lors de la création d’audiences.
-* Si les audiences sont partagées d’Adobe Analytics vers Adobe Campaign via le service principal Personnes, les segments ne seront pas renseignés dans Adobe Campaign avec un ID **** déclaré.
+* Si les audiences sont partagées d'Adobe Campaign vers Adobe Target via People core Service, l'identifiant **[!UICONTROL Declared ID]** peut être mis en service.
+* Si les audiences sont partagées d'Adobe Campaign vers Ad Cloud via People core Service, vous ne pourrez pas utiliser la mise en service de l'identifiant **[!UICONTROL Declared ID]** pour le renvoi historique des audiences. Une certaine latence est également attendue lors de la création d'audiences.
+* Si les audiences sont partagées d'Adobe Analytics vers Adobe Campaign via People core Service, les segments ne seront pas renseignés dans Adobe Campaign avec un identifiant **[!UICONTROL Declared ID]**.
 
-Si vous utilisez Adobe Audience Manager au lieu du service principal People, l’ID **[!UICONTROL déclaré]** fonctionne dans tous les scénarios.
+Si vous utilisez Adobe Audience Manager au lieu de People core Service, l'identifiant **[!UICONTROL Declared ID]** fonctionne dans tous les scénarios.
 
-Vous pouvez envoyer une requête de mise en service **[!UICONTROL d’ID déclaré]** à l’adresse suivante suivante : [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+Vous pouvez envoyer une demande de mise en service de l'identifiant **[!UICONTROL Declared ID]** à l'adresse suivante : [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
-## Configuration de l'intégration dans Adobe Campaign  {#configuring-the-integration-in-adobe-campaign}
+## Configuration de l'intégration dans Adobe Campaign   {#configuring-the-integration-in-adobe-campaign}
 
 Après l'envoi de cette demande, Adobe met en service l'intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
 * [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign ](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Étape 2 : Configuration des sources de données ](#step-2--configure-the-data-sources)
-* [Étape 3: Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
-* [Étape 4: Configuration du service d'identification des visiteurs](#step-4--configure-the-visitor-id-service)
+* [Étape 3 : Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
+* [Étape 4 : Configuration du service d'identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign  {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Il nous faut tout d'abord configurer ou vérifier les comptes externes dans Adobe Campaign Ces comptes doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
@@ -96,7 +96,7 @@ Pour ce faire :
 
 Vos comptes externes sont à présent configurés pour cette intégration.
 
-### Étape 2 : Configuration des sources de données  {#step-2--configure-the-data-sources}
+### Étape 2 : Configuration des sources de données   {#step-2--configure-the-data-sources}
 
 Les deux sources de données suivantes ont été créées dans Audience Manager : Adobe Campaign (MID) et Adobe Campaign (DeclaredId). En même temps, ces deux sources de données sont disponibles dans Adobe Campaign :
 
@@ -132,13 +132,13 @@ Pour créer la source de données **[!UICONTROL ID déclaré]** :
 >
 >Le champ **[!UICONTROL AAM Destination ID]** n'est pas obligatoire si vous configurez la data source partagée pour l'[intégration des triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL La priorité]** n'est nécessaire que lors de la configuration de l'intégration des triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s'agit d'un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
 
-### Étape 3: Configuration du serveur de tracking Campaign  {#step-3--configure-campaign-tracking-server}
+### Étape 3 : Configuration du serveur de tracking Campaign   {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l'intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
 Ici, vous devez vérifier que le serveur de tracking Campaign est enregistré sur le domaine (CNAME). Vous trouverez des informations supplémentaires sur la délégation des noms de domaine dans [cet article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
-### Étape 4: Configuration du service d'identification des visiteurs {#step-4--configure-the-visitor-id-service}
+### Étape 4 : Configuration du service d'identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
 Si le service d'identification des visiteurs (Visitor ID) n'a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
