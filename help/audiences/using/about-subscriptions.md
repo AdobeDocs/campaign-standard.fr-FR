@@ -29,4 +29,4 @@ Chaque service est fourni avec :
 * des **mécanismes de confirmation** d'inscription et/ou de désinscription.
 * un suivi de l'**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions).
+Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
