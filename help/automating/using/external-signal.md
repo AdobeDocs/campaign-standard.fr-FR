@@ -58,7 +58,7 @@ Lors de la configuration d'un signal externe, il est important de commencer par 
    >
    >Si vous souhaitez déclencher le workflow de destination à partir d'un autre workflow, effectuez la procédure suivante. Si vous souhaitez déclencher le workflow de destination depuis un appel de l'API REST, consultez la [documentation de l'API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity) pour plus d'informations.
 
-1. Ouvrez le workflow source et sélectionnez une activité **[!UICONTROL Fin]**. Si aucune activité **[!UICONTROL Fin]** n’est disponible, ajoutez-en une après la dernière activité d'une branche du workflow.
+1. Ouvrez le workflow source et sélectionnez une activité **[!UICONTROL Fin]**. Si aucune activité **[!UICONTROL Fin]** n'est disponible, ajoutez-en une après la dernière activité d'une branche du workflow.
 
    Certaines activités ne sont pas dotées d'une transition sortante par défaut. L'onglet **[!UICONTROL Propriétés]** de cet onglet vous permet d'ajouter une transition sortante.
 
@@ -66,7 +66,7 @@ Lors de la configuration d'un signal externe, il est important de commencer par 
 
    ![](assets/external_signal_empty_transition.png)
 
-1. Dans l'onglet **[!UICONTROL Signal externe]** de l'activité **[!UICONTROL Fin]**, sélectionnez le workflow de destination et l’activité **[!UICONTROL Signal externe]** à déclencher dans ce workflow.
+1. Dans l'onglet **[!UICONTROL Signal externe]** de l'activité **[!UICONTROL Fin]**, sélectionnez le workflow de destination et l'activité **[!UICONTROL Signal externe]** à déclencher dans ce workflow.
 
    Lorsque vous configurez une activité **[!UICONTROL Fin]** pour qu'elle déclenche un autre workflow, un symbole signal supplémentaire vient s'ajouter à son icône.
 
