@@ -41,7 +41,7 @@ Améliorez vos messages et landing pages avec des liens et des images. Voir [Ins
 
 **Rubriques connexes** :
 
-* [Créer un email](../../channels/using/creating-an-email.md)
+* Vidéo [Créer un email](../../channels/using/creating-an-email.md) 
 * [Concevoir une landing page](../../channels/using/designing-a-landing-page.md)
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Créer et envoyer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
