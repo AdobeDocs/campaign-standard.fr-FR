@@ -138,5 +138,5 @@ Le workflow est configuré comme suit :
 
 **Rubrique connexe :**
 
-* [Enrichir les profils des clients avec des données externes](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Enrichissement de profils client avec des données externes](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
