@@ -48,7 +48,7 @@ Un son permet d'avertir l'utilisateur lors de la réception d'une notification p
 
 L'utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n'est pas muet.
 
-## Actualiser la valeur du badge  {#refresh-the-badge-value}
+## Actualiser la valeur du badge   {#refresh-the-badge-value}
 
 Un badge est utilisé pour afficher le nombre de nouvelles informations non lues directement sur l'icône de l'application. La valeur du badge disparaît dès que l'utilisateur ouvre ou lit le nouveau contenu de l'application.
 
@@ -68,7 +68,7 @@ A la réception d'une notification sur un appareil, la valeur du badge de l'appl
 
    ![](assets/push_notif_advanced_1.png)
 
-## Ajouter un lien profond  {#add-a-deeplink}
+## Ajouter un lien profond   {#add-a-deeplink}
 
 Un lien profond vous permet d'amener directement les utilisateurs à un contenu situé dans l'application (au lieu d'ouvrir une page de navigateur Web).
 
@@ -85,7 +85,7 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_4.png)
 
-## Définir une action  {#define-an-action}
+## Définir une action   {#define-an-action}
 
 Le cas échéant, vous pouvez ajouter l'identifiant de catégorie de l'application mobile et afficher ensuite des boutons d'action. Ces notifications permettent à l'utilisateur d'effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l'application ou la parcourir.
 
@@ -106,33 +106,33 @@ Pour ajouter une catégorie à une notification push :
 
 L'application est ensuite informé de l'action de l'utilisateur afin qu'elle puisse exécuter les tâches associées.
 
-## Ajouter une date d’expiration {#add-expiration-date}
+## Ajouter une date d'expiration {#add-expiration-date}
 
 >[!NOTE]
 >
->Ces modifications s’appliquent uniquement au lancement de la version 19.4 de Campaign Standard.
+>Ces modifications s'appliquent uniquement à partir de la version 19.4 de Campaign Standard.
 
-La définition d’une date d’expiration pour votre notification Push vous permet de définir une date d’expiration spécifique où le message ne sera plus envoyé par Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) ou Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
+La définition d'une date d'expiration pour votre notification push permet de définir une date d'expiration spécifique à laquelle le message ne sera plus envoyé par Apple ([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)) ou Android ([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)).
 
-Pour ajouter une date d’expiration à votre notification Push :
+Pour ajouter une date d'expiration à votre notification push :
 
-1. Cochez l’option **[!UICONTROL Expire le message]** .
+1. Cochez l'option **[!UICONTROL Expiration du message]**.
 
    >[!NOTE]
    >
-   >En sélectionnant l’option **[!UICONTROL Expire le message]** , la durée est automatiquement définie sur 0. Si vous ne modifiez pas la valeur, APNS et FCM essaieront d’envoyer le message immédiatement. En cas d’échec, le message ne sera pas renvoyé.
+   >En sélectionnant l'option **[!UICONTROL Expiration du message]**, la durée est automatiquement définie sur 0. Si vous ne modifiez pas la valeur, APNS et FCM essaieront d'envoyer le message immédiatement. En cas d'échec, le message ne sera pas renvoyé.
 
-1. Dans le champ **[!UICONTROL Durée]** , sélectionnez la validité de votre notification Push.
+1. Dans le champ **[!UICONTROL Durée]**, sélectionnez la validité de votre notification push.
 
    ![](assets/push_expiration.png)
 
-1. Après avoir envoyé votre notification Push, si l’utilisateur ne l’a pas reçue immédiatement en raison du fait que le téléphone n’était pas allumé ou n’avait pas de signal, la notification Push sera toujours envoyée dans l’intervalle de temps d’expiration.
+1. Si l'utilisateur n'a pas reçu immédiatement votre notification push après que vous l'ayez envoyée car son téléphone n'était pas allumé ou n'avait pas de signal, la notification push est toujours envoyée dans l'intervalle avant expiration.
 
-Notez que si la notification Push n’a pas été envoyée avant la date d’expiration, elle sera ignorée.
+Notez que si la notification push n'a pas été envoyée avant la date d'expiration, elle sera ignorée.
 
-## Ajouter des champ personnalisés  {#add-custom-fields}
+## Ajouter des champ personnalisés   {#add-custom-fields}
 
-Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d’une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l’application en plus des clés prédéfinies.
+Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d'une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l'application en plus des clés prédéfinies.
 
 Pour ce faire :
 
@@ -142,7 +142,7 @@ Pour ce faire :
 
    ![](assets/push_notif_advanced_10.png)
 
-1. La gestion et l’utilisation des champs personnalisés dépendent entièrement de l’application mobile. Dans la notification push ci-dessous, des champs personnalisés ont été utilisés par l’application pour afficher les libellés de boutons pour la notification push.
+1. La gestion et l'utilisation des champs personnalisés dépendent entièrement de l'application mobile. Dans la notification push ci-dessous, des champs personnalisés ont été utilisés par l'application pour afficher les libellés de boutons pour la notification push.
 
    ![](assets/push_notif_actionable_buttons.png)
 
@@ -167,7 +167,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_2.png)
 
-## Changer le comportement des notifications pour iOS  {#change-the-notification-behavior-for-ios}
+## Changer le comportement des notifications pour iOS   {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
