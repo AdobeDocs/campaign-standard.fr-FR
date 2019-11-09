@@ -59,7 +59,7 @@ L'activité **[!UICONTROL Sauvegarde d'audience]** est essentiellement utilisée
    * **[!UICONTROL Créer une nouvelle audience]** : renseignez le nom de l'audience à créer. L'heure et la date de création de l'audience seront automatiquement ajoutées au nom de l'audience. Cela permet à l'audience d'être unique à chaque exécution du workflow.
    * **[!UICONTROL Partager dans Adobe Experience Cloud]** : si vous avez ciblé des profils et que vous souhaitez exporter votre audience vers Adobe Experience Cloud, sélectionnez cette option, puis sélectionnez une audience partagée existante ou créez une audience.
 
-      Sélectionnez également une **[!UICONTROL Source de données partagées]** qui correspond à la ressource des données contenues dans l’audience, afin que les données soient correctement réconciliées dans Adobe Experience Cloud.
+      Sélectionnez également une **[!UICONTROL Source de données partagées]** qui correspond à la ressource des données contenues dans l'audience, afin que les données soient correctement réconciliées dans Adobe Experience Cloud.
 
       En utilisant cette option, l'audience partagée n'est pas ajoutée à la liste des audiences d'Adobe Campaign, disponible via le menu **[!UICONTROL Audiences]**.
 
