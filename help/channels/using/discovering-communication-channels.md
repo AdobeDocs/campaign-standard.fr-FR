@@ -35,9 +35,9 @@ Toutes les activités marketing reposent sur un modèle. Les modèles peuvent ê
 
 Dans le cas d'un modèle d'email, l'administrateur fonctionnel chargé de configurer les modèles peut définir :
 
-* les paramètres standard d'un email : audience, planning, contenu
-* les paramètres avancés d'envoi, de validité, de tracking, etc
-* les paramètres de pré-configuration du ciblage et de la personnalisation (contexte de ciblage)
+* Les paramètres standard d'un email : audience, planning, contenu
+* Les paramètres avancés d'envoi, de validité, de tracking, etc
+* Les paramètres de pré-configuration du ciblage et de la personnalisation (contexte de ciblage)
 
 **Rubriques connexes** :
 
