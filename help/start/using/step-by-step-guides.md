@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuitifs.
 
 * [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) : créez et envoyez à une audience ciblée des emails personnalisés.
-* [Offrir une inscription à un service](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html) : créez un abonnement à une newsletter à l'aide d'une landing page.
+* [Offrir un abonnement à un service](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html) : créez un abonnement à une newsletter à l'aide d'une landing page.
 * [Exporter et importer un package de ressources personnalisées](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html) : exportez et importez un package de ressources personnalisées depuis un environnement de développement vers un environnement de production.
 * [Créer un workflow de messages cross-canal](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html) : créez un workflow en segmentant une population afin d'envoyer une diffusion email et une diffusion SMS.
 * [Créer un email avec Experience Manager et Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html) : créez un contenu d'email dans Adobe Experience Manager et utilisez-le dans un email dans Adobe Campaign Standard.
@@ -32,11 +32,11 @@ Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuit
 
 Obtenez des informations supplémentaires sur Adobe Campaign en consultant les cas pratiques et exemples suivants :
 
-* [Importer un modèle](../../automating/using/importing-data.md#example--import-workflow-template)de processus : configurez un modèle de flux de travail pour importer régulièrement de nouveaux profils clients à partir d’un service de gestion de la relation client et mettre à jour votre base de données Campaign.
+* [Modèle de workflow d'import](../../automating/using/importing-data.md#example--import-workflow-template) : configurez un modèle de workflow pour importer régulièrement de nouveaux profils clients à partir d'un CRM et mettre à jour votre base de données Campaign.
 * [Principales étapes pour envoyer un message](../../channels/using/key-steps-to-send-a-message.md) : découvrez étape par étape comment créer et envoyer des messages.
 * [Principales étapes pour concevoir un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) : lisez les principales étapes pour concevoir le contenu d'un email à partir de zéro.
 * [Utilisation des Triggers Experience Cloud avec Adobe Campaign](../../integrating/using/abandonment-triggers-use-cases.md) : envoyez des emails personnalisés à vos clients suite à des comportements spécifiques trackés sur votre site web par Adobe Analytics.
 * [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md) : découvrez comment créer des ressources ou étendre des ressources existantes.
-* [Importation d’un modèle](../../automating/using/importing-data.md#example--import-workflow-template)de processus :
+* [Modèle de workflow d'import](../../automating/using/importing-data.md#example--import-workflow-template) :
 * [Configuration d'un processus de double opt-in](../../channels/using/setting-up-a-double-opt-in-process.md) : découvrez comment envoyer un email associé à une landing page afin de confirmer l'inscription d'un client.
 * [Personnalisation d'un email](../../designing/using/personalization.md#example-email-personalization) : personnalisez un email en fonction de l'âge du client.
