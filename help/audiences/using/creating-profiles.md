@@ -26,7 +26,7 @@ Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 * importer une liste de profils depuis un fichier, par l'intermédiaire d'un [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/about-landing-pages.md) ;
 * créer des profils en masse via l'[API REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) ;
-* Synchroniser les profils de [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* synchroniser les profils depuis [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ;
 * saisir des données dans les écrans de l'interface graphique, comme expliqué ci-dessous.
 
 Par exemple, pour créer un profil directement dans l'interface utilisateur, procédez comme suit :
@@ -57,7 +57,7 @@ Le profil est ajouté à la liste.
 
 >[!NOTE]
 >
->La création des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles).
+>La création des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
 
 Les profils peuvent être également partitionnés en fonction de leurs entités organisationnelles. Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
 
@@ -67,6 +67,6 @@ Les profils peuvent être également partitionnés en fonction de leurs entités
 
 **Rubriques connexes :**
 
-* [A propos du guide détaillé des pages](../../channels/using/about-landing-pages.md) d'entrée
-* [importer des profils](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* Guide détaillé [A propos des landing pages](../../channels/using/about-landing-pages.md)
+* [Importer des profils](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
