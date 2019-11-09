@@ -61,7 +61,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Raison de l'échec<br /> </td> 
-   <td> Types d’erreurs qui provoquaient des retours pour chaque remise, par exemple : utilisateur inconnu, domaine non valide ou boîte aux lettres pleine.<br /> </td> 
+   <td> Types d'erreurs qui provoquaient des bounces pour chaque diffusion (par exemple : utilisateur inconnu, domaine non valide ou boîte pleine).<br /> </td> 
   </tr> 
   <tr> 
    <td> Genre<br /> </td> 
@@ -112,7 +112,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Etat enregistré dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
-   <td> l'URL de tracking<br /> </td> 
+   <td> URL de tracking<br /> </td> 
    <td> URL sur laquelle a cliqué l'utilisateur dans le message.<br /> </td> 
   </tr> 
   <tr> 
@@ -134,11 +134,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures    {#metrics}
+## Mesures     {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS    {#email-and-sms-metrics}
+### Mesures des emails et SMS     {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -206,7 +206,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Ouvertures<br /> </td> 
-   <td> Nombre d’ouvertures d’un message dans une diffusion.<br /> </td> 
+   <td> Nombre d'ouvertures d'un message dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux d'ouverture<br /> </td> 
@@ -259,7 +259,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push    {#push-notification-metrics}
+### Mesures des notifications push     {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -324,7 +324,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App    {#in-app-metrics}
+### Mesures In-App     {#in-app-metrics}
 
 <table> 
  <thead> 
@@ -381,7 +381,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 >[!NOTE]
 >
->Par défaut, le segment Exclure la preuve **** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
+>Par défaut, le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
 
 Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
@@ -458,8 +458,8 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
    <td> Tous les destinataires<br /> </td> 
   </tr> 
     <tr> 
-   <td> Exclure la preuve<br /> </td> 
-   <td> Exclure les preuves de vos rapports (à partir de la version 19.4 uniquement)<br /> </td> 
+   <td> Exclure le BAT<br /> </td> 
+   <td> Exclure les BAT de vos rapports (à compter de la version 19.4 uniquement)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
