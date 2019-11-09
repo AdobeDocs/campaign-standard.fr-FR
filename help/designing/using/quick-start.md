@@ -107,7 +107,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d'un modèle d'usine  {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d'un modèle d'usine   {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d'usine, tels que des messages d'accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
@@ -127,7 +127,7 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d'être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d'email.
 
-### Convertir un contenu HTML  {#converting-an-html-content}
+### Convertir un contenu HTML   {#converting-an-html-content}
 
 Ce cas pratique présente comment convertir rapidement le code HTML d'un email en composants du Concepteur d'email.
 
