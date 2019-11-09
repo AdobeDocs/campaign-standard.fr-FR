@@ -37,7 +37,7 @@ L'édition d'expressions peut être utilisée lors des opérations suivantes :
 * édition d'une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d'une condition de visibilité pour définir l'affichage d'un bloc de l'éditeur de contenus HTML. Dans ce cas, l'expression est éditée au format JavaScript et ne propose pas l'utilisation des fonctions avancées standard.
 
-## Editer une expression  {#edit-an-expression}
+## Editer une expression   {#edit-an-expression}
 
 L'édition avancée d'expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -65,7 +65,7 @@ L'édition d'une expression vous permet de personnaliser l'expression Audiences 
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions  {#expression-syntax}
+## Syntaxe des expressions   {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -83,7 +83,7 @@ Les expressions standard sont composées d'une ou plusieurs conditions, respecta
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l'aide d'opérateurs logiques.
 
    * **[!UICONTROL AND]** : intersection des deux conditions
-   * **[!UICONTROL OR]** : union des deux conditions.
+   * **[!UICONTROL OR]** : union des deux conditions.
 
 Par exemple :
 
@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l'année courants.
 
-### Syntaxe JavaScript  {#javascript-syntax}
+### Syntaxe JavaScript {#javascript-syntax}
 
 Lors de la définition des conditions de visibilité d'un bloc de type texte de l'éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
 
@@ -110,7 +110,7 @@ Les expressions JavaScript sont composées d'une ou plusieurs conditions, respec
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l'aide d'opérateurs logiques.
 
    * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions.
-   * **[!UICONTROL ||]**: union des deux conditions.
+   * **[!UICONTROL   ]** : union des deux conditions.
 
 Par exemple :
 
@@ -120,7 +120,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison  {#comparison-operators}
+## Opérateurs de comparaison   {#comparison-operators}
 
 Pour certaines règles, l'éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
