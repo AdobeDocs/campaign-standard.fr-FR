@@ -29,7 +29,7 @@ L'équipe Adobe aura besoin des informations suivantes pour activer les triggers
 * ID de l'organisation IMS
 * Identifiant de société Analytics (peut être identique au nom de la société Marketing Cloud)
 
-## Configuration des solutions et services  {#configuring-solutions-and-services}
+## Configuration des solutions et services   {#configuring-solutions-and-services}
 
 Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/core services suivants :
 
@@ -57,7 +57,7 @@ Il vous faudra également un site web opérationnel.
 
 Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) et [Campaign](#configuring-triggers-and-aliases-in-campaign).
 
-### Configurer Experience Cloud DTM Core Service  {#configuring-experience-cloud-dtm-core-service}
+### Configurer Experience Cloud DTM Core Service   {#configuring-experience-cloud-dtm-core-service}
 
 1. Dans le DTM (Dynamic Tag Management) Core Service DTM Experience Cloud, activez l'Identifiant Experience Cloud et Adobe Analytics pour les pages de votre site web.
 
@@ -67,7 +67,7 @@ Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core 
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configurer Experience Cloud People Core Service  {#configuring-experience-cloud-people-core-service}
+### Configurer Experience Cloud People Core Service   {#configuring-experience-cloud-people-core-service}
 
 L'alias référencé précédemment dans DTM doit être créé dans le Core Service People Experience Cloud via un Attribut Client. Veillez à en créer un nouveau et à référencer le même alias DTM dans le code d'intégration (« visitorid », par exemple).
 
@@ -77,13 +77,13 @@ L'alias référencé précédemment dans DTM doit être créé dans le Core Serv
 >
 >Cet Attribut client sera utilisé dans la Data source dans Adobe Campaign (étape suivante).
 
-### Configurer les triggers et les alias dans Campaign  {#configuring-triggers-and-aliases-in-campaign}
+### Configurer les triggers et les alias dans Campaign   {#configuring-triggers-and-aliases-in-campaign}
 
-1. Vérifiez que les **[!UICONTROL Triggers Experience Cloud]** sont visibles sur votre instance Adobe Campaign Standard. Si ce n’est pas le cas, contactez les administrateurs Adobe Campaign.
+1. Vérifiez que les **[!UICONTROL Triggers Experience Cloud]** sont visibles sur votre instance Adobe Campaign Standard. Si ce n'est pas le cas, contactez les administrateurs Adobe Campaign.
 
    ![](assets/remarketing_1.png)
 
-1. Les alias permettent la réconciliation d'un contact d'Analytics avec un profil de Campaign. Vous devez faire correspondre les alias définis dans le service Experience Cloud ID avec une source de données partagée de Campaign. Vous devez configurer la résolution des alias dans Adobe Campaign via une source de données (**[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l’application]** &gt; **[!UICONTROL Source de données partagées]**). Veillez à sélectionner la bonne source de données dans le menu déroulant **[!UICONTROL Source de données/alias]**, qui est mappée avec la même source de données Attribut client créée à l’étape précédente.
+1. Les alias permettent la réconciliation d'un contact d'Analytics avec un profil de Campaign. Vous devez faire correspondre les alias définis dans le service Experience Cloud ID avec une source de données partagée de Campaign. Vous devez configurer la résolution des alias dans Adobe Campaign via une source de données (**[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Source de données partagées]**). Veillez à sélectionner la bonne source de données dans le menu déroulant **[!UICONTROL Source de données/alias]**, qui est mappée avec la même source de données Attribut client créée à l'étape précédente.
 
    ![](assets/trigger_uc_conf_5.png)
 
@@ -91,7 +91,7 @@ L'alias référencé précédemment dans DTM doit être créé dans le Core Serv
    >
    >Vous pouvez réconcilier vos triggers pour les utilisateurs anonymes et enregistrés. Pour les utilisateurs anonymes, le profil doit exister dans Adobe Campaign et un email a déjà été envoyé à l'utilisateur. Pour cela, la configuration d'identifiant de visiteur suffit. Toutefois, si vous souhaitez réconcilier des triggers pour les utilisateurs enregistrés, vous devez paramétrer la source de données ID déclaré. Pour en savoir plus, consultez [Configuration de la source de données](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Création d'un trigger dans l'interface d'Experience Cloud  {#creating-a-trigger-in-the-experience-cloud-interface}
+## Création d'un trigger dans l'interface d'Experience Cloud   {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Un trigger Adobe Experience Cloud doit être créé pour pouvoir l'utiliser dans Campaign.
 
