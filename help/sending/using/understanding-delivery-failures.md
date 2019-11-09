@@ -36,7 +36,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Gestion du blacklistage dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Identifier les diffusions en échec pour un message  {#identifying-delivery-failures-for-a-message}
+## Identifier les diffusions en échec pour un message   {#identifying-delivery-failures-for-a-message}
 
 Une fois une diffusion envoyée, l'onglet **[!UICONTROL Envois]** (voir [cette section](../../sending/using/monitoring-a-delivery.md#sending-logs)) permet de consulter le statut de la diffusion pour chaque profil ainsi que le type d'échec et la raison associés (voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons)).
 
@@ -44,7 +44,7 @@ Une fois une diffusion envoyée, l'onglet **[!UICONTROL Envois]** (voir [cette s
 
 Un rapport d'usine dédié est également disponible. Ce rapport présente l'ensemble des statistiques d'erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours. Voir à ce propos [cette section](../../reporting/using/bounce-summary.md).
 
-## Types de diffusion en échec et raisons  {#delivery-failure-types-and-reasons}
+## Types de diffusion en échec et raisons   {#delivery-failure-types-and-reasons}
 
 Trois types d'erreur sont liés à une diffusion en échec :
 
@@ -76,22 +76,22 @@ Les motifs possibles d'une diffusion en échec sont les suivants :
 * **[!UICONTROL Texte trop long]** : le nombre de caractères du SMS dépasse la limite autorisée. Voir à ce propos la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 * **[!UICONTROL Caractère non supporté par l'encodage]** : le SMS contient un ou plusieurs caractères qui ne sont pas supportés par l'encodage. Voir à ce propos la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
 
-## Reprises après une diffusion temporairement en échec  {#retries-after-a-delivery-temporary-failure}
+## Reprises après une diffusion temporairement en échec   {#retries-after-a-delivery-temporary-failure}
 
 Si un message est en échec en raison d'une erreur temporaire du type **Ignoré**, les reprises seront effectuées pendant la durée de la diffusion. Pour plus d'informations sur les types d'erreurs, voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons).
 
-Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Pour modifier la durée d'une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 La configuration par défaut permet cinq reprises à des intervalles d'une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l'administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../administration/using/configuring-email-channel.md#sending-parameters)).
 
-## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones   {#synchronous-and-asynchronous-errors}
 
 Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après sont envoi (erreur asynchrone).
 
 * **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d'erreur. L'envoi de la diffusion au serveur du profil n'est pas autorisé.
 * **Erreur asynchrone** : un email bounce ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu'à une semaine après l'envoi d'une diffusion.
 
-## Qualification des emails bounce  {#bounce-mail-qualification}
+## Qualification des emails bounce   {#bounce-mail-qualification}
 
 Les messages d'erreur des diffusions en échec (ou "bounces") sont relevés par la plateforme Adobe Campaign et qualifiés par le processus inMail afin d'enrichir la liste des règles de gestion des emails.
 
