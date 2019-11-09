@@ -31,11 +31,11 @@ En fonction de votre environnement, d'autres solutions peuvent également être 
 
 Une organisation est l'entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l'authentification unique dans Experience Cloud. L'organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. L'organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. La gestion des utilisateurs et des organisations est présentée sur le [portail d'aide Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-Si vous souhaitez intégrer des flux de données d’autres systèmes avec Adobe Campaign, consultez la [documentation des API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Si vous souhaitez intégrer des flux de données d'autres systèmes avec Adobe Campaign, consultez la [documentation des API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 >[!NOTE]
 >
->Adobe Campaign Standard peut également se connecter à Microsoft Dynamics 365 : cette intégration permet la synchronisation de toutes les données de contact disponibles dans le système CRM, rendant ainsi toutes celles appropriées disponibles pour les activités de campagne. For more on this integration, refer to [Working with Campaign and Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard peut également se connecter à Microsoft Dynamics 365 : cette intégration permet la synchronisation de toutes les données de contact disponibles dans le système CRM, rendant ainsi toutes celles appropriées disponibles pour les activités de campagne. Pour plus d'informations sur cette intégration, consultez [Utilisation de Campaign et Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 
 <table> 
@@ -43,7 +43,7 @@ Si vous souhaitez intégrer des flux de données d’autres systèmes avec Adobe
   <tr> 
    <th> Solution<br /> </th> 
    <th> Utilisation<br /> </th> 
-   <th> Reportez-vous à la section<br /> </th> 
+   <th> Reportez-vous à<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
