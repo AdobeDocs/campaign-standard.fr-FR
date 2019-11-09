@@ -103,7 +103,7 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
    >[!NOTE]
    >
-   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la  section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la   section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
    Pour rendre un contenu externe compatible avec le Concepteur d'email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
@@ -155,7 +155,7 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 **Rubriques connexes** :
 
-- [Créer un email](../../channels/using/creating-an-email.md)
+- Vidéo [Créer un email](../../channels/using/creating-an-email.md) 
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Planification de l'envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
