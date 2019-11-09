@@ -24,7 +24,7 @@ Vous pouvez définir l'audience dans l'assistant de création ou en cliquant sur
 
 ![](assets/direct_mail_15.png)
 
-## Définir la cible principale   {#defining-the-main-target}
+## Définir la cible principale    {#defining-the-main-target}
 
 Pour les courriers, les profils ciblés sont ceux qui seront inclus dans le fichier d'extraction qui sera envoyé à l'opérateur de services postaux.
 
@@ -34,7 +34,7 @@ Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d'ext
 >
 >Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
-## Ajouter des profils de test et de type piège   {#adding-test-and-trap-profiles}
+## Ajouter des profils de test et de type piège    {#adding-test-and-trap-profiles}
 
 Ajoutez des profils de test afin de tester votre fichier avec un petit nombre de profils. Vous pouvez ainsi créer un fichier d'exemple pour tester et valider la structure avant de préparer le fichier réel. Voir [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
