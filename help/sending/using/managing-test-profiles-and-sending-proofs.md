@@ -33,12 +33,12 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    L'usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
-* Comme **Piège** : le message est envoyé au profil de test tel qu’il est envoyé à la cible principale. Voir [Utilisation des pièges](#using-traps).
+* Comme **Piège** : le message est envoyé au profil de test tel qu'il est envoyé à la cible principale. Voir [Utilisation des pièges](#using-traps).
 * Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d'un message afin de tester les éléments de personnalisation. Voir [Prévisualiser un message](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
-## Gestion des profils de test    {#managing-test-profiles}
+## Gestion des profils de test     {#managing-test-profiles}
 
 ### Créer un profil de test {#creating-test-profiles}
 
@@ -71,7 +71,7 @@ Le profil de test est alors ajouté dans la liste des profils.
 
 **Rubrique connexe :**
 
-Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html).
+Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Editer un profil de test {#editing-test-profiles}
 
@@ -129,30 +129,30 @@ Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.co
 
 ## Utilisation des pièges {#using-traps}
 
-Lors de l’utilisation de pièges, le message est envoyé au profil de test tel qu'il est envoyé à la cible principale, notamment pour identifier une utilisation frauduleuse de votre fichier client.
+Lors de l'utilisation de pièges, le message est envoyé au profil de test tel qu'il est envoyé à la cible principale, notamment pour identifier une utilisation frauduleuse de votre fichier client.
 
 Les pièges ont été conçus à l'origine pour les diffusions courrier. Ils vous permettent de :
 * Vérifier que votre fournisseur de courrier envoie vraiment la communication ;
 * Recevoir le courrier en même temps et dans les mêmes conditions que vos clients ;
 * Conserver une copie exacte du courrier qui a été envoyé ;
-* Vérifier que votre liste de clients n’est pas utilisée de façon frauduleuse par votre fournisseur de courrier. En effet, si une autre communication est envoyée à l'adresse de votre profil de test, votre fichier client peut avoir été utilisé à votre insu. C'est pourquoi l'adresse du profil de test ne doit être utilisée qu'à cette fin.
+* Vérifier que votre liste de clients n'est pas utilisée de façon frauduleuse par votre fournisseur de courrier. En effet, si une autre communication est envoyée à l'adresse de votre profil de test, votre fichier client peut avoir été utilisé à votre insu. C'est pourquoi l'adresse du profil de test ne doit être utilisée qu'à cette fin.
 
-Pour plus d’informations sur l’ajout de pièges à l’audience d’un courrier, voir [Ajout de profils de test et de type piège](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
+Pour plus d'informations sur l'ajout de pièges à l'audience d'un courrier, voir [Ajout de profils de test et de type piège](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles).
 
-Pour les autres canaux de communication, vous pouvez ajouter des profils de test de type piège à votre cible principale afin d’effectuer les opérations suivantes :
+Pour les autres canaux de communication, vous pouvez ajouter des profils de test de type piège à votre cible principale afin d'effectuer les opérations suivantes :
 * Vérifier que votre message a bien été envoyé ;
 * Obtenir et conserver une copie exacte de votre message ;
 * Suivre quand il a été envoyé et reçu.
 
-Pour utiliser un profil de test comme piège, il doit être inclus dans l’audience de votre message.
+Pour utiliser un profil de test comme piège, il doit être inclus dans l'audience de votre message.
 
 >[!NOTE]
 >
 >Contrairement aux profils de test utilisés pour les [bons à tirer](#sending-proofs) ou le [rendu des emails](../../sending/using/email-rendering.md), le message est envoyé simultanément à la cible principale et aux profils de test utilisés comme pièges.
 
-Lors de la définition de l’audience d’un message :
+Lors de la définition de l'audience d'un message :
 
-1. Dans l’onglet **[!UICONTROL Profils de test]**, sélectionnez un profil de test ; Assurez-vous qu’il affiche **[!UICONTROL Piège]** comme utilisation prévue.
+1. Dans l'onglet **[!UICONTROL Profils de test]**, sélectionnez un profil de test ; Assurez-vous qu'il affiche **[!UICONTROL Piège]** comme utilisation prévue.
 
    ![](assets/trap_select.png)
 
@@ -169,4 +169,4 @@ Le message est envoyé à la cible principale et au profil de test.
 
 >[!NOTE]
 >
->Lors de l’utilisation d’un profil de test en tant que piège, pour les champs enrichis d’un message, les données supplémentaires correspondantes sont sélectionnées de manière aléatoire à partir d’un profil cible réel et affectées au profil de test de piège. Pour plus d'informations sur l'enrichissement, consultez [cet exemple](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Lors de l'utilisation d'un profil de test en tant que piège, pour les champs enrichis d'un message, les données supplémentaires correspondantes sont sélectionnées de manière aléatoire à partir d'un profil cible réel et affectées au profil de test de piège. Pour plus d'informations sur l'enrichissement, consultez [cet exemple](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
