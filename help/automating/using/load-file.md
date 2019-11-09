@@ -95,7 +95,7 @@ Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous dev
       ![](assets/wkf_file_loading1.png)
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l'option **[!UICONTROL Décompression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l'activité.
-1. L'option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s'étant produites lors de l'import et de l'appliquer à une étape de post-traitement. Lorsque l’option est activée, la transition sortante est renommée "Rejette".
+1. L'option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s'étant produites lors de l'import et de l'appliquer à une étape de post-traitement. Lorsque l'option est activée, la transition sortante est renommée "Rejets".
 
    >[!NOTE]
    >
@@ -105,9 +105,9 @@ Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous dev
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-Si une erreur se produit avec l’activité après l’exécution du flux de travail, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+Si une erreur se produit dans l'activité après l'exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d'informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/executing-a-workflow.md#monitoring).
 
-## Format des colonnes   {#column-format}
+## Format des colonnes    {#column-format}
 
 Lorsque vous téléchargez un fichier d'exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d'erreur ou de valeur vide.
 
