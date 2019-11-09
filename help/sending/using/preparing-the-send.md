@@ -25,7 +25,7 @@ La préparation correspond à l'étape de calcul de la population cible et de g�
 
    ![](assets/preparing_delivery_2.png)
 
-1. Le bloc **[!UICONTROL Déploiement]** affiche l’état d'avancement de la préparation, puis le résultat de la préparation : nombre de messages ciblés et à envoyer, etc.
+1. Le bloc **[!UICONTROL Déploiement]** affiche l'état d'avancement de la préparation, puis le résultat de la préparation : nombre de messages ciblés et à envoyer, etc.
 
    La durée de cette opération varie en fonction de la taille de la population ciblée.
 
