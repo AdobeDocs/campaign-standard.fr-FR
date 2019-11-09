@@ -30,7 +30,7 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 
 1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL In-App]**. Si vous ne pouvez pas accéder à ces canaux, contactez l'équipe de votre compte.
 
-1. Pour tirer parti des cas d’utilisation mobile dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign Standard. Pour le guide détaillé, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Pour tirer parti des cas d’utilisation mobile dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign Standard. For the step-by-step guide, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 1. Une fois configuré, vous pouvez désormais préparer votre message in-app. Voir à ce propos [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -41,5 +41,5 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 **Contenu connexe :**
 
 * [Rapport In-App](../../reporting/using/in-app-report.md)
-* [FAQ push et in-app](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
