@@ -37,14 +37,14 @@ Pour éditer un profil existant et consulter les données qui lui sont associée
    >
    >Vous pouvez uniquement modifier les informations dans l'onglet **[!UICONTROL Général]**, à l'exception de la section **[!UICONTROL Traçabilité]**.
 
-L'édition des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles).
+L'édition des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
 
 Rubrique connexe :
 
 * [Profil client intégré](../../audiences/using/integrated-customer-profile.md)
-* [Envoi des au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [Envoi au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Données de profil générales  {#general-profile-data}
+## Données de profil générales   {#general-profile-data}
 
 L'onglet **[!UICONTROL Général]** regroupe les informations suivantes concernant le profil :
 
@@ -55,13 +55,13 @@ L'onglet **[!UICONTROL Général]** regroupe les informations suivantes concerna
 
 ![](assets/profile_creation4.png)
 
-## Logs d'envoi et tracking  {#sending-and-tracking-logs}
+## Logs d'envoi et tracking   {#sending-and-tracking-logs}
 
 Les onglets **[!UICONTROL Envois]** et **[!UICONTROL Tracking]** répertorient les diffusions envoyées au profil, ainsi que toutes les données de tracking associées.
 
 Pour plus d'informations sur les envois et le tracking, consultez les sections [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs) et [Tracker les messages](../../sending/using/tracking-messages.md).
 
-## Abonnements  {#subscriptions}
+## Abonnements   {#subscriptions}
 
 Les abonnements du contact sont répertoriés dans l'onglet correspondant. Pour plus d'informations sur l'abonnement à un service, voir [cette section](../../audiences/using/about-subscriptions.md).
 
