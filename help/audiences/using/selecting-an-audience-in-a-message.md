@@ -34,11 +34,11 @@ Les audiences peuvent être définies au moment de la création du message via l
 
    L'écran de définition des audiences s'ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d'audience qui recevra le message :
 
-   * Cible.
+   * Cible
    * Profils de test
    ![](assets/delivery_audience_definition_2.png)
 
-1. Définissez la **[!UICONTROL cible]** principale de l’email. Il s'agit de l'audience cible standard de l'email.
+1. Définissez la **[!UICONTROL cible]** principale de l'email. Il s'agit de l'audience cible standard de l'email.
 
    La cible est définie dans l'onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données.
 
