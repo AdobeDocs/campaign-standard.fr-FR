@@ -23,7 +23,7 @@ Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 * [Définir les clés d'identification ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST de Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API REST Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## Etape 1 : configurer la clé d'identification{#step-1-configure-the-identification-key}
 
@@ -96,7 +96,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Pour appeler un filtre client, utilisez le préfixe "par" suivi du nom du filtre défini lors de la configuration de la définition du filtre à l’[étape 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Pour appeler un filtre client, utilisez le préfixe "par" suivi du nom du filtre défini lors de la configuration de la définition du filtre à l'[étape 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie "printemps" avec l'identifiant CRM "123456" est la suivante :
 
@@ -104,4 +104,4 @@ Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie 
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Pour plus d'informations, consultez la [documentation des API REST Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
