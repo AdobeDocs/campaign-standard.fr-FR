@@ -59,7 +59,7 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
    >[!NOTE]
    >
-   >Le **[!UICONTROL Taux d’ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
+   >Le **[!UICONTROL Taux d'ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
 
 ![](assets/sending_delivery.png)
 
