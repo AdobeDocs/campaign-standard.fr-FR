@@ -29,7 +29,7 @@ Ces utilisateurs n'ont alors qu'à sélectionner le type d'import qu'ils souhait
 
 >[!NOTE]
 >
->La fonction Import de données peut être gérée par des utilisateurs disposant des rôles **[!UICONTROL IMPORT GENERIQUE (import)]** et **[!UICONTROL WORKFLOW (workflow)]**. Pour plus d’informations sur les rôles, consultez [cette section](../../administration/using/list-of-roles.md).
+>La fonction Import de données peut être gérée par des utilisateurs disposant des rôles **[!UICONTROL IMPORT GENERIQUE (import)]** et **[!UICONTROL WORKFLOW (workflow)]**. Pour plus d'informations sur les rôles, consultez [cette section](../../administration/using/list-of-roles.md).
 
 Les imports peuvent être filtrés en fonction du modèle à partir duquel ils ont été exécutés, de leur date d'exécution ainsi que de leur statut d'exécution.
 
