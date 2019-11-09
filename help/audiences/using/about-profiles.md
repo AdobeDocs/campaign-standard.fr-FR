@@ -24,7 +24,7 @@ Adobe Campaign vous permet de gérer des contacts dans toutes les étapes de leu
 
 >[!NOTE]
 >
->Les profils sont également disponibles à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles).
+>Les profils sont également disponibles à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
 
 ![](assets/marketing_history.png)
 
