@@ -20,16 +20,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # A propos des paramètres de Campaign Standard{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard est fourni avec différents éléments d’application qui peuvent être configurés en fonction de vos besoins. Vous pouvez, par exemple :
+[!DNL Campaign] Standard est fourni avec différents éléments d'application qui peuvent être configurés en fonction de vos besoins. Vous pouvez, par exemple :
 
-* Configurer des comptes externes,
-* Configurez les mappages de cibles pour gérer les paramètres techniques requis pour envoyer les livraisons,
-* Configurez des notifications internes dans l’application, etc.
+* définir des comptes externes ;
+* configurer les mappings de ciblage pour gérer les paramètres techniques requis pour envoyer les diffusions ;
+* définir des notifications internes dans l'application, etc.
 
-Ces paramètres sont disponibles dans le menu Paramètres **** Administration **[!UICONTROL /]** Application.
+Ces paramètres sont disponibles dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage de l'application]**.
 
-En outre, des options techniques sont disponibles dans le menu **[!UICONTROL Options]** , ce qui vous permet de configurer l’application plus spécifiquement. Certaines sont intégrées lors de l'installation de Campaign et d'autres peuvent être ajoutées manuellement si nécessaire (les options disponibles varient selon les packages installés avec votre instance).
+En outre, des options techniques sont disponibles dans le menu **[!UICONTROL Options]**, ce qui vous permet de configurer l'application plus spécifiquement. Certaines d'entre elles sont intégrées lors de l'installation de Campaign et d'autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
 >[!CAUTION]
 >
->Ces options sont déjà configurées lors de l’installation de Campaign et doivent être modifiées uniquement par les utilisateurs avancés. Si vous avez une question ou une demande, contactez votre contact Adobe.
+>Ces options sont déjà configurées lors de l'installation de Campaign et doivent être modifiées uniquement par les utilisateurs expérimentés. Pour toute question ou demande, rapprochez-vous de votre contact Adobe.
