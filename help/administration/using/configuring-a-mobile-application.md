@@ -37,7 +37,7 @@ Une fois une application mobile configurée, vous pouvez récupérer les donnée
 
 >[!NRemarque]
 >
->To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+>Pour en savoir plus sur les différents cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce à l'utilisation des SDK Adobe Experience Platform SDK, consultez cette [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
 Pour envoyer des notifications push et des messages In-App avec l'application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour obtenir les étapes détaillées afin de configurer votre application mobile à l'aide du SDK Experience Platform, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
@@ -47,10 +47,10 @@ Suivez les étapes ci-dessous pour commencer la configuration :
 
    ![](assets/launch_1.png)
 
-1. Créez l'application mobile dans Experience Platform Launch en créant une propriété de type Mobile. For more info, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) documentation.
+1. Créez l'application mobile dans Experience Platform Launch en créant une propriété de type Mobile. Pour plus d'informations, consultez la documentation d'[Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property).
 1. Installez l'extension **[!UICONTROL Adobe Campaign Standard]** pour votre application mobile dans Experience Platform Launch :
 
-   For more information on extensions, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) documentation.
+   Pour plus d'informations sur les extensions, consultez la documentation d'[Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Configurez des règles pour votre application dans Adobe Launch. Voir [Configuration de votre application dans Adobe Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
 1. Configurez votre application Adobe Launch dans Adobe Campaign Standard. Voir [Configuration de votre application Adobe Launch dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
