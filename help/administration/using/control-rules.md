@@ -36,7 +36,7 @@ Vous pouvez choisir le moment où la règle sera appliquée parmi les étapes du
 
 ![](assets/typology_phase.png)
 
-Les valeurs possibles sont les suivantes :
+Les valeurs possibles sont les suivantes :
 
 * **Au début du ciblage**
 
