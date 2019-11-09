@@ -32,7 +32,7 @@ Dans Adobe Campaign, vous sélectionnez le trigger qui a été précédemment cr
 * Regardez la vidéo [Déclencher des messages de remarketing selon l'activité du site](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques Triggers d'abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Processus utilisateur de triggers  {#triggers-user-process}
+## Processus utilisateur de triggers   {#triggers-user-process}
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Dans Adobe Campaign, les étapes principales du processus utilisateur sont les s
 
 Des cas pratiques complets sont présentés dans [cette section](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Remarques importantes  {#important-notes}
+## Remarques importantes   {#important-notes}
 
 Voici quelques remarques importantes à prendre en considération avant d'utiliser l'intégration des triggers Campaign :
 
