@@ -20,30 +20,30 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Concevoir une landing page{#designing-a-landing-page}
 
-## A propos de la conception de contenu de la page d’entrée {#about-content-design}
+## A propos de la conception du contenu d'une landing page {#about-content-design}
 
 Les landing pages sont créées de la même façon que toute autre [activité marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Lors de la conception d’une page d’entrée, vous devez définir le contenu de la page elle-même, la page de confirmation et la page d’erreur. Utilisez le sélecteur situé sous la barre d'actions pour afficher et configurer chacune de ces pages.
+Lors de la conception d'une landing page, vous devez définir le contenu de la page, de la page de confirmation et de la page d'erreur. Utilisez le sélecteur situé sous la barre d'actions pour afficher et configurer chacune de ces pages.
 
-Le contenu des pages d’entrée est conçu dans l’éditeur de contenu de campagne.
+Le contenu des landing pages est conçu dans l'éditeur de contenu de Campaign.
 
 >[!NOTE]
 >
->Si votre instance a été installée avant la version 19.0 d’Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l'interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d'email](../../designing/using/overview.md).
+>Si votre instance a été installée avant la version 19.0 d'Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l'interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d'email](../../designing/using/overview.md).
 
-Cette page décrit les spécificités de l’éditeur de contenu de la page d’entrée. Pour plus d’informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Conception de contenu** de courrier électronique :
+Cette page décrit les spécificités de l'éditeur de contenu de landing page. Pour plus d'informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d'email** :
 
 * [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * [Insérer un lien](../../designing/using/links.md#inserting-a-link).
 * [Insérer des images](../../designing/using/images.md).
-* [Meilleures pratiques générales pour la conception](../../designing/using/overview.md#content-design-best-practices)de contenu.
+* [Bonnes pratiques générales pour la conception de contenu](../../designing/using/overview.md#content-design-best-practices).
 
 >[!NOTE]
->If you have a landing page that is already predefined in HTML format, you can import it directly using the **[!UICONTROL Change content]** button.
+>Si vous disposez d'une landing page déjà prédéfinie au format HTML, vous pouvez l'importer directement via le bouton **[!UICONTROL Changer de contenu]**.
 >
->Avant d’importer une page HTML dans Adobe Campaign, assurez-vous qu’elle s’ouvre et s’affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s'exécuter sans erreur hors de l'éditeur. Evitez en général d'utiliser des scripts dans le contenu des messages pour qu'il soit correctement traité par les clients de messagerie.
+>Avant d'importer une page HTML dans Adobe Campaign, assurez-vous qu'elle s'ouvre et s'affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s'exécuter sans erreur hors de l'éditeur. Evitez en général d'utiliser des scripts dans le contenu des messages pour qu'il soit correctement traité par les clients de messagerie.
 
 ## Interface de l'éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
@@ -57,7 +57,7 @@ L'éditeur de contenu est organisé en trois sections distinctes. Elles permette
 1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage.
 1. La **zone d'édition** principale permet d'interagir directement avec le contenu, grâce à la barre d'outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc.
 
-The **action bar** contains different buttons that allow you to interact with the content that is being created.
+La **barre d'actions** contient différents boutons permettant d'agir sur le contenu en cours de création.
 
 ![](assets/des_lp_content_9.png)
 
@@ -104,7 +104,7 @@ The **action bar** contains different buttons that allow you to interact with th
  </tbody> 
 </table>
 
-The **toolbar** is a contextual element of the editor interface that offers various functionalities depending on the zone selected. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
+La **barre d'outils** est un élément contextuel de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
 
 ![](assets/delivery_content_17.png)
 
@@ -263,7 +263,7 @@ Les paramètres définis pour un élément d'un bloc (liens, champs de personnal
 
 ![](assets/des_lp_content_4.png)
 
-### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu   {#adding-a-border-and-a-background-in-the-content-editor}
+### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu    {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -273,7 +273,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l'éditeur de contenu   {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l'éditeur de contenu    {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l'intérieur d'un bloc de texte.
 
@@ -283,11 +283,11 @@ Pour modifier l'alignement du texte, sélectionnez l'une des trois icônes suiva
 
 * **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style="text-align: left;").
 * **Centrer** : centre le texte du bloc sélectionné (ajoute style="text-align: center;").
-* **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style="text-align: right;").
+* **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style="text-align: right;").
 
 Vous pouvez également utiliser la barre d'outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page   {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page    {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d'une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
@@ -348,11 +348,11 @@ Dans la palette :
 
 ![](assets/dynamic_content_lp_4.png)
 
-## Confirmer la validation d'une landing page   {#confirm-a-landing-page-submission}
+## Confirmer la validation d'une landing page    {#confirm-a-landing-page-submission}
 
 Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
-1. Editez les propriétés de la landing page accessibles via l’icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
+1. Editez les propriétés de la landing page accessibles via l'icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
 
    ![](assets/lp_edit_properties_button.png)
 
@@ -364,10 +364,10 @@ Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les
 
    ![](assets/lp_parameters_6.png)
 
-## Définir les permissions et pré-charger les données   {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données    {#setting-permissions-and-pre-loading-data}
 
-L'accès à une page d'entrée peut être limité aux visiteurs identifiés, qui proviennent d'un lien dans un message envoyé par Campaign, par exemple, ou à une unité d'organisation spécifique.
-Dans le cas des visiteurs identifiés, vous pouvez précharger leurs données dans la page d’entrée. Pour cela :
+L'accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d'un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
+Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
 
 1. Editez les propriétés de la landing page accessibles via l'icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Accès &amp; chargement]**.
 
@@ -384,23 +384,23 @@ Vous pouvez également :
 * Utiliser les paramètres d'URL pour identifier les visiteurs, à l'aide de l'option **[!UICONTROL Autoriser l'identification des visiteurs via les paramètres de l'URL]** : vous devez ensuite choisir la clé de chargement et mapper les paramètres de filtre avec les paramètres de l'URL correspondante.
 * Autoriser n'importe quel visiteur à accéder à la landing page, à l'aide de l'option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
 
-Les pages d'entrée peuvent également être liées à une unité organisationnelle. L'accès des utilisateurs aux différentes pages d'entrée sera ainsi défini. Pour affecter une unité d'organisation :
+Les landing pages peuvent également être liées à une entité organisationnelle. L'accès des utilisateurs aux différentes landing pages sera ainsi défini. Pour assigner une entité organisationnelle :
 
-1. Accédez aux propriétés de votre page d’entrée via l’icône **[!UICONTROL Modifier les propriétés]** .
+1. Accédez aux propriétés de votre landing page via l'icône **[!UICONTROL Editer les propriétés]**.
 
    ![](assets/lp_parameters_google3.png)
 
-1. Dépliez l’autorisation **[!UICONTROL d’accès]**.
+1. Développez **[!UICONTROL Autorisation d'accès]**.
 
-1. Cliquez sur le menu déroulant et sélectionnez votre unité d'organisation. For more information on how to create organization unit, refer to this [page](../../administration/using/organizational-units.md).
+1. Cliquez sur le menu déroulant et sélectionnez votre entité organisationnelle. Pour plus d'informations sur la création d'une entité organisationnelle, consultez cette [page](../../administration/using/organizational-units.md).
 
    ![](assets/lp_org_unit_2.png)
 
-1. The **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Access authorization]** and **[!UICONTROL Last modified]** fields are automatically completed.
+1. Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Autorisation d'accès]** et **[!UICONTROL Modifié le]** sont automatiquement renseignés.
 
 1. Cliquez sur **[!UICONTROL Confirmer]**, puis sur **[!UICONTROL Enregistrer]**.
 
-Votre page d'entrée est désormais accessible et gérée uniquement par les utilisateurs de l'unité d'organisation choisie.
+Votre landing page ne peut maintenant être accessible et gérée que par les utilisateurs de l'entité organisationnelle choisie.
 
 ![](assets/lp_org_unit_3.png)
 
