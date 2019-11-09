@@ -1,6 +1,6 @@
 ---
 title: Test de l'objet d'un email
-description: Découvrez comment définir l’objet d’un email dans le Concepteur d’email.
+description: Découvrez comment définir l'objet d'un email dans le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -18,7 +18,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Test de l'objet d'un email {#testing-a-subject}
 
-Pour tester votre objet, procédez comme suit :
+Pour tester un objet, procédez comme suit :
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l'objet de l'email dans le champ de saisie prévu à cet effet.
@@ -45,7 +45,7 @@ Plusieurs indicateurs sont calculés et un ensemble d'outils s'affiche en vue de
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importer des modèles  {#importing-models}
+## Importer des modèles   {#importing-models}
 
 Par défaut, aucun modèle n'est exécuté sur le serveur Adobe Campaign. Deux méthodes permettent d'obtenir un modèle et d'activer la fonctionnalité :
 
