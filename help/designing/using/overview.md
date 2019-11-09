@@ -99,7 +99,7 @@ Pour utiliser correctement le Concepteur d'email et créer des emails optimaux a
 
 D'autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
 
-### Limitations du Concepteur d'email  {#email-designer-limitations}
+### Limitations du Concepteur d'email   {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d'informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
