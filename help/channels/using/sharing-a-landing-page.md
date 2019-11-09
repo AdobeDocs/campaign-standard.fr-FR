@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Avant de publier une landing page, vous devez effectuer des tests : valider l'exécution, configurer l'accès et définir la fin de vie de la landing page. Ces étapes sont des pré-requis et doivent être exécutées avec précaution.
 
-## Tester la landing page  {#testing-the-landing-page-}
+## Tester la landing page   {#testing-the-landing-page-}
 
 Comme la landing page aura un impact sur votre plate-forme et les données, vous devez tester soigneusement son exécution. Pour cela :
 
@@ -43,7 +43,7 @@ Comme la landing page aura un impact sur votre plate-forme et les données, vous
 
    Vous pouvez également générer la miniature de la landing page depuis cet écran.
 
-## Configurer les paramètres de validité  {#setting-up-validity-parameters}
+## Configurer les paramètres de validité   {#setting-up-validity-parameters}
 
 Avant de procéder à la publication, il est vivement recommandé, pour des raisons de sécurité et de performances de la plate-forme, de définir une date d'expiration dans les propriétés de la landing page. A la date choisie, la landing page est automatiquement dépubliée. Pour cela :
 
@@ -63,7 +63,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 >
 >Vous pouvez également définir une date et une heure de déploiement : la landing page sera alors automatiquement publiée à la date spécifiée.
 
-## Publier une landing page  {#publishing-a-landing-page}
+## Publier une landing page   {#publishing-a-landing-page}
 
 Lorsque vous publiez une landing page, elle est mise en ligne et devient accessible aux visiteurs.
 
