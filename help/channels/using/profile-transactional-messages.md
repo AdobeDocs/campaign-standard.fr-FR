@@ -34,18 +34,18 @@ Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez
 
 >[!NOTE]
 >
->Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes les unités)]** .
+>Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes entités)]**.
 >
 >Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
-## Envoyer un message transactionnel basé sur un profil   {#sending-a-profile-transactional-message}
+## Envoyer un message transactionnel basé sur un profil    {#sending-a-profile-transactional-message}
 
 Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d'événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
 Les différences sont énumérées ci-dessous.
 
 1. Accédez au message transactionnel qui a été créé afin de l'éditer.
-1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
+1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre le modèle transactionnel, vous pouvez également choisir tout modèle d'email par défaut qui cible **[!UICONTROL Profil]**.
 
    ![](assets/message-center_marketing_templates.png)
 
@@ -59,7 +59,7 @@ Les différences sont énumérées ci-dessous.
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Contrôler la diffusion d'un message transactionnel selon les profils   {#monitoring-a-profile-transactional-message-delivery}
+## Contrôler la diffusion d'un message transactionnel selon les profils    {#monitoring-a-profile-transactional-message-delivery}
 
 Une fois le message publié et l'intégration à un site effectuée, vous pouvez contrôler la diffusion.
 
