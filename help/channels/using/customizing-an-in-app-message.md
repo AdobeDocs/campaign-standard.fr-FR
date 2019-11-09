@@ -33,7 +33,7 @@ L'éditeur de contenu in-app vous permet de choisir entre deux modes de message 
 
 * [Envoi de votre message in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Reporting in-app](../../reporting/using/in-app-report.md)
-* [Implémentation du suivi des notifications locales](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Implémentation du tracking des notifications locales](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## Personnalisation à l'aide d'un modèle de message {#customizing-with-a-message-template}
 
@@ -65,7 +65,7 @@ Chaque type de disposition peut être prévisualisé sur différents appareils t
 
 ![](assets/inapp_customize_4.png)
 
-### Média  {#media}
+### Média   {#media}
 
 La liste déroulante **[!UICONTROL Médias]** permet d'ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
 
@@ -105,7 +105,7 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
    ![](assets/inapp_customize_11.png)
 
-### Boutons  {#buttons}
+### Boutons   {#buttons}
 
 Vous pouvez ajouter jusqu'à deux boutons à votre message In-App.
 
@@ -127,7 +127,7 @@ Vous pouvez ajouter jusqu'à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_11.png)
 
-### Paramètres  {#settings}
+### Paramètres   {#settings}
 
 1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
 1. A l'aide de l'option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d'afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
@@ -136,10 +136,10 @@ Vous pouvez ajouter jusqu'à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale  {#customizing-a-local-notification-message-type}
+## Personnaliser un type de message de notification locale   {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d'un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
-Pour savoir comment suivre les notifications locales, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
 
 Pour personnaliser une notification locale :
 
