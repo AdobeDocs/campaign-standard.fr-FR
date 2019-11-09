@@ -31,9 +31,9 @@ L'écran d'édition d'un workflow se compose des éléments suivants :
 
 ![](assets/wkf_overview.png)
 
-## Palette    {#palette}
+## Palette     {#palette}
 
-La palette se situe sur la partie gauche de l'écran. Toutes les activités disponibles sont réparties en plusieurs catégories:
+La palette se situe sur la partie gauche de l'écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
 * [Ciblage](../../automating/using/about-targeting-activities.md) : activités spécifiques à la réalisation d'un ciblage, à la manipulation et au filtrage de populations
 * [Exécution](../../automating/using/about-execution-activities.md) : activités spécifiques à l'organisation et à l'exécution du workflow
@@ -46,7 +46,7 @@ Vous devez paramétrer chaque activité ajoutée depuis la palette avant de dém
 
 ![](assets/workflow_palette.png)
 
-## Espace de travail    {#workspace}
+## Espace de travail     {#workspace}
 
 L'espace de travail est la zone centrale de l'éditeur de workflows. C'est dans cette zone que vous pouvez déposer vos activités, les relier entre-elles à l'aide de transitions et les paramétrer.
 
