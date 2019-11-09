@@ -17,7 +17,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ---
 
 
-# Texte simple et modes HTML  {#plain-text-and-html-modes}
+# Texte simple et modes HTML   {#plain-text-and-html-modes}
 
 ## Générer une version texte de l'email {#generating-a-text-version-of-the-email}
 
