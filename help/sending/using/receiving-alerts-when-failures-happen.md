@@ -92,7 +92,7 @@ Si vous souhaitez envoyer des notifications selon des critères spécifiques à 
 
 Désormais, dès qu'une diffusion répond aux critères définis dans ce tableau de bord, une notification d'alerte est envoyée aux groupes d'utilisateurs indiqués.
 
-## Critères des alertes de diffusion    {#delivery-alerting-criteria}
+## Critères des alertes de diffusion     {#delivery-alerting-criteria}
 
 ### A propos des critères des alertes de diffusion {#about-alerting-criteria}
 
@@ -138,7 +138,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 * [Fréquence des alertes](#alerting-frequency)
 * [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Créer un critère d'alerte de diffusion    {#creating-a-delivery-alerting-criterion}
+### Créer un critère d'alerte de diffusion     {#creating-a-delivery-alerting-criterion}
 
 Vous pouvez créer des critères d'alerte de diffusion en fonction de vos besoins.
 
@@ -182,7 +182,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres crit�
 
 [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Paramètres des alertes de diffusion    {#delivery-alerting-parameters}
+## Paramètres des alertes de diffusion     {#delivery-alerting-parameters}
 
 ### Paramètres des critères {#criteria-parameters}
 
@@ -219,7 +219,7 @@ Vous pouvez changer ce paramètre dans le menu **[!UICONTROL Administration]** &
 >
 >Cette option s'applique à tous les tableaux de bord définis dans Adobe Campaign. Vous ne pouvez pas définir une fréquence spécifique pour chaque tableau de bord.
 
-## Motifs des alertes de diffusion    {#delivery-alerting-reasons}
+## Motifs des alertes de diffusion     {#delivery-alerting-reasons}
 
 La fonctionnalité **Alertes de diffusion** maintient automatiquement informés tous les utilisateurs actifs d'Adobe Campaign en ce qui concerne le statut d'exécution des diffusions, par email ou par le biais d'un tableau de bord.
 
@@ -267,7 +267,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
 
 
-* **[!UICONTROL Diffusions avec un état de démarrage en attente long ]**: cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d'exécution attend la disponibilité de certaines ressources. Le MTA n'a peut-être pas été démarré.
+* **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d'exécution attend la disponibilité de certaines ressources. Le MTA n'a peut-être pas été démarré.
 
    **[!UICONTROL Diffusions avec faible débit]** : il s'agit encore une fois d'un problème de délivrabilité qui signale que le MTA est trop lent.
 
