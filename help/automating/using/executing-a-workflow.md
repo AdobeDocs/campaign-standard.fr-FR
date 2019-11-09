@@ -54,7 +54,7 @@ Pour pouvoir accéder au détail des transitions intermédiaires (autres que la 
 
 Lorsqu'une transition est ouverte, vous pouvez modifier son **[!UICONTROL Libellé]** ou lui associer un **[!UICONTROL Code segment]**. Pour cela, éditez les champs correspondants et validez vos modifications.
 
-## Contrôle d'un workflow à partir de l'API REST    {#controlling-a-workflow-from-the-rest-api}
+## Contrôle d'un workflow à partir de l'API REST     {#controlling-a-workflow-from-the-rest-api}
 
 L'API REST vous permet de **démarrer**, **mettre en pause**, **reprendre** et **arrêter** un workflow.
 
@@ -90,7 +90,7 @@ La liste des activités marketing permet d'afficher tous les workflows ainsi que
 
 ![](assets/wkf_execution_3.png)
 
-## Commandes d'exécution    {#execution-commands}
+## Commandes d'exécution     {#execution-commands}
 
 Les icônes de la barre d'actions permettent de lancer, de tracker et de modifier l'exécution d'un workflow. Voir [La barre d'actions](../../automating/using/workflow-interface.md#action-bar).
 
@@ -140,7 +140,7 @@ Le bouton ![](assets/checkdisable.png) désactive la ou les activités sélectio
 >
 >Les actions permettant d'agir sur une activité en particulier sont également disponibles depuis les actions rapides, qui s'affichent lors de la sélection d'une activité.
 
-## Contrôle    {#monitoring}
+## Contrôle     {#monitoring}
 
 L'icône ![](assets/printpreview_darkgrey-24px.png) permet d'accéder au menu Journal et tâches du workflow.
 
@@ -160,7 +160,7 @@ Dans ces deux listes :
 * Le bouton **[!UICONTROL Configurer la liste]** permet de choisir les informations affichées, de définir l'ordre des colonnes et d'appliquer un tri.
 * Vous pouvez utiliser des filtres pour trouver plus rapidement les informations dont vous avez besoin. Utilisez le champ de recherche pour rechercher du texte spécifique dans les noms des activités de workflow (par exemple "requête") et les logs.
 
-## Gestion des erreurs    {#error-management}
+## Gestion des erreurs     {#error-management}
 
 Lorsqu'une erreur se produit, le workflow se met en pause et l'activité qui était en cours d'exécution lorsque l'erreur s'est produite clignote alors en rouge.
 
@@ -178,7 +178,7 @@ La section **[!UICONTROL Exécution]** des propriétés du workflow permet égal
 
 Les superviseurs peuvent également être définis dans les propriétés d'exécution du workflow.
 
-## Propriétés d'exécution    {#workflow-properties}
+## Propriétés d'exécution     {#workflow-properties}
 
 Pour modifier les propriétés d'exécution de l'ensemble d'un workflow, utilisez le bouton ![](assets/edit_darkgrey-24px.png) pour accéder aux propriétés du workflow et sélectionnez la section **[!UICONTROL Exécution]**.
 
@@ -206,13 +206,13 @@ Le champ **[!UICONTROL En cas d'erreur]** vous permet de définir l'action à ef
 
 ![](assets/wkf_execution_6.png)
 
-## Propriétés d'une activité    {#activity-properties}
+## Propriétés d'une activité     {#activity-properties}
 
 ### Propriétés générales d'une activité {#general-properties-of-an-activity}
 
 Chaque activité possède un onglet **[!UICONTROL Propriétés]**. Cet onglet permet de modifier les paramètres généraux de l'activité, notamment le libellé et l'identifiant. La configuration de cet onglet est facultative.
 
-### Gestion des transitions sortantes d'une activité    {#managing-an-activity-s-outbound-transitions}
+### Gestion des transitions sortantes d'une activité     {#managing-an-activity-s-outbound-transitions}
 
 Par défaut, certaines activités ne possèdent pas de transition sortante. Vous pouvez en ajouter à partir de l'onglet **[!UICONTROL Transitions]** ou de l'onglet **[!UICONTROL Propriétés]** de l'activité afin d'appliquer d'autres traitements à votre population dans un même workflow.
 
@@ -225,7 +225,7 @@ En fonction des activités, vous pouvez ajouter plusieurs types de transitions s
 
 Vous pouvez indiquer un **[!UICONTROL Code segment]** pour la transition sortante d'une l'activité. Ce code segment permet d'identifier d'où viennent les sous-ensembles de la population cible finale, et peut par la suite servir à des fins de personnalisation dans un message.
 
-### Options d'exécution d'une activité    {#activity-execution-options}
+### Options d'exécution d'une activité     {#activity-execution-options}
 
 L'écran des propriétés d'une activité comporte un onglet **[!UICONTROL Options d'exécution]** vous permettant notamment de définir son mode d'exécution et le comportement en cas d'erreur.
 
