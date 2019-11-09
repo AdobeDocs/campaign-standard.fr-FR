@@ -77,7 +77,7 @@ Pour créer une audience de type **Liste**, les étapes sont les suivantes :
 
    ![](assets/audiences_list_4.png)
 
-## Création d'une audience de type Fichier  {#creating-file-audiences}
+## Création d'une audience de type Fichier   {#creating-file-audiences}
 
 Cette section décrit la création d'une audience de type **Fichier** à l'aide d'un import de fichier dans un workflow. Vous pouvez également créer des audiences à partir d'un ciblage dans un [workflow](../../automating/using/discovering-workflows.md) ou via une requête depuis le menu **[!UICONTROL Audiences]** de l'application.
 
@@ -99,7 +99,7 @@ Pour créer une audience de type **Fichier**, les étapes sont les suivantes :
 
    ![](assets/audience_files_3.png)
 
-## Création d'audiences de type Experience Cloud  {#creating-experience-cloud-audiences}
+## Création d'audiences de type Experience Cloud   {#creating-experience-cloud-audiences}
 
 Adobe Campaign vous permet d'échanger et de partager des audiences avec Adobe Experience Cloud. Une audience de type **Experience Cloud** est directement importée depuis People core service dans Adobe Campaign à l'aide du workflow technique **[!UICONTROL Importer une audience partagée]**.
 
@@ -124,7 +124,7 @@ La modification d'une audience dépend de son type :
 * Pour modifier une audience de type **Liste** ou de type **Fichier**, éditez le workflow à partir duquel elle a été créée et modifiez l'activité de **[!UICONTROL Sauvegarde d'audience]**. Démarrez le workflow pour que l'audience soit modifiée.
 * Pour éditer une audience de type **Experience Cloud**, consultez la section [Importer/exporter des audiences avec l'intégration de People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Supprimer une audience  {#deleting-audiences}
+## Supprimer une audience   {#deleting-audiences}
 
 Deux méthodes permettent de supprimer une ou plusieurs audiences. Vous pouvez tout d'abord ajouter une date d'expiration à votre audience.
 
