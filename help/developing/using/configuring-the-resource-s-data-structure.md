@@ -24,13 +24,13 @@ Suite à la création d'une ressource personnalisée, vous devez paramétrer la 
 
 Lors de l'édition de la ressource, dans l'onglet **[!UICONTROL Structure de données]**, il est possible d'ajouter :
 
-* [les champs,](#adding-fields-to-a-resource)
+* [des champs ;](#adding-fields-to-a-resource)
 * [des clés d'identification ;](#defining-identification-keys)
-* [les index,](#defining-indexes)
-* [Liens](#defining-links-with-other-resources)
-* [Envois](#defining-sending-logs-extension)
+* [des index ;](#defining-indexes)
+* [des liens ;](#defining-links-with-other-resources)
+* [des logs d'envoi.](#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource  {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource   {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d'usine.
 
@@ -70,7 +70,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
 Les champs de votre ressource sont maintenant définis.
 
-## Définir les clés d'identification  {#defining-identification-keys}
+## Définir les clés d'identification   {#defining-identification-keys}
 
 Chaque ressource doit posséder au moins une clé permettant de l'identifier de manière unique. Vous pouvez par exemple définir une clé pour que deux produits ne puissent pas avoir le même ID dans une table d'achats.
 
@@ -94,7 +94,7 @@ Chaque ressource doit posséder au moins une clé permettant de l'identifier de 
 
 Les clés d'identification de la ressource sont maintenant créées.
 
-## Définir les index  {#defining-indexes}
+## Définir les index   {#defining-indexes}
 
 Un index peut référencer un ou plusieurs champs de la ressource. Les index permettent à la base de données de trier les enregistrements afin de les retrouver plus facilement. Ils optimisent les performances des requêtes SQL.
 
@@ -202,20 +202,20 @@ En ajoutant ce lien, un onglet **Achat** est ajouté à l'écran de détail des 
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## Définition de l’extension des envois {#defining-sending-logs-extension}
+## Définition de l'extension des envois {#defining-sending-logs-extension}
 
-L’extension des envois vous permet :
+L'extension des envois vous permet :
 
 * d'étendre les capacités des rapports dynamiques en **ajoutant des champs de profil personnalisés** ;
-* d’étendre les données des envois avec le **code segment et les données de profil.**
+* d'étendre les données des envois avec le **code segment et les données de profil.**
 
 **Étendre avec le code segment**
 
-L’utilisateur peut étendre les logs avec le code segment provenant du moteur du workflow.
+L'utilisateur peut étendre les logs avec le code segment provenant du moteur du workflow.
 
 Le code segment doit être défini dans le workflow.
 
-Pour activer cette extension, cochez l’option **[!UICONTROL Ajouter un code segment]**.
+Pour activer cette extension, cochez l'option **[!UICONTROL Ajouter un code segment]**.
 
 ![](assets/sendinglogsextension_1.png)
 
@@ -225,25 +225,25 @@ Pour plus d'informations sur le code segment, voir la section [Segmentation](../
 
 >[!NOTE]
 >
->L’administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
+>L'administrateur doit avoir étendu la ressource Profil avec un champ personnalisé.
 
 ![](assets/sendinglogsextension_2.png)
 
 Cliquez sur **[!UICONTROL Ajouter un champ]** et sélectionnez un champ personnalisé dans la ressource de profil.
 
-Afin de générer une nouvelle sous-dimension liée à la dimension Profil, cochez l’option **[!UICONTROL Ajouter ce champ en tant que nouvelle dimension dans les rapports dynamiques]**.
+Afin de générer une nouvelle sous-dimension liée à la dimension Profil, cochez l'option **[!UICONTROL Ajouter ce champ en tant que nouvelle dimension dans les rapports dynamiques]**.
 
 ![](assets/sendinglogsextension_3.png)
 
 Dans Rapports dynamiques, vous pouvez glisser et déposer la dimension de champ personnalisé dans un tableau à structure libre.
 
-Pour plus d’informations sur les rapports dynamiques, voir la [Liste des composants](../../reporting/using/list-of-components-.md).
+Pour plus d'informations sur les rapports dynamiques, voir la [Liste des composants](../../reporting/using/list-of-components-.md).
 
 >[!CAUTION]
 >
 >Le nombre de champs envoyés aux rapports dynamiques est limité à 20.
 
-## Editer les propriétés d'une ressource  {#editing-resource-properties}
+## Editer les propriétés d'une ressource   {#editing-resource-properties}
 
 Dans l'écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]** indique le statut de la ressource nouvellement créée. Vous pouvez gérer son accès et ses propriétés générales.
 
