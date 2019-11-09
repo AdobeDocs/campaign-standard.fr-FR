@@ -35,7 +35,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre  {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre   {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l'aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
@@ -51,7 +51,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. À compter de la version 19.4 de Campaign, la **[!UICONTROL preuve]** Exclure sera déjà sélectionnée par défaut. Si nécessaire, vous pouvez le modifier en faisant glisser l’un des **[!UICONTROL segments]** depuis l’onglet **[!UICONTROL Composants]** vers la barre supérieure.
+1. A compter de la version 19.4 de Campaign, l'option **[!UICONTROL Exclure le BAT]** sera déjà sélectionnée par défaut. Si nécessaire, vous pouvez la modifier en faisant glisser l'un des **[!UICONTROL segments]** depuis l'onglet **[!UICONTROL Composants]** vers la barre supérieure.
 
    ![](assets/dynamic_report_panel_3.png)
 
