@@ -21,53 +21,53 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign, avec des références aux documentations dédiées.
 
-## Importation de données par le biais de processus {#importing-data-through-workflows}
+## Import de données par le biais de workflows {#importing-data-through-workflows}
 
-Les processus vous permettent de collecter des données et de les importer dans la base de données Campaign par le biais d’activités de gestion [**[!UICONTROL des]**](../../automating/using/about-data-management-activities.md) données.
+Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md).
 
-Les informations génériques et les bonnes pratiques relatives à l’importation de données par le biais de processus sont présentées dans [cette section](../../automating/using/importing-data.md).
+Les informations génériques et les bonnes pratiques relatives à l'import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/importing-data.md).
 
-De plus, vous pouvez configurer des modèles pour importer des données. L’utilisation de modèles d’importation est recommandée si vous devez importer régulièrement des fichiers avec la même structure.
+Vous pouvez en outre configurer des modèles pour importer des données. L'utilisation de modèles d'import est recommandée si vous devez importer régulièrement des fichiers avec la même structure.
 
-Vous pouvez configurer deux types de modèles :
+Vous pouvez configurer deux types de modèles :
 
-* **Modèles** de processus : il s’agit de processus préconfigurés que vous pouvez configurer une fois en fonction de vos besoins, puis réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données.
+* **Modèles de workflow** : il s'agit de workflows préconfigurés que vous pouvez paramétrer une fois selon vos besoins. Vous pouvez ensuite les réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données.
 
-   Vous trouverez un exemple de modèle de flux de travail pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
+   Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Importer des modèles** de données : tout comme les modèles de processus, il s’agit de modèles basés sur des processus, configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont accessibles aux utilisateurs avec une vue simplifiée sous le menu **[!UICONTROL Profil et audiences]** / **[!UICONTROL Importation]** .
+* **Modèles de données d'import** : tout comme les modèles de workflow, il s'agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]** / **[!UICONTROL Imports]**.
 
-   Pour plus d’informations sur les modèles de données d’importation, reportez-vous à la documentation [](../../automating/using/importing-data-with-import-templates.md)dédiée.
+   Pour plus d'informations sur les modèles de données d'import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
 
-## Collecte de données à partir de pages d'entrée {#collecting-data-from-landing-pages}
+## Collecte de données à partir de landing pages {#collecting-data-from-landing-pages}
 
-Les pages d’entrée sont des formulaires Web qui peuvent être utilisés pour collecter des données et créer ou mettre à jour des informations existantes dans votre base de données.
+Les landing pages sont des formulaires web qui peuvent être utilisés pour collecter des données et créer ou mettre à jour des informations existantes dans votre base de données.
 
-Le principe est le suivant :
+Le principe est le suivant :
 
-* Créez et concevez votre page d'entrée en ajoutant des champs d'entrée pour collecter les données (prénom, nom, courriel, etc.).
-* Mappez chaque champ d’entrée avec le champ correspondant de la base de données.
-* Rendre la page d'entrée disponible en ligne par l'intermédiaire d'un site Web ou d'un lien direct vers un message.
+* Créez et concevez votre landing page en ajoutant des champs d'entrée pour collecter des données (prénom, nom, email, etc.).
+* Faites correspondre chaque champ d'entrée avec le champ correspondant de la base de données.
+* Rendez la landing page disponible en ligne via un site web ou un lien direct dans un message.
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/about-landing-pages.md).
+Pour plus d'informations sur les landing pages, reportez-vous à la [documentation dédiée](../../channels/using/about-landing-pages.md).
 
-## Synchronisation des profils à partir de Microsoft Dynamics 365
+## Synchronisation des profils à partir de Microsoft Dynamics 365
 
-L'intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
+L'intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
-For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Pour plus d'informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
->Veuillez noter que le connecteur Campaign Standard-Microsoft Dynamics 365 est actuellement à disponibilité limitée et qu'il est soumis à plusieurs restrictions, détaillées dans la documentation.
+>Veuillez noter que le connecteur Campaign Standard-Microsoft Dynamics 365 est actuellement à disponibilité limitée et qu'il est soumis à plusieurs restrictions, détaillées dans la documentation.
 
-## Importation de données par le biais d’appels d’API
+## Import de données par le biais d'appels d'API
 
-Les API de Campaign Standard vous permettent d’effectuer des opérations de mise à jour de la base de données, comme la création, la mise à jour ou la suppression de profils ou de services.
+Les API Campaign Standard vous permettent d'effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services.
 
-For more on how to use the APIs, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Pour plus d'informations sur l'utilisation des API, reportez-vous à la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 >[!CAUTION]
 >
->Avant d'effectuer la création en masse de profils ou la mise à jour via des appels d'API, veuillez vérifier les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Avant d'effectuer une mise à jour ou une création en masse de profils via des appels d'API, vérifiez les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
