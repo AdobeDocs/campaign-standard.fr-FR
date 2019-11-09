@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Utilisez le modèle de données flexible d'Adobe Campaign afin d'enrichir vos données de profils client et ajoutez des nouveaux attributs ou tables. Servez-vous ensuite de ces profils client pour accroître la précision de la segmentation, de la personnalisation et du reporting.
 
-Les profils Adobe Campaign représentent l'ensemble des contacts stockés dans la base de données. Chaque profil correspond à une entrée dans la base de données qui contient les informations nécessaires pour faire l'objet de ciblage, qualification et tracking individuel. Ainsi, un profil peut être: un client, un prospect, un individu inscrit à une newsletter, un destinataire, un utilisateur, ou toute autre dénomination selon l'organisation.
+Les profils Adobe Campaign représentent l'ensemble des contacts stockés dans la base de données. Chaque profil correspond à une entrée dans la base de données qui contient les informations nécessaires pour faire l'objet de ciblage, qualification et tracking individuel. Ainsi, un profil peut être : un client, un prospect, un individu inscrit à une newsletter, un destinataire, un utilisateur, ou toute autre dénomination selon l'organisation.
 
 La fonctionnalité des profils client intègre l'ensemble de vos données client en un même lieu :
 
