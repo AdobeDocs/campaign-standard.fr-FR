@@ -54,9 +54,9 @@ Votre typologie est prête à être utilisée. Vous pouvez la sélectionner dans
 >
 >Le champ **[!UICONTROL Affinité IP]** permet de gérer les affinités selon votre configuration. Celles-ci sont définies dans le fichier de configuration de l'instance. Si vous souhaitez utiliser les affinités, contactez votre administrateur.
 
-## Règles de typologie    {#typology-rules}
+## Règles de typologie     {#typology-rules}
 
-Les règles de typologie sont des règles métier qui sont appliquées pendant la préparation du message. Elles servent à vérifier qu'un message est valide et qu'il répond à vos critères de qualité. Elles contrôlent également si chaque membre de l’audience cible est éligible pour recevoir le message.
+Les règles de typologie sont des règles métier qui sont appliquées pendant la préparation du message. Elles servent à vérifier qu'un message est valide et qu'il répond à vos critères de qualité. Elles contrôlent également si chaque membre de l'audience cible est éligible pour recevoir le message.
 
 Les règles de typologie sont disponibles depuis le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Règles de typologie]**.
 
@@ -84,16 +84,16 @@ Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si
 
 ![](assets/typology_rule-order_2.png)
 
-## Ordre d'exécution des règles de typologie    {#typology-rules-execution-order}
+## Ordre d'exécution des règles de typologie     {#typology-rules-execution-order}
 
 Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d'analyse et de personnalisation des messages.
 
-Dans un fonctionnement standard, les règles sont appliquées dans l'ordre suivant :
+Dans un fonctionnement standard, les règles sont appliquées dans l'ordre suivant :
 
 1. Règles de contrôle, si elles s'appliquent au début du ciblage.
-1. Règles de filtrage:
+1. Règles de filtrage :
 
-   * Règles natives de l'application pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse en blackliste / adresse en quarantaine / qualité de l'adresse.
+   * Règles natives de l'application pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse en blackliste / adresse en quarantaine / qualité de l'adresse.
    * Règles de filtrage définies par l'utilisateur.
 
 1. Règles de contrôle, si elles s'appliquent à la fin du ciblage.
