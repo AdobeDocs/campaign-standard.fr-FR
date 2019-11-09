@@ -90,7 +90,7 @@ La création d'un email est possible au sein d'une [campagne](../../start/using/
 
 **Rubriques connexes** :
 
-* [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
+* Vidéo [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)   
 * Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
 * Vidéo [Intégration d'Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
