@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Modèles d'activité marketing {#marketing-activity-templates}
 
-Lorsque vous créez une activité marketing, le premier écran de l'assistant vous invite à sélectionner un type – ou modèle. Les modèles vous permettent de préconfigurer certains paramètres selon vos besoins. Le modèle peut contenir un paramétrage complet ou partiel de l'activité marketing. La gestion des modèles est effectuée par l’administrateur fonctionnel.
+Lorsque vous créez une activité marketing, le premier écran de l'assistant vous invite à sélectionner un type – ou modèle. Les modèles vous permettent de préconfigurer certains paramètres selon vos besoins. Le modèle peut contenir un paramétrage complet ou partiel de l'activité marketing. La gestion des modèles est effectuée par l'administrateur fonctionnel.
 
 L'utilisateur final bénéficie d'une interface simplifiée. Lors de la création d'une activité marketing, il lui suffit de sélectionner le modèle souhaité. Il n'a pas à se soucier du paramétrage technique. Celui-ci a en effet été pré-configuré par l'administrateur fonctionnel dans le modèle.
 
@@ -50,7 +50,7 @@ La gestion de ces modèles s'effectue sur l'écran **[!UICONTROL Ressources]** &
 >
 >Le paramétrage des marques peut être pré-configuré dans un modèle d'email ou de landing page. Voir à ce sujet la section [Marques](../../administration/using/branding.md).
 
-## Modèles de contenu {#content-templates}
+## Modèles de contenu  {#content-templates}
 
 Les modèles de contenu HTML sont accessibles à partir de l'écran **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]** du [menu Avancé](../../start/using/interface-description.md#advanced-menu). Depuis cet emplacement, vous pouvez gérer les modèles de contenu de landing page et d'email, ainsi que les fragments.
 
@@ -60,11 +60,11 @@ Les modèles de contenu d'usine sont en lecture seule. Pour éditer l'un des mod
 
 Vous pouvez créer des modèles ou des fragments et définir vos propres contenus. Pour plus d'informations, consultez [Création d'un modèle de contenu](#creating-a-content-template) et [Création d'un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-Lorsque vous modifiez du contenu avec le concepteur de courrier électronique, vous pouvez également créer des modèles de contenu en enregistrant votre contenu sous forme de fragment ou de modèle. Voir à ce propos [Enregistrer du contenu en tant que modèle](#saving-content-as-template) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+Lors de l'édition de contenu à l'aide du Concepteur d'email, vous pouvez également créer des modèles de contenu en enregistrant le contenu en tant que fragment ou modèle. Voir à ce propos [Enregistrer du contenu en tant que modèle](#saving-content-as-template) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### Modèles de contenu d'email d'usine {#email-content-templates}
 
-You can manage HTML contents that are offered in the **[!UICONTROL Templates]** tab of the [Email Designer](../../designing/using/overview.md) home page.
+Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md).
 
 Les modèles de contenu d'email d'usine comprennent 18 mises en page optimisées pour les appareils mobiles et quatre modèles réactifs conçus par des artistes Behance. Ils correspondent aux utilisations les plus courantes : messages de bienvenue, newsletters, emails de réengagement, etc. Ils peuvent être facilement personnalisés avec le contenu de vos marques afin de faciliter la création des emails.
 
