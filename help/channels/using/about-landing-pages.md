@@ -22,14 +22,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Campaign intègre des landing pages. Il s'agit de formulaires web pouvant être utilisés en vue de capturer des informations sur vos audiences, d'offrir des abonnements à un service, d'afficher des données et de développer votre base de données. Les landing pages peuvent également être utilisées pour acquérir ou mettre à jour des profils existants.
 
-Pour plus d'informations sur les étapes requises pour configurer une page d'entrée, reportez-vous à [cette section](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+Pour plus d'informations sur les étapes requises pour configurer une landing page, reportez-vous à [cette section](../../channels/using/main-steps-to-set-up-a-landing-page.md).
 
 **Rubriques connexes :**
 
-* [Vidéo sur la création d’une page d’entrée](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) vidéo
-* [Utilisation d’une page d’entrée pour s’abonner à un service](../../audiences/using/creating-a-service.md)
+* Tutoriel vidéo [Créer une landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* [Utiliser une landing page pour s'abonner à un service](../../audiences/using/creating-a-service.md)
 
-## Cycle de vie des pages d'entrée {#landing-pages-life-cycle}
+## Cycle de vie des landing pages {#landing-pages-life-cycle}
 
 Le cycle de vie complet d'une landing page est le suivant :
 
@@ -44,7 +44,7 @@ Une fois créée et publiée, vous pouvez rendre la landing page accessible sur 
 
 ## Limites des landing pages{#landing-page-limitations}
 
-La section ci-dessous répertorie les limites que vous devez connaître avant de commencer à configurer des pages d'entrée.
+La section ci-dessous répertorie les limites que vous devez connaître avant de commencer à configurer des landing pages.
 
 **Ecriture et mise à jour des données**
 
@@ -75,6 +75,6 @@ Dans le cas présent, seul le premier profil a été mis à jour, car il s'agit 
 
 ![](assets/landing_page_limitation_2.png)
 
-**Test des pages d'entrée**
+**Test des landing pages**
 
 * Les landing pages ne fonctionnent que sur les profils et non sur les profils de test. Elles ne peuvent donc pas être testées dans le cadre d'un BAT d'email.
