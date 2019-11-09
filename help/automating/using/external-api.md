@@ -27,7 +27,7 @@ Les points d'entrée REST peuvent être un système de gestion client, une insta
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, l’utilisation de JSSP n’est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance d’exécution d’E/S Adobe via l’activité API externe.
+>Pour des raisons de sécurité, l'utilisation de JSSP n'est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance Runtime Adobe I/O via l'activité API externe.
 
 >[!CAUTION]
 >
