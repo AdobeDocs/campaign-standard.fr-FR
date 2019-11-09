@@ -26,7 +26,7 @@ Les paramètres avancés des SMS sont détaillés dans la section [Configuration
 
 Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing),
+* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * un modèle de diffusion correctement lié à ce compte externe.
 
 1. Créez une diffusion SMS depuis la [page d'accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d'une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
