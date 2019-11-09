@@ -46,7 +46,7 @@ L'activité **[!UICONTROL Attente]** est utilisée pour permettre qu'un certain 
 
 L'exemple suivant illustre l'activité **[!UICONTROL Attente]** dans un cas typique. Un email d'invitation à un événement est envoyé. 24 heures après l'envoi, les journaux de la diffusion email sont analysés et un email de rappel est envoyé aux personnes ayant reçu le premier email mais qui ne se sont pas inscrits.
 
-Le workflow de se présente comme suit :
+Le workflow se présente comme suit :
 
 ![](assets/wait_example_workflow.png)
 
