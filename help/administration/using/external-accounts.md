@@ -42,7 +42,7 @@ Les comptes externes peuvent être configurés par les administrateurs depuis le
 
 Adobe Campaign est livré avec un ensemble de comptes externes prédéfinis. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
 
-Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
+Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d'un transfert de fichier dans un workflow ou d'un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un libellé. Le libellé et l'identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
@@ -55,7 +55,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP  {#sftp-external-account}
+## Compte externe SFTP   {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
@@ -65,7 +65,7 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe  {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe   {#adobe-hosted-sftp-server-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d'ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -79,17 +79,17 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 * Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
 * Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 * Gérez les erreurs/exceptions.
-* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
-* Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
+* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s'y trouve.
+* Gardez à l'esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-Notez également que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être whitelistées sur l’instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://support.neolane.net).
+Notez également que les adresses IP publiques à partir desquelles vous tentez d'initier la connexion SFTP doivent être whitelistées sur l'instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l'authentification peuvent être demandés par le biais d'un [ticket d'assistance](https://support.neolane.net).
 
-Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d'informations, consultez la [documentation du Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
 >Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
-Vérifiez si votre instance est hébergée sur AWS [ici](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID).
+Vérifiez [ici](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID) si votre instance est hébergée sur AWS.
 
 ## Compte externe Amazon S3 {#amazon-s3-external-account}
 
@@ -105,7 +105,7 @@ Pour stocker votre fichier en mode crypté dans S3, cochez la case **[!UICONTROL
 
 Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
-Indiquez la **[!UICONTROL région AWS]** associée à votre point d’entrée. Pour vérifier les régions et les versions de signatures prises en charge, consultez la [documentation officielle d’Amazon S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+Indiquez la **[!UICONTROL région AWS]** associée à votre point d'entrée. Pour vérifier les régions et les versions de signatures prises en charge, consultez la [documentation officielle d'Amazon S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 ### Recommandations relatives au compte Amazon S3 {#amazon-s3-account-recommendations}
 
@@ -126,7 +126,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 * Serveur : saisissez l'URL du serveur Adobe Experience Manager. Par exemple, **http://aem.domaine.com:4502**.
 * Identifiants du compte AEM : utilisez le compte qui accédera à l'instance d'Adobe Experience Manager. Il doit s'agir d'un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
-## Compte externe Google reCAPTCHA  {#google-recaptcha-external-account}
+## Compte externe Google reCAPTCHA   {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
