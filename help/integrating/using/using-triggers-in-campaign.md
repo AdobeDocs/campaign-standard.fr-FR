@@ -59,7 +59,7 @@ Le bouton **[!UICONTROL Afficher le trigger dans Experience Cloud]** permet d'af
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d'être créé. Voir à ce propos la section [Edition du modèle](../../start/using/about-templates.md).
 
-## Édition du modèle de message transactionnel  {#editing-the-transactional-message-template}
+## Édition du modèle de message transactionnel   {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l'événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d'un trigger mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
