@@ -36,7 +36,7 @@ L'activité **[!UICONTROL Lecture d'audience]** est une version simplifiée de l
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
 1. Sélectionnez l'audience que vous souhaitez récupérer dans l'onglet **[!UICONTROL Propriétés]**.
 
-   Les types d’audience suivants peuvent être récupérés : **[!UICONTROL Liste]**, **[!UICONTROL Requête]**, **[!UICONTROL Fichier]** et **[!UICONTROL Experience Cloud]**. Pour plus d'informations sur les types d'audiences, consultez la documentation [Audiences](../../audiences/using/about-audiences.md).
+   Les types d'audience suivants peuvent être récupérés : **[!UICONTROL Liste]**, **[!UICONTROL Requête]**, **[!UICONTROL Fichier]** et **[!UICONTROL Experience Cloud]**. Pour plus d'informations sur les types d'audiences, consultez la documentation [Audiences](../../audiences/using/about-audiences.md).
 
    L'option **[!UICONTROL Utiliser une audience dynamique]** vous permet de définir le nom de l'audience à cibler en fonction des variables d'événements du workflow. Voir à ce propos la section [Personnaliser les activités avec des variables d'événements](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
@@ -48,7 +48,7 @@ L'activité **[!UICONTROL Lecture d'audience]** est une version simplifiée de l
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Exemple : réconcilier une audience de type fichier avec la base de données  {#example--reconcile-a-file-audience-with-the-database}
+## Exemple : réconcilier une audience de type fichier avec la base de données   {#example--reconcile-a-file-audience-with-the-database}
 
 Cet exemple montre comment utiliser l'activité **[!UICONTROL Lecture d'audience]** pour réconcilier une audience créée directement à partir d'un import de fichier.
 
@@ -86,7 +86,7 @@ Le workflow de réconciliation se présente comme suit :
 * Via son onglet **[!UICONTROL Identification]**, une activité [Réconciliation](../../automating/using/reconciliation.md) identifie les données entrantes comme étant des profils. Par exemple, en utilisant le champ **email** comme critère de réconciliation.
 * Une activité [Mise à jour de données](../../automating/using/update-data.md) insère et met à jour la ressource profils de la base de données avec les données entrantes. Comme les données sont déjà identifiées comme des profils, vous pouvez sélectionner l'option **[!UICONTROL En utilisant directement la dimension de ciblage]**, puis **[!UICONTROL Profils]** dans l'onglet **[!UICONTROL Identification]** de l'activité. Pour finir, ajoutez simplement la liste des champs à mettre à jour dans l'onglet correspondant.
 
-## Exemple : union sur deux audiences affinées  {#example--union-on-two-refined-audiences}
+## Exemple : union sur deux audiences affinées   {#example--union-on-two-refined-audiences}
 
 Le workflow défini dans cet exemple montre l'union de deux activités **[!UICONTROL Lecture d'audience]**. L'objectif de ce workflow est d'envoyer un email aux membres Gold ou Silver qui ont entre 18 et 30 ans.
 
