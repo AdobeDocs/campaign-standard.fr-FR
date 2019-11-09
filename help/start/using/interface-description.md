@@ -30,7 +30,7 @@ Tous les écrans d'Adobe Campaign se composent des éléments suivants :
 
 ![](assets/ux_interface_01.png)
 
-## Page d'accueil   {#home-page}
+## Page d'accueil    {#home-page}
 
 La page d'accueil se compose d'un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d'Adobe Campaign. La liste des capacités figurant dans la page d'accueil de Campaign dépend de vos permissions et des options configurées pour votre organisation.
 
@@ -47,7 +47,7 @@ La page d'accueil se compose d'un jeu de vignettes qui permet un accès rapide a
 * La vignette **[!UICONTROL Profils client]** permet d'accéder directement à la liste des profils et de consulter les événements concernant chacun d'entre eux. Voir à ce propos la section [Gestion des profils](../../audiences/using/about-profiles.md).
 * La vignette **[!UICONTROL Audiences]** permet d'accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
-## Barre supérieure   {#top-bar}
+## Barre supérieure    {#top-bar}
 
 Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d'Adobe Campaign et d'accéder au profil Adobe connecté, aux notifications, aux autres services et solutions Adobe Experience Cloud ainsi qu'à la documentation.
 
@@ -103,7 +103,7 @@ L'icône **[!UICONTROL Ressources]** permet d'accéder aux fonctionnalités suiv
 
 L'icône **[!UICONTROL Administration]** permet d'accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/about-administrating-adobe-campaign.md).
 
-## Zone centrale   {#central-zone}
+## Zone centrale    {#central-zone}
 
 La zone centrale de l'interface utilisateur est une zone dynamique qui contient, par exemple, une liste d'éléments ou un jeu de vignettes. Elle permet d'éditer des éléments existants et de créer des ressources.
 
@@ -137,7 +137,7 @@ Selon le type d'écran affiché, une barre contenant des actions liées à l'éc
 
 ![](assets/actionbar.png)
 
-Cette barre contient des actions communes: recherche, filtrage, mais aussi des actions propres à l'écran affiché :
+Cette barre contient des actions communes : recherche, filtrage, mais aussi des actions propres à l'écran affiché :
 
 * Pour les actions liées aux écrans de type **espace de travail**, consultez la section [Barre d'actions](../../automating/using/workflow-interface.md#action-bar) des workflows.
 * Pour les actions liées aux écrans de type **tableau de bord**, consultez la section [Le tableau de bord des messages](../../channels/using/message-dashboard.md) pour plus d'informations.
