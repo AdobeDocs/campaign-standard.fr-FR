@@ -19,7 +19,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Dimensions et mesures de Campaign dans Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-L’intégration d’Adobe Campaign et d’Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
+L'intégration d'Adobe Campaign et d'Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
 
 Les **[!UICONTROL dimensions]** de Campaign qui figurent dans Analytics sont répertoriées ci-dessous :
 
@@ -40,7 +40,7 @@ Les **[!UICONTROL dimensions]** de Campaign qui figurent dans Analytics sont ré
    <td> Libellé de la campagne affiché dans Campaign<br /> </td> 
   </tr> 
   <tr> 
-   <td> l'identifiant de la diffusion<br /> </td> 
+   <td> Identifiant de la diffusion<br /> </td> 
    <td> Nom interne de la diffusion affiché dans Campaign.<br /> Par exemple, DM1 est une diffusion récurrente planifiée pour envoyer des diffusions enfants toutes les semaines. Les diffusions DM2, DM3 et DM4 sont envoyées les trois premières semaines. La dimension Identifiant de la diffusion affiche ensuite les résultats de chaque diffusion, à savoir DM1 à DM4. <br /> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
   </tr> 
   <tr> 
    <td> Ayant ouvert<br /> </td> 
-   <td> Nombre d’ouvertures d’un message dans une diffusion.<br /> </td> 
+   <td> Nombre d'ouvertures d'un message dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
@@ -86,7 +86,7 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
   </tr> 
   <tr> 
    <td> Total de bounces<br /> </td> 
-   <td> Nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /> </td> 
+   <td> Nombre total d'erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures uniques<br /> </td> 
