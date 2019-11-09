@@ -86,7 +86,7 @@ Les étapes de création d'une notification push avec Adobe Campaign sont les su
 
 ## Envoyer la notification {#sending-the-notification}
 
-Il est possible d’envoyer les notifications push à une audience sélectionnée dans Adobe Campaign en définissant les critères de l’audience. Pour l’exemple qui suit, l’audience sélectionnée est composée de 4 abonnés à des applications mobiles ciblés.
+Il est possible d'envoyer les notifications push à une audience sélectionnée dans Adobe Campaign en définissant les critères de l'audience. Pour l'exemple qui suit, l'audience sélectionnée est composée de 4 abonnés à des applications mobiles ciblés.
 
 1. Cliquez sur **[!UICONTROL Préparer]** pour calculer la cible et générer les notifications.
 
@@ -96,28 +96,28 @@ Il est possible d’envoyer les notifications push à une audience sélectionné
 
    ![](assets/push_send_2.png)
 
-1. Dans l’onglet **[!UICONTROL Exclus]**, vous trouverez la liste de tous les messages exclus de la cible envoyés, ainsi que la raison de cette exclusion.
+1. Dans l'onglet **[!UICONTROL Exclus]**, vous trouverez la liste de tous les messages exclus de la cible envoyés, ainsi que la raison de cette exclusion.
 
-   Ici, nous pouvons constater que l’un de nos abonnés aux applications mobiles a été exclu parce que l’adresse était blacklistée, et que les autres abonnés l’ont été parce que le profil était un doublon.
+   Ici, nous pouvons constater que l'un de nos abonnés aux applications mobiles a été exclu parce que l'adresse était blacklistée, et que les autres abonnés l'ont été parce que le profil était un doublon.
 
    ![](assets/push_send_5.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
+1. Cliquez sur l'onglet **[!UICONTROL Exclusions appliquées]** pour afficher le volume des messages exclus.
 
    ![](assets/push_send_7.png)
 
 1. Cliquez maintenant sur **[!UICONTROL Confirmer]** pour commencer à envoyer des notifications push.
-1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Pour plus d’informations à ce sujet, consultez [Envoi de messages](../../sending/using/confirming-the-send.md) et [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Pour plus d'informations à ce sujet, consultez [Envoi de messages](../../sending/using/confirming-the-send.md) et [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   Dans cet exemple, le tableau de bord du message indique qu’Adobe Campaign a tenté d’envoyer deux notifications push : l’une a été envoyée au périphérique avec succès, mais l’autre a échoué. Pour savoir pourquoi la diffusion a échoué, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
+   Dans cet exemple, le tableau de bord du message indique qu'Adobe Campaign a tenté d'envoyer deux notifications push : l'une a été envoyée au périphérique avec succès, mais l'autre a échoué. Pour savoir pourquoi la diffusion a échoué, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
 
    ![](assets/push_send_4.png)
 
-1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l’onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l’autre a échoué en raison d’un token de périphérique erroné. Cet abonné sera alors blacklisté des diffusions ultérieures.
+1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l'onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l'autre a échoué en raison d'un token de périphérique erroné. Cet abonné sera alors blacklisté des diffusions ultérieures.
 
    >[!NOTE]
    >
-   >Des défaillances en aval d’Adobe Campaign peuvent en être la cause. Cela peut également être lié à des défaillances des fournisseurs comme apns et fcm. Pour plus d’informations sur les défaillances des fournisseurs, consultez la documentation d’[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) et d’[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref).
+   >Des défaillances en aval d'Adobe Campaign peuvent en être la cause. Cela peut également être lié à des défaillances des fournisseurs comme apns et fcm. Pour plus d'informations sur les défaillances des fournisseurs, consultez la documentation d'[Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) et d'[Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref).
 
    ![](assets/push_send_6.png)
 
