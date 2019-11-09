@@ -24,7 +24,7 @@ Pour pouvoir gérer les inscriptions, vous devez d'abord créer un service et le
 
 Pour configurer un service :
 
-1. From the advanced menu **[!UICONTROL Profiles &amp; audiences]** &gt; **[!UICONTROL Services]** via the Adobe Campaign logo, add a new service or select an existing service. Si vous créez un nouveau service, suivez simplement les étapes affichées à l'écran.
+1. Depuis le menu avancé **[!UICONTROL Profils &amp; audiences]** &gt; **[!UICONTROL Services]**, accessible via le logo Adobe Campaign, ajoutez un nouveau service ou sélectionnez le service existant de votre choix. Si vous créez un nouveau service, suivez simplement les étapes affichées à l'écran.
 
    Un modèle de service est disponible par défaut. Ce modèle est pré-paramétré avec des landing pages et des emails de confirmation par défaut. Vous pouvez créer d'autres modèles afin de spécifier des paramètres spécifiques. Voir à ce propos la section [Gestion des modèles](../../start/using/about-templates.md).
 
@@ -32,7 +32,7 @@ Pour configurer un service :
 
    ![](assets/lp_service_parameters.png)
 
-1. Renseignez le champ **[!UICONTROL Service label]** . Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
+1. Renseignez le champ **[!UICONTROL Libellé du service]**. Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
 
 1. Sélectionnez un modèle de message de confirmation pour les inscriptions et désinscriptions. Trois modes sont disponibles :
 
@@ -41,9 +41,9 @@ Pour configurer un service :
 
       >[!NOTE]
       >
-      >Vous pouvez modifier un message par défaut en cliquant sur son libellé dans la section Propriétés **[!UICONTROL du]** service ou en le sélectionnant dans la liste des messages transactionnels Adobe Campaign, après avoir coché la case **[!UICONTROL Afficher les messages]** transactionnels internes.
+      >Vous pouvez modifier un message par défaut en cliquant sur son libellé dans la section **[!UICONTROL Propriétés du service]** ou en le sélectionnant dans la liste des messages transactionnels Adobe Campaign, après avoir coché la case **[!UICONTROL Afficher les messages transactionnels internes]**.
 
-   * **[!UICONTROL Message personnalisé]** : ce mode vous permet de gérer des messages de confirmation personnalisés, spécifiques à chaque service. Vous pouvez ensuite sélectionner la **[!UICONTROL Configuration d'événement d'abonnement personnalisé]** qui est associée à un modèle de message transactionnel spécifique. [](../../channels/using/about-transactional-messaging.md) Pour plus d’informations, voir [Confirmation de l’abonnement à un service](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Message personnalisé]** : ce mode vous permet de gérer des messages de confirmation personnalisés, spécifiques à chaque service. Vous pouvez ensuite sélectionner la **[!UICONTROL Configuration d'événement d'abonnement personnalisé]** qui est associée à un modèle de [message transactionnel](../../channels/using/about-transactional-messaging.md) spécifique. Pour plus d'informations, voir [Confirmation de l'abonnement à un service](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Enregistrez le service. Il est alors prêt à être utilisé.
 
