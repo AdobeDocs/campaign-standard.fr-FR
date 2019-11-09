@@ -77,9 +77,9 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 1. Si besoin, gérez les [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) de l'activité afin d'accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Exemple 1 : identifier des doublons avant une diffusion  {#example-1--identifying-duplicates-before-a-delivery}
+## Exemple 1 : identifier des doublons avant une diffusion   {#example-1--identifying-duplicates-before-a-delivery}
 
-L'exemple suivant illustre une déduplication permettant d'exclure les doublons d'une cible avant l'envoi d'un email. Cela permet d’éviter d’envoyer une communication plusieurs fois à un même profil.
+L'exemple suivant illustre une déduplication permettant d'exclure les doublons d'une cible avant l'envoi d'un email. Cela permet d'éviter d'envoyer une communication plusieurs fois à un même profil.
 
 Le workflow est constitué comme suit :
 
@@ -100,7 +100,7 @@ Le workflow est constitué comme suit :
 * Une **[!UICONTROL Diffusion email]** placée à la suite de la transition sortante principale de la déduplication. Le paramétrage des diffusions email est détaillé dans la section [Diffusion Email](../../automating/using/email-delivery.md).
 * Une **[!UICONTROL Sauvegarde d'audience]** placée à la suite de la transition complémentaire de la déduplication afin de sauvegarder les doublons dans une audience **Doublons**. Cette audience pourra être réutilisée afin d'exclure directement ses membres de toute diffusion email.
 
-## Exemple 2 : dédupliquer les données d'un fichier importé  {#example-2--deduplicating-the-data-from-an-imported-file}
+## Exemple 2 : dédupliquer les données d'un fichier importé   {#example-2--deduplicating-the-data-from-an-imported-file}
 
 Cet exemple montre comment dédupliquer les données d'un fichier importé avant de les charger dans la base de données. Ce procédé permet d'améliorer la qualité des données chargées dans la base.
 
