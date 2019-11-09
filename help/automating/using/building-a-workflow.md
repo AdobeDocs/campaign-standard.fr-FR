@@ -26,7 +26,7 @@ Cette section détaille les principes généraux et les bonnes pratiques pour la
 * Ajouter et relier les activités
 * Configurer les activités
 
-## Créer un workflow  {#creating-a-workflow}
+## Créer un workflow   {#creating-a-workflow}
 
 La création d'un workflow est possible au sein d'un programme ou d'une campagne, ou dans la liste des activités marketing.
 
@@ -75,7 +75,7 @@ Les activités sont regroupées par catégories dans les différentes sections d
 * La troisième section regroupe des activités qui peuvent être utilisées pour envoyer les messages sur différents canaux. Les activités de cette section peuvent varier en fonction des canaux activés sur votre instance.
 * La quatrième section regroupe les activités de Data Management et de manipulation de fichiers.
 
-Pour construire le diagramme:
+Pour construire le diagramme :
 
 1. Ajoutez une activité en la sélectionnant dans la palette et en la relâchant dans le diagramme.
 
