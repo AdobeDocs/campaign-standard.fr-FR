@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
@@ -77,3 +77,7 @@ Découvrez comment configurer une landing page.
 * [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+* [Notes techniques](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+
+* [Guide de mise en oeuvre d’Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
