@@ -11,7 +11,7 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -23,7 +23,7 @@ Les règles de filtrage permettent d'exclure une partie de la cible des messages
 
 Vous pouvez par exemple filtrer les abonnés à votre newsletter afin de ne jamais adresser de communications aux inscrits de moins de 18 ans.
 
-## Créer une règle de filtrage   {#creating-a-filtering-rule}
+## Créer une règle de filtrage {#creating-a-filtering-rule}
 
 1. Créez une règle de typologie de type **Filtrage**, applicable à tous les canaux de communication.
 
@@ -55,7 +55,7 @@ Vous pouvez par exemple filtrer les abonnés à votre newsletter afin de ne jama
 
 Lorsque cette règle est utilisée dans un message, les abonnés mineurs sont automatiquement exclus.
 
-## Restreindre la portée d'une règle de filtrage   {#restricting-the-applicability-of-a-filtering-rule}
+## Restreindre la portée d'une règle de filtrage {#restricting-the-applicability-of-a-filtering-rule}
 
 Vous pouvez restreindre le champ d'application d'une règle de filtrage en fonction du message à envoyer.
 
@@ -69,7 +69,7 @@ Vous pouvez restreindre le champ d'application d'une règle de filtrage en fonct
 
 Dans ce cas, la règle n'est appliquée qu'aux messages correspondant aux critères définis.
 
-## Règles d'exclusion de délivrabilité par défaut   {#default-deliverability-exclusion-rules}
+## Règles d'exclusion de délivrabilité par défaut {#default-deliverability-exclusion-rules}
 
 Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l'analyse de l'email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l'instance de délivrabilité. S'il existe une correspondance, le message n'est pas envoyé au destinataire concerné.
 
