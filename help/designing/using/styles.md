@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Dans le Concepteur d'email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s'affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
-### Sélectionner un élément    {#selecting-an-element}
+### Sélectionner un élément {#selecting-an-element}
 
 Pour sélectionner un élément dans l'interface du Concepteur d'email, vous pouvez :
 
@@ -49,7 +49,7 @@ Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
-### Ajuster les paramètres de style    {#adjusting-style-settings}
+### Ajuster les paramètres de style {#adjusting-style-settings}
 
 1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
@@ -62,7 +62,7 @@ Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment
 
 1. Enregistrez votre contenu.
 
-### A propos de la marge et de la marge intérieure    {#about-padding-and-margin}
+### A propos de la marge et de la marge intérieure {#about-padding-and-margin}
 
 L'interface du Concepteur d'email permet d'ajuster rapidement les paramètres de marge et de marge intérieure.
 
@@ -88,7 +88,7 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
 ![](assets/des_padding_lock_icon.png)
 
-### A propos de l'alignement    {#about-alignment}
+### A propos de l'alignement {#about-alignment}
 
 * **Alignement du texte** : placez le curseur de votre souris sur du texte et servez-vous de la barre d'outils contextuelle pour l'aligner.
 
@@ -102,7 +102,7 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
    ![](assets/des_set_vertical_alignment.png)
 
-### A propos des fonds    {#about-backgrounds}
+### A propos des fonds {#about-backgrounds}
 
 Lorsqu'il s'agit de définir des fonds dans le Concepteur d'email, Adobe a les recommandations suivantes :
 
@@ -201,7 +201,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Enregistrez vos modifications.
 
-### Ajouter des attributs de style intégrés    {#adding-inline-styling-attributes}
+### Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
 Dans l'interface du Concepteur d'email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
