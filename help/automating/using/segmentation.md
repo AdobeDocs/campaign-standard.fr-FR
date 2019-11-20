@@ -12,7 +12,7 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
