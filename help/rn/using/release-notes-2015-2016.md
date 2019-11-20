@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -25,7 +25,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d'Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 16.11 - Novembre 2016    {#release-16-11---november-2016}
+## Version 16.11 - Novembre 2016 {#release-16-11---november-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
@@ -78,7 +78,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Intégrations {#integrations}
 
-* Résolution d'un problème qui pouvait entraîner l'affichage d'une erreur lors de l'utilisation de l'option **Image partagée depuis Adobe Marketing Cloud** dans un email.
+* Résolution d'un problème qui pouvait entraîner l'affichage d'une erreur lors de l'utilisation de l'option **Image partagée depuis Adobe Experience Cloud** dans un email.
 
 #### Ressources personnalisées {#custom-resources}
 
@@ -87,7 +87,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui empêchait l'extension des profils et la définition des clés d'identifiant avec un champ dynamique.
 * Correction d'une erreur qui pouvait survenir lors de l'ajout de liens à une ressource personnalisée.
 
-## Version 16.10 - Octobre 2016    {#release-16-10---october-2016}
+## Version 16.10 - Octobre 2016 {#release-16-10---october-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-1}
 
@@ -137,7 +137,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction de problèmes qui empêchaient l'envoi des emails de confirmation lorsque le formulaire d'une landing page était validé.
 
-#### Audiences et requêtes    {#audiences-and-queries}
+#### Audiences et requêtes {#audiences-and-queries}
 
 * Correction de plusieurs problèmes qui survenaient lors de la sélection d'un profil dans l'éditeur de requêtes.
 
@@ -149,10 +149,10 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 #### Intégrations {#integrations-1}
 
 * Correction d'un problème qui empêchait l'utilisation d'une audience partagée dans une diffusion après la mise à jour de cette audience.
-* Correction d'un problème qui empêchait l'utilisation d'une ressource partagée (option **[!UICONTROL Image partagée depuis Adobe Marketing Cloud]**) dans une page d'entrée.
+* Correction d'un problème qui empêchait l'utilisation d'une ressource partagée (option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]**) dans une page d'entrée.
 * Correction de problèmes qui survenaient lors de l'édition d'une audience partagée importée depuis Adobe Audience Manager.
 
-## Version 16.9 - Septembre 2016    {#release-16-9---september-2016}
+## Version 16.9 - Septembre 2016 {#release-16-9---september-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
@@ -166,7 +166,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> Remarketing Triggers<br /> </td> 
-   <td> L'intégration entre le core service <span class="uicontrol">Triggers</span> et Adobe Campaign permet d'envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site Web par Adobe Analytics (dans un délai de 15 minutes).<br /> Dans Adobe Marketing Cloud, vous définissez les différents triggers, c'est-à-dire les comportements des clients que vous souhaitez suivre, comme les clients qui ont abandonné leur panier ou formulaire, supprimé un produit du panier ou dont la session a expiré. Lors de la création d'un trigger, vous définissez la condition du trigger et les données qui seront envoyées à Adobe Campaign dans l'événement (pload). <br /> Dans Adobe Campaign, vous sélectionnez le trigger qui a été précédemment créé, vous enrichissez les données de l'événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au trigger. Par exemple, lorsqu'un client abandonne son panier, un événement est envoyé à Adobe Campaign. Adobe Campaign peut ensuite utiliser cet événement par le biais d'un email de remarketing envoyé au client dans un délai de 15 minutes.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">documentation détaillée</a>.<br /> </td> 
+   <td> L'intégration entre le core service <span class="uicontrol">Triggers</span> et Adobe Campaign permet d'envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site Web par Adobe Analytics (dans un délai de 15 minutes).<br /> Dans Adobe Experience Cloud, vous définissez les différents Triggers, c'est-à-dire les comportements des clients que vous souhaitez suivre, comme les clients qui ont abandonné leur panier ou formulaire, supprimé un produit du panier ou dont la session a expiré. Lors de la création d'un trigger, vous définissez la condition du trigger et les données qui seront envoyées à Adobe Campaign dans l'événement (pload). <br /> Dans Adobe Campaign, vous sélectionnez le trigger qui a été précédemment créé, vous enrichissez les données de l'événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au trigger. Par exemple, lorsqu'un client abandonne son panier, un événement est envoyé à Adobe Campaign. Adobe Campaign peut ensuite utiliser cet événement par le biais d'un email de remarketing envoyé au client dans un délai de 15 minutes.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Messages transactionnels : pause / dépublication<br /> </td> 
@@ -236,7 +236,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration avec People core service<br /> </td> 
-   <td> Les identifiants Adobe Marketing Cloud de type <strong>Declared ID</strong> sont désormais pris en charge par l'intégration entre Adobe Campaign et People core service (Profiles &amp; Audiences).<br /> Vous pouvez ainsi importer des segments et exporter des audiences composées de <strong>Visitor ID</strong> ou de <strong>Declared ID</strong>.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les identifiants Adobe Experience Cloud de type <strong>Declared ID</strong> sont désormais pris en charge par l'intégration entre Adobe Campaign et People core service (Profiles &amp; Audiences).<br /> Vous pouvez ainsi importer des segments et exporter des audiences composées de <strong>Visitor ID</strong> ou de <strong>Declared ID</strong>.<br /> Pour plus d'informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Logs de diffusion <br /> </td> 
@@ -268,7 +268,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Lors de l'intégration à un site web, il est désormais possible de définir une date d'expiration pour un événement donné. Une fois cette date passée, le message correspondant à l'événement ne peut plus être envoyé.
 
-## Version 16.6 - Juin 2016    {#release-16-6---june-2016}
+## Version 16.6 - Juin 2016 {#release-16-6---june-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-4}
 
@@ -325,7 +325,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait être provoquée lorsqu'un lien de type 0 - 1 était paramétré depuis une ressource personnalisée.
 * Correction d'une erreur qui empêchait, le cas échéant, d'éditer la **Valeur par défaut constante** définie lors de l'ajout d'un champ de type **Date et heure** dans une ressource personnalisée.
 
-## Version 16.5 - Mai 2016    {#release-16-5---may-2016}
+## Version 16.5 - Mai 2016 {#release-16-5---may-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-5}
 
@@ -360,7 +360,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Général {#general-5}
 
-* Diverses nouvelles fonctionnalités de l'interface en accord avec les standards de Marketing Cloud.
+* Diverses nouvelles fonctionnalités de l'interface en accord avec les standards de Experience Cloud.
 * Uniformisation des différents types de listes déroulantes.
 
 #### Emails et SMS {#emails-and-sms-messages-4}
@@ -395,7 +395,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui permettait l'ajout, dans un modèle de message transactionnel, d'un bloc de contenu ayant une dimension de ciblage non compatible.
 * Correction d'un erreur qui empêchait l'affichage de l'aperçu de l'API dans l'écran de configuration d'un événement.
 
-#### Audiences et requêtes    {#audiences-and-queries-1}
+#### Audiences et requêtes {#audiences-and-queries-1}
 
 * Corrections diverses liées à l'utilisation des dates dans l'éditeur de requête. Consultez la [documentation détaillée](../../automating/using/editing-queries.md#creating-queries).
 
@@ -502,7 +502,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher l'affichage du bouton permettant d'insérer des champs de personnalisation lors de la création d'un message (email ou SMS).
 * Correction d'une erreur qui pouvait empêcher les SMS envoyés via Mblox d'être transmis correctement.
 
-#### Audiences et requêtes    {#audiences-and-queries-2}
+#### Audiences et requêtes {#audiences-and-queries-2}
 
 * Correction d'une erreur de comptage qui pouvait être entrainée lors de l'ajout d'une condition supplémentaire dans une requête, après avoir modifié la dimension de filtrage.
 * Correction d'une erreur qui pouvait entraîner une pagination incorrecte lors de la prévisualisation des résultats d'une requête.
@@ -524,12 +524,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui empêchait le statut d'une ressource personnalisée d'être réinitialisé après l’import d’un package, si la ressource était publiée au moment de l'export.
 
-#### Packages    {#packages}
+#### Packages {#packages}
 
 * Correction d'une erreur qui empêchait d'exporter un package contenant un workflow.
 * Correction d'une erreur qui pouvait empêcher de sélectionner plusieurs éléments d'une même ressource.
 
-## Version 16.1 - Janvier 2016    {#release-16-1---january-2016}
+## Version 16.1 - Janvier 2016 {#release-16-1---january-2016}
 
 ### Nouvelles fonctionnalités {#new-capabilities-8}
 
@@ -576,7 +576,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher de générer la miniature du contenu depuis l'écran de prévisualisation d'un email.
 * Correction d'une erreur qui pouvait empêcher d'afficher le contenu brut d'un message (email ou SMS) depuis l'écran de prévisualisation de ce dernier.
 
-#### Audiences et requêtes    {#audiences-and-queries-3}
+#### Audiences et requêtes {#audiences-and-queries-3}
 
 * Correction d'une erreur qui pouvait empêcher de créer une audience de type **Requête** sur la ressource **Service**.
 * Correction d'une erreur qui pouvait empêcher la liste des fonctions de correctement s'afficher lors de l'édition d'une condition d'une requête en mode avancé.
@@ -618,7 +618,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Il est maintenant possible de spécifier une adresse IP de confiance dans les paramètres de sécurité de l'opérateur Agent Push Message Center.
 * Correction d'une erreur qui pouvait empêcher de créer un nouveau type d'événement.
 
-## Version 15.11 - Novembre 2015    {#release-15-11---november-2015}
+## Version 15.11 - Novembre 2015 {#release-15-11---november-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-9}
 
@@ -671,7 +671,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 #### Audiences {#audiences}
 
-* Correction d'une erreur qui pouvait empêcher les audiences importées depuis Adobe Marketing Cloud d'être visibles dans la liste des audiences.
+* Correction d'une erreur qui pouvait empêcher les audiences importées depuis Adobe Experience Cloud d'être visibles dans la liste des audiences.
 * Correction d'une erreur qui pouvait forcer la sensibilité à la casse lors de la définition d'une requête.
 * Correction d'une erreur qui pouvait empêcher de filtrer les audiences lors de la définition d'une requête.
 * Correction d'une erreur qui pouvait empêcher l'annulation d'une action dans une audience.
@@ -694,13 +694,13 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui rendait impossible la recherche dans le code source d'une landing page ou d'un email.
 
-#### Packages    {#packages-1}
+#### Packages {#packages-1}
 
 * Correction de diverses erreurs qui pouvaient empêcher l'export de certains types d'éléments dans des packages (notamment landing pages, workflows).
 * Correction d'une erreur qui provoquait l'affichage de l'ancien libellé d'un import de package si le libellé avait été modifié.
 * Correction d'une erreur qui pouvait provoquer l'affichage de ressources non compatibles dans la liste des ressources exportables.
 
-## Version 15.10 - Octobre 2015    {#release-15-10---october-2015-}
+## Version 15.10 - Octobre 2015 {#release-15-10---october-2015-}
 
 ### Nouvelles fonctionnalités {#new-capabilities-10}
 
@@ -780,7 +780,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur de gestion des balises HTML lors du traitement de blocs de contenu dynamique.
 
-## Version 15.8 - Août 2015    {#release-15-8---august-2015}
+## Version 15.8 - Août 2015 {#release-15-8---august-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-11}
 
@@ -869,9 +869,9 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration avec Adobe Profiles &amp; Audiences<br /> </td> 
-   <td> Il est désormais possible de partager des audiences entre Adobe Campaign et vos autres solutions d'Adobe Marketing Cloud :<br /> 
+   <td> Il est désormais possible de partager des audiences entre Adobe Campaign et vos autres solutions d'Adobe Experience Cloud :<br /> 
     <ul> 
-     <li> Export : lorsque vous sauvegardez une audience composée de profils dans un workflow, une nouvelle option <span class="uicontrol">Partager dans Adobe Marketing Cloud</span> vous permet d'ajouter les profils à une audience existante ou de créer une nouvelle audience. </li> 
+     <li> Export : lorsque vous sauvegardez une audience composée de profils dans un workflow, une nouvelle option <span class="uicontrol">Partager dans Adobe Experience Cloud</span> vous permet d'ajouter les profils à une audience existante ou de créer une nouvelle audience. </li> 
      <li> Import : en créant une audience de type <strong>Liste</strong> depuis l'écran de gestion des audiences, une nouvelle option vous permet de l'identifier comme <span class="uicontrol">Audience Adobe Marketing Cloud</span>. Vous pouvez alors sélectionner une audience partagée existante afin de l'importer dans Adobe Campaign. </li> 
     </ul> Pour plus d'informations sur le paramétrage et l'utilisation de cette fonctionnalité, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
@@ -915,11 +915,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui empêchait l'édition d'une landing page depuis une tablette.
 
-#### Assets Core Service    {#assets-core-service}
+#### Assets Core Service {#assets-core-service}
 
 * Lors de la sélection d'une ressource partagée depuis l'édition d'un email ou d'une landing page, la liste des ressources disponibles est désormais filtrée pour Adobe Campaign.
 
-## Version 15.6 - Juin 2015    {#release-15-6---june-2015}
+## Version 15.6 - Juin 2015 {#release-15-6---june-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-13}
 
@@ -1006,11 +1006,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur qui pouvait empêcher une règle d'exclusion d'être correctement prise en compte dans une activité d'**Exclusion**.
 * Correction d'une erreur lors de la suppression d'une activité de diffusion par email dans un workflow. Les diffusions liées n'étaient pas supprimées dans la liste des activités marketing.
 
-#### Navigation    {#navigation}
+#### Navigation {#navigation}
 
 * L'utilisation de la touche de tabulation permet désormais de naviguer correctement entre les champs d'une page.
 
-## Version 15.4 - Avril 2015    {#release-15-4---april-2015}
+## Version 15.4 - Avril 2015 {#release-15-4---april-2015}
 
 ### Nouvelles fonctionnalités {#new-capabilities-14}
 
@@ -1047,7 +1047,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégrations : <strong>Assets Core Service</strong><br /> </td> 
-   <td> Vous pouvez désormais utiliser des ressources partagées via <strong>Assets Core Service</strong> dans le contenu de vos emails et de vos landing pages. Vous pouvez gérer vos ressources partagées directement depuis Adobe Marketing Cloud.<br /> Consultez la <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez désormais utiliser des ressources partagées via <strong>Assets Core Service</strong> dans le contenu de vos emails et de vos landing pages. Vous pouvez gérer vos ressources partagées directement depuis Adobe Experience Cloud.<br /> Consultez la <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégrations : <strong>Adobe Target</strong><br /> </td> 
