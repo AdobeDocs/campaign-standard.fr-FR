@@ -12,7 +12,7 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -56,7 +56,7 @@ L'écran Configuration email vous permet de définir les paramètres du canal em
 
 [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 
-## Comptes de routage email     {#email-routing-accounts}
+## Comptes de routage email {#email-routing-accounts}
 
 Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l'application d'envoyer des emails.
 
@@ -68,7 +68,7 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 [Comptes externes](../../administration/using/external-accounts.md)
 
-## Règles de gestion des emails     {#email-processing-rules}
+## Règles de gestion des emails {#email-processing-rules}
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l'erreur en **Hard**, **Soft** ou **Ignoré**.
 
@@ -135,7 +135,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 
 
-## Liste des propriétés des emails     {#list-of-email-properties}
+## Liste des propriétés des emails {#list-of-email-properties}
 
 Cette section détaille la liste des paramètres disponibles dans l'écran des propriétés d'un email ou d'un [modèle d'email](../../start/using/about-templates.md).
 
@@ -175,7 +175,7 @@ Par défaut, cinq reprises sont planifiées le premier jour de l'envoi, avec un 
 
 Le nombre de reprises peut être changé de manière globale (contactez l'administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
 
-#### Paramètres de format des emails     {#email-format-parameters}
+#### Paramètres de format des emails {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
@@ -206,7 +206,7 @@ Si vous activez l'option de mode test SMTP pour un modèle d'email, cette option
 
 Pour plus d'informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
-### Paramètres de période de validité     {#validity-period-parameters}
+### Paramètres de période de validité {#validity-period-parameters}
 
 La section **[!UICONTROL Validité]** propose les paramètres suivants :
 
@@ -228,7 +228,7 @@ La section **[!UICONTROL Validité]** propose les paramètres suivants :
 >
 >Les paramètres **[!UICONTROL Fixer explicitement les dates de validité]** et **[!UICONTROL Durée de diffusion]** ne s'appliquent pas aux messages transactionnels. Pour plus d'informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
 
-### Paramètres du tracking     {#tracking-parameters}
+### Paramètres du tracking {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
@@ -242,11 +242,11 @@ La section **[!UICONTROL Paramètres avancés]** propose les paramètres suivant
 
 Les deux premiers champs permettent de saisir les informations nécessaires à l'élaboration des en-têtes de messages email (adresse de réponse et texte de l'adresse de réponse). Ces informations peuvent être personnalisées. Pour cela, cliquez sur le bouton situé à droite du champ à éditer, puis ajoutez des champs de personnalisation. L'insertion et l'utilisation de champs de personnalisation sont présentées dans la section [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-#### Contexte de ciblage     {#target-context}
+#### Contexte de ciblage {#target-context}
 
 Le contexte de ciblage permet de définir l'ensemble les tables qui seront utilisées pour le ciblage (dans l'écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l'éditeur de contenu HTML) de l'email.
 
-#### Routage     {#routing}
+#### Routage {#routing}
 
 Ce champ indique le mode de routage utilisé. Il référence un compte externe. Par exemple, cela peut être utile si vous souhaitez utiliser un compte externe contenant des paramétrages de branding spécifiques.
 
@@ -254,7 +254,7 @@ Ce champ indique le mode de routage utilisé. Il référence un compte externe. 
 >
 >Les comptes externes sont accessibles via le menu **Administration** &gt; **Paramétrage de l'application** &gt; **Comptes externes**.
 
-#### Préparation     {#preparation}
+#### Préparation {#preparation}
 
 La préparation des messages est présentée dans la section [Valider les messages](../../sending/using/preparing-the-send.md).
 
@@ -282,7 +282,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
    >
    >L'ajout d'un script pour l'insertion d'en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-### Liste des paramètres d'autorisation d'accès     {#list-of-access-authorization-parameters}
+### Liste des paramètres d'autorisation d'accès {#list-of-access-authorization-parameters}
 
 La section **[!UICONTROL Autorisation d'accès]** propose les paramètres suivants :
 
@@ -302,7 +302,7 @@ Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il v
 
 Lorsqu'elle est activée dans le modèle de diffusion, cette fonctionnalité vous permet d'envoyer une copie exacte des messages envoyés correspondants à une adresse email en bcc (invisible pour les destinataires de diffusion) que vous devez spécifier.
 
-### Recommandations et limitations     {#recommendations-and-limitations}
+### Recommandations et limitations {#recommendations-and-limitations}
 
 * Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l'activer.
 * Vous ne pouvez utiliser qu'une seule adresse email en Cci.
@@ -310,7 +310,7 @@ Lorsqu'elle est activée dans le modèle de diffusion, cette fonctionnalité vou
 * Pour des raisons de confidentialité, les emails en Cci doivent être traités dans un système d'archivage capable de stocker en toute sécurité les informations d'identification personnelles (PII).
 * Lors de la création d'un modèle de diffusion, l'option Email BCC n'est pas activée par défaut, même si elle a été achetée. Vous devez l'activer manuellement dans chaque modèle de diffusion où vous souhaitez l'utiliser.
 
-### Activer l'archivage des emails     {#activating-email-archiving}
+### Activer l'archivage des emails {#activating-email-archiving}
 
 La fonctionnalité Email BCC est activée dans le [modèle d'email](../../start/using/about-templates.md) par le biais d'une option dédiée :
 
