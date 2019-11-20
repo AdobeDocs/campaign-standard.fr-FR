@@ -11,7 +11,7 @@ topic-tags: channel-activities
 discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
