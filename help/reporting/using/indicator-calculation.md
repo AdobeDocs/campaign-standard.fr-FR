@@ -12,7 +12,7 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
 
@@ -131,7 +131,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Ouvertures<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @uniqueOpens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
