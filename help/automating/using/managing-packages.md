@@ -12,7 +12,7 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -32,7 +32,7 @@ Les éléments de chaque liste s'affichent par défaut selon leur date de modifi
 
 Pour afficher le contenu d'un élément et le modifier, cliquez sur son libellé. Reportez-vous aux sections [Export d'un package](#exporting-a-package) et [Import d'un package](#importing-a-package).
 
-## Exports de package   {#package-exports}
+## Exports de package {#package-exports}
 
 ### Packages par défaut {#standard-packages}
 
@@ -46,7 +46,7 @@ Pour afficher le contenu d'un élément et le modifier, cliquez sur son libellé
 
 Les étapes d'export d'un package sont présentées dans la section [Export d'un package](#exporting-a-package).
 
-* Le package **[!UICONTROL Plate-forme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, triggers et options d'application de type **[!UICONTROL Système]**.
+* Le package **[!UICONTROL Plate-forme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, Triggers et options d'application de type **[!UICONTROL Système]**.
 * Le package **[!UICONTROL Administration]** regroupe tous les objets ajoutés pendant la configuration métier : modèles d'opération, modèles de contenu, modèles de diffusion, modèles de landing page, modèles de programme et modèles de workflow.
 
    Il comprend également les objets suivants : blocs de contenu, mappings de ciblage, comptes externes, entités organisationnelles, options d'application de type **[!UICONTROL Utilisateur]**, rôles, typologies, règles de typologie et utilisateurs.
@@ -55,7 +55,7 @@ Les étapes d'export d'un package sont présentées dans la section [Export d'un
 >
 >Il n'est pas possible de modifier la définition de ces deux packages. En revanche, ces derniers contiennent toujours les données disponibles les plus à jour. Vous pouvez [créer vos propres packages](#creating-a-package) pour exporter des éléments spécifiques.
 
-### Création de package   {#creating-a-package}
+### Création de package {#creating-a-package}
 
 Pour exporter des jeux de données spécifiques, vous devez créer un package.
 
@@ -94,13 +94,13 @@ Pour créer un package, vous devez disposer des droits d'administration.
 
 Votre package est maintenant créé et prêt à être exporté.
 
-### Export d'un package   {#exporting-a-package}
+### Export d'un package {#exporting-a-package}
 
 L'export d'un package vous permet d'enregistrer un état spécifique d'une ressource que vous pourrez réimporter ultérieurement sur une même instance ou sur une autre instance.
 
 >[!CAUTION]
 >
->L'export de packages n'est pas autorisé si les ressources exportées ont des identifiants d'usine. Il est donc obligatoire de modifier les identifiants des ressources exportables en s'éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur "SDM" ou "sdm". 
+>L'export de packages n'est pas autorisé si les ressources exportées ont des identifiants d'usine. Il est donc obligatoire de modifier les identifiants des ressources exportables en s'éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur "SDM" ou "sdm".
 
 1. Depuis **[!UICONTROL Administration]** &gt; **[!UICONTROL Déploiement]** &gt; **[!UICONTROL Exports de package]**, sélectionnez un package pour accéder à ses détails.
 1. Vérifiez que le package contient les données dont vous avez besoin.
@@ -138,7 +138,7 @@ La vue **[!UICONTROL Logs d'exécution]** répertorie toutes les étapes de l'im
 >
 >Ces éléments sont accessibles en lecture seule.
 
-### Import d'un package   {#importing-a-package}
+### Import d'un package {#importing-a-package}
 
 Un administrateur peut importer manuellement un package issu d'un export réalisé au préalable à partir d'une instance Adobe Campaign. Voir à ce propos la section [Exports de package](#package-exports).
 
