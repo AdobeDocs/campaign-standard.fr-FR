@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
