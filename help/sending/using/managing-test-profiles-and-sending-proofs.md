@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -38,7 +38,7 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
 ![](assets/test_profile.png)
 
-## Gestion des profils de test     {#managing-test-profiles}
+## Gestion des profils de test {#managing-test-profiles}
 
 ### Créer un profil de test {#creating-test-profiles}
 
@@ -71,7 +71,7 @@ Le profil de test est alors ajouté dans la liste des profils.
 
 **Rubrique connexe :**
 
-Vidéo [Créer un profil de test](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
+Vidéo [Créer un profil de test](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html)
 
 ### Editer un profil de test {#editing-test-profiles}
 
@@ -125,7 +125,7 @@ Vous devez envoyer autant de BAT que nécessaire jusqu'à ce que le contenu de v
 
 **Rubrique connexe :**
 
-Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
+Vidéo [Envoyer un test, préparer un email et l'envoyer](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html)
 
 ## Utilisation des pièges {#using-traps}
 
