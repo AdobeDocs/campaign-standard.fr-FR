@@ -12,7 +12,7 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
