@@ -1,6 +1,6 @@
 ---
 title: Workflows techniques
-description: Workflows techniques sont des processus prêts à l’emploi conçus pour gérer les processus techniques en arrière-plan dans Adobe Campaign, garantissant ainsi un comportement correct de la plateforme.
+description: Workflows techniques sont des workflows d'usine conçus pour gérer des processus techniques en arrière-plan dans Adobe Campaign, tout en assurant un comportement correct de la plate-forme.
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
