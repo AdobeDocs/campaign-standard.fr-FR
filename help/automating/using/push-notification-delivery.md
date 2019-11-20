@@ -1,5 +1,5 @@
 ---
-title: 'Diffusion Notification push '
+title: Diffusion Notification push
 description: L'activité Diffusion Notification push permet de paramétrer l'envoi d'une notification push unique ou récurrente dans un workflow.
 page-status-flag: never-activated
 uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
@@ -11,7 +11,7 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -48,7 +48,7 @@ La préparation du message est déclenchée selon les paramètres d'exécution d
 
    >[!NOTE]
    >
-   >Les propriétés générales et les options avancées de l'activité (et non de la diffusion elle-même) sont disponibles à l'aide du bouton ![, disponible dans les actions rapides de l'activité. ](assets/dlv_activity_params-24px.png) Ce bouton est spécifique à l'activité **[!UICONTROL Notification push]**. Les propriétés de la notification push sont disponibles via la barre d'actions du tableau de bord de la notification push.
+   >Les propriétés générales et les options avancées de l'activité (et non de la diffusion elle-même) sont disponibles à l'aide du bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l'activité. Ce bouton est spécifique à l'activité **[!UICONTROL Notification push]**. Les propriétés de la notification push sont disponibles via la barre d'actions du tableau de bord de la notification push.
 
 1. Sélectionnez le mode d'envoi de la notification push :
 
@@ -71,7 +71,7 @@ Lorsque vous ouvrez à nouveau l'activité par la suite, vous accédez au tablea
 
 Par défaut, le démarrage d'un workflow de diffusion déclenche uniquement la préparation des messages. L'envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques    {#remarks}
+## Remarques {#remarks}
 
 Les diffusions créées à partir d'un workflow sont accessibles dans la liste des activités marketing de l'application. Vous pouvez visualiser l'état d'exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de la notification push vous permettent d'accéder directement aux éléments liés (workflow, campagne, etc.).
 
