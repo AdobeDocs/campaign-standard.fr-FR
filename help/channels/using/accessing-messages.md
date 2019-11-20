@@ -12,7 +12,7 @@ discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,7 +28,7 @@ Les messages sont accessibles :
 * à partir de la page d'accueil d'Adobe Campaign
 * à partir de la liste des activités marketing
 
-## Accéder aux messages dans une campagne   {#accessing-messages-in-campaigns}
+## Accéder aux messages dans une campagne {#accessing-messages-in-campaigns}
 
 Pour accéder à la liste des activités marketing d'une campagne :
 
@@ -46,7 +46,7 @@ Pour accéder à la liste des activités marketing d'une campagne :
 
    Pour filtrer les messages récurrents, vous pouvez cocher la case correspondante.
 
-## Accéder à la liste des messages   {#accessing-the-message-list}
+## Accéder à la liste des messages {#accessing-the-message-list}
 
 Pour accéder à la liste complète des activités marketing de toutes campagnes confondues, procédez comme suit :
 
