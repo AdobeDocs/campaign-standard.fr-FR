@@ -12,7 +12,7 @@ discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
