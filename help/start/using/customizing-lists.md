@@ -11,7 +11,7 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -54,7 +54,7 @@ Vous pouvez également configurer les colonnes affichées pour une liste. Pour a
    * **[!UICONTROL ASC]** : applique un tri ascendant (croissant) sur la colonne
    * **[!UICONTROL DESC]** : applique un tri descendant (décroissant) sur la colonne.
 
-1. Supprimez les colonnes que vous ne souhaitez pas afficher. Pour cela, cochez les cases correspondant aux colonnes à supprimer. Utilisez ensuite le bouton ![ de la barre d'actions pour valider la suppression.](assets/delete.png)
+1. Supprimez les colonnes que vous ne souhaitez pas afficher. Pour cela, cochez les cases correspondant aux colonnes à supprimer. Utilisez ensuite le bouton ![](assets/delete.png) de la barre d'actions pour valider la suppression.
 1. Une fois que votre liste contient les bonnes colonnes, vous pouvez modifier l'ordre dans lequel elles seront affichées dans la liste. Pour cela, cochez les cases des colonnes à déplacer. Utilisez ensuite les flèches ![](assets/arrowdown.png) et ![](assets/arrowup.png).
 1. Validez la configuration de votre liste en sélectionnant **[!UICONTROL OK]**.
 
