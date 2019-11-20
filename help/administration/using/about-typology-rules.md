@@ -12,7 +12,7 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -54,7 +54,7 @@ Votre typologie est prête à être utilisée. Vous pouvez la sélectionner dans
 >
 >Le champ **[!UICONTROL Affinité IP]** permet de gérer les affinités selon votre configuration. Celles-ci sont définies dans le fichier de configuration de l'instance. Si vous souhaitez utiliser les affinités, contactez votre administrateur.
 
-## Règles de typologie     {#typology-rules}
+## Règles de typologie {#typology-rules}
 
 Les règles de typologie sont des règles métier qui sont appliquées pendant la préparation du message. Elles servent à vérifier qu'un message est valide et qu'il répond à vos critères de qualité. Elles contrôlent également si chaque membre de l'audience cible est éligible pour recevoir le message.
 
@@ -84,7 +84,7 @@ Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si
 
 ![](assets/typology_rule-order_2.png)
 
-## Ordre d'exécution des règles de typologie     {#typology-rules-execution-order}
+## Ordre d'exécution des règles de typologie {#typology-rules-execution-order}
 
 Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d'analyse et de personnalisation des messages.
 
