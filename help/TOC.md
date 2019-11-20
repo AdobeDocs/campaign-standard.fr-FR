@@ -1,10 +1,10 @@
 ---
-product: Adobe Campaign
-sub-product: Adobe Campaign standard
+product: adobe campaign
+sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Aide d'Adobe Campaign Standard
+user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
+source-git-commit: e059232068d79a512afda98dcde60578809656b2
 
 ---
 
@@ -203,10 +203,10 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Configurer l'intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personnaliser des messages Campaign avec les données de points ciblés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
    + Utilisation de Campaign et Triggers {#working-with-campaign-and-triggers}
-      + [A propos des triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
-      + [Configuration des triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
+      + [A propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
-      + [Test de vos triggers](integrating/using/testing-your-triggers.md)
+      + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques Triggers d'abandon](integrating/using/abandonment-triggers-use-cases.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + Workflows et gestion des données {#about-workflows-and-data-management}
@@ -276,6 +276,7 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
       + [Création d'une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
       + [Création d'une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
       + [Reciblage des personnes n'ayant pas ouvert l'email](automating/using/workflow-cross-channel-retargeting.md)
+      + [Création d’un groupe de contrôle](automating/using/workflow-control-group.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
@@ -298,6 +299,20 @@ source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
    + Cas pratiques : extension de ressources {#use-cases--extending-resources}
       + [Extension de la ressource Profil avec un nouveau champ](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extension des abonnements à une ressource d'application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+   + Datamodel {#datamodel}
+      + [Audience](developing/using/datamodel-audience.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
+      + [Diffusion](developing/using/datamodel-delivery.md)
+      + [Pages d’entrée](developing/using/datamodel-landingpage.md)
+      + [Historique marketing](developing/using/datamodel-history.md)
+      + [Profil](developing/using/datamodel-profile.md)
+      + [Programme](developing/using/datamodel-program.md)
+      + [Membre de démarrage](developing/using/datamodel-seed.md)
+      + [Service](developing/using/datamodel-service.md)
+      + [Événement d’abonnement](developing/using/datamodel-subscription.md)
+      + [Journaux de suivi](developing/using/datamodel-tracking.md)
+      + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
+      + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
    + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Utilisateurs et sécurité {#users-and-security}
