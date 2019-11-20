@@ -11,7 +11,7 @@ topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -25,7 +25,7 @@ Une adresse email ou un numéro de téléphone peut être mis en quarantaine, pa
 
 Dans tous les cas, la mise en quarantaine répond à des règles précises qui sont décrites dans cette [section](#conditions-for-sending-an-address-to-quarantine).
 
-### Optimiser votre diffusion par le biais des mises en quarantaine   {#optimizing-your-delivery-through-quarantines}
+### Optimiser votre diffusion par le biais des mises en quarantaine {#optimizing-your-delivery-through-quarantines}
 
 Les profils dont l'adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d'erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
@@ -33,7 +33,7 @@ Certains fournisseurs d'accès Internet considèrent automatiquement les emails 
 
 De plus, elles réduisent les coûts d'envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
-Pour plus d'informations sur les bonnes pratiques en matière de sécurisation et d'optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Pour plus d'informations sur les bonnes pratiques en matière de sécurisation et d'optimisation de vos diffusions, consultez [cette page](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
 ### Mise en quarantaine et blacklistage {#quarantine-vs-blacklisting}
 
@@ -47,7 +47,7 @@ En revanche, en cas de **blacklistage**, c'est le profil qui ne sera plus ciblé
 >
 >Lorsqu'un utilisateur répond à un SMS avec un mot-clé tel que "STOP" pour se désinscrire des diffusions SMS, son profil n'est pas blacklisté comme c'est le cas pour la désinscription des emails. Le numéro de téléphone du profil est envoyé en quarantaine avec le statut **[!UICONTROL Blacklisté]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n'est pas blacklisté afin que l'utilisateur puisse continuer à recevoir des emails. Voir à ce propos [cette section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-## Identifier les adresses en quarantaine   {#identifying-quarantined-addresses}
+## Identifier les adresses en quarantaine {#identifying-quarantined-addresses}
 
 Les adresses en quarantaine peuvent être répertoriées pour une diffusion spécifique ou l'ensemble de la plateforme.
 
@@ -55,13 +55,13 @@ Les adresses en quarantaine peuvent être répertoriées pour une diffusion spé
 >
 >Si vous souhaitez sortir une adresse de quarantaine, contactez votre administrateur technique.
 
-### Identifier les adresses en quarantaine pour une diffusion   {#identifying-quarantined-addresses-for-a-delivery}
+### Identifier les adresses en quarantaine pour une diffusion {#identifying-quarantined-addresses-for-a-delivery}
 
 Les adresses en quarantaine pour une diffusion spécifique sont répertoriées pendant la phase de préparation de la diffusion, dans l'onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Pour plus d'informations sur la préparation des diffusions, consultez [cette section](../../sending/using/preparing-the-send.md).
 
 ![](assets/exclusion_logs.png)
 
-### Identifier les adresses en quarantaine pour l'ensemble de la plateforme   {#identifying-quarantined-addresses-for-the-entire-platform}
+### Identifier les adresses en quarantaine pour l'ensemble de la plateforme {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Les administrateurs peuvent répertorier les adresses en quarantaine pour l'ensemble de la plateforme depuis le menu **[!UICONTROL Administration &gt; Canaux &gt; Quarantaines &gt; Adresses]**.
 
@@ -75,7 +75,7 @@ Les administrateurs peuvent répertorier les adresses en quarantaine pour l'ense
 >
 >L'augmentation du nombre de quarantaines est un phénomène normal, lié à "l'usure" de la base de données. Par exemple, si l'on considère que la durée de vie d'une adresse email est de trois ans et que la table des destinataires augmente de 50 % tous les ans, l'augmentation des quarantaines peut être calculée comme suit : Fin de l'année 1 : (1*0,33)/(1+0,5)=22 %. Fin de l'année 2 : ((1,22*0,33)+0,33)/(1,5+0,75)=32,5 %.
 
-## Conditions de mise en quarantaine d'une adresse   {#conditions-for-sending-an-address-to-quarantine}
+## Conditions de mise en quarantaine d'une adresse {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign gère les quarantaines selon le type de diffusion en échec et la raison affectée pendant la qualification des messages d'erreur (voir [Types de diffusion en échec et raisons](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) et [Qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 
