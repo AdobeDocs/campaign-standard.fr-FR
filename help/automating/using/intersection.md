@@ -11,7 +11,7 @@ topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
