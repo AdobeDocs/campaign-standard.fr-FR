@@ -11,7 +11,7 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
