@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -36,5 +36,5 @@ Une intégration entre le core service **Triggers** d'Adobe Analytics et Adobe�
 
 * [Dimensions et mesures de Campaign dans Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Reporting](../../reporting/using/about-dynamic-reports.md)
-* Documentation [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
+* Documentation [Adobe Analytics](https://marketing.adobe.com/resources/help/fr_FR/reference/adobe-campaign.html)
 
