@@ -12,7 +12,7 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -263,7 +263,7 @@ Les paramètres définis pour un élément d'un bloc (liens, champs de personnal
 
 ![](assets/des_lp_content_4.png)
 
-### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu    {#adding-a-border-and-a-background-in-the-content-editor}
+### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -273,7 +273,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l'éditeur de contenu    {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l'éditeur de contenu {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l'intérieur d'un bloc de texte.
 
@@ -287,7 +287,7 @@ Pour modifier l'alignement du texte, sélectionnez l'une des trois icônes suiva
 
 Vous pouvez également utiliser la barre d'outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page    {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d'une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
@@ -308,7 +308,7 @@ Vous pouvez également utiliser la barre d'outils pour modifier les attributs de
 
 ## Définir le contenu dynamique dans une landing page{#defining-dynamic-content-in-a-landing-page}
 
-Pour définir du contenu dynamique dans une landing page, sélectionnez un bloc à l'aide du fil d'Ariane ou en cliquant directement sur un élément. 
+Pour définir du contenu dynamique dans une landing page, sélectionnez un bloc à l'aide du fil d'Ariane ou en cliquant directement sur un élément.
 
 ![](assets/dynamic_content_lp_1.png)
 
@@ -348,7 +348,7 @@ Dans la palette :
 
 ![](assets/dynamic_content_lp_4.png)
 
-## Confirmer la validation d'une landing page    {#confirm-a-landing-page-submission}
+## Confirmer la validation d'une landing page {#confirm-a-landing-page-submission}
 
 Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
@@ -364,7 +364,7 @@ Lorsqu'une landing page est validée par un visiteur, vous pouvez configurer les
 
    ![](assets/lp_parameters_6.png)
 
-## Définir les permissions et pré-charger les données    {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données {#setting-permissions-and-pre-loading-data}
 
 L'accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d'un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
 Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
