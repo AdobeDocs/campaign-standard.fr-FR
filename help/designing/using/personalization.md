@@ -11,13 +11,13 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Personnalisation   {#personalization}
+# Personnalisation {#personalization}
 
 Le contenu et l'affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d'effectuer les opérations suivantes :
 
@@ -162,7 +162,7 @@ Votre bloc de contenu est désormais utilisable dans l'éditeur de contenu d'un 
 >
 >Lorsque vous éditez le contenu d'un bloc, vérifiez qu'aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s'affichent à l'écran ; ils auront donc un impact sur la présentation de votre contenu.
 
-### A propos de la dimension de ciblage     {#about-targeting-dimension}
+### A propos de la dimension de ciblage {#about-targeting-dimension}
 
 La dimension de ciblage permet de définir dans quel type de message vous pouvez utiliser le bloc de contenu. Cela permet d'éviter d'utiliser des blocs inadéquats dans un message, ce qui peut entraîner des erreurs.
 
@@ -286,7 +286,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 * [Envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
 * [Edition avancée d'expressions](../../automating/using/editing-queries.md#about-query-editor)
 
-### Ordre de priorité    {#order-of-priority}
+### Ordre de priorité {#order-of-priority}
 
 Lorsque vous définissez un contenu dynamique dans l'éditeur d'expression, l'ordre de priorité est défini de la manière suivante :
 
@@ -362,7 +362,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 Vos contenus dynamiques sont correctement paramétrés.
 
-### Paramétrer le texte    {#configuring-text}
+### Paramétrer le texte {#configuring-text}
 
 Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétrés comme suit :
 
@@ -392,7 +392,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
 Vos champs de personnalisation sont correctement insérés dans le contenu dynamique choisi.
 
-### Prévisualiser l'email    {#previewing-emails}
+### Prévisualiser l'email {#previewing-emails}
 
 La prévisualisation permet de vérifier que les champs de personnalisation et les contenus dynamiques sont paramétrés correctement avant d'envoyer les **[!UICONTROL Bons à tirer]**. Différents profils de test qui correspondent aux cibles de l'email peuvent être sélectionnés lors de la prévisualisation.
 
