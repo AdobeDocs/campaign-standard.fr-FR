@@ -11,7 +11,7 @@ topic-tags: use-case--extending-the-api
 discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
