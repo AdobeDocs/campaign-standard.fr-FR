@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -35,7 +35,7 @@ Si cette fonctionnalité est activée, vous pouvez modifier les images avec le S
 >
 >Si vous choisissez d'ajouter une image directement en éditant la version HTML de l'email, vous ne devez pas appeler les **fichiers externes dans une balise &lt;script&gt;** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
-### Insérer des images dans un email    {#inserting-images-in-an-email}
+### Insérer des images dans un email {#inserting-images-in-an-email}
 
 1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
@@ -61,7 +61,7 @@ Lorsque vous sélectionnez un bloc contenant une image, les propriétés suivant
 * Lors de l'édition d'un email, **Style** permet d'indiquer la taille, l'arrière-plan et la bordure de l'image.
 * Lors de l'édition d'une landing page, **Dimensions** permet de spécifier la taille de l'image en pixels.
 
-L'éditeur permet de travailler avec **tous types d'images** dont le format est compatible avec les navigateurs. Pour être compatible avec l'éditeur, les **animations de type "Flash"** doivent être insérées dans une page HTML de la manière suivante :      
+L'éditeur permet de travailler avec **tous types d'images** dont le format est compatible avec les navigateurs. Pour être compatible avec l'éditeur, les **animations de type "Flash"** doivent être insérées dans une page HTML de la manière suivante :
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
