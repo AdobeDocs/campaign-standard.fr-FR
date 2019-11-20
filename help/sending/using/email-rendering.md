@@ -11,7 +11,7 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -64,11 +64,11 @@ Le rapport dédié au rendu des emails s'affiche. Voir [Description du rapport d
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](../../channels/using/creating-an-email.md) 
+* Vidéo [Créer un email](../../channels/using/creating-an-email.md)
 * [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails   {#email-rendering-report-description}
+## Description du rapport de rendu des emails {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu'ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d'ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
