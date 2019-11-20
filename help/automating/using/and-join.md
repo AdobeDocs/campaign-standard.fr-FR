@@ -12,7 +12,7 @@ discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
 context-tags: andjoin,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
