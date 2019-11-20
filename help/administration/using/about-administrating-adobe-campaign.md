@@ -11,7 +11,7 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -48,5 +48,5 @@ Voici la liste des différents menus disponibles :
 * [Paramétrage de l'instance](../../administration/using/branding.md) : c'est ici que vous définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d'URL d'accès aux landing pages, etc.).
 * [Déploiement](../../automating/using/managing-packages.md) : ce menu regroupe l'import et l'export de packages.
 * [Mesures des clients](../../audiences/using/active-profiles.md) : Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d'information ; il n'a aucune incidence directe sur la facturation.
-* [Outils d'accès à des informations personnelles](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
+* [Outils d'accès à des informations personnelles](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
 
