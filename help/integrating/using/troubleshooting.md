@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -34,7 +34,7 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
    Dans **[!UICONTROL Administration]** &gt; **[!UICONTROL Paramétrage de l'application]** &gt; **[!UICONTROL Sources de données partagées]**, vérifiez que la data source partagée est correctement définie.
 
-   **[!UICONTROL La Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l'alias reçu dans l'ordre défini. **[!UICONTROL La priorité]** n'est nécessaire que pour l'implémentation des triggers.
+   **[!UICONTROL La Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l'alias reçu dans l'ordre défini. **[!UICONTROL La priorité]** n'est nécessaire que pour l'implémentation des Triggers.
 
    Vérifiez que la clé de réconciliation est correcte. C'est la valeur hachée/cryptée de ce champ qui est utilisée pour exporter et importer les audiences.
 
