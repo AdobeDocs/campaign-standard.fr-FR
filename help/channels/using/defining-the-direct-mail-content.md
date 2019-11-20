@@ -12,7 +12,7 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -48,7 +48,7 @@ L'écran de définition du **[!UICONTROL Contenu]** est spécifique au canal cou
 >
 >Pour plus d'informations sur la définition des colonnes de sortie, reportez-vous à la section de l'activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir la structure de fichier    {#defining-the-file-structure}
+## Définir la structure de fichier {#defining-the-file-structure}
 
 L'onglet **Structure de fichier** permet de paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
 
@@ -58,7 +58,7 @@ L'onglet **Structure de fichier** permet de paramétrer les formats de sortie, d
 >
 >Les options disponibles sont présentées dans les sections de l'activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir l'en-tête et le pied de page    {#defining-the-header-and-footer}
+## Définir l'en-tête et le pied de page {#defining-the-header-and-footer}
 
 Vous pouvez parfois avoir besoin d'ajouter des informations au début ou à la fin du fichier d'extraction. Pour cela, vous pouvez utiliser les onglets **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]** de l'écran de configuration **[!UICONTROL Contenu]**.
 
