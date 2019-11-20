@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -27,7 +27,7 @@ Vous avez ainsi la possibilité de profiter à la fois des fonctionnalités d'é
 >
 >Vous ne pouvez pas effectuer de test A/B sur des contenus importés depuis Adobe Experience Manager.
 
-Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3 et 6.4. Les sections suivantes présentent une vue d'ensemble des actions que vous pouvez exécuter. Pour plus de détails, consultez les sections dédiées au [paramétrage](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html) et à l'[utilisation](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaign.html) de l'intégration.
+Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3 et 6.4. Les sections suivantes présentent une vue d'ensemble des actions que vous pouvez exécuter. Pour plus de détails, consultez les sections dédiées au [paramétrage](https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/campaignstandard.html) et à l'[utilisation](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/campaign.html) de l'intégration.
 
 ## Prérequis {#prerequisites}
 
@@ -46,7 +46,7 @@ Pour créer un contenu d'email dans Adobe Experience Manager :
 1. Editez le contenu en y insérant du texte, des images, de la personnalisation, etc.
 1. Validez le contenu.
 
-Pour plus d'informations, consultez la [documentation détaillée](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html).
+Pour plus d'informations, consultez la [documentation détaillée](https://docs.adobe.com/docs/fr/aem/6-2/author/personalization/adobe-campaign/campaign.html).
 
 ![](assets/aem_content.png)
 
