@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -47,7 +47,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s'abo
 
 Les étapes de création de l'email de confirmation sont décrites ci-dessous. Comme le message transactionnel est référencé dans le service, vous devez d'abord le créer.
 
-#### Création de l'événement  {#create-the-event-1}
+#### Création de l'événement {#create-the-event-1}
 
 L'email de confirmation est un message transactionnel car il réagit à un événement : l'abonnement à un service. Ce message sera envoyé pour confirmer l'abonnement à votre newsletter.
 
@@ -80,7 +80,7 @@ L'email de confirmation est un message transactionnel car il réagit à un évé
 
 L'événement est prêt. Vous pouvez maintenant concevoir le modèle d'email transactionnel.
 
-#### Conception du message de confirmation  {#design-the-confirmation-message-1}
+#### Conception du message de confirmation {#design-the-confirmation-message-1}
 
 L'email de confirmation est un message transactionnel basé sur l'événement que vous venez de publier.
 
@@ -88,7 +88,7 @@ L'email de confirmation est un message transactionnel basé sur l'événement qu
 1. Sélectionnez l'email transactionnel correspondant à l'événement que vous venez de publier.
 
 1. Cliquez sur la section **[!UICONTROL Contenu]** et sélectionnez un modèle d'email. Pour plus d'informations sur la modification du contenu d'un message transactionnel, voir [Messages transactionnels d'événement](../../channels/using/event-transactional-messages.md).
-1. Comme vous pouvez accéder directement à tous les champs à partir de la ressource **[!UICONTROL Service]**, vous pouvez sélectionner n'importe quel champ dans le nœud **[!UICONTROL Contexte]** &gt; **[!UICONTROL Evénement temps réel (rtEvent)]** &gt; **[!UICONTROL Contexte de l'événement (ctx)]** &gt;**[!UICONTROL Service]** pour personnaliser votre contenu.
+1. Comme vous pouvez accéder directement à tous les champs à partir de la ressource **[!UICONTROL Service]**, vous pouvez sélectionner n'importe quel champ dans le nœud **[!UICONTROL Contexte]** &gt; **[!UICONTROL Evénement temps réel (rtEvent)]** &gt; **[!UICONTROL Contexte de l'événement (ctx)]** &gt; **[!UICONTROL Service]** pour personnaliser votre contenu.
 
    ![](assets/confirmation_personalization-service.png)
 
@@ -136,7 +136,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s'abo
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Comme le message transactionnel est référencé dans la landing page, vous devez d'abord le créer.
 
-#### Création de l'événement  {#create-the-event-2}
+#### Création de l'événement {#create-the-event-2}
 
 L'email de confirmation est un [message transactionnel](../../channels/using/about-transactional-messaging.md) car il réagit à un événement : l'abonnement à un service. Ce message sera envoyé pour confirmer l'abonnement à votre newsletter.
 
@@ -162,7 +162,7 @@ L'email de confirmation est un [message transactionnel](../../channels/using/abo
    >
    >Vous pourrez ainsi utiliser les champs de personnalisation de la ressource [!UICONTROL Service] dans le message transactionnel.
 
-#### Conception du message de confirmation  {#design-the-confirmation-message-2}
+#### Conception du message de confirmation {#design-the-confirmation-message-2}
 
 Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
