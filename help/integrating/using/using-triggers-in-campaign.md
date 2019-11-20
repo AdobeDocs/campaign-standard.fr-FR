@@ -7,11 +7,11 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-triggers
+topic-tags: working-with-campaign-and-Triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Création d'un trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/Triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un trigger Adobe Experience Cloud existant.
 
-Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) pour mieux comprendre comment les triggers sont configurés dans Adobe Campaign.
+Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour mieux comprendre comment les Triggers sont configurés dans Adobe Campaign.
 
 Les étapes de mise en œuvre sont les suivantes :
 
@@ -33,7 +33,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]**. L'assistant de création qui s'affiche contient la liste de tous les triggers définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d'envois Analytics]** indique le nombre d'événements envoyés à Campaign par le trigger Adobe Experience Cloud. Il s'agit d'un mappage des triggers créés dans l'interface d'Experience Cloud.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**. L'assistant de création qui s'affiche contient la liste de tous les Triggers définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d'envois Analytics]** indique le nombre d'événements envoyés à Campaign par le trigger Adobe Experience Cloud. Il s'agit d'un mappage des Triggers créés dans l'interface d'Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
@@ -47,7 +47,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_4.png)
 
-1. Si un score de propension est défini dans Analytics (voir la [documentation Experience Cloud](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)), vous pouvez choisir de ne pas envoyer le message si la probabilité que le client revienne prochainement sur le site web est élevée. Le contenu du score et du seuil est disponible dans le contenu de la payload. Vous pouvez ainsi utiliser ces valeurs pour personnaliser le message. Pour utiliser cette option, cochez la case située en bas de l'écran. Les clients ayant une forte probabilité de revenir sur le site prochainement ne recevront pas de message.
+1. Si un score de propension est défini dans Analytics (voir la [documentation Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/insight/client/c_visitor_propensity.html)), vous pouvez choisir de ne pas envoyer le message si la probabilité que le client revienne prochainement sur le site web est élevée. Le contenu du score et du seuil est disponible dans le contenu de la payload. Vous pouvez ainsi utiliser ces valeurs pour personnaliser le message. Pour utiliser cette option, cochez la case située en bas de l'écran. Les clients ayant une forte probabilité de revenir sur le site prochainement ne recevront pas de message.
 1. Cliquez sur le bouton **[!UICONTROL Publier]** pour lancer la publication de l'événement déclencheur.
 1. Si vous devez apporter une modification à votre schéma de trigger même après la publication de votre événement de trigger, cliquez sur le bouton **[!UICONTROL Mettre à jour le schéma]** pour récupérer les dernières modifications.
 
@@ -59,7 +59,7 @@ Le bouton **[!UICONTROL Afficher le trigger dans Experience Cloud]** permet d'af
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d'être créé. Voir à ce propos la section [Edition du modèle](../../start/using/about-templates.md).
 
-## Édition du modèle de message transactionnel   {#editing-the-transactional-message-template}
+## Édition du modèle de message transactionnel {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l'événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d'un trigger mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
@@ -79,7 +79,7 @@ Pour afficher le rapport de trigger dédié dans Adobe Campaign, ouvrez l'évén
 
 ![](assets/remarketing_9.png)
 
-Le rapport montre le nombre d'événements traités par rapport au nombre d'événements envoyés par Analytics. Il affiche également la liste de tous les triggers récents.
+Le rapport montre le nombre d'événements traités par rapport au nombre d'événements envoyés par Analytics. Il affiche également la liste de tous les Triggers récents.
 
 ![](assets/trigger_uc_browse_14.png)
 
