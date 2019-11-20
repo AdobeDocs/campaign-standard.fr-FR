@@ -1,6 +1,6 @@
 ---
 title: Gestion des processus d'inscription et de désinscription dans Campaign
-description: Découvrez-en davantage sur la gestion des processus d'inscription et de désinscription dans Campaign
+description: Découvrez-en davantage sur la gestion des processus d'inscription et de désinscription dans Adobe Campaign
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -27,7 +27,7 @@ Dans la section **[!UICONTROL Ne plus contacter (blackliste)]**, les cases à co
 
 ![](assets/optin_landingpage_3.png)
 
-## Configuration des landing pages d'inscription et de désinscription   {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuration des landing pages d'inscription et de désinscription {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Pour que les utilisateurs puissent s'inscrire ou se désinscrire, vous devez créer et publier une landing page **[!UICONTROL Acquisition de profils]**. Ils seront ensuite en mesure de choisir les canaux en fonction de leurs besoins. Pour ce faire, suivez les étapes suivantes.
 
