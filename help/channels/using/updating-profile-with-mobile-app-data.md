@@ -12,7 +12,7 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -34,8 +34,8 @@ L'objectif de ce cas pratique est de créer ou de mettre à jour un profil Campa
 Avant que les profils puissent être créés ou mis à jour en fonction des données d'abonnement aux applications mobiles, vous devez suivre plusieurs étapes de configuration pour activer les notifications push dans Campaign Standard :
 
 1. [Créer une application mobile](../../administration/using/configuring-a-mobile-application.md)
-1. [Intégrer le SDK Adobe Mobile avec votre application mobile](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configurer Adobe Campaign pour envoyer des notifications push](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+1. [Intégrer le SDK Adobe Mobile avec votre application mobile](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html).
+1. [Configurer Adobe Campaign pour envoyer des notifications push](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
 ## Etape 1 - Etendre la ressource Profil pour les notifications push/abonnements
 
