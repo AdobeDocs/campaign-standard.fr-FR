@@ -12,7 +12,7 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -26,7 +26,7 @@ Pour plus d'informations sur les étapes requises pour configurer une landing pa
 
 **Rubriques connexes :**
 
-* Tutoriel vidéo [Créer une landing page](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Tutoriel vidéo [Créer une landing page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
 * [Utiliser une landing page pour s'abonner à un service](../../audiences/using/creating-a-service.md)
 
 ## Cycle de vie des landing pages {#landing-pages-life-cycle}
