@@ -12,7 +12,7 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -51,7 +51,7 @@ Une fois qu'un service a été créé, vous pouvez commencer à le promouvoir.
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer un service et des inscriptions](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
+* Vidéo [Gérer un service et des inscriptions](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
 * [Promouvoir un service](../../audiences/using/promoting-a-service.md)
 * [Créer une audience composée d'abonnés](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Associer un formulaire à un service dans une landing page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
