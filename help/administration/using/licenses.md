@@ -11,7 +11,7 @@ topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
