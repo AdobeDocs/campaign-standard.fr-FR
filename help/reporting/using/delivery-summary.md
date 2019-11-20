@@ -12,7 +12,7 @@ discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
