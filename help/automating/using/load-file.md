@@ -12,7 +12,7 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -107,7 +107,7 @@ Le paramétrage de l'activité se déroule en deux temps. Tout d'abord, vous dev
 
 Si une erreur se produit dans l'activité après l'exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d'informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/executing-a-workflow.md#monitoring).
 
-## Format des colonnes    {#column-format}
+## Format des colonnes {#column-format}
 
 Lorsque vous téléchargez un fichier d'exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d'erreur ou de valeur vide.
 
