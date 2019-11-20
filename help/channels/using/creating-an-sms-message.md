@@ -12,7 +12,7 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -80,5 +80,5 @@ Une fois l'envoi terminé, vous pouvez commencer à mesurer l'impact de votre me
 
 * [A propos de l'édition du contenu d'un SMS et d'une notification push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gestion des modèles](../../start/using/about-templates.md)
-* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
+* Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
