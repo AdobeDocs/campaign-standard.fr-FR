@@ -1,5 +1,5 @@
 ---
-title: Cas des règles de contrôle
+title: RCas des règles de contrôle
 description: Apprenez comment renforcer la vérification de la qualité des messages avec les règles de contrôle.
 page-status-flag: never-activated
 uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
@@ -11,7 +11,7 @@ topic-tags: working-with-typology-rules
 discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
