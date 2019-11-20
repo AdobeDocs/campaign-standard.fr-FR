@@ -12,7 +12,7 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Adobe Campaign vous permet d'envoyer des notifications push personnalisées et segmentées à des appareils mobiles iOS et Android.
 
-Ces messages sont reçus sur des applications mobiles que vous configurez dans Adobe Campaign à l'aide des SDK V4 ou Experience Platform. Pour plus d'informations, consultez les sections [Configuration d'une application mobile à l'aide du SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) et [Configuration d'une application mobile à l'aide des SDK Adobe Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Ces messages sont reçus sur des applications mobiles que vous configurez dans Adobe Campaign à l'aide des SDK V4 ou Experience Platform. Pour plus d'informations, consultez les sections [Configuration d'une application mobile à l'aide du SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et [Configuration d'une application mobile à l'aide des SDK Adobe Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 Dans Adobe Campaign, les données d'attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
@@ -42,7 +42,7 @@ Dans Adobe Campaign, deux types de notification push sont disponibles :
 
 Certaines configurations spécifiques peuvent être paramétrées pour définir le comportement des notifications. Voir à ce propos [cette section](../../channels/using/customizing-a-push-notification.md).
 
-En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) des applications mobiles pour définir ces configurations spécifiques.
+En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) des applications mobiles pour définir ces configurations spécifiques.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe
 * [Préparation et envoi d'une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d'une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
-* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/fr/campaign/kb/push_inapp_faq.html)
 
 ## Prérequis {#prerequisites}
 
@@ -61,7 +61,7 @@ En tant qu'utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe
 >Pour tirer parti de la fonctionnalité de notification push de Campaign, vous devez fournir un certificat push valide au format. pem sans mot de passe.
 Si vous disposez d'un certificat p12 valide, vous pouvez le convertir facilement en fichier. pem à l'aide de ressources en ligne.
 
-Tout d'abord, pour pouvoir envoyer des notifications push, vous devez configurer votre application mobile à l'aide du SDK V4. Vous pouvez également configurer votre application mobile à l'aide des SDK Experience Platform. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Tout d'abord, pour pouvoir envoyer des notifications push, vous devez configurer votre application mobile à l'aide du SDK V4. Vous pouvez également configurer votre application mobile à l'aide des SDK Experience Platform. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 Avant d'envoyer les notifications push, vous devez effectuer les opérations suivantes :
 
