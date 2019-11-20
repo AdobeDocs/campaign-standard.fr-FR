@@ -11,7 +11,7 @@ topic-tags: workflow-general-operation
 discoiquuid: 90b250f1-f32d-4256-83ea-4c0627628610
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
