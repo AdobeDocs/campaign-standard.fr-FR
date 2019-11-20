@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Enrichissement de la base de données{#enriching-the-database}
 
-Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign, avec des références aux documentations dédiées.
+Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign et contient des références à la documentation dédiée.
 
 ## Import de données par le biais de workflows {#importing-data-through-workflows}
 
@@ -56,7 +56,7 @@ Pour plus d'informations sur les landing pages, reportez-vous à la [documentati
 L'intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
-Pour plus d'informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Pour plus d'informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
@@ -70,4 +70,4 @@ Pour plus d'informations sur l'utilisation des API, reportez-vous à la [documen
 
 >[!CAUTION]
 >
->Avant d'effectuer une mise à jour ou une création en masse de profils via des appels d'API, vérifiez les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Avant d'effectuer une mise à jour ou une création en masse de profils via des appels d'API, vérifiez les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
