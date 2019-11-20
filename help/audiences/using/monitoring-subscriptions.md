@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,7 +28,7 @@ Vous disposez de plusieurs options pour contrôler les inscriptions et désinscr
 * Affichez un rapport détaillant l'évolution des inscriptions et des désinscriptions dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
 * Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
-## Tableau de bord du service   {#service-dashboard}
+## Tableau de bord du service {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
@@ -38,7 +38,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Applications mobiles   {#subscription-history}
+## Applications mobiles {#subscription-history}
 
 Pour consulter l'historique des inscriptions et des désinscriptions au service :
 
@@ -48,7 +48,7 @@ Pour consulter l'historique des inscriptions et des désinscriptions au service 
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Rapports du service   {#service-reports}
+## Rapports du service {#service-reports}
 
 Pour afficher un rapport présentant l'évolution des inscriptions et des désinscriptions :
 
@@ -62,7 +62,7 @@ Pour afficher un rapport présentant l'évolution des inscriptions et des désin
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historique des événements liés à un profil   {#history-of-events-linked-to-a-profile}
+## Historique des événements liés à un profil {#history-of-events-linked-to-a-profile}
 
 Pour connaître la liste des services auxquels un contact s'est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
