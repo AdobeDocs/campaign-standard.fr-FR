@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -84,7 +84,7 @@ Au cours de la conception et de la publication de messages transactionnels, cert
 * Il n'est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l'événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l'événement](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
 
-### Personnalisation    {#personalization}
+### Personnalisation {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d'un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous :
 
@@ -103,7 +103,7 @@ La manière dont vous pouvez personnaliser le contenu d'un message dépend du ty
 
 Les listes de produits ne sont disponibles que dans les emails transactionnels. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-### Permissions et marques    {#permissions-and-branding}
+### Permissions et marques {#permissions-and-branding}
 
 En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à [l'entité organisationnelle](../../administration/using/organizational-units.md) **[!UICONTROL Tous]**. Pour plus d'informations, lisez l'explication détaillée ci-après.
 
