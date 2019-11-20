@@ -11,7 +11,7 @@ topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
