@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -91,7 +91,7 @@ Si le jeton d'enregistrement existe, l'utilisateur correspondant reçoit une not
 
 "Bonjour Jeanne Lambert, l'embarquement vient de commencer à la porte B18."
 
-## Notifications push transactionnelles ciblant un profil    {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme le prénom du destinataire.
 
@@ -105,7 +105,7 @@ Les applications mobiles auxquelles un profil s'est abonné sont répertoriées 
 
 Pour plus d'informations sur l'accès aux profils et leur édition, voir la section [Profils](../../audiences/using/creating-profiles.md).
 
-### Envoyer une notification push transactionnelle ciblant un profil    {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envoyer une notification push transactionnelle ciblant un profil {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l'embarquement à tous les utilisateurs Adobe Campaign qui se sont abonnés à son application mobile.
 
