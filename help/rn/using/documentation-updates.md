@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ Découvrez l'ensemble des mises à jour les plus récentes de la documentation d
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d'Adobe Campaign Standard.
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d'Adobe Campaign.
+
+## Mises à jour de la documentation - Novembre 2019 {#doc-updates-november-2019}
+
+Un nouveau cas d’utilisation a été ajouté, décrivant comment créer un groupe de contrôle à l’aide d’un processus dans Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
 ## Version 19.4 - Octobre 2019  {#release-19-4---october-2019}
 
@@ -45,7 +49,7 @@ Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  
 
 Ajout d'une nouvelle section. Elle fournit un aperçu des différentes méthodes qui vous permettent d'enrichir la base de données Campaign Standard –  [En savoir plus](../../start/using/enriching-campaign-database.md)
 
-Une nouvelle section décrivant le style des liens avec le concepteur de courrier électronique a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
+Une nouvelle section décrivant l'association du style au Concepteur d'email a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
@@ -57,7 +61,7 @@ La section Messagerie transactionnelle a été modifiée en fonction des derniè
 
 Réorganisation du chapitre sur les landing pages. Il a également été enrichi d'une nouvelle section décrivant les étapes de configuration d'une landing page –  [En savoir plus](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-La page d’intégration d’Audience Manager a été mise à jour afin de refléter les modifications d’ID **** déclarés. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+La page d’intégration d’Audience Manager a été mise à jour afin de prendre en compte les modifications de l'identifiant **Declared ID**. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Mises à jour de la documentation - Septembre 2019 {#doc-updates-september-2019}
 
@@ -93,9 +97,9 @@ Rapport sur le segment de workflow – [En savoir plus](../../reporting/using/
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-17}
 
-Disponibilité du Guide de mise en œuvre de Campaign Standard – [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+Disponibilité du Guide de mise en œuvre de Campaign Standard –[En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Création d'un ensemble de nouveaux articles d'aide sur l'implémentation et l'utilisation du connecteur Microsoft Dynamics 365. Cette fonctionnalité est actuellement en disponibilité limitée – [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Création d'un ensemble de nouveaux articles d'aide sur l'implémentation et l'utilisation du connecteur Microsoft Dynamics 365. Cette fonctionnalité est actuellement en disponibilité limitée –[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
 Ajout d'une note à la section [Appeler un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) concernant la préparation d'une diffusion et la période d'agrégation.
 
@@ -103,7 +107,7 @@ Des informations ont été ajoutées sur la personnalisation du libellé d'une d
 
 Ajout d'une section présentant comment créer un utilisateur dans Adobe Campaign Standard –  [En savoir plus](../../administration/using/users-management.md)
 
-Disponibilité d'un nouvel article comprenant des conseils pour simplifier les campagnes marketing, notamment des liens vers la documentation du produit et des vidéos de tutoriel – [En savoir plus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
+Disponibilité d'un nouvel article comprenant des conseils pour simplifier les campagnes marketing, notamment des liens vers la documentation du produit et des vidéos de tutoriel –[En savoir plus](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 Ajout d'une section de résolution des problèmes pour les rapports dynamiques –  [En savoir plus](../../reporting/using/troubleshooting.md)
 
@@ -315,7 +319,7 @@ Ajout d'informations sur la suppression d'une audience – [En savoir plus](../
 
 Mise à jour de la section du rapport d'usine sur les notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018   {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018 {#release-18-7---july-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-4}
 
@@ -393,7 +397,7 @@ La liste des solutions/core services Analytics pris en charge en vue de l'intég
 
 Certaines pages de la documentation consacrée à l'éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/overview.md)
 
-## Version 18.3 - Mars 2018   {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018 {#release-18-3---march-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-7}
 
@@ -425,7 +429,7 @@ Mise à jour de la liste des ressources d'aide concernant l'intégration des sol
 
 Mise à jour de l'aide contextuelle intégrée à Campaign Standard.
 
-## Version 18.2 - Février 2018   {#release-18-2---february-2018}
+## Version 18.2 - Février 2018 {#release-18-2---february-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-8}
 
@@ -469,7 +473,7 @@ Mises à jour des informations sur les diffusions en échec et les mises en quar
 
 Nouvelles sections consacrées aux [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et aux [dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Janvier 2018   {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018 {#release-18-1---january-2018}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-9}
 
@@ -497,7 +501,7 @@ Ajout d'informations sur les Paramètres d'historisation de l'activité Transfer
 
 Mise à jour des instructions pour configurer l'intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Octobre 2017   {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017 {#release-17-10---october-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-10}
 
@@ -523,7 +527,7 @@ Déplacement et réorganisation de la section [Alertes de diffusion](../../sendi
 
 Clarification de la section 'Ressources personnalisées' avec une procédure plus détaillée pour [définir des filtres](../../developing/using/configuring-filter-definition.md).
 
-Mise à jour et clarification de la [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sur l'intégration du SDK Mobile Adobe Marketing Cloud avec une application mobile pour recevoir des notifications push Adobe Campaign Standard.
+Mise à jour et clarification de la [technote](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) sur l'intégration du SDK Mobile Adobe Experience Cloud avec une application mobile pour recevoir des notifications push Adobe Campaign Standard.
 
 Ajout d'une technote expliquant la structure de la payload reçue dans une application mobile – [En savoir plus.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
@@ -577,7 +581,7 @@ Mise à jour de la section sur l'activité de workflow Transfert de fichier –
 
 Ajout d'informations sur l'option Demander une confirmation avant l'envoi des messages de l'activité de workflow Diffusion email – [En savoir plus](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juillet 2017   {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017 {#release-17-7---july-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-12}
 
@@ -609,7 +613,7 @@ Le mécanisme de double opt-in est maintenant documenté via une procédure comp
 
 La section présentant la liste des rôles a été mise à jour – [En savoir plus](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017   {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017 {#release-17-5---may-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-13}
 
@@ -631,7 +635,7 @@ Le tableau des autorisations a été modifié de façon à clarifier la fonction
 
 Mise à jour des liens d'aide contextuelle disponibles directement dans Adobe Campaign.
 
-## Version 17.4 - Avril 2017   {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017 {#release-17-4---april-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-14}
 
@@ -661,7 +665,7 @@ Mise à jour de la section concernant l'utilisation d'images dans Campaign. [En 
 
 Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique. [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - Mars 2017   {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017 {#release-17-2---march-2017}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-15}
 
@@ -711,7 +715,7 @@ Changement d'URL : People core service – [En savoir plus](../../integrating
 
 Réorganisation du guide Profils et audiences. [En savoir plus](../../audiences/using/about-profiles-and-audiences.md)
 
-## Version 16.11 - Novembre 2016   {#release-16-11---november-2016}
+## Version 16.11 - Novembre 2016 {#release-16-11---november-2016}
 
 ### Mises à jour de la documentation accompagnant cette version {#documentation-updates-coming-with-the-release}
 
@@ -741,7 +745,7 @@ Mise à jour de la section Diffusions SMS pour prendre en compte les modificatio
 
 Ajout des diffusions notification push au planning. [En savoir plus](../../start/using/timeline.md)
 
-## Version 16.10 - Octobre 2016   {#release-16-10---october-2016}
+## Version 16.10 - Octobre 2016 {#release-16-10---october-2016}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-17}
 
@@ -753,11 +757,11 @@ Message de relance pour les messages transactionnels – [En savoir plus](../.
 
 Extension de l'API Profile &amp; Services – [En savoir plus](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-## Version 16.9 - Septembre 2016   {#release-16-9---september-2016}
+## Version 16.9 - Septembre 2016 {#release-16-9---september-2016}
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-18}
 
-Triggers Marketing Cloud – [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
+Triggers Experience Cloud – [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
 Messages transactionnels : Mettre en pause/Dépublier – [En savoir plus](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
 
