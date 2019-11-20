@@ -11,7 +11,7 @@ topic-tags: data-management-activities
 discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
