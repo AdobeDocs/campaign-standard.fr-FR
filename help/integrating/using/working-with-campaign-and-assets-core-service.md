@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 # Utilisation de Campaign et Assets core service{#working-with-campaign-and-assets-core-service}
 
-L'intégration d'Assets core service ou d'Assets On Demand (en fonction de la configuration de votre environnement Adobe Marketing Cloud) avec Adobe Campaign permet d'utiliser des ressources partagées depuis Adobe Experience Cloud dans vos emails et landing pages Adobe Campaign.
+L'intégration d'Assets core service ou d'Assets On Demand (en fonction de la configuration de votre environnement Adobe Experience Cloud) avec Adobe Campaign permet d'utiliser des ressources partagées depuis Adobe Experience Cloud dans vos emails et landing pages Adobe Campaign.
 
 Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos emails et landing pages.
 
@@ -35,6 +35,6 @@ L'image est alors insérée. La diffusion peut à présent être personnalisée 
 
 **Rubriques connexes :**
 
-* [Ressources et partage](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
+* [Ressources et partage](https://marketing.adobe.com/resources/help/fr_FR/mcloud/experience-cloud-assets.html)
 * [Editeur de contenus](../../designing/using/personalization.md#example-email-personalization)
 
