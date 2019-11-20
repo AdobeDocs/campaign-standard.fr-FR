@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -37,9 +37,9 @@ Des modèles sont disponibles pour les activités marketing suivantes :
 * Opérations
 * Diffusions Email
 * Diffusions SMS
-* Notifications push 
-* Landing pages 
-* Workflows 
+* Notifications push
+* Landing pages
+* Workflows
 * Services
 * Import
 * Messages transactionnels
@@ -50,7 +50,7 @@ La gestion de ces modèles s'effectue sur l'écran **[!UICONTROL Ressources]** &
 >
 >Le paramétrage des marques peut être pré-configuré dans un modèle d'email ou de landing page. Voir à ce sujet la section [Marques](../../administration/using/branding.md).
 
-## Modèles de contenu  {#content-templates}
+## Modèles de contenu {#content-templates}
 
 Les modèles de contenu HTML sont accessibles à partir de l'écran **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]** du [menu Avancé](../../start/using/interface-description.md#advanced-menu). Depuis cet emplacement, vous pouvez gérer les modèles de contenu de landing page et d'email, ainsi que les fragments.
 
@@ -72,7 +72,7 @@ Les modèles de contenu d'email d'usine comprennent 18 mises en page optimisée
 
 **Rubriques connexes :**
 
-* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
 * Pour plus d'informations sur l'édition de contenu, voir [A propos de la conception du contenu d'un email](../../designing/using/overview.md).
 
 ### Créer un modèle de contenu {#creating-a-content-template}
