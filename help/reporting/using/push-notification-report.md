@@ -11,7 +11,7 @@ topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Le rapport **notification push** (Push notification) fournit des informations détaillées sur les performances marketing des notifications push dans Adobe Campaign. Ce rapport d'usine permet de comprendre comment les utilisateurs interagissent avec les notifications push, les applications mobiles et les diffusions.
 
-Une configuration est nécessaire dans l'application mobile pour mettre en œuvre le tracking des notifications push. Pour obtenir les étapes détaillées, consultez cette [page](https://helpx.adobe.com/campaign/kb/push-tracking.html).
+Une configuration est nécessaire dans l'application mobile pour mettre en œuvre le tracking des notifications push. Pour obtenir les étapes détaillées, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/push-tracking.html).
 
 ![](assets/dynamic_report_push.png)
 
