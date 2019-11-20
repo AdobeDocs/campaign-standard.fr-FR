@@ -12,7 +12,7 @@ discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
