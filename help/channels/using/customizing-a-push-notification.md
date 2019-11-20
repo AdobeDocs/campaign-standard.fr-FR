@@ -12,7 +12,7 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Pour parfaire votre notification push, Adobe Campaign vous permet d'accéder à un ensemble d'options avancées lors de sa création.
 
-En tant qu'utilisateur expert, consultez la note technique [Présentation de la structure de la payload des notifications push Campaign Standard](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) pour configurer des applications mobiles dans Adobe Campaign.
+En tant qu'utilisateur expert, consultez la note technique [Présentation de la structure de la payload des notifications push Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) pour configurer des applications mobiles dans Adobe Campaign.
 
 ![](assets/push_notif_advanced.png)
 
@@ -40,7 +40,7 @@ Un son permet d'avertir l'utilisateur lors de la réception d'une notification p
 1. Ouvrez la notification push et accédez à la section **[!UICONTROL Options avancées]**.
 1. Dans le champ **[!UICONTROL Jouer un son]**, entrez le nom du fichier son, sans l'extension, que doit lancer le terminal mobile à réception de la notification.
 
-   Pour plus d'informations sur les formats multimédias pris en charge, consultez la documentation [Apple](https://support.apple.com/kb/PH16864?locale=en_US) et [Android](https://developer.android.com/guide/topics/media/media-formats.html).
+   Pour plus d'informations sur les formats multimédias pris en charge, consultez la documentation [Apple](https://support.apple.com/kb/PH16864?locale=fr_FR) et [Android](https://developer.android.com/guide/topics/media/media-formats.html).
 
    ![](assets/push_notif_advanced_7.png)
 
@@ -48,7 +48,7 @@ Un son permet d'avertir l'utilisateur lors de la réception d'une notification p
 
 L'utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n'est pas muet.
 
-## Actualiser la valeur du badge   {#refresh-the-badge-value}
+## Actualiser la valeur du badge {#refresh-the-badge-value}
 
 Un badge est utilisé pour afficher le nombre de nouvelles informations non lues directement sur l'icône de l'application. La valeur du badge disparaît dès que l'utilisateur ouvre ou lit le nouveau contenu de l'application.
 
@@ -68,7 +68,7 @@ A la réception d'une notification sur un appareil, la valeur du badge de l'appl
 
    ![](assets/push_notif_advanced_1.png)
 
-## Ajouter un lien profond   {#add-a-deeplink}
+## Ajouter un lien profond {#add-a-deeplink}
 
 Un lien profond vous permet d'amener directement les utilisateurs à un contenu situé dans l'application (au lieu d'ouvrir une page de navigateur Web).
 
@@ -85,7 +85,7 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_4.png)
 
-## Définir une action   {#define-an-action}
+## Définir une action {#define-an-action}
 
 Le cas échéant, vous pouvez ajouter l'identifiant de catégorie de l'application mobile et afficher ensuite des boutons d'action. Ces notifications permettent à l'utilisateur d'effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l'application ou la parcourir.
 
@@ -130,7 +130,7 @@ Pour ajouter une date d'expiration à votre notification push :
 
 Notez que si la notification push n'a pas été envoyée avant la date d'expiration, elle sera ignorée.
 
-## Ajouter des champ personnalisés   {#add-custom-fields}
+## Ajouter des champ personnalisés {#add-custom-fields}
 
 Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d'une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l'application en plus des clés prédéfinies.
 
@@ -157,7 +157,7 @@ Pour insérer du contenu multimédia dans la notification push :
 1. Ouvrez la notification push et accédez à la section **[!UICONTROL Options avancées]**.
 1. Dans le champ **[!UICONTROL URL du contenu multimédia enrichi]**, saisissez l'URL de votre fichier pour chaque format : iOS et Android.
 
-   A partir d'iOS 10, vous pouvez insérer des fichiers image, gif, audio et vidéo. Pour les versions antérieures d'iOS, la notification push sera affichée sans contenu multimédia. Pour obtenir des étapes détaillées afin d'afficher sur un appareil iOS une image d'une notification push Adobe Campaign, consultez cette [page](https://helpx.adobe.com/campaign/kb/display-image-push.html).
+   A partir d'iOS 10, vous pouvez insérer des fichiers image, gif, audio et vidéo. Pour les versions antérieures d'iOS, la notification push sera affichée sans contenu multimédia. Pour obtenir des étapes détaillées afin d'afficher sur un appareil iOS une image d'une notification push Adobe Campaign, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/display-image-push.html).
 
    Pour Android, seules des images peuvent être ajoutées.
 
@@ -167,7 +167,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_2.png)
 
-## Changer le comportement des notifications pour iOS   {#change-the-notification-behavior-for-ios}
+## Changer le comportement des notifications pour iOS {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
