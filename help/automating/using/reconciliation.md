@@ -12,7 +12,7 @@ discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -67,7 +67,7 @@ L'activité **[!UICONTROL Réconciliation]** peut par exemple être placée apr�
 
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
-## Exemple 1 : définition de relations     {#example-1--relation-definition}
+## Exemple 1 : définition de relations {#example-1--relation-definition}
 
 L'exemple suivant illustre un workflow permettant de mettre à jour les données de la base à partir de données d'achats contenues dans un fichier. Les données d'achats comportent des données référençant des éléments d'autres dimensions, tels que l'email des clients et les codes produits.
 
@@ -84,6 +84,7 @@ Le workflow se compose des activités suivantes :
    * la date de la transaction
    * l'adresse email du client
    * le code du produit acheté.
+
    ```
    date;client;product
    2015-05-19 09:00:00;mail1@email.com;ZZ1
@@ -113,7 +114,7 @@ Le workflow se compose des activités suivantes :
 
    ![](assets/reconciliation_example4.png)
 
-## Exemple 2 : identification     {#example-2--identification}
+## Exemple 2 : identification {#example-2--identification}
 
 L'exemple suivant illustre un workflow permettant de créer une audience de profils directement à partir d'un fichier importé contenant des nouveaux clients. Il se compose des activités suivantes :
 
