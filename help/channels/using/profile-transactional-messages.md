@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -38,7 +38,7 @@ Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez
 >
 >Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
-## Envoyer un message transactionnel basé sur un profil    {#sending-a-profile-transactional-message}
+## Envoyer un message transactionnel basé sur un profil {#sending-a-profile-transactional-message}
 
 Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d'événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
@@ -59,7 +59,7 @@ Les différences sont énumérées ci-dessous.
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Contrôler la diffusion d'un message transactionnel selon les profils    {#monitoring-a-profile-transactional-message-delivery}
+## Contrôler la diffusion d'un message transactionnel selon les profils {#monitoring-a-profile-transactional-message-delivery}
 
 Une fois le message publié et l'intégration à un site effectuée, vous pouvez contrôler la diffusion.
 
