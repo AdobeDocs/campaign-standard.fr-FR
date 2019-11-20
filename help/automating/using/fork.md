@@ -12,7 +12,7 @@ discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
