@@ -12,7 +12,7 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
