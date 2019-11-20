@@ -12,7 +12,7 @@ discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,7 +40,7 @@ Lorsqu'une entité organisationnelle est affectée à l'utilisateur, celle-ci se
 >
 >Lorsqu'un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s'appliquent. Voir à ce propos la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
-## Création et gestion des entités   {#creating-and-managing-units}
+## Création et gestion des entités {#creating-and-managing-units}
 
 Les entités organisationnelles vous permettent de filtrer votre instance en fonction de l'organisation à laquelle vos utilisateurs sont liés. Cette entité peut représenter une région, un pays et même une marque dans votre instance.
 
