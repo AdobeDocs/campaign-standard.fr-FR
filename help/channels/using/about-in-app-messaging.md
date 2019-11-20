@@ -9,10 +9,10 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-context-tags: delivery,triggers,back
+context-tags: delivery,Triggers,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,16 +30,16 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 
 1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL In-App]**. Si vous ne pouvez pas accéder à ces canaux, contactez l'équipe de votre compte.
 
-1. Pour tirer parti des cas d’utilisation mobile dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign Standard. For the step-by-step guide, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Pour tirer parti des cas pratiques mobiles dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour consulter le guide détaillé, reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
-1. Une fois configuré, vous pouvez désormais préparer votre message in-app. Voir à ce propos [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. Une fois la configuration effectuée, vous pouvez préparer votre message in-app. Pour plus d'informations à ce propos, Voir à ce propos consultez [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
-1. Vous pouvez ensuite décider d’envoyer un message [](../../channels/using/customizing-an-in-app-message.md) in-app ou une [personnalisation du type](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)d’un message de notification local.
+1. Vous pouvez ensuite décider d'envoyer un [message in-app](../../channels/using/customizing-an-in-app-message.md) ou de [personnaliser un type de message de notification locale](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
-1. Votre livraison est maintenant prête à être envoyée. Pour en savoir plus, consultez cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
+1. Votre diffusion est maintenant prête à être envoyée. Pour en savoir plus, consultez cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
 
 **Contenu connexe :**
 
 * [Rapport In-App](../../reporting/using/in-app-report.md)
-* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
-* [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/fr/campaign/kb/push_inapp_faq.html)
+* [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html)
