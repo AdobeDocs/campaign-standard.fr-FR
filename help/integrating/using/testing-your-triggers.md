@@ -1,5 +1,5 @@
 ---
-title: Test de vos triggers
+title: Test de vos Triggers
 description: null
 page-status-flag: never-activated
 uuid: b3a6667d-e843-4ad6-817e-d91542b5f2e2
@@ -7,23 +7,23 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-triggers
+topic-tags: working-with-campaign-and-Triggers
 discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Test de vos triggers{#testing-your-triggers}
+# Test de vos Triggers{#testing-your-triggers}
 
-Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de triggers avec Adobe Campaign :
+Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign :
 
 **La fonctionnalité est-elle activée ?**
 
-Pour vérifier si l'intégration des triggers Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** &gt; **[!UICONTROL Messages transactionnels]**. Vous devriez voir l'élément **[!UICONTROL Triggers Experience Cloud]**.
+Pour vérifier si l'intégration des Triggers Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** &gt; **[!UICONTROL Messages transactionnels]**. Vous devriez voir l'élément **[!UICONTROL Triggers Experience Cloud]**.
 
 Si vous le voyez, passez à l'étape suivante.
 
@@ -33,11 +33,11 @@ Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenai
 
 Suivez les étapes décrites dans [Création d'un trigger mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour créer un trigger.
 
-Si le trigger est créé, passez à l'étape suivante. Dans le cas contraire, la connexion du paramétrage de l'intégration Trigger a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (services d'activation). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
+Si le trigger est créé, passez à l'étape suivante. Dans le cas contraire, la connexion du paramétrage de l'intégration Trigger a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d'Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
 
-* Nom de la société Marketing Cloud
+* Nom de la société Experience Cloud
 * ID de l'organisation IMS
-* Identifiant de société Analytics (peut être identique au nom de la société Marketing Cloud)
+* Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 **Tentative de publication d'un trigger**
 
@@ -53,7 +53,7 @@ Si Analytics reçoit le trigger, passez à l'étape suivante. Dans le cas contra
 
 * Le Trigger est activé pour Analytics
 * Le site Web a utilisé MCID et Analytics est activé dans DTM
-* La bonne suite de rapports Analytics est utilisée lors de la création des triggers
+* La bonne suite de rapports Analytics est utilisée lors de la création des Triggers
 
 **Campaign reçoit-il le trigger ?**
 
