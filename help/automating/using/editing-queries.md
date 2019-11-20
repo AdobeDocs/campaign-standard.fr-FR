@@ -12,7 +12,7 @@ discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -32,13 +32,13 @@ Cet outil est partagé par plusieurs fonctionnalités de l'application :
 * définition de la cible d'un **email**
 * définition d'une population dans des activités de **workflows**.
 
-## Interface de l'éditeur de requêtes   {#query-editor-interface}
+## Interface de l'éditeur de requêtes {#query-editor-interface}
 
 L'éditeur de requêtes se compose d'une **Palette** et d'un **Espace de travail**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette   {#palette}
+### Palette {#palette}
 
 La palette, située sur la gauche de l'éditeur, est divisée en deux onglets, composés d'éléments répartis dans des blocs thématiques. Ces onglets sont :
 
@@ -52,13 +52,13 @@ Les éléments contenus dans les onglets doivent être déplacés dans l'espace 
 * définir des règles simples sur les champs de votre choix
 * définir des règles avancées permettant d'appliquer des fonctions sur certains champs.
 
-### Espace de travail   {#workspace}
+### Espace de travail {#workspace}
 
 L'espace de travail est la zone centrale, dans laquelle vous pouvez paramétrer et combiner les règles, audiences et filtres prédéfinis ajoutés depuis la palette.
 
 Lorsque vous déplacez un élément de la palette dans l'espace de travail, une nouvelle fenêtre s'ouvre et vous permet de [Créer une requête](#creating-queries).
 
-## Créer une requête   {#creating-queries}
+## Créer une requête {#creating-queries}
 
 L'éditeur de requêtes peut être utilisé pour définir une audience ou un profil de test dans un message, une population dans un workflow et pour créer une audience de type Requête.
 
