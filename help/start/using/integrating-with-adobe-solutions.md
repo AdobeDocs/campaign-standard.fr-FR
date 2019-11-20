@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -53,7 +53,7 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Envoyez des emails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques suivis sur votre site web par Adobe Analytics.
 
-   Voir à ce propos [Utilisation des triggers Experience Cloud dans Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   Voir à ce propos [Utilisation des Triggers Experience Cloud dans Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * Editez des images et utilisez un ensemble complet de fonctionnalités du SDK Adobe Creative afin d'améliorer vos images directement dans l'éditeur de contenu.
 
@@ -61,5 +61,5 @@ Associez des solutions Adobe Experience Cloud à Adobe Campaign de façon à :
 
 * Automatisez l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide du SDK Adobe Experience Platform.
 
-   Voir à ce propos [Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Voir à ce propos [Configuration d'une application mobile à l'aide des SDK Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
