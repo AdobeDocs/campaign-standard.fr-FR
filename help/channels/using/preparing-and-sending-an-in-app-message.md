@@ -9,10 +9,10 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
-context-tags: delivery,triggers,back;deliveryCreation,wizard
+context-tags: delivery,Triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -37,7 +37,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Gestion des champs de profil mobile avec des données personnelles et sensibles     {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 Dans Adobe Campaign, les données d'attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
@@ -95,11 +95,11 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    * **[!UICONTROL Evénements d'application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d'usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
+      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/metrics.html).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d'affichage.
 
@@ -124,7 +124,7 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    ![](assets/inapp_creating_5.png)
 
-1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/fr/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
@@ -158,7 +158,7 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
 1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Voir à ce propos cette [section](../../sending/using/monitoring-a-delivery.md).
 
-   **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d'appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages. 
+   **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d'appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages.
 
    ![](assets/inapp_sending_7.png)
 
