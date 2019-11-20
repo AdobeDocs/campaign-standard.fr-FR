@@ -11,7 +11,7 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
