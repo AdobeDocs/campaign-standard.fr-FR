@@ -11,7 +11,7 @@ topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Vous pouvez également définir une formule pour envoyer le message à chaque destinataire à une date et à une heure précises.
 
-## Personnalisation de la formule de date   {#customizing-date-formula}
+## Personnalisation de la formule de date {#customizing-date-formula}
 
 Par exemple, vous pouvez utiliser l'optimisation de l'heure d'envoi lors de l'installation d'une nouvelle plate-forme.
 
@@ -101,7 +101,7 @@ La diffusion sera envoyée progressivement à tous les destinataires ciblés sur
 >
 >Lors de la confirmation de l'envoi, assurez-vous que toutes les dates sont dans le futur. Sinon, les messages seront envoyés dès que l'envoi aura été confirmé.
 
-## A partir d'une expression   {#using-an-expression}
+## A partir d'une expression {#using-an-expression}
 
 L'optimisation de l'heure d'envoi est également utile pour les campagnes impliquant un centre d'appel. Elle permet de garantir que tous les messages ne seront pas reçus en même temps. Votre entreprise peut ainsi traiter le nombre d'appels en fonction de sa capacité.
 
