@@ -12,7 +12,7 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -37,7 +37,7 @@ L'édition d'expressions peut être utilisée lors des opérations suivantes :
 * édition d'une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d'une condition de visibilité pour définir l'affichage d'un bloc de l'éditeur de contenus HTML. Dans ce cas, l'expression est éditée au format JavaScript et ne propose pas l'utilisation des fonctions avancées standard.
 
-## Editer une expression   {#edit-an-expression}
+## Editer une expression {#edit-an-expression}
 
 L'édition avancée d'expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -65,7 +65,7 @@ L'édition d'une expression vous permet de personnaliser l'expression Audiences 
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions   {#expression-syntax}
+## Syntaxe des expressions {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -120,7 +120,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison   {#comparison-operators}
+## Opérateurs de comparaison {#comparison-operators}
 
 Pour certaines règles, l'éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
