@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -45,7 +45,7 @@ Plusieurs indicateurs sont calculés et un ensemble d'outils s'affiche en vue de
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importer des modèles   {#importing-models}
+## Importer des modèles {#importing-models}
 
 Par défaut, aucun modèle n'est exécuté sur le serveur Adobe Campaign. Deux méthodes permettent d'obtenir un modèle et d'activer la fonctionnalité :
 
