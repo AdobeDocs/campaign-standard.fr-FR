@@ -11,7 +11,7 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
