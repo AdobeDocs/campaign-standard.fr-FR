@@ -12,7 +12,7 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez choisir de faire varier le contenu, le sujet ou l'expéditeur de l'e
 >
 >Il est impossible de réaliser des tests A/B sur des emails créés dans Adobe Experience Manager.
 
-## Créer un email de test A/B    {#creating-an-a-b-test-email}
+## Créer un email de test A/B {#creating-an-a-b-test-email}
 
 La création d'un email de type test A/B peut être réalisée à l'aide de l'assistant de création d'un email standard, auquel est ajoutée une étape de paramétrage du test A/B. La création d'un email standard est présentée dans la section [Créer un email](../../channels/using/creating-an-email.md).
 
@@ -87,7 +87,7 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 **Rubrique connexe** :
 
-Vidéo [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html)   
+Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) 
 
 ## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
