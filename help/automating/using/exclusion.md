@@ -12,7 +12,7 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
