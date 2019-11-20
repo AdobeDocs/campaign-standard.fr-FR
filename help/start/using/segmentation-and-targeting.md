@@ -11,7 +11,7 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -55,7 +55,7 @@ Les audiences sont présentées [sur cette page](../../audiences/using/about-aud
 
 Le RGPD est la nouvelle loi de l'Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s'applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l'UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
-Pour plus d'informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html).
+Pour plus d'informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html).
 
 ## Gestion de la fatigue {#fatigue-management}
 
