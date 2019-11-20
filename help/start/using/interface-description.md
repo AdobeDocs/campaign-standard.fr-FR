@@ -11,7 +11,7 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,7 +30,7 @@ Tous les écrans d'Adobe Campaign se composent des éléments suivants :
 
 ![](assets/ux_interface_01.png)
 
-## Page d'accueil    {#home-page}
+## Page d'accueil {#home-page}
 
 La page d'accueil se compose d'un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d'Adobe Campaign. La liste des capacités figurant dans la page d'accueil de Campaign dépend de vos permissions et des options configurées pour votre organisation.
 
@@ -47,7 +47,7 @@ La page d'accueil se compose d'un jeu de vignettes qui permet un accès rapide a
 * La vignette **[!UICONTROL Profils client]** permet d'accéder directement à la liste des profils et de consulter les événements concernant chacun d'entre eux. Voir à ce propos la section [Gestion des profils](../../audiences/using/about-profiles.md).
 * La vignette **[!UICONTROL Audiences]** permet d'accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
-## Barre supérieure    {#top-bar}
+## Barre supérieure {#top-bar}
 
 Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d'Adobe Campaign et d'accéder au profil Adobe connecté, aux notifications, aux autres services et solutions Adobe Experience Cloud ainsi qu'à la documentation.
 
@@ -103,7 +103,7 @@ L'icône **[!UICONTROL Ressources]** permet d'accéder aux fonctionnalités suiv
 
 L'icône **[!UICONTROL Administration]** permet d'accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/about-administrating-adobe-campaign.md).
 
-## Zone centrale    {#central-zone}
+## Zone centrale {#central-zone}
 
 La zone centrale de l'interface utilisateur est une zone dynamique qui contient, par exemple, une liste d'éléments ou un jeu de vignettes. Elle permet d'éditer des éléments existants et de créer des ressources.
 
