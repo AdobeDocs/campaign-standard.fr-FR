@@ -1,5 +1,5 @@
 ---
-title: A propos du canal Courrier
+title: A propos du canal Ccourrier
 description: Découvrez les spécificités principales du canal Courrier dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
@@ -12,7 +12,7 @@ discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -38,7 +38,7 @@ Dans Adobe Campaign, le processus utilisateur est le suivant :
 1. Définir la date de contact
 1. Générer le fichier
 
-## Recommandations   {#recommendations}
+## Recommandations {#recommendations}
 
 ### Opérateurs de services postaux {#direct-mail-providers}
 
@@ -48,7 +48,7 @@ Assurez-vous que la case **[!UICONTROL Adresse renseignée]** est cochée dans l
 
 ![](assets/direct_mail_22.png)
 
-### Adresses postales   {#postal-addresses}
+### Adresses postales {#postal-addresses}
 
 Lors de l'ajout des champs à inclure dans le fichier d'extraction, les champs d'adresse postale sont accessibles dans le nœud **[!UICONTROL Localisation]**.
 
