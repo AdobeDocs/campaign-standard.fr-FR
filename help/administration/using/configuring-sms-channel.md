@@ -12,7 +12,7 @@ discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -24,11 +24,11 @@ Pour envoyer des SMS, un ou plusieurs comptes externes doivent être configurés
 
 Les étapes de création et de modification d'un compte externe sont présentées dans la section [Comptes externes. ](../../administration/using/external-accounts.md) Vous trouverez ci-dessous les paramètres spécifiques aux comptes externes pour l'envoi des SMS.
 
-## Définition d'un routage des SMS   {#defining-an-sms-routing}
+## Définition d'un routage des SMS {#defining-an-sms-routing}
 
 Le compte externe **[!UICONTROL Routage des SMS par SMPP]** est fourni par défaut, mais il peut être utile d'ajouter d'autres comptes.
 
-Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d'informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d'informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 1. Créez un compte externe depuis **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Comptes externes]**.
 1. Définissez le type de compte sur **[!UICONTROL Routage]**, le canal sur **[!UICONTROL Mobile (SMS)]** et le mode de diffusion sur **[!UICONTROL Envoi en masse]**.
@@ -73,7 +73,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
 Vous pouvez utiliser à présent votre nouveau routage pour envoyer des SMS avec Adobe Campaign.
 
-## Encodage et formats des SMS   {#sms-encoding-and-formats}
+## Encodage et formats des SMS {#sms-encoding-and-formats}
 
 ### Encodage, longueur et translittération des SMS {#sms-encoding--length-and-transliteration}
 
@@ -102,7 +102,7 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d'activer cette option afin de limiter le coût de vos envois.
 
-### Tables des caractères - Norme GSM   {#table-of-characters---gsm-standard}
+### Tables des caractères - Norme GSM {#table-of-characters---gsm-standard}
 
 Cette section présente les caractères pris en charge par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 
@@ -317,13 +317,13 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
    ![](assets/sms_data_coding1.png)
 
-### Réponse automatique aux MO   {#automatic-reply-sent-to-the-mo}
+### Réponse automatique aux MO {#automatic-reply-sent-to-the-mo}
 
 Lorsqu'un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l'action à exécuter.
 
 Voir à ce sujet [cette section](../../channels/using/managing-incoming-sms.md).
 
-## Configuration des propriétés des SMS   {#configuring-sms-properties}
+## Configuration des propriétés des SMS {#configuring-sms-properties}
 
 Cette section décrit la liste des paramètres propres aux SMS dans l'écran des propriétés d'une diffusion de type SMS ou d'un modèle de SMS.
 
