@@ -11,7 +11,7 @@ topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
