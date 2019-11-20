@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -106,7 +106,7 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
 **Rubrique connexe :**
 
-Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Récupérer automatiquement du contenu depuis une URL au moment de la préparation {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -166,7 +166,7 @@ Pour plus d'informations sur la conversion d'un email existant en email compatib
 * [Vidéo d'introduction au Concepteur d'email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Convertir un contenu HTML   {#converting-an-html-content}
+## Convertir un contenu HTML {#converting-an-html-content}
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d'être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d'email.
 
@@ -228,6 +228,6 @@ Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Co
 
    >[!NOTE]
    >
-   >Ne modifiez pas le CSS généré par le Concepteur d'email : `<style acrite-template-css="true">`   et `<style acrite-custom-styles="" type="text/css">`. Veillez à ajouter votre style après.
+   >Ne modifiez pas le CSS généré par le Concepteur d'email : `<style acrite-template-css="true">` et `<style acrite-custom-styles="" type="text/css">`. Veillez à ajouter votre style après.
 
 1. Revenez à la vue mobile pour vérifier que votre contenu s'affiche correctement et enregistrez vos modifications.
