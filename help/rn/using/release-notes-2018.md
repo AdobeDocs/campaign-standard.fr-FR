@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -43,7 +43,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d'Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L'intégration d'Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d'activation de la propriété Mobile App dans Campaign à l'aide du SDK Mobile V5.<br /> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L'intégration d'Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d'activation de la propriété Mobile App dans Campaign à l'aide du SDK Mobile V5.<br /> Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,12 +52,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Adobe Campaign Standard prend maintenant en charge la version 4 de l'API Amazon S3.
 
-### Autres changements    {#other-changes}
+### Autres changements {#other-changes}
 
 * Dans les broadlogs, il est maintenant possible de faire la distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de savoir pourquoi le débit est limité. Auparavant, le même message ("quota atteint") s'appliquait aux deux cas.
 * Lors de la configuration d'une application mobile dans Campaign, l'utilisateur peut désormais savoir si le certificat iOS et la clé du serveur Android ont été téléchargés avec succès et leur date d'expiration.
 
-   Pour plus d'informations, consultez la documentation détaillée sur la configuration d'une application mobile à l'aide de [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Pour plus d'informations, consultez la documentation détaillée sur la configuration d'une application mobile à l'aide de [SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 * Ciblez des utilisateurs sur une application mobile spécifique en sélectionnant cette application mobile lorsque vous définissez les propriétés de Campaign. Cette fonctionnalité est destinée aux canaux Push et Messagerie in-app.
 
@@ -90,7 +90,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui empêchait l'affichage des erreurs à l'origine de l'échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d'une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018    {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018 {#release-18-7---july-2018}
 
 ### Nouveautés {#what-s-new--1}
 
@@ -120,17 +120,17 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Gestion des utilisateurs<br /> </td> 
-   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n'est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br /> Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n'est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br /> Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Améliorations {#improvements-1}
 
-* L'intégration d'Adobe Campaign et Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d'Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L'intégration d'Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://marketing.adobe.com/resources/help/fr_FR/target/target/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d'Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d'un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d'accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner "La suppression/duplication de l'enregistrement cible implique celle des enregistrements référencés par le lien" dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez "La suppression/duplication de l'enregistrement implique celle de l'enregistrement cible référencé par le lien".
 
-### Autres changements    {#other-changes-1}
+### Autres changements {#other-changes-1}
 
 * Le délai de partage des rapports a été prolongé d'une à quatre minutes afin d'éviter toute erreur de timeout.
 * Lors de l'édition du contenu d'un email, le nouveau Creative Designer s'ouvre par défaut. Si vous le souhaitez, vous pouvez revenir à l'éditeur de contenu par défaut à tout moment après avoir enregistré vos modifications. Consultez à ce sujet la [documentation détaillée](../../designing/using/overview.md).
@@ -161,7 +161,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Le workflow technique **[!UICONTROL Nettoyage de la base]** a été optimisé pour améliorer les performances du nettoyage de la base de données.
 * Creative Designer pour les emails est désormais disponible en français et en allemand.
 
-### Autres changements    {#other-changes-2}
+### Autres changements {#other-changes-2}
 
 * Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **[!UICONTROL Déploiement]** des diffusions envoyées. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l'envoi prend trop de temps ou si les résultats n'ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
 * Dans le workflow technique d'usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d'erreurs consécutives à ignorer dans l'activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
@@ -205,7 +205,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> RGPD : intégration avec Core Service<br /> </td> 
-   <td> L'intégration de Privacy Core Service vous permet d'automatiser vos demandes RGPD dans un contexte multisolution à l'aide d'un seul appel d'API JSON. <br /> Les demandes RGPD émises depuis Privacy Core Service vers toutes les solutions Experience Cloud sont désormais traitées automatiquement par Campaign. <br /> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+   <td> L'intégration de Privacy Core Service vous permet d'automatiser vos demandes RGPD dans un contexte multisolution à l'aide d'un seul appel d'API JSON. <br /> Les demandes RGPD émises depuis Privacy Core Service vers toutes les solutions Experience Cloud sont désormais traitées automatiquement par Campaign. <br /> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Améliorations des notifications push – retours détaillés de la diffusion<br /> </td> 
@@ -230,7 +230,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Amélioration de l'utilisation globale de la mémoire et du processeur par l'application
 
-### Autres changements    {#other-changes-3}
+### Autres changements {#other-changes-3}
 
 * L'activité de workflow Lecture d'audience peut désormais lire les audiences Experience Cloud. Cette activité ne pouvait auparavant lire que les audiences de type Requête et Liste. Consultez la [documentation détaillée](../../automating/using/read-audience.md). (CAMP-23623)
 * L'identifiant de la Source de données partagée par défaut est désormais en lecture seule uniquement et ne peut plus être modifié. La modification de cet identifiant peut entraîner des problèmes lors du partage d'audiences avec Experience Cloud.
@@ -263,7 +263,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d'un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l'objet d'un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018    {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018 {#release-18-4---april-2018}
 
 ### Correctifs {#patches-4}
 
@@ -289,7 +289,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 * Correction d'une erreur qui entraînait l'échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018    {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018 {#release-18-3---march-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities}
 
@@ -307,7 +307,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
     <ul> 
      <li> Droit d'accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d'informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
@@ -354,7 +354,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'un problème qui empêchait la sélection automatique du gagnant d'un email de test A/B, ce qui entraînait le non-envoi de l'email. Ce problème se produisait lorsque l'état de la diffusion était **[!UICONTROL retryInProgress]**.
 * Correction d'un problème qui entraînait l'affichage d'un message d'erreur lors de la réouverture des paramètres d'un email de test A/B.
 
-#### Audiences et requêtes    {#audiences-e-queries}
+#### Audiences et requêtes {#audiences-e-queries}
 
 * Correction d'un problème qui empêchait d'accéder aux données et de configurer des requêtes pour les destinataires répliqués d'Adobe Campaign Classic vers Standard.
 * Correction d'un problème qui se produisait lors de l'utilisation d'un champ de type filtre dans l'éditeur de requêtes, après avoir utilisé le bouton **Compter** ou **Prévisualiser**.
@@ -379,7 +379,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d'une erreur liée au modèle de message transactionnel lors de l'extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018    {#release-18-2---february-2018}
+## Version 18.2 - Février 2018 {#release-18-2---february-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities-1}
 
@@ -443,7 +443,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide contextuelle dans l'interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018    {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018 {#release-18-1---january-2018}
 
 ### Nouvelles fonctionnalités {#new-capabilities-2}
 
@@ -471,7 +471,7 @@ Certains problèmes peuvent se produire lors de l'utilisation des liens d'aide c
      <li> télécharger des images ou d'autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d'une notification ; </li> 
      <li> ajouter un identifiant de thread à une notification. </li> 
-    </ul> Pour plus d'informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d'informations, consultez <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">cette technote</a>.<br /> </td> 
+    </ul> Pour plus d'informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d'informations, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">cette technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions optimisées avec les fuseaux horaires<br /> </td> 
