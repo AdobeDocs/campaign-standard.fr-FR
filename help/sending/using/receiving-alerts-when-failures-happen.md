@@ -11,7 +11,7 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -92,7 +92,7 @@ Si vous souhaitez envoyer des notifications selon des critères spécifiques à 
 
 Désormais, dès qu'une diffusion répond aux critères définis dans ce tableau de bord, une notification d'alerte est envoyée aux groupes d'utilisateurs indiqués.
 
-## Critères des alertes de diffusion     {#delivery-alerting-criteria}
+## Critères des alertes de diffusion {#delivery-alerting-criteria}
 
 ### A propos des critères des alertes de diffusion {#about-alerting-criteria}
 
@@ -138,7 +138,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 * [Fréquence des alertes](#alerting-frequency)
 * [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Créer un critère d'alerte de diffusion     {#creating-a-delivery-alerting-criterion}
+### Créer un critère d'alerte de diffusion {#creating-a-delivery-alerting-criterion}
 
 Vous pouvez créer des critères d'alerte de diffusion en fonction de vos besoins.
 
@@ -182,7 +182,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d'autres crit�
 
 [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Paramètres des alertes de diffusion     {#delivery-alerting-parameters}
+## Paramètres des alertes de diffusion {#delivery-alerting-parameters}
 
 ### Paramètres des critères {#criteria-parameters}
 
@@ -219,7 +219,7 @@ Vous pouvez changer ce paramètre dans le menu **[!UICONTROL Administration]** &
 >
 >Cette option s'applique à tous les tableaux de bord définis dans Adobe Campaign. Vous ne pouvez pas définir une fréquence spécifique pour chaque tableau de bord.
 
-## Motifs des alertes de diffusion     {#delivery-alerting-reasons}
+## Motifs des alertes de diffusion {#delivery-alerting-reasons}
 
 La fonctionnalité **Alertes de diffusion** maintient automatiquement informés tous les utilisateurs actifs d'Adobe Campaign en ce qui concerne le statut d'exécution des diffusions, par email ou par le biais d'un tableau de bord.
 
@@ -263,7 +263,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l'analyse de la diffusion. Voir [Créer une règle de filtrage](../../administration/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [A propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
+   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
 
 
 
