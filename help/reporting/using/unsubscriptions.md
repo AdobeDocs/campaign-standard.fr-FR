@@ -12,7 +12,7 @@ discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
