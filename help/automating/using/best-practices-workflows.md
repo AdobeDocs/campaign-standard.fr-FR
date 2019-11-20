@@ -11,7 +11,7 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -109,8 +109,7 @@ Pour plus d'informations, voir [Appeler un workflow avec des paramètres externe
 
 ## Export de packages{#exporting-packages}
 
-Pour exporter des packages, les ressources exportées ne doivent pas contenir d'identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s'éloignant des modèles livrés par Adobe Campaign Standard.
-Pour plus d'informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
+Pour exporter des packages, les ressources exportées ne doivent pas contenir d'identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s'éloignant des modèles livrés par Adobe Campaign Standard. Pour plus d'informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
 
 ## Export de listes{#exporting-lists}
 
@@ -124,8 +123,7 @@ Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés au
 ### Utilisation des logs de workflow{#using-workflow-logs}
 
 Vous pouvez accéder aux logs de workflow pour surveiller l'exécution de vos activités. Ils répertorient par ordre chronologique les opérations réalisées et les erreurs d'exécution. L'onglet Logs contient l'historique de l'exécution de toutes les activités ou de celles sélectionnées.
-L'onglet Tâches permet de voir le séquencement de l'exécution des activités. Pour obtenir plus d'informations sur une activité, cliquez sur une tâche.
-Pour plus d'informations, consultez [Surveiller l'exécution des workflows](../../automating/using/executing-a-workflow.md#monitoring).
+L'onglet Tâches permet de voir le séquencement de l'exécution des activités. Pour obtenir plus d'informations sur une activité, cliquez sur une tâche. Pour plus d'informations, consultez [Surveiller l'exécution des workflows](../../automating/using/executing-a-workflow.md#monitoring).
 
 #### Résolution des problèmes liés aux activités Data Management{#troubleshooting-data-management-activities}
 
