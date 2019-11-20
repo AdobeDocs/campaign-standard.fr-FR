@@ -12,7 +12,7 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -46,7 +46,7 @@ Si vous souhaitez restreindre les accès d'un utilisateur, ne l'ajoutez pas dans
 >
 >Dans la console d'administration, les groupes de sécurité sont appelés profils.
 
-Vous pouvez créer vos propres groupes de sécurité si les groupes d'usine ne suffisent pas pour gérer vos utilisateurs. Ils peuvent être gérés par les administrateurs ayant accès aux menus d'administration d'Adobe Campaign et à la console d'administration. Pour plus d'informations sur la console d'administration, consultez cette [documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Vous pouvez créer vos propres groupes de sécurité si les groupes d'usine ne suffisent pas pour gérer vos utilisateurs. Ils peuvent être gérés par les administrateurs ayant accès aux menus d'administration d'Adobe Campaign et à la console d'administration. Pour plus d'informations sur la console d'administration, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
 Il nous faut tout d'abord assigner les deux groupes d'usine Utilisateurs standard et Administrateurs à nos utilisateurs. Ces groupes de sécurité limitent certaines fonctionnalités d'Adobe Campaign : l'Utilisateur standard dispose d'un accès simple à Adobe Campaign, tandis que l'Administrateur peut accéder aux menus d'administration, par exemple.
 
