@@ -12,7 +12,7 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -40,7 +40,7 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing     {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d'activité de la liste est caractérisé par une icône :
 
