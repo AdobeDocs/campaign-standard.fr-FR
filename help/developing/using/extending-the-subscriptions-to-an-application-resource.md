@@ -11,7 +11,7 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
