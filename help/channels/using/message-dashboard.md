@@ -12,7 +12,7 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -24,7 +24,7 @@ Le tableau de bord d'un message est un espace de travail composé de différente
 
 ![](assets/delivery_dashboard_2.png)
 
-## Barre grise     {#gray-bar}
+## Barre grise {#gray-bar}
 
 La barre grise regroupe différentes icônes en lien avec votre message.
 
@@ -65,7 +65,7 @@ Selon les paramètres renseignés et l'avancement du processus de création, cer
 
    Pour plus d'informations sur la validation d'un envoi, voir la section [Envoyer les messages](../../sending/using/confirming-the-send.md).
 
-## Blocs     {#blocks}
+## Blocs {#blocks}
 
 L'écran principal est composé de différents blocs. Cliquez dans un bloc pour accéder à l'écran de paramètres correspondant :
 
