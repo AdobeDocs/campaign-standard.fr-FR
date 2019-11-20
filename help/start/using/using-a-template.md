@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 66e4a473-0dc0-4aa8-ad8b-511f4588a1b0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
