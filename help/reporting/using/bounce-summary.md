@@ -12,7 +12,7 @@ discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
