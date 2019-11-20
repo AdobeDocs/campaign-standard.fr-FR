@@ -11,7 +11,7 @@ topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
