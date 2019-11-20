@@ -11,7 +11,7 @@ topic-tags: about-custom-resources
 discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
