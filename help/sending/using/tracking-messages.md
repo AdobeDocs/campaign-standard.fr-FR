@@ -11,7 +11,7 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -28,11 +28,11 @@ Ainsi, vous pouvez informer les utilisateurs de vos sites soumis au tracking web
 Adobe Campaign utilise deux types de cookies :
 
 * Un cookie de session (nlid). Il contient l'identifiant de l'email envoyé au contact (broadlogId) et l'identifiant du modèle de message (deliveryId). Il est déposé lorsque le contact clique sur une URL contenue dans un email envoyé par Adobe Campaign et permet de tracker son comportement sur le web. Ce cookie de session est effacé automatiquement à la fermeture du navigateur. Le contact a la possibilité d'en interdire le dépôt en adaptant les paramètres de son navigateur.
-* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d'identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible ici : [https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d'identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible ici : [https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/fr_FR/whitepapers/cookies/cookies_mc.html).
 
 Les informations de tracking sont disponibles pour chaque contact de votre base de données dans des **[!UICONTROL profils client intégrés]**. Voir à ce propos [cette section](../../audiences/using/integrated-customer-profile.md).
 
-## Tracking    {#tracking-logs}
+## Tracking {#tracking-logs}
 
 L'onglet **[!UICONTROL Tracking]** liste l'historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l'objet d'un tracking par Adobe Campaign. Les informations de tracking de cet onglet sont mises à jour toutes les 10 minutes.
 
