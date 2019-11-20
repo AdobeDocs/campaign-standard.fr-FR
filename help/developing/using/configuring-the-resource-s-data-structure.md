@@ -12,7 +12,7 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -30,7 +30,7 @@ Lors de l'édition de la ressource, dans l'onglet **[!UICONTROL Structure de don
 * [des liens ;](#defining-links-with-other-resources)
 * [des logs d'envoi.](#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource   {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d'usine.
 
@@ -70,7 +70,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
 Les champs de votre ressource sont maintenant définis.
 
-## Définir les clés d'identification   {#defining-identification-keys}
+## Définir les clés d'identification {#defining-identification-keys}
 
 Chaque ressource doit posséder au moins une clé permettant de l'identifier de manière unique. Vous pouvez par exemple définir une clé pour que deux produits ne puissent pas avoir le même ID dans une table d'achats.
 
@@ -94,7 +94,7 @@ Chaque ressource doit posséder au moins une clé permettant de l'identifier de 
 
 Les clés d'identification de la ressource sont maintenant créées.
 
-## Définir les index   {#defining-indexes}
+## Définir les index {#defining-indexes}
 
 Un index peut référencer un ou plusieurs champs de la ressource. Les index permettent à la base de données de trier les enregistrements afin de les retrouver plus facilement. Ils optimisent les performances des requêtes SQL.
 
@@ -243,7 +243,7 @@ Pour plus d'informations sur les rapports dynamiques, voir la [Liste des composa
 >
 >Le nombre de champs envoyés aux rapports dynamiques est limité à 20.
 
-## Editer les propriétés d'une ressource   {#editing-resource-properties}
+## Editer les propriétés d'une ressource {#editing-resource-properties}
 
 Dans l'écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]** indique le statut de la ressource nouvellement créée. Vous pouvez gérer son accès et ses propriétés générales.
 
