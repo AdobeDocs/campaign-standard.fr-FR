@@ -12,7 +12,7 @@ discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
