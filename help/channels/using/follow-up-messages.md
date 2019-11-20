@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -27,7 +27,7 @@ Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification
 
 Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
-## Accéder aux messages de relance   {#accessing-the-follow-up-messages}
+## Accéder aux messages de relance {#accessing-the-follow-up-messages}
 
 Une fois que vous avez créé et publié l'événement de votre choix (dans l'[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l'abandon de panier), le message transactionnel et le message de relance correspondants sont automatiquement créés.
 
