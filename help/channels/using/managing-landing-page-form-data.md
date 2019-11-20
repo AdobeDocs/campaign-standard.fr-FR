@@ -12,7 +12,7 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
@@ -29,7 +29,7 @@ Vous pouvez associer des champs de la base à des blocs de type zone de saisie, 
 * La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 * L'option **Obligatoire** permet de n'autoriser la validation de la page que si l'utilisateur a renseigné le champ. Si un champ obligatoire n'est pas renseigné, un message d'erreur sera affiché.
 
-## Association des champs de formulaire    {#mapping-form-fields}
+## Association des champs de formulaire {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
@@ -52,7 +52,7 @@ Les champs de saisie sont utilisés pour stocker ou mettre à jour les données 
 >
 >Les champs par défaut des landing pages intégrées sont préconfigurés. Vous pouvez les modifier si nécessaire.
 
-## Associer un formulaire à un service    {#linking-a-form-to-a-service}
+## Associer un formulaire à un service {#linking-a-form-to-a-service}
 
 Vous pouvez associer un formulaire à un service afin que les profils puissent s'inscrire à un service spécifique lors de la validation des landing pages.
 
