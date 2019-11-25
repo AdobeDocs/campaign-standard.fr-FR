@@ -11,8 +11,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -44,7 +44,7 @@ Le type du message est défini lors de la configuration de l'événement qui ser
 >
 >Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
-Les messages transactionnels sont également disponibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+Les messages transactionnels sont également disponibles depuis l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-transactional-messages.md).
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
