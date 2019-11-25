@@ -12,8 +12,8 @@ discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ Cliquez sur un événement de la liste pour l'ouvrir : vous pouvez accéder au 
 
 >[!NOTE]
 >
->L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
-
+>L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/interacting-with-marketing-history.md) .
