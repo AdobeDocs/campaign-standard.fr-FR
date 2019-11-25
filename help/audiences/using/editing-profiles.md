@@ -11,8 +11,8 @@ topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ Pour éditer un profil existant et consulter les données qui lui sont associée
    >
    >Vous pouvez uniquement modifier les informations dans l'onglet **[!UICONTROL Général]**, à l'exception de la section **[!UICONTROL Traçabilité]**.
 
-L'édition des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
+L'édition des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-profiles.md) .
 
 Rubrique connexe :
 
