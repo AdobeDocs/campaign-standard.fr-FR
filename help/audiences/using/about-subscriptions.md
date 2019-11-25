@@ -1,6 +1,6 @@
 ---
 title: A propos des inscriptions
-description: null
+description: En savoir plus sur les services et les abonnements dans Campaign Standard.
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -11,8 +11,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Chaque service est fourni avec :
 * des **mécanismes de confirmation** d'inscription et/ou de désinscription.
 * un suivi de l'**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-services-and-subscriptions.md) .
