@@ -11,8 +11,8 @@ topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,10 +23,10 @@ Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cib
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
-* importer une liste de profils depuis un fichier, par l'intermédiaire d'un [workflow](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html) ;
+* importer une liste de profils depuis un fichier, par l'intermédiaire d'un [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/about-landing-pages.md) ;
-* créer des profils en masse via l'[API REST](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) ;
-* synchroniser les profils depuis [Microsoft Dynamics](https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html) ;
+* créer des profils en masse via l'[API REST](../../api/using/about-campaign-standard-apis.md) ;
+* synchroniser les profils depuis [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ;
 * saisir des données dans les écrans de l'interface graphique, comme expliqué ci-dessous.
 
 Par exemple, pour créer un profil directement dans l'interface utilisateur, procédez comme suit :
@@ -57,7 +57,7 @@ Le profil est ajouté à la liste.
 
 >[!NOTE]
 >
->La création des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>La création des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-profiles.md).
 
 Les profils peuvent être également partitionnés en fonction de leurs entités organisationnelles. Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
 
@@ -68,5 +68,5 @@ Les profils peuvent être également partitionnés en fonction de leurs entités
 **Rubriques connexes :**
 
 * Guide détaillé [A propos des landing pages](../../channels/using/about-landing-pages.md)
-* [Importer des profils](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* [Importer des profils](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
