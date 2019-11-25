@@ -1,6 +1,6 @@
 ---
 title: A propos de l'extension de l'API
-description: null
+description: Découvrez comment exposer des champs étendus pour les profils de ressources personnalisées dans l’API Profils publics.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,8 +11,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ Pour pouvoir publier l'API, vous devez disposer du rôle **[!UICONTROL Datamodel
 **Rubriques connexes :**
 
 * [Ressources personnalisées](../../developing/using/data-model-concepts.md)
-* [Documentation des API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [Documentation des API](../../api/using/about-campaign-standard-apis.md)
