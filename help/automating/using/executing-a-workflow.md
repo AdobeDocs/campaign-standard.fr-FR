@@ -12,8 +12,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ Lorsqu'une transition est ouverte, vous pouvez modifier son **[!UICONTROL Libell
 
 L'API REST vous permet de **démarrer**, **mettre en pause**, **reprendre** et **arrêter** un workflow.
 
-Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](../../api/using/managing-workflows.md)
 
 ## Cycle de vie {#life-cycle}
 
