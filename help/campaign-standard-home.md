@@ -3,8 +3,8 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -15,10 +15,10 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ## Nouveautés
 
-* **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
+* **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
 
-* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)**<br/>
+* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 Découvrez les bonnes pratiques en matière de conception de diffusion et d'envoi.
 
 * **[Concepteur d'email](designing/using/designing-content-in-adobe-campaign.md)**<br/>
@@ -58,7 +58,7 @@ Découvrez comment configurer une landing page.
     <div>
     <strong>Ressources destinées aux développeurs</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">API Adobe Campaign</a></em></p>
+    <p><em><a href="api/using/about-campaign-standard-apis.md">API Adobe Campaign</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Triggers Adobe Experience Cloud</a></em></p>
     <br>
   </td>
@@ -70,14 +70,14 @@ Découvrez comment configurer une landing page.
 
 * [Notes de mise à jour](rn/using/release-notes.md)
 
-* [Panneau de contrôle](https://helpx.adobe.com/fr/campaign/kb/control-panel.html)
+* [Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
 * [Vidéos pratiques](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
+* [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-* [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html)
+* [Notes techniques](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Guide de mise en œuvre d’Adobe Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html)
+* [Guide de mise en œuvre d’Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
