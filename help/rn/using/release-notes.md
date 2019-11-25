@@ -11,8 +11,8 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,10 +23,10 @@ Toutes les versions 2019, avec leurs nouvelles fonctionnalités et correctifs, 
 
 Ressources supplémentaires :
 
-* [Calendrier des versions de Campaign](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html)
+* [Calendrier des versions de Campaign](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
-* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Panneau de contrôle](https://helpx.adobe.com/fr/campaign/kb/control-panel.html)
+* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Notes de mise à jour précédentes : [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Version 19.4 - Octobre 2019  {#release-19-4---october-2019}
@@ -46,9 +46,9 @@ Ressources supplémentaires :
    <td> <p>La CCPA est la nouvelle loi sur la protection des renseignements personnels de l'Etat de Californie qui harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant en Californie.</p>
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous profitons de l'occasion pour inclure des fonctionnalités supplémentaires afin de faciliter votre préparation à la CCPA :</p>
    <ul>
-    <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande d'accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d'accès et de suppression. L'utilisation de l'API et de l'interface de Campaign pour les demandes d'accès et de suppression est obsolète.  Consultez l'article <a href="https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
-    <li>Un champ <strong>Opt-out CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d'Adobe Campaign de déterminer si un client s'est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
+    <li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
+    <li><p>Lors de la création d’une demande d'accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d'accès et de suppression. L'utilisation de l'API et de l'interface de Campaign pour les demandes d'accès et de suppression est obsolète.  Consultez l'article <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+    <li>Un champ <strong>Opt-out CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d'Adobe Campaign de déterminer si un client s'est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
 </td> 
@@ -57,7 +57,7 @@ Ressources supplémentaires :
    <td> Intégration de Microsoft Dynamics 365 (GA)<br /> </td> 
    <td> 
     <p>L'intégration entre Adobe Campaign Standard et Microsoft Dynamics 365 est maintenant disponible. Vous pourrez transférer vos enregistrements de contacts et d'entités personnalisées de Dynamics 365 vers Campaign et récupérer les données d'événement d'email à partir de Campaign dans Dynamics 365 pour un meilleur alignement du marketing sur les ventes.</p>
-    <p>Reportez-vous à la <a href="https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html">documentation détaillée</a> pour configurer cette intégration et voir la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">vidéo pratique</a>.</p>
+    <p>Reportez-vous à la <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">documentation détaillée</a> pour configurer cette intégration et voir la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">vidéo pratique</a>.</p>
   </td>
   </tr> 
  </tbody> 
@@ -150,7 +150,7 @@ Ressources supplémentaires :
 
 ### Nouveautés{#what-s-new-4}
 
-De nouvelles capacités ont été ajoutées pour les utilisateurs Admin qui peuvent maintenant recevoir des notifications avant l'expiration des certificats SSL de leurs domaines. Pour plus d'informations, consultez la [documentation détaillée](https://helpx.adobe.com/fr/campaign/kb/control-panel-subdomains-certificates.html).
+De nouvelles capacités ont été ajoutées pour les utilisateurs Admin qui peuvent maintenant recevoir des notifications avant l'expiration des certificats SSL de leurs domaines. Pour plus d'informations, consultez la [documentation détaillée](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
 
 De plus, les utilisateurs Admin peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
 
@@ -315,7 +315,7 @@ Mise en place d'une série d'améliorations et de correctifs afin d'optimiser le
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l'efficacité de votre travail en tant qu'utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/control-panel.html">documentation détaillée</a> et la <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-control-panel-video-use.html">vidéo de procédure</a>.</p></td> 
+   <td> <p>Pour accroître l'efficacité de votre travail en tant qu'utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifications locales<br /> </td> 
@@ -323,7 +323,7 @@ Mise en place d'une série d'améliorations et de correctifs afin d'optimiser le
   </tr> 
   <tr> 
    <td> Amélioration apportée aux workflows : ajout d'une payload à l'activité de signal externe<br /> </td> 
-   <td> <p>Démarrez un workflow avec une payload lorsque les conditions définies sont satisfaites à partir d'un autre workflow ou d'un appel d'API REST de façon à intégrer avec vos systèmes externes. Une nouvelle activité de <strong>test</strong> permet aussi d'exécuter des tests sur cette fonctionnalité.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">vidéo de procédure</a>.</p></td> 
+   <td> <p>Démarrez un workflow avec une payload lorsque les conditions définies sont satisfaites à partir d'un autre workflow ou d'un appel d'API REST de façon à intégrer avec vos systèmes externes. Une nouvelle activité de <strong>test</strong> permet aussi d'exécuter des tests sur cette fonctionnalité.</p><p>Pour plus d'informations, consultez la <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Amélioration apportée aux landing pages : Google reCAPTCHA<br /> </td> 
@@ -370,14 +370,14 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ### Autres changements {#other-changes}
 
-* Une nouvelle option a été ajoutée au compte externe SMS. Elle permet de limiter le nombre maximal de processus MTA envoyant des SMS afin de mieux contrôler le nombre de connexions parallèles. Pour plus d'informations, consultez la technote [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
+* Une nouvelle option a été ajoutée au compte externe SMS. Elle permet de limiter le nombre maximal de processus MTA envoyant des SMS afin de mieux contrôler le nombre de connexions parallèles. Pour plus d'informations, consultez la technote [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Lors de la publication d'une ressource avec une extension d'API, si l'API a déjà été publiée, elle est automatiquement mise à jour à chaque nouvelle publication. Auparavant, cette action était manuelle et le fait de ne pas mettre à jour l'API pouvait endommager la ressource profil ou les ressources de services de celle-ci. Consultez à ce sujet la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * La dimension de code postal a été supprimée des rapports dynamiques. Il est recommandé d'utiliser plutôt les dimensions de ville, pays et état.
 * Le trigger d'événement de cycle de vie "Premier lancement" pour les messages In-App a été supprimé.
 * Lors de l'export d'un package avec des groupes de sécurité, celui-ci contient désormais les rôles attribués à chaque groupe. (CAMP-32960)
 * Dans l'activité Chargement de fichier, une nouvelle option permet de vérifier que les colonnes du fichier téléchargé correspondent à la définition de colonne. Pour plus d'informations, consultez la [documentation détaillée](../../automating/using/load-file.md). (CAMP-32229)
 * Les workflows peuvent maintenant être démarrés avec une payload, ce qui permet d'utiliser et de partager des paramètres externes entre les activités au sein d'un workflow. Pour plus d'informations, consultez la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 et CAMP-29413)
-* Les API de Campaign Standard permettent maintenant de mettre à jour les entités géographiques et organisationnelles des profils à l'aide d'une payload. Pour plus d'informations, consultez la [documentation détaillée](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+* Les API de Campaign Standard permettent maintenant de mettre à jour les entités géographiques et organisationnelles des profils à l'aide d'une payload. Pour plus d'informations, consultez la [documentation détaillée](../../api/using/about-campaign-standard-apis.md).
 * Les messages d'erreur qui s'affichent lorsqu'un objet de la base de données n'est pas accessible ont été clarifiés.
 * Dans l'activité Extraction de fichier, les capacités Javascript ont été mises à jour lors de la définition du nom d'un fichier à exporter. Seule la fonction formatDate est maintenant disponible pour une utilisation dans le champ Sortie. Pour plus d'informations, consultez la [documentation détaillée](../../automating/using/extract-file.md).
 * La génération automatique d'ID de séquence a été améliorée pour les ressources personnalisées. Les clés primaires pour les nouvelles ressources personnalisées sont maintenant 64 bits par défaut.
@@ -441,7 +441,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
   </tr> 
   <tr> 
    <td> Messagerie In-App mobile<br /> </td> 
-   <td> <p>Cette version contient la version de disponibilité générale du canal In-App dans Campaign. D'un point de vue fonctionnel, les ajouts les plus importants à la version bêta sont les rapports dynamiques pour le canal In-App et l'établissement d'une liaison sécurisée entre le SDK Mobile et MCIAS (service de messagerie In-App Experience Cloud qui fournit les règles In-App au SDK). L'établissement d'une liaison sécurisée garantit que les données PII de vos utilisateurs ne tombent pas entre des mains malveillantes. Il permet également de préserver la confidentialité de l'utilisateur sur un appareil partagé en effaçant le cache des messages chaque fois que l'utilisateur se déconnecte.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a> et le <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-in-app-message-tutorial.html">tutoriel In-App</a> dédié.</p> </td> 
+   <td> <p>Cette version contient la version de disponibilité générale du canal In-App dans Campaign. D'un point de vue fonctionnel, les ajouts les plus importants à la version bêta sont les rapports dynamiques pour le canal In-App et l'établissement d'une liaison sécurisée entre le SDK Mobile et MCIAS (service de messagerie In-App Experience Cloud qui fournit les règles In-App au SDK). L'établissement d'une liaison sécurisée garantit que les données PII de vos utilisateurs ne tombent pas entre des mains malveillantes. Il permet également de préserver la confidentialité de l'utilisateur sur un appareil partagé en effaçant le cache des messages chaque fois que l'utilisateur se déconnecte.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a> et le <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">tutoriel In-App</a> dédié.</p> </td> 
   </tr> 
   <tr> 
    <td> Améliorations des workflows<br /> </td> 
@@ -499,7 +499,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ### Autres changements {#other-changes-1}
 
-* A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
+* A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 * Le champ **Code pays** de la ressource Profil a été renommé en **Code pays/zone géographique**.
 
 ### Correctifs {#patches-1}
@@ -546,11 +546,11 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d'usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d'informations, consultez la <a href="../../designing/using/overview.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>Pour plus d'informations, consultez la <a href="../../designing/using/overview.md">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d'informations, consultez cette <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
-   <td> <p>Vous pouvez maintenant référencer une ou plusieurs collections de produits dans un email transactionnel. Vous pouvez par exemple envoyer automatiquement un email d’abandon de panier répertoriant tous les produits qui étaient dans le panier de l’utilisateur avec une image, le prix et un lien vers chaque produit.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentation détaillée</a> et la <a href="https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">vidéo de procédure</a>.</p> </td> 
+   <td> <p>Vous pouvez maintenant référencer une ou plusieurs collections de produits dans un email transactionnel. Vous pouvez par exemple envoyer automatiquement un email d'abandon de panier répertoriant tous les produits qui étaient dans le panier de l'utilisateur avec une image, le prix et un lien vers chaque produit.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">vidéo de procédure</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Vue mobile dans le Concepteur d'email<br /> </td> 
