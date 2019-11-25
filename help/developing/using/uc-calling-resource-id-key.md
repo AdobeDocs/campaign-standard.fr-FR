@@ -1,8 +1,8 @@
 ---
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 * [Définir les clés d'identification ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [API REST Campaign Standard](../../api/using/about-campaign-standard-apis.md)
 
 ## Etape 1 : configurer la clé d'identification{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie 
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Pour plus d'informations, consultez la [documentation des API REST Campaign Standard](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+Pour plus d'informations, consultez la [documentation des API REST Campaign Standard](../../api/using/filtering.md).
