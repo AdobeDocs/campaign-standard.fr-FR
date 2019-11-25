@@ -12,8 +12,8 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -125,7 +125,7 @@ Vous pouvez créer des listes de produits référençant une ou plusieurs collec
 
 Pour ajouter une liste de produits abandonnés dans un message transactionnel, suivez les étapes ci-dessous.
 
-Vous pouvez également regarder une série de vidéos expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
+Vous pouvez également regarder une série de vidéos expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
@@ -258,7 +258,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d'attente, dans la base de données Adobe Campaign.
 
-Les événements placés dans la file d'attente sont conservés pendant une période définie dans l'API REST (voir la [documentation sur l'API REST](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)) ou dans l'événement trigger si vous utilisez le core service Triggers (voir [Utilisation de Campaign et des Triggers Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+The queued events are kept during a period of time that is defined in the REST API (see the [REST API documentation](../../api/using/about-campaign-standard-apis.md)) or in the trigger event if you are using the Triggers core service (see [Working with Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
