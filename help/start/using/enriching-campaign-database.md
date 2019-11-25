@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -56,7 +56,7 @@ Pour plus d'informations sur les landing pages, reportez-vous à la [documentati
 L'intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
-Pour plus d'informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html).
+Pour plus d'informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 >[!NOTE]
 >
@@ -66,8 +66,8 @@ Pour plus d'informations sur cette intégration, reportez-vous à la [documentat
 
 Les API Campaign Standard vous permettent d'effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services.
 
-Pour plus d'informations sur l'utilisation des API, reportez-vous à la [documentation dédiée](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+Pour plus d'informations sur l'utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
->Avant d'effectuer une mise à jour ou une création en masse de profils via des appels d'API, vérifiez les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
+>Avant d'effectuer une mise à jour ou une création en masse de profils via des appels d'API, vérifiez les limites d'échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
