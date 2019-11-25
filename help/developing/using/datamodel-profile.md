@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
 
 ---
 
@@ -169,6 +169,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td>excludeLogs</td>
                   <td>Exclus</td>
                   <td>collection </td>
+                  <td> </td>
+               </tr>
+               <tr>
+                  <td>externalId</td>
+                  <td>Identifiant de la ressource externe</td>
+                  <td>string(100) </td>
                   <td> </td>
                </tr>
                <tr>
@@ -377,7 +383,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                         <li>(GMT+05:00) Islamabad, Karachi, Tachkent - Asia_Karachi - Asia/Karachi</li>
                         <li>(GMT+00:00) Riyad (3), Riyad - Asie_Riyad - Asie/Riyad</li>
                         <li>(GMT-08:00) Temps moyen de Greenwich moins 8 heures - Gmt_m8 - Etc/GMT+8</li>
-                        <li>(GMT-01:00) Les Açores - Atlantique_Açores - Atlantique/Açores</li>
+                        <li>(GMT-01:00) Açores - Atlantique_Açores - Atlantique/Açores</li>
                         <li>(GMT+07:00) Bangkok, Hanoï, Djakarta - Asia_Bangkok - Asia/Bangkok</li>
                         <li>(GMT) Monrovia - Africa_Monrovia - Africa/Monrovia</li>
                         <li>(GMT-09:00) Alaska - America_Anchorage - America/Anchorage</li>
