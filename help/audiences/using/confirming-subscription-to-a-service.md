@@ -11,8 +11,8 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ Créez une landing page d'abonnement qui sera publiée sur votre site web.
 
 Pour créer et configurer cette landing page, procédez comme suit :
 
-1. Concevez une [nouvelle landing page](../../channels/using/about-landing-pages.md) à partir du modèle **[!UICONTROL Abonnement]**.
+1. Concevez une [nouvelle landing page](../../channels/using/getting-started-with-landing-pages.md) à partir du modèle **[!UICONTROL Abonnement]**.
 1. Modifiez les propriétés de la landing page. Dans la section **[!UICONTROL Traitement]** &gt; **[!UICONTROL Actions spécifiques]**, sélectionnez l'option **[!UICONTROL Service spécifique]** et choisissez le service que vous venez de créer dans la liste déroulante.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
 1. Personnalisez le contenu de la landing page.
 
-1. [Testez et publiez](../../channels/using/sharing-a-landing-page.md) la landing page.
+1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
 Désormais, chaque fois qu'un profil s'abonne à votre newsletter en soumettant la landing page, il reçoit le message de confirmation que vous avez défini avec des champs personnalisés mappés au service.
 
