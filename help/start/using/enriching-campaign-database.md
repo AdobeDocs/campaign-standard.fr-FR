@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Le principe est le suivant :
 * Faites correspondre chaque champ d'entrée avec le champ correspondant de la base de données.
 * Rendez la landing page disponible en ligne via un site web ou un lien direct dans un message.
 
-Pour plus d'informations sur les landing pages, reportez-vous à la [documentation dédiée](../../channels/using/about-landing-pages.md).
+Pour plus d'informations sur les landing pages, reportez-vous à la [documentation dédiée](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Synchronisation des profils à partir de Microsoft Dynamics 365
 
