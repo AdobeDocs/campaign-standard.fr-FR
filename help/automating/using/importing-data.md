@@ -11,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,6 +88,26 @@ Pour maintenir la cohérence des données dans la base de données Adobe Campaig
 * Les données transactionnelles doivent être dotées d'une clé de réconciliation et être réconciliées avec les données existantes afin d'éviter la création de doublons.
 * **Les fichiers liés doivent être importés dans l'ordre**. Si l'import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l'ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.
+
+## Gestion des données chiffrées {#managing-encrypted-data}
+
+Dans certains cas, les données que vous souhaitez importer peuvent être chiffrées, par exemple si elles contiennent des données d’identification personnelle.
+
+Pour pouvoir importer ou exporter des fichiers chiffrés, vous devez d’abord contacter le service à la clientèle d’Adobe afin qu’il fournisse à votre instance les commandes de chiffrement/déchiffrement nécessaires.
+
+Pour ce faire, envoyez une requête indiquant :
+
+* Libellé **** qui s’affichera dans l’interface de campagne pour utiliser la commande. Par exemple, "Chiffrer le fichier".
+* La **commande** à installer sur votre instance.
+Par exemple, pour déchiffrer un fichier à l’aide de PGP, la commande sera :
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+Une fois la requête traitée, les commandes de chiffrement/déchiffrement seront disponibles dans le champ **!UICONTROL Prétraitement]**à partir des activités de chargement de**[!UICONTROL données (fichier)]**et d’**[!UICONTROL extraction de données (fichier)]**. Vous pouvez les utiliser pour déchiffrer ou chiffrer les fichiers à importer ou à exporter.
+
+![](assets/preprocessing-encryption.png)
 
 ## Exemple : modèle de workflow d'import {#example--import-workflow-template}
 
@@ -198,4 +218,3 @@ Par exemple :
 Le modèle est à présent utilisable et disponible pour chaque nouveau workflow. Il suffira alors de spécifier le fichier contenant les données à importer dans l'activité **[!UICONTROL Chargement de fichier]**.
 
 ![](assets/import_template_example9.png)
-
