@@ -11,8 +11,8 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign permet d'affecter un ensemble de rôles à vos utilisateurs afin 
 
 Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
-Les administrateurs peuvent gérer les utilisateurs depuis la console d'administration. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d'informations à ce sujet, consultez la documentation relative à la [console d'administration](https://helpx.adobe.com/fr/enterprise/using/users.html).
+Les administrateurs peuvent gérer les utilisateurs depuis la console d'administration. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d'informations à ce sujet, consultez la documentation relative à la [console d'administration](https://helpx.adobe.com/enterprise/using/users.html).
 
 Pour visualiser les utilisateurs dans Adobe Campaign, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration &gt; Utilisateurs &amp; sécurité &gt; Utilisateurs]**.
 
@@ -35,7 +35,7 @@ Pour accéder à l'interface de gestion des utilisateurs à partir d'Adobe Campa
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer les permissions utilisateur](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
+* Vidéo [Gérer les permissions utilisateur](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
 * [Liste des autorisations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -94,7 +94,7 @@ Voici les principales tâches qu'ils peuvent effectuer :
 * [Gérer les programmes et campagnes](../../start/using/programs-and-campaigns.md) : créez des campagnes marketing incluant différents types d'activités (emails, SMS, notifications push, workflows, landing pages).
 * Gérer les [profils](../../audiences/using/about-profiles.md) et les [profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md) : gérez les destinataires identifiés et les profils de test que vos diffusions cibleront. Ajoutez des informations comme le prénom, le nom, les coordonnées, les abonnements, les emails, etc.
 * [Créer et envoyer des messages](../../sending/using/confirming-the-send.md) : créez votre message, sélectionnez l'audience, définissez le contenu du message et ses éléments de personnalisation, envoyez les bons à tirer puis le message final à votre audience.
-* [Créer et publier des landing pages](../../channels/using/about-landing-pages.md) : créez et gérez un ensemble de services que vous souhaitez proposer à vos clients, comme des formulaires d'inscription ou de désinscription.
+* [Créer et publier des landing pages](../../channels/using/getting-started-with-landing-pages.md) : créez et gérez un ensemble de services que vous souhaitez proposer à vos clients, comme des formulaires d'inscription ou de désinscription.
 * [Créer et exécuter des workflows d'opérations](../../automating/using/building-a-workflow.md) : automatisez les processus de campagne à l'aide de workflows.
 * Contrôler les activités marketing par le biais des [rapports disponibles](../../reporting/using/defining-the-report-period.md).
 
