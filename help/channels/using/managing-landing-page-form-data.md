@@ -12,8 +12,8 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ Les champs de saisie sont utilisés pour stocker ou mettre à jour les données 
 >[!NOTE]
 >
 >Les champs par défaut des landing pages intégrées sont préconfigurés. Vous pouvez les modifier si nécessaire.
-
-## Associer un formulaire à un service {#linking-a-form-to-a-service}
-
-Vous pouvez associer un formulaire à un service afin que les profils puissent s'inscrire à un service spécifique lors de la validation des landing pages.
-
-Les paramètres d'association permettent de définir le type de l'action réalisée et si la landing page est liée spécifiquement à un seul service ou si elle est générique.
-
-Pour sélectionner le service à associer, procédez comme suit :
-
-1. Editez les propriétés de la landing page accessibles via l'icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. Sélectionnez **[!UICONTROL Inscription]** dans la liste déroulante **[!UICONTROL Actions spécifiques]**.
-
-   ![](assets/lp_parameters_5.png)
-
-1. Sélectionnez **[!UICONTROL Service spécifique]** pour associer la landing page à un seul service. Ne sélectionnez pas cette option si vous souhaitez utiliser plusieurs services avec la landing page.
-
-   Utilisez l'option **[!UICONTROL Service provenant de l'URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
 ## Réconciliation et stockage des données{#data-storage-and-reconciliation}
 
