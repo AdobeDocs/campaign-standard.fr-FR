@@ -12,8 +12,8 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ Selon le contexte, vous pouvez :
 * [créer une notification push ;](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [créer un message In-App ;](../../channels/using/about-in-app-messaging.md)
 * [créer un workflow ;](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [créer une landing page ;](../../channels/using/about-landing-pages.md)
+* [créer une landing page ;](../../channels/using/getting-started-with-landing-pages.md)
 * [créer une campagne ;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [créer un programme.](../../start/using/programs-and-campaigns.md#creating-a-program)
 
