@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ Mise en place d'une série d'améliorations et de correctifs afin d'optimiser le
   </tr> 
   <tr> 
    <td> Amélioration apportée aux landing pages : Google reCAPTCHA<br /> </td> 
-   <td> <p>Utilisez Google reCAPTCHA pour empêcher tout spam sur vos landing pages sans intervention de vos clients.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">documentation détaillée</a>.</p></td> 
+   <td> <p>Utilisez Google reCAPTCHA pour empêcher tout spam sur vos landing pages sans intervention de vos clients.</p><p>Pour plus d'informations, consultez la <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">documentation détaillée</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
