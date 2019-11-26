@@ -11,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ Le processus de configuration du mécanisme de double opt-in commence par la cr�
 
 Pour créer et configurer cette landing page, vous devez :
 
-1. Concevoir une [landing page](../../channels/using/about-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **CONFIRMATION**.
+1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **CONFIRMATION**.
 
    Si vous devez faire appel à des [services](../../audiences/using/about-subscriptions.md), vous pouvez également utiliser le modèle **[!UICONTROL Abonnement (abo)]**.
 
@@ -67,7 +67,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [Testez et publiez](../../channels/using/sharing-a-landing-page.md) la landing page.
+1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
 ## Etape 2 : création de l'email de confirmation {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ Vous devez créer la landing page d'acquisition initiale. Ce formulaire d'opt-in
 
 Pour créer et configurer cette landing page, vous devez :
 
-1. Concevoir une [landing page](../../channels/using/about-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
+1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page : dans la section **[!UICONTROL Traitement]** &gt; **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [Testez et publiez](../../channels/using/sharing-a-landing-page.md) la landing page.
+1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
 Le mécanisme de double opt-in est maintenant configuré. Vous pouvez exécuter et tester la procédure de bout en bout, en commençant par l'URL publique de cette landing page **[!UICONTROL ACQUISITION]**. Cette URL est affichée dans le tableau de bord de la landing page.
