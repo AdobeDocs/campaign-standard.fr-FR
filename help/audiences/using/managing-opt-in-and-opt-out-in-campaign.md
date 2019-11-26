@@ -11,8 +11,8 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ Vous pouvez également configurer une landing page **[!UICONTROL Blackliste]**, 
 
 >[!NOTE]
 >
->Les landing pages peuvent également être utilisées pour activer l'inscription aux services. Voir à ce propos [cette page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>Les landing pages peuvent également être utilisées pour activer l'inscription aux services. Voir à ce propos [cette page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. Créez une landing page **[!UICONTROL Acquisition de profils]** (consulter [cette section](../../channels/using/about-landing-pages.md)).
+1. Créez une landing page **[!UICONTROL Acquisition de profils]** (consulter [cette section](../../channels/using/getting-started-with-landing-pages.md)).
 1. Ajoutez une case à cocher au contenu de la landing page pour chaque canal souhaité, et reliez-la au champ correspondant de la base de données de Campaign.
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ Vous pouvez également configurer une landing page **[!UICONTROL Blackliste]**, 
 
 ### Configuration d'une landing page pour désactiver toutes les diffusions {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Pour que les utilisateurs puissent s'inscrire ou se désinscrire de toutes les diffusions, vous devez créer et publier une landing page **[!UICONTROL Blackliste]**. Pour plus d'informations sur la création de landing pages, consultez [cette page](../../channels/using/about-landing-pages.md).
+Pour que les utilisateurs puissent s'inscrire ou se désinscrire de toutes les diffusions, vous devez créer et publier une landing page **[!UICONTROL Blackliste]**. Pour plus d'informations sur la création de landing pages, consultez [cette page](../../channels/using/getting-started-with-landing-pages.md).
 
 Lorsqu'un utilisateur clique sur le lien de la landing page, l'option **[!UICONTROL Ne plus contacter (tous canaux)]** du profil est automatiquement sélectionnée.
 
