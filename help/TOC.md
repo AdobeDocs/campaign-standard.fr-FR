@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
-      + [A propos des landing pages](channels/using/about-landing-pages.md)
-      + [Etapes principales pour configurer une landing page](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [A propos des landing pages](channels/using/getting-started-with-landing-pages.md)
+      + [Etapes principales pour configurer une landing page](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
+      + [Configuration d’une page d’entrée](channels/using/configuring-landing-page.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
       + [Gérer des données de formulaire de landing page](channels/using/managing-landing-page-form-data.md)
-      + [Partager une landing page](channels/using/sharing-a-landing-page.md)
+      + [Test et publication d’une page d’entrée](channels/using/testing-publishing-landing-page.md)
       + [Configuration d'un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
 + Concevoir un contenu d'email {#designing-content}
    + [Concepteur d'emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
