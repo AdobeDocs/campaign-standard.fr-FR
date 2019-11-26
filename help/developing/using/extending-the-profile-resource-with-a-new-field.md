@@ -11,8 +11,8 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ Votre nouveau champ de ressource est maintenant prêt à être utilisé et cibl�
 
 ## Etape 4 : Mettre à jour et cibler les profils avec un workflow {#step-4--update-and-target-profiles-with-a-workflow}
 
-Pour mettre à jour les profils avec les données du nouveau champ personnalisé, vous pouvez créer une landing page à l'aide du modèle **[!UICONTROL Acquisition de profils]**. Pour plus d'informations sur les landing pages, consultez cette [page](../../channels/using/about-landing-pages.md).
+Pour mettre à jour les profils avec les données du nouveau champ personnalisé, vous pouvez créer une landing page à l'aide du modèle **[!UICONTROL Acquisition de profils]**. Pour plus d'informations sur les landing pages, consultez cette [page](../../channels/using/getting-started-with-landing-pages.md).
 
 Nous voulons ici cibler dans un workflow les profils qui ne renseignent pas ce champ. Ils recevront un email leur demandant de mettre à jour leur profil pour recevoir des newsletters et des offres personnalisées. Chaque profil recevra ensuite une newsletter personnalisée en fonction de ses centres d'intérêts.
 
