@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ La fonctionnalité des profils client intègre l'ensemble de vos données client
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign propose différents mécanismes pour l'acquisition de profils : la collecte de données en ligne via des [landing pages](../../channels/using/about-landing-pages.md), des [mécanismes d'import automatisé](../../automating/using/about-data-import-and-export.md) ou manuel, la [saisie directe](../../audiences/using/creating-profiles.md) dans l'interface Adobe Campaign, ainsi que la création en masse via les [API Campaign](../../api/using/about-campaign-standard-apis.md).
+Adobe Campaign propose différents mécanismes pour l'acquisition de profils : la collecte de données en ligne via des [landing pages](../../channels/using/getting-started-with-landing-pages.md), des [mécanismes d'import automatisé](../../automating/using/about-data-import-and-export.md) ou manuel, la [saisie directe](../../audiences/using/creating-profiles.md) dans l'interface Adobe Campaign, ainsi que la création en masse via les [API Campaign](../../api/using/about-campaign-standard-apis.md).
 
 **Rubriques connexes :**
 
