@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -24,7 +24,7 @@ Découvrez les bonnes pratiques en matière de conception de diffusion et d'envo
 * **[Concepteur d'email](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 Consultez la documentation réorganisée relative au concepteur d'email.
 
-* **[Landing pages](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>
 Découvrez comment configurer une landing page.
 
 [Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
