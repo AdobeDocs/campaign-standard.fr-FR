@@ -12,8 +12,8 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -84,12 +84,12 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 
 Notez également que les adresses IP publiques à partir desquelles vous tentez d'initier la connexion SFTP doivent être whitelistées sur l'instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l'authentification peuvent être demandés par le biais d'un [ticket d'assistance](https://support.neolane.net).
 
-Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d'informations, consultez la [documentation du Panneau de contrôle](https://helpx.adobe.com/fr/campaign/kb/control-panel-sftp.html).
+Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d'informations, consultez la [documentation du Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
 
 >[!NOTE]
 >
 >Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
-Vérifiez [ici](https://helpx.adobe.com/fr/campaign/kb/control-panel-faq.html#IdentifiantdelorganisationIMS) si votre instance est hébergée sur AWS.
+Vérifiez [ici](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID) si votre instance est hébergée sur AWS.
 
 ## Compte externe Amazon S3 {#amazon-s3-external-account}
 
@@ -134,7 +134,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 Le mécanisme Google reCAPTCHA vous permet de protéger votre landing page du spam et des abus causés par les bots. Il ne présente pas d'intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. Pour inscrire votre site, consultez cette [page](https://www.google.com/recaptcha/admin/create). Vous devez choisir le type reCAPTCHA version 3.
 
-Pour ajouter le Google reCAPTCHA version 3 à votre landing page, vous devez tout d'abord le configurer dans votre compte externe. Pour plus d'informations sur la façon de l'ajouter à votre landing page, consultez [cette section](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha).
+Pour ajouter le Google reCAPTCHA version 3 à votre landing page, vous devez tout d'abord le configurer dans votre compte externe. Pour plus d'informations sur la façon de l'ajouter à votre landing page, consultez [cette section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
 Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suivants :
 
@@ -146,4 +146,3 @@ Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suiv
    Une valeur de **[!UICONTROL Seuil]** de 0.0 signifie qu'il s'agit vraisemblablement d'un bot, tandis qu'une valeur de 1.0 représente une bonne interaction. Par défaut, vous pouvez utiliser un seuil de 0.5.
 
 ![](assets/external_accounts_3.png)
-
