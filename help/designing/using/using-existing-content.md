@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 **Rubriques connexes :**
 
 * [Créer un email](../../channels/using/creating-an-email.md)
-* [Gestion des landing pages](../../channels/using/about-landing-pages.md)
+* [Gestion des landing pages](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editer des contenus existants avec le Concepteur d'email{#editing-existing-contents-with-the-email-designer}
 
@@ -106,7 +106,7 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
 **Rubrique connexe :**
 
-Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
+Vidéo [Importer du contenu depuis une URL](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent)
 
 ### Récupérer automatiquement du contenu depuis une URL au moment de la préparation {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
