@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -365,6 +365,7 @@ source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
    + [Gestion de la confidentialité](api/using/privacy-management.md)
    + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
    + [Gestion des workflows](api/using/managing-workflows.md)
+   + [Interaction avec des ressources personnalisées](api/using/interacting-with-custom-resources.md)
    + [Gestion des unités organisationnelles](api/using/managing-organizational-units.md)
    + [Gestion des unités géographiques](api/using/managing-geographical-units.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
