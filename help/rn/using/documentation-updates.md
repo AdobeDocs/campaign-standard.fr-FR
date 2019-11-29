@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ Le jeu de documentation des API a été intégré à la documentation de Campaig
 Le guide de prise en main de la création d’un courrier électronique personnalisé a été déplacé et mis à jour. [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 Mise à jour du guide de prise en main des bonnes pratiques de diffusion –  [En savoir plus](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+Le modèle de données a été intégré à la documentation de Campaign Standard. [En savoir plus](../../developing/using/datamodel-audience.md)
+
+Le nouveau point de terminaison API **/customResources** a été ajouté à la documentation de l’API.[En savoir plus](../../api/using/interacting-with-custom-resources.md)
 
 ## Version 19.4 - Octobre 2019  {#release-19-4---october-2019}
 
