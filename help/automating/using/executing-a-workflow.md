@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ Lorsqu'une transition est ouverte, vous pouvez modifier son **[!UICONTROL Libell
 
 L'API REST vous permet de **démarrer**, **mettre en pause**, **reprendre** et **arrêter** un workflow.
 
-Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](../../api/using/managing-workflows.md)
+Vous trouverez plus d'informations et d'exemples d'appels REST dans la [documentation de l'API.](../../api/using/controlling-a-workflow.md)
 
 ## Cycle de vie {#life-cycle}
 
