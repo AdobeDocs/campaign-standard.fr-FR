@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -359,13 +359,32 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
          + [Comptage](api/using/counting.md)
          + [Pagination](api/using/pagination.md)
       + [Ressources personnalisées](api/using/custom-resources.md)
-   + [Gestion des profils](api/using/managing-profiles.md)
-   + [Gestion des services et des abonnements](api/using/managing-services-and-subscriptions.md)
-   + [Interaction avec l’historique marketing](api/using/interacting-with-marketing-history.md)
-   + [Gestion de la confidentialité](api/using/privacy-management.md)
-   + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
-   + [Gestion des workflows](api/using/managing-workflows.md)
    + [Interaction avec des ressources personnalisées](api/using/interacting-with-custom-resources.md)
-   + [Gestion des unités organisationnelles](api/using/managing-organizational-units.md)
-   + [Gestion des unités géographiques](api/using/managing-geographical-units.md)
+   + Gestion de profils {#managing-profiles}
+      + [Récupération des profils](api/using/retrieving-profiles.md)
+      + [Mise à jour des profils](api/using/updating-profiles.md)
+      + [Créer un profil](api/using/creating-profiles.md)
+   + Gestion des services et des abonnements {#managing-services-and-subscriptiopns}
+      + [Créer un service](api/using/creating-a-service.md)
+      + [Récupération des abonnements](api/using/retrieving-subscriptions.md)
+      + [Effectuer des abonnements](api/using/perform-subscriptions.md)
+      + [Suppression des abonnements](api/using/deleting-subscriptions.md)
+   + [Interaction avec l’historique marketing](api/using/interacting-with-marketing-history.md)
+   + Gestion de la confidentialité {#privacy-management}
+      + [Création d’une demande de confidentialité](api/using/creating-a-privacy-request.md)
+      + [Surveillance d’une demande de confidentialité](api/using/monitoring-a-privacy-request.md)
+      + [Récupération des fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
+      + [Gestion de l’exclusion de l’ACCP](api/using/managing-ccpa-opt-out.md)
+   + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
+   + Gestion des workflows {#managing-workflows}
+      + [Contrôle d’un processus](api/using/controlling-a-workflow.md)
+      + [Déclenchement d’une activité de signal](api/using/triggering-a-signal-activity.md)
+   + Gestion des unités organisationnelles {#managing-organizational-units}
+      + [Récupération de l’unité d’organisation d’un profil](api/using/retrieving-an-organizational-unit.md)
+      + [Mise à jour de l’unité d’organisation d’un profil](api/using/updating-profile-organizational-unit.md)
+      + [Mise à jour des attributs d'une unité d'organisation](api/using/updating-organizational-unit-attributes.md)
+   + Gestion des unités géographiques {#managing-geographical-units}
+      + [Récupération de l’unité géographique d’un profil](api/using/retrieving-a-geographical-unit.md)
+      + [Mise à jour de l’unité géographique d’un profil](api/using/updating-a-geographical-unit.md)
+      + [Mise à jour des attributs d’une unité géographique](api/using/updating-geographical-unit-attributes.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
