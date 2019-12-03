@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -89,7 +89,7 @@ Votre jeton n’est pas valide (appel IMS incorrect utilisé pour générer un j
 
 * **Je ne vois pas mon profil après la création**
 
-Selon la configuration de l’instance, le profil créé doit être associé à une **orgUnit**. Pour comprendre comment ajouter ce champ à votre création, consultez [cette section](../../api/using/managing-profiles.md).
+Selon la configuration de l’instance, le profil créé doit être associé à une **orgUnit**. Pour comprendre comment ajouter ce champ à votre création, consultez [cette section](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
