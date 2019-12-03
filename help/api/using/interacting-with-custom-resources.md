@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -46,4 +46,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Le point de fin et les processus de l’API de confidentialité (/privacy/privacyTool) ne gèrent pas les ressources personnalisées qui ne sont pas liées à l’entité de profil.
->Vous aurez la responsabilité de gérer et de nettoyer les informations d’identification personnelle de ces ressources personnalisées. Pour plus d'informations sur l'outil de confidentialité, [cliquez ici](../../api/using/privacy-management.md).
+>Vous aurez la responsabilité de gérer et de nettoyer les informations d’identification personnelle de ces ressources personnalisées. Pour plus d'informations sur l'outil de confidentialité, [cliquez ici](../../api/using/creating-a-privacy-request.md).
+
