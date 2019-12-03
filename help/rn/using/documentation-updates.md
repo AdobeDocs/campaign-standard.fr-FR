@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ Ajout d'une nouvelle section. Elle fournit un aperçu des différentes méthodes
 
 Une nouvelle section décrivant l'association du style au Concepteur d'email a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 
-Des informations relatives à la confidentialité ont été ajoutées à la documentation des API [Cliquez ici](../../api/using/privacy-management.md)
+Des informations relatives à la confidentialité ont été ajoutées à la documentation des API [Cliquez ici](../../api/using/creating-a-privacy-request.md)
 
 ## Mises à jour de la documentation - Octobre 2019 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-7}
 
-L'API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/privacy-management.md)
+L'API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/creating-a-privacy-request.md)
 
 Ajout d'informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d'être blacklistés – [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ Améliorations des notifications push – En savoir plus [ici](../../channels/
 
 Diffusions optimisées avec les fuseaux horaires – [En savoir plus](../../automating/using/scheduler.md)
 
-Déclenchement de l'activité Signal via l'API – [En savoir plus](../../api/using/managing-workflows.md)
+Déclenchement de l'activité Signal via l'API – [En savoir plus](../../api/using/triggering-a-signal-activity.md)
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ Mise à jour de la [section](https://helpx.adobe.com/campaign/kb/configuring-app
 
 Mise à jour de la documentation sur les SMS avec l'ajout d'une clarification à la section [Réponses automatiques des SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-Nouvelle section consacrée à la gestion des workflows via l'API – [En savoir plus](../../api/using/managing-workflows.md)
+Nouvelle section consacrée à la gestion des workflows via l'API – [En savoir plus](../../api/using/controlling-a-workflow.md)
 
 Nouvelle section consacrée aux clés primaires et à l'utilisation d'un identifiant d'entreprise comme clé dans l'API – [En savoir plus](../../api/using/about-campaign-standard-apis.md)
 
