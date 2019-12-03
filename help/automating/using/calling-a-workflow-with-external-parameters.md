@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ Pour appeler un workflow avec des paramètres, la première étape consiste à l
 
 ## Définir les paramètres lors de l'appel du workflow {#defining-the-parameters-when-calling-the-workflow}
 
-Cette section explique comment définir des paramètres lors de l'appel d'un workflow. Pour plus d'informations sur l'exécution de cette opération à partir d'un appel API, consultez la [documentation des API REST](../../api/using/managing-workflows.md).
+Cette section explique comment définir des paramètres lors de l'appel d'un workflow. Pour plus d'informations sur l'exécution de cette opération à partir d'un appel API, consultez la [documentation des API REST](../../api/using/triggering-a-signal-activity.md).
 
 Avant de définir les paramètres, vérifiez les éléments suivants :
 
@@ -223,7 +223,7 @@ Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec 
 
 ### Etape 1 : configurer l'appel API {#step-1--configuring-the-api-call}
 
-Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d'informations sur la syntaxe de l'appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/managing-workflows.md).
+Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d'informations sur la syntaxe de l'appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
 Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dessous :
 
