@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Chaque service est fourni avec :
 * des **mécanismes de confirmation** d'inscription et/ou de désinscription.
 * un suivi de l'**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-services-and-subscriptions.md) .
+Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-a-service.md) .
