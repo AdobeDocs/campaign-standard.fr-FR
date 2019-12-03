@@ -1,0 +1,173 @@
+---
+title: Suppression des abonnements
+description: Découvrez comment supprimer des abonnements avec des API.
+page-status-flag: never-activated
+uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: developing
+content-type: reference
+topic-tags: campaign-standard-apis
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+
+---
+
+
+# Suppression des abonnements {#mdeleting-subscriptions}
+
+## Suppression d’un abonnement de service pour un profil spécifique
+
+C'est une procédure en trois étapes.
+
+1. Récupérez l’URL d’abonnement pour le profil souhaité.
+1. Exécutez une requête GET sur l’URL d’abonnement.
+1. Exécutez une requête DELETE sur l’URL de service souhaitée.
+
+Si la demande de suppression aboutit, l’état de la réponse est 204 Aucun contenu.
+
+<br/>
+
+***Exemple de requête***
+
+Les exemples de charge ci-dessous montrent comment désabonner un profil d’un service. Commencez par exécuter une requête GET pour récupérer le profil.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Elle renvoie l’URL d’abonnement du profil.
+
+```
+  {
+    ...
+    "postalAddress":...,
+    "preferredLanguage": "none",
+    "subscriptions": {
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions/"
+    },
+  }
+```
+
+Exécutez une requête GET sur l’URL d’abonnement.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Il renvoie la liste des abonnements pour le profil sélectionné, avec une URL pour chaque service souscrit.
+
+```
+...
+"service": {
+  "PKey": "<PKEY>",
+  "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+  "label": "Sport Newsletter",
+  "name": "SVC1",
+  "title": "Sport Newsletter (SVC1)"
+},
+...
+```
+
+Exécutez une requête DELETE sur l’URL de service souhaitée.
+
+```
+-X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+<!-- + réponse -->
+
+## Suppression d’un abonnement de service pour un profil spécifique
+
+C'est une procédure en trois étapes.
+
+1. Récupérez le service souhaité et son URL d’abonnement.
+1. Effectuez une requête GET sur l’URL d’abonnement pour récupérer tous les abonnements de profils.
+1. Exécutez une requête DELETE sur l’URL d’abonnement au profil souhaité.
+
+Si la demande de suppression aboutit, l’état de la réponse est 204 Aucun contenu.
+
+<br/>
+
+***Exemple de requête***
+
+Récupérez l’enregistrement du service.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Elle renvoie l’URL d’abonnement du service.
+
+```
+{
+  ...
+  "messageType": "email",
+  "mode": "newsletter",
+  "name": "SVC3",
+  "subScenarioEventType": "subscriptionEvent",
+  "subscriptions": {
+    "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/"
+  },
+  "targetResource": "profile",
+  ...
+},
+```
+
+Exécutez une requête GET sur l’URL d’abonnement.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+Il renvoie la liste des abonnements pour le service sélectionné, avec une URL (href) pour chaque abonnement de profil.
+
+```
+{
+  "PKey": "<PKEY>",
+  "created": "2019-03-26 08:58:04.764Z",
+  "email": "",
+  "expirationDate": "",
+  "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY>",
+  "metadata": "subscriptionRcp",
+  "service": ...,
+  "serviceName": "SVC3",
+  "subscriber": ...,
+  ...
+}
+```
+
+Exécutez une requête DELETE sur l’URL d’abonnement au profil souhaité.
+
+```
+-X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+<!-- + réponse -->
