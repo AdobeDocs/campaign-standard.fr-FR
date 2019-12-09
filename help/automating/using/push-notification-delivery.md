@@ -53,7 +53,7 @@ La préparation du message est déclenchée selon les paramètres d'exécution d
 1. Sélectionnez le mode d'envoi de la notification push :
 
    * **[!UICONTROL Notification unique]** : la notification push est envoyée une seule fois. Vous pouvez définir à cet endroit si vous souhaitez ou non ajouter une transition en sortie de l'activité. Les différents types de transition sont détaillés à l'étape 7 de cette procédure.
-   * **[!UICONTROL Notification récurrente]** : la notification push est envoyée plusieurs fois, à une fréquence définie dans une activité **[!UICONTROL Planificateur.]** Choisissez la période d'agrégation des envois. Cela permet de regrouper tous les envois ayant eu lieu dans la période définie dans une seule notification push, aussi appelée **exécution récurrente** et accessible depuis la liste des activités marketing de l'application.
+   * **[!UICONTROL Notification récurrente]** : la notification push est envoyée plusieurs fois, à une fréquence définie dans une activité **[!UICONTROL Planificateur]**. Choisissez la période d'agrégation des envois. Cela permet de regrouper tous les envois ayant eu lieu dans la période définie dans une seule notification push, aussi appelée **exécution récurrente** et accessible depuis la liste des activités marketing de l'application.
 
       Par exemple, pour une notification récurrente d'anniversaire, envoyée chaque jour, vous pouvez choisir d'agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que la notification est envoyée chaque jour.
 
@@ -71,11 +71,11 @@ Lorsque vous ouvrez à nouveau l'activité par la suite, vous accédez au tablea
 
 Par défaut, le démarrage d'un workflow de diffusion déclenche uniquement la préparation des messages. L'envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques {#remarks}
+## Remarques  {#remarks}
 
 Les diffusions créées à partir d'un workflow sont accessibles dans la liste des activités marketing de l'application. Vous pouvez visualiser l'état d'exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de la notification push vous permettent d'accéder directement aux éléments liés (workflow, campagne, etc.).
 
-Depuis les diffusions parentes, accessibles depuis la liste des activités marketing, vous pouvez visualiser l'ensemble des envois ayant été réalisés (en fonction de la période d'agrégation définie lors du paramétrage de l'activité **[!UICONTROL Notification push]**.) Pour cela, accédez au détail du bloc **[!UICONTROL Déploiement]** de la diffusion parente en sélectionnant ![](assets/wkf_dlv_detail_button.png).
+Depuis les diffusions parentes, accessibles depuis la liste des activités marketing, vous pouvez visualiser l'ensemble des envois ayant été réalisés (en fonction de la période d'agrégation définie lors du paramétrage de l'activité **[!UICONTROL Notification push]**). Pour cela, accédez au détail du bloc **[!UICONTROL Déploiement]** de la diffusion parente en sélectionnant ![](assets/wkf_dlv_detail_button.png).
 
 ## Envoi d'une notification push récurrente avec un workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
@@ -98,7 +98,7 @@ Dans cet exemple, une notification push personnalisée est envoyée chaque premi
    * Placez l'élément **Abonnements à une application** dans l'espace de travail. Choisissez **Existe** et sélectionnez l'application mobile à utiliser.
    * Sélectionnez l'email que vous avez envoyé à vos clients.
    * Placez l'élément **Logs de diffusion (logs)** dans l'espace de travail, puis sélectionnez **Existe** pour cibler tous les clients qui ont reçu l'email.
-   * Placez l'élément **Tracking (tracking)** dans l'espace de travail, puis sélectionnez **N'existe pas** pour cibler tous les clients qui n'ont pas ouvert l'email.
+   * Placez l'élément **Logs de tracking (tracking)** dans l'espace de travail, puis sélectionnez **N'existe pas** pour cibler tous les clients qui n'ont pas ouvert l'email.
 
       ![](assets/wkf_push_example_2.png)
 
