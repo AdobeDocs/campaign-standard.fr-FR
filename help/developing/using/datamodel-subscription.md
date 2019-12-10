@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,15 +9,15 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
 
 
-# Abonnement, événement (nms:rtEvent)
+# Evénement d'abonnement (nms:rtEvent)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
     <tr>
@@ -28,13 +28,13 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>PKey</td>
-        <td>Identifiant principal de la ressource</td>
+        <td>Main resource ID</td>
         <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
-        <td>Contexte de l'événement</td>
+        <td>Event context</td>
         <td>item </td>
         <td> </td>
     </tr>
@@ -46,26 +46,26 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>Format des emails</td>
-        <td>énumération (octet) </td>
+        <td>Email format</td>
+        <td>enumeration (byte) </td>
         <td>
             <ul>
-            <li>Texte - Texte - 1</li>
+            <li>Text - text - 1</li>
             <li>HTML - html - 2</li>
-            <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
-            <li>Inconnu - inconnu - 0</li>
+            <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+            <li>Unknown - unknown - 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>ID d’événement archivé</td>
+        <td>Archived event ID</td>
         <td>integer </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Numéro de mobile</td>
+        <td>Mobile number</td>
         <td>string (32)</td>
         <td> </td>
     </tr>
@@ -79,7 +79,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## Filtres
 
-Par courriel (par courriel)
+Par email (byEmail)
 
 <table>
     <tr>
@@ -92,7 +92,7 @@ Par courriel (par courriel)
     </tr>
 </table>
 
-Par état ou type (byStatusOrType)
+Par statut ou type (byStatusOrType)
 
 <table>
         <tr>
