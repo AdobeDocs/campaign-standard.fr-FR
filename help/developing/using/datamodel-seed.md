@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,15 +9,15 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
 
 
-# Membre de semences (nms:seedMember)
+# Membre de contrôle (nms:seedMember)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
                <tr>
@@ -28,25 +28,25 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Identifiant principal de la ressource</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>pays (pays)</td>
-                  <td>Pays</td>
+                  <td>country (countries)</td>
+                  <td>Country</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Créé</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Créé par</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -64,7 +64,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>Rendu des emails</td>
+                  <td>Email rendering</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -76,37 +76,37 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Entité géographique</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Est une ressource externe</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Dernière modification</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>emplacement</td>
-                  <td>Localisation</td>
+                  <td>location</td>
+                  <td>Location</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Identifiant Marketing Cloud</td>
+                  <td>Marketing Cloud ID</td>
                   <td>string (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Application mobile</td>
+                  <td>Mobile application</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -117,62 +117,62 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Modification par</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>id</td>
+                  <td>ID</td>
                   <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_Recipient</td>
-                  <td>Profil</td>
+                  <td>nms_recipient</td>
+                  <td>Profile</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>Evénement</td>
+                  <td>Event</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Entité organisationnelle</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>phone</td>
-                  <td>Téléphone</td>
+                  <td>Phone</td>
                   <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>preuve</td>
-                  <td>Bon à tirer</td>
+                  <td>proof</td>
+                  <td>Proof</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotification</td>
-                  <td>notification push</td>
+                  <td>Push notification</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>registerToken</td>
-                  <td>Jeton d'enregistrement</td>
+                  <td>registrationToken</td>
+                  <td>Registration Token</td>
                   <td>string (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sampleData</td>
-                  <td>Exemple de données</td>
+                  <td>Sample data</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -184,7 +184,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>stateLink (state)</td>
-                  <td>Etat</td>
+                  <td>State</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -195,20 +195,20 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>miniature</td>
-                  <td>Miniature</td>
+                  <td>thumbnail</td>
+                  <td>Thumbnail</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Profil de test</td>
+                  <td>Test profile</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>piège</td>
-                  <td>Piège</td>
+                  <td>trap</td>
+                  <td>Trap</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -216,7 +216,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## Filtres
 
-Par type d’événement (byEventType)
+Par type d'événement (byEventType)
 
 <table>
         <tr>
@@ -229,7 +229,7 @@ Par type d’événement (byEventType)
         </tr>
     </table>
 
-Par nom ou étiquette (parTexte)
+Par nom ou libellé (byText)
 
 <table>
         <tr>
@@ -237,12 +237,12 @@ Par nom ou étiquette (parTexte)
         <th>Type</th>
         </tr>
         <tr>
-        <td>texte</td>
+        <td>text</td>
         <td>string</td>
         </tr>
     </table>
 
-Par utilisation (byUsage)
+Par usage (byUsage)
 
 <table>
         <tr>
@@ -250,7 +250,7 @@ Par utilisation (byUsage)
         <th>Type</th>
         </tr>
         <tr>
-        <td>piège</td>
+        <td>trap</td>
         <td>boolean</td>
         </tr>
         <tr>
@@ -258,12 +258,12 @@ Par utilisation (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>preuve</td>
+        <td>proof</td>
         <td>boolean</td>
         </tr>
     </table>
 
-Profil de test (profil)
+Profil de test (profile)
 
 <table>
     <tr>
