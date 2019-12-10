@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,7 +9,7 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 # Programme (nms:program)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
                <tr>
@@ -28,31 +28,31 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Identifiant principal de la ressource</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>activités</td>
-                  <td>Activités</td>
+                  <td>activities</td>
+                  <td>Activities</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildingIn</td>
-                  <td>Objet d’application intégré</td>
+                  <td>builtIn</td>
+                  <td>Built-in application object</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Créé</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Créé par</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -64,119 +64,119 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>end</td>
-                  <td>Date de fin</td>
+                  <td>End date</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Entité géographique</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Est une ressource externe</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modèle</td>
+                  <td>Template</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Dernière modification</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
-                  <td>Statut de l'exécution</td>
-                  <td>énumération (chaîne) (255)</td>
+                  <td>Execution status</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
-                        <li>En cours - commencé - commencé</li>
-                        <li>Edition - édition - édition</li>
-                        <li>Terminé - terminé - terminé</li>
-                        <li>Avertissement - avertissement</li>
-                        <li>Erroné - erreur - erreur</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>In progress - started - started</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finished - finished - finished</li>
+                        <li>Warning - warning - warning</li>
+                        <li>Erroneous - error - error</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Modification par</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>id</td>
+                  <td>ID</td>
                   <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Entité organisationnelle</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
-                  <td>Programme parent</td>
+                  <td>Parent program</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>Rapports en temps réel</td>
+                  <td>Realtime Reports</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>start</td>
-                  <td>Date de début</td>
+                  <td>Start date</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>status</td>
                   <td>Status</td>
-                  <td>énumération (octet) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Démarré - démarré - 1</li>
-                        <li>Modification - édition - 0</li>
-                        <li>Terminé - terminé - 2</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Started - started - 1</li>
+                        <li>Editing - edition - 0</li>
+                        <li>Finished - finished - 2</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>template (program)</td>
-                  <td>Modèle de programme</td>
+                  <td>Program template</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>miniature</td>
-                  <td>Miniature</td>
+                  <td>thumbnail</td>
+                  <td>Thumbnail</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Programme</td>
+                  <td>Program</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -184,7 +184,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## Filtres
 
-Par état logique (parLogicalStatus)
+Par état logique (byLogicalStatus)
 
 <table>
     <tr>
@@ -192,12 +192,12 @@ Par état logique (parLogicalStatus)
     <th>Type</th>
     </tr>
     <tr>
-    <td>état</td>
+    <td>state</td>
     <td>enumeration</td>
     </tr>
 </table>
 
-Par nom ou étiquette (parTexte)
+Par nom ou libellé (byText)
 
 <table>
     <tr>
@@ -205,12 +205,12 @@ Par nom ou étiquette (parTexte)
     <th>Type</th>
     </tr>
     <tr>
-    <td>texte</td>
+    <td>text</td>
     <td>string</td>
     </tr>
 </table>
 
-Par période (par période)
+Par période (byPeriod)
 
 <table>
     <tr>
@@ -227,7 +227,7 @@ Par période (par période)
     </tr>
 </table>
 
-Inclure les livraisons continues à partir d’une liste hétérogène (avec Continuous)
+Inclure les diffusions au fil de l'eau depuis une liste hétérogène (withContinuous)
 
 <table>
     <tr>
@@ -240,7 +240,7 @@ Inclure les livraisons continues à partir d’une liste hétérogène (avec Con
     </tr>
 </table>
 
-Inclure les sous-programmes (avecParent)
+Inclure les sous-programmes (withParent)
 
 <table>
         <tr>
@@ -253,7 +253,7 @@ Inclure les sous-programmes (avecParent)
         </tr>
     </table>
 
-Seuls les parents éligibles (parents éligibles)
+Uniquement les parents éligibles (eligibleParents)
 
 <table>
     <tr>
@@ -261,12 +261,12 @@ Seuls les parents éligibles (parents éligibles)
     <th>Type</th>
     </tr>
     <tr>
-    <td>programme</td>
+    <td>program</td>
     <td>link</td>
     </tr>
 </table>
 
-Planifiée pour la période donnée (parPlanning)
+Planifié à la période donnée (byPlanning)
 
 <table>
     <tr>
@@ -283,7 +283,7 @@ Planifiée pour la période donnée (parPlanning)
     </tr>
 </table>
 
-Présente pendant une période donnée (parCalendar)
+Présent durant la période donnée (byCalendar)
 
 <table>
     <tr>
