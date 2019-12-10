@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Configuration d'un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
 + Concevoir un contenu d'email {#designing-content}
    + [Concepteur d'emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Démarrage rapide](designing/using/quick-start.md)
-   + [Utilisation et recommandations](designing/using/overview.md)
+   + [Commencer avec le concepteur de courrier électronique](designing/using/quick-start.md)
    + [Définition de l'objet et de l'expéditeur](designing/using/subject-line.md)
-   + [Conception d'emails à partir de zéro](designing/using/designing-from-scratch.md)
-   + [Conception d'emails à l'aide de contenu existant](designing/using/using-existing-content.md)
-   + [Conception d'emails l'aide de contenu réutilisable](designing/using/using-reusable-content.md)
-   + [Conception d'emails multi-solutions](designing/using/using-integrations.md)
-   + [Personnalisation ](designing/using/personalization.md)
-   + [Texte simple et modes HTML](designing/using/plain-text-html-modes.md)
+   + Concevoir un contenu d'email{#designing-email-content}
+      + [Conception d'emails à partir de zéro](designing/using/designing-from-scratch.md)
+      + [Conception d'emails à l'aide de contenu existant](designing/using/using-existing-content.md)
+      + [Conception d'emails l'aide de contenu réutilisable](designing/using/using-reusable-content.md)
+      + [Conception de courriers électroniques à l’aide d’intégrations multisolutions](designing/using/using-integrations.md)
+      + [Modification du texte brut, du code HTML et des courriers électroniques mobiles](designing/using/plain-text-html-modes.md)
+   + [Personnalisation du contenu des courriers électroniques](designing/using/personalization.md)
    + [Gestion des styles d'email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Recevoir des alertes en cas d'échec](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprendre les diffusions en échec](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
+   + Gestion de la délivrabilité {#managing-deliverability}
+      + [A propos de la délivrabilité](sending/using/about-deliverability.md)
+      + [Démarrage d’une nouvelle plateforme](sending/using/starting-new-platform.md)
+      + [Contrôle du contenu des courriers électroniques](sending/using/control-email-content.md)
+      + [Améliorer votre réputation](sending/using/improving-reputation.md)
+      + [Listes blanches](sending/using/whitelists.md)
+      + [Recommandations techniques](sending/using/technical-recommendations.md)
+      + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
+      + [Résolution des problèmes](sending/using/troubleshooting.md)
 + Reporting {#reporting}
    + Reporting {#about-reporting}
       + [Rapports dynamiques](reporting/using/about-dynamic-reports.md)
@@ -376,7 +385,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [Récupération des fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
       + [Gestion de l’exclusion de l’ACCP](api/using/managing-ccpa-opt-out.md)
    + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
-   + Gestion des workflows {#managing-workflows}
+   + Gestion des processus {#managing-workflows}
       + [Contrôle d’un processus](api/using/controlling-a-workflow.md)
       + [Déclenchement d’une activité de signal](api/using/triggering-a-signal-activity.md)
    + Gestion des unités organisationnelles {#managing-organizational-units}
