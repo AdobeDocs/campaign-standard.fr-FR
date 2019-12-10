@@ -1,8 +1,8 @@
 ---
-title: '"Cas d''utilisation du processus : Groupe de contrôle"'
-seo-title: '"Cas d''utilisation du processus : Groupe de contrôle"'
-description: '"Cas d''utilisation du processus : Groupe de contrôle"'
-seo-description: '"Cas d''utilisation du processus : Groupe de contrôle"'
+title: '"Cas pratique de workflow : groupe témoin"'
+seo-title: '"Cas pratique de workflow : groupe témoin"'
+description: '"Cas pratique de workflow : groupe témoin"'
+seo-description: '"Cas pratique de workflow : groupe témoin"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -14,137 +14,137 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2912e3b75b817347b832f9c89ca2320868cbc355
 
 ---
 
 
-# Cas d’utilisation du flux de travail : Création d’un groupe de contrôle {#building-control-group}
+# Cas pratique de workflow : création d'un groupe témoin {#building-control-group}
 
-Pour mesurer l’impact d’une diffusion, vous pouvez exclure certains profils de votre cible afin qu’ils ne reçoivent pas un message donné. Ce groupe de contrôle peut être utilisé pour comparer le comportement de la population cible qui a reçu le message.
+Pour mesurer l'impact d'une diffusion, vous souhaiterez peut-être exclure certains profils de votre cible afin qu'ils ne reçoivent pas un message donné. Ce groupe témoin peut être utilisé pour comparer le comportement de la population cible qui a reçu le message.
 
-Pour ce faire dans Adobe Campaign Standard, vous pouvez créer un flux de travaux comprenant les activités suivantes :
-* Activité de requête pour cibler une population donnée.
-* Activité de segmentation pour isoler un groupe de contrôle aléatoire de cette population.
-* Activité de remise de courrier électronique pour envoyer un message à la cible principale.
-* Une activité de données Update pour mettre à jour les profils qui ont été exclus de la cible (le groupe de contrôle aléatoire).
+Pour procéder ainsi dans Adobe Campaign Standard, vous pouvez créer un workflow comprenant les activités suivantes :
+* une activité Requête pour cibler une population donnée ;
+* une activité Segmentation pour isoler un groupe témoin aléatoire de cette population ;
+* une activité Diffusion Email pour envoyer un message à la cible principale ;
+* une activité Mise à jour de données pour mettre à jour les profils qui ont été exclus de la cible (le groupe témoin aléatoire).
 
 ![](assets/wkf_control-group.png)
 
-## Extension de la ressource de profil {#extending-profile}
+## Extension de la ressource Profil {#extending-profile}
 
-Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]** avec un nouveau champ correspondant au groupe de contrôle. Une fois le flux de travail exécuté, ce champ est vérifié pour les profils qui ont été exclus de la cible.
+Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]** avec un nouveau champ correspondant au groupe témoin. Une fois le workflow exécuté, ce champ est coché pour les profils qui ont été exclus de la cible.
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, click **[!UICONTROL Create]**.
-1. Si vous ne l’avez pas encore étendu, sélectionnez **[!UICONTROL Étendre une ressource]** existante et choisissez la ressource **[!UICONTROL Profil]** .
-1. Dans l’onglet Structure **[!UICONTROL des]** données, ajoutez un nouveau champ pour le groupe de contrôle et sélectionnez **[!UICONTROL Boolean]** pour le champ **[!UICONTROL Type]** .
+1. Depuis **[!UICONTROL Administration]** &gt; **[!UICONTROL Développement]** &gt; **[!UICONTROL Ressources personnalisées]**, cliquez sur **[!UICONTROL Créer]**.
+1. Si vous ne l'avez pas encore étendue, sélectionnez **[!UICONTROL Etendre une ressource existante]** et la ressource **[!UICONTROL Profil]**.
+1. Dans l'onglet **[!UICONTROL Structure de données]**, ajoutez un nouveau champ pour le groupe témoin et sélectionnez **[!UICONTROL Booléen]** pour le champ **[!UICONTROL Type]**.
 
    ![](assets/wkf_control-group-profile-field.png)
 
-1. Dans l’onglet Définition **** d’écran, dépliez la section Configuration **[!UICONTROL de l’écran]** des détails et sélectionnez le champ que vous venez de créer afin qu’il s’affiche pour chaque profil.
+1. Dans l'onglet **[!UICONTROL Définition des écrans]**, développez la section **[!UICONTROL Configuration de l'écran de détail]** et sélectionnez le champ que vous venez de créer afin qu'il s'affiche pour chaque profil.
 
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. Enregistrez vos modifications.
-1. Mettez à jour la structure de la base de données pour publier la ressource étendue **[!UICONTROL Profile]** . See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Mettez à jour la structure de la base de données pour publier la ressource étendue **[!UICONTROL Profil]**. Voir [Publier une ressource personnalisée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-Pour plus d’informations sur l’extension d’une ressource personnalisée, voir Procédure [clé pour ajouter une ressource](../../developing/using/key-steps-to-add-a-resource.md).
+Pour plus d'informations sur l'extension d’une ressource personnalisée, voir [Principales étapes pour ajouter une ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Créer un workflow {#creating-a-workflow}
+## Créer un workflow  {#creating-a-workflow}
 
 1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Workflow]**.
 1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés du workflow, puis cliquez sur **[!UICONTROL Créer]**.
 
-Les étapes détaillées pour créer un flux de travail sont présentées dans la section [Création d’un flux de travail](../../automating/using/building-a-workflow.md) .
+Les étapes détaillées pour créer un workflow sont présentées dans la section [Création d'un workflow](../../automating/using/building-a-workflow.md).
 
 ## Créer une activité Requête {#create-a-query-activity}
 
 1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Requête]**.
-1. Cliquez deux fois sur l’activité pour définir votre cible.
-1. Par exemple, dans **[!UICONTROL Raccourcis]**, faites glisser et déposez le **[!UICONTROL profil]**, sélectionnez **[!UICONTROL Age]** avec l’opérateur **[!UICONTROL Supérieur à et saisissez 25 dans le champ Value.]******
+1. Double-cliquez sur l'activité pour définir votre cible.
+1. Par exemple, dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer de **[!UICONTROL Profil]**, sélectionnez **[!UICONTROL Age]** avec l'opérateur **[!UICONTROL Supérieur à]** et saisissez 25 dans le champ **[!UICONTROL Valeur]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-Les étapes détaillées pour créer une activité de requête sont présentées dans la section [Requête](../../automating/using/query.md) .
+Les étapes détaillées pour créer une activité Requête sont présentées dans la section [Requête](../../automating/using/query.md).
 
 ## Créer une activité Segmentation {#creating-a-segmentation-activity}
 
 1. Effectuez un glisser-déposer d'une activité **[!UICONTROL Segmentation]** et double-cliquez dessus.
-1. Dans l’onglet **[!UICONTROL Segments]** , sélectionnez un segment à modifier.
-1. Dans l’onglet **[!UICONTROL Configuration]** de ce segment, sélectionnez l’option **[!UICONTROL Limiter la population de ce segment]** .
+1. Dans l'onglet **[!UICONTROL Segments]**, sélectionnez un segment à éditer.
+1. Dans l'onglet **[!UICONTROL Configuration]** de ce segment, sélectionnez l'option **[!UICONTROL Limiter la population de ce segment]**.
 
    ![](assets/wkf_control-segment-configuration.png)
 
-1. Dans l’onglet **[!UICONTROL Limitation]** , vérifiez que l’option d’échantillonnage **** aléatoire est sélectionnée.
+1. Dans l'onglet **[!UICONTROL Limitation]**, vérifiez que l'option **[!UICONTROL Tirage aléatoire]** est sélectionnée.
 
    ![](assets/wkf_control-segment-limitation.png)
 
-1. Définissez un pourcentage de la population initiale, par exemple 10 %, puis cliquez sur **[!UICONTROL Confirmer]**. Le groupe témoin sera constitué de 10 % de la population ciblée, choisis au hasard.
-1. Dans l’onglet Options **** avancées, sélectionnez l’option **[!UICONTROL Générer le complément]** et renseignez les champs Libellé **[!UICONTROL de]** transition et Code de **[!UICONTROL segment.]**
+1. Définissez un pourcentage de la population initiale, par exemple 10 %, puis cliquez sur **[!UICONTROL Confirmer]**. Le groupe témoin sera constitué de 10 % de la population ciblée, choisie de manière aléatoire.
+1. Dans l'onglet **[!UICONTROL Options avancées]**, sélectionnez l'option **[!UICONTROL Générer le complémentaire]** et renseignez les champs **[!UICONTROL Libellé de la transition]** et **[!UICONTROL Code segment]**.
 
    ![](assets/wkf_control-segment-advanced.png)
 
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-Les étapes détaillées pour créer une activité de segmentation sont présentées dans la section [Segmentation](../../automating/using/segmentation.md) .
+Les étapes détaillées pour créer une activité Segmentation sont présentées dans la section [Segmentation](../../automating/using/segmentation.md) .
 
-## Création d’une activité de courrier électronique {#creating-an-email-activity}
+## Créer une activité Email {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]** &gt; **[!UICONTROL Channels]**, drag and drop an **[!UICONTROL Email Delivery]** after the main target segment.
-1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
+1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Canaux]**, effectuez un glisser-déposer d'une **[!UICONTROL Diffusion Email]** après le segment cible principal.
+1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email unique]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d'email et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés de l'email et cliquez sur **[!UICONTROL Suivant]**.
-1. To create the layout of your email, click on **[!UICONTROL Use the Email Designer]**.
-1. Modifiez et enregistrez votre contenu.
-1. Dans la section **[!UICONTROL Planifier]** du tableau de bord du message, désélectionnez l' **[!UICONTROL Request confirmation avant d'envoyer des messages}** .
+1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Utiliser le concepteur d'email]**.
+1. Editez et enregistrez votre contenu.
+1. Dans la section **[!UICONTROL Planning]** du tableau de bord des messages, désélectionnez l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages}** .
 
-Les étapes détaillées pour créer une activité de courrier électronique sont présentées dans la section Livraison [par](../../automating/using/email-delivery.md) courrier électronique.
+Les étapes détaillées pour créer une activité Email sont présentées dans la section [Diffusion Email](../../automating/using/email-delivery.md).
 
-## Création d’une activité de données de mise à jour {#creating-update-data-activity}
+## Créer une activité Mise à jour de données {#creating-update-data-activity}
 
-1. Faites glisser et déposez une activité de données **** Update après le segment du groupe de contrôle.
+1. Effectuez un glisser-déposer d'une activité **[!UICONTROL Mise à jour de données]** après le segment du groupe témoin.
 1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
-1. Dans l’onglet **[!UICONTROL Général]** , sélectionnez **[!UICONTROL Mettre à jour]** dans la liste déroulante Type **[!UICONTROL d’]** opération.
-1. Dans l’onglet **[!UICONTROL Identification]** , sélectionnez l’option **[!UICONTROL Directement à l’aide de la dimension]** de ciblage.
-1. Sélectionnez la ressource de **[!UICONTROL profil]** que vous avez précédemment étendue comme dimension à mettre à jour.
+1. Dans l'onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Mettre à jour]** dans la liste déroulante **[!UICONTROL Type d'opération]**.
+1. Dans l'onglet **[!UICONTROL Identification]**, sélectionnez l'option **[!UICONTROL En utilisant directement la dimension de ciblage]**.
+1. Sélectionnez la ressource **[!UICONTROL Profil]** que vous avez précédemment étendue comme dimension à mettre à jour.
 
    ![](assets/wkf_control-update-identification.png)
 
-1. Dans l’onglet **[!UICONTROL Champs à mettre à jour]** , sélectionnez le champ de groupe de contrôle que vous avez ajouté à la ressource **[!UICONTROL Profil]** en tant que **[!UICONTROL destination]** et saisissez true comme condition.
+1. Dans l'onglet **[!UICONTROL Champs à mettre à jour]**, sélectionnez le champ de groupe témoin que vous avez ajouté à la ressource **[!UICONTROL Profil]** en tant que **[!UICONTROL Destination]** et entrez true comme condition.
 
    ![](assets/wkf_control-update-fields-to-update.png)
 
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-Les étapes détaillées pour créer une activité de données de mise à jour sont présentées dans la section [Mettre à jour les données](../../automating/using/update-data.md) .
+Les étapes détaillées pour créer une activité Mise à jour de données sont présentées dans la section [Mise à jour de données](../../automating/using/update-data.md).
 
-## Exécution du processus {#running-the-workflow}
+## Exécuter le workflow {#running-the-workflow}
 
-Click **[!UICONTROL Start]** to run the workflow.
+Cliquez sur **[!UICONTROL Démarrer]** pour lancer le workflow.
 
-Une fois le processus exécuté, la population du groupe de contrôle est exclue et le message est envoyé à la cible principale restante.
+Une fois le workflow exécuté, la population du groupe témoin est exclue et le message est envoyé à la cible principale restante.
 
-La ressource **[!UICONTROL Profil]** est mise à jour comme suit : si un profil se trouvait dans le groupe de contrôle, le champ correspondant est coché.
+La ressource **[!UICONTROL Profil]** est mise à jour comme suit : si un profil se trouvait dans le groupe témoin, le champ correspondant est coché.
 
 ![](assets/wkf_control-group-profile-checked.png)
 
 Vous pouvez maintenant comparer la réaction des destinataires du message par rapport au petit groupe qui a été exclu du message et ne l’a pas reçu.
 
-## Réutilisation du même groupe de contrôle {#reusing-same-control-group}
+## Réutiliser le même groupe témoin {#reusing-same-control-group}
 
-L’exemple ci-dessus permet de créer un groupe de contrôle global, car il est stocké en tant qu’attribut de profil indépendamment des livraisons. En effet, le nouveau champ "Groupe de contrôle" créé dans le cadre de l’extension de ressource **[!UICONTROL Profil]** est mis à jour après l’exécution du processus ci-dessus.
+L'exemple ci-dessus permet de créer un groupe témoin global, car il est stocké en tant qu'attribut de profil indépendamment des diffusions. En effet, le nouveau champ "Groupe témoin" créé dans le cadre de l'extension de la ressource **[!UICONTROL Profil]** est mis à jour après l'exécution du workflow ci-dessus.
 
-Par conséquent, la prochaine fois que vous souhaitez utiliser le même groupe de contrôle, vous pouvez segmenter sur le nouveau champ "Groupe de contrôle" plutôt que d’effectuer une segmentation aléatoire.
+Par conséquent, la prochaine fois que vous souhaitez utiliser le même groupe témoin, vous pouvez effectuer une segmentation sur le nouveau champ Groupe témoin plutôt que d'effectuer une segmentation aléatoire.
 
 Pour cela :
-1. Lors de la création de l’activité **[!UICONTROL Segmentation]** , sélectionnez le segment à modifier dans l’onglet **[!UICONTROL Segments]** .
-1. Dans l’onglet **[!UICONTROL Configuration]** de ce segment, veillez à ne pas sélectionner l’option **[!UICONTROL Limiter la population de ce segment]** .
-1. Dans l’onglet **[!UICONTROL Filtrage]** , faites glisser **[!UICONTROL Profils (attributs)]** vers l’espace de travail principal.
+1. Lors de la création de l'activité **[!UICONTROL Segmentation]**, sélectionnez le segment à éditer dans l'onglet **[!UICONTROL Segments]**.
+1. Dans l'onglet **[!UICONTROL Configuration]** de ce segment, veillez à ne pas sélectionner l'option **[!UICONTROL Limiter la population de ce segment]**.
+1. Dans l'onglet **[!UICONTROL Filtrage]**, placez **[!UICONTROL Profils (attributs)]** dans l'espace de travail principal.
 
    ![](assets/wkf_control-group-segment-profiles-attributes.png)
 
-1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profils (attributs)]** , sélectionnez "Groupe de contrôle" (le champ que vous avez ajouté à la ressource **[!UICONTROL Profil]** ) et sélectionnez **[!UICONTROL Oui]** comme condition de filtre.
+1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profils (attributs)]** , sélectionnez Groupe témoin (le champ que vous avez ajouté à la ressource **[!UICONTROL Profil]**) et sélectionnez **[!UICONTROL Oui]** comme condition de filtrage.
 
    ![](assets/wkf_control-group-segment-profiles-attributes-field.png)
