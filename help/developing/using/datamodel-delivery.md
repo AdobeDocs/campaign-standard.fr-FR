@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,15 +9,15 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
 
 ---
 
 
-# Livraison (nms:delivery)
+# Diffusion (nms:delivery)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
                <tr>
@@ -28,13 +28,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>FCP</td>
-                  <td>Bon à tirer</td>
+                  <td>Proof</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Identifiant principal de la ressource</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -46,55 +46,55 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>advanced</td>
-                  <td>Livraison avancée</td>
+                  <td>Advanced delivery</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>advancedParameters</td>
-                  <td>Paramètres avancés</td>
+                  <td>Advanced parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Contenu d’Adobe Experience Manager</td>
+                  <td>Adobe Experience Manager contents</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMessage</td>
-                  <td>Message d'avertissement</td>
+                  <td>Warning message</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
-                  <td>Type d'avertissement</td>
+                  <td>Warning type</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>attache</td>
-                  <td>Fichiers joints</td>
+                  <td>attachment</td>
+                  <td>Attached files</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>branding (brandingBase)</td>
-                  <td>Marque</td>
+                  <td>Brand</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>broadLogs</td>
-                  <td>Logs de diffusion </td>
+                  <td>Delivery logs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>buildingIn</td>
-                  <td>Objet d’application intégré</td>
+                  <td>builtIn</td>
+                  <td>Built-in application object</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -106,69 +106,69 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>cmsAccount (extAccountAEMBase)</td>
-                  <td>Compte Adobe Experience Manager</td>
+                  <td>Adobe Experience Manager account</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>commandes</td>
-                  <td>Commandes</td>
+                  <td>commands</td>
+                  <td>Commands</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>contenu</td>
-                  <td>Contenu</td>
+                  <td>content</td>
+                  <td>Content</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>contentSource</td>
-                  <td>Source du contenu</td>
-                  <td>énumération (octet) </td>
+                  <td>Content source</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
                         <li>Adobe Campaign - campaign - 0</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>contextResourceType</td>
-                  <td>Type de ressource</td>
+                  <td>Resource type</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Créé</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Créé par</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>Mode de livraison</td>
-                  <td>énumération (octet) </td>
+                  <td>Delivery mode</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Livraison en masse - en masse - 1</li>
+                        <li>Bulk delivery - bulk - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
-                        <li>Description - descriptif - 2</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
-                        <li>Externe - externe - 0</li>
+                        <li>Description - descriptive - 2</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>External - external - 0</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>deliveryProvider (extAccountBase)</td>
-                  <td>Routage</td>
+                  <td>Routing</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -180,83 +180,83 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>emailPreview</td>
-                  <td>Aperçu du courrier électronique</td>
+                  <td>Email preview</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>excludeLogs</td>
-                  <td>Exclus</td>
+                  <td>Exclusion logs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>exclusions</td>
-                  <td>Exclusions appliquées</td>
+                  <td>Exclusion causes</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>exécution</td>
-                  <td>Paramètres d’exécution de remise</td>
+                  <td>execution</td>
+                  <td>Delivery execution parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>executionType</td>
-                  <td>Type d'exécution</td>
-                  <td>énumération (octet) </td>
+                  <td>Execution type</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Unique - une fois - 0</li>
-                        <li>Continu - continu - 1</li>
-                        <li>Centre de messages - messageCenter - 2</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Unique - oneTime - 0</li>
+                        <li>Continuous - continuous - 1</li>
+                        <li>Message Center - messageCenter - 2</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>ForecLogs</td>
-                  <td>Journal des prévisions</td>
+                  <td>forecastLogs</td>
+                  <td>ForecastLog</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Entité géographique</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>Ajout de fichiers joints</td>
+                  <td>Add attached files</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>icône</td>
-                  <td>Icône</td>
-                  <td>énumération (octet) </td>
+                  <td>icon</td>
+                  <td>Icon</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Courrier électronique transactionnel - EmailLightning - 60</li>
-                        <li>Télécopie - fax - 4</li>
+                        <li>Transactional email - emailLightning - 60</li>
+                        <li>Fax - fax - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>Courrier électronique récurrent - emailRefresh - 30</li>
-                        <li>Courrier direct - papier - 3</li>
-                        <li>Téléphone - Téléphone - 2</li>
-                        <li>Autre - autre - 120</li>
-                        <li>SMS récurrents - smsRefresh - 31</li>
-                        <li>Application mobile - pushNotification - 40</li>
-                        <li>SMS transactionnels - smsLightning - 61</li>
-                        <li>Courriel - Courriel - 0</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Recurring email - emailRefresh - 30</li>
+                        <li>Direct mail - paper - 3</li>
+                        <li>Phone - phone - 2</li>
+                        <li>Other - other - 120</li>
+                        <li>Recurring SMS - smsRefresh - 31</li>
+                        <li>Mobile application - pushNotification - 40</li>
+                        <li>Transactional SMS - smsLightning - 61</li>
+                        <li>Email - email - 0</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Est une ressource externe</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -268,19 +268,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>isTemplate</td>
-                  <td>Modèle</td>
+                  <td>Template</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>itérations</td>
-                  <td>Diffusions</td>
+                  <td>iterations</td>
+                  <td>Deliveries</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>job</td>
-                  <td>Traitement</td>
+                  <td>Job</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -292,40 +292,40 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>kpis</td>
-                  <td>Indicateurs</td>
+                  <td>Indicators</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Dernière modification</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
-                  <td>Statut de l'exécution</td>
-                  <td>énumération (chaîne) (255)</td>
+                  <td>Execution status</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
-                        <li>En cours - commencé - commencé</li>
-                        <li>Edition - édition - édition</li>
-                        <li>Terminé - terminé - terminé</li>
-                        <li>Avertissement - avertissement</li>
-                        <li>Erroné - erreur - erreur</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>In progress - started - started</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finished - finished - finished</li>
+                        <li>Warning - warning - warning</li>
+                        <li>Erroneous - error - error</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>Paramètres d'en-tête Email</td>
+                  <td>Email header parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -336,248 +336,248 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>mappage (deliveryMapping)</td>
-                  <td>Mapping de ciblage</td>
+                  <td>mapping (deliveryMapping)</td>
+                  <td>Target mapping</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>master (deliveryBase)</td>
-                  <td>Instance maître</td>
+                  <td>Master instance</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Indicateurs principaux</td>
+                  <td>Master indicators</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>messageType</td>
-                  <td>Canal</td>
-                  <td>énumération (octet) </td>
+                  <td>Channel</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Télécopie - fax - 4</li>
+                        <li>Fax - fax - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>Courriel - Courriel - 0</li>
-                        <li>Téléphone - Téléphone - 2</li>
-                        <li>Courrier direct - papier - 3</li>
-                        <li>Application mobile - pushNotification - 40</li>
-                        <li>Autre - autre - 120</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Email - email - 0</li>
+                        <li>Phone - phone - 2</li>
+                        <li>Direct mail - paper - 3</li>
+                        <li>Mobile application - pushNotification - 40</li>
+                        <li>Other - other - 120</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Modification par</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>id</td>
+                  <td>ID</td>
                   <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>offerManagement</td>
-                  <td>Gestion des offres</td>
+                  <td>Offer Management</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Entité organisationnelle</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (deliveryBase)</td>
-                  <td>Diffusion parente</td>
+                  <td>Parent delivery</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>priorité</td>
-                  <td>Priorité de diffusion</td>
-                  <td>énumération (octet) </td>
+                  <td>priority</td>
+                  <td>Delivery priority</td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Elevé - élevé - 20</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>High - high - 20</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>program (programBase)</td>
-                  <td>Programme</td>
+                  <td>Program</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>épreuves</td>
-                  <td>Bons à tirer</td>
+                  <td>proofs</td>
+                  <td>Proofs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Aperçu de la notification push</td>
+                  <td>Push notification preview</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>Paramètres de PushNotification</td>
+                  <td>PushNotification parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
-                  <td>Rapports en temps réel</td>
+                  <td>Realtime Reports</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>resourceVersion</td>
-                  <td>Version de ressource</td>
+                  <td>Resource version</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Message du ruban</td>
+                  <td>Ribbon message</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>scénario</td>
-                  <td>Paramètres de modèle de remise</td>
+                  <td>scenario</td>
+                  <td>Delivery template parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>planification</td>
-                  <td>Planifier la diffusion</td>
+                  <td>scheduling</td>
+                  <td>Delivery scheduling</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsParameters</td>
-                  <td>Paramètres SMS</td>
+                  <td>SMS parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
-                  <td>Aperçu du SMS</td>
+                  <td>SMS preview</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>état</td>
+                  <td>state</td>
                   <td>Status</td>
-                  <td>énumération (octet) </td>
+                  <td>enumeration (byte) </td>
                   <td>
                      <ul>
-                        <li>Début en attente - startPending - 51</li>
-                        <li>Prêt à être livré - prêt - 45</li>
-                        <li>Nouvelle tentative en attente - réessayerEn attente - 61</li>
-                        <li>Nouvelle tentative en cours - réessayerInProgress - 62</li>
-                        <li>Échec - échec - 87</li>
-                        <li>En cours - commencé - 55</li>
-                        <li>Ciblage en attente - targetPrepPending - 11</li>
-                        <li>Personnalisation en attente - messagePrepPending - 21</li>
-                        <li>En pause - En pause - 75</li>
-                        <li>Modification - édition - 0</li>
-                        <li>Terminé - terminé - 95</li>
-                        <li>Comptage en cours - targetSelection - 12</li>
-                        <li>Message finalisé - messageReady - 25</li>
-                        <li>Échec de la personnalisation ou du décompte - prepareError - 37</li>
-                        <li>Arrêté - annulé - 85</li>
-                        <li>Personnalisation en cours - messagePréparation - 22</li>
+                        <li>Start pending - startPending - 51</li>
+                        <li>Ready to be delivered - ready - 45</li>
+                        <li>Retry pending - retryPending - 61</li>
+                        <li>Retry in progress - retryInProgress - 62</li>
+                        <li>Failed - failed - 87</li>
+                        <li>In progress - started - 55</li>
+                        <li>Targeting pending - targetPrepPending - 11</li>
+                        <li>Personalization pending - messagePrepPending - 21</li>
+                        <li>Paused - paused - 75</li>
+                        <li>Editing - edition - 0</li>
+                        <li>Finished - finished - 95</li>
+                        <li>Counting in progress - targetSelection - 12</li>
+                        <li>Message finalized - messageReady - 25</li>
+                        <li>Personalization or count failed - preparationError - 37</li>
+                        <li>Stopped - cancelled - 85</li>
+                        <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
-                        <li>Arbitrage en cours - targetArbitrage - 13</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Arbitration in progress - targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>cibles</td>
-                  <td>Cible de la diffusion</td>
+                  <td>targets</td>
+                  <td>Delivery target population</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>template (deliveryTemplateSummary)</td>
-                  <td>Modèle de remise</td>
+                  <td>Delivery template</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>miniature</td>
-                  <td>Miniature de remise</td>
+                  <td>thumbnail</td>
+                  <td>Delivery thumbnail</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Diffusion</td>
+                  <td>Delivery</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>tracking</td>
-                  <td>Paramètres du tracking</td>
+                  <td>Tracking parameters</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingLogs</td>
-                  <td>Tracking</td>
+                  <td>Tracking logs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingUrls</td>
-                  <td>URL trackées</td>
+                  <td>Tracked URLs</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>Paramètres du message transactionnel</td>
+                  <td>Parameters of the transactional message</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>typologie (typologyBase)</td>
-                  <td>Typologie</td>
+                  <td>typology (typologyBase)</td>
+                  <td>Typology</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow (workflowBase)</td>
-                  <td>Processus de ciblage</td>
+                  <td>Targeting workflow</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflowStatus</td>
-                  <td>Etat du workflow</td>
-                  <td>énumération (chaîne) (255)</td>
+                  <td>Workflow status</td>
+                  <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
-                        <li>En cours - commencé - commencé</li>
-                        <li>Edition - édition - édition</li>
-                        <li>Terminé - terminé - terminé</li>
-                        <li>Avertissement - avertissement</li>
-                        <li>Erroné - erreur - erreur</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>In progress - started - started</li>
+                        <li>Editing - edition - edition</li>
+                        <li>Finished - finished - finished</li>
+                        <li>Warning - warning - warning</li>
+                        <li>Erroneous - error - error</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -585,7 +585,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
 
 ## Filtres
 
-Par type de canal (par canal)
+Par type de canal (byChannel)
 
 <table>
     <tr>
@@ -611,7 +611,7 @@ Par type d'exécution (byExecutionType)
     </tr>
 </table>
 
-Par état logique (parLogicalStatus)
+Par état logique (byLogicalStatus)
 
 <table>
     <tr>
@@ -619,12 +619,12 @@ Par état logique (parLogicalStatus)
     <th>Type</th>
     </tr>
     <tr>
-    <td>état</td>
+    <td>state</td>
     <td>enumeration</td>
     </tr>
 </table>
 
-Par nom ou étiquette (parTexte)
+Par nom ou libellé (byText)
 
 <table>
     <tr>
@@ -632,7 +632,7 @@ Par nom ou étiquette (parTexte)
     <th>Type</th>
     </tr>
     <tr>
-    <td>texte</td>
+    <td>text</td>
     <td>string</td>
     </tr>
     <tr>
@@ -641,7 +641,7 @@ Par nom ou étiquette (parTexte)
     </tr>
 </table>
 
-Par période (par période)
+Par période (byPeriod)
 
 <table>
     <tr>
@@ -654,7 +654,7 @@ Par période (par période)
     </tr>
 </table>
 
-Par période (parStartPeriod)
+Par période (byStartPeriod)
 
 <table>
     <tr>
@@ -671,7 +671,7 @@ Par période (parStartPeriod)
     </tr>
 </table>
 
-Par état de publication (parPublicationStatus)
+Par état de publication (byPublicationStatus)
 
 <table>
     <tr>
@@ -684,7 +684,7 @@ Par état de publication (parPublicationStatus)
     </tr>
 </table>
 
-Par état (par état)
+Par état (byState)
 
 <table>
     <tr>
@@ -692,12 +692,12 @@ Par état (par état)
     <th>Type</th>
     </tr>
     <tr>
-    <td>état</td>
+    <td>state</td>
     <td>enumeration</td>
     </tr>
 </table>
 
-Messages de suivi (showFollowup)
+Messages de relance (showFollowup)
 
 <table>
     <tr>
@@ -705,12 +705,12 @@ Messages de suivi (showFollowup)
     <th>Type</th>
     </tr>
     <tr>
-    <td>suivi</td>
+    <td>followup</td>
     <td>boolean</td>
     </tr>
 </table>
 
-Inclure les livraisons avancées (avec Advanced)
+Inclure les diffusions avancées (withAdvanced)
 
 <table>
     <tr>
@@ -723,7 +723,7 @@ Inclure les livraisons avancées (avec Advanced)
     </tr>
 </table>
 
-Inclure les livraisons continues à partir d’une liste hétérogène (avec Continuous)
+Inclure les diffusions au fil de l'eau depuis une liste hétérogène (withContinuous)
 
 <table>
     <tr>
@@ -736,7 +736,7 @@ Inclure les livraisons continues à partir d’une liste hétérogène (avec Con
     </tr>
 </table>
 
-Inclure des épreuves (avec FCP)
+Inclure les BAT (withFCP)
 
 <table>
     <tr>
@@ -749,7 +749,7 @@ Inclure des épreuves (avec FCP)
     </tr>
 </table>
 
-Planifiée pendant la période donnée (parPlanning)
+Planifié durant la période donnée (parPlanning)
 
 <table>
     <tr>
@@ -766,7 +766,7 @@ Planifiée pendant la période donnée (parPlanning)
     </tr>
 </table>
 
-Présente pendant une période donnée (parCalendar)
+Présent durant la période donnée (byCalendar)
 
 <table>
     <tr>
@@ -783,7 +783,7 @@ Présente pendant une période donnée (parCalendar)
     </tr>
 </table>
 
-Afficher prêtes à l’emploi (showOob)
+Afficher les paramètres d'usine (showOob)
 
 <table>
     <tr>
