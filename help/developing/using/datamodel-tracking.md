@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,15 +9,15 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ---
 
 
-# Journaux De Suivi (nms:remoteTracking)
+# Logs de tracking (nms:remoteTracking)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
                <tr>
@@ -28,7 +28,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Identifiant principal de la ressource</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -39,7 +39,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>journaux</td>
+                  <td>logs</td>
                   <td>Logs</td>
                   <td>string </td>
                   <td> </td>
