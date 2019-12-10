@@ -1,6 +1,6 @@
 ---
 title: DataModel
-description: En savoir plus sur le modèle de données
+description: En savoir plus sur le datamodel
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -9,7 +9,7 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 # Audience (nms:audience)
 
-## Description de l’objet
+## Description de l'objet
 
 <table>
                <tr>
@@ -28,13 +28,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>Identifiant principal de la ressource</td>
+                  <td>Main resource ID</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>ID de mappage d’Audience Manager</td>
+                  <td>Audience Manager mapping ID</td>
                   <td>string (100)</td>
                   <td> </td>
                </tr>
@@ -46,13 +46,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>Aperçu de la population sélectionnée</td>
+                  <td>Preview selected population</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
-                  <td>Schéma de données</td>
+                  <td>Data schema</td>
                   <td>string (255)</td>
                   <td> </td>
                </tr>
@@ -63,8 +63,8 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>collectionLineNumber</td>
-                  <td>Utiliser un numéro de ligne comme ID</td>
+                  <td>collectLineNumber</td>
+                  <td>Use a line number as ID</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -76,7 +76,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>Date de comptage</td>
+                  <td>Count date</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -88,13 +88,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>created</td>
-                  <td>Créé</td>
+                  <td>Created</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>Créé par</td>
+                  <td>Created by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -106,25 +106,25 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>N’Historique pas cette tâche</td>
+                  <td>Do not historize this job</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>Erreurs avant abandon</td>
+                  <td>Errors before aborting</td>
                   <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
-                  <td>Expire le</td>
+                  <td>Expires on</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
-                  <td>Entité géographique</td>
+                  <td>Geographical unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -136,13 +136,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Audience d’Adobe Marketing Cloud</td>
+                  <td>Adobe Marketing Cloud audience</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>Est une ressource externe</td>
+                  <td>Is external resource</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -154,43 +154,43 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>Dernière modification</td>
+                  <td>Last modified</td>
                   <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifyBy (userBase)</td>
-                  <td>Modification par</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>name</td>
-                  <td>id</td>
+                  <td>ID</td>
                   <td>string (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
-                  <td>Entité organisationnelle</td>
+                  <td>Organizational unit</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>nomFichierRejet</td>
-                  <td>Fichier de rejets</td>
+                  <td>rejectFilename</td>
+                  <td>Rejection file</td>
                   <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sharedAudience</td>
-                  <td>Nom de l'audience partagée</td>
+                  <td>Name of the shared audience</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -202,7 +202,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>Identifiant de la source</td>
+                  <td>Source Id</td>
                   <td>integer </td>
                   <td> </td>
                </tr>
@@ -215,19 +215,19 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>type</td>
                   <td>Type</td>
-                  <td>énumération (chaîne) (100)</td>
+                  <td>enumeration (string) (100)</td>
                   <td>
                      <ul>
-                        <li>Requête - Requête - Requête</li>
-                        <li>Liste - liste - liste</li>
-                        <li>Fichier - fichier - fichier</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>Query - query - query</li>
+                        <li>List - list - list</li>
+                        <li>File - file - file</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>where</td>
-                  <td>Définition de requête</td>
+                  <td>Query definition</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -241,7 +241,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ## Filtres
 
-En filtrant la dimension (parFilteringResource)
+Par dimension de filtrage (byFilteringResource)
 
 <table>
     <tr>
@@ -249,12 +249,12 @@ En filtrant la dimension (parFilteringResource)
     <th>Type</th>
     </tr>
     <tr>
-    <td>filterResource</td>
+    <td>filteringResource</td>
     <td>string</td>
     </tr>
 </table>
 
-Par nom ou étiquette (parTexte)
+Par nom ou libellé (byText)
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ Par nom ou étiquette (parTexte)
     <th>Type</th>
     </tr>
     <tr>
-    <td>texte</td>
+    <td>text</td>
     <td>string</td>
     </tr>
 </table>
