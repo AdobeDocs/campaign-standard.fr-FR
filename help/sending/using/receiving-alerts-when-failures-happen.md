@@ -11,8 +11,8 @@ topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l'analyse de la diffusion. Voir [Créer une règle de filtrage](../../administration/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [A propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D'une manière générale, améliorez autant que possible la délivrabilité. Consultez le guide détaillé [Gestion de la délivrabilité](http://docs.campaign.adobe.com/doc/AC/getting_started/FR/deliverability.html) d'Adobe Campaign v7 et contactez votre administrateur Adobe Campaign pour obtenir de l'aide.
+   * D'une manière générale, améliorez autant que possible la délivrabilité. See the Adobe Campaign [Deliverability](../../sending/using/about-deliverability.md) detailed documentation and contact your Adobe Campaign administrator for assistance.
 
 
 
