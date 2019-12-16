@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -150,12 +150,12 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Recevoir des alertes en cas d'échec](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprendre les diffusions en échec](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
-   + Gestion de la délivrabilité {#managing-deliverability}
+   + Gestion de la déliverabilité {#managing-deliverability}
       + [A propos de la délivrabilité](sending/using/about-deliverability.md)
-      + [Démarrage d’une nouvelle plateforme](sending/using/starting-new-platform.md)
+      + [Démarrer une nouvelle plate-forme](sending/using/starting-new-platform.md)
       + [Contrôle du contenu des courriers électroniques](sending/using/control-email-content.md)
       + [Améliorer votre réputation](sending/using/improving-reputation.md)
-      + [Listes blanches](sending/using/whitelists.md)
+      + [Les listes blanches](sending/using/whitelists.md)
       + [Recommandations techniques](sending/using/technical-recommendations.md)
       + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
       + [Résolution des problèmes](sending/using/troubleshooting.md)
@@ -279,13 +279,14 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
+      + [Cas d’utilisation : Exportation/importation de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
    + Cas pratiques : workflows {#workflow-use-case}
       + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
       + [Création de diffusions à la date de création](automating/using/workflow-creation-date-query.md)
       + [Création d'une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
       + [Création d'une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
       + [Reciblage des personnes n'ayant pas ouvert l'email](automating/using/workflow-cross-channel-retargeting.md)
-      + [Création d’un groupe de contrôle](automating/using/workflow-control-group.md)
+      + [Création d'un groupe témoin](automating/using/workflow-control-group.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
@@ -310,17 +311,17 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Extension des abonnements à une ressource d'application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodel {#datamodel}
       + [Audience](developing/using/datamodel-audience.md)
-      + [Campaign](developing/using/datamodel-campaign.md)
+      + [Campagne](developing/using/datamodel-campaign.md)
       + [Diffusion](developing/using/datamodel-delivery.md)
-      + [Pages d’entrée](developing/using/datamodel-landingpage.md)
+      + [Landing pages](developing/using/datamodel-landingpage.md)
       + [Historique marketing](developing/using/datamodel-history.md)
       + [Profil](developing/using/datamodel-profile.md)
       + [Programme](developing/using/datamodel-program.md)
-      + [Membre de démarrage](developing/using/datamodel-seed.md)
+      + [Membre de contrôle](developing/using/datamodel-seed.md)
       + [Service](developing/using/datamodel-service.md)
-      + [Événement d’abonnement](developing/using/datamodel-subscription.md)
-      + [Journaux de suivi](developing/using/datamodel-tracking.md)
-      + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
+      + [Evénement d'abonnement](developing/using/datamodel-subscription.md)
+      + [Logs de tracking](developing/using/datamodel-tracking.md)
+      + [Evénement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
    + [Administration d'Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
@@ -385,7 +386,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [Récupération des fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
       + [Gestion de l’exclusion de l’ACCP](api/using/managing-ccpa-opt-out.md)
    + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
-   + Gestion des processus {#managing-workflows}
+   + Gestion des workflows {#managing-workflows}
       + [Contrôle d’un processus](api/using/controlling-a-workflow.md)
       + [Déclenchement d’une activité de signal](api/using/triggering-a-signal-activity.md)
    + Gestion des unités organisationnelles {#managing-organizational-units}
