@@ -1,6 +1,6 @@
 ---
 title: Comptes externes
-description: Configurez des comptes externes pour configurer des connexions avec des systèmes externes tels que les serveurs SFTP.
+description: Paramétrez des comptes externes pour configurer des connexions à des systèmes externes tels que des serveurs SFTP.
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 68921819a5335626e45678ec569172ffef46a636
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -22,12 +22,12 @@ source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 Un compte externe est un paramétrage qui permet de configurer et de tester l'accès à un serveur externe à Adobe Campaign.
 
-Ces comptes externes peuvent être utilisés dans les processus de campagne pour accéder aux données et les gérer.
+Ces comptes externes peuvent être utilisés dans les workflows de Campaign pour accéder aux données et les gérer.
 
 Vous pouvez configurer les types de comptes externes suivants :
 
 * SFTP. Voir à ce propos [cette section](#sftp-external-account).
-* Service de stockage Amazon (S3). Voir à ce propos [cette section](#amazon-s3-external-account).
+* Amazon Storage Service (S3). Voir à ce propos [cette section](#amazon-s3-external-account).
 * Adobe Experience Manager. Voir à ce propos [cette section](#adobe-experience-manager-external-account).
 * Adobe Analytics. Voir à ce propos [cette section](../../integrating/using/configure-campaign-analytics-integration.md).
 * reCAPTCHA Google. Voir à ce propos [cette section](#google-recaptcha-external-account).
@@ -45,25 +45,25 @@ Adobe Campaign est livré avec un ensemble de comptes externes prédéfinis. Pou
 Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d'un transfert de fichier dans un workflow ou d'un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
-1. Saisissez un libellé. Le libellé et l’ID seront utilisés lors de la sélection de comptes externes dans des processus.
-1. Sélectionnez le type de compte à créer.
-1. Configurez l’accès au compte en spécifiant les informations d’identification, l’adresse du serveur, le numéro de port et ou les clés, le cas échéant.
+1. Saisissez un libellé. Le libellé et l'identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
+1. Sélectionnez le type de compte que vous souhaitez créer.
+1. Configurez l'accès au compte en indiquant les identifiants, l'adresse du serveur, le numéro de port et les clés, le cas échéant.
 
    Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
 1. Enregistrez votre compte.
 
-Le compte externe est créé et ajouté à la liste des comptes. Il est désormais disponible pour les transferts de données/fichiers ou les configurations de routage dans les activités de processus et les propriétés de diffusion.
+Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
 ## Compte externe SFTP {#sftp-external-account}
 
-Différents types de comptes externes nécessitent des informations différentes à spécifier.
+Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
-Pour un compte externe SFTP, fournissez les détails suivants :
+Pour un compte externe SFTP, indiquez les informations suivantes :
 
 * Adresse du serveur. Par exemple, **ftp.domaine.com**.
-* Numéro de port. For example, **22**.
-* Informations d’identification du serveur SFTP : nom de compte et mot de passe utilisés pour la connexion au serveur.
+* Numéro de port. Par exemple, **22**.
+* Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
 ### Recommandations relatives au serveur SFTP hébergé par Adobe {#adobe-hosted-sftp-server-recommendations}
 
@@ -115,20 +115,20 @@ Indiquez la **[!UICONTROL région AWS]** associée à votre point d'entrée. Pou
 
 Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recommandations suivantes :
 
-* Créez une stratégie de regroupement stricte pour restreindre l’accès aux intervalles S3. La stratégie de regroupement peut être configurée lors de la création d'un regroupement. For more information, refer to the [Amazon S3 documentation](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* Créez une stratégie de compartiment stricte afin de limiter l'accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d'un compartiment. Pour plus d'informations, consultez la [documentation d'Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Lors de la création d'un compte externe, activez le cryptage pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
-* Octroyez des autorisations au compartiment pour spécifier qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur l’autorisation de compartiment, reportez-vous à la documentation [Amazon S3.](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l'objet dans un compartiment. Pour plus d'informations sur les autorisations de compartiment, consultez la [documentation d'Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)..
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
 
-Les comptes externes Adobe Experience Manager sont utilisés lors de l’intégration de Campaign à Experience Manager.
+Les comptes externes Adobe Experience Manager sont utilisés lors de l'intégration de Campaign avec Experience Manager.
 
-Le processus et les exigences liées à cette intégration sont disponibles dans [ce document](../../integrating/using/about-campaign-integrations.md).
+La procédure et les exigences relatives à cette intégration sont présentées dans [ce document](../../integrating/using/about-campaign-integrations.md).
 
 Lors de la configuration de ce nouveau compte externe, vous devez indiquer les informations suivantes :
 
-* Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple, **http://aem.domain.com:4502**.
-* Identifiants du compte AEM : utilisez le compte qui accédera à l'instance d'Adobe Experience Manager. Il doit s’agir d’un compte faisant partie du groupe distant de campagne dans Experience Manager.
+* Serveur : saisissez l'URL du serveur Adobe Experience Manager. Par exemple, **http://aem.domaine.com:4502**.
+* Identifiants du compte AEM : utilisez le compte qui accédera à l'instance d'Adobe Experience Manager. Il doit s'agir d'un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
 ## Compte externe Google reCAPTCHA {#google-recaptcha-external-account}
 
@@ -136,11 +136,11 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 >
 >La configuration Google reCAPTCHA nécessite un compte Google.
 
-Le mécanisme Google reCAPTCHA vous permet de protéger votre page d'entrée du spam et des abus causés par les robots. Ceci n’est pas intrusif pour vos clients, car il ne nécessite aucune interaction de leur part et repose sur des interactions avec votre site. To register your site, refer to this [page](https://www.google.com/recaptcha/admin/create). Vous devez choisir le type reCAPTCHA V3.
+Le mécanisme Google reCAPTCHA vous permet de protéger votre landing page du spam et des abus causés par les bots. Il ne présente pas d'intrusion par rapport à vos clients, car il ne nécessite aucune interaction de leur part et repose sur les interactions avec votre site. Pour inscrire votre site, consultez cette [page](https://www.google.com/recaptcha/admin/create). Vous devez choisir le type reCAPTCHA version 3.
 
-Pour ajouter Google reCAPTCHA V3 à votre page d'entrée, vous devez d'abord la configurer dans votre compte externe. Pour plus d'informations sur la façon de l'ajouter à votre page d'entrée, consultez cette [section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
+Pour ajouter le Google reCAPTCHA version 3 à votre landing page, vous devez tout d'abord le configurer dans votre compte externe. Pour plus d'informations sur la façon de l'ajouter à votre landing page, consultez [cette section](../../channels/using/configuring-landing-page.md#setting-google-recaptcha).
 
-Pour un compte externe Google reCAPTCHA V3, fournissez les détails suivants :
+Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suivants :
 
 * Un **[!UICONTROL Libellé]** et l'**[!UICONTROL ID]** de votre compte externe
 * **[!UICONTROL Type]** : Google reCAPTCHA
