@@ -13,53 +13,53 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # Résolution des problèmes{#troubleshooting}
 
-Vous rencontrez un problème de délivrabilité ? Vous trouverez peut-être la solution ici...
+Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici...
 
-**Pourquoi est-ce que je reçois toujours le même message d'erreur pour un FAI particulier ?**
+**Pourquoi ai-je toujours le même message d'erreur pour un FAI particulier ?**
 
-Si vous obtenez toujours le même message d’erreur pour un FAI, votre adresse électronique ou votre adresse IP a peut-être été détectée comme défectueuse par le FAI. Effectuez les recommandations suivantes :
-* Vérifiez si vous recevez un pourcentage élevé d’échecs liés à des adresses électroniques inexistantes (échecs inconnus **de l’** utilisateur).
-* Mettez à jour vos formulaires d’abonnement pour détecter toute erreur dans les noms de domaine saisis (par exemple : gmaul.com ou yaho.com).
-* Si vous constatez des erreurs indiquant que vos messages sont déclarés comme des messages indésirables ou que vos messages sont constamment bloqués, essayez d'exclure les destinataires qui n'ont pas ouvert ou cliqué sur l'un de vos messages au cours des 12 derniers mois depuis la cible.
+Si vous recevez toujours le même message d'erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d'expéditeur. Appliquez les recommandations suivantes :
+* Vérifiez si vous recevez un fort pourcentage d'échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
+* Mettez à jour vos formulaires d'abonnement pour détecter d'éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
+* Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d'exclure de la cible les destinataires qui n'ont pas ouvert ou cliqué dans l'un de vos messages dans les 12 mois précédents.
 
-Si le problème persiste, contactez les services commerciaux ou de délivrabilité, ou le support technique d’Adobe Campaign.
+Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d'Adobe Campaign.
 
-**Quelle est la différence entre une adresse de courriel mise sur liste noire et une adresse de courriel mise en quarantaine ?**
+**Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
 
-L’état **[!UICONTROL Liste]** noire est le résultat d’une boucle de rétroaction (lorsqu’une personne signale un message comme indésirable).
+Le statut **[!UICONTROL En blackliste]signifie que l'un de vos destinataires a déclaré un message comme étant un spam.**
 
-Le statut **[!UICONTROL Quarantined]** est le résultat d’un rebond doux ou dur.
+L'application du statut **[!UICONTROL Quarantaine]est entraînée par un échec soft ou hard.**
 
-**Que signifient les différentes raisons d'erreur de quarantaine ?**
+**A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
-Voici 10 raisons possibles : non défini, utilisateur inconnu, domaine non valide, adresse sur liste noire, refusé, erreur ignorée, inaccessible, compte désactivé, boîte aux lettres pleine, non connectée.
+Il existent dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en blackliste, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
 Pour plus d’informations, voir [Présentation de la gestion](../../sending/using/understanding-quarantine-management.md)de la quarantaine.
 
-**Un de mes destinataires a été mis sur liste noire par erreur. Comment puis-je les démettre de la liste noire pour pouvoir recommencer à leur envoyer des messages ?**
+**Un de mes destinataires est passé par erreur en statut "En blackliste". Que puis-je faire lui envoyer à nouveau des emails ?**
 
-* Accédez à **[!UICONTROL Administration &gt; Canaux &gt; Quarantines &gt; Adresses]**.
-* Dans les détails de l’enregistrement correspondant, définissez la valeur du champ **[!UICONTROL État]** sur **[!UICONTROL Valide]**.
-* Enregistrez l'enregistrement.
+* Accédez à **[!UICONTROL Administration &gt; Canaux &gt; Quarantaines &gt; Adresses]**.
+* Dans l'écran de détails de l'enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
+* Sauvegardez l'enregistrement.
 
-**Comment puis-je savoir si l’une de mes adresses IP est sur liste noire ? Comment annuler la liste noire de mes adresses IP ?**
+**Comment puis-je savoir si l'une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
 
-Pour vérifier si votre adresse IP est sur liste noire, vous pouvez utiliser divers sites Web pour la vérifier :
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+Pour vérifier si votre adresse IP est blacklistée, vous pouvez consulter l'un des sites web ci-dessous :
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
-En règle générale, le résultat de la vérification de l'adresse IP retournera une liste qui contient les détails de la liste noire ainsi que le nom du site Web qui a mis l'adresse IP sur liste noire.
+En général, la vérification d'adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l'adresse IP.
 
-En cliquant sur le lien, vous pouvez accéder aux détails du site Web.
+Un lien est disponible pour accéder aux détails du site web.
 
-Ensuite, vous pouvez demander que votre site Web soit retiré du site Web qui a mis l’adresse IP sur liste noire.
+Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l'a blacklistée.
 
-Le processus de radiation peut varier selon le site Web. Certains sites vous obligent à créer un compte, tandis que d'autres ont simplement besoin que vous fournissiez l'adresse IP.
+Le processus peut varier selon le site web. Certains sites requièrent la création d'un compte alors que d'autres demandent uniquement que vous fournissiez l'adresse IP.
