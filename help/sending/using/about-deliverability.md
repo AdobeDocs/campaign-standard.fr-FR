@@ -13,40 +13,40 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
 # A propos de la délivrabilité{#about-deliverability}
 
-La délivrabilité ou la manière de mesurer le succès de vos campagnes dans la boîte de réception des destinataires sans rebondir ou être marquée comme indésirable.
+La délivrabilité ou comment mesurer le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.
 
-La délivrabilité d’Adobe Campaign est un service payant disponible dans différentes offres. Communiquez avec la délivrabilité ou le service commercial.
+Adobe Campaign Deliverability est un service payant qui est proposé dans le cadre de plusieurs offres. Pour en savoir plus, contactez le service commercial ou de délivrabilité.
 
-Le taux de délivrabilité dépend de nombreux facteurs, notamment :
+Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 
-* Configuration correcte de vos instances
-* Votre réputation d'adresse IP
-* Qualité des adresses ciblées
-* Faibles taux de plaintes et de rebonds brutaux
-* Votre contenu de message
-* Authentification des messages (SPF, DKIM, DMARC)
-* Connaissance de l'expéditeur
+* le bon paramétrage de vos instances
+* la réputation de vos adresses IP
+* la qualité des adresses ciblées
+* le faible taux de plaintes
+* le contenu de vos messages
+* l'authentification des messages (SPF, DKIM, DMARC)
+* la réputation de l'expéditeur
 
 ## Points clés à vérifier {#deliverability-key-points}
 
-Pour optimiser la délivrabilité de vos courriers électroniques Adobe Campaign, nous vous recommandons d’utiliser les meilleures pratiques répertoriées ci-dessous. Les problèmes de délivrabilité sont généralement liés aux mesures de protection contre le spam mises en oeuvre par les fournisseurs de services Internet et les administrateurs de serveurs de messagerie.
+Afin d'optimiser la délivrabilité de vos emails Adobe Campaign, nous vous recommandons de suivre les bonnes pratiques listées ci-dessous. Les problèmes de délivrabilité sont généralement liés à des mesures de protection contre les spams mises en place par les fournisseurs d'accès à internet et les administrateurs de serveurs de mail.
 
-La délivrabilité des courriers électroniques désigne l'ensemble des caractéristiques qui déterminent la capacité d'un message à atteindre sa destination, par l'intermédiaire d'une adresse électronique personnelle, dans un délai court, et avec la qualité attendue en termes de contenu et de format. Ces caractéristiques se répartissent en quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Ensemble, ils forment la base d'un programme de livraison de courriels réussi.
+La délivrabilité des emails désigne l'ensemble des caractéristiques qui déterminent la capacité d'un message à atteindre sa destination, via une adresse email personnelle, en peu de temps, et avec la qualité attendue en termes de contenu et de format. Ces caractéristiques se divisent en quatre catégories principales : qualité des données, message et contenu, infrastructure d'envoi et réputation. Ensemble, elles forment la base d'un programme performant de délivrabilité des emails.
 
-Le taux de délivrabilité est le nombre de courriers électroniques envoyés qui ont été remis avec succès à ses destinataires.
-Voici une liste des points clés à vérifier pour assurer une bonne livraison.
+Le taux de délivrabilité est le nombre d'emails envoyés qui ont été délivrés avec succès aux destinataires.
+Voici une liste de points clés à vérifier pour assurer une bonne délivrabilité.
 
 ## Outils de délivrabilité {#deliverability-tools}
 
-Commencez par consulter la documentation sur les outils de délivrabilité fournis avec Campaign Standard :
-* [Meilleures pratiques de livraison](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+Tout d'abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
+* [Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Personnalisation du nom de l’expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
 * [Test de l'objet d'un email](../../sending/using/testing-subject-line-email.md)
 * [Optimiser l'heure d'envoi](../../sending/using/optimizing-the-sending-time.md)
@@ -59,26 +59,26 @@ Commencez par consulter la documentation sur les outils de délivrabilité fourn
 * [Mise en quarantaine et blacklistage](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Vérification de la configuration du réseau {#network-configuration}
+## Vérifier la configuration du réseau {#network-configuration}
 
-Les spammeurs essaient de dissimuler leur véritable identité et par conséquent rendent leurs serveurs difficiles à identifier. Une configuration réseau légitime qui n'essaie pas de masquer l'identité du serveur est essentielle pour envoyer des courriers électroniques en gros volumes.
+Les spammeurs cherchent à cacher leur véritable identité et par conséquent rendent leurs serveurs d'envoi difficilement identifiables. Une configuration réseau correcte, qui ne cherche pas à cacher d'information, est un préalable à tout envoi en masse.
 
 ## Envoi à des adresses valides {#valid-addresses}
 
-Les spammeurs utilisent souvent des générateurs d'adresses basés sur des listes de noms fréquents et de prénoms; en outre, ils traitent rarement les notifications techniques envoyées par les serveurs de messagerie. Un taux élevé d'adresses non valides est souvent interprété comme un signe de spam. Les mécanismes de double inclusion et la gestion efficace des messages techniques de rebond permettent d’éviter ce problème.
+Les spammeurs utilisent parfois des générateurs d'adresses basés sur des listes de prénoms et de noms fréquents ; d'autre part, ils traitent rarement les notifications techniques renvoyées par les serveurs de messagerie. Un taux d'adresses invalides élevé dans une diffusion est souvent interprété comme la marque d'un spammeur. Une inscription par double opt-in et une gestion rigoureuse des rebonds techniques permet d'éviter cela.
 
 ## Réduction du taux de plaintes {#reduce-complaint-rate}
 
-Les FAI ont généralement un moyen important de signaler un message reçu comme indésirable. Cela permet d'identifier les sources non fiables. En répondant rapidement aux demandes d’exclusion, en utilisant régulièrement une liste donnée, en vérifiant le consentement par le biais d’un système de double inclusion et en mettant en oeuvre des boucles de rétroaction, vous pouvez réduire les taux de plaintes.
+Les FAI ont systématisé la mise à disposition d'une fonction "Ceci est un spam" pour permettre aux utilisateurs de rapporter les emails non sollicités et en déduire les envoyeurs. Une gestion honnête des demandes, une diffusion régulière sur sa liste, la vérification des inscriptions par double opt-in, la facilité de désinscription et son temps de prise en compte et surtout la mise en place de boucles de rétro-action ou "feedback loop" permettent de diminuer les taux de plaintes.
 
-## Envoi aux adresses de miel {#honeypot-addresses}
+## Envoi à des adresses pièges {#honeypot-addresses}
 
-Les FAI et autres organisations (voir http://www.projecthoneypot.org/) utilisent des boîtes aux lettres qui ne correspondent pas à des personnes physiques mais qui sont simplement créées pour tromper les spammeurs. Ces adresses dites de "miel pot" sont publiées sur le Web afin d'être collectées par des robots spammeurs et ainsi attraper des expéditeurs illégitimes. L'utilisation d'un mécanisme d'inclusion double empêche l'ajout de ce type d'adresse à une liste. Lorsque vous utilisez une liste tierce, vous devez être sûr des méthodes utilisées par son responsable.
+Les FAI et autres organisations (voir https://www.projecthoneypot.org/) utilisent des boîtes aux lettres qui ne correspondent pas à des personnes physiques mais qui sont simplement créées pour tromper les spammeurs. Ces adresses piège ou "honey pots" sont publiées sur le web dans le but qu'elles soient trouvées par les robots collecteurs d'adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l'ajout de ce genre d'adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
 
 ## Adaptation du contenu des messages {#adapt-message-content}
 
-Dans une moindre mesure, le contenu de certains messages peut amener certains filtres à le détecter comme indésirable. L'utilisation de certains mots, l'utilisation de points d'exclamation dans la ligne objet et dans les messages sont lus comme des signes révélateurs de spam. Les spammeurs sont également connus pour remplacer le texte par des images afin d’empêcher l’analyse automatique du texte par des filtres anti-spam. En réponse à cela, un message (au format HTML) avec une forte proportion d’images, ou des images en tant que pièces jointes, peut se retrouver bloqué.
+Dans une moindre mesure, le contenu des messages peut amener certains filtres à détecter un spam. L'emploi de certains mots, l'usage de points d'exclamation dans le corps ou le sujet du message doit être mesuré. Une parade temporaire des spammeurs a consisté à remplacer le texte interdit par des images dont le texte ne peut pas être examiné automatiquement par les filtres anti-spam. En réponse à cela, un message (au format HTML) contenant une trop forte proportion d'images peut désormais être bloqué, de même qu'un message embarquant les images en pièces-jointes.
 
 ## Envoi régulier {#regular-deliveries}
 
-Les spammeurs font des livraisons programmées pour maintenir leur réputation au fil du temps. Il leur faut parfois adapter leur plan marketing pour répondre aux meilleures pratiques imposées par les FAI, et ainsi, après un pic de réputation (montée en puissance), ils configurent des livraisons régulières.
+Les spammeurs font des envois ponctuels pour maintenir leur réputation dans le temps. Il est parfois nécessaire d'adapter son plan marketing pour répondre aux exigences des bonnes pratiques imposées par les FAI et donc, après la phase de montée en réputation (ram-up), paramétrer des envois réguliers.
