@@ -11,8 +11,8 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ Lors de l'édition de contenu à l'aide du Concepteur d'email, vous pouvez égal
 
 ### Modèles de contenu d'email d'usine {#email-content-templates}
 
-Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md).
+Vous pouvez gérer les contenus HTML qui seront proposés dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Les modèles de contenu d'email d'usine comprennent 18 mises en page optimisées pour les appareils mobiles et quatre modèles réactifs conçus par des artistes Behance. Ils correspondent aux utilisations les plus courantes : messages de bienvenue, newsletters, emails de réengagement, etc. Ils peuvent être facilement personnalisés avec le contenu de vos marques afin de faciliter la création des emails.
 
@@ -72,8 +72,8 @@ Les modèles de contenu d'email d'usine comprennent 18 mises en page optimisée
 
 **Rubriques connexes :**
 
-* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
-* Pour plus d'informations sur l'édition de contenu, voir [A propos de la conception du contenu d'un email](../../designing/using/overview.md).
+* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Pour plus d'informations sur l'édition de contenu, voir [A propos de la conception du contenu d'un email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Créer un modèle de contenu {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ L'exemple ci-dessous montre comment créer un modèle de contenu d'email.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Cette miniature sera affichée dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md).
+   Cette miniature sera affichée dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Fermez l'onglet **[!UICONTROL Propriétés]** pour retourner à l'espace de travail principal.
 1. Ajoutez des composants de structure et de contenu que vous pouvez personnaliser au besoin.
@@ -102,7 +102,7 @@ L'exemple ci-dessous montre comment créer un modèle de contenu d'email.
    > Vous ne pouvez pas insérer des champs de personnalisation ni du contenu conditionnel dans un modèle de contenu.
 1. Une fois le modèle édité, enregistrez-le.
 
-Ce modèle peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md).
+Ce modèle peut à présent être utilisé dans n'importe quel email créé avec le Concepteur d'email. Sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ Lorsque vous éditez un email avec le Concepteur d'email, vous ne pouvez pas enr
 
 1. Pour retrouver le modèle que vous venez de créer, accédez à **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles et fragments de contenu]**.
 
-1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/overview.md).
+1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l'onglet **[!UICONTROL Modèles]** de la page d'accueil du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/content_template_new.png)
 
