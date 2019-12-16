@@ -11,8 +11,8 @@ topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 1. Dans la fenêtre **[!UICONTROL Gérez les variantes de contenu]**, déposez votre fichier ou sélectionnez un fichier sur votre ordinateur.
 
-   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l'option **[!UICONTROL Télécharger le fichier d'exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d'informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [technote](http://helpx.adobe.com/fr/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l'option **[!UICONTROL Télécharger le fichier d'exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d'informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [technote](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -134,4 +134,4 @@ Vous pouvez maintenant mesurer l'impact de la diffusion de votre notification pu
 
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
 * [Envoi d'une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
-* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
