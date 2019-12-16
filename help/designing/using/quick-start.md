@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ You can also create an email [with existing content](#with-existing-content):
 
 | Sans contenu | Avec contenu |
 |---|---|
-| Création d'un email à partir de zéro | Conversion d’un contenu HTML existant |
-| Créer du contenu à partir d'un modèle d'usine | Importation d’un code HTML existant |
+| [Création d'un email à partir de zéro](#from-scratch-email) | [Conversion d’un contenu HTML existant](#converting-an-html-content) |
+| [Créer du contenu à partir d'un modèle d'usine ](#building-content-from-an-out-of-the-box-template) | [Importation d’un code HTML existant](#compatibility-mode) |
 
 ## Conception de courriers électroniques avec l’éditeur {#without-existing-content}
 
@@ -116,17 +116,17 @@ Vous pouvez maintenant enregistrer et envoyer votre email.
 
 Vous pouvez créer un email à partir de modèles d'usine, tels que des messages d'accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
-1. Créez un courrier électronique et ouvrez son contenu. Pour plus d’informations, voir [Création d’un courrier électronique](../../channels/using/creating-an-email.md).
+1. Créez un email et ouvrez son contenu. Voir à ce propos [Créer un email](../../channels/using/creating-an-email.md).
 1. Cliquez sur l'icône Accueil pour accéder à la page d'accueil du **[!UICONTROL Concepteur d'email]**.
 1. Cliquez sur l'onglet **[!UICONTROL Modèles]**.
 1. Choisissez un modèle HTML d'usine.
-Les différents modèles présentent diverses combinaisons de plusieurs types d’éléments. Par exemple, les modèles "Contour progressif" ont des marges tandis que les modèles "Astro" n’en ont pas. Pour plus d’informations, voir Modèles [de](../../designing/using/using-reusable-content.md#content-templates)contenu.
+Les différents modèles présentent de multiples combinaisons de plusieurs types d'éléments. Par exemple, les modèles 'Contour progressif' possèdent des marges, tandis que les modèles 'Astro' en sont dépourvus. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 1. Accédez à l'onglet **[!UICONTROL Propriétés]** de la page d'accueil du Concepteur d'email (accessible par le biais de l'icône Accueil) et renseignez la section **Objet[!UICONTROL .]**
 1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d'emails. Par exemple, vous pouvez dupliquer une section d'email en sélectionnant un composant de structure et en cliquant sur **[!UICONTROL Dupliquer]** dans la barre d'outils contextuelle.
-1. Vous pouvez déplacer les éléments à l’aide de la flèche bleue sur la gauche pour faire glisser un composant de structure en dessous ou au-dessus d’un autre. Pour plus d’informations sur ce sujet, voir [Modification de la structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure)du courrier électronique.
-1. Vous pouvez également déplacer des composants pour modifier l’organisation de chaque élément de structure. Pour plus d’informations à ce sujet, voir [Ajout de fragments et de composants](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Modifiez le contenu de chaque élément en fonction de vos besoins : images, texte, liens.
-1. Si nécessaire, adaptez les options de style à votre contenu. For more on this, see [Editing email styles](../../designing/using/styles.md).
+1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d'un autre. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Vous pouvez également déplacer des composants afin de modifier l'organisation de chaque élément de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
+1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d'un email](../../designing/using/styles.md).
 
 ## Utilisation d’un contenu de courrier électronique existant {#with-existing-content}
 
@@ -142,12 +142,12 @@ Ce cas pratique présente comment convertir rapidement le code HTML d'un email e
 
 >[!NOTE]
 >
->Tout comme le mode de compatibilité, un composant HTML peut être modifié avec des options limitées : vous pouvez uniquement effectuer une édition statique.
+>De la même manière que le mode de compatibilité, un composant HTML est éditable avec des options limitées : vous pouvez uniquement effectuer l'édition locale.
 
-En dehors du concepteur de courrier électronique, assurez-vous que le code HTML d’origine est divisé en sections réutilisables.
+En dehors du Concepteur d'email, veillez à ce que le code HTML d'origine soit divisé en sections réutilisables.
 
-1. Ouvrez le concepteur de courrier électronique pour créer un contenu de courrier électronique vide.
-1. Définissez les attributs au niveau du corps : couleurs d’arrière-plan, largeur, etc. For more on this, see [Editing email styles](../../designing/using/styles.md).
+1. Ouvrez le Concepteur d'email pour créer un contenu d'email vide.
+1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d'un email](../../designing/using/styles.md).
 
 Si tel n'est pas le cas, divisez les différents blocs de votre code HTML. Par exemple, voici une section clairement identifiée :
 
@@ -173,14 +173,14 @@ Si tel n'est pas le cas, divisez les différents blocs de votre code HTML. Par e
 
 Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Concepteur d'email pour chaque section de votre email existant :
 
-1. Ajoutez un composant de structure. Pour plus d’informations sur ce sujet, voir [Modification de la structure](../../designing/using/designing-from-scratch.md#defining-the-email-structure)du courrier électronique.
-1. Ajoutez un composant HTML. Pour plus d’informations à ce sujet, voir [Ajout de fragments et de composants](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copiez-collez votre code HTML dans ce composant.
-1. Passer en vue Mobile. For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l'email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant HTML. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Copiez votre code HTML et collez-le dans ce composant.
+1. Passer en vue Mobile. Voir à ce propos [cette section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
-   L’affichage réactif est rompu, car votre page CSS est absente.
+   La vue en responsive design est endommagée, car il manque votre CSS.
 
-1. Pour corriger ce problème, passez en mode code source et copiez-collez votre section de style dans une nouvelle section de style. Par exemple :
+1. Pour résoudre cela, passez en mode de code source, copiez votre section de style et collez-la dans une nouvelle section de style. Par exemple :
 
    ```
    <style type="text/css">
@@ -208,15 +208,15 @@ Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Co
 
 ### Import et édition d'un email HTML {#compatibility-mode}
 
-Lorsque vous téléchargez un contenu, il doit contenir un balisage spécifique pour être entièrement conforme et modifiable avec l’éditeur WYSIWYG du concepteur de courrier électronique.
+Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l'aide de l'éditeur WYSIWYG du Concepteur d'email.
 
-Si tout ou partie du code HTML téléchargé n’est pas conforme au balisage attendu, le contenu est alors chargé en "mode de compatibilité", ce qui limite les possibilités d’édition dans l’interface utilisateur.
+Si tout ou partie du code HTML téléchargé n'est pas conforme avec le balisage attendu, le contenu est alors chargé en "mode de compatibilité", ce qui limite les possibilités d'édition via l'interface utilisateur.
 
-Lorsqu’un contenu est chargé en mode de compatibilité, vous pouvez toujours effectuer les modifications suivantes dans l’interface (les actions indisponibles sont masquées) :
+Lorsqu'un contenu est chargé en mode de compatibilité, vous pouvez toujours effectuer les modifications suivantes via l'interface utilisateur (les actions indisponibles sont masquées) :
 
-* Modification du texte ou d’une image
-* Insertion de liens et de champs de personnalisation
-* Modifier certaines options de style sur le bloc HTML sélectionné
+* changer le texte ou changer une image,
+* insérer des liens et des champs de personnalisation,
+* éditer quelques options de style dans le bloc HTML sélectionné
 * Définir du contenu conditionnel
 
 ![](assets/email_designer_compatibility.png)
