@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -25,34 +25,34 @@ Dans le Concepteur d'email, lorsque vous sélectionnez un élément, plusieurs o
 
 ### Sélectionner un élément {#selecting-an-element}
 
-Pour sélectionner un élément dans l’interface de Designer de messagerie, vous pouvez effectuer l’une des opérations suivantes :
+Pour sélectionner un élément dans l'interface du Concepteur d'email, vous pouvez :
 
-* cliquez directement dans le courrier électronique,
-* ou parcourez l'arborescence disponible à partir des options situées dans la **palette** de gauche.
+* cliquer directement dans l'email,
+* ou parcourir l'arborescence disponible depuis les options situées dans la **Palette** gauche.
 
 ![](assets/des_tree_structure.png)
 
-Parcourir la structure permet d'effectuer une sélection plus précise. Vous pouvez sélectionner l’une des options suivantes :
+Parcourir la structure permet d'effectuer une sélection plus précise. Vous pouvez sélectionner :
 
-* l'ensemble de la structure,
-* l'une des colonnes qui composent le composant de structure,
-* ou uniquement un composant situé dans une colonne.
+* l'ensemble du composant de structure,
+* une des colonnes qui composent le composant de structure,
+* ou un composant situé à l'intérieur d'une colonne.
 
 ![](assets/des_tree_structure_selection.png)
 
-Pour sélectionner une colonne, vous pouvez également effectuer les opérations suivantes :
+Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
-1. Sélectionnez un composant de structure (directement dans le courrier électronique ou à l’aide de l’arborescence de structure disponible dans la **palette** de gauche).
+1. Sélectionnez un composant de structure (directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche).
 1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** pour choisir la colonne désirée.
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
 ## Ajuster les paramètres de style {#adjusting-style-settings}
 
-1. Sélectionnez un élément dans votre email. Pour plus d’informations, voir [Sélection d’un élément](#selecting-an-element).
-1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné propose un ensemble de paramètres différent.
+1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
+1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
 
-   Vous pouvez insérer des arrière-plans, modifier la taille, modifier l’alignement horizontal ou vertical, gérer les couleurs, ajouter [du remplissage ou des marges](#selecting-an-element), etc.
+   Vous pouvez insérer des arrière-plans, modifier les tailles, changer l'alignement horizontal ou vertical, gérer les couleurs, ajouter une [marge ou une marge intérieure](#selecting-an-element), etc.
 
    Pour cela, utilisez les options affichées dans le volet **[!UICONTROL Paramètres]** ou [ajoutez des attributs de style intégré](#adding-inline-styling-attributes).
 
@@ -70,7 +70,7 @@ L'interface du Concepteur d'email permet d'ajuster rapidement les paramètres de
 
 Par exemple :
 
-* Utilisez le remplissage pour définir des marges sur les côtés gauche et droit d’une image.
+* Utilisez la marge intérieure pour définir des marges à gauche et à droite d'une image.
 * Utilisez la marge intérieure du haut et du bas pour ajouter davantage d'espace à un composant **[!UICONTROL Texte]** ou **[!UICONTROL Diviseur]**.
 * Pour définir les bordures entre les colonnes au sein d'un élément de structure, définissez la marge intérieure de chaque colonne.
 
@@ -102,27 +102,27 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
 ## Définition des arrière-plans {#about-backgrounds}
 
-En ce qui concerne la définition d’arrière-plans avec le concepteur de courrier électronique, Adobe recommande ce qui suit :
+Lorsqu'il s'agit de définir des fonds dans le Concepteur d'email, Adobe a les recommandations suivantes :
 
-1. Appliquez une couleur d’arrière-plan au corps de votre courrier électronique si nécessaire dans votre conception.
-1. Dans la plupart des cas, définissez les couleurs d’arrière-plan au niveau de la colonne.
-1. Essayez de ne pas utiliser les couleurs d’arrière-plan sur les composants d’image ou de texte, car ils sont difficiles à gérer.
+1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
+1. Dans la plupart des cas, définissez les couleurs de fond au niveau des colonnes.
+1. Evitez d'utiliser des couleurs de fond sur des composants d'image ou de texte, car elles sont difficiles à gérer.
 
-Vous trouverez ci-dessous les paramètres d’arrière-plan disponibles que vous pouvez utiliser.
+Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une **[!UICONTROL Couleur de fond]** pour l'ensemble de l'email. Assurez-vous de sélectionner les paramètres du corps dans l'arborescence de navigation accessible à partir de la palette gauche.
 
    ![](assets/des_background_body.png)
 
-* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un autre paramètre dans la couleur d’arrière-plan.
+* Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
 
    ![](assets/des_background_viewport.png)
 
-* Définissez une couleur d’arrière-plan différente pour chaque composant de structure. Sélectionnez une structure dans l’arborescence de navigation accessible à partir de la palette de gauche pour appliquer une couleur d’arrière-plan spécifique uniquement à cette structure.
+* Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l'arborescence de navigation accessibles à partir de la palette gauche afin d'appliquer une couleur de fond spécifique uniquement sur cette structure.
 
    ![](assets/des_background_structure.png)
 
-   Veillez à ne pas définir de couleur d’arrière-plan de la fenêtre d’affichage, car cela peut masquer les couleurs d’arrière-plan de la structure.
+   Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
 * Définissez une **[!UICONTROL Image de fond]** pour le contenu d'un composant de structure.
 
@@ -130,23 +130,23 @@ Vous trouverez ci-dessous les paramètres d’arrière-plan disponibles que vous
 
    >[!NOTE]
    >
-   >Certains programmes de messagerie ne prennent pas en charge les images d’arrière-plan. Veillez à sélectionner une couleur d’arrière-plan de secours appropriée au cas où l’image ne serait pas affichée.
+   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l'image ne pourrait s'afficher.
 
-* Définissez une couleur d’arrière-plan au niveau de la colonne.
+* Définissez une couleur de fond au niveau des colonnes.
 
    ![](assets/des_background_column.png)
 
    >[!NOTE]
    >
-   >Il s’agit du cas d’utilisation le plus courant. Adobe recommande de définir les couleurs d’arrière-plan au niveau de la colonne, ce qui offre une plus grande souplesse lors de la modification de l’ensemble du contenu du courrier électronique.
+   >Il s'agit du cas pratique le plus courant. Adobe vous recommande de définir les couleur de fond au niveau des colonnes afin de profiter d'une plus grande flexibilité lors de l'édition de l'ensemble du contenu d'email.
 
-   Vous pouvez également définir une image d’arrière-plan au niveau de la colonne, mais elle est rarement utilisée.
+   Vous pouvez également définir une image de fond au niveau des colonnes, mais cette option est rarement utilisée.
 
 ### Exemple : ajustement de la marge intérieure et de l'alignement vertical {#example--adjusting-vertical-alignment-and-padding}
 
 Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intérieur d'un composant de structure composé de trois colonnes. Pour cela, procédez comme suit :
 
-1. Sélectionnez le composant de structure directement dans le courrier électronique ou à l’aide de l’arborescence disponible dans la **palette** de gauche.
+1. Sélectionnez le composant de structure, directement dans l'email ou à l'aide de l'arborescence dans la **Palette** gauche.
 1. Dans la **barre d'outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l'arborescence.
 
    ![](assets/des_selecting_column.png)
@@ -159,23 +159,19 @@ Vous souhaitez ajuster la marge intérieure et l'alignement vertical à l'intér
 
    Le composant de contenu s'affiche au-dessus de la colonne.
 
-1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l'intérieur de la colonne. Cliquez sur l’icône de verrouillage pour interrompre la synchronisation avec le remplissage inférieur.
+1. Sous **[!UICONTROL Marge intérieure]**, définissez la marge intérieure supérieure à l'intérieur de la colonne. Cliquez sur l'icône représentant un verrou pour rompre la synchronisation avec la marge intérieure inférieure.
 
-   Définissez les marges gauche et droite pour cette colonne.
+   Définissez la marge intérieure droite et gauche de cette colonne.
 
    ![](assets/des_adjusting_padding.png)
 
-1. Procédez de la même manière pour ajuster l’alignement et le remplissage des autres colonnes.
+1. Procédez de façon similaire pour ajuster l'alignement et la marge intérieure des autres colonnes.
 
    ![](assets/des_adjusting_columns.png)
 
 1. Enregistrez vos modifications.
 
 ## Style des liens {#about-styling-links}
-
->[!NOTE]
->
->Cette fonctionnalité sera disponible à partir de la version 19.4 de Campaign Standard.
 
 Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d'email.
 
@@ -201,37 +197,37 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 ## Ajouter des attributs de style intégrés {#adding-inline-styling-attributes}
 
-Dans l’interface de Designer de messagerie, lorsque vous sélectionnez un élément et affichez ses paramètres dans le panneau latéral, vous pouvez personnaliser les attributs insérés et leur valeur pour cet élément spécifique.
+Dans l'interface du Concepteur d'email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
 1. Sélectionnez un élément de votre contenu.
 1. Sur le panneau latéral, recherchez les paramètres de **[!UICONTROL styles intégrés]**.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Modifiez les valeurs des attributs existants ou ajoutez-en de nouveaux à l’aide du bouton **+** . Vous pouvez ajouter n’importe quel attribut et valeur compatible CSS.
+1. Modifiez les valeurs des attributs existants, ou ajoutez-en de nouveaux à l'aide du bouton **+**. Vous pouvez ajouter tout attribut et toute valeur compatible CSS.
 
-Le style est ensuite appliqué à l’élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, le style de l’élément parent est hérité.
+Le style est ensuite appliqué à l'élément sélectionné. Si aucun attribut de style spécifique n'est défini pour les éléments enfants, ils héritent du style de l'élément parent.
 
 ## Passer en vue mobile {#switching-to-mobile-view}
 
-Vous pouvez affiner le responsive design d'un email en éditant séparément toutes les options de style pour l'affichage mobile. Par exemple, vous pouvez adapter les marges et le remplissage, utiliser des tailles de police plus petites ou plus grandes, modifier les boutons ou appliquer différentes couleurs d’arrière-plan spécifiques à la version mobile de votre courrier électronique.
+Vous pouvez affiner le responsive design d'un email en éditant séparément toutes les options de style pour l'affichage mobile. Par exemple, vous pouvez adapter les marges et la marge intérieure, utiliser des polices de plus grande ou plus petite taille, modifier les boutons ou appliquer différentes couleurs de fond qui seront spécifiques à la version mobile de votre email.
 
 Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du concepteur de courrier électronique sont présentés précédemment sur cette page.
 
-1. Créez un email et commencez à éditer le contenu. Pour plus d’informations, voir [Conception d’un contenu de courrier électronique à partir de zéro](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Créez un email et commencez à éditer le contenu. Voir à ce propos la section [Concevoir entièrement un contenu d'email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Pour accéder à la vue mobile dédiée, cliquez sur le bouton **[!UICONTROL Passer en vue Mobile]**.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
-   La version mobile du courrier électronique s’affiche. Il contient tous les composants et styles définis dans la vue Bureau.
+   La version mobile de l'email s'affiche. Elle contient tous les composants et styles définis dans la vue de poste de travail.
 
-1. Modifiez indépendamment tous les paramètres de style, tels que la couleur d’arrière-plan, l’alignement, le remplissage, la marge, la famille de polices, la couleur du texte, etc.
+1. Editez indépendamment tous les paramètres de style tels que la couleur de fond, l'alignement, la marge intérieure, la marge, la famille de polices, la couleur du texte, etc.
 
    ![](assets/email_designer_mobile_view.png)
 
-1. Lors de la modification d’un paramètre de style dans la vue mobile, les modifications sont appliquées uniquement à l’affichage mobile.
+1. Lorsque vous éditez un paramètre de style dans la vue mobile, les modifications ne s'appliquent qu'à l'affichage mobile.
 
-   Par exemple, réduisez la taille d’une image, ajoutez un arrière-plan vert et modifiez le remplissage dans la vue mobile.
+   Par exemple, réduisez la taille d'une image, ajoutez un fond vert et modifiez la marge intérieure dans la vue mobile.
 
    ![](assets/email_designer_mobile_view_change.png)
 
@@ -252,21 +248,21 @@ Vous pouvez définir cette option à partir de la vue mobile ou de poste de trav
 
 1. Toute autre modification apportée à la structure ou au contenu de l'email, telle que des modifications de texte, le téléchargement d'une nouvelle image, l'ajout d'un nouveau composant, etc. est également appliquée à la vue standard.
 
-   Par exemple, revenez à la vue mobile, modifiez du texte et remplacez une image.
+   Par exemple, passez en vue mobile, modifiez du texte et remplacez une image.
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]** pour retourner à la vue de poste de travail standard. Les modifications sont reflétées.
+   Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]** pour retourner à la vue de poste de travail standard. Les modifications sont prises en compte.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
-1. La suppression d’un style dans la vue mobile vous ramène au style appliqué en mode Bureau.
+1. La suppression d'un style dans la vue mobile vous ramène au style appliqué en mode de poste de travail.
 
-   Par exemple, dans la vue mobile, appliquez une couleur d’arrière-plan verte à un bouton.
+   Par exemple, dans la vue mobile, appliquez une couleur de fond verte à un bouton.
 
    ![](assets/email_designer_mobile_view_background_mobile.png)
 
-1. Passez en mode Bureau et appliquez un arrière-plan gris au même bouton.
+1. Passez en vue de poste de travail et appliquez un fond gris au même bouton.
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
