@@ -11,8 +11,8 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+translation-type: tm+mt
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -108,7 +108,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Adresse IP utilisée pour envoyer l'email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Etat<br /> </td> 
+   <td> State<br /> </td> 
    <td> Etat enregistré dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
   </tr> 
     <tr> 
    <td> Exclure le BAT<br /> </td> 
-   <td> Exclure les BAT de vos rapports (à compter de la version 19.4 uniquement)<br /> </td> 
+   <td> Exclure les preuves de vos rapports<br /> </td> 
   </tr> 
  </tbody> 
 </table>
