@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
+source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 ---
 
@@ -29,7 +29,7 @@ Ressources supplémentaires :
 * [Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * Notes de mise à jour précédentes : [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## Version 19.4 - Octobre 2019  {#release-19-4---october-2019}
+## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
 
 ### Nouveautés{#what-s-new-5}
 
@@ -81,6 +81,8 @@ Ressources supplémentaires :
 
 ### Améliorations du Concepteur d'email {#email-designer-enhancements-4}
 
+* Correction d’un problème qui empêchait le suivi des liens de désabonnement, d’abonnement et de page d’entrée lorsqu’ils étaient insérés dans un courrier électronique. (CAMP-37809)
+* Correction d’un problème susceptible d’entraîner des erreurs lors de la création d’un courrier électronique et de la sélection d’un modèle. (CAMP-38000)
 * Lors de l'édition d'un lien à l'aide du Concepteur d'email, vous pouvez maintenant utiliser l'option **Souligner le lien**. En outre, la propriété **Cible** a été ajoutée avec la valeur par défaut définie sur **Aucune**. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 * Correction d'un problème de couleur sur les liens au sein des composants de texte dans le corps d'un email. (CAMP-37330)
 * Correction d'un problème qui empêchait la suppression des liens associés lors de la suppression d'une image. (CAMP-37234)
