@@ -11,8 +11,8 @@ topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. A compter de la version 19.4 de Campaign, l'option **[!UICONTROL Exclure le BAT]** sera déjà sélectionnée par défaut. Si nécessaire, vous pouvez la modifier en faisant glisser l'un des **[!UICONTROL segments]** depuis l'onglet **[!UICONTROL Composants]** vers la barre supérieure.
+1. Le segment Exclure la preuve **** est déjà sélectionné par défaut. Si nécessaire, vous pouvez la modifier en faisant glisser l'un des **[!UICONTROL segments]** depuis l'onglet **[!UICONTROL Composants]** vers la barre supérieure.
 
    ![](assets/dynamic_report_panel_3.png)
 
