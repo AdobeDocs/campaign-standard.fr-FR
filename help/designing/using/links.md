@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe
 
 >[!NOTE]
 >
->Les images ci-après illustrent l'insertion d'un lien à l'aide du [Concepteur d'email](../../designing/using/overview.md).
+>Les images ci-après illustrent l'insertion d'un lien à l'aide du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d'outils contextuelle.
 
@@ -61,7 +61,7 @@ Une fois le lien créé, vous pouvez encore le modifier dans le volet Paramètre
 
 ![](assets/des_link_edit.png)
 
-Lorsque vous éditez un email à l'aide du [Concepteur d'email](../../designing/using/overview.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l'email et les modifier. Cette liste permet d'avoir une vue centrale et de localiser chaque URL dans le contenu de l'email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](#about-tracked-urls).
+Lorsque vous éditez un email à l'aide du [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l'email et les modifier. Cette liste permet d'avoir une vue centrale et de localiser chaque URL dans le contenu de l'email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
