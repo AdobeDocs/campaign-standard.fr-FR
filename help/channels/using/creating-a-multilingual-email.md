@@ -11,8 +11,8 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ L'audience est composée de profils dont la préférence linguistique a été in
    Au besoin, ajoutez des variantes à l'aide du bouton **[!UICONTROL Ajouter un élément]**. **[!UICONTROL La variante Par défaut]** ne doit pas être supprimée. Lorsqu'elle est définie sur la valeur **[!UICONTROL Par défaut]**, [la langue préférée du profil](../../audiences/using/creating-profiles.md) est utilisée pour sélectionner la variante. Vous pouvez également définir la variante **[!UICONTROL Par défaut]** sur n'importe quelle autre langue.
 
 1. Confirmez la création de l'email : le tableau de bord des emails s'affiche alors.
-1. Définissez le contenu de chaque variante d'email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d'expéditeurs ou plusieurs contenus différents. Utilisez le menu déroulant afin de naviguer entre les différentes variantes de l'élément. Pour plus d'informations, consultez la section relative à l'[éditeur de contenu](../../designing/using/overview.md).
+1. Définissez le contenu de chaque variante d'email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d'expéditeurs ou plusieurs contenus différents. Utilisez le menu déroulant afin de naviguer entre les différentes variantes de l'élément. Pour plus d'informations, consultez la section relative à l'[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/multi_selectcontent.png)
 
@@ -47,4 +47,4 @@ L'audience est composée de profils dont la préférence linguistique a été in
 
 **Rubrique connexe :**
 
-* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
