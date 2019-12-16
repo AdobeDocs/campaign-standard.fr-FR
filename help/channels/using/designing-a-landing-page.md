@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ Le contenu des landing pages est conçu dans l'éditeur de contenu de Campaign.
 
 >[!NOTE]
 >
->Si votre instance a été installée avant la version 19.0 d'Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour modifier rapidement votre contenu de courrier électronique via une interface par glisser-déposer avec des fonctionnalités étendues, utilisez [Email Designer](../../designing/using/overview.md).
+>Si votre instance a été installée avant la version 19.0 d'Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l'interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Cette page décrit les spécificités de l'éditeur de contenu de landing page. Pour plus d'informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d'email** :
 
@@ -38,23 +38,23 @@ Cette page décrit les spécificités de l'éditeur de contenu de landing page. 
 * [Ajout d'un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
 * [Insertion d'un lien](../../designing/using/links.md#inserting-a-link)
 * [Insertion d'images](../../designing/using/images.md)
-* [Bonnes pratiques générales pour la conception de contenu](../../designing/using/overview.md#content-design-best-practices)
+* [Bonnes pratiques générales pour la conception de contenu](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Si vous disposez d'une landing page déjà prédéfinie au format HTML, vous pouvez l'importer directement via le bouton **[!UICONTROL Changer de contenu]**.
 >
->Avant d'importer une page HTML dans Adobe Campaign, assurez-vous qu'elle s'ouvre et s'affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s'exécuter sans erreur hors de l'éditeur. En général, évitez d’utiliser des scripts dans le contenu des messages pour vous assurer qu’ils sont correctement traités par les clients de messagerie.
+>Avant d'importer une page HTML dans Adobe Campaign, assurez-vous qu'elle s'ouvre et s'affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s'exécuter sans erreur hors de l'éditeur. Evitez en général d'utiliser des scripts dans le contenu des messages pour qu'il soit correctement traité par les clients de messagerie.
 
 ## Interface de l'éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
 L'éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
 
-L’éditeur de contenu est organisé en trois sections différentes. Ces sections vous permettent d’afficher et de modifier le contenu.
+L'éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
 
 ![](assets/des_lp_content_8.png)
 
-1. La **palette** située à gauche de l’écran vous permet de modifier les options générales liées à un bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur de fond, bordure, alignement du texte, condition de visibilité, etc. See [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field).
-1. La barre d’ **actions** contient les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage.
+1. La **palette** située à gauche de l'écran permet de modifier les paramètres du bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur de fond, bordure, alignement du texte, condition de visibilité, etc. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage.
 1. La **zone d'édition** principale permet d'interagir directement avec le contenu, grâce à la barre d'outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc.
 
 La **barre d'actions** contient différents boutons permettant d'agir sur le contenu en cours de création.
@@ -66,7 +66,7 @@ La **barre d'actions** contient différents boutons permettant d'agir sur le con
   <tr> 
    <th> Icône<br /> </th> 
    <th> Nom du bouton<br /> </th> 
-   <th> Canal<br /> </th> 
+   <th> Channel<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -74,43 +74,43 @@ La **barre d'actions** contient différents boutons permettant d'agir sur le con
   <tr> 
    <td> <img height="21px" src="assets/download_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Charger du contenu</span> <br /> </td> 
-   <td> Page d’entrée et courrier électronique<br /> </td> 
-   <td> Permet de sélectionner du contenu prêt à l’emploi ou d’importer votre propre contenu HTML. Reportez-vous à <a href="../../designing/using/using-existing-content.md">Chargement d’un contenu</a>existant.<br /> </td> 
+   <td> Landing page et email<br /> </td> 
+   <td> Permet de sélectionner un contenu d'usine ou d'importer votre propre contenu HTML. Reportez-vous à <a href="../../designing/using/using-existing-content.md">Charger un contenu existant</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Annuler</span><br /> </td> 
+   <td> <span class="uicontrol">Annuler</span> <br /> </td> 
    <td> Tous<br /> </td> 
    <td> Annule la dernière action effectuée.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Rétablir</span><br /> </td> 
+   <td> <span class="uicontrol">Rétablir</span> <br /> </td> 
    <td> Tous<br /> </td> 
-   <td> Rétablit la dernière action annulée.<br /> </td> 
+   <td> Rétablit la dernière action que vous avez annulée.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/display_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Afficher les blocs</span> <br /> </td> 
-   <td> Page d’entrée et courrier électronique<br /> </td> 
-   <td> Permet d’afficher les zones entourant les blocs de contenu (correspond à la balise <strong>&lt;div&gt;</strong> HTML).<br /> </td> 
+   <td> Landing page et email<br /> </td> 
+   <td> Permet d'afficher des cadres autour des blocs de contenu (correspond à la balise HTML <strong>&lt;div&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/code_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Afficher la source</span> <br /> </td> 
-   <td> Page d’entrée et courrier électronique<br /> </td> 
-   <td> Permet d’afficher le code source HTML de la page.<br /> </td> 
+   <td> <span class="uicontrol">Voir la source</span> <br /> </td> 
+   <td> Landing page et email<br /> </td> 
+   <td> Permet d'afficher le code source HTML de la page.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La **barre d'outils** est un élément contextuel de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Il contient des boutons d’action et des boutons qui vous permettent de modifier le style du texte. Les modifications effectuées s'appliquent toujours à la zone sélectionnée. Une fois que vous avez sélectionné un bloc, vous pouvez le supprimer ou le dupliquer, par exemple. Après avoir sélectionné le texte dans un bloc, vous pouvez le transformer en lien ou le mettre en gras.
+La **barre d'outils** est un élément contextuel de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
 
 ![](assets/delivery_content_17.png)
 
 >[!CAUTION]
 >
->Certaines fonctions de la barre d’outils vous permettent de formater le contenu HTML. Toutefois, si la page contient une feuille de style CSS, les **instructions** de la feuille de style peuvent prendre la **priorité** sur les instructions spécifiées dans la barre d’outils.
+>Certaines fonctionnalités de la barre d'outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s'avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d'outils.
 
 <table> 
  <thead> 
@@ -126,115 +126,115 @@ La **barre d'outils** est un élément contextuel de l'interface de l'éditeur q
    <td> <img height="21px" src="assets/link_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Lien vers une URL externe</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
-   <td> Permet d’ajouter un lien à une URL. Les détails de la configuration d’un lien sont présentés dans la section <a href="../../designing/using/links.md#inserting-a-link">Insertion d’un lien</a> .<br /> </td> 
+   <td> Permet d'ajouter un lien vers une URL. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkpage_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Lien vers une page</span> d’entrée <br /> </td> 
+   <td> <span class="uicontrol">Lien vers une landing page</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
-   <td> Permet d’accéder à une page d’entrée Adobe Campaign. Les détails de la configuration d’un lien sont présentés dans la section <a href="../../designing/using/links.md#inserting-a-link">Insertion d’un lien</a> .<br /> </td> 
+   <td> Permet d'accéder à une landing page Adobe Campaign. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Lien d'abonnement</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
-   <td> Permet d’insérer un lien d’abonnement au service. Les détails de la configuration d’un lien sont présentés dans la section <a href="../../designing/using/links.md#inserting-a-link">Insertion d’un lien</a> .<br /> </td> 
+   <td> Permet d'insérer un lien d'abonnement à un service. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Lien de désabonnement</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
-   <td> Permet d’insérer un lien de désabonnement de service. Les détails de la configuration d’un lien sont présentés dans la section <a href="../../designing/using/links.md#inserting-a-link">Insertion d’un lien</a> .<br /> </td> 
+   <td> Permet d'insérer un lien de désabonnement à un service. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/linkoff_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Supprimer le lien</span> <br /> </td> 
    <td> Lien (link)<br /> </td> 
-   <td> Permet de supprimer le lien, ainsi que toutes les configurations qui y sont liées, après confirmation.<br /> </td> 
+   <td> Permet de supprimer, après confirmation, le lien ainsi que tous les paramétrages liés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insérer un champ de personnalisation</span> <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Permet d’ajouter un champ de la base de données au contenu. Reportez-vous à <a href="../../designing/using/personalization.md#inserting-a-personalization-field">Insertion d’un champ</a>de personnalisation.<br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet d'ajouter un champ de la base de données dans le contenu. Voir <a href="../../designing/using/personalization.md#inserting-a-personalization-field">Insertion d'un champ de personnalisation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insérer un bloc de contenu</span> <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Permet d’ajouter un bloc de personnalisation au contenu. Reportez-vous à <a href="../../designing/using/personalization.md#adding-a-content-block">Ajout d’un bloc</a>de contenu.<br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet d'insérer un bloc de personnalisation dans le contenu. Voir <a href="../../designing/using/personalization.md#adding-a-content-block">Ajouter un bloc de contenu</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Activer le contenu dynamique</span> <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Permet d’insérer du contenu dynamique dans le contenu. Reportez-vous à <a href="../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page">Définition de contenu</a>dynamique.<br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet d'insérer un contenu dynamique dans le contenu. Voir <a href="../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page">Définir le contenu dynamique</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Désactiver le contenu dynamique</span> <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Allows you to delete dynamic content.<br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet de supprimer un contenu dynamique.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/increase_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Agrandissement de la police</span><br /> </td> 
-   <td> Elément Texte<br /> </td> 
+   <td> <span class="uicontrol">Agrandir la police</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
    <td> Augmente la taille du texte sélectionné (ajoute <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/decrease_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Réduire la police</span><br /> </td> 
-   <td> Elément Texte<br /> </td> 
+   <td> <span class="uicontrol">Diminuer la police</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
    <td> Réduit la taille du texte sélectionné (ajoute <strong>&lt;span style="font-size:"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Gras</span><br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Ajoute le style gras au texte sélectionné (entoure le texte de balises <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> ).<br /> </td> 
+   <td> <span class="uicontrol">Gras</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Ajoute le style gras au texte sélectionné (entoure le texte de la balise <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Italique</span><br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Ajoute le style italique au texte sélectionné (entoure le texte de balises <strong>&lt;em&gt;</strong><strong>&lt;/em&gt;</strong> ).<br /> </td> 
+   <td> <span class="uicontrol">Italique</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Ajoute le style italique au texte sélectionné (entoure le texte de la balise <strong>&lt;em&gt;</strong><strong>&lt;/em&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textunderline_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Souligné</span><br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Souligne le texte sélectionné (entoure le texte sélectionné avec <strong>&lt;span style="text-decoration: underline;"&gt;</strong> tag).<br /> </td> 
+   <td> <span class="uicontrol">Souligner</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Ajoute le style souligné au texte sélectionné (entoure le texte de la balise <strong>&lt;span style="text-decoration: underline;"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/colorselector_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Modifier la couleur</span> d’arrière-plan <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Permet de modifier la couleur d’arrière-plan du bloc sélectionné (ajoute style="backcolor: rgba(170, 86, 255, 0.87)).<br /> </td> 
+   <td> <span class="uicontrol">Changer la couleur de fond</span> <br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet de changer la couleur de fond du bloc sélectionné (ajoute style="background-color: rgba(170, 86, 255, 0.87)).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textcolor_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Changer la couleur du texte</span> <br /> </td> 
-   <td> Elément Texte<br /> </td> 
-   <td> Permet de modifier la couleur de tout le texte du bloc ou simplement le texte sélectionné dans le bloc (<strong>&lt;span style="color: #56ff56;"&gt;</strong>).<br /> </td> 
+   <td> Elément de texte<br /> </td> 
+   <td> Permet de changer la couleur de tout le texte dans le bloc ou seulement celle du texte sélectionné (<strong>&lt;span style="color: #56ff56;"&gt;</strong>).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/image_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Image</span> <br /> </td> 
    <td> Bloc contenant une image<br /> </td> 
-   <td> Permet d’insérer une image à partir d’un fichier enregistré localement.<br /> </td> 
+   <td> Permet d'insérer une image à partir d'un fichier enregistré en local.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/delete_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Supprimer</span><br /> </td> 
+   <td> <span class="uicontrol">Effacer</span> <br /> </td> 
    <td> Tout bloc<br /> </td> 
-   <td> Supprime le bloc et son contenu.<br /> </td> 
+   <td> Supprime le bloc et tout son contenu.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/duplicate_fontsize_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">Dupliquer</span><br /> </td> 
+   <td> <span class="uicontrol">Doublon</span> <br /> </td> 
    <td> Tout bloc<br /> </td> 
-   <td> Duplique le bloc, y compris les styles qui y sont liés.<br /> </td> 
+   <td> Duplique le bloc et également tous les styles associés au bloc.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -243,29 +243,29 @@ La **barre d'outils** est un élément contextuel de l'interface de l'éditeur q
 
 ### Gérer les blocs dans l'éditeur de contenu {#managing-blocks-in-the-content-editor}
 
-Les différents éléments du contenu HTML sont affichés dans la landing page sous forme de blocs, correspondant à la balise **&lt;div&gt;** **&lt;/div&gt;**. Sélectionnez un bloc pour interagir avec lui. Il sera alors entouré d'une boîte bleue.
+Les différents éléments du contenu HTML sont affichés dans la landing page sous forme de blocs, correspondant à la balise **&lt;div&gt;** **&lt;/div&gt;**. Pour agir sur un bloc, sélectionnez-le. Celui-ci est alors entouré d'un cadre de couleur bleue.
 
 ![](assets/des_lp_content_1.png)
 
-Si un bloc est sélectionné, les objets parents de l’élément HTML correspondant s’affichent dans un chemin de navigation situé au bas de la zone de modification.
+Quand un bloc est sélectionné, les objets parents de l'élément HTML correspondant s'affichent dans un fil d'Ariane situé au bas de la zone d'édition.
 
-Lorsque le pointeur de la souris survole l’un des éléments du chemin de navigation, l’élément concerné est mis en surbrillance. Vous pouvez donc naviguer facilement entre les différents blocs et sélectionner exactement l’élément HTML que vous souhaitez modifier.
+Au survol de la souris sur un élément de ce fil d'Ariane, l'élément est mis en surbrillance. Vous pouvez ainsi facilement naviguer entre les divers blocs et sélectionner précisément l'élément HTML que vous souhaitez modifier.
 
 ![](assets/des_lp_content_2.png)
 
-Utilisez les options de la palette et de la barre d’outils contextuelle pour modifier, supprimer ou dupliquer le bloc.
+Utilisez les options disponibles dans la palette et la barre d'outils contextuelle pour modifier le bloc, le supprimer ou le dupliquer.
 
-Pour les blocs contenant du texte, cliquez de nouveau dans le bloc pour activer le mode de modification du texte. Le cadre autour du bloc devient vert. Vous pouvez ensuite sélectionner ou saisir du texte. Utilisez les options de la palette et de la barre d’outils contextuelle pour ajouter un lien ou modifier la mise en forme du texte.
+Pour les blocs contenant du texte, cliquez une seconde fois dans le bloc pour activer le mode d'édition du texte. Le contour du bloc devient vert. Vous pouvez alors sélectionner ou saisir du texte. Utilisez les options disponibles dans la palette et la barre d'outils contextuelle pour ajouter un lien ou modifier le formatage du texte.
 
 ![](assets/des_lp_content_3.png)
 
-Paramètres définis pour un élément d’un bloc (liens, champs de personnalisation, blocs de contenu, etc.) peut être modifiée à tout moment à partir de la palette.
+Les paramètres définis pour un élément d'un bloc (liens, champs de personnalisation, blocs de contenu, etc.) peuvent être modifiés à tout moment à partir de la palette.
 
 ![](assets/des_lp_content_4.png)
 
 ### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu  {#adding-a-border-and-a-background-in-the-content-editor}
 
-Vous pouvez également définir une couleur **d’** arrière-plan en sélectionnant une couleur dans le graphique. Cette couleur est appliquée au bloc sélectionné.
+Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
 ![](assets/des_lp_content_5.png)
 
@@ -275,17 +275,17 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ### Changer le style du texte dans l'éditeur de contenu  {#changing-the-text-style-in-the-content-editor}
 
-Pour modifier le style du texte, vous devez cliquer à l’intérieur d’un bloc de texte.
+Pour modifier le style du texte, vous devez vous placer à l'intérieur d'un bloc de texte.
 
-Pour modifier l’alignement du texte, sélectionnez l’une des trois icônes suivantes dans la palette de gauche :
+Pour modifier l'alignement du texte, sélectionnez l'une des trois icônes suivantes dans la palette de gauche :
 
 ![](assets/des_lp_content_7.png)
 
-* **Aligner à gauche**: aligne le texte à gauche du bloc sélectionné (ajoute style="text-align: left;").
-* **Centre**: centre le texte dans le bloc sélectionné (ajoute style="text-align: center;").
+* **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style="text-align: left;").
+* **Centrer** : centre le texte du bloc sélectionné (ajoute style="text-align: center;").
 * **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style="text-align: right;").
 
-Vous pouvez également utiliser la barre d’outils pour modifier les attributs de police : adaptez la taille de la police, mettez le texte en gras ou en italique, soulignez ou modifiez la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
+Vous pouvez également utiliser la barre d'outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
 ### Insérer des images dans une landing page  {#inserting-images-in-a-landing-page}
 
@@ -302,7 +302,7 @@ Vous pouvez également utiliser la barre d’outils pour modifier les attributs 
 
    ![](assets/des_insert_images_lp_3.png)
 
-1. Modifiez les propriétés de l’image selon vos besoins.
+1. Ajustez les propriétés de l'image selon les besoins.
 
    ![](assets/des_insert_images_lp_4.png)
 
@@ -312,27 +312,27 @@ Pour définir du contenu dynamique dans une landing page, sélectionnez un bloc 
 
 ![](assets/dynamic_content_lp_1.png)
 
-Certains blocs, tels que les images, ne peuvent pas être sélectionnés directement. Dans ce cas, sélectionnez le bloc parent à l’aide du chemin de navigation. Vous pouvez ensuite modifier tous les éléments inclus dans cet élément parent, y compris les images. La condition sera appliquée à tous les éléments enfants du bloc parent.
+Certains blocs, comme les images, ne peuvent pas être sélectionnés directement. Dans ce cas, sélectionnez le bloc parent à l'aide du fil d'Ariane. Vous pourrez alors modifier tous les éléments compris dans cet élément parent, y compris les images. La condition s'appliquera à tous les éléments enfants du bloc parent.
 
-Le chemin de navigation est présenté dans la section [Gestion des blocs](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style) .
+Le fil d'Ariane est présenté dans la section [Gestion des blocs](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
-Les étapes suivantes pour définir le contenu dynamique dans une page d’entrée sont similaires aux étapes à suivre pour un courrier électronique. Reportez-vous à [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Les étapes suivantes pour définir le contenu dynamique dans une landing page sont similaires à celles que vous devez suivre pour un email. Reportez-vous à [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
->Si un élément variante est présenté en rouge, cela signifie qu’une expression n’a pas encore été définie.
+>Les éléments de variante encadrés en rouge sont ceux pour lesquels une expression n'a pas encore été définie.
 
-Vous pouvez naviguer entre les différents contenus dynamiques d’un bloc. Pour cela :
+Vous pouvez naviguer parmi les différents contenus dynamiques d'un bloc. Pour cela :
 
 1. Sélectionnez le bloc.
 
-   Les flèches apparaissent sur les côtés droit et gauche de l’image.
+   Des flèches apparaissent sur les bords gauche et droit de l'image.
 
-1. Cliquez sur la flèche droite pour parcourir le contenu dynamique disponible.
+1. Cliquez sur la flèche de droite pour naviguer.
 
    ![](assets/dynamic_content_lp_2.png)
 
-   Les flèches de chaque côté s’estompent selon que vous avez atteint le dernier ou le premier contenu dynamique disponible.
+   Le rendu des flèches est estompé lorsque vous avez navigué jusqu'au dernier contenu dynamique (ou jusqu'au premier pour la flèche de gauche).
 
    ![](assets/dynamic_content_lp_3.png)
 
@@ -343,7 +343,7 @@ Vous pouvez naviguer entre les différents contenus dynamiques d’un bloc. Pour
 
 Dans la palette :
 
-* Les contenus auxquels une expression est entrée ne sont plus décrits en rouge, mais en gris.
-* Le contenu actuellement sélectionné apparaît en bleu.
+* Les contenus pour lesquels une expression a été renseignée ne sont plus encadrés en rouge ; ils s'affichent en gris.
+* Le contenu actuellement sélectionné s'affiche en bleu.
 
 ![](assets/dynamic_content_lp_4.png)
