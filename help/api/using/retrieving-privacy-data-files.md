@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Pour récupérer le fichier contenant toutes les informations associées à une valeur de rapprochement, procédez comme suit :
 
-1. Exécutez une requête **POST** pour créer une nouvelle requête avec l’attribut **type="access"**, voir [Création d’une nouvelle requête](#creating-a-privacy-request)de confidentialité.
+1. Exécutez une requête **POST** pour créer une nouvelle requête avec l’attribut **type="access"**, voir [Création d’une nouvelle requête](../../api/using/creating-a-privacy-request.md)de confidentialité.
 
 1. Effectuez une requête **GET** pour récupérer des informations sur la requête.
 
