@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 
 ---
 
@@ -28,11 +28,11 @@ Un modèle de données d'usine est fourni avec Adobe Campaign. Ce modèle de don
 
 Le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Développement]**, accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d'**accéder aux outils de diagnostic**.
 
-Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources.
-
-Il est possible d'**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d'achats ou de produits par exemple.
+Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d'**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d'achats ou de produits par exemple.
 
 Les ressources d'usine (comme les campagnes, les e-mails ou les audiences) ne peuvent pas être modifiées. Cependant, il est possible de les étendre pour leur ajouter de nouveaux champs.
+
+Les champs d'extension sont générés avec un préfixe de sorte qu'ils n'entrent jamais en conflit avec les champs d'usine.
 
 >[!NOTE]
 >
@@ -40,4 +40,4 @@ Les ressources d'usine (comme les campagnes, les e-mails ou les audiences) ne pe
 
 Il est également possible de **configurer la navigation** dans les écrans correspondant à la ressource créée.
 
-Les champs d'extension sont générés avec un préfixe de sorte qu'ils n'entrent jamais en conflit avec les champs d'usine.
+Il est possible d’ **exporter et d’importer** des ressources personnalisées, par exemple d’un environnement de développement vers un environnement de production. For more on this, refer to this [step-by-step use case](../../automating/using/exporting-importing-custom-resources.md).
