@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # Gestion des styles {#managing-styles}
 
-## Editer un élément {#editing-an-element}
 
 Dans le Concepteur d'email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s'affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
-### Sélectionner un élément {#selecting-an-element}
+## Sélectionner un élément {#selecting-an-element}
 
 Pour sélectionner un élément dans l'interface du Concepteur d'email, vous pouvez :
 
