@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Mise à jour de la section sur l'enregistrement du contenu d'un email en tant qu
 
 Ajout d'un avertissement sur l'impact des espaces blancs supplémentaires sur la présentation du contenu d'un email –  [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Ajout d'une section sur les mises à jour recommandées du Concepteur d'email –  [En savoir plus](../../designing/using/overview.md#email-designer-updates)
+Ajout d'une section sur les mises à jour recommandées du Concepteur d'email –  [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Améliorations des workflows – En savoir plus [ici](../../automating/using/w
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-1}
 
-Ajout au chapitre Editer un contenu d'email de la nouvelle expérience d'intégration pour la création de contenu d'email et d'autres améliorations apportées au Concepteur d'email –  [En savoir plus](../../designing/using/overview.md#email-designer-home-page)
+Ajout au chapitre Editer un contenu d'email de la nouvelle expérience d'intégration pour la création de contenu d'email et d'autres améliorations apportées au Concepteur d'email –  [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 Ajout d'une section sur les limites des messages transactionnels –  [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Ajout d'informations à la section sur l'activité Extraction de fichier. Ces in
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release-2}
 
-Disponibilité générale du Concepteur d'email – [En savoir plus](../../designing/using/overview.md)
+Disponibilité générale du Concepteur d'email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Listes de produits dans les emails transactionnels – [En savoir plus](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Améliorations de la Messagerie In-App (version bêta) – [En savoir plus](..
 
 ### Autres mises à jour de la documentation accompagnant cette version {#other-documentation-updates-coming-with-the-release-2}
 
-Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d'email et l'obsolescence de l'éditeur de contenu d'email – [En savoir plus](../../designing/using/overview.md)
+Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d'email et l'obsolescence de l'éditeur de contenu d'email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Mise à jour de la documentation [In-app](../../channels/using/about-in-app-messaging.md) et [Notification push](../../channels/using/about-push-notifications.md).
 
@@ -359,7 +359,7 @@ Ajout d'une nouvelle technote sur les paramètres et le protocole du connecteur 
 
 Mise à jour de la documentation sur l'intégration d'Experience Manager avec Adobe Campaign – [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Entière réorganisation du guide "Conception du contenu", notamment pour présenter les deux éditeurs permettant de concevoir le contenu des emails – [En savoir plus](../../designing/using/overview.md)
+Entière réorganisation du guide "Conception du contenu", notamment pour présenter les deux éditeurs permettant de concevoir le contenu des emails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Découvrez comment rendre les contenus externes entièrement éditables avec Creative SDK en créant des fragments à partir des emails existants – [En savoir plus](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ Découvrez les bonnes pratiques relatives à l'utilisation de serveurs SFTP héb
 
 La liste des solutions/core services Analytics pris en charge en vue de l'intégration avec Triggers a été mise à jour – [En savoir plus](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-Certaines pages de la documentation consacrée à l'éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/overview.md)
+Certaines pages de la documentation consacrée à l'éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Version 18.3 - Mars 2018  {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ Certaines pages de la documentation consacrée à l'éditeur de contenu ont ét�
 
 Règlement général sur la protection des données de l'UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-Creative Designer pour les emails – [En savoir plus](../../designing/using/overview.md)
+Creative Designer pour les emails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Diffusions de notifications push multilingues – [En savoir plus](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ Ajout d'informations sur la configuration des landing pages pour offrir aux dest
 
 Réorganisation de la section [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md) et ajout d'un [cas pratique détaillé](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Ajout d'une note technique permettant d'apprendre comment générer un fichier CSV multilingue à utiliser pour les notifications push – [En savoir plus](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Ajout d'une note technique permettant d'apprendre comment générer un fichier CSV multilingue à utiliser pour les notifications push – [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Ajout d'informations sur le modèle d'import **Mettre à jour les logs de diffusion et les mises en quarantaine Courrier** – [En savoir plus](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ Présentation des permissions utilisateur : un cas pratique a été ajouté. Co
 
 Utilisation des API : un [cas pratique d'utilisation d'extension d'API](../../developing/using/about-extending-the-api.md) a été ajouté. Consultez également la [documentation sur les API](../../api/using/about-campaign-standard-apis.md).
 
-Messages d'erreur d'Adobe Campaign : accédez à la liste complète des messages d'erreur d'Adobe Campaign v6 et Standard, filtrés par version et langue – [En savoir plus](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Messages d'erreur d'Adobe Campaign : accédez à la liste complète des messages d'erreur d'Adobe Campaign v6 et Standard, filtrés par version et langue – [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Cas pratique de multibranding – [En savoir plus](../../administration/using/branding.md)
 
