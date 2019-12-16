@@ -11,8 +11,8 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Une fois des profils de test ajoutés à la fenêtre **[!UICONTROL Audience]**, vous pouvez prévisualiser votre message pour vérifier sa personnalisation et l'affichage de la diffusion par vos destinataires.
 
-1. Dans le [Concepteur d'email](../../designing/using/overview.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
+1. Dans le [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/sending_preview.png)
 
