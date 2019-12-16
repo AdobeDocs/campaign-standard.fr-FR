@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ Ressources supplémentaires :
 * [Déploiement des packages : Principe de fonctionnement](../../developing/using/data-model-concepts.md)
 * [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Step 1: Exporting the structure {#exporting-the-structure}
+## Exporter la structure {#exporting-the-structure}
 
 Dans cette partie, nous allons faire un premier export de package qui décrit la structure physique des données de la ressource personnalisée.
 
