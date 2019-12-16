@@ -12,13 +12,13 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# Chargement de fichier{#load-file}
+# Chargement de fichier {#load-file}
 
 ## Description {#description}
 
