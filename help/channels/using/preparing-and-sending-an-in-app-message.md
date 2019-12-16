@@ -9,11 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
-context-tags: delivery,Triggers,back;deliveryCreation,wizard
+context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,7 +79,7 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
    * **[!UICONTROL Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)]**
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**
 
-1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
+1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]** Notez que si vous n’avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n’apparaîtra pas dans la liste. For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
@@ -95,11 +95,11 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    * **[!UICONTROL Evénements d'application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+      Pour plus d'informations sur la création d'événements, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d'usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/metrics.html).
+      Pour plus d'informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d'affichage.
 
@@ -124,7 +124,7 @@ Les étapes de création d'un message In-App autonome avec Adobe Campaign sont l
 
    ![](assets/inapp_creating_5.png)
 
-1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/fr/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d'un message in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
