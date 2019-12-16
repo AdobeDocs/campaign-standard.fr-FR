@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 ### Autres changements {#other-changes-1}
 
 * Le délai de partage des rapports a été prolongé d'une à quatre minutes afin d'éviter toute erreur de timeout.
-* Lors de l'édition du contenu d'un email, le nouveau Creative Designer s'ouvre par défaut. Si vous le souhaitez, vous pouvez revenir à l'éditeur de contenu par défaut à tout moment après avoir enregistré vos modifications. Consultez à ce sujet la [documentation détaillée](../../designing/using/overview.md).
+* Lors de l'édition du contenu d'un email, le nouveau Creative Designer s'ouvre par défaut. Si vous le souhaitez, vous pouvez revenir à l'éditeur de contenu par défaut à tout moment après avoir enregistré vos modifications. Consultez à ce sujet la [documentation détaillée](../../designing/using/designing-content-in-adobe-campaign.md).
 * Dans Creative Designer, un nouveau composant de contenu peut désormais être ajouté à un email : le carrousel. Consultez à ce sujet la [documentation détaillée](../../designing/using/designing-from-scratch.md#about-content-components).
 * Si vous cliquez sur le bouton **Charger un profil** dans un rapport Hot clicks de message transactionnel, seuls les profils de test liés à l'événement que vous avez défini pour votre message transactionnel sont maintenant répertoriés.
 
@@ -317,7 +317,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
      <li> Créez et enregistrez un modèle de contenu d'email et utilisez des modèles enregistrés pour faciliter la création d'emails. </li> 
      <li> Créez et enregistrez des fragments de contenu (tels qu'un en-tête, un pied de page, un article, etc.) pour rationaliser la création de contenu et assurer la cohérence de la marque. </li> 
      <li> Passez facilement de la création d'un email dans l'interface de conception par glisser-déposer à l'édition directe de son code HTML en cliquant sur un bouton. </li> 
-    </ul> Creative Designer pour les emails est disponible uniquement en anglais.<br /> Pour plus d'informations, consultez la <a href="../../designing/using/overview.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
+    </ul> Creative Designer pour les emails est disponible uniquement en anglais.<br /> Pour plus d'informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et regardez cette <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions de notifications push multilingues <br /> </td> 
