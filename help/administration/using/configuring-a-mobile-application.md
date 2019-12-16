@@ -11,15 +11,15 @@ topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # Configuration d'une application mobile{#configuring-a-mobile-application}
 
-Les notifications push et les messages In-App sont reçus sur les applications mobiles qui doivent d'abord être configurées dans Adobe Mobile Services, selon le canal que vous souhaitez utiliser.
+Les notifications Push ou les messages in-app sont reçus sur les applications mobiles qui doivent d’abord être configurées dans Adobe Campaign Standard selon le canal à utiliser.
 
 * Pour envoyer des messages In-App et des notifications push, les applications mobiles doivent être configurées dans Adobe Campaign en utilisant les SDK Adobe Experience Platform. Voir [Utilisation du SDK Adobe Experience Platform](#using-adobe-experience-platform-sdk).
 
@@ -37,9 +37,9 @@ Une fois une application mobile configurée, vous pouvez récupérer les donnée
 
 >[!NRemarque]
 >
->Pour en savoir plus sur les différents cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce à l'utilisation des SDK Adobe Experience Platform SDK, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html).
+>Pour en savoir plus sur les différents cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce à l'utilisation des SDK Adobe Experience Platform SDK, consultez cette [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
-Pour envoyer des notifications push et des messages In-App avec l'application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour obtenir les étapes détaillées afin de configurer votre application mobile à l'aide du SDK Experience Platform, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
+Pour envoyer des notifications push et des messages In-App avec l'application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour obtenir les étapes détaillées afin de configurer votre application mobile à l'aide du SDK Experience Platform, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 Suivez les étapes ci-dessous pour commencer la configuration :
 
@@ -52,15 +52,15 @@ Suivez les étapes ci-dessous pour commencer la configuration :
 
    Pour plus d'informations sur les extensions, consultez la documentation d'[Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Configurez des règles pour votre application dans Adobe Launch. Voir [Configuration de votre application dans Adobe Launch](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
-1. Configurez votre application Adobe Launch dans Adobe Campaign Standard. Voir [Configuration de votre application Adobe Launch dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
-1. Ajoutez une configuration propre au canal à votre configuration de l'application mobile. Voir [Configuration de l'application spécifique au canal dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Configurez des règles pour votre application dans Adobe Launch. Voir [Configuration de votre application dans Adobe Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements).
+1. Configurez votre application Adobe Launch dans Adobe Campaign Standard. Voir [Configuration de votre application Adobe Launch dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
+1. Ajoutez une configuration propre au canal à votre configuration de l'application mobile. Voir [Configuration de l'application spécifique au canal dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
 
 ## Utilisation du SDK V4 {#using-sdk-v4}
 
-Contrairement aux messages in-app, les notifications push sont prises en charge par les SDK V4 et Adobe Experience Platform. Pour obtenir les étapes détaillées afin d'utiliser les notifications push avec votre application mobile, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
+Contrairement aux messages in-app, les notifications push sont prises en charge par les SDK V4 et Adobe Experience Platform. Pour obtenir les étapes détaillées afin d'utiliser les notifications push avec votre application mobile, consultez cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 Les applications mobiles recevant les notifications push doivent être configurées par un administrateur dans l'interface d'Adobe Campaign. En configurant Adobe Campaign et Adobe Mobile Services, vous serez en mesure d'utiliser les données de votre application mobile pour vos campagnes.
 
@@ -69,8 +69,8 @@ Pour pouvoir envoyer des notifications push, vous devez effectuer les opération
 1. Vérifiez que vous avez accès au canal **[!UICONTROL Application mobile]** dans Adobe Campaign.
 1. Configurez votre application mobile dans :
 
-   * [Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
-   * [Adobe Mobile Services](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices).
+   * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
+   * [Adobe Mobile Services](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices).
 
 1. Effectuer la configuration spécifique de l'application mobile :
 
@@ -79,7 +79,7 @@ Pour pouvoir envoyer des notifications push, vous devez effectuer les opération
 
 1. Définissez les données à collecter auprès des abonnés de vos applications. Les abonnés de l'application mobile dont le profil se trouve dans la base de données Adobe Campaign sont réconciliés en fonction des critères que vous avez définis.
 
-   Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
+   Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. Vérifiez que la configuration a été effectuée correctement en lançant votre application mobile sur votre appareil et en vous connectant. Assurez-vous que vous avez accepté de recevoir des notifications.
 1. Ensuite, dans le menu avancé d'Adobe Campaign, sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]** &gt; **[!UICONTROL Application mobile]**.
