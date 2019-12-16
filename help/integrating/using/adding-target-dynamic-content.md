@@ -11,8 +11,8 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -26,8 +26,8 @@ Pendant l'édition d'un email, vous pouvez insérer depuis Adobe Target une imag
 Avant d'accéder à l'image dans Adobe Campaign, les tâches suivantes doivent être réalisées dans Adobe Target :
 
 * créer une ou plusieurs [offres de redirection](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), dans lesquelles vous devez spécifier l'URL de l'image que vous souhaitez utiliser.
-* créer une ou plusieurs [audiences](https://marketing.adobe.com/resources/help/fr_FR/target/ov/c_about_segments.html), afin de définir la cible de votre activité.
-* créer une activité de type [Compositeur d'expérience d'après les formulaires](https://marketing.adobe.com/resources/help/fr_FR/target/target/t_form_experience_composer.html), dans laquelle vous devez sélectionner un "rawbox" et définir plusieurs expériences, en fonction du nombre d'offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
+* créer une ou plusieurs [audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html), afin de définir la cible de votre activité.
+* créer une activité de type [Compositeur d'expérience d'après les formulaires](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html), dans laquelle vous devez sélectionner un "rawbox" et définir plusieurs expériences, en fonction du nombre d'offres de redirection créées. Pour chaque expérience, vous devez sélectionner une des offres de redirection créées.
 * créer des segments à l'aide des informations issues d'Adobe Campaign pour spécifier des expériences. Si vous souhaitez utiliser des données issues d'Adobe Campaign dans les règles de sélection de l'offre, vous devez les spécifier au niveau du "rawbox" dans Adobe Target.
 
 1. Créez une diffusion email.
@@ -40,7 +40,7 @@ Avant d'accéder à l'image dans Adobe Campaign, les tâches suivantes doivent �
    L'intégration prend uniquement en charge les images statiques. Le reste du contenu n'est pas personnalisable.
 
 1. Saisissez le nom du "rawbox" défini dans Adobe Target.
-1. Si vous utilisez les autorisations d'Enterprise permissions dans vos paramètres d'Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d'Enterprise dans [cette page](https://marketing.adobe.com/resources/help/fr_FR/target/target/properties-overview.html). Ce champ est facultatif. Il n'est pas obligatoire si vous n'utilisez pas les autorisations d'Enterprise dans Target.
+1. Si vous utilisez les autorisations d'Enterprise permissions dans vos paramètres d'Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d'Enterprise dans [cette page](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html). Ce champ est facultatif. Il n'est pas obligatoire si vous n'utilisez pas les autorisations d'Enterprise dans Target.
 1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d'Adobe Campaign.
 
    Les champs d'Adobe Campaign utilisés doivent avoir été spécifiés au niveau du "rawbox". Vous allez définir ici différentes expériences en fonction du genre du destinataire.
@@ -53,7 +53,7 @@ La diffusion contenant l'image dynamique peut maintenant être envoyée. Ses ré
 
 **Rubriques connexes :**
 
-* [Portail d'Adobe Target](https://marketing.adobe.com/resources/help/fr_FR/target/a4t/c_campaign_and_target.html)
-* [A propos de la conception du contenu d'un email](../../designing/using/overview.md)
-* Vidéo [Personnaliser des images d'email en temps réel](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)
+* [Portail d'Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
+* [A propos de la conception du contenu d'un email](../../designing/using/designing-content-in-adobe-campaign.md)
+* Vidéo [Personnaliser des images d'email en temps réel](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)
 
