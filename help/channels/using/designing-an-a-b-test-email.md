@@ -12,8 +12,8 @@ discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ Dans le cadre spécifique d'un test A/B :
       Le test doit avoir une durée supérieure ou égale à une heure afin que des données de tracking puissent être collectées et correctement prises en compte pour le choix de la variante gagnante.
    ![](assets/ab_parameters.png)
 
-1. Une fois les paramètres du test A/B définis, passez à l'étape suivante de l'assistant et définissez le contenu de l'email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d'expéditeurs ou plusieurs contenus différents. Utilisez le carrousel afin de naviguer entre les différentes variantes de l'élément. Pour plus d'informations, consultez la section relative à l'[éditeur de contenu](../../designing/using/overview.md).
+1. Une fois les paramètres du test A/B définis, passez à l'étape suivante de l'assistant et définissez le contenu de l'email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d'expéditeurs ou plusieurs contenus différents. Utilisez le carrousel afin de naviguer entre les différentes variantes de l'élément. Pour plus d'informations, consultez la section relative à l'[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/create_ab_testing2.png)
 
@@ -87,7 +87,7 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 **Rubrique connexe** :
 
-Vidéo [Créer un email](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) 
+Vidéo [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
 
 ## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
