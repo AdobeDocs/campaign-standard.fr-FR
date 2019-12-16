@@ -12,8 +12,8 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ La préparation du message est déclenchée selon les paramètres d'exécution d
 
 1. Choisissez un type d'email. Les types d'emails sont issus des modèles d'emails définis dans **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales de l'email. Vous pouvez également rattacher l'activité à une campagne existante. Le libellé de l'activité de la diffusion dans le workflow est mis à jour avec le libellé de l'email.
-1. Définissez le contenu de l'email. Consultez la section concernant l'[édition de contenu](../../designing/using/overview.md).
+1. Définissez le contenu de l'email. Consultez la section concernant l'[édition de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
 1. Par défaut, l'activité de **[!UICONTROL Diffusion Email]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l'onglet **[!UICONTROL Général]** des options avancées de l'activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l'activité) puis cochez l'une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.
@@ -72,7 +72,7 @@ Lorsque vous ouvrez à nouveau l'activité par la suite, vous accédez au tablea
 
 Par défaut, le démarrage d'un workflow de diffusion déclenche uniquement la préparation des messages. L'envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l'option **[!UICONTROL Demander confirmation avant d'envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques {#remarks}
+## Remarques  {#remarks}
 
 Les diffusions créées à partir d'un workflow sont accessibles dans la liste des activités marketing de l'application. Vous pouvez visualiser l'état d'exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de l'email vous permettent d'accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d'un email récurrent).
 
