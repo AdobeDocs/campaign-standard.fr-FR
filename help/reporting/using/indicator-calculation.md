@@ -40,31 +40,31 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
+   <td> En blackliste<br /> </td> 
    <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
+   <td> Taux d'éléments en blackliste<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> @bounces<br /> </td> 
+   <td> Bounces + Erreurs<br /> </td> 
+   <td> @Bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> Bounce + Taux d'erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Cliquez sur<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> count(@trackingUrlType=1 ou 10 ou 11)<br /> </td> 
    <td> </td> 
@@ -82,19 +82,19 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> Taux de délivrabilité<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Erreurs hard<br /> </td> 
+   <td> Hard bounces<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br /> </td> 
+   <td> Taux de hard bounce<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
@@ -112,13 +112,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> Page miroir<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> Taux de page miroir<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
@@ -142,38 +142,38 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
+   <td> Quarantaine<br /> </td> 
    <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> Taux de mise en quarantaine<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refusé<br /> </td> 
+   <td> Refusés<br /> </td> 
    <td> @Refusé<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Refusée<br /> </td> 
+   <td> Rejetés<br /> </td> 
    <td> @rejected<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> Taux de rejet<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @envoyé<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
@@ -184,7 +184,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounce<br /> </td> 
+   <td> Taux de soft bounces<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
@@ -208,13 +208,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br /> </td> 
+   <td> Désabonner<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> Taux de désabonnement<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
@@ -241,7 +241,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  <tbody> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @envoyé<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
@@ -250,12 +250,12 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> Taux de délivrabilité<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> Bounce + Taux d'erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -285,7 +285,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliquez sur<br /> </td> 
+   <td> Clic<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
@@ -295,7 +295,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br /> </td> 
+   <td> Taux de clics<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
@@ -316,7 +316,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  <tbody> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @envoyé<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 
@@ -357,19 +357,19 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
+   <td> Rejet In-App<br /> </td> 
    <td> @dismissal<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Masquages In-App uniques<br /> </td> 
+   <td> Rejets In-App uniques<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
    <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de masquage In-App<br /> </td> 
+   <td> Taux de rejet In-App<br /> </td> 
    <td> @dismissalrate<br /> </td> 
    <td> Total fermetures/total impressions x 100<br /> </td> 
    <td> </td> 
