@@ -12,39 +12,39 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
 
 # Créer un email multilingue{#creating-a-multilingual-email}
 
-Vous pouvez envoyer un email multilingue aux profils ayant des préférences linguistiques différentes : chaque profil recevra une variante de l'email dans sa langue préférée.
+Vous pouvez envoyer un email multilingue aux profils ayant des préférences linguistiques différentes : chaque profil recevra une variante de l&#39;email dans sa langue préférée.
 
-Pour cela, vérifiez qu'un modèle d'email multilingue est disponible. Si ce n'est pas le cas, apprenez à en créer un dans [cette section](../../start/using/creating-a-multilingual-template.md).
+Pour cela, vérifiez qu&#39;un modèle d&#39;email multilingue est disponible. Si ce n&#39;est pas le cas, apprenez à en créer un dans [cette section](../../channels/using/multilingual-messages-template.md).
 
-L'audience est composée de profils dont la préférence linguistique a été indiquée.
+L&#39;audience est composée de profils dont la préférence linguistique a été indiquée.
 
-1. Créez un email à partir d'un [modèle multilingue](../../start/using/creating-a-multilingual-template.md).
+1. Créez un email à partir d&#39;un [modèle multilingue](../../channels/using/multilingual-messages-template.md).
 
    ![](assets/multi_create1.png)
 
-1. Définissez les propriétés générales et l'audience cible de l'email de la même manière que pour un email standard. Consultez la section [Créer une audience](../../audiences/using/creating-audiences.md).
-1. A la quatrième étape de l'assistant de création, définissez les options des variantes. Si le [modèle multilingue](../../start/using/creating-a-multilingual-template.md) contient déjà tous les paramètres désirés, vous pouvez cliquer directement sur le bouton **[!UICONTROL Créer]**.
+1. Définissez les propriétés générales et l&#39;audience cible de l&#39;email de la même manière que pour un email standard. Consultez la section [Créer une audience](../../audiences/using/creating-audiences.md).
+1. A la quatrième étape de l&#39;assistant de création, définissez les options des variantes. Si le [modèle multilingue](../../channels/using/multilingual-messages-template.md) contient déjà tous les paramètres désirés, vous pouvez cliquer directement sur le bouton **[!UICONTROL Créer]**.
 
    ![](assets/multi_create4.png)
 
-   Au besoin, ajoutez des variantes à l'aide du bouton **[!UICONTROL Ajouter un élément]**. **[!UICONTROL La variante Par défaut]** ne doit pas être supprimée. Lorsqu'elle est définie sur la valeur **[!UICONTROL Par défaut]**, [la langue préférée du profil](../../audiences/using/creating-profiles.md) est utilisée pour sélectionner la variante. Vous pouvez également définir la variante **[!UICONTROL Par défaut]** sur n'importe quelle autre langue.
+   Au besoin, ajoutez des variantes à l&#39;aide du bouton **[!UICONTROL Ajouter un élément]**.**[!UICONTROL  La variante Par défaut]** ne doit pas être supprimée. Lorsqu&#39;elle est définie sur la valeur **[!UICONTROL Par défaut]**, la[langue préférée du profil](../../audiences/using/creating-profiles.md)est utilisée pour sélectionner la variante. Vous pouvez également définir la variante**[!UICONTROL  Par défaut]** sur n&#39;importe quelle autre langue.
 
-1. Confirmez la création de l'email : le tableau de bord des emails s'affiche alors.
-1. Définissez le contenu de chaque variante d'email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d'expéditeurs ou plusieurs contenus différents. Utilisez le menu déroulant afin de naviguer entre les différentes variantes de l'élément. Pour plus d'informations, consultez la section relative à l'[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
+1. Confirmez la création de l&#39;email : le tableau de bord des emails s&#39;affiche alors.
+1. Définissez le contenu de chaque variante d&#39;email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d&#39;expéditeurs ou plusieurs contenus différents. Utilisez le menu déroulant afin de naviguer entre les différentes variantes de l&#39;élément. Pour plus d&#39;informations, consultez la section relative à l&#39;[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/multi_selectcontent.png)
 
 1. Testez votre message et validez-le. Reportez-vous à la section [Envoyer un bon à tirer (BAT)](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
-1. Planifiez l'envoi à l'aide de l'option **[!UICONTROL Envoi après confirmation]**.
-1. Une fois l'email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d'informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
+1. Planifiez l&#39;envoi à l&#39;aide de l&#39;option **[!UICONTROL Envoi après confirmation]**.
+1. Une fois l&#39;email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d&#39;informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
 
 **Rubrique connexe :**
 
-* [Atteindre des audiences multilingues à l'aide d'un seul workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [Atteindre des audiences multilingues à l&#39;aide d&#39;un seul workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
