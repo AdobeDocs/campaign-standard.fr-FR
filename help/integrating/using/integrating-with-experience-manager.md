@@ -1,5 +1,5 @@
 ---
-title: Intégration avec Experience Manager
+title: A propos de l’intégration de Campaign-Experience Manager
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -11,64 +11,68 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 85f4d6d7ea4bdf63505bb2c8b586de3a10073345
 
 ---
 
 
-# Intégration avec Experience Manager{#integrating-with-experience-manager}
+# A propos de l’intégration de Campaign-Experience Manager{#integrating-with-experience-manager}
 
-Cette intégration entre Adobe Campaign Standard et Experience Manager vous permet d'utiliser du contenu créé dans Adobe Experience Manager dans vos emails Adobe Campaign.
+Cette intégration entre Adobe Campaign Standard et Experience Manager vous permet d&#39;utiliser du contenu créé dans Adobe Experience Manager dans vos emails Adobe Campaign.
 
-Vous avez ainsi la possibilité de profiter à la fois des fonctionnalités d'édition de contenu d'Adobe Experience Manager, et des capacités de diffusion et de gestion de données d'Adobe Campaign.
+Vous avez ainsi la possibilité de profiter à la fois des fonctionnalités d&#39;édition de contenu d&#39;Adobe Experience Manager, et des capacités de diffusion et de gestion de données d&#39;Adobe Campaign.
 
 >[!NOTE]
 >
 >Vous ne pouvez pas effectuer de test A/B sur des contenus importés depuis Adobe Experience Manager.
 
-Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3 et 6.4. Les sections suivantes présentent une vue d'ensemble des actions que vous pouvez exécuter. Pour plus de détails, consultez les sections dédiées au [paramétrage](https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/campaignstandard.html) et à l'[utilisation](https://helpx.adobe.com/fr/experience-manager/6-4/sites/authoring/using/campaign.html) de l'intégration.
+Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6.2, 6.3 et 6.4. Les sections suivantes présentent une vue d&#39;ensemble des actions que vous pouvez exécuter. Pour plus de détails, consultez les sections dédiées au [paramétrage](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html) et à l&#39;[utilisation](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaign.html) de l&#39;intégration.
 
-## Prérequis {#prerequisites}
+## Conseils sur l’utilisation de l’intégration Campaign-Experience Manager {#tips-aem}
 
-Vous devez au préalable posséder les éléments suivants :
+* **Identifier le modèle à utiliser avec l’intégration**
 
-* Une instance Adobe Experience Manager de création (également appelée **authoring**).
-* Une instance Adobe Experience Manager de publication (également appelée **publishing**).
-* Une instance Adobe Campaign
+   Les modèles de courrier électronique pouvant être modifiés dans Adobe Experience Manager, il peut s’avérer plus facile de modifier n’importe quel modèle dans Adobe Experience Manager. Mais certains modèles ne sont pas facilement adaptés. Les modèles personnalisés spécifiques à un client ne sont pas recommandés pour cette intégration et doivent être modifiés directement dans Adobe Campaign Standard.
 
-## Utilisation :{#use-case}
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/templates.html).
 
-Pour créer un contenu d'email dans Adobe Experience Manager :
+* **Assurez-vous que l’Externalizer a été configuré pendant l’implémentation.**
 
-1. Créez un contenu email à partir d'un des modèles spécifiquement conçus pour Adobe Campaign
-1. Dans les propriétés du contenu, sélectionnez le **[!UICONTROL Cloud Service]** correspondant à votre instance Adobe Campaign.
-1. Editez le contenu en y insérant du texte, des images, de la personnalisation, etc.
-1. Validez le contenu.
+   La configuration de l’Externalizer lors de l’implémentation d’Experience Manager pour Adobe Campaign Standard permet de transformer un chemin de ressource en une URL. Cela vous permet de rendre vos images visibles sur la page. Si l’Externalizer n’est pas configuré correctement, vos courriels contiennent des images endommagées.
 
-Pour plus d'informations, consultez la [documentation détaillée](https://docs.adobe.com/docs/fr/aem/6-2/author/personalization/adobe-campaign/campaign.html).
+   To learn how to configure the Externalizer, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/externalizer.html)
 
-![](assets/aem_content.png)
+* **Organisez vos modèles de courrier électronique pour éviter toute utilisation abusive.**
 
-Pour récupérer le contenu dans Adobe Campaign :
+   Le fait de conserver les modèles organisés garantit que les modèles appropriés se trouvent dans les dossiers appropriés et de ne pas choisir les modèles incorrects par erreur. Lors de l’implémentation, vous devez créer des chemins d’accès pour enregistrer les modèles aux emplacements appropriés.
 
-1. Créez un email basé sur un modèle dont le type de contenu est Adobe Experience Manager.
-1. Liez un contenu créé avec Adobe Experience Manager via l'écran de définition du contenu de l'email Adobe Campaign.
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/templates.html#template-availability)
 
-![](assets/aem_linked_content.png)
+* **Commencez rapidement avec les composants prêts à l&#39;emploi.**
 
-## Configuration {#configuration}
+   Les composants prêts à l’emploi d’Adobe Experience Manager pour Adobe Campaign Standard peuvent vous aider à démarrer rapidement si vos modèles ne sont pas complexes.
+Il existe sept composants prêts à l’emploi dans Experience Manager que vous pouvez commencer à utiliser :
+   1. Titre
+   1. Image
+   1. Lien
+   1. Modèle d’image Scene7
+   1. Référence ciblée
+   1. Texte et image
+   1. Texte et personnalisation
 
-Afin de pouvoir utiliser conjointement ces deux solutions, vous devez les paramétrer pour les connecter l'une à l'autre.
+* **Le code HTML pour les courriers électroniques est différent du code HTML pour le Web**
 
-1. Paramétrez Adobe Campaign. Pour cela :
+   Il est important de comprendre que vous ne pouvez pas utiliser les mêmes composants utilisés dans votre contenu Web pour les modèles de courrier électronique. L’utilisation de composants prêts à l’emploi garantit la compatibilité de vos composants avec les courriers électroniques.
 
-   * Configurez un compte externe de type Adobe Experience Manager.
-   * Configurez l'option **AEMResourceTypeFilter**, permettant de reconnaître les type de contenus créé pour Adobe Campaign dans Adobe Experience Manager.
-   * Créez un modèle d'email spécifiant que le contenu est de type Adobe Experience Manager et associez à ce modèle le compte externe créé précédemment.
+* **Dissociez le contenu des modèles et réutilisez-les encore et encore.**
 
-1. Paramétrez Adobe Experience Manager. Pour cela :
+   Lors de la configuration de vos courriers électroniques dans Campaign Standard et de la sélection d’un modèle Experience Manager, vous pouvez uniquement en choisir un qui n’a pas encore été lié à une autre campagne. Dans le cas contraire, si vous modifiez le contenu d’Adobe Experience Manager pour une campagne et l’actualisez, vous pouvez involontairement affecter le contenu de l’autre campagne.
+Pour éviter cela, une fois que vous avez fini d’utiliser votre modèle, vous pouvez le dissocier pour l’utiliser à nouveau. Il vous suffit de sélectionner le modèle et de cliquer sur **[!UICONTROL Supprimer le lien avec le contenu]**d’Adobe Experience Manager.
 
-   * Configurez la réplication entre les instances Adobe Experience Manager de création et de publication.
-   * Connectez Adobe Experience Manager à Adobe Campaign en configurant un **[!UICONTROL Cloud Service dédié]**.
+* **Utilisez Adobe Experience Manager pour créer des variantes de courriers électroniques pour Adobe Campaign Standard.**
 
+   Cette intégration vous permet de transformer facilement un courrier électronique en plusieurs versions avec la segmentation.
+Pour savoir comment configurer la segmentation dans Adobe Experience Manager et comment créer des courriers électroniques avec du contenu ciblé, consultez cette [page](https://docs.adobe.com/help/en/experience-manager-64/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem).
+
+* **Pour une synchronisation réussie, le nom du segment dans Experience Manager doit correspondre exactement au nom du segment dans Campaign.**
