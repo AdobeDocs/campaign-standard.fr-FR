@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
+source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
 
 ---
 
@@ -91,7 +91,6 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 **Rubriques connexes** :
 
 * Vidéo [Créer un email](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) video
-* Guide détaillé [Créer un email personnalisé](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)
+* Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * Vidéo [Intégration d&#39;Adobe Campaign et de Dreamweaver](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
-
