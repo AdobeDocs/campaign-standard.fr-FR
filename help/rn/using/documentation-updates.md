@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
+source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
 
 ---
 
@@ -24,6 +24,16 @@ Découvrez l&#39;ensemble des mises à jour les plus récentes de la documentati
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d&#39;Adobe Campaign Standard.
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d&#39;Adobe Campaign.
+
+## Mises à jour de la documentation - Janvier 2020 {#doc-updates-january-2020}
+
+Le guide de prise en main &quot;Création d’un processus de remise sur plusieurs canaux&quot; a été mis à jour et inclus dans la documentation principale. [En savoir plus](../../automating/using/workflow-cross-channel-delivery.md)
+
+Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques –  [En savoir plus](../../reporting/using/indicator-calculation.md)
+
+Une nouvelle page sur les instructions générales relatives aux livraisons mobiles dans Adobe Campaign Standard a été ajoutée. [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
+La documentation relative à l’utilisation de Campaign et d’Experience Manager a été mise à jour avec une nouvelle section **Conseils sur l’utilisation de l’intégration** de Campaign-Experience Manager. [En savoir plus](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 ## Mises à jour de la documentation - décembre 2019 {#doc-updates-december-2019}
 
