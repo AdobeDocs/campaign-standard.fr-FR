@@ -11,8 +11,8 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## A propos des fonctions {#about-functions}
 
-L'outil d'édition de requêtes permet d'utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l'outil contient l'élément **[!UICONTROL Expression]** que vous pouvez utiliser dans l'espace de travail. L'utilisation de cet élément est détaillée dans une [section spécifique](../../automating/using/advanced-expression-editing.md).
+L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l&#39;outil contient l&#39;élément **[!UICONTROL Expression]**que vous pouvez utiliser dans l&#39;espace de travail. L&#39;utilisation de cet élément est détaillée dans une[section spécifique](../../automating/using/advanced-expression-editing.md).
 
 Cet élément vous permet de saisir manuellement vos conditions. Vous pouvez y utiliser les fonctions définies dans les sections ci-après.
 
@@ -37,7 +37,7 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 
 ## Dates {#dates}
 
-Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d'heure.
+Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
 
 <table> 
  <tbody> 
@@ -321,7 +321,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Renvoie le plus grand entier supérieur ou égal à un nombre<br /> </td> 
+   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
    <td> Floor(&lt;nombre&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -662,7 +662,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
 ## des agrégats.{#aggregates}
 
-Les fonctions d'agrégation sont disponibles uniquement lors de l'[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]** d'un workflow.
+Les fonctions d&#39;agrégation sont disponibles uniquement lors de l&#39;[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]**d&#39;un workflow.
 
 Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
 
