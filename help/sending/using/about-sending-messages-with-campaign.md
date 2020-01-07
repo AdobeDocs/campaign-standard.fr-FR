@@ -11,34 +11,33 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
 
-# A propos de l'envoi de messages avec Campaign{#about-sending-messages-with-campaign}
+# A propos de l&#39;envoi de messages avec Campaign{#about-sending-messages-with-campaign}
 
-Une fois que vous avez défini la cible et créé le contenu de votre message, vous devez le tester et le valider avant de l'envoyer à la cible principale. Pour cela :
+Une fois que vous avez défini la cible et créé le contenu de votre message, vous devez le tester et le valider avant de l&#39;envoyer à la cible principale. Pour cela :
 
-* Prévisualisez votre diffusion à l'aide d'un profil de test.
-* Planifiez l'envoi : définissez à quel moment envoyer le message.
-* Préparez l'envoi : cette étape permet de procéder à l'analyse et à la préparation des messages à envoyer. La préparation analyse la cible, la personnalisation et la validité du message. Les erreurs détectées pendant cette étape doivent être corrigées avant de poursuivre. Vous pouvez effectuer la préparation autant de fois que nécessaire.
+* Prévisualisez votre diffusion à l&#39;aide d&#39;un profil de test.
+* Planifiez l&#39;envoi : définissez à quel moment envoyer le message.
+* Préparez l&#39;envoi : cette étape permet de procéder à l&#39;analyse et à la préparation des messages à envoyer. La préparation analyse la cible, la personnalisation et la validité du message. Les erreurs détectées pendant cette étape doivent être corrigées avant de poursuivre. Vous pouvez effectuer la préparation autant de fois que nécessaire.
 
    >[!NOTE]
    >
    >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
 
-* Testez l'envoi : cette étape permet de valider le message via l'envoi de bons à tirer (BAT).
-* Vérifiez le rendu de la diffusion : vérifiez que l'affichage de votre message sera optimal sur divers clients web, webmails et appareils (vivement recommandé).
-* Envoyez le message : une fois que le message est prêt, vous pouvez commencer l'envoi. Accédez aux logs et aux rapports disponibles pour contrôler la diffusion de votre message et mesurer le succès de votre campagne. Adobe Campaign propose également un système d'alerte par email pour tracker les succès et les échecs des diffusions.
+* Testez l&#39;envoi : cette étape permet de valider le message via l&#39;envoi de bons à tirer (BAT).
+* Vérifiez le rendu de la diffusion : vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils (vivement recommandé).
+* Envoyez le message : une fois que le message est prêt, vous pouvez commencer l&#39;envoi. Accédez aux logs et aux rapports disponibles pour contrôler la diffusion de votre message et mesurer le succès de votre campagne. Adobe Campaign propose également un système d&#39;alerte par email pour tracker les succès et les échecs des diffusions.
 
 **Rubriques connexes** :
 
 * [A propos de la planification des messages](../../sending/using/about-scheduling-messages.md)
-* [Préparer l'envoi](../../sending/using/preparing-the-send.md)
+* [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md)
 * [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
-* [Recevoir des alertes en cas d'échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Optimiser votre délivrabilité](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_Deliverability.html)
-
+* [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md)
