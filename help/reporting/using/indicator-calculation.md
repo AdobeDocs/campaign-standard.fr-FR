@@ -11,13 +11,17 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+translation-type: tm+mt
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # Calcul des indicateurs{#indicator-calculation}
+
+>[!NOTE]
+>
+>Pour mieux traiter et gérer les volumes élevés et les analyses en temps réel, les rapports dynamiques utilisent des agrégations approximatives pour des estimations de décompte distinctes. Les agrégations approximatives offrent une utilisation de mémoire limitée et sont souvent plus rapides que les calculs exacts.
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
@@ -152,13 +156,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Refusés<br /> </td> 
-   <td> @Refusé<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> Rejetés<br /> </td> 
    <td> @rejected<br /> </td> 
