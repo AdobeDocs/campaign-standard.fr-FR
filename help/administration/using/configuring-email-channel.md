@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ La section **[!UICONTROL Tracking]**propose les paramètres suivants :
 
 La section **[!UICONTROL Paramètres avancés]**propose les paramètres suivants :
 
-Les deux premiers champs permettent de saisir les informations nécessaires à l&#39;élaboration des en-têtes de messages email (adresse de réponse et texte de l&#39;adresse de réponse). Ces informations peuvent être personnalisées. Pour cela, cliquez sur le bouton situé à droite du champ à éditer, puis ajoutez des champs de personnalisation. L&#39;insertion et l&#39;utilisation de champs de personnalisation sont présentées dans la section [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+Les premiers champs vous permettent de saisir les informations nécessaires pour développer les en-têtes de courrier électronique. Vous pouvez gérer ici l&#39;adresse de réponse et le texte ainsi que l&#39;adresse de l&#39;expéditeur (qui remplit le champ &quot;De :&quot;). Ces informations peuvent être personnalisées.
+
+Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le champ de personnalisation, le bloc de contenu ou le texte dynamique.
+
+![](assets/advancedparameters.png)
+
+L’insertion et l’utilisation du contenu de personnalisation sont détaillées dans la documentation sur le contenu [de l’e-mail de](../../designing/using/personalization.md) personnalisation.
 
 #### Contexte de ciblage {#target-context}
 
@@ -326,4 +332,3 @@ La fonctionnalité Email BCC est activée dans le [modèle d&#39;email](../../st
 >[!NOTE]
 >
 >Si les emails envoyés à l&#39;adresse en bcc sont ouverts et font l&#39;objet de clics, cela sera pris en compte dans les **[!UICONTROL Ouvertures totales]**et les**[!UICONTROL  Clics]** provenant de l&#39;analyse d&#39;envoi, ce qui pourrait entraîner des erreurs de calcul.
-
