@@ -4,28 +4,24 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
 
-# Centre d'aide {#campaign-standard-documentation}
+# Centre d&#39;aide {#campaign-standard-documentation}
 
 ![](start/using/assets/banner_acs_doc.jpg)
 
 ## Nouveautés
 
-* **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
+* **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
 
-* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-Découvrez les bonnes pratiques en matière de conception de diffusion et d'envoi.
+* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Découvrez les bonnes pratiques en matière de conception de diffusion et d&#39;envoi.
 
-* **[Concepteur d'email](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-Consultez la documentation réorganisée relative au concepteur d'email.
+* **[Concepteur d&#39;email](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consultez la documentation réorganisée relative au concepteur d&#39;email.
 
-* **[Landing pages](channels/using/getting-started-with-landing-pages.md)**<br/>
-Découvrez comment configurer une landing page.
+* **[Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>de Campaign Standard Mobile En savoir plus sur les directives générales pour les livraisons mobiles.
 
 [Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
 
