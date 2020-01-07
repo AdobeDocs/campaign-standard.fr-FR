@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 ---
 
@@ -23,15 +23,15 @@ Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cib
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
-* importer une liste de profils depuis un fichier, par l'intermédiaire d'un [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html) ;
+* importer une liste de profils depuis un fichier, par l&#39;intermédiaire d&#39;un [workflow](../../automating/using/importing-data.md#example--import-workflow-template) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/getting-started-with-landing-pages.md) ;
-* créer des profils en masse via l'[API REST](../../api/using/about-campaign-standard-apis.md) ;
+* créer des profils en masse via l&#39;[API REST](../../api/using/about-campaign-standard-apis.md) ;
 * synchroniser les profils depuis [Microsoft Dynamics](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html) ;
-* saisir des données dans les écrans de l'interface graphique, comme expliqué ci-dessous.
+* saisir des données dans les écrans de l&#39;interface graphique, comme expliqué ci-dessous.
 
-Par exemple, pour créer un profil directement dans l'interface utilisateur, procédez comme suit :
+Par exemple, pour créer un profil directement dans l&#39;interface utilisateur, procédez comme suit :
 
-1. Depuis la page d'accueil d'Adobe Campaign, cliquez sur la vignette **Profils clients** ou l'onglet **Profils** pour accéder à la liste des profils.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **Profils clients** ou l&#39;onglet **Profils** pour accéder à la liste des profils.
 
    ![](assets/profile_creation_1.png)
 
@@ -44,29 +44,28 @@ Par exemple, pour créer un profil directement dans l'interface utilisateur, pro
    ![](assets/profile_creation1.png)
 
    * Les informations de contact, telles que nom, prénom, genre, date de naissance, photo, préférence linguistique (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)) permettent de personnaliser davantage les diffusions.
-   * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d'opt-out, indique sur quel canal le profil est accessible.
-   * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu'un profil se désabonne d'un canal.
-   * La catégorie **[!UICONTROL Adresse]** contient l'adresse postale qui doit être complétée ainsi que l'option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n'est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
-   * La catégorie **[!UICONTROL Autorisation d'accès]** indique les entités organisationnelles du profil (pour [gérer les permissions](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
-   * La catégorie **[!UICONTROL Traçabilité]** est automatiquement mise à jour avec les informations concernant l'utilisateur qui a créé ou modifié le profil.
+   * Le **[!UICONTROL Fuseau horaire]**du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette[section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
+   * La catégorie **[!UICONTROL Ne plus contacter]**est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
+   * La catégorie **[!UICONTROL Adresse]**contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option**[!UICONTROL  Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]**n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
+   * La catégorie **[!UICONTROL Autorisation d&#39;accès]**indique les entités organisationnelles du profil (pour[gérer les permissions](../../administration/using/about-access-management.md)). Voir également[Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
+   * La catégorie **[!UICONTROL Traçabilité]**est automatiquement mise à jour avec les informations concernant l&#39;utilisateur qui a créé ou modifié le profil.
 
-1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le profil.
+1. Cliquez sur **[!UICONTROL Créer]**pour enregistrer le profil.
 
 Le profil est ajouté à la liste.
 
 >[!NOTE]
 >
->La création des profils est également possible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
+>La création des profils est également possible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
 
 Les profils peuvent être également partitionnés en fonction de leurs entités organisationnelles. Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
 
 >[!NOTE]
 >
->Le champ des préférences linguistiques est utilisé pour sélectionner la langue lors de l'envoi de messages multilingues. Pour plus d'informations sur les messages multilingues, consultez [cette page](../../channels/using/creating-a-multilingual-email.md).
+>Le champ des préférences linguistiques est utilisé pour sélectionner la langue lors de l&#39;envoi de messages multilingues. Pour plus d&#39;informations sur les messages multilingues, consultez [cette page](../../channels/using/creating-a-multilingual-email.md).
 
 **Rubriques connexes :**
 
 * Guide détaillé [A propos des landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Importer des profils](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-
+* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr) video
