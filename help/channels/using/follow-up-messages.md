@@ -11,35 +11,35 @@ topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 3fdde5e938dd2d29455396b21398530d09f6d1ae
 
 ---
 
 
 # Messages de relance{#follow-up-messages}
 
-Vous pouvez envoyer un message de relance aux clients qui ont reçu un message transactionnel spécifique. Pour cela, vous devez configurer un workflow ciblant l'événement correspondant.
+Vous pouvez envoyer un message de relance aux clients qui ont reçu un message transactionnel spécifique. Pour cela, vous devez configurer un workflow ciblant l&#39;événement correspondant.
 
-Reprenons l'exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) : un email d'abandon de panier est envoyé aux visiteurs de votre site Web ayant ajouté des produits dans leur panier, mais ayant quitté le site sans poursuivre leurs achats.
+Reprenons l&#39;exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) : un email d&#39;abandon de panier est envoyé aux visiteurs de votre site Web ayant ajouté des produits dans leur panier, mais ayant quitté le site sans poursuivre leurs achats.
 
-Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d'abandon de panier, mais ne l'ayant pas ouverte au bout de trois jours.
+Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d&#39;abandon de panier, mais ne l&#39;ayant pas ouverte au bout de trois jours.
 
 Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
 ## Accéder aux messages de relance {#accessing-the-follow-up-messages}
 
-Une fois que vous avez créé et publié l'événement de votre choix (dans l'[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l'abandon de panier), le message transactionnel et le message de relance correspondants sont automatiquement créés.
+Une fois que vous avez créé et publié l&#39;événement de votre choix (dans l&#39;[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l&#39;abandon de panier), le message transactionnel et le message de relance correspondants sont automatiquement créés.
 
-Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message de relance](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
+Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message de relance](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message).
 
-Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/event-transactional-messages.md) créé lors de la publication de l'événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d'événement et qui peut être utilisé comme modèle dans un workflow.
+Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/event-transactional-messages.md) créé lors de la publication de l&#39;événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d&#39;événement et qui peut être utilisé comme modèle dans un workflow.
 
 Pour accéder à ce modèle :
 
 1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche.
-1. Sélectionnez **[!UICONTROL Ressources]** &gt; **[!UICONTROL Modèles]** &gt; **[!UICONTROL Modèles de diffusion]**.
-1. Cochez la case **[!UICONTROL Messages de relance]** dans le volet de gauche.
+1. Sélectionnez **[!UICONTROL Ressources]** >**[!UICONTROL  Modèles]** > **[!UICONTROL Modèles de diffusion]**.
+1. Cochez la case **[!UICONTROL Messages de relance]**dans le volet de gauche.
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -51,79 +51,79 @@ Seuls les messages de relance sont affichés.
 
 ## Envoyer un message de relance {#sending-a-follow-up-message}
 
-Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l'utiliser dans un workflow pour envoyer un message de relance.
+Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&#39;utiliser dans un workflow pour envoyer un message de relance.
 
 1. Accédez à la liste des activités marketing et créez un workflow.
 
    Voir à ce propos la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Placez une activité **[!UICONTROL Planificateur]** dans le workflow, puis ouvrez-la. Définissez la fréquence d'exécution sur une fois par jour.
+1. Placez une activité **[!UICONTROL Planificateur]**dans le workflow, puis ouvrez-la. Définissez la fréquence d&#39;exécution sur une fois par jour.
 
-   L'activité Planificateur est présentée dans la section [Planificateur](../../automating/using/scheduler.md).
+   L&#39;activité Planificateur est présentée dans la section [Planificateur](../../automating/using/scheduler.md).
 
-1. Placez une activité **[!UICONTROL Requête]** dans votre workflow, puis ouvrez-la.
+1. Placez une activité **[!UICONTROL Requête]**dans votre workflow, puis ouvrez-la.
 
-   L'activité Requête est présentée dans la section [Requête](../../automating/using/query.md).
+   L&#39;activité Requête est présentée dans la section [Requête](../../automating/using/query.md).
 
-1. Pour effectuer la requête sur une autre ressource que celle des profils, accédez à l'onglet **[!UICONTROL Propriétés]** de l'activité et cliquez sur la liste déroulante **[!UICONTROL Ressource]**.
+1. Pour effectuer la requête sur une autre ressource que celle des profils, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de l&#39;activité et cliquez sur la liste déroulante**[!UICONTROL  Ressource]**.
 
    ![](assets/message-center_follow-up-query-properties.png)
 
    >[!NOTE]
    >
-   >Par défaut, l'activité est pré-paramétrée pour rechercher des profils.
+   >Par défaut, l&#39;activité est pré-paramétrée pour rechercher des profils.
 
-1. Sélectionnez l'événement à cibler. Vous aurez ainsi uniquement accès aux données de cet événement.
+1. Sélectionnez l&#39;événement à cibler. Vous aurez ainsi uniquement accès aux données de cet événement.
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Accédez à l'onglet **[!UICONTROL Cible]**, puis faites glisser l'élément **[!UICONTROL Logs de diffusion (logs)]** depuis la section **[!UICONTROL Email]** dans l'espace de travail.
+1. Go to the activity&#39;s **[!UICONTROL Target]**tab and drag and drop the**[!UICONTROL  Delivery logs (logs)]** element from the palette into the workspace.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clients ayant reçu l'email.
+   Sélectionnez **[!UICONTROL Existe]**pour cibler tous les clients ayant reçu l&#39;email.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Déplacez l'élément **[!UICONTROL Tracking (tracking)]** de la palette vers l'espace de travail, puis sélectionnez **[!UICONTROL N'existe pas]** pour cibler tous les clients qui n'ont pas ouvert l'email.
+1. Déplacez l&#39;élément **[!UICONTROL Tracking (tracking)]**de la palette vers l&#39;espace de travail, puis sélectionnez**[!UICONTROL  N&#39;existe pas]** pour cibler tous les clients qui n&#39;ont pas ouvert l&#39;email.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Déplacez l'événement que vous ciblez (**Abandon de panier** dans cet exemple) depuis la section **[!UICONTROL Email]** vers l'espace de travail. Définissez ensuite une règle pour cibler tous les messages envoyés il y a trois jours.
+1. Drag and drop the event that you are targeting (**Cart abandonment** in this example) from the palette into the workspace. Définissez ensuite une règle pour cibler tous les messages envoyés il y a trois jours.
 
    ![](assets/message-center_follow-up-created.png)
 
-   Tous les destinataires qui ont reçu le message transactionnel trois jours avant l'exécution du workflow et qui ne l'ont pas encore ouvert sont donc ciblés.
+   Tous les destinataires qui ont reçu le message transactionnel trois jours avant l&#39;exécution du workflow et qui ne l&#39;ont pas encore ouvert sont donc ciblés.
 
-   Cliquez sur **[!UICONTROL Confirmer]** pour enregistrer la requête.
+   Cliquez sur **[!UICONTROL Confirmer]**pour enregistrer la requête.
 
 1. Placez une activité **Diffusion Email** dans votre workflow.
 
-   L'activité Diffusion Email est présentée dans la section [Diffusion Email](../../automating/using/email-delivery.md).
+   L&#39;activité Diffusion Email est présentée dans la section [Diffusion Email](../../automating/using/email-delivery.md).
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Vous pouvez également utiliser une activité [Diffusion SMS](../../automating/using/sms-delivery.md) ou [Diffusion sur des applications mobiles](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** lors de la configuration de l'événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+   Vous pouvez également utiliser une activité [Diffusion SMS](../../automating/using/sms-delivery.md) ou [Diffusion sur des applications mobiles](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]**ou**[!UICONTROL  Application mobile]** lors de la configuration de l&#39;événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 
-1. Ouvrez l'activité **Diffusion Email.** Dans l'assistant de création, cochez la case **[!UICONTROL Messages de relance]** et sélectionnez le modèle de diffusion de relance qui a été créé après la publication de l'événement.
+1. Ouvrez l&#39;activité **Diffusion Email.** Dans l&#39;assistant de création, cochez la case **[!UICONTROL Messages de relance]**et sélectionnez le modèle de diffusion de relance qui a été créé après la publication de l&#39;événement.
 
    ![](assets/message-center_follow-up-template.png)
 
-1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l'événement en ajoutant des champs de personnalisation.
+1. Dans le contenu du message de relance, vous pouvez utiliser le contenu de l&#39;événement en ajoutant des champs de personnalisation.
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Pour rechercher les champs que vous avez définis lors de la création de votre événement, sélectionnez **[!UICONTROL Contexte]** &gt; **[!UICONTROL Evénement temps réel]** &gt; **[!UICONTROL Contexte de l'événement]**. Voir [Personnaliser un message transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]**>**[!UICONTROL  Real-time event]** > **[!UICONTROL Event context]**. Voir[Personnaliser un message transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
-   Ainsi, vous pouvez utiliser le même contenu, notamment les données enrichies, qui a été utilisé lors du premier envoi de l'événement, afin de créer un rappel personnalisé.
+   Ainsi, vous pouvez utiliser le même contenu, notamment les données enrichies, qui a été utilisé lors du premier envoi de l&#39;événement, afin de créer un rappel personnalisé.
 
-1. Enregistrez l'activité et démarrez le workflow.
+1. Enregistrez l&#39;activité et démarrez le workflow.
 
-Une fois le workflow lancé, chaque client ayant reçu une notification d'abandon de panier il y a trois jours, mais ne l'ayant pas ouverte, recevra un message de relance reposant sur les mêmes données que dans cette première notification.
+Une fois le workflow lancé, chaque client ayant reçu une notification d&#39;abandon de panier il y a trois jours, mais ne l&#39;ayant pas ouverte, recevra un message de relance reposant sur les mêmes données que dans cette première notification.
 
 >[!NOTE]
 >
->Si vous avez sélectionné la dimension de ciblage **[!UICONTROL Profil]** lors de la création de la configuration de l'événement, le message de relance utilisera également la base de données marketing d'Adobe Campaign. Voir [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md).
+>Si vous avez sélectionné la dimension de ciblage **[!UICONTROL Profil]**lors de la création de la configuration de l&#39;événement, le message de relance utilisera également la base de données marketing d&#39;Adobe Campaign. Voir[Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md).
 
