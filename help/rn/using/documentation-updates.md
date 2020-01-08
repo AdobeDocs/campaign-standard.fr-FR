@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ Une nouvelle section sur l’utilisation des pièges a été ajoutée. [En savoi
 
 Une note sur l’option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d’une application mobile à l’aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-Le guide du concepteur d’email a été réorganisé. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+Le guide du concepteur de courrier électronique a été réorganisé. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Mises à jour de la documentation - Août 2019 {#doc-updates-august-2019}
 
