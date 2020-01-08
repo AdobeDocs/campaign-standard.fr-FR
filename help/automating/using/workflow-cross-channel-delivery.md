@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ Dans ce cas pratique, l&#39;objectif est de sélectionner une audience parmi les
 Pour plus d&#39;informations sur les workflows et les différents canaux disponibles dans Adobe Campaign, consultez les documents suivants :
 
 * [Présentation des workflows](../../automating/using/discovering-workflows.md)
-* [Canaux de communication](../../channels/using/discovering-communication-channels.md)
+* [Découvrir les canaux de communication](../../channels/using/discovering-communication-channels.md)
 
 ## Créer un workflow  {#creating-workflow}
 
@@ -126,7 +126,7 @@ Adobe Campaign vous permet d&#39;ajouter des diffusions dans un workflow. Pour c
 
 Pour créer une diffusion par courrier électronique :
 
-1. Drag and drop an **[!UICONTROL Email delivery]**after the fist segment.
+1. Drag and drop an **[!UICONTROL Email delivery]**after the first segment.
 1. Double-cliquez sur l&#39;activité   pour l&#39;éditer.
 1. Sélectionnez Courriel ****simple.
 1. Select **[!UICONTROL Add an outbound transition with the population]**and click**[!UICONTROL  Next]**.
