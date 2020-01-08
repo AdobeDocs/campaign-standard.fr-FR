@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ Ajout d&#39;une section comportant des cas pratiques sur les workflows axés sur
 
 Ajout d&#39;une procédure dans la section de dépannage des workflows. Celle-ci aborde la manière d&#39;afficher les requêtes SQL dans l&#39;onglet Log –  [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ajout d&#39;un article d&#39;aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le panneau de contrôle –  [En savoir plus](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+Ajout d&#39;un article d&#39;aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le panneau de contrôle –  [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 Mise à jour de la section décrivant les modèles et les fragments de contenu. [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Ajout d&#39;un avertissement à la documentation des ressources personnalisées.
 
 ### Nouvelles fonctionnalités de cette version {#new-capabilities-included-in-the-release}
 
-Panneau de contrôle – [En savoir plus](https://helpx.adobe.com/campaign/kb/control-panel.html)
+Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Notifications locales – [En savoir plus](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
