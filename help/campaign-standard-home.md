@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Découvrez les bonnes pratiques en matière de conception de diffusion et d&#39;envoi.
 
-* **[Concepteur d&#39;email](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consultez la documentation réorganisée relative au concepteur d&#39;email.
+* **[Concepteur](designing/using/designing-content-in-adobe-campaign.md)**<br/>de courrier électronique Consultez la documentation de Designer de courrier électronique réorganisée.
 
 * **[Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>de Campaign Standard Mobile En savoir plus sur les directives générales pour les livraisons mobiles.
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Concevoir un email</strong></a>
     </div>
-    <em>Découvrez comment utiliser le concepteur d'email pour créer des emails réactifs et personnalisés.</em>
-    <br>
+    <em>Découvrez comment utiliser le concepteur de courrier électronique pour créer des courriers électroniques</em>réactifs et personnalisés <br>
   </td>
   <td valign="top">
        <img alt="Développeurs" src="start/using/assets/dev.png" />
