@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ Ressources supplémentaires :
 * [Calendrier des versions de Campaign](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
 * [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Panneau de contrôle](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [Notes de mise à jour du Panneau de configuration](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * Notes de mise à jour précédentes : [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ Mise en place d&#39;une série d&#39;améliorations et de correctifs afin d&#39;
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l'efficacité de votre travail en tant qu'utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">vidéo de procédure</a>.</p></td> 
+   <td> <p>Pour accroître l'efficacité de votre travail en tant qu'utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d'informations, consultez la <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">documentation détaillée</a> et la <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifications locales<br /> </td> 
