@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -25,7 +25,7 @@ Une fois que vous avez créé l&#39;événement de votre choix, il vous faut int
 
 >[!NOTE]
 >
->La création et la publication d’un événement sont présentées dans [cette section](../../administration/using/configuring-transactional-messaging.md).
+>La création et la publication d’un événement sont présentées dans <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">la documentation</a>de la campagne.
 
 Par exemple, vous souhaitez qu’un événement &quot;abandon de panier&quot; soit déclenché chaque fois qu’un client quitte votre site Web avant d’acheter les produits dans son panier. Pour ce faire, votre développeur Web doit utiliser l’API de messages transactionnels REST.
 
