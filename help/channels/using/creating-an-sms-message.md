@@ -79,6 +79,6 @@ Une fois l'envoi terminé, vous pouvez commencer à mesurer l'impact de votre me
 **Rubriques connexes :**
 
 * [A propos de l'édition du contenu d'un SMS et d'une notification push](../../channels/using/about-sms-and-push-content-design.md)
-* [Gestion des modèles](../../start/using/about-templates.md)
+* [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 * Vidéo [Créer une diffusion SMS](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html)
 
