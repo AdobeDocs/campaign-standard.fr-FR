@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # Ressources personnalisées {#custom-resources}
 
-Adobe Campaign s’accompagne d’un modèle de données prédéfini, dans lequel les données sont définies au moyen de différentes ressources. Vous pouvez enrichir le modèle de données fourni en étendant les ressources afin d’ajouter vos propres champs personnalisés, tels que les tableaux d’achat ou de produit.
+Adobe Campaign s’accompagne d’un modèle de données prédéfini, dans lequel les données sont définies au moyen de différentes ressources. Vous pouvez enrichir le modèle de données fourni en étendant les ressources afin d’ajouter vos propres champs personnalisés ou tableaux personnalisés, tels que des tableaux d’achat ou de produit.
 
 Les ressources personnalisées sont accessibles via les API à l’aide du point de terminaison **/profileAndServicesExt** et du nom de la ressource personnalisée.
 
@@ -27,7 +27,7 @@ Les ressources personnalisées sont accessibles via les API à l’aide du point
 
 >[!NOTE]
 >
->Pour les ressources qui ne sont pas prêtes à l’emploi, utilisez toujours le préfixe <b>"cus"</b> avant le nom de la ressource.
+>Pour les ressources qui ne sont pas prêtes à l’emploi, utilisez toujours le préfixe <b>&quot;cus&quot;</b> avant le nom de la ressource.
 
 Vous pouvez effectuer toute opération avec des ressources personnalisées, à condition qu’elles soient liées au tableau Profil. Prenons par exemple la structure des tableaux ci-dessous :
 
@@ -37,7 +37,7 @@ Dans ce cas, toutes les ressources des tables **Transaction**, **TransactionDeta
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 Exemple de requête GET pour accéder à la ressource profileAndServicesExt étendue.
 
@@ -77,5 +77,5 @@ Elle renvoie la liste de toutes les ressources personnalisées liées. Vous pouv
 Pour plus d’informations sur l’extension du modèle de données, voir la documentation de Campaign :
 
 * [Notions de modèle de données](../../developing/using/data-model-concepts.md)
-* [Etendre l'API](../../developing/using/about-extending-the-api.md)
-* [Définir les liens avec d'autres ressources](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Etendre l&#39;API](../../developing/using/about-extending-the-api.md)
+* [Définir les liens avec d&#39;autres ressources](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
