@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour
+title: Dernière version
 description: Cette page répertorie toutes les versions récentes d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -12,37 +12,27 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 ---
 
 
-# Notes de mise à jour{#release-notes}
+# Dernière version{#latest-release}
 
-Toutes les versions 2019, avec leurs nouvelles fonctionnalités et correctifs, sont répertoriées dans cette page. Les mises à jour du Panneau de contrôle sont également incluses.
-
-Ressources supplémentaires :
-
-* [Calendrier des versions de Campaign](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [Dernières mises à jour de la documentation](../../rn/using/documentation-updates.md)
-* [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [Notes de mise à jour du Panneau de configuration](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* Notes de mise à jour précédentes : [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
+[Planification](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) des versions| [Versions[du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration]| Mises à jour [de la](../../rn/using/documentation-updates.md) documentation| Notes [de mise à jour](../../rn/using/release-notes-2018.md) précédentes| Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
 
-### Nouveautés{#what-s-new-5}
+**Nouveautés**
 
 <table> 
  <thead> 
   <tr> 
-   <th> Fonctionnalités<br /> </th> 
-   <th> Description<br /> </th> 
+   <th> <strong>California Consumer Privacy Act (CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> California Consumer Privacy Act (CCPA)<br /> </td> 
    <td> <p>La CCPA est la nouvelle loi sur la protection des renseignements personnels de l'Etat de Californie qui harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s'applique aux clients Adobe Campaign qui détiennent des données pour des personnes concernées résidant en Californie.</p>
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de rétention des données et les rôles utilisateur), nous profitons de l'occasion pour inclure des fonctionnalités supplémentaires afin de faciliter votre préparation à la CCPA :</p>
    <ul>
@@ -53,8 +43,17 @@ Ressources supplémentaires :
     <p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Intégration de Microsoft Dynamics 365 (GA)<br /> </td> 
+   <th> <strong>Intégration de Microsoft Dynamics 365 (GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
     <p>L'intégration entre Adobe Campaign Standard et Microsoft Dynamics 365 est maintenant disponible. Vous pourrez transférer vos enregistrements de contacts et d'entités personnalisées de Dynamics 365 vers Campaign et récupérer les données d'événement d'email à partir de Campaign dans Dynamics 365 pour un meilleur alignement du marketing sur les ventes.</p>
     <p>Reportez-vous à la <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">documentation détaillée</a> pour configurer cette intégration et voir la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">vidéo pratique</a>.</p>
@@ -63,7 +62,7 @@ Ressources supplémentaires :
  </tbody> 
 </table>
 
-### Améliorations {#improvements-3}
+**Améliorations**
 
 * Le pop-up de consentement pour la création de rapports dynamiques a été mis à jour afin d&#39;inclure l&#39;intégration de Microsoft Dynamics 365 à Adobe Campaign Standard. En acceptant les termes, les données de profil seront incluses lors de l&#39;utilisation de l&#39;intégration Adobe Campaign Standard/Microsoft Dynamics 365 et de la création de rapports dynamiques. [En savoir plus](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Correction d&#39;un problème qui affichait des dates de contact incorrectes lors de la réception d&#39;alertes de diffusion.
@@ -73,13 +72,13 @@ Ressources supplémentaires :
 * Des améliorations ont été apportées à l&#39;activité **Chargement de fichier** : les logs des workflows ont été rendus plus clairs et plus détaillés sur l&#39;erreur qui se produit lorsqu&#39;un fichier ne se charge pas. La transition sortante générée lors de l&#39;activation de l&#39;option **Conserver les rejets dans un fichier** a été renommée **Rejets**. [En savoir plus](../../automating/using/load-file.md)
 * Des logs associés multilingues ont été ajoutés aux logs d&#39;envoi afin de mieux comprendre les échecs d&#39;envoi en raison de langues manquantes dans les fichiers CSV téléchargés.
 
-### Améliorations de la sécurité {#security-enhancements-3}
+**Améliorations de la sécurité**
 
 * Correction d&#39;un problème lors de la suppression des informations d&#39;un profil en quarantaine par le biais d&#39;une demande d&#39;accès à des informations personnelles. Celui-ci entraînait la suppression de toutes les données, à l&#39;exception de l&#39;adresse email dans la liste de quarantaine.
 * La sécurité de la protection contre les injections dans les en-têtes d&#39;email a été améliorée.
 * La sécurité a été renforcée pour la protection contre les attaques SSRF où les expressions xtk peuvent être utilisées (HTML d&#39;email, contenu texte et objet, SMS et contenu de notification push).
 
-### Améliorations du Concepteur d&#39;email {#email-designer-enhancements-4}
+**Améliorations du Concepteur d&#39;email**
 
 * Correction d’un problème qui empêchait le suivi des liens de désabonnement, d’abonnement et de page d’entrée lorsqu’ils étaient insérés dans un courrier électronique. (CAMP-37809)
 * Correction d’un problème susceptible d’entraîner des erreurs lors de la création d’un courrier électronique et de la sélection d’un modèle. (CAMP-38000)
@@ -106,7 +105,7 @@ Ressources supplémentaires :
 * Correction d&#39;un problème lié à la taille des boutons dans les modèles et les fragments.
 * Correction d&#39;un problème lié à la taille des images lorsqu&#39;elles étaient insérées dans un composant de bouton.
 
-### Autres changements {#other-changes-3}
+**Autres changements**
 
 * La période par défaut pour laquelle les données sont affichées sur les pages des KPI de diffusion et sur la page de création de rapports dynamiques a été alignée afin d&#39;éviter toute incohérence dans les résultats des rapports. (CAMP-35148)
 * Un message d&#39;erreur a été ajouté dans les logs lors de l&#39;expiration du certificat de l&#39;application.
@@ -121,7 +120,7 @@ Ressources supplémentaires :
 * Dans les API Campaign Standard, les clés personnalisées ne peuvent pas être modifiées à l&#39;aide d&#39;une opération PATCH si la valeur de la clé est différente de celle de la clé d&#39;origine ou si vous utilisez votre propre clé d&#39;entreprise comme URI au lieu de celle fournie par Adobe.
 * La langue &quot;Albanais - Macédoine&quot; a été ajoutée à la liste déroulante des préférences linguistiques. (CAMP-35396)
 
-### Correctifs {#patches-4}
+**Correctifs**
 
 * Correction d&#39;un problème qui empêchait le tri ou la recherche des rapports planifiés.
 * Correction d&#39;un problème lié aux règles Triggers en raison duquel les règles ET et OU étaient mélangées.
@@ -148,19 +147,9 @@ Ressources supplémentaires :
 * Correction d&#39;un problème en raison duquel l&#39;état d&#39;une diffusion pouvait être &quot;Démarrage en attente&quot; même si la diffusion était terminée. (CAMP-35355)
 * Correction d&#39;un problème qui empêchait l&#39;affichage des logs des workflows après activation, puis désactivation des logs SQL.
 
-## Mise à jour du panneau de contrôle - Août 2019 {#controlpanel-update---august-2019}
-
-### Nouveautés{#what-s-new-4}
-
-De nouvelles capacités ont été ajoutées pour les utilisateurs Admin qui peuvent maintenant recevoir des notifications avant l&#39;expiration des certificats SSL de leurs domaines. Pour plus d&#39;informations, consultez la [documentation détaillée](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html).
-
-De plus, les utilisateurs Admin peuvent maintenant supprimer les clés SSH qui ont été ajoutées pour accéder aux serveurs SFTP.
-
-Remarque : le panneau de contrôle est disponible pour les clients hébergés sur AWS. Ces mises à jour seront disponibles le 26 août.
-
 ## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
 
-### Nouveautés{#what-s-new-3}
+**Nouveautés**
 
 <table> 
  <thead> 
@@ -181,11 +170,11 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
  </tbody> 
 </table>
 
-### Améliorations de la sécurité {#security-enhancements-2}
+**Améliorations de la sécurité**
 
 * Correction d&#39;un problème de sécurité pour empêcher les attaques par déni de service (DoS) sur les demandes d&#39;obtention d&#39;images non valides. (CAMP-33454)
 
-### Améliorations du Concepteur d&#39;email {#email-designer-enhancements-3}
+**Améliorations du Concepteur d&#39;email**
 
 * Correction d&#39;un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu&#39;un composant était ajouté, ce qui augmentait considérablement la taille du modèle. (CAMP-34694)
 * Correction d&#39;un problème qui empêchait la disponibilité de certaines options de menu de la barre d&#39;outils supérieure droite. (CAMP-34577)
@@ -212,7 +201,7 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
 * Correction d&#39;un problème qui se produisait lors de la duplication de variantes pendant l&#39;utilisation de contenu dynamique.
 * Certains champs indésirables ont été supprimés du volet Paramètres du Concepteur d&#39;email.
 
-### Autres améliorations {#other-improvements-3}
+**Autres améliorations**
 
 * Grâce à l&#39;intégration avec Adobe Experience Platform Location Services, Adobe Campaign est maintenant compatible pour envoyer des messages marketing géolocalisés aux abonnés de votre application mobile via le SDK Experience Platform. Pour plus d&#39;informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * La fonctionnalité de reporting a été améliorée pour offrir une meilleure expérience. Pour utiliser cette fonctionnalité, vous devez accepter le contrat d&#39;utilisation des rapports dynamiques. Consultez à ce sujet la [documentation détaillée](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
@@ -224,7 +213,7 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
 * Suppression de l&#39;option &quot;ftp&quot; de l&#39;interface de configuration des comptes externes. (CAMP-34472)
 * Vous pouvez maintenant activer et désactiver l&#39;option Mode test SMTP pour chaque email. Consultez à ce sujet la [documentation détaillée](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-### Autres changements {#other-changes-2}
+**Autres changements**
 
 * Un avertissement a été ajouté à l&#39;interface des propriétés de diffusion. Il indique que les diffusions sont préparées en fonction de leur période d&#39;agrégation. Pour appeler le workflow plusieurs fois par jour, vous devez donc vérifier qu&#39;elles n&#39;ont aucune période. (CAMP-34393)
 * Un avertissement a été ajouté aux écrans de configuration des ressources personnalisées. Il est recommandé d&#39;utiliser 30 caractères maximum pour les identifiants des ressources personnalisées. Cette recommandation s&#39;applique également aux champs de ressources personnalisées, aux clés, aux index et aux liens.
@@ -235,7 +224,7 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
 * Lors de l&#39;utilisation d&#39;une activité &quot;Transfert de fichier&quot;, une erreur est maintenant consignée si la taille du fichier dépasse l&#39;espace disque disponible.
 * L&#39;action Rediriger vers l&#39;URL de destination ne peut plus être sélectionnée pour le bouton secondaire dans les messages in-app.
 
-### Correctifs {#patches-3}
+**Correctifs**
 
 * Correction d&#39;un problème qui entraînait l&#39;échec des demandes d&#39;accès RGPD.
 * Correction d&#39;un problème qui entraînait l&#39;annulation des Triggers lors de la réception de plusieurs Triggers pour un profil unique.
@@ -271,7 +260,7 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
 
 ## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
 
-### Améliorations {#improvements-2}
+**Améliorations**
 
 * Amélioration de la requête de suppression RGPD pour de meilleures performances.
 * Correction d&#39;un problème qui entraînait des blocages web après la mise à niveau 19.2. (CAMP-34862)
@@ -280,20 +269,20 @@ Remarque : le panneau de contrôle est disponible pour les clients hébergés s
 
 ## Version 19.2.4 - Juin 2019 {#release-19-2-4---june-2019}
 
-### Concepteur d&#39;email {#email-designer-2}
+**Concepteur d&#39;email**
 
 * Correction d&#39;un problème qui empêchait les utilisateurs d&#39;éditer des fragments si le code HTML contenait des balises &lt;style> vides. Il s&#39;agit d&#39;un correctif de suivi pour CAMP-33778 dans la version 19.2.3.
 
 ## Version 19.2.3 - Juin 2019 {#release-19-2-3---june-2019}
 
-### Concepteur d&#39;email {#email-designer-1}
+**Concepteur d&#39;email**
 
 Mise en place d&#39;une série d&#39;améliorations et de correctifs afin d&#39;optimiser les fragments dans la version 19.2. Les nouveaux fragments fonctionneront de manière transparente. Les fragments conçus précédemment ont été grisés et devront être migrés vers le nouveau format. Pour cela, cliquez sur chaque fragment et validez sa migration vers le nouveau format. Nous vous recommandons de tester quelques fragments avant de migrer l&#39;ensemble.
 
 * Correction d&#39;un problème qui empêchait les utilisateurs d&#39;éditer un fragment après l&#39;avoir déverrouillé. Ce problème avait une incidence sur les fragments existants lors de la mise à jour vers la version 19.2. (CAMP-33778)
 * Correction d&#39;un problème qui se produisait lors de l&#39;utilisation du contenu dynamique. Des espaces supplémentaires étaient ajoutées dans le code HTML.
 
-### Autres améliorations {#other-improvements-2}
+**Autres améliorations**
 
 * Correction d&#39;un problème qui empêchait la reprise de l&#39;envoi des SMS suite à une déconnexion du connecteur SMS.
 * Correction d&#39;un problème qui fermait les connexions SMPP lorsque TLS était activé.
@@ -305,7 +294,7 @@ Mise en place d&#39;une série d&#39;améliorations et de correctifs afin d&#39;
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
-### Nouveautés{#what-s-new-}
+**Nouveautés**
 
 <table> 
  <thead> 
@@ -334,11 +323,11 @@ Mise en place d&#39;une série d&#39;améliorations et de correctifs afin d&#39;
  </tbody> 
 </table>
 
-### Améliorations de la sécurité {#security-enhancements}
+**Améliorations de la sécurité**
 
 * Correction d&#39;un problème de sécurité potentiel de détournement de clic dans l&#39;espace de travail de reporting.
 
-### Améliorations du Concepteur d&#39;email {#email-designer-enhancements}
+**Améliorations du Concepteur d&#39;email**
 
 * Correction d&#39;un problème qui se produisait lors de la duplication de fragments et de leur utilisation dans le Concepteur d&#39;email. (CAMP-33193)
 * Correction d&#39;un problème qui créait des espaces inutiles lors de l&#39;utilisation d&#39;éléments incorporés dans l&#39;interface du Concepteur d&#39;email. (CAMP-32163)
@@ -358,7 +347,7 @@ Mise en place d&#39;une série d&#39;améliorations et de correctifs afin d&#39;
 * Correction d&#39;un problème lié au sélecteur de couleurs qui se produisait lors de la définition d&#39;une couleur à l&#39;aide de valeurs RVB.
 * Correction d&#39;un problème qui empêchait la page miroir d&#39;être réactive lors de la réception de l&#39;email sur un mobile.
 
-### Améliorations apportées aux messages transactionnels {#transactional-messaging-enhancements}
+**Améliorations apportées aux messages transactionnels**
 
 Pour optimiser le fonctionnement et les performances, plusieurs améliorations ont été ajoutées au canal Messages transactionnels.
 
@@ -370,7 +359,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d&#39;un problème qui se produisait lors de l&#39;import d&#39;un package avec une configuration d&#39;événement et le message transactionnel associé. Consultez à ce sujet la [documentation détaillée](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Correction d&#39;un problème qui supprimait les données de collecte des profils de test créés pour un message transactionnel contenant des listes de produits.
 
-### Autres changements {#other-changes}
+**Autres changements**
 
 * Une nouvelle option a été ajoutée au compte externe SMS. Elle permet de limiter le nombre maximal de processus MTA envoyant des SMS afin de mieux contrôler le nombre de connexions parallèles. Pour plus d&#39;informations, consultez la technote [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 * Lors de la publication d&#39;une ressource avec une extension d&#39;API, si l&#39;API a déjà été publiée, elle est automatiquement mise à jour à chaque nouvelle publication. Auparavant, cette action était manuelle et le fait de ne pas mettre à jour l&#39;API pouvait endommager la ressource profil ou les ressources de services de celle-ci. Consultez à ce sujet la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -386,7 +375,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Le mode de test de publication de ressource personnalisée a été amélioré. Un message d&#39;avertissement s&#39;affiche maintenant si la dernière publication de ressource personnalisée est en échec et n&#39;est pas corrigée. Après un échec de publication de ressource personnalisée, vous pouvez revenir à la dernière version opérationnelle. Pour plus d&#39;informations, consultez la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 * Une nouvelle option a été ajoutée à l&#39;activité Transfert de fichier. Elle permet de trier les fichiers lorsque vous utilisez l&#39;action de téléchargement de fichier, en mode SFTP. Pour plus d&#39;informations, consultez la [documentation détaillée](../../automating/using/transfer-file.md). (CAMP-33109)
 
-### Correctifs {#patches}
+**Correctifs**
 
 * Correction d&#39;un problème qui entraînait une fuite de mémoire sur le MTA lorsque les paramètres SMS étaient rechargés.
 * Correction d&#39;un problème qui empêchait la publication des mises à jour de la base de données en mode de réparation.
@@ -409,13 +398,13 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ## Version 19.1.3 - Mars 2019 {#release-19-1-3---march-2019}
 
-### Améliorations du Concepteur d&#39;email {#email-designer-enhancements-1}
+**Améliorations du Concepteur d&#39;email**
 
 * Correction d&#39;un problème qui empêchait la modification d&#39;un modèle après son enregistrement.
 * Résolution de divers problèmes qui pouvaient se produire dans les emails lors de l&#39;utilisation d&#39;un modèle créé auparavant.
 * Correction d&#39;un problème qui empêchait le masquage des composants dans les modèles importés.
 
-### Autres améliorations {#other-improvements}
+**Autres améliorations**
 
 * Correction d&#39;une erreur qui se produisait lors de l&#39;affichage des règles de typologie. (CAMP-32059 et CAMP-31849)
 * Correction d&#39;un problème qui empêchait l&#39;édition des règles de typologie. (CAMP-31750)
@@ -423,7 +412,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ## Version 19.1 - Février 2019 {#release-19-1---february-2019}
 
-### Nouveautés{#what-s-new--1}
+**Nouveautés**
 
 <table> 
  <thead> 
@@ -457,11 +446,11 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  </tbody> 
 </table>
 
-### Améliorations de la sécurité {#security-enhancements-1}
+**Améliorations de la sécurité**
 
 * Le code HTML de landing page généré a été mis à jour afin d&#39;empêcher toute indexation par les moteurs de recherche.
 
-### Améliorations du Concepteur d&#39;email {#email-designer-enhancements-2}
+**Améliorations du Concepteur d&#39;email**
 
 * Un ensemble de quatre modèles d&#39;email réactif conçus par des artistes Behance est maintenant disponible.
 
@@ -488,7 +477,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * L&#39;icône YouTube a été ajoutée au composant de contenu **Social**.
 * La vue **Liste** a été ajoutée pour les composants de contenu et les fragments affichés dans la palette du Concepteur d&#39;email.
 
-### Autres améliorations {#other-improvements-1}
+**Autres améliorations**
 
 * Adobe Campaign est désormais entièrement compatible FCM pour les applications SDK V4 et SDK AEP.
 * Adobe Campaign prend en charge les notifications push sous Wear OS (Android) et watchOS (Apple).
@@ -499,12 +488,12 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
    Pour plus d&#39;informations, consultez la [documentation détaillée](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
-### Autres changements {#other-changes-1}
+**Autres changements**
 
 * A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
 * Le champ **Code pays** de la ressource Profil a été renommé en **Code pays/zone géographique**.
 
-### Correctifs {#patches-1}
+**Correctifs**
 
 * Correction d&#39;un problème qui empêchait l&#39;envoi du message lors de l&#39;ajout d&#39;un profil de test à un message transactionnel d&#39;email. (CAMP-29854)
 * Correction d&#39;un problème qui ralentissait l&#39;envoi des messages à partir d&#39;autres canaux si l&#39;envoi était faible pour un canal lorsque l&#39;envoi des messages à partir de tous les canaux était déclenché simultanément.
@@ -529,7 +518,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ## Version 19.0 - Janvier 2019 {#release-19-0---january-2019}
 
-### Nouveautés{#what-s-new--2}
+**Nouveautés**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -571,7 +560,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  </tbody> 
 </table>
 
-### Améliorations {#improvements}
+**Améliorations**
 
 * Une nouvelle option de l&#39;activité de chargement de données permet désormais d&#39;appliquer une étape de post-traitement au fichier contenant les enregistrements rejetés (ex. compression au format zip). (CAMP-24521)
 * Une nouvelle option de l&#39;activité Mise à jour de données vous permet maintenant de configurer la taille maximale des mises à jour pour les données à télécharger. (CAMP-28400)
@@ -581,7 +570,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * La liste des pays disponibles lors de la définition de l&#39;adresse d&#39;un profil a été enrichie. (CAMP-26707)
 * Un message d&#39;erreur s&#39;affiche maintenant lorsque vous essayez d&#39;importer un workflow intégré.
 
-### Concepteur d&#39;email {#email-designer}
+**Concepteur d&#39;email**
 
 * Correction d&#39;un problème qui entraînait l&#39;activation de la fonctionnalité d&#39;entité géographique sur un modèle d&#39;email ou un fragment de contenu créé dans le Concepteur d&#39;email, même si cette fonctionnalité était désactivée dans Adobe Campaign, ce qui rendait le modèle ou le fragment indisponible lors d&#39;une nouvelle tentative d&#39;accès. (CAMP-28174)
 * Correction d&#39;un problème qui empêchait l&#39;enregistrement des conditions de contenu dynamique lors de l&#39;édition de contenu dans le Concepteur d&#39;email. (CAMP-27905)
@@ -597,7 +586,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Il est maintenant possible de créer des messages transactionnels de profil à l&#39;aide du Concepteur d&#39;email. (CAMP-28900)
 * Correction d&#39;une erreur dans le Concepteur d&#39;email qui rendait le contenu éditable lors de la récupération automatique du contenu d&#39;une URL au moment de la préparation, alors qu&#39;il devait être verrouillé.
 
-### Correctifs {#patches-2}
+**Correctifs**
 
 * Correction d&#39;un problème qui entraînait l&#39;affichage de logs de diffusion incorrects dans les rapports dynamiques. (CAMP-23446)
 * Correction d&#39;un problème qui avait un impact sur les chiffres du rapport de synthèse des bounces (CAMP-28703).
