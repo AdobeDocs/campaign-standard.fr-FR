@@ -1,6 +1,6 @@
 ---
 title: Créer un service
-description: Découvrez comment créer un service avec des API.
+description: Découvrez comment créer un service avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 La création de services est effectuée avec une requête **POST** sur la ressource de service.
 
-Si vous souhaitez créer le service avec des attributs spécifiques, ajoutez-les à la charge utile. Sinon, le nouveau service sera créé avec les services par défaut.
+Si vous souhaitez créer le service avec des attributs spécifiques, ajoutez-les à la payload. Sinon, le nouveau service sera créé avec les services par défaut.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 Exemple de requête POST pour créer un service avec des attributs spécifiques.
 
@@ -44,7 +44,7 @@ Exemple de requête POST pour créer un service avec des attributs spécifiques.
 -d }
 ```
 
-Il renvoie le service nouvellement créé avec les attributs mis à jour.
+Elle renvoie le service qui vient d’être créé avec les attributs mis à jour.
 
 ```
 {
