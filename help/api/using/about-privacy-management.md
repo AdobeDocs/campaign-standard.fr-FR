@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,17 +19,17 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # A propos de la gestion de la confidentialité {#about-privacy-management}
 
-Les API de Campaign Standard fournissent des fonctionnalités qui permettent le traitement automatique des demandes liées à la réglementation de la confidentialité, comme le RDDC et l’ACCP.
+Les API de Campaign Standard fournissent des fonctionnalités qui permettent le traitement automatique des demandes liées à la réglementation de la confidentialité, comme le RGPD et le CCPA.
 
-Les actions que vous pouvez effectuer sont les suivantes :
+Les actions que vous pouvez effectuer sont les suivantes :
 
-* Créez une demande de confidentialité,
-* Surveiller une demande de confidentialité,
-* Récupérer un fichier de données de confidentialité,
-* Gérez l’état d’exclusion d’un profil.
+* créer une demande d’accès à des informations personnelles,
+* suivre une demande d’accès à des informations personnelles,
+* récupérer un fichier de données de confidentialité,
+* gérer l’état du droit d’opposition du CCPA dans un profil.
 
-Le point de terminaison de l’API de confidentialité est **/privacy/privacyTool**. La description de la ressource PrivacyTool et les filtres associés sont disponibles dans les métadonnées de la ressource. Voir Mécanisme [de](../../api/using/metadata-mechanism.md)métadonnées.
+Le point d’entrée de l’API de confidentialité est **/privacy/privacyTool**. La description de la ressource PrivacyTool et les filtres associés sont disponibles dans les métadonnées de la ressource. Voir la section [Mécanisme des métadonnées](../../api/using/metadata-mechanism.md).
 
-L’exclusion de l’ACCP est gérée à l’aide de l’attribut de profil **ccpaOptOut** .
+Le droit d’opposition du CCPA est géré à l’aide de l’attribut de profil **ccpaOptOut**.
 
-Pour plus d’informations sur la conformité à Adobe Campaign Standard et la confidentialité, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/kb/acs-privacy.html)dédiée.
+Pour plus d’informations sur Adobe Campaign Standard et la conformité en matière de confidentialité, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html).
