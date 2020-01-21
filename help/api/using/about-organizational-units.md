@@ -1,6 +1,6 @@
 ---
-title: A propos des unités organisationnelles
-description: En savoir plus sur les unités organisationnelles et les API.
+title: À propos des entités organisationnelles
+description: Découvrez les entités organisationnelles et les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,14 +11,14 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# A propos des unités organisationnelles {#about-organizational-units}
+# À propos des entités organisationnelles {#about-organizational-units}
 
-Le point de fin **orgUnitBase** vous permet d’interagir avec les unités organisationnelles, ce qui vous permet, par exemple, de mettre à jour leurs attributs ou l’unité organisationnelle d’un profil. Pour plus d’informations sur les unités d’organisation dans Campaign, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html)Campaign.
+Le point d’entrée **orgUnitBase** vous permet d’interagir avec les entités organisationnelles, par exemple pour mettre à jour leurs attributs ou l’entité organisationnelle d’un profil. Pour plus d’informations sur les entités organisationnelles de Campaign, consultez la [documentation Campaign](https://helpx.adobe.com/fr/campaign/standard/administration/using/organizational-units.html).
 
-Le champ Unité **** organisationnelle est ajouté à un profil lors de l’extension de la ressource de profil. Par conséquent, n’oubliez pas d’utiliser toujours le point de terminaison **profileAndServicesExt** pour interagir avec les unités géographiques. Pour plus d’informations sur l’extension de ressource du profil, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)Campaign.
+Le champ **Entité organisationnelle** est ajouté à un profil lors de l’extension de la ressource de profil. Par conséquent, n’oubliez pas d’utiliser systématiquement le point d’entrée **profileAndServicesExt** pour interagir avec les entités géographiques. Pour plus d’informations sur l’extension de ressource du profil, consultez la [documentation Campaign](https://helpx.adobe.com/fr/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
