@@ -1,6 +1,6 @@
 ---
-title: Création d’une demande de confidentialité
-description: Découvrez comment créer une requête de confidentialité avec des API
+title: Création d’une demande d’accès à des informations personnelles
+description: Découvrez comment créer une demande d’accès à des informations personnelles avec les API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,36 +11,36 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Création d’une demande de confidentialité {#creating-a-privacy-request}
+# Création d’une demande d’accès à des informations personnelles {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->L’intégration du service [principal](https://adobe.io/apis/cloudplatform/gdpr.html) de confidentialité est la méthode à utiliser pour toutes les demandes d’accès et de suppression. À compter de la version 19.4, l’utilisation de l’API et de l’interface de campagne pour les demandes d’accès et de suppression est obsolète. Pour plus d'informations sur les fonctionnalités obsolètes et supprimées de Campaign Standard, reportez-vous à [cette page](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html).
+>L’intégration de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) est la méthode appropriée pour toutes les demandes d’accès et de suppression. Depuis la version 19.4, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète. Pour plus d’informations sur les fonctionnalités de Campaign Standard obsolètes et supprimées, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
 
-Les requêtes de confidentialité sont créées à l’aide d’une requête **POST** .
+Les demandes d’accès aux informations personnelles sont créées à l’aide d’une requête **POST**.
 
-Avant de créer des requêtes, vous devez définir l’espace de noms que vous utiliserez. Pour en savoir plus, consultez la documentation [sur la gestion de la](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)confidentialité.
+Avant de créer des requêtes, vous devez définir l’espace de nommage que vous allez utiliser. Pour plus d’informations à ce sujet, consultez la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
-La charge utile doit contenir les paramètres suivants :
+La payload doit contenir les paramètres suivants :
 
-* **name**: un nom interne unique
-* **namespace**: nom d’espace de noms configuré dans l’interface de Campaign Standard
-* **réconciliationValue**: la valeur de rapprochement basée sur la clé de rapprochement définie dans l'espace de noms
-* **libellé**: l’étiquette de demande
-* **type**: type de requête. Les valeurs acceptées sont "access" ou "delete".
-* **règlement**: le type de réglementation. Exemple : "GDPR", "ACCP". Ce paramètre est obligatoire et disponible à partir de la version 19.4 de Campaign Standard. Si vous utilisez une version plus ancienne, vous n’avez pas besoin de l’ajouter à votre charge utile.
+* **name** : nom interne unique
+* **namespace** : nom d’espace de nommage configuré dans l’interface de Campaign Standard
+* **reconciliationValue** : valeur de réconciliation basée sur la clé de réconciliation définie dans l’espace de nommage
+* **label** : libellé de la requête
+* **type** : type de requête. Les valeurs acceptées sont « access » ou « delete ».
+* **regulation** : type de réglementation. Exemple : « GDPR », « ACCP ». Ce paramètre est obligatoire et disponible à partir de la version 19.4 de Campaign Standard. Si vous utilisez une version plus ancienne, vous n’avez pas besoin de l’ajouter à votre payload.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Cette requête POST crée une requête de confidentialité basée sur une clé de rapprochement de courrier électronique définie dans l’espace de noms AMCDS2 :
+Cette requête POST crée une demande d’accès à des informations personnelles basée sur une clé de réconciliation d’email définie dans l’espace de nommage AMCDS2 :
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -59,7 +59,7 @@ Cette requête POST crée une requête de confidentialité basée sur une clé d
 }
 ```
 
-Réponse à la demande POST.
+Réponse à la requête POST.
 
 ```
 {
