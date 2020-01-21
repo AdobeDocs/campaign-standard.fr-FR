@@ -1,6 +1,6 @@
 ---
 title: Mise à jour des profils
-description: Découvrez comment mettre à jour les profils à l’aide d’API.
+description: Découvrez comment mettre à jour les profils à l’aide des API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -25,13 +25,13 @@ La mise à jour des profils est effectuée avec une requête **PATCH** .
 
 1. La première étape consiste à **récupérer le profil**.
 
-1. Dans une seconde requête, nous effectuerons une requête **** PATCH sur le profil avec les informations terminées dans la charge utile.
+1. Dans une seconde requête, nous allons exécuter une **requête PATCH** sur le profil, avec les informations complétées dans la payload.
 
-1. Pour vérifier si la requête PATCH a mis à jour le profil, nous pouvons effectuer une requête GET finale.
+1. Pour vérifier si la requête PATCH a mis à jour le profil, nous pouvons exécuter une requête GET finale.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 Exemple de requête GET pour récupérer un profil.
 
@@ -43,7 +43,7 @@ Exemple de requête GET pour récupérer un profil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Réponse à la demande.
+Réponse à la requête.
 
 ```
 {
@@ -59,7 +59,7 @@ Réponse à la demande.
 }
 ```
 
-Demande PATCH pour mettre à jour l’attribut "phone".
+Requête PATCH pour mettre à jour l’attribut « phone ».
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -70,7 +70,7 @@ Demande PATCH pour mettre à jour l’attribut "phone".
 -d '{"phone":"3301020304"}'
 ```
 
-Il renvoie le fichier PKEY et l’URL pour récupérer le profil mis à jour.
+Elle renvoie la clé PKEY et l’URL pour récupérer le profil mis à jour.
 
 ```
 {
