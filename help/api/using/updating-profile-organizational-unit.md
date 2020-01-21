@@ -1,6 +1,6 @@
 ---
-title: Mise à jour de l’unité d’organisation d’un profil
-description: Découvrez comment mettre à jour l’unité d’organisation d’un profil avec les API.
+title: Mise à jour de l’entité organisationnelle d’un profil
+description: Découvrez comment mettre à jour l’entité organisationnelle d’un profil avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,22 +11,22 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Mise à jour de l’unité d’organisation d’un profil {#managing-organizational-units}
+# Mise à jour de l’entité organisationnelle d’un profil {#managing-organizational-units}
 
-1. Exécutez une requête GET sur la ressource **orgUnitBase** pour récupérer la clé PK de l'unité d'organisation
-1. Exécutez une requête PATCH sur le profil PKey, avec l’unité organisationnelle PKey désirée dans la charge utile.
+1. Exécutez une requête GET sur la ressource **orgUnitBase** pour récupérer la clé PKey de l’entité organisationnelle.
+1. Exécutez une requête PATCH sur la clé PKey du profil, avec la clé PKey de l’entité organisationnelle souhaitée dans la payload.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Récupérez la liste des unités organisationnelles.
+Récupérez la liste des entités organisationnelles.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/ \
@@ -36,7 +36,7 @@ Récupérez la liste des unités organisationnelles.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie toutes les unités d’organisation. Récupérez la clé PK de l'unité à laquelle vous souhaitez affecter le profil.
+Elle contient toutes les entités organisationnelles. Récupérez la clé PKey de l’entité à laquelle vous souhaitez affecter le profil.
 
 ```
 {
@@ -52,7 +52,7 @@ Elle renvoie toutes les unités d’organisation. Récupérez la clé PK de l'un
 },
 ```
 
-Exécutez une requête PATCH sur le profil, avec la clé PK de l’unité organisationnelle souhaitée dans la charge utile.
+Exécutez une requête PATCH sur le profil, avec la clé PKey de l’entité organisationnelle souhaitée dans la payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
