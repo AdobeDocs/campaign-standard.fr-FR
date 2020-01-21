@@ -11,7 +11,7 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
@@ -19,23 +19,23 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 # Prévisualiser un message{#previewing-messages}
 
-Une fois des profils de test ajoutés à la fenêtre **[!UICONTROL Audience]**, vous pouvez prévisualiser votre message pour vérifier sa personnalisation et l'affichage de la diffusion par vos destinataires.
+Une fois des profils de test ajoutés à la fenêtre **[!UICONTROL Audience]**, vous pouvez prévisualiser votre message pour vérifier sa personnalisation et l&#39;affichage de la diffusion par vos destinataires.
 
-1. Dans le [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
+1. Dans le [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/sending_preview.png)
 
-   Une vue pour les postes de travail et une vue réactive pour les mobiles de votre email s'affichent côte à côte.
+   Une vue pour les postes de travail et une vue réactive pour les mobiles de votre email s&#39;affichent côte à côte.
 
-1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Cliquez sur le bouton **[!UICONTROL Analyse anti-spam]** pour connaitre les raisons de l'avertissement.
+1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Cliquez sur le bouton **[!UICONTROL Analyse anti-spam]**pour connaitre les raisons de l&#39;avertissement.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Sélectionnez le bouton **[!UICONTROL Charger un profil]** pour choisir le profil de test sur lequel vous souhaitez tester les éléments de personnalisation.
+1. Sélectionnez le bouton **[!UICONTROL Charger un profil]**pour choisir le profil de test sur lequel vous souhaitez tester les éléments de personnalisation.
 
    ![](assets/sending_test-profile.png)
 
-1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton **[!UICONTROL Editer]** en haut à gauche de l'écran.
+1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton**[!UICONTROL  Editer]** en haut à gauche de l&#39;écran.
 
    ![](assets/sending_preview_edit.png)
 
