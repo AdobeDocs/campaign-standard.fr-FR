@@ -1,6 +1,6 @@
 ---
 title: Concevoir une landing page
-description: Découvrez comment concevoir le contenu d’une page d’entrée.
+description: Découvrez comment concevoir le contenu d'une landing page.
 page-status-flag: never-activated
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
@@ -20,44 +20,44 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 # Concevoir une landing page{#designing-a-landing-page}
 
-## A propos de la conception du contenu d'une landing page {#about-content-design}
+## A propos de la conception du contenu d&#39;une landing page {#about-content-design}
 
 Les landing pages sont créées de la même façon que toute autre [activité marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
-Lors de la conception d'une landing page, vous devez définir le contenu de la page, de la page de confirmation et de la page d'erreur. Utilisez le sélecteur situé sous la barre d'actions pour afficher et configurer chacune de ces pages.
+Lors de la conception d&#39;une landing page, vous devez définir le contenu de la page, de la page de confirmation et de la page d&#39;erreur. Utilisez le sélecteur situé sous la barre d&#39;actions pour afficher et configurer chacune de ces pages.
 
-Le contenu des landing pages est conçu dans l'éditeur de contenu de Campaign.
+Le contenu des landing pages est conçu dans l&#39;éditeur de contenu de Campaign.
 
 >[!NOTE]
 >
->Si votre instance a été installée avant la version 19.0 d'Adobe Campaign Standard, vous avez toujours accès à l'ancien éditeur de contenu d'email. L'interface, les principes d'utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l'ancien éditeur de contenu d'email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l'interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d'email](../../designing/using/designing-content-in-adobe-campaign.md).
+>Si votre instance a été installée avant la version 19.0 d&#39;Adobe Campaign Standard, vous avez toujours accès à l&#39;ancien éditeur de contenu d&#39;email. L&#39;interface, les principes d&#39;utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l&#39;ancien éditeur de contenu d&#39;email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l&#39;interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
-Cette page décrit les spécificités de l'éditeur de contenu de landing page. Pour plus d'informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d'email** :
+Cette page décrit les spécificités de l&#39;éditeur de contenu de landing page. Pour plus d&#39;informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d&#39;email** :
 
-* [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Ajout d'un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
-* [Insertion d'un lien](../../designing/using/links.md#inserting-a-link)
-* [Insertion d'images](../../designing/using/images.md)
+* [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Ajout d&#39;un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
+* [Insertion d&#39;un lien](../../designing/using/links.md#inserting-a-link)
+* [Insertion d&#39;images](../../designing/using/images.md)
 * [Bonnes pratiques générales pour la conception de contenu](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
->Si vous disposez d'une landing page déjà prédéfinie au format HTML, vous pouvez l'importer directement via le bouton **[!UICONTROL Changer de contenu]**.
+>Si vous disposez d&#39;une landing page déjà prédéfinie au format HTML, vous pouvez l&#39;importer directement via le bouton **[!UICONTROL Changer de contenu]**.
 >
->Avant d'importer une page HTML dans Adobe Campaign, assurez-vous qu'elle s'ouvre et s'affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s'exécuter sans erreur hors de l'éditeur. Evitez en général d'utiliser des scripts dans le contenu des messages pour qu'il soit correctement traité par les clients de messagerie.
+>Avant d&#39;importer une page HTML dans Adobe Campaign, assurez-vous qu&#39;elle s&#39;ouvre et s&#39;affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s&#39;exécuter sans erreur hors de l&#39;éditeur. Evitez en général d&#39;utiliser des scripts dans le contenu des messages pour qu&#39;il soit correctement traité par les clients de messagerie.
 
-## Interface de l'éditeur de contenu de landing page{#landing-page-content-editor-interface}
+## Interface de l&#39;éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
-L'éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
+L&#39;éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]**dans le tableau de bord des landing pages.
 
-L'éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
+L&#39;éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
 
 ![](assets/des_lp_content_8.png)
 
-1. La **palette** située à gauche de l'écran permet de modifier les paramètres du bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur de fond, bordure, alignement du texte, condition de visibilité, etc. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
-1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d'affichage.
-1. La **zone d'édition** principale permet d'interagir directement avec le contenu, grâce à la barre d'outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc.
+1. La **palette** située à gauche de l&#39;écran permet de modifier les paramètres du bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur de fond, bordure, alignement du texte, condition de visibilité, etc. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La **barre d&#39;actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d&#39;affichage.
+1. La **zone d&#39;édition** principale permet d&#39;interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc.
 
-La **barre d'actions** contient différents boutons permettant d'agir sur le contenu en cours de création.
+La **barre d&#39;actions** contient différents boutons permettant d&#39;agir sur le contenu en cours de création.
 
 ![](assets/des_lp_content_9.png)
 
@@ -104,13 +104,13 @@ La **barre d'actions** contient différents boutons permettant d'agir sur le con
  </tbody> 
 </table>
 
-La **barre d'outils** est un élément contextuel de l'interface de l'éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d'action et des boutons permettant de modifier le style du texte. Les modifications effectuées s'appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l'intérieur d'un bloc, vous pouvez le transformer en lien ou le mettre en gras.
+La **barre d&#39;outils** est un élément contextuel de l&#39;interface de l&#39;éditeur qui présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d&#39;action et des boutons permettant de modifier le style du texte. Les modifications effectuées s&#39;appliquent toujours sur la zone sélectionnée. Lorsque vous sélectionnez un bloc, vous pouvez par exemple le supprimer ou le dupliquer. Lorsque vous sélectionnez du texte à l&#39;intérieur d&#39;un bloc, vous pouvez le transformer en lien ou le mettre en gras.
 
 ![](assets/delivery_content_17.png)
 
 >[!CAUTION]
 >
->Certaines fonctionnalités de la barre d'outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s'avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d'outils.
+>Certaines fonctionnalités de la barre d&#39;outils permettent de mettre en forme le contenu HTML. Cependant, si la page contient une feuille de style CSS, les **instructions** provenant de la feuille de style peuvent s&#39;avérer **prioritaires** par rapport aux instructions spécifiées avec la barre d&#39;outils.
 
 <table> 
  <thead> 
@@ -239,31 +239,31 @@ La **barre d'outils** est un élément contextuel de l'interface de l'éditeur q
  </tbody> 
 </table>
 
-## Gérer la structure et le style d'une landing page{#managing-landing-page-structure-and-style}
+## Gérer la structure et le style d&#39;une landing page{#managing-landing-page-structure-and-style}
 
-### Gérer les blocs dans l'éditeur de contenu {#managing-blocks-in-the-content-editor}
+### Gérer les blocs dans l&#39;éditeur de contenu {#managing-blocks-in-the-content-editor}
 
-Les différents éléments du contenu HTML sont affichés dans la landing page sous forme de blocs, correspondant à la balise **&lt;div&gt;** **&lt;/div&gt;**. Pour agir sur un bloc, sélectionnez-le. Celui-ci est alors entouré d'un cadre de couleur bleue.
+Les différents éléments du contenu HTML sont affichés dans la landing page sous forme de blocs, correspondant à la balise **&lt;div>** **&lt;/div>**. Pour agir sur un bloc, sélectionnez-le. Celui-ci est alors entouré d&#39;un cadre de couleur bleue.
 
 ![](assets/des_lp_content_1.png)
 
-Quand un bloc est sélectionné, les objets parents de l'élément HTML correspondant s'affichent dans un fil d'Ariane situé au bas de la zone d'édition.
+Quand un bloc est sélectionné, les objets parents de l&#39;élément HTML correspondant s&#39;affichent dans un fil d&#39;Ariane situé au bas de la zone d&#39;édition.
 
-Au survol de la souris sur un élément de ce fil d'Ariane, l'élément est mis en surbrillance. Vous pouvez ainsi facilement naviguer entre les divers blocs et sélectionner précisément l'élément HTML que vous souhaitez modifier.
+Au survol de la souris sur un élément de ce fil d&#39;Ariane, l&#39;élément est mis en surbrillance. Vous pouvez ainsi facilement naviguer entre les divers blocs et sélectionner précisément l&#39;élément HTML que vous souhaitez modifier.
 
 ![](assets/des_lp_content_2.png)
 
-Utilisez les options disponibles dans la palette et la barre d'outils contextuelle pour modifier le bloc, le supprimer ou le dupliquer.
+Utilisez les options disponibles dans la palette et la barre d&#39;outils contextuelle pour modifier le bloc, le supprimer ou le dupliquer.
 
-Pour les blocs contenant du texte, cliquez une seconde fois dans le bloc pour activer le mode d'édition du texte. Le contour du bloc devient vert. Vous pouvez alors sélectionner ou saisir du texte. Utilisez les options disponibles dans la palette et la barre d'outils contextuelle pour ajouter un lien ou modifier le formatage du texte.
+Pour les blocs contenant du texte, cliquez une seconde fois dans le bloc pour activer le mode d&#39;édition du texte. Le contour du bloc devient vert. Vous pouvez alors sélectionner ou saisir du texte. Utilisez les options disponibles dans la palette et la barre d&#39;outils contextuelle pour ajouter un lien ou modifier le formatage du texte.
 
 ![](assets/des_lp_content_3.png)
 
-Les paramètres définis pour un élément d'un bloc (liens, champs de personnalisation, blocs de contenu, etc.) peuvent être modifiés à tout moment à partir de la palette.
+Les paramètres définis pour un élément d&#39;un bloc (liens, champs de personnalisation, blocs de contenu, etc.) peuvent être modifiés à tout moment à partir de la palette.
 
 ![](assets/des_lp_content_4.png)
 
-### Ajouter une bordure et un arrière-plan dans l'éditeur de contenu  {#adding-a-border-and-a-background-in-the-content-editor}
+### Ajouter une bordure et un arrière-plan dans l&#39;éditeur de contenu   {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -273,28 +273,28 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l'éditeur de contenu  {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l&#39;éditeur de contenu   {#changing-the-text-style-in-the-content-editor}
 
-Pour modifier le style du texte, vous devez vous placer à l'intérieur d'un bloc de texte.
+Pour modifier le style du texte, vous devez vous placer à l&#39;intérieur d&#39;un bloc de texte.
 
-Pour modifier l'alignement du texte, sélectionnez l'une des trois icônes suivantes dans la palette de gauche :
+Pour modifier l&#39;alignement du texte, sélectionnez l&#39;une des trois icônes suivantes dans la palette de gauche :
 
 ![](assets/des_lp_content_7.png)
 
-* **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style="text-align: left;").
-* **Centrer** : centre le texte du bloc sélectionné (ajoute style="text-align: center;").
-* **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style="text-align: right;").
+* **Aligner à gauche** : aligne le texte à gauche du bloc sélectionné (ajoute style=&quot;text-align: left;&quot;).
+* **Centrer** : centre le texte du bloc sélectionné (ajoute style=&quot;text-align: center;&quot;).
+* **Aligner à droite** : aligne le texte à droite du bloc sélectionné (ajoute style=&quot;text-align: right;&quot;).
 
-Vous pouvez également utiliser la barre d'outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
+Vous pouvez également utiliser la barre d&#39;outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page  {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page   {#inserting-images-in-a-landing-page}
 
-1. Dans le contenu d'une landing page, sélectionnez un bloc contenant une image.
+1. Dans le contenu d&#39;une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Sélectionnez **[!UICONTROL Image locale]** dans la barre d'outils contextuelle.
+1. Sélectionnez **[!UICONTROL Image locale]**dans la barre d&#39;outils contextuelle.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -302,48 +302,48 @@ Vous pouvez également utiliser la barre d'outils pour modifier les attributs de
 
    ![](assets/des_insert_images_lp_3.png)
 
-1. Ajustez les propriétés de l'image selon les besoins.
+1. Ajustez les propriétés de l&#39;image selon les besoins.
 
    ![](assets/des_insert_images_lp_4.png)
 
 ## Définir le contenu dynamique dans une landing page{#defining-dynamic-content-in-a-landing-page}
 
-Pour définir du contenu dynamique dans une landing page, sélectionnez un bloc à l'aide du fil d'Ariane ou en cliquant directement sur un élément.
+Pour définir du contenu dynamique dans une landing page, sélectionnez un bloc à l&#39;aide du fil d&#39;Ariane ou en cliquant directement sur un élément.
 
 ![](assets/dynamic_content_lp_1.png)
 
-Certains blocs, comme les images, ne peuvent pas être sélectionnés directement. Dans ce cas, sélectionnez le bloc parent à l'aide du fil d'Ariane. Vous pourrez alors modifier tous les éléments compris dans cet élément parent, y compris les images. La condition s'appliquera à tous les éléments enfants du bloc parent.
+Certains blocs, comme les images, ne peuvent pas être sélectionnés directement. Dans ce cas, sélectionnez le bloc parent à l&#39;aide du fil d&#39;Ariane. Vous pourrez alors modifier tous les éléments compris dans cet élément parent, y compris les images. La condition s&#39;appliquera à tous les éléments enfants du bloc parent.
 
-Le fil d'Ariane est présenté dans la section [Gestion des blocs](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
+Le fil d&#39;Ariane est présenté dans la section [Gestion des blocs](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
 Les étapes suivantes pour définir le contenu dynamique dans une landing page sont similaires à celles que vous devez suivre pour un email. Reportez-vous à [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
->Les éléments de variante encadrés en rouge sont ceux pour lesquels une expression n'a pas encore été définie.
+>Les éléments de variante encadrés en rouge sont ceux pour lesquels une expression n&#39;a pas encore été définie.
 
-Vous pouvez naviguer parmi les différents contenus dynamiques d'un bloc. Pour cela :
+Vous pouvez naviguer parmi les différents contenus dynamiques d&#39;un bloc. Pour cela :
 
 1. Sélectionnez le bloc.
 
-   Des flèches apparaissent sur les bords gauche et droit de l'image.
+   Des flèches apparaissent sur les bords gauche et droit de l&#39;image.
 
 1. Cliquez sur la flèche de droite pour naviguer.
 
    ![](assets/dynamic_content_lp_2.png)
 
-   Le rendu des flèches est estompé lorsque vous avez navigué jusqu'au dernier contenu dynamique (ou jusqu'au premier pour la flèche de gauche).
+   Le rendu des flèches est estompé lorsque vous avez navigué jusqu&#39;au dernier contenu dynamique (ou jusqu&#39;au premier pour la flèche de gauche).
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. Pour supprimer toutes les conditions appliquées à un bloc, sélectionnez celui-ci et cliquez de nouveau sur l'icône **[!UICONTROL Désactiver le contenu dynamique]**.
+1. Pour supprimer toutes les conditions appliquées à un bloc, sélectionnez celui-ci et cliquez de nouveau sur l&#39;icône **[!UICONTROL Désactiver le contenu dynamique]**.
 1. Sélectionnez le contenu dynamique que vous souhaitez conserver.
 
    ![](assets/dynamic_content_lp_5.png)
 
 Dans la palette :
 
-* Les contenus pour lesquels une expression a été renseignée ne sont plus encadrés en rouge ; ils s'affichent en gris.
-* Le contenu actuellement sélectionné s'affiche en bleu.
+* Les contenus pour lesquels une expression a été renseignée ne sont plus encadrés en rouge ; ils s&#39;affichent en gris.
+* Le contenu actuellement sélectionné s&#39;affiche en bleu.
 
 ![](assets/dynamic_content_lp_4.png)
