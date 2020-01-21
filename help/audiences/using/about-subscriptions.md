@@ -1,6 +1,6 @@
 ---
 title: A propos des inscriptions
-description: En savoir plus sur les services et les abonnements dans Campaign Standard.
+description: Découvrez les services et les abonnements dans Campaign Standard.
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # A propos des inscriptions{#about-subscriptions}
 
-Adobe Campaign permet de créer et de gérer des newsletters et des communications cross-canal par le biais d'un ensemble de **services** : des messages ne peuvent être envoyés qu'aux profils ayant souscrit au service (opt-in). Ces profils sont identifiés à l'aide d'un filtre dédié lors de la création d'un message.
+Adobe Campaign permet de créer et de gérer des newsletters et des communications cross-canal par le biais d&#39;un ensemble de **services** : des messages ne peuvent être envoyés qu&#39;aux profils ayant souscrit au service (opt-in). Ces profils sont identifiés à l&#39;aide d&#39;un filtre dédié lors de la création d&#39;un message.
 
-Des mécanismes d'inscription peuvent être configurés pour offrir à vos clients la possibilité de s'inscrire à ces services, notamment via des **emails** et des **landing pages**.
+Des mécanismes d&#39;inscription peuvent être configurés pour offrir à vos clients la possibilité de s&#39;inscrire à ces services, notamment via des **emails** et des **landing pages**.
 
 Chaque service est fourni avec :
 
-* des mécanismes d'**inscription** (opt-in) et de **[!UICONTROL désinscription]**.
-* des **mécanismes de confirmation** d'inscription et/ou de désinscription.
-* un suivi de l'**historique** des inscriptions.
+* des mécanismes d&#39;**inscription** (opt-in) et de **[!UICONTROL désinscription]**.
+* des **mécanismes de confirmation** d&#39;inscription et/ou de désinscription.
+* un suivi de l&#39;**historique** des inscriptions.
 
-Les abonnements peuvent également être gérés à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-a-service.md) .
+Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-a-service.md) .
