@@ -1,6 +1,6 @@
 ---
 title: Verbes GET / POST / PATCH / DELETE
-description: En savoir plus sur les verbes utilisés dans les API Campaign Standard.
+description: Découvrez les verbes utilisés dans les API de Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
@@ -19,18 +19,18 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 # Verbes GET / POST / PATCH / DELETE {#verbs}
 
-Les verbes disponibles pour effectuer des opérations sur les ressources sont les suivants :
+Les verbes disponibles pour effectuer des opérations sur les ressources sont les suivants :
 
-* `GET`: récupère un élément ou une collection d’éléments
-* `POST`: crée une ressource avec des paramètres.
-* `PATCH`: met à jour une ressource avec des paramètres.
-* `DELETE`: supprime une ressource.
+* `GET` : récupère un élément ou une collection d’éléments.
+* `POST` : crée une ressource avec des paramètres.
+* `PATCH` : met à jour une ressource avec des paramètres.
+* `DELETE` : supprime une ressource.
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de requêtes ***
 
 * Exemple de requête GET sur la collection de profils.
 
@@ -80,7 +80,7 @@ Les verbes disponibles pour effectuer des opérations sur les ressources sont le
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Il renvoie le profil demandé.
+   Elle renvoie le profil demandé.
 
 
    ```
@@ -106,7 +106,7 @@ Les verbes disponibles pour effectuer des opérations sur les ressources sont le
    -d '{"lastName":"Doe"}'
    ```
 
-   Il renvoie le profil avec les champs par défaut.
+   Elle renvoie le profil avec les champs par défaut.
 
    ```
    {
@@ -129,7 +129,7 @@ Les verbes disponibles pour effectuer des opérations sur les ressources sont le
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   Il renvoie le fichier PKEY et l’URL pour récupérer le profil mis à jour.
+   Elle renvoie la clé PKEY et l’URL pour récupérer le profil mis à jour.
 
    ```
    {
@@ -148,4 +148,4 @@ Les verbes disponibles pour effectuer des opérations sur les ressources sont le
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   La requête renvoie une réponse de 200, confirmant que le profil a été supprimé.
+   Elle renvoie une réponse 200, confirmant que le profil a été supprimé.
