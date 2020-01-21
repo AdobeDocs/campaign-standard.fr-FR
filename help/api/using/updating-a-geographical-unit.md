@@ -1,6 +1,6 @@
 ---
-title: Mise à jour de l’unité géographique d’un profil
-description: Découvrez comment gérer des unités géographiques à l’aide d’API.
+title: Mise à jour de l’entité géographique d’un profil
+description: Découvrez comment gérer les entités géographiques avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,22 +11,22 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Mise à jour de l’unité géographique d’un profil {#updating-a-geographical-unit}
+# Mise à jour de l’entité géographique d’un profil {#updating-a-geographical-unit}
 
-1. Exécutez une requête GET sur la ressource **geoUnitBase** pour récupérer la clé PKey de l’unité géographique.
-1. Exécutez une requête PATCH sur le PKey du profil, avec l’unité géographique PKey désirée dans la charge utile.
+1. Exécutez une requête GET sur la ressource **geoUnitBase** pour récupérer la clé PKey de l’entité géographique.
+1. Exécutez une requête PATCH sur la clé PKey du profil, avec la clé PKey de l’entité géographique souhaitée dans la payload.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Récupérez la liste des unités géographiques.
+Récupérez la liste des entités géographiques.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -36,7 +36,7 @@ Récupérez la liste des unités géographiques.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie toutes les unités géographiques. Récupérez la clé PK de l'unité à laquelle vous souhaitez affecter le profil.
+Elle contient toutes les entités géographiques. Récupérez la clé PKey de l’entité à laquelle vous souhaitez affecter le profil.
 
 ```
 {
@@ -52,7 +52,7 @@ Elle renvoie toutes les unités géographiques. Récupérez la clé PK de l'unit
 },
 ```
 
-Effectuez une requête PATCH sur le profil, avec la clé PK de l’unité géographique souhaitée dans la charge utile.
+Exécutez une requête PATCH sur le profil, avec la clé PKey de l’entité géographique souhaitée dans la payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
