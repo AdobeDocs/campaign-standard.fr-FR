@@ -1,6 +1,6 @@
 ---
-title: Récupération de l’unité géographique d’un profil
-description: Découvrez comment récupérer l’unité géographique d’un profil avec les API.
+title: Récupération de l’entité géographique d’un profil
+description: Découvrez comment récupérer l’entité géographique d’un profil avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,20 +11,20 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Récupération de l’unité géographique d’un profil {#retrieving-geographical-unit}
+# Récupération de l’entité géographique d’un profil {#retrieving-geographical-unit}
 
-1. Exécutez une requête GET sur le profil PKey pour récupérer l’URL **geoUnit** .
-1. Effectuez une requête GET sur l’URL pour obtenir plus de détails sur l’unité géographique.
+1. Exécutez une requête GET sur la clé PKey du profil pour récupérer l’URL **geoUnit** .
+1. Exécutez une requête GET sur l’URL pour obtenir plus de détails sur l’entité géographique.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 Récupérez l’enregistrement du profil.
 
@@ -36,7 +36,7 @@ Récupérez l’enregistrement du profil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’URL de l’unité géographique du profil.
+La requête renvoie l’URL geoUnit du profil.
 
 ```
 {
@@ -50,7 +50,7 @@ Elle renvoie l’URL de l’unité géographique du profil.
 }
 ```
 
-Effectuez une requête GET sur l’URL pour récupérer plus d’informations.
+Exécutez une requête GET sur l’URL pour récupérer des informations supplémentaires.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -60,7 +60,7 @@ Effectuez une requête GET sur l’URL pour récupérer plus d’informations.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Il renvoie des détails sur l’unité géographique.
+Elle renvoie des détails sur l’entité géographique.
 
 ```
 {
