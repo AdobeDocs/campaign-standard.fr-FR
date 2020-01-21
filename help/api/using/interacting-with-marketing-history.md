@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
@@ -19,18 +19,18 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 # Interaction avec l’historique marketing {#interacting-with-marketing-history}
 
-Le point de fin **d’historique** vous permet d’interagir avec l’historique marketing d’un profil.
-Ainsi, vous pouvez, par exemple, récupérer facilement la page miroir d’une remise envoyée à un profil. Pour cela, procédez comme suit :
+Le point d’entrée **history** vous permet d’interagir avec l’historique marketing d’un profil.
+Vous pouvez ainsi, par exemple, récupérer facilement la page miroir d’une diffusion envoyée à un profil. Pour ce faire, procédez comme suit :
 
-1. Exécutez une instruction GET avec le point de fin **history** et la clé primaire du profil.
-1. Exécutez une requête GET sur les **événements** href renvoyés.
-1. Elle renvoie la liste des événements du profil avec des liens vers des pages miroir dans le noeud **miroirPage** .
+1. Exécutez une requête GET avec le point d’entrée **history** et la clé primaire du profil.
+1. Exécutez une requête GET sur l’adresse href **events** renvoyée.
+1. Elle renvoie la liste des événements du profil, avec des liens vers des pages miroir dans le nœud **mirrorPage** .
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Récupérez l’historique marketing du profil avec une requête GET.
+Récupérez l’historique marketing du profil à l’aide d’une requête GET.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/History/"<PKEY>" \
@@ -40,7 +40,7 @@ Récupérez l’historique marketing du profil avec une requête GET.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Le noeud "events" renvoie l’URL qui vous donne accès aux événements du profil.
+Le nœud « events » renvoie l’URL qui vous donne accès aux événements du profil.
 
 ```
 {
@@ -55,7 +55,7 @@ Le noeud "events" renvoie l’URL qui vous donne accès aux événements du prof
 }
 ```
 
-Exécutez une requête GET sur les événements renvoyés.
+Exécutez une requête GET sur l’adresse href events renvoyée.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
@@ -65,7 +65,7 @@ Exécutez une requête GET sur les événements renvoyés.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie la liste des événements du profil avec des liens vers des pages miroir dans le noeud "miroirPage".
+Elle renvoie la liste des événements du profil, avec des liens vers des pages miroir dans le nœud « mirrorPage ».
 
 ```
     {
