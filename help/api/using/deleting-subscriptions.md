@@ -1,6 +1,6 @@
 ---
 title: Suppression des abonnements
-description: Découvrez comment supprimer des abonnements avec des API.
+description: Découvrez comment supprimer des abonnements avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -21,19 +21,19 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## Suppression d’un abonnement de service pour un profil spécifique
 
-C'est une procédure en trois étapes.
+Cette procédure comporte trois étapes.
 
-1. Récupérez l’URL d’abonnement pour le profil souhaité.
-1. Exécutez une requête GET sur l’URL d’abonnement.
+1. Récupérez l’URL des abonnements pour le profil souhaité.
+1. Exécutez une requête GET sur l’URL des abonnements.
 1. Exécutez une requête DELETE sur l’URL de service souhaitée.
 
-Si la demande de suppression aboutit, l’état de la réponse est 204 Aucun contenu.
+Si la requête de suppression aboutit, l’état de la réponse est 204 No Content.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Les exemples de charge ci-dessous montrent comment désabonner un profil d’un service. Commencez par exécuter une requête GET pour récupérer le profil.
+Les exemples de payloads ci-dessous montrent comment supprimer un abonnement d’un profil pour un service. Commencez par exécuter une requête GET pour récupérer le profil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -43,7 +43,7 @@ Les exemples de charge ci-dessous montrent comment désabonner un profil d’un 
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’URL d’abonnement du profil.
+Elle renvoie l’URL des abonnements du profil.
 
 ```
   {
@@ -56,7 +56,7 @@ Elle renvoie l’URL d’abonnement du profil.
   }
 ```
 
-Exécutez une requête GET sur l’URL d’abonnement.
+Exécutez une requête GET sur l’URL des abonnements.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -66,7 +66,7 @@ Exécutez une requête GET sur l’URL d’abonnement.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Il renvoie la liste des abonnements pour le profil sélectionné, avec une URL pour chaque service souscrit.
+Elle renvoie la liste des abonnements pour le profil sélectionné, avec une URL pour chaque service souscrit.
 
 ```
 ...
@@ -94,17 +94,17 @@ Exécutez une requête DELETE sur l’URL de service souhaitée.
 
 ## Suppression d’un abonnement de service pour un profil spécifique
 
-C'est une procédure en trois étapes.
+Cette procédure comporte trois étapes.
 
 1. Récupérez le service souhaité et son URL d’abonnement.
-1. Effectuez une requête GET sur l’URL d’abonnement pour récupérer tous les abonnements de profils.
+1. Exécutez une requête GET sur l’URL d’abonnement pour récupérer tous les abonnements de profils.
 1. Exécutez une requête DELETE sur l’URL d’abonnement au profil souhaité.
 
-Si la demande de suppression aboutit, l’état de la réponse est 204 Aucun contenu.
+Si la requête de suppression aboutit, l’état de la réponse est 204 No Content.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 Récupérez l’enregistrement du service.
 
@@ -116,7 +116,7 @@ Récupérez l’enregistrement du service.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’URL d’abonnement du service.
+La requête renvoie l’URL des abonnements du service.
 
 ```
 {
@@ -133,7 +133,7 @@ Elle renvoie l’URL d’abonnement du service.
 },
 ```
 
-Exécutez une requête GET sur l’URL d’abonnement.
+Exécutez une requête GET sur l’URL des abonnements.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -143,7 +143,7 @@ Exécutez une requête GET sur l’URL d’abonnement.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Il renvoie la liste des abonnements pour le service sélectionné, avec une URL (href) pour chaque abonnement de profil.
+Elle renvoie la liste des abonnements pour le service sélectionné, avec une URL (href) pour chaque abonnement de profil.
 
 ```
 {
