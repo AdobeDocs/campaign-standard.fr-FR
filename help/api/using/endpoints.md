@@ -1,6 +1,6 @@
 ---
-title: Points de fin
-description: En savoir plus sur les points de fin des API.
+title: Points d’entrée
+description: En savoir plus sur les points d’entrée des API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,28 +11,28 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
 
-# Points de fin {#endpoints}
+# Points d’entrée {#endpoints}
 
-Points de fin disponibles pour l’API REST d’Adobe Campaign :
+Points d’entrée disponibles des API REST d’Adobe Campaign :
 
-* **/profileAndServices**: interagir avec les champs prêts à l’emploi. Les champs étendus ne sont pas accessibles avec ce point de fin.
-* **/profileAndServicesExt**: interagir avec les champs personnalisés ajoutés lors de l’extension de ressource personnalisée Profil ou Services. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
-* **/&lt;transactionalAPI&gt;**: interagir avec l’API des messages transactionnels (le nom du point de fin de l’API des messages transactionnels dépend de la configuration de votre instance). Voir à ce propos [cette section](../../api/using/managing-transactional-messages.md).
-* **/workflow/exécution**: interagir avec les processus. Voir à ce propos [cette section](../../api/using/controlling-a-workflow.md).
-* **/privacy/privacyTool**: interagir avec l’API de confidentialité pour permettre le processus automatique des demandes de confidentialité. Voir à ce propos [cette section](../../api/using/creating-a-privacy-request.md).
-* **/history**: récupérer l’historique marketing des profils. Pour plus d’informations sur les profils de clients intégrés dans Campaign, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)Campaign.
+* **/profileAndServices** : permet d’interagir avec les champs d’usine. Les champs étendus ne sont pas accessibles par ce point d’entrée.
+* **/profileAndServicesExt** : permet d’interagir avec les champs personnalisés ajoutés lors de l’extension des ressources personnalisées Profile ou Services. Pour plus d’informations sur les ressources personnalisées, reportez-vous à [cette section](../../api/using/custom-resources.md).
+* **/&lt;transactionalAPI>** : permet d’interagir avec l’API des messages transactionnels (le nom du point d’entrée de l’API des messages transactionnels dépend de la configuration de votre instance). Voir à ce propos [cette section](../../api/using/managing-transactional-messages.md).
+* **/workflow/exécution** : permet d’interagir avec les workflows. Voir à ce propos [cette section](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacyTool** : permet d’interagir avec l’API de confidentialité pour permettre le traitement automatique des demandes d’accès aux informations personnelles. Voir à ce propos [cette section](../../api/using/creating-a-privacy-request.md).
+* **/history** : permet de récupérer l’historique marketing des profils. Pour plus d’informations sur les profils de clients intégrés dans Campaign, reportez-vous à la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/audiences/using/integrated-customer-profile.html).
 
-Par défaut, les ressources principales disponibles pour les API **profileAndServices** et **profileAndServicesExt** sont les suivantes :
+Par défaut, les principales ressources disponibles pour les API **profileAndServices** et **profileAndServicesExt** sont les suivantes :
 
-* **/profile**: interagir avec les profils de la base de données Campaign. Pour ajouter des profils à un service, utilisez le point de terminaison **/service** . Pour plus d’informations sur les profils dans Campaign, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)Campaign.
-* **/service**: gestion des services d’abonnement. Pour plus d’informations sur les services dans Campaign, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)Campaign.
+* **/profile** : permet d’interagir avec les profils issus de la base de données Campaign. Pour ajouter des profils à un service, utilisez le point d’entrée **/service**. Pour plus d’informations sur les profils dans Campaign, reportez-vous à la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/audiences/using/about-profiles.html).
+* **/service** : permet de gérer les services d’abonnement. Pour plus d’informations sur les services dans Campaign, reportez-vous à la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
->Toutes les autres ressources qui ont été étendues ou créées sont disponibles via l’API **ProfileAndServicesExt** uniquement. Ils doivent être liés à la ressource **Profil** pour être accessibles.
+>Toutes les autres ressources étendues ou créées sont exclusivement disponibles via l’API **ProfileAndServicesExt**. Elles doivent être liées à la ressource **Profile** pour être accessibles.
