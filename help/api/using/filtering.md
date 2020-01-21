@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
@@ -19,17 +19,17 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 # Filtrage {#filtering}
 
-## Récupération des métadonnées des filtres
+## Récupérer les métadonnées des filtres
 
-Les filtres sont disponibles pour chaque ressource. Pour identifier les filtres associés à une ressource, vous devez exécuter une requête GET sur les métadonnées de la ressource. Cette requête renvoie l’URL dans laquelle tous les filtres sont définis pour une ressource donnée. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Des filtres sont disponibles pour chaque ressource. Pour identifier les filtres associés à une ressource, vous devez exécuter une requête GET sur les métadonnées de la ressource. Cette requête renvoie l’URL dans laquelle tous les filtres sont définis pour une ressource donnée. Pour plus d’informations sur les métadonnées, voir [cette section](../../api/using/metadata-mechanism.md).
 
 Pour identifier les métadonnées d’un filtre et déterminer comment l’utiliser, vous devez exécuter une requête GET sur l’URL précédemment renvoyée.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Les exemples de charge ci-dessous montrent comment récupérer les métadonnées de filtre "byText" pour la ressource "profile". Commencez par exécuter une requête GET sur la métada de ressources "profile".
+Les exemples de payloads ci-dessous montrent comment récupérer les métadonnées de filtre « byText » pour la ressource « profile ». Commencez par exécuter une requête GET sur les métadonnées de la ressource « profile ».
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -49,7 +49,7 @@ Elle renvoie l’URL où les filtres sont décrits.
   }
 ```
 
-Exécutez une requête GET sur l’URL. Elle renvoie la liste des filtres pour la ressource de profil, avec les métadonnées associées à chaque filtre.
+Exécutez une requête GET sur l’URL. Elle renvoie la liste des filtres pour la ressource « profile », avec les métadonnées associées à chaque filtre.
 
 ```
 {
@@ -64,18 +64,18 @@ Exécutez une requête GET sur l’URL. Elle renvoie la liste des filtres pour l
 }
 ```
 
-## Filtre la structure des métadonnées
+## Structure des métadonnées des filtres
 
-La même structure de métadonnées est disponible pour chaque filtre :
+Chaque filtre possède la même structure de métadonnées :
 
-* Les champs **@formType** et **@webPage** sont des champs techniques.
-* Le champ **de données** fournit un exemple d’utilisation du filtre.
-* Le noeud **de métadonnées** décrit les paramètres de filtre.
-* Le noeud **de condition** décrit ce que le filtre est censé faire. Les paramètres de filtre décrits dans le noeud de métadonnées sont utilisés pour créer des conditions de filtre. Pour chaque condition de filtre, si **enabledIf** est vrai, l’ **expr** est appliqué.
+* Les champs **@formType** et **@webPage** sont techniques.
+* Le champ **data** donne un exemple d’utilisation du filtre.
+* Le nœud **metadata** décrit les paramètres du filtre.
+* Le nœud **condition** décrit ce que le filtre est censé faire. Les paramètres de filtre décrits dans le nœud « metadata » sont utilisés pour créer des conditions de filtre. Pour chaque condition de filtre, si **enabledIf** est vrai, le contenu **expr** est appliqué.
 
 <br/>
 
-Exemple de structure de métadonnées de filtre :
+Exemple de structure de métadonnées de filtre :
 
 ```
 "byText": {
@@ -91,19 +91,19 @@ Exemple de structure de métadonnées de filtre :
 
 ## Utilisation des filtres
 
-Le filtrage est effectué avec la requête suivante :
+Le filtrage est appliqué avec la requête suivante :
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-Il est possible de combiner plusieurs filtres dans une seule requête :
+Il est possible de combiner plusieurs filtres dans une seule requête :
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de requêtes ***
 
-* Exemple de requête GET pour récupérer les ressources de "service" avec le type "email".
+* Exemple de requête GET pour récupérer les ressources « service » avec le type « email ».
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -113,7 +113,7 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Réponse à la demande.
+   Réponse à la requête.
 
    ```
    {
@@ -135,7 +135,8 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    }
    ```
 
-* Exemple de requête GET pour récupérer les ressources de "profil" contenant "Doe" dans les champs de courriel ou de nom (le filtre byText effectue une recherche dans les champs de courriel et de nom).
+* Exemple de requête GET pour récupérer les ressources « profile » contenant « Doe » dans
+les champs email ou nom (le filtre byText effectue une recherche dans les champs email et nom).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -145,7 +146,7 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Réponse à la demande.
+   Réponse à la requête.
 
    ```
    {
@@ -163,7 +164,7 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    }
    ```
 
-* Exemple de demande GET pour récupérer les ressources de services avec le type "email" et l'étiquette "sport".
+* Exemple de requête GET pour récupérer les ressources « service » avec le type « email » et le libellé « sport ».
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -173,7 +174,7 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   Réponse à la demande.
+   Réponse à la requête.
 
    ```
    {
@@ -197,20 +198,20 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
 
 ## Filtres personnalisés
 
-Si vous souhaitez utiliser un filtre personnalisé, vous devez le créer et le personnaliser dans l’interface d’Adobe Campaign Standard. Le filtre personnalisé aura alors le même comportement que les filtres prêts à l’emploi :
+Si vous souhaitez utiliser un filtre personnalisé, vous devez le créer et le personnaliser dans l’interface d’Adobe Campaign Standard. Le filtre personnalisé aura alors le même comportement que les filtres prêts à l’emploi :
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Pour plus d’informations, reportez-vous à la documentation de Campaign Standard :
+Pour plus d’informations à ce sujet, consultez la documentation relative à Campaign Standard :
 
-* [Configuration de la définition des filtres](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Cas d’utilisation : Appel d’une ressource à l’aide d’une clé](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)d’identification composite.
+* [Configuration de la définition des filtres](https://helpx.adobe.com/fr/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Cas pratique : appel d’une ressource à l’aide d’une clé d’identification composite](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Exemple de requête GET pour récupérer les ressources de "profil" avec des montants de transaction de 100$ ou plus. Notez que le filtre "byAmount" a d’abord été défini dans l’interface Adobe Campaign Standard et lié au tableau personnalisé "Transaction".
+Exemple de requête GET pour récupérer les ressources « profile » comportant des montants de transactions de 100 $ ou plus. Notez que le filtre « byAmount » a d’abord été défini dans l’interface Adobe Campaign Standard et lié à la table personnalisées « Transaction ».
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
