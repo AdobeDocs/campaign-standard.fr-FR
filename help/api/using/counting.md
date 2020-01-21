@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 ---
@@ -19,13 +19,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 # Comptage
 
-L’API REST d’Adobe Campaign peut comptabiliser le nombre d’enregistrements d’une requête. Pour ce faire, utilisez l’URL renvoyée dans le noeud **count** .
+L’API REST d’Adobe Campaign permet de comptabiliser le nombre d’enregistrements contenus dans une requête. Pour ce faire, utilisez l’URL renvoyée dans le nœud **count** .
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Pour compter tous les services dont la valeur **messageType** est égale à "sms", exécutez une requête GET avec le filtre **byChannel** .
+Pour compter tous les services dont la valeur **messageType** est égale à « sms », exécutez une requête GET avec le filtre **byChannel**.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -56,7 +56,7 @@ Elle renvoie les services correspondant au filtre.
 }
 ```
 
-Exécutez une requête GET sur l’URL du noeud **count** pour récupérer le nombre de résultats.
+Exécutez une requête GET sur l’URL du nœud **count** pour récupérer le nombre de résultats.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
@@ -66,7 +66,7 @@ Exécutez une requête GET sur l’URL du noeud **count** pour récupérer le no
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Renvoie le nombre d’enregistrements.
+Elle renvoie le nombre d’enregistrements.
 
 ```
 {
