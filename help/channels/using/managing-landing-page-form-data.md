@@ -12,7 +12,7 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
@@ -20,33 +20,33 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 # Gestion des données de formulaire de landing page{#managing-landing-page-form-data}
 
-## Modifier les propriétés des données d'un formulaire pour une landing page{#changing-a-landing-page-form-data-properties}
+## Modifier les propriétés des données d&#39;un formulaire pour une landing page{#changing-a-landing-page-form-data-properties}
 
-Vous pouvez associer des champs de la base à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela, sélectionnez le bloc et renseignez la partie **[!UICONTROL Données du formulaire]** dans la palette.
+Vous pouvez associer des champs de la base à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela, sélectionnez le bloc et renseignez la partie **[!UICONTROL Données du formulaire]**dans la palette.
 
 ![](assets/delivery_content_9.png)
 
 * La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
-* L'option **Obligatoire** permet de n'autoriser la validation de la page que si l'utilisateur a renseigné le champ. Si un champ obligatoire n'est pas renseigné, un message d'erreur sera affiché.
+* L&#39;option **Obligatoire** permet de n&#39;autoriser la validation de la page que si l&#39;utilisateur a renseigné le champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur sera affiché.
 
-## Association des champs de formulaire {#mapping-form-fields}
+## Association des champs de formulaire  {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
 1. Sélectionnez un bloc dans la landing page.
-1. Renseignez la partie **[!UICONTROL Données de formulaire]** de la palette.
+1. Renseignez la partie **[!UICONTROL Données de formulaire]**de la palette.
 
    ![](assets/editing_lp_content_4.png)
 
 1. Sélectionnez un champ de base de données à associer au champ de formulaire dans la zone de sélection **[!UICONTROL Champ]**.
 
-   Quand l'option **[!UICONTROL Obligatoire]** est cochée, la validation de la page est autorisée uniquement si l'utilisateur a renseigné le champ correspondant. Si un champ obligatoire n'est pas renseigné, un message d'erreur s'affiche lorsque l'utilisateur valide la page.
+   Quand l&#39;option **[!UICONTROL Obligatoire]**est cochée, la validation de la page est autorisée uniquement si l&#39;utilisateur a renseigné le champ correspondant. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur valide la page.
 
    >[!NOTE]
    >
    >Les landing pages peuvent seulement être mappées avec des **profils**.
 
-1. Il est enfin possible de définir le type du champ en choisissant par exemple **[!UICONTROL Texte]**, **[!UICONTROL Nombre]** ou **[!UICONTROL Date]** dans la zone de sélection **[!UICONTROL Type HTML du champ]**.
+1. Il est enfin possible de définir le type du champ en choisissant par exemple **[!UICONTROL Texte]**,**[!UICONTROL  Nombre]** ou **[!UICONTROL Date]**dans la zone de sélection**[!UICONTROL  Type HTML du champ]**.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Les paramètres de réconciliation permettent de définir le mode de gestion des
 
 Pour cela :
 
-1. Editez les propriétés de la landing page accessibles via l'icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
+1. Editez les propriétés de la landing page accessibles via l&#39;icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
 
    ![](assets/lp_parameters_4.png)
 
