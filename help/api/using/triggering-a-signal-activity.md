@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -19,23 +19,23 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 # Déclenchement d’une activité de signal {#triggering-a-signal-activity}
 
-Dans un processus Adobe Campaign Standard, il peut y avoir une ou plusieurs activités de signal **** externe. Ces activités sont des "écouteurs" qui attendent d’être déclenchées.
+Un workflow Adobe Campaign Standard peut comporter une ou plusieurs activités **Signal externe**. Ces activités sont des « écouteurs » (listeners) qui attendent d’être déclenchés.
 
-Les API de Campaign Standard vous permettent de déclencher une activité de signal **** externe pour appeler un flux de travail. L’appel d’API peut inclure des paramètres qui seront assimilés aux variables d’événements du flux de travail (un nom d’audience à cibler, un nom de fichier à importer, une partie du contenu du message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
+Les API de Campaign Standard vous permettent de déclencher une activité **Signal externe** pour appeler un workflow. L’appel d’API peut inclure des paramètres à incorporer dans les variables d’événements du workflow (nom de l’audience à cibler, nom du fichier à importer, partie du contenu du message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
 
 >[!NOTE]
 >
->Les activités de signal externe ne peuvent pas être déclenchées plus souvent que toutes les 10 minutes et le flux de travail de destination doit être déjà en cours d’exécution.
+>Les activités de signal externe ne peuvent pas être déclenchées plus souvent que toutes les 10 minutes et le workflow de destination doit être déjà en cours d’exécution.
 
-Pour déclencher un processus, procédez comme suit :
+Pour déclencher un workflow, procédez comme suit :
 
-1. Exécutez une requête **GET** sur le flux de travail pour récupérer l’URL du déclencheur d’activité de signal externe.
+1. Exécutez une requête **GET** sur le workflow pour récupérer l’URL du déclencheur d’activité Signal externe.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Exécutez une requête **POST** sur l’URL renvoyée pour déclencher l’activité du signal, avec le paramètre **"source"** dans la charge utile. Cet attribut est obligatoire. Il vous permet d’indiquer la source de la demande de déclenchement.
+1. Exécutez une requête **POST** sur l’URL renvoyée pour déclencher l’activité de signal, avec le paramètre **&quot;source&quot;** dans la payload. Cet attribut est obligatoire. Il permet d’indiquer la source de la demande de déclenchement.
 
-Si vous souhaitez appeler le processus avec des paramètres, ajoutez-les à la charge utile avec l’attribut **"paramètres"** . La syntaxe se compose du nom du paramètre suivi de sa valeur (les types suivants sont pris en charge : **chaîne**, **nombre**, **valeur booléenne** et **date/heure).**
+Si vous souhaitez appeler le processus avec des paramètres, ajoutez-les à la payload avec l’attribut **&quot;parameters&quot;**. La syntaxe se compose du nom du paramètre suivi de sa valeur (les types suivants sont pris en charge : **string**, **number**, **boolean** et **date/time).**
 
 ```
   -X POST <TRIGGER_URL>
@@ -58,13 +58,13 @@ Si vous souhaitez appeler le processus avec des paramètres, ajoutez-les à la c
 
 >[!NOTE]
 >
->Lors de l’ajout d’un paramètre à la charge utile, assurez-vous que son **nom** et ses valeurs de **type** sont cohérents avec les informations déclarées dans l’activité de signal externe. De plus, la taille de la charge utile ne doit pas dépasser 64Ko.
+>Lors de l’ajout d’un paramètre à la payload, assurez-vous que ses valeurs **name** et **type** sont cohérentes avec les informations déclarées dans l’activité Signal externe. De plus, la taille de la payload ne doit pas dépasser 64 Ko.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Exécutez une requête GET dans le flux de travaux.
+Exécutez une requête GET sur le workflow.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -74,7 +74,7 @@ Exécutez une requête GET dans le flux de travaux.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’activité du signal de flux de travail et l’URL de déclenchement associée.
+Elle renvoie l’activité du signal de workflow et l’URL de déclenchement associée.
 
 ```
 {
@@ -93,7 +93,7 @@ Elle renvoie l’activité du signal de flux de travail et l’URL de déclenche
 }
 ```
 
-Pour déclencher une activité de signal, exécutez une requête POST sur l’URL du déclencheur avec la "source". Ajoutez les attributs "paramètres" si vous souhaitez appeler le processus avec des paramètres.
+Pour déclencher une activité de signal, exécutez une requête POST sur l’URL de déclenchement avec la « source ». Ajoutez les attributs « parameters » si vous souhaitez appeler le workflow avec des paramètres.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +117,7 @@ Pour déclencher une activité de signal, exécutez une requête POST sur l’UR
 
 <!-- + réponse -->
 
-Si l’un des paramètres n’est pas déclaré dans l’activité de signal externe, la requête POST renvoie l’erreur ci-dessous, indiquant le paramètre manquant.
+Si l’un des paramètres n’est pas déclaré dans l’activité Signal externe, la requête POST renvoie l’erreur ci-dessous, en indiquant le paramètre manquant.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
