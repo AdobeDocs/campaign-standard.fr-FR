@@ -1,6 +1,6 @@
 ---
 title: Récupération des abonnements
-description: Découvrez comment récupérer des abonnements avec des API.
+description: Découvrez comment récupérer des abonnements avec les API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
@@ -21,20 +21,20 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## Récupération des profils abonnés à un service
 
-C'est une procédure en deux étapes.
+Cette procédure comporte deux étapes.
 
-1. Récupérez l’URL d’abonnement pour le service souhaité.
-1. Exécutez une requête GET sur l’URL d’abonnement. Elle renvoie la liste des abonnements pour le service, avec chaque profil associé.
+1. Récupérez l’URL des abonnements pour le service souhaité.
+1. Exécutez une requête GET sur l’URL des abonnements. Elle renvoie la liste des abonnements pour le service, avec chaque profil associé.
 
 >[!CAUTION]
 >
->L’API REST renvoie la propriété "href", qui contient l’URL à utiliser. <b>Utilisez toujours l’URL contenue dans la réponse pour effectuer la requête</b>d’API suivante.
+>L’API REST renvoie la propriété « href », qui contient l’URL à utiliser. <b>Utilisez systématiquement l’URL contenue dans la réponse pour exécuter la requête d’API suivante</b>.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Effectuez une requête GET pour récupérer le service.
+Exécutez une requête GET pour récupérer le service.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -44,7 +44,7 @@ Effectuez une requête GET pour récupérer le service.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’URL d’abonnement du service.
+Elle renvoie l’URL des abonnements du service.
 
 ```
   {
@@ -58,7 +58,7 @@ Elle renvoie l’URL d’abonnement du service.
   },
 ```
 
-Exécutez une requête GET sur l’URL d’abonnement.
+Exécutez une requête GET sur l’URL des abonnements.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -87,16 +87,16 @@ La liste des abonnements pour le service s’affiche, avec chaque profil associ�
 
 ## Récupération des services auxquels un profil s’est abonné
 
-C'est une procédure en deux étapes.
+Cette procédure comporte deux étapes.
 
-1. Récupérez l’URL d’abonnement pour un profil donné.
+1. Récupérez l’URL des abonnements pour un profil donné.
 1. Exécutez une requête GET sur l’URL. Elle renvoie la liste des abonnements pour le profil, avec chaque service associé.
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
-Effectuez une requête GET pour récupérer le profil.
+Exécutez une requête GET pour récupérer le profil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -106,7 +106,7 @@ Effectuez une requête GET pour récupérer le profil.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Elle renvoie l’URL d’abonnement du profil.
+Elle renvoie l’URL des abonnements du profil.
 
 ```
   {
@@ -120,7 +120,7 @@ Elle renvoie l’URL d’abonnement du profil.
   }
 ```
 
-Exécutez une requête GET sur l’URL d’abonnement.
+Exécutez une requête GET sur l’URL des abonnements.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
