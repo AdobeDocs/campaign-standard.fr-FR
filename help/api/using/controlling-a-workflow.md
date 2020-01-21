@@ -1,6 +1,6 @@
 ---
-title: Contrôle d’un processus
-description: Découvrez comment contrôler un flux de travail à l’aide d’API.
+title: Contrôle d’un workflow
+description: Découvrez comment contrôler un workflow à l’aide des API.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,36 +11,36 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Contrôle d’un processus {#controlling-a-workflow}
+# Contrôle d’un workflow {#controlling-a-workflow}
 
-Vous pouvez contrôler un flux de travail directement à partir de l’API REST, par le biais d’une requête POST contenant l’ID de flux de travail et la commande d’exécution requise :
+Vous pouvez contrôler un workflow directement à partir de l’API REST, par le biais d’une requête POST contenant l’identifiant du workflow et la commande d’exécution requise :
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->Si l’ID de travail est modifié dans Adobe Campaign, la demande d’API ne fonctionnera plus.
+>Si l’identifiant du workflow est modifié dans Adobe Campaign, la requête d’API ne fonctionnera plus.
 
-Quatre commandes d’exécution sont disponibles pour contrôler un flux de travail :
+Quatre commandes d’exécution sont disponibles pour contrôler un workflow :
 
-* Début
+* Démarrer
 * Pause
 * Reprendre
-* Stopper
+* Arrêter
 
-Pour plus d’informations sur les commandes d’exécution, reportez-vous à la documentation [](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html)Campaign.
+Pour plus d’informations sur les commandes d’exécution, reportez-vous à la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/automating/using/executing-a-workflow.html).
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de requêtes ***
 
-* Démarrez un processus.
+* Démarrer un workflow.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
@@ -54,7 +54,7 @@ Pour plus d’informations sur les commandes d’exécution, reportez-vous à la
 
    <!-- + réponse -->
 
-* Arrêt d’un processus.
+* Arrêter un processus.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
