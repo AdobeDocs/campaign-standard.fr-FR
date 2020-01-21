@@ -12,7 +12,7 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
@@ -26,46 +26,46 @@ Vous pouvez créer et gérer les activités marketing depuis les programmes et l
 
 La liste des activités marketing centralise toutes les activités, quels que soient les programmes ou les campagnes dans lesquels elles ont été créées. Programmes, campagnes, diffusions (emails, SMS et notifications push), landing pages et workflows sont ainsi répertoriés sans aucune notion de hiérarchie.
 
-Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]** dans la barre supérieure.
+Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]**dans la barre supérieure.
 
 >[!NOTE]
 >
->Depuis la page d'accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
+>Depuis la page d&#39;accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
 
 ![](assets/marketing_activities_1.png)
 
-Le volet **[!UICONTROL Recherche]** permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d'activité. Par défaut, tous les types d'activité sont sélectionnés, à l'exception des programmes.
+Le volet **[!UICONTROL Recherche]**permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d&#39;activité. Par défaut, tous les types d&#39;activité sont sélectionnés, à l&#39;exception des programmes.
 
 Pour accéder directement au contenu de chaque activité, choisissez un des éléments de la liste.
 
-Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
+Le bouton **[!UICONTROL Créer]**peut être utilisé pour créer une autre activité. Consultez la section[Créer une activité marketing](#creating-a-marketing-activity)pour en savoir plus.
 
-## Icônes et statuts des activités marketing {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing  {#marketing-activity-icons-and-statuses}
 
-Dans la zone principale, chaque type d'activité de la liste est caractérisé par une icône :
+Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
-* ![](assets/marketing_program_icon.png) : Programme
-* ![](assets/marketing_campaign_icon.png) : Campagne
-* ![](assets/marketing_email_icon.png) : Email
+* ![](assets/marketing_program_icon.png) : Program
+* ![](assets/marketing_campaign_icon.png) : Campaign
+* ![](assets/marketing_email_icon.png) : Email
 * ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Notification push
+* ![](assets/marketing_push_icon.png) : Push notification
 * ![](assets/marketing_lp_icon.png) : Message In-App
-* ![](assets/marketing_lp_icon.png) : Landing page
-* ![](assets/marketing_workflow_icon.png) : Workflow
+* ![](assets/marketing_lp_icon.png) : Landing page
+* ![](assets/marketing_workflow_icon.png) : Workflow
 
-La couleur associée à cette icône indique le statut d'exécution de l'activité correspondante, en fonction de sa période de validité et de son état.
+La couleur associée à cette icône indique le statut d&#39;exécution de l&#39;activité correspondante, en fonction de sa période de validité et de son état.
 
-* Gris : l'activité n'a pas encore commencé - statut **[!UICONTROL En édition]**.
-* Bleu : l'activité est en cours - statut **[!UICONTROL En cours]**.
-* Vert : l'activité est terminée - statut **[!UICONTROL Terminé]**.
-* Jaune : l'activité a fait l'objet d'un avertissement - statut **[!UICONTROL Avertissement]**.
+* Gris : l&#39;activité n&#39;a pas encore commencé - statut **[!UICONTROL En édition]**.
+* Bleu : l&#39;activité est en cours - statut **[!UICONTROL En cours]**.
+* Vert : l&#39;activité est terminée - statut **[!UICONTROL Terminé]**.
+* Jaune : l&#39;activité a fait l&#39;objet d&#39;un avertissement - statut **[!UICONTROL Avertissement]**.
 * Rouge : une erreur est survenue - statut **[!UICONTROL En erreur]**.
 
 ## Créer une activité marketing {#creating-a-marketing-activity}
 
 Depuis une campagne existante, vous pouvez créer différents types de messages (**email**, **SMS**, **notification push**, etc.), des workflows et des landing pages.
 
-Depuis un programme existant, vous pouvez créer d'autres programmes, des campagnes, des workflows et des landing pages.
+Depuis un programme existant, vous pouvez créer d&#39;autres programmes, des campagnes, des workflows et des landing pages.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Depuis un programme existant, vous pouvez créer d'autres programmes, des campag
 
 Les programmes et les campagnes sont présentés dans la section [Programmes et campagnes](../../start/using/programs-and-campaigns.md).
 
-1. Dans le tableau de bord d'un programme ou d'une campagne, créez une activité marketing à l'aide du bouton **[!UICONTROL Créer]**.
+1. Dans le tableau de bord d&#39;un programme ou d&#39;une campagne, créez une activité marketing à l&#39;aide du bouton **[!UICONTROL Créer]**.
 
    ![](assets/marketing_activiy_creation_1.png)
 
-1. Sélectionnez le type d'activité que vous souhaitez créer.
+1. Sélectionnez le type d&#39;activité que vous souhaitez créer.
 
    ![](assets/marketing_activiy_creation_2.png)
 
@@ -94,5 +94,5 @@ Selon le contexte, vous pouvez :
 
 >[!NOTE]
 >
->Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n'importe quel type d'activité. Vous pouvez choisir d'associer l'activité marketing à une campagne parente (ou à un programme parent si vous créez un programme) via les propriétés de l'activité.
+>Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n&#39;importe quel type d&#39;activité. Vous pouvez choisir d&#39;associer l&#39;activité marketing à une campagne parente (ou à un programme parent si vous créez un programme) via les propriétés de l&#39;activité.
 
