@@ -12,7 +12,7 @@ discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
@@ -20,23 +20,23 @@ source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 # Profil client intégré{#integrated-customer-profile}
 
-Un profil client intégré est disponible pour chaque contact de votre base de données. Cet historique marketing regroupe, dans une même vue, toutes les informations marketing pertinentes concernant un contact client. Vous pouvez ensuite accéder à l'ensemble des comportements digitaux, des transactions on-line et off-line à un emplacement central : informations de contact, emails reçus, tracking, abonnements et désabonnements, etc.
+Un profil client intégré est disponible pour chaque contact de votre base de données. Cet historique marketing regroupe, dans une même vue, toutes les informations marketing pertinentes concernant un contact client. Vous pouvez ensuite accéder à l&#39;ensemble des comportements digitaux, des transactions on-line et off-line à un emplacement central : informations de contact, emails reçus, tracking, abonnements et désabonnements, etc.
 
 Pour accéder au profil client intégré, procédez comme suit :
 
-1. Depuis la page d'accueil d'Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]** ou l'onglet **Profils**.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]**ou l&#39;onglet** Profils **.
 1. Sélectionnez un contact.
 
    ![](assets/mkt_hist_access.png)
 
-Vous pouvez accéder à l'**historique marketing** de ce contact.
+Vous pouvez accéder à l&#39;**historique marketing** de ce contact.
 
 ![](assets/mkt_hist_view.png)
 
 Des informations essentielles sur le profil sont rassemblées sur cette page, de même que la liste des événements.
 
-Cliquez sur un événement de la liste pour l'ouvrir : vous pouvez accéder au message qui a été envoyé ou au service auquel le profil s'est abonné.
+Cliquez sur un événement de la liste pour l&#39;ouvrir : vous pouvez accéder au message qui a été envoyé ou au service auquel le profil s&#39;est abonné.
 
 >[!NOTE]
 >
->L'historique marketing est également accessible à l'aide de l'API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/interacting-with-marketing-history.md) .
+>L&#39;historique marketing est également accessible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/interacting-with-marketing-history.md) .
