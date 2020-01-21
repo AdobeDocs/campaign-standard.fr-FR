@@ -1,6 +1,6 @@
 ---
-title: Gestion de l’exclusion de l’ACCP
-description: Découvrez comment gérer l’exclusion CCPA avec les API
+title: Gestion du droit d’opposition du CCPA
+description: Découvrez comment gérer le droit d’opposition du CCPA avec les API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,32 +11,32 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Gestion de l’exclusion de l’ACCP {#managing-ccpa-optout}
+# Gestion du droit d’opposition du CCPA {#managing-ccpa-optout}
 
-L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l’aide de l’attribut de profil **ccpaOptOut** et des valeurs "true" ou "false" :
+Il est possible de surveiller et gérer l’état du droit d’opposition (opt-out) à la vente d’informations personnelles du CCPA à l’aide de l’attribut de profil **ccpaOptOut** et des valeurs « true » ou « false » :
 
 `"ccpaOptOut": <value>`
 
-* **true**:  interdit la vente de renseignements personnels.
-* **false**: autorise la vente de renseignements personnels.
+* **true** : interdit la vente d’informations personnelles.
+* **false** : autorise la vente d’informations personnelles.
 
 >[!CAUTION]
 >
->L’attribut "Exclusion de l’ACCP" n’est disponible qu’à partir de la version 19.4. Pour les environnements 19.3, vous devez étendre la ressource Profils et ajouter un champ booléen. Ce champ sera ajouté à l’API avec le libellé choisi. Nous vous suggérons d'utiliser "Exclusion pour l'ACCP".
+>L’attribut « Option d’Opt-out du CCPA » n’est disponible qu’à partir de la version 19.4. Pour les environnements 19.3, vous devez développer la ressource Profiles et ajouter un champ booléen. Ce champ sera ajouté à l’API avec le libellé choisi. Nous vous suggérons d’utiliser « Option d’Opt-out du CCPA ».
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>Pour plus d’informations à ce sujet, consultez la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de requêtes ***
 
-* Exemple de requête GET pour récupérer l’état d’exclusion CCPA d’un profil.
+* Exemple de requête GET pour récupérer dans un profil l’état du droit d’opposition du CCPA.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -46,7 +46,7 @@ L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l�
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   Réponse à la demande GET.
+   Réponse à la requête GET.
 
    ```
    {
@@ -58,7 +58,7 @@ L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l�
    }
    ```
 
-* Exemple de requête POST pour marquer un profil pour l’exclusion de l’ACCP.
+* Exemple de requête POST pour indiquer le droit d’opposition du CCPA dans un profil.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +75,7 @@ L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l�
    -d }'
    ```
 
-   Réponse à la demande GET.
+   Réponse à la requête GET.
 
    ```
    {
@@ -88,7 +88,7 @@ L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l�
    }
    ```
 
-* Exemple de demande PATCH pour mettre à jour un profil pour l’exclusion de l’ACCP.
+* Exemple de requête PATCH pour mettre à jour un profil concernant le droit d’opposition du CCPA.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +102,7 @@ L’état d’exclusion CCPA d’un profil peut être surveillé et géré à l�
    -d }'
    ```
 
-   Réponse à la demande GET.
+   Réponse à la requête GET.
 
    ```
    {
