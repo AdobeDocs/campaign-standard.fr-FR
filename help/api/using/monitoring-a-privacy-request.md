@@ -1,6 +1,6 @@
 ---
-title: Surveillance d’une demande de confidentialité
-description: Découvrez comment surveiller une demande de confidentialité avec des API
+title: Suivi d’une demande d’accès à des informations personnelles
+description: Découvrez comment suivre une demande d’accès à des informations personnelles avec les API
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,21 +11,21 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
 
-# Surveillance d’une demande de confidentialité {#monitoring-a-privacy-request}
+# Suivi d’une demande d’accès à des informations personnelles {#monitoring-a-privacy-request}
 
-Vous pouvez surveiller les informations sur une demande de confidentialité créée à l’aide d’une demande **GET** .
+Vous pouvez suivre les informations relatives à une demande d’accès à des informations personnelles créée à l’aide d’une requête **GET**.
 
-La description de la liste d’état est disponible dans la documentation [de gestion de la](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)confidentialité.
+La description de la liste d’états est disponible dans la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
-***Exemple de requête***
+***Exemple de requête ***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -35,7 +35,7 @@ La description de la liste d’état est disponible dans la documentation [de ge
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Réponse à la demande GET.
+Réponse à la requête GET.
 
 ```
 {
