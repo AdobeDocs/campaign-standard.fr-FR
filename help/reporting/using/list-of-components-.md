@@ -11,7 +11,7 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 # Liste des composants {#list-of-components}
 
-Pour plus d'informations sur la compatibilité entre les dimensions et les mesures, consultez ce [tableau](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
+Pour plus d&#39;informations sur la compatibilité entre les dimensions et les mesures, consultez ce [tableau](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
 ![](assets/dynamic_report_compatibility.png)
 
@@ -134,11 +134,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures {#metrics}
+## Mesures  {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS {#email-and-sms-metrics}
+### Mesures des emails et SMS  {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -149,27 +149,27 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
+   <td> En blackliste<br /> </td> 
    <td> Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
+   <td> Taux d'éléments en blackliste<br /> </td> 
    <td> Pourcentage de diffusions marquées comme blacklistées.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
+   <td> Bounces + Erreurs<br /> </td> 
    <td> Nombre total d'erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> Taux Bounces + Erreurs<br /> </td> 
    <td> Pourcentage d'emails qui ont fait l'objet d'un bounce par rapport au nombre d'emails envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Cliquez sur<br /> </td> 
+   <td> Clics<br /> </td> 
    <td> Nombre de clics sur un contenu dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br /> </td> 
+   <td> Taux de clics<br /> </td> 
    <td> Pourcentage de clics dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> Taux de délivrabilité<br /> </td> 
    <td> Pourcentage de messages envoyés avec succès.<br /> </td> 
   </tr> 
   <tr> 
@@ -189,11 +189,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de diffusions en erreur en raison d'erreurs permanentes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> Page miroir<br /> </td> 
    <td> Nombre de destinataires ayant cliqué sur le lien de la page miroir.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> Taux de page miroir<br /> </td> 
    <td> Pourcentage de clics sur le lien de la page miroir par rapport au nombre total de messages de la diffusion.<br /> </td> 
   </tr> 
   <tr> 
@@ -217,11 +217,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre total d'envois pour la diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
+   <td> Quarantaine<br /> </td> 
    <td> Nombre de messages qui ont fait l'objet d'un bounce et qui ont entraîné la mise en quarantaine de l'adresse.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> Taux de mise en quarantaine<br /> </td> 
    <td> Pourcentage de mises en quarantaine par rapport au nombre de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de messages classés comme spam par les serveurs SMTP.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> Taux de rejet<br /> </td> 
    <td> Pourcentage de messages marqués comme rejetés.<br /> </td> 
   </tr> 
   <tr> 
@@ -237,7 +237,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre total d'erreurs permanentes, telles qu'une boîte de réception pleine.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounce<br /> </td> 
+   <td> Taux de soft bounces<br /> </td> 
    <td> Pourcentage de diffusions en erreur pour une raison temporaire.<br /> </td> 
   </tr> 
   <tr> 
@@ -249,17 +249,17 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant ouvert la diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> Taux de désabonnement<br /> </td> 
    <td> Pourcentage de désinscriptions par destinataire par rapport au nombre de messages délivrés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Désabonné<br /> </td> 
+   <td> Désabonnement<br /> </td> 
    <td> Nombre de clics sur le lien de désinscription.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Mesures des notifications push {#push-notification-metrics}
+### Mesures des notifications push  {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -270,19 +270,19 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + erreurs<br /> </td> 
+   <td> Bounces + Erreurs<br /> </td> 
    <td> Nombre total d'erreurs cumulées lors des diffusions par rapport au nombre total de messages envoyés, par exemple erreurs du MCPNS ou du fournisseur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Taux d'erreurs<br /> </td> 
+   <td> Taux Bounces + Erreurs<br /> </td> 
    <td> Pourcentage de notifications push qui ont fait l'objet d'un bounce par rapport au nombre de notifications push envoyées.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Clics<br /> </td> 
    <td> Nombre de fois qu'une notification push a été diffusée sur l'appareil et a fait l'objet d'un clic par l'utilisateur. L'utilisateur souhaitait afficher la notification, qui sera déplacée vers le tracking Ouverture push, ou l'ignorer.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br /> </td> 
+   <td> Taux de clics<br /> </td> 
    <td> Pourcentage d'utilisateurs ayant interagi avec la notification push.<br /> </td> 
   </tr> 
   <tr> 
@@ -310,7 +310,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de notifications push ouvertes.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic unique<br /> </td> 
+   <td> Clics uniques<br /> </td> 
    <td> Nombre de fois où un utilisateur unique interagit avec la notification push, par exemple clics sur la notification ou le bouton.<br /> </td> 
   </tr> 
   <tr> 
@@ -324,7 +324,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App {#in-app-metrics}
+### Mesures In-App  {#in-app-metrics}
 
 <table> 
  <thead> 
@@ -381,7 +381,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 >[!NOTE]
 >
->Par défaut, le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
+>Par défaut, le segment **[!UICONTROL Exclure le BAT]**est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
 
 Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
@@ -459,7 +459,7 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
   </tr> 
     <tr> 
    <td> Exclure le BAT<br /> </td> 
-   <td> Exclure les preuves de vos rapports<br /> </td> 
+   <td> Exclure les BAT de vos rapports<br /> </td> 
   </tr> 
  </tbody> 
 </table>
