@@ -11,15 +11,15 @@ topic-tags: tutorials
 discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # Vidéos pratiques{#how-to-videos}
 
-Découvrez les fonctionnalités essentielles en regardant nos [vidéos pratiques Campaign Standard](https://helpx.adobe.com/fr/campaign/kt/acs/index/acs-videos.html).
+Découvrez les fonctionnalités essentielles en regardant nos [vidéos pratiques Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
 
 * [Créer un email](https://video.tv.adobe.com/v/23721?captions=fre_fr) : créez un email depuis la page d&#39;accueil d&#39;Adobe Campaign.
 * [Créer une landing page](https://video.tv.adobe.com/v/24093?captions=fre_fr) : créez et éditez une landing page dans Adobe Campaign.
