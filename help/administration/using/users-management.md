@@ -12,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -35,7 +35,7 @@ Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Ado
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer les permissions utilisateur](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html)
+* Vidéo [Gérer les permissions utilisateur](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
 * [Liste des autorisations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -71,7 +71,7 @@ Voici les principales tâches qu&#39;ils peuvent effectuer :
 * [Exporter et importer des packages de données](../../automating/using/managing-packages.md) : échangez des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 * [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d&#39;import](../../automating/using/defining-import-templates.md).
 
-### Utilisateurs experts {#advanced-users}
+### Utilisateurs experts  {#advanced-users}
 
 Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et contrôler leurs diffusions.
 
@@ -85,7 +85,7 @@ Voici les principales tâches qu&#39;ils peuvent effectuer :
 * [Utiliser l&#39;édition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor) : utilisez des fonctions avancées pour manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 * [Exporter des listes](../../automating/using/exporting-lists.md) et [importer des données à l&#39;aide de modèles d&#39;import existants](../../automating/using/importing-data-with-import-templates.md).
 
-### Utilisateurs de base {#basic-users}
+### Utilisateurs de base  {#basic-users}
 
 Grâce à l&#39;administrateur fonctionnel et aux utilisateurs experts, les marketeurs peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d&#39;usine **[!UICONTROL Préparer des diffusions]**,**[!UICONTROL  Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d&#39;usine**[!UICONTROL  Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
@@ -132,7 +132,7 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 
 1. Dans le menu avancé **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Utilisateurs]**, sélectionnez l&#39;utilisateur créé précédemment.
 
-1. Update the **[!UICONTROL Mobile]**,**[!UICONTROL  Time zone]** or **[!UICONTROL Regional settings]**if needed.
+1. Au besoin, mettez à jour les paramètres **[!UICONTROL Mobile]**,**[!UICONTROL  Fuseau horaire]** ou **[!UICONTROL Paramètres régionaux]**.
 
 1. Vérifiez le groupe de sécurité de l&#39;utilisateur. Vous pouvez constater ici que le groupe de sécurité **[!UICONTROL Administrateurs]**a été attribué à l&#39;utilisateur.
 
