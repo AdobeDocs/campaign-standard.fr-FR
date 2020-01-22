@@ -12,8 +12,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ Cette page contient des informations sur chacune de ces étapes, ainsi que des r
 
 **Rubriques connexes :**
 
-* Tutoriel vidéo [Créer une landing page](https://helpx.adobe.com/fr/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html)
+* Tutoriel vidéo [Créer une landing page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Créer un service](../../audiences/using/creating-a-service.md)
 * [Configuration d&#39;un processus de double opt-in](setting-up-a-double-opt-in-process.md)
 
