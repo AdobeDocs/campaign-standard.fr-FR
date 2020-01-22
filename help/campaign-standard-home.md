@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 * **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Découvrez les bonnes pratiques en matière de conception de diffusion et d&#39;envoi.
 
-* **[Concepteur](designing/using/designing-content-in-adobe-campaign.md)**<br/>de courrier électronique Consultez la documentation de Designer de courrier électronique réorganisée.
+* **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consultez la documentation de Email Designer réorganisée.
 
 * **[Guide](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>de Campaign Standard Mobile En savoir plus sur les directives générales pour les livraisons mobiles.
 
