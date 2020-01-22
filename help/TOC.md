@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
+source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 
 ---
 
@@ -104,24 +104,24 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
    + Landing pages {#landing-pages}
-      + [Prise en main des pages d’entrée](channels/using/getting-started-with-landing-pages.md)
+      + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
-      + [Configuration d’une page d’entrée](channels/using/configuring-landing-page.md)
+      + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
       + [Gérer des données de formulaire de landing page](channels/using/managing-landing-page-form-data.md)
-      + [Test et publication d’une page d’entrée](channels/using/testing-publishing-landing-page.md)
+      + [Test et publication d&#39;une landing page](channels/using/testing-publishing-landing-page.md)
       + [Configuration d&#39;un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
 + Concevoir un contenu d&#39;email {#designing-content}
    + [Concepteur d&#39;emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Commencer avec le concepteur de courrier électronique](designing/using/quick-start.md)
+   + [Prise en main du Concepteur d&#39;emails ](designing/using/quick-start.md)
    + [Définition de l&#39;objet et de l&#39;expéditeur](designing/using/subject-line.md)
-   + Création de contenu de courrier électronique{#building-email-content}
+   + Création de contenu d&#39;email{#building-email-content}
       + [Conception d&#39;emails à partir de zéro](designing/using/designing-from-scratch.md)
       + [Utilisation de contenu existant](designing/using/using-existing-content.md)
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
       + [Utilisation des intégrations de solutions multiples](designing/using/using-integrations.md)
-      + [Modification du texte brut, du code HTML et des courriers électroniques mobiles](designing/using/plain-text-html-modes.md)
-   + [Personnalisation du contenu des courriers électroniques](designing/using/personalization.md)
+      + [Modification de texte brut, de HTML et d&#39;emails mobiles](designing/using/plain-text-html-modes.md)
+   + [Personnalisation du contenu des emails](designing/using/personalization.md)
    + [Gestion des styles d&#39;email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
@@ -146,12 +146,12 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Recevoir des alertes en cas d&#39;échec](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprendre les diffusions en échec](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
-   + Gestion de la déliverabilité {#managing-deliverability}
+   + Gestion de la délivrabilité {#managing-deliverability}
       + [A propos de la délivrabilité](sending/using/about-deliverability.md)
       + [Démarrer une nouvelle plate-forme](sending/using/starting-new-platform.md)
-      + [Contrôle du contenu des courriers électroniques](sending/using/control-email-content.md)
-      + [Améliorer votre réputation](sending/using/improving-reputation.md)
-      + [Les listes blanches](sending/using/whitelists.md)
+      + [Contrôle du contenu des emails](sending/using/control-email-content.md)
+      + [Amélioration de votre réputation](sending/using/improving-reputation.md)
+      + [Certification IP](sending/using/ip-certification.md)
       + [Recommandations techniques](sending/using/technical-recommendations.md)
       + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
       + [Résolution des problèmes](sending/using/troubleshooting.md)
@@ -276,7 +276,7 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
-      + [Cas d’utilisation : Exportation/importation de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
+      + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
    + Cas pratiques : workflows {#workflow-use-case}
       + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
       + [Création de diffusions à la date de création](automating/using/workflow-creation-date-query.md)
@@ -352,16 +352,16 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
 + Utilisation des API {#working-with-apis}
-   + About Campaign Standard APIs {#about-campaign-standard-apis}
+   + A propos des API de Campaign Standard {#about-campaign-standard-apis}
       + [Présentation](api/using/about-campaign-standard-apis.md)
-      + [Pourquoi utiliser les API de Campaign Standard](api/using/why-using-campaign-standard-apis.md)
-      + [Configuration de l’accès à l’API](api/using/setting-up-api-access.md)
+      + [Pourquoi utiliser les API de Campaign Standard ?](api/using/why-using-campaign-standard-apis.md)
+      + [Configuration de l’accès aux API](api/using/setting-up-api-access.md)
    + Concepts globaux {#global-concepts}
       + [À lire absolument](api/using/must-read.md)
-      + [Points de fin](api/using/endpoints.md)
-      + [Mécanisme de métadonnées](api/using/metadata-mechanism.md)
+      + [Points d&#39;entrée](api/using/endpoints.md)
+      + [Mécanisme des métadonnées](api/using/metadata-mechanism.md)
       + [Verbes](api/using/verbs.md)
-      + Opérations supplémentaires {#additional-operations}
+      + Autres opérations {#additional-operations}
          + [Tri](api/using/sorting.md)
          + [Filtrage](api/using/filtering.md)
          + [Comptage](api/using/counting.md)
@@ -375,24 +375,24 @@ source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
    + Gestion des services et des abonnements {#managing-services-and-subscriptiopns}
       + [Créer un service](api/using/creating-a-service.md)
       + [Récupération des abonnements](api/using/retrieving-subscriptions.md)
-      + [Effectuer des abonnements](api/using/perform-subscriptions.md)
+      + [Mise en œuvre des abonnements](api/using/perform-subscriptions.md)
       + [Suppression des abonnements](api/using/deleting-subscriptions.md)
-   + [Interaction avec l’historique marketing](api/using/interacting-with-marketing-history.md)
+   + [Interaction avec l&#39;historique marketing](api/using/interacting-with-marketing-history.md)
    + Gestion de la confidentialité {#privacy-management}
-      + [Création d’une demande de confidentialité](api/using/creating-a-privacy-request.md)
-      + [Surveillance d’une demande de confidentialité](api/using/monitoring-a-privacy-request.md)
-      + [Récupération des fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
-      + [Gestion de l’exclusion de l’ACCP](api/using/managing-ccpa-opt-out.md)
+      + [Création d&#39;une demande d&#39;accès à des informations personnelles](api/using/creating-a-privacy-request.md)
+      + [Suivi d&#39;une demande d&#39;accès à des informations personnelles](api/using/monitoring-a-privacy-request.md)
+      + [Récupération de fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
+      + [Gestion du droit d&#39;opposition au sens du CCPA](api/using/managing-ccpa-opt-out.md)
    + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
    + Gestion des workflows {#managing-workflows}
-      + [Contrôle d’un processus](api/using/controlling-a-workflow.md)
-      + [Déclenchement d’une activité de signal](api/using/triggering-a-signal-activity.md)
-   + Gestion des unités organisationnelles {#managing-organizational-units}
-      + [Récupération de l’unité d’organisation d’un profil](api/using/retrieving-an-organizational-unit.md)
-      + [Mise à jour de l’unité d’organisation d’un profil](api/using/updating-profile-organizational-unit.md)
-      + [Mise à jour des attributs d&#39;une unité d&#39;organisation](api/using/updating-organizational-unit-attributes.md)
-   + Gestion des unités géographiques {#managing-geographical-units}
-      + [Récupération de l’unité géographique d’un profil](api/using/retrieving-a-geographical-unit.md)
-      + [Mise à jour de l’unité géographique d’un profil](api/using/updating-a-geographical-unit.md)
-      + [Mise à jour des attributs d’une unité géographique](api/using/updating-geographical-unit-attributes.md)
+      + [Contrôle d&#39;un processus](api/using/controlling-a-workflow.md)
+      + [Déclenchement d&#39;une activité de signal](api/using/triggering-a-signal-activity.md)
+   + Gestion des entités organisationnelles {#managing-organizational-units}
+      + [Récupération de l&#39;entité organisationnelle d&#39;un profil](api/using/retrieving-an-organizational-unit.md)
+      + [Mise à jour de l&#39;entité organisationnelle d&#39;un profil](api/using/updating-profile-organizational-unit.md)
+      + [Mise à jour des attributs d&#39;une entité organisationnelle](api/using/updating-organizational-unit-attributes.md)
+   + Gestion des entités géographiques {#managing-geographical-units}
+      + [Récupération de l&#39;entité géographique d&#39;un profil](api/using/retrieving-a-geographical-unit.md)
+      + [Mise à jour de l&#39;entité géographique d&#39;un profil](api/using/updating-a-geographical-unit.md)
+      + [Mise à jour des attributs d&#39;une entité géographique](api/using/updating-geographical-unit-attributes.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
