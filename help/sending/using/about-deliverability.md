@@ -13,17 +13,15 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # A propos de la délivrabilité{#about-deliverability}
 
-La délivrabilité ou comment mesurer le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam.
-
-Adobe Campaign Deliverability est un service payant qui est proposé dans le cadre de plusieurs offres. Pour en savoir plus, contactez le service commercial ou de délivrabilité.
+La délivrabilité permet de mesurer le succès de vos campagnes dans la boîte de réception des destinataires sans rebondir ni être marquée comme indésirable.
 
 Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 
@@ -47,7 +45,7 @@ Voici une liste de points clés à vérifier pour assurer une bonne délivrabili
 ## Outils de délivrabilité {#deliverability-tools}
 
 Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
-* [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+* [Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
 * [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
 * [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md)
