@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
 
 Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Concepteur d&#39;email, vous pouvez créer des modèles et des fragments avec votre contenu prédéfini et les réutiliser pour les prochaines diffusions.
 
-## Designing emails using templates {#designing-templates}
+## Conception d&#39;emails à l&#39;aide de modèles {#designing-templates}
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Les modèles de contenu d&#39;email d&#39;usine comprennent 18 mises en page op
 
 ![](assets/template_content.png)
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]**>**[!UICONTROL  Content templates &amp; fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). Depuis cet emplacement, vous pouvez gérer les modèles de contenu de landing page et d&#39;email, ainsi que les fragments.
+Les modèles de contenu HTML sont accessibles à partir de l&#39;écran **[!UICONTROL Ressources]**>**[!UICONTROL  Modèles et fragments de contenu]** du [menu Avancé](../../start/using/interface-description.md#advanced-menu). Depuis cet emplacement, vous pouvez gérer les modèles de contenu de landing page et d&#39;email, ainsi que les fragments.
 
 ![](assets/content_templates_list.png)
 
@@ -46,7 +46,7 @@ Lors de l&#39;édition de contenu à l&#39;aide du Concepteur d&#39;email, vous 
 
 **Rubriques connexes :**
 
-* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html).
+* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * Pour plus d&#39;informations sur l&#39;édition de contenu, voir [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Créer un modèle de contenu {#creating-a-content-template}
@@ -96,7 +96,7 @@ Lorsque vous éditez un email avec le Concepteur d&#39;email, vous ne pouvez pas
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. To find the template that you just created, go to **[!UICONTROL Resources]**>**[!UICONTROL  Content templates &amp; fragments]**.
+1. Pour retrouver le modèle que vous venez de créer, accédez à **[!UICONTROL Ressources]**>**[!UICONTROL  Modèles et fragments de contenu]**.
 
 1. Pour utiliser votre nouveau modèle, sélectionnez-le dans l&#39;onglet **[!UICONTROL Modèles]**de la page d&#39;accueil du[Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
@@ -140,7 +140,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## A propos des fragments  {#about-fragments}
+## A propos des fragments   {#about-fragments}
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 Il se trouve dans l&#39;interface sous **Ressources** > **Contenu, fragments et modèles**.
@@ -191,7 +191,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
-### Créer un fragment de contenu  {#creating-a-content-fragment}
+### Créer un fragment de contenu   {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
@@ -228,7 +228,7 @@ Ce fragment peut à présent être utilisé dans n&#39;importe quel email créé
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
-### Enregistrer du contenu en tant que fragment  {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment   {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
@@ -255,7 +255,7 @@ Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregi
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. To find the fragment that you just created, go to **[!UICONTROL Resources]**>**[!UICONTROL  Content templates &amp; fragments]**.
+1. Pour retrouver le fragment que vous venez de créer, accédez à **[!UICONTROL Ressources]**>**[!UICONTROL  Modèles de contenu et fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
