@@ -11,21 +11,25 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+translation-type: tm+mt
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
 
 # A propos de l&#39;extension de l&#39;API{#about-extending-the-api}
 
-Ce cas pratique présente l&#39;exposition des champs étendus de la ressource personnalisée Profiles dans l&#39;API Profiles publique, afin de mettre à jour instantanément le profil d&#39;un client avec un code promotion généré à partir d&#39;un système de facturation, par exemple.
+Ce cas d’utilisation détaille l’exposition des champs étendus pour les profils de ressources personnalisées dans l’API Profils publics. afin de mettre à jour instantanément le profil d&#39;un client avec un code promotion généré à partir d&#39;un système de facturation, par exemple.
 
-Pour pouvoir publier l&#39;API, vous devez disposer du rôle **[!UICONTROL Datamodel]**.
+>[!NOTE]
+>
+>In order to publish the API, make sure you have the **[!UICONTROL Datamodel]**role.
 
-* Etendre la ressource personnalisée Profiles
-* Publier l&#39;extension
-* Vérifier la disponibilité des champs étendus dans l&#39;API
+Les étapes pour exposer les champs étendus dans l’API publique sont les suivantes :
+
+1. [Ajouter les champs d’extension à la ressource Profil](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [Publication de l’extension](../../developing/using/step-2--publish-the-extension.md)
+1. [Vérifiez que les nouveaux champs étendus sont disponibles dans l’API.](../../developing/using/step-3--verify-the-extension.md)
 
 **Rubriques connexes :**
 
