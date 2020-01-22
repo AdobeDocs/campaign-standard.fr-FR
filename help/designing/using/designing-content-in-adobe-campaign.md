@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -21,22 +21,23 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
-Le concepteur de courriers électroniques vous permet de créer des courriers électroniques personnalisés et captivants grâce à une interface de glisser-déplacer, complétée par des intégrations natives à Creative Cloud. Que vous commenciez par une ardoise vide ou que vous utilisiez des fragments ou des modèles de contenu existants, concevez et affinez tout le contenu pour chaque courrier électronique, qu’il soit promotionnel ou transactionnel.
+Le Concepteur d&#39;emails permet de créer des emails personnalisés et attractifs
+grâce à une interface à la souris (glisser-déplacer), complétée par des intégrations natives Creative Cloud. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
-Conçu pour offrir du code HTML optimisé pour une conception adaptée, le concepteur de courrier électronique vous permet de définir et d’appliquer facilement des conditions de visibilité et du contenu dynamique à un courrier électronique, un modèle ou un fragment directement via l’interface utilisateur. Vous pouvez basculer facilement entre l’interface glisser-déposer et le code HTML en cliquant sur un bouton.
+Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
 
 Le Concepteur d&#39;email permet de créer du contenu d&#39;email et des modèles de contenu d&#39;email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
 
-Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de vidéos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) qui expliquent la fonctionnalité générale de l&#39;outil et qui décrivent comment créer entièrement un email ou le concevoir à l&#39;aide de modèles.
+Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui expliquent la fonctionnalité générale de l&#39;outil et qui décrivent comment créer entièrement un email ou le concevoir à l&#39;aide de modèles.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Pour savoir comment créer du contenu de courrier électronique, voir [Prise en main du concepteur](../../designing/using/quick-start.md)de courrier électronique.
+* To discover how to create email content, see [Get started with the Email Designer](../../designing/using/quick-start.md).
 * Pour une présentation du Concepteur d&#39;email, voir [Utilisation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 * Pour en savoir plus sur la création de contenu :
    * En partant de zéro, voir [Conception d&#39;emails à partir de zéro](../../designing/using/designing-from-scratch.md).
    * A l&#39;aide d&#39;un contenu existant, voir [Conception à l&#39;aide d&#39;un contenu existant](../../designing/using/using-existing-content.md).
-   * A l’aide des intégrations Creative Cloud, reportez-vous à la page Conception [de courriers électroniques](../../designing/using/using-integrations.md)multisolution.
+   * Using Creative Cloud integrations, see [Multi-solution email design](../../designing/using/using-integrations.md).
 * Pour plus d&#39;informations sur la personnalisation, voir [Personnalisation](../../designing/using/personalization.md).
 
 Lorsque vous créez un email, vous pouvez choisir d&#39;utiliser un modèle prédéfini ou de charger un contenu existant à partir d&#39;une autre source. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -143,7 +144,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email  {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
