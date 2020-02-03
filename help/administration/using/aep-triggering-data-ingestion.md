@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign Standard vous permet de déclencher l’assimilation immédiate des mappages de données via des API et de récupérer l’état de vos demandes d’assimilation.
 
->[!NOTE]
->
->Cette page décrit comment déclencher et récupérer l’état d’assimilation de vos mappages de données. Pour plus d&#39;informations sur les API de Campaign Standard, reportez-vous à [cette section](../../api/using/about-campaign-standard-apis.md).
+Cette page décrit comment déclencher et récupérer l’état d’assimilation de vos mappages de données. Pour plus d&#39;informations sur les API de Campaign Standard, reportez-vous à [cette section](../../api/using/about-campaign-standard-apis.md).
 
 ## Prérequis {#prerequisites}
 
@@ -38,7 +36,7 @@ Avant d’utiliser les API, le mappage des données doit d’abord avoir été c
 
 Une fois le mappage des données créé, vous devez l’arrêter afin de pouvoir le déclencher à partir des API à votre convenance. Pour ce faire, procédez comme suit :
 
-1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]**>**[!UICONTROL  Développement]** > **[!UICONTROL Plate-forme]**>**!UICONTROL État de l’exportation des données vers la plateforme].**
+1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]**>**[!UICONTROL  Développement]** > **[!UICONTROL Plateforme]**>**[!UICONTROL &#x200B;État de l’exportation des données vers la plateforme.]**
 
 1. Cliquez deux fois sur le mappage de données pour l’ouvrir, puis cliquez sur le bouton **[!UICONTROL Arrêter]**.
 
