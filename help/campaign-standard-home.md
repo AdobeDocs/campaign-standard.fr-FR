@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
 
-* **[Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>Découvrez les bonnes pratiques en matière de conception de diffusion et d&#39;envoi.
+* **[Meilleures pratiques](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>en matière de livraison En savoir plus sur les meilleures pratiques relatives à la conception et à l’envoi de la livraison.
 
 * **[Email Designer](designing/using/designing-content-in-adobe-campaign.md)**<br/>Consultez la documentation de Email Designer réorganisée.
 
