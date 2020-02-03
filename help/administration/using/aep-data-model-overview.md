@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -27,7 +27,7 @@ Le modèle de données d’expérience (XDM) est un ensemble standard de schéma
 
 La création et la gestion des schémas XDM sont disponibles avec une API dédiée ou avec l’interface utilisateur XDM.
 
-## Espace de travail XDM (#xdm-workspace)
+## Espace de travail XDM {#xdm-workspace}
 
 XDM Workspace permet d’afficher, de créer et d’étendre des schémas de données.
 
