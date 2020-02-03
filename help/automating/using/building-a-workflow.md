@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ La création d&#39;une activité marketing est présentée dans la section [Cré
    Pour trouver plus facilement les workflows qui ne fonctionnent pas de la manière attendue et résoudre les problèmes, Adobe recommande d&#39;attribuer aux workflows des libellés et des noms adéquats. Renseignez également le champ de description du workflow pour que l&#39;opérateur puisse facilement comprendre son objectif.
 
 1. Validez la création de l&#39;activité, dont le tableau de bord s&#39;affiche alors. Voir à ce propos la section [Interface des workflows](../../automating/using/workflow-interface.md).
+
+1. Une fois le flux de travail prêt à être configuré, vous pouvez accéder à d’autres options en cliquant sur le bouton **[!UICONTROL Modifier les propriétés]**. Vous pouvez, par exemple, définir un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du processus. Par défaut, le fuseau horaire du processus est celui défini pour l’opérateur de campagne actuel.
+
+   ![](assets/workflow_properties.png)
 
 **Rubrique connexe :**
 
