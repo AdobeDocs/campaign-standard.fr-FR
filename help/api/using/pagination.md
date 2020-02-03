@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
+source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
 
@@ -23,7 +23,7 @@ Par défaut, 25 ressources sont chargées dans une liste.
 
 Le paramètre **_lineCount** permet de limiter le nombre de ressources répertoriées dans la réponse. Vous pouvez ensuite utiliser le nœud **suivant** pour afficher les résultats suivants.
 
->[!NOTE]>
+>[!NOTE]
 >
 >Utilisez toujours la valeur d’URL renvoyée dans le nœud **suivant** pour effectuer une requête de pagination.
 >
