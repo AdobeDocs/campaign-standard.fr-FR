@@ -7,65 +7,65 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
-topic-tags: 'execution-activities '
+topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
 
-# Cas pratique de workflow : création d'une diffusion email tous les mardis{#creating-email-every-tuesday}
+# Cas pratique de workflow : création d&#39;une diffusion email tous les mardis{#creating-email-every-tuesday}
 
 Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres spéciales.
 
-1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]**, puis sélectionnez **[!UICONTROL Workflow]**.
-1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
+1. Dans **[!UICONTROL Activités marketing]**, cliquez sur**[!UICONTROL  Créer]** et sélectionnez **[!UICONTROL Workflow]**.
+1. Sélectionnez **[!UICONTROL Nouveau workflow]**en tant que type de workflow et cliquez sur**[!UICONTROL  Suivant]**.
 1. Saisissez les propriétés du workflow, puis cliquez sur **[!UICONTROL Créer]**.
 
 ## Créer une activité Planificateur{#creating-a-scheduler-activity}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Exécution]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Planificateur]**.
-1. Double-cliquez sur l'activité.
-1. Configurez l'exécution de votre diffusion.
-1. Dans **[!UICONTROL Fréquence d'exécution]**, sélectionnez **[!UICONTROL Hebdomadaire]**.
-1. Sélectionnez une **[!UICONTROL Heure]** et **[!UICONTROL Répéter le traitement selon la périodicité suivante]** pour vos diffusions.
-1. Dans **[!UICONTROL Jours de la semaine]**, sélectionnez **[!UICONTROL Mardi]**.
-1. Spécifiez un paramètre de **[!UICONTROL Début]** et d'**[!UICONTROL Expiration]** pour le workflow.
+1. In **[!UICONTROL Activities]**>**[!UICONTROL  Execution]**, drag and drop a **[!UICONTROL Scheduler activity]**.
+1. Double-cliquez sur l&#39;activité.
+1. Configurez l&#39;exécution de votre diffusion.
+1. Dans **[!UICONTROL Fréquence d&#39;exécution]**, sélectionnez**[!UICONTROL  Hebdomadaire]**.
+1. Sélectionnez une **[!UICONTROL Heure]**et**[!UICONTROL  Répéter le traitement selon la périodicité suivante]** pour vos diffusions.
+1. Dans **[!UICONTROL Jours de la semaine]**, sélectionnez**[!UICONTROL  Mardi]**.
+1. Spécifiez un paramètre de **[!UICONTROL Début]**et d&#39;**[!UICONTROL  Expiration]** pour le workflow.
 1. Validez votre activité et sauvegardez votre workflow.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->Pour démarrer votre workflow dans un **[!UICONTROL Fuseau horaire]** spécifique, dans l'onglet **[!UICONTROL Options d'exécution]**, configurez le fuseau horaire du planificateur dans le champ Fuseau horaire.
+>Pour démarrer votre workflow dans un **[!UICONTROL Fuseau horaire]**spécifique, dans l&#39;onglet **[!UICONTROL  Options d&#39;exécution]**, configurez le fuseau horaire du planificateur dans le champ Fuseau horaire. Par défaut, le fuseau horaire sélectionné est celui défini dans les propriétés du processus (voir [Création d’un processus](../../automating/using/building-a-workflow.md)).
 
 ## Créer une activité Requête{#creating-a-query-activity}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Ciblage]**, pour sélectionner des destinataires, effectuez un glisser-déposer d'une activité **[!UICONTROL Requête]** et double-cliquez dessus.
-1. Dans **[!UICONTROL Raccourcis]** &gt; **[!UICONTROL Profil]**, effectuez un glisser-déposer de l'élément **[!UICONTROL Email]**.
-1. Sélectionnez **[!UICONTROL n'est pas vide]** en tant qu'opérateur.
-1. Dans **[!UICONTROL Raccourcis]** &gt; **[!UICONTROL Général]**, ajoutez des profils et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL Non]**.
+1. In **[!UICONTROL Activities]**>**[!UICONTROL  Targeting]**, to select recipients, drag and drop a **[!UICONTROL query]**activity and double-click it.
+1. In **[!UICONTROL Shortcuts]**>**[!UICONTROL  Profile]**, drag and drop **[!UICONTROL Email]**.
+1. Sélectionnez **[!UICONTROL n&#39;est pas vide]**en tant qu&#39;opérateur.
+1. In **[!UICONTROL Shortcuts]**>**[!UICONTROL  General]**, add profiles and select **[!UICONTROL no longer contact by email]**with the value**[!UICONTROL  No]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 ![](assets/wf-complement-query.png)
 
-## Créer une diffusion Email{#creating-an-email-delivery}
+## Créer une diffusion email{#creating-an-email-delivery}
 
-1. Dans **[!UICONTROL Activités]** &gt; **[!UICONTROL Canaux]**, effectuez un glisser-déposer d'une activité **[!UICONTROL Diffusion Email]**.
-1. Cliquez sur l'activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
-1. Sélectionnez **[!UICONTROL Email récurrent]** et cliquez sur **[!UICONTROL Suivant]**.
-1. Sélectionnez un modèle d'email et cliquez sur **[!UICONTROL Suivant]**.
-1. Saisissez les propriétés de l'email et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la disposition de votre email, cliquez sur **[!UICONTROL Utiliser le Concepteur d'email]**.
+1. In **[!UICONTROL Activities]**>**[!UICONTROL  Channels]**, drag and drop an **[!UICONTROL Email delivery]**.
+1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
+1. Sélectionnez **[!UICONTROL Email récurrent]**et cliquez sur**[!UICONTROL  Suivant]**.
+1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
+1. Pour créer la disposition de votre email, cliquez sur **[!UICONTROL Utiliser le Concepteur d&#39;email]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
-1. Personnalisez votre email à l'aide de champs et de liens.
+1. Personnalisez votre email à l&#39;aide de champs et de liens.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour plus d'informations, consultez la section décrivant la [conception d'un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 **Rubriques connexes :**
 
