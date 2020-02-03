@@ -11,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ---
 
@@ -35,13 +35,17 @@ Comme la landing page aura un impact sur votre plate-forme et les données, vous
 1. Renseignez les champs et sélectionnez des options.
 1. Validez la landing page et vérifiez les mises à jour dans la base de données.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Lorsque le formulaire est validé, le service et le profil utilisés sont mis à jour.
 
 1. Répétez cette opération avec des profils et des données différents.
 
    Vous pouvez également générer la miniature de la landing page depuis cet écran.
+
+>[!NOTE]
+>
+>Si l’URL du serveur d’applications n’est pas sécurisée (c’est-à-dire si elle ne commence pas par https://), l’aperçu de la page d’entrée ne peut pas être affiché à partir de l’interface utilisateur de Campaign. Ce serveur est défini lors de la [configuration des marques](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configurer les paramètres de validité  {#setting-up-validity-parameters}
 
@@ -59,7 +63,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 
    ![](assets/lp_settings_general.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Vous pouvez également définir une date et une heure de déploiement : la landing page sera alors automatiquement publiée à la date spécifiée.
 
