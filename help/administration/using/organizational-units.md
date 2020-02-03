@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 >[!CAUTION]
 >
 >Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d&#39;un utilisateur ou d&#39;un groupe d&#39;utilisateur, ne le rattachez pas à l&#39;entité **[!UICONTROL Toutes]**.
+>
+>Par défaut, l’unité d’organisation **[!UICONTROL Tous (tous)]**est affectée au groupe de sécurité**[!UICONTROL  Administrateurs]** . Il est en lecture seule et ne peut pas être modifié.
 
 Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités filles. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
 
