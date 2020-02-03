@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour 2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
 + Prise en main {#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Les processus d&#39;inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d&#39;inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [À propos du service Destinations d’audience](audiences/using/aep-about-audience-destinations-service.md)
+      + [Gestion des audiences d’Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
+      + [Utilisation du créateur de segments unifiés](audiences/using/aep-using-segment-builder.md)
 + Canaux de communication {#communication-channels}
    + Canaux de communication {#about-communication-channels}
       + [Découvrir les canaux de communication](channels/using/discovering-communication-channels.md)
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Désinscriptions (Unsubscriptions)](reporting/using/unsubscriptions.md)
       + [URL et flux de clics (URLs and click streams)](reporting/using/urls-and-click-streams.md)
       + [Hot clicks](reporting/using/hot-clicks.md)
+      + [Synthèse du service](reporting/using/service-summary.md)
    + Personnalisation des rapports {#customizing-reports}
       + [Ajouter des panneaux](reporting/using/adding-panels.md)
       + [Ajouter des visualisations](reporting/using/adding-visualizations.md)
@@ -285,6 +291,9 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
       + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
+   + Utilisation d’audiences Adobe Experience Platform {collaboration avec des audiences aep}
+      + [Ciblage des audiences d’Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Extension de la ressource Profil avec un nouveau champ](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [Extension des abonnements à une ressource d&#39;application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodel {#datamodel}
+      + [Introduction](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
       + [Campagne](developing/using/datamodel-campaign.md)
       + [Diffusion](developing/using/datamodel-delivery.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Envoi de notifications internes](administration/using/sending-internal-notifications.md)
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
+   + Connecteur de données Adobe Experience Platform {#mapping-campaign-and-aep-data}
+      + [À propos d’Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Présentation du modèle de données de plateforme d’expérience](administration/using/aep-data-model-overview.md)
+      + [Définition de mappage](administration/using/aep-mapping-definition.md)
+      + [Activation de mappage](administration/using/aep-mapping-activation.md)
+      + [Déclenchement de l’assimilation de données via les API](administration/using/aep-triggering-data-ingestion.md)
 + Utilisation des API {#working-with-apis}
    + A propos des API de Campaign Standard {#about-campaign-standard-apis}
       + [Présentation](api/using/about-campaign-standard-apis.md)
