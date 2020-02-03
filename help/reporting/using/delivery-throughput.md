@@ -12,8 +12,8 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+translation-type: tm+mt
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -26,3 +26,9 @@ Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un e
 * Le tableau **[!UICONTROL Top 5 des diffusions]**et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, la page de débit **[!UICONTROL de]**diffusion n’affiche plus le débit pour vos destinataires de courrier électronique. Il indique la vitesse de débit du relais de vos messages de Campaign vers la MTA améliorée.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
