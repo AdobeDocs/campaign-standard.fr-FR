@@ -1,6 +1,6 @@
 ---
-title: Configuration du canal Email
-description: Découvrez comment configurer le canal Email.
+title: Configuration du canal de messagerie dans Adobe Campaign Standard
+description: Découvrez comment configurer le canal de messagerie dans Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
@@ -70,34 +70,52 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 ## Règles de gestion des emails {#email-processing-rules}
 
+Les règles **[!UICONTROL de traitement du]**courrier électronique sont accessibles par les administrateurs via le menu**[!UICONTROL  Administration > Canaux > Courriel]** .
+
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
 Les règles par défaut sont les suivantes :
 
-**Mails rebonds**
+### Mails rebonds {#bounce-mails}
 
 Lors de l&#39;échec d&#39;un envoi d&#39;email, le serveur de messagerie distant renvoie un message d&#39;erreur rebond à l&#39;adresse spécifiée dans les paramètres de l&#39;application. Adobe Campaign compare le contenu de chaque mail rebond aux chaînes disponibles dans la liste des règles puis attribue l&#39;un des trois types d&#39;erreur.
 
 L&#39;utilisateur peut créer ses propres règles.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
 
-**Gestion des domaines emails**
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, les qualifications de rebond dans le tableau de qualification ****Message de campagne ne sont plus utilisées. Pour les messages d’erreur d’échec de remise synchrone, la MTA améliorée détermine le type et la qualification de rebond et renvoie ces informations à Campaign. Les rebonds asynchrones sont toujours qualifiés par le processus inMail.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
-Les règles de gestion des domaines permettent de réguler le flux des emails sortants pour un domaine spécifique. Elles consistent à faire un échantillonnage des messages qui reviennent en erreur et de bloquer les envois le cas échéant. Le serveur de messagerie d&#39;Adobe Campaign applique les règles spécifiques aux domaines, puis celles du cas général symbolisé par un astérisque dans la liste des règles. Des règles pour les domaines hotmail et msn sont disponibles par défaut dans Adobe Campaign.
+### Gestion des domaines emails {#managing-email-domains}
+
+Les règles de gestion de domaine permettent de réguler le flux des courriers électroniques sortants pour un domaine spécifique. Ils échantillonnent les messages de rebond et bloquent l’envoi, le cas échéant. Le serveur de messagerie Adobe Campaign applique des règles spécifiques aux domaines, puis les règles de la casse générale représentée par un astérisque dans la liste des règles.
 
 Pour configurer des règles de gestion de domaines, il vous suffit de fixer un seuil et de sélectionner certains paramètres SMTP. Le **seuil** est une limite calculée en pourcentage d&#39;erreur au-delà de laquelle tout message vers un domaine spécifique est bloqué.
-
-Par exemple, dans le cas général, pour un minimum de 300 messages, l&#39;envoi d&#39;email est bloqué pendant 3 heures si le taux d&#39;erreur atteint 90 %.
 
 Les **paramètres SMTP** agissent comme des filtres appliqués pour une règle de blocage.
 
 * Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * **Relais SMTP** : permet de configurer l&#39;adresse IP et le port d&#39;un serveur relais pour un domaine particulier.
 
-**Gestion des MX**
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, la signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par la MTA améliorée. Dans le cadre de la mise à niveau améliorée de la MTA, la signature de la messagerie instantanée par la MTA de campagne native sera désactivée dans la table de gestion **[!UICONTROL des]**domaines.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+
+### Gestion des MX {#mx-management}
+
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, les règles de débit de remise de gestion **MX d’Adobe Campaign** ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
 
@@ -127,7 +145,7 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 * **Nombre maximum de messages** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
 * **[!UICONTROL Messages par heure]**: nombre maximum de messages qui peuvent être envoyés sur une période d&#39;une heure pour un MX depuis une adresse donnée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* Le serveur de diffusion (MTA) doit être relancé si les paramètres sont modifiés.
 >* La modification ou la création de règles de gestion est réservée à des utilisateurs experts.
@@ -153,7 +171,7 @@ En haut de l&#39;écran des paramètres d&#39;email, identifiez l&#39;email à l
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;identifiant doit être unique.
 
@@ -182,7 +200,7 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
 * **Tenir compte des préférences des destinataires** (mode par défaut) : le format du message est défini en fonction des informations enregistrées dans le profil du destinataire et stockées par défaut dans le champ **Format des emails** (@emailFormat). Si un destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si ce champ n&#39;est pas renseigné, le message sera envoyé en multipart-alternative (voir ci-dessous).
 * **Laisser le mailer des destinataires choisir le format le plus adapté (multipart-alternative)** : le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Cette option inclut les deux versions du message et, par conséquent, a un impact sur le débit de diffusion, car la taille du message est supérieure.
 
@@ -199,7 +217,7 @@ Cette option est disponible pour les emails et les modèles d&#39;email.
 
 Si vous activez l&#39;option de mode test SMTP pour un modèle d&#39;email, cette option sera activée pour tous les emails créés à partir de ce modèle.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lorsque cette option est activée pour un email, aucun message n&#39;est envoyé tant qu&#39;elle n&#39;est pas décochée.
 >Un avertissement s&#39;affiche dans le tableau de bord de l&#39;email ou du modèle d&#39;email.
@@ -208,14 +226,24 @@ Pour plus d&#39;informations sur la configuration SMTP, reportez-vous à la sect
 
 ### Paramètres de période de validité {#validity-period-parameters}
 
-La section **[!UICONTROL Validité]**propose les paramètres suivants :
+The **[!UICONTROL Validity period]**section contains the following parameters:
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Fixer explicitement les dates de validité]** : lorsque cette case est décochée, vous devez renseigner une durée dans les champs**[!UICONTROL  Durée de diffusion]** et **[!UICONTROL Validité des ressources]**. Cochez cette case si vous souhaitez définir des dates et heures précises.
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Durée de diffusion]** : Adobe Campaign diffuse les messages à partir de la date de démarrage de l&#39;envoi. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
+
+   >[!IMPORTANT]
+   >
+   >Une fois la mise à niveau vers la MTA améliorée, le paramètre **[!UICONTROL Durée] de remise ** dans vos livraisons de campagne n’est utilisé que si la valeur est définie sur 3,5 jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte. Tous les impacts sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+
 * **[!UICONTROL Validité des ressources]** : ce champ est utilisé pour les ressources mises en ligne, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Un contenu HTML doit avoir été défini pour l&#39;email pour que la page miroir soit créée.
 
@@ -226,7 +254,7 @@ La section **[!UICONTROL Validité]**propose les paramètres suivants :
 
 >[!NOTE]
 >
->Les paramètres **[!UICONTROL Fixer explicitement les dates de validité]**et**[!UICONTROL  Durée de diffusion]** ne s&#39;appliquent pas aux messages transactionnels. Pour plus d&#39;informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
+>Le paramètre de durée **[!UICONTROL de]**remise ne s’applique pas aux messages transactionnels. Pour plus d&#39;informations sur les messages transactionnels, voir[cette section](../../channels/using/about-transactional-messaging.md).
 
 ### Paramètres du tracking {#tracking-parameters}
 
@@ -284,7 +312,7 @@ La section **[!UICONTROL SMTP]**propose les paramètres suivants :
 * **[!UICONTROL Mails rebonds]** : par défaut, les mails rebonds sont récupérés dans la boîte d&#39;erreur de la plateforme (définie dans l&#39;écran**[!UICONTROL  Administration]** > **[!UICONTROL Canaux]**>**[!UICONTROL  Email]** > **[!UICONTROL Configuration).]**Si vous souhaitez définir une adresse d&#39;erreur spécifique pour un email, saisissez l&#39;adresse dans le champ**[!UICONTROL  Adresse des erreurs]**.
 * **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d&#39;ajouter des en-têtes SMTP supplémentaires à vos messages. Le script saisi dans le champ**[!UICONTROL  En-têtes]** doit comporter un en-tête par ligne, sous la forme **nom:valeur**. Les valeurs sont automatiquement encodées, si nécessaire.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >L&#39;ajout d&#39;un script pour l&#39;insertion d&#39;en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
