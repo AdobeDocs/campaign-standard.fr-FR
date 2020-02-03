@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 1. Créer un ou plusieurs modèles de diffusion et de landing pages pour cette marque. Voir la section [Créer un modèle](../../start/using/marketing-activity-templates.md).
 1. Créer des messages et des landing pages à partir de ce modèle. Voir les sections [Créer un email](../../channels/using/creating-an-email.md) et [Créer une landing page](../../channels/using/designing-a-landing-page.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;assistance client Adobe. Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
@@ -62,7 +62,7 @@ Une **marque** est définie par les caractéristiques suivantes :
    * **Répondre à (adresse email)** avec l&#39;adresse email de réponse destinée au client
    * **Répondre à (nom)** avec le nom de la marque
    * **Erreur (adresse email)** avec l&#39;adresse email à utiliser en cas d&#39;erreur
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Après avoir mis à jour les paramètres d&#39;en-tête des emails, si le nom et l&#39;adresse email de l&#39;expéditeur ne sont pas modifiés dans l&#39;email créé à partir du modèle, vérifiez les paramètres avancés de ce dernier.
 
@@ -73,6 +73,9 @@ Une **marque** est définie par les caractéristiques suivantes :
    * **URL externe du serveur applicatif** utilisée pour héberger les différentes landing pages créées et y accéder
    * **URL externe du serveur de tracking** utilisée en tant qu&#39;URL trackée lors des diffusions
    * **URL externe du serveur de page miroir** utilisée en tant que page miroir par défaut dans vos diffusions
+   >[!NOTE]
+   >
+   >Si les URL du serveur d’applications et du serveur de pages miroir ne sont pas sécurisées (c’est-à-dire si elles ne commencent pas par https://), l’aperçu de la page d’entrée et le rendu de la page miroir ne peuvent pas être affichés à partir de l’interface utilisateur de Campaign.
 
 * **[!UICONTROL Paramétrage des URL de tracking (Web Analytics)]**qui permet de définir la configuration du tracking de vos URL pour votre marque.
 
@@ -118,7 +121,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 #### Configurer une nouvelle marque {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La configuration des marques n&#39;est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
 
