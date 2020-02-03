@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ Pour ce faire, vous devez ajouter ces attributs à l’activité d’audience **
 
 1. Ouvrez l’activité **[!UICONTROL Lire l’audience]**. Dans l’onglet Données**** supplémentaires, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
-   >[!NOTE]
-   >
-   >L’onglet Données ****supplémentaires n’est disponible qu’après la sélection d’une audience Adobe Experience Platform.
+   Notez que l’onglet Données ****supplémentaires n’est disponible qu’après la sélection d’une audience Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >Les types de données de tableau et de mappage ne sont pas pris en charge dans cette fonctionnalité. En outre, seules les données du schéma d’union s’affichent dans le sélecteur.
 
 1. Sélectionnez un champ XDM dans la liste, puis cliquez sur **[!UICONTROL Confirmer]**.
 
