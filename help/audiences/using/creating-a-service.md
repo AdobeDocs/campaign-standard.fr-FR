@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ Pour configurer un service :
 1. Dans la section **[!UICONTROL Propriétés du service]**, accessible via le bouton![](assets/edit_darkgrey-24px.png)du tableau de bord du service, paramétrez les messages de confirmation pour l&#39;inscription et la désinscription.
 
    ![](assets/lp_service_parameters.png)
+
+1. Sélectionnez l’option **[!UICONTROL Abonnements avec une date]**d’expiration pour définir la durée de validité de l’abonnement.
+
+   ![](assets/lp_service_expiration.png)
+
+Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour cibler les profils abonnés à un service qui n’a pas expiré.
 
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
 
