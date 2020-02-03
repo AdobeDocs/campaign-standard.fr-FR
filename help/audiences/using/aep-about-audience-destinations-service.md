@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >
 >Le service Destinations d’audience est actuellement en version bêta, qui peut faire l’objet de fréquentes mises à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta pour l&#39;Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez le service à la clientèle d’Adobe si vous souhaitez y accéder.
 
-Le service **Destinations** d’audience vous permet de créer des audiences hautement ciblées en fonction de jeux de données volumineux et complexes et de partager ces segments en temps quasi réel avec d’autres solutions Adobe Experience Cloud.
+Offrez à vos clients le moyen d’exploiter [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home.html) (AEP) pour créer des audiences hautement ciblées à partir de jeux de données complexes et volumineux. La plate-forme Adobe Experience Platform consolide les données de profil, de comportement et de plusieurs entités sur des sources en ligne et hors ligne, y compris Adobe Analytics, afin de vous aider à créer une vue 360 de votre client, ce qui vous permet de gérer efficacement vos expériences client.
 
-La plate-forme [](https://www.adobe.io/apis/experienceplatform/home.html) Adobe Experience Platform regroupe les données de profil, de comportement et de plusieurs entités afin de vous aider à créer une vue 360 de votre client, ce qui vous permet de gérer efficacement vos expériences client.
+Adobe Campaign Standard utilise ensuite le service Destinations **d’** audience pour récupérer une collection de profils, appelés **Audiences**, depuis AEP pour les programmes de campagne multicanaux et/ou multicanaux.
 
-Campaign Standard vous permet de travailler avec Adobe Experience Platform afin d’identifier des collections de profils, appelés **audiences**. Ils sont créés en créant **des segments**, c’est-à-dire des règles comprenant des attributs de profil et des données d’événement provenant d’Adobe Experience Platform. Les concepts généraux sur les services de profil et de segmentation unifiés peuvent être référencés dans [ces documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dédiés.
+**Les audiences** sont créées en créant d’abord **des segments**, qui sont essentiellement un ensemble de règles basées sur pratiquement n’importe quelle variable (par exemple, profil, événement, données multientités) dans un profil client du fournisseur AEP pour créer une cible multidimensionnelle. Les concepts généraux sur les services de profil et de segmentation unifiés peuvent être référencés dans [ces documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dédiés.
 
-Une fois qu’une audience a été créée, vous pouvez l’activer pour une diffusion dans les processus [](../../automating/using/aep-targeting-audiences.md)Campaign Standard. De plus, vous pouvez utiliser des données contextuelles de la plateforme Adobe Experience Platform pour [personnaliser](../../automating/using/aep-personalizing-campaigns.md) et ajouter du contenu dynamique à vos campagnes, le cas échéant.
+Une fois qu’un segment a été créé, vous pouvez l’activer en tant qu’audience pour une diffusion dans les processus [standard de](../../automating/using/aep-targeting-audiences.md)campagne. De plus, vous pouvez utiliser des données contextuelles de la plateforme Adobe Experience Platform pour [personnaliser](../../automating/using/aep-personalizing-campaigns.md) et ajouter du contenu dynamique à vos campagnes, le cas échéant.
 
-Des vidéos de démonstration sont également disponibles dans [cette page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/leveraging-aep-audiences-overview.html)
+Des vidéos de démonstration sont également disponibles dans [cette section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termes utilisés dans ces sections :
 
