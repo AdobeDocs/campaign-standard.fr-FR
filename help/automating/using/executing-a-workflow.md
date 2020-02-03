@@ -12,8 +12,8 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -254,5 +254,9 @@ Le champ **[!UICONTROL Durée max. d&#39;exécution]**vous permet d&#39;indiquer
 Le champ **[!UICONTROL Affinité]**vous permet de forcer l&#39;exécution d&#39;un workflow ou d&#39;une activité de workflow sur une machine en particulier. Vous devez pour cela définir une ou plusieurs affinités au niveau du workflow ou de l&#39;activité concernée.
 
 Le champ **[!UICONTROL Fuseau horaire]**vous permet de sélectionner le fuseau horaire de l&#39;activité. Adobe Campaign permet de gérer les décalages horaires entre plusieurs pays concernés par la même instance. La configuration appliquée est paramétrée lors de la création de l&#39;instance.
+
+>[!NOTE]
+>
+>Par défaut, si aucun fuseau horaire n’est sélectionné, l’activité utilise le fuseau horaire défini dans les propriétés du flux de travail.
 
 Le champ **Commentaire** est un champ libre vous permettant d&#39;ajouter une note.
