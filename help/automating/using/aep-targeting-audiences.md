@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ Vous pouvez désormais configurer votre processus avec d’autres activités. Vo
 >[!NOTE]
 >
 >Campaign Standard permet de cibler les audiences de la plateforme Adobe Experience Platform dans tous les canaux de diffusion : Courriers électroniques, messages SMS, messages de messagerie directe, notifications Push et messages in-app.
+>
+>*Remarque : Pour tous les messages push et in-app, Campaign Standard ne prend en charge que les diffusions pour les profils connus.
 
 Pour plus d’informations sur l’utilisation des processus et des livraisons, reportez-vous aux sections suivantes :
 
