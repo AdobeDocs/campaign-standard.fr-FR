@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+translation-type: tm+mt
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -36,7 +36,7 @@ Les champs d&#39;extension sont générés avec un préfixe de sorte qu&#39;ils 
 
 >[!NOTE]
 >
->Une représentation du modèle de données pour les ressources d&#39;usine figure [ici](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html).
+>Une représentation du modèle de données pour les ressources d&#39;usine figure [ici](../../developing/using/datamodel-introduction.md).
 
 Il est également possible de **configurer la navigation** dans les écrans correspondant à la ressource créée.
 
