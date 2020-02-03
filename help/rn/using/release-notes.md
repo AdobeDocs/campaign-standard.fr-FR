@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Le connecteur de données Adobe Experience Platform est désormais intégré à Adobe Campaign Standard. Vous pouvez rendre vos données de campagne disponibles sur Adobe Experience Platform en mappant les données XTK (données assimilées dans Campaign) au modèle de données de la plateforme Adobe Experience Platform (XDM). </p>
-    <p>Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../administration/using/aep-about-data-connector.md"></a>détaillée.</p>
+   <td> <p>Le connecteur de données Adobe Experience Platform est désormais intégré à Adobe Campaign Standard. Vous pouvez rendre vos données de campagne disponibles sur Adobe Experience Platform en mappant les données XTK (données assimilées dans Campaign) au modèle de données de la plateforme Adobe Experience Platform (XDM). </p>
+    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../administration/using/aep-about-data-connector.md"></a>détaillée.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Intégration au service Audience Destination (bêta) </strong><br /> </th> 
+   <th> <strong>Destinations d’audience (bêta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le service Destinations d’audience est désormais intégré à Adobe Campaign Standard. Vous pouvez créer des audiences très ciblées à partir de jeux de données volumineux et complexes et partager ces segments en temps quasi réel avec d’autres solutions Adobe Experience Cloud.</p>
-    <p>Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>détaillée.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>MTA amélioré pour les messages transactionnels</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Les messages transactionnels sont désormais envoyés par la MTA améliorée d’Adobe Campaign, qui fournit une infrastructure d’envoi mise à niveau permettant une meilleure délivrabilité, un débit et une gestion des rebonds améliorés.</p>
-    <p>Pour plus d'informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">documentation détaillée</a>.</p>
+   <td> <p>Destinations d’audience vous permet de partager des segments d’Adobe Experience Platform vers Adobe Campaign.</p>
+    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>détaillée.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **Améliorations**
 
+* Disponibilité mondiale de l&#39;accord de libre-échange amélioré : les messages (y compris les messages transactionnels) sont désormais envoyés par la MTA améliorée d’Adobe Campaign, qui fournit une infrastructure d’envoi améliorée permettant une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * La gestion du fuseau horaire a été améliorée. Vous pouvez désormais définir un fuseau horaire [spécifique](../../automating/using/building-a-workflow.md) pour l’ensemble d’un processus. Le fuseau horaire sélectionné s’applique à toutes les activités du processus. Les informations sur le fuseau horaire configuré pour l’opérateur ou le serveur s’affichent désormais dans l’interface (dans les journaux et après avoir sélectionné un fuseau horaire). (CAMP-37672)
 
-* Les API de Campaign Standard vous permettent désormais d’effectuer une pagination lors de l’utilisation de tableaux volumineux, en ajoutant la balise `_forcePagination=true parameter` à votre URL d’appel. [En savoir plus](../../api/using/pagination.md)
+* Les API de Campaign Standard vous permettent désormais d’effectuer une pagination lors de l’utilisation de tableaux volumineux, en ajoutant le `_forcePagination=true` paramètre à votre URL d’appel. [En savoir plus](../../api/using/pagination.md)
 
-* L’ID du journal de diffusion (qui est un identifiant unique pour chaque journal) est désormais disponible dans les ressources des journaux de diffusion et des journaux de suivi pour toutes les dimensions de ciblage. Cela permet d’identifier l’envoi ou le suivi des journaux lors de l’exportation, par exemple.
+* L’ID du journal de diffusion (qui est un identifiant unique pour chaque journal) est désormais disponible dans les ressources des journaux de diffusion et des journaux de suivi pour toutes les dimensions de ciblage. Cela permet d’identifier l’envoi ou le suivi des journaux lors de l’exportation, par exemple. [En savoir plus](../../automating/using/exporting-logs.md)
 
 **Améliorations du Concepteur d&#39;email**
 
