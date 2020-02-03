@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ Les champs sont organisés en onglets :
 * **[!UICONTROL Evénements]**: Activités qui identifient les consommateurs qui ont eu une certaine interaction avec les points de contact de votre entreprise, comme &quot;toute personne ayant commandé deux fois en deux semaines&quot;. Il peut être diffusé en continu à partir d’Adobe Analytics ou directement assimilé dans Adobe Experience Platform à l’aide d’outils ETL tiers.
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**La segmentation** multientité vous permet d’étendre les données de profil avec des données supplémentaires basées sur des produits, des magasins ou d’autres classes non-profils. Une fois connecté, les données d’autres classes deviennent disponibles comme si elles étaient natives du schéma de profil.
+>
+>Consultez à ce sujet la [documentation dédiée](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
 Par défaut, le créateur de segments unifiés affiche les champs pour lesquels des données sont présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma]**XDM complet à partir des paramètres.
 
