@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ Les règles par défaut sont les suivantes :
 
 ### Mails rebonds {#bounce-mails}
 
-Lors de l&#39;échec d&#39;un envoi d&#39;email, le serveur de messagerie distant renvoie un message d&#39;erreur rebond à l&#39;adresse spécifiée dans les paramètres de l&#39;application. Adobe Campaign compare le contenu de chaque mail rebond aux chaînes disponibles dans la liste des règles puis attribue l&#39;un des trois types d&#39;erreur.
+Lors de l&#39;échec d&#39;un envoi d&#39;email, le serveur de messagerie distant renvoie un message d&#39;erreur rebond à l&#39;adresse spécifiée dans les paramètres de l&#39;application.
 
-L&#39;utilisateur peut créer ses propres règles.
-
->[!IMPORTANT]
->
->Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
+Adobe Campaign compare le contenu de chaque mail rebond aux chaînes disponibles dans la liste des règles puis attribue l&#39;un des trois types d&#39;erreur.
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ L&#39;utilisateur peut créer ses propres règles.
 >
 >Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
+L&#39;utilisateur peut créer ses propres règles.
+
+>[!IMPORTANT]
+>
+>Lors d&#39;un import de package et lors de la mise à jour des données par le workflow **Mise à jour pour la délivrabilité**, les règles mail créées par l&#39;utilisateur sont écrasées.
+
 ### Gestion des domaines emails {#managing-email-domains}
 
-Les règles de gestion de domaine permettent de réguler le flux des courriers électroniques sortants pour un domaine spécifique. Ils échantillonnent les messages de rebond et bloquent l’envoi, le cas échéant. Le serveur de messagerie Adobe Campaign applique des règles spécifiques aux domaines, puis les règles de la casse générale représentée par un astérisque dans la liste des règles.
+Les règles de gestion de domaine permettent de réguler le flux des courriers électroniques sortants pour un domaine spécifique. Ils échantillonnent les messages de rebond et bloquent l’envoi, le cas échéant.
+
+Le serveur de messagerie d&#39;Adobe Campaign applique les règles spécifiques aux domaines, puis celles du cas général symbolisé par un astérisque dans la liste des règles.
+
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, la signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par la MTA améliorée. Dans le cadre de la mise à niveau améliorée de la MTA, la signature de la messagerie instantanée par la MTA de campagne native sera désactivée dans la table de gestion **[!UICONTROL des]**domaines.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Pour configurer des règles de gestion de domaines, il vous suffit de fixer un seuil et de sélectionner certains paramètres SMTP. Le **seuil** est une limite calculée en pourcentage d&#39;erreur au-delà de laquelle tout message vers un domaine spécifique est bloqué.
 
@@ -103,19 +113,7 @@ Les **paramètres SMTP** agissent comme des filtres appliqués pour une règle d
 * Vous pouvez choisir d&#39;activer ou non certaines normes d&#39;identification et clés de cryptage pour vérifier le nom de domaine, comme **Sender ID**, **DomainKeys**, **DKIM**, **S/MIME**.
 * **Relais SMTP** : permet de configurer l&#39;adresse IP et le port d&#39;un serveur relais pour un domaine particulier.
 
->[!IMPORTANT]
->
->Une fois la mise à niveau vers la MTA améliorée, la signature de l’authentification par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée par la MTA améliorée. Dans le cadre de la mise à niveau améliorée de la MTA, la signature de la messagerie instantanée par la MTA de campagne native sera désactivée dans la table de gestion **[!UICONTROL des]**domaines.
->
->Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
-
 ### Gestion des MX {#mx-management}
-
->[!IMPORTANT]
->
->Une fois la mise à niveau vers la MTA améliorée, les règles de débit de remise de gestion **MX d’Adobe Campaign** ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
->
->Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Chaque règle fixe un masque d&#39;adresse du MX. Tout MX dont le nom correspond à ce masque est éligible. Le masque peut contenir les caractères génériques &quot;*&quot; et &quot;?&quot;.
 
@@ -131,6 +129,12 @@ sont compatibles avec les masques :
 * ?.mx.yahoo.com
 
 Ces règles sont appliquées dans l&#39;ordre : la première règle dont le masque de MX est compatible avec le MX ciblé est appliquée.
+
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la MTA améliorée, les règles de débit de remise de gestion **MX d’Adobe Campaign** ne sont plus utilisées. La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
+>
+>Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
@@ -238,7 +242,7 @@ The **[!UICONTROL Validity period]**section contains the following parameters:
 
    >[!IMPORTANT]
    >
-   >Une fois la mise à niveau vers la MTA améliorée, le paramètre **[!UICONTROL Durée] de remise ** dans vos livraisons de campagne n’est utilisé que si la valeur est définie sur 3,5 jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte. Tous les impacts sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
+   >Une fois la mise à niveau vers la MTA améliorée, le paramètre de durée **[!UICONTROL de]**remise dans vos livraisons de campagne n’est utilisé que si la valeur est définie sur 3,5 jours ou moins. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte. Tous les impacts sont détaillés dans le document MTA[amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe Campaign.
 
 * **[!UICONTROL Validité des ressources]** : ce champ est utilisé pour les ressources mises en ligne, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l&#39;email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
