@@ -11,8 +11,8 @@ topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+translation-type: tm+mt
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -45,6 +45,10 @@ Le type du message est défini lors de la configuration de l&#39;événement qui
 >Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
 Les messages transactionnels sont également disponibles depuis l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-transactional-messages.md).
+
+>[!IMPORTANT]
+>
+>Une fois la mise à niveau vers la [MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)améliorée, tous les messages transactionnels sont envoyés avec la MTA améliorée d’Adobe Campaign pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont identiques aux messages marketing standard et sont détaillés dans le document MTA [amélioré d’](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) Adobe Campaign.
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
