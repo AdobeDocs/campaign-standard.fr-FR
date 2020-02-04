@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 
 ---
@@ -45,14 +45,14 @@ Plusieurs indicateurs sont calculés et un ensemble d&#39;outils s&#39;affiche e
 
 ![](assets/predictive_subject_line_example.png)
 
-## Importer des modèles {#importing-models}
+## Importer des modèles  {#importing-models}
 
 Par défaut, aucun modèle n&#39;est exécuté sur le serveur Adobe Campaign. Deux méthodes permettent d&#39;obtenir un modèle et d&#39;activer la fonctionnalité :
 
 * Vous pouvez entraîner un modèle local à partir des données des emails envoyés :
 
    * Si vous utilisez déjà Adobe Campaign, le modèle local sera automatiquement entraîné avec les messages que vous avez déjà envoyés.
-   * Si vous découvrez Adobe Campaign, vous pouvez extraire un fichier CSV de votre système/ESP précédent, qui contient 4 colonnes : date, sujet, ouverture, envoi. Pour cela, accédez à **[!UICONTROL Administration]**>**[!UICONTROL  Canaux]** > **[!UICONTROL Email]**>**[!UICONTROL  Import d&#39;objet]**, puis suivez les instructions affichées dans les différents écrans. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
+   * Si vous utilisez Adobe Campaign pour la première fois, vous pouvez extraire de votre précédent système/fournisseur de services de messagerie un fichier CSV contenant 4 colonnes : date, objet, ouvertures, envoyés. Pour cela, accédez à **[!UICONTROL Administration]**>**[!UICONTROL  Canaux]** > **[!UICONTROL Email]**>**[!UICONTROL  Import d&#39;objet]**, puis suivez les instructions affichées dans les différents écrans. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
    * Si vous utilisez Adobe Campaign pour la première fois et si vous ne pouvez pas obtenir de fichier CSV comme décrit plus haut, vous pouvez utiliser un modèle pré-entraîné ou attendre que le système dispose de suffisamment de données de diffusion pour entraîner un modèle local. Le système détermine automatiquement si le jeu de données actuel contient suffisamment de données pour reconnaître des constantes et entraîner le modèle.
 
       >[!NOTE]
