@@ -12,8 +12,8 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+translation-type: tm+mt
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -135,13 +135,13 @@ La **barre d&#39;outils** est un élément contextuel de l&#39;interface de l&#3
    <td> Permet d'accéder à une landing page Adobe Campaign. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Lien d'abonnement</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
    <td> Permet d'insérer un lien d'abonnement à un service. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Lien de désabonnement</span> <br /> </td> 
    <td> Tout élément<br /> </td> 
    <td> Permet d'insérer un lien de désabonnement à un service. Le paramétrage d'un lien est présenté dans la section <a href="../../designing/using/links.md#inserting-a-link">Insérer un lien</a>.<br /> </td> 
