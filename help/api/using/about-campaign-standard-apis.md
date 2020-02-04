@@ -1,6 +1,6 @@
 ---
-title: A propos des API de Campaign Standard
-description: En savoir plus sur les API de Standard de campagne.
+title: À propos des API de Campaign Standard
+description: Découvrez les API de Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,17 +11,17 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
 
 ---
 
 
-# About Campaign Standard APIs {#about-campaign-standard-apis}
+# À propos des API de Campaign Standard {#about-campaign-standard-apis}
 
-Les API de Campaign Standard vous permettent de **créer des intégrations** pour Adobe Campaign Standard et de **créer votre propre écosystème** en interfacant Adobe Campaign Standard avec le panneau de technologies que vous utilisez.
+Les API de Campaign Standard vous permettent de **créer des intégrations** pour Adobe Campaign Standard et de **construire votre propre écosystème** en interfaçant l’application avec l’ensemble des technologies que vous utilisez.
 
-Avec les API Adobe Campaign Standard, vous avez accès aux fonctionnalités suivantes :
+Grâce aux API d’Adobe Campaign Standard, vous avez accès aux fonctionnalités suivantes :
 
 <table>
 <tr>
@@ -68,17 +68,17 @@ Avec les API Adobe Campaign Standard, vous avez accès aux fonctionnalités suiv
 
 >[!NOTE]
 >
->Avant d&#39;effectuer des appels d&#39;API, veuillez vérifier les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Avant d’effectuer des appels aux API, vérifiez les limites de taille correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
 
-Pour utiliser l’API Campaign Standard, vous devez disposer d’un compte d’E/S Adobe. Il s’agit d’une première étape obligatoire pour découvrir les fonctionnalités de l’API.
+Pour utiliser les API de Campaign Standard, vous devez disposer d’un compte Adobe I/O. Il s’agit d’une première étape obligatoire pour découvrir les fonctionnalités des API.
 Voir à ce propos [cette section](../../api/using/setting-up-api-access.md).
 
-Les API que nous fournissons utilisent des concepts **** standard avec une interface REST et des charges JSON.
+Les API fournies utilisent des **concepts standard** avec une interface REST et des payloads JSON.
 
 >[!NOTE]
 >
->Tous les exemples fonctionnent avec Postman, mais n&#39;hésitez pas à utiliser votre client REST préféré.
+>Tous les exemples fonctionnent avec Postman, mais n’hésitez pas à utiliser votre client REST préféré.
 
-Tous les points de fin sont décrits en détail dans cette documentation avec les notions générales que vous devez connaître pour manipuler l’API, la référence complète de l’API, des exemples de code et des guides de démarrage rapide.
+Tous les points d’entrée sont décrits en détail dans cette documentation avec les notions générales que vous devez connaître pour manipuler les API, les informations de référence complètes relatives aux API, des exemples de code et des guides de démarrage rapide.
 
-S&#39;il manque quelque chose ou s&#39;il semble incorrect, demandez à la [communauté](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
