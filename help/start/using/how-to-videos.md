@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Découvrez les fonctionnalités essentielles en regardant nos [vidéos pratiques
 * [Configurer une liste](https://video.tv.adobe.com/v/25288?captions=fre_fr) : configurez une liste dans Adobe Campaign.
 * [Créer un rapport](https://video.tv.adobe.com/v/25264?captions=fre_fr) : créez votre propre rapport dynamique.
 
-En plus de ces courtes vidéos détaillées, notre site Web propose des [cours de formation](https://training.adobe.com/training/courses.html) et des [vidéos de présentation](http://www.adobe.com/training/video.html).
+En plus de ces courtes vidéos détaillées, notre site Web propose des [cours de formation](https://training.adobe.com/training/courses.html) et des [vidéos de présentation](https://www.adobe.com/training/video.html).
