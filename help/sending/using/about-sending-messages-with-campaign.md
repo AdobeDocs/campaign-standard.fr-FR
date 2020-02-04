@@ -11,7 +11,7 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
