@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 Chaque objet et utilisateur de la plate-forme est rattaché à une entité organisationnelle. Cette entité permet de définir une structure hiérarchique afin de filtrer la vue des utilisateurs. L&#39;entité d&#39;un utilisateur définit son niveau d&#39;accès aux différents objets de la plateforme.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d&#39;un utilisateur ou d&#39;un groupe d&#39;utilisateur, ne le rattachez pas à l&#39;entité **[!UICONTROL Toutes]**.
 >
@@ -103,7 +103,7 @@ Par défaut, les champs de l&#39;entité organisationnelle ne sont pas disponibl
 
 Les profils sans entité organisationnelle ne sont pas accessibles par les utilisateurs.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Il est recommandé d&#39;ajouter cette option avant d&#39;importer des profils. Si vous avez déjà importé votre base client, il est nécessaire d&#39;effectuer une mise à jour afin de définir les valeurs de l&#39;entité organisationnelle sur les profils déjà importés.
 
