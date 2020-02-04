@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
@@ -64,7 +64,7 @@ Les modèles créés peuvent être ensuite sélectionnés par un utilisateur sta
 
 ## Utiliser un modèle {#using-a-template}
 
-Nous allons maintenant examiner comment utiliser un modèle créé dans la section précédente.
+Voyons à présent comment utiliser un modèle créé dans la section précédente.
 
 >[!NOTE]
 >
