@@ -11,7 +11,7 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
@@ -35,7 +35,7 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 * Manipulation de chaînes
 * Tri
 
-## Dates {#dates}
+## Dates  {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
 
@@ -279,7 +279,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing {#geomarketing}
+## Géomarketing  {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -298,7 +298,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques {#numerical}
+## Numériques  {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -321,7 +321,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
+   <td> Renvoie le plus grand entier inférieur ou égal à un nombre<br /> </td> 
    <td> Floor(&lt;nombre&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -382,7 +382,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres {#others}
+## Autres  {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -476,7 +476,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne {#string}
+## Chaîne  {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
@@ -711,7 +711,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation {#representation}
+## Représentation  {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
