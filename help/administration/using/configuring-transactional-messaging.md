@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+translation-type: tm+mt
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -37,9 +37,9 @@ Commencez par configurer l&#39;événement qui correspond à vos besoins.
 
    ![](assets/message-center_1.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
-   >L&#39;identifiant ne doit pas dépasser 64 caractères, le préfixe EVT compris.
+   >L’ID ne doit pas dépasser 64 caractères, y compris le préfixe EVT.
 
 1. Sélectionnez le canal qui sera utilisé pour l&#39;envoi des messages transactionnels : **[!UICONTROL Email]**,**[!UICONTROL  Mobile (SMS)]** ou **[!UICONTROL Application mobile]**(notification push).
 
@@ -180,7 +180,7 @@ Cliquez sur le bouton **[!UICONTROL Publier]**pour générer une nouvelle API RE
 
 ## Intégrer le déclenchement de l&#39;événement à un site web {#integrating-the-triggering-of-the-event-in-a-website}
 
-Une fois que vous avez créé l&#39;événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.
+Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.
 
 Dans l&#39;exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle), vous souhaitez qu&#39;un événement de type &quot;Abandon de panier&quot; soit déclenché lorsque l&#39;un de vos clients quitte votre site web avant d&#39;avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l&#39;API REST Adobe Campaign Standard.
 
@@ -195,7 +195,7 @@ Les sections suivantes détaillent quelle configuration spécifique devrait êtr
 ### Messages transactionnels basés sur un événement.{#event-based-transactional-messages}
 
 Pour envoyer un message transactionnel basé sur un événement, vous devez d&#39;abord créer et configurer un événement ciblant les données contenues dans l&#39;événement.
-Pour plus d&#39;informations, voir [Créer de l&#39;engagement avec des messages transactionnels](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
+Pour plus d&#39;informations, voir [Créer de l&#39;engagement avec des messages transactionnels](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
 1. Lors de la création de la configuration d&#39;un événement, sélectionnez la dimension de ciblage **[!UICONTROL Evénement en temps réel]**(voir[Créer un événement](#creating-an-event)).
 1. Ajoutez des champs à l&#39;événement afin de personnaliser le message transactionnel (voir [Définir les attributs d&#39;événement](#defining-the-event-attributes)).
@@ -230,14 +230,14 @@ Pour envoyer un message transactionnel basé sur un profil, vous devez d&#39;abo
 
 ### Notifications push transactionnelles basées sur un événement  {#event-based-transactional-push-notifications}
 
-Pour pouvoir envoyer des notifications push transactionnelles, vous devez configurer Adobe Campaign en conséquence. Voir [Configuration push](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
+Pour pouvoir envoyer des notifications push transactionnelles, vous devez configurer Adobe Campaign en conséquence. Voir [Configuration push](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 Pour envoyer une notification push transactionnelle anonyme à tous les utilisateurs qui ont accepté de recevoir des notifications de votre application mobile, vous devez d&#39;abord créer et configurer un événement ciblant les données contenues dans l&#39;événement. Les étapes correspondantes sont présentées ci-après.
 
 L&#39;événement doit contenir les trois éléments suivants :
 
 * Un **jeton d&#39;enregistrement** qui est l&#39;identifiant de l&#39;utilisateur pour une application mobile et un appareil. Il peut ne pas correspondre à un profil de la base de données Adobe Campaign.
-* Un **nom d&#39;application mobile** (un pour tous les appareils : Android et iOS). Il s&#39;agit de l&#39;identifiant de l&#39;application mobile configuré dans Adobe Campaign qui sera utilisé pour la réception des notifications push sur les appareils des utilisateurs. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
+* Un **nom d&#39;application mobile** (un pour tous les appareils : Android et iOS). Il s&#39;agit de l&#39;identifiant de l&#39;application mobile configuré dans Adobe Campaign qui sera utilisé pour la réception des notifications push sur les appareils des utilisateurs. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 * Une **plate-forme push** (&quot;gcm&quot; pour Android et &quot;apns&quot; pour iOS).
 
 1. Lors de la création de la configuration d&#39;un événement, sélectionnez le canal **[!UICONTROL Application mobile]**et la dimension de ciblage**[!UICONTROL  Evénement en temps réel]** (voir [Créer un événement](#creating-an-event)).
