@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Des informations ont été ajoutées dans le guide Travailler avec les API conce
 
 Une nouvelle section décrivant les avertissements pouvant être affichés dans un tableau de bord de message est disponible. [En savoir plus](../../channels/using/message-dashboard.md#warnings)
 
-La documentation MTA améliorée d’Adobe Campaign est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+La documentation MTA d’Adobe Campaign Enhanced, qui décrit l’infrastructure d’envoi mise à niveau permettant d’améliorer la délivrabilité, le débit et la gestion des retours, est désormais disponible. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Des notes ont été ajoutées pour indiquer que le serveur d’applications et les URL des serveurs de pages miroir doivent être sécurisés pour que les aperçus de page d’entrée et de page miroir s’affichent à partir de l’interface utilisateur de Campaign. [En savoir plus](../../administration/using/branding.md#configuring-and-using-brands)
 
