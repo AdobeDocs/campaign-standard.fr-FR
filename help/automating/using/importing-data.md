@@ -11,8 +11,8 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -185,7 +185,7 @@ Par exemple :
 
       >[!NOTE]
       >
-      >Si vous envisagez d&#39;envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l&#39;opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]**est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez** 1 **comme**[!UICONTROL  Source]** et sélectionnez le champ **postalAddress/@addrDefined** comme **[!UICONTROL Destination]**. Pour plus d&#39;informations sur les courriers et l&#39;utilisation de l&#39;option**[!UICONTROL  Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
+      >Si vous envisagez d&#39;envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l&#39;opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]**est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez** 1 **comme**[!UICONTROL  Source]** et sélectionnez le champ **`postalAddress/@addrDefined`**comme**[!UICONTROL  Destination]**. Pour plus d&#39;informations sur les courriers et l&#39;utilisation de l&#39;option **[!UICONTROL Adresse renseignée]**, consultez[ce document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configurez l&#39;activité **[!UICONTROL Déduplication]**située après la transition contenant les profils non réconciliés :
 
