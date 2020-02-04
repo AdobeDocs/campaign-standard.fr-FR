@@ -12,7 +12,7 @@ discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
@@ -42,7 +42,7 @@ Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 * [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 * [Configuration des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Rapport SMS](../../reporting/using/sms-report.md)
-* [Guide d&#39;Adobe Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
 ## Modèle de diffusion SMS {#sms-delivery-template}
 
