@@ -12,7 +12,7 @@ discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
@@ -30,7 +30,7 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 
 1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL In-App]**. Si vous ne pouvez pas accéder à ces canaux, contactez l&#39;équipe de votre compte.
 
-1. Pour tirer parti des cas pratiques mobiles dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour consulter le guide détaillé, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Pour tirer parti des cas pratiques mobiles dans Adobe Campaign Standard avec une application SDK Experience Cloud, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign. Pour consulter le guide détaillé, reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 1. Une fois la configuration effectuée, vous pouvez préparer votre message in-app. Pour plus d&#39;informations à ce propos, Voir à ce propos consultez [cette page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
 
@@ -41,6 +41,6 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 **Contenu connexe :**
 
 * [Rapport In-App](../../reporting/using/in-app-report.md)
-* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
-* [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Guide d&#39;Adobe Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [FAQ sur les notifications push et les messages In-App](https://helpx.adobe.com/fr/campaign/kb/push_inapp_faq.html)
+* [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
