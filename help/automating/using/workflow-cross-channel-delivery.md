@@ -1,6 +1,6 @@
 ---
-title: '"Cas d''utilisation du processus : Diffusion cross-canal"'
-description: '"Cas d''utilisation du processus : Diffusion cross-canal"'
+title: '"Cas pratique de workflow : diffusion cross-canal"'
+description: '"Cas pratique de workflow : diffusion cross-canal"'
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,13 +12,13 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
 
-# Workflow use-case: Creating a cross-channel delivery{#cross-channel-delivery}
+# Cas pratique de workflow : création d’une diffusion cross-canal{#cross-channel-delivery}
 
 Ce document vous permet de découvrir la fonctionnalité d&#39;Adobe Campaign suivante via un cas pratique standard : création d&#39;un workflow de diffusion cross-canal.
 
@@ -31,7 +31,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/discovering-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/discovering-communication-channels.md)
 
-## Créer un workflow  {#creating-workflow}
+## Créer un workflow   {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
@@ -49,11 +49,11 @@ Les étapes détaillées pour créer un workflow sont présentées dans la secti
 
 Une fois le workflow créé, vous accédez à son interface.
 
-Insérez une activité de requête dans votre processus pour cibler les profils qui recevront vos livraisons.
+Insérez une activité Requête dans votre workflow afin de cibler les profils qui recevront vos diffusions.
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. Dans **[!UICONTROL Activités]**>**[!UICONTROL  Ciblage]**, effectuez un glisser-déposer d’une **[!UICONTROL activité Requête]**.
 1. Double-cliquez sur l&#39;activité.
-1. Dans l’onglet **[!UICONTROL Target]**, parcourez les raccourcis et sélectionnez l’une de vos[audiences](../../audiences/using/about-audiences.md).
+1. Dans l’onglet **[!UICONTROL Cible]**, parcourez les raccourcis et sélectionnez l’une de vos[audiences](../../audiences/using/about-audiences.md).
 1. Déplacez le raccourci dans la zone d&#39;édition. En fonction du type de raccourci sélectionné, une fenêtre s&#39;affiche.
 1. Paramétrez les éléments de ciblage puis validez votre requête.
 
@@ -75,13 +75,13 @@ Vous devez utiliser une activité de Segmentation pour créer un ou plusieurs se
 
 Le premier groupe **Email** ciblera les destinataires dont l&#39;email est renseigné, mais pas le numéro de téléphone portable. Le second groupe **SMS** contiendra les destinataires dont le numéro de téléphone portable est enregistré dans leur profil.
 
-Pour configurer la première transition (courriel) :
+Pour configurer la première transition (Email) :
 
-1. Dans l’onglet **[!UICONTROL Segments]**, un premier segment est présent par défaut. Modifiez ses propriétés pour configurer ce segment.
+1. Dans l’onglet **[!UICONTROL Segments]**, un premier segment est présent par défaut. Modifiez ses propriétés pour le configurer.
 
    ![](assets/wkf_segment_properties.png)
 
-1. Sélectionnez le **[!UICONTROL courriel]**du profil comme critère de filtrage.
+1. Sélectionnez l’**[!UICONTROL email]**du profil comme critère de filtrage.
 
    ![](assets/wkf_segment_email.png)
 
@@ -89,28 +89,28 @@ Pour configurer la première transition (courriel) :
 
    ![](assets/wkf_segment_email_not_empty.png)
 
-1. Add a second filtering criterion, **[!UICONTROL Mobile]**, and select the operator**[!UICONTROL  Is empty]**.
+1. Ajoutez un deuxième critère de filtrage, à savoir, **[!UICONTROL Mobile]**, et sélectionnez l’opérateur**[!UICONTROL  Est vide]**.
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   Tous les profils provenant de la requête pour lesquels un courrier électronique n’est pas défini, mais aucun numéro de téléphone mobile, seront dans cette transition.
+   Tous les profils provenant de la requête qui auront un email, mais pas de téléphone portable renseigné, seront dans cette transition.
 
 1. Pour plus de clarté dans votre workflow, vous pouvez éditer le libellé de la transition. Validez vos modifications.
 
    ![](assets/wkf_segment_transition_label.png)
 
-Votre première transition est paramétrée. Pour configurer la seconde transition (SMS) :
+Votre première transition est paramétrée. Pour configurer la seconde transition (SMS) :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter un élément]**pour ajouter une nouvelle transition.
-1. Définissez une condition qui vous permet de récupérer tous les profils dont les numéros de téléphone mobile ont été fournis. Pour ce faire, créez une règle sur le champ **[!UICONTROL Mobile]**avec l’opérateur logique**[!UICONTROL  N’est pas vide]** .
+1. Définissez une condition qui vous permet de récupérer tous les profils dont les numéros de téléphone mobile ont été fournis. Pour cela, créez une règle sur le champ **[!UICONTROL Mobile]**avec l’opérateur logique**[!UICONTROL  N’est pas vide]**.
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
-   Tous les profils provenant de la requête pour lesquels un numéro de téléphone mobile est défini seront dans cette transition.
+   Tous les profils provenant de la requête qui auront un numéro de téléphone portable renseigné seront dans cette transition.
 
 1. Vous pouvez modifier le libellé de la transition. Validez vos modifications.
 
-Votre deuxième transition est maintenant également configurée.
+Votre seconde transition est maintenant également configurée.
 
 ![](assets/wkf_segment_transitions.png)
 
@@ -118,41 +118,41 @@ Les étapes détaillées pour créer une activité Segmentation sont présentée
 
 ## Créer des diffusions {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an **[!UICONTROL Email delivery]**and an**[!UICONTROL  SMS delivery]**.
+Comme précédemment deux transitions ont été créées, vous devez désormais ajouter deux types de diffusion à la suite des transitions sortantes de l’activité Segmentation : une **[!UICONTROL diffusion Email]**et une**[!UICONTROL  diffusion SMS]**.
 
 Adobe Campaign vous permet d&#39;ajouter des diffusions dans un workflow. Pour ce faire, sélectionnez une diffusion depuis la catégorie **[!UICONTROL Canaux]**de la palette d&#39;activités de votre workflow.
 
 ![](assets/wkf_segment_deliveries1.png)
 
-Pour créer une diffusion par courrier électronique :
+Pour créer une diffusion email :
 
-1. Drag and drop an **[!UICONTROL Email delivery]**after the first segment.
-1. Double-cliquez sur l&#39;activité   pour l&#39;éditer.
-1. Sélectionnez Courriel ****simple.
-1. Select **[!UICONTROL Add an outbound transition with the population]**and click**[!UICONTROL  Next]**.
+1. Effectuez un glisser-déposer d’une **[!UICONTROL Diffusion Email]**après le premier segment.
+1. Double-cliquez sur l&#39;activité pour l&#39;éditer.
+1. Sélectionnez **[!UICONTROL Email simple]**.
+1. Sélectionnez **[!UICONTROL Ajouter une transition sortante avec la population]**et cliquez sur**[!UICONTROL  Suivant]**.
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   La transition sortante vous permettra de récupérer la population et les journaux de suivi. Vous pourrez utiliser ce service, par exemple, pour envoyer un deuxième courrier aux personnes qui n’ont pas cliqué sur le premier courrier.
+   La transition sortante vous permettra de récupérer la population et les logs de tracking. Vous pourrez utiliser ceci, par exemple, pour envoyer un deuxième email aux personnes qui n’ont pas cliqué sur le premier.
 
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
-1. To create the layout of your email, select **[!UICONTROL Use the Email Designer]**.
+1. Pour créer la mise en page de votre email, sélectionnez **[!UICONTROL Utiliser le concepteur d&#39;email]**.
 1. Editez et enregistrez votre contenu.
 1. Dans la section **[!UICONTROL Planning]**du tableau de bord des messages, désélectionnez l&#39;option**[!UICONTROL Demander confirmation avant d&#39;envoyer les messages}**.
 
 Les étapes détaillées pour créer une activité Email sont présentées dans la section [Diffusion Email](../../automating/using/email-delivery.md).
 
-Pour créer une diffusion SMS :
+Pour créer une diffusion SMS :
 
-1. Drag and drop an **[!UICONTROL SMS delivery]**after the other segment.
-1. Double-cliquez sur l&#39;activité   pour l&#39;éditer.
-1. Select **[!UICONTROL SMS]**and click**[!UICONTROL  Next]**.
-1. Select an SMS template and click **[!UICONTROL Next]**.
-1. Enter the SMS properties and click **[!UICONTROL Next]**.
+1. Effectuez un glisser-déposer d&#39;une **[!UICONTROL diffusion SMS]**après l&#39;autre segment.
+1. Double-cliquez sur l&#39;activité pour l&#39;éditer.
+1. Sélectionnez **[!UICONTROL SMS]**et cliquez sur**[!UICONTROL  Suivant]**.
+1. Sélectionnez un modèle de SMS et cliquez sur **[!UICONTROL Suivant]**.
+1. Saisissez les propriétés SMS et cliquez sur **[!UICONTROL Suivant]**.
 1. Editez et enregistrez votre contenu.
 
-The detailed steps to build an SMS activity are presented in the [SMS delivery](../../automating/using/sms-delivery.md) section.
+Les étapes détaillées pour créer une activité SMS sont présentées dans la section [Diffusion SMS](../../automating/using/sms-delivery.md).
 
 Une fois vos diffusions créées et éditées, votre workflow est prêt à être démarré.
 
@@ -160,8 +160,8 @@ Une fois vos diffusions créées et éditées, votre workflow est prêt à être
 
 ## Exécuter le workflow {#running-the-workflow}
 
-Une fois le flux de travail démarré, la population ciblée par l’activité Requête sera segmentée afin de recevoir une diffusion par courriel ou par SMS.
+Une fois le workflow démarré, la population ciblée par l’activité Requête sera segmentée afin de recevoir une diffusion par email ou par SMS.
 
-To execute your workflow, click the **[!UICONTROL Start]**button from the action bar.
+Pour exécuter votre workflow, cliquez sur le bouton **[!UICONTROL Démarrer]**dans la barre d’actions.
 
-You can access your deliveries from the **[!UICONTROL Marketing plans]**>**[!UICONTROL  Marketing activities]** advanced menu via the Adobe Campaign logo. Click the delivery then the **[!UICONTROL Reports]**button to access the[delivery reports](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), such as the delivery summary, the open rate or the email rendering according to the recipients&#39; message inbox.
+Vous pouvez accéder à vos diffusions depuis le menu avancé **[!UICONTROL Plans marketing]**>**[!UICONTROL  Activités marketing]** depuis le logo Adobe Campaign. Cliquez sur la diffusion puis sur le bouton **[!UICONTROL Rapports]**pour accéder aux[rapports de diffusion](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), tels que la synthèse de la diffusion, les taux d&#39;ouvertures ou le rendu des emails en fonction des types de messagerie des destinataires.
