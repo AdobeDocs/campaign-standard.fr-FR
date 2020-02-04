@@ -80,7 +80,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Nom de l'application mobile.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plate-forme<br /> </td> 
+   <td> Plateforme<br /> </td> 
    <td> Plateforme de l'appareil sur lequel le message a été ouvert/vu ou a fait l'objet d'un clic.<br /> </td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Adresse IP utilisée pour envoyer l'email.<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
+   <td> Etat<br /> </td> 
    <td> Etat enregistré dans le profil du destinataire.<br /> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Libellé de l'URL de tracking<br /> </td> 
-   <td> Libellé de l'URL (page miroir, contactez-nous ou ouvrir, par exemple).<br /> </td> 
+   <td> Libellé attribué à l'URL (page miroir, contactez-nous ou ouvrir, par exemple).<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusion transactionnelle<br /> </td> 
@@ -134,11 +134,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures  {#metrics}
+## Mesures   {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS  {#email-and-sms-metrics}
+### Mesures des emails et SMS   {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -225,7 +225,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de mises en quarantaine par rapport au nombre de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refusée<br /> </td> 
+   <td> Rejetés<br /> </td> 
    <td> Nombre de messages classés comme spam par les serveurs SMTP.<br /> </td> 
   </tr> 
   <tr> 
@@ -250,16 +250,16 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Taux de désabonnement<br /> </td> 
-   <td> Pourcentage de désinscriptions par destinataire par rapport au nombre de messages délivrés.<br /> </td> 
+   <td> Pourcentage de désabonnements par destinataire par rapport au nombre de messages délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Désabonnement<br /> </td> 
-   <td> Nombre de clics sur le lien de désinscription.<br /> </td> 
+   <td> Nombre de clics sur le lien de désabonnement.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Mesures des notifications push  {#push-notification-metrics}
+### Mesures des notifications push   {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -324,7 +324,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App  {#in-app-metrics}
+### Mesures In-App   {#in-app-metrics}
 
 <table> 
  <thead> 
