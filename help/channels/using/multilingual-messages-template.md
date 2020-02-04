@@ -1,5 +1,5 @@
 ---
-title: Créer un modèle multilingue
+title: Modèles de messages multilingues
 description: Découvrez comment définir et exécuter des diffusions email/SMS multilingues en une seule vague à partir des préférences linguistiques de vos clients segmentés automatiquement. Créez des rapports sur les performances de chaque diffusion en affinant par langue et par niveau individuel.
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
@@ -12,7 +12,7 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
