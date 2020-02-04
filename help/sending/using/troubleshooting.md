@@ -12,8 +12,8 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -54,7 +54,7 @@ Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../
 Pour vérifier si votre adresse IP est blacklistée, vous pouvez consulter l&#39;un des sites web ci-dessous :
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
 
