@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ Si vous souhaitez restreindre les accès d&#39;un utilisateur, ne l&#39;ajoutez 
 
 ## Créer un groupe de sécurité et affecter des utilisateurs {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Dans la console d&#39;administration, les groupes de sécurité sont appelés profils.
 
@@ -139,7 +139,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
 Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent se connecter à Adobe Campaign.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Lorsque les utilisateurs sont supprimés d&#39;un groupe de sécurité dans la console d&#39;administration, ils restent membres du groupe de sécurité d&#39;Adobe Campaign, mais ne sont plus en mesure de se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses e-mail des utilisateurs dans la console d&#39;administration pour éviter qu&#39;ils ne reçoivent des informations sensibles.
 
