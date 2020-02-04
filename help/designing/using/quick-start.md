@@ -1,5 +1,5 @@
 ---
-title: Commencer avec le concepteur de courrier électronique
+title: 'Prise en main du Concepteur d''emails '
 description: Commencez à créer du contenu d'email avec le Concepteur d'email.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -11,36 +11,36 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
-# Commencer avec le concepteur de courrier électronique {#quick-start}
+# Prise en main du Concepteur d&#39;emails {#quick-start}
 
 Le Concepteur d&#39;email propose quatre méthodes pour créer des emails.
 
-Vous pouvez créer un courrier électronique [à partir de zéro dans le Concepteur](#without-existing-content)de messagerie :
+Vous pouvez créer un email [entièrement nouveau dans le Concepteur d&#39;emails](#without-existing-content) :
 
 * Vous pouvez créer un email à partir d&#39;un canevas vierge en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 * Vous pouvez créer un email à partir d&#39;un modèle d&#39;usine. Pour ce faire, sélectionnez un modèle et créez votre contenu d&#39;email à partir de celui-ci. [En savoir plus](#building-content-from-an-out-of-the-box-template)
 
-You can also create an email [with existing content](#with-existing-content):
+Vous pouvez également créer un email [avec du contenu existant ](#with-existing-content) :
 
 * Vous pouvez convertir du contenu HTML existant (créé en externe ou dans l&#39;ancien éditeur). [En savoir plus](#converting-an-html-content)
 * Vous pouvez importer du contenu HTML existant directement en mode de compatibilité. [En savoir plus](#compatibility-mode)
 
 | Sans contenu | Avec contenu |
 |---|---|
-| [Création d&#39;un email à partir de zéro](#from-scratch-email) | [Conversion d’un contenu HTML existant](#converting-an-html-content) |
-| [Créer du contenu à partir d&#39;un modèle d&#39;usine ](#building-content-from-an-out-of-the-box-template) | [Importation d’un code HTML existant](#compatibility-mode) |
+| [Création d&#39;un email à partir de zéro](#from-scratch-email) | [Convertir un contenu HTML existant](#converting-an-html-content) |
+| [Créer du contenu à partir d&#39;un modèle d&#39;usine ](#building-content-from-an-out-of-the-box-template) | [Importer un code HTML existant](#compatibility-mode) |
 
-## Conception de courriers électroniques avec l’éditeur {#without-existing-content}
+## Concevoir des emails avec l&#39;éditeur {#without-existing-content}
 
 >[!NOTE]
 >
->Dans les deux stratégies de création, il est essentiel de remplir l’objet avant d’envoyer votre courriel. Découvrez comment [ajouter une ligne](#add-a-subject-line)d’objet.
+>Dans les deux stratégies de création, il est essentiel de remplir l’objet avant d’envoyer votre email. Découvrez comment [ajouter un objet](#add-a-subject-line).
 
 ### Création d&#39;un email à partir de zéro {#from-scratch-email}
 
@@ -117,7 +117,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d&#39;un modèle d&#39;usine {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d&#39;un modèle d&#39;usine   {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
@@ -133,11 +133,11 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
 1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
 
-## Utilisation d’un contenu de courrier électronique existant {#with-existing-content}
+## Utiliser un contenu d&#39;email existant {#with-existing-content}
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
 
-### Convertir un contenu HTML {#converting-an-html-content}
+### Convertir un contenu HTML   {#converting-an-html-content}
 
 Ce cas pratique présente comment convertir rapidement le code HTML d&#39;un email en composants du Concepteur d&#39;email.
 
