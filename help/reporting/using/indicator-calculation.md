@@ -11,7 +11,7 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 >[!NOTE]
 >
->Pour mieux traiter et gérer les volumes élevés et les analyses en temps réel, les rapports dynamiques utilisent des agrégations approximatives pour des estimations de décompte distinctes. Les agrégations approximatives offrent une utilisation de mémoire limitée et sont souvent plus rapides que les calculs exacts.
+>Pour mieux traiter et gérer les volumes élevés et les analyses en temps réel, les rapports dynamiques utilisent des agrégations approximatives pour des estimations de comptage distinct. Les agrégations approximatives offrent une utilisation de mémoire limitée et sont souvent plus rapides que les calculs exacts.
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
@@ -53,7 +53,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux d'éléments en blackliste<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Erreurs<br /> </td> 
@@ -62,22 +62,22 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Taux d'erreurs<br /> </td> 
+   <td> Taux Bounces + Erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Clics<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> count(@trackingUrlType=1 ou 10 ou 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de clics publicitaires<br /> </td> 
+   <td> Taux de clics<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delivrés<br /> </td> 
@@ -89,7 +89,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de délivrabilité<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Hard bounces<br /> </td> 
@@ -101,7 +101,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de hard bounce<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Domaine invalide<br /> </td> 
@@ -119,7 +119,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Page miroir<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de page miroir<br /> </td> 
@@ -143,7 +143,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux d'ouverture<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Quarantaine<br /> </td> 
@@ -155,7 +155,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de mise en quarantaine<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr>
   <tr> 
    <td> Rejetés<br /> </td> 
@@ -167,7 +167,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de rejet<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
@@ -176,7 +176,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> Soft bounces<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
@@ -185,7 +185,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de soft bounces<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur le nombre Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics uniques<br /> </td> 
@@ -206,7 +206,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Désabonner<br /> </td> 
+   <td> Désabonnement<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
@@ -215,7 +215,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de désabonnement<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
    <td> @unsubscribes/@delivered<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose uniquement sur Délivrés.<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose uniquement sur la mesure Délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Utilisateur inconnu<br /> </td> 
@@ -253,7 +253,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Taux d'erreurs<br /> </td> 
+   <td> Taux Bounces + Erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -283,7 +283,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br /> </td> 
+   <td> Clics<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 
@@ -334,7 +334,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Impressions uniques<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics In-App <br /> </td> 
@@ -346,7 +346,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Clics In-App uniques<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics In-App<br /> </td> 
@@ -364,7 +364,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Rejets In-App uniques<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
+   <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de rejet In-App<br /> </td> 
