@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 259f7033310982298024462c0134989404c096f4
 
 ---
@@ -51,13 +51,13 @@ Cette fonctionnalité est désactivée par défaut. Elle est activée lors de l&
 
 * [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
 
-## Définition de l’expéditeur de courrier électronique d’un courrier électronique {#email-sender}
+## Définition de l’expéditeur d’un email{#email-sender}
 
 Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil).
 
 ![](assets/delivery_content_edition16.png)
 
-* Le champ **[!UICONTROL De : nom]**permet de saisir le nom de l&#39;expéditeur. Par défaut, le bloc** Nom de l&#39;expéditeur **par défaut est automatiquement inscrit dans le champ. L’adresse électronique de l’expéditeur et le nom de l’expéditeur par défaut sont définis dans**[!UICONTROL  Marques]** accessibles via le logo Adobe Campaign sous le menu avancé **[!UICONTROL Administration > Paramètres d’instance > Configuration]**de la marque.
+* Le champ **[!UICONTROL De : nom]**permet de saisir le nom de l&#39;expéditeur. Par défaut, le bloc** Nom de l&#39;expéditeur **par défaut est automatiquement inscrit dans le champ. L’adresse email de l’expéditeur et le nom de l’expéditeur par défaut sont définis dans**[!UICONTROL  Marques]** et accessibles via le logo Adobe Campaign sous le menu avancé **[!UICONTROL Administration > Paramètres de l’instance > Paramétrage des marques]**.
 
    Vous pouvez changer le nom de l&#39;expéditeur en cliquant sur le bloc **Nom de l&#39;expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
