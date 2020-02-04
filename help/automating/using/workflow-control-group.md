@@ -12,7 +12,7 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d93f79912e4d74ed0e177ad308f25f272092cbc2
 
 ---
@@ -34,7 +34,7 @@ Pour procéder ainsi dans Adobe Campaign Standard, vous pouvez créer un workflo
 
 Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]**avec un nouveau champ correspondant au groupe témoin. Une fois le workflow exécuté, ce champ est coché pour les profils qui ont été exclus de la cible.
 
-1. From **[!UICONTROL Administration]**>**[!UICONTROL  Development]** > **[!UICONTROL Custom Resources]**, click**[!UICONTROL  Create]**.
+1. Depuis **[!UICONTROL Administration]**>**[!UICONTROL  Développement]** > **[!UICONTROL Ressources personnalisées]**, cliquez sur**[!UICONTROL  Créer]**.
 1. Si vous ne l&#39;avez pas encore étendue, sélectionnez **[!UICONTROL Etendre une ressource existante]**et la ressource**[!UICONTROL  Profil]**.
 1. Dans l&#39;onglet **[!UICONTROL Structure de données]**, ajoutez un nouveau champ pour le groupe témoin et sélectionnez**[!UICONTROL  Booléen]** pour le champ **[!UICONTROL Type]**.
 
@@ -49,7 +49,7 @@ Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]**avec un 
 
 Pour plus d&#39;informations sur l&#39;extension d’une ressource personnalisée, voir [Principales étapes pour ajouter une ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Créer un workflow  {#creating-a-workflow}
+## Créer un workflow   {#creating-a-workflow}
 
 1. Dans **[!UICONTROL Activités marketing]**, cliquez sur**[!UICONTROL  Créer]** et sélectionnez **[!UICONTROL Workflow]**.
 1. Sélectionnez **[!UICONTROL Nouveau workflow]**en tant que type de workflow et cliquez sur**[!UICONTROL  Suivant]**.
@@ -59,7 +59,7 @@ Les étapes détaillées pour créer un workflow sont présentées dans la secti
 
 ## Créer une activité Requête {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Targeting]**, drag and drop a **[!UICONTROL Query activity]**.
+1. Dans **[!UICONTROL Activités]**>**[!UICONTROL  Ciblage]**, effectuez un glisser-déposer d’une **[!UICONTROL activité Requête]**.
 1. Double-cliquez sur l&#39;activité pour définir votre cible.
 1. Par exemple, dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer de**[!UICONTROL  Profil]**, sélectionnez **[!UICONTROL Age]**avec l&#39;opérateur**[!UICONTROL  Supérieur à]** et saisissez 25 dans le champ **[!UICONTROL Valeur]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
@@ -89,7 +89,7 @@ Les étapes détaillées pour créer une activité Segmentation sont présentée
 
 ## Créer une activité Email {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]**>**[!UICONTROL  Channels]**, drag and drop an **[!UICONTROL Email Delivery]**after the main target segment.
+1. Dans **[!UICONTROL Activités]**>**[!UICONTROL  Canaux]**, effectuez un glisser-déposer d’une **[!UICONTROL Diffusion Email]**après le segment cible principal.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email unique]**et cliquez sur**[!UICONTROL  Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
