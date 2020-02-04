@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+translation-type: tm+mt
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -25,11 +25,11 @@ Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent 
 * Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](#adding-a-content-block).
 * Personnaliser l&#39;expéditeur d&#39;un email. Voir [Personnaliser l&#39;expéditeur](#personalizing-the-sender).
 * Personnaliser l&#39;objet d&#39;un email. Voir [Personnaliser l&#39;objet d&#39;un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-* Créer du contenu conditionnel. Voir [Définir du contenu dynamique dans un email](#defining-dynamic-content-in-an-email)
+* Créer du contenu conditionnel. Voir [Définir du contenu dynamique dans un email](#defining-dynamic-content-in-an-email).
 
 ## Personnaliser l&#39;expéditeur {#personalizing-the-sender}
 
-Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil). Voir à ce sujet[Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender)
+Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil). Voir à ce sujet[Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
 
 Vous pouvez changer le nom de l&#39;expéditeur en cliquant sur le bloc **Nom de l&#39;expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
