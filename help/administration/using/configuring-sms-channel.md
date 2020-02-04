@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ La translittération consiste à remplacer un caractère d&#39;un SMS par un aut
 * Lorsque la translittération est **autorisée**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l&#39;envoi du message. Par exemple, la lettre &quot;ë&quot; est remplacée par &quot;e&quot;. Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
 * Lorsque la translittération **n&#39;est pas autorisée**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l&#39;encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >L&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM. Un exemple de contenu est proposé dans la section [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -335,13 +335,13 @@ Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans les sec
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
 
 * L&#39;option **[!UICONTROL Nombre maximal de SMS par message]**vous permet de définir le nombre de SMS à utiliser pour envoyer un message. Si ce nombre est dépassé, le message ne sera pas envoyé.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message et donc le nombre de SMS peuvent varier d&#39;un destinataire à l&#39;autre. Pour en savoir plus, consultez la section [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -350,4 +350,3 @@ Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans les sec
    * **[!UICONTROL Enregistré sur le mobile]** : le message est stocké sur la carte SIM du téléphone du destinataire.
    * **[!UICONTROL Enregistré sur le terminal]** : le message est stocké dans la mémoire interne du téléphone.
    * **[!UICONTROL Flash]** : le message s&#39;affiche sur l&#39;écran du téléphone mobile du destinataire sous forme de notification, puis disparaît sans être enregistré.
-
