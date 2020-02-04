@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ Le créateur de segments unifiés doit désormais s’afficher dans votre espace
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du guide de l’utilisateur du créateur de [segments.](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du guide [d’utilisation du créateur de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)segments.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Le créateur de segments unifiés doit désormais s’afficher dans votre espace
 
 Le volet de gauche répertorie tous les attributs, événements et audiences disponibles pour la création de règles.
 
-Les champs répertoriés sont des attributs capturés par votre entreprise et peuvent être rendus disponibles via le système [de modèle de données d’](https://www.adobe.io/apis/experienceplatform/home/xdm.html)expérience (XDM).
+Les champs répertoriés sont des attributs capturés par votre entreprise et rendus disponibles par le biais du système [XDM (](https://www.adobe.io/apis/experienceplatform/home/xdm.html)Experience Data Model).
 
 Les champs sont organisés en onglets :
 
@@ -138,7 +138,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. Configurez l’opérateur entre les deux champs selon vos besoins. Dans cet exemple, notre segment exige que le code postal de l’adresse d’accueil ne soit pas égal à l’adresse de travail 1.
+1. Configurez l’opérateur entre les deux champs selon vos besoins. Dans cet exemple, nous voulons que notre segment cible les profils dont l’adresse d’accueil diffère de l’adresse de travail.
 
    ![](assets/aep_audiences_comparing_3.png)
 
