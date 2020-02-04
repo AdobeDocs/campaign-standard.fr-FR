@@ -11,7 +11,7 @@ topic-tags: tutorials
 discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 ---
@@ -21,13 +21,13 @@ source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 Commencez à utiliser Adobe Campaign en consultant nos guides détaillés intuitifs.
 
-* [Créer un email personnalisé](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) : créez et envoyez à une audience ciblée des emails personnalisés.
-* [Exporter et importer un package de ressources personnalisées](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html) : exportez et importez un package de ressources personnalisées depuis un environnement de développement vers un environnement de production.
+* [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html) : créez et envoyez à une audience ciblée des emails personnalisés.
+* [Exporter et importer un package de ressources personnalisées](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_ImportExport.html) : exportez et importez un package de ressources personnalisées depuis un environnement de développement vers un environnement de production.
 * [Créer un workflow de messages cross-canal](../../automating/using/workflow-cross-channel-delivery.md) : créez un workflow en segmentant une population afin d&#39;envoyer une diffusion email et une diffusion SMS.
-* [Créer un email avec Experience Manager et Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html) : créez un contenu d&#39;email dans Adobe Experience Manager et utilisez-le dans un email dans Adobe Campaign Standard.
-* [Diffuser des communications avec Adobe Campaign](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) : découvrez certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu&#39;à l&#39;envoi et le contrôle.
+* [Créer un email avec Experience Manager et Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_AEM.html) : créez un contenu d&#39;email dans Adobe Experience Manager et utilisez-le dans un email dans Adobe Campaign Standard.
+* [Diffuser des communications avec Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html) : découvrez certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu&#39;à l&#39;envoi et le contrôle.
 * [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md) : découvrez les concepts et bonnes pratiques liés à la délivrabilité ainsi que les outils proposés par Adobe Campaign pour optimiser vos diffusions.
-* [Règlement général sur la protection des données](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) : découvrez les outils et les fonctionnalités proposés par Adobe Campaign, ainsi que les meilleures pratiques, pour vous aider à devenir conforme au RGPD.
+* [Règlement général sur la protection des données](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html) : découvrez les outils et les fonctionnalités proposés par Adobe Campaign, ainsi que les meilleures pratiques, pour vous aider à devenir conforme au RGPD.
 
 Obtenez des informations supplémentaires sur Adobe Campaign en consultant les cas pratiques et exemples suivants :
 
