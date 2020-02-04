@@ -11,7 +11,7 @@ topic-tags: transactional-messaging
 discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fdde5e938dd2d29455396b21398530d09f6d1ae
 
 ---
@@ -27,7 +27,7 @@ Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification
 
 Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
-## Accéder aux messages de relance {#accessing-the-follow-up-messages}
+## Accéder aux messages de relance  {#accessing-the-follow-up-messages}
 
 Une fois que vous avez créé et publié l&#39;événement de votre choix (dans l&#39;[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l&#39;abandon de panier), le message transactionnel et le message de relance correspondants sont automatiquement créés.
 
@@ -77,7 +77,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Go to the activity&#39;s **[!UICONTROL Target]**tab and drag and drop the**[!UICONTROL  Delivery logs (logs)]** element from the palette into the workspace.
+1. Accédez à l’onglet **[!UICONTROL Cible]**de l’activité et effectuez un glisser-déposer de l’élément**[!UICONTROL  Logs de diffusion]** de la palette vers l’espace de travail.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
@@ -89,7 +89,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. Drag and drop the event that you are targeting (**Cart abandonment** in this example) from the palette into the workspace. Définissez ensuite une règle pour cibler tous les messages envoyés il y a trois jours.
+1. Effectuez un glisser-déposer de l’événement que vous ciblez (**Abandon de panier** dans cet exemple) de la palette vers l’espace de travail. Définissez ensuite une règle pour cibler tous les messages envoyés il y a trois jours.
 
    ![](assets/message-center_follow-up-created.png)
 
@@ -113,7 +113,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Find the fields that you defined when creating your event by selecting **[!UICONTROL Context]**>**[!UICONTROL  Real-time event]** > **[!UICONTROL Event context]**. Voir[Personnaliser un message transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Trouvez les champs que vous avez définis lors de la création de votre événement en sélectionnant **[!UICONTROL Contexte]**>**[!UICONTROL  Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**. Voir[Personnaliser un message transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
