@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ Offrez à vos clients le moyen d’exploiter [Adobe Experience Platform](https:/
 
 Adobe Campaign Standard utilise ensuite le service Destinations **d’** audience pour récupérer une collection de profils, appelés **Audiences**, depuis AEP pour les programmes de campagne multicanaux et/ou multicanaux.
 
-**Les audiences** sont créées en créant d’abord **des segments**, qui sont essentiellement un ensemble de règles basées sur pratiquement n’importe quelle variable (par exemple, profil, événement, données multientités) dans un profil client du fournisseur AEP pour créer une cible multidimensionnelle. Les concepts généraux sur les services de profil et de segmentation unifiés peuvent être référencés dans [ces documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dédiés.
+**Les audiences** sont créées en créant d’abord **des segments**, qui sont essentiellement un ensemble de règles basées sur pratiquement n’importe quelle variable (par exemple, profil, événement, données multientités) dans un profil client du fournisseur AEP pour créer une cible multidimensionnelle. Les concepts généraux sur les services de profil et de segmentation unifiés sont référencés dans [ces documents](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)dédiés.
 
-Une fois qu’un segment a été créé, vous pouvez l’activer en tant qu’audience pour une diffusion dans les processus [standard de](../../automating/using/aep-targeting-audiences.md)campagne. De plus, vous pouvez utiliser des données contextuelles de la plateforme Adobe Experience Platform pour [personnaliser](../../automating/using/aep-personalizing-campaigns.md) et ajouter du contenu dynamique à vos campagnes, le cas échéant.
+Une fois qu’un segment a été créé, vous pouvez l’activer en tant qu’audience pour une diffusion dans les processus [standard de](../../automating/using/aep-targeting-audiences.md)campagne. De plus, vous pouvez utiliser les données contextuelles de la plateforme Adobe Experience Platform pour [personnaliser](../../automating/using/aep-personalizing-campaigns.md) et ajouter du contenu dynamique à vos campagnes.
 
-Des vidéos de démonstration sont également disponibles dans [cette section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+Des vidéos pratiques sont également disponibles dans [cette section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termes utilisés dans ces sections :
 
