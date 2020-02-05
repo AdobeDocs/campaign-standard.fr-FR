@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
 
 # Dernière version{#latest-release}
 
-[Planification](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) des versions| Versions [du](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) Panneau de configuration| Mises à jour [de la](../../rn/using/documentation-updates.md) documentation| Notes [de mise à jour](../../rn/using/release-notes-2019.md) précédentes| Fonctions [obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
-**Nouveautés?**
+**Nouveautés**
 
 
 <table> 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Le connecteur de données Adobe Experience Platform est désormais intégré à Adobe Campaign Standard. Vous pouvez rendre vos données de campagne disponibles sur Adobe Experience Platform en mappant les données XTK (données assimilées dans Campaign) au modèle de données de la plateforme Adobe Experience Platform (XDM). </p>
-    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../administration/using/aep-about-data-connector.md"></a>détaillée.</p>
+    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions d’activation, reportez-vous à la documentation <a href="../../administration/using/aep-about-data-connector.md"></a> détaillée et à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html"></a>comment l’activer.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Destinations d’audience vous permet de partager des segments d’Adobe Experience Platform vers Adobe Campaign.</p>
-    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la documentation <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a>détaillée.</p>
+    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions d’activation, reportez-vous à la documentation <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a> détaillée et à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html"></a>comment l’activer. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **Correctifs**
 
+* Correction d’un problème lors de l’exécution d’une demande de suppression de confidentialité qui empêchait la suppression des données utilisateur dans les journaux d’exclusion. (CAMP-39003)
 * Correction d’un problème qui provoquait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
 * Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lors du survol dans les activités marketing.
 * Correction d’un problème dans l’activité API ****externe qui affichait le bouton**[!UICONTROL  Confirmer]** même lorsqu’aucune donnée n’était modifiée.
