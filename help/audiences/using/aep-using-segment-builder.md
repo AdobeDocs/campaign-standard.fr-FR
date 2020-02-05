@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ Les champs sont organisés en onglets :
 >
 >Consultez à ce sujet la [documentation dédiée](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-Par défaut, le créateur de segments unifiés affiche les champs pour lesquels des données sont présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma]**XDM complet à partir des paramètres.
+Par défaut, le créateur de segments unifiés affiche les champs dans lesquels des données sont déjà présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma]**XDM complet à partir des paramètres.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ Pour créer une règle, procédez comme suit :
 
    Vous pouvez ajouter autant de règles supplémentaires que vous le souhaitez afin de cibler les profils appropriés.
 
-   Lors de l’ajout d’une règle à un conteneur, elle sera ajoutée à toutes les règles existantes avec l’opérateur ET. Cliquez sur l’opérateur pour accéder à l’option permettant de la modifier en OU.
+   Lors de l’ajout d’une règle à un conteneur, elle sera ajoutée à toutes les règles existantes avec l’opérateur logique ET. Si nécessaire, cliquez sur l’opérateur logique pour le modifier.
 
    ![](assets/aep_audiences_andoperator.png)
 
