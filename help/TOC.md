@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
       + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
-   + Utilisation d’audiences Adobe Experience Platform {collaboration avec des audiences aep}
+   + Utilisation d’audiences Adobe Experience Platform {#working-with-aep-audiences}
       + [Ciblage des audiences d’Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
