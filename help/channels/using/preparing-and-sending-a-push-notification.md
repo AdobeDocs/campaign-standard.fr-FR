@@ -92,7 +92,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_1.png)
 
-1. Dès que la préparation est terminée, la fenêtre **[!UICONTROL Déploiement]**présente les KPI suivants :**[!UICONTROL  Cible]** et **[!UICONTROL A envoyer]**. Notez que la valeur**[!UICONTROL &#x200B;À envoyer]** est inférieure à la valeur **[!UICONTROL Cible]**en raison des exclusions. Celles-ci peuvent être consultées en cliquant sur le bouton![](assets/lp_link_properties.png)en bas de la fenêtre**[!UICONTROL  Déploiement]**.
+1. Dès que la préparation est terminée, la fenêtre **[!UICONTROL Déploiement]** présente les KPI suivants : **[!UICONTROL  Cible]** et **[!UICONTROL A envoyer]**. Notez que la valeur **[!UICONTROL &#x200B;À envoyer]** est inférieure à la valeur **[!UICONTROL Cible]** en raison des exclusions. Celles-ci peuvent être consultées en cliquant sur le bouton![](assets/lp_link_properties.png)en bas de la fenêtre **[!UICONTROL  Déploiement]**.
 
    ![](assets/push_send_2.png)
 
