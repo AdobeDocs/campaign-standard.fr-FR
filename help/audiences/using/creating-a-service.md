@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
+source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
 
 ---
 
@@ -36,7 +36,7 @@ Pour configurer un service :
 
    ![](assets/lp_service_expiration.png)
 
-Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour cibler les profils abonnés à un service qui n’a pas expiré.
+   Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour cibler les profils abonnés à un service qui n’a pas expiré.
 
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
 
