@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Editer des profils](audiences/using/editing-profiles.md)
       + [Profil client intégré](audiences/using/integrated-customer-profile.md)
       + [Profils actifs](audiences/using/active-profiles.md)
+      + [Gestion des profils de test](audiences/using/managing-test-profiles.md)
    + Gestion des audiences {#managing-audiences}
       + [A propos des audiences](audiences/using/about-audiences.md)
       + [Création d&#39;une audience](audiences/using/creating-audiences.md)
@@ -125,7 +126,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Conception d&#39;emails à partir de zéro](designing/using/designing-from-scratch.md)
       + [Utilisation de contenu existant](designing/using/using-existing-content.md)
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
-      + [Utilisation des intégrations de solutions multiples](designing/using/using-integrations.md)
+      + [Utilisation d’intégrations multisolution](designing/using/using-integrations.md)
       + [Modification de texte brut, de HTML et d&#39;emails mobiles](designing/using/plain-text-html-modes.md)
    + [Personnalisation du contenu des emails](designing/using/personalization.md)
    + [Gestion des styles d&#39;email](designing/using/styles.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + Préparation et test des messages {#preparing-and-testing-messages}
       + [Prévisualiser un message](sending/using/previewing-messages.md)
       + [Préparer l&#39;envoi](sending/using/preparing-the-send.md)
-      + [Gérer les profils de test et envoyer un bon à tirer](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
       + [Test de l&#39;objet d&#39;un email](sending/using/testing-subject-line-email.md)
       + [Rendu des emails](sending/using/email-rendering.md)
+      + [Utilisation des pièges](sending/using/using-traps.md)
    + Planification de l&#39;envoi des messages {#scheduling-messages}
       + [A propos de la planification des messages](sending/using/about-scheduling-messages.md)
       + [Optimiser l&#39;heure d&#39;envoi](sending/using/optimizing-the-sending-time.md)
@@ -194,8 +196,8 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 + Intégration avec Adobe Cloud {#integrating-with-adobe-cloud}
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Utilisation de Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
-      + [A propos de l’intégration de Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Création d’un contenu de courrier électronique dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+      + [À propos de l’intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Création d&#39;un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Utilisation de Campaign et Target {#working-with-campaign-and-target}
       + [A propos de l&#39;intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
@@ -292,7 +294,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
       + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
-   + Utilisation d’audiences Adobe Experience Platform {#working-with-aep-audiences}
+   + Utilisation d’audiences Adobe Experience Platform {collaboration avec des audiences aep}
       + [Ciblage des audiences d’Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
