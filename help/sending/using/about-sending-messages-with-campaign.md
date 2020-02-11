@@ -11,8 +11,8 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ Une fois que vous avez défini la cible et créé le contenu de votre message, v
 
 * [A propos de la planification des messages](../../sending/using/about-scheduling-messages.md)
 * [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md)
-* [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md)
