@@ -12,47 +12,47 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
 
 # Sélectionner une audience dans un message{#selecting-an-audience-in-a-message}
 
-Adobe Campaign vous permet de paramétrer plusieurs types de profils dans les audiences d'un message.
+Adobe Campaign vous permet de paramétrer plusieurs types de profils dans les audiences d&#39;un message.
 
-Les audiences peuvent être définies au moment de la création du message via l'assistant de création ou depuis le tableau de bord du message s'il a déjà été créé.
+Les audiences peuvent être définies au moment de la création du message via l&#39;assistant de création ou depuis le tableau de bord du message s&#39;il a déjà été créé.
 
 >[!NOTE]
 >
->Si l'audience a été créée dans un workflow et enrichie de données additionnelles, vous ne pourrez pas utiliser ces données pour personnaliser une diffusion autonome. Elles ne peuvent être utilisées qu'à partir d'une diffusion exécutée dans un workflow.
+>Si l&#39;audience a été créée dans un workflow et enrichie de données additionnelles, vous ne pourrez pas utiliser ces données pour personnaliser une diffusion autonome. Elles ne peuvent être utilisées qu&#39;à partir d&#39;une diffusion exécutée dans un workflow.
 
 1. Depuis le tableau de bord, sélectionnez le bloc de définition des audiences.
 
    ![](assets/delivery_audience_definition_1.png)
 
-   L'écran de définition des audiences s'ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d'audience qui recevra le message :
+   L&#39;écran de définition des audiences s&#39;ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d&#39;audience qui recevra le message :
 
    * Cible
    * Profils de test
    ![](assets/delivery_audience_definition_2.png)
 
-1. Définissez la **[!UICONTROL cible]** principale de l'email. Il s'agit de l'audience cible standard de l'email.
+1. Define the main **[!UICONTROL Target]** of the email. Il s&#39;agit de l&#39;audience cible standard de l&#39;email.
 
-   La cible est définie dans l'onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données.
+   The target is defined in the **[!UICONTROL Target]** tab and is made up of identified profiles from your database.
 
-   Vous pouvez constituer votre cible principale à l'aide des fonctionnalités de l'[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
+   Vous pouvez constituer votre cible principale à l&#39;aide des fonctionnalités de l&#39;[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
-   Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]** contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés. L'onglet **[!UICONTROL Explorateur]** vous permet d'accéder à des paramétrages supplémentaires.
+   In this tab, the **[!UICONTROL Shortcuts]** palette only contains predefined filters and the audiences that have been defined in the identified profiles. The **[!UICONTROL Explorer]** tab allows you to access additional configurations.
 
    Vous pouvez ainsi réutiliser et combiner des audiences existantes, leur appliquer des filtres supplémentaires, etc.
 
-1. Définissez les **[!UICONTROL profils de test]** que vous souhaitez utiliser pour l'email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l'email avant son envoi à la cible principale.
+1. Define the **[!UICONTROL Test profiles]** you want to use for the email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l&#39;email avant son envoi à la cible principale.
 
-   Pour plus d'informations sur le paramétrage des profils de test, consultez la section [Profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   Pour plus d&#39;informations sur le paramétrage des profils de test, consultez la section [Profils de test](../../audiences/using/managing-test-profiles.md).
 
-Le bloc des audiences est mis à jour et affiche qu'une cible ainsi que des profils de test ont été sélectionnés pour cet email.
+Le bloc des audiences est mis à jour et affiche qu&#39;une cible ainsi que des profils de test ont été sélectionnés pour cet email.
 
 ![](assets/delivery_audience_definition_3.png)
 
