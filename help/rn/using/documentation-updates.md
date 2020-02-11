@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ La documentation sur la gestion de la confidentialité a été mise à jour et c
 
 Les notes de mise à jour ont été réorganisées et améliorées. [En savoir plus](../../rn/using/release-notes.md)
 
-Des informations relatives au groupe de sécurité Administrateurs ont été ajoutées, spécifiant que l’unité d’organisation **[!UICONTROL Tous (tous)]**lui est affectée et ne peut pas être modifiée.[En savoir plus](../../administration/using/managing-groups-and-users.md)
+Des informations relatives au groupe de sécurité Administrateurs ont été ajoutées, spécifiant que l’unité **[!UICONTROL All (all)]** organisationnelle lui est affectée et ne peut pas être modifiée. [En savoir plus](../../administration/using/managing-groups-and-users.md)
 
 Des informations ont été ajoutées sur la manière de définir un fuseau horaire spécifique à utiliser par défaut dans un flux de travail. [En savoir plus](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ Une nouvelle section a été ajoutée dans la section des notifications push sur
 
 Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenant des données supplémentaires extraites d’une activité de chargement de fichier. [En savoir plus](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Une nouvelle section sur l’utilisation des pièges a été ajoutée. [En savoir plus](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+Une nouvelle section sur l’utilisation des pièges a été ajoutée. [En savoir plus](../../sending/using/using-traps.md).
 
 Une note sur l’option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d’une application mobile à l’aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Ajout d&#39;informations sur la préparation d&#39;un message dans une diffusion
 
 Les notes de mise à jour ont été réorganisées en plusieurs pages afin d’obtenir une vue plus globale de toutes les différentes versions.
 
-Mise à jour de la section **[!UICONTROL Utilisation des typologies]**pour une meilleure visibilité –[En savoir plus](../../administration/using/about-typology-rules.md)
+La **[!UICONTROL Working with typologies]** section a été mise à jour pour une meilleure visibilité. [En savoir plus](../../administration/using/about-typology-rules.md)
 
-Disponibilité d&#39;une nouvelle option permettant d&#39;optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête]** –[En savoir plus](../../automating/using/query.md)
+A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [En savoir plus](../../automating/using/query.md)
 
 Mise à jour de l&#39;exemple d&#39;import de profil avec quelques conseils pour que les profils soient prêts à recevoir des courriers – [En savoir plus](../../automating/using/importing-data.md)
 
-Nouvelle activité disponible dans les workflows : l&#39;activité **[!UICONTROL Enrichissement]** –[En savoir plus](../../automating/using/enrichment.md)
+A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [En savoir plus](../../automating/using/enrichment.md)
 
-Mise à jour de la section sur l&#39;activité **[!UICONTROL Services d&#39;abonnements]**afin qu&#39;elle comporte d&#39;autres cas pratiques, notamment l&#39;utilisation d&#39;un seul fichier pour mettre à jour les abonnements à plusieurs services –[En savoir plus](../../automating/using/subscription-services.md)
+The **[!UICONTROL Subscription Services]** activity has been updated to support more use cases, including using a single file to update subscriptions to multiple services. [En savoir plus](../../automating/using/subscription-services.md)
 
 Ajout d&#39;un cas pratique détaillé sur la préparation d&#39;une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ Ajout d&#39;un cas pratique détaillé sur l&#39;utilisation des réponses autom
 
 Ajout d&#39;informations sur l&#39;envoi d&#39;une diffusion en fonction des fuseaux horaires des utilisateurs dans un workflow récurrent – [En savoir plus](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Réorganisation de la section **[!UICONTROL Personnaliser une notification push]**avec des cas pratiques détaillés –[En savoir plus](../../channels/using/customizing-a-push-notification.md)
+Réorganisation de la **[!UICONTROL Customizing a push notification]** section avec des cas d’utilisation pas à pas. [En savoir plus](../../channels/using/customizing-a-push-notification.md)
 
 Nouvelle section consacrée à la gestion du blacklistage – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
