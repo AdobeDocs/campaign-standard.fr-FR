@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ Avant de publier une landing page, vous devez effectuer des tests : valider l&#
 
 Comme la landing page aura un impact sur votre plate-forme et les données, vous devez tester soigneusement son exécution. Pour cela :
 
-1. Cliquez sur le bouton **[!UICONTROL Tester]**présent dans la barre d&#39;actions de la landing page.
+1. Click the **[!UICONTROL Test]** button in the action bar of the landing page.
 1. Dans l&#39;écran de test, sélectionnez un profil de test et un service de test si la landing page a pour but de gérer les inscriptions.
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ Comme la landing page aura un impact sur votre plate-forme et les données, vous
 
 >[!NOTE]
 >
->Si l’URL du serveur d’applications n’est pas sécurisée (c’est-à-dire si elle ne commence pas par https://), l’aperçu de la page d’entrée ne peut pas être affiché à partir de l’interface utilisateur de Campaign. Ce serveur est défini lors de la [configuration des marques](../../administration/using/branding.md#configuring-and-using-brands).
+>Pour afficher l’aperçu de la page d’entrée dans l’interface utilisateur de Campaign, l’URL du serveur d’applications doit être sécurisée. Dans ce cas, utilisez https:// plutôt que http:// pour configurer cette URL lors de la [configuration de votre marque](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Configurer les paramètres de validité  {#setting-up-validity-parameters}
 
@@ -71,4 +71,4 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 
 Lorsque vous publiez une landing page, elle est mise en ligne et devient accessible aux visiteurs.
 
-Vous pouvez à tout moment dépublier ou mettre à jour et republier votre landing page via le bouton **[!UICONTROL Publier]**. Cependant, si la republication échoue et que vous n&#39;avez pas dépublié votre landing page auparavant, la première version reste en ligne.
+You can unpublish or update and republish your landing page at any time, via the **[!UICONTROL Publish]** button. Cependant, si la republication échoue et que vous n&#39;avez pas dépublié votre landing page auparavant, la première version reste en ligne.
