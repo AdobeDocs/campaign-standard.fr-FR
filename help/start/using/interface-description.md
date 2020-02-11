@@ -11,8 +11,8 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,16 +36,16 @@ La page d&#39;accueil se compose d&#39;un jeu de vignettes qui permet un accès 
 
 ![](assets/overview_home_page.png)
 
-* La vignette **[!UICONTROL Créer un email]**permet d&#39;accéder à l&#39;assistant de création d&#39;email. Grâce à cet assistant, vous pouvez choisir un type d&#39;email, sélectionner les destinataires de votre message et définir votre contenu. Voir à ce propos la section[Créer un email](../../channels/using/creating-an-email.md).
-* La vignette **[!UICONTROL Créer un SMS]**permet d&#39;accéder à l&#39;assistant de création de SMS. Grâce à cet assistant, vous pouvez choisir un type de SMS, sélectionner les destinataires de votre message et définir votre contenu. Voir à ce propos la section[Créer un SMS](../../channels/using/creating-an-sms-message.md).
-* La vignette **[!UICONTROL Créer un courrier]**permet d&#39;accéder à l&#39;assistant de création de courrier. Voir à ce propos la section[Créer un courrier](../../channels/using/creating-the-direct-mail.md).
-* La vignette **[!UICONTROL Créer une notification push]**permet d&#39;accéder à l&#39;assistant de création de notification. Grâce à cet assistant, vous pouvez choisir un type de notification push, sélectionner les destinataires de votre message et définir votre contenu. Voir la section[Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La vignette **[!UICONTROL Créer un message In-App]**permet d&#39;accéder à l&#39;assistant de création In-App. Cet assistant vous permet de sélectionner le type de message In-App que vous voulez créer, ainsi que de définir ses propriétés, son audience et son contenu. Voir à ce propos la section[Créer un message In-App](../../channels/using/about-in-app-messaging.md).
-* La vignette **[!UICONTROL Activités marketing]**permet d&#39;accéder à la liste de toutes les activités, tous les programmes et toutes les campagnes, notamment emails, SMS, workflows et landing pages. Vous pouvez ensuite filtrer les objets en effectuant des recherches par nom, date, statut ou type d&#39;activité. Voir à ce propos la section[Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
-* La vignette **[!UICONTROL Programmes &amp; Campagnes]**permet d&#39;accéder à la liste des programmes dans lesquels vous pouvez créer et gérer vos campagnes. Voir à ce propos la section[Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* La vignette **[!UICONTROL Planning]**permet d&#39;accéder au planning de vos activités marketing, dans lequel vous pouvez consulter les programmes en cours et leur contenu. Voir à ce propos la section[Planning](../../start/using/timeline.md).
-* La vignette **[!UICONTROL Profils client]**permet d&#39;accéder directement à la liste des profils et de consulter les événements concernant chacun d&#39;entre eux. Voir à ce propos la section[Gestion des profils](../../audiences/using/about-profiles.md).
-* La vignette **[!UICONTROL Audiences]**permet d&#39;accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section[Gestion des audiences](../../audiences/using/about-audiences.md).
+* La **[!UICONTROL Create an email]** carte vous emmène à l&#39;assistant de création de courrier électronique. Grâce à cet assistant, vous pouvez choisir un type d&#39;email, sélectionner les destinataires de votre message et définir votre contenu. Voir à ce propos la section [Créer un email](../../channels/using/creating-an-email.md).
+* La **[!UICONTROL Create an SMS]** carte vous emmène à l&#39;assistant de création de SMS. Grâce à cet assistant, vous pouvez choisir un type de SMS, sélectionner les destinataires de votre message et définir votre contenu. Voir à ce propos la section [Créer un SMS](../../channels/using/creating-an-sms-message.md).
+* La **[!UICONTROL Create a Direct mail]** carte vous emmène à l&#39;assistant de création de publipostage. Voir à ce propos la section [Créer un courrier](../../channels/using/creating-the-direct-mail.md).
+* La **[!UICONTROL Create a push notification]** carte vous conduit à l’assistant de création de notifications. Grâce à cet assistant, vous pouvez choisir un type de notification push, sélectionner les destinataires de votre message et définir votre contenu. Voir la section [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
+* La **[!UICONTROL Create an InApp message]** carte vous conduit à l’assistant de création InApp. Cet assistant vous permet de sélectionner le type de message In-App que vous voulez créer, ainsi que de définir ses propriétés, son audience et son contenu. Voir à ce propos la section [Créer un message In-App](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Marketing activities]** card takes you to the complete list of all the activities, programs, and campaigns, particularly emails, SMS, workflows, and landing pages. Vous pouvez ensuite filtrer les objets en effectuant des recherches par nom, date, statut ou type d&#39;activité. Voir à ce propos la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
+* The **[!UICONTROL Programs & campaigns]** card takes you to the list of programs in which you can create, and manage your campaigns. Voir à ce propos la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
+* The **[!UICONTROL Timeline]** card takes you directly to an interactive timeline of your marketing activities, in which you can consult the ongoing programs and their content. Voir à ce propos la section [Planning](../../start/using/timeline.md).
+* The **[!UICONTROL Customer profiles]** card takes you directly to the list of profiles. et de consulter les événements concernant chacun d&#39;entre eux. Voir à ce propos la section [Gestion des profils](../../audiences/using/about-profiles.md).
+* La vignette **[!UICONTROL Audiences]** permet d&#39;accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
 ## Barre supérieure  {#top-bar}
 
@@ -57,15 +57,15 @@ Les principes de navigation sont les suivants :
 
    Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
-* Le lien **[!UICONTROL Accueil]**permet d&#39;afficher la page d&#39;accueil d&#39;Adobe Campaign.
-* Les liens **[!UICONTROL Activités marketing]**,**[!UICONTROL  Programmes et Campagnes]**, **[!UICONTROL Profils]**,**[!UICONTROL  Audiences]** et **[!UICONTROL Rapports]**permettent d&#39;accéder aux vues liées à ces fonctionnalités.
-* Le bouton **[!UICONTROL Aide]**donne accès à la documentation produit et à l&#39;aide contextuelle, aux notes de mise à jour, aux numéros de versions, aux mentions légales, ainsi qu&#39;à des liens vers la communauté Adobe Experience Cloud et l&#39;assistance client.
+* The **[!UICONTROL Home]** link allows you to display the Adobe Campaign home page.
+* Les liens **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** et **[!UICONTROL Reports]** vous permettent d’accéder aux vues liées à ces fonctionnalités.
+* The **[!UICONTROL Help]** button gives access to the product documentation and contextual help, release notes, version numbers, legal notices, as well as the links to the Adobe Experience Cloud community and customer care.
 
    ![](assets/ux_help.png)
 
 * L&#39;icône **Sélectionner une solution** vous permet de passer à une autre solution Adobe Experience Cloud de même qu&#39;aux paramètres de profil.
 * L&#39;icône **Notifications** affiche les dernières alertes ou informations.
-* L&#39;icône **Utilisateur** vous permet d&#39;afficher des informations liées à votre profil. Elle donne accès au bouton **[!UICONTROL Déconnexion]**.
+* L&#39;icône **Utilisateur** vous permet d&#39;afficher des informations liées à votre profil. Il donne accès au **[!UICONTROL Sign out]** bouton.
 
 ## Le menu avancé {#advanced-menu}
 
@@ -75,33 +75,33 @@ Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiqu
 
 ### Plans marketing {#marketing-plans}
 
-L&#39;icône **[!UICONTROL Plans Marketing]**permet d&#39;accéder aux fonctionnalités suivantes :
+The **[!UICONTROL Marketing plans]** icon gives you access the following functionalities:
 
-* **[!UICONTROL Activités marketing]**- voir à ce propos la section[Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
-* **[!UICONTROL Programmes et Campagnes]**- voir à ce propos la section[Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Planning]**- voir à ce propos la section[Planning](../../start/using/timeline.md).
-* **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus**[!UICONTROL  Diffusions]** et **[!UICONTROL Configuration des événements]**- voir à ce propos la section[Messages transactionnels](../../channels/using/about-transactional-messaging.md).
+* **[!UICONTROL Marketing activities]** - pour plus d&#39;informations, reportez-vous à la section Liste des [activités](../../start/using/marketing-activities.md#about-marketing-activities) marketing.
+* **[!UICONTROL Programs & Campaigns]** - pour en savoir plus, consultez la liste [](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) des programmes.
+* **[!UICONTROL Timeline]** - pour plus d&#39;informations, reportez-vous à la section [Chronologie](../../start/using/timeline.md) .
+* **[!UICONTROL Transactional messages]**, qui contient les sous-menus **[!UICONTROL Deliveries]** et **[!UICONTROL Event configuration]** - pour plus d&#39;informations, reportez-vous à la section Messagerie [](../../channels/using/about-transactional-messaging.md) transactionnelle.
 
 ### Profils &amp; audiences {#profiles-e-audiences}
 
-L&#39;icône **[!UICONTROL Profils &amp; audiences]**permet d&#39;accéder aux fonctionnalités suivantes :
+The **[!UICONTROL Profiles & audiences]** icon gives you access to the following functionalities:
 
-* **[!UICONTROL Profils]**- voir à ce propos la section[Gestion des profils](../../audiences/using/about-profiles.md).
-* **[!UICONTROL Profils de test]**- voir à ce propos la section[Gestion des profils de test](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
-* **[!UICONTROL Audiences]**- voir à ce propos la section[Gestion des audiences](../../audiences/using/about-audiences.md).
-* **[!UICONTROL Services]**- voir à ce propos la section[Créer un service](../../audiences/using/creating-a-service.md).
+* **[!UICONTROL Profiles]** - pour plus d&#39;informations, reportez-vous à la section [Gestion des profils](../../audiences/using/about-profiles.md) .
+* **[!UICONTROL Test profiles]** - pour plus d&#39;informations, reportez-vous à la section [Gestion des profils](../../audiences/using/managing-test-profiles.md) de test.
+* **[!UICONTROL Audiences]** - voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
+* **[!UICONTROL Services]** - voir à ce propos la section [Créer un service](../../audiences/using/creating-a-service.md).
 
 ### Ressources {#resources}
 
-L&#39;icône **[!UICONTROL Ressources]**permet d&#39;accéder aux fonctionnalités suivantes :
+The **[!UICONTROL Resources]** icon gives you access to the following functionalities:
 
-* **[!UICONTROL Modèles]**, qui contient les sous-menus pour chaque type de modèle - voir à ce propos la section[Gestion des modèles](../../start/using/marketing-activity-templates.md).
-* **[!UICONTROL Blocs de contenu]**- voir à ce propos la section[Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
-* **[!UICONTROL Modèles et fragments de contenu]**- voir à ce propos la section[Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
+* **[!UICONTROL Templates]**, qui contient les sous-menus de chaque type de modèle. Pour plus d’informations, reportez-vous à la section [Gestion des modèles](../../start/using/marketing-activity-templates.md) .
+* **[!UICONTROL Content blocks]** - pour plus d&#39;informations, reportez-vous à la section [Ajout d&#39;un bloc](../../designing/using/personalization.md#adding-a-content-block) de contenu.
+* **[!UICONTROL Content templates & fragments]** - pour plus d&#39;informations, reportez-vous à la section Modèle [de](../../designing/using/using-reusable-content.md#content-templates) contenu.
 
 ### Administration {#administration}
 
-L&#39;icône **[!UICONTROL Administration]**permet d&#39;accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section[Administration](../../administration/using/about-administrating-adobe-campaign.md).
+L&#39;icône **[!UICONTROL Administration]** permet d&#39;accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/about-administrating-adobe-campaign.md).
 
 ## Zone centrale  {#central-zone}
 
@@ -111,7 +111,7 @@ La zone centrale de l&#39;interface utilisateur est une zone dynamique qui conti
 
 Le contenu et le format d&#39;affichage de la zone centrale peuvent varier :
 
-* Une **liste** présentant des éléments : programmes, campagnes, profils, etc. Ces éléments sont visualisables en mode **[!UICONTROL Vignettes]**ou en mode**[!UICONTROL  Liste]**. Utilisez le bouton de changement de mode pour passer de l&#39;un à l&#39;autre. Chaque élément présente des indicateurs.
+* Une **liste** présentant divers éléments tels que des programmes, des campagnes, des profils, etc. Ces éléments peuvent être affichés en **[!UICONTROL Card]** mode ou **[!UICONTROL List]** . Utilisez le bouton de changement de mode pour passer de l&#39;un à l&#39;autre. Chaque élément présente des indicateurs.
 
    ![](assets/ux_liste.png)
 
