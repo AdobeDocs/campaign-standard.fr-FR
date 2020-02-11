@@ -12,8 +12,8 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,14 +32,14 @@ Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d&#39
 
 >[!CAUTION]
 >
->Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]**est cochée dans les informations des profils. Voir[Recommandations](../../channels/using/about-direct-mail.md#recommendations).
+>Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Also make sure you have checked the **[!UICONTROL Address specified]** box in your profiles&#39; information. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
 ## Ajouter des profils de test et de type piège  {#adding-test-and-trap-profiles}
 
-Ajoutez des profils de test afin de tester votre fichier avec un petit nombre de profils. Vous pouvez ainsi créer un fichier d&#39;exemple pour tester et valider la structure avant de préparer le fichier réel. Voir [Gérer les profils de test et envoyer un bon à tirer](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+Ajoutez des profils de test afin de tester votre fichier avec un petit nombre de profils. Vous pouvez ainsi créer un fichier d&#39;exemple pour tester et valider la structure avant de préparer le fichier réel. Voir [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
-L&#39;utilisation de pièges est essentielle pour les diffusions courrier. Ils permettent de vérifier que votre opérateur de services postaux envoie bien la communication et qu&#39;il ne partage pas votre liste de clients avec un autre opérateur. Voir [Utilisation de pièges](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+L&#39;utilisation de pièges est essentielle pour les diffusions courrier. Ils permettent de vérifier que votre opérateur de services postaux envoie bien la communication et qu&#39;il ne partage pas votre liste de clients avec un autre opérateur. Voir [Utilisation de pièges](../../sending/using/using-traps.md).
 
-Dans le cadre des diffusions courrier, les pièges sont ajoutés pendant l&#39;extraction et mélangés dans le document de sortie. Par défaut, ils sont insérés dans l&#39;ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer au début ou à la fin du fichier. Lors de la définition de l&#39;audience, sélectionnez l&#39;option de votre choix dans l&#39;onglet **[!UICONTROL Mode d&#39;insertion des pièges]**.
+Dans le cadre des diffusions courrier, les pièges sont ajoutés pendant l&#39;extraction et mélangés dans le document de sortie. Par défaut, ils sont insérés dans l&#39;ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer au début ou à la fin du fichier. When defining the audience, select the desired option from the **[!UICONTROL Trap insertion mode]** tab.
 
 ![](assets/direct_mail_trap_insertion_mode.png)
