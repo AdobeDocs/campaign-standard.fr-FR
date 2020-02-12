@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # Dernière version{#latest-release}
 
 [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Version 20.1.2 - Février 2020 {#release-20-1-2---february-2020}
+
+**Améliorations du Concepteur d&#39;email**
+
+Correction d’un problème en raison duquel un élément de balise HTML était ajouté dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685) Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605) Correction d’un problème lors de la configuration d’un modèle de courrier électronique transactionnel. (CAMP-40604)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * Correction d’un problème lors de l’exécution d’une demande de suppression de confidentialité qui empêchait la suppression des données utilisateur dans les journaux d’exclusion. (CAMP-39003)
 * Correction d’un problème qui provoquait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
 * Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lors du survol dans les activités marketing.
-* Correction d’un problème dans l’activité API ****externe qui affichait le bouton**[!UICONTROL  Confirmer]** même lorsqu’aucune donnée n’était modifiée.
-* Correction d’un problème lors de l’utilisation d’une activité **[!UICONTROL Union]**sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
-* Correction d’un problème susceptible d’entraîner une erreur lors de l’utilisation d’une activité de **[!UICONTROL réconciliation]**dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)
+* Correction d’un problème dans l’ **[!UICONTROL External API]** activité qui affichait le **[!UICONTROL Confirm]** bouton même lorsqu’aucune donnée n’était modifiée.
+* Correction d’un problème lors de l’utilisation d’une **[!UICONTROL Union]** activité sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
+* Correction d’un problème susceptible d’entraîner une erreur lors de l’utilisation d’une **[!UICONTROL Reconciliation]** activité dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)
 * Correction de problèmes de performances qui pouvaient survenir lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
 * Correction d’un problème en raison duquel les pages d’erreur pouvaient s’afficher lors de l’abonnement ou du désabonnement via les pages d’entrée. (CAMP-37771)
 * Correction d’un problème survenant lors du téléchargement de contenu au format zip, avec des fichiers PNG référencés dans le code HTML avec leur extension en majuscules. (CAMP-37913)
