@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **Améliorations du Concepteur d&#39;email**
 
-Correction d’un problème en raison duquel un élément de balise HTML était ajouté dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685) Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605) Correction d’un problème lors de la configuration d’un modèle de courrier électronique transactionnel. (CAMP-40604)
+* Correction d’un problème en raison duquel un élément de balise HTML était ajouté dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685)
+* Correction d’un problème en raison duquel un espace était ajouté lors de l’utilisation du contenu dynamique. (CAMP-40605)
+* Correction d’un problème lors de la configuration d’un modèle de courrier électronique transactionnel. (CAMP-40604)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
