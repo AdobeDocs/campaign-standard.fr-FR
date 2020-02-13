@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: f0d2f7af6510443ea42d21e57a9648ed99bb00c1
 
 ---
 
@@ -294,7 +294,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
       + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
       + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
-   + Utilisation d’audiences Adobe Experience Platform {collaboration avec des audiences aep}
+   + Utilisation des audiences d’Adobe Experience Platform {#working-with-aep-audiences}
       + [Ciblage des audiences d’Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
@@ -364,7 +364,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
       + [Envoi de notifications internes](administration/using/sending-internal-notifications.md)
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
-   + Connecteur de données Adobe Experience Platform {#mapping-campaign-and-aep-data}
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
       + [À propos d’Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
       + [Présentation du modèle de données de plateforme d’expérience](administration/using/aep-data-model-overview.md)
       + [Définition de mappage](administration/using/aep-mapping-definition.md)
