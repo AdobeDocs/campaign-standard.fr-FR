@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # Dernière version{#latest-release}
 
 [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Version 20.1.3 - Février 2020 {#release-20-1-3---february-2020}
+
+* Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la boucle. Le CAMP-39273 a été annulé.
 
 ## Version 20.1.2 - Février 2020 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * Correction d’un problème qui provoquait des incohérences dans le nombre d’annulation d’abonnement dans les rapports dynamiques. (CAMP-39949)
 * Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Envoi des journaux lors de l’envoi de messages in-app.
 * Correction d’un problème qui empêchait la mise à jour des journaux d’envoi SMS avec le nombre correct de rebonds. (CAMP-38395)
+* Correction d’une faille qui permettait aux appels de publication de l’abonnement à l’application de mettre à jour les jetons de notification Push. (CAMP-39273)
