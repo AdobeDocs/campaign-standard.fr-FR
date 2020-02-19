@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * Correction d’un problème qui empêchait la copie et le collage de texte à partir d’un éditeur de texte. (CAMP-39028)
 * Correction d’un problème qui empêchait l’affichage des suggestions de mots. (CAMP-38970)
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer des fragments. (ATU-2447)
+* Correction d’un problème empêchant la duplication des structures dynamiques. (CAMP-38367)
+* Correction d’un problème empêchant le contenu dynamique de conserver les conditions en cas de duplication. (CAMP-39051)
 
 **Autres changements**
 
