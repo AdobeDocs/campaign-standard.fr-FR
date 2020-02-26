@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -96,11 +96,6 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> 
     Vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a><br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utiliser l'extension de Campaign pour Dreamweaver</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> Permet d'éditer des images et d'utiliser un ensemble complet de fonctionnalités du SDK Adobe Creative afin d'améliorer vos images directement dans l'éditeur de contenu.<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Modifier des images avec le SDK Adobe Creative</a><br /> </td> 
   </tr> 
   <tr> 
    <td> SDK Experience Platform<br /> </td> 
