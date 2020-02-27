@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
+source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
 
@@ -98,6 +98,8 @@ source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 * L’unité organisationnelle du groupe de sécurité Administrateurs ne peut plus être modifiée.
 * Lors de la création d’un profil, le champ Unité organisationnelle doit maintenant être rempli.
 * Déclencheur Experience Cloud ne peut désormais être supprimé que si l’événement et le modèle transactionnel qui y sont liés sont supprimés.
+* Adobe Creative SDK a été mis hors service. Elle est désormais obsolète dans Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+
 
 **Correctifs**
 
