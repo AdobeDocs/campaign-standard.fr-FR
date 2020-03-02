@@ -12,7 +12,7 @@ discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -28,11 +28,11 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 >
 >Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d&#39;un utilisateur ou d&#39;un groupe d&#39;utilisateur, ne le rattachez pas à l&#39;entité **[!UICONTROL Toutes]**.
 >
->Par défaut, l’unité d’organisation **[!UICONTROL Tous (tous)]**est affectée au groupe de sécurité**[!UICONTROL  Administrateurs]** . Il est en lecture seule et ne peut pas être modifié.
+>Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
 Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités filles. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
 
-Par défaut, seules les entités **[!UICONTROL Toutes]**sont disponibles.
+Par défaut, seules les entités **[!UICONTROL Toutes]** sont disponibles.
 
 Lorsqu&#39;une entité organisationnelle est affectée à l&#39;utilisateur, celle-ci sera toujours appliquée aux objets créés par l&#39;utilisateur.
 
@@ -42,7 +42,7 @@ Lorsqu&#39;une entité organisationnelle est affectée à l&#39;utilisateur, cel
 >
 >Lorsqu&#39;un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s&#39;appliquent. Voir à ce propos la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
-## Création et gestion des entités {#creating-and-managing-units}
+## Création et gestion des entités   {#creating-and-managing-units}
 
 Les entités organisationnelles vous permettent de filtrer votre instance en fonction de l&#39;organisation à laquelle vos utilisateurs sont liés. Cette entité peut représenter une région, un pays et même une marque dans votre instance.
 
@@ -50,26 +50,26 @@ Nous avons auparavant créé des groupes de sécurité avec différents rôles a
 
 Il nous faut à présent créer les entités organisationnelles pour les groupes de sécurité Geometrixx Clothes et Geometrixx :
 
-1. Dans le menu avancé d&#39;Adobe Campaign, sélectionnez **[!UICONTROL Administration]** >**[!UICONTROL  Utilisateurs &amp; sécurité]** > **[!UICONTROL Entités organisationnelles]**.
-1. Cliquez sur **[!UICONTROL Créer]**pour commencer à configurer votre entité organisationnelle.
+1. Dans le menu avancé d&#39;Adobe Campaign, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs &amp; sécurité]** > **[!UICONTROL Entités organisationnelles]**.
+1. Cliquez sur **[!UICONTROL Créer]** pour commencer à configurer votre entité organisationnelle.
 
    ![](assets/manage_units_1.png)
 
-1. Remplacez le **[!UICONTROL Libellé]**et l&#39;**[!UICONTROL  Identifiant]** par défaut par Geometrixx.
+1. Remplacez le **[!UICONTROL Libellé]** et l&#39;**[!UICONTROL Identifiant]** par défaut par Geometrixx.
 1. Liez ensuite cette entité à une entité parente. Nous choisissons ici **[!UICONTROL Toutes]**.
 
    ![](assets/manage_units_2.png)
 
-1. Enfin, cliquez sur **[!UICONTROL Créer]**pour commencer à assigner votre entité organisationnelle au groupe de sécurité.
+1. Enfin, cliquez sur **[!UICONTROL Créer]** pour commencer à assigner votre entité organisationnelle au groupe de sécurité.
 1. Suivez la même procédure pour l&#39;entité Geometrixx Clothes, à l&#39;exception que l&#39;entité parente doit être l&#39;entité créée précédemment : Geometrixx.
 
    ![](assets/manage_units_3.png)
 
 Pour connaître l&#39;impact de l&#39;assignation de différentes entités à différents groupes de sécurité, l&#39;utilisateur assigné aux groupes Administrateur et Geometrixx créera deux modèles d&#39;email pour déterminer ce à quoi l&#39;autre utilisateur assigné à Utilisateur standard et Geometrixx Clothes peut ou non accéder.
 
-1. Dans le menu avancé, sélectionnez **[!UICONTROL Ressources]** >**[!UICONTROL  Modèles]** > **[!UICONTROL Modèles de diffusion]**.
+1. Dans le menu avancé, sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Dupliquez un modèle existant et personnalisez-le selon vos besoins. Voir à ce propos la section [Modèles](../../start/using/marketing-activity-templates.md).
-1. Une fois le modèle créé, sélectionnez l&#39;icône **[!UICONTROL Editer les propriétés]**pour lui assigner des entités.
+1. Une fois le modèle créé, sélectionnez l&#39;icône **[!UICONTROL Editer les propriétés]** pour lui assigner des entités.
 
    ![](assets/manage_units_6.png)
 
