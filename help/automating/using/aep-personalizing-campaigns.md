@@ -1,6 +1,6 @@
 ---
-title: Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform
-description: Découvrez comment personnaliser vos campagnes à l’aide des attributs de la plateforme Adobe Experience Platform.
+title: Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform
+description: Découvrez comment personnaliser vos campagnes à l’aide des attributs d’Adobe Experience Platform.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -11,51 +11,51 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
+# Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
->Le service Destinations d’audience est actuellement en version bêta, qui peut faire l’objet de fréquentes mises à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta pour l&#39;Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez le service à la clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 >
->**Les canaux Push** et **in-app** ne sont pas encore disponibles pour la personnalisation à l’aide de données contextuelles d’Adobe Experience Platform.
+>Les canaux **push** et **In-app** ne sont pas encore disponibles pour la personnalisation à l’aide de données contextuelles issues d’Adobe Experience Platform.
 
-Une fois votre flux de travail configuré avec une audience [](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform, vous pouvez personnaliser les messages avec des attributs de profil qui existent exclusivement dans le modèle de données d’expérience (XDM).
+Une fois votre workflow configuré avec une [audience Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md), vous pouvez personnaliser les messages à l’aide des attributs de profil présents exclusivement dans Experience Data Model (XDM).
 
-Pour ce faire, vous devez ajouter ces attributs à l’activité d’audience ****Lecture :
+Pour ce faire, vous devez ajouter ces attributs à l’activité **[!UICONTROL Lecture d’audience]** :
 
-1. Ouvrez l’activité **[!UICONTROL Lire l’audience]**. Dans l’onglet Données**** supplémentaires, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
+1. Ouvrez l’activité **[!UICONTROL Lecture d’audience]**. Dans l’onglet **[!UICONTROL Données additionnelles]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
-   Notez que l’onglet Données ****supplémentaires n’est disponible qu’après la sélection d’une audience Adobe Experience Platform.
+   Notez que l’onglet **[!UICONTROL Données additionnelles]** n’est disponible qu’après la sélection d’une audience Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >Les types de données de tableau et de mappage ne sont pas pris en charge dans cette fonctionnalité. En outre, seules les données du schéma d’union s’affichent dans le sélecteur.
+   >Les types de données tableau et carte ne sont pas pris en charge dans cette fonctionnalité. En outre, seules les données du schéma d’union s’affichent dans le sélecteur.
 
 1. Sélectionnez un champ XDM dans la liste, puis cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**pour l’ajouter à la liste des données supplémentaires.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour l’ajouter à la liste des données additionnelles.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
-1. Répétez ces étapes pour chaque champ XDM que vous souhaitez ajouter à votre processus.
+1. Répétez ces étapes pour chaque champ XDM que vous souhaitez ajouter à votre workflow.
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter un maximum de 20 champs XDM dans une activité d’audience **[!UICONTROL en]**lecture.
+   >Vous pouvez ajouter 20 champs XDM au maximum dans une activité **[!UICONTROL Lecture d’audience]**.
 
-1. Une fois tous les champs ajoutés, cliquez sur le bouton **[!UICONTROL Confirmer]**pour enregistrer vos modifications. Ils seront désormais disponibles pour personnaliser vos livraisons.
+1. Une fois tous les champs ajoutés, cliquez sur le bouton **[!UICONTROL Confirmer]** pour enregistrer les modifications. Les champs sont désormais à votre disposition pour personnaliser les diffusions.
 
-Pour plus d’informations sur la création et la personnalisation des livraisons, voir la documentation de Campaign Standard :
+Pour plus d’informations sur la création et la personnalisation de diffusions, voir la documentation de Campaign Standard :
 
 * [Découvrir les canaux de communication](../../channels/using/discovering-communication-channels.md)
 * [A propos des activités des canaux](../../automating/using/about-channel-activities.md)
