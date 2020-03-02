@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 4a8b5807-87dd-4db4-bd67-890f0adae932
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
@@ -27,7 +27,7 @@ Pour créer un formulaire Adobe Campaign sur votre site AEM :
 
    ![](assets/aem_content_forms.png)
 
-1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]**correspondant à votre instance Adobe Campaign.
+1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]** correspondant à votre instance Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 
