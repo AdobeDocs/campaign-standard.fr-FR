@@ -9,7 +9,7 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-L&#39;activité **[!UICONTROL API externe]**récupère des données dans le workflow d&#39;un** système externe **via un appel** API REST **.
+L&#39;activité **[!UICONTROL API externe]** récupère des données dans le workflow d&#39;un **système externe** via un appel **API REST**.
 
 Les points d&#39;entrée REST peuvent être un système de gestion client, une instance [Runtime Adobe I/O](https://www.adobe.io/apis/experienceplatform/runtime.html) ou un point d&#39;entrée REST Experience Cloud (Data Platform, Target, Analytics, Campaign, etc.).
 
@@ -31,7 +31,7 @@ Les points d&#39;entrée REST peuvent être un système de gestion client, une i
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité est actuellement en version bêta. Vous devez accepter les termes du contrat d&#39;utilisation avant de commencer à utiliser l&#39;activité API externe. Notez que cette fonctionnalité bêta n’ayant pas encore été commercialisée par Adobe, elle n’est pas prise en charge par le service à la clientèle d’Adobe. Elle peut contenir des erreurs et ne pas fonctionner, ainsi que d’autres fonctionnalités publiées.
+>Cette fonctionnalité est actuellement en version bêta. Vous devez accepter les termes du contrat d&#39;utilisation avant de commencer à utiliser l&#39;activité API externe. Cette fonctionnalité bêta n&#39;ayant pas encore été commercialisée par Adobe, elle n&#39;est pas prise en charge par l&#39;Assistance clientèle Adobe. Elle peut contenir des erreurs et ne pas fonctionner aussi bien que d&#39;autres fonctionnalités publiées.
 
 Les principales caractéristiques de cette activité sont les suivantes :
 
@@ -53,7 +53,7 @@ Les protections suivantes ont été mises en place pour cette activité :
 
 ## Configuration {#configuration}
 
-Placez une activité **[!UICONTROL API externe]**dans votre workflow et ouvrez l&#39;activité pour commencer la configuration.
+Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez l&#39;activité pour commencer la configuration.
 
 ### Mapping entrant
 
