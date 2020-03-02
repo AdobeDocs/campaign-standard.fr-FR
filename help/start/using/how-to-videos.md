@@ -11,7 +11,7 @@ topic-tags: tutorials
 discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
