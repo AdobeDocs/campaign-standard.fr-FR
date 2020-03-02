@@ -12,7 +12,7 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
@@ -26,7 +26,7 @@ Cette section détaille les principes généraux et les bonnes pratiques pour la
 * Ajouter et relier les activités
 * Configurer les activités
 
-## Créer un workflow {#creating-a-workflow}
+## Créer un workflow   {#creating-a-workflow}
 
 La création d&#39;un workflow est possible au sein d&#39;un programme ou d&#39;une campagne, ou dans la liste des activités marketing.
 
@@ -56,13 +56,13 @@ La création d&#39;une activité marketing est présentée dans la section [Cré
 
 1. Validez la création de l&#39;activité, dont le tableau de bord s&#39;affiche alors. Voir à ce propos la section [Interface des workflows](../../automating/using/workflow-interface.md).
 
-1. Une fois le flux de travail prêt à être configuré, vous pouvez accéder à d’autres options en cliquant sur le bouton **[!UICONTROL Modifier les propriétés]**. Vous pouvez, par exemple, définir un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du processus. Par défaut, le fuseau horaire du processus est celui défini pour l’opérateur de campagne actuel.
+1. Une fois le workflow prêt à être configuré, vous pouvez accéder à d’autres options en cliquant sur le bouton **[!UICONTROL Éditer les propriétés]**. Vous pouvez, par exemple, définir un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 
    ![](assets/workflow_properties.png)
 
 **Rubrique connexe :**
 
-Vidéo [Créer un workflow](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
+Vidéo [Créer un workflow](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
 
 ## Ajouter et relier les activités {#adding-and-linking-activities}
 
@@ -99,7 +99,7 @@ Pour construire le diagramme :
 
 Une fois vos activités de workflow reliées, vous pouvez personnaliser les transitions entre elles avec le **libellé** de votre choix. Pour cela, double-cliquez sur la transition pour accéder à ses propriétés.
 
-De plus, les activités **[!UICONTROL Ciblage]**et**[!UICONTROL  Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l&#39;efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l&#39;efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Cas pratiques de workflow :**
 
@@ -113,7 +113,7 @@ De plus, les activités **[!UICONTROL Ciblage]**et**[!UICONTROL  Gestion des don
 Par défaut, les activités ne sont pas définies et ne traiteront pas correctement les données si elles ne sont pas configurées. Chaque activité contient plusieurs onglets permettant de gérer des configurations spécifiques et des options génériques telles que les transitions sortantes, les libellés, etc.
 
 1. Vérifiez que toutes les activités sont correctement reliées entre elles. Certaines activités doivent détecter la structure ou la nature des données entrantes pour proposer les options de configuration adéquates.
-1. Double-cliquez sur une activité ou sélectionnez-la et cliquez sur l&#39;action contextuelle **[!UICONTROL Editer]**pour ouvrir sa fenêtre de configuration.
+1. Double-cliquez sur une activité ou sélectionnez-la et cliquez sur l&#39;action contextuelle **[!UICONTROL Editer]** pour ouvrir sa fenêtre de configuration.
 1. Editez le libellé de l&#39;activité.
 1. Définissez toutes les différentes options dont vous avez besoin pour traiter les données. Pour découvrir les options possibles pour chaque activité, reportez-vous à la section spécifique à l&#39;activité dans cette documentation.
 1. Enregistrez l&#39;activité et répétez ces opérations pour chaque activité du workflow.
