@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 
 ---
@@ -20,25 +20,25 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 
 # Certification IP {#ip-certification}
 
-La certification IP est un programme de pratiques d&#39;envoi et de liste blanche qui permet de s&#39;assurer que les courriels sont reçus sans être bloqués par des filtres anti-spam ou d&#39;autres systèmes de blocage des courriels.
+La certification IP est un programme de pratiques d’envoi et de mise en liste blanche destiné à s’assurer que les emails sont reçus sans être bloqués par des filtres anti-spam ou d’autres systèmes de blocage d’emails.
 
-Actuellement, deux fournisseurs offrent une certification IP : Chemin de retour et Alliance des expéditeurs certifiés.
+Actuellement, deux fournisseurs proposent une certification IP : Return Path et Certified Senders Alliance.
 
-Les expéditeurs certifiés sont ajoutés aux listes blanches de courrier électronique utilisées par les fournisseurs mondiaux de boîtes aux lettres et les sociétés de sécurité de courrier électronique. Ces listes blanches commerciales sont basées sur un système qui permet à l&#39;expéditeur de contourner complètement les filtres anti-spam ou de se voir attribuer des points incrémentiels lorsqu&#39;ils entrent dans le système.
+Les expéditeurs certifiés sont ajoutés à des listes blanches d’emails utilisées par les fournisseurs de messagerie et les entreprises de sécurité de messagerie à travers le monde. Ces listes blanches commerciales sont basées sur un système qui permet à l’expéditeur de contourner complètement les filtres anti-spam ou de se voir attribuer des points incrémentiels lorsqu’il entre dans le système.
 
-Le programme de certification [des chemins de](https://www.validity.com/products/returnpath/certification/) retour offre un certain nombre d’avantages, notamment :
-* Augmentation mesurable du positionnement des boîtes de réception dans les principaux fournisseurs de boîtes de réception tels que Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, etc.
-* La réputation et le traitement des filtres critiques tels que Cloudmark, SpamAssassin et Cisco Ironport
-* Une équipe de conformité dédiée à la surveillance 24h/24 et 7j/7, qui fournit des alertes de sécurité et travaille avec vous pour résoudre les éventuels compromis
-* Données du fournisseur de boîtes aux lettres fournissant des informations détaillées sur les indicateurs clés de performance, l’emplacement et les performances de certification
-* Amélioration simplifiée et rapide du réchauffement de l’IP, notamment une meilleure réputation et une meilleure reconnaissance lors de la migration ou de l’obtention d’une nouvelle adresse IP
+Le programme de [certification Return Path](https://www.validity.com/products/returnpath/certification/) offre un certain nombre d’avantages, notamment :
+* une augmentation mesurable du placement en boîte de réception pour les principaux fournisseurs de messagerie tels que Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, etc. ;
+* une réputation et un traitement favorables des filtres critiques tels que Cloudmark, SpamAssassin et Cisco Ironport ;
+* une équipe de conformité dédiée à la surveillance 24h/24 et 7j/7, qui émet des alertes de sécurité et collabore avec vous pour résoudre tout problème éventuel ;
+* des données relatives aux fournisseurs de messagerie donnant des informations détaillées sur les indicateurs de performances clés (IPC), le placement en boîte de réception et les performances de certification ;
+* un processus de rodage des adresses IP simplifié et plus rapide, notamment une meilleure réputation et une reconnaissance plus performante en cas de migration ou d’obtention d’une nouvelle adresse IP.
 
-La certification [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offre entre autres avantages :
-* Certification des expéditeurs de courriels commerciaux qui peuvent se conformer à des normes de qualité élevées
-* Amélioration de la remise et de la délivrabilité des courriels commerciaux pour augmenter le taux de placement des boîtes de réception et réduire le filtrage des messages indésirables
-* Protection contre les risques juridiques et financiers en respectant pleinement les normes juridiques
-* Protection de la réputation par des avertissements précoces du Bureau des plaintes du CSA et des rapports quotidiens sur les pièges à pourriels
+La certification [Certified Senders Alliance](https://certified-senders.org/certification-process/) offre entre autres avantages :
+* la certification des expéditeurs d’emails commerciaux pouvant se conformer à des normes de qualité élevée ;
+* l’amélioration de la diffusion et de la délivrabilité des emails commerciaux pour augmenter le taux de placement en boîte de réception et réduire le filtrage anti-spam ;
+* une protection contre les risques juridiques et financiers en respectant entièrement les normes juridiques ;
+* la protection de la réputation grâce à des avertissements précoces émis par le Bureau des réclamations de la Certified Senders Alliance et des rapports quotidiens relatifs aux pièges anti-spam.
 
 Les FAI sont libres d’utiliser ces services et le nombre de FAI est variable selon la liste blanche.
 
-Cependant, étant donné que de plus en plus de fournisseurs de services Internet créent leurs filtres anti-spam en fonction du comportement de chaque propriétaire de boîte de réception plutôt que d’analyser le contenu du message lui-même, l’utilisation de la certification IP ne peut pas être une garantie de placement de boîte de réception ni même de remise.
+Toutefois, étant donné que les FAI sont de plus en plus nombreux à créer leurs filtres anti-spam en fonction du comportement de chaque titulaire de boîte de réception plutôt que du contenu des messages, l’utilisation de la certification IP ne garantit pas nécessairement le placement en boîte de réception, ni même la diffusion.
