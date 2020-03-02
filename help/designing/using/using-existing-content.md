@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
@@ -66,7 +66,7 @@ Pour rendre du contenu externe existant entièrement éditable dans le Concepteu
 
 ### Importer du contenu depuis un fichier {#importing-content-from-a-file}
 
-Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Télécharger]**pour télécharger un fichier depuis votre ordinateur, puis confirmez l&#39;opération.
+Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier depuis votre ordinateur, puis confirmez l&#39;opération.
 
 La structure du dossier compressé est libre. Toutefois, le référencement des fichiers en HTML doit être relatif et doit respecter l&#39;arborescence du dossier compressé.
 
@@ -84,7 +84,7 @@ Les formats supportés lors de l&#39;import sont les suivants :
 Avant d&#39;importer du contenu depuis une URL, vérifiez que les exigences suivantes sont respectées :
 
 * Le contenu doit être publiquement disponible via cette URL.
-* Pour des raisons de sécurité, seules les URL commençant par **[!UICONTROL https]**sont autorisées.
+* Pour des raisons de sécurité, seules les URL commençant par **[!UICONTROL https]** sont autorisées.
 * Vérifiez que toutes les ressources (images, CSS) sont définies dans des liens absolus et HTTPS. Sinon, après l&#39;envoi de l&#39;email, la page miroir serait affichée sans ses ressources. Voici un exemple de définition d&#39;un lien absolu :
 
    ```
@@ -128,7 +128,7 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
 
 Il est possible de personnaliser l&#39;URL distante à partir de laquelle le contenu sera récupéré. Pour cela, procédez comme suit :
 
-1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]**du Concepteur d&#39;email.
+1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]** du Concepteur d&#39;email.
 1. Recherchez le champ **[!UICONTROL URL distante]**.
 
    ![](assets/email_designer_importfromurl4.png)
@@ -166,7 +166,7 @@ Pour plus d&#39;informations sur la conversion d&#39;un email existant en email 
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## Convertir un contenu HTML  {#converting-an-html-content}
+## Convertir un contenu HTML   {#converting-an-html-content}
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
 
