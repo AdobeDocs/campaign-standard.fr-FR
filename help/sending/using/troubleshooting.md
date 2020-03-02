@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
@@ -33,9 +33,9 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
 **Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
 
-Le statut **[!UICONTROL En blackliste]**signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
+Le statut **[!UICONTROL En blackliste]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
 
-L&#39;application du statut **[!UICONTROL Quarantaine]**est entraînée par un échec soft ou hard.
+L&#39;application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
 
 **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
@@ -46,7 +46,7 @@ Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../
 **Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
 
 * Accédez à **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
-* Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]**à**[!UICONTROL  Valide]**.
+* Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
 * Sauvegardez l&#39;enregistrement.
 
 **Comment puis-je savoir si l&#39;une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
