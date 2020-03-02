@@ -1,5 +1,5 @@
 ---
-title: Conception deConcevoir du contenu dans Adobe Campaign
+title: Conception de contenu dans Adobe Campaign
 description: Découvrez tous les éléments que vous pouvez définir dans vos contenus avec Adobe Campaign.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
@@ -11,7 +11,7 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
@@ -32,12 +32,12 @@ Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de 
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* To discover how to create email content, see [Get started with the Email Designer](../../designing/using/quick-start.md).
+* Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du Concepteur d’email](../../designing/using/quick-start.md).
 * Pour une présentation du Concepteur d&#39;email, voir [Utilisation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 * Pour en savoir plus sur la création de contenu :
    * En partant de zéro, voir [Conception d&#39;emails à partir de zéro](../../designing/using/designing-from-scratch.md).
    * A l&#39;aide d&#39;un contenu existant, voir [Conception à l&#39;aide d&#39;un contenu existant](../../designing/using/using-existing-content.md).
-   * Using Creative Cloud integrations, see [Multi-solution email design](../../designing/using/using-integrations.md).
+   * À l’aide des intégrations Creative Cloud, voir [Conception d’emails multisolution](../../designing/using/using-integrations.md).
 * Pour plus d&#39;informations sur la personnalisation, voir [Personnalisation](../../designing/using/personalization.md).
 
 Lorsque vous créez un email, vous pouvez choisir d&#39;utiliser un modèle prédéfini ou de charger un contenu existant à partir d&#39;une autre source. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md#selecting-an-existing-content).
@@ -70,27 +70,27 @@ La **barre d&#39;outils contextuelle** de l&#39;interface de l&#39;éditeur pré
 
 ### Page d&#39;accueil du Concepteur d&#39;email {#email-designer-home-page}
 
-Lors de la [création d&#39;un email](../../channels/using/creating-an-email.md), la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]**s&#39;affiche automatiquement lors de la sélection du contenu de l&#39;email.
+Lors de la [création d&#39;un email](../../channels/using/creating-an-email.md), la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]** s&#39;affiche automatiquement lors de la sélection du contenu de l&#39;email.
 
 ![](assets/email_designer_home_page.png)
 
-L&#39;onglet **[!UICONTROL Propriétés]**permet de modifier les détails d&#39;un email, tels que le libellé, l&#39;adresse et le nom de l&#39;expéditeur ou l&#39;objet. Vous pouvez également accéder à cet onglet en cliquant sur le libellé de l&#39;email en haut de l&#39;écran.
+L&#39;onglet **[!UICONTROL Propriétés]** permet de modifier les détails d&#39;un email, tels que le libellé, l&#39;adresse et le nom de l&#39;expéditeur ou l&#39;objet. Vous pouvez également accéder à cet onglet en cliquant sur le libellé de l&#39;email en haut de l&#39;écran.
 
 ![](assets/email_designer_home_properties.png)
 
-L&#39;onglet **[!UICONTROL Modèles]**permet d&#39;effectuer une sélection parmi les contenus HTML d&#39;usine ou les modèles que vous avez déjà créés pour commencer rapidement à concevoir votre email. Voir[Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+L&#39;onglet **[!UICONTROL Modèles]** permet d&#39;effectuer une sélection parmi les contenus HTML d&#39;usine ou les modèles que vous avez déjà créés pour commencer rapidement à concevoir votre email. Voir [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-L&#39;onglet **[!UICONTROL Formation et support]**permet d&#39;accéder facilement à la documentation et aux tutoriels connexes.
+L&#39;onglet **[!UICONTROL Formation et support]** permet d&#39;accéder facilement à la documentation et aux tutoriels connexes.
 
 ![](assets/email_designer_home_support.png)
 
 Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du Concepteur d&#39;email vous permet également de choisir le mode de conception de votre contenu :
 
-* Cliquez sur le bouton **[!UICONTROL Créer]**pour commencer à créer entièrement un contenu. Voir[Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Cliquez sur le bouton **[!UICONTROL Télécharger]**pour télécharger un fichier à partir de votre ordinateur. Voir[Importer du contenu depuis un fichier](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]**pour récupérer du contenu existant à partir d&#39;une URL. Voir[Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Cliquez sur le bouton **[!UICONTROL Créer]** pour commencer à créer entièrement un contenu. Voir [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier à partir de votre ordinateur. Voir [Importer du contenu depuis un fichier](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]** pour récupérer du contenu existant à partir d&#39;une URL. Voir [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologie {#terminology}
 
@@ -120,7 +120,7 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
 ### Mise à jour des fragments {#email-designer-updates}
 
@@ -144,7 +144,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email  {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email    {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
