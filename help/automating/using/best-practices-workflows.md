@@ -11,7 +11,7 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
@@ -40,7 +40,7 @@ Par exemple :
 
 ## Duplication des workflows{#duplicating-workflows}
 
-Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**, pointez sur le workflow et cliquez sur**[!UICONTROL  Dupliquer l&#39;élément]**. Une fois le workflow dupliqué, ses modifications ne sont pas appliquées à la copie de celui-ci. La copie du workflow peut être éditée.
+Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**, pointez sur le workflow et cliquez sur **[!UICONTROL Dupliquer l&#39;élément]**. Une fois le workflow dupliqué, ses modifications ne sont pas appliquées à la copie de celui-ci. La copie du workflow peut être éditée.
 
 ![](assets/duplicating_workflow.png)
 
@@ -68,7 +68,7 @@ Pour plus d&#39;informations, voir [Exécution de workflows](../../automating/us
 
 ### Time zone
 
-Les propriétés du flux de travail vous permettent de définir un fuseau horaire spécifique qui sera utilisé par défaut dans toutes ses activités. Par défaut, le fuseau horaire du processus est celui défini pour l’opérateur de campagne actuel.
+Les propriétés du workflow vous permettent de définir un fuseau horaire spécifique qui sera utilisé par défaut dans toutes les activités. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 
 
 ## Activité{#activity}
@@ -77,7 +77,7 @@ Les propriétés du flux de travail vous permettent de définir un fuseau horair
 
 Pour vérifier que le workflow se termine correctement, utilisez une **[!UICONTROL activité Fin]**. Evitez de laisser seule la dernière transition d&#39;un workflow.
 
-Pour accéder au détail des transitions, cochez l&#39;option Conserver les résultats intermédiaires **[!UICONTROL dans la section]**Exécution des propriétés du workflow.
+Pour accéder au détail des transitions, cochez l&#39;option Conserver les résultats intermédiaires **[!UICONTROL dans la section]** Exécution des propriétés du workflow.
 
 >[!CAUTION]
 >
@@ -96,7 +96,7 @@ Pour dupliquer des activités existantes, vous pouvez effectuer un copier-coller
 
 ### Activité Planificateur{#acheduler-activity}
 
-Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **[!UICONTROL activité Planificateur]**par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base.
+Lors de la construction de votre workflow, n&#39;utilisez qu&#39;une seule **[!UICONTROL activité Planificateur]** par branche. Si une même branche d&#39;un workflow comporte plusieurs planificateurs (liés les uns aux autres), le nombre de tâches à exécuter sera multiplié de manière exponentielle, ce qui surchargerait considérablement la base.
 
 Vous pouvez prévisualiser les dix prochaines exécutions de vos workflows en cliquant sur **[!UICONTROL Aperçu des prochaines exécutions]**.
 
@@ -118,8 +118,8 @@ Pour exporter des packages, les ressources exportées ne doivent pas contenir d&
 
 ## Export de listes{#exporting-lists}
 
-L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel, sous **[!UICONTROL Administration]** >**[!UICONTROL  Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
-Pour plus d&#39;informations, consultez[Export de listes](../../automating/using/exporting-lists.md).
+L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel, sous **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
+Pour plus d&#39;informations, consultez [Export de listes](../../automating/using/exporting-lists.md).
 
 ## Résolution des problèmes{#workflow-troubleshooting}
 
@@ -135,14 +135,14 @@ L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des act
 Vous pouvez analyser les requêtes SQL dans l&#39;onglet Journal.
 
 1. Dans l&#39;espace de travail du workflow, cliquez sur **[!UICONTROL Editer les propriétés]**.
-1. In  **[!UICONTROL General]**>**[!UICONTROL  Execution]**, check the **[!UICONTROL Save SQL queries in the log]**and**[!UICONTROL  Execute in the engine]** options and click **[!UICONTROL Confirm]**.
+1. Dans **[!UICONTROL Général]** > **[!UICONTROL Exécution]**, cochez les options **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** et **[!UICONTROL Exécuter dans le moteur]**, puis cliquez sur **[!UICONTROL Confirmer]**.
 
 **Pour voir les requêtes SQL dans Journal :**
 1. Cliquez sur **[!UICONTROL Journal et tâches]**.
-1. Dans l&#39;onglet **[!UICONTROL Logs]**, ouvrez le panneau**[!UICONTROL  Recherche]**.
+1. Dans l&#39;onglet **[!UICONTROL Logs]**, ouvrez le panneau **[!UICONTROL Recherche]**.
 1. Cochez l&#39;option **[!UICONTROL Afficher les logs SQL uniquement]**.
 
-La requête est affichée dans la colonne **[!UICONTROL Message]**des logs.
+La requête est affichée dans la colonne **[!UICONTROL Message]** des logs.
 
 ### Utilisation des logs de diffusion{#using-delivery-logs}
 
