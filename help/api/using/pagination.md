@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
@@ -31,7 +31,7 @@ Le paramètre **_lineCount** permet de limiter le nombre de ressources répertor
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
 Exemple de requête GET pour afficher 1 enregistrement de la ressource de profil.
 
@@ -43,7 +43,7 @@ Exemple de requête GET pour afficher 1 enregistrement de la ressource de profi
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Réponse à la requête, avec le noeud **suivant** pour effectuer la pagination.
+Réponse à la requête, avec le nœud **suivant** pour effectuer la pagination.
 
 ```
 {
@@ -64,7 +64,7 @@ Réponse à la requête, avec le noeud **suivant** pour effectuer la pagination.
 }
 ```
 
-Par défaut, le noeud **suivant** n’est pas disponible lors de l’interaction avec des tableaux contenant une grande quantité de données. Pour pouvoir effectuer une pagination, vous devez ajouter le paramètre **_forcePagination=true** à votre URL d’appel.
+Par défaut, le nœud **suivant** n’est pas disponible lors de l’interaction avec des tableaux contenant une grande quantité de données. Pour pouvoir effectuer une pagination, vous devez ajouter le paramètre **_forcePagination=true** à votre URL d’appel.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -76,4 +76,4 @@ Par défaut, le noeud **suivant** n’est pas disponible lors de l’interaction
 
 >[!NOTE]
 >
->Le nombre d’enregistrements au-dessus desquels un tableau est considéré comme volumineux est défini dans l’option **XtkBigTableThreshold** de Campaign Standard. La valeur par défaut est 100 000 enregistrements.
+>Le nombre d’enregistrements au-dessus duquel un tableau est considéré comme volumineux est défini dans l’option **XtkBigTableThreshold** de Campaign Standard. La valeur par défaut est 100 000 enregistrements.
