@@ -12,7 +12,7 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
@@ -26,7 +26,7 @@ Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Ce modèle de
 >
 >La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
 
-Le menu **[!UICONTROL Administration]** >**[!UICONTROL  Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
+Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
 
 Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d&#39;**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d&#39;achats ou de produits par exemple.
 
