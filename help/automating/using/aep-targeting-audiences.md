@@ -1,6 +1,6 @@
 ---
-title: Ciblage des audiences d’Adobe Experience Platform
-description: Découvrez comment cibler les audiences d’Adobe Experience PLatform dans les processus.
+title: Ciblage des audiences Adobe Experience Platform
+description: Découvrez comment cibler les audiences Adobe Experience Platform dans les workflows.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -11,59 +11,59 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# Ciblage des audiences d’Adobe Experience Platform {#targeting-aep-audiences}
+# Ciblage des audiences Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
->Le service Destinations d’audience est actuellement en version bêta, qui peut faire l’objet de fréquentes mises à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta pour l&#39;Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez le service à la clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-Une fois que vous avez créé une audience [](../../audiences/using/aep-about-audience-destinations-service.md) Adobe Experience Platform à l’aide du créateur de segments de profil unifié, vous pouvez l’utiliser de la même manière que pour une audience de campagne dans les processus pour personnaliser et envoyer des messages.
+Une fois l’[audience Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md) créée à l’aide du créateur de segment Profil unifié, vous pouvez l’utiliser de la même manière qu’une audience Campaign dans les workflows pour personnaliser et envoyer des messages.
 
-Pour activer une audience Adobe Experience Platform dans vos processus, procédez comme suit :
+Pour activer une audience Adobe Experience Platform dans vos workflows, procédez comme suit :
 
-1. Ajoutez une activité **[!UICONTROL Lire l’audience]**dans le processus, puis ouvrez-la.
+1. Ajoutez une activité **[!UICONTROL Lecture d’audience]** dans le workflow, puis ouvrez-la.
 
-1. Sélectionnez l’option **[!UICONTROL Adobe Experience Platform]**sous**[!UICONTROL  Type d’audience]**, puis ajoutez l’audience de votre choix.
+1. Sélectionnez l’option **[!UICONTROL Adobe Experience Platform]** sous **[!UICONTROL Type d’audience]**, puis ajoutez l’audience de votre choix.
 
    ![](assets/aep_wkf_readaudience.png)
 
-1. (Facultatif) Une fois l’audience sélectionnée, vous pouvez cliquer sur le bouton en forme d’oeil pour revoir et/ou modifier la définition de segment (veillez à enregistrer vos modifications à nouveau).
+1. (Facultatif) Une fois l’audience sélectionnée, vous pouvez cliquer sur le bouton en forme d’œil pour vérifier et/ou éditer la définition du segment (veillez à enregistrer à nouveau les modifications).
 
-   En cliquant sur le bouton d’oeil, vous accédez simplement au créateur de segments unifiés (dans un autre onglet) associé à l’audience sélectionnée dans Campaign.
+   En cliquant sur le bouton en forme d’œil, vous accédez simplement au créateur de segment unifié (dans un autre onglet) associé à l’audience sélectionnée dans Campaign.
 
-1. Sélectionnez un élément de mappage **[!UICONTROL de données de]**plateforme pour spécifier la dimension de ciblage souhaitée pour l’audience Adobe Experience Platform sélectionnée.
+1. Sélectionnez un élément **[!UICONTROL Mapping de données Platform]** pour spécifier la dimension de ciblage souhaitée pour l’audience Adobe Experience Platform sélectionnée.
 
-   Par défaut, la clé principale (iRecipientID pour la table Profil, iAppSubscriptionID pour la table AppSubscription) utilisée pour la réconciliation sera automatiquement disponible dans la liste déroulante. Pour cibler en dehors de la clé primaire, vous devez créer un espace de **noms** personnalisé.
+   Par défaut, la clé primaire (par exemple, iRecipientID pour la table Profil, iAppSubscriptionID pour la table AppSubscription) utilisée pour la réconciliation sera automatiquement disponible dans la liste déroulante. Pour effectuer un ciblage en dehors de la clé primaire, vous devez créer un **espace de nommage** personnalisé.
 
    >[!NOTE]
    >
-   >Pour les cibles en dehors de la clé principale, vous devez également créer un mappage Target personnalisé qui correspond à l’espace de noms personnalisé. For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+   >Pour les cibles en dehors de la clé primaire, vous devez également créer un mapping de ciblage personnalisé correspondant à l’espace de nommage personnalisé. Pour plus d’informations sur le mapping de ciblage, consultez [cette section](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Cette liste contient tous les mappages XDM (Experience Data Model) qui ont été configurés sur votre instance. Pour plus d’informations sur Adobe Experience Platform Data Connector, reportez-vous à [ce document](../../administration/using/aep-about-data-connector.md)dédié.
+   Cette liste contient tous les mappings XDM (Experience Data Model) configurés sur votre instance. Pour plus d’informations sur Adobe Experience Platform Data Connector, reportez-vous à [ce document dédié](../../administration/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Une fois les dimensions d’audience et de ciblage configurées correctement, cliquez sur le bouton **[!UICONTROL Confirmer]**pour enregistrer vos modifications.
+1. Une fois l’audience et les dimensions de ciblage correctement configurées, cliquez sur le bouton **[!UICONTROL Confirmer]** pour enregistrer les modifications.
 
-Vous pouvez désormais configurer votre processus avec d’autres activités. Vous pouvez, par exemple, lier une activité de diffusion **[!UICONTROL de]**courrier électronique pour envoyer un courrier électronique à l’audience sélectionnée.
+Vous pouvez maintenant configurer le workflow avec d’autres activités. Vous pouvez, par exemple, lier une activité **[!UICONTROL Diffusion Email]** pour envoyer un email à l’audience sélectionnée.
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->Campaign Standard permet de cibler les audiences de la plateforme Adobe Experience Platform dans tous les canaux de diffusion : Courriers électroniques, messages SMS, messages de messagerie directe, notifications Push et messages in-app.
+>Campaign Standard permet de cibler les audiences Adobe Experience Platform dans tous les canaux de diffusion : emails, SMS, courrier, notifications push et messages In-app.
 >
->*Remarque : Pour tous les messages push et in-app, Campaign Standard ne prend en charge que les diffusions pour les profils connus.
+>*Remarque : pour tous les messages push et In-app, Campaign Standard ne prend en charge les diffusions que pour les profils connus.
 
-Pour plus d’informations sur l’utilisation des processus et des livraisons, reportez-vous aux sections suivantes :
+Pour plus d’informations sur l’utilisation des workflows et des diffusions, reportez-vous aux sections suivantes :
 
 * [Présentation des workflows](../../automating/using/discovering-workflows.md)
 * [Construire un workflow](../../automating/using/building-a-workflow.md)
