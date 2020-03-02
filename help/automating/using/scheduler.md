@@ -12,7 +12,7 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
@@ -24,21 +24,21 @@ source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ![](assets/scheduler.png)
 
-L&#39;activité **[!UICONTROL Planificateur]**permet de planifier le déclenchement d&#39;un workflow ou d&#39;une activité.
+L&#39;activité **[!UICONTROL Planificateur]** permet de planifier le déclenchement d&#39;un workflow ou d&#39;une activité.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
-L&#39;activité **[!UICONTROL Planificateur]**est à considérer comme un départ planifié. Les règles de positionnement de l&#39;activité dans le diagramme sont les mêmes que pour l&#39;activité**[!UICONTROL  Début]**. L&#39;activité ne doit jamais comporter de transition entrante.
+L&#39;activité **[!UICONTROL Planificateur]** est à considérer comme un départ planifié. Les règles de positionnement de l&#39;activité dans le diagramme sont les mêmes que pour l&#39;activité **[!UICONTROL Début]**. L&#39;activité ne doit jamais comporter de transition entrante.
 
-Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une activité **[!UICONTROL Planificateur]**par branche et pensez à définir un fuseau horaire. Cela vous permet de démarrer votre flux de travail à un fuseau horaire spécifique, sinon le flux de travail s’exécutera dans le fuseau horaire défini dans les propriétés du flux de travail (voir[Création d’un flux de travail](../../automating/using/building-a-workflow.md)).
+Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une activité **[!UICONTROL Planificateur]** par branche et pensez à définir un fuseau horaire. Cette méthode permet de démarrer votre workflow pour un fuseau horaire spécifique, faute de quoi il s’exécutera dans le fuseau horaire défini dans les propriétés du workflow (voir [Construire un workflow](../../automating/using/building-a-workflow.md)).
 
 >[!CAUTION]
 >
->La **[!UICONTROL Fréquence de répétition]**de l&#39;activité ne peut pas être inférieure à 10 minutes, ce qui signifie qu&#39;un workflow ne peut pas être exécuté automatiquement plusieurs fois toutes les 10 minutes.
+>La **[!UICONTROL Fréquence de répétition]** de l&#39;activité ne peut pas être inférieure à 10 minutes, ce qui signifie qu&#39;un workflow ne peut pas être exécuté automatiquement plusieurs fois toutes les 10 minutes.
 
 ## Configuration {#configuration}
 
-1. Placez une activité **[!UICONTROL Planificateur]**dans votre workflow.
+1. Placez une activité **[!UICONTROL Planificateur]** dans votre workflow.
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 1. Indiquez la **[!UICONTROL Fréquence d&#39;exécution]** :
 
@@ -53,17 +53,17 @@ Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une act
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL Fréquence de répétition]**vous permet d&#39;espacer dans le temps les déclenchements du workflow. Par exemple, si vous sélectionnez une fréquence d&#39;exécution quotidienne et que la fréquence de répétition est paramétrée sur** 2 **(jours), le workflow sera déclenché tous les deux jours. La fréquence de répétition ne peut pas être inférieure à 10 minutes. Si la fréquence de répétition est paramétrée sur** 0 **(également valeur par défaut), l&#39;option n&#39;est pas prise en compte et le workflow s&#39;exécute selon la fréquence d&#39;exécution définie.
+   >Le champ **[!UICONTROL Fréquence de répétition]** vous permet d&#39;espacer dans le temps les déclenchements du workflow. Par exemple, si vous sélectionnez une fréquence d&#39;exécution quotidienne et que la fréquence de répétition est paramétrée sur **2** (jours), le workflow sera déclenché tous les deux jours. La fréquence de répétition ne peut pas être inférieure à 10 minutes. Si la fréquence de répétition est paramétrée sur **0** (également valeur par défaut), l&#39;option n&#39;est pas prise en compte et le workflow s&#39;exécute selon la fréquence d&#39;exécution définie.
 
 1. Définissez l&#39;expiration de l&#39;exécution :
 
    * **[!UICONTROL Jamais]** : Le workflow sera exécuté selon la fréquence d&#39;exécution définie, sans limite dans le temps ni au niveau du nombre d&#39;itérations.
-   * **[!UICONTROL Après un certain nombre d&#39;itérations]** : le workflow sera exécuté selon la fréquence d&#39;exécution définie, dans la limite de** X **itérations. Indiquez alors le**[!UICONTROL  Nombre d&#39;itérations]**.
+   * **[!UICONTROL Après un certain nombre d&#39;itérations]** : le workflow sera exécuté selon la fréquence d&#39;exécution définie, dans la limite de **X** itérations. Indiquez alors le **[!UICONTROL Nombre d&#39;itérations]**.
    * **[!UICONTROL A la date spécifiée]** : le workflow sera exécuté selon la fréquence d&#39;exécution définie, jusqu&#39;à une date précise. Indiquez alors la date limite d&#39;exécution.
 
 1. Vérifiez le planning des dix prochaines exécutions de votre workflow en cliquant sur **[!UICONTROL Aperçu des prochaines exécutions]**.
 
-1. Dans l&#39;onglet **[!UICONTROL Options d&#39;exécution]**, définissez le fuseau horaire du Planificateur dans le champ**[!UICONTROL  Fuseau horaire.]**
+1. Dans l&#39;onglet **[!UICONTROL Options d&#39;exécution]**, définissez le fuseau horaire du Planificateur dans le champ **[!UICONTROL Fuseau horaire.]**
 
    Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion selon le fuseau horaire du destinataire, consultez cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou reportez-vous à cet [exemple](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) de workflow récurrent.
 
