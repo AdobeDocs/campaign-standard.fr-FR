@@ -1,6 +1,7 @@
 ---
-title: A propos de la délivrabilité dans Adobe Campaign
-description: Découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Standard pour optimiser l''envoi de vos diffusions.
+title: !binary |-
+woHDgCBwcm9wb3MgZGUgbGEgZMOpbGl2cmFiaWxpdMOpIGRhbnMgQWRvYmXCoENhbXBhaWduwqBTdGFuZGFyZA=
+description: 'Découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Standard pour optimiser l''envoi de vos diffusions.'
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -12,7 +13,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
@@ -20,7 +21,7 @@ source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 # A propos de la délivrabilité{#about-deliverability}
 
-La délivrabilité permet de mesurer le succès de vos campagnes dans la boîte de réception des destinataires sans rebondir ni être marquée comme indésirable.
+La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam.
 
 Le taux de délivrabilité dépend de nombreux facteurs et notamment :
 
@@ -44,7 +45,7 @@ Voici une liste de points clés à vérifier pour assurer une bonne délivrabili
 ## Outils de délivrabilité {#deliverability-tools}
 
 Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
-* [Bonnes pratiques de diffusion](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
 * [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
 * [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
 * [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md)
