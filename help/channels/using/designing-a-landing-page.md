@@ -12,7 +12,7 @@ discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
@@ -47,7 +47,7 @@ Cette page décrit les spécificités de l&#39;éditeur de contenu de landing pa
 
 ## Interface de l&#39;éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
-L&#39;éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]**dans le tableau de bord des landing pages.
+L&#39;éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
 
 L&#39;éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
 
@@ -263,7 +263,7 @@ Les paramètres définis pour un élément d&#39;un bloc (liens, champs de perso
 
 ![](assets/des_lp_content_4.png)
 
-### Ajouter une bordure et un arrière-plan dans l&#39;éditeur de contenu   {#adding-a-border-and-a-background-in-the-content-editor}
+### Ajouter une bordure et un arrière-plan dans l&#39;éditeur de contenu    {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -273,7 +273,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l&#39;éditeur de contenu   {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l&#39;éditeur de contenu    {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l&#39;intérieur d&#39;un bloc de texte.
 
@@ -287,14 +287,14 @@ Pour modifier l&#39;alignement du texte, sélectionnez l&#39;une des trois icôn
 
 Vous pouvez également utiliser la barre d&#39;outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page   {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page    {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d&#39;une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. Sélectionnez **[!UICONTROL Image locale]**dans la barre d&#39;outils contextuelle.
+1. Sélectionnez **[!UICONTROL Image locale]** dans la barre d&#39;outils contextuelle.
 
    ![](assets/des_insert_images_lp_2.png)
 
