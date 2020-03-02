@@ -12,7 +12,7 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
@@ -23,12 +23,12 @@ source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Ces données sont :
 
 * nombre de messages traités par heure
-* Le tableau **[!UICONTROL Top 5 des diffusions]**et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
+* Le tableau **[!UICONTROL Top 5 des diffusions]** et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
 
 ![](assets/delivery_reports_1.png)
 
 >[!IMPORTANT]
 >
->Une fois la mise à niveau vers la MTA améliorée, la page de débit **[!UICONTROL de]**diffusion n’affiche plus le débit pour vos destinataires de courrier électronique. Il indique la vitesse de débit du relais de vos messages de Campaign vers la MTA améliorée.
+>Une fois la mise à niveau effectuée vers le MTA amélioré, la page **[!UICONTROL Débit des diffusions]** n’affiche plus le débit vers les destinataires de vos emails. Elle indique le débit du relais de vos messages entre Campaign et le MTA amélioré.
 >
->Pour plus d’informations sur la MTA améliorée d’Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Pour plus d’informations sur le serveur de diffusion MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
