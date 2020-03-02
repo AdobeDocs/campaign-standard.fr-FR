@@ -11,7 +11,7 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign permet de créer et d&#39;envoyer des messages personnalisés sur
 
 Il permet également de créer des campagnes cross-canal pour mieux cibler les destinataires.
 
-Cinq canaux de messagerie sont disponibles dans Adobe Campaign :
+Cinq canaux de messagerie sont disponibles dans Adobe Campaign :
 
 * Email, présenté dans la section [Créer un email](../../channels/using/about-emails.md)
 * SMS, présenté dans la section [Créer un SMS](../../channels/using/about-sms-messages.md)
