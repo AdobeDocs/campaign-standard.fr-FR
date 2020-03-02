@@ -12,7 +12,7 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 * configurer les mappings de ciblage pour gérer les paramètres techniques requis pour envoyer les diffusions ;
 * définir des notifications internes dans l&#39;application, etc.
 
-These settings are available from the **[!UICONTROL Administration]**/**[!UICONTROL  Application settings]** menu.
+Ces paramètres sont disponibles dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage de l’application]**.
 
 En outre, des options techniques sont disponibles dans le menu **[!UICONTROL Options]**, ce qui vous permet de configurer l&#39;application plus spécifiquement. Certaines d&#39;entre elles sont intégrées lors de l&#39;installation de Campaign et d&#39;autres peuvent être ajoutées manuellement en cas de besoin. Les options disponibles varient en fonction des packages installés avec votre instance.
 
