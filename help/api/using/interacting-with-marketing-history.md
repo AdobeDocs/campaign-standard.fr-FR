@@ -11,7 +11,7 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez ainsi, par exemple, récupérer facilement la page miroir d’une di
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
 Récupérez l’historique marketing du profil à l’aide d’une requête GET.
 
