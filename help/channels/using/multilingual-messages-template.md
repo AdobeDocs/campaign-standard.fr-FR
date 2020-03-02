@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
@@ -19,15 +19,15 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 # Modèles de messages multilingues {#multilingual-messages-template}
 
-Un modèle multilingue est un modèle spécifique qui permet de gérer les messages multilingues. This kind of template is available for ****Email** and **SMS messages**  and useable in standalone mode, within a workflow or in a recurring delivery.
+Un modèle multilingue est un modèle spécifique qui permet de gérer les messages multilingues. Ce type de modèle est disponible pour les ****emails** et **SMS** et peut être utilisé en mode autonome, dans un workflow ou dans une diffusion récurrente.
 
 Dans les modèles multilingues, la gestion des langues repose sur les variantes. **Chaque variante représente une langue**. Il est possible de configurer jusqu&#39;à 40 variantes dans Adobe Campaign Standard.
 
-Adobe Campaign comes with a default language which is set to **EN**. La langue par défaut peut être remplacée par une autre variante, mais ne doit jamais être supprimée.
+Adobe Campaign est livré avec une langue par défaut définie sur **EN**. La langue par défaut peut être remplacée par une autre variante, mais ne doit jamais être supprimée.
 
 Pendant la création du modèle, vous pouvez ajouter le nombre de variantes qui correspond à celui des langues dont vous avez besoin pour le message.
 
-Pour créer un modèle de SMS ou de courrier électronique, procédez comme suit :
+Pour créer un modèle d’email ou de SMS, procédez comme suit :
 
 1. Dupliquez un modèle multilingue existant (SMS ou Email).
 
@@ -35,7 +35,7 @@ Pour créer un modèle de SMS ou de courrier électronique, procédez comme suit
 
    >[!NOTE]
    >
-   >Vous pouvez également modifier un modèle standard existant dans un modèle multilingue en cliquant sur le bouton **[!UICONTROL Initialiser la variante du contenu]**dans les propriétés du modèle.
+   >Vous pouvez également modifier un modèle standard existant dans un modèle multilingue en cliquant sur le bouton **[!UICONTROL Initialiser la variante du contenu]** dans les propriétés du modèle.
 
 1. Modifiez les propriétés pour personnaliser le libellé, le tracking, etc.
 1. Changez le nombre de variantes en cliquant sur la vignette des variantes. La fenêtre des variantes s&#39;affiche,
@@ -50,7 +50,7 @@ Pour créer un modèle de SMS ou de courrier électronique, procédez comme suit
    >
    >Ne supprimez pas la variante &quot;default&quot;, car il s&#39;agit de la variante envoyée aux profils lorsqu&#39;aucun paramètre de préférence linguistique n&#39;est indiqué.
 
-1. Customize label variant if needed and click **[!UICONTROL Confirm]**.
+1. Au besoin, personnalisez la variante du libellé et cliquez sur **[!UICONTROL Confirmer]**.
 1. Vous pouvez aussi ajouter directement le contenu pour chaque variante.
 
 Vous êtes maintenant prêt à créer un email ou un SMS à partir de ce modèle multilingue.
