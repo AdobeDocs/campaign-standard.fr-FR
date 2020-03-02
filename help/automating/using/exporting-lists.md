@@ -11,7 +11,7 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 ---
@@ -19,13 +19,13 @@ source-git-commit: e35fdca6cb8cad79975f8150aa63bd65e50a4e1a
 
 # Export de listes{#exporting-lists}
 
-Adobe Campaign vous permet d&#39;exporter le contenu de vos listes directement dans un fichier en vue d&#39;une utilisation ultérieure. L&#39;export d&#39;une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d&#39;informations sur les audits des exports, consultez la section[Audits des exports](../../administration/using/auditing-export-logs.md).
+Adobe Campaign vous permet d&#39;exporter le contenu de vos listes directement dans un fichier en vue d&#39;une utilisation ultérieure. L&#39;export d&#39;une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d&#39;informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
 
-L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel depuis le menu **[!UICONTROL Administration]** >**[!UICONTROL  Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
+L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
 
 Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste**, pour les utilisateurs disposant du rôle **[!UICONTROL EXPORT (export)]**.
 
-1. Accédez à l&#39;écran de type **Liste** de votre choix. Par exemple, la vue d&#39;ensemble des profils de test (**[!UICONTROL Profils &amp; audiences]**>**[!UICONTROL  Profils de test]** ).
+1. Accédez à l&#39;écran de type **Liste** de votre choix. Par exemple, la vue d&#39;ensemble des profils de test (**[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Profils de test]** ).
 1. Assurez-vous que l&#39;écran se trouve en mode **Liste**.
 
    ![](assets/export_list_mode_switch.png)
@@ -40,7 +40,7 @@ Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste
 
    Une popup de confirmation s&#39;affiche. Une fois que vous avez confirmé l&#39;export, le fichier est automatiquement téléchargé sur votre poste.
 
-Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : le nom profileBase_20150426_120253.txt sera appliqué à une exportation de profil effectuée le 26 avril 2015 à 12:02:53. Il est encodé au format UTF-8.
+Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : profileBase_20150426_120253.txt pour un export de profils réalisé le 26 avril 2015 à 12h02 et 53 secondes. Il est encodé au format UTF-8.
 
 Les valeurs numériques et les dates tiennent compte de la locale de l&#39;utilisateur qui exécute l&#39;export. Par exemple : JJ-MM-YYYY ou MM-JJ-YYYY.
 
