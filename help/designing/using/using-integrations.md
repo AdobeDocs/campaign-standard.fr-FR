@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
@@ -37,13 +37,13 @@ L&#39;intégration d&#39;Adobe Campaign Standard à Dreamweaver permet d&#39;éd
 
    Le développeur d&#39;email n&#39;a plus besoin d&#39;ajouter du texte du type `[[FIRSTNAME_PLACEHOLDER]]` ni de rechercher la syntaxe des tables de votre modèle de données. La barre d&#39;outils Campaign dans Dreamweaver se connecte directement au modèle de données de votre instance Campaign. Cela signifie que vous pouvez extraire toutes les données que vous voulez pour les personnaliser, du prénom à l&#39;adresse. Si vous avez créé des blocs de contenu au sein de Campaign, vous pouvez également les intégrer directement dans Dreamweaver.
 
-Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Une [vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) de démonstration est également disponible.
+Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Une [vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) de démonstration est également disponible.
 
 ## Editer le contenu dans Experience Manager {#editing-content-in-experience-manager}
 
 Un contenu d&#39;email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d&#39;email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
 
-## Comparaison des options de conception d&#39;email  {#email-design-options-comparison}
+## Comparaison des options de conception d&#39;email    {#email-design-options-comparison}
 
 Adobe Campaign propose plusieurs options de création d&#39;email. Le tableau ci-après présente les possibilités, avantages et limites de chacune d&#39;elles.
 
@@ -139,7 +139,7 @@ Adobe Campaign propose plusieurs options de création d&#39;email. Le tableau ci
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">A propos du Concepteur d'email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
