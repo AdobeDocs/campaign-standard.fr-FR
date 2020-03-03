@@ -21,11 +21,15 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-## Version 20.1.3 - Février 2020 {#release-20-1-3---february-2020}
+## Version 20.1.4 - Février 2020    {#release-20-1-4---february-2020}
+
+* Correction d’un problème lors de l’ouverture d’une activité Public **** lu sur des processus existants. (CAMP-41002)
+
+## Version 20.1.3 - Février 2020    {#release-20-1-3---february-2020}
 
 * Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la boucle. Le CAMP-39273 a été annulé.
 
-## Version 20.1.2 - Février 2020 {#release-20-1-2---february-2020}
+## Version 20.1.2 - Février 2020    {#release-20-1-2---february-2020}
 
 **Améliorations du Concepteur d&#39;email**
 
@@ -41,13 +45,13 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Connecteur de données Adobe Experience Platform (bêta)</strong><br /> </th> 
+   <th> <strong>Adobe Experience Platform Data Connector (version bêta)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le connecteur de données Adobe Experience Platform est désormais intégré à Adobe Campaign Standard. Vous pouvez rendre vos données de campagne disponibles sur Adobe Experience Platform en mappant les données XTK (données assimilées dans Campaign) au modèle de données de la plateforme Adobe Experience Platform (XDM). </p>
-    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions d’activation, reportez-vous à la documentation <a href="../../administration/using/aep-about-data-connector.md"></a> détaillée et à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html"></a>comment l’activer.</p>
+   <td> <p>Adobe Experience Platform Data Connector est maintenant intégré avec Adobe Campaign Standard. Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,13 +60,13 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Destinations d’audience (bêta) </strong><br /> </th> 
+   <th> <strong>Audience Destinations (version bêta) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Destinations d’audience vous permet de partager des segments d’Adobe Experience Platform vers Adobe Campaign.</p>
-    <p>Notez que cette fonctionnalité n'est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions d’activation, reportez-vous à la documentation <a href="../../audiences/using/aep-about-audience-destinations-service.md"></a> détaillée et à la vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html"></a>comment l’activer. </p>
+   <td> <p>Audience Destinations permet de partager des segments d’Adobe Experience Platform avec Adobe Campaign.</p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,23 +74,23 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 **Améliorations**
 
-* Disponibilité mondiale de l&#39;accord de libre-échange amélioré : les messages (y compris les messages transactionnels) sont désormais envoyés par la MTA améliorée d’Adobe Campaign, qui fournit une infrastructure d’envoi améliorée permettant une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+* Disponibilité générale du MTA amélioré : les messages (y compris les messages transactionnels) sont maintenant envoyés par le MTA amélioré d’Adobe Campaign. Ce MTA est doté d’une version mise à niveau de l’infrastructure d’envoi qui permet d’améliorer la délivrabilité, le débit et la gestion des bounces. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
-* La gestion du fuseau horaire a été améliorée. Vous pouvez désormais définir un fuseau horaire [spécifique](../../automating/using/building-a-workflow.md) pour l’ensemble d’un processus. Le fuseau horaire sélectionné s’applique à toutes les activités du processus. Les informations sur le fuseau horaire configuré pour l’opérateur ou le serveur s’affichent désormais dans l’interface (dans les journaux et après avoir sélectionné un fuseau horaire). (CAMP-37672)
+* La gestion des fuseaux horaires a été améliorée. Vous pouvez maintenant définir un [fuseau horaire spécifique](../../automating/using/building-a-workflow.md) pour l’ensemble d’un workflow. Le fuseau horaire sélectionné s’applique à toutes les activités du workflow. Les informations sur le fuseau horaire, configurées pour l’opérateur ou le serveur, s’affichent maintenant dans l’interface (dans les logs et après avoir sélectionné un fuseau horaire). (CAMP-37672)
 
-* Les API de Campaign Standard vous permettent désormais d’effectuer une pagination lors de l’utilisation de tableaux volumineux, en ajoutant le `_forcePagination=true` paramètre à votre URL d’appel. [En savoir plus](../../api/using/pagination.md)
+* Les API de Campaign Standard permettent maintenant d’effectuer une pagination lors de l’utilisation de tables volumineuses, en ajoutant le paramètre `_forcePagination=true` à votre URL d’appel. [En savoir plus](../../api/using/pagination.md)
 
-* L’ID du journal de diffusion (qui est un identifiant unique pour chaque journal) est désormais disponible dans les ressources des journaux de diffusion et des journaux de suivi pour toutes les dimensions de ciblage. Cela permet d’identifier l’envoi ou le suivi des journaux lors de l’exportation, par exemple. [En savoir plus](../../automating/using/exporting-logs.md)
+* L’identifiant de log de diffusion (unique pour chaque log) est maintenant disponible dans les ressources des logs de diffusion et de tracking pour toutes les dimensions de ciblage. Vous pouvez ainsi identifier les logs d’envoi ou de tracking, par exemple lors d’un export. [En savoir plus](../../automating/using/exporting-logs.md)
 
 **Améliorations du Concepteur d&#39;email**
 
-* Ajout d’instructions de texte obligatoire manquantes lors de la création d’une audience.
-* Correction d’un problème en cliquant sur le bouton **Modifier le contenu** dans l’assistant de l’éditeur de courrier électronique hérité.
-* Correction d’un problème qui empêchait l’alignement des en-têtes avec le contenu du rapport Résumé du service. (CAMP-38103)
-* Correction d’un problème qui empêchait la suppression des variantes de contenu dynamique sans affecter le reste de la ligne d’objet. (CAMP-40096)
+* Ajout d’instructions de texte obligatoires manquantes lors de la création d’une audience.
+* Correction d’un problème qui se produisait lorsqu’un utilisateur cliquait sur le bouton **Changer de contenu** dans l’assistant de l’ancien éditeur d’email.
+* Correction d’un problème qui empêchait l’alignement des en-têtes avec le contenu du rapport Synthèse du service. (CAMP-38103)
+* Correction d’un problème qui empêchait la suppression des variantes de contenu dynamique sans répercussion sur le reste de la ligne d’objet. (CAMP-40096)
 * Correction d’un problème de test A/B lors de l’utilisation de la variante B sur la ligne d’objet. (CAMP-40327)
-* Correction d’un problème en raison duquel vous ne pouviez pas faire glisser et déposer des fichiers lors de l’utilisation de la fonction d’importation de code HTML de téléchargement. (CAMP-39326)
-* Correction d’un problème qui empêchait la copie et le collage de texte à partir d’un éditeur de texte. (CAMP-39028)
+* Correction d’un problème qui empêchait d’effectuer un glisser-déposer des fichiers avec la fonctionnalité de chargement d’import de code HTML. (CAMP-39326)
+* Correction d’un problème qui empêchait d’effectuer un copier-coller de texte à partir d’un éditeur de texte. (CAMP-39028)
 * Correction d’un problème qui empêchait l’affichage des suggestions de mots. (CAMP-38970)
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer des fragments. (ATU-2447)
 * Correction d’un problème empêchant la duplication des structures dynamiques. (CAMP-38367)
@@ -94,34 +98,34 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 **Autres changements**
 
-* Le filtre &quot;Livraisons avec échec de la préparation&quot; prend désormais en compte la date de création des livraisons plutôt que la date de dernière modification.
-* L’unité organisationnelle du groupe de sécurité Administrateurs ne peut plus être modifiée.
-* Lors de la création d’un profil, le champ Unité organisationnelle doit maintenant être rempli.
-* Déclencheur Experience Cloud ne peut désormais être supprimé que si l’événement et le modèle transactionnel qui y sont liés sont supprimés.
+* Le filtre « Diffusions avec préparation en échec » prend maintenant en compte la date de création des diffusions plutôt que la date de dernière modification.
+* Il n’est plus possible de modifier les entités organisationnelles du groupe de sécurité Administrateurs.
+* Lors de la création d’un profil, le champ Entité organisationnelle doit maintenant être renseigné.
+* Un trigger Experience Cloud ne peut maintenant être supprimé que si l’événement et le modèle transactionnel associés sont aussi supprimés.
 * Adobe Creative SDK a été mis hors service. Elle est désormais obsolète dans Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
 
 
 **Correctifs**
 
 * Correction d’un problème lors de l’exécution d’une demande de suppression de confidentialité qui empêchait la suppression des données utilisateur dans les journaux d’exclusion. (CAMP-39003)
-* Correction d’un problème qui provoquait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
-* Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lors du survol dans les activités marketing.
-* Correction d’un problème dans l’ **[!UICONTROL External API]** activité qui affichait le **[!UICONTROL Confirm]** bouton même lorsqu’aucune donnée n’était modifiée.
-* Correction d’un problème lors de l’utilisation d’une **[!UICONTROL Union]** activité sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
-* Correction d’un problème susceptible d’entraîner une erreur lors de l’utilisation d’une **[!UICONTROL Reconciliation]** activité dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)
-* Correction de problèmes de performances qui pouvaient survenir lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
-* Correction d’un problème en raison duquel les pages d’erreur pouvaient s’afficher lors de l’abonnement ou du désabonnement via les pages d’entrée. (CAMP-37771)
-* Correction d’un problème survenant lors du téléchargement de contenu au format zip, avec des fichiers PNG référencés dans le code HTML avec leur extension en majuscules. (CAMP-37913)
-* Correction d’un problème qui empêchait l’envoi de messages in-app lors de l’ajout d’un profil de test à la diffusion.
-* Correction d’une erreur avec l’activité de flux de travaux API externe qui échouait lorsqu’elle était liée à des activités d’enrichissement.
-* Correction d’un problème en raison duquel l’état des messages SMS pouvait s’afficher incorrectement.
-* Correction d’un problème lié aux ressources personnalisées en raison duquel les entrées en double apparaissaient sous différents points de fin d’API.
-* Correction d’un problème qui empêchait la disponibilité des pages d’entrée après publication. (CAMP-38695)
+* Correction d’une erreur qui entraînait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
+* Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lorsqu’ils pointaient sur des activités marketing.
+* Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
+* Correction d’un problème lors de l’utilisation d’une activité **[!UICONTROL Union]** sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
+* Fixed an issue that could lead to an error when using a **[!UICONTROL Reconciliation]** activity in specific contexts, for example with two inbound activities, one of them being an exclusion activity. (CAMP-37490)
+* Correction de problèmes de performances possibles lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
+* Correction d’un problème qui entraînait l’affichage de pages d’erreur lors d’un abonnement ou d’un désabonnement via les landing pages. (CAMP-37771)
+* Correction d’un problème qui se produisait lors du téléchargement de contenu au format zip, comportant des fichiers PNG référencés dans le code HTML avec des extensions en majuscules. (CAMP-37913)
+* Correction d’un problème qui empêchait l’envoi de messages In-app lors de l’ajout d’un profil de test à la diffusion.
+* Correction d’une erreur liée à l’activité de workflow API externe qui échouait lorsqu’elle était liée à des activités d’enrichissement.
+* Correction d’un problème susceptible d’entraîner l’affichage incorrect de l’état des messages SMS.
+* Correction d’un problème lié aux ressources personnalisées qui entraînait l’apparition d’entrées en double pour différents points d’entrée d’API.
+* Correction d’un problème qui empêchait la disponibilité des landing pages après publication. (CAMP-38695)
 * Correction d’un bogue qui se produisait lors de l’affichage des données d’une transition Intersection provenant de deux ressources différentes. (CAMP-38974)
-* Correction d’un problème en raison duquel la valeur d’énumération dans un modèle de remise était incorrectement définie. (CAMP-38388)
-* Correction d’une erreur en raison de laquelle les diffusions en vrac par courrier électronique affichaient l’état des remises comme En attente et l’état Envoyé comme Terminé. (CAMP-35355)
+* Correction d’un problème qui entraînait une définition incorrecte de la valeur d’énumération dans un modèle de diffusion. (CAMP-38388)
+* Correction d’une erreur lors de diffusions email en masse, qui entraînait l’affichage de l’état des diffusions En attente et de l’état Envoyé comme Terminé. (CAMP-35355)
 * Correction d’une erreur qui affichait incorrectement le domaine de l’expéditeur dans les rapports dynamiques. (CAMP-33123)
-* Correction d’un problème qui provoquait des incohérences dans le nombre d’annulation d’abonnement dans les rapports dynamiques. (CAMP-39949)
-* Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Envoi des journaux lors de l’envoi de messages in-app.
-* Correction d’un problème qui empêchait la mise à jour des journaux d’envoi SMS avec le nombre correct de rebonds. (CAMP-38395)
+* Correction d’un problème qui entraînait des incohérences dans le nombre de désabonnements dans les rapports dynamiques. (CAMP-39949)
+* Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-app.
+* Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de bounces. (CAMP-38395)
 * Correction d’une faille qui permettait aux appels de publication de l’abonnement à l’application de mettre à jour les jetons de notification Push. (CAMP-39273)
