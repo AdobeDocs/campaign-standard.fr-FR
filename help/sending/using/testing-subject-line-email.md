@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
+translation-type: tm+mt
+source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
 ---
 
@@ -22,9 +22,9 @@ Pour tester un objet, procédez comme suit :
 
 1. Créez un email ou ouvrez un email existant.
 1. Ouvrez le contenu et saisissez l&#39;objet de l&#39;email dans le champ de saisie prévu à cet effet.
-1. Cliquez sur le bouton **[!UICONTROL Tester l&#39;objet]**pour afficher la fenêtre**[!UICONTROL  Tester la ligne d&#39;objet]**. Vous pouvez toujours éditer l&#39;objet dans cette fenêtre.
+1. Cliquez sur le **[!UICONTROL Test subject]** bouton pour accéder à la **[!UICONTROL Test your subject line]** fenêtre. Vous pouvez toujours éditer l&#39;objet dans cette fenêtre.
 1. Choisissez le bon modèle à prendre en compte pour la prédiction du taux d&#39;ouverture. Plusieurs modèles sont disponibles. Chacun d&#39;entre eux correspond à un secteur d&#39;activité spécifique.
-1. Cliquez sur **[!UICONTROL Tester]**.
+1. Clics **[!UICONTROL Test]**.
 
 Votre objet est alors analysé.
 
@@ -52,7 +52,7 @@ Par défaut, aucun modèle n&#39;est exécuté sur le serveur Adobe Campaign. De
 * Vous pouvez entraîner un modèle local à partir des données des emails envoyés :
 
    * Si vous utilisez déjà Adobe Campaign, le modèle local sera automatiquement entraîné avec les messages que vous avez déjà envoyés.
-   * Si vous utilisez Adobe Campaign pour la première fois, vous pouvez extraire de votre précédent système/fournisseur de services de messagerie un fichier CSV contenant 4 colonnes : date, objet, ouvertures, envoyés. Pour cela, accédez à **[!UICONTROL Administration]**>**[!UICONTROL  Canaux]** > **[!UICONTROL Email]**>**[!UICONTROL  Import d&#39;objet]**, puis suivez les instructions affichées dans les différents écrans. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
+   * Si vous utilisez Adobe Campaign pour la première fois, vous pouvez extraire de votre précédent système/fournisseur de services de messagerie un fichier CSV contenant 4 colonnes : date, objet, ouvertures, envoyés. Pour ce faire, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** et suivez les instructions fournies sur les écrans suivants. Lorsque le téléchargement des objets est terminé, importez un modèle local en suivant la procédure qui est décrite ci-après. Le modèle local est automatiquement entraîné avec les données que vous avez téléchargées.
    * Si vous utilisez Adobe Campaign pour la première fois et si vous ne pouvez pas obtenir de fichier CSV comme décrit plus haut, vous pouvez utiliser un modèle pré-entraîné ou attendre que le système dispose de suffisamment de données de diffusion pour entraîner un modèle local. Le système détermine automatiquement si le jeu de données actuel contient suffisamment de données pour reconnaître des constantes et entraîner le modèle.
 
       >[!NOTE]
@@ -60,13 +60,13 @@ Par défaut, aucun modèle n&#39;est exécuté sur le serveur Adobe Campaign. De
       >Il n&#39;y a pas de nombre défini d&#39;objets requis pour entraîner votre propre modèle. Pour l&#39;entraîner, les objets doivent être variés et ne pas présenter de doublons. Si les données à traiter ne sont pas suffisantes, le système ne sera pas en mesure d&#39;entraîner le modèle. Votre instance ne peut contenir qu&#39;un seul modèle entraîné.
    Pour entraîner un modèle local, téléchargez le fichier subjectLineTraining.xml depuis [cet emplacement](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) et utilisez la fonctionnalité d&#39;[import de package](../../automating/using/managing-packages.md) pour le charger dans votre instance Adobe Campaign. Un workflow technique entraînera automatiquement le modèle.
 
-   Lorsque vous entraînez un modèle pour la première fois, un administrateur peut forcer le démarrage du **[!UICONTROL Workflow d&#39;apprentissage de l&#39;objet]**depuis le menu**[!UICONTROL  Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** >**[!UICONTROL  Workflows]**.
+   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** menu.
 
    Une fois un modèle téléchargé et entraîné, la fonctionnalité est automatiquement activée. Une nouvelle option apparaît alors en regard de l&#39;objet de vos messages.
 
    Le workflow technique continue ensuite l&#39;apprentissage du modèle toutes les semaines.
 
-* Vous pouvez importer des modèles pré-entraînés qui sont spécifiques à certains secteurs d&#39;activité (médical, etc.) à l&#39;aide de la fonctionnalité d&#39;[import de package](../../automating/using/managing-packages.md) Ces modèles sont disponibles [ici](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) et ne peuvent pas faire l&#39;objet d&#39;un apprentissage.
+* Vous pouvez importer des modèles pré-entraînés qui sont spécifiques à certains secteurs d&#39;activité (médical, etc.) à l&#39;aide de la fonctionnalité d&#39;[import de package](../../automating/using/managing-packages.md) Pour accéder à ces modèles, cliquez [ici](https://support.neolane.net/webApp/extranetLogin) et accédez au Centre de **[téléchargement]**.Ces modèles ne peuvent pas être formés.
 
    Une fois un modèle téléchargé, la fonctionnalité est automatiquement activée. Une nouvelle option apparaît alors en regard de l&#39;objet de vos messages.
 
