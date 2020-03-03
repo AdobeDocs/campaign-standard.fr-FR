@@ -31,7 +31,7 @@ Les prérequis sont :
 
 Connectez-vous à votre instance de création Adobe Experience Manager et parcourez votre site pour accéder au dossier contenant votre contenu de courrier électronique.
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
