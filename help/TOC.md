@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
+source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
 
 ---
 
@@ -65,10 +65,10 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Les processus d&#39;inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d&#39;inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [À propos du service Destinations d’audience](audiences/using/aep-about-audience-destinations-service.md)
-      + [Gestion des audiences d’Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
-      + [Utilisation du créateur de segments unifiés](audiences/using/aep-using-segment-builder.md)
+   + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
+      + [À propos du service Audience Destinations](audiences/using/aep-about-audience-destinations-service.md)
+      + [Gestion des audiences Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
+      + [Utilisation du créateur de segment unifié](audiences/using/aep-using-segment-builder.md)
 + Canaux de communication {#communication-channels}
    + Canaux de communication {#about-communication-channels}
       + [Découvrir les canaux de communication](channels/using/discovering-communication-channels.md)
@@ -94,6 +94,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Préparation et envoi d&#39;une notification push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personnalisation d&#39;une notification push](channels/using/customizing-a-push-notification.md)
       + [Création d&#39;une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
+      + [Génération d’un fichier CSV pour la notification Push multilingue](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d&#39;applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
@@ -199,6 +200,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Utilisation de Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [À propos de l’intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Création d&#39;un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Utilisation de Campaign et Target {#working-with-campaign-and-target}
@@ -214,7 +216,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Mise en service et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Utilisation de Campaign et Analytics pour Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [A propos de l&#39;intégration Campaign-Données de points ciblés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurer l&#39;intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -296,14 +298,15 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
       + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
-   + Utilisation des audiences d’Adobe Experience Platform {#working-with-aep-audiences}
-      + [Ciblage des audiences d’Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
-      + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
+   + Utilisation des audiences Adobe Experience Platform {#working-with-aep-audiences}
+      + [Ciblage des audiences Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
       + [Statuts des ressources](developing/using/resource-statuses.md)
       + [Contrôle des modifications du modèle de données](developing/using/monitoring-data-model-changes.md)
+      + [Meilleures pratiques du modèle de données](developing/using/data-model-best-practices.md)
    + Ajouter ou étendre une ressource {#adding-or-extending-a-resource}
       + [Principales étapes pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
@@ -366,12 +369,12 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Envoi de notifications internes](administration/using/sending-internal-notifications.md)
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [À propos d’Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Présentation du modèle de données de plateforme d’expérience](administration/using/aep-data-model-overview.md)
-      + [Définition de mappage](administration/using/aep-mapping-definition.md)
-      + [Activation de mappage](administration/using/aep-mapping-activation.md)
-      + [Déclenchement de l’assimilation de données via les API](administration/using/aep-triggering-data-ingestion.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [À propos d’Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
+      + [Présentation d’Experience Platform Datamodel ](administration/using/aep-data-model-overview.md)
+      + [Définition d’un mapping](administration/using/aep-mapping-definition.md)
+      + [Activation du mapping](administration/using/aep-mapping-activation.md)
+      + [Déclenchement de l’ingestion des données via les API](administration/using/aep-triggering-data-ingestion.md)
 + Utilisation des API {#working-with-apis}
    + A propos des API de Campaign Standard {#about-campaign-standard-apis}
       + [Présentation](api/using/about-campaign-standard-apis.md)
