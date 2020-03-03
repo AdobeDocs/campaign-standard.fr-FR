@@ -1,7 +1,6 @@
 ---
-title: !binary |-
-woHDgCBwcm9wb3MgZGUgbGEgZMOpbGl2cmFiaWxpdMOpIGRhbnMgQWRvYmXCoENhbXBhaWduwqBTdGFuZGFyZA=
-description: 'Découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Standard pour optimiser l''envoi de vos diffusions.'
+title: À propos de la délivrabilité dans Adobe Campaign Standard
+description: Découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Standard pour optimiser l'envoi de vos diffusions.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
