@@ -10,8 +10,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eb7f04e151b04d669b93446ad70c3865170c39cf
+translation-type: tm+mt
+source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
 
 ---
 
@@ -19,5 +19,11 @@ source-git-commit: eb7f04e151b04d669b93446ad70c3865170c39cf
 # Présentation du modèle de données{#data-model-introduction}
 
 Un modèle de données d&#39;usine est fourni avec Adobe Campaign.
+
+Le modèle de données  Adobe Campaign Standard affiche la structure SQL prête à l’emploi pour un ensemble de ressources liées au marketing.
+
+Ce contenu est destiné aux services de conseil ou aux développeurs.
+
+Pour chaque ressource, un tableau  les champs SQL avec des caractéristiques disponibles telles que le nom interne, le type et les détails  du. Une deuxième partie présente les  prêtes à l&#39;emploi associées à la ressource. Chaque filtre est fourni avec ses  de paramètres.
 
 Ce modèle de données peut être modifié par les [administrateurs](../../administration/using/users-management.md#functional-administrators) qui peuvent ajouter de nouvelles ressources ou des extensions à des ressources existantes.
