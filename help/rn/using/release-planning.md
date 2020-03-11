@@ -1,6 +1,6 @@
 ---
-title: Planification de la publication de Campaign Standard
-description: Cette page répertorie les prochaines versions d’Adobe Campaign Standard.
+title: Planification de la publication Campaign Standard
+description: Cette page  les prochaines versions de  Standard.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -29,9 +29,9 @@ Toutes les dates de publication sont sujettes à modification : nous vous recomm
 
 Abonnez-vous pour [recevoir des notifications](https://www.adobe.com/subscription/priority-product-update.html) de mise à jour afin d’obtenir des détails sur les dernières versions d’Adobe Experience Cloud directement dans votre boîte de réception.
 
-## Version 20.1.4 - Mise à jour de la version de février {#release-20-1-4---february-release-update}
+## Version 20.2.1 - Version d’avril {#release-20-2-april-release}
 
-Les mises à jour d’environnement se produisent par vagues, pendant les périodes indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les Notes [de](../../rn/using/release-notes.md)mise à jour. Si vous avez d’autres questions, contactez le service à la clientèle [Adobe](https://support.neolane.net/webApp/extranetLogin).
+  mises à jour de se produisent dans les, pendant les périodes indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les Notes [de](../../rn/using/release-notes.md)mise à jour. Si vous avez d’autres questions, contactez le service à la clientèle [Adobe](https://support.neolane.net/webApp/extranetLogin).
 
 <table> 
  <thead> 
@@ -43,11 +43,11 @@ Les mises à jour d’environnement se produisent par vagues, pendant les pério
  <tbody> 
   <tr> 
    <td> Etape<br /> </td> 
-   <td> 17-18 février 2020<br /> </td> 
+   <td> March 23 - 24, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
-   <td> 20 février au 5 mars 2020<br /> </td> 
+   <td> 31 mars au 6 avril 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Les mises à jour d’environnement se produisent par vagues, pendant les pério
 
 **Q : Quel est l&#39;impact ?**
 
-A : Les modifications sont répertoriées dans les Notes [de](../../rn/using/release-notes.md)mise à jour, y compris les liens vers la documentation connexe. Adobe recommande également de consulter la page [Fonctions](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsolètes et supprimées. Ces pages sont disponibles pour la nouvelle version à la date de mise à niveau de l’environnement Stage.
+A : Les modifications sont répertoriées dans les Notes [de](../../rn/using/release-notes.md)mise à jour, y compris les liens vers la documentation connexe. Adobe recommande également de consulter la page [Fonctions](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsolètes et supprimées. Ces pages sont disponibles pour la nouvelle version à la date de  de la mise à niveau  du Stage.
 
 **Q : Quel est le processus de validation ?**
 
@@ -66,15 +66,15 @@ A : À mesure que votre instance d’évaluation est mise à niveau, Adobe conse
 
 **Q : Y aura-t-il accès à l’instance pendant le processus de mise à niveau ?**
 
-A :Non. Lors de la mise à niveau de l’instance, il se peut que la base de données ne soit pas accessible pendant quelques minutes. Tous les processus redémarrent automatiquement.
+A : Non. Lors de la mise à niveau de l’instance, il se peut que la base de données ne soit pas accessible pendant quelques minutes. Tous les processus redémarrent automatiquement.
 
 **Q : Les messages continueront-ils à être envoyés ?**
 
-A :Non. Les messages ne seront pas envoyés pendant quelques minutes. Dès que la mise à niveau est terminée, les processus sont automatiquement redémarrés.
+A : Non. Les messages ne seront pas envoyés pendant quelques minutes. Dès que la mise à niveau est terminée, les processus sont automatiquement redémarrés.
 
-**Q : Les processus continueront-ils à s’exécuter et à envoyer les livraisons ?**
+**Q : Le continuera-t-il à s&#39;exécuter et à envoyer le  ?**
 
-A :Non. Lors de la mise à niveau de la version, le serveur de flux de travail et MTA sont arrêtés. Cela signifie que les processus ne s’exécuteront pas et que les livraisons ne seront pas envoyées pendant quelques minutes. Aucune action n’est requise : les processus redémarrent dès que l’instance est mise à niveau.
+A : Non. Lors de la mise à niveau de la version, le serveur de flux de travail et MTA sont arrêtés. Cela signifie que les  de ne s’exécuteront pas et que les  de ne seront pas envoyées pendant quelques minutes. Aucune action n’est requise :  de se de nouveau dès que l’instance est mise à niveau.
 
 **Q : Le suivi des liens dans les messages fonctionnera-t-il toujours lors de la mise à niveau ?**
 
@@ -82,6 +82,6 @@ A : Oui, ils marcheront. Les nouveaux courriers électroniques ne peuvent pas ê
 
 **Q : Comment savoir si la mise à niveau est terminée ?**
 
-A : Lors de la connexion à Campaign, une fenêtre contextuelle de notification de mise à jour s’affiche, avec la dernière version.
+A : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification de mise à jour s’affiche, avec la dernière version.
 
 Pour toute autre question, contactez le service à la clientèle [Adobe](https://support.neolane.net/webApp/extranetLogin).
