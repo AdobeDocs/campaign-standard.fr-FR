@@ -25,8 +25,8 @@ Prenons l&#39;exemple suivant où nous voulons envoyer des emails directement à
 
 Le processus pour appeler un workflow avec des paramètres est le suivant :
 
-1. Déclarez les paramètres dans l&#39;activité **[!UICONTROL Signal externe]**. Voir[Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
-1. Configurez l&#39;activité **[!UICONTROL Fin]**ou l&#39;appel API pour définir les paramètres et déclencher l&#39;activité**[!UICONTROL  Signal externe]** du workflow.
+1. Déclarez les paramètres dans l&#39;activité **[!UICONTROL Signal externe]**. Voir [Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+1. Configurez l&#39;activité **[!UICONTROL Fin]** ou l&#39;appel API pour définir les paramètres et déclencher l&#39;activité **[!UICONTROL Signal externe]** du workflow.
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d&#39;événements du workflow et peuvent être utilisés au sein du workflow. Voir [Personnaliser un workflow avec des paramètres externes](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters).
 
@@ -36,7 +36,7 @@ Une fois le workflow déclenché, les paramètres sont ingérés dans les variab
 
 Pour appeler un workflow avec des paramètres, la première étape consiste à les déclarer dans une activité **[!UICONTROL Signal externe]**.
 
-1. Ouvrez l&#39;activité **[!UICONTROL Signal externe]**et sélectionnez ensuite l&#39;onglet**[!UICONTROL  Paramètres]**.
+1. Ouvrez l&#39;activité **[!UICONTROL Signal externe]** et sélectionnez ensuite l&#39;onglet **[!UICONTROL Paramètres]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer un élément]**, puis spécifiez le nom et le type de chaque paramètre.
 
    >[!CAUTION]
@@ -53,22 +53,22 @@ Cette section explique comment définir des paramètres lors de l&#39;appel d&#3
 
 Avant de définir les paramètres, vérifiez les éléments suivants :
 
-* Les paramètres ont été déclarés dans l&#39;activité **[!UICONTROL Signal externe]**. Voir[Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+* Les paramètres ont été déclarés dans l&#39;activité **[!UICONTROL Signal externe]**. Voir [Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
 * Le workflow contenant l&#39;activité Signal est en cours d&#39;exécution.
 
 Pour configurer l&#39;activité **[!UICONTROL Fin]**, suivez les étapes ci-dessous :
 
-1. Ouvrez l&#39;activité **[!UICONTROL Fin]**, puis sélectionnez l&#39;onglet**[!UICONTROL  Signal externe]**.
+1. Ouvrez l&#39;activité **[!UICONTROL Fin]**, puis sélectionnez l&#39;onglet **[!UICONTROL Signal externe]**.
 1. Sélectionnez le workflow et l&#39;activité Signal externe que vous voulez appeler.
-1. Cliquez sur le bouton **[!UICONTROL Créer un élément]**pour ajouter un paramètre, puis indiquez son nom et sa valeur.
+1. Cliquez sur le bouton **[!UICONTROL Créer un élément]** pour ajouter un paramètre, puis indiquez son nom et sa valeur.
 
-   * **[!UICONTROL Nom]** : nom déclaré dans l&#39;activité**[!UICONTROL  Signal externe]** (voir [Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
-   * **[!UICONTROL Valeur]** : valeur que vous souhaitez assigner au paramètre. La valeur doit respecter la** syntaxe standard **, décrite dans[cette section](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Nom]** : nom déclaré dans l&#39;activité **[!UICONTROL Signal externe]** (voir [Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
+   * **[!UICONTROL Valeur]** : valeur que vous souhaitez assigner au paramètre. La valeur doit respecter la **syntaxe standard**, décrite dans [cette section](../../automating/using/advanced-expression-editing.md#standard-syntax).
    ![](assets/extsignal_definingparameters_2.png)
 
    >[!CAUTION]
    >
-   >Veillez à ce que tous les paramètres soient déclarés dans l&#39;activité ****Signal externe. Dans le cas contraire, une erreur se produira lors de l&#39;exécution de l&#39;activité.
+   >Veillez à ce que tous les paramètres soient déclarés dans l&#39;activité **** Signal externe. Dans le cas contraire, une erreur se produira lors de l&#39;exécution de l&#39;activité.
 
 1. Une fois les paramètres définis, confirmez l&#39;activité, puis enregistrez votre workflow.
 
@@ -76,8 +76,8 @@ Pour configurer l&#39;activité **[!UICONTROL Fin]**, suivez les étapes ci-dess
 
 Il est possible de suivre les variables d&#39;événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
-1. Sélectionnez l&#39;activité qui suit l&#39;activité **[!UICONTROL Signal externe]**, puis cliquez sur le bouton**[!UICONTROL  Journal et tâches]**.
-1. Dans l&#39;onglet **[!UICONTROL Tâches]**, cliquez sur le bouton![](assets/edit_darkgrey-24px.png).
+1. Sélectionnez l&#39;activité qui suit l&#39;activité **[!UICONTROL Signal externe]**, puis cliquez sur le bouton **[!UICONTROL Journal et tâches]**.
+1. Dans l&#39;onglet **[!UICONTROL Tâches]**, cliquez sur le bouton ![](assets/edit_darkgrey-24px.png).
 
    ![](assets/extsignal_monitoring_2.png)
 
@@ -89,7 +89,7 @@ Il est possible de suivre les variables d&#39;événements disponibles dans le w
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d&#39;événements et peuvent être utilisés pour personnaliser les activités du workflow.
 
-Ils peuvent, par exemple, permettre de définir l&#39;audience à lire dans l&#39;activité **[!UICONTROL Lecture d&#39;audience]**, le nom du fichier à transférer dans l&#39;activité**[!UICONTROL  Transfert de fichier]**, etc.
+Ils peuvent, par exemple, permettre de définir l&#39;audience à lire dans l&#39;activité **[!UICONTROL Lecture d&#39;audience]**, le nom du fichier à transférer dans l&#39;activité **[!UICONTROL Transfert de fichier]**, etc.
 
 Les activités personnalisables avec des variables d&#39;événements sont présentées dans [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
 
@@ -97,7 +97,7 @@ Les activités personnalisables avec des variables d&#39;événements sont prés
 
 Les variables d&#39;événements sont utilisées dans une expression qui doit respecter la **[syntaxe standard](../../automating/using/advanced-expression-editing.md#standard-syntax)**.
 
-Pour utiliser des variables d&#39;événements, la syntaxe doit suivre le format ci-dessous et utiliser le nom du paramètre défini dans l&#39;activité **[!UICONTROL Signal externe]**(voir[Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)) :
+Pour utiliser des variables d&#39;événements, la syntaxe doit suivre le format ci-dessous et utiliser le nom du paramètre défini dans l&#39;activité **[!UICONTROL Signal externe]** (voir [Déclarer les paramètres dans l&#39;activité Signal externe](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)) :
 
 ```
 $(vars/@parameterName)
@@ -150,7 +150,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser l&#39;activité, consu
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Activité Requête]** : les paramètres peuvent être référencés dans une requête en faisant appel à des expressions associant des variables d&#39;événements et des fonctions. Pour ce faire, ajoutez une règle, puis cliquez sur le lien**[!UICONTROL  Mode avancé]** afin d&#39;accéder à la fenêtre d&#39;édition d&#39;expression (voir [Edition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)).
+**[!UICONTROL Activité Requête]** : les paramètres peuvent être référencés dans une requête en faisant appel à des expressions associant des variables d&#39;événements et des fonctions. Pour ce faire, ajoutez une règle, puis cliquez sur le lien **[!UICONTROL Mode avancé]** afin d&#39;accéder à la fenêtre d&#39;édition d&#39;expression (voir [Edition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)).
 
 Pour plus d&#39;informations sur la façon d&#39;utiliser l&#39;activité, consultez la [section dédiée](../../automating/using/query.md).
 
@@ -195,7 +195,7 @@ Les variables d&#39;événements déclarées sont à présent disponibles dans l
 
 >[!NOTE]
 >
->Cette action peut être réalisée à partir de n&#39;importe quelle activité qui vous permet de définir un code segment, tel que des activités **[!UICONTROL Requête]**ou**[!UICONTROL  Segmentation]**.
+>Cette action peut être réalisée à partir de n&#39;importe quelle activité qui vous permet de définir un code segment, tel que des activités **[!UICONTROL Requête]** ou **[!UICONTROL Segmentation]**.
 
 ![](assets/extsignal_activities_segment.png)
 
@@ -219,7 +219,7 @@ Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessou
 
 ### Prérequis {#prerequisites}
 
-Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]**dans chacun d&#39;eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l&#39;appel des workflows.
+Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]** dans chacun d&#39;eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l&#39;appel des workflows.
 
 ### Etape 1 : configurer l&#39;appel API  {#step-1--configuring-the-api-call}
 
@@ -266,8 +266,8 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc1.png)
 
-1. Ajoutez une activité **[!UICONTROL Transfert de fichier]**afin d&#39;importer des données dans la base de données. Pour cela, faites glisser et déposez l&#39;activité, ouvrez-la, puis sélectionnez l&#39;onglet**[!UICONTROL  Protocole]**.
-1. Sélectionnez l&#39;option **[!UICONTROL Utiliser un chemin d&#39;accès au fichier dynamique]**, puis utilisez le paramètre** fileToTarget **comme fichier à transférer :
+1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** afin d&#39;importer des données dans la base de données. Pour cela, faites glisser et déposez l&#39;activité, ouvrez-la, puis sélectionnez l&#39;onglet **[!UICONTROL Protocole]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Utiliser un chemin d&#39;accès au fichier dynamique]**, puis utilisez le paramètre **fileToTarget** comme fichier à transférer :
 
    ```
    $(vars/@fileToTarget)
@@ -277,19 +277,19 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
 1. Chargez les données du fichier dans la base de données.
 
-   Pour ce faire, faites glisser une activité **[!UICONTROL Chargement de fichier]**et déposez-la dans le workflow, puis configurez-la selon vos besoins.
+   Pour ce faire, faites glisser une activité **[!UICONTROL Chargement de fichier]** et déposez-la dans le workflow, puis configurez-la selon vos besoins.
 
 1. Insérez les données du fichier importé dans la base de données ou mettez-la à jour avec ces données.
 
-   Pour cela, faites glisser et déposez une activité **[!UICONTROL Mise à jour de données]**, puis sélectionnez l&#39;onglet**[!UICONTROL  Identification]** afin d&#39;ajouter un critère de réconciliation (dans notre cas, le champ **email**).
+   Pour cela, faites glisser et déposez une activité **[!UICONTROL Mise à jour de données]**, puis sélectionnez l&#39;onglet **[!UICONTROL Identification]** afin d&#39;ajouter un critère de réconciliation (dans notre cas, le champ **email**).
 
    ![](assets/extsignal_uc3.png)
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Champs à mettre à jour]**, puis spécifiez les champs à mettre à jour dans la base de données (dans notre cas, les champs** firstname **et** email **).
+1. Sélectionnez l&#39;onglet **[!UICONTROL Champs à mettre à jour]**, puis spécifiez les champs à mettre à jour dans la base de données (dans notre cas, les champs **firstname** et **email**).
 
    ![](assets/extsignal_uc4.png)
 
-1. Vérifiez si des données sont récupérées à partir du fichier. Pour ce faire, faites glisser une activité **[!UICONTROL Test]**et déposez-la dans le workflow, puis cliquez sur le bouton**[!UICONTROL  Ajouter un élément]** afin d&#39;ajouter une condition.
+1. Vérifiez si des données sont récupérées à partir du fichier. Pour ce faire, faites glisser une activité **[!UICONTROL Test]** et déposez-la dans le workflow, puis cliquez sur le bouton **[!UICONTROL Ajouter un élément]** afin d&#39;ajouter une condition.
 1. Nommez et définissez la condition. Dans notre cas, nous voulons tester si la transition sortante contient des données avec la syntaxe ci-dessous :
 
    ```
@@ -298,8 +298,8 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc5.png)
 
-1. Si des données sont récupérées, enregistrez-les dans une audience. Pour cela, ajoutez une activité **[!UICONTROL Sauvegarde d&#39;audience]**à la transition** Cible non vide **, puis ouvrez-la.
-1. Sélectionnez l&#39;option **[!UICONTROL Utiliser un libellé dynamique]**, puis utilisez le paramètre** fileToTarget **comme libellé de l&#39;audience :
+1. Si des données sont récupérées, enregistrez-les dans une audience. Pour cela, ajoutez une activité **[!UICONTROL Sauvegarde d&#39;audience]** à la transition **Cible non vide**, puis ouvrez-la.
+1. Sélectionnez l&#39;option **[!UICONTROL Utiliser un libellé dynamique]**, puis utilisez le paramètre **fileToTarget** comme libellé de l&#39;audience :
 
    ```
    $(vars/@fileToTarget)
@@ -307,7 +307,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc6.png)
 
-1. Faites glisser et déposez une activité **[!UICONTROL Fin]**qui appellera le workflow 2 avec des paramètres, puis ouvrez-la.
+1. Faites glisser et déposez une activité **[!UICONTROL Fin]** qui appellera le workflow 2 avec des paramètres, puis ouvrez-la.
 1. Sélectionnez l&#39;onglet **[!UICONTROL Signal externe]**, puis spécifiez le workflow à déclencher et son activité Signal associée.
 1. Définissez les paramètres que vous voulez utiliser au sein du workflow 2 ainsi que leurs valeurs associées.
 
@@ -331,12 +331,12 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
 1. Déclarez les paramètres qui ont été définis dans le workflow 1.
 
-   Pour ce faire, ouvrez l&#39;activité **[!UICONTROL Signal externe]**, puis ajoutez le nom et le type de chaque paramètre défini dans l&#39;activité**[!UICONTROL  Fin]** du workflow 1.
+   Pour ce faire, ouvrez l&#39;activité **[!UICONTROL Signal externe]**, puis ajoutez le nom et le type de chaque paramètre défini dans l&#39;activité **[!UICONTROL Fin]** du workflow 1.
 
    ![](assets/extsignal_uc8.png)
 
-1. Utilisez l&#39;audience qui a été enregistrée dans le workflow 1. Pour cela, faites glisser une activité **[!UICONTROL Lecture d&#39;audience]**et déposez-la dans le workflow, puis ouvrez-la.
-1. Sélectionnez l&#39;option **[!UICONTROL Utiliser une audience dynamique]**, puis utilisez le paramètre** fileToTarget **comme nom de l&#39;audience à lire :
+1. Utilisez l&#39;audience qui a été enregistrée dans le workflow 1. Pour cela, faites glisser une activité **[!UICONTROL Lecture d&#39;audience]** et déposez-la dans le workflow, puis ouvrez-la.
+1. Sélectionnez l&#39;option **[!UICONTROL Utiliser une audience dynamique]**, puis utilisez le paramètre **fileToTarget** comme nom de l&#39;audience à lire :
 
    ```
    $(vars/@fileToTarget)
@@ -346,7 +346,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
 1. Nommez la transition sortante selon le paramètre **segmentCode**.
 
-   Pour ce faire, sélectionnez l&#39;onglet **[!UICONTROL Transition]**, puis l&#39;option**[!UICONTROL  Utiliser un code segment dynamique]**.
+   Pour ce faire, sélectionnez l&#39;onglet **[!UICONTROL Transition]**, puis l&#39;option **[!UICONTROL Utiliser un code segment dynamique]**.
 
 1. Utilisez le paramètre **segmentCode** comme nom de la transition sortante :
 
@@ -356,7 +356,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc10.png)
 
-1. Faites glisser et déposez une activité **[!UICONTROL Diffusion Email]**pour envoyer un message à l&#39;audience.
+1. Faites glisser et déposez une activité **[!UICONTROL Diffusion Email]** pour envoyer un message à l&#39;audience.
 1. Identifiez les paramètres à utiliser dans le message afin de le personnaliser avec le paramètre **discountDesc**. Pour cela, ouvrez les options avancées de l&#39;activité, puis ajoutez le nom et la valeur du paramètre.
 
    ![](assets/extsignal_uc10b.png)
