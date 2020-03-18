@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez également consulter les [notes de mise à jour](../../rn/using/rele
 
 ## Mises à jour de la documentation - mars 2020 {#doc-updates-march-2020}
 
-Des informations plus détaillées sur la MTA améliorée ont été ajoutées à la documentation principale, en particulier en ce qui concerne les règles de traitement des courriels et la qualification des courriels de rebonds [En savoir plus](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Des informations plus détaillées sur la MTA améliorée ont été ajoutées à la documentation principale, en particulier en ce qui concerne les règles de traitement du courrier électronique et la qualification du courrier de retour. [En savoir plus](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 La section consacrée à l&#39;archivage avec le Cci électronique a été déplacée et mise à jour. [En savoir plus](../../sending/using/archiving.md)
 
