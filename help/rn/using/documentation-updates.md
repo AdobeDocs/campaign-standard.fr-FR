@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,15 +27,21 @@ Vous pouvez également consulter les [notes de mise à jour](../../rn/using/rele
 
 ## Mises à jour de la documentation - mars 2020 {#doc-updates-march-2020}
 
+Des informations plus détaillées sur la MTA améliorée ont été ajoutées à la documentation principale, en particulier en ce qui concerne les règles de traitement des courriels et la qualification des courriels de rebonds [En savoir plus](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+La section consacrée à l&#39;archivage avec le Cci électronique a été déplacée et mise à jour. [En savoir plus](../../sending/using/archiving.md)
+
 La documentation relative à la configuration d’une application mobile et les pages connexes ont été mises à jour afin de refléter l’amortissement du SDK V4. [En savoir plus](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-La documentation sur l’intégration d’Adobe Campaign Standard/Adobe Experience Manager a été mise à jour et améliorée. [En savoir plus](../../integrating/using/configure-experience-manager.md)
+La documentation d’intégration  Adobe Campaign Standard/Adobe Experience Manager a été mise à jour et améliorée. [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
-La documentation de Campaign Email Designer et les pages connexes ont été mises à jour afin de refléter l’amortissement du SDK Adobe Creative. [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+La documentation de Designer de Campaign e-mail et les pages connexes ont été mises à jour afin de refléter l’amortissement du SDK Adobe Creative. [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-Une nouvelle section consacrée aux bonnes pratiques des modèles de données Campaign Standard est désormais disponible. [En savoir plus](../../developing/using/data-model-best-practices.md)
+Une nouvelle section consacrée aux pratiques exemplaires des modèles de données Campaign Standard est désormais disponible. [En savoir plus](../../developing/using/data-model-best-practices.md)
 
 Des informations ont été ajoutées sur la droite **[!UICONTROL Workflow]** prête à l&#39;emploi. [En savoir plus](../../administration/using/list-of-roles.md)
+
+Des informations ont été ajoutées sur la **[!UICONTROL History in days field]** page disponible dans les propriétés  du. [En savoir plus](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 - Février 2019 {#release-20-1---february-2020}
 
