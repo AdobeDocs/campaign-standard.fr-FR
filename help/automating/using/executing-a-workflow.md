@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,9 +209,9 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Save SQL queries in the log]**: vous permet d&#39;enregistrer les  SQL du flux de travail dans les journaux.
 
-* ***[!UICONTROL Keep interim results]**: check this option if you would like to be able to view the detail of transitions. Attention, en cochant cette option, l&#39;exécution du workflow peut être fortement ralentie.
+* **[!UICONTROL Keep interim results]**: cochez cette option si vous souhaitez être en mesure de  les détails de la  de. Attention, en cochant cette option, l&#39;exécution du workflow peut être fortement ralentie.
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**: vous permet d’exécuter le processus localement, à des fins de test d’environnement de développement.
+* **[!UICONTROL Execute in the engine (do not use in production)]**: vous permet d’exécuter le flux de travaux localement, à des fins de développement  de  tests de.
 
 * **[!UICONTROL Severity]**: vous permet de spécifier un niveau de priorité pour l’exécution des  de dans votre instance . Les workflows critiques seront exécutés en priorité.
 
