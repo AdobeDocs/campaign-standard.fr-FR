@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
@@ -19,23 +19,23 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 # Dernière version{#latest-release}
 
-[Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Version 20.1.4 - Février 2020    {#release-20-1-4---february-2020}
 
-* Correction d’un problème lors de l’ouverture d’une activité Public **** lu sur des processus existants. (CAMP-41002)
+* Correction d’un problème lors de l’ouverture d’une activité **Lecture d’audience** sur des workflows existants. (CAMP-41002)
 
 ## Version 20.1.3 - Février 2020    {#release-20-1-3---february-2020}
 
-* Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la boucle. Le CAMP-39273 a été annulé.
+* Correction d’un problème de régression introduit dans la version 20.1 par CAMP-39273 pour les clients qui utilisaient la faille. CAMP-39273 a été annulé.
 
 ## Version 20.1.2 - Février 2020    {#release-20-1-2---february-2020}
 
 **Améliorations du Concepteur d&#39;email**
 
-* Correction d’un problème en raison duquel un élément de balise HTML était ajouté dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685)
-* Correction d’un problème en raison duquel un espace était ajouté lors de l’utilisation du contenu dynamique. (CAMP-40605)
-* Correction d’un problème lors de la configuration d’un modèle de courrier électronique transactionnel. (CAMP-40604)
+* Correction d’un problème qui entraînait l’ajout d’un élément de balise HTML dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685)
+* Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605)
+* Correction d’un problème lors de la configuration d’un modèle d’email transactionnel. (CAMP-40604)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
@@ -51,7 +51,7 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector est maintenant intégré avec Adobe Campaign Standard. Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
-    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../administration/using/aep-about-data-connector.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">how-to video</a>.</p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../administration/using/aep-about-data-connector.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vidéo pratique</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,7 +66,7 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations permet de partager des segments d’Adobe Experience Platform avec Adobe Campaign.</p>
-    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. For more information about this capability and conditions to activate it, refer to the <a href="../../audiences/using/aep-about-audience-destinations-service.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">how-to video</a>. </p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../audiences/using/aep-about-audience-destinations-service.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">vidéo pratique</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,8 +93,8 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 * Correction d’un problème qui empêchait d’effectuer un copier-coller de texte à partir d’un éditeur de texte. (CAMP-39028)
 * Correction d’un problème qui empêchait l’affichage des suggestions de mots. (CAMP-38970)
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer des fragments. (ATU-2447)
-* Correction d’un problème empêchant la duplication des structures dynamiques. (CAMP-38367)
-* Correction d’un problème empêchant le contenu dynamique de conserver les conditions en cas de duplication. (CAMP-39051)
+* Correction d’un problème qui empêchait la duplication des structures dynamiques. (CAMP-38367)
+* Correction d’un problème qui empêchait le contenu dynamique de conserver les conditions en cas de duplication. (CAMP-39051)
 
 **Autres changements**
 
@@ -102,17 +102,17 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 * Il n’est plus possible de modifier les entités organisationnelles du groupe de sécurité Administrateurs.
 * Lors de la création d’un profil, le champ Entité organisationnelle doit maintenant être renseigné.
 * Un trigger Experience Cloud ne peut maintenant être supprimé que si l’événement et le modèle transactionnel associés sont aussi supprimés.
-* Adobe Creative SDK a été mis hors service. Elle est désormais obsolète dans Campaign Standard. See the [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+* Le SDK Adobe Creative a été retiré. Il est désormais obsolète dans Campaign Standard. Consultez la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Correctifs**
 
-* Correction d’un problème lors de l’exécution d’une demande de suppression de confidentialité qui empêchait la suppression des données utilisateur dans les journaux d’exclusion. (CAMP-39003)
+* Correction d’un problème lors de l’exécution d’une demande de suppression d’informations personnelles qui empêchait la suppression des données utilisateur dans les logs d’exclusion. (CAMP-39003)
 * Correction d’une erreur qui entraînait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
 * Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lorsqu’ils pointaient sur des activités marketing.
-* Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
+* Correction d’un problème dans l’activité **[!UICONTROL API externe]** qui affichait le bouton **[!UICONTROL Confirmer]** même lorsqu’aucune donnée n’était modifiée.
 * Correction d’un problème lors de l’utilisation d’une activité **[!UICONTROL Union]** sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
-* Fixed an issue that could lead to an error when using a **[!UICONTROL Reconciliation]** activity in specific contexts, for example with two inbound activities, one of them being an exclusion activity. (CAMP-37490)
+* Correction d’un problème qui pouvait entraîner une erreur lors de l’utilisation d’une activité de **[!UICONTROL réconciliation]** dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)
 * Correction de problèmes de performances possibles lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
 * Correction d’un problème qui entraînait l’affichage de pages d’erreur lors d’un abonnement ou d’un désabonnement via les landing pages. (CAMP-37771)
 * Correction d’un problème qui se produisait lors du téléchargement de contenu au format zip, comportant des fichiers PNG référencés dans le code HTML avec des extensions en majuscules. (CAMP-37913)
@@ -128,4 +128,4 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 * Correction d’un problème qui entraînait des incohérences dans le nombre de désabonnements dans les rapports dynamiques. (CAMP-39949)
 * Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-app.
 * Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de bounces. (CAMP-38395)
-* Correction d’une faille qui permettait aux appels de publication de l’abonnement à l’application de mettre à jour les jetons de notification Push. (CAMP-39273)
+* Correction d’une faille qui permettait aux appels POST des abonnements aux applications de mettre à jour les tokens de notification push. (CAMP-39273)
