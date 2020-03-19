@@ -1,6 +1,6 @@
 ---
 title: Utilisation des pièges
-description: Apprenez à utiliser les pièges dans les messages.
+description: Apprenez à utiliser des pièges dans les messages.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 # Utilisation des pièges {#using-traps}
 
-When using traps, the message is sent to the [test profile](../../audiences/using/managing-test-profiles.md) just as it is sent to the main target, as a means to identify whether your client file is being used fraudulently.
+Lors de l&#39;utilisation de pièges, le message est envoyé au [profil de test](../../audiences/using/managing-test-profiles.md) tel qu&#39;il est envoyé à la cible principale, notamment pour identifier une utilisation frauduleuse de votre fichier client.
 
 Les pièges ont été conçus à l&#39;origine pour les diffusions courrier. Ils vous permettent de :
 
@@ -45,16 +45,16 @@ Pour utiliser un profil de test comme piège, il doit être inclus dans l&#39;au
 
 Lors de la définition de l&#39;audience d&#39;un message :
 
-1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
+1. Dans l&#39;onglet **[!UICONTROL Profils de test]**, sélectionnez un profil de test ; Assurez-vous qu&#39;il affiche **[!UICONTROL Piège]** comme utilisation prévue.
 
    ![](assets/trap_select.png)
 
-1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Vérifiez que vous avez sélectionné une cible principale. Sinon, votre message ne peut pas être envoyé.
 
-1. Cliquez sur le **[!UICONTROL Confirm]** bouton. Voir [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
+1. Cliquez sur le bouton **[!UICONTROL Confirmer.]** Voir [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
