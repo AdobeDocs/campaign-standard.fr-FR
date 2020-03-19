@@ -11,7 +11,7 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 # Rendu des emails{#email-rendering}
 
-Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
+Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
@@ -29,7 +29,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour le **Rendu des em
 
 Une fois que vous avez créé votre diffusion email et défini son contenu ainsi que la population ciblée, suivez la procédure décrite ci-après.
 
-1. Click **Audience** to access the **[!UICONTROL Test profiles]** tab.
+1. Cliquez sur **Audiences** afin d&#39;accéder à l&#39;onglet **[!UICONTROL Profils de test]**.
 
    ![](assets/email_rendering_05.png)
 
@@ -38,25 +38,25 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
    ![](assets/email_rendering_06.png)
 
 1. Validez votre requête, puis enregistrez vos modifications.
-1. Click the **[!UICONTROL Test]** button in the action bar.
+1. Cliquez sur le bouton **[!UICONTROL Tester]** présent dans la barre d&#39;actions.
 
    ![](assets/email_rendering_07.png)
 
-1. Sélectionnez l’ **[!UICONTROL Email rendering]** option, puis cliquez sur **[!UICONTROL OK]**.
+1. Sélectionnez l&#39;option **[!UICONTROL Rendu des emails]**, puis cliquez sur **[!UICONTROL OK]**.
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Proof + Email rendering]** option enables you to send a proof and use the email rendering feature simultaneously. Votre message peut être validé par les destinataires du BAT et sa réception testée en même temps en fonction des boîtes de messagerie ciblées. Dans ce cas, vous devez également sélectionner les profils de test du BAT. Voir [À propos des profils de test](../../audiences/using/managing-test-profiles.md).
+   >L&#39;option **[!UICONTROL Bon à tirer + Rendu des emails]** vous permet d&#39;envoyer un bon à tirer et d&#39;utiliser la fonctionnalité de rendu des emails simultanément. Votre message peut être validé par les destinataires du BAT et sa réception testée en même temps en fonction des boîtes de messagerie ciblées. Dans ce cas, vous devez également sélectionner les profils de test du BAT. Voir [À propos des profils de test](../../audiences/using/managing-test-profiles.md).
 
    La diffusion de test est envoyée.
 
-1. Les vignettes de rendu sont accessibles quelques minutes après l&#39;envoi des messages. To access them, select **[!UICONTROL Proofs]** in the **[!UICONTROL Summary]** drop-down list.
+1. Les vignettes de rendu sont accessibles quelques minutes après l&#39;envoi des messages. Pour y accéder, sélectionnez **[!UICONTROL Bons à tirer]** dans la liste déroulante **[!UICONTROL Résumé]**.
 
    ![](assets/email_rendering_03.png)
 
-1. Dans la **[!UICONTROL Proofs]** liste, cliquez sur l’ **[!UICONTROL Access email rendering]** icône .
+1. Dans la liste **[!UICONTROL Bons à tirer]**, cliquez sur l&#39;icône **[!UICONTROL Accéder au rendu des emails]**.
 
    ![](assets/email_rendering_04.png)
 
@@ -64,11 +64,11 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](../../channels/using/creating-an-email.md)  
+* Vidéo [Créer un email](../../channels/using/creating-an-email.md)   
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails {#email-rendering-report-description}
+## Description du rapport de rendu des emails  {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
@@ -80,7 +80,7 @@ La synthèse du rapport présente le nombre de messages reçus, indésirables, n
 
 ![](assets/inbox_rendering_report.png)
 
-Le rapport se divise en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
+Le rapport se divise en trois parties : **[!UICONTROL Mobile]**, **[!UICONTROL Clients de messagerie]** et **[!UICONTROL Webmails]**. Faites défiler le rapport pour afficher tous les rendus regroupés dans ces trois catégories.
 
 ![](assets/inbox_rendering_report_3.png)
 
@@ -88,4 +88,4 @@ Pour voir les détails de chaque rapport, cliquez sur la vignette correspondante
 
 ![](assets/inbox_rendering_report_2.png)
 
-The **[!UICONTROL Technical data]** tab allows you to get more information, such as the receiving and capture dates, and the complete headers of emails.
+L&#39;onglet **[!UICONTROL Données techniques]** permet d&#39;obtenir plus d&#39;informations, telles que les dates de réception et de capture et les en-têtes complets des emails.
