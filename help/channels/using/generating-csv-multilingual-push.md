@@ -1,6 +1,6 @@
 ---
-title: Génération d’un fichier CSV pour la notification Push multilingue avec Campaign Standard
-description: Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonction utilisée pour prendre en charge les notifications Push multilingues.
+title: Génération d’un fichier CSV pour les notifications push multilingues avec Campaign Standard
+description: Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications push multilingues.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -11,86 +11,86 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
 
 ---
 
 
-# Génération d’un fichier CSV pour la notification Push multilingue{#generating-csv-multilingual-push}
+# Génération d’un fichier CSV pour les notifications push multilingues{#generating-csv-multilingual-push}
 
-Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications Push multilingues. Le format du fichier CSV doit respecter certaines directives pour que le téléchargement du fichier soit réussi et, par conséquent, pour pouvoir créer une diffusion. Les sections suivantes décrivent le format de fichier et ses considérations.
+Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications push multilingues. Le format du fichier CSV doit respecter certaines instructions pour que le téléchargement du fichier puisse être effectué et, par conséquent, pour la création d’une diffusion. Les sections suivantes décrivent le format de fichier et les points à prendre en compte.
 
 ## Format du fichier {#file-format}
 
-La publication multilingue requiert 14 colonnes dans le fichier CSV :
+14 colonnes sont requises dans le fichier CSV pour une notification push multilingue :
 
 * title
 * messageBody
-* Son
-* Badge
+* sound
+* badge
 * deeplinkURI
-* Catégorie
+* category
 * iosMediaAttachmentURL
 * androidMediaAttachmentURL
 * isContentAvailable
 * isMutableContent
 * customFields
-* Paramètre régional
-* Langue
+* locale
+* language
 * silentPush
 
 ![](assets/multilingual_push_1.png)
 
-Vérifiez l’exemple CSV en cliquant sur **[!UICONTROL Download a sample file]** dans la **[!UICONTROL Manage Content Variants]** fenêtre. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger un fichier d’exemple]** dans la fenêtre **[!UICONTROL Gérer les variantes de contenu]**. Voir à ce propos cette [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, son, badge, deeplinkURI, catégorie, iosMediaAttachmentURL, androidMediaAttachmentURL**: contenu de charge utile push normal. Vous devez fournir ces informations de la même manière que lors de la création de distributions Push.
-* **Champs** personnalisés :  utilisez le format JSON pour les champs personnalisés, par exemple&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;. Reportez-vous à l’exemple de fichier ci-dessus pour obtenir un exemple de champs personnalisés.
-* **isContentAvailable**: Indicateur pour la vérification Contenu disponible, la valeur 1 implique true, la valeur 0 implique false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme 0.
-* **isMutableContent**: pour le contenu muable, la valeur 1 implique true, la valeur 0 implique false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme 0.
-* **locale**: locale est le champ des variantes de langue, par ex. &quot;en_us&quot; pour le français-américain et &quot;fr_fr&quot; pour le français-français.
-* **langue**: nom de la langue associée au paramètre régional. Par exemple, si le paramètre régional est &quot;en_us&quot;, le nom de la langue doit être &quot;Anglais-Etats-Unis&quot;.
-* **silencePush**: Indicateur du type de notification Push. S’il s’agit d’une notification Push régulière, la valeur doit être 0. S’il s’agit d’une notification Push silencieuse, la valeur doit être 1. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme 0.
+* **title, messageBody, sound, badge, deeplinkURI, catégorie, iosMediaAttachmentURL, androidMediaAttachmentURL** : contenu de payload push normal. Vous devez fournir ces informations de la même manière que lors de la création de diffusions push.
+* **Champs personnalisés** :  utilisez le format JSON pour les champs personnalisés, par exemple « {&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;} ». Pour obtenir un exemple de champs personnalisés, reportez-vous au fichier d’exemple ci-dessus.
+* **isContentAvailable** : drapeau pour la vérification de Contenu disponible, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
+* **isMutableContent** : drapeau pour le Contenu mutable, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
+* **locale** : le paramètre régional est le champ des variantes de langue, par ex. « en_us » pour l’anglais américain et « fr_fr » pour le français de France.
+* **language** : nom de la langue associée au paramètre régional. Par exemple, si le paramètre régional est « en_us », le nom de la langue doit être « Anglais - États-Unis ».
+* **silencePush** : drapeau pour le type de notification push. S’il s’agit d’une notification push classique, la valeur doit être 0. S’il s’agit d’une notification push silencieuse, la valeur doit être 1. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 
 ## Contraintes et instructions relatives à la création d’un fichier CSV {#constraints-guideline-csv}
 
 **Le nom de chaque colonne est fixe**.
 Vous devez inclure le nom de chaque colonne dans le fichier CSV. Si vous n’utilisez aucune colonne pour le contenu, laissez-la vide.
 
-**Les colonnes &quot;locale&quot; et &quot;language&quot; sont obligatoires et la valeur est unique pour chaque ligne.**
-Une valeur vide pour cette colonne entraînera un échec du téléchargement du fichier.
+**Les colonnes « locale » et « language » sont obligatoires et la valeur est unique pour chaque ligne.**
+Une valeur vide pour cette colonne entraînera un échec de téléchargement de fichier.
 
-**L&#39;ordre des colonnes est important**. L’ordre des colonnes dans le fichier téléchargé doit respecter le même format que le fichier d’exemple.
+**L’ordre des colonnes est important**. L’ordre des colonnes dans le fichier téléchargé doit respecter le même format que le fichier d’exemple.
 
-**Citer le contenu** des colonnes. Puisqu’il s’agit d’un fichier CSV (signifiant valeurs séparées par des virgules), tout contenu de colonne incluant une virgule (,) doit être cité. Par exemple, &quot;Bonjour, Tom !&quot;
+**Contenu des colonnes entre guillemets**. Puisqu’il s’agit d’un fichier CSV (valeurs séparées par des virgules), tout contenu de colonne incluant une virgule (,) doit être mis entre guillemets. Par exemple, &quot;Bonjour, Tom !&quot;
 
-**Le codage UTF-8 est nécessaire pour les caractères internationaux.**
+**L’encodage UTF-8 est nécessaire pour les caractères internationaux.**
 
-**Si vous générez le fichier en texte brut, séparez chaque colonne par &quot;,&quot;.**
+**Si vous générez le fichier en texte brut, séparez chaque colonne par une « , ».**
 
-**Discordance de la variable.** Si vous utilisez un bloc de contenu et des audiences ciblées avec des langues spécifiques, vous devez répertorier toutes les langues ciblées dans votre fichier CSV, sinon vous obtiendrez une erreur lors de l’envoi de la diffusion.
+**Discordance de variantes.** Si vous utilisez un bloc de contenu et des audiences ciblées avec des langues spécifiques, vous devez répertorier toutes les langues ciblées dans votre fichier CSV, sinon vous obtiendrez une erreur lors de l’envoi de la diffusion.
 
-## Insertion du champ de personnalisation dans le fichier csv {#personalization-field-csv}
+## Insertion d’un champ de personnalisation dans le fichier csv {#personalization-field-csv}
 
-Si vous souhaitez utiliser des champs de personnalisation, vous devez inclure <span> la balise dans le fichier.
+Si vous souhaitez utiliser des champs de personnalisation, vous devez inclure la balise <span> dans le fichier.
 
-Pour insérer le champ de personnalisation &quot;firstName&quot; dans messageBody, le message doit être :
+Pour insérer le champ de personnalisation « firstName » dans messageBody, le message doit être :
 
 ```
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
 ```
 
-Le champ &quot;firstName&quot; est représenté par :
+Le champ « firstName » est représenté par :
 
 ```
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-Dans l’étendue, il existe deux attributs obligatoires :
+Dans le conteneur span, il existe deux attributs obligatoires :
 
-* L&#39;une est la classe qui est statique. Quel que soit le champ de personnalisation que vous prévoyez d’utiliser, il sera toujours class=&quot;nl-dce-field nl-dce-done&quot;.
+* L’un est la classe qui est statique. Quel que soit le champ de personnalisation que vous prévoyez d’utiliser, il sera toujours class=&quot;nl-dce-field nl-dce-done&quot;.
 
-* Un autre est data-nl-expr, qui est le chemin du champ de personnalisation. Par exemple, si vous insérez le champ de personnalisation &quot;firstName&quot; depuis l’interface utilisateur, le chemin de navigation sera **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (comme illustré dans l’image ci-dessous). Dans ce cas, le chemin sera
+* Un autre est data-nl-expr, qui est le chemin du champ de personnalisation. Par exemple, si vous insérez le champ de personnalisation « firstName » depuis l’interface utilisateur, le chemin de navigation sera **[!UICONTROL Contexte (context)]** > **[!UICONTROL Profil (profile)]** > **[!UICONTROL Prénom (firstName)]** (comme illustré dans l’image ci-dessous). Dans ce cas, le chemin sera
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -98,9 +98,9 @@ Dans l’étendue, il existe deux attributs obligatoires :
 
 ![](assets/multilingual_push_2.png)
 
-## Paramètres régionaux et noms de langue {#locale-language-names}
+## Paramètre régional et noms de langue {#locale-language-names}
 
-Les langues suivantes sont prises en charge :
+Les langues prises en charge sont les suivantes :
 
 | Paramètre régional | Langue |
 |:-:|:-:|
@@ -129,7 +129,7 @@ Les langues suivantes sont prises en charge :
 | ca_es | Catalan - Espagne |
 | zh_cn | Chinois (simplifié) - Chine |
 | zh_sg | Chinois (simplifié) - Singapour |
-| zh_hk | Chinois (traditionnel) - Région administrative spéciale de Hong Kong (Chine) |
+| zh_hk | Chinois (traditionnel) - Hong Kong (RAS Chine) |
 | zh_tw | Chinois (traditionnel) - région de Taïwan |
 | hr_hr | Croate - Croatie |
 | cs_cz | Tchèque - Tchéquie |
@@ -217,7 +217,7 @@ Les langues suivantes sont prises en charge :
 | sv_fi | Suédois - Finlande |
 | sv_se | Suédois - Suède |
 | ta_in | Tamoul - Inde |
-| tt_ru | Tatar - Russe |
+| tt_ru | Tatar - Russie |
 | te_in | Télougou - Inde |
 | th_th | Thaï - Thaïlande |
 | tr_cy | Turc - Chypre |
