@@ -12,7 +12,7 @@ discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
@@ -33,31 +33,31 @@ L&#39;éditeur de contenu in-app vous permet de choisir entre deux modes de mess
 
 * [Envoi de votre message in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Reporting in-app](../../reporting/using/in-app-report.md)
-* [Implémentation du tracking des notifications locales](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Implémentation du tracking des notifications locales](https://helpx.adobe.com/fr/campaign/kb/local-notification-tracking.html)
 
 ## Personnalisation à l&#39;aide d&#39;un modèle de message {#customizing-with-a-message-template}
 
 ### Disposition {#layout}
 
-The **[!UICONTROL Layout]** drop-down provides you with four different options to choose from depending on your messaging needs:
+La liste déroulante **[!UICONTROL Disposition]** propose quatre options différentes en fonction de vos besoins en matière de messages :
 
-* **[!UICONTROL Full page]**: Ce type de mise en page couvre l’ensemble de l’écran des périphériques d’audience.
-
-   Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
-
-* **[!UICONTROL Large modal]**: Cette disposition s’affiche dans une grande fenêtre de style alerte, votre application reste visible en arrière-plan.
+* **[!UICONTROL Pleine page]** : ce type de disposition couvre tout l&#39;écran des appareils de votre audience.
 
    Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
 
-* **[!UICONTROL Small modal]**: Cette mise en page s’affiche sous forme d’une petite fenêtre de type d’alerte, votre application reste visible en arrière-plan.
+* **[!UICONTROL Grand modal]** : cette disposition apparaît dans une grande fenêtre de style alerte. Votre application est toujours visible en arrière-plan.
 
    Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
 
-* **[!UICONTROL Alert]**: Ce type de mise en page s’affiche sous forme de message d’alerte du système d’exploitation natif.
+* **[!UICONTROL Petit modal]** : cette disposition apparaît dans une petite fenêtre de style alerte. Votre application est toujours visible en arrière-plan.
+
+   Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
+
+* **[!UICONTROL Alerte]** : ce type de disposition apparaît comme message d&#39;alerte du système d&#39;exploitation natif.
 
    Il ne peut prendre en charge que les composants texte et bouton.
 
-* **[!UICONTROL Local notification]**: Ce type de mise en page s’affiche sous forme de message de bannière.
+* **[!UICONTROL Notification locale]** : ce type de disposition apparaît en tant que message de bannière.
 
    Il prend uniquement en charge le son, le texte et la destination. Pour plus d&#39;informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](#customizing-a-local-notification-message-type).
 
@@ -65,20 +65,20 @@ Chaque type de disposition peut être prévisualisé sur différents appareils t
 
 ![](assets/inapp_customize_4.png)
 
-### Média {#media}
+### Média  {#media}
 
-The **[!UICONTROL Media]** drop-down allows you to add media to your In-App message to create a compelling experience for end user.
+La liste déroulante **[!UICONTROL Médias]** permet d&#39;ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
 
-1. Sélectionnez votre **[!UICONTROL Media Type]** image et votre vidéo.
-1. For the **[!UICONTROL Image]** media type, enter your URL in the **[!UICONTROL Media URL]** field based on the supported formats.
+1. Sélectionnez le **[!UICONTROL Type de média]** : image ou vidéo.
+1. Pour le type de média **[!UICONTROL Image]**, saisissez l&#39;URL dans le champ **[!UICONTROL URL médias]** en respectant les formats pris en charge.
 
-   If needed, you can also enter the path to a **[!UICONTROL Bundled image]** which can be used if the device is offline.
+   En cas de besoin, vous pouvez également saisir le chemin d&#39;accès à une **[!UICONTROL Image groupée]** pouvant être utilisée si l&#39;appareil est déconnecté.
 
    ![](assets/inapp_customize_5.png)
 
-1. For the **[!UICONTROL Video]** media type, enter your URL in the **[!UICONTROL Media URL]** field.
+1. Pour le type de média **[!UICONTROL Vidéo]**, saisissez l&#39;URL dans le champ **[!UICONTROL URL médias]**.
 
-   Then, enter your **[!UICONTROL Video poster]** to be used while the video is downloading on the audience devices or until users tap the play button.
+   Ensuite, saisissez le **[!UICONTROL Poster de vidéo]** à utiliser pendant le téléchargement de la vidéo sur les appareils de l&#39;audience ou jusqu&#39;à ce que les utilisateurs appuient sur le bouton de lecture.
 
    ![](assets/inapp_customize_6.png)
 
@@ -86,11 +86,11 @@ The **[!UICONTROL Media]** drop-down allows you to add media to your In-App mess
 
 En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre message in-app. Pour mieux personnaliser votre message in-app, vous pouvez ajouter différents champs de personnalisation, des blocs de contenu et du texte dynamique à votre contenu.
 
-1. Dans la **[!UICONTROL Text]** liste déroulante, ajoutez un titre dans le **[!UICONTROL Message title]** champ.
+1. Dans la liste déroulante **[!UICONTROL Texte]**, ajoutez un titre dans le champ **[!UICONTROL Titre du message]**.
 
    ![](assets/inapp_customize_9.png)
 
-1. Ajoutez votre contenu dans le **[!UICONTROL Message content]** champ.
+1. Ajoutez votre contenu dans le champ **[!UICONTROL Contenu du message]**.
 1. Pour personnaliser davantage votre texte, cliquez sur l&#39;icône ![](assets/edit_darkgrey-24px.png) pour ajouter des champs de personnalisation.
 
    ![](assets/inapp_customize_8.png)
@@ -105,66 +105,66 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
    ![](assets/inapp_customize_11.png)
 
-### Boutons {#buttons}
+### Boutons  {#buttons}
 
 Vous pouvez ajouter jusqu&#39;à deux boutons à votre message In-App.
 
-1. In the **[!UICONTROL Buttons]** drop-down, enter the text of your first button in the **[!UICONTROL Primary]** category.
+1. Dans la liste déroulante **[!UICONTROL Boutons]**, saisissez le texte du premier bouton dans la catégorie **[!UICONTROL Primaire]**.
 
    ![](assets/inapp_customize_12.png)
 
-1. Choose which of the two actions **[!UICONTROL Dismiss]** and **[!UICONTROL Redirect]** will be assigned to your primary button.
-1. In the **[!UICONTROL Secondary]** category, add a second button to your In-App if needed by entering your text.
+1. Parmi les actions **[!UICONTROL Ignorer]** et **[!UICONTROL Rediriger]**, choisissez celle qui sera affectée au bouton principal.
+1. Dans la catégorie **[!UICONTROL Secondaire]**, ajoutez un second bouton à votre message in-app en saisissant votre texte.
 1. Sélectionnez l&#39;action associée au second bouton.
-1. If you chose the **[!UICONTROL Redirect]** action, enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field.
+1. Si vous choisissez l&#39;action **[!UICONTROL Rediriger]**, saisissez l&#39;URL web ou le lien profond dans le champ **[!UICONTROL URL destination]**.
 
    ![](assets/inapp_customize_13.png)
 
-1. Enter your web URL or deeplink in the **[!UICONTROL Destination URL]** field, if you chose the **[!UICONTROL Redirect]** action,
+1. Saisissez l&#39;URL web ou le lien profond dans le champ **[!UICONTROL URL destination]**, si vous avez choisi l&#39;action **[!UICONTROL Rediriger]**.
 1. Vérifiez le contenu de votre message dans la fenêtre de prévisualisation ou en cliquant sur le bouton Aperçu.
 
    Consultez la page [Prévisualisation du message in-app](#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
-### Paramètres {#settings}
+### Paramètres  {#settings}
 
-1. In the **[!UICONTROL Settings]** category, select your background color between light and dark.
-1. Choose to display or not a close button with the **[!UICONTROL Show close button]** option to provide users a way to dismiss the In-App message.
-1. Select if your button alignment will be horizontal or vertical with the **[!UICONTROL Button alignment]** option.
+1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
+1. A l&#39;aide de l&#39;option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d&#39;afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
+1. A l&#39;aide de l&#39;option **[!UICONTROL Alignement des boutons]**, choisissez si l&#39;alignement de votre bouton sera horizontal ou vertical.
 1. Choisissez si votre message in-app peut être ignoré automatiquement après quelques secondes.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale {#customizing-a-local-notification-message-type}
+## Personnaliser un type de message de notification locale  {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d&#39;un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
-Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html).
+Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/local-notification-tracking.html).
 
 Pour personnaliser une notification locale :
 
-1. Dans votre **[!UICONTROL Content]** page, sélectionnez **[!UICONTROL Local notification]** dans la **[!UICONTROL Layout]** catégorie
+1. Sur votre page **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Notification locale]** dans la catégorie **[!UICONTROL Disposition]**.
 
    ![](assets/inapp_customize_17.png)
 
-1. Sous la **[!UICONTROL Text]** catégorie, tapez votre **[!UICONTROL Message title]** et **[!UICONTROL Message content]**.
+1. Sous la catégorie **[!UICONTROL Texte]**, saisissez le **[!UICONTROL Titre du message]** et **[!UICONTROL Contenu du message]**.
 
    ![](assets/inapp_customize_18.png)
 
-1. Under the **[!UICONTROL Advanced option]** category, in the **[!UICONTROL Wait to display]** field, choose how long in seconds your local notification will be displayed on screen once your event is triggered.
-1. In the **[!UICONTROL Sound]** field, enter the filename of the sound file, with the extension, to be played by the mobile device when the local notification is received.
+1. Sous la catégorie **[!UICONTROL Option avancée]**, dans le champ **[!UICONTROL Attendre pour afficher]**, choisissez la durée (en secondes) pendant laquelle votre notification locale apparaîtra à l&#39;écran une fois votre événement déclenché.
+1. Dans le champ **[!UICONTROL Son]**, entrez le nom du fichier son, avec l&#39;extension, que doit lancer l&#39;appareil mobile à réception de la notification.
 
    Le fichier son est lu lors de la diffusion de la notification s&#39;il est défini dans le package de l&#39;application mobile. Sinon, le son par défaut de l&#39;appareil est émis.
 
    ![](assets/inapp_customize_19.png)
 
-1. Specify a destination to redirect your users when they interact with your local notification in the **[!UICONTROL Deeplink URL]** field.
-1. Pour transmettre des données personnalisées dans la payload sous la forme d&#39;une paire de valeurs de clés, vous pouvez ajouter des champs personnalisés à votre notification locale. In the **[!UICONTROL Custom fields]** category, click the **[!UICONTROL Create an element]** button.
-1. Enter your **[!UICONTROL Keys]** then the **[!UICONTROL Values]** associated with each key.
+1. Spécifiez une destination vers laquelle rediriger vos utilisateurs lorsqu&#39;ils interagissent avec votre notification locale dans le champ **[!UICONTROL URL de lien profond]**.
+1. Pour transmettre des données personnalisées dans la payload sous la forme d&#39;une paire de valeurs de clés, vous pouvez ajouter des champs personnalisés à votre notification locale. Dans la catégorie **[!UICONTROL Champs personnalisés]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
+1. Saisissez vos **[!UICONTROL Clés]**, puis les **[!UICONTROL Valeurs]** associées à chacune des clés.
 
    Notez que la finalité des champs personnalisés et leur gestion dépend entièrement de l&#39;application mobile.
 
-1. In the **[!UICONTROL Apple options]** category, fill in the **[!UICONTROL Category]** fields to add a category ID for custom actions if available in your Apple mobile application.
+1. Dans la catégorie **[!UICONTROL Options Apple]**, remplissez les champs **[!UICONTROL Catégorie]** afin d&#39;ajouter un ID de catégorie pour les actions personnalisées si elles sont disponibles dans votre application mobile Apple.
 
 ## Personnalisation à l&#39;aide d&#39;un message HTML personnalisé {#customizing-with-a-custom-html-message}
 
@@ -172,7 +172,7 @@ Pour personnaliser une notification locale :
 >
 >Un message HTML personnalisé ne prend pas en charge la personnalisation du contenu.
 
-The **[!UICONTROL Custom message]** mode allows you to directly import one of your pre-configured HTML message.
+Le mode **[!UICONTROL Message personnalisé]** permet d&#39;importer directement l&#39;un de vos messages HTML préconfigurés.
 
 Pour cela, il vous suffit d&#39;effectuer un glisser-déposer ou de sélectionner votre fichier depuis l&#39;ordinateur.
 
@@ -190,11 +190,11 @@ Une fois le code HTML importé, vous pouvez trouver un aperçu de votre fichier 
 
 Avant d&#39;envoyer votre message in-app, vous pouvez le tester avec vos profils de test pour vérifier ce que l&#39;audience cible verra lorsqu&#39;elle recevra la diffusion.
 
-1. Cliquez sur le **[!UICONTROL Preview]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/inapp_sending_2.png)
 
-1. Click the **[!UICONTROL Select a test profile]** button and select one of your test profiles to start previewing your delivery. Pour plus d&#39;informations sur les profils de test, consultez cette [section](../../audiences/using/managing-test-profiles.md).
+1. Cliquez sur le bouton **[!UICONTROL Sélectionner un profil de test]** et sélectionnez un de vos profils de test pour commencer à prévisualiser votre diffusion. Pour plus d&#39;informations sur les profils de test, consultez cette [section](../../audiences/using/managing-test-profiles.md).
 1. Vérifiez votre message sur différents appareils tels que des appareils Android, des téléphones iPhone et même des tablettes. Vous pouvez également contrôler si les champs de personnalisation récupèrent les données adéquates.
 
    ![](assets/inapp_sending_3.png)
