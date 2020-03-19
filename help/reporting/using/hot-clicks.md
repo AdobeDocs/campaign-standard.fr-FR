@@ -12,7 +12,7 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 # Hot clicks{#hot-clicks}
 
-This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
+Ce rapport est consultable au niveau de chaque diffusion ou chaque message transactionnel, à partir du bouton **[!UICONTROL Rapports]**.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -35,17 +35,17 @@ Imaginez par exemple que vous avez créé une diffusion avec les conditions suiv
 * Le lien de l&#39;image principale est différent selon que le destinataire est un homme ou une femme.
 * Vous avez également ajouté un lien vers une offre spéciale visible uniquement par les destinataires de plus de 25 ans.
 
-Once your message is sent, select **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Une fois le message envoyé, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL Hot clicks]** dans le tableau de bord des diffusions.
 
 Par défaut, aucun profil n&#39;est sélectionné. Seuls les clics des destinataires dont le genre est inconnu et ceux âgés de moins de 25 ans ou dont l&#39;âge est inconnu sont affichés.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. Pour afficher les clics des hommes, procédez de façon identique et sélectionnez un profil de test masculin.
+Pour afficher les clics des femmes, cliquez sur le bouton **[!UICONTROL Charger un profil]** et sélectionnez un profil de test féminin. Pour afficher les clics des hommes, procédez de façon identique et sélectionnez un profil de test masculin.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
+Pour afficher les clics des destinataires de plus de 25 ans, cliquez sur le bouton **[!UICONTROL Charger un profil]** et sélectionnez un profil de test dont la date de naissance correspond à cette condition.
 
 Pour en savoir plus sur les profils de test, voir [Profils de test](../../audiences/using/managing-test-profiles.md).
 
@@ -71,9 +71,9 @@ Une diffusion d&#39;exécution est un message technique non fonctionnel et non e
 >
 >Dans la mesure où les identifiants des URL trackées sont différents pour chaque exécution, les données de hot clicks ne peuvent pas être agrégées pour toutes les diffusions d&#39;exécution d&#39;un message donné. Elles s&#39;affichent pour une seule diffusion d&#39;exécution à la fois.
 
-Once your message is sent, select **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** from the delivery dashboard.
+Une fois le message envoyé, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL Hot clicks]** dans le tableau de bord des diffusions.
 
-Par défaut, la dernière diffusion d&#39;exécution est sélectionnée. Cliquez sur le **[!UICONTROL Change execution delivery]** bouton pour en sélectionner un autre.
+Par défaut, la dernière diffusion d&#39;exécution est sélectionnée. Cliquez sur le bouton **[!UICONTROL Modifier la diffusion d&#39;exécution]** pour en sélectionner une autre.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
