@@ -1,6 +1,6 @@
 ---
 title: Envoyer un bon à tirer
-description: Apprenez à envoyer des épreuves.
+description: Découvrez comment envoyer des bons à tirer.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
 
 ---
@@ -28,15 +28,15 @@ Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus d
 
 Au niveau d&#39;un message :
 
-1. Cliquez sur le **[!UICONTROL Send a test]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Envoyer un test]**.
 
    ![](assets/bat_select.png)
 
 1. Sélectionnez le type de BAT que vous souhaitez utiliser :
 
-   * **[!UICONTROL Email rendering]**: sélectionnez cette option pour tester la manière dont votre message est reçu en fonction des boîtes de réception ciblées. Pour plus d&#39;informations, voir [Rendu des emails](../../sending/using/email-rendering.md).
-   * **[!UICONTROL Proof]**: sélectionnez cette option pour tester le message avant de l’envoyer à la cible principale. Les destinataires du BAT sont chargés de la validation de la diffusion, tant sur son contenu que sur sa forme.
-   * **[!UICONTROL Proof + Email rendering]**: cette option combine les deux options précédentes.
+   * **[!UICONTROL Rendu des emails]** : sélectionnez cette option pour tester la réception de votre message en fonction des boîtes de messagerie ciblées. Pour plus d&#39;informations, voir [Rendu des emails](../../sending/using/email-rendering.md).
+   * **[!UICONTROL Bon à tirer]** : sélectionnez cette option pour tester le message avant son envoi à la cible principale. Les destinataires du BAT sont chargés de la validation de la diffusion, tant sur son contenu que sur sa forme.
+   * **[!UICONTROL Bon à tirer + Rendu des emails]** : cette option regroupe les deux options précédentes.
    ![](assets/bat_select1.png)
 
 1. Validez votre choix.
@@ -45,15 +45,15 @@ Au niveau d&#39;un message :
 
    ![](assets/bat_select2.png)
 
-1. You can view your proofs using the **[!UICONTROL Proofs]** drop-down list.
+1. Vous pouvez consulter les BAT depuis la liste déroulante **[!UICONTROL Bons à tirer]**.
 
    ![](assets/bat_view.png)
 
-1. Sélectionnez un BAT pour accéder à son résumé. For an email, if you have selected the **Email rendering** option as the proof type, the **[!UICONTROL Access email rendering]** icon is displayed on the right of the proof label. Voir [Rendu des emails](../../sending/using/email-rendering.md).
+1. Sélectionnez un BAT pour accéder à son résumé. Pour un email, si vous avez sélectionné l&#39;option **rendu des emails** lors du choix des BAT, l&#39;icône **[!UICONTROL Accéder au rendu des emails]** est affichée à droite du libellé du BAT. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    ![](assets/bat_view2.png)
 
-En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer la préparation de l&#39;email puis envoyer à nouveau un BAT. Each new proof can be accessed using the **[!UICONTROL Show proofs]** button.
+En fonction des remarques des personnes qui reçoivent le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer la préparation de l&#39;email puis envoyer à nouveau un BAT. Chaque nouveau BAT est accessible depuis le bouton **[!UICONTROL Afficher les bons à tirer]**.
 
 Vous devez envoyer autant de BAT que nécessaire jusqu&#39;à ce que le contenu de votre diffusion soit finalisé. Dès lors, vous pouvez envoyer la diffusion à la cible principale et clore le cycle de validation.
 
