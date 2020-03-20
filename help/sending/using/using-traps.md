@@ -12,8 +12,8 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+translation-type: tm+mt
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -45,20 +45,22 @@ Pour utiliser un profil de test comme piège, il doit être inclus dans l&#39;au
 
 Lors de la définition de l&#39;audience d&#39;un message :
 
-1. Dans l&#39;onglet **[!UICONTROL Profils de test]**, sélectionnez un profil de test ; Assurez-vous qu&#39;il affiche **[!UICONTROL Piège]** comme utilisation prévue.
+1. From the **[!UICONTROL Test profiles]** tab, select a test profile. Make sure that it has **[!UICONTROL Trap]** as the intended use.
 
    ![](assets/trap_select.png)
 
-1. Une fois que le contenu de votre message est prêt, cliquez sur le bouton **[!UICONTROL Préparer]**. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+1. Once your message content is ready, click the **[!UICONTROL Prepare]** button. Voir [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >Vérifiez que vous avez sélectionné une cible principale. Sinon, votre message ne peut pas être envoyé.
 
-1. Cliquez sur le bouton **[!UICONTROL Confirmer.]** Voir [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
+1. Cliquez sur le **[!UICONTROL Confirm]** bouton. Voir [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
 Le message est envoyé à la cible principale et au profil de test.
+
+Vous pouvez utiliser des pièges lors de l’envoi de  de. Dans ce cas, le de test recevra un message par configuration . For more on transactional messaging, see this [section](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
