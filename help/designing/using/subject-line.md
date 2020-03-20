@@ -11,13 +11,15 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 259f7033310982298024462c0134989404c096f4
+translation-type: tm+mt
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
 
 # Définition de l&#39;objet et de l&#39;expéditeur d&#39;un email{#defining-the-subject-line-of-an-email}
+
+## Defining the subject line of an email {#subject-line}
 
 L&#39;objet de l&#39;email est obligatoire pour préparer et envoyer le message.
 
@@ -25,45 +27,28 @@ L&#39;objet de l&#39;email est obligatoire pour préparer et envoyer le message.
 >
 >Si l&#39;objet est vide, un avertissement apparaît dans le dashboard du message ainsi que dans le Concepteur d&#39;email.
 
-Pour configurer l&#39;objet de l&#39;email, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible via l&#39;icône de maison) et remplissez la section**[!UICONTROL  Objet]**.
-
-**Pour définir l&#39;objet d&#39;un email** :
-
 1. Créez un email.
-1. Fermez la page d&#39;accueil.
-1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section**[!UICONTROL  Objet.]**
+1. Accédez à l’ **[!UICONTROL Properties]** onglet du de concepteur de courrier électronique (accessible via l’icône d’accueil).
+1. Renseignez la **[!UICONTROL Subject]** section.
 
-![](assets/email_designer_subject.png)
+   ![](assets/email_designer_subject.png)
 
-Vous pouvez également ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique à la ligne d&#39;objet en cliquant sur les icônes correspondantes.
-
-## Optimisation prédictive de l&#39;objet {#predictive-subject-line}
-
-Lors de l&#39;édition d&#39;un email, vous pouvez tester différents objets et obtenir une estimation de son taux d&#39;ouverture avant l&#39;envoi.
-
-Cette fonctionnalité est désactivée par défaut. Elle est activée lors de l&#39;import d&#39;un premier modèle. Un modèle est créé à partir de jeux de données d&#39;apprentissage spécifiques à un secteur d&#39;activité donné. Les modèles permettent au système d&#39;estimer le taux d&#39;ouverture d&#39;un email lorsqu&#39;un nouvel objet est soumis.
-
->[!NOTE]
->
->Cette fonctionnalité est disponible pour les emails et les bases de données dont le contenu est en anglais uniquement. Si votre instance contient des emails dans d&#39;autres langues, le modèle entraîné sera incohérent et donnera des résultats erronés. L&#39;option permettant de tester un objet n&#39;est visible que si un modèle est disponible dans votre instance.
-
-**Rubriques connexes**
-
-* [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
+1. Vous pouvez également ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique à la ligne d&#39;objet en cliquant sur les icônes correspondantes. For more on this, see [Personalization](../../designing/using/personalization.md).
+1. Vous pouvez essayer différentes lignes de sujet afin d&#39;obtenir une estimation de votre taux d&#39;ouverture de courriel avant de l&#39;envoyer. Voir à ce propos la section [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md).
 
 ## Définition de l’expéditeur d’un email{#email-sender}
 
-Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil).
+To define the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon).
 
 ![](assets/delivery_content_edition16.png)
 
-* Le champ **[!UICONTROL De : nom]**permet de saisir le nom de l&#39;expéditeur. Par défaut, le bloc** Nom de l&#39;expéditeur **par défaut est automatiquement inscrit dans le champ. L’adresse email de l’expéditeur et le nom de l’expéditeur par défaut sont définis dans**[!UICONTROL  Marques]** et accessibles via le logo Adobe Campaign sous le menu avancé **[!UICONTROL Administration > Paramètres de l’instance > Paramétrage des marques]**.
+* The **[!UICONTROL From: name]** field allows you to enter the sender name. Par défaut, le bloc **Nom de l&#39;expéditeur** par défaut est automatiquement inscrit dans le champ. The default sender email address and sender name are  defined in **[!UICONTROL Brands]** accessible via the Adobe Campaign logo under the advanced menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
    Vous pouvez changer le nom de l&#39;expéditeur en cliquant sur le bloc **Nom de l&#39;expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
-   Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique en cliquant sur les icônes situées sous le nom de l&#39;expéditeur.
+   Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique en cliquant sur les icônes situées sous le nom de l&#39;expéditeur. For more on this, see [Personalization](../../designing/using/personalization.md).
 
-* Le champ **[!UICONTROL De : adresse email]**n&#39;est pas éditable depuis cette section. Vous pouvez le modifier en éditant les propriétés de l&#39;email depuis son tableau de bord. Pour plus d&#39;informations, voir[Liste des paramètres avancés des emails](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* Le **[!UICONTROL From: email address]** champ ne peut pas être modifié à partir de cette section. Vous pouvez le modifier en éditant les propriétés de l&#39;email depuis son tableau de bord. Pour plus d&#39;informations, voir [Liste des paramètres avancés des emails](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
