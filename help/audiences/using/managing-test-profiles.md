@@ -1,6 +1,6 @@
 ---
-title: Gestion des profils de test
-description: Découvrez comment gérer les profils de test.
+title: 'Gestion des profils de test '
+description: Découvrez comment gérer les  de test.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -13,28 +13,28 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ---
 
 
-# Gestion des profils de test {#managing-test-profiles}
+# Gestion des profils de test  {#managing-test-profiles}
 
 ## Profils de test {#about-test-profiles}
 
 Les profils de test permettent de cibler des destinataires additionnels, qui ne correspondent pas aux critères de ciblage définis. Ils sont ajoutés à l&#39;audience d&#39;un message afin de détecter une utilisation frauduleuse de votre base de destinataire ou de contrôler la bonne réception de vos messages.
 
-Vous pouvez gérer vos profils de test à partir du menu avancé **[!UICONTROL Profiles & audiences > Test profiles]**.
+Vous pouvez gérer vos  de test à partir du menu avancé **[!UICONTROL Profiles & audiences > Test profiles]**.
 
 Un profil de test est un profil contenant des informations de contact fictives ou contrôlées par l&#39;expéditeur et pouvant être utilisé dans un message dans les contextes suivants :
 
-* Pour envoyer un **Bon à tirer** : le bon à tirer (BAT) est un message spécifique qui permet de valider le message avant l&#39;envoi de la diffusion finalisée aux destinataires. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
-* Pour le **Rendu des emails** : un profil de test de type Rendu des emails est utilisé pour contrôler l&#39;affichage d&#39;un message en fonction de la boîte de messagerie qui le réceptionne. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
+* For sending **Proofs**: The Proof is a specific message used to check the message before sending the finalized delivery to recipients. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
+* For **Email rendering**: The Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    L&#39;usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
-* Comme **Piège** : le message est envoyé au profil de test tel qu&#39;il est envoyé à la cible principale. Voir [Utilisation des pièges](../../sending/using/using-traps.md).
-* Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d&#39;un message afin de tester les éléments de personnalisation. Voir [Prévisualiser un message](/help/sending/using/previewing-messages.md).
+* As a **Trap**: The message is sent to the test profile just as it is sent to the main target. Voir [Utilisation de pièges](../../sending/using/using-traps.md).
+* To **Preview** messages: A test profile can be selected when previewing a message to test the personalization elements. Voir [Prévisualiser le message](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
@@ -44,7 +44,7 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_1.png)
 
-1. Dans le **[!UICONTROL Test profiles]** tableau de bord, cliquez sur **Créer**.
+1. Dans le **[!UICONTROL Test profiles]** , cliquez sur **Créer**.
 
    ![](assets/test_profile_creation_2.png)
 
@@ -56,7 +56,7 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
    ![](assets/test_profile_creation_4.png)
 
-1. Entrez les canaux de contact **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, ainsi que l’adresse du profil de test, le cas échéant.
+1. Entrez le  de contact **[!UICONTROL Email, Telephone, Mobile, Mobile app]**, ainsi que l&#39;adresse  du de test si nécessaire.
 
    >[!NOTE]
    >
