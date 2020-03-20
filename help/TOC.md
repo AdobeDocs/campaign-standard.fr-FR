@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,11 +16,12 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour 2020](rn/using/release-notes-2020.md)
       + [Notes de mise à jour 2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Planification des versions](rn/using/release-planning.md)
-   + [Fonctions obsolètes](rn/using/deprecated-features.md)
+   + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
    + A propos d&#39;Adobe Campaign {#about-adobe-campaign}
       + [Orchestration des campagnes](start/using/campaign-orchestration.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + Découverte de l&#39;interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l&#39;interface](start/using/interface-description.md)
-      + [Navigateurs compatibles](start/using/compatible-browsers.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
    + Plans marketing {#marketing-plans}
       + [Programmes et campagnes](start/using/programs-and-campaigns.md)
@@ -94,7 +94,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Préparation et envoi d&#39;une notification push](channels/using/preparing-and-sending-a-push-notification.md)
       + [Personnalisation d&#39;une notification push](channels/using/customizing-a-push-notification.md)
       + [Création d&#39;une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
-      + [Génération d’un fichier CSV pour la notification Push multilingue](channels/using/generating-csv-multilingual-push.md)
+      + [Génération d’un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d&#39;applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Prévisualiser un message](sending/using/previewing-messages.md)
       + [Préparer l&#39;envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
+      + [Test des messages électroniques à l’aide de  ciblées](sending/using/testing-messages-using-target.md)
       + [Test de l&#39;objet d&#39;un email](sending/using/testing-subject-line-email.md)
       + [Rendu des emails](sending/using/email-rendering.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
@@ -307,7 +308,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
       + [Statuts des ressources](developing/using/resource-statuses.md)
       + [Contrôle des modifications du modèle de données](developing/using/monitoring-data-model-changes.md)
-      + [Meilleures pratiques du modèle de données](developing/using/data-model-best-practices.md)
+      + [Bonnes pratiques relatives au modèle de données](developing/using/data-model-best-practices.md)
    + Ajouter ou étendre une ressource {#adding-or-extending-a-resource}
       + [Principales étapes pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
    + [Administration d&#39;Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + Instructions de configuration {#configuration-guidelines}
+      + [A propos des instructions de configuration](administration/using/about-configuration-guidelines.md)
+      + [Navigateurs compatibles](administration/using/compatible-browsers.md)
+      + [Campaign Standard points de terminaison réseau](administration/using/campaign-standard-network-endpoints.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
       + [Gestion des utilisateurs](administration/using/users-management.md)
