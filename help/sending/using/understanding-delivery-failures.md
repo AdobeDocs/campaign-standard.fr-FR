@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 * **[!UICONTROL User unknown]** (Type dur) : l&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil.
 * **[!UICONTROL Quarantined address]** (Type dur) : l&#39;adresse a été placée en .
-* **[!UICONTROL Unreachable]** (Type souple/net) : une erreur s&#39;est produite dans la chaîne de de messages (incident sur le relais SMTP, domaine temporairement ---, etc.). Selon l&#39;erreur renvoyée par le fournisseur, l&#39;adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu&#39;à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d&#39;erreurs atteigne 5.
+* **[!UICONTROL Unreachable]** (Type souple/net) : une erreur s&#39;est produite dans la chaîne de de messages (par exemple, domaine temporairement -----). Selon l&#39;erreur renvoyée par le fournisseur, l&#39;adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu&#39;à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d&#39;erreurs atteigne 5.
 * **[!UICONTROL Address empty]** (Type dur) : l&#39;adresse n&#39;est pas définie.
 * **[!UICONTROL Mailbox full]** (Type souple) : la boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter plus de messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l&#39;est automatiquement au bout de 30 jours.
 
@@ -103,7 +103,7 @@ This list is available to administrators only and contains all the rules used by
 >
 >Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le serveur de diffusion MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Les rebonds asynchrones sont toujours qualifiés par le processus inMail via les **[!UICONTROL Inbound email]** règles. Pour accéder à ces règles, cliquez sur le **[!UICONTROL Adobe Campaign]** logo, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Channels > Email > Email processing rules]** et **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
