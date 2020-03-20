@@ -11,8 +11,8 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign crée des profils client complets en temps réel, ce qui vous per
 
    Grâce aux workflows et à l&#39;éditeur de requêtes, vous avez la possibilité de construire les audiences qui seront ciblées par vos campagnes marketing, selon les informations dont vous disposez sur elles, leurs activités et leur historique marketing. Vous pouvez ainsi filtrer les profils d&#39;inscrits, échantillonner ou créer des audiences cibles sur un nombre illimité de critères.
 
-Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation. Avec Campaign, il est recommandé d&#39;utiliser les mécanismes simples d&#39;inscription/de désinscription (opt-in/opt-out) par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
+Avant de commencer à envoyer des messages à un contact, vous devez vous assurer d&#39;obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation. Avec Campaign, il est recommandé d&#39;utiliser les mécanismes simples d&#39;inscription/de désinscription (opt-in/opt-out) par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
 
 Fournir des liens de désabonnement dans vos messages permet le blacklistage des profils lorsque cela est nécessaire et améliore donc la délivrabilité de votre plate-forme. Pour en savoir plus sur le blacklistage, consultez [Les processus d&#39;inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -39,11 +39,11 @@ Identifiez les clients plus efficacement sur tous les canaux à l&#39;aide des p
 
 >[!CAUTION]
 >
->Vous devez toujours respecter la [Politique d&#39;utilisation acceptable pour Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
+>Vous devez toujours respecter la [Politique d&#39;utilisation acceptable pour Adobe Campaign](https://www.adobe.com/legal/terms/aup.html).
 
 Le RGPD est la nouvelle loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l&#39;UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
-Pour plus d&#39;informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html).
+Pour plus d&#39;informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html).
 
 **Rubriques connexes :**
 
