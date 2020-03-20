@@ -11,15 +11,15 @@ topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+translation-type: tm+mt
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
 
 # Définir un texte dynamique{#defining-dynamic-text}
 
-Le texte dynamique est défini de la même façon que le contenu dynamique. Reportez-vous à la section [Définir le contenu dynamique](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Le texte dynamique est défini de la même façon que le contenu dynamique. Voir [Définir le contenu dynamique](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >
@@ -28,11 +28,11 @@ Le texte dynamique est défini de la même façon que le contenu dynamique. Repo
 L&#39;exemple ci-dessous montre comment définir du texte dynamique dans un SMS.
 
 1. Sélectionnez du texte dans le corps de votre message ou landing page.
-1. Cliquez sur **[!UICONTROL Activer le texte dynamique]**.
+1. Clics **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   L&#39;option **[!UICONTROL Texte dynamique]**apparaît dans la palette. Son paramétrage est identique au contenu dynamique.
+   L’ **[!UICONTROL Dynamic text]** option s’affiche dans la palette. Son paramétrage est identique au contenu dynamique.
 
 1. Sélectionnez une variante.
 
