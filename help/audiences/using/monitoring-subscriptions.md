@@ -11,60 +11,60 @@ topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
 
 # Contrôler les inscriptions{#monitoring-subscriptions}
 
-Utilisez l'interface d'Adobe Campaign pour tracker vos abonnés et mesurer le succès de vos services.
+Utilisez l&#39;interface d&#39;Adobe Campaign pour tracker vos abonnés et mesurer le succès de vos services.
 
 Vous disposez de plusieurs options pour contrôler les inscriptions et désinscriptions :
 
 * Affichez la liste des personnes actuellement inscrites à votre service dans le tableau de bord du service. Voir [Tableau de bord du service](#service-dashboard).
-* Consultez l'historique des abonnements et des désabonnements depuis l'onglet **Historique des abonnements** du tableau de bord du service. Voir [Historique des abonnements](#subscription-history).
-* Affichez un rapport détaillant l'évolution des inscriptions et des désinscriptions dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
-* Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
+* Consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. Voir [Historique des abonnements](#subscription-history).
+* Display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. Voir [Rapports du service](#service-reports).
+* Find the list of services a person has subscribed from its **Profile**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
 ## Tableau de bord du service {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
-1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** &gt; **Services**, accessible depuis le logo Adobe Campaign.
+1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.
-1. La liste des personnes inscrites au service figure sous l'onglet **Abonnements**.
+1. La liste des personnes inscrites au service figure sous l&#39;onglet **Abonnements**.
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
 ## Applications mobiles {#subscription-history}
 
-Pour consulter l'historique des inscriptions et des désinscriptions au service :
+Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
-1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** &gt; **Services**, accessible depuis le logo Adobe Campaign.
+1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.
-1. Sélectionnez l'onglet **Historique des abonnements** pour afficher les dates auxquelles chaque personne s'est inscrite et désinscrite.
+1. Sélectionnez l&#39;onglet **Historique des abonnements** pour afficher les dates auxquelles chaque personne s&#39;est inscrite et désinscrite.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
 ## Rapports du service {#service-reports}
 
-Pour afficher un rapport présentant l'évolution des inscriptions et des désinscriptions :
+Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
-1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** &gt; **Services**, accessible depuis le logo Adobe Campaign.
+1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.
-1. Cliquez sur le bouton **Rapports** dans la barre d'actions, puis sur **Contrôle des abonnements** dans l'écran de sélection.
+1. Cliquez sur le bouton **Rapports** dans la barre d&#39;actions, puis sur **Contrôle des abonnements** dans l&#39;écran de sélection.
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. Le rapport **Synthèse du service** présente le nombre d'inscrits, l'évolution globale des inscriptions et une courbe d'évolution dans le temps.
+1. Le rapport **Synthèse du service** présente le nombre d&#39;inscrits, l&#39;évolution globale des inscriptions et une courbe d&#39;évolution dans le temps.
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
 ## Historique des événements liés à un profil {#history-of-events-linked-to-a-profile}
 
-Pour connaître la liste des services auxquels un contact s'est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
+Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
