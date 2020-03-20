@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -207,7 +207,7 @@ Par exemple :
 
       >[!NOTE]
       >
-      >Si vous envisagez d&#39;envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l&#39;opérateur de services postaux. Also make sure that the **[!UICONTROL Address specified]** box in your profiles&#39; information is checked. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ **postalAddress/@addrDefined** comme **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >Si vous envisagez d&#39;envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l&#39;opérateur de services postaux. Also make sure that the **[!UICONTROL Address specified]** box in your profiles&#39; information is checked. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ `postalAddress/@addrDefined` comme **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
