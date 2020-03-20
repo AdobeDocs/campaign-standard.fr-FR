@@ -11,15 +11,15 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # A propos de l&#39;envoi de messages avec Campaign{#about-sending-messages-with-campaign}
 
-Une fois que vous avez défini la cible et créé le contenu de votre message, vous devez le tester et le valider avant de l&#39;envoyer à la cible principale. Pour cela :
+Une fois que vous avez défini le  et créé le contenu d’un message, vous devez le tester et l’approuver avant d’envoyer le message au principal . Pour cela :
 
 * Prévisualisez votre diffusion à l&#39;aide d&#39;un profil de test.
 * Planifiez l&#39;envoi : définissez à quel moment envoyer le message.
