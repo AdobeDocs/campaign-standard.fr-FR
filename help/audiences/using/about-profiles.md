@@ -12,8 +12,8 @@ discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -28,7 +28,6 @@ Adobe Campaign vous permet de gérer des contacts dans toutes les étapes de leu
 
 ![](assets/marketing_history.png)
 
-Lorsque vous créez des campagnes, vous pouvez définir la cible des diffusions en sélectionnant les profils selon des critères simples ou avancés. Techniquement, un profil est une entrée dans la base de données qui contient toutes les informations nécessaires au ciblage, à la qualification et au tracking des comportements.
+Lorsque vous créez des campagnes, vous pouvez définir la cible des diffusions en sélectionnant les profils selon des critères simples ou avancés. D’un point de vue technique, un est une entrée de la base de données qui contient toutes les informations requises pour le ciblage, les qualifications et le suivi des comportements.
 
 Un profil peut être : un client, un prospect, un individu inscrit à une newsletter, un destinataire, un utilisateur ou toute autre dénomination selon l&#39;organisation. Pour définir différents types de profil, utilisez des [dimensions de ciblage](../../automating/using/query.md#targeting-dimensions-and-resources).
-
