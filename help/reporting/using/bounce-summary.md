@@ -12,15 +12,15 @@ discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
 
 # Synthèse des rebonds (Bounce summary){#bounce-summary}
 
-Ce rapport présente l'ensemble des statistiques d'erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours.
+Ce rapport présente l&#39;ensemble des statistiques d&#39;erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours.
 
 ![](assets/campaign_reports_bounces.png)
 
@@ -28,19 +28,19 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 
 **Flop 5 des répartitions** liste les cinq diffusions présentant le plus grand nombre de mises en quarantaine :
 
-Le tableau **Raisons de bounce** contient les données disponibles pour les types d'erreur ayant causé des bounces pour chaque diffusion :
+Le tableau **Raisons de bounce** contient les données disponibles pour les types d&#39;erreur ayant causé des bounces pour chaque diffusion :
 
-* **[!UICONTROL Utilisateur inconnu]** : type d'erreur générée lors de l'envoi d'une diffusion indiquant que l'adresse email est invalide.
-* **[!UICONTROL Domaine invalide]** : type d'erreur générée lors de l'envoi d'une diffusion indiquant que le domaine de l'adresse email est erroné ou n'existe plus.
-* **[!UICONTROL Inatteignable]** : type d'erreur survenue dans la chaîne de diffusion du message. Par exemple, incident sur le relais SMTP, domaine temporairement inatteignable, etc.
-* **[!UICONTROL Compte désactivé]** : type d'erreur générée lors de l'envoi d'une diffusion indiquant que l'adresse n'existe plus.
-* **[!UICONTROL Boîte pleine]** : type d'erreur générée lorsque la boîte de réception du destinataire est pleine. Il y a cinq tentatives d'envoi du message avant que cette erreur soit générée.
-* **[!UICONTROL Non connecté]** : type d'erreur générée lorsque le téléphone portable du destinataire est éteint ou n'est pas connecté au réseau au moment de l'envoi du message.
+* **[!UICONTROL User unknown]**: Type d’erreur généré lorsqu’un est envoyé à une adresse électronique non valide.
+* **[!UICONTROL Invalid domain]**: Type d’erreur généré lorsqu’un est envoyé à une adresse électronique dont le domaine est incorrect ou n’existe plus.
+* **[!UICONTROL Unreachable]**: Type d’erreur rencontré dans la chaîne de de messages, par exemple domaine temporairement --------.
+* **[!UICONTROL Account disabled]**: Type d’erreur généré lorsqu’un est envoyé à une adresse électronique qui n’existe plus.
+* **[!UICONTROL Mailbox full]**: Type d’erreur généré lorsque la boîte de réception du est pleine. Il y a cinq tentatives d&#39;envoi du message avant que cette erreur soit générée.
+* **[!UICONTROL Not connected]**: Type d’erreur généré lorsque le  téléphone mobile est désactivé ou n’est pas connecté à un réseau au moment de l’envoi du message.
 
    >[!NOTE]
    >
-   >Ce type d'envoi ne concerne que les diffusions sur les canaux mobiles.
+   >Ce type d&#39;envoi ne concerne que les diffusions sur les canaux mobiles.
 
-* **[!UICONTROL Refusé]** : type d'erreur générée lorsqu'une adresse est refusée par le fournisseur d'accès Internet (FAI). Par exemple, lorsqu'une règle de sécurité a été appliquée par un logiciel anti-spam.
+* **[!UICONTROL Refused]**: Type d’erreur généré lorsqu’une adresse est refusée par le Internet (FAI). Par exemple, lorsqu&#39;une règle de sécurité a été appliquée par un logiciel anti-spam.
 
 Le tableau **Répartition des domaines** affiche les problèmes généraux survenus au cours des diffusions, en fonction du domaine du destinataire.
