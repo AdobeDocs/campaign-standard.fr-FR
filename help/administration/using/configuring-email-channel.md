@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -56,7 +56,7 @@ L&#39;écran Configuration email vous permet de définir les paramètres du cana
 
 [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 
-## Comptes de routage email   {#email-routing-accounts}
+## Comptes de routage email    {#email-routing-accounts}
 
 Le **[!UICONTROL Integrated email routing]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l&#39;application d&#39;envoyer des emails.
 
@@ -68,7 +68,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 [Comptes externes](../../administration/using/external-accounts.md)
 
-## Règles de gestion des emails   {#email-processing-rules}
+## Règles de gestion des emails    {#email-processing-rules}
 
 Les administrateurs **[!UICONTROL Email processing rules]** peuvent y accéder par le **[!UICONTROL Administration > Channels > Email]** menu.
 
@@ -78,7 +78,7 @@ Les règles par défaut sont les suivantes :
 
 ### Mails rebonds {#bounce-mails}
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le serveur de diffusion MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Les rebonds asynchrones sont toujours qualifiés par le processus Campaign dans le courrier via la **[!UICONTROL Bounce mails]** règle.
 
@@ -107,7 +107,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **La signature de l’authentification par messagerie électronique DKIM (DomainKeys Identified Mail)** est effectuée par la MTA améliorée pour tous les messages contenant tous les domaines. Il ne se signe pas avec l’ID **d’expéditeur**, **DomainKeys**, **DKIM** ou **S/MIME sauf indication contraire au niveau MTA amélioré.**
 
-Pour plus d’informations sur le serveur de diffusion MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -123,7 +123,7 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 
 Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de vos historiques de réputation de diffusion d’emails et des retours en temps réel issus de domaines auxquels vous envoyez des emails.
 
-Pour plus d’informations sur le serveur de diffusion MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -159,7 +159,7 @@ The following parameters are available for each rule:
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. -->
 
-## Liste des propriétés des emails   {#list-of-email-properties}
+## Liste des propriétés des emails    {#list-of-email-properties}
 
 Cette section décrit la liste des paramètres disponibles dans l&#39;écran des propriétés d&#39;un email ou d&#39;un modèle d&#39;email.
 
@@ -199,7 +199,7 @@ Par défaut, cinq reprises sont planifiées le premier jour de l&#39;envoi, avec
 
 Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
 
-#### Paramètres de format des emails   {#email-format-parameters}
+#### Paramètres de format des emails    {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
@@ -230,7 +230,7 @@ Si vous activez l&#39;option de mode test SMTP pour un modèle d&#39;email, cett
 
 Pour plus d&#39;informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
-### Paramètres de période de validité   {#validity-period-parameters}
+### Paramètres de période de validité    {#validity-period-parameters}
 
 La section **[!UICONTROL Validity period]** propose les paramètres suivants :
 
@@ -262,7 +262,7 @@ La section **[!UICONTROL Validity period]** propose les paramètres suivants :
 >
 >The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. Pour plus d&#39;informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
 
-### Paramètres du tracking   {#tracking-parameters}
+### Paramètres du tracking    {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
@@ -282,11 +282,11 @@ Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le 
 
 L’insertion et l’utilisation du contenu de personnalisation sont présentées dans la documentation [Personnalisation du contenu des emails](../../designing/using/personalization.md).
 
-#### Contexte de ciblage   {#target-context}
+#### Contexte de ciblage    {#target-context}
 
 Le contexte de ciblage permet de définir l&#39;ensemble les tables qui seront utilisées pour le ciblage (dans l&#39;écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l&#39;éditeur de contenu HTML) de l&#39;email.
 
-#### Routage   {#routing}
+#### Routage    {#routing}
 
 Ce champ indique le mode de routage utilisé. Il référence un compte externe. Par exemple, cela peut être utile si vous souhaitez utiliser un compte externe contenant des paramétrages de branding spécifiques.
 
@@ -294,7 +294,7 @@ Ce champ indique le mode de routage utilisé. Il référence un compte externe. 
 >
 >Les comptes externes sont accessibles via le menu **Administration** > **Paramétrage de l&#39;application** > **Comptes externes**.
 
-#### Préparation   {#preparation}
+#### Préparation    {#preparation}
 
 La préparation des messages est présentée dans la section [Valider les messages](../../sending/using/preparing-the-send.md).
 
@@ -310,6 +310,10 @@ La préparation des messages est présentée dans la section [Valider les messag
 
 * **[!UICONTROL Save SQL queries in the log]**: cette option vous permet d&#39;ajouter des journaux de SQL dans le  pendant la phase de préparation.
 
+#### Paramètres de BAT {#proof-settings}
+
+Cette section vous permet de configurer le préfixe par défaut à utiliser dans la ligne d’objet . For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+
 ### Liste des paramètres SMTP des emails {#list-of-email-smtp-parameters}
 
 La section **[!UICONTROL SMTP]** propose les paramètres suivants :
@@ -322,7 +326,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
    >
    >L&#39;ajout d&#39;un script pour l&#39;insertion d&#39;en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-### Liste des paramètres d&#39;autorisation d&#39;accès   {#list-of-access-authorization-parameters}
+### Liste des paramètres d&#39;autorisation d&#39;accès    {#list-of-access-authorization-parameters}
 
 La section **[!UICONTROL Access authorization]** propose les paramètres suivants :
 
