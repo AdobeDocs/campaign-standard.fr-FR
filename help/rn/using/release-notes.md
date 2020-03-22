@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Interface et domaine d’Experience Cloud unifié</strong><br /> </th> 
+   <th> <strong>Interface d’Experience Cloud unifiée</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>La barre supérieure de l’interface a été améliorée afin d’améliorer l’expérience dans toutes les applications Experience Cloud. L’accès aux solutions a été unifié avec l’URL suivante : experience.adobe.com/&lt;nom de l’application&gt;. L’en-tête vous permet désormais de basculer plus facilement entre les solutions et affiche une aide et des notifications améliorées.</p>
+   <td> <p>La barre supérieure de l’interface a été améliorée afin d’améliorer l’expérience dans toutes les applications Experience Cloud. L’en-tête vous permet désormais de basculer plus facilement entre les solutions et affiche une aide et des notifications améliorées.</p>
     <p>Pour plus d'informations, consultez la <a href="../../start/using/interface-description.md#top-bar">documentation détaillée</a>. </p>
    </td> 
   </tr> 
