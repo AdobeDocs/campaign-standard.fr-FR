@@ -172,6 +172,7 @@ Il vous faut également intégrer le déclenchement de cet événement à votre 
 <!-->>[!NOTE]
 >Pour consulter les publications précédentes, le cas échéant, cliquez sur le **[!UICONTROL Latest transactional events]** lien sous la **[!UICONTROL History]** section dans la zone de gauche.—>
 >
+
 ### Dépublier un événement   {#unpublishing-an-event}
 
 The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Désormais, même si l&#39;événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
