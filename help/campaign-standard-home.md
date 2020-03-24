@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## Nouveautés
 
-* **[Test des e-mails à l’aide de ciblés](sending/using/testing-messages-using-target.md)**Découvrez comment tester vos e-mails sur des  ciblées réelles.
+* **[Test des e-mails à l’aide de ciblés](sending/using/testing-messages-using-target.md)**<br/>Découvrez comment tester vos e-mails sur des  ciblées réelles.
 
 * **[Gestion de la confidentialité](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
 
