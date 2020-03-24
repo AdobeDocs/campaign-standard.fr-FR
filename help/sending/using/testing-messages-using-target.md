@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ Les étapes principales sont les suivantes :
 1. (Facultatif) Pour chaque  de, définissez un **préfixe** à ajouter à la ligne d’objet du.
 1. **** dans le concepteur de courrier électronique de la manière dont le message s’affichera pour l’ du.
 1. Envoyez les.
+
+Pour plus d&#39;informations sur le processus global, reportez-vous au didacticiel vidéo disponible [ici](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ Les étapes principales de ce cas d’utilisation sont les suivantes :
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Les sont envoyés en fonction de ce qui a été configuré dans l&#39;onglet **[!UICONTROL[de substitution ]**.
+1. Les sont envoyés selon ce qui a été configuré dans l’ **[!UICONTROL Profile substitutions]** onglet.
 
    ![](assets/substitution_uc_proofs.png)
