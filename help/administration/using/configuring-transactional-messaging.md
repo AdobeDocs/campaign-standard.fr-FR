@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
+source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 ---
 
@@ -169,9 +169,11 @@ Vous pouvez accéder au message transactionnel qui a été créé directement à
 
 Il vous faut également intégrer le déclenchement de cet événement à votre site web. Voir [Intégrer le déclenchement de l&#39;événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!-->>[!NOTE]
->Pour consulter les publications précédentes, le cas échéant, cliquez sur le **[!UICONTROL Latest transactional events]** lien sous la **[!UICONTROL History]** section dans la zone de gauche.—>
+<!--
+>[!NOTE]
 >
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### Dépublier un événement   {#unpublishing-an-event}
 
@@ -180,7 +182,8 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
-Si vous avez déjà publié le message transactionnel correspondant, la publication du message est également annulée. Voir [Dépublier un message transactionnel](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+>
+>Si vous avez déjà publié le message transactionnel correspondant, la publication du message est également annulée. Voir [Dépublier un message transactionnel](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Click the **[!UICONTROL Publish]** button to generate a new REST API.
 
@@ -194,14 +197,16 @@ Une fois qu’un  a été annulé ou qu’un  de n’a pas encore été publié,
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
-   Assurez-vous que la configuration  a l’ **[!UICONTROL Draft]** état, sinon vous ne pourrez pas la supprimer. L’ **[!UICONTROL Draft]** état s’applique à un qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-an-event).
+   >
+   >Assurez-vous que la configuration  a l’ **[!UICONTROL Draft]** état, sinon vous ne pourrez pas la supprimer. L’ **[!UICONTROL Draft]** état s’applique à un qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-an-event).
 
 1. Cliquez sur le **[!UICONTROL Confirm]** bouton.
 
    ![](assets/message-center_delete-confirm.png)
 
 >[!IMPORTANT]
-La suppression d’une configuration de  de qui a été publiée et déjà utilisée supprimera également le ou les (s)(s) correspondant(s), ainsi que ses (s) d’envoi et ses(s) d’envoi.
+>
+>La suppression d’une configuration de  de qui a été publiée et déjà utilisée supprimera également le ou les (s)(s) correspondant(s), ainsi que ses (s) d’envoi et ses(s) d’envoi.
 
 ## Intégrer le déclenchement de l&#39;événement à un site web {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -227,7 +232,8 @@ Pour plus d&#39;informations, voir [Créer de l&#39;engagement avec des messages
 1. Enrichissez le contenu du message transactionnel si vous souhaitez utiliser des informations supplémentaires de la base de données Adobe Campaign (voir [Enrichir le contenu d&#39;un message transactionnel](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l&#39;événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d&#39;enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign.
+   >
+   >Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l&#39;événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d&#39;enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign.
 
 1. Prévisualisez et publiez l&#39;événement (voir [Prévisualiser et publier l&#39;événement](#previewing-and-publishing-the-event)).
 
@@ -269,7 +275,8 @@ L&#39;événement doit contenir les trois éléments suivants :
 1. Enrichissez le contenu du message transactionnel si vous souhaitez utiliser des informations supplémentaires de la base de données Adobe Campaign (voir [Enrichir le contenu d&#39;un message transactionnel](#enriching-the-transactional-message-content)).
 
    >[!NOTE]
-   Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l&#39;événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d&#39;enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign.
+   >
+   >Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l&#39;événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d&#39;enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign.
 
 1. Prévisualisez et publiez l&#39;événement (voir [Prévisualiser et publier l&#39;événement](#previewing-and-publishing-the-event)).
 
@@ -294,7 +301,8 @@ Pour envoyer une notification push transactionnelle aux profils Adobe Campaign q
 1. Ajoutez des champs à l&#39;événement si vous voulez personnaliser le message transactionnel (voir [Définir les attributs d&#39;événement](#defining-the-event-attributes)).
 
    >[!NOTE]
-   Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n&#39;avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
+   >
+   >Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n&#39;avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
 
 1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
 1. Prévisualisez et publiez l&#39;événement (voir [Prévisualiser et publier l&#39;événement](#previewing-and-publishing-the-event)).
