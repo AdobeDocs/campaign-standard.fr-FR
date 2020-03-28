@@ -43,7 +43,7 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody> 
   <tr> 
    <td> Préproduction<br /> </td> 
-   <td> 1er au 2 avril 2020<br /> </td> 
+   <td> 31 mars - 1er avril 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
