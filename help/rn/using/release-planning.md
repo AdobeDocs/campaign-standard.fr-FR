@@ -1,6 +1,6 @@
 ---
-title: Planification de la publication Campaign Standard
-description: Cette page  les prochaines versions de  Standard.
+title: Calendrier des versions de Campaign Standard
+description: Cette page répertorie toutes les versions à venir d’Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
 
-# Planification des versions {#release-planning}
+# Calendrier des versions {#release-planning}
 
 Adobe perfectionne constamment ses solutions en ajoutant de nouvelles fonctions, des améliorations et des correctifs.
 
@@ -25,13 +25,13 @@ Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouv
 
 Les mises à niveau sont déployées en deux phases. En premier lieu, les instances de test sont mises à niveau pour permettre à nos clients de tester les nouvelles fonctionnalités et d&#39;adapter leur configuration si nécessaire. Ensuite, les instances de production sont mises à niveau.
 
-Toutes les dates de publication sont sujettes à modification : nous vous recommandons de visiter cette page régulièrement pour vérifier les mises à jour.
+Toutes les dates de publication peuvent faire l’objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-Abonnez-vous pour [recevoir des notifications](https://www.adobe.com/subscription/priority-product-update.html) de mise à jour afin d’obtenir des détails sur les dernières versions d’Adobe Experience Cloud directement dans votre boîte de réception.
+Abonnez-vous pour [recevoir des notifications relatives aux dernières versions](https://www.adobe.com/subscription/priority-product-update.html) d’Adobe Experience Cloud directement dans votre boîte aux lettres.
 
 ## Version 20.2.1 - Version d’avril {#release-20-2-april-release}
 
-  mises à jour de se produisent dans les, pendant les périodes indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les Notes [de](../../rn/using/release-notes.md)mise à jour. Si vous avez d’autres questions, contactez le service à la clientèle [Adobe](https://support.neolane.net/webApp/extranetLogin).
+Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](../../rn/using/release-notes.md). Pour toute question, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/webApp/extranetLogin).
 
 <table> 
  <thead> 
@@ -42,12 +42,12 @@ Abonnez-vous pour [recevoir des notifications](https://www.adobe.com/subscriptio
  </thead> 
  <tbody> 
   <tr> 
-   <td> Etape<br /> </td> 
-   <td> March 23 - 24, 2020<br /> </td> 
+   <td> Préproduction<br /> </td> 
+   <td> 1er au 2 avril 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production<br /> </td> 
-   <td> 31 mars au 6 avril 2020<br /> </td> 
+   <td> 6-9 avril 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,32 +56,32 @@ Abonnez-vous pour [recevoir des notifications](https://www.adobe.com/subscriptio
 
 ## Questions et réponses {#questions-and-answers}
 
-**Q : Quel est l&#39;impact ?**
+**Q : Quel est l’impact ?**
 
-A : Les modifications sont répertoriées dans les Notes [de](../../rn/using/release-notes.md)mise à jour, y compris les liens vers la documentation connexe. Adobe recommande également de consulter la page [Fonctions](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)obsolètes et supprimées. Ces pages sont disponibles pour la nouvelle version à la date de  de la mise à niveau  du Stage.
+R : Les modifications sont répertoriées dans les [Notes de mise à jour](../../rn/using/release-notes.md), qui comprennent des liens vers la documentation connexe. Adobe conseille également de consulter la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html). Ces pages seront actualisées avec les informations au sujet de la nouvelle version, à la date de la mise à niveau de l’environnement de préproduction.
 
-**Q : Quel est le processus de validation ?**
+**Q : Quelle est la procédure de validation ?**
 
-A : À mesure que votre instance d’évaluation est mise à niveau, Adobe conseille de valider vos processus et les cas d’utilisation fonctionnent correctement avec cette nouvelle version et de signaler tout problème au service à la clientèle [](https://support.neolane.net/webApp/extranetLogin)Adobe.
+R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://support.neolane.net/webApp/extranetLogin).
 
-**Q : Y aura-t-il accès à l’instance pendant le processus de mise à niveau ?**
+**Q : L’instance sera-t-elle accessible pendant la mise à niveau ?**
 
-A : Non. Lors de la mise à niveau de l’instance, il se peut que la base de données ne soit pas accessible pendant quelques minutes. Tous les processus redémarrent automatiquement.
+R : Non. Lors de la mise à niveau de l’instance, la base de données peut ne pas être accessible pendant plusieurs minutes. Tous les processus redémarrent automatiquement.
 
-**Q : Les messages continueront-ils à être envoyés ?**
+**Q : Les messages seront-ils toujours envoyés ?**
 
-A : Non. Les messages ne seront pas envoyés pendant quelques minutes. Dès que la mise à niveau est terminée, les processus sont automatiquement redémarrés.
+R : Non. Les messages ne seront pas envoyés pendant plusieurs minutes. Une fois la mise à niveau terminée, les processus seront automatiquement redémarrés.
 
-**Q : Le continuera-t-il à s&#39;exécuter et à envoyer le  ?**
+**Q : Les workflows continueront-ils de s’exécuter et d’envoyer les diffusions ?**
 
-A : Non. Lors de la mise à niveau de la version, le serveur de flux de travail et MTA sont arrêtés. Cela signifie que les  de ne s’exécuteront pas et que les  de ne seront pas envoyées pendant quelques minutes. Aucune action n’est requise :  de se de nouveau dès que l’instance est mise à niveau.
+R : Non. Pendant la mise à niveau de la version, le serveur de workflow et le MTA sont arrêtés. Les workflows ne fonctionneront plus et les diffusions ne seront plus envoyées pendant quelques minutes. Aucune action n’est requise : les workflows redémarreront dès que l’instance sera mise à niveau.
 
-**Q : Le suivi des liens dans les messages fonctionnera-t-il toujours lors de la mise à niveau ?**
+**Q : Les liens de tracking dans les messages fonctionneront-t-il toujours pendant la mise à niveau ?**
 
-A : Oui, ils marcheront. Les nouveaux courriers électroniques ne peuvent pas être envoyés pendant la mise à niveau, mais les liens de suivi inclus dans les courriers électroniques déjà envoyés seront opérationnels.
+R : Oui. Il ne sera pas possible d’envoyer de nouveaux emails pendant la mise à niveau, mais les liens de tracking inclus dans les messages déjà envoyés seront opérationnels.
 
-**Q : Comment savoir si la mise à niveau est terminée ?**
+**Q : Comment savoir quand la mise à niveau est terminée ?**
 
-A : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification de mise à jour s’affiche, avec la dernière version.
+R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s’affiche avec la dernière version.
 
-Pour toute autre question, contactez le service à la clientèle [Adobe](https://support.neolane.net/webApp/extranetLogin).
+Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/webApp/extranetLogin).
