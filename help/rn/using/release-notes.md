@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 # Dernière version{#latest-release}
 
 [Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+[Cliquez ici](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) pour vous abonner aux notifications de mise à jour et obtenir des détails sur les dernières versions d’Adobe Experience Cloud directement dans votre boîte de réception.
 
 ## Version 20.2 - Mars 2020     {#release-20-2---march-2020}
 
@@ -49,7 +51,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
  <tbody> 
   <tr> 
    <td> <p>Outre le  de test, vous pouvez maintenant tester vos courriels sur des  ciblées réelles. Cela vous permet d’obtenir une représentation exacte du message que le recevra : champs personnalisés, informations dynamiques et personnalisées, y compris les données supplémentaires des , etc. </p>
-    <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
+    <p>Pour plus d'informations, consultez la <a href="../../sending/using/testing-messages-using-target.md">documentation détaillée</a> et regardez le <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutoriel vidéo</a>. </p>
    </td> 
   </tr> 
  </tbody> 
