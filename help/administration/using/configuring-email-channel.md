@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -52,7 +52,7 @@ L&#39;écran Configuration email vous permet de définir les paramètres du cana
 
    Lorsque la **[!UICONTROL Maximum number of errors before quarantine]** valeur est atteinte, l’adresse électronique est mise en quarantaine. Valeur par défaut : **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la sixième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
 
-**Rubrique connexe** :
+**Rubrique connexe**:
 
 [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 
@@ -64,7 +64,7 @@ Le **[!UICONTROL Integrated email routing]** est fourni par défaut. Il contient
 
 The account type must always be set to **[!UICONTROL Routing]**, the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]**.
 
-**Rubrique connexe** :
+**Rubrique connexe**:
 
 [Comptes externes](../../administration/using/external-accounts.md)
 
@@ -78,7 +78,7 @@ Les règles par défaut sont les suivantes :
 
 ### Mails rebonds {#bounce-mails}
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 Les rebonds asynchrones sont toujours qualifiés par le processus Campaign dans le courrier via la **[!UICONTROL Bounce mails]** règle.
 
@@ -107,7 +107,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **La signature de l’authentification par messagerie électronique DKIM (DomainKeys Identified Mail)** est effectuée par la MTA améliorée pour tous les messages contenant tous les domaines. Il ne se signe pas avec l’ID **** d’expéditeur, **DomainKeys** ou **S/MIME** , sauf indication contraire au niveau MTA amélioré.
 
-Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 ### MX management {#mx-management}
 
@@ -121,9 +121,9 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 >
 >Once upgraded to the Enhanced MTA, the Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de vos historiques de réputation de diffusion d’emails et des retours en temps réel issus de domaines auxquels vous envoyez des emails.
+Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
 
-Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, consultez ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -251,7 +251,7 @@ La section **[!UICONTROL Validity period]** propose les paramètres suivants :
 
    >[!IMPORTANT]
    >
-   >Un contenu HTML doit avoir été défini pour l&#39;email pour que la page miroir soit créée.
+   >Le contenu HTML doit avoir été défini pour le courrier électronique pour que le soit créé.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (mode par défaut) : le  est généré si le lien est inséré dans le contenu du courrier.
    * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n&#39;est inséré dans les messages, la page miroir sera créée.
