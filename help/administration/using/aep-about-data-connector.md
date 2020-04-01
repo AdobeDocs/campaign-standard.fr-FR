@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+translation-type: tm+mt
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
@@ -46,11 +46,7 @@ Des vidéos pratiques sont également proposées sur [cette page](https://docs.a
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour importer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur ne peut pas être modifiée.
-
-   >[!NOTE]
-   >
-   >Cette durée peut être modifiée à l’aide des [API Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. This value can be modified using [Adobe Experience Platform APIs](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 
@@ -60,7 +56,15 @@ Des vidéos pratiques sont également proposées sur [cette page](https://docs.a
 
 * Toute modification du schéma Adobe Campaign Standard ou XDM doit être remappée manuellement. 
 
-* Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette ingestion est diffusée en temps réel vers Adobe Experience Platform.
+* Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette importation est diffusée en temps réel sur Adobe Experience Platform.
+
+* Le service d’ID d’expérience (ECID) est un identifiant de périphérique envoyé par défaut avec  d’expérience.
+
+   Il s’agit d’un identifiant unique et persistant attribué à un, qui peut être utilisé par le service d’identité de plate-forme pour identifier le même et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’aide [du service d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud.
+
+   >[!NOTE]
+   >
+   >Sachez que si deux ou plus  partagent un même périphérique, l’ECID sera le même pour ces deux  du service d’identité unifiée.
 
 ## Limitations {#limitations}
 
