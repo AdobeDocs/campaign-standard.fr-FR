@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+translation-type: tm+mt
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez configurer deux types de modèles :
 
    Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]**/**[!UICONTROL  Imports]**.
+* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Once configured, they are made available to users with a simplified view under the **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
 
    Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
 
@@ -56,7 +56,7 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
-Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html).
+Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -70,4 +70,4 @@ Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la 
 
 >[!CAUTION]
 >
->Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
+>Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
