@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ Avant de pouvoir utiliser l&#39;événement, vous devez le prévisualiser et le 
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
 
->[!NOTE]
->
->Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
+   Une fois la publication effectuée, un message transactionnel associé au nouvel événement est automatiquement créé.
 
-Une fois la publication effectuée, un message transactionnel associé au nouvel événement est automatiquement créé. Pour que cet événement déclenche l&#39;envoi d&#39;un message transactionnel, vous devez modifier et publier le message qui vient d&#39;être créé. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
+1. Vous pouvez accéder directement à ce par le lien situé dans la zone de gauche.
 
-Vous pouvez accéder au message transactionnel qui a été créé directement à partir du lien situé sur la gauche.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 Il vous faut également intégrer le déclenchement de cet événement à votre site web. Voir [Intégrer le déclenchement de l&#39;événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Une fois  Adobe Campaign de réception de **[!UICONTROL Latest transactional events]** l&#39;lié à cette configuration de l&#39; **[!UICONTROL History]** annuaire, le lien sous la section vous permet d&#39;accéder au dernier envoyé par votre service tiers et traité par le.
+
+![](assets/message-center_latest-events.png)
+
+Les  de (au format JSON) sont répertoriés du plus récent au plus ancien. Ce  vous permet de vérifier des données telles que le contenu ou l’état d’un  de, à des fins de contrôle et de débogage.
 
 ### Dépublier un événement   {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ Pour en savoir plus sur la création et la publication de ressources, consultez 
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the &quot;Product identifier&quot; field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource
+1. Create a join condition between the &quot;Product identifier&quot; field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource.
 
    ![](assets/message-center_usecase3.png)
 
