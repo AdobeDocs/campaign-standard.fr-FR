@@ -12,15 +12,17 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+translation-type: tm+mt
+source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
 ---
 
 
 # Résolution des problèmes{#troubleshooting}
 
-Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici...
+Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
+
+## Même message d&#39;erreur pour un FAI {#same-error-for-an-isp}
 
 **Pourquoi ai-je toujours le même message d&#39;erreur pour un FAI particulier ?**
 
@@ -31,35 +33,40 @@ Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut q
 
 Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d&#39;Adobe Campaign.
 
-**Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
+## Liste noire contre {#blacklisting-versus-quarantine}
 
-Le statut **[!UICONTROL En blackliste]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
+* **Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
 
-L&#39;application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
+   * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-**A quoi correspondent les différentes raisons de mise en quarantaine ?**
+   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md).
 
-Il existent dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en blackliste, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
+* **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
-Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
+   Il existent dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en blackliste, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
-**Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
+   Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-* Accédez à **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
-* Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
-* Sauvegardez l&#39;enregistrement.
+## Annulation de la liste noire {#unblacklisting}
 
-**Comment puis-je savoir si l&#39;une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
+* **Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
 
-Pour vérifier si votre adresse IP est blacklistée, vous pouvez consulter l&#39;un des sites web ci-dessous :
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+   * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+   * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+   * Sauvegardez l&#39;enregistrement.
 
-En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
+* **Comment puis-je savoir si l&#39;une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
 
-Un lien est disponible pour accéder aux détails du site web.
+   Pour vérifier si votre adresse IP est blacklistée, vous pouvez consulter l&#39;un des sites web ci-dessous :
+   * https://mxtoolbox.com/
+   * https://whatismyipaddress.com/blacklist-check
+   * https://www.blacklistalert.org/
+   En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
 
-Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
+   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site Web.
 
-Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.
+   Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
+
+   >[!NOTE]
+   >
+   >Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.
