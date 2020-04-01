@@ -11,8 +11,8 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+translation-type: tm+mt
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -53,7 +53,7 @@ Vous pouvez facilement créer un email, ajouter des composants et personnaliser 
 
 Les objets sont obligatoires lors de l&#39;envoi d&#39;un email. Pour plus d&#39;informations, voir [Définition de l&#39;objet d&#39;un email](../../designing/using/subject-line.md).
 
-1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section**[!UICONTROL  Objet.]**
+1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -99,7 +99,7 @@ Vous pouvez ajouter plusieurs composants de contenu à votre email, tels que des
 
 ![](assets/html-component-source-code.png)
 
-Si vous maîtrisez le langage HTML, vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Voir à ce propos la section[A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+Si vous maîtrisez le langage , vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]** Html. Voir à ce propos la section [A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -122,12 +122,12 @@ Vous pouvez maintenant enregistrer et envoyer votre email.
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
 1. Créez un email et ouvrez son contenu. Voir à ce propos [Créer un email](../../channels/using/creating-an-email.md).
-1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]**.
-1. Cliquez sur l&#39;onglet **[!UICONTROL Modèles]**.
+1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
+1. Cliquez sur l’ **[!UICONTROL Templates]** onglet.
 1. Choisissez un modèle HTML d&#39;usine.
 Les différents modèles présentent de multiples combinaisons de plusieurs types d&#39;éléments. Par exemple, les modèles &#39;Contour progressif&#39; possèdent des marges, tandis que les modèles &#39;Astro&#39; en sont dépourvus. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
-1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]**de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section**[!UICONTROL  Objet.]**
-1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d&#39;emails. Par exemple, vous pouvez dupliquer une section d&#39;email en sélectionnant un composant de structure et en cliquant sur **[!UICONTROL Dupliquer]**dans la barre d&#39;outils contextuelle.
+1. Go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
+1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d&#39;emails. For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
 1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Vous pouvez également déplacer des composants afin de modifier l&#39;organisation de chaque élément de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
@@ -137,9 +137,9 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
 
-### Convertir un contenu HTML   {#converting-an-html-content}
+### Conversion de contenu HTML {#converting-an-html-content}
 
-Ce cas pratique présente comment convertir rapidement le code HTML d&#39;un email en composants du Concepteur d&#39;email.
+Ce cas d’utilisation   une méthode rapide pour convertir le courrier électronique HTML en composants de Designer de messagerie.
 
 >[!CAUTION]
 >
