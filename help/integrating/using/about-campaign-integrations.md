@@ -11,8 +11,8 @@ topic-tags: about-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
+translation-type: tm+mt
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -29,13 +29,13 @@ Les différentes intégrations présentées ci-après vous permettent de combine
 
 En fonction de votre environnement, d&#39;autres solutions peuvent également être liées à Adobe Experience Cloud. Elles sont liées sous la forme d&#39;organisations (aussi appelés tenants).
 
-Une organisation est l&#39;entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l&#39;authentification unique dans Experience Cloud. L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. L&#39;organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. La gestion des utilisateurs et des organisations est présentée sur le [portail d&#39;aide Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/organizations.html).
+Une organisation est l&#39;entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l&#39;authentification unique dans Experience Cloud. L&#39;organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions Experience Cloud. L&#39;organisation correspond le plus souvent au nom de votre société. Toutefois, une société peut détenir plusieurs organisations. La gestion des utilisateurs et des organisations est présentée sur le [portail d&#39;aide Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Adobe Campaign, consultez la [documentation des API](../../api/using/about-campaign-standard-apis.md).
 
 >[!NOTE]
 >
->Adobe Campaign Standard peut également se connecter à Microsoft Dynamics 365 : cette intégration permet la synchronisation de toutes les données de contact disponibles dans le système CRM, rendant ainsi toutes celles appropriées disponibles pour les activités de campagne. Pour plus d&#39;informations sur cette intégration, consultez [Utilisation de Campaign et Dynamics 365](https://helpx.adobe.com/fr/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard peut également se connecter à Microsoft Dynamics 365 : cette intégration permet la synchronisation de toutes les données de contact disponibles dans le système CRM, rendant ainsi toutes celles appropriées disponibles pour les activités de campagne. Pour plus d&#39;informations sur cette intégration, consultez [Utilisation de Campaign et Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 
 <table> 
@@ -51,21 +51,21 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
    <td> Permet de créer des contenus d'email ou des formulaires mappés à la base Adobe Campaign directement dans Adobe Experience Manager.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Utiliser Campaign et Experience Manager</a><br/>, <a href="https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Intégrer Experience Manager et Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_AEM.html">Créer un email avec Experience Manager et Campaign</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Utiliser Campaign et Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Intégrer Experience Manager et Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Créer un email avec Experience Manager et Campaign</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Permet d'insérer des images calculées dynamiquement par Adobe Target au moment de l'ouverture d'un email créé et envoyé via Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Utiliser Campaign et Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/fr_FR/target/a4t/c_campaign_and_target.html">Intégrer Campaign et Target</a><br/>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Personnaliser les images d'email en temps réel</a> (étape 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Utiliser Campaign et Target</a> <br/>, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Intégrer Campaign et Target</a><br/>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personnaliser les images d'email en temps réel</a> (étape 3)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Permet de tracker les performances de vos diffusions email directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a><br/>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a><br/>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1)
     </td> 
   </tr> 
   <tr> 
@@ -87,20 +87,20 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Triggers Experience Cloud<br /> </td> 
    <td> Permet d'envoyer des emails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a><br/> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a><br/>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a><br/> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a><br/>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Permet d'éditer le contenu d'un email dans Dreamweaver et de le synchroniser avec Adobe Campaign.<br /> </td> 
    <td> 
-    Vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a><br/>, <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utiliser l'extension de Campaign pour Dreamweaver</a> 
+    Vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a><br/>, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utiliser l'extension de Campaign pour Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
    <td> SDK Experience Platform<br /> </td> 
    <td> Permettent d'automatiser l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide des SDK Adobe Experience Platform.<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">Configuration d'une application mobile à l'aide des SDK Experience Platform</a><br /> </td> 
+   <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Configuration d'une application mobile à l'aide des SDK Experience Platform</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
