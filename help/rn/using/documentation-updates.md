@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ Découvrez l&#39;ensemble des mises à jour les plus récentes de la documentati
 Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d&#39;Adobe Campaign Standard.
 
 Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d&#39;Adobe Campaign.
+
+## Mises à jour de la documentation - avril 2020 {#doc-updates-april-2020}
+
+L&#39;intégration de Microsoft Dynamics 365 à  documentation de Adobe Campaign Standard a été intégrée dans la documentation principale du guide Intégration à d&#39;autres solutions. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Des ressources supplémentaires ont été ajoutées au  de documentation. [En savoir plus](../../campaign-standard-home.md)
+
+Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation du connecteur de données de la plate-forme d’expérience Adobe. [En savoir plus](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+La section Configuration de la messagerie transactionnelle a été améliorée avec des informations sur l’accès aux derniers  transactionnels et des captures d’écran mises à jour. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Version 20.2 - Mars 2020     {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Une nouvelle section de directives de configuration a été ajoutée au guide d�
 
 Une nouvelle section décrivant comment supprimer une configuration de  est désormais disponible. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-La page décrivant comment tester l’objet d’un courrier électronique pour prédire son taux d’ouverture a été mise à jour et améliorée, y compris une nouvelle section [de dépannage](../../sending/using/testing-subject-line-email.md#troubleshooting) . [En savoir plus](../../sending/using/testing-subject-line-email.md#troubleshooting)
+La page décrivant comment tester l’objet d’un courrier électronique pour prédire son taux d’ouverture a été mise à jour et améliorée, y compris une nouvelle section [de dépannage](../../sending/using/testing-subject-line-email.md#troubleshooting) . [En savoir plus](../../sending/using/testing-subject-line-email.md)
 
 Les sections de messagerie transactionnelle ont été mises à jour afin de refléter les légères mises à jour et améliorations de l’interface utilisateur multiple. [En savoir plus](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ Le nouveau point d&#39;entrée d&#39;API **/customResources** a été ajouté à
 
 California Consumer Privacy Act (CCPA) – [En savoir plus](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -211,7 +222,7 @@ Rapport sur le segment de workflow – [En savoir plus](../../reporting/using/
 
 Disponibilité du Guide de mise en œuvre de Campaign Standard –[En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Création d&#39;un ensemble de nouveaux articles d&#39;aide sur l&#39;implémentation et l&#39;utilisation du connecteur Microsoft Dynamics 365. Cette fonctionnalité est actuellement en disponibilité limitée –[En savoir plus](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Création d&#39;un ensemble de nouveaux articles d&#39;aide sur l&#39;implémentation et l&#39;utilisation du connecteur Microsoft Dynamics 365. Cette fonctionnalité est actuellement en disponibilité limitée –[En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Ajout d&#39;une note à la section [Appeler un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) concernant la préparation d&#39;une diffusion et la période d&#39;agrégation.
 
