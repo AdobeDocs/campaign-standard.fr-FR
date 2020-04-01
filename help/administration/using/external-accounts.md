@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -158,12 +158,14 @@ Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suiv
 >
 >Vous trouverez les informations nécessaires pour configurer votre dans   Standard dans Azure Portal en sélectionnant **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
+Le connecteur de Azure Blob  peut être utilisé pour importer ou exporter des données vers les  à l&#39;aide d&#39;un **[!UICONTROLTde flux de travail de fichier]** de transfert. Voir à ce propos cette [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+
 Pour un Microsoft Azure Blob  , fournissez les détails suivants :
 
 * A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
 * **[!UICONTROL Type]**: Stockage Blob de Microsoft Azure
 * Votre **[!UICONTROL Account name]** et **[!UICONTROL Account key]**. To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Your **[!UICONTROL Endpoint suffix]**. Il se trouve dans le menu **[!UICONTROL Connection string]** du **[!UICONTROL Access keys]** portail Azure. Pour plus d’informations à ce propos, consultez [cette page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Your **[!UICONTROL Endpoint suffix]**. Il se trouve dans le menu **[!UICONTROL Connection string]** du **[!UICONTROL Access keys]** portail Azure. Voir à ce propos [cette page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Ton **[!UICONTROL Container]** nom. Si vous prévoyez d’utiliser plus d’un  vous devez créer autant de  que de .
 * L’ **[!UICONTROL Concurrency]** option permet d’affiner la vitesse de vos transferts de fichiers.
 
