@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ Les mises à niveau sont déployées en deux phases. En premier lieu, les instan
 
 Toutes les dates de publication peuvent faire l’objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-Abonnez-vous pour [recevoir des notifications relatives aux dernières versions](https://www.adobe.com/subscription/priority-product-update.html) d’Adobe Experience Cloud directement dans votre boîte aux lettres.
+Abonnez-vous pour [recevoir des notifications relatives aux dernières versions](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) d’Adobe Experience Cloud directement dans votre boîte aux lettres.
 
 ## Version 20.2.1 - Version d’avril {#release-20-2-april-release}
 
