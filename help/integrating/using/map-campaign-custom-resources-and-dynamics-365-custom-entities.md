@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ Le client a un véhicule d&#39;entité personnalisé prédéfini dans Dynamics 3
 
 Les entités personnalisées de ce client dans Dynamics 365 peuvent être affichées dans le des ventes en cliquant sur la liste déroulante en regard de Dynamics 365.  Les entités personnalisées de ce client sont regroupées sous **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 Vous pouvez afficher les données du véhicule en cliquant sur l&#39;entité **[!UICONTROL vehicle]** personnalisée.  Voir le  des véhicules ci-dessous.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 La relation de l&#39; **[!UICONTROL vehicle]** entité avec l&#39; **[!UICONTROL Contact]** entité peut être vue ci-dessous. **[!UICONTROL Parental]** a été choisi pour le **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Configuration dans Campaign Standard
 
 Dans Campaign, vous pouvez afficher les ressources personnalisées du client en cliquant **[!UICONTROL Adobe Campaign]** dans le coin supérieur gauche, puis en sélectionnant **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Mappage de ressources personnalisées et d’entités personnalisées
 
@@ -82,14 +82,14 @@ La ressource **[!UICONTROL vehicle]** personnalisée doit avoir été prédéfin
 
 Cliquez sur **[!UICONTROL Adobe Campaign]** dans le coin supérieur gauche, puis sur **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Cliquez sur **[!UICONTROL Custom Resources]**.
 1. Cliquez sur le **[!UICONTROL Create]** bouton.  Une fenêtre contextuelle s’ouvre alors.
 1. Sélectionnez **[!UICONTROL Create a new resource]** et saisissez **[!UICONTROL Vehicle]** le libellé et l’ID.
 1. Clics **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 Campaign affiche alors les structures de données et la page de lien.  Vous pouvez constater que plusieurs champs ont été ajoutés.
 
@@ -97,23 +97,23 @@ Campaign affiche alors les structures de données et la page de lien.  Vous pouv
 *  de associé est l&#39;ID du auquel l&#39;enregistrement du véhicule est lié; lorsqu’il est lié, il est lié au **[!UICONTROL externalId]** champ de la table .
 * Le NIV et le nom du véhicule sont des champs qui permettent de recueillir des renseignements sur le véhicule.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Chaque ressource personnalisée doit avoir un champ unique avec un ID externalId (exactement).  Ce champ correspond au champ ID de la ressource personnalisée dans Dynamics 365 (voir ci-dessous).
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### Définition des clés d’identification
 
 L&#39;étape suivante consiste à définir les clés d&#39;identification.  Créez d’abord les clés d’identification, comme illustré ci-dessous.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Dans l’écran Définition de clé, veillez à sélectionner le **[!UICONTROL externalId]** champ.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Sous **[!UICONTROL Filter Definition]**, cliquez sur **[!UICONTROL Add an elemen
 Donnez l’étiquette et identifiez le nom **[!UICONTROL ExternalId]**.
 Clics **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Cliquez maintenant sur Modifier sur l’élément de filtre nouvellement ajouté et configurez le filtre par image ci-dessous.  Si vous entrez **[!UICONTROL externalId]** dans le **[!UICONTROL Parameters]** champ et cliquez sur le signe plus, **[!UICONTROL externalId_parameter]** s’affiche.  Sélectionnez ce paramètre.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### Définir le lien
 
@@ -143,13 +143,13 @@ Ensuite, nous allons spécifier la liaison de la ressource personnalisée.  Dans
 1. Dans **[!UICONTROL Join Definitions]**, sélectionnez **[!UICONTROL Define specific join conditions]**.
 1. Cliquez ensuite sur **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Pour la définition de jointure, nous saisissons les valeurs ci-dessous.
 
 Notez que l’ **[!UICONTROL @externalId]** entrée est le champ externalId de la table  et que l’ **[!UICONTROL ProfileExternalId]** entrée est l’ID du champ correspondant dans la ressource personnalisée Véhicules.  Lorsque la valeur externalId d&#39;un enregistrement  est entrée dans le **[!UICONTROL ProfileExternalId]** champ d&#39;un enregistrement de véhicule, les deux enregistrements sont liés.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Confirmez les modifications et enregistrez l&#39;entité personnalisée.
 
@@ -161,21 +161,21 @@ La dernière étape consiste à publier la ressource personnalisée.
 1. Conservez l’option par défaut : **[!UICONTROL Determine modifications since the last publication]**.
 1. Cliquez **[!UICONTROL Prepare Publication]** et attendez qu’il se termine.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Cliquez ensuite **[!UICONTROL Publish]** et attendez qu’il se termine.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Calendrier d&#39;entrée Unifi
 
 En supposant que le client a déjà renseigné l&#39;entité personnalisée du véhicule dans Dynamics 365 et qu&#39;Unifi ait configuré les tâches et les calendriers de l&#39;entité personnalisée du véhicule avec, le client devrait être en mesure de démarrer le calendrier d&#39;entrée pour l&#39;entité du véhicule.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Une fois la tâche d’entrée terminée, les données du véhicule sont maintenant visibles dans la ressource **[!UICONTROL Vehicle]** personnalisée nouvellement renseignée dans Campaign.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Rubriques connexes**
 
