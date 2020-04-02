@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -129,8 +129,8 @@ Une fois les informations saisies, deux fichiers sont générés : **[!UICONTROL
 
 1. Sélectionnez le de produits dont le titre est  :
 
-* ID d’organisation de votre instance Campaign
-* **[!UICONTROL Administrators]**
+   * ID d’organisation de votre instance Campaign
+   * **[!UICONTROL Administrators]**
 
 Exemple :  Campaign Standard - your-campaign-organisationID - Administrateurs
 
