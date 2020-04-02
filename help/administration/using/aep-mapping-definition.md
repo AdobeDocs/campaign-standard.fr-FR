@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+translation-type: tm+mt
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -30,9 +30,9 @@ Pour effectuer cette tâche, les prérequis sont les suivants :
 * une définition de schéma XDM via l’interface ou en utilisant l’API REST associée à XDM ;
 * la création d’un jeu de données en fonction de la définition de schéma XDM.
 
-1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** et sélectionnez l’entrée **[!UICONTROL Mappings de données]**.
+1. Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** , puis sélectionnez l’ **[!UICONTROL Data mappings]** entrée.
 
-1. Cliquez sur **[!UICONTROL Créer]** pour commencer un nouveau mapping XDM.
+1. Click on **[!UICONTROL Create]** to start a new XDM mapping.
 
    ![](assets/aep_createmapping.png)
 
@@ -43,15 +43,15 @@ Pour effectuer cette tâche, les prérequis sont les suivants :
 
 >[!NOTE]
 >
->Pour qu’un lot soit ingéré dans Real-time Customer Profile ou Identity Service, le jeu de données doit être [activé pour Real-time Customer Profile](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md).
+>Pour qu’un lot soit ingéré dans Real-time Customer Profile ou Identity Service, le jeu de données doit être [activé pour Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si le jeu de données sélectionné est déjà utilisé dans un mapping de données existant, un avertissement s’affiche pour vous informer que vos données peuvent être remplacées dans Adobe Experience Platform. Cette situation peut se produire lorsqu’il existe des destinataires communs dans les mappings de données utilisant un même jeu de données.
 
-L’écran ci-dessous présente la section **[!UICONTROL Mappings de champs]** dans laquelle vous pouvez créer un mapping pour chaque champ du schéma Campaign Standard.
+The following screen presents the **[!UICONTROL Field mappings]** section where you can create a new mapping for each field in the Campaign Standard schema.
 
 ![](assets/aep_fieldmappings.png)
 
-Le bouton **[!UICONTROL Créer un mapping de champs]** permet de sélectionner le champ Campaign Standard et l’expression de chemin de champ correspondante dans le schéma XDM.
+The **[!UICONTROL Create new field mapping]** button allows you to select the Campaign Standard field and the corresponding field path expression in the XDM schema.
 
 Si vous ne parvenez pas à trouver un champ Campaign Standard, vous pouvez utiliser le champ de recherche pour le rechercher. Actuellement, la recherche ne fonctionne que pour les champs ouverts dans la hiérarchie.
 
@@ -63,7 +63,7 @@ Les ressources étendues définies dans Campaign Standard sont mappées comme t
 
 Vous pouvez personnaliser l’extension XDM via l’API et définir votre propre extension pour mieux contrôler le mapping.
 
-Voir le [tutoriel relatif à l’API Schema Registry](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/tutorials/schema_registry_api_tutorial/schema_registry_api_tutorial.md) pour en savoir plus.
+Voir le [tutoriel relatif à l’API Schema Registry](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) pour en savoir plus.
 
 Pour mapper un champ d’énumération, vous devez utiliser l’éditeur d’expression afin de définir chaque valeur d’énumération correspondant à la valeur XDM. Par exemple, postalAdressfield doit être défini comme suit :
 
@@ -79,4 +79,4 @@ Pour éditer un mapping XDM, ouvrez-le, modifiez les informations souhaitées, p
 
 >[!IMPORTANT]
 >
->Pour l’instant, si vous éditez une valeur dans la section **[!UICONTROL Mappings de champs]** et que vous cliquez ensuite en dehors du champ, la modification ne s’affiche pas dans l’interface tant que vous n’avez pas cliqué sur le bouton **[!UICONTROL Enregistrer]**. Ce comportement ne se produit qu’une fois, lorsque la modification des **[!UICONTROL mappings de champ]** est la première de la page.
+>For now, if you edit a value in the **[!UICONTROL Field mappings]** section then click outside of the field, your change does not display in the interface until you click the **[!UICONTROL Save]** button. This behaviour occurs only once, when the edit on **[!UICONTROL Field Mappings]** is the first edit on the page.
