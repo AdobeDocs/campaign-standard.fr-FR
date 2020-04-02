@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -65,7 +65,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Permet de tracker les performances de vos diffusions email directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a><br/>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partagez Campaign données avec Analytics</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partagez des IPC pour Campaign vidéo</a> intégrée (étape 1).
     </td> 
   </tr> 
   <tr> 
