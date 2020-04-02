@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Détails de l’organigramme (mappage aux étapes ci-dessus) :
 1. Lisez cet article, vérifiez les avis et les étapes de configuration.
 
 1. Envoyez une demande de compte à adobe-support@unifisoftware.com; Unifi nécessite les informations suivantes lorsque vous demandez un compte :
-* Prénom de l’utilisateur
-* Nom d’utilisateur
-* Adresse électronique de l’utilisateur
-* Nom 
-* Région (Amérique du Nord, EMEA ou APAC)
-* Type d’utilisation :  Type de client (utilisateurs clients qui utiliseront leurs données de production dans cette intégration), ou Type de partenaire (consultants partenaires qui testent l’intégration pour mieux comprendre afin d’aider leurs clients Campaign) ou Type interne (utilisateurs internes d’Adobe qui testent l’intégration pour mieux comprendre la solution)
-* Campaign Standard l’état des données (en commençant par une base de données propre ou en apportant des données existantes à l’intégration)
-* Campaign ID de client (voir Configuration Campaign section d’intégration étape 3 pour obtenir votre ID de client)
-* URL de l’instance Campaign
-
-Temps de réponse attendu Unifi : 1 heure pendant les heures d&#39;ouverture normales aux États-Unis (de 9 h à 17 h, heure du Pacifique, du lundi au vendredi, hors jours fériés).
+   * Prénom de l’utilisateur
+   * Nom d’utilisateur
+   * Adresse électronique de l’utilisateur
+   * Nom 
+   * Région (Amérique du Nord, EMEA ou APAC)
+   * Type d’utilisation :  Type de client (utilisateurs clients qui utiliseront leurs données de production dans cette intégration), ou Type de partenaire (consultants partenaires qui testent l’intégration pour mieux comprendre afin d’aider leurs clients Campaign) ou Type interne (utilisateurs internes d’Adobe qui testent l’intégration pour mieux comprendre la solution)
+   * Campaign Standard l’état des données (en commençant par une base de données propre ou en apportant des données existantes à l’intégration)
+   * Campaign ID de client (voir Configuration Campaign section d’intégration étape 3 pour obtenir votre ID de client)
+   * URL de l’instance Campaign
+   Temps de réponse attendu Unifi : 1 heure pendant les heures d&#39;ouverture normales aux États-Unis (de 9 h à 17 h, heure du Pacifique, du lundi au vendredi, hors jours fériés).
 
 1. Suivez les étapes de post-configuration pour Microsoft Dynamics 365 et pour Campaign Standard.
 De plus, envoyez un ticket au service à la clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que l’indicateur de fonction de connexion unique soit activé dans votre instance Campaign. Les partenaires doivent contacter leur représentant sandbox de partenaire Adobe, au lieu de contacter le service à la clientèle Adobe, pour activer l’indicateur de fonctionnalité.
