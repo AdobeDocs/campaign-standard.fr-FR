@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: Adobe Campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Recommandations techniques](sending/using/technical-recommendations.md)
       + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
       + [Résolution des problèmes](sending/using/troubleshooting.md)
+   + Utilisation des règles de typologie {#working-with-typology-rules}
+      + [A propos des typologies et des](sending/using/about-typology-rules.md)
+      + [Gestion des typologies](sending/using/managing-typologies.md)
+      + [Gestion des](sending/using/managing-typology-rules.md)
+      + [Règles de filtrage](sending/using/filtering-rules.md)
+      + [Règles de fatigue](sending/using/fatigue-rules.md)
+      + [Cas des règles de contrôle](sending/using/control-rules.md)
 + Reporting {#reporting}
    + Reporting {#about-reporting}
       + [Rapports dynamiques](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques Triggers d&#39;abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Configuration de l’intégration d’Adobe IO pour Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Utilisation de Campaign Standard et de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Avis et recommandations](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Demande et configuration de Microsoft Dynamics 365 avec intégration Campaign Standard](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Utilisation de Microsoft Dynamics 365 avec intégration Campaign Standard](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Configuration de l’intégration d’Adobe IO pour Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configuration de Microsoft Dynamics 365 pour Campaign intégration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Configuration de l’intégration Unifi pour Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Mappage Campaign ressources personnalisées et entités personnalisées de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [Configuration du canal SMS](administration/using/configuring-sms-channel.md)
       + [Configuration d&#39;une application mobile](administration/using/configuring-a-mobile-application.md)
       + [Configuration des messages transactionnels](administration/using/configuring-transactional-messaging.md)
-   + Utilisation des règles de typologie {#working-with-typology-rules}
-      + [A propos des règles de typologie](administration/using/about-typology-rules.md)
-      + [Règles de filtrage](administration/using/filtering-rules.md)
-      + [Règles de fatigue](administration/using/fatigue-rules.md)
-      + [Cas des règles de contrôle](administration/using/control-rules.md)
    + Paramétrage de l&#39;application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
