@@ -12,8 +12,8 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -26,7 +26,7 @@ Les paramètres avancés des SMS sont détaillés dans la section [Configuration
 
 Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* Un **[!UICONTROL Routing]** configuré sur le **[!UICONTROL Mobile (SMS)]** avec le **[!UICONTROL Bulk delivery]** mode. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * un modèle de diffusion correctement lié à ce compte externe.
 
 1. Créez une diffusion SMS depuis la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
@@ -51,7 +51,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
    ![](assets/sms_creation_3.png)
 
-1. Ajoutez du contenu à votre SMS. Vous pouvez également définir le contenu en cliquant sur la section **[!UICONTROL Contenu]** du tableau de bord de la diffusion, une fois la création du SMS terminée. Voir [A propos de la conception du contenu d&#39;un SMS](../../channels/using/about-sms-and-push-content-design.md).
+1. Ajoutez du contenu à votre SMS. You can also define the content by clicking the **[!UICONTROL Content]** section of the delivery dashboard, once the SMS creation is finalized. Voir [A propos de la conception du contenu d&#39;un SMS](../../channels/using/about-sms-and-push-content-design.md).
 
    Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message varie d&#39;un destinataire à l&#39;autre, car cela peut introduire des caractères non pris en charge par l&#39;encodage GSM. La longueur du message doit être évaluée une fois la personnalisation effectuée. Voir [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
@@ -65,7 +65,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
    >[!NOTE]
    >
-   >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
+   >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 1. Envoyez des bons à tirer pour vérifier et valider votre message et contrôlez l&#39;inbox rendering. Voir à ce sujet la section [Envoyer un bon à tirer (BAT)](../../sending/using/sending-proofs.md).
 1. Validez l&#39;envoi du message. L&#39;envoi débutera selon le planning que vous avez défini.
