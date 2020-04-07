@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 Adobe Campaign vous permet d&#39;envoyer des notifications push personnalisées et segmentées à des appareils mobiles iOS et Android.
 
-Ces messages sont reçus sur les applications mobiles que vous configurez dans  Adobe Campaign en exploitant le SDK de la plateforme d’expérience. For more information on this, refer to [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Ces messages sont reçus sur les applications mobiles que vous configurez dans  Adobe Campaign en exploitant le SDK de la plateforme d’expérience. For more information on this, refer to [Configuring a mobile application using Adobe Experience Platform SDKs](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
@@ -42,7 +42,7 @@ Dans Adobe Campaign, deux types de notification push sont disponibles :
 
 Certaines configurations spécifiques peuvent être paramétrées pour définir le comportement des notifications. Voir à ce propos [cette section](../../channels/using/customizing-a-push-notification.md).
 
-En tant qu&#39;utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe.com/campaign/kb/acs-article-list.html) des applications mobiles pour définir ces configurations spécifiques.
+En tant qu&#39;utilisateur expert, reportez-vous aux [technotes](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) des applications mobiles pour définir ces configurations spécifiques.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ En tant qu&#39;utilisateur expert, reportez-vous aux [technotes](https://helpx.a
 * [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
-* [Guide Campaign Standard Mobile](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
 ## Prérequis {#prerequisites}
 
@@ -61,21 +61,18 @@ En tant qu&#39;utilisateur expert, reportez-vous aux [technotes](https://helpx.a
 >Pour tirer parti de la fonctionnalité de notification push de Campaign, vous devez fournir un certificat push valide au format. pem sans mot de passe.
 Si vous disposez d&#39;un certificat p12 valide, vous pouvez le convertir facilement en fichier. pem à l&#39;aide de ressources en ligne.
 
-Tout d’abord, pour pouvoir  envoyer des notifications Push, vous devez configurer votre application mobile à l’aide des SDK de la plateforme d’expérience. Voir à ce propos [cette page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
-
 Avant d&#39;envoyer les notifications push, vous devez effectuer les opérations suivantes :
 
-1. Vérifiez que vous avez accès au canal **[!UICONTROL Mobile app]** dans Adobe Campaign.
-1. Configurez votre application mobile dans :
+1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL Push notification]**. Si vous ne pouvez pas accéder à ces canaux, contactez l&#39;équipe de votre compte.
 
-   * Adobe Campaign
-   * L&#39;interface Adobe Mobile Services
+1. Vérifiez que votre utilisateur dispose des autorisations nécessaires dans  Adobe Campaign Standard et Experience Platform Launch.
 
-1. Effectuer la configuration spécifique de l&#39;application mobile :
+1. Dans le lancement de la plate-forme d’expérience, créez une propriété mobile. Pour plus d’informations, voir [Configuration d’une propriété](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)mobile.
 
-   * Intégrez le fichier de configuration téléchargé à partir de l&#39;interface Adobe Mobile Services avec l&#39;application mobile.
-   * Intégrez le SDK d&#39;Experience Cloud Mobile dans votre application mobile.
+1. Dans Experience Platform Launch, installez l’ **[!UICONTROL Adobe Campaign Standard]** extension.
 
-1. Définissez les données à collecter auprès des abonnés de vos applications. Les abonnés de l&#39;application mobile dont le profil se trouve dans la base de données Adobe Campaign sont réconciliés en fonction des critères que vous avez définis.
+1. Dans  Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Pour plus d’informations, voir [Configuration de votre application de lancement de plateforme d’expérience dans  Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-Après avoir configuré votre application mobile, vous pouvez commencer à préparer et envoyer vos messages in-app. Voir à ce propos la section [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Ajouter la configuration spécifique au à votre configuration d’application mobile. Pour plus d&#39;informations, reportez-vous à la section Configuration de l&#39;application spécifique aux [dans  Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. Pour prendre en charge les mises en oeuvre de cas d’utilisation mobile, reportez-vous aux instructions détaillées sur les extensions, les règles de lancement de plateforme d’expérience et l’implémentation de SDK dans les cas d’utilisation [Mobile pris en charge dans  Adobe Campaign Standard en utilisant les SDK](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html)Adobe Experience Platform.
