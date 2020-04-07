@@ -11,8 +11,8 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -41,19 +41,19 @@ Le processus de configuration du mécanisme de double opt-in commence par la cr�
 
 Pour créer et configurer cette landing page, vous devez :
 
-1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé** CONFIRMATION **.
+1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Saisir le libellé **CONFIRMATION**.
 
-   Si vous devez faire appel à des [services](../../audiences/using/about-subscriptions.md), vous pouvez également utiliser le modèle **[!UICONTROL Abonnement (abo)]**.
+   If you need to use [services](../../audiences/using/about-subscriptions.md), you can also use the **[!UICONTROL Subscription (sub)]** template.
 
-1. Editez les propriétés de la landing page et sous la section **[!UICONTROL Accès &amp; chargement]**, désélectionnez l&#39;option**[!UICONTROL  Autoriser les visiteurs non identifiés]** et sélectionnez **[!UICONTROL Précharger les données des visiteurs]**(la sélection de cette option n&#39;est toutefois pas obligatoire).
+1. Modifiez les propriétés  du et, sous la **[!UICONTROL Access and loading]** section, désélectionnez l’option **[!UICONTROL Authorize unidentified visitors]**, sélectionnez **[!UICONTROL Preload visitor data]** (celle-ci n’est pas obligatoire).
 
    ![](assets/optin_confirmlp_param.png)
 
-1. Dans la section **[!UICONTROL Traitement]** >**[!UICONTROL  Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]**et saisissez le chemin du contexte suivant :
+1. Dans la section **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , cliquez **[!UICONTROL Add an element]** et saisissez le chemin de contexte suivant :
 
    /context/profile/blackList
 
-   Définissez la valeur sur **faux** et cliquez sur **[!UICONTROL Ajouter]**.
+   Set the value to **false** and click **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
@@ -79,32 +79,32 @@ Les étapes de création de ces éléments sont décrites ci-dessous. Vous devez
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/about-transactional-messaging.md) car il réagit à un événement : la validation du formulaire. Vous devez commencer par créer l&#39;événement et ensuite le modèle du message transactionnel.
 
-1. Créez un événement, à partir du menu **[!UICONTROL Plans marketing]** >**[!UICONTROL  Messages transactionnels]** > **[!UICONTROL Configuration des événements]**, accessible par le biais du logo Adobe Campaign, et saisissez le libellé** CONFIRMER **.
-1. Sélectionnez la dimension de ciblage **[!UICONTROL Profil]**et cliquez sur**[!UICONTROL  Créer]**.
+1. Créez un , à partir du menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** , accessible à partir du logo , puis saisissez l’étiquette &quot;**CONFIRMER**&quot;.
+1. Sélectionnez le **[!UICONTROL Profile]** de et cliquez sur **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
 
-1. Dans la section **[!UICONTROL Champs]**, cliquez sur**[!UICONTROL  Créer un élément]** et ajoutez l&#39;**[!UICONTROL email]**dans la structure de données de façon à permettre la réconciliation.
-1. Dans la section **[!UICONTROL Enrichissement]**, cliquez sur**[!UICONTROL  Créer un élément]** et sélectionnez la ressource cible **[!UICONTROL Profils]**. Vous pouvez ensuite créer un mapping sur l&#39;**[!UICONTROL  email]** dans la section **[!UICONTROL Définition de la jointure]**, ou sur toute autre clé de réconciliation composite, en fonction de vos besoins.
+1. In the **[!UICONTROL Fields]** section, click **[!UICONTROL Create element]** and add the **[!UICONTROL email]** in the data structure to enable reconciliation.
+1. Dans la **[!UICONTROL Enrichment]** section, cliquez sur **[!UICONTROL Create element]** et sélectionnez la ressource de  **[!UICONTROL Profile]** . You can then map on the **[!UICONTROL email]** field in the **[!UICONTROL Join definition]** section, or any other composite reconciliation key, depending on your needs.
 
    ![](assets/optin_eventcreate_join.png)
 
-   Si vous devez utiliser les services, ajoutez la ressource cible **[!UICONTROL Service]**et mappez-la dans le champ**[!UICONTROL  serviceName]**. Pour plus d&#39;informations à ce sujet, voir .
+   Si vous devez utiliser les services, ajoutez la ressource cible **[!UICONTROL Service]** et mappez-la dans le champ **[!UICONTROL serviceName]**. Pour plus d&#39;informations à ce sujet, voir .
 
-1. Sélectionnez **[!UICONTROL profile]**comme**[!UICONTROL  Enrichissement de la cible]** dans la liste déroulante.
-1. Cliquez sur **[!UICONTROL Publier]**pour publier l&#39;événement.
+1. Sélectionnez **[!UICONTROL Profile]** comme valeur **[!UICONTROL Targeting enrichment]** dans le  de la liste déroulante.
+1. Click **[!UICONTROL Publish]** to publish the event.
 
 L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;email. Ce modèle doit inclure un lien vers la landing page **CONFIRMATION** créée préalablement. Voir à ce propos [Concevoir le message de confirmation](#design-the-confirmation-message).
 
-### Création de la règle de typologie {#create-the-typology-rule}
+### Create the typology {#create-the-typology-rule}
 
-Vous devez créer une [règle de typologie](../../administration/using/about-typology-rules.md) spécifique, en dupliquant une règle d&#39;usine. Cette règle permettra d&#39;envoyer des messages aux profils qui n&#39;ont pas encore confirmé leur accord et sont encore blacklistés. Par défaut, les règles de typologie excluent les profiles Opt-out (c&#39;est-à-dire blacklistés). Pour créer cette règle de typologie, procédez comme suit :
+You need to create a specific [typology](../../sending/using/about-typology-rules.md), by duplicating an out-of-box one. La typologie permettra d&#39;envoyer des messages à des qui n&#39;ont pas encore confirmé leur accord et qui sont encore. Par défaut, les typologies excluent les  d’exclusion (c.-à-d.). Pour créer cette typologie, procédez comme suit :
 
-1. Depuis le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration]** >**[!UICONTROL  Canaux]** > **[!UICONTROL Typologies]**et cliquez sur**[!UICONTROL  Typologies]**.
-1. Dupliquez la typologie d&#39;usine **[!UICONTROL Message transactionnel sur le profil (mcTypologyProfile)]**.
+1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
+1.  la typologie prête à l’emploi **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Après confirmation de la duplication, éditez la nouvelle typologie et saisissez le libellé **TYPOLOGIE_PROFIL**.
 1. Supprimez la règle des **adresses blacklistées**.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Clics **[!UICONTROL Save]**.
 
 Cette typologie peut maintenant être associée à l&#39;email de confirmation.
 
@@ -112,13 +112,13 @@ Cette typologie peut maintenant être associée à l&#39;email de confirmation.
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement créé préalablement. Suivez les étapes ci-dessous pour créer ce message :
 
-1. Depuis le logo Adobe Campaign, sélectionnez **[!UICONTROL Plans marketing]** >**[!UICONTROL  Messages transactionnels]** et cliquez sur **[!UICONTROL Messages transactionnels]**.
-1. Personnalisez le modèle d&#39;email **CONFIRMER.** Vous pouvez charger du contenu existant ou utiliser un modèle d&#39;usine.
-1. Ajoutez un lien vers la landing page **CONFIRMATION** et cliquez sur **[!UICONTROL Valider]**pour enregistrer les modifications.
+1. From the Adobe Campaign logo, select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** and click **[!UICONTROL Transactional messages]**.
+1. Personnalisez le modèle d&#39;email **CONFIRMER**. Vous pouvez charger du contenu existant ou utiliser un modèle d&#39;usine.
+1. Add a link to the **CONFIRMATION** landing page, and click **[!UICONTROL Confirm]** to save modifications.
 
    ![](assets/optin_email_selectlp.png)
 
-1. Editez les propriétés du modèle d&#39;email. Dans la section **[!UICONTROL Paramètres avancés]** >**[!UICONTROL  Préparation]**, sélectionnez la typologie **TYPOLOGIE_PROFIL** créée préalablement.
+1. Editez les propriétés du modèle d&#39;email. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the **TYPOLOGY_PROFILE** typology created before.
 1. Enregistrez le message transactionnel et publiez-le.
 
 ## Etape 3 : création de la landing page d&#39;acquisition  {#step-3--create-the-acquisition-landing-page}
@@ -127,8 +127,8 @@ Vous devez créer la landing page d&#39;acquisition initiale. Ce formulaire d&#3
 
 Pour créer et configurer cette landing page, vous devez :
 
-1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé** ACQUISITION **.
-1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** >**[!UICONTROL  Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]**et saisissez le chemin du contexte suivant :
+1. Design a [new landing page](../../channels/using/getting-started-with-landing-pages.md) based on the **[!UICONTROL Profile acquisition (acquisition)]** template. Saisir le libellé **ACQUISITION**.
+1. Modifiez les propriétés  du : dans la section **[!UICONTROL Job]** > **[!UICONTROL Additional data]** , cliquez **[!UICONTROL Add an element]** et saisissez le chemin de contexte suivant :
 
    /context/profile/blackList
 
@@ -136,7 +136,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    Cela est obligatoire pour forcer le blacklistage et éviter d&#39;envoyer des messages aux visiteurs qui n&#39;ont pas confirmé qu&#39;ils donnaient leur accord. La validation de la landing page CONFIRMATION définira ce champ sur **faux** après confirmation. Voir à ce propos [Etape 1 : créer la landing page de confirmation](#step-1--create-the-confirmation-landing-page).
 
-1. Dans la section **[!UICONTROL Traitement]** >**[!UICONTROL  Actions spécifiques]**, sélectionnez l&#39;option **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]**.
+1. Dans la section **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** , sélectionnez l’option **[!UICONTROL Start sending messages]**.
 1. Dans la liste déroulante associée, sélectionnez le modèle de message transactionnel **CONFIRMER** que vous avez créé.
 
    ![](assets/optin_acquisition_startoption.png)
