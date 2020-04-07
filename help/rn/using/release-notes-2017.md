@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> Gestion de la fatigue<br /> </td> 
-   <td> La gestion de la fatigue permet de créer des règles de fatigue pour gérer la sur-sollicitation des profils en matière de communications. Bien que les règles de fatigue soient faciles à créer, elles sont extrêmement flexibles, avec des fonctionnalités telles que le comptage des messages sur plusieurs canaux (y compris les messages transactionnels), le comptage de diffusions spécifiques uniquement ou l'application de règles à des profils spécifiques.<br /> Pour plus d'informations, consultez la <a href="../../administration/using/fatigue-rules.md">documentation détaillée</a>.<br /> </td> 
+   <td> La gestion de la fatigue permet de créer des règles de fatigue pour gérer la sur-sollicitation des profils en matière de communications. Bien que les règles de fatigue soient faciles à créer, elles sont extrêmement flexibles, avec des fonctionnalités telles que le comptage des messages sur plusieurs canaux (y compris les messages transactionnels), le comptage de diffusions spécifiques uniquement ou l'application de règles à des profils spécifiques.<br /> Pour plus d'informations, consultez la <a href="../../sending/using/fatigue-rules.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Création de contenu : import depuis une URL<br /> </td> 
