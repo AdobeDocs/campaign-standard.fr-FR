@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ Lorsqu&#39;une diffusion ne peut pas être envoyée à un profil, le serveur dis
 
 >[!NOTE]
 >
->Les messages d&#39;erreur de type **Email** (ou &quot;bounces&quot;) sont qualifiés par le processus inMail. Les messages d&#39;erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
+>**Les messages d’erreur de courriel** (ou &quot;rebonds&quot;) sont qualifiés par la MTA améliorée (rebonds synchrones) ou par le processus inMail (rebonds asynchrones). **Les messages d&#39;erreur de type SMS (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.**
 
 Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou un profil blacklisté. Excluded messages are listed in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,9 +80,21 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 Si un message est en échec en raison d&#39;une erreur temporaire du type **Ignoré**, les reprises seront effectuées pendant la durée de la diffusion. Pour plus d&#39;informations sur les types d&#39;erreurs, voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons).
 
-Pour modifier la durée d&#39;une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion et indiquez la durée souhaitée dans le champ correspondant. Les propriétés avancées des diffusions sont présentées dans [cette section](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Une fois la mise à niveau vers la [MTA](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)améliorée Adobe Campaign, les paramètres de **** sont ignorés. Le nombre de  (le nombre de à exécuter le jour suivant le démarrage de l’envoi) et le délai minimal entre les  sont gérés par la MTA améliorée, en fonction de la performance historique et actuelle d’une IP sur un domaine donné.
 
-La configuration par défaut permet cinq reprises à des intervalles d&#39;une heure chacune, puis une reprise par jour pendant quatre jours. Le nombre de reprises peut être changé de manière globale (contactez l&#39;administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion (voir [cette section](../../administration/using/configuring-email-channel.md#sending-parameters)).
+Pour modifier la durée d’un , accédez aux paramètres avancés du ou du **[!UICONTROL Delivery duration]**[, puis modifiez le champ de la section Période](../../administration/using/configuring-email-channel.md#validity-period-parameters) de validité.
+
+>[!IMPORTANT]
+>
+>Once upgraded to the [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), the **[!UICONTROL Delivery duration]** parameter in your Campaign deliveries is used only if set to 3.5 days or less. Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+
+Si, par exemple, vous souhaitez que le  d’un s’arrête après une journée, vous pouvez définir la durée du **sur** 1d, et la MTA améliorée respectera ce paramètre en supprimant les messages dans la file d’attente des nouvelles tentatives après une journée.
+
+>[!NOTE]
+>
+>Une fois qu’un message figure dans la file d’attente MTA améliorée depuis 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour de **[!UICONTROL Sent]** à **[!UICONTROL Failed]** la [](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
 
@@ -103,7 +115,7 @@ This list is available to administrators only and contains all the rules used by
 >
 >Once upgraded to the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used.
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d&#39;Adobe Campaign, reportez-vous à ce [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign. Pour plus d’informations sur le MTA amélioré d’Adobe Campaign, consultez ce [document](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html).
 
 Les rebonds asynchrones sont toujours qualifiés par le processus inMail via les **[!UICONTROL Inbound email]** règles. Pour accéder à ces règles, cliquez sur le **[!UICONTROL Adobe Campaign]** logo, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Channels > Email > Email processing rules]** et **[!UICONTROL Bounce mails]**. For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
