@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Cliquez maintenant sur Modifier sur l’élément de filtre nouvellement ajouté
 
 Ensuite, nous allons spécifier la liaison de la ressource personnalisée.  Dans ce cas, nous avons choisi de lier l’entité **[!UICONTROL Vehicles]** personnalisée (source) à l’entité  () à l’aide d’une **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Dans l’ **[!UICONTROL Link definitions]** écran, choisissez l’option de suppression : **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Nous choisissons cette option de sorte que lorsqu&#39;un  de est supprimé, tous les **[!UICONTROL Vehicle]** enregistrements liés à ce  de sont également supprimés.
 1. Dans **[!UICONTROL Join Definitions]**, sélectionnez **[!UICONTROL Define specific join conditions]**.
