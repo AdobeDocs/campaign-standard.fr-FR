@@ -11,8 +11,8 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -29,7 +29,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    >[!NOTE]
    >
-   >Les modèles de relance et de test A/B sont masqués par défaut. Cochez les cases situées à gauche (au niveau du panneau latéral **[!UICONTROL Filtrer]**) si vous souhaitez les afficher.
+   >Les modèles de relance et de test A/B sont masqués par défaut. Check the boxes on the left side ( **[!UICONTROL Filter]** lateral panel) if you want to display them.
 
 1. Renseignez les propriétés générales de l&#39;email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l&#39;identifiant. Le nom de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
 
@@ -58,11 +58,11 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    >[!NOTE]
    >
-   >Pour pouvoir enregistrer votre email, vous devez éditer le contenu. Si vous cliquez sur **[!UICONTROL Annuler]** à cette étape, vous ne terminerez pas l&#39;assistant et votre email ne sera pas créé.
+   >Pour pouvoir enregistrer votre email, vous devez éditer le contenu. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
    Le tableau de bord de l&#39;email s&#39;affiche alors. Il vous permet de vérifier votre message et de [préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 
-   Le bouton **[!UICONTROL Editer les propriétés]** dans le coin supérieur droit permet d&#39;éditer les propriétés de l&#39;email. Vous pouvez, par exemple, configurer l&#39;email de sorte que son libellé soit calculé au moment de la préparation de la diffusion. Les paramètres disponibles sont répertoriés dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. Vous pouvez, par exemple, configurer l&#39;email de sorte que son libellé soit calculé au moment de la préparation de la diffusion. Les paramètres disponibles sont répertoriés dans [cette section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -76,7 +76,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    >[!NOTE]
    >
-   >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir à ce propos [Règles de fatigue](../../administration/using/fatigue-rules.md).
+   >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir à ce propos [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 1. Envoyez des bons à tirer à vérifier, validez votre message et suivez son rendu dans la boîte de réception. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
@@ -90,7 +90,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)     
+* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)     video
 * Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * Vidéo [Intégration d&#39;Adobe Campaign et de Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
