@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ You can use this activity to recover data that will then be structured with the 
    * **Réception de fichier** : vous permet de télécharger un fichier.
    * **Envoi de fichier** : vous permet d&#39;envoyer un fichier. Uploading a file from Adobe Campaign file generates a log entry in the **[!UICONTROL Export audits]** menu. Pour plus d&#39;informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
    * **Test d&#39;existence de fichier** : vous permet de vérifier l&#39;existence d&#39;un fichier.
-   * **Listage de fichiers** : vous permet de lister les fichiers présents dans Adobe Campaign.
+   * **Liste des** fichiers : vous permet de  les fichiers présents sur le serveur définis dans l’ **[!UICONTROL Protocol]** onglet. Cette action est principalement utilisée à des fins de débogage, afin de vérifier si le   est configuré en fonction de vos besoins avant de télécharger les fichiers à partir du serveur distant.
+
 1. Sélectionnez le protocole à utiliser :
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ You can use this activity to recover data that will then be structured with the 
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: cette option est disponible lors de la sélection de l’ **[!UICONTROL File listing]** action. Elle permet de répertorier tous les fichiers présents sur le serveur dans la variable d&#39;événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères **&#39;n&#39;**.
+   * **[!UICONTROL List all files]**: cette option est disponible lors de la sélection du fichier **[!UICONTROL File listing]** .action dans l’ **[!UICONTROL General]** onglet. Elle permet de répertorier tous les fichiers présents sur le serveur dans la variable d&#39;événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères **&#39;n&#39;**.
 
 1. The **[!UICONTROL If no files are found]** section of the **[!UICONTROL Advanced options]** tab allows you to configure specific actions if any errors or inexistent files are detected when the activity is started.
 
@@ -92,7 +93,7 @@ Vous pouvez également choisir l’ **[!UICONTROL Quick configuration]** option.
 
 Le protocole Amazon S3 vous permet de  télécharger un fichier à partir d’une URL ou d’un  via le service Amazon Simple  (S3).
 
-1. Sélectionnez un  Amazon S3. Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/external-accounts.md#amazon-s3-external-account).
+1. Sélectionnez un  Amazon S3. Voir à ce propos [cette page](../../administration/using/external-accounts.md#amazon-s3-external-account).
 
 2. Choisissez si vous le voulez **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
 
@@ -106,7 +107,7 @@ Le protocole Amazon S3 vous permet de  télécharger un fichier à partir d’un
 
 Le protocole Blob Microsoft Azure vous permet d&#39;accéder à blob situé sur un compte de Microsoft Azure Blob .
 
-1. Sélectionnez un **[!UICONTROL Microsoft Azure Blob]** . Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
+1. Sélectionnez un **[!UICONTROL Microsoft Azure Blob]** . Voir à ce propos [cette page](../../administration/using/external-accounts.md#microsoft-azure-external-account).
 
 1. Choisissez si vous le voulez **[!UICONTROL Define a file path]** ou **[!UICONTROL Use a dynamic file path]**.
 
