@@ -11,8 +11,8 @@ topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+translation-type: tm+mt
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ Pour implémenter une règle de fatigue, vous devez définir un nombre maximum d
 
 **Rubriques connexes :**
 
-* Découvrez comment [concevoir des règles de fatigue](../../administration/using/fatigue-rules.md#examples) à travers un jeu d&#39;échantillons
-* Découvrez comment créer des [règles de typologie](../../administration/using/about-typology-rules.md)
-* Utilisez des [règles de filtre](../../administration/using/filtering-rules.md) pour affiner l&#39;audience de vos messages
+* Découvrez comment [concevoir des règles de fatigue](../../sending/using/fatigue-rules.md#examples) à travers un jeu d&#39;échantillons
+* Découvrez comment créer des [règles de typologie](../../sending/using/about-typology-rules.md)
+* Utilisez des [règles de filtre](../../sending/using/filtering-rules.md) pour affiner l&#39;audience de vos messages
