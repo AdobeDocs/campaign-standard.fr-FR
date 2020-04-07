@@ -11,78 +11,78 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
 
 # Messages transactionnels basés sur un profil{#profile-transactional-messages}
 
-Vous avez la possibilité d'envoyer des messages transactionnels selon les profils marketing des utilisateurs, ce qui vous permet de réaliser les actions suivantes :
+Vous avez la possibilité d&#39;envoyer des messages transactionnels selon les profils marketing des utilisateurs, ce qui vous permet de réaliser les actions suivantes :
 
-* appliquer des règles de typologie marketing telles que **[!UICONTROL Adresse en blackliste]** ou des [règles de fatigue](../../administration/using/fatigue-rules.md) ;
+* Apply marketing typology rules such as **[!UICONTROL Blacklisted address]** or [fatigue rules](../../sending/using/fatigue-rules.md).
 * inclure le lien de désinscription dans les messages ;
 * ajouter les messages transactionnels au reporting de diffusion globale ;
 * utiliser les messages transactionnels dans le parcours client.
 
-Une fois que vous avez créé et publié l'événement de votre choix (dans l'[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l'abandon de panier), le message transactionnel correspondant est automatiquement créé.
+Une fois que vous avez créé et publié l&#39;événement de votre choix (dans l&#39;[exemple](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) ci-dessus, l&#39;abandon de panier), le message transactionnel correspondant est automatiquement créé.
 
 Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message transactionnel basé sur un profil](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Pour que l'événement entraîne l'envoi d'un message transactionnel, vous devez personnaliser le message, le tester et le publier.
+Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel, vous devez personnaliser le message, le tester et le publier.
 
 >[!NOTE]
 >
->Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes entités)]**.
+>To access transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
 >
->Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../administration/using/fatigue-rules.md).
+>Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 ## Envoyer un message transactionnel basé sur un profil {#sending-a-profile-transactional-message}
 
-Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d'événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
+Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d&#39;événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
 Les différences sont énumérées ci-dessous.
 
-1. Accédez au message transactionnel qui a été créé afin de l'éditer.
-1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre le modèle transactionnel, vous pouvez également choisir tout modèle d'email par défaut qui cible **[!UICONTROL Profil]**.
+1. Accédez au message transactionnel qui a été créé afin de l&#39;éditer.
+1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose any email template targeting **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. Sélectionnez le modèle d'email par défaut.
+1. Sélectionnez le modèle d&#39;email par défaut.
 
    Comme tous les emails marketing, il contient un lien de désinscription.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   De plus, contrairement aux configurations reposant sur des événements temps réel, vous disposez d'un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+   De plus, contrairement aux configurations reposant sur des événements temps réel, vous disposez d&#39;un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Contrôler la diffusion d'un message transactionnel selon les profils {#monitoring-a-profile-transactional-message-delivery}
+## Contrôler la diffusion d&#39;un message transactionnel selon les profils {#monitoring-a-profile-transactional-message-delivery}
 
-Une fois le message publié et l'intégration à un site effectuée, vous pouvez contrôler la diffusion.
+Une fois le message publié et l&#39;intégration à un site effectuée, vous pouvez contrôler la diffusion.
 
-1. Pour visualiser le log de diffusion du message, cliquez sur l'icône située en bas à droite du bloc **[!UICONTROL Déploiement]**.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   Pour plus d'informations sur l'accès aux logs, voir [Contrôler la diffusion](../../sending/using/monitoring-a-delivery.md).
+   Pour plus d&#39;informations sur l&#39;accès aux logs, voir [Contrôler la diffusion](../../sending/using/monitoring-a-delivery.md).
 
-1. Sélectionnez l'onglet **[!UICONTROL Envois]**. Dans la colonne **[!UICONTROL Statut]**, la mention **[!UICONTROL Envoyé]** indique qu'un profil s'est inscrit.
+1. Sélectionnez l’ **[!UICONTROL Sending logs]** onglet. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Sélectionnez l'onglet **[!UICONTROL Logs d'exclusion]** pour visualiser les destinataires qui ont été exclus de la cible du message, par exemple les adresses en blackliste.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as blacklisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Pour un profil qui s'est désinscrit, la règle de typologie **[!UICONTROL Adresse en blackliste]** a exclu le destinataire correspondant.
+For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
 
-Cette règle fait partie d'une typologie spécifique qui s'applique à tous les messages transactionnels qui reposent sur la table **[!UICONTROL Profile]**.
+Cette règle fait partie d&#39;une typologie spécifique qui s&#39;applique à tous les messages transactionnels qui reposent sur la table **[!UICONTROL Profile]**.
 
 ![](assets/message-center_marketing_typology.png)
 
 **Rubriques connexes** :
 
 * [Intégration à un site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Typologies](../../administration/using/about-typology-rules.md)
+* [Typologies](../../sending/using/about-typology-rules.md)
 
