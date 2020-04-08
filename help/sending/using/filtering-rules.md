@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Les règles de filtrage permettent d&#39;exclure une partie de la cible des mess
 Le tableau ci-dessous fournit des informations sur les règles de filtrage prêtes à l’emploi, ainsi que sur les  de leurs associés.
 
 | Libellé | Channel | Description |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Tous | Exclut la population de  sans adresse spécifiée (adresse électronique, adresse postale, etc.). selon le  sélectionné). |
 | **[!UICONTROL Blacklisted address]** | Tous | Exclut les adresses. |
 | **[!UICONTROL Duplicate]** | Tous | Exclut les  d’après le **[!UICONTROL Address]** champ de population . |
