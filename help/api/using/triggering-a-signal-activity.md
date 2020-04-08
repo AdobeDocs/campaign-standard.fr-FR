@@ -11,8 +11,8 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -62,7 +62,7 @@ Si vous souhaitez appeler le processus avec des paramètres, ajoutez-les à la p
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
 Exécutez une requête GET sur le workflow.
 
