@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -479,7 +479,7 @@ Certains problèmes peuvent se produire lors de l&#39;utilisation des liens d&#3
   </tr> 
   <tr> 
    <td> Déclenchement de l'activité Signal depuis l'API<br /> </td> 
-   <td> Il est désormais possible de déclencher une activité Signal pour vos workflows directement depuis l'API Adobe Campaign Standard.<br /> Pour plus d'informations, consultez la <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">documentation détaillée</a> .<br /> </td> 
+   <td> Il est désormais possible de déclencher une activité Signal pour vos workflows directement depuis l'API Adobe Campaign Standard.<br /> Pour plus d'informations, consultez la <a href="/help/api/using/triggering-a-signal-activity.md">documentation détaillée</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
