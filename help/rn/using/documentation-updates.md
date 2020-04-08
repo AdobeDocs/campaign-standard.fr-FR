@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ L&#39;intégration de Microsoft Dynamics 365 à  documentation de Adobe Campaign
 
 Des ressources supplémentaires ont été ajoutées au  de documentation. [En savoir plus](../../campaign-standard-home.md)
 
-Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation du connecteur de données de la plate-forme d’expérience Adobe. [En savoir plus](../../administration/using/aep-about-data-connector.md#key-concepts)
+Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation d’Adobe Experience Platform Data Connector. [En savoir plus](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 La section Configuration de la messagerie transactionnelle a été améliorée avec des informations sur l’accès aux derniers  transactionnels et des captures d’écran mises à jour. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 La section relative aux typologies et aux  de a été améliorée et mise à jour avec des informations supplémentaires sur les  prêtes à l&#39;emploi. [En savoir plus](../../sending/using/about-typology-rules.md)
 
-Des informations ont été ajoutées sur l&#39; **[!UICONTROL Transfer file]** action  **!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
+Des informations ont été ajoutées sur l&#39; **[!UICONTROL Transfer file]** action  **[!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
 
 La documentation sur les  après une  de panne temporaire de a été mise à jour avec plus de détails sur la manière dont les  sont gérées une fois la mise à niveau vers la MTA améliorée. [En savoir plus](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
