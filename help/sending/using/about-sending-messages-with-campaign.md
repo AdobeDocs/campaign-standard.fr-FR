@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ Vous pouvez alors :
 | Pages utiles | Autres ressources |
 |---|---|
 | [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md) | [Gestion de la fatigue](../../sending/using/fatigue-rules.md) |
-| [Contrôler une diffusion](../../audiences/using/creating-profiles.md) | [Conception de courriers électroniques de test A/B](../../channels/using/designing-an-a-b-test-email.md) |
+| [Contrôle du débit  du](../../reporting/using/delivery-throughput.md) | [Conception de courriers électroniques de test A/B](../../channels/using/designing-an-a-b-test-email.md) |
 | [Réception d’une notification en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md) | [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md) |
-| [Création d&#39;un groupe témoin](../../automating/using/workflow-control-group.md) | [Réception d’une notification en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Contrôle du débit  du](../../reporting/using/delivery-throughput.md) | [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md) |
+| [Création d&#39;un groupe témoin](../../automating/using/workflow-control-group.md) | [Envoi de messages de suivi](../../channels/using/follow-up-messages.md) |
