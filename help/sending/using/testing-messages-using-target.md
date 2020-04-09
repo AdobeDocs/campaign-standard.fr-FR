@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -129,7 +129,7 @@ Pour importer des  à utiliser pour les tests à partir d’un  de, procédez co
 >
 >Si vous importez à nouveau le même  , avec des adresses et/ou des préfixes de substitution différents, le  sera ajouté aumême en plus de ceux de l’importation précédente.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## Prévisualisation du message avec un ciblé
 
