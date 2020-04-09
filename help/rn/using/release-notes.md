@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
 
 # Dernière version{#latest-release}
 
-[Calendrier des versions](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 [Cliquez ici](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) pour vous abonner aux notifications de mise à jour et obtenir des détails sur les dernières versions d’Adobe Experience Cloud directement dans votre boîte de réception.
 
-## Version 20.2 - Mars 2020     {#release-20-2---march-2020}
+## Version 20.2 - Avril 2020     {#release-20-2---april-2020}
 
 **Nouveautés**
 
@@ -59,7 +59,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 >[!NOTE]
 >
->De nouvelles fonctionnalités seront disponibles dans Campaign Panneau de configuration en avril, notamment la gestion des enregistrements Google TXT, la surveillance de l’espace de base de données et les alertes par courrier électronique. Pour en savoir plus sur ces fonctionnalités, consultez la Note [de mise à jour du Panneau de](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)configuration.
+>De nouvelles fonctionnalités seront disponibles dans Campaign Panneau de configuration en avril, notamment la gestion des enregistrements Google TXT, la surveillance de l’espace de base de données et les alertes par courrier électronique. Pour en savoir plus sur ces fonctionnalités, consultez la Note [de mise à jour du Panneau de](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html)configuration.
 
 **Améliorations**
 
