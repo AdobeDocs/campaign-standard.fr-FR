@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
+source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
 
 ---
 
@@ -50,23 +50,9 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <tr> 
    <td> <p> À compter de la version 20.1, le SDK v4 est obsolète. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">En savoir plus</a>.</p><br/>
    <p>Le <a href="https://aep-sdks.gitbook.io/docs/">SDK Mobile Adobe Experience Platform</a> (précédemment appelé v5) prendra exclusivement en charge les fonctionnalités Adobe Experience Cloud à venir.</p></br>
-     <p>Date de suppression prévue : le 30 septembre 2020</p>
+     <p>
+     <em>Date de suppression prévue : le 30 septembre 2020</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>SDK Creative pour Campaign Standard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Le SDK Adobe Creative a été retiré. En conséquence, à compter de la version 20.1, l’édition d’images avec le SDK Creative dans les emails de Campaign Standard est obsolète.</p></br>
-  <p> Date de suppression prévue : mars 2020 - version 20.2 de Campaign</p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,8 +65,9 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression de  en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Voir aussi <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
-  <p> Date de suppression prévue : juillet 2020 - version 20.5 de Campaign</p>
+   <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
+  <p> 
+  <em>Date de suppression prévue : juillet 2020 - version 20.5 de Campaign </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -94,9 +81,10 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
-   <p>Lisez <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
-  <p> Date de suppression prévue : octobre 2020 - version 20.6 de Campaign</p>
+   <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
+   <p>Lisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
+  <p> 
+  <em>Date de suppression prévue : octobre 2020 - version 20.6 de Campaign </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -110,12 +98,29 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 18.7, les entités géographiques sont obsolètes. Les entités organisationnelles et géographiques sont des constructions identiques dans Campaign. Les utilisateurs devront uniquement utiliser les entités organisationnelles pour définir une hiérarchie de permissions/d’accès aux données de l’utilisateur. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">En savoir plus</a>. Notez que, à partir de la version 18.7, cette fonctionnalité ne peut pas être implémentée sur les nouvelles instances Campaign Standard, ni sur les instances existantes sans entités géographiques créées.</p>
+   <td> <p>À compter de la version 18.7, les entités géographiques sont obsolètes. Les entités organisationnelles et géographiques sont des constructions identiques dans Campaign. Les utilisateurs devront uniquement utiliser les entités organisationnelles pour définir une hiérarchie de permissions/d’accès aux données de l’utilisateur. <a href="https://helpx.adobe.com/fr/campaign/standard/administration/using/organizational-units.html">En savoir plus</a>. Notez que, à partir de la version 18.7, cette fonctionnalité ne peut pas être implémentée sur les nouvelles instances Campaign Standard, ni sur les instances existantes sans entités géographiques créées.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
+## Fonctions supprimées {#removed-features}
+
+Cette section les fonctionnalités et fonctionnalités qui ont été supprimées de Campaign Standard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK Creative pour Campaign Standard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Le SDK Adobe Creative a été retiré. En conséquence, l’édition d’images optimisée par Creative SDK dans Campaign Standard e-mails n’est plus disponible à partir de Campaign version 20.2.</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Fin de compatibilité {#end-of-compatibility}
 
@@ -127,7 +132,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">En savoir plus</a>.</p>
+   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/getting-started/discovering-the-interface/compatible-browsers.html">En savoir plus</a>.</p>
    </td> 
   </tr> 
  </tbody> 
