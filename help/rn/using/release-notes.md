@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Correction d’un problème lors de la suppression manuelle d’une demande de confidentialité Campaign après son traitement, qui empêchait la suppression des données associées à la demande même après le nettoyage.
 * Correction d’un problème qui pouvait se produire lors de la prévisualisation ou de l’envoi de messages contenant des caractères spéciaux d’Adobe Experience Manager.
 * Correction d’un problème qui pouvait se produire dans les  de lors de l’exécution d’un  de avec plusieurs entrants.
+* Correction d’un problème qui empêchait les utilisateurs standard d’utiliser le  &quot; à une application&quot; comme dimension de  dans unflux de travail ou un. (CAMP-37618)
