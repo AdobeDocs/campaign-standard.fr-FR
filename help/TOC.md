@@ -4,7 +4,7 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -23,21 +23,21 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
    + [Planification des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
-   + A propos d&#39;Adobe Campaign {#about-adobe-campaign}
+   + À propos d’Adobe Campaign {#about-adobe-campaign}
       + [Orchestration des campagnes](start/using/campaign-orchestration.md)
       + [Segmentation et ciblage](start/using/segmentation-and-targeting.md)
       + [Contenu dynamique et personnalisé](start/using/dynamic-and-personalized-content.md)
       + [Tracking, suivi et reporting](start/using/tracking--monitoring-and-reporting.md)
       + [Intégration avec les solutions Adobe](start/using/integrating-with-adobe-solutions.md)
       + [Enrichissement de la base de données Campaign](start/using/enriching-campaign-database.md)
-   + Découverte de l&#39;interface {#discovering-the-interface}
+   + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
-      + [Description de l&#39;interface](start/using/interface-description.md)
+      + [Description de l’interface](start/using/interface-description.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
    + Plans marketing {#marketing-plans}
       + [Programmes et campagnes](start/using/programs-and-campaigns.md)
       + [Activités marketing](start/using/marketing-activities.md)
-      + [Modèles d&#39;activité marketing](start/using/marketing-activity-templates.md)
+      + [Modèles d’activité marketing](start/using/marketing-activity-templates.md)
       + [Planning](start/using/timeline.md)
    + Tutoriels {#tutorials}
       + [Guides détaillés](start/using/step-by-step-guides.md)
@@ -53,17 +53,17 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Gestion des profils de test](audiences/using/managing-test-profiles.md)
    + Gestion des audiences {#managing-audiences}
       + [A propos des audiences](audiences/using/about-audiences.md)
-      + [Création d&#39;une audience](audiences/using/creating-audiences.md)
+      + [Création d’une audience](audiences/using/creating-audiences.md)
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestion des inscriptions {#managing-subscriptions}
       + [A propos des inscriptions](audiences/using/about-subscriptions.md)
       + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les inscriptions](audiences/using/monitoring-subscriptions.md)
-      + [Confirmer l&#39;abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
-   + Comprendre les processus d&#39;inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
-      + [Les processus d&#39;inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-      + [Gestion des processus d&#39;inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+      + [Confirmer l’abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
+   + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
+      + [Les processus d’inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [Gestion des processus d’inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
    + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [À propos du service Audience Destinations](audiences/using/aep-about-audience-destinations-service.md)
@@ -87,26 +87,26 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Personnaliser un SMS](channels/using/personalizing-sms-messages.md)
       + [Gérer les SMS entrants](channels/using/managing-incoming-sms.md)
       + [A propos de la conception de contenu de SMS et de notification push](channels/using/about-sms-and-push-content-design.md)
-      + [Interface de l&#39;éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
-      + [Définition d&#39;un texte dynamique](channels/using/defining-dynamic-text.md)
+      + [Interface de l’éditeur de contenu de SMS et de notification push](channels/using/sms-and-push-content-editor-interface.md)
+      + [Définition d’un texte dynamique](channels/using/defining-dynamic-text.md)
    + Notifications push {#push-notifications}
       + [A propos des notifications push](channels/using/about-push-notifications.md)
-      + [Préparation et envoi d&#39;une notification push](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Personnalisation d&#39;une notification push](channels/using/customizing-a-push-notification.md)
-      + [Création d&#39;une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
+      + [Préparation et envoi d’une notification push](channels/using/preparing-and-sending-a-push-notification.md)
+      + [Personnalisation d’une notification push](channels/using/customizing-a-push-notification.md)
+      + [Création d’une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
       + [Génération d’un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
-      + [Création et mise à jour des informations de profil en fonction des données d&#39;applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
-      + [Préparation et envoi d&#39;un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personnalisation d&#39;un message in-app](channels/using/customizing-an-in-app-message.md)
+      + [Préparation et envoi d’un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [Personnalisation d’un message in-app](channels/using/customizing-an-in-app-message.md)
    + Canal Courrier {#direct-mail}
       + [A propos du canal Courrier](channels/using/about-direct-mail.md)
-      + [Retour à l&#39;expéditeur](channels/using/return-to-sender.md)
+      + [Retour à l’expéditeur](channels/using/return-to-sender.md)
       + [Créer le courrier](channels/using/creating-the-direct-mail.md)
-      + [Définir l&#39;audience du courrier](channels/using/defining-the-direct-mail-audience.md)
+      + [Définir l’audience du courrier](channels/using/defining-the-direct-mail-audience.md)
       + [Définir le contenu du courrier](channels/using/defining-the-direct-mail-content.md)
-      + [Exemple d&#39;un courrier dans un workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
+      + [Exemple d’un courrier dans un workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Messages transactionnels {#transactional-messaging}
       + [A propos des messages transactionnels](channels/using/about-transactional-messaging.md)
       + [Messages transactionnels basés sur un événement](channels/using/event-transactional-messages.md)
@@ -119,44 +119,44 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
       + [Concevoir une landing page](channels/using/designing-a-landing-page.md)
       + [Gérer des données de formulaire de landing page](channels/using/managing-landing-page-form-data.md)
-      + [Test et publication d&#39;une landing page](channels/using/testing-publishing-landing-page.md)
-      + [Configuration d&#39;un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
-+ Concevoir un contenu d&#39;email {#designing-content}
-   + [Concepteur d&#39;emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
-   + [Prise en main du Concepteur d&#39;emails ](designing/using/quick-start.md)
-   + [Définition de l&#39;objet et de l&#39;expéditeur](designing/using/subject-line.md)
-   + Création de contenu d&#39;email{#building-email-content}
-      + [Conception d&#39;emails à partir de zéro](designing/using/designing-from-scratch.md)
+      + [Test et publication d’une landing page](channels/using/testing-publishing-landing-page.md)
+      + [Configuration d’un processus de double opt-in](channels/using/setting-up-a-double-opt-in-process.md)
++ Concevoir un contenu d’email {#designing-content}
+   + [Concepteur d’emails de Campaign](designing/using/designing-content-in-adobe-campaign.md)
+   + [Prise en main du Concepteur d’emails ](designing/using/quick-start.md)
+   + [Définition de l’objet et de l’expéditeur](designing/using/subject-line.md)
+   + Création de contenu d’email{#building-email-content}
+      + [Conception d’emails à partir de zéro](designing/using/designing-from-scratch.md)
       + [Utilisation de contenu existant](designing/using/using-existing-content.md)
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
       + [Utilisation d’intégrations multisolution](designing/using/using-integrations.md)
-      + [Modification de texte brut, de HTML et d&#39;emails mobiles](designing/using/plain-text-html-modes.md)
+      + [Modification de texte brut, de HTML et d’emails mobiles](designing/using/plain-text-html-modes.md)
    + [Personnalisation du contenu des emails](designing/using/personalization.md)
-   + [Gestion des styles d&#39;email](designing/using/styles.md)
+   + [Gestion des styles d’email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
 + Test et envoi {#testing-and-sending}
-   + [A propos de l&#39;envoi de messages avec Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + [À propos de l’envoi de messages avec Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
-      + [Prévisualiser un message](sending/using/previewing-messages.md)
-      + [Préparer l&#39;envoi](sending/using/preparing-the-send.md)
+      + [Aperçu des  de](sending/using/previewing-messages.md)
+      + [Préparer l’envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
-      + [Test des messages électroniques à l’aide de  ciblées](sending/using/testing-messages-using-target.md)
-      + [Test de l&#39;objet d&#39;un email](sending/using/testing-subject-line-email.md)
+      + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md).
+      + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
       + [Rendu des emails](sending/using/email-rendering.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
-   + Planification de l&#39;envoi des messages {#scheduling-messages}
+   + Planification de l’envoi des messages {#scheduling-messages}
       + [A propos de la planification des messages](sending/using/about-scheduling-messages.md)
-      + [Optimiser l&#39;heure d&#39;envoi](sending/using/optimizing-the-sending-time.md)
+      + [Optimiser l’heure d’envoi](sending/using/optimizing-the-sending-time.md)
       + [Envoi des messages au fuseau horaire du destinataire](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-      + [Calcul de la date d&#39;envoi](sending/using/computing-the-sending-date.md)
+      + [Calcul de la date d’envoi](sending/using/computing-the-sending-date.md)
    + Envoi et tracking des messages {#sending-and-tracking-messages}
-      + [Confirmer l&#39;envoi](sending/using/confirming-the-send.md)
+      + [Confirmer l’envoi](sending/using/confirming-the-send.md)
       + [Tracker les messages](sending/using/tracking-messages.md)
-      + [Archivage avec BCC de courrier électronique](sending/using/archiving.md)
+      + [Archivage avec Email BCC](sending/using/archiving.md)
    + Contrôler les messages {#monitoring-messages}
       + [Contrôler une diffusion](sending/using/monitoring-a-delivery.md)
-      + [Recevoir des alertes en cas d&#39;échec](sending/using/receiving-alerts-when-failures-happen.md)
+      + [Recevoir des alertes en cas d’échec](sending/using/receiving-alerts-when-failures-happen.md)
       + [Comprendre les diffusions en échec](sending/using/understanding-delivery-failures.md)
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
    + Gestion de la délivrabilité {#managing-deliverability}
@@ -183,7 +183,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
       + [Résolution des problèmes](reporting/using/troubleshooting.md)
    + Liste des rapports {#list-of-reports}
-      + [Définir la période d&#39;un rapport](reporting/using/defining-the-report-period.md)
+      + [Définir la période d’un rapport](reporting/using/defining-the-report-period.md)
       + [Synthèse des rebonds (Bounce summary)](reporting/using/bounce-summary.md)
       + [Répartition par domaine (Breakdown by domains)](reporting/using/breakdown-by-domains.md)
       + [Plaintes (Complaints)](reporting/using/complaints.md)
@@ -203,39 +203,39 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Ajouter des panneaux](reporting/using/adding-panels.md)
       + [Ajouter des visualisations](reporting/using/adding-visualizations.md)
       + [Ajouter des composants](reporting/using/adding-components.md)
-      + [Création d&#39;une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
-      + [Création d&#39;un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
+      + [Création d’une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
+      + [Création d’un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with other solutions {#integrating-with-adobe-cloud}
    + [A propos des intégrations de Campaign](integrating/using/about-campaign-integrations.md)
    + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [À propos de l’intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Création d&#39;un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Création d’un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign et {#working-with-campaign-and-target}
-      + [A propos de l&#39;intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
-      + [Configurer l&#39;intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
+      + [A propos de l’intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
+      + [Configurer l’intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Ajouter du contenu dynamique Target](integrating/using/adding-target-dynamic-content.md)
    + Campaign et Analytics {#working-with-campaign-and-analytics}
-      + [A propos de l&#39;intégration Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
-      + [Configurer l&#39;intégration Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
+      + [A propos de l’intégration Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
+      + [Configurer l’intégration Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [A propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Mise en service et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [A propos de l’intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Mise en service et configuration de l’intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
-      + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+      + [Partage d’audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign et analyses pour mobiles {#working-with-campaign-and-analytics-for-mobile}
-      + [A propos de l&#39;intégration Campaign-Données de points ciblés](integrating/using/about-campaign-points-of-interest-data-integration.md)
-      + [Configurer l&#39;intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
+      + [A propos de l’intégration Campaign-Données de points ciblés](integrating/using/about-campaign-points-of-interest-data-integration.md)
+      + [Configurer l’intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personnaliser des messages Campaign avec les données de points ciblés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
    + Campaign et déclencheurs {#working-with-campaign-and-triggers}
       + [A propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
-      + [Cas pratiques Triggers d&#39;abandon](integrating/using/abandonment-triggers-use-cases.md)
+      + [Cas pratiques Triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
          + [Utilisation de Campaign Standard et de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
@@ -252,7 +252,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Présentation des workflows](automating/using/discovering-workflows.md)
       + [Principes de fonctionnement des workflows](automating/using/workflow-operating-principles.md)
       + [Interface des workflows](automating/using/workflow-interface.md)
-   + Fonctionnement général d&#39;un workflow {#workflow-general-operation}
+   + Fonctionnement général d’un workflow {#workflow-general-operation}
       + [Construire un workflow](automating/using/building-a-workflow.md)
       + [Cibler les données](automating/using/targeting-data.md)
       + [Importer des données](automating/using/importing-data.md)
@@ -268,12 +268,12 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Intersection](automating/using/intersection.md)
       + [Exclusion](automating/using/exclusion.md)
       + [Segmentation](automating/using/segmentation.md)
-      + [Lecture d&#39;audience](automating/using/read-audience.md)
-      + [Sauvegarde d&#39;audience](automating/using/save-audience.md)
+      + [Lecture d’audience](automating/using/read-audience.md)
+      + [Sauvegarde d’audience](automating/using/save-audience.md)
       + [Déduplication](automating/using/deduplication.md)
       + [Enrichissement](automating/using/enrichment.md)
-   + Activités d&#39;exécution {#execution-activities}
-      + [A propos des activités d&#39;exécution](automating/using/about-execution-activities.md)
+   + Activités d’exécution {#execution-activities}
+      + [A propos des activités d’exécution](automating/using/about-execution-activities.md)
       + [Début et Fin](automating/using/start-and-end.md)
       + [Branchement](automating/using/fork.md)
       + [Rendez-vous](automating/using/and-join.md)
@@ -295,16 +295,16 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Transfert de fichier](automating/using/transfer-file.md)
       + [Réconciliation](automating/using/reconciliation.md)
       + [Extraction de fichier](automating/using/extract-file.md)
-      + [Services d&#39;inscriptions](automating/using/subscription-services.md)
+      + [Services d’inscriptions](automating/using/subscription-services.md)
       + [API externe](automating/using/external-api.md)
    + Filtrer les données {#filtering-data}
       + [Edition de requêtes](automating/using/editing-queries.md)
-      + [Edition avancée d&#39;expressions](automating/using/advanced-expression-editing.md)
+      + [Edition avancée d’expressions](automating/using/advanced-expression-editing.md)
       + [Liste des fonctions](automating/using/list-of-functions.md)
    + Import et export de données {#importing-and-exporting-data}
-      + [A propos de l&#39;import et de l&#39;export de données](automating/using/about-data-import-and-export.md)
-      + [Importer des données avec des modèles d&#39;import](automating/using/importing-data-with-import-templates.md)
-      + [Définir un modèle d&#39;import](automating/using/defining-import-templates.md)
+      + [A propos de l’import et de l’export de données](automating/using/about-data-import-and-export.md)
+      + [Importer des données avec des modèles d’import](automating/using/importing-data-with-import-templates.md)
+      + [Définir un modèle d’import](automating/using/defining-import-templates.md)
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
@@ -312,10 +312,10 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
    + Cas pratiques : workflows {#workflow-use-case}
       + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
       + [Création de diffusions à la date de création](automating/using/workflow-creation-date-query.md)
-      + [Création d&#39;une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
-      + [Création d&#39;une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
-      + [Reciblage des personnes n&#39;ayant pas ouvert l&#39;email](automating/using/workflow-cross-channel-retargeting.md)
-      + [Création d&#39;un groupe témoin](automating/using/workflow-control-group.md)
+      + [Création d’une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
+      + [Création d’une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
+      + [Reciblage des personnes n’ayant pas ouvert l’email](automating/using/workflow-cross-channel-retargeting.md)
+      + [Création d’un groupe témoin](automating/using/workflow-control-group.md)
       + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
    + Utilisation des audiences Adobe Experience Platform {#working-with-aep-audiences}
       + [Ciblage des audiences Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
@@ -330,19 +330,19 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Principales étapes pour ajouter une ressource](developing/using/key-steps-to-add-a-resource.md)
       + [Création ou extension de la ressource](developing/using/creating-or-extending-the-resource.md)
       + [Configuration de la structure de données de la ressource](developing/using/configuring-the-resource-s-data-structure.md)
-      + [Configuration de la définition d&#39;écran](developing/using/configuring-the-screen-definition.md)
+      + [Configuration de la définition d’écran](developing/using/configuring-the-screen-definition.md)
       + [Configuration de la définition des filtres](developing/using/configuring-filter-definition.md)
       + [Mettre à jour la structure de la base de données](developing/using/updating-the-database-structure.md)
       + [Supprimer une ressource](developing/using/deleting-a-resource.md)
-      + [Appel d&#39;une ressource à l&#39;aide d&#39;une clé d&#39;identification composite](developing/using/uc-calling-resource-id-key.md)
-   + Cas pratique : extension de l&#39;API {#use-case--extending-the-api}
-      + [A propos de l&#39;extension de l&#39;API](developing/using/about-extending-the-api.md)
-      + [Etape 1 : Ajouter des champs d&#39;extension à la ressource Profil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Etape 2 : Publier l&#39;extension](developing/using/step-2--publish-the-extension.md)
-      + [Etape 3 : Vérifier l&#39;extension](developing/using/step-3--verify-the-extension.md)
+      + [Appel d’une ressource à l’aide d’une clé d’identification composite](developing/using/uc-calling-resource-id-key.md)
+   + Cas pratique : extension de l’API {#use-case--extending-the-api}
+      + [A propos de l’extension de l’API](developing/using/about-extending-the-api.md)
+      + [Etape 1 : Ajouter des champs d’extension à la ressource Profil](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+      + [Etape 2 : Publier l’extension](developing/using/step-2--publish-the-extension.md)
+      + [Etape 3 : Vérifier l’extension](developing/using/step-3--verify-the-extension.md)
    + Cas pratiques : extension de ressources {#use-cases--extending-resources}
       + [Extension de la ressource Profil avec un nouveau champ](developing/using/extending-the-profile-resource-with-a-new-field.md)
-      + [Extension des abonnements à une ressource d&#39;application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
+      + [Extension des abonnements à une ressource d’application](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Datamodel {#datamodel}
       + [Introduction](developing/using/datamodel-introduction.md)
       + [Audience](developing/using/datamodel-audience.md)
@@ -354,31 +354,31 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Programme](developing/using/datamodel-program.md)
       + [Membre de contrôle](developing/using/datamodel-seed.md)
       + [Service](developing/using/datamodel-service.md)
-      + [Evénement d&#39;abonnement](developing/using/datamodel-subscription.md)
+      + [Evénement d’abonnement](developing/using/datamodel-subscription.md)
       + [Logs de tracking](developing/using/datamodel-tracking.md)
       + [Evénement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
-   + [Administration d&#39;Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
+   + [Administration d’Adobe Campaign](administration/using/about-administrating-adobe-campaign.md)
    + Instructions de configuration {#configuration-guidelines}
-      + [A propos des instructions de configuration](administration/using/about-configuration-guidelines.md)
+      + [À propos des instructions de configuration](administration/using/about-configuration-guidelines.md)
       + [Navigateurs compatibles](administration/using/compatible-browsers.md)
-      + [Campaign Standard points de terminaison réseau](administration/using/campaign-standard-network-endpoints.md)
+      + [Points d’entrée réseau Campaign Standard](administration/using/campaign-standard-network-endpoints.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
       + [Gestion des utilisateurs](administration/using/users-management.md)
       + [Entités organisationnelles](administration/using/organizational-units.md)
       + [Liste des rôles](administration/using/list-of-roles.md)
       + [Gestion des groupes et des utilisateurs](administration/using/managing-groups-and-users.md)
-      + [Audit des logs d&#39;export](administration/using/auditing-export-logs.md)
+      + [Audit des logs d’export](administration/using/auditing-export-logs.md)
       + [Licences](administration/using/licenses.md)
    + Configuration des canaux {#configuring-channels}
       + [A propos de la configuration des canaux](administration/using/about-channel-configuration.md)
       + [Configuration du canal Email](administration/using/configuring-email-channel.md)
       + [Configuration du canal SMS](administration/using/configuring-sms-channel.md)
-      + [Configuration d&#39;une application mobile](administration/using/configuring-a-mobile-application.md)
+      + [Configuration d’une application mobile](administration/using/configuring-a-mobile-application.md)
       + [Configuration des messages transactionnels](administration/using/configuring-transactional-messaging.md)
-   + Paramétrage de l&#39;application {#application-settings}
+   + Paramétrage de l’application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
       + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
@@ -400,7 +400,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Configuration de l’accès aux API](api/using/setting-up-api-access.md)
    + Concepts globaux {#global-concepts}
       + [À lire absolument](api/using/must-read.md)
-      + [Points d&#39;entrée](api/using/endpoints.md)
+      + [Points d’entrée](api/using/endpoints.md)
       + [Mécanisme des métadonnées](api/using/metadata-mechanism.md)
       + [Verbes](api/using/verbs.md)
       + Autres opérations {#additional-operations}
@@ -419,22 +419,22 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
       + [Récupération des abonnements](api/using/retrieving-subscriptions.md)
       + [Mise en œuvre des abonnements](api/using/perform-subscriptions.md)
       + [Suppression des abonnements](api/using/deleting-subscriptions.md)
-   + [Interaction avec l&#39;historique marketing](api/using/interacting-with-marketing-history.md)
+   + [Interaction avec l’historique marketing](api/using/interacting-with-marketing-history.md)
    + Gestion de la confidentialité {#privacy-management}
-      + [Création d&#39;une demande d&#39;accès à des informations personnelles](api/using/creating-a-privacy-request.md)
-      + [Suivi d&#39;une demande d&#39;accès à des informations personnelles](api/using/monitoring-a-privacy-request.md)
+      + [Création d’une demande d’accès à des informations personnelles](api/using/creating-a-privacy-request.md)
+      + [Suivi d’une demande d’accès à des informations personnelles](api/using/monitoring-a-privacy-request.md)
       + [Récupération de fichiers de données de confidentialité](api/using/retrieving-privacy-data-files.md)
-      + [Gestion du droit d&#39;opposition au sens du CCPA](api/using/managing-ccpa-opt-out.md)
+      + [Gestion du droit d’opposition au sens du CCPA](api/using/managing-ccpa-opt-out.md)
    + [Gestion des messages transactionnels](api/using/managing-transactional-messages.md)
    + Gestion des workflows {#managing-workflows}
-      + [Contrôle d&#39;un processus](api/using/controlling-a-workflow.md)
-      + [Déclenchement d&#39;une activité de signal](api/using/triggering-a-signal-activity.md)
+      + [Contrôle d’un workflow](api/using/controlling-a-workflow.md)
+      + [Déclenchement d’une activité de signal](api/using/triggering-a-signal-activity.md)
    + Gestion des entités organisationnelles {#managing-organizational-units}
-      + [Récupération de l&#39;entité organisationnelle d&#39;un profil](api/using/retrieving-an-organizational-unit.md)
-      + [Mise à jour de l&#39;entité organisationnelle d&#39;un profil](api/using/updating-profile-organizational-unit.md)
-      + [Mise à jour des attributs d&#39;une entité organisationnelle](api/using/updating-organizational-unit-attributes.md)
+      + [Récupération de l’entité organisationnelle d’un profil](api/using/retrieving-an-organizational-unit.md)
+      + [Mise à jour de l’entité organisationnelle d’un profil](api/using/updating-profile-organizational-unit.md)
+      + [Mise à jour des attributs d’une entité organisationnelle](api/using/updating-organizational-unit-attributes.md)
    + Gestion des entités géographiques {#managing-geographical-units}
-      + [Récupération de l&#39;entité géographique d&#39;un profil](api/using/retrieving-a-geographical-unit.md)
-      + [Mise à jour de l&#39;entité géographique d&#39;un profil](api/using/updating-a-geographical-unit.md)
-      + [Mise à jour des attributs d&#39;une entité géographique](api/using/updating-geographical-unit-attributes.md)
+      + [Récupération de l’entité géographique d’un profil](api/using/retrieving-a-geographical-unit.md)
+      + [Mise à jour de l’entité géographique d’un profil](api/using/updating-a-geographical-unit.md)
+      + [Mise à jour des attributs d’une entité géographique](api/using/updating-geographical-unit-attributes.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
