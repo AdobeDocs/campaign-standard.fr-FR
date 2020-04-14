@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
+source-git-commit: b7894637d184c16221e03c909f3c356fbb6c5e79
 
 ---
 
@@ -125,11 +125,11 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
 1. Cliquez sur le **[!UICONTROL Import]** bouton. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
 
-   ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_imported.png)
 
-   >[!NOTE]
-   >
-   >Si vous importez à nouveau la même audience, avec des adresses de substitution et/ou des préfixes différents, les profils seront ajoutés à la liste en plus de ceux de l’import précédent.
+>[!NOTE]
+>
+>Si vous importez à nouveau la même audience, avec des adresses de substitution et/ou des préfixes différents, les profils seront ajoutés à la liste en plus de ceux de l’import précédent.
 
 ## Prévisualisation du message avec des profils ciblés
 
