@@ -12,7 +12,7 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ![](assets/data_loading.png)
 
-The **[!UICONTROL Load file]** activity allows you to import data in one structured form to use this data in Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
+L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les données d&#39;un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
@@ -32,11 +32,11 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
 >[!CAUTION]
 >
->Seuls les fichiers de structure &quot;aplatis&quot; sont pris en compte, tels que les fichiers .txt, .csv, etc., par exemple.
+>Seuls les fichiers à structure &quot;plate&quot; sont pris en charge, comme par exemple les fichiers .txt, .csv, etc.
 
 Vous pouvez ainsi :
 
-* Use the file structure to apply it to another file&#39;s data (recovered using the **[!UICONTROL Transfer file]** activity) or,
+* utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
 
 ## Configuration {#configuration}
@@ -47,22 +47,22 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 >
 >Les données du fichier d&#39;exemple sont utilisées pour le paramétrage de l&#39;activité mais ne sont pas importées. Il est recommandé d&#39;utiliser un fichier d&#39;exemple avec peu de données.
 
-1. Placez une activité **[!UICONTROL Load file]** dans votre workflow.
+1. Placez une activité **[!UICONTROL Chargement de fichier]** dans votre workflow.
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 1. Téléchargez le fichier d&#39;exemple qui permettra de définir la structure attendue lors de l&#39;import du fichier final.
 
    ![](assets/wkf_file_loading.png)
 
-   Once the data file is uploaded, two new tabs appear in the activity: **[!UICONTROL File structure]** and **[!UICONTROL Column definition]**.
+   Deux nouveaux onglets s&#39;affichent dans l&#39;activité après le téléchargement du fichier de données : **[!UICONTROL Structure du fichier]** et **[!UICONTROL Définition des colonnes]**.
 
-1. Go to the **[!UICONTROL File structure]** tab to view the structure that is automatically detected from the sample file.
+1. Depuis l&#39;onglet **[!UICONTROL Structure du fichier]**, visualisez la structure automatiquement détectée du fichier d&#39;exemple.
 
    Si la structure du fichier a été détectée de manière incorrecte, vous disposez de plusieurs options permettant de corriger les éventuelles erreurs :
 
-   * Vous pouvez choisir d’utiliser la structure d’un autre fichier en sélectionnant l’ **[!UICONTROL Detect structure from a new file]** option.
-   * Vous pouvez modifier les paramètres de détection par défaut afin de les adapter à votre fichier. The **[!UICONTROL File type]** field lets you specify if the file you want to import is made up of columns with fixed length. In that case, you must also specify the maximum number of characters for each column in the **[!UICONTROL Column definition]** tab.
+   * Vous pouvez choisir d&#39;utiliser la structure d&#39;un autre fichier en sélectionnant l&#39;option **[!UICONTROL Détecter la structure depuis un nouveau fichier]**.
+   * Vous pouvez modifier les paramètres de détection par défaut afin de les adapter à votre fichier. Le champ **[!UICONTROL Type de fichier]** permet d&#39;indiquer si le fichier à importer est composé de colonnes à longueur fixe. Si c&#39;est le cas, vous devez également spécifier le nombre maximal de caractères pour chaque colonne dans l&#39;onglet **[!UICONTROL Définition des colonnes]**.
 
-      All of the detection options necessary to correctly recover the data from the file are regrouped in **[!UICONTROL File format]**. Vous pouvez les modifier puis détecter à nouveau la structure du dernier fichier chargé dans l&#39;activité en prenant en compte ces nouveaux paramètres. Pour ce faire, utilisez le **[!UICONTROL Apply configuration]** bouton. Vous pouvez par exemple spécifier un séparateur de colonnes différent.
+      Dans **[!UICONTROL Format du fichier]** sont regroupées toutes les options de détection nécessaires pour récupérer correctement les données du fichier. Vous pouvez les modifier puis détecter à nouveau la structure du dernier fichier chargé dans l&#39;activité en prenant en compte ces nouveaux paramètres. Utilisez pour cela le bouton **[!UICONTROL Appliquer la configuration]**. Vous pouvez par exemple spécifier un séparateur de colonnes différent.
 
       >[!NOTE]
       >
@@ -70,15 +70,15 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
       ![](assets/wkf_file_loading3.png)
 
-      Dans la **[!UICONTROL File format]** section, l’ **[!UICONTROL Check columns from file against column definitions]** option vous permet de vérifier que les colonnes du fichier que vous téléchargez correspondent à la définition de colonne.
+      Dans la section **[!UICONTROL Format du fichier]**, l&#39;option **[!UICONTROL Vérifier les colonnes du fichier par rapport aux définitions de colonne]** vous permet de vérifier que les colonnes du fichier que vous téléchargez correspondent à la définition des colonnes.
 
       Si le nombre et/ou le nom des colonnes ne correspond pas à la définition des colonnes, un message d&#39;erreur apparaîtra lors de l&#39;exécution du workflow. Si l&#39;option n&#39;est pas activée, les avertissements figureront dans le log.
 
       ![](assets/wkf_file_loading_check.png)
 
-1. Go to the **[!UICONTROL Column definition]** tab to check the data format for each column and adjust the parameters if necessary.
+1. Depuis l&#39;onglet **[!UICONTROL Définition des colonnes]**, vérifiez le format des données de chaque colonne et ajustez les paramètres si nécessaire.
 
-   The **[!UICONTROL Column definition]** tab allows you to precisely specify the data structure of each column in order to import data that does not contain any errors (for example, using null management) and make it match the types that are already present in the Adobe Campaign database for future operations.
+   L&#39;onglet **[!UICONTROL Définition des colonnes]** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d&#39;erreur (grâce à la gestion des nulls par exemple) et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
 
    Vous pouvez par exemple modifier le libellé d&#39;une colonne, sélectionner son type (chaîne, nombre entier, date, etc.) ou encore définir le traitement des erreurs.
 
@@ -86,20 +86,20 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
    ![](assets/wkf_file_loading4.png)
 
-1. In the **[!UICONTROL Execution]** tab, specify whether the file is to be processed for loading data:
+1. Dans l&#39;onglet **[!UICONTROL Exécution]**, spécifiez si le fichier à exploiter pour le chargement des données :
 
    * provient de la transition entrante dans le workflow ;
    * est celui que vous avez téléchargé lors de l&#39;étape précédente ;
-   * est un nouveau fichier à télécharger depuis le poste local. L’ **[!UICONTROL Upload a new file from local machine]** option s’affiche si le téléchargement d’un premier fichier a déjà été défini dans le flux de travaux. Elle vous permet de télécharger un autre fichier à exploiter si le fichier actuel ne convient pas.
+   * est un nouveau fichier à télécharger depuis le poste local. L&#39;option **[!UICONTROL Transférer un nouveau fichier depuis le poste local]** s&#39;affiche si le téléchargement d&#39;un premier fichier a déjà été défini dans le workflow. Elle vous permet de télécharger un autre fichier à exploiter si le fichier actuel ne convient pas.
 
       ![](assets/wkf_file_loading1.png)
 
-1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
-1. The **[!UICONTROL Keep the rejects in a file]** option enables you to download a file containing errors that occurred during the import, and to apply to it a post-processing stage. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
+1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l&#39;option **[!UICONTROL Décompression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
+1. L&#39;option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s&#39;étant produites lors de l&#39;import et de l&#39;appliquer à une étape de post-traitement. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
 
    >[!NOTE]
    >
-   >L’ **[!UICONTROL Add date and time to the file name]** option vous permet d’ajouter un horodatage au nom du fichier contenant les rejets.
+   >L&#39;option **[!UICONTROL Ajoutez la date et l&#39;heure au nom du fichier]** permet d&#39;ajouter un horodatage au nom du fichier contenant les rejets.
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
@@ -107,11 +107,11 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/executing-a-workflow.md#monitoring)..
 
-## Format des colonnes  {#column-format}
+## Format des colonnes   {#column-format}
 
 Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
 
-To do this, select **[!UICONTROL Edit properties]** from the quick actions of the column whose format you would like to define. La fenêtre de détail du format de la colonne s&#39;ouvre.
+Pour cela, sélectionnez **[!UICONTROL Editer les propriétés]** dans les actions rapides de la colonne dont vous souhaitez définir le format. La fenêtre de détail du format de la colonne s&#39;ouvre.
 
 ![](assets/wkf_file_loading4.png)
 
@@ -119,38 +119,38 @@ Vous pouvez alors modifier le formatage de chaque colonne.
 
 Le formatage des colonnes permet de définir le traitement des valeurs de chaque colonne :
 
-* **[!UICONTROL Ignore column]**: ne traite pas cette colonne pendant le chargement des données.
-* **[!UICONTROL Data type]**: spécifie le type de données attendu pour chaque colonne.
-* **[!UICONTROL Format and separators]**, **Propriétés**: spécifiez les propriétés d’un texte, l’heure, la date et le format de valeur numérique, ainsi que le séparateur spécifié par le contexte de colonne.
+* **[!UICONTROL Ignorer la colonne]** : permet de ne pas traiter cette colonne lors du chargement des données.
+* **[!UICONTROL Type de données]** : permet de spécifier le type de données attendu dans la colonne.
+* **[!UICONTROL Format et séparateurs]**, **Propriétés** : permettent de définir les propriétés d&#39;un texte, le format des heures, des dates et des valeurs numériques ainsi que le séparateur spécifié par le contexte de la colonne.
 
-   * **[!UICONTROL Maximum number of characters]**: spécifie le nombre maximal de caractères pour les colonnes de type chaîne.
+   * **[!UICONTROL Nombre de caractères maximum]** : permet de spécifier le nombre maximum de caractères pour les colonnes de type chaîne.
 
       Ce champ doit être renseigné lors du chargement des fichiers composés de colonnes à longueur fixe.
 
-   * **[!UICONTROL Letter case management]**: définit si un processus de casse des caractères doit être appliqué pour les données **de texte** .
-   * **[!UICONTROL White space management]**: indique si certains espaces doivent être ignorés dans une chaîne pour les données **textuelles** .
-   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: spécifiez le format des données **Date**, **Heure** et **Date et Heure** .
+   * **[!UICONTROL Gestion de la casse]** : permet de définir si un traitement au niveau de la casse doit être appliqué pour les données de type **Texte**.
+   * **[!UICONTROL Gestion des espaces]** : permet d&#39;indiquer si certains espaces doivent être ignorés dans une chaîne pour les données de type **Texte**.
+   * **[!UICONTROL Format des heures]**, **[!UICONTROL Format des dates]** : permettent de définir le format des heures ou des dates pour les données de type **Date**, **Heure**, **Date et Heure**.
    * **[!UICONTROL Format]** : permet de définir le format des valeurs numériques pour les données de type **Nombre entier** et **Nombre flottant**.
-   * **[!UICONTROL Separator]**: définit le séparateur spécifié par le contexte de colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et l’heure) pour les données **Date**, **Heure**, **Date et heure**, **Entier et Nombre flottant.******
+   * **[!UICONTROL Séparateur]** : permet de définir le séparateur spécifié par le contexte de la colonne (séparateur de milliers ou séparateur décimal pour les valeurs numériques, séparateur pour les dates et les heures) pour les données de type **Date**, **Heure**, **Date et Heure**, **Nombre entier** et **Nombre flottant**.
 
-* **[!UICONTROL Remapping of values]**: ce champ n’est disponible que dans la configuration des détails de colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer &quot;trois&quot; en &quot;3&quot;.
-* **[!UICONTROL Error processing]**: définit le comportement en cas d’erreur.
+* **[!UICONTROL Recodification des valeurs]** : ce champ est disponible uniquement dans le paramétrage du détail d&#39;une colonne. Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer &quot;trois&quot; en &quot;3&quot;.
+* **[!UICONTROL Traitement des erreurs]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignore the value]**: la valeur est ignorée. Un avertissement est généré dans le journal d&#39;exécution du workflow.
-   * **[!UICONTROL Reject the line]**: la ligne entière n’est pas traitée.
-   * **[!UICONTROL Use a default value]**: remplace la valeur à l’origine de l’erreur par une valeur par défaut, définie dans le **[!UICONTROL Default value]** champ.
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: remplace la valeur à l’origine de l’erreur par une valeur par défaut, définie dans le **[!UICONTROL Default value]** champ, sauf si un mappage a été défini pour la valeur erronée (voir l’ **[!UICONTROL Remapping of values]** option ci-dessus).
-   * **[!UICONTROL Reject the line when there is no remapping value]**: la ligne entière n’est pas traitée, sauf si un mappage a été défini pour la valeur erronée (voir l’ **[!UICONTROL Remapping of values]** option ci-dessus).
+   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le journal d&#39;exécution du workflow.
+   * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
+   * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
+   * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;absence de recodification]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
+   * **[!UICONTROL Rejeter la ligne en cas d&#39;absence de recodification]** : la ligne entière n&#39;est pas traitée sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
    >[!NOTE]
    >
-   >**[!UICONTROL Error processing]** concerne les erreurs relatives aux valeurs dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
+   >**[!UICONTROL Le Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
 
-* **[!UICONTROL Default value]**: spécifie la valeur par défaut en fonction du traitement de l’erreur choisi.
-* **[!UICONTROL Empty value management]**: indique comment gérer les valeurs vides pendant le chargement des données.
+* **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
+* **[!UICONTROL Gestion des valeurs vides]** : permet d&#39;indiquer comment gérer les valeurs vides rencontrées lors du chargement des données.
 
-   * **[!UICONTROL Generate an error for numerical fields]**: génère une erreur pour les champs numériques uniquement, sinon insère une valeur NULL.
-   * **[!UICONTROL Insert NULL in the corresponding field]**: autorise les valeurs vides. La valeur NULL est alors insérée.
-   * **[!UICONTROL Generate an error]**: génère une erreur si une valeur est vide.
+   * **[!UICONTROL Générer une erreur pour les champs numériques]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
+   * **[!UICONTROL Insérer NULL dans le champ correspondant]** : autorise les valeurs vides. La valeur NULL est alors insérée.
+   * **[!UICONTROL Générer une erreur]** : génère une erreur en cas de valeur vide.
 
 ## Exemple 1 : mise à jour de la base de données {#example-1-update-the-database}
 
@@ -160,15 +160,15 @@ L&#39;exemple suivant montre le résultat d&#39;une activité de chargement d&#3
 
 ![](assets/load_file_workflow_ex1.png)
 
-1. Drag and drop a **[!UICONTROL Transfer file]** activity into your workflow and configure it in a way so that it recovers the file you would like.
-1. Drag and drop a **[!UICONTROL Load file]** activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
+1. Placez une activité **[!UICONTROL Transfert de fichier]** dans votre workflow et paramétrez-la de façon à récupérer le fichier de votre choix.
+1. Placez une activité **[!UICONTROL Chargement de fichier]** et connectez-la à la suite de l&#39;activité **[!UICONTROL Transfert de fichier]**.
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
-1. Dans la **[!UICONTROL File to load]** section de l’ **[!UICONTROL Execution]** onglet, cochez l’ **[!UICONTROL Use the file specified in the inbound transition]** option.
+1. Dans la section **[!UICONTROL Fichier à charger]** de l&#39;onglet **[!UICONTROL Exécution]**, cochez la case **[!UICONTROL Utiliser le fichier provenant de la transition entrante]**.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Paramétrez l&#39;activité comme indiqué ci-dessus.
-1. Drag and drop an **[!UICONTROL Update data]** activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it. Voir [Mise à jour de données](../../automating/using/update-data.md).
+1. Placez une activité **[!UICONTROL Mise à jour de données]**, connectez-la à la suite de l&#39;activité **[!UICONTROL Chargement de fichier]** et paramétrez-la. Voir [Mise à jour de données](../../automating/using/update-data.md).
 
 Une fois le workflow lancé, le fichier voulu est téléchargé, les données sont extraites, puis elles sont utilisées pour enrichir la base Adobe Campaign.
 
@@ -182,21 +182,21 @@ L&#39;exemple ci-dessous montre comment envoyer un email enrichi avec des donné
 
 ![](assets/load_file_workflow_ex2.png)
 
-1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it to define the main target.
+1. Placez une activité **[!UICONTROL Requête]** dans votre workflow et ouvrez-la pour définir la cible principale.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a **[!UICONTROL Load file]** activity to assign some data to a profile. Dans cet exemple, chargez un fichier contenant les numéros de compte correspondant à certains profils de la base de données.
+1. Placez une activité **[!UICONTROL Chargement de fichier]** pour affecter des données à un profil. Dans cet exemple, chargez un fichier contenant les numéros de compte correspondant à certains profils de la base de données.
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow and link the load file and query activities to it.
+1. Placez une activité **[!UICONTROL Enrichissement]** dans votre workflow et liez les activités Chargement de fichier et Requête à cette activité.
 
-1. Dans l’ **[!UICONTROL Advanced relations]** onglet du    de, sélectionnez le **[!UICONTROL 0 or 1 cardinality simple link]** et définissez les champs à utiliser pour le rapprochement. Nous utilisons ici le nom de famille pour réconcilier les données avec les profils de base de données.
+1. Dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité Enrichissement, sélectionnez le **[!UICONTROL Lien simple de cardinalité 0 ou 1]** et définissez les champs à utiliser pour la réconciliation. Nous utilisons ici le nom de famille pour réconcilier les données avec les profils de base de données.
 
    ![](assets/load_file_enrichment_relation.png)
 
-1. In the **[!UICONTROL Additional data]** tab, select the elements that you want to use in your email. Sélectionnez ici le numéro de compte (colonne du fichier que vous avez récupéré via l&#39;activité Chargement de fichier).
+1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, sélectionnez les éléments à utiliser dans votre email. Sélectionnez ici le numéro de compte (colonne du fichier que vous avez récupéré via l&#39;activité Chargement de fichier).
 
    ![](assets/load_file_enrichment_select_element.png)
 
@@ -210,11 +210,11 @@ L&#39;exemple ci-dessous montre comment envoyer un email enrichi avec des donné
 
    Pour en savoir plus à ce sujet, reportez-vous à la section [Segmentation](../../automating/using/segmentation.md).
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow and open it.
+1. Placez une activité **[!UICONTROL Diffusion Email]** dans votre workflow, puis ouvrez-la.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. Add a personalization field and select the additional data defined in the enrichment activity (here Account number) from the **[!UICONTROL Additional data (targetData)]** node. Vous pouvez ainsi récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l&#39;email.
+1. Ajoutez un champ de personnalisation et sélectionnez les données additionnelles définies dans l&#39;activité Enrichissement (ici, le numéro de compte) du nœud **[!UICONTROL Données additionnelles (targetData)]**. Vous pouvez ainsi récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l&#39;email.
 
    ![](assets/load_file_perso_field.png)
 
