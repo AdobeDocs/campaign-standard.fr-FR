@@ -1,6 +1,6 @@
 ---
-title: Test des messages électroniques à l’aide de  ciblées
-description: Découvrez comment tester les messages à l’aide d’ ciblées et d’adresses de substitution.
+title: Test des emails à l’aide des profils ciblés
+description: Découvrez comment tester les emails à l’aide de profils ciblés et d’adresses de substitution.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -13,101 +13,101 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
 
-# Test des messages électroniques à l’aide de  ciblées {#testing-message-profiles}
+# Test des emails à l’aide des profils ciblés {#testing-message-profiles}
 
 ## Présentation {#overview}
 
-De plus, pour [tester les](../../audiences/using/managing-test-profiles.md), vous pouvez tester un message électronique en vous plaçant à la position de l’un des  ciblés. Cela vous permet d&#39;obtenir une représentation exacte du message que le recevra (champs personnalisés, informations dynamiques et personnalisées, y compris des données supplémentaires de la ...).
+En plus des [profils de test](../../audiences/using/managing-test-profiles.md), vous pouvez tester un email en vous mettant à la place de l’un des profils ciblés. Cela vous permet d’obtenir une représentation réaliste du message que le profil recevra (champs personnalisés, informations dynamiques et personnalisées, y compris les données additionnelles provenant des workflows...).
 
 >[!NOTE]
 >
-> Cette fonctionnalité est disponible avec les messages électroniques uniquement.
+> Cette fonctionnalité est disponible avec les emails uniquement.
 
-Les étapes principales sont les suivantes :
+Les étapes principales sont les suivantes :
 
-1. Configurez votre message, puis lancez la phase de **préparation** .
-1. **Sélectionnez un ou plusieurs** parmi les de ciblés par le message.
-1. Associez à chaque une adresse **de** substitution à laquelle les seront envoyés.
-1. (Facultatif) Pour chaque  de, définissez un **préfixe** à ajouter à la ligne d’objet du.
-1. **** dans le concepteur de courrier électronique de la manière dont le message s’affichera pour l’ du.
-1. Envoyez les.
+1. Configurez votre message, puis lancez la phase de **préparation**.
+1. **Sélectionnez un ou plusieurs profils** parmi les profils ciblés par l’email.
+1. Associez à chaque profil une **adresse de substitution** à laquelle les bons à tirer seront envoyés.
+1. (Facultatif) Pour chaque profil, définissez un **préfixe** à ajouter à l’objet du bon à tirer.
+1. **Prévisualisez** dans le Concepteur d’email la manière dont l’email s’affichera pour les profils.
+1. Envoyez les bons à tirer.
 
-Pour plus d&#39;informations sur le processus global, reportez-vous au didacticiel vidéo disponible [ici](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
+Pour plus d’informations sur le processus global, reportez-vous à la vidéo du tutoriel disponible [ici](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
->Cette fonctionnalité vous permet d&#39;envoyer  informations personnelles aux adresses électroniques externes. Gardez à l’esprit que l’exécution des demandes de confidentialité (RDPC et ACCP) dans Campaign Standard NE L’EXÉCUTERA PAS à l’externe.
+>Cette fonctionnalité vous permet d’envoyer des informations personnelles de profil à des adresses email externes. Gardez à l’esprit que l’exécution des demandes d’accès à des informations personnelles (RGPD et CCPA) dans Campaign Standard NE S’EXÉCUTERA PAS en externe.
 
-## Sélection des  de et des adresses de substitution {#selecting-profiles}
+## Sélection des profils et des adresses de substitution {#selecting-profiles}
 
-Pour utiliser des  ciblées à des fins de test, vous devez d’abord les sélectionner, puis définir les adresses de substitution qui recevront les. Pour ce faire, vous pouvez [sélectionner des](#selecting-individual-profiles) de spécifiques parmi les  de ciblées ou [importer des](#importing-from-audience)à partir d’unexistant.
+Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les sélectionner, puis définir les adresses de substitution qui recevront les bons à tirer. Pour ce faire, vous pouvez [sélectionner des profils spécifiques](#selecting-individual-profiles) parmi les profils ciblés ou [importer des profils à partir d’une audience existante](#importing-from-audience).
 
 >[!NOTE]
 >
->Vous pouvez sélectionner un maximum de 100  pour les tests.
+>Vous pouvez sélectionner un maximum de 100 profils pour les tests.
 
-### Sélection d’un individuel {#selecting-individual-profiles}
+### Sélection de profils individuels {#selecting-individual-profiles}
 
-1. Dans le de messages, vérifiez que la préparation du message est réussie, puis cliquez sur le **[!UICONTROL Audience]** bloc.
+1. Dans le tableau de bord des messages, vérifiez que la préparation du message est réussie, puis cliquez sur le bloc **[!UICONTROL Audience]**.
 
    ![](assets/substitution_preparation.png)
 
-1. Dans l’ **[!UICONTROL Profile substitutions]** onglet, cliquez sur le **[!UICONTROL Create element]** bouton pour sélectionner le à utiliser pour les tests.
+1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
 
    ![](assets/substitution_tab.png)
 
-1. Cliquez sur le bouton de sélection du  pour afficher le de l’ del’ ciblée par le message.
+1. Cliquez sur le bouton de sélection du profil pour afficher la liste des profils ciblés par le message.
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Sélectionnez le à utiliser pour le test, puis entrez dans le **[!UICONTROL Address]** champ l’adresse de substitution souhaitée, puis cliquez sur **[!UICONTROL Confirm]**. Tous les ciblant le  seront envoyés à cette adresse électronique, plutôt qu’à celle définie dans la base de données pour ce .
+1. Select the profile to use for testing, then enter in the **[!UICONTROL Address]** field the desired substitution address, then click **[!UICONTROL Confirm]**. Tous les bons à tirer ciblant le profil seront envoyés à cette adresse email, plutôt qu’à celle définie dans la base de données pour ce profil.
 
-   Si vous souhaitez ajouter un préfixe spécifique à la ligne d’objet du , renseignez le **[!UICONTROL Subject line prefix]** champ.
+   If you want to add a specific prefix to the proofs&#39; subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
    ![](assets/substitution_address.png)
 
-   Le préfixe s’affiche comme suit :
+   Le préfixe s’affiche comme suit :
 
    ![](assets/substitution_prefixsample.png)
 
-1. Le  est ajouté au  de, avec son adresse de substitution et son préfixe associés. Répétez les étapes ci-dessus pour tous les  que vous souhaitez utiliser pour les tests, puis cliquez sur **[!UICONTROL Confirm]**.
+1. Le profil est ajouté à la liste, avec son adresse de substitution et son préfixe associés. Repeat the above steps for all the profiles that you want to use for testing, then click **[!UICONTROL Confirm]**.
 
    ![](assets/substitution_recipients_confirm.png)
 
-   Si vous souhaitez envoyer un à plusieurs adresses de substitution pour une même  de, vous devez ajouter ce  autant de fois que nécessaire.
+   Si vous souhaitez envoyer un bon à tirer à plusieurs adresses de substitution pour un même profil, vous devez ajouter ce profil autant de fois que nécessaire.
 
-   Dans l’exemple ci-dessous, le basé sur le John Smith sera envoyé à deux adresses de substitution différentes :
+   Dans l’exemple ci-dessous, le bon à tirer reposant sur le profil John Smith sera envoyé à deux adresses de substitution différentes :
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. Une fois que toutes les adresses de et de substitution sont définies, vous pouvez envoyer un pour tester le message. Pour ce faire, cliquez sur le **[!UICONTROL Test]** bouton, puis sélectionnez le type de test à effectuer.
+1. Une fois que tous les profils et adresses de substitution sont définis, vous pouvez envoyer un bon à tirer pour tester le message. Pour ce faire, cliquez sur le bouton **[!UICONTROL Test]** , puis sélectionnez le type de test à exécuter.
 
-   Notez que si aucun de test n’a été ajouté au du message, les options **[!UICONTROL Email rendering]** et **[!UICONTROL Proof + Email rendering]** ne sont pas disponibles.  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
+   Note that if no test profile has been added to the message target, the **[!UICONTROL Email rendering]** and **[!UICONTROL Proof + Email rendering]** options are not available.  Pour plus d’informations sur l’envoi des bons à tirer, consultez [cette section](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
 >[!IMPORTANT]
 >
->Si vous apportez des modifications à votre message, veillez à relancer la préparation du message. Sinon, les modifications ne seront pas répercutées dans le.
+>Si vous apportez des modifications à votre message, veillez à relancer la préparation du message. Sinon, les modifications ne seront pas répercutées dans le profil.
 
-### Importation de  à partir d’un  de {#importing-from-audience}
+### Import de profils à partir d’une audience {#importing-from-audience}
 
-Campaign Standard vous permet d’importer un  dedeque vous pouvez utiliser pour les tests. Cela vous permet, par exemple, d’envoyer à une adresse de courriel unique un ensemble entier de messages ciblant différents  de.
+Campaign Standard vous permet d’importer une audience de profils que vous pouvez utiliser pour les tests. Vous pouvez par exemple envoyer à une adresse email unique un ensemble de messages ciblant différents profils.
 
-De plus, si votre   est déjà configuré avec les colonnes d&#39;adresse et de préfixe, vous pourrez importer ces informations dans l&#39; **[!UICONTROL Profile substitutions]** onglet. Vous trouverez un exemple d’importation de   avec des adresses de substitution dans [cette section](#use-case).
+Moreover, if your audience is already configured with the address and prefix columns, you will be able to import these information in the **[!UICONTROL Profile substitutions]** tab. Vous trouverez un exemple d’import d’audience avec des adresses de substitution dans [cette section](#use-case).
 
 >[!NOTE]
 >
->Lors de l’importation d’un  , seuls les correspondant au **[!UICONTROL Profile substitutions]** de messages sont sélectionnés et ajoutés à l’onglet.
+>When importing an audience, only the profiles corresponding to the message target are selected and added to the **[!UICONTROL Profile substitutions]** tab.
 
-Pour importer des  à utiliser pour les tests à partir d’un  de, procédez comme suit :
+Pour importer des profils à utiliser pour les tests à partir d’une audience, procédez comme suit :
 
-1. Dans le de messages, vérifiez que la préparation du message a réussi, puis cliquez sur le **[!UICONTROL Audience]** bloc.
+1. Dans le tableau de bord des messages, vérifiez que la préparation du message est réussie, puis cliquez sur le bloc **[!UICONTROL Audience]**.
 
    ![](assets/substitution_preparation.png)
 
@@ -115,35 +115,35 @@ Pour importer des  à utiliser pour les tests à partir d’un  de, procédez co
 
    ![](assets/substitution_audience_import.png)
 
-1. Sélectionnez le   à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les envoyés aude .
+1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les bons à tirer envoyés à l’audience.
 
    ![](assets/substitution_audience_define.png)
 
-   Si les adresses de substitution et/ou les préfixes à utiliser ont déjà été définis dans votre  , sélectionnez l’ **[!UICONTROL From Audience]** option, puis spécifiez la colonne à utiliser pour récupérer ces informations.
+   If the substitution addresses and/or prefixes to use have already been defined in your audience, select the **[!UICONTROL From Audience]** option, then specify the column to use to retrieve these information.
 
    ![](assets/substitution_fromaudience.png)
 
-1. Cliquez sur le **[!UICONTROL Import]** bouton. Les  de l’  de l’correspondant au **[!UICONTROL Profile substitution]** message sont ajoutés à l’onglet, ainsi que les adresses et préfixes de substitution associés.
+1. Cliquez sur le **[!UICONTROL Import]** bouton. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
+
+   ![](assets/substitution_audience_added.png)
+
+   >[!NOTE]
+   >
+   >Si vous importez à nouveau la même audience, avec des adresses de substitution et/ou des préfixes différents, les profils seront ajoutés à la liste en plus de ceux de l’import précédent.
+
+## Prévisualisation du message avec des profils ciblés
 
 >[!NOTE]
 >
->Si vous importez à nouveau le même  , avec des adresses et/ou des préfixes de substitution différents, le  sera ajouté aumême en plus de ceux de l’importation précédente.
+>La prévisualisation est disponible avec le Concepteur d’email uniquement.
 
-![](assets/substitution_audience_added.png)
+To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)).
 
-## Prévisualisation du message avec un ciblé
+Si vous souhaitez utiliser des champs de personnalisation dans le message, vous devez les ajouter **avant** de lancer la préparation du message. Sinon, ils ne seront pas pris en compte dans la prévisualisation. Par conséquent, veillez à relancer la préparation du message si une modification est apportée aux champs de personnalisation.
 
->[!NOTE]
->
->La  de est disponible avec le concepteur de courrier électronique uniquement.
+Pour prévisualiser les messages à l’aide de la substitution de profils, procédez comme suit :
 
-Pour pouvoir des messages à l’aide de  de ciblées, veillez à ajouter ces **[!UICONTROL Profile substitution]** au [](#selecting-profiles)(voirDéfinition des et des adressesde substitution).
-
-Si vous souhaitez utiliser des  de dans le message, vous devez les ajouter **avant** de lancer la préparation du message. Sinon, elles ne seront pas prises en compte dans le . Par conséquent, assurez-vous de relancer la préparation du message si une modification est apportée au  du.
-
-Pour de messages à l’aide de la substitution de  de, procédez comme suit :
-
-1. Dans le de messages, cliquez sur l’instantané de contenu pour ouvrir le message dans le concepteur de courrier électronique.
+1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le Concepteur d’email.
 
    ![](assets/substitution_preview_access.png)
 
@@ -151,60 +151,60 @@ Pour de messages à l’aide de la substitution de  de, procédez comme suit :
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Cliquez sur l’ **[!UICONTROL Profile Substitution]** onglet pour afficher les  de substitution qui ont été ajoutées à des fins de test.
+1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added for testing.
 
-   Sélectionnez le  à utiliser pour les  de, puis cliquez sur **[!UICONTROL Select]**.
+   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
 
    ![](assets/substitution_preview_selection.png)
 
-1. Un  du message s’affiche. Utilisez les flèches pour naviguer entre les  sélectionnés.
+1. Une prévisualisation du message s’affiche. Utilisez les flèches pour naviguer entre les profils sélectionnés.
 
    ![](assets/substitution_preview.png)
 
-## Utilisation :{#use-case}
+## Cas pratique {#use-case}
 
-Dans ce cas d’utilisation, nous souhaitons envoyer à un ensemble de spécifiques  un bulletin d’information personnalisé. Avant d’envoyer le bulletin d’information, nous voulons le  à l’aide de certains des  de ciblés, et envoyer des aux adresses électroniques internes définies dans un fichier externe.
+Dans ce cas pratique, nous souhaitons envoyer à un ensemble de profils spécifiques une newsletter électronique personnalisée. Avant d’envoyer la newsletter, nous voulons la prévisualiser à l’aide de certains des profils ciblés, et envoyer des bons à tirer aux adresses email internes définies dans un fichier externe.
 
-Les étapes principales de ce cas d’utilisation sont les suivantes :
+Les principales étapes pour ce cas pratique sont les suivantes :
 
-1. Créez le   à utiliser pour les tests.
-1. Créez un flux de travail pour  l&#39; et envoyez la newsletter.
-1. Configurez les  de substitution du message.
-1. du message à l’aide d’un ciblé .
-1. Envoyez des bons à tirer.
+1. Créer l’audience à utiliser pour les tests
+1. Construire un workflow pour cibler les profils et envoyer la newsletter
+1. Configurer les substitutions de profil du message
+1. Prévisualiser le message à l’aide des profils ciblés
+1. Envoyer des bons à tirer
 
-### Étape 1 : Créer le   à utiliser pour les tests
+### Étape 1 : créer l’audience à utiliser pour les tests
 
-1. Préparez le fichier à importer pour créer le  de . Dans notre cas, il doit contenir l&#39;adresse de substitution à utiliser pour le, et un préfixe à ajouter à la ligne d&#39;objet .
+1. Préparez le fichier à importer pour créer l’audience. Dans notre cas, il doit contenir l’adresse de substitution à utiliser pour le bon à tirer, et un préfixe à ajouter à l’objet du bon à tirer.
 
-   Dans cet exemple, l’adresse électronique &quot;oliver.vaughan@internal.com&quot; recevra un du message ciblant le avec l’adresse électronique &quot;john.doe@mail.com&quot;. Le préfixe &quot;JD&quot; sera ajouté à la ligne d’objet  du.
+   Dans cet exemple, l’adresse email « oliver.vaughan@internal.com » recevra un bon à tirer du message ciblant le profil avec l’adresse email « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
 
    ![](assets/substitution_uc1.png)
 
-1. Créez le flux de travail pour créer un   à partir du fichier. Pour ce faire, ajoutez et configurez le   ci-dessous :
+1. Construisez le workflow pour créer une audience à partir du fichier. Pour ce faire, ajoutez et configurez les activités suivantes :
 
    * **[!UICONTROL Load file]**   : Importe le fichier CSV (pour plus d’informations sur ce  , reportez-vous à [cette section](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]**   : Associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l&#39;adresse de courriel  du comme champ de rapprochement (pour plus d&#39;informations sur ce  de, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
+   * **[!UICONTROL Reconciliation]**   : Associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l’adresse email du profil comme champ de réconciliation (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]**   : Crée un   basé sur le fichier importé (pour plus d’informations sur ce  de, reportez-vous à [cette section](../../automating/using/save-audience.md)).
    ![](assets/substitution_uc2.png)
 
-1. Exécutez le flux de travail, puis accédez à l’ **[!UICONTROL Audiences]** onglet pour vérifier que le  de  a été créé avec les informations souhaitées.
+1. Exécutez le workflow, puis accédez à l’onglet **[!UICONTROL Audiences]** pour vérifier que l’audience a été créée avec les informations souhaitées.
 
-   Dans cet exemple, le   est composé de trois. Chacun d’eux est lié à une adresse de courriel de substitution qui recevra le, avec un préfixe à utiliser dans la ligne d’objet  du.
+   Dans cet exemple, l’audience est composée de trois profils. Chacun d’eux est lié à une adresse email de substitution qui recevra le bon à tirer, avec un préfixe à utiliser dans l’objet du bon à tirer.
 
    ![](assets/substitution_uc3.png)
 
-### Étape 2 : Créez un flux de travail pour  l&#39; et envoyez le bulletin d&#39;information
+### Étape 2 : construire un workflow pour cibler les profils et envoyer la newsletter
 
-1. Ajouter **[!UICONTROL Query]** et **[!UICONTROL Email delivery]** , puis configurez-les selon vos besoins (voir les sections [](../../automating/using/query.md)[](../../automating/using/email-delivery.md) etE-mail).
+1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them according to your needs (see [Query](../../automating/using/query.md) and [Email delivery](../../automating/using/email-delivery.md) sections).
 
    ![](assets/substitution_uc4.png)
 
-1. Exécutez le flux de travail et assurez-vous que la préparation du message est réussie.
+1. Exécutez le workflow et veillez à ce que la préparation du message soit réussie.
 
-### Étape 3 : Configuration de l’onglet de substitution des  du message
+### Étape 3 : configurer l’onglet Substitution de profil du message
 
-1. Open the **[!UICONTROL Email delivery]** activity. Dans le  du message, cliquez sur le **[!UICONTROL Audience]** bloc.
+1. Open the **[!UICONTROL Email delivery]** activity. Dans le tableau de bord des messages, cliquez sur le bloc **[!UICONTROL Audience]**.
 
    ![](assets/substitution_uc5.png)
 
@@ -212,27 +212,27 @@ Les étapes principales de ce cas d’utilisation sont les suivantes :
 
    ![](assets/substitution_uc6.png)
 
-1. Dans le **[!UICONTROL Audience]** champ, sélectionnez le   créé à partir du fichier.
+1. Dans le champ **[!UICONTROL Audience]**, sélectionnez l’audience créée à partir du fichier.
 
    ![](assets/substitution_uc7.png)
 
-1. Définissez l’adresse de substitution et le préfixe de ligne d’objet à utiliser lors de l’envoi des.
+1. Définissez l’adresse de substitution et le préfixe de l’objet à utiliser lors de l’envoi des bons à tirer.
 
-   Pour ce faire, sélectionnez l’ **[!UICONTROL From audience]** option, puis sélectionnez la colonne du   qui contient les informations.
+   To do this, select the **[!UICONTROL From audience]** option, then select the column from the audience that contains the information.
 
    ![](assets/substitution_uc8.png)
 
-1. Cliquez sur le **[!UICONTROL Import]** bouton. Les  de l’ de l’sont ajoutés au, avec leurs adresses de substitution associées et leurs préfixes de ligne d’objet.
+1. Cliquez sur le **[!UICONTROL Import]** bouton. Les profils de l’audience sont ajoutés à la liste, avec leurs adresses de substitution et leurs préfixes d’objet associés.
 
    ![](assets/substitution_uc9.png)
 
    >[!NOTE]
    >
-   >Dans notre cas, tous les  de la  sont visés par le **[!UICONTROL Query]** . Si l&#39;un de ces ne faisait pas partie de l&#39;de message, il ne serait pas ajouté à l&#39; de l&#39;.
+   >In our case, all profiles from the audience are targeted by the **[!UICONTROL Query]** activity. Si l’un de ces profils ne faisait pas partie de la cible du message, il ne serait pas ajouté à la liste.
 
-### Étape 4 :  le message à l’aide d’un ciblé 
+### Étape 4 : prévisualiser le message à l’aide des profils ciblés
 
-1. Dans le de messages, cliquez sur l’instantané de contenu pour ouvrir le message dans le concepteur de courrier électronique.
+1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le Concepteur d’email.
 
    ![](assets/substitution_uc10.png)
 
@@ -240,22 +240,22 @@ Les étapes principales de ce cas d’utilisation sont les suivantes :
 
    ![](assets/substitution_uc_preview.png)
 
-1. Cliquez sur l’ **[!UICONTROL Profile Substitution]** onglet pour afficher les  de substitution qui ont été ajoutées précédemment.
+1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added previously.
 
-   Sélectionnez le  à utiliser pour les  de, puis cliquez sur **[!UICONTROL Select]**.
+   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
 
    ![](assets/substitution_uc_selectpreview.png)
 
-1. Un  du message s’affiche. Utilisez les flèches pour naviguer entre les  sélectionnés.
+1. Une prévisualisation du message s’affiche. Utilisez les flèches pour naviguer entre les profils sélectionnés.
 
    ![](assets/substitution_uc_previewprofile.png)
 
-### Étape 5 : Envoyer des
+### Étape 5 : envoyer des bons à tirer
 
-1. Dans le  du message, cliquez sur le **[!UICONTROL Test]** bouton, puis confirmez.
+1. Dans le tableau de bord des messages, cliquez sur le bouton **[!UICONTROL Test]**, puis confirmez.
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. Les sont envoyés selon ce qui a été configuré dans l’ **[!UICONTROL Profile substitutions]** onglet.
+1. The proofs are sent according to what has been configured in the **[!UICONTROL Profile substitutions]** tab.
 
    ![](assets/substitution_uc_proofs.png)
