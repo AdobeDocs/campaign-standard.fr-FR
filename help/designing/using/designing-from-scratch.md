@@ -11,43 +11,43 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
 
-# Conception d'emails à partir de zéro {#designing-an-email-content-from-scratch}
+# Conception d&#39;emails à partir de zéro {#designing-an-email-content-from-scratch}
 
-Découvrez comment maîtriser l'édition de contenu d'email. Avec le Concepteur d'email, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
+Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Concepteur d&#39;email, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
 
 ## Etapes clés de création de votre email {#key-steps-to-create-your-email}
 
-Voici les principales étapes pour créer entièrement un contenu d'email à l'aide du Concepteur d'email :
+Voici les principales étapes pour créer entièrement un contenu d&#39;email à l&#39;aide du Concepteur d&#39;email :
 
 1. Créez un email et ouvrez son contenu.
-1. Ajoutez des composants de structure pour former l'email. Voir [Editer la structure de l'email](#defining-the-email-structure).
+1. Ajoutez des composants de structure pour former l&#39;email. Voir [Editer la structure de l&#39;email](#defining-the-email-structure).
 1. Insérez des composants de contenu et des fragments dans les composants de structure. Voir [Ajouter des fragments et des composants de contenu](#defining-the-email-structure).
-1. Ajoutez des images et éditez le texte de l'email. Voir [Insérer des images](../../designing/using/images.md#inserting-images).
-1. Personnalisez votre email en ajoutant des champs de personnalisation, des liens, etc. Voir [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. Définissez l'objet de l'email. Voir [Personnaliser l'objet d'un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Prévisualisez l'email.
-1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l'envoi.
+1. Ajoutez des images et éditez le texte de l&#39;email. Voir [Insérer des images](../../designing/using/images.md#inserting-images).
+1. Personnalisez votre email en ajoutant des champs de personnalisation, des liens, etc. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. Définissez l&#39;objet de l&#39;email. Voir [Personnaliser l&#39;objet d&#39;un email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Prévisualisez l&#39;email.
+1. Enregistrez votre contenu et traitez votre message après avoir vérifié que vous avez défini une audience et correctement planifié l&#39;envoi.
 
 Vous pouvez également regarder cette [vidéo de présentation](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr).
 
 >[!NOTE]
 >
->Pour éviter de créer entièrement un contenu d'email, vous pouvez utiliser des modèles de contenu d'usine. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+>Pour éviter de créer entièrement un contenu d&#39;email, vous pouvez utiliser des modèles de contenu d&#39;usine. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
-### Définition de la structure d'un email {#defining-the-email-structure}
+### Définition de la structure d&#39;un email {#defining-the-email-structure}
 
-Le Concepteur d'email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l'aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
+Le Concepteur d&#39;email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l&#39;aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
-Pour éditer la structure d'un email :
+Pour éditer la structure d&#39;un email :
 
-1. Ouvrez un contenu existant ou créez un contenu d'email.
-1. Accédez aux **[!UICONTROL Composants de structure]** en sélectionnant l'icône **+** de gauche.
+1. Ouvrez un contenu existant ou créez un contenu d&#39;email.
+1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
 
    ![](assets/email_designer_structure.png)
 
@@ -55,47 +55,47 @@ Pour éditer la structure d'un email :
 
    ![](assets/email_designer_structure_components.png)
 
-   Une ligne bleue matérialise la position exacte des composants de structure avant de les déposer. Vous pouvez placer vos composants au-dessus, entre ou sous n'importe quel composant, mais pas à l'intérieur.
+   Une ligne bleue matérialise la position exacte des composants de structure avant de les déposer. Vous pouvez placer vos composants au-dessus, entre ou sous n&#39;importe quel composant, mais pas à l&#39;intérieur.
 
    >[!NOTE]
    >
-   >Une fois qu'ils ont été placés dans l'email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu'un composant de contenu ou un fragment ne soit déjà placé à l'intérieur.
+   >Une fois qu&#39;ils ont été placés dans l&#39;email, vous ne pouvez pas déplacer ni supprimer vos composants, à moins qu&#39;un composant de contenu ou un fragment ne soit déjà placé à l&#39;intérieur.
 
-1. Plusieurs composants de structure constitués d'une ou de plusieurs colonnes sont disponibles.
+1. Plusieurs composants de structure constitués d&#39;une ou de plusieurs colonnes sont disponibles.
 
-   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
    >[!NOTE]
    >
-   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n'est pas vide.
+   >La taille de chaque colonne ne peut pas être inférieure à 10 % de la largeur totale du composant de structure. Vous ne pouvez pas supprimer une colonne qui n&#39;est pas vide.
 
 Lorsque la structure est définie, vous pouvez ajouter des fragments de contenu et des composants à votre email.
 
 ### Utilisation des composants de contenu {#about-content-components}
 
-Les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu'ils ont été placés dans un email.
+Les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu&#39;ils ont été placés dans un email.
 
-Vous pouvez ajouter autant de composants de contenu que vous le souhaitez dans un composant de structure. Vous pouvez également les déplacer à l'intérieur du composant de structure ou vers un autre composant de structure.
+Vous pouvez ajouter autant de composants de contenu que vous le souhaitez dans un composant de structure. Vous pouvez également les déplacer à l&#39;intérieur du composant de structure ou vers un autre composant de structure.
 
-Voici la liste des composants disponibles dans le Concepteur d'email :
+Voici la liste des composants disponibles dans le Concepteur d&#39;email :
 
-- **[!UICONTROL Bouton]**
+- **[!UICONTROL Button]**
 
-   Si vous avez besoin d'utiliser plusieurs boutons, plutôt que d'éditer chaque bouton à partir de zéro, vous pouvez dupliquer le composant **[!UICONTROL Bouton]** à l'aide de la barre d'outils contextuelle.
+   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
 
    Vous pouvez aussi enregistrer des boutons dans des fragments réutilisables. Voir à ce propos [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-1. Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l'image de remplacement dans le Concepteur d'email.
+Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
 
-- **[!UICONTROL Texte]**
+- **[!UICONTROL Text]**
 
-   Utilisez ce composant pour insérer du texte dans votre email. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans **[!UICONTROL Paramètres des composants]**.
+   Utilisez ce composant pour insérer du texte dans votre email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Diviseur]**
+- **[!UICONTROL Divider]**
 
-   Utilisez ce composant pour insérer une ligne de séparation dans votre email. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans **[!UICONTROL Paramètres des composants]**.
+   Utilisez ce composant pour insérer une ligne de séparation dans votre email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Html]**
 
@@ -103,51 +103,51 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
    >[!NOTE]
    >
-   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la section **head** du code HTML, sinon l'email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la section **head** du code HTML, sinon l&#39;email ne sera pas réactif. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
 
-   Pour rendre un contenu externe compatible avec le Concepteur d'email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
+   Pour rendre un contenu externe compatible avec le Concepteur d&#39;email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
-   Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code HTML de l'email d'origine à l'aide du composant de contenu **[!UICONTROL Html]**. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
+   Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code de l&#39;email d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]** Html. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
 
    <!-- A full example is presented below. -->
 
    >[!NOTE]
    >
-   >Le nouveau contenu ne sera pas une copie exacte de votre email d'origine, mais les étapes ci-après vous guideront tout au long de la création d'un message qui sera aussi ressemblant que possible.
+   >Le nouveau contenu ne sera pas une copie exacte de votre email d&#39;origine, mais les étapes ci-après vous guideront tout au long de la création d&#39;un message qui sera aussi ressemblant que possible.
 
    **Avant de copier votre contenu**
 
-   1. Dans votre email d'origine, identifiez les sections réutilisables et celles qui seront uniques à chaque email que vous enverrez.
+   1. Dans votre email d&#39;origine, identifiez les sections réutilisables et celles qui seront uniques à chaque email que vous enverrez.
    1. Enregistrez toutes les images et les ressources que vous souhaitez utiliser.
-   1. Si vous maîtrisez le langage HTML, divisez votre contenu HTML d'origine en plusieurs parties différentes.
+   1. Si vous maîtrisez le langage HTML, divisez votre contenu HTML d&#39;origine en plusieurs parties différentes.
 
-- **[!UICONTROL Vidéo]**
+- **[!UICONTROL Video]**
 
    Utilisez ce composant pour insérer une vidéo dans votre email.
 
-   Insérez le composant vidéo dans un composant de structure de votre email et saisissez le lien vidéo dans **[!UICONTROL Paramètres des composants]**.
+   Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
 
 - **[!UICONTROL Image]**
 
    Utilisez ce composant pour insérer une image dans votre email.
 
-   Insérez le composant d'image dans un composant de structure, puis cliquez sur Parcourir pour télécharger un fichier image depuis votre ordinateur.
+   Insérez le composant d&#39;image dans un composant de structure, puis cliquez sur Parcourir pour télécharger un fichier image depuis votre ordinateur.
 
 - **[!UICONTROL Social]**
 
-   Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux dans votre email. Vous pouvez sélectionner les liens à afficher et la taille de leur icône dans **[!UICONTROL Paramètres des composants]**.
+   Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux dans votre email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Carrousel]**
+- **[!UICONTROL Carousel]**
 
-   1. Placez le composant **[!UICONTROL Carrousel]** à l'intérieur d'un composant de structure.
+   1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
    1. Parcourez votre ordinateur pour sélectionner des images.
    ![](assets/des_carousel_browse.png)
 
-   1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de vignettes souhaitées dans le carrousel.
+   1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
    1. Sélectionnez une image de remplacement à partir de votre ordinateur.
    ![](assets/des_carousel_fallback.png)
 
-   Le composant carrousel n'est pas compatible avec tous les programmes de messagerie. Chargez une image de remplacement pour l'afficher lorsque le carrousel n'est pas pris en charge dans un email.
+   Le composant carrousel n&#39;est pas compatible avec tous les programmes de messagerie. Chargez une image de remplacement pour l&#39;afficher lorsque le carrousel n&#39;est pas pris en charge dans un email.
 
    >[!NOTE]
    >
@@ -157,6 +157,6 @@ Voici la liste des composants disponibles dans le Concepteur d'email :
 
 - Vidéo [Créer un email](../../channels/using/creating-an-email.md)
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [Planification de l'envoi des messages](../../sending/using/about-scheduling-messages.md)
+- [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
 - [Rendu des emails](../../sending/using/email-rendering.md)
