@@ -11,8 +11,8 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+translation-type: tm+mt
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 >[!IMPORTANT]
 >
->Le Service de données de Campaign Standard est actuellement en version bêta et cette version peut être fréquemment mise à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Adobe Campaign Standard permet de déclencher l’ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d’ingestion.
 
@@ -36,9 +36,9 @@ Avant d’utiliser les API, le mapping de données doit avoir été configuré e
 
 Une fois le mapping de données créé, vous devez l’arrêter afin de pouvoir le déclencher à votre convenance depuis les API. Pour ce faire, procédez comme suit :
 
-1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Statut de l’export des données vers Platform.]**
+1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
-1. Double-cliquez sur le mapping de données pour l’ouvrir, puis cliquez sur le bouton **[!UICONTROL Arrêter]**.
+1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
 
    ![](assets/aep_datamapping_stop.png)
 
