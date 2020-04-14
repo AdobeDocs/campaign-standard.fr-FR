@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 >[!IMPORTANT]
 >
->Le service Campaign Standard Data est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
 
 Experience Data Model (XDM) est un ensemble standard de schémas de données dans lesquels des données peuvent être ingérées afin d’être utilisées avec les solutions et produits Adobe Experience Platform.
 
