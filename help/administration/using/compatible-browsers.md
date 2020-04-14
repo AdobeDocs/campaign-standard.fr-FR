@@ -11,7 +11,7 @@ topic-tags: discovering-the-interface
 discoiquuid: dfc188f2-957b-4f93-bb54-c369d7333b9f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7747d9a8816562ab21c92d683d44eea5a34dddde
 
 ---
