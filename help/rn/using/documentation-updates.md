@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ La documentation sur les  après une  de panne temporaire de a été mise à jou
 La section Suppression d’un  a été améliorée et clarifiée. [En savoir plus](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 La section **Aperçu du** a été mise à jour avec des exemples de mobiles.[En savoir plus](../../sending/using/previewing-messages.md)
+
+Les meilleures pratiques ont été ajoutées en ce qui concerne la messagerie transactionnelle et la suppression des  en temps réel inutilisées. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+La section Configuration des  de de messagerie a été mise à jour afin d’apporter des éclaircissements sur tous les paramètres de messagerie qui sont maintenant gérés par  MTA amélioré. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
 ## Version 20.2 - Avril 2020      {#release-20-2---april-2020}
 
