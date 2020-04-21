@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Les messages transactionnels sont également disponibles depuis l&#39;API Adobe 
 
 >[!IMPORTANT]
 >
->Une fois la mise à niveau effectuée vers le [MTA amélioré](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html), tous les messages transactionnels sont envoyés à l’aide de celui-ci afin d’améliorer la délivrabilité, le débit et la gestion des bounces. Les impacts sont identiques à ceux des messages marketing standard. Ils sont présentés dans le document [Serveur de diffusion MTA amélioré d’Adobe Campaign](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html).
+>Tous les  de sont maintenant envoyés avec la  MTA améliorée pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard.
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
@@ -82,8 +82,8 @@ Pour plus d&#39;informations sur les étapes de configuration des événements, 
 
 Au cours de la conception et de la publication de messages transactionnels, certaines des étapes à suivre ne peuvent pas être annulées. Vous devez connaître les limites suivantes :
 
-* Un seul canal peut être utilisé pour chaque configuration d&#39;événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Une fois l&#39;événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/workflow-data-and-processes.md).
+* Un seul canal peut être utilisé pour chaque configuration d’événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Une fois l’événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/workflow-data-and-processes.md).
 * You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Il n&#39;est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l&#39;événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l&#39;événement](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
@@ -96,7 +96,7 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 
 * les informations de personnalisation proviennent des données contenues dans l&#39;événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 * Vous ne pouvez pas utiliser les blocs de contenu **Lien de désabonnement** dans un message transactionnel basé sur un événement.
-* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l&#39;événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d&#39;enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichir le contenu d&#39;un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichir le contenu d&#39;un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 * Comme les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d&#39;un enrichissement avec des profils. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 **Messages transactionnels basés sur un profil** :
