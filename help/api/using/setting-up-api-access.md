@@ -11,8 +11,8 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comme suit. Chacune de ces étapes est détaillée dans la documentation [Adobe IO](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">compte de développeur </a> dans la console d’administration.
+>Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un [compte de développeur ](https://helpx.adobe.com/enterprise/using/manage-developers.html) dans la console d’administration.</a>
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec Adobe Campaign Service** dans Adobe IO et configurez-la. Vos informations d’identification seront alors générées (clé d’API, secret client...).
