@@ -4,7 +4,7 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [Création d’une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
       + [Génération d’un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Mise en oeuvre du suivi Push](channels/using/push-tracking.md)
+      + [Affichage d’une image à partir d’une  Adobe Campaign de notification Push standard](channels/using/image-push-notification.md)
+      + [Présentation Campaign Standard structure de charge utile des notifications Push](channels/using/push-payload.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d’un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
