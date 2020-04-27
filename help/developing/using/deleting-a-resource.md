@@ -11,31 +11,31 @@ topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+translation-type: tm+mt
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
 
 # Supprimer une ressource{#deleting-a-resource}
 
-Pour supprimer une ressource, celle-ci doit être **[!UICONTROL En création]**. La ressource est **[!UICONTROL En création]** si :
+To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:
 
 * Elle vient d&#39;être créée et n&#39;est pas encore publiée.
 * Si elle est déjà publiée, la ressource doit être réinitialisée.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >La réinitialisation et la suppression d&#39;une ressource personnalisée sont des opérations sensibles pouvant avoir un impact sur d&#39;autres ressources. Ces actions doivent être effectuées par un utilisateur expert uniquement.
 
 Pour réinitialiser et supprimer une ressource publiée :
 
 1. Sélectionnez la ressource que vous souhaitez réinitialiser.
-1. Cliquez sur le bouton **[!UICONTROL Réinitialiser]** disponible dans la barre d&#39;actions.
+1. Click the **[!UICONTROL Re-draft]** button in the action bar.
 
    ![](assets/schema_extension_uc26.png)
 
-1. Cliquez sur **[!UICONTROL Ok]**.
+1. Clics **[!UICONTROL Ok]**.
 
    >[!IMPORTANT]
    >
@@ -49,9 +49,9 @@ Pour réinitialiser et supprimer une ressource publiée :
 
 1. Publiez la ressource. Pour obtenir des étapes plus détaillées, consultez la section [Publier une ressource personnalisée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   La ressource passe en mode **En création** et son statut d&#39;activation est **[!UICONTROL Désactivé]**.
+   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]**.
 
-1. En mode **[!UICONTROL Liste]**, cochez la ressource à supprimer puis cliquez sur l&#39;icône ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Supprimer l&#39;élément]**.
+1. In **[!UICONTROL List]** mode, check the resource to delete then click the ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** icon.
 
    ![](assets/schema_extension_uc28.png)
 
