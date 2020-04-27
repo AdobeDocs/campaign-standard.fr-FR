@@ -12,8 +12,8 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+translation-type: tm+mt
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -26,18 +26,18 @@ Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Ce modèle de
 >
 >La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
 
-Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
+The **[!UICONTROL Administration]** > **[!UICONTROL Development]** menu, accessed via the Adobe Campaign logo, allows you to manage your **custom resources**, **publish** them, and **access the diagnostic tools**.
 
 Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d&#39;**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d&#39;achats ou de produits par exemple.
 
-Les ressources d&#39;usine (comme les campagnes, les e-mails ou les audiences) ne peuvent pas être modifiées. Cependant, il est possible de les étendre pour leur ajouter de nouveaux champs.
+Les ressources intégrées (telles que les campagnes, les courriels ou les  de ) ne peuvent pas être modifiées. Cependant, il est possible de les étendre pour leur ajouter de nouveaux champs.
 
-Les champs d&#39;extension sont générés avec un préfixe de sorte qu&#39;ils n&#39;entrent jamais en conflit avec les champs d&#39;usine.
+Les champs d’extension sont générés avec un préfixe afin de ne jamais entrer en conflit avec les champs intégrés.
 
 >[!NOTE]
 >
->Une représentation du modèle de données pour les ressources d&#39;usine figure [ici](../../developing/using/datamodel-introduction.md).
+>Vous trouverez une représentation de modèle de données pour les ressources intégrées dans [cette page](../../developing/using/datamodel-introduction.md).
 
-Il est également possible de **configurer la navigation** dans les écrans correspondant à la ressource créée.
+Il est également possible de [configurer la navigation](configuring-the-screen-definition.md) dans les écrans correspondant à la ressource créée.
 
 Il est possible **d&#39;exporter et d&#39;importer** des ressources personnalisées, par exemple d&#39;un environnement de développement vers un environnement de production. Voir à ce propos ce [cas pratique détaillé](../../automating/using/exporting-importing-custom-resources.md).
