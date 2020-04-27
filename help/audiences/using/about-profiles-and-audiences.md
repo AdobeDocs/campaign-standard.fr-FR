@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -55,8 +55,8 @@ Fournir des liens de désabonnement dans vos messages permet le blacklistage des
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Création d&#39;une audience](../../audiences/using/creating-audiences.md) | [Utilisation du service   Destinations des](../../audiences/using/aep-about-audience-destinations-service.md) |
+| [Création d’une audience](../../audiences/using/creating-audiences.md) | [Utilisation du service   Destinations des](../../audiences/using/aep-about-audience-destinations-service.md) |
 | [Créer un profil](../../audiences/using/creating-profiles.md) | [Utilisation de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) |
 | [Profil client intégré](../../audiences/using/integrated-customer-profile.md) | [Adobe partagée](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) |
-| [Les processus d&#39;inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Utilisation de  pour importer des](../../automating/using/importing-data.md) |
+| [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) | [Utilisation de  pour importer des](../../automating/using/importing-data.md) |
 | [Gestion de la vie privée (RDPC, ACCP)](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) | [Création de  et de  de (vidéo)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html) |
