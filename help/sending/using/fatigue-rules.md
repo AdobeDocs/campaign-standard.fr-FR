@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Pour implémenter une règle de fatigue, vous devez définir un nombre maximum d
 Rubriques connexes :
 
 * [Préparation](../../administration/using/configuring-email-channel.md#preparation)
-* [Gestion des typologies](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Règles de typologie](../../sending/using/about-typology-rules.md#typology-rules)
+* [Gestion des typologies](../../sending/using/managing-typologies.md)
+* [Règles de typologie](../../sending/using/managing-typology-rules.md)
 * [Optimisation de la fréquence de communication pour éviter la fatigue de contact](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Créer une règle de fatigue  {#creating-a-fatigue-rule}
