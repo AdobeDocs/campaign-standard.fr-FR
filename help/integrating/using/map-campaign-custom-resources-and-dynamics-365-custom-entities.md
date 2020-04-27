@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Vous trouverez un aperçu plus complet de Campaign ressources personnalisées [s
 
 Pour configurer l’intégration des entités personnalisées, contactez [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) pour demander à ce que ce soit fait.  Unifi exigera les noms des tables d&#39;entités personnalisées dans les deux systèmes, ainsi que les mappages d&#39;attributs souhaités.  Unifi crée alors les tâches et les planifications correspondantes.
 
-La section [Cas d’](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)utilisation présente un exemple d’utilisation de la prise en charge des entités personnalisées.
+Vous trouverez ci-dessous un exemple d’utilisation de la prise en charge des entités personnalisées.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ La section [Cas d’](../../integrating/using/map-campaign-custom-resources-and-
 
 
 ## Utilisation : 
-
 
 ### État de début
 
@@ -179,5 +178,5 @@ Une fois la tâche d’entrée terminée, les données du véhicule sont mainten
 
 **Rubriques connexes**
 
-* Utilisation de  Adobe Campaign Standard - Microsoft Dynamics 365
-* Etapes clés pour ajouter une ressource personnalisée dans Campaign
+* [Utilisation de  Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Etapes clés pour ajouter une ressource personnalisée dans Campaign](../../developing/using/key-steps-to-add-a-resource.md)
