@@ -11,8 +11,8 @@ topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
 
 ---
 
@@ -23,15 +23,15 @@ Cette section contient des questions courantes relatives aux rapports dynamiques
 
 ## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
 
-Il s'agit d'un comportement attendu.
-Prenons l'exemple suivant pour expliquer ce comportement.
+Il s&#39;agit d&#39;un comportement attendu.
+Prenons l&#39;exemple suivant pour expliquer ce comportement.
 
 Un email est envoyé aux profils P1 et P2.
 
-P1 ouvre l'email deux fois le premier jour, puis trois fois le jour suivant.
+P1 ouvre l&#39;email deux fois le premier jour, puis trois fois le jour suivant.
 
-P2, quant à lui, ouvre l'email une fois le premier jour et ne le rouvre pas les jours suivants.
-Voici une représentation visuelle de l'interaction des profils avec l'email envoyé :
+P2, quant à lui, ouvre l&#39;email une fois le premier jour et ne le rouvre pas les jours suivants.
+Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;email envoyé :
 
 <table> 
  <thead> 
@@ -55,9 +55,9 @@ Voici une représentation visuelle de l'interaction des profils avec l'email env
  </tbody> 
 </table>
 
-Pour comprendre le nombre total des ouvertures uniques, nous devons additionner les chiffres des lignes des **[!UICONTROL Ouvertures uniques]**, ce qui nous donne la valeur 3. Toutefois, comme l'email n'était ciblé que sur 2 profils, le taux d'ouverture devrait être de 150 %.
+To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. Toutefois, comme l&#39;email n&#39;était ciblé que sur 2 profils, le taux d&#39;ouverture devrait être de 150 %.
 
-Pour ne pas obtenir de pourcentage supérieur à 100, la définition des **[!UICONTROL ouvertures uniques]** est le nombre de broadlogs uniques ouverts. Dans ce cas, même si P1 a ouvert l'email le jour 1 et le jour 2, les ouvertures uniques sont toujours égales à 1.
+To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. Dans ce cas, même si P1 a ouvert l&#39;email le jour 1 et le jour 2, les ouvertures uniques sont toujours égales à 1.
 
 Cela donne le tableau suivant :
 
@@ -89,129 +89,29 @@ Cela donne le tableau suivant :
 
 ## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données. {#open-counts-no-match-database}
 
-Cela peut être dû au fait que la méthode heuristique est utilisée dans les rapports dynamiques pour tracker les ouvertures, même lorsque nous ne pouvons pas tracker l'action **[!UICONTROL Ouvrir]**.
+This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can&#39;t track the **[!UICONTROL Open]** action.
 
-Par exemple, si un utilisateur a désactivé les images sur son client et qu'il clique sur un lien dans l'email, l'**[!UICONTROL Ouverture]** peut ne pas être trackée par la base de données mais le **[!UICONTROL clic]** oui.
+For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
 
-Par conséquent, les logs de tracking des **[!UICONTROL ouvertures]** peuvent ne pas avoir le même décompte que dans la base de données.
+Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
 
-Ces occurrences sont ajoutées car **"un clic sur un email implique l'ouverture de l'email"**.
+Ces occurrences sont ajoutées car **&quot;un clic sur un email implique l&#39;ouverture de l&#39;email&quot;**.
 
 >[!NOTE]
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?
-
-Lors de l'utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
-
-Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s'exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
-
-Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d'**[!UICONTROL Ouverture]**.
-
-Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
-
-Après la version 19.2.1 d'Adobe Campaign Standard, la définition des **décomptes uniques** est changée du **nombre de personnes uniques interagissant avec la diffusion** au **nombre de messages uniques ayant fait l'objet d'une interaction**.
-
-Avant la version 19.2.1 d'Adobe Campaign Standard, les rapports ressemblaient à ce qui suit :
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Diffusion</strong> <br /> </th> 
-   <th align="center"> <strong>Envoyés</strong> <br /> </th> 
-   <th align="center"> <strong>Delivrés</strong> <br /> </th>
-   <th align="center"> <strong>Ouvertures</strong><br /> </th> 
-   <th align="center"> <strong>Ouvertures uniques</strong> <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
- </tbody> 
-</table>
-
-Après la version 19.2.1 d'Adobe Campaign Standard, les rapports ressemblent à ce qui suit :
-
-<table> 
- <thead> 
-  <tr> 
-   <th align="center"> <strong>Diffusion</strong> <br /> </th> 
-   <th align="center"> <strong>Envoyés</strong> <br /> </th> 
-   <th align="center"> <strong>Delivrés</strong> <br /> </th>
-   <th align="center"> <strong>Ouvertures</strong><br /> </th> 
-   <th align="center"> <strong>Ouvertures uniques</strong> <br /> </th>
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
-  </tr> 
-  <tr> 
-   <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 6<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr>
-    <tr> 
-   <td align="center"> RC2<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
-    <tr> 
-   <td align="center"> RC3<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
-   <td align="center"> 1<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## Quelle est la signification des couleurs dans le tableau des rapports ? {#reports-color-signification}
 
-Les couleurs affichées dans vos rapports sont aléatoires et ne peuvent pas être personnalisées. Elles représentent une barre de progression et s'affichent pour mettre en évidence la valeur maximale atteinte dans vos rapports.
+Les couleurs affichées dans vos rapports sont aléatoires et ne peuvent pas être personnalisées. Elles représentent une barre de progression et s&#39;affichent pour mettre en évidence la valeur maximale atteinte dans vos rapports.
 
-Dans l'exemple ci-dessous, la cellule est de la même couleur car sa valeur est 100 %.
+Dans l&#39;exemple ci-dessous, la cellule est de la même couleur car sa valeur est 100 %.
 
 ![](assets/troubleshooting_1.png)
 
-Si vous définissez la **[!UICONTROL mise en forme conditionnelle]** sur personnalisée, lorsque la valeur atteint la limite supérieure, la cellule devient verte. En revanche, si elle atteint la limite inférieure, elle devient rouge.
+If you change the **[!UICONTROL Conditional formatting]** to custom, when the value reaches the upper limit the cell will get greener. En revanche, si elle atteint la limite inférieure, elle devient rouge.
 
-Par exemple, ici, nous définissons la **[!UICONTROL limite supérieure]** sur 500 et la **[!UICONTROL limite inférieure**] sur 0.
+Par exemple, ici, nous avons défini le paramètre **[!UICONTROL Upper limit]** sur 500 et **[!UICONTROL Lower limit]** sur 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -219,8 +119,8 @@ Par exemple, ici, nous définissons la **[!UICONTROL limite supérieure]** sur 5
 
 ![](assets/troubleshooting_3.png)
 
-La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut s'afficher pour deux raisons :
+La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut s&#39;afficher pour deux raisons :
 
-* La diffusion a été supprimée et s'affiche ici sous la forme **N/A** pour ne pas entraîner d'incohérence dans les résultats.
-* Lorsque vous placez la dimension **[!UICONTROL Diffusion transactionnelle]** dans vos rapports, la valeur **N/A** peut apparaître. Elle s'affiche, car le rapport dynamique récupère chaque diffusion, même si elle n'est pas transactionnelle.
-Elle peut également s'afficher lorsque vous placez la dimension **[!UICONTROL Diffusion]** dans votre rapport. Dans ce cas, la valeur **N/A** représente les diffusions transactionnelles.
+* La diffusion a été supprimée et s&#39;affiche ici sous la forme **N/A** pour ne pas entraîner d&#39;incohérence dans les résultats.
+* When drag and dropping the **[!UICONTROL Transactional Delivery]** dimension to your reports, the value **N/A** might appear as a result. Elle s&#39;affiche, car le rapport dynamique récupère chaque diffusion, même si elle n&#39;est pas transactionnelle.
+This can also happen when drag and dropping the **[!UICONTROL Delivery]** dimension to your report but in this case, the **N/A** value will represent transactional deliveries.
