@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez en outre configurer des modèles pour importer des données. L&#39;u
 
 Vous pouvez configurer deux types de modèles :
 
-* **Modèles de workflow** : il s&#39;agit de workflows préconfigurés que vous pouvez paramétrer une fois selon vos besoins. Vous pouvez ensuite les réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données.
+* **Modèles** de processus : il s’agit de préconfigurés que vous pouvez configurer une fois en fonction de vos besoins, puis réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données.
 
    Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
 
@@ -70,4 +70,4 @@ Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la 
 
 >[!CAUTION]
 >
->Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Avant d&#39;effectuer une mise à jour ou une création en masse de profils via des appels d&#39;API, vérifiez les limites d&#39;échelle correspondant à votre contrat de licence. Voir à ce propos [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html#RessourcesdinfrastructureinformatiqueparniveauxdeProfilsactifs).
