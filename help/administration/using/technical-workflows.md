@@ -1,6 +1,6 @@
 ---
 title: Workflows techniques
-description: Workflows techniques sont des workflows d'usine conçus pour gérer des processus techniques en arrière-plan dans Adobe Campaign, tout en assurant un comportement correct de la plate-forme.
+description: Les workflows techniques sont des workflows d'usine conçus pour gérer des processus techniques en arrière-plan dans Adobe Campaign, tout en assurant un comportement correct de la plate-forme.
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
@@ -11,35 +11,35 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
 
 # Workflows techniques{#technical-workflows}
 
-Les workflows techniques sont livrés d'usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s'exécuter sur le serveur.
+Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur.
 
 Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions.
 
-Les administrateurs fonctionnels peuvent accéder aux workflows techniques depuis le menu **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Workflows]**.
+Les administrateurs fonctionnels peuvent accéder aux  de sous le **[!UICONTROL Administration > Application settings > Workflows]** menu.
 
 >[!NOTE]
 >
->En tant qu'administrateur fonctionnel, vous pouvez redémarrer les workflows techniques et les mettre en pause, et modifier leurs propriétés et leur structure.
+>En tant qu&#39;administrateur fonctionnel, vous pouvez redémarrer les workflows techniques et les mettre en pause, et modifier leurs propriétés et leur structure.
 
 ![](assets/technical_workflows.png)
 
 ## Liste des workflows techniques {#list-of-technical-workflows}
 
-Les workflows techniques sont utilisés pour gérer les processus techniques et d'arrière-plan déclenchés automatiquement dans Adobe Campaign.
+Les workflows techniques sont utilisés pour gérer les processus techniques et d&#39;arrière-plan déclenchés automatiquement dans Adobe Campaign.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>Libellé</strong><br /> </td> 
-   <td> <strong>Identifiant</strong><br /> </td> 
+   <td> <strong>ID</strong><br /> </td> 
    <td> <strong>Description</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -97,6 +97,12 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> <span class="uicontrol">kpiSharing</span> <br /> </td> 
    <td> Ce workflow envoie les données KPI toutes les 15 minutes depuis Adobe Campaign Standard vers Adobe Analytics.<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">Synchroniser avec le lancement</span><br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> Ce processus synchronise les propriétés d’Adobe Launch mobile importées dans  Adobe Campaign Standard. Elle est lancée toutes les 15 minutes.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Mettre à jour l'exécution des diffusions.</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
