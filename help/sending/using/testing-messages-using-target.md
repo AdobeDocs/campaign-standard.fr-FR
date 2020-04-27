@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
    If you want to add a specific prefix to the proofs&#39; subject line, fill in the **[!UICONTROL Subject line prefix]** field.
 
+   >[!NOTE]
+   >
+   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
+
    ![](assets/substitution_address.png)
 
    Le préfixe s’affiche comme suit :
@@ -116,6 +120,10 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
    ![](assets/substitution_audience_import.png)
 
 1. Sélectionnez l’audience à utiliser, puis saisissez l’adresse de substitution et le préfixe à utiliser pour les bons à tirer envoyés à l’audience.
+
+   >[!NOTE]
+   >
+   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
 
    ![](assets/substitution_audience_define.png)
 
