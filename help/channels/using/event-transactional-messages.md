@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -270,7 +270,7 @@ Clicking **[!UICONTROL Unpublish]** allows you to cancel the transactional messa
 
 ![](assets/message-center_unpublish-template.png)
 
-Désormais, même si l&#39;événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
+Désormais, même si l’événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
 
 >[!NOTE]
 >
@@ -294,7 +294,7 @@ Une fois qu’un  a été annulé ou qu’un  de n’a pas encore été publié,
 
 La suppression d&#39;un message transactionnel ne peut toutefois être effectuée que sous certaines conditions :
 
-* Assurez-vous que le  a le **[!UICONTROL Draft]** statut, sinon vous ne pourrez pas le supprimer. L’ **[!UICONTROL Draft]** état s’applique à un message qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-a-transactional-message) (et non [suspendu](#suspending-a-transactional-message-publication)).
+* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. L’ **[!UICONTROL Draft]** état s’applique à un message qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-a-transactional-message) (et non [suspendu](#suspending-a-transactional-message-publication)).
 
 * ****: A moins qu’un autre  de ne soit lié à l’ de correspondante, si l’ de la version non publiée est annulée, la configuration de l’doit également être annulée pour que la suppression de votre soit réussie. Pour plus d’informations, voir [Annulation de la publication d’un](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
