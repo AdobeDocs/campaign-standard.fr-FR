@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Nouveautés
 
-* **[Test d’email à l’aide de profils ciblés](sending/using/testing-messages-using-target.md)**<br/>Découvrez comment tester les emails sur des profils ciblés réels.
+* **[Test d’email à l’aide de profils ciblés](sending/using/testing-messages-using-target.md)**<br/>Découvrez comment tester les emails sur des profils ciblés réels
 
 * **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
-Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité.
+Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité
 
 * **[Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
-Découvrez les directives générales concernant les diffusions mobiles.
+Découvrez les directives générales concernant les diffusions mobiles
 
 [Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
 
@@ -36,7 +36,7 @@ Découvrez les directives générales concernant les diffusions mobiles.
     <div>
     <a href="administration/using/about-access-management.md"><strong>Rôles et groupes de sécurité</strong></a>
     </div>
-    <em>Découvrez comment définir des permissions et affecter des rôles aux utilisateurs de Campaign.</em>
+    <em>Découvrez comment définir des permissions et affecter des rôles aux utilisateurs de Campaign</em>
     <br>
   </td>
   <td valign="top">
@@ -53,7 +53,7 @@ Découvrez les directives générales concernant les diffusions mobiles.
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     <strong>Obtenir de l'aide</strong></a>
     </div>
-    <p><em>Accédez aux questions fréquentes, aux bonnes pratiques, aux ressources d’aide et connectez-vous à des experts Campaign.</em></p>
+    <p><em>Accédez aux questions fréquentes, aux bonnes pratiques, aux ressources d’aide et connectez-vous aux experts</em></p>
     <br>
   </td>
 </tr>
