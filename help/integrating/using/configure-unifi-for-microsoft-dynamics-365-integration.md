@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ La fréquence suivante est recommandée pour divers cas d’utilisation :
 >
 >Par défaut, les  marketing SEND sont filtrées hors de la tâche d’insertion.  Si vous souhaitez voir ENVOYER des  marketing dans Dynamics 365, vous devez modifier le filtre (étape 5) de la tâche d&#39;insertion dans Unifi.
 
-Il existe deux rôles distincts dans Unifi, un utilisateur propriétaire et un utilisateur analyste en lecture seule. Un utilisateur propriétaire peut modifier des tâches et des planifications, contrairement à l’analyste en lecture seule.  Il ne peut y avoir qu’un seul utilisateur propriétaire pour une instance de client donnée.  Si le client doit modifier la personne affectée en tant qu’utilisateur propriétaire, il peut envoyer un courrier électronique à [adobe-support@unifisoftware.com](mailto : adobe-support@unifisoftware.com) avec la modification demandée.
+Il existe deux rôles distincts dans Unifi, un utilisateur propriétaire et un utilisateur analyste en lecture seule. Un utilisateur propriétaire peut modifier des tâches et des planifications, contrairement à l’analyste en lecture seule.  Il ne peut y avoir qu’un seul utilisateur propriétaire pour une instance de client donnée.  Si le client doit modifier la personne affectée en tant qu’utilisateur propriétaire, il peut envoyer un courrier électronique à [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) avec la modification demandée.
 
 La configuration Unifi, les détails de la tâche, la configuration et la surveillance sont présentés dans les vidéos ci-dessous.
 
