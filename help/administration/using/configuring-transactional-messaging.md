@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord décrire la structure des données de l’événement.
 
-La configuration d’un événement doit être effectuée par un **administrateur** en suivant les étapes ci-dessous :
+Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators) following the steps below.
 
-La configuration peut varier selon le type de message transactionnel que vous souhaitez envoyer. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
+>[!NOTE]
+>
+>La configuration peut varier selon le type de message transactionnel que vous souhaitez envoyer. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
 Une fois l’événement publié, le message transactionnel correspondant est automatiquement créé. Pour plus d’informations sur les messages transactionnels, consultez [cette page](../../channels/using/about-transactional-messaging.md).
 
 ## Créer un événement  {#creating-an-event}
 
-Commencez par configurer l’événement qui correspond à vos besoins.
+Pour commencer, créez le  correspondant à vos besoins.
 
 >[!NOTE]
 >
->Le nombre de  en temps réel créées peut avoir un impact sur votre plateforme. Pour optimiser les performances, veillez à supprimer les  en temps réel dont vous n’avez plus besoin. See [Deleting an event](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Seuls les utilisateurs qui détiennent le **[!UICONTROL Administration]** rôle et qui font partie de l’unité **[!UICONTROL All]** [](../../administration/using/organizational-units.md) organisationnelle ont les droits appropriés pour créer une configuration de .
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Cliquez sur le **[!UICONTROL Create]** bouton.
@@ -55,6 +57,10 @@ Commencez par configurer l’événement qui correspond à vos besoins.
 
    Les messages transactionnels basés sur un événement ciblent des données contenues dans l’événement lui-même, alors que les messages transactionnels basés sur un profil ciblent des données contenues dans la base de données Adobe Campaign. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
+>[!NOTE]
+>
+>Le nombre de  en temps réel créées peut avoir un impact sur votre plateforme. Pour optimiser les performances, veillez à supprimer les  en temps réel dont vous n’avez plus besoin. See [Deleting an event](#deleting-an-event).
+
 ## Définir les attributs d’événement  {#defining-the-event-attributes}
 
 In the **[!UICONTROL Fields]** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
@@ -71,7 +77,7 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
-Cette collection peut être utilisée dans un email transactionnel pour ajouter des listes de produits au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc., pour chaque produit de la liste.
+This collection can be used in a transactional email to add [product listings](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. pour chaque produit de la liste.
 
 1. Dans la **[!UICONTROL Collections]** section, cliquez sur le **[!UICONTROL Create element]** bouton.
 
@@ -84,6 +90,12 @@ Cette collection peut être utilisée dans un email transactionnel pour ajouter 
 
    ![](assets/message-center_collection_fields.png)
 
+1. L’ **[!UICONTROL Enrichment]** onglet vous permet d’enrichir chaque élément de la collection. Cela vous permettra de personnaliser les éléments de la liste de produits correspondante avec les informations de la base de données  Adobe Campaign ou d&#39;autres ressources que vous avez créées.
+
+>[!NOTE]
+>
+>Les étapes d’enrichissement des éléments d’une collection sont les mêmes que celles décrites dans la section [Enrichissement du](#enriching-the-transactional-message-content) . Notez que l’enrichissement du ne vous permet pas d’enrichir une collection : vous devez ajouter un   à la collection elle-même dans la **[!UICONTROL Collections]** section.
+
 Une fois l’événement et le message publiés, vous pouvez utiliser cette collection dans votre message transactionnel.
 
 Voici l’aperçu de l’API pour cet exemple :
@@ -95,9 +107,9 @@ Voici l’aperçu de l’API pour cet exemple :
 * [Prévisualiser et publier l’événement](#previewing-and-publishing-the-event)
 * [Utiliser des listes de produits dans un message transactionnel ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Enrichir le contenu d’un message transactionnel {#enriching-the-transactional-message-content}
+## Enrichir le {#enriching-the-transactional-message-content}
 
-Enrichir le contenu d’un message transactionnel avec des informations de la base de données Adobe Campaign vous permet de personnaliser vos messages. À partir du nom ou de l’identifiant CRM de vos destinataires, vous pouvez par exemple récupérer des données telles que leur adresse, date de naissance ou tout autre champ personnalisé ajouté à la table Profil afin de personnaliser les informations qui leur seront envoyées.
+Vous pouvez enrichir le contenu  du avec des informations provenant de la base de données  afin de personnaliser vos messages. À partir du nom ou de l’identifiant CRM de vos destinataires, vous pouvez par exemple récupérer des données telles que leur adresse, date de naissance ou tout autre champ personnalisé ajouté à la table Profil afin de personnaliser les informations qui leur seront envoyées.
 
 It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. Pour plus d’informations, voir [Extension de l’API : Publication de l’extension](../../developing/using/step-2--publish-the-extension.md)
 
