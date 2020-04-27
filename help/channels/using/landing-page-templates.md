@@ -12,8 +12,8 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -23,19 +23,19 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 Campaign intègre un jeu de modèles de landing page intégrés.
 
 * **[!UICONTROL Acquisition]** : il s&#39;agit du modèle par défaut des landing pages. Il permet de capturer et de mettre à jour les données dans la base de données Campaign.
-* **[!UICONTROL Inscription]** : ce modèle doit être utilisé pour proposer des inscriptions à un service.
-* **[!UICONTROL Désinscription]** : ce modèle peut être lié à un email envoyé aux abonnés à un service afin de leur permettre de se désinscrire de celui-ci.
-* **[!UICONTROL Blackliste]** : ce modèle doit être utilisé lorsqu&#39;un profil ne souhaite plus être contacté par Campaign. Pour plus d&#39;informations sur le blacklistage, consultez[Les processus d&#39;inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Subscription]**: ce modèle doit être utilisé pour    à un service.
+* **[!UICONTROL Unsubscription]**: ce modèle peut être lié à partir d’un courrier électronique envoyé aux abonnés à un service, afin de leur permettre de se désabonner de ce service.
+* **[!UICONTROL Blacklist]**: ce modèle doit être utilisé lorsqu’un ne souhaite plus être contacté par Campaign. Pour plus d&#39;informations sur le blacklistage, consultez [Les processus d&#39;inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Ces modèles sont proposés par défaut lors de la création d&#39;une nouvelle landing page.
 
 ![](assets/lp_creation_1.png)
 
-Pour accéder aux modèles, cliquez sur le logo Adobe Campaign dans le coin supérieur gauche et sélectionnez **[!UICONTROL Ressources]** >**[!UICONTROL  Modèles]** > **[!UICONTROL Modèles de landing page]**.
+To access landing page templates, click the Adobe Campaign logo on the upper left corner and select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 >[!NOTE]
 >
->Adobe vous recommande de créer vos propres modèles en dupliquant un modèle intégré. Certains paramètres peuvent seulement être définis dans les modèles de landing page et ne sont pas modifiables directement sur les landing pages.
+>Adobe recommande de créer vos propres modèles en dupliquant un modèle intégré. Certains paramètres peuvent seulement être définis dans les modèles de landing page et ne sont pas modifiables directement sur les landing pages.
 
 Lors de la construction d&#39;un modèle, il est conseillé d&#39;ajouter un attribut **&#39;type&#39;** aux balises. Cette information sera interprétée par l&#39;éditeur et aidera l&#39;utilisateur à associer un champ de la base de données au champ du formulaire lors du paramétrage de l&#39;application Web.
 
