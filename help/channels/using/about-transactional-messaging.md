@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Le type du message est défini lors de la configuration de l&#39;événement qui
 
 Les messages transactionnels sont également disponibles depuis l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Tous les  de sont maintenant envoyés avec la  MTA améliorée pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard.
+>Tous les  de sont maintenant envoyés avec la  MTA améliorée pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
