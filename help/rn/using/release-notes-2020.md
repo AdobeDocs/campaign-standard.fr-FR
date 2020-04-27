@@ -1,6 +1,6 @@
 ---
-title: Dernières notes de mise à jour 2020
-description: Cette page répertorie toutes les versions récentes d’Adobe Campaign Standard.
+title: Notes de mise à jour  2020
+description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -11,15 +11,100 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a6b0dd550dc0f6815cbf25f03fd199f4105de9c3
+translation-type: tm+mt
+source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 ---
 
 
-# Dernière version{#latest-release}
+# Notes de mise à jour 2020{#release-notes-2020}
 
 [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## Version 20.2 - Avril 2020      {#release-20-2---april-2020}
+
+**Nouveautés**
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Intégration de Blob de Microsoft Azure</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Le connecteur de stockage Blob de Microsoft Azure peut maintenant être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow <strong>Transfert de fichier</strong>. </p>
+    <p>Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Test d’emails à l’aide de profils ciblés</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Outre les profils de test, vous pouvez maintenant tester vos emails sur des profils ciblés réels. Vous obtenez ainsi une représentation exacte du message que le profil recevra : champs personnalisés, informations dynamiques et personnalisées, notamment des données additionnelles provenant des workflows, etc. </p>
+    <p>Pour plus d’informations, consultez la <a href="../../sending/using/testing-messages-using-target.md">documentation détaillée</a> et regardez la <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vidéo de tutoriel</a>. </p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+
+**Améliorations**
+
+* L’expérience client de la messagerie transactionnelle a été améliorée et la cohérence de l’interface également. [En savoir plus](../../channels/using/about-transactional-messaging.md)
+* Campaign Standard permet maintenant d’envoyer des bons à tirer à des profils de test avec des données additionnelles provenant des workflows.
+* Les protections pour l’activité API externe ont été mises à jour. [En savoir plus](../../automating/using/external-api.md)
+
+**Améliorations du Concepteur d’email**
+
+* Correction d’un problème ayant un impact sur l’échappement lors de plusieurs clics sur une image personnalisée.
+* Correction d’un problème lors de la duplication de composants de texte dynamique qui entraînait la duplication de la mauvaise ligne. (CAMP-41249)
+* Correction d’un problème de remplissage dans Outlook lors de la définition du remplissage au niveau du tableau et non au niveau div.
+* Correction d’un problème en raison duquel la largeur d’une image était modifiée lors du passage en mode HTML. (CAMP-41116)
+* Correction d’un problème qui empêchait l’accessibilité du composant des médias sociaux lors de la fourniture d’un texte de remplacement aux icônes. (CAMP-41345)
+* Correction d’un problème en raison duquel les balises `<br>` visibles s’affichaient lors de l’utilisation des opérations de copier-coller dans le Concepteur d’email.
+* Correction d’un problème en raison duquel les balises HTML s’affichaient dans l’email après le passage du contenu HTML au texte simple. (CAMP-41138)
+* Correction d’un problème empêchant le rendu des boutons avec une seule bordure définie.
+* Correction d’un problème de mise en retrait HTML en raison duquel le pied de page des emails était déplacé vers la gauche dans Microsoft Outlook. (CAMP-40987)
+* Correction d’un problème en raison duquel les champs de personnalisation ciblant un attribut de collection défini en HTML étaient copiés dans le contenu en texte simple lors du passage en mode de texte simple. (CAMP-40365)
+* Correction d’un problème qui empêchait l’insertion de liens dans un segment de texte sélectionné. (CAMP-41406)
+* Correction d’un problème en raison duquel la date était modifiée lors de la sélection d’un fuseau horaire dans l’éditeur de requêtes. (CAMP-38277)
+
+**Autres changements**
+
+* Le workflow d’usine **Réconciliation des KPI avec Adobe Analytics** s’exécute maintenant jusqu’à la date courante au lieu de s’exécuter pendant une seule journée.
+* Le MCPNS ne prend pas en charge l’ajout d’APNS et d’APNS-SANDBOX en tant que plateformes dans une application. Une fois le certificat ajouté dans Adobe Campaign Standard, vous ne pouvez plus restaurer vos paramètres dans la mesure où une seule plateforme APNS (production ou sandbox) peut être ajoutée à l’application MCPNS.
+
+**Intégrations d’Experience Platform**
+
+>[!NOTE]
+>
+>Les fonctionnalités Adobe Experience Platform dans Campaign Standard sont actuellement en version bêta et peuvent être fréquemment mises à jour sans préavis. Reportez-vous à la documentation détaillée : [Connecteur Experience Platform](../../administration/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+
+* Dans les logs des workflows, Campaign affiche maintenant toutes les 10 minutes le nombre d’enregistrements déjà traités par le traitement en cours d’exécution.
+* Correction d’un problème qui se produisait lors de l’import d’un profil Adobe Experience Platform qui avait été supprimé de la base de données.
+* Correction d’un problème dans les logs des workflows, en raison duquel un résultat incorrect pouvait s’afficher pour le nombre total d’enregistrements importés.
+
+**Correctifs**
+
+* Correction d’un problème lié à l’activité de workflow **Enrichissement** qui pouvait se produire lors de l’ajout d’espaces dans le champ **Alias**, ce qui créait ensuite un nouvel élément de ligne. (CAMP-39229)
+* Correction d’un problème en raison duquel chaque profil de test pouvait être ciblé lors de l’envoi d’un message de bon à tirer.
+* Correction d’un problème qui se produisait après la dépublication et la suppression d’une configuration d’événement. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Correction d’un problème en raison duquel le bouton **Enregistrer** disparaissait lors des modifications apportées aux workflows.
+* Correction d’un problème lors de la suppression manuelle d’une demande d’accès à des informations personnelles dans Campaign après son traitement, ce qui empêchait la suppression des données associées à la demande même après le nettoyage.
+* Correction d’un problème qui se produisait lors de la prévisualisation ou de l’envoi de messages contenant des caractères spéciaux d’Adobe Experience Manager.
+* Correction d’un problème qui se produisait dans les workflows lors de l’exécution d’une activité avec plusieurs transitions entrantes.
+* Correction d’un problème qui empêchait les utilisateurs standard d’utiliser le  &quot; à une application&quot; comme dimension de  dans unflux de travail ou un. (CAMP-37618)
 
 ## Version 20.1.4 - Février 2020    {#release-20-1-4---february-2020}
 
@@ -110,9 +195,9 @@ source-git-commit: a6b0dd550dc0f6815cbf25f03fd199f4105de9c3
 * Correction d’un problème lors de l’exécution d’une demande de suppression d’informations personnelles qui empêchait la suppression des données utilisateur dans les logs d’exclusion. (CAMP-39003)
 * Correction d’une erreur qui entraînait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
 * Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lorsqu’ils pointaient sur des activités marketing.
-* Correction d’un problème dans l’activité **[!UICONTROL API externe]** qui affichait le bouton **[!UICONTROL Confirmer]** même lorsqu’aucune donnée n’était modifiée.
+* Fixed an issue in the **[!UICONTROL External API]** activity which displayed the **[!UICONTROL Confirm]** button even when no data was modified.
 * Correction d’un problème lors de l’utilisation d’une activité **[!UICONTROL Union]** sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
-* Correction d’un problème qui pouvait entraîner une erreur lors de l’utilisation d’une activité de **[!UICONTROL réconciliation]** dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)
+* Fixed an issue that could lead to an error when using a **[!UICONTROL Reconciliation]** activity in specific contexts, for example with two inbound activities, one of them being an exclusion activity. (CAMP-37490)
 * Correction de problèmes de performances possibles lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
 * Correction d’un problème qui entraînait l’affichage de pages d’erreur lors d’un abonnement ou d’un désabonnement via les landing pages. (CAMP-37771)
 * Correction d’un problème qui se produisait lors du téléchargement de contenu au format zip, comportant des fichiers PNG référencés dans le code HTML avec des extensions en majuscules. (CAMP-37913)
