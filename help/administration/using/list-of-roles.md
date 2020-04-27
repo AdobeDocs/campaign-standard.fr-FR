@@ -12,8 +12,8 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
+translation-type: tm+mt
+source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 ---
 
@@ -28,21 +28,16 @@ Pour plus d’informations, reportez-vous au [tableau Rôles et permissions](/he
 
 ![](assets/user_management_3.png)
 
-Les rôles peuvent être gérés depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Rôles]**.
+Les rôles peuvent être gérés à partir du **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
 Les droits par défaut sont les suivants :
 
-* **[!UICONTROL Administration]** : droit d&#39;administration générique.
+* **[!UICONTROL Administration]**: Une administration générique juste.
 * **[!UICONTROL Datamodel]** : droit pour l&#39;exécution des publications et de créer des ressources personnalisées.
-* **[!UICONTROL Export]** : droit pour l&#39;export des données.
-* **[!UICONTROL Import générique]** : droit pour l&#39;exécution d&#39;un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.
-* **[!UICONTROL Préparer des diffusions]** : droit pour la création, la modification, la préparation et la suppression des diffusions. Les utilisateurs dotés de ce rôle peuvent préparer la diffusion, mais pas l&#39;envoyer.
-* **[!UICONTROL Démarrer des diffusions]** : droit pour la création, la modification, la préparation, l&#39;envoi et la suppression des diffusions.
+* **[!UICONTROL Generic import]**: Droit d’exécuter une importation générique sur des données. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
+* **[!UICONTROL Prepare deliveries]**: Droit de créer, modifier, préparer et supprimer des  de. Les utilisateurs dotés de ce rôle peuvent préparer la diffusion, mais pas l&#39;envoyer.
+* **[!UICONTROL Start deliveries]**: Droit de créer, modifier, préparer, envoyer et supprimer des  de.
 * **[!UICONTROL Workflow]** : droit de gérer l’exécution des workflows (démarrage, arrêt, pause, etc.). Les utilisateurs dotés de ce rôle ne peuvent pas envoyer de diffusion, même dans un workflow.
-
->[!IMPORTANT]
->
->Les rôles **[!UICONTROL Délivrabilité]**, **[!UICONTROL Exécution de commandes]**, **[!UICONTROL Export]**, **[!UICONTROL Accès aux fichiers]** et **[!UICONTROL Push Message Center]** sont réservés aux administrateurs d’Adobe à des fins d’utilisation interne. Ils ne doivent pas être accordés à un utilisateur.
 
 **Rubriques connexes :**
 
