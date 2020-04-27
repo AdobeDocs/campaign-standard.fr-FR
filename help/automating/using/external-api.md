@@ -9,8 +9,8 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
+translation-type: tm+mt
+source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 ---
 
@@ -21,23 +21,35 @@ source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ![](assets/wf_externalAPI.png)
 
-L’activité **[!UICONTROL API externe]** récupère des données dans le workflow d’un **système externe** via un appel **API REST**.
+The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via an **HTTP API** call.
 
-Les points d’entrée REST peuvent être un système de gestion client, une instance [Runtime Adobe I/O](https://www.adobe.io/apis/experienceplatform/runtime.html) ou un point d’entrée REST Experience Cloud (Data Platform, Target, Analytics, Campaign, etc.).
+Les points de terminaison système externes peuvent être des points de terminaison API publics, des systèmes de gestion des clients ou des instances d’application sans serveur (ex. : [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), pour ne citer que quelques .
 
 >[!NOTE]
 >
 >Pour des raisons de sécurité, l’utilisation de JSSP n’est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance Runtime Adobe I/O via l’activité API externe.
-
->[!IMPORTANT]
->
->Cette fonctionnalité est actuellement en version bêta. Vous devez accepter les termes du contrat d’utilisation avant de commencer à utiliser l’activité API externe. Cette fonctionnalité bêta n’ayant pas encore été commercialisée par Adobe, elle n’est pas prise en charge par l’Assistance clientèle Adobe. Elle peut contenir des erreurs et ne pas fonctionner aussi bien que d’autres fonctionnalités publiées.
 
 Les principales caractéristiques de cette activité sont les suivantes :
 
 * Capacité de transmettre des données dans un format JSON à un point d’entrée API REST tiers
 * Capacité de recevoir une réponse JSON, de la mapper sur des tables de sortie et de la transmettre en aval à d’autres activités de workflow
 * Gestion des échecs avec une transition spécifique sortante
+
+### Transition de la version bêta à la version GA {#from-beta-to-ga}
+
+Avec Campaign Standard version 20.3, la fonctionnalité API externe est passée de la version bêta à la version GA (General Availability).
+
+Par conséquent, si vous utilisiez le  API externe bêta  , vous devez les remplacer par le API externe GA dans tous les.  Les  qui utilisent la version bêta de l’API externe cesseront de fonctionner à partir de la version 20.3.
+
+Lorsque vous remplacez le  API externe, ajoutez le nouveau de  API externe au flux de travail, copiez manuellement les détails de la configuration, puis supprimez l&#39;ancien de.
+
+>[!NOTE]
+>
+>Vous ne pourrez pas copier sur les valeurs d’en-tête, car elles sont masquées dans le  .
+
+Ensuite, reconfigurez d’autres   dans le flux de travaux qui pointent vers et/ou utilisent les données du de l’API externe bêta pour pointer vers et/ou utiliser les données du nouveaud’API externe à la place. Exemples de   : de messagerie (),de, etc.
+
+### Limites et garde-fous {#guardrails}
 
 Les protections suivantes ont été mises en place pour cette activité :
 
@@ -49,11 +61,25 @@ Les protections suivantes ont été mises en place pour cette activité :
 
 >[!CAUTION]
 >
->Notez que l’activité est destinée à récupérer des données à l’échelle de la campagne (dernier ensemble d’offres, derniers scores, etc.) et non des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
+>Veuillez noter que le  de  est destiné à récupérer les données de l’ensemble de la campagne (dernier jeu d’de , derniers scores, etc.), et non à récupérer des informations spécifiques pour chaque, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
+
+
+Des garde-fous spécifiques ont été mis en place pour le JSON :
+
+* **Profondeur** maximale JSON : limite la profondeur maximale d’un fichier JSON imbriqué personnalisé qui peut être traité à 10 niveaux.
+* **Longueur** maximale de la clé JSON : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.
+* **JSON Max Keys Allowed**:  limite à 150 le nombre total maximal de noms de propriétés JSON , qui sont utilisés comme ID de colonne.
+
+
+Le  de  n’est pas pris en charge par la structure JSON en tant que :
+
+* Combinaison d’un objet de tableau avec d’autres éléments autres que le tableau
+* L’objet de tableau JSON est imbriqué dans un ou plusieurs objets de tableau intermédiaire.
+
 
 ## Configuration {#configuration}
 
-Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez l’activité pour commencer la configuration.
+Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
 
 ### Mapping entrant
 
@@ -64,7 +90,7 @@ Selon ce tableau temporaire, l’utilisateur peut apporter des modifications aux
 
 La liste déroulante **Ressource entrante** permet de sélectionner l’activité de requête qui crée le tableau temporaire.
 
-La case à cocher **Ajouter un paramètre de comptage** est une valeur numérique pour chaque ligne provenant du tableau temporaire. Cette case à cocher est disponible uniquement si l’activité entrante génère un tableau temporaire.
+The **Add count parameter** checkbox will add a count value for each row coming from the temporary table. Cette case à cocher est disponible uniquement si l’activité entrante génère un tableau temporaire.
 
 La section **Colonnes entrantes** permet à l’utilisateur d’ajouter n’importe quel champ du tableau de transition entrante. Les colonnes sélectionnées sont les clés de l’objet de données. L’objet de données du code JSON est une liste de tableaux contenant les données des colonnes sélectionnées de chaque ligne du tableau de transition entrante.
 
@@ -76,17 +102,26 @@ Cet onglet permet de définir l’exemple de **structure JSON** renvoyé par l�
 
 ![](assets/externalAPI-outbound.png)
 
-Le modèle de structure JSON est le suivant : `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+L’analyseur JSON est conçu pour s’adapter aux types de modèles de structure JSON standard, à quelques exceptions près. Voici un exemple de modèle standard :`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 L’exemple de définition JSON doit présenter les **caractéristiques suivantes** :
 
-* **data** est un nom de propriété obligatoire dans le code JSON. Le contenu de &quot;data&quot; est un tableau JSON.
 * Les **éléments de tableau** doivent contenir des propriétés de premier niveau (les niveaux plus profonds ne sont pas pris en charge).
-   Les **noms de propriété** deviennent des noms de colonne pour le schéma de sortie du tableau temporaire de sortie.
+   **Les noms** de propriété finiront par devenir des noms de colonne pour le de sortie de la table temporaire de sortie.
+* **Les éléments** JSON à capturer doivent être imbriqués à 10 niveaux ou moins dans la réponse JSON.
 * La définition du **nom de colonne** repose sur le premier élément du tableau &quot;data&quot;.
 La définition des colonnes (ajout/suppression) et la valeur de type de la propriété peuvent être éditées dans l’onglet **Définition des colonnes**.
 
-Si l’**analyse est validée**, un message s’affiche. Il vous invite à personnaliser le mappage des données dans l’onglet &quot;Définition des colonnes&quot;. Dans d’autres cas, un message d’erreur s’affiche.
+**Aplatir le comportement des cases à cocher** :
+
+Case à cocher Aplatir (par défaut : (non coché) est fourni pour indiquer si le fichier JSON doit être aplati ou non sur une carte clé/valeur.
+
+* Lorsque la **case à cocher est désactivée** (non cochée), l’exemple JSON est analysé pour rechercher un objet de tableau. L’utilisateur devra fournir une version abrégée du format JSON d’exemple de réponse d’API afin que  Adobe Campaign puisse déterminer exactement la baie que l’utilisateur souhaite utiliser. Au moment de la création du processus, le chemin d’accès à l’objet de tableau imbriqué sera déterminé et enregistré, de sorte qu’il puisse être utilisé au moment de l’exécution pour accéder à cet objet de tableau à partir du corps de réponse JSON reçu de l’appel d’API.
+
+* Lorsque la **case à cocher est activée** (cochée), l’exemple JSON est aplati et toutes les propriétés spécifiées dans l’exemple JSON fourni sont utilisées pour créer des colonnes du tableau temporaire de sortie et affichées dans l’onglet Définitions des colonnes. Notez que s’il existe un objet de tableau dans l’exemple JSON, tous les éléments de ces objets de tableau seront également aplatis.
+
+
+If the **parsing is validated**, a message appears and invites you to customize the data mapping in the &quot;Column definition&quot; tab. Dans d’autres cas, un message d’erreur s’affiche.
 
 ### Exécution
 
