@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Mises à jour de la documentation{#documentation-updates}
 
-Découvrez l’ensemble des mises à jour les plus récentes de la documentation d’Adobe Campaign Standard.
+Outre les Notes [de](../../rn/using/release-notes.md)mise à jour , cette page Adobe Campaign toutes les nouvelles mises à jour de la documentation de Standard.
 
-Cette page répertorie toutes les nouvelles fonctionnalités et mises à jour de la documentation pour chaque version d’Adobe Campaign Standard.
+## Version 20.3 - Mai 2020      {#release-20-3---may-2020}
 
-Vous pouvez également consulter les [notes de mise à jour](../../rn/using/release-notes.md) d&#39;Adobe Campaign.
+**Nouvelles fonctionnalités de cette version**
+
+La loi thaïlandaise sur la protection des données personnelles (PDPA) - [Lire plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html)
+
+d&#39;API  externe (GA) - [En savoir plus](../../automating/using/external-api.md)
+
+**Autres mises à jour de la documentation accompagnant cette version**
+
+* Des informations ont été ajoutées sur le **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** champ dans les propriétés  de l&#39;, qui inclut désormais les fichiers téléchargés par le  de l&#39;de . [En savoir plus](../../automating/using/executing-a-workflow.md)
+
+* Des informations ont été ajoutées dans la section de substitution des  concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
 ## Mises à jour de la documentation - avril 2020 {#doc-updates-april-2020}
 
-L&#39;intégration de Microsoft Dynamics 365 à  documentation de Adobe Campaign Standard a été intégrée dans la documentation principale du guide Intégration à d&#39;autres solutions. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+L&#39;intégration de Microsoft Dynamics 365 avec  documentation de Adobe Campaign Standard est désormais disponible dans la documentation de base. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Des ressources supplémentaires ont été ajoutées au  de documentation. [En savoir plus](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Des informations sur le service d’ID d’expérience (ECID) ont été ajoutée
 
 La section Configuration de la messagerie transactionnelle a été améliorée avec des informations sur l’accès aux derniers  transactionnels et des captures d’écran mises à jour. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-La section relative aux typologies et aux  de a été améliorée et mise à jour avec des informations supplémentaires sur les  prêtes à l&#39;emploi. [En savoir plus](../../sending/using/about-typology-rules.md)
+Les typologies et la documentation des  ont été améliorées et mises à jour avec des informations supplémentaires sur les  intégrées. [En savoir plus](../../sending/using/about-typology-rules.md)
 
 Des informations ont été ajoutées sur l&#39; **[!UICONTROL Transfer file]** action  **[!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ La section **Aperçu du** a été mise à jour avec des exemples de mobiles.[En 
 Les meilleures pratiques ont été ajoutées en ce qui concerne la messagerie transactionnelle et la suppression des  en temps réel inutilisées. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 La section Configuration des  de de messagerie a été mise à jour afin d’apporter des éclaircissements sur tous les paramètres de messagerie qui sont maintenant gérés par  MTA amélioré. [En savoir plus](../../administration/using/configuring-email-channel.md)
+
+La section Configuration de la messagerie transactionnelle a été mise à jour avec des informations supplémentaires sur les droits nécessaires pour modifier les configurations des  et sur la manière d&#39;enrichir les collections dans les  de. [En savoir plus](../../administration/using/configuring-transactional-messaging.md).
 
 ## Version 20.2 - Avril 2020      {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ Mise à jour de la documentation sur le Concepteur d’email de Campaign et des 
 
 Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relatives au modèle de données Campaign Standard –  [En savoir plus](../../developing/using/data-model-best-practices.md)
 
-Ajout d’informations sur le droit d’usine **[!UICONTROL Workflow]** –  [En savoir plus](../../administration/using/list-of-roles.md)
+Information has been added on the **[!UICONTROL Workflow]** built-in right. [En savoir plus](../../administration/using/list-of-roles.md)
 
 Des informations ont été ajoutées sur la **[!UICONTROL History in days field]** page disponible dans les propriétés  du. [En savoir plus](../../automating/using/executing-a-workflow.md)
 
@@ -453,7 +465,7 @@ Mise à jour du guide de notification Push avec les changements de l’interface
 
 Ajout d’informations sur la suppression d’une audience – [En savoir plus](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-Mise à jour de la section du rapport d’usine sur les notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
+Mise à jour de la section de rapport intégré de notification Push. [En savoir plus](../../reporting/using/push-notification-report.md)
 
 ## Version 18.7 - Juillet 2018       {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ Activité d’enrichissement : enrichissez les données en fonction des transit
 
 Modification de la plupart des URL des intégrations des solutions Adobe avec Campaign. Vérifiez vos signets – [En savoir plus](../../integrating/using/about-campaign-integrations.md)
 
-Datamodel v1 est maintenant disponible avec la structure SQL pour les ressources d’usine – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 Ajout d’informations sur la préparation d’un message dans une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ Nouvelle technote sur la façon de créer ou de mettre à jour les données de p
 
 Ajout d’une section sur les nouvelles fonctionnalités de suivi d’export – [En savoir plus](../../administration/using/auditing-export-logs.md)
 
-Ajout de précisions sur l’export du package d’usine – [En savoir plus](../../automating/using/managing-packages.md)
+Ajout de précisions sur l’exportation de package intégrée. [En savoir plus](../../automating/using/managing-packages.md)
 
 Mise à jour de la définition et des exemples de compte externe – [En savoir plus](../../administration/using/external-accounts.md)
 
