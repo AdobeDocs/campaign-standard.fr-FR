@@ -11,8 +11,8 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+translation-type: tm+mt
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
 
 Cette section regroupe les différentes instructions de configuration pour Adobe Campaign Standard.
 
-Identifiez les navigateurs compatibles avec Campaign Standard et les différents systèmes d’exploitation pris en charge pour les tablettes.
+Identifiez les navigateurs compatibles avec Campaign Standard et les différents systèmes d’exploitation pris en charge pour les tablettes. Voir à ce propos [cette section](../../administration/using/compatible-browsers.md).
 
-Découvrez également les différents points d’entrée utilisés dans Campaign Standard.
+Découvrez également les différents points d’entrée utilisés dans Campaign Standard. Voir à ce propos [cette section](../../administration/using/campaign-standard-network-endpoints.md).
