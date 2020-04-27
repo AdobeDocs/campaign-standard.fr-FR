@@ -11,26 +11,26 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
 
-# A propos de l'intégration Campaign-Analytics{#about-campaign-analytics-integration}
+# A propos de l&#39;intégration Campaign-Analytics{#about-campaign-analytics-integration}
 
-Grâce à l'intégration d'Adobe Analytics dans Adobe Campaign, vous pouvez désormais tracker le succès de vos diffusions email directement dans Adobe Analytics.
+Grâce à l&#39;intégration d&#39;Adobe Analytics dans Adobe Campaign, vous pouvez désormais tracker le succès de vos diffusions email directement dans Adobe Analytics.
 
-Cette intégration entre Adobe Campaign Standard et Adobe Analytics vous permet d'effectuer les opérations suivantes :
+Cette intégration entre Adobe Campaign Standard et Adobe Analytics vous permet d&#39;effectuer les opérations suivantes :
 
 * partager vos données de KPI (Key Performance Indicator) depuis Adobe Campaign Standard vers Adobe Analytics ;
-* enrichir les formules de tracking avec les paramètres d'Adobe Analytics.
+* enrichir les formules de tracking avec les paramètres d&#39;Adobe Analytics.
 
-Pour mettre en œuvre cette intégration, un compte externe associé à Adobe Analytics doit d'abord être créé. Un workflow technique est ensuite automatiquement lancé. Par défaut, il s'exécute automatiquement toutes les 15 minutes. Vos données de KPI sont ensuite transférées à Analytics.
+Pour mettre en œuvre cette intégration, un compte externe associé à Adobe Analytics doit d&#39;abord être créé. Un workflow technique est ensuite automatiquement lancé. Par défaut, il s&#39;exécute automatiquement toutes les 15 minutes. Vos données de KPI sont ensuite transférées à Analytics.
 
 Cette intégration est disponible pour les diffusions email uniquement.
 
-Une intégration entre le core service **Triggers** d'Adobe Analytics et Adobe Campaign est également disponible. Elle vous permet d'envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics (dans les 15 minutes).
+Une intégration entre le core service **Triggers** d&#39;Adobe Analytics et Adobe Campaign est également disponible. Elle vous permet d&#39;envoyer des emails personnalisés à vos clients en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics (dans les 15 minutes).
 
 **Rubriques connexes :**
 
