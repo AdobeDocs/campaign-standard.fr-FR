@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # Configuration du canal Email{#configuring-email-channel}
 
-En tant qu’ [administrateur](../../administration/using/about-administrating-adobe-campaign.md)Campaign, vous pouvez configurer les paramètres  des de messagerie. Ces paramètres avancés comprennent les paramètres généraux du de messagerie électronique, les comptes de  de de messagerie électronique, les règles de traitement de courrier électronique et les propriétés du courrier électronique. Sur cette page, vous apprendrez à modifier les valeurs par défaut des paramètres généraux de courrier électronique et d’envoi.
+En tant qu’ [administrateur](../../administration/using/users-management.md#functional-administrators)Campaign, vous pouvez configurer les paramètres  des de messagerie. Ces paramètres avancés comprennent les paramètres généraux du de messagerie électronique, les comptes de  de de messagerie électronique, les règles de traitement de courrier électronique et les propriétés du courrier électronique. Sur cette page, vous apprendrez à modifier les valeurs par défaut des paramètres généraux de courrier électronique et d’envoi.
 
 Notez que certains paramètres de courrier électronique sont désormais gérés par la  Adobe Campaign MTA améliorée. Par conséquent :
 * Certaines configurations de l’interface utilisateur Campaign ne sont plus appliquées :
@@ -273,7 +273,7 @@ La préparation des messages est présentée dans la section [Valider les messag
 
    >[!NOTE]
    >
-   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in the [Typologies](../../sending/using/about-typology-rules.md) section.
+   >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in [this section](../../sending/using/about-typology-rules.md).
 
 * **[!UICONTROL Compute the label during delivery preparation]**: vous permet de calculer la valeur d’étiquette du courrier électronique pendant la phase de préparation du message à l’aide des , des blocs de contenu et du texte dynamique.
 
