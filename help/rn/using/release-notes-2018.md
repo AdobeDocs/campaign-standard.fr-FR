@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -108,7 +108,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Filtre de typologie pour les abonnés aux applications mobiles<br /> </td> 
-   <td> Prise en charge des abonnements dans le filtre de typologie - Lorsque vous spécifiez les critères de filtrage pour une règle de typologie, vous pouvez sélectionner les abonnements aux applications comme dimensions de ciblage et de filtrage, de façon à filtrer en fonction des attributs pour les utilisateurs possédant ou non un profil. <br /> Pour plus d'informations, consultez la <a href="../../sending/using/about-typology-rules.md#typology-rules">documentation détaillée</a>.<br /> </td> 
+   <td> Prise en charge des abonnements dans le filtre de typologie - Lorsque vous spécifiez les critères de filtrage pour une règle de typologie, vous pouvez sélectionner les abonnements aux applications comme dimensions de ciblage et de filtrage, de façon à filtrer en fonction des attributs pour les utilisateurs possédant ou non un profil. <br /> Pour plus d'informations, consultez la <a href="../../sending/using/about-typology-rules.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Importation de contenu automatisée à partir d'une URL lors de la préparation des messages<br /> </td> 
