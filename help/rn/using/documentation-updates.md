@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ d&#39;API  externe (GA) - [En savoir plus](../../automating/using/external-api.m
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-* Des informations ont été ajoutées sur le **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** champ dans les propriétés  de l&#39;, qui inclut désormais les fichiers téléchargés par le  de l&#39;de . [En savoir plus](../../automating/using/executing-a-workflow.md)
+Des informations ont été ajoutées sur le **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** champ dans les propriétés  de l&#39;, qui inclut désormais les fichiers téléchargés par le  de l&#39;de . [En savoir plus](../../automating/using/executing-a-workflow.md)
 
-* Des informations ont été ajoutées dans la section de substitution des  concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
+Des informations ont été ajoutées dans la section de substitution des  concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
+
+Une nouvelle section consacrée à la protection des renseignements personnels et au consentement a été ajoutée à la documentation principale. [En savoir plus](../../start/using/privacy.md)
+
+* Un cas d’utilisation a été ajouté pour vous permettre de convertir les courriers électroniques hérités de l’éditeur en e-mail Designer. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* Une section de questions fréquentes a été ajoutée à propos du concepteur de courrier électronique. [En savoir plus](../../designing/using/faq-email-designer.md)
 
 ## Mises à jour de la documentation - avril 2020 {#doc-updates-april-2020}
 
