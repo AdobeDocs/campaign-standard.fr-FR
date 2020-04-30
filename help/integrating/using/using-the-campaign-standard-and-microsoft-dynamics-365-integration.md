@@ -1,5 +1,5 @@
 ---
-title: Utilisation de Microsoft Dynamics 365 avec intégration Campaign Standard
+title: Utilisation de l'intégration Microsoft Dynamics 365
 description: Découvrez comment utiliser Microsoft Dynamics 365 avec l'intégration Campaign Standard
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Utilisation de Microsoft Dynamics 365 avec intégration Campaign Standard
+# Utilisation de l&#39;intégration Microsoft Dynamics 365
 
 Cette intégration exécute plusieurs tâches :
 
@@ -90,23 +90,23 @@ Pour le Journal d’un contact, accédez à vos contacts  en cliquant sur le Cen
 
 Vous trouverez ci-dessous un instantané de l’écran Contact pour &quot;Dynamics User&quot;.  Dans le de chronologie, vous remarquerez que l’utilisateur de Dynamics a reçu un courrier électronique associé au Campaign Nom &quot;2019LoyaltyCamp&quot; et auNom de la  &quot;DM190&quot;.  Dynamics User a ouvert le courrier électronique et a également cliqué sur une URL dans le courrier électronique ; ces deux actions ont créé des  qui sont également présentées ci-dessous.  Si vous regardez dans le coin droit, vous verrez la carte de l&#39;assistant de relations (AR); il contient actuellement un  de suivi de l’URL sur laquelle l’utilisateur a cliqué.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Voir ci-dessous un résumé du de chronologie pour l’utilisateur de Dynamics.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Ci-dessous se trouve un gros plan de la carte de l&#39;Assistant Relations (RA).  L’application AppSource contient un flux de travail qui recherche un de clics sur l’URL de courriel Adobe.  Lorsque ce se produit, il crée un  de et définit une date d’échéance.  Cela permet au de s’afficher dans la carte d’évaluation, ce qui lui donne une visibilité supplémentaire.  Il existe un flux de travail similaire pour le de rebonds de courrier électronique Adobe, en ajoutant un  pour rapprocher l’adresse électronique non valide.  Ces  peuvent être désactivées dans la solution.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Si vous cliquez sur le sujet du  d’envoi, vous verrez un formulaire similaire à celui ci-dessous.  Les formulaires pour les  d’ouverture et de rebond sont similaires.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 Le formulaire pour le de clics d’URL de courriel ajoute un attribut supplémentaire pour l’URL sur laquelle l’utilisateur a cliqué :
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Voici un  des attributs et une description :
 
