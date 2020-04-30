@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Des vidéos pratiques sont également proposées sur [cette page](https://docs.a
 
 * Le transfert d’usine des événements d’abonnement n’est pas pris en charge. Pour transférer des événements d’abonnement, vous pouvez créer le fichier XDM et le jeu de données correspondants sur Adobe Experience Platform, puis configurer un mapping de données personnalisé pour ces données.
 
-* En ce qui concerne les demandes d’accès à des informations personnelles, les clients doivent effectuer des demandes distinctes pour Campaign core privacy service et pour Adobe Experience Platform dans le cas des actions d’accès et de suppression.
+* En ce qui concerne les requêtes de confidentialité (actions d’accès et de suppression), les clients doivent placer des requêtes distinctes : l’une pour Campaign via l’intégration de Privacy Core Service (voir [cette section](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)), l’autre pour Adobe Experience Platform via son service [de](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ccpa)confidentialité. Pour plus d’informations sur les demandes d’accès et de suppression, voir [cette page](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess).
 
 * Pour chaque champ XDM, la définition du libellé DULE doit être effectuée dans Adobe Experience Platform. Il incombe au client d’appliquer des libellés DULE.
 
