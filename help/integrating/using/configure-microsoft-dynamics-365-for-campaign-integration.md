@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ Pour générer le  OAuth, suivez les étapes décrites ci-dessous.
 
 1. Cliquez **[!UICONTROL New registration]** en haut de l’écran.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Renseignez l’écran d’enregistrement de l’application :
 
@@ -74,7 +74,7 @@ Pour plus d&#39;informations sur la création d&#39;une application, reportez-vo
 
 1. Dans l’écran de présentation de l’application, dans le sous-menu de gauche, cliquez sur **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Entrez une description, définissez la durée et cliquez sur **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ Pour plus d’informations sur la génération d’un secret client, reportez-vo
 
 1. Dans cet écran ou dans l’écran de présentation de l’application, cliquez sur **[!UICONTROL API permissions]** dans le sous-menu de gauche.  Après avoir cliqué **[!UICONTROL Add a permission]**, vous devez sélectionner **[!UICONTROL Dynamics CRM]** dans le menu.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. Cochez ensuite la case **[!UICONTROL user_impersonation]**, puis cliquez sur le **[!UICONTROL Add permissions]** bouton.
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 Pour plus d&#39;informations sur la configuration des autorisations, reportez-vous à [cette section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 
@@ -138,7 +138,7 @@ Suivez les instructions du lien suivant pour trouver votre ID de client.  Vous a
 Pour intégrer l&#39;application Dynamics 365 à votre Campaign Standard , suivez les étapes ci-dessous :
 
 1. Accédez au lien suivant : [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) et recherchez _Adobe Campaign pour Dynamics 365_ dans la barre de recherche.
-Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview).
+Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Suivez les instructions pour installer l&#39;application pour votre instance Dynamics 365.
 1. Une fois installé, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.
 1. Cliquez sur l&#39;icône en forme d&#39;engrenage dans le coin supérieur droit et cliquez sur **[!UICONTROL Advanced Settings]**. Dans la bannière supérieure, cliquez sur le menu déroulant en regard de **[!UICONTROL Settings]**, cliquez **[!UICONTROL Processes]** sous **[!UICONTROL Process Center]**.
@@ -151,7 +151,7 @@ Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/en-
 >
 >Si vous souhaitez désactiver ces processus à tout moment, vous pouvez le faire dans cet **[!UICONTROL Processes]** écran.
 
-Une fois cette configuration terminée, vous pouvez configurer la configuration Unifi. Voir à ce propos [cette page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Une fois cette configuration terminée, vous pouvez configurer la configuration Unifi. Pour plus d’informations à ce propos, consultez cette [page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 **Rubriques connexes :**
 
