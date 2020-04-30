@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 Avec Campaign Standard version 20.3, la fonctionnalité API externe est passée de la version bêta à la version GA (General Availability).
 
-Par conséquent, si vous utilisiez le  API externe bêta  , vous devez les remplacer par le API externe GA dans tous les.  Les  qui utilisent la version bêta de l’API externe cesseront de fonctionner à partir de la version 20.3.
+>[!CAUTION]
+>
+>Par conséquent, si vous utilisiez le  API externe bêta  , vous devez les remplacer par le API externe GA dans tous les.  Les  qui utilisent la version bêta de l’API externe cesseront de fonctionner à partir de la version 20.3.
 
 Lorsque vous remplacez le  API externe, ajoutez le nouveau de  API externe au flux de travail, copiez manuellement les détails de la configuration, puis supprimez l&#39;ancien de.
 
