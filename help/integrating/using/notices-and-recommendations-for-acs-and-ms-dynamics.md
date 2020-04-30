@@ -1,5 +1,5 @@
 ---
-title: '"Utilisation de Campaign Standard et de Microsoft Dynamics 365 : Avis et recommandations"'
+title: À propos de l'intégration de Microsoft Dynamics 365
 description: Découvrez les informations et les recommandations relatives à la manière de travailler avec Campaign Standard et Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Utilisation de Campaign Standard et de Microsoft Dynamics 365 : Avis et recommandations
+# À propos de l&#39;intégration de Microsoft Dynamics 365
 
 ## Prise en charge de la région
 
@@ -49,7 +49,7 @@ Lorsqu’un contact est supprimé dans Dynamics 365, l’intégration met en fil
 
 Cependant, si le processus en deux étapes est activé, vous devrez accéder à l’écran Demande/Outils de confidentialité, après l’exécution du de confidentialité, et confirmer si les enregistrements sont corrects pour être supprimés.  C&#39;est alors seulement que Campaign s&#39;occupera de la suppression.
 
-Pour plus d&#39;informations, reportez-vous à la section [Comment exécuter des requêtes de suppression liées à la confidentialité dans  Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
+Pour plus d&#39;informations, reportez-vous à [Comment exécuter des requêtes de suppression liées à la confidentialité dans  Adobe Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
 
 >[!CAUTION]
 >
