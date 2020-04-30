@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ Le client a un véhicule d&#39;entité personnalisé prédéfini dans Dynamics 3
 
 Les entités personnalisées de ce client dans Dynamics 365 peuvent être affichées dans le des ventes en cliquant sur la liste déroulante en regard de Dynamics 365.  Les entités personnalisées de ce client sont regroupées sous **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 Vous pouvez afficher les données du véhicule en cliquant sur l&#39;entité **[!UICONTROL vehicle]** personnalisée.  Voir le  des véhicules ci-dessous.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 La relation de l&#39; **[!UICONTROL vehicle]** entité avec l&#39; **[!UICONTROL Contact]** entité peut être vue ci-dessous. **[!UICONTROL Parental]** a été choisi pour le **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Configuration dans Campaign Standard
 
@@ -102,7 +102,7 @@ Campaign affiche alors les structures de données et la page de lien.  Vous pouv
 >
 >Chaque ressource personnalisée doit avoir un champ unique avec un ID externalId (exactement).  Ce champ correspond au champ ID de la ressource personnalisée dans Dynamics 365 (voir ci-dessous).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### Définition des clés d’identification
 
@@ -146,7 +146,7 @@ Ensuite, nous allons spécifier la liaison de la ressource personnalisée.  Dans
 
 Pour la définition de jointure, nous saisissons les valeurs ci-dessous.
 
-Notez que l’ **[!UICONTROL @externalId]** entrée est le champ externalId de la table  et que l’ **[!UICONTROL ProfileExternalId]** entrée est l’ID du champ correspondant dans la ressource personnalisée Véhicules.  Lorsque la valeur externalId d&#39;un enregistrement  est entrée dans le **[!UICONTROL ProfileExternalId]** champ d&#39;un enregistrement de véhicule, les deux enregistrements sont liés.
+Notez que l’ **[!UICONTROL @externalId]** entrée est le champ externalId de la table  de et que l’ **[!UICONTROL ProfileExternalId]** entrée est l’ID du champ correspondant dans la ressource personnalisée Véhicules.  Lorsque la valeur externalId d&#39;un enregistrement  est entrée dans le **[!UICONTROL ProfileExternalId]** champ d&#39;un enregistrement de véhicule, les deux enregistrements sont liés.
 
 ![](assets/JoinDefinition.png)
 
@@ -170,7 +170,7 @@ Cliquez ensuite **[!UICONTROL Publish]** et attendez qu’il se termine.
 
 En supposant que le client a déjà renseigné l&#39;entité personnalisée du véhicule dans Dynamics 365 et qu&#39;Unifi ait configuré les tâches et les calendriers de l&#39;entité personnalisée du véhicule avec, le client devrait être en mesure de démarrer le calendrier d&#39;entrée pour l&#39;entité du véhicule.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 Une fois la tâche d’entrée terminée, les données du véhicule sont maintenant visibles dans la ressource **[!UICONTROL Vehicle]** personnalisée nouvellement renseignée dans Campaign.
 
