@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ Le Concepteur d&#39;email propose quatre méthodes pour créer des emails.
 
 Vous pouvez créer un email [entièrement nouveau dans le Concepteur d&#39;emails](#without-existing-content) :
 
-* Vous pouvez créer un email à partir d&#39;un canevas vierge en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. You can **create an email from a blank canvas** by easily adding structure and content components and personalize their content to send a delivery quickly. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-* Vous pouvez créer un email à partir d&#39;un modèle d&#39;usine. Pour ce faire, sélectionnez un modèle et créez votre contenu d&#39;email à partir de celui-ci. [En savoir plus](#building-content-from-an-out-of-the-box-template)
+1. You can **create an email from an out-of-the-box template** by selecting a template and building your new email content from here. [En savoir plus](#building-content-from-an-out-of-the-box-template)
 
 Vous pouvez également créer un email [avec du contenu existant ](#with-existing-content) :
 
-* Vous pouvez convertir du contenu HTML existant (créé en externe ou dans l&#39;ancien éditeur). [En savoir plus](#converting-an-html-content)
-* Vous pouvez importer du contenu HTML existant directement en mode de compatibilité. [En savoir plus](#compatibility-mode)
+1. You can **convert an existing HTML content** (created externally or in the legacy editor). [En savoir plus](#converting-an-html-content)
+1. You can **import an existing HTML content** straight away in compatibility mode. [En savoir plus](#compatibility-mode)
 
 | Sans contenu | Avec contenu |
 |---|---|
@@ -139,7 +139,7 @@ Si vous voulez créer un framework de fragments et de modèles modulaires qui pe
 
 ### Conversion de contenu HTML {#converting-an-html-content}
 
-Ce cas d’utilisation   une méthode rapide pour convertir le courrier électronique HTML en composants de Designer de messagerie.
+Ce cas d’utilisation   une méthode rapide pour convertir le courrier électronique HTML en composants de Designer de messagerie. Pour plus d’informations sur cette rubrique, voir [Conversion de contenu](../../designing/using/using-existing-content.md#converting-an-html-content)HTML.
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ Ce cas d’utilisation   une méthode rapide pour convertir le courrier électro
 >
 >De la même manière que le mode de compatibilité, un composant HTML est éditable avec des options limitées : vous pouvez uniquement effectuer l&#39;édition locale.
 
-En dehors du Concepteur d&#39;email, veillez à ce que le code HTML d&#39;origine soit divisé en sections réutilisables.
-
-1. Ouvrez le Concepteur d&#39;email pour créer un contenu d&#39;email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
-
-Si tel n&#39;est pas le cas, divisez les différents blocs de votre code HTML. Par exemple, voici une section clairement identifiée :
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Concepteur d&#39;email pour chaque section de votre email existant :
-
-1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Ajoutez un composant HTML. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copiez votre code HTML et collez-le dans ce composant.
-1. Passer en vue Mobile. Voir à ce propos [cette section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
-
-   La vue en responsive design est endommagée, car il manque votre CSS.
-
-1. Pour résoudre cela, passez en mode de code source, copiez votre section de style et collez-la dans une nouvelle section de style. Par exemple :
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >Veillez à ajouter votre style après cette opération dans une autre balise de style personnalisée.
-   >
-   >Ne modifiez pas le CSS généré par le Concepteur d&#39;email :
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. Revenez à la vue mobile pour vérifier que votre contenu s&#39;affiche correctement et enregistrez vos modifications.
 
 ### Import et édition d&#39;un email HTML {#compatibility-mode}
 
 Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l&#39;aide de l&#39;éditeur WYSIWYG du Concepteur d&#39;email.
 
-Si tout ou partie du code HTML téléchargé n&#39;est pas conforme avec le balisage attendu, le contenu est alors chargé en &quot;mode de compatibilité&quot;, ce qui limite les possibilités d&#39;édition via l&#39;interface utilisateur.
-
-Lorsqu&#39;un contenu est chargé en mode de compatibilité, vous pouvez toujours effectuer les modifications suivantes via l&#39;interface utilisateur (les actions indisponibles sont masquées) :
-
-* changer le texte ou changer une image,
-* insérer des liens et des champs de personnalisation,
-* éditer quelques options de style dans le bloc HTML sélectionné
-* Définir du contenu conditionnel
-
-![](assets/email_designer_compatibility.png)
-
-D&#39;autres modifications telles que l&#39;ajout de nouvelles sections à votre email ou des styles sophistiqués doivent être effectuées directement dans le code source de l&#39;email via le mode HTML.
-Bien que le mode de compatibilité ne vous permette pas d&#39;utiliser la fonction de glisser-déposer, il garantit les mêmes fonctionnalités que l&#39;ancien éditeur.
-
-Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le Concepteur d&#39;email, voir [cette section](../../designing/using/using-existing-content.md).
+Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le Concepteur d&#39;email, voir [cette section](../../designing/using/using-existing-content.md#compatibility-mode).
