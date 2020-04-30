@@ -98,8 +98,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Génération d’un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
       + [Mise en oeuvre du suivi Push](channels/using/push-tracking.md)
-      + [Affichage d’une image à partir d’une  Adobe Campaign de notification Push standard](channels/using/image-push-notification.md)
-      + [Présentation Campaign Standard structure de charge utile des notifications Push](channels/using/push-payload.md)
+      + [Affichage d’une image à partir d’une notification Push Adobe Campaign Standard](channels/using/image-push-notification.md)
+      + [Présentation de la structure de charge utile des notifications Push Campaign Standard](channels/using/push-payload.md)
    + Messagerie in-app {#in-app-messaging}
       + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d’un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -135,7 +135,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
       + [Utilisation d’intégrations multisolution](designing/using/using-integrations.md)
       + [Modification de texte brut, de HTML et d’emails mobiles](designing/using/plain-text-html-modes.md)
-      + [Conversion de courriers électroniques hérités dans le concepteur de courriers électroniques](designing/using/converting-emails-from-legacy-editor.md)
+      + [Conversion de courriers électroniques de l’éditeur hérité dans le Concepteur de courriers électroniques](designing/using/converting-emails-from-legacy-editor.md)
    + [Personnalisation du contenu des emails](designing/using/personalization.md)
    + [Gestion des styles d’email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
@@ -144,7 +144,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 + Test et envoi {#testing-and-sending}
    + [À propos de l’envoi de messages avec Campaign](sending/using/about-sending-messages-with-campaign.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
-      + [Aperçu des  de](sending/using/previewing-messages.md)
+      + [Prévisualisation des diffusions](sending/using/previewing-messages.md)
       + [Préparer l’envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
       + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md).
@@ -175,9 +175,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
       + [Résolution des problèmes](sending/using/troubleshooting.md)
    + Utilisation des règles de typologie {#working-with-typology-rules}
-      + [A propos des typologies et des](sending/using/about-typology-rules.md)
+      + [A propos des typologies et des règles de typologie](sending/using/about-typology-rules.md)
       + [Gestion des typologies](sending/using/managing-typologies.md)
-      + [Gestion des](sending/using/managing-typology-rules.md)
+      + [Gestion des règles de typologie](sending/using/managing-typology-rules.md)
       + [Règles de filtrage](sending/using/filtering-rules.md)
       + [Règles de fatigue](sending/using/fatigue-rules.md)
       + [Cas des règles de contrôle](sending/using/control-rules.md)
@@ -218,7 +218,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Création d’un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Campaign et {#working-with-campaign-and-target}
+   + Campaign et Cible {#working-with-campaign-and-target}
       + [A propos de l’intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurer l’intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
       + [Ajouter du contenu dynamique Target](integrating/using/adding-target-dynamic-content.md)
@@ -232,7 +232,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d’audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campaign et analyses pour mobiles {#working-with-campaign-and-analytics-for-mobile}
+   + Campaign et Analytics pour Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [A propos de l’intégration Campaign-Données de points ciblés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurer l’intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personnaliser des messages Campaign avec les données de points ciblés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -244,14 +244,14 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Cas pratiques Triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + Working with Campaign Standard and Microsoft Dynamics 365 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Prise en main de l’intégration de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [À propos de l&#39;intégration de Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Demande et configuration de l&#39;intégration Microsoft Dynamics 365](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Utilisation de l&#39;intégration Microsoft Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Configuration de l’intégration d’Adobe IO pour Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Configuration de Microsoft Dynamics 365 pour Campaign intégration](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Configuration de l’intégration Unifi pour Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Mappage Campaign ressources personnalisées et entités personnalisées de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Configuration de l&#39;intégration d&#39;Adobe IO pour Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Configuration de l&#39;intégration Microsoft Dynamics 365 pour Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Configuration de l&#39;intégration Unifi pour Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Mappage des ressources personnalisées Campaign et des entités personnalisées Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + Workflows et gestion des données {#about-workflows-and-data-management}
       + [Données de workflow et processus](automating/using/workflow-data-and-processes.md)
