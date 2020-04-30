@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ Exemple :  Campaign Standard - your-campaign-organisationID - Administrateurs
 
 Cliquez sur **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Configuration des détails de l’intégration
 
@@ -144,13 +144,13 @@ Cliquez sur **[!UICONTROL Create Integration]**.
 
 Consultez les détails de l’intégration.  Vous devez y faire référence lorsque vous exécutez les étapes de post-mise en service Unifi.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Cliquez sur l’ **[!UICONTROL Services]** onglet et ajoutez **[!UICONTROL I/O Events]** **[!UICONTROL I/O Management API]** des services.  Pour ajouter le service, cliquez sur le bouton radio, puis **[!UICONTROL Add service]**.  Vous le ferez séparément pour chaque service.
 
 Lorsque vous avez terminé, vos services devraient apparaître en haut comme l&#39;image ci-dessous. Vous n’aurez pas besoin de compléter la section A-on pour générer un  JWT et un.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 La mise en service des publications dans Campaign est maintenant terminée.  Passez à la procédure de configuration [post-publication pour Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
