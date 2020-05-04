@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -21,35 +21,35 @@ source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 Adobe perfectionne constamment ses solutions en ajoutant de nouvelles fonctions, des améliorations et des correctifs.
 
-Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouvelle version. Aucune action n&#39;est requise pour la mise à niveau.
+Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouvelle version. Aucune action n’est requise pour la mise à niveau.
 
-Les mises à niveau sont déployées en deux phases. En premier lieu, les instances de test sont mises à niveau pour permettre à nos clients de tester les nouvelles fonctionnalités et d&#39;adapter leur configuration si nécessaire. Ensuite, les instances de production sont mises à niveau.
+Les mises à niveau sont déployées en deux phases. En premier lieu, les instances de test sont mises à niveau pour permettre à nos clients de tester les nouvelles fonctionnalités et d’adapter leur configuration si nécessaire. Ensuite, les instances de production sont mises à niveau.
 
 Toutes les dates de publication peuvent faire l’objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-**NOUVEAU !** Abonnez-vous à [Campaign Standard notifications](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) de mise à jour pour obtenir des détails sur les prochaines versions directement dans votre boîte de réception.
+**NOUVEAU !** Abonnez-vous aux notifications [de mise à jour de](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard pour obtenir des détails sur les prochaines versions directement dans votre boîte de réception.
 
 ## Version 20.3.1 - Version de mai {#release-20-3-may-release}
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](../../rn/using/release-notes.md). Pour toute question, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Environnement<br /> </th> 
-   <th> Dates <br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Préproduction<br /> </td> 
-   <td> April 27 - 28, 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Production<br /> </td> 
-   <td> 4-11 mai 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Environnement<br /> </th>
+   <th> Dates <br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Préproduction<br /> </td>
+   <td><s>27-28 avril 2020</s> retardé<br /> </td>
+  </tr>
+  <tr>
+   <td> Production<br /> </td>
+   <td><s>4-11 mai 2020</s> retardé<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
