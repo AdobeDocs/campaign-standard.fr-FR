@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
+source-git-commit: adfeb1c83d9ef4ce9f483c134a0fd230fbc6636c
 
 ---
 
@@ -125,7 +125,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    "requestId": 3520,
    "status": "Success"
    }
-   ````
+   ```
 
 * Échec de la demande d’ingestion sans aucun enregistrement ingéré :
 
@@ -141,7 +141,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
 
 * Échec de la demande d’ingestion, avec un enregistrement chargé dans un lot :
 
-   ````
+   ```
    {
    "batchId": "<value>",
    "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
@@ -150,7 +150,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    "status": "Failed"
    }
    ```
-   
+
 * Demande d’ingestion abandonnée après ingestion de certains enregistrements (cette situation est possible en cas de blocage) :
 
    ```
