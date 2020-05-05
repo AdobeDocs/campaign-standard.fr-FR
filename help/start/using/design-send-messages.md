@@ -1,0 +1,124 @@
+---
+title: Personnalisation des listes
+description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
+page-status-flag: never-activated
+uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: start
+content-type: reference
+topic-tags: discovering-the-interface
+discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+
+---
+
+
+# Créer et envoyer des messages
+
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../start/using/work-with-audiences.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+    </td>
+</tr>
+<tr>
+<td>Conception de vos diffusions</td>
+<td>Créer des diffusions</td>
+<td>Personnaliser et rendre vos diffusions dynamiques</td>
+<td>Suivi et surveillance de vos diffusions</td>
+<td>Configuration des rapports</td>
+</tr>
+</table>
+
+## Conception de vos diffusions
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+
+**En savoir plus**
+
+* xxxx
+* xxxx
+
+## Créer des diffusions
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+
+**En savoir plus**
+
+* xxxx
+* xxxx
+
+## Personnaliser et rendre vos diffusions dynamiques
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Retenez l’attention de vos clients et améliorez vos taux de réponses grâce à une personnalisation évoluée du contenu et des en-têtes des messages selon leur profil, leurs préférences et leur activité. Toutes les informations concernant vos clients sont centralisées dans Adobe Campaign et vous pouvez leur proposer des messages au contenu adapté, sur les différents canaux.
+
+Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, proposer des expériences personnalisées et augmenter les taux d’ouverture et de conversion. Les messages cross-canal diffusés par Adobe Campaign peuvent être personnalisés de différentes façons. Ces différentes façons peuvent être associées à des critères en fonction des profils. Vous pouvez ainsi :
+
+* insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
+* insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
+* [personnaliser l&#39;expéditeur](../../designing/using/subject-line.md) d&#39;un email ou d&#39;un SMS ;
+* [personnaliser l&#39;objet](../../designing/using/subject-line.md) d&#39;un email ou utiliser les fonctionnalités d&#39;[optimisation prédictive de l&#39;objet](../../designing/using/subject-line.md#predictive-subject-line) pour ce faire ;
+* créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
+* insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push
+
+![](assets/delivery_content_43.png)
+
+**En savoir plus**
+
+* Découvrez la personnalisation des emails à travers un [exemple de bout en bout](../../designing/using/personalization.md#example-email-personalization)
+* [Personnaliser une URL](../../designing/using/personalization.md#personalizing-urls)
+* [Configuration de la personnalisation d’une image](../../designing/using/personalization.md#personalizing-an-image-source)
+
+## Suivi et surveillance de vos diffusions
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Outre des modèles de reporting d&#39;usine puissants, Adobe Campaign vous permet de créer des rapports personnalisés au niveau d&#39;une diffusion, d&#39;une campagne, d&#39;un utilisateur ou d&#39;un segment. Trackez vos messages et comprenez le comportement de vos clients en enrichissant progressivement leurs données de profil. Avec les outils de reporting et d&#39;analyse, vous capitalisez à chaque nouvelle campagne, ciblez mieux vos actions marketing et optimisez leur impact et leur retour sur investissement.
+
+L&#39;interface graphique permet d&#39;avoir rapidement et facilement accès aux principaux indicateurs et aux statistiques de la diffusion.
+
+![](assets/dynamic_report_intro.png)
+
+L&#39;interface utilisateur de reporting de campagne facilite la création de rapports dynamiques. Vous pouvez utiliser des variables par glisser-déposer afin de personnaliser vos rapports et d&#39;analyser la réussite de vos campagnes. En fonction de la complexité de vos requêtes et de vos calculs, les données peuvent être agrégées dans une vue de liste et sont accessibles dans un format qui facilite la génération de rapports d&#39;analytique marketing.
+
+Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tableau de bord des messages affiche des logs dédiés pour suivre les processus et les règles, ainsi qu&#39;identifier les erreurs et les avertissements possibles.
+
+
+**En savoir plus**
+
+* [Accéder aux rapports](../../reporting/using/about-dynamic-reports.md)
+* [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
+* [Tracker les messages](../../sending/using/tracking-messages.md)
+
+## Configuration des rapports
+
+<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+
+**En savoir plus**
+
+* xxxx
+* xxxx
