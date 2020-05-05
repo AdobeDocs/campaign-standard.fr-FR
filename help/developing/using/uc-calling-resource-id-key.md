@@ -1,8 +1,8 @@
 ---
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: ht
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+translation-type: tm+mt
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -23,7 +23,7 @@ Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 * [Définir les clés d&#39;identification ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST Campaign Standard](../../api/using/about-campaign-standard-apis.md)
+* [API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Etape 1 : configurer la clé d&#39;identification{#step-1-configure-the-identification-key}
 
@@ -32,20 +32,20 @@ Rubriques connexes :
 
 1. Avant de configurer la clé d&#39;identification, vérifiez que la ressource a été étendue avec les champs souhaités et qu&#39;elle a été publiée. Voir à ce propos [cette section](../../developing/using/creating-or-extending-the-resource.md).
 
-1. Accédez au menu **[!UICONTROL Administration]**/**[!UICONTROL  Développement]** / **[!UICONTROL Ressources personnalisées]**, puis ouvrez la ressource**[!UICONTROL  Profil]**.
+1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** , puis ouvrez la **[!UICONTROL Profile]** ressource.
 
    ![](assets/uc_idkey1.png)
 
-1. Dans la section **[!UICONTROL Clés d&#39;identification]**, cliquez sur le bouton**[!UICONTROL  Créer un élément]**.
+1. Dans la **[!UICONTROL Identification keys]** section, cliquez sur le **[!UICONTROL Create element]** bouton.
 
    ![](assets/uc_idkey2.png)
 
-1. Ajoutez les deux champs personnalisés &quot;Identifiant CRM&quot; et &quot;Catégorie&quot;, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Add the two custom &quot;CRM ID&quot; and &quot;Category&quot; fields, then click **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Si vous souhaitez afficher les deux champs personnalisés dans l&#39;interface du profil, configurez l&#39;onglet **[!UICONTROL Définition des écrans]**. Voir à ce propos[cette section](../../developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile&#39;s interface, configure the **[!UICONTROL Screen definition]** tab. Voir à ce propos [cette section](../../developing/using/configuring-the-screen-definition.md).
 
 1. Vous pouvez maintenant configurer la définition de filtre pour pouvoir appeler la ressource à l&#39;aide de sa clé d&#39;identification.
 
@@ -54,7 +54,7 @@ Rubriques connexes :
 >[!NOTE]
 > Les concepts globaux lors de la configuration des définitions de filtre sont présentés dans [cette section](../../developing/using/configuring-filter-definition.md).
 
-1. Dans l&#39;onglet **[!UICONTROL Définition des filtres]**, cliquez sur**[!UICONTROL  Ajouter un élément]**, puis saisissez le libellé et l&#39;identifiant de la définition de filtre.
+1. Dans l’ **[!UICONTROL Filter definition]** onglet, cliquez sur **[!UICONTROL Add an element]**, puis entrez l’étiquette et l’ID de la définition de filtre.
 
 1. Editez les propriétés de la définition de filtre pour configurer ses règles.
 
@@ -64,11 +64,11 @@ Rubriques connexes :
 
    ![](assets/uc_idkey5.png)
 
-1. Sélectionnez le premier champ utilisé dans la clé d&#39;identification (&quot;Identifiant CRM&quot;), puis activez l&#39;option **[!UICONTROL Définir des paramètres]**.
+1. Select the first field used in the identification key (&quot;CRM ID&quot;), then activate the **[!UICONTROL Switch to parameters]** option.
 
    ![](assets/uc_idkey6.png)
 
-1. Dans la section **[!UICONTROL Conditions de filtrage]**, conservez l&#39;opérateur**[!UICONTROL  Egal]** , puis définissez le nom du paramètre et cliquez sur le signe plus pour le créer.
+1. In the **[!UICONTROL Filter conditions]** section, keep the **[!UICONTROL Equal]** operator, then define the parameter&#39;s name and click the plus sign to create it.
 
    ![](assets/uc_idkey7.png)
 
@@ -85,7 +85,7 @@ Rubriques connexes :
 
 Une fois la clé d&#39;identification et sa définition de filtre configurées, vous pouvez les utiliser pour appeler la ressource à partir de l&#39;interface de Campaign standard ou des API REST.
 
-Pour utiliser la définition de filtre depuis l&#39;interface, employez une activité **[!UICONTROL Requête]**dans un workflow (voir[cette section](../../automating/using/query.md)). Le filtre devient ensuite disponible dans le volet gauche.
+To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). Le filtre devient ensuite disponible dans le volet gauche.
 
 ![](assets/uc_idkey9.png)
 
