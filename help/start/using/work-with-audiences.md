@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -100,7 +100,7 @@ Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés 
 
 ### Import de données par le biais d&#39;appels d&#39;API
 
-Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services. Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/about-campaign-standard-apis.md).
+Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services. Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
