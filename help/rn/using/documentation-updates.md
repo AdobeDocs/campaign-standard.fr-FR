@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Ajout d’une nouvelle page sur les directives générales relatives aux diffusi
 
 Mise à jour de la documentation relative à l’utilisation de Campaign et d’Experience Manager avec une nouvelle section de **conseils sur l’utilisation de l’intégration Campaign-Experience Manager** –  [En savoir plus](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-Amélioration de la page d’accueil de la documentation des API avec des redirections vers les différentes rubriques –  [En savoir plus](../../api/using/about-campaign-standard-apis.md)
+Amélioration de la page d’accueil de la documentation des API avec des redirections vers les différentes rubriques –  [En savoir plus](../../api/using/get-started-apis.md)
 
 ## Mises à jour de la documentation - Décembre 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ La documentation du panneau de contrôle a été intégrée au nouvel ensemble d
 
 Le tableau de **calcul des indicateurs** a été mis à jour. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Le jeu de documentation des API a été intégré à la documentation de Campaign Standard.[En savoir plus](../../api/using/about-campaign-standard-apis.md)
+Le jeu de documentation des API a été intégré à la documentation de Campaign Standard.[En savoir plus](../../api/using/get-started-apis.md)
 
 Le guide de prise en main de la création d’un email personnalisé a été déplacé et mis à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Ajout d’une section sur les mises à jour et les opérations de maintenance �
 
 Ajout d’informations sur la nouvelle option de tri de l’activité **Transfert de fichier** –  [En savoir plus](../../automating/using/transfer-file.md)
 
-Mise à jour de la [documentation sur les API REST](../../api/using/about-campaign-standard-apis.md) :
+Mise à jour de la [documentation sur les API REST](../../api/using/get-started-apis.md) :
 
 * Ajout d’une nouvelle section comportant des informations génériques sur les raisons d’utiliser les API REST Campaign Standard
 * Mise à disposition d’un ensemble de requêtes d’API préconçues, représentant des cas pratiques courants
@@ -697,7 +697,7 @@ Mise à jour de la documentation sur les SMS avec l’ajout d’une clarificatio
 
 Nouvelle section consacrée à la gestion des workflows via l’API – [En savoir plus](../../api/using/controlling-a-workflow.md)
 
-Nouvelle section consacrée aux clés primaires et à l’utilisation d’un identifiant d’entreprise comme clé dans l’API – [En savoir plus](../../api/using/about-campaign-standard-apis.md)
+Nouvelle section consacrée aux clés primaires et à l’utilisation d’un identifiant d’entreprise comme clé dans l’API – [En savoir plus](../../api/using/get-started-apis.md)
 
 Ajout d’informations sur le filtrage simple et multiple dans l’API – [En savoir plus](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ Ressources liées dans les API REST – [En savoir plus](../../developing/usin
 
 Intégration de Triggers : ajout de deux cas pratiques. [En savoir plus](../../integrating/using/abandonment-triggers-use-cases.md)
 
-Nous avons repensé la documentation sur l’API destinée aux développeurs avec de nouvelles informations et de nouveaux fragments de code pour une meilleure expérience utilisateur – [En savoir plus](../../api/using/about-campaign-standard-apis.md)
+Nous avons repensé la documentation sur l’API destinée aux développeurs avec de nouvelles informations et de nouveaux fragments de code pour une meilleure expérience utilisateur – [En savoir plus](../../api/using/get-started-apis.md)
 
 Découvrez des exemples des nouvelles activités de workflow [Lecture d’audience](../../automating/using/read-audience.md) et [Signal externe](../../automating/using/external-signal.md).
 
@@ -859,7 +859,7 @@ Découvrez des exemples des nouvelles activités de workflow [Lecture d’audien
 
 Export des logs pour un reporting externe – [En savoir plus](../../automating/using/exporting-logs.md)
 
-API des messages transactionnels – [En savoir plus](../../api/using/about-campaign-standard-apis.md)
+API des messages transactionnels – [En savoir plus](../../api/using/get-started-apis.md)
 
 Capacités marketing des messages transactionnels – [En savoir plus](../../channels/using/profile-transactional-messages.md)
 
