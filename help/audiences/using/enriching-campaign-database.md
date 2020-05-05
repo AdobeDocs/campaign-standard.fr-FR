@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -66,7 +66,7 @@ Pour plus d&#39;informations sur cette intégration, reportez-vous à la [docume
 
 Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services.
 
-Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/about-campaign-standard-apis.md).
+Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
