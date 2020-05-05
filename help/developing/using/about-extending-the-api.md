@@ -11,8 +11,8 @@ topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
+translation-type: tm+mt
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -34,4 +34,4 @@ Les étapes nécessaires pour exposer les champs étendus dans l’API publique 
 **Rubriques connexes :**
 
 * [Ressources personnalisées](../../developing/using/data-model-concepts.md)
-* [Documentation des API](../../api/using/about-campaign-standard-apis.md)
+* [Documentation des API](../../api/using/get-started-apis.md)
