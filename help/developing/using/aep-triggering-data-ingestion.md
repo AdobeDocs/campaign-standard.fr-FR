@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Adobe Campaign Standard permet de déclencher l’ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d’ingestion.
 
-Cette page décrit comment déclencher et récupérer le statut de l’ingestion de vos mappings de données. Pour des informations globales sur les API de Campaign Standard, consultez [cette section](../../api/using/about-campaign-standard-apis.md).
+Cette page décrit comment déclencher et récupérer le statut de l’ingestion de vos mappings de données. Pour des informations globales sur les API de Campaign Standard, consultez [cette section](../../api/using/get-started-apis.md).
 
 ## Prérequis {#prerequisites}
 
