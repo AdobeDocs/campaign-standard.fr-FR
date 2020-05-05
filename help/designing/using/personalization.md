@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e904118852b06263b1320d65867539feb6360053
+source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
 
 ---
 
@@ -111,19 +111,17 @@ Le nom du bloc de contenu apparaît dans l&#39;éditeur. Celui-ci est surligné 
 
 Les blocs de contenu d&#39;usine sont les suivants :
 
-Les blocs de contenu d&#39;usine sont les suivants :
-
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Ce bloc de contenu ne peut être utilisé que dans un  ****.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Ce bloc de contenu ne peut être utilisé que dans un **landing page**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Ce bloc de contenu ne peut être utilisé que dans une **diffusion**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -143,12 +141,12 @@ Pour créer un bloc de contenu, respectez les étapes suivantes :
 1. Saisissez un libellé.
 1. Sélectionnez le bloc **[!UICONTROL Content type]**. Trois options sont disponibles :
 
-   * **[!UICONTROL Shared]**: Le bloc de contenu peut être utilisé dans un  ou un  de.
-   * **[!UICONTROL Delivery]**: Le bloc de contenu ne peut être utilisé que dans un .
+   * **[!UICONTROL Shared]**: Le bloc de contenu peut être utilisé dans une diffusion ou un landing page.
+   * **[!UICONTROL Delivery]**: Le bloc de contenu ne peut être utilisé que dans une diffusion.
    * **[!UICONTROL Landing page]** : le bloc de contenu ne peut être utilisé que dans une landing page.
    ![](assets/content_bloc_02.png)
 
-1. Vous pouvez sélectionner un **[!UICONTROL Targeting dimension]**. Voir à ce propos la section [A propos de la dimension de ciblage](#about-targeting-dimension).
+1. Vous pouvez sélectionner un **[!UICONTROL Targeting dimension]** objet. Voir à ce propos la section [A propos de la dimension de ciblage](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -388,7 +386,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
 1. In the structure component, at the desired position, click the **[!UICONTROL Personalize]** icon from the contextual toolbar and select **[!UICONTROL Insert personalization field]**.
 1. Select **[!UICONTROL Title]** from the drop-down list.
-1. Procédez de la même manière pour ajouter le **[!UICONTROL Last name]** champ.
+1. Procédez de la même façon pour ajouter le **[!UICONTROL Last name]** champ.
 
    ![](assets/delivery_content_56.png)
 
