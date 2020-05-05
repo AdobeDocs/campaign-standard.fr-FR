@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -51,7 +51,7 @@ Découvrez les directives générales concernant les diffusions mobiles
   <td valign="top">
        <img alt="Assistance" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    <strong>Obtenir de l'aide</strong></a>
+    <strong>Obtenir l'assistance</strong></a>
     </div>
     <p><em>Accédez aux questions fréquentes, aux bonnes pratiques, aux ressources d’aide et connectez-vous aux experts</em></p>
     <br>
@@ -65,7 +65,7 @@ Découvrez les directives générales concernant les diffusions mobiles
 |---|---|
 | [Notes de mise à jour](rn/using/release-notes.md) | [Triggers Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [API Campaign](api/using/about-campaign-standard-apis.md) |
-| [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [de messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Planification des versions](rn/using/release-planning.md) | [Campaign modèle de données](developing/using/datamodel-introduction.md) |
-| [Fonctions obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multisolution](integrating/using/about-campaign-integrations.md) |
-| [Commencer avec Campaign Standard](start/using/campaign-orchestration.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
+| [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Planification des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
+| [Fonctions obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multisolution](integrating/using/get-started-campaign-integrations.md) |
+| [Commencer avec Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
