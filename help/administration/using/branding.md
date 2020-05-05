@@ -12,8 +12,8 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+translation-type: tm+mt
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -36,9 +36,11 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 
 >[!IMPORTANT]
 >
->Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;assistance client Adobe. Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;assistance client Adobe.
+>
+>Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
-Les marques figurent dans **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage des marques]**.
+Les marques sont disponibles dans le **[!UICONTROL Administration > Instance settings > Brand configuration]** menu.
 
 Par défaut, la marque nouvellement créée est uniquement visible par les utilisateurs auxquels les droits correspondants ont été affectés par l&#39;administrateur.
 
@@ -53,7 +55,7 @@ Une **marque** est définie par les caractéristiques suivantes :
    * **URL du site web** et **Libellé du site web** de la marque
    * **Logo de la marque**
 
-* **[!UICONTROL Paramètres d&#39;en-tête des emails envoyés]** qui permettent de personnaliser les informations qui seront visibles par les destinataires de vos campagnes. Cette section contient les champs suivants :
+* **[!UICONTROL Header parameters of sent emails]** qui personnalise ce que les destinataires de vos campagnes verront. Cette section contient les champs suivants :
 
    ![](assets/branding_04_header.png)
 
@@ -77,7 +79,7 @@ Une **marque** est définie par les caractéristiques suivantes :
    >
    >Pour afficher l’aperçu de la landing page et le rendu de la page miroir dans l’interface utilisateur de Campaign, les URL du serveur applicatif et du serveur de page miroir doivent être sécurisées. Dans ce cas, utilisez https:// plutôt que http:// lors de la configuration de ces URL.
 
-* **[!UICONTROL Paramétrage des URL de tracking (Web Analytics)]** qui permet de définir la configuration du tracking de vos URL pour votre marque.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**, qui définit la configuration du suivi des URL pour votre marque.
 
    Les paramètres additionnels qui permettent de tracker les liens sur des systèmes externes tels que les outils de Web Analytics comme Adobe Analytics ou Google Analytics sont définis dans cette section.
 
@@ -95,7 +97,7 @@ Pour utiliser les paramètres définis pour une marque, elle doit être liée à
 
 Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
-1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]** pour accéder aux propriétés de votre modèle.
+1. Click the **[!UICONTROL Edit properties]** button to access the template properties.
 
    ![](assets/branding_04.png)
 
@@ -103,11 +105,11 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
    >[!NOTE]
    >
-   >Par défaut, la marque **[!UICONTROL Marque par défaut (branding)]** est sélectionnée.
+   >Par défaut, le **[!UICONTROL Default brand (branding)]** paramètre est sélectionné.
 
    ![](assets/branding_05.png)
 
-   Pour visualiser le paramétrage de la marque sélectionnée, cliquez sur l&#39;icône **[!UICONTROL Naviguer vers le détail de l&#39;élément sélectionné]**.
+   Pour vue de la configuration de la marque sélectionnée, cliquez sur l’ **[!UICONTROL Navigate to the detail of the element selected]** icône .
 
    ![](assets/branding_06.png)
 
@@ -125,7 +127,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 >
 >La configuration des marques n&#39;est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
 
-1. L&#39;administrateur Adobe Campaign crée la marque dans **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage des marques]**. il ajoute l&#39;élément **Voyages sous les tropiques** et configure l&#39;**[!UICONTROL identité]** et les **[!UICONTROL paramètres d&#39;en-tête des emails envoyés]** de la marque.
+1. L’administrateur Adobe Campaign crée la marque dans **[!UICONTROL Administration > Instance settings > Brand configuration]**. He adds the **Vacations in the Tropics** element from the advanced menu and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
 
    ![](assets/branding_07.png)
 
@@ -141,7 +143,7 @@ La marque est correctement créée et paramétrée. Elle peut désormais être u
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
-1. Dans le menu avancé **[!UICONTROL Ressources > Modèles > Modèles de diffusion]**, dupliquez un modèle intégré afin de configurer un nouveau modèle de diffusion.
+1. In the advanced menu **[!UICONTROL Resources > Templates > Delivery templates]**, duplicate a built-in template to configure a new delivery template.
 
    ![](assets/branding_08.png)
 
@@ -160,7 +162,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
 Pour créer un email lié à une marque, procédez comme suit :
 
-1. Cliquez sur le bouton **[!UICONTROL Créer]** dans le menu **[!UICONTROL Activités marketing]**.
+1. Cliquez sur le **[!UICONTROL Create]** bouton dans le **[!UICONTROL Marketing activities]** menu.
 
    ![](assets/branding_14.png)
 
