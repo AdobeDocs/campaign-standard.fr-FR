@@ -12,60 +12,66 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
+source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
 
 ---
 
 
 # Mises à jour de la documentation{#documentation-updates}
 
-Outre les Notes [de](../../rn/using/release-notes.md)mise à jour , cette page Adobe Campaign toutes les nouvelles mises à jour de la documentation de Standard.
+Outre les Notes [de](../../rn/using/release-notes.md)mise à jour Adobe Campaign, cette page liste toutes les nouvelles mises à jour de la documentation Adobe Campaign Standard.
+
+## Mises à jour de la documentation - mai 2020 {#doc-updates-may-2020}
+
+La page d&#39;aperçu de Campaign Standard a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
+
+La section Paramètres du canal de courriel a été clarifiée avec des informations supplémentaires sur les champs de masques autorisés et l&#39;ID de rapports de diffusion. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
 ## Version 20.3 - Mai 2020      {#release-20-3---may-2020}
 
 **Nouvelles fonctionnalités de cette version**
 
-La loi thaïlandaise sur la protection des données personnelles (PDPA) - [Lire plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html)
+Thaïlande : Loi sur la protection des données personnelles (PDPA) - [Lire la suite](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html)
 
-d&#39;API  externe (GA) - [En savoir plus](../../automating/using/external-api.md)
+Activité d&#39;API externe (GA) - [En savoir plus](../../automating/using/external-api.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Des informations ont été ajoutées sur le **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** champ dans les propriétés  de l&#39;, qui inclut désormais les fichiers téléchargés par le  de l&#39;de . [En savoir plus](../../automating/using/executing-a-workflow.md)
+Des informations ont été ajoutées sur le **[!UICONTROL History in days]** champ des propriétés des workflows, qui comprend désormais les fichiers téléchargés par l’ **[!UICONTROL Transfer file]** activité. [En savoir plus](../../automating/using/executing-a-workflow.md)
 
-Des informations ont été ajoutées dans la section de substitution des  concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
+Des informations ont été ajoutées dans la section de substitution de profil concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
-Une nouvelle section consacrée à la protection des renseignements personnels et au consentement a été ajoutée à la documentation principale. [En savoir plus](../../start/using/privacy.md)
+Une nouvelle section consacrée à la protection des renseignements personnels et au consentement a été ajoutée à la documentation de base. [En savoir plus](../../start/using/privacy.md)
 
-* Un cas d’utilisation a été ajouté pour vous permettre de convertir les courriers électroniques hérités de l’éditeur en e-mail Designer. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
+Un cas d’utilisation a été ajouté pour vous permettre de convertir les e-mails hérités de l’éditeur en e-mail Designer. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* Une section de questions fréquentes a été ajoutée à propos du concepteur de courrier électronique. [En savoir plus](../../designing/using/faq-email-designer.md)
+Une section de questions fréquentes a été ajoutée sur le Concepteur de courriers électroniques. [En savoir plus](../../designing/using/faq-email-designer.md)
 
 ## Mises à jour de la documentation - avril 2020 {#doc-updates-april-2020}
 
-L&#39;intégration de Microsoft Dynamics 365 avec  documentation de Adobe Campaign Standard est désormais disponible dans la documentation de base. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+L&#39;intégration de Microsoft Dynamics 365 à la documentation Adobe Campaign Standard est désormais disponible dans la documentation de base. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-Des ressources supplémentaires ont été ajoutées au  de documentation. [En savoir plus](../../campaign-standard-home.md)
+Des ressources supplémentaires ont été ajoutées à la page d&#39;accueil de documentation. [En savoir plus](../../campaign-standard-home.md)
 
-Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation d’Adobe Experience Platform Data Connector. [En savoir plus](../../administration/using/aep-about-data-connector.md#key-concepts)
+Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation d’Adobe Experience Platform Data Connector. [En savoir plus](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-La section Configuration de la messagerie transactionnelle a été améliorée avec des informations sur l’accès aux derniers  transactionnels et des captures d’écran mises à jour. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+La section Configuration de la messagerie transactionnelle a été améliorée avec des informations sur l&#39;accès aux derniers événements transactionnels et des captures d&#39;écran mises à jour. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-Les typologies et la documentation des  ont été améliorées et mises à jour avec des informations supplémentaires sur les  intégrées. [En savoir plus](../../sending/using/about-typology-rules.md)
+La documentation sur les typologies et les règles de typologie a été améliorée et mise à jour avec des informations supplémentaires sur les règles de typologie intégrées. [En savoir plus](../../sending/using/about-typology-rules.md)
 
-Des informations ont été ajoutées sur l&#39; **[!UICONTROL Transfer file]** action  **[!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
+Des informations ont été ajoutées sur l&#39;action de l&#39; **[!UICONTROL Transfer file]** activité **[!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
 
-La documentation sur les  après une  de panne temporaire de a été mise à jour avec plus de détails sur la manière dont les  sont gérées une fois la mise à niveau vers la MTA améliorée. [En savoir plus](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+La documentation sur les Reprises après une défaillance temporaire d’une diffusion a été mise à jour avec plus de détails sur la façon dont les Reprises sont gérées une fois la mise à niveau vers la MTA améliorée. [En savoir plus](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-La section Suppression d’un  a été améliorée et clarifiée. [En savoir plus](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+La section Suppression d’un message transactionnel a été améliorée et clarifiée. [En savoir plus](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-La section **Aperçu du** a été mise à jour avec des exemples de mobiles.[En savoir plus](../../sending/using/previewing-messages.md)
+La section **Aperçu des diffusions** a été mise à jour avec des exemples de diffusions mobiles.[En savoir plus](../../sending/using/previewing-messages.md)
 
-Les meilleures pratiques ont été ajoutées en ce qui concerne la messagerie transactionnelle et la suppression des  en temps réel inutilisées. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+Les meilleures pratiques ont été ajoutées en ce qui concerne la messagerie transactionnelle et la suppression des événements en temps réel inutilisés. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
-La section Configuration des  de de messagerie a été mise à jour afin d’apporter des éclaircissements sur tous les paramètres de messagerie qui sont maintenant gérés par  MTA amélioré. [En savoir plus](../../administration/using/configuring-email-channel.md)
+La section Configuration du canal de messagerie a été mise à jour afin d’apporter des éclaircissements sur tous les paramètres de messagerie qui sont maintenant gérés par la MTA améliorée Adobe Campaign. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
-La section Configuration de la messagerie transactionnelle a été mise à jour avec des informations supplémentaires sur les droits nécessaires pour modifier les configurations des  et sur la manière d&#39;enrichir les collections dans les  de. [En savoir plus](../../administration/using/configuring-transactional-messaging.md).
+La section Configuration de la messagerie transactionnelle a été mise à jour avec des informations supplémentaires sur les droits nécessaires pour modifier les configurations de événement et sur la façon d&#39;enrichir les collections dans les messages transactionnels. [En savoir plus](../../administration/using/configuring-transactional-messaging.md).
 
 ## Version 20.2 - Avril 2020      {#release-20-2---april-2020}
 
@@ -109,13 +115,13 @@ Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relative
 
 Information has been added on the **[!UICONTROL Workflow]** built-in right. [En savoir plus](../../administration/using/list-of-roles.md)
 
-Des informations ont été ajoutées sur la **[!UICONTROL History in days field]** page disponible dans les propriétés  du. [En savoir plus](../../automating/using/executing-a-workflow.md)
+Des informations ont été ajoutées sur les propriétés **[!UICONTROL History in days field]** disponibles dans les workflows. [En savoir plus](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
 **Nouvelles fonctionnalités de cette version**
 
-Adobe Experience Platform Data Connector (version bêta) – [En savoir plus](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (version bêta) – [En savoir plus](../../developing/using/aep-about-data-connector.md)
 
 Audience Destinations (version bêta) – [En savoir plus](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -201,7 +207,7 @@ Ajout d’un nouveau graphique présentant le processus de publication des messa
 
 Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
 
-Ajout d’une nouvelle section. Elle fournit un aperçu des différentes méthodes qui vous permettent d’enrichir la base de données Campaign Standard –  [En savoir plus](../../start/using/enriching-campaign-database.md)
+Ajout d’une nouvelle section. Elle fournit un aperçu des différentes méthodes qui vous permettent d’enrichir la base de données Campaign Standard –  [En savoir plus](../../audiences/using/enriching-campaign-database.md)
 
 Une nouvelle section décrivant l’association du style au Concepteur d’email a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 
@@ -355,7 +361,7 @@ Mise à jour de la section Créer un email pour prendre en compte les dernières
 
 Mise à jour de l’article [Protocole et paramètres du connecteur SMS](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html) de la base de connaissances avec l’option ajoutée au compte externe SMS afin de limiter le nombre d’instances MTA autorisées pour la connexion au fournisseur SMPP.
 
-Enrichissement et réorganisation du guide de démarrage –  [En savoir plus](../../start/using/campaign-orchestration.md)
+Enrichissement et réorganisation du guide de démarrage –  [En savoir plus](../../start/using/about-campaign-standard.md)
 
 Mise à jour de la page Fonctionnalités obsolètes et supprimées –  [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -383,7 +389,7 @@ Ajout d’une section comparant les différentes options de création d’email 
 
 La section Créer des blocs de contenu personnalisés a été étoffée avec des détails sur les dimensions de ciblage –  [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Ajout d’un avertissement indiquant que le Concepteur d’email ne prend pas en charge Internet Explorer 11 –  [En savoir plus](../../administration/using/compatible-browsers.md)
+Ajout d’un avertissement indiquant que le Concepteur d’email ne prend pas en charge Internet Explorer 11 –  [En savoir plus](../../administration/using/about-configuration-guidelines.md)
 
 Ajout d’avertissements à la section Supprimer une ressource concernant la réinitialisation –  [En savoir plus](../../developing/using/deleting-a-resource.md)
 
@@ -445,7 +451,7 @@ Ajout d’informations sur le nouveau champ de l’activité Mise à jour de don
 
 Mise à jour de la documentation [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) avec des informations relatives au Concepteur d’email.
 
-Ajout de Microsoft Edge (dernière version) à la liste des navigateurs compatibles pour les ordinateurs – [En savoir plus](../../administration/using/compatible-browsers.md)
+Ajout de Microsoft Edge (dernière version) à la liste des navigateurs compatibles pour les ordinateurs – [En savoir plus](../../administration/using/about-configuration-guidelines.md)
 
 Ajout d’informations sur la nouvelle option de l’activité Extraction de fichier qui empêche la génération d’un fichier si la transition entrante est vide – [En savoir plus](../../automating/using/extract-file.md)
 
@@ -579,7 +585,7 @@ Mise à jour de la liste des workflows techniques – [En savoir plus](../../ad
 
 Mise à jour de la section relative à l’activité Planificateur – [En savoir plus](../../automating/using/scheduler.md)
 
-Mise à jour de la liste des ressources d’aide concernant l’intégration des solutions Campaign et Adobe – [En savoir plus](../../integrating/using/about-campaign-integrations.md).
+Mise à jour de la liste des ressources d’aide concernant l’intégration des solutions Campaign et Adobe – [En savoir plus](../../integrating/using/get-started-campaign-integrations.md).
 
 Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
@@ -593,7 +599,7 @@ Activité d’enrichissement : enrichissez les données en fonction des transit
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Modification de la plupart des URL des intégrations des solutions Adobe avec Campaign. Vérifiez vos signets – [En savoir plus](../../integrating/using/about-campaign-integrations.md)
+Modification de la plupart des URL des intégrations des solutions Adobe avec Campaign. Vérifiez vos signets – [En savoir plus](../../integrating/using/get-started-campaign-integrations.md)
 
 The datamodel v1 is now available with the SQL structure for built-in resources - [Read more](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -777,13 +783,13 @@ Email BCC – [En savoir plus](../../administration/using/configuring-email-ch
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Le guide « Deliveries » (Diffusions) a été réorganisé et renommé « Channels » (Canaux). [En savoir plus](../../channels/using/discovering-communication-channels.md)
+Le guide « Deliveries » (Diffusions) a été réorganisé et renommé « Channels » (Canaux). [En savoir plus](../../channels/using/get-started-communication-channels.md)
 
 Plusieurs captures d’écran ont été mises à jour afin de refléter les modifications de l’interface.
 
 Une nouvelle technote est disponible : « Intégration du SDK Adobe Mobile à votre application mobile ». [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html)
 
-Les instructions relatives à la configuration du service People core service ou à l’intégration d’Audience Manager à Adobe Campaign ont été mises à jour. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructions de configuration du service principal People ou de l’intégration d’Audience Manager avec Adobe Campaign havget-started-communication-canaux.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -867,5 +873,5 @@ Changement d’URL : Assets core service – [En savoir plus](../../integrati
 
 Changement d’URL : People core service – [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-Réorganisation du guide Profils et audiences. [En savoir plus](../../audiences/using/about-profiles-and-audiences.md)
+Réorganisation du guide Profils et audiences. [En savoir plus](../../audiences/using/get-started-profiles-and-audiences.md)
 
