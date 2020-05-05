@@ -11,8 +11,8 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 Une fois votre workflow configuré avec une [audience Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md), vous pouvez personnaliser les messages à l’aide des attributs de profil présents exclusivement dans Experience Data Model (XDM).
 
-Pour ce faire, vous devez ajouter ces attributs à l’activité **[!UICONTROL Lecture d’audience]** :
+To do this, you must add these attributes into the **[!UICONTROL Read audience]** activity:
 
-1. Ouvrez l’activité **[!UICONTROL Lecture d’audience]**. Dans l’onglet **[!UICONTROL Données additionnelles]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
+1. Open the **[!UICONTROL Read audience]** activity. Dans l’ **[!UICONTROL Additional data]** onglet, cliquez sur le **[!UICONTROL Create element]** bouton.
 
-   Notez que l’onglet **[!UICONTROL Données additionnelles]** n’est disponible qu’après la sélection d’une audience Adobe Experience Platform.
+   Note that the **[!UICONTROL Additional data]** tab is only available after an Adobe Experience Platform audience has been selected.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -39,11 +39,11 @@ Pour ce faire, vous devez ajouter ces attributs à l’activité **[!UICONTROL L
    >
    >Les types de données tableau et carte ne sont pas pris en charge dans cette fonctionnalité. En outre, seules les données du schéma d’union s’affichent dans le sélecteur.
 
-1. Sélectionnez un champ XDM dans la liste, puis cliquez sur **[!UICONTROL Confirmer]**.
+1. Select the desired XDM field from the list, then click **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** pour l’ajouter à la liste des données additionnelles.
+1. Click the **[!UICONTROL Add]** button to add it to the list of additional data.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -51,12 +51,12 @@ Pour ce faire, vous devez ajouter ces attributs à l’activité **[!UICONTROL L
 
    >[!NOTE]
    >
-   >Vous pouvez ajouter 20 champs XDM au maximum dans une activité **[!UICONTROL Lecture d’audience]**.
+   >You can add a maximum of 20 XDM fields in a **[!UICONTROL Read audience]** activity.
 
-1. Une fois tous les champs ajoutés, cliquez sur le bouton **[!UICONTROL Confirmer]** pour enregistrer les modifications. Les champs sont désormais à votre disposition pour personnaliser les diffusions.
+1. Once all the fields have been added, click the **[!UICONTROL Confirm]** button to save your changes. Les champs sont désormais à votre disposition pour personnaliser les diffusions.
 
 Pour plus d’informations sur la création et la personnalisation de diffusions, voir la documentation de Campaign Standard :
 
-* [Découvrir les canaux de communication](../../channels/using/discovering-communication-channels.md)
+* [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 * [A propos des activités des canaux](../../automating/using/about-channel-activities.md)
 * [Personnaliser les diffusions](../../designing/using/personalization.md)
