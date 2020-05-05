@@ -1,5 +1,5 @@
 ---
-title: A propos des intégrations de Campaign
+title: Commencer avec les intégrations Campaign
 description: Adobe Campaign permet d'utiliser d'autres solutions Adobe et de combiner leurs différentes fonctionnalités.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
@@ -7,17 +7,17 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: about-campaign-integrations
+topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
 
-# A propos des intégrations de Campaign{#about-campaign-integrations}
+# A propos des intégrations de Campaign{#get-started-campaign-integrations}
 
 Cette section présente les intégrations fonctionnelles disponibles entre la version actuelle d&#39;Adobe Campaign et d&#39;autres solutions et services.
 
