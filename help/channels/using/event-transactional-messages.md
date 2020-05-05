@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -95,7 +95,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
 1. Dans cet exemple, vous souhaitez ajouter trois champs que vous avez définis lors de la [création de votre événement](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) : prénom, dernier produit consulté, montant total du panier. Pour ce faire, [insérez un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) dans le contenu du message.
 
-1. Accédez à ces champs via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Accédez à ces champs par **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
@@ -150,7 +150,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
 1. Sélectionnez l&#39;affichage des éléments de la collection :
 
-   * **[!UICONTROL Row]**: horizontalement, c’est-à-dire chaque élément d’une ligne sous l’autre.
+   * **[!UICONTROL Row]**: horizontalement, c’est-à-dire chaque élément sur une ligne sous l’autre.
    * **[!UICONTROL Column]**: verticalement, c’est-à-dire que chaque élément se trouve à côté de l’autre sur la même ligne.
    >[!NOTE]
    >
@@ -190,7 +190,7 @@ Pour plus d&#39;informations sur la création d&#39;une collection et de champs 
 
    Le champ de personnalisation que vous avez sélectionné est maintenant affiché dans le volet Paramètres.
 
-1. A l’emplacement souhaité, sélectionnez **[!UICONTROL Insert personalization field]** dans la barre d’outils contextuelle.
+1. À l’emplacement de votre choix, sélectionnez **[!UICONTROL Insert personalization field]** dans la barre d’outils contextuelle.
 
    ![](assets/message-center_loop_product.png)
 
@@ -258,7 +258,7 @@ To access reports concerning your transactional message, use the **[!UICONTROL R
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Pause]** Mettre en , , afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d&#39;attente, dans la base de données Adobe Campaign.
 
-Les événements placés dans la file d&#39;attente sont conservés pendant une période définie dans l&#39;API REST (voir la [documentation sur l&#39;API REST](../../api/using/about-campaign-standard-apis.md)) ou dans l&#39;événement trigger si vous utilisez le core service Triggers (voir [Utilisation de Campaign et des Triggers Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Les événements placés dans la file d&#39;attente sont conservés pendant une période définie dans l&#39;API REST (voir la [documentation sur l&#39;API REST](../../api/using/get-started-apis.md)) ou dans l&#39;événement trigger si vous utilisez le core service Triggers (voir [Utilisation de Campaign et des Triggers Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -280,11 +280,11 @@ Si vous dépubliez un message transactionnel mis en pause, vous devrez attendre 
 
 Les étapes de mise en pause d&#39;un message sont présentées dans la section [Suspendre la publication d&#39;un message transactionnel](#suspending-a-transactional-message-publication).
 
-Le **[!UICONTROL Database cleanup]** flux de travaux, qui s’exécute tous les jours à 4 heures du matin, est accessible par **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
+Le **[!UICONTROL Database cleanup]** processus, qui s’exécute tous les jours à 4h du matin, est accessible par **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Supprimer un message transactionnel {#deleting-a-transactional-message}
 
-Une fois qu’un  a été annulé ou qu’un  de n’a pas encore été publié, vous pouvez le supprimer dude la  de l’. Pour cela :
+Une fois qu’un message transactionnel a été annulé ou qu’un message transactionnel n’a pas encore été publié, vous pouvez le supprimer de la liste de message transactionnel. Pour cela :
 
 1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Passez la souris sur le message de votre choix.
@@ -294,15 +294,15 @@ Une fois qu’un  a été annulé ou qu’un  de n’a pas encore été publié,
 
 La suppression d&#39;un message transactionnel ne peut toutefois être effectuée que sous certaines conditions :
 
-* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. L’ **[!UICONTROL Draft]** état s’applique à un message qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-a-transactional-message) (et non [suspendu](#suspending-a-transactional-message-publication)).
+* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. L’ **[!UICONTROL Draft]** état s’applique à un message qui n’a pas encore été publié ou qui a été [annulé](#unpublishing-a-transactional-message) (et qui n’a pas été [suspendu](#suspending-a-transactional-message-publication)).
 
-* ****: A moins qu’un autre  de ne soit lié à l’ de correspondante, si l’ de la version non publiée est annulée, la configuration de l’doit également être annulée pour que la suppression de votre soit réussie. Pour plus d’informations, voir [Annulation de la publication d’un](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
+* **Messages transactionnels**: À moins qu’un autre message transactionnel ne soit lié au événement correspondant, si le message transactionnel n’est pas publié, la configuration du événement doit également être annulée pour que votre message transactionnel soit supprimé. Pour plus d’informations à ce sujet, voir [Annulation de la publication d’un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
    >[!IMPORTANT]
    >
    >La suppression d&#39;un message transactionnel ayant déjà envoyé des notifications entraîne celle de ses logs d&#39;envoi et du tracking.
 
-* **à partir d’un modèle de  de prêt à l’emploi ( interne)**: Si un interne est le seul associé au interne correspondant, il ne peut pas être supprimé. Vous devez d’abord créer un autre en le dupliquant ou via le menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
+* **Messages transactionnels d’un modèle de événement prêt à l’emploi (messages transactionnels internes)**: Si un message transactionnel interne est le seul associé au événement interne correspondant, il ne peut pas être supprimé. Vous devez tout d’abord créer un autre message transactionnel en le dupliquant ou par le biais du menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
 ## Processus de reprise d&#39;un message transactionnel    {#transactional-message-retry-process}
 
