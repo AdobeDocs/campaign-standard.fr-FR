@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -48,7 +48,7 @@ Les messages transactionnels sont également disponibles depuis l&#39;API Adobe 
 
 >[!NOTE]
 >
->Tous les  de sont maintenant envoyés avec la  MTA améliorée pour une meilleure délivrabilité, un débit et une gestion des rebonds améliorés. Tous les impacts sont les mêmes que pour les messages marketing standard. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
+>Tous les messages transactionnels sont maintenant envoyés avec la MTA améliorée Adobe Campaign pour une meilleure délivrabilité, débit et gestion des rebonds. Tous les impacts sont identiques à ceux des messages marketing standard. For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## Principe de fonctionnement des messages transactionnels {#transactional-messaging-operating-principle}
 
@@ -83,7 +83,7 @@ Pour plus d&#39;informations sur les étapes de configuration des événements, 
 Au cours de la conception et de la publication de messages transactionnels, certaines des étapes à suivre ne peuvent pas être annulées. Vous devez connaître les limites suivantes :
 
 * Un seul canal peut être utilisé pour chaque configuration d’événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* Une fois l’événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/workflow-data-and-processes.md).
+* Une fois l’événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/get-started-workflows.md).
 * You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 * Il n&#39;est pas possible de restaurer une publication, mais vous pouvez dépublier un événement : cette opération rend l&#39;événement et le message transactionnel associé inaccessibles. Voir la section [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * Le seul message transactionnel pouvant être associé à un événement est le message créé automatiquement lors de la publication de cet événement. Voir la section [Prévisualiser et publier l&#39;événement](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
