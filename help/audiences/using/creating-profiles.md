@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
 * importer une liste de profils depuis un fichier, par l&#39;intermédiaire d&#39;un [workflow](../../automating/using/importing-data.md#example--import-workflow-template) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/getting-started-with-landing-pages.md) ;
-* créer des profils en masse via l&#39;[API REST](../../api/using/about-campaign-standard-apis.md) ;
+* créer des profils en masse via l&#39;[API REST](../../api/using/get-started-apis.md) ;
 * synchroniser les profils depuis [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) ;
 * saisir des données dans les écrans de l&#39;interface graphique, comme expliqué ci-dessous.
 
