@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Tirez parti de la fonction d&#39;alerte de diffusion pour suivre les réussites 
 
 **Etendez le modèle** de données Campaign Standard à l’aide de vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données en une seule vue. [Commencer avec le modèle de données Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Tirez parti des API** REST pour effectuer diverses opérations et intégrer Campaign Standard à votre propre écosystème. [Commencer avec les API Campaign Standard REST](../../api/using/about-campaign-standard-apis.md)
+**Tirez parti des API** REST pour effectuer diverses opérations et intégrer Campaign Standard à votre propre écosystème. [Commencer avec les API Campaign Standard REST](../../api/using/get-started-apis.md)
 
 **Administration de Campaign** à partir d’une seule vue : surveillez votre instance, gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et configurez les paramètres de vos canaux de communication. [Prise en main de l’administration Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
