@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Prise en main des landing pages {#getting-started-with-landing-pages}
-
-## A propos des landing pages {#about-landing-pages}
-
-Campaign intègre des landing pages. Il s&#39;agit de formulaires web pouvant être utilisés en vue de capturer des informations sur vos audiences, d&#39;offrir des abonnements à un service, d&#39;afficher des données et de développer votre base de données. Les landing pages peuvent également être utilisées pour acquérir ou mettre à jour des profils existants.
-
-Il est également possible d&#39;utiliser les pages d&#39;entrée pour configurer un mécanisme d&#39;inscription double, ce qui permet de protéger la plate-forme contre les adresses électroniques incorrectes ou non valides ou les robots de spammeurs. Voir à ce propos le [cas pratique dédié](../../channels/using/setting-up-a-double-opt-in-process.md).
 
 Voici les principales étapes de configuration d&#39;une landing page :
 
