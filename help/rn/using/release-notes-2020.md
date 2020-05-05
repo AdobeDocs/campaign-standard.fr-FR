@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->Les fonctionnalités Adobe Experience Platform dans Campaign Standard sont actuellement en version bêta et peuvent être fréquemment mises à jour sans préavis. Reportez-vous à la documentation détaillée : [Connecteur Experience Platform](../../administration/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>Les fonctionnalités Adobe Experience Platform dans Campaign Standard sont actuellement en version bêta et peuvent être fréquemment mises à jour sans préavis. Reportez-vous à la documentation détaillée : [Connecteur Experience Platform](../../developing/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * Dans les logs des workflows, Campaign affiche maintenant toutes les 10 minutes le nombre d’enregistrements déjà traités par le traitement en cours d’exécution.
 * Correction d’un problème qui se produisait lors de l’import d’un profil Adobe Experience Platform qui avait été supprimé de la base de données.
@@ -104,7 +104,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 * Correction d’un problème lors de la suppression manuelle d’une demande d’accès à des informations personnelles dans Campaign après son traitement, ce qui empêchait la suppression des données associées à la demande même après le nettoyage.
 * Correction d’un problème qui se produisait lors de la prévisualisation ou de l’envoi de messages contenant des caractères spéciaux d’Adobe Experience Manager.
 * Correction d’un problème qui se produisait dans les workflows lors de l’exécution d’une activité avec plusieurs transitions entrantes.
-* Correction d’un problème qui empêchait les utilisateurs standard d’utiliser le  &quot; à une application&quot; comme dimension de  dans unflux de travail ou un. (CAMP-37618)
+* Correction d’un problème qui empêchait les utilisateurs standard d’utiliser les &quot;Abonnements à une application&quot; comme dimension de cible dans une requête de processus ou une diffusion. (CAMP-37618)
 
 ## Version 20.1.4 - Février 2020    {#release-20-1-4---february-2020}
 
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector est maintenant intégré avec Adobe Campaign Standard. Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
-    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../administration/using/aep-about-data-connector.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vidéo pratique</a>.</p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../developing/using/aep-about-data-connector.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vidéo pratique</a>.</p>
    </td> 
   </tr> 
  </tbody> 
