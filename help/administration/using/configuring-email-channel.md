@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ L’écran de configuration du courrier électronique permet de définir les par
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’équipe d’assistance clientèle d’Adobe.
    * Pour ajouter une autre adresse, vous pouvez utiliser le panneau [de](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) configuration pour configurer un nouveau sous-domaine ou contacter l’équipe d’assistance clientèle d’Adobe. Notez que si plusieurs masques sont utilisés, ils sont séparés par des virgules.
-   * Il est recommandé de définir des adresses à l’aide d’une étoile telle que **@votredomaine.com*: il vous permet d&#39;utiliser toute adresse se terminant par votre nom de sous-domaine.
+   * Il est recommandé de définir des adresses à l&#39;aide d&#39;une étoile telle que *@votredomaine.com : il vous permet d&#39;utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
 
@@ -97,7 +97,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 Les administrateurs **[!UICONTROL Email processing rules]** peuvent y accéder par le **[!UICONTROL Administration > Channels > Email]** menu.
 
 Notez que les domaines de courriel et les règles MX sont maintenant gérés par l’accord de plateforme de test MTA amélioré Adobe Campaign :
-* La signature de l’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages avec tous les domaines. La signature ne s’effectue pas avec **Sender ID**, **DomainKeys** ou **S/MIME**, sauf indication contraire au niveau du MTA amélioré.
+* La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
 * La MTA améliorée utilise ses propres règles MX qui lui permettent de personnaliser votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriels.
 
 ### Mails rebonds {#bounce-mails}
