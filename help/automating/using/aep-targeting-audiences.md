@@ -11,8 +11,8 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+translation-type: tm+mt
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -27,9 +27,9 @@ Une fois l’[audience Adobe Experience Platform](../../audiences/using/aep-ab
 
 Pour activer une audience Adobe Experience Platform dans vos workflows, procédez comme suit :
 
-1. Ajoutez une activité **[!UICONTROL Lecture d’audience]** dans le workflow, puis ouvrez-la.
+1. Add a **[!UICONTROL Read audience]** activity into the workflow, then open it.
 
-1. Sélectionnez l’option **[!UICONTROL Adobe Experience Platform]** sous **[!UICONTROL Type d’audience]**, puis ajoutez l’audience de votre choix.
+1. Sélectionnez l’ **[!UICONTROL Adobe Experience Platform]** option sous **[!UICONTROL Type of audience]**, puis ajoutez l’audience de votre choix.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -37,7 +37,7 @@ Pour activer une audience Adobe Experience Platform dans vos workflows, procé
 
    En cliquant sur le bouton en forme d’œil, vous accédez simplement au créateur de segment unifié (dans un autre onglet) associé à l’audience sélectionnée dans Campaign.
 
-1. Sélectionnez un élément **[!UICONTROL Mapping de données Platform]** pour spécifier la dimension de ciblage souhaitée pour l’audience Adobe Experience Platform sélectionnée.
+1. Select a **[!UICONTROL Platform data mapping]** element to specify the desired targeting dimension for the selected Adobe Experience Platform audience.
 
    Par défaut, la clé primaire (par exemple, iRecipientID pour la table Profil, iAppSubscriptionID pour la table AppSubscription) utilisée pour la réconciliation sera automatiquement disponible dans la liste déroulante. Pour effectuer un ciblage en dehors de la clé primaire, vous devez créer un **espace de nommage** personnalisé.
 
@@ -47,13 +47,13 @@ Pour activer une audience Adobe Experience Platform dans vos workflows, procé
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Cette liste contient tous les mappings XDM (Experience Data Model) configurés sur votre instance. Pour plus d’informations sur Adobe Experience Platform Data Connector, reportez-vous à [ce document dédié](../../administration/using/aep-about-data-connector.md).
+   Cette liste contient tous les mappings XDM (Experience Data Model) configurés sur votre instance. Pour plus d’informations sur Adobe Experience Platform Data Connector, reportez-vous à [ce document dédié](../../developing/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. Une fois l’audience et les dimensions de ciblage correctement configurées, cliquez sur le bouton **[!UICONTROL Confirmer]** pour enregistrer les modifications.
+1. Once the audience and targeting dimensions are configured properly, click the **[!UICONTROL Confirm]** button to save your changes.
 
-Vous pouvez maintenant configurer le workflow avec d’autres activités. Vous pouvez, par exemple, lier une activité **[!UICONTROL Diffusion Email]** pour envoyer un email à l’audience sélectionnée.
+Vous pouvez maintenant configurer le workflow avec d’autres activités. You can, for example, link an **[!UICONTROL Email delivery]** activity to send an email to the audience that has been selected.
 
 ![](assets/aep_wkf_email.png)
 
@@ -65,7 +65,7 @@ Vous pouvez maintenant configurer le workflow avec d’autres activités. Vous p
 
 Pour plus d’informations sur l’utilisation des workflows et des diffusions, reportez-vous aux sections suivantes :
 
-* [Présentation des workflows](../../automating/using/discovering-workflows.md)
+* [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Construire un workflow](../../automating/using/building-a-workflow.md)
-* [Découvrir les canaux de communication](../../channels/using/discovering-communication-channels.md)
+* [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 * [A propos des activités des canaux](../../automating/using/about-channel-activities.md)
