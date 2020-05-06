@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
+source-git-commit: 90e99ab01ad118753a772feebe8647ac2ed54d09
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 90%
 
 ---
 
@@ -43,11 +46,11 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>Retardé<br /> </td>
+   <td>12-13 mai 2020<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>Retardé<br /> </td>
+   <td>18 mai - 1er juin 2020<br /> </td>
   </tr>
  </tbody>
 </table>
