@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '798'
+ht-degree: 96%
 
 ---
 
@@ -61,13 +64,13 @@ Campaign Standard propose plusieurs outils pour vous aider à développer votre 
 
 ### Import de données par le biais de workflows {#importing-data-through-workflows}
 
-Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md). Les informations génériques et les bonnes pratiques relatives à l&#39;import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/importing-data.md).
+Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management. ]**](../../automating/using/about-data-management-activities.md) Les informations génériques et les bonnes pratiques relatives à l&#39;import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/importing-data.md).
 
 Vous pouvez en outre configurer des modèles pour importer des données. L&#39;utilisation de modèles d&#39;import est recommandée si vous devez importer régulièrement des fichiers avec la même structure. Vous pouvez configurer deux types de modèles :
 
 * **Modèles de workflow** : il s&#39;agit de workflows préconfigurés que vous pouvez paramétrer une fois selon vos besoins. Vous pouvez ensuite les réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données. Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Once configured, they are made available to users with a simplified view under the **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu. Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
+* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]** / **[!UICONTROL Imports.]** Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
 
 ### Collecte de données à partir de landing pages {#collecting-data-from-landing-pages}
 
