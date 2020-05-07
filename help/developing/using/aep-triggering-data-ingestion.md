@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 100%
 
 ---
 
@@ -36,9 +39,9 @@ Avant d’utiliser les API, le mapping de données doit avoir été configuré e
 
 Une fois le mapping de données créé, vous devez l’arrêter afin de pouvoir le déclencher à votre convenance depuis les API. Pour ce faire, procédez comme suit :
 
-1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Statut de l’export des données vers Platform.]**
 
-1. Double-click the data mapping to open it, then click the **[!UICONTROL Stop]** button.
+1. Double-cliquez sur le mapping de données pour l’ouvrir, puis cliquez sur le bouton **[!UICONTROL Arrêter]**.
 
    ![](assets/aep_datamapping_stop.png)
 
