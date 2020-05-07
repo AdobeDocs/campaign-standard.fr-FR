@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5803'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +40,7 @@ Activité d&#39;API externe (GA) - [En savoir plus](../../automating/using/exter
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Des informations ont été ajoutées sur le **[!UICONTROL History in days]** champ des propriétés des workflows, qui comprend désormais les fichiers téléchargés par l’ **[!UICONTROL Transfer file]** activité. [En savoir plus](../../automating/using/executing-a-workflow.md)
+Des informations ont été ajoutées sur le champ **[!UICONTROL Historique en jours]** dans les propriétés des workflows, qui comprend désormais les fichiers téléchargés par l’activité de fichier **** Transférer. [En savoir plus](../../automating/using/executing-a-workflow.md)
 
 Des informations ont été ajoutées dans la section de substitution de profil concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
@@ -51,7 +54,7 @@ Une section de questions fréquentes a été ajoutée sur le Concepteur de courr
 
 L&#39;intégration de Microsoft Dynamics 365 à la documentation Adobe Campaign Standard est désormais disponible dans la documentation de base. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-Des ressources supplémentaires ont été ajoutées à la page d&#39;accueil de documentation. [En savoir plus](../../campaign-standard-home.md)
+Des ressources supplémentaires ont été ajoutées à la page d’accueil de la documentation. [En savoir plus](../../campaign-standard-home.md)
 
 Des informations sur le service d’ID d’expérience (ECID) ont été ajoutées à la documentation d’Adobe Experience Platform Data Connector. [En savoir plus](../../developing/using/aep-about-data-connector.md#key-concepts)
 
@@ -59,7 +62,7 @@ La section Configuration de la messagerie transactionnelle a été améliorée a
 
 La documentation sur les typologies et les règles de typologie a été améliorée et mise à jour avec des informations supplémentaires sur les règles de typologie intégrées. [En savoir plus](../../sending/using/about-typology-rules.md)
 
-Des informations ont été ajoutées sur l&#39;action de l&#39; **[!UICONTROL Transfer file]** activité **[!UICONTROL File listing]** . [En savoir plus](../../automating/using/transfer-file.md)
+Des informations ont été ajoutées à l&#39;action de liste des **[!UICONTROL fichiers]** de l&#39;activité de fichiers **** Transférer. [En savoir plus](../../automating/using/transfer-file.md)
 
 La documentation sur les Reprises après une défaillance temporaire d’une diffusion a été mise à jour avec plus de détails sur la façon dont les Reprises sont gérées une fois la mise à niveau vers la MTA améliorée. [En savoir plus](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -85,7 +88,7 @@ Test d’emails à l’aide de profils ciblés – [En savoir plus](../../send
 
 Ajout d’une limite au rendu des messages In-App –  [En savoir plus](../../channels/using/customizing-an-in-app-message.md)
 
-Information has been added on how to use aggregates in a **[!UICONTROL Query]** activity. [En savoir plus](../../automating/using/query.md#adding-an-aggregate)
+Ajout d’informations sur l’utilisation des agrégats dans une activité **[!UICONTROL Requête]** –  [En savoir plus](../../automating/using/query.md#adding-an-aggregate)
 
 Ajout d’une limite avec MCPNS lors de la configuration d’une application mobile –  [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
@@ -115,7 +118,7 @@ Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relative
 
 Information has been added on the **[!UICONTROL Workflow]** built-in right. [En savoir plus](../../administration/using/list-of-roles.md)
 
-Des informations ont été ajoutées sur les propriétés **[!UICONTROL History in days field]** disponibles dans les workflows. [En savoir plus](../../automating/using/executing-a-workflow.md)
+Ajout d’informations au **[!UICONTROL champ Jours d’historique]** disponible dans les propriétés du workflow –  [En savoir plus](../../automating/using/executing-a-workflow.md)
 
 ## Version 20.1 - Février 2020 {#release-20-1---february-2020}
 
@@ -131,7 +134,7 @@ Mise à jour de la documentation relative à la gestion de la confidentialité a
 
 Réorganisation et amélioration des notes de mise à jour –  [En savoir plus](../../rn/using/release-notes.md)
 
-Information related to the Administrators security group has been added, specifying that the **[!UICONTROL All (all)]** organizational unit is assigned to it and cannot be modified. [En savoir plus](../../administration/using/managing-groups-and-users.md)
+Ajout d’informations relatives au groupe de sécurité Administrateurs, indiquant que l’entité organisationnelle **[!UICONTROL Tous (tous)]** lui est affectée et ne peut pas être modifiée –  [En savoir plus](../../administration/using/managing-groups-and-users.md)
 
 Ajout d’informations sur la définition d’un fuseau horaire spécifique à utiliser par défaut dans un workflow –  [En savoir plus](../../automating/using/building-a-workflow.md)
 
@@ -607,15 +610,15 @@ Ajout d’informations sur la préparation d’un message dans une diffusion �
 
 Les notes de mise à jour ont été réorganisées sur plusieurs pages afin d’obtenir une vue plus globale des différentes versions.
 
-La **[!UICONTROL Working with typologies]** section a été mise à jour pour une meilleure visibilité. [En savoir plus](../../sending/using/about-typology-rules.md)
+Mise à jour de la section **[!UICONTROL Utilisation des typologies]** pour une meilleure visibilité – [En savoir plus](../../sending/using/about-typology-rules.md)
 
-A new option allowing to gain performance when defining many additional data in a **[!UICONTROL Query]** is now available. [En savoir plus](../../automating/using/query.md)
+Disponibilité d’une nouvelle option permettant d’optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête]** – [En savoir plus](../../automating/using/query.md)
 
 Mise à jour de l’exemple d’import de profil avec quelques conseils pour que les profils soient prêts à recevoir des courriers – [En savoir plus](../../automating/using/importing-data.md)
 
-A new activity is available in workflows: the **[!UICONTROL Enrichment]** activity. [En savoir plus](../../automating/using/enrichment.md)
+Nouvelle activité disponible dans les workflows : l’activité **[!UICONTROL Enrichissement]** – [En savoir plus](../../automating/using/enrichment.md)
 
-The **[!UICONTROL Subscription Services]** activity has been updated to support more use cases, including using a single file to update subscriptions to multiple services. [En savoir plus](../../automating/using/subscription-services.md)
+Mise à jour de la section sur l’activité **[!UICONTROL Services d’abonnements]** afin qu’elle comporte d’autres cas pratiques, notamment l’utilisation d’un seul fichier pour mettre à jour les abonnements à plusieurs services – [En savoir plus](../../automating/using/subscription-services.md)
 
 Ajout d’un cas pratique détaillé sur la préparation d’une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
@@ -625,7 +628,7 @@ Ajout d’un cas pratique détaillé sur l’utilisation des réponses automatiq
 
 Ajout d’informations sur l’envoi d’une diffusion en fonction des fuseaux horaires des utilisateurs dans un workflow récurrent – [En savoir plus](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-Réorganisation de la **[!UICONTROL Customizing a push notification]** section avec des cas d’utilisation pas à pas. [En savoir plus](../../channels/using/customizing-a-push-notification.md)
+Réorganisation de la section **[!UICONTROL Personnaliser une notification push]** avec des cas pratiques détaillés – [En savoir plus](../../channels/using/customizing-a-push-notification.md)
 
 Nouvelle section consacrée à la gestion du blacklistage – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -717,7 +720,7 @@ Liste détaillée de tous les composants disponibles dans les rapports dynamique
 
 Liste détaillée des KPI partagés avec Adobe Analytics – [En savoir plus](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Vidéo Nouveau rapport dynamique – [En savoir plus](../../start/using/how-to-videos.md)
+Vidéo Nouveau rapport dynamique –
 
 Ajout de recommandations relatives au compte S3 – [En savoir plus](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Canal courrier : Retour à l’expéditeur – [En savoir plus](../../channe
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Les [guides de prise en main](../../start/using/step-by-step-guides.md) et les [vidéos](../../start/using/how-to-videos.md) ont été regroupés au sein d’une section spécifique.
+Les guides de prise en main et les vidéos ont été regroupés au sein d’une section spécifique.
 
 La documentation sur le rendu des emails a été mise à jour – [En savoir plus](../../sending/using/email-rendering.md)
 
