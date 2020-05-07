@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,7 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
 
    ![](assets/profile_creation_1.png)
 
-1. Cliquez ensuite sur **[!UICONTROL Create]**.
+1. Cliquez ensuite sur **[!UICONTROL Créer]**.
 
    ![](assets/profile_creation.png)
 
@@ -44,14 +47,14 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    ![](assets/profile_creation1.png)
 
    * Les informations de contact, telles que nom, prénom, genre, date de naissance, photo, préférence linguistique (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)) permettent de personnaliser davantage les diffusions.
-   * The profile&#39;s **[!UICONTROL Time zone]** is used to send deliveries at the profile&#39;s time zone. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
-   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
-   * The **[!UICONTROL Address]** category contains the postal address that needs to be filled along with the **[!UICONTROL Address specified]** option to send [direct mail](../../channels/using/about-direct-mail.md) to this profile. If the **[!UICONTROL Address specified]** option is not checked, this profile will be excluded from every direct mail delivery.
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units (to [manage permissions](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
-   * The **[!UICONTROL Traceability]** category automatically updates with information concerning the user who created or modified the profile.
+   * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
+   * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
+   * La catégorie **[!UICONTROL Adresse]** contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
+   * La catégorie **[!UICONTROL Autorisation d&#39;accès]** indique les entités organisationnelles du profil (pour [gérer les permissions](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
+   * La catégorie **[!UICONTROL Traçabilité]** est automatiquement mise à jour avec les informations concernant l&#39;utilisateur qui a créé ou modifié le profil.
 
-1. Click **[!UICONTROL Create]** to save the profile.
+1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le profil.
 
 Le profil est ajouté à la liste.
 
