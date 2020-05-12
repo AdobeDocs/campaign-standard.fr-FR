@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +40,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 >
 >Adobe utilise d’autres types de comptes externes pendant la configuration du produit. Depuis la version Campaign Standard 17.9, les comptes externes FTP peuvent toujours être définis, mais ne sont plus utilisables dans les nouvelles activités de workflow. Si une connexion est déjà configurée, elle reste activée.
 
-Les Comptes externes peuvent être configurés par les administrateurs dans le **[!UICONTROL Administration > Application settings > External accounts]** menu.
+Les comptes externes peuvent être configurés par les administrateurs depuis le menu **[!UICONTROL Administration > Paramétrage de l’application > Comptes externes]**.
 
 ## Création d’un compte externe {#creating-an-external-account}
 
@@ -45,7 +48,7 @@ Adobe Campaign est livré avec un ensemble de comptes externes prédéfinis. Pou
 
 Les comptes externes sont utilisés par des processus techniques, tels que des workflows techniques ou des workflows des opérations. Lors de la configuration d’un transfert de fichier dans un workflow ou d’un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
-1. Cliquez sur le **[!UICONTROL Create]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un libellé. Le libellé et l’identifiant seront utilisés lors de la sélection des comptes externes dans les workflows.
 1. Sélectionnez le type de compte que vous souhaitez créer.
 1. Configurez l’accès au compte en indiquant les identifiants, l’adresse du serveur, le numéro de port et les clés, le cas échéant.
@@ -100,24 +103,24 @@ Le champ du serveur Amazon S3 doit être renseigné de la manière suivante :
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-Pour stocker votre fichier en mode crypté S3, cochez la **[!UICONTROL Keep files in S3 encrypted]** case.
+Pour stocker votre fichier en mode crypté dans S3, cochez la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
 
 ![](assets/external_accounts_2.png)
 
 Les informations nécessaires sont généralement fournies par le fournisseur du serveur auquel vous vous connectez.
 
-Spécifiez le **[!UICONTROL AWS Region]** nom associé à votre point de terminaison. Pour vérifier les régions et les versions de signatures prises en charge, consultez la [documentation officielle d’Amazon S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
+Indiquez la **[!UICONTROL région AWS]** associée à votre point d’entrée. Pour vérifier les régions et les versions de signatures prises en charge, consultez la [documentation officielle d’Amazon S3](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region).
 
 >[!NOTE]
 >
->Your **[!UICONTROL Receiver server]** should be entered without your AWS Region, it will later be automatically added to your URL.
+>Le **[!UICONTROL serveur récepteur]** doit être saisi sans votre région AWS. Il sera ajouté ultérieurement et de manière automatique à votre URL.
 
 ### Recommandations relatives au compte Amazon S3 {#amazon-s3-account-recommendations}
 
 Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recommandations suivantes :
 
 * Créez une stratégie de compartiment stricte afin de limiter l’accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d’un compartiment. Pour plus d’informations, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* While creating an external account, enable the encryption to store sensitive data in the S3 bucket by checking the **[!UICONTROL Keep files in S3 encrypted]** box.
+* Lors de la création d’un compte externe, activez le cryptage pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
 * Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur les autorisations de compartiment, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)..
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
@@ -143,12 +146,12 @@ Pour ajouter le Google reCAPTCHA version 3 à votre landing page, vous devez to
 
 Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suivants :
 
-* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
-* **[!UICONTROL Type]**: reCAPTCHA Google
-* Votre **[!UICONTROL Site key]** et **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** between 0 and 1
+* Un **[!UICONTROL Libellé]** et l’**[!UICONTROL ID]** de votre compte externe
+* **[!UICONTROL Type]** : Google reCAPTCHA
+* Votre **[!UICONTROL Clé du site]** et **[!UICONTROL Secret du site]**
+* Un **[!UICONTROL Seuil]** compris entre 0 et 1
 
-   The 0.0 **[!UICONTROL Threshold]** value means that it is likely a bot and 1.0 likely a good interaction. Par défaut, vous pouvez utiliser un seuil de 0.5.
+   Une valeur de **[!UICONTROL Seuil]** de 0.0 signifie qu’il s’agit vraisemblablement d’un bot, tandis qu’une valeur de 1.0 représente une bonne interaction. Par défaut, vous pouvez utiliser un seuil de 0.5.
 
 ![](assets/external_accounts_3.png)
 
@@ -158,20 +161,20 @@ Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suiv
 >
 >Pour obtenir les informations nécessaires à la configuration de votre compte externe dans Adobe Campaign Standard, accédez au portail Azure en sélectionnant **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROLTransfer file]** workflow activity. Voir à ce propos cette [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Voir à ce propos cette [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Pour un compte de stockage externe Blob Microsoft Azure, fournissez les détails suivants :
 
-* A **[!UICONTROL Label]** and **[!UICONTROL ID]** of your external account
-* **[!UICONTROL Type]**: Stockage Blob de Microsoft Azure
-* Votre **[!UICONTROL Account name]** et **[!UICONTROL Account key]**. Pour savoir où trouver votre nom de compte et votre clé de compte, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Your **[!UICONTROL Endpoint suffix]**. It can be found within your **[!UICONTROL Connection string]** of the **[!UICONTROL Access keys]** menu in the Azure Portal. Pour plus d’informations à ce propos, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Votre **[!UICONTROL Container]** nom. Si vous envisagez d’utiliser plusieurs conteneurs, vous devez créer autant de comptes externes que de conteneurs.
-* The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+* Un **[!UICONTROL Libellé]** et l’**[!UICONTROL ID]** de votre compte externe
+* **[!UICONTROL Type]** : stockage Blob Microsoft Azure
+* Le **[!UICONTROL Nom du compte]** et la **[!UICONTROL Clé de compte]**. Pour savoir où trouver votre nom de compte et votre clé de compte, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Le **[!UICONTROL Suffixe de point d’entrée]**. Il se trouve dans la **[!UICONTROL chaîne de connexion]** du menu **[!UICONTROL Access keys]** sur le portail Azure. Pour plus d’informations à ce propos, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Le nom du **[!UICONTROL Conteneur]**. Si vous envisagez d’utiliser plusieurs conteneurs, vous devez créer autant de comptes externes que de conteneurs.
+* L’option **[!UICONTROL Accès concurrentiel]** permet d’ajuster la vitesse des transferts de fichiers.
 
 ![](assets/external_accounts_4.png)
 
-Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign to Microsoft Azure Blob storage.
+Une fois cette option configurée, cliquez sur **[!UICONTROL Tester la connexion]** pour lier Adobe Campaign au stockage Blob Microsoft Azure.
 
 ### Recommandations relatives au stockage Blob Microsoft Azure {#azure-blob-recommendations}
 
@@ -181,11 +184,11 @@ Once configured, click **[!UICONTROL Test connection]** to link Adobe Campaign t
 
 **Clé de compte**
 
-When configuring your external account, you must use one of the **[!UICONTROL Account key]** available in the Azure Portal. Pour plus d’informations sur l’emplacement de vos clés de compte, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+Lors de la configuration de votre compte externe, vous devez utiliser l’une des **[!UICONTROL clés de compte]** disponibles sur le portail Azure. Pour plus d’informations sur l’emplacement de vos clés de compte, consultez cette [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **Optimisation de la vitesse de transfert des fichiers**
 
-The **[!UICONTROL Concurrency]** option lets you fine tune the speed of your file transfers.
+L’option **[!UICONTROL Accès concurrentiel]** permet d’ajuster la vitesse des transferts de fichiers.
 Elle représente le nombre de threads qui seront utilisés pour effectuer le transfert de fichiers. Chacun de ces threads téléchargera une portion d’environ 1 Mo de l’objet Blob. Ils seront ensuite placés en file d’attente pour être écrits sur le disque. Notez qu’en augmentant le nombre de threads, vous augmentez également la charge sur les ressources utilisées par l’application pendant le transfert de fichiers.
 
 Une fois le transfert de fichiers terminé, vous trouverez des mesures de performances dans les logs des workflows.
@@ -194,7 +197,7 @@ Une fois le transfert de fichiers terminé, vous trouverez des mesures de perfor
 
 Par défaut, le transfert de fichiers pour Blob de Microsoft Azure aura jusqu’à quatre reprises.  Si le service de stockage Azure renvoie un code d’erreur tel que 503 (serveur occupé) ou 500 (délai d’expiration de l’opération), cela peut indiquer que vous approchez ou dépassez l’évolutivité de votre compte de stockage. Ce problème peut se produire lorsque vous utilisez un nouveau compte ou effectuez des tests.
 
-If the error persists, you can increase the number of retries by creating an option under the advanced menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+Si l’erreur persiste, vous pouvez augmenter le nombre de reprises en créant une option dans le menu avancé **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Options]**.
 
 Si elle est implémentée, l’option doit être créée comme suit :
 
