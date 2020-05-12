@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 66%
 
 ---
 
@@ -24,23 +27,23 @@ En tant qu’ [administrateur](../../administration/using/users-management.md#fu
 
 Notez que certains paramètres de courrier électronique sont désormais gérés par l’application Adobe Campaign Enhanced MTA. Par conséquent :
 * Certaines configurations de l’interface utilisateur Campaign ne sont plus appliquées :
-   * Les **[!UICONTROL Retries]** paramètres du menu [](#email-channel-parameters) Configuration et des paramètres [](#retries-parameters) d’envoi des propriétés de courrier électronique.
-   * Règles **[!UICONTROL MX management]** et **[!UICONTROL Domain management]** dans le menu [Règles de traitement des](#email-processing-rules)courriels.
+   * Les paramètres **[!UICONTROL de Reprises]** dans le menu [](#email-channel-parameters) Configuration et dans les paramètres [](#retries-parameters) Envoi des propriétés de courrier électronique.
+   * Règles de gestion **** MX et de gestion **[!UICONTROL des]** domaines dans le menu [Règles de traitement des](#email-processing-rules)courriels.
 
 * D’autres paramètres sont maintenant partiellement gérés par l’AMT améliorée, tandis que certaines configurations peuvent encore être effectuées dans Campaign. Les paramètres concernés sont les suivants :
-   * Le **[!UICONTROL Message delivery duration]** paramètre dans le **[!UICONTROL Configuration]** menu. Voir à ce propos [cette section](#email-channel-parameters).
-   * Paramètre **[!UICONTROL Delivery duration]** ou **[!UICONTROL Validity limit for sending messages]** dans la **[!UICONTROL Validity period]** section. Voir à ce propos [cette section](#validity-period-parameters).
-   * Les **[!UICONTROL Bounce mails]** règles dans le **[!UICONTROL Email processing rules]**. Voir à ce propos [cette section](#email-processing-rules).
+   * Paramètre de durée **[!UICONTROL de la diffusion de]** messages dans le menu **[!UICONTROL Configuration]** . Voir à ce propos [cette section](#email-channel-parameters).
+   * Durée **[!UICONTROL ou]** Limite de validité de la **[!UICONTROL Diffusion pour l’envoi du paramètre de messages]** dans la section Période **[!UICONTROL de]** validité. Voir à ce propos [cette section](#validity-period-parameters).
+   * Les règles **[!UICONTROL Rebonds envoient]** des courriers électroniques dans les règles **[!UICONTROL de traitement du]** courrier électronique. Voir à ce propos [cette section](#email-processing-rules).
 
 ## Paramètres du canal email {#email-channel-parameters}
 
-L’écran de configuration du courrier électronique permet de définir les paramètres du canal de courrier électronique. Administrators can access these configurations in the **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**menu.
+L’écran de configuration du courrier électronique permet de définir les paramètres du canal de courrier électronique. Administrators can access these configurations in the **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]** menu.
 
 ![](assets/channels_1.png)
 
 * **Champs de masques autorisés**
 
-   Les **[!UICONTROL Header parameters of sent emails]** listes d&#39;adresses électroniques autorisées que vous pouvez utiliser pour envoyer des courriers électroniques à vos destinataires (adresse de l&#39;expéditeur) et pour les avertir de toute erreur (adresse d&#39;erreur).  Adobe Campaign vérifie la validité des adresses saisies au cours de la préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+   Les paramètres **[!UICONTROL En-tête de la section Courriers électroniques]** envoyés liste les adresses électroniques autorisées que vous pouvez utiliser pour envoyer des courriers électroniques à vos destinataires (adresse de l’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses sortantes, etc. (adresse d’erreur).  Adobe Campaign vérifie la validité des adresses saisies au cours de la préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’équipe d’assistance clientèle d’Adobe.
    * Pour ajouter une autre adresse, vous pouvez utiliser le panneau [de](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) configuration pour configurer un nouveau sous-domaine ou contacter l’équipe d’assistance clientèle d’Adobe. Notez que si plusieurs masques sont utilisés, ils sont séparés par des virgules.
@@ -48,18 +51,18 @@ L’écran de configuration du courrier électronique permet de définir les par
 
 * **Délivrabilité**
 
-   L’ **[!UICONTROL Delivery reports ID]** assistance clientèle d’Adobe est chargée de l’aider. Il identifie chaque instance avec un ID de délivrabilité qui est utilisé dans les rapports de délivrabilité technique.
+   L’ID **[!UICONTROL de]** Rapports de diffusion est fourni par l’équipe d’assistance clientèle d’Adobe. Il identifie chaque instance avec un ID de délivrabilité qui est utilisé dans les rapports de délivrabilité technique.
    <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Paramètres de la diffusion**
 
-   Adobe Campaign envoie les messages à compter de la date de début. The **[!UICONTROL Message delivery duration]** field allows you to specify the duration during which the messages can be sent.
+   Adobe Campaign envoie les messages à compter de la date de début. Le champ Durée **[!UICONTROL de la diffusion de]** messages vous permet de spécifier la période pendant laquelle tout message de la diffusion rencontrant une erreur temporaire ou un rebond progressif sera réessayé.
 
    >[!IMPORTANT]
    >
    >**Ce paramètre dans Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte car elle est désormais gérée par l’AMT Adobe Campaign Enhanced.
 
-   The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+   Le champ **[!UICONTROL Durée de validité des ressources en ligne]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
 
 * **Reprises**
 
@@ -73,20 +76,20 @@ L’écran de configuration du courrier électronique permet de définir les par
 
 * **Paramètres de mise en quarantaine des emails**
 
-   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of failure. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
+   In the **[!UICONTROL Time between two significant errors]** field, enter a value to define the time the application waits before incrementing the error counter in case of a soft-bounced failure. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
-   Une fois la **[!UICONTROL Maximum number of errors before quarantine]** valeur atteinte, l’adresse électronique est mise en quarantaine. The default value is **&quot;5&quot;**: the address will be quarantined on the fifth error. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+   Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse email est mise en quarantaine. The default value is **&quot;5&quot;**: the address will be quarantined on the fifth error. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    For more on quarantines, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Comptes de routage email     {#email-routing-accounts}
 
-Le **[!UICONTROL Integrated email routing]** compte externe est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
+Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
 ![](assets/channels_2.png)
 
-The account type must always be set to **[!UICONTROL Routing]**, the channel to **[!UICONTROL Email]** and the delivery mode set to **[!UICONTROL Bulk delivery]**.
+Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le canal sur **[!UICONTROL Email]** et le mode de diffusion sur **[!UICONTROL Envoi en masse]**.
 
 **Rubrique connexe**:
 
@@ -94,7 +97,7 @@ The account type must always be set to **[!UICONTROL Routing]**, the channel to 
 
 ## Règles de gestion des emails     {#email-processing-rules}
 
-Les administrateurs **[!UICONTROL Email processing rules]** peuvent y accéder par le **[!UICONTROL Administration > Channels > Email]** menu.
+The **[!UICONTROL Email processing rules]** can be accessed by administrators through the **[!UICONTROL Administration > Channels > Email]** menu.
 
 Notez que les domaines de courriel et les règles MX sont maintenant gérés par l’accord de plateforme de test MTA amélioré Adobe Campaign :
 * La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
@@ -102,9 +105,9 @@ Notez que les domaines de courriel et les règles MX sont maintenant gérés par
 
 ### Mails rebonds {#bounce-mails}
 
-Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rule.
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rules.
 
-This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
 >[!NOTE]
 >
@@ -134,13 +137,13 @@ Cette section décrit la liste des paramètres disponibles dans l’écran des p
 >
 >Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos permissions](../../administration/using/users-management.md).
 
-To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
+Pour éditer les propriétés d’un email ou d’un modèle d’email, utilisez le bouton **[!UICONTROL Editer les propriétés]**.
 
 ![](assets/delivery_options_1.png)
 
 ### Paramètres généraux {#general-parameters}
 
-On the top of the email parameter screen, identify the email using the **[!UICONTROL Label]** and **[!UICONTROL ID]** fields. Ces informations apparaissent dans l’interface mais ne sont pas visibles par les destinataires des messages.
+En haut de l’écran des paramètres d’email, identifiez l’email à l’aide des champs **[!UICONTROL Libellé]** et **[!UICONTROL ID]**. Ces informations apparaissent dans l’interface mais ne sont pas visibles par les destinataires des messages.
 
 ![](assets/delivery_options_2.png)
 
@@ -148,15 +151,15 @@ On the top of the email parameter screen, identify the email using the **[!UICON
 >
 >L’identifiant doit être unique.
 
-The **[!UICONTROL Brand]** field allows you to select the brand linked to the delivery. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Marques](../../administration/using/branding.md).
+Le champ **[!UICONTROL Marque]** permet de sélectionner la marque liée à la diffusion. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Marques](../../administration/using/branding.md).
 
-The **[!UICONTROL Campaign]** field allows you to enter the campaign linked to the email.
+Le champ **[!UICONTROL Campagne]** permet de renseigner la campagne associée à l’email.
 
 Vous pouvez également ajouter une **[!UICONTROL Description]** dans le champ correspondant et modifier l’image affichée sur la vignette de l’email, dans les listes.
 
 ### Paramètres d’envoi {#sending-parameters}
 
-The **[!UICONTROL Send]** section is only available for email templates. Elle comprend les paramètres suivants :
+La section **[!UICONTROL Envoi]** est uniquement disponible pour les modèles d’email. Elle comprend les paramètres suivants :
 
 #### Paramètres de reprises {#retries-parameters}
 
@@ -189,7 +192,7 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
 
 #### Mode test SMTP {#smtp-test-mode}
 
-The **[!UICONTROL Enable SMTP test mode]** option allows you to test sending emails via an SMTP connection without actually sending messages.
+L’option **[!UICONTROL Activer le mode test SMTP]** permet de tester l’envoi des emails via une connexion SMTP sans envoyer réellement de messages.
 Les messages sont traités jusqu’à la connexion au serveur SMTP, mais ne sont pas envoyés.
 
 ![](assets/smtp-test-mode.png)
@@ -207,49 +210,49 @@ Pour plus d’informations sur la configuration SMTP, reportez-vous à la sectio
 
 ### Paramètres de période de validité     {#validity-period-parameters}
 
-La section **[!UICONTROL Validity period]** propose les paramètres suivants :
+La section **[!UICONTROL Période de validité]** propose les paramètres suivants :
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**: lorsque cette case est désactivée, vous devez entrer une durée dans les **[!UICONTROL Delivery duration]** champs et **[!UICONTROL Resource validity limit]** .
+* **[!UICONTROL Fixer explicitement les dates de validité]** : lorsque cette case est décochée, vous devez renseigner une durée dans les champs **[!UICONTROL Durée de diffusion]** et **[!UICONTROL Validité des ressources.]**
 
    Cochez cette case si vous souhaitez définir des dates et heures précises.
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign envoie les messages à compter de la date de début. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
+* **[!UICONTROL Durée]** de Diffusion / **[!UICONTROL Limite de validité d&#39;envoi des messages]**: Adobe Campaign envoie les messages à partir de la date du début. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
 
    >[!IMPORTANT]
    >
    >Ce paramètre est désormais géré par la MTA améliorée Adobe Campaign. **Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
-* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: ce champ est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
-* **[!UICONTROL Mirror page management]**: la page miroir est une page HTML accessible en ligne via un navigateur Web. et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
+* **[!UICONTROL Durée]** de validité de la ressource / Date **[!UICONTROL de Limite de validité pour les ressources]**: ce champ est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
+* **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
 
    >[!IMPORTANT]
    >
    >Le contenu HTML doit avoir été défini pour le courrier électronique pour que la page miroir soit créée.
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du courrier.
+   * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
    * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
    * **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
    * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery duration]** parameter does not apply to transactional messages. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
+>Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
 
 ### Paramètres du tracking     {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
-* **[!UICONTROL Activate tracking]**: vous permet d’activer/désactiver le suivi des URL de messages. To manage tracking for each message URL, use the **[!UICONTROL Links]** icon in the Email Designer action bar. Voir [A propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Tracking validity limit]**: vous permet de définir la durée pendant laquelle le suivi sera activé sur les URL.
-* **[!UICONTROL Substitution URL for expired URLs]**: vous pouvez entrer une URL vers une page Web qui s’affichera une fois le suivi expiré.
+* **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [A propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d’activation du tracking sur les URL.
+* **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
 
 ### Paramètres avancés {#advanced-parameters}
 
-La **[!UICONTROL Advanced parameters]** section contient plusieurs paramètres.
+La section **[!UICONTROL Paramètres avancés]** propose les paramètres suivants :
 
 Les premiers champs vous permettent de saisir les informations nécessaires pour élaborer les en-têtes d’email. Vous pouvez gérer ici l’adresse de réponse et le texte ainsi que l’adresse de l’expéditeur (qui occupe le champ « De : »). Ces informations peuvent être personnalisées.
 
@@ -275,17 +278,17 @@ Ce champ indique le mode de routage utilisé. Il référence un compte externe. 
 
 La préparation des messages est présentée dans la section [Valider les messages](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Typology]**: avant tout envoi, les messages doivent être préparés pour valider le contenu et la configuration. Les règles de vérification appliquées lors de la phase de préparation sont définies dans une **typologie**. Par exemple, pour les emails, la préparation porte sur la validation de l’objet, des URL et des images, etc. Sélectionnez, dans ce champ, la typologie à appliquer.
+* **[!UICONTROL Typologie]** : avant tout envoi, vous devez préparer les messages afin d’en valider le contenu et le paramétrage. Les règles de vérification appliquées lors de la phase de préparation sont définies dans une **typologie**. Par exemple, pour les emails, la préparation porte sur la validation de l’objet, des URL et des images, etc. Sélectionnez, dans ce champ, la typologie à appliquer.
 
    >[!NOTE]
    >
    >Typologies, which can be accessed via the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** menu, are presented in [this section](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Compute the label during delivery preparation]**: permet de calculer la valeur d’étiquette du courrier électronique au cours de la phase de préparation du message à l’aide de champs de personnalisation, de blocs de contenu et de texte dynamique.
+* **[!UICONTROL Calculer le libellé lors de la préparation de la diffusion]** : permet de calculer la valeur du libellé de l’email pendant la phase de préparation du message à l’aide des champs de personnalisation, des blocs de contenu et du texte dynamique.
 
    Il est également possible de personnaliser le libellé de la diffusion avec les variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Voir à ce propos [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Save SQL queries in the log]**: cette option vous permet d&#39;ajouter des journaux de requête SQL dans le journal pendant la phase de préparation.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : cette option permet d’ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
 
 #### Paramètres de BAT {#proof-settings}
 
@@ -295,9 +298,9 @@ Cette section vous permet de configurer le préfixe par défaut à utiliser dans
 
 La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
-* **[!UICONTROL Character encoding]**: cochez la **[!UICONTROL Force encoding]** case si vous souhaitez forcer le codage des messages, puis sélectionnez le codage à utiliser.
-* **[!UICONTROL Bounce mails]**: par défaut, les courriers de retour sont reçus dans la boîte de réception d’erreur de la plateforme (définie dans l’écran **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** ). To define a specific error address for an email, enter the address in the **[!UICONTROL Error address]** field.
-* **[!UICONTROL Additional SMTP headers]**: cette option permet l&#39;ajout d&#39;en-têtes SMTP supplémentaires à vos messages. The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. Les valeurs sont automatiquement encodées, si nécessaire.
+* **[!UICONTROL Encodage des caractères]** : cochez la case **[!UICONTROL Forcer l’encodage]** si vous souhaitez forcer l’encodage des messages, puis sélectionnez le codage à utiliser.
+* **[!UICONTROL Mails rebonds]** : par défaut, les mails rebonds sont récupérés dans la boîte d’erreur de la plateforme (définie dans l’écran **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration).]** Si vous souhaitez définir une adresse d’erreur spécifique pour un email, saisissez l’adresse dans le champ **[!UICONTROL Adresse des erreurs]**.
+* **[!UICONTROL En-têtes SMTP supplémentaires]** : cette option permet d’ajouter des en-têtes SMTP supplémentaires à vos messages. Le script saisi dans le champ **[!UICONTROL En-têtes]** doit comporter un en-tête par ligne, sous la forme **nom:valeur**. Les valeurs sont automatiquement encodées, si nécessaire.
 
    >[!IMPORTANT]
    >
@@ -305,12 +308,12 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
 ### Liste des paramètres d’autorisation d’accès     {#list-of-access-authorization-parameters}
 
-La section **[!UICONTROL Access authorization]** propose les paramètres suivants :
+La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suivants :
 
-* The **[!UICONTROL Organizational unit]** field allows you to restrict access to this email to certain users. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités filles auront accès, en lecture seule, à cet email.
+* Le champ **[!UICONTROL Entité organisationnelle]** permet de restreindre l’accès de cet email à certains utilisateurs. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités filles auront accès, en lecture seule, à cet email.
 
    >[!NOTE]
    >
    >Le paramétrage des entités organisationnelles est accessible via le menu **Administration** > **Utilisateurs &amp; sécurité**.
 
-* Les **[!UICONTROL Created by]** champs **[!UICONTROL Created]**, **[!UICONTROL Modified by]** et **[!UICONTROL Last modified]** sont automatiquement renseignés.
+* Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modifié par]** et **[!UICONTROL Modifié le]** sont automatiquement remplis.
