@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +38,7 @@ Vous pouvez configurer deux types de modèles :
 
    Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/importing-data.md#example--import-workflow-template).
 
-* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Once configured, they are made available to users with a simplified view under the **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
+* **Modèles de données d&#39;import** : tout comme les modèles de workflow, il s&#39;agit de modèles reposant sur des workflows qui sont configurés pour télécharger des fichiers afin de mettre à jour la base de données. Une fois configurés, ils sont mis à disposition des utilisateurs avec une vue simplifiée dans le menu **[!UICONTROL Profil &amp; audiences]** / **[!UICONTROL Imports]**.
 
    Pour plus d&#39;informations sur les modèles de données d&#39;import, reportez-vous à la [documentation dédiée](../../automating/using/importing-data-with-import-templates.md).
 
