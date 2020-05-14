@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '7628'
+ht-degree: 100%
 
 ---
 
@@ -590,7 +593,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Correction d&#39;un problème qui entraînait l&#39;affichage de logs de diffusion incorrects dans les rapports dynamiques. (CAMP-23446)
 * Correction d&#39;un problème qui avait un impact sur les chiffres du rapport de synthèse des bounces (CAMP-28703).
-* Fixed an issue with the Campaign and Assets Core Service integration which could prevent assets from being displayed when selecting **[!UICONTROL Image shared from Adobe Experience Cloud]** in an email (CAMP-28732).
+* Correction d&#39;un problème lié à l&#39;intégration de Campaign avec Assets Core Service qui empêchait l&#39;affichage des ressources lors de la sélection de l&#39;option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]** dans un email (CAMP-28732).
 * Correction d&#39;un problème qui empêchait l&#39;envoi de SMS contenant le caractère &#39;œ&#39; bien que la translittération soit autorisée dans le compte externe SMPP. (CAMP-29041)
 * Correction d&#39;un problème qui entraînait l&#39;affichage d&#39;enregistrements en double lors de l&#39;utilisation d&#39;une activité Segmentation dans des workflows. (CAMP-28743)
 * Correction d&#39;un problème qui empêchait la suppression de l&#39;une des correspondances de valeurs sur une colonne dans une activité de workflow. (CAMP-28708)
