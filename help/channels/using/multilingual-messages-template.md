@@ -11,7 +11,7 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
@@ -35,14 +35,14 @@ Pour créer un modèle d’email ou de SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
+   >Vous pouvez également modifier un modèle standard existant dans un modèle multilingue en cliquant sur le bouton **[!UICONTROL Initialiser la variante du contenu]** dans les propriétés du modèle.
 
 1. Modifiez les propriétés pour personnaliser le libellé, le tracking, etc.
 1. Changez le nombre de variantes en cliquant sur la vignette des variantes. La fenêtre des variantes s&#39;affiche,
 
    ![](assets/multi_template_variants.png)
 
-   dans laquelle vous pouvez ajouter ou supprimer des variantes. Pour ajouter une variante, renseignez la **[!UICONTROL New content variant]** fenêtre.
+   dans laquelle vous pouvez ajouter ou supprimer des variantes. Pour ajouter une variante, renseignez la fenêtre **[!UICONTROL Nouvelle variante du contenu]**.
 
    ![](assets/multi_template_newvariant.png)
 
@@ -50,7 +50,7 @@ Pour créer un modèle d’email ou de SMS, procédez comme suit :
    >
    >Ne supprimez pas la variante &quot;default&quot;, car il s&#39;agit de la variante envoyée aux profils lorsqu&#39;aucun paramètre de préférence linguistique n&#39;est indiqué.
 
-1. Customize label variant if needed and click **[!UICONTROL Confirm]**.
+1. Au besoin, personnalisez la variante du libellé et cliquez sur **[!UICONTROL Confirmer]**.
 1. Vous pouvez aussi ajouter directement le contenu pour chaque variante.
 
 Vous êtes maintenant prêt à créer un email ou un SMS à partir de ce modèle multilingue.
