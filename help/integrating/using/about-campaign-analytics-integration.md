@@ -11,7 +11,7 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
