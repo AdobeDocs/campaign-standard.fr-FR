@@ -12,7 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 34%
 
 ---
 
@@ -51,7 +54,7 @@ Enfin, les activités [de](../../automating/using/about-data-management-activiti
 En savoir plus:
 
 * [Construire un workflow](../../automating/using/building-a-workflow.md)
-* [Exécuter un workflow](../../automating/using/executing-a-workflow.md)
+* [Exécuter un workflow](../../automating/using/about-workflow-execution.md)
 * [Bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md)
 
 ## Filtrage des données {#filter-data}
