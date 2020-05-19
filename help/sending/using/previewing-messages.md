@@ -11,15 +11,15 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
 
 ---
 
 
-# Aperçu des  de {#previewing-messages}
+# Prévisualiser des diffusions {#previewing-messages}
 
-## Prévisualiser l&#39;email     {#previewing-emails}
+## Prévisualiser l&#39;email      {#previewing-emails}
 
 Campaign Standard vous permet de prévisualiser les messages avant l’envoi, afin de vérifier leur personnalisation et la manière dont vos destinataires les verront.
 
@@ -29,21 +29,21 @@ Pour les **emails**, Campaign Standard permet de prévisualiser les messages à
 
 Pour prévisualiser un message à l’aide des profils de test, procédez comme suit :
 
-1. In the [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md), click the **[!UICONTROL Preview]** button.
+1. Dans le [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/sending_preview.png)
 
    Une vue pour les postes de travail et une vue réactive pour les mobiles de votre email s’affichent côte à côte.
 
-1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
+1. Une vérification anti-spam est automatiquement effectuée à chaque prévisualisation. Cliquez sur le bouton **[!UICONTROL Analyse anti-spam]** pour connaitre les raisons de l’avertissement.
 
    ![](assets/sending_anti-spam_analysis.png)
 
-1. Select the **[!UICONTROL Change profile]** button to choose the test profile you want to test the personalization elements on.
+1. Sélectionnez le bouton **[!UICONTROL Charger un profil]** pour choisir le profil de test sur lequel vous souhaitez tester les éléments de personnalisation.
 
    ![](assets/sending_test-profile.png)
 
-1. To exit the **[!UICONTROL Preview]** mode, click the **[!UICONTROL Edit]** button on top left of the screen.
+1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton **[!UICONTROL Editer]** en haut à gauche de l’écran.
 
    ![](assets/sending_preview_edit.png)
 
@@ -53,31 +53,31 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 * [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 
-## Aperçu des messages SMS {#previewing-sms}
+## Prévisualiser des SMS {#previewing-sms}
 
-Pour les **messages** SMS, Campaign Standard vous permet de des messages  à l&#39;aide de la  de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour les **SMS**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
-Pour  un message SMS à l’aide du de test, procédez comme suit :
+Pour prévisualiser un SMS à l’aide de profils de test, procédez comme suit :
 
-1. Une fois que vous avez rempli le message **[!UICONTROL Properties]** de votre SMS et choisi votre  , vous pouvez personnaliser votre . For more information, refer to [section](../../channels/using/personalizing-sms-messages.md).
+1. Une fois que vous avez renseigné les **[!UICONTROL Propriétés]** de votre SMS et sélectionné vos audiences, vous pouvez personnaliser votre diffusion. Voir à ce sujet [cette section](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
-1. Après avoir personnalisé votre contenu, cliquez sur **[!UICONTROL Create]** pour accéder à la **[!UICONTROL Summary]** fenêtre.
+1. Après avoir personnalisé votre contenu, cliquez sur **[!UICONTROL Créer]** pour accéder à la fenêtre **[!UICONTROL Résumé]**.
 
-1. Dans la **[!UICONTROL Summary]** fenêtre, cliquez **[!UICONTROL Content]** pour et prévisualisez votre  de.
+1. Dans la fenêtre **[!UICONTROL Résumé]**, cliquez sur **[!UICONTROL Contenu]** pour commencer la prévisualisation de votre diffusion.
 
    ![](assets/sms_preview_2.png)
 
-1. Cliquez sur **[!UICONTROL Preview]** dans la barre d’outils.
+1. Dans la barre d’outils, cliquez sur **[!UICONTROL Aperçu]**.
 
    ![](assets/sms_preview_3.png)
 
-1. Cliquez **[!UICONTROL Change profile]** ensuite sur pour sélectionner votre de test **[!UICONTROL Confirm]**.
+1. Cliquez sur **[!UICONTROL Charger un profil]** pour sélectionner votre profil de test, puis sur **[!UICONTROL Confirmer]**.
 
    ![](assets/sms_preview_4.png)
 
-Vous pouvez désormais voir la représentation exacte de votre message en fonction du de test sélectionné.
+Vous pouvez maintenant voir la représentation exacte de votre message en fonction des profils de test sélectionnés.
 
 **Rubriques connexes :**
 
@@ -85,25 +85,25 @@ Vous pouvez désormais voir la représentation exacte de votre message en foncti
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md)
 
-## Aperçu des notifications Push {#previewing-push}
+## Prévisualiser des notifications push {#previewing-push}
 
-Dans le cas de la notification **** Push, Campaign Standard vous permet de  messages à l’aide de l’ de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour les **notifications push**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
-Pour  une notification Push à l’aide du de test , procédez comme suit :
+Pour prévisualiser une notification push à l’aide de profils de test, procédez comme suit :
 
-1. Une fois que vous avez rempli la notification **[!UICONTROL Properties]** Push et sélectionné votre  , vous pouvez personnaliser votre . For more information, refer to [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
+1. Une fois que vous avez renseigné les **[!UICONTROL Propriétés]** de votre notification push et sélectionné vos audiences, vous pouvez personnaliser votre diffusion. Pour plus d’informations, consultez la section [Personnalisation d&#39;une notification push](../../channels/using/customizing-a-push-notification.md).
 
-1. Après avoir personnalisé votre contenu, vous pouvez vérifier directement le rendu de vos notifications Push en fonction des périphériques et du système d’exploitation dans la fenêtre du .
+1. Après avoir personnalisé votre contenu, vous pouvez vérifier directement le rendu de vos notifications push en fonction des appareils et du système d’exploitation dans la fenêtre d’aperçu.
 
    ![](assets/push_preview.png)
 
-1. Pour  votre notification Push à l’aide du de test , cliquez sur **[!UICONTROL Preview with test profile]**.
+1. Pour prévisualiser votre notification push à l’aide de profils de test, cliquez sur **[!UICONTROL Aperçu avec le profil de test]**.
 
    ![](assets/push_preview_2.png)
 
-1. Sélectionnez ensuite votre de test **[!UICONTROL Confirm]**.
+1. Sélectionnez votre profil de test, puis cliquez sur **[!UICONTROL Confirmer]**.
 
-Vous pouvez désormais voir la représentation exacte de votre message en fonction du de test sélectionné.
+Vous pouvez maintenant voir la représentation exacte de votre message en fonction des profils de test sélectionnés.
 
 ![](assets/push_preview_3.png)
 
@@ -113,25 +113,25 @@ Vous pouvez désormais voir la représentation exacte de votre message en foncti
 * [Préparation et envoi d’une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Personnalisation d’une notification push](../../channels/using/customizing-a-push-notification.md)
 
-## Aperçu des messages in-app {#previewing-in-app}
+## Prévisualiser des messages In-App {#previewing-in-app}
 
-Pour **In-App**, Campaign Standard vous permet de des messages  à l’aide de l’ de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour **In-App**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
-Pour d’un message in-app à l’aide du de test, procédez comme suit :
+Pour prévisualiser un message In-App à l&#39;aide de profils de test, procédez comme suit :
 
-1. Une fois que vous avez renseigné le message **[!UICONTROL Properties]** in-app, sélectionné votre   et défini votre **[!UICONTROL Triggers]**, vous pouvez personnaliser votre . Pour plus d’informations, voir [Personnalisation d’un message](../../channels/using/customizing-an-in-app-message.md)in-app.
+1. Une fois que vous avez renseigné les **[!UICONTROL propriétés]** de votre message In-App, sélectionné vos audiences et défini vos **[!UICONTROL triggers]**, vous pouvez personnaliser votre diffusion. Pour plus d’informations, voir [Personnalisation d’un message In-App](../../channels/using/customizing-an-in-app-message.md).
 
-1. Après avoir personnalisé votre contenu, vous pouvez vérifier directement le rendu de votre message in-app en fonction des périphériques et du système d’exploitation dans la fenêtre du .
+1. Après avoir personnalisé votre contenu, vous pouvez vérifier directement le rendu de votre message In-App en fonction des appareils et du système d’exploitation dans la fenêtre d’aperçu.
 
    ![](assets/in_app_preview.png)
 
-1. Pour  votre message in-app à l’aide du de test , cliquez sur **[!UICONTROL Preview]**.
+1. Pour prévisualiser votre message In-App à l’aide de profils de test, cliquez sur **[!UICONTROL Aperçu]**.
 
    ![](assets/in_app_preview_2.png)
 
-1. Sélectionnez ensuite votre de test **[!UICONTROL Confirm]**.
+1. Sélectionnez votre profil de test, puis cliquez sur **[!UICONTROL Confirmer]**.
 
-Vous pouvez désormais voir la représentation exacte de votre message en fonction du de test sélectionné.
+Vous pouvez maintenant voir la représentation exacte de votre message en fonction des profils de test sélectionnés.
 
 ![](assets/in_app_preview_3.png)
 
