@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b032807bc0a6572691d6f6d2e49ce7a1a58dd21a
+source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Les mises à niveau sont déployées en deux phases. En premier lieu, les instan
 
 Toutes les dates de publication peuvent faire l’objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-**NOUVEAU !** Abonnez-vous aux notifications [de mise à jour de](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) Campaign Standard pour obtenir des détails sur les prochaines versions directement dans votre boîte de réception.
+**NOUVEAU !** Abonnez-vous aux [notifications de mises à jour de Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) pour obtenir des détails sur les prochaines versions directement dans votre boîte de réception.
 
-## Version 20.3.1 - Version de mai {#release-20-3-may-release}
+## Version 20.3.1 - Mai {#release-20-3-may-release}
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](../../rn/using/release-notes.md). Pour toute question, contactez l’[Assistance clientèle Adobe](https://support.neolane.net/webApp/extranetLogin).
 
@@ -46,11 +46,11 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>13-14 mai 2020<br /> </td>
+   <td>May 25 - 26, 2020<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>18 mai - 1er juin 2020<br /> </td>
+   <td>28 mai - 1er juin 2020<br /> </td>
   </tr>
  </tbody>
 </table>
