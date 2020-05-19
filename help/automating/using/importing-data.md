@@ -11,8 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+translation-type: tm+mt
+source-git-commit: e22a2fcfd36adc1d4c9b62b1fd336e553c69b5af
+workflow-type: tm+mt
+source-wordcount: '2116'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +125,7 @@ Par exemple, pour décrypter un fichier à l’aide de PGP, la commande sera :
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-Une fois la requête traitée, les commandes de cryptage/décryptage seront disponibles dans le champ **!UICONTROL Étape de pré-traitement]**des activités **[!UICONTROL Chargement de fichier]**et **[!UICONTROL Extraction de fichier]**. Vous pouvez les utiliser pour décrypter ou crypter les fichiers à importer ou exporter.
+Once the request is processed, the encryption / decryption commands will be available in the **[!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. Vous pouvez les utiliser pour décrypter ou crypter les fichiers à importer ou exporter.
 
 ![](assets/preprocessing-encryption.png)
 
