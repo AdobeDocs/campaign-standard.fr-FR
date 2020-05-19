@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
@@ -47,7 +47,7 @@ Le Concepteur d&#39;email permet de définir facilement la structure de votre em
 Pour éditer la structure d&#39;un email :
 
 1. Ouvrez un contenu existant ou créez un contenu d&#39;email.
-1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
+1. Accédez aux **[!UICONTROL Composants de structure]** en sélectionnant l&#39;icône **+** de gauche.
 
    ![](assets/email_designer_structure.png)
 
@@ -63,7 +63,7 @@ Pour éditer la structure d&#39;un email :
 
 1. Plusieurs composants de structure constitués d&#39;une ou de plusieurs colonnes sont disponibles.
 
-   Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
+   Sélectionnez le composant **[!UICONTROL n:n colonne]** pour définir le nombre de colonnes de votre choix (entre 3 et 10). Vous pouvez aussi définir la largeur de chaque colonne en déplaçant les flèches situées au bas de celle-ci.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,21 +81,21 @@ Vous pouvez ajouter autant de composants de contenu que vous le souhaitez dans u
 
 Voici la liste des composants disponibles dans le Concepteur d&#39;email :
 
-- **[!UICONTROL Button]**
+- **[!UICONTROL Bouton]**
 
-   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
+   Si vous avez besoin d&#39;utiliser plusieurs boutons, plutôt que d&#39;éditer chaque bouton à partir de zéro, vous pouvez dupliquer le composant **[!UICONTROL Bouton]** à l&#39;aide de la barre d&#39;outils contextuelle.
 
    Vous pouvez aussi enregistrer des boutons dans des fragments réutilisables. Voir à ce propos [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
+Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l&#39;image de remplacement dans le Concepteur d&#39;email.
 
-- **[!UICONTROL Text]**
+- **[!UICONTROL Texte]**
 
-   Utilisez ce composant pour insérer du texte dans votre email. You can adjust the color, style and size of your text in **[!UICONTROL Component Settings]**.
+   Utilisez ce composant pour insérer du texte dans votre email. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans **[!UICONTROL Paramètres des composants]**.
 
-- **[!UICONTROL Divider]**
+- **[!UICONTROL Diviseur]**
 
-   Utilisez ce composant pour insérer une ligne de séparation dans votre email. You can select the color, style and size of the breaking line in **[!UICONTROL Component Settings]**.
+   Utilisez ce composant pour insérer une ligne de séparation dans votre email. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Html]**
 
@@ -103,11 +103,11 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 
    >[!NOTE]
    >
-   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la section **head** du code HTML, sinon l&#39;email ne sera pas réactif. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
+   >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la  section **head** du code HTML, sinon l&#39;email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
    Pour rendre un contenu externe compatible avec le Concepteur d&#39;email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
-   Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code de l&#39;email d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]** Html. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
+   Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code HTML de l&#39;email d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
 
    <!-- A full example is presented below. -->
 
@@ -121,11 +121,11 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
    1. Enregistrez toutes les images et les ressources que vous souhaitez utiliser.
    1. Si vous maîtrisez le langage HTML, divisez votre contenu HTML d&#39;origine en plusieurs parties différentes.
 
-- **[!UICONTROL Video]**
+- **[!UICONTROL Vidéo]**
 
    Utilisez ce composant pour insérer une vidéo dans votre email.
 
-   Insert the video component into a structure component of your email and enter the video link in the **[!UICONTROL Component Settings]**.
+   Insérez le composant vidéo dans un composant de structure de votre email et saisissez le lien vidéo dans **[!UICONTROL Paramètres des composants]**.
 
 - **[!UICONTROL Image]**
 
@@ -135,15 +135,15 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 
 - **[!UICONTROL Social]**
 
-   Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux dans votre email. You can select which links you want to display and the size of their icon in **[!UICONTROL Component Settings]**.
+   Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux dans votre email. Vous pouvez sélectionner les liens à afficher et la taille de leur icône dans **[!UICONTROL Paramètres des composants]**.
 
-- **[!UICONTROL Carousel]**
+- **[!UICONTROL Carrousel]**
 
-   1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+   1. Placez le composant **[!UICONTROL Carrousel]** à l&#39;intérieur d&#39;un composant de structure.
    1. Parcourez votre ordinateur pour sélectionner des images.
    ![](assets/des_carousel_browse.png)
 
-   1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+   1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de vignettes souhaitées dans le carrousel.
    1. Sélectionnez une image de remplacement à partir de votre ordinateur.
    ![](assets/des_carousel_fallback.png)
 
@@ -155,7 +155,7 @@ Select **[!UICONTROL Fallback view]** to display the fallback image in the Email
 
 **Rubriques connexes** :
 
-- Vidéo [Créer un email](../../channels/using/creating-an-email.md)
+- [Créer un email](../../channels/using/creating-an-email.md)
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
