@@ -12,7 +12,7 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
@@ -22,28 +22,28 @@ source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ## Modifier les propriétés des données d&#39;un formulaire pour une landing page{#changing-a-landing-page-form-data-properties}
 
-Vous pouvez associer des champs de la base à des blocs de type zone de saisie, bouton radio ou case à cocher. To do this, select the block and enter the **[!UICONTROL Form data]** in the palette.
+Vous pouvez associer des champs de la base à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela, sélectionnez le bloc et renseignez la partie **[!UICONTROL Données du formulaire]** dans la palette.
 
 ![](assets/delivery_content_9.png)
 
 * La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 * L&#39;option **Obligatoire** permet de n&#39;autoriser la validation de la page que si l&#39;utilisateur a renseigné le champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur sera affiché.
 
-## Association des champs de formulaire  {#mapping-form-fields}
+## Association des champs de formulaire   {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
 1. Sélectionnez un bloc dans la landing page.
-1. Remplissez la **[!UICONTROL Form data]** partie dans la palette.
+1. Renseignez la partie **[!UICONTROL Données de formulaire]** de la palette.
 
    ![](assets/editing_lp_content_4.png)
 
-1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone. Les landing pages peuvent seulement être mappées avec des **profils**.
+1. Sélectionnez un champ de base de données à associer au champ de formulaire dans la zone de sélection **[!UICONTROL Champ.]** Les landing pages peuvent seulement être mappées avec des **profils**.
 
-1. Cochez l’ **[!UICONTROL Mandatory]** option si nécessaire. La page ne peut être envoyée que si l’utilisateur a rempli ce champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur valide la page.
+1. Si nécessaire, cochez l’option **[!UICONTROL Obligatoire]**. La page ne peut être envoyée que si l’utilisateur a renseigné ce champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur valide la page.
 
-1. Définissez le type de champ en choisissant, par exemple **[!UICONTROL Text]**, **[!UICONTROL Number]** ou **[!UICONTROL Date]** dans la zone de **[!UICONTROL HTML type of the field]** sélection.
-Si vous choisissez une valeur obligatoire **[!UICONTROL Checkbox]**, assurez-vous qu’elle est de **[!UICONTROL Field]** type.
+1. Il est enfin possible de définir le type du champ en choisissant par exemple **[!UICONTROL Texte]**, **[!UICONTROL Nombre]** ou **[!UICONTROL Date]** dans la zone de sélection **[!UICONTROL Type HTML du champ.]**
+Si vous sélectionnez une **[!UICONTROL case à cocher]** obligatoire, assurez-vous qu’elle est de type **[!UICONTROL Champ]**.
 
 >[!NOTE]
 >
@@ -55,10 +55,10 @@ Les paramètres de réconciliation permettent de définir le mode de gestion des
 
 Pour cela :
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
+1. Editez les propriétés de la landing page accessibles via l&#39;icône ![](assets/edit_darkgrey-24px.png) dans le tableau de bord de la landing page, puis affichez les paramètres **[!UICONTROL Traitement]**.
 
    ![](assets/lp_parameters_4.png)
 
-1. Select the **[!UICONTROL Reconciliation key]**: these database fields (for example: email, first name, last name) are used to determine whether the visitor has a profile that is already known in the Adobe Campaign database. Cela permet de mettre à jour ou de créer un profil, en fonction des paramètres de stratégie de mise à jour définis.
-1. Define the **[!UICONTROL Form parameter mapping]**: this section allows you to map the landing page field parameters and those used in the reconciliation key.
-1. Select the **[!UICONTROL Update strategy]**: if the reconciliation key recovers an existing database profile, you can choose for this profile to be updated with the data entered in the form or instead prevent this update.
+1. Sélectionnez la **[!UICONTROL Clé de réconciliation]** : ces champs de la base (par exemple : email, nom, prénom, etc.) sont utilisés pour déterminer si le visiteur a déjà un profil connu dans la base Adobe Campaign. Cela permet de mettre à jour ou de créer un profil, en fonction des paramètres de stratégie de mise à jour définis.
+1. Définissez la **[!UICONTROL Correspondance des paramètres du formulaire]** : cette section permet de mettre en correspondance les paramètres des champs de la landing page et ceux utilisés dans la clé de réconciliation.
+1. Sélectionnez la **[!UICONTROL Stratégie de mise à jour]** : si la clé de réconciliation permet de retrouver un profil existant en base, vous pouvez mettre à jour ce profil avec les données entrées dans le formulaire ou bien empêcher cette mise à jour.
