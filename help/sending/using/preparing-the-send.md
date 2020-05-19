@@ -11,7 +11,7 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
@@ -25,7 +25,7 @@ La préparation correspond à l&#39;étape de calcul de la population cible et d
 
    ![](assets/preparing_delivery_2.png)
 
-1. The **[!UICONTROL Deployment]** block shows the preparation progress, then the preparation statistics: number of targeted messages, number of messages to send, etc.
+1. Le bloc **[!UICONTROL Déploiement]** affiche l&#39;état d&#39;avancement de la préparation, puis le résultat de la préparation : nombre de messages ciblés et à envoyer, etc.
 
    La durée de cette opération varie en fonction de la taille de la population ciblée.
 
@@ -37,7 +37,7 @@ La préparation correspond à l&#39;étape de calcul de la population cible et d
 
    ![](assets/preparing_delivery_6.png)
 
-1. Votre message est automatiquement enregistré pendant la préparation de la phase de diffusion. If you need to make any changes to your message&#39;s schedule after the preparation step, you will need to make sure that you click the **[!UICONTROL Prepare]** button again for those changes to be taken into account. Pour plus d&#39;informations sur la planification d&#39;un message, consultez cette [page](../../sending/using/about-scheduling-messages.md).
+1. Votre message est automatiquement enregistré pendant la préparation de la phase de diffusion. Si vous devez apporter des modifications au planning de votre message après l&#39;étape de préparation, vous devrez cliquer de nouveau sur le bouton **[!UICONTROL Préparer]** pour que les modifications soient prises en compte. Pour plus d&#39;informations sur la planification d&#39;un message, consultez cette [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -45,7 +45,7 @@ La préparation correspond à l&#39;étape de calcul de la population cible et d
 
    ![](assets/preparing_delivery_4.png)
 
-1. The **[!UICONTROL Deployment]** window opens, correct any errors then restart the preparation.
+1. La fenêtre **[!UICONTROL Déploiement]** s&#39;affiche. Corrigez les erreurs, puis relancez la préparation.
 
    Le dernier message de logs affiche les erreurs éventuelles et leur nombre. Une icône spécifique permet de visualiser le type d&#39;erreur rencontrée : l&#39;icône jaune indique une erreur de traitement non bloquante, l&#39;icône rouge indique une erreur qui empêche le lancement de la diffusion.
 
