@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 Un certain nombre de techniques, paramétrages et outils pour améliorer votre taux de délivrabilité sont présentés ci-dessous. Voici quelques définitions des principaux termes techniques.
 
-**Reverse DNS** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
+**Reverse DNS** : Adobe Campaign vérifie qu&#39;un reverse DNS est bien renseigné pour une adresse IP et que celui-ci reboucle bien sur l&#39;IP.
 
 Les **règles MX** sont utilisées pour contrôler la vitesse à laquelle le MTA (Message Transfer Agent) Campaign envoie les emails à chaque domaine d&#39;email ou FAI (ex : hotmail.com, comcast.net). Ces règles sont généralement basées sur les limites publiées par les FAI (ne pas inclure plus de 20 messages par connexion SMTP, par exemple).
 
@@ -40,4 +40,4 @@ DMARC peut utiliser les rapports générés par 250ok.
 
 **SMTP** (Simple mail transfer protocol) est une norme Internet pour la transmission des emails.
 
-**IP** dédiées : Adobe fournit une stratégie d’IP dédiée à chaque client avec une adresse IP de progression afin de construire une réputation et d’optimiser les performances  des.
+**Adresses IP dédiées** : Adobe fournit une stratégie IP dédiée pour chaque client avec une adresse IP en phase de montée (ramp-up) afin d’établir une réputation et d’optimiser les performances de diffusion.
