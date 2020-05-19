@@ -11,7 +11,7 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
@@ -29,16 +29,16 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 >Les images ci-après illustrent le chargement d&#39;un contenu existant à l&#39;aide du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Après la création de l&#39;email ou de la landing page, ouvrez son contenu.
-1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
+1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]**.
 
    ![](assets/des_loading_1.png)
 
 1. Sélectionnez la source du contenu à charger :
 
-   * [Modèles](../../designing/using/using-reusable-content.md#content-templates)de contenu : cliquez sur l’ **[!UICONTROL Templates]** onglet.
-   * [Contenu de zéro](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), à  frais : cliquez sur le **[!UICONTROL Create]** bouton.
-   * [Contenu de votre ordinateur sous forme de fichier](#importing-content-from-a-file)ZIP ou HTML : cliquez sur le **[!UICONTROL Upload]** bouton.
-   * [Contenu d’une URL](#importing-content-from-a-url) existante (uniquement pour les courriels) : cliquez sur le **[!UICONTROL Import from URL]** bouton.
+   * [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates) : cliquez sur l&#39;onglet **[!UICONTROL Modèles]**.
+   * [Contenu entièrement nouveau](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) : cliquez sur le bouton **[!UICONTROL Créer]**.
+   * [Contenu depuis votre ordinateur sous la forme d&#39;un fichier ZIP ou HTML](#importing-content-from-a-file) : cliquez sur le bouton **[!UICONTROL Télécharger]**.
+   * [Contenu depuis une URL existante](#importing-content-from-a-url) (uniquement pour les emails) : cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]**.
    ![](assets/des_loading_2.png)
 
 1. Chargez le contenu. Le contenu sélectionné remplace le contenu actuel.
@@ -66,7 +66,7 @@ Pour rendre du contenu externe existant entièrement éditable dans le Concepteu
 
 ### Importer du contenu depuis un fichier {#importing-content-from-a-file}
 
-From the Email Designer home page, click the **[!UICONTROL Upload]** button to upload a file from your computer, then confirm.
+Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier depuis votre ordinateur, puis confirmez l&#39;opération.
 
 La structure du dossier compressé est libre. Toutefois, le référencement des fichiers en HTML doit être relatif et doit respecter l&#39;arborescence du dossier compressé.
 
@@ -97,12 +97,12 @@ Avant d&#39;importer du contenu depuis une URL, vérifiez que les exigences suiv
 
 Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
-1. Dans le de Designer de messagerie, sélectionnez le **[!UICONTROL Import from URL]** bouton.
+1. Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]**.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Définissez l&#39;URL à partir de laquelle le contenu sera récupéré.
-1. Clics **[!UICONTROL Confirm]**.
+1. Cliquez sur **[!UICONTROL Confirmer]**.
 
 **Rubrique connexe :**
 
@@ -114,7 +114,7 @@ L&#39;import de contenu à partir d&#39;une URL lors de la préparation du messa
 
 Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, procédez comme suit :
 
-1. Select the **[!UICONTROL Content imported during preparation]** option.
+1. Sélectionnez l&#39;option **[!UICONTROL Contenu importé lors de la préparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
    >
    >A ce stade, l&#39;affichage HTML dans l&#39;éditeur de contenu ne doit pas être pris en compte. Il sera récupéré pendant la phase de préparation.
 
-1. To preview the URL content that has been retrieved, open the message once it is created then click the **[!UICONTROL Preview]** button.
+1. Pour prévisualiser le contenu de l&#39;URL récupéré, ouvrez le message une fois qu&#39;il a été créé, puis cliquez sur le bouton **[!UICONTROL Prévisualiser]**.
 
 Il est possible de personnaliser l&#39;URL distante à partir de laquelle le contenu sera récupéré. Pour cela, procédez comme suit :
 
-1. Click the email label on top of the screen to acces the Email Designer **[!UICONTROL Properties]** tab.
-1. Recherchez le **[!UICONTROL Remote URL]** champ.
+1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]** du Concepteur d&#39;email.
+1. Recherchez le champ **[!UICONTROL URL distante]**.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Insérez le champ de personnalisation, le bloc de contenu ou le texte dynamique de votre choix.
 
-   The **[!UICONTROL Current date - YYYYMMDD]** content block, for example, enables you to insert the date of the day.
+   Le bloc de contenu **[!UICONTROL Date actuelle - YYYYMMDD]**, par exemple, permet d&#39;insérer la date du jour.
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ Pour plus d&#39;informations sur la conversion d&#39;un email existant en email 
 
 Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
 
-Ce cas d’utilisation   une méthode rapide pour convertir le courrier électronique HTML en composants de Designer de messagerie.
+Ce cas pratique présente comment convertir rapidement un email HTML en composants du Concepteur d&#39;email.
 
 >[!CAUTION]
 >
