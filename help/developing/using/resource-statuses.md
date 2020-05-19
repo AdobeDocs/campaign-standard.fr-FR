@@ -11,7 +11,7 @@ topic-tags: about-custom-resources
 discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
@@ -19,25 +19,25 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 # Statuts des ressources{#resource-statuses}
 
-En fonction de leur publication ou de l’état  du , les ressources peuvent avoir des états différents.
+En fonction de leur statut de publication ou d’activation, les ressources peuvent avoir des statuts différents.
 
-There are two columns dedicated to displaying these statuses in the **[!UICONTROL Custom resources]** screen.
+Deux colonnes sont dédiées à l&#39;affichage des statuts dans l&#39;écran **[!UICONTROL Ressources personnalisées]**.
 
 ![](assets/schema_colonne_1.png)
 
 **Publication :**
 
-* **En création** : la ressource vient d&#39;être créée ou bien la ressource a été réinitialisée. Pour créer les tables de base de données ainsi que les API correspondantes, la ressource doit être republiée. Si une ressource est en cours de réécriture, elle devient automatiquement inactive après l’étape de publication.
-* **En attente d&#39;initialisation** : la ressource a été réinitialisée. Le processus de réinitialisation interviendra lors de la prochaine publication. La réinitialisation est irrévocable. Plusieurs messages d’avertissement s’affichent pour informer l’utilisateur, à la fois lors d’une nouvelle rédaction et lors de la préparation de la publication.
+* **En création** : la ressource vient d&#39;être créée ou bien la ressource a été réinitialisée. Il est nécessaire de publier à nouveau la ressource pour créer les tables ou champs de la base de données ainsi que les API correspondantes. Si une ressource est à nouveau mise en version préliminaire, elle est automatiquement désactivée à l’étape de publication.
+* **En attente d&#39;initialisation** : la ressource a été réinitialisée. Le processus de réinitialisation interviendra lors de la prochaine publication. La réinitialisation est irrévocable. Plusieurs messages d’avertissement s’affichent pour informer l’utilisateur, à la fois lors d’une nouvelle version préliminaire et lors de la préparation de la publication.
 
    Pour plus d&#39;informations sur la réinitialisation, voir la section [Supprimer une ressource](../../developing/using/deleting-a-resource.md).
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Cancel re-draft]** option is available when the resource that you want to re-draft still contains links through other resources with the &quot;Published&quot; status. Cette option permet de rétablir le processus de « réinitialisation ». Les statuts d&#39;origine des ressources personnalisées sont alors rétablis.
+   >L&#39;option **[!UICONTROL Annuler la réinitialisation]** est disponible lorsque la ressource que vous souhaitez réinitialiser contient toujours des liens vers d&#39;autres ressources avec le statut « Publiée ». Cette option permet de rétablir le processus de « réinitialisation ». Les statuts d&#39;origine des ressources personnalisées sont alors rétablis.
 
-* **Publiée** : la ressource a été publiée. Si la ressource est modifiée après la date de la dernière modification, un message s’affiche pour vous inviter à republier la ressource afin de prendre en compte les dernières modifications.
+* **Publiée** : la ressource a été publiée. Si la ressource est modifiée après la date de dernière publication, alors un message invite l&#39;utilisateur à la republier afin de prendre en compte les dernières modifications.
 
-Le **[!UICONTROL Do not publish latest modifications]** champ empêche la prise en compte des modifications dans les publications futures.
+Le champ **[!UICONTROL Ne pas publier les dernières modifications]** empêche les modifications d&#39;être prises en compte lors des prochaines publications.
 
 Ce champ est configurable dans la définition de la ressource personnalisée.
