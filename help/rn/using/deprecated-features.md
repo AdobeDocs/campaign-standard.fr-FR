@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +41,7 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps et une solution de remplacement est fournie. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Standard ou ne doivent pas être utilisées dans le cadre d’une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
-Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous aux dates de suppression prévues pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
+Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Consultez la version de suppression de la cible pour planifier votre environnement et les mises à jour de votre projet en conséquence.
 
 <table> 
  <thead> 
@@ -64,10 +67,10 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression de  en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
   <p> 
-  <em>Date de suppression prévue : juillet 2020 - version 20.5 de Campaign </em></p>
+  <em>Version de suppression de Cible : Version Campaign 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
    <p>Lisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
   <p> 
-  <em>Date de suppression prévue : octobre 2020 - version 20.6 de Campaign </em></p>
+  <em>Version de suppression de Cible : Version Campaign 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -104,9 +107,9 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </tbody> 
 </table>
 
-## Fonctions supprimées {#removed-features}
+## Catégories supprimées {#removed-features}
 
-Cette section les fonctionnalités et fonctionnalités qui ont été supprimées de Campaign Standard.
+Cette section répertorie les catégories et fonctionnalités qui ont été supprimées de Campaign Standard.
 
 <table> 
  <thead> 
@@ -116,7 +119,7 @@ Cette section les fonctionnalités et fonctionnalités qui ont été supprimées
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le SDK Adobe Creative a été retiré. En conséquence, l’édition d’images optimisée par Creative SDK dans Campaign Standard e-mails n’est plus disponible à partir de Campaign version 20.2.</p></br>
+   <td> <p>Le SDK Adobe Creative a été retiré. En conséquence, à compter de la version Camppaign 20.2, l’édition d’images avec le SDK Creative dans les emails de Campaign Standard n’est plus disponible.</p></br>
    </td> 
   </tr> 
  </tbody> 
