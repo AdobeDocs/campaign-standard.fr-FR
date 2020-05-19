@@ -1,6 +1,6 @@
 ---
 title: Présentation de la structure de la payload des notifications push Campaign Standard
-description: Ce est destiné à décrire la structure de la charge utile reçue dans les applications mobiles.
+description: L’objectif de ce document est de décrire la structure de la payload reçue dans les applications mobiles.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 302159577f5a7d917ba253994ff23c4980d518e5
 
 ---
@@ -20,27 +20,27 @@ source-git-commit: 302159577f5a7d917ba253994ff23c4980d518e5
 
 # Présentation de la structure de la payload des notifications push Campaign Standard {#push-payload}
 
- Adobe Campaign vous permet d’envoyer des notifications Push personnalisées et segmentées sur les périphériques mobiles iOS et Android aux applications mobiles (applications mobiles).
+ Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées sur les appareils mobiles iOS et Android vers les applications mobiles (app mobiles).
 
-Chaque notification Push reçue sur une application mobile comporte des informations utilisées par l’application pour afficher la notification Push en cas d’envoi d’une notification Push d’alerte, et probablement pour effectuer d’autres calculs, en particulier si une notification Push silencieuse est envoyée.
+Chaque notification push reçue sur une application mobile comporte des informations utilisées par l’application pour afficher la notification push en cas d’envoi d’une notification push d’alerte, et probablement pour effectuer d’autres calculs, en particulier si une notification push silencieuse est envoyée.
 
-Ces informations sont reçues par le code de l’application mobile dans un gestionnaire de  qui indique qu’une notification Push a été reçue. Lors de l&#39;envoi de notifications Push à partir de  Adobe Campaign Standard, les informations reçues dans l&#39;application mobile peuvent également contenir des informations spécifiques à Campaign Standard qui peuvent être utilisées pour tirer parti de certaines fonctionnalités fournies par le. En outre, la charge peut contenir des données personnalisées qui peuvent être utilisées par l’application mobile.
+Ces informations sont reçues par le code de l’application mobile dans un gestionnaire d’événement qui indique qu’une notification push a été reçue. Lors de l&#39;envoi de notifications push depuis Adobe Campaign Standard, les informations reçues dans l&#39;application mobile peuvent également contenir des informations spécifiques à Campaign Standard qui peuvent être utilisées pour tirer parti de certaines fonctionnalités fournies par Campaign Standard. En outre, la payload peut contenir des données personnalisées qui peuvent être consommées par l’application mobile.
 
-Ce décrit la structure de la charge utile reçue dans une application mobile lorsqu’une notification Push est correctement envoyée à une application à partir de  Standard.
+Ce document décrit la structure de la payload reçue dans une application mobile lorsqu’une notification push est envoyée avec succès à une application à partir d’Adobe Campaign Standard.
 
 >[!NOTE]
 >
->La structure de la charge utile varie selon le type d’application mobile (application iOS, application Android compatible FCM, par exemple).
+>La structure de la payload varie selon le type d’application mobile (application iOS, application Android compatible FCM, par exemple).
 
-## Structure de charge utile push {#push-payload-structure}
+## Structure de la payload push {#push-payload-structure}
 
-Cette section décrit la structure d’un exemple de charge utile pour diverses plateformes mobiles et décrit les principaux attributs qu’elle contient. Il s’agit de la structure de la charge utile reçue dans le code de l’application mobile dans le gestionnaire de  du qui indique qu’une notification Push a été reçue.
+Cette section décrit la structure d’un exemple de payload pour diverses plateformes mobiles et décrit les principaux attributs qu’elle contient. Il s’agit de la structure de la payload reçue dans le code de l’application mobile dans le gestionnaire d’événement qui indique qu’une notification push a été reçue.
 
-Les attributs de charge utile et leurs valeurs varient en fonction des configurations fournies dans les options avancées de notification Push. Cette section fournit également un mappage entre ces configurations dans l’interface utilisateur Campaign Standard et les attributs dans la charge utile afin de clarifier comment la charge utile changera lors de la configuration d’une option dans Campaign Standard.
+Les attributs de payload et leurs valeurs varient en fonction des configurations fournies dans les options avancées de notification push. Cette section fournit également un mappage entre ces configurations dans l’interface utilisateur Campaign Standard et les attributs dans la payload afin de clarifier la façon dont la payload changera lors de la configuration d’une option dans Campaign Standard.
 
-### Pour les applications mobiles iOS {#payload-structure-ios}
+### Pour l’application mobile iOS {#payload-structure-ios}
 
-**Exemple de charge utile envoyée de  Adobe Campaign à l’application iOS :**
+**Exemple de payload envoyée d’Adobe Campaign à l’application iOS :**
 
 ```
 {
@@ -80,7 +80,7 @@ Les attributs de charge utile et leurs valeurs varient en fonction des configura
     "_mId":"h138a"} 
 ```
 
-**Exemple de charge utile JSON à utiliser avec APNS Tester[iOS](https://pushtry.com/)**
+**Exemple de payload JSON à utiliser avec[iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
@@ -108,13 +108,13 @@ Les attributs de charge utile et leurs valeurs varient en fonction des configura
 }
 ```
 
-La section la plus importante de la charge utile est le dictionnaire aps, qui contient des clés définies par Apple et est utilisé pour déterminer comment le système qui reçoit la notification doit alerter l’utilisateur, le cas échéant. Cette section contient des clés prédéfinies utilisées par l’application mobile pour formuler le comportement de la notification Push.
+La section la plus importante de la payload est le dictionnaire aps, qui contient des clés définies par Apple et est utilisé pour déterminer comment le système qui reçoit la notification doit alerter l’utilisateur, le cas échéant. Cette section contient des clés prédéfinies utilisées par l’application mobile pour formuler le comportement de la notification push.
 
-Vous trouverez des informations détaillées sur les attributs des applications dans la documentation destinée aux développeurs Apple : [Création de la charge utile](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)de notification à distance.
+Vous trouverez des informations détaillées sur les attributs dans aps dans la documentation destinée aux développeurs Apple : [Création de la payload de notification à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
 ### Pour l’application Android {#payload-structure-android}
 
-**Exemple d&#39;envoi de données utiles depuis  Adobe Campaign vers l&#39;application Android**
+**Exemple d&#39;envoi de payload depuis Adobe Campaign vers l&#39;application Android**
 
 ```
 {
@@ -154,7 +154,7 @@ Vous trouverez des informations détaillées sur les attributs des applications 
 }
 ```
 
-**Exemple de charge utile JSON pour utiliser le testeur FCM[Google](https://pushtry.com/)**
+**Exemple de charge utile JSON pour utiliser le[Google FCM tester](https://pushtry.com/)**
 
 ```
 {
@@ -196,38 +196,38 @@ Vous trouverez des informations détaillées sur les attributs des applications 
 }
 ```
 
-La charge utile contient un message de données qui inclut tout le contenu du de notification Push  le contenu, y compris les paires clé/valeur personnalisées. L’application cliente doit gérer le message pour créer et afficher la notification Push, si nécessaire ou pour ajouter toute autre logique métier.
+La payload contient un message de données qui inclut tout le contenu de la diffusion de la notification push, y compris les paires clé/valeur personnalisées. L’application cliente doit gérer le message pour créer et afficher la notification push, si nécessaire, ou pour ajouter toute autre logique métier.
 
-Pour comprendre les aspects d’une charge utile androïde, consultez Concepts et options de [messagerie (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Pour comprendre les aspects d’une payload Android, consultez la section [Concepts et options de messagerie (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
->La prise en charge des messages de notification dans la charge utile Android a été supprimée à compter de janvier 2018 afin de permettre la réactivation de l’application et la transmission du contrôle à l’application mobile sans que l’utilisateur ait à interagir avec l’application.
+>La prise en charge des messages de notification dans la payload Android a été supprimée en janvier 2018 afin de permettre la réactivation de l’application et la transmission du contrôle à l’application mobile sans que l’utilisateur ait à interagir avec l’application.
 
-### Mappage entre les configurations Campaign Standard et les attributs de charge {#mapping-payload}
+### Mappage entre les configurations Campaign Standard et les attributs de payload {#mapping-payload}
 
-| Configuration Campaign | Attribut affecté dans iOS | Attribut affecté dans Android | Description |
+| Configuration Campaign | Attribut concerné dans iOS | Attribut concerné dans Android | Description |
 |:-:|:-:|:-:|:-:|
 | Titre du message <br>Corps du message | alerte → titre <br> alerte → corps | titre <br>corps | Ces données contiennent des détails du message d’alerte.<br>Le titre et les clés de corps fournissent le contenu de l’alerte. |
-| Jouer un son | sound | sound | Son personnalisé à lire avec l’alerte. |
+| Jouer un son | sound | sound | Son personnalisé à jouer avec l’alerte. |
 | Valeur du badge | badge | badge | Valeur entière à utiliser pour marquer l’icône de l’application. |
 | Ajouter un lien profond  | uri | NA | Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web). |
-| Catégorie | category | category | Pour afficher des actions personnalisées avec une notification à distance. <br>La clé  du permet au système d’afficher les actions de ce  sous forme de boutons dans l’interface d’alerte. |
-| Champs personnalisés | custom_field1, custom_field2... | custom_field1, custom_field2... | Toute donnée personnalisée que vous souhaitez envoyer à votre application. |
-| URL de contenu multimédia enrichi (images, gif, fichiers audio et vidéo)<br>(applicable uniquement pour iOS 10 ou version ultérieure) | media-attachement-url | NA | URL de vos fichiers multimédia pour ajouter du contenu enrichi à votre notification. <br>Lorsque vous fournissez une valeur pour cette URL, l’indicateur de contenu modifiable est automatiquement envoyé dans la charge utile. <br> (Uniquement applicable pour iOS 10 ou version ultérieure) |
-| Contenu mutable <br> (applicable uniquement pour iOS 10 ou version ultérieure) | mutable-content | NA | L’extension du service de notification dans votre application &quot;intercepte&quot; toutes les notifications distantes avec la clé de contenu modifiable et vous permet de gérer/manipuler le contenu de la charge utile de requête, qui peut ensuite être utilisée pour personnaliser la notification. Cette fonctionnalité permet notamment de télécharger et d’afficher plusieurs médias, de déchiffrer toutes les données chiffrées présentes dans la charge utile push. Vous trouverez plus d’informations dans [Modification de la charge utile d’une notification](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)distante. <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
-| Contenu disponible | content-available | NA | La sélection de cette option permet de réveiller une application iOS lorsqu’elle est en arrière-plan/suspendue. Le réveil implique que l’application s’exécute en arrière-plan et que le gestionnaire de  approprié responsable de la réception de la charge utile des données de notification Push obtient un contrôle et peut utiliser les données pour effectuer n’importe quel calcul, y compris, mais sans s’y limiter, la création d’une notification Push personnalisée et l’affichage de la même valeur. Pour plus d’informations, reportez-vous à la section [Mise en veille avec le](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)de notification. |
-| URL de contenu multimédia enrichi (fichiers d’image)<br>(applicable uniquement pour Android) | NA | media-attachement-url | URL de vos fichiers image pour ajouter du contenu enrichi à votre notification. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de BroadlogId et de deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où l’utilisateur a cliqué/ouvert la notification Push. Ces informations sont calculées et envoyées en interne par le serveur d’applications sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| Catégorie | category | category | Pour afficher des actions personnalisées avec une notification à distance. <br>La clé de catégorie permet au système d’afficher les actions pour cette catégorie sous forme de boutons dans l’interface d’alerte. |
+| Champs personnalisés | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Toute donnée personnalisée que vous souhaitez envoyer à votre application. |
+| URL de contenu multimédia (images, gif, fichiers audio et vidéo)<br>(Applicable uniquement pour iOS 10 ou version ultérieure) | media-attachement-url | NA | URL de vos fichiers multimédia pour ajouter du contenu enrichi à votre notification. <br>Lorsque vous fournissez une valeur pour cette URL, le drapeau de contenu mutable est automatiquement envoyé dans le payload. <br> (Uniquement applicable pour iOS 10 ou version ultérieure) |
+| Contenu mutable <br> (Applicable uniquement pour iOS 10 ou version ultérieure) | mutable-content | NA | L’extension du service de notification dans votre application « intercepte » toutes les notifications distantes avec la clé de contenu mutable et vous permet de gérer/manipuler le contenu de la payload de requête, qui peut ensuite être utilisée pour personnaliser la notification. Cette fonctionnalité permet notamment de télécharger et d’afficher plusieurs médias, de décrypter toutes les données cryptées présentes dans la payload push. Vous trouverez plus d’informations dans [Modification de la payload d’une notification à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
+| Contenu disponible | content-available | NA | La sélection de cette option permet de réactiver une application iOS lorsqu’elle est en arrière-plan/suspendue. La réactivation implique que l’application s’exécute en arrière-plan et que le gestionnaire d’événement approprié responsable de la réception de la payload des données de notification push obtient un contrôle et peut utiliser les données pour effectuer n’importe quel calcul, y compris, mais sans s’y limiter, la création d’une notification push personnalisée et l’affichage de cette dernière. Pour plus d’informations, reportez-vous à la section [Mise en éveil d’une application avec la diffusion d&#39;une notification](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL de contenu multimédia (fichiers image)<br>(Applicable uniquement pour Android) | NA | media-attachement-url | URL de vos fichiers image pour ajouter du contenu enrichi à votre notification. |
+| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de broadlogId et deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où l’utilisateur a cliqué sur/ouvert la notification push. Ces informations sont calculées et envoyées en interne par le serveur applicatif, sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
-### Comment récupérer les informations de charge utile dans le code d’application mobile {#payload-information}
+### Comment récupérer les informations de payload dans le code d’application mobile {#payload-information}
 
-Les informations de charge utile envoyées par le serveur d’applications sont reçues par le code de l’application mobile dans un gestionnaire de  qui indique qu’une notification Push a été reçue. Ce  varie selon la plateforme mobile sur laquelle l’application est en cours d’exécution et selon que l’application est en avant-plan ou en arrière-plan. La documentation suivante vous aidera à identifier le gestionnaire de  que vous souhaitez gérer en fonction de votre cas d&#39;utilisation.
+Les informations de payload envoyées par le serveur de l’application sont reçues par le code de l’application mobile dans un gestionnaire d’événement qui indique qu’une notification push a été reçue. Cet événement varie selon la plateforme mobile sur laquelle l’application est en cours d’exécution et selon que l’application est exécutée au premier plan ou en arrière-plan. La documentation suivante vous aidera à identifier le gestionnaire d’événement que vous souhaitez gérer en fonction de votre cas d&#39;utilisation.
 
-* Applications iOS : **Gestion des notifications** distantes dans Notifications [](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)distantes.
-* Applications Android : [Réception de messages sur une application cliente Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
+* Applications iOS : **Gestion des notifications à distance** dans [Notifications à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* Applications Android : [Réception de messages sur une application client Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
-**Exemple d’application mobile iOS**
+**Exemple pour une application mobile iOS**
 
 ```
  - (void)application:(UIApplication *)application
@@ -259,7 +259,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo {
 }
 ```
 
-**Exemple d’application FCM mobile Android**
+**Exemple pour une application FCM mobile Android**
 
 ```
 public void onMessageReceived(RemoteMessage message) {
