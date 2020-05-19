@@ -12,8 +12,11 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
 
@@ -24,30 +27,30 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/exclusion.png)
 
-L'activité **[!UICONTROL Exclusion]** permet d'exclure des éléments d'une population selon certains critères.
+L&#39;activité **[!UICONTROL Exclusion]** permet d&#39;exclure des éléments d&#39;une population selon certains critères.
 
-## Contexte d'utilisation {#context-of-use}
+## Contexte d’utilisation {#context-of-use}
 
-L'activité **[!UICONTROL Exclusion]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
+L&#39;activité **[!UICONTROL Exclusion]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
 
-Un ensemble principal est défini parmi les transitions entrantes. Les membres des autres transitions entrantes sont exclus de l'ensemble principal. La transition sortante de l'activité d'exclusion contient uniquement les membres de l'ensemble principal non rencontrés dans les autres transitions entrantes.
+Un ensemble principal est défini parmi les transitions entrantes. Les membres des autres transitions entrantes sont exclus de l&#39;ensemble principal. La transition sortante de l&#39;activité d&#39;exclusion contient uniquement les membres de l&#39;ensemble principal non rencontrés dans les autres transitions entrantes.
 
 ## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Exclusion]** dans votre workflow.
-1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
-1. Sélectionnez l'**[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C'est l'ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l'ensemble principal.
+1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
+1. Sélectionnez l&#39;**[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C&#39;est l&#39;ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l&#39;ensemble principal.
 
    >[!NOTE]
    >
-   >Les transitions entrantes doivent contenir le même type de population. Par exemple, si l'ensemble principal contient des profils de test, les autres transitions doivent aussi contenir des profils de test.
+   >Les transitions entrantes doivent contenir le même type de population. Par exemple, si l&#39;ensemble principal contient des profils de test, les autres transitions doivent aussi contenir des profils de test.
 
-1. Si besoin, gérez les [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) de l'activité afin d'accéder à des options avancées sur la population transmise en sortie.
-1. Validez le paramétrage de l'activité et enregistrez le workflow.
+1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
 ## Exemple {#example}
 
-L'exemple suivant montre le paramétrage de deux activités de requête visant à filtrer les profils de la base Adobe Campaign dont l'âge est compris entre 18 et 27 ans et dont l'adresse email n'est pas valide. Ceux dont l'email n'est pas valide sont ensuite exclus du premier ensemble. Cela permet par exemple d'envoyer un email par la suite.
+L&#39;exemple suivant montre le paramétrage de deux activités de requête visant à filtrer les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et dont l&#39;adresse email n&#39;est pas valide. Ceux dont l&#39;email n&#39;est pas valide sont ensuite exclus du premier ensemble. Cela permet par exemple d&#39;envoyer un email par la suite.
 
 ![](assets/wkf_exclusion_example.png)
 
