@@ -12,8 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1969'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +29,9 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les données d&#39;un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d’utilisation {#context-of-use}
 
-La façon dont les données seront extraites est définie lors du paramétrage de l&#39;activité. Le fichier à charger peut par exemple être une liste de contacts.
+La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
 >[!CAUTION]
 >
@@ -105,7 +108,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/executing-a-workflow.md#monitoring)..
+Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/monitoring-workflow-execution.md)..
 
 ## Format des colonnes   {#column-format}
 
