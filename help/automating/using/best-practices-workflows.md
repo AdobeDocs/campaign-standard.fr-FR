@@ -11,8 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Les workflows en pause ou en échec pendant plus de 7 jours sont arrêtés afin
 
 Un workflow contenant des transitions flottantes peut être exécuté : il génère un avertissement et est suspendu une fois qu&#39;il atteint la transition, mais aucune erreur n&#39;est entraînée. Il est aussi possible de démarrer un workflow sans en avoir terminé la conception et de le compléter au fur et à mesure.
 
-Pour plus d&#39;informations, voir [Exécution de workflows](../../automating/using//executing-a-workflow.md).
+Pour plus d&#39;informations, voir [Exécution de workflows](../../automating/using/about-workflow-execution.md).
 
 ### Time zone
 
@@ -128,7 +131,7 @@ Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés au
 ### Utilisation des logs de workflow{#using-workflow-logs}
 
 Vous pouvez accéder aux logs de workflow pour surveiller l&#39;exécution de vos activités. Ils répertorient par ordre chronologique les opérations réalisées et les erreurs d&#39;exécution. L&#39;onglet Logs contient l&#39;historique de l&#39;exécution de toutes les activités ou de celles sélectionnées.
-L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des activités. Pour obtenir plus d&#39;informations sur une activité, cliquez sur une tâche. Pour plus d&#39;informations, consultez [Surveiller l&#39;exécution des workflows](../../automating/using/executing-a-workflow.md#monitoring).
+L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des activités. Pour obtenir plus d&#39;informations sur une activité, cliquez sur une tâche. Pour plus d&#39;informations, consultez [Surveiller l&#39;exécution des workflows](../../automating/using/monitoring-workflow-execution.md).
 
 #### Résolution des problèmes liés aux activités Data Management{#troubleshooting-data-management-activities}
 
@@ -156,4 +159,4 @@ Pour plus d&#39;informations, consultez [Alertes de diffusion](../../sending/usi
 
 **Rubriques connexes :**
 
-* [Gestion des erreurs](../../automating/using/executing-a-workflow.md#error-management)
+* [Gestion des erreurs](../../automating/using/monitoring-workflow-execution.md)
