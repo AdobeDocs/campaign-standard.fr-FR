@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
@@ -90,7 +90,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;un problème qui empêchait l&#39;affichage des erreurs à l&#39;origine de l&#39;échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d&#39;une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018   {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018    {#release-18-7---july-2018}
 
 **Nouveautés**
 
@@ -158,35 +158,35 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 **Améliorations**
 
 * L&#39;API **[!UICONTROL History]** a été ajoutée à Adobe.IO. Elle permet d&#39;accéder aux informations relatives à l&#39;historique marketing d&#39;un profil : nombre de points de contact, diffusions envoyées, URL de page miroir, etc. Voir à ce propos le [cas pratique dédié](../../api/using/interacting-with-marketing-history.md) .
-* The **[!UICONTROL Database cleanup]** technical workflow has been optimized in order to ensure better performance for database backup.
+* Le workflow technique **[!UICONTROL Nettoyage de la base]** a été optimisé pour améliorer les performances du nettoyage de la base de données.
 * Creative Designer pour les emails est désormais disponible en français et en allemand.
 
 **Autres changements**
 
-* A **[!UICONTROL Compute stats]** button has been added in the **[!UICONTROL Deployment]** window of sent deliveries. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l&#39;envoi prend trop de temps ou si les résultats n&#39;ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
+* Un bouton **[!UICONTROL Calculer les statistiques]** a été ajouté à la fenêtre **[!UICONTROL Déploiement]** des diffusions envoyées. Il permet de récupérer les derniers KPI, par exemple si la mise à jour des résultats de l&#39;envoi prend trop de temps ou si les résultats n&#39;ont pas été pris en compte. Voir à ce propos cette [section](../../sending/using/confirming-the-send.md).
 * Dans le workflow technique d&#39;usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d&#39;erreurs consécutives à ignorer dans l&#39;activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
 * Le code SQL généré lors de la gestion des conditions de restriction d&#39;accès à l&#39;entité a été optimisé.
-* The **[!UICONTROL Update]** activity now allows you to add, update or delete data related to subscriptions (nms:appSubscriptionRcp table).
-* Le flux **[!UICONTROL Update delivery execution]** technique a été divisé en deux  de afin d’optimiser les performances : - **[!UICONTROL Update delivery execution]**: met à jour le suivi des . Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Update delivery indicators]**: met à jour les indicateurs clés de performance  du, il est démarré toutes les heures par défaut. Pour plus d&#39;informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* When a delivery is sending messages, the status in the **[!UICONTROL Deployment]** section can now have two values: **[!UICONTROL Sending]**: the messages are being sent. **[!UICONTROL Sending (retry)]**: une nouvelle tentative est en cours.
-* Users with the **[!UICONTROL Delivery preparation]** role are now able to send proofs. (CAMP-24313)
+* L&#39;activité **[!UICONTROL Mise à jour]** permet maintenant d&#39;ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
+* Le workflow technique **[!UICONTROL Mise à jour de l&#39;exécution des diffusions]** a été divisé en deux workflows afin d&#39;optimiser les performances : - **[!UICONTROL Mise à jour de l&#39;exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (IPC) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d&#39;informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Lorsqu&#39;une diffusion envoie des messages, le statut dans la section **[!UICONTROL Déploiement]** peut maintenant avoir deux valeurs : **[!UICONTROL Envoi]** : les messages sont en cours d&#39;envoi. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
+* Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]** peuvent maintenant envoyer des bons à tirer. (CAMP-24313)
 * L&#39;option **Activer TLS via SMPP** a été ajoutée au compte externe **Routage des SMS par SMPP**. Voir à ce propos cette [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 **Correctifs**
 
 * Correction d&#39;une erreur qui empêchait l&#39;envoi des e-mails lors de l&#39;inclusion d&#39;une image dynamique depuis Adobe Target (CAMP-24848).
-* Fixed an issue with the **[!UICONTROL Privacy Access/Delete Request]** technical workflows, which did not complete if any of the requests failed.
+* Correction d&#39;une erreur liée aux workflows techniques **[!UICONTROL Demande d&#39;accès/de suppression des informations personnelles]**. Ils ne se terminaient pas en cas d&#39;échec d&#39;une des demandes.
 * Correction d&#39;une erreur qui empêchait Privacy Core service de recevoir les mises à jour des statuts de demande de Campaign.
-* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]** technical workflow from working properly (CAMP-25465).
+* Correction d’une erreur qui empêchait le fonctionnement correct du workflow technique **[!UICONTROL Import de l&#39;audience partagée]** (CAMP-25465).
 * Correction d&#39;une erreur qui empêchait les demandes d&#39;accès aux informations personnelles de Campaign d&#39;être marquées comme étant terminées dans Privacy Core Service.
 * Correction d&#39;une erreur qui empêchait certains utilisateurs de se connecter à Campaign Standard via l&#39;authentification IMS lorsque l&#39;Adobe ID était trop long. (CAMP-24095)
 * Correction d&#39;une erreur dans Creative Designer qui se produisait lors de la suppression de modules de contenu. (CAMP-25242)
 * Correction d&#39;une erreur lors de l&#39;utilisation des règles de fatigue des notifications push pour les abonnés sans profil dans la base de données. (CAMP-25344)
 * Correction d&#39;une erreur qui affichait un message d&#39;erreur lors de l&#39;accès aux exclus des diffusions. (CAMP-24724)
 * Correction d&#39;une erreur qui empêchait la préparation des bons à tirer dans les instances avec des envois étendus.
-* Fixed two issues that could occur when publishing custom resources with the **[!UICONTROL Sending log]** extension activated.
+* Correction de deux erreurs qui se produisaient lors de la publication de ressources personnalisées avec l&#39;extension des **[!UICONTROL Envois]** activée.
 * Correction d&#39;une erreur liée à la non-prise en compte de la durée de la diffusion dans les diffusions récurrentes.
-* Fixed an issue that could occur when sorting data in the **[!UICONTROL Client data]** menu, for custom resources with more than 100K records. (CAMP-24308)
+* Correction d&#39;une erreur qui se produisait lors du tri des données dans le menu **[!UICONTROL Données client]** pour les ressources personnalisées comprenant plus de 100 000 enregistrements. (CAMP-24308)
 * Correction d&#39;une erreur liée aux dimensions de profil personnalisées qui n&#39;étaient pas prises en compte lors de l&#39;utilisation de la fonction de recherche dans les rapports dynamiques.
 * Correction d&#39;une erreur liée à l&#39;affichage des données internationales pour les niveaux de compte dans les rapports dynamiques.
 * Il est désormais possible de créer un service sans message de confirmation d&#39;abonnement ou de désabonnement.
@@ -263,7 +263,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d&#39;un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l&#39;objet d&#39;un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018   {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018    {#release-18-4---april-2018}
 
 **Correctifs**
 
@@ -289,7 +289,7 @@ _Ressources personnalisées_
 
 * Correction d&#39;une erreur qui entraînait l&#39;échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018   {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018    {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -344,7 +344,7 @@ _Plate-forme_
 _Emails, SMS et courrier_
 
 * Correction d&#39;un problème qui entraînait la troncature des SMS en plusieurs parties, car la taille des parties était calculée en caractères et non en octets.
-* Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
+* Ajout d&#39;une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **[!UICONTROL Bounces + erreurs]** après l&#39;envoi de la diffusion. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
 * Correction d&#39;un problème lié au widget de calendrier dans le planificateur de diffusion.
 * Correction d&#39;un problème d&#39;affichage lors de l&#39;ouverture d&#39;une cible pour la seconde fois dans une diffusion envoyée.
 * Correction d&#39;un problème qui entraînait l&#39;affichage d&#39;un message d&#39;erreur demandant une date de début lors de la création d&#39;un modèle d&#39;email avec une date d&#39;envoi différée.
@@ -379,7 +379,7 @@ _Messages transactionnels_
 * Correction d&#39;une erreur liée au modèle de message transactionnel lors de l&#39;extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018   {#release-18-2---february-2018}
+## Version 18.2 - Février 2018    {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -407,7 +407,7 @@ _Messages transactionnels_
 _Plate-forme_
 
 * Mise à jour de la barre supérieure de l&#39;interface d&#39;Adobe Campaign avec le nouveau menu d&#39;Experience Cloud.
-* Fixed an issue which prevented the link to **[!UICONTROL Offers]** from being displayed in the solution dropdown list.
+* Correction d&#39;une erreur qui empêchait l&#39;affichage du lien vers les **[!UICONTROL Offres]** dans la liste déroulante de la solution.
 
 _Emails, SMS et courrier_
 
@@ -423,19 +423,19 @@ _Notifications push_
 _Rapports_
 
 * Correction d&#39;une erreur qui affichait une liste de rapports vide dans certains navigateurs.
-* Fixed an error that occurred in the **[!UICONTROL Report sharing]** technical workflow just before its expiration limit was reached.
+* Correction d&#39;une erreur qui se produisait dans le workflow technique **[!UICONTROL Partage des rapports]** juste avant l&#39;atteinte de sa limite de validité.
 
 _Workflows_
 
 * Correction d&#39;un problème qui empêchait l&#39;accessibilité des activités après les avoir placées dans un workflow.
 * Correction d&#39;un problème qui entraînait, dans certains cas, la modification de l&#39;ordre des transitions en sortie d&#39;une activité **[!UICONTROL Segmentation]**.
 * Correction d&#39;une erreur qui se produisait lors de la lecture d&#39;une audience contenant un champ de type énumération et ayant été précédemment enregistrée dans un workflow.
-* Fixed an issue causing the **[!UICONTROL Request confirmation before sending messages]** option to remain checked even after unchecking it when defining the scheduling properties of a delivery created in a workflow.
-* Automatic removal of duplicate rows (DISTINCT clause) can now be disabled in **[!UICONTROL Query]** activities, via a new option located in the **[!UICONTROL Additional data]** tab. Pour des raisons de performance, il est recommandé de décocher cette option si vous définissez de nombreuses données additionnelles (plus de 100).
+* Correction d&#39;une erreur suite à laquelle l&#39;option **[!UICONTROL Demander une confirmation avant d&#39;envoyer les messages]** restait cochée même après avoir été décochée pendant la définition des propriétés de planification d&#39;une diffusion créée dans un workflow.
+* La suppression automatique des doublons (clause DISTINCT) peut désormais être désactivée dans les activités **[!UICONTROL Requête]**, via une nouvelle option située dans l&#39;onglet **[!UICONTROL Données additionnelles]**. Pour des raisons de performance, il est recommandé de décocher cette option si vous définissez de nombreuses données additionnelles (plus de 100).
 
 _Intégrations_
 
-* Some improvements were made to the **[!UICONTROL Data sources]** configuration screen.
+* Certaines améliorations ont été apportées à l&#39;écran de configuration **[!UICONTROL Sources de données]**.
 
 _Problèmes connus_
 
@@ -443,7 +443,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l&#39;utilisation des liens d&#39;aide contextuelle dans l&#39;interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018   {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018    {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -495,8 +495,8 @@ _Emails, SMS et courrier_
 
 * Correction d&#39;une erreur d&#39;affichage qui se produisait lors de l&#39;insertion d&#39;emojis dans le contenu des diffusions.
 * Correction d&#39;une erreur qui permettait à l&#39;utilisateur d&#39;accéder aux envois alors que la diffusion était toujours en édition.
-* The **[!UICONTROL Scheduler]** activity now allows you to send your deliveries depending on the recipient&#39;s time zone.
-* SMS: The option **[!UICONTROL Store incoming MO]** in the database has been added to external accounts. Lorsque cette option est cochée, tous les SMS entrants sont stockés dans la table **inSMS**.
+* L&#39;activité **[!UICONTROL Planificateur]** permet désormais d&#39;envoyer des diffusions selon le fuseau horaire du destinataire.
+* SMS : l&#39;option **[!UICONTROL Stocker les MO entrants]** dans la base de données a été ajoutée aux comptes externes. Lorsque cette option est cochée, tous les SMS entrants sont stockés dans la table **inSMS**.
 * SMS : les services sont désormais attachés à un événement au lieu d&#39;un modèle transactionnel.
 * SMS : le timeout des connexions SMTP par défaut a été réduit à 30 secondes.
 
@@ -511,7 +511,7 @@ _Rapports_
 
 * Correction d&#39;une erreur qui affichait des taux supérieurs à 100 %.
 * Correction d&#39;une erreur qui empêchait les utilisateurs de télécharger les rapports au format CSV.
-* Added a new **[!UICONTROL Report]** item in the homepage.
+* Ajout d&#39;un nouvel élément **[!UICONTROL Rapport]** sur la page d&#39;accueil.
 
 _Workflows_
 
