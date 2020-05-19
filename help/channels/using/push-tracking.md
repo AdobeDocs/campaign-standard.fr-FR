@@ -1,6 +1,6 @@
 ---
-title: Mise en oeuvre du suivi Push
-description: Ce vous permet de vous assurer que le suivi des notifications Push a été correctement implémenté sur iOS et Android.
+title: Mise en œuvre du suivi des notifications push
+description: Ce document permet de vous assurer que le suivi des notifications push a été correctement mis en œuvre sur iOS et Android.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -12,43 +12,43 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
-# Mise en oeuvre du suivi Push {#push-tracking}
+# Mise en œuvre du suivi des notifications push {#push-tracking}
 
-## A propos du suivi Push {#about-push-tracking}
+## À propos du suivi des notifications push {#about-push-tracking}
 
-Pour vous assurer que la notification Push a été entièrement développée, vous devez vous assurer que la partie de suivi a été implémentée correctement.
+Pour vérifier que la notification push a été entièrement développée, vous devez vous assurer que la partie « suivi » a été correctement mise en œuvre.
 
-Les étapes suivantes vous permettent de vous assurer que le suivi Push a été correctement implémenté. Cela suppose que vous avez déjà implémenté les premières parties de l’implémentation de la notification Push : Enregistrement de l’utilisateur de l’application et gestion d’un message de notification Push.
+Les étapes ci-après vous permettent de vous assurer que le suivi des notifications push a été correctement mis en œuvre. Cela suppose que vous avez déjà mis en place les premières parties de la mise en œuvre des notification push : enregistrement de l’utilisateur de l’application et gestion d’un message de notification push.
 
-Le suivi Push est divisé en trois types :
+Le suivi push est divisé en trois types :
 
-* **Impressions** Push : lorsqu’une notification Push a été envoyée au périphérique et qu’elle se trouve sur le centre de notification, mais qu’elle n’a pas du tout été touchée.  C&#39;est considéré comme une impression.  Dans la plupart des cas, les nombres d’impressions doivent être similaires, voire identiques au nombre livré. Il s’assure que l’appareil a bien reçu le message et a transmis ces informations au serveur.
+* **Impressions push** : lorsqu’une notification push a été envoyée à l’appareil et qu’elle se trouve dans le centre de notification, mais qu’elle n’a pas du tout été touchée.  On considère qu’il s’agit d’une impression.  Dans la plupart des cas, le nombre des impressions doit être similaire, voire identique à celui des diffusions. Cela garantit que l&#39;appareil a bien reçu le message et a transmis cette information au serveur.
 
-* **Clic** Push : lorsqu’une notification Push a été envoyée au périphérique et que l’utilisateur a cliqué sur ce dernier.  L’utilisateur voulait soit la notification (qui se déplacera ensuite vers le suivi Push Open), soit ignorer la notification.
+* **Clic push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur ce dernier.  L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures push) ou l’ignorer.
 
-* **Push Open** : lorsqu’une notification Push a été envoyée au périphérique et que l’utilisateur a cliqué sur la notification, l’application s’ouvre.  Cette mesure est similaire au Clic push, sauf qu&#39;une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
+* **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
-Pour mettre en oeuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK mobile. Ces kits SDK sont disponibles sur Adobe Mobile Services.
+Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services.
 
-Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux font partie des données reçues de Campaign Standard et une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
+Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
 
 | Variable | Valeur |
 |:-:|:-:|
-| BroadlogId | _mId à partir des données |
+| broadlogId | _mId à partir des données |
 | deliveryId | _dId à partir des données |
-| action | 1 pour Open, 2 pour Click et 7 pour Impression |
+| action | 1 pour Ouverture, 2 pour Clic et 7 pour Impression |
 
-## Mise en oeuvre pour Android {#implementation-android}
+## Mise en œuvre pour Android {#implementation-android}
 
-### Comment implémenter le suivi des impressions Push {#push-impression-tracking-android}
+### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-android}
 
-Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l’action lors de l’appel de la fonction trackAction().
+Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l’action lors de l’appel de la fonction trackAction().
 
 ```
 @Override
@@ -68,16 +68,16 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### Comment implémenter le suivi des clics {#push-click-tracking-android}
+### Comment mettre en œuvre le suivi des clics {#push-click-tracking-android}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel de la fonction trackAction().
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel de la fonction trackAction().
 
-Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
+Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 * L’utilisateur voit la notification, mais l’efface.
-* L’utilisateur voit la notification et clique dessus pour la transformer en un suivi ouvert.
+* L’utilisateur voit la notification et clique dessus pour la transformer en un suivi d’ouverture.
 
-Pour ce faire, vous devez utiliser deux modes : une pour cliquer sur la notification et une autre pour fermer la notification.
+Pour ce faire, vous devez utiliser deux intentions : une pour le fait de cliquer sur la notification et une autre pour le fait de fermer la notification.
 
 MyFirebaseMessagingService.java
 
@@ -108,7 +108,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Pour que BroadcastReceiver fonctionne, vous devez l’enregistrer dans le fichier AndroidManifest.xml.
+Pour que le BroadcastReceiver fonctionne, vous devez l’enregistrer dans le fichier AndroidManifest.xml.
 
 ```
 <manifest>
@@ -143,13 +143,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### Comment implémenter le suivi ouvert {#push-open-tracking-android}
+### Comment mettre en œuvre le suivi des ouvertures {#push-open-tracking-android}
 
-Vous devez envoyer &quot;1&quot; et &quot;2&quot;, car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification Push, aucun de suivi ne se produit.
+Vous devez envoyer « 1 » et « 2 », car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification push, aucun événement de suivi ne se produit.
 
-Pour effectuer le suivi de l’ouverture, vous devez créer l’intention. Les objets de mode permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées. Dans ce cas, cliquez sur la notification pour ouvrir l’application.
+Pour effectuer le suivi des ouvertures, vous devez créer une intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées (dans le cas présent, cliquer sur la notification pour ouvrir l’application).
 
-Ce code est basé sur l’implémentation du suivi des impressions de clics. Lorsque l’option Mode est définie, vous devez maintenant renvoyer les informations de suivi à Campaign. Dans ce cas, si vous devez définir le mode d’ouverture pour qu’il s’ouvre sur un certain dans votre application, la méthode onResume sera appelée AVEC les données de notification dans l’objet Intent.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’intention est définie, vous devez renvoyer les informations de suivi à Campaign. Dans le cas présent, vous devez définir l’intention d’ouverture pour une ouverture dans une certaine vue de votre application. La méthode onResume sera alors appelée AVEC les données de notification dans l’objet d’intention.
 
 ```
 @Override
@@ -187,27 +187,27 @@ private void handleTracking() {
 }
 ```
 
-## Mise en oeuvre pour iOS {#implementation-iOS}
+## Mise en œuvre pour iOS {#implementation-iOS}
 
-### Comment implémenter le suivi des impressions Push {#push-impression-tracking-iOS}
+### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-iOS}
 
-Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l’action lors de l’appel de la fonction trackAction().
+Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l’action lors de l’appel de la fonction trackAction().
 
-Pour comprendre le fonctionnement des notifications iOS, les trois états d’une application doivent être détaillés :
+Pour comprendre le fonctionnement des notifications iOS, les trois états d’une application doivent être présentés :
 
-* **Premier plan**: lorsque l’application est actuellement active et se trouve actuellement à l’écran (en premier plan).
-* **Contexte**: lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé. Lorsque vous -cliquez sur le bouton d’accueil, il présente généralement toutes les applications qui se trouvent en arrière-plan.
-* **Désactivé/fermé**: une application dont le processus a été interrompu.
+* **Premier plan** : lorsque l’application est actuellement active et se trouve actuellement à l’écran (en premier plan).
+* **Arrière-plan** : lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé. Lorsque vous double-cliquez sur le bouton d’accueil, il montre généralement toutes les applications qui se trouvent en arrière-plan.
+* **Désactivée/fermée** : une application dont le processus a été interrompu.
 
-Si une application est fermée, Apple n’appellera pas l’application tant que celle-ci n’a pas été redémarrée. Cela signifie que vous ne pourrez pas savoir quand la notification a été reçue sur iOS.
+Si une application est fermée, Apple ne l’appellera pas tant qu’elle n’aura pas été relancée. Vous ne pourrez donc pas savoir quand la notification a été reçue sur iOS.
 
-Pour que le suivi des impressions fonctionne toujours lorsque l’application est en arrière-plan, nous devons envoyer **Content-Available** pour informer l’application qu’un suivi doit être effectué.
+Pour que le suivi des impressions fonctionne toujours lorsque l’application est en arrière-plan, il faut envoyer **Contenu disponible** pour informer l’application qu’un suivi doit être effectué.
 
 >[!CAUTION]
 >
 >Le suivi des impressions iOS n’est pas précis et ne doit pas être considéré comme fiable.
 
-Le code suivant  l’application d’arrière-plan :
+Le code suivant cible l’application en arrière-plan :
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
@@ -227,7 +227,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-Le code suivant  l’application de premier plan :
+Le code suivant cible l’application au premier plan :
 
 ```
 // This will get called when the app is in the foreground
@@ -245,9 +245,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### Comment implémenter le suivi des clics {#push-click-tracking-iOS}
+### Comment mettre en œuvre le suivi des clics {#push-click-tracking-iOS}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel de la fonction trackAction().
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel de la fonction trackAction().
 
 ```
 // AppDelegate.swift
@@ -284,11 +284,11 @@ func registerForPushNotifications() {
     }
 ```
 
-Désormais, lorsque vous envoyez des notifications Push, vous devez ajouter un . Dans ce cas, nous l&#39;avons appelé &quot;DEFAULT&quot;.
+Désormais, lorsque vous envoyez des notifications push, vous devez ajouter une catégorie. Dans le cas présent, nous l’avons appelée « PAR DÉFAUT » .
 
 ![](assets/tracking_push.png)
 
-Ensuite, pour gérer l’abandon et envoyer des informations de suivi, vous devez ajouter les éléments suivants :
+Ensuite, pour gérer l’abandon et envoyer des informations de suivi, vous devez ajouter les éléments suivants :
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -308,9 +308,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### Comment implémenter le suivi ouvert {#push-open-tracking-iOS}
+### Comment mettre en œuvre le suivi des ouvertures {#push-open-tracking-iOS}
 
-Vous devez envoyer &quot;1&quot; et &quot;2&quot;, car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification Push, aucun de suivi ne se produit.
+Vous devez envoyer « 1 » et « 2 », car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification push, aucun événement de suivi ne se produit.
 
 ```
 import Foundation
