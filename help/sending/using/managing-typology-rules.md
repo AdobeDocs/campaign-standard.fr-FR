@@ -1,6 +1,6 @@
 ---
-title: 'Gestion des '
-description: Découvrez comment utiliser les .
+title: Gestion des règles de typologie
+description: Découvrez comment utiliser les règles de typologie.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -12,57 +12,57 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
 
-# Gestion des {#managing-typology-rules}
+# Gestion des règles de typologie {#managing-typology-rules}
 
 ## A propos des règles de typologie {#about-typology-rules}
 
- sont des règles de fonctionnement qui vous permettent d’effectuer des vérifications et de filtrer votre message avant de l’envoyer. Les types de  disponibles sont les suivants :
+ Les règles de typologie sont des règles d’entreprise qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer. Les types de règles de typologie disponibles sont les suivants :
 
-* **Règles de filtrage** : Ce type de règle vous permet d’exclure une partie du de messages en fonction de critères définis dans un, tels que les mis en quarantaine ou les qui ont déjà reçu un certain nombre de courriers électroniques. Voir à ce propos [cette section](../../sending/using/filtering-rules.md).
+* Règles de **filtrage** : Ce type de règle permet d’exclure une partie de la cible des messages en fonction de critères définis dans une requête, comme des profils mis en quarantaine ou à qui on a déjà envoyé un certain nombre d&#39;emails. Voir à ce propos [cette section](../../sending/using/filtering-rules.md).
 
-* **Les règles de fatigue** : Ce type de règles vous permet de définir un nombre maximal de messages par  afin d’éviter les sollicitations excessives. Voir à ce propos [cette section](../../sending/using/fatigue-rules.md).
+* Règles de **fatigue** : Ce type de règle permet de définir un nombre maximum de messages par profil pour éviter de sur-solliciter les profils. Voir à ce propos [cette section](../../sending/using/fatigue-rules.md).
 
-* **Règles de contrôle** : Ce type de règles permet à l&#39;utilisateur de vérifier la validité et la qualité des messages avant leur envoi, tels que l&#39;affichage des caractères, la taille des messages SMS, le format d&#39;adresse, etc. Voir à ce propos [cette section](../../sending/using/control-rules.md).
+* Règles de **contrôle** : Ce type de règle permet de vérifier la validité et la qualité des messages avant leur envoi : affichage des caractères, taille des SMS, format des adresses, etc. Voir à ce propos [cette section](../../sending/using/control-rules.md).
 
-Les  de sont disponibles sous le menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** .
+Les règles de typologie sont disponibles depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
 
-Par défaut, plusieurs **filtres** prêts à l’emploi et des  de **contrôle** sont disponibles. Elles sont détaillées dans les sections Règles [de](../../sending/using/fatigue-rules.md) filtrage et Règles [de](../../sending/using/control-rules.md) contrôle.
+Par défaut, plusieurs règles de typologie de **filtre** et de **contrôle** d’usine sont disponibles. Elles sont détaillées dans les sections [Règles de filtrage](../../sending/using/fatigue-rules.md) et [Règles de contrôle](../../sending/using/control-rules.md).
 
-Selon vos besoins, vous pouvez modifier des  de existantes ou en créer de nouvelles, à l’exception des **[!UICONTROL Control]** règles, qui sont en lecture seule et ne peuvent pas être modifiées.
+Selon vos besoins, vous pouvez modifier des règles de typologie existantes ou en créer de nouvelles, à l’exception des règles de **[!UICONTROL contrôle]** , qui sont en lecture seule et ne peuvent pas être modifiées.
 
 ## Créer une règle de typologie {#creating-a-typology-rule}
 
-Les principales étapes de création d’un  sont les suivantes :
+Les principales étapes de création d’ue règle de typologie sont les suivantes :
 
-1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** , puis cliquez sur **[!UICONTROL Create]**.
+1. Accédez au menu **[!UICONTROL Administration]** / **[!UICONTROL Canaux]** / **[!UICONTROL Typologies]** / **[!UICONTROL Règles de typologie]**, puis cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/typology_create-rule.png)
 
-1. Entrez la typologie **[!UICONTROL Label]**, puis indiquez **[!UICONTROL Channel]** à quel niveau la règle doit s’appliquer.
+1. Entrez le **[!UICONTROL libellé]** de typologie, puis spécifiez le **[!UICONTROL canal]** auquel la règle doit s’appliquer.
 
    ![](assets/typology-rule-label.png)
 
-1. Spécifiez le  de **[!UICONTROL Type]**, puis configurez-le selon vos besoins. Notez que la configuration  du varie selon leur type. Pour plus d’informations, reportez-vous aux sections Règles **[de](../../sending/using/filtering-rules.md)**filtrage et Règles**[ de](../../sending/using/fatigue-rules.md)** fatigue.
+1. Spécifiez le **[!UICONTROL type]** de règle de typologie, puis configurez-le selon vos besoins. Notez que la configuration des règles de typologie varie selon leur type. Pour plus d’informations, reportez-vous aux sections **[Règles de filtrage](../../sending/using/filtering-rules.md)**et**[ Règles de fatigue](../../sending/using/fatigue-rules.md)**.
 
-1. Sélectionnez les typologies dans lesquelles vous souhaitez inclure la nouvelle règle. Pour ce faire, sélectionnez l’ **[!UICONTROL Typologies]** onglet, puis cliquez sur **[!UICONTROL Create element]** bouton.
+1. Sélectionnez les typologies dans lesquelles vous souhaitez inclure la nouvelle règle. Pour ce faire, sélectionnez l’onglet **[!UICONTROL Typologies]**, puis cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
    ![](assets/typology-typologies-tab.png)
 
-1. Sélectionnez une typologie, puis cliquez sur **[!UICONTROL Confirm]**.
+1. Sélectionnez la typologie désirée, puis cliquez sur **[!UICONTROL Confirmer]**.
 
    ![](assets/typology-link.png)
 
-1. Une fois toutes les typologies sélectionnées, cliquez sur **[!UICONTROL Create]** pour confirmer la création du.
+1. Une fois toutes les typologies sélectionnées, cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de typologie.
 
-## Ordre d&#39;exécution des règles de typologie {#typology-rules-execution-order}
+## Ordre d&#39;exécution des règles de typologie  {#typology-rules-execution-order}
 
-Les  de sont exécutées dans l’ordre spécifié lors des phases de ciblage, de  de et de personnalisation des messages.
+Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d&#39;analyse et de personnalisation des messages.
 
 Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre suivant :
 
@@ -80,10 +80,10 @@ Cependant, vous pouvez adapter l&#39;ordre d&#39;exécution des règles de même
 
 Par exemple, une règle de filtrage dont l&#39;ordre d&#39;exécution est positionné à 20 sera exécutée avant une règle de filtrage dont l&#39;ordre d&#39;exécution est positionné à 30.
 
-In the **[!UICONTROL Properties]** of a typology rule, you can set its execution order. Lorsque plusieurs règles doivent être appliquées, l&#39;ordre d&#39;exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d&#39;exécution des règles de typologie](#typology-rules-execution-order).
+Dans les **[!UICONTROL Propriétés]** d&#39;une règle de typologie, vous pouvez définir son ordre d&#39;exécution. Lorsque plusieurs règles doivent être appliquées, l&#39;ordre d&#39;exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d&#39;exécution des règles de typologie](#typology-rules-execution-order).
 
 ![](assets/typology_rule-active.png)
 
-A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+Une règle de typologie peut être désactivée via ses **[!UICONTROL Propriétés]** si vous souhaitez que la règle ne soit pas appliquée au moment de l&#39;analyse des messages sur lesquels elle porte.
 
 ![](assets/typology_rule-order.png)
