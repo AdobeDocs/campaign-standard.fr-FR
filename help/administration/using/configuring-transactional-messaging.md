@@ -11,7 +11,7 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord décrire la structure des données de l’événement.
 
-Event configuration must be performed by an [administrator](../../administration/using/users-management.md#functional-administrators) following the steps below.
+La configuration des événements doit être effectuée par un [administrateur](../../administration/using/users-management.md#functional-administrators) en suivant les étapes ci-dessous.
 
 >[!NOTE]
 >
@@ -29,17 +29,17 @@ Event configuration must be performed by an [administrator](../../administration
 
 Une fois l’événement publié, le message transactionnel correspondant est automatiquement créé. Pour plus d’informations sur les messages transactionnels, consultez [cette page](../../channels/using/about-transactional-messaging.md).
 
-## Créer un événement  {#creating-an-event}
+## Créer un événement   {#creating-an-event}
 
-Pour commencer, créez le  correspondant à vos besoins.
+Pour commencer, créez l’événement correspondant à vos besoins.
 
 >[!NOTE]
 >
->Seuls les utilisateurs qui détiennent le **[!UICONTROL Administration]** rôle et qui font partie de l’unité **[!UICONTROL All]** [](../../administration/using/organizational-units.md) organisationnelle ont les droits appropriés pour créer une configuration de .
+>Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Administration]** et qui font partie de l’**[!UICONTROL entité organisationnelle]** [Tous](../../administration/using/organizational-units.md) disposent des droits appropriés pour créer une configuration d’événement.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Cliquez sur le **[!UICONTROL Create]** bouton.
-1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. The **[!UICONTROL ID]** field is mandatory and should begin with the prefix &quot;EVT&quot;. If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**.
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
+1. Cliquez sur le bouton **[!UICONTROL Créer]**.
+1. Donnez un **[!UICONTROL Libellé]** et un **[!UICONTROL Identifiant]** à votre événement. Le champ **[!UICONTROL Identifiant]** est obligatoire et doit commencer par le préfixe &quot;EVT&quot;. Si vous n’utilisez pas ce préfixe, il est automatiquement ajouté lorsque vous cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/message-center_1.png)
 
@@ -47,23 +47,23 @@ Pour commencer, créez le  correspondant à vos besoins.
    >
    >L’identifiant ne doit pas dépasser 64 caractères, le préfixe EVT compris.
 
-1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
+1. Sélectionnez le canal qui sera utilisé pour l’envoi des messages transactionnels : **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** (notification push).
 
    >[!NOTE]
    >
    >Un seul canal peut être utilisé pour chaque configuration d’événement. Une fois l’événement créé, vous ne pouvez plus modifier le canal.
 
-1. Select the targeting dimension corresponding to the desired event configuration and click **[!UICONTROL Create]**.
+1. Sélectionnez la dimension de ciblage qui correspond à la configuration de l’événement souhaitée et cliquez sur **[!UICONTROL Créer]**.
 
    Les messages transactionnels basés sur un événement ciblent des données contenues dans l’événement lui-même, alors que les messages transactionnels basés sur un profil ciblent des données contenues dans la base de données Adobe Campaign. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
 >[!NOTE]
 >
->Le nombre de  en temps réel créées peut avoir un impact sur votre plateforme. Pour optimiser les performances, veillez à supprimer les  en temps réel dont vous n’avez plus besoin. See [Deleting an event](#deleting-an-event).
+>Le nombre d’événements temps réel créés peut avoir un impact sur votre plateforme. Pour garantir des performances optimales, veillez à supprimer les événements temps réel dont vous n’avez plus besoin. Voir la section [Supprimer un événement](#deleting-an-event).
 
-## Définir les attributs d’événement  {#defining-the-event-attributes}
+## Définir les attributs d’événement   {#defining-the-event-attributes}
 
-In the **[!UICONTROL Fields]** section, define the attributes that will be integrated into the event content and will then be able to be used to personalize the transactional message.
+Dans la section **[!UICONTROL Champs]**, définissez les attributs qui seront intégrés au contenu de l’événement et qui pourront être utilisés pour personnaliser le message transactionnel.
 
 Les étapes d’ajout et de modification des champs s’effectuent de la même manière que pour les [ressources personnalisées](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
@@ -73,13 +73,13 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 >
 >Si vous souhaitez créer un message transactionnel multilingue, définissez un attribut d’événement supplémentaire avec l’identifiant **[!UICONTROL AC_language]**. Cela s’applique uniquement aux messages transactionnels basés sur un événement. Une fois l’événement publié, les étapes nécessaires pour éditer le contenu d’un message transactionnel multilingue sont les mêmes que pour un email standard multilingue. Voir [Créer un email multilingue](../../channels/using/creating-a-multilingual-email.md).
 
-## Définir des collections de données  {#defining-data-collections}
+## Définir des collections de données   {#defining-data-collections}
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
-This collection can be used in a transactional email to add [product listings](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) to the content of the message, for example a list of products - with the price, reference number, quantity, etc. pour chaque produit de la liste.
+Cette collection peut être utilisée dans un email transactionnel pour ajouter des [listes de produits](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc. pour chaque produit de la liste.
 
-1. Dans la **[!UICONTROL Collections]** section, cliquez sur le **[!UICONTROL Create element]** bouton.
+1. Dans la section **[!UICONTROL Collections]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
    ![](assets/message-center_collection_create.png)
 
@@ -90,11 +90,11 @@ This collection can be used in a transactional email to add [product listings](.
 
    ![](assets/message-center_collection_fields.png)
 
-1. L’ **[!UICONTROL Enrichment]** onglet vous permet d’enrichir chaque élément de la collection. Cela vous permettra de personnaliser les éléments de la liste de produits correspondante avec les informations de la base de données  Adobe Campaign ou d&#39;autres ressources que vous avez créées.
+1. L’onglet **[!UICONTROL Enrichissement]** vous permet d’enrichir chaque élément de la collection. Vous pourrez ainsi personnaliser les éléments de la liste de produits correspondante avec les informations de la base de données Adobe Campaign ou d’autres ressources que vous avez créées.
 
 >[!NOTE]
 >
->Les étapes d’enrichissement des éléments d’une collection sont les mêmes que celles décrites dans la section [Enrichissement du](#enriching-the-transactional-message-content) . Notez que l’enrichissement du ne vous permet pas d’enrichir une collection : vous devez ajouter un   à la collection elle-même dans la **[!UICONTROL Collections]** section.
+>Les étapes d’enrichissement des éléments d’une collection sont les mêmes que celles décrites dans la section [Enrichir l’événement](#enriching-the-transactional-message-content). Notez que l’enrichissement de l’événement ne vous permet pas d’enrichir une collection : vous devez ajouter un enrichissement à la collection elle-même dans la section **[!UICONTROL Collections]**.
 
 Une fois l’événement et le message publiés, vous pouvez utiliser cette collection dans votre message transactionnel.
 
@@ -107,43 +107,43 @@ Voici l’aperçu de l’API pour cet exemple :
 * [Prévisualiser et publier l’événement](#previewing-and-publishing-the-event)
 * [Utiliser des listes de produits dans un message transactionnel ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## Enrichir le {#enriching-the-transactional-message-content}
+## Enrichir l’événement {#enriching-the-transactional-message-content}
 
-Vous pouvez enrichir le contenu  du avec des informations provenant de la base de données  afin de personnaliser vos messages. À partir du nom ou de l’identifiant CRM de vos destinataires, vous pouvez par exemple récupérer des données telles que leur adresse, date de naissance ou tout autre champ personnalisé ajouté à la table Profil afin de personnaliser les informations qui leur seront envoyées.
+Vous pouvez enrichir le contenu d’un message transactionnel avec des informations de la base de données Adobe Campaign pour personnaliser vos messages. À partir du nom ou de l’identifiant CRM de vos destinataires, vous pouvez par exemple récupérer des données telles que leur adresse, date de naissance ou tout autre champ personnalisé ajouté à la table Profil afin de personnaliser les informations qui leur seront envoyées.
 
-It is possible to enrich the transactional message content with information from extended **[!UICONTROL Profile and services Ext API]**. Pour plus d’informations, voir [Extension de l’API : Publication de l’extension](../../developing/using/step-2--publish-the-extension.md)
+Il est possible d’enrichir le contenu du message transactionnel avec des informations de l’**[!UICONTROL API Profie &amp; Services]** étendue. Pour plus d’informations, voir [Extension de l’API : publication de l’extension](../../developing/using/step-2--publish-the-extension.md)
 
-Ces informations peuvent également être stockées dans de nouvelles ressources. In that case, the resource must be linked to the **[!UICONTROL Profile]** or **[!UICONTROL Service]** resources either directly, or via another table. For example, in the configuration below, it is possible to enrich the transactional message content with information from the **[!UICONTROL Product]** resource like the product category or ID, if the **[!UICONTROL Product]** resource is linked to the **[!UICONTROL Profile]** resource.
+Ces informations peuvent également être stockées dans de nouvelles ressources. Le cas échéant, la ressource doit être liée aux ressources **[!UICONTROL Profil]** ou **[!UICONTROL Service]** soit directement, soit via une autre table. Par exemple, dans la configuration ci-dessous, il est possible d’enrichir le contenu d’un message transactionnel avec des informations de la ressource **[!UICONTROL Produit]**, telles que la catégorie de produit ou l’identifiant, si la ressource **[!UICONTROL Produit]** est liée à la ressource **[!UICONTROL Profil]**.
 
 ![](assets/message-center_usecaseschema.png)
 
 Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Dans la **[!UICONTROL Enrichment]** section, cliquez sur le **[!UICONTROL Create element]** bouton.
+1. Dans la section **[!UICONTROL Enrichissement]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
    ![](assets/message-center_addenrichment.png)
 
-1. Sélectionnez la ressource à laquelle vous voulez lier votre message. In this case, choose the **[!UICONTROL Profile]** resource.
+1. Sélectionnez la ressource à laquelle vous voulez lier votre message. Dans le cas présent, choisissez la ressource **[!UICONTROL Profil]**.
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Use the **[!UICONTROL Create element]** button to link a field from the selected resource to one of the fields you previously added to the event (see [Defining the event attributes](#defining-the-event-attributes)).
+1. Utilisez le bouton **[!UICONTROL Créer un élément]** pour associer un champ de la ressource sélectionnée à l’un des champs que vous avez ajoutés à l’événement (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
 
-1. In this example, we reconcile the **[!UICONTROL Last name]** and the **[!UICONTROL First name]** fields with the corresponding fields in the **[!UICONTROL Profile]** resource.
+1. Dans cet exemple, nous réconcilions les champs **[!UICONTROL Nom]** et **[!UICONTROL Prénom]** avec les champs correspondants dans la ressource **[!UICONTROL Profil]**.
 
    ![](assets/message-center_enrichment-join-fields.png)
 
    Vous pouvez également enrichir le contenu des messages transactionnels à l’aide de la ressource **[!UICONTROL Service]**. Pour plus d’informations sur les services, voir cette [section](../../audiences/using/creating-a-service.md).
 
-1. If you are creating or editing a profile-based event, in the **[!UICONTROL Targeting enrichment]** section, select the enrichment that will be used as the message target during the delivery execution.
+1. Si vous créez ou modifiez un événement basé sur un profil, dans la section **[!UICONTROL Enrichissement du ciblage]**, sélectionnez l’enrichissement qui sera utilisé comme cible du message lors de l’exécution de la diffusion.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >Selecting a targeting enrichment based on the **[!UICONTROL Profile]** resource is mandatory for profile-based events.
+   >La sélection d’un enrichissement de ciblage basé sur la ressource **[!UICONTROL Profil]** est obligatoire pour les événements basés sur un profil.
 
 Une fois l’événement et le message publiés, le lien permettra d’enrichir le contenu du message transactionnel.
 
@@ -156,7 +156,7 @@ Une fois l’événement et le message publiés, le lien permettra d’enrichir 
 
 Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le publier.
 
-1. Click the **[!UICONTROL API preview]** button to see a simulation of the REST API that will be used by your website developer before it is published. Une fois l’événement publié, ce bouton permet également d’obtenir un aperçu de l’API en production. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
+1. Cliquez sur le bouton **[!UICONTROL Aperçu de l’API]** pour visualiser une simulation de l’API REST, qui sera utilisée par le développeur de votre site web, avant qu’elle ne soit publiée. Une fois l’événement publié, ce bouton permet également d’obtenir un aperçu de l’API en production. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
 
    ![](assets/message-center_api_preview.png)
 
@@ -164,7 +164,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
    >
    >L’API REST varie en fonction du canal sélectionné et de la dimension de ciblage sélectionnée. Pour en savoir plus sur les différentes configurations, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
-1. Click **[!UICONTROL Publish]** to start publication.
+1. Cliquez sur le bouton **[!UICONTROL Publier]** pour lancer la publication.
 
    ![](assets/message-center_pub.png)
 
@@ -174,27 +174,27 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
 
    >[!IMPORTANT]
    >
-   >Each time you modify the event, you must click **[!UICONTROL Publish]** again to generate the updated REST API that will be used by your website developer.
+   >Chaque fois que vous modifiez l’événement, vous devez à nouveau cliquer sur **[!UICONTROL Publier]** pour générer l’API REST mise à jour qui sera utilisée par le développeur de votre site web.
 
    Une fois la publication effectuée, un message transactionnel associé au nouvel événement est automatiquement créé.
 
-1. Vous pouvez accéder directement à ce par le lien situé dans la zone de gauche.
+1. Vous pouvez accéder directement à ce message transactionnel par le biais du lien situé dans la zone de gauche.
 
    ![](assets/message-center_messagegeneration.png)
 
-In order for the event to trigger sending a transactional message, you must modify and publish the message that was just created. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+Pour que cet événement déclenche l’envoi d’un message transactionnel, vous devez modifier et publier le message qui vient d’être créé. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
 Il vous faut également intégrer le déclenchement de cet événement à votre site web. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
 
-Une fois  Adobe Campaign de réception de **[!UICONTROL Latest transactional events]** l&#39;lié à cette configuration de l&#39; **[!UICONTROL History]** annuaire, le lien sous la section vous permet d&#39;accéder au dernier envoyé par votre service tiers et traité par le.
+Une fois qu’Adobe Campaign commence à recevoir des événements liés à cette configuration de l’événement, le lien des **[!UICONTROL Derniers événements transactionnels]** sous la section **[!UICONTROL Historique]** vous permet d&#39;accéder aux derniers événements envoyés par votre service tiers et traités par Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 
-Les  de (au format JSON) sont répertoriés du plus récent au plus ancien. Ce  vous permet de vérifier des données telles que le contenu ou l’état d’un  de, à des fins de contrôle et de débogage.
+Les événements (au format JSON) sont répertoriés du plus récent au plus ancien. Cette liste vous permet de vérifier des données telles que le contenu ou le statut d’un événement, à des fins de contrôle et de correction d’erreurs.
 
-### Dépublier un événement  {#unpublishing-an-event}
+### Dépublier un événement   {#unpublishing-an-event}
 
-The **[!UICONTROL Unpublish]** button lets you cancel the publication of the event, which deletes from the REST API the resource corresponding to the event that you previously created. Désormais, même si l’événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
+Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’événement, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé. Désormais, même si l’événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
 
 ![](assets/message-center_unpublish.png)
 
@@ -202,22 +202,22 @@ The **[!UICONTROL Unpublish]** button lets you cancel the publication of the eve
 >
 >Si vous avez déjà publié le message transactionnel correspondant, la publication du message est également annulée. Voir [Dépublier un message transactionnel](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
-Click the **[!UICONTROL Publish]** button to generate a new REST API.
+Cliquez sur le bouton **[!UICONTROL Publier]** pour générer une nouvelle API REST.
 
 ### Suppression d’un événement {#deleting-an-event}
 
 Lorsqu’un événement a été dépublié ou qu’il n’a pas encore été publié, vous pouvez le supprimer de la liste de configuration d’événement. Pour cela :
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Hover the mouse over the event configuration of your choice and select the **[!UICONTROL Delete element]** button.
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
+1. Pointez sur la configuration de l’événement de votre choix et sélectionnez le bouton **[!UICONTROL Supprimer l’élément]** .
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >Make sure the event configuration has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to an event that has not been published yet or that has been [unpublished](#unpublishing-an-event).
+   >Vérifiez que la configuration de l’événement a le statut **[!UICONTROL En création]**, sinon vous ne pourrez pas le supprimer. Le statut **[!UICONTROL En création]** s’applique à un événement qui n’a pas encore été publié ou qui a été [dépublié](#unpublishing-an-event).
 
-1. Cliquez sur le **[!UICONTROL Confirm]** bouton.
+1. Cliquez sur le bouton **[!UICONTROL Confirmer.]**
 
    ![](assets/message-center_delete-confirm.png)
 
@@ -237,14 +237,14 @@ Consultez la [documentation API REST](../../api/using/managing-transactional-mes
 
 La configuration d’un événement transactionnel peut varier en fonction du type de message transactionnel que vous souhaitez envoyer (événement ou profil) et du canal qui sera utilisé.
 
-Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir    [Créer un événement](#creating-an-event).
+Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir     [Créer un événement](#creating-an-event).
 
 ### Messages transactionnels basés sur un événement.{#event-based-transactional-messages}
 
 Pour envoyer un message transactionnel basé sur un événement, vous devez d’abord créer et configurer un événement ciblant les données contenues dans l’événement.
 Pour plus d’informations, voir [Créer de l’engagement avec des messages transactionnels](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
-1. When creating the event configuration, select the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
+1. Lors de la création de la configuration d’un événement, sélectionnez la dimension de ciblage **[!UICONTROL Evénement en temps réel]** (voir [Créer un événement](#creating-an-event)).
 1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 1. Enrichissez le contenu du message transactionnel si vous souhaitez utiliser des informations supplémentaires de la base de données Adobe Campaign (voir [Enrichir le contenu d’un message transactionnel](#enriching-the-transactional-message-content)).
 
@@ -260,22 +260,22 @@ Pour plus d’informations, voir [Créer de l’engagement avec des messages tra
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Messages transactionnels basés sur un profil  {#profile-based-transactional-messages}
+### Messages transactionnels basés sur un profil   {#profile-based-transactional-messages}
 
 Pour envoyer un message transactionnel basé sur un profil, vous devez d’abord créer et configurer un événement ciblant les données contenues dans la base de données Adobe Campaign.
 
-1. When creating the event configuration, select the **[!UICONTROL Profile event]** targeting dimension (see [Creating an event](#creating-an-event)).
+1. Lors de la création de la configuration d’un événement, sélectionnez la dimension de ciblage **[!UICONTROL Evénement de profil]** (voir [Créer un événement](#creating-an-event)).
 1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)). Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n’avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
+1. Créez un enrichissement afin de lier l’événement à la ressource **[!UICONTROL Profil]** (voir [Enrichir le contenu d’un message transactionnel](#enriching-the-transactional-message-content)). Lors de l’utilisation d’une dimension de ciblage **[!UICONTROL Profil]**, la création d’un enrichissement est obligatoire.
 1. Prévisualisez et publiez l’événement (voir [Prévisualiser et publier l’événement](#previewing-and-publishing-the-event)).
 
-   When previewing the event, the REST API does not contain an attribute specifying the email address or the mobile phone as it will be retrieved from the **[!UICONTROL Profile]** resource.
+   Lors de l’aperçu de l’événement, l’API REST ne contient pas d’attribut précisant l’adresse email ou le numéro de téléphone portable, car ceux-ci seront récupérés dans la ressource **[!UICONTROL Profil]**.
 
    Une fois la publication effectuée, un message transactionnel associé au nouvel événement est automatiquement créé. Pour que cet événement déclenche l’envoi d’un message transactionnel, vous devez modifier et publier le message qui vient d’être créé, voir [Envoyer un message transactionnel basé sur un profil](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notifications push transactionnelles basées sur un événement  {#event-based-transactional-push-notifications}
+### Notifications push transactionnelles basées sur un événement   {#event-based-transactional-push-notifications}
 
 Pour pouvoir envoyer des notifications push transactionnelles, vous devez configurer Adobe Campaign en conséquence. Voir [Configuration push](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
@@ -287,7 +287,7 @@ L’événement doit contenir les trois éléments suivants :
 * Un **nom d’application mobile** (un pour tous les appareils : Android et iOS). Il s’agit de l’identifiant de l’application mobile configuré dans Adobe Campaign qui sera utilisé pour la réception des notifications push sur les appareils des utilisateurs. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
 * Une **plate-forme push** (&quot;gcm&quot; pour Android et &quot;apns&quot; pour iOS).
 
-1. When creating the event configuration, select the **[!UICONTROL Mobile application]** channel and the **[!UICONTROL Real-time event]** targeting dimension (see [Creating an event](#creating-an-event)).
+1. Lors de la création de la configuration d’un événement, sélectionnez le canal **[!UICONTROL Application mobile]** et la dimension de ciblage **[!UICONTROL Evénement en temps réel]** (voir [Créer un événement](#creating-an-event)).
 1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 1. Enrichissez le contenu du message transactionnel si vous souhaitez utiliser des informations supplémentaires de la base de données Adobe Campaign (voir [Enrichir le contenu d’un message transactionnel](#enriching-the-transactional-message-content)).
 
@@ -305,11 +305,11 @@ L’événement doit contenir les trois éléments suivants :
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notifications push transactionnelles basées sur un profil  {#profile-based-transactional-push-notifications}
+### Notifications push transactionnelles basées sur un profil   {#profile-based-transactional-push-notifications}
 
 Pour envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont inscrits à votre application mobile, vous devez d’abord créer et configurer un événement ciblant la base de données Adobe Campaign.
 
-1. When creating the event configuration, select the **[!UICONTROL Mobile application]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](#creating-an-event)).
+1. Lors de la création de la configuration d’un événement, sélectionnez le canal **[!UICONTROL Application mobile]** et la dimension de ciblage **[!UICONTROL Profil]** (voir [Créer un événement](#creating-an-event)).
 
    La notification push transactionnelle sera envoyée, par défaut, à toutes les applications mobiles auxquelles les destinataires sont inscrits. Pour envoyer la notification push à une application mobile spécifique, sélectionnez-la dans la liste. Les autres applications mobiles seront ciblées par le message, mais seront exclues de l’envoi.
 
@@ -321,21 +321,21 @@ Pour envoyer une notification push transactionnelle aux profils Adobe Campaign q
    >
    >Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n’avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
 
-1. Create an enrichment in order to link the event to the **[!UICONTROL Profile]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)). Creating an enrichment is mandatory when using a **[!UICONTROL Profile]** targeting dimension.
+1. Créez un enrichissement afin de lier l’événement à la ressource **[!UICONTROL Profil]** (voir [Enrichir le contenu d’un message transactionnel](#enriching-the-transactional-message-content)). Lors de l’utilisation d’une dimension de ciblage **[!UICONTROL Profil]**, la création d’un enrichissement est obligatoire.
 1. Prévisualisez et publiez l’événement (voir [Prévisualiser et publier l’événement](#previewing-and-publishing-the-event)).
 
-   When previewing the event, the REST API does not contain an attribute specifying the registration token, the application name and the push platform as they will be retrieved from the **[!UICONTROL Profile]** resource.
+   Lors de l’aperçu de l’événement, l’API REST ne contient pas d’attribut spécifiant le jeton d’enregistrement, le nom de l’application et la plate-forme push, car ceux-ci seront récupérés dans la ressource **[!UICONTROL Profil]**.
 
    Une fois la publication effectuée, une notification push transactionnelle associée au nouvel événement est automatiquement créée. Pour modifier et publier le message nouvellement créé, voir [Envoyer une notification push transactionnelle ciblant un profil](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile).
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Configuration d’un événement pour envoyer un message de relance  {#configuring-an-event-to-send-a-follow-up-message}
+### Configuration d’un événement pour envoyer un message de relance   {#configuring-an-event-to-send-a-follow-up-message}
 
 Un messages de relance est un modèle de diffusion marketing prédéfini qui peut être utilisé dans un workflow pour envoyer des messages aux destinataires d’un message transactionnel spécifique. Voir à ce propos la section [Messages de relance](../../channels/using/follow-up-messages.md).
 
 1. Utilisez la même configuration d’événement que celle que vous avez créée pour envoyer un message transactionnel basé sur un événement. Voir [Messages transactionnels basés sur un événement](#event-based-transactional-messages).
-1. Lors de la configuration de votre  de, cochez la **[!UICONTROL Create follow-up delivery template for this event]** case avant de publier le  de.
+1. Lors de la configuration de l’événement, cochez la case **[!UICONTROL Créer un modèle de diffusion de relance pour cet événement]** avant de le publier.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
@@ -343,26 +343,26 @@ Un messages de relance est un modèle de diffusion marketing prédéfini qui peu
 
    Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Pour plus d’informations sur l’utilisation des messages de relance, voir [Envoyer un message de relance](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 
-## Cas pratique : configuration d’un événement pour envoyer un message transactionnel  {#use-case--configuring-an-event-to-send-a-transactional-message}
+## Cas pratique : configuration d’un événement pour envoyer un message transactionnel   {#use-case--configuring-an-event-to-send-a-transactional-message}
 
 Dans cette exemple, nous voulons configurer un événement afin d’envoyer des messages de confirmation après chaque achat sur notre site avec les prérequis suivants :
 
-As we want to identify our client via his CRM ID, first make sure that the **[!UICONTROL Profile]** resource has been extended with this new field.
+Puisque nous voulons identifier notre client grâce à son identifiant CRM, assurez-vous d’abord que la ressource **[!UICONTROL Profil]** a été étendue à ce nouveau champ.
 
-In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. De cette façon, vous pourrez récupérer les informations de cette ressource pour enrichir le contenu du message.
+De la même manière, une ressource personnalisée correspondant aux achats doit être créée et publiée, et doit être liée à la ressource **[!UICONTROL Profil]**. De cette façon, vous pourrez récupérer les informations de cette ressource pour enrichir le contenu du message.
 
 Pour en savoir plus sur la création et la publication de ressources, consultez [cette page](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. Create a new event using the **[!UICONTROL Email]** channel and the **[!UICONTROL Profile]** targeting dimension (see [Creating an event](#creating-an-event)).
+1. Créez un événement en utilisant le canal **[!UICONTROL Email]** et la dimension de ciblage **[!UICONTROL Profil]** (voir [Créer un événement](#creating-an-event)).
 1. Définissez les attributs qui seront disponibles pour personnaliser le message transactionnel. Dans notre cas, ajoutez les champs &quot;Identifiant CRM&quot; et &quot;Identificateur produit&quot; (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 
    ![](assets/message-center_usecase1.png)
 
-1. To enrich the message content with information regarding the client&#39;s previous purchases, create an enrichment targeting the **[!UICONTROL Purchase]** resource (see [Enriching the transactional message content](#enriching-the-transactional-message-content)).
+1. Pour enrichir le contenu du message avec des informations à propos des précédents achats du client, créez un enrichissement ciblant la ressource **[!UICONTROL Achat]** (voir [Enrichir le contenu d’un message transactionnel](#enriching-the-transactional-message-content)).
 
    ![](assets/message-center_usecase2.png)
 
-1. Create a join condition between the &quot;Product identifier&quot; field that was previously added to the message, and the corresponding field from the **[!UICONTROL Purchase]** resource.
+1. Créez une condition de jointure entre le champ &quot;Identificateur produit&quot; ajouté précédemment au message et le champ correspondant dans la ressource **[!UICONTROL Achat]**..
 
    ![](assets/message-center_usecase3.png)
 
