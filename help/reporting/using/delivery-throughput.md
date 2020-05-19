@@ -12,7 +12,7 @@ discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
@@ -23,10 +23,10 @@ source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Ces données sont :
 
 * nombre de messages traités par heure
-* Le tableau **[!UICONTROL Top 5 deliveries]** et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
+* Le tableau **[!UICONTROL Top 5 des diffusions]** et les nombres de synthèse complémentaires qui affichent les cinq diffusions présentant le meilleur gain de reprise.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
+>La page **[!UICONTROL Débit des diffusions]** affiche la vitesse de débit pour le relais de vos messages depuis Campaign vers le MTA amélioré d’Adobe Campaign.
