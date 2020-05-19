@@ -11,7 +11,7 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
@@ -23,7 +23,7 @@ Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workf
 
 Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions.
 
-Les administrateurs fonctionnels peuvent accéder aux  de sous le **[!UICONTROL Administration > Application settings > Workflows]** menu.
+Les administrateurs fonctionnels peuvent accéder aux workflows techniques depuis le menu **[!UICONTROL Administration > Paramétrage de l&#39;application > Workflows]**.
 
 >[!NOTE]
 >
@@ -99,9 +99,9 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   </tr> 
     </tr> 
    <tr> 
-   <td> <span class="uicontrol">Synchroniser avec le lancement</span><br /> </td> 
+   <td> <span class="uicontrol">Synchroniser avec Launch</span><br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce processus synchronise les propriétés d’Adobe Launch mobile importées dans  Adobe Campaign Standard. Elle est lancée toutes les 15 minutes.<br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Mettre à jour l'exécution des diffusions.</span> <br /> </td> 
