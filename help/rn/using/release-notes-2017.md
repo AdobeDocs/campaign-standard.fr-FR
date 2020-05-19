@@ -11,7 +11,7 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
@@ -25,7 +25,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d&#39;Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017    {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017      {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -84,11 +84,11 @@ _Rapports_
 
 _Workflows_
 
-* Fixed an issue in the **[!UICONTROL Load file]** activity that could lead to errors after manually adding and removing columns in the activity.
+* Correction d&#39;un problème lié à l&#39;activité **[!UICONTROL Chargement de fichier]** qui entraînait des erreurs après l&#39;ajout et la suppression manuels de colonnes dans l&#39;activité.
 * L&#39;exécution du workflow technique **[!UICONTROL deliverabilityUpdate]** est désormais planifiée à 2h00, heure du serveur.
 * Correction d&#39;un problème de sécurité qui permettait l&#39;export d&#39;une liste sans détenir le rôle Export.
-* Fixed an issue with the **[!UICONTROL Reconciliation]** activity.
-* Fixed an issue with the use of wildcard characters in the **[!UICONTROL File Transfer]** activity.
+* Correction d&#39;une erreur liée à l&#39;activité **[!UICONTROL Réconciliation]**.
+* Correction d&#39;une erreur liée à l&#39;utilisation des jokers dans l&#39;activité **[!UICONTROL Transfert de fichier]**.
 
 _Profils et audiences_
 
@@ -176,7 +176,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d&#39;information ; il n&#39;a aucune incidence directe sur la facturation. Pour plus d&#39;informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d&#39;une erreur qui empêchait l&#39;inscription des profils à un service lors de l&#39;utilisation de l&#39;API Profils et Services.
 
-## Version 17.7 - Juillet 2017    {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017      {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -225,11 +225,11 @@ _Emails, SMS et courrier_
 
 * Correction d&#39;une erreur liée au workflow **updateDeliveryExecInfo** qui définissait l&#39;indicateur **To deliver** sur 0 pour les diffusions SMS.
 * Dans les **Paramètres avancés** des propriétés du modèle de diffusion, la liste déroulante **Routage** n&#39;affiche désormais que les comptes externes qui correspondent au type du message du modèle. Par exemple, un modèle de diffusion email affiche uniquement les comptes externes de type email.
-* Fixed an issue with the **[!UICONTROL Text]** preferred email format defined for test profiles.
+* Correction d&#39;une erreur liée à la préférence de format d&#39;email **[!UICONTROL Texte]** définie pour les profils de test.
 * Correction d&#39;un problème qui entraînait une erreur Javascript lors de la sélection du fuseau horaire par défaut dans l&#39;écran de sélection de planning d&#39;une diffusion.
 * Correction d&#39;une erreur qui empêchait l&#39;affichage des pièges dans les envois.
 * Dans l&#39;écran de sélection de modèle de l&#39;assistant de création de diffusion, les modèles de relance et de test A/B sont désormais masqués par défaut. Pour plus d&#39;informations, consultez la [documentation détaillée](../../channels/using/creating-an-email.md).
-* Correction d&#39;une erreur qui permettait à n&#39;importe quel utilisateur d&#39;envoyer des diffusions. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Start deliveries]** peuvent effectuer cette action. Pour plus d&#39;informations, consultez la [documentation détaillée](../../sending/using/confirming-the-send.md).
+* Correction d&#39;une erreur qui permettait à n&#39;importe quel utilisateur d&#39;envoyer des diffusions. Désormais, seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]** peuvent effectuer cette action. Pour plus d&#39;informations, consultez la [documentation détaillée](../../sending/using/confirming-the-send.md).
 
 _Notifications push_
 
@@ -252,7 +252,7 @@ _Workflows_
 * Correction d&#39;une erreur qui vous empêchait de définir une transition sortante dans l&#39;assistant de création de diffusion récurrente.
 * Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation d&#39;une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017    {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017      {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -279,27 +279,27 @@ _Workflows_
 
 _Mises à jour de l&#39;interface_
 
-* In the top bar, the **[!UICONTROL Timeline]** link has been removed and replaced with a link to **[!UICONTROL Programs & Campaigns]** .
+* Dans la barre supérieure, le lien **[!UICONTROL Planning]** a été supprimé. Il a été remplacé par un lien vers **[!UICONTROL Programmes et Campagnes]** .
 
 _Emails et SMS_
 
-* Fixed an issue which displayed the wrong color for the **[!UICONTROL Retry in progress]** delivery status. La couleur était grise au lieu d&#39;être bleue.
+* Correction d&#39;une erreur qui affichait une couleur incorrecte pour l&#39;état de diffusion **[!UICONTROL Reprise en cours]**. La couleur était grise au lieu d&#39;être bleue.
 
 _Workflows_
 
-* Fixed an issue that occurred when changing the action to perform in a **[!UICONTROL Transfer file]** activity.
+* Correction d&#39;une erreur qui se produisait lors du changement de l&#39;action à exécuter dans une activité **[!UICONTROL Transfert de fichier]**.
 
 _Rapports_
 
-* Les calculs **[!UICONTROL Spam]** et **[!UICONTROL Spam rate]** indicateurs ont été modifiés.
-* The **[!UICONTROL Bounce]** metrics have been improved for a more accurate result.
+* Les calculs des indicateurs **[!UICONTROL Spam]** et **[!UICONTROL Taux de spam]** ont été modifiés.
+* Les mesures de **[!UICONTROL Rebond]** ont été améliorées pour un résultat plus précis.
 
 _Notifications push_
 
 * Correction d&#39;une erreur qui vous empêchait de cliquer sur une notification push dans l&#39;historique marketing d&#39;un profil.
 * L&#39;utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017    {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017      {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -355,14 +355,14 @@ _Messages transactionnels_
 
 _Landing pages_
 
-* We have optimized the **[!UICONTROL by email]** filter used in landing pages to reconcile new subscribers with database profiles.
+* Le filtre **[!UICONTROL par email]** utilisé dans les landing pages a été optimisé pour réconcilier les nouveaux abonnés avec les profils de la base de données.
 * Correction d&#39;une erreur qui affichait des entrées de texte libre à la place de cases à cocher lors de l&#39;utilisation de champs booléens dans une configuration de formulaire.
 * Correction d&#39;une erreur qui empêchait la génération des miniatures des landing pages.
 
 _Workflows_
 
-* Fixed a display error when editing an **[!UICONTROL End]** or **[!UICONTROL External Signal]** activity (on Safari only).
-* Improved the error message displayed when editing a **[!UICONTROL Read Audience]** activity containing an erroneous audience.
+* Correction d&#39;une erreur d&#39;affichage lors de l&#39;édition d&#39;une activité **[!UICONTROL Fin]** ou **[!UICONTROL Signal externe]** (dans Safari uniquement).
+* Amélioration du message d&#39;erreur affiché lors de l&#39;édition d&#39;une activité **[!UICONTROL Lecture d&#39;audience]** contenant une audience en erreur.
 * Résolution d&#39;un problème qui entraînait une erreur SQL lors de l&#39;exécution d&#39;une activité d&#39;abonnement.
 
 _Intégrations_
@@ -384,7 +384,7 @@ _Notifications push_
 * Correction d&#39;une erreur en raison de laquelle un message d&#39;erreur n&#39;était pas affiché lors de la création d&#39;une application Android associée à une application mobile n&#39;ayant pas pu être créée sur MCPNS.
 * Correction d&#39;une erreur qui permettait à un utilisateur d&#39;ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017    {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017      {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -454,7 +454,7 @@ _Général_
 
 _Emails et SMS_
 
-* Fixed an issue causing the **[!UICONTROL Request confirmation before sending messages]** option to remain selected even after unchecking it and saving the delivery.
+* Correction d&#39;une erreur suite à laquelle l&#39;option **[!UICONTROL Demander une confirmation avant d&#39;envoyer les messages]** restait sélectionnée même après avoir été décochée et la diffusion sauvegardée.
 * Correction d&#39;une erreur qui pouvait provoquer la dépublication d&#39;emails transactionnels.
 * Correction d&#39;une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications avant la prévisualisation d&#39;une diffusion.
 
@@ -464,8 +464,8 @@ _Landing pages_
 
 _Workflows_
 
-* Fixed an issue that could prevent from reading the content of the reject transition of a **[!UICONTROL Load file]** activity.
-* Fixed an issue that prevented swapped columns to be properly taken into account when configuring a **[!UICONTROL Load file]** activity.
+* Correction d&#39;une erreur qui pouvait empêcher la lecture de la transition Rejet d&#39;une activité **[!UICONTROL Chargement de fichier]**.
+* Correction d&#39;une erreur qui empêchait la prise en compte correcte des colonnes échangées lors de la configuration d&#39;une activité **[!UICONTROL Chargement de fichier]**.
 
 ## Version 17.1 - Janvier 2017 {#release-17-1---january-2017}
 
@@ -513,7 +513,7 @@ _Workflows_
 
 _Général_
 
-* The **[!UICONTROL Access authorization]** options have returned to the landing page properties.
+* Les options d&#39;**[!UICONTROL Autorisation d&#39;accès]** figurent à nouveau dans les propriétés des landing pages.
 * Correction d&#39;une erreur qui était susceptible d&#39;entraîner le rendu d&#39;une ancienne image au lieu de la bonne. Cette erreur se produisait lorsque l&#39;image source avait été mise à jour dans la définition du contenu d&#39;une diffusion ou d&#39;une landing page.
 * Correction d&#39;un problème qui empêchait les utilisateurs d&#39;éditer certains champs dans un compte externe SFTP existant.
 * Correction de plusieurs problèmes liés à l&#39;interface utilisateur. Par exemple, les utilisateurs peuvent désormais éditer les attributs des profils et enregistrer les modifications sans rencontrer de problème dans l&#39;interface utilisateur.
@@ -525,21 +525,21 @@ _Emails et SMS_
 _Notifications push_
 
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
-* Correction d’un problème qui avait pu empêcher **[!UICONTROL Play a sound]** et **[!UICONTROL Custom fields]** être pris en compte pour Android.
+* Correction d&#39;une erreur qui était susceptible d&#39;empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d&#39;une erreur qui était susceptible d&#39;entraîner l&#39;ajout d&#39;un caractère d&#39;échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
 * Lorsque le jeton d&#39;enregistrement d&#39;un abonné devient blacklisté, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l&#39;application, dans Adobe Campaign.
 
 _Workflows_
 
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher les prévisualisations des requêtes sur les ressources d&#39;événement (rtEvent, par exemple).
-* The reject file generated by a **[!UICONTROL Load file]** activity can now be retrieved in its outbound transition and processed in the next activity. For example, upload the reject file via an SFTP server using **[!UICONTROL Transfer file]** .
-* Fixed an issue that may have prevented a user from limiting the population of a segment if **[!UICONTROL Temporary resource]** was selected in the **[!UICONTROL General]** tab of **[!UICONTROL Segmentation]** .
-* **[!UICONTROL Scheduler]**   ne peut plus être défini pour déclencher un flux de travail plusieurs fois toutes les 10 minutes.
-* Fixed an issue that may have prevented **[!UICONTROL Use common columns]** from working properly in an **[!UICONTROL Union]** activity.
+* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l&#39;activité suivante. Par exemple, transférez le fichier de rejets via un serveur SFTP à l&#39;aide d&#39;une activité **[!UICONTROL Transfert de fichier]** .
+* Correction d&#39;une erreur qui était susceptible d&#39;empêcher un utilisateur de limiter la population d&#39;un segment lorsque **[!UICONTROL Ressource temporaire]** était sélectionnée dans l&#39;onglet **[!UICONTROL Général]** de l&#39;activité **[!UICONTROL Segmentation]** .
+* **[!UICONTROL Les activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
+* Correction d&#39;une erreur qui était susceptible d&#39;empêcher le bon fonctionnement de l&#39;option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **[!UICONTROL Union]**.
 
 _Intégrations_
 
 * Correction d&#39;un problème qui était susceptible d&#39;entraîner une erreur lors du déploiement d&#39;un déclenchement d&#39;événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées &quot;Probabilité de retour avant 30 jours&quot; avait été ajoutées au trigger Abandon dans Adobe Experience Cloud.
 * Correction d&#39;une erreur qui était susceptible d&#39;entraîner l&#39;effacement du champ Dimension cible par un workflow technique lors de l&#39;import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
-* Correction d’un problème en raison duquel l’ **[!UICONTROL Save audience]** d’un flux de travail échouait lorsque l’option **[!UICONTROL Share in Adobe Marketing Cloud]** était cochée.
+* Correction d&#39;une erreur qui était susceptible d&#39;entraîner l&#39;échec d&#39;une activité **[!UICONTROL Sauvegarde d&#39;audience]** d&#39;un workflow lorsque l&#39;option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
 
