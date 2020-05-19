@@ -11,7 +11,7 @@ topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
@@ -23,13 +23,13 @@ Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envo
 
 Activez cette fonctionnalité notamment si votre entreprise doit archiver tous les emails sortants à des fins de conformité. Celle-ci vous permet d’envoyer une copie cachée exacte des messages envoyés correspondants à une adresse email en Cci (invisible aux destinataires de l’envoi) que vous devez spécifier.
 
-Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emails]** option in the email delivery template.
+Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’option **[!UICONTROL Archiver les emails]** dans le modèle de diffusion Email.
 
 >[!NOTE]
 >
 >Adobe Campaign ne gère pas les fichiers archivés. Il vous permet d’envoyer les messages de votre choix à une adresse dédiée, à partir de laquelle ils peuvent être traités et archivés au moyen d’un système externe.
 
-## Recommandations et limitations     {#recommendations-and-limitations}
+## Recommandations et limitations      {#recommendations-and-limitations}
 
 * Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
 * L’adresse en Cci de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
@@ -42,19 +42,19 @@ Once enabled, you need to activate Email BCC from the **[!UICONTROL Archive emai
 >
 >Actuellement, les emails archivés ne peuvent pas être envoyés avec le MTA amélioré d’Adobe Campaign, même si vous avez déjà effectué une mise à niveau vers celui-ci.
 
-## Activer l’archivage des emails     {#activating-email-archiving}
+## Activer l’archivage des emails      {#activating-email-archiving}
 
 Une fois activée, la fonctionnalité Email BCC est activée dans le [modèle d’email](../../start/using/marketing-activity-templates.md) par le biais d’une option dédiée :
 
 1. Accédez à **Ressources** > **Modèles** > **Modèles de diffusion**.
-1.  le modèle prêt à l’emploi **[!UICONTROL Send via email]** .
+1. Dupliquez le modèle d’usine **[!UICONTROL Diffuser par email]**.
 1. Sélectionnez le modèle dupliqué.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. Développez la **[!UICONTROL Send]** section.
-1. Check the **[!UICONTROL Archive emails]** box to keep a copy of all sent messages for each delivery based on this template.
+1. Cliquez sur le bouton **[!UICONTROL Editer les propriétés]** pour éditer les propriétés du modèle.
+1. Développez la section **[!UICONTROL Envoi]**.
+1. Cochez la case **[!UICONTROL Archiver les emails]** pour conserver une copie de tous les messages envoyés pour chaque diffusion selon ce modèle.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+>Si les emails envoyés à l’adresse en Cci sont ouverts et font l’objet de clics, cela sera pris en compte dans les **[!UICONTROL Ouvertures totales]** et les **[!UICONTROL Clics]** provenant de l’analyse d’envoi, ce qui pourrait entraîner des erreurs de calcul.
