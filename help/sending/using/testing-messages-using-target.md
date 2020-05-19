@@ -12,7 +12,7 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
@@ -57,7 +57,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
    ![](assets/substitution_preparation.png)
 
-1. In the **[!UICONTROL Profile substitutions]** tab, click the **[!UICONTROL Create element]** button to select the profiles to use for testing.
+1. Dans l’onglet **[!UICONTROL Substitutions de profil]**, cliquez sur le bouton **[!UICONTROL Créer un élément]** pour sélectionner les profils à utiliser pour les tests.
 
    ![](assets/substitution_tab.png)
 
@@ -65,13 +65,13 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
    ![](assets/substitution_recipient_selection.png)
 
-1. Select the profile to use for testing, then enter in the **[!UICONTROL Address]** field the desired substitution address, then click **[!UICONTROL Confirm]**. Tous les bons à tirer ciblant le profil seront envoyés à cette adresse email, plutôt qu’à celle définie dans la base de données pour ce profil.
+1. Sélectionnez le profil à utiliser pour le test, puis saisissez l’adresse de substitution souhaitée dans le champ **[!UICONTROL Adresse]** et cliquez sur **[!UICONTROL Valider]**. Tous les bons à tirer ciblant le profil seront envoyés à cette adresse email, plutôt qu’à celle définie dans la base de données pour ce profil.
 
-   If you want to add a specific prefix to the proofs&#39; subject line, fill in the **[!UICONTROL Subject line prefix]** field.
+   Si vous souhaitez ajouter un préfixe spécifique à l’objet du bon à tirer, renseignez le champ **[!UICONTROL Préfixe de ligne d’objet]**.
 
    >[!NOTE]
    >
-   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
+   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
 
    ![](assets/substitution_address.png)
 
@@ -79,7 +79,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
    ![](assets/substitution_prefixsample.png)
 
-1. Le profil est ajouté à la liste, avec son adresse de substitution et son préfixe associés. Repeat the above steps for all the profiles that you want to use for testing, then click **[!UICONTROL Confirm]**.
+1. Le profil est ajouté à la liste, avec son adresse de substitution et son préfixe associés. Répétez les étapes ci-dessus pour tous les profils que vous souhaitez utiliser pour les tests, puis cliquez sur **[!UICONTROL Valider]**.
 
    ![](assets/substitution_recipients_confirm.png)
 
@@ -91,7 +91,7 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
 1. Une fois que tous les profils et adresses de substitution sont définis, vous pouvez envoyer un bon à tirer pour tester le message. Pour ce faire, cliquez sur le bouton **[!UICONTROL Test]** , puis sélectionnez le type de test à exécuter.
 
-   Note that if no test profile has been added to the message target, the **[!UICONTROL Email rendering]** and **[!UICONTROL Proof + Email rendering]** options are not available.  Pour plus d’informations sur l’envoi des bons à tirer, consultez [cette section](../../sending/using/sending-proofs.md).
+   Notez que si aucun profil de test n’a été ajouté à la cible du message, les options **[!UICONTROL Rendu des emails]** et **[!UICONTROL Bon à tirer + Rendu des emails]** ne sont pas disponibles.  Pour plus d’informations sur l’envoi des bons à tirer, consultez [cette section](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -103,11 +103,11 @@ Pour utiliser des profils ciblés à des fins de test, vous devez d’abord les 
 
 Campaign Standard vous permet d’importer une audience de profils que vous pouvez utiliser pour les tests. Vous pouvez par exemple envoyer à une adresse email unique un ensemble de messages ciblant différents profils.
 
-Moreover, if your audience is already configured with the address and prefix columns, you will be able to import these information in the **[!UICONTROL Profile substitutions]** tab. Vous trouverez un exemple d’import d’audience avec des adresses de substitution dans [cette section](#use-case).
+De plus, si votre audience est déjà configurée avec les colonnes d’adresses et de préfixes, vous pourrez importer ces informations dans l’onglet **[!UICONTROL Substitutions de profil]**. Vous trouverez un exemple d’import d’audience avec des adresses de substitution dans [cette section](#use-case).
 
 >[!NOTE]
 >
->When importing an audience, only the profiles corresponding to the message target are selected and added to the **[!UICONTROL Profile substitutions]** tab.
+>Lors de l’import d’une audience, seuls les profils correspondant à la cible du message sont sélectionnés et ajoutés à l’onglet **[!UICONTROL Substitutions de profil]**.
 
 Pour importer des profils à utiliser pour les tests à partir d’une audience, procédez comme suit :
 
@@ -115,7 +115,7 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
    ![](assets/substitution_preparation.png)
 
-1. Dans l’ **[!UICONTROL Profile substitutions]** onglet, cliquez sur **[!UICONTROL Import from an audience]**.
+1. Dans l’onglet **[!UICONTROL Substitutions de profil]**, cliquez sur **[!UICONTROL Importer depuis une audience]**.
 
    ![](assets/substitution_audience_import.png)
 
@@ -123,15 +123,15 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
    >[!NOTE]
    >
-   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
+   >Le préfixe de ligne d’objet peut contenir jusqu’à 500 caractères.
 
    ![](assets/substitution_audience_define.png)
 
-   If the substitution addresses and/or prefixes to use have already been defined in your audience, select the **[!UICONTROL From Audience]** option, then specify the column to use to retrieve these information.
+   Si les adresses de substitution et/ou les préfixes à utiliser ont déjà été définis dans votre audience, sélectionnez l’option **[!UICONTROL Depuis l’audience]**, puis spécifiez la colonne à utiliser pour récupérer ces informations.
 
    ![](assets/substitution_fromaudience.png)
 
-1. Cliquez sur le **[!UICONTROL Import]** bouton. The profiles from the audience corresponding to the message target are added to the **[!UICONTROL Profile substitution]** tab, as well as the associated substitution addresses and prefixes.
+1. Cliquez sur le bouton **[!UICONTROL Importer]**. Les profils de l’audience correspondant à la cible du message sont ajoutés à l’onglet **[!UICONTROL Substitution de profil]**, ainsi que les adresses de substitution et les préfixes associés.
 
 ![](assets/substitution_audience_imported.png)
 
@@ -145,7 +145,7 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 >
 >La prévisualisation est disponible avec le Concepteur d’email uniquement.
 
-To be able to preview messages using targeted profiles, make sure you have added these profiles to the **[!UICONTROL Profile substitution]** list (see [Defining profiles and substitution addresses](#selecting-profiles)).
+Pour pouvoir prévisualiser les messages à l’aide des profils ciblés, veillez à ajouter ces profils à la liste **[!UICONTROL Substitution de profil]** (voir [Définir les profils et les adresses de substitution](#selecting-profiles)).
 
 Si vous souhaitez utiliser des champs de personnalisation dans le message, vous devez les ajouter **avant** de lancer la préparation du message. Sinon, ils ne seront pas pris en compte dans la prévisualisation. Par conséquent, veillez à relancer la préparation du message si une modification est apportée aux champs de personnalisation.
 
@@ -155,13 +155,13 @@ Pour prévisualiser les messages à l’aide de la substitution de profils, proc
 
    ![](assets/substitution_preview_access.png)
 
-1. Sélectionnez l’ **[!UICONTROL Preview]** onglet, puis cliquez sur **[!UICONTROL Change profile]**.
+1. Sélectionnez l’onglet **[!UICONTROL Aperçu]**, puis cliquez sur **[!UICONTROL Changer de profil]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added for testing.
+1. Cliquez sur l’onglet **[!UICONTROL Substitution de profil]** pour afficher les profils de substitution qui ont été ajoutés pour le test.
 
-   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
+   Sélectionnez les profils à utiliser pour la prévisualisation, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](assets/substitution_preview_selection.png)
 
@@ -191,9 +191,9 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 1. Construisez le workflow pour créer une audience à partir du fichier. Pour ce faire, ajoutez et configurez les activités suivantes :
 
-   * **[!UICONTROL Load file]**   : Importe le fichier CSV (pour plus d’informations sur ce  , reportez-vous à [cette section](../../automating/using/load-file.md)).
-   * **[!UICONTROL Reconciliation]**   : Associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l’adresse email du profil comme champ de réconciliation (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
-   * **[!UICONTROL Save audience]**   : Crée un   basé sur le fichier importé (pour plus d’informations sur ce  de, reportez-vous à [cette section](../../automating/using/save-audience.md)).
+   * Activité **[!UICONTROL Chargement de fichier]** : importe le fichier CSV (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/load-file.md)).
+   * Activité **[!UICONTROL Réconciliation]** : associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l’adresse email du profil comme champ de réconciliation (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
+   * Activité **[!UICONTROL Sauvegarde d’audience]** : crée une audience à partir du fichier importé (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/save-audience.md)).
    ![](assets/substitution_uc2.png)
 
 1. Exécutez le workflow, puis accédez à l’onglet **[!UICONTROL Audiences]** pour vérifier que l’audience a été créée avec les informations souhaitées.
@@ -204,7 +204,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 ### Étape 2 : construire un workflow pour cibler les profils et envoyer la newsletter
 
-1. Add **[!UICONTROL Query]** and **[!UICONTROL Email delivery]** activities, then configure them according to your needs (see [Query](../../automating/using/query.md) and [Email delivery](../../automating/using/email-delivery.md) sections).
+1. Ajoutez les activités **[!UICONTROL Requête]** et **[!UICONTROL Diffusion Email]** puis configurez-les en fonction de vos besoins (voir les sections [Requête](../../automating/using/query.md) et [Diffusion Email](../../automating/using/email-delivery.md)).
 
    ![](assets/substitution_uc4.png)
 
@@ -212,11 +212,11 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 ### Étape 3 : configurer l’onglet Substitution de profil du message
 
-1. Open the **[!UICONTROL Email delivery]** activity. Dans le tableau de bord des messages, cliquez sur le bloc **[!UICONTROL Audience]**.
+1. Ouvrez l’activité **[!UICONTROL Diffusion Email]**. Dans le tableau de bord des messages, cliquez sur le bloc **[!UICONTROL Audience]**.
 
    ![](assets/substitution_uc5.png)
 
-1. Sélectionnez l’ **[!UICONTROL Profile substitutions]** onglet, puis cliquez sur **[!UICONTROL Import from an audience]**.
+1. Sélectionnez l’onglet **[!UICONTROL Substitutions de profil]**, puis cliquez sur **[!UICONTROL Importer depuis une audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -226,17 +226,17 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 1. Définissez l’adresse de substitution et le préfixe de l’objet à utiliser lors de l’envoi des bons à tirer.
 
-   To do this, select the **[!UICONTROL From audience]** option, then select the column from the audience that contains the information.
+   Pour ce faire, sélectionnez l’option **[!UICONTROL Depuis l’audience]**, puis sélectionnez la colonne de l’audience qui contient les informations.
 
    ![](assets/substitution_uc8.png)
 
-1. Cliquez sur le **[!UICONTROL Import]** bouton. Les profils de l’audience sont ajoutés à la liste, avec leurs adresses de substitution et leurs préfixes d’objet associés.
+1. Cliquez sur le bouton **[!UICONTROL Importer]**. Les profils de l’audience sont ajoutés à la liste, avec leurs adresses de substitution et leurs préfixes d’objet associés.
 
    ![](assets/substitution_uc9.png)
 
    >[!NOTE]
    >
-   >In our case, all profiles from the audience are targeted by the **[!UICONTROL Query]** activity. Si l’un de ces profils ne faisait pas partie de la cible du message, il ne serait pas ajouté à la liste.
+   >Dans notre cas, tous les profils de l’audience sont visés par l’activité **[!UICONTROL Requête]**. Si l’un de ces profils ne faisait pas partie de la cible du message, il ne serait pas ajouté à la liste.
 
 ### Étape 4 : prévisualiser le message à l’aide des profils ciblés
 
@@ -244,13 +244,13 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
    ![](assets/substitution_uc10.png)
 
-1. Sélectionnez l’ **[!UICONTROL Preview]** onglet, puis cliquez sur **[!UICONTROL Change profile]**.
+1. Sélectionnez l’onglet **[!UICONTROL Aperçu]**, puis cliquez sur **[!UICONTROL Changer de profil]**.
 
    ![](assets/substitution_uc_preview.png)
 
-1. Click the **[!UICONTROL Profile Substitution]** tab to display the substitution profiles that have been added previously.
+1. Cliquez sur l’onglet **[!UICONTROL Substitution de profil]** pour afficher les profils de substitution qui ont été ajoutés précédemment.
 
-   Select the profiles that you want to use for preview, then click **[!UICONTROL Select]**.
+   Sélectionnez les profils à utiliser pour la prévisualisation, puis cliquez sur **[!UICONTROL Sélectionner]**.
 
    ![](assets/substitution_uc_selectpreview.png)
 
@@ -264,6 +264,6 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. The proofs are sent according to what has been configured in the **[!UICONTROL Profile substitutions]** tab.
+1. Les bons à tirer sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
 
    ![](assets/substitution_uc_proofs.png)
