@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1707'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ![](assets/wf_externalAPI.png)
 
-The **[!UICONTROL External API]** activity brings data into the workflow from an **external system** via an **HTTP API** call.
+L’activité **[!UICONTROL API externe]** récupère des données dans le workflow d’un **système externe** via un appel **API HTTP**.
 
-Les points de terminaison système externes peuvent être des points de terminaison API publics, des systèmes de gestion des clients ou des instances d’application sans serveur (ex. : [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), pour ne citer que quelques .
+Les points d’entrée de système externes peuvent être des point d’entrée API publics, des systèmes de gestion des clients ou des instances d’application sans serveur (ex. : [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)), pour ne citer que quelques catégories.
 
 >[!NOTE]
 >
@@ -37,21 +40,21 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Transition de la version bêta à la version GA {#from-beta-to-ga}
 
-Avec Campaign Standard version 20.3, la fonctionnalité API externe est passée de la version bêta à la version GA (General Availability).
+Avec Campaign Standard version 20.3, la fonctionnalité API externe est passée de la version bêta à la version GA (General Availability).
 
 >[!CAUTION]
 >
->Par conséquent, si vous utilisiez le  API externe bêta  , vous devez les remplacer par le API externe GA dans tous les.  Les  qui utilisent la version bêta de l’API externe cesseront de fonctionner à partir de la version 20.3.
+>Par conséquent, si vous utilisiez les activités API externe bêta, vous devez les remplacer par des activités API externe GA dans tous les workflows.  Les worfklows qui utilisent la version bêta de l’API externe cesseront de fonctionner à partir de la version 20.3.
 
-Lorsque vous remplacez le  API externe, ajoutez le nouveau de  API externe au flux de travail, copiez manuellement les détails de la configuration, puis supprimez l&#39;ancien de.
+Lorsque vous remplacez les activité API externe, ajoutez la nouvelle activité API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l&#39;ancienne activité.
 
 >[!NOTE]
 >
->Vous ne pourrez pas copier sur les valeurs d’en-tête, car elles sont masquées dans le  .
+>Vous ne pourrez pas copier sur les valeurs de l’en-tête, car elles sont masquées dans l’activité.
 
-Ensuite, reconfigurez d’autres   dans le flux de travaux qui pointent vers et/ou utilisent les données du de l’API externe bêta pour pointer vers et/ou utiliser les données du nouveaud’API externe à la place. Exemples de   : de messagerie (),de, etc.
+Ensuite, reconfigurez d’autres activités dans le workflow qui pointent vers et/ou utilisent les données de l’activité API externe bêta pour pointer vers et/ou utiliser les données de la nouvelle activité API externe à la place. Exemples d’activités : diffusion email (champs de personnalisation), activité d’enrichissement, etc.
 
-### Limites et garde-fous {#guardrails}
+### Limitations et garde-fous {#guardrails}
 
 Les protections suivantes ont été mises en place pour cette activité :
 
@@ -63,25 +66,25 @@ Les protections suivantes ont été mises en place pour cette activité :
 
 >[!CAUTION]
 >
->Veuillez noter que le  de  est destiné à récupérer les données de l’ensemble de la campagne (dernier jeu d’de , derniers scores, etc.), et non à récupérer des informations spécifiques pour chaque, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
+>Veuillez noter que le but de l’activité est de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
 
 
-Des garde-fous spécifiques ont été mis en place pour le JSON :
+Des garde-fous spécifiques ont été mis en place pour le JSON :
 
-* **Profondeur** maximale JSON : limite la profondeur maximale d’un fichier JSON imbriqué personnalisé qui peut être traité à 10 niveaux.
-* **Longueur** maximale de la clé JSON : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.
-* **JSON Max Keys Allowed**:  limite à 150 le nombre total maximal de noms de propriétés JSON , qui sont utilisés comme ID de colonne.
+* **Profondeur JSON maximale** : limite la profondeur maximale d’un code JSON imbriqué personnalisé qui peut être traité à 10 niveaux.
+* **Longueur de clé JSON maximale** : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.
+* **Nombre maximum de clés JSON autorisées** :  limite à 150 le nombre total maximum de noms de propriétés JSON dupliqués, qui sont utilisés comme ID de colonne.
 
 
-Le  de  n’est pas pris en charge par la structure JSON en tant que :
+L’activité n’est pas prise en charge par la structure JSON en tant que :
 
-* Combinaison d’un objet de tableau avec d’autres éléments autres que le tableau
+* Combinaison d’un objet de tableau avec d’autres éléments non issus de tableaux
 * L’objet de tableau JSON est imbriqué dans un ou plusieurs objets de tableau intermédiaire.
 
 
 ## Configuration {#configuration}
 
-Drag and drop an **[!UICONTROL External API]** activity into your workflow and open the activity to start the configuration.
+Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez l’activité pour commencer la configuration.
 
 ### Mapping entrant
 
@@ -92,7 +95,7 @@ Selon ce tableau temporaire, l’utilisateur peut apporter des modifications aux
 
 La liste déroulante **Ressource entrante** permet de sélectionner l’activité de requête qui crée le tableau temporaire.
 
-The **Add count parameter** checkbox will add a count value for each row coming from the temporary table. Cette case à cocher est disponible uniquement si l’activité entrante génère un tableau temporaire.
+La case à cocher **Ajouter un paramètre de comptage** ajoutera une valeur numérique pour chaque ligne provenant du tableau temporaire. Cette case à cocher est disponible uniquement si l’activité entrante génère un tableau temporaire.
 
 La section **Colonnes entrantes** permet à l’utilisateur d’ajouter n’importe quel champ du tableau de transition entrante. Les colonnes sélectionnées sont les clés de l’objet de données. L’objet de données du code JSON est une liste de tableaux contenant les données des colonnes sélectionnées de chaque ligne du tableau de transition entrante.
 
@@ -104,26 +107,26 @@ Cet onglet permet de définir l’exemple de **structure JSON** renvoyé par l�
 
 ![](assets/externalAPI-outbound.png)
 
-L’analyseur JSON est conçu pour s’adapter aux types de modèles de structure JSON standard, à quelques exceptions près. Voici un exemple de modèle standard :`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+L’analyseur JSON est conçu pour s’adapter aux types de motifs de structure JSON standard, à quelques exceptions près. Voici un exemple de modèle standard :`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 L’exemple de définition JSON doit présenter les **caractéristiques suivantes** :
 
 * Les **éléments de tableau** doivent contenir des propriétés de premier niveau (les niveaux plus profonds ne sont pas pris en charge).
-   **Les noms** de propriété finiront par devenir des noms de colonne pour le de sortie de la table temporaire de sortie.
-* **Les éléments** JSON à capturer doivent être imbriqués à 10 niveaux ou moins dans la réponse JSON.
+   Les **noms de propriété** deviennent des noms de colonne pour le schéma de sortie du tableau temporaire de sortie.
+* Les **éléments JSON** à capturer doivent être imbriqués à 10 niveaux ou moins dans la réponse JSON.
 * La définition du **nom de colonne** repose sur le premier élément du tableau &quot;data&quot;.
 La définition des colonnes (ajout/suppression) et la valeur de type de la propriété peuvent être éditées dans l’onglet **Définition des colonnes**.
 
-**Aplatir le comportement des cases à cocher** :
+Comportement de la **case à cocher Aplatir** :
 
-Case à cocher Aplatir (par défaut : (non coché) est fourni pour indiquer si le fichier JSON doit être aplati ou non sur une carte clé/valeur.
+La case à cocher Aplatir (par défaut : non cochée) est fournie pour indiquer si le fichier JSON doit être aplati ou non sur une carte clé/valeur.
 
-* Lorsque la **case à cocher est désactivée** (non cochée), l’exemple JSON est analysé pour rechercher un objet de tableau. L’utilisateur devra fournir une version abrégée du format JSON d’exemple de réponse d’API afin que  Adobe Campaign puisse déterminer exactement la baie que l’utilisateur souhaite utiliser. Au moment de la création du processus, le chemin d’accès à l’objet de tableau imbriqué sera déterminé et enregistré, de sorte qu’il puisse être utilisé au moment de l’exécution pour accéder à cet objet de tableau à partir du corps de réponse JSON reçu de l’appel d’API.
+* Lorsque la **case à cocher est désactivée** (non cochée), l’exemple JSON est analysé pour la recherche d’un objet de tableau. L’utilisateur devra fournir une version abrégée du format JSON d’exemple de réponse de l’API afin qu’Adobe Campaign puisse déterminer exactement le tableau que l’utilisateur souhaite utiliser. Au moment de la création du workflow, le chemin d’accès à l’objet de tableau imbriqué sera déterminé et enregistré, de sorte qu’il puisse être utilisé au moment de l’exécution pour accéder à cet objet de tableau à partir du corps de réponse JSON reçu de l’appel API.
 
 * Lorsque la **case à cocher est activée** (cochée), l’exemple JSON est aplati et toutes les propriétés spécifiées dans l’exemple JSON fourni sont utilisées pour créer des colonnes du tableau temporaire de sortie et affichées dans l’onglet Définitions des colonnes. Notez que s’il existe un objet de tableau dans l’exemple JSON, tous les éléments de ces objets de tableau seront également aplatis.
 
 
-If the **parsing is validated**, a message appears and invites you to customize the data mapping in the &quot;Column definition&quot; tab. Dans d’autres cas, un message d’erreur s’affiche.
+Si l’**analyse est validée**, un message s’affiche. Il vous invite à personnaliser le mappage des données dans l’onglet « Définition des colonnes ». Dans d’autres cas, un message d’erreur s’affiche.
 
 ### Exécution
 
@@ -158,7 +161,7 @@ Cet onglet permet d’activer la **transition sortante** et son libellé. Cette 
 
 ### Options d’exécution
 
-Cet onglet est disponible dans la plupart des activités de workflow. Pour plus d’informations, consultez la section [Propriétés d’une activité](../../automating/using/executing-a-workflow.md#activity-properties).
+Cet onglet est disponible dans la plupart des activités de workflow. Pour plus d’informations, consultez la section [Propriétés d’une activité](../../automating/using/activity-properties.md).
 
 ![](assets/externalAPI-options.png)
 
