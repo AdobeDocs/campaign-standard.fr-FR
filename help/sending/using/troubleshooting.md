@@ -12,7 +12,7 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
@@ -33,14 +33,14 @@ Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut q
 
 Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d&#39;Adobe Campaign.
 
-## Liste noire contre {#blacklisting-versus-quarantine}
+## Liste noire vs quarantaine{#blacklisting-versus-quarantine}
 
 * **Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
 
-   * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
+   * Le statut **[!UICONTROL En blackliste]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
 
-   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
-   For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+   * L&#39;application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
+   [](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
 
 * **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
@@ -48,12 +48,12 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
    Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Annulation de la liste noire {#unblacklisting}
+## Retirer de la liste noire {#unblacklisting}
 
 * **Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
 
-   * Go to **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+   * Accédez à **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
+   * Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
    * Sauvegardez l&#39;enregistrement.
 
 * **Comment puis-je savoir si l&#39;une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
@@ -64,7 +64,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
    * https://www.blacklistalert.org/
    En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
 
-   En cliquant sur le lien correspondant, vous pouvez accéder aux détails du site Web.
+   En cliquant sur le lien correspondant, accédez aux détails du site web.
 
    Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
 
