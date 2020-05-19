@@ -11,7 +11,7 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
@@ -23,7 +23,7 @@ Pour découvrir les bonnes pratiques de diffusion, consultez le guide de prise e
 
 Les étapes de création et d&#39;envoi des messages sont les suivantes :
 
-1. Créez un **[!UICONTROL Email]**, un **[!UICONTROL SMS]**, un **[!UICONTROL direct mail]** ou un **[!UICONTROL push notification]**  de  marketing. Voir [Créer un email](../../channels/using/creating-an-email.md), [Créer un SMS](../../channels/using/creating-an-sms-message.md), [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md) et [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Créez une activité marketing de type **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Courrier]** ou **[!UICONTROL Notification push]**. Voir [Créer un email](../../channels/using/creating-an-email.md), [Créer un SMS](../../channels/using/creating-an-sms-message.md), [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md) et [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
 1. Sélectionnez les audiences de votre message. Voir [Création d&#39;une audience](../../audiences/using/creating-audiences.md).
 1. Définissez le contenu du message et ses éléments de personnalisation. Voir la section relative à l&#39;[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md) pour les emails ou du contenu spécifique à d&#39;autres canaux.
 1. Commencez à préparer l&#39;envoi pour calculer la population cible et générer le contenu du message. Voir [Valider les messages](../../sending/using/preparing-the-send.md).
