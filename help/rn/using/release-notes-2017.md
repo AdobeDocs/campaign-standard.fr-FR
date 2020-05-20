@@ -247,7 +247,7 @@ _Rapports_
 
 _Workflows_
 
-* Vous pouvez désormais filtrer les logs des workflows (période et recherche de texte). Pour plus d&#39;informations, consultez la [documentation détaillée](../../automating/using/executing-a-workflow.md#monitoring).
+* Vous pouvez désormais filtrer les logs des workflows (période et recherche de texte). Pour plus d&#39;informations, consultez la [documentation détaillée](../../automating/using/monitoring-workflow-execution.md).
 * Dans les diffusions des workflows, une option est désormais disponible pour désactiver la confirmation avant l&#39;envoi.
 * Correction d&#39;une erreur qui vous empêchait de définir une transition sortante dans l&#39;assistant de création de diffusion récurrente.
 * Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation d&#39;une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
