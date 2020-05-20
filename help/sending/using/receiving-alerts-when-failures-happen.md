@@ -237,7 +237,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * une connexion arrivée à expiration entre le serveur de diffusion Adobe Campaign et le serveur de réception ;
    * un problème de délivrabilité ;
    * un workflow en erreur.
-   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Voir à ce propos la section [Exécuter un workflow](../../automating/using/executing-a-workflow.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
+   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Voir à ce propos la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
 
 * **[!UICONTROL Diffusions avec préparation en échec]** : une erreur peut se produire lors de la préparation de la diffusion dans les cas suivants :
 
