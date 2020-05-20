@@ -72,7 +72,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 **Rubrique connexe :**
 
 * Vidéo [Créer un workflow](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Propriétés du workflow](../../automating/using/executing-a-workflow.md#workflow-properties)
+* [Propriétés du workflow](../../automating/using/managing-execution-options.md)
 
 ## Ajouter et relier les activités {#adding-and-linking-activities}
 
