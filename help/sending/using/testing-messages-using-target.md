@@ -185,7 +185,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 1. Préparez le fichier à importer pour créer l’audience. Dans notre cas, il doit contenir l’adresse de substitution à utiliser pour le bon à tirer, et un préfixe à ajouter à l’objet du bon à tirer.
 
-   Dans cet exemple, l’adresse email « oliver.vaughan@internal.com » recevra un bon à tirer du message ciblant le profil avec l’adresse email « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
+   Dans cet exemple, l’adresse email «oliver.vaughan@internal.com» recevra un bon à tirer du message ciblant le profil avec l’adresse email « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
 
    ![](assets/substitution_uc1.png)
 
