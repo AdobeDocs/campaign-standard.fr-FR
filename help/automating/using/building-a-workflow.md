@@ -13,7 +13,10 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Le type des données transmises d&#39;une activité à une autre peut influer su
 
 Vous pouvez ouvrir les activités afin d&#39;en vérifier ou modifier les paramètres avant ou après l&#39;exécution du workflow.
 
-Vous pouvez ouvrir les transitions afin de vérifier que les données transmises sont correctes pendant ou après l’exécution du workflow. To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+Vous pouvez ouvrir les transitions afin de vérifier que les données transmises sont correctes pendant ou après l’exécution du workflow. Pour accéder au détail des transitions, vous devez cocher l&#39;option **[!UICONTROL Conserver les résultats intermédiaires]** dans la section **[!UICONTROL Exécution]** des propriétés du workflow.
 
 ![](assets/workflow_overview.png)
 
@@ -65,7 +68,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 
 1. Validez la création de l’activité, dont le tableau de bord s’affiche alors. Voir à ce propos la section [Interface des workflows](../../automating/using/workflow-interface.md).
 
-1. Once the workflow is ready to be configured, you can access additional options by clicking the **[!UICONTROL Edit properties]** button. Vous pouvez, par exemple, définir un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
+1. Une fois le workflow prêt à être configuré, vous pouvez accéder à d’autres options en cliquant sur le bouton **[!UICONTROL Éditer les propriétés]**. Vous pouvez, par exemple, définir un fuseau horaire spécifique à utiliser par défaut dans toutes les activités du workflow. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 
    ![](assets/workflow_properties.png)
 
@@ -109,7 +112,7 @@ Pour construire le diagramme :
 
 Une fois vos activités de workflow reliées, vous pouvez personnaliser les transitions entre elles avec le **libellé** de votre choix. Pour cela, double-cliquez sur la transition pour accéder à ses propriétés.
 
-Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
+De plus, les activités **[!UICONTROL Ciblage]** et **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 **Cas pratiques de workflow :**
 
@@ -123,7 +126,7 @@ Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** 
 Par défaut, les activités ne sont pas définies et ne traiteront pas correctement les données si elles ne sont pas configurées. Chaque activité contient plusieurs onglets permettant de gérer des configurations spécifiques et des options génériques telles que les transitions sortantes, les libellés, etc.
 
 1. Vérifiez que toutes les activités sont correctement reliées entre elles. Certaines activités doivent détecter la structure ou la nature des données entrantes pour proposer les options de configuration adéquates.
-1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
+1. Double-cliquez sur une activité ou sélectionnez-la et cliquez sur l’action contextuelle **[!UICONTROL Editer]** pour ouvrir sa fenêtre de configuration.
 1. Editez le libellé de l’activité.
 1. Définissez toutes les différentes options dont vous avez besoin pour traiter les données. Pour découvrir les options possibles pour chaque activité, reportez-vous à la section spécifique à l’activité dans cette documentation.
 1. Enregistrez l’activité et répétez ces opérations pour chaque activité du workflow.
