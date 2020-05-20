@@ -11,8 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+translation-type: tm+mt
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4688'
+ht-degree: 100%
 
 ---
 
