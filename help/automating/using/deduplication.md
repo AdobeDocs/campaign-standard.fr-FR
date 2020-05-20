@@ -74,7 +74,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
       ![](assets/deduplication_4.png)
 
-1. Si besoin, gérez les [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) de l'activité afin d'accéder à des options avancées sur la population transmise en sortie.
+1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l'activité afin d'accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l'activité et enregistrez le workflow.
 
 ## Exemple 1 : identifier des doublons avant une diffusion {#example-1--identifying-duplicates-before-a-delivery}
