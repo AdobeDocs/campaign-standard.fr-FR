@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -53,10 +53,10 @@ Découvrez les directives générales concernant les diffusions mobiles
   </td>
   <td valign="top">
        <img alt="Assistance" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    <strong>Obtenir l'assistance</strong></a>
+    <div><a href="https://helpx.adobe.com/fr/campaign/kb/ac-support.html">
+    <strong>Obtenir une assistance</strong></a>
     </div>
-    <p><em>Accédez aux questions fréquentes, aux bonnes pratiques, aux ressources d’aide et connectez-vous aux experts</em></p>
+    <p><em>Accédez aux FAQ, aux bonnes pratiques, aux ressources d’aide et entrez en contact avec des experts</em></p>
     <br>
   </td>
 </tr>
@@ -70,5 +70,5 @@ Découvrez les directives générales concernant les diffusions mobiles
 | [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Planification des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
-| [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multisolution](integrating/using/get-started-campaign-integrations.md) |
-| [Commencer avec Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
+| [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
+| [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
