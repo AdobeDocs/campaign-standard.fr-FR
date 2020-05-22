@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 100%
 </tr> 
 </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Le renouvellement du certificat pour les sous-domaines CNAME est publié dans le Panneau de configuration Campaign en mai. For more on this, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 **Améliorations**
 
