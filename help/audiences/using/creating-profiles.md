@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
@@ -26,7 +26,7 @@ Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cib
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
-* importer une liste de profils depuis un fichier, par l&#39;intermédiaire d&#39;un [workflow](../../automating/using/importing-data.md#example--import-workflow-template) ;
+* importer une liste de profils depuis un fichier, par l&#39;intermédiaire d&#39;un [workflow](../../automating/using/creating-import-workflow-templates.md) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/getting-started-with-landing-pages.md) ;
 * créer des profils en masse via l&#39;[API REST](../../api/using/get-started-apis.md) ;
 * synchroniser les profils depuis [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) ;
@@ -71,4 +71,4 @@ Les profils peuvent être également partitionnés en fonction de leurs entités
 **Rubriques connexes :**
 
 * Guide détaillé [A propos des landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr) video
+* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)  video
