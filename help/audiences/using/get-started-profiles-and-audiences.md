@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 <tr>
 <td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">Segmentation et ciblage</a></p></td>
 <td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">Autorisation et consentement</a></p></td>
-<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Conformité à la confidentialité</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Respect de la confidentialité</a></p></td></tr>
 </table>
 
 Les profils client intégrés Campaign vous permettent de suivre chaque interaction avec les clients sur tous les canaux au sein d’une seule vue, ce qui vous permet de diffuser des messages pertinents et personnalisés à vos clients.
@@ -59,7 +62,7 @@ En savoir plus:
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Avant de commencer à envoyer des messages à un contact, vous devez vous assurer d&#39;obtenir leur autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation.
+Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation.
 
 With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
@@ -67,29 +70,29 @@ Providing **unsubscription links** in your messages will enable Profiles to be b
 
 >[!IMPORTANT]
 >
->Vous devez respecter la politique [d&#39;utilisation acceptable de l&#39;](https://www.adobe.com/fr/legal/terms/aup.html)Adobe Campaign.
+>Vous devez respecter la [politique d&#39;utilisation acceptable d’Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
 
 En savoir plus:
 
 * [A propos des inscriptions](../../audiences/using/about-subscriptions.md)
 * [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
-## Conformité à la confidentialité {#privacy}
+## Respect de la confidentialité {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
 Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-Pour en savoir plus dans cet [article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la vie privée et les fonctionnalités que nous offrons pour gérer le droit d&#39;accès, le droit d&#39;être oublié, le consentement, la conservation des données et les rôles d&#39;utilisateur.
+Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la confidentialité et les fonctionnalités que nous offrons pour gérer le droit d&#39;accès, le droit à l’oubli, le consentement, la rétention des données et les rôles utilisateur.
 
 Confidentialité et consentement à Campaign et comment les gérer sont présentés dans [cette section](../../start/using/privacy.md).
 
-Vous trouverez également les meilleures pratiques, afin de vous aider à respecter votre vie privée lors de l&#39;utilisation de notre service.
+Vous y trouverez également les bonnes pratiques les plus efficaces pour garantir la conformité aux obligations légales en utilisant notre service.
 
 ## Autres ressources
 
-* [Utilisation du service Destinations des Audiences](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Utilisation de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Utilisation du service Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Utilisation de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Utilisation de workflows pour importer des profils](../../automating/using/importing-data.md)
+* [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
 * [Vidéos Profils et audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
