@@ -4,9 +4,9 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 92%
 
 ---
@@ -253,9 +253,6 @@ ht-degree: 92%
    + Fonctionnement général d’un workflow {#workflow-general-operation}
       + [Interface des workflows](automating/using/workflow-interface.md)
       + [Construire un workflow](automating/using/building-a-workflow.md)
-      + [Cibler les données](automating/using/targeting-data.md)
-      + [Importer des données](automating/using/importing-data.md)
-      + [Utiliser les données de workflow](automating/using/using-workflow-data.md)
       + [Bonnes pratiques relatives aux workflows](automating/using/best-practices-workflows.md)
    + Exécuter un workflow {#executing-a-workflow}
       + [A propos de l’exécution d’un workflow](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [Liste des fonctions](automating/using/list-of-functions.md)
    + Import et export de données {#importing-and-exporting-data}
       + [A propos de l’import et de l’export de données](automating/using/about-data-import-and-export.md)
+      + [Bonnes pratiques d’import](automating/using/import-best-practices.md)
       + [Importer des données avec des modèles d’import](automating/using/importing-data-with-import-templates.md)
-      + [Définir un modèle d’import](automating/using/defining-import-templates.md)
+      + [Création de modèles de workflow pour importer des données](automating/using/creating-import-workflow-templates.md)
+      + [Gérer des données cryptées](automating/using/managing-encrypted-data.md)
       + [Export des logs](automating/using/exporting-logs.md)
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
