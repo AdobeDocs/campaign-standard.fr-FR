@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+translation-type: tm+mt
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ## Création d&#39;un trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la[documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/Triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/Triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un trigger Adobe Experience Cloud existant.
 
@@ -29,17 +32,17 @@ Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/h
 
 Les étapes de mise en œuvre sont les suivantes :
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez**[!UICONTROL  Plans marketing]** > **[!UICONTROL Messages transactionnels]** >**[!UICONTROL  Triggers Experience Cloud]**.
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Triggers Experience Cloud]**.
 
    ![](assets/remarketing_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer.]**L&#39;assistant de création qui s&#39;affiche contient la liste de tous les Triggers définis dans Adobe Experience Cloud. La colonne**[!UICONTROL  Nombre d&#39;envois Analytics]** indique le nombre d&#39;événements envoyés à Campaign par le trigger Adobe Experience Cloud. Il s&#39;agit d&#39;un mappage des Triggers créés dans l&#39;interface d&#39;Experience Cloud.
+1. Cliquez sur le bouton **[!UICONTROL Créer.]** L&#39;assistant de création qui s&#39;affiche contient la liste de tous les Triggers définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d&#39;envois Analytics]** indique le nombre d&#39;événements envoyés à Campaign par le trigger Adobe Experience Cloud. Il s&#39;agit d&#39;un mappage des Triggers créés dans l&#39;interface d&#39;Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
 1. Sélectionnez le trigger Adobe Experience Cloud que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Configurez les propriétés générales du trigger. A cette étape de l&#39;assistant, indiquez également le canal et la dimension de ciblage à utiliser pour le trigger (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)). Validez ensuite la création du trigger.
-1. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Contenu et enrichissement de l&#39;événement]**pour afficher le contenu de la payload. Cet écran vous permet également d&#39;enrichir les données de l&#39;événement avec les données de profil stockées dans la base de données Adobe Campaign. L&#39;enrichissement s&#39;effectue de la même manière que pour un message transactionnel standard.
+1. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Contenu et enrichissement de l&#39;événement]** pour afficher le contenu de la payload. Cet écran vous permet également d&#39;enrichir les données de l&#39;événement avec les données de profil stockées dans la base de données Adobe Campaign. L&#39;enrichissement s&#39;effectue de la même manière que pour un message transactionnel standard.
 
    ![](assets/remarketing_3.png)
 
@@ -47,15 +50,14 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_4.png)
 
-1. Si un score de propension est défini dans Analytics (voir la [documentation Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/insight/client/c_visitor_propensity.html)), vous pouvez choisir de ne pas envoyer le message si la probabilité que le client revienne prochainement sur le site web est élevée. Le contenu du score et du seuil est disponible dans le contenu de la payload. Vous pouvez ainsi utiliser ces valeurs pour personnaliser le message. Pour utiliser cette option, cochez la case située en bas de l&#39;écran. Les clients ayant une forte probabilité de revenir sur le site prochainement ne recevront pas de message.
-1. Cliquez sur le bouton **[!UICONTROL Publier]**pour lancer la publication de l&#39;événement déclencheur.
-1. Si vous devez apporter une modification à votre schéma de trigger même après la publication de votre événement de trigger, cliquez sur le bouton **[!UICONTROL Mettre à jour le schéma]**pour récupérer les dernières modifications.
+1. Cliquez sur le bouton **[!UICONTROL Publier]** pour lancer la publication de l&#39;événement déclencheur.
+1. Si vous devez apporter une modification à votre schéma de trigger même après la publication de votre événement de trigger, cliquez sur le bouton **[!UICONTROL Mettre à jour le schéma]** pour récupérer les dernières modifications.
 
    Cette action entraîne la dépublication de votre trigger et du message transactionnel. Vous devrez les republier par la suite.
 
    ![](assets/remarketing_11.png)
 
-Le bouton **[!UICONTROL Afficher le trigger dans Experience Cloud]**permet d&#39;afficher la définition du trigger dans Adobe Experience Cloud.
+Le bouton **[!UICONTROL Afficher le trigger dans Experience Cloud]** permet d&#39;afficher la définition du trigger dans Adobe Experience Cloud.
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d&#39;être créé. Voir à ce propos la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
@@ -69,7 +71,7 @@ Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel
 >
 >Si vous dépubliez le modèle, l&#39;événement déclencheur sera automatiquement dépublié.
 
-Lors de l&#39;édition du contenu, vous pouvez ajouter un champ de personnalisation basé sur les informations envoyées par le trigger Analytics. Si vous enrichissez les données de l&#39;événement avec les données de profil Adobe Campaign, vous pouvez personnaliser le message selon ces informations. Pour personnaliser votre message, sélectionnez **[!UICONTROL Evénement transactionnel]** >**[!UICONTROL  Contexte de l&#39;événement]**, puis un champ.
+Lors de l&#39;édition du contenu, vous pouvez ajouter un champ de personnalisation basé sur les informations envoyées par le trigger Analytics. Si vous enrichissez les données de l&#39;événement avec les données de profil Adobe Campaign, vous pouvez personnaliser le message selon ces informations. Pour personnaliser votre message, sélectionnez **[!UICONTROL Evénement transactionnel]** > **[!UICONTROL Contexte de l&#39;événement]**, puis un champ.
 
 ![](assets/remarketing_8.png)
 
