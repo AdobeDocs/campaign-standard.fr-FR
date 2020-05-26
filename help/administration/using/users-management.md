@@ -11,8 +11,11 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '1200'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ Voici les principales tâches qu&#39;ils peuvent effectuer :
 * [Développer de nouvelles fonctionnalités pour améliorer les fonctions d&#39;usine](../../developing/using/data-model-concepts.md) : gérez vos ressources personnalisées et accédez aux outils de diagnostic.
 * [Configurer les paramètres de l&#39;instance](../../administration/using/branding.md) : définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d&#39;URL d&#39;accès aux landing pages, etc.).
 * [Exporter et importer des packages de données](../../automating/using/managing-packages.md) : échangez des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
-* [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d&#39;import](../../automating/using/defining-import-templates.md).
+* [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d&#39;import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
 ### Utilisateurs experts     {#advanced-users}
 
