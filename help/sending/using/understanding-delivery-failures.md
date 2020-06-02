@@ -11,8 +11,11 @@ topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+translation-type: tm+mt
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 86%
 
 ---
 
@@ -56,27 +59,23 @@ Trois types d’erreur sont liés à une diffusion en échec :
 
 Les motifs possibles d’une diffusion en échec sont les suivants :
 
-* **[!UICONTROL Utilisateur inconnu]** (type Hard) : l’adresse n’existe pas. Aucune autre diffusion ne sera envoyée pour ce profil.
-* **[!UICONTROL Adresse en quarantaine]** (type Hard) : l’adresse a été mise en quarantaine.
-* **[!UICONTROL Inatteignable]** (type Soft/Hard) : une erreur s’est produite dans la chaîne de distribution du message (domaine temporairement inatteignable par exemple). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5.
-* **[!UICONTROL Adresse non renseignée]** (type Hard) : l’adresse n’est pas définie.
-* **[!UICONTROL Boîte pleine]** (type Soft) : la boîte de messagerie du destinataire est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours.
-
-   Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré.
-
-* **[!UICONTROL Refusé]** (type Soft/Hard) : l’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5.
-* **[!UICONTROL Doublon]** : l’adresse a déjà été détectée dans la segmentation.
-* **[!UICONTROL Non définie]** (type Soft) : l’adresse est en cours de qualification, car les erreurs n’ont pas encore été incrémentées.
-
-   Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques.
-
-* **[!UICONTROL Erreur ignorée]** : l’adresse est en whiteliste et un email lui sera envoyé dans tous les cas.
-* **[!UICONTROL Adresse en blackliste]** : l’adresse était en blackliste au moment de l’envoi.
-* **[!UICONTROL Compte désactivé]** : (type Soft/Hard) : lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine.
-* **[!UICONTROL Non connecté]** : le téléphone portable du profil est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
-* **[!UICONTROL Domaine invalide]** (type Soft) : le domaine de l’adresse email est erroné ou n’existe plus. Ce profil sera ciblé de nouveau jusqu’à ce que le nombre d’erreurs atteigne 5. Ensuite, l’enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée.
-* **[!UICONTROL Texte trop long]** : le nombre de caractères du SMS dépasse la limite autorisée. Voir à ce propos la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
-* **[!UICONTROL Caractère non supporté par l’encodage]** : le SMS contient un ou plusieurs caractères qui ne sont pas supportés par l’encodage. Voir à ce propos la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard).
+| Libellé de l&#39;erreur | Type d&#39;erreur | Description |
+---------|----------|---------
+| **[!UICONTROL Utilisateur inconnu]** | Hard | L&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil. |
+| **[!UICONTROL Adresse en quarantaine]** | Hard | L&#39;adresse a été mise en quarantaine. |
+| **[!UICONTROL Inatteignable]** | Soft/Hard | Une erreur s&#39;est produite dans la chaîne de diffusions de messages (par exemple, domaine temporairement inatteignable). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
+| **[!UICONTROL Adresse vide]** | Hard | L&#39;adresse n&#39;est pas définie. |
+| **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter plus de messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
+| **[!UICONTROL Refusés]** | Soft/Hard | L&#39;adresse a été placée en quarantaine en raison d&#39;un commentaire de sécurité en tant que rapport de spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
+| **[!UICONTROL Doublon]** | Ignoré | L&#39;adresse a déjà été détectée dans la segmentation. |
+| **[!UICONTROL Non définie]** | Soft | l&#39;adresse est en réserve parce que les erreurs n&#39;ont pas encore été incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
+| **[!UICONTROL Erreur ignorée]** | Ignoré | L&#39;adresse figure sur la liste blanche et un courriel lui sera envoyé en tout cas. |
+| **[!UICONTROL Adresse en blackliste]** | Hard | l&#39;adresse était blacklistée au moment de l&#39;envoi. |
+| **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le fournisseur d’accès à Internet (IAP) détecte une longue période d’inactivité, il peut fermer le compte de l’utilisateur : Les diffusions à l&#39;adresse de l&#39;utilisateur seront alors impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
+| **[!UICONTROL Non connecté]** | Ignoré | Le téléphone mobile du profil est désactivé ou n&#39;est pas connecté au réseau lors de l&#39;envoi du message. |
+| **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l&#39;adresse email est erroné ou n&#39;existe plus. Ce profil sera ciblé de nouveau jusqu&#39;à ce que le nombre d&#39;erreurs atteigne 5. Une fois ce chiffre atteint, l&#39;enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
+| **[!UICONTROL Texte trop long]** | Ignoré | Le nombre de caractères du message SMS dépasse la limite. Voir à ce propos la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
+| **[!UICONTROL Caractère non pris en charge par le codage]** | Ignoré | Le message SMS contient un ou plusieurs caractères qui ne sont pas pris en charge par le codage. Voir à ce propos la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
 ## Reprises après une diffusion temporairement en échec    {#retries-after-a-delivery-temporary-failure}
 
