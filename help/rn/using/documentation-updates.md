@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5837'
-ht-degree: 97%
+source-wordcount: '5870'
+ht-degree: 96%
 
 ---
 
@@ -24,13 +24,17 @@ ht-degree: 97%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
+## Mises à jour de la documentation - juin 2020 {#doc-updates-june-2020}
+
+Campaign Standard - L&#39;intégration de Microsoft Dynamics 365 n&#39;est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera disponible à l&#39;avenir. Pour plus d&#39;informations, veuillez contacter votre représentant commercial Adobe.
+
 ## Mises à jour de la documentation - mai 2020 {#doc-updates-may-2020}
 
 La page d&#39;aperçu de Campaign Standard a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
 
 La section Paramètres du canal de courriel a été clarifiée avec des informations supplémentaires sur les champs de masques autorisés et l&#39;ID de rapports de diffusion. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
-La section Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform est désormais disponible dans la documentation de base avec des informations supplémentaires sur le processus technique de synchronisation des kits AEPSDK d’application mobile depuis le lancement. [En savoir plus](../../administration/using/configuring-a-mobile-application.md)
+La section Configuration d’une application mobile à l’aide des kits SDK Adobe Experience Platform est désormais disponible dans la documentation de base avec des informations supplémentaires sur le processus technique de synchronisation des kits AEPSDK d’application mobile à partir du lancement. [En savoir plus](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - Mai 2020      {#release-20-3---may-2020}
 
