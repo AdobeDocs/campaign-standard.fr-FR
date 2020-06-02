@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5870'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 ## Mises à jour de la documentation - juin 2020 {#doc-updates-june-2020}
 
-Campaign Standard - L&#39;intégration de Microsoft Dynamics 365 n&#39;est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera disponible à l&#39;avenir. Pour plus d&#39;informations, veuillez contacter votre représentant commercial Adobe.
+Campaign Standard - L&#39;intégration de Microsoft Dynamics 365 n&#39;est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera disponible à l&#39;avenir. Les pages d&#39;aide associées ont été supprimées. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Mises à jour de la documentation - mai 2020 {#doc-updates-may-2020}
 
