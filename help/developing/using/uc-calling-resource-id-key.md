@@ -2,10 +2,10 @@
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Pour appeler un filtre client, utilisez le préfixe &quot;par&quot; suivi du nom du filtre défini lors de la configuration de la définition du filtre à l&#39;[étape 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>To call a custom filter, use the &quot;by&quot; prefix followed by the filter name defined when configuring the filter definition in [step 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie &quot;printemps&quot; avec l&#39;identifiant CRM &quot;123456&quot; est la suivante :
 
