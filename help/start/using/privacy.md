@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ Adobe Campaign est un puissant outil de collecte et de traitement de très grand
 
 * Faire toujours un usage responsable et éthique des renseignements personnels.
 
-* Ne pas envoyer de messages électroniques non sollicités, de notifications Push et de messages SMS (&quot;spam&quot;). Adobe croit fermement aux principes de permission marketing qui favorisent la valeur et la fidélité de la clientèle tout au long de sa vie. Par conséquent, il interdit strictement l’utilisation de Adobe Campaign pour envoyer des messages non sollicités.
+* Ne pas envoyer de messages électroniques non sollicités, de notifications Push et de messages SMS (&quot;spam&quot;). Adobe croit fermement aux principes de la permission marketing pour encourager la valeur et la fidélité de la clientèle tout au long de sa vie, et interdit donc strictement l&#39;utilisation de Adobe Campaign pour envoyer des messages non sollicités.
 
 ### Règles relatives à la confidentialité {#privacy-regulations}
 
@@ -43,7 +46,7 @@ Pour gérer correctement la confidentialité et les données personnelles, trava
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
-Adobe Campaign fait partie des solutions Adobe Experience Cloud. La manière dont la confidentialité est gérée dans Campaign obéit aux principes généraux d’Adobe Experience Cloud, tels que :
+Adobe Campaign fait partie des solutions Adobe Experience Cloud. La manière dont la confidentialité est gérée dans Campaign obéit aux principes généraux de Adobe Experience Cloud, tels que :
 
 * **Quelles informations sont collectées lors de l’utilisation d’Adobe Experience Cloud ?**
 
@@ -51,7 +54,7 @@ Adobe Campaign fait partie des solutions Adobe Experience Cloud. La manière don
 
    >[!NOTE]
    >
-   >Comme pour tous les produits Adobe, Campaign collecte des informations sur les utilisateurs d’applications et de sites Web. Pour plus d’informations à ce sujet, voir la Politique [de confidentialité](https://www.adobe.com/privacy/policy.html)Adobe.
+   >Comme pour tous les produits Adobe, Campaign collecte des informations sur les utilisateurs d’applications et de sites Web. Pour plus d’informations à ce sujet, consultez la Politique [de confidentialité](https://www.adobe.com/privacy/policy.html)Adobe.
 
 * **Utilisation d’Adobe Experience Cloud pour la collecte d’informations**
 
@@ -66,9 +69,9 @@ Adobe Campaign fait partie des solutions Adobe Experience Cloud. La manière don
    * Comment les utilisateurs peuvent-ils définir leurs préférences pour la collecte ou l’utilisation de leurs informations en relation avec Adobe Experience Cloud ?
    >[!NOTE]
    >
-   >En ce qui concerne tous les produits Adobe, les utilisateurs de Campaign peuvent désactiver le partage des informations collectées à leur sujet par le biais d’applications et de sites Web. Pour en savoir plus sur ce sujet, consultez la FAQ [sur l’utilisation d’](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html)Adobe Experience Cloud.
+   >En ce qui concerne tous les produits Adobe, les utilisateurs de Campaign peuvent exclure le partage des informations collectées à leur sujet par le biais d’applications et de sites Web. Pour plus d’informations à ce sujet, consultez la FAQ [sur](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html)l’utilisation deAdobe Experience Cloud.
 
-Pour plus d’informations sur la confidentialité d’Adobe Experience Cloud, voir [cette page](https://www.adobe.com/privacy/marketing-cloud.html).
+Pour plus d’informations sur la confidentialité de Adobe Experience Cloud, voir [cette page](https://www.adobe.com/privacy/marketing-cloud.html).
 
 ## Données personnelles et personnes {#personal-data}
 
@@ -83,13 +86,13 @@ Les [principales législations](#privacy-regulations) se réfèrent aux différe
 
 Par conséquent, en tant que société de collecte et de partage de données personnelles, vous êtes le contrôleur de données, vos clients sont les sujets de données et Adobe Campaign agit comme un processeur de données lors du traitement de leurs données personnelles tel que vous le souhaitez. Notez qu’en tant que contrôleur de données, il vous appartient de gérer les relations avec les objets de données, par exemple lors de la gestion des demandes [de](#privacy-requests)confidentialité.
 
-Lors de l’intégration de Campaign à d’autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d’un système à un autre, telles que le service [Destinations des](../../audiences/using/aep-about-audience-destinations-service.md)Audiences, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou le service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)principal People, ou avec d’autres solutions telles que [Microsoft Dynamics 365, vous devez accorder un soin supplémentaire à la protection des données personnelles.](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+Lors de l’intégration de Campaign à d’autres solutions Experience Cloud dans lesquelles des audiences peuvent être transférées d’un système à un autre, comme le service [Destinations](../../audiences/using/aep-about-audience-destinations-service.md)d’Audience, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou le service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)principal People, ou avec d’autres solutions telles que [Microsoft Dynamics 365, vous devez veiller à la protection des données personnelles.](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Acquisition de données {#data-acquisition}
 
 Adobe Campaign vous permet de collecter des données, y compris des informations personnelles et sensibles. Il est donc essentiel que vous receviez et surveilliez le consentement de vos destinataires.
 
-* Demandez toujours aux destinataires d&#39;accepter de recevoir des communications. Pour ce faire, continuez à honorer les demandes d’exclusion le plus rapidement possible et vérifiez le consentement par le biais d’un processus d’inclusion doublon. Pour plus d’informations à ce sujet, reportez-vous à la section [Gestion des options d’inclusion et d’exclusion dans Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) et [Configuration d’un processus](../../channels/using/setting-up-a-double-opt-in-process.md)d’inclusion doublon.
+* Demandez toujours aux destinataires d&#39;accepter de recevoir des communications. Pour ce faire, continuez à honorer les demandes d’exclusion le plus rapidement possible et vérifiez le consentement par le biais d’un processus d’inclusion doublon. Pour plus d’informations à ce sujet, reportez-vous à la section [Gestion des inclusions et des exclusions dans Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) et [Configuration d’un processus](../../channels/using/setting-up-a-double-opt-in-process.md)d’inclusion doublon.
 * N&#39;importez pas de listes frauduleuses et utilisez des pièges pour vérifier que votre fichier client n&#39;est pas utilisé frauduleusement. Pour plus d’informations à ce sujet, voir [Utilisation des pièges](../../sending/using/using-traps.md).
 * Grâce à la gestion des droits et du consentement, vous pouvez suivre les préférences de vos destinataires et gérer qui au sein de votre organisation peut accéder aux données qui vous intéressent. Voir à ce propos [cette section](#consent).
 * Faciliter et gérer les demandes de confidentialité de vos destinataires. Voir à ce propos [cette section](#privacy-requests).
@@ -111,7 +114,7 @@ Les principales fonctionnalités de confidentialité de Campaign et un exemple d
 À l&#39;origine, Adobe Campaign offre des fonctions importantes qui sont essentielles à la vie privée :
 
 * **Gestion des** consentements : Grâce au processus de gestion des abonnements, vous pouvez gérer vos préférences de destinataires et déterminer quels destinataires ont choisi le type d&#39;abonnement. Pour en savoir plus sur ce sujet, voir [Abonnements](../../audiences/using/about-subscriptions.md) et [Landings page](../../channels/using/getting-started-with-landing-pages.md).
-* **Conservation** des données : Toutes les tables de journalisation standard intégrées comportent des périodes de rétention prédéfinies, limitant généralement leur enregistrement de données à 6 mois ou moins. Des périodes de rétention supplémentaires peuvent être définies avec des workflows. Pour plus d’informations à ce sujet, contactez les consultants ou les administrateurs techniques d’Adobe.
+* **Conservation** des données : Toutes les tables de journalisation standard intégrées comportent des périodes de rétention prédéfinies, limitant généralement leur enregistrement de données à 6 mois ou moins. Des périodes de rétention supplémentaires peuvent être définies avec des workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
 * **Rights Management**: Adobe Campaign vous permet de gérer les droits attribués aux différents opérateurs Campaign par le biais de différents rôles prédéfinis ou personnalisés. Cela vous permet de gérer qui dans votre société peut accéder à différents types de données, les modifier ou les exporter. For more on this, see [About access management](../../administration/using/about-access-management.md).
 
 Pour en savoir plus sur ces fonctionnalités et sur la façon de les gérer en Adobe Campaign, consultez [cette page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
@@ -120,7 +123,7 @@ Pour en savoir plus sur ces fonctionnalités et sur la façon de les gérer en A
 
 Adobe Campaign fournit des fonctionnalités supplémentaires pour vous aider à vous préparer en tant que contrôleur de données pour certaines demandes de confidentialité :
 
-* Le **droit d&#39;accès** est le droit pour la personne concernée d&#39;obtenir de la part du contrôleur de données la confirmation que des données à caractère personnel les concernant sont traitées, où et pourquoi.
+* The **Right to Access** is the right for the Data Subject to obtain from the Data Controller confirmation as to whether or not personal data concerning them is being processed, where and why.
 
 * Le **droit à l&#39;oubli** (demande de suppression) autorise le contrôleur de données à effacer ses données personnelles.
 
