@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 26%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Début de travail avec le concepteur de courrier électronique et de création de modèles et de fragments réutilisables à partir de votre code HTML de courrier électronique créé dans l’éditeur hérité.
 
->[!IMPORTANT]
->
->Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
-
 Cette utilisation vous permet de créer un modèle de concepteur de courrier électronique à l’aide d’un courrier électronique HTML et de le diviser en composants HTML dans le concepteur de courrier électronique.
 
 >[!NOTE]
 >
 >Tout comme le mode de compatibilité, un composant HTML est modifiable avec des options limitées : vous ne pouvez effectuer qu&#39;une édition statique.
+
+>[!IMPORTANT]
+>
+>Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
 
 ## Préparation du contenu de votre courrier électronique
 
@@ -41,11 +44,11 @@ Cette utilisation vous permet de créer un modèle de concepteur de courrier él
 
 1. Open the **[!UICONTROL Email Designer]**  to create an empty email content.
 1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
-1. Ajouter autant de composants de structure que vous en avez. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez autant de composants de structure que vous en avez. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Ajouter contenu HTML
+## Ajouter du contenu HTML
 
-1. Ajouter un composant HTML à chaque composant de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant HTML à chaque composant de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiez-collez votre code HTML dans chaque composant.
 
 ## Gérer le style de votre courrier électronique {#manage-the-style-of-your-email}
@@ -80,7 +83,7 @@ Cette utilisation vous permet de créer un modèle de concepteur de courrier él
 
 ## Utilisation
 
-Essayons de convertir ce courrier électronique, créé dans l’éditeur hérité, en **[!UICONTROL Email Designer]** modèle.
+Essayons de convertir ce courrier électronique, créé dans l’éditeur hérité, en modèle **[!UICONTROL de concepteur]** de courrier électronique.
 
 ## Identifier la section de votre courrier électronique
 
@@ -92,11 +95,11 @@ Pour identifier l’élément qui est la section du code HTML, vous pouvez la s�
 
 ![](assets/breadcrumbs.png)
 
-Pour afficher la version HTML du courrier électronique, cliquez sur **[!UICONTROL Show source]**.
+Pour afficher la version HTML du courrier électronique, cliquez sur **[!UICONTROL Afficher la source]**.
 
 ### Créer un modèle de courrier électronique et sa structure
 
-1. Effectuez un glisser-déposer **[!UICONTROL Structure components]** reflétant la disposition de notre courrier électronique.
+1. Faites glisser et déposez les composants **** Structure reflétant la disposition de notre courrier électronique.
 
 1. Répétez cette opération autant de fois que nécessaire. Nous devons créer 11 composants structuraux.
 
@@ -104,17 +107,17 @@ Pour afficher la version HTML du courrier électronique, cliquez sur **[!UICONTR
 
 ### Insertion de composants de contenu HTML
 
-1. Insérez un **[!UICONTROL HTML component]** dans chaque **[!UICONTROL Structure component]** .
+1. Insérez un composant **** HTML dans chaque composant **** Structure.
 
    ![](assets/html-components.png)
 
-1. Pour chaque section, cliquez sur **[!UICONTROL Show source code]** .
+1. Pour chaque section, cliquez sur **[!UICONTROL Afficher le code]** source .
 
    ![](assets/show-source-code.png)
 
 1. Insérez la section HTML.
 
-1. Clics **[!UICONTROL Save]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Vous pouvez désormais vérifier le rendu de votre courrier électronique.
 
