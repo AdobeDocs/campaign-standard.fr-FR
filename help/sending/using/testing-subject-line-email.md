@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+translation-type: tm+mt
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1115'
+ht-degree: 98%
 
 ---
 
@@ -80,14 +83,14 @@ Par défaut, aucun modèle n’est exécuté sur le serveur Adobe Campaign. Deux
 >Votre instance ne peut contenir qu’un seul modèle entraîné.
 
 Pour former un modèle local :
-1. Téléchargez le fichier subjectLineTraining.xml depuis [cet emplacement](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) et utilisez la fonctionnalité d’[import de package](../../automating/using/managing-packages.md) pour le charger dans votre instance Adobe Campaign. Un workflow technique entraînera automatiquement le modèle.
+1. Téléchargez le fichier subjectLineTraining.xml depuis [cet emplacement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et utilisez la fonctionnalité d’[import de package](../../automating/using/managing-packages.md) pour le charger dans votre instance Adobe Campaign. Un workflow technique entraînera automatiquement le modèle.
 1. Lorsque vous entraînez un modèle pour la première fois, un administrateur peut forcer le démarrage du **[!UICONTROL Workflow d’apprentissage de l’objet]** depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l’application]** > **[!UICONTROL Workflows]**.
 1. Une fois un modèle téléchargé et entraîné, la fonctionnalité est automatiquement activée. Une nouvelle option apparaît alors en regard de l’objet de vos messages.
 1. Le workflow technique continue ensuite l’apprentissage du modèle toutes les semaines.
 
 ### Import de modèles pré-entraînés {#pre-trained-models}
 
-Pour accéder à ces modèles, cliquez [ici](https://support.neolane.net/webApp/extranetLogin) et accédez au **[!UICONTROL Centre de téléchargement]**. Utilisez la fonctionnalité d’[import de package](../../automating/using/managing-packages.md) pour télécharger un modèle vers votre instance Adobe Campaign.
+Pour accéder à ces modèles, cliquez [ici](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Utilisez la fonctionnalité d’[import de package](../../automating/using/managing-packages.md) pour télécharger un modèle vers votre instance Adobe Campaign.
 
 Les modèles disponibles sont les suivants :
 
