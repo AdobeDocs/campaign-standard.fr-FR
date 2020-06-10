@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1612'
 ht-degree: 98%
 
 ---
@@ -59,7 +59,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP    {#sftp-external-account}
+## Compte externe SFTP     {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
@@ -69,7 +69,7 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe    {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe     {#adobe-hosted-sftp-server-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -86,7 +86,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 * Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
 * Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-Notez également que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être whitelistées sur l’instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://support.neolane.net).
+Notez également que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être whitelistées sur l’instance Campaign. Le whitelistage des adresses IP et la clé publique à utiliser pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -134,7 +134,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 * Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple, **http://aem.domaine.com:4502**.
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
-## Compte externe Google reCAPTCHA    {#google-recaptcha-external-account}
+## Compte externe Google reCAPTCHA     {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
