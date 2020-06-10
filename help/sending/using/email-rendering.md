@@ -11,8 +11,11 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](../../channels/using/creating-an-email.md)   
+* [Créer un email](../../channels/using/creating-an-email.md)
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
@@ -74,7 +77,7 @@ Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté d
 
 >[!NOTE]
 >
->Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité. Si vous êtes un client Litmus, vous pouvez utiliser votre compte Litmus pour activer et utiliser l&#39;option Rendu des emails dans Adobe Campaign. Pour plus d&#39;informations, contactez votre gestionnaire de compte Adobe.
+>Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité.
 
 La synthèse du rapport présente le nombre de messages reçus, indésirables, non reçus ou en attente de réception.
 
