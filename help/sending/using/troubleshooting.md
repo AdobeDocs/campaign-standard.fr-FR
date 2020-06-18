@@ -12,8 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 56%
 
 ---
 
@@ -33,40 +36,40 @@ Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut q
 
 Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d&#39;Adobe Campaign.
 
-## Liste noire vs quarantaine{#blacklisting-versus-quarantine}
+## Liste bloquée contre quarantaine {#block-list-versus-quarantine}
 
-* **Quelle est la différence entre une adresse email blacklistée et en quarantaine ?**
+* **Quelle est la différence entre une adresse électronique sur une liste bloquée et une adresse électronique mise en quarantaine ?**
 
-   * Le statut **[!UICONTROL En blackliste]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
+   * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
 
    * L&#39;application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
-   [](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+   For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
-   Il existent dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en blackliste, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
+   Voici 10 raisons possibles : non défini, utilisateur inconnu, domaine invalide, adresse à la liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte aux lettres pleine, non connectée.
 
    Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Retirer de la liste noire {#unblacklisting}
+## Suppression de la liste bloquée {#removing-from-block-list}
 
-* **Un de mes destinataires est passé par erreur en statut &quot;En blackliste&quot;. Que puis-je faire lui envoyer à nouveau des emails ?**
+* **Un de mes destinataires a été ajouté à la liste bloquée par erreur. Comment puis-je les supprimer de la liste bloquée afin de pouvoir début de leur envoyer à nouveau des messages ?**
 
    * Accédez à **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
    * Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
    * Sauvegardez l&#39;enregistrement.
 
-* **Comment puis-je savoir si l&#39;une de mes IP est backlistée ? Comment débloquer mon ou mes IP ?**
+* **Comment puis-je savoir si une de mes adresses IP est en liste bloquée ? Comment puis-je supprimer mes adresses IP d’une liste bloquée ?**
 
-   Pour vérifier si votre adresse IP est blacklistée, vous pouvez consulter l&#39;un des sites web ci-dessous :
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
-   En général, la vérification d&#39;adresse IP renvoie une liste contenant les détails du blacklistage et le nom du site web qui a blacklisté l&#39;adresse IP.
+   Pour vérifier si votre adresse IP se trouve sur une liste bloquée, vous pouvez utiliser divers sites Web pour la vérifier, tels que :
+   * [Boîte à outils MX](https://mxtoolbox.com/)
+   * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
+
+   En règle générale, le résultat de la vérification de l’adresse IP renvoie une liste contenant les détails de la liste bloquée et également le nom du site Web qui a bloqué l’adresse IP.
 
    En cliquant sur le lien correspondant, accédez aux détails du site web.
 
-   Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l&#39;a blacklistée.
+   Ensuite, vous pouvez demander que votre site Web soit radié du site Web qui a ajouté l’adresse IP à sa liste bloquée.
 
    >[!NOTE]
    >
