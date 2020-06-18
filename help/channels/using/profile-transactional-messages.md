@@ -11,8 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 Vous avez la possibilité d&#39;envoyer des messages transactionnels selon les profils marketing des utilisateurs, ce qui vous permet de réaliser les actions suivantes :
 
-* appliquer des règles de typologie marketing telles que **[!UICONTROL Adresse en blackliste]** ou des [règles de fatigue](../../sending/using/fatigue-rules.md) ;
+* Appliquez des règles de typologie marketing telles que **[!UICONTROL Adresse en liste bloquée]** ou Règles [de](../../sending/using/fatigue-rules.md)fatigue.
 * inclure le lien de désinscription dans les messages ;
 * ajouter les messages transactionnels au reporting de diffusion globale ;
 * utiliser les messages transactionnels dans le parcours client.
@@ -71,11 +74,11 @@ Une fois le message publié et l&#39;intégration à un site effectuée, vous po
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Logs d&#39;exclusion]** pour visualiser les destinataires qui ont été exclus de la cible du message, par exemple les adresses en blackliste.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Pour un profil qui s&#39;est désinscrit, la règle de typologie **[!UICONTROL Adresse en blackliste]** a exclu le destinataire correspondant.
+For any profile that has opted out, the **[!UICONTROL Address on block list]** typology rule excluded the corresponding recipient.
 
 Cette règle fait partie d&#39;une typologie spécifique qui s&#39;applique à tous les messages transactionnels qui reposent sur la table **[!UICONTROL Profile]**.
 
