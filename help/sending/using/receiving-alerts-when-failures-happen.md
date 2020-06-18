@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2293'
-ht-degree: 100%
+source-wordcount: '2298'
+ht-degree: 99%
 
 ---
 
@@ -240,6 +240,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * une connexion arrivée à expiration entre le serveur de diffusion Adobe Campaign et le serveur de réception ;
    * un problème de délivrabilité ;
    * un workflow en erreur.
+
    Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Voir à ce propos la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
 
 * **[!UICONTROL Diffusions avec préparation en échec]** : une erreur peut se produire lors de la préparation de la diffusion dans les cas suivants :
@@ -248,20 +249,23 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * Les champs de personnalisation contiennent une syntaxe incorrecte.
    * La cible est absente.
    * La diffusion dépasse la taille limite.
+
    Voir à ce propos la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
 
 * Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs soft incorrect]** peuvent être les suivantes :
 
    * Le serveur du destinataire est en panne.
    * La boîte de messagerie du destinataire est pleine.
+
    Pour plus d&#39;informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
    Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs hard incorrect]** peuvent être les suivantes :
 
-   * Le destinataire est blacklisté, ce qui signifie qu&#39;il ne souhaite plus être contacté.
+   * Le destinataire est sur la liste bloquée, ce qui signifie qu&#39;il ne veut plus être contacté.
    * L&#39;adresse email du destinataire n&#39;existe pas.
    * Le domaine du destinataire n&#39;existe pas.
    * Le serveur du destinataire bloque la diffusion.
+
    Pour éviter les soft et hard bounces, suivez les bonnes pratiques suivantes :
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
@@ -280,5 +284,5 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
 * [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
-* [Gestion du blacklistage dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
