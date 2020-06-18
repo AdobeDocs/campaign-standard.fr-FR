@@ -12,8 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 95%
 
 ---
 
@@ -39,6 +42,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
 
    * **[!UICONTROL Envoyer un push aux profils Campaign]** : utilisez ce modèle pour cibler les profils CRM Adobe Campaign qui se sont abonnés à votre application mobile et ont choisi de recevoir des notifications push. Vous pouvez insérer des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), tels que le prénom du destinataire, dans votre notification push.
    * **[!UICONTROL Envoyer un push aux abonnés de l&#39;application]** : utilisez ce modèle pour envoyer une notification push à tous les utilisateurs anonymes ou connus qui ont accepté de recevoir des notifications en provenance de vos applications. Vous pouvez personnaliser ces messages avec les données collectées à partir de votre application mobile.
+
    Vous pouvez également sélectionner des modèles multilingues. Pour plus d&#39;informations, consultez la section [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md).
 
    Pour plus d&#39;informations sur les modèles, reportez-vous à la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
@@ -98,7 +102,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
 1. Dans l&#39;onglet **[!UICONTROL Exclus]**, vous trouverez la liste de tous les messages exclus de la cible envoyés, ainsi que la raison de cette exclusion.
 
-   Ici, nous pouvons constater que l&#39;un de nos abonnés aux applications mobiles a été exclu parce que l&#39;adresse était blacklistée, et que les autres abonnés l&#39;ont été parce que le profil était un doublon.
+   Ici, nous pouvons voir qu&#39;un de nos abonnés d&#39;applications mobiles a été exclu parce que l&#39;adresse a été ajoutée à la liste bloquée et les autres abonnés parce que le profil était un duplicata.
 
    ![](assets/push_send_5.png)
 
@@ -113,7 +117,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_4.png)
 
-1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera alors blacklisté des diffusions ultérieures.
+1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir d&#39;autres diffusions.
 
    >[!NOTE]
    >
