@@ -11,8 +11,11 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1239'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +32,7 @@ Le principe consiste à envoyer un email pour confirmer l’accord du visiteur a
 
 Pour mettre cela en place, vous devez :
 
-1. Créer et publier une landing page qui permettra aux visiteurs de s&#39;inscrire et de s&#39;abonner. Cette landing page sera disponible à partir du site web. Les visiteurs qui remplissent cette landing page et la valident seront stockés dans la base de données, mais blacklistés, de façon à ce qu&#39;ils ne reçoivent aucune communication avant validation finale (voir [Gestion du blacklistage dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Créer et publier une landing page qui permettra aux visiteurs de s&#39;inscrire et de s&#39;abonner. Cette landing page sera disponible à partir du site web. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Créer et envoyer automatiquement l&#39;email d&#39;opt-in avec un lien de confirmation. Cet email ciblera la population qui a validé la landing page. Il sera basé sur un modèle d&#39;email qui permet de cibler les profils Opt-out.
 1. Rediriger les visiteurs vers une landing page de confirmation. Cette dernière landing page comprendra un bouton de confirmation sur lequel les visiteurs devront cliquer. Vous pouvez concevoir un email de bienvenue à envoyer au moment de la confirmation et ajouter, par exemple, une offre spéciale destinée aux nouveaux abonnés.
 
@@ -51,13 +54,13 @@ Pour créer et configurer cette landing page, vous devez :
 
 1. Dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/blackList
+   /context/profil/liste bloquée
 
    Définissez la valeur sur **faux** et cliquez sur **[!UICONTROL Ajouter]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Ce contexte retire le champ de blackliste pour permettre l&#39;envoi d&#39;emails. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d&#39;empêcher l&#39;envoi d&#39;emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d&#39;acquisition](#step-3--create-the-acquisition-landing-page).
+   Ce contexte supprime le champ &quot;En liste bloquée&quot; afin de pouvoir envoyer des courriers électroniques. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d&#39;empêcher l&#39;envoi d&#39;emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d&#39;acquisition](#step-3--create-the-acquisition-landing-page).
 
 1. Personnalisez le contenu de la landing page : vous pouvez afficher les données personnalisées et modifier le libellé du bouton de confirmation, par exemple en « Cliquez ici pour confirmer votre inscription ! ».
 
@@ -98,12 +101,12 @@ L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;e
 
 ### Création d&#39;une typologie {#create-the-typology-rule}
 
-Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) spécifique, en dupliquant une règle d’usine. Cette typologie vous permettra d&#39;envoyer des messages aux profils qui n&#39;ont pas encore confirmé leur accord et sont encore blacklistés. Par défaut, les typologies excluent les profiles Opt-out (c&#39;est-à-dire blacklistés). Pour créer cette de typologie, procédez comme suit :
+Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) spécifique, en dupliquant une règle d’usine. La typologie permettra d&#39;envoyer des messages aux profils qui n&#39;ont pas encore confirmé leur accord et qui sont toujours en liste bloquée. Par défaut, les typologies excluent les profils d’exclusion (c’est-à-dire sur la liste bloquée). Pour créer cette de typologie, procédez comme suit :
 
 1. Depuis le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** et cliquez sur **[!UICONTROL Typologies]**.
 1. Dupliquez la typologie d&#39;usine **[!UICONTROL Message transactionnel sur le profil (mcTypologyProfile)]**.
 1. Après confirmation de la duplication, éditez la nouvelle typologie et saisissez le libellé **TYPOLOGIE_PROFIL**.
-1. Supprimez la règle des **adresses blacklistées**.
+1. Supprimez la règle **Adresse sur la liste bloquée** .
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Cette typologie peut maintenant être associée à l&#39;email de confirmation.
@@ -130,11 +133,11 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/blackList
+   /context/profil/liste bloquée
 
    puis définissez la valeur sur **vrai**.
 
-   Cela est obligatoire pour forcer le blacklistage et éviter d&#39;envoyer des messages aux visiteurs qui n&#39;ont pas confirmé qu&#39;ils donnaient leur accord. La validation de la landing page CONFIRMATION définira ce champ sur **faux** après confirmation. Voir à ce propos [Etape 1 : créer la landing page de confirmation](#step-1--create-the-confirmation-landing-page).
+   Ceci est obligatoire pour forcer l&#39;ajout à la liste bloquée et éviter d&#39;envoyer des messages aux visiteurs qui n&#39;ont pas confirmé leur accord. La validation de la landing page CONFIRMATION définira ce champ sur **faux** après confirmation. Voir à ce propos [Etape 1 : créer la landing page de confirmation](#step-1--create-the-confirmation-landing-page).
 
 1. Dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Actions spécifiques]**, sélectionnez l&#39;option **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]**.
 1. Dans la liste déroulante associée, sélectionnez le modèle de message transactionnel **CONFIRMER** que vous avez créé.
