@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 70%
+source-wordcount: '609'
+ht-degree: 68%
 
 ---
 
@@ -66,7 +66,7 @@ Avant de commencer à envoyer des messages à un contact, vous devez obtenir son
 
 With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
 
-Providing **unsubscription links** in your messages will enable Profiles to be blacklisted, when necessary, and therefore to improve your platform deliverability. Pour en savoir plus sur le blacklistage, consultez [Les processus d&#39;inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Providing **unsubscription links** in your messages will enable Profiles to be added to the block list, when necessary, and therefore to improve your platform deliverability. For more on block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
