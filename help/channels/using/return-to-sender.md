@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l&#39;expéditeur sont pris en charge. Les adresses postales correspondantes peuvent être ainsi exclues des communications futures. Vous pourrez également être averti si une adresse est incorrecte, interagir avec le client à travers d&#39;autres canaux ou l&#39;inciter à mettre à jour son adresse postale.
 
-Par exemple, un contact a déménagé sans vous indiquer sa nouvelle adresse. L&#39;opérateur récupère la liste des adresses erronées et l&#39;envoie à Adobe Campaign qui blackliste automatiquement ces adresses.
+Par exemple, un contact a déménagé sans vous indiquer sa nouvelle adresse. Le fournisseur récupère la liste d&#39;adresses erronées et envoie ces informations à l&#39;Adobe Campaign, ce qui ajoute automatiquement à la liste bloquée les adresses erronées.
 
 Pour permettre cette fonctionnalité, le modèle de diffusion courrier par défaut inclut l&#39;identifiant du log de diffusion au sein du contenu. Adobe Campaign peut ainsi synchroniser le profil et les données de diffusion avec les informations renvoyées par l&#39;opérateur.
 
@@ -36,7 +36,7 @@ Un modèle d&#39;import est disponible sous **[!UICONTROL Adobe Campaign > Res
 
 Une fois l&#39;import effectué, Adobe Campaign réalise automatiquement les actions suivantes :
 
-* Les adresses incorrectes sont blacklistées au niveau des profils.
+* Les adresses incorrectes sont ajoutées à la liste bloquée au niveau du profil
 * Les principaux indicateurs de diffusion (KPI) sont mis à jour.
 * Les logs de diffusion sont mis à jour.
 
