@@ -12,10 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '4688'
-ht-degree: 100%
+source-wordcount: '4696'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ _Notifications push_
 _Rapports_
 
 * Correction d&#39;une erreur qui empêchait l&#39;affichage des pourcentages de hot clicks dans le contenu de l&#39;email.
-* Correction d&#39;une erreur en raison de laquelle la mesure de blacklistage était comptabilisée en tant que hard bounce au lieu de bounce.
+* Correction d’un problème lié à la mesure de liste bloquée qui était comptabilisé comme un rebond dur au lieu d’un rebond.
 * Correction d&#39;un problème qui entraînait l&#39;affichage de comptes négatifs dans les données de synthèse.
 * Correction d&#39;une erreur qui entraînait le comptage des profils dans un segment d&#39;âge incorrect.
 * Les formules de calcul des soft et hard bounces ont été modifiées.
@@ -494,7 +494,7 @@ _Workflows_
    <td> Capacités marketing des messages transactionnels<br /> </td> 
    <td> Les marketeurs peuvent désormais envoyer des messages transactionnels selon les profils marketing des clients. Ils peuvent ainsi :<br /> 
     <ul> 
-     <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse en blackliste</span> ; </li> 
+     <li> Appliquez des règles de typologie marketing telles que <span class="uicontrol">Adresse sur la liste bloquée</span> . </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
      <li> utiliser les messages transactionnels dans le parcours client. </li> 
@@ -505,7 +505,7 @@ _Workflows_
    <td> L'API des messages transactionnels est maintenant disponible sur le site <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, ce qui facilite son utilisation et son contrôle :<br /> 
     <ul> 
      <li> Vous pouvez tirer parti des capacités de contrôle et de reporting de la plate-forme adobe.io. </li> 
-     <li> L'authentification est désormais effectuée en utilisant l'authentification basée sur les jetons adobe.io plutôt que le blacklistage des adresses IP, ce qui simplifie le processus de sécurité. </li> 
+     <li> L’authentification s’effectue désormais à l’aide de l’authentification basée sur les jetons adobe.io plutôt que de la liste autorisée IP, ce qui simplifie le processus de sécurité. </li> 
      <li> Toutes les API sont désormais intégrées sur une seule plate-forme, ce qui facilite plus que jamais l'ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l'API Profile &amp; Services. </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _Notifications push_
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d&#39;une erreur qui était susceptible d&#39;entraîner l&#39;ajout d&#39;un caractère d&#39;échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsque le jeton d&#39;enregistrement d&#39;un abonné devient blacklisté, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l&#39;application, dans Adobe Campaign.
+* Lorsqu’un jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, l’état correspondant est maintenant immédiatement mis à jour dans la liste de l’application des abonnés dans l’Adobe Campaign.
 
 _Workflows_
 
