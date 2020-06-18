@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 86%
+source-wordcount: '1349'
+ht-degree: 84%
 
 ---
 
@@ -32,14 +32,14 @@ Lorsqu’une diffusion ne peut pas être envoyée à un profil, le serveur dista
 >
 >Les messages d’erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
 
-Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou un profil blacklisté. Les messages exclus sont répertoriés dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Les messages peuvent également être exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est sur la liste bloquée. Les messages exclus sont répertoriés dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Rubriques connexes :**
 
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
-* [Gestion du blacklistage dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Identifier les diffusions en échec pour un message    {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | **[!UICONTROL Refusés]** | Soft/Hard | L&#39;adresse a été placée en quarantaine en raison d&#39;un commentaire de sécurité en tant que rapport de spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Doublon]** | Ignoré | L&#39;adresse a déjà été détectée dans la segmentation. |
 | **[!UICONTROL Non définie]** | Soft | l&#39;adresse est en réserve parce que les erreurs n&#39;ont pas encore été incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
-| **[!UICONTROL Erreur ignorée]** | Ignoré | L&#39;adresse figure sur la liste blanche et un courriel lui sera envoyé en tout cas. |
-| **[!UICONTROL Adresse en blackliste]** | Hard | l&#39;adresse était blacklistée au moment de l&#39;envoi. |
+| **[!UICONTROL Erreur ignorée]** | Ignoré | L&#39;adresse se trouve sur la liste autorisée et un courriel lui sera envoyé en tout cas. |
+| **[!UICONTROL Adresse à la liste bloquée]** | Hard | L&#39;adresse a été ajoutée à la liste bloquée au moment de l&#39;envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le fournisseur d’accès à Internet (IAP) détecte une longue période d’inactivité, il peut fermer le compte de l’utilisateur : Les diffusions à l&#39;adresse de l&#39;utilisateur seront alors impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
 | **[!UICONTROL Non connecté]** | Ignoré | Le téléphone mobile du profil est désactivé ou n&#39;est pas connecté au réseau lors de l&#39;envoi du message. |
 | **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l&#39;adresse email est erroné ou n&#39;existe plus. Ce profil sera ciblé de nouveau jusqu&#39;à ce que le nombre d&#39;erreurs atteigne 5. Une fois ce chiffre atteint, l&#39;enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
