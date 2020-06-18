@@ -9,15 +9,18 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 99%
 
 ---
 
 
 # Historique marketing (nms:history)
 
-## Description de l'objet
+## Description de l&#39;objet
 
 <table>
                <tr>
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>liste bloquée</td>
                   <td>No longer contact (by any channel)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>No longer contact by email</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>No longer contact by fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>No longer contact by SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>No longer contact by phone</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>No longer contact by direct mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>No longer contact by push notification</td>
                   <td>boolean </td>
                   <td> </td>
