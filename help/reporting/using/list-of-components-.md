@@ -11,8 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +40,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  <tbody> 
   <tr> 
    <td> Navigateur<br /> </td> 
-   <td> Navigateur dans lequel le message a été ouvert ou a fait l'objet d'un clic.<br /> </td> 
+   <td> Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign<br /> </td> 
@@ -57,7 +60,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Appareil<br /> </td> 
-   <td> Appareil sur lequel l'email/le SMS/la notification push ont été ouverts/vus ou ont fait l'objet d'un clic.<br /> </td> 
+   <td> Appareil sur lequel l’email/le SMS/la notification push ont été ouverts/vus ou ont fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
    <td> Raison de l'échec<br /> </td> 
@@ -76,12 +79,12 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Canal utilisé pour la diffusion, par exemple email, SMS, notification push ou In-App.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Nom de l'application mobile<br /> </td> 
-   <td> Nom de l'application mobile.<br /> </td> 
+   <td> Nom de l’application mobile<br /> </td> 
+   <td> Nom de l’application mobile.<br /> </td> 
   </tr> 
   <tr> 
    <td> Plateforme<br /> </td> 
-   <td> Plateforme de l'appareil sur lequel le message a été ouvert/vu ou a fait l'objet d'un clic.<br /> </td> 
+   <td> Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profils<br /> </td> 
@@ -89,11 +92,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Plateforme push<br /> </td> 
-   <td> Plateforme de l'appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple).<br /> </td> 
+   <td> Plateforme de l’appareil sur lequel la notification push a été ouverte (iOS ou Android, par exemple).<br /> </td> 
   </tr> 
   <tr> 
    <td> Domaine du destinataire<br /> </td> 
-   <td> Domaine utilisé pour ouvrir l'email.<br /> </td> 
+   <td> Domaine utilisé pour ouvrir l’email.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusion récurrente<br /> </td> 
@@ -113,14 +116,14 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> URL de tracking<br /> </td> 
-   <td> URL sur laquelle a cliqué l'utilisateur dans le message.<br /> </td> 
+   <td> URL sur laquelle a cliqué l’utilisateur dans le message.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Catégorie de l'URL de tracking<br /> </td> 
-   <td> Catégorie affectée à l'URL de tracking.<br /> </td> 
+   <td> Catégorie de l’URL de tracking<br /> </td> 
+   <td> Catégorie affectée à l’URL de tracking.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Libellé de l'URL de tracking<br /> </td> 
+   <td> Libellé de l’URL de tracking<br /> </td> 
    <td> Libellé attribué à l'URL (page miroir, contactez-nous ou ouvrir, par exemple).<br /> </td> 
   </tr> 
   <tr> 
@@ -129,7 +132,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Variante<br /> </td> 
-   <td> Variante de l'email en cas de test A/B.<br /> </td> 
+   <td> Variante de l’email en cas de test A/B.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -149,12 +152,12 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> En blackliste<br /> </td> 
+   <td> Sur la liste bloquée<br /> </td> 
    <td> Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'éléments en blackliste<br /> </td> 
-   <td> Pourcentage de diffusions marquées comme blacklistées.<br /> </td> 
+   <td> Taux de Liste bloquée<br /> </td> 
+   <td> Pourcentage de diffusions marquées sur la liste bloquée.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + Erreurs<br /> </td> 
@@ -182,7 +185,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Hard bounce<br /> </td> 
-   <td> Nombre total d'erreurs permanentes, telles qu'une adresse email incorrecte.<br /> </td> 
+   <td> Nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de hard bounce<br /> </td> 
@@ -214,11 +217,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
-   <td> Nombre total d'envois pour la diffusion.<br /> </td> 
+   <td> Nombre total d’envois pour la diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> Quarantaine<br /> </td> 
-   <td> Nombre de messages qui ont fait l'objet d'un bounce et qui ont entraîné la mise en quarantaine de l'adresse.<br /> </td> 
+   <td> Nombre de messages qui ont fait l’objet d’un bounce et qui ont entraîné la mise en quarantaine de l’adresse.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de mise en quarantaine<br /> </td> 
@@ -234,7 +237,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Soft bounce<br /> </td> 
-   <td> Nombre total d'erreurs permanentes, telles qu'une boîte de réception pleine.<br /> </td> 
+   <td> Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de soft bounces<br /> </td> 
@@ -381,7 +384,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 >[!NOTE]
 >
->Par défaut, le segment **[!UICONTROL Exclure le BAT]**est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
+>Par défaut, le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
 
 Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
