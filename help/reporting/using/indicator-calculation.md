@@ -11,8 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -44,15 +47,15 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> En blackliste<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> Placé sur l'liste bloquée<br /> </td> 
+   <td> @placé sur l'liste bloquée<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux d'éléments en blackliste<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
-   <td> @blacklisted/@sent<br /> </td> 
+   <td> Taux Placé sur l'liste bloquée<br /> </td> 
+   <td> @rateBlocklist<br /> </td> 
+   <td> @Placé sur l'liste bloquée/@envoyé<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
   </tr> 
   <tr> 
