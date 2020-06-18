@@ -11,16 +11,19 @@ topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: ef4082d4d5a0c3a57b7a36a43b47edde07c4c7bb
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 83%
 
 ---
 
 
 # Mappings de ciblage dans Campaign{#target-mappings-in-campaign}
 
-Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques nécessaires pour envoyer des diffusions (adresses, numéros de téléphone, indicateurs de blacklistage, autres identifiants, etc.).
+Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques requis pour envoyer des diffusions (adresses, numéros de téléphone, indicateurs de liste bloquée, identifiants supplémentaires...).
 
-Les administrateurs peuvent accéder aux mappings de ciblage dans **[!UICONTROL Administration &gt; Paramétrage de l'application &gt; Mappings de ciblage]**.
+Les administrateurs peuvent accéder aux mappings de ciblage dans **[!UICONTROL Administration > Paramétrage de l&#39;application > Mappings de ciblage]**.
 
-Vous pouvez créer ou modifier des mappings de ciblage pour répondre à des besoins spécifiques. Dans tous les cas, la dimension de ciblage doit toujours correspondre aux profils (table **[!UICONTROL nms:recipient]**). Pour plus d'informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).
+Vous pouvez créer ou modifier des mappings de ciblage pour répondre à des besoins spécifiques. Dans tous les cas, la dimension de ciblage doit toujours correspondre aux profils (table **[!UICONTROL nms:recipient]**). Pour plus d&#39;informations sur les dimensions de ciblage, consultez [cette page](../../automating/using/query.md#targeting-dimensions-and-resources).
