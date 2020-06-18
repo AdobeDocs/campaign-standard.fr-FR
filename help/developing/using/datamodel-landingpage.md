@@ -12,15 +12,18 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+translation-type: tm+mt
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 99%
 
 ---
 
 
 # landingPage (nms:landingPage)
 
-## Description de l'objet
+## Description de l&#39;objet
 
 <table>
       <tr>
@@ -428,7 +431,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td>enumeration (byte) </td>
          <td>
             <ul>
-               <li>Blacklist - blackList - 3</li>
+               <li>Liste bloquée - liste bloquée - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -633,7 +636,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
             <ul>
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
-               <li>Blacklist - blackList - 4</li>
+               <li>Liste bloquée - liste bloquée - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
@@ -721,7 +724,7 @@ Inclure les landing pages avancés (withAdvanced)
     </tr>
 </table>
 
-Inclure les diffusions au fil de l'eau depuis une liste hétérogène (withContinuous)
+Inclure les diffusions au fil de l&#39;eau depuis une liste hétérogène (withContinuous)
 
 <table>
         <tr>
