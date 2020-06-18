@@ -12,15 +12,18 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+translation-type: tm+mt
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 83%
 
 ---
 
 
 # Amélioration de votre réputation{#improving-reputation}
 
-Pour ne pas sur-solliciter vos destinataires mais aussi pour garantir votre réputation, veillez à supprimer les doublons de votre cible et à assurer une bonne gestion des quarantaines. Adobe Campaign vous offre les outils nécessaires pour mettre en œuvre ces recommandations et éviter les risques de blacklistage de la part du FAI.
+Pour éviter d&#39;épuiser vos destinataires, supprimez les adresses électroniques de duplicata de votre cible. Cette étape protège votre réputation d&#39;envoi et assure une bonne gestion des quarantaines. L&#39;Adobe Campaign offre les outils nécessaires pour mettre en oeuvre ces recommandations et éviter le risque d&#39;être ajouté à une liste bloquée par les FSI.
 
 Vous trouverez ci-dessous des informations sur la gestion des doublons et des quarantaines.
 
@@ -30,7 +33,7 @@ L’existence de doublons pour une adresse email peut avoir plusieurs conséquen
 * Envois multiples du même message. Même si Adobe Campaign applique par défaut une déduplication sur l’adresse email avant chaque envoi, rien n’empêche d’envoyer plusieurs fois le même message par des actions différentes qui ont un même contenu lorsqu’on effectue un partage de cible.
 * Non-respect de la désinscription. Si une personne se désinscrit suite à la réception d’un message, son profil en doublon sera quant à lui toujours éligible aux envois.
 
-Outre le non-respect de l’opt-in, cette situation amènera probablement les utilisateurs à considérer les messages comme du spam et déclencher une action de blacklistage de la part du FAI.
+En plus de cette étape secondaire des procédures d&#39;inclusion, cette situation conduira probablement les utilisateurs à considérer les messages comme du spam et à déclencher une procédure de liste bloquée auprès du fournisseur de services Internet.
 
 Il faut être particulièrement prudent lors d’opérations sur la base de données. Pour éviter le plus possible l’existence de doublons, les éléments suivants doivent être impérativement vérifiés :
 * **Les imports doivent être soigneusement configurés.** Cet aspect est particulièrement important lors du choix de la clé de réconciliation.
