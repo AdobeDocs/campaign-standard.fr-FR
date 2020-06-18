@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Dans l&#39;affirmative, suivez ces recommandations :
 Dans le cas contraire, passez à l&#39;étape suivante. Dans l&#39;affirmative, suivez ces recommandations :
 
 * Vérifiez que le modèle transactionnel a été publié.
-* Vérifiez que le profil n&#39;est pas blacklisté.
+* Vérifiez que le profil n&#39;est pas en liste bloquée.
 * Vérifiez l&#39;application des règles de typologie.
 * Vérifiez les logs du message transactionnel.
 
