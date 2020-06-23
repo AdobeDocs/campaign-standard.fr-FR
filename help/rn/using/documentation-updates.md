@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5951'
+source-wordcount: '5969'
 ht-degree: 94%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 94%
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
 ## Mises à jour de la documentation - juin 2020 {#doc-updates-june-2020}
+
+Des cas d’utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
 
 Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
 
@@ -484,7 +486,7 @@ Mise à jour de la section Type des utilisateurs – [En savoir plus](../../adm
 
 Messagerie in-app (version bêta) – [En savoir plus](../../channels/using/about-in-app-messaging.md)
 
-Intégration d’Adobe Launch pour les applications mobiles (version bêta) – [En savoir plus](../../sending/using/about-typology-rules.md#typology-rules)
+Intégration d’Adobe Launch pour les applications mobiles (version bêta) – [En savoir plus](../../sending/using/managing-typologies.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -498,7 +500,7 @@ Mise à jour de la section de rapport natif des notifications Push. [En savoir p
 
 **Nouvelles fonctionnalités de cette version**
 
-[Drapeau Haute priorité](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) et [filtre de typologie](../../sending/using/about-typology-rules.md#typology-rules) pour les abonnés de l’application mobile.
+[Drapeau Haute priorité](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) et [filtre de typologie](../../sending/using/managing-typologies.md) pour les abonnés de l’application mobile.
 
 Import de contenu automatisé à partir d’une URL au moment de la préparation – [En savoir plus](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ La section présentant la liste des rôles a été mise à jour – [En savoir 
 
 Courrier – [En savoir plus](../../channels/using/about-direct-mail.md)
 
-Email BCC – [En savoir plus](../../administration/using/configuring-email-channel.md#archiving-emails)
+Email BCC – [En savoir plus](../../sending/using/archiving.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
