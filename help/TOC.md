@@ -4,9 +4,9 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1402'
 ht-degree: 93%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 93%
    + [Planification des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
-   + [A propos de Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [À propos de l&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Confidentialité et consentement](start/using/privacy.md)
    + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
@@ -64,7 +64,7 @@ ht-degree: 93%
    + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [À propos du service Audience Destinations](audiences/using/aep-about-audience-destinations-service.md)
       + [Gestion des audiences Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
-      + [Utilisation du créateur de segment unifié](audiences/using/aep-using-segment-builder.md)
+      + [Utilisation du créateur de segments](audiences/using/aep-using-segment-builder.md)
 + Canaux de communication {#communication-channels}
    + [Commencer avec les canaux de communication](channels/using/get-started-communication-channels.md)
    + Canaux de communication {#about-communication-channels}
@@ -362,7 +362,7 @@ ht-degree: 93%
       + [Activation du mapping](developing/using/aep-mapping-activation.md)
       + [Déclenchement de l’ingestion des données via les API](developing/using/aep-triggering-data-ingestion.md)
 + Administration {#administrating}
-   + [Prise en main de l’administration Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Prise en main de l’administration des Campaign Standards](administration/using/get-started-campaign-administration.md)
    + [Instructions de configuration](administration/using/about-configuration-guidelines.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
@@ -388,7 +388,7 @@ ht-degree: 93%
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
 + Utilisation des API {#working-with-apis}
-   + [Commencer avec les API Campaign Standard](api/using/get-started-apis.md)
+   + [Commencer avec les API des Campaign Standards](api/using/get-started-apis.md)
    + À propos des API de Campaign Standard {#about-campaign-standard-apis}
       + [Pourquoi utiliser les API de Campaign Standard ?](api/using/why-using-campaign-standard-apis.md)
       + [Configuration de l’accès aux API](api/using/setting-up-api-access.md)
