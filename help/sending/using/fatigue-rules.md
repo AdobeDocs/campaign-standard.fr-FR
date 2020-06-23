@@ -11,8 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+translation-type: tm+mt
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2445'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +73,7 @@ Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue
 
    ![](assets/fatigue20.png)
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Typologies]** et associez votre règle de typologie à la typologie utilisée pour vos diffusions. Voir [Gestion des typologies](../../sending/using/about-typology-rules.md#managing-typologies) et [Règles de typologie](../../sending/using/about-typology-rules.md#typology-rules).
+1. Sélectionnez l&#39;onglet **[!UICONTROL Typologies]** et associez votre règle de typologie à la typologie utilisée pour vos diffusions. Voir [Gestion des typologies](../../sending/using/managing-typologies.md) et [Règles de typologie](../../sending/using/managing-typology-rules.md).
 
    ![](assets/fatigue12.png)
 
