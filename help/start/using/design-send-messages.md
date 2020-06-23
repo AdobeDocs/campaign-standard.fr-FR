@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +82,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 * insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
 * [personnaliser l&#39;expéditeur](../../designing/using/subject-line.md) d&#39;un email ou d&#39;un SMS ;
-* [personnaliser l&#39;objet](../../designing/using/subject-line.md) d&#39;un email ou utiliser les fonctionnalités d&#39;[optimisation prédictive de l&#39;objet](../../designing/using/subject-line.md#predictive-subject-line) pour ce faire ;
+* [personnaliser l&#39;objet](../../designing/using/subject-line.md) d&#39;un email ou utiliser les fonctionnalités d&#39;[optimisation prédictive de l&#39;objet](../../designing/using/subject-line.md#subject-line) pour ce faire ;
 * créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
 * insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push
 
