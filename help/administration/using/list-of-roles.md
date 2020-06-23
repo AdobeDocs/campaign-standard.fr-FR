@@ -12,8 +12,11 @@ discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
+translation-type: tm+mt
+source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +29,7 @@ Combinés avec les entités organisationnelles, les rôles donnent aux utilisate
 
 Pour plus d’informations, reportez-vous au [tableau Rôles et permissions](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
-![](assets/user_management_3.png)
+[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Les rôles peuvent être gérés depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Rôles]**.
 
