@@ -11,8 +11,11 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
+translation-type: tm+mt
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 98%
 
 ---
 
@@ -69,7 +72,7 @@ Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et 
 * [Étape 3 : Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
 * [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign   {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign    {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Il nous faut tout d&#39;abord configurer ou vérifier les comptes externes dans Adobe Campaign Ces comptes doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
@@ -81,8 +84,8 @@ Pour ce faire :
 
    ![](assets/integration_aam_1.png)
 
-1. Saisissez le **[!UICONTROL serveur du récepteur]**au format suivant
-1. Saisissez l&#39;**[!UICONTROL ID de clé d&#39;accès AWS]**, la**[!UICONTROL  clé d&#39;accès secrète]** et la **[!UICONTROL région AWS]**.
+1. Saisissez le **[!UICONTROL serveur du récepteur]** au format suivant
+1. Saisissez l&#39;**[!UICONTROL ID de clé d&#39;accès AWS]**, la **[!UICONTROL clé d&#39;accès secrète]** et la **[!UICONTROL région AWS]**.
 
 Vos comptes externes sont à présent configurés pour cette intégration.
 
@@ -91,36 +94,36 @@ Vos comptes externes sont à présent configurés pour cette intégration.
 Les deux sources de données suivantes ont été créées dans Audience Manager : Adobe Campaign (MID) et Adobe Campaign (DeclaredId). En même temps, ces deux sources de données sont disponibles dans Adobe Campaign :
 
 * **[!UICONTROL Destinataire - Id Visiteur (Defaultdatasources)]** : il s&#39;agit d&#39;une source de données d&#39;usine configurée par défaut pour Id Visiteur. Les segments créés à partir de Campaign feront partie de cette source de données.
-* Source de données **ID déclaré** : cette source de données doit être créée et mappée avec la définition de source de données **[!UICONTROL DeclaredId]**depuis Audience Manager.
+* Source de données **ID déclaré** : cette source de données doit être créée et mappée avec la définition de source de données **[!UICONTROL DeclaredId]** depuis Audience Manager.
 
 Dans le cas de plusieurs sites web avec des domaines différents, Adobe Campaign ne prend pas en charge la réconciliation basée sur ECID.
 
 Pour configurer la source de données **[!UICONTROL Destinataire - Id Visiteur (Defaultdatasources)]** :
 
-1. Dans **[!UICONTROL Administration]** >**[!UICONTROL  Paramétrage de l&#39;application]** > **[!UICONTROL Sources de données partagées]**, sélectionnez**[!UICONTROL  Destinataire - Id Visiteur (Defaultdatasources)]**.
+1. Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Sources de données partagées]**, sélectionnez **[!UICONTROL Destinataire - Id Visiteur (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
-1. Choisissez **[!UICONTROL Adobe Campaign]**dans le menu déroulant**[!UICONTROL  Source de données/alias]**.
-1. Saisissez le **[!UICONTROL AAM Destination ID]**fourni par Adobe.
+1. Choisissez **[!UICONTROL Adobe Campaign]** dans le menu déroulant **[!UICONTROL Source de données/alias]**.
+1. Saisissez le **[!UICONTROL AAM Destination ID]** fourni par Adobe.
 
    ![](assets/integration_aam_3.png)
 
-1. Dans la catégorie **[!UICONTROL Processus de réconciliation]**, nous vous conseillons de ne pas modifier les critères de réconciliation et de toujours utiliser l&#39;**[!UICONTROL  identifiant du visiteur]**.
+1. Dans la catégorie **[!UICONTROL Processus de réconciliation]**, nous vous conseillons de ne pas modifier les critères de réconciliation et de toujours utiliser l&#39;**[!UICONTROL identifiant du visiteur]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Pour créer la source de données **[!UICONTROL ID déclaré]** :
 
-1. Dans **[!UICONTROL Administration]** >**[!UICONTROL  Paramétrage de l&#39;application]** > **[!UICONTROL Sources de données partagées]**, cliquez sur le bouton**[!UICONTROL  Créer]**.
-1. Modifiez le **[!UICONTROL libellé]**de votre source de données.
-1. Dans le menu déroulant **[!UICONTROL Source de données/alias]**, choisissez la source de données correspondant à**[!UICONTROL  DeclaredID]** depuis Audience Manager.
-1. Configurez votre source de données en saisissant les **[!UICONTROL sources de données/alias]**et le**[!UICONTROL  AAM Destination ID]** fournis par Adobe.
-1. Définissez le **[!UICONTROL processus de réconciliation]**selon vos besoins.
+1. Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Sources de données partagées]**, cliquez sur le bouton **[!UICONTROL Créer]**.
+1. Modifiez le **[!UICONTROL libellé]** de votre source de données.
+1. Dans le menu déroulant **[!UICONTROL Source de données/alias]**, choisissez la source de données correspondant à **[!UICONTROL DeclaredID]** depuis Audience Manager.
+1. Configurez votre source de données en saisissant les **[!UICONTROL sources de données/alias]** et le **[!UICONTROL AAM Destination ID]** fournis par Adobe.
+1. Définissez le **[!UICONTROL processus de réconciliation]** selon vos besoins.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
 >
->Le champ **[!UICONTROL AAM Destination ID]**n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md).**[!UICONTROL  La priorité]** n&#39;est nécessaire que lors de la configuration de l&#39;intégration des Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
+>Le champ **[!UICONTROL AAM Destination ID]** n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL La priorité]** n&#39;est nécessaire que lors de la configuration de l&#39;intégration des Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
 
 ### Étape 3 : Configuration du serveur de tracking Campaign   {#step-3--configure-campaign-tracking-server}
 
@@ -130,6 +133,6 @@ Ici, vous devez vérifier que le serveur de tracking Campaign est enregistré su
 
 ### Étape 4 : Configuration du service d&#39;identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://marketing.adobe.com/resources/help/fr_FR/mcvid/mcvid-setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
+Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
 La configuration et la mise en service sont terminées. L&#39;intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
