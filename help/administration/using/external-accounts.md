@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1617'
 ht-degree: 95%
 
 ---
@@ -131,7 +131,10 @@ La procédure et les exigences relatives à cette intégration sont présentées
 
 Lors de la configuration de ce nouveau compte externe, vous devez indiquer les informations suivantes :
 
-* Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple, **http://aem.domaine.com:4502**.
+* Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple :
+
+   ``` http://aem.domain.com:4502 ```
+
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
 ## Compte externe Google reCAPTCHA     {#google-recaptcha-external-account}
