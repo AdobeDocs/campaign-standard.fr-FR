@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 97%
@@ -45,7 +45,7 @@ Une fois qu’il a été démarré, un workflow peut également se voir attribue
 
 * **En erreur** (rouge)
 
-   Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l’origine de l’erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d’accéder au journal du workflow (voir [Contrôle](#monitoring)).
+   Une erreur est survenue pendant l’exécution du workflow. Ce dernier est arrêté et une action est requise de la part de l’utilisateur. Pour connaître l’origine de l’erreur, utilisez le bouton ![](assets/printpreview_darkgrey-24px.png) afin d’accéder au journal du workflow (voir [Contrôle](../../automating/using/monitoring-workflow-execution.md)).
 
 La liste des activités marketing permet d’afficher tous les workflows ainsi que leur statut. Voir à ce sujet la section [Gérer les activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
