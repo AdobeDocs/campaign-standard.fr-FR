@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 100%
+source-wordcount: '694'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## Création d&#39;un trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://marketing.adobe.com/resources/help/fr_FR/mcloud/Triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Lorsque vous définissez le trigger, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau trigger doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un trigger Adobe Experience Cloud existant.
 
