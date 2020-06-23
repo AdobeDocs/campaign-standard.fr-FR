@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '731'
+ht-degree: 91%
 
 ---
 
@@ -193,7 +193,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch.<br /> </td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Ouvertures uniques<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques.<br /> </td> 
+   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
@@ -293,7 +293,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch.<br /> </td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics<br /> </td> 
