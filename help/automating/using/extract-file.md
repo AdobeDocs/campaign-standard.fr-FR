@@ -12,8 +12,11 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +27,15 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/export.png)
 
-L'activité **[!UICONTROL Extraction de fichier]** permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
+L&#39;activité **[!UICONTROL Extraction de fichier]** permet d&#39;exporter des données présentes dans Adobe Campaign sous la forme d&#39;un fichier externe.
 
-## Contexte d'utilisation {#context-of-use}
+## Contexte d&#39;utilisation {#context-of-use}
 
-La façon dont les données seront extraites est définie lors du paramétrage de l'activité.
+La façon dont les données seront extraites est définie lors du paramétrage de l&#39;activité.
 
 >[!CAUTION]
 >
->L'activité **[!UICONTROL Extraction de fichier]** doit être obligatoirement placée à la suite d'une activité **[!UICONTROL Requête]** pour pouvoir être utilisée.
+>L&#39;activité **[!UICONTROL Extraction de fichier]** doit être obligatoirement placée à la suite d&#39;une activité **[!UICONTROL Requête]** pour pouvoir être utilisée.
 
 ## Configuration {#configuration}
 
@@ -40,57 +43,60 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    ![](assets/wkf_data_export1.png)
 
-1. Sélectionnez l'activité puis ouvrez-la à l'aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s'affichent.
-1. Indiquez le libellé du **Fichier de sortie**. Le libellé du fichier sera automatiquement complété avec la date et l'heure de création pour être unique. Par exemple : destinataires_20150815_081532.txt pour un fichier généré le 15 août 2015 à 08h15 et 32 secondes.
+1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
+1. Indiquez le libellé du **Fichier de sortie**. Le libellé du fichier sera automatiquement complété avec la date et l&#39;heure de création pour être unique. Par exemple : destinataires_20150815_081532.txt pour un fichier généré le 15 août 2015 à 08h15 et 32 secondes.
 
    >[!NOTE]
    >
-   >Il est possible d'utiliser la fonction **[!UICONTROL formatDate]** dans ce champ pour spécifier le nom du fichier.
+   >Il est possible d&#39;utiliser la fonction **[!UICONTROL formatDate]** dans ce champ pour spécifier le nom du fichier.
 
 1. Si vous le souhaitez, vous pouvez compresser le fichier de sortie en sélectionnant **[!UICONTROL Compression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Le fichier de sortie sera compressé dans un fichier GZIP (.gz).
+
+   Le champ **[!UICONTROL Ajouter une étape]** de prétraitement vous permet également de chiffrer un fichier avant de l’extraire. Pour plus d’informations sur la façon de travailler avec des fichiers chiffrés, reportez-vous à [cette section](../../automating/using/managing-encrypted-data.md)
+
 1. Sélectionnez le bouton ![](assets/add_darkgrey-24px.png) ou **[!UICONTROL Ajouter un élément]** pour ajouter une colonne de sortie.
 
    ![](assets/wkf_data_export2.png)
 
-   Une nouvelle fenêtre s'affiche.
+   Une nouvelle fenêtre s&#39;affiche.
 
    ![](assets/wkf_data_export3.png)
 
-1. Composez une expression. Pour cela, vous pouvez sélectionner une expression existante ou en créer une nouvelle avec l'**éditeur d'expression**.
+1. Composez une expression. Pour cela, vous pouvez sélectionner une expression existante ou en créer une nouvelle avec l&#39;**éditeur d&#39;expression**.
 1. Validez votre expression.
 
-   L'expression est ajoutée aux colonnes de sortie.
+   L&#39;expression est ajoutée aux colonnes de sortie.
 
 1. Créez autant de colonnes que nécessaire. Vous pouvez éditer les colonnes en cliquant sur leur expression et leur libellé.
 
-   Si vous exportez des profils et si vous souhaitez les utiliser dans un outil externe, veillez à exporter un identifiant unique. Par défaut, tous les profils ne disposent pas d'un identifiant unique. Cela dépend de la façon dont ils ont été ajoutés dans la base de données. Pour plus d'informations, voir la section [Générer un identifiant unique pour les profils](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Si vous exportez des profils et si vous souhaitez les utiliser dans un outil externe, veillez à exporter un identifiant unique. Par défaut, tous les profils ne disposent pas d&#39;un identifiant unique. Cela dépend de la façon dont ils ont été ajoutés dans la base de données. Pour plus d&#39;informations, voir la section [Générer un identifiant unique pour les profils](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-1. Cliquez sur l'onglet **[!UICONTROL Structure de fichier]** pour paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Structure de fichier]** pour paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
 
-   Cochez l'option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d'énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d'identifiants.
+   Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
 
-1. Dans l'onglet **[!UICONTROL Propriétés]**, sélectionnez l'option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
-1. Validez le paramétrage de l'activité et enregistrez le workflow.
+1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
+1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
 ## Exemple {#example}
 
-L'exemple suivant illustre le paramétrage d'une activité de type **[!UICONTROL Extraction de fichier]** suivant une activité de type **[!UICONTROL Requête]**.
+L&#39;exemple suivant illustre le paramétrage d&#39;une activité de type **[!UICONTROL Extraction de fichier]** suivant une activité de type **[!UICONTROL Requête]**.
 
-Le but de ce workflow est d'exporter une liste de profils sous la forme d'un fichier externe afin d'en utiliser les données hors d'Adobe Campaign.
+Le but de ce workflow est d&#39;exporter une liste de profils sous la forme d&#39;un fichier externe afin d&#39;en utiliser les données hors d&#39;Adobe Campaign.
 
-1. Placez une activité de type **[!UICONTROL Extraction de fichier]** à la suite d'une activité de type **[!UICONTROL Requête]**.
+1. Placez une activité de type **[!UICONTROL Extraction de fichier]** à la suite d&#39;une activité de type **[!UICONTROL Requête]**.
 
-   Dans cet exemple, la requête porte sur tous les profils dont l'âge se situe entre 18 et 30 ans inclus.
+   Dans cet exemple, la requête porte sur tous les profils dont l&#39;âge se situe entre 18 et 30 ans inclus.
 
-1. Ouvrez l'activité pour l'éditer.
+1. Ouvrez l&#39;activité pour l&#39;éditer.
 1. Nommez le fichier de sortie.
 1. Ajoutez les colonnes de sortie.
 
-   Dans cet exemple, l'email, l'âge, la date de naissance, le nom et le prénom des profils ciblés sont ajoutés comme colonnes de sortie.
+   Dans cet exemple, l&#39;email, l&#39;âge, la date de naissance, le nom et le prénom des profils ciblés sont ajoutés comme colonnes de sortie.
 
    ![](assets/wkf_data_export6.png)
 
-1. Cliquez sur l'onglet **[!UICONTROL Structure du fichier]** pour définir :
+1. Cliquez sur l&#39;onglet **[!UICONTROL Structure du fichier]** pour définir :
 
    * le format de sortie CSV.
 
@@ -101,8 +107,8 @@ Le but de ce workflow est d'exporter une liste de profils sous la forme d'un fic
       ![](assets/wkf_data_export9.png)
 
 1. Validez votre activité.
-1. Placez une activité de type **[!UICONTROL Transfert de fichier]** à la suite de l'activité **[!UICONTROL Extraction de fichier]** pour récupérer le fichier extrait sur un compte externe.
-1. Ouvrez l'activité et choisissez l'action **[!UICONTROL Envoi de fichier]**.
+1. Placez une activité de type **[!UICONTROL Transfert de fichier]** à la suite de l&#39;activité **[!UICONTROL Extraction de fichier]** pour récupérer le fichier extrait sur un compte externe.
+1. Ouvrez l&#39;activité et choisissez l&#39;action **[!UICONTROL Envoi de fichier]**.
 
    ![](assets/wkf_data_export11.png)
 
@@ -113,5 +119,5 @@ Le but de ce workflow est d'exporter une liste de profils sous la forme d'un fic
 1. Validez votre activité et sauvegardez votre workflow.
 1. Démarrez le workflow.
 
-   Lorsque le workflow s'est correctement exécuté, le fichier extrait est disponible sur le compte externe.
+   Lorsque le workflow s&#39;est correctement exécuté, le fichier extrait est disponible sur le compte externe.
 
