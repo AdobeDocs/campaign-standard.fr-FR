@@ -12,8 +12,11 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+translation-type: tm+mt
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '1396'
+ht-degree: 99%
 
 ---
 
@@ -39,11 +42,11 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ## Gestion des champs de profil mobile avec des données personnelles et sensibles  {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-Dans Adobe Campaign, les données d&#39;attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
+Dans Adobe Campaign, les données d&#39;attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
-Cette ressource doit être étendue pour collecter les données que vous avez l&#39;intention d&#39;envoyer depuis d&#39;appareil mobile vers Adobe Campaign. Consultez à ce propos cette [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+Cette ressource doit être étendue pour collecter les données que vous avez l’intention d’envoyer depuis d’appareil mobile vers Adobe Campaign. Consultez à ce propos cette [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 
-Pour permettre une personnalisation plus sécurisée de vos messages In-App, les champs de profil mobile de cette ressource doivent être configurés en conséquence. Dans vos **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**, lors de la création de vos champs de profils mobiles, cochez**[!UICONTROL  Personnel et sensible]** pour les rendre non disponibles durant la personnalisation des messages In-App.
+Pour permettre une personnalisation plus sécurisée de vos messages In-App, les champs de profil mobile de cette ressource doivent être configurés en conséquence. Dans vos **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**, lors de la création de vos champs de profils mobiles, cochez **[!UICONTROL Personnel et sensible]** pour les rendre non disponibles durant la personnalisation des messages In-App.
 
 >[!NOTE]
 >
@@ -51,9 +54,9 @@ Pour permettre une personnalisation plus sécurisée de vos messages In-App, les
 
 ![](assets/in_app_personal_data_2.png)
 
-Une fois la ressource personnalisée **[!UICONTROL Abonnements à une application]**configurée et personnalisée, vous pouvez commencer à préparer la diffusion In-App à l&#39;aide du modèle**[!UICONTROL  Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**. Seuls les champs qui ne sont pas personnels ni sensibles sont disponibles pour la personnalisation depuis la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**.
+Une fois la ressource personnalisée **[!UICONTROL Abonnements à une application]** configurée et personnalisée, vous pouvez commencer à préparer la diffusion In-App à l&#39;aide du modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**. Seuls les champs qui ne sont pas personnels ni sensibles sont disponibles pour la personnalisation depuis la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**.
 
-Si vous devez effectuer une personnalisation avec les champs **Personal and Sensitive**, il est recommandé d&#39;utiliser le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]**qui possède un mécanisme de sécurité supplémentaire pour veiller à ce que les informations PII de vos utilisateurs restent protégées.
+Si vous devez effectuer une personnalisation avec les champs **Personal and Sensitive**, il est recommandé d&#39;utiliser le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** qui possède un mécanisme de sécurité supplémentaire pour veiller à ce que les informations PII de vos utilisateurs restent protégées.
 
 ## Préparation de votre message In-App {#preparing-your-in-app-message}
 
@@ -79,7 +82,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
    * **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]**
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**
 
-1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]**Notez que si vous n&#39;avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n&#39;apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette[page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]** Notez que si vous n&#39;avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n&#39;apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
@@ -99,7 +102,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d&#39;usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d&#39;informations sur les événements de cycle de vie, consultez cette [page](https://marketing.adobe.com/resources/help/fr_FR/mobile/android/metrics.html).
+      Pour plus d&#39;informations sur les événements de cycle de vie, consultez cette [page](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d&#39;affichage.
 
@@ -142,7 +145,7 @@ Votre message in-app est maintenant prêt à être envoyé à votre audience cib
 
 Une fois que la préparation de votre diffusion est terminée et que les étapes de validation ont été réalisées, vous pouvez envoyer votre message.
 
-1. Cliquez sur **[!UICONTROL Préparer]**pour calculer la cible et générer les messages.
+1. Cliquez sur **[!UICONTROL Préparer]** pour calculer la cible et générer les messages.
 
    ![](assets/inapp_sending_4.png)
 
@@ -152,17 +155,17 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
    ![](assets/inapp_sending_5.png)
 
-1. Cliquez sur **[!UICONTROL Confirmer]**pour commencer l&#39;envoi de votre message in-app.
+1. Cliquez sur **[!UICONTROL Confirmer]** pour commencer l&#39;envoi de votre message in-app.
 
    ![](assets/inapp_sending_6.png)
 
 1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Voir à ce propos cette [section](../../sending/using/monitoring-a-delivery.md).
 
-   **[!UICONTROL Les chiffres des KPI Délivrés]**et**[!UICONTROL  Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d&#39;appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages.
+   **[!UICONTROL Les chiffres des KPI Délivrés]** et **[!UICONTROL Envoyés]** reposent sur les éléments envoyés avec succès par Campaign au service de diffusion des messages. Ces KPI ne constituent pas une indication du nombre d&#39;appareils mobiles ayant reçu ou téléchargé le message avec succès depuis le service de diffusion des messages.
 
    ![](assets/inapp_sending_7.png)
 
-1. Mesurez l&#39;impact de vos messages In-App avec des rapports de diffusion. Pour plus d&#39;informations sur le reporting, consultez [cette section](../../reporting/using/in-app-report.md).
+1. Mesurez l&#39;impact de vos messages In-App avec des rapports de diffusion. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/in-app-report.md).
 
 **Rubriques connexes :**
 
