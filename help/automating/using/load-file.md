@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 100%
+source-wordcount: '2001'
+ht-degree: 98%
 
 ---
 
@@ -98,6 +98,9 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
       ![](assets/wkf_file_loading1.png)
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l&#39;option **[!UICONTROL Décompression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
+
+   Le champ **[!UICONTROL Ajouter une étape]** de prétraitement vous permet également de déchiffrer un fichier avant de l’importer dans la base de données. Pour plus d’informations sur la façon de travailler avec des fichiers chiffrés, reportez-vous à [cette section](../../automating/using/managing-encrypted-data.md)
+
 1. L&#39;option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s&#39;étant produites lors de l&#39;import et de l&#39;appliquer à une étape de post-traitement. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
 
    >[!NOTE]
