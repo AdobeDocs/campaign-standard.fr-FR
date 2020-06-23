@@ -1,5 +1,5 @@
 ---
-title: Commencer avec les API Campaign Standard
+title: Commencer avec les API des Campaign Standards
 description: Découvrez les API de Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 94%
 
 ---
 
 
-# Commencer avec les API Campaign Standard {#get-started-apis}
+# Get started with Campaign Standard APIs {#get-started-apis}
 
 Les API de Campaign Standard vous permettent de **créer des intégrations** pour Adobe Campaign Standard et de **construire votre propre écosystème** en interfaçant l’application avec l’ensemble des technologies que vous utilisez.
 
@@ -54,4 +54,4 @@ Les API fournies utilisent des **concepts standard** avec une interface REST et 
 
 Tous les points d’entrée sont décrits en détail dans cette documentation avec les notions générales que vous devez connaître pour manipuler les API, les informations de référence complètes relatives aux API, des exemples de code et des guides de démarrage rapide.
 
-S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+S’il manque quelque chose ou si une information semble incorrecte, posez une question à la [communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
