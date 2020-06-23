@@ -12,8 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+translation-type: tm+mt
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +31,7 @@ Donnez à vos clients les moyens d’acquérir des expériences en exploitant [A
 
  Adobe Campaign Standard utilisera alors le service **Audience Destinations** pour récupérer une collection de profils, connue sous le nom d’**Audiences**, depuis Adobe Experience Platform pour les programmes de campagne à plusieurs étapes et/ou cross-canal.
 
-Les **audiences** sont créées d’abord à travers la création de **segments**, qui sont essentiellement un jeu de règles basées sur pratiquement n’importe quelle variable (par exemple, les données de profil, d’événement, ou multi-entités) au sein d’un profil client à partir d’Adobe Experience Platform pour créer une cible multidimensionnelle. Les concepts généraux relatifs aux services de profil et de segmentation unifiés sont référencés dans ces documents dédiées :
+Les **audiences** sont créées d’abord à travers la création de **segments**, qui sont essentiellement un jeu de règles basées sur pratiquement n’importe quelle variable (par exemple, les données de profil, d’événement, ou multi-entités) au sein d’un profil client à partir d’Adobe Experience Platform pour créer une cible multidimensionnelle. Les concepts globaux relatifs aux services de Profil et de segmentation en temps réel de la clientèle sont référencés dans ces documents dédiés :
 
 * [Aperçu du profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html)
 * [Présentation du service de segmentation](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/home.html)
