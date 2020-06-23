@@ -12,8 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+translation-type: tm+mt
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +47,7 @@ Pour créer une audience Adobe Experience Platform directement dans Campaign Sta
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. Le créateur de segments unifiés doit désormais s’afficher dans votre workflow. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
+1. Le créateur de segments doit désormais s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
 
 1. Nommez le segment dans le volet de droite et entrez une description (facultatif).
 
@@ -58,7 +61,7 @@ Pour créer une audience Adobe Experience Platform directement dans Campaign Sta
 
 1. Définissez les règles qui identifieront les profils à récupérer dans votre audience.
 
-   Pour ce faire, faites glisser les attributs et/ou les événements de de votre choix depuis le volet de gauche vers l’espace de travail, définissez les règles correspondantes, puis cliquez sur le bouton **[!UICONTROL Créer un segment]** pour enregistrer le segment (voir [Utilisation du créateur de sefments unifiés](../../audiences/using/aep-using-segment-builder.md)).
+   To do this, drag the desired attributes and/or events from the left pane into the workspace, define the corresponding rules then click the **[!UICONTROL Create segment]** button to save the segment (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
    ![](assets/aep_audiences_creation_query.png)
 
@@ -66,7 +69,7 @@ L’audience est désormais prête à être activée. Vous pouvez l’utiliser c
 
 ## Modifier une audience
 
-Pour modifier une audience, ouvrez-la et modifiez les règles selon les besoins dans l’interface du créateur de segments unifiés (voir [Utilisation du créateur de segments unifiés](../../audiences/using/aep-using-segment-builder.md)).
+To edit an audience, open it and modify the rules as needed within the Segment Builder interface (see [Using the Segment Builder](../../audiences/using/aep-using-segment-builder.md)).
 
 Une fois les modifications terminées, cliquez sur le bouton **[!UICONTROL Enregistrer le segment]** pour mettre à jour votre audience.
 
