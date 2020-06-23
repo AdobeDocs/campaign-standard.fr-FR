@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5455'
+source-wordcount: '5457'
 ht-degree: 99%
 
 ---
@@ -130,7 +130,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Améliorations**
 
-* L&#39;intégration d&#39;Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://marketing.adobe.com/resources/help/fr_FR/target/target/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d&#39;Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L&#39;intégration d&#39;Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d&#39;Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d&#39;un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d&#39;accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l&#39;enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez &quot;La suppression/duplication de l&#39;enregistrement implique celle de l&#39;enregistrement cible référencé par le lien&quot;.
 
 **Autres changements**
