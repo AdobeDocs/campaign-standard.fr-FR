@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 18%
+source-wordcount: '906'
+ht-degree: 14%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 18%
 
 Dans certains cas, les données que vous souhaitez importer peuvent être cryptées, par exemple si elles contiennent des données d’identification personnelle.
 
-Pour pouvoir importer ou exporter des fichiers cryptés, vous devez d’abord contacter l’Assistance clientèle d’Adobe pour obtenir votre instance avec les commandes de cryptage/décryptage nécessaires.
+Pour pouvoir chiffrer les données sortantes ou déchiffrer les données entrantes, vous devez gérer les clés GPG à l&#39;aide du panneau [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)configuration.
 
-Pour ce faire, envoyez une requête indiquant :
+>[!NOTE]
+>
+>Le Panneau de configuration est disponible pour tous les clients hébergés sur AWS (à l’exception des clients qui hébergent leurs instances marketing sur site).
+
+Si vous ne pouvez pas utiliser le Panneau de configuration, vous devez contacter le service d’assistance clientèle d’Adobe afin qu’il fournisse à votre instance les commandes de chiffrement/déchiffrement nécessaires. Pour ce faire, envoyez une requête indiquant :
 
 * Le **libellé** qui s’affichera dans l’interface de Campaign pour utiliser la commande. Par exemple, « Crypter le fichier ».
 * La **commande** à installer sur votre instance.
@@ -36,12 +40,6 @@ Pour ce faire, envoyez une requête indiquant :
 Once the request is processed, the encryption / decryption commands will be available in the **[!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. Vous pouvez les utiliser pour décrypter ou crypter les fichiers à importer ou exporter.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Notez que les clés GPG peuvent être ajoutées à votre instance à l’aide du Panneau de configuration, qui est disponible pour tous les clients hébergés sur AWS (sauf pour les clients qui hébergent leurs instances marketing sur site).
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html).
 
 **Rubriques connexes :**
 
