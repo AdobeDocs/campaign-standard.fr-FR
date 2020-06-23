@@ -1,5 +1,5 @@
 ---
-title: Commencer avec Campaign Standard
+title: Prise en main de Campaign Standard
 description: Adobe Campaign est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne de façon à créer des expériences client personnalisées.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 9%
@@ -20,9 +20,9 @@ ht-degree: 9%
 ---
 
 
-# Commencer avec Campaign Standard {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
-Adobe Campaign Standard est un puissant outil de Gestion de campagne entre canaux qui peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
+L’Adobe Campaign Standard est un puissant outil de Gestion de campagne entre canaux qui peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
 
 Contrôlez l&#39;ensemble du processus de création, d&#39;exécution et de suivi des campagnes inter-canaux, ainsi que l&#39;envoi de messages personnalisés en fonction du profil, du comportement, des préférences et des besoins des clients. Vous pouvez orchestrer, modéliser et automatiser facilement l&#39;ensemble du processus marketing et intégrer Adobe Campaign à d&#39;autres solutions Adobe.
 
@@ -66,7 +66,7 @@ Concevez et envoyez des messages sur des canaux de communication en ligne et hor
 
 <img width="60px" alt="conditions" src="assets/icon_report.svg"/>
 
-Une fois les campagnes marketing exécutées et les différents messages envoyés, Campaign Standard vous permet de les surveiller pour suivre leur impact ainsi que leur comportement destinataire.
+Une fois les campagnes marketing exécutées et les différents messages envoyés, le Campaign Standard vous permet de les surveiller pour suivre leur impact ainsi que leur comportement destinataire.
 
 **Surveillez vos diffusions** une fois envoyées. Consultez et exportez des journaux détaillés sur vos diffusions. Récupérez des informations sur leur état pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
 Tirez parti de la fonction d&#39;alerte de diffusion pour suivre les réussites ou échecs de diffusion par le biais de notifications par courrier électronique. Vous voulez en savoir plus ? [Commencer à surveiller les messages](../../sending/using/monitoring-a-delivery.md)
@@ -79,12 +79,12 @@ Tirez parti de la fonction d&#39;alerte de diffusion pour suivre les réussites 
 
 <img width="60px" alt="conditions" src="assets/icon_admin.svg"/>
 
-**Etendez le modèle** de données Campaign Standard à l’aide de vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données en une seule vue. [Commencer avec le modèle de données Campaign Standard](../../developing/using/get-started-data-model.md)
+**Etendez le modèle** de données Campaign Standard à vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données en une seule vue. [Commencer avec le modèle de données Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Tirez parti des API** REST pour effectuer diverses opérations et intégrer Campaign Standard à votre propre écosystème. [Commencer avec les API Campaign Standard REST](../../api/using/get-started-apis.md)
+**Tirez parti des API** REST pour effectuer diverses opérations et intégrer le Campaign Standard à votre propre écosystème. [Commencer avec les API REST Campaign Standard](../../api/using/get-started-apis.md)
 
-**Administration de Campaign** à partir d’une seule vue : surveillez votre instance, gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et configurez les paramètres de vos canaux de communication. [Prise en main de l’administration Campaign Standard](../../administration/using/get-started-campaign-administration.md)
+**Administration de Campaign** à partir d’une seule vue : surveillez votre instance, gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et configurez les paramètres de vos canaux de communication. [Prise en main de l’administration des Campaign Standards](../../administration/using/get-started-campaign-administration.md)
 
-**Importez et exportez facilement des données** à l’aide des fonctionnalités de data Management Campaign Standard. [Commencer avec les processus et les datas Management](../../automating/using/get-started-workflows.md)
+**Importez et exportez facilement des données** à l’aide des fonctionnalités de data Management du Campaign Standard. [Commencer avec les processus et les datas Management](../../automating/using/get-started-workflows.md)
 
-**Combinez les fonctionnalités de Campaign à d’autres solutions** pour vous aider à créer des campagnes marketing optimales. [Commencer avec les intégrations Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
+**Combinez les fonctionnalités de Campaign à d’autres solutions** pour vous aider à créer des campagnes marketing optimales. [Commencer avec les intégrations de Campaign Standards](../../integrating/using/get-started-campaign-integrations.md)
