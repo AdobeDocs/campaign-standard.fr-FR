@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 L’icône ![](assets/printpreview_darkgrey-24px.png) permet d’accéder au menu Journal et tâches du workflow.
 
-L’historique d’un workflow est conservé pendant la durée que vous indiquez dans les options d’exécution du workflow (voir [Propriétés des workflows](#workflow-properties)). Pendant cette durée, tous les messages sont donc conservés, même après un redémarrage. Si vous ne voulez pas conserver les messages d’une exécution précédente, vous devez purger l’historique en cliquant sur le bouton ![](assets/delete_darkgrey-24px.png).
+L’historique d’un workflow est conservé pendant la durée que vous indiquez dans les options d’exécution du workflow (voir [Propriétés des workflows](../../automating/using/managing-execution-options.md)). Pendant cette durée, tous les messages sont donc conservés, même après un redémarrage. Si vous ne voulez pas conserver les messages d’une exécution précédente, vous devez purger l’historique en cliquant sur le bouton ![](assets/delete_darkgrey-24px.png).
 
 L’onglet **[!UICONTROL Journal]** contient l’historique de l’exécution de toutes les activités ou des activités sélectionnées. Il répertorie par ordre chronologique les opérations réalisées et les erreurs d’exécution.
 
@@ -55,9 +55,9 @@ Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement 
 
 >[!NOTE]
 >
->Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour cela, sélectionnez l’activité de votre choix puis ouvrez-là à l’aide de l’action rapide ![](assets/edit_darkgrey-24px.png) et sélectionnez le mode de gestion des erreurs dans l’onglet **Options d’exécution.** Voir [Options d’exécution d’une activité](#activity-execution-options).
+>Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour cela, sélectionnez l’activité de votre choix puis ouvrez-là à l’aide de l’action rapide ![](assets/edit_darkgrey-24px.png) et sélectionnez le mode de gestion des erreurs dans l’onglet **Options d’exécution.** Voir [Options d’exécution d’une activité](../../automating/using/activity-properties.md).
 
-Dans les [propriétés du workflow](#workflow-properties), des options supplémentaires liées à la gestion des erreurs sont disponibles.
+In the [workflow&#39;s properties](../../automating/using/managing-execution-options.md), additional options related to error management are available.
 
 ![](assets/wkf_execution_error.png)
 
