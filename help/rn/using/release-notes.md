@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 97%
 # Dernière version{#latest-release}
 
 [Calendrier des versions](../../rn/using/release-planning.md) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nouveau Panneau de configuration Version** de juin avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. See [Control Panel Release Notes](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## Version 20.3 - Mai 2020 {#release-20-3---may-2020}
 
@@ -69,9 +71,7 @@ ht-degree: 97%
 </tbody> 
 </table>
 
->[!NOTE]
->
->Le renouvellement du certificat pour les sous-domaines CNAME est publié dans le Panneau de configuration Campaign en mai. For more on this, refer to the [Control Panel Release Note](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Le nouveau Panneau de configuration peut être publié** avec le renouvellement de certificat pour les sous-domaines CNAME. See [Control Panel Release Notes](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 **Améliorations**
 
