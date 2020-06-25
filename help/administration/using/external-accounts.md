@@ -133,7 +133,9 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple :
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
