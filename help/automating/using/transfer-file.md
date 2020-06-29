@@ -12,8 +12,11 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+translation-type: tm+mt
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 99%
 
 ---
 
@@ -30,12 +33,15 @@ L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’en
 >
 >À compter de la version 20.3, les fichiers téléchargés avec l’activité **[!UICONTROL Transférer le fichier]** seront supprimés après X jours, où X est déterminé par le champ **[!UICONTROL Jours d’historique]** sous le menu **[!UICONTROL Exécution]** dans les propriétés du workflow.
 
-
 ## Contexte d’utilisation {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
 Vous pouvez utiliser cette activité pour récupérer des données qui seront ensuite structurées avec l’activité **[!UICONTROL Chargement de fichier]**.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Mise à jour des données en fonction d’un téléchargement automatique de fichiers](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 
@@ -162,19 +168,3 @@ A chaque exécution de l’activité, le dossier est vérifié comme suit :
 >[!NOTE]
 >
 >Si l’activité n’est pas exécutée à nouveau, son dossier ne sera pas vérifié ni purgé. Faites donc preuve de prudence lorsque vous transférez des fichiers de grande taille.
-
-## Exemple {#example}
-
-L’exemple suivant montre le paramétrage d’une activité **Transfert de fichier** qui sera ensuite suivie d’une activité **Chargement de fichier** puis **Mise à jour de données**. Le but de ce workflow est d’ajouter ou de mettre à jour les profils de la base Adobe Campaign avec les données récupérées par le workflow.
-
-1. Placez une activité **Transfert de fichier** dans votre workflow.
-1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
-1. Dans l’onglet **[!UICONTROL Protocole]**, choisissez le protocole **SFTP**.
-1. Sélectionnez l’option **Utiliser des paramètres de connexion définis dans un compte externe**.
-1. Renseignez le nom du compte externe.
-1. Renseignez le **chemin des fichiers sur le serveur distant**.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Validez votre activité et sauvegardez votre workflow.
-
