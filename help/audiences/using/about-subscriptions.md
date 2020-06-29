@@ -11,8 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 80%
 
 ---
 
@@ -30,3 +33,9 @@ Chaque service est fourni avec :
 * un suivi de l&#39;**historique** des inscriptions.
 
 Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-a-service.md) .
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
+* [Cas d’utilisation : Mise à jour de plusieurs états d’abonnement à partir d’un fichier](../../automating/using/updating-subscriptions-from-file.md)
+* [Abonnement de profils à un service spécifique après importation d’un fichier](../../automating/using/subscribing-profiles-from-file.md)
