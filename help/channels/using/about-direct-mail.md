@@ -1,5 +1,5 @@
 ---
-title: A propos du canal Ccourrier
+title: A propos du canal Courrier
 description: Découvrez les spécificités principales du canal Courrier dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
@@ -38,23 +41,26 @@ Dans Adobe Campaign, le processus utilisateur est le suivant :
 1. Définir la date de contact
 1. Générer le fichier
 
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Association de diffusions de messagerie électronique et de messagerie directe](../../automating/using/coupling-email-direct-mail.md)
+
 ## Recommandations {#recommendations}
 
 ### Opérateurs de services postaux {#direct-mail-providers}
 
 Tout d&#39;abord, vous devez prendre connaissance des recommandations de votre opérateur de services postaux. Identifiez les informations de profil à inclure dans le fichier d&#39;extraction pour qu&#39;il puisse personnaliser la communication et l&#39;envoyer à l&#39;audience. Il peut s&#39;agir du prénom et du nom de famille, de l&#39;adresse postale, d&#39;un code de promotion, etc. Ces champs sont ceux que vous ajouterez dans l&#39;onglet [Définir l&#39;extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) du contenu du courrier.
 
-Make sure you have checked the **[!UICONTROL Address specified]** box in your profiles&#39; information. Si cette option est activée, le profil est ajouté à la cible. Si ce n&#39;est pas le cas, il est exclu par une règle de typologie pendant la phase de préparation (voir [Créer le courrier](../../channels/using/creating-the-direct-mail.md)). Pendant l&#39;import des profils, pensez à mettre à jour ce champ.
+Assurez-vous que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Si cette option est activée, le profil est ajouté à la cible. Si ce n&#39;est pas le cas, il est exclu par une règle de typologie pendant la phase de préparation (voir [Créer le courrier](../../channels/using/creating-the-direct-mail.md)). Pendant l&#39;import des profils, pensez à mettre à jour ce champ.
 
 ![](assets/direct_mail_22.png)
 
-### Adresses postales {#postal-addresses}
+### Adresses postales  {#postal-addresses}
 
-When you add the fields to include in the extraction file, the postal address fields are available in the **[!UICONTROL Location]** node.
+Lors de l&#39;ajout des champs à inclure dans le fichier d&#39;extraction, les champs d&#39;adresse postale sont accessibles dans le nœud **[!UICONTROL Localisation]**.
 
-Adobe Campaign vous propose un ensemble de champs calculés prédéfinis qui respectent les normes les plus courantes des adresses postales. The fields are available in the **[!UICONTROL Postal address]** node.
+Adobe Campaign vous propose un ensemble de champs calculés prédéfinis qui respectent les normes les plus courantes des adresses postales. Ces champs sont accessibles dans le nœud **[!UICONTROL Adresse postale]**.
 
-An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
+Par défaut, une adresse peut contenir jusqu&#39;à six lignes : la première ligne (**[!UICONTROL Ligne 1]**) contient le prénom et le nom, les suivantes contiennent les coordonnées postales (rue et compléments) et la dernière contient le code postal et la ville.
 
 ![](assets/direct_mail_23.png)
-
