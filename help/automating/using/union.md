@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,10 @@ L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusi
 ## Contexte d&#39;utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populations des transitions entrantes dans le cadre d&#39;une segmentation, d&#39;une définition d&#39;audience ou en vue de la préparation de la cible d&#39;un message par exemple.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Union sur deux audiences raffinées](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuration {#configuration}
 
