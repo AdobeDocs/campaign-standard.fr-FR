@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 98%
+source-wordcount: '1503'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,13 @@ Vous pouvez ainsi :
 
 * utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Mise à jour de la base de données avec des données externes](../../automating/using/update-database-file.md)
+* [Cas d’utilisation : Mise à jour des données en fonction d’un téléchargement automatique de fichiers](../../automating/using/update-data-automatic-download.md)
+* [Cas d’utilisation : Envoi d’un courriel contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
+* [Cas d’utilisation : Rapprocher une audience de fichiers de la base de données](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -147,6 +154,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Utiliser une valeur par défaut]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
    * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;absence de recodification]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
    * **[!UICONTROL Rejeter la ligne en cas d&#39;absence de recodification]** : la ligne entière n&#39;est pas traitée sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
+
    >[!NOTE]
    >
    >**[!UICONTROL Le Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
@@ -157,75 +165,3 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Générer une erreur pour les champs numériques]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
    * **[!UICONTROL Insérer NULL dans le champ correspondant]** : autorise les valeurs vides. La valeur NULL est alors insérée.
    * **[!UICONTROL Générer une erreur]** : génère une erreur en cas de valeur vide.
-
-## Exemple 1 : mise à jour de la base de données {#example-1-update-the-database}
-
-L&#39;activité de chargement de fichier sert essentiellement à structurer des données issues d&#39;une activité de transfert de fichier en vue de les intégrer à des données existantes.
-
-L&#39;exemple suivant montre le résultat d&#39;une activité de chargement d&#39;un fichier automatiquement téléchargé via une activité de transfert, suivie d&#39;une mise à jour de données. Le but de ce workflow est d&#39;enrichir la base Adobe Campaign avec de nouveaux profils ou de mettre à jour les profils existants à partir des données récupérées dans le fichier importé.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. Placez une activité **[!UICONTROL Transfert de fichier]** dans votre workflow et paramétrez-la de façon à récupérer le fichier de votre choix.
-1. Placez une activité **[!UICONTROL Chargement de fichier]** et connectez-la à la suite de l&#39;activité **[!UICONTROL Transfert de fichier]**.
-1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
-1. Dans la section **[!UICONTROL Fichier à charger]** de l&#39;onglet **[!UICONTROL Exécution]**, cochez la case **[!UICONTROL Utiliser le fichier provenant de la transition entrante]**.
-
-   ![](assets/wkf_file_loading8.png)
-
-1. Paramétrez l&#39;activité comme indiqué ci-dessus.
-1. Placez une activité **[!UICONTROL Mise à jour de données]**, connectez-la à la suite de l&#39;activité **[!UICONTROL Chargement de fichier]** et paramétrez-la. Voir [Mise à jour de données](../../automating/using/update-data.md).
-
-Une fois le workflow lancé, le fichier voulu est téléchargé, les données sont extraites, puis elles sont utilisées pour enrichir la base Adobe Campaign.
-
-## Exemple 2 : envoi d&#39;un email contenant des champs enrichis {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-L&#39;activité Chargement de fichier permet également d&#39;envoyer un email enrichi avec des données additionnelles provenant d&#39;un fichier externe dans le même workflow.
-
-L&#39;exemple ci-dessous montre comment envoyer un email enrichi avec des données additionnelles extraites d&#39;un fichier externe par le biais de l&#39;activité Chargement de fichier. Dans cet exemple, le fichier externe contient une liste de profils avec leur numéro de compte associé. Vous souhaitez importer ces données pour envoyer un email à chaque profil avec son numéro de compte.
-
-![](assets/load_file_workflow_ex2.png)
-
-1. Placez une activité **[!UICONTROL Requête]** dans votre workflow et ouvrez-la pour définir la cible principale.
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. Placez une activité **[!UICONTROL Chargement de fichier]** pour affecter des données à un profil. Dans cet exemple, chargez un fichier contenant les numéros de compte correspondant à certains profils de la base de données.
-
-   ![](assets/load_file_activity.png)
-
-1. Placez une activité **[!UICONTROL Enrichissement]** dans votre workflow et liez les activités Chargement de fichier et Requête à cette activité.
-
-1. Dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité Enrichissement, sélectionnez le **[!UICONTROL Lien simple de cardinalité 0 ou 1]** et définissez les champs à utiliser pour la réconciliation. Nous utilisons ici le nom de famille pour réconcilier les données avec les profils de base de données.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, sélectionnez les éléments à utiliser dans votre email. Sélectionnez ici le numéro de compte (colonne du fichier que vous avez récupéré via l&#39;activité Chargement de fichier).
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   Pour en savoir plus à ce sujet, reportez-vous à la section [Enrichissement](../../automating/using/enrichment.md).
-
-1. Placez une activité **[!UICONTROL Segmentation]** dans votre workflow et ouvrez-la pour affiner la cible principale.
-
-   ![](assets/load_file_segmentation.png)
-
-   Pour en savoir plus à ce sujet, reportez-vous à la section [Segmentation](../../automating/using/segmentation.md).
-
-1. Placez une activité **[!UICONTROL Diffusion Email]** dans votre workflow, puis ouvrez-la.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. Ajoutez un champ de personnalisation et sélectionnez les données additionnelles définies dans l&#39;activité Enrichissement (ici, le numéro de compte) du nœud **[!UICONTROL Données additionnelles (targetData)]**. Vous pouvez ainsi récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l&#39;email.
-
-   ![](assets/load_file_perso_field.png)
-
-1. Enregistrez l&#39;email et démarrez le workflow.
-
-L&#39;email est envoyé à la cible. Chaque profil reçoit l&#39;email avec son numéro de compte correspondant.
-
-![](assets/load_file_email.png)
