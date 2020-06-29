@@ -13,10 +13,10 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 95%
+source-wordcount: '445'
+ht-degree: 91%
 
 ---
 
@@ -36,6 +36,10 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 >[!CAUTION]
 >
 >L&#39;activité **[!UICONTROL Extraction de fichier]** doit être obligatoirement placée à la suite d&#39;une activité **[!UICONTROL Requête]** pour pouvoir être utilisée.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Exportation de profils dans un fichier externe](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configuration {#configuration}
 
@@ -76,48 +80,4 @@ La façon dont les données seront extraites est définie lors du paramétrage d
    Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
 
 1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
-
-## Exemple {#example}
-
-L&#39;exemple suivant illustre le paramétrage d&#39;une activité de type **[!UICONTROL Extraction de fichier]** suivant une activité de type **[!UICONTROL Requête]**.
-
-Le but de ce workflow est d&#39;exporter une liste de profils sous la forme d&#39;un fichier externe afin d&#39;en utiliser les données hors d&#39;Adobe Campaign.
-
-1. Placez une activité de type **[!UICONTROL Extraction de fichier]** à la suite d&#39;une activité de type **[!UICONTROL Requête]**.
-
-   Dans cet exemple, la requête porte sur tous les profils dont l&#39;âge se situe entre 18 et 30 ans inclus.
-
-1. Ouvrez l&#39;activité pour l&#39;éditer.
-1. Nommez le fichier de sortie.
-1. Ajoutez les colonnes de sortie.
-
-   Dans cet exemple, l&#39;email, l&#39;âge, la date de naissance, le nom et le prénom des profils ciblés sont ajoutés comme colonnes de sortie.
-
-   ![](assets/wkf_data_export6.png)
-
-1. Cliquez sur l&#39;onglet **[!UICONTROL Structure du fichier]** pour définir :
-
-   * le format de sortie CSV.
-
-      ![](assets/wkf_data_export7.png)
-
-   * Format de date
-
-      ![](assets/wkf_data_export9.png)
-
-1. Validez votre activité.
-1. Placez une activité de type **[!UICONTROL Transfert de fichier]** à la suite de l&#39;activité **[!UICONTROL Extraction de fichier]** pour récupérer le fichier extrait sur un compte externe.
-1. Ouvrez l&#39;activité et choisissez l&#39;action **[!UICONTROL Envoi de fichier]**.
-
-   ![](assets/wkf_data_export11.png)
-
-1. Sélectionnez le compte externe et spécifiez le chemin du dossier sur le serveur.
-
-   ![](assets/wkf_data_export12.png)
-
-1. Validez votre activité et sauvegardez votre workflow.
-1. Démarrez le workflow.
-
-   Lorsque le workflow s&#39;est correctement exécuté, le fichier extrait est disponible sur le compte externe.
-
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
