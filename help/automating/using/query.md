@@ -12,8 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
+translation-type: tm+mt
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '1838'
+ht-degree: 98%
 
 ---
 
@@ -27,6 +30,11 @@ source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 L’activité **[!UICONTROL Requête]** permet de filtrer et d’extraire une population d’éléments de la base de données Adobe Campaign. Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la population ciblée via un onglet dédié. Ces données sont stockées dans des colonnes additionnelles et sont exploitables uniquement pour le workflow en cours.
 
 L’activité utilise l’outil d’édition de requêtes, dont le fonctionnement est détaillé dans une [section dédiée](../../automating/using/editing-queries.md#about-query-editor).
+
+**Rubriques connexes :**
+
+* [Exemples de requêtes ](../../automating/using/query-samples.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Contexte d’utilisation {#context-of-use}
 
@@ -65,8 +73,6 @@ Les dimensions de ciblage et les ressources permettent de définir sur quels él
 
 Les dimensions de ciblage sont définies dans les mappings de ciblage. Voir à ce propos [cette section](../../administration/using/target-mappings-in-campaign.md).
 
-### Définir la dimension de ciblage et la ressource d’une requête  {#defining-the-targeting-dimension-and-resource-of-a-query}
-
 La dimension de ciblage et les ressources sont définies lors de la création d’un workflow, dans l’onglet **[!UICONTROL Propriétés]** d’une activité Requête.
 
 >[!NOTE]
@@ -95,33 +101,9 @@ Exemple de filtres disponibles pour la ressource **[!UICONTROL Diffusions (deliv
 
 ![](assets/targeting_dimension5.png)
 
-### Utiliser des ressources différentes des dimensions de ciblage {#using-resources-different-from-targeting-dimensions}
+Par défaut, la dimension de ciblage et la ressource sont définies pour cibler des profils. Il peut toutefois s’avérer utile d’utiliser une ressource différente de la dimension de ciblage si vous souhaitez rechercher un enregistrement spécifique dans une table distante.
 
-Par défaut, la dimension de ciblage et la ressource sont définies pour cibler des profils.
-
-Il peut toutefois s’avérer utile d’utiliser une ressource différente de la dimension de ciblage si vous souhaitez rechercher un enregistrement spécifique dans une table distante.
-
-**Exemple 1 : identification des profils ciblés par la diffusion avec le libellé « Ravi de vous revoir parmi nous »**.
-
-* Dans ce cas, nous voulons cibler des profils. La dimension de ciblage sera donc définie sur **[!UICONTROL Profils (profile)]**.
-* Nous voulons également filtrer les profils sélectionnés en fonction du libellé de la diffusion. La ressource sera donc définie sur **[!UICONTROL Logs de diffusion]**. Ainsi, nous appliquerons un filtre directement dans la table des logs de diffusion, ce qui offrira de meilleures performances.
-
-![](assets/targeting_dimension6.png)
-
-![](assets/targeting_dimension7.png)
-
-**Exemple 2 : identification des profils qui n’étaient pas ciblés par la diffusion avec le libellé « Ravi de vous revoir parmi nous ».**
-
-Dans l’exemple précédent, nous avons utilisé une ressource différente de la dimension de ciblage. Cette opération n’est possible que si vous recherchez un enregistrement qui **se trouve** dans la table distante (logs de diffusion dans le cas présent).
-
-Si nous recherchons un enregistrement qui **ne figure pas** dans la table distante (comme des profils n’étant pas ciblés par une diffusion spécifique), nous devons utiliser les mêmes ressource et dimension de ciblage dans la mesure où l’enregistrement ne se trouve pas dans la table distante (logs de diffusion).
-
-* Dans ce cas, nous voulons cibler des profils. La dimension de ciblage sera donc définie sur **[!UICONTROL Profils (profile)]**.
-* Nous voulons également filtrer les profils sélectionnés en fonction du libellé de la diffusion. Il n’est pas possible d’appliquer directement un filtre sur les logs de diffusion dans la mesure où nous recherchons un enregistrement qui ne figure pas dans la table des logs de diffusion. La ressource sera donc définie sur **[!UICONTROL Profil (profile)]** et la requête sera créée sur la table des profils.
-
-![](assets/targeting_dimension8.png)
-
-![](assets/targeting_dimension9.png)
+Pour plus d’informations sur ce sujet, reportez-vous à ce cas d’utilisation : [Utilisation de ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Enrichir des données {#enriching-data}
 
@@ -142,6 +124,8 @@ Après avoir ajouté des données additionnelles, vous pouvez appliquer un nivea
 >[!NOTE]
 >
 >Par défaut, l’option **[!UICONTROL Supprimer les doublons (DISTINCT)]** est cochée dans les **[!UICONTROL Options avancées]** de l’onglet **[!UICONTROL Données additionnelles]** de la requête. Pour des raisons de performance, il est recommandé de décocher cette option si l’activité **[!UICONTROL Requête]** contient de nombreuses données additionnelles (à partir de 100) définies. Sachez que si cette option est décochée, vous pouvez obtenir des doublons, selon les données faisant l’objet de la requête.
+
+Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md)un exemple d’utilisation de la personnalisation d’un courrier électronique contenant des données supplémentaires.
 
 ### Ajouter un champ simple  {#adding-a-simple-field}
 
@@ -246,135 +230,3 @@ Pour cela, dans l’onglet **[!UICONTROL Affiner la cible]**, ajoutez simplement
 ![](assets/enrichment_output_filtering2.png)
 
 ![](assets/enrichment_output_filtering.png)
-
-### Exemple : personnaliser un email avec des données additionnelles {#example--personalizing-an-email-with-additional-data}
-
-L’exemple suivant illustre l’ajout de différents types de données additionnelles dans une requête et leur utilisation en tant que champ de personnalisation dans un email.
-
-Pour cet exemple, des [ressources personnalisées](../../developing/using/data-model-concepts.md) sont utilisées :
-
-* La ressource **profile** a été étendue afin d’ajouter un champ permettant d’enregistrer les points fidélité de chaque profil.
-* Une ressource **transactions** a été créée et recense tous les achats effectués par les profils de la base. La date, le prix et le produit acheté est conservé pour chaque transaction.
-* Une ressource **produits** a été créée et référence les produits disponibles à l’achat.
-
-L’objectif est d’envoyer un email aux profils pour lesquels au moins une transaction a été enregistrée. Via cet email, les clients recevront un rappel de la dernière transaction qu’ils ont effectuée ainsi que diverses informations récapitulatives sur l’ensemble de leurs transactions : nombre de produits achetés, total dépensé, rappel du nombre de points fidélité acquis.
-
-Le workflow de se présente comme suit :
-
-![](assets/enrichment_example1.png)
-
-1. Ajoutez une activité de **[!UICONTROL Requête]** permettant de cibler les profils ayant effectué au moins une transaction.
-
-   ![](assets/enrichment_example2.png)
-
-   Depuis l’onglet **[!UICONTROL Données additionnelles]** de la requête, définissez les différentes données devant être affichées dans l’email final :
-
-   * Le champ simple de la dimension **profile** correspondant aux points fidélité. Reportez-vous à la section [Ajouter un champ simple](#adding-a-simple-field).
-   * Deux agrégats basés sur la collection des transactions : le nombre de produits achetés et le montant total dépensé. Vous pouvez les ajouter depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage des agrégats, en utilisant les agrégats **Count** et **Sum**. Reportez-vous à la section [Ajouter un agrégat](#adding-an-aggregate).
-   * Une collection permettant de retrouver le montant, la date et le produit de la dernière transaction effectuée.
-
-      Pour cela, vous devez ajouter les différents champs que vous souhaitez afficher depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage d’une collection.
-
-      Pour que seule la transaction la plus récente soit renvoyée, vous devez indiquer &quot;1&quot; au niveau du **[!UICONTROL Nombre de lignes à retourner]** et appliquer un tri décroissant sur le champ **Date** de la collection depuis l’onglet **[!UICONTROL Tri]**.
-
-      Reportez-vous aux sections [Ajouter une collection](#adding-a-collection) et [Trier les données additionnelles](#sorting-additional-data).
-   ![](assets/enrichment_example4.png)
-
-   Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.
-
-   ![](assets/enrichment_example5.png)
-
-1. Ajoutez une activité **[!UICONTROL Diffusion Email]**. Dans le contenu de l’email, insérez les champs de personnalisation correspondant aux données calculées dans la requête. Vous pouvez les retrouver via le lien **[!UICONTROL Données additionnelles (targetData)]** de l’explorateur des champs de personnalisation.
-
-   ![](assets/enrichment_example3.png)
-
-Votre workflow est prêt à être exécuté. Les profils ciblés dans la requête recevront un email personnalisé contenant les données calculées issues de leurs transactions.
-
-## Exemples de requêtes  {#query-samples}
-
-### Ciblage des attributs de profil simples {#targeting-on-simple-profile-attributes}
-
-L’exemple qui suit montre une activité de requête configurée pour cibler les hommes âgés de 18 à 30 ans, vivant à Londres.
-
-![](assets/query_sample_1.png)
-
-### Ciblage des attributs d’emails  {#targeting-on-email-attributes}
-
-L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont le domaine d’adresse électronique est « orange.co.uk ».
-
-![](assets/query_sample_emaildomain.png)
-
-L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont l’adresse électronique a été fournie.
-
-![](assets/query_sample_emailnotempty.png)
-
-### Ciblage de profils dont c’est l’anniversaire  {#targeting-profiles-whose-birthday-is-today}
-
-L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont c’est l’anniversaire.
-
-1. Faites glisser le filtre **[!UICONTROL Anniversaire]** dans votre requête.
-
-   ![](assets/query_sample_birthday.png)
-
-1. Définissez le **[!UICONTROL Type de filtre]** sur **[!UICONTROL Relatif]** et sélectionnez **[!UICONTROL Aujourd’hui]**.
-
-   ![](assets/query_sample_birthday2.png)
-
-### Ciblage des profils ayant ouvert une diffusion spécifique {#targeting-profiles-who-opened-a-specific-delivery}
-
-L’exemple qui suit montre une activité de requête configurée pour filtrer les profils ayant ouvert une diffusion avec le libellé « Été ».
-
-1. Faites glisser le filtre **[!UICONTROL Ont ouvert]** dans votre requête.
-
-   ![](assets/query_sample_opened.png)
-
-1. Sélectionnez la diffusion et cliquez sur **[!UICONTROL Confirmer]**.
-
-   ![](assets/query_sample_opened2.png)
-
-### Ciblage des profils pour lesquels les diffusions ont échoué pour une raison spécifique {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
-
-L’exemple qui suit montre une activité de requête configurée pour filtrer les profils pour lesquels les diffusions ont échoué en raison d’une boîte pleine. Cette requête est uniquement disponible pour les utilisateurs dotés de droits d’administration et faisant partie des entités organisationnelles **[!UICONTROL All (tous)]** (voir [cette section](../../administration/using/organizational-units.md)).
-
-1. Sélectionnez la ressource **[!UICONTROL Logs de diffusion]** afin de filtrer directement dans le tableau du log de diffusion (voir [Utiliser des ressources différentes des dimensions de ciblage](#using-resources-different-from-targeting-dimensions)).
-
-   ![](assets/query_sample_failure1.png)
-
-1. Faites glisser le filtre **[!UICONTROL Nature de l’échec]** dans votre requête.
-
-   ![](assets/query_sample_failure2.png)
-
-1. Sélectionnez le type d’échec que vous souhaitez cibler. Dans votre cas, **[!UICONTROL Boîte pleine]**.
-
-   ![](assets/query_sample_failure3.png)
-
-### Ciblage des profils n’ayant pas été contactés au cours des 7 derniers jours {#targeting-profiles-not-contacted-during-the-last-7-days}
-
-L’exemple qui suit montre une activité de requête configurée pour filtrer les profils n’ayant pas été contactés au cours des 7 derniers jours.
-
-1. Faites glisser le filtre **[!UICONTROL Logs de diffusion (logs)]** dans votre requête.
-
-   ![](assets/query_sample_7days.png)
-
-   Sélectionnez **[!UICONTROL N’existe pas]** dans la liste déroulante, puis faites glisser le filtre **[!UICONTROL Diffusion]**.
-
-   ![](assets/query_sample_7days1.png)
-
-1. Configurez le filtre comme indiqué ci-dessous.
-
-   ![](assets/query_sample_7days2.png)
-
-### Ciblage des profils ayant cliqué sur un lien spécifique  {#targeting-profiles-who-clicked-a-specific-link-}
-
-1. Faites glisser le filtre **[!UICONTROL Tracking (tracking)]** dans votre requête.
-
-   ![](assets/query_sample_trackinglogs.png)
-
-1. Faites glisser le filtre **[!UICONTROL Libellé (urlLabel)]**.
-
-   ![](assets/query_sample_trackinglogs2.png)
-
-1. Dans le champ **[!UICONTROL Valeur]**, saisissez le libellé défini lors de l’insertion du lien à la diffusion, puis confirmez.
-
-   ![](assets/query_sample_trackinglogs3.png)
-
