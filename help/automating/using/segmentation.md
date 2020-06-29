@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 98%
+source-wordcount: '972'
+ht-degree: 94%
 
 ---
 
@@ -33,9 +33,18 @@ L&#39;activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs s
 >
 >Par défaut, un membre de la population entrante ne peut appartenir qu&#39;à un seul segment. Les filtrages sont appliqués dans l&#39;ordre des segments dans l&#39;activité.
 
-## Contexte d&#39;utilisation {#context-of-use}
+**Rubriques connexes :**
+* [Cas d’utilisation : Segmentation à l’emplacement](../../automating/using/workflow-segmentation-location.md)
+* [Cas d’utilisation : Création d&#39;une Population témoin](../../automating/using/workflow-control-group.md)
+* [Cas d’utilisation : Segmentation en fonction des groupes d’âge](../../automating/using/segmentation-age-groups.md)
+
+## Contexte d’utilisation {#context-of-use}
 
 L&#39;activité **[!UICONTROL Segmentation]** est généralement placée après des activités de ciblage (requête, intersection, union, exclusion, etc.) permettant de définir la population de base à partir de laquelle les segments seront formés.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Segmentation des profils en fonction de leur groupe](../../automating/using/segmentation-age-groups.md)d’âge.
 
 ## Configuration {#configuration}
 
@@ -93,31 +102,6 @@ L&#39;activité **[!UICONTROL Segmentation]** est généralement placée après 
 
    * Cochez l&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** si vous souhaitez qu&#39;un membre de la population entrante puisse appartenir à plusieurs segments. La population en sortie de l&#39;activité pourra être supérieure à la population en entrée.
    * Cochez l&#39;option **[!UICONTROL Concaténer le code de chaque segment]** si la population entrante a déjà un code segment et que vous souhaitez le conserver. Le code segment défini dans l&#39;activité sera ajouté au code segment initial.
-   * Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante.
+   * Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
-
-## Exemple {#example}
-
-L&#39;exemple suivant illustre une segmentation de profils de la base de données en fonction de leur tranche d&#39;âge. Le but du workflow est d&#39;envoyer un email distinct pour chaque tranche d&#39;âge. En considérant que ce workflow fait partie d&#39;une campagne de test, chaque segment ne pourra contenir qu&#39;un maximum de 100 profils, sélectionnés aléatoirement, afin d&#39;utiliser des audiences à la fois limitées et représentatives.
-
-![](assets/wkf_segment_example_4.png)
-
-Le workflow est défini comme suit :
-
-* Une activité **[!UICONTROL Planificateur]** permettant de définir la date d&#39;exécution du workflow. Consultez la section [Planificateur](../../automating/using/scheduler.md).
-* Une activité **[!UICONTROL Requête]** permettant de cibler les profils de personnes dont la date de naissance et l&#39;adresse email sont renseignées. Consultez la section [Requête](../../automating/using/query.md).
-* Une activité **[!UICONTROL Segmentation]** permet de créer trois segments répartis dans des transitions sortantes différentes : 18 - 25 ans, 26 - 32 ans et plus de 32 ans. Les segments sont définis selon les paramètres suivants :
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * un filtrage sur l&#39;âge permettant de définir la tranche d&#39;âge du segment
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * une limitation de type **[!UICONTROL Tirage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
-
-      ![](assets/wkf_segment_example_1.png)
-
-* Une activité **[!UICONTROL Diffusion email]** par segment. Consultez la section [Diffusion Email](../../automating/using/email-delivery.md).
-
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
