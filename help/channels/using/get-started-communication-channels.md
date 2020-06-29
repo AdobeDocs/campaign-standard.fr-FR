@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -27,8 +30,8 @@ source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
-Adobe Campaign vous permet de lancer, de mesurer et d’automatiser des campagnes sur chaque canal.
-L&#39;harmonisation de tous vos canaux marketing n&#39;est pas une tâche impossible. Avec l&#39;aide de Adobe Campaign, vous pouvez intégrer dans un seul profil les données client provenant de différents systèmes, périphériques et canaux. Ensuite, lancez des campagnes opportunes et pertinentes qui répondent aux besoins de vos clients aux bons endroits et de la bonne façon le long de leur parcours client.
+ Adobe Campaign vous permet de lancer, de mesurer et d&#39;automatiser des campagnes sur chaque canal.
+L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Avec l&#39;aide d’Adobe Campaign, vous pouvez importer les données client de différents systèmes, appareils et canaux, dans un seul et même profil. Ensuite, lancez des campagnes pertinentes et opportunes qui répondent aux besoins de vos clients aux bons endroits et de la bonne manière lors de leur parcours client.
 
 ## Concepts globaux {#global-concepts}
 
@@ -50,11 +53,11 @@ En savoir plus:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinq canaux** de communication sont disponibles à Adobe Campaign : Courriel, message SMS, notification Push, message in-app et diffusion de Courrier.
+**Cinq canaux** de communication sont disponibles en Adobe Campaign : Courriel, message SMS, notification Push, message in-app et diffusion de Courrier.
 
 Pour chaque canal, des fonctionnalités spécifiques sont disponibles. Par exemple, le canal de messagerie vous permet d’effectuer des tests A/B afin de tester jusqu’à 3 versions d’un message électronique. Avec le canal SMS, gérez les messages STOP SMS et stockez les SMS entrants des destinataires dans votre base de données.
 
-De plus, tirez parti de la **personnalisation Campaign Standard et des fonctionnalités** de contenu dynamique pour capter l’intérêt de votre audience.
+De plus, exploitez la **personnalisation des Campaign Standards et les fonctionnalités** de contenu dynamique pour capter l’intérêt de votre audience.
 
 En savoir plus:
 
@@ -99,7 +102,8 @@ En savoir plus:
 
 * [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md)
 * [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
-* [Conception d’un contenu de courrier électronique](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Conception d’un contenu d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importation d’un contenu AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envoi de messages avec des workflows](../../automating/using/about-channel-activities.md)
 * [Vidéos didacticielles sur les canaux de communication](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Cas d’utilisation : Création d’une diffusion entre canaux](../../automating/using/workflow-cross-channel-delivery.md)
