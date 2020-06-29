@@ -12,8 +12,11 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+translation-type: tm+mt
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -35,6 +38,11 @@ Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une act
 >[!CAUTION]
 >
 >La **[!UICONTROL Fréquence de répétition]** de l&#39;activité ne peut pas être inférieure à 10 minutes, ce qui signifie qu&#39;un workflow ne peut pas être exécuté automatiquement plusieurs fois toutes les 10 minutes.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Création de diffusions à la date de création des profils](../../automating/using/workflow-creation-date-query.md)
+* [Cas d’utilisation : Création d’une diffusion de messagerie tous les mardis](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuration {#configuration}
 
@@ -65,7 +73,7 @@ Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une act
 
 1. Dans l&#39;onglet **[!UICONTROL Options d&#39;exécution]**, définissez le fuseau horaire du Planificateur dans le champ **[!UICONTROL Fuseau horaire.]**
 
-   Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion selon le fuseau horaire du destinataire, consultez cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou reportez-vous à cet [exemple](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) de workflow récurrent.
+   Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion selon le fuseau horaire du destinataire, consultez cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou reportez-vous à cet [exemple](../../automating/using/recurring-push-notifications.md) de workflow récurrent.
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
