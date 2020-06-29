@@ -12,13 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+translation-type: tm+mt
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 98%
 
 ---
 
 
-# Services d’inscriptions{#subscription-services}
+# Services d’inscriptions {#subscription-services}
 
 ## Description {#description}
 
@@ -37,6 +40,11 @@ L’activité **[!UICONTROL Services d’abonnements]** est la seule fonctionnal
 Vous pouvez utiliser cette activité après avoir effectué un ciblage ou importé un fichier avec des données identifiées.
 
 Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cette activité permet également de sélectionner l’action (abonner ou désabonner) et le service sur lequel exécuter l’action.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Mise à jour de plusieurs états d’abonnement à partir d’un fichier](../../automating/using/updating-subscriptions-from-file.md)
+* [Cas d’utilisation : Abonnement de profils d’un fichier à un service spécifique](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configuration {#configuration}
 
