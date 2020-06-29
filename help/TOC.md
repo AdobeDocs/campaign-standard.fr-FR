@@ -4,10 +4,10 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 93%
+source-wordcount: '1524'
+ht-degree: 86%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 93%
       + [Créer le courrier](channels/using/creating-the-direct-mail.md)
       + [Définir l’audience du courrier](channels/using/defining-the-direct-mail-audience.md)
       + [Définir le contenu du courrier](channels/using/defining-the-direct-mail-content.md)
-      + [Exemple d’un courrier dans un workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Messages transactionnels {#transactional-messaging}
       + [A propos des messages transactionnels](channels/using/about-transactional-messaging.md)
       + [Messages transactionnels basés sur un événement](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 93%
       + [Gestion des packages](automating/using/managing-packages.md)
       + [Export de listes](automating/using/exporting-lists.md)
       + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
-   + Cas pratiques : workflows {#workflow-use-case}
-      + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
-      + [Création de diffusions à la date de création](automating/using/workflow-creation-date-query.md)
-      + [Création d’une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
-      + [Création d’une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
-      + [Reciblage des personnes n’ayant pas ouvert l’email](automating/using/workflow-cross-channel-retargeting.md)
-      + [Création d’un groupe témoin](automating/using/workflow-control-group.md)
-      + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
+   + Cas pratiques {#workflow-use-case}
+      + Diffusions {#deliveries}
+         + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
+         + [Création de diffusions à la date de création des profils](automating/using/workflow-creation-date-query.md)
+         + [Création d’une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
+         + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
+         + [Identification des duplicata avant une diffusion](automating/using/identifying-duplicated-before-delivery.md)
+         + [diffusion d&#39;anniversaire](automating/using/birthday-delivery.md)
+         + [Association de diffusions de messagerie électronique et de messagerie directe](automating/using/coupling-email-direct-mail.md)
+         + [Envoi d’un courriel contenant des champs enrichis](automating/using/sending-email-enriched-fields.md)
+         + [Personnalisation d’un courrier électronique avec des données supplémentaires](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentation et ciblage {#segmentation-targeting}
+         + [Exemples de requêtes ](automating/using/query-samples.md)
+         + [Union sur deux audiences raffinées](automating/using/union-on-two-refined-audiences.md)
+         + [Création d’une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
+         + [Reciblage des personnes n’ayant pas ouvert l’email](automating/using/workflow-cross-channel-retargeting.md)
+         + [Requête incrémentale sur les abonnés à un service](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentation en fonction des groupes d’âge](automating/using/segmentation-age-groups.md)
+         + [Utiliser des ressources différentes des dimensions de ciblage](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Création d’un groupe témoin](automating/using/workflow-control-group.md)
+      + Data management {#data-management}
+         + [Rapprocher une audience de fichiers de la base de données](automating/using/reconcile-file-audience-with-database.md)
+         + [Déduplication des données à partir d’un fichier importé](automating/using/deduplicating-data-imported-file.md)
+         + [Enrichir des données de profil avec des données contenues dans un fichier](automating/using/enriching-profile-data-file.md)
+         + [activité de signaux externes et importation de données](automating/using/external-signal-data-import.md)
+         + [Mise à jour de la base de données avec des données externes](automating/using/update-database-file.md)
+         + [Mise à jour des données en fonction d’un téléchargement automatique de fichiers](automating/using/update-data-automatic-download.md)
+         + [Rapprochement des données à l’aide des relations](automating/using/reconciliation-using-relations.md)
+         + [Mise à jour des données à l’aide de la réconciliation](automating/using/data-update-reconciliation.md)
+         + [Exportation de profils dans un fichier externe](automating/using/exporting-profiles-in-file.md)
+         + [Mise à jour de plusieurs états d’abonnement à partir d’un fichier](automating/using/updating-subscriptions-from-file.md)
+         + [Abonnement de profils d’un fichier à un service spécifique](automating/using/subscribing-profiles-from-file.md)
    + Utilisation des audiences Adobe Experience Platform {#working-with-aep-audiences}
       + [Ciblage des audiences Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
