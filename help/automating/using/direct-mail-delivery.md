@@ -12,8 +12,11 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+translation-type: tm+mt
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '964'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +44,11 @@ Lorsque la diffusion courrier est associée à un planificateur, il est possible
 Les destinataires du courrier sont définis en amont de l&#39;activité dans le même workflow, grâce à des activités de ciblage telles que requêtes, intersections, etc. Les profils dont l&#39;adresse postale n&#39;est pas renseignée sont automatiquement exclus lors de la préparation du courrier.
 
 La préparation du message est déclenchée selon les paramètres d&#39;exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d&#39;en automatiser l&#39;exécution.
+
+**Rubriques connexes :**
+
+* [Cas d’utilisation : Association de diffusions de messagerie électronique et de messagerie directe](../../automating/using/coupling-email-direct-mail.md)
+* [A propos du canal Courrier](../../channels/using/about-direct-mail.md)
 
 ## Configuration {#configuration}
 
@@ -89,7 +97,3 @@ Les exécutions des diffusions récurrentes sont masquées par défaut. Pour les
 Depuis les diffusions parentes, accessibles depuis la liste des activités marketing ou directement via les exécutions récurrentes associées, vous pouvez visualiser l&#39;ensemble des courriers ayant été traités (en fonction de la période d&#39;agrégation définie lors du paramétrage de l&#39;activité de **[!UICONTROL Diffusion courrier]**). Pour cela, accédez au détail du bloc **[!UICONTROL Déploiement]** de la diffusion parente en sélectionnant le bouton ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Exemple {#example}
-
-Un exemple de **[!UICONTROL Diffusion courrier]** est disponible dans le chapitre [Courrier](../../channels/using/example-of-direct-mail-in-a-workflow.md).
