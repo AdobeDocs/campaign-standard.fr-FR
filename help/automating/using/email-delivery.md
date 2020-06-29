@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '903'
 ht-degree: 97%
 
 ---
@@ -44,6 +44,14 @@ Associée à un planificateur, il est possible de définir des emails de type r�
 Les destinataires de l&#39;email sont définis en amont de l&#39;activité dans le même workflow, grâce à des activités de ciblage telles que requêtes, intersections, etc.
 
 La préparation du message est déclenchée selon les paramètres d&#39;exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d&#39;en automatiser l&#39;exécution.
+
+**Rubriques connexes :**
+
+* [Cas pratique : création d’une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création d’une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas d’utilisation : diffusion d&#39;anniversaire](../../automating/using/birthday-delivery.md)
 
 ## Configuration {#configuration}
 
@@ -91,28 +99,3 @@ Toutefois, les exécutions des diffusions récurrentes sont masquées par défau
 Depuis les diffusions parentes, accessibles depuis la liste des activités marketing ou directement via les exécutions récurrentes associées, vous pouvez visualiser l&#39;ensemble des envois ayant été réalisés (en fonction de la période d&#39;agrégation définie lors du paramétrage de l&#39;activité de **[!UICONTROL Diffusion Email]**). Pour cela, accédez au détail du bloc **[!UICONTROL Déploiement]** de la diffusion parente en sélectionnant![](assets/wkf_dlv_detail_button.png) .
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Exemple {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Cet exemple représente un workflow d&#39;anniversaire. Un email est envoyé chaque jour aux profils dont l&#39;anniversaire a lieu le jour même. Pour cela :
-
-* Le **[!UICONTROL Planificateur]** permet de lancer le workflow chaque jour à 8h00.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* La **[!UICONTROL Requête]** permet de calculer à chaque exécution du workflow les profils dont c&#39;est l&#39;anniversaire et dont l&#39;adresse email est renseignée. Le calcul de l&#39;anniversaire est réalisé grâce à un filtre prédéfini disponible dans la palette de l&#39;outil d&#39;édition de requêtes.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* L&#39;**[!UICONTROL Email]** est de type récurrent. Les envois sont agrégés par mois. Ainsi, tous les emails envoyés dans un mois sont agrégés dans une seule vue. En un an, 365 diffusions sont donc exécutées mais sont regroupées dans 12 vues (aussi appelés **exécutions récurrentes**) dans l&#39;interface d&#39;Adobe Campaign. Le détail des historiques et des rapports est ainsi affiché sur une base mensuelle et non pour chaque envoi.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Rubriques connexes :**
-
-* [Cas pratique : création d&#39;une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
-* [Cas pratique : création d’une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
-* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n&#39;ayant pas ouvert l&#39;email](../../automating/using/workflow-cross-channel-retargeting.md)
