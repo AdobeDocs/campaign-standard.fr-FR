@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -68,11 +68,8 @@ L&#39;onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTR
 
 * des données simples.
 * des agrégats.
-* Les collections
+* des collections.
 
 **Rubriques connexes :**
 
-* [Cas pratique : création d&#39;une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
-* [Cas pratique : création d’une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
-* [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n&#39;ayant pas ouvert l&#39;email](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas d’utilisation : Personnalisation d’un courrier électronique avec des données supplémentaires](../../automating/using/personalizing-email-with-additional-data.md)
