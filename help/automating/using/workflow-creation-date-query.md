@@ -1,6 +1,6 @@
 ---
-title: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
-description: '"Cas pratique de workflow : création de diffusions à la date de création du profil"'
+title: Création de diffusions à la date de création du profil
+description: Ce cas d’utilisation montre comment créer des diffusions à la date de création du profil.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,13 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+translation-type: tm+mt
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '415'
+ht-degree: 88%
 
 ---
 
 
-# Cas pratique de workflow : création de diffusions à la date de création des profils {#creation-date-query}
+# Creating deliveries on profiles&#39; creation date {#creation-date-query}
 
 Vous pouvez envoyer une offre par email à la date anniversaire de la création du profil du client.
 
@@ -28,7 +31,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 
 ## Créer une activité Planificateur {#creating-a-scheduler-activity}
 
-1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Exécution]**, effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Planificateur]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. Double-cliquez sur l&#39;activité.
 1. Configurez l&#39;exécution de votre diffusion.
 1. Dans **[!UICONTROL Fréquence d&#39;exécution]**, sélectionnez **[!UICONTROL Quotidienne]**.
@@ -44,7 +47,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 
 ## Créer une activité Requête {#creating-a-query-activity}
 
-1. Pour sélectionner les destinataires, effectuez un glisser-déposer d&#39;une activité **[!UICONTROL Requête]** et double-cliquez dessus.
+1. Pour sélectionner les destinataires, effectuez un glisser-déposer d&#39;une activité [](../../automating/using/query.md)Requête et double-cliquez dessus.
 1. Ajoutez des **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
 
 ### Récupération des profils créés le même jour que le jour d&#39;exécution {#retriving-profiles-created-on-the-same-day}
@@ -88,7 +91,7 @@ La requête finale affiche :
 
 ## Créer une diffusion email{#creating-an-email-delivery}
 
-1. Effectuez un glisser-déposer d&#39;une diffusion email.
+1. Faites glisser et déposez une activité de diffusion [](../../automating/using/email-delivery.md) de courriel.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email récurrent]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
@@ -102,7 +105,4 @@ Pour plus d&#39;informations, consultez la section décrivant la [conception d&#
 
 **Rubriques connexes :**
 
-* [Requête](../../automating/using/query.md)
-* [Planificateur](../../automating/using/scheduler.md)
-* [Diffusion Email ](../../automating/using/email-delivery.md)
 * [Canal email](../../channels/using/creating-an-email.md)
