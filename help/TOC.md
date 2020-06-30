@@ -4,10 +4,10 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 86%
+source-wordcount: '1528'
+ht-degree: 85%
 
 ---
 
@@ -305,6 +305,7 @@ ht-degree: 86%
       + [Export de listes](automating/using/exporting-lists.md)
       + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
    + Cas pratiques {#workflow-use-case}
+      + [A propos des cas d’utilisation des processus](automating/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
          + [Création de diffusions à la date de création des profils](automating/using/workflow-creation-date-query.md)
