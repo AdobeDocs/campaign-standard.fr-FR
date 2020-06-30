@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 94%
+source-wordcount: '5982'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,11 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 ## Mises à jour de la documentation - juin 2020 {#doc-updates-june-2020}
 
+Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../automating/using/about-workflow-use-cases.md)
+
 Des cas d’utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
 
-Les termes &quot;liste blanche&quot; et &quot;liste noire&quot; ont été supprimés de la documentation de l&#39;Adobe Campaign. Certaines occurrences de ces termes peuvent toujours exister dans l’interface utilisateur du produit, les noms d’option et le code interne, mais seront remplacées dans les prochaines versions de Campaign par &quot;liste bloquée&quot; et &quot;liste autorisée&quot;.
+Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
 Les références au site Web d&#39;assistance hérité ont été remplacées par la nouvelle URL. [En savoir plus](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
