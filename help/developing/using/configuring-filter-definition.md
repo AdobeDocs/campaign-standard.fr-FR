@@ -12,21 +12,24 @@ discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 95%
 
 ---
 
 
 # Configuration de la définition des filtres{#configuring-filter-definition}
 
-Dans l'onglet **[!UICONTROL Définition des filtres]**, vous pouvez créer des filtres avancés de sorte que les utilisateurs puissent directement y accéder lorsqu'ils élaborent des requêtes complexes, telles que la définition d'une audience.
+Dans l&#39;onglet **[!UICONTROL Définition des filtres]**, vous pouvez créer des filtres avancés de sorte que les utilisateurs puissent directement y accéder lorsqu&#39;ils élaborent des requêtes complexes, telles que la définition d&#39;une audience.
 
-Cette étape n'est pas obligatoire, car vous pourrez toujours renseigner votre ressource et accéder à ses données via les workflows, les audiences et l'API REST.
+Cette étape n&#39;est pas obligatoire, car vous pourrez toujours renseigner votre ressource et accéder à ses données via les workflows, les audiences et l&#39;API REST.
 
 ![](assets/custom_resource_filter-definition.png)
 
-Ces filtres sont utilisés dans l'éditeur de requêtes sous la forme de règles pré-paramétrées. Ils permettent de limiter le nombre d'étapes à réaliser afin d'obtenir le paramétrage souhaité, ce qui est particulièrement intéressant dans le cas de segmentations répétitives.
+Ces filtres sont utilisés dans l&#39;éditeur de requêtes sous la forme de règles pré-paramétrées. Ils permettent de limiter le nombre d&#39;étapes à réaliser afin d&#39;obtenir le paramétrage souhaité, ce qui est particulièrement intéressant dans le cas de segmentations répétitives.
 
 Par exemple, vous pouvez créer un filtre permettant de sélectionner toutes les transactions supérieures à un montant donné au cours des trois derniers mois.
 
@@ -38,22 +41,22 @@ Pour cela, vous devez étendre la ressource **[!UICONTROL Profiles]** et défini
    >
    >Cette procédure utilise comme exemple une table personnalisée des transactions. Adaptez-la aux besoins de votre entreprise.
 
-1. Avant de définir un filtre associé à la table des transactions dans la ressource **[!UICONTROL Profiles]**, assurez-vous de définir le lien vers cette table et de publier vos modifications. Voir [Définir les liens avec d'autres ressources](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) et [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md).
-1. Dans l'onglet **[!UICONTROL Définition]** de l'écran de définition de votre nouveau filtre, sélectionnez la table des transactions.
+1. Avant de définir un filtre associé à la table des transactions dans la ressource **[!UICONTROL Profiles]**, assurez-vous de définir le lien vers cette table et de publier vos modifications. Voir [Définir les liens avec d&#39;autres ressources](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) et [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md).
+1. Dans l&#39;onglet **[!UICONTROL Définition]** de l&#39;écran de définition de votre nouveau filtre, sélectionnez la table des transactions.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profils/Transactions]**, placez la table des transactions dans l'espace de travail. Dans la fenêtre suivante qui s'affiche, sélectionnez le champ que vous souhaitez utiliser.
+1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profils/Transactions]**, placez la table des transactions dans l&#39;espace de travail. Dans la fenêtre suivante qui s&#39;affiche, sélectionnez le champ que vous souhaitez utiliser.
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 
 1. Dans les **[!UICONTROL Configurations optionnelles du paramètre]** de la fenêtre **[!UICONTROL Ajouter une règle - Transactions]**, cochez la case **[!UICONTROL Définir des paramètres]**.
 
-   Dans les **[!UICONTROL Conditions de filtrage]**, sélectionnez l'opérateur **[!UICONTROL Supérieur ou égal à]**. Dans le champ **[!UICONTROL Paramètres]**, saisissez un nom et cliquez sur le signe + pour créer le nouveau paramètre.
+   Dans les **[!UICONTROL Conditions de filtrage]**, sélectionnez l&#39;opérateur **[!UICONTROL Supérieur ou égal à]**. Dans le champ **[!UICONTROL Paramètres]**, saisissez un nom et cliquez sur le signe + pour créer le nouveau paramètre.
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. Validez vos modifications. Il s'agit du champ paramétrable que l'utilisateur devra renseigner pour effectuer sa requête.
+1. Validez vos modifications. Il s&#39;agit du champ paramétrable que l&#39;utilisateur devra renseigner pour effectuer sa requête.
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
@@ -65,21 +68,26 @@ Pour cela, vous devez étendre la ressource **[!UICONTROL Profiles]** et défini
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. Dans l'onglet **[!UICONTROL Paramètres]** de l'écran de définition du filtre, modifiez la description et le libellé pour indiquer clairement aux utilisateurs l'objet de votre filtre. Ces informations apparaîtront dans l'éditeur de requêtes.
+1. Dans l&#39;onglet **[!UICONTROL Paramètres]** de l&#39;écran de définition du filtre, modifiez la description et le libellé pour indiquer clairement aux utilisateurs l&#39;objet de votre filtre. Ces informations apparaîtront dans l&#39;éditeur de requêtes.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
-   Si vous définissez plusieurs champs paramétrables, vous pouvez modifier leur ordre d'apparition dans l'interface.
+   Si vous définissez plusieurs champs paramétrables, vous pouvez modifier leur ordre d&#39;apparition dans l&#39;interface.
 
 1. Enregistrez vos modifications et publiez les ressources. Voir à ce sujet la section [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md).
 
-Une fois l'extension de la ressource **[!UICONTROL Profiles]** publiée, les utilisateurs verront apparaître ce filtre dans l'onglet des raccourcis de l'interface de l'[éditeur de requêtes](../../automating/using/editing-queries.md).
+Une fois l&#39;extension de la ressource **[!UICONTROL Profiles]** publiée, les utilisateurs verront apparaître ce filtre dans l&#39;onglet des raccourcis de l&#39;interface de l&#39;[éditeur de requêtes](../../automating/using/editing-queries.md).
 
-Lors de la création d'un email, ils pourront ainsi facilement définir leur audience afin que le message soit envoyé à tous les clients ayant dépensé plus d'un certain montant au cours des trois derniers mois.
+Lors de la création d&#39;un email, ils pourront ainsi facilement définir leur audience afin que le message soit envoyé à tous les clients ayant dépensé plus d&#39;un certain montant au cours des trois derniers mois.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s'affiche au lieu d'effectuer eux-mêmes le paramétrage.
+Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s&#39;affiche au lieu d&#39;effectuer eux-mêmes le paramétrage.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
+Une fois qu’un filtre est configuré, vous pouvez l’utiliser à partir d’API de Campaign Standard en utilisant la syntaxe suivante :
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+For more on this, refer to the [Campaign Standard APIs documentation](../../api/using/filtering.md#custom-filters).
