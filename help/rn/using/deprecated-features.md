@@ -11,11 +11,11 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps et une solution de remplacement est fournie. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Standard ou ne doivent pas être utilisées dans le cadre d’une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
-Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Consultez la version de suppression de la cible pour planifier votre environnement et les mises à jour de votre projet en conséquence.
+Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d’envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression prévue pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
 
 <table> 
  <thead> 
@@ -70,7 +70,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
   <p> 
-  <em>Version de suppression de Cible : Version Campaign 20.4</em></p>
+  <em>Version de suppression prévue : version Campaign 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
    <p>Lisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
   <p> 
-  <em>Version de suppression de Cible : 2021</em></p>
+  <em>Version de suppression prévue : 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -135,7 +135,7 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">En savoir plus</a>.</p>
+   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">En savoir plus</a>.</p>
    </td> 
   </tr> 
  </tbody> 
