@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour   2020
+title: Notes de mise à jour    2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1831'
 ht-degree: 100%
 
@@ -162,7 +162,7 @@ ht-degree: 100%
 
 **Améliorations**
 
-* Disponibilité générale du MTA amélioré : les messages (y compris les messages transactionnels) sont maintenant envoyés par le MTA amélioré d’Adobe Campaign. Ce MTA est doté d’une version mise à niveau de l’infrastructure d’envoi qui permet d’améliorer la délivrabilité, le débit et la gestion des bounces. [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+* Disponibilité générale du MTA amélioré : les messages (y compris les messages transactionnels) sont maintenant envoyés par le MTA amélioré d’Adobe Campaign. Ce MTA est doté d’une version mise à niveau de l’infrastructure d’envoi qui permet d’améliorer la délivrabilité, le débit et la gestion des bounces. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
 
 * La gestion des fuseaux horaires a été améliorée. Vous pouvez maintenant définir un [fuseau horaire spécifique](../../automating/using/building-a-workflow.md) pour l’ensemble d’un workflow. Le fuseau horaire sélectionné s’applique à toutes les activités du workflow. Les informations sur le fuseau horaire, configurées pour l’opérateur ou le serveur, s’affichent maintenant dans l’interface (dans les logs et après avoir sélectionné un fuseau horaire). (CAMP-37672)
 
