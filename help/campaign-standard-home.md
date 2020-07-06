@@ -3,11 +3,11 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 * **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité
 
-* **[API](automating/using/external-api.md)**<br/>externe Utilisez l&#39;activité API externe pour importer des données dans le processus à partir d&#39;un système externe
+* **[API externe](automating/using/external-api.md)**<br/>Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
 
 * **[Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
 Découvrez les directives générales concernant les diffusions mobiles
