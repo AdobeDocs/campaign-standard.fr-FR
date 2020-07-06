@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,11 +89,11 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;une erreur en raison de laquelle les photos téléchargées depuis un appareil photo et prises en mode portrait s&#39;affichaient dans une position de rotation indésirable.
 * Correction d&#39;une erreur qui affichait des informations de sélection imprécises lors de l&#39;utilisation de l&#39;éditeur de requêtes dans Creative Designer.
 * Correction d&#39;une erreur qui empêchait la duplication correcte d&#39;un élément lors de l&#39;utilisation de l&#39;éditeur de requêtes dans Creative Designer.
-* Correction d’un problème en raison duquel les messages SMS envoyés aux destinataires sur la liste bloquée continuaient à être envoyés, même s’ils avaient été désabonnés par le biais d’une réponse automatique. (CAMP-27128)
+* Correction d’une erreur qui entraînait la poursuite de la diffusion de messages SMS à des destinataires sur liste bloquée même s’ils avaient été désabonnés via une réponse automatique. (CAMP-27128)
 * Correction d&#39;un problème qui empêchait l&#39;affichage des erreurs à l&#39;origine de l&#39;échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d&#39;une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018    {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018     {#release-18-7---july-2018}
 
 **Nouveautés**
 
@@ -130,7 +130,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Améliorations**
 
-* L&#39;intégration d&#39;Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d&#39;Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L&#39;intégration d&#39;Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d&#39;Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d&#39;un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d&#39;accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l&#39;enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez &quot;La suppression/duplication de l&#39;enregistrement implique celle de l&#39;enregistrement cible référencé par le lien&quot;.
 
 **Autres changements**
@@ -266,7 +266,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d&#39;un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l&#39;objet d&#39;un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018    {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018     {#release-18-4---april-2018}
 
 **Correctifs**
 
@@ -292,7 +292,7 @@ _Ressources personnalisées_
 
 * Correction d&#39;une erreur qui entraînait l&#39;échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018    {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018     {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -382,7 +382,7 @@ _Messages transactionnels_
 * Correction d&#39;une erreur liée au modèle de message transactionnel lors de l&#39;extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018    {#release-18-2---february-2018}
+## Version 18.2 - Février 2018     {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -446,7 +446,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l&#39;utilisation des liens d&#39;aide contextuelle dans l&#39;interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018    {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018     {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités**
 
