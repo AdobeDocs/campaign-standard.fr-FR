@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d&#39;Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017      {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017       {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -80,7 +80,7 @@ _Notifications push_
 _Rapports_
 
 * Correction d&#39;une erreur qui empêchait l&#39;affichage des pourcentages de hot clicks dans le contenu de l&#39;email.
-* Correction d’un problème lié à la mesure de liste bloquée qui était comptabilisé comme un rebond dur au lieu d’un rebond.
+* Correction d’une erreur en raison de laquelle la mesure de liste bloquée était comptabilisée en tant que hard bounce au lieu de bounce.
 * Correction d&#39;un problème qui entraînait l&#39;affichage de comptes négatifs dans les données de synthèse.
 * Correction d&#39;une erreur qui entraînait le comptage des profils dans un segment d&#39;âge incorrect.
 * Les formules de calcul des soft et hard bounces ont été modifiées.
@@ -179,7 +179,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d&#39;information ; il n&#39;a aucune incidence directe sur la facturation. Pour plus d&#39;informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d&#39;une erreur qui empêchait l&#39;inscription des profils à un service lors de l&#39;utilisation de l&#39;API Profils et Services.
 
-## Version 17.7 - Juillet 2017      {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017       {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -255,7 +255,7 @@ _Workflows_
 * Correction d&#39;une erreur qui vous empêchait de définir une transition sortante dans l&#39;assistant de création de diffusion récurrente.
 * Correction d&#39;une erreur qui se produisait lors de l&#39;utilisation d&#39;une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017      {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017       {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -302,7 +302,7 @@ _Notifications push_
 * Correction d&#39;une erreur qui vous empêchait de cliquer sur une notification push dans l&#39;historique marketing d&#39;un profil.
 * L&#39;utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017      {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017       {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -387,7 +387,7 @@ _Notifications push_
 * Correction d&#39;une erreur en raison de laquelle un message d&#39;erreur n&#39;était pas affiché lors de la création d&#39;une application Android associée à une application mobile n&#39;ayant pas pu être créée sur MCPNS.
 * Correction d&#39;une erreur qui permettait à un utilisateur d&#39;ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017      {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017       {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Capacités marketing des messages transactionnels<br /> </td> 
    <td> Les marketeurs peuvent désormais envoyer des messages transactionnels selon les profils marketing des clients. Ils peuvent ainsi :<br /> 
     <ul> 
-     <li> Appliquez des règles de typologie marketing telles que <span class="uicontrol">Adresse sur la liste bloquée</span> . </li> 
+     <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
      <li> utiliser les messages transactionnels dans le parcours client. </li> 
@@ -505,7 +505,7 @@ _Workflows_
    <td> L'API des messages transactionnels est maintenant disponible sur le site <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, ce qui facilite son utilisation et son contrôle :<br /> 
     <ul> 
      <li> Vous pouvez tirer parti des capacités de contrôle et de reporting de la plate-forme adobe.io. </li> 
-     <li> L’authentification s’effectue désormais à l’aide de l’authentification basée sur les jetons adobe.io plutôt que de la liste autorisée IP, ce qui simplifie le processus de sécurité. </li> 
+     <li> L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que la liste autorisée des adresses IP, ce qui simplifie le processus de sécurité. </li> 
      <li> Toutes les API sont désormais intégrées sur une seule plate-forme, ce qui facilite plus que jamais l'ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l'API Profile &amp; Services. </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _Notifications push_
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d&#39;une erreur qui était susceptible d&#39;empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d&#39;une erreur qui était susceptible d&#39;entraîner l&#39;ajout d&#39;un caractère d&#39;échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsqu’un jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, l’état correspondant est maintenant immédiatement mis à jour dans la liste de l’application des abonnés dans l’Adobe Campaign.
+* Lorsque le jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
 
 _Workflows_
 
