@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 14%
+source-wordcount: '966'
+ht-degree: 15%
 
 ---
 
@@ -46,9 +46,11 @@ Once the request is processed, the encryption / decryption commands will be avai
 * [Chargement de fichier](../../automating/using/load-file.md)
 * [Extraction de fichier](../../automating/using/extract-file.md)
 
-## Cas d’utilisation : Importation de données chiffrées à l’aide d’une clé générée par le Panneau de configuration {#use-case-gpg-decrypt}
+## Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
 Dans ce cas d’utilisation, nous allons créer un flux de travail afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de configuration.
+
+Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
 
 Les étapes pour effectuer cette utilisation sont les suivantes :
 
@@ -90,9 +92,11 @@ Les étapes pour effectuer cette utilisation sont les suivantes :
 
 1. Vous pouvez désormais exécuter le processus.
 
-## Cas d’utilisation : Chiffrement et exportation de données à l’aide d’une clé installée sur le Panneau de configuration {#use-case-gpg-encrypt}
+## Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas d’utilisation, nous allons créer un processus afin de chiffrer et d’exporter des données à l’aide d’une clé installée sur le Panneau de configuration.
+
+Une vidéo didacticiel montrant comment utiliser une clé GPG pour chiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 Les étapes pour effectuer cette utilisation sont les suivantes :
 
