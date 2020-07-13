@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
-workflow-type: ht
-source-wordcount: '1054'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+workflow-type: tm+mt
+source-wordcount: '1160'
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,10 @@ ht-degree: 100%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Version de mai du nouveau panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+**Autres fonctionnalités** (à partir du 13 juillet)
+
+* **Optimisation du temps d&#39;envoi et score** de profil optimisés par l&#39;IA - Vous pouvez désormais optimiser la conception et la diffusion des voyages des clients afin de prédire les préférences d&#39;engagement de chaque individu. Optimisé par l&#39;IA de parcours, l&#39;Adobe Campaign peut analyser et prédire les taux ouverts, les temps d&#39;envoi optimaux et le déclenchement probable en fonction des mesures d&#39;engagement historiques. [En savoir plus](../../sending/using/predictive.md)
+* **La nouvelle réglementation** brésilienne sur la protection des renseignements personnels - En plus des capacités de protection des renseignements personnels déjà disponibles à Campaign, Adobe vous aide à vous préparer à l’utilisation de Lei Geral de Proteçao de Datos (LGPD) au Brésil. Lors de la création d’une demande de confidentialité, la réglementation LGPD a été ajoutée au service principal de confidentialité Adobe. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
 
@@ -123,3 +126,6 @@ ht-degree: 100%
 * Correction d’un problème qui entraînait des incohérences dans les données lors de l’utilisation de la personnalisation dans les emails transactionnels. (CAMP-41842)
 * Correction de problèmes qui se produisaient lors de la suppression de champs personnalisés dans les diffusions de notifications push. (CAMP-37586)
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Version de mai du nouveau panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
