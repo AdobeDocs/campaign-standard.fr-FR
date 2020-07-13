@@ -4,10 +4,10 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 85%
+source-wordcount: '1530'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 85%
    + [Planification des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
-   + [À propos de l&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Confidentialité et consentement](start/using/privacy.md)
+   + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [Informations personnelles et consentement](start/using/privacy.md)
    + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l’interface](start/using/interface-description.md)
@@ -38,7 +38,7 @@ ht-degree: 85%
       + [Modèles d’activité marketing](start/using/marketing-activity-templates.md)
       + [Planning](start/using/timeline.md)
 + Profils et audiences {#profiles-and-audiences}
-   + [Commencer avec les profils et les audiences](audiences/using/get-started-profiles-and-audiences.md)
+   + [Prise en main des profils et audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Gestion de profils {#managing-profiles}
       + [A propos des profils](audiences/using/about-profiles.md)
       + [Créer un profil](audiences/using/creating-profiles.md)
@@ -66,7 +66,7 @@ ht-degree: 85%
       + [Gestion des audiences Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
       + [Utilisation du créateur de segments](audiences/using/aep-using-segment-builder.md)
 + Canaux de communication {#communication-channels}
-   + [Commencer avec les canaux de communication](channels/using/get-started-communication-channels.md)
+   + [Prise en main des canaux de communication](channels/using/get-started-communication-channels.md)
    + Canaux de communication {#about-communication-channels}
       + [Principales étapes pour envoyer un message](channels/using/key-steps-to-send-a-message.md)
       + [Accéder aux messages](channels/using/accessing-messages.md)
@@ -129,20 +129,21 @@ ht-degree: 85%
       + [Utilisation de contenu réutilisable](designing/using/using-reusable-content.md)
       + [Utilisation d’intégrations multisolution](designing/using/using-integrations.md)
       + [Modification de texte brut, de HTML et d’emails mobiles](designing/using/plain-text-html-modes.md)
-      + [Conversion de courriers électroniques de l’éditeur hérité dans le Concepteur de courriers électroniques](designing/using/converting-emails-from-legacy-editor.md)
+      + [Conversion des emails de l’ancien éditeur dans le Concepteur d’email](designing/using/converting-emails-from-legacy-editor.md)
    + [Personnalisation du contenu des emails](designing/using/personalization.md)
    + [Gestion des styles d’email](designing/using/styles.md)
    + [Gestion des liens](designing/using/links.md)
    + [Gestion des images](designing/using/images.md)
-   + [Questions fréquentes](designing/using/faq-email-designer.md)
+   + [Forum aux questions](designing/using/faq-email-designer.md)
 + Test et envoi {#testing-and-sending}
-   + [Commencer avec les tests et l’envoi](sending/using/get-started-sending-messages.md)
+   + [Prise en main des tests et de l’envoi](sending/using/get-started-sending-messages.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
       + [Aperçu des diffusions](sending/using/previewing-messages.md)
       + [Préparer l’envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
       + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md).
       + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
+      + [E-mails optimisés par IA](sending/using/predictive.md)
       + [Rendu des emails](sending/using/email-rendering.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
    + Planification de l’envoi des messages {#scheduling-messages}
@@ -176,7 +177,7 @@ ht-degree: 85%
       + [Règles de fatigue](sending/using/fatigue-rules.md)
       + [Cas des règles de contrôle](sending/using/control-rules.md)
 + Reporting {#reporting}
-   + [Commencer avec les rapports dynamiques](reporting/using/get-started-reporting.md)
+   + [Prise en main des rapports dynamiques](reporting/using/get-started-reporting.md)
    + Reporting {#about-reporting}
       + [Rapports dynamiques](reporting/using/about-dynamic-reports.md)
       + [Interface du reporting](reporting/using/reporting-interface.md)
@@ -207,7 +208,7 @@ ht-degree: 85%
       + [Création d’une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
       + [Création d’un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Intégration avec d’autres solutions {#integrating-with-adobe-cloud}
-   + [Commencer avec les intégrations Campaign](integrating/using/get-started-campaign-integrations.md)
+   + [Prise en main des intégrations Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [À propos de l’intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
@@ -238,7 +239,7 @@ ht-degree: 85%
       + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques Triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Prise en main de l’intégration de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d’un workflow {#workflow-general-operation}
@@ -305,43 +306,43 @@ ht-degree: 85%
       + [Export de listes](automating/using/exporting-lists.md)
       + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
    + Cas pratiques {#workflow-use-case}
-      + [A propos des cas d’utilisation des processus](automating/using/about-workflow-use-cases.md)
+      + [À propos des cas d’utilisation de workflow](automating/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
          + [Création de diffusions à la date de création des profils](automating/using/workflow-creation-date-query.md)
          + [Création d’une diffusion hebdomadaire](automating/using/workflow-weekly-offer.md)
          + [Création d’une diffusion cross-canal](automating/using/workflow-cross-channel-delivery.md)
-         + [Identification des duplicata avant une diffusion](automating/using/identifying-duplicated-before-delivery.md)
-         + [diffusion d&#39;anniversaire](automating/using/birthday-delivery.md)
-         + [Association de diffusions de messagerie électronique et de messagerie directe](automating/using/coupling-email-direct-mail.md)
-         + [Envoi d’un courriel contenant des champs enrichis](automating/using/sending-email-enriched-fields.md)
-         + [Personnalisation d’un courrier électronique avec des données supplémentaires](automating/using/personalizing-email-with-additional-data.md)
+         + [Identification de doublons avant une diffusion](automating/using/identifying-duplicated-before-delivery.md)
+         + [Diffusion d’anniversaire](automating/using/birthday-delivery.md)
+         + [Association de diffusions courrier et email](automating/using/coupling-email-direct-mail.md)
+         + [Envoi d’un email contenant des champs enrichis](automating/using/sending-email-enriched-fields.md)
+         + [Personnalisation d’un email avec des données additionnelles](automating/using/personalizing-email-with-additional-data.md)
       + Segmentation et ciblage {#segmentation-targeting}
          + [Exemples de requêtes ](automating/using/query-samples.md)
-         + [Union sur deux audiences raffinées](automating/using/union-on-two-refined-audiences.md)
+         + [Union sur deux audiences affinées](automating/using/union-on-two-refined-audiences.md)
          + [Création d’une segmentation sur la localisation](automating/using/workflow-segmentation-location.md)
          + [Reciblage des personnes n’ayant pas ouvert l’email](automating/using/workflow-cross-channel-retargeting.md)
          + [Requête incrémentale sur les abonnés à un service](automating/using/incremental-query-on-subscribers.md)
-         + [Segmentation en fonction des groupes d’âge](automating/using/segmentation-age-groups.md)
+         + [Segmentation en fonction des groupes d’âges](automating/using/segmentation-age-groups.md)
          + [Utiliser des ressources différentes des dimensions de ciblage](automating/using/using-resources-different-from-targeting-dimensions.md)
          + [Création d’un groupe témoin](automating/using/workflow-control-group.md)
       + Data management {#data-management}
-         + [Rapprocher une audience de fichiers de la base de données](automating/using/reconcile-file-audience-with-database.md)
-         + [Déduplication des données à partir d’un fichier importé](automating/using/deduplicating-data-imported-file.md)
-         + [Enrichir des données de profil avec des données contenues dans un fichier](automating/using/enriching-profile-data-file.md)
-         + [activité de signaux externes et importation de données](automating/using/external-signal-data-import.md)
+         + [Réconcilier une audience de type fichier avec la base de données](automating/using/reconcile-file-audience-with-database.md)
+         + [Dédupliquer les données d’un fichier importé](automating/using/deduplicating-data-imported-file.md)
+         + [Enrichissement des données de profil avec des données contenues dans un fichier](automating/using/enriching-profile-data-file.md)
+         + [Activité de signal externe et import de données](automating/using/external-signal-data-import.md)
          + [Mise à jour de la base de données avec des données externes](automating/using/update-database-file.md)
-         + [Mise à jour des données en fonction d’un téléchargement automatique de fichiers](automating/using/update-data-automatic-download.md)
-         + [Rapprochement des données à l’aide des relations](automating/using/reconciliation-using-relations.md)
-         + [Mise à jour des données à l’aide de la réconciliation](automating/using/data-update-reconciliation.md)
-         + [Exportation de profils dans un fichier externe](automating/using/exporting-profiles-in-file.md)
-         + [Mise à jour de plusieurs états d’abonnement à partir d’un fichier](automating/using/updating-subscriptions-from-file.md)
-         + [Abonnement de profils d’un fichier à un service spécifique](automating/using/subscribing-profiles-from-file.md)
+         + [Mise à jour de données en fonction d’une réception de fichier automatique](automating/using/update-data-automatic-download.md)
+         + [Réconciliation de données à l’aide de relations](automating/using/reconciliation-using-relations.md)
+         + [Mise à jour de données à l’aide de la réconciliation](automating/using/data-update-reconciliation.md)
+         + [Export de profils dans un fichier externe](automating/using/exporting-profiles-in-file.md)
+         + [Mise à jour de plusieurs statuts d’abonnement à partir d’un fichier](automating/using/updating-subscriptions-from-file.md)
+         + [Abonnement de profils à partir d’un fichier vers un service spécifique](automating/using/subscribing-profiles-from-file.md)
    + Utilisation des audiences Adobe Experience Platform {#working-with-aep-audiences}
       + [Ciblage des audiences Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
-   + [Commencer avec le modèle de données Campaign Standard](developing/using/get-started-data-model.md)
+   + [Prise en main du modèle de données Campaign Standard](developing/using/get-started-data-model.md)
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
       + [Statuts des ressources](developing/using/resource-statuses.md)
@@ -386,7 +387,7 @@ ht-degree: 85%
       + [Activation du mapping](developing/using/aep-mapping-activation.md)
       + [Déclenchement de l’ingestion des données via les API](developing/using/aep-triggering-data-ingestion.md)
 + Administration {#administrating}
-   + [Prise en main de l’administration des Campaign Standards](administration/using/get-started-campaign-administration.md)
+   + [Prise en main de l’administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Instructions de configuration](administration/using/about-configuration-guidelines.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
@@ -412,7 +413,7 @@ ht-degree: 85%
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
 + Utilisation des API {#working-with-apis}
-   + [Commencer avec les API des Campaign Standards](api/using/get-started-apis.md)
+   + [Prise en main des API de Campaign Standard](api/using/get-started-apis.md)
    + À propos des API de Campaign Standard {#about-campaign-standard-apis}
       + [Pourquoi utiliser les API de Campaign Standard ?](api/using/why-using-campaign-standard-apis.md)
       + [Configuration de l’accès aux API](api/using/setting-up-api-access.md)
