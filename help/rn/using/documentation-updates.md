@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5982'
-ht-degree: 95%
+source-wordcount: '5997'
+ht-degree: 99%
 
 ---
 
@@ -24,27 +24,31 @@ ht-degree: 95%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
-## Mises à jour de la documentation - juin 2020 {#doc-updates-june-2020}
+## Mises à jour de la documentation – Juillet 2020 {#doc-updates-july-2020}
+
+Nouvelles fonctionnalités de messagerie optimisée par l&#39;IA : optimisation du temps d&#39;envoi et score de profil [Lire la suite](../../sending/using/predictive.md)
+
+## Mises à jour de la documentation - Juin 2020 {#doc-updates-june-2020}
 
 Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../automating/using/about-workflow-use-cases.md)
 
-Des cas d’utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de configuration et des Workflows de campagne.
+Des cas d’utilisation ont été ajoutés pour [crypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [décrypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de contrôle et des workflows Campaign.
 
 Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
-Les références au site Web d&#39;assistance hérité ont été remplacées par la nouvelle URL. [En savoir plus](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+Les références à l’ancien site web d’assistance ont été remplacées par la nouvelle URL. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acs-support-req)
 
-La configuration de compte Litmus personnalisé a été supprimée de la fonctionnalité de rendu de boîte de réception. [En savoir plus](../../sending/using/email-rendering.md)
+La configuration de compte Litmus personnalisé a été supprimée de la fonctionnalité d’Inbox rendering. [En savoir plus](../../sending/using/email-rendering.md)
 
-Campaign Standard - L&#39;intégration de Microsoft Dynamics 365 n&#39;est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera disponible à l&#39;avenir. Les pages d&#39;aide associées ont été supprimées. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+L’intégration Campaign Standard - Microsoft Dynamics 365 n’est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera prochainement disponible. Les pages d’aide connexes ont été supprimées. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Mises à jour de la documentation - mai 2020 {#doc-updates-may-2020}
+## Mises à jour de la documentation - Mai 2020 {#doc-updates-may-2020}
 
-La page de présentation des Campaign Standards a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
+La page de présentation de Campaign Standard a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
 
-La section Paramètres du canal de courriel a été clarifiée avec des informations supplémentaires sur les champs de masques autorisés et l&#39;ID de rapports de diffusion. [En savoir plus](../../administration/using/configuring-email-channel.md)
+La section Paramètres du canal email a été clarifiée avec des informations supplémentaires sur les champs de masques autorisés et l’identifiant des rapports de délivrabilité. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
-La section Configuration d’une application mobile à l’aide de kits SDK Adobe Experience Platform est désormais disponible dans la documentation de base avec des informations supplémentaires concernant l’application Sync Mobile AEPSDK depuis le processus technique de lancement. [En savoir plus](../../administration/using/configuring-a-mobile-application.md)
+La section Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform est désormais disponible dans la documentation de base avec des informations supplémentaires concernant la synchronisation de l’application mobile AEPSDK depuis le workflow technique de Launch. [En savoir plus](../../administration/using/configuring-a-mobile-application.md)
 
 ## Version 20.3 - Mai 2020      {#release-20-3---may-2020}
 
@@ -60,11 +64,11 @@ Des informations ont été ajoutées sur le champ **[!UICONTROL Jours d’histor
 
 Des informations ont été ajoutées dans la section de substitution de profil concernant la limite de 500 caractères du préfixe de ligne d’objet. [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
-Une nouvelle section consacrée à la protection des renseignements personnels et au consentement a été ajoutée à la documentation de base. [En savoir plus](../../start/using/privacy.md)
+Une nouvelle section consacrée à la protection des informations personnelles et au consentement a été ajoutée à la documentation de base. [En savoir plus](../../start/using/privacy.md)
 
-Un cas d’utilisation a été ajouté pour vous permettre de convertir les e-mails hérités de l’éditeur en e-mail Designer. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
+Un cas d’utilisation a été ajouté pour vous permettre de convertir les e-mails de l’ancien éditeur dans le Concepteur d’email. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
 
-Une section de questions fréquentes a été ajoutée sur le Concepteur de courriers électroniques. [En savoir plus](../../designing/using/faq-email-designer.md)
+Une section de questions fréquentes a été ajoutée au sujet du Concepteur d’email. [En savoir plus](../../designing/using/faq-email-designer.md)
 
 ## Mises à jour de la documentation - Avril 2020 {#doc-updates-april-2020}
 
@@ -158,7 +162,7 @@ Ajout d’informations dans le guide Utilisation des API concernant le nouveau p
 
 Ajout d’une nouvelle section décrivant les avertissements pouvant être affichés dans un tableau de bord de messages –  [En savoir plus](../../channels/using/message-dashboard.md#warnings)
 
-Disponibilité de la documentation relative au MTA amélioré d’Adobe Campaign, qui décrit l’infrastructure d’envoi mise à niveau afin d’améliorer la délivrabilité, le débit et la gestion des bounces –  [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Disponibilité de la documentation relative au MTA amélioré d’Adobe Campaign, qui décrit l’infrastructure d’envoi mise à niveau afin d’améliorer la délivrabilité, le débit et la gestion des bounces –  [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
 
 Ajout de notes pour indiquer que les URL du serveur d’applications et du serveur de pages miroir doivent être sécurisées pour que les aperçus des landing pages et des pages miroir s’affichent dans l’interface utilisateur de Campaign –  [En savoir plus](../../administration/using/branding.md#configuring-and-using-brands)
 
@@ -498,7 +502,7 @@ Ajout d’informations sur la suppression d’une audience – [En savoir plus]
 
 Mise à jour de la section de rapport natif des notifications Push. [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018        {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018         {#release-18-7---july-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -568,7 +572,7 @@ Ajout des informations sur les types de logs de tracking – [En savoir plus](..
 
 La section relative à l’activité Requête a été mise à jour avec des exemples de requêtes – [En savoir plus](../../automating/using/query.md#query-samples)
 
-La section consacrée aux listes bloquées a été renommée &quot;Comprendre les processus d’inclusion et d’exclusion&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer l’inscription à des canaux spécifiques, et de configurer des landing pages pour gérer les inscriptions et les désinscriptions – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La section dédiée aux listes bloquées a été renommée « Comprendre les processus d’opt-in et d&#39;opt-out ». Celle-ci a été mise à jour avec des informations concernant la manière de gérer l’inscription à des canaux spécifiques, et de configurer des landing pages pour gérer les inscriptions et les désinscriptions – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Découvrez les bonnes pratiques relatives à l’utilisation de serveurs SFTP hébergés Adobe – [En savoir plus](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -576,7 +580,7 @@ La liste des solutions/core services Analytics pris en charge en vue de l’int�
 
 Certaines pages de la documentation consacrée à l’éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - Mars 2018        {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018         {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -592,7 +596,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 L’API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/creating-a-privacy-request.md)
 
-Informations Ajoutées sur la configuration des landings page pour permettre à vos destinataires d’être ajoutés à la liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Ajout d’informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d’être ajoutés à la liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Réorganisation de la section [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md) et ajout d’un [cas pratique détaillé](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -608,7 +612,7 @@ Mise à jour de la liste des ressources d’aide concernant l’intégration des
 
 Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
-## Version 18.2 - Février 2018        {#release-18-2---february-2018}
+## Version 18.2 - Février 2018         {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -652,7 +656,7 @@ Mises à jour des informations sur les diffusions en échec et les mises en quar
 
 Nouvelles sections consacrées aux [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et aux [dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Janvier 2018        {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018         {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -680,7 +684,7 @@ Ajout d’informations sur les Paramètres d’historisation de l’activité Tr
 
 Mise à jour des instructions pour configurer l’intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Octobre 2017        {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017         {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -760,7 +764,7 @@ Mise à jour de la section sur l’activité de workflow Transfert de fichier �
 
 Ajout d’informations sur l’option Demander une confirmation avant l’envoi des messages de l’activité de workflow Diffusion email – [En savoir plus](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juillet 2017        {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017         {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -792,7 +796,7 @@ Le mécanisme de double opt-in est maintenant documenté via une procédure comp
 
 La section présentant la liste des rôles a été mise à jour – [En savoir plus](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017        {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017         {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -808,13 +812,13 @@ Plusieurs captures d’écran ont été mises à jour afin de refléter les modi
 
 Une nouvelle technote est disponible : « Intégration du SDK Adobe Mobile à votre application mobile ». [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html)
 
-Instructions pour configurer l&#39;intégration du service principal People ou de l&#39;Audience Manager avec Adobe Campaign havget-started-communication-canaux.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Les instructions ont été mises à jour pour la configuration du core service People ou l&#39;intégration d&#39;Audience Manager avec Adobe Campaign.
 
 Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 Mise à jour des liens d’aide contextuelle disponibles directement dans Adobe Campaign.
 
-## Version 17.4 - Avril 2017        {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017         {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -832,7 +836,7 @@ Intégration de Dreamweaver disponible – [En savoir plus](https://docs.adobe
 
 Section ajoutée sur les différents types d’utilisateurs Adobe Campaign. [En savoir plus](../../administration/using/users-management.md)
 
-Le guide des workflows a été réorganisé et étoffé. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+Le guide des workflows a été réorganisé et étoffé. Trouvez facilement comment [créer](../../automating/using/building-a-workflow.md) et [exécuter](../../automating/using/about-workflow-execution.md) un workflow, comment [cibler](../../automating/using/about-targeting-activities.md) et [gérer](../../automating/using/about-targeting-activities.md#enriching-data) vos données, comment [importer et exporter](../../automating/using/about-data-import-and-export.md) des données et comment utiliser les données de workflow afin de mettre à jour la base de données ou d&#39;envoyer des diffusions.
 
 Le calcul d’indicateur de rapport est à présent disponible pour les rapports dynamiques. Il comprend une description détaillée et une formule de calcul. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
@@ -844,7 +848,7 @@ Mise à jour de la section concernant l’utilisation d’images dans Campaign. 
 
 Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique. [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - Mars 2017        {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017         {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
