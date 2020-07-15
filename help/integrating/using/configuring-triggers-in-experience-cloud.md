@@ -12,10 +12,10 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ Cette fonctionnalité doit être activée dans Adobe Campaign par Adobe. Contact
 L&#39;équipe Adobe aura besoin des informations suivantes pour activer les Triggers :
 
 * Nom de la société Experience Cloud
-* ID de l&#39;organisation IMS
+* Identifiant IMS de l&#39;organisation
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 ## Configuration des solutions et services {#configuring-solutions-and-services}
@@ -106,7 +106,7 @@ Consultez la [documentation Adobe Experience Cloud](https://docs.adobe.com/conte
 
 Voici la liste des bonnes pratiques et des limites qui s&#39;appliquent à l&#39;utilisation de l&#39;intégration des Triggers Campaign :
 
-* Si vous disposez de plusieurs instances de Campaign Standard, toutes ces instances peuvent recevoir des Triggers tant qu&#39;elles sont sur le même ID de l&#39;organisation IMS. Analytics doit lui aussi être sur le même ID de l&#39;organisation IMS.
+* Si vous avez plusieurs instances de Campaign Standard, les déclencheurs peuvent être reçus par toutes les instances tant qu’ils se trouvent dans le même ID d’organisation IMS. Analytics doit également se trouver sur le même ID d’organisation IMS.
 * Vous ne pouvez pas créer de trigger dans le Trigger Core Service à l&#39;aide d&#39;événements provenant de deux suites de rapports différentes.
 * Les Triggers se basent sur les messages transactionnels. Les messages transactionnels sont utilisés dès que vous devez envoyer un message très rapidement. Vous ne pouvez pas mettre en liste d&#39;attente des messages transactionnels et les faire s&#39;exécuter en boucle dans un lot.
 * Les Triggers ne sont par nature pas déterministes. Lorsqu&#39;un trigger est généré, il envoie tous les alias associés au cookie. Par conséquent, en cas de navigateurs partagés comme dans les bornes de magasins, les bibliothèques, les cybercafés, ou sur les appareils partagés au domicile (mari et femme se connectant sur un même appareil), il n&#39;est pas possible de se mapper au bon ID. Tous les ID utilisés pour se connecter au navigateur sont envoyés à Campaign, qui transmet un message en fonction de la première réconciliation. S&#39;il existe plusieurs « ID d&#39;emails » éligibles pour la réconciliation, Campaign n&#39;envoie pas d&#39;email. Campaign n&#39;a aucun moyen de déterminer le bon ID d&#39;email, sauf s&#39;il est récupéré et communiqué par Analytics.
