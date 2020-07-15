@@ -12,8 +12,11 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
+translation-type: tm+mt
+source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 51%
 
 ---
 
@@ -73,6 +76,93 @@ Avant d’envoyer les notifications push, vous devez effectuer les opérations s
 
 1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Pour plus d’informations, voir [Configuration de votre application Experience Platform Launch dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile. Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile. Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 1. Pour prendre en charge les mises en œuvre de cas d’utilisation mobile, reportez-vous aux instructions détaillées sur les extensions, les règles Experience Platform Launch et l’implémentation de SDK dans la section [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard avec utilisation des SDK Adobe Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html).
+
+## FAQ sur les notifications Push {#push-faq}
+
+### Quelles seraient les ressources recommandées utiles pour en savoir plus sur le canal Push ? {#resource-push}
+
+Consultez les ressources ci-dessous :
+
+* [Didacticiels vidéo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Documentation du produit](../../channels/using/about-push-notifications.md)
+* Configuration à l’aide de la [documentation du SDK AEP](../../administration/using/configuring-a-mobile-application.md)
+* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+
+### Que dois-je faire pour acquérir un jeton Push à Campaign ? {#push-token-acquisition}
+
+Assurez-vous que l’équipe d’attribution des privilèges d’accès a terminé l’approvisionnement du canal Push dans l’Adobe Campaign Standard. Mettez en oeuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+
+### Une fois que j’ai un jeton Push et un ECID dans Campaign, que dois-je faire d’autre pour envoyer une notification Push ? {#sending-push}
+
+Les clients doivent fournir un certificat Push valide au format .pem pour envoyer une notification Push. Vous n’avez pas besoin d’un mot de passe pour ce certificat.
+
+### Que se passe-t-il si j’ai un certificat .p12 au lieu d’un certificat .pem ? {#certificates}
+
+Vous pouvez convertir un certificat .p12 en certificat .pem en exécutant la commande ci-dessous dans terminal. Plusieurs ressources en ligne sont également disponibles pour les instructions de conversion.
+
+```
+openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
+```
+
+### Comment savoir si le transfert de certificat a réussi ? {#certificate-upload}
+
+Le message suivant s’affiche.
+
+![](assets/faq_2.png)
+
+### Puis-je télécharger simultanément des certificats Production et Sandbox pour l’application iOS (s/o pour Android) ? {#prod-sandbox-certificate}
+
+Non, les applications fonctionnent en mode sandbox ou production et ne peuvent pas être modifiées en mode secondaire (c’est-à-dire sandbox en application de production) une fois configurées. Nous vous recommandons de tester d’abord votre application en mode sandbox, puis de passer en mode de production.
+
+Pour passer en mode production, vous devez créer une autre application. Veillez également à ne pas cocher la case sandbox et à télécharger un certificat de production.
+
+### Puis-je télécharger simultanément les informations d’identification iOS et Android ? {#ios-android-credentials}
+
+Oui, Campaign prend en charge les deux plates-formes en même temps et vous permet de télécharger des informations d’identification pour les deux plates-formes.
+
+### J’ai téléchargé les certificats Push avec succès, mais aucun message Push n’est envoyé. {#push-certificates-upload}
+
+Assurez-vous que vos certificats Push sont valides en les testant [ici](https://pushtry.com/).
+
+### Je peux envoyer des notifications Push avec succès depuis pushtry.com mais pas via Campaign. {#push-not-sending}
+
+Veuillez vous assurer que vous suivez les instructions de charge utile Push fournies [ici](../../administration/using/push-payload.md).
+
+Notez que pour Android, Campaign ne prend en charge que la charge de données et non la charge de notification.
+
+### J’ai configuré une application dans la section Administration de l’Adobe Campaign Standard, mais l’application mobile n’est pas disponible dans les propriétés de la Diffusion. {#mobile-app-unavailable}
+
+Un certificat Push valide doit également être téléchargé pour qu’une application puisse être disponible dans les propriétés de la diffusion.
+
+### J&#39;ai essayé toutes les instructions sur cette page et pourtant je ne suis pas capable d&#39;envoyer Push de Campaign. {#push-troubleshoot}
+
+Veuillez ouvrir un ticket d&#39;assistance à la clientèle.
+
+### Les notifications Push sont distribuées depuis Campaign mais le fichier multimédia ne s’affiche pas.{#media-file-unavailable}
+
+Les développeurs d’applications mobiles doivent gérer la prise en charge des fichiers multimédia dans l’application. Parfois, la bande passante du réseau peut également empêcher le rendu d’un fichier multimédia. Reportez-vous à cette [page](../../administration/using/image-push-notification.md) pour d’autres pointeurs.
+
+### Que dois-je faire pour activer le rapports Push à Campaign ? {#push-reporting-enable}
+
+Suivez les étapes ci-dessous :
+
+* Configurez un postback de suivi Push. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
+* Implémentez l’API trackAction à partir de Mobile Core. Consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) pour plus d&#39;informations.
+
+Vous trouverez des instructions plus détaillées dans cette [page](../../administration/using/push-tracking.md).
+
+### Quels rapports sont disponibles pour le canal Push ? {#push-report-available}
+
+Un rapport prêt à l’emploi est disponible dans Adobe Campaign pour canal Push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+
+Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) pour comprendre comment sont calculées les mesures Push.
+
+### Les liens profonds sont-ils pris en charge dans les messages Push et In-App ? {#deeplink-push}
+
+Oui, les liens profonds sont pris en charge dans les messages Push. Les liens détaillés doivent inclure :
+
+* qui indique que le suivi des diffusions doit être désactivé pour que les liens profonds fonctionnent.
+* Apflyer avec la branche en tant que partenaires pouvant effectuer le suivi de liens profonds. Pour plus d&#39;informations sur l&#39;intégration des branches et des Adobes Campaign Standards, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
