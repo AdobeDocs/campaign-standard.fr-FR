@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+workflow-type: tm+mt
 source-wordcount: '7633'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 * Correction d&#39;une erreur qui empêchait la mise en quarantaine des adresses hard bounce. (CAMP-24587)
 * Correction d&#39;un problème qui se produisait lors de l&#39;ajout d&#39;une règle de typologie et qui la supprimait avant de l&#39;enregistrer. (CAMP-32789)
 * Correction d&#39;un problème qui empêchait l&#39;affichage du contenu de la landing page lors de la désactivation du contenu dynamique. (CAMP-32924)
-* Correction d&#39;un problème lié aux diffusions récurrentes qui se produisait lors de l&#39;utilisation de la personnalisation sur les attributs d&#39;une diffusion principale. (CAMP-32983)
+* Correction d’un problème lié aux diffusions récurrentes survenant lors de l’utilisation de la personnalisation sur des attributs de diffusion principale. (CAMP-32983)
 * Correction d&#39;un problème dans les workflows qui empêchait la lecture des résultats d&#39;une transition contenant des données de SMS entrants. (CAMP-33134)
 * Correction d&#39;un problème dans les workflows qui se produisait lors de la combinaison d&#39;activités de branchement et d&#39;exclusion pour créer des audiences. (CAMP-33401)
 * Correction d&#39;un problème qui empêchait l&#39;affichage du contenu de la page miroir et l&#39;envoi des messages du BAT pour les diffusions récurrentes. (CAMP-33413)
