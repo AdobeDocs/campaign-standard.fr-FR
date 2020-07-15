@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1707'
-ht-degree: 100%
+source-wordcount: '1703'
+ht-degree: 99%
 
 ---
 
@@ -56,10 +56,10 @@ Ensuite, reconfigurez d’autres activités dans le workflow qui pointent vers e
 
 ### Limitations et garde-fous {#guardrails}
 
-Les protections suivantes ont été mises en place pour cette activité :
+Les garde-fous suivants s&#39;appliquent à cette activité :
 
-* Limite de 50 Mo pour la taille des données de réponse http
-* Le timeout des demandes est de 10 minutes
+* Limite de 5 Mo pour la taille des données de réponse http
+* Délai d’expiration de la demande de 1 minute
 * Les redirections HTTP ne sont pas autorisées
 * Les URL autres que HTTPS sont rejetées
 * L’en-tête de demande &quot;Accept: application/json&quot; et l’en-tête de réponse &quot;Content-Type: application/json&quot; sont autorisés
