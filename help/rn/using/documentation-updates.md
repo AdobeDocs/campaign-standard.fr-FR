@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5997'
-ht-degree: 99%
+source-wordcount: '6112'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 99%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
+
+## Mises à jour de la documentation – Juillet 2020 {#doc-updates--july-2020}
+
+Une nouvelle section a été ajoutée avec des directives relatives à la surveillance des Campaign Standards. [En savoir plus](../../administration/using/monitoring-guidelines.md)
+
+La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+Le guide canal mobile a été réorganisé et amélioré. Un nouveau guide Configuration des canaux mobiles a été ajouté avec la documentation technique sur la configuration mobile. [En savoir plus](../../administration/using/push-tracking.md)
+
+La page Gestion de la confidentialité dans le Campaign Standard a été mise à jour, y compris des clarifications sur la façon de gérer les demandes de confidentialité par le biais de l’intégration de Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## Mises à jour de la documentation – Juillet 2020 {#doc-updates-july-2020}
 
@@ -812,7 +822,7 @@ Plusieurs captures d’écran ont été mises à jour afin de refléter les modi
 
 Une nouvelle technote est disponible : « Intégration du SDK Adobe Mobile à votre application mobile ». [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html)
 
-Les instructions ont été mises à jour pour la configuration du core service People ou l&#39;intégration d&#39;Audience Manager avec Adobe Campaign.
+Des instructions pour configurer l’intégration du service principal People ou de l’Audience Manager avec l’Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
