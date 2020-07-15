@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6117'
 ht-degree: 97%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 97%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
-## Mises à jour de la documentation – Juillet 2020 {#doc-updates--july-2020}
+## Mises à jour de la documentation – Juillet 2020 {#doc-updates-july-2020}
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance des Campaign Standards. [En savoir plus](../../administration/using/monitoring-guidelines.md)
 
-Les garde-fous d&#39;API externes ont été mis à jour.[En savoir plus](../../automating/using/external-api.md)
+Les garde-fous d&#39;API externes ont été mis à jour. [En savoir plus](../../automating/using/external-api.md)
 
 La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ Le guide canal mobile a été réorganisé et amélioré. Un nouveau guide Confi
 
 La page Gestion de la confidentialité dans le Campaign Standard a été mise à jour, y compris des clarifications sur la façon de gérer les demandes de confidentialité par le biais de l’intégration de Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## Mises à jour de la documentation – Juillet 2020 {#doc-updates-july-2020}
-
-Nouvelles fonctionnalités de messagerie optimisée par l&#39;IA : optimisation du temps d&#39;envoi et score de profil [Lire la suite](../../sending/using/predictive.md)
+Nouvelles fonctionnalités de messagerie optimisée par l&#39;IA : optimisation du temps d&#39;envoi et score de profil. [En savoir plus](../../sending/using/predictive.md)
 
 ## Mises à jour de la documentation - Juin 2020 {#doc-updates-june-2020}
 
