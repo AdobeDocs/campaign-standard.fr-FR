@@ -3,11 +3,11 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
-workflow-type: ht
-source-wordcount: '199'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 88%
 
 ---
 
@@ -18,13 +18,14 @@ ht-degree: 100%
 
 ## Nouveautés
 
+* **[Courriers électroniques](sending/using/predictive.md)**<br/>optimisés pour l&#39;IA Optimiser la conception et la diffusion avec les courriers électroniques optimisés pour l&#39;IA
+
 * **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité
 
 * **[API externe](automating/using/external-api.md)**<br/>Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
 
-* **[Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
-Découvrez les directives générales concernant les diffusions mobiles
+* **[Commencer avec les diffusions](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/> mobiles En savoir plus sur les directives générales pour les diffusions mobiles (SMS, Push, In-App)
 
 [Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
 
