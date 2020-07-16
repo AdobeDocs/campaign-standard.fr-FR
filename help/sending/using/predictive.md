@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard offres deux nouveaux modèles d&#39;apprentissage automa
 
 * **Évaluation** prédictive de l’engagement : Le score d’engagement prédictif prédit la probabilité qu’un destinataire s’engage avec un message, ainsi que la probabilité de s’exclure (de se désabonner) dans les 7 jours qui suivent l’envoi du prochain courrier électronique. Les probabilités sont divisées en compartiments selon le risque spécifique de désengagement, moyen ou faible. Le modèle permet également aux clients de déterminer le niveau de risque par rapport aux autres.
 
->[!NOTE]
-> **Prérequis **
->
+>[!CAUTION]
 >Cette fonctionnalité n&#39;est pas disponible en standard dans le cadre du produit. La mise en oeuvre nécessite l&#39;engagement de Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 >
 >Séparément, la fonction exigeait l&#39;utilisation d&#39;un enregistrement Azure qui doit être fourni par le client.
