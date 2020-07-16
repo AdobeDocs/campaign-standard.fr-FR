@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 99%
+source-wordcount: '1752'
+ht-degree: 94%
 
 ---
 
@@ -58,16 +58,15 @@ Ensuite, reconfigurez d’autres activités dans le workflow qui pointent vers e
 
 Les garde-fous suivants s&#39;appliquent à cette activité :
 
-* Limite de 5 Mo pour la taille des données de réponse http
-* Délai d’expiration de la demande de 1 minute
+* Taille limite de 50 Mo de données de réponse http (5 Mo recommandés)
+* Le timeout des demandes est de 10 minutes
 * Les redirections HTTP ne sont pas autorisées
 * Les URL autres que HTTPS sont rejetées
 * L’en-tête de demande &quot;Accept: application/json&quot; et l’en-tête de réponse &quot;Content-Type: application/json&quot; sont autorisés
 
->[!CAUTION]
+>[!NOTE]
 >
->Veuillez noter que le but de l’activité est de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
-
+>A compter de la version Campaign 20.4, la taille limite des données de réponse http et les garde-fous seront réduits à 5 Mo et 1 minute.  Bien que cette modification n&#39;affecte que les nouvelles activités d&#39;API externe, il est recommandé que les mises en oeuvre actuelles de l&#39;activité d&#39;API externe s&#39;alignent sur ces nouvelles garde-fous pour suivre les meilleures pratiques.
 
 Des garde-fous spécifiques ont été mis en place pour le JSON :
 
@@ -75,12 +74,14 @@ Des garde-fous spécifiques ont été mis en place pour le JSON :
 * **Longueur de clé JSON maximale** : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.
 * **Nombre maximum de clés JSON autorisées** :  limite à 150 le nombre total maximum de noms de propriétés JSON dupliqués, qui sont utilisés comme ID de colonne.
 
-
 L’activité n’est pas prise en charge par la structure JSON en tant que :
 
 * Combinaison d’un objet de tableau avec d’autres éléments non issus de tableaux
 * L’objet de tableau JSON est imbriqué dans un ou plusieurs objets de tableau intermédiaire.
 
+>[!CAUTION]
+>
+>L’activité API externe est destinée à la récupération des données à l’échelle de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non à la récupération d’informations spécifiques pour chaque profil, ce qui peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
 
 ## Configuration {#configuration}
 
