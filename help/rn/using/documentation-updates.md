@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6117'
+source-wordcount: '6120'
 ht-degree: 97%
 
 ---
@@ -28,7 +28,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance des Campaign Standards. [En savoir plus](../../administration/using/monitoring-guidelines.md)
 
-Les garde-fous d&#39;API externes ont été mis à jour. [En savoir plus](../../automating/using/external-api.md)
+La section Limites et garde d&#39;API externes a été mise à jour.[En savoir plus](../../automating/using/external-api.md#guardrails)
 
 La page Aperçu de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne Lei Geral de Proteção de Dados (LGPD). [En savoir plus](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
