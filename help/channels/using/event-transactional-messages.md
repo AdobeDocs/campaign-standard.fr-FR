@@ -12,11 +12,11 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2626'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,11 +37,11 @@ Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel
 >
 >Les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d&#39;un enrichissement avec des profils). Voir [Règles de fatigue](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Définir un profil de test dans un message transactionnel    {#defining-a-test-profile-in-a-transactional-message}
+## Définir un profil de test dans un message transactionnel      {#defining-a-test-profile-in-a-transactional-message}
 
 Définissez un profil de test adapté, qui vous permettra de prévisualiser votre message et d&#39;envoyer un bon à tirer (BAT) afin de le valider.
 
-### Créer un profil de test dans un message transactionnel    {#creating-a-test-profile-within-the-transactional-----------message}
+### Créer un profil de test dans un message transactionnel      {#creating-a-test-profile-within-the-transactional-----------message}
 
 1. Pour accéder au message créé, cliquez sur le logo **[!UICONTROL Adobe Campaign]** en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
 
@@ -82,7 +82,7 @@ Vous pouvez maintenant accéder au message que vous avez créé et sélectionner
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Définir les audiences](../../audiences/using/creating-audiences.md)
 
-## Personnaliser un message transactionnel    {#personalizing-a-transactional-message}
+## Personnaliser un message transactionnel      {#personalizing-a-transactional-message}
 
 Pour configurer la personnalisation dans un message transactionnel, procédez comme suit :
 
@@ -118,7 +118,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
    Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Pour plus d&#39;informations à ce propos, voirVoir à ce sujet [Définir un profil de test dans un message transactionnel](#defining-a-test-profile-in-a-transactional-message).
 
-## Utiliser des listes de produits dans un message transactionnel    {#using-product-listings-in-a-transactional-message}
+## Utiliser des listes de produits dans un message transactionnel      {#using-product-listings-in-a-transactional-message}
 
 Vous pouvez créer des listes de produits référençant une ou plusieurs collections de données dans un email transactionnel. Par exemple, dans un email d&#39;abandon de panier, vous pouvez inclure la liste de tous les produits figurant dans le panier de l&#39;utilisateur au moment où il a quitté le site web, avec une image, le prix et un lien vers chaque produit.
 
@@ -134,7 +134,7 @@ Vous pouvez également regarder une série de vidéos expliquant les étapes né
 >
 >Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
 
-### Définir une liste de produits    {#defining-a-product-listing}
+### Définir une liste de produits      {#defining-a-product-listing}
 
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l&#39;événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -155,6 +155,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    * **[!UICONTROL Ligne]** : horizontalement, c&#39;est-à-dire que chaque élément se trouve sur une ligne.
    * **[!UICONTROL Colonne]** : verticalement, c&#39;est-à-dire que les éléments sont côte à côte sur une même ligne.
+
    >[!NOTE]
    >
    >L&#39;option **[!UICONTROL Colonne]** n&#39;est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]** ). Lors de l&#39;édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d&#39;informations sur la sélection de composants de structure, consultez la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
@@ -175,7 +176,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
    >
    >Si vous souhaitez que les éléments de votre liste s&#39;affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d&#39;éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d&#39;informations sur la sélection de composants de structure, consultez la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Remplir la liste de produits    {#populating-the-product-listing}
+### Remplir la liste de produits      {#populating-the-product-listing}
 
 Pour afficher une liste des produits provenant de l&#39;événement associé à l&#39;email transactionnel, suivez les étapes ci-dessous.
 
@@ -245,7 +246,7 @@ Après avoir enregistré votre message transactionnel, vous pouvez envoyer un bo
 
 Les étapes d&#39;envoi d&#39;un BAT sont présentées dans la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
-## Publier un message transactionnel    {#publishing-a-transactional-message}
+## Publier un message transactionnel      {#publishing-a-transactional-message}
 
 Une fois que vous avez validé le message transactionnel, vous pouvez le publier.
 
@@ -257,7 +258,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 
 ![](assets/message-center_13.png)
 
-## Suspendre la publication d&#39;un message transactionnel    {#suspending-a-transactional-message-publication}
+## Suspendre la publication d&#39;un message transactionnel      {#suspending-a-transactional-message-publication}
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d&#39;attente, dans la base de données Adobe Campaign.
 
@@ -267,7 +268,7 @@ Les événements placés dans la file d&#39;attente sont conservés pendant une 
 
 Lorsque vous cliquez sur **[!UICONTROL Reprendre]**, tous les événements placés dans la file d&#39;attente sont envoyés (à condition qu&#39;ils n&#39;aient pas expiré). Ils contiennent alors les modifications effectuées tant que la publication du modèle était suspendue.
 
-## Dépublier un message transactionnel    {#unpublishing-a-transactional-message}
+## Dépublier un message transactionnel      {#unpublishing-a-transactional-message}
 
 Cliquez sur **[!UICONTROL Dépublier]** pour annuler la publication du message transactionnel. L&#39;événement correspondant est également dépublié, ce qui supprime de l&#39;API REST la ressource correspondant à l&#39;événement précédemment créé.
 
@@ -287,27 +288,27 @@ Le workflow **[!UICONTROL Nettoyage de la base]**, qui s&#39;exécute tous les j
 
 ## Supprimer un message transactionnel {#deleting-a-transactional-message}
 
-Une fois qu’un message transactionnel a été annulé ou qu’un message transactionnel n’a pas encore été publié, vous pouvez le supprimer de la liste de message transactionnel. Pour cela :
+Lorsqu’un message transactionnel a été dépublié ou qu’il n’a pas encore été publié, vous pouvez le supprimer de la liste des messages transactionnels. Pour cela :
 
 1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Diffusions]**.
 1. Passez la souris sur le message de votre choix.
-1. Click the **[!UICONTROL Delete element]** button.
+1. Cliquez sur le bouton **[!UICONTROL Supprimer l’élément]**.
 
 ![](assets/message-center_delete-template.png)
 
 La suppression d&#39;un message transactionnel ne peut toutefois être effectuée que sous certaines conditions :
 
-* Make sure the transactional message has the **[!UICONTROL Draft]** status, otherwise you will not be able to delete it. The **[!UICONTROL Draft]** status applies to a message that has not been published yet, or that has been [unpublished](#unpublishing-a-transactional-message) (and not [paused](#suspending-a-transactional-message-publication)).
+* Vérifiez que le message transactionnel a le statut **[!UICONTROL En création]**, sinon vous ne pourrez pas le supprimer. Le statut **[!UICONTROL En création]** s’applique à un message qui n’a pas encore été publié ou qui a été [dépublié](#unpublishing-a-transactional-message) (et non [mis en pause](#suspending-a-transactional-message-publication)).
 
-* **Messages transactionnels**: À moins qu’un autre message transactionnel ne soit lié au événement correspondant, si le message transactionnel n’est pas publié, la configuration du événement doit également être annulée pour que votre message transactionnel soit supprimé. Pour plus d’informations à ce sujet, voir [Annulation de la publication d’un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
+* **Messages transactionnels** : À moins qu’un autre message transactionnel ne soit lié à l’événement correspondant, si le message transactionnel est dépublié, la configuration de l’événement doit également être dépubliée pour que la suppression de votre message transactionnel soit réussie. Voir à ce propos [Dépublier un événement](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
    >[!IMPORTANT]
    >
    >La suppression d&#39;un message transactionnel ayant déjà envoyé des notifications entraîne celle de ses logs d&#39;envoi et du tracking.
 
-* **Messages transactionnels d’un modèle de événement prêt à l’emploi (messages transactionnels internes)**: Si un message transactionnel interne est le seul associé au événement interne correspondant, il ne peut pas être supprimé. Vous devez d’abord créer un autre message transactionnel en le dupliquant ou par le biais du menu **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de message transactionnel]** .
+* **Messages transactionnels issus d’un modèle d’événement d’usine (messages transactionnels internes)** : Si un message transactionnel interne est le seul associé à l’événement interne correspondant, il ne peut pas être supprimé. Vous devez tout d’abord créer un autre message transactionnel en le dupliquant ou à travers le menu **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de messages transactionnels]**.
 
-## Processus de reprise d&#39;un message transactionnel    {#transactional-message-retry-process}
+## Processus de reprise d&#39;un message transactionnel      {#transactional-message-retry-process}
 
 Un message transactionnel temporairement non diffusé fait l&#39;objet de reprises automatiques jusqu&#39;à l&#39;expiration de la diffusion. Pour plus d&#39;informations sur la durée de diffusion, voir [Paramètres de période de validité](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
@@ -316,7 +317,7 @@ En cas d&#39;échec de l&#39;envoi d&#39;un message transactionnel, il existe de
 * Au niveau des messages transactionnels, un message transactionnel peut échouer avant que l&#39;événement ne soit assigné à une diffusion d&#39;exécution, c&#39;est-à-dire entre la réception de l&#39;événement et la préparation de la diffusion. Voir [Processus de reprise du traitement d&#39;un événement](#event-processing-retry-process).
 * Au niveau du processus d&#39;envoi, une fois l&#39;événement assigné à une diffusion d&#39;exécution, le message transactionnel peut échouer en raison d&#39;une erreur temporaire. Voir [Processus de reprise de l&#39;envoi d&#39;un message](#message-sending-retry-process).
 
-### Processus de reprise du traitement d&#39;un événement    {#event-processing-retry-process}
+### Processus de reprise du traitement d&#39;un événement      {#event-processing-retry-process}
 
 Si l&#39;événement ne peut pas être assigné à une diffusion d&#39;exécution, son traitement est reporté. Des reprises sont ensuite effectuées jusqu&#39;à ce qu&#39;il soit assigné à une nouvelle diffusion d&#39;exécution.
 
@@ -326,7 +327,7 @@ Si l&#39;événement ne peut pas être assigné à une diffusion d&#39;exécutio
 
 Par exemple, l&#39;événement ne pourrait pas être assigné à une diffusion d&#39;exécution, en raison d&#39;un contenu incorrect, d&#39;un problème de droits d&#39;accès ou de branding, d&#39;une erreur détectée lors de l&#39;application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, l&#39;éditer pour résoudre le problème et le publier à nouveau. Le système de reprise l&#39;assignera ensuite à une nouvelle diffusion d&#39;exécution.
 
-### Processus de reprise de l&#39;envoi d&#39;un message    {#message-sending-retry-process}
+### Processus de reprise de l&#39;envoi d&#39;un message      {#message-sending-retry-process}
 
 Une fois que l&#39;événement a été assigné à une diffusion d&#39;exécution, le message transactionnel peut échouer en raison d&#39;une erreur temporaire, par exemple si la boîte du destinataire est pleine. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
