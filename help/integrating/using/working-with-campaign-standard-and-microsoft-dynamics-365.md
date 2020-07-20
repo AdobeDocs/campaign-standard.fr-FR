@@ -1,6 +1,6 @@
 ---
-title: Prise en main de l'intégration de Microsoft Dynamics 365
-description: Découvrez comment commencer avec l'intégration de Microsoft Dynamics 365
+title: Prise en main de l’intégration de Microsoft Dynamics 365
+description: Découvrez comment commencer à utiliser l’intégration de Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -11,20 +11,20 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Prise en main de l&#39;intégration de Microsoft Dynamics 365
+# Prise en main de l’intégration de Microsoft Dynamics 365
 
 >[!IMPORTANT]
 >
->Cette intégration est actuellement indisponible. Un nouveau connecteur est en cours de développement et sera disponible à l&#39;avenir. Pour plus d&#39;informations, veuillez contacter votre représentant commercial Adobe.
+>Cette intégration est actuellement indisponible. Un nouveau connecteur est en cours de développement et sera disponible ultérieurement. Pour plus d’informations, veuillez contacter votre représentant commercial Adobe.
 
 Activez vos données CRM lors d’une communication cross-canal : découvrez comment transférer des contacts de Microsoft Dynamics 365 à Adobe Campaign et partager les données de performances de la campagne (envois, ouvertures, clics et bounces) d’Adobe Campaign vers Microsoft Dynamics 365.
 
