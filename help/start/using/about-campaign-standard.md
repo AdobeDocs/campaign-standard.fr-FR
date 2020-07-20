@@ -11,80 +11,80 @@ topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Get Started with Campaign Standard {#about-campaign-standard}
+# Prise en main de Campaign Standard {#about-campaign-standard}
 
-L’Adobe Campaign Standard est un puissant outil de Gestion de campagne entre canaux qui peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
+Adobe Campaign Standard est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
 
-Contrôlez l&#39;ensemble du processus de création, d&#39;exécution et de suivi des campagnes inter-canaux, ainsi que l&#39;envoi de messages personnalisés en fonction du profil, du comportement, des préférences et des besoins des clients. Vous pouvez orchestrer, modéliser et automatiser facilement l&#39;ensemble du processus marketing et intégrer Adobe Campaign à d&#39;autres solutions Adobe.
+Il vous permet de contrôler l’ensemble du processus de création, d’exécution et de tracking des campagnes cross-canal, ainsi que l’envoi de messages personnalisés en fonction du profil, du comportement, des préférences et des besoins des clients. Vous pouvez orchestrer, modéliser et automatiser facilement l&#39;ensemble du processus marketing et intégrer Adobe Campaign à d&#39;autres solutions Adobe.
 
 ## Développer votre base de données marketing {#grow-database}
 
 <img width="60px" alt="conditions" src="assets/icon_segment.svg"/>
 
-**Les profils** clients intégrés Campaign vous permettent de suivre chaque interaction avec les clients sur tous les canaux au sein d’une seule vue, ce qui vous permet de diffuser des messages pertinents et personnalisés à vos clients.
+Les **profils client intégrés de Campaign** permettent de tracker chaque interaction avec les clients sur tous les canaux dans une vue unique, et de diffuser ainsi des messages pertinents et personnalisés à vos clients.
 
-**Segmentez votre base de données en audiences** pour optimiser la cible de vos campagnes marketing.
+**Segmentez votre base de données en différentes audiences** pour optimiser la cible de vos campagnes marketing.
 
-**Gérez l’autorisation et le consentement** des clients à l’aide de services et de landings page pour configurer des mécanismes d’inclusion et d’exclusion faciles.
+**Gérez les autorisations et le consentement des clients** à l’aide de services et de landing pages pour configurer des mécanismes simples d’opt-in et d’opt-out.
 
-**Enrichissez votre base de données** à l’aide de plusieurs fonctionnalités : workflows, landings page ou API, ou Microsoft Dynamics 365.
+**Enrichissez votre base de données** grâce à différentes fonctionnalités : workflows, landing pages ou API, ou Microsoft Dynamics 365.
 
-[Commencer avec les profils et les audiences](../../audiences/using/get-started-profiles-and-audiences.md)
+[Prise en main des profils et des audiences](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## Orchestrer des campagnes marketing sur plusieurs canaux {#orchestrate-campaigns}
+## Orchestrer des campagnes marketing cross-canal {#orchestrate-campaigns}
 
 <img width="60px" alt="conditions" src="assets/icon_workflows.svg"/>
 
-Planifier, coordonner et orchestrer des campagnes inter-canaux.
+Planifiez, coordonnez et orchestrez des campagnes cross-canal.
 
-**Optimisez l&#39;organisation** de vos plans marketing en créant des programmes et des campagnes. Analysez l’impact de vos campagnes marketing au moyen de rapports. Orchestrer vos campagnes à l’aide de plusieurs activités marketing accessibles à partir d’une seule interface et configurer des modèles d’activités marketing pour gagner du temps. [Commencer avec les Plans marketing et les activités](../../start/using/programs-and-campaigns.md)
+**Optimisez l’organisation de vos plans marketing** en créant des programmes et des campagnes. Analysez l’impact de vos campagnes marketing au moyen de rapports. Orchestrez vos campagnes à l’aide de différentes activités marketing, accessibles par une interface unique, et configurez des modèles d’activités marketing pour gagner du temps. [Prise en main des plans marketing et des activités](../../start/using/programs-and-campaigns.md)
 
-**Tirez parti des workflows** pour orchestrer et automatiser vos campagnes. [Commencer avec les processus et les datas Management](../../automating/using/get-started-workflows.md)
+**Tirez parti des workflows** pour orchestrer et automatiser vos campagnes. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
 ## Créer et envoyer des messages {#design-send}
 
 <img width="60px" alt="conditions" src="assets/icon_send.svg"/>
 
-Concevez et envoyez des messages sur des canaux de communication en ligne et hors ligne, y compris l&#39;optimisation des diffusions électroniques pour plusieurs périphériques grâce à des tests et des stratégies de conception réactives.
+Créez et envoyez vos messages sur différents canaux de communication en ligne et hors ligne, notamment en optimisant la diffusion des emails pour de nombreux appareils par le biais de stratégies de test et de responsive design.
 
-**Tirez parti des canaux** de communication Campaign pour diffuser vos campagnes marketing au bon endroit : e-mail, SMS, notification Push, message in-app, courrier direct, landings page. Gagnez du temps et de la cohérence dans votre stratégie de messagerie en créant des modèles pour tous les types de messages (messages transactionnels, récurrents, multilingues). Effectuez des tests A/B et capturez l’intérêt de votre audience à l’aide de la personnalisation et des fonctionnalités de contenu dynamique. [Commencer avec les canaux de communication](../../channels/using/get-started-communication-channels.md)
+**Utilisez les canaux de communication de Campaign** pour diffuser vos campagnes marketing vers les bons destinataires : emails, SMS, notifications push, messages In-App, courrier, landing pages. Gagnez du temps et améliorez la cohérence de votre stratégie de messagerie en créant des modèles pour tous les types de messages (messages transactionnels, récurrents, multilingues). Effectuez des tests A/B et retenez l’attention de votre audience grâce à la personnalisation et aux fonctionnalités de contenu dynamique. [Prise en main des canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-**Utilisez Campaign Email Designer** pour créer des e-mails captivants et personnalisés. Début à partir de zéro ou exploitation de fragments ou de modèles de contenu intégrés pour concevoir vos courriers électroniques à l’aide du format HTML optimisé pour une conception adaptée. [Commencer la conception de contenu de courrier électronique](../../designing/using/designing-content-in-adobe-campaign.md)
+**Utilisez le Concepteur d’email de Campaign** pour créer des emails attrayants et personnalisés. Créez des emails intégralement ou réutilisez des fragments ou des modèles de contenus intégrés pour les concevoir au format HTML optimisé pour le responsive design. [Prise en main de la conception du contenu des emails](../../designing/using/designing-content-in-adobe-campaign.md)
 
-**Analysez et vérifiez le contenu de vos messages** avant de les envoyer, en utilisant plusieurs fonctionnalités de test telles que la prévisualisation, les BAT, le test par sujet du courrier électronique, le rendu du courrier électronique, etc. Assurez-vous que vos messages sont diffusés au bon moment en optimisant leur heure d&#39;envoi (planification, gestion des fuseaux horaires). [Commencer avec le test et l’envoi de messages](../../sending/using/get-started-sending-messages.md)
+**Analysez et vérifiez le contenu de vos messages** avant de les envoyer, grâce aux différentes fonctionnalités de test, notamment les aperçus, les BAT, les tests d’objet des emails et le rendu des emails. Assurez-vous de diffuser les messages au bon moment en optimisant leur heure d’envoi (planification, gestion des fuseaux horaires). [Prise en main du test et de l’envoi de messages](../../sending/using/get-started-sending-messages.md)
 
-## Suivre l&#39;impact de vos campagnes {#track-impact-campaigns}
+## Tracker l’impact des campagnes {#track-impact-campaigns}
 
 <img width="60px" alt="conditions" src="assets/icon_report.svg"/>
 
-Une fois les campagnes marketing exécutées et les différents messages envoyés, le Campaign Standard vous permet de les surveiller pour suivre leur impact ainsi que leur comportement destinataire.
+Une fois les campagnes marketing exécutées et les différents messages envoyés, Campaign Standard permet de les surveiller pour tracker leur impact et le comportement des destinataires.
 
-**Surveillez vos diffusions** une fois envoyées. Consultez et exportez des journaux détaillés sur vos diffusions. Récupérez des informations sur leur état pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
-Tirez parti de la fonction d&#39;alerte de diffusion pour suivre les réussites ou échecs de diffusion par le biais de notifications par courrier électronique. Vous voulez en savoir plus ? [Commencer à surveiller les messages](../../sending/using/monitoring-a-delivery.md)
+**Surveillez les diffusions** envoyées. Consultez et exportez des logs détaillés concernant vos diffusions. Récupérez des informations sur leur statut pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
+Utilisez la fonction d’alerte de diffusion pour suivre les succès ou les échecs des diffusions à l’aide de notifications par email. Vous souhaitez en savoir plus ? [Prise en main de la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
 
-**Suivez le comportement de vos destinataires** de diffusion. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de suivi de chaque contact de votre base de données. Surveillez les informations de suivi sur les diffusions (URL cliquées, pages d’erreur, messages ouverts...) par le biais de journaux et de rapports dédiés. [Commencer le suivi des messages](../../sending/using/tracking-messages.md)
+**Trackez le comportement des destinataires de vos diffusions**. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de tracking des diffusions (URL cliquées, pages miroir, messages ouverts...) à l’aide de logs et de rapports dédiés. [Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
 
-**Tirez parti des rapports** dynamiques pour décrire les mesures spécifiques liées à votre message ou à votre campagne. Le rapports dynamique fournit des rapports entièrement personnalisables et en temps réel qui ajoutent l’accès aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le sexe, la ville et l’âge, en plus des données de campagne par courriel fonctionnelles, telles que les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires. [Commencer avec le rapports dynamique](../../reporting/using/about-dynamic-reports.md)
+**Utilisez les rapports dynamiques** pour définir des mesures spécifiques liées à votre message ou à votre campagne. Entièrement personnalisables et créés en temps réel, les rapports dynamiques donnent accès aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires. [Prise en main de la création de rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Administration de votre plateforme et extension du modèle de données {#datamodel-apis}
+## Administrer la plateforme et étendre le modèle de données {#datamodel-apis}
 
 <img width="60px" alt="conditions" src="assets/icon_admin.svg"/>
 
-**Etendez le modèle** de données Campaign Standard à vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données en une seule vue. [Commencer avec le modèle de données Campaign Standard](../../developing/using/get-started-data-model.md)
+**Étendez le modèle de données de Campaign Standard** avec vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données à l’aide d’une vue unique. [Prise en main du modèle de données de Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Tirez parti des API** REST pour effectuer diverses opérations et intégrer le Campaign Standard à votre propre écosystème. [Commencer avec les API REST Campaign Standard](../../api/using/get-started-apis.md)
+**Utilisez les API REST** pour effectuer tout un éventail d’opérations et intégrer Campaign Standard dans votre propre écosystème. [Prise en main des API REST de Campaign Standard](../../api/using/get-started-apis.md)
 
-**Administration de Campaign** à partir d’une seule vue : surveillez votre instance, gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et configurez les paramètres de vos canaux de communication. [Prise en main de l’administration des Campaign Standards](../../administration/using/get-started-campaign-administration.md)
+**Administrez Campaign** à partir d’une vue unique : surveillez votre instance et gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et paramétrez vos canaux de communication. [Prise en main de l’administration de Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
-**Importez et exportez facilement des données** à l’aide des fonctionnalités de data Management du Campaign Standard. [Commencer avec les processus et les datas Management](../../automating/using/get-started-workflows.md)
+**Importez et exportez facilement des données** à l’aide des fonctionnalités de gestion des données de Campaign Standard. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
-**Combinez les fonctionnalités de Campaign à d’autres solutions** pour vous aider à créer des campagnes marketing optimales. [Commencer avec les intégrations de Campaign Standards](../../integrating/using/get-started-campaign-integrations.md)
+**Combinez les fonctionnalités de Campaign avec d’autres solutions** pour créer plus efficacement des campagnes marketing optimales. [Prise en main des intégrations de Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
