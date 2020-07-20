@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
 
 >[!NOTE]
 >
->Pour obtenir des informations détaillées sur la configuration des postbacks, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Pour obtenir des informations détaillées sur la configuration des postbacks, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Intégrer le SDK dans une application mobile {#integrating-the-sdk-into-a-mobile-application}
 
@@ -182,11 +182,11 @@ Pour définir les points ciblés servant à collecter les données de localisati
 1. Connectez-vous à l&#39;interface Adobe Mobile Services.
 1. Ajoutez votre application.
 
-   Pour plus d&#39;informations sur la gestion des applications dans Mobile Services, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Pour plus d&#39;informations sur la gestion des applications dans Mobile Services, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Définissez les points ciblés.
 
-   Pour plus d&#39;informations sur la gestion des points ciblés, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/location-ug/t-manage-points.html).
+   Pour plus d&#39;informations sur la gestion des points ciblés, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Collecter les données de points ciblés auprès des abonnés {#collecting-subscribers--points-of-interest-data}
 
@@ -207,7 +207,7 @@ Pour accéder aux applications créées dans Adobe Campaign :
 
 Une liste des abonnés de l&#39;application est également affichée dans l&#39;onglet **[!UICONTROL Abonnés à l&#39;application mobile]**. Les abonnés correspondent à tous les utilisateurs qui ont installé l&#39;application sur leur appareil mobile. Les profils de la base de données Adobe Campaign sont identifiés par un jeton d&#39;enregistrement.
 
-## Accéder aux données de localisation collectées  {#accessing-collected-location-data}
+## Accéder aux données de localisation collectées   {#accessing-collected-location-data}
 
 Une fois la configuration terminée, les données de points ciblés collectées sont répertoriées dans l&#39;onglet **[!UICONTROL Lieux]** de chaque profil. Pour accéder à la liste :
 
