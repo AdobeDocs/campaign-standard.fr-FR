@@ -1,6 +1,6 @@
 ---
 title: Gestion des options d’exécution
-description: Découvrez comment gérer les options d'exécution des workflows.
+description: Découvrez comment gérer les options d’exécution des workflows.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Jours d’historique]** : indique le nombre de jours après lesquels l’historique doit être purgé. L’historique contient des éléments liés au workflow : logs, tâches, événements (objets techniques liés à l’opération du workflow), ainsi que les fichiers téléchargés par l’activité **[!UICONTROL Transfert de fichier]**. La valeur par défaut est de 30 jours pour les modèles de workflow d’usine.
 
-   Purge of the history is performed by the Database cleanup technical workflow, which is executed by default everyday (see [List of technical workflows](../../administration/using/technical-workflows.md).)
+   La purge de l’historique est effectuée par le workflow technique Nettoyage de la base, qui est exécuté par défaut tous les jours (voir [Liste des workflows techniques](../../administration/using/technical-workflows.md)).
 
    >[!IMPORTANT]
    >
