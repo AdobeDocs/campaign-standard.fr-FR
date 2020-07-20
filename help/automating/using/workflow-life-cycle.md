@@ -1,6 +1,6 @@
 ---
 title: Cycle de vie d'un workflow
-description: En savoir plus sur le cycle de vie du workflow
+description: En savoir plus sur le cycle de vie d’un workflow
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
