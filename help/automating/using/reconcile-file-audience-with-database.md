@@ -1,5 +1,5 @@
 ---
-title: Rapprocher une audience de fichiers de la base de données
+title: Réconcilier une audience de type fichier avec la base de données
 description: Cet exemple montre comment utiliser l'activité Lecture d'audience pour réconcilier une audience créée directement à partir d'un import de fichier.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -12,16 +12,16 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
+# Réconcilier une audience de type fichier avec la base de données {#example--reconcile-a-file-audience-with-the-database}
 
 Cet exemple montre comment utiliser l&#39;activité **[!UICONTROL Lecture d&#39;audience]** pour réconcilier une audience créée directement à partir d&#39;un import de fichier.
 
