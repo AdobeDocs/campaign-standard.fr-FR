@@ -11,16 +11,16 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
-# Créer et envoyer des messages
+# Créer et envoyer des messages 
 
 <table>
 <tr>
@@ -41,19 +41,19 @@ ht-degree: 65%
     </td>
 </tr>
 <tr>
-<td>Conception de vos diffusions</td>
+<td>Concevoir vos diffusions</td>
 <td>Créer des diffusions</td>
 <td>Personnaliser et rendre vos diffusions dynamiques</td>
-<td>Suivi et surveillance de vos diffusions</td>
-<td>Configuration des rapports</td>
+<td>Tracker et surveiller vos diffusions</td>
+<td>Configurer des rapports</td>
 </tr>
 </table>
 
-## Conception de vos diffusions
+## Concevoir vos diffusions
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -84,7 +84,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 * [personnaliser l&#39;expéditeur](../../designing/using/subject-line.md) d&#39;un email ou d&#39;un SMS ;
 * [personnaliser l&#39;objet](../../designing/using/subject-line.md) d&#39;un email ou utiliser les fonctionnalités d&#39;[optimisation prédictive de l&#39;objet](../../designing/using/subject-line.md#subject-line) pour ce faire ;
 * créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
-* insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push
+* insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push.
 
 ![](assets/delivery_content_43.png)
 
@@ -92,9 +92,9 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 
 * Découvrez la personnalisation des emails à travers un [exemple de bout en bout](../../designing/using/personalization.md#example-email-personalization)
 * [Personnaliser une URL](../../designing/using/personalization.md#personalizing-urls)
-* [Configuration de la personnalisation d’une image](../../designing/using/personalization.md#personalizing-an-image-source)
+* [Configurer la personnalisation d’une image](../../designing/using/personalization.md#personalizing-an-image-source)
 
-## Suivi et surveillance de vos diffusions
+## Tracker et surveiller vos diffusions
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
@@ -115,11 +115,11 @@ Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tabl
 * [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
 * [Tracker les messages](../../sending/using/tracking-messages.md)
 
-## Configuration des rapports
+## Configurer des rapports
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
