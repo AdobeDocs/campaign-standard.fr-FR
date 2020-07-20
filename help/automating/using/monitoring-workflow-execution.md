@@ -1,6 +1,6 @@
 ---
 title: Surveiller l'exécution des workflows
-description: Découvrez comment surveiller l’exécution d’un processus.
+description: Découvrez comment surveiller l’exécution d’un workflow.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Surveiller l&#39;exécution des workflows {#monitoring}
 
-## Journal de flux de travaux et tâches {#workflow-log-and-tasks}
+## Journal et tâches du workflow {#workflow-log-and-tasks}
 
 L’icône ![](assets/printpreview_darkgrey-24px.png) permet d’accéder au menu Journal et tâches du workflow.
 
@@ -43,7 +43,7 @@ Dans ces deux listes :
 * Le bouton **[!UICONTROL Configurer la liste]** permet de choisir les informations affichées, de définir l’ordre des colonnes et d’appliquer un tri.
 * Vous pouvez utiliser des filtres pour trouver plus rapidement les informations dont vous avez besoin. Utilisez le champ de recherche pour rechercher du texte spécifique dans les noms des activités de workflow (par exemple &quot;requête&quot;) et les logs.
 
-## Gestion des erreurs     {#error-management}
+## Gestion des erreurs      {#error-management}
 
 Lorsqu’une erreur se produit, le workflow se met en pause et l’activité qui était en cours d’exécution lorsque l’erreur s’est produite clignote alors en rouge.
 
@@ -57,7 +57,7 @@ Dans ce cas, la tâche en erreur est abandonnée. Ce mode est particulièrement 
 >
 >Vous pouvez appliquer ce paramétrage au niveau de chaque activité. Pour cela, sélectionnez l’activité de votre choix puis ouvrez-là à l’aide de l’action rapide ![](assets/edit_darkgrey-24px.png) et sélectionnez le mode de gestion des erreurs dans l’onglet **Options d’exécution.** Voir [Options d’exécution d’une activité](../../automating/using/activity-properties.md).
 
-In the [workflow&#39;s properties](../../automating/using/managing-execution-options.md), additional options related to error management are available.
+Dans les [propriétés du workflow](../../automating/using/managing-execution-options.md), des options supplémentaires liées à la gestion des erreurs sont disponibles.
 
 ![](assets/wkf_execution_error.png)
 
