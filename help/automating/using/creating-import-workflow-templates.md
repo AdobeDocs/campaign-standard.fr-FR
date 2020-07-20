@@ -1,6 +1,6 @@
 ---
 title: Création de modèles de workflow pour importer des données
-description: Découvrez comment créer des modèles de processus pour importer des données.
+description: Découvrez comment créer des modèles de workflow pour importer des données.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1303'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,6 +39,7 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
    * **[!UICONTROL Segmentation]** : créez des filtres pour traiter les enregistrements différemment selon qu’ils aient pu ou non être réconciliés.
    * **[!UICONTROL Déduplication]** : dédupliquez les données du fichier entrant avant son import dans la base de données.
    * **[!UICONTROL Mise à jour de données]** : mettez la base de données à jour avec les profils importés.
+
    ![](assets/import_template_example0.png)
 
 1. Configurez l’activité **[!UICONTROL Chargement de fichier]** :
@@ -63,6 +64,7 @@ Par exemple :
 
    * Dans l’onglet **[!UICONTROL Liens]**, sélectionnez **[!UICONTROL Créer un élément]** et définissez un lien entre les données importées et la dimension de ciblage des destinataires (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)). Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** permet de créer la condition de jointure. Utilisez le champ ou la combinaison de champs nécessaire tant que l’identification des enregistrements uniques reste possible.
    * Dans l’onglet **[!UICONTROL Identification]**, laissez l’option **[!UICONTROL Identifier le document de ciblage à partir des données de travail]** décochée.
+
    ![](assets/import_template_example2.png)
 
 1. Configurez l’activité **[!UICONTROL Segmentation]** pour récupérer les destinataires réconciliés dans une transition, ainsi que les destinataires qui n’ont pas pu être réconciliés mais qui disposent de suffisamment de données dans une autre transition.
@@ -106,6 +108,7 @@ Par exemple :
 
    * Dans cet exemple, le champ email est utilisé pour trouver les profils uniques. Vous pouvez utiliser n’importe quel champ dont vous êtes sûr qu’il est rempli et qu’il fait partie d’une combinaison unique.
    * Sélectionnez une **[!UICONTROL Méthode de déduplication]**. Dans ce cas, l’application décide automatiquement quels enregistrements conserver en cas de doublons.
+
    ![](assets/import_template_example7.png)
 
 1. Configurez l’activité **[!UICONTROL Mise à jour de données]** située après l’activité **[!UICONTROL Déduplication]** paramétrée précédemment.
