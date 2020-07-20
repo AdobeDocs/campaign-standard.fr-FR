@@ -12,11 +12,11 @@ discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dans Adobe Campaign, le processus utilisateur est le suivant :
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Association de diffusions de messagerie électronique et de messagerie directe](../../automating/using/coupling-email-direct-mail.md)
+* [Cas pratique : diffusions conjointes d’emails et de courriers](../../automating/using/coupling-email-direct-mail.md)
 
 ## Recommandations {#recommendations}
 
@@ -55,7 +55,7 @@ Assurez-vous que la case **[!UICONTROL Adresse renseignée]** est cochée dans l
 
 ![](assets/direct_mail_22.png)
 
-### Adresses postales  {#postal-addresses}
+### Adresses postales   {#postal-addresses}
 
 Lors de l&#39;ajout des champs à inclure dans le fichier d&#39;extraction, les champs d&#39;adresse postale sont accessibles dans le nœud **[!UICONTROL Localisation]**.
 
