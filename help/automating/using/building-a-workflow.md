@@ -12,9 +12,9 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '940'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Vous pouvez ouvrir les transitions afin de vérifier que les données transmises
 ![](assets/workflow_overview.png)
 
 
-## Créer un workflow    {#creating-a-workflow}
+## Créer un workflow     {#creating-a-workflow}
 
 La création d’un workflow est possible au sein d’un programme ou d’une campagne, ou dans la liste des activités marketing.
 
