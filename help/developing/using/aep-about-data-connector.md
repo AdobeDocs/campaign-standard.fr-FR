@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1dff41bc7b64d2f7ed7c88e002675e50e68a825f
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -38,15 +41,15 @@ Des vidéos pratiques sont également proposées sur [cette page](https://docs.a
 >
 >Cette opération peut être effectuée via les API ou à l’aide de l’interface d’Adobe Experience Platform. Pour plus d’informations, consultez la documentation dédiée :
 >
->* [Activation d’un jeu de données pour Real-time Customer Profile](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
->* [Configuration d’un jeu de données pour Real-time Customer Profile et Identity Service à l’aide des API](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
+>* [Activation d’un jeu de données pour Real-time Customer Profile](https://docs.adobe.com/content/help/fr-FR/experience-platform/rtcdp/datasets/dataset.html)
+>* [Configuration d’un jeu de données pour Real-time Customer Profile et Identity Service à l’aide des API](https://docs.adobe.com/content/help/fr-FR/experience-platform/catalog/api/getting-started.html)
 
 
 ## Principaux concepts {#key-concepts}
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour importer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. This value can be modified using [Adobe Experience Platform APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/home.html).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 
@@ -56,21 +59,21 @@ Des vidéos pratiques sont également proposées sur [cette page](https://docs.a
 
 * Toute modification du schéma Adobe Campaign Standard ou XDM doit être remappée manuellement. 
 
-* Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette importation est diffusée en temps réel sur Adobe Experience Platform.
+* Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette ingestion est diffusée en temps réel vers Adobe Experience Platform.
 
-* Experience Cloud ID Service (ECID) est un identifiant de périphérique envoyé par défaut avec les Événements d’expérience.
+* Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
 
-   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par Platform Identity Service pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations à ce sujet, reportez-vous à l’aide [du service d’identité](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud.
+   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plate-forme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 
    >[!NOTE]
    >
-   >Sachez que, si deux profils ou plus partagent un même périphérique, l’ECID sera le même pour ces deux profils dans le service d’identité unifiée.
+   >Sachez que si deux personnes ou plus partagent un même appareil, l’ECID sera le même pour ces deux profils dans le service d’identité unifiée.
 
 ## Limitations {#limitations}
 
 * Le transfert d’usine des événements d’abonnement n’est pas pris en charge. Pour transférer des événements d’abonnement, vous pouvez créer le fichier XDM et le jeu de données correspondants sur Adobe Experience Platform, puis configurer un mapping de données personnalisé pour ces données.
 
-* En ce qui concerne les demandes de confidentialité (actions d’accès et de suppression), les clients doivent placer des requêtes distinctes via le service [principal](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)de confidentialité : l’un pour Campaign, l’autre pour Adobe Experience Platform. Pour plus d’informations à ce sujet, voir [A propos des requêtes](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess) de confidentialité et [Gestion des requêtes](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) de confidentialité dans Campaign.
+* En ce qui concerne les demandes d’accès à des informations personnelles (actions d’accès et de suppression), les clients doivent effectuer des demandes distinctes par le biais du [Privacy Core Service](https://docs.adobe.com/content/help/fr-FR/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) : l’une pour Campaign et l’autre pour Adobe Experience Platform. Pour plus d’informations à ce sujet, voir [À propos des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess) et [Gestion des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) dans Campaign.
 
 * Pour chaque champ XDM, la définition du libellé DULE doit être effectuée dans Adobe Experience Platform. Il incombe au client d’appliquer des libellés DULE.
 
