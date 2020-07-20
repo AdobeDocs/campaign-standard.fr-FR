@@ -11,9 +11,9 @@ topic-tags: importing-and-exporting-data
 discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
 ht-degree: 100%
 
@@ -31,23 +31,23 @@ Un modèle d&#39;import est défini par l&#39;administrateur fonctionnel et peut
 Trois modèles par défaut sont disponibles en lecture seule :
 
 * **[!UICONTROL Mettre à jour les logs de diffusion et les mises en quarantaine Courrier]** : ce modèle peut servir de base pour de nouveaux imports permettant de mettre à jour les mises en quarantaine et les logs de diffusion du canal Courrier. Le workflow de ce modèle contient les activités suivantes :
-* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
+* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
-   * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
+   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+   * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
 
-* **[!UICONTROL Import de liste]** : ce modèle peut servir de base pour de nouveaux imports permettant de créer une audience de type **Liste** à partir des données d&#39;un fichier. Le workflow de ce modèle contient les activités suivantes :
+* **[!UICONTROL Import de liste]** : ce modèle peut servir de base pour de nouveaux imports permettant de créer une audience de type **Liste** à partir des données d&#39;un fichier. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
-   * **[!UICONTROL Réconciliation]** : cette activité permet d&#39;associer une dimension de ciblage aux données importées. Cela permet ensuite de créer une audience de type **Liste**. Si la dimension de ciblage des données importées n&#39;est pas connue, l&#39;audience est de type **Fichier**. Voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Sauvegarde d&#39;audience]** : cette activité permet d&#39;enregistrer les données importées sous la forme d&#39;audience de type **Liste**. Le nom de l&#39;audience sauvegardée correspondra au nom du fichier importé par l&#39;utilisateur, auquel sera ajouté un suffixe précisant la date et l&#39;heure de l&#39;import. Par exemple : &#39;profiles_20150406_151448&#39;.
+   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+   * **[!UICONTROL Réconciliation]** : cette activité permet d&#39;associer une dimension de ciblage aux données importées. Cela permet ensuite de créer une audience de type **Liste**. Si la dimension de ciblage des données importées n&#39;est pas connue, l&#39;audience est de type **Fichier**. Voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL Sauvegarde d&#39;audience]** : cette activité permet d&#39;enregistrer les données importées sous la forme d&#39;audience de type **Liste**. Le nom de l&#39;audience sauvegardée correspondra au nom du fichier importé par l&#39;utilisateur, auquel sera ajouté un suffixe précisant la date et l&#39;heure de l&#39;import. Par exemple : &#39;profiles_20150406_151448&#39;.
 
 Ces modèles par défaut sont en lecture seule et ne sont pas visibles par les utilisateurs standards. Pour créer un modèle mis à la disposition des utilisateurs, procédez comme suit :
 
 1. Dupliquez le modèle par défaut de votre choix. Le modèle dupliqué contient trois onglets :
 
    * **[!UICONTROL Propriétés]** : paramètres généraux du modèle d&#39;import. Cet onglet permet notamment d&#39;activer le modèle et de charger un fichier d&#39;exemple.
-   * **[!UICONTROL Workflow]** : workflow d&#39;import. Cet onglet permet de définir les activités du workflow. Ces activités ne seront pas visibles lors des imports simplifiés réalisés par les utilisateurs.
+   * **[!UICONTROL Workflow]** : workflow d&#39;import. Cet onglet permet de définir les activités du workflow. Ces activités ne seront pas visibles lors des imports simplifiés réalisés par les utilisateurs.
    * **[!UICONTROL Imports exécutés]** : liste des imports réalisés à l&#39;aide de ce modèle. Vous pouvez visualiser le statut, le détail et les résultats de chaque import réalisé à partir du modèle. Vous pouvez accéder directement au workflow (exécuté de manière transparente pour l&#39;utilisateur) à partir de cette liste.
 
 1. Depuis l&#39;onglet **[!UICONTROL Propriétés]**, renommez le modèle et ajoutez une description. La description sera visible par les utilisateurs lorsque le modèle sera disponible.
