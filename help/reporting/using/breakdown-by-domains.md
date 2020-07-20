@@ -12,18 +12,18 @@ discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Répartition par domaine (Breakdown by domains){#breakdown-by-domains}
 
-Ce rapport contient les données de performance pour chaque domaine représenté dans l&#39;audience pour une diffusion email. S&#39;il s&#39;agit d&#39;un rapport de campagne ou de programme, les données de performance sont disponibles pour des audiences multiples. Ces données vous permettent d&#39;analyser le comportement de chaque domaine par rapport à des événements spécifiques. Par exemple, affichage des liens, URL sur la liste bloquée, etc.
+Ce rapport contient les données de performance pour chaque domaine représenté dans l&#39;audience pour une diffusion email. S&#39;il s&#39;agit d&#39;un rapport de campagne ou de programme, les données de performance sont disponibles pour des audiences multiples. Ces données vous permettent d&#39;analyser le comportement de chaque domaine par rapport à des événements spécifiques. Par exemple, affichage des liens, URL en liste bloquée, etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ Le deuxième tableau, **Statistiques de tracking**, contient les données dispon
 * **Clic** : nombre de clics sur un contenu dans une diffusion.
 * **Désabonnés** : nombre de clics sur le lien de désinscription.
 * **Page miroir** : nombre de clics sur le lien de la page miroir.
-* **Placé sur l&#39;liste bloquée**: Nombre de destinataires qui ont déclaré un courriel indésirable ou indésirable (voir Gestion des [Listes bloquées dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Placé sur la liste bloquée** : nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable (voir la section [Gestion de la liste bloquée dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
