@@ -1,6 +1,6 @@
 ---
-title: Personnalisation d’un courrier électronique avec des données supplémentaires
-description: Ce cas d’utilisation montre comment ajouter différents types de données supplémentaires à une requête et l’utiliser comme champ de personnalisation dans un courrier électronique.
+title: Personnaliser un email avec des données additionnelles
+description: Ce cas pratique montre comment ajouter différents types de données additionnelles dans une requête et les utiliser comme champ de personnalisation dans un email.
 page-status-flag: never-activated
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '495'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# Personnaliser un email avec des données additionnelles {#example--personalizing-an-email-with-additional-data}
 
-L’exemple suivant illustre l’ajout de différents types de données additionnelles dans une requête et leur utilisation en tant que champ de personnalisation dans un email. Pour plus d’informations sur la manière d’enrichir les données ciblées par une **[!UICONTROL activité de Requête]** , consultez [cette section](../../automating/using/query.md#enriching-data).
+L’exemple suivant illustre l’ajout de différents types de données additionnelles dans une requête et leur utilisation en tant que champ de personnalisation dans un email. Pour plus d’informations sur l’enrichissement des données ciblées par une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md#enriching-data).
 
 Pour cet exemple, des [ressources personnalisées](../../developing/using/data-model-concepts.md) sont utilisées :
 
