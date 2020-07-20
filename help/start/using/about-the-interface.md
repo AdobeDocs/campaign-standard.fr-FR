@@ -11,8 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+workflow-type: ht
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
 
