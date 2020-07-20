@@ -12,8 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
+workflow-type: ht
+source-wordcount: '1019'
+ht-degree: 100%
 
 ---
 
@@ -38,12 +41,12 @@ La section ci-dessous répertorie les limites que vous devez connaître avant de
 
 **Ecriture et mise à jour des données**
 
-* Landing pages are limited to **[!UICONTROL Profile]** and **[!UICONTROL Subscription]** resources only. Record can be saved and updated from **[!UICONTROL Profile]** and a subscription/unsubscription to a **[!UICONTROL Service]**.
+* Les landing pages sont limitées uniquement aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**. Un enregistrement peut être sauvegardé et mis à jour depuis le **[!UICONTROL Profil]** et un abonnement/désabonnement à un **[!UICONTROL Service]**.
 Pour en savoir plus sur la configuration des ressources, voir [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!CAUTION]
 >
->A landing page cannot display or update data from any other resource than **[!UICONTROL Profile]** and **[!UICONTROL Subscription]**.
+>Une page d&#39;entrée ne peut pas afficher ni mettre à jour les données d&#39;une autre ressource que **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**.
 
 **Préchargement**
 
@@ -73,7 +76,7 @@ Dans le cas présent, seul le premier profil a été mis à jour, car il s&#39;a
 
 Avant de configurer une landing page, vous devez configurer un modèle de landing page correspondant à vos besoins. Une fois le modèle prêt, toutes les landing pages reposant sur celui-ci seront préconfigurées avec les paramètres souhaités.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**, then duplicate the template that you want to use.
+1. Depuis le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Ressources]** / **[!UICONTROL Modèles]** / **[!UICONTROL Modèles de landing page]**, puis dupliquez le modèle que vous souhaitez utiliser.
 1. Dans les propriétés du modèle, spécifiez tous les paramètres que vos landing pages doivent avoir en commun, par exemple, la dimension de ciblage, les paramètres d&#39;accès aux pages pour les visiteurs identifiés ou non, les actions spécifiques à la validation de formulaire par un visiteur, la marque/le logo à utiliser dans le contenu, etc. Pour plus d&#39;informations sur les propriétés des landing pages, reportez-vous à [cette section](../../channels/using/configuring-landing-page.md)
 1. Enregistrez vos modifications.
 
@@ -124,7 +127,7 @@ Pour plus d&#39;informations sur le test d&#39;une landing page, reportez-vous �
 
 ## Etape 5 - Publier la landing page {#publish-the-landing-page}
 
-Once the tests are successful, you can publish the landing page using the **[!UICONTROL Publish]** button from the action bar in the dashboard. Un bloc de suivi indique la progression et le statut de la publication.
+Une fois les tests terminés, vous pouvez publier la landing page via le bouton **[!UICONTROL Publier]** de la barre d’actions du tableau de bord. Un bloc de suivi indique la progression et le statut de la publication.
 
 La publication de la landing page permet de la rendre accessible en ligne. Une fois publiée, vous pouvez toujours la mettre à jour : pour cela, vous devez la publier de nouveau après chaque modification. Vous pouvez également dépublier une landing page à tout moment afin qu&#39;elle ne soit plus accessible.
 
