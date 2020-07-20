@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: a416fae1-3812-4404-844e-ed6d6df0dcf5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Plusieurs types de données peuvent être utilisés par Adobe Target :
 * segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
 * données d&#39;Adobe Target : user agent, adresse IP, données de géolocalisation.
 
-Vous pouvez également trouver des informations supplémentaires sur l&#39;intégration entre Adobe Campaign et Adobe Target sur le [Portail Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html).
+Vous pouvez également trouver des informations supplémentaires sur l&#39;intégration entre Adobe Campaign et Adobe Target sur le [Portail Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/campaign-and-target.html).
