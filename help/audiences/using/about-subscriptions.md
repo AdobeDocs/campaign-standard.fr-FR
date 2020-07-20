@@ -11,11 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -36,6 +36,6 @@ Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adob
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
-* [Cas d’utilisation : Mise à jour de plusieurs états d’abonnement à partir d’un fichier](../../automating/using/updating-subscriptions-from-file.md)
-* [Abonnement de profils à un service spécifique après importation d’un fichier](../../automating/using/subscribing-profiles-from-file.md)
+* [Cas pratique : requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
+* [Cas pratique : mettre à jour plusieurs statuts d’abonnement depuis un fichier](../../automating/using/updating-subscriptions-from-file.md)
+* [Abonner des profils à un service spécifique après l’import d’un fichier](../../automating/using/subscribing-profiles-from-file.md)
