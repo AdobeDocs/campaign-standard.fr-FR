@@ -12,9 +12,9 @@ discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
