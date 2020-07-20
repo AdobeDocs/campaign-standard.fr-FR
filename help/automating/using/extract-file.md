@@ -12,11 +12,11 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Exportation de profils dans un fichier externe](../../automating/using/exporting-profiles-in-file.md)
+* [Cas pratique : export de profils dans un fichier externe](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configuration {#configuration}
 
@@ -56,7 +56,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
 1. Si vous le souhaitez, vous pouvez compresser le fichier de sortie en sélectionnant **[!UICONTROL Compression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Le fichier de sortie sera compressé dans un fichier GZIP (.gz).
 
-   Le champ **[!UICONTROL Ajouter une étape]** de prétraitement vous permet également de chiffrer un fichier avant de l’extraire. Pour plus d’informations sur la façon de travailler avec des fichiers chiffrés, reportez-vous à [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de pré-traitement]** permet également de crypter un fichier avant de l’extraire. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. Sélectionnez le bouton ![](assets/add_darkgrey-24px.png) ou **[!UICONTROL Ajouter un élément]** pour ajouter une colonne de sortie.
 
