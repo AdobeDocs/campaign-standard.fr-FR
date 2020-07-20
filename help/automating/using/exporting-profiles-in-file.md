@@ -1,6 +1,6 @@
 ---
-title: Exportation de profils dans un fichier externe
-description: Ce cas d’utilisation montre comment exporter une liste de profils sous la forme d’un fichier externe afin que les données puissent être utilisées en dehors de l’Adobe Campaign.
+title: Export de profils dans un fichier externe
+description: Ce cas pratique montre comment exporter une liste de profils sous la forme d’un fichier externe pour en utiliser les données en dehors d’Adobe Campaign.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
-# Exportation de profils dans un fichier externe {#exporting-profiles-external-file}
+# Export de profils dans un fichier externe {#exporting-profiles-external-file}
 
 L&#39;exemple suivant illustre le paramétrage d&#39;une activité de type **[!UICONTROL Extraction de fichier]** suivant une activité de type **[!UICONTROL Requête]**.
 
@@ -31,7 +31,7 @@ Le but de ce workflow est d&#39;exporter une liste de profils sous la forme d&#3
 
    Dans cet exemple, la requête porte sur tous les profils dont l&#39;âge se situe entre 18 et 30 ans inclus.
 
-1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. Ouvrez l’activité **[!UICONTROL Extraction de fichier]** pour l’éditer.
 1. Nommez le fichier de sortie.
 1. Ajoutez les colonnes de sortie.
 
@@ -41,7 +41,7 @@ Le but de ce workflow est d&#39;exporter une liste de profils sous la forme d&#3
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Structure du fichier]** pour définir :
 
-   * le format de sortie CSV.
+   * Format de sortie CSV
 
       ![](assets/wkf_data_export7.png)
 
