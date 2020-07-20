@@ -11,11 +11,11 @@ topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Les profils exclus lors de la préparation de la diffusion (règles de typologie
 
 ![](assets/audience_active_profiles2.png)
 
-Si vous êtes hébergé sur AWS et que vous utilisez Campaign Standard à partir de la version 10368, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement à partir du Panneau de configuration. For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+Si vous êtes hébergé sur AWS et que vous utilisez Campaign Standard à partir du build 10368, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
