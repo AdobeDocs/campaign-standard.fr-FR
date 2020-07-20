@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Dans l&#39;affirmative, suivez ces recommandations :
 Dans le cas contraire, passez à l&#39;étape suivante. Dans l&#39;affirmative, suivez ces recommandations :
 
 * Vérifiez que le modèle transactionnel a été publié.
-* Vérifiez que le profil n&#39;est pas en liste bloquée.
+* Vérifiez que le profil n’est pas sur liste bloquée.
 * Vérifiez l&#39;application des règles de typologie.
 * Vérifiez les logs du message transactionnel.
 
