@@ -1,5 +1,5 @@
 ---
-title: Rapprochement des données à l’aide des relations
+title: Réconciliation des données à l’aide des relations
 description: L'exemple suivant illustre un workflow permettant de mettre à jour les données de la base à partir de données d'achats contenues dans un fichier.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
@@ -12,16 +12,16 @@ discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Rapprochement des données à l’aide des relations {#reconciliation-relations}
+# Réconciliation des données à l’aide des relations {#reconciliation-relations}
 
 L&#39;exemple suivant illustre un workflow permettant de mettre à jour les données de la base à partir de données d&#39;achats contenues dans un fichier. Les données d&#39;achats comportent des données référençant des éléments d&#39;autres dimensions, tels que l&#39;email des clients et les codes produits.
 
@@ -33,7 +33,7 @@ Le workflow se compose des activités suivantes :
 
 ![](assets/reconciliation_example1.png)
 
-* un [Chargement de fichier](../../automating/using/load-file.md) permettant de charger et détecter les données du fichier à importer. Le fichier importé contient les données suivantes :
+* un [Chargement de fichier](../../automating/using/load-file.md) permettant de charger et détecter les données du fichier à importer. Le fichier importé contient les données suivantes :
 
    * la date de la transaction
    * l&#39;adresse email du client
