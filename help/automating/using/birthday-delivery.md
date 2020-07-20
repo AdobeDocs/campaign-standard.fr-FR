@@ -1,5 +1,5 @@
 ---
-title: diffusion d'anniversaire
+title: Diffusion d’anniversaire
 description: Cet exemple représente un workflow d'anniversaire. Un email est envoyé chaque jour aux profils dont l'anniversaire a lieu le jour même.
 page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
@@ -12,22 +12,22 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '172'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# diffusion d&#39;anniversaire {#birthday-delivery}
+# Diffusion d’anniversaire {#birthday-delivery}
 
 ![](assets/wkf_delivery_example_1.png)
 
 Cet exemple représente un workflow d&#39;anniversaire. Un email est envoyé chaque jour aux profils dont l&#39;anniversaire a lieu le jour même.
 
-Pour créer le processus, procédez comme suit :
+Pour créer le workflow, procédez comme suit :
 
 * Le [Planificateur](../../automating/using/scheduler.md) permet de lancer le workflow chaque jour à 8h00.
 
@@ -37,6 +37,6 @@ Pour créer le processus, procédez comme suit :
 
    ![](assets/wkf_delivery_example_3.png)
 
-* The [Email delivery](../../automating/using/email-delivery.md) is recurring. Les envois sont agrégés par mois. Ainsi, tous les emails envoyés dans un mois sont agrégés dans une seule vue. En un an, 365 diffusions sont donc exécutées mais sont regroupées dans 12 vues (aussi appelés **exécutions récurrentes**) dans l&#39;interface d&#39;Adobe Campaign. Le détail des historiques et des rapports est ainsi affiché sur une base mensuelle et non pour chaque envoi.
+* La [Diffusion Email](../../automating/using/email-delivery.md) est de type récurrent. Les envois sont agrégés par mois. Ainsi, tous les emails envoyés dans un mois sont agrégés dans une seule vue. En un an, 365 diffusions sont donc exécutées mais sont regroupées dans 12 vues (aussi appelés **exécutions récurrentes**) dans l&#39;interface d&#39;Adobe Campaign. Le détail des historiques et des rapports est ainsi affiché sur une base mensuelle et non pour chaque envoi.
 
    ![](assets/wkf_delivery_example_4.png)
