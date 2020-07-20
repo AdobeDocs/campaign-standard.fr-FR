@@ -1,6 +1,6 @@
 ---
 title: Création de diffusions avec un complémentaire
-description: Ce cas d’utilisation montre comment créer des diffusions avec un complément.
+description: Ce cas pratique montre comment créer des diffusions avec un complémentaire.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez envoyer un email à vos clients : un email pour les clients créés
 
 ## Créer une activité Requête {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
 1. Double-cliquez sur l&#39;activité.
 1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d&#39;un élément **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL email]** avec l&#39;opérateur **[!UICONTROL n&#39;est pas vide]**.
 1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d&#39;un élément **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
@@ -41,7 +41,7 @@ Vous pouvez envoyer un email à vos clients : un email pour les clients créés
 
 ## Créer une activité Segmentation {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. Dans **[!UICONTROL Activités]** >**[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Segmentation](../../automating/using/segmentation.md) et double-cliquez dessus.
 1. Pointez sur le segment, puis cliquez sur ![](assets/edit_darkgrey-24px.png) pour cibler les clients ajoutés cette année dans la base de données.
 1. Effectuez un glisser-déposer d&#39;un élément **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Créé le]** avec le type de filtre **[!UICONTROL Relatif]**.
 1. Remplacez le **[!UICONTROL Niveau de précision]** par **[!UICONTROL An]** et sélectionnez **[!UICONTROL L&#39;année en cours]**.
@@ -58,7 +58,7 @@ Vous pouvez envoyer un email à vos clients : un email pour les clients créés
 
 ## Créer une diffusion email {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after each segment.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d&#39;une activité [Diffusion Email](../../automating/using/email-delivery.md) après chaque segment.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email unique]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
