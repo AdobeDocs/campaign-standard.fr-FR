@@ -1,5 +1,5 @@
 ---
-title: Envoi d’un courriel contenant des champs enrichis
+title: Envoi d’un email contenant des champs enrichis
 description: L'exemple ci-dessous montre comment envoyer un email enrichi avec des données additionnelles extraites d'un fichier externe par le biais de l'activité Chargement de fichier.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
@@ -12,16 +12,16 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Sending an email with enriched fields {#sending-email-enriched-fields}
+# Envoi d’un email contenant des champs enrichis {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
@@ -31,7 +31,7 @@ L&#39;exemple ci-dessous montre comment envoyer un email enrichi avec des donné
 
 ![](assets/load_file_workflow_ex2.png)
 
-Pour créer le processus, procédez comme suit :
+Pour créer le workflow, procédez comme suit :
 
 1. Placez une activité [Requête](../../automating/using/query.md) dans votre workflow et ouvrez-la pour définir la cible principale.
 
