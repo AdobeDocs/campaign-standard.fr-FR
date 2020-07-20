@@ -1,6 +1,6 @@
 ---
 title: Reciblage des personnes n’ayant pas ouvert l’email
-description: Ce cas d’utilisation montre comment recibler les non-utilisateurs.
+description: Ce cas pratique montre comment recibler les personnes n’ayant pas ouvert l’email.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Retargeting workflow sending a new delivery to non-openers{#retargeting-delivery-to-non-openers}
+# Workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email{#retargeting-delivery-to-non-openers}
 
 Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;ont pas ouvert l&#39;email.
 
@@ -31,7 +31,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 
 ## Créer une activité Requête{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
 1. Double-cliquez sur l&#39;activité.
 1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d&#39;un élément **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL email]** avec l&#39;opérateur **[!UICONTROL n&#39;est pas vide]**.
 1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer d&#39;un élément **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
@@ -55,13 +55,13 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 
 ## Ciblage des personnes n&#39;ayant pas ouvert l&#39;email dans une activité Requête{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Wait](../../automating/using/wait.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Exécution]**, effectuez un glisser-déposer d’une activité [Attente](../../automating/using/wait.md).
 1. Dans **[!UICONTROL Durée]**, cliquez sur ![](assets/duration-icon.png) et sélectionnez un jour.
 1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une **[!UICONTROL activité Requête]**.
 1. Double-cliquez sur l&#39;activité.
 1. Dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer des **[!UICONTROL Logs de tracking]** et de l&#39;opérateur **[!UICONTROL existe]**.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL delivery]** with the operator **[!UICONTROL is equal to]** and select the delivery as value.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, drag and drop **[!UICONTROL type]** and check **[!UICONTROL Open]** as value.
+1. Dans **[!UICONTROL Raccourcis]** > **[!UICONTROL Diffusion]**, effectuez un glisser-déposer de l’élément **[!UICONTROL diffusion]** avec l’opérateur **[!UICONTROL est égal à]** et sélectionnez la diffusion comme valeur.
+1. Dans **[!UICONTROL Raccourcis]** > **[!UICONTROL Diffusion]**, effectuez un glisser-déposer de l’élément **[!UICONTROL type]** et sélectionnez **[!UICONTROL Ouverture]** comme valeur.
 1. Sélectionnez l&#39;opérateur **[!UICONTROL sauf]** entre les règles.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
@@ -75,7 +75,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Pour créer la mise en page de votre SMS, cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre SMS avec des offres spécifiques à chaque emplacement.
-Pour plus d&#39;informations, reportez-vous à la section [Conception d&#39;un sms](../../channels/using/creating-an-sms-message.md) .
+Pour plus d’informations, voir la section [Conception d’un SMS](../../channels/using/creating-an-sms-message.md).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
