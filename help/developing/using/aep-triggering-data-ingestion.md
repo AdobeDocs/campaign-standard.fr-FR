@@ -11,9 +11,9 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
