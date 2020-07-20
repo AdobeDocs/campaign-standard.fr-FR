@@ -1,5 +1,5 @@
 ---
-title: Déduplication des données à partir d’un fichier importé
+title: Dédupliquer les données d’un fichier importé
 description: Cet exemple montre comment dédupliquer les données d'un fichier importé avant de les charger dans la base de données.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
@@ -12,16 +12,16 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '339'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Deduplicating the data from an imported file {#deduplicating-the-data-from-an-imported-file}
+# Dédupliquer les données d’un fichier importé {#deduplicating-the-data-from-an-imported-file}
 
 Cet exemple montre comment dédupliquer les données d&#39;un fichier importé avant de les charger dans la base de données. Ce procédé permet d&#39;améliorer la qualité des données chargées dans la base.
 
