@@ -11,11 +11,11 @@ topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,14 +104,14 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un email implique l&#39;o
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ? {#counts-recurring-deliveries}
+## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?  {#counts-recurring-deliveries}
 
 Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
 Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
 Supposons que seule une personne a ouvert toutes les diffusions enfants à plusieurs reprises. Dans ce cas, chaque diffusion enfant récurrente affichera le nombre 1 d&#39;**[!UICONTROL Ouverture.]**
 Toutefois, comme la même personne a cliqué sur toutes les diffusions, la diffusion récurrente parent aura également un décompte de 1 pour les **[!UICONTROL ouvertures uniques]**.
 
-Les rapports doivent se présenter comme suit :
+Les rapports doivent se présenter comme suit :
 
 <table> 
  <thead> 
