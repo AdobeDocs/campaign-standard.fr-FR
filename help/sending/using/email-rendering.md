@@ -11,9 +11,9 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails  {#email-rendering-report-description}
+## Description du rapport de rendu des emails   {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
