@@ -1,6 +1,6 @@
 ---
 title: Création d’un groupe témoin
-description: Ce cas d’utilisation montre comment créer une Population témoin.
+description: Ce cas pratique montre comment créer un groupe témoin.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '874'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 90%
 Pour mesurer l&#39;impact d&#39;une diffusion, vous souhaiterez peut-être exclure certains profils de votre cible afin qu&#39;ils ne reçoivent pas un message donné. Ce groupe témoin peut être utilisé pour comparer le comportement de la population cible qui a reçu le message.
 
 Pour procéder ainsi dans Adobe Campaign Standard, vous pouvez créer un workflow comprenant les activités suivantes :
-* A [Query](../../automating/using/query.md) activity to target a given population.
-* A [Segmentation](../../automating/using/segmentation.md) activity to isolate a random control group from this population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity to send a message to the main target.
-* An [Update data](../../automating/using/update-data.md) activity to update the profiles that were excluded from the target (the random control group).
+* une activité [Requête](../../automating/using/query.md) pour cibler une population donnée ;
+* une activité [Segmentation](../../automating/using/segmentation.md) pour isoler un groupe témoin aléatoire de cette population ;
+* une activité [Diffusion Email](../../automating/using/email-delivery.md) pour envoyer un message à la cible principale ;
+* une activité [Mise à jour de données](../../automating/using/update-data.md) pour mettre à jour les profils qui ont été exclus de la cible (le groupe témoin aléatoire).
 
 ![](assets/wkf_control-group.png)
 
@@ -52,7 +52,7 @@ Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]** avec un
 
 Pour plus d&#39;informations sur l&#39;extension d’une ressource personnalisée, voir [Principales étapes pour ajouter une ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Créer un workflow   {#creating-a-workflow}
+## Créer un workflow    {#creating-a-workflow}
 
 1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Workflow]**.
 1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
@@ -62,7 +62,7 @@ Les étapes détaillées pour créer un workflow sont présentées dans la secti
 
 ## Créer une activité Requête {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
 1. Double-cliquez sur l&#39;activité pour définir votre cible.
 1. Par exemple, dans **[!UICONTROL Raccourcis]**, effectuez un glisser-déposer de **[!UICONTROL Profil]**, sélectionnez **[!UICONTROL Age]** avec l&#39;opérateur **[!UICONTROL Supérieur à]** et saisissez 25 dans le champ **[!UICONTROL Valeur]**.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
@@ -88,7 +88,7 @@ Les étapes détaillées pour créer un workflow sont présentées dans la secti
 
 ## Créer une activité Email {#creating-an-email-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the main target segment.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d’une activité [Diffusion Email](../../automating/using/email-delivery.md) après le segment cible principal.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email unique]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
