@@ -12,11 +12,11 @@ discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ L&#39;activité **Mise à jour de données** peut notamment être utilisée suit
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Mise à jour des données à partir d’un fichier](../../automating/using/update-database-file.md)
-* [Mise à jour des données en fonction d’un téléchargement automatique de fichiers](../../automating/using/update-data-automatic-download.md)
+* [Cas pratique : mise à jour des données à l’aide d’un fichier](../../automating/using/update-database-file.md)
+* [Mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 
