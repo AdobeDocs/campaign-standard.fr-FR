@@ -12,11 +12,11 @@ discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '624'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -102,4 +102,4 @@ Vous pouvez à présent envoyer le fichier d&#39;extraction à l&#39;opérateur 
 * Vous pouvez l&#39;envoyer en pièce jointe dans un email classique.
 * Vous pouvez l&#39;envoyer via Adobe Campaign : créez votre diffusion courrier dans un [workflow](../../automating/using/direct-mail-delivery.md) de campagne et ajoutez une activité **[!UICONTROL Transfert de fichier]** pour envoyer le fichier via FTP, par exemple. Voir à ce propos la section [Transfert de fichier](../../automating/using/transfer-file.md).
 
-Le fournisseur récupère la liste d&#39;adresses erronées et envoie ces informations à l&#39;Adobe Campaign, ce qui ajoute automatiquement à la liste bloquée les adresses erronées. Voir [Retour à l&#39;expéditeur](../../channels/using/return-to-sender.md).
+L&#39;opérateur récupère la liste des adresses erronées et l&#39;envoie à Adobe Campaign qui place automatiquement ces adresses en liste bloquée. Voir [Retour à l&#39;expéditeur](../../channels/using/return-to-sender.md).
