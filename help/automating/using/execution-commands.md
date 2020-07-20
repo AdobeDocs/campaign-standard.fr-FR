@@ -1,6 +1,6 @@
 ---
 title: 'Commandes d’exécution    '
-description: Découvrez comment utiliser les commandes d'exécution de workflows.
+description: Découvrez comment utiliser les commandes d’exécution des workflows.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Commandes d’exécution     {#execution-commands}
+# Commandes d’exécution      {#execution-commands}
 
 Les icônes de la barre d’actions permettent de lancer, de tracker et de modifier l’exécution d’un workflow. Voir [La barre d’actions](../../automating/using/workflow-interface.md#action-bar).
 
