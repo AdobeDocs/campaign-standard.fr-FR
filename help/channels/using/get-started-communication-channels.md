@@ -1,5 +1,5 @@
 ---
-title: Commencer avec les canaux de communication
+title: Prise en main des canaux de communication
 description: Découvrez comment envoyer des messages personnalisés sur divers canaux et créer des campagnes cross-canal pour mieux cibler vos destinataires.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -11,16 +11,16 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec les canaux de communication {#discovering-communication-channels}
+# Prise en main des canaux de communication {#discovering-communication-channels}
 
 <table>
 <tr>
@@ -37,11 +37,11 @@ L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Av
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Tirez parti du tableau de bord** de messages Campaign pour configurer et envoyer vos messages à partir d&#39;un seul emplacement, ainsi que pour accéder à diverses fonctionnalités telles que la planification, la messagerie multilingue...
+**Tirez parti du tableau de bord des messages de Campaign** pour configurer et envoyer vos messages à partir d’un emplacement unique, mais aussi pour accéder à différentes fonctionnalités comme la planification, la messagerie multilingue, etc.
 
-**Gérez les modèles** pour configurer les propriétés des messages et vous permettre de gagner du temps et de la cohérence dans votre stratégie de messagerie. Par exemple, pour les courriels, l’administrateur fonctionnel chargé de configurer les modèles peut définir les paramètres standard d’un courrier électronique, tels que l’audience, la planification ou le contenu, les paramètres avancés liés à l’envoi, la validité, le suivi, etc., ou les paramètres préconfigurés concernant le ciblage et la personnalisation (contexte de ciblage).
+**Gérez les modèles** pour configurer les propriétés des messages, ce qui permet de gagner du temps et de maintenir la cohérence de votre stratégie relative aux messages. Par exemple, pour les emails, l’administrateur fonctionnel chargé de configurer les modèles peut définir les paramètres standard d’un email, comme l’audience, la planification ou le contenu, les paramètres avancés liés à l’envoi, la validité, le suivi, etc., ou les paramètres préconfigurés concernant le ciblage et la personnalisation (contexte de ciblage).
 
-En savoir plus:
+En savoir plus :
 
 * [Principales étapes pour envoyer un message](../../channels/using/key-steps-to-send-a-message.md)
 * [Accéder aux messages](../../channels/using/accessing-messages.md)
@@ -53,29 +53,29 @@ En savoir plus:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinq canaux** de communication sont disponibles en Adobe Campaign : Courriel, message SMS, notification Push, message in-app et diffusion de Courrier.
+**Cinq canaux de communication** sont disponibles dans Adobe Campaign : email, message SMS, notification push, message In-App et diffusion courrier.
 
-Pour chaque canal, des fonctionnalités spécifiques sont disponibles. Par exemple, le canal de messagerie vous permet d’effectuer des tests A/B afin de tester jusqu’à 3 versions d’un message électronique. Avec le canal SMS, gérez les messages STOP SMS et stockez les SMS entrants des destinataires dans votre base de données.
+Pour chaque canal, des fonctionnalités spécifiques sont disponibles. Par exemple, le canal email permet d’effectuer des tests A/B pour tester jusqu’à 3 versions d’un email. Avec le canal SMS, vous pouvez gérer les messages STOP SMS et stocker dans votre base de données les SMS entrants reçus des destinataires.
 
-De plus, exploitez la **personnalisation des Campaign Standards et les fonctionnalités** de contenu dynamique pour capter l’intérêt de votre audience.
+De plus, vous pouvez tirer parti de la **personnalisation et des fonctionnalités de contenu dynamique** de Campaign Standard pour capter l’intérêt de votre audience.
 
-En savoir plus:
+En savoir plus :
 
-* [Création de courriers électroniques](../../channels/using/about-emails.md)
+* [Création d’emails](../../channels/using/about-emails.md)
 * [Création d’un message SMS](../../channels/using/about-sms-messages.md)
-* [Création de notifications Push](../../channels/using/about-push-notifications.md)
-* [Création de messages in-app](../../channels/using/about-in-app-messaging.md)
-* [Création de diffusions de Courrier](../../channels/using/about-direct-mail.md)
+* [Création de notifications push](../../channels/using/about-push-notifications.md)
+* [Création de messages In-App](../../channels/using/about-in-app-messaging.md)
+* [Création de diffusions courrier](../../channels/using/about-direct-mail.md)
 
 ## Messages transactionnels {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Envoyez des messages** individuels et uniques à vos clients en temps réel : messages de bienvenue, confirmation d&#39;expédition de commande, modification du mot de passe, etc.
+**Envoyez des messages individuels et uniques** en temps réel à vos clients : messages de bienvenue, confirmations d’expéditions de commandes, modification du mot de passe, etc.
 
-Les Messages transactionnels sont disponibles pour les canaux de notification par courriel, SMS et push, selon vos options. Il existe deux types de messages : **messages transactionnels** de ciblage de événement sans informations de profil et profils de ciblage de messages transactionnels **de** profil provenant de votre base de données.
+Les messages transactionnels sont disponibles pour les canaux email, SMS et notification push, selon vos options. Il existe deux types de messages : les **messages transactionnels basés sur un événement** qui ciblent les événements sans informations de profil, et les **messages transactionnels basés sur un profil** qui ciblent les profils de votre base de données.
 
-En savoir plus:
+En savoir plus :
 
 * [A propos des messages transactionnels](../../channels/using/about-transactional-messaging.md)
 * [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md)
@@ -87,11 +87,11 @@ En savoir plus:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campaign comes with landing pages which are web forms that can be used to **capture information on your audiences**, offer subscriptions to a service, display data and grow your database.
+Campaign intègre des landing pages. Il s’agit de formulaires web pouvant être utilisés pour **capturer des informations sur vos audiences**, offrir des abonnements à un service, afficher des données et développer votre base de données.
 
-Landing pages can also be used for **acquiring or updating existing profiles**, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots.
+Il est également possible d’utiliser les landing pages pour **acquérir et mettre à jour des profils existants**, et configurer un mécanisme de double opt-in, ce qui permet de protéger la plate-forme contre les adresses email incorrectes ou non valides ou les robots de spammeurs.
 
-En savoir plus:
+En savoir plus :
 
 * [Prise en main des landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * [Modèles de landing page](../../channels/using/landing-page-templates.md)
@@ -105,5 +105,5 @@ En savoir plus:
 * [Conception d’un contenu d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importation d’un contenu AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envoi de messages avec des workflows](../../automating/using/about-channel-activities.md)
-* [Vidéos didacticielles sur les canaux de communication](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
-* [Cas d’utilisation : Création d’une diffusion entre canaux](../../automating/using/workflow-cross-channel-delivery.md)
+* [Vidéos de tutoriels sur les canaux de communication](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Cas pratique : création d’une diffusion cross-canal](../../automating/using/workflow-cross-channel-delivery.md)
