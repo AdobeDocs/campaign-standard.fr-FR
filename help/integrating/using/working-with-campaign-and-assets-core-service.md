@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ L&#39;image est alors insérée. La diffusion peut à présent être personnalis
 
 **Rubriques connexes :**
 
-* [Ressources et partage](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)
+* [Ressources et partage](https://docs.adobe.com/content/help/fr-FR/core-services/interface/assets/experience-cloud-assets.html)
 * [Editeur de contenus](../../designing/using/personalization.md#example-email-personalization)
 
