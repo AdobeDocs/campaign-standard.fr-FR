@@ -1,6 +1,6 @@
 ---
-title: Mise à jour de plusieurs états d’abonnement à partir d’un fichier
-description: Ce cas d'utilisation montre comment importer un fichier contenant des profils et mettre à jour leur abonnement vers plusieurs services spécifiés dans le fichier.
+title: Mise à jour de plusieurs statuts d’abonnement depuis un fichier
+description: Ce cas pratique illustre comment importer un fichier contenant des profils et mettre à jour leur abonnement à plusieurs services indiqués dans le fichier.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Updating multiple subscription statuses from a file {#updating-multiple-subscription-statuses-from-a-file}
+# Mise à jour de plusieurs statuts d’abonnement depuis un fichier {#updating-multiple-subscription-statuses-from-a-file}
 
 Cet exemple illustre comment importer un fichier contenant des profils et mettre à jour leur abonnement à plusieurs services indiqués dans le fichier. Après l’import du fichier, une réconciliation est nécessaire afin d’identifier les données importées comme étant des profils avec un lien aux services. Afin d’assurer que le fichier ne contient aucun doublon, une déduplication sera exécutée sur les données.
 
@@ -66,7 +66,7 @@ Le workflow de se présente comme suit :
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* Une activité [Services d’abonnements](../../automating/using/subscription-services.md) identifie les services à mettre à jour comme provenant de la transition, par le biais du lien créé dans l’activité **[!UICONTROL Réconciliation]**.
 
    Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
 
