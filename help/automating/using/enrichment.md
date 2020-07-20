@@ -12,11 +12,11 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Avec l&#39;activité **[!UICONTROL Enrichissement]**, vous pouvez utiliser la tr
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Enrichissement des données de profil avec les données contenues dans un fichier](../../automating/using/enriching-profile-data-file.md).
-* [Cas d’utilisation : Envoi d’un courriel contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
+* [Cas pratique : enrichissement des données de profil avec des données contenues dans un fichier](../../automating/using/enriching-profile-data-file.md).
+* [Cas pratique : envoi d’un email contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configuration {#configuration}
 
