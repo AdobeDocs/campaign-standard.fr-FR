@@ -12,11 +12,11 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
+* [Cas pratique : requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configuration {#configuration}
 
