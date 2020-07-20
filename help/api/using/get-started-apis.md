@@ -1,5 +1,5 @@
 ---
-title: Commencer avec les API des Campaign Standards
+title: Prise en main des API de Campaign Standard
 description: Découvrez les API de Campaign Standard.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -11,16 +11,16 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Get started with Campaign Standard APIs {#get-started-apis}
+# Prise en main des API de Campaign Standard{#get-started-apis}
 
 Les API de Campaign Standard vous permettent de **créer des intégrations** pour Adobe Campaign Standard et de **construire votre propre écosystème** en interfaçant l’application avec l’ensemble des technologies que vous utilisez.
 
