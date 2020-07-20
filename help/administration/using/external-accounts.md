@@ -12,11 +12,11 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1617'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP     {#sftp-external-account}
+## Compte externe SFTP  {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
@@ -69,7 +69,7 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe     {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe      {#adobe-hosted-sftp-server-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -86,7 +86,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 * Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
 * Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-Notez également que les adresses IP publiques à partir desquelles vous tentez de lancer la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Notez également que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. L’ajout à la liste autorisée des adresses IP et l’accès à la clé publique nécessaire pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -121,7 +121,7 @@ Pour configurer un compte Amazon S3, nous vous conseillons de suivre les recomm
 
 * Créez une stratégie de compartiment stricte afin de limiter l’accès aux compartiments S3. Vous pouvez configurer la stratégie de compartiment pendant la création d’un compartiment. Pour plus d’informations, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Lors de la création d’un compte externe, activez le cryptage pour stocker les données sensibles dans le compartiment S3 en cochant la case **[!UICONTROL Conserver les fichiers cryptés dans S3]**.
-* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur les autorisations de compartiment, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)..
+* Octroyez des autorisations de compartiment pour indiquer qui peut accéder à l’objet dans un compartiment. Pour plus d’informations sur les autorisations de compartiment, consultez la [documentation d’Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
 ## Compte externe Adobe Experience Manager {#adobe-experience-manager-external-account}
 
@@ -133,13 +133,11 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple :
 
-   ```
-   http://aem.domain.com:4502
-   ```
+   ``` http://aem.domain.com:4502 ```
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
-## Compte externe Google reCAPTCHA     {#google-recaptcha-external-account}
+## Compte externe Google reCAPTCHA  {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -166,7 +164,7 @@ Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suiv
 >
 >Pour obtenir les informations nécessaires à la configuration de votre compte externe dans Adobe Campaign Standard, accédez au portail Azure en sélectionnant **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**.
 
-The Azure Blob storage connector can be used to import or export data to Adobe Campaign using a **[!UICONTROL Transfer file]** workflow activity. Voir à ce propos cette [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Le connecteur de stockage Blob de Microsoft Azure peut être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow **[!UICONTROL Transfert de fichier]**. Voir à ce propos cette [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Pour un compte de stockage externe Blob Microsoft Azure, fournissez les détails suivants :
 
