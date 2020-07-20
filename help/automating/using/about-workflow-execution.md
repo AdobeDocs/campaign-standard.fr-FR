@@ -1,6 +1,6 @@
 ---
 title: A propos de l’exécution d’un workflow
-description: En savoir plus sur l’exécution du processus.
+description: En savoir plus sur l’exécution d’un workflow.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
