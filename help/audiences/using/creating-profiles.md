@@ -11,9 +11,9 @@ topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '383'
 ht-degree: 100%
 
@@ -71,4 +71,4 @@ Les profils peuvent être également partitionnés en fonction de leurs entités
 **Rubriques connexes :**
 
 * Guide détaillé [A propos des landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)  video
+* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)   
