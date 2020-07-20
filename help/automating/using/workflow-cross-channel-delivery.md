@@ -1,6 +1,6 @@
 ---
-title: diffusion entre canaux
-description: Ce cas d'utilisation montre comment créer une diffusion sur plusieurs canaux
+title: Diffusion cross-canal
+description: Ce cas pratique montre comment créer une diffusion cross-canal
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-## Créer un workflow   {#creating-workflow}
+## Créer un workflow    {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
@@ -54,7 +54,7 @@ Une fois le workflow créé, vous accédez à son interface.
 
 Insérez une activité Requête dans votre workflow afin de cibler les profils qui recevront vos diffusions.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md).
 1. Double-cliquez sur l&#39;activité.
 1. Dans l’onglet **[!UICONTROL Cible]**, parcourez les raccourcis et sélectionnez l’une de vos [audiences](../../audiences/using/about-audiences.md).
 1. Déplacez le raccourci dans la zone d&#39;édition. En fonction du type de raccourci sélectionné, une fenêtre s&#39;affiche.
@@ -117,7 +117,7 @@ Votre seconde transition est maintenant également configurée.
 
 ## Créer des diffusions {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
+Comme deux transitions ont déjà été créées, vous devez désormais ajouter deux types de diffusion à la suite des transitions sortantes de l’activité Segmentation : une activité [diffusion Email](../../automating/using/email-delivery.md) et une activité [diffusion SMS](../../automating/using/sms-delivery.md).
 
 Adobe Campaign vous permet d&#39;ajouter des diffusions dans un workflow. Pour ce faire, sélectionnez une diffusion depuis la catégorie **[!UICONTROL Canaux]** de la palette d&#39;activités de votre workflow.
 
@@ -125,7 +125,7 @@ Adobe Campaign vous permet d&#39;ajouter des diffusions dans un workflow. Pour c
 
 Pour créer une diffusion email :
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after the first segment.
+1. Effectuez un glisser-déposer d’une activité [Diffusion Email](../../automating/using/email-delivery.md) après le premier segment.
 1. Double-cliquez sur l&#39;activité pour l&#39;éditer.
 1. Sélectionnez **[!UICONTROL Email simple]**.
 1. Sélectionnez **[!UICONTROL Ajouter une transition sortante avec la population]** et cliquez sur **[!UICONTROL Suivant]**.
@@ -142,7 +142,7 @@ Pour créer une diffusion email :
 
 Pour créer une diffusion SMS :
 
-1. Drag and drop an [SMS delivery](../../automating/using/sms-delivery.md) activity after the other segment.
+1. Effectuez un glisser-déposer d’une activité [Diffusion SMS](../../automating/using/sms-delivery.md) après l’autre segment.
 1. Double-cliquez sur l&#39;activité pour l&#39;éditer.
 1. Sélectionnez **[!UICONTROL SMS]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle de SMS et cliquez sur **[!UICONTROL Suivant]**.
@@ -155,7 +155,7 @@ Une fois vos diffusions créées et éditées, votre workflow est prêt à être
 
 ## Exécuter le workflow {#running-the-workflow}
 
-Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
+Une fois le workflow démarré, la population ciblée par l’activité **[!UICONTROL Requête]** sera segmentée afin de recevoir une diffusion par email ou par SMS.
 
 Pour exécuter votre workflow, cliquez sur le bouton **[!UICONTROL Démarrer]** dans la barre d’actions.
 
