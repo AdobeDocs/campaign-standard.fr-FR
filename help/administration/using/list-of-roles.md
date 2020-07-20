@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Combinés avec les entités organisationnelles, les rôles donnent aux utilisate
 
 Pour plus d’informations, reportez-vous au [tableau Rôles et permissions](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
-[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Les rôles peuvent être gérés depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Rôles]**.
 
