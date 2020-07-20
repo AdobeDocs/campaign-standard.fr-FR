@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Dans cet exemple, une notification push personnalisée est envoyée chaque premier jour du mois, à 8h, aux abonnés de votre application mobile selon leur fuseau horaire.
 
-Pour créer le processus, procédez comme suit :
+Pour créer le workflow, procédez comme suit :
 
 1. L&#39;activité [Planificateur](../../automating/using/scheduler.md) permet de démarrer le workflow plusieurs jours avant le début de la diffusion afin d&#39;envoyer à chaque abonné la notification à 8h, dans tous les fuseaux horaires spécifiés :
 
@@ -52,7 +52,7 @@ Pour créer le processus, procédez comme suit :
 
       ![](assets/wkf_push_example_2.png)
 
-1. The [Push notification delivery](../../automating/using/push-notification-delivery.md) activity allows you to enter the content of your message and to select the personalization fields that you want to use:
+1. L’activité [Diffusion notification push](../../automating/using/push-notification-delivery.md) vous permet de saisir le contenu de votre message et de sélectionner les champs de personnalisation que vous souhaitez utiliser.
 
    * Sélectionnez l&#39;option **[!UICONTROL Notification récurrente]**.
    * Définissez le contenu de la notification push. Pour plus d&#39;informations sur le contenu d&#39;une notification push, consultez cette [section](../../channels/using/preparing-and-sending-a-push-notification.md).
