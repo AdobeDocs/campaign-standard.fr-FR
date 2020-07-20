@@ -12,11 +12,11 @@ discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '972'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ L&#39;activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs s
 >Par défaut, un membre de la population entrante ne peut appartenir qu&#39;à un seul segment. Les filtrages sont appliqués dans l&#39;ordre des segments dans l&#39;activité.
 
 **Rubriques connexes :**
-* [Cas d’utilisation : Segmentation à l’emplacement](../../automating/using/workflow-segmentation-location.md)
-* [Cas d’utilisation : Création d&#39;une Population témoin](../../automating/using/workflow-control-group.md)
-* [Cas d’utilisation : Segmentation en fonction des groupes d’âge](../../automating/using/segmentation-age-groups.md)
+* [Cas pratique : segmentation en fonction de la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Cas pratique : création d’un groupe témoin](../../automating/using/workflow-control-group.md)
+* [Cas pratique : segmentation en fonction des tranches d’âge](../../automating/using/segmentation-age-groups.md)
 
 ## Contexte d’utilisation {#context-of-use}
 
@@ -44,13 +44,13 @@ L&#39;activité **[!UICONTROL Segmentation]** est généralement placée après 
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Segmentation des profils en fonction de leur groupe](../../automating/using/segmentation-age-groups.md)d’âge.
+* [Cas pratique : segmentation des profils en fonction de leurs tranches d’âge](../../automating/using/segmentation-age-groups.md).
 
 ## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Segmentation]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
-1. Dans l’onglet **[!UICONTROL Général]** , sélectionnez le type **[!UICONTROL de]** ressource sur lequel la segmentation doit être effectuée :
+1. Dans l’onglet **[!UICONTROL Général]**, sélectionnez le **[!UICONTROL type de ressource]** sur lequel la segmentation doit être effectuée :
 
    * **[!UICONTROL Ressource de la base]** si la segmentation porte sur des données déjà existantes en base de données. Sélectionnez la **[!UICONTROL Dimension de filtrage]** en fonction des données que vous souhaitez segmenter. Par défaut, la segmentation porte sur les **profils**.
    * **[!UICONTROL Ressource temporaire]** si la segmentation porte sur des données temporaires du workflow : sélectionnez l&#39;**[!UICONTROL Ensemble ciblé]** contenant les données à segmenter. Ce cas peut être rencontré à la suite d&#39;un import de fichier ou si des données de la base ont été enrichies.
@@ -102,6 +102,6 @@ L&#39;activité **[!UICONTROL Segmentation]** est généralement placée après 
 
    * Cochez l&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** si vous souhaitez qu&#39;un membre de la population entrante puisse appartenir à plusieurs segments. La population en sortie de l&#39;activité pourra être supérieure à la population en entrée.
    * Cochez l&#39;option **[!UICONTROL Concaténer le code de chaque segment]** si la population entrante a déjà un code segment et que vous souhaitez le conserver. Le code segment défini dans l&#39;activité sera ajouté au code segment initial.
-   * Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Voir le [Cas pratique : création de diffusions avec un complémentaire](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
