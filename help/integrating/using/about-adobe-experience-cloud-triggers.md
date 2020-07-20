@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Dans Adobe Campaign, vous sélectionnez le trigger qui a été précédemment cr
 
 **Rubriques connexes :**
 
-* Apprenez-en plus sur les différents types de Triggers : [documentation Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Apprenez-en plus sur les différents types de Triggers : [documentation Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/activation/triggers.html).
 * Regardez la vidéo [Déclencher des messages de remarketing selon l&#39;activité du site](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques Triggers d&#39;abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Processus utilisateur de Triggers {#triggers-user-process}
+## Processus utilisateur de Triggers  {#triggers-user-process}
 
 >[!CAUTION]
 >
