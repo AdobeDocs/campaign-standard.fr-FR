@@ -1,6 +1,6 @@
 ---
-title: Union sur deux audiences raffinées
-description: Ce cas d'utilisation montre l'union de deux activités d'audience de lecture.
+title: Union sur deux audiences affinées
+description: Ce cas pratique montre l’union de deux activités Lecture d’audience.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Union on two refined audiences {#example--union-on-two-refined-audiences}
+# Union sur deux audiences affinées {#example--union-on-two-refined-audiences}
 
 Le workflow défini dans cet exemple montre l&#39;union de deux activités **[!UICONTROL Lecture d&#39;audience]**. L&#39;objectif de ce workflow est d&#39;envoyer un email aux membres Gold ou Silver qui ont entre 18 et 30 ans. Des audiences spécifiques sont déjà créées dans le système pour tracker les membres Gold et Silver.
 
