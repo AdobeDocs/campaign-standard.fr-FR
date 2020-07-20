@@ -1,6 +1,6 @@
 ---
-title: Commencer avec les profils et les audiences
-description: '"Découvrez la gestion des profils et des audiences dans Adobe Campaign : définissez les populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils."'
+title: Prise en main des profils et des audiences
+description: '« Découvrez la gestion des profils et des audiences dans Adobe Campaign : définissez les populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils. »'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -11,16 +11,16 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '609'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 
-# Commencer avec les profils et les audiences{#about-profiles-and-audiences}
+# Prise en main des profils et des audiences{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -29,11 +29,11 @@ ht-degree: 68%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Respect de la confidentialité</a></p></td></tr>
 </table>
 
-Les profils client intégrés Campaign vous permettent de suivre chaque interaction avec les clients sur tous les canaux au sein d’une seule vue, ce qui vous permet de diffuser des messages pertinents et personnalisés à vos clients.
+Les profils client intégrés de Campaign permettent de tracker chaque interaction avec les clients sur tous les canaux dans une vue unique, et de diffuser ainsi des messages pertinents et personnalisés à vos clients.
 
-Segmentez votre base de données en audiences afin d’optimiser la cible de vos campagnes marketing.
+Segmentez votre base de données en différentes audiences pour optimiser la cible de vos campagnes marketing.
 
-Gérez l’autorisation et le consentement des clients à l’aide de services et de landings page pour configurer des mécanismes d’inclusion et d’exclusion faciles.
+Gérez les autorisations et le consentement des clients à l’aide de services et de landing pages pour configurer des mécanismes simples d’inscription et de désinscription.
 
 ## Segmentation et ciblage {#segmenting-targeting}
 
@@ -41,7 +41,7 @@ Gérez l’autorisation et le consentement des clients à l’aide de services e
 
 Lorsque vous créez des campagnes ou des messages, vous pouvez spécifier la cible des diffusions en sélectionnant des contacts dans la base de données de Campaign, à l&#39;aide de critères simples ou avancés, ou en sélectionnant des audiences.
 
-Identify customers more effectively across all your channels using **integrated customer profiles** and **customized segments**. Lorsque vous connaissez vos clients, leurs centres d&#39;intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
+Identifiez les clients plus efficacement sur tous les canaux à l’aide des **profils client intégrés** et **des segments personnalisés**. Lorsque vous connaissez vos clients, leurs centres d&#39;intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
 
 Adobe Campaign crée des profils client complets en temps réel, ce qui vous permet de diffuser des offres plus pertinentes et personnalisées à mesure que les préférences de vos clients changent. De plus, Adobe Campaign intègre des fonctionnalités avancées d&#39;analyse, de gestion des données et de ciblage pour créer des audiences.
 
@@ -49,7 +49,7 @@ Adobe Campaign crée des profils client complets en temps réel, ce qui vous per
 
 **Les audiences sont des listes de profils créées selon un critère spécifique ou un ensemble de critères.** Grâce aux workflows et à l&#39;éditeur de requêtes, vous avez la possibilité de construire les audiences qui seront ciblées par vos campagnes marketing, selon les informations dont vous disposez sur elles, leurs activités et leur historique marketing. Vous pouvez ainsi filtrer les profils d&#39;inscrits, échantillonner ou créer des audiences cibles sur un nombre illimité de critères.
 
-En savoir plus:
+En savoir plus :
 
 * [A propos des profils](../../audiences/using/about-profiles.md)
 * [Profils actifs](../../audiences/using/active-profiles.md)
@@ -64,28 +64,28 @@ En savoir plus:
 
 Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation.
 
-With Campaign, we recommend you to use **easy opt-in and opt-out mechanisms** through [services](../../audiences/using/creating-a-service.md), and [landing pages](../../channels/using/getting-started-with-landing-pages.md) to update your contact information and grow your database.
+Avec Campaign, il est recommandé d’utiliser les **mécanismes simples d’opt-in et d’opt-out** par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
 
-Providing **unsubscription links** in your messages will enable Profiles to be added to the block list, when necessary, and therefore to improve your platform deliverability. For more on block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fournir des **liens de désabonnement** dans vos messages permet l’ajout de profils à la liste bloquée, si nécessaire, et améliore donc la délivrabilité de votre plate-forme. Pour en savoir plus sur la gestion des listes bloquées, consultez la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
 >Vous devez respecter la [politique d&#39;utilisation acceptable d’Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
 
-En savoir plus:
+En savoir plus :
 
-* [A propos des inscriptions](../../audiences/using/about-subscriptions.md)
-* [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [A propos des abonnements](../../audiences/using/about-subscriptions.md)
+* [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Respect de la confidentialité {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
+Adobe Campaign propose un ensemble d’outils pour vous aider à appliquer les mesures relatives au **respect de la confidentialité** dans le cadre des règlements RGPD, CCPA et d’autres lois concernant la protection des données.
 
 Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la confidentialité et les fonctionnalités que nous offrons pour gérer le droit d&#39;accès, le droit à l’oubli, le consentement, la rétention des données et les rôles utilisateur.
 
-Confidentialité et consentement à Campaign et comment les gérer sont présentés dans [cette section](../../start/using/privacy.md).
+[Cette section](../../start/using/privacy.md) aborde la confidentialité et le consentement dans Campaign et comment les gérer.
 
 Vous y trouverez également les bonnes pratiques les plus efficaces pour garantir la conformité aux obligations légales en utilisant notre service.
 
@@ -95,4 +95,4 @@ Vous y trouverez également les bonnes pratiques les plus efficaces pour garanti
 * [Utilisation de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
-* [Vidéos Profils et audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vidéos sur les profils et les audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
