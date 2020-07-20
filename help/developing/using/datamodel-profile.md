@@ -9,11 +9,11 @@ content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1248'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
                   <td> </td>
                </tr>
                <tr>
-                  <td>liste bloquée</td>
+                  <td>blockList</td>
                   <td>No longer contact (by any channel)</td>
                   <td>boolean </td>
                   <td> </td>
