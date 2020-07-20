@@ -1,6 +1,6 @@
 ---
-title: Abonnement de profils d’un fichier à un service spécifique
-description: Ce cas d’utilisation montre comment importer un fichier contenant des profils et les abonner à un service existant.
+title: Abonnement de profils à partir d’un fichier vers un service spécifique
+description: Ce cas pratique illustre comment importer un fichier contenant des profils et les abonner à un service existant.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Abonner des profils à un service spécifique après l’import d’un fichier{#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Cet exemple illustre comment importer un fichier contenant des profils et les abonner à un service existant. Après l’import du fichier, une réconciliation est nécessaire afin d’identifier les données importées comme étant des profils. Afin d’assurer que le fichier ne contient aucun doublon, une déduplication sera exécutée sur les données.
 
