@@ -1,6 +1,6 @@
 ---
 title: Requête incrémentale sur les abonnés à un service
-description: L’exemple suivant montre comment configurer une activité de Requête incrémentale pour filtrer les abonnés à un service.
+description: L’exemple ci-après montre comment configurer une activité de requête incrémentale pour filtrer les abonnés à un service.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -12,24 +12,24 @@ discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
-# Incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
+# Requête incrémentale sur les abonnés à un service {#example--incremental-query-on-subscribers-to-a-service}
 
-L&#39;exemple suivant illustre le paramétrage d&#39;une activité de **[!UICONTROL Requête incrémentale]** visant à filtrer les profils de la base Adobe Campaign qui sont abonnés au service **Newsletter Running**, afin de leur envoyer un email de bienvenue contenant un code promotion.
+L’exemple ci-après illustre le paramétrage d’une activité de **[!UICONTROL Requête incrémentale]** visant à filtrer les profils de la base Adobe Campaign qui sont abonnés au service **Newsletter Running**, afin de leur envoyer un email de bienvenue contenant un code promotion.
 
-Le workflow est construit de la manière suivante :
+Le workflow est construit de la manière suivante :
 
 ![](assets/incremental_query_example1.png)
 
-* Un [Planificateur](../../automating/using/scheduler.md), afin que le workflow s&#39;exécute chaque lundi à 6h.
+* Un [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6h.
 
    ![](assets/incremental_query_example2.png)
 
@@ -41,6 +41,6 @@ Le workflow est construit de la manière suivante :
 
    Pour cela, choisissez ici de créer un **[!UICONTROL Email récurrent]** regroupant les emails et les résultats **[!UICONTROL Par mois]**.
 
-   Définissez le contenu de votre email, en insérant le code promotion de bienvenue. Pour plus d&#39;informations sur ce sujet, reportez-vous aux sections [Définition du contenu](../../designing/using/personalization.md) des courriels.
+   Définissez le contenu de votre email, en insérant le code promotion de bienvenue. Pour plus d’informations à ce sujet, voir les sections [Définition du contenu des emails](../../designing/using/personalization.md).
 
-Lancez alors l&#39;exécution du workflow. Chaque semaine les nouveaux abonnés recevront l&#39;email de bienvenue avec le code promotion.
+Lancez alors l’exécution du workflow. Chaque semaine les nouveaux abonnés recevront l&#39;email de bienvenue avec le code promotion.
