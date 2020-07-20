@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 Outre l&#39;activité en ligne des clients, il est également possible de détecter et d&#39;utiliser leur emplacement physique. Grâce à l&#39;intégration avec Adobe Analytics pour Mobile, vous pouvez utiliser Adobe Campaign pour envoyer des messages marketing aux abonnés de votre application mobile en fonction de leur localisation.
 
-Les points ciblés sont constitués d&#39;une latitude, d&#39;une longitude et d&#39;un rayon associés à un libellé. Ils sont définis dans l&#39;interface [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html).
+Les points ciblés sont constitués d&#39;une latitude, d&#39;une longitude et d&#39;un rayon associés à un libellé. Ils sont définis dans l&#39;interface [Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html).
 
 Lorsqu&#39;un abonné ouvre votre application mobile, Adobe Campaign capture les données via le SDK Experience Cloud Mobile si la localisation correspond à un point ciblé. Vous pouvez utiliser ces informations pour envoyer des messages personnalisés en fonction de la localisation de l&#39;utilisateur (tels que des emails, des notifications push ou des SMS).
 
