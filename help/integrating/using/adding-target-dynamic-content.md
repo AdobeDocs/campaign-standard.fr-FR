@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
    L&#39;intégration prend uniquement en charge les images statiques. Le reste du contenu n&#39;est pas personnalisable.
 
 1. Saisissez le nom du &quot;rawbox&quot; défini dans Adobe Target.
-1. Si vous utilisez les autorisations d&#39;Enterprise permissions dans vos paramètres d&#39;Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d&#39;Enterprise dans [cette page](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Ce champ est facultatif. Il n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations d&#39;Enterprise dans Target.
+1. Si vous utilisez les autorisations d&#39;Enterprise permissions dans vos paramètres d&#39;Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d&#39;Enterprise dans [cette page](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/properties-overview.html). Ce champ est facultatif. Il n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations d&#39;Enterprise dans Target.
 1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d&#39;Adobe Campaign.
 
    Les champs d&#39;Adobe Campaign utilisés doivent avoir été spécifiés au niveau du &quot;rawbox&quot;. Vous allez définir ici différentes expériences en fonction du genre du destinataire.
@@ -56,7 +56,7 @@ La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses
 
 **Rubriques connexes :**
 
-* [Portail d&#39;Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Portail d&#39;Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/campaign-and-target.html)
 * [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md)
 * Vidéo [Personnaliser des images d&#39;email en temps réel](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)
 
