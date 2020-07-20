@@ -1,5 +1,5 @@
 ---
-title: Commencer avec le rapports dynamique
+title: Prise en main de la création de rapports dynamiques
 description: Avec les rapports dynamiques, placez des variables et des dimensions dans votre environnement de forme libre et analysez les performances de vos campagnes.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -11,61 +11,64 @@ topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Prise en main de la création de rapports dynamiques {#get-started-reporting}
 
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Gérer et partager des rapports dynamiques</a></p></td>
 <td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Créer vos rapports</a></p></td>
-<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnalisation de vos rapports</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
 </table>
 
-Le Rapports dynamique fournit des rapports entièrement personnalisables et en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
+Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
 
 ## Gérer et partager des rapports {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
+Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
-**Gérez vos rapports** dynamiques grâce à diverses fonctionnalités : actualisez les données en temps réel, imprimez vos rapports ou exportez-les au format CSV. Vous pouvez également partager vos rapports avec les utilisateurs de Campaign Standard par le biais d’e-mails ponctuels ou récurrents.
+**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter au format CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
 
-En savoir plus:
+En savoir plus :
 
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 * [Interface du reporting](../../reporting/using/reporting-interface.md)
 
-## Créer vos rapports {#build-reports}
+## Créer des rapports {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard est livré avec un ensemble de rapports **dynamiques** prêts à l’emploi qui vous permet de mesurer plusieurs aspects de vos campagnes marketing : rebonds, diffusions qui ont été déclarées le plus comme indésirable ou indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de suivi...
+Campaign Standard est fourni avec un ensemble de **rapports dynamiques d’usine**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
 
-**Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports prêts à l’emploi.
+**Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
-En savoir plus:
+En savoir plus :
 
 * [Liste des composants](../../reporting/using/list-of-components-.md)
 * [Calcul des indicateurs](../../reporting/using/indicator-calculation.md)
 * [Liste des rapports](../../reporting/using/defining-the-report-period.md)
 
-## Personnalisation de vos rapports {#customize-reports}
+## Personnaliser vos rapports {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personnalisez vos rapports** en exploitant les fonctionnalités de conception de rapports dynamique : ajoutez autant de composants que nécessaire (panneaux et tableaux à structure libre) pour analyser vos données à l’aide de la mesure et des dimensions disponibles.
+**Personnalisez vos rapports** grâce aux fonctionnalités de conception de rapports dynamiques : ajoutez autant de composants que nécessaire (panneaux et tableaux à structure libre) pour analyser vos données à l’aide des mesures et des dimensions disponibles.
 
-Faites glisser et déposez des éléments **de** visualisation pour ajouter des représentations graphiques de vos données dans vos rapports et les configurer en fonction de vos besoins.
+Effectuez un glisser-déposer d’**éléments de visualisation** pour ajouter des représentations graphiques de vos données dans les rapports et les configurer selon vos besoins.
 
-Créez des rapports basés sur des données **de profil** personnalisées créées lors de l’extension de ressources de Profil et **des rapports basés sur des segments** définis dans les workflows de ciblage.
+Créez des rapports à partir des **données de profil personnalisé** créées lors de l’extension de la ressource de Profil et des **rapports basés sur des segments** définis dans les workflows de ciblage.
 
-En savoir plus:
+En savoir plus :
 
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
@@ -75,6 +78,6 @@ En savoir plus:
 
 ## Autres ressources
 
-* [Vidéos didacticielles sur les rapports dynamiques](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
+* [Vidéos de tutoriels sur les rapports dynamiques](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
 * [Export des logs](../../automating/using/exporting-logs.md)
-* [A propos de l’intégration Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
+* [À propos de l’intégration Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
