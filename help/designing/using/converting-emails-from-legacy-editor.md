@@ -1,6 +1,6 @@
 ---
-title: 'Conversion d’un courrier électronique hérité de l’éditeur de formulaires dans le concepteur de courrier électronique '
-description: Découvrez comment utiliser les courriers électroniques créés dans l’Editeur hérité Courriel au concepteur de courriers électroniques.
+title: 'Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email '
+description: Découvrez comment utiliser, avec le Concepteur d’email, des emails créés dans l’ancien éditeur.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -11,49 +11,49 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
-# Conversion du contenu des courriers électroniques de l’éditeur hérité {#converting-an-html-content}
+# Conversion du contenu des emails de l’ancien éditeur {#converting-an-html-content}
 
-Début de travail avec le concepteur de courrier électronique et de création de modèles et de fragments réutilisables à partir de votre code HTML de courrier électronique créé dans l’éditeur hérité.
+Ouvrez le Concepteur d’email et créez des modèles et des fragments réutilisables à partir du code HTML de l’email créé dans l’ancien éditeur.
 
-Cette utilisation vous permet de créer un modèle de concepteur de courrier électronique à l’aide d’un courrier électronique HTML et de le diviser en composants HTML dans le concepteur de courrier électronique.
+Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide d’un email HTML et de le diviser en différents composants HTML dans le Concepteur d’email.
 
 >[!NOTE]
 >
->Tout comme le mode de compatibilité, un composant HTML est modifiable avec des options limitées : vous ne pouvez effectuer qu&#39;une édition statique.
+>De la même manière que le mode de compatibilité, un composant HTML est éditable avec des options limitées : vous pouvez uniquement effectuer l’édition locale.
 
 >[!IMPORTANT]
 >
 >Cette section est destinée aux utilisateurs avancés qui sont familiers avec le code HTML.
 
-## Préparation du contenu de votre courrier électronique
+## Préparer le contenu de vos emails
 
-1. Sélectionnez un courrier électronique HTML.
-1. Identifiez les sections pour diviser le courrier électronique HTML.
+1. Sélectionnez un email HTML.
+1. Identifiez les sections pour diviser l’email HTML en plusieurs blocs.
 1. Découpez les différents blocs de votre code HTML.
 
-## Créer votre structure de courriel
+## Créer votre structure d’email
 
-1. Open the **[!UICONTROL Email Designer]**  to create an empty email content.
+1. Ouvrez le **[!UICONTROL Concepteur d’email]** pour créer un contenu d’email vide.
 1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
-1. Ajoutez autant de composants de structure que vous en avez. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez autant de composants de structure que vous avez de sections. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Ajouter du contenu HTML
 
 1. Ajoutez un composant HTML à chaque composant de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Copiez-collez votre code HTML dans chaque composant.
+1. Copiez votre code HTML et collez-le dans chaque composant.
 
-## Gérer le style de votre courrier électronique {#manage-the-style-of-your-email}
+## Gérer le style de votre email {#manage-the-style-of-your-email}
 
-1. Switch to **[!UICONTROL Mobile view]**. Voir à ce propos [cette section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. Passez en **[!UICONTROL vue Mobile]**. Voir à ce propos [cette section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 1. Pour résoudre cela, passez en mode de code source, copiez votre section de style et collez-la dans une nouvelle section de style. Par exemple :
 
@@ -81,37 +81,37 @@ Cette utilisation vous permet de créer un modèle de concepteur de courrier él
 
 1. Revenez à la vue mobile pour vérifier que votre contenu s&#39;affiche correctement et enregistrez vos modifications.
 
-## Utilisation
+## Cas pratique
 
-Essayons de convertir ce courrier électronique, créé dans l’éditeur hérité, en modèle **[!UICONTROL de concepteur]** de courrier électronique.
+Essayons de convertir cet email, créé dans l’ancien éditeur, en modèle **[!UICONTROL Concepteur d’email]**.
 
-## Identifier la section de votre courrier électronique
+## Identifier la section de votre email
 
-Nous pouvons identifier 11 sections dans ce courriel.
+Nous pouvons identifier 11 sections dans cet email.
 
 ![](assets/html-dce-view-mail.png)
 
-Pour identifier l’élément qui est la section du code HTML, vous pouvez la sélectionner.
+Pour identifier l’élément correspondant à la section du code HTML, vous pouvez le sélectionner.
 
 ![](assets/breadcrumbs.png)
 
-Pour afficher la version HTML du courrier électronique, cliquez sur **[!UICONTROL Afficher la source]**.
+Pour afficher la version HTML de l’email, cliquez sur **[!UICONTROL Afficher la source]**.
 
-### Créer un modèle de courrier électronique et sa structure
+### Créer le modèle d’email et sa structure
 
-1. Faites glisser et déposez les composants **** Structure reflétant la disposition de notre courrier électronique.
+1. Effectuez un glisser-déposer des **[!UICONTROL composants de structure]** reflétant la disposition de notre email.
 
-1. Répétez cette opération autant de fois que nécessaire. Nous devons créer 11 composants structuraux.
+1. Répétez cette opération autant de fois que nécessaire. Nous devons créer 11 composants de structure.
 
    ![](assets/structure-components-migration.png)
 
-### Insertion de composants de contenu HTML
+### Insérer les composants du contenu HTML
 
-1. Insérez un composant **** HTML dans chaque composant **** Structure.
+1. Insérez un **[!UICONTROL composant HTML]** dans chaque **[!UICONTROL composant de structure]**.
 
    ![](assets/html-components.png)
 
-1. Pour chaque section, cliquez sur **[!UICONTROL Afficher le code]** source .
+1. Pour chaque section, cliquez sur **[!UICONTROL Afficher le code source]**.
 
    ![](assets/show-source-code.png)
 
@@ -119,16 +119,16 @@ Pour afficher la version HTML du courrier électronique, cliquez sur **[!UICONTR
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Vous pouvez désormais vérifier le rendu de votre courrier électronique.
+Vous pouvez maintenant vérifier le rendu de votre email.
 
 ![](assets/migrated-email-result.png)
 
 ### Gestion des styles en fonction de la vue mobile
 
-1. Insérez des éléments CSS pour vous assurer que votre adresse électronique convient à la vue mobile.
+1. Insérez des éléments CSS pour vous assurer que votre email convient à un affichage sur mobile.
 
-1. Passez au code source et copiez-collez votre section de style dans une nouvelle section de style.
+1. Passez en mode code source, copiez votre section de style et collez-la dans une nouvelle section de style.
 
-Pour plus d’informations à ce sujet, reportez-vous à la section [Gérer le style de votre courrier électronique](#manage-the-style-of-your-email).
+Pour plus d’informations à ce sujet, voir la section [Gérer le style de votre email](#manage-the-style-of-your-email).
 
-Votre message électronique hérité est désormais disponible dans le concepteur de messages électroniques.
+Votre ancien email est maintenant disponible dans le Concepteur d’email.
