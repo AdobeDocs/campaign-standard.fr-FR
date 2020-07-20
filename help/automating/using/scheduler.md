@@ -12,11 +12,11 @@ discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une act
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Création de diffusions à la date de création des profils](../../automating/using/workflow-creation-date-query.md)
-* [Cas d’utilisation : Création d’une diffusion de messagerie tous les mardis](../../automating/using/workflow-weekly-offer.md)
+* [Cas pratique : création de diffusions à la date de création des profils](../../automating/using/workflow-creation-date-query.md)
+* [Cas pratique : création d’une diffusion email tous les mardis](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuration {#configuration}
 
