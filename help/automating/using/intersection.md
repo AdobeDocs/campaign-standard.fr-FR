@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 
@@ -39,9 +39,9 @@ L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 1. Sélectionnez le **[!UICONTROL Type de réconciliation]** :
 
-   * **[!UICONTROL Uniquement les clés]** : mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé.
-   * **[!UICONTROL Toutes les colonnes communes]** : les données sont réconciliées sur la base des colonnes communes aux transitions entrantes. Vous devez alors sélectionner l&#39;ensemble principal qui servira de base de comparaison. Cette option peut être utilisée notamment si les dimensions de ciblage des populations entrantes sont différentes.
-   * **[!UICONTROL Une sélection de colonnes]** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis définir les champs à utiliser pour la jointure.
+   * **[!UICONTROL Uniquement les clés]** : mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé.
+   * **[!UICONTROL Toutes les colonnes communes]** : les données sont réconciliées sur la base des colonnes communes aux transitions entrantes. Vous devez alors sélectionner l&#39;ensemble principal qui servira de base de comparaison. Cette option peut être utilisée notamment si les dimensions de ciblage des populations entrantes sont différentes.
+   * **[!UICONTROL Une sélection de colonnes]** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis définir les champs à utiliser pour la jointure.
 
 1. Cochez la case **[!UICONTROL Utiliser uniquement les données additionnelles communes]** si vous souhaitez ne conserver que les données additionnelles présentes dans toutes les transitions entrantes.
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
