@@ -1,6 +1,6 @@
 ---
 title: Gérer des données cryptées
-description: Découvrez comment gérer les données chiffrées.
+description: Découvrez comment gérer les données cryptées.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: sauviat
@@ -15,29 +15,29 @@ translation-type: tm+mt
 source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 15%
+ht-degree: 93%
 
 ---
 
 
 # Gérer des données cryptées {#managing-encrypted-data}
 
-## A propos des étapes de prétraitement {#about-preprocessing-stages}
+## À propos des étapes de prétraitement {#about-preprocessing-stages}
 
-Dans certains cas, les données que vous souhaitez importer peuvent être cryptées, par exemple si elles contiennent des données d’identification personnelle.
+Dans certains cas, les données que vous souhaitez importer peuvent être cryptées, par exemple si elles contiennent des données PII.
 
-Pour pouvoir chiffrer les données sortantes ou déchiffrer les données entrantes, vous devez gérer les clés GPG à l&#39;aide du panneau [de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)configuration.
+Pour pouvoir crypter les données sortantes ou décrypter les données entrantes, vous devez gérer les clés GPG à l’aide du [panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
->Le Panneau de configuration est disponible pour tous les clients hébergés sur AWS (à l’exception des clients qui hébergent leurs instances marketing sur site).
+>Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l’exception de ceux qui hébergent leurs instances marketing on-premise).
 
-Si vous ne pouvez pas utiliser le Panneau de configuration, vous devez contacter le service d’assistance clientèle d’Adobe afin qu’il fournisse à votre instance les commandes de chiffrement/déchiffrement nécessaires. Pour ce faire, envoyez une requête indiquant :
+Si vous ne pouvez pas utiliser le panneau de contrôle, vous devez contacter l’Assistance clientèle d’Adobe afin qu’elle indique à votre instance les commandes de cryptage/décryptage nécessaires. Pour ce faire, envoyez une demande indiquant :
 
 * Le **libellé** qui s’affichera dans l’interface de Campaign pour utiliser la commande. Par exemple, « Crypter le fichier ».
 * La **commande** à installer sur votre instance.
 
-Once the request is processed, the encryption / decryption commands will be available in the **[!UICONTROL Pre-processing stage]** field from the **[!UICONTROL Load file]** and **[!UICONTROL Extract file]** activities. Vous pouvez les utiliser pour décrypter ou crypter les fichiers à importer ou exporter.
+Une fois la demande traitée, les commandes de cryptage/décryptage seront disponibles dans le champ **[!UICONTROL Étape de prétraitement]** des activités **[!UICONTROL Chargement de fichier]** et **[!UICONTROL Extraction de fichier]**. Vous pouvez les utiliser pour décrypter ou crypter les fichiers à importer ou exporter.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -48,86 +48,86 @@ Once the request is processed, the encryption / decryption commands will be avai
 
 ## Cas pratique : import de données cryptées à l’aide d’une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
-Dans ce cas d’utilisation, nous allons créer un flux de travail afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de configuration.
+Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
 Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
 
-Les étapes pour effectuer cette utilisation sont les suivantes :
+Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. Utilisez le Panneau de configuration pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la documentation [du Panneau de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)configuration.
+1. Utilisez le panneau de contrôle pour générer une paire de clés (publique/privée). Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * La clé publique sera partagée avec le système externe. Ce dernier l’utilisera pour crypter les données à envoyer à Campaign.
    * Campaign utilisera la clé privée pour décrypter les données cryptées entrantes.
 
    ![](assets/gpg_generate.png)
 
-1. Dans le système externe, utilisez la clé publique téléchargée à partir du Panneau de configuration pour chiffrer les données à importer dans le Campaign Standard.
+1. Dans le système externe, utilisez la clé publique téléchargée à l’aide du panneau de contrôle pour crypter les données à importer dans Campaign Standard.
 
    ![](assets/gpg_external.png)
 
-1. Dans le Campaign Standard, créez un processus pour importer les données chiffrées et les déchiffrer à l’aide de la clé privée qui a été installée via le Panneau de configuration. Pour ce faire, nous allons créer un processus comme suit :
+1. Dans Campaign Standard, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transférer l&#39;activité du fichier]** : Transfère le fichier d’une source externe vers Campaign. Dans cet exemple, nous voulons transférer le fichier d’un serveur SFTP.
-   * **[!UICONTROL Charger l&#39;activité du fichier]** : Charge les données du fichier dans la base de données et les déchiffre à l’aide de la clé privée générée dans le Panneau de configuration.
+   * **[!UICONTROL Transfert de fichier]** : transfère le fichier d’une source externe vers Campaign. Dans cet exemple, nous voulons transférer le fichier depuis un serveur SFTP.
+   * **[!UICONTROL Chargement de fichier]** : charge les données du fichier dans la base de données et le décrypte à l’aide de la clé privée générée dans le panneau de contrôle.
 
-1. Ouvrez l’activité **[!UICONTROL Transférer le fichier]** , puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../automating/using/load-file.md).
+1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/load-file.md).
 
-   Dans l’onglet **[!UICONTROL Protocole]** , spécifiez des détails sur le serveur sftp et le fichier .gpg chiffré à transférer.
+   Dans l’onglet **[!UICONTROL Protocole]**, spécifiez des détails sur le serveur sftp et le fichier .gpg crypté à transférer.
 
    ![](assets/gpg_transfer.png)
 
-1. Ouvrez l’activité **[!UICONTROL Charger le fichier]** , puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../automating/using/load-file.md).
+1. Ouvrez l’activité **[!UICONTROL Chargement de fichier]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/load-file.md).
 
-   Ajoutez une étape de prétraitement à l’activité afin de déchiffrer les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Decryption GPG]** dans la liste.
+   Ajoutez une étape de prétraitement à l’activité pour décrypter les données entrantes. Pour ce faire, sélectionnez l’option **[!UICONTROL Décryptage GPG]** dans la liste.
 
    >[!NOTE]
    >
-   >Notez que vous n’avez pas besoin de spécifier la clé privée à utiliser pour déchiffrer les données. La clé privée est stockée dans le Panneau de configuration, qui détecte automatiquement la clé à utiliser pour déchiffrer le fichier.
+   >Il n’est pas nécessaire de spécifier la clé privée à utiliser pour décrypter les données. La clé privée est stockée dans le panneau de contrôle, qui détecte automatiquement la clé à utiliser pour décrypter le fichier.
 
    ![](assets/gpg_load.png)
 
-1. Click **[!UICONTROL OK]** to confirm the activity configuration.
+1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l’activité.
 
-1. Vous pouvez désormais exécuter le processus.
+1. Vous pouvez maintenant exécuter le workflow.
 
 ## Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
-Dans ce cas d’utilisation, nous allons créer un processus afin de chiffrer et d’exporter des données à l’aide d’une clé installée sur le Panneau de configuration.
+Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
 Une vidéo didacticiel montrant comment utiliser une clé GPG pour chiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
-Les étapes pour effectuer cette utilisation sont les suivantes :
+Les étapes pour traiter ce cas pratique sont les suivantes :
 
-1. GPG, générez une paire de clés (publique/privée) à l&#39;aide d&#39;un utilitaire GPG, puis installez la clé publique sur le Panneau de configuration. Les étapes détaillées sont disponibles dans la documentation [du Panneau de](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)configuration.
+1. Générez une paire de clés GPG (publique/privée) à l’aide d’un utilitaire GPG, puis installez la clé publique sur le panneau de contrôle. Les étapes détaillées sont disponibles dans la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
-1. Dans Campaign Standard, créez un processus pour exporter les données et exportez-les à l’aide de la clé privée qui a été installée via le Panneau de configuration. Pour ce faire, nous allons créer un processus comme suit :
+1. Dans Campaign Standard, créez un workflow pour exporter les données à l’aide de la clé privée installée à l’aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg-workflow-export.png)
 
-   * **[!UICONTROL Requête]** activité : Dans cet exemple, nous voulons exécuter une requête de cible des données de la base de données que nous voulons exporter.
-   * **[!UICONTROL Extraire l&#39;activité du fichier]** : Chiffre et extrait les données dans un fichier.
-   * **[!UICONTROL Transférer l&#39;activité du fichier]** : Transfère le fichier contenant les données chiffrées vers un serveur SFTP.
+   * Activité **[!UICONTROL Requête]** : dans cet exemple, nous voulons exécuter une requête pour cibler les données de la base de données que nous voulons exporter.
+   * Activité **[!UICONTROL Extraction de fichier]** : crypte et extrait les données dans un fichier.
+   * **[!UICONTROL Transfert de fichier]** : transfère le fichier contenant les données cryptées vers un serveur SFTP.
 
-1. Configurez l’activité de la **[!UICONTROL Requête]** pour qu’elle cible les données de votre choix à partir de la base de données. Voir à ce propos [cette section](../../automating/using/query.md).
+1. Configurez l’activité **[!UICONTROL Requête]** pour qu’elle cible les données de votre choix dans la base de données. Voir à ce propos [cette section](../../automating/using/query.md).
 
-1. Ouvrez l&#39;activité **[!UICONTROL Extract file]** , puis configurez-la selon vos besoins (fichier de sortie, colonnes, format, etc.). Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../automating/using/extract-file.md).
+1. Ouvrez l’activité **[!UICONTROL Extraction de fichier]**, puis configurez-la selon vos besoins (fichier de sortie, colonnes, format, etc.). Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/extract-file.md).
 
-   Ajoutez une étape de prétraitement à l’activité afin de chiffrer les données à extraire. Pour ce faire, sélectionnez la clé de chiffrement GPG à utiliser pour chiffrer les données.
+   Ajoutez une étape de prétraitement à l’activité pour décrypter les données à extraire. Pour ce faire, sélectionnez la clé de chiffrement GPG à utiliser pour crypter les données.
 
    ![](assets/gpg-extract-stage.png)
 
    >[!NOTE]
    >
-   >La valeur entre parenthèses est le **commentaire** que vous avez défini lors de la génération de la paire de clés à l&#39;aide de votre outil de chiffrement GPG. Assurez-vous de sélectionner la clé correspondante correcte, sinon le destinataire ne pourra pas déchiffrer le fichier.
+   >La valeur entre parenthèses est le **commentaire** que vous avez défini lors de la génération de la paire de clés à l’aide de votre outil de cryptage GPG. Veillez à bien sélectionner la clé correspondante correcte, sinon le destinataire ne pourra pas décrypter le fichier.
 
-1. Ouvrez l’activité **[!UICONTROL Transférer le fichier]** , puis spécifiez le serveur SFTP vers lequel vous souhaitez envoyer le fichier. Les concepts généraux de configuration de l’activité sont disponibles dans [cette section](../../automating/using/transfer-file.md).
+1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le serveur SFTP auquel vous souhaitez envoyer le fichier. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
-1. Vous pouvez désormais exécuter le processus. Une fois exécuté, la cible de données par la requête est exportée vers le serveur SFTP dans un fichier .gpg chiffré.
+1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
 
    ![](assets/gpg-sftp-encrypt.png)
