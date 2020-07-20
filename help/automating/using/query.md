@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Dimensions de ciblage et ressources  {#targeting-dimensions-and-resources}
+## Dimensions de ciblage et ressources   {#targeting-dimensions-and-resources}
 
 Les dimensions de ciblage et les ressources permettent de définir sur quels éléments reposera une requête pour déterminer la cible d’une diffusion.
 
@@ -103,7 +103,7 @@ Exemple de filtres disponibles pour la ressource **[!UICONTROL Diffusions (deliv
 
 Par défaut, la dimension de ciblage et la ressource sont définies pour cibler des profils. Il peut toutefois s’avérer utile d’utiliser une ressource différente de la dimension de ciblage si vous souhaitez rechercher un enregistrement spécifique dans une table distante.
 
-Pour plus d’informations sur ce sujet, reportez-vous à ce cas d’utilisation : [Utilisation de ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Pour plus d’informations à ce sujet, reportez-vous à ce cas pratique : [Utiliser des ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Enrichir des données {#enriching-data}
 
@@ -125,9 +125,9 @@ Après avoir ajouté des données additionnelles, vous pouvez appliquer un nivea
 >
 >Par défaut, l’option **[!UICONTROL Supprimer les doublons (DISTINCT)]** est cochée dans les **[!UICONTROL Options avancées]** de l’onglet **[!UICONTROL Données additionnelles]** de la requête. Pour des raisons de performance, il est recommandé de décocher cette option si l’activité **[!UICONTROL Requête]** contient de nombreuses données additionnelles (à partir de 100) définies. Sachez que si cette option est décochée, vous pouvez obtenir des doublons, selon les données faisant l’objet de la requête.
 
-Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md)un exemple d’utilisation de la personnalisation d’un courrier électronique contenant des données supplémentaires.
+Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md) un cas pratique de la personnalisation d’un email contenant des données supplémentaires.
 
-### Ajouter un champ simple  {#adding-a-simple-field}
+### Ajouter un champ simple   {#adding-a-simple-field}
 
 En ajoutant un champ simple comme donnée additionnelle, celui-ci devient directement visible dans la transition sortante de l’activité. Cela permet par exemple de vérifier que les données issues de la requête sont celles souhaitées.
 
@@ -140,7 +140,7 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Ajouter un agrégat  {#adding-an-aggregate}
+### Ajouter un agrégat   {#adding-an-aggregate}
 
 Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
 Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :
