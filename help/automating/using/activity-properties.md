@@ -1,6 +1,6 @@
 ---
 title: Gestion des propriétés des activités
-description: Découvrez comment gérer les propriétés des activités de processus.
+description: Découvrez comment gérer les propriétés des activités de workflows.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: sauviat
@@ -12,41 +12,41 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # Gestion des propriétés des activités {#activity-properties}
 
-## Global properties of an activity {#global-properties-of-an-activity}
+## Propriétés globales d’une activité {#global-properties-of-an-activity}
 
-Chaque activité dispose d’un onglet **[!UICONTROL Général]** qui vous permet de modifier les paramètres généraux propres à l’activité.
+Chaque activité dispose d’un onglet **[!UICONTROL Général]** qui permet de modifier les paramètres généraux propres à l’activité.
 
 ![](assets/activity-properties.png)
 
-The **[!UICONTROL Properties]** tab allows you to modify the activity&#39;s global parameters, particularly the label and the ID. La configuration de cet onglet est facultative.
+L’onglet **[!UICONTROL Propriétés]** permet de modifier les paramètres globaux de l’activité, notamment le libellé et l’identifiant. La configuration de cet onglet est facultative.
 
 ![](assets/activity-properties2.png)
 
-## Gestion des transitions sortantes d’une activité     {#managing-an-activity-s-outbound-transitions}
+## Gestion des transitions sortantes d’une activité      {#managing-an-activity-s-outbound-transitions}
 
 Par défaut, certaines activités ne possèdent pas de transition sortante. Vous pouvez en ajouter à partir de l’onglet **[!UICONTROL Transitions]** ou de l’onglet **[!UICONTROL Propriétés]** de l’activité afin d’appliquer d’autres traitements à votre population dans un même workflow.
 
 En fonction des activités, vous pouvez ajouter plusieurs types de transitions sortantes :
 
-* **transition** standard : population calculée par l&#39;activité
-* **Transition sans population**: ce type de transition sortante peut être ajouté pour poursuivre le processus et ne contient aucune population pour ne pas consommer d&#39;espace inutile sur le système.
-* **Rejette**: population refusée. Par exemple, si des données en entrée d’une activité n’ont pas pu être traitées car incorrectes ou non complètes.
-* **Complément**: population restante après l’exécution de l’activité. Par exemple, si une activité de segmentation est paramétrée pour ne conserver qu’un pourcentage de la population entrante.
+* **Transition standard** : population calculée par l’activité.
+* **Transition sans population** : ce type de transition sortante peut être ajouté pour continuer le workflow et ne contient pas de population afin de ne pas occuper d’espace inutilement sur le système.
+* **Rejets** : population rejetée. Par exemple, si des données en entrée d’une activité n’ont pas pu être traitées car incorrectes ou non complètes.
+* **Complémentaire** : population restante après exécution de l’activité. Par exemple, si une activité de segmentation est paramétrée pour ne conserver qu’un pourcentage de la population entrante.
 
 Vous pouvez indiquer un **[!UICONTROL Code segment]** pour la transition sortante d’une l’activité. Ce code segment permet d’identifier d’où viennent les sous-ensembles de la population cible finale, et peut par la suite servir à des fins de personnalisation dans un message.
 
-## Options d’exécution d’une activité     {#activity-execution-options}
+## Options d’exécution d’une activité      {#activity-execution-options}
 
 L’écran des propriétés d’une activité comporte un onglet **[!UICONTROL Options d’exécution]** vous permettant notamment de définir son mode d’exécution et le comportement en cas d’erreur.
 
