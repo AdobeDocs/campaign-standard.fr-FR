@@ -11,11 +11,11 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Quatre commandes d’exécution sont disponibles pour contrôler un workflow :
 * Reprendre
 * Arrêter
 
-Pour plus d’informations sur les commandes d’exécution, reportez-vous à la [documentation de Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Pour plus d’informations sur les commandes d’exécution, reportez-vous à la [documentation de Campaign](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
