@@ -12,11 +12,11 @@ discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '903'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 * [Cas pratique : création d’une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
 * [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
 * [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Cas d’utilisation : diffusion d&#39;anniversaire](../../automating/using/birthday-delivery.md)
+* [Cas pratique : diffusion d’anniversaire](../../automating/using/birthday-delivery.md)
 
 ## Configuration {#configuration}
 
@@ -70,7 +70,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
       Par exemple, pour un email récurrent d&#39;anniversaire, envoyé chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que l&#39;email est envoyé chaque jour.
    >[!NOTE]
    >
-   >Les diffusions récurrentes sont préparées en fonction de la période **d&#39;** agrégation. Par exemple, si la période d’agrégation est &quot;par jour&quot;, la diffusion n’est repréparée qu’une fois par jour. Si vous prévoyez d’appeler ce processus plusieurs fois par jour, utilisez [!UICONTROL Pas d’agrégation].
+   >Les diffusions récurrentes sont préparées en fonction de la **période d’agrégation**. Par exemple, si la période d’agrégation est &quot;par jour&quot;, la diffusion n’est repréparée qu’une fois par jour. Si vous prévoyez d’appeler ce workflow plusieurs fois par jour, utilisez [!UICONTROL Pas d’agrégation].
 
 1. Choisissez un type d&#39;email. Les types d&#39;emails sont issus des modèles d&#39;emails définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales de l&#39;email. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de la diffusion dans le workflow est mis à jour avec le libellé de l&#39;email.
@@ -86,7 +86,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques    {#remarks}
+## Remarques     {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de l&#39;email vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d&#39;un email récurrent).
 
