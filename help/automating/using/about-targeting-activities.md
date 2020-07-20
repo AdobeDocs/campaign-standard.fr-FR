@@ -11,11 +11,11 @@ topic-tags: targeting-activities
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -72,4 +72,4 @@ L&#39;onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTR
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Personnalisation d’un courrier électronique avec des données supplémentaires](../../automating/using/personalizing-email-with-additional-data.md)
+* [Cas pratique : personnaliser un email avec des données additionnelles](../../automating/using/personalizing-email-with-additional-data.md)
