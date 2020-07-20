@@ -11,8 +11,11 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
+workflow-type: ht
+source-wordcount: '1175'
+ht-degree: 100%
 
 ---
 
@@ -70,27 +73,27 @@ La **barre d&#39;outils contextuelle** de l&#39;interface de l&#39;éditeur pré
 
 ### Page d&#39;accueil du Concepteur d&#39;email {#email-designer-home-page}
 
-When [creating an email](../../channels/using/creating-an-email.md), the **[!UICONTROL Email Designer]** home page automatically displays upon selecting the email content.
+Lors de la [création d&#39;un email](../../channels/using/creating-an-email.md), la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]** s&#39;affiche automatiquement lors de la sélection du contenu de l&#39;email.
 
 ![](assets/email_designer_home_page.png)
 
-The **[!UICONTROL Properties]** tab enables you to edit the email details such as the label, the sender&#39;s address and name, or the email subject. Vous pouvez également accéder à cet onglet en cliquant sur le libellé de l&#39;email en haut de l&#39;écran.
+L&#39;onglet **[!UICONTROL Propriétés]** permet de modifier les détails d&#39;un email, tels que le libellé, l&#39;adresse et le nom de l&#39;expéditeur ou l&#39;objet. Vous pouvez également accéder à cet onglet en cliquant sur le libellé de l&#39;email en haut de l&#39;écran.
 
 ![](assets/email_designer_home_properties.png)
 
-The **[!UICONTROL Templates]** tab enables you to choose from the out-of-the-box HTML contents or the templates that you already created to quickly start designing your email. Voir [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
+L&#39;onglet **[!UICONTROL Modèles]** permet d&#39;effectuer une sélection parmi les contenus HTML d&#39;usine ou les modèles que vous avez déjà créés pour commencer rapidement à concevoir votre email. Voir [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-The **[!UICONTROL Learn & support]** tab gives you easy access to the related documentation and tutorials.
+L&#39;onglet **[!UICONTROL Formation et support]** permet d&#39;accéder facilement à la documentation et aux tutoriels connexes.
 
 ![](assets/email_designer_home_support.png)
 
 Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du Concepteur d&#39;email vous permet également de choisir le mode de conception de votre contenu :
 
-* Click the **[!UICONTROL Create]** button to start a new content from scratch. Voir [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Click the **[!UICONTROL Upload]** button to upload a file from your computer. Voir [Importer du contenu depuis un fichier](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Click the **[!UICONTROL Import from URL]** button to retrieve existing content form a URL. Voir [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Cliquez sur le bouton **[!UICONTROL Créer]** pour commencer à créer entièrement un contenu. Voir [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier à partir de votre ordinateur. Voir [Importer du contenu depuis un fichier](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]** pour récupérer du contenu existant à partir d&#39;une URL. Voir [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologie {#terminology}
 
@@ -128,7 +131,7 @@ Le Concepteur d&#39;email est sans cesse amélioré. Si vous avez créé un cont
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe recommande de mettre à jour votre contenu vers la dernière version pour éviter les problèmes comme ceux des collisions CSS. Clics **[!UICONTROL Update now]**.
+Adobe recommande de mettre à jour votre contenu vers la dernière version pour éviter les problèmes comme ceux des collisions CSS. Cliquez sur **[!UICONTROL Mettre à jour maintenant]**.
 
 Si une erreur se produit lors de la mise à jour du contenu, vérifiez votre code HTML et corrigez-le avant d&#39;effectuer à nouveau cette mise à jour.
 
@@ -144,7 +147,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email    {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email     {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
