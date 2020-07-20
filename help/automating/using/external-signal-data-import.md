@@ -1,6 +1,6 @@
 ---
-title: Importation de signaux externes et de données
-description: L'exemple suivant illustre l'activité du signal externe utilisée avec l'importation de données.
+title: Signal externe et import de données
+description: L’exemple suivant illustre l’activité Signal externe utilisée avec l’import de données.
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Importation de signaux externes et de données {#external-signal-data-import}
+# Signal externe et import de données {#external-signal-data-import}
 
 L&#39;exemple suivant illustre l&#39;activité **[!UICONTROL Signal externe]** dans un cas typique. Un import de données est effectué sur un workflow source. Une fois l&#39;import terminé et la base de données mise à jour, un deuxième workflow est déclenché. Ce deuxième workflow permet de mettre à jour et d&#39;agréger les données importées.
 
