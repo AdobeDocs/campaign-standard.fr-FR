@@ -1,5 +1,5 @@
 ---
-title: Identification des duplicata avant une diffusion
+title: Identifier des doublons avant une diffusion
 description: L'exemple suivant illustre une déduplication permettant d'exclure les doublons d'une cible avant l'envoi d'un email. Cela permet d'éviter d'envoyer une communication plusieurs fois à un même profil.
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
@@ -12,20 +12,20 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
-# Identifying duplicates before a delivery {#identifying-duplicates-before-a-delivery}
+# Identifier des doublons avant une diffusion {#identifying-duplicates-before-a-delivery}
 
 L&#39;exemple suivant illustre une déduplication permettant d&#39;exclure les doublons d&#39;une cible avant l&#39;envoi d&#39;un email. Cela permet d&#39;éviter d&#39;envoyer une communication plusieurs fois à un même profil.
 
-Le workflow est constitué comme suit :
+Le workflow est constitué comme suit :
 
 ![](assets/deduplication_example_workflow.png)
 
