@@ -12,11 +12,11 @@ discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populat
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Union sur deux audiences raffinées](../../automating/using/union-on-two-refined-audiences.md)
+* [Cas pratique : union sur deux audiences affinées](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuration {#configuration}
 
@@ -49,7 +49,7 @@ L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populat
 1. Sélectionnez le **[!UICONTROL Type de réconciliation]** pour définir la gestion des doublons issus de la confrontation des populations entrantes :
 
    * **[!UICONTROL Uniquement les clés]** : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
-   * **[!UICONTROL Toutes les colonnes communes]** : les données sont réconciliées sur la base de toutes les colonnes communes aux transitions entrantes. Vous devez alors sélectionner l&#39;ensemble principal qui sera conservé en cas de doublon. Cette option peut être utilisée notamment si les dimensions de ciblage des populations entrantes sont différentes.
+   * **[!UICONTROL Toutes les colonnes communes]** : les données sont réconciliées sur la base de toutes les colonnes communes aux transitions entrantes. Vous devez alors sélectionner l&#39;ensemble principal qui sera conservé en cas de doublon. Cette option peut être utilisée notamment si les dimensions de ciblage des populations entrantes sont différentes.
    * **[!UICONTROL Une sélection de colonnes]** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
 1. Cochez la case **[!UICONTROL Utiliser uniquement les données additionnelles communes]** si vous souhaitez ne conserver que les données additionnelles présentes dans toutes les transitions entrantes.
