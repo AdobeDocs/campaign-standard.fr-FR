@@ -1,5 +1,5 @@
 ---
-title: Enrichir des données de profil avec des données contenues dans un fichier
+title: Enrichissement des données de profil avec des données contenues dans un fichier
 description: Cet exemple illustre comment enrichir des données de profil avec des données d'achat contenues dans un fichier.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
@@ -12,18 +12,18 @@ discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Enriching profile data with data contained in a file {#enriching-profile-data-with-data-contained-in-a-file}
+# Enrichissement des données de profil avec des données contenues dans un fichier {#enriching-profile-data-with-data-contained-in-a-file}
 
-Cet exemple montre comment enrichir les données de profil avec les données d&#39;achat contenues dans un fichier.Nous considérons ici que les données d&#39;achat sont stockées dans un système tiers. Le fichier peut stocker plusieurs achats pour chaque profil. L&#39;objectif final du workflow est d&#39;envoyer un email aux profils ciblés ayant acheté au moins deux articles afin de les remercier pour leur fidélité.
+Cet exemple montre comment enrichir les données de profil avec les données d’achat contenues dans un fichier. Nous considérons ici que les données d’achat sont stockées dans un système tiers. Le fichier peut stocker plusieurs achats pour chaque profil. L&#39;objectif final du workflow est d&#39;envoyer un email aux profils ciblés ayant acheté au moins deux articles afin de les remercier pour leur fidélité.
 
 Le workflow est configuré comme suit :
 
