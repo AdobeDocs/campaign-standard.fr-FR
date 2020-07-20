@@ -1,6 +1,6 @@
 ---
 title: Création d’une diffusion hebdomadaire
-description: Ce cas d’utilisation montre comment créer une diffusion hebdomadaire.
+description: Ce cas pratique montre comment créer une diffusion hebdomadaire.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Création d’une diffusion de messagerie tous les mardis{#creating-email-every-tuesday}
+# Création d’une diffusion email tous les mardis{#creating-email-every-tuesday}
 
 Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres spéciales.
 
@@ -31,7 +31,7 @@ Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres
 
 ## Créer une activité Planificateur{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Exécution]**, effectuez un glisser-déposer d&#39;une activité [](../../automating/using/scheduler.md)Planificateur.
 1. Double-cliquez sur l&#39;activité.
 1. Configurez l&#39;exécution de votre diffusion.
 1. Dans **[!UICONTROL Fréquence d&#39;exécution]**, sélectionnez **[!UICONTROL Hebdomadaire]**.
@@ -48,7 +48,7 @@ Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres
 
 ## Créer une activité Requête{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Ciblage]**, pour sélectionner des destinataires, effectuez un glisser-déposer d’une activité [Requête](../../automating/using/query.md) et double-cliquez dessus.
 1. Dans **[!UICONTROL Raccourcis]** > **[!UICONTROL Profil]**, effectuez un glisser-déposer de l&#39;élément **[!UICONTROL Email]**.
 1. Sélectionnez **[!UICONTROL n&#39;est pas vide]** en tant qu&#39;opérateur.
 1. Dans **[!UICONTROL Raccourcis]** > **[!UICONTROL Général]**, ajoutez des profils et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL Non]**.
@@ -58,7 +58,7 @@ Vous pouvez envoyer un email tous les mardis à tous les clients pour des offres
 
 ## Créer une diffusion email{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d’une activité [Diffusion Email](../../automating/using/email-delivery.md).
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email récurrent]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
