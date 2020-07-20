@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Navigateur dans lequel le message a été ouvert ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
+   <td> Campagne<br /> </td> 
    <td> Libellé et identifiant de votre campagne.<br /> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Nom de l’application mobile.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plateforme<br /> </td> 
+   <td> Plate-forme<br /> </td> 
    <td> Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
@@ -137,11 +137,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures   {#metrics}
+## Mesures    {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS   {#email-and-sms-metrics}
+### Mesures des emails et SMS    {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -152,11 +152,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> Sur la liste bloquée<br /> </td> 
+   <td> En liste bloquée<br /> </td> 
    <td> Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de Liste bloquée<br /> </td> 
+   <td> Taux en liste bloquée<br /> </td> 
    <td> Pourcentage de diffusions marquées sur la liste bloquée.<br /> </td> 
   </tr> 
   <tr> 
@@ -262,7 +262,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push   {#push-notification-metrics}
+### Mesures des notifications push    {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -327,7 +327,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App   {#in-app-metrics}
+### Mesures In-App    {#in-app-metrics}
 
 <table> 
  <thead> 
