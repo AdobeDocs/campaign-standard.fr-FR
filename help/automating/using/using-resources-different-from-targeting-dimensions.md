@@ -12,20 +12,20 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3a668860659e40645ce3e4aab879cae5ad90083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Utiliser des ressources différentes des dimensions de ciblage {#using-resources-different-from-targeting-dimensions}
 
-Ces cas d&#39;utilisation montrent comment utiliser une ressource différente de la dimension de ciblage, par exemple, pour rechercher un enregistrement spécifique dans un tableau distant.
+Ces cas pratiques montrent comment utiliser une ressource différente de la dimension de ciblage, par exemple, pour rechercher un enregistrement spécifique dans un tableau distant.
 
-For more on targeting dimensions and resources, refer to [this section](../../automating/using/query.md#targeting-dimensions-and-resources)
+Pour plus d’informations sur les dimensions de ciblage et les ressources, reportez-vous à [cette section](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Exemple 1 : identification des profils ciblés par la diffusion avec le libellé « Ravi de vous revoir parmi nous »**.
 
