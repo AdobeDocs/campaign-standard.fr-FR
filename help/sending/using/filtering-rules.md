@@ -11,11 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,16 +28,16 @@ Les règles de filtrage permettent d&#39;exclure une partie de la cible des mess
 
 Le tableau ci-dessous fournit des informations sur les règles de filtrage d’usine ainsi que sur leurs canaux associés.
 
-| Libellé | Channel | Description |
+| Libellé | Canal | Description |
 ---------|----------|---------
 | **[!UICONTROL Adresse non renseignée]** | Tous | Exclut la population cible sans adresse spécifiée (adresse électronique, adresse postale, etc. selon le canal sélectionné). |
-| **[!UICONTROL adresse Placée sur l&#39;liste bloquée]** | Tous | Exclut les adresses qui se trouvent sur la liste bloquée. |
+| **[!UICONTROL Adresse placée sur la liste bloquée]** | Tous | Exclut les adresses qui se trouvent sur la liste bloquée. |
 | **[!UICONTROL Doublon]** | Tous | Exclut les duplicatas en fonction du champ **[!UICONTROL Adresse]** de la population cible. |
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
 | **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
-| **[!UICONTROL Adresse en quarantaine]** | Tous | Exclut les adresses mises en quarantaine. |
+| **** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
 Outre ces règles de filtrage par défaut, deux règles d’exclusion sont disponibles :
@@ -47,13 +47,13 @@ Outre ces règles de filtrage par défaut, deux règles d’exclusion sont dispo
 
 Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
-Cela permet d&#39;éviter d&#39;être ajouté à la liste bloquée en raison d&#39;une activité malveillante, en particulier l&#39;utilisation d&#39;un Spamtrap. Par exemple, si un Spamtrap est utilisé pour s’abonner via l’un de vos formulaires Web, un courrier électronique de confirmation est automatiquement envoyé à ce Spamtrap, ce qui entraîne l’ajout automatique de votre adresse à la liste bloquée.
+Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée liée à une activité malveillante, notamment l’utilisation d’un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s’abonner par le biais de l’un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement mise en liste bloquée.
 
 >[!NOTE]
 >
 >Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des destinataires exclus est indiqué dans les logs d&#39;analyse de diffusion.
 
-## Créer une règle de filtrage   {#creating-a-filtering-rule}
+## Créer une règle de filtrage    {#creating-a-filtering-rule}
 
 Vous pouvez créer vos propres règles de filtrage en fonction de vos besoins. Vous pouvez par exemple filtrer la population cible de votre newsletter afin de ne jamais adresser de communications aux inscrits de moins de 18 ans.
 
@@ -95,7 +95,7 @@ Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si
 
 ![](assets/typology_rule-order_2.png)
 
-## Restreindre la portée d&#39;une règle de filtrage  {#restricting-the-applicability-of-a-filtering-rule}
+## Restreindre la portée d&#39;une règle de filtrage   {#restricting-the-applicability-of-a-filtering-rule}
 
 Vous pouvez restreindre le champ d&#39;application d&#39;une règle de filtrage en fonction du message à envoyer.
 
