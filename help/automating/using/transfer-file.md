@@ -12,11 +12,11 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Mise à jour des données en fonction d’un téléchargement automatique de fichiers](../../automating/using/update-data-automatic-download.md)
+* [Cas pratique : mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 
@@ -151,7 +151,7 @@ Veuillez noter que le chemin doit être relatif au répertoire d’espace de sto
     >
     >**//myserver/hello/myrecipients.csv** est incorrect.
 
-## Paramètres d’historisation    {#historization-settings}
+## Paramètres d’historisation     {#historization-settings}
 
 A chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité **[!UICONTROL Transfert de fichier]** d’un workflow. Par conséquent, il est important de pouvoir limiter la taille de ce dossier de façon à préserver l’espace physique sur le serveur.
 
