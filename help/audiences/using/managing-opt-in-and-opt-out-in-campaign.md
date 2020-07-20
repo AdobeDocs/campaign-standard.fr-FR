@@ -1,6 +1,6 @@
 ---
-title: Gestion des processus d'inscription et de désinscription dans Campaign
-description: Découvrez-en davantage sur la gestion des processus d'inscription et de désinscription dans Adobe Campaign
+title: Gestion des processus d'opt-in et d’opt-out dans Campaign
+description: Découvrez la gestion des processus d'opt-in et d’opt-out dans Adobe Campaign
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -11,30 +11,30 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Gestion des processus d&#39;inscription et de désinscription dans Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# Gestion des processus d&#39;opt-in et d’opt-out dans Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
-## Gestion des processus d&#39;inscription et de désinscription d&#39;un profil {#managing-opt-in-and-opt-out-from-a-profile}
+## Gestion des processus d&#39;opt-in et d’opt-out d&#39;un profil {#managing-opt-in-and-opt-out-from-a-profile}
 
 Les utilisateurs peuvent être inscrits ou désinscrits par un opérateur, directement depuis l&#39;onglet **[!UICONTROL Général]** du profil.
 
-In the **[!UICONTROL No longer contact (on block list)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
+Dans la section **[!UICONTROL Ne plus contacter (en liste bloquée)]**, les cases à cocher sélectionnées correspondent aux canaux desquels l’utilisateur a décidé de se désinscrire. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
 
 ![](assets/optin_landingpage_3.png)
 
-## Configuration des landing pages d&#39;inscription et de désinscription  {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuration des landing pages d&#39;opt-in et d’opt-out  {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Pour que les utilisateurs puissent s&#39;inscrire ou se désinscrire, vous devez créer et publier une landing page **[!UICONTROL Acquisition de profils]**. Ils seront ensuite en mesure de choisir les canaux en fonction de leurs besoins. Pour ce faire, suivez les étapes ci-après.
 
-You can also set up a **[!UICONTROL Block List]** landing page that will enable users to opt out from all deliveries. Pour plus d&#39;informations, consultez [Configuration d&#39;une landing page pour désactiver toutes les diffusions](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+Vous pouvez également configurer une landing page **[!UICONTROL Liste bloquée]** qui permettra aux utilisateurs de se désinscrire de toutes les diffusions. Pour plus d&#39;informations, consultez [Configuration d&#39;une landing page pour désactiver toutes les diffusions](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ You can also set up a **[!UICONTROL Block List]** landing page that will enable 
 
 ### Configuration d&#39;une landing page pour désactiver toutes les diffusions {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL Block list]** landing page. Pour plus d&#39;informations sur la création de landing pages, consultez [cette page](../../channels/using/getting-started-with-landing-pages.md).
+Pour que les utilisateurs puissent s’inscrire ou se désinscrire de toutes les diffusions, vous devez créer et publier une landing page **[!UICONTROL Liste bloquée]**. Pour plus d&#39;informations sur la création de landing pages, consultez [cette page](../../channels/using/getting-started-with-landing-pages.md).
 
 Lorsqu&#39;un utilisateur clique sur le lien de la landing page, l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** du profil est automatiquement sélectionnée.
 
