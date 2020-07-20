@@ -1,6 +1,6 @@
 ---
 title: Utilisation du créateur de segments
-description: Découvrez comment utiliser le créateur de segments pour créer des audiences.
+description: Découvrez comment utiliser le créateur de segments afin de créer des audiences.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -12,26 +12,26 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# Utilisation du créateur de segments {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-The Segment Builder allows you to build audiences by defining rules based on data coming from the [Real-time Customer Profile](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
+Le créateur de segments vous permet de créer des audiences en définissant des règles basées sur les données provenant du [profil client en temps réel](https://docs.adobe.com/content/help/fr-FR/experience-platform/profile/home.html).
 
-Cette section présente les concepts globaux lors de la création d’un segment. For detailed information on the Segment Builder itself, refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
+Cette section présente les concepts globaux lors de la création d’un segment. Pour plus d’informations sur le créateur de segments, consultez [le guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
 
-L’interface du créateur de segments est composée comme suit :
+L’interface du créateur de segments se compose comme suit :
 
 * Le volet de gauche fournit tous les attributs, événements et audiences disponibles pour créer le segment en faisant glisser les champs de votre choix dans l’espace de travail du créateur de segments.
 * La zone centrale fournit un espace de travail pour créer le segment en définissant et en combinant des règles à partir des champs disponibles.
@@ -43,7 +43,7 @@ L’interface du créateur de segments est composée comme suit :
 
 Pour créer un segment, procédez comme suit :
 
-Le créateur de segments doit désormais s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
+Le créateur de segments doit maintenant s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
 
 1. Nommez le segment, puis entrez une description (facultatif).
 
@@ -87,7 +87,7 @@ Les champs sont organisés en onglets :
 >
 >Consultez à ce sujet la [documentation dédiée](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/multi-entity-segmentation.html).
 
-Par défaut, le Créateur de segments affiche les champs dans lesquels des données sont déjà présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma XDM complet]** à partir des paramètres.
+Par défaut, le créateur de segments affiche les champs dans lesquels des données sont déjà présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma XDM complet]** à partir des paramètres.
 
 ![](assets/aep_audiences_populatedfields.png)
 
