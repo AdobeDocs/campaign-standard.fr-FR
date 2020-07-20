@@ -11,13 +11,16 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
 
-# Administration de votre instance
+# Administrer votre instance
 
 <table>
 <tr>
@@ -36,9 +39,9 @@ source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
 </tr>
 <tr>
 <td>Modèle de données Campaign</td>
-<td>Utilisation des API REST</td>
-<td>Gestion des utilisateurs</td>
-<td>Configuration et surveillance de votre instance</td>
+<td>Utiliser des API REST</td>
+<td>Gérer les utilisateurs</td>
+<td>Configurer et surveiller votre instance</td>
 </tr>
 </table>
 
@@ -46,40 +49,40 @@ source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
 * xxxx
 * xxxx
 
-## Utilisation des API REST
+## Utiliser des API REST
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
 * xxxx
 * xxxx
 
-## Gestion des utilisateurs
+## Gérer les utilisateurs
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
 * xxxx
 * xxxx
 
-## Configuration et surveillance de votre instance
+## Configurer et surveiller votre instance
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
 **En savoir plus**
 
