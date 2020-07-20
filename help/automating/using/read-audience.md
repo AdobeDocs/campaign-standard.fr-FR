@@ -12,11 +12,11 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ L&#39;activité **[!UICONTROL Lecture d&#39;audience]** est une version simplifi
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Union sur deux audiences raffinées](../../automating/using/union-on-two-refined-audiences.md)
-* [Cas d’utilisation : Rapprocher une audience de fichiers de la base de données](../../automating/using/reconcile-file-audience-with-database.md)
+* [Cas pratique : union sur deux audiences affinées](../../automating/using/union-on-two-refined-audiences.md)
+* [Cas pratique : réconcilier une audience de type fichier avec la base de données](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
