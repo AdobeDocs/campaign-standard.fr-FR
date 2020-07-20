@@ -12,11 +12,11 @@ discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ Il est ainsi conseillé de faire en sorte qu&#39;une déduplication ne possède 
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Identification des duplicata avant une diffusion](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Cas d’utilisation : Déduplication des données à partir d’un fichier importé](../../automating/using/deduplicating-data-imported-file.md)
+* [Cas pratique : identifier des doublons avant une diffusion](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Cas pratique : dédupliquer les données d’un fichier importé](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configuration {#configuration}
 
