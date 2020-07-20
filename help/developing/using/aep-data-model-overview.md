@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+workflow-type: ht
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,7 @@ L’espace de travail XDM permet d’afficher, de créer et d’étendre des sch
 
 Pour accéder à l’interface utilisateur XDM, ouvrez Adobe Experience Platform. Accédez à la fenêtre Modèle de données pour créer ou étendre un schéma XDM.
 
-Consultez la [documentation complète sur l’espace de travail XDM](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Consultez la [documentation complète sur l’espace de travail XDM](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +51,4 @@ Vous pouvez effectuer les actions suivantes via l’API de schéma XDM :
 * afficher des descripteurs de schéma ;
 * créer, mettre à jour et supprimer des descripteurs de schéma.
 
-Tous les détails relatifs à la manipulation des appels d’API sont disponibles dans le [Guide du développeur](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Tous les détails relatifs à la manipulation des appels d’API sont disponibles dans le [Guide du développeur](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
