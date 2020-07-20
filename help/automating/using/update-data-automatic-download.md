@@ -1,5 +1,5 @@
 ---
-title: Mise à jour des données en fonction d’un téléchargement automatique de fichiers
+title: Mise à jour des données à l’aide d’un téléchargement automatique de fichier
 description: 'L''exemple suivant montre le résultat d''une activité de chargement d''un fichier automatiquement téléchargé via une activité de transfert, suivie d''une mise à jour de données. '
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
@@ -12,16 +12,16 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# Mise à jour des données en fonction d’un téléchargement automatique de fichiers {#updating-data-automatic-file-download}
+# Mise à jour des données à l’aide d’un téléchargement automatique de fichier{#updating-data-automatic-file-download}
 
 L&#39;activité de chargement de fichier sert essentiellement à structurer des données issues d&#39;une activité de transfert de fichier en vue de les intégrer à des données existantes.
 
@@ -29,7 +29,7 @@ L&#39;exemple suivant montre le résultat d&#39;une activité de chargement d&#3
 
 ![](assets/load_file_workflow_ex1.png)
 
-Pour créer le processus, procédez comme suit :
+Pour créer le workflow, procédez comme suit :
 
 1. Placez une activité [Transfert de fichier](../../automating/using/transfer-file.md) dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
