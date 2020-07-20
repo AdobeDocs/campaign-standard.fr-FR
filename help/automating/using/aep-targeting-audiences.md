@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 >
 >Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-Once you have created an [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md) using the Segment Builder, you can use it in the same way as you would for a Campaign audience within workflows to personalize and send messages.
+Une fois l’[audience Adobe Experience Platform](../../audiences/using/aep-about-audience-destinations-service.md) créée à l’aide du créateur de segments, vous pouvez l’utiliser de la même manière qu’une audience Campaign dans les workflows pour personnaliser et envoyer des messages.
 
 Pour activer une audience Adobe Experience Platform dans vos workflows, procédez comme suit :
 
@@ -38,7 +38,7 @@ Pour activer une audience Adobe Experience Platform dans vos workflows, procé
 
 1. (Facultatif) Une fois l’audience sélectionnée, vous pouvez cliquer sur le bouton en forme d’œil pour vérifier et/ou éditer la définition du segment (veillez à enregistrer à nouveau les modifications).
 
-   En cliquant sur le bouton d’oeil, vous accédez simplement au créateur de segments (dans un autre onglet) associé à l’audience sélectionnée dans Campaign.
+   En cliquant sur le bouton en forme d’œil, vous accédez simplement au créateur de segments (dans un autre onglet) associé à l’audience sélectionnée dans Campaign.
 
 1. Sélectionnez un élément **[!UICONTROL Mapping de données Platform]** pour spécifier la dimension de ciblage souhaitée pour l’audience Adobe Experience Platform sélectionnée.
 
