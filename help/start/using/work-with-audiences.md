@@ -11,11 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 96%
     </td>
 </tr>
 <tr>
-<td>profils du client</td>
-<td>Enrichir votre base de données</td>
-<td>Organiser vos audiences</td>
+<td>Profils client</td>
+<td>Enrichissement de votre base de données</td>
+<td>Organisation de vos audiences</td>
 <td>Gestion de la confidentialité</td>
 </tr>
 </table>
 
-## profils du client {#customer-profiles}
+## Profils client {#customer-profiles}
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
@@ -54,9 +54,9 @@ Les profils Adobe Campaign représentent l&#39;ensemble des contacts stockés da
 **En savoir plus**
 
 * [A propos des profils](../../audiences/using/about-profiles.md)
-* [Accès au nombre de Profils actifs dans votre organisation](../../audiences/using/active-profiles.md)
+* [Accès au nombre de profils actifs dans votre organisation](../../audiences/using/active-profiles.md)
 
-## Enrichir votre base de données {#populating-database}
+## Enrichissement de votre base de données {#populating-database}
 
 <img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
 
