@@ -1,6 +1,6 @@
 ---
-title: Association de diffusions de messagerie électronique et de messagerie directe
-description: Ce cas d’utilisation présente un exemple d’envoi de courrier électronique et de courrier électronique direct à partir d’un processus.
+title: Diffusions conjointes d’emails et de courriers
+description: Ce cas pratique présente un exemple d’envoi d’emails et de courriers à l’aide d’un workflow.
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-# Association de diffusions de messagerie électronique et de messagerie directe {#coupling-email-direct-mail}
+# Diffusions conjointes d’emails et de courriers {#coupling-email-direct-mail}
 
 En tant que marketeur, vous souhaitez envoyer un catalogue papier par courrier. Celui-ci contient des remises de 10 % sur certaines pages qui sont associées à un code de promotion et un lien pour acheter le produit sur le site Web.
 
@@ -37,5 +37,5 @@ Voici un exemple de workflow qui mélange les canaux Courrier et Email.
 
 **Rubriques connexes :**
 
-* [activité diffusion Courrier](../../automating/using/direct-mail-delivery.md)
+* [Activité de diffusion courrier](../../automating/using/direct-mail-delivery.md)
 * [A propos du canal Courrier](../../channels/using/about-direct-mail.md)
