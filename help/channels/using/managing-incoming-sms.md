@@ -12,11 +12,11 @@ discoiquuid: ee1970e6-1ced-46e0-94e6-8337768300ee
 delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour ce faire :
    * L&#39;action **[!UICONTROL Supprimer de la quarantaine]** retire de la quarantaine le numéro de téléphone du profil.
    * L&#39;action **[!UICONTROL Aucune]** permet d&#39;envoyer uniquement le message aux destinataires sans effectuer d&#39;action.
 
-   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On block list]** status. Cet état se rapporte uniquement au numéro de téléphone, le profil n’est pas ajouté à la liste bloquée pour que l’utilisateur continue à recevoir des messages électroniques.
+   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé « STOP », ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL En liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n’est pas mis en liste bloquée afin que l’utilisateur puisse continuer à recevoir des emails.
 
    ![](assets/sms_mo.png)
 
@@ -66,7 +66,7 @@ Les destinataires peuvent maintenant être automatiquement désabonnés de vos m
 
 Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
-## Stocker les SMS entrants  {#storing-incoming-sms}
+## Stocker les SMS entrants   {#storing-incoming-sms}
 
 Dans le compte externe **[!UICONTROL Routage des SMS par SMPP]**, vous pouvez choisir de stocker les messages entrants, par exemple lorsqu&#39;un abonné répond &quot;STOP&quot; à un message SMS afin d&#39;être retiré de la liste des destinataires.
 
