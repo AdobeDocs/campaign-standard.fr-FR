@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 La mise en service et la configuration d&#39;Audience Manager et de People core dans Adobe Campaign se fait en deux étapes : l&#39;[envoi d&#39;une demande à Adobe](#submitting-request-to-adobe), puis la [configuration de l&#39;intégration dans Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Envoi d&#39;une demande à Adobe   {#submitting-request-to-adobe}
+## Envoi d&#39;une demande à Adobe    {#submitting-request-to-adobe}
 
 L&#39;intégration d&#39;Audience Manager ou de People core service permet d&#39;importer et exporter des audiences ou des segments dans Adobe Campaign.
 
@@ -63,7 +63,7 @@ Cette intégration doit d’abord être configurée. Pour demander la mise en se
  </tbody> 
 </table>
 
-## Configuration de l&#39;intégration dans Adobe Campaign   {#configuring-the-integration-in-adobe-campaign}
+## Configuration de l&#39;intégration dans Adobe Campaign    {#configuring-the-integration-in-adobe-campaign}
 
 Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
@@ -72,7 +72,7 @@ Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et 
 * [Étape 3 : Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
 * [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign    {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign     {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Il nous faut tout d&#39;abord configurer ou vérifier les comptes externes dans Adobe Campaign Ces comptes doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
@@ -89,7 +89,7 @@ Pour ce faire :
 
 Vos comptes externes sont à présent configurés pour cette intégration.
 
-### Étape 2 : Configuration des sources de données   {#step-2--configure-the-data-sources}
+### Étape 2 : Configuration des sources de données    {#step-2--configure-the-data-sources}
 
 Les deux sources de données suivantes ont été créées dans Audience Manager : Adobe Campaign (MID) et Adobe Campaign (DeclaredId). En même temps, ces deux sources de données sont disponibles dans Adobe Campaign :
 
@@ -125,7 +125,7 @@ Pour créer la source de données **[!UICONTROL ID déclaré]** :
 >
 >Le champ **[!UICONTROL AAM Destination ID]** n&#39;est pas obligatoire si vous configurez la data source partagée pour l&#39;[intégration des Triggers Campaign](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL La priorité]** n&#39;est nécessaire que lors de la configuration de l&#39;intégration des Triggers Campaign. La priorité détermine quelle source de données sera configurée en premier. Il peut s&#39;agit d&#39;un nombre tel que 1 ou 100. Plus la priorité est élevée, plus la préférence est importante lors de la réconciliation.
 
-### Étape 3 : Configuration du serveur de tracking Campaign   {#step-3--configure-campaign-tracking-server}
+### Étape 3 : Configuration du serveur de tracking Campaign    {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l&#39;intégration avec People Core service ou Audience Manager, il faut également configurer le serveur de tracking Campaign.
 
@@ -133,6 +133,6 @@ Ici, vous devez vérifier que le serveur de tracking Campaign est enregistré su
 
 ### Étape 4 : Configuration du service d&#39;identification des visiteurs {#step-4--configure-the-visitor-id-service}
 
-Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
+Si le service d&#39;identification des visiteurs (Visitor ID) n&#39;a jamais été configuré dans vos propriétés/sites web, reportez-vous à ce [document](https://docs.adobe.com/content/help/fr-FR/id-service/using/implementation/setup-aam-analytics.html) ou cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour découvrir comment configurer ce service.
 
 La configuration et la mise en service sont terminées. L&#39;intégration peut être maintenant utilisée pour importer et exporter des audiences ou des segments.
