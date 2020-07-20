@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+workflow-type: ht
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 >
 >Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-Une fois la définition du mapping terminée, vous pouvez le publier. Après l’étape de déploiement, la réplication des données entre Campaign Standard et Adobe Experience Platform démarre automatiquement. At any time, you can stop the replication by clicking on the **[!UICONTROL Stop]** button.
+Une fois la définition du mapping terminée, vous pouvez le publier. Après l’étape de déploiement, la réplication des données entre Campaign Standard et Adobe Experience Platform démarre automatiquement. Vous pouvez arrêter la réplication à tout moment en cliquant sur le bouton **[!UICONTROL Arrêter]**.
 
 Selon les modifications apportées au mapping, vous pouvez choisir de renvoyer tous vos enregistrements vers Adobe Experience Platform.
 
@@ -33,17 +36,17 @@ Dans la vignette de déploiement, vous pouvez accéder aux logs de publication e
 
 ![](assets/aep_publog.png)
 
-In the **[!UICONTROL Export jobs]** tab, you can monitor the export job for the published mapping.
+Dans l’onglet **[!UICONTROL Traitements d’exportation]**, vous pouvez surveiller le traitement d’export pour le mapping publié.
 
 ![](assets/aep_jobstatus.png)
 
-Si vous souhaitez surveiller toutes les tâches d’exportation de données, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+Si vous souhaitez surveiller tous les traitements d’export de données, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Statut de l’export des données vers Platform.]**
 
 ![](assets/aep_statusmapping.png)
 
 Statuts du traitement d’ingestion des données :
 
-* **[!UICONTROL Created]**: Une tâche d&#39;assimilation de données est créée et l&#39;assimilation de données est en cours.
-* **[!UICONTROL Failed]**: Échec d&#39;une tâche d&#39;assimilation de données. Le champ Raison décrit la cause de l’échec. Il peut être temporaire ou permanent. En cas d’échec temporaire, un nouveau traitement d’ingestion est créé après un intervalle configuré. Dans un premier temps, l’utilisateur peut vérifier la raison de l’échec pour résoudre le problème. Si la raison le renvoie vers l’interface utilisateur d’Adobe Experience Platform, il peut se connecter à cette plateforme et vérifier l’état du lot du jeu de données pour déterminer le motif exact de l’échec.
-* **[!UICONTROL Uploaded]**: Un lot est d’abord créé dans Adobe Experience Platform et les données sont ensuite assimilées au lot. Le champ ID de lot indique l’identifiant du lot dans Adobe Experience Platform. Adobe Experience Platform effectue également une post-validation du lot. Ce lot est d’abord marqué comme transféré jusqu’à ce qu’Adobe Experience Platform ait effectué l’étape de post-validation. Un traitement continue d’interroger Adobe Experience Platform pour connaître l’état du lot après transfert. Dans Adobe Experience Platform, un lot peut se trouver dans l’état Échec ou Succès après validation.
-* **[!UICONTROL Success]**: Une fois qu’un lot est téléchargé sur Adobe Experience Platform, l’état de la tâche (après validation dans la plateforme) est vérifié après un intervalle configuré. Un état « Succès » indique une ingestion réussie des données dans Adobe Experience Platform.
+* **[!UICONTROL Créé]** : un traitement d’ingestion des données est créé et l’ingestion des données est en cours.
+* **[!UICONTROL Échec]** : un traitement d’ingestion des données a échoué. Le champ Raison décrit la cause de l’échec. Il peut être temporaire ou permanent. En cas d’échec temporaire, un nouveau traitement d’ingestion est créé après un intervalle configuré. Dans un premier temps, l’utilisateur peut vérifier la raison de l’échec pour résoudre le problème. Si la raison le renvoie vers l’interface utilisateur d’Adobe Experience Platform, il peut se connecter à cette plateforme et vérifier l’état du lot du jeu de données pour déterminer le motif exact de l’échec.
+* **[!UICONTROL Transfert terminé]** : un lot est tout d’abord créé dans Adobe Experience Platform, puis les données sont ingérées dans le lot. Le champ ID de lot indique l’identifiant du lot dans Adobe Experience Platform. Adobe Experience Platform effectue également une post-validation du lot. Ce lot est d’abord marqué comme transféré jusqu’à ce qu’Adobe Experience Platform ait effectué l’étape de post-validation. Un traitement continue d’interroger Adobe Experience Platform pour connaître l’état du lot après transfert. Dans Adobe Experience Platform, un lot peut se trouver dans l’état Échec ou Succès après validation.
+* **[!UICONTROL Succès]** : une fois un lot transféré vers Adobe Experience Platform, l’état du traitement (post-validation sur la plateforme) est vérifié après un intervalle configuré. Un état « Succès » indique une ingestion réussie des données dans Adobe Experience Platform.
