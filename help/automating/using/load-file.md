@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1503'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,10 +44,10 @@ Vous pouvez ainsi :
 
 **Rubriques connexes :**
 
-* [Cas d’utilisation : Mise à jour de la base de données avec des données externes](../../automating/using/update-database-file.md)
-* [Cas d’utilisation : Mise à jour des données en fonction d’un téléchargement automatique de fichiers](../../automating/using/update-data-automatic-download.md)
-* [Cas d’utilisation : Envoi d’un courriel contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
-* [Cas d’utilisation : Rapprocher une audience de fichiers de la base de données](../../automating/using/reconcile-file-audience-with-database.md)
+* [Cas pratique : mise à jour de la base de données avec des données externes](../../automating/using/update-database-file.md)
+* [Cas pratique : mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
+* [Cas pratique : envoi d’un email contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
+* [Cas pratique : réconcilier une audience de type fichier avec la base de données](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -106,7 +106,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l&#39;option **[!UICONTROL Décompression]** au niveau du champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
 
-   Le champ **[!UICONTROL Ajouter une étape]** de prétraitement vous permet également de déchiffrer un fichier avant de l’importer dans la base de données. Pour plus d’informations sur la façon de travailler avec des fichiers chiffrés, reportez-vous à [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de pré-traitement]** permet également de décrypter un fichier avant de l’importer dans la base de données. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. L&#39;option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s&#39;étant produites lors de l&#39;import et de l&#39;appliquer à une étape de post-traitement. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
 
@@ -120,7 +120,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/monitoring-workflow-execution.md)..
 
-## Format des colonnes   {#column-format}
+## Format des colonnes    {#column-format}
 
 Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
 
