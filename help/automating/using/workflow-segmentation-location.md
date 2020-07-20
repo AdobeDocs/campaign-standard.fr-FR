@@ -1,6 +1,6 @@
 ---
-title: Segmentation à l’emplacement"
-description: Ce cas d’utilisation montre comment effectuer une segmentation à l’emplacement.
+title: Segmentation en fonction de la localisation
+description: Ce cas pratique montre comment effectuer une segmentation en fonction de la localisation.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -12,16 +12,16 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
-# Segmentation à l’emplacement {#segmentation-on-location}
+# Segmentation en fonction de la localisation {#segmentation-on-location}
 
 Vous pouvez envoyer un email de ciblage aux clients avec des offres dans leurs magasins locaux.
 
@@ -53,7 +53,7 @@ Remarque : pour atteindre toutes les personnes qui ont entré paris, quelle que
 
 ## Créer une diffusion email{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity after each segment.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d’une activité [Diffusion Email](../../automating/using/email-delivery.md) après chaque segment.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email simple]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
