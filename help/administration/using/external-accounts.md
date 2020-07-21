@@ -12,9 +12,9 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: ht
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+workflow-type: tm+mt
 source-wordcount: '1617'
 ht-degree: 100%
 
@@ -133,7 +133,9 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple :
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
