@@ -1,6 +1,6 @@
 ---
-title: Gestion des accès
-description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des groupes et des entités organisationnelles.
+title: FAQ sur la synchronisation avec le lancement du processus technique
+description: Questions courantes à propos du processus technique de lancement.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 4%
+source-wordcount: '536'
+ht-degree: 6%
 
 ---
 
 
-# FAQ sur le processus technique SyncWithLaunch {#syncwithlaunch-faq}
+# FAQ sur la synchronisation avec le lancement du processus technique {#syncwithlaunch-faq}
 
-The **[!UICONTROL Sync with Launch]** workflow enables automatic importing of all Adobe Launch mobile properties into Adobe Campaign Standard.
+Vous pouvez importer les propriétés de lancement mobile Adobe dans l’Adobe Campaign Standard par le biais du processus technique dédié **[!UICONTROL Synchroniser avec le lancement]** . Pour plus d&#39;informations, consultez cette [page](../../administration/using/technical-workflows.md)
 
-Pour plus d’informations à ce sujet, consultez [cette page](../../administration/using/technical-workflows.md).
+La section ci-dessous liste les questions courantes sur cette synchronisation.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ For more information on organizational unit, refer to this [page](../../administ
 
 ## Comment vérifier si la synchronisation entre l&#39;Adobe Campaign et le lancement est terminée ? {#sync-campaign-launch}
 
-1. Dans Adobe Campaign Standard, dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > Paramètres **[!UICONTROL de l’]** application > **[!UICONTROL Workflows]**.
+1. Dans le menu avancé d’Adobe Campaign Standard, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l’application]** > **[!UICONTROL Workflows]**.
 
 1. Ouvrez le processus **[!UICONTROL syncWithLaunch]** .
 
@@ -86,7 +86,7 @@ For more information on organizational unit, refer to this [page](../../administ
 
 Vous pouvez exécuter immédiatement le processus :
 
-1. Dans Adobe Campaign Standard, dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > Paramètres **[!UICONTROL de l’]** application > **[!UICONTROL Workflows]**.
+1. Dans le menu avancé d’Adobe Campaign Standard, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l’application]** > **[!UICONTROL Workflows]**.
 
 1. Ouvrez le processus **[!UICONTROL syncWithLaunch]** .
 
