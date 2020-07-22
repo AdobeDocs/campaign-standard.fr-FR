@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '834'
+ht-degree: 75%
 
 ---
 
@@ -26,8 +26,10 @@ ht-degree: 100%
 ## À propos du suivi des notifications push {#about-push-tracking}
 
 Pour vérifier que la notification push a été entièrement développée, vous devez vous assurer que la partie « suivi » a été correctement mise en œuvre.
+Cela suppose que vous avez déjà mis en oeuvre les premières parties de l’implémentation des notifications Push :
 
-Les étapes ci-après vous permettent de vous assurer que le suivi des notifications push a été correctement mis en œuvre. Cela suppose que vous avez déjà mis en place les premières parties de la mise en œuvre des notification push : enregistrement de l’utilisateur de l’application et gestion d’un message de notification push.
+* Enregistrement de l’utilisateur de l’application
+* Gestion d’un message de notification Push
 
 Le suivi push est divisé en trois types :
 
@@ -37,7 +39,7 @@ Le suivi push est divisé en trois types :
 
 * **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
-Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services.
+Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services. Pour plus d&#39;informations à ce sujet, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
 Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
 
@@ -51,7 +53,7 @@ Pour envoyer des informations de suivi, trois variables doivent être envoyées.
 
 ### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-android}
 
-Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l’action lors de l’appel de la fonction trackAction().
+For impression tracking, you will have to send value &quot;7&quot; for action when calling **[!UICONTROL trackAction()]** function.
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-android}
 
-Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel de la fonction trackAction().
+For click tracking, you will have to send value &quot;2&quot; for action when calling **[!UICONTROL trackAction()]** function.
 
 Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
@@ -82,7 +84,7 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 Pour ce faire, vous devez utiliser deux intentions : une pour le fait de cliquer sur la notification et une autre pour le fait de fermer la notification.
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Pour que le BroadcastReceiver fonctionne, vous devez l’enregistrer dans le fichier AndroidManifest.xml.
+In order for the **[!UICONTROL BroadcastReceiver]** to work you need to register it to the **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ Vous devez envoyer « 1 » et « 2 », car l’utilisateur doit cliquer sur 
 
 Pour effectuer le suivi des ouvertures, vous devez créer une intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées (dans le cas présent, cliquer sur la notification pour ouvrir l’application).
 
-Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’intention est définie, vous devez renvoyer les informations de suivi à Campaign. Dans le cas présent, vous devez définir l’intention d’ouverture pour une ouverture dans une certaine vue de votre application. La méthode onResume sera alors appelée AVEC les données de notification dans l’objet d’intention.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. With **[!UICONTROL Intent]** set, you now need to send tracking info back to Adobe Campaign Standard. In this case, you need to set the **[!UICONTROL Open Intent]** to open to a certain view in your app, this will call the onResume method with the notification data in the **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-iOS}
 
-Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l’action lors de l’appel de la fonction trackAction().
+For impression tracking, you will have to send value &quot;7&quot; for action when calling **[!UICONTROL trackAction()]** function.
 
 Pour comprendre le fonctionnement des notifications iOS, les trois états d’une application doivent être présentés :
 
@@ -204,7 +206,7 @@ Pour comprendre le fonctionnement des notifications iOS, les trois états d’u
 
 Si une application est fermée, Apple ne l’appellera pas tant qu’elle n’aura pas été relancée. Vous ne pourrez donc pas savoir quand la notification a été reçue sur iOS.
 
-Pour que le suivi des impressions fonctionne toujours lorsque l’application est en arrière-plan, il faut envoyer **Contenu disponible** pour informer l’application qu’un suivi doit être effectué.
+In order to still have **[!UICONTROL Impression]** tracking working while the app is in the background we need to send **[!UICONTROL Content-Available]** to let the app know a tracking has to be done.
 
 >[!CAUTION]
 >
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-iOS}
 
-Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel de la fonction trackAction().
+For click tracking, you will have to send value &quot;2&quot; for action when calling **[!UICONTROL trackAction()]** function.
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ Désormais, lorsque vous envoyez des notifications push, vous devez ajouter une 
 
 ![](assets/tracking_push.png)
 
-Ensuite, pour gérer l’abandon et envoyer des informations de suivi, vous devez ajouter les éléments suivants :
+Then to handle the **[!UICONTROL Dismiss]** and send a tracking info you need to add the following:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
