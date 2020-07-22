@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1758'
 ht-degree: 94%
 
 ---
@@ -66,7 +66,7 @@ Les garde-fous suivants s&#39;appliquent à cette activité :
 
 >[!NOTE]
 >
->A compter de la version Campaign 20.4, la taille limite des données de réponse http et les garde-fous seront réduits à 5 Mo et 1 minute.  Bien que cette modification n&#39;affecte que les nouvelles activités d&#39;API externe, il est recommandé que les mises en oeuvre actuelles de l&#39;activité d&#39;API externe s&#39;alignent sur ces nouvelles garde-fous pour suivre les meilleures pratiques.
+>A compter de la version Campaign 20.4, la limite de taille des données de réponse http et les garde-fous de délai d’expiration de réponse seront abaissés à 5 Mo et 1 minute, respectivement.  Bien que cette modification n&#39;affecte que les nouvelles activités d&#39;API externe, il est fortement recommandé que les mises en oeuvre actuelles de l&#39;activité d&#39;API externe s&#39;alignent sur ces nouvelles garde-fous pour suivre les meilleures pratiques.
 
 Des garde-fous spécifiques ont été mis en place pour le JSON :
 
