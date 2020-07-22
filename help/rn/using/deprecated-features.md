@@ -11,10 +11,10 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
-workflow-type: ht
-source-wordcount: '589'
+translation-type: tm+mt
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
+workflow-type: tm+mt
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
   <p> 
-  <em>Version de suppression prévue : version Campaign 20.4</em></p>
+  <em>Date de suppression prévue : 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
    <p>Lisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
   <p> 
-  <em>Version de suppression prévue : 2021</em></p>
+  <em>Date de suppression prévue : 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
