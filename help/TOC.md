@@ -4,10 +4,10 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 98%
+source-wordcount: '1550'
+ht-degree: 97%
 
 ---
 
@@ -404,11 +404,11 @@ ht-degree: 98%
       + [Configuration des messages transactionnels](administration/using/configuring-transactional-messaging.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi Push](administration/using/push-tracking.md)
-      + [Affichage d’une image à partir d’une notification Push Adobe Campaign Standard](administration/using/image-push-notification.md)
-      + [Présentation de la sutrcture de la payload des notifications Push Campaign Standard](administration/using/push-payload.md)
+      + [Ajoute d’images et de vidéos iOS](administration/using/image-push-notification.md)
+      + [Présentation de la structure de charge utile des notifications Push](administration/using/push-payload.md)
       + [Implémentation du tracking des notifications locales](administration/using/local-tracking.md)
       + [FAQ sur le processus technique SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience Platform SDK et intégration des Adobes Campaign FAQ](administration/using/aep-faq.md)
+      + [Commencer avec le SDK Adobe Experience Platform et Campaign](administration/using/aep-faq.md)
    + Paramétrage de l’application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
