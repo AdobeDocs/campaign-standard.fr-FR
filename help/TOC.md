@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d'Adobe Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
    + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
       + [Les processus d’inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d’inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [Identification des profils exclus pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
    + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [À propos du service Audience Destinations](audiences/using/aep-about-audience-destinations-service.md)
       + [Gestion des audiences Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
@@ -140,7 +140,7 @@ ht-degree: 97%
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
       + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md).
       + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
-      + [E-mails optimisés par IA](sending/using/predictive.md)
+      + [Emails optimisés par l’IA](sending/using/predictive.md)
       + [Rendu des emails](sending/using/email-rendering.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
    + Planification de l’envoi des messages {#scheduling-messages}
@@ -314,7 +314,7 @@ ht-degree: 97%
          + [Association de diffusions courrier et email](automating/using/coupling-email-direct-mail.md)
          + [Envoi d’un email contenant des champs enrichis](automating/using/sending-email-enriched-fields.md)
          + [Personnalisation d’un email avec des données additionnelles](automating/using/personalizing-email-with-additional-data.md)
-         + [Envoi d’une notification Push périodique](automating/using/recurring-push-notifications.md)
+         + [Envoi d’une notification push récurrente](automating/using/recurring-push-notifications.md)
       + Segmentation et ciblage {#segmentation-targeting}
          + [Exemples de requêtes ](automating/using/query-samples.md)
          + [Union sur deux audiences affinées](automating/using/union-on-two-refined-audiences.md)
@@ -404,11 +404,11 @@ ht-degree: 97%
       + [Configuration des messages transactionnels](administration/using/configuring-transactional-messaging.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi Push](administration/using/push-tracking.md)
-      + [Ajoute d’images et de vidéos iOS](administration/using/image-push-notification.md)
-      + [Présentation de la structure de charge utile des notifications Push](administration/using/push-payload.md)
+      + [Ajout d’images et de vidéos iOS](administration/using/image-push-notification.md)
+      + [Présentation de la structure de la payload des notifications push ](administration/using/push-payload.md)
       + [Implémentation du tracking des notifications locales](administration/using/local-tracking.md)
-      + [FAQ sur le processus technique SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
-      + [Commencer avec le SDK Adobe Experience Platform et Campaign](administration/using/aep-faq.md)
+      + [FAQ sur le workflow technique SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
+      + [Prise en main du SDK Adobe Experience Platform et Campaign](administration/using/aep-faq.md)
    + Paramétrage de l’application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
