@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 91%
 <td> <p>La loi thaïlandaise sur la protection des données personnelles (PDPA) est la nouvelle loi sur la protection de la vie privée qui harmonise et modernise les exigences en matière de protection des données de la Thaïlande. Ce règlement s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans ce pays.</p>
 <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous profitons de l’occasion pour inclure d’autres fonctionnalités afin de faciliter votre préparation au PDPA :</p>
 <ul>
-<li>Droit d'accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-<li><p>Lors de la création d’une demande d'accès à des informations personnelles, le type de réglementation PDPA a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d'accès et de suppression. L'utilisation de l'API et de l'interface de Campaign pour les demandes d'accès et de suppression est obsolète.  Consultez l'article <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+<li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
+<li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation PDPA a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a>.</p></li>
 </ul>
 <p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
 </td> 
@@ -65,16 +65,16 @@ ht-degree: 91%
 <li>sélectionner et utiliser un objet de tableau à partir d’un JSON sans avoir à nommer l’objet « data » ou le mettre au niveau supérieur.</li>
 </ul>
 <p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
-<p>Pour plus d'informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-**Autres fonctionnalités** (à partir du 13 juillet)
+**Fonctionnalités additionnelles** (à partir du 13 juillet)
 
-* **Optimisation du temps d&#39;envoi et score** de profil optimisés par l&#39;IA - Vous pouvez désormais optimiser la conception et la diffusion des voyages des clients afin de prédire les préférences d&#39;engagement de chaque individu. Optimisé par l&#39;IA de parcours, l&#39;Adobe Campaign peut analyser et prédire les taux ouverts, les temps d&#39;envoi optimaux et le déclenchement probable en fonction des mesures d&#39;engagement historiques. [En savoir plus](../../sending/using/predictive.md)
-* **La nouvelle réglementation** brésilienne sur la protection des renseignements personnels - En plus des capacités de protection des renseignements personnels déjà disponibles à Campaign, Adobe vous aide à vous préparer à l’utilisation de Lei Geral de Proteçao de Datos (LGPD) au Brésil. Lors de la création d’une demande de confidentialité, la réglementation LGPD a été ajoutée au service principal de confidentialité Adobe. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
+* **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA de parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
+* **Nouvelle réglementation brésilienne sur la protection des informations personnelles** : en plus des fonctionnalités de protection des informations personnelles déjà disponibles dans Campaign, Adobe vous aide à vous préparer au LGDP (Lei Geral de Proteçao de Datos) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
 
