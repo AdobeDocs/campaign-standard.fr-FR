@@ -11,9 +11,9 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
 ht-degree: 100%
 
