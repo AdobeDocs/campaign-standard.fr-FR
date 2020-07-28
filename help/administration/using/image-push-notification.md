@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 83%
+source-wordcount: '440'
+ht-degree: 85%
 
 ---
 
 
-# Ajoute d’images et de vidéos iOS {#image-push}
+# Ajout d’images et de vidéos iOS {#image-push}
 
 >[!NOTE]
 >
@@ -64,9 +64,9 @@ Après avoir personnalisé votre notification push dans Adobe Campaign, vous dev
 
 If your app is in [!DNL Swift], follow the steps below:
 
-1. Ouvrez votre projet Xcode [] DNL.
+1. Open your [!DNL Xcode] project.
 
-1. In your [DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. In your [!DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Select **[!UICONTROL Notification Service Extension]**.
 
