@@ -138,7 +138,7 @@ ht-degree: 100%
       + [Aperçu des diffusions](sending/using/previewing-messages.md)
       + [Préparer l’envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
-      + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md).
+      + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md)
       + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
       + [Emails optimisés par l’IA](sending/using/predictive.md)
       + [Rendu des emails](sending/using/email-rendering.md)
