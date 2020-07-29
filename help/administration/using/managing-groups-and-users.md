@@ -12,8 +12,11 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+translation-type: tm+mt
+source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +53,7 @@ Si vous souhaitez restreindre les accès d&#39;un utilisateur, ne l&#39;ajoutez 
 >
 >Dans la console d&#39;administration, les groupes de sécurité sont appelés profils.
 
-Vous pouvez créer vos propres groupes de sécurité si les groupes d&#39;usine ne suffisent pas pour gérer vos utilisateurs. Ils peuvent être gérés par les administrateurs ayant accès aux menus d&#39;administration d&#39;Adobe Campaign et à la console d&#39;administration. Pour plus d&#39;informations sur la console d&#39;administration, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
+Vous pouvez créer vos propres groupes de sécurité si les groupes d&#39;usine ne suffisent pas pour gérer vos utilisateurs. Ils peuvent être gérés par les administrateurs ayant accès aux menus d&#39;administration d&#39;Adobe Campaign et à la console d&#39;administration. Pour plus d’informations sur Admin Console, consultez cette [documentation](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html).
 
 Il nous faut tout d&#39;abord assigner les deux groupes d&#39;usine Utilisateurs standard et Administrateurs à nos utilisateurs. Ces groupes de sécurité limitent certaines fonctionnalités d&#39;Adobe Campaign : l&#39;Utilisateur standard dispose d&#39;un accès simple à Adobe Campaign, tandis que l&#39;Administrateur peut accéder aux menus d&#39;administration, par exemple.
 
@@ -129,6 +132,10 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
    L&#39;identifiant doit être identique à celui choisi dans la console d&#39;administration.
 
 1. Dans le champ **[!UICONTROL Accès des utilisateurs]**, assignez l&#39;entité organisationnelle. Le groupe de sécurité Geometrixx est ici assigné à l&#39;entité **[!UICONTROL Toute]**.
+
+   >[!NOTE]
+   >
+   >Si vous affectez un groupe de sécurité prêt à l&#39;emploi à vos utilisateurs, vous devez réinitialiser l&#39;unité organisationnelle.
 
    ![](assets/manage_security_group_6.png)
 
