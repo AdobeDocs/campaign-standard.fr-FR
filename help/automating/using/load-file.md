@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: ht
-source-wordcount: '1503'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+workflow-type: tm+mt
+source-wordcount: '1526'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,13 @@ ht-degree: 100%
 
 ## Description {#description}
 
+>[!CAUTION]
+>
+>Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de données et du profil actif, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
+
 ![](assets/data_loading.png)
 
-L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les données d&#39;un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
+L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
 ## Contexte d’utilisation {#context-of-use}
 
