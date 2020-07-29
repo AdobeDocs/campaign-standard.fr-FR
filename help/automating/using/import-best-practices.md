@@ -11,16 +11,20 @@ topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 96%
 
 ---
 
 
 # Bonnes pratiques d’import {#import-best-practices}
+
+>[!CAUTION]
+>
+>Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de données et du profil actif, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
