@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 100%
 
 ---
 
@@ -57,6 +60,7 @@ Pour envoyer des bons à tirer, procédez comme suit :
    * **[!UICONTROL Rendu des emails]** : sélectionnez cette option pour tester la réception de votre message en fonction des boîtes de messagerie ciblées. Pour plus d’informations, voir [Rendu des emails](../../sending/using/email-rendering.md).
    * **[!UICONTROL Bon à tirer]** : sélectionnez cette option pour tester le message avant son envoi à la cible principale. Les destinataires du BAT sont chargés de la validation de la diffusion, tant sur son contenu que sur sa forme.
    * **[!UICONTROL Bon à tirer + Rendu des emails]** : cette option regroupe les deux options précédentes.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -105,7 +109,7 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 **Rubrique connexe :**
 
 * Vidéo [Envoyer un test, préparer un email et l’envoyer](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
-* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md).
+* [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
+* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Configuration du canal Email](../../administration/using/configuring-email-channel.md)
