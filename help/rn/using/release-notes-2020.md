@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1831'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Correction de problèmes de performances possibles lors de la sélection et de la mise à jour des profils de test. (CAMP-37976)
 * Correction d’un problème qui entraînait l’affichage de pages d’erreur lors d’un abonnement ou d’un désabonnement via les landing pages. (CAMP-37771)
 * Correction d’un problème qui se produisait lors du téléchargement de contenu au format zip, comportant des fichiers PNG référencés dans le code HTML avec des extensions en majuscules. (CAMP-37913)
-* Correction d’un problème qui empêchait l’envoi de messages In-app lors de l’ajout d’un profil de test à la diffusion.
+* Correction d’un problème qui empêchait l’envoi de messages in-app lors de l’ajout d’un profil de test à la diffusion.
 * Correction d’une erreur liée à l’activité de workflow API externe qui échouait lorsqu’elle était liée à des activités d’enrichissement.
 * Correction d’un problème susceptible d’entraîner l’affichage incorrect de l’état des messages SMS.
 * Correction d’un problème lié aux ressources personnalisées qui entraînait l’apparition d’entrées en double pour différents points d’entrée d’API.
