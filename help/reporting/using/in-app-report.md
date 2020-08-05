@@ -1,6 +1,6 @@
 ---
 title: Rapport In-App
-description: Grâce au rapport d'usine In-App, découvrez les performances de vos messages In-App.
+description: Grâce au rapport intégré prêt à l’emploi, découvrez le succès de vos messages intégrés.
 page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
@@ -11,8 +11,11 @@ topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 95%
 
 ---
 
@@ -29,13 +32,13 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 
 ![](assets/inapp_report.png)
 
-Le premier tableau **Résumé de l'engagement In-App** (In-App Engagement Summary) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
+Le premier tableau **Résumé de l&#39;engagement In-App** (In-App Engagement Summary) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
 
-* **[!UICONTROL Traités/Envoyés]** : nombre total d'envois pour la diffusion In-App.
+* **[!UICONTROL Traités/Envoyés]** : nombre total d&#39;envois pour la diffusion In-App.
 * **[!UICONTROL Délivrés]** : nombre de messages In-App envoyés avec succès, par rapport au nombre total de messages envoyés.
 * **[!UICONTROL Impressions]** : nombre total de messages In-App vus par les destinataires selon que le critère de déclenchement a été rempli ou non.
-* **[!UICONTROL Impressions uniques]** : nombre d'impressions par destinataire.
-* **[!UICONTROL Taux de clics In-App]** : pourcentage d'utilisateurs ayant cliqué sur le bouton 1 ou le bouton 2 par rapport au nombre d'utilisateurs ayant vu le message.
+* **[!UICONTROL Impressions uniques]** : nombre d&#39;impressions par destinataire.
+* **[!UICONTROL Taux de clics In-App]** : pourcentage d&#39;utilisateurs ayant cliqué sur le bouton 1 ou le bouton 2 par rapport au nombre d&#39;utilisateurs ayant vu le message.
 * **[!UICONTROL Taux de rejet In-App]** : pourcentage de messages In-App ignorés par les destinataires.
 
 ![](assets/inapp_report_1.png)
@@ -44,6 +47,6 @@ Le deuxième tableau **Clics et rejets In-App** (In-App Clicks &amp; Dismissals)
 
 * **[!UICONTROL Clics In-App]** : nombre total de destinataires ayant cliqué sur le bouton 1 ou le bouton 2.
 * **[!UICONTROL Clics In-App uniques]** : nombre de fois où les destinataires ont cliqué sur le bouton 1 ou le bouton 2.
-* **[!UICONTROL Rejet In-App]** : nombre total de messages que les destinataires ont ignoré en cliquant sur le bouton de fermeture ou en l'ignorant automatiquement.
+* **[!UICONTROL Rejet In-App]** : nombre total de messages que les destinataires ont ignoré en cliquant sur le bouton de fermeture ou en l&#39;ignorant automatiquement.
 * **[!UICONTROL Rejet In-App unique]** : nombre de fois où les destinataires ont ignoré un message In-App.
 
