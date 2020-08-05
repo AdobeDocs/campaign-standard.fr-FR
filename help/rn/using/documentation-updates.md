@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '6120'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -472,7 +472,7 @@ Améliorations de la Messagerie In-App (version bêta) – [En savoir plus](..
 
 Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d’email et l’obsolescence de l’éditeur de contenu d’email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Mise à jour de la documentation [In-app](../../channels/using/about-in-app-messaging.md) et [Notification push](../../channels/using/about-push-notifications.md).
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Ajout d’informations supplémentaires sur les différents types d’audiences dans Adobe Campaign – [En savoir plus](../../audiences/using/about-audiences.md)
 
