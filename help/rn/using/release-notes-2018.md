@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> Messagerie in-app (version bêta)<br /> </td> 
-   <td> La messagerie in-app permet d'interagir plus efficacement avec les utilisateurs d'application mobile en offrant une interaction contextuelle et en permettant d'atteindre les utilisateurs susceptibles de ne pas s'être abonnés aux notifications push. Utilisez la messagerie in-app avec les notifications push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
+   <td> La messagerie in-app permet d'interagir plus efficacement avec les utilisateurs d'application mobile en offrant une interaction contextuelle et en permettant d'atteindre les utilisateurs susceptibles de ne pas s'être abonnés aux notifications push. Utilisez la messagerie in-app en tandem avec les notifications Push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration d'Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
