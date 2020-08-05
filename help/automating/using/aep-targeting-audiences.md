@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -62,9 +62,9 @@ Vous pouvez maintenant configurer le workflow avec d’autres activités. Vous p
 
 >[!NOTE]
 >
->Campaign Standard permet de cibler les audiences Adobe Experience Platform dans tous les canaux de diffusion : emails, SMS, courrier, notifications push et messages In-app.
+>Campaign Standard vous permet de cible des audiences Adobe Experience Platform dans tous les canaux de diffusion : Courriers électroniques, messages SMS, messages de Courrier, notifications Push et messages in-app.
 >
->*Remarque : pour tous les messages push et In-app, Campaign Standard ne prend en charge les diffusions que pour les profils connus.
+>*Note : Pour tous les messages push et in-app, le Campaign Standard ne prend en charge que les diffusions pour les profils connus.
 
 Pour plus d’informations sur l’utilisation des workflows et des diffusions, reportez-vous aux sections suivantes :
 
