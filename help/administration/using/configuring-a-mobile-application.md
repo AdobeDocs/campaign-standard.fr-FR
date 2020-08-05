@@ -12,10 +12,10 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7755877031c5ef2dbbac395ac40b2f76670a6499
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -138,13 +138,13 @@ Dans certains cas, le point d’entrée Campaign d’une application mobile peut
 
 ## Configuration d’une application spécifique à un canal dans Adobe Campaign {#channel-specific-config}
 
-Votre application mobile est maintenant prête à être utilisée dans Campaign pour les notifications push ou les diffusions in-app. Vous pouvez à présent la configurer davantage pour créer des événements qui déclencheront vos messages in-app et/ou téléchargeront les certificats push.
+Votre application mobile est maintenant prête à être utilisée dans Campaign pour la notification Push ou les diffusions In-App. Vous pouvez désormais le configurer davantage si nécessaire pour créer des événements qui déclencheront vos messages In-App et/ou téléchargeront des certificats Push.
 
 1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
 1. Sélectionnez l’application mobile créée et configurée dans Experience Platform Launch.
 
-1. Dans l’onglet **[!UICONTROL Propriétés de l’application mobile]**, vous pouvez commencer à ajouter les événements disponibles dans l’application mobile pour les messages In-App.
+1. On the **[!UICONTROL Mobile application properties]** tab, you can start adding events that are available in your mobile application for your In-App messages.
 
 1. Pour configurer vos événements, cliquez sur **[!UICONTROL Créer un élément]**.
 
@@ -156,7 +156,7 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
-   Votre événement est maintenant disponible dans l’onglet Triggers lors de la création d’un message In-App. Pour plus d’informations, voir la section [Préparation et envoi d’un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md).
+   Votre événement est désormais disponible dans l’onglet Déclencheurs lorsque vous créez un message intégré. Pour plus d’informations, voir la section [Préparation et envoi d’un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
 1. Dans la section **[!UICONTROL Paramètres spécifiques à l&#39;appareil]** du tableau de bord d&#39;une application mobile, pour chaque type d&#39;appareil, fournissez les détails de l&#39;application, y compris le certificat pour iOS et la clé du serveur pour Android.
 
