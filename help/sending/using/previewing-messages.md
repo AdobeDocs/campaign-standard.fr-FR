@@ -11,8 +11,11 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 92bbf57f1a6eff67d2551dc83dd8cb5f6b38bd99
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 98%
 
 ---
 
@@ -125,7 +128,7 @@ Pour prévisualiser un message In-App à l&#39;aide de profils de test, procéde
 
    ![](assets/in_app_preview.png)
 
-1. Pour prévisualiser votre message In-App à l’aide de profils de test, cliquez sur **[!UICONTROL Aperçu]**.
+1. To preview your In-App message using test profiles, click **[!UICONTROL Preview]**.
 
    ![](assets/in_app_preview_2.png)
 
