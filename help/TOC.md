@@ -3,9 +3,9 @@ product: adobe campaign
 sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
-translation-type: ht
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 100%
 
@@ -136,13 +136,13 @@ ht-degree: 100%
    + [Prise en main des tests et de l’envoi](sending/using/get-started-sending-messages.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
       + [Aperçu des diffusions](sending/using/previewing-messages.md)
-      + [Préparer l’envoi](sending/using/preparing-the-send.md)
       + [Envoyer un bon à tirer](sending/using/sending-proofs.md)
       + [Test des emails à l’aide des profils ciblés](sending/using/testing-messages-using-target.md)
       + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
       + [Emails optimisés par l’IA](sending/using/predictive.md)
       + [Rendu des emails](sending/using/email-rendering.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
+      + [Préparer l’envoi](sending/using/preparing-the-send.md)
    + Planification de l’envoi des messages {#scheduling-messages}
       + [A propos de la planification des messages](sending/using/about-scheduling-messages.md)
       + [Optimiser l’heure d’envoi](sending/using/optimizing-the-sending-time.md)
