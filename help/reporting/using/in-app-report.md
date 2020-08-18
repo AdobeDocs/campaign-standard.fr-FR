@@ -1,6 +1,6 @@
 ---
 title: Rapport In-App
-description: Grâce au rapport intégré prêt à l’emploi, découvrez le succès de vos messages intégrés.
+description: Grâce au rapport d'usine In-App, découvrez les performances de vos messages In-App.
 page-status-flag: never-activated
 uuid: 802dc606-a314-46dd-b361-b746b0772303
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
