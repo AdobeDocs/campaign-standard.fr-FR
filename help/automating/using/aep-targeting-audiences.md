@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -42,11 +42,11 @@ Pour activer une audience Adobe Experience Platform dans vos workflows, procé
 
 1. Sélectionnez un élément **[!UICONTROL Mapping de données Platform]** pour spécifier la dimension de ciblage souhaitée pour l’audience Adobe Experience Platform sélectionnée.
 
-   Par défaut, la clé primaire (par exemple, iRecipientID pour la table Profil, iAppSubscriptionID pour la table AppSubscription) utilisée pour la réconciliation sera automatiquement disponible dans la liste déroulante. Pour effectuer un ciblage en dehors de la clé primaire, vous devez créer un **espace de nommage** personnalisé.
+   Par défaut, la clé primaire (par exemple, iRecipientID pour la table Profil, iAppSubscriptionID pour la table AppSubscription) utilisée pour la réconciliation sera automatiquement disponible dans la liste déroulante. Pour effectuer un ciblage en dehors de la clé primaire, vous devez créer un **espace de noms** personnalisé.
 
    >[!NOTE]
    >
-   >Pour les cibles en dehors de la clé primaire, vous devez également créer un mapping de ciblage personnalisé correspondant à l’espace de nommage personnalisé. Pour plus d’informations sur le mapping de ciblage, consultez [cette section](../../administration/using/target-mappings-in-campaign.md).
+   >Pour les cibles en dehors de la clé primaire, vous devez également créer un mapping de ciblage personnalisé correspondant à l’espace de noms personnalisé. Pour plus d’informations sur le mapping de ciblage, consultez [cette section](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
@@ -62,9 +62,9 @@ Vous pouvez maintenant configurer le workflow avec d’autres activités. Vous p
 
 >[!NOTE]
 >
->Campaign Standard vous permet de cible des audiences Adobe Experience Platform dans tous les canaux de diffusion : Courriers électroniques, messages SMS, messages de Courrier, notifications Push et messages in-app.
+>Campaign Standard permet de cibler les audiences Adobe Experience Platform dans tous les canaux de diffusion : emails, SMS, courrier, notifications push et messages In-App.
 >
->*Note : Pour tous les messages push et in-app, le Campaign Standard ne prend en charge que les diffusions pour les profils connus.
+>*Remarque : pour tous les messages push et In-App, Campaign Standard ne prend en charge les diffusions que pour les profils connus.
 
 Pour plus d’informations sur l’utilisation des workflows et des diffusions, reportez-vous aux sections suivantes :
 
