@@ -11,11 +11,11 @@ topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Cette ressource peut être étendue pour collecter les données que vous avez l&
 
 1. Dans la catégorie **[!UICONTROL Lien vers les profils]**, configurez la clé de réconciliation utilisée pour lier les profils de la base de données Adobe Campaign aux abonnés de vos applications (l&#39;email, par exemple).
 
-   Notez que pour vos messages In-App, vous ne pouvez définir qu’une seule clé de réconciliation pour toutes vos applications mobiles.
+   Pour les messages In-App, vous ne pouvez définir qu&#39;une seule clé de réconciliation pour l&#39;ensemble de vos applications mobiles.
 
    ![](assets/in_app_personal_data_3.png)
 
