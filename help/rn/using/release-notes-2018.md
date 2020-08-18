@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
  <tbody> 
   <tr> 
    <td> Messagerie in-app (version bêta)<br /> </td> 
-   <td> La messagerie in-app permet d'interagir plus efficacement avec les utilisateurs d'application mobile en offrant une interaction contextuelle et en permettant d'atteindre les utilisateurs susceptibles de ne pas s'être abonnés aux notifications push. Utilisez la messagerie in-app en tandem avec les notifications Push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
+   <td> La messagerie in-app permet d'interagir plus efficacement avec les utilisateurs d'application mobile en offrant une interaction contextuelle et en permettant d'atteindre les utilisateurs susceptibles de ne pas s'être abonnés aux notifications push. Utilisez la messagerie In-App avec les notifications push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d'informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration d'Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
@@ -93,7 +93,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;un problème qui empêchait l&#39;affichage des erreurs à l&#39;origine de l&#39;échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d&#39;une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018     {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018      {#release-18-7---july-2018}
 
 **Nouveautés**
 
@@ -266,13 +266,13 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d&#39;un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l&#39;objet d&#39;un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018     {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018      {#release-18-4---april-2018}
 
 **Correctifs**
 
 _Plate-forme_
 
-* Corrections d&#39;une erreur qui pouvait empêcher le bon traitement des demandes d&#39;accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l&#39;un des caractères suivants : &amp; &lt;> &quot; &#39;.
+* Corrections d&#39;une erreur qui pouvait empêcher le bon traitement des demandes d&#39;accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l&#39;un des caractères suivants : &amp; &lt; > &quot; &#39;.
 
 _Emails, SMS et courrier_
 
@@ -292,7 +292,7 @@ _Ressources personnalisées_
 
 * Correction d&#39;une erreur qui entraînait l&#39;échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018     {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018      {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -382,7 +382,7 @@ _Messages transactionnels_
 * Correction d&#39;une erreur liée au modèle de message transactionnel lors de l&#39;extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018     {#release-18-2---february-2018}
+## Version 18.2 - Février 2018      {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -446,7 +446,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l&#39;utilisation des liens d&#39;aide contextuelle dans l&#39;interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018     {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018      {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités**
 
