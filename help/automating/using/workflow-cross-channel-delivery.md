@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 98%
 
 ---
 
@@ -138,7 +138,7 @@ Pour créer une diffusion email :
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre email, sélectionnez **[!UICONTROL Utiliser le concepteur d&#39;email]**.
 1. Editez et enregistrez votre contenu.
-1. Dans la section **[!UICONTROL Planning]** du tableau de bord des messages, désélectionnez l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages}** .
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 Pour créer une diffusion SMS :
 
