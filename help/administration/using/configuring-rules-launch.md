@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 9%
+source-wordcount: '1085'
+ht-degree: 10%
 
 ---
 
 
-# Configuration des règles de lancement pour la prise en charge des cas d’utilisation Adobe Campaign Standard {#configuring-rules-launch}
+# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
 
 In [!DNL Adobe Experience Platform Launch], you need to create data elements and rules to send PII and other data from mobile applications to [!DNL Adobe Campaign Standard].
 
@@ -128,15 +128,15 @@ Pour envoyer des données d’identification personnelle à [!DNL Adobe Campaign
 
    Vous pouvez également transmettre des données de cycle de vie dans le postback Collecter les informations d’identification personnelle ou dans un postback différent selon vos déclencheurs de Événement. voici un exemple des données de cycle de vie JSON :
 
-       &quot;
- {     
- &quot;marketingCloudId&quot;:&quot;{%%mcid%%}&quot;,     
-     &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%}&quot;,
-     &quot;cusDaysfirstlaunch&quot; : &quot;{%%DaysSinceFirstUse%}&quot;,
-     &quot;cusLaunches&quot; : &quot;{%%Launches%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    Les éléments de données définis dans [!DNL Experience Platform Launch] doivent être inclus dans des pourcentages de doublon, par exemple %%mcid%%, et les variables contextuelles de l&#39;application doivent être incluses dans des pourcentages uniques, par exemple %contextdata.email%.
 
 1. Dans **[!UICONTROL Type de contenu]**, saisissez **application/json**.
@@ -199,7 +199,7 @@ Pour effectuer le suivi des actions de l’application, utilisez l’API trackAc
 
 1. Dans la liste déroulante **[!UICONTROL Action]** , sélectionnez **[!UICONTROL Action]**, sélectionnez **[!UICONTROL est égal]** et tapez **suivi.**
 
-1. Cliquez sur **[!UICONTROL Conserver les modifications]**. Ensuite, dans la section **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Conserver les modifications]**. Puis, dans la section **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL Ajouter]**.
 
 1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Mobile Core]**. Ensuite, **[!UICONTROL Envoyez un postback]** dans la liste déroulante Type **[!UICONTROL d’]** action.
 
@@ -211,7 +211,7 @@ Pour effectuer le suivi des actions de l’application, utilisez l’API trackAc
 
 1. Cochez la case **[!UICONTROL Ajouter le corps]** de la publication.
 
-1. Ajoutez votre corps de publication, par exemple, { }.
+1. ajoutez votre corps de publication, par exemple, { }.
 
 1. Dans **[!UICONTROL Type de contenu]**, saisissez **application/json**.
 
