@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 100%
 
@@ -214,6 +214,6 @@ ht-degree: 100%
 * Correction d’une erreur lors de diffusions email en masse, qui entraînait l’affichage de l’état des diffusions En attente et de l’état Envoyé comme Terminé. (CAMP-35355)
 * Correction d’une erreur qui affichait incorrectement le domaine de l’expéditeur dans les rapports dynamiques. (CAMP-33123)
 * Correction d’un problème qui entraînait des incohérences dans le nombre de désabonnements dans les rapports dynamiques. (CAMP-39949)
-* Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-app.
+* Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-App.
 * Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de bounces. (CAMP-38395)
 * Correction d’une faille qui permettait aux appels POST des abonnements aux applications de mettre à jour les tokens de notification push. (CAMP-39273)
