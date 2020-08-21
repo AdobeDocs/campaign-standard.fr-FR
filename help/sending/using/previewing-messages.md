@@ -11,9 +11,9 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
@@ -140,6 +140,6 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 **Rubriques connexes :**
 
-* [A propos de la messagerie in-app](../../channels/using/about-in-app-messaging.md)
+* [A propos de la messagerie In-App](../../channels/using/about-in-app-messaging.md)
 * [Préparation et envoi d’un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Personnalisation d’un message in-app](../../channels/using/customizing-an-in-app-message.md)
+* [Personnalisation d&#39;un message In-App](../../channels/using/customizing-an-in-app-message.md)
