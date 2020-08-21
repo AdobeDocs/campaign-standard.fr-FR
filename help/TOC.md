@@ -92,10 +92,10 @@ ht-degree: 100%
       + [Création d’une notification push multilingue](channels/using/creating-a-multilingual-push-notification.md)
       + [Génération d’un fichier CSV pour les notifications push multilingues](channels/using/generating-csv-multilingual-push.md)
       + [Création et mise à jour des informations de profil en fonction des données d’applications mobiles](channels/using/updating-profile-with-mobile-app-data.md)
-   + Messagerie in-app {#in-app-messaging}
-      + [A propos de la messagerie in-app](channels/using/about-in-app-messaging.md)
+   + Messagerie In-App {#in-app-messaging}
+      + [A propos de la messagerie In-App](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d’un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personnalisation d’un message in-app](channels/using/customizing-an-in-app-message.md)
+      + [Personnalisation d&#39;un message In-App](channels/using/customizing-an-in-app-message.md)
    + Canal Courrier {#direct-mail}
       + [A propos du canal Courrier](channels/using/about-direct-mail.md)
       + [Retour à l’expéditeur](channels/using/return-to-sender.md)
