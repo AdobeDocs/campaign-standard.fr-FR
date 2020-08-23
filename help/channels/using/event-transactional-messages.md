@@ -12,10 +12,10 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '2626'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '2625'
 ht-degree: 100%
 
 ---
@@ -92,7 +92,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
 1. Ajoutez un objet et modifiez le contenu de votre message en fonction de vos besoins.
 
-   >[REMARQUE]
+   >[!NOTE]
    >
    >Le lien vers le panier abandonné est un lien vers une URL externe qui redirigera la personne sur son panier. Ce paramétrage n&#39;est pas géré dans Adobe Campaign.
 
