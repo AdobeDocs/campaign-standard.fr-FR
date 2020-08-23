@@ -11,10 +11,10 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
-source-wordcount: '1200'
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 
 1. Vérifiez le groupe de sécurité de l&#39;utilisateur. Vous pouvez constater ici que le groupe de sécurité **[!UICONTROL Administrateurs]** a été attribué à l&#39;utilisateur.
 
-   >[!NRemarque]
+   >[!NOTE]
    >
    >Les groupes de sécurité peuvent uniquement être supprimés ou ajoutés à un utilisateur dans l&#39;Admin Console.
 
