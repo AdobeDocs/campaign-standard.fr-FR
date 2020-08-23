@@ -11,9 +11,9 @@ topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l’interface Campaign Standard, dans le menu **!UICONTROL [Statut de l’export des données vers Platform ]**(voir[Activation du mapping](../../developing/using/aep-mapping-activation.md)).
+Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l’interface Campaign Standard, dans le menu **[!UICONTROL Statut de l’export des données vers Platform]** (voir [ Activation du mapping](../../developing/using/aep-mapping-activation.md)).
 
 L’opération GET renvoie les informations suivantes :
 
