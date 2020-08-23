@@ -12,15 +12,15 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 4%
 
 ---
 
 
-# FAQ sur l’intégration du SDK Experience Platform {#aep-faq}
+# FAQ sur l’intégration du SDK Experience Platform {#aep-faq}
 
 Pour envoyer des notifications Push et des messages In-App avec l’application Experience Platform SDK, une application mobile doit être configurée dans Adobe Experience Platform SDK et configurée dans Adobe Campaign.
 
@@ -51,7 +51,7 @@ Consultez le tableau ci-dessous pour en savoir plus sur ces fonctionnalités.
 
 ![](assets/faq.png)
 
->[!NRemarque]
+>[!NOTE]
 >
 >[!DNL Places] l’intégration inclut des événements comme déclencheurs pour les messages in-app (s/o pour les notifications Push), enrichissant les profils avec [!DNL Places] des données et prenant en charge les notifications locales. Consultez cette [page](../../channels/using/preparing-and-sending-an-in-app-message.md) pour plus d&#39;informations. <br>[!DNL Places] l&#39;intégration limitée comprend l&#39;enrichissement des profils avec [!DNL Places] des données.
 
