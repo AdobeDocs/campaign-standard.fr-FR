@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6120'
-ht-degree: 100%
+source-wordcount: '6147'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
+
+## Mises à jour de la documentation - Août 2020 {#doc-updates-august-2020}
+
+Une nouvelle section mise à jour sur la prise en main de la messagerie transactionnelle est disponible. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
+
+La section Limites de la messagerie transactionnelle a été déplacée. [En savoir plus](../../channels/using/transactional-messaging-limitations.md)
 
 ## Mises à jour de la documentation – Juillet 2020 {#doc-updates-july-2020}
 
@@ -128,7 +134,7 @@ Disponibilité d’une nouvelle section décrivant comment supprimer une configu
 
 Mise à jour de la page décrivant comment tester l’objet d’un email pour prédire son taux d’ouverture, avec ajout d’une section de [dépannage](../../sending/using/testing-subject-line-email.md#troubleshooting) – [En savoir plus](../../sending/using/testing-subject-line-email.md)
 
-Mise à jour des sections sur les messages transactionnels pour prendre en compte les mises à jour et améliorations de l’interface utilisateur – [En savoir plus](../../channels/using/about-transactional-messaging.md)
+Mise à jour des sections sur les messages transactionnels pour prendre en compte les mises à jour et améliorations de l’interface utilisateur – [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
 Mise à jour des informations relatives aux protections pour l’activité API externe – [En savoir plus](../../automating/using/external-api.md)
 
@@ -236,7 +242,7 @@ Mise à jour de la liste des messages d’erreur de Campaign Standard et Campai
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s’agit maintenant d’une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA – [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
-Ajout d’un nouveau graphique présentant le processus de publication des messages transactionnels – [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Ajout d’un nouveau graphique présentant le processus de publication des messages transactionnels – [En savoir plus](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et mis à jour – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Améliorations des workflows – En savoir plus [ici](../../automating/using/w
 
 Ajout au chapitre Editer un contenu d’email de la nouvelle expérience d’intégration pour la création de contenu d’email et d’autres améliorations apportées au Concepteur d’email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Ajout d’une section sur les limites des messages transactionnels – [En savoir plus](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Ajout d’une section sur les limites des messages transactionnels – [En savoir plus](../../channels/using/transactional-messaging-limitations.md)
 
 Ajout d’une section comparant les différentes options de création d’email dans Adobe Campaign – [En savoir plus](../../designing/using/using-integrations.md#email-design-options-comparison)
 
