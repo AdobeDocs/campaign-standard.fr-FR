@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9927fa9402c23766049afac0f3a10d83ed08236d
+source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '732'
 ht-degree: 33%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 33%
 
 <table>
 <tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="90px"></td>
-<td class="noborder"><p>La messagerie transactionnelle vous permet d' <b>envoyer des messages</b> individuels et uniques à vos clients en temps réel.<br>Il peut s'agir de messages de bienvenue, de confirmations d'expédition de commande, de modification de mot de passe, etc.</p></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>La messagerie transactionnelle vous permet d' <b>envoyer des messages</b> individuels et uniques à vos clients en temps réel.</p></td>
+<td class="noborder"><p>Il peut s'agir de messages de bienvenue, de confirmations d'expédition de commande, de modification de mot de passe, etc.</p></td>
 </tr>
 </table>
 
@@ -50,20 +51,28 @@ Les messages transactionnels sont également disponibles depuis l&#39;API Adobe 
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Qu'est-ce qu'un message transactionnel ?</b></p></td>
-<td><p>Il s'agit d'une communication individuelle et unique, envoyée par un fournisseur tel qu'un site Web. Elle est particulièrement attendue, car elle contient des informations importantes que le destinataire souhaite vérifier ou confirmer.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td align="center"><br><p><b>Qu'est-ce qu'un message transactionnel ?</b></p></td>
+<td><p>Il s'agit d'une communication individuelle et unique, envoyée par un fournisseur tel qu'un site Web.</p></td>
+<td><p>Elle est particulièrement attendue, car elle contient des informations importantes que le destinataire souhaite vérifier ou confirmer.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Quand est-ce que ça doit arriver ?</b></p></td>
-<td><p> Ce message contenant des informations importantes, l’utilisateur s’attend à ce qu’il les envoie en temps réel. Par conséquent, le délai entre le déclenchement du événement et l'arrivée du message doit être très court.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
+<td align="center"><p><b>Quand est-ce que ça doit arriver ?</b></p></td>
+<td><p> Ce message contenant des informations importantes, l’utilisateur s’attend à ce qu’il les envoie en temps réel.</p></td>
+<td><p>Par conséquent, le délai entre le déclenchement du événement et l'arrivée du message doit être très court.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Pourquoi est-ce important ?</b></p></td>
-<td><p>En général, un message transactionnel a des tarifs ouverts élevés. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clients. Il définit la relation client.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
+<td align="center"><p><b>Pourquoi est-ce important ?</b></p></td>
+<td><p>En général, un message transactionnel a des tarifs ouverts élevés. Il doit donc être soigneusement conçu.</p></td>
+<td><p>En effet, elle peut avoir un impact important sur le comportement des clients dans la mesure où elle définit la relation client.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Par exemple?</b></td>
-<td><p>Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été livrée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client a consulté votre site Web...</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
+<td align="center"><b>Par exemple?</b></td>
+<td><p>Il peut s'agir d'un message de bienvenue après la création d'un compte, d'une confirmation qu'une commande a été expédiée, d'une facture...</p></td>
+<td><p>Il peut également s’agir d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client a consulté votre site Web...</p></td>
 </tr>
 </table>
 
@@ -71,23 +80,25 @@ Les messages transactionnels sont également disponibles depuis l&#39;API Adobe 
 
 Dans Adobe Campaign, deux types de message transactionnel sont disponibles :
 
-* [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md)**ciblant un événement**.<!--The data contained in the event itself is used to define the delivery target.-->
+<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
-    <td><p><ul><li>Ils ne contiennent pas d'informations sur le profil.</li><li>Elles ne sont pas compatibles avec les règles <a href="../../sending/using/fatigue-rules.md">de</a> fatigue (même dans le cas d'un enrichissement avec profils).</li><li>La cible de diffusion est définie par les données contenues dans le événement lui-même.</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/event-transactional-messages.md">Messages transactionnels basés sur un événement</a><br><b> ciblant un événement</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td><p><ul><li>Ils ne contiennent pas d'informations sur le profil.</li><li>Elles ne sont pas compatibles avec les règles <a href="../../sending/using/fatigue-rules.md">de</a> fatigue (même dans le cas d'un enrichissement avec profils).</li><li>La cible de diffusion est définie par les données contenues dans le événement lui-même.</li></ul></p></td>
+</tr>
+</table>
 
-* [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md)**ciblant des profils de la base de données marketing Adobe Campaign**.<!--You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
+<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-    <td><p>Les messages transactionnels de profil vous permettent de :<ul><li>Appliquez des règles de typologie marketing telles que <b>Adresse en liste bloquée</b> ou <a href="../../sending/using/fatigue-rules.md">Règles de fatigue</a>.</li><li>inclure le lien de désinscription dans les messages ;</li><li>ajouter les messages transactionnels au reporting de diffusion globale ;</li><li>utiliser les messages transactionnels dans le parcours client.</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Messages transactionnels basés sur un profil</a><br><b> ciblant des profils de la base de données marketing Adobe Campaign</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
+<td><p>Les messages transactionnels de profil vous permettent de :<ul><li>Appliquez des règles de typologie marketing telles que <b>Adresse en liste bloquée</b> ou <a href="../../sending/using/fatigue-rules.md">Règles de fatigue</a>.</li><li>inclure le lien de désinscription dans les messages ;</li><li>ajouter les messages transactionnels au reporting de diffusion globale ;</li><li>utiliser les messages transactionnels dans le parcours client.</li></ul></p></td>
+</tr>
+</table>
 
 Le type du message est défini lors de la configuration de l&#39;événement qui sera transformé en message transactionnel. Voir [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md).
 
@@ -107,12 +118,9 @@ Voici les étapes à suivre pour mettre en place ce système.
 
 ### Étape 1 - Création et publication de la configuration du événement {#create-event-configuration}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
-<td class="noborder"><p>Configurez un événement qui sera appelé "abandon de panier" et publiez cette configuration de événement.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+Configurez un événement qui sera appelé &quot;abandon de panier&quot; et publiez cette configuration de événement.
 
 L’API qui sera utilisée par le développeur de votre site Web est déployée et un message transactionnel est automatiquement créé.
 
@@ -120,23 +128,17 @@ La création et la publication d&#39;un événement sont présentées dans la se
 
 ### Étape 2 - Modification et publication du message transactionnel {#create-transactional-message}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Étape 3 - Intégration du déclenchement du événement {#integrate-event-trigger}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
-<td class="noborder"><p>Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
+Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.
 
 Le événement est déclenché lorsqu’un client abandonne son panier.
 
@@ -146,12 +148,9 @@ Pour plus d’informations sur l’intégration du événement dans votre site W
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_notification.svg" width="60px"></td>
-<td class="noborder"><p><br>Dès qu'un utilisateur quitte le site sans commander les produits dans son panier, il reçoit automatiquement un courrier électronique de notification.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+
+Dès qu&#39;un utilisateur quitte le site sans commander les produits dans son panier, il reçoit automatiquement un courrier électronique de notification.
 
 ## Principales étapes {#key-steps}
 
