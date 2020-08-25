@@ -12,8 +12,11 @@ discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,7 @@ Une diffusion d&#39;exécution est un message technique non fonctionnel et non e
 
 * Par défaut, une fois par mois pour les messages transactionnels et chaque fois qu&#39;un message transactionnel est édité et republié.
 
-   Pour plus d&#39;informations sur les messages transactionnels, voir [A propos des messages transactionnels](../../channels/using/about-transactional-messaging.md).
+   Pour plus d&#39;informations sur les messages transactionnels, voir [A propos des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
