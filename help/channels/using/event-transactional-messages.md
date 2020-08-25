@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2625'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Vous pouvez envoyer des messages transactionnels d&#39;événement ciblant un événement. Ce type de message transactionnel ne contient pas d&#39;informations de profil : la cible de la diffusion est définie par les données contenues dans l&#39;événement lui-même.
 
-Une fois que vous avez créé et publié l&#39;événement de votre choix (l&#39;abandon de panier, comme expliqué dans [cette section](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), le message transactionnel correspondant est automatiquement créé.
+Une fois que vous avez créé et publié l&#39;événement de votre choix (l&#39;abandon de panier, comme expliqué dans [cette section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), le message transactionnel correspondant est automatiquement créé.
 
 Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message transactionnel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
