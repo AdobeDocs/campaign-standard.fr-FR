@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '7633'
 ht-degree: 100%
 
@@ -359,7 +359,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Le processus des messages transactionnels a été optimisé pour pouvoir lancer en parallèle plusieurs analyses d’un même message.
 * Correction d’un problème qui pouvait entraîner une incohérence du débit et de la latence pour les notifications push transactionnelles.
 * Correction d’un problème qui affichait une audience cible incorrecte pour les diffusions d’exécution de messages transactionnels.
-* Correction d’un problème qui se produisait lors de l’import d’un package avec une configuration d’événement et le message transactionnel associé. Consultez à ce sujet la [documentation détaillée](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
+* Correction d’un problème qui se produisait lors de l’import d’un package avec une configuration d’événement et le message transactionnel associé. Consultez à ce sujet la [documentation détaillée](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Correction d’un problème qui supprimait les données de collecte des profils de test créés pour un message transactionnel contenant des listes de produits.
 
 **Autres changements**
@@ -565,7 +565,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 **Améliorations**
 
-* Une nouvelle option de l’activité de chargement de données permet désormais d’appliquer une étape de post-traitement au fichier contenant les enregistrements rejetés (ex. compression au format zip). (CAMP-24521)
+* Une nouvelle option de l’activité de chargement de données permet désormais d’appliquer une étape de post-traitement au fichier contenant les enregistrements rejetés (ex. compression au format zip) – (CAMP-24521)
 * Une nouvelle option de l’activité Mise à jour de données vous permet maintenant de configurer la taille maximale des mises à jour pour les données à télécharger. (CAMP-28400)
 * Amélioration de la sélection de l’état des adresses des profils Lors de la sélection d’un pays, la liste déroulante &quot;Etat&quot; est maintenant automatiquement mise à jour avec les valeurs d’état correspondantes. (CAMP-28874)
 * Une nouvelle option de l’activité Extraction de fichier empêche désormais la génération d’un fichier si la transition entrante est vide. Ainsi, des fichiers vides ne sont pas créés et téléchargés sur les serveurs SFTP.
