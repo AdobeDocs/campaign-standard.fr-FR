@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Lors de la définition de l’audience d’un message :
 
 Le message est envoyé à la cible principale et au profil de test.
 
-Vous pouvez utiliser des pièges lors de l’envoi de messages transactionnels. Dans ce cas, le profil de test recevra un message par configuration d’événement. Pour plus d’informations sur les messages transactionnels, voir cette [section](../../channels/using/about-transactional-messaging.md).
+Vous pouvez utiliser des pièges lors de l’envoi de messages transactionnels. Dans ce cas, le profil de test recevra un message par configuration d’événement. Pour plus d’informations sur les messages transactionnels, voir cette [section](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
