@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 >
 >Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;assistance client Adobe.
 >
->Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 Les marques figurent dans **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage des marques]**.
 
