@@ -11,9 +11,9 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ L’icône **[!UICONTROL Plans Marketing]** permet d’accéder aux fonctionnali
 * **[!UICONTROL Activités marketing]** - voir à ce propos la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * **[!UICONTROL Programmes et Campagnes]** - voir à ce propos la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * **[!UICONTROL Planning]** - voir à ce propos la section [Planning](../../start/using/timeline.md).
-* **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus **[!UICONTROL Diffusions]** et **[!UICONTROL Configuration des événements]** - voir à ce propos la section [Messages transactionnels](../../channels/using/about-transactional-messaging.md).
+* **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus **[!UICONTROL Diffusions]** et **[!UICONTROL Configuration des événements]** - voir à ce propos la section [Messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Profils &amp; audiences {#profiles-e-audiences}
 
