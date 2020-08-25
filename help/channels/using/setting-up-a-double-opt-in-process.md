@@ -11,9 +11,9 @@ topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Les étapes de création de ces éléments sont décrites ci-dessous. Vous devez
 
 ### Création de l&#39;événement    {#create-the-event}
 
-L&#39;email de confirmation est un [message transactionnel](../../channels/using/about-transactional-messaging.md) car il réagit à un événement : la validation du formulaire. Vous devez commencer par créer l&#39;événement et ensuite le modèle du message transactionnel.
+L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : la validation du formulaire. Vous devez commencer par créer l&#39;événement et ensuite le modèle du message transactionnel.
 
 1. Créez un événement, à partir du menu **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**, accessible par le biais du logo Adobe Campaign, et saisissez le libellé **CONFIRMER**.
 1. Sélectionnez la dimension de ciblage **[!UICONTROL Profil]** et cliquez sur **[!UICONTROL Créer]**.
