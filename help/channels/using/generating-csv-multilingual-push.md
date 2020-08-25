@@ -11,8 +11,11 @@ topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+translation-type: tm+mt
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1141'
+ht-degree: 99%
 
 ---
 
@@ -45,7 +48,7 @@ Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est
 Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger un fichier d’exemple]** dans la fenêtre **[!UICONTROL Gérer les variantes de contenu]**. Voir à ce propos cette [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deeplinkURI, catégorie, iosMediaAttachmentURL, androidMediaAttachmentURL** : contenu de payload push normal. Vous devez fournir ces informations de la même manière que lors de la création de diffusions push.
-* **Champs personnalisés** :  utilisez le format JSON pour les champs personnalisés, par exemple « {&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;} ». Pour obtenir un exemple de champs personnalisés, reportez-vous au fichier d’exemple ci-dessus.
+* **Champs** personnalisés :  utilisez le format JSON pour les champs personnalisés, par ex. `{"key1":"value1","key2":"value2"}`. Pour obtenir un exemple de champs personnalisés, reportez-vous au fichier d’exemple ci-dessus.
 * **isContentAvailable** : drapeau pour la vérification de Contenu disponible, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 * **isMutableContent** : drapeau pour le Contenu mutable, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 * **locale** : le paramètre régional est le champ des variantes de langue, par ex. « en_us » pour l’anglais américain et « fr_fr » pour le français de France.
