@@ -11,9 +11,9 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profils<br /> </td> 
+   <td> Profil<br /> </td> 
    <td> Regroupe les champs de paramètres d'usine et de profil personnalisé créés lors de l'extension de la ressource de profil. Pour plus d'informations, consultez cette <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> ou cet <a href="../../reporting/using/creating-a-custom-profile-dimension.md">exemple</a>.<br /> Notez que les données de cette dimension sont récupérées dès la publication de la ressource personnalisée liée au champ de profil.<br /> </td> 
   </tr> 
   <tr> 
