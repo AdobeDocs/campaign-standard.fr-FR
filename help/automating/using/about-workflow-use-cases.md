@@ -12,17 +12,17 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
 # À propos des cas pratiques de workflows {#about-workflow-use-cases}
 
-Dans cette section, vous trouverez divers cas d&#39;utilisation qui exploitent les capacités des Workflows de campagne.
+Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
 
 Vous pourrez ainsi découvrir les différents contextes d’utilisation des workflows pour répondre à vos besoins.
 
