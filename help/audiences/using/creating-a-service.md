@@ -13,7 +13,10 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -24,19 +27,19 @@ Pour pouvoir gérer les inscriptions, vous devez d&#39;abord créer un service e
 
 Pour configurer un service :
 
-1. Depuis le menu avancé **[!UICONTROL Profils &amp; audiences]**>**[!UICONTROL  Services]**, accessible via le logo Adobe Campaign, ajoutez un nouveau service ou sélectionnez le service existant de votre choix. Si vous créez un nouveau service, suivez simplement les étapes affichées à l&#39;écran.
+1. Depuis le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]**, accessible via le logo Adobe Campaign, ajoutez un nouveau service ou sélectionnez le service existant de votre choix. Si vous créez un nouveau service, suivez simplement les étapes affichées à l&#39;écran.
 
    Un modèle de service est disponible par défaut. Ce modèle est pré-paramétré avec des landing pages et des emails de confirmation par défaut. Vous pouvez créer d&#39;autres modèles afin de spécifier des paramètres spécifiques. Voir à ce propos la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
 
-1. Dans la section **[!UICONTROL Propriétés du service]**, accessible via le bouton![](assets/edit_darkgrey-24px.png)du tableau de bord du service, paramétrez les messages de confirmation pour l&#39;inscription et la désinscription.
+1. Dans la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service, paramétrez les messages de confirmation pour l&#39;inscription et la désinscription.
 
    ![](assets/lp_service_parameters.png)
 
-1. Sélectionnez l’option **[!UICONTROL Abonnements avec une date]**d’expiration pour définir la durée de validité de l’abonnement.
+1. Sélectionnez l’option **[!UICONTROL Abonnements avec une date]** d’expiration pour définir une durée de validité pour l’abonnement.
 
    ![](assets/lp_service_expiration.png)
 
-   Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour cibler les profils abonnés à un service qui n’a pas expiré.
+   Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour les profils de cible abonnés à un service qui n’a pas expiré.
 
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
 
@@ -47,9 +50,9 @@ Pour configurer un service :
 
       >[!NOTE]
       >
-      >Vous pouvez modifier un message par défaut en cliquant sur son libellé dans la section **[!UICONTROL Propriétés du service]**ou en le sélectionnant dans la liste des messages transactionnels Adobe Campaign, après avoir coché la case**[!UICONTROL  Afficher les messages transactionnels internes]**.
+      >Vous pouvez modifier un message par défaut en cliquant sur son libellé dans la section **[!UICONTROL Propriétés du service]** ou en le sélectionnant dans la liste des messages transactionnels Adobe Campaign, après avoir coché la case **[!UICONTROL Afficher les messages transactionnels internes]**.
 
-   * **[!UICONTROL Message personnalisé]** : ce mode vous permet de gérer des messages de confirmation personnalisés, spécifiques à chaque service. Vous pouvez ensuite sélectionner la**[!UICONTROL  Configuration d&#39;événement d&#39;abonnement personnalisé]** qui est associée à un modèle de [message transactionnel](../../channels/using/about-transactional-messaging.md) spécifique. Pour plus d&#39;informations, voir [Confirmation de l&#39;abonnement à un service](../../audiences/using/confirming-subscription-to-a-service.md).
+   * **[!UICONTROL Message personnalisé]** : ce mode vous permet de gérer des messages de confirmation personnalisés, spécifiques à chaque service. Vous pouvez ensuite sélectionner la **[!UICONTROL Configuration d&#39;événement d&#39;abonnement personnalisé]** qui est associée à un modèle de [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) spécifique. Pour plus d&#39;informations, voir [Confirmation de l&#39;abonnement à un service](../../audiences/using/confirming-subscription-to-a-service.md).
 
 1. Enregistrez le service. Il est alors prêt à être utilisé.
 
