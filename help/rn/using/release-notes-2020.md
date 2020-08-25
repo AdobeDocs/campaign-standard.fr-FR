@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 100%
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 **Améliorations**
 
-* L’expérience client de la messagerie transactionnelle a été améliorée et la cohérence de l’interface également. [En savoir plus](../../channels/using/about-transactional-messaging.md)
+* L’expérience client de la messagerie transactionnelle a été améliorée et la cohérence de l’interface également. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard permet maintenant d’envoyer des bons à tirer à des profils de test avec des données additionnelles provenant des workflows.
 * Les protections pour l’activité API externe ont été mises à jour. [En savoir plus](../../automating/using/external-api.md)
 
