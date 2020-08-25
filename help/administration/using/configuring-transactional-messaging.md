@@ -11,8 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '3166'
+ht-degree: 98%
 
 ---
 
@@ -27,13 +30,17 @@ La configuration des événements doit être effectuée par un [administrateur](
 >
 >La configuration peut varier selon le type de message transactionnel que vous souhaitez envoyer. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
-Une fois l’événement publié, le message transactionnel correspondant est automatiquement créé. Pour plus d’informations sur les messages transactionnels, consultez [cette page](../../channels/using/about-transactional-messaging.md).
+Une fois le événement publié :
+
+* L’API qui sera utilisée par le développeur de votre site Web est déployée et les événements transactionnels peuvent maintenant être envoyés. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
+
+* Le message transactionnel correspondant est automatiquement créé. Voir [Prise en main de la messagerie](../../channels/using/getting-started-with-transactional-msg.md)transactionnelle.
 
 ## Créer un événement   {#creating-an-event}
 
 Pour commencer, créez l’événement correspondant à vos besoins.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Administration]** et qui font partie de l’**[!UICONTROL entité organisationnelle]** [Tous](../../administration/using/organizational-units.md) disposent des droits appropriés pour créer une configuration d’événement.
 
@@ -168,6 +175,8 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
 
    ![](assets/message-center_pub.png)
 
+   L’API qui sera utilisée par le développeur de votre site Web est déployée et les événements transactionnels peuvent maintenant être envoyés.
+
 1. Vous pouvez visualiser les logs de publication dans l’onglet correspondant.
 
    ![](assets/message-center_logs.png)
@@ -191,6 +200,12 @@ Une fois qu’Adobe Campaign commence à recevoir des événements liés à cett
 ![](assets/message-center_latest-events.png)
 
 Les événements (au format JSON) sont répertoriés du plus récent au plus ancien. Cette liste vous permet de vérifier des données telles que le contenu ou le statut d’un événement, à des fins de contrôle et de correction d’erreurs.
+
+### Processus de publication de messages transactionnels {#transactional-messaging-pub-process}
+
+Le graphique ci-dessous illustre le processus de publication de messages transactionnels.
+
+![](assets/message-center_pub-process.png)
 
 ### Dépublier un événement   {#unpublishing-an-event}
 
@@ -229,7 +244,7 @@ Lorsqu’un événement a été dépublié ou qu’il n’a pas encore été pub
 
 Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.
 
-Dans l’exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle), vous souhaitez qu’un événement de type &quot;Abandon de panier&quot; soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard.
+Dans l’exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), vous souhaitez qu’un événement de type &quot;Abandon de panier&quot; soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard.
 
 Consultez la [documentation API REST](../../api/using/managing-transactional-messages.md) .
 
