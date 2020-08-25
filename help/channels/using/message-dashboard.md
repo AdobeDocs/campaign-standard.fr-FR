@@ -12,8 +12,11 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 100%
 
 ---
 
@@ -102,4 +105,4 @@ Vous trouverez ci-dessous une liste des messages pouvant être affichés :
 
 * *&quot;Ce message est un modèle de message transactionnel technique. Vous ne pouvez pas le modifier ni le publier.&quot;*
 
-   Cet avertissement s’affiche dans des modèles de message transactionnel vides ne pouvant pas être modifiés. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/about-transactional-messaging.md).
+   Cet avertissement s’affiche dans des modèles de message transactionnel vides ne pouvant pas être modifiés. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
