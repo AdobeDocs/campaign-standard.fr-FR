@@ -11,9 +11,9 @@ topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
  <thead> 
   <tr> 
    <th> Solution<br /> </th> 
-   <th> Utilisation<br /> </th> 
+   <th> Cas pratique<br /> </th> 
    <th> Reportez-vous à<br /> </th> 
   </tr> 
  </thead> 
