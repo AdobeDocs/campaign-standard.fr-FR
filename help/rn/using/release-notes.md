@@ -24,7 +24,7 @@ ht-degree: 100%
 
 [Calendrier des versions](../../rn/using/release-planning.md) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## Version 20.3 - Mai 2020 {#release-20-3---may-2020}
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
 <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation PDPA a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a>.</p></li>
 </ul>
-<p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
+<p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -65,7 +65,7 @@ ht-degree: 100%
 <li>sélectionner et utiliser un objet de tableau à partir d’un JSON sans avoir à nommer l’objet « data » ou le mettre au niveau supérieur.</li>
 </ul>
 <p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
-<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -128,4 +128,4 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Version de mai du nouveau panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
