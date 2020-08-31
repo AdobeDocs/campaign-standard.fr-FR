@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour     2020
+title: Notes de mise à jour      2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -11,9 +11,9 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1831'
 ht-degree: 100%
 
