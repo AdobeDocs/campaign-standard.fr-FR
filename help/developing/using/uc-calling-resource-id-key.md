@@ -1,9 +1,9 @@
 ---
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 100%
 
