@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
