@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
-translation-type: ht
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
-workflow-type: ht
-source-wordcount: '1569'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+workflow-type: tm+mt
+source-wordcount: '1596'
+ht-degree: 99%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 100%
       + [Surveiller l’exécution des workflows](automating/using/monitoring-workflow-execution.md)
       + [Gestion des options d’exécution](automating/using/managing-execution-options.md)
       + [Gestion des propriétés des activités](automating/using/activity-properties.md)
-   + [Appeler un workflow avec des paramètres externes](automating/using/calling-a-workflow-with-external-parameters.md)
+   + Appeler un workflow avec des paramètres externes {#calling-workflow-external-parameters}
+      + [Déclaration des paramètres dans l&#39;activité Signal externe](automating/using/declaring-parameters-external-signal.md)
+      + [Définir les paramètres lors de l’appel du workflow  ](automating/using/defining-parameters-calling-workflow.md)
+      + [Suivi des variables d’événements  ](automating/using/monitoring-events-variables.md)
+      + [Personnalisation du processus avec des paramètres externes](automating/using/customizing-workflow-external-parameters.md)
+      + [Cas pratique](automating/using/use-case-calling-workflow.md)
    + Activités de ciblage {#targeting-activities}
       + [A propos des activités de ciblage](automating/using/about-targeting-activities.md)
       + [Requête](automating/using/query.md)
