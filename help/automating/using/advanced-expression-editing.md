@@ -12,55 +12,59 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
 
-# Edition avancée d'expressions{#advanced-expression-editing}
+# Edition avancée d&#39;expressions{#advanced-expression-editing}
 
-## A propos de l'édition avancée d'expressions {#about-advanced-expression-editing}
+## A propos de l&#39;édition avancée d&#39;expressions {#about-advanced-expression-editing}
 
-L'édition d'une expression consiste à saisir manuellement des conditions pour former une règle.
+L&#39;édition d&#39;une expression consiste à saisir manuellement des conditions pour former une règle.
 
-Ce mode permet d'utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
+Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
-Il est également possible d'utiliser des variables d'événements lors de l'édition d'une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d'événements](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Il est également possible d’utiliser des variables de événement workflows lors de la modification de l’expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
 
-L'édition d'expressions peut être utilisée lors des opérations suivantes :
+L&#39;édition d&#39;expressions peut être utilisée lors des opérations suivantes :
 
-* définition d'une requête, via l'option **[!UICONTROL Mode avancé]** disponible lors de l'ajout d'une règle.
+* définition d&#39;une requête, via l&#39;option **[!UICONTROL Mode avancé]** disponible lors de l&#39;ajout d&#39;une règle.
 
    ![](assets/expression_editor_2.png)
 
-* édition d'une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
-* édition d'une condition de visibilité pour définir l'affichage d'un bloc de l'éditeur de contenus HTML. Dans ce cas, l'expression est éditée au format JavaScript et ne propose pas l'utilisation des fonctions avancées standard.
+* édition d&#39;une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
+* édition d&#39;une condition de visibilité pour définir l&#39;affichage d&#39;un bloc de l&#39;éditeur de contenus HTML. Dans ce cas, l&#39;expression est éditée au format JavaScript et ne propose pas l&#39;utilisation des fonctions avancées standard.
 
 ## Editer une expression {#edit-an-expression}
 
-L'édition avancée d'expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
+L&#39;édition avancée d&#39;expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
-L'édition des expressions peut être utilisée dans la fenêtre Audience lors de la création d'un email ou dans une activité de type Requête lors de la création d'un workflow.
+L&#39;édition des expressions peut être utilisée dans la fenêtre Audience lors de la création d&#39;un email ou dans une activité de type Requête lors de la création d&#39;un workflow.
 
-1. Accédez à la fenêtre d'édition d'expression par l'un des moyens décrits dans la section [A propos de l'édition avancée d'expressions](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Elle se compose des éléments suivants :
+1. Accédez à la fenêtre d&#39;édition d&#39;expression par l&#39;un des moyens décrits dans la section [A propos de l&#39;édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Elle se compose des éléments suivants :
 
-   * un champ de saisie, dans lequel l'expression est définie
-   * la liste des champs disponibles, utilisables dans l'expression, et correspondant à la dimension de ciblage de la requête (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)).
+   * un champ de saisie, dans lequel l&#39;expression est définie
+   * la liste des champs disponibles, utilisables dans l&#39;expression, et correspondant à la dimension de ciblage de la requête (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * la liste des fonctions disponibles, triées par catégorie.
+
    ![](assets/expression_editor_1.png)
 
-1. Editez l'expression en saisissant directement une expression dans le champ correspondant ou en vous aidant de la liste des champs ainsi que de la liste des fonctions disponibles.
+1. Editez l&#39;expression en saisissant directement une expression dans le champ correspondant ou en vous aidant de la liste des champs ainsi que de la liste des fonctions disponibles.
 
-   En double-cliquant sur un champ ou une fonction, celui-ci est ajouté à l'expression à l'endroit où est placé le curseur de saisie.
+   En double-cliquant sur un champ ou une fonction, celui-ci est ajouté à l&#39;expression à l&#39;endroit où est placé le curseur de saisie.
 
-   Il est possible d'utiliser les variables d'événements des workflows pour créer une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d'événements](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+   Il est possible d&#39;utiliser les variables d&#39;événements des workflows pour créer une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
 
-1. Si besoin, donnez à votre règle un nom spécifique. Le nom saisi apparaîtra au niveau de la règle dans l'espace de travail de l'outil d'édition de requêtes.
+1. Si besoin, donnez à votre règle un nom spécifique. Le nom saisi apparaîtra au niveau de la règle dans l&#39;espace de travail de l&#39;outil d&#39;édition de requêtes.
 
-L'édition d'une expression vous permet de personnaliser l'expression Audiences afin de cibler votre population selon vos besoins.
+L&#39;édition d&#39;une expression vous permet de personnaliser l&#39;expression Audiences afin de cibler votre population selon vos besoins.
 
-**Rubriques connexes :**
+**Rubriques connexes:**
 
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
@@ -69,18 +73,19 @@ L'édition d'une expression vous permet de personnaliser l'expression Audiences 
 
 ### Syntaxe standard {#standard-syntax}
 
-Les expressions standard sont composées d'une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
+Les expressions standard sont composées d&#39;une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
 
-* Chaque condition est de la forme **&lt;valeur1&gt; &lt;opérateur de comparaison&gt; &lt;valeur2&gt;** où :
+* Chaque condition est de la forme **&lt;valeur1> &lt;opérateur de comparaison> &lt;valeur2>** où :
 
-   * **&lt;valeur1&gt;** est un champ ou une fonction. Par exemple **@created** pour la date de création d'un profil ou **Year(@created)** pour l'année de création d'un profil.
-   * **&lt;opérateur de comparaison&gt;** est l'un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;valeur1&gt;** et **&lt;valeur2&gt;**.
-   * **&lt;valeur2&gt;** est un champ, une fonction ou une valeur saisie manuellement.
+   * **&lt;valeur1>** est un champ ou une fonction. Par exemple **@created** pour la date de création d&#39;un profil ou **Year(@created)** pour l&#39;année de création d&#39;un profil.
+   * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;valeur1>** et **&lt;valeur2>**.
+   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
+
    >[!NOTE]
    >
-   >Le type de données de **&lt;valeur1&gt;** et de **&lt;valeur2&gt;** doit être identique. Par exemple, si **&lt;valeur1&gt;** est une date, alors **&lt;valeur2&gt;** doit également être une date.
+   >Le type de données de **&lt;valeur1>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;valeur1>** est une date, alors **&lt;valeur2>** doit également être une date.
 
-* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l'aide d'opérateurs logiques.
+* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
    * **[!UICONTROL AND]** : intersection des deux conditions
    * **[!UICONTROL OR]** : union des deux conditions.
@@ -91,26 +96,27 @@ Par exemple :
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l'année courants.
+Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l&#39;année courants.
 
 ### Syntaxe JavaScript {#javascript-syntax}
 
-Lors de la définition des conditions de visibilité d'un bloc de type texte de l'éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
+Lors de la définition des conditions de visibilité d&#39;un bloc de type texte de l&#39;éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
 
-Les expressions JavaScript sont composées d'une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
+Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, respectant les éléments de syntaxe suivants :
 
-* Chaque condition est de la forme **&lt;contexte&gt; &lt;opérateur de comparaison&gt; &lt;valeur2&gt;** où :
+* Chaque condition est de la forme **&lt;contexte> &lt;opérateur de comparaison> &lt;valeur2>** où :
 
-   * **&lt;contexte&gt;** correspond à un champ ou une fonction permettant de préciser le contexte. Par exemple, **context.profile.@email** pour l'adresse email d'un profil ou **context.profile.firstName.length()** pour le nombre de caractères du prénom d'un profil.
-   * **&lt;opérateur de comparaison&gt;** est l'un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;contexte&gt;** et **&lt;valeur2&gt;**.
-   * **&lt;valeur2&gt;** est un champ, une fonction ou une valeur saisie manuellement.
+   * **&lt;contexte>** correspond à un champ ou une fonction permettant de préciser le contexte. Par exemple, **context.profile.@email** pour l&#39;adresse email d&#39;un profil ou **context.profile.firstName.length()** pour le nombre de caractères du prénom d&#39;un profil.
+   * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;contexte>** et **&lt;valeur2>**.
+   * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
+
    >[!NOTE]
-   Le type de données de **&lt;contexte&gt;** et de **&lt;valeur2&gt;** doit être identique. Par exemple, si **&lt;contexte&gt;** est une date, alors **&lt;valeur2&gt;** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
-* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l'aide d'opérateurs logiques.
+* Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
-   * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions.
-   * **[!UICONTROL   ]** : union des deux conditions.
+   * **[!UICONTROL &amp;&amp;]** : intersection des deux conditions
+   * **[!UICONTROL ||]**: union des deux conditions.
 
 Par exemple :
 
@@ -122,9 +128,9 @@ Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom e
 
 ## Opérateurs de comparaison {#comparison-operators}
 
-Pour certaines règles, l'éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
+Pour certaines règles, l&#39;éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
-Les conditions doivent être liées aux valeurs à l'aide de l'un des opérateurs ci-après.
+Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des opérateurs ci-après.
 
 <table> 
  <thead> 
