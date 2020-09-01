@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 33%
+source-wordcount: '756'
+ht-degree: 32%
 
 ---
 
@@ -81,7 +81,7 @@ Dans Adobe Campaign, deux types de message transactionnel sont disponibles :
 <td><p><ul><li>Ils ne contiennent pas d'informations sur le profil.</li><li>Elles ne sont pas compatibles avec les règles <a href="../../sending/using/fatigue-rules.md">de</a> fatigue (même dans le cas d'un enrichissement avec profils).</li><li>La cible de diffusion est définie par les données contenues dans le événement lui-même.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Messages transactionnels basés sur un profil</a><br><b> ciblant des profils de la base de données marketing Adobe Campaign</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Messages transactionnels basés sur un profil</a><br><b> ciblant des profils de la base de données marketing Adobe Campaign</b></p></td>
 <td><p>Les messages transactionnels de profil vous permettent de :<ul><li>Appliquez des règles de typologie marketing telles que <b>Adresse en liste bloquée</b> ou <a href="../../sending/using/fatigue-rules.md">Règles de fatigue</a>.</li><li>inclure le lien de désinscription dans les messages ;</li><li>ajouter les messages transactionnels au reporting de diffusion globale ;</li><li>utiliser les messages transactionnels dans le parcours client.</li></ul></p></td>
 </tr>
 </table>
@@ -102,43 +102,71 @@ Prenons l&#39;exemple d&#39;une société qui a un site Web et sur ce site, ses 
 
 Adobe Campaign vous permet d&#39;envoyer un email de notification aux utilisateurs du site ayant ajouté des produits dans leur panier : lorsque l&#39;un d&#39;eux quitte le site sans poursuivre ses achats, un email d&#39;abandon de panier lui est automatiquement envoyé.
 
-Voici les étapes à suivre pour mettre en place ce système.
+Les étapes de mise en place de ce système sont les suivantes.
 
 ### Étape 1 - Création et publication de la configuration du événement {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-Configurez un événement qui sera appelé &quot;abandon de panier&quot; et publiez cette configuration de événement.
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-L’API qui sera utilisée par le développeur de votre site Web est déployée et un message transactionnel est automatiquement créé.
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configurez un événement qui sera appelé "abandon de panier" et publiez cette configuration de événement.</p></td>
+<td>L’API qui sera utilisée par le développeur de votre site Web est déployée et un message transactionnel est automatiquement créé.</td>
+</tr>
+</table>
 
 La création et la publication d&#39;un événement sont présentées dans la section [Configuration d&#39;un événement pour envoyer un message transactionnel basé sur un événement](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
 ### Étape 2 - Modification et publication du message transactionnel {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.</p></td>
+<td>Le message transactionnel sera alors prêt à être envoyé.</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### Étape 3 - Intégration du déclenchement du événement {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.
+Use the REST Transactional Messages API to integrate the event into your website.
 
-Le événement est déclenché lorsqu’un client abandonne son panier.
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.</p></td>
+<td>Le événement est déclenché lorsqu’un client abandonne son panier.</td>
+</tr>
+</table>
 
 Pour plus d’informations sur l’intégration du événement dans votre site Web, voir Intégration [du](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)site.
 
 ### Étape 4 - diffusion des messages {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-Dès qu&#39;un utilisateur quitte le site sans commander les produits dans son panier, il reçoit automatiquement un courrier électronique de notification.
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Une fois toutes ces étapes effectuées, le message peut être transmis.</p></td>
+<td>Dès qu'un utilisateur quitte le site sans commander les produits dans son panier, il reçoit automatiquement un courrier électronique de notification.</td>
+</tr>
+</table>
 
 ## Principales étapes {#key-steps}
 
