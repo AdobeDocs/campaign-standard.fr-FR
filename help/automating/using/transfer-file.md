@@ -12,10 +12,10 @@ discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
-workflow-type: ht
-source-wordcount: '1214'
+translation-type: tm+mt
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+workflow-type: tm+mt
+source-wordcount: '1209'
 ht-degree: 100%
 
 ---
@@ -141,7 +141,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
 Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent être utilisés pour filtrer les fichiers.
 
-Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos la section [Personnaliser les activités avec des variables d’événements](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables).
+Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Pour plus d’informations à ce sujet, consultez cette section: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage. Par exemple :
 
