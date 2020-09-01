@@ -13,10 +13,10 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Une diffusion d&#39;exécution est un message technique non fonctionnel et non e
 
 * Par défaut, une fois par mois pour les messages transactionnels et chaque fois qu&#39;un message transactionnel est édité et republié.
 
-   Pour plus d&#39;informations sur les messages transactionnels, voir [A propos des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
+   Pour plus d’informations sur les messages transactionnels, voir [Prise en main de la messagerie](../../channels/using/getting-started-with-transactional-msg.md)transactionnelle.
 
 >[!NOTE]
 >
