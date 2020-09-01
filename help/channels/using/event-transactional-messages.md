@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2625'
-ht-degree: 100%
+source-wordcount: '2642'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ Une fois que vous avez créé et publié l&#39;événement de votre choix (l&#39
 
 Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message transactionnel](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel, vous devez personnaliser le message, le tester et le publier.
-
 >[!NOTE]
->
->Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes entités)]**.
 >
 >Les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d&#39;un enrichissement avec des profils). Voir [Règles de fatigue](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Définir un profil de test dans un message transactionnel      {#defining-a-test-profile-in-a-transactional-message}
+Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel, vous devez personnaliser le message, le tester et le publier.
 
-Définissez un profil de test adapté, qui vous permettra de prévisualiser votre message et d&#39;envoyer un bon à tirer (BAT) afin de le valider.
+## Accès aux messages transactionnels {#accessing-transactional-messages}
 
-### Créer un profil de test dans un message transactionnel      {#creating-a-test-profile-within-the-transactional-----------message}
+Pour accéder au message transactionnel que vous avez créé :
 
-1. Pour accéder au message créé, cliquez sur le logo **[!UICONTROL Adobe Campaign]** en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche.
+1. Sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
 
    ![](assets/message-center_4.png)
 
-1. Créez un profil de test qui sera lié à votre événement.
+1. Cliquez sur le message de votre choix pour le modifier.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Indiquez les informations à transmettre au format JSON dans la section **[!UICONTROL Données de l&#39;événement utilisées pour la personnalisation]**. C&#39;est le contenu qui sera utilisé lors de la prévisualisation du message et que recevra le profil de test à l&#39;envoi du BAT.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >Vous pouvez également saisir les informations associées à la table des profils. Voir [Enrichir le contenu d&#39;un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. Une fois créé, le profil de test est pré-renseigné dans le message transactionnel. Cliquez sur le bloc **[!UICONTROL Profils de test]** du message pour vérifier la cible de votre BAT.
-
-   ![](assets/message-center_5.png)
-
-### Créer un profil de test en dehors du message transactionnel {#creating-a-test-profile-outside-the-transactional-----------message}
-
-Vous pouvez également créer un profil de test ou en utiliser un existant depuis le menu **[!UICONTROL Profils de test]**.
-
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Profils de test]**.
-1. Dans la section **[!UICONTROL Evénement]** de la page du profil de test de votre choix, sélectionnez l&#39;événement que vous avez créé. Dans cet exemple, choisissez &quot;Abandon de panier (EVTcartAbandonment)&quot;.
-1. Indiquez les informations à transmettre au format JSON dans la zone de texte **[!UICONTROL Données de l&#39;événement]**.
-
-   ![](assets/message-center_3.png)
-
-1. Enregistrez vos modifications.
-
-Vous pouvez maintenant accéder au message que vous avez créé et sélectionner le profil de test mis à jour.
-
-**Rubriques connexes :**
-
-* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
-* [Définir les audiences](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes entités)]**.
 
 ## Personnaliser un message transactionnel      {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ Pour plus d&#39;informations sur la création d&#39;une collection et de champs 
 
 ## Tester un message transactionnel {#testing-a-transactional-message}
 
-Après avoir enregistré votre message transactionnel, vous pouvez envoyer un bon à tirer (BAT) pour le tester.
+Vous devez d&#39;abord créer un profil de test spécifique qui vous permettra de vérifier correctement le message transactionnel.
+
+### Définition d’un profil de test spécifique {#defining-specific-test-profile}
+
+Définissez un profil de test qui sera lié à votre événement, ce qui vous permettra de prévisualisation de votre message et d’envoyer un BAT approprié.
+
+1. Dans le tableau de bord du message transactionnel, cliquez sur le bouton **[!UICONTROL Créer un profil]** de test.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Indiquez les informations à transmettre au format JSON dans la section **[!UICONTROL Données de l&#39;événement utilisées pour la personnalisation]**. C&#39;est le contenu qui sera utilisé lors de la prévisualisation du message et que recevra le profil de test à l&#39;envoi du BAT.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >Vous pouvez également saisir les informations associées à la table des profils. Voir [Enrichir le contenu d&#39;un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Une fois créé, le profil de test est préspécifié dans le message transactionnel. Cliquez sur le bloc **[!UICONTROL Profils de test]** du message pour vérifier la cible de votre BAT.
+
+   ![](assets/message-center_5.png)
+
+Vous pouvez également créer un profil de test ou en utiliser un existant depuis le menu **[!UICONTROL Profils de test.]** Pour cela :
+
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Profils de test]**.
+1. Dans la section **[!UICONTROL Événement]** , sélectionnez le événement que vous venez de créer. Dans cet exemple, choisissez &quot;Abandon de panier (EVTcartAbandonment)&quot;.
+1. Indiquez les informations à transmettre au format JSON dans la zone de texte **[!UICONTROL Données de l&#39;événement]**.
+
+   ![](assets/message-center_3.png)
+
+1. Enregistrez vos modifications.
+1. Accédez au message que vous avez créé et sélectionnez le profil de test mis à jour.
+
+**Rubriques connexes :**
+
+* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
+* [Définir les audiences](../../audiences/using/creating-audiences.md)
+
+### Envoyer le BAT {#sending-proof}
+
+Une fois que vous avez créé un ou plusieurs profils de test spécifiques et enregistré votre message transactionnel, vous pouvez envoyer un BAT pour le tester.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 
 ![](assets/message-center_13.png)
 
-## Suspendre la publication d&#39;un message transactionnel      {#suspending-a-transactional-message-publication}
+### Suspendre la publication d&#39;un message transactionnel      {#suspending-a-transactional-message-publication}
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d&#39;attente, dans la base de données Adobe Campaign.
 
@@ -268,7 +276,7 @@ Les événements placés dans la file d&#39;attente sont conservés pendant une 
 
 Lorsque vous cliquez sur **[!UICONTROL Reprendre]**, tous les événements placés dans la file d&#39;attente sont envoyés (à condition qu&#39;ils n&#39;aient pas expiré). Ils contiennent alors les modifications effectuées tant que la publication du modèle était suspendue.
 
-## Dépublier un message transactionnel      {#unpublishing-a-transactional-message}
+### Dépublier un message transactionnel      {#unpublishing-a-transactional-message}
 
 Cliquez sur **[!UICONTROL Dépublier]** pour annuler la publication du message transactionnel. L&#39;événement correspondant est également dépublié, ce qui supprime de l&#39;API REST la ressource correspondant à l&#39;événement précédemment créé.
 
@@ -286,7 +294,7 @@ Les étapes de mise en pause d&#39;un message sont présentées dans la section 
 
 Le workflow **[!UICONTROL Nettoyage de la base]**, qui s&#39;exécute tous les jours à 4h00, est accessible via **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Workflows]**.
 
-## Supprimer un message transactionnel {#deleting-a-transactional-message}
+### Supprimer un message transactionnel {#deleting-a-transactional-message}
 
 Lorsqu’un message transactionnel a été dépublié ou qu’il n’a pas encore été publié, vous pouvez le supprimer de la liste des messages transactionnels. Pour cela :
 
@@ -333,9 +341,9 @@ Une fois que l&#39;événement a été assigné à une diffusion d&#39;exécutio
 
 >[!NOTE]
 >
->Lorsqu&#39;un événement est assigné à une diffusion d&#39;exécution, il apparaît dans les logs d&#39;envoi de cette diffusion d&#39;exécution, et uniquement à ce moment. Les diffusions en échec sont affichées dans l&#39;onglet **[!UICONTROL Liste des exécutions]** du message transactionnel.
+>Lorsqu&#39;un événement est assigné à une diffusion d&#39;exécution, il apparaît dans les logs d&#39;envoi de cette diffusion d&#39;exécution, et uniquement à ce moment. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Limitations {#limitations}
+### Réessayer les limites du processus {#limitations}
 
 **Mise à jour des logs d&#39;envoi**
 
