@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 32%
@@ -28,7 +28,12 @@ ht-degree: 32%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-La messagerie transactionnelle vous permet d&#39; <b>envoyer des messages</b> individuels et uniques à vos clients en temps réel. Il peut s&#39;agir de messages de bienvenue, de confirmations d&#39;expédition de commande, de modification de mot de passe, etc.
+<table>
+<tr>
+<td ><br><p>La messagerie transactionnelle vous permet d' <b>envoyer des messages</b> individuels et uniques à vos clients en temps réel.</p></td>
+<td>Il peut s'agir de messages de bienvenue, de confirmations d'expédition de commande, de modification de mot de passe, etc.</td>
+</tr>
+</table>
 
 adobe campaign vous permet d’intégrer cette fonctionnalité à un système d’informations qui envoie des événements à transformer en messages transactionnels personnalisés.
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configurez un événement qui sera appelé "abandon de panier" et publiez cette configuration de événement.</p></td>
+<td><br><p>Configurez un événement qui sera appelé "abandon de panier" et publiez cette configuration de événement.</p></td>
 <td>L’API qui sera utilisée par le développeur de votre site Web est déployée et un message transactionnel est automatiquement créé.</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ La création et la publication d&#39;un événement sont présentées dans la se
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.</p></td>
+<td><br><p>Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le.</p></td>
 <td>Le message transactionnel sera alors prêt à être envoyé.</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.</p></td>
+<td><br><p>Utilisez l’API REST Messages transactionnels pour intégrer le événement à votre site Web.</p></td>
 <td>Le événement est déclenché lorsqu’un client abandonne son panier.</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ Pour plus d’informations sur l’intégration du événement dans votre site W
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Une fois toutes ces étapes effectuées, le message peut être transmis.</p></td>
+<td><br><p>Une fois toutes ces étapes effectuées, le message peut être transmis.</p></td>
 <td>Dès qu'un utilisateur quitte le site sans commander les produits dans son panier, il reçoit automatiquement un courrier électronique de notification.</td>
 </tr>
 </table>
