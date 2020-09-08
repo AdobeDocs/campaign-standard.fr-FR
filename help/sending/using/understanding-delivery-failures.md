@@ -11,11 +11,11 @@ topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
-workflow-type: ht
-source-wordcount: '1349'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '1340'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Lorsqu’une diffusion ne peut pas être envoyée à un profil, le serveur dista
 >
 >Les messages d’erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
 
-Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est placé dans une liste bloquée. Les messages exclus sont répertoriés dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+Les messages peuvent également être exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est placé sur la liste bloquée. Les messages exclus sont répertoriés dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -62,15 +62,15 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | Libellé de l&#39;erreur | Type d&#39;erreur | Description |
 ---------|----------|---------
 | **[!UICONTROL Utilisateur inconnu]** | Hard | L&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil. |
-| **** | Hard | L&#39;adresse a été mise en quarantaine. |
+| **[!UICONTROL Adresse en quarantaine]** | Hard | L&#39;adresse a été mise en quarantaine. |
 | **[!UICONTROL Inatteignable]** | Soft/Hard | Une erreur s’est produite dans la chaîne de distribution du message (domaine temporairement inatteignable, par exemple). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Adresse vide]** | Hard | L’adresse n’est pas définie. |
 | **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
 | **[!UICONTROL Refusés]** | Soft/Hard | L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Doublon]** | Ignoré | L’adresse a déjà été détectée dans la segmentation. |
 | **[!UICONTROL Non définie]** | Soft | L’adresse est en cours de qualification parce que les erreurs n’ont pas encore été incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
-| **[!UICONTROL Erreur ignorée]** | Ignoré | L’adresse se trouve sur la liste autorisée et un email lui sera envoyé dans tous les cas. |
-| **[!UICONTROL Adresse en liste bloquée]** | Hard | L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. |
+| **[!UICONTROL Erreur ignorée]** | Ignoré | L&#39;adresse est placée sur la liste autorisée et un e-mail lui sera envoyé en tout cas. |
+| **[!UICONTROL Adresse placée sur la liste bloquée]** | Hard | L&#39;adresse a été ajoutée à la liste bloquée au moment de l&#39;envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
 | **[!UICONTROL Non connecté]** | Ignoré | Le téléphone portable du profil est éteint ou n’est pas connecté au réseau au moment de l’envoi du message. |
 | **[!UICONTROL Domaine invalide]** | Soft | Le domaine de l&#39;adresse email est erroné ou n&#39;existe plus. Ce profil sera ciblé de nouveau jusqu&#39;à ce que le nombre d&#39;erreurs atteigne 5. Une fois ce chiffre atteint, l&#39;enregistrement sera défini sur le statut Quarantaine et aucune autre reprise ne sera effectuée. |
@@ -87,7 +87,7 @@ Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de 
 
 >[!IMPORTANT]
 >
->**Le paramètre **[!UICONTROL Durée de diffusion]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte car elle est désormais gérée par le MTA amélioré d’Adobe Campaign.
+>**Le paramètre**[!UICONTROL  Durée de diffusion ]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte car elle est désormais gérée par le MTA amélioré d’Adobe Campaign.
 
 Si, par exemple, vous souhaitez que les reprises pour une diffusion s’arrêtent après une journée, vous pouvez définir la durée de diffusion sur **1d**, et le MTA amélioré respectera ce paramètre en supprimant les messages dans la file d’attente des nouvelles reprises après une journée.
 
