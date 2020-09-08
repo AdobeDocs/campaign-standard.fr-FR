@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Le contrôle de la réputation de votre domaine et de votre adresse IP est essentiel. Voici quelques conseils pour bien démarrer une nouvelle plate-forme.
 
-Démarrer l&#39;envoi d&#39;emails sur une nouvelle plate-forme est une étape délicate car la plate-forme ne possède aucun historique d&#39;envoi, aucune réputation (dans le cas où les IP d&#39;envoi n&#39;ont jamais été utilisées à des fins d&#39;envoi d&#39;emails). Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP « inconnues » (celles qui n’ont jamais été placées en liste bloquée) pour envoyer un maximum de messages pendant le laps de temps où ils n’ont pas encore été détectés.
+Démarrer l&#39;envoi d&#39;emails sur une nouvelle plate-forme est une étape délicate car la plate-forme ne possède aucun historique d&#39;envoi, aucune réputation (dans le cas où les IP d&#39;envoi n&#39;ont jamais été utilisées à des fins d&#39;envoi d&#39;emails). Or rien n&#39;est plus suspect pour un FAI qu&#39;une adresse IP qui n&#39;a jamais envoyé d&#39;emails et qui commence subitement à envoyer des messages en masse. En effet, les spammeurs utilisent généralement des adresses IP &quot;inconnues&quot; (adresses qui n&#39;ont jamais été placées sur la liste bloquée) pour envoyer le plus grand nombre possible de messages avant leur détection.
 
 On ne peut donc pas espérer atteindre le régime de croisière en termes de débit dès le début de la mise en production. De surcroît on ne doit pas essayer d&#39;envoyer les premiers messages avec un tel débit, car cela conduirait les FAI à bloquer d&#39;autant plus sévèrement les adresses IP d&#39;envoi et à compromettre gravement la poursuite du démarrage.
 
