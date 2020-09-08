@@ -11,11 +11,11 @@ topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '715'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
 | **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
-| **** | Tous | Exclut les adresses mises en quarantaine. |
+| **[!UICONTROL Adresse en quarantaine]** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
 Outre ces règles de filtrage par défaut, deux règles d’exclusion sont disponibles :
@@ -47,7 +47,7 @@ Outre ces règles de filtrage par défaut, deux règles d’exclusion sont dispo
 
 Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
-Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée liée à une activité malveillante, notamment l’utilisation d’un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s’abonner par le biais de l’un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement mise en liste bloquée.
+Cela permet d&#39;éviter d&#39;être placé sur la liste bloquée en raison d&#39;une activité malveillante, en particulier l&#39;utilisation d&#39;un Spamtrap. Par exemple, si un Spamtrap est utilisé pour s’abonner via l’un de vos formulaires Web, un courrier électronique de confirmation est automatiquement envoyé à ce Spamtrap, ce qui entraîne l’ajout automatique de votre adresse à la liste bloquée.
 
 >[!NOTE]
 >
