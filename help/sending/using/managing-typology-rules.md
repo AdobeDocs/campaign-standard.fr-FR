@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Les principales étapes de création d’ue règle de typologie sont les suivant
 
    ![](assets/typology-rule-label.png)
 
-1. Spécifiez le **[!UICONTROL type]** de règle de typologie, puis configurez-le selon vos besoins. Notez que la configuration des règles de typologie varie selon leur type. Pour plus d’informations, reportez-vous aux sections **[Règles de filtrage](../../sending/using/filtering-rules.md)**et**[ Règles de fatigue](../../sending/using/fatigue-rules.md)**.
+1. Spécifiez le **[!UICONTROL type]** de règle de typologie, puis configurez-le selon vos besoins. Notez que la configuration des règles de typologie varie selon leur type. Pour plus d’informations, reportez-vous aux sections **[Règles de filtrage](../../sending/using/filtering-rules.md)** et **[Règles de fatigue](../../sending/using/fatigue-rules.md)**.
 
 1. Sélectionnez les typologies dans lesquelles vous souhaitez inclure la nouvelle règle. Pour ce faire, sélectionnez l’onglet **[!UICONTROL Typologies]**, puis cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
@@ -72,7 +72,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles d’application natives pour la qualification des adresses : adresse définie / adresse non vérifiée / adresse sur liste bloquée / adresse mise en quarantaine / qualité de l’adresse.
+   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse placée sur la liste bloquée / adresse en quarantaine / qualité de l&#39;adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
 
 1. Règles de contrôle, si elles s&#39;appliquent à la fin du ciblage.
