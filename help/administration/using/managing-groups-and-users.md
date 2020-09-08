@@ -12,11 +12,11 @@ discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ L&#39;utilisateur Administrateur doit créer le jeu de groupes de sécurité uti
 
    >[!NOTE]
    >
-   >Si vous affectez un groupe de sécurité prêt à l&#39;emploi à vos utilisateurs, vous devez réinitialiser l&#39;unité organisationnelle.
+   >Si vous attribuez un groupe de sécurité d’usine à vos utilisateurs, vous devez réinitialiser l’entité organisationnelle.
 
    ![](assets/manage_security_group_6.png)
 
