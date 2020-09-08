@@ -1,5 +1,5 @@
 ---
-title: Pourquoi utiliser les API de Campaign Standard ?
+title: Pourquoi utiliser les API de Campaign Standard ?
 description: Découvrez les API de Campaign Standard et pourquoi les utiliser.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -11,16 +11,16 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Pourquoi utiliser les API de Campaign Standard ?{#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard fournit des API qui permettent aux systèmes existants de s’intégrer à la plate-forme ACS pour résoudre des problèmes concrets en temps réel.
 
