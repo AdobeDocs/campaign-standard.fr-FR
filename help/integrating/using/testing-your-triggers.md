@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Suivez les étapes décrites dans [Création d&#39;un trigger mappé dans Campai
 Si le trigger est créé, passez à l&#39;étape suivante. Dans le cas contraire, la connexion du paramétrage de l&#39;intégration Trigger a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d&#39;Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
 
 * Nom de la société Experience Cloud
-* Identifiant IMS de l&#39;organisation
+* Identifiant de l&#39;organisation IMS
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 **Tentative de publication d&#39;un trigger**
@@ -77,7 +77,7 @@ Dans l&#39;affirmative, suivez ces recommandations :
 Dans le cas contraire, passez à l&#39;étape suivante. Dans l&#39;affirmative, suivez ces recommandations :
 
 * Vérifiez que le modèle transactionnel a été publié.
-* Vérifiez que le profil n’est pas sur liste bloquée.
+* Vérifiez que le profil n&#39;est pas placé sur la liste bloquée.
 * Vérifiez l&#39;application des règles de typologie.
 * Vérifiez les logs du message transactionnel.
 
