@@ -11,11 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
 
    ![](assets/message-center_push_content.png)
 
-   To find these fields, click the pencil next to an item, click **[!UICONTROL Insert personalization field]** and select **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+   Pour trouver ces champs, cliquez sur le crayon situé en regard d’un élément, cliquez sur **[!UICONTROL Insérer un champ de personnalisation]** et sélectionnez **[!UICONTROL Contexte]** > **[!UICONTROL Événement en temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -94,7 +94,7 @@ Si le jeton d&#39;enregistrement existe, l&#39;utilisateur correspondant reçoit
 
 &quot;Bonjour Jeanne Lambert, l&#39;embarquement vient de commencer à la porte B18.&quot;
 
-## Notifications push transactionnelles ciblant un profil {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil  {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme le prénom du destinataire.
 
@@ -102,13 +102,13 @@ Dans ce cas, l&#39;événement doit contenir certains champs permettant la réco
 
 Lors du ciblage des profils, une notification push transactionnelle est envoyée par application mobile et par appareil. Par exemple, si un utilisateur Adobe Campaign s&#39;est abonné à deux applications, il recevra deux notifications. Si un utilisateur s&#39;est abonné à une même application à partir de deux appareils différents, il recevra une notification sur chaque appareil.
 
-Les applications mobiles auxquelles un profil s&#39;est abonné sont répertoriées dans l&#39;onglet **[!UICONTROL Abonnements à l&#39;application mobile]** de ce profil. Pour accéder à cet onglet, sélectionnez un profil et cliquez sur le bouton **[!UICONTROL Editer les propriétés du profil]** à droite.
+Les applications mobiles auxquelles un profil s’est abonné sont répertoriées dans l’onglet **[!UICONTROL Abonnements à l’application mobile]** de ce profil. Pour accéder à cet onglet, sélectionnez un profil et cliquez sur le bouton **[!UICONTROL Éditer les propriétés du profil]** à droite.
 
 ![](assets/push_notif_subscriptions.png)
 
 Pour plus d&#39;informations sur l&#39;accès aux profils et leur édition, voir la section [Profils](../../audiences/using/creating-profiles.md).
 
-### Envoyer une notification push transactionnelle ciblant un profil {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envoyer une notification push transactionnelle ciblant un profil  {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#39;embarquement à tous les utilisateurs Adobe Campaign qui se sont abonnés à son application mobile.
 
