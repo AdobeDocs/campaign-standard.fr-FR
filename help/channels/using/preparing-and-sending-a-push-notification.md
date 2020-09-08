@@ -12,11 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '909'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 95%
 
 ---
 
@@ -102,7 +102,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
 1. Dans l&#39;onglet **[!UICONTROL Exclus]**, vous trouverez la liste de tous les messages exclus de la cible envoyés, ainsi que la raison de cette exclusion.
 
-   Ici, nous pouvons constater que l’un de nos abonnés aux applications mobiles a été exclu parce que l’adresse était en liste bloquée, et que les autres abonnés l’ont été parce que le profil était un doublon.
+   Ici, nous pouvons voir qu&#39;un de nos abonnés d&#39;applications mobiles a été exclu parce que l&#39;adresse a été placée sur la liste bloquée et les autres abonnés parce que le profil était un duplicata.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_4.png)
 
-1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir des diffusions ultérieures.
+1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté au refus de diffusions ultérieures.
 
    >[!NOTE]
    >
