@@ -11,11 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ La configuration des événements doit être effectuée par un [administrateur](
 >
 >La configuration peut varier selon le type de message transactionnel que vous souhaitez envoyer. Pour en savoir plus, consultez [Configurations spécifiques des événements transactionnels](#transactional-event-specific-configurations).
 
-Une fois le événement publié :
+Une fois l’événement publié :
 
-* L’API qui sera utilisée par le développeur de votre site Web est déployée et les événements transactionnels peuvent maintenant être envoyés. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
+* L’API qui sera utilisée par le développeur de votre site web est déployée et les événements transactionnels peuvent désormais être envoyés. Voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website).
 
-* Le message transactionnel correspondant est automatiquement créé. Voir [Prise en main de la messagerie](../../channels/using/getting-started-with-transactional-msg.md)transactionnelle.
+* Le message transactionnel correspondant est automatiquement créé. Voir la section [Prise en main de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md).
 
-## Créer un événement   {#creating-an-event}
+## Créer un événement    {#creating-an-event}
 
 Pour commencer, créez l’événement correspondant à vos besoins.
 
@@ -68,7 +68,7 @@ Pour commencer, créez l’événement correspondant à vos besoins.
 >
 >Le nombre d’événements temps réel créés peut avoir un impact sur votre plateforme. Pour garantir des performances optimales, veillez à supprimer les événements temps réel dont vous n’avez plus besoin. Voir la section [Supprimer un événement](#deleting-an-event).
 
-## Définir les attributs d’événement   {#defining-the-event-attributes}
+## Définir les attributs d’événement    {#defining-the-event-attributes}
 
 Dans la section **[!UICONTROL Champs]**, définissez les attributs qui seront intégrés au contenu de l’événement et qui pourront être utilisés pour personnaliser le message transactionnel.
 
@@ -80,7 +80,7 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 >
 >Si vous souhaitez créer un message transactionnel multilingue, définissez un attribut d’événement supplémentaire avec l’identifiant **[!UICONTROL AC_language]**. Cela s’applique uniquement aux messages transactionnels basés sur un événement. Une fois l’événement publié, les étapes nécessaires pour éditer le contenu d’un message transactionnel multilingue sont les mêmes que pour un email standard multilingue. Voir [Créer un email multilingue](../../channels/using/creating-a-multilingual-email.md).
 
-## Définir des collections de données   {#defining-data-collections}
+## Définir des collections de données    {#defining-data-collections}
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
@@ -175,7 +175,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
 
    ![](assets/message-center_pub.png)
 
-   L’API qui sera utilisée par le développeur de votre site Web est déployée et les événements transactionnels peuvent maintenant être envoyés.
+   L’API qui sera utilisée par le développeur de votre site web est déployée et les événements transactionnels peuvent désormais être envoyés.
 
 1. Vous pouvez visualiser les logs de publication dans l’onglet correspondant.
 
@@ -207,7 +207,7 @@ Le graphique ci-dessous illustre le processus de publication de messages transac
 
 ![](assets/message-center_pub-process.png)
 
-### Dépublier un événement   {#unpublishing-an-event}
+### Dépublier un événement    {#unpublishing-an-event}
 
 Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’événement, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé. Désormais, même si l’événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
 
@@ -252,7 +252,7 @@ Consultez la [documentation API REST](../../api/using/managing-transactional-mes
 
 La configuration d’un événement transactionnel peut varier en fonction du type de message transactionnel que vous souhaitez envoyer (événement ou profil) et du canal qui sera utilisé.
 
-Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir     [Créer un événement](#creating-an-event).
+Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir      [Créer un événement](#creating-an-event).
 
 ### Messages transactionnels basés sur un événement.{#event-based-transactional-messages}
 
@@ -275,7 +275,7 @@ Pour plus d’informations, voir [Créer de l’engagement avec des messages tra
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Messages transactionnels basés sur un profil   {#profile-based-transactional-messages}
+### Messages transactionnels basés sur un profil    {#profile-based-transactional-messages}
 
 Pour envoyer un message transactionnel basé sur un profil, vous devez d’abord créer et configurer un événement ciblant les données contenues dans la base de données Adobe Campaign.
 
@@ -290,7 +290,7 @@ Pour envoyer un message transactionnel basé sur un profil, vous devez d’abord
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notifications push transactionnelles basées sur un événement   {#event-based-transactional-push-notifications}
+### Notifications push transactionnelles basées sur un événement    {#event-based-transactional-push-notifications}
 
 Pour pouvoir envoyer des notifications push transactionnelles, vous devez configurer Adobe Campaign en conséquence. Voir [Configuration push](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
@@ -320,7 +320,7 @@ L’événement doit contenir les trois éléments suivants :
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Notifications push transactionnelles basées sur un profil   {#profile-based-transactional-push-notifications}
+### Notifications push transactionnelles basées sur un profil    {#profile-based-transactional-push-notifications}
 
 Pour envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont inscrits à votre application mobile, vous devez d’abord créer et configurer un événement ciblant la base de données Adobe Campaign.
 
@@ -345,7 +345,7 @@ Pour envoyer une notification push transactionnelle aux profils Adobe Campaign q
 
 1. Intégrez l’événement à votre site web (voir [Intégrer le déclenchement de l’événement à un site web](#integrating-the-triggering-of-the-event-in-a-website)).
 
-### Configuration d’un événement pour envoyer un message de relance   {#configuring-an-event-to-send-a-follow-up-message}
+### Configuration d’un événement pour envoyer un message de relance    {#configuring-an-event-to-send-a-follow-up-message}
 
 Un messages de relance est un modèle de diffusion marketing prédéfini qui peut être utilisé dans un workflow pour envoyer des messages aux destinataires d’un message transactionnel spécifique. Voir à ce propos la section [Messages de relance](../../channels/using/follow-up-messages.md).
 
@@ -358,7 +358,7 @@ Un messages de relance est un modèle de diffusion marketing prédéfini qui peu
 
    Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Pour plus d’informations sur l’utilisation des messages de relance, voir [Envoyer un message de relance](../../channels/using/follow-up-messages.md#sending-a-follow-up-message).
 
-## Cas pratique : configuration d’un événement pour envoyer un message transactionnel   {#use-case--configuring-an-event-to-send-a-transactional-message}
+## Cas pratique : configuration d’un événement pour envoyer un message transactionnel    {#use-case--configuring-an-event-to-send-a-transactional-message}
 
 Dans cette exemple, nous voulons configurer un événement afin d’envoyer des messages de confirmation après chaque achat sur notre site avec les prérequis suivants :
 
