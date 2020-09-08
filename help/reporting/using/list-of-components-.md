@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
-workflow-type: ht
-source-wordcount: '1279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 99%
 
 ---
 
@@ -152,11 +152,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> En liste bloquée<br /> </td> 
+   <td> Placé sur la liste bloquée<br /> </td> 
    <td> Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux en liste bloquée<br /> </td> 
+   <td> Denylist rate<br /> </td> 
    <td> Pourcentage de diffusions marquées sur la liste bloquée.<br /> </td> 
   </tr> 
   <tr> 
