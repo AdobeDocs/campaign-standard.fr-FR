@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-## Créer un workflow    {#creating-workflow}
+## Créer un workflow     {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
@@ -138,7 +138,7 @@ Pour créer une diffusion email :
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre email, sélectionnez **[!UICONTROL Utiliser le concepteur d&#39;email]**.
 1. Editez et enregistrez votre contenu.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. Dans la section **[!UICONTROL Planning]** du tableau de bord des messages, désélectionnez l’option **[!UICONTROL Demander confirmation avant d’envoyer les messages]**.
 
 Pour créer une diffusion SMS :
 
