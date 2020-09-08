@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: ht
-source-wordcount: '443'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 91%
 
 ---
 
@@ -30,7 +30,7 @@ Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICON
 * Vérifiez chaque débit de diffusion pour vous assurer qu&#39;il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).
 * Lors de l&#39;utilisation des vagues, vérifiez que chaque vague a le temps de se terminer avant le déclenchement de la suivante.
 * Vérifiez que le nombre d&#39;erreurs et les mises en quarantaines correspondent aux autres diffusions.
-* Consultez attentivement les logs de diffusion pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc…).
+* Consultez attentivement les logs de diffusion en détail pour vérifier le type d&#39;erreurs qui sont mises en évidence (listes bloquées, problèmes DNS, règles anti-spam, etc..).
 
 ## Débit des diffusions (Delivery throughput){#delivery-throughput}
 
@@ -68,6 +68,6 @@ Signal Spam fournit permet également aux utilisateurs finaux de déposer des pl
 
 ## 250ok {#solution-250ok}
 
-250ok est une solution de surveillance qui fournit des listes bloquées relatives aux adresses IP et aux domaines, ainsi que des indicateurs de réputation.
+250ok est une solution de surveillance qui fournit des listes bloquées IP et domaine, ainsi que des indicateurs de réputation.
 
 Les informations sont fournies en temps réel, ce qui permet une assistance proactive. 250ok est une solution complémentaire aux outils internes de délivrabilité d&#39;Adobe.
