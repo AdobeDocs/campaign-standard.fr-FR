@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->Gardez à l’esprit les limites de l’enregistrement SFTP, de l’Enregistrement de données et du profil actif, conformément à votre contrat AdobeCampaign, lors de l’utilisation de cette fonctionnalité.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
 ![](assets/data_loading.png)
 
@@ -124,7 +124,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/monitoring-workflow-execution.md)..
 
-## Format des colonnes    {#column-format}
+## Format des colonnes     {#column-format}
 
 Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
 
