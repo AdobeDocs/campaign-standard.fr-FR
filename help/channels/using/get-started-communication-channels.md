@@ -11,11 +11,11 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Les messages transactionnels sont disponibles pour les canaux email, SMS et noti
 
 En savoir plus :
 
-* [A propos des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md)
+* [À propos des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md)
 * [Prise en main de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md)
 * [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md)
 * [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md)
