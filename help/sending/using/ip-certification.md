@@ -12,11 +12,11 @@ discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
-workflow-type: ht
-source-wordcount: '330'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,7 @@ La certification IP est un programme de bonnes pratiques d’envoi destiné à s
 
 Actuellement, deux fournisseurs proposent une certification IP : Return Path et Certified Senders Alliance.
 
-Les expéditeurs certifiés sont ajoutés à des listes autorisées d’emails utilisées par les fournisseurs de messagerie et les entreprises de sécurité de messagerie à travers le monde. Ces listes autorisées commerciales sont basées sur un système qui permet à l’expéditeur de contourner complètement les filtres anti-spam ou de se voir attribuer des points incrémentiels lorsqu’il entre dans le système.
+Les expéditeurs certifiés sont placés sur la liste autorisée et sont utilisés par les fournisseurs de boîtes aux lettres globaux et les sociétés de sécurité des courriels. Ces listes autorisées commerciales sont basées sur un système qui permet à l&#39;expéditeur de contourner complètement les filtres antispam ou de se voir attribuer des points incrémentiels lorsqu&#39;ils entrent dans le système.
 
 Le programme [Return Path Certification](https://www.validity.com/products/returnpath/certification/) offre un certain nombre d’avantages, notamment :
 * une augmentation mesurable du placement en boîte de réception pour les principaux fournisseurs de messagerie tels que Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, etc. ;
@@ -42,6 +42,6 @@ La certification [Certified Senders Alliance](https://certified-senders.org/ce
 * une protection contre les risques juridiques et financiers en respectant entièrement les normes juridiques ;
 * la protection de la réputation grâce à des avertissements précoces émis par le Bureau des réclamations de la Certified Senders Alliance et des rapports quotidiens relatifs aux pièges anti-spam.
 
-Les FAI sont libres d’utiliser ces services et le nombre de FAI est variable selon la liste autorisée.
+Les FAI sont libres d&#39;utiliser ces services et le nombre de FAI peut varier selon la liste autorisée.
 
 Toutefois, étant donné que les FAI sont de plus en plus nombreux à créer leurs filtres anti-spam en fonction du comportement de chaque titulaire de boîte de réception plutôt que du contenu des messages, l’utilisation de la certification IP ne garantit pas nécessairement le placement en boîte de réception, ni même la diffusion.
