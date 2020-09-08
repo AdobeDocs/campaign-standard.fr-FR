@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: ht
-source-wordcount: '5457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '5454'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d&#39;une erreur en raison de laquelle les photos téléchargées depuis un appareil photo et prises en mode portrait s&#39;affichaient dans une position de rotation indésirable.
 * Correction d&#39;une erreur qui affichait des informations de sélection imprécises lors de l&#39;utilisation de l&#39;éditeur de requêtes dans Creative Designer.
 * Correction d&#39;une erreur qui empêchait la duplication correcte d&#39;un élément lors de l&#39;utilisation de l&#39;éditeur de requêtes dans Creative Designer.
-* Correction d’une erreur qui entraînait la poursuite de la diffusion de messages SMS à des destinataires sur liste bloquée même s’ils avaient été désabonnés via une réponse automatique. (CAMP-27128)
+* Correction d’un problème en raison duquel les messages SMS n’étaient pas distribués aux destinataires non inscrits, même s’ils avaient été désabonnés par le biais d’une réponse automatique. (CAMP-27128)
 * Correction d&#39;un problème qui empêchait l&#39;affichage des erreurs à l&#39;origine de l&#39;échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d&#39;une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
