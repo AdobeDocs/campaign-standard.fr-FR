@@ -11,11 +11,11 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '328'
+ht-degree: 81%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Les utilisateurs peuvent être inscrits ou désinscrits par un opérateur, directement depuis l&#39;onglet **[!UICONTROL Général]** du profil.
 
-Dans la section **[!UICONTROL Ne plus contacter (en liste bloquée)]**, les cases à cocher sélectionnées correspondent aux canaux desquels l’utilisateur a décidé de se désinscrire. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
+In the **[!UICONTROL No longer contact (denylisted)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,7 +34,7 @@ Dans la section **[!UICONTROL Ne plus contacter (en liste bloquée)]**, les case
 
 Pour que les utilisateurs puissent s&#39;inscrire ou se désinscrire, vous devez créer et publier une landing page **[!UICONTROL Acquisition de profils]**. Ils seront ensuite en mesure de choisir les canaux en fonction de leurs besoins. Pour ce faire, suivez les étapes ci-après.
 
-Vous pouvez également configurer une landing page **[!UICONTROL Liste bloquée]** qui permettra aux utilisateurs de se désinscrire de toutes les diffusions. Pour plus d&#39;informations, consultez [Configuration d&#39;une landing page pour désactiver toutes les diffusions](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+You can also set up a **[!UICONTROL Denylist]** landing page that will enable users to opt out from all deliveries. Pour plus d&#39;informations, consultez [Configuration d&#39;une landing page pour désactiver toutes les diffusions](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Vous pouvez également configurer une landing page **[!UICONTROL Liste bloquée]
 
 ### Configuration d&#39;une landing page pour désactiver toutes les diffusions {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Pour que les utilisateurs puissent s’inscrire ou se désinscrire de toutes les diffusions, vous devez créer et publier une landing page **[!UICONTROL Liste bloquée]**. Pour plus d&#39;informations sur la création de landing pages, consultez [cette page](../../channels/using/getting-started-with-landing-pages.md).
+To give users the ability to opt out from all deliveries, you have to create and publish a **[!UICONTROL Denylist]** landing page. Pour plus d&#39;informations sur la création de landing pages, consultez [cette page](../../channels/using/getting-started-with-landing-pages.md).
 
 Lorsqu&#39;un utilisateur clique sur le lien de la landing page, l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** du profil est automatiquement sélectionnée.
 
