@@ -11,11 +11,11 @@ topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 93%
 
 ---
 
@@ -66,7 +66,7 @@ Avant de commencer à envoyer des messages à un contact, vous devez obtenir son
 
 Avec Campaign, il est recommandé d’utiliser les **mécanismes simples d’opt-in et d’opt-out** par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
 
-Fournir des **liens de désabonnement** dans vos messages permet l’ajout de profils à la liste bloquée, si nécessaire, et améliore donc la délivrabilité de votre plate-forme. Pour en savoir plus sur la gestion des listes bloquées, consultez la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Providing **unsubscription links** in your messages will enable Profiles to be added to the denylist, when necessary, and therefore to improve your platform deliverability. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
