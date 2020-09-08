@@ -11,9 +11,9 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 # Prévisualiser des diffusions {#previewing-messages}
 
-## Prévisualiser l&#39;email       {#previewing-emails}
+## Prévisualiser l&#39;email        {#previewing-emails}
 
 Campaign Standard vous permet de prévisualiser les messages avant l’envoi, afin de vérifier leur personnalisation et la manière dont vos destinataires les verront.
 
