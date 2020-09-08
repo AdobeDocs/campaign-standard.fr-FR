@@ -11,11 +11,11 @@ topic-tags: application-settings
 discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ Vous pouvez configurer des notifications pour les objets suivants :
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: chaque membre du groupe de sécurité sélectionné est averti (notification par courrier électronique et notification In-App) chaque fois qu’un flux de travail est en erreur. Un clic sur la notification ou sur le lien de l&#39;email affiche le workflow correspondant. Les notifications sont désactivées par défaut dans le modèle d&#39;usine de workflow. Si vous souhaitez les activer, éditez les propriétés du workflow ou du modèle de workflow et ajoutez un groupe de sécurité sous **Général > Exécution > Gestion des erreurs > Superviseurs**. Pour plus d&#39;informations sur les groupes de sécurité, voir [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md). Pour plus d&#39;informations sur les propriétés d&#39;un workflow, voir [Propriétés d&#39;un workflow](../../automating/using/managing-execution-options.md).
+* **[!UICONTROL Workflows]** : chaque membre du groupe de sécurité sélectionné est informé (par email et notification In-App) en cas d’erreur dans un workflow. Un clic sur la notification ou sur le lien de l&#39;email affiche le workflow correspondant. Les notifications sont désactivées par défaut dans le modèle d&#39;usine de workflow. Si vous souhaitez les activer, éditez les propriétés du workflow ou du modèle de workflow et ajoutez un groupe de sécurité sous **Général > Exécution > Gestion des erreurs > Superviseurs**. Pour plus d&#39;informations sur les groupes de sécurité, voir [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md). Pour plus d&#39;informations sur les propriétés d&#39;un workflow, voir [Propriétés d&#39;un workflow](../../automating/using/managing-execution-options.md).
 
    ![](assets/pulse_1.png)
