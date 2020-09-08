@@ -12,11 +12,11 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Pour configurer un service :
 
    ![](assets/lp_service_parameters.png)
 
-1. Sélectionnez l’option **[!UICONTROL Abonnements avec une date]** d’expiration pour définir une durée de validité pour l’abonnement.
+1. Sélectionnez l’option **[!UICONTROL Abonnements limités dans le temps]** pour définir une durée de validité pour l’abonnement.
 
    ![](assets/lp_service_expiration.png)
 
-   Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour les profils de cible abonnés à un service qui n’a pas expiré.
+   Vous pouvez utiliser la date d’expiration dans une activité de segmentation pour cibler les profils abonnés à un service qui n’a pas expiré.
 
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Le libellé du service est obligatoire lorsque vous utilisez un message de confirmation personnalisé.
 
@@ -60,7 +60,7 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer un service et des inscriptions](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
+* Vidéo [Gérer un service et des inscriptions](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Promouvoir un service](../../audiences/using/promoting-a-service.md)
 * [Créer une audience composée d&#39;abonnés](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Associer une landing page à un service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
