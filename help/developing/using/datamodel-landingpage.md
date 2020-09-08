@@ -12,9 +12,9 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 100%
 
@@ -431,7 +431,7 @@ ht-degree: 100%
          <td>enumeration (byte) </td>
          <td>
             <ul>
-               <li>Blocklist - blockList - 3</li>
+               <li>Blacklist - blackList - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -636,7 +636,7 @@ ht-degree: 100%
             <ul>
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
-               <li>Blocklist - blockList - 4</li>
+               <li>Blacklist - blackList - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
