@@ -12,11 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign intègre un jeu de modèles de landing page intégrés.
 * **[!UICONTROL Acquisition]** : il s&#39;agit du modèle par défaut des landing pages. Il permet de capturer et de mettre à jour les données dans la base de données Campaign.
 * **[!UICONTROL Inscription]** : ce modèle doit être utilisé pour proposer des inscriptions à un service.
 * **[!UICONTROL Désinscription]** : ce modèle peut être lié à un email envoyé aux abonnés à un service afin de leur permettre de se désinscrire de celui-ci.
-* **[!UICONTROL Liste bloquée]** : ce modèle doit être utilisé lorsqu’un profil ne souhaite plus être contacté par Campaign. Pour en savoir plus à propos de la gestion de la liste bloquée, consultez la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Liste bloquée]**: ce modèle doit être utilisé lorsqu&#39;un profil ne veut plus être contacté par Campaign. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Ces modèles sont proposés par défaut lors de la création d&#39;une nouvelle landing page.
 
