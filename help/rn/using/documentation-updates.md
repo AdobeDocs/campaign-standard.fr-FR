@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6172'
+source-wordcount: '6125'
 ht-degree: 99%
 
 ---
@@ -55,8 +55,6 @@ Nouvelles fonctionnalités d’emails optimisées par l’IA : optimisation du 
 Les cas d’utilisation des workflows ont été actualisés et réorganisés en sections thématiques – [En savoir plus](../../automating/using/about-workflow-use-cases.md)
 
 Des cas d’utilisation ont été ajoutés pour [crypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [décrypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l’aide du Panneau de contrôle et des workflows Campaign.
-
-Les termes « whiteliste » et « blackliste » ont été supprimés de la documentation Adobe Campaign. Certaines occurrences de ces termes peuvent toujours apparaître dans l’interface utilisateur du produit, les noms d’option et le code interne, mais elles seront remplacées dans les prochaines versions de Campaign par « liste bloquée » et « liste autorisée ».
 
 Les références à l’ancien site web d’assistance ont été remplacées par la nouvelle URL – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ Ajout des informations sur les types de logs de tracking – [En savoir plus](..
 
 La section relative à l’activité Requête a été mise à jour avec des exemples de requêtes – [En savoir plus](../../automating/using/query.md#query-samples)
 
-La section dédiée aux listes bloquées a été renommée « Comprendre les processus d’opt-in et d&#39;opt-out ». Celle-ci a été mise à jour avec des informations concernant la manière de gérer l’inscription à des canaux spécifiques, et de configurer des landing pages pour gérer les inscriptions et les désinscriptions – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La section consacrée aux listes bloquées a été renommée &quot;Comprendre les processus d’inclusion et d’exclusion&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer l’inscription à des canaux spécifiques, et de configurer des landing pages pour gérer les inscriptions et les désinscriptions – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Découvrez les bonnes pratiques relatives à l’utilisation de serveurs SFTP hébergés Adobe – [En savoir plus](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 L’API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/creating-a-privacy-request.md)
 
-Ajout d’informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d’être ajoutés à la liste bloquée – [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Informations Ajoutées sur la configuration des landings page pour permettre à vos destinataires d’être placés sur la liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Réorganisation de la section [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md) et ajout d’un [cas pratique détaillé](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -672,7 +670,7 @@ Ajout d’informations sur l’envoi d’une diffusion en fonction des fuseaux h
 
 Réorganisation de la section **[!UICONTROL Personnaliser une notification push]** avec des cas pratiques détaillés – [En savoir plus](../../channels/using/customizing-a-push-notification.md)
 
-Nouvelle section consacrée à la gestion des listes bloquées – [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nouvelle section consacrée à la gestion des listes bloquées. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Mises à jour des informations sur les diffusions en échec et les mises en quarantaine – [En savoir plus](../../sending/using/monitoring-a-delivery.md)
 
