@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Il faut compter au moins 10 minutes avant de pouvoir utiliser les données reç
 Dans cet exemple, vous décidez d&#39;envoyer un email à tous vos abonnés s&#39;étant rendus dans votre boutique de Lyon au cours des quinze derniers jours.
 
 1. Créez une activité marketing de type Email.
-1. Lors de la définition de l&#39;audience de la diffusion, placez l&#39;élément **[!UICONTROL Abonnements à une application]** dans l&#39;espace de travail.
+1. Lors de la définition de l’audience de la diffusion, placez l’élément **[!UICONTROL Abonnements à une application]** dans l’espace de travail.
 
    ![](assets/poi_subscriptions_app.png)
 
    La gestion des audiences est présentée dans la section [Définir les audiences](../../audiences/using/creating-audiences.md).
 
-1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profil/Abonnements à une application]**, placez l&#39;élément **[!UICONTROL Inscription à la localisation Point ciblé]** dans l&#39;espace de travail.
+1. Dans la fenêtre **[!UICONTROL Ajouter une règle - Profil/Abonnements à une application]**, placez l’élément **[!UICONTROL Inscription à la localisation Point ciblé]** dans l’espace de travail.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
@@ -46,8 +46,8 @@ Dans cet exemple, vous décidez d&#39;envoyer un email à tous vos abonnés s&#3
    ![](assets/poi_location_subscription.png)
 
 1. Dans le champ **[!UICONTROL Type de filtre]**, sélectionnez **[!UICONTROL Relatif]**.
-1. Cochez l&#39;option **[!UICONTROL Les derniers jours]** et saisissez **[!UICONTROL 15]** dans le champ correspondant.
-1. Définissez le nombre de fois que l&#39;utilisateur doit avoir fréquenté le point ciblé.
+1. Cochez l’option **[!UICONTROL Les derniers jours]** et saisissez **[!UICONTROL 15]** dans le champ correspondant.
+1. Définissez le nombre de fois que l’utilisateur doit avoir fréquenté le point ciblé.
 1. Cliquez sur **[!UICONTROL Confirmer]** pour sauvegarder votre audience.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
