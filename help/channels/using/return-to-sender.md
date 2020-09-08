@@ -11,11 +11,11 @@ topic-tags: direct-mail
 discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+workflow-type: tm+mt
+source-wordcount: '225'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l&#39;expéditeur sont pris en charge. Les adresses postales correspondantes peuvent être ainsi exclues des communications futures. Vous pourrez également être averti si une adresse est incorrecte, interagir avec le client à travers d&#39;autres canaux ou l&#39;inciter à mettre à jour son adresse postale.
 
-Par exemple, un contact a déménagé sans vous indiquer sa nouvelle adresse. L’opérateur récupère la liste des adresses erronées et l’envoie à Adobe Campaign qui place automatiquement ces adresses dans la bloquée.
+Par exemple, un contact a déménagé sans vous indiquer sa nouvelle adresse. Le fournisseur récupère la liste des adresses erronées et envoie ces informations à Adobe Campaign qui place sur la liste bloquée automatiquement les adresses erronées.
 
 Pour permettre cette fonctionnalité, le modèle de diffusion courrier par défaut inclut l&#39;identifiant du log de diffusion au sein du contenu. Adobe Campaign peut ainsi synchroniser le profil et les données de diffusion avec les informations renvoyées par l&#39;opérateur.
 
@@ -36,7 +36,7 @@ Un modèle d&#39;import est disponible sous **[!UICONTROL Adobe Campaign > Res
 
 Une fois l&#39;import effectué, Adobe Campaign réalise automatiquement les actions suivantes :
 
-* Les adresses incorrectes sont ajoutées à la liste bloquée au niveau du profil
+* Les adresses incorrectes sont placées sur la liste bloquée au niveau du profil
 * Les principaux indicateurs de diffusion (KPI) sont mis à jour.
 * Les logs de diffusion sont mis à jour.
 
