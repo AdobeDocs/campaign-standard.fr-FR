@@ -12,11 +12,11 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 >
 >Ce document s’applique uniquement aux appareils iOS.
 
-Dans ce document, découvrez comment afficher une image à partir d’une notification Push iOS Adobe Campaign Standard.
+Dans ce document, découvrez comment afficher une image à partir d’une notification push iOS Adobe Campaign Standard.
 
 ## Étape 1 : configuration des notifications push {#set-up-push}
 
@@ -43,11 +43,11 @@ Pour envoyer des notifications push avec l&#39;application SDK Experience Cloud
 
 Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéder à un ensemble d&#39;options avancées lors de sa création.
 
-1. Créez une notification push. Pour plus d&#39;informations à ce sujet, consultez cette [page](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Créez une notification push. Pour plus d’informations à ce propos, consultez cette [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. From your push notification content page, access the **[!UICONTROL Advanced options]** section.
+1. Dans la page de contenu de la notification push, accédez à la section **[!UICONTROL Options avancées]**.
 
-1. Enter the URL of your file in the **[!UICONTROL Rich media content URL]** field.
+1. Saisissez l’URL de votre fichier dans le champ **[!UICONTROL URL du contenu multimédia enrichi]**.
 À partir d’iOS 10, vous pouvez insérer des fichiers image, gif, audio et vidéo.
 
    ![](assets/push_notif_advanced_6.png)
@@ -62,13 +62,13 @@ Après avoir personnalisé votre notification push dans Adobe Campaign, vous dev
 >
 >Si votre application est en Objective-C, reportez-vous à la [documentation](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html) suivante.
 
-If your app is in [!DNL Swift], follow the steps below:
+Si votre application est en [!DNL Swift], procédez comme suit :
 
-1. Open your [!DNL Xcode] project.
+1. Ouvrez votre projet [!DNL Xcode].
 
-1. In your [!DNL Xcode] project, select **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Dans le projet [!DNL Xcode], sélectionnez **[!UICONTROL Fichier]** > **[!UICONTROL Nouveau]** > **[!UICONTROL Cible]**.
 
-1. Select **[!UICONTROL Notification Service Extension]**.
+1. Sélectionnez **[!UICONTROL Extension du service de notification]**.
 
    ![](assets/push_notif_advanced_12.png)
 
