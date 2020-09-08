@@ -12,11 +12,11 @@ discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '873'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Tout d’abord, vous devez étendre la ressource **[!UICONTROL Profil]** avec un
 
 Pour plus d&#39;informations sur l&#39;extension d’une ressource personnalisée, voir [Principales étapes pour ajouter une ressource](../../developing/using/key-steps-to-add-a-resource.md).
 
-## Créer un workflow    {#creating-a-workflow}
+## Créer un workflow     {#creating-a-workflow}
 
 1. Dans **[!UICONTROL Activités marketing]**, cliquez sur **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Workflow]**.
 1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
@@ -95,7 +95,7 @@ Les étapes détaillées pour créer un workflow sont présentées dans la secti
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Utiliser le concepteur d&#39;email]**.
 1. Editez et enregistrez votre contenu.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. Dans la section **[!UICONTROL Planning]** du tableau de bord des messages, désélectionnez l’option **[!UICONTROL Demander confirmation avant d’envoyer les messages]**.
 
 ## Créer une activité Mise à jour de données {#creating-update-data-activity}
 
