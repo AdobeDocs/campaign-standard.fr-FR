@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 80%
@@ -98,9 +98,9 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 1. **Créer un ticket** - Une fois le sous-domaine délégué, l&#39;Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour le service à la clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
-   * Objet : [ACS] Nouvelle marque configurée
+   * Objet : Configuration de la nouvelle marque ACS
 
-   * Contenu : Un nouveau domaine a été délégué à l&#39;Adobe et nous aimerions le configurer dans notre plate-forme ACS
+   * Contenu : Un nouveau domaine a été délégué à l&#39;Adobe et nous aimerions le faire installer sur notre plateforme Campaign
 
    * Domaine : XXX
 
