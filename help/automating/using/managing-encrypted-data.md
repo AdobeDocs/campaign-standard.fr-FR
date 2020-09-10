@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Une fois la demande traitée, les commandes de cryptage/décryptage seront dispo
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Une vidéo didacticiel montrant comment utiliser une clé GPG pour déchiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -63,7 +63,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Dans le système externe, utilisez la clé publique téléchargée à l’aide du panneau de contrôle pour crypter les données à importer dans Campaign Standard.
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
 1. Dans Campaign Standard, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
@@ -96,7 +96,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
-Une vidéo didacticiel montrant comment utiliser une clé GPG pour chiffrer des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -130,4 +130,4 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
