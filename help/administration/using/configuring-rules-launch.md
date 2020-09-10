@@ -12,9 +12,9 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Pour créer ces éléments de données, procédez comme suit :
 
 1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Mobile Core]**. Sélectionnez ensuite **[!UICONTROL Experience Cloud ID]** dans la liste déroulante de type **[!UICONTROL Data element]**.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Pour créer l’élément de données Pkey, cliquez sur **[!UICONTROL Add data element]**.
 
@@ -143,7 +143,7 @@ Pour envoyer des données d’identification personnelles à [!DNL Adobe Campaig
 
 1. Dans **[!UICONTROL Timeout]**, sélectionnez 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 Vos données utilisateur sont maintenant configurées pour être envoyées à Campaign.
 
@@ -179,7 +179,7 @@ Pour envoyer des données de tracking à [!DNL Adobe Campaign Standard] pour ind
 
 1. Dans **[!UICONTROL Timeout]**, sélectionnez 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### Postback de tracking des notifications push {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ Pour tracker les actions de l’application, utilisez l’API trackAction. Pour 
 
 1. Dans **[!UICONTROL Timeout]**, sélectionnez 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
