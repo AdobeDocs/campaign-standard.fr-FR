@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 23d6c78f924635a8ce512fd91b4a46db395e8bd1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Vous pouvez ajouter une marge intérieure à l’aide du chemin de navigation HT
 
 1. Dans l’angle inférieur gauche de l’écran, cliquez sur le chemin de navigation HTML.
 
-   ![](assets/breadcrumb.png)
+   ![](assets/do-not-localize/breadcrumb.png)
 
 1. Cliquez sur l’élément auquel vous souhaitez ajouter une marge intérieure.
 1. Cliquez sur la balise parent dans le chemin de navigation HTML.
