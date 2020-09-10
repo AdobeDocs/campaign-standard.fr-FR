@@ -11,11 +11,11 @@ topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
-workflow-type: ht
-source-wordcount: '1199'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Elle est axée sur la répartition des différentes tâches entre trois types d&
 ### Administrateurs fonctionnels {#functional-administrators}
 
 Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux parties les plus techniques de l&#39;interface. Ils détiennent le rôle **[!UICONTROL Administration]** et veillent à ce que la plate-forme soit configurée de sorte que les marketeurs puissent se concentrer exclusivement sur la diffusion de leurs campagnes.
+
+>[!CAUTION]
+>
+>Seuls les administrateurs fonctionnels, dotés du rôle **[!UICONTROL Administration]** et ayant accès à **** toutes les unités, peuvent accéder aux journaux d’envoi, aux journaux de messages, aux logs de tracking, aux journaux d’exclusion, aux journaux de propositions et aux journaux d’abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
 
 Les administrateurs fonctionnels sont les seuls utilisateurs ayant accès au menu **[!UICONTROL Administration]** dans l&#39;interface Adobe Campaign. Etant donné que ces utilisateurs doivent accéder à des ressources techniques, des rôles plus avancés doivent leur être attribués, tels que les rôles d&#39;usine **[!UICONTROL Administration]** et **[!UICONTROL Datamodel]**. Ces rôles sont combinés dans le groupe de sécurité d&#39;usine **[!UICONTROL Administrateurs]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
