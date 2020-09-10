@@ -11,11 +11,11 @@ topic-tags: importing-and-exporting-data
 discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 94%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # Export des logs{#exporting-logs}
 
 Qu&#39;elles concernent les diffusions ou les abonnements, les données de log peuvent être exportées par le biais d&#39;un workflow simple. Vous pouvez ainsi analyser les résultats de vos campagnes dans vos outils de reporting ou de Business Intelligence.
+
+>[!CAUTION]
+>
+>Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
 
 Grâce à une **[!UICONTROL Requête incrémentale]** qui récupère uniquement les nouveaux logs à chaque exécution du workflow et une activité **[!UICONTROL Extraction de fichier]** simple qui permet de définir les colonnes de sortie, vous pouvez obtenir un fichier au format et avec les données désirés. Utilisez ensuite une activité **[!UICONTROL Transfert de fichier]** pour récupérer le fichier final. Chaque exécution du workflow est planifiée par un **[!UICONTROL Planificateur]**.
 
