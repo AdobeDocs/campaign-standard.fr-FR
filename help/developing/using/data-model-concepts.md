@@ -12,8 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 84%
 
 ---
 
@@ -41,3 +44,7 @@ Les champs d&#39;extension sont générés avec un préfixe de sorte qu&#39;ils 
 Il est également possible de [configurer la navigation](configuring-the-screen-definition.md) dans les écrans correspondant à la ressource créée.
 
 Il est possible **d&#39;exporter et d&#39;importer** des ressources personnalisées, par exemple d&#39;un environnement de développement vers un environnement de production. Voir à ce propos ce [cas pratique détaillé](../../automating/using/exporting-importing-custom-resources.md).
+
+>[!CAUTION]
+>
+>Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
