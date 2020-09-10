@@ -12,15 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 86%
 
 ---
 
 
 # Contrôler une diffusion{#monitoring-a-delivery}
 
-Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son impact :
+Il existe plusieurs façons de surveiller une diffusion et de mesurer son impact. En tant qu’administrateur fonctionnel, vous pouvez accéder aux journaux de messages et aux logs de diffusion.
+>[!CAUTION]
+>
+>Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
 
 * **Logs des messages** : ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
