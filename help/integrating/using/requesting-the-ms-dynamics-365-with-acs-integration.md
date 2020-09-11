@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 35%
@@ -61,12 +61,12 @@ Les tickets d&#39;assistance peuvent être enregistrés avec l&#39;assistance pe
 
 Pour tout problème lié aux flux de données d’intégration, veillez à inclure la suite de rapports dans la description du problème ainsi que les informations suivantes :
 
-* Propriétaire du processus : Architectes d&#39;ingénierie
+* **Propriétaire** du processus : Architectes d&#39;ingénierie
 
-* ID de processus ES : [Fourni pendant le processus d&#39;intégration]
+* **ID** de processus ES : Fourni pendant le processus d&#39;intégration
 
-* Titre du processus : Intégration Dynamics 365 / Adobe Campaign Standard
+* **Titre** du processus : Intégration Dynamics 365 / Adobe Campaign Standard
 
-* Description du problème : [Description du problème]
+* **Description** de la publication : Description du problème
 
 La couverture du support d&#39;intégration est actuellement de 24h/24 et 5j/7 (disponible du lundi au vendredi, à l&#39;exclusion des jours fériés et des périodes de pause).
