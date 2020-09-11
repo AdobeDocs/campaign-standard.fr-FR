@@ -12,10 +12,10 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 0%
+source-wordcount: '1071'
+ht-degree: 2%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 0%
 
 ## Get started with AI-powered emails{#journey-ai-ovv}
 
-Grâce à Campaign, vous pouvez optimiser la conception et la diffusion des voyages des clients afin de prédire les préférences d’engagement de chaque individu. Optimisé par l&#39;IA de parcours, l&#39;Adobe Campaign peut analyser et prédire les taux ouverts, les temps d&#39;envoi optimaux et le déclenchement probable en fonction des mesures d&#39;engagement historiques.
+Grâce à Campaign, vous pouvez optimiser la conception et la diffusion des voyages des clients afin de prédire les préférences d’engagement de chaque individu. Optimisé par l’IA de parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques.
 
 **Modèles d&#39;apprentissage automatique**
 
-Adobe Campaign Standard offres deux nouveaux modèles d&#39;apprentissage automatique : **Optimisations** de temps d’envoi prédictive et score **d’engagement** prédictif. Ces deux modèles sont ensemble appelés Journey AI qui est une classe de modèles d&#39;apprentissage automatique qui sont spécifiques à la conception et à la prestation de meilleurs voyages client.
+adobe campaign standard offre deux nouveaux modèles d&#39;apprentissage automatique : **Optimisations** de temps d’envoi prédictive et score **d’engagement** prédictif. Ces deux modèles sont ensemble appelés Journey AI qui est une classe de modèles d&#39;apprentissage automatique qui sont spécifiques à la conception et à la prestation de meilleurs voyages client.
 
 * **Optimisation** prédictive du temps d&#39;envoi : L’optimisation prédictive de l’heure d’envoi prédit la meilleure heure d’envoi pour chaque profil destinataire pour les ouvertures ou les clics par courrier électronique. Pour chaque profil de destinataire, les scores indiquent la meilleure heure d’envoi pour chaque jour de la semaine et le jour de semaine le plus approprié à envoyer pour obtenir les meilleurs résultats.
 
 * **Évaluation** prédictive de l’engagement : Le score d’engagement prédictif prédit la probabilité qu’un destinataire s’engage avec un message, ainsi que la probabilité de s’exclure (de se désabonner) dans les 7 jours qui suivent l’envoi du prochain courrier électronique. Les probabilités sont divisées en compartiments selon le risque spécifique de désengagement, moyen ou faible. Le modèle permet également aux clients de déterminer le niveau de risque par rapport aux autres.
 
 >[!CAUTION]
->Cette fonctionnalité n&#39;est pas disponible en standard dans le cadre du produit. La mise en oeuvre nécessite l&#39;engagement de Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
+>Cette fonctionnalité n&#39;est pas disponible en standard dans le cadre du produit. La mise en oeuvre nécessite l’engagement de Adobes Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 >
 >Séparément, la fonction exigeait l&#39;utilisation d&#39;un enregistrement Azure qui doit être fourni par le client.
 
@@ -49,15 +49,15 @@ Dans le modèle d’optimisation du temps d’envoi prédictif, il existe deux s
 * Le délai d&#39;envoi anticipé pour l&#39;ouverture est le meilleur moment pour envoyer une communication au client afin d&#39;optimiser les ouvertures
 * Le temps d&#39;envoi prédictif des clics est le meilleur moment pour envoyer une communication au client afin d&#39;optimiser les clics
 
-**Entrée** du modèle : Attributs de Logs de diffusion, de logs de tracking et de profil (non PII)
+**Entrée** du modèle : Attributs de logs de diffusion, de logs de tracking et de profil (non PII)
 
 **Sortie** du modèle : Meilleur moment pour envoyer un message (pour les ouvertures et les clics)
 
 
 Détails de la sortie
 
-* Calculez le meilleur moment de la journée pour envoyer un courriel pendant les 7 prochains jours avec des intervalles d&#39;une heure (p. ex. : 9 h, 10 h, 11 h)
-* Le modèle indiquera le meilleur moment d&#39;envoi du courriel dans les 7 prochains jours.
+* Calculez la meilleure heure d&#39;envoi du courriel pendant les 7 jours de la semaine avec des intervalles d&#39;une heure (p. ex. : 9 h, 10 h, 11 h)
+* Le modèle indique le meilleur jour de la semaine et la meilleure heure de la journée.
 * Chaque heure optimale est calculée deux fois : une fois pour maximiser le taux ouvert et une fois pour maximiser le taux de clics
 * 16 champs sont indiqués (14 pour les jours de la semaine et 2 pour toute la semaine) :
    * meilleur moment pour envoyer un courriel afin d’optimiser les clics pour le lundi - valeurs comprises entre 0 et 23
@@ -126,7 +126,7 @@ Le score d’engagement prédictif vous permet d’effectuer les opérations sui
 Ce modèle utilise plusieurs scores pour indiquer :
 
 * **Ouvrez Score d’engagement / Cliquez sur Score** d’engagement : cette valeur correspond à la probabilité qu’un abonné interagisse avec un message spécifique (ouvrez ou cliquez). Les valeurs sont comprises entre 0,0 et 1,0.
-* **Probabilité** de Désinscription : cette valeur correspond à la probabilité pour le destinataire de se désabonner d’un canal de courriel à condition qu’un seul courriel soit ouvert. Les valeurs sont comprises entre 0,0 et 1,0.
+* **Probabilité** de désinscription : cette valeur correspond à la probabilité pour le destinataire de se désabonner d’un canal de courriel à condition qu’un seul courriel soit ouvert. Les valeurs sont comprises entre 0,0 et 1,0.
 * **Niveau** de rétention :  cette valeur classe les utilisateurs en trois niveaux : bas, moyen et élevé. Elevé étant le plus susceptible de rester avec la marque et faible valeur susceptible de se désabonner.
 * **Rang de pourcentage de rétention**: profil classé en termes de probabilité de désinscription. Les valeurs sont comprises entre 0,0 et 1,0. Par exemple, si le pourcentage de rétention est de 0,953, ce destinataire est plus susceptible de rester avec la marque et moins susceptible de se désabonner que 95,3 % de tous les destinataires.
 
