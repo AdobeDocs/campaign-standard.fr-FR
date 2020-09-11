@@ -4,10 +4,10 @@ sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 99%
+source-wordcount: '1628'
+ht-degree: 97%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 99%
       + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques Triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Prise en main de l’intégration de Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Prise en main de l’intégration de Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Gérer les données entre Campaign et Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Demande d’intégration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configurer les E/S d&#39;Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Configuration de Dynamics 365 pour l’intégration Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Mappage des ressources personnalisées Campaign et des entités personnalisées Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Utilisation de l&#39;intégration Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Gardiens d’intégration](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d’un workflow {#workflow-general-operation}
@@ -310,7 +317,7 @@ ht-degree: 99%
       + [Export de listes](automating/using/exporting-lists.md)
       + [Cas pratique : export/import de ressources personnalisées](automating/using/exporting-importing-custom-resources.md)
    + Cas pratiques {#workflow-use-case}
-      + [À propos des cas d’utilisation de workflow](automating/using/about-workflow-use-cases.md)
+      + [À propos des cas pratiques de workflows](automating/using/about-workflow-use-cases.md)
       + Diffusions {#deliveries}
          + [Création de diffusions avec un complémentaire](automating/using/workflow-created-query-with-complement.md)
          + [Création de diffusions à la date de création des profils](automating/using/workflow-creation-date-query.md)
