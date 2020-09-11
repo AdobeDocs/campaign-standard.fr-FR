@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 44%
@@ -105,7 +105,8 @@ Voici une liste des attributs et une description :
 >La période d&#39;expiration de la page miroir de courriel peut être modifiée dans l&#39;écran de configuration de l&#39;activité de canal de courriel Campaign correspondante (voir Paramètres [de la période de](../../administration/using/configuring-email-channel.md#validity-period-parameters)validité).
 
 >[!NOTE]
-Pour l’opt-out, lorsqu’un attribut d’opt-out est modifié dans Dynamics 365, la modification est prise en compte dans Campaign si vous avez sélectionné la configuration d’opt-out de Dynamics 365 vers Campaign ou bidirectionnelle, et si cet attribut est correctement mappé.
+>
+>Pour l’opt-out, lorsqu’un attribut d’opt-out est modifié dans Dynamics 365, la modification est prise en compte dans Campaign si vous avez sélectionné la configuration d’opt-out de Dynamics 365 vers Campaign ou bidirectionnelle, et si cet attribut est correctement mappé.
 
 ## Flux de données {#data-flows}
 
@@ -124,7 +125,8 @@ En fonction du volume d’enregistrements, il se peut que votre enregistrement C
 L&#39;attribut externeId de la table de profils Campaign doit être renseigné avec l&#39;attribut contactId de l&#39;attribut de contact Dynamics 365 pour que l&#39;entrée de contact fonctionne. Les entités personnalisées Campaign doivent également être renseignées avec un attribut d&#39;ID unique Dynamics 365 ; cependant, cet attribut peut être stocké dans n’importe quel attribut d’entité personnalisée Campaign (c.-à-d. qu’il n’est pas nécessaire qu’il s’agisse d’externalId).
 
 >[!NOTE]
-Pour l&#39;entrée d&#39;entité personnalisée, le suivi des modifications doit être activé dans Dynamics 365 pour les entités personnalisées synchronisées.
+>
+>Pour l&#39;entrée d&#39;entité personnalisée, le suivi des modifications doit être activé dans Dynamics 365 pour les entités personnalisées synchronisées.
 
 ### Flux de Événement de marketing par courriel
 
