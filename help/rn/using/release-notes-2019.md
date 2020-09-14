@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour      2019
+title: Notes de mise à jour       2019
 description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7629'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -293,7 +293,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * L’option &quot;Launch_URL_Campaign&quot; a été ajoutée dans Campaign pour gérer les propriétés des applications mobiles créées avec le SDK Mobile Adobe Experience Platform.
 * Correction d’une erreur qui entraînait la désélection de l’option d’environnement sandbox après le téléchargement du certificat d’une nouvelle propriété mobile et la sortie de la page de propriété de l’application mobile.
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
-* Correction d’un problème dans les landings page de liste bloquée qui se produisait lors de la tentative de désabonnement de profils d’un service.
+* Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
 
 ## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
 
@@ -399,7 +399,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019        {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019         {#release-19-1-3---march-2019}
 
 **Améliorations du Concepteur d’email**
 
@@ -617,7 +617,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Dans l’éditeur de requête, correction d’un problème lié à la condition de jointure entre le broadlog et le log de tracking pour rtEvent. (CAMP-28780)
 * Correction d’un problème qui empêchait l’enregistrement des modifications apportées à l’option de page d’entrée &quot;Action spécifique&quot;. (CAMP-29422)
 * Correction d’un problème qui empêchait d’exporter la payload d’un événement dans un workflow. (CAMP-29029)
-* Correction d’un problème qui empêchait l’exclusion des numéros SMS placés sur la liste bloquée dans un message SMS. (CAMP-28898)
+* Correction d’un problème qui empêchait les numéros de SMS sur liste bloquée d’être exclus dans un message SMS. (CAMP-28898)
 * Correction d’un problème qui empêchait les fournisseurs SMPP d’être avertis en cas d’erreur lors du traitement des messages entrants. (CAMP-29804)
 * Correction d’un problème qui autorisait la suppression de comptes externes avec les diffusions associées. (CAMP-29738)
 * Le débit d’envoi a été amélioré et stabilisé pour les messages SMS.
