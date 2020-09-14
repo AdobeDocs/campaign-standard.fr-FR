@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 97%
    + Messagerie In-App {#in-app-messaging}
       + [A propos de la messagerie In-App](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d’un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Personnalisation d&#39;un message In-App](channels/using/customizing-an-in-app-message.md)
+      + [Personnalisation d’un message In-App](channels/using/customizing-an-in-app-message.md)
    + Canal Courrier {#direct-mail}
       + [A propos du canal Courrier](channels/using/about-direct-mail.md)
       + [Retour à l’expéditeur](channels/using/return-to-sender.md)
@@ -260,11 +260,11 @@ ht-degree: 97%
       + [Gestion des options d’exécution](automating/using/managing-execution-options.md)
       + [Gestion des propriétés des activités](automating/using/activity-properties.md)
    + Appeler un workflow avec des paramètres externes {#calling-workflow-external-parameters}
-      + [Vue d’ensemble](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Déclaration des paramètres dans l&#39;activité Signal externe](automating/using/declaring-parameters-external-signal.md)
-      + [Définir les paramètres lors de l’appel du workflow  ](automating/using/defining-parameters-calling-workflow.md)
-      + [Suivi des variables d’événements  ](automating/using/monitoring-events-variables.md)
-      + [Personnalisation du processus avec des paramètres externes](automating/using/customizing-workflow-external-parameters.md)
+      + [Présentation](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [Déclarer les paramètres dans l’activité Signal externe](automating/using/declaring-parameters-external-signal.md)
+      + [Définir les paramètres lors de l’appel du workflow](automating/using/defining-parameters-calling-workflow.md)
+      + [Suivi des variables d’événements](automating/using/monitoring-events-variables.md)
+      + [Personnaliser le workflow avec des paramètres externes](automating/using/customizing-workflow-external-parameters.md)
       + [Cas pratique](automating/using/use-case-calling-workflow.md)
    + Activités de ciblage {#targeting-activities}
       + [A propos des activités de ciblage](automating/using/about-targeting-activities.md)
