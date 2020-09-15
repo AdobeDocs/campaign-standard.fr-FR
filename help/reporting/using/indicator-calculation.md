@@ -11,11 +11,11 @@ topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion email {#email-delivery}
+## Diffusion Email {#email-delivery}
 
 <table> 
  <thead> 
@@ -53,7 +53,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Denylist rate<br /> </td> 
+   <td> Taux sur la liste bloquée<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
