@@ -32,7 +32,7 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 
 ![](assets/inapp_report.png)
 
-Le premier tableau **Résumé de l&#39;engagement In-App** (In-App Engagement Summary) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
+Le premier tableau **Résumé de l&#39;engagement In-App** est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur la réactivité du destinataire face à la diffusion :
 
 * **[!UICONTROL Traités/Envoyés]** : nombre total d&#39;envois pour la diffusion In-App.
 * **[!UICONTROL Délivrés]** : nombre de messages In-App envoyés avec succès, par rapport au nombre total de messages envoyés.
@@ -43,7 +43,7 @@ Le premier tableau **Résumé de l&#39;engagement In-App** (In-App Engagement Su
 
 ![](assets/inapp_report_1.png)
 
-Le deuxième tableau **Clics et rejets In-App** (In-App Clicks &amp; Dismissals) est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur le comportement du destinataire par diffusion :
+Le deuxième tableau **Clics et rejets In-App** est divisé en trois catégories : par jour, par application mobile et par diffusion. Il contient les données disponibles sur le comportement du destinataire par diffusion :
 
 * **[!UICONTROL Clics In-App]** : nombre total de destinataires ayant cliqué sur le bouton 1 ou le bouton 2.
 * **[!UICONTROL Clics In-App uniques]** : nombre de fois où les destinataires ont cliqué sur le bouton 1 ou le bouton 2.
