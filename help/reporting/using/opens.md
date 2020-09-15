@@ -1,6 +1,6 @@
 ---
-title: Ouvertures (Opens)
-description: Grâce au rapport Ouvertures (Opens), découvrez quelle diffusion a été la plus visualisée en fonction de différents critères.
+title: Ouvertures
+description: Grâce au rapport Ouvertures, découvrez quelle diffusion a été la plus visualisée en fonction de différents critères.
 page-status-flag: never-activated
 uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
 contentOwner: sauviat
@@ -14,13 +14,16 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '66'
+ht-degree: 100%
 
 ---
 
 
-# Ouvertures (Opens){#opens}
+# Ouvertures{#opens}
 
-Le rapport **[!UICONTROL Ouvertures]** permet d'identifier les diffusions qui ont été les plus visionnées par les destinataires.
+Le rapport **[!UICONTROL Ouvertures]** permet d&#39;identifier les diffusions qui ont été les plus visionnées par les destinataires.
 
 ![](assets/delivery_reports_opens.png)
 
