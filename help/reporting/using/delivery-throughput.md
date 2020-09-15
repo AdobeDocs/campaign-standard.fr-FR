@@ -1,6 +1,6 @@
 ---
-title: Débit des diffusions (Delivery throughput)
-description: Grâce au rapport d'usine Débit des diffusions (Delivery throughput), découvrez les performances de votre diffusion.
+title: Débit des diffusions
+description: Grâce au rapport d'usine Débit des diffusions, découvrez les performances de votre diffusion.
 page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
 contentOwner: sauviat
@@ -14,11 +14,14 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
+workflow-type: ht
+source-wordcount: '83'
+ht-degree: 100%
 
 ---
 
 
-# Débit des diffusions (Delivery throughput){#delivery-throughput}
+# Débit des diffusions{#delivery-throughput}
 
 Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un envoi, ou de plusieurs envois. Ces données sont :
 
