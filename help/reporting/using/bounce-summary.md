@@ -1,6 +1,6 @@
 ---
-title: Synthèse des rebonds (Bounce summary)
-description: Grâce au rapport d’usine Synthèse des rebonds (Bounce summary), découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
+title: Synthèse des bounces
+description: Grâce au rapport d’usine Synthèse des bounces, découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
 page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
 contentOwner: sauviat
@@ -14,11 +14,14 @@ internal: n
 snippet: y
 translation-type: ht
 source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
 
-# Synthèse des rebonds (Bounce summary){#bounce-summary}
+# Synthèse des bounces{#bounce-summary}
 
 Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours.
 
