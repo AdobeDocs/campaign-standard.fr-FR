@@ -59,7 +59,7 @@ L&#39;accord sur l&#39;utilisation des rapports dynamiques fonctionne comme un c
 
 Trois options sont disponibles :
 
-* **[!UICONTROL Me demander plus tard]** : Lordque vous cliquez sur **Me demander plus tard** : lorsque vous cliquez sur Me demander plus tardMe demander plus tard, la fenêtre ne s&#39;affiche plus pendant 24 heures. Tant que vous n&#39;avez pas accepté ou refusé les termes de l&#39;accord, les dimensions de profil ne s&#39;affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées.
+* **[!UICONTROL Me demander plus tard]** : Lorsque vous cliquez sur **Me demander plus tard**, la fenêtre ne s&#39;affiche plus pendant 24 heures. Tant que vous n&#39;avez pas accepté ou refusé les termes de l&#39;accord, les dimensions de profil ne s&#39;affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées.
 * **[!UICONTROL Accepter]** : lorsque vous acceptez les termes de cet accord, vous autorisez Adobe Campaign à collecter les PII de vos clients et à les transférer au centre de données ou de reporting.
 * **[!UICONTROL Refuser]** : lorsque vous refusez les termes de l&#39;accord, les dimensions de profil ne s&#39;affichent pas dans vos rapports et les PII de vos clients ne sont pas collectées ni envoyées. Notez que dans ce cas, externalID sera toujours collecté et utilisé pour identifier les utilisateurs finaux.
 
