@@ -92,7 +92,7 @@ Par défaut, le workflow technique démarre toutes les 15 minutes. Si nécessai
 
 Votre workflow va maintenant redémarrer et synchroniser les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard.
 
-## Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign.{#set-up-campaign}
+## Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign. {#set-up-campaign}
 
 Pour utiliser une propriété mobile Experience Platform Launch dans Campaign, vous devez également configurer cette propriété dans Adobe Campaign. Dans Adobe Campaign, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard.
 
