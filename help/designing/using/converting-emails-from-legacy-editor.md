@@ -11,9 +11,9 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
 
 Essayons de convertir cet email, créé dans l’ancien éditeur, en modèle **[!UICONTROL Concepteur d’email]**.
 
-## Identifier la section de votre email
+### Identifier la section de votre email
 
 Nous pouvons identifier 11 sections dans cet email.
 
