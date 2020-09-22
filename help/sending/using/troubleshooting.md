@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 61%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -38,30 +38,30 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
 ## Liste bloquée contre quarantaine {#denylist-versus-quarantine}
 
-* **Quelle est la différence entre une adresse électronique placée sur la liste bloquée et une adresse électronique mise en quarantaine ?**
+* **Quelle est la différence entre une adresse électronique sur la liste bloquée et une adresse électronique mise en quarantaine ?**
 
-   * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
+   * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
 
    * L&#39;application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
-   Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
+   Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
-   Voici 10 raisons possibles : non défini, utilisateur inconnu, domaine invalide, adresse placée sur la liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte aux lettres pleine, non connectée.
+   Voici 10 raisons possibles : non défini, utilisateur inconnu, domaine invalide, adresse à la liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte aux lettres pleine, non connectée.
 
    Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
 ## Suppression de la liste bloquée {#removing-from-denylist}
 
-* **Un de mes destinataires a été placé sur la liste bloquée par erreur. How do I remove them from the denylist so that I can start sending them messages again?**
+* **Un de mes destinataires a été ajouté à la liste bloquée par erreur. How do I remove them from the denylist so that I can start sending them messages again?**
 
    * Accédez à **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**.
    * Dans l&#39;écran de détails de l&#39;enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
    * Sauvegardez l&#39;enregistrement.
 
-* **Comment puis-je savoir si une de mes adresses IP est placée sur la liste bloquée ? How do I remove my IP(s) from a denylist?**
+* **Comment puis-je savoir si une de mes adresses IP est en liste bloquée ? How do I remove my IP(s) from a denylist?**
 
-   Pour vérifier si votre adresse IP est placée sur la liste bloquée, vous pouvez utiliser divers sites Web pour la vérifier, par exemple :
+   Pour vérifier si votre adresse IP est en liste bloquée, vous pouvez utiliser divers sites Web pour la vérifier, par exemple :
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
 
