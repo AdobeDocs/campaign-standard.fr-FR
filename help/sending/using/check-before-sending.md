@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ En savoir plus à ce sujet dans [cette section](../../sending/using/email-render
 
 L&#39;envoi de BAT permet de vérifier le lien de désinscription (opt-out), la page miroir et d&#39;autres liens, de valider le message, de vérifier le bon affichage des images, de détecter les erreurs possibles, etc. Vous souhaiterez peut-être également vérifier votre conception et le rendu sur différents appareils.
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+En savoir plus à ce sujet dans [cette section](../../sending/using/sending-proofs.md).
 
 ## Configurer des diffusions avec test A/B {#a-b-testing-deliveries}
 
