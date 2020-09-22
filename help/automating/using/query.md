@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 99%
+source-wordcount: '1821'
+ht-degree: 97%
 
 ---
 
@@ -71,9 +71,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
 Les dimensions de ciblage et les ressources permettent de définir sur quels éléments reposera une requête pour déterminer la cible d’une diffusion.
 
-Les dimensions de ciblage sont définies dans les mappings de ciblage. Voir à ce propos [cette section](../../administration/using/target-mappings-in-campaign.md).
-
-La dimension de ciblage et les ressources sont définies lors de la création d’un workflow, dans l’onglet **[!UICONTROL Propriétés]** d’une activité Requête.
+Ils sont configurés en [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md)et définis lors de la création d’un processus, dans l’onglet **[!UICONTROL Propriétés]** d’une activité de Requête.
 
 >[!NOTE]
 >
