@@ -13,7 +13,10 @@ context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,21 +39,26 @@ Les audiences peuvent être définies au moment de la création du message via l
 
    * Cible
    * Profils de test
+
    ![](assets/delivery_audience_definition_2.png)
 
-1. Define the main **[!UICONTROL Target]** of the email. Il s&#39;agit de l&#39;audience cible standard de l&#39;email.
+1. Définissez la **[!UICONTROL cible]** principale de l&#39;email. Il s&#39;agit de l&#39;audience cible standard de l&#39;email.
 
-   The target is defined in the **[!UICONTROL Target]** tab and is made up of identified profiles from your database.
+   La cible est définie dans l&#39;onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données.
 
    Vous pouvez constituer votre cible principale à l&#39;aide des fonctionnalités de l&#39;[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
-   In this tab, the **[!UICONTROL Shortcuts]** palette only contains predefined filters and the audiences that have been defined in the identified profiles. The **[!UICONTROL Explorer]** tab allows you to access additional configurations.
+   Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]** contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés. L&#39;onglet **[!UICONTROL Explorateur]** vous permet d&#39;accéder à des paramétrages supplémentaires.
 
    Vous pouvez ainsi réutiliser et combiner des audiences existantes, leur appliquer des filtres supplémentaires, etc.
 
-1. Define the **[!UICONTROL Test profiles]** you want to use for the email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l&#39;email avant son envoi à la cible principale.
+1. Définissez les **[!UICONTROL profils de test]** que vous souhaitez utiliser pour l&#39;email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l&#39;email avant son envoi à la cible principale.
 
    Pour plus d&#39;informations sur le paramétrage des profils de test, consultez la section [Profils de test](../../audiences/using/managing-test-profiles.md).
+
+1. Si nécessaire, vous pouvez définir une Population témoin à l’aide de l’onglet correspondant. Cela vous permettra de retirer certains profils de votre cible afin qu&#39;ils ne reçoivent pas le message. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. Vous pouvez également utiliser des adresses de substitution pour obtenir une représentation exacte du message que le profil recevra.  Pour plus d’informations, voir [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
 
 Le bloc des audiences est mis à jour et affiche qu&#39;une cible ainsi que des profils de test ont été sélectionnés pour cet email.
 
