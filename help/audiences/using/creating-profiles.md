@@ -11,11 +11,11 @@ topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # Créer un profil{#creating-profiles}
 
 Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cible principale des messages.
+
+>[!NOTE]
+>
+>La création des profils est également possible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
@@ -38,7 +42,7 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
 
    ![](assets/profile_creation_1.png)
 
-1. Cliquez ensuite sur **[!UICONTROL Créer]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
    ![](assets/profile_creation.png)
 
@@ -51,7 +55,7 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
    * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
    * La catégorie **[!UICONTROL Adresse]** contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
-   * La catégorie **[!UICONTROL Autorisation d&#39;accès]** indique les entités organisationnelles du profil (pour [gérer les permissions](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
    * La catégorie **[!UICONTROL Traçabilité]** est automatiquement mise à jour avec les informations concernant l&#39;utilisateur qui a créé ou modifié le profil.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour enregistrer le profil.
@@ -59,16 +63,9 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
 Le profil est ajouté à la liste.
 
 >[!NOTE]
->
->La création des profils est également possible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
-
-Les profils peuvent être également partitionnés en fonction de leurs entités organisationnelles. Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
-
->[!NOTE]
->
 >Le champ des préférences linguistiques est utilisé pour sélectionner la langue lors de l&#39;envoi de messages multilingues. Pour plus d&#39;informations sur les messages multilingues, consultez [cette page](../../channels/using/creating-a-multilingual-email.md).
 
 **Rubriques connexes :**
 
 * Guide détaillé [A propos des landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)   
+* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)   video
