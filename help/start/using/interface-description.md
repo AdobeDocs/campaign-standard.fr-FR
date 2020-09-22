@@ -11,11 +11,11 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
+workflow-type: tm+mt
 source-wordcount: '1212'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 * La vignette **[!UICONTROL Créer un SMS]** permet d’accéder à l’assistant de création de SMS. Grâce à cet assistant, vous pouvez choisir un type de SMS, sélectionner les destinataires de votre message et définir votre contenu. Voir à ce propos la section [Créer un SMS](../../channels/using/creating-an-sms-message.md).
 * La vignette **[!UICONTROL Créer un courrier]** permet d’accéder à l’assistant de création de courrier. Voir à ce propos la section [Créer un courrier](../../channels/using/creating-the-direct-mail.md).
 * La vignette **[!UICONTROL Créer une notification push]** permet d’accéder à l’assistant de création de notification. Grâce à cet assistant, vous pouvez choisir un type de notification push, sélectionner les destinataires de votre message et définir votre contenu. Voir la section [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* La vignette **[!UICONTROL Créer un message In-App]** permet d’accéder à l’assistant de création In-App. Cet assistant vous permet de sélectionner le type de message In-App que vous voulez créer, ainsi que de définir ses propriétés, son audience et son contenu. Voir à ce propos la section [Créer un message In-App](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Cet assistant vous permet de sélectionner le type de message intégré que vous souhaitez créer, de définir ses propriétés, son audience et son contenu. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * La vignette **[!UICONTROL Activités marketing]** permet d’accéder à la liste de toutes les activités, tous les programmes et toutes les campagnes, notamment emails, SMS, workflows et landing pages. Vous pouvez ensuite filtrer les objets en effectuant des recherches par nom, date, statut ou type d’activité. Voir à ce propos la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * La vignette **[!UICONTROL Programmes &amp; Campagnes]** permet d’accéder à la liste des programmes dans lesquels vous pouvez créer et gérer vos campagnes. Voir à ce propos la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * La vignette **[!UICONTROL Planning]** permet d’accéder au planning de vos activités marketing, dans lequel vous pouvez consulter les programmes en cours et leur contenu. Voir à ce propos la section [Planning](../../start/using/timeline.md).
