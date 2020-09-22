@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '4688'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '4692'
+ht-degree: 99%
 
 ---
 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Capacités marketing des messages transactionnels<br /> </td> 
    <td> Les marketeurs peuvent désormais envoyer des messages transactionnels selon les profils marketing des clients. Ils peuvent ainsi :<br /> 
     <ul> 
-     <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
+     <li> Apply marketing typology rules such as <span class="uicontrol">Address on denylist</span> . </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
      <li> utiliser les messages transactionnels dans le parcours client. </li> 
@@ -530,7 +530,7 @@ _Notifications push_
 * Correction d’une erreur qui était susceptible d’empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d’une erreur qui était susceptible d’empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d’une erreur qui était susceptible d’entraîner l’ajout d’un caractère d’échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsque le jeton d’enregistrement d’un abonné est placé sur liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
+* Lorsqu’un jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, l’état correspondant est maintenant immédiatement mis à jour dans la liste de l’application des abonnés dans Adobe Campaign.
 
 _Workflows_
 
