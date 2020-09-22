@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Dans tous les cas, la mise en quarantaine répond à des règles précises qui s
 
 Les profils dont l’adresse email ou le numéro de téléphone est en quarantaine sont exclus automatiquement lors de la préparation des messages (voir [Identifier les adresses en quarantaine pour une diffusion](#identifying-quarantined-addresses-for-a-delivery)). Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés.
 
-Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être placée sur la liste bloquée par ces prestataires.
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine vous permet donc d&#39;éviter d&#39;être ajouté à la liste bloquée par ces fournisseurs.
 
 De plus, elles réduisent les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
@@ -48,7 +48,7 @@ Being on the **Denylist**, on the other hand, will result in the profile no long
 
 >[!NOTE]
 >
->Lorsqu&#39;un utilisateur répond à un message SMS avec un mot-clé tel que &quot;STOP&quot; afin de s&#39;exclure des diffusions SMS, son profil n&#39;est pas placé sur la liste bloquée comme dans le processus d&#39;exclusion par courriel. The profile phone number is sent to quarantine with the **[!UICONTROL Denylisted]** status. Cet état se rapporte uniquement au numéro de téléphone, le profil n’est pas placé sur la liste bloquée de sorte que l’utilisateur continue à recevoir des messages électroniques. Voir à ce propos [cette section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+>Lorsqu&#39;un utilisateur répond à un message SMS avec un mot-clé tel que &quot;STOP&quot; afin de s&#39;exclure des diffusions SMS, son profil n&#39;est pas en liste bloquée comme dans le processus d&#39;exclusion par courriel. The profile phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. Cet état se rapporte uniquement au numéro de téléphone, le profil n’est pas en liste bloquée, de sorte que l’utilisateur continue à recevoir des messages électroniques. Voir à ce propos [cette section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
 ## Identifier les adresses en quarantaine   {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign gère les quarantaines selon le type de diffusion en échec et l
 
    Lorsqu’une diffusion aboutit après une nouvelle tentative, le compteur d’erreurs de l’adresse précédemment en quarantaine est réinitialisé. Le statut de l’adresse passe en **[!UICONTROL Valide]** et est supprimé de la liste des quarantaines après deux jours grâce au workflow **[!UICONTROL Nettoyage de la base]**.
 
-Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Denylisted]** status. Cet état se rapporte uniquement à l’adresse, le profil n’est pas sur la liste bloquée, de sorte que l’utilisateur continue à recevoir des messages SMS et des notifications Push.
+Si un utilisateur qualifie un email comme du spam (**système de gestion des plaintes (feedback loop)**), le message est automatiquement redirigé vers une boîte email technique gérée par Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL On denylist]** status. Cet état se rapporte uniquement à l’adresse, le profil n’est pas sur la liste bloquée, de sorte que l’utilisateur continue à recevoir des messages SMS et des notifications Push.
 
 >[!NOTE]
 La quarantaine dans Adobe Campaign respecte la casse. Veillez à importer les adresses email en minuscules, de telle sorte qu’elles ne soient pas reciblées ultérieurement.
