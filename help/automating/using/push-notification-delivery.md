@@ -11,11 +11,11 @@ topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,10 @@ ht-degree: 100%
 
 ![](assets/recurrentpush.png)
 
-L&#39;activité **[!UICONTROL Notification push]** permet de paramétrer l&#39;envoi d&#39;une notification push dans un workflow. Cette notification peut être **unique** et n&#39;être envoyée qu&#39;une seule fois ou être **récurrente**.
+L&#39;activité **[!UICONTROL Notification push]** permet de paramétrer l&#39;envoi d&#39;une notification push dans un workflow. Cette notification peut être unique et n&#39;être envoyée qu&#39;une seule fois ou être récurrente.
 
-Les notifications envoyées une seule fois sont des diffusions standard de notification push sur des applications mobiles, envoyées une seule fois.
-
-Les notifications récurrentes permettent d&#39;envoyer plusieurs fois sur une période définie une même notification push à des cibles différentes. Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
+* **Les notifications envoyées une seule fois sont des diffusions standard de notification push sur des applications mobiles, envoyées une seule fois.**
+* **Les notifications récurrentes permettent d&#39;envoyer plusieurs fois sur une période définie une même notification push à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
