@@ -11,10 +11,10 @@ topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: ht
-source-wordcount: '582'
+translation-type: tm+mt
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
@@ -98,4 +98,4 @@ En savoir plus :
 * [Vérification d’une diffusion d’emails et rapports (vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Prise en main des emails](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
-* [Cas pratique : création d’un groupe témoin](../../automating/using/workflow-control-group.md)
+* [Ajouter une population témoin](../../sending/using/control-group.md)
