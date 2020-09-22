@@ -11,10 +11,10 @@ topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
-workflow-type: ht
-source-wordcount: '534'
+translation-type: tm+mt
+source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 100%
 Vous pouvez importer les propriétés mobiles d’Adobe Launch dans Adobe Campaign Standard grâce au workflow technique dédié **[!UICONTROL Synchronisation avec Launch]**. Pour plus d’informations, consultez cette [page](../../administration/using/technical-workflows.md)
 
 La section ci-dessous répertorie les questions courantes sur cette synchronisation.
-
->[!NOTE]
->
->Vous devrez envoyer une demande à l’Assistance client d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique **[!UICONTROL syncWithLaunch]** soit activé dans votre instance Campaign.
 
 ## J’ai créé une propriété dans [!DNL Launch] (non-administrateur ou entité organisationnelle ALL). Mon application est à l’état Ready to Configure dans Adobe Campaign, mais je ne peux pas l’ouvrir/la configurer. {#configuring-property}
 
