@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+workflow-type: tm+mt
+source-wordcount: '765'
+ht-degree: 87%
 
 ---
 
@@ -50,18 +50,35 @@ Les étapes de mise en œuvre sont les suivantes :
 
    ![](assets/remarketing_4.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Publier]** pour lancer la publication de l&#39;événement déclencheur.
+1. Vous pouvez maintenant publier vos déclencheurs. Pour plus d’informations à ce sujet, voir [Publication d’un déclencheur dans Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Publication d’un déclencheur dans Campaign {#publishing-trigger-in-campaign}
+
+Après avoir créé un événement de déclenchement dans Adobe Campaign en fonction d’un trigger Adobe Experience Cloud existant, vous devez maintenant le publier.
+
+1. A partir du déclencheur précédemment créé, cliquez sur le bouton **[!UICONTROL Publier]** pour début de publication du événement de déclenchement.
+
+   ![](assets/trigger_publish_1.png)
+
+1. Vous pouvez vérifier la progression de votre publication de déclencheur sous **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. Lorsque la publication est terminée, le message suivant s’affiche sous **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Si vous devez apporter une modification à votre schéma de trigger même après la publication de votre événement de trigger, cliquez sur le bouton **[!UICONTROL Mettre à jour le schéma]** pour récupérer les dernières modifications.
 
    Cette action entraîne la dépublication de votre trigger et du message transactionnel. Vous devrez les republier par la suite.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-Le bouton **[!UICONTROL Afficher le trigger dans Experience Cloud]** permet d&#39;afficher la définition du trigger dans Adobe Experience Cloud.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d&#39;être créé. Voir à ce propos la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
-## Édition du modèle de message transactionnel   {#editing-the-transactional-message-template}
+## Édition du modèle de message transactionnel    {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l&#39;événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d&#39;un trigger mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
