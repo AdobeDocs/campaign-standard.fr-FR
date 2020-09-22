@@ -11,11 +11,11 @@ topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
-workflow-type: ht
-source-wordcount: '587'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 88%
 
 ---
 
@@ -110,6 +110,21 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
 ## Catégories supprimées {#removed-features}
 
 Cette section répertorie les catégories et fonctionnalités qui ont été supprimées de Campaign Standard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Score de propension avec déclencheurs Experience Cloud</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Le score de <b>propension</b> a été retiré des Triggers de Adobe Experience Cloud. En conséquence, cette option a été supprimée de l’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’Enrichissement, nous vous recommandons de mettre à jour les schémas afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d’informations, voir <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publication d’un déclencheur dans Campaign </a>.
+</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
