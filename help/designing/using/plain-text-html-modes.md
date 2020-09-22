@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Le Concepteur d&#39;emails permet de modifier différents rendus d&#39;emails. I
 
 ## Générer une version texte de l&#39;email {#generating-a-text-version-of-the-email}
 
-Par défaut, la version **[!UICONTROL Texte simple]**de votre email est automatiquement générée et synchronisée avec la version**[!UICONTROL  Edition]**.
+Par défaut, la version **[!UICONTROL Texte simple]** de votre email est automatiquement générée et synchronisée avec la version **[!UICONTROL Edition]**.
 
 Les champs de personnalisation et les blocs de contenu ajoutés à la version HTML sont également synchronisés avec la version en texte brut.
 
@@ -31,7 +34,7 @@ Les champs de personnalisation et les blocs de contenu ajoutés à la version HT
 >
 >Pour utiliser des blocs de contenu dans la version en texte brut, assurez-vous qu&#39;ils ne contiennent pas de code HTML.
 
-Pour disposer d&#39;une version en texte brut différente de la version HTML, vous pouvez désactiver cette synchronisation en cliquant sur le sélecteur **[!UICONTROL Synchroniser avec le code HTML]**dans la vue**[!UICONTROL  Texte brut]** de votre email.
+Pour disposer d&#39;une version en texte brut différente de la version HTML, vous pouvez désactiver cette synchronisation en cliquant sur le sélecteur **[!UICONTROL Synchroniser avec le code HTML]** dans la vue **[!UICONTROL Texte brut]** de votre email.
 
 ![](assets/email_designer_textversion.png)
 
@@ -39,7 +42,7 @@ Vous pouvez ensuite éditer la version en texte brut comme vous le souhaitez.
 
 >[!NOTE]
 >
->Si vous éditez la version **[!UICONTROL Texte brut]**alors que la synchronisation est désactivée, la prochaine fois que vous activerez l&#39;option**[!UICONTROL  Synchroniser avec le code HTML]**, toutes les modifications que vous avez apportées à la version en texte brut seront remplacées par la version HTML. Les modifications effectuées dans la vue **[!UICONTROL Texte brut]**ne peuvent pas être reflétées dans la vue**[!UICONTROL  HTML]**.
+>Si vous éditez la version **[!UICONTROL Texte brut]** alors que la synchronisation est désactivée, la prochaine fois que vous activerez l&#39;option **[!UICONTROL Synchroniser avec le code HTML]**, toutes les modifications que vous avez apportées à la version en texte brut seront remplacées par la version HTML. Les modifications effectuées dans la vue **[!UICONTROL Texte brut]** ne peuvent pas être reflétées dans la vue **[!UICONTROL HTML]**.
 
 ## Editer la source de contenu en HTML d&#39;un email {#editing-an-email-content-source-in-html}
 
@@ -47,7 +50,7 @@ Pour les utilisateurs les plus expérimentés et pour des raisons de débogage, 
 
 Vous pouvez éditer la version HTML de l&#39;email de deux façons différentes :
 
-* Sélectionnez **[!UICONTROL Edition]** >**[!UICONTROL  HTML]** pour ouvrir la version HTML de l&#39;ensemble de l&#39;email.
+* Sélectionnez **[!UICONTROL Edition]** > **[!UICONTROL HTML]** pour ouvrir la version HTML de l&#39;ensemble de l&#39;email.
 
    ![](assets/email_designer_html1.png)
 
@@ -57,7 +60,7 @@ Vous pouvez éditer la version HTML de l&#39;email de deux façons différentes�
 
    ![](assets/email_designer_html2.png)
 
-Si vous modifiez le code HTML, la réactivité de l&#39;email peut être altérée. Veillez à le tester à l&#39;aide du bouton **[!UICONTROL Prévisualiser]**. Voir[Prévisualiser le message](../../sending/using/previewing-messages.md).
+Si vous modifiez le code HTML, la réactivité de l&#39;email peut être altérée. Veillez à le tester à l&#39;aide du bouton **[!UICONTROL Prévisualiser]**. Voir [Prévisualiser le message](../../sending/using/previewing-messages.md).
 
 ## Conception d&#39;emails pour le rendu sur appareils mobiles {#switching-to-mobile-view}
 
@@ -82,7 +85,7 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. Vous pouvez masquer un composant lorsqu&#39;il est affiché sur un appareil mobile. Pour cela, sélectionnez **[!UICONTROL Afficher uniquement sur les postes de travail]**dans les**[!UICONTROL  Options d&#39;affichage]**.
+1. Vous pouvez masquer un composant lorsqu&#39;il est affiché sur un appareil mobile. Pour cela, sélectionnez **[!UICONTROL Afficher uniquement sur les postes de travail]** dans les **[!UICONTROL Options d&#39;affichage]**.
 
    Vous pouvez également choisir de masquer ce composant sur les postes de travail. Il ne s&#39;affichera donc plus que sur les appareils mobiles. Pour cela, sélectionnez **[!UICONTROL Afficher uniquement sur les appareils mobiles]**.
 
@@ -92,7 +95,7 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]**pour retourner à la vue de poste de travail standard. Les changements de style que vous venez d&#39;effectuer ne sont pas pris en compte.
+1. Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]** pour retourner à la vue de poste de travail standard. Les changements de style que vous venez d&#39;effectuer ne sont pas pris en compte.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
@@ -106,7 +109,7 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]**pour retourner à la vue de poste de travail standard. Les modifications sont prises en compte.
+1. Cliquez de nouveau sur le bouton **[!UICONTROL Passer en vue Mobile]** pour retourner à la vue de poste de travail standard. Les modifications sont prises en compte.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
