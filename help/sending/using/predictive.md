@@ -12,10 +12,10 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ adobe campaign standard offre deux nouveaux modèles d&#39;apprentissage automat
 >[!CAUTION]
 >Cette fonctionnalité n&#39;est pas disponible en standard dans le cadre du produit. La mise en oeuvre nécessite l’engagement de Adobes Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 >
->Séparément, la fonction exigeait l&#39;utilisation d&#39;un enregistrement Azure qui doit être fourni par le client.
+>La fonctionnalité nécessite l&#39;utilisation d&#39;un enregistrement Azure qui doit être fourni par le client.
 
 ## Predictive send time optimization{#predictive-send-time}
 
