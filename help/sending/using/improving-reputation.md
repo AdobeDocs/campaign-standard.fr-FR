@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 # Amélioration de votre réputation{#improving-reputation}
 
-Pour éviter d’excéder vos destinataires, supprimez les adresses email dupliquées de votre cible. Cette étape protège votre réputation d’expéditeur et assure une bonne gestion des quarantaines. adobe campaign offre les outils nécessaires pour mettre en oeuvre ces recommandations et éviter le risque d&#39;être placé sur la liste bloquée par les FAI.
+Pour éviter d’excéder vos destinataires, supprimez les adresses email dupliquées de votre cible. Cette étape protège votre réputation d’expéditeur et assure une bonne gestion des quarantaines. adobe campaign offre les outils nécessaires pour mettre en oeuvre ces recommandations et éviter le risque d&#39;être ajouté à la liste bloquée par les FAI.
 
 Vous trouverez ci-dessous des informations sur la gestion des doublons et des quarantaines.
 
