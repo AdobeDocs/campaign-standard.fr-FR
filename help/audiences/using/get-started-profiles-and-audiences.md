@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 93%
+source-wordcount: '613'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ Gérez les autorisations et le consentement des clients à l’aide de services 
 
 Lorsque vous créez des campagnes ou des messages, vous pouvez spécifier la cible des diffusions en sélectionnant des contacts dans la base de données de Campaign, à l&#39;aide de critères simples ou avancés, ou en sélectionnant des audiences.
 
-Identifiez les clients plus efficacement sur tous les canaux à l’aide des **profils client intégrés** et **des segments personnalisés**. Lorsque vous connaissez vos clients, leurs centres d&#39;intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
+Identify customers more effectively across all your channels using **integrated customer profiles**, **customized segments** and **control groups**. Lorsque vous connaissez vos clients, leurs centres d&#39;intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
 
 Adobe Campaign crée des profils client complets en temps réel, ce qui vous permet de diffuser des offres plus pertinentes et personnalisées à mesure que les préférences de vos clients changent. De plus, Adobe Campaign intègre des fonctionnalités avancées d&#39;analyse, de gestion des données et de ciblage pour créer des audiences.
 
@@ -57,6 +57,7 @@ En savoir plus :
 * [Enrichissement de la base de données Campaign](../../audiences/using/enriching-campaign-database.md)
 * [A propos des audiences](../../audiences/using/about-audiences.md)
 * [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Ajouter une population témoin](../../sending/using/control-group.md)
 
 ## Autorisation et consentement {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign propose un ensemble d’outils pour vous aider à appliquer les m
 
 Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la confidentialité et les fonctionnalités que nous offrons pour gérer le droit d&#39;accès, le droit à l’oubli, le consentement, la rétention des données et les rôles utilisateur.
 
-[Cette section](../../start/using/privacy.md) aborde la confidentialité et le consentement dans Campaign et comment les gérer.
-
-Vous y trouverez également les bonnes pratiques les plus efficaces pour garantir la conformité aux obligations légales en utilisant notre service.
+[Cette section](../../start/using/privacy.md) aborde la confidentialité et le consentement dans Campaign et comment les gérer. Vous y trouverez également les bonnes pratiques les plus efficaces pour garantir la conformité aux obligations légales en utilisant notre service.
 
 ## Autres ressources
 
