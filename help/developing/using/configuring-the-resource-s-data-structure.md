@@ -12,8 +12,11 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
+source-wordcount: '1840'
+ht-degree: 100%
 
 ---
 
@@ -151,6 +154,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
    * **[!UICONTROL Lien simple de cardinalité 1]** : une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible.
    * **[!UICONTROL Lien de collection de cardinalité N]** : une occurrence de la table source peut avoir plusieurs occurrences correspondantes de la table cible, mais une occurrence de la table cible peut avoir au plus une occurrence correspondante de la table source.
    * **[!UICONTROL Lien simple de cardinalité 0 ou 1]** : une occurrence de la table source peut avoir au plus une occurrence correspondante de la table cible ou aucune. Ce **[!UICONTROL Type de lien]** peut entraîner des problèmes de performances.
+
    ![](assets/schema_extension_29.png)
 
 1. Dans l&#39;écran **[!UICONTROL Nouveau lien]**, les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]** sont renseignés par défaut, mais vous pouvez les modifier.
@@ -158,8 +162,6 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
    >[!NOTE]
    >
    >Utilisez 30 caractères au maximum.
-
-   >[!IMPORTANT]
    >
    >Il n&#39;est pas possible de renommer un lien après sa création. Pour renommer un lien, vous devez le supprimer et le recréer.
 
@@ -175,6 +177,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    * **[!UICONTROL Utiliser les clés primaires pour faire la jointure]** : cette définition de jointure vous permet d&#39;utiliser la clé primaire des profils pour effectuer une réconciliation avec la clé primaire des achats.
    * **[!UICONTROL Définir des conditions de jointure spécifiques]** : cette définition de jointure vous permet de sélectionner manuellement les champs qui effectuent une jointure entre les deux ressources. Si les données ne sont pas correctement configurées, l&#39;enregistrement **Achat** ne sera pas visible.
+
    ![](assets/schema_extension_17.png)
 
 Les liens créés s&#39;affichent dans la liste de la section **[!UICONTROL Liens]**.
