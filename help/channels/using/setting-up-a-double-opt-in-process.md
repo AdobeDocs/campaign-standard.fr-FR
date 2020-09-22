@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Ce contexte supprime le champ &quot;Placé sur la liste bloquée&quot; afin de pouvoir envoyer des courriers électroniques. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d&#39;empêcher l&#39;envoi d&#39;emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d&#39;acquisition](#step-3--create-the-acquisition-landing-page).
+   Ce contexte supprime le champ &quot;En liste bloquée&quot; afin de pouvoir envoyer des courriers électroniques. Nous verrons ultérieurement que la première landing page définissait ce champ sur **vrai** avant confirmation, en vue d&#39;empêcher l&#39;envoi d&#39;emails aux profils non confirmés. Voir à ce propos [Etape 3 : créer la landing page d&#39;acquisition](#step-3--create-the-acquisition-landing-page).
 
 1. Personnalisez le contenu de la landing page : vous pouvez afficher les données personnalisées et modifier le libellé du bouton de confirmation, par exemple en « Cliquez ici pour confirmer votre inscription ! ».
 
@@ -101,12 +101,12 @@ L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;e
 
 ### Création d&#39;une typologie {#create-the-typology-rule}
 
-Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) spécifique, en dupliquant une règle d’usine. La typologie permettra d&#39;envoyer des messages aux profils qui n&#39;ont pas encore confirmé leur accord et qui sont toujours placés sur la liste bloquée. Par défaut, les typologies excluent les profils d’exclusion (c’est-à-dire placés sur la liste bloquée). Pour créer cette de typologie, procédez comme suit :
+Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) spécifique, en dupliquant une règle d’usine. La typologie permettra d&#39;envoyer des messages aux profils qui n&#39;ont pas encore confirmé leur accord et qui sont toujours en liste bloquée. Par défaut, les typologies excluent les profils d’exclusion (c’est-à-dire sur la liste bloquée). Pour créer cette de typologie, procédez comme suit :
 
 1. Depuis le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** et cliquez sur **[!UICONTROL Typologies]**.
 1. Dupliquez la typologie d&#39;usine **[!UICONTROL Message transactionnel sur le profil (mcTypologyProfile)]**.
 1. Après confirmation de la duplication, éditez la nouvelle typologie et saisissez le libellé **TYPOLOGIE_PROFIL**.
-1. Remove the **Denylisted address** rule.
+1. Supprimez la règle **Adresse sur la liste bloquée** .
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Cette typologie peut maintenant être associée à l&#39;email de confirmation.
