@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '1832'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 * Adobe Analytics. Voir à ce propos [cette section](../../integrating/using/configure-campaign-analytics-integration.md).
 * reCAPTCHA Google. Voir à ce propos [cette section](#google-recaptcha-external-account).
 * Stockage Blob Microsoft Azure. Voir à ce propos [cette section](#microsoft-azure-external-account).
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour 
 >
 >Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
 Vérifiez [ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/faq.html#ims-org-id) si votre instance est hébergée sur AWS.
+
+## Compte OAuth 2.0 {#oauth-account}
+
+Pour un compte externe OAuth 2.0, fournissez les détails suivants :
+
+* Type **** d&#39;octroi : seules les informations d’identification **** client sont prises en charge.
+* URL **** d’API sécurisée : saisissez le point de terminaison d’autorisation.
+* **Informations d’identification** sensibles OAuth 2.0 : Cette section est destinée aux informations d’identification sensibles par nature. Les valeurs d’identification sont masquées à l’écran après leur ajout ; à ce moment -là, ils ne seront ni lisibles ni modifiables. Si le point de terminaison de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps du POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
+* **Informations d’identification** non sensibles OAuth 2.0 : Cette section est destinée aux informations d’identification de nature non sensible. Les valeurs d’identification sont visibles à l’écran après leur ajout ; elles seront également modifiables.  Si le point de terminaison de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps du POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
+
+A la fin de la configuration, cliquez sur **Tester le connecteur** pour vérifier que le compte externe est configuré correctement.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>Informations d&#39;identification &quot;Content-Type: application/x-www-form-urlencoded&quot; et &quot;grant_type=client_credentials&quot; seront automatiquement ajoutés à l’appel d’API ; par conséquent, vous n’aurez pas à les ajouter dans la section des informations d’identification.
 
 ## Compte externe Amazon S3 {#amazon-s3-external-account}
 
