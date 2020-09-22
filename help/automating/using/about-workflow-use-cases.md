@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,6 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
 * [Segmentation en fonction des groupes d’âges](../../automating/using/segmentation-age-groups.md)
 * [Utiliser des ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [Création d’un groupe témoin](../../automating/using/workflow-control-group.md)
 
 ## Data management {#management}
 
