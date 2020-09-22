@@ -11,11 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: ht
-source-wordcount: '2678'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+workflow-type: tm+mt
+source-wordcount: '2712'
+ht-degree: 98%
 
 ---
 
@@ -228,6 +228,11 @@ Ces conditions adoptent la syntaxe des expressions XTK (par ex : **context.prof
 
 ### Définir du contenu dynamique dans un email{#defining-dynamic-content-in-an-email}
 
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Définir un contenu dynamique"
+>abstract="Définissez différents contenus pour vos destinataires en fonction des règles définies dans l’éditeur d’expressions."
+
 Dans un email, vous pouvez définir différents contenus qui s&#39;afficheront de manière dynamique aux destinataires selon les conditions définies au moyen de l&#39;éditeur d&#39;expression. Vous pouvez par exemple, à partir du même email, faire en sorte que chaque profil reçoive un message différent selon sa tranche d&#39;âge.
 
 La définition du contenu dynamique est différente de la [définition des conditions de visibilité](#defining-a-visibility-condition).
@@ -329,6 +334,11 @@ L&#39;email est donc créé comme suit :
    L&#39;ajout et le paramétrage de champs de personnalisation sont présentés dans la section [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
 
 ### Paramétrer les illustrations {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Gestion des images dynamiques"
+>abstract="Personnalisez votre courrier électronique à l’aide d’images dynamiques, conformément aux règles définies dans l’éditeur d’expressions."
 
 Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont paramétrés comme suit :
 
