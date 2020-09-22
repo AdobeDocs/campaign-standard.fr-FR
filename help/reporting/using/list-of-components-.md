@@ -11,10 +11,10 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '1275'
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '1276'
 ht-degree: 100%
 
 ---
@@ -152,7 +152,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> Placé sur la liste bloquée<br /> </td> 
+   <td> Sur la liste bloquée<br /> </td> 
    <td> Nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable.<br /> </td> 
   </tr> 
   <tr> 
