@@ -12,10 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 98%
+source-wordcount: '450'
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Dans le cas contraire, le trigger est transmis par la pipeline.
 
 Dans le cas contraire, contactez Adobe pour vérifier la configuration des points de terminaison de pipeline.
 
-Dans l&#39;affirmative, suivez ces recommandations :
+Si tel est le cas, suivez ces directives :
 
 * Vérifiez le type d&#39;ID de réconciliation dans la source de données Campaign.
 * La source de données CustomerId est créée via les attributs du client.
@@ -74,10 +74,10 @@ Dans l&#39;affirmative, suivez ces recommandations :
 
 **Le trigger est-il à l&#39;état En attente ?**
 
-Dans le cas contraire, passez à l&#39;étape suivante. Dans l&#39;affirmative, suivez ces recommandations :
+Dans le cas contraire, passez à l&#39;étape suivante. Si tel est le cas, suivez ces directives :
 
 * Vérifiez que le modèle transactionnel a été publié.
-* Vérifiez que le profil n&#39;est pas placé sur la liste bloquée.
+* Vérifiez que le profil n&#39;est pas en liste bloquée.
 * Vérifiez l&#39;application des règles de typologie.
 * Vérifiez les logs du message transactionnel.
 
