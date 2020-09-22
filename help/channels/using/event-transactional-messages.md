@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
-source-wordcount: '2642'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,7 +84,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
    ![](assets/message-center_9.png)
 
-   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Pour plus d&#39;informations à ce propos, voirVoir à ce sujet [Définir un profil de test dans un message transactionnel](#defining-a-test-profile-in-a-transactional-message).
+   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Pour plus d&#39;informations à ce propos, voirVoir à ce sujet [Définir un profil de test dans un message transactionnel](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Utiliser des listes de produits dans un message transactionnel       {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ Pour plus d&#39;informations sur la création d&#39;une collection et de champs 
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Pour plus d&#39;informations sur la définition d&#39;un profil de test dans un message transactionnel, consultez [cette section](#defining-a-test-profile-in-a-transactional-message).
+   Pour plus d&#39;informations sur la définition d&#39;un profil de test dans un message transactionnel, consultez [cette section](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Tester un message transactionnel {#testing-a-transactional-message}
 
