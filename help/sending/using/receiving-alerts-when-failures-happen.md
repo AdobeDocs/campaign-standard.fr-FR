@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2298'
 ht-degree: 99%
 
 ---
@@ -261,7 +261,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs hard incorrect]** peuvent être les suivantes :
 
-   * Le destinataire est placé sur la liste bloquée, ce qui signifie qu&#39;il ne veut plus être contacté.
+   * Le destinataire est ajouté à la liste bloquée, ce qui signifie qu’il ne souhaite plus être contacté.
    * L&#39;adresse email du destinataire n&#39;existe pas.
    * Le domaine du destinataire n&#39;existe pas.
    * Le serveur du destinataire bloque la diffusion.
