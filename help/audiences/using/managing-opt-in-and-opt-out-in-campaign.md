@@ -12,10 +12,10 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 Les utilisateurs peuvent être inscrits ou désinscrits par un opérateur, directement depuis l&#39;onglet **[!UICONTROL Général]** du profil.
 
-In the **[!UICONTROL No longer contact (denylisted)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
+In the **[!UICONTROL No longer contact (on denylist)]** section, the selected checkboxes correspond to the channels from which the user chose to opt out. Sélectionnez les canaux en fonction des besoins de l&#39;utilisateur.
 
 ![](assets/optin_landingpage_3.png)
 
