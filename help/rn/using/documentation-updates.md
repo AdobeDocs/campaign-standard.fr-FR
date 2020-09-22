@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6168'
-ht-degree: 99%
+source-wordcount: '6256'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 99%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
+
+## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
+
+**Nouvelles fonctionnalités de cette version**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+API externe (prise en charge OAuth) - [En savoir plus](../../automating/using/external-api.md)
+
+Intégration de Journey AI - [En savoir plus](../../sending/using/predictive.md)
+
+**Autres mises à jour de la documentation accompagnant cette version**
+
+La section relative à l’appel d’un processus avec des paramètres externes a été enrichie de nouvelles fonctions disponibles dans l’éditeur d’Expressions. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md)
+
+Une recommandation a été ajoutée aux meilleures pratiques des workflows concernant le nombre d’activités à utiliser par processus. [En savoir plus](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## Mises à jour de la documentation - Septembre 2020 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ Une note d’avertissement a été ajoutée pour avertir les utilisateurs des li
 Une nouvelle section a été ajoutée pour détailler le processus de création d’une nouvelle marque. [En savoir plus](../../administration/using/branding.md#creating-a-brand)
 
 La nouvelle intégration Campaign Standard - Microsoft Dynamics 365 est désormais disponible. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Des informations sur les sources anonymes ont été ajoutées dans le rapport Principal profils. [En savoir plus](../../audiences/using/active-profiles.md)
 
 ## Mises à jour de la documentation - Août 2020 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ Le guide de prise en main sur l’export/import des ressources personnalisées a
 
 ## Mises à jour de la documentation - Novembre 2019 {#doc-updates-november-2019}
 
-Ajout d’un nouveau cas pratique, décrivant comment créer une population témoin à l’aide d’un workflow dans Campaign Standard – [En savoir plus](../../automating/using/workflow-control-group.md)
+Ajout d’un nouveau cas pratique, décrivant comment créer une population témoin à l’aide d’un workflow dans Campaign Standard –
 
 Les informations relatives aux propriétés des landing pages ont été déplacées dans une section dédiée – [En savoir plus](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Réorganisation du chapitre sur les landing pages. Il a également été enrichi
 
 Une nouvelle section a été ajoutée dans la section des notifications push sur la création et la mise à jour des informations de profil en fonction des données d’abonnement aux applications mobiles – [En savoir plus](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenant des données supplémentaires extraites d’une activité de chargement de fichier – [En savoir plus](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenant des données supplémentaires extraites d’une activité de chargement de fichier – [En savoir plus](../../automating/using/sending-email-enriched-fields.md)
 
 Une nouvelle section sur l’utilisation des pièges a été ajoutée – [En savoir plus](../../sending/using/using-traps.md)
 
@@ -466,7 +484,7 @@ Ajout d’informations sur l’option permettant de conserver les enregistrement
 
 Ajout d’une section sur la duplication des activités de workflow grâce à des opérations de copier-coller – [En savoir plus](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Ajout d’informations sur la nouvelle option des activités Requête ([en savoir plus](../../automating/using/query.md)) et Segmentation ([en savoir plus](../../automating/using/segmentation.md)). Celle-ci permet d’ajouter une transition sortante après l’activité si aucune donnée n’est récupérée.
+Ajout d’informations sur la nouvelle option des activités Requête ([en savoir plus](../../automating/using/query-samples.md)) et Segmentation ([en savoir plus](../../automating/using/segmentation.md)). Celle-ci permet d’ajouter une transition sortante après l’activité si aucune donnée n’est récupérée.
 
 Ajout d’informations à la section sur l’activité Mise à jour de données. Ces informations concernent le nouveau champ Taille du lot qui permet de définir la taille maximale du lot des données à charger – [En savoir plus](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ Réorganisation de la documentation Utilisation de Campaign et Audience Manager 
 
 Mise à jour de la définition du rôle Préparer les diffusions – [En savoir plus](../../administration/using/list-of-roles.md)
 
-Ajout d’un exemple dans la section d’activité de requête indiquant comment cibler des profils ayant cliqué sur un lien spécifique dans une diffusion – [En savoir plus](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Ajout d’un exemple dans la section d’activité de requête indiquant comment cibler des profils ayant cliqué sur un lien spécifique dans une diffusion – [En savoir plus](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 Ajout d’une section dans la documentation sur les API relative aux **filtres personnalisés** – [En savoir plus](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 L’API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/creating-a-privacy-request.md)
 
-Ajout d’informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d’être placés sur liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Informations Ajoutées sur la configuration des landings page pour permettre à vos destinataires d’être sur la liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Réorganisation de la section [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md) et ajout d’un [cas pratique détaillé](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -658,7 +676,7 @@ Les notes de mise à jour ont été réorganisées sur plusieurs pages afin d’
 
 Mise à jour de la section **[!UICONTROL Utilisation des typologies]** pour une meilleure visibilité – [En savoir plus](../../sending/using/about-typology-rules.md)
 
-Disponibilité d’une nouvelle option permettant d’optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête]** – [En savoir plus](../../automating/using/query.md)
+Disponibilité d’une nouvelle option permettant d’optimiser les performances lors de la définition de nombreuses données additionnelles dans une **[!UICONTROL requête]** – [En savoir plus](../../automating/using/query-samples.md)
 
 Mise à jour de l’exemple d’import de profil avec quelques conseils pour que les profils soient prêts à recevoir des courriers – [En savoir plus](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ Suppression de la section comprenant la liste des autorisations – [En savoir p
 
 Ajout d’un cas pratique détaillé sur l’utilisation des réponses automatiques des SMS – [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Ajout d’informations sur l’envoi d’une diffusion en fonction des fuseaux horaires des utilisateurs dans un workflow récurrent – [En savoir plus](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Ajout d’informations sur l’envoi d’une diffusion en fonction des fuseaux horaires des utilisateurs dans un workflow récurrent – [En savoir plus](../../automating/using/recurring-push-notifications.md)
 
 Réorganisation de la section **[!UICONTROL Personnaliser une notification push]** avec des cas pratiques détaillés – [En savoir plus](../../channels/using/customizing-a-push-notification.md)
 
