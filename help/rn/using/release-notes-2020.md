@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 0%
 * Il n’est plus possible de modifier les entités organisationnelles du groupe de sécurité Administrateurs.
 * Lors de la création d’un profil, le champ Entité organisationnelle doit maintenant être renseigné.
 * Un trigger Experience Cloud ne peut maintenant être supprimé que si l’événement et le modèle transactionnel associés sont aussi supprimés.
-* Le SDK Adobe Creative a été retiré. Il est désormais obsolète dans Campaign Standard. Consultez la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] a été désaffecté. Il est désormais obsolète dans Campaign Standard. Consultez la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Correctifs**
