@@ -13,7 +13,7 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 92%
@@ -58,7 +58,7 @@ Pour ce faire :
    * L&#39;action **[!UICONTROL Supprimer de la quarantaine]** retire de la quarantaine le numéro de téléphone du profil.
    * L&#39;action **[!UICONTROL Aucune]** permet d&#39;envoyer uniquement le message aux destinataires sans effectuer d&#39;action.
 
-   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL Denylisted]** status. Cet état se rapporte uniquement au numéro de téléphone, le profil est placé sur la liste bloquée afin que l’utilisateur continue à recevoir des messages électroniques.
+   For example, in the configuration below, if recipients send the keyword &quot;STOP&quot;, they will automatically receive an unsubscription confirmation and their phone number will be sent to quarantine with the **[!UICONTROL On denylist]** status. Cet état se rapporte uniquement au numéro de téléphone, le profil permet à l’utilisateur de continuer à recevoir des messages électroniques.
 
    ![](assets/sms_mo.png)
 
