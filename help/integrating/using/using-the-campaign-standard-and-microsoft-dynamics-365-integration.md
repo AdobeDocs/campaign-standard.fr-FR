@@ -12,10 +12,10 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 44%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -157,13 +157,13 @@ les valeurs d&#39;exclusion (par exemple, la liste bloquée) sont synchronisées
 Si vous disposez également d’un processus distinct pour gérer la synchronisation des exclusions entre les systèmes, le flux de données d’exclusion de l’intégration peut être désactivé.
 
 Le mappage de flux d’exclusion doit être spécifié par le client, car les besoins de l’entreprise peuvent différer d’une société à l’autre.  Du côté Campaign, seuls les attributs d’exclusion prêtes à l’emploi peuvent être utilisés pour le mappage d’exclusion :
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* liste bloquée
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 Dans Dynamics 365, la plupart des champs d&#39;exclusion comportent le préfixe &quot;donot&quot; ; toutefois, vous pouvez également utiliser d’autres attributs à des fins d’exclusion si les types de données sont compatibles.
