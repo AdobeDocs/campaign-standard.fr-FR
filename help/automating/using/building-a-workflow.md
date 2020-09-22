@@ -12,11 +12,11 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '940'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,6 +34,10 @@ Le type des données transmises d&#39;une activité à une autre peut influer su
 Vous pouvez ouvrir les activités afin d&#39;en vérifier ou modifier les paramètres avant ou après l&#39;exécution du workflow.
 
 Vous pouvez ouvrir les transitions afin de vérifier que les données transmises sont correctes pendant ou après l’exécution du workflow. Pour accéder au détail des transitions, vous devez cocher l&#39;option **[!UICONTROL Conserver les résultats intermédiaires]** dans la section **[!UICONTROL Exécution]** des propriétés du workflow.
+
+>[!CAUTION]
+>
+>Cette option consomme beaucoup d&#39;espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ Pour construire le diagramme :
 
 1. Ajoutez une activité en la sélectionnant dans la palette et en la relâchant dans le diagramme.
 
-   Par exemple, positionnez une activité de type **[Début](../../automating/using/start-and-end.md)**, puis une activité de type**[ Diffusion Email](../../automating/using/email-delivery.md)** sur le diagramme.
+   Par exemple, positionnez une activité de type **[Début](../../automating/using/start-and-end.md)**, puis une activité de type **[Diffusion Email](../../automating/using/email-delivery.md)** sur le diagramme.
 
 1. Reliez les deux activités en sélectionnant la transition de l’activité **Début** et en la relâchant sur l’activité **Diffusion Email**.
 
