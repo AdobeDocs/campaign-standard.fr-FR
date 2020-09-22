@@ -11,10 +11,10 @@ topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
-source-wordcount: '526'
+translation-type: tm+mt
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -102,7 +102,7 @@ En savoir plus :
 ## Autres ressources
 
 * [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md)
-* [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Conception d’un contenu d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importation d’un contenu AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envoi de messages avec des workflows](../../automating/using/about-channel-activities.md)
