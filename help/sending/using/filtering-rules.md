@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -31,7 +31,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | Libellé | Canal | Description |
 ---------|----------|---------
 | **[!UICONTROL Adresse non renseignée]** | Tous | Exclut la population cible sans adresse spécifiée (adresse électronique, adresse postale, etc. selon le canal sélectionné). |
-| **[!UICONTROL Adresse placée sur la liste bloquée]** | Tous | Exclut les adresses qui se trouvent sur la liste bloquée. |
+| **[!UICONTROL Adresse sur liste bloquée]** | Tous | Exclut les adresses qui se trouvent sur la liste bloquée. |
 | **[!UICONTROL Doublon]** | Tous | Exclut les duplicatas en fonction du champ **[!UICONTROL Adresse]** de la population cible. |
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
@@ -47,7 +47,7 @@ Outre ces règles de filtrage par défaut, deux règles d’exclusion sont dispo
 
 Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
-Cela permet d&#39;éviter d&#39;être placé sur la liste bloquée en raison d&#39;une activité malveillante, en particulier l&#39;utilisation d&#39;un Spamtrap. Par exemple, si un Spamtrap est utilisé pour s’abonner via l’un de vos formulaires Web, un courrier électronique de confirmation est automatiquement envoyé à ce Spamtrap, ce qui entraîne l’ajout automatique de votre adresse à la liste bloquée.
+Cela permet d&#39;éviter d&#39;être ajouté à la liste bloquée en raison d&#39;une activité malveillante, en particulier l&#39;utilisation d&#39;un Spamtrap. Par exemple, si un Spamtrap est utilisé pour s’abonner via l’un de vos formulaires Web, un courrier électronique de confirmation est automatiquement envoyé à ce Spamtrap, ce qui entraîne l’ajout automatique de votre adresse à la liste bloquée.
 
 >[!NOTE]
 >
