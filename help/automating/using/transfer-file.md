@@ -13,9 +13,9 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -28,10 +28,6 @@ ht-degree: 100%
 ![](assets/file_transfer.png)
 
 L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
-
->[!CAUTION]
->
->À compter de la version 20.3, les fichiers téléchargés avec l’activité **[!UICONTROL Transférer le fichier]** seront supprimés après X jours, où X est déterminé par le champ **[!UICONTROL Jours d’historique]** sous le menu **[!UICONTROL Exécution]** dans les propriétés du workflow.
 
 ## Contexte d’utilisation {#context-of-use}
 
@@ -141,7 +137,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
 Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent être utilisés pour filtrer les fichiers.
 
-Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Pour plus d’informations à ce sujet, consultez cette section: [](../../automating/using/customizing-workflow-external-parameters.md).
+Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos cette section: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage. Par exemple :
 
