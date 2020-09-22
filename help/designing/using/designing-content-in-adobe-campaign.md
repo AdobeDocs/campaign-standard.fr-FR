@@ -11,11 +11,11 @@ topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
-workflow-type: ht
-source-wordcount: '1175'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '1160'
+ht-degree: 98%
 
 ---
 
@@ -123,7 +123,7 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
+La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Meilleures pratiques](../../sending/using/delivery-best-practices.md)de diffusion.
 
 ### Mise à jour des fragments {#email-designer-updates}
 
