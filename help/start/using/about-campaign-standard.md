@@ -11,11 +11,11 @@ topic-tags: about-adobe-campaign
 discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ Les **profils client intégrés de Campaign** permettent de tracker chaque inter
 
 Planifiez, coordonnez et orchestrez des campagnes cross-canal.
 
-**Optimisez l’organisation de vos plans marketing** en créant des programmes et des campagnes. Analysez l’impact de vos campagnes marketing au moyen de rapports. Orchestrez vos campagnes à l’aide de différentes activités marketing, accessibles par une interface unique, et configurez des modèles d’activités marketing pour gagner du temps. [Prise en main des plans marketing et des activités](../../start/using/programs-and-campaigns.md)
+**Optimisez l’organisation de vos plans marketing** en créant des programmes et des campagnes. Analysez l’impact de vos campagnes marketing au moyen de rapports. Orchestrer vos campagnes à l’aide de plusieurs activités marketing accessibles à partir d’une seule interface et configurer des modèles d’activités marketing pour gagner du temps. [Prise en main des plans marketing et des activités](../../start/using/programs-and-campaigns.md)
 
 **Tirez parti des workflows** pour orchestrer et automatiser vos campagnes. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
@@ -66,12 +66,12 @@ Créez et envoyez vos messages sur différents canaux de communication en ligne 
 
 <img width="60px" alt="conditions" src="assets/icon_report.svg"/>
 
-Une fois les campagnes marketing exécutées et les différents messages envoyés, Campaign Standard permet de les surveiller pour tracker leur impact et le comportement des destinataires.
+Une fois les campagnes marketing exécutées et les différents messages envoyés, le Campaign Standard vous permet de les surveiller pour suivre leur impact ainsi que leur comportement de destinataires.
 
 **Surveillez les diffusions** envoyées. Consultez et exportez des logs détaillés concernant vos diffusions. Récupérez des informations sur leur statut pour chaque destinataire, les messages exclus de la cible et de nombreuses autres mesures.
-Utilisez la fonction d’alerte de diffusion pour suivre les succès ou les échecs des diffusions à l’aide de notifications par email. Vous souhaitez en savoir plus ? [Prise en main de la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
+Tirez parti de la fonction d&#39;alerte de diffusion pour suivre les réussites ou les échecs des diffusions par le biais de notifications par courrier électronique. Vous souhaitez en savoir plus ? [Prise en main de la surveillance des messages](../../sending/using/monitoring-a-delivery.md)
 
-**Trackez le comportement des destinataires de vos diffusions**. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de tracking des diffusions (URL cliquées, pages miroir, messages ouverts...) à l’aide de logs et de rapports dédiés. [Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
+**Suivez le comportement de vos destinataires** de diffusion. Tirez parti des cookies de session et des cookies permanents pour récupérer les informations de tracking de tous les contacts contenus dans votre base de données. Surveillez les informations de suivi sur les diffusions (URL cliquées, pages miroir, messages ouverts...) par le biais de journaux et de rapports dédiés. [Prise en main du tracking des messages](../../sending/using/tracking-messages.md)
 
 **Utilisez les rapports dynamiques** pour définir des mesures spécifiques liées à votre message ou à votre campagne. Entièrement personnalisables et créés en temps réel, les rapports dynamiques donnent accès aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires. [Prise en main de la création de rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
