@@ -13,9 +13,9 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 97%
 
 ---
@@ -72,7 +72,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse placée sur la liste bloquée / adresse en quarantaine / qualité de l&#39;adresse.
+   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse sur la liste bloquée / adresse mise en quarantaine / qualité de l&#39;adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
 
 1. Règles de contrôle, si elles s&#39;appliquent à la fin du ciblage.
