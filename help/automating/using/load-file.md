@@ -12,11 +12,11 @@ discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
-workflow-type: ht
-source-wordcount: '1526'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,14 +37,14 @@ L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les don
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
->[!CAUTION]
->
->Seuls les fichiers à structure &quot;plate&quot; sont pris en charge, comme par exemple les fichiers .txt, .csv, etc.
-
 Vous pouvez ainsi :
 
 * utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
 * utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
+
+>[!IMPORTANT]
+>
+>Seuls les fichiers à structure &quot;plate&quot; sont pris en charge, comme par exemple les fichiers .txt, .csv, etc.
 
 **Rubriques connexes :**
 
