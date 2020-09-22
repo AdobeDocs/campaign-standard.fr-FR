@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '5454'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '5456'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’une erreur en raison de laquelle les photos téléchargées depuis un appareil photo et prises en mode portrait s’affichaient dans une position de rotation indésirable.
 * Correction d’une erreur qui affichait des informations de sélection imprécises lors de l’utilisation de l’éditeur de requêtes dans Creative Designer.
 * Correction d’une erreur qui empêchait la duplication correcte d’un élément lors de l’utilisation de l’éditeur de requêtes dans Creative Designer.
-* Correction d’une erreur qui entraînait la poursuite de la diffusion de messages SMS à des destinataires sur liste bloquée même s’ils avaient été désabonnés via une réponse automatique. (CAMP-27128)
+* Correction d’un problème en raison duquel les destinataires continuaient à envoyer des messages SMS sur la liste bloquée, même s’ils avaient été désabonnés par le biais d’une réponse automatique. (CAMP-27128)
 * Correction d’un problème qui empêchait l’affichage des erreurs à l’origine de l’échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d’une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
@@ -416,7 +416,7 @@ _Emails, SMS et courrier_
 
 * Amélioration de la phase de préparation des diffusions pour optimiser les performances.
 * Correction de plusieurs problèmes qui entraînaient l’endommagement du tracking dans certains cas très spécifiques.
-* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l’envoi. Consultez la [documentation détaillée](../../sending/using/preparing-the-send.md)..
+* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l&#39;envoi. Consultez la [documentation détaillée](../../sending/using/preparing-the-send.md)..
 
 _Notifications push_
 
