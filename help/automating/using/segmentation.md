@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,6 @@ L&#39;activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs s
 
 **Rubriques connexes :**
 * [Cas pratique : segmentation en fonction de la localisation](../../automating/using/workflow-segmentation-location.md)
-* [Cas pratique : création d’un groupe témoin](../../automating/using/workflow-control-group.md)
 * [Cas pratique : segmentation en fonction des tranches d’âge](../../automating/using/segmentation-age-groups.md)
 
 ## Contexte d’utilisation {#context-of-use}
