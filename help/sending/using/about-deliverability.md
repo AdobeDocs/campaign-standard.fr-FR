@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 99%
@@ -57,7 +57,7 @@ Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité f
 * [Recevoir des alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
-* [Quarantaine / liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantaine / liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
 ## Vérifier la configuration du réseau {#network-configuration}
