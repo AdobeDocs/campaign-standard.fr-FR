@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 98%
@@ -143,6 +143,7 @@ ht-degree: 98%
       + [Test de l’objet d’un email](sending/using/testing-subject-line-email.md)
       + [Emails optimisés par l’IA](sending/using/predictive.md)
       + [Rendu des emails](sending/using/email-rendering.md)
+      + [Ajouter une population témoin](sending/using/control-group.md)
       + [Utilisation des pièges](sending/using/using-traps.md)
       + [Préparer l’envoi](sending/using/preparing-the-send.md)
    + Planification de l’envoi des messages {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 98%
          + [Requête incrémentale sur les abonnés à un service](automating/using/incremental-query-on-subscribers.md)
          + [Segmentation en fonction des groupes d’âges](automating/using/segmentation-age-groups.md)
          + [Utiliser des ressources différentes des dimensions de ciblage](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [Création d’un groupe témoin](automating/using/workflow-control-group.md)
       + Data management {#data-management}
          + [Réconcilier une audience de type fichier avec la base de données](automating/using/reconcile-file-audience-with-database.md)
          + [Dédupliquer les données d’un fichier importé](automating/using/deduplicating-data-imported-file.md)
