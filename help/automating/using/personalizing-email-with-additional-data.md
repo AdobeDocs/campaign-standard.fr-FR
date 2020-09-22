@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +41,7 @@ Le workflow de se présente comme suit :
 
    ![](assets/enrichment_example2.png)
 
-   Depuis l’onglet **[!UICONTROL Données additionnelles]** de la requête, définissez les différentes données devant être affichées dans l’email final :
+1. Depuis l’onglet **[!UICONTROL Données additionnelles]** de la requête, définissez les différentes données devant être affichées dans l’email final :
 
    * Le champ simple de la dimension **profile** correspondant aux points fidélité. Reportez-vous à la section [Ajouter un champ simple](../../automating/using/query.md#adding-a-simple-field).
    * Deux agrégats basés sur la collection des transactions : le nombre de produits achetés et le montant total dépensé. Vous pouvez les ajouter depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage des agrégats, en utilisant les agrégats **Count** et **Sum**. Reportez-vous à la section [Ajouter un agrégat](../../automating/using/query.md#adding-an-aggregate).
@@ -54,7 +54,7 @@ Le workflow de se présente comme suit :
       Reportez-vous aux sections [Ajouter une collection](../../automating/using/query.md#adding-a-collection) et [Trier les données additionnelles](../../automating/using/query.md#sorting-additional-data).
    ![](assets/enrichment_example4.png)
 
-   Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.
+1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.
 
    ![](assets/enrichment_example5.png)
 
