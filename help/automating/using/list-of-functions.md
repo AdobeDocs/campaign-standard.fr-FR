@@ -11,8 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1942'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ## A propos des fonctions {#about-functions}
 
-L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l&#39;outil contient l&#39;élément **[!UICONTROL Expression]**que vous pouvez utiliser dans l&#39;espace de travail. L&#39;utilisation de cet élément est détaillée dans une[section spécifique](../../automating/using/advanced-expression-editing.md).
+L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l&#39;outil contient l&#39;élément **[!UICONTROL Expression]** que vous pouvez utiliser dans l&#39;espace de travail. L&#39;utilisation de cet élément est détaillée dans une [section spécifique](../../automating/using/advanced-expression-editing.md).
 
 Cet élément vous permet de saisir manuellement vos conditions. Vous pouvez y utiliser les fonctions définies dans les sections ci-après.
 
@@ -35,7 +38,11 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 * Manipulation de chaînes
 * Tri
 
-## Dates  {#dates}
+>[!NOTE]
+>
+>D’autres fonctions sont disponibles dans toutes les activités qui vous permettent d’utiliser des variables de événement après avoir appelé un processus avec des paramètres externes. They are detailed in [this section](../../automating/using/customizing-workflow-external-parameters.md).
+
+## Dates {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
 
@@ -476,7 +483,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne  {#string}
+## Chaîne {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
@@ -662,7 +669,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
 ## des agrégats.{#aggregates}
 
-Les fonctions d&#39;agrégation sont disponibles uniquement lors de l&#39;[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]**d&#39;un workflow.
+Les fonctions d&#39;agrégation sont disponibles uniquement lors de l&#39;[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]** d&#39;un workflow.
 
 Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
 
