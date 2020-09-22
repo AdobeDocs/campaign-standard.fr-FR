@@ -12,8 +12,11 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Vous pouvez créer et gérer les activités marketing depuis les programmes et l
 
 La liste des activités marketing centralise toutes les activités, quels que soient les programmes ou les campagnes dans lesquels elles ont été créées. Programmes, campagnes, diffusions (emails, SMS et notifications push), landing pages et workflows sont ainsi répertoriés sans aucune notion de hiérarchie.
 
-Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]**dans la barre supérieure.
+Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UICONTROL Activités marketing]** dans la barre supérieure.
 
 >[!NOTE]
 >
@@ -34,11 +37,11 @@ Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UI
 
 ![](assets/marketing_activities_1.png)
 
-Le volet **[!UICONTROL Recherche]**permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d&#39;activité. Par défaut, tous les types d&#39;activité sont sélectionnés, à l&#39;exception des programmes.
+Le volet **[!UICONTROL Recherche]** permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d&#39;activité. Par défaut, tous les types d&#39;activité sont sélectionnés, à l&#39;exception des programmes.
 
 Pour accéder directement au contenu de chaque activité, choisissez un des éléments de la liste.
 
-Le bouton **[!UICONTROL Créer]**peut être utilisé pour créer une autre activité. Consultez la section[Créer une activité marketing](#creating-a-marketing-activity)pour en savoir plus.
+Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
 ## Icônes et statuts des activités marketing  {#marketing-activity-icons-and-statuses}
 
@@ -86,7 +89,7 @@ Selon le contexte, vous pouvez :
 * [créer un email ;](../../channels/using/creating-an-email.md)
 * [créer un SMS ;](../../channels/using/creating-an-sms-message.md)
 * [créer une notification push ;](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [créer un message In-App ;](../../channels/using/about-in-app-messaging.md)
+* [Créer un message In-App](../../channels/using/about-in-app-messaging.md)
 * [créer un workflow ;](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * [créer une landing page ;](../../channels/using/getting-started-with-landing-pages.md)
 * [créer une campagne ;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
