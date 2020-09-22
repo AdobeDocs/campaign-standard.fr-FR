@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,12 +73,15 @@ Pour plus d&#39;informations, voir [Exécution de workflows](../../automating/us
 
 Les propriétés du workflow vous permettent de définir un fuseau horaire spécifique qui sera utilisé par défaut dans toutes les activités. Par défaut, le fuseau horaire du workflow est celui défini pour l’opérateur de Campaign actuel.
 
-
 ## Activité{#activity}
+
+### Nombre d&#39;activités par processus {#number-activities}
+
+Nous vous recommandons d’utiliser jusqu’à 100 activités dans un seul processus. Plus de 100 activités peuvent rencontrer des problèmes de performances lors de la conception et de la configuration de votre processus.
 
 ### Conception des workflows
 
-Pour vérifier que le workflow se termine correctement, utilisez une **[!UICONTROL activité Fin]**. Evitez de laisser seule la dernière transition d&#39;un workflow.
+Pour vous assurer que le processus se termine correctement, évitez de laisser seule la dernière transition d’un processus en utilisant une activité **** finale.
 
 Pour accéder au détail des transitions, cochez l&#39;option Conserver les résultats intermédiaires **[!UICONTROL dans la section]** Exécution des propriétés du workflow.
 
