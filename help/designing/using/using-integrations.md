@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+translation-type: tm+mt
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,6 +45,15 @@ Cette fonctionnalité est présentée dans la documentation de Dreamweaver, acce
 ## Editer le contenu dans Experience Manager {#editing-content-in-experience-manager}
 
 Un contenu d&#39;email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d&#39;email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
+
+## Listes de produits {#product-listing}
+
+>[!CONTEXTUALHELP]
+>id="ac_product_listing"
+>title="Utilisation des listes de produits"
+>abstract="Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu du courrier électronique."
+
+Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu du courrier électronique. Ces listes sont disponibles pour les courriers électroniques transactionnels. Une section dédiée à cette fonction est disponible [ici](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 ## Comparaison des options de conception d&#39;email    {#email-design-options-comparison}
 
