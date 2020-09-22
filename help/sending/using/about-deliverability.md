@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '657'
 ht-degree: 99%
 
 ---
@@ -47,7 +47,7 @@ Voici une liste de points clés à vérifier pour assurer une bonne délivrabili
 ## Outils de délivrabilité {#deliverability-tools}
 
 Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
-* [Bonnes pratiques de diffusion](https://helpx.adobe.com/fr/campaign/kb/delivery-best-practices.html)
+* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
 * [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
 * [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md)
