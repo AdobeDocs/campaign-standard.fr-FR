@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -67,4 +67,4 @@ Vous pouvez utiliser des pièges lors de l’envoi de messages transactionnels. 
 
 >[!NOTE]
 >
->Lors de l’utilisation d’un profil de test en tant que piège, pour les champs enrichis d’un message, les données supplémentaires correspondantes sont sélectionnées de manière aléatoire à partir d’un profil cible réel et affectées au profil de test de piège. Pour plus d’informations sur l’enrichissement, consultez [cet exemple](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>Lors de l’utilisation d’un profil de test en tant que piège, pour les champs enrichis d’un message, les données supplémentaires correspondantes sont sélectionnées de manière aléatoire à partir d’un profil cible réel et affectées au profil de test de piège. Pour plus d’informations sur l’enrichissement, consultez [cet exemple](../../automating/using/enriching-profile-data-file.md).
