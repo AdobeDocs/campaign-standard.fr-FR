@@ -3,11 +3,11 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Documentation du produit Adobe Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## Nouveautés
+
+* **[Populations témoins](sending/using/control-group.md)**<br/>Mesurez l&#39;impact de vos campagnes en excluant une partie de leur audience
 
 * **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>Optimisez la conception et la diffusion avec les emails optimisés par l’IA
 
