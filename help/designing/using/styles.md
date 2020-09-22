@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+translation-type: tm+mt
+source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+workflow-type: tm+mt
+source-wordcount: '1065'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +45,7 @@ Parcourir la structure permet d&#39;effectuer une sélection plus précise. Vous
 Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 1. Sélectionnez un composant de structure (directement dans l&#39;email ou à l&#39;aide de l&#39;arborescence dans la **Palette** gauche).
-1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]**pour choisir la colonne désirée.
+1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** pour choisir la colonne désirée.
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
@@ -53,7 +56,7 @@ Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment
 
    Vous pouvez insérer des arrière-plans, modifier les tailles, changer l&#39;alignement horizontal ou vertical, gérer les couleurs, ajouter une [marge ou une marge intérieure](#selecting-an-element), etc.
 
-   Pour cela, utilisez les options affichées dans le volet **[!UICONTROL Paramètres]**ou[ajoutez des attributs de style intégré](#adding-inline-styling-attributes).
+   Pour cela, utilisez les options affichées dans le volet **[!UICONTROL Paramètres]** ou [ajoutez des attributs de style intégré](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -70,7 +73,7 @@ L&#39;interface du Concepteur d&#39;email permet d&#39;ajuster rapidement les pa
 Par exemple :
 
 * Utilisez la marge intérieure pour définir des marges à gauche et à droite d&#39;une image.
-* Utilisez la marge intérieure du haut et du bas pour ajouter davantage d&#39;espace à un composant **[!UICONTROL Texte]**ou**[!UICONTROL  Diviseur]**.
+* Utilisez la marge intérieure du haut et du bas pour ajouter davantage d&#39;espace à un composant **[!UICONTROL Texte]** ou **[!UICONTROL Diviseur]**.
 * Pour définir les bordures entre les colonnes au sein d&#39;un élément de structure, définissez la marge intérieure de chaque colonne.
 
 **[!UICONTROL Marge]** : ce paramètre permet de gérer l&#39;espace entre la bordure de l&#39;élément et l&#39;élément suivant.
@@ -79,9 +82,9 @@ Par exemple :
 
 >[!NOTE]
 >
->Selon votre sélection (composant de structure, de colonne ou de contenu), le résultat sera différent. Adobe vous recommande de définir les paramètres **[!UICONTROL Marge intérieure]**et**[!UICONTROL  Marge]** au niveau des colonnes.
+>Selon votre sélection (composant de structure, de colonne ou de contenu), le résultat sera différent. Adobe vous recommande de définir les paramètres **[!UICONTROL Marge intérieure]** et **[!UICONTROL Marge]** au niveau des colonnes.
 
-Pour la **[!UICONTROL marge]**et la**[!UICONTROL  marge intérieure]**, cliquez sur l&#39;icône représentant un verrou pour rompre la synchronisation entre les paramètres supérieur et inférieur ou droite et gauche. Vous pouvez ainsi ajuster séparément chaque paramètre.
+Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez sur l&#39;icône représentant un verrou pour rompre la synchronisation entre les paramètres supérieur et inférieur ou droite et gauche. Vous pouvez ainsi ajuster séparément chaque paramètre.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -91,7 +94,7 @@ Pour la **[!UICONTROL marge]**et la**[!UICONTROL  marge intérieure]**, cliquez 
 
    ![](assets/des_text_alignment.png)
 
-* L&#39;**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]**et**[!UICONTROL  Social]** à l&#39;heure actuelle.
+* L&#39;**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **[!UICONTROL Social]** à l&#39;heure actuelle.
 
    ![](assets/des_horizontal_alignment.png)
 
@@ -101,6 +104,11 @@ Pour la **[!UICONTROL marge]**et la**[!UICONTROL  marge intérieure]**, cliquez 
 
 ## Définition des fonds {#about-backgrounds}
 
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Paramètres d’arrière-plan"
+>abstract="Le concepteur de courrier électronique vous permet de personnaliser la couleur d’arrière-plan ou l’image d’arrière-plan de votre contenu."
+
 Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d&#39;email, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
@@ -109,7 +117,7 @@ Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d&#39;email, A
 
 Vous trouverez ci-dessous les paramètres de fond disponibles.
 
-* Définissez une **[!UICONTROL Couleur de fond]**pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
+* Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
    ![](assets/des_background_body.png)
 
@@ -123,13 +131,13 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
    Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
-* Définissez une **[!UICONTROL Image de fond]**pour le contenu d&#39;un composant de structure.
+* Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
+   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si elle n’est pas prise en charge, la couleur d’arrière-plan de la rangée est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
@@ -146,13 +154,13 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#39;intérieur d&#39;un composant de structure composé de trois colonnes. Pour cela, procédez comme suit :
 
 1. Sélectionnez le composant de structure, directement dans l&#39;email ou à l&#39;aide de l&#39;arborescence dans la **Palette** gauche.
-1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]**et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
+1. Dans la **barre d&#39;outils contextuelle**, cliquez sur **[!UICONTROL Sélectionner une colonne]** et choisissez celle à éditer. Vous pouvez également la sélectionner dans l&#39;arborescence.
 
    ![](assets/des_selecting_column.png)
 
-   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]**situé à droite.
+   Les paramètres éditables pour cette colonne sont affichés dans le volet **[!UICONTROL Paramètres]** situé à droite.
 
-1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez**[!UICONTROL  Monter]**.
+1. Sous **[!UICONTROL Alignement vertical]**, sélectionnez **[!UICONTROL Monter]**.
 
    ![](assets/des_vertical_alignment.png)
 
@@ -176,7 +184,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Dans un composant dans lequel un lien est inséré, sélectionnez le texte du libellé du lien.
 
-1. Dans les paramètres du composant, cochez la case **[!UICONTROL Souligner le lien]**pour souligner le texte du libellé de votre lien.
+1. Dans les paramètres du composant, cochez la case **[!UICONTROL Souligner le lien]** pour souligner le texte du libellé de votre lien.
 
    ![](assets/stylelinks-selecttext.png)
 
