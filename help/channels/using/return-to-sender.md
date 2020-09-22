@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 87%
+source-wordcount: '227'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ Un modèle d&#39;import est disponible sous **[!UICONTROL Adobe Campaign > Res
 
 Une fois l&#39;import effectué, Adobe Campaign réalise automatiquement les actions suivantes :
 
-* Les adresses incorrectes sont placées sur la liste bloquée au niveau du profil
+* Les adresses incorrectes sont ajoutées à la liste bloquée au niveau du profil.
 * Les principaux indicateurs de diffusion (KPI) sont mis à jour.
 * Les logs de diffusion sont mis à jour.
 
