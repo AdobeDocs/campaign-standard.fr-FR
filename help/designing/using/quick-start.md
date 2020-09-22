@@ -11,9 +11,9 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -78,33 +78,33 @@ Vous pouvez ajouter plusieurs composants de contenu à votre email, tels que des
 
 * **Image**
 
-1. Dans **Composants du contenu**, faites glisser et déposez l&#39;image dans l&#39;un de vos composants de structure.
-1. Cliquez sur **Parcourir**.
-1. Sélectionnez votre fichier image sur votre ordinateur.
+   1. Dans **Composants du contenu**, faites glisser et déposez l&#39;image dans l&#39;un de vos composants de structure.
+   1. Cliquez sur **Parcourir**.
+   1. Sélectionnez votre fichier image sur votre ordinateur.
 
-![](assets/browse-image-quick-start.png)
+   ![](assets/browse-image-quick-start.png)
 
 * **Texte avec personnalisation**
 
-1. Dans **Composants du contenu**, faites glisser et déposez le texte dans l&#39;un de vos composants de structure.
-1. Cliquez sur le composant et saisissez votre texte.
-1. Pour ajouter un champ de personnalisation, cliquez sur **Insérer un champ de personnalisation** dans la barre d&#39;outils.
-1. Sélectionnez le champ dont vous avez besoin, tel que Prénom.
+   1. Dans **Composants du contenu**, faites glisser et déposez le texte dans l&#39;un de vos composants de structure.
+   1. Cliquez sur le composant et saisissez votre texte.
+   1. Pour ajouter un champ de personnalisation, cliquez sur **Insérer un champ de personnalisation** dans la barre d&#39;outils.
+   1. Sélectionnez le champ dont vous avez besoin, tel que Prénom.
 
-![](assets/edit-text-quick-start.png)
+   ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-1. Dans **Composants du contenu**, faites glisser et déposez le code HTML dans l&#39;un de vos composants de structure.
-1. Cliquez sur **Afficher le code source**.
-1. Saisissez votre contenu HTML.
-1. Cliquez sur **Enregistrer**.
+   1. Dans **Composants du contenu**, faites glisser et déposez le code HTML dans l&#39;un de vos composants de structure.
+   1. Cliquez sur **Afficher le code source**.
+   1. Saisissez votre contenu HTML.
+   1. Cliquez sur **Enregistrer**.
 
-![](assets/html-component-source-code.png)
+   ![](assets/html-component-source-code.png)
 
-Si vous maîtrisez le langage HTML, vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Voir à ce propos la section [A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+   Si vous maîtrisez le langage HTML, vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Voir à ce propos la section [A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
-![](assets/des_loading_compatible_fragment_9.png)
+   ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Application d&#39;un style à votre composant d&#39;email
 
@@ -131,7 +131,7 @@ Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des mess
 Les différents modèles présentent de multiples combinaisons de plusieurs types d&#39;éléments. Par exemple, les modèles &#39;Contour progressif&#39; possèdent des marges, tandis que les modèles &#39;Astro&#39; en sont dépourvus. Voir à ce propos la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
 1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
 1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d&#39;emails. Par exemple, vous pouvez dupliquer une section d&#39;email en sélectionnant un composant de structure et en cliquant sur **[!UICONTROL Dupliquer]** dans la barre d&#39;outils contextuelle.
-1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Vous pouvez également déplacer des composants afin de modifier l&#39;organisation de chaque élément de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
 1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
