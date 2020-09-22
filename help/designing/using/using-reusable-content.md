@@ -11,8 +11,11 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+translation-type: tm+mt
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1867'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +64,7 @@ L&#39;exemple ci-dessous montre comment créer un modèle de contenu d&#39;email
 
    * Sélectionnez **[!UICONTROL Partagé]** ou **[!UICONTROL Diffusion]** dans la liste déroulante **[!UICONTROL Type de contenu]**.
    * Sélectionnez **[!UICONTROL Modèle]** dans la liste déroulante **[!UICONTROL Type HTML]**.
+
    ![](assets/email_designer_create-template.png)
 
 1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du modèle. Sélectionnez-la dans l&#39;onglet **[!UICONTROL Miniature]** des propriétés de modèle.
@@ -134,13 +138,18 @@ Vous pouvez maintenant gérer entièrement ce modèle dans le Concepteur d&#39;e
 
 Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que vous venez de créer.
 
-**Rubrique connexe** :
+**Rubrique connexe**:
 
 * [Créer un email](../../channels/using/creating-an-email.md)
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## A propos des fragments     {#about-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ac_fragments"
+>title="A propos des fragments"
+>abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails."
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 Il se trouve dans l&#39;interface sous **Ressources** > **Contenu, fragments et modèles**.
@@ -201,6 +210,7 @@ Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos 
 
    * Les fragments étant uniquement compatibles avec les emails, sélectionnez **[!UICONTROL Diffusion]** dans la liste déroulante **[!UICONTROL Type de contenu]**.
    * Sélectionnez **[!UICONTROL Fragment]** dans la liste déroulante **[!UICONTROL Type HTML]** afin de pouvoir utiliser ce contenu en tant que fragment.
+
    ![](assets/email_designer_createfragment.png)
 
 1. Si nécessaire, vous pouvez définir une image qui sera utilisée comme miniature du fragment. Sélectionnez-la dans l&#39;onglet **[!UICONTROL Miniature]** des propriétés de modèle.
@@ -291,19 +301,19 @@ Pour cela, procédez comme suit :
 1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Voir à ce propos la section [Créer un fragment de contenu](#creating-a-content-fragment).
 1. Ajoutez autant de composants de structure que vous le souhaitez à votre fragment.
 
-![](assets/des_loading_compatible_fragment_1.png)
+   ![](assets/des_loading_compatible_fragment_1.png)
 
 1. Ajoutez des composants d&#39;image et de texte à votre structure.
 
-![](assets/des_loading_compatible_fragment_2.png)
+   ![](assets/des_loading_compatible_fragment_2.png)
 
 1. Téléchargez l&#39;image correspondante, saisissez votre texte et ajustez les paramètres.
 
-![](assets/des_loading_compatible_fragment_3.png)
+   ![](assets/des_loading_compatible_fragment_3.png)
 
 1. Enregistrez votre fragment.
 1. Procédez de la même manière pour créer votre pied de page et enregistrez-le.
 
-![](assets/des_loading_compatible_fragment_4.png)
+   ![](assets/des_loading_compatible_fragment_4.png)
 
 Vos fragments peuvent maintenant être utilisés dans un modèle.
