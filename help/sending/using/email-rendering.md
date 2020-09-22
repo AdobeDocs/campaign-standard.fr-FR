@@ -11,11 +11,11 @@ topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 92%
 
 ---
 
@@ -78,6 +78,13 @@ Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté d
 >[!NOTE]
 >
 >Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité.
+>
+>Les jetons représentent chaque rendu individuel et non l’ensemble du rapport de rendu du courrier électronique, ce qui signifie que :
+>
+>**Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook , un pour le rendu Apple Mail , etc.**
+>
+>**Pour la même diffusion**, si vous générez à nouveau le rendu du courrier électronique, le nombre de jetons disponibles est de nouveau réduit par le nombre de rendus générés.
+
 
 La synthèse du rapport présente le nombre de messages reçus, indésirables, non reçus ou en attente de réception.
 
