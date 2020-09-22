@@ -12,10 +12,10 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +71,8 @@ Découvrez comment mapper des ressources Campaign et des entités Dynamics 365 [
 
 En raison des différences dans les attributs de désinscription entre Dynamics 365 et Campaign, et des différences dans les besoins commerciaux de chaque client, le mappage de désinscription a été laissé comme un exercice que le client doit terminer. Il est important de s’assurer que les exclusions sont correctement mises en correspondance entre les systèmes afin que les préférences d’exclusion de l’utilisateur final soient maintenues et qu’il ne reçoive pas de communication par le biais d’un canal sur lequel il a choisi de s’exclure.
 
-Sachez que seuls les attributs Campaign avec le préfixe &quot;liste bloquée&quot; (par exemple, blockListEmail) ou l’attribut spécifique pour l’exclusion CCPA peuvent être utilisés dans les mappages d’exclusion.  Dans Dynamics 365, la plupart des champs d&#39;exclusion comportent le préfixe &quot;donot&quot; ; toutefois, vous pouvez également utiliser d’autres attributs à des fins d’exclusion si les types de données sont compatibles.
+Sachez que seuls les attributs Campaign avec le préfixe &quot;Plus de contact par&quot; (ex. : Plus de contact par courriel) ou l’attribut spécifique de l’exclusion CCPA peuvent être utilisés dans les mappages d’exclusion. [En savoir plus](../../developing/using/datamodel-profile.md).
+Dans Dynamics 365, la plupart des champs d&#39;exclusion comportent le préfixe &quot;donot&quot; ; toutefois, vous pouvez également utiliser d’autres attributs à des fins d’exclusion si les types de données sont compatibles.
 
 Lors de la mise en service de l’intégration, vous aurez la possibilité de spécifier la configuration de désinscription dont vous avez besoin pour votre entreprise :
 
