@@ -11,8 +11,11 @@ topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+translation-type: tm+mt
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 71%
 
 ---
 
@@ -24,6 +27,10 @@ Le texte dynamique est défini de la même façon que le contenu dynamique. Voir
 >[!NOTE]
 >
 >Pour les SMS et les notifications push, vous pouvez uniquement définir le texte dynamique. Vous pouvez définir du contenu et du texte dynamiques dans une landing page. Si vous souhaitez définir du texte dynamique à l’aide du [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md), reportez-vous à la section [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+
+Notez que les paires de substitution, des caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés en 2 octets (16 bits) et doivent être codés en 2 caractères UTF-16. Ces caractères incluent certaines idéogrammes CJK, la plupart des émoticônes et certaines langues.
+<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
+
 
 L’exemple ci-dessous montre comment définir du texte dynamique dans un SMS.
 
