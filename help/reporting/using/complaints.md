@@ -12,11 +12,11 @@ discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -29,4 +29,4 @@ Le rapport **[!UICONTROL Plaintes]** permet d&#39;identifier les diffusions ayan
 
 Le tableau **Flop**, trié par domaine de destinataire, affiche le nombre de destinataires ayant déclaré un email comme spam ou courrier indésirable. Les résultats du tableau sont également disponibles sous forme de graphique et de nombres de synthèse.
 
-Le tableau **Taux délivrés et sur la liste bloquée** liste le nombre de destinataires ayant déclaré un email comme spam ou courrier indésirable. Le tableau est trié par diffusion.
+The **Delivered vs On Denylist** table lists the number of recipients that have declared an email as spam or junk. Le tableau est trié par diffusion.
