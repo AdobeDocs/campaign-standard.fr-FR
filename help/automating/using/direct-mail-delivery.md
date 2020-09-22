@@ -12,9 +12,9 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentpaper.png)
 
-L&#39;activité **[!UICONTROL Diffusion courrier]** permet de configurer et de préparer un fichier contenant les données de profil que vous souhaitez utiliser pour une campagne courrier. Il peut s&#39;agir d&#39;un courrier unique qui n&#39;est envoyé qu&#39;une seule fois ou d&#39;un courrier **récurrent**.
+L&#39;activité **[!UICONTROL Diffusion courrier]** permet de configurer et de préparer un fichier contenant les données de profil que vous souhaitez utiliser pour une campagne courrier. Il peut s&#39;agir d&#39;un courrier unique qui n&#39;est envoyé qu&#39;une seule fois ou d&#39;un courrier récurrent.
 
-Les courriers classiques ne sont envoyés qu&#39;une seule fois.
-
-Les courriers récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes. Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
+* **Les courriers classiques ne sont envoyés qu&#39;une seule fois.**
+* **Les courriers récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
