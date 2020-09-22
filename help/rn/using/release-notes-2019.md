@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '7629'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -617,7 +617,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Dans l’éditeur de requête, correction d’un problème lié à la condition de jointure entre le broadlog et le log de tracking pour rtEvent. (CAMP-28780)
 * Correction d’un problème qui empêchait l’enregistrement des modifications apportées à l’option de page d’entrée &quot;Action spécifique&quot;. (CAMP-29422)
 * Correction d’un problème qui empêchait d’exporter la payload d’un événement dans un workflow. (CAMP-29029)
-* Correction d’un problème qui empêchait les numéros de SMS sur liste bloquée d’être exclus dans un message SMS. (CAMP-28898)
+* Correction d’un problème qui empêchait l’exclusion des numéros de SMS sur la liste bloquée dans un message SMS. (CAMP-28898)
 * Correction d’un problème qui empêchait les fournisseurs SMPP d’être avertis en cas d’erreur lors du traitement des messages entrants. (CAMP-29804)
 * Correction d’un problème qui autorisait la suppression de comptes externes avec les diffusions associées. (CAMP-29738)
 * Le débit d’envoi a été amélioré et stabilisé pour les messages SMS.
