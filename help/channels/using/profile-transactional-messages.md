@@ -12,10 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 88%
+source-wordcount: '404'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 Vous avez la possibilité d&#39;envoyer des messages transactionnels selon les profils marketing des utilisateurs, ce qui vous permet de réaliser les actions suivantes :
 
-* Apply marketing typology rules such as **[!UICONTROL Denylisted address]** or [fatigue rules](../../sending/using/fatigue-rules.md).
+* Apply marketing typology rules such as **[!UICONTROL Address on denylist]** or [fatigue rules](../../sending/using/fatigue-rules.md).
 * inclure le lien de désinscription dans les messages ;
 * ajouter les messages transactionnels au reporting de diffusion globale ;
 * utiliser les messages transactionnels dans le parcours client.
@@ -74,11 +74,11 @@ Une fois le message publié et l&#39;intégration à un site effectuée, vous po
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Denylisted address]** typology rule excluded the corresponding recipient.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
 
 Cette règle fait partie d&#39;une typologie spécifique qui s&#39;applique à tous les messages transactionnels qui reposent sur la table **[!UICONTROL Profile]**.
 
