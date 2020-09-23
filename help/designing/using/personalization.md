@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2715'
 ht-degree: 98%
 
 ---
@@ -231,7 +231,7 @@ Ces conditions adoptent la syntaxe des expressions XTK (par ex : **context.prof
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Définir un contenu dynamique"
->abstract="Définissez différents contenus pour vos destinataires en fonction des règles définies dans l’éditeur d’expressions."
+>abstract="Définissez différents contenus qui seront affichés pour certains profils uniquement en fonction des conditions que vous allez définir."
 
 Dans un email, vous pouvez définir différents contenus qui s&#39;afficheront de manière dynamique aux destinataires selon les conditions définies au moyen de l&#39;éditeur d&#39;expression. Vous pouvez par exemple, à partir du même email, faire en sorte que chaque profil reçoive un message différent selon sa tranche d&#39;âge.
 
@@ -338,7 +338,7 @@ L&#39;email est donc créé comme suit :
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Gestion des images dynamiques"
->abstract="Personnalisez votre courrier électronique à l’aide d’images dynamiques, conformément aux règles définies dans l’éditeur d’expressions."
+>abstract="Personnalisez votre e-mail avec des images dynamiques selon les conditions que vous allez définir."
 
 Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont paramétrés comme suit :
 
