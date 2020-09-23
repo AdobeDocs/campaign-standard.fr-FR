@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 99%
 
 ---
@@ -149,7 +149,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="A propos des fragments"
->abstract="Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails."
+>abstract="Un fragment est un bloc de contenu réutilisable qui peut être référencé dans un ou plusieurs courriers électroniques."
 
 Un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 Il se trouve dans l&#39;interface sous **Ressources** > **Contenu, fragments et modèles**.
