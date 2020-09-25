@@ -1,6 +1,6 @@
 ---
 title: Prise en main des profils et des audiences
-description: '« Découvrez la gestion des profils et des audiences dans Adobe Campaign : définissez les populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils. »'
+description: Découvrez la gestion des profils et des audiences dans Adobe Campaign. Définissez des populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 91%
+ht-degree: 87%
 
 ---
 
