@@ -1,6 +1,6 @@
 ---
 title: Prise en main des canaux de communication
-description: Découvrez comment envoyer des messages personnalisés sur divers canaux et créer des campagnes cross-canal pour mieux cibler vos destinataires.
+description: Découvrez comment créer des messages personnalisés sur divers canaux (courriel, notifications Push, inApp, SMS et courrier direct). Découvrez comment utiliser des modèles, créer des landings page et vérifier les bonnes pratiques en matière de diffusion.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
