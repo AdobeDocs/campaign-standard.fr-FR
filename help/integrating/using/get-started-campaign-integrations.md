@@ -1,6 +1,6 @@
 ---
 title: Prise en main des intégrations de Campaign
-description: Adobe Campaign permet d'utiliser d'autres solutions Adobe et de combiner leurs différentes fonctionnalités.
+description: Découvrez comment combiner les capacités de Gestion de campagne avancées d'Adobe Campaign avec un ensemble de solutions créées pour vous aider à personnaliser l'expérience de vos utilisateurs tels que Adobe Analytics, Experience Manager, Cible, Dreamweaver, etc.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: get-started-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
  <thead> 
   <tr> 
    <th> Solution<br /> </th> 
-   <th> Utilisation<br /> </th> 
+   <th> Cas pratique<br /> </th> 
    <th> Reportez-vous à<br /> </th> 
   </tr> 
  </thead> 
