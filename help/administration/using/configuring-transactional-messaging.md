@@ -11,11 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
-source-wordcount: '3166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+workflow-type: tm+mt
+source-wordcount: '3291'
+ht-degree: 96%
 
 ---
 
@@ -201,13 +201,7 @@ Une fois qu’Adobe Campaign commence à recevoir des événements liés à cett
 
 Les événements (au format JSON) sont répertoriés du plus récent au plus ancien. Cette liste vous permet de vérifier des données telles que le contenu ou le statut d’un événement, à des fins de contrôle et de correction d’erreurs.
 
-### Processus de publication de messages transactionnels {#transactional-messaging-pub-process}
-
-Le graphique ci-dessous illustre le processus de publication de messages transactionnels.
-
-![](assets/message-center_pub-process.png)
-
-### Dépublier un événement    {#unpublishing-an-event}
+### Dépublier un événement   {#unpublishing-an-event}
 
 Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’événement, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé. Désormais, même si l’événement est déclenché via votre site web, les messages correspondants ne sont plus envoyés et ils ne sont pas stockés dans la base de données.
 
@@ -218,6 +212,14 @@ Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’�
 >Si vous avez déjà publié le message transactionnel correspondant, la publication du message est également annulée. Voir [Dépublier un message transactionnel](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Cliquez sur le bouton **[!UICONTROL Publier]** pour générer une nouvelle API REST.
+
+### Processus de publication de messages transactionnels {#transactional-messaging-pub-process}
+
+Le graphique ci-dessous illustre le processus de publication de messages transactionnels.
+
+![](assets/message-center_pub-process.png)
+
+Pour plus d’informations sur la publication, la mise en pause et l’annulation de publication d’un message transactionnel, voir [cette section](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
 ### Suppression d’un événement {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Lorsqu’un événement a été dépublié ou qu’il n’a pas encore été pub
 >
 >La suppression d’une configuration d’événement qui a été publiée et déjà utilisée entraînera celle du ou des messages transactionnels correspondants, ainsi que de ses logs d’envoi et de tracking.
 
+## Recherche de événements transactionnels {#searching-transactional-events}
+
+Pour accéder aux événements transactionnels déjà créés et les rechercher, procédez comme suit.
+
+1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
+1. Cliquez sur le bouton **[!UICONTROL Afficher la recherche]** .
+
+   ![](assets/message-center_search-events.png)
+
+1. Vous pouvez filtrer l’état **[!UICONTROL de la]** publication. Vous pouvez ainsi afficher uniquement les événements publiés, par exemple.
+1. Vous pouvez également filtrer les événements à l’aide du **[!UICONTROL dernier événement reçu]**. Par exemple, si vous entrez 10, seules les configurations de événement avec le dernier événement reçu il y a 10 jours ou plus s’affichent. Cela vous permet d’afficher les événements inactifs depuis une période donnée.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >La valeur par défaut est 0. Tous les événements s’affichent alors.
+
 ## Intégrer le déclenchement de l’événement à un site web {#integrating-the-triggering-of-the-event-in-a-website}
 
 Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.
 
 Dans l’exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), vous souhaitez qu’un événement de type &quot;Abandon de panier&quot; soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard.
 
-Consultez la [documentation API REST](../../api/using/managing-transactional-messages.md) .
+Consultez la [documentation API REST](../../api/using/managing-transactional-messages.md).
 
 ## Configurations spécifiques des événements transactionnels {#transactional-event-specific-configurations}
 
