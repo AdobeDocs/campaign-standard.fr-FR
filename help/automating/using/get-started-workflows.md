@@ -1,6 +1,6 @@
 ---
 title: Prise en main des processus et de la gestion des données
-description: Adobe Campaign propose un environnement graphique complet qui permet de concevoir et automatiser des processus.
+description: Tirez parti des fonctionnalités de flux de travaux Adobe Campaign pour automatiser les processus grâce à un environnement graphique complet puissant. Découvrez comment charger des données, gérer des audiences, envoyer des messages, mettre en oeuvre des cycles de data Management, automatiser des processus techniques, etc.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export des données</a></p></td></tr>
 </table>
 
-L&#39;Adobe Campaign offre un environnement graphique complet qui vous permet de concevoir des processus complexes tels que la segmentation, l&#39;exécution des campagnes, le traitement des fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+adobe campaign offre un environnement graphique complet qui vous permet de concevoir des processus complexes tels que la segmentation, l’exécution de campagne, le traitement de fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
 Un workflow peut également faire intervenir des utilisateurs, pour leur affecter une tâche ou demander la validation d&#39;une tâche accomplie. Ainsi, il est possible d&#39;assigner une tâche à un ou plusieurs utilisateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider un BAT avant d&#39;envoyer un message.
 
