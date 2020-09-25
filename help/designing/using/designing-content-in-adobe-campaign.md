@@ -1,6 +1,6 @@
 ---
 title: Conception de contenu dans Adobe Campaign
-description: Découvrez tous les éléments que vous pouvez définir dans vos contenus avec Adobe Campaign.
+description: Utilisez Campaign Email Designer pour créer des e-mails captivants et personnalisés dans une interface de glisser-déposer. À partir d’une ardoise vierge ou en exploitant des fragments ou modèles de contenu existants, concevez et affinez tout le contenu pour chaque courrier électronique.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 98%
+source-wordcount: '1175'
+ht-degree: 94%
 
 ---
 
@@ -24,8 +24,7 @@ ht-degree: 98%
 
 Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
-Le Concepteur d&#39;emails permet de créer des emails personnalisés et attractifs
-grâce à une interface à la souris (glisser-déplacer), complétée par des intégrations natives Creative Cloud. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
+Le concepteur de courrier électronique vous permet de créer des courriels captivants et personnalisés au moyen d’une interface de glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
 Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
 
