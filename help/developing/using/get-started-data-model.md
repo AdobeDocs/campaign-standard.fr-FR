@@ -1,6 +1,6 @@
 ---
 title: Prise en main du modèle de données de Campaign Standard
-description: Étendez le modèle de données de Campaign Standard en y incorporant vos propres champs et ressources et surveillez toutes les modifications qui lui sont apportées à l’aide d’une vue unique.
+description: Accédez à la description du modèle de données intégré, étendez le modèle de données du Campaign Standard à l’aide de champs et de ressources personnalisés et surveillez toutes les modifications apportées au modèle de données en une seule vue.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 92%
 
 ---
 
