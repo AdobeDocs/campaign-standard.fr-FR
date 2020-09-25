@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * Lors de la publication d’une ressource personnalisée, une fenêtre contextuelle de confirmation s’affiche maintenant après la préparation.
 * Le message contextuel qui s’affiche en cas d’échec d’une ressource personnalisée a été amélioré pour une meilleure clarté.
 * L’éditeur d’expressions dans les workflows a été amélioré afin d’éviter les erreurs d’exécution. [De nouvelles fonctions](../../automating/using/customizing-workflow-external-parameters.md) sont disponibles : elles peuvent être utilisées dans toutes les activités qui vous permettent d’utiliser des variables de événement après avoir appelé un processus avec des paramètres externes. De plus, une info-bulle s’affiche désormais dans l’éditeur d’expressions avec la description de la fonction.
-* De nouveaux filtres ont été ajoutés à la liste des événements transactionnels. Ils vous permettent de filtrer les configurations de événement en fonction de leur état, ainsi que de la dernière réception d’un événement.
+* [De nouveaux filtres](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) ont été ajoutés à la liste des événements transactionnels. Ils vous permettent de filtrer les configurations de événement en fonction de leur état, ainsi que de la dernière réception d’un événement.
 * Les journaux qui s&#39;affichent lors de l&#39;exportation de packages ont été rendus plus précis et détaillés sur les erreurs rencontrées en cas d&#39;échec.
 * Après l’envoi d’un message, vous pouvez désormais rechercher, filtrer et exporter la liste des URL [](../../sending/using/tracking-messages.md)suivies.
 * La [synchronisation automatique entre Launch et Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) est désormais GA et activée par défaut.
