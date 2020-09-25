@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6243'
+source-wordcount: '6275'
 ht-degree: 97%
 
 ---
@@ -41,6 +41,8 @@ La section relative à l’appel d’un processus avec des paramètres externes 
 Une recommandation a été ajoutée aux meilleures pratiques des workflows concernant le nombre d’activités à utiliser par processus. [En savoir plus](../../automating/using/best-practices-workflows.md#number-activities)
 
 Une nouvelle section sur les meilleures pratiques de Diffusion a été ajoutée. [En savoir plus](../../sending/using/delivery-best-practices.md)
+
+Une section a été ajoutée pour décrire les nouveaux filtres qui permettent de rechercher les configurations de événement en fonction de leur état et de la dernière réception d&#39;un événement. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Mises à jour de la documentation - Septembre 2020 {#doc-updates-september-2020}
 
