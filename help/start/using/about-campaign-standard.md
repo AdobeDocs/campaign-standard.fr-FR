@@ -1,6 +1,6 @@
 ---
 title: Prise en main de Campaign Standard
-description: Adobe Campaign est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne de façon à créer des expériences client personnalisées.
+description: Découvrez les principales fonctionnalités, l'interface utilisateur et les directives globales.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 87%
+source-wordcount: '777'
+ht-degree: 86%
 
 ---
 
