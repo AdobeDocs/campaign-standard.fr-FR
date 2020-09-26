@@ -1,6 +1,6 @@
 ---
 title: Prise en main des intégrations de Campaign
-description: Découvrez comment combiner les capacités de Gestion de campagne avancées d'Adobe Campaign avec un ensemble de solutions créées pour vous aider à personnaliser l'expérience de vos utilisateurs tels que Adobe Analytics, Experience Manager, Cible, Dreamweaver, etc.
+description: Utilisez d'autres solutions d'Adobe et combinez leurs différentes fonctionnalités avec Campaign.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 94%
+source-wordcount: '632'
+ht-degree: 98%
 
 ---
 
