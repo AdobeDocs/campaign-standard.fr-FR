@@ -1,6 +1,6 @@
 ---
 title: Prise en main des processus et de la gestion des données
-description: Tirez parti des fonctionnalités de flux de travaux Adobe Campaign pour automatiser les processus grâce à un environnement graphique complet puissant. Découvrez comment charger des données, gérer des audiences, envoyer des messages, mettre en oeuvre des cycles de data Management, automatiser des processus techniques, etc.
+description: Automatisez les processus avec des workflows, chargez les données, gérez les audiences, envoyez des messages, implémentez des cycles de data Management, automatisez les processus techniques, etc.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 90%
+source-wordcount: '526'
+ht-degree: 92%
 
 ---
 
