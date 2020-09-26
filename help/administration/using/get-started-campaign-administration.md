@@ -1,6 +1,6 @@
 ---
 title: Prise en main de l’administration de Campaign Standard
-description: Découvrez comment gérer les utilisateurs, définir des rôles et accorder des autorisations ; découvrez les consignes de surveillance, les configurations spécifiques aux canaux et les paramètres d'application tels que les mappings de ciblage, les workflows techniques, la marque, la rétention des données, etc.
+description: Découvrez la gestion des utilisateurs et des autorisations, les consignes de surveillance, les configurations spécifiques à un canal et les consignes de paramètres d’application.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 92%
+source-wordcount: '655'
+ht-degree: 94%
 
 ---
 
