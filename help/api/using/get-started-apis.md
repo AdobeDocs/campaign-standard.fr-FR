@@ -1,6 +1,6 @@
 ---
 title: Prise en main des API de Campaign Standard
-description: Les API de Campaign Standard visent à vous permettre de créer des intégrations et de construire votre propre écosystème en interfacant Campaign avec le panel de technologies que vous utilisez.
+description: Créez des intégrations et construisez votre propre écosystème en interfacant Campaign avec un ensemble de technologies.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 89%
+source-wordcount: '233'
+ht-degree: 93%
 
 ---
 
