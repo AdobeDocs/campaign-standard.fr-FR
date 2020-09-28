@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '500'
+ht-degree: 84%
 
 ---
 
@@ -47,14 +47,14 @@ Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre acti
 
 Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
-* ![](assets/marketing_program_icon.png) : Program
-* ![](assets/marketing_campaign_icon.png) : Campaign
-* ![](assets/marketing_email_icon.png) : Email
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : Push notification
-* ![](assets/marketing_lp_icon.png) : Message In-App
-* ![](assets/marketing_lp_icon.png) : Landing page
-* ![](assets/marketing_workflow_icon.png) : Workflow
+* ![](assets/marketing_program_icon.png) Program
+* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_email_icon.png) Email
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) Push notification
+* ![](assets/marketing_lp_icon.png) Message In-App
+* ![](assets/marketing_lp_icon.png) Landing page
+* ![](assets/marketing_workflow_icon.png) Workflow
 
 La couleur associée à cette icône indique le statut d&#39;exécution de l&#39;activité correspondante, en fonction de sa période de validité et de son état.
 
@@ -86,16 +86,16 @@ Les programmes et les campagnes sont présentés dans la section [Programmes et 
 
 Selon le contexte, vous pouvez :
 
-* [créer un email ;](../../channels/using/creating-an-email.md)
-* [créer un SMS ;](../../channels/using/creating-an-sms-message.md)
-* [créer une notification push ;](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Créer un message In-App](../../channels/using/about-in-app-messaging.md)
-* [créer un workflow ;](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [créer une landing page ;](../../channels/using/getting-started-with-landing-pages.md)
-* [créer une campagne ;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [créer un programme.](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Créer un courriel - [En savoir plus](../../channels/using/creating-an-email.md)
+* Créer un SMS - [En savoir plus](../../channels/using/creating-an-sms-message.md)
+* Créer une notification Push - [En savoir plus](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Création d’un message intégré à l’application - [En savoir plus](../../channels/using/about-in-app-messaging.md)
+* Créer un processus - [En savoir plus](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Créer un landing page - [En savoir plus](../../channels/using/getting-started-with-landing-pages.md)
+* Créer une campagne - [En savoir plus](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Créer un programme - [En savoir plus](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n&#39;importe quel type d&#39;activité. Vous pouvez choisir d&#39;associer l&#39;activité marketing à une campagne parente (ou à un programme parent si vous créez un programme) via les propriétés de l&#39;activité.
+>Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n’importe quel type d’activité et choisir de lier l’activité marketing à une campagne parent (ou à un programme parent si vous créez un programme) par l’intermédiaire des propriétés de l’activité.
 
