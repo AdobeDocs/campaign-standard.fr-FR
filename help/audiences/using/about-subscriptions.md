@@ -11,11 +11,11 @@ topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 65%
 
 ---
 
@@ -34,8 +34,18 @@ Chaque service est fourni avec :
 
 Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-a-service.md) .
 
-**Rubriques connexes :**
+## Principales étapes de configuration et de gestion des abonnements
+
+Pour créer un mécanisme d’abonnement, procédez comme suit :
+
+1. **Créer un service** : suivez les étapes décrites [dans cette section](../../audiences/using/creating-a-service.md) pour créer un service d&#39;inscription
+1. **Partager le lien** - apprendre à promouvoir et partager votre service [dans cette page](../../audiences/using/promoting-a-service.md)
+1. **Surveiller les abonnements** : découvrez plusieurs façons de surveiller les abonnements de votre service [dans cette section](../../audiences/using/monitoring-subscriptions.md)
+1. **Confirmer les abonnements** - Suivez [ce didacticiel](../../audiences/using/confirming-subscription-to-a-service.md) pour envoyer un message de confirmation d&#39;abonnement
+
+## Autres ressources
 
 * [Cas pratique : requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
 * [Cas pratique : mettre à jour plusieurs statuts d’abonnement depuis un fichier](../../automating/using/updating-subscriptions-from-file.md)
 * [Abonner des profils à un service spécifique après l’import d’un fichier](../../automating/using/subscribing-profiles-from-file.md)
+* [Exclusion et inclusion dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
