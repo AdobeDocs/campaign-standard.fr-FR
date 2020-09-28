@@ -11,9 +11,9 @@ topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -72,6 +72,7 @@ Pour ce faire, la compagnie enverra une notification push transactionnelle par u
    Pour plus d&#39;informations sur l&#39;édition du contenu d&#39;une notification push, voir [Création d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. A l&#39;aide de l&#39;API REST Adobe Campaign Standard, envoyez un événement à un jeton d&#39;enregistrement (ABCDEF123456789), à l&#39;aide d&#39;une application mobile (WeFlight) sur Android (gcm), contenant les informations d&#39;embarquement.
 
    ```
@@ -114,13 +115,9 @@ Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#3
 
 1. Accédez au message transactionnel qui a été créé afin de l&#39;éditer. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le titre et le corps de votre message.
 
    Contrairement aux configurations reposant sur des événements temps réel, vous disposez d&#39;un accès direct à toutes les informations de profil pour personnaliser votre message. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Pour plus d&#39;informations sur l&#39;édition du contenu d&#39;une notification push, voir la section [Création d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
 
@@ -142,4 +139,3 @@ Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#3
    >[!NOTE]
    >
    >Il n&#39;y a pas de champ de jeton d&#39;enregistrement, d&#39;application ni de plate-forme push. Dans cet exemple, la réconciliation est effectuée avec le champ email.
-
