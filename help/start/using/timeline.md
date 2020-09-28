@@ -12,8 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
 
@@ -22,45 +25,48 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Le **[!UICONTROL Planning]** permet de visualiser les programmes en cours ainsi que leur contenu.
 
-Pour accéder au planning, cliquez sur la vignette correspondante depuis la page d'accueil.
+Pour accéder au planning, cliquez sur la vignette correspondante depuis la page d&#39;accueil.
 
-Le planning présente par défaut uniquement les programmes, qui s'affichent chronologiquement entre les dates de début et de fin définies pour chacun d'entre eux.
+Le planning présente par défaut uniquement les programmes, qui s&#39;affichent chronologiquement entre les dates de début et de fin définies pour chacun d&#39;entre eux.
 
-Chaque programme est représenté par un cadre contenant la miniature et le libellé correspondants. Selon la largeur de l'écran et le nombre d'éléments à afficher, le libellé peut être remplacé par l'identifiant du programme.
+Chaque programme est représenté par un cadre contenant la miniature et le libellé correspondants. Selon la largeur de l&#39;écran et le nombre d&#39;éléments à afficher, le libellé peut être remplacé par l&#39;identifiant du programme.
 
 ![](assets/timeline_1.png)
 
-La ligne verticale bleue est un repère chronologique correspondant à la date du jour, figurant par défaut au milieu de l'écran. Il est possible de faire défiler l'écran vers la droite ou la gauche pour modifier la période affichée.
+La ligne verticale bleue est un repère chronologique correspondant à la date du jour, figurant par défaut au milieu de l&#39;écran. Il est possible de faire défiler l&#39;écran vers la droite ou la gauche pour modifier la période affichée.
 
-Les boutons ![](assets/timeline_zoom_in.png) et ![](assets/timeline_zoom_out.png) permettent de restreindre ou d'élargir le périmètre. Le bouton ![](assets/timeline_zoom_in.png) permet ainsi d'augmenter le niveau de détail sur une période plus restreinte, jusqu'à afficher les jours, tandis que le bouton ![](assets/timeline_zoom_out.png) permet d'afficher une période plus large.
+Utilisez les icônes pour :
 
-Cliquez sur la flèche située à droite du nom de chaque programme pour afficher son contenu. Un programme peut contenir des sous-programmes, des campagnes et des landing pages. Une campagne se déploie de la même façon qu'un programme et peut contenir des emails, des SMS et des landing pages.
+* ![](assets/timeline_zoom_in.png) réduire le périmètre ou augmenter le niveau de détail pendant une période plus limitée, jusqu’à ce que des jours s’affichent
+* ![](assets/timeline_zoom_out.png) augmenter le périmètre ou afficher une période plus longue
+
+Cliquez sur la flèche située à droite du nom de chaque programme pour afficher son contenu. Un programme peut contenir des sous-programmes, des campagnes et des landing pages. Une campagne se déploie de la même façon qu&#39;un programme et peut contenir des emails, des SMS et des landing pages.
 
 >[!NOTE]
 >
 >Les workflows ne présentant pas de notion de date, ils ne figurent pas dans le planning.
 
-Lorsque le contenu d'un programme ou d'une campagne est affiché, le cadre correspondant passe au bleu et la flèche située à droite change d'orientation. Cliquez à nouveau sur la flèche pour masquer le contenu.
+Lorsque le contenu d&#39;un programme ou d&#39;une campagne est affiché, le cadre correspondant passe au bleu et la flèche située à droite change d&#39;orientation. Cliquez à nouveau sur la flèche pour masquer le contenu.
 
 ![](assets/timeline_2.png)
 
-Chaque élément est accompagné d'une icône correspondant à son type :
+Chaque élément est accompagné d&#39;une icône correspondant à son type :
 
-* ![](assets/timeline_program_icon.png) : programme
-* ![](assets/timeline_campaign_icon.png) : Campaign
-* ![](assets/timeline_lp_icon.png) : landing page
-* ![](assets/timeline_email_icon.png) : e-mail
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : notification push
+* ![](assets/timeline_program_icon.png) Program
+* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_lp_icon.png) Landing page
+* ![](assets/timeline_email_icon.png) Email
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) Push notification
 
-La bande colorée sur le bord gauche de chaque cadre indique le statut de l'élément correspondant :
+La bande colorée sur le bord gauche de chaque cadre indique le statut de l&#39;élément correspondant :
 
-* Quand un élément n'a pas encore commencé, la bande est grise.
-* Si un élément est en cours, la bande s'affiche en bleu.
-* Dès qu'un élément est terminé, la bande passe au vert.
+* Quand un élément n&#39;a pas encore commencé, la bande est grise.
+* Si un élément est en cours, la bande s&#39;affiche en bleu.
+* Dès qu&#39;un élément est terminé, la bande passe au vert.
 
-Cliquez sur un programme ou tout autre élément affiché pour faire apparaître la vignette correspondante. Cliquez alors sur la vignette pour accéder directement au contenu de l'élément sélectionné et le modifier.
+Cliquez sur un programme ou tout autre élément affiché pour faire apparaître la vignette correspondante. Cliquez alors sur la vignette pour accéder directement au contenu de l&#39;élément sélectionné et le modifier.
 
 ![](assets/timeline_3.png)
 
-Cliquez n'importe où ailleurs dans l'écran pour faire disparaître la vignette.
+Cliquez n&#39;importe où ailleurs dans l&#39;écran pour faire disparaître la vignette.
