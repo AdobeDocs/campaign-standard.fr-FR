@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
       + [Notes de mise à jour 2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
-   + [Planification des versions](rn/using/release-planning.md)
+   + [Calendrier des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
    + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
@@ -249,12 +249,12 @@ ht-degree: 98%
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l’intégration de Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Gérer les données entre Campaign et Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Demande d’intégration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Configurer les E/S d&#39;Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Demander l’intégration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Configurer les E/S d’Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configuration de Dynamics 365 pour l’intégration Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Mappage des ressources personnalisées Campaign et des entités personnalisées Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [Utilisation de l&#39;intégration Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Gardiens d’intégration](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Mappage des ressources personnalisées de Campaign et des entités personnalisées de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Utilisation de l’intégration Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Protections de l’intégration](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d’un workflow {#workflow-general-operation}
