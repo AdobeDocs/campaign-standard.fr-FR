@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017         {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017  {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -179,7 +179,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
-## Version 17.7 - Juillet 2017         {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017          {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -255,7 +255,7 @@ _Workflows_
 * Correction d’une erreur qui vous empêchait de définir une transition sortante dans l’assistant de création de diffusion récurrente.
 * Correction d’une erreur qui se produisait lors de l’utilisation d’une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017         {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017          {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -302,7 +302,7 @@ _Notifications push_
 * Correction d’une erreur qui vous empêchait de cliquer sur une notification push dans l’historique marketing d’un profil.
 * L’utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017         {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017          {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -387,7 +387,7 @@ _Notifications push_
 * Correction d’une erreur en raison de laquelle un message d’erreur n’était pas affiché lors de la création d’une application Android associée à une application mobile n’ayant pas pu être créée sur MCPNS.
 * Correction d’une erreur qui permettait à un utilisateur d’ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017         {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017          {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Capacités marketing des messages transactionnels<br /> </td> 
    <td> Les marketeurs peuvent désormais envoyer des messages transactionnels selon les profils marketing des clients. Ils peuvent ainsi :<br /> 
     <ul> 
-     <li> Apply marketing typology rules such as <span class="uicontrol">Address on denylist</span> . </li> 
+     <li> appliquer des règles de typologie marketing telles que <span class="uicontrol">Adresse sur liste bloquée</span> ; </li> 
      <li> inclure le lien de désinscription dans les messages ; </li> 
      <li> ajouter les messages transactionnels au reporting de diffusion globale ; </li> 
      <li> utiliser les messages transactionnels dans le parcours client. </li> 
@@ -530,7 +530,7 @@ _Notifications push_
 * Correction d’une erreur qui était susceptible d’empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d’une erreur qui était susceptible d’empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d’une erreur qui était susceptible d’entraîner l’ajout d’un caractère d’échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsqu’un jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, l’état correspondant est maintenant immédiatement mis à jour dans la liste de l’application des abonnés dans Adobe Campaign.
+* Lorsque le jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
 
 _Workflows_
 
