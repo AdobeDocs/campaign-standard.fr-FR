@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
@@ -114,12 +114,12 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Score de propension avec déclencheurs Experience Cloud</strong><br /> </th> 
+   <th> <strong>Score de propension avec Triggers Experience Cloud</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le score de <b>propension</b> a été retiré des Triggers de Adobe Experience Cloud. En conséquence, cette option a été supprimée de l’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’Enrichissement, nous vous recommandons de mettre à jour les schémas afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d’informations, voir <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> Publication d’un déclencheur dans Campaign </a>.
+   <td> <p>Le <b>score de propension</b> a été retiré d’Adobe Experience Cloud Triggers. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les triggers existants. Pour plus d’informations, voir la section <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign">Publication d’un déclencheur dans Campaign</a>.
 </p></br>
    </td> 
   </tr> 
