@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6275'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -24,21 +24,21 @@ ht-degree: 97%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
-## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
+## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
 **Nouvelles fonctionnalités de cette version**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+Populations témoins – [En savoir plus](../../sending/using/control-group.md)
 
-API externe (prise en charge OAuth) - [En savoir plus](../../automating/using/external-api.md)
+API externe (prise en charge OAuth) – [En savoir plus](../../automating/using/external-api.md)
 
-Intégration de Journey AI - [En savoir plus](../../sending/using/predictive.md)
+Intégration de Journey AI – [En savoir plus](../../sending/using/predictive.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La section relative à l’appel d’un processus avec des paramètres externes a été enrichie de nouvelles fonctions disponibles dans l’éditeur d’Expressions. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md)
+La section relative à l’appel d’un workflow avec des paramètres externes a été enrichie de nouvelles fonctions disponibles dans l’éditeur d’expression – [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md)
 
-Une recommandation a été ajoutée aux meilleures pratiques des workflows concernant le nombre d’activités à utiliser par processus. [En savoir plus](../../automating/using/best-practices-workflows.md#number-activities)
+Une recommandation a été ajoutée aux meilleures pratiques des workflows concernant le nombre d’activités à utiliser par workflow – [En savoir plus](../../automating/using/best-practices-workflows.md#number-activities)
 
 Une nouvelle section sur les meilleures pratiques de Diffusion a été ajoutée. [En savoir plus](../../sending/using/delivery-best-practices.md)
 
@@ -46,19 +46,19 @@ Une section a été ajoutée pour décrire les nouveaux filtres qui permettent d
 
 ## Mises à jour de la documentation - Septembre 2020 {#doc-updates-september-2020}
 
-La section des messages transactionnels Événement a été réorganisée et clarifiée. [En savoir plus](../../channels/using/event-transactional-messages.md)
+La section des messages transactionnels Événement a été réorganisée et clarifiée – [En savoir plus](../../channels/using/event-transactional-messages.md)
 
-Une note d’avertissement a été ajoutée pour avertir les utilisateurs des limitations d’autorisations liées à l’accès au journal. [En savoir plus](../../administration/using/users-management.md)
+Une note d’avertissement a été ajoutée pour avertir les utilisateurs des limitations d’autorisations liées à l’accès au journal – [En savoir plus](../../administration/using/users-management.md)
 
-Une nouvelle section a été ajoutée pour détailler le processus de création d’une nouvelle marque. [En savoir plus](../../administration/using/branding.md#creating-a-brand)
+Une nouvelle section a été ajoutée pour détailler le processus de création d’une nouvelle marque – [En savoir plus](../../administration/using/branding.md#creating-a-brand)
 
-La nouvelle intégration Campaign Standard - Microsoft Dynamics 365 est désormais disponible. [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+La nouvelle intégration Campaign Standard - Microsoft Dynamics 365 est désormais disponible – [En savoir plus](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-Des informations sur les sources anonymes ont été ajoutées dans le rapport Principal profils. [En savoir plus](../../audiences/using/active-profiles.md)
+Des informations sur les sources anonymes ont été ajoutées dans le rapport Profils actifs – [En savoir plus](../../audiences/using/active-profiles.md)
 
 ## Mises à jour de la documentation - Août 2020 {#doc-updates-august-2020}
 
-Une nouvelle section mise à jour concernant la prise en main de la messagerie transactionnelle est disponible. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
+Une nouvelle section mise à jour concernant la prise en main de la messagerie transactionnelle est disponible – [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
 La section **Limites des messages transactionnels** a été déplacée [ici.](../../channels/using/transactional-messaging-limitations.md)
 
@@ -550,7 +550,7 @@ Ajout d’informations sur la suppression d’une audience – [En savoir plus](
 
 Mise à jour de la section de rapport natif des notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018    {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018     {#release-18-7---july-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -628,7 +628,7 @@ La liste des solutions/core services Analytics pris en charge en vue de l’int�
 
 Certaines pages de la documentation consacrée à l’éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - Mars 2018    {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018     {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -644,7 +644,7 @@ Utilisation des ressources personnalisées dans les messages transactionnels �
 
 L’API RGPD regroupe des informations qui permettent le traitement automatique des demandes RGPD – [En savoir plus](../../api/using/creating-a-privacy-request.md)
 
-Informations Ajoutées sur la configuration des landings page pour permettre à vos destinataires d’être sur la liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Ajout d’informations sur la configuration des landing pages pour offrir aux destinataires la possibilité d’être placés sur liste bloquée. [En savoir plus](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 Réorganisation de la section [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md) et ajout d’un [cas pratique détaillé](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
@@ -660,7 +660,7 @@ Mise à jour de la liste des ressources d’aide concernant l’intégration des
 
 Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
-## Version 18.2 - Février 2018    {#release-18-2---february-2018}
+## Version 18.2 - Février 2018     {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -704,7 +704,7 @@ Mises à jour des informations sur les diffusions en échec et les mises en quar
 
 Nouvelles sections consacrées aux [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et aux [dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Janvier 2018    {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018     {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -732,7 +732,7 @@ Ajout d’informations sur les Paramètres d’historisation de l’activité Tr
 
 Mise à jour des instructions pour configurer l’intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Octobre 2017    {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017     {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -812,7 +812,7 @@ Mise à jour de la section sur l’activité de workflow Transfert de fichier �
 
 Ajout d’informations sur l’option Demander une confirmation avant l’envoi des messages de l’activité de workflow Diffusion email – [En savoir plus](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juillet 2017    {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017     {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -844,7 +844,7 @@ Le mécanisme de double opt-in est maintenant documenté via une procédure comp
 
 La section présentant la liste des rôles a été mise à jour – [En savoir plus](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017    {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017     {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -866,7 +866,7 @@ Le tableau des autorisations a été modifié de façon à clarifier la fonction
 
 Mise à jour des liens d’aide contextuelle disponibles directement dans Adobe Campaign.
 
-## Version 17.4 - Avril 2017    {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017     {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -896,7 +896,7 @@ Mise à jour de la section concernant l’utilisation d’images dans Campaign �
 
 Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique – [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - Mars 2017    {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017     {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
