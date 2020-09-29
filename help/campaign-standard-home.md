@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Nouveautés
 
-* **[Populations témoins](sending/using/control-group.md)**<br/>Mesurez l&#39;impact de vos campagnes en excluant une partie de leur audience
+* **[Populations témoins](sending/using/control-group.md)**<br/>Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
 * **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>Optimisez la conception et la diffusion avec les emails optimisés par l’IA
 
@@ -74,6 +74,6 @@ Découvrez les directives générales pour les diffusions mobiles (SMS, push, In
 | [Notes de mise à jour](rn/using/release-notes.md) | [Triggers Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Planification des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
+| [Calendrier des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
 | [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
 | [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
