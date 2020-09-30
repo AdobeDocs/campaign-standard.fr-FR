@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -120,7 +120,6 @@ ht-degree: 100%
 * Les logs qui s’affichent lors de l’exportation de packages ont été rendus plus précis et détaillés sur les erreurs rencontrées en cas d’échec.
 * Après l’envoi d’un message, vous pouvez désormais rechercher, filtrer et exporter la liste des [URL trackées](../../sending/using/tracking-messages.md).
 * La [synchronisation automatique entre Launch et Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) fait désormais l’objet d’une disponibilité générale (GA) et est activée par défaut.
-* Les messages transactionnels peuvent être envoyés avec une priorité élevée, même en cas de charge importante de diffusion en masse.
 * La taille des packages d’exportation de workflow a été optimisée en supprimant l’exportation d’envoi de BAT.
 * Un nouveau message a été ajouté pour afficher la taille du fichier téléchargé dans l’activité de **Transfert de fichier**.
 * Les messages d’erreur relatifs aux jetons de session non valides ont été améliorés.
@@ -134,6 +133,7 @@ ht-degree: 100%
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’utilisation d’un lien de destination pour les notifications push ou la messagerie In-App lorsque le tracking était activé.
+* Correction d’un problème en raison duquel une priorité élevée dans les messages transactionnels n’était pas respectée en cas de diffusion importante en masse.
 * Correction d’un problème qui pouvait empêcher d’affecter des marques à un email transactionnel. Plusieurs messages d’erreur peuvent s’afficher pendant l’étape de publication. (CAMP-44988)
 * Correction d’un problème dans l’interface utilisateur du workflow en raison duquel les informations ne pouvaient pas être enregistrées dans les champs qui demandaient des valeurs numériques. (CAMP-44025)
 * Correction d’un problème qui pouvait afficher un message d’erreur lors de l’utilisation d’une activité **Test** dans un workflow de modèle d’import. (CAMP-42910)
