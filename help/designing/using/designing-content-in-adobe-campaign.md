@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,6 +154,8 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * Lors de l&#39;édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d&#39;email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d&#39;informations sur les styles, voir [cette section](../../designing/using/styles.md).
+* La balise meta de parrain n’est pas prise en charge dans le concepteur de courrier électronique.
+* Les paires de substitution, des caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés en 2 octets (16 bits) et doivent être codés en 2 caractères UTF-16. Ces caractères incluent certaines idéogrammes CJK, la plupart des émoticônes et certaines langues.<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
 
 **Rubriques connexes :**
 
