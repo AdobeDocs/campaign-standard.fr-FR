@@ -11,8 +11,11 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
+translation-type: tm+mt
+source-git-commit: b0e69280912ee70e6f53efd24782474395c57f74
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +47,7 @@ Pour établir une session d’API Adobe I/O de service à service sécurisée, c
 
    * &lt;ORGANIZATION> : votre instance de production,
    * &lt;ORGANIZATION-mkt-stage> : votre instance d’évaluation.
+
    Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://www.adobe.io/authentication.html">documentation Adobe IO</a>).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel, récupéré lors de l’échange de votre jeton Web JSON par le biais d’une requête POST.
@@ -51,3 +55,17 @@ Pour établir une session d’API Adobe I/O de service à service sécurisée, c
 * **&lt;API_KEY>** : votre clé d’API personnelle. Elle est fournie dans Adobe I/O après la création d’une nouvelle intégration avec Adobe Campaign Service.
 
    ![texte alternatif](assets/tenant.png)
+
+## Résolution des problèmes
+
+Lors de l’intégration d’Adobe IO, si l’erreur suivante s’affiche :
+
+```
+{ 
+"code": 502, 
+"message": "Oops. Something went wrong. Check your URI and try again." 
+}
+```
+
+
+Pour vérifier si le paramètre CNAME est correctement créé, contactez votre administrateur ou votre contact technique Adobe.
