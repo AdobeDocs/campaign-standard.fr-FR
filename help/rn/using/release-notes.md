@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **Améliorations de l’exécution du workflow** (bêta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version bêta et ne sont disponibles que pour un certain nombre de clients. La disponibilité générale est prévue pour début 2021.
 * Pour améliorer la sécurité, Campaign utilise désormais un **mécanisme de signature** pour le tracking des liens dans les emails.
 * La configuration des applications mobiles a été améliorée avec des **messages d’erreur plus clairs** lors du téléchargement de certificats iOS ou de clés Android.
-* Un **nouveau mapping de diffusion** (mapRtEventAppSubRcp) est désormais disponible pour les messages push transactionnels ciblant les profils. La diffusion, l’exclusion et les logs de tracking de ces diffusions seront désormais disponibles dans les tables broadLogAppSubRcp, excludeLogAppSubRcp et trackingLogAppSubRcp. Ceci résout un problème en raison duquel l’analyse de diffusion échouait lors de l’envoi d’un message push transactionnel utilisant la dimension cible **Profil**.
 * La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Consultez à ce sujet [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Améliorations du Concepteur d’email**
