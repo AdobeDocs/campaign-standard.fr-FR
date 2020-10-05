@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour        2020
+title: Notes de mise à jour         2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2954'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 99%
 * Il n’est plus possible de modifier les entités organisationnelles du groupe de sécurité Administrateurs.
 * Lors de la création d’un profil, le champ Entité organisationnelle doit maintenant être renseigné.
 * Un trigger Experience Cloud ne peut maintenant être supprimé que si l’événement et le modèle transactionnel associés sont aussi supprimés.
-* [!DNL Adobe Creative SDK] a été désaffecté. Il est désormais obsolète dans Campaign Standard. Consultez la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
+* [!DNL Adobe Creative SDK] a été déclassé. Il est désormais obsolète dans Campaign Standard. Consultez la page [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
 
 
 **Correctifs**
