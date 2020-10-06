@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Les principales étapes de création d’ue règle de typologie sont les suivant
 
 1. Une fois toutes les typologies sélectionnées, cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de typologie.
 
-## Ordre d&#39;exécution des règles de typologie   {#typology-rules-execution-order}
+## Ordre d&#39;exécution des règles de typologie    {#typology-rules-execution-order}
 
 Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d&#39;analyse et de personnalisation des messages.
 
@@ -72,7 +72,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de contrôle, si elles s&#39;appliquent au début du ciblage.
 1. Règles de filtrage :
 
-   * Règles d&#39;application natives pour la qualification d&#39;adresse : adresse définie / adresse non vérifiée / adresse sur la liste bloquée / adresse mise en quarantaine / qualité de l&#39;adresse.
+   * Règles d’application natives pour la qualification des adresses : adresse définie/adresse non vérifiée/adresse sur liste bloquée/adresse mise en quarantaine/qualité de l’adresse.
    * Règles de filtrage définies par l&#39;utilisateur.
 
 1. Règles de contrôle, si elles s&#39;appliquent à la fin du ciblage.
