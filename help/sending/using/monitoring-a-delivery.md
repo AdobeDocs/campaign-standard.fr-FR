@@ -12,21 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # Contrôler une diffusion{#monitoring-a-delivery}
 
-Il existe plusieurs façons de surveiller une diffusion et de mesurer son impact. En tant qu’administrateur fonctionnel, vous pouvez accéder aux journaux de messages et aux logs de diffusion.
+Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son impact : En tant qu’administrateur fonctionnel, vous pouvez accéder aux logs de messages et aux logs de diffusion.
 >[!CAUTION]
 >
->Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
+>Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion ou aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
 * **Logs des messages** : ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
