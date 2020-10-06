@@ -1,5 +1,5 @@
 ---
-title: Préparation et envoi d'une notification push
+title: Créer et envoyer une notification Push
 description: Suivez ces étapes pour créer une notification push unique dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -12,11 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
-workflow-type: ht
-source-wordcount: '906'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,9 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
 
    >[!CAUTION]
    >
-   >Si la taille du payload dépasse la limite de 4 Ko, le message n&#39;est pas envoyé. Les données de personnalisation ont un impact sur la taille du message.
+   >Si la taille du payload dépasse la limite de 4 Ko, le message n&#39;est pas envoyé.
+
+Notez que les données de personnalisation affectent la taille du message.
 
 ## Envoyer la notification {#sending-the-notification}
 
@@ -131,4 +133,3 @@ Vous pouvez maintenant mesurer la portée de la diffusion de votre notification 
 
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
-
