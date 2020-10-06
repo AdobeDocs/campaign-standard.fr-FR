@@ -12,11 +12,11 @@ discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '906'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
 
 1. Renseignez les propriétés de la notification push et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
 
-   Notez que la liste déroulante affiche à la fois le SDK V4 et les applications Experience Platform SDK.
+   La liste déroulante contiendra les applications des SDK V4 et Experience Platform.
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
 1. Dans l&#39;onglet **[!UICONTROL Exclus]**, vous trouverez la liste de tous les messages exclus de la cible envoyés, ainsi que la raison de cette exclusion.
 
-   Ici, nous pouvons voir qu&#39;un de nos abonnés d&#39;application mobile a été exclu parce que l&#39;adresse était sur la liste bloquée et les autres abonnés parce que le profil était un duplicata.
+   Ici, nous pouvons constater que l’un de nos abonnés aux applications mobiles a été exclu parce que l’adresse était placée sur la liste bloquée, et que les autres abonnés l’ont été parce que le profil était un doublon.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_4.png)
 
-1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir d’autres diffusions.
+1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir des diffusions ultérieures.
 
    >[!NOTE]
    >
