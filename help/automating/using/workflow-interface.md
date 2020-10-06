@@ -1,6 +1,6 @@
 ---
 title: Interface des workflows
-description: Découvrez l'interface et les options pour créer, éditer et exécuter un workflow.
+description: Découvrez l’interface et les options pour créer, éditer et exécuter un workflow.
 page-status-flag: never-activated
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -25,25 +25,25 @@ ht-degree: 100%
 
 Dans le cadre de vos campagnes et programmes, vous pouvez créer des workflows afin de gérer des processus complets.
 
-L&#39;écran d&#39;édition d&#39;un workflow se compose des éléments suivants :
+L’écran d’édition d’un workflow se compose des éléments suivants :
 
 * La [palette](#palette), référençant les activités disponibles.
-* L&#39;[espace de travail](#workspace), dans lequel les activités sont paramétrées et organisées.
-* La [barre d&#39;actions](#action-bar), composée des boutons permettant d&#39;interagir avec le workflow et ses composants.
-* Les [actions rapides](#quick-actions), qui s&#39;affichent autour d&#39;une activité sélectionnée, permettant d&#39;interagir avec cette dernière.
+* L’[espace de travail](#workspace), dans lequel les activités sont paramétrées et organisées.
+* La [barre d’actions](#action-bar), composée des boutons permettant d’interagir avec le workflow et ses composants.
+* Les [actions rapides](#quick-actions), qui s’affichent autour d’une activité sélectionnée, permettant d’interagir avec cette dernière.
 
 ![](assets/wkf_overview.png)
 
-## Palette {#palette}
+## Palette  {#palette}
 
 La palette se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
-* [Ciblage](../../automating/using/about-targeting-activities.md) : activités spécifiques à la réalisation d&#39;un ciblage, à la manipulation et au filtrage de populations
-* [Exécution](../../automating/using/about-execution-activities.md) : activités spécifiques à l&#39;organisation et à l&#39;exécution du workflow
+* [Ciblage](../../automating/using/about-targeting-activities.md) : activités spécifiques à la réalisation d’un ciblage, à la manipulation et au filtrage de populations
+* [Exécution](../../automating/using/about-execution-activities.md) : activités spécifiques à l’organisation et à l’exécution du workflow
 * [Canaux](../../automating/using/about-channel-activities.md) : activités représentant les différents canaux de communication disponibles
 * [Data Management (ETL)](../../automating/using/about-data-management-activities.md) : activités de manipulation des données
 
-Pour utiliser une activité de la palette dans votre workflow, faites-la glisser jusqu&#39;à l&#39;emplacement de votre choix dans l&#39;espace de travail.
+Pour utiliser une activité de la palette dans votre workflow, faites-la glisser jusqu’à l’emplacement de votre choix dans l’espace de travail.
 
 Vous devez paramétrer chaque activité ajoutée depuis la palette avant de démarrer le workflow.
 
@@ -51,44 +51,44 @@ Vous devez paramétrer chaque activité ajoutée depuis la palette avant de dém
 
 ## Espace de travail {#workspace}
 
-L&#39;espace de travail est la zone centrale de l&#39;éditeur de workflows. C&#39;est dans cette zone que vous pouvez déposer vos activités, les relier entre-elles à l&#39;aide de transitions et les paramétrer.
+L’espace de travail est la zone centrale de l’éditeur de workflows. C’est dans cette zone que vous pouvez déposer vos activités, les relier entre-elles à l’aide de transitions et les paramétrer.
 
-Pour lier deux activités, déplacez l&#39;extrémité de la transition de la première activité jusqu&#39;à l&#39;activité suivante. Vous pouvez aussi déplacer la seconde activité sur l&#39;extrémité de la flèche de la première. Si vous déplacez l&#39;une des deux activités, elles restent liées.
+Pour lier deux activités, déplacez l’extrémité de la transition de la première activité jusqu’à l’activité suivante. Vous pouvez aussi déplacer la seconde activité sur l’extrémité de la flèche de la première. Si vous déplacez l’une des deux activités, elles restent liées.
 
-Les transitions qui suivent les activités traitant des données contiennent les populations intermédiaires. Vous pouvez y accéder si vous avez coché l&#39;option **[!UICONTROL Conserver les résultats intermédiaires]** dans la section **[!UICONTROL Exécution]** des propriétés du workflow.
+Les transitions qui suivent les activités traitant des données contiennent les populations intermédiaires. Vous pouvez y accéder si vous avez coché l’option **[!UICONTROL Conserver les résultats intermédiaires]** dans la section **[!UICONTROL Exécution]** des propriétés du workflow.
 
 >[!CAUTION]
 >
->Cette option consomme beaucoup d&#39;espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
+>Cette option consomme beaucoup d’espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
 
 
-Lorsqu&#39;une activité est sélectionnée, des actions rapides s&#39;affichent autour de celle-ci et permettent d&#39;interagir avec. Par exemple pour paramétrer une activité, sélectionnez-la puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px_table.png) des actions rapides.
+Lorsqu’une activité est sélectionnée, des actions rapides s’affichent autour de celle-ci et permettent d’interagir avec. Par exemple pour paramétrer une activité, sélectionnez-la puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px_table.png) des actions rapides.
 
-Certains raccourcis sont activés uniquement au niveau de l&#39;espace de travail :
+Certains raccourcis sont activés uniquement au niveau de l’espace de travail :
 
 * Sélection de plusieurs activités et transitions en dessinant une zone autour de ces dernières.
 * Touche **Ctrl** + clic gauche pour sélectionner plusieurs activités et/ou transitions.
-* Touche **Entrée** pour accéder au détail de l&#39;activité ou de la transition actuellement sélectionnée.
-* Touche **Suppr** pour supprimer l&#39;activité actuellement sélectionnée.
-* Touches **Ctrl + C** pour copier les activités sélectionnées et touches **Ctrl + V** pour les coller dans l&#39;espace de travail.
+* Touche **Entrée** pour accéder au détail de l’activité ou de la transition actuellement sélectionnée.
+* Touche **Suppr** pour supprimer l’activité actuellement sélectionnée.
+* Touches **Ctrl + C** pour copier les activités sélectionnées et touches **Ctrl + V** pour les coller dans l’espace de travail.
 
 ![](assets/workflow_workspace.png)
 
-## La barre d&#39;actions {#action-bar}
+## La barre d’actions {#action-bar}
 
-En fonction des éléments sélectionnés dans l&#39;espace de travail ou du statut d&#39;exécution du workflow, les boutons disponibles dans la barre d&#39;actions peuvent différer.
+En fonction des éléments sélectionnés dans l’espace de travail ou du statut d’exécution du workflow, les boutons disponibles dans la barre d’actions peuvent différer.
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Ouvrir l&#39;activité]**<br/>Permet d&#39;éditer les propriétés du workflow.
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Ouvrir l’activité]**<br/>Permet d’éditer les propriétés du workflow.
 
 <img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Démarrer]**<br/>Démarre le workflow.
 
 <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Mettre en pause]**<br/>Met le workflow en pause.
 
-<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Arrêter]**<br/>Interrompt l&#39;exécution du workflow. Sans possibilité de reprendre à l&#39;endroit où il s&#39;est arrêté.
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Arrêter]**<br/>Interrompt l’exécution du workflow. Sans possibilité de reprendre à l’endroit où il s’est arrêté.
 
 <img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Redémarrer]**<br/>Redémarre le workflow.
 
-<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Journal et tâches]**<br/>Ouvre le log d&#39;exécution du workflow.
+<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Journal et tâches]**<br/>Ouvre le log d’exécution du workflow.
 
 <img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Activer le mode multi-sélection]**<br/>Active le mode multi-sélection. Le workflow doit comporter au minimum deux activités.
 
@@ -96,11 +96,11 @@ En fonction des éléments sélectionnés dans l&#39;espace de travail ou du sta
 
 <img height="21px" src="assets/targeted.png" /> **[!UICONTROL Ouvrir la transition]**<br/>Ouvre la transition sélectionnée.<br />
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu&#39;elle a été marquée comme en pause ou désactivée.<br />
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu’elle a été marquée comme en pause ou désactivée.<br />
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Exécution suspendue]**<br/>Met le workflow en pause à l&#39;activité sélectionnée.<br />
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Exécution suspendue]**<br/>Met le workflow en pause à l’activité sélectionnée.<br />
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Pas d&#39;exécution]**<br/>Désactive l&#39;activité.<br />
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Pas d’exécution]**<br/>Désactive l’activité.<br />
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Supprimer la sélection]**<br/>Supprime les activités sélectionnées.<br />
 
@@ -110,19 +110,19 @@ En fonction des éléments sélectionnés dans l&#39;espace de travail ou du sta
 
 ## Actions rapides {#quick-actions}
 
-Lorsqu&#39;une activité est sélectionnée, des boutons d&#39;actions rapides apparaissent autour de l&#39;activité, permettant d&#39;interagir avec cette dernière.
+Lorsqu’une activité est sélectionnée, des boutons d’actions rapides apparaissent autour de l’activité, permettant d’interagir avec cette dernière.
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Ouvrir l&#39;activité]**<br/>Ouvre l&#39;activité sélectionnée.
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Ouvrir l’activité]**<br/>Ouvre l’activité sélectionnée.
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copier la sélection]**<br/>Copie l&#39;activité sélectionnée.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copier la sélection]**<br/>Copie l’activité sélectionnée.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l&#39;activité]**<br/>Ouvre les options avancées de l&#39;activité de diffusion email ou SMS sélectionnée.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Ouvrir les options avancées de l’activité]**<br/>Ouvre les options avancées de l’activité de diffusion email ou SMS sélectionnée.
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu&#39;elle a été marquée comme en pause ou désactivée.
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Exécution normale]**<br/>Réactive la sélection après qu’elle a été marquée comme en pause ou désactivée.
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Exécution suspendue]**<br/>Met le workflow en pause à l&#39;activité sélectionnée.
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Exécution suspendue]**<br/>Met le workflow en pause à l’activité sélectionnée.
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Pas d&#39;exécution]**<br/>Désactive l&#39;activité.
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Pas d’exécution]**<br/>Désactive l’activité.
 
 <img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Traitement anticipé]**<br/>Lance la sélection en traitement anticipé. Ce bouton est uniquement disponible pour les activités<span class="uicontrol">Planificateur</span>et<span class="uicontrol">Attente</span>.
 
@@ -130,33 +130,33 @@ Lorsqu&#39;une activité est sélectionnée, des boutons d&#39;actions rapides a
 
 ## Duplication des activités de workflow {#duplicating-workflow-activities}
 
-L&#39;espace de travail permet de dupliquer des activités de workflow en les copiant et en les collant dans le même workflow ou dans un autre depuis une même instance de Campaign.
+L’espace de travail permet de dupliquer des activités de workflow en les copiant et en les collant dans le même workflow ou dans un autre depuis une même instance de Campaign.
 
-Une fois une activité dupliquée, l&#39;ensemble de sa configuration est conservée. Pour les activités de diffusion (email, SMS, notification push, etc.), l&#39;objet de diffusion associé à l&#39;activité est dupliqué.
+Une fois une activité dupliquée, l’ensemble de sa configuration est conservée. Pour les activités de diffusion (email, SMS, notification push, etc.), l’objet de diffusion associé à l’activité est dupliqué.
 
 >[!NOTE]
 >
->Les activités de workflow ne peuvent pas être dupliquées d&#39;une instance à une autre. Les activités des workflows techniques ne peuvent pas être dupliquées.
+>Les activités de workflow ne peuvent pas être dupliquées d’une instance à une autre. Les activités des workflows techniques ne peuvent pas être dupliquées.
 
 Pour dupliquer une activité, procédez comme suit :
 
-1. Sélectionnez l&#39;activité, puis cliquez sur le bouton **[!UICONTROL Copier la sélection]** dans les actions rapides.
+1. Sélectionnez l’activité, puis cliquez sur le bouton **[!UICONTROL Copier la sélection]** dans les actions rapides.
 
    Vous pouvez également utiliser le raccourci clavier **Ctrl + C**.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Cliquez avec le bouton droit dans l&#39;espace de travail du workflow cible, puis cliquez sur le bouton **[!UICONTROL Coller]**.
+1. Cliquez avec le bouton droit dans l’espace de travail du workflow cible, puis cliquez sur le bouton **[!UICONTROL Coller]**.
 
    Vous pouvez également utiliser le raccourci clavier **Ctrl + V**.
 
    ![](assets/wkf_copypaste2.png)
 
-1. L&#39;activité est dupliquée avec tous les paramètres configurés initialement.
+1. L’activité est dupliquée avec tous les paramètres configurés initialement.
 
 Il est également possible de copier-coller plusieurs activités, ce qui permet de dupliquer un workflow entier.
 
-Pour ce faire, sélectionnez les activités en traçant une zone autour d&#39;elles. Cliquez ensuite sur le bouton **[!UICONTROL Copier la sélection]** dans la barre d&#39;actions (ou appuyez sur **Ctrl + C**). Vous pouvez coller les activités à l&#39;emplacement de votre choix.
+Pour ce faire, sélectionnez les activités en traçant une zone autour d’elles. Cliquez ensuite sur le bouton **[!UICONTROL Copier la sélection]** dans la barre d’actions (ou appuyez sur **Ctrl + C**). Vous pouvez coller les activités à l’emplacement de votre choix.
 
 ![](assets/wkf_copypaste3.png)
 
