@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,18 +29,18 @@ L&#39;édition d&#39;une expression consiste à saisir manuellement des conditio
 
 Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
-Il est également possible d’utiliser des variables de événement workflows lors de la modification de l’expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
+Il est également possible d’utiliser des variables d’événements de workflow lors de l’édition d’une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
 
 L&#39;édition d&#39;expressions peut être utilisée lors des opérations suivantes :
 
-* définition d&#39;une requête, via l&#39;option **[!UICONTROL Mode avancé]** disponible lors de l&#39;ajout d&#39;une règle.
+* définition d’une requête, via l’option **[!UICONTROL Mode avancé]** disponible lors de l’ajout d’une règle.
 
    ![](assets/expression_editor_2.png)
 
 * édition d&#39;une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d&#39;une condition de visibilité pour définir l&#39;affichage d&#39;un bloc de l&#39;éditeur de contenus HTML. Dans ce cas, l&#39;expression est éditée au format JavaScript et ne propose pas l&#39;utilisation des fonctions avancées standard.
 
-## Editer une expression {#edit-an-expression}
+## Editer une expression  {#edit-an-expression}
 
 L&#39;édition avancée d&#39;expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -64,12 +64,12 @@ L&#39;édition des expressions peut être utilisée dans la fenêtre Audience lo
 
 L&#39;édition d&#39;une expression vous permet de personnaliser l&#39;expression Audiences afin de cibler votre population selon vos besoins.
 
-**Rubriques connexes:**
+**Rubriques connexes :**
 
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions {#expression-syntax}
+## Syntaxe des expressions  {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -87,7 +87,7 @@ Les expressions standard sont composées d&#39;une ou plusieurs conditions, resp
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
-   * **[!UICONTROL AND]** : intersection des deux conditions
+   * **[!UICONTROL AND]** : intersection des deux conditions
    * **[!UICONTROL OR]** : union des deux conditions.
 
 Par exemple :
@@ -126,7 +126,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison {#comparison-operators}
+## Opérateurs de comparaison  {#comparison-operators}
 
 Pour certaines règles, l&#39;éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
@@ -196,7 +196,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
    <td> LIKE<br /> </td> 
    <td> N/A<br /> </td> 
-   <td> <span class="uicontrol">Comme</span> est quasiment identique à l'opérateur <span class="uicontrol">Contient. </span> Il permet d'insérer un caractère de substitution <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
+   <td> <span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient. </span> Il permet d'insérer un caractère de substitution <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Ici, le caractère <strong>%</strong> de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas hypothétique où l'orthographe d'une valeur n'est pas certaine.<br /> </td> 
   </tr> 
   <tr> 
