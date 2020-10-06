@@ -12,9 +12,9 @@ discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1085'
 ht-degree: 100%
 
