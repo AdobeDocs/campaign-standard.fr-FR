@@ -12,18 +12,18 @@ discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Répartition par domaine{#breakdown-by-domains}
 
-Ce rapport contient les données de performance pour chaque domaine représenté dans l&#39;audience pour une diffusion email. S&#39;il s&#39;agit d&#39;un rapport de campagne ou de programme, les données de performance sont disponibles pour des audiences multiples. Ces données vous permettent d&#39;analyser le comportement de chaque domaine par rapport à des événements spécifiques. Par exemple, l’affichage des liens, l’URL à la liste bloquée, etc.
+Ce rapport contient les données de performance pour chaque domaine représenté dans l&#39;audience pour une diffusion email. S&#39;il s&#39;agit d&#39;un rapport de campagne ou de programme, les données de performance sont disponibles pour des audiences multiples. Ces données vous permettent d&#39;analyser le comportement de chaque domaine par rapport à des événements spécifiques. Par exemple l’affichage de liens, le placement d’URL sur la liste bloquée, etc.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ Le deuxième tableau, **Statistiques de tracking**, contient les données dispon
 * **Clic** : nombre de clics sur un contenu dans une diffusion.
 * **Désabonnement** : nombre de clics sur le lien de désinscription.
 * **Page miroir** : nombre de clics sur le lien de la page miroir.
-* **En liste bloquée**: Nombre de destinataires qui ont déclaré un courriel indésirable ou indésirable. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Placé sur la liste bloquée** : nombre de destinataires ayant déclaré un email comme étant un spam ou un courrier indésirable. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
