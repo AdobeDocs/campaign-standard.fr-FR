@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -80,20 +80,20 @@ Avant d’envoyer les notifications push, vous devez effectuer les opérations s
 
 1. Pour prendre en charge les mises en œuvre de cas d’utilisation mobile, reportez-vous aux instructions détaillées sur les extensions, les règles Experience Platform Launch et l’implémentation de SDK dans la section [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard avec utilisation des SDK Adobe Experience Platform](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html).
 
-## FAQ sur les notifications Push {#push-faq}
+## FAQ sur les notifications push {#push-faq}
 
 ### Quelles seraient les ressources recommandées utiles pour en savoir plus sur le canal Push ? {#resource-push}
 
-Consultez les ressources ci-dessous :
+Consultez les ressources ci-dessous :
 
-* [Didacticiels vidéo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutorials vidéo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentation du produit](../../channels/using/about-push-notifications.md)
 * Configuration à l’aide de la [documentation du SDK AEP](../../administration/using/configuring-a-mobile-application.md)
 * [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Que dois-je faire pour acquérir un jeton Push à Campaign ? {#push-token-acquisition}
 
-Assurez-vous que l’équipe d’attribution des privilèges d’accès a terminé l’approvisionnement du canal Push dans l’Adobe Campaign Standard. Mettez en oeuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Assurez-vous que l’équipe de mise en service a terminé l’approvisionnement du canal Push en Adobe Campaign Standard. Mettez en oeuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
 ### Une fois que j’ai un jeton Push et un ECID dans Campaign, que dois-je faire d’autre pour envoyer une notification Push ? {#sending-push}
 
@@ -133,7 +133,7 @@ Veuillez vous assurer que vous suivez les instructions de charge utile Push four
 
 Notez que pour Android, Campaign ne prend en charge que la charge de données et non la charge de notification.
 
-### J’ai configuré une application dans la section Administration de l’Adobe Campaign Standard, mais l’application mobile n’est pas disponible dans les propriétés de la Diffusion. {#mobile-app-unavailable}
+### J’ai configuré une application dans la section Administration d’Adobe Campaign Standard, mais l’application mobile n’est pas disponible dans les propriétés de la Diffusion. {#mobile-app-unavailable}
 
 Un certificat Push valide doit également être téléchargé pour qu’une application puisse être disponible dans les propriétés de la diffusion.
 
@@ -150,13 +150,13 @@ Les développeurs d’applications mobiles doivent gérer la prise en charge des
 Suivez les étapes ci-dessous :
 
 * Configurez un postback de suivi Push. Instructions can be found [here](../../administration/using/configuring-a-mobile-application.md).
-* Implémentez l’API trackAction à partir de Mobile Core. Consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) pour plus d&#39;informations.
+* Implémentez l’API trackAction à partir de Mobile Core. Voir cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) pour plus d’informations.
 
 Vous trouverez des instructions plus détaillées dans cette [page](../../administration/using/push-tracking.md).
 
 ### Quels rapports sont disponibles pour le canal Push ? {#push-report-available}
 
-Un rapport prêt à l’emploi est disponible dans Adobe Campaign pour canal Push. Refer to this [documentation](../../reporting/using/push-notification-report.md).
+Un rapport prêt à l’emploi est disponible dans Adobe Campaign for Push canal. Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) pour comprendre comment sont calculées les mesures Push.
 
@@ -164,5 +164,5 @@ Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notif
 
 Oui, les liens profonds sont pris en charge dans les messages Push. Les liens détaillés doivent inclure :
 
-* qui indique que le suivi des diffusions doit être désactivé pour que les liens profonds fonctionnent.
-* Apflyer avec la branche en tant que partenaires pouvant effectuer le suivi de liens profonds. Pour plus d&#39;informations sur l&#39;intégration des branches et des Adobes Campaign Standards, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Langage indiquant que le suivi des diffusions doit être désactivé pour que les liens profonds fonctionnent.
+* Apflyer avec la branche en tant que partenaires pouvant effectuer le suivi de liens profonds. Pour plus d&#39;informations sur l&#39;intégration des branches et des Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
