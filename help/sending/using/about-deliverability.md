@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité f
 * [Recevoir des alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
-* [Quarantaine / liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Quarantaine et liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
 ## Vérifier la configuration du réseau {#network-configuration}
