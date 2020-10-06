@@ -12,11 +12,11 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1396'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Gestion des champs de profil mobile avec des données personnelles et sensibles   {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles    {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 Dans Adobe Campaign, les données d&#39;attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
@@ -127,7 +127,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    ![](assets/inapp_creating_5.png)
 
-1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d&#39;un message in-app](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
+1. Editez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d&#39;un message in-app](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/in-app-messaging/customizing-an-in-app-message.html).
 
    ![](assets/inapp_creating_6.png)
 
