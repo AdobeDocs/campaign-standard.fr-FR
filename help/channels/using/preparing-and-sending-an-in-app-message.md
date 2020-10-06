@@ -12,9 +12,9 @@ discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '1396'
 ht-degree: 100%
 
@@ -171,4 +171,3 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
 * [Rapport In-App](../../reporting/using/in-app-report.md)
 * [Envoi d&#39;un message In-App dans un workflow](../../automating/using/in-app-delivery.md)
-
