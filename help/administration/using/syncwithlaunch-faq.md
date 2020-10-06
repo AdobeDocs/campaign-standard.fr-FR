@@ -11,9 +11,9 @@ topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
 ht-degree: 100%
 
