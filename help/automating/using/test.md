@@ -1,6 +1,6 @@
 ---
 title: Test
-description: L'activité Test active une transition en fonction d'un résultat au test.
+description: L’activité Test active une transition en fonction d’un résultat au test.
 page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
@@ -12,11 +12,11 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ ht-degree: 92%
 
 ![](assets/test.png)
 
-L&#39;activité **[!UICONTROL Test]** active une transition en fonction d&#39;un résultat au test.
+L’activité **[!UICONTROL Test]** active une transition en fonction d’un résultat au test.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d’utilisation {#context-of-use}
 
 Une activité **Test** active la première transition qui satisfait la condition qui lui est associée.
 
-Si aucune condition n&#39;est satisfaite et que l&#39;option **Utiliser la transition par défaut** est activée, une transition par défaut sera activée.
+Si aucune condition n’est satisfaite et que l’option **Utiliser la transition par défaut** est activée, une transition par défaut sera activée.
 
 ![](assets/wkf_test_activity_example.png)
 
-Les conditions peuvent être basées sur des **fonctions** ou des **variables**, par exemple des variables d&#39;événements qui ont été déclarées dans l&#39;activité **[!UICONTROL Signal externe]** du workflow.
+Les conditions peuvent être basées sur des **fonctions** ou des **variables**, par exemple des variables d’événements qui ont été déclarées dans l’activité **[!UICONTROL Signal externe]** du workflow.
 
 **Rubriques connexes :**
 
@@ -50,9 +50,9 @@ Les conditions peuvent être basées sur des **fonctions** ou des **variables**,
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 1. Définissez les attributs de chaque condition :
 
-   Lorsque vous éditez le champ **[!UICONTROL Condition]**, deux boutons vous aident à appeler des variables d&#39;événements et à éditer des expressions en associant des variables et des fonctions :
+   Lorsque vous éditez le champ **[!UICONTROL Condition]**, deux boutons vous aident à appeler des variables d’événements et à éditer des expressions en associant des variables et des fonctions :
 
-   * ![](assets/extsignal_picker.png): sélectionnez la variable événement parmi toutes les variables disponibles dans le flux de travaux (voir [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png) : sélectionnez la variable d’événements parmi toutes les variables disponibles dans le workflow (voir ).[](../../automating/using/customizing-workflow-external-parameters.md)
 
       ![](assets/wkf_test_activity_variables.png)
 
