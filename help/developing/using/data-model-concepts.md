@@ -12,30 +12,30 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Notions de modèle de données{#data-model-concepts}
 
-Un modèle de données d&#39;usine est fourni avec Adobe Campaign. Ce modèle de données peut être modifié par les [administrateurs](../../administration/using/users-management.md#functional-administrators) qui peuvent ajouter de nouvelles ressources ou des extensions à des ressources existantes.
+Un modèle de données d’usine est fourni avec Adobe Campaign. Ce modèle de données peut être modifié par les [administrateurs](../../administration/using/users-management.md#functional-administrators) qui peuvent ajouter de nouvelles ressources ou des extensions à des ressources existantes.
 
 >[!CAUTION]
 >
 >La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
 
-Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
+Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d’**accéder aux outils de diagnostic**.
 
-Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d&#39;**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d&#39;achats ou de produits par exemple.
+Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d’**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d’achats ou de produits par exemple.
 
 Les ressources natives (comme les campagnes, les e-mails ou les audiences) ne peuvent pas être modifiées. Cependant, il est possible de les étendre pour leur ajouter de nouveaux champs.
 
-Les champs d&#39;extension sont générés avec un préfixe de sorte qu&#39;ils n&#39;entrent jamais en conflit avec les champs natifs.
+Les champs d’extension sont générés avec un préfixe de sorte qu’ils n’entrent jamais en conflit avec les champs natifs.
 
 >[!NOTE]
 >
@@ -43,8 +43,8 @@ Les champs d&#39;extension sont générés avec un préfixe de sorte qu&#39;ils 
 
 Il est également possible de [configurer la navigation](configuring-the-screen-definition.md) dans les écrans correspondant à la ressource créée.
 
-Il est possible **d&#39;exporter et d&#39;importer** des ressources personnalisées, par exemple d&#39;un environnement de développement vers un environnement de production. Voir à ce propos ce [cas pratique détaillé](../../automating/using/exporting-importing-custom-resources.md).
+Il est possible **d’exporter et d’importer** des ressources personnalisées, par exemple d’un environnement de développement vers un environnement de production. Voir à ce propos ce [cas pratique détaillé](../../automating/using/exporting-importing-custom-resources.md).
 
 >[!CAUTION]
 >
->Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
+>Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion et aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
