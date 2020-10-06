@@ -11,9 +11,9 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
