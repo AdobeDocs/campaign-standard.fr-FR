@@ -1,6 +1,6 @@
 ---
 title: Pourquoi utiliser les API de Campaign Standard ?
-description: En savoir plus sur les API Campaign Standard et pourquoi les utiliser.
+description: Découvrez les API de Campaign Standard et pourquoi les utiliser.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -11,11 +11,11 @@ topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
