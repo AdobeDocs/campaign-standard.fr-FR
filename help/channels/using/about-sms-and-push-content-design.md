@@ -12,30 +12,33 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
 
-# A propos de la conception du contenu d'un SMS et d'une notification push{#about-sms-and-push-content-design}
+# A propos de la conception du contenu d&#39;un SMS et d&#39;une notification push{#about-sms-and-push-content-design}
 
-Utilisez l'éditeur de contenu pour définir, modifier et personnaliser le contenu des SMS et des notifications push dans Adobe Campaign.
+Utilisez l&#39;éditeur de contenu pour définir, modifier et personnaliser le contenu des SMS et des notifications push dans Adobe Campaign.
 
-Cette section décrit les spécificités de l'éditeur de contenu de SMS et de notification push, notamment celles de l'[interface de l'éditeur](../../channels/using/sms-and-push-content-editor-interface.md).
+Cette section décrit les spécificités de l&#39;éditeur de contenu de SMS et de notification push, notamment celles de l&#39;[interface de l&#39;éditeur](../../channels/using/sms-and-push-content-editor-interface.md).
 
 Les actions qui sont communes à une ou plusieurs activités marketing sont présentées dans les sections suivantes :
 
-* Pour plus d'informations sur la personnalisation du contenu d'un SMS ou d'une notification push, voir les sections [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) et [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
-* Pour plus d'informations sur la définition du texte conditionnel dans un SMS ou une notification push, voir[Définir un texte dynamique](../../channels/using/defining-dynamic-text.md).
+* Pour plus d&#39;informations sur la personnalisation du contenu d&#39;un SMS ou d&#39;une notification push, voir les sections [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) et [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
+* Pour plus d&#39;informations sur la définition du texte conditionnel dans un SMS ou une notification push, voir[Définir un texte dynamique](../../channels/using/defining-dynamic-text.md).
 
-Pour accéder à l'éditeur de contenu de SMS et de notification push :
+Pour accéder à l&#39;éditeur de contenu de SMS et de notification push :
 
-* Cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord d'un SMS.
+* Cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord d&#39;un SMS.
 
    ![](assets/des_sms_content.png)
 
-* Cliquez sur le crayon en regard du champ **[!UICONTROL Corps du message]** dans le tableau de bord d'une notification push.
+* Cliquez sur le crayon en regard du champ **[!UICONTROL Corps du message]** dans le tableau de bord d&#39;une notification push.
 
    ![](assets/des_push_body.png)
 
@@ -43,4 +46,3 @@ Pour accéder à l'éditeur de contenu de SMS et de notification push :
 
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Créer et envoyer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
-
