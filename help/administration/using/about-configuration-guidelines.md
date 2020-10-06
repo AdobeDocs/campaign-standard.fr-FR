@@ -11,9 +11,9 @@ topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 
