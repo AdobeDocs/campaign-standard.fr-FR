@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 Dans le Concepteur d&#39;email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s&#39;affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
-## Sélectionner un élément   {#selecting-an-element}
+## Sélectionner un élément    {#selecting-an-element}
 
 Pour sélectionner un élément dans l&#39;interface du Concepteur d&#39;email, vous pouvez :
 
@@ -49,7 +49,7 @@ Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
-## Ajuster les paramètres de style   {#adjusting-style-settings}
+## Ajuster les paramètres de style    {#adjusting-style-settings}
 
 1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
@@ -138,7 +138,7 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
    >[!NOTE]
    >
-   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si elle n’est pas prise en charge, la couleur d’arrière-plan de la rangée est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
+   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
@@ -203,7 +203,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Enregistrez vos modifications.
 
-## Ajouter des attributs de style intégrés   {#adding-inline-styling-attributes}
+## Ajouter des attributs de style intégrés    {#adding-inline-styling-attributes}
 
 Dans l&#39;interface du Concepteur d&#39;email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
