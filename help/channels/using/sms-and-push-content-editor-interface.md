@@ -12,29 +12,32 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Interface de l'éditeur de contenu de SMS et de notification push{#sms-and-push-content-editor-interface}
+# Interface de l&#39;éditeur de contenu de SMS et de notification push{#sms-and-push-content-editor-interface}
 
-L'éditeur de contenu de SMS et de notification push comporte deux sections différentes qui vous permettent d'afficher et d'éditer un message.
+L&#39;éditeur de contenu de SMS et de notification push comporte deux sections différentes qui vous permettent d&#39;afficher et d&#39;éditer un message.
 
-1. La **barre d'actions** regroupe les options générales de la page. Vous pouvez insérer des champs de personnalisation ou des blocs de contenu, ajouter du texte conditionnel et prévisualiser le contenu de votre SMS grâce à celle-ci. Voir [Barre d'actions de l'éditeur de contenu de SMS et de notification push](#sms-and-push-content-editor-action-bar).
-1. La **zone d'édition** de l'écran permet de saisir directement le SMS et de sélectionner l'endroit où vous souhaitez insérer une personnalisation. Voir [Modes d'édition du contenu d'un SMS et d'une notification push](#sms-and-push-content-edition-modes).
+1. La **barre d&#39;actions** regroupe les options générales de la page. Vous pouvez insérer des champs de personnalisation ou des blocs de contenu, ajouter du texte conditionnel et prévisualiser le contenu de votre SMS grâce à celle-ci. Voir [Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push](#sms-and-push-content-editor-action-bar).
+1. La **zone d&#39;édition** de l&#39;écran permet de saisir directement le SMS et de sélectionner l&#39;endroit où vous souhaitez insérer une personnalisation. Voir [Modes d&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](#sms-and-push-content-edition-modes).
 
-## Barre d'actions de l'éditeur de contenu de SMS et de notification push {#sms-and-push-content-editor-action-bar}
+## Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push {#sms-and-push-content-editor-action-bar}
 
-La barre d'actions contient différents boutons permettant d'agir sur le contenu en cours de création.
+La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le contenu en cours de création.
 
 <table> 
  <thead> 
   <tr> 
    <th> Icône<br /> </th> 
    <th> Nom du bouton<br /> </th> 
-   <th> Canal<br /> </th> 
+   <th> Channel<br /> </th> 
    <th> Description<br /> </th> 
   </tr> 
  </thead> 
@@ -84,13 +87,12 @@ La barre d'actions contient différents boutons permettant d'agir sur le contenu
  </tbody> 
 </table>
 
-## Modes d'édition du contenu d'un SMS et d'une notification push {#sms-and-push-content-edition-modes}
+## Modes d&#39;édition du contenu d&#39;un SMS et d&#39;une notification push {#sms-and-push-content-edition-modes}
 
-L'éditeur de contenu de SMS et de notification push offre les possibilités suivantes :
+L&#39;éditeur de contenu de SMS et de notification push offre les possibilités suivantes :
 
 * Saisir du texte
-* Ajouter un champ de personnalisation Voir à ce propos la section [Insertion d'un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+* Ajouter un champ de personnalisation Voir à ce propos la section [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 * Ajouter un bloc de contenu Voir à ce propos la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * Ajouter du texte dynamique Voir à ce propos la section [Définir un texte dynamique](../../channels/using/defining-dynamic-text.md).
-* Personnaliser le nom de l'expéditeur du SMS (SMS uniquement). Voir à ce propos la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
-
+* Personnaliser le nom de l&#39;expéditeur du SMS (SMS uniquement). Voir à ce propos la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
