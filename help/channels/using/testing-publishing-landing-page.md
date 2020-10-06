@@ -11,8 +11,11 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+translation-type: tm+mt
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ Comme la landing page aura un impact sur votre plate-forme et les données, vous
 
 1. Répétez cette opération avec des profils et des données différents.
 
-   Vous pouvez également générer la miniature de la landing page depuis cet écran.
+Vous pouvez également générer la miniature de la landing page depuis cet écran.
 
 >[!NOTE]
 >
