@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7e02fa4fdef05d67118baf0f49fda7886c6768f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -32,29 +32,29 @@ Trois systèmes doivent être configurés pour cette intégration :
 
 1.  Adobe Campaign Standard - [En savoir plus](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 1. Microsoft Dynamics 365 for Sales - Description ci-dessous
-1. Outil d&#39;intégration détenu par l&#39;équipe de conseil en Adobe
+1. Outil d’intégration - détenu par l’équipe Adobe Consulting
 
 Une fois mis en service, ces systèmes doivent être configurés par un administrateur.
 
-Cet article décrit les étapes, côté Microsoft Dynamics 365, requises lors de la configuration de la pré-intégration pour permettre à un client d&#39;utiliser l&#39;intégration Adobe Campaign Standard - Microsoft Dynamics 365.
+Cet article décrit les étapes, côté Microsoft Dynamics 365, requises après la configuration préalable à l’intégration pour permettre à un client d’utiliser l’intégration Adobe Campaign Standard - Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Jusqu&#39;à ce que l&#39;interface utilisateur de l&#39;outil en libre-service soit disponible plus tard cette année, l&#39;équipe d&#39;intégration vous aidera à configurer l&#39;intégration.
+>L’équipe d’intégration vous aidera à configurer votre intégration jusqu&#39;à ce que l’interface utilisateur de l’outil en libre-service soit disponible au cours de l’année.
 
 ## Conditions préalables requises
 
-Avant d&#39;effectuer la configuration de pré-intégration dans ce document, on suppose que vous avez déjà configuré et que vous disposez d&#39;un accès administrateur à l&#39;instance Microsoft Dynamics 365 de votre entreprise.  Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
+Avant d’exécuter les étapes de configuration préalable à l’intégration décrites dans ce document, vous devez avoir déjà configuré l’instance Microsoft Dynamics 365 de votre entreprise et disposer d’un accès administrateur.  Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
 
-Si vous configurez l&#39;intégration pour les environnements d&#39;évaluation et de production, vous devez exécuter les étapes ci-dessous pour vos instances d&#39;évaluation et de production Dynamics 365. Quelques instructions ci-dessous varient légèrement selon que vous configurez une étape ou une instance de production Dynamics 365 (par exemple, pour l&#39;instance de production, sélectionnez &quot;prod&quot; pour `<stage or prod>`).
+Si vous configurez l’intégration pour les environnements d’évaluation et de production, vous devez exécuter les étapes ci-dessous pour vos instances d’évaluation et de production Dynamics 365. Quelques instructions ci-dessous varient légèrement selon que vous configurez une instance d’évaluation ou de production Dynamics 365 (par exemple, pour l’instance de production, sélectionnez « prod » pour `<stage or prod>`).
 
 ## Configuration de l’application et des autorisations
 
-Un jeton d&#39;accès OAuth permet à l&#39;outil d&#39;intégration de s&#39;authentifier auprès de votre instance Microsoft Dynamics 365 par le biais d&#39;API Web afin de publier des événements d&#39;expérience Campaign Standard dans la vue chronologique de l&#39;interface Microsoft Dynamics 365.
+Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifier auprès de votre instance Microsoft Dynamics 365 par le biais des API Web afin de publier les événements d’expérience Campaign Standard sur la vue de calendrier de l’interface de Microsoft Dynamics 365.
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
@@ -70,14 +70,14 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign `<stage or prod>`
+   * Nom : adobe campaign  `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >
->Azure AD affecte un ID d&#39;application unique&quot; (client) à votre application. Vous aurez besoin de cet ID plus tard dans la configuration de Dynamics 365, ainsi que lorsque vous effectuerez la configuration de pré-intégration pour l&#39;outil d&#39;intégration.
+>Azure AD affecte un identifiant (client) d’application unique à votre application. Vous aurez besoin de cet identifiant ultérieurement pendant la configuration de Dynamics 365, ainsi que lorsque vous effectuerez la configuration préalable à l’intégration pour l’outil d’intégration.
 
 ### Génération du secret client
 
@@ -87,11 +87,11 @@ Pour plus d’informations sur la création d’une application, reportez-vous �
 
 1. Entrez une description, définissez la durée et cliquez sur **[!UICONTROL OK]**.
 
-Votre secret client est maintenant créé. Conservez temporairement la valeur pour terminer la configuration préalable à l’intégration de l’outil d’intégration.
+Votre secret client est maintenant créé. Conservez temporairement la valeur pour effectuer la configuration préalable à l’intégration de l’outil d’intégration.
 
 >[!CAUTION]
 >
->Conservez cette valeur car vous en aurez besoin pour terminer la configuration de préintégration de l’outil d’intégration. Celle-ci ne peut pas être récupérée par la suite.
+>Conservez cette valeur, car vous en aurez besoin pour effectuer la configuration préalable à l’intégration de l’outil d’intégration. Celle-ci ne peut pas être récupérée par la suite.
 
 
 ### Configuration des autorisations
@@ -120,10 +120,10 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
    Renseignez l’écran du nouvel utilisateur.  Suggestions de paramètres :
 
-   * **[!UICONTROL Nom]** d’utilisateur (adresse électronique) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
+   * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe `<stage or prod>`
+   * **[!UICONTROL Nom complet]** : API Adobe  `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -140,7 +140,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 ### Obtention de l’identifiant du tenant
 
-Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedrive/find-your-office-365-tenant-id) pour trouver votre ID de locataire.  Vous aurez besoin de cet identifiant lors de la configuration préalable à l’intégration dans l’outil d’intégration.
+Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedrive/find-your-office-365-tenant-id) pour trouver votre identifiant de tenant.  Vous aurez besoin de cet identifiant lors de la configuration préalable à l’intégration dans l’outil d’intégration.
 
 ## Installation de Campaign Standard pour Microsoft Dynamics 365
 
