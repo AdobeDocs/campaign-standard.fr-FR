@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 64%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 64%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
 </table>
 
-Le Rapports dynamique fournit des rapports entièrement personnalisables et en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
+Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
 
 ## Gérer et partager des rapports {#manage-share-reports}
 
@@ -48,7 +48,7 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard comes with a set of **ready-to-use dynamic reports** allowing you to measure multiple aspects of your marketing campaigns: bounces, deliveries that have been declared the most as spam or junk, most viewed deliveries by recipients, channels-related reports, delivery throughput  and tracking reports...
+Campaign Standard est fourni avec un ensemble de **rapports dynamiques d’usine**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
@@ -62,11 +62,11 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Personnalisez vos rapports** en exploitant les fonctionnalités de conception de rapports dynamique : ajoutez autant de composants que nécessaire (panneaux et tableaux à structure libre) pour analyser vos données à l’aide de la mesure et des dimensions disponibles.
+**Personnalisez vos rapports** grâce aux fonctionnalités de conception de rapports dynamiques : ajoutez autant de composants que nécessaire (panneaux et tableaux à structure libre) pour analyser vos données à l’aide des mesures et des dimensions disponibles.
 
 Effectuez un glisser-déposer d’**éléments de visualisation** pour ajouter des représentations graphiques de vos données dans les rapports et les configurer selon vos besoins.
 
-Create reports based on **custom profile data** created during the Profile resource extension, and **reports based on segments** defined in targeting workflows.
+Créez des rapports à partir des **données de profil personnalisé** créées lors de l’extension de la ressource de Profil et des **rapports basés sur des segments** définis dans les workflows de ciblage.
 
 En savoir plus :
 
