@@ -11,11 +11,11 @@ topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
    >
    >A partir de la page d&#39;accueil ou de la liste des activités marketing, vous pouvez créer votre email à l&#39;intérieur d&#39;une campagne parente. Sélectionnez celle-ci parmi les campagnes déjà créées.
 
-1. Définissez la cible de votre message en fonction des critères de votre entreprise. See [About profiles](../../audiences/using/about-profiles.md).
+1. Définissez la cible de votre message en fonction des critères de votre entreprise. Voir [À propos des profils](../../audiences/using/about-profiles.md).
 
    Vous pouvez également définir les profils de test qui valideront le message. Voir [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
@@ -93,7 +93,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)      video
+* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)       
 * Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * Vidéo [Intégration d&#39;Adobe Campaign et de Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
