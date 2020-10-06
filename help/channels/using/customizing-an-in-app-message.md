@@ -1,5 +1,5 @@
 ---
-title: Personnalisation d’un message in-app
+title: Personnalisation d'un message In-App
 description: Découvrez comment personnaliser vos messages in-app à l’aide de diverses options.
 page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 ---
 
 
-# Personnalisation d’un message in-app{#customizing-an-in-app-message}
+# Personnalisation d’un message In-App{#customizing-an-in-app-message}
 
 Pour parfaire votre message in-app, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
 
@@ -207,4 +207,3 @@ Avant d’envoyer votre message in-app, vous pouvez le tester avec vos profils d
    ![](assets/inapp_sending_3.png)
 
 1. Vous pouvez maintenant envoyer votre message et mesurer son impact à l’aide des rapports de diffusion. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/in-app-report.md).
-
