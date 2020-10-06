@@ -11,9 +11,9 @@ topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d&#39;un modèle d&#39;usine     {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d&#39;un modèle d&#39;usine      {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
