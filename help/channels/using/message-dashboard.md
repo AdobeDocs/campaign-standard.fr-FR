@@ -12,11 +12,11 @@ discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 92%
 
 ---
 
@@ -52,21 +52,11 @@ Selon les paramètres renseignés et l’avancement du processus de création, c
 
    Pour plus d’informations sur les bons à tirer, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Envoyer un test]** : permet de sélectionner le mode de validation à utiliser : **[!UICONTROL Rendu des emails]**, **[!UICONTROL Bon à tirer]** ou les deux pour un email. Pour plus d’informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Envoyer un test]**: vous permet de sélectionner le mode d’approbation à utiliser : **[!UICONTROL Rendu]** par courrier électronique (courrier électronique uniquement), **[!UICONTROL BAT]** ou les deux. Pour plus d’informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md). Ce bouton n’est activé qu’une fois que vous avez créé des profils de test.
 
-   Ce bouton n’est actif que lorsque vous avez défini des profils de test.
+* **[!UICONTROL Préparer l’envoi]** : lance la préparation de l’envoi. Le bloc **[!UICONTROL Déploiement]** apparaît et affiche le résultat de la préparation. Ce bouton n’apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Dans le cas d’un SMS, ce choix n’est pas possible : il s’agit automatiquement d’un **[!UICONTROL Bon à tirer]**.
-
-* **[!UICONTROL Préparer l’envoi]** : lance la préparation de l’envoi. Le bloc **[!UICONTROL Déploiement]** apparaît et affiche le résultat de la préparation. Ce bouton n’apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant.
-
-   Pour plus d’informations sur la préparation, voir la section [Préparer l’envoi](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirmer l’envoi]** : confirme l’envoi définitif du message. Le résultat de l’envoi apparaît dans le bloc **[!UICONTROL Déploiement]**. Ce bouton n’apparaît qu’après la préparation de l’envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l’envoi à l’aide des boutons **Arrêter l’envoi** et **[!UICONTROL Mettre en pause]**.
-
-   Pour plus d’informations sur la validation d’un envoi, voir la section [Envoyer les messages](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirmer l’envoi]** : confirme l’envoi définitif du message. Le résultat de l’envoi apparaît dans le bloc **[!UICONTROL Déploiement]**. Ce bouton n’apparaît qu’après la préparation de l’envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l’envoi à l’aide des boutons **Arrêter l’envoi** et **[!UICONTROL Mettre en pause.]** For more on confirming sending, refer to [Sending messages](../../sending/using/confirming-the-send.md).
 
 ## Blocs     {#blocks}
 
