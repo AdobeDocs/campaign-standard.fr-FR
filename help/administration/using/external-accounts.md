@@ -12,11 +12,11 @@ discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1832'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 * Adobe Analytics. Voir à ce propos [cette section](../../integrating/using/configure-campaign-analytics-integration.md).
 * reCAPTCHA Google. Voir à ce propos [cette section](#google-recaptcha-external-account).
 * Stockage Blob Microsoft Azure. Voir à ce propos [cette section](#microsoft-azure-external-account).
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. Voir à ce propos [cette section](#oauth-account).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP  {#sftp-external-account}
+## Compte externe SFTP   {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
@@ -70,7 +70,7 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe      {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe       {#adobe-hosted-sftp-server-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -87,7 +87,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 * Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
 * Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-Notez également que les adresses IP publiques à partir desquelles vous tentez de lancer la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Veuillez également noter que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. L’ajout à la liste autorisée des adresses IP et l’accès à la clé publique nécessaire pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -96,22 +96,22 @@ Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour 
 >Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
 Vérifiez [ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/faq.html#ims-org-id) si votre instance est hébergée sur AWS.
 
-## Compte OAuth 2.0 {#oauth-account}
+## Compte OAuth 2.0 {#oauth-account}
 
-Pour un compte externe OAuth 2.0, fournissez les détails suivants :
+Pour un compte externe OAuth 2.0, indiquez les informations suivantes :
 
-* Type **** d&#39;octroi : seules les informations d’identification **** client sont prises en charge.
-* URL **** d’API sécurisée : saisissez le point de terminaison d’autorisation.
-* **Informations d’identification** sensibles OAuth 2.0 : Cette section est destinée aux informations d’identification sensibles par nature. Les valeurs d’identification sont masquées à l’écran après leur ajout ; à ce moment -là, ils ne seront ni lisibles ni modifiables. Si le point de terminaison de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps du POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
-* **Informations d’identification** non sensibles OAuth 2.0 : Cette section est destinée aux informations d’identification de nature non sensible. Les valeurs d’identification sont visibles à l’écran après leur ajout ; elles seront également modifiables.  Si le point de terminaison de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps du POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
+* **Type d’octroi** : seules les **informations d’identification client** sont prises en charge.
+* **URL d’API sécurisée** : saisissez le point d’entrée d’autorisation.
+* **Informations d’identification sensibles OAuth 2.0** : cette section est destinée aux informations d’identification sensibles par nature. Les valeurs d’identification sont masquées à l’écran après leur ajout ; à ce stade, elles ne seront ni lisibles ni modifiables. Si le point d’entrée de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
+* **Informations d’identification non sensibles OAuth 2.0** : cette section est destinée aux informations d’identification non sensibles par nature. Les valeurs d’identification sont visibles à l’écran après leur ajout ; elles sont également modifiables.  Si le points d’entrée de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps POST, vous pouvez sélectionner l’option ‘Inclure dans l’en-tête’ pour ces informations d’identification.
 
-A la fin de la configuration, cliquez sur **Tester le connecteur** pour vérifier que le compte externe est configuré correctement.
+À la fin de la configuration, cliquez sur **Tester le connecteur** pour vérifier que le compte externe est configuré correctement.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->Informations d&#39;identification &quot;Content-Type: application/x-www-form-urlencoded&quot; et &quot;grant_type=client_credentials&quot; seront automatiquement ajoutés à l’appel d’API ; par conséquent, vous n’aurez pas à les ajouter dans la section des informations d’identification.
+>Les informations d’identification &quot;Content-Type: application/x-www-form-urlencoded&quot; et &quot;grant_type=client_credentials&quot; seront automatiquement ajoutées à l’appel API ; par conséquent, vous n’aurez pas à les ajouter dans la section des informations d’identification.
 
 ## Compte externe Amazon S3 {#amazon-s3-external-account}
 
@@ -157,7 +157,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
-## Compte externe Google reCAPTCHA  {#google-recaptcha-external-account}
+## Compte externe Google reCAPTCHA   {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
