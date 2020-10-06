@@ -11,18 +11,18 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1115'
+ht-degree: 100%
 
 ---
 
 
 # Bonnes pratiques relatives aux workflows{#workflow-best-practices}
 
-Avec Adobe Campaign, vous pouvez configurer tous les types de workflows pour effectuer une vaste étendue de tâches. Toutefois, lors de la conception et de l&#39;exécution de vos workflows, vous devez faire très attention, car une mauvaise implémentation peut entraîner de faibles performances, des erreurs et des problèmes de plate-forme. Vous trouverez ci-dessous une liste de bonnes pratiques et de conseils de dépannage.
+Avec Adobe Campaign, vous pouvez configurer tous les types de workflows pour effectuer une vaste étendue de tâches. Toutefois, lors de la conception et de l&#39;exécution de vos workflows, vous devez faire très attention, car une mauvaise implémentation peut entraîner de faibles performances, des erreurs et des problèmes de Plateforme. Vous trouverez ci-dessous une liste de bonnes pratiques et de conseils de dépannage.
 
 >[!NOTE]
 >
@@ -75,13 +75,13 @@ Les propriétés du workflow vous permettent de définir un fuseau horaire spéc
 
 ## Activité{#activity}
 
-### Nombre d&#39;activités par processus {#number-activities}
+### Nombre d&#39;activités par workflow {#number-activities}
 
-Nous vous recommandons d’utiliser jusqu’à 100 activités dans un seul processus. Plus de 100 activités peuvent rencontrer des problèmes de performances lors de la conception et de la configuration de votre processus.
+Nous vous recommandons d’utiliser jusqu’à 100 activités dans un seul workflow. Si vous en utilisez plus, vous pouvez rencontrer des problèmes de performances lors de la conception et de la configuration de votre workflow.
 
 ### Conception des workflows
 
-Pour vous assurer que le processus se termine correctement, évitez de laisser seule la dernière transition d’un processus en utilisant une activité **** finale.
+Pour vous assurer que le workflow se termine correctement, évitez de laisser seule la dernière transition d’un workflow en utilisant une activité **[!UICONTROL Fin]**.
 
 Pour accéder au détail des transitions, cochez l&#39;option Conserver les résultats intermédiaires **[!UICONTROL dans la section]** Exécution des propriétés du workflow.
 
@@ -112,7 +112,7 @@ Pour plus d&#39;informations, consultez [Activité Planificateur](../../automati
 
 ## Appel d&#39;un workflow avec des paramètres{#workflow-with-parameters}
 
-Assurez-vous que le nom et le nombre de paramètres sont identiques à ce qui est défini lors de l’appel du flux de travail (voir [](../../automating/using/defining-parameters-calling-workflow.md). De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
+Veillez à ce que le nom et le nombre de paramètres soient identiques à ce qui est défini lors de l’appel du workflow (voir [](../../automating/using/defining-parameters-calling-workflow.md).) De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
 
 Veillez à ce que tous les paramètres soient déclarés dans l&#39;activité **[!UICONTROL Signal externe]**. Dans le cas contraire, une erreur se produira lors de l&#39;exécution de l&#39;activité.
 
