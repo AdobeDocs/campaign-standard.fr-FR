@@ -11,11 +11,11 @@ topic-tags: working-with-campaign-and-analytics
 discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ Une intégration entre le core service **Triggers** d&#39;Adobe Analytics et Ad
 **Rubriques connexes :**
 
 * [Présentation de l’intégration de Campaign Standard avec Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/integration/adobe-campaign.html)
-* [Configuration de l’intégration du Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Configuration de l’intégration de Campaign Standard](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensions et mesures de Campaign dans Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
