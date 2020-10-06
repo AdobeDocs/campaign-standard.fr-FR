@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2285'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -38,33 +38,33 @@ Les principales caractéristiques de cette activité sont les suivantes :
 * Capacité de recevoir une réponse JSON, de la mapper sur des tables de sortie et de la transmettre en aval à d’autres activités de workflow
 * Gestion des échecs avec une transition spécifique sortante
 
-### Avis de compatibilité descendante {#from-beta-to-ga}
+### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-Avec la version 20.4 de Campaign Standard, la limite de taille des données de réponse http et les garde-fous de délai d’expiration de la réponse ont été abaissés afin de s’aligner sur les meilleures pratiques (voir la section &quot;Limitations et garde-fous&quot;). Ces modifications de garde ne prendront pas effet sur les activités d&#39;API externes existantes ; par conséquent, il est recommandé de remplacer les activités d’API externes existantes par de nouvelles versions dans tous les workflows.
+Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les barrières de sécurité de timeout de la réponse ont été abaissés afin de s’aligner sur les bonnes pratiques (voir la section relatives aux barrières de sécurité et aux limites). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
-Si vous effectuez une mise à niveau depuis Campaign Standard 20.2 (ou version antérieure), notez que la fonctionnalité API externe est passée de la version bêta à la version générale de disponibilité dans la version Campaign Standard 20.3.
+Si vous effectuez une mise à niveau depuis Campaign Standard 20.2 (ou version antérieure), veuillez noter que la fonctionnalité API externe est passée de la version bêta à la version de disponibilité générale dans la version Campaign Standard 20.3.
 
-Par conséquent, si vous utilisiez les activités API externe bêta, vous devez les remplacer par des activités API externe GA dans tous les workflows.  Les workflows qui utilisent la version bêta de l’API externe ne fonctionneront pas à partir de la version Campaign Standard 20.3.
+Par conséquent, si vous utilisiez les activités API externe bêta, vous devez les remplacer par des activités API externe GA dans tous les workflows.  Les workflows qui utilisent la version bêta de l’API externe ne fonctionneront pas à partir de la version Campaign Standard 20.3.
 
-Lorsque vous remplacez les activité API externe, ajoutez la nouvelle activité API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l&#39;ancienne activité.
+Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
 >[!NOTE]
 >
->Vous ne pourrez pas copier les valeurs d’en-tête propres à une activité, car elles sont masquées dans l’activité.
+>Vous ne pourrez pas copier sur les valeurs de l’en-tête spécifiques aux activités, car elles sont masquées dans l’activité.
 
 Ensuite, reconfigurez d’autres activités dans le workflow qui pointent vers et/ou utilisent les données de l’activité API externe bêta pour pointer vers et/ou utiliser les données de la nouvelle activité API externe à la place. Exemples d’activités : diffusion email (champs de personnalisation), activité d’enrichissement, etc.
 
 ### Limitations et garde-fous {#guardrails}
 
-Les garde-fous suivants s&#39;appliquent à cette activité :
+Les barrières de sécurité suivantes s’appliquent à cette activité :
 
-* Limite de taille des données de réponse http de 5 Mo (remarque : il s’agit d’une modification par rapport à la limite de 50 Mo de la version précédente)
-* Le délai d’expiration de la demande est de 1 minute (remarque : il s’agit d’une modification par rapport au délai d’attente de 10 minutes de la version précédente.)
+* Limite de taille des données de réponse http de 5 Mo (remarque : il s’agit d’une modification par rapport à la limite de 50 Mo de la version précédente)
+* Le timeout des demandes est de 1 minute (remarque : il s’agit d’une modification par rapport au timeout de 10 minutes de la version précédente.)
 * Les redirections HTTP ne sont pas autorisées
 * Les URL autres que HTTPS sont rejetées
 * L’en-tête de demande &quot;Accept: application/json&quot; et l’en-tête de réponse &quot;Content-Type: application/json&quot; sont autorisés
 
-Des garde-fous spécifiques ont été mis en place :
+Des barrières de sécurité spécifiques ont été mises en place :
 
 * **Profondeur JSON maximale** : limite la profondeur maximale d’un code JSON imbriqué personnalisé qui peut être traité à 10 niveaux.
 * **Longueur de clé JSON maximale** : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.
@@ -72,7 +72,7 @@ Des garde-fous spécifiques ont été mis en place :
 
 >[!CAUTION]
 >
->L’activité API externe est destinée à la récupération des données à l’échelle de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non à la récupération d’informations spécifiques pour chaque profil, ce qui peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
+>L’activité d’API externe a pour objectif de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
 
 ## Configuration {#configuration}
 
@@ -122,13 +122,13 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 ### Exécution
 
-Cet onglet vous permet de définir le point de terminaison de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le point de terminaison **** HTTPS qui enverra des données à ACS.
+Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d’entrée HTTPS** qui enverra des données à ACS.
 
-Si le point de terminaison l’exige, deux types de méthode d’authentification sont disponibles :
+Si le point d’entrée l’exige, deux types de méthodes d’authentification sont disponibles :
 
-* Authentification de base : entrez votre nom d’utilisateur/mot de passe dans le champ En-tête(s) **[!UICONTROL de la]** requête.
+* Authentification de base : entrez votre nom d’utilisateur/mot de passe dans le champ **[!UICONTROL En-tête(s) de demande]**.
 
-* Authentification OAuth : En cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]**, vous pouvez sélectionner un compte externe où l&#39;authentification OAuth est définie. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* Authentification OAuth : en cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]**, vous pouvez sélectionner un compte externe où l’authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -184,32 +184,32 @@ Ces messages de log sont utilisés pour consigner des informations sur les point
    <td> <p>Appel de l’URL d’API ’https://example.com/api/v1/web-coupon?count=2’.</p></td> 
   </tr> 
   <tr> 
-   <td> Nouvelle tentative d'URL d'API '%s' en raison de %s en %d ms, tentative %d.</td> 
-   <td> <p>Nouvelle tentative d'URL d'API 'https://example.com/api/v1/web-coupon?count=0' en raison de HTTP - 401 en 2364 ms, tentative 2.</p></td>
+   <td> Nouvelle tentative de l’URL d’API ’%s’ en raison de %s en %d ms, tentative %d.</td> 
+   <td> <p>Nouvelle tentative de l’URL d’API ’https://example.com/api/v1/web-coupon?count=0’ en raison de HTTP - 401 en 2364 ms, tentative 2.</p></td>
   </tr> 
   <tr> 
    <td> Transfert du contenu depuis ’%s’(%s / %s).</td> 
    <td> <p>Transfert du contenu depuis ’https://example.com/api/v1/web-coupon?count=2’ (1234/1234).</p></td> 
   </tr>
   <tr> 
-   <td> Utilisation du jeton d'accès mis en cache pour l'ID de fournisseur '%s'.</td> 
-   <td> <p>Utilisation du jeton d'accès mis en cache pour l’ID de fournisseur "EXT25". Remarque :  EXT25 est l'identifiant (ou le nom) du compte externe. </p></td> 
+   <td> Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur ‘%s’.</td> 
+   <td> <p>Utilisation du jeton d’accès mis en cache pour l’identifiant de fournisseur ‘EXT25’. Remarque : EXT25 est l’identifiant (ou le nom) du compte externe. </p></td> 
   </tr>
   <tr> 
-   <td> Jeton d'accès récupéré du serveur pour l'ID de fournisseur '%s'.</td> 
-   <td> <p>Jeton d'accès récupéré du serveur pour l'ID de fournisseur "EXT25". Remarque : EXT25 est l'identifiant (ou le nom) du compte externe.</p></td> 
+   <td> Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur ‘%s’.</td> 
+   <td> <p>Jeton d’accès récupéré sur le serveur pour l’identifiant de fournisseur ‘EXT25’. Remarque : EXT25 est l’identifiant (ou le nom) du compte externe.</p></td> 
   </tr>
   <tr> 
-   <td> Actualisation du jeton d'accès OAuth en raison d’une erreur (HTTP : "%d").</td> 
-   <td> <p>Actualisation du jeton d'accès OAuth en raison d’une erreur (HTTP : "401").</p></td> 
+   <td> Actualisation du jeton d’accès OAuth en raison d’une erreur (HTTP : ‘%d’).</td> 
+   <td> <p>Actualisation du jeton d’accès OAuth en raison d’une erreur (HTTP : ‘401’).</p></td> 
   </tr>
   <tr> 
-   <td> Erreur d'actualisation du jeton d'accès OAuth (erreur : "%d"). </td> 
-   <td> <p>Erreur d'actualisation du jeton d'accès OAuth (erreur : "404").</p></td> 
+   <td> Erreur lors de l’actualisation du jeton d’accès OAuth (erreur : ‘%d’). </td> 
+   <td> <p>Erreur lors de l’actualisation du jeton d’accès OAuth (erreur : ‘404’).</p></td> 
   </tr>
   <tr> 
-   <td> Échec de la récupération du jeton d'accès OAuth à l'aide du compte externe spécifié lors de la tentative %d, nouvelle tentative dans %d ms.</td> 
-   <td> <p>Échec de la récupération du jeton d'accès OAuth à l'aide du compte externe spécifié lors de la tentative 1, nouvelle tentative en 1387 ms.</p></td> 
+   <td> Impossible de récupérer le jeton d’accès OAuth à l’aide du compte externe spécifié pour la tentative %d, nouvelle tentative en %d ms.</td> 
+   <td> <p>Impossible de récupérer le jeton d’accès OAuth à l’aide du compte externe spécifié pour la tentative 1, nouvelle tentative en 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <td> <p>La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ’Accept’).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Une valeur d’en-tête HTTP est mauvaise (valeur d’en-tête : '%s').</td> 
+   <td> WKF-560247 - La valeur de l’en-tête HTTP est incorrecte (valeur de l’en-tête : ‘%s’).</td> 
    <td> <p>La valeur de l’en-tête HTTP est incorrecte (valeur de l’en-tête : ’%s’). </p>
     <p>Remarque : cette erreur est consignée lorsque la valeur d’en-tête personnalisée échoue à la validation selon les <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr> 
@@ -284,36 +284,36 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
         <p>Lorsque l’activité échoue en raison d’un en-tête Content-Type non valide. - Echec de l’activité (motif : ’Content-Type - application/html’).</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Erreur lors de l'initialisation de OAuth helper (erreur : '%d')" .</td> 
-   <td> <p>Cette erreur indique que l'activité n'a pas pu initialiser l'assistance interne OAuth2.0, en raison d'une erreur lors de l'utilisation des attributs configurés dans le compte externe pour initialiser l'assistance.</p></td>
+   <td> WKF-560278 - « Erreur lors de l’initialisation de l’aide OAuth (erreur : ‘%d’) ».</td> 
+   <td> <p>Cette erreur indique que l’activité n’a pas pu initialiser l’aide interne OAuth2.0, en raison d’une erreur lors de l’utilisation des attributs configurés dans le compte externe pour initialiser l’aide.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "La clé d’en-tête HTTP n’est pas autorisée (clé d’en-tête : "%s")."</td> 
-   <td> <p>Ce message d’avertissement (pas d’erreur) indique que le compte externe OAuth 2.0 a été configuré pour ajouter des informations d’identification en tant qu’en-tête HTTP, mais que la clé d’en-tête utilisée n’est pas autorisée car il s’agit d’une clé d’en-tête réservée.</p></td>
+   <td> WKF-560279 - « La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ‘%s’). »</td> 
+   <td> <p>Ce message d’avertissement (pas d’erreur) indique que le compte externe OAuth 2.0 a été configuré pour ajouter des informations d’identification en tant qu’en-tête HTTP, mais que la clé d’en-tête utilisée n’est pas autorisée car il s’agit d’une clé d’en-tête réservée.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - Compte externe de l'ID '%s' introuvable.</td> 
-   <td> <p>Compte externe de l'ID EXT25 introuvable.  Remarque : Cette erreur indique que l'activité est configurée pour utiliser un compte externe, qui n'est plus trouvé. Il est probable que cela se produise lorsque le compte a été supprimé de la base de données et que, par conséquent, il n’est pas possible que cela se produise dans des conditions d’exploitation normales.</p></td>
+   <td> WKF-560280 - Le compte externe de l’identifiant ‘%s’ est introuvable.</td> 
+   <td> <p>Le compte externe de l’identifiant ‘EXT25’ est introuvable.  Remarque : cette erreur indique que l’activité est configurée pour utiliser un compte externe qui est introuvable. Il est probable que cette erreur se produise lorsque le compte a été supprimé de la base de données. Il est donc peu probable qu’elle se produise dans des conditions d’exploitation normales.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - Le Compte externe de l'ID '%s' est désactivé.</td> 
-   <td> <p>Le compte externe de l'ID EXT25 est désactivé. Remarque : Cette erreur indique que l’activité est configurée pour utiliser un compte externe, mais que ce compte a été désactivé (ou marqué comme inactif).</p></td>
+   <td> WKF-560281 - Le compte externe de l’identifiant ‘%s’ est désactivé.</td> 
+   <td> <p>Le compte externe de l’identifiant ‘EXT25’ est désactivé. Remarque : cette erreur indique que l’activité est configurée pour utiliser un compte externe, mais que ce compte a été désactivé (ou marqué comme inactif).</p></td>
   </tr>
   <tr> 
    <td> WKF-560282 - Protocole non pris en charge.</td> 
-   <td> <p>Cette erreur indique que le compte externe associé à l’activité n’est pas un compte externe OAuth2.0. Il est donc peu probable que cette erreur se produise à moins qu’il n’y ait une corruption ou des modifications manuelles à la configuration de l’activité.</p></td>
+   <td> <p>Cette erreur indique que le compte externe associé à l’activité n’est pas un compte externe OAuth2.0. Il est donc peu probable que cette erreur se produise à moins que des modifications manuelles soient effectuées sur la configuration de l’activité ou que celle-ci soit endommagée.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Impossible de récupérer le jeton d'accès OAuth.</td> 
-   <td> <p>La cause la plus courante de cette erreur est une mauvaise configuration du compte externe (par ex. utilisation du compte externe sans tester la réussite de la connexion). Il est possible que l’URL/les informations d’identification du compte externe soient modifiées.</p></td>
+   <td> WKF -560283- Impossible de récupérer le jeton d’accès OAuth.</td> 
+   <td> <p>La cause la plus courante de cette erreur est une mauvaise configuration du compte externe (par ex. utilisation du compte externe sans tester la connexion). Il est possible que l’URL/les informations d’identification du compte externe aient été modifiées.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - Impossible d’atteindre la page à l’adresse : %s.</td> 
-   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de sa configuration pour OAuth. Cela signifie que l’URL du serveur d’autorisations externe est soit incorrecte, soit modifiée ou que la réponse du serveur est Page introuvable.</p></td>
+   <td> CRL-290199 - Impossible d’atteindre la page à l’adresse : %s.</td> 
+   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de la configuration d’OAuth. Elle indique que l’URL du serveur d’autorisations externe est soit incorrecte, soit modifiée ou que la réponse du serveur est Page introuvable.</p></td>
   </tr>
   <tr> 
    <td> CRL-290200 - Informations d’identification incomplètes/incorrectes.</td> 
-   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de sa configuration pour OAuth. Cela signifie que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.
+   <td> <p>Ce message d’erreur s’affiche sur l’écran de l’interface utilisateur des comptes externes lors de sa configuration d’OAuth. Elle indique que les informations d’identification sont incorrectes ou qu’il manque d’autres informations d’identification requises pour se connecter au serveur d’authentification.
 </p></td>
   </tr>
  </tbody> 
