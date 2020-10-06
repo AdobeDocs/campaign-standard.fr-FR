@@ -12,37 +12,40 @@ discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 100%
 
 ---
 
 
 # Accéder aux messages{#accessing-messages}
 
-Vous pouvez exploiter un ensemble de fonctionnalités avancées allant du ciblage, définition et personnalisation des messages, exécution des communications jusqu'aux rapports opérationnels associés.
+Vous pouvez exploiter un ensemble de fonctionnalités avancées allant du ciblage, définition et personnalisation des messages, exécution des communications jusqu&#39;aux rapports opérationnels associés.
 
 Les messages sont accessibles :
 
-* au sein d'une campagne
-* à partir de la page d'accueil d'Adobe Campaign
+* au sein d&#39;une campagne
+* à partir de la page d&#39;accueil d&#39;Adobe Campaign
 * à partir de la liste des activités marketing
 
 ## Accéder aux messages dans une campagne {#accessing-messages-in-campaigns}
 
-Pour accéder à la liste des activités marketing d'une campagne :
+Pour accéder à la liste des activités marketing d&#39;une campagne :
 
 1. Accédez à **[!UICONTROL Activités marketing]** depuis la barre de navigation supérieure.
-1. Sélectionnez **[!UICONTROL Activités marketing &gt; Plans marketing &gt; Programmes &amp; Campagnes]**.
+1. Sélectionnez **[!UICONTROL Activités marketing > Plans marketing > Programmes &amp; Campagnes]**.
 
-   Vous pouvez également directement cliquer sur la vignette **[!UICONTROL Programmes &amp; Campagnes]** depuis la page d'accueil. Pour plus d'informations sur les campagnes, consultez la section [Programmes et campagnes](../../start/using/programs-and-campaigns.md).
+   Vous pouvez également directement cliquer sur la vignette **[!UICONTROL Programmes &amp; Campagnes]** depuis la page d&#39;accueil. Pour plus d&#39;informations sur les campagnes, consultez la section [Programmes et campagnes](../../start/using/programs-and-campaigns.md).
 
 1. Ouvrez un programme, puis une campagne.
 
    ![](assets/delivery_list_1.png)
 
 1. Cliquez sur la liste déroulante **[!UICONTROL Résumé]**.
-1. Cliquez sur **[!UICONTROL Recherche]** pour filtrer l'affichage des messages (par nom, date ou statut).
+1. Cliquez sur **[!UICONTROL Recherche]** pour filtrer l&#39;affichage des messages (par nom, date ou statut).
 
    Pour filtrer les messages récurrents, vous pouvez cocher la case correspondante.
 
@@ -52,22 +55,21 @@ Pour accéder à la liste complète des activités marketing de toutes campagnes
 
 1. Sélectionnez **[!UICONTROL Activités marketing]** depuis la barre de navigation supérieure.
 
-   Vous pouvez également y accéder à partir de la vignette **[!UICONTROL Activités marketing]** sur la page d'accueil. Pour plus d'informations sur la liste des activités marketing, consultez la section [Gestion des activités marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+   Vous pouvez également y accéder à partir de la vignette **[!UICONTROL Activités marketing]** sur la page d&#39;accueil. Pour plus d&#39;informations sur la liste des activités marketing, consultez la section [Gestion des activités marketing](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-1. Pour filtrer l'affichage des activités marketing (par nom, date, statut ou type d'activité), utilisez les champs de **[!UICONTROL Recherche]** situés à gauche de la liste des activités marketing.
+1. Pour filtrer l&#39;affichage des activités marketing (par nom, date, statut ou type d&#39;activité), utilisez les champs de **[!UICONTROL Recherche]** situés à gauche de la liste des activités marketing.
 
 ![](assets/delivery_list_2.png)
 
-## Cycle de vie d'un message {#message-life-cycle}
+## Cycle de vie d&#39;un message {#message-life-cycle}
 
-Chaque état d'un message est associé à une couleur, visible sur sa vignette dans les listes. Les statuts possibles sont :
+Chaque état d&#39;un message est associé à une couleur, visible sur sa vignette dans les listes. Les statuts possibles sont :
 
 * **[!UICONTROL En édition]** (gris) : le message est en édition
-* **[!UICONTROL En cours]** (bleu) : l'envoi du message est en cours
-* **[!UICONTROL Terminé]** (vert) : l'envoi s'est terminé sans erreur
-* **[!UICONTROL En erreur]** (rouge) : l'envoi a été annulé ou une erreur est survenue lors de la préparation ou de l'envoi
+* **[!UICONTROL En cours]** (bleu) : l&#39;envoi du message est en cours
+* **[!UICONTROL Terminé]** (vert) : l&#39;envoi s&#39;est terminé sans erreur
+* **[!UICONTROL En erreur]** (rouge) : l&#39;envoi a été annulé ou une erreur est survenue lors de la préparation ou de l&#39;envoi
 
    >[!NOTE]
    >
-   >Un bandeau jaune de notification peut apparaître au-dessus de la vignette lorsqu'une action est requise, par exemple lorsque vous devez confirmer l'envoi d'un message.
-
+   >Un bandeau jaune de notification peut apparaître au-dessus de la vignette lorsqu&#39;une action est requise, par exemple lorsque vous devez confirmer l&#39;envoi d&#39;un message.
