@@ -12,11 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
-workflow-type: ht
-source-wordcount: '1018'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,9 +95,9 @@ Pour des raisons de sécurité et de performances de la Plateforme, il est vivem
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Vos modifications sont effectives uniquement pour la landing page en cours d’édition. Si vous souhaitez appliquer ces modifications à d’autres landing pages, vous pouvez les effectuer dans un modèle dédié et créer d’autres landing pages à partir de ce modèle.
+>[!NOTE]
+>
+>Vos modifications sont effectives uniquement pour la landing page en cours d’édition. Si vous souhaitez appliquer ces modifications à d’autres landing pages, vous pouvez les effectuer dans un modèle dédié et créer d’autres landing pages à partir de ce modèle.
 
 ## Etape 3 - Concevoir la landing page {#design-the-landing-page}
 
