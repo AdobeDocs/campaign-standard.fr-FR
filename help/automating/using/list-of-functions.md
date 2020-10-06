@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1942'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 
 >[!NOTE]
 >
->D’autres fonctions sont disponibles dans toutes les activités qui vous permettent d’utiliser des variables de événement après avoir appelé un processus avec des paramètres externes. They are detailed in [this section](../../automating/using/customizing-workflow-external-parameters.md).
+>D’autres fonctions sont disponibles dans toutes les activités qui vous permettent d’utiliser des variables d’événements après avoir appelé un workflow avec des paramètres externes. Elles sont présentées dans [cette section](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Dates {#dates}
 
@@ -286,7 +286,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing  {#geomarketing}
+## Géomarketing   {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -305,7 +305,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques  {#numerical}
+## Numériques   {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -389,7 +389,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres  {#others}
+## Autres   {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -718,7 +718,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation  {#representation}
+## Représentation   {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
