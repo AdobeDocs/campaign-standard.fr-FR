@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
