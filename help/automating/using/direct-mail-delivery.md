@@ -12,9 +12,9 @@ discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -29,10 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentpaper.png)
 
-L&#39;activité **[!UICONTROL Diffusion courrier]** permet de configurer et de préparer un fichier contenant les données de profil que vous souhaitez utiliser pour une campagne courrier. Il peut s&#39;agir d&#39;un courrier unique qui n&#39;est envoyé qu&#39;une seule fois ou d&#39;un courrier récurrent.
+L&#39;activité **[!UICONTROL Diffusion courrier]** permet de configurer et de préparer un fichier contenant les données de profil que vous souhaitez utiliser pour une campagne courrier. Il peut s’agir d’un courrier unique qui n’est envoyé qu’une seule fois ou d’un courrier récurrent.
 
-* **Les courriers classiques ne sont envoyés qu&#39;une seule fois.**
-* **Les courriers récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
+* **Les courriers classiques ne sont envoyés qu’une seule fois.**
+* **Les courriers récurrents permettent d’envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
@@ -83,7 +83,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques     {#remarks}
+## Remarques      {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé du courrier vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d&#39;un courrier récurrent).
 
