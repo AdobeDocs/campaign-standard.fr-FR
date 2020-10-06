@@ -12,11 +12,11 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
-workflow-type: ht
-source-wordcount: '2642'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,9 @@ Pour accéder au message transactionnel que vous avez créé :
 
 ## Personnaliser un message transactionnel        {#personalizing-a-transactional-message}
 
-Pour configurer la personnalisation dans un message transactionnel, procédez comme suit :
+Dans cet exemple, vous apprendrez comment personnaliser un message transactionnel en ajoutant trois champs que vous avez définis lors de la [création de votre événement](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): prénom, dernier produit consulté, montant total du panier.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier l’objet et le contenu de votre message. Dans cet exemple, sélectionnez un modèle contenant des images et du texte. Pour plus d’informations sur les modèles de contenu d’email, voir [Conception à l’aide de modèles](../../designing/using/using-reusable-content.md#designing-templates).
 
@@ -64,9 +66,7 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
    >
    >Le lien vers le panier abandonné est un lien vers une URL externe qui redirigera la personne sur son panier. Ce paramétrage n’est pas géré dans Adobe Campaign.
 
-1. Dans cet exemple, vous souhaitez ajouter trois champs que vous avez définis lors de la [création de votre événement](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) : prénom, dernier produit consulté, montant total du panier. Pour ce faire, [insérez un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) dans le contenu du message.
-
-1. Accédez à ces champs via **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**.
+1. Parcourez le **[!UICONTROL contexte]** > événement **** en temps réel > contexte **** Événement pour obtenir les champs de personnalisation : prénom, dernier produit consulté, montant total du panier.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ Pour configurer la personnalisation dans un message transactionnel, procédez co
 
 Vous pouvez créer des listes de produits référençant une ou plusieurs collections de données dans un email transactionnel. Par exemple, dans un email d’abandon de panier, vous pouvez inclure la liste de tous les produits figurant dans le panier de l’utilisateur au moment où il a quitté le site web, avec une image, le prix et un lien vers chaque produit.
 
+Learn more in [this video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >Les listes de produits ne sont disponibles que lorsque vous éditez des emails transactionnels via l’interface du [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
-
-Pour ajouter une liste de produits abandonnés dans un message transactionnel, suivez les étapes ci-dessous.
-
-Vous pouvez également regarder une série de vidéos expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel. Voir à ce propos [cette page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
-
->[!NOTE]
 >
 >Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
 
-### Définir une liste de produits        {#defining-a-product-listing}
+Dans l&#39;exemple ci-dessous, vous apprendrez comment ajouter une liste de produits abandonnés dans un message transactionnel.
+
+### Étape 1 : Définir une liste de produits {#defining-a-product-listing}
 
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -144,7 +142,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
    >
    >Si vous souhaitez que les éléments de votre liste s’affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d’éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d’informations sur la sélection de composants de structure, consultez la section [Editer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-### Remplir la liste de produits        {#populating-the-product-listing}
+### Étape 2 : Renseignez la liste des produits. {#populating-the-product-listing}
 
 Pour afficher une liste des produits provenant de l’événement associé à l’email transactionnel, suivez les étapes ci-dessous.
 
