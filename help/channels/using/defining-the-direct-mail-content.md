@@ -12,25 +12,28 @@ discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd5999c2d1
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Définir le contenu du courrier{#defining-the-direct-mail-content}
 
-Vous pouvez définir le contenu dans le dernier écran de l'assistant de création ou en cliquant sur la section **Contenu** du tableau de bord de la diffusion.
+Vous pouvez définir le contenu dans le dernier écran de l&#39;assistant de création ou en cliquant sur la section **Contenu** du tableau de bord de la diffusion.
 
 ![](assets/direct_mail_6.png)
 
-L'écran de définition du **[!UICONTROL Contenu]** est spécifique au canal courrier. Il comporte quatre onglets : **[!UICONTROL Extraction]**, **[!UICONTROL Structure du fichier]**, **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]**.
+L&#39;écran de définition du **[!UICONTROL Contenu]** est spécifique au canal courrier. Il comporte quatre onglets : **[!UICONTROL Extraction]**, **[!UICONTROL Structure du fichier]**, **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]**.
 
 ![](assets/direct_mail_11.png)
 
-## Définir l'extraction {#defining-the-extraction}
+## Définir l&#39;extraction {#defining-the-extraction}
 
-1. Définissez tout d'abord le nom du fichier d'extraction. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Fichier de sortie]** et saisissez le libellé souhaité. Vous pouvez utiliser des champs de personnalisation, des blocs de contenu et du texte dynamique (voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)). Vous pouvez, par exemple, renseigner le libellé avec l'identifiant de la diffusion ou la date d'extraction.
+1. Définissez tout d&#39;abord le nom du fichier d&#39;extraction. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Fichier de sortie]** et saisissez le libellé souhaité. Vous pouvez utiliser des champs de personnalisation, des blocs de contenu et du texte dynamique (voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)). Vous pouvez, par exemple, renseigner le libellé avec l&#39;identifiant de la diffusion ou la date d&#39;extraction.
 
    ![](assets/direct_mail_12.png)
 
@@ -46,27 +49,26 @@ L'écran de définition du **[!UICONTROL Contenu]** est spécifique au canal cou
 
 >[!NOTE]
 >
->Pour plus d'informations sur la définition des colonnes de sortie, reportez-vous à la section de l'activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
+>Pour plus d&#39;informations sur la définition des colonnes de sortie, reportez-vous à la section de l&#39;activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
 ## Définir la structure de fichier {#defining-the-file-structure}
 
-L'onglet **Structure de fichier** permet de paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
+L&#39;onglet **Structure de fichier** permet de paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
 
 ![](assets/direct_mail_14.png)
 
 >[!NOTE]
 >
->Les options disponibles sont présentées dans les sections de l'activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
+>Les options disponibles sont présentées dans les sections de l&#39;activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir l'en-tête et le pied de page {#defining-the-header-and-footer}
+## Définir l&#39;en-tête et le pied de page {#defining-the-header-and-footer}
 
-Vous pouvez parfois avoir besoin d'ajouter des informations au début ou à la fin du fichier d'extraction. Pour cela, vous pouvez utiliser les onglets **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]** de l'écran de configuration **[!UICONTROL Contenu]**.
+Vous pouvez parfois avoir besoin d&#39;ajouter des informations au début ou à la fin du fichier d&#39;extraction. Pour cela, vous pouvez utiliser les onglets **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]** de l&#39;écran de configuration **[!UICONTROL Contenu]**.
 
 ![](assets/direct_mail_7.png)
 
-Par exemple, vous souhaiterez peut-être inclure dans l'en-tête du fichier des informations sur l'expéditeur pour l'opérateur de services postaux. Il est possible de personnaliser le pied de page et l'en-tête avec des informations qui sont disponibles dans le cadre de la diffusion. Voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization).
+Par exemple, vous souhaiterez peut-être inclure dans l&#39;en-tête du fichier des informations sur l&#39;expéditeur pour l&#39;opérateur de services postaux. Il est possible de personnaliser le pied de page et l&#39;en-tête avec des informations qui sont disponibles dans le cadre de la diffusion. Voir [Définir le contenu](../../designing/using/personalization.md#example-email-personalization).
 
-L'adresse de l'expéditeur est définie dans la section **[!UICONTROL Envoi]** des propriétés du courrier ou au niveau du modèle.
+L&#39;adresse de l&#39;expéditeur est définie dans la section **[!UICONTROL Envoi]** des propriétés du courrier ou au niveau du modèle.
 
 ![](assets/direct_mail_24.png)
-
