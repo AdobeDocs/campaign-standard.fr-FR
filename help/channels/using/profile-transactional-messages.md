@@ -11,9 +11,9 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
@@ -88,4 +88,3 @@ Cette règle fait partie d&#39;une typologie spécifique qui s&#39;applique à t
 
 * [Intégration à un site](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Typologies](../../sending/using/about-typology-rules.md)
-
