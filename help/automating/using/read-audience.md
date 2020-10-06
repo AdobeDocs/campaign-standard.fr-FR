@@ -12,11 +12,11 @@ discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ L&#39;activité **[!UICONTROL Lecture d&#39;audience]** est une version simplifi
 
    Les types d’audience suivants peuvent être récupérés : **[!UICONTROL Liste]**, **[!UICONTROL Requête]**, **[!UICONTROL Fichier]** et **[!UICONTROL Experience Cloud]**. Pour plus d&#39;informations sur les types d&#39;audiences, consultez la documentation [Audiences](../../audiences/using/about-audiences.md).
 
-   L&#39;option **[!UICONTROL Utiliser une audience dynamique]** vous permet de définir le nom de l&#39;audience à cibler en fonction des variables d&#39;événements du workflow. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
+   L&#39;option **[!UICONTROL Utiliser une audience dynamique]** vous permet de définir le nom de l&#39;audience à cibler en fonction des variables d&#39;événements du workflow. Voir à ce propos cette section : [](../../automating/using/customizing-workflow-external-parameters.md).
 
    ![](assets/readaudience_activity1.png)
 
