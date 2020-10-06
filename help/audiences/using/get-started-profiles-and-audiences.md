@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
@@ -39,15 +39,15 @@ Gérez les autorisations et le consentement des clients à l’aide de services 
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
-Lorsque vous créez des campagnes ou des messages, vous pouvez spécifier la cible des diffusions en sélectionnant des contacts dans la base de données de Campaign, à l&#39;aide de critères simples ou avancés, ou en sélectionnant des audiences.
+Lorsque vous créez des campagnes ou des messages, vous pouvez spécifier la cible des diffusions en sélectionnant des contacts dans la base de données de Campaign, à l’aide de critères simples ou avancés, ou en sélectionnant des audiences.
 
-Identify customers more effectively across all your channels using **integrated customer profiles**, **customized segments** and **control groups**. Lorsque vous connaissez vos clients, leurs centres d&#39;intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
+Identifiez les clients plus efficacement sur tous les canaux à l’aide des **profils client intégrés**, **des segments personnalisés** et des **populations témoins**. Lorsque vous connaissez vos clients, leurs centres d’intérêt, leurs données démographiques et leurs préférences en matière de canaux, vous pouvez créer plus facilement des expériences personnalisées qui seront remarquées.
 
-Adobe Campaign crée des profils client complets en temps réel, ce qui vous permet de diffuser des offres plus pertinentes et personnalisées à mesure que les préférences de vos clients changent. De plus, Adobe Campaign intègre des fonctionnalités avancées d&#39;analyse, de gestion des données et de ciblage pour créer des audiences.
+Adobe Campaign crée des profils client complets en temps réel, ce qui vous permet de diffuser des offres plus pertinentes et personnalisées à mesure que les préférences de vos clients changent. De plus, Adobe Campaign intègre des fonctionnalités avancées d’analyse, de gestion des données et de ciblage pour créer des audiences.
 
-**Les profils sont des contacts individuels stockés dans la base de données.** Chaque profil correspond à une entrée dans la base de données qui contient les informations nécessaires pour faire l&#39;objet de ciblage, de qualification et de tracking individuel : Adobe Campaign peut tracker chaque interaction sur les canaux on-line et off-line, et les fusionner en un seul profil.
+**Les profils sont des contacts individuels stockés dans la base de données.** Chaque profil correspond à une entrée dans la base de données qui contient les informations nécessaires pour faire l’objet de ciblage, de qualification et de tracking individuel : Adobe Campaign peut tracker chaque interaction sur les canaux on-line et off-line, et les fusionner en un seul profil.
 
-**Les audiences sont des listes de profils créées selon un critère spécifique ou un ensemble de critères.** Grâce aux workflows et à l&#39;éditeur de requêtes, vous avez la possibilité de construire les audiences qui seront ciblées par vos campagnes marketing, selon les informations dont vous disposez sur elles, leurs activités et leur historique marketing. Vous pouvez ainsi filtrer les profils d&#39;inscrits, échantillonner ou créer des audiences cibles sur un nombre illimité de critères.
+**Les audiences sont des listes de profils créées selon un critère spécifique ou un ensemble de critères.** Grâce aux workflows et à l’éditeur de requêtes, vous avez la possibilité de construire les audiences qui seront ciblées par vos campagnes marketing, selon les informations dont vous disposez sur elles, leurs activités et leur historique marketing. Vous pouvez ainsi filtrer les profils d’inscrits, échantillonner ou créer des audiences cibles sur un nombre illimité de critères.
 
 En savoir plus :
 
@@ -63,15 +63,15 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plate-forme. Pour veiller à créer une base de données de profils fiables, obtenez tout d&#39;abord cette autorisation.
+Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre Plateforme. Pour veiller à créer une base de données de profils fiables, obtenez tout d’abord cette autorisation.
 
 Avec Campaign, il est recommandé d’utiliser les **mécanismes simples d’opt-in et d’opt-out** par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
 
-Providing **unsubscription links** in your messages will enable Profiles to be added to the denylist, when necessary, and therefore to improve your platform deliverability. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fournir des **liens de désabonnement** dans vos messages permet l’ajout de profils à la liste bloquée, si nécessaire, et améliore donc la délivrabilité de votre Plateforme. Pour plus d’informations sur la gestion des listes bloquées, voir la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->Vous devez respecter la [politique d&#39;utilisation acceptable d’Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
+>Vous devez respecter la [politique d’utilisation acceptable d’Adobe Campaign](https://www.adobe.com/fr/legal/terms/aup.html).
 
 En savoir plus :
 
@@ -84,7 +84,7 @@ En savoir plus :
 
 Adobe Campaign propose un ensemble d’outils pour vous aider à appliquer les mesures relatives au **respect de la confidentialité** dans le cadre des règlements RGPD, CCPA et d’autres lois concernant la protection des données.
 
-Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la confidentialité et les fonctionnalités que nous offrons pour gérer le droit d&#39;accès, le droit à l’oubli, le consentement, la rétention des données et les rôles utilisateur.
+Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html) sur la gestion de la confidentialité et les fonctionnalités que nous offrons pour gérer le droit d’accès, le droit à l’oubli, le consentement, la rétention des données et les rôles utilisateur.
 
 [Cette section](../../start/using/privacy.md) aborde la confidentialité et le consentement dans Campaign et comment les gérer. Vous y trouverez également les bonnes pratiques les plus efficaces pour garantir la conformité aux obligations légales en utilisant notre service.
 
