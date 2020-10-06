@@ -12,11 +12,11 @@ discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: ht
-source-wordcount: '620'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 La création d&#39;une diffusion courrier est très similaire à celle d&#39;un email classique. Les étapes suivantes présentent la configuration qui est spécifique à ce canal. Pour plus d&#39;informations sur d&#39;autres options, reportez-vous à la section [Créer un email](../../channels/using/creating-an-email.md).
 
-1. Créez une diffusion courrier depuis la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+>[!NOTE]
+>
+>Vous pouvez également ajouter une activité de courrier à un workflow. Voir à ce propos le guide [Workflows](../../automating/using/direct-mail-delivery.md).
 
-   >[!NOTE]
-   >
-   >Vous pouvez également ajouter une activité de courrier à un workflow. Voir à ce propos le guide [Workflows](../../automating/using/direct-mail-delivery.md).
+1. Créez une diffusion courrier depuis la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
