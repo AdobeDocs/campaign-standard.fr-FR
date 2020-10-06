@@ -12,11 +12,11 @@ discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1821'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,15 +63,15 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
 1. Dans l’onglet **[!UICONTROL Transition]**, l’option **[!UICONTROL Activer une transition sortante]** permet d’ajouter une transition sortante après l’activité de requête, et ce même si elle ne récupère pas de données.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+   Le code segment de la transition sortante peut être personnalisé à l’aide d’une expression standard et de variables d’événements (voir [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Dimensions de ciblage et ressources   {#targeting-dimensions-and-resources}
+## Dimensions de ciblage et ressources    {#targeting-dimensions-and-resources}
 
 Les dimensions de ciblage et les ressources permettent de définir sur quels éléments reposera une requête pour déterminer la cible d’une diffusion.
 
-Ils sont configurés en [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md)et définis lors de la création d’un processus, dans l’onglet **[!UICONTROL Propriétés]** d’une activité de Requête.
+Elles sont configurées dans les [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et définies lors de la création d’un workflow, dans l’onglet **[!UICONTROL Propriétés]** d’une activité de requête.
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Après avoir ajouté des données additionnelles, vous pouvez appliquer un nivea
 
 Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md) un cas pratique de la personnalisation d’un email contenant des données supplémentaires.
 
-### Ajouter un champ simple   {#adding-a-simple-field}
+### Ajouter un champ simple    {#adding-a-simple-field}
 
 En ajoutant un champ simple comme donnée additionnelle, celui-ci devient directement visible dans la transition sortante de l’activité. Cela permet par exemple de vérifier que les données issues de la requête sont celles souhaitées.
 
@@ -138,7 +138,7 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Ajouter un agrégat   {#adding-an-aggregate}
+### Ajouter un agrégat    {#adding-an-aggregate}
 
 Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
 Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :
