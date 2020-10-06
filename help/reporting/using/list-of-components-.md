@@ -11,9 +11,9 @@ topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
 ht-degree: 100%
 
@@ -83,8 +83,8 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
    <td> Nom de l’application mobile.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Plate-forme<br /> </td> 
-   <td> Plate-forme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br /> </td> 
+   <td> Plateforme<br /> </td> 
+   <td> Plateforme de l’appareil sur lequel le message a été ouvert/vu ou a fait l’objet d’un clic.<br /> </td> 
   </tr> 
   <tr> 
    <td> Profil<br /> </td> 
@@ -137,11 +137,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures      {#metrics}
+## Mesures       {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS      {#email-and-sms-metrics}
+### Mesures des emails et SMS       {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -262,7 +262,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push      {#push-notification-metrics}
+### Mesures des notifications push       {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -327,7 +327,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App      {#in-app-metrics}
+### Mesures In-App       {#in-app-metrics}
 
 <table> 
  <thead> 
