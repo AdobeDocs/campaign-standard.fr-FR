@@ -11,16 +11,16 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Définir les paramètres lors de l’appel du workflow   {#defining-the-parameters-when-calling-the-workflow}
+# Définir les paramètres lors de l’appel du workflow    {#defining-the-parameters-when-calling-the-workflow}
 
 Cette section explique comment définir des paramètres lors de l’appel d’un workflow. Pour plus d’informations sur l’exécution de cette opération à partir d’un appel API, consultez la [documentation des API REST](../../api/using/triggering-a-signal-activity.md).
 
@@ -35,7 +35,7 @@ Pour configurer l’activité **[!UICONTROL Fin]**, suivez les étapes ci-dessou
 1. Sélectionnez le workflow et l’activité Signal externe que vous voulez appeler.
 1. Cliquez sur le bouton **[!UICONTROL Créer un élément]** pour ajouter un paramètre, puis indiquez son nom et sa valeur.
 
-   * **[!UICONTROL Nom]**: nom déclaré dans l&#39;activité de signal **** externe (voir [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Nom]** : nom déclaré dans l’activité **[!UICONTROL Signal externe]** (voir [](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Valeur]** : valeur que vous souhaitez assigner au paramètre. La valeur doit respecter la **syntaxe standard**, décrite dans [cette section](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
@@ -44,4 +44,4 @@ Pour configurer l’activité **[!UICONTROL Fin]**, suivez les étapes ci-dessou
    >
    >Veillez à ce que tous les paramètres soient déclarés dans l’activité **** Signal externe. Dans le cas contraire, une erreur se produira lors de l’exécution de l’activité.
 
-1. Une fois les paramètres définis, confirmez l’activité, puis enregistrez votre flux de travail.
+1. Une fois les paramètres définis, confirmez l’activité, puis enregistrez votre workflow.
