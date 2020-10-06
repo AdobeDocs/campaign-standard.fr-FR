@@ -1,11 +1,11 @@
 ---
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Dans certains cas, il est possible que vous deviez définir pour une ressource une clé d&#39;identification constituée de deux champs. Une fois la clé d&#39;identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d&#39;identification à partir de l&#39;interface de Campaign Standard ou des API.
 
-In this use case, the **Profile** resource has been extended with custom **&quot;CRM ID&quot;** and **&quot;category&quot;** fields. Nous allons créer une clé d&#39;identification pour la ressource Profil qui sera composée de ces deux champs. Nous configurerons ensuite une définition de filtre afin de pouvoir accéder à la ressource Profil à l&#39;aide de la clé d&#39;identification.
+Dans ce cas pratique, la ressource **Profil** a été étendue avec les champs personnalisés **&quot;Identifiant CRM&quot;** et **&quot;catégorie&quot;**. Nous allons créer une clé d&#39;identification pour la ressource Profil qui sera composée de ces deux champs. Nous configurerons ensuite une définition de filtre afin de pouvoir accéder à la ressource Profil à l&#39;aide de la clé d&#39;identification.
 
 Les étapes principales de ce cas pratique sont les suivantes :
 
@@ -76,7 +76,7 @@ Rubriques connexes :
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Once you have clicked the **+** button, the parameter&#39;s name is automatically generated. Notez ces informations, car vous devrez les utiliser pour utiliser le filtre des API.
+   > Une fois que vous avez cliqué sur le bouton **+**, le nom du paramètre est généré automatiquement. Notez ces informations, car vous devrez les utiliser pour utiliser le filtre des API.
 
 1. Répétez les étapes ci-dessus avec tous les champs qui composent la clé d&#39;identification (&quot;catégorie&quot;), puis enregistrez vos modifications.
 
