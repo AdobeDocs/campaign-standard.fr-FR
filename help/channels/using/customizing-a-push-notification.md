@@ -12,11 +12,11 @@ discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '1556'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ La définition d&#39;une date d&#39;expiration pour votre notification push perm
 
 Pour ajouter une date d&#39;expiration à votre notification push :
 
-1. Cochez l&#39;option **[!UICONTROL Expiration du message]**.
-
-   >[!NOTE]
-   >
-   >En sélectionnant l&#39;option **[!UICONTROL Expiration du message]**, la durée est automatiquement définie sur 0. Si vous ne modifiez pas la valeur, APNS et FCM essaieront d&#39;envoyer le message immédiatement. En cas d&#39;échec, le message ne sera pas renvoyé.
+1. Cochez l’option **[!UICONTROL Expire le message]** : en sélectionnant l’option **[!UICONTROL Expire le message]** , la durée est automatiquement définie sur 0. Si vous ne modifiez pas la valeur, APNS et FCM essaieront d&#39;envoyer le message immédiatement. En cas d&#39;échec, le message ne sera pas renvoyé.
 
 1. Dans le champ **[!UICONTROL Durée]**, sélectionnez la validité de votre notification push.
 
@@ -191,4 +187,3 @@ Pour Android, vous pouvez saisir l&#39;URL de votre fichier dans le champ **URL 
 La case à cocher **[!UICONTROL Priorité haute]** permet de configurer une priorité haute ou normale pour les notifications push. Pour plus d&#39;informations sur la priorité des messages, consultez la [documentation destinée aux développeurs Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
 
 ![](assets/push_notif_advanced_11.png)
-
