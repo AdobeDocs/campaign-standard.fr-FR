@@ -11,11 +11,11 @@ topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1357'
+ht-degree: 100%
 
 ---
 
@@ -92,9 +92,9 @@ Votre workflow va maintenant redémarrer et synchroniser les propriétés mobile
 
 Pour utiliser une propriété mobile Experience Platform Launch dans Campaign, vous devez également configurer cette propriété dans Adobe Campaign. Dans Adobe Campaign, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard.
 
-Vous devrez attendre que le processus technique s’exécute et synchronise la propriété Launch mobile sur Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
+Vous devrez attendre que le workflow technique s’exécute et synchronise la propriété mobile Launch sur Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
 
-For more information on Sync Mobile app AEPSDK from Launch technical workflow, refer to this [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Pour plus d’informations sur le wokflow technique de synchronisation de l’application mobile AEPSDK depuis Launch, voir cette [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
