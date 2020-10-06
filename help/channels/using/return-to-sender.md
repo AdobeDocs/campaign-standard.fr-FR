@@ -11,9 +11,9 @@ topic-tags: direct-mail
 discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
@@ -39,4 +39,3 @@ Une fois l&#39;import effectué, Adobe Campaign réalise automatiquement les ac
 * Les adresses incorrectes sont ajoutées à la liste bloquée au niveau du profil.
 * Les principaux indicateurs de diffusion (KPI) sont mis à jour.
 * Les logs de diffusion sont mis à jour.
-
