@@ -11,11 +11,11 @@ topic-tags: importing-and-exporting-data
 discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Qu&#39;elles concernent les diffusions ou les abonnements, les données de log p
 
 >[!CAUTION]
 >
->Seuls [les administrateurs](../../administration/using/users-management.md#functional-administrators)fonctionnels, avec un rôle **[!UICONTROL Administration]** et un accès à **** toutes les unités peuvent accéder aux journaux d&#39;envoi, aux journaux de messages, aux logs de tracking, aux journaux d&#39;exclusion ou aux journaux d&#39;abonnement. Un utilisateur non administrateur peut cible ces journaux mais en commençant par une table liée (profils, diffusion).
+>Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion et aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
 Grâce à une **[!UICONTROL Requête incrémentale]** qui récupère uniquement les nouveaux logs à chaque exécution du workflow et une activité **[!UICONTROL Extraction de fichier]** simple qui permet de définir les colonnes de sortie, vous pouvez obtenir un fichier au format et avec les données désirés. Utilisez ensuite une activité **[!UICONTROL Transfert de fichier]** pour récupérer le fichier final. Chaque exécution du workflow est planifiée par un **[!UICONTROL Planificateur]**.
 
