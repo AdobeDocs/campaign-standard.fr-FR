@@ -12,8 +12,11 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -81,4 +84,3 @@ Une fois l&#39;envoi terminé, vous pouvez commencer à mesurer l&#39;impact de 
 * [A propos de l&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 * Vidéo [Créer une diffusion SMS](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html)
-
