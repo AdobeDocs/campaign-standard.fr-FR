@@ -11,18 +11,18 @@ topic-tags: application-settings
 discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # Mappings de ciblage dans Campaign{#target-mappings-in-campaign}
 
-Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques requis pour envoyer des diffusions (adresses, numéros de téléphone, indicateurs d&#39;inclusion, identifiants supplémentaires...).
+Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques nécessaires pour envoyer des diffusions (adresses, numéros de téléphone, indicateurs d’opt-in, autres identifiants, etc.).
 
 Les administrateurs peuvent accéder aux mappings de ciblage dans **[!UICONTROL Administration > Paramétrage de l&#39;application > Mappings de ciblage]**.
 
