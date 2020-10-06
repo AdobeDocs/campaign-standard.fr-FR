@@ -12,11 +12,11 @@ discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,10 +45,10 @@ Les options possibles sont les suivantes :
 
    >[!CAUTION]
    >
-   >Cette option consomme beaucoup d&#39;espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
+   >Cette option consomme beaucoup d’espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
 
 * **[!UICONTROL Exécuter dans le moteur (ne pas utiliser en production)]** : permet d’exécuter le workflow localement, à des fins de test d’environnement de développement.
 
-* **[!UICONTROL Niveau de criticité]** : permet de définir un niveau de priorité pour l’exécution des workflows de votre instance Adobe Campaign. Ce champ n&#39;est utilisé par les équipes d&#39;Adobes qu&#39;à des fins de surveillance.
+* **[!UICONTROL Niveau de criticité]** : permet de définir un niveau de priorité pour l’exécution des workflows de votre instance Adobe Campaign. Ce champ est utilisé uniquement par les équipes d’Adobe à des fins de monitoring.
 
 La section **[!UICONTROL Gestion des erreurs]** propose des options supplémentaires pour gérer le comportement des workflows en cas d’erreur. Ces options sont présentées dans la section [Gestion des erreurs](../../automating/using/monitoring-workflow-execution.md#error-management).
