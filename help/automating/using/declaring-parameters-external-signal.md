@@ -11,16 +11,16 @@ topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
-# Déclarer les paramètres dans l’activité Signal externe   {#declaring-the-parameters-in-the-external-signal-activity}
+# Déclarer les paramètres dans l’activité Signal externe    {#declaring-the-parameters-in-the-external-signal-activity}
 
 Pour appeler un workflow avec des paramètres, la première étape consiste à les déclarer dans une activité **[!UICONTROL Signal externe]**.
 
@@ -29,8 +29,8 @@ Pour appeler un workflow avec des paramètres, la première étape consiste à l
 
    >[!CAUTION]
    >
-   >Assurez-vous que le nom et le nombre de paramètres sont identiques à ce qui est défini lors de l&#39;appel du flux de travail (voir [](../../automating/using/defining-parameters-calling-workflow.md)). De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
+   >Veillez à ce que le nom et le nombre de paramètres soient identiques à ce qui est défini lors de l’appel du workflow (voir [](../../automating/using/defining-parameters-calling-workflow.md).) De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
-1. Une fois les paramètres déclarés, terminez la configuration du flux de travail, puis exécutez-la.
+1. Une fois les paramètres déclarés, terminez la configuration du workflow, puis exécutez-le.
