@@ -12,11 +12,11 @@ discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '828'
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 0%
 
 ![](assets/recurrentsms.png)
 
-L&#39;activité **[!UICONTROL Diffusion SMS]** permet de paramétrer l&#39;envoi d&#39;un SMS dans un workflow. Ce SMS peut être unique et n&#39;être envoyé qu&#39;une seule fois ou être récurrent.
+L&#39;activité **[!UICONTROL Diffusion SMS]** permet de paramétrer l&#39;envoi d&#39;un SMS dans un workflow. Ce SMS peut être unique et n’être envoyé qu’une seule fois ou être récurrent.
 
 * **Les SMS uniques sont des SMS standard, envoyés une seule fois.**
-* **Les SMS récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même SMS à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
+* **Les SMS récurrents permettent d’envoyer plusieurs fois sur une période définie un même SMS à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
@@ -74,7 +74,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques     {#remarks}
+## Remarques      {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé du SMS vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d&#39;un SMS récurrent).
 
