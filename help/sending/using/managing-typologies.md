@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Pour lier une typologie à un message, procédez comme suit :
 
 1. Accédez aux propriétés du message. Notez que les modèles de message sont accessibles à partir du menu de navigation **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]**.
 
-1. In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section, select the typology to link to the message.
+1. Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]**, sélectionnez la typologie à lier au message.
 
    ![](assets/typology_message.png)
 
