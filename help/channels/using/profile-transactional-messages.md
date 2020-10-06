@@ -11,11 +11,11 @@ topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 Vous avez la possibilité d&#39;envoyer des messages transactionnels selon les profils marketing des utilisateurs, ce qui vous permet de réaliser les actions suivantes :
 
-* Apply marketing typology rules such as **[!UICONTROL Address on denylist]** or [fatigue rules](../../sending/using/fatigue-rules.md).
+* appliquer des règles de typologie marketing telles que **[!UICONTROL Adresse sur liste bloquée]** ou [Règles de fatigue](../../sending/using/fatigue-rules.md) ;
 * inclure le lien de désinscription dans les messages ;
 * ajouter les messages transactionnels au reporting de diffusion globale ;
 * utiliser les messages transactionnels dans le parcours client.
@@ -41,7 +41,7 @@ Pour que l&#39;événement entraîne l&#39;envoi d&#39;un message transactionnel
 >
 >Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
-## Envoyer un message transactionnel basé sur un profil    {#sending-a-profile-transactional-message}
+## Envoyer un message transactionnel basé sur un profil     {#sending-a-profile-transactional-message}
 
 Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d&#39;événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
@@ -62,7 +62,7 @@ Les différences sont énumérées ci-dessous.
 
 1. Enregistrez vos modifications et publiez le message. Voir [Publier un message transactionnel](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## Contrôler la diffusion d&#39;un message transactionnel selon les profils    {#monitoring-a-profile-transactional-message-delivery}
+## Contrôler la diffusion d&#39;un message transactionnel selon les profils     {#monitoring-a-profile-transactional-message-delivery}
 
 Une fois le message publié et l&#39;intégration à un site effectuée, vous pouvez contrôler la diffusion.
 
@@ -74,11 +74,11 @@ Une fois le message publié et l&#39;intégration à un site effectuée, vous po
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+1. Sélectionnez l’onglet **[!UICONTROL Logs d’exclusion]** pour visualiser les destinataires qui ont été exclus de la cible du message, par exemple les adresses mises en liste bloquée.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+Pour un profil qui s’est désinscrit, la règle de typologie **[!UICONTROL Adresse sur liste bloquée]** a exclu le destinataire correspondant.
 
 Cette règle fait partie d&#39;une typologie spécifique qui s&#39;applique à tous les messages transactionnels qui reposent sur la table **[!UICONTROL Profile]**.
 
