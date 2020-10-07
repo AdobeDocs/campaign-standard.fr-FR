@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
 
