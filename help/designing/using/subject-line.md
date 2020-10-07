@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 100%
 
 ---
 
