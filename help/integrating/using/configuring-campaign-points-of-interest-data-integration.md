@@ -9,11 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
