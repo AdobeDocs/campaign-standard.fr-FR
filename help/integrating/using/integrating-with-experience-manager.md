@@ -9,10 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '650'
+ht-degree: 100%
 
 ---
 
