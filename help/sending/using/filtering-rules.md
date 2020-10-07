@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -37,7 +35,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
 | **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
-| **** | Tous | Exclut les adresses mises en quarantaine. |
+| **[!UICONTROL Adresse en quarantaine]** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
 Outre ces règles de filtrage par défaut, deux règles d’exclusion sont disponibles :
