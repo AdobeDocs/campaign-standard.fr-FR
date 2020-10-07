@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +36,7 @@ Selon votre configuration, les types d&#39;images suivants sont disponibles :
 
 ### Insérer des images dans un email   {#inserting-images-in-an-email}
 
-1. Ajoutez un composant de structure. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant de structure. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
 
    ![](assets/des_insert_images_1.png)
