@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1575'
+ht-degree: 100%
 
 ---
 
@@ -185,7 +186,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 1. Préparez le fichier à importer pour créer l’audience. Dans notre cas, il doit contenir l’adresse de substitution à utiliser pour le bon à tirer, et un préfixe à ajouter à l’objet du bon à tirer.
 
-   Dans cet exemple, l’adresse email «&nbsp;oliver.vaughan@internal.com&nbsp;» recevra un bon à tirer du message ciblant le profil avec l’adresse email «&nbsp;john.doe@mail.com&nbsp;». Le préfixe «&nbsp;JD&nbsp;» sera ajouté à l’objet du bon à tirer.
+   Dans cet exemple, l’adresse email « oliver.vaughan@internal.com » recevra un bon à tirer du message ciblant le profil avec l’adresse email « john.doe@mail.com ». Le préfixe « JD » sera ajouté à l’objet du bon à tirer.
 
    ![](assets/substitution_uc1.png)
 
@@ -194,6 +195,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
    * Activité **[!UICONTROL Chargement de fichier]** : importe le fichier CSV (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/load-file.md)).
    * Activité **[!UICONTROL Réconciliation]** : associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l’adresse email du profil comme champ de réconciliation (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
    * Activité **[!UICONTROL Sauvegarde d’audience]** : crée une audience à partir du fichier importé (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/save-audience.md)).
+
    ![](assets/substitution_uc2.png)
 
 1. Exécutez le workflow, puis accédez à l’onglet **[!UICONTROL Audiences]** pour vérifier que l’audience a été créée avec les informations souhaitées.
