@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -73,7 +71,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous 
 
 * Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](../../sending/using/understanding-quarantine-management.md).
 
-* Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine vous permet donc d&#39;éviter d&#39;être ajouté à la liste bloquée par ces fournisseurs.
+* Certains fournisseurs d’accès Internet considèrent automatiquement les emails comme du spam si le taux d’adresses invalides est trop élevé. La quarantaine permet donc d’éviter d’être ajouté à une liste bloquée par ces fournisseurs.
 
 * La gestion des quarantaines réduit également les coûts d’envoi des SMS en excluant les numéros de téléphone erronés des diffusions.
 
