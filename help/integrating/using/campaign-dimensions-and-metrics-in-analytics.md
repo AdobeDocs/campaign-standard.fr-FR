@@ -9,17 +9,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
 
 # Dimensions et mesures de Campaign dans Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-L'intégration d'Adobe Campaign et d'Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
+L&#39;intégration d&#39;Adobe Campaign et d&#39;Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
 
 Les **[!UICONTROL dimensions]** de Campaign qui figurent dans Analytics sont répertoriées ci-dessous :
 
@@ -82,7 +83,7 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
   </tr> 
   <tr> 
    <td> Envoyés<br /> </td> 
-   <td> Nombre total d'envois pour la diffusion.<br /> </td> 
+   <td> Nombre total d’envois pour la diffusion.<br /> </td> 
   </tr> 
   <tr> 
    <td> Total de bounces<br /> </td> 
@@ -97,8 +98,8 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
    <td> Nombre de destinataires ayant cliqué sur un contenu dans une diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Désabonné<br /> </td> 
-   <td> Nombre de clics sur le lien de désinscription.<br /> </td> 
+   <td> Désabonnement<br /> </td> 
+   <td> Nombre de clics sur le lien de désabonnement.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
