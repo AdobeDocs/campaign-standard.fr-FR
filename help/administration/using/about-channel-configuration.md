@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +26,9 @@ Les différentes configurations sont les suivantes :
 
 * Configuration technique du canal, notamment le routage, les règles de traitement, les paramètres de délivrabilité, etc.
 * Modèles de message et propriétés. Tous les messages reposent sur un modèle. Un ensemble de modèles prédéfinis pour tous les canaux activés est fourni avec Adobe Campaign. Vous pouvez dupliquer et personnaliser ces modèles.
-* Propriétés des messages. Lors de la création d'un message, vous pouvez affiner les propriétés en fonction de vos besoins.
+* Propriétés des messages. Lors de la création d&#39;un message, vous pouvez affiner les propriétés en fonction de vos besoins.
 * Certains canaux proposent des configurations supplémentaires qui sont en option, comme la fonction Email BCC.
 
-Le menu **[!UICONTROL Canaux]** regroupe les paramètres techniques liés aux différents canaux de l'application (Email, SMS) ainsi que la gestion des typologies et des quarantaines.
+Le menu **[!UICONTROL Canaux]** regroupe les paramètres techniques liés aux différents canaux de l&#39;application (Email, SMS) ainsi que la gestion des typologies et des quarantaines.
 
-Les administrateurs peuvent accéder à ces configurations dans le menu **[!UICONTROL Administration]** &gt; **[!UICONTROL Canaux]**.
+Les administrateurs peuvent accéder à ces configurations dans le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]**.
