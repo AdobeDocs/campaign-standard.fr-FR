@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 95%
@@ -29,7 +27,7 @@ Cette fonctionnalité doit être activée dans Adobe Campaign par Adobe. Contact
 L&#39;équipe Adobe aura besoin des informations suivantes pour activer les Triggers :
 
 * Nom de la société Experience Cloud
-* Identifiant IMS de l&#39;organisation
+* Identifiant de l’organisation IMS
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 ## Configuration des solutions et services  {#configuring-solutions-and-services}
