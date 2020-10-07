@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 99a8c3a5-7d90-4dbb-aa37-1d0a84719cf6
 context-tags: union,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
 
