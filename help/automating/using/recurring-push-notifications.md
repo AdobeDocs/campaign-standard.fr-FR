@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
