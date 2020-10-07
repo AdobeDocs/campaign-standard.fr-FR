@@ -9,11 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 100%
 
@@ -93,7 +91,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)       
+* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)       video
 * Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * Vidéo [Intégration d&#39;Adobe Campaign et de Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
