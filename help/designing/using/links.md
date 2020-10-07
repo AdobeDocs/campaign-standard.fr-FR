@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +30,7 @@ Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe
 >
 >Les images ci-après illustrent l&#39;insertion d&#39;un lien à l&#39;aide du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
-1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]**dans la barre d&#39;outils contextuelle.
+1. Sélectionnez un élément et cliquez sur **[!UICONTROL Insérer un lien]** dans la barre d&#39;outils contextuelle.
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +80,7 @@ Lorsque vous éditez un email à l&#39;aide du [Concepteur d&#39;email](../../de
 
 Adobe Campaign vous permet de tracker le comportement de vos destinataires lorsqu&#39;ils cliquent sur une URL incluse dans un email. Pour plus d&#39;informations sur le tracking, voir [cette section](../../sending/using/tracking-messages.md#about-tracking).
 
-L&#39;icône **[!UICONTROL Liens]**de la barre d&#39;action affiche automatiquement la liste des toutes les URL de votre contenu qui seront trackées.
+L&#39;icône **[!UICONTROL Liens]** de la barre d&#39;action affiche automatiquement la liste des toutes les URL de votre contenu qui seront trackées.
 
 ![](assets/des_links.png)
 
@@ -106,11 +107,11 @@ Vous pouvez aussi désactiver ou activer le tracking pour chaque URL.
 >
 >Dans Adobe Campaign, toutes les URL de contenu sont trackées par défaut, à l&#39;exception de l&#39;**URL de la page miroir** et du lien de **désabonnement**.
 
-Vous avez la possibilité de regrouper vos URL en éditant le champ **[!UICONTROL Catégorie]**en fonction de l&#39;utilisation des URL dans le message. Ces catégories peuvent être des rapports affichés, comme dans le cas de[URL et flux de clics](../../reporting/using/urls-and-click-streams.md).
+Vous avez la possibilité de regrouper vos URL en éditant le champ **[!UICONTROL Catégorie]** en fonction de l&#39;utilisation des URL dans le message. Ces catégories peuvent être des rapports affichés, comme dans le cas de [URL et flux de clics](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Lorsque vous créez un rapport, dans l&#39;onglet **[!UICONTROL Composants]**, sélectionnez**[!UICONTROL  Dimension]** et faites défiler la liste vers le bas afin d&#39;accéder aux composants de tracking. Par exemple, faites glisser **[!UICONTROL Catégorie de l&#39;URL de tracking]**et déposez-la dans l&#39;espace de travail de façon à afficher les résultats en fonction de la catégorie de tracking de chaque URL faisant l&#39;objet d&#39;un clic.
+Lorsque vous créez un rapport, dans l&#39;onglet **[!UICONTROL Composants]**, sélectionnez **[!UICONTROL Dimension]** et faites défiler la liste vers le bas afin d&#39;accéder aux composants de tracking. Par exemple, faites glisser **[!UICONTROL Catégorie de l&#39;URL de tracking]** et déposez-la dans l&#39;espace de travail de façon à afficher les résultats en fonction de la catégorie de tracking de chaque URL faisant l&#39;objet d&#39;un clic.
 
 ![](assets/des_link_tracking_report.png)
 
