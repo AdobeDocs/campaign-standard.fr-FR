@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 100%
 
