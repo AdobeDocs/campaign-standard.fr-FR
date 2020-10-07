@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
 
@@ -31,7 +29,7 @@ Un modèle d&#39;import est défini par l&#39;administrateur fonctionnel et peut
 Trois modèles par défaut sont disponibles en lecture seule :
 
 * **[!UICONTROL Mettre à jour les logs de diffusion et les mises en quarantaine Courrier]** : ce modèle peut servir de base pour de nouveaux imports permettant de mettre à jour les mises en quarantaine et les logs de diffusion du canal Courrier. Le workflow de ce modèle contient les activités suivantes :
-* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
+* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
 
    * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
    * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
@@ -48,7 +46,7 @@ Ces modèles par défaut sont en lecture seule et ne sont pas visibles par les u
 
    * **[!UICONTROL Propriétés]** : paramètres généraux du modèle d&#39;import. Cet onglet permet notamment d&#39;activer le modèle et de charger un fichier d&#39;exemple.
    * **[!UICONTROL Workflow]** : workflow d&#39;import. Cet onglet permet de définir les activités du workflow. Ces activités ne seront pas visibles lors des imports simplifiés réalisés par les utilisateurs.
-   * **[!UICONTROL Imports exécutés]** : liste des imports réalisés à l&#39;aide de ce modèle. Vous pouvez visualiser le statut, le détail et les résultats de chaque import réalisé à partir du modèle. Vous pouvez accéder directement au workflow (exécuté de manière transparente pour l&#39;utilisateur) à partir de cette liste.
+   * **[!UICONTROL Imports exécutés]** : liste des imports réalisés à l&#39;aide de ce modèle. Vous pouvez visualiser le statut, le détail et les résultats de chaque import réalisé à partir du modèle. Vous pouvez accéder directement au workflow (exécuté de manière transparente pour l&#39;utilisateur) à partir de cette liste.
 
 1. Depuis l&#39;onglet **[!UICONTROL Propriétés]**, renommez le modèle et ajoutez une description. La description sera visible par les utilisateurs lorsque le modèle sera disponible.
 
