@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 
