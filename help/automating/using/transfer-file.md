@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 100%
 
