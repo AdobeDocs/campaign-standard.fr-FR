@@ -9,11 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
