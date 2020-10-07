@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 9%
@@ -35,9 +33,9 @@ Le suivi des notifications locales peut être divisé en trois types :
 
 * **Ouverture** locale : lorsqu&#39;une notification locale a été envoyée au périphérique et que l&#39;utilisateur a cliqué sur la notification, l&#39;application s&#39;est ouverte. Il s’agit de la même méthode que le clic local, sauf qu’une ouverture locale ne sera pas déclenchée si la notification a été rejetée.
 
-Pour mettre en oeuvre le suivi pour l’Adobe Campaign Standard, l’application mobile doit inclure Mobile SDK dans l’application. Ces SDK sont disponibles dans [!DNL Adobe Mobile Services].
+Pour mettre en oeuvre le suivi pour Adobe Campaign Standard, l’application mobile doit inclure Mobile SDK dans l’application. Ces SDK sont disponibles dans [!DNL Adobe Mobile Services].
 
-Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues de l&#39;Adobe Campaign et l&#39;autre est une variable d&#39;action qui détermine s&#39;il s&#39;agit d&#39;une impression, d&#39;un clic ou d&#39;une ouverture.
+Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues d’Adobe Campaign et l’autre est une variable d’action qui détermine s’il s’agit d’une impression, d’un clic ou d’une ouverture.
 
 | Variable | Valeur |
 | :-: | :-: |
@@ -51,13 +49,13 @@ Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l
 
 ### Pour Android {#implement-local-impression-tracking-android}
 
-Le Adobe Experience Platform Mobile SDK début le suivi d’impression pour la notification locale lors de son déclenchement.
+Le SDK Adobe Experience Platform Mobile début le suivi d’impression pour la notification locale lors de son déclenchement.
 
 ### Pour iOS {#implement-local-impression-tracking-ios}
 
 Pour expliquer comment mettre en oeuvre le suivi des impressions, nous devons comprendre les trois états d’une application :
 
-* **Premier plan**: lorsque l’application est actuellement active et affichée à l’écran au premier plan.
+* **Premier plan**: lorsque l’application est actuellement principale et affichée à l’écran au premier plan.
 
 * **Contexte**: lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé non plus. Lorsque vous cliquez sur le bouton d’accueil en doublon, il affiche généralement toutes les applications en arrière-plan.
 
@@ -65,7 +63,7 @@ Pour expliquer comment mettre en oeuvre le suivi des impressions, nous devons co
 
 Pour que le suivi des impressions fonctionne toujours pendant que l’application est en arrière-plan, nous devons envoyer &quot;Contenu disponible&quot; pour informer l’application que le suivi doit être effectué.
 
-Le Adobe Experience Platform Mobile SDK début le suivi d’impression pour la notification locale lors de son déclenchement.
+Le SDK Adobe Experience Platform Mobile début le suivi d’impression pour la notification locale lors de son déclenchement.
 
 >[!CAUTION]
 >
@@ -73,7 +71,7 @@ Le Adobe Experience Platform Mobile SDK début le suivi d’impression pour la n
 
 ## Implémentation du suivi des clics {#implementing-click-tracking}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l&#39;action lors de l&#39;appel des fonctions VEMessageInfo() ou trackAction().
+Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l&#39;action lors de l&#39;appel des fonctions MessageInfo() ou trackAction().
 
 ### Pour Android {#implement-click-tracking-android}
 
@@ -153,7 +151,7 @@ Vous devez envoyer &quot;1&quot; et &quot;2&quot; car l’utilisateur doit cliqu
 
 Pour suivre l&#39;ouverture, nous devons créer l&#39;intention. Les objets Intent permettent à Android OS d&#39;appeler votre méthode lorsque certaines actions sont effectuées, dans ce cas, en cliquant sur la notification pour ouvrir l&#39;application.
 
-Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Une fois l&#39;intention définie, vous devez maintenant renvoyer les informations de suivi à l&#39;Adobe Campaign. Dans ce cas, la Vue([!DNL Activity]) Android qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet intent dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des données ouvertes.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Une fois l’intention définie, vous devez à présent renvoyer les informations de suivi à Adobe Campaign. Dans ce cas, la Vue([!DNL Activity]) Android qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet intent dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des données ouvertes.
 
 MainActivity.java (étend [!DNL Activity])
 
