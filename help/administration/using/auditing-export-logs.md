@@ -9,21 +9,22 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
 
-# Audit des logs d'export{#auditing-export-logs}
+# Audit des logs d&#39;export{#auditing-export-logs}
 
-Depuis **[!UICONTROL Administration]** &gt; **[!UICONTROL Utilisateurs &amp; sécurité]** &gt; **[!UICONTROL Audits d'export]**, les administrateurs peuvent afficher la liste de tous les exports suivants, ainsi que la date et l'utilisateur ayant effectué l'export :
+Depuis **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs &amp; sécurité]** > **[!UICONTROL Audits d&#39;export]**, les administrateurs peuvent afficher la liste de tous les exports suivants, ainsi que la date et l&#39;utilisateur ayant effectué l&#39;export :
 
 * chargement de fichier depuis une activité **[!UICONTROL Transfert de fichier]** dans un workflow ;
-* export d'une liste depuis une liste ou une sous-liste ;
-* fichier téléchargé depuis le tableau de bord des diffusions d'un message de type Courrier.
+* export d&#39;une liste depuis une liste ou une sous-liste ;
+* fichier téléchargé depuis le tableau de bord des diffusions d&#39;un message de type Courrier.
 
 >[!NOTE]
 >
@@ -31,4 +32,4 @@ Depuis **[!UICONTROL Administration]** &gt; **[!UICONTROL Utilisateurs &amp; sé
 
 Dans le volet de gauche, vous pouvez filtrer les exports à afficher selon vos besoins.
 
-Vous pouvez exporter la liste sous la forme d'un fichier distinct, comme décrit dans la section [Export de listes](../../automating/using/exporting-lists.md).
+Vous pouvez exporter la liste sous la forme d&#39;un fichier distinct, comme décrit dans la section [Export de listes](../../automating/using/exporting-lists.md).
