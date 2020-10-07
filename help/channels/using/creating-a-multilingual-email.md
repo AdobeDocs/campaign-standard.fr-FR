@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +44,7 @@ L&#39;audience est composée de profils dont la préférence linguistique a ét�
 
 1. Testez votre message et validez-le. Reportez-vous à la section [Envoyer un bon à tirer (BAT)](../../sending/using/sending-proofs.md).
 1. Planifiez l&#39;envoi à l&#39;aide de l&#39;option **[!UICONTROL Envoi après confirmation]**.
-1. Une fois l&#39;email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d&#39;informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
+1. Une fois l&#39;email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
 
 **Rubrique connexe :**
 
