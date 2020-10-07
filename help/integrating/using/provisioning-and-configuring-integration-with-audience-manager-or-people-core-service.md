@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +40,7 @@ Cette intégration doit d’abord être configurée. Pour demander la mise en se
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l’organisation IMS</strong><br /> </td> 
-   <td> Votre ID d’organisation IMS. <br> Vous pouvez trouver votre ID d’organisation IMS dans l’Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
+   <td> Votre identifiant de l'organisation IMS. <br> Votre identifiant de l'organisation IMS est accessible dans Experience Cloud, dans le menu Administration. Il est également fourni lorsque vous vous connectez pour la première fois à Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement :</strong><br /> </td> 
@@ -72,7 +70,7 @@ Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et 
 * [Étape 3 : Configuration du serveur de tracking Campaign ](#step-3--configure-campaign-tracking-server)
 * [Étape 4 : Configuration du service d&#39;identification des visiteurs](#step-4--configure-the-visitor-id-service)
 
-### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign     {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign      {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 Il nous faut tout d&#39;abord configurer ou vérifier les comptes externes dans Adobe Campaign Ces comptes doivent avoir été configurés par Adobe. De plus, les informations nécessaires ont dû vous être communiquées.
 
