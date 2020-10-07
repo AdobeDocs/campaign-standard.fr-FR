@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '864'
+ht-degree: 100%
 
 ---
 
@@ -39,6 +40,7 @@ Dans le cadre spécifique d&#39;un test A/B :
    * Test A/B sur l&#39;expéditeur
    * Test A/B sur le contenu
    * Test A/B sur l&#39;objet
+
    ![](assets/create_ab_testing.png)
 
    >[!NOTE]
@@ -87,7 +89,7 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 **Rubrique connexe**:
 
-Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)    
+Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)    video
 
 ## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
