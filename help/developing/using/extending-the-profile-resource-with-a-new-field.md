@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +26,7 @@ Ce cas pratique présente l&#39;extension d&#39;un profil et d&#39;un profil de 
 
 Nous souhaitons ici mettre à jour nos profils avec le nouveau champ à l&#39;aide d&#39;une landing page, puis cibler les profils avec une newsletter répondant à leurs centres d&#39;intérêts.
 
-Pour ce faire, procédez comme suit :
+Procédez comme suit :
 
 * [Etape 1 : Etendre la ressource Profil ](#step-1--extend-the-profile-resource)
 * [Etape 2 : Etendre le profil de test ](#step-2--extend-the-test-profile)
