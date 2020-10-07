@@ -9,17 +9,18 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 100%
 
 ---
 
 
 # A propos des activités des canaux{#about-channel-activities}
 
-Depuis la palette, située à gauche de l'écran, développez la section **[!UICONTROL Canaux]**.
+Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Canaux]**.
 
 Ces activités représentent les différents canaux de communication disponibles. Vous pouvez les combiner pour créer un workflow cross-canal.
 
