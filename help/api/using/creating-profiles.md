@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 100%
 
 ---
 
@@ -29,9 +30,9 @@ La création de profils est effectuée avec une requête **POST** sur la ressour
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
-Exemple de requête POST pour créer un profil avec le message &quot;john.doe@mail.com&quot;.
+Exemple de requête POST pour créer un profil avec le message « john.doe@mail.com ».
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +44,7 @@ Exemple de requête POST pour créer un profil avec le message &quot;john.doe@ma
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Elle renvoie le profil créé, avec l’adresse email &quot;john.doe@mail.com&quot;.
+Elle renvoie le profil créé, avec l’adresse email « john.doe@mail.com ».
 
 ```
 {
