@@ -9,11 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -43,7 +41,7 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
 ## Créer votre structure d’email
 
 1. Ouvrez le **[!UICONTROL Concepteur d’email]** pour créer un contenu d’email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
+1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Editer les styles d’un email](../../designing/using/styles.md).
 1. Ajoutez autant de composants de structure que vous avez de sections. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Ajouter du contenu HTML
