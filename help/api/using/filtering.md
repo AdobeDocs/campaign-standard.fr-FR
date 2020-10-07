@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +28,7 @@ Pour identifier les métadonnées d’un filtre et déterminer comment l’utili
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
 Les exemples de payloads ci-dessous montrent comment récupérer les métadonnées de filtre « byText » pour la ressource « profile ». Commencez par exécuter une requête GET sur les métadonnées de la ressource « profile ».
 
@@ -101,7 +102,7 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
 
 <br/>
 
-***Exemples de requêtes ***
+***Exemples de requêtes***
 
 * Exemple de requête GET pour récupérer les ressources « service » avec le type « email ».
 
@@ -209,7 +210,7 @@ Pour plus d’informations à ce sujet, consultez la documentation relative à C
 
 <br/>
 
-***Exemple de requête ***
+***Exemple de requête***
 
 Exemple de requête GET pour récupérer les ressources « profile » comportant des montants de transactions de 100 $ ou plus. Notez que le filtre « byAmount » a d’abord été défini dans l’interface Adobe Campaign Standard et lié à la table personnalisées « Transaction ».
 
