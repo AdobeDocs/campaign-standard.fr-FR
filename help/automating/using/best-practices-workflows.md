@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 100%
 
@@ -87,7 +85,7 @@ Pour accéder au détail des transitions, cochez l&#39;option Conserver les rés
 
 >[!CAUTION]
 >
->Cette option consomme beaucoup d&#39;espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
+>Cette option consomme beaucoup d’espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
 
 ![](assets/keep_interim_best_practices.png)
 
