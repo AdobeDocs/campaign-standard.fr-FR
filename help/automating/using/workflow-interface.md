@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
