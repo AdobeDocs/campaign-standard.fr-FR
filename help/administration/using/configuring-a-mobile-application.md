@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 100%
 
@@ -110,7 +108,8 @@ Son **[!UICONTROL Property Status]** doit être **[!UICONTROL Ready to configure
    >[!NOTE]
    >
    >Par défaut, pour récupérer la liste des applications mobiles créées dans Adobe Launch, Campaign Standard utilise la valeur définie dans l’option NmsServer_URL pour rechercher les propriétés correspondantes.
-Dans certains cas, le point d’entrée Campaign d’une application mobile peut être différent de celui défini dans NmsServer_URL. Dans ce cas, définissez le point d’entrée dans l’option Launch_URL_Campaign. Campaign utilisera la valeur de cette option pour rechercher les propriétés correspondantes dans Adobe Launch.
+   >
+   >Dans certains cas, le point d’entrée Campaign d’une application mobile peut être différent de celui défini dans NmsServer_URL. Dans ce cas, définissez le point d’entrée dans l’option Launch_URL_Campaign. Campaign utilisera la valeur de cette option pour rechercher les propriétés correspondantes dans Adobe Launch.
 
    ![](assets/launch_4.png)
 
