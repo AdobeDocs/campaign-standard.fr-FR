@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 100%
 
@@ -141,7 +139,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 
    ![](assets/schema_extension_28.png)
 
-1. Les ressources s&#39;affichent par ordre alphabétique et peuvent être filtrées par nom. Leur nom technique est indiqué entre parenthèses.
+1. Les ressources s’affichent par ordre alphabétique et peuvent être filtrées par nom. Leur nom technique est indiqué entre parenthèses.
 
    Choisissez un élément de la liste et cliquez sur **[!UICONTROL Confirmer]**.
 
