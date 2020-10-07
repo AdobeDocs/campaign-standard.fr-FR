@@ -9,11 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -134,7 +132,7 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Vous pouvez également déplacer des composants afin de modifier l&#39;organisation de chaque élément de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
-1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d&#39;un email](../../designing/using/styles.md).
+1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d’un email](../../designing/using/styles.md).
 
 ## Utiliser un contenu d&#39;email existant {#with-existing-content}
 
