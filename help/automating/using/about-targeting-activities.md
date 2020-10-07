@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -58,7 +56,7 @@ Adobe Campaign permet de procéder à des traitements d&#39;ensembles sur des do
 * L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible. Voir la section [Union](../../automating/using/union.md).
 * L&#39;activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. Voir la section [Intersection](../../automating/using/intersection.md).
 * L&#39;activité **[!UICONTROL Exclusion]** permet d&#39;exclure des éléments d&#39;une population selon certains critères. Voir la section [Exclusion](../../automating/using/exclusion.md).
-* L&#39;activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs segments à partir d&#39;une population calculée par des activités placées en amont. En sortie de l&#39;activité, ils peuvent être traités dans une seule transition ou dans des transitions distinctes. Consultez la section [Segmentation](../../automating/using/segmentation.md).
+* L&#39;activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs segments à partir d&#39;une population calculée par des activités placées en amont. En sortie de l’activité, ils peuvent être traités dans une seule transition ou dans des transitions distinctes. Consultez la section [Segmentation](../../automating/using/segmentation.md).
 
 ## Enrichir des données {#enriching-data}
 
