@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 75%
@@ -39,7 +37,7 @@ Le suivi push est divisé en trois types :
 
 * **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
-Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services. Pour plus d&#39;informations à ce sujet, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
+Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
 Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
 
