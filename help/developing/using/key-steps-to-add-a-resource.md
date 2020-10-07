@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 7e130e62-3f6e-41cc-8108-e64127d8d6ec
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +24,7 @@ Pour créer une ressource ou pour étendre une ressource existante avec de nouve
 
 1. [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 1. [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md)
-1. [Configuration de la définition d'écran](../../developing/using/configuring-the-screen-definition.md)
+1. [Configuration de la définition d’écran](../../developing/using/configuring-the-screen-definition.md)
 1. [Configuration de la définition des filtres](../../developing/using/configuring-filter-definition.md)
 1. [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md)
 
