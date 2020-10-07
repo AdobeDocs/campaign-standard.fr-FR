@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+# Présentation de la structure de la payload des notifications push {#push-payload}
 
  Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées sur les appareils mobiles iOS et Android vers les applications mobiles (app mobiles).
 
