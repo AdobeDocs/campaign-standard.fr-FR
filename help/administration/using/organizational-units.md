@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '848'
+ht-degree: 100%
 
 ---
 
