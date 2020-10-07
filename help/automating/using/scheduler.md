@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 0fb16cea-3941-404f-899c-33f81ced4ed5
 context-tags: schedule,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
