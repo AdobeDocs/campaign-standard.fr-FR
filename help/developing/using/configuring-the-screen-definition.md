@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 100%
 
 ---
 
@@ -75,6 +76,7 @@ La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la défi
    * **[!UICONTROL Valeur]** : il s&#39;agira d&#39;un champ non modifiable.
    * **[!UICONTROL Liste]** : il s&#39;agira d&#39;un tableau.
    * **[!UICONTROL Séparateur]** : classe vos éléments dans des catégories.
+
    ![](assets/schema_extension_23.png)
 
 1. L&#39;élément ajouté s&#39;affiche dans la liste. Vous pouvez modifier son libellé.
