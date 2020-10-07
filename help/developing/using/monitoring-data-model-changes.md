@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 100%
 
 ---
 
 
 # Contrôle des modifications du modèle de données{#monitoring-data-model-changes}
 
-Le menu **[!UICONTROL Diagnostic]** vous permet de consulter les différents objets techniques générés par l'application, afin de les analyser.
+Le menu **[!UICONTROL Diagnostic]** vous permet de consulter les différents objets techniques générés par l&#39;application, afin de les analyser.
 
 >[!NOTE]
 >
@@ -27,7 +28,7 @@ Le menu **[!UICONTROL Diagnostic]** vous permet de consulter les différents obj
 
 ![](assets/diagnostic.png)
 
-Vous pouvez visualiser les types d'objets suivants :
+Vous pouvez visualiser les types d&#39;objets suivants :
 
 * Schémas de données
 * Pages web
