@@ -9,11 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 100%
 
