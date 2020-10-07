@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
-workflow-type: ht
-source-wordcount: '365'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
