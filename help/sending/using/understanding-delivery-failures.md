@@ -9,11 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
 
@@ -62,7 +60,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | Libellé de l&#39;erreur | Type d&#39;erreur | Description |
 ---------|----------|---------
 | **[!UICONTROL Utilisateur inconnu]** | Hard | L&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil. |
-| **** | Hard | L&#39;adresse a été mise en quarantaine. |
+| **[!UICONTROL Adresse en quarantaine]** | Hard | L&#39;adresse a été mise en quarantaine. |
 | **[!UICONTROL Inatteignable]** | Soft/Hard | Une erreur s’est produite dans la chaîne de distribution du message (domaine temporairement inatteignable, par exemple). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Adresse vide]** | Hard | L’adresse n’est pas définie. |
 | **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
