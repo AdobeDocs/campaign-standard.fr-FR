@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 100%
 
@@ -51,7 +49,7 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 
 * les informations de personnalisation proviennent des données contenues dans l&#39;événement. Voir [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 * Vous ne **pouvez pas** utiliser les blocs de contenu **[!UICONTROL Lien de désabonnement]** dans un message transactionnel basé sur un événement.
-* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichir le contenu d&#39;un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichir le contenu d’un message transactionnel](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 * Comme les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d&#39;un enrichissement avec des profils. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 ### Messages transactionnels basés sur un profil  
