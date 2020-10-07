@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 93%
@@ -28,7 +26,7 @@ ht-degree: 93%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export des données</a></p></td></tr>
 </table>
 
-adobe campaign offre un environnement graphique complet qui vous permet de concevoir des processus complexes tels que la segmentation, l’exécution de campagne, le traitement de fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+Adobe Campaign offre un environnement graphique complet qui vous permet de concevoir des processus complexes tels que la segmentation, l’exécution de campagne, le traitement de fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
 Un workflow peut également faire intervenir des utilisateurs, pour leur affecter une tâche ou demander la validation d&#39;une tâche accomplie. Ainsi, il est possible d&#39;assigner une tâche à un ou plusieurs utilisateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider un BAT avant d&#39;envoyer un message.
 
