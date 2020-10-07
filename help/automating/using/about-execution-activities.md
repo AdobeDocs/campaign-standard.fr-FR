@@ -9,19 +9,20 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 100%
 
 ---
 
 
-# A propos des activités d'exécution{#about-execution-activities}
+# A propos des activités d&#39;exécution{#about-execution-activities}
 
-Depuis la palette, située à gauche de l'écran, développez la section **[!UICONTROL Exécution]**.
+Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Exécution]**.
 
-Les activités ci-après sont spécifiques à l'organisation et à l'exécution du workflow. Leur principale tâche est de coordonner les autres activités.
+Les activités ci-après sont spécifiques à l&#39;organisation et à l&#39;exécution du workflow. Leur principale tâche est de coordonner les autres activités.
 
 ![](assets/wkf_execution_activities.png)
 
