@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +60,8 @@ En tant qu’utilisateur expert, reportez-vous aux [technotes](https://helpx.ado
 
 >[!NOTE]
 >Pour tirer parti de la fonctionnalité de notification push de Campaign, vous devez fournir un certificat push valide au format. pem sans mot de passe.
-Si vous disposez d’un certificat p12 valide, vous pouvez le convertir facilement en fichier. pem à l’aide de ressources en ligne.
+>
+>Si vous disposez d’un certificat p12 valide, vous pouvez le convertir facilement en fichier. pem à l’aide de ressources en ligne.
 
 Avant d’envoyer les notifications push, vous devez effectuer les opérations suivantes :
 
