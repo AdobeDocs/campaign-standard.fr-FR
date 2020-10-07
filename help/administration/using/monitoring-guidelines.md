@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: 8b33e6af-15c3-4b30-8ad6-d76a1f33be21
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4bac585ec25340d1f1d047f9a1f8dcd8e243821
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 9%
+ht-degree: 17%
 
 ---
 
@@ -38,13 +36,13 @@ Campaign Standard fournit plusieurs méthodes de surveillance de vos instances p
 **L&#39;interface du** Campaign Standard de notifications système fournit un volet de notification qui vous permet d&#39;être tenu informé de ce qui se passe dans le système : Etat des événements, mises à jour du système, action requise, etc. [En savoir plus](../../start/using/interface-description.md#top-bar)
 
 
-**Les Workflows techniques** Workflows techniques sont des opérations ou des tâches dont l’exécution est planifiée sur une base régulière sur le serveur. Pour vous assurer que votre instance est saine et fonctionne correctement, vous devez vous assurer qu’elle est toujours en cours d’exécution. [En savoir plus](../../administration/using/technical-workflows.md)
+**Les workflows techniques** Workflows techniques sont des opérations ou des tâches dont l’exécution est planifiée sur une base régulière sur le serveur. Pour vous assurer que votre instance est saine et fonctionne correctement, vous devez vous assurer qu’elle est toujours en cours d’exécution. [En savoir plus](../../administration/using/technical-workflows.md)
 
-**Panneau de Contrôle** Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : Autorisations d’URL, vérifiez les détails de votre instance tels que les versions de build de vos serveurs, surveillez l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html).
+**Panneau de Contrôle** Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : Autorisations d’URL, vérifiez les détails de votre instance tels que les versions de build de vos serveurs, surveillez l’utilisation des profils principaux, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 
 >[!NOTE]
 >
->Notez que le Panneau de Contrôle est accessible uniquement aux administrateurs et disponible pour tous les clients utilisant des Adobes Managed Services.
+>Veuillez noter que le panneau de contrôle est accessible uniquement aux administrateurs et est disponible pour tous les clients qui utilisent les Managed Services d’Adobe.
 
 **Objets** techniques Le menu **[!UICONTROL Diagnostic]** est un outil clé pour surveiller et analyser les différents objets techniques générés par l&#39;application : schémas de données, pages Web, tâches par lots, etc. [En savoir plus](../../developing/using/monitoring-data-model-changes.md)
 
@@ -67,7 +65,7 @@ Campaign Standard fournit plusieurs méthodes de surveillance de vos instances p
 **Le**Campaign Standard de notifications vous permet d&#39;envoyer des notifications aux superviseurs afin de surveiller l&#39;exécution de vos processus et de voir s&#39;il y a une erreur qui nécessite votre attention.
 [En savoir plus](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Suivre les diffusions {#monitoring-deliveries}
+## Surveillance des diffusions {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -77,7 +75,7 @@ Campaign Standard fournit plusieurs méthodes de surveillance de vos instances p
 **Diffusions**Une fois vos messages envoyés, des journaux détaillés vous permettent de surveiller les diffusions et de mesurer la réussite de votre campagne, ainsi que de suivre le comportement des destinataires de messages.
 [En savoir plus](../../sending/using/monitoring-a-delivery.md)
 
-**Alertes**de Diffusion Grâce à la fonction d&#39;alerte de Diffusion, vous pouvez configurer des alertes qui seront automatiquement envoyées à un groupe d&#39;utilisateurs au sujet de l&#39;exécution des diffusions : échec de l&#39;envoi ou de la préparation, mauvais taux de rebonds, faible débit, etc.
+**Alertes**de diffusion Grâce à la fonction d&#39;alerte de Diffusion, vous pouvez configurer des alertes qui seront automatiquement envoyées à un groupe d&#39;utilisateurs au sujet de l&#39;exécution des diffusions : échec de l&#39;envoi ou de la préparation, mauvais taux de rebonds, faible débit, etc.
 [En savoir plus](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Le rapports dynamique de rapports**dynamique fournit divers rapports pour vous aider à être tenu informé des performances de vos diffusions : rebonds, livraisons les plus consultées par les destinataires, débit des diffusions, etc.
