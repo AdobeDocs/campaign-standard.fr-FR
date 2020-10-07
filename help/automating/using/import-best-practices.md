@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 100%
 
