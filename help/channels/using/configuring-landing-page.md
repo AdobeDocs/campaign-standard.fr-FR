@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +29,11 @@ Lorsqu&#39;une landing page est validée par un visiteur, vous pouvez configurer
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Dans la section **[!UICONTROL Actions spécifiques]**, sélectionnez**[!UICONTROL  Déclencher l&#39;envoi d&#39;un message]** pour définir l&#39;envoi d&#39;un message automatique, par exemple pour confirmer l&#39;inscription à un service. Vous devez ensuite sélectionner un modèle de diffusion email.
+1. Dans la section **[!UICONTROL Actions spécifiques]**, sélectionnez **[!UICONTROL Déclencher l&#39;envoi d&#39;un message]** pour définir l&#39;envoi d&#39;un message automatique, par exemple pour confirmer l&#39;inscription à un service. Vous devez ensuite sélectionner un modèle de diffusion email.
 
    Si un message de confirmation est déjà configuré au niveau du service, vous ne devez pas en sélectionner un dans cet écran afin d&#39;éviter l&#39;envoi de plusieurs messages de confirmation. Reportez-vous à la section [Configurer un service](../../audiences/using/creating-a-service.md).
 
-1. Créez des **[!UICONTROL Données additionnelles]**pour permettre le stockage des données additionnelles lors de la validation de la landing page. Ces données ne sont pas visibles par le visiteur de la page. Seules les valeurs constantes sont prises en charge.
+1. Créez des **[!UICONTROL Données additionnelles]** pour permettre le stockage des données additionnelles lors de la validation de la landing page. Ces données ne sont pas visibles par le visiteur de la page. Seules les valeurs constantes sont prises en charge.
 
    ![](assets/lp_parameters_6.png)
 
@@ -48,13 +49,13 @@ Pour sélectionner le service à associer, procédez comme suit :
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Sélectionnez **[!UICONTROL Inscription]**dans la liste déroulante**[!UICONTROL  Actions spécifiques]**.
+1. Sélectionnez **[!UICONTROL Inscription]** dans la liste déroulante **[!UICONTROL Actions spécifiques]**.
 
    ![](assets/lp_parameters_5.png)
 
-1. Sélectionnez **[!UICONTROL Service spécifique]**pour associer la landing page à un seul service. Ne sélectionnez pas cette option si vous souhaitez utiliser plusieurs services avec la landing page.
+1. Sélectionnez **[!UICONTROL Service spécifique]** pour associer la landing page à un seul service. Ne sélectionnez pas cette option si vous souhaitez utiliser plusieurs services avec la landing page.
 
-   Utilisez l&#39;option **[!UICONTROL Service provenant de l&#39;URL]**pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
+   Utilisez l&#39;option **[!UICONTROL Service provenant de l&#39;URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
 ## Définir les permissions et pré-charger les données   {#setting-permissions-and-pre-loading-data}
 
@@ -71,7 +72,7 @@ Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dan
 
    ![](assets/lp_parameters_3.png)
 
-Vous pouvez également :
+Vous pouvez également procéder comme suit :
 
 * Utiliser les paramètres d&#39;URL pour identifier les visiteurs, à l&#39;aide de l&#39;option **[!UICONTROL Autoriser l&#39;identification des visiteurs via les paramètres de l&#39;URL]** : vous devez ensuite choisir la clé de chargement et mapper les paramètres de filtre avec les paramètres de l&#39;URL correspondante.
 * Autoriser n&#39;importe quel visiteur à accéder à la landing page, à l&#39;aide de l&#39;option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
@@ -88,9 +89,9 @@ Les landing pages peuvent également être liées à une entité organisationnel
 
    ![](assets/lp_org_unit_2.png)
 
-1. Les champs **[!UICONTROL Créé par]**,**[!UICONTROL  Créé le]**, **[!UICONTROL Autorisation d&#39;accès]**et**[!UICONTROL  Modifié le]** sont automatiquement renseignés.
+1. Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Autorisation d&#39;accès]** et **[!UICONTROL Modifié le]** sont automatiquement renseignés.
 
-1. Cliquez sur **[!UICONTROL Confirmer]**, puis sur**[!UICONTROL  Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Confirmer]**, puis sur **[!UICONTROL Enregistrer]**.
 
 Votre landing page ne peut maintenant être accessible et gérée que par les utilisateurs de l&#39;entité organisationnelle choisie.
 
