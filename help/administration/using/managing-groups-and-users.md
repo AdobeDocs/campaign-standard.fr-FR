@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
 context-tags: user,overview;user,main;security,overview;security,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 100%
 
