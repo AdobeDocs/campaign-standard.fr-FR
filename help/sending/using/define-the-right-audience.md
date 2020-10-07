@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 69%
+ht-degree: 78%
 
 ---
 
@@ -58,7 +56,7 @@ Veillez à sélectionner les destinataires du BAT appropriés, car ils valident 
 
 Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-Vous pouvez utiliser [des Populations témoins](../../sending/using/control-group.md) pour mesurer l&#39;impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population de cibles qui a reçu le message au comportement des contacts qui n&#39;ont pas été ciblés. En fonction des journaux d’envoi, vous pouvez également cible une Population témoin dans les futures campagnes.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
 
 ## Dédupliquer les adresses {#deduplicate-addresses}
 
