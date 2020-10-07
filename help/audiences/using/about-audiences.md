@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
