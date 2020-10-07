@@ -1,5 +1,5 @@
 ---
-title: A propos de la messagerie in-app
+title: A propos de la messagerie In-App
 description: Affichez un message ou une alerte dans l'application mobile avec la messagerie in-app.
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 29%
+ht-degree: 30%
 
 ---
 
 
-# A propos de la messagerie in-app{#about-in-app-messaging}
+# A propos de la messagerie In-App{#about-in-app-messaging}
 
 La messagerie in-app est un canal de messagerie qui permet d&#39;afficher un message lorsque l&#39;utilisateur est actif dans l&#39;application mobile. Ce type de message complète les notifications push qui sont diffusées au centre de notification du téléphone de l&#39;utilisateur. Pour plus d&#39;informations sur le canal Notification push, consultez cette [section](../../channels/using/about-push-notifications.md).
 
@@ -47,13 +45,13 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 * [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
-## FAQ in-app {#in-app-faq}
+## FAQ sur les messages In-App {#in-app-faq}
 
-### Quelles seraient les recommandations de ressources utiles pour en savoir plus sur le canal intégré dans l’Adobe Campaign Standard ? {#resources-inapp}
+### Quelles seraient les recommandations de ressources utiles pour en savoir plus sur le canal intégré à l’application en Adobe Campaign Standard ? {#resources-inapp}
 
-Consultez les ressources ci-dessous :
+Consultez les ressources ci-dessous :
 
-* [Didacticiels vidéo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Tutorials vidéo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Billet de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
@@ -76,7 +74,7 @@ Pour mettre en oeuvre le suivi des notifications locales, reportez-vous à cette
 
 ### Quels rapports sont disponibles pour le canal intégré ? {#report-inapp}
 
-Un rapport prêt à l’emploi est disponible dans l’Adobe Campaign pour le canal intégré. Refer to this [documentation](../../reporting/using/in-app-report.md).
+Un rapport prêt à l’emploi est disponible dans Adobe Campaign pour le canal intégré. Refer to this [documentation](../../reporting/using/in-app-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#in-app-delivery) pour comprendre comment sont calculées les mesures in-app.
 
@@ -94,7 +92,7 @@ Non, cela n&#39;est pas encore pris en charge.
 
 ### J’ai configuré un message d’alerte mais il ne s’affiche pas sur le périphérique. {#alert-message}
 
-Pour les messages d’alerte, au moins un bouton d’abandon (principal ou secondaire doit avoir une action d’annulation) est requis. Sinon, il est possible d&#39;enregistrer le message mais il ne sera pas reçu.
+Pour les messages d’alerte, au moins un bouton d’abandon (Principal ou secondaire doit avoir une action d’annulation) est requis. Sinon, il est possible d&#39;enregistrer le message mais il ne sera pas reçu.
 
 ### Si les notifications locales ne sont pas lues, le son personnalisé iOS n’est pas lu ; le son par défaut sera-t-il lu à la place ? {#local-notification-sound}
 
@@ -105,7 +103,7 @@ Pour le son personnalisé sur iOS, vous devez fournir un nom de fichier avec une
 Oui, les liens profonds sont pris en charge dans les messages in-app. Les liens détaillés doivent inclure :
 
 * qui indique que le suivi des diffusions doit être désactivé pour que les liens profonds fonctionnent.
-* Apflyer avec la branche en tant que partenaires pouvant effectuer le suivi de liens profonds. Pour plus d&#39;informations sur l&#39;intégration des branches et des Adobes Campaign Standards, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Apflyer avec la branche en tant que partenaires pouvant effectuer le suivi de liens profonds. Pour plus d&#39;informations sur l&#39;intégration des branches et des Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ### Un message intégré peut-il être déclenché lorsque l’utilisateur lance l’application à partir d’une notification Push ? {#inapp-push-trigger}
 
