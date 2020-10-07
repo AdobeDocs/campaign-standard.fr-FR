@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +25,7 @@ Un profil client intégré est disponible pour chaque contact de votre base de d
 
 Pour accéder au profil client intégré, procédez comme suit :
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]**ou l&#39;onglet** Profils **.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]** ou l&#39;onglet **Profils**.
 1. Sélectionnez un contact.
 
    ![](assets/mkt_hist_access.png)
