@@ -9,11 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 100%
 
