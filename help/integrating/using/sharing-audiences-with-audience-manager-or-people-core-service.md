@@ -9,11 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
