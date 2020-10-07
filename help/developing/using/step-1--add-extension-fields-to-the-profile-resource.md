@@ -9,20 +9,21 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 100%
 
 ---
 
 
-# Etape 1 : Ajouter des champs d'extension à la ressource Profil{#step-add-extension-fields-to-the-profile-resource}
+# Etape 1 : Ajouter des champs d&#39;extension à la ressource Profil{#step-add-extension-fields-to-the-profile-resource}
 
-1. Dans le menu de navigation avancé (via le logo Adobe Campaign), sélectionnez **[!UICONTROL Administration]** &gt; **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
-1. Cliquez sur l'icône **[!UICONTROL Créer]** pour créer une nouvelle ressource personnalisée.
-1. Choisissez l'option **[!UICONTROL Etendre une ressource existante]**.
+1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Créer]** pour créer une nouvelle ressource personnalisée.
+1. Choisissez l&#39;option **[!UICONTROL Etendre une ressource existante]**.
 1. Sélectionnez la ressource **[!UICONTROL Profil]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
-1. Ajoutez le champ **[!UICONTROL Code Promotion]** de type **[!UICONTROL Texte]** avec l'identifiant **[!UICONTROL Marque]** dans les champs de la ressource.
+1. Ajoutez le champ **[!UICONTROL Code Promotion]** de type **[!UICONTROL Texte]** avec l&#39;identifiant **[!UICONTROL Marque]** dans les champs de la ressource.
 
