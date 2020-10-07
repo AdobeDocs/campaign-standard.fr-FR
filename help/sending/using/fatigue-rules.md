@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 100%
 
@@ -114,7 +112,7 @@ Les canaux suivants sont disponibles :
 
 Les règles de fatigue sont compatibles avec tous les types de diffusions : diffusions ponctuelles, diffusions récurrentes, diffusions de workflow et messages transactionnels.
 
-Les **messages transactionnels** peuvent être utilisés pour envoyer des messages de service ciblant un événement (rtEvent) et des messages de remarketing (ciblant des profils). Les règles de fatigue sont compatibles uniquement avec les messages marketing (ciblant des profils). Les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d&#39;un enrichissement avec des profils). Grâce à la prise en charge des messages marketing dans les messages transactionnels, vous pouvez **appliquer une règle de fatigue à tous les canaux, notamment les messages transactionnels de marketing**.
+Les **messages transactionnels** peuvent être utilisés pour envoyer des messages de service ciblant un événement (rtEvent) et des messages de remarketing (ciblant des profils). Les règles de fatigue sont compatibles uniquement avec les messages marketing (ciblant des profils). Les messages transactionnels basés sur un événement ne contiennent pas d’informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d’un enrichissement avec des profils). Grâce à la prise en charge des messages marketing dans les messages transactionnels, vous pouvez **appliquer une règle de fatigue à tous les canaux, notamment les messages transactionnels de marketing**.
 
 ## Définir le seuil    {#defining-the-threshold}
 
