@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 21bad242-5921-445c-8df9-3d57dbe35197
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Etape 3 : Vérifier l'extension{#step-verify-the-extension}
+# Etape 3 : Vérifier l&#39;extension{#step-verify-the-extension}
 
-1. Effectuez une opération GET sur les métadonnées de l'API Profiles &amp; Services Extension afin de vérifier la disponibilité du champ ajouté à la ressource personnalisée Profiles.
+1. Effectuez une opération GET sur les métadonnées de l&#39;API Profiles &amp; Services Extension afin de vérifier la disponibilité du champ ajouté à la ressource personnalisée Profiles.
 
    ```
    GET profileAndServicesExt/resourceType/profile
@@ -29,5 +30,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/extendpandsapiview.png)
 
-   Le champ est désormais disponible pour d'autres développements et intégrations éventuels.
+   Le champ est désormais disponible pour d&#39;autres développements et intégrations éventuels.
 
