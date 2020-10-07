@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
