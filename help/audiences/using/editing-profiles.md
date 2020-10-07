@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
@@ -23,9 +24,9 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Pour éditer un profil existant et consulter les données qui lui sont associées, ou pour le modifier, les étapes sont les suivantes :
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]**ou l&#39;onglet**[!UICONTROL  Profils]**.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]** ou l&#39;onglet **[!UICONTROL Profils]**.
 1. Sélectionnez un contact.
-1. Cliquez sur l&#39;icône **[!UICONTROL Editer les propriétés du profil]**pour accéder aux informations détaillées du profil.
+1. Cliquez sur l&#39;icône **[!UICONTROL Editer les propriétés du profil]** pour accéder aux informations détaillées du profil.
 
    ![](assets/profile_creation2.png)
 
@@ -35,7 +36,7 @@ Pour éditer un profil existant et consulter les données qui lui sont associée
 
    >[!NOTE]
    >
-   >Vous pouvez uniquement modifier les informations dans l&#39;onglet **[!UICONTROL Général]**, à l&#39;exception de la section**[!UICONTROL  Traçabilité]**.
+   >Vous pouvez uniquement modifier les informations dans l&#39;onglet **[!UICONTROL Général]**, à l&#39;exception de la section **[!UICONTROL Traçabilité]**.
 
 L&#39;édition des profils est également possible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/updating-profiles.md) .
 
@@ -46,7 +47,7 @@ Rubrique connexe :
 
 ## Données de profil générales  {#general-profile-data}
 
-L&#39;onglet **[!UICONTROL Général]**regroupe les informations suivantes concernant le profil :
+L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes concernant le profil :
 
 * les informations de contact, telles que le prénom, le nom, la date de naissance, la photo, la préférence linguistique du destinataire (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)), etc. ;
 * les canaux sur lesquels le profil peut être contacté, incluant son adresse email, son numéro de téléphone mobile et ses informations d&#39;opt-out ;
@@ -57,7 +58,7 @@ L&#39;onglet **[!UICONTROL Général]**regroupe les informations suivantes conce
 
 ## Logs d&#39;envoi et tracking  {#sending-and-tracking-logs}
 
-Les onglets **[!UICONTROL Envois]**et**[!UICONTROL  Tracking]** répertorient les diffusions envoyées au profil, ainsi que toutes les données de tracking associées.
+Les onglets **[!UICONTROL Envois]** et **[!UICONTROL Tracking]** répertorient les diffusions envoyées au profil, ainsi que toutes les données de tracking associées.
 
 Pour plus d&#39;informations sur les envois et le tracking, consultez les sections [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs) et [Tracker les messages](../../sending/using/tracking-messages.md).
 
@@ -65,4 +66,4 @@ Pour plus d&#39;informations sur les envois et le tracking, consultez les sectio
 
 Les abonnements du contact sont répertoriés dans l&#39;onglet correspondant. Pour plus d&#39;informations sur l&#39;abonnement à un service, voir [cette section](../../audiences/using/about-subscriptions.md).
 
-L&#39;onglet **[!UICONTROL Abonnements à des applications mobiles]**concernent les notifications push. Pour plus d&#39;informations, voir la section[Notification push](../../channels/using/about-push-notifications.md).
+L&#39;onglet **[!UICONTROL Abonnements à des applications mobiles]** concernent les notifications push. Pour plus d&#39;informations, voir la section [Notification push](../../channels/using/about-push-notifications.md).
