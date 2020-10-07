@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
 context-tags: delivery,workflow,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
 
@@ -33,7 +31,7 @@ L&#39;activité **[!UICONTROL Diffusion Email]** permet de paramétrer l&#39;env
 
 Les emails uniques sont des emails standard, envoyés une seule fois.
 
-Les emails récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même email à des cibles différentes. Vous pouvez agréger les diffusions par période afin d&#39;obtenir des rapports adaptés.
+Les emails récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même email à des cibles différentes. Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
 ## Contexte d&#39;utilisation {#context-of-use}
 
@@ -86,7 +84,7 @@ Lorsque vous ouvrez à nouveau l&#39;activité par la suite, vous accédez au ta
 
 Par défaut, le démarrage d&#39;un workflow de diffusion déclenche uniquement la préparation des messages. L&#39;envoi des messages créés depuis un workflow doit toujours être confirmé après le démarrage du workflow. Dans le tableau de bord des messages, vous pouvez toutefois désactiver l&#39;option **[!UICONTROL Demander confirmation avant d&#39;envoyer les messages]** si les messages ont été créés depuis un workflow. Lorsque cette option est décochée, les messages sont envoyés sans autre préavis une fois la préparation terminée.
 
-## Remarques     {#remarks}
+## Remarques      {#remarks}
 
 Les diffusions créées à partir d&#39;un workflow sont accessibles dans la liste des activités marketing de l&#39;application. Vous pouvez visualiser l&#39;état d&#39;exécution du workflow depuis le tableau de bord. Des liens dans le volet de résumé de l&#39;email vous permettent d&#39;accéder directement aux éléments liés (workflow, campagne, diffusion parente dans le cas d&#39;un email récurrent).
 
