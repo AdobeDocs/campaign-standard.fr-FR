@@ -32,7 +32,7 @@ La création de profils est effectuée avec une requête **POST** sur la ressour
 
 ***Exemple de requête***
 
-Exemple de requête POST pour créer un profil avec le message « john.doe@mail.com ».
+Exemple de requête POST pour créer un profil avec le message « john.doe@mail.com ».
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -44,7 +44,7 @@ Exemple de requête POST pour créer un profil avec le message « john.doe@mail
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Elle renvoie le profil créé, avec l’adresse email « john.doe@mail.com ».
+Elle renvoie le profil créé, avec l’adresse email « john.doe@mail.com ».
 
 ```
 {
