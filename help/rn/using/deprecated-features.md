@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[ ! DNL Adobe Creative SDK] a été mis hors service. Par conséquent, l’édition d’images optimisée par [ !DNL Creative SDK] dans les courriers électroniques Campaign Standards n’est plus disponible à compter de la version Campaign 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] a été retiré. De ce fait, à compter de la version Campaign 20.2, l’édition d’images avec [!DNL Creative SDK] dans les emails de Campaign Standard n’est plus disponible.</p></br>
    </td> 
   </tr> 
  </tbody> 
