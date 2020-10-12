@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2387'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 99%
 **Correctifs**
 
 * Correction d’un problème qui empêchait l’utilisation d’un lien de destination pour les notifications push ou la messagerie In-App lorsque le tracking était activé.
-* Correction d’un problème en raison duquel une priorité élevée dans les messages transactionnels n’était pas respectée en cas de diffusion importante en masse.
+* Correction d’un problème en raison duquel une priorité élevée dans les messages transactionnels n’était pas respectée en cas de diffusion en masse importante.
 * Correction d’un problème qui pouvait empêcher d’affecter des marques à un email transactionnel. Plusieurs messages d’erreur peuvent s’afficher pendant l’étape de publication. (CAMP-44988)
 * Correction d’un problème dans l’interface utilisateur du workflow en raison duquel les informations ne pouvaient pas être enregistrées dans les champs qui demandaient des valeurs numériques. (CAMP-44025)
 * Correction d’un problème qui pouvait afficher un message d’erreur lors de l’utilisation d’une activité **Test** dans un workflow de modèle d’import. (CAMP-42910)
