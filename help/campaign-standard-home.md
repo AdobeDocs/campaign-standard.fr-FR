@@ -19,14 +19,17 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Populations témoins](sending/using/control-group.md)**<br/>Mesurez l’impact de vos campagnes en excluant une partie de leur audience
+* **[Populations témoins](sending/using/control-group.md)**<br/>
+Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
-* **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>Optimisez la conception et la diffusion avec les emails optimisés par l’IA
+* **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>
+Optimisez la conception et la diffusion avec les emails optimisés par l’IA
 
 * **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
 Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité
 
-* **[API externe](automating/using/external-api.md)**<br/>Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
+* **[API externe](automating/using/external-api.md)**<br/>
+Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
 
 * **[Prise en main des diffusions mobiles](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
 Découvrez les directives générales pour les diffusions mobiles (SMS, push, In-App)
