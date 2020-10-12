@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour        2019
+title: Notes de mise à jour         2019
 description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
@@ -397,7 +397,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019          {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019           {#release-19-1-3---march-2019}
 
 **Améliorations du Concepteur d’email**
 
