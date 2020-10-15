@@ -1,6 +1,6 @@
 ---
 title: Prise en main des profils et des audiences
-description: Définissez des populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour les profils.
+description: Définissez les populations ciblées, sélectionnez les audiences, filtrez les destinataires, collectez des données et mettez à jour les profils.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
