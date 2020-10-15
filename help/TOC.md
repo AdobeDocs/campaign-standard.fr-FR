@@ -3,11 +3,11 @@ product: adobe campaign
 sub-product: Adobe Campaign standard
 audience: end-user
 user-guide-title: Aide d’Adobe Campaign Standard   Centrer
-breadcrumb-title: Campaign Standard Guide
-translation-type: ht
+breadcrumb-title: Guide de Campaign Standard
+translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
-workflow-type: ht
-source-wordcount: '1652'
+workflow-type: tm+mt
+source-wordcount: '1655'
 ht-degree: 100%
 
 ---
