@@ -1,6 +1,6 @@
 ---
 title: Prise en main de la création de rapports dynamiques
-description: Analysez la réussite de vos campagnes dans des rapports dynamiques intégrés ou personnalisés.
+description: Analysez le succès de vos campagnes dans des rapports dynamiques intégrés ou personnalisés.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
