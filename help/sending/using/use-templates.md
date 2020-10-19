@@ -11,10 +11,10 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 79%
+source-wordcount: '816'
+ht-degree: 77%
 
 ---
 
@@ -49,7 +49,7 @@ Dans la section **[!UICONTROL Paramètres avancés]** des propriétés d&#39;un 
 
 ![](assets/template-parameters.png)
 
-Le domaine de l&#39;adresse doit être identique au sous-domaine délégué à Adobe.
+Le domaine d’adresse doit être identique au sous-domaine que vous avez configuré.
 
 Les champs **[!UICONTROL Répondre à]** correspondent à l&#39;adresse email et au nom utilisés pour les réponses.
 
