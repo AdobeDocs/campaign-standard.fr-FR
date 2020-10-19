@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1463'
 ht-degree: 100%
 
@@ -43,11 +43,11 @@ Tous les profils faisant partie de la population témoin à l’étape de prépa
 
 Pour définir une population témoin, vous pouvez choisir d’extraire, de manière aléatoire ou selon un tri, un pourcentage ou un nombre fixe de profils de la population cible.
 
-### Extraction cible {#target-extraction}
+### Extraction de la cible {#target-extraction}
 
 Tout d’abord, définissez la façon dont les profils seront extraits de la cible : **de manière aléatoire** ou en fonction d’un **tri**.
 
-Dans la section **[!UICONTROL Extraction cible]**, sélectionnez l’une des options suivantes :
+Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez l’une des options suivantes :
 
 * **[!UICONTROL Tirage aléatoire]** : lors de la préparation de la diffusion, Adobe Campaign extraira de manière aléatoire un certain nombre de profils correspondant au pourcentage ou au nombre maximal que vous définissez comme [limite de taille](#size-limit).
 
@@ -71,7 +71,7 @@ Dans la section **[!UICONTROL Extraction cible]**, sélectionnez l’une des opt
 
 >[!NOTE]
 >
->Sélectionnez **[!UICONTROL Aucune extraction]** si vous ne souhaitez pas utiliser l’option **[!UICONTROL Extraction cible]**.
+>Sélectionnez **[!UICONTROL Aucune extraction]** si vous ne souhaitez pas utiliser l’option **[!UICONTROL Extraction de la cible]**.
 
 <!--![](assets/control-group-no-extraction.png)-->
 
@@ -105,7 +105,7 @@ Une autre manière de définir une population témoin consiste à exclure une po
 
 Pour cela :
 
-1. Dans la section **[!UICONTROL Exclusion cible]**, cliquez sur **[!UICONTROL Définir l’exclusion cible]**.
+1. Dans la section **[!UICONTROL Exclusion de la cible]**, cliquez sur **[!UICONTROL Définir l’exclusion de la cible]**.
 
    ![](assets/control-group-define-target-exclusion.png)
 
@@ -133,14 +133,14 @@ Vous trouverez ci-dessous un exemple de définition d’une population témoin �
 
    ![](assets/control-group-tab.png)
 
-1. Dans la section **[!UICONTROL Extraction cible]**, sélectionnez **[!UICONTROL Conserver les premiers suite à un tri]**.
+1. Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez **[!UICONTROL Conserver les premiers suite à un tri]**.
 1. Triez selon l’âge et laissez l’option **[!UICONTROL Tri descendant]** cochée.
 
    ![](assets/control-group-sorting-column.png)
 
 1. Définissez 100 comme taille maximale. Les 100 plus vieux profils de votre cible seront extraits.
 
-1. Dans la section **[!UICONTROL Exclusion cible]**, définissez les profils qui seront exclus de votre cible, en fonction des critères de votre choix à l’aide de l’[éditeur de requêtes](../../automating/using/editing-queries.md). Par exemple, « Age est inférieur à 20 ».
+1. Dans la section **[!UICONTROL Exclusion de la cible]**, définissez les profils qui seront exclus de votre cible, en fonction des critères de votre choix à l’aide de l’[éditeur de requêtes](../../automating/using/editing-queries.md). Par exemple, « Age est inférieur à 20 ».
 
    ![](assets/control-group-target-exclusion-example.png)
 
