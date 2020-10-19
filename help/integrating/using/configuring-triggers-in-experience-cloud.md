@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -54,7 +54,7 @@ Il vous faudra également un site web opérationnel.
 
 >[!CAUTION]
 >
->La délégation de sous-domaine est également un élément clé de la délivrabilité. Assurez-vous que les emails Adobe Campaign sont envoyés à partir du même domaine que celui utilisé par le site web.
+>La configuration des sous-domaines est un élément clé de la délivrabilité. Assurez-vous que les emails Adobe Campaign sont envoyés à partir du même domaine que celui utilisé par le site web.
 
 Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) et [Campaign](#configuring-triggers-and-aliases-in-campaign).
 
