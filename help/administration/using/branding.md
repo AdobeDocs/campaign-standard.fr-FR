@@ -11,10 +11,10 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 100%
+source-wordcount: '1297'
+ht-degree: 94%
 
 ---
 
@@ -92,13 +92,13 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
-1. **Déléguer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le déléguer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Pour en savoir plus sur la délégation de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine à utiliser par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
-1. **Créer un ticket** - Une fois le sous-domaine délégué, Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
+1. **Créer un ticket** - Une fois le sous-domaine configuré, l&#39;Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
    * Objet : configuration de la nouvelle marque ACS
 
-   * Contenu : un nouveau domaine a été délégué à Adobe et nous aimerions le configurer sur notre plateforme Campaign
+   * Contenu : Un nouveau domaine a été configuré et nous aimerions l&#39;installer sur notre plateforme Campaign
 
    * Domaine : XXX
 
