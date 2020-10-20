@@ -93,7 +93,7 @@ Si le jeton d&#39;enregistrement existe, l&#39;utilisateur correspondant reçoit
 
 &quot;Bonjour Jeanne Lambert, l&#39;embarquement vient de commencer à la porte B18.&quot;
 
-## Notifications push transactionnelles ciblant un profil  {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil   {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme le prénom du destinataire.
 
@@ -107,7 +107,7 @@ Les applications mobiles auxquelles un profil s’est abonné sont répertoriée
 
 Pour plus d&#39;informations sur l&#39;accès aux profils et leur édition, voir la section [Profils](../../audiences/using/creating-profiles.md).
 
-### Envoyer une notification push transactionnelle ciblant un profil  {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envoyer une notification push transactionnelle ciblant un profil   {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#39;embarquement à tous les utilisateurs Adobe Campaign qui se sont abonnés à son application mobile.
 
@@ -136,4 +136,4 @@ Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#3
 
    >[!NOTE]
    >
-   >Il n&#39;y a pas de champ de jeton d&#39;enregistrement, d&#39;application ni de plate-forme push. Dans cet exemple, la réconciliation est effectuée avec le champ email.
+   >Il n&#39;y a pas de champ de jeton d&#39;enregistrement, d&#39;application ni de plateforme push. Dans cet exemple, la réconciliation est effectuée avec le champ email.
