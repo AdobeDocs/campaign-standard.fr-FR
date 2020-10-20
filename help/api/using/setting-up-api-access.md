@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Pour établir une session d’API Adobe I/O de service à service sécurisée, c
 
 ## Résolution des problèmes
 
-Lors de l’intégration d’Adobe IO, si l’erreur suivante s’affiche :
+Lors de l’intégration d’Adobe IO, si l’erreur suivante s’affiche :
 
 ```
 { 
