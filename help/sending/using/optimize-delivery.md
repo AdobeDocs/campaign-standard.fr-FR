@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,19 +25,19 @@ Avant même de commencer à créer des diffusions, vous pouvez prendre des mesur
 
 La section suivante présente les bonnes pratiques et les procédures recommandées pour optimiser la configuration d&#39;Adobe Campaign. L&#39;application de ces pratiques permettra de limiter les problèmes que vous risquez de rencontrer en aval.
 
-## Performances de la plate-forme
+## Performances de la plateforme
 
-Plusieurs facteurs peuvent avoir une incidence directe sur les performances du serveur et ralentir la plate-forme :
+Plusieurs facteurs peuvent avoir une incidence directe sur les performances du serveur et ralentir la plateforme :
 
-* Nombre et type d’éléments de personnalisation : dans les emails, la personnalisation extrait les données de la base de données pour chaque destinataire. Si les éléments de personnalisation sont nombreux, la quantité de données nécessaire pour préparer la diffusion augmente.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
+* Nombre et type d’éléments de personnalisation : dans les emails, la personnalisation extrait les données de la base de données pour chaque destinataire. Si les éléments de personnalisation sont nombreux, la quantité de données nécessaire pour préparer la diffusion augmente.  En savoir plus sur la personnalisation des emails dans [cette section](../../designing/using/personalization.md)
 
-* Chargement du serveur : lorsque Campaign gère plusieurs tâches différentes en même temps, il peut ralentir les performances. Le serveur doit coordonner toutes les données entrantes et sortantes pour l’ensemble des diffusions afin de s’assurer que les données sont correctes et disponibles à temps.
+* Charge du serveur : lorsque Campaign gère simultanément trop de tâches différentes en même temps, cela peut ralentir les performances. Le serveur doit coordonner toutes les données entrantes et sortantes pour l’ensemble des diffusions afin de s’assurer que les données sont correctes et disponibles à temps.
 
    **CONSEIL** : pour éviter cette situation, coordonnez la planification des diffusions avec les autres membres de votre équipe afin d’assurer les meilleures performances.
 
-* The [workflow execution](../../automating/using/about-workflow-execution.md): monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this page](../../automating/using/monitoring-workflow-execution.md). Pour en savoir plus, consultez la section Meilleures pratiques [du](../../automating/using/best-practices-workflows.md) flux de travail.
+* [Exécution du workflow](../../automating/using/about-workflow-execution.md) : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans cette page](../../automating/using/monitoring-workflow-execution.md). Pour en savoir plus, consultez la section [bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md).
 
-* You can leverage [Campaign Contol Panel capabilities](https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/key-features.html) to monitor your platform, using [performance monitoring](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionalities.
+* Vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/key-features.html) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
 
 ## Vérifier la configuration du réseau {#network-config}
 
@@ -55,7 +55,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
    * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../sending/using/about-deliverability.md).
 
-* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations détaillées [dans cette page](../../sending/using/starting-new-platform.md).
+* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations présentées [dans cette page](../../sending/using/starting-new-platform.md).
 
 * Contactez votre représentant Adobe pour obtenir de l&#39;aide.
 
@@ -63,7 +63,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
 Vous avez tout intérêt à mettre en place et à conserver de bons processus de gestion des quarantaines.
 
-Lorsque vous commencez à envoyer des emails sur une nouvelle plate-forme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plate-forme. De bons processus de gestion des quarantaines aident à : maintenez la qualité de l&#39;adresse, évitez la liste bloquée des fournisseurs d&#39;accès internet et réduisez votre taux d&#39;erreur, accélérant les diffusions et le débit.
+Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous pouvez utiliser une liste d’adresses qui ne sont pas entièrement qualifiées. Or l’envoi à des adresses non valides ou à des adresses pièges (boîtes mails créées dans le but de piéger les spammeurs) contribue à abaisser la réputation de la plateforme. De bons processus de gestion des quarantaines permettent de conserver la qualité des adresses, d’éviter la mise sur liste bloquée de la part des FAI et de réduire le taux d’erreur, tout en augmentant la vitesse des diffusions et le débit.
 
 **Conseils**
 
