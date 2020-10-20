@@ -14,14 +14,14 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Créer du contenu personnalisé {#build-personalized-content}
 
-Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l’ [utilisation d’un contenu](../../designing/using/using-existing-content.md) existant - et à la [conversion d’un contenu](../../designing/using/using-existing-content.md#converting-an-html-content) HTML - et aux [images.](../../designing/using/images.md)
+Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l’[utilisation d’un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d’un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu’aux [images](../../designing/using/images.md).
 
 ## Optimiser la personnalisation {#optimize-personalization}
 
@@ -32,10 +32,10 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-Le contenu dynamique peut être ajouté manuellement pour afficher un contenu différent dans vos destinataires en fonction des conditions définies dans l’éditeur d’expressions. Lors de l’ajout de contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne remplissent pas les conditions sélectionnées.
-For more on dynamic content, refer to the [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Vous pouvez ajouter manuellement du contenu dynamique pour afficher différents éléments à vos destinataires selon les conditions définies au moyen de l&#39;éditeur d&#39;expression. Lorsque vous ajoutez du contenu dynamique, vous devez toujours laisser une variante par défaut pour les destinataires qui ne répondent pas aux conditions sélectionnées.
+Pour plus d&#39;informations sur les contenu dynamique, consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**Conseils** : Prévisualisation de votre courrier électronique avec différents profils de test pour vous assurer que votre contenu dynamique a été correctement configuré.
+**Conseils** : prévisualisez votre email avec différents profils de test pour vous assurer que le contenu dynamique est correctement paramétré.
 
 ## Créer du contenu optimisé {#optimize-content}
 
@@ -67,9 +67,9 @@ Incluez toujours un lien de page miroir. La partie supérieure de l’email cons
 
 ### Lien de désabonnement
 
-Le lien désinscription est essentiel. Il doit être visible et valide et le formulaire doit être fonctionnel. Découvrez les consignes relatives aux liens de désinscription [dans cette section](../../designing/using/personalization.md#about-targeting-dimension).
+Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Découvrez les consignes relatives aux liens de désabonnement [dans cette section](../../designing/using/personalization.md#about-targeting-dimension).
 
-By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
+Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de contrôle vérifie au moment de l&#39;analyse du message qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence.
 
 **Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 
@@ -110,9 +110,9 @@ Le responsive design des emails permet de s’assurer que le rendu d’un est op
 
 * Utilisez du code HTML en responsive design plutôt que du code HTML web
 
-* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualisation un message](../../sending/using/previewing-messages.md) avant l’envoi.
+* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l’envoi.
 
-* Campaign Email Designer est fourni avec des modèles de conception réactifs formatés pour les périphériques mobiles. Learn more [in this page](../../designing/using/using-reusable-content.md#content-templates).
+* Le Concepteur d&#39;email de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [dans cette page](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestion des images {#manage-images}
 
@@ -140,4 +140,4 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 Adobe recommande de prévisualiser votre message afin de vérifier sa personnalisation et l’affichage de la diffusion par vos destinataires.
 
-In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](../../sending/using/previewing-messages.md)
+Dans le Concepteur d’email, le bouton **[!UICONTROL Aperçu]** vous permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](../../sending/using/previewing-messages.md)
