@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -39,25 +39,25 @@ Voir à ce propos la section [Suivre une diffusion](../../sending/using/monitori
 
 ## Tracking {#tracking-deliveries}
 
-Pour mieux connaître le comportement de vos profils ciblés, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désinscriptions, etc. Reportez-vous à l&#39;onglet **Logs de tracking** de la diffusion.
+Pour mieux connaître le comportement de vos profils ciblés, vous pouvez suivre leur réaction à une diffusion : réception, ouverture, clics sur des liens, désabonnements, etc. Reportez-vous à l&#39;onglet **Logs de tracking** de la diffusion.
 
 **Conseil** : Le tracking des messages est activé par défaut. Pour paramétrer les URL, sélectionnez l&#39;option Afficher les URL, située dans la section inférieure de l’assistant de diffusion. Pour chaque URL du message, vous pouvez choisir d&#39;activer ou non le tracking.
 
-For more on this, refer to the [Tracking messages](../../sending/using/tracking-messages.md) section and the [Tracking indicators](../../reporting/using/tracking-indicators.md) description.
+Pour plus d&#39;informations, reportez-vous à la section [Messages de tracking](../../sending/using/tracking-messages.md) et à la description des [Indicateurs de tracking](../../reporting/using/tracking-indicators.md).
 
 ## Rapports dynamiques {#dyn-reports}
 
 Les rapports dynamiques vous permettent de créer des rapports en temps réel entièrement personnalisables afin de contrôler vos campagnes. Les dimensions, les mesures et les visualisations vous permettent de mesurer l’impact et les performances de vos campagnes sur leurs destinataires.
 
-**Conseil** - Des rapports intégrés vous permettent de surveiller vos campagnes, mais vous pouvez également personnaliser ces rapports en les faisant glisser et en les déposant sur votre rapport.
+**Conseil** : les rapports natifs sont disponibles pour contrôler vos campagnes, mais vous pouvez également les personnaliser en plaçant des mesures ou des dimensions dans votre rapport par glisser-déposer.
 
 Voir à ce propos le guide [Reporting](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot clicks
 
-Le rapport Clics rapides présente le contenu du message (HTML et/ou texte) avec le pourcentage de clics sur chaque lien. En affichant le pourcentage de clics sur chaque contenu dynamique, vous pouvez mesurer le contenu qui attire le plus les destinataires.
+Le rapport Hot clicks présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. En affichant le pourcentage de clics sur chaque contenu dynamique, vous pouvez identifier les contenus les plus attrayants pour les destinataires.
 
-For more on this, refer to the [Hot click report](../../reporting/using/hot-clicks.md).
+Pour plus d&#39;informations à ce sujet, consultez la section [Rapport Hot clicks](../../reporting/using/hot-clicks.md).
 
 ## Conseils sur les performances des diffusions {#performance-tips}
 
