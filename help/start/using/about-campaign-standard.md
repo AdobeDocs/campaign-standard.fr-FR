@@ -1,6 +1,6 @@
 ---
 title: Prise en main de Campaign Standard
-description: Découvrez les fonctionnalités principales, l'interface utilisateur et les directives globales.
+description: Découvrez les principales fonctionnalités, l'interface utilisateur et les directives globales.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
