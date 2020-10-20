@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 Adobe Campaign propose plusieurs options de création d’email. Vous pouvez utiliser des solutions telles que Dreamweaver pour modifier le contenu de votre email et créer des messages réactifs dans le Concepteur d’email. Vous pouvez également envoyer par email du contenu avec Adobe Experience Manager et l’utiliser dans vos emails dans Adobe Campaign Standard.
 
-## Editer le contenu dans Dreamweaver {#editing-content-in-dreamweaver}
+## Modifier le contenu dans Dreamweaver {#editing-content-in-dreamweaver}
 
 L’intégration d’Adobe Campaign Standard à Dreamweaver permet d’éditer le contenu d’un email dans l’interface de Dreamweaver. Vous avez accès à l’interface puissante de Dreamweaver pour concevoir du contenu d’email réactif.
 
@@ -40,7 +40,7 @@ L’intégration d’Adobe Campaign Standard à Dreamweaver permet d’éditer l
 
 Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html). Une [vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) de démonstration est également disponible.
 
-## Editer le contenu dans Experience Manager {#editing-content-in-experience-manager}
+## Modifier le contenu dans Experience Manager{#editing-content-in-experience-manager}
 
 Un contenu d’email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d’email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
 
@@ -49,11 +49,11 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="Utilisation des listes de produits"
->abstract="Les listes de produits vous permettent de référencer une collecte de données et de l’afficher dans le contenu du courrier électronique."
+>abstract="Les listes de produits permettent de référencer une collection de données et de l’afficher dans le contenu email."
 
 Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
-## Comparaison des options de conception d’email     {#email-design-options-comparison}
+## Comparaison des options de conception d’email      {#email-design-options-comparison}
 
 Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-après présente les possibilités, avantages et limites de chacune d’elles.
 
@@ -123,7 +123,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
    <td> 
     <p>- Possibilité pour un développeur de coder directement un email</p>
     <p>- Synchronisation bidirectionnelle</p>
-    <p>- Edition hors connexion dans Dreamweaver et synchronisation ultérieure</p>
+    <p>- Modification hors connexion dans Dreamweaver et synchronisation ultérieure</p>
     <p>- Chargement d’images dans Adobe Campaign via Dreamweaver</p>
   </td> 
   </tr> 
