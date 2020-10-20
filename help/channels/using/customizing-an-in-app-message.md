@@ -66,11 +66,11 @@ La liste déroulante **[!UICONTROL Disposition]** propose quatre options différ
 
    Il prend uniquement en charge le son, le texte et la destination. Pour plus d’informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](#customizing-a-local-notification-message-type).
 
-Chaque type de disposition peut être prévisualisé sur différents appareils tels que téléphone, tablette, plate-forme (Android ou iOS, par exemple) et orientation (paysage ou portrait) dans la fenêtre de droite de l’éditeur de contenu.
+Chaque type de disposition peut être prévisualisé sur différents appareils tels que téléphone, tablette, plateforme (Android ou iOS, par exemple) et orientation (paysage ou portrait) dans la fenêtre de droite de l’éditeur de contenu.
 
 ![](assets/inapp_customize_4.png)
 
-### Média   {#media}
+### Média    {#media}
 
 La liste déroulante **[!UICONTROL Médias]** permet d’ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
 
@@ -110,7 +110,7 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
    ![](assets/inapp_customize_11.png)
 
-### Boutons   {#buttons}
+### Boutons    {#buttons}
 
 Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
@@ -132,7 +132,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_11.png)
 
-### Paramètres   {#settings}
+### Paramètres    {#settings}
 
 1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
 1. A l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
@@ -141,7 +141,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale   {#customizing-a-local-notification-message-type}
+## Personnaliser un type de message de notification locale    {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
 Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
