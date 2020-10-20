@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 77%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Un [modèle de diffusion](../../start/using/marketing-activity-templates.md#crea
 
 Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque détient le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
 
-**Conseil**:  Pour éviter les erreurs de configuration dans Campaign, nous vous recommandons de duplicata d’un modèle natif et de modifier ses propriétés plutôt que de créer un nouveau modèle.
+**Conseil** : afin d’éviter toute erreur de paramétrage dans Campaign, il est recommandé de dupliquer un modèle natif et d’en modifier les propriétés plutôt que d’en créer un nouveau.
 
 ## Configurer les adresses
 
@@ -53,15 +53,15 @@ Le domaine d’adresse doit être identique au sous-domaine que vous avez config
 
 Les champs **[!UICONTROL Répondre à]** correspondent à l&#39;adresse email et au nom utilisés pour les réponses.
 
-**Conseil** - L&#39;Adobe recommande d&#39;utiliser une adresse réelle existante, telle que l&#39;assistance clientèle de votre marque. Dans ce cas, si un destinataire envoie une réponse, le service à la clientèle sera en mesure de la gérer.
+**Conseil** : Adobe recommande d&#39;utiliser une adresse réelle existante comme l&#39;Assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l&#39;Assistance clientèle sera en mesure de la traiter.
 
-To change the name of the sender which will appear in the header of messages sent, go the **[!UICONTROL Properties]**  tab of the Email Designer home page (accessible through the home icon) and click the **[!UICONTROL Default sender name]** block.
+Pour modifier le nom de l’expéditeur qui apparaîtra dans l’en-tête des messages envoyés, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du Concepteur d’email (accessible par le biais de l’icône Accueil) et cliquez sur le bloc **[!UICONTROL Nom de l’expéditeur par défaut]**.
 
 ![](assets/template-content.png)
 
 Pour accroître le taux d&#39;ouverture de vos diffusions, Adobe vous recommande d&#39;utiliser un nom facilement identifiable par les destinataires comme le nom de votre marque.
 
-**Conseil** - Pour améliorer davantage l&#39;expérience des destinataires, vous pouvez ajouter le nom d&#39;une personne, par exemple &quot;Emma from Megastore&quot;.
+**Conseil** : pour améliorer davantage l&#39;expérience des destinataires, vous pouvez ajouter le nom d&#39;une personne, par exemple « Emma de Megastore ».
 
 Pour plus d&#39;informations sur la personnalisation du nom de l&#39;expéditeur, voir [Expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
 
@@ -71,7 +71,7 @@ Dans la section **Paramètres avancés** des propriétés d&#39;un modèle de SM
 
 Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Voir à ce propos la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md).
 
-**Conseil** - Consultez la législation de votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vous devriez également vérifier auprès de votre prestataire SMS s&#39;ils ont offre à cette fonctionnalité.
+**Conseil** : vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
 
 ## Configurer une population témoin
 
@@ -81,7 +81,7 @@ Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des
 
 Une typologie contient les règles de vérification qui sont appliquées lors de la phase d&#39;analyse, avant tout envoi.
 
-In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section of the template&#39;s properties, change the default typology according to your needs.
+Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
 Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
 
