@@ -10,9 +10,9 @@ tutorials-url: https://helpx.adobe.com/campaign/kt/index/target-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.fr-FR
 solution: Campaign
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '32'
 ht-degree: 100%
 
