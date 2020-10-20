@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing   {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing    {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
-* ![](assets/marketing_program_icon.png) Program
+* ![](assets/marketing_program_icon.png) Programme
 * ![](assets/marketing_campaign_icon.png) Campaign
 * ![](assets/marketing_email_icon.png) Email
 * ![](assets/marketing_sms_icon.png) SMS
-* ![](assets/marketing_push_icon.png) Push notification
+* ![](assets/marketing_push_icon.png) Notification push
 * ![](assets/marketing_lp_icon.png) Message In-App
 * ![](assets/marketing_lp_icon.png) Landing page
 * ![](assets/marketing_workflow_icon.png) Workflow
@@ -84,16 +84,16 @@ Les programmes et les campagnes sont présentés dans la section [Programmes et 
 
 Selon le contexte, vous pouvez :
 
-* Créer un courriel - [En savoir plus](../../channels/using/creating-an-email.md)
+* Créer un email - [En savoir plus](../../channels/using/creating-an-email.md)
 * Créer un SMS - [En savoir plus](../../channels/using/creating-an-sms-message.md)
-* Créer une notification Push - [En savoir plus](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Création d’un message intégré à l’application - [En savoir plus](../../channels/using/about-in-app-messaging.md)
-* Créer un processus - [En savoir plus](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Créer un landing page - [En savoir plus](../../channels/using/getting-started-with-landing-pages.md)
+* Créer une notification push - [En savoir plus](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Créer un message In-App - [En savoir plus](../../channels/using/about-in-app-messaging.md)
+* Créer un workflow - [En savoir plus](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Créer une landing page - [En savoir plus](../../channels/using/getting-started-with-landing-pages.md)
 * Créer une campagne - [En savoir plus](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * Créer un programme - [En savoir plus](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n’importe quel type d’activité et choisir de lier l’activité marketing à une campagne parent (ou à un programme parent si vous créez un programme) par l’intermédiaire des propriétés de l’activité.
+>Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n’importe quel type d’activité et choisir de lier l’activité marketing à une campagne parente (ou à un programme parent si vous créez un programme) par l’intermédiaire des propriétés de l’activité.
 
