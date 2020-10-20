@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -34,16 +34,16 @@ Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adob
 
 ## Principales étapes de configuration et de gestion des abonnements
 
-Pour créer un mécanisme d’abonnement, procédez comme suit :
+Pour créer un mécanisme d’abonnement, procédez comme suit :
 
-1. **Créer un service** : suivez les étapes décrites [dans cette section](../../audiences/using/creating-a-service.md) pour créer un service d&#39;inscription
-1. **Partager le lien** - apprendre à promouvoir et partager votre service [dans cette page](../../audiences/using/promoting-a-service.md)
-1. **Surveiller les abonnements** : découvrez plusieurs façons de surveiller les abonnements de votre service [dans cette section](../../audiences/using/monitoring-subscriptions.md)
-1. **Confirmer les abonnements** - Suivez [ce didacticiel](../../audiences/using/confirming-subscription-to-a-service.md) pour envoyer un message de confirmation d&#39;abonnement
+1. **Créer un service** : suivez les étapes décrites [dans cette section](../../audiences/using/creating-a-service.md) pour créer un service d&#39;abonnement.
+1. **Partager le lien** : apprenez à promouvoir et à partager votre service [dans cette page](../../audiences/using/promoting-a-service.md).
+1. **Surveiller les abonnements** : découvrez plusieurs façons de surveiller les abonnements à votre service [dans cette section](../../audiences/using/monitoring-subscriptions.md).
+1. **Confirmer les abonnements** : suivez [ce tutoriel](../../audiences/using/confirming-subscription-to-a-service.md) pour envoyer un message de confirmation d&#39;abonnement.
 
 ## Autres ressources
 
 * [Cas pratique : requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
 * [Cas pratique : mettre à jour plusieurs statuts d’abonnement depuis un fichier](../../automating/using/updating-subscriptions-from-file.md)
 * [Abonner des profils à un service spécifique après l’import d’un fichier](../../automating/using/subscribing-profiles-from-file.md)
-* [Exclusion et inclusion dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Opt-in et opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
