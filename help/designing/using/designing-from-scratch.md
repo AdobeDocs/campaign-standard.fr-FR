@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1273'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Découvrez comment maîtriser l’édition de contenu d’email. Avec le Concept
 Voici les principales étapes pour créer entièrement un contenu d’email à l’aide du Concepteur d’email :
 
 1. Créez un email et ouvrez son contenu.
-1. Ajoutez des composants de structure pour former l’email. Voir [Editer la structure de l’email](#defining-the-email-structure).
+1. Ajoutez des composants de structure pour former l’email. Voir [Modifier la structure de l’email](#defining-the-email-structure).
 1. Insérez des composants de contenu et des fragments dans les composants de structure. Voir [Ajouter des fragments et des composants de contenu](#defining-the-email-structure).
 1. Ajoutez des images et éditez le texte de l’email. Voir [Insérer des images](../../designing/using/images.md#inserting-images).
 1. Personnalisez votre email en ajoutant des champs de personnalisation, des liens, etc. Voir [Insertion d’un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field), [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
@@ -44,12 +44,12 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="À propos des composants Structure"
->abstract="Les composants de structure définissent la disposition du courrier électronique."
+>abstract="Les composants de structure définissent la disposition de votre email."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Définition des colonnes de l’email"
->abstract="Le Concepteur de courriers électroniques vous permet de définir facilement la disposition de votre courrier électronique en définissant la structure des colonnes."
+>abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
 Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
@@ -109,7 +109,7 @@ Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL conten
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="À propos des composants de contenu"
->abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez modifier pour créer un message électronique."
+>abstract="Les composants de contenu sont des espaces réservés de contenu vides que vous pouvez modifier pour créer un email."
 
 Les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu’ils ont été placés dans un email.
 
@@ -139,7 +139,7 @@ Utilisez ce composant pour copier-coller les différentes parties de votre code 
 
 >[!NOTE]
 >
->Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la   section **head** du code HTML, sinon l’email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+>Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la    section **head** du code HTML, sinon l’email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
 Pour rendre un contenu externe compatible avec le Concepteur d’email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
@@ -162,7 +162,7 @@ Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code H
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Paramètres vidéo"
->abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de secours."
+>abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
 
 
@@ -187,7 +187,7 @@ Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Paramètres du carrousel"
->abstract="Découvrez comment insérer et configurer un carrousel dans votre contenu.Notez que le carrousel ne fonctionne pas sur tous les clients de messagerie et que l&#39;image de secours s&#39;affichera au cas où elle ne serait pas prise en charge."
+>abstract="Découvrez comment insérer et configurer un carrousel dans votre contenu. Notez que le carrousel ne fonctionne pas sur tous les clients de messagerie et qu’une image de remplacement s&#39;affichera s’il n’est pas pris en charge."
 
 1. Placez le composant **[!UICONTROL Carrousel]** à l’intérieur d’un composant de structure.
 1. Parcourez votre ordinateur pour sélectionner des images.
