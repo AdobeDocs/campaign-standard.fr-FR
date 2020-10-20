@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -98,17 +98,17 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Meilleures pratiques en matière de diffusion](../../sending/using/delivery-best-practices.md)
+La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 
-### Limitations du Concepteur d&#39;email     {#email-designer-limitations}
+### Limitations du Concepteur d&#39;email      {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * Lors de l&#39;édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d&#39;email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d&#39;informations sur les styles, voir [cette section](../../designing/using/styles.md).
-* La balise meta de parrain n’est pas prise en charge dans le concepteur de courrier électronique.
-* Les paires de substitution, des caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés en 2 octets (16 bits) et doivent être codés en 2 caractères UTF-16. Ces caractères incluent certaines idéogrammes CJK, la plupart des émoticônes et certaines langues.
+* La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
+* Les paires de substitution, les caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés en 2 octets (16 bits) et doivent être codés en 2 caractères UTF-16. Ces caractères incluent certaines idéogrammes CJK, la plupart des émoticônes et certaines langues.
 Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
 
 ### Mise à jour des fragments {#email-designer-updates}
