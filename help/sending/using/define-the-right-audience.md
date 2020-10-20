@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Pour réussir votre diffusion, vous devez envoyer le contenu personnalisé le pl
 
 ## Mappings de ciblage {#target-mappings}
 
-Par défaut, modèles de diffusion cible **Profils**. Adobe Campaign propose d’autres mappings de ciblage pour vos diffusions, que vous pouvez modifier selon vos besoins.
+Par défaut, les modèles de diffusion ciblent les **profils**. Adobe Campaign propose d’autres mappings de ciblage pour vos diffusions, que vous pouvez modifier selon vos besoins.
 
 Ces mappings sont présentés [dans cette section](../../automating/using/query.md#targeting-dimensions-and-resources).
 
@@ -41,22 +41,22 @@ Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. V
 
 ## Données externes {#external-data}
 
-Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour ce faire, créez un processus qui chargera les données dans votre base de données à partir d’un fichier et créera une audience associée.  En savoir plus [sur ce cas pratique](../../automating/using/use-case-calling-workflow.md). Voir aussi [Appel d’un processus avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un fichier externe plutôt qu&#39;enregistrés dans la base de données. Pour ce faire, concevez un workflow qui chargera des données dans votre base de données à partir d’un fichier et créez une audience associée.  En savoir plus [sur ce cas pratique](../../automating/using/use-case-calling-workflow.md). Voir aussi [Appel d’un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Envoyer des messages à vos abonnés {#send-to-subscribers}
 
 Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directement cibler les abonnés du service d&#39;information correspondant. En savoir plus dans [cette section](../../audiences/using/about-subscriptions.md).
 
-**Conseil** - Vous pouvez créer une audience de Liste qui cible les abonnés à votre bulletin d&#39;information à l&#39;aide d&#39;un processus. Vous pouvez ensuite sélectionner cette audience dans une diffusion. For more on this, see [Creating list audiences](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Conseil** : créez une audience de type Liste qui cible les abonnés à votre newsletter à l’aide d’un workflow. Vous pouvez ensuite sélectionner cette audience dans une diffusion. Voir à ce propos la section [Création d’une audience de type Liste](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
-## BAT, profils d&#39;essai et Populations témoins {#proofs-test-control-groups}
+## Bons à tirer, profils de test et populations témoins {#proofs-test-control-groups}
 
 Pour tester votre diffusion, utilisez des bons à tirer avant l&#39;envoi à la cible principale.
-Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes pour envoyer des BAT sont présentées [dans cette section](../../sending/using/sending-proofs.md).
+Veillez à sélectionner les destinataires du BAT appropriés, car ils valident le formulaire et le contenu du message. Les étapes d&#39;envoi des BAT sont présentées [dans cette section](../../sending/using/sending-proofs.md).
 
-Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
+En savoir plus sur les profils de test [dans cette section](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
+Vous pouvez utiliser des [Populations témoins](../../sending/using/control-group.md) pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer le comportement de la population cible qui a reçu le message avec celui des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
 
 ## Dédupliquer les adresses {#deduplicate-addresses}
 
