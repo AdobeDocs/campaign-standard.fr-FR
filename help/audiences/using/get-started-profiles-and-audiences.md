@@ -1,6 +1,6 @@
 ---
 title: Prise en main des profils et des audiences
-description: Définissez les populations ciblées, sélectionnez les audiences, filtrez les destinataires, collectez des données et mettez à jour les profils.
+description: Définissez des populations ciblées, sélectionnez des audiences, filtrez les destinataires, collectez des données et mettez à jour des profils.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -61,11 +61,11 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre Plateforme. Pour veiller à créer une base de données de profils fiables, obtenez tout d’abord cette autorisation.
+Avant de commencer à envoyer des messages à un contact, vous devez obtenir son autorisation. Sinon, vos emails peuvent être marqués comme spam, ce qui peut avoir un impact sur la délivrabilité de votre plateforme. Pour veiller à créer une base de données de profils fiables, obtenez tout d’abord cette autorisation.
 
 Avec Campaign, il est recommandé d’utiliser les **mécanismes simples d’opt-in et d’opt-out** par le biais des [services](../../audiences/using/creating-a-service.md) et des [landing pages](../../channels/using/getting-started-with-landing-pages.md) afin de mettre à jour les informations des contacts et de développer votre base de données.
 
-Fournir des **liens de désabonnement** dans vos messages permet l’ajout de profils à la liste bloquée, si nécessaire, et améliore donc la délivrabilité de votre Plateforme. Pour plus d’informations sur la gestion des listes bloquées, voir la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Fournir des **liens de désabonnement** dans vos messages permet l’ajout de profils à la liste bloquée, si nécessaire, et améliore donc la délivrabilité de votre plateforme. Pour plus d’informations sur la gestion des listes bloquées, voir la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
