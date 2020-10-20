@@ -13,8 +13,8 @@ context-tags: campaignCalendar,main
 translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -33,10 +33,10 @@ Chaque programme est représenté par un cadre contenant la miniature et le libe
 
 La ligne verticale bleue est un repère chronologique correspondant à la date du jour, figurant par défaut au milieu de l&#39;écran. Il est possible de faire défiler l&#39;écran vers la droite ou la gauche pour modifier la période affichée.
 
-Utilisez les icônes pour :
+Utilisez les icônes pour :
 
 * ![](assets/timeline_zoom_in.png) réduire le périmètre ou augmenter le niveau de détail pendant une période plus limitée, jusqu’à ce que des jours s’affichent
-* ![](assets/timeline_zoom_out.png) augmenter le périmètre ou afficher une période plus longue
+* ![](assets/timeline_zoom_out.png) augmenter le périmètre ou afficher un délai plus long
 
 Cliquez sur la flèche située à droite du nom de chaque programme pour afficher son contenu. Un programme peut contenir des sous-programmes, des campagnes et des landing pages. Une campagne se déploie de la même façon qu&#39;un programme et peut contenir des emails, des SMS et des landing pages.
 
@@ -50,12 +50,12 @@ Lorsque le contenu d&#39;un programme ou d&#39;une campagne est affiché, le cad
 
 Chaque élément est accompagné d&#39;une icône correspondant à son type :
 
-* ![](assets/timeline_program_icon.png) Program
+* ![](assets/timeline_program_icon.png) Programme
 * ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) Landing page
 * ![](assets/timeline_email_icon.png) Email
 * ![](assets/timeline_sms_icon.png) SMS
-* ![](assets/timeline_push_icon.png) Push notification
+* ![](assets/timeline_push_icon.png) Notification push
 
 La bande colorée sur le bord gauche de chaque cadre indique le statut de l&#39;élément correspondant :
 
