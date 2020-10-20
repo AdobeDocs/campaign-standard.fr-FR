@@ -47,7 +47,7 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
    >
    >La définition de l&#39;audience est très similaire à celle d&#39;un email classique. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
 
-1. Editez le contenu de votre fichier : colonnes à inclure pour chaque profil, structure du fichier, en-tête et pied de page. Voir [Définir le contenu du courrier](../../channels/using/defining-the-direct-mail-content.md).
+1. Modifiez le contenu de votre fichier : colonnes à inclure pour chaque profil, structure du fichier, en-tête et pied de page. Voir [Définir le contenu du courrier](../../channels/using/defining-the-direct-mail-content.md).
 
    ![](assets/direct_mail_5.png)
 
