@@ -13,14 +13,14 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Principales étapes pour envoyer un message{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Pour découvrir les bonnes pratiques de diffusion, consultez la section [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md).
 
 Les étapes de création et d&#39;envoi des messages sont les suivantes :
 
