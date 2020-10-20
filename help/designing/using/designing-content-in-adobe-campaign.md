@@ -1,6 +1,6 @@
 ---
 title: Conception de contenu dans Adobe Campaign
-description: Créez vos propres emails, en important du code HTML ou en exploitant des modèles déjà existants.
+description: Créez du contenu d’email à partir de zéro, en important du code HTML ou en utilisant des modèles existants.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
-Le concepteur de courrier électronique vous permet de créer des courriels captivants et personnalisés au moyen d’une interface de glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
+Le Concepteur d’email vous permet de créer des emails captivants et personnalisés au moyen d’une interface par glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
 Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
 
@@ -120,7 +120,7 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Meilleures pratiques](../../sending/using/delivery-best-practices.md)de diffusion.
+La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md).
 
 ### Mise à jour des fragments {#email-designer-updates}
 
@@ -144,7 +144,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email     {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email      {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -152,8 +152,8 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * Lors de l&#39;édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d&#39;email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d&#39;informations sur les styles, voir [cette section](../../designing/using/styles.md).
-* La balise meta de parrain n’est pas prise en charge dans le concepteur de courrier électronique.
-* Les paires de substitution, des caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés en 2 octets (16 bits) et doivent être codés en 2 caractères UTF-16. Ces caractères incluent certaines idéogrammes CJK, la plupart des émoticônes et certaines langues.<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
+* La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
+* Les paires de substitution, les caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés sur 2 octets (16 bits) et doivent être codés sur 2 caractères UTF-16. Ces caractères incluent certains idéographes CJK, la plupart des émoticônes et certaines langues.<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
 
 **Rubriques connexes :**
 
