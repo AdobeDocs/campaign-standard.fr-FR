@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails   {#email-rendering-report-description}
+## Description du rapport de rendu des emails    {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
@@ -77,11 +77,11 @@ Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté d
 >
 >Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité.
 >
->Les jetons représentent chaque rendu individuel et non l’ensemble du rapport de rendu du courrier électronique, ce qui signifie que :
+>Les jetons représentent chaque rendu et non le rapport de rendu des emails complet, ce qui signifie que :
 >
 >**Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook , un pour le rendu Apple Mail , etc.**
 >
->**Pour la même diffusion**, si vous générez à nouveau le rendu du courrier électronique, le nombre de jetons disponibles est de nouveau réduit par le nombre de rendus générés.
+>**Pour une même diffusion**, si vous régénérez le rapport de rendu des emails, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
 
 
 La synthèse du rapport présente le nombre de messages reçus, indésirables, non reçus ou en attente de réception.
