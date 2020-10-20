@@ -122,7 +122,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/monitoring-workflow-execution.md)..
 
-## Format des colonnes      {#column-format}
+## Format des colonnes       {#column-format}
 
 Lorsque vous téléchargez un fichier d&#39;exemple, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particulier à appliquer à vos données, notamment en cas d&#39;erreur ou de valeur vide.
 
