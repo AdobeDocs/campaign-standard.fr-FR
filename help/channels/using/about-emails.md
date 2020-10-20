@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ Vous pouvez envoyer différents types d&#39;emails :
 * Emails avec test A/B : testez jusqu&#39;à 3 versions d&#39;un email.
 * Emails transactionnels : emails unitaires qui sont déclenchés en fonction du comportement de vos clients.
 
-To learn the best practices when creating and sending emails, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Pour découvrir les bonnes pratiques à appliquer lors de la création et de l&#39;envoi d&#39;emails, consultez la section [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md).
