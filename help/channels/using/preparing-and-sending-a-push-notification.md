@@ -1,5 +1,5 @@
 ---
-title: Créer et envoyer une notification Push
+title: Créer et envoyer une notification push
 description: Suivez ces étapes pour créer une notification push unique dans Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
 
 1. Vous pouvez maintenant personnaliser votre notification push. Tout d&#39;abord, choisissez le style du message : **[!UICONTROL Alerte/Message/Badge]** ou **[!UICONTROL Notification silencieuse]**. Les types de notifications push sont présentés dans la section [A propos des notifications push](../../channels/using/about-push-notifications.md).
 
-   Editez le contenu de votre notification push et définissez les options avancées. Voir la section [Personnaliser une notification push](../../channels/using/customizing-a-push-notification.md).
+   Modifiez le contenu de votre notification push et définissez les options avancées. Voir la section [Personnaliser une notification push](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
@@ -86,7 +86,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
    >
    >Si la taille du payload dépasse la limite de 4 Ko, le message n&#39;est pas envoyé.
 
-Notez que les données de personnalisation affectent la taille du message.
+Notez que les données de personnalisation ont un impact sur la taille du message.
 
 ## Envoyer la notification {#sending-the-notification}
 
@@ -117,7 +117,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 
    ![](assets/push_send_4.png)
 
-1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un token de périphérique erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir des diffusions ultérieures.
+1. Dans la fenêtre **[!UICONTROL Déploiement]**, cliquez sur l&#39;onglet **[!UICONTROL Envois]** pour accéder à la liste des notifications push envoyées et à leurs statuts. Pour cette diffusion, une notification push a été envoyée avec succès, tandis que l&#39;autre a échoué en raison d&#39;un jeton d&#39;appareil erroné. Cet abonné sera ensuite ajouté à la liste bloquée à partir des diffusions ultérieures.
 
    >[!NOTE]
    >
