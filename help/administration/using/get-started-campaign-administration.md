@@ -1,6 +1,6 @@
 ---
 title: Prise en main de l’administration de Campaign Standard
-description: Découvrez la gestion des utilisateurs et des autorisations, les directives de surveillance, les configurations spécifiques à un canal et les consignes de paramétrage des applications.
+description: Découvrez la gestion des utilisateurs et des autorisations, les instructions de surveillance, les configurations spécifiques à un canal et les instructions de paramétrage d’application.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Les différentes opérations d’administration d’Adobe Campaign sont effectu�
 Voici la liste des différents menus disponibles :
 
 * [Utilisateurs &amp; sécurité](../../administration/using/about-access-management.md) : ce menu vous permet de gérer les accès à la plateforme (utilisateurs, rôles, groupes de sécurité, entités).
-* [Canaux](../../administration/using/about-channel-configuration.md): Ce menu regroupe les paramètres techniques liés aux différents canaux de plateforme (courriel, mobile) ainsi que la typologie et la gestion des quarantaines.
+* [Canaux](../../administration/using/about-channel-configuration.md) : ce menu regroupe les paramètres techniques liés aux différents canaux de la plateforme (email, mobile) ainsi que la gestion des typologies et des quarantaines.
 * [Paramétrage de l&#39;application](../../administration/using/external-accounts.md) : permet de configurer différents éléments de l&#39;application (comptes externes, options, workflows techniques).
 * [Développement](../../developing/using/data-model-concepts.md) : ce menu vous permet de gérer vos ressources personnalisées et d&#39;accéder aux outils de diagnostic.
 * [Paramétrage de l&#39;instance](../../administration/using/branding.md) : c&#39;est ici que vous définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d&#39;URL d&#39;accès aux landing pages, etc.).
