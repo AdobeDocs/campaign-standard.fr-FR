@@ -1,6 +1,6 @@
 ---
 title: Prise en main du modèle de données de Campaign Standard
-description: Enrichissez le modèle de données Campaign Standard avec des champs et des ressources personnalisés et étendez les API REST pour exposer les champs étendus.
+description: Enrichissez le modèle de données Campaign Standard avec des ressources et des champs personnalisés et étendez les API REST pour exposer les champs étendus.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
