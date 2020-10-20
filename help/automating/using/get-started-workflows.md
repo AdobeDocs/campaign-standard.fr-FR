@@ -1,6 +1,6 @@
 ---
 title: Prise en main des processus et de la gestion des données
-description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et plus encore.
+description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et bien plus encore.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Import/export des données</a></p></td></tr>
 </table>
 
-Adobe Campaign offre un environnement graphique complet qui vous permet de concevoir des processus complexes tels que la segmentation, l’exécution de campagne, le traitement de fichiers, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
+Adobe Campaign propose un environnement graphique qui permet de construire des processus complexes englobant segmentation, exécution de campagnes, manipulation de fichiers, validations, etc. Un workflow permet par exemple de télécharger un fichier depuis un serveur, de le décompresser et d&#39;importer ses enregistrements dans la base de données Adobe Campaign.
 
 Un workflow peut également faire intervenir des utilisateurs, pour leur affecter une tâche ou demander la validation d&#39;une tâche accomplie. Ainsi, il est possible d&#39;assigner une tâche à un ou plusieurs utilisateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider un BAT avant d&#39;envoyer un message.
 
@@ -65,7 +65,7 @@ L’éditeur de requêtes contient des **règles et des filtres prédéfinis** p
 
 En savoir plus :
 
-* [Edition de requêtes](../../automating/using/editing-queries.md)
+* [Modification de requêtes](../../automating/using/editing-queries.md)
 * [Edition avancée d’expressions](../../automating/using/advanced-expression-editing.md)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
