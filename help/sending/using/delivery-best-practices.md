@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -37,20 +37,20 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Définir l&#39;audience](define-the-right-audience.md)** appropriée - Appliquer les paramètres corrects
+**[Définir l&#39;audience appropriée](define-the-right-audience.md)** - Appliquer les paramètres corrects
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Vérifier avant l&#39;envoi](check-before-sending.md)** - Eviter les erreurs courantes
+**[Vérifier avant envoi](check-before-sending.md)** - Éviter les erreurs courantes
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Suivi et surveillance](track-and-monitor.md)** - Contrôler l&#39;envoi et résoudre les problèmes
+**[Tracker et surveiller](track-and-monitor.md)** - Contrôler l&#39;envoi et résoudre les problèmes
 
-## Contenu associé
+## Contenu connexe
 
-* [Commencer la délivrabilité](../../sending/using/about-deliverability.md)
+* [Prise en main de la délivrabilité](../../sending/using/about-deliverability.md)
 
 * [Prise en main du des messages](../../channels/using/get-started-communication-channels.md)
 
-* [Recommandations relatives à la confidentialité et au consentement](../../start/using/privacy.md)
+* [Recommandations concernant la confidentialité et le consentement](../../start/using/privacy.md)
