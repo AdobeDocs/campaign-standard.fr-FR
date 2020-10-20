@@ -1,6 +1,6 @@
 ---
 title: Prise en main des canaux de communication
-description: Créez des messages personnalisés sur divers canaux, utilisez des modèles, créez des pages d’entrées et consultez les bonnes pratiques.
+description: Créez des messages personnalisés sur divers canaux, utilisez des modèles, créez des landing pages et consultez les bonnes pratiques.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -88,7 +88,7 @@ En savoir plus :
 
 Campaign intègre des landing pages. Il s’agit de formulaires web pouvant être utilisés pour **capturer des informations sur vos audiences**, offrir des abonnements à un service, afficher des données et développer votre base de données.
 
-Il est également possible d’utiliser les landing pages pour **acquérir et mettre à jour des profils existants**, et configurer un mécanisme de double opt-in, ce qui permet de protéger la plate-forme contre les adresses email incorrectes ou non valides ou les robots de spammeurs.
+Il est également possible d’utiliser les landing pages pour **acquérir et mettre à jour des profils existants**, et configurer un mécanisme de double opt-in, ce qui permet de protéger la plateforme contre les adresses email incorrectes ou non valides ou les robots de spammeurs.
 
 En savoir plus :
 
