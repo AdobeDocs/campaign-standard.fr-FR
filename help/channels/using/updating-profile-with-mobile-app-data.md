@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ Dans ce workflow, les conditions suivantes sont remplies :
 * Un champ vide de la table AppSubscription ne doit pas être mis à jour dans la table des profils.
 * Un enregistrement mis à jour dans la table AppSubscription doit être inclus dans la prochaine exécution du workflow.
 
-Pour créer le processus, faites glisser les activités suivantes dans l’espace de travail et liez-les ensemble : **[!UICONTROL Début]**, **[!UICONTROL Planificateur]**, **[!UICONTROL Requête incrémentale]**, **[!UICONTROL Mettre à jour les données]**.
+Pour créer le workflow, placez les activités suivantes dans l’espace de travail et reliez-les : **[!UICONTROL Démarrer]**, **[!UICONTROL Planificateur]**, **[!UICONTROL Requête incrémentale]**, **[!UICONTROL Mettre à jour les données]**.
 
 ![](assets/update_profile0.png)
 
@@ -99,7 +99,7 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile4.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Données traitées]**, sélectionnez **[!UICONTROL Utiliser un champ de date]**, puis ajoutez le champ **[!UICONTROL Modifié le (lastModified)]** en tant que **[!UICONTROL Chemin d&#39;accès au champ de date]**.
+1. Dans l&#39;onglet **[!UICONTROL Données traitées]**, sélectionnez **[!UICONTROL Utiliser un champ de date]**, puis ajoutez le champ **[!UICONTROL Dernière modification (lastModified)]** en tant que **[!UICONTROL Chemin d&#39;accès au champ de date]**.
 
    ![](assets/update_profile5.png)
 
@@ -123,7 +123,7 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
 >[!NOTE]
 >
->In this case, the Workflow performs an UPSERT but since it&#39;s based on an **[!UICONTROL Incremental query]** data is only inserted. La modification de la requête peut avoir un impact sur les données insérées ou mises à jour.
+>Dans ce cas, le workflow effectue une opération UPSERT, mais comme il est basé sur une **[!UICONTROL requête incrémentale]**, les données sont uniquement insérées. La modification de la requête peut avoir un impact sur les données insérées ou mises à jour.
 >En outre, les paramètres de l&#39;onglet Champs à mettre à jour déterminent quels champs sont insérés ou mis à jour dans des conditions spécifiques. Ces paramètres peuvent être uniques pour chaque application ou client.
 >Faites attention lors de la configuration de ces paramètres, car elle peut avoir des conséquences inattendues. En effet, la mise à jour des enregistrements dans le profil en fonction des données appSubscriptionRcp peut modifier les informations personnelles des utilisateurs sans validation.
 
@@ -131,6 +131,6 @@ Lorsque tous les champs à insérer/mettre à jour dans le profil ont été ajou
 
 ![](assets/update_profile9.png)
 
-Save the workflow, then click **[!UICONTROL Start]** to execute the Workflow.
+Enregistrez le workflow, puis cliquez sur **[!UICONTROL Démarrer]** pour l’exécuter.
 
 ![](assets/update_profile10.png)
