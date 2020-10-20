@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Présentation du concept de **messagerie transactionnelle**
 
 La messagerie transactionnelle vous permet d’envoyer en temps réel des messages individuels et uniques à vos clients.
 
-Il peut s&#39;agir de messages de bienvenue, de confirmations d&#39;expédition de commande, de mises à jour de mot de passe, etc.
+Il peut s’agir de messages de bienvenue, de confirmations d’expédition de commandes, de mises à jour de mot de passe, etc.
 Adobe Campaign permet d’intégrer cette fonctionnalité à un système d’information qui lui envoie les événements destinés à être transformés en messages transactionnels personnalisés.
 
 Selon vos options, les messages transactionnels peuvent être envoyés par email, SMS ou notification push. Veuillez vérifier votre accord de licence.
@@ -86,9 +86,9 @@ Dans Adobe Campaign, deux types de message transactionnel sont disponibles :
 
 [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md) ciblant des profils de la base de données marketing Campaign.
 
-Avec les messages transactionnels de profils, vous pouvez :
+Avec les messages transactionnels basés sur un profil, vous pouvez :
 
-* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+* appliquer des [règles de typologie marketing](../../sending/using/managing-typology-rules.md) ou des [règles de fatigue](../../sending/using/fatigue-rules.md) ;
 
 * inclure le lien de désinscription dans les messages ;
 
@@ -134,7 +134,7 @@ La création et la publication d’un événement sont présentées dans la sect
 
 * Le message transactionnel sera alors prêt à être envoyé.
 
-* This step can be performed by any marketing user with [standard user access rights](../../administration/using/users-management.md#basic-users).
+* Cette étape peut être effectuée par tout utilisateur marketing disposant des [droits d’accès des utilisateurs de base](../../administration/using/users-management.md#basic-users).
 
 Pour en savoir plus sur la modification et la publication d’un message transactionnel, voir la section [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md).
 
