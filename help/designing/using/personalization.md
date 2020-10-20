@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Votre bloc de contenu est désormais utilisable dans l&#39;éditeur de contenu d
 >
 >Lorsque vous éditez le contenu d&#39;un bloc, vérifiez qu&#39;aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s&#39;affichent à l&#39;écran ; ils auront donc un impact sur la présentation de votre contenu.
 
-### A propos de la dimension de ciblage       {#about-targeting-dimension}
+### A propos de la dimension de ciblage        {#about-targeting-dimension}
 
 La dimension de ciblage permet de définir dans quel type de message vous pouvez utiliser le bloc de contenu. Cela permet d&#39;éviter d&#39;utiliser des blocs inadéquats dans un message, ce qui peut entraîner des erreurs.
 
@@ -229,7 +229,7 @@ Ces conditions adoptent la syntaxe des expressions XTK (par ex : **context.prof
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Définir un contenu dynamique"
->abstract="Définissez différents contenus qui seront affichés pour certains profils uniquement en fonction des conditions que vous allez définir."
+>abstract="Définissez différents contenus qui seront affichés pour certains profils uniquement en fonction des conditions que vous définirez."
 
 Dans un email, vous pouvez définir différents contenus qui s&#39;afficheront de manière dynamique aux destinataires selon les conditions définies au moyen de l&#39;éditeur d&#39;expression. Vous pouvez par exemple, à partir du même email, faire en sorte que chaque profil reçoive un message différent selon sa tranche d&#39;âge.
 
@@ -293,7 +293,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor)
 
-### Ordre de priorité       {#order-of-priority}
+### Ordre de priorité        {#order-of-priority}
 
 Lorsque vous définissez un contenu dynamique dans l&#39;éditeur d&#39;expression, l&#39;ordre de priorité est défini de la manière suivante :
 
@@ -336,7 +336,7 @@ L&#39;email est donc créé comme suit :
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Gestion des images dynamiques"
->abstract="Personnalisez votre e-mail avec des images dynamiques selon les conditions que vous allez définir."
+>abstract="Personnalisez votre email avec des images dynamiques selon les conditions que vous définirez."
 
 Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont paramétrés comme suit :
 
@@ -346,7 +346,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
    ![](assets/delivery_content_48.png)
 
-1. Editez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
+1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
 
    ![](assets/delivery_content_49.png)
 
@@ -365,7 +365,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 **Pour cibler les profils de plus de 27 ans :**
 
 1. Sélectionnez le contenu dynamique depuis la palette et éditez-le.
-1. Editez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
+1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
 1. Ajoutez l&#39;opérateur **Supérieur à** puis 27 pour créer l&#39;expression **plus de 27 ans**.
 
    ![](assets/delivery_content_52.png)
@@ -374,14 +374,14 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 Vos contenus dynamiques sont correctement paramétrés.
 
-### Paramétrer le texte       {#configuring-text}
+### Paramétrer le texte        {#configuring-text}
 
 Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétrés comme suit :
 
 **Pour cibler les profils qui ont entre 18 et 27 ans :**
 
 1. Sélectionnez le composant de structure voulu et ajoutez un contenu dynamique.
-1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
+1. Modifiez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
 1. Dans le composant de structure, à l&#39;emplacement désiré, cliquez sur l&#39;icône **[!UICONTROL Personnaliser]** depuis la barre d&#39;outils contextuelle et sélectionnez **[!UICONTROL Insérer un champ de personnalisation]**.
 
    ![](assets/delivery_content_53.png)
@@ -395,7 +395,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 **Pour cibler les profils de plus de 27 ans :**
 
 1. Sélectionnez le composant de structure voulu et ajoutez un contenu dynamique.
-1. Editez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
+1. Modifiez le contenu dynamique et paramétrez les expressions de ciblage. Voir [Paramétrer les illustrations](#configuring-images).
 1. Dans le composant de structure, à l&#39;emplacement désiré, cliquez sur l&#39;icône **[!UICONTROL Personnaliser]** depuis la barre d&#39;outils contextuelle et sélectionnez **[!UICONTROL Insérer un champ de personnalisation]**.
 1. Dans la liste déroulante, sélectionnez le champ **[!UICONTROL Civilité]**.
 1. Procédez de la même manière pour ajouter le champ **[!UICONTROL Nom]**.
@@ -404,7 +404,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
 Vos champs de personnalisation sont correctement insérés dans le contenu dynamique choisi.
 
-### Prévisualiser l&#39;email       {#previewing-emails}
+### Prévisualiser l&#39;email        {#previewing-emails}
 
 La prévisualisation permet de vérifier que les champs de personnalisation et les contenus dynamiques sont paramétrés correctement avant d&#39;envoyer les **[!UICONTROL Bons à tirer]**. Différents profils de test qui correspondent aux cibles de l&#39;email peuvent être sélectionnés lors de la prévisualisation.
 
