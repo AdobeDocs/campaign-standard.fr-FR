@@ -1,6 +1,6 @@
 ---
 title: Prise en main des API de Campaign Standard
-description: Créez des intégrations et construisez votre propre réseau en connectant Campaign à un ensemble de technologies.
+description: Créez des intégrations et construisez votre propre écosystème en interfaçant Campaign avec un ensemble de technologies.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
