@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 [Calendrier des versions](../../rn/using/release-planning.md) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version** du Panneau de Contrôle d’octobre avec configuration de domaine utilisant des CNAME et de nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
