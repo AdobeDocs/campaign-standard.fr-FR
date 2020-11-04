@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Toutes les dates de publication peuvent faire l’objet de modifications. Nous v
 
 **NOUVEAU !** Abonnez-vous aux [notifications de mises à jour de Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) pour obtenir des détails sur les prochaines versions directement dans votre boîte de réception.
 
-## Version 21.1 - Version de janvier {#release-21-1-release}
+## Version 21.1 - Version de février {#release-21-1-release}
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](../../rn/using/release-notes.md). Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
@@ -44,11 +44,11 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>11-12 janvier 2021<br /> </td>
+   <td>25-26 janvier 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>18-25 janvier 2021<br /> </td>
+   <td>1er - 8 février 2021<br /> </td>
   </tr>
  </tbody>
 </table>
