@@ -4,11 +4,11 @@ solution: Campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 93%
 
 ---
 
@@ -19,14 +19,13 @@ ht-degree: 100%
 
 ## Nouveautés
 
+* **[Mise à jour de la planification des](rn/using/release-planning.md)**<br/>mises à jour Les dates de mise à jour de janvier à venir ont été ajoutées à la planification des mises à jour.
+
 * **[Populations témoins](sending/using/control-group.md)**<br/>
 Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
 * **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>
 Optimisez la conception et la diffusion avec les emails optimisés par l’IA
-
-* **[Gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy.html)**<br/>
-Découvrez les outils proposés par Adobe Campaign pour vous aider à respecter la confidentialité
 
 * **[API externe](automating/using/external-api.md)**<br/>
 Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
