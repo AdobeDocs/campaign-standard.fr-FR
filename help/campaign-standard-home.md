@@ -5,10 +5,10 @@ title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 93%
+source-wordcount: '221'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## Nouveautés
 
-* **[Mise à jour de la planification](rn/using/release-planning.md)**<br/>des versions Février 2021 : les dates de publication à venir ont été ajoutées à la planification des versions.
+* **[Mise à jour de la planification](rn/using/release-planning.md)**<br/> des mises à jour Les prochaines dates de publication de février 2021 ont été ajoutées à la planification des mises à jour.
 
 * **[Populations témoins](sending/using/control-group.md)**<br/>
 Mesurez l’impact de vos campagnes en excluant une partie de leur audience
@@ -33,7 +33,7 @@ Utilisez l’activité d’API externe pour incorporer des données issues d’u
 * **[Prise en main des diffusions mobiles](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
 Découvrez les directives générales pour les diffusions mobiles (SMS, push, In-App)
 
-[Cliquez ici pour plus de mises à jour](rn/using/documentation-updates.md)
+[Autres mises à jour](rn/using/documentation-updates.md)
 
 ## Pages principales
 
