@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1117'
+ht-degree: 98%
 
 ---
 
@@ -110,7 +110,7 @@ Pour plus d&#39;informations, consultez [Activité Planificateur](../../automati
 
 ## Appel d&#39;un workflow avec des paramètres{#workflow-with-parameters}
 
-Veillez à ce que le nom et le nombre de paramètres soient identiques à ce qui est défini lors de l’appel du workflow (voir [](../../automating/using/defining-parameters-calling-workflow.md).) De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
+Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md). De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
 
 Veillez à ce que tous les paramètres soient déclarés dans l&#39;activité **[!UICONTROL Signal externe]**. Dans le cas contraire, une erreur se produira lors de l&#39;exécution de l&#39;activité.
 
