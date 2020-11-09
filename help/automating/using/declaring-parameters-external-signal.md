@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 80%
 
 ---
 
@@ -27,7 +27,7 @@ Pour appeler un workflow avec des paramètres, la première étape consiste à l
 
    >[!CAUTION]
    >
-   >Veillez à ce que le nom et le nombre de paramètres soient identiques à ce qui est défini lors de l’appel du workflow (voir [](../../automating/using/defining-parameters-calling-workflow.md).) De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
+   >Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [this page](../../automating/using/defining-parameters-calling-workflow.md)). De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
