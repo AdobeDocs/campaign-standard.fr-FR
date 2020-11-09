@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d’événements et peuvent être utilisés pour personnaliser les activités du workflow.
 
-Ils peuvent, par exemple, permettre de définir l’audience à lire dans l’activité **[!UICONTROL Lecture d’audience]**, le nom du fichier à transférer dans l’activité **[!UICONTROL Transfert de fichier]**, etc. (voir [](../../automating/using/customizing-workflow-external-parameters.md)).
+Ils peuvent, par exemple, permettre de définir l’audience à lire dans l’activité **[!UICONTROL Lecture d’audience]**, le nom du fichier à transférer dans l’activité **[!UICONTROL Transfert de fichier]**, etc. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Utiliser des variables d’événements    {#using-events-variables}
 
@@ -49,13 +49,13 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png) : modifiez les expressions en associant des variables et des fonctions (voir [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): modifier des expressions combinant des variables et des fonctions (voir [cette page](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    Cette liste fournit des fonctions qui vous permettent d&#39;effectuer un filtrage complexe. Ces fonctions sont présentées dans [cette section](../../automating/using/list-of-functions.md).
 
-   En outre, vous pouvez utiliser les fonctions ci-dessous, disponibles dans toutes les activités, qui vous permettent d&#39;utiliser des variables d’événements après avoir appelé un workflow avec des paramètres externes (voir [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)) :
+   Additionally, you can use the functions below, which are available in all the activities that allow you to use events variables after calling a workflow with external parameters (see [this section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Nom | Description | Syntaxe |
    ---------|----------|---------
