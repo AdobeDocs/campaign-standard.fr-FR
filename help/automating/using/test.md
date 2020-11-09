@@ -11,10 +11,10 @@ topic-tags: execution-activities
 discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 90%
 
 ---
 
@@ -50,7 +50,7 @@ Les conditions peuvent être basées sur des **fonctions** ou des **variables**,
 
    Lorsque vous éditez le champ **[!UICONTROL Condition]**, deux boutons vous aident à appeler des variables d’événements et à éditer des expressions en associant des variables et des fonctions :
 
-   * ![](assets/extsignal_picker.png) : sélectionnez la variable d’événements parmi toutes les variables disponibles dans le workflow (voir ).[](../../automating/using/customizing-workflow-external-parameters.md)
+   * ![](assets/extsignal_picker.png): sélectionnez la variable événements parmi toutes les variables disponibles dans le processus (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md)).
 
       ![](assets/wkf_test_activity_variables.png)
 
