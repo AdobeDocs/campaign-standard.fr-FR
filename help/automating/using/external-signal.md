@@ -11,7 +11,7 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 1. Sélectionnez l&#39;activité puis ouvrez-la à l&#39;aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s&#39;affichent.
 1. Editez le libellé de l&#39;activité. Le libellé est requis lors de la configuration du workflow source qui déclenche le **[!UICONTROL Signal externe]**.
 
-   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres]** pour les déclarer. Voir à ce propos cette section : [](../../automating/using/declaring-parameters-external-signal.md).
+   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres]** pour les déclarer. Voir à ce propos [cette page](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Lors de la configuration d&#39;un signal externe, il est important de commencer 
 
    Lorsque vous configurez une activité **[!UICONTROL Fin]** pour qu&#39;elle déclenche un autre workflow, un symbole signal supplémentaire vient s&#39;ajouter à son icône.
 
-   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres et valeurs]**. Voir à ce propos cette section : [](../../automating/using/defining-parameters-calling-workflow.md).
+   Si vous voulez appeler le workflow avec des paramètres, utilisez la zone **[!UICONTROL Paramètres et valeurs]**. Voir à ce propos [cette page](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
