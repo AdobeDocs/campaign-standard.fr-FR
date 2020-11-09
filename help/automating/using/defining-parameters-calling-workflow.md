@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '202'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Cette section explique comment définir des paramètres lors de l’appel d’un
 
 Avant de définir les paramètres, vérifiez les éléments suivants :
 
-* Les paramètres ont été déclarés dans l’activité **[!UICONTROL Signal externe]**. Voir [](../../automating/using/declaring-parameters-external-signal.md).
+* Les paramètres ont été déclarés dans l’activité **[!UICONTROL Signal externe]**. Voir [cette page](../../automating/using/declaring-parameters-external-signal.md).
 * Le workflow contenant l’activité Signal est en cours d’exécution.
 
 Pour configurer l’activité **[!UICONTROL Fin]**, suivez les étapes ci-dessous :
@@ -33,7 +33,7 @@ Pour configurer l’activité **[!UICONTROL Fin]**, suivez les étapes ci-dessou
 1. Sélectionnez le workflow et l’activité Signal externe que vous voulez appeler.
 1. Cliquez sur le bouton **[!UICONTROL Créer un élément]** pour ajouter un paramètre, puis indiquez son nom et sa valeur.
 
-   * **[!UICONTROL Nom]** : nom déclaré dans l’activité **[!UICONTROL Signal externe]** (voir [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Nom]**: nom déclaré dans l&#39;activité de signal **** externe (voir [cette page](../../automating/using/declaring-parameters-external-signal.md)).
    * **[!UICONTROL Valeur]** : valeur que vous souhaitez assigner au paramètre. La valeur doit respecter la **syntaxe standard**, décrite dans [cette section](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
