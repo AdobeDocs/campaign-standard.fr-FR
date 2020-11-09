@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 100%
+source-wordcount: '963'
+ht-degree: 97%
 
 ---
 
@@ -64,7 +64,7 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
    * **[!UICONTROL Limiter la population de ce segment]** : permet de limiter la taille du segment.
    * **[!UICONTROL Filtrer et limiter la population de ce segment]** : permet de filtrer la population du segment et d’en limiter la taille.
    * **[!UICONTROL Libellé]** : libellé du segment.
-   * **[!UICONTROL Code segment]** : code assigné à la population de segments. Le code segment peut être personnalisé à l’aide d’une expression standard et de variables d’événements (voir [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Code segment]**: code affecté à la population de segments.Le code segment peut être personnalisé à l&#39;aide d&#39;une expression standard et de variables de événement (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclure ce segment de la population]** : permet d’exclure le segment défini de la population en sortie de l’activité. Cette option ne peut être utilisée que si l’option **[!UICONTROL Générer tous les segments dans une même transition]** est sélectionnée.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.
