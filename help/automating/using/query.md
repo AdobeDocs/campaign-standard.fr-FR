@@ -11,10 +11,10 @@ topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 100%
+source-wordcount: '1823'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
 1. Dans l’onglet **[!UICONTROL Transition]**, l’option **[!UICONTROL Activer une transition sortante]** permet d’ajouter une transition sortante après l’activité de requête, et ce même si elle ne récupère pas de données.
 
-   Le code segment de la transition sortante peut être personnalisé à l’aide d’une expression standard et de variables d’événements (voir [](../../automating/using/customizing-workflow-external-parameters.md)).
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
