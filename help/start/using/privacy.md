@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ Pour gérer correctement la confidentialité et les données personnelles, trava
 
 >[!NOTE]
 >
->Pour en savoir plus sur la façon dont les règlements RGPD, CCPA et PDPA s’appliquent à Adobe Campaign, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Confidentialité dans Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Pour la gestion des informations personnelles, il est important de définir les 
 * **Les données personnelles** sont des informations qui permettent d’identifier directement ou indirectement un individu vivant.
 * **Les données personnelles sensibles** sont des informations relatives à l’origine, aux points de vue politiques, aux croyances religieuses, aux antécédents criminels, aux renseignements génétiques, aux données sur la santé, aux préférences sexuelles, aux renseignements biométriques ainsi qu’à l’appartenance syndicale.
 
-Les [principales législations](#privacy-regulations) se réfèrent de la manière suivante aux différentes entités chargées des données :
+The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * Un **contrôleur de données** est l’autorité qui détermine les moyens et les objectifs de la collecte, de l’utilisation et du partage des données personnelles.
 * Un **responsable du traitement des données** est un individu ou une partie qui collecte, utilise ou partage des données personnelles selon les instructions du contrôleur de données.
 * Un **titulaire de données** est une personne vivante dont les données à caractère personnel sont collectées, utilisées ou partagées et qui peut être identifiée, directement ou indirectement, par référence à ces données à caractère personnel.
@@ -98,7 +98,7 @@ Adobe Campaign vous permet de collecter des données, y compris des informations
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, voir [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html).
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
 
 Adobe Campaign vous propose divers ensembles de fonctionnalités dédiées à la gestion de la confidentialité :
 * Gestion du consentement, conservation des données et rôles utilisateur. Reportez-vous à [cette section](#consent).
@@ -116,7 +116,7 @@ Depuis l’origine, Adobe Campaign dispose de fonctions importantes, essentielle
 * **Conservation des données** : toutes les tables de logs standard intégrées comportent des périodes de conservation prédéfinies, limitant généralement leur enregistrement de données à 6 mois ou moins. Il est possible de définir des périodes de conservation supplémentaires à l’aide de workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
 * **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l’intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Voir à ce sujet la section [Gestion des accès](../../administration/using/about-access-management.md).
 
-Pour plus d’informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
+For more on these features and how to manage them in Adobe Campaign, see [this section](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Demandes d’accès à des informations personnelles {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 >[!NOTE]
 >
->Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. For more on these different regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Les demandes **d’accès** et de **suppression** sont présentées dans [cette 
 
 ## Fonctionnalités de tracking {#tracking-capabilities}
 
-Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de tracker le comportement des destinataires de vos diffusions à l’aide de cookies de session et de cookies permanents. Pour plus d’informations sur le tracking, voir [cette page](../../sending/using/tracking-messages.md).
+Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de tracker le comportement des destinataires de vos diffusions à l’aide de cookies de session et de cookies permanents. Pour plus d&#39;informations sur le tracking, voir [cette section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
