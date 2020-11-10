@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
+source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
 workflow-type: tm+mt
-source-wordcount: '6248'
+source-wordcount: '6263'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 99%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
+
+## Novembre 2020 {#doc-updates-november-2020}
+
+La section Confidentialité a été déplacée et enrichie avec une nouvelle page : [Gestion](../../start/using/privacy-management.md)de la confidentialité.
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
