@@ -9,9 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
@@ -68,7 +68,7 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign  `<stage or prod>`
+   * Nom : adobe campaign   `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
@@ -121,7 +121,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe  `<stage or prod>`
+   * **[!UICONTROL Nom complet]** : API Adobe   `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
