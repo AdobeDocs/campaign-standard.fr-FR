@@ -10,68 +10,68 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Implémentation du suivi local {#local-tracking}
+# Mise en œuvre du suivi local {#local-tracking}
 
-## A propos du suivi local {#about-local-tracking}
+## À propos du suivi local {#about-local-tracking}
 
-Dans cette page, découvrez comment vous assurer que le suivi des notifications locales a été implémenté correctement. Notez que cela implique que la notification locale a déjà été configurée.
+Dans cette page, découvrez comment vous assurer que le suivi des notifications locales a été mis en œuvre correctement. Notez que cela implique que la notification locale a déjà été configurée.
 
-Le suivi des notifications locales peut être divisé en trois types :
+Le suivi des notifications locales peut être divisé en trois types :
 
-* **Impressions** locales : lorsqu’une notification locale a été envoyée au périphérique et qu’elle se trouve sur le centre de notification, mais n’a pas été touchée du tout. Dans la plupart des cas, le nombre d’impressions doit être similaire si ce n’est pas le même que le nombre livré. Il s’assure que le périphérique a bien reçu le message et transmet ces informations au serveur.
+* **Impressions locales** : lorsqu’une notification locale a été envoyée à l’appareil et qu’elle se trouve dans le centre de notification, mais qu’elle n’a pas du tout été touchée. Dans la plupart des cas, le nombre des impressions doit être similaire, voire identique à celui des diffusions. Cela garantit que l&#39;appareil a bien reçu le message et a transmis cette information au serveur.
 
-* **Clic** local : lorsqu&#39;une notification locale a été diffusée sur le périphérique et que l&#39;utilisateur a cliqué sur ce dernier. L’utilisateur souhaitait soit vue la notification (qui à son tour basculerait vers le suivi ouvert local), soit rejeter la notification.
+* **Clic local** : lorsqu’une notification locale a été envoyée à l’appareil et que l’utilisateur a cliqué sur ce dernier. L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures locales) ou l’ignorer.
 
-* **Ouverture** locale : lorsqu&#39;une notification locale a été envoyée au périphérique et que l&#39;utilisateur a cliqué sur la notification, l&#39;application s&#39;est ouverte. Il s’agit de la même méthode que le clic local, sauf qu’une ouverture locale ne sera pas déclenchée si la notification a été rejetée.
+* **Ouverture locale** : lorsqu’une notification locale a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de cette dernière. Cette mesure est similaire au clic local, sauf qu’une ouverture locale ne sera pas déclenchée si la notification a été ignorée.
 
-Pour mettre en oeuvre le suivi pour Adobe Campaign Standard, l’application mobile doit inclure Mobile SDK dans l’application. Ces SDK sont disponibles dans [!DNL Adobe Mobile Services].
+Pour mettre en œuvre le suivi pour Adobe Campaign Standard, l’application mobile doit inclure les SDK Mobile dans l’application. Ces SDK sont disponibles dans [!DNL Adobe Mobile Services].
 
-Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues d’Adobe Campaign et l’autre est une variable d’action qui détermine s’il s’agit d’une impression, d’un clic ou d’une ouverture.
+Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues d’Adobe Campaign et l’autre est une variable d’action qui détermine s’il s’agit d’une impression, d’un clic ou d’une ouverture.
 
 | Variable | Valeur |
 | :-: | :-: |
-| deliveryId | &quot;deliveryId&quot; à partir des données entrantes (similaire au suivi Push où&quot;_dld&quot; est utilisé) |
-| broadlogId | &quot;broadlogId&quot; à partir des données entrantes (semblable au suivi push où &quot;_mld&quot; est utilisé) |
-| action | &quot;1&quot; pour Open, &quot;2&quot; pour Click et &quot;7&quot; pour Impression |
+| deliveryId | &quot;deliveryId&quot; à partir des données entrantes (similaire au suivi push où&quot;_dld&quot; est utilisé) |
+| broadlogId | &quot;broadlogId&quot; à partir des données entrantes (similaire au suivi push où &quot;_mld&quot; est utilisé) |
+| action | « 1 » pour Ouverture, « 2 » pour Clic et « 7 » pour Impression |
 
 ## Implémentation du suivi des impressions locales {#implement-local-impression-tracking}
 
-Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l&#39;action lors de l&#39;appel des fonctions VEMessageInfo() ou trackAction().
+Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l&#39;action lors de l&#39;appel des fonctions collectMessageInfo() ou trackAction().
 
 ### Pour Android {#implement-local-impression-tracking-android}
 
-Le SDK Adobe Experience Platform Mobile début le suivi d’impression pour la notification locale lors de son déclenchement.
+Le SDK Adobe Experience Platform Mobile débute le suivi d’impression pour la notification locale lors de son déclenchement.
 
 ### Pour iOS {#implement-local-impression-tracking-ios}
 
-Pour expliquer comment mettre en oeuvre le suivi des impressions, nous devons comprendre les trois états d’une application :
+Pour expliquer comment mettre en œuvre le suivi des impressions, nous devons comprendre les trois états d’une application :
 
-* **Premier plan**: lorsque l’application est actuellement principale et affichée à l’écran au premier plan.
+* **Premier plan** : lorsque l’application est actuellement active et se trouve actuellement à l’écran en premier plan.
 
-* **Contexte**: lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé non plus. Lorsque vous cliquez sur le bouton d’accueil en doublon, il affiche généralement toutes les applications en arrière-plan.
+* **Arrière-plan** : lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé non plus. Lorsque vous double-cliquez sur le bouton d’accueil, il affiche généralement toutes les applications en arrière-plan.
 
-* **Désactivé/Fermé**: lorsque le processus de demande a été interrompu. Si une application est fermée, Apple ne l’appellera pas tant que l’application n’aura pas été relancée. Cela signifie que vous ne pouvez jamais vraiment savoir quand la notification a été reçue sur iOS.
+* **Désactivée / Fermée** : lorsque le processus de l’application a été interrompu. Si une application est fermée, Apple ne l’appellera pas tant qu’elle n’aura pas été relancée. Cela signifie que vous ne pouvez jamais vraiment savoir quand la notification a été reçue sur iOS.
 
-Pour que le suivi des impressions fonctionne toujours pendant que l’application est en arrière-plan, nous devons envoyer &quot;Contenu disponible&quot; pour informer l’application que le suivi doit être effectué.
+Pour que le suivi des impressions fonctionne toujours pendant que l’application est en arrière-plan, nous devons envoyer « Contenu disponible » pour informer l’application que le suivi doit être effectué.
 
-Le SDK Adobe Experience Platform Mobile début le suivi d’impression pour la notification locale lors de son déclenchement.
+Le SDK Adobe Experience Platform Mobile débute le suivi d’impression pour la notification locale lors de son déclenchement.
 
 >[!CAUTION]
 >
->Le suivi des impressions iOS n’est pas précis et ne doit pas être examiné de manière fiable.
+>Le suivi des impressions iOS n’est pas précis et ne doit pas être considéré comme fiable.
 
-## Implémentation du suivi des clics {#implementing-click-tracking}
+## Mise en œuvre du suivi des clics {#implementing-click-tracking}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l&#39;action lors de l&#39;appel des fonctions MessageInfo() ou trackAction().
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l&#39;action lors de l&#39;appel des fonctions collectMessageInfo() ou trackAction().
 
 ### Pour Android {#implement-click-tracking-android}
 
@@ -79,9 +79,9 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 * L’utilisateur voit la notification, mais l’efface.
 
-* L&#39;utilisateur voit la notification et clique dessus, ce qui se transforme en suivi ouvert.
+* L&#39;utilisateur voit la notification et clique dessus, ce qui se transforme en suivi d’ouvertures.
 
-Le premier scénario de clic est suivi par Adobe Experience Platform Mobile SDK.
+Le premier scénario de clic est suivi par le SDK Mobile d’Adobe Experience Platform.
 
 ### Pour iOS {#implement-click-tracking-ios}
 
@@ -120,7 +120,7 @@ func registerForPushNotifications() {
     }
 ```
 
-Ensuite, pour gérer l’abandon et envoyer des informations de suivi, vous devez ajouter les éléments suivants :
+Ensuite, pour gérer l’abandon et envoyer des informations de suivi, vous devez ajouter les éléments suivants :
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -143,15 +143,15 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-## Implémentation du suivi ouvert {#implement-open-tracking}
+## Mise en œuvre du suivi des ouvertures {#implement-open-tracking}
 
-Vous devez envoyer &quot;1&quot; et &quot;2&quot; car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification locale, aucun événement de suivi ne se produit.
+Vous devez envoyer « 1 » et « 2 » car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée / ouverte par le biais d’une notification locale, aucun événement de suivi ne se produit.
 
 ### Pour Android {#implement-open-tracking-android}
 
-Pour suivre l&#39;ouverture, nous devons créer l&#39;intention. Les objets Intent permettent à Android OS d&#39;appeler votre méthode lorsque certaines actions sont effectuées, dans ce cas, en cliquant sur la notification pour ouvrir l&#39;application.
+Pour suivre l’ouverture, nous devons créer l’intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées, dans ce cas, en cliquant sur la notification pour ouvrir l’application.
 
-Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Une fois l’intention définie, vous devez à présent renvoyer les informations de suivi à Adobe Campaign. Dans ce cas, la Vue([!DNL Activity]) Android qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet intent dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des données ouvertes.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’intention est définie, vous devez renvoyer les informations de suivi à Adobe Campaign. Dans ce cas, la Vue Android ([!DNL Activity]) qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet d’intention dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des ouvertures.
 
 MainActivity.java (étend [!DNL Activity])
 
