@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Pour utiliser les variantes de contenus multilingues pour votre diffusion de not
 * [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Etape 3 : envoi et analyse de la diffusion de notification push multilingue ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Etape 1 : téléchargement d&#39;une variante de contenu multilingue   {#step-1--upload-multilingual-content-variant}
+## Etape 1 : téléchargement d&#39;une variante de contenu multilingue    {#step-1--upload-multilingual-content-variant}
 
 Avant de personnaliser votre notification push multilingue, vous devez télécharger les variantes de contenus dans un modèle de diffusion multilingue et créer la diffusion.
 
@@ -83,7 +83,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 Vous pouvez maintenant commencer à personnaliser votre notification push multilingue.
 
-## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues   {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues    {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Après avoir téléchargé le fichier comportant les variantes de contenus, vous pouvez prévisualiser différentes variantes depuis la diffusion de la notification push.
 
@@ -111,7 +111,7 @@ Vous avez également la possibilité de créer et éditer des variantes supplém
 
 La diffusion de la notification push multilingue est prête à l&#39;envoi.
 
-## Etape 3 : envoi et analyse de la diffusion de notification push multilingue   {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Etape 3 : envoi et analyse de la diffusion de notification push multilingue    {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Les notifications push avec des variantes de contenus multilingues peuvent être maintenant envoyées à vos utilisateurs.
 
