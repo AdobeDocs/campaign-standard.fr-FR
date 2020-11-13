@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2513'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Notez que certains paramètres d’email sont désormais gérés par le MTA amé
 
 ## Paramètres du canal email {#email-channel-parameters}
 
-L’écran Configuration email permet de définir les paramètres du canal email. Les administrateurs peuvent accéder à ces configurations dans le me **[!UICONTROL Administration]>[!UICONTROL Canaux]>[!UICONTROL Email]>[!UICONTROL Configuration]**.
+L’écran Configuration email permet de définir les paramètres du canal email. Les administrateurs peuvent accéder à ces configurations dans le me **[!UICONTROL Administration] > [!UICONTROL Canaux] > [!UICONTROL Email] > [!UICONTROL Configuration]**.
 
 ![](assets/channels_1.png)
 
@@ -81,7 +81,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Comptes de routage email  {#email-routing-accounts}
+## Comptes de routage email   {#email-routing-accounts}
 
 Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
@@ -93,7 +93,7 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 [Comptes externes](../../administration/using/external-accounts.md)
 
-## Règles de gestion des emails  {#email-processing-rules}
+## Règles de gestion des emails   {#email-processing-rules}
 
 Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les administrateurs via le menu **[!UICONTROL Administration > Canaux > Email]**.
 
@@ -127,7 +127,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## Liste des propriétés des emails  {#list-of-email-properties}
+## Liste des propriétés des emails   {#list-of-email-properties}
 
 Cette section décrit la liste des paramètres disponibles dans l’écran des propriétés d’un email ou d’un modèle d’email.
 
@@ -175,7 +175,7 @@ The number of retries can be changed globally (contact your Adobe technical admi
 
 Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Paramètres de format des emails  {#email-format-parameters}
+#### Paramètres de format des emails   {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
@@ -206,7 +206,7 @@ Si vous activez l’option de mode test SMTP pour un modèle d’email, cette op
 
 Pour plus d’informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
-### Paramètres de période de validité  {#validity-period-parameters}
+### Paramètres de période de validité   {#validity-period-parameters}
 
 La section **[!UICONTROL Période de validité]** propose les paramètres suivants :
 
@@ -240,7 +240,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 >
 >Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
 
-### Paramètres du tracking  {#tracking-parameters}
+### Paramètres du tracking   {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
@@ -260,11 +260,11 @@ Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le 
 
 L’insertion et l’utilisation du contenu de personnalisation sont présentées dans la documentation [Personnalisation du contenu des emails](../../designing/using/personalization.md).
 
-#### Contexte de ciblage  {#target-context}
+#### Contexte de ciblage   {#target-context}
 
 Le contexte de ciblage permet de définir l’ensemble les tables qui seront utilisées pour le ciblage (dans l’écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l’éditeur de contenu HTML) de l’email.
 
-#### Routage  {#routing}
+#### Routage   {#routing}
 
 Ce champ indique le mode de routage utilisé. Il référence un compte externe. Par exemple, cela peut être utile si vous souhaitez utiliser un compte externe contenant des paramétrages de branding spécifiques.
 
@@ -272,7 +272,7 @@ Ce champ indique le mode de routage utilisé. Il référence un compte externe. 
 >
 >Les comptes externes sont accessibles via le menu **Administration** > **Paramétrage de l’application** > **Comptes externes**.
 
-#### Préparation  {#preparation}
+#### Préparation   {#preparation}
 
 La préparation des messages est présentée dans la section [Valider les messages](../../sending/using/preparing-the-send.md).
 
@@ -304,7 +304,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
    >
    >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-### Liste des paramètres d’autorisation d’accès        {#list-of-access-authorization-parameters}
+### Liste des paramètres d’autorisation d’accès         {#list-of-access-authorization-parameters}
 
 La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suivants :
 
@@ -314,4 +314,4 @@ La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suiv
    >
    >Le paramétrage des entités organisationnelles est accessible via le menu **Administration** > **Utilisateurs &amp; sécurité**.
 
-* Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modifié par]** et **[!UICONTROL Modifié le]** sont automatiquement remplis.
+* Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modifié par]** et **[!UICONTROL Dernière modification]** sont automatiquement remplis.
