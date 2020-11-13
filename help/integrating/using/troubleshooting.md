@@ -9,9 +9,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '367'
 ht-degree: 100%
 
@@ -28,14 +28,14 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
    Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Comptes externes]**, vérifiez que les comptes S3 externes ci-dessous sont correctement configurés. Les serveurs S3 mentionnés doivent avoir été configurés pendant la mise en service.
 
-   * **[!UICONTROL importSharedAudience]** : compte S3 dédié à l&#39;importation d&#39;audiences.
-   * **[!UICONTROL exportSharedAudience]** : compte S3 dédié à l&#39;exportation d&#39;audiences.
+   * **[!UICONTROL importSharedAudience]** : compte S3 dédié à l&#39;import d&#39;audiences.
+   * **[!UICONTROL exportSharedAudience]** : compte S3 dédié à l&#39;export d&#39;audiences.
 
 * **Data sources partagées**
 
    Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Data sources partagées]**, vérifiez que la data source partagée est correctement définie.
 
-   **[!UICONTROL La Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. **[!UICONTROL La priorité]** n&#39;est nécessaire que pour l&#39;implémentation des Triggers.
+   La **[!UICONTROL Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. La **[!UICONTROL Priorité]** n&#39;est nécessaire que pour l&#39;implémentation des Triggers.
 
    Vérifiez que la clé de réconciliation est correcte. C&#39;est la valeur hachée/cryptée de ce champ qui est utilisée pour exporter et importer les audiences.
 
