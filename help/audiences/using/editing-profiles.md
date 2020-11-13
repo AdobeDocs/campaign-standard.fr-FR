@@ -9,9 +9,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Rubrique connexe :
 * [Profil client intégré](../../audiences/using/integrated-customer-profile.md)
 * [Envoi au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Données de profil générales  {#general-profile-data}
+## Données de profil générales   {#general-profile-data}
 
 L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes concernant le profil :
 
@@ -56,13 +56,13 @@ L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes conc
 
 ![](assets/profile_creation4.png)
 
-## Logs d&#39;envoi et tracking  {#sending-and-tracking-logs}
+## Logs d&#39;envoi et tracking   {#sending-and-tracking-logs}
 
 Les onglets **[!UICONTROL Envois]** et **[!UICONTROL Tracking]** répertorient les diffusions envoyées au profil, ainsi que toutes les données de tracking associées.
 
 Pour plus d&#39;informations sur les envois et le tracking, consultez les sections [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs) et [Tracker les messages](../../sending/using/tracking-messages.md).
 
-## Abonnements  {#subscriptions}
+## Abonnements   {#subscriptions}
 
 Les abonnements du contact sont répertoriés dans l&#39;onglet correspondant. Pour plus d&#39;informations sur l&#39;abonnement à un service, voir [cette section](../../audiences/using/about-subscriptions.md).
 
