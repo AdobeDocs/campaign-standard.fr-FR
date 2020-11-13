@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1175'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cett
 
    Ce dernier est prêt à être exécuté. Une fois exécuté, vous pouvez visualiser les profils inscrits ou désinscrits dans le détail du service.
 
-## Exemple : abonner des profils à un service spécifique après l’import d’un fichier   {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Exemple : abonner des profils à un service spécifique après l’import d’un fichier    {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Cet exemple illustre comment importer un fichier contenant des profils et les abonner à un service existant. Après l’import du fichier, une réconciliation est nécessaire afin d’identifier les données importées comme étant des profils. Afin d’assurer que le fichier ne contient aucun doublon, une déduplication sera exécutée sur les données.
 
