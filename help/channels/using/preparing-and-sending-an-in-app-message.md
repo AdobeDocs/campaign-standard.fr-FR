@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1396'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 ![](assets/diagram_inapp.png)
 
-## Gestion des champs de profil mobile avec des données personnelles et sensibles     {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles      {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 Dans Adobe Campaign, les données d&#39;attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
