@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
 ![](assets/sending_delivery.png)
 
-Si les indicateurs de performance clés sont trop longs à se mettre à jour ou ne prennent pas en compte les résultats à partir des envois, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **[!UICONTROL Déploiement]**.
+Si les KPI sont trop longs à se mettre à jour ou ne prennent pas en compte les résultats à partir des envois, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **[!UICONTROL Déploiement]**.
 
 ![](assets/sending_delivery7.png)
 
