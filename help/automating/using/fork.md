@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
