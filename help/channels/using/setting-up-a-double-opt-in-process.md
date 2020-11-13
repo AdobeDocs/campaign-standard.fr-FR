@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Pour mettre cela en place, vous devez :
 
 Ces étapes doivent être réalisées dans Adobe Campaign selon un ordre spécifique afin que tous les paramètres soient correctement activés.
 
-## Etape 1 : création de la landing page de confirmation      {#step-1--create-the-confirmation-landing-page}
+## Etape 1 : création de la landing page de confirmation       {#step-1--create-the-confirmation-landing-page}
 
 Le processus de configuration du mécanisme de double opt-in commence par la création de la landing page de confirmation. Cette page s&#39;affichera lorsque les visiteurs cliqueront sur l&#39;email de confirmation afin de s&#39;inscrire.
 
@@ -70,13 +70,13 @@ Pour créer et configurer cette landing page, vous devez :
 
 1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
-## Etape 2 : création de l&#39;email de confirmation      {#step-2--create-the-confirmation-email}
+## Etape 2 : création de l&#39;email de confirmation       {#step-2--create-the-confirmation-email}
 
 Une fois la landing page de confirmation créée, vous pouvez concevoir l&#39;email de confirmation qui sera envoyé automatiquement à chaque visiteur qui valide la landing page d&#39;acquisition. Cette validation est considérée comme un événement, et l&#39;email est un message transactionnel, lié à une règle de typologie spécifique qui permet le ciblage des populations Opt-out.
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Vous devez les suivre avant de créer la landing page d&#39;acquisition car celle-ci fera référence au modèle d&#39;email.
 
-### Création de l&#39;événement      {#create-the-event}
+### Création de l&#39;événement       {#create-the-event}
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : la validation du formulaire. Vous devez commencer par créer l&#39;événement et ensuite le modèle du message transactionnel.
 
@@ -109,7 +109,7 @@ Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) s
 
 Cette typologie peut maintenant être associée à l&#39;email de confirmation.
 
-### Conception du message de confirmation      {#design-the-confirmation-message}
+### Conception du message de confirmation       {#design-the-confirmation-message}
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement créé préalablement. Suivez les étapes ci-dessous pour créer ce message :
 
@@ -122,7 +122,7 @@ L&#39;email de confirmation est un message transactionnel basé sur l&#39;évén
 1. Editez les propriétés du modèle d&#39;email. Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]**, sélectionnez la typologie **TYPOLOGIE_PROFIL** créée préalablement.
 1. Enregistrez le message transactionnel et publiez-le.
 
-## Etape 3 : création de la landing page d&#39;acquisition      {#step-3--create-the-acquisition-landing-page}
+## Etape 3 : création de la landing page d&#39;acquisition       {#step-3--create-the-acquisition-landing-page}
 
 Vous devez créer la landing page d&#39;acquisition initiale. Ce formulaire d&#39;opt-in sera publié sur votre site web.
 
