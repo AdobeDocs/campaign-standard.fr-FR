@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Vous pouvez également définir une formule pour envoyer le message à chaque destinataire à une date et à une heure précises.
 
-## Personnalisation de la formule de date {#customizing-date-formula}
+## Personnalisation de la formule de date  {#customizing-date-formula}
 
 Par exemple, vous pouvez utiliser l&#39;optimisation de l&#39;heure d&#39;envoi lors de l&#39;installation d&#39;une nouvelle plate-forme.
 
@@ -30,7 +30,7 @@ Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plate-forme, r
 
 Pour éviter d&#39;être bloqué par les FAI, vous pouvez augmenter progressivement les volumes envoyés en les répartissant sur plusieurs périodes. Cela devrait vous assurer une phase de démarrage en douceur tout en réduisant le taux d&#39;adresses invalides.
 
-Par exemple, vous pouvez segmenter aléatoirement la cible de votre message pour envoyer votre diffusion à cinq lots de destinataires. Vous enverrez ainsi un premier lot à 10 % de vos destinataires le 1er juin à 10 heures, puis un deuxième lot 24 heures plus tard à 15 % de vos destinataires, et ainsi de suite.
+Par exemple, vous pouvez segmenter aléatoirement l&#39;audience de votre message pour envoyer votre diffusion à cinq lots de destinataires. Vous enverrez ainsi un premier lot à 10 % de votre audience le 1er juin à 10 heures, puis un deuxième lot 24 heures plus tard à 15 % de vos destinataires, et ainsi de suite.
 
 Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
@@ -102,11 +102,11 @@ La diffusion sera envoyée progressivement à tous les destinataires ciblés sur
 >
 >Lors de la confirmation de l&#39;envoi, assurez-vous que toutes les dates sont dans le futur. Sinon, les messages seront envoyés dès que l&#39;envoi aura été confirmé.
 
-## A partir d&#39;une expression {#using-an-expression}
+## A partir d&#39;une expression  {#using-an-expression}
 
 L&#39;optimisation de l&#39;heure d&#39;envoi est également utile pour les campagnes impliquant un centre d&#39;appel. Elle permet de garantir que tous les messages ne seront pas reçus en même temps. Votre entreprise peut ainsi traiter le nombre d&#39;appels en fonction de sa capacité.
 
-Par exemple, vous voulez envoyer un email invitant vos clients à contacter un centre d&#39;appel afin de bénéficier d&#39;une offre promotionnelle. Pour éviter de surcharger le centre d&#39;appel, vous décidez de segmenter aléatoirement la cible de votre message pour envoyer vos emails en quatre lots.
+Par exemple, vous voulez envoyer un email invitant vos clients à contacter un centre d&#39;appel afin de bénéficier d&#39;une offre promotionnelle. Pour éviter de surcharger le centre d&#39;appel, vous décidez de segmenter aléatoirement l&#39;audience de votre message pour envoyer vos emails en quatre lots.
 
 Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
@@ -148,7 +148,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. Dans l&#39;**[!UICONTROL Editeur d&#39;expression]**, paramétrez la date et les codes segment permettant de calculer les données pour chaque client.
+1. Dans l&#39;**[!UICONTROL éditeur d&#39;expression]**, paramétrez la date et les codes segment permettant de calculer les données pour chaque client.
 
    Dans la liste des fonctions, sélectionnez **[!UICONTROL AddHours]**.
 
