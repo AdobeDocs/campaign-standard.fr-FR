@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
