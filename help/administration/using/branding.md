@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Chaque entreprise dispose de directives visuelles et techniques en ce qui concer
 
 Les administrateurs techniques peuvent définir une ou plusieurs marques afin de renseigner de manière centralisée les paramètres qui touchent à l&#39;identité d&#39;une marque, par exemple : le logo de la marque, le domaine d&#39;URL d&#39;accès aux landing pages ainsi que les paramètres du tracking des messages. Avec Adobe Campaign, vous pouvez créer ces marques et les associer à des messages ou des landing pages. Cette configuration est gérée dans des modèles.
 
-## Configuration et utilisation des marques       {#configuring-and-using-brands}
+## Configuration et utilisation des marques        {#configuring-and-using-brands}
 
 Le principe général de paramétrage et d&#39;utilisation des marques est le suivant :
 
@@ -37,7 +37,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 
 >[!IMPORTANT]
 >
->Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;assistance client Adobe.
+>Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;Assistance clientèle Adobe.
 >
 >Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
@@ -92,13 +92,13 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
-1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine à utiliser par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Learn more about subdomain configuration [in this article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
-1. **Créer un ticket** - Une fois le sous-domaine configuré, l&#39;Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
+1. **Créer un ticket** - Une fois le sous-domaine configuré, Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
    * Objet : configuration de la nouvelle marque ACS
 
-   * Contenu : Un nouveau domaine a été configuré et nous aimerions l&#39;installer sur notre plateforme Campaign
+   * Contenu : un nouveau domaine a été configuré et nous aimerions le configurer sur notre plateforme Campaign
 
    * Domaine : XXX
 
@@ -108,7 +108,7 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 1. **Vérifier les instructions relatives à la délivrabilité** : avant de commencer à utiliser le nouveau domaine, la stratégie doit être discutée avec l&#39;équipe Adobe chargée de la délivrabilité Elle aidera à définir les bonnes pratiques, si une nouvelle affinité doit être créée pour fractionner les adresses IP entre les domaines par exemple, et/ou si un plan de propagation doit être défini. Pour en savoir plus sur les bonnes pratiques en matière de délivrabilité, [consultez cette section](../../sending/using/about-deliverability.md).
 
-## Affectation d&#39;une marque à un email       {#assigning-a-brand-to-an-email}
+## Affectation d&#39;une marque à un email        {#assigning-a-brand-to-an-email}
 
 ### Liaison d&#39;une marque à un modèle {#linking-a-brand-to-a-template}
 
@@ -140,11 +140,11 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
 Votre modèle est lié à la marque. Dans l&#39;éditeur d&#39;email, les éléments comme l&#39;**adresse email de l&#39;expéditeur par défaut**, le **nom de l&#39;expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
-### Cas pratique de marque       {#branding-use-case}
+### Cas pratique de marque        {#branding-use-case}
 
 Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
 
-#### Configurer une nouvelle marque       {#configure-a-new-brand}
+#### Configurer une nouvelle marque        {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -162,7 +162,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Mettre en œuvre une nouvelle marque       {#implement-a-new-brand}
+#### Mettre en œuvre une nouvelle marque        {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -181,7 +181,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Utiliser la nouvelle marque dans une diffusion       {#use-the-new-brand-in-a-delivery}
+#### Utiliser la nouvelle marque dans une diffusion        {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 
