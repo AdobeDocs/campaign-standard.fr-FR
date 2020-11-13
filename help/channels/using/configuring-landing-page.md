@@ -10,18 +10,18 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '746'
+ht-degree: 100%
 
 ---
 
 
 # Paramétrer une landing page {#configuring-landing-page}
 
-## Confirmer la validation d&#39;une landing page   {#confirm-a-landing-page-submission}
+## Confirmer la validation d&#39;une landing page    {#confirm-a-landing-page-submission}
 
 Lorsqu&#39;une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
@@ -57,7 +57,7 @@ Pour sélectionner le service à associer, procédez comme suit :
 
    Utilisez l&#39;option **[!UICONTROL Service provenant de l&#39;URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
-## Définir les permissions et pré-charger les données   {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données    {#setting-permissions-and-pre-loading-data}
 
 L&#39;accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d&#39;un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
 Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
@@ -89,7 +89,7 @@ Les landing pages peuvent également être liées à une entité organisationnel
 
    ![](assets/lp_org_unit_2.png)
 
-1. Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Autorisation d&#39;accès]** et **[!UICONTROL Modifié le]** sont automatiquement renseignés.
+1. Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Autorisation d&#39;accès]** et **[!UICONTROL Dernière modification]** sont automatiquement renseignés.
 
 1. Cliquez sur **[!UICONTROL Confirmer]**, puis sur **[!UICONTROL Enregistrer]**.
 
