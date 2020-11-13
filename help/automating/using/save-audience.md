@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -67,14 +67,13 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
       >[!NOTE]
       >
       >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Le type des audiences sauvegardées ou des audiences disponibles lors d&#39;une mise à jour dépend des activités placées en amont dans le workflow.
 
    Si la dimension de ciblage de l&#39;audience est inconnue au moment de la sauvegarde (par exemple si elle est issue d&#39;un import de fichier), l&#39;audience créée ou mise à jour est de type **[!UICONTROL Fichier]**.
 
    Si la dimension de ciblage de l&#39;audience sauvegardée est déjà définie au moment de la sauvegarde (par exemple si elle est issue d&#39;un ciblage, après une requête, etc.), l&#39;audience créée ou mise à jour est de type **[!UICONTROL Liste]**.
 
-   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **[!UICONTROL Audiences]**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
+   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **[!UICONTROL Audiences]**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde de l&#39;audience du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
