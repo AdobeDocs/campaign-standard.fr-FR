@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Les messages sont accessibles :
 * à partir de la page d&#39;accueil d&#39;Adobe Campaign
 * à partir de la liste des activités marketing
 
-## Accéder aux messages dans une campagne  {#accessing-messages-in-campaigns}
+## Accéder aux messages dans une campagne   {#accessing-messages-in-campaigns}
 
 Pour accéder à la liste des activités marketing d&#39;une campagne :
 
@@ -47,7 +47,7 @@ Pour accéder à la liste des activités marketing d&#39;une campagne :
 
    Pour filtrer les messages récurrents, vous pouvez cocher la case correspondante.
 
-## Accéder à la liste des messages  {#accessing-the-message-list}
+## Accéder à la liste des messages   {#accessing-the-message-list}
 
 Pour accéder à la liste complète des activités marketing de toutes campagnes confondues, procédez comme suit :
 
