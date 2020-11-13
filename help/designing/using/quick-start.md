@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Le Concepteur d&#39;email propose quatre méthodes pour créer des emails.
 
 Vous pouvez créer un email [entièrement nouveau dans le Concepteur d&#39;emails](#without-existing-content) :
 
-1. Vous pouvez **créer un email à partir d’un canevas vierge** en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Vous pouvez **créer un email à partir d’une zone de travail vierge** en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Vous pouvez **créer un email à partir d’un modèle d’usine** en sélectionnant un modèle et en créant votre contenu d’email à partir de celui-ci. [En savoir plus](#building-content-from-an-out-of-the-box-template)
 
@@ -118,7 +118,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d&#39;un modèle d&#39;usine      {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d&#39;un modèle d&#39;usine       {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
@@ -132,7 +132,7 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Vous pouvez également déplacer des composants afin de modifier l&#39;organisation de chaque élément de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Modifiez le contenu de chaque élément selon vos besoins : images, texte et liens.
-1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Editer les styles d’un email](../../designing/using/styles.md).
+1. Adaptez les options de style à votre contenu, si nécessaire. Voir à ce propos la section [Modifier les styles d’un email](../../designing/using/styles.md).
 
 ## Utiliser un contenu d&#39;email existant {#with-existing-content}
 
