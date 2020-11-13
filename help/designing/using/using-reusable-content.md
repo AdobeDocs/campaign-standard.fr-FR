@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1868'
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## A propos des fragments       {#about-fragments}
+## A propos des fragments        {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
@@ -198,7 +198,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
-### Créer un fragment de contenu       {#creating-a-content-fragment}
+### Créer un fragment de contenu        {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
@@ -236,7 +236,7 @@ Ce fragment peut à présent être utilisé dans n&#39;importe quel email créé
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
-### Enregistrer du contenu en tant que fragment       {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment        {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
