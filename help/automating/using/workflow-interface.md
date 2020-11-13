@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ L’écran d’édition d’un workflow se compose des éléments suivants :
 
 ![](assets/wkf_overview.png)
 
-## Palette  {#palette}
+## Palette   {#palette}
 
 La palette se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
@@ -122,7 +122,7 @@ Lorsqu’une activité est sélectionnée, des boutons d’actions rapides appar
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL Pas d’exécution]**<br/>Désactive l’activité.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Traitement anticipé]**<br/>Lance la sélection en traitement anticipé. Ce bouton est uniquement disponible pour les activités<span class="uicontrol">Planificateur</span>et<span class="uicontrol">Attente</span>.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Traitement anticipé]**<br/>Lance la sélection en traitement anticipé. Ce bouton est uniquement disponible pour les activités <span class="uicontrol">Planificateur</span> et <span class="uicontrol">Attente</span>.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Supprimer la sélection]**<br/>Supprime les activités sélectionnées.
 
