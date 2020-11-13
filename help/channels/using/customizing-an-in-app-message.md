@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
 context-tags: delivery,inAppContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Chaque type de disposition peut être prévisualisé sur différents appareils t
 
 ![](assets/inapp_customize_4.png)
 
-### Média    {#media}
+### Média     {#media}
 
 La liste déroulante **[!UICONTROL Médias]** permet d’ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
 
@@ -110,7 +110,7 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
    ![](assets/inapp_customize_11.png)
 
-### Boutons    {#buttons}
+### Boutons     {#buttons}
 
 Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
@@ -132,7 +132,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_11.png)
 
-### Paramètres    {#settings}
+### Paramètres     {#settings}
 
 1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
 1. A l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
@@ -141,7 +141,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale    {#customizing-a-local-notification-message-type}
+## Personnaliser un type de message de notification locale     {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
 Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
