@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
 ht-degree: 100%
 
