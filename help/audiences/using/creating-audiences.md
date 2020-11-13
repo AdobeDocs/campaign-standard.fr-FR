@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466accbbe
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1017'
 ht-degree: 100%
 
@@ -74,11 +74,11 @@ Pour créer une audience de type **Liste**, les étapes sont les suivantes :
 
    Puisque la **[!UICONTROL Sauvegarde d&#39;audience]** est placée à la suite d&#39;un ciblage à la dimension connue, les audiences créées via cette activité sont de type **Liste**.
 
-   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis la liste des audiences. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
+   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis la liste des audiences. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde de l&#39;audience du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
 
    ![](assets/audiences_list_4.png)
 
-## Création d&#39;une audience de type Fichier  {#creating-file-audiences}
+## Création d&#39;une audience de type Fichier   {#creating-file-audiences}
 
 Cette section décrit la création d&#39;une audience de type **Fichier** à l&#39;aide d&#39;un import de fichier dans un workflow. Vous pouvez également créer des audiences à partir d&#39;un ciblage dans un [workflow](../../automating/using/get-started-workflows.md) ou via une requête depuis le menu **[!UICONTROL Audiences]** de l&#39;application.
 
@@ -96,11 +96,11 @@ Pour créer une audience de type **Fichier**, les étapes sont les suivantes :
 
    Puisque la **[!UICONTROL Sauvegarde d&#39;audience]** est placée à la suite d&#39;un import, la dimension des données est inconnue et les audiences créées via cette activité sont de type **Fichier**.
 
-   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis la liste des audiences. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
+   Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis la liste des audiences. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde de l&#39;audience du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
 
    ![](assets/audience_files_3.png)
 
-## Création d&#39;audiences de type Experience Cloud  {#creating-experience-cloud-audiences}
+## Création d&#39;audiences de type Experience Cloud   {#creating-experience-cloud-audiences}
 
 Adobe Campaign vous permet d&#39;échanger et de partager des audiences avec Adobe Experience Cloud. Une audience de type **Experience Cloud** est directement importée depuis People core service dans Adobe Campaign à l&#39;aide du workflow technique **[!UICONTROL Importer une audience partagée]**.
 
@@ -125,7 +125,7 @@ La modification d&#39;une audience dépend de son type :
 * Pour modifier une audience de type **Liste** ou de type **Fichier**, éditez le workflow à partir duquel elle a été créée et modifiez l&#39;activité de **[!UICONTROL Sauvegarde d&#39;audience]**. Démarrez le workflow pour que l&#39;audience soit modifiée.
 * Pour éditer une audience de type **Experience Cloud**, consultez la section [Importer/exporter des audiences avec l&#39;intégration de People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Supprimer une audience  {#deleting-audiences}
+## Supprimer une audience   {#deleting-audiences}
 
 Deux méthodes permettent de supprimer une ou plusieurs audiences. Vous pouvez tout d&#39;abord ajouter une date d&#39;expiration à votre audience.
 
