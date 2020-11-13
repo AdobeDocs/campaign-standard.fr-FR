@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ L&#39;éditeur de contenu de SMS et de notification push comporte deux sections 
 1. La **barre d&#39;actions** regroupe les options générales de la page. Vous pouvez insérer des champs de personnalisation ou des blocs de contenu, ajouter du texte conditionnel et prévisualiser le contenu de votre SMS grâce à celle-ci. Voir [Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push](#sms-and-push-content-editor-action-bar).
 1. La **zone d&#39;édition** de l&#39;écran permet de saisir directement le SMS et de sélectionner l&#39;endroit où vous souhaitez insérer une personnalisation. Voir [Modes d&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](#sms-and-push-content-edition-modes).
 
-## Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push  {#sms-and-push-content-editor-action-bar}
+## Barre d&#39;actions de l&#39;éditeur de contenu de SMS et de notification push   {#sms-and-push-content-editor-action-bar}
 
 La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le contenu en cours de création.
 
