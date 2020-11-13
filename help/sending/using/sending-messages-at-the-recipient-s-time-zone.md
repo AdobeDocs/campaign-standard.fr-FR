@@ -9,9 +9,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
