@@ -9,9 +9,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4692'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017  {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017    {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -177,7 +177,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
-## Version 17.7 - Juillet 2017          {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017            {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -253,7 +253,7 @@ _Workflows_
 * Correction d’une erreur qui vous empêchait de définir une transition sortante dans l’assistant de création de diffusion récurrente.
 * Correction d’une erreur qui se produisait lors de l’utilisation d’une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017          {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017            {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -300,7 +300,7 @@ _Notifications push_
 * Correction d’une erreur qui vous empêchait de cliquer sur une notification push dans l’historique marketing d’un profil.
 * L’utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017          {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017            {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -385,7 +385,7 @@ _Notifications push_
 * Correction d’une erreur en raison de laquelle un message d’erreur n’était pas affiché lors de la création d’une application Android associée à une application mobile n’ayant pas pu être créée sur MCPNS.
 * Correction d’une erreur qui permettait à un utilisateur d’ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017          {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017            {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
