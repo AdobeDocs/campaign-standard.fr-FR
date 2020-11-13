@@ -10,11 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le démarrage d&#39;une Plateforme peut aller de pair avec le premier usage d&#3
 * Si on souhaite malgré tout requalifier les adresses invalides, il est nettement préférable de le faire une fois la réputation de la Plateforme établie et par petites parties afin de &quot;diluer&quot; dans le temps l&#39;usage des mauvaises adresses.
 
 Pour résumer les principes à respecter lors d&#39;un démarrage :
-* **Configurez un sous-domaine** dédié pour qu’il fonctionne avec Campaign spécifique aux campagnes par courrier électronique envoyées à partir d’un Adobe.
+* **Configurez un sous-domaine dédié** pour qu’il fonctionne avec Campaign et qu’il soit spécifique aux campagnes email envoyées depuis Adobe.
 * **Importez les adresses non valides/inactives dans la table des quarantaines** (si vous disposez de ces informations).
 * **Limitez le débit de diffusion** (réglage technique : limitation du nombre de mtachilds).
 * **Augmentez progressivement les volumes d’envoi** : ne pas cibler toute la base de données dès le début, mais à chaque envoi ajouter une fraction de plus par rapport à l&#39;envoi précédent. Cela permet d&#39;augmenter le volume à chaque étape tout en diminuant le taux global d’adresses non valides.
