@@ -9,11 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Utilisez l&#39;interface d&#39;Adobe Campaign pour tracker vos abonnés et mesur
 Vous disposez de plusieurs options pour contrôler les inscriptions et désinscriptions :
 
 * Affichez la liste des personnes actuellement inscrites à votre service dans le tableau de bord du service. Voir [Tableau de bord du service](#service-dashboard).
-* Consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. Voir [Historique des abonnements](#subscription-history).
-* Display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. Voir [Rapports du service](#service-reports).
-* Find the list of services a person has subscribed from its **Profile**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
+* Consultez l’historique des abonnements et des désabonnements depuis l’onglet **Historique d’abonnements** du tableau de bord du service. Voir [Historique des abonnements](#subscription-history).
+* Affichez un rapport détaillant l’évolution des abonnements et des désabonnements dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
+* Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
-## Tableau de bord du service {#service-dashboard}
+## Tableau de bord du service  {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
@@ -39,7 +39,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Applications mobiles {#subscription-history}
+## Applications mobiles  {#subscription-history}
 
 Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
@@ -49,7 +49,7 @@ Pour consulter l&#39;historique des inscriptions et des désinscriptions au serv
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Rapports du service {#service-reports}
+## Rapports du service  {#service-reports}
 
 Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
@@ -63,7 +63,7 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historique des événements liés à un profil {#history-of-events-linked-to-a-profile}
+## Historique des événements liés à un profil  {#history-of-events-linked-to-a-profile}
 
 Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
