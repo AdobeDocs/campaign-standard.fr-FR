@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: working-with-typology-rules
 discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Les principales étapes de création d’ue règle de typologie sont les suivant
 
 1. Une fois toutes les typologies sélectionnées, cliquez sur **[!UICONTROL Créer]** pour confirmer la création de la règle de typologie.
 
-## Ordre d&#39;exécution des règles de typologie    {#typology-rules-execution-order}
+## Ordre d&#39;exécution des règles de typologie     {#typology-rules-execution-order}
 
 Les règles de typologie sont exécutées dans un ordre précis lors des phases de ciblage, d&#39;analyse et de personnalisation des messages.
 
