@@ -9,9 +9,9 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '76'
 ht-degree: 100%
 
