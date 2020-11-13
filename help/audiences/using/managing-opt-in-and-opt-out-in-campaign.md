@@ -9,11 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '329'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Dans la section **[!UICONTROL Ne plus contacter (sur liste bloquée)]**, les cas
 
 ![](assets/optin_landingpage_3.png)
 
-## Configuration des landing pages d&#39;opt-in et d’opt-out   {#setting-up-opt-in-and-opt-out-landing-pages}
+## Configuration des landing pages d&#39;opt-in et d’opt-out    {#setting-up-opt-in-and-opt-out-landing-pages}
 
 Pour que les utilisateurs puissent s&#39;inscrire ou se désinscrire, vous devez créer et publier une landing page **[!UICONTROL Acquisition de profils]**. Ils seront ensuite en mesure de choisir les canaux en fonction de leurs besoins. Pour ce faire, suivez les étapes ci-après.
 
