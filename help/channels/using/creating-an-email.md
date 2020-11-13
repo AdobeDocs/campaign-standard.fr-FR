@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Créer un email{#creating-an-email}
 
-La création d&#39;un email est possible au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), à partir de la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign ou dans la [liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities). Vous avez également la possibilité de créer des diffusions email uniques et récurrentes depuis un workflow.
+La création d&#39;un email est possible au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), à partir de la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign ou dans la [liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities). Il est également possible de créer des emails à envoi unique ou récurrent à partir d’un workflow.
 
 1. Une fois que vous avez commencé la création d&#39;une activité marketing de type email, choisissez le modèle que vous souhaitez utiliser.
 
@@ -91,7 +91,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)       video
+* Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)  
 * Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * Vidéo [Intégration d&#39;Adobe Campaign et de Dreamweaver](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 * [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
