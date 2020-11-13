@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ En tant qu’utilisateur expert, reportez-vous aux [technotes](https://helpx.ado
 >
 >Les lois sur la vie privée diffèrent d’un pays à l’autre. Certains pays exigent que vous informiez les utilisateurs des types de données collectées via les applications mobiles. Veuillez vous informer sur les lois en vigueur dans votre pays en ce qui concerne les applications mobiles. Vous devez vous assurer que les notifications push envoyées vers les applications mobiles sont conformes aux pré-requis et aux conditions définis par Apple (Apple Push Notification Service) et Google (Google Cloud Messaging ou Firebase Cloud Messaging).
 
-**Contenu connexe:**
+**Contenu connexe :**
 
 * [Préparation et envoi d’une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d’une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
