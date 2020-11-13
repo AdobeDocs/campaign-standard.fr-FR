@@ -145,7 +145,7 @@ Veuillez noter que le chemin doit être relatif au répertoire d’espace de sto
     >
     >**//myserver/hello/myrecipients.csv** est incorrect.
 
-## Paramètres d’historisation      {#historization-settings}
+## Paramètres d’historisation       {#historization-settings}
 
 A chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité **[!UICONTROL Transfert de fichier]** d’un workflow. Par conséquent, il est important de pouvoir limiter la taille de ce dossier de façon à préserver l’espace physique sur le serveur.
 
