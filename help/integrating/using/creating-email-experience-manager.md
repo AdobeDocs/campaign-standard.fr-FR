@@ -9,11 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '444'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les prérequis sont :
 
 Connectez-vous à votre instance Adobe Experience Manager de création et parcourez votre site pour accéder au dossier contenant les contenus d&#39;emails.
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://video.tv.adobe.com/v/29996?captions=fre_fr)
 
 ## Création d’un contenu d’email dans Adobe Experience Manager {#creating-email-content-aem}
 
@@ -46,7 +46,7 @@ Par défaut, deux modèles prédéfinis permettent de créer des contenus d&#39;
 1. Dans Adobe Experience Manager, créez une **[!UICONTROL page]**.
 
 1. Sélectionnez le modèle **[!UICONTROL Adobe Campaign Email]**. Regardez la vidéo ci-après pour connaître les étapes détaillées.
-   >[!VIDEO](https://video.tv.adobe.com/v/29997)
+   >[!VIDEO](https://video.tv.adobe.com/v/29997?captions=fre_fr)
 
 1. Ouvrez votre nouveau contenu d’email.
 
@@ -54,7 +54,7 @@ Par défaut, deux modèles prédéfinis permettent de créer des contenus d&#39;
 
    Pour en savoir plus, visionnez la vidéo suivante :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/29999)
+   >[!VIDEO](https://video.tv.adobe.com/v/29999?captions=fre_fr)
 
 ## Modification et envoi d’un email{#editing-email-aem}
 
@@ -67,7 +67,7 @@ Pour créer un contenu d&#39;email dans Adobe Experience Manager :
 1. Ajoutez des **[!UICONTROL champs de personnalisation]** via le composant **[!UICONTROL Texte et personnalisation]**. Chaque composant correspond à une utilisation spécifique : insertion d’images, ajout de personnalisation, etc.
 
    Pour en savoir plus, visionnez la vidéo suivante :
-   >[!VIDEO](https://video.tv.adobe.com/v/29998)
+   >[!VIDEO](https://video.tv.adobe.com/v/29998?captions=fre_fr)
 
 1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu qui n’a pas été validé.
 
@@ -75,4 +75,4 @@ Pour créer un contenu d&#39;email dans Adobe Experience Manager :
 
    Pour en savoir plus, visionnez la vidéo suivante :
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
+   >[!VIDEO](https://video.tv.adobe.com/v/23721?captions=fre_fr)
