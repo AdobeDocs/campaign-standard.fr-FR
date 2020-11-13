@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
 ht-degree: 100%
 
