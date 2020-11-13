@@ -9,9 +9,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5456'
 ht-degree: 100%
 
@@ -91,7 +91,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème qui empêchait l’affichage des erreurs à l’origine de l’échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d’une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018          {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018           {#release-18-7---july-2018}
 
 **Nouveautés**
 
@@ -264,7 +264,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d’un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l’objet d’un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018          {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018           {#release-18-4---april-2018}
 
 **Correctifs**
 
@@ -290,7 +290,7 @@ _Ressources personnalisées_
 
 * Correction d’une erreur qui entraînait l’échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018          {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018           {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -380,7 +380,7 @@ _Messages transactionnels_
 * Correction d’une erreur liée au modèle de message transactionnel lors de l’extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018          {#release-18-2---february-2018}
+## Version 18.2 - Février 2018           {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -444,7 +444,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l’utilisation des liens d’aide contextuelle dans l’interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018          {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018           {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités**
 
