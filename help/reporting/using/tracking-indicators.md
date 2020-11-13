@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
