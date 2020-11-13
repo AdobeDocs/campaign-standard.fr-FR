@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Le diagramme suivant décrit le fonctionnement de cette intégration.
 * Regardez la vidéo [Déclencher des messages de remarketing selon l&#39;activité du site](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques Triggers d&#39;abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Processus utilisateur de Triggers   {#triggers-user-process}
+## Processus utilisateur de Triggers    {#triggers-user-process}
 
 >[!CAUTION]
 >
