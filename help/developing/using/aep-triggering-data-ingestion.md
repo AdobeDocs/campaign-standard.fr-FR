@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ L’ingestion immédiate d’un mapping XDM dans Adobe Experience Platform est
 >Pour exécuter l’appel d’API POST d’ingestion, l’utilisateur doit disposer d’un rôle d’**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
->REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
 
 L’opération POST renvoie des informations concernant le statut de la demande créée :
 
@@ -105,8 +105,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
->
->Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l’interface Campaign Standard, dans le menu **[!UICONTROL Statut de l’export des données vers Platform]** (voir [Activation du mapping](../../developing/using/aep-mapping-activation.md)).
+Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l’interface Campaign Standard, dans le menu **[!UICONTROL Statut de l’export des données vers Platform]** (voir [Activation du mapping](../../developing/using/aep-mapping-activation.md)).
 
 L’opération GET renvoie les informations suivantes :
 
