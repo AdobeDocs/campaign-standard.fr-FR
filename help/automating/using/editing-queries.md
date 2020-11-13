@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: filtering-data
 discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
 context-tags: queryFilter,overview;audience,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -33,13 +33,13 @@ Cet outil est partagé par plusieurs fonctionnalités de l&#39;application :
 * définition de la cible d&#39;un **email**
 * définition d&#39;une population dans des activités de **workflows**.
 
-## Interface de l&#39;éditeur de requêtes {#query-editor-interface}
+## Interface de l&#39;éditeur de requêtes  {#query-editor-interface}
 
 L&#39;éditeur de requêtes se compose d&#39;une **Palette** et d&#39;un **Espace de travail**.
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### Palette  {#palette}
 
 La palette, située sur la gauche de l&#39;éditeur, est divisée en deux onglets, composés d&#39;éléments répartis dans des blocs thématiques. Ces onglets sont :
 
