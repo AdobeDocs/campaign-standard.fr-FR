@@ -9,11 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
