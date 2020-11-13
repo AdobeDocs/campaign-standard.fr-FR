@@ -9,9 +9,9 @@ audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Rubriques connexes :
 * [Gestion des profils](../../audiences/using/about-profiles.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 
-## Etape 1 : Etendre la ressource Profil   {#step-1--extend-the-profile-resource}
+## Etape 1 : Etendre la ressource Profil    {#step-1--extend-the-profile-resource}
 
 Pour créer le champ **Centre d&#39;intérêts** pour les profils, vous devez d&#39;abord étendre la ressource d&#39;usine **[!UICONTROL Profils (profile)]**.
 
@@ -97,7 +97,7 @@ Votre champ est maintenant configuré. Nous devons maintenant l&#39;étendre au 
 >
 >Si vous n&#39;avez pas besoin d&#39;étendre la ressource de profil de test, vous pouvez passer à l&#39;étape de publication.
 
-## Etape 2 : Etendre le profil de test   {#step-2--extend-the-test-profile}
+## Etape 2 : Etendre le profil de test    {#step-2--extend-the-test-profile}
 
 Pour vérifier si le nouveau champ créé est correctement configuré, vous pouvez le tester en envoyant votre diffusion à vos profils de test. Tout d&#39;abord, le nouveau champ doit également être créé pour les profils de test.
 
@@ -122,7 +122,7 @@ Pour vérifier si le nouveau champ créé est correctement configuré, vous pouv
 
 Votre nouveau champ est maintenant disponible pour les profils et les profils de test. Pour qu&#39;il soit correctement configuré, vous devez publier votre ressource personnalisée.
 
-## Etape 3 : Publier votre ressource personnalisée   {#step-3--publish-your-custom-resource}
+## Etape 3 : Publier votre ressource personnalisée    {#step-3--publish-your-custom-resource}
 
 Pour appliquer les modifications apportées aux ressources et les utiliser, vous devez effectuer une mise à jour de la base de données.
 
@@ -146,7 +146,7 @@ Pour appliquer les modifications apportées aux ressources et les utiliser, vous
 
 Votre nouveau champ de ressource est maintenant prêt à être utilisé et ciblé dans une diffusion, par exemple.
 
-## Etape 4 : Mettre à jour et cibler les profils avec un workflow   {#step-4--update-and-target-profiles-with-a-workflow}
+## Etape 4 : Mettre à jour et cibler les profils avec un workflow    {#step-4--update-and-target-profiles-with-a-workflow}
 
 Pour mettre à jour les profils avec les données du nouveau champ personnalisé, vous pouvez créer une landing page à l&#39;aide du modèle **[!UICONTROL Acquisition de profils]**. Pour plus d&#39;informations sur les landing pages, consultez cette [page](../../channels/using/getting-started-with-landing-pages.md).
 
