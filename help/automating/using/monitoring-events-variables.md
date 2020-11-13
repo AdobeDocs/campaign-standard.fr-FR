@@ -9,16 +9,16 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '93'
 ht-degree: 100%
 
 ---
 
 
-# Suivi des variables d’événements    {#monitoring-the-events-variables}
+# Suivi des variables d’événements     {#monitoring-the-events-variables}
 
 Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
