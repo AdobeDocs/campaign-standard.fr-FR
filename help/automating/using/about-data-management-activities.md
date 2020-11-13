@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Ces activités vous permettent de manipuler les données. Elles permettent par e
 
 ![](assets/wkf_etl_activities.png)
 
-La section **[!UICONTROL Gestion des données (ETL)]** fournit les activités suivantes :
+La section **[!UICONTROL Data Management (ETL)]** fournit les activités suivantes :
 
 * [Mise à jour de données](../../automating/using/update-data.md)
 * [Chargement de fichier](../../automating/using/load-file.md)
