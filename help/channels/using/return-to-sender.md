@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
 ht-degree: 100%
 
