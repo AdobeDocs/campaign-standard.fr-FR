@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
 ht-degree: 100%
 
@@ -135,11 +135,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures       {#metrics}
+## Mesures        {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS       {#email-and-sms-metrics}
+### Mesures des emails et SMS        {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -260,7 +260,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push       {#push-notification-metrics}
+### Mesures des notifications push        {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -325,7 +325,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App       {#in-app-metrics}
+### Mesures In-App        {#in-app-metrics}
 
 <table> 
  <thead> 
