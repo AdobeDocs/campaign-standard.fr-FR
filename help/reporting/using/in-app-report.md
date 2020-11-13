@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 3f17c2ad-8ba3-4795-93ed-288b2bcee872
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
