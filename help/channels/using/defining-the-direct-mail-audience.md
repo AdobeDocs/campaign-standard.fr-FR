@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Vous pouvez définir l&#39;audience dans l&#39;assistant de création ou en cliq
 
 ![](assets/direct_mail_15.png)
 
-## Définir la cible principale   {#defining-the-main-target}
+## Définir la cible principale    {#defining-the-main-target}
 
 Pour les courriers, les profils ciblés sont ceux qui seront inclus dans le fichier d&#39;extraction qui sera envoyé à l&#39;opérateur de services postaux.
 
@@ -35,7 +35,7 @@ Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d&#39
 >
 >Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
-## Ajouter des profils de test et de type piège   {#adding-test-and-trap-profiles}
+## Ajouter des profils de test et de type piège    {#adding-test-and-trap-profiles}
 
 Ajoutez des profils de test afin de tester votre fichier avec un petit nombre de profils. Vous pouvez ainsi créer un fichier d&#39;exemple pour tester et valider la structure avant de préparer le fichier réel. Voir [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
