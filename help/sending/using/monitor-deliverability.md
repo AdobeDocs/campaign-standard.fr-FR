@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Vous pouvez paramétrer l’affichage des valeurs en sélectionnant le périmèt
 
 D’autres rapports sont disponibles, tels que **[!UICONTROL synthèse de diffusion]** ou **[!UICONTROL échecs et bounces]**. Voir à ce propos la section [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md).
 
-## Suivre les diffusions {#monitoring-deliveries}
+## Surveillance des diffusions {#monitoring-deliveries}
 
 Le tableau de bord des messages vous permet d’accéder aux logs de diffusion : **[!UICONTROL Logs d’envoi]**, **[!UICONTROL Logs d’exclusion]**, **[!UICONTROL Causes d’exclusions]**, **[!UICONTROL Logs de tracking]** et **[!UICONTROL URL trackées]**. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion, et fournissent des informations de tracking telles que les ouvertures et les clics.
 
