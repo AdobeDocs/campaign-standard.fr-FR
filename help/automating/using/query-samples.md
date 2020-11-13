@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
 
-# Exemples de requêtes   {#query-samples}
+# Exemples de requêtes    {#query-samples}
 
 Cette section présente un cas pratique d’utilisation d’une activité de **[!UICONTROL Requête]**. Pour plus d’informations sur l’utilisation d’une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md).
 
@@ -29,7 +29,7 @@ L’exemple qui suit montre une activité de requête configurée pour cibler le
 
 ![](assets/query_sample_1.png)
 
-## Ciblage des attributs d’emails   {#targeting-on-email-attributes}
+## Ciblage des attributs d’emails    {#targeting-on-email-attributes}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont le domaine d’adresse électronique est « orange.co.uk ».
 
@@ -39,7 +39,7 @@ L’exemple qui suit montre une activité de requête configurée pour cibler de
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Ciblage de profils dont c’est l’anniversaire   {#targeting-profiles-whose-birthday-is-today}
+## Ciblage de profils dont c’est l’anniversaire    {#targeting-profiles-whose-birthday-is-today}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont c’est l’anniversaire.
 
@@ -95,7 +95,7 @@ L’exemple qui suit montre une activité de requête configurée pour filtrer l
 
    ![](assets/query_sample_7days2.png)
 
-## Ciblage des profils ayant cliqué sur un lien spécifique   {#targeting-profiles-who-clicked-a-specific-link-}
+## Ciblage des profils ayant cliqué sur un lien spécifique    {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Faites glisser le filtre **[!UICONTROL Tracking (tracking)]** dans votre requête.
 
