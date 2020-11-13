@@ -9,9 +9,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
 La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 
-### Limitations du Concepteur d&#39;email      {#email-designer-limitations}
+### Limitations du Concepteur d&#39;email       {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
