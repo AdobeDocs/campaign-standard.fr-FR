@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Le tableau **Insérer** vous permet de personnaliser vos rapports en ajoutant de
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 * [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Onglets  {#tabs}
+## Onglets   {#tabs}
 
 Les onglets de gauche vous permettent de créer votre rapport et de filtrer les données selon les besoins.
 
@@ -74,7 +74,7 @@ La barre d&#39;outils se trouve au-dessus de votre espace de travail. Composée 
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 
-### Onglet Projet  {#project-tab}
+### Onglet Projet   {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -95,7 +95,7 @@ L’onglet **Modifier** permet les opérations suivantes :
 * **Annuler** : annule la dernière action effectuée sur votre tableau de bord.
 * **Effacer tout** : supprime tous les panneaux sur votre tableau de bord.
 
-### Onglet Insérer  {#insert-tab}
+### Onglet Insérer   {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -106,7 +106,7 @@ L&#39;onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant 
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
 * **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
-### Onglet Partager  {#share-tab}
+### Onglet Partager   {#share-tab}
 
 ![](assets/tab_share_1.png)
 
