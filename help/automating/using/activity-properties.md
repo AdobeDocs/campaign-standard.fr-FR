@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ L’onglet **[!UICONTROL Propriétés]** permet de modifier les paramètres glob
 
 ![](assets/activity-properties2.png)
 
-## Gestion des transitions sortantes d’une activité      {#managing-an-activity-s-outbound-transitions}
+## Gestion des transitions sortantes d’une activité       {#managing-an-activity-s-outbound-transitions}
 
 Par défaut, certaines activités ne possèdent pas de transition sortante. Vous pouvez en ajouter à partir de l’onglet **[!UICONTROL Transitions]** ou de l’onglet **[!UICONTROL Propriétés]** de l’activité afin d’appliquer d’autres traitements à votre population dans un même workflow.
 
@@ -44,7 +44,7 @@ En fonction des activités, vous pouvez ajouter plusieurs types de transitions s
 
 Vous pouvez indiquer un **[!UICONTROL Code segment]** pour la transition sortante d’une l’activité. Ce code segment permet d’identifier d’où viennent les sous-ensembles de la population cible finale, et peut par la suite servir à des fins de personnalisation dans un message.
 
-## Options d’exécution d’une activité      {#activity-execution-options}
+## Options d’exécution d’une activité       {#activity-execution-options}
 
 L’écran des propriétés d’une activité comporte un onglet **[!UICONTROL Options d’exécution]** vous permettant notamment de définir son mode d’exécution et le comportement en cas d’erreur.
 
