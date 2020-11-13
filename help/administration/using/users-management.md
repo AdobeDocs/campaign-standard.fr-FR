@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Exporter et importer des packages de données](../../automating/using/managing-packages.md) : échangez des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 * [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d’import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
-### Utilisateurs experts        {#advanced-users}
+### Utilisateurs experts         {#advanced-users}
 
 Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et contrôler leurs diffusions.
 
@@ -90,7 +90,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Utiliser l’édition avancée d’expressions](../../automating/using/editing-queries.md#about-query-editor) : utilisez des fonctions avancées pour manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 * [Exporter des listes](../../automating/using/exporting-lists.md) et [importer des données à l’aide de modèles d’import existants](../../automating/using/importing-data-with-import-templates.md).
 
-### Utilisateurs de base        {#basic-users}
+### Utilisateurs de base         {#basic-users}
 
 Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les marketeurs peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
