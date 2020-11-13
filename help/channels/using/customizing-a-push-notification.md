@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1556'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ En tant qu&#39;utilisateur expert, consultez la note technique [Présentation de
 
 ![](assets/push_notif_advanced.png)
 
-**Contenu connexe:**
+**Contenu connexe :**
 
 * [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
@@ -49,7 +49,7 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
 L&#39;utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n&#39;est pas muet.
 
-## Actualiser la valeur du badge    {#refresh-the-badge-value}
+## Actualiser la valeur du badge     {#refresh-the-badge-value}
 
 Un badge est utilisé pour afficher le nombre de nouvelles informations non lues directement sur l&#39;icône de l&#39;application. La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application.
 
@@ -70,7 +70,7 @@ A la réception d&#39;une notification sur un appareil, la valeur du badge de l&
 
    ![](assets/push_notif_advanced_1.png)
 
-## Ajouter un lien profond    {#add-a-deeplink}
+## Ajouter un lien profond     {#add-a-deeplink}
 
 Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web).
 
@@ -87,7 +87,7 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_4.png)
 
-## Définir une action    {#define-an-action}
+## Définir une action     {#define-an-action}
 
 Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à l&#39;utilisateur d&#39;effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l&#39;application ou la parcourir.
 
@@ -124,7 +124,7 @@ Pour ajouter une date d&#39;expiration à votre notification push :
 
 Notez que si la notification push n&#39;a pas été envoyée avant la date d&#39;expiration, elle sera ignorée.
 
-## Ajouter des champ personnalisés    {#add-custom-fields}
+## Ajouter des champ personnalisés     {#add-custom-fields}
 
 Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d&#39;une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l&#39;application en plus des clés prédéfinies.
 
@@ -161,7 +161,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_2.png)
 
-## Changer le comportement des notifications pour iOS    {#change-the-notification-behavior-for-ios}
+## Changer le comportement des notifications pour iOS     {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
