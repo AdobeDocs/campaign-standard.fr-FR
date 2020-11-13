@@ -18,13 +18,13 @@ ht-degree: 94%
 ---
 
 
-# Personnaliser un workflow avec des paramètres externes    {#customizing-a-workflow-with-external-parameters}
+# Personnaliser un workflow avec des paramètres externes     {#customizing-a-workflow-with-external-parameters}
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d’événements et peuvent être utilisés pour personnaliser les activités du workflow.
 
 Ils peuvent, par exemple, permettre de définir l’audience à lire dans l’activité **[!UICONTROL Lecture d’audience]**, le nom du fichier à transférer dans l’activité **[!UICONTROL Transfert de fichier]**, etc. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Utiliser des variables d’événements    {#using-events-variables}
+## Utiliser des variables d’événements     {#using-events-variables}
 
 Les variables d’événements sont utilisées dans une expression qui doit respecter la [syntaxe standard](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
@@ -69,7 +69,7 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
    | IsNull | Indique si une chaîne ou une date est nulle. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Encode une URL en UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Personnaliser les activités avec des variables d’événements  {#customizing-activities-with-events-variables}
+## Personnaliser les activités avec des variables d’événements   {#customizing-activities-with-events-variables}
 
 Les variables d’événements peuvent servir à personnaliser plusieurs activités, répertoriées dans la section ci-dessous. Pour plus d’informations sur la façon d’appeler une variable à partir d’une activité, consultez [cette section](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
