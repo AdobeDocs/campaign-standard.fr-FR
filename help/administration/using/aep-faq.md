@@ -9,11 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -106,10 +106,10 @@ Consultez les ressources ci-dessous :
 * [Documentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep) Mise à niveau vers le SDK Experience Platform
 * [Documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) du SDK Github Experience Platform
 
-## J’obtiens l’erreur &quot;Vous n’avez pas d’accès en écriture sur la diffusion&quot; lors de la création d’une diffusion de notification Push. {#write-access-error}
+## L’erreur « Vous n’avez pas d’accès en écriture sur la diffusion » s’affiche lors de la création d’une diffusion de notification push. {#write-access-error}
 
-Vérifiez ce qui suit :
+Vérifiez les points suivants :
 
-* L’application mobile doit être mappée à l’unité d’organisation de l’utilisateur qui doit créer et envoyer des diffusions Push. L&#39;utilisateur d&#39;une unité d&#39;organisation enfant ne peut pas créer de diffusion Push à l&#39;aide d&#39;une application mappée à l&#39;unité d&#39;organisation parente.
+* L’application mobile doit être mappée sur l’entité organisationnelle de l’utilisateur qui doit créer et envoyer des diffusions push. L’utilisateur d’une entité organisationnelle fille ne peut pas créer de diffusion push à l’aide d’une application mappée sur l’entité organisationnelle parente.
 
-* Le Campaign ou le programme au sein duquel la diffusion Push est créée doit être mappé à l’unité organisationnelle de l’utilisateur qui doit créer et envoyer des diffusions Push. L&#39;utilisateur de l&#39;unité d&#39;organisation enfant ne peut pas créer de diffusion Push dans une campagne ou un programme mappé à l&#39;unité d&#39;organisation parente.
+* Campaign ou le programme au sein duquel la diffusion push est créée doit être mappé sur l’entité organisationnelle de l’utilisateur qui doit créer et envoyer des diffusions push. L’utilisateur de l’entité organisationnelle fille ne peut pas créer de diffusion push dans une campagne ou un programme mappé sur l’entité organisationnelle parente.
