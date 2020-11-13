@@ -9,9 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ La fenêtre **[!UICONTROL Licences]** vous permet de consulter les licences inst
 
 L&#39;apparition d&#39;une nouvelle version ou d&#39;une nouvelle fonctionnalité peut entraîner la modification des termes de la licence, qui doivent alors être acceptés par un administrateur fonctionnel de l&#39;instance.
 
-Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n&#39;est requise de leur part. Il est toujours possible de travailler sur Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
+Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n&#39;est requise de leur part. Il est toujours possible d’utiliser Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
