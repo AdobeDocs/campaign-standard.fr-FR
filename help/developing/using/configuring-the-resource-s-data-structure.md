@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1840'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Lors de l&#39;édition de la ressource, dans l&#39;onglet **[!UICONTROL Structur
 * [des liens ;](#defining-links-with-other-resources)
 * [des logs d&#39;envoi.](#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource    {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource     {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d&#39;usine.
 
@@ -74,7 +74,7 @@ Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les donnée
 
 Les champs de votre ressource sont maintenant définis.
 
-## Définir les clés d&#39;identification    {#defining-identification-keys}
+## Définir les clés d&#39;identification     {#defining-identification-keys}
 
 Chaque ressource doit posséder au moins une clé permettant de l&#39;identifier de manière unique. Vous pouvez par exemple définir une clé pour que deux produits ne puissent pas avoir le même ID dans une table d&#39;achats.
 
@@ -102,7 +102,7 @@ Les clés d&#39;identification de la ressource sont maintenant créées.
 >
 >Pour en savoir plus sur les bonnes pratiques lors de la création de clés d’identification, consultez cette [section](../../developing/using/data-model-best-practices.md#keys).
 
-## Définir les index    {#defining-indexes}
+## Définir les index     {#defining-indexes}
 
 Un index peut référencer un ou plusieurs champs de la ressource. Les index permettent à la base de données de trier les enregistrements afin de les retrouver plus facilement. Ils optimisent les performances des requêtes SQL.
 
@@ -259,7 +259,7 @@ Pour plus d&#39;informations sur les rapports dynamiques, voir la [Liste des com
 >
 >Le nombre de champs envoyés aux rapports dynamiques est limité à 20.
 
-## Editer les propriétés d&#39;une ressource    {#editing-resource-properties}
+## Editer les propriétés d&#39;une ressource     {#editing-resource-properties}
 
 Dans l&#39;écran de la ressource personnalisée, le volet **[!UICONTROL Résumé]** indique le statut de la ressource nouvellement créée. Vous pouvez gérer son accès et ses propriétés générales.
 
