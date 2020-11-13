@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1671'
 ht-degree: 100%
 
@@ -264,7 +264,7 @@ Les paramètres définis pour un élément d&#39;un bloc (liens, champs de perso
 
 ![](assets/des_lp_content_4.png)
 
-### Ajouter une bordure et un arrière-plan dans l&#39;éditeur de contenu    {#adding-a-border-and-a-background-in-the-content-editor}
+### Ajouter une bordure et un arrière-plan dans l&#39;éditeur de contenu     {#adding-a-border-and-a-background-in-the-content-editor}
 
 Vous pouvez définir une **couleur de fond** en sélectionnant une couleur dans le nuancier. Cette couleur sera appliquée au bloc sélectionné.
 
@@ -274,7 +274,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l&#39;éditeur de contenu    {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l&#39;éditeur de contenu     {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l&#39;intérieur d&#39;un bloc de texte.
 
@@ -288,7 +288,7 @@ Pour modifier l&#39;alignement du texte, sélectionnez l&#39;une des trois icôn
 
 Vous pouvez également utiliser la barre d&#39;outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page    {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page     {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d&#39;une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
