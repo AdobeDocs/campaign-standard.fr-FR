@@ -9,9 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
-## Utiliser les modèles d’import       {#using-import-templates}
+## Utiliser les modèles d’import         {#using-import-templates}
 
 La plupart des workflows d’import doivent contenir les activités suivantes : **[!UICONTROL Chargement de fichier]**, **[!UICONTROL Réconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Déduplication]**, **[!UICONTROL Mise à jour de données]**.
 
@@ -50,7 +50,7 @@ Un exemple de modèle de workflow générique conçu pour importer des données 
 * [Activité Déduplication](../../automating/using/deduplication.md)
 * [Activité Mise à jour de données](../../automating/using/update-data.md)
 
-## Utiliser des formats de fichiers plats      {#using-flat-file-formats}
+## Utiliser des formats de fichiers plats       {#using-flat-file-formats}
 
 Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
 
@@ -71,7 +71,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Utiliser la compression      {#using-compression}
+## Utiliser la compression       {#using-compression}
 
 Lorsque cela est possible, utilisez des fichiers compressés pour les imports et les exports. GZIP est pris en charge par défaut. Vous pouvez ajouter une étape de prétraitement lors de l’import des fichiers ou de post-traitement lors de l’extraction des données dans les activités de workflow **[!UICONTROL Chargement de fichier]** et **[!UICONTROL Extraction de fichier]**.
 
@@ -86,7 +86,7 @@ Les imports standard doivent être effectués en mode delta. Cela signifie qu’
 
 Les imports complets sont réservés au chargement initial.
 
-## Maintenir la cohérence      {#maintaining-consistency}
+## Maintenir la cohérence       {#maintaining-consistency}
 
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
