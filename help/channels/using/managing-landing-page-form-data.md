@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Vous pouvez associer des champs de la base à des blocs de type zone de saisie, 
 * La zone de sélection **Champ** permet de sélectionner un champ de la base de données à associer avec le champ du formulaire.
 * L&#39;option **Obligatoire** permet de n&#39;autoriser la validation de la page que si l&#39;utilisateur a renseigné le champ. Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur sera affiché.
 
-## Association des champs de formulaire   {#mapping-form-fields}
+## Association des champs de formulaire    {#mapping-form-fields}
 
 Les champs de saisie sont utilisés pour stocker ou mettre à jour les données dans la base de données Campaign. Pour cela, vous devez associer des champs de la base de données à des blocs de type zone de saisie, bouton radio ou case à cocher. Pour cela :
 
