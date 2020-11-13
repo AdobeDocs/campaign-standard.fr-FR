@@ -10,16 +10,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
 
-# Gestion des profils de test  {#managing-test-profiles}
+# Gestion des profils de test   {#managing-test-profiles}
 
 ## Profils de test {#about-test-profiles}
 
@@ -29,13 +29,13 @@ Vous pouvez gérer vos profils de test depuis le menu avancé **[!UICONTROL Prof
 
 Un profil de test est un profil contenant des informations de contact fictives ou contrôlées par l&#39;expéditeur et pouvant être utilisé dans un message dans les contextes suivants :
 
-* For sending **Proofs**: The Proof is a specific message used to check the message before sending the finalized delivery to recipients. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
-* For **Email rendering**: The Email rendering test profile is used to check the way in which a message is displayed according to the message inbox that receives it. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
+* Pour envoyer un **Bon à tirer** : le bon à tirer (BAT) est un message spécifique qui permet de valider le message avant l&#39;envoi de la diffusion finalisée aux destinataires. Un profil de test de type Bon à tirer est chargé de la validation de la diffusion, tant sur son contenu que sur sa forme. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
+* Pour le **Rendu des emails** : un profil de test de type Rendu des emails est utilisé pour contrôler l&#39;affichage d&#39;un message en fonction de la boîte de messagerie qui le réceptionne. Par exemple : webmail, service de messagerie, mobile, etc. Voir [Rendu des emails](../../sending/using/email-rendering.md).
 
    L&#39;usage **Rendu des emails** est en lecture seule. Des profils de test disposant de cet usage sont disponibles uniquement nativement dans Adobe Campaign.
 
-* As a **Trap**: The message is sent to the test profile just as it is sent to the main target. Voir [Utilisation de pièges](../../sending/using/using-traps.md).
-* To **Preview** messages: A test profile can be selected when previewing a message to test the personalization elements. Voir [Prévisualiser le message](/help/sending/using/previewing-messages.md).
+* Comme **Piège** : le message est envoyé au profil de test tel qu&#39;il est envoyé à la cible principale. Voir [Utilisation de pièges](../../sending/using/using-traps.md).
+* Pour la **Prévisualisation** des messages : un profil de test peut être sélectionné lors de la prévisualisation d&#39;un message afin de tester les éléments de personnalisation. Voir [Prévisualiser le message](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
