@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Vous pouvez utiliser Adobe Campaign pour envoyer des notifications push transac
 
 >[!NOTE]
 >
->Le canal des notifications push est en option. Veuillez vérifier votre accord de licence. Pour plus d&#39;informations sur les notifications push standard, voir [Notifications push](../../channels/using/about-push-notifications.md).
+>Le canal des notifications push est en option. Veuillez vérifier votre contrat de licence. Pour plus d&#39;informations sur les notifications push standard, voir [Notifications push](../../channels/using/about-push-notifications.md).
 
 Vous pouvez envoyer deux types de notification push transactionnelle :
 
@@ -93,7 +93,7 @@ Si le jeton d&#39;enregistrement existe, l&#39;utilisateur correspondant reçoit
 
 &quot;Bonjour Jeanne Lambert, l&#39;embarquement vient de commencer à la porte B18.&quot;
 
-## Notifications push transactionnelles ciblant un profil   {#transactional-push-notifications-targeting-a-profile}
+## Notifications push transactionnelles ciblant un profil    {#transactional-push-notifications-targeting-a-profile}
 
 Vous pouvez envoyer une notification push transactionnelle aux profils Adobe Campaign qui se sont abonnés à votre application mobile. Cette diffusion peut contenir des champs de [personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme le prénom du destinataire.
 
@@ -107,7 +107,7 @@ Les applications mobiles auxquelles un profil s’est abonné sont répertoriée
 
 Pour plus d&#39;informations sur l&#39;accès aux profils et leur édition, voir la section [Profils](../../audiences/using/creating-profiles.md).
 
-### Envoyer une notification push transactionnelle ciblant un profil   {#sending-a-transactional-push-notification-targeting-a-----------profile}
+### Envoyer une notification push transactionnelle ciblant un profil    {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Par exemple, une compagnie aérienne souhaite envoyer un dernier appel pour l&#39;embarquement à tous les utilisateurs Adobe Campaign qui se sont abonnés à son application mobile.
 
