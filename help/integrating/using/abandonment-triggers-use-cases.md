@@ -9,11 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section détaille divers cas pratiques qui peuvent être implémentés via
 >
 >Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et cryptés sont également pris en charge. Vous pouvez envoyer des emails/SMS à un profil qui n&#39;existe pas dans Campaign en décryptant directement l&#39;adresse email/le numéro de mobile cryptés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
 
-## Conditions requises {#pre-requisites}
+## Conditions requises  {#pre-requisites}
 
 Afin de pouvoir mettre en œuvre ces cas pratiques, vous devez avoir accès aux solutions/Core Services suivants :
 
@@ -47,7 +47,7 @@ Pour plus d&#39;informations, consultez [Configuration des solutions et services
 
 Dans ce cas pratique, nous allons créer un trigger simple qui se déclenchera à chaque fois qu&#39;un client abandonnera sa visite sur le site Web. Cet exemple part du principe que vous avez configuré DTM pour collecter et envoyer des données vers Adobe Marketing, et que tous vos événements sont déjà créés.
 
-### Création d&#39;un trigger Experience Cloud {#creating-an-experience-cloud-trigger}
+### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger}
 
 1. Sélectionnez **[!UICONTROL Gérer les Triggers]** dans le menu Experience Cloud Activation Core Service.
 
@@ -61,7 +61,7 @@ Dans ce cas pratique, nous allons créer un trigger simple qui se déclenchera �
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Utiliser le trigger dans Adobe Campaign {#using-the-trigger-in-adobe-campaign}
+### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign}
 
 Maintenant que nous avons créé un trigger Experience Cloud, nous allons l&#39;utiliser dans Adobe Campaign.
 
@@ -94,7 +94,7 @@ Dans Adobe Campaign, vous devez créer un trigger lié à celui créé dans Expe
 
    ![](assets/trigger_uc_browse_0.png)
 
-### Exécuter le scénario {#running-the-scenario}
+### Exécuter le scénario  {#running-the-scenario}
 
 1. Ce cas pratique commence par un email initial envoyé à votre audience avec Adobe Campaign.
 
@@ -120,11 +120,11 @@ Dans Adobe Campaign, vous devez créer un trigger lié à celui créé dans Expe
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Trigger d&#39;abandon de recherche {#search-abandonment-trigger}
+## Trigger d&#39;abandon de recherche  {#search-abandonment-trigger}
 
 Dans ce cas pratique, nous allons créer un trigger pour reprendre contact avec des visiteurs ayant visité notre site Web de réservation de voyages et qui, ayant cherché une destination sans trouver de résultats pertinents, n&#39;ont rien réservé. Le processus général est le même que pour le cas pratique précédent (voir [Trigger d&#39;abandon de navigation](#browse-abandonment-trigger)). Ici, nous allons nous focaliser sur la personnalisation de l&#39;email de remarketing.
 
-### Création d&#39;un trigger Experience Cloud {#creating-an-experience-cloud-trigger-1}
+### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger-1}
 
 Suivez les étapes décrites dans le cas pratique précédent pour créer le trigger Experience Cloud. Voir [Créer un Trigger Experience Cloud](#creating-an-experience-cloud-trigger). La différence principale est la définition du trigger.
 
@@ -132,7 +132,7 @@ Suivez les étapes décrites dans le cas pratique précédent pour créer le tri
 
 La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer toutes les données collectées via Analytics vers la payload Trigger. Dans cet exemple, nous allons créer un eVar personnalisé (eVar 3, par exemple) pour collecter le terme de recherche que le visiteur saisit. Ce terme sera ensuite utilisé dans l&#39;email transactionnel envoyé à ce même visiteur.
 
-### Utiliser le trigger dans Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
+### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign-1}
 
 1. Suivez les étapes décrites dans le cas pratique précédent pour créer le trigger dans Adobe Campaign. Voir [Utiliser le trigger dans Adobe Campaign](#using-the-trigger-in-adobe-campaign). La différence principale est la manière dont, dans Adobe Campaign, nous accédons et utilisons les métadonnées transmises dans la payload Trigger.
 1. Dans le trigger d&#39;abandon de recherche créé dans Adobe Campaign, cliquez sur l&#39;icône **[!UICONTROL Contenu et enrichissement de l&#39;événement]** pour voir la payload transmise à Adobe Campaign.
@@ -151,7 +151,7 @@ La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer
 
    ![](assets/trigger_uc_search_5.png)
 
-### Exécuter le scénario {#running-the-scenario-1}
+### Exécuter le scénario  {#running-the-scenario-1}
 
 1. Le visiteur se rend sur un site Web de réservation de voyages et lance une recherche pour une destination. Dans cet exemple, le visiteur cherche un voyage au Japon mais ne trouve aucun résultat. C&#39;est pour nous l&#39;occasion de contacter le visiteur pour lui recommander un projet de voyage alternatif.
 
