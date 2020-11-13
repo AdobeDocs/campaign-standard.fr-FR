@@ -9,9 +9,9 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dd0ec1a114df43606f2ba7555bad6982047b640e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Suppression d’un abonnement de service pour un profil spécifique {#deleting-service-subscription}
+## Suppression d’un abonnement de service pour un profil spécifique  {#deleting-service-subscription}
 
 Cette procédure comporte trois étapes.
 
