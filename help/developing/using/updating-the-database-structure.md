@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 2448b126-66b8-4608-aa6c-8028fb1902a4
 context-tags: deploy,main;eventCusResource,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Pour prendre en compte les modifications apportées au modèle de données et po
 >
 >Les ressources personnalisées sont automatiquement actualisées lors des mises à jour automatiques effectuées par Adobe.
 
-## Publier une ressource personnalisée {#publishing-a-custom-resource}
+## Publier une ressource personnalisée  {#publishing-a-custom-resource}
 
 Pour appliquer les modifications apportées aux ressources, vous devez effectuer une mise à jour de la base de données.
 
@@ -71,7 +71,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
    ![](assets/schema_extension_31.png)
 
-## Publier une ressource avec l&#39;extension de l&#39;API {#publishing-a-resource-with-api-extension}
+## Publier une ressource avec l&#39;extension de l&#39;API  {#publishing-a-resource-with-api-extension}
 
 Vous pouvez créer l&#39;API Profile and Services dans les cas suivants :
 
