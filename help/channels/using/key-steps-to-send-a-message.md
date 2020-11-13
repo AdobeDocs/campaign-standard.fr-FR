@@ -9,9 +9,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
 
