@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ Les attributs de payload et leurs valeurs varient en fonction des configurations
     "_mId":"h138a"} 
 ```
 
-**Exemple de payload JSON à utiliser avec[iOS APNS Tester](https://pushtry.com/)**
+**Exemple de payload JSON à utiliser avec [iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
@@ -155,7 +155,7 @@ Vous trouverez des informations détaillées sur les attributs dans aps dans la 
 }
 ```
 
-**Exemple de charge utile JSON pour utiliser le[Google FCM tester](https://pushtry.com/)**
+**Exemple de payload JSON pour utiliser le [Google FCM tester](https://pushtry.com/)**
 
 ```
 {
