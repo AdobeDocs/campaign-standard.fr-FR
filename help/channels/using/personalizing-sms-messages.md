@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
