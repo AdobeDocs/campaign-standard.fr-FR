@@ -9,9 +9,9 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre      {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre       {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
