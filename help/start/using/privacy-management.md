@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '928'
 ht-degree: 56%
 
 ---
@@ -49,7 +49,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * Egalement appelé Effacement des données, le **Droit à l&#39;oubli** (demande de suppression) autorise le titulaire des données à demander au contrôleur de données d&#39;effacer ses données personnelles, de cesser la diffusion des données et de faire cesser éventuellement le traitement des données par des tiers.
 
-To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html).
+To learn how you can create **Access** and **Delete** requests and how Adobe Campaign processes them, refer to the [implementation steps](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Depuis le début, Adobe Campaign se sert de certaines fonctions pour gérer cert
 
 Pour plus d’informations sur la gestion du consentement, voir [A propos des abonnements](../../audiences/using/about-subscriptions.md) et [Commencer avec les landings page](../../channels/using/getting-started-with-landing-pages.md).
 
-En plus des outils de gestion du consentement fournis par Adobe Campaign, vous avez la possibilité de déterminer si un consommateur a choisi de ne pas vendre de renseignements personnels. Reportez-vous à [cette section](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ccpa).
+En plus des outils de gestion du consentement fournis par Adobe Campaign, vous avez la possibilité de déterminer si un consommateur a choisi de ne pas vendre de renseignements personnels. Reportez-vous à [cette section](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Conservation des données {#data-retention}
 
