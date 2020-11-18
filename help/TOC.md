@@ -2,12 +2,12 @@
 product: adobe campaign
 sub-product: Adobe Campaign standard
 audience: end-user
-user-guide-title: Centre d'aide Adobe Campaign Standard Centre
+user-guide-title: Centre d'aide Adobe Campaign Standard Center
 breadcrumb-title: Guide de Campaign Standard
 translation-type: tm+mt
-source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
+source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1660'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 100%
    + Confidentialité {#privacy}
       + [Informations personnelles et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
+      + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
    + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l’interface](start/using/interface-description.md)
