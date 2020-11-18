@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6263'
+source-wordcount: '6267'
 ht-degree: 99%
 
 ---
@@ -24,7 +24,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
-La section Confidentialité a été déplacée et enrichie avec une nouvelle page : [Gestion](../../start/using/privacy-management.md)de la confidentialité.
+La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion](../../start/using/privacy-management.md) de la confidentialité et [gestion des demandes](../../start/using/privacy-requests.md)de confidentialité.
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
