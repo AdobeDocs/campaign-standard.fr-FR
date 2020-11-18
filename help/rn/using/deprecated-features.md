@@ -9,11 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
-source-wordcount: '664'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion de la confidentialité dans Campaign Standard</a>.</p>
+   <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion des demandes</a>de confidentialité.</p>
   <p> 
   <em>Date de suppression prévue : 2021</em></p>
    </td> 
