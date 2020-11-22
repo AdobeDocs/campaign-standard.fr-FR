@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Instructions de configuration
 description: Découvrez les instructions de configuration Campaign Standard.
-page-status-flag: never-activated
-uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
