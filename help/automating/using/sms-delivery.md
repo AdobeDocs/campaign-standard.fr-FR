@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Diffusion SMS
 description: L'activité Diffusion SMS permet de paramétrer l'envoi d'un SMS unique ou récurrent dans un workflow.
-page-status-flag: never-activated
-uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
 context-tags: sms,main;delivery,smsContent,back
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 
