@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Cas pratiques Triggers d'abandon
 description: Découvrez comment utiliser l'intégration des Triggers Adobe Experience Cloud grâce à ces différents cas pratiques.
-page-status-flag: never-activated
-uuid: 9e236165-afd5-4155-9151-c1941dc0af99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 100%
 
