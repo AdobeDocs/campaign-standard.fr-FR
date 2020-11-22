@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Tableau de bord des messages
 description: Découvrez la composition du tableau de bord d’un message, notamment la barre d’actions et les différents blocs fonctionnels.
-page-status-flag: never-activated
-uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
