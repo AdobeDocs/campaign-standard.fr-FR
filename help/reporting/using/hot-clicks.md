@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Hot clicks
 description: Grâce au rapport d'usine Hot clicks, découvrez à quel endroit votre client a cliqué dans votre diffusion.
-page-status-flag: never-activated
-uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
