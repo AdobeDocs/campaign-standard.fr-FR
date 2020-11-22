@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Règles de fatigue
 description: Créez des règles de fatigue afin de gérer la sur-sollicitation des profils en matière de communication.
-page-status-flag: never-activated
-uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 100%
 
