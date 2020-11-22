@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Interface du reporting
 description: Découvrez l'interface du reporting dynamique. Apprenez également comment passer d'un onglet et d'un menu à un autre.
-page-status-flag: never-activated
-uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 
