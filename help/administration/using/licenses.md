@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Licences
 description: Obtenez des informations supplémentaires sur les licences installées sur votre instance.
-page-status-flag: never-activated
-uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
