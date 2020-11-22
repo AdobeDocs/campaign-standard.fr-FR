@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Segmentation en fonction des tranches d’âge
 description: Cette page présente une segmentation de profils de la base de données en fonction de leur tranche d’âge. Le but du workflow est d'envoyer un email distinct pour chaque tranche d'âge.
-page-status-flag: never-activated
-uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 100%
 
