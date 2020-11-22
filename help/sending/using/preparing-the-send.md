@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Préparer l'envoi
 description: Découvrez comment définir la préparation avant l'envoi.
-page-status-flag: never-activated
-uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
