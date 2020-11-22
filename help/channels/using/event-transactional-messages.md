@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Messages transactionnels basés sur un événement
 description: Découvrez comment créer et publier un message transactionnel basé sur un événement.
-page-status-flag: never-activated
-uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '2630'
 ht-degree: 100%
 
