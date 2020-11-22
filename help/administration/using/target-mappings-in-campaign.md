@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mappings de ciblage dans Campaign
 description: Les mappings de ciblage sont des objets techniques utilisés par Campaign pour diffuser des messages. Ils contiennent tous les paramètres techniques nécessaires pour envoyer des diffusions.
-page-status-flag: never-activated
-uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 
