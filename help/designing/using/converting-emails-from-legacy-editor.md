@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email '
 description: Découvrez comment utiliser, avec le Concepteur d’email, des emails créés dans l’ancien éditeur.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
