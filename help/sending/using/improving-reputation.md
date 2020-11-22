@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Amélioration de votre réputation avec Adobe Campaign Standard
 description: Découvrez comment améliorer votre réputation avec Adobe Campaign Standard en gérant les adresses email en double et les mises en quarantaine.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
