@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Branchement
 description: L'activité Branchement permet de créer des transitions sortantes afin de lancer plusieurs activités en parallèle.
-page-status-flag: never-activated
-uuid: e4eaf69b-84ee-4f79-8b80-99284697cd2c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
