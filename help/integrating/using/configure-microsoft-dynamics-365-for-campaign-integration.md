@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuration de Microsoft Dynamics 365 pour l’intégration de Campaign
 description: Découvrez comment configurer Microsoft Dynamics 365 pour l’intégration de Campaign.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -52,7 +49,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
