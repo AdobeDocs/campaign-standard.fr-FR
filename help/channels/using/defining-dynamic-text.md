@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Définir un texte dynamique
 description: Découvrez comment afficher différents textes de manière dynamique à l’utilisateur selon les conditions définies dans Adobe Campaign.
-page-status-flag: never-activated
-uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
