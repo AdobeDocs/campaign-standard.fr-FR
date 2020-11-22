@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gestion des processus d'opt-in et d’opt-out dans Campaign
 description: Découvrez la gestion des processus d'opt-in et d’opt-out dans Adobe Campaign
-page-status-flag: never-activated
-uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
 
