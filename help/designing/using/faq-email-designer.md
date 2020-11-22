@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Questions fréquentes sur le Concepteur d’email '
 description: Questions fréquentes sur le Concepteur d’email.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
