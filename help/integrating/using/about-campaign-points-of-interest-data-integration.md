@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: A propos de l'intégration Campaign-Données de points ciblés
 description: Grâce à la collecte des données de points ciblés auprès des abonnés de votre application mobile, envoyez-leur des messages marketing en fonction de leur localisation par le biais de l'intégration dans Adobe Campaign.
-page-status-flag: never-activated
-uuid: 1e6840c8-0472-4da2-85ed-f9a65147555a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%
 
