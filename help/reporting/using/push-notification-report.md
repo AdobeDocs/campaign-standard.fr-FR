@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Rapport des notifications push
 description: Grâce au rapport d'usine des notifications push, découvrez les performances de vos notifications push.
-page-status-flag: never-activated
-uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
