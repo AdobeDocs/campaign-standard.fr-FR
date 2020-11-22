@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Statuts des ressources
 description: Découvrez les différents statuts des ressources en fonction de leur état de publication.
-page-status-flag: never-activated
-uuid: 215c0a2e-27ec-43f3-baac-1eaac7640784
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-discoiquuid: 85516477-1b95-4273-a0a7-d2cbb9950afd
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
