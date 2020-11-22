@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Définir la période d'un rapport
 description: La période de votre rapport permet de filtrer les données en fonction des dates choisies.
-page-status-flag: never-activated
-uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 
