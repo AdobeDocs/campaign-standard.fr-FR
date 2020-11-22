@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Signal externe et import de données
 description: L’exemple suivant illustre l’activité Signal externe utilisée avec l’import de données.
-page-status-flag: never-activated
-uuid: 884b6daf-bfd9-440b-8336-004b80c76def
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
