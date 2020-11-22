@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Contrôler les inscriptions
 description: Découvrez comment tracker vos abonnés et mesurer les performances de vos services à l'aide des tableaux de bord et des rapports.
-page-status-flag: never-activated
-uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
