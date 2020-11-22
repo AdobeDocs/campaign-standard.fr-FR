@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Ajouter du contenu dynamique Target
 description: Découvrez comment ajouter du contenu dynamique Adobe Target dans une de vos diffusions Adobe Campaign.
-page-status-flag: never-activated
-uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
