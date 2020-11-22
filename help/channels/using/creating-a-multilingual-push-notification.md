@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Création d'une notification push multilingue
 description: Créez des notifications push multilingues pour cibler les utilisateurs dans leur langue et zone géographique préférées.
-page-status-flag: never-activated
-uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 100%
 
