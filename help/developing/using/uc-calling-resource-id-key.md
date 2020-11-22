@@ -1,9 +1,11 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
-translation-type: ht
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
