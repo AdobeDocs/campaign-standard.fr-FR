@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Messages transactionnels basés sur un profil
 description: Découvrez comment créer et publier un message transactionnel basé sur un profil.
-page-status-flag: never-activated
-uuid: a8efe979-74ae-46ff-a305-b86a90679581
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 100%
 
