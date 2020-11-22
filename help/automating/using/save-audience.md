@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Sauvegarde d'audience
 description: L'activité Sauvegarde d'audience permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -67,7 +64,6 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
       >[!NOTE]
       >
       >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Le type des audiences sauvegardées ou des audiences disponibles lors d&#39;une mise à jour dépend des activités placées en amont dans le workflow.
 
    Si la dimension de ciblage de l&#39;audience est inconnue au moment de la sauvegarde (par exemple si elle est issue d&#39;un import de fichier), l&#39;audience créée ou mise à jour est de type **[!UICONTROL Fichier]**.
