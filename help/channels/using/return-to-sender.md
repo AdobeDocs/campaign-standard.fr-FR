@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Retour à l'expéditeur
 description: Découvrez comment être informé d'une adresse incorrecte et l'exclure des prochaines communications.
-page-status-flag: never-activated
-uuid: 11981c2f-0b7f-4166-9daa-ec6a6b4d5367
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
