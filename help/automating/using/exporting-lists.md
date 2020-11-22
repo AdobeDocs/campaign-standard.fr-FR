@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Export de listes
 description: 'Adobe Campaign vous permet d''exporter les données affichées sous forme de listes depuis un écran de présentation directement dans un fichier en vue d''une utilisation ultérieure. '
-page-status-flag: never-activated
-uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
