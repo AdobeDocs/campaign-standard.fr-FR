@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Principales étapes pour envoyer un message
 description: Suivez ces étapes pour créer et envoyer des messages avec Adobe Campaign.
-page-status-flag: never-activated
-uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
 
