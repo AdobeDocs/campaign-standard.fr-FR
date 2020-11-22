@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Gestion des typologies
 description: Découvrez comment utiliser les typologies.
-page-status-flag: never-activated
-uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
