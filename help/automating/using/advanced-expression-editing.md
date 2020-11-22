@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Edition avancée d'expressions
 description: L'assistant d'édition de requêtes permet de définir des expressions avancées.
-page-status-flag: never-activated
-uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -109,8 +106,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
    >[!NOTE]
-   >
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
