@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Export des logs
 description: Qu'elles concernent les diffusions ou les abonnements, les données de log peuvent être exportées par le biais d'un workflow simple.
-page-status-flag: never-activated
-uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
