@@ -1,13 +1,14 @@
 ---
-product: adobe campaign
-sub-product: Adobe Campaign standard
+solution: Campaign Standard
+product: campaign
 audience: end-user
-user-guide-title: Centre d'aide Adobe Campaign Standard Center
-breadcrumb-title: Guide de Campaign Standard
+user-guide-title: Campaign Standard
+breadcrumb-title: Campaign Standard
+title: Guide de Campaign Standard
 translation-type: tm+mt
-source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1661'
 ht-degree: 100%
 
 ---
@@ -29,7 +30,7 @@ ht-degree: 100%
 + Prise en main {#getting-started}
    + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Confidentialité {#privacy}
-      + [Informations personnelles et consentement](start/using/privacy.md)
+      + [Confidentialité et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
    + Découverte de l’interface {#discovering-the-interface}
