@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Configuration de la définition d'écran
 description: Découvrez comment définir de nouveaux écrans Adobe Campaign à partir de la structure des données des ressources.
-page-status-flag: never-activated
-uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
