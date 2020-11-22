@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Mise à jour des données à l’aide d’un téléchargement automatique de fichier
 description: 'L''exemple suivant montre le résultat d''une activité de chargement d''un fichier automatiquement téléchargé via une activité de transfert, suivie d''une mise à jour de données. '
-page-status-flag: never-activated
-uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
