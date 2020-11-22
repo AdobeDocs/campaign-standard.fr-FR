@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Confirmation d'un abonnement à un service
 description: Pour configurer un message de confirmation pour les profils s'abonnant à un service dans Adobe Campaign, suivez les étapes ci-après.
-page-status-flag: never-activated
-uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
