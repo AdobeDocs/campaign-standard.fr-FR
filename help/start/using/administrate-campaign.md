@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personnalisation des listes
 description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
-page-status-flag: never-activated
-uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
