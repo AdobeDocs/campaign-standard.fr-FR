@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Liste des rôles
 description: Obtenez des informations sur la liste des rôles que vous pouvez affecter à vos utilisateurs.
-page-status-flag: never-activated
-uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
 context-tags: role,overview;role,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
