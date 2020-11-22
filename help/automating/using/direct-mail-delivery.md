@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Diffusion courrier
 description: L'activité Diffusion courrier permet de paramétrer l'envoi d'un courrier unique ou récurrent dans un workflow.
-page-status-flag: never-activated
-uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
