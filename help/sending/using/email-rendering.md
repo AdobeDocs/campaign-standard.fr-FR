@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Rendu des emails
 description: Découvrez la fonctionnalité de rendu des emails.
-page-status-flag: never-activated
-uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -65,7 +62,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 **Rubriques connexes** :
 
-* Vidéo [Créer un email](../../channels/using/creating-an-email.md)      
+* Vidéo [Créer un email](../../channels/using/creating-an-email.md) 
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
