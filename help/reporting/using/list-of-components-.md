@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 'Liste des composants '
 description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
-page-status-flag: never-activated
-uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 100%
 
