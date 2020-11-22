@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Réconcilier une audience de type fichier avec la base de données
 description: Cet exemple montre comment utiliser l'activité Lecture d'audience pour réconcilier une audience créée directement à partir d'un import de fichier.
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
