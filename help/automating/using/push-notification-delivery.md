@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Diffusion Notification push
 description: L'activité Diffusion Notification push permet de paramétrer l'envoi d'une notification push unique ou récurrente dans un workflow.
-page-status-flag: never-activated
-uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
