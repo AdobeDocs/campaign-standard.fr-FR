@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Début et Fin
 description: Les activités Début et Fin permettent respectivement de marquer graphiquement les points de départ et de fin d'un workflow.
-page-status-flag: never-activated
-uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
