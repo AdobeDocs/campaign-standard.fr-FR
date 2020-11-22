@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Personnaliser une notification push
 description: Découvrez comment personnaliser vos notifications push à l'aide de diverses options avancées.
-page-status-flag: never-activated
-uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
-translation-type: ht
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 100%
 
