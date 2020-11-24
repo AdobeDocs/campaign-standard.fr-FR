@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 ## Nouveautés
 
-* **[Mise à jour de la planification](rn/using/release-planning.md)**<br/> des mises à jour Les dates de mise à jour de février 2021 ont été ajoutées à la planification des mises à jour.
+* **[Mise à jour du calendrier des versions](rn/using/release-planning.md)**<br/> Les dates des prochaines versions de février 2021 ont été ajoutées au calendrier des versions.
 
 * **[Populations témoins](sending/using/control-group.md)**<br/>
 Mesurez l’impact de vos campagnes en excluant une partie de leur audience
