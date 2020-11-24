@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion des demandes</a>de confidentialité.</p>
+   <p>Voir aussi <a href="https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html">Gestion des demandes d'accès à des informations personnelles</a>.</p>
   <p> 
   <em>Date de suppression prévue : 2021</em></p>
    </td> 
