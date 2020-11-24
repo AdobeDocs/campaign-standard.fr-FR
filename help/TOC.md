@@ -30,7 +30,7 @@ ht-degree: 100%
 + Prise en main {#getting-started}
    + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Confidentialité {#privacy}
-      + [Confidentialité et consentement](start/using/privacy.md)
+      + [Informations personnelles et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
    + Découverte de l’interface {#discovering-the-interface}
