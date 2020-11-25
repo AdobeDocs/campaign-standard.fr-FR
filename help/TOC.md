@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 99%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 100%
       + [Informations personnelles et consentement](start/using/privacy.md)
       + [Gestion de la confidentialité](start/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
+      + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l’interface](start/using/interface-description.md)
