@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Une fois la demande traitée, les commandes de cryptage/décryptage seront dispo
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -89,7 +89,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
