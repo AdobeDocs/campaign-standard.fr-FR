@@ -6,9 +6,9 @@ description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4692'
 ht-degree: 100%
 
