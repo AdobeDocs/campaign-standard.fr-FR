@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2285'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les barrières de sécurité de timeout de la réponse ont été abaissés afin de s’aligner sur les bonnes pratiques (voir la section relatives aux barrières de sécurité et aux limites). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
-
-Si vous effectuez une mise à niveau depuis Campaign Standard 20.2 (ou version antérieure), veuillez noter que la fonctionnalité API externe est passée de la version bêta à la version de disponibilité générale dans la version Campaign Standard 20.3.
-
-Par conséquent, si vous utilisiez les activités API externe bêta, vous devez les remplacer par des activités API externe GA dans tous les workflows.  Les workflows qui utilisent la version bêta de l’API externe ne fonctionneront pas à partir de la version Campaign Standard 20.3.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
 Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
 >[!NOTE]
 >
 >Vous ne pourrez pas copier sur les valeurs de l’en-tête spécifiques aux activités, car elles sont masquées dans l’activité.
-
-Ensuite, reconfigurez d’autres activités dans le workflow qui pointent vers et/ou utilisent les données de l’activité API externe bêta pour pointer vers et/ou utiliser les données de la nouvelle activité API externe à la place. Exemples d’activités : diffusion email (champs de personnalisation), activité d’enrichissement, etc.
 
 ### Limitations et garde-fous {#guardrails}
 
