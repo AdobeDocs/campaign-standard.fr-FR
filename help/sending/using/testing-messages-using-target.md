@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 100%
+source-wordcount: '1587'
+ht-degree: 98%
 
 ---
 
@@ -35,11 +35,11 @@ Les étapes principales sont les suivantes :
 1. **Prévisualisez** dans le Concepteur d’email la manière dont l’email s’affichera pour les profils.
 1. Envoyez les bons à tirer.
 
-Pour plus d’informations sur le processus global, reportez-vous à la vidéo du tutoriel disponible [ici](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
-
 >[!IMPORTANT]
 >
 >Cette fonctionnalité vous permet d’envoyer des informations personnelles de profil à des adresses email externes. Gardez à l’esprit que l’exécution des demandes d’accès à des informations personnelles (RGPD et CCPA) dans Campaign Standard NE S’EXÉCUTERA PAS en externe.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 ## Sélection des profils et des adresses de substitution {#selecting-profiles}
 
@@ -266,3 +266,11 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 1. Les bons à tirer sont envoyés selon ce qui a été configuré dans l’onglet **[!UICONTROL Substitutions de profil]**.
 
    ![](assets/substitution_uc_proofs.png)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment tester vos messages électroniques à l&#39;aide de la substitution de Profil.
+
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
