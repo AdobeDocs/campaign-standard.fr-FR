@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ Dans le cadre spécifique d&#39;un test A/B :
    >En cas d&#39;égalité, la variante gagnante doit être sélectionnée manuellement. Vous pouvez avertir l&#39;auteur de l&#39;email, ainsi que la ou les personnes l&#39;ayant modifié, qu&#39;une variante a été sélectionnée ou doit l&#39;être. Voir [Notifications d’Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne.
-
-**Rubrique connexe**:
-
-Vidéo [Créer un email](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)  
 
 ## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
