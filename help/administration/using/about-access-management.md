@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign vous permet de définir et de gérer les permissions attribuées 
 * **Les entités organisationnelles** : elles permettent de définir une hiérarchie de permissions sur les différents objets de la plate-forme (emails, workflows, modèles, utilisateurs, profils, etc.). Reportez-vous à la section [Entités organisationnelles](../../administration/using/organizational-units.md).
 * **Les rôles** : ensemble de droits unitaires qui permettent de définir les autorisations attribuées aux utilisateurs et groupes d&#39;utilisateurs. Consultez la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
-   Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l&#39;interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des autorisations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+   Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l&#39;interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des autorisations](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >
->Les entités géographiques sont devenues obsolètes. Voir à ce propos [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html).
+>Les entités géographiques sont devenues obsolètes. Voir à ce propos [cette page](../../rn/using/deprecated-features.md).
 
 Les rôles, les groupes et les entités organisationnelles peuvent être gérés par l&#39;administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité]**.
 
