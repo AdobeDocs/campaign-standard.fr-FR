@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Les **audiences** sont créées d’abord à travers la création de **segments*
 
 Une fois qu’un segment a été créé, vous pouvez l’activer en tant qu’audience pour une diffusion dans des [workflows Campaign Standard](../../automating/using/aep-targeting-audiences.md). De plus, vous pouvez utiliser les données contextuelles issues d’Adobe Experience Platform pour [personnaliser](../../automating/using/aep-personalizing-campaigns.md) et ajouter du contenu dynamique à vos campagnes.
 
-Des vidéos pratiques sont également disponibles dans [cette section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) Des vidéos pratiques sont également disponibles dans [cette section](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 Termes utilisés dans ces sections :
 
