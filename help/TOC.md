@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
 + Prise en main {#getting-started}
    + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Confidentialité {#privacy}
-      + [Informations personnelles et consentement](start/using/privacy.md)
-      + [Gestion de la confidentialité](start/using/privacy-management.md)
-      + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
-      + [FAQ sur la confidentialité](start/using/privacy-faq.md)
    + Découverte de l’interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l’interface](start/using/interface-description.md)
       + [Personnalisation des listes](start/using/customizing-lists.md)
+      + [Accessibilité](start/using/accessibility.md)
    + Utilisation des activités marketing {#marketing-plans}
       + [Programmes et campagnes](start/using/programs-and-campaigns.md)
       + [Activités marketing](start/using/marketing-activities.md)
       + [Modèles d’activité marketing](start/using/marketing-activity-templates.md)
       + [Planning](start/using/timeline.md)
+   + Confidentialité {#privacy}
+      + [Informations personnelles et consentement](start/using/privacy.md)
+      + [Gestion de la confidentialité](start/using/privacy-management.md)
+      + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
+      + [FAQ sur la confidentialité](start/using/privacy-faq.md)
 + Profils et audiences {#profiles-and-audiences}
    + [Prise en main des profils et audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Gestion de profils {#managing-profiles}
