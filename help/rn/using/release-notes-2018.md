@@ -6,11 +6,11 @@ description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '5456'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+workflow-type: tm+mt
+source-wordcount: '5458'
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Gestion des utilisateurs<br /> </td> 
-   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n’est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br /> Pour plus d’informations, consultez cette <a href="https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.<br /> </td> 
+   <td> À partir de la version 18.7, la fonctionnalité relative aux entités géographiques n’est plus disponible pour les nouvelles instances de Campaign Standard ainsi que pour les instances existantes sans unités géographiques déjà créées.<br /> Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
