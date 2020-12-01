@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1273'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afi
 Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Les administrateurs peuvent gérer les utilisateurs depuis la console d’administration. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations à ce sujet, consultez la documentation relative à la [console d’administration](https://helpx.adobe.com/fr/enterprise/using/users.html).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour visualiser les utilisateurs dans Adobe Campaign, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Utilisateurs]**.
 
@@ -151,3 +153,11 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
+
+## Vidéo didacticiel (#video)
+
+Cette vidéo montre comment gérer les droits d&#39;accès des utilisateurs.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
