@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1868'
-ht-degree: 100%
+source-wordcount: '1883'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Con
 >[!NOTE]
 >
 > Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** > **Modèles**. Les modèles utilisés dans le Concepteur d&#39;email sont des modèles de contenu. Pour plus d&#39;informations, voir [A propos des modèles](../../start/using/marketing-activity-templates.md).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer des modèles dans la vidéo](#video)
 
 ### A propos des modèles de contenu {#content-templates}
 
@@ -44,7 +46,6 @@ Lors de l&#39;édition de contenu à l&#39;aide du Concepteur d&#39;email, vous 
 
 **Rubriques connexes :**
 
-* Découvrez comment personnaliser les modèles de contenu [dans cette vidéo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
 * Pour plus d&#39;informations sur l&#39;édition de contenu, voir [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Créer un modèle de contenu {#creating-a-content-template}
@@ -136,8 +137,16 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 **Rubrique connexe**:
 
 * [Créer un email](../../channels/using/creating-an-email.md)
-* [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
+* [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer votre propre modèle.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
 ## A propos des fragments        {#about-fragments}
 
