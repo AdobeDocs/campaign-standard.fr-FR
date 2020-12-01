@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 100%
+source-wordcount: '1039'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ Voici les principales étapes de configuration d’une landing page :
 
 Cette page contient des informations sur chacune de ces étapes, ainsi que des références à la documentation dédiée pour obtenir des informations supplémentaires.
 
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer des landings page dans la vidéo](#video)
+
 **Rubriques connexes :**
 
-* [Tutoriel vidéo Créer une landing page](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [Créer un service](../../audiences/using/creating-a-service.md)
 * [Configuration d’un processus de double opt-in](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ La publication de la landing page permet de la rendre accessible en ligne. Une f
 Une fois publiée, votre landing page est prête à être utilisée. Vous pouvez alors mettre en place différents mécanismes permettant d’y accéder afin d’acquérir de nouveaux profils dans votre base ou d’obtenir des informations complémentaires sur les profils existants.
 
 Pour plus d’informations sur la publication d’une landing page, reportez-vous à [cette section](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page).
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer et modifier un landing page.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
