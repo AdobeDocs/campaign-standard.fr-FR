@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Il est possible de surveiller et gérer l’état du droit d’opposition (opt-o
 >
 >L’attribut « Option d’Opt-out du CCPA » n’est disponible qu’à partir de la version 19.4. Pour les environnements 19.3, vous devez développer la ressource Profiles et ajouter un champ booléen. Ce champ sera ajouté à l’API avec le libellé choisi. Nous vous suggérons d’utiliser « Option d’Opt-out du CCPA ».
 >
->Pour plus d’informations à ce sujet, consultez la documentation [sur la](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)gestion des demandes de confidentialité.
+>Pour plus d&#39;informations à ce sujet, consultez la [documentation sur les demandes d&#39;accès à des informations personnelles](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
