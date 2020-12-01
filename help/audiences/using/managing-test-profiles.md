@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Profils de test {#about-test-profiles}
 
 Les profils de test permettent de cibler des destinataires additionnels, qui ne correspondent pas aux critères de ciblage définis. Ils sont ajoutés à l&#39;audience d&#39;un message afin de détecter une utilisation frauduleuse de votre base de destinataire ou de contrôler la bonne réception de vos messages.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Vous pouvez gérer vos profils de test depuis le menu avancé **[!UICONTROL Profils &amp; audiences > Profils de test]**.
 
@@ -65,10 +67,6 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
 Le profil de test est alors ajouté dans la liste des profils.
 
-**Rubrique connexe :**
-
-Vidéo [Créer un profil de test](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html)
-
 ## Editer un profil de test {#editing-test-profiles}
 
 Pour éditer un profil de test et consulter les données qui lui sont associées, ou pour le modifier, les étapes sont les suivantes :
@@ -79,3 +77,11 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
    ![](assets/test_profile_edit.png)
 
 1. Choisissez **[!UICONTROL Enregistrer]** si vous avez saisi des modifications ; ou sélectionnez le nom du profil de test puis **[!UICONTROL Profils de test]** dans la section supérieure de l&#39;écran pour revenir au tableau de bord des profils de test.
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer un profil de test.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
