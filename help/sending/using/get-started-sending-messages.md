@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,8 @@ Une fois la cible définie et le contenu d’un message créé, vous devez prép
 Une fois les campagnes marketing exécutées et les différents messages envoyés, surveillez-les à l’aide de logs pour vérifier le succès de votre opération et récupérez les informations de tracking des destinataires.
 
 Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabilité de Campaign Standard pour améliorer le nombre de messages diffusés et assurer le succès des campagnes marketing.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment envoyer un courriel de test, préparer et envoyer une diffusion de courriel en vidéo](#video)
 
 ## Préparation et test {#prepare-test-send}
 
@@ -89,8 +91,14 @@ En savoir plus :
 ## Autres ressources
 
 * [Conception d’emails de test A/B](../../channels/using/designing-an-a-b-test-email.md)
-* [Envoi d’un test, préparation et envoi d’un email (vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Vérification d’une diffusion d’emails et rapports (vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Prise en main des emails](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 * [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Ajouter une population témoin](../../sending/using/control-group.md)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment envoyer un courriel de test, préparer puis envoyer une diffusion de courriel en Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
