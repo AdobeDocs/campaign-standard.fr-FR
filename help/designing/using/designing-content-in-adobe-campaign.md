@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ Conçu pour générer du code HTML optimisé favorisant une conception réactive
 
 Le Concepteur d&#39;email permet de créer du contenu d&#39;email et des modèles de contenu d&#39;email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
 
-Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui expliquent la fonctionnalité générale de l&#39;outil et qui décrivent comment créer entièrement un email ou le concevoir à l&#39;aide de modèles.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Découvrir le concepteur de courrier électronique dans une vidéo](#video)
 
 * Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du Concepteur d’email](../../designing/using/quick-start.md).
 * Pour une présentation du Concepteur d&#39;email, voir [Utilisation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -158,3 +158,11 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 * [Concevoir une landing page](../../channels/using/designing-a-landing-page.md)
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Créer et envoyer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo présente un aperçu du Concepteur de courriels.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui expliquent la fonctionnalité générale de l&#39;outil et qui décrivent comment créer entièrement un email ou le concevoir à l&#39;aide de modèles
