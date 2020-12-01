@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6333'
 ht-degree: 98%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 98%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
+## Décembre 2020 {#doc-updates-december-2020}
+
+La section Confidentialité a été déplacée. [En savoir plus](../../start/using/privacy.md)
+
 ## Novembre 2020 {#doc-updates-november-2020}
-
-La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion de la confidentialité](../../start/using/privacy-management.md) et [Gestion des demandes d&#39;accès à ds informations personnelles](../../start/using/privacy-requests.md).
-
-Des informations ont été ajoutées dans la section Connecteur de données Adobe Experience Platform sur l’erreur de validation du mappage de données liée à la gestion de la confidentialité et sur la manière de la résoudre. [En savoir plus](../../developing/using/aep-mapping-activation.md)
 
 La section Données personnelles et Personas a été mise à jour avec un scénario d’utilisation afin d’illustrer comment les différentes personnes interagissent en matière de confidentialité. [En savoir plus](../../start/using/privacy.md#use-case-scenario)
 
 Une nouvelle section énumérant les questions fréquentes sur la protection des renseignements personnels a été ajoutée. [En savoir plus](../../start/using/privacy-faq.md)
+
+La section Confidentialité a été déplacée et enrichie de deux nouvelles pages : [Gestion de la confidentialité](../../start/using/privacy-management.md) et [Gestion des demandes d&#39;accès à ds informations personnelles](../../start/using/privacy-requests.md).
+
+Des informations ont été ajoutées dans la section Connecteur de données Adobe Experience Platform sur l’erreur de validation du mappage de données liée à la gestion de la confidentialité et sur la manière de la résoudre. [En savoir plus](../../developing/using/aep-mapping-activation.md)
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ Mise à jour de la documentation sur la configuration d’une application mobile
 
 Mise à jour et amélioration de la documentation sur l’intégration Adobe Campaign Standard/Adobe Experience Manager – [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
-Mise à jour de la documentation sur le Concepteur d’email de Campaign et des pages connexes pour prendre en compte l’obsolescence du [!DNL Adobe Creative SDK]. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+Mise à jour de la documentation sur le Concepteur d’email de Campaign et des pages connexes pour prendre en compte l’obsolescence du [!DNL Adobe Creative SDK]. [En savoir plus](../../rn/using/deprecated-features.md)
 
 Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relatives au modèle de données Campaign Standard – [En savoir plus](../../developing/using/data-model-best-practices.md)
 
@@ -435,7 +439,7 @@ Mise à jour de l’article [Protocole et paramètres du connecteur SMS](https:/
 
 Enrichissement et réorganisation du guide de démarrage – [En savoir plus](../../start/using/about-campaign-standard.md)
 
-Mise à jour de la page Fonctionnalités obsolètes et supprimées – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+Mise à jour de la page Fonctionnalités obsolètes et supprimées – [En savoir plus](../../rn/using/deprecated-features.md)
 
 Mise à jour et restructuration de la section sur l’intégration de Dreamweaver – [En savoir plus](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ La liste des attributs HTML permettant une conformité totale avec Creative Desi
 
 Ajout d’informations sur la langue par défaut d’un modèle multilingue – [En savoir plus](../../channels/using/multilingual-messages-template.md)
 
-Le guide Utilisateurs &amp; sécurité a été mis à jour pour refléter le fait que l’entité géographique soit devenue obsolète pour les nouvelles instances de Campaign Standard, ainsi que pour les instances existantes sans entité géographique créée, à partir de la version 18.7 – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html)
+Le guide Utilisateurs &amp; sécurité a été mis à jour pour refléter le fait que l’entité géographique soit devenue obsolète pour les nouvelles instances de Campaign Standard, ainsi que pour les instances existantes sans entité géographique créée, à partir de la version 18.7 – [En savoir plus](../../rn/using/deprecated-features.md)
 
 ## Version 18.6 - Juin 2018 {#release-18-6---june-2018}
 
