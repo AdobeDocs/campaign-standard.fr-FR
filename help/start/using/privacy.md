@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -94,7 +94,7 @@ Voici les différentes personnes utilisées dans cet exemple :
 
 * **Laura** est le sujet **des** données. C&#39;est la destinataire qui reçoit les messages de la société aérienne. Laura peut-être un voyageur fréquent, mais peut décider à un moment donné qu&#39;elle ne veut pas de publicité personnalisée ou de messages marketing de la société aérienne. Elle demandera à la société de la compagnie aérienne (selon leur processus) de supprimer son numéro de vol fréquent.
 
-* **Anne** est le contrôleur **de** données à la société aérienne. Elle reçoit la demande de Laura, récupère les identifiants utiles demandés pour identifier la personne concernée et envoie la demande en Adobe Campaign.
+* **Anne** est le contrôleur **de** données à la société aérienne. 
 
 * **Adobe Campaign** est le processeur **de** données.
 
@@ -121,7 +121,7 @@ Adobe Campaign vous permet de collecter des données, y compris des informations
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, voir [cette page](../../start/using/privacy-management.md).
 
 Adobe Campaign vous propose divers ensembles de fonctionnalités dédiées à la gestion de la confidentialité :
 * Gestion du consentement, conservation des données et rôles utilisateur. Reportez-vous à [cette section](#consent).
@@ -139,7 +139,7 @@ Depuis l&#39;origine, Adobe Campaign dispose de fonctions importantes, essentiel
 * **Conservation des données** : toutes les tables de logs standard intégrées comportent des périodes de conservation prédéfinies, limitant généralement leur enregistrement de données à 6 mois ou moins. Il est possible de définir des périodes de conservation supplémentaires à l&#39;aide de workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
 * **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Voir à ce sujet la section [Gestion des accès](../../administration/using/about-access-management.md).
 
-Pour plus d’informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette section](../../start/using/privacy-management.md#consent-retention-roles).
+Pour plus d&#39;informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette section](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Demandes d&#39;accès à des informations personnelles {#privacy-requests}
 
