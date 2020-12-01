@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Créer un service{#creating-a-service}
 
 Pour pouvoir gérer les inscriptions, vous devez d&#39;abord créer un service et le configurer. La configuration d&#39;un nouveau service vous permet d&#39;indiquer les emails de confirmation que recevront les profils qui s&#39;abonnent au service ou s&#39;en désabonnent. Vous définirez également les landing pages d&#39;inscription et de désinscription associées au service. Par exemple, un lien d&#39;abonnement à un service inséré dans un email renverra automatiquement le profil vers la landing page d&#39;inscription spécifiée dans le service.
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Pour configurer un service :
 
@@ -55,7 +57,14 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer un service et des inscriptions](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Promouvoir un service](../../audiences/using/promoting-a-service.md)
 * [Créer une audience composée d&#39;abonnés](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Associer une landing page à un service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Tutoriel vidéo {#video}
+
+Cette vidéo montre comment créer un service et gérer ses abonnements.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
