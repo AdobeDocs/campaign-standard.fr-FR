@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Les conditions peuvent être basées sur des **fonctions** ou des **variables**,
 
    Lorsque vous éditez le champ **[!UICONTROL Condition]**, deux boutons vous aident à appeler des variables d’événements et à éditer des expressions en associant des variables et des fonctions :
 
-   * ![](assets/extsignal_picker.png): sélectionnez la variable événements parmi toutes les variables disponibles dans le processus (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png) : sélectionnez la variable d&#39;événements parmi toutes les variables disponibles dans le workflow (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md))
 
       ![](assets/wkf_test_activity_variables.png)
 
