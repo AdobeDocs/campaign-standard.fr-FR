@@ -5,10 +5,10 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
-workflow-type: ht
-source-wordcount: '221'
+translation-type: tm+mt
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -78,5 +78,5 @@ Découvrez les directives générales pour les diffusions mobiles (SMS, push, In
 | [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Calendrier des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
-| [Fonctionnalités obsolètes et supprimées](https://helpx.adobe.com/fr/campaign/kb/acs-deprecated-and-removed-features.html) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
+| [Fonctionnalités obsolètes et supprimées](rn/using/deprecated-features.md)) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
 | [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
