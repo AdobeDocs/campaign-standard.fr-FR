@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 100%
+source-wordcount: '958'
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ Une fois la demande traitée, les commandes de cryptage/décryptage seront dispo
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=fr#instance-settings).
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -89,7 +89,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=fr#instance-settings)).
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -122,3 +122,15 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    ![](assets/gpg-transfer-encrypt.png)
 
 1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
+
+## Tutoriels vidéo {#video}
+
+Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
+
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+
+Cette vidéo montre comment chiffrer des données à l&#39;aide d&#39;une clé GPG.
+
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
