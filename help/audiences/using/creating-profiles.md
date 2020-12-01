@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 92%
 
 ---
 
@@ -22,6 +22,8 @@ Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cib
 >[!NOTE]
 >
 >La création des profils est également possible à l’aide de l’API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
+
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment importer des profils à l’aide d’un processus vidéo](#video)
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
@@ -60,7 +62,10 @@ Le profil est ajouté à la liste.
 >[!NOTE]
 >Le champ des préférences linguistiques est utilisé pour sélectionner la langue lors de l&#39;envoi de messages multilingues. Pour plus d&#39;informations sur les messages multilingues, consultez [cette page](../../channels/using/creating-a-multilingual-email.md).
 
-**Rubriques connexes :**
+## Tutoriel vidéo {#video}
 
-* Guide détaillé [A propos des landing pages](../../channels/using/getting-started-with-landing-pages.md)
-* [Importer des profils](https://video.tv.adobe.com/v/24993?captions=fre_fr)  
+Cette vidéo montre comment importer des profils avec un processus.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
