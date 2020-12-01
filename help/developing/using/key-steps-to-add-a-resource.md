@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 100%
+source-wordcount: '105'
+ht-degree: 84%
 
 ---
 
@@ -28,4 +28,10 @@ Pour créer une ressource ou pour étendre une ressource existante avec de nouve
 >[!CAUTION]
 >
 >La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
+
+Cette vidéo montre comment créer des ressources personnalisées.
+
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
