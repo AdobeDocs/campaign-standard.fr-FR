@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 97%
+source-wordcount: '658'
+ht-degree: 90%
 
 ---
 
@@ -79,10 +79,10 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">le nouveau Concepteur d’email</a> pour créer et personnaliser le contenu de votre email. </p></br>
-   <p>Lisez <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
+   <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Email Designer</a> pour créer et personnaliser votre contenu de courrier électronique. </p></br>
+   <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
   <p> 
-  <em>Date de suppression prévue : 2021</em></p>
+  <em>Date de suppression de la cible : fin 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -114,7 +114,7 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le <b>score de propension</b> a été retiré d’Adobe Experience Cloud Triggers. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les triggers existants. Pour plus d’informations, voir la section <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign">Publication d’un déclencheur dans Campaign</a>.
+   <td> <p>Le <b>score de propension</b> a été retiré d’Adobe Experience Cloud Triggers. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les triggers existants. Pour plus d’informations, voir la section <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">Publication d’un déclencheur dans Campaign</a>.
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">En savoir plus</a>.</p>
+   <td> <p>À partir de la version du printemps 2019 et de la version de Campaign 19.2, Microsoft Internet Explorer 11 n’est plus supporté avec Adobe Campaign et Adobe Experience Cloud. Passez à Microsoft Edge ou tout autre navigateur pris en charge. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">En savoir plus</a>.</p>
    </td> 
   </tr> 
  </tbody> 
