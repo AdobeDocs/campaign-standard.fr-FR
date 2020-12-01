@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,6 @@ Vous pouvez ajouter un **[!UICONTROL bloc de contenu]**, un **[!UICONTROL conten
 >
 >Le pré-titre n’est pas compatible avec tous les programmes de messagerie. Lorsqu’il n’est pas pris en charge, le pré-titre ne s’affiche pas.
 
-
 ## Utilisation des composants de contenu {#about-content-components}
 
 >[!CONTEXTUALHELP]
@@ -124,13 +123,13 @@ Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l’im
 
 ### **[!UICONTROL Texte]**
 
-    Utilisez ce composant pour insérer du texte dans votre email. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans **[!UICONTROL Paramètres des composants]**.
+Utilisez ce composant pour insérer du texte dans votre email. Vous pouvez ajuster la couleur, le style et la taille de votre texte dans **[!UICONTROL Paramètres des composants]**.
 
 ### **[!UICONTROL Diviseur]**
 
-    Utilisez ce composant pour insérer une ligne de séparation dans votre email. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans **[!UICONTROL Paramètres des composants]**.
+Utilisez ce composant pour insérer une ligne de séparation dans votre email. Vous pouvez sélectionner la couleur, le style et la taille de la ligne de rupture dans **[!UICONTROL Paramètres des composants]**.
 
-### **[!UICONTROL Html]**
+### **[!UICONTROL HTML]**
 
 Utilisez ce composant pour copier-coller les différentes parties de votre code HTML existant. Vous pouvez ainsi créer des composants HTML modulaires autonomes.
 
@@ -142,17 +141,15 @@ Pour rendre un contenu externe compatible avec le Concepteur d’email, Adobe re
 
 Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code HTML de l’email d’origine à l’aide du composant de contenu **[!UICONTROL Html]**. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
 
-<!-- A full example is presented below. -->
-
 >[!NOTE]
 >
->Le nouveau contenu ne sera pas une copie exacte de votre email d’origine, mais les étapes ci-après vous guideront tout au long de la création d’un message qui sera aussi ressemblant que possible.
+>Le nouveau contenu ne sera pas une copie exacte de votre email d&#39;origine, mais les étapes ci-après vous guideront tout au long de la création d&#39;un message qui sera aussi ressemblant que possible.
 
-    **Avant de copier votre contenu**
-    
-    1. Dans votre email d’origine, identifiez les sections réutilisables et celles qui seront uniques à chaque email que vous enverrez.
-    1. Enregistrez toutes les images et les ressources que vous souhaitez utiliser.
-    1. Si vous maîtrisez le langage HTML, divisez votre contenu HTML d’origine en plusieurs parties différentes.
+**Avant de copier votre contenu**
+
+1. Dans votre email d’origine, identifiez les sections réutilisables et celles qui seront uniques à chaque email que vous enverrez.
+1. Enregistrez toutes les images et les ressources que vous souhaitez utiliser.
+1. Si vous maîtrisez le langage HTML, divisez votre contenu HTML d’origine en plusieurs parties différentes.
 
 ### Vidéo {#video-settings}
 
@@ -161,7 +158,6 @@ Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code H
 >title="Paramètres vidéo"
 >abstract="Utilisez ce composant pour insérer une vidéo dans votre email. Notez que les vidéos ne fonctionnent pas sur tous les clients de messagerie. Nous vous conseillons de définir une image de remplacement."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Informations supplémentaires"
-
 
 Insérez le composant vidéo dans un composant de structure de votre email et saisissez le lien vidéo dans **[!UICONTROL Paramètres des composants]**.
 
