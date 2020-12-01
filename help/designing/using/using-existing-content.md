@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 99%
 
 ---
 
@@ -103,9 +103,11 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 1. Définissez l&#39;URL à partir de laquelle le contenu sera récupéré.
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
-**Rubrique connexe :**
+Découvrez cette fonctionnalité en vidéo.
 
-Vidéo [Importer du contenu depuis une URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
 ### Récupérer automatiquement du contenu depuis une URL au moment de la préparation {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -162,7 +164,7 @@ Pour plus d&#39;informations sur la conversion d&#39;un email existant en email 
 **Rubrique connexe**:
 
 * [Créer un email](../../channels/using/creating-an-email.md)
-* [Vidéo d&#39;introduction au Concepteur d&#39;email](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=fre_fr)
+* [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Conversion de contenu HTML {#converting-an-html-content}
