@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '611'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 
 **Rubrique connexe :**
 
-* Vidéo [Envoyer un test, préparer un email et l’envoyer](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* Vidéo [Envoyer un test, préparer un email et l’envoyer](../../sending/using/get-started-sending-messages.md#video)
 * [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
