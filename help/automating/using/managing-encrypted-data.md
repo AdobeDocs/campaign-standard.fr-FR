@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Une fois la demande traitée, les commandes de cryptage/décryptage seront dispo
 
 Dans ce cas pratique, nous allons créer un workflow afin d’importer des données cryptées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour décrypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=fr#instance-settings).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -89,7 +89,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Dans ce cas pratique, nous allons créer un workflow pour crypter et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
-Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
+Un tutoriel vidéo montrant comment utiliser une clé GPG pour crypter des données est également disponible dans [cette section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=fr#instance-settings)).
 
 Les étapes pour traiter ce cas pratique sont les suivantes :
 
@@ -97,7 +97,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg_install.png)
 
-1. Dans le Campaign Standard, créez un processus d’exportation des données et chiffrez-les à l’aide de la clé privée qui a été installée via le Panneau de Contrôle. Pour ce faire, nous allons créer un workflow comme suit :
+1. Dans Campaign Standard, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg-workflow-export.png)
 
