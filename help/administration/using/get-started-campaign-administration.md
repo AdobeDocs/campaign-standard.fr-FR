@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 72fd9693fa089a7246bbb87fc10e6fcc4276eddd
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,8 @@ En tant que solution cloud, Adobe Campaign propose aux administrateurs plusieurs
 >
 >Pour toute question ou demande concernant l&#39;implémentation et la configuration, contactez votre chargé de compte Adobe.
 
+Notez que si votre instance est hébergée sur AWS, les administrateurs peuvent également utiliser le Panneau de Contrôle Campaign pour gérer les paramètres et suivre les utilisations de chacune de vos instances. Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
+
 ## Menu Administration {#administration-menu}
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
@@ -45,7 +47,7 @@ Voici la liste des différents menus disponibles :
 * [Paramétrage de l&#39;instance](../../administration/using/branding.md) : c&#39;est ici que vous définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d&#39;URL d&#39;accès aux landing pages, etc.).
 * [Déploiement](../../automating/using/managing-packages.md) : ce menu regroupe l&#39;import et l&#39;export de packages.
 * [Mesures des clients](../../audiences/using/active-profiles.md) : Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation.
-* [Outils d&#39;accès à des informations personnelles](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
+* [Outils d&#39;accès à des informations personnelles](../../start/using/privacy-management.md) : ce menu vous permet de créer un accès RGPD, de supprimer les demandes et de tracker leur évolution.
 
 ## Utilisateurs et sécurité {#users-security}
 
@@ -100,8 +102,3 @@ En savoir plus :
 * [Workflows techniques](../../administration/using/technical-workflows.md)
 * [Marques](../../administration/using/branding.md)
 * [Envoi de notifications internes](../../administration/using/sending-internal-notifications.md)
-
-## Autres ressources
-
-* [Gestion des droits d’accès des utilisateurs (vidéo)](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
-* [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
