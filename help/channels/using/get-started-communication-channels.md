@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 97%
 
 ---
 
@@ -72,10 +72,11 @@ Les messages transactionnels sont disponibles pour les canaux email, SMS et noti
 
 En savoir plus :
 
-* [À propos des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md)
 * [Prise en main de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md)
-* [Messages transactionnels basés sur un événement](../../channels/using/event-transactional-messages.md)
-* [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md)
+* [Configuration d’un événement transactionnel](../../channels/using/configuring-transactional-event.md)
+* [Publication d’un événement transactionnel](../../channels/using/publishing-transactional-event.md)
+* [Modification d’un message transactionnel](../../channels/using/editing-transactional-message.md)
+* [Publier un message transactionnel         ](../../channels/using/publishing-transactional-message.md)
 * [Notifications push transactionnelles](../../channels/using/transactional-push-notifications.md)
 * [Messages de relance](../../channels/using/follow-up-messages.md)
 
