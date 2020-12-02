@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 100%
+source-wordcount: '767'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Une fois la publication effectuée, un modèle transactionnel associé au nouvel
 
 Une fois que vous avez créé et publié l’événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d’un trigger mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
-Pour que l’événement entraîne l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Voir à ce propos la section [Modèle transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+Pour que l’événement entraîne l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Pour plus d&#39;informations à ce sujet, consultez la section [Modification d&#39;un message transactionnel](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
