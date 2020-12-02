@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 99%
+source-wordcount: '781'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
 >[!NOTE]
 >
->Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Annulation de la publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Consultez [Configuration des messages transactionnels](../../administration/using/configuring-transactional-messaging.md).
 
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Publication]** dans le menu avancé (via le logo Adobe Campaign).
 1. Par défaut, l&#39;option **[!UICONTROL Déterminer les modifications depuis la dernière publication]** est cochée, ce qui signifie que seuls les changements apportés depuis la dernière mise à jour seront appliqués.
