@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 96%
@@ -50,7 +50,7 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 >title="Utilisation des listes de produits"
 >abstract="Les listes de produits permettent de référencer une collection de données et de l’afficher dans le contenu email."
 
-Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
 ## Comparaison des options de conception d’email       {#email-design-options-comparison}
 
