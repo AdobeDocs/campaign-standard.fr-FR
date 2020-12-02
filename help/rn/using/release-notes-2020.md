@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2951'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Correction d’un problème lié à l’activité de workflow **Enrichissement** qui pouvait se produire lors de l’ajout d’espaces dans le champ **Alias**, ce qui créait ensuite un nouvel élément de ligne. (CAMP-39229)
 * Correction d’un problème en raison duquel chaque profil de test pouvait être ciblé lors de l’envoi d’un message de bon à tirer.
-* Correction d’un problème qui se produisait après la dépublication et la suppression d’une configuration d’événement. [En savoir plus](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* Correction d’un problème qui se produisait après la dépublication et la suppression d’une configuration d’événement. [En savoir plus](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 * Correction d’un problème en raison duquel le bouton **Enregistrer** disparaissait lors des modifications apportées aux workflows.
 * Correction d’un problème lors de la suppression manuelle d’une demande d’accès à des informations personnelles dans Campaign après son traitement, ce qui empêchait la suppression des données associées à la demande même après le nettoyage.
 * Correction d’un problème qui se produisait lors de la prévisualisation ou de l’envoi de messages contenant des caractères spéciaux d’Adobe Experience Manager.
