@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 96%
@@ -50,7 +50,7 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 >title="Utilisation des listes de produits"
 >abstract="Les listes de produits permettent de référencer une collection de données et de l’afficher dans le contenu email."
 
-Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Comparaison des options de conception d’email       {#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">A propos du Concepteur d’email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
