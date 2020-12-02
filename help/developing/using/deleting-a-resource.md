@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
@@ -57,5 +57,4 @@ Votre ressource est supprimée du modèle de données.
 
 >[!NOTE]
 >
->Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Configurer les messages transactionnels](../../administration/using/configuring-transactional-messaging.md).
-
+>Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Annulation de la publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
