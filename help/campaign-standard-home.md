@@ -5,9 +5,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -20,19 +20,15 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Mise à jour du calendrier des versions](rn/using/release-planning.md)**<br/> Les dates des prochaines versions de février 2021 ont été ajoutées au calendrier des versions.
+* **[Mise à jour du calendrier des versions](rn/using/release-planning.md)**<br/> Les dates des prochaines versions de février 2021 ont été ajoutées au calendrier des versions
 
-* **[Populations témoins](sending/using/control-group.md)**<br/>
-Mesurez l’impact de vos campagnes en excluant une partie de leur audience
+* **[Populations témoins](sending/using/control-group.md)**<br/> Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
-* **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/>
-Optimisez la conception et la diffusion avec les emails optimisés par l’IA
+* **[Emails optimisés par l’IA](sending/using/predictive.md)**<br/> Optimisez la conception et la diffusion avec les emails optimisés par l’IA
 
-* **[API externe](automating/using/external-api.md)**<br/>
-Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
+* **[API externe](automating/using/external-api.md)**<br/> Utilisez l’activité d’API externe pour incorporer des données issues d’un système externe dans le workflow
 
-* **[Prise en main des diffusions mobiles](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/>
-Découvrez les directives générales pour les diffusions mobiles (SMS, push, In-App)
+* **[Prise en main des diffusions mobiles](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)**<br/> Découvrez les directives générales pour les diffusions mobiles (SMS, push, In-App)
 
 [Autres mises à jour](rn/using/documentation-updates.md)
 
