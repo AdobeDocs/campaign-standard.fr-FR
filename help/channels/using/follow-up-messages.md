@@ -7,31 +7,38 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '815'
+ht-degree: 74%
 
 ---
 
 
-# Messages de relance{#follow-up-messages}
+# Messages de relance {#follow-up-messages}
 
-Vous pouvez envoyer un message de relance aux clients qui ont reçu un message transactionnel spécifique. Pour cela, vous devez configurer un workflow ciblant l&#39;événement correspondant.
+Un message de suivi est un modèle de diffusion marketing prédéfini qui peut être utilisé dans un processus pour envoyer une autre communication aux destinataires d’un message transactionnel spécifique.
 
 Reprenons l&#39;exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) : un email d&#39;abandon de panier est envoyé aux visiteurs de votre site Web ayant ajouté des produits dans leur panier, mais ayant quitté le site sans poursuivre leurs achats.
 
-Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d&#39;abandon de panier, mais ne l&#39;ayant pas ouverte au bout de trois jours.
+Vous souhaitez envoyer un rappel convivial à tous les clients qui ont reçu la notification d&#39;abandon de panier mais qui ne l&#39;ont pas ouverte au bout de trois jours. Ils recevront un message de suivi basé sur les mêmes données que celles utilisées dans le premier courrier électronique envoyé.
 
-Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
+## Configuration d’un événement pour envoyer un message de relance      {#configuring-an-event-to-send-a-follow-up-message}
 
-## Accéder aux messages de relance     {#accessing-the-follow-up-messages}
+Pour envoyer un message de suivi, vous devez d’abord configurer en conséquence le événement correspondant au message transactionnel déjà reçu.
 
-Une fois que vous avez créé et publié l&#39;événement de votre choix (dans l&#39;[exemple](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) ci-dessus, l&#39;abandon de panier), le message transactionnel et le message de relance correspondants sont automatiquement créés.
+1. Utilisez la même configuration d’événement que celle que vous avez créée pour envoyer un message transactionnel basé sur un événement. Voir [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md).
+1. Lors de la configuration de l’événement, cochez la case **[!UICONTROL Créer un modèle de diffusion de relance pour cet événement]** avant de le publier.
 
-Les étapes de configuration sont présentées dans la section [Configurer un événement pour envoyer un message de relance](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message).
+   ![](assets/message-center_follow-up-checkbox.png)
 
-Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/event-transactional-messages.md) créé lors de la publication de l&#39;événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d&#39;événement et qui peut être utilisé comme modèle dans un workflow.
+1. [Prévisualisation et publication du événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Les étapes pour envoyer le message de suivi sont détaillées dans [cette section](#sending-a-follow-up-message).
+
+## Accéder aux messages de relance      {#accessing-the-follow-up-messages}
+
+Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/editing-transactional-message.md) créé lors de la publication de l&#39;événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d&#39;événement et qui peut être utilisé comme modèle dans un workflow.
 
 Pour accéder à ce modèle :
 
@@ -43,17 +50,19 @@ Pour accéder à ce modèle :
 
 Seuls les messages de relance sont affichés.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Pour accéder aux messages transactionnels, vous devez faire partie du groupe de sécurité **[!UICONTROL Administrateurs (toutes entités)]**.
+>Seuls les utilisateurs dotés du rôle [Administration](../../administration/using/users-management.md#functional-administrators) peuvent accéder aux messages transactionnels et les modifier.
 
 ## Envoyer un message de relance {#sending-a-follow-up-message}
 
 Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&#39;utiliser dans un workflow pour envoyer un message de relance.
 
+<!--You need to set up a workflow targeting the event corresponding to the transactional message that was already received.-->
+
 1. Accédez à la liste des activités marketing et créez un workflow.
 
-   Voir à ce propos la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Voir [Création d’un processus](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
 1. Placez une activité **[!UICONTROL Planificateur]** dans le workflow, puis ouvrez-la. Définissez la fréquence d&#39;exécution sur une fois par jour.
 
@@ -75,15 +84,15 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion]** de la palette vers l’espace de travail.
+1. Accédez à l’onglet activité **[!UICONTROL Cible]**, puis faites glisser et déposez l’élément **[!UICONTROL Logs de diffusion (journaux)]** de la palette dans l’espace de travail.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clients ayant reçu l&#39;email.
+   Sélectionnez **[!UICONTROL Exists]** pour cible à tous les clients qui ont reçu le courrier électronique.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Déplacez l&#39;élément **[!UICONTROL Tracking (tracking)]** de la palette vers l&#39;espace de travail, puis sélectionnez **[!UICONTROL N&#39;existe pas]** pour cibler tous les clients qui n&#39;ont pas ouvert l&#39;email.
+1. Déplacez l’élément **[!UICONTROL Logs de tracking (suivi)]** de la palette vers l’espace de travail et sélectionnez **[!UICONTROL N’existe pas]** pour cible à tous les clients qui n’ont pas ouvert le courrier électronique.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -101,7 +110,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Vous pouvez également utiliser une activité [Diffusion SMS](../../automating/using/sms-delivery.md) ou [Diffusion sur des applications mobiles](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** lors de la configuration de l&#39;événement. Voir la section [Créer un événement](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+   Vous pouvez également utiliser une diffusion [SMS](../../automating/using/sms-delivery.md) ou une diffusion de notification Push [Push](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** lors de la configuration de l&#39;événement. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Ouvrez l’activité **Diffusion Email**. Dans l&#39;assistant de création, cochez la case **[!UICONTROL Messages de relance]** et sélectionnez le modèle de diffusion de relance qui a été créé après la publication de l&#39;événement.
 
@@ -111,7 +120,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-content.png)
 
-1. Trouvez les champs que vous avez définis lors de la création de votre événement en sélectionnant **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**. Voir [Personnaliser un message transactionnel](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
+1. Trouvez les champs que vous avez définis lors de la création de votre événement en sélectionnant **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**. Voir [Personnaliser un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -123,4 +132,4 @@ Une fois le workflow lancé, chaque client ayant reçu une notification d&#39;ab
 
 >[!NOTE]
 >
->Si vous avez sélectionné la dimension de ciblage **[!UICONTROL Profil]** lors de la création de la configuration de l&#39;événement, le message de relance utilisera également la base de données marketing d&#39;Adobe Campaign. Voir [Messages transactionnels basés sur un profil](../../channels/using/profile-transactional-messages.md).
+>Si vous avez sélectionné la dimension de ciblage **[!UICONTROL Profil]** lors de la création de la configuration de l&#39;événement, le message de relance utilisera également la base de données marketing d&#39;Adobe Campaign. Voir [Messages transactionnels basés sur un profil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
