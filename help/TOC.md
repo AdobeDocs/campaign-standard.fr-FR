@@ -5,11 +5,11 @@ audience: end-user
 user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
-translation-type: ht
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: ht
-source-wordcount: '1664'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+workflow-type: tm+mt
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -119,11 +119,18 @@ ht-degree: 100%
       + [Définir le contenu du courrier](channels/using/defining-the-direct-mail-content.md)
    + Messages transactionnels {#transactional-messaging}
       + [Prise en main de la messagerie transactionnelle](channels/using/getting-started-with-transactional-msg.md)
-      + [Limites des messages transactionnels](channels/using/transactional-messaging-limitations.md)
-      + [Messages transactionnels basés sur un événement](channels/using/event-transactional-messages.md)
-      + [Messages transactionnels basés sur un profil](channels/using/profile-transactional-messages.md)
+      + [Meilleures pratiques et limites](channels/using/transactional-messaging-limitations.md)
+      + Configuration des événements {#event-configuration}
+         + [Configuration d’un événement transactionnel](channels/using/configuring-transactional-event.md)
+         + [Publication d’un événement transactionnel](channels/using/publishing-transactional-event.md)
+      + Modification des messages transactionnels {#transactional-message-edition}
+         + [Modification d’un message transactionnel](channels/using/editing-transactional-message.md)
+         + [Tester un message transactionnel](channels/using/testing-transactional-message.md)
+         + [Cycle de vie du message transactionnel](channels/using/publishing-transactional-message.md)
+         + [Exécution et surveillance](channels/using/transactional-message-execution.md)
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
+      + [Cas d&#39;utilisation de la messagerie transactionnelle](channels/using/transactional-messaging-use-case.md)
    + Landing pages {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 100%
       + [Configuration du canal Email](administration/using/configuring-email-channel.md)
       + [Configuration du canal SMS](administration/using/configuring-sms-channel.md)
       + [Configuration d’une application mobile](administration/using/configuring-a-mobile-application.md)
-      + [Configuration des messages transactionnels](administration/using/configuring-transactional-messaging.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi Push](administration/using/push-tracking.md)
       + [Ajout d’images et de vidéos iOS](administration/using/image-push-notification.md)
