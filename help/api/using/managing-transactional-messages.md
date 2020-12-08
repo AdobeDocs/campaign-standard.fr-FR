@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 93%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## A propos des messages transactionnels
 
-Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.
+Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de ce événement dans votre site Web.
 
 >[!NOTE]
 >
->La création et la publication d’un événement sont présentées dans la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/administration/using/configuring-transactional-messaging.html).
+>La configuration d&#39;un événement est présentée dans [cette section](../../channels/using/configuring-transactional-event.md).
 
 Par exemple, vous souhaitez qu’un événement de type « Abandon de panier » soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l’API REST des messages transactionnels.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API)
 
-* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la définition d’événement. Consultez la [documentation de Campaign](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration du événement (voir [cette section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### En-tête de requête POST
 
@@ -67,7 +67,7 @@ Vous devez ajouter un jeu de caractères, par exemple **utf-8**. Cette valeur d�
 
 ### Corps de requête POST
 
-Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition. Le bouton d’aperçu de l’API dans l’écran de définition des ressources donne un exemple de requête. Consultez la [documentation de Campaign](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+Les données d’événement sont contenues dans le corps JSON POST. La structure de l’événement dépend de sa définition. Le bouton d’aperçu de l’API dans l’écran de définition des ressources donne un exemple de requête. Consultez [cette section](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 Il est possible d’ajouter les paramètres facultatifs suivants au contenu de l’événement pour gérer l’envoi de messages transactionnels liés à cet événement :
 
@@ -138,7 +138,7 @@ Dans la réponse, le champ &quot;status&quot; vous permet de savoir si l’évé
 
 * **pending** : l’événement est en attente ; il se trouve dans cet état lorsqu’il vient d’être déclenché.
 * **processing** : l’événement est en attente de diffusion ; il est transformé en message et ce message est envoyé.
-* **paused** : le processus d’événement est en pause. L’événement n’est plus traité, mais il est conservé dans une file d’attente, dans la base de données Adobe Campaign. Consultez à ce sujet la [documentation de Campaign](https://helpx.adobe.com/fr/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **paused** : le processus d’événement est en pause. L’événement n’est plus traité, mais il est conservé dans une file d’attente, dans la base de données Adobe Campaign. Voir à ce propos [cette section](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication).
 * **processed** : l’événement a été traité et le message a bien été envoyé.
 * **ignored** : l’événement a été ignoré par la diffusion, généralement lorsqu’une adresse est en quarantaine.
 * **deliveryFailed** : une erreur de diffusion s’est produite pendant le traitement de l’événement.
