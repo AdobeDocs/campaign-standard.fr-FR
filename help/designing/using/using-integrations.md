@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 >title="Utilisation des listes de produits"
 >abstract="Les listes de produits permettent de référencer une collection de données et de l’afficher dans le contenu email."
 
-Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Comparaison des options de conception d’email       {#email-design-options-comparison}
 
@@ -155,8 +155,8 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment créer et modifier du contenu pour Adobe Campaign Standard à l&#39;aide de Dreamweaver.
+Cette vidéo montre comment créer et modifier du contenu pour Adobe Campaign Standard à l’aide de Dreamweaver.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques de Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
