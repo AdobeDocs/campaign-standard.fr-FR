@@ -1,33 +1,33 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Accessibilité en Adobe Campaign Standard
+title: Accessibilité dans Adobe Campaign Standard
 description: Découvrez la prise en charge de l’accessibilité dans Adobe Campaign Standard Workspace.
 audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 5%
+source-wordcount: '671'
+ht-degree: 100%
 
 ---
 
 
-# Accessibilité en Adobe Campaign Standard {#accessibility-acs}
+# Accessibilité dans Adobe Campaign Standard {#accessibility-acs}
 
 Découvrez la prise en charge de l’accessibilité dans Adobe Campaign Standard Workspace.
 
-L&#39;accessibilité se rapporte à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Parmi les exemples de fonctionnalités d’accessibilité pour les logiciels, citons la prise en charge des lecteurs d’écran, les équivalents de texte pour les graphiques, les raccourcis clavier, le changement des couleurs d’affichage en contraste élevé, etc.
+L’accessibilité se rapporte à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Parmi les exemples de fonctionnalités d’accessibilité pour les logiciels, citons la prise en charge des lecteurs d’écran, les équivalents de texte pour les graphiques, les raccourcis clavier, le changement des couleurs d’affichage en contraste élevé, etc.
 
-Adobe Campaign Standard fournit quelques outils qui le rendent accessible pour l’utilisation, tels que le contraste, la navigation au clavier, l’aide contextuelle et la redimensionnement adaptée.
+Adobe Campaign Standard fournit quelques outils qui le rendent accessible pour l’utilisation, tels que le contraste, la navigation au clavier, l’aide contextuelle et le redimensionnement réactif.
 
-## Fonctionnalités d&#39;accessibilité {#accessibility-features}
+## Fonctionnalités d’accessibilité {#accessibility-features}
 
 ### Contraste {#contrast}
 
-L’interface utilisateur Adobe Campaign Standard s’efforce de fournir un contraste suffisant dans l’application afin de garantir une expérience d’affichage accessible aux utilisateurs présentant une faible vision ou des déficiences en couleur.
+L’interface utilisateur Adobe Campaign Standard s’efforce de fournir un contraste suffisant dans l’application afin de garantir une expérience d’affichage accessible aux utilisateurs présentant une faible vision ou des défauts de vision des couleurs.
 
 * Les icônes d’interruption et d’annulation des workflows ont été mises à jour afin d’améliorer le contraste entre l’arrière-plan et le premier plan.
 
@@ -37,13 +37,13 @@ L’interface utilisateur Adobe Campaign Standard s’efforce de fournir un cont
 
    ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard s&#39;assure que la couleur, la forme ou l&#39;emplacement ne sont pas les seules méthodes utilisées pour communiquer des informations ou la hiérarchie.
+* Adobe Campaign Standard s’assure que la couleur, la forme ou l’emplacement ne sont pas les seules méthodes utilisées pour communiquer des informations ou la hiérarchie.
 
 ### Interface utilisateur {#user-interface}
 
 L’interface utilisateur Adobe Campaign Standard facilite l’affichage et l’écoute du contenu, notamment la séparation du premier plan de l’arrière-plan et l’ajout de textes alternatifs aux différents boutons disponibles.
 
-* Lorsque l’utilisateur laisse vide un champ d’ID obligatoire, un graphique indique visuellement quel champ est en erreur avec un texte de message d’erreur.
+* Lorsque l’utilisateur laisse vide un champ d’ID obligatoire, un graphique indique visuellement quel champ comporte une erreur avec un texte de message d’erreur.
 
    ![](assets/accessibility_3.png)
 
@@ -61,15 +61,11 @@ L’interface utilisateur Adobe Campaign Standard facilite l’affichage et l’
 
 Lors de la conception pour plusieurs périphériques et plates-formes, il est important de créer une expérience transparente pour les tailles d’écran dans les résolutions des périphériques mobiles et des ordinateurs de bureau.
 
-Adobe Campaign Standard vous permet de concevoir et de tester des courriers électroniques et des notifications Push sur différents périphériques, tels que : iPhone, appareils Android, iPad, tablette et bureau Android.
+Adobe Campaign Standard vous permet de concevoir et de tester des courriers électroniques et des notifications Push sur différents périphériques, tels que : iPhone, appareils Android, iPad, tablette et bureau Android.
 
 ![](assets/accessibility_6.png)
 
 ## Aide contextuelle {#contextual-help}
-
->[!NOTE]
->
-> L’aide contextuelle n’est disponible que lors de l’utilisation du concepteur de courrier électronique.
 
 L’aide contextuelle peut vous aider à mieux comprendre les différents champs et fonctionnalités demandés disponibles. Il vous guide également à travers la documentation du produit pour en savoir plus sur la fonction sélectionnée.
 
@@ -81,55 +77,55 @@ Lors de la conception d’un courrier électronique, vous pouvez placer le curse
 
 Un lecteur d’écran lit le texte qui s’affiche sur l’écran de l’ordinateur. Il lit également les informations non textuelles, telles que les étiquettes de bouton ou les descriptions d’image dans l’application, fournies dans les balises ou attributs d’accessibilité.
 
-En Adobe Campaign Standard, le contenu et les fonctionnalités sont toujours disponibles même si l’utilisateur remplace les propriétés d’espacement du texte.
+Dans Adobe Campaign Standard, le contenu et les fonctionnalités sont toujours disponibles même si l’utilisateur remplace les propriétés d’espacement du texte.
 
 ## Travailler dans la langue que vous préférez {#languages}
 
-L&#39;Adobe Campaign Standard est disponible dans différentes langues : anglais, français et allemand.
+Adobe Campaign Standard est disponible dans différentes langues : anglais, français et allemand.
 
-Veuillez noter que la langue est configurée à l&#39;installation et ne peut pas être modifiée par la suite.
+Veuillez noter que la langue est configurée à l’installation et ne peut pas être modifiée par la suite.
 
 ## Raccourcis clavier {#shortcuts}
 
-### Page d&#39;accueil {#homepage-shortcuts}
+### Page d’accueil {#homepage-shortcuts}
 
 | Raccourci | Action |
 |:-:|:-:|
 | Onglet | Parcourir les différents éléments de l’interface utilisateur |
-| Entrer ou espacer | Activer l&#39;élément sélectionné |
+| Entrée ou Espace | Activer l’élément sélectionné |
 
-### Concepteur d&#39;email {#email-designer-shortcuts}
+### Concepteur d’email {#email-designer-shortcuts}
 
 | Raccourci | Action |
 |:-:|:-:|
-| Ctrl + Z | Annuler |
-| Ctrl + Y | Rétablir |
+| Ctrl + Z | Annuler |
+| Ctrl + Y | Rétablir |
 
 ### Rapports dynamiques {#report-shortcuts}
 
 | Raccourci | Action |
 |:-:|:-:|
-| Ctrl + O | Ouvrir le projet |
-| Ctrl + S | Enregistrer |
-| Maj + Ctrl + S | Enregistrer sous |
-| Alt + R | Actualiser le projet |
-| Maj + Ctrl + V | Télécharger le fichier CSV |
-| Alt + P | Imprimer |
-| Ctrl + Z | Annuler |
-| Ctrl + Maj + Z | Rétablir |
-| Alt + B | Nouveau panneau vierge |
-| Alt + A | Nouvelle forme libre |
-| Alt + 1 | Nouveau tableau à structure libre |
-| Alt + 2 | Nouvelle ligne |
-| Alt + 3 | Nouvelle barre |
-| Alt + S | Envoyer le rapport maintenant |
-| Maj + Alt + S | Envoyer le rapport selon le calendrier |
-| Maj = Alt + L | Rapports planifiés |
+| Ctrl + O | Ouvrir le projet |
+| Ctrl + S | Enregistrer |
+| Maj + Ctrl + S | Enregistrer sous |
+| Alt + R | Actualiser le projet |
+| Maj + Ctrl + V | Télécharger le fichier CSV |
+| Alt + P | Imprimer |
+| Ctrl + Z | Annuler |
+| Ctrl + Maj + Z | Rétablir |
+| Alt + B | Nouveau panneau vierge |
+| Alt + A | Nouvelle forme libre |
+| Alt + 1 | Nouveau tableau à structure libre |
+| Alt + 2 | Nouvelle ligne |
+| Alt + 3 | Nouvelle barre |
+| Alt + S | Envoyer le rapport maintenant |
+| Maj + Alt + S | Envoyer le rapport d’après le planning |
+| Maj = Alt + L | Rapports planifiés |
 
 ## Autres lectures {#further-reading}
 
-Adobe Campaign Standard s&#39;efforce de fournir un niveau d&#39;accessibilité toujours plus élevé, ce qui rend le produit facile à utiliser pour tous.
+Adobe Campaign Standard s’efforce de fournir un niveau d’accessibilité toujours plus élevé, ce qui rend le produit facile à utiliser pour tous.
 
-Nous vous encourageons à utiliser le [formulaire de commentaires sur l&#39;accessibilité des Adobes](https://www.adobe.com/accessibility/feedback.html) pour nous envoyer des suggestions d&#39;amélioration et des questions d&#39;accessibilité que vous rencontrez.
+Nous vous encourageons à utiliser le [formulaire de commentaires sur l’accessibilité à Adobe](https://www.adobe.com/accessibility/feedback.html) pour nous envoyer des suggestions d’amélioration et des problèmes d&#39;accessibilité que vous rencontrez.
 
-Vous pouvez également consulter les [notes de mise à jour de Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en#release-notes) pour suivre les dernières améliorations et fonctionnalités.
+Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr#release-notes) pour suivre les dernières améliorations et fonctionnalités.
