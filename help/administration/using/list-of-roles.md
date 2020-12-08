@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,18 @@ Combinés avec les entités organisationnelles, les rôles donnent aux utilisate
 
 Pour plus d’informations, reportez-vous au [tableau Rôles et permissions](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
-[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 Les rôles peuvent être gérés depuis le menu **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Rôles]**.
 
 Les droits par défaut sont les suivants :
 
 * **[!UICONTROL Administration]** : droit d&#39;administration générique.
+
+   >[!NOTE]
+   >
+   >Si vous devez créer des déclencheurs, vous aurez besoin de **[!UICONTROL Administration]** pour pouvoir accéder au menu Triggers. Pour plus d&#39;informations sur les déclencheurs, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+
 * **[!UICONTROL Datamodel]** : droit pour l&#39;exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Import générique]** : droit pour l&#39;exécution d&#39;un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.
 * **[!UICONTROL Préparer des diffusions]** : droit pour la création, la modification, la préparation et la suppression des diffusions. Les utilisateurs dotés de ce rôle peuvent préparer la diffusion, mais pas l&#39;envoyer.
