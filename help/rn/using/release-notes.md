@@ -6,9 +6,9 @@ description: Cette page détaille le contenu de la dernière version de Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [Calendrier des versions](../../rn/using/release-planning.md) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Lors de la publication d’une ressource personnalisée, un pop-up de confirmation s’affiche maintenant après la préparation.
 * Le message pop-up qui s’affiche en cas d’échec d’une ressource personnalisée a été amélioré pour une plus grande clarté.
 * L’éditeur d’expression des workflows a été amélioré afin d’éviter les erreurs d’exécution. De [nouvelles fonctions](../../automating/using/customizing-workflow-external-parameters.md) sont disponibles : il est possible de les appliquer dans toutes les activités qui permettent d’utiliser des variables d’événement après avoir appelé un workflow avec des paramètres externes. De plus, une info-bulle s’affiche désormais dans l’éditeur d’expression avec la description de la fonction.
-* [De nouveaux filtres ont été ajoutés à la liste des événements transactionnels.](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Ils permettent de filtrer les configurations des événements en fonction de leur statut, ainsi que de la dernière réception d’un événement.
+* [De nouveaux filtres ont été ajoutés à la liste des événements transactionnels.](../../channels/using/configuring-transactional-event.md#searching-transactional-events) Ils permettent de filtrer les configurations des événements en fonction de leur statut, ainsi que de la dernière réception d’un événement.
 * Les logs qui s’affichent lors de l’exportation de packages ont été rendus plus précis et détaillés sur les erreurs rencontrées en cas d’échec.
 * Après l’envoi d’un message, vous pouvez désormais rechercher, filtrer et exporter la liste des [URL trackées](../../sending/using/tracking-messages.md).
 * La [synchronisation automatique entre Launch et Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) fait désormais l’objet d’une disponibilité générale (GA) et est activée par défaut.
