@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 98%
 
 ---
 
@@ -72,8 +72,8 @@ L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour c
 Dans l&#39;exemple ci-dessus, le destinataire :
 
 * a ouvert le message.
+* Cliquez sur le lien de la page miroir.
 * a cliqué sur le lien personnalisé « EN SAVOIR PLUS ».
-* a cliqué sur le lien de désinscription et sur celui de la page miroir.
 
 Dans la colonne **[!UICONTROL Type]**, les valeurs possibles sont :
 
@@ -87,6 +87,8 @@ Dans la colonne **[!UICONTROL Type]**, les valeurs possibles sont :
 >En ce qui concerne le canal **notification push**, seuls les clics des notifications mobiles sont trackés. Dans ce cas, la valeur sera **[!UICONTROL Clic sur notification mobile]**.
 
 Pour plus d&#39;informations sur l&#39;insertion de liens de tracking, consultez [cette page](../../designing/using/links.md#inserting-a-link).
+
+Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Pour plus d’informations à ce propos, consultez cette [page](../../reporting/using/tracking-indicators.md).
 
 ## URL trackées {#tracked-urls}
 
