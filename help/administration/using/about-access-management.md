@@ -6,9 +6,9 @@ description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des g
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
 ht-degree: 100%
 
