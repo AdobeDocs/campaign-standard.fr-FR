@@ -6,9 +6,9 @@ description: Découvrez comment déclencher l’ingestion des données par le bi
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -54,7 +54,8 @@ L’ingestion immédiate d’un mapping XDM dans Adobe Experience Platform est
 >
 >Pour exécuter l’appel d’API POST d’ingestion, l’utilisateur doit disposer d’un rôle d’**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
