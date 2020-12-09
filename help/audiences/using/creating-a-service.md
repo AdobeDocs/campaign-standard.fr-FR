@@ -7,11 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,6 +65,6 @@ Une fois qu&#39;un service a été créé, vous pouvez commencer à le promouvoi
 
 Cette vidéo montre comment créer un service et gérer ses abonnements.
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
