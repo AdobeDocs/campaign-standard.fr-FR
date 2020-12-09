@@ -6,11 +6,11 @@ description: Découvrez comment configurer l’intégration d’Adobe IO pour Mi
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher le
 
    ![](assets/adobeIO5.png)
 
-1. Sur l’écran suivant, vous devez sélectionner les profils de produits à associer à ce projet. Select the product profile that contains in the solution: Campaign Standard
-product: campaign
-title: The tenant ID of your Campaign instance - [!UICONTROL Administrators]
+1. Sur l’écran suivant, vous devez sélectionner les profils de produits à associer à ce projet. Sélectionnez le profil de produits contenu dans la solution : Campaign Standard
+produit : campaign
+titre: Identifiant du tenant de votre instance Campaign - [!UICONTROL Administrateurs]
 
    Exemple : Campaign Standard - votre-identifiantdutenant-campaign - Administrateurs
 
