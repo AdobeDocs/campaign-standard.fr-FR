@@ -6,11 +6,11 @@ description: Découvrez comment créer des profils et collecter des données sur
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cib
 >
 >La création des profils est également possible à l’aide de l’API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment importer des profils à l’aide d’un processus vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment importer des profils à l’aide d’un workflow en vidéo](#video)
 
 Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 
@@ -64,8 +64,8 @@ Le profil est ajouté à la liste.
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment importer des profils avec un processus.
+Cette vidéo montre comment importer des profils avec un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
