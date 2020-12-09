@@ -6,11 +6,11 @@ description: Analysez le succès de vos campagnes dans des rapports dynamiques i
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrir le rapports dynamique dans la vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez les rapports dynamiques en vidéo](#video)
 
 ## Gérer et partager des rapports {#manage-share-reports}
 
@@ -80,8 +80,8 @@ En savoir plus :
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente les fonctionnalités de rapports de Adobe Campaign Standard.
+Cette vidéo offre une vue d’ensemble des fonctionnalités de rapports dynamiques d’Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
