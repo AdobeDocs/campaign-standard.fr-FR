@@ -6,9 +6,9 @@ description: Découvrez comment créer une demande d’accès à des information
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 
