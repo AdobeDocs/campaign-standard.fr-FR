@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez envoyer une offre par email à la date anniversaire de la création 
 1. Pour sélectionner les destinataires, effectuez un glisser-déposer d&#39;une activité [](../../automating/using/query.md)Requête et double-cliquez dessus.
 1. Ajoutez des **[!UICONTROL Profils]** et sélectionnez **[!UICONTROL Ne plus contacter par email]** avec la valeur **[!UICONTROL non]**.
 
-### Récupération des profils créés le même jour que le jour de l&#39;exécution {#retrieving-profiles-created-on-the-same-day}
+### Récupération des profils créés le même jour que le jour d’exécution {#retrieving-profiles-created-on-the-same-day}
 
 1. Dans **[!UICONTROL Profil]**, effectuez un glisser-déposer du champ **[!UICONTROL Créé le]**. et cliquez sur **[!UICONTROL Mode avancé]**.
    ![](assets/advanced_mode.png)
@@ -65,7 +65,7 @@ Vous devez obtenir :
 
 Cliquez sur **[!UICONTROL Confirmer]**.
 
-### Récupération des profils créés le même mois que le mois d’exécution{#retrieving-profiles-created-on-the-same-month}
+### Récupérer les profils créés le même mois que le mois d’exécution{#retrieving-profiles-created-on-the-same-month}
 
 1. Dans l&#39;éditeur de **[!UICONTROL requêtes]**, sélectionnez la première requête et dupliquez-la.
 1. Ouvrez le duplicata.
