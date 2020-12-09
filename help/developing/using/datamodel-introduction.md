@@ -6,9 +6,9 @@ description: Découvrez le modèle de données Adobe Campaign.
 audience: developing
 content-type: reference
 context-tags: cusResource,overview;eventCusResource,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour chaque ressource, vous trouverez dans les sous-pages un tableau qui répert
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Prise en main du modèle de données](data-model-concepts.md) | [Étendre la ressource profil](extending-the-profile-resource-with-a-new-field.md) |
+| [Prise en main du modèle de données](data-model-concepts.md) | [](extending-the-profile-resource-with-a-new-field.md) |
 | [Bonnes pratiques relatives au modèle de données](data-model-best-practices.md) | [Étendre la ressource d’abonnement](extending-the-subscriptions-to-an-application-resource.md) |
 | [Ajouter une nouvelle ressource](key-steps-to-add-a-resource.md) | [Étendre l’API Profile](about-extending-the-api.md) |
-| [Créer ou étendre une ressource](creating-or-extending-the-resource.md) | [Appel d’une ressource à l’aide d’une clé composite](uc-calling-resource-id-key.md) |
+| [](creating-or-extending-the-resource.md) | [Appel d’une ressource à l’aide d’une clé composite](uc-calling-resource-id-key.md) |
