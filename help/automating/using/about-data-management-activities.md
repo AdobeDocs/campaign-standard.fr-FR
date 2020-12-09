@@ -6,9 +6,9 @@ description: Les activités de gestion des données sont disponibles dans le cô
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
