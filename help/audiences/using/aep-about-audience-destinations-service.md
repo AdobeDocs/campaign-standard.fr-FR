@@ -7,9 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -47,4 +47,4 @@ Termes utilisés dans ces sections :
 
 * **Audience** : Collection de profils qui respectent les règles de segmentation.
 
-   Exemple :  Liste de profils correspondant à tous les hommes de plus de 50 ans dans votre base de données.
+   Exemple : Liste de profils correspondant à tous les hommes de plus de 50 ans dans votre base de données.
