@@ -6,11 +6,11 @@ description: 'Adobe Campaign vous permet d''exporter les données affichées sou
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 Adobe Campaign vous permet d&#39;exporter le contenu de vos listes directement dans un fichier en vue d&#39;une utilisation ultérieure. L&#39;export d&#39;une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez comment configurer une liste dans la vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez comment configurer une liste en vidéo](#video)
 
-L&#39;option d&#39;export de liste permet d&#39;exporter un maximum de 100 000 lignes par défaut et est définie par l&#39;option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
+L’option d’export de liste permet d’exporter un maximum de 100 000 lignes par défaut et est définie par l’option **Nms_ExportListLimit**. Cette option peut être gérée par l&#39;administrateur fonctionnel depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**.
 
 Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste**, pour les utilisateurs disposant du rôle **[!UICONTROL EXPORT (export)]**.
 
@@ -80,6 +80,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 Cette vidéo montre comment configurer des listes.
 
->[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
