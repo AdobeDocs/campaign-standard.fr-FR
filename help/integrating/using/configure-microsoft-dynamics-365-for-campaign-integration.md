@@ -6,9 +6,9 @@ description: Découvrez comment configurer Microsoft Dynamics 365 pour l’int�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1035'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
