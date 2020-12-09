@@ -35,7 +35,7 @@ L’intégration d’Adobe Campaign Standard à Dreamweaver permet d’éditer l
 
    Le développeur d’email n’a plus besoin d’ajouter du texte du type `[[FIRSTNAME_PLACEHOLDER]]` ni de rechercher la syntaxe des tables de votre modèle de données. La barre d’outils Campaign dans Dreamweaver se connecte directement au modèle de données de votre instance Campaign. Cela signifie que vous pouvez extraire toutes les données que vous voulez pour les personnaliser, du prénom à l’adresse. Si vous avez créé des blocs de contenu au sein de Campaign, vous pouvez également les intégrer directement dans Dreamweaver.
 
-Cette fonctionnalité est présentée dans la documentation de Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Cette fonctionnalité est présentée dans la documentation Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -52,7 +52,7 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 
 Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
-## Comparaison des options de conception d’email       {#email-design-options-comparison}
+## Comparaison des options de conception d’email        {#email-design-options-comparison}
 
 Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-après présente les possibilités, avantages et limites de chacune d’elles.
 
@@ -159,4 +159,4 @@ Cette vidéo montre comment créer et modifier du contenu pour Adobe Campaign St
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-D’autres vidéos pratiques de Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
