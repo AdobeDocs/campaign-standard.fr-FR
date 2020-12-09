@@ -30,7 +30,7 @@ En tant que solution cloud, Adobe Campaign propose aux administrateurs plusieurs
 >
 >Pour toute question ou demande concernant l&#39;implémentation et la configuration, contactez votre chargé de compte Adobe.
 
-Notez que si votre instance est hébergée sur AWS, les administrateurs peuvent également utiliser le Panneau de Contrôle Campaign pour gérer les paramètres et suivre les utilisations de chacune de vos instances. Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
+Notez que si votre instance est hébergée sur AWS, les administrateurs peuvent également utiliser le panneau de contrôle de Campaign pour gérer les paramètres et suivre les utilisations de chacune de vos instances. Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
 
 ## Menu Administration {#administration-menu}
 
