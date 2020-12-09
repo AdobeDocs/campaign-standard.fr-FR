@@ -6,11 +6,11 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1238'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Le Concepteur d&#39;email permet de créer du contenu d&#39;email et des modèle
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Découvrir le concepteur de courrier électronique dans une vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez le concepteur d’email en vidéo](#video)
 
 * Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du Concepteur d’email](../../designing/using/quick-start.md).
 * Pour une présentation du Concepteur d&#39;email, voir [Utilisation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -141,7 +141,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email       {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email        {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -161,8 +161,8 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente un aperçu du Concepteur de courriels.
+Cette vidéo présente un aperçu du concepteur d’email.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12&captions=fre_fr)
 
-Pour commencer à utiliser le Concepteur d&#39;email, regardez cet [ensemble de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui expliquent la fonctionnalité générale de l&#39;outil et qui décrivent comment créer entièrement un email ou le concevoir à l&#39;aide de modèles
+Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
