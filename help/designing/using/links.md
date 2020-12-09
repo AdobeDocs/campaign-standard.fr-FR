@@ -6,9 +6,9 @@ description: Découvrez comment gérer des liens avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ Lorsque vous éditez un email à l&#39;aide du [Concepteur d&#39;email](../../de
 
 ## A propos des URL trackées {#about-tracked-urls}
 
-Adobe Campaign vous permet de tracker le comportement de vos destinataires lorsqu&#39;ils cliquent sur une URL incluse dans un email. Pour plus d&#39;informations sur le tracking, voir [cette section](../../sending/using/tracking-messages.md#about-tracking).
+Adobe Campaign vous permet de tracker le comportement de vos destinataires lorsqu&#39;ils cliquent sur une URL incluse dans un email. Pour plus d’informations sur le tracking, consultez [cette section](../../sending/using/tracking-messages.md#about-tracking).
 
 L&#39;icône **[!UICONTROL Liens]** de la barre d&#39;action affiche automatiquement la liste des toutes les URL de votre contenu qui seront trackées.
 
