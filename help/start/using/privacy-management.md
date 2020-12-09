@@ -6,28 +6,28 @@ description: En savoir plus sur les fonctionnalités Adobe Campaign Standard pou
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Gestion de la confidentialité {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements sur la protection des données](#privacy-management-regulations) (notamment RGPD, CCPA, PDPA, LGPD).
 
-Voici les cinq principales capacités offertes par l&#39;Adobe Campaign pour s&#39;assurer que le RMPE et d&#39;autres règlements sur la protection des renseignements personnels sont prêts :
+Voici les cinq principales capacités offertes par Adobe Campaign pour s’assurer du respect du RGPD et d’ autres règlements sur la protection des renseignements :
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **Droit d&#39;accès**
+* **Droit d’accès**
 
-* **Droit de supprimer**
+* **Droit de suppression**
 
-Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et Droit à l&#39;oubli](#right-access-forgotten).
+Pour plus d’informations à ce sujet, voir [Droit d’accès et droit à l’oubli](#right-access-forgotten).
 
 * **Gestion du consentement**
 
@@ -35,17 +35,17 @@ Pour plus d&#39;informations à ce sujet, voir [Droit d&#39;accès et Droit à l
 
 * **Gestion des droits**
 
-Pour plus d’informations à ce sujet, voir [Consentement, Rétention et rôles](#consent-retention-roles).
+Pour plus d’informations à ce sujet, voir [Consentement, Rétention et Rôles](#consent-retention-roles).
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regulations on Privacy management {#privacy-management-regulations}
+## Règlements relatifs à la gestion de la confidentialité {#privacy-management-regulations}
 
-Les fonctionnalités d&#39;Adobe Campaign vous aident à respecter les réglementations suivantes :
+Les fonctionnalités d’Adobe Campaign vous aident à respecter les réglementations suivantes :
 
-* **Le RGPD** ([Règlement général sur la protection des données](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_fr)) est la loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Suivez les liens ci-dessous pour obtenir des renseignements généraux sur le RMPD :
+* **Le RGPD** ([Règlement général sur la protection des données](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_fr)) est la loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données pour les pays de l’UE. Suivez les liens ci-dessous pour obtenir des renseignements généraux sur le RGPD : 
 
    * https://www.adobe.com/fr/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/fr/marketing-cloud/campaign/general-data-protection-regulation.html
@@ -74,7 +74,7 @@ Vous trouverez également des informations sur la gestion de la protection des d
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
+>Pour plus d’informations sur les données personnelles et sur les différentes entités qui gèrent les données (contrôleur de données, responsable du traitement des données et titulaire de données), consultez [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}
 
