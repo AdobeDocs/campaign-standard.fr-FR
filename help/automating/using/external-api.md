@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2172'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
+Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les barrières de sécurité de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et barrières de sécurité](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
 Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
@@ -46,7 +46,7 @@ Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activ
 >
 >Vous ne pourrez pas copier sur les valeurs de l’en-tête spécifiques aux activités, car elles sont masquées dans l’activité.
 
-### Limitations et garde-fous {#guardrails}
+### Limites et barrières de sécurité {#guardrails}
 
 Les barrières de sécurité suivantes s’appliquent à cette activité :
 
