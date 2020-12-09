@@ -6,11 +6,11 @@ description: Suivez ces étapes pour créer une diffusion email unique dans Adob
 audience: channels
 content-type: reference
 topic-tags: email-messages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,14 +90,14 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 **Rubriques connexes** :
 
-* Guide détaillé [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
-* [Intégration de Adobe Campaign et Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
-* [Intégrer avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+* [Créer un email personnalisé](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html) : guide pas à pas
+* [Intégration d’Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [Intégration d’Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment créer un courriel.
+Cette vidéo montre comment créer un email.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12&captions=fre_fr)
 
-D&#39;autres vidéos pratiques du Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
