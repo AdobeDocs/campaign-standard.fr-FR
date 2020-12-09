@@ -6,9 +6,9 @@ description: Suivez ces étapes pour configurer un processus de double opt-in à
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
 ht-degree: 100%
 
