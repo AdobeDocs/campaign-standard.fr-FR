@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
