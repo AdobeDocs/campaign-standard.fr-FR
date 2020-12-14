@@ -6,11 +6,11 @@ description: Découvrez l’ensemble des mises à jour les plus récentes de la 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6387'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 La section Confidentialité a été déplacée – [En savoir plus](../../start/using/privacy.md)
 
-La section de messagerie transactionnelle a été réorganisée et améliorée, avec une section de démarrage clarifiée comprenant [graphiques améliorés](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) et un [cas d&#39;utilisation de bout en bout](../../channels/using/transactional-messaging-use-case.md) pour illustrer l&#39;ensemble du processus. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
+La section Messages transactionnels a été réorganisée et améliorée, avec une section simplifiée sur la prise en main comprenant des [graphiques améliorés](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) et un [cas pratique de bout en bout](../../channels/using/transactional-messaging-use-case.md) pour illustrer l’ensemble du processus. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
 Une nouvelle page sur l’accessibilité a été ajoutée pour en savoir plus sur la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard. [En savoir plus](../../start/using/accessibility.md)
 
@@ -139,7 +139,7 @@ Des ressources supplémentaires ont été ajoutées à la page d’accueil de la
 
 Des informations sur le service d’identité Experience Cloud (ECID) ont été ajoutées à la documentation du connecteur Adobe Experience Platform – [En savoir plus](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-La section Messages transactionnels a été améliorée avec des informations sur l&#39;accès aux derniers événements transactionnels et des captures d&#39;écran mises à jour. [En savoir plus](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+La section Messages transactionnels a été améliorée avec des informations sur l’accès aux derniers événements transactionnels et des captures d’écran mises à jour. [En savoir plus](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 Les typologies et la documentation des règles de typologie ont été améliorées et mises à jour avec des informations supplémentaires sur les règles de typologie natives – [En savoir plus](../../sending/using/about-typology-rules.md)
 
@@ -149,13 +149,13 @@ La documentation sur les reprises après un échec temporaire de diffusion a ét
 
 La section Supprimer un message transactionnel a été améliorée et clarifiée – [En savoir plus](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-La section **Aperçu des diffusions** a été mise à jour avec des exemples de diffusions mobiles – [En savoir plus](../../sending/using/previewing-messages.md)
+La section **Aperçu des diffusions** a été mise à jour avec des exemples de diffusions mobiles. [En savoir plus](../../sending/using/previewing-messages.md)
 
 Des bonnes pratiques ont été ajoutées en ce qui concerne les messages transactionnels et la suppression d’événements en temps réel inutilisés – [En savoir plus](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 La section Configuration du canal Email a été mise à jour afin d’apporter des éclaircissements sur tous les paramètres de messagerie qui sont désormais gérés par le MTA amélioré – [En savoir plus](../../administration/using/configuring-email-channel.md)
 
-La section Messages transactionnels a été mise à jour avec des informations complémentaires sur les droits nécessaires pour modifier les configurations de événement et sur la façon d&#39;enrichir les collections dans les messages transactionnels. [En savoir plus](../../channels/using/configuring-transactional-event.md)
+La section Messages transactionnels a été mise à jour avec des informations supplémentaires sur les droits nécessaires pour modifier les configurations des événements et sur la manière d’enrichir les collections dans les messages transactionnels. [En savoir plus](../../channels/using/configuring-transactional-event.md)
 
 ## Version 20.2 - Avril 2020 {#release-20-2---april-2020}
 
@@ -211,7 +211,7 @@ Audience Destinations (version bêta) – [En savoir plus](../../audiences/usi
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Mise à jour de la documentation relative à la gestion de la confidentialité avec des informations sur la création du champ d’opt-out du CCPA pour les ressources de profil personnalisées – [En savoir plus](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+Mise à jour de la documentation relative à la gestion de la confidentialité avec des informations sur la création du champ d’opt-out du CCPA pour les ressources de profil personnalisées – [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html)
 
 Réorganisation et amélioration des notes de mise à jour – [En savoir plus](../../rn/using/release-notes.md)
 
@@ -311,7 +311,7 @@ Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenan
 
 Une nouvelle section sur l’utilisation des pièges a été ajoutée – [En savoir plus](../../sending/using/using-traps.md)
 
-Une note sur l’option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d’une application mobile à l’aide des SDK Adobe Experience Platform – [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Une note sur l’option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d’une application mobile à l’aide des SDK Adobe Experience Platform – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
 Réorganisation du guide du Concepteur d’email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -383,7 +383,7 @@ Ajout d’un avertissement à la documentation des ressources personnalisées. I
 
 **Nouvelles fonctionnalités de cette version**
 
-Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
 
 Notifications locales – [En savoir plus](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -421,7 +421,7 @@ Mise à jour du guide sur l’automatisation avec des liens vers les activités 
 
 Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques – [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Ajout d’un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+Ajout d’un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
 
 Mise à jour de la liste des fonctions pour les workflows – [En savoir plus](../../automating/using/list-of-functions.md)
 
@@ -537,9 +537,9 @@ Ajout d’informations sur la nouvelle option de l’activité Extraction de fic
 
 Déplacement vers cet [emplacement](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) de la section Configuration d’une application mobile à l’aide du SDK V4.
 
-Déplacement vers cet [emplacement](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) de la section Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform.
+Déplacement vers cet [emplacement](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html) de la section Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform.
 
-Mise à jour des vidéos et déplacement vers cet [emplacement](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Mise à jour des vidéos et déplacement vers cet [emplacement](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/overview.html).
 
 Mise à jour de la section Type des utilisateurs – [En savoir plus](../../administration/using/users-management.md)
 
@@ -559,7 +559,7 @@ Ajout d’informations sur la suppression d’une audience – [En savoir plus](
 
 Mise à jour de la section de rapport natif des notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018         {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018          {#release-18-7---july-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -569,7 +569,7 @@ Import de contenu automatisé à partir d’une URL au moment de la préparation
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Ajout d’une nouvelle technote sur les paramètres et le protocole du connecteur SMS – [En savoir plus](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+Ajout d’une nouvelle technote sur les paramètres et le protocole du connecteur SMS – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Mise à jour de la documentation sur l’intégration d’Experience Manager avec Adobe Campaign – [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -641,7 +641,7 @@ Certaines pages de la documentation consacrée à l’éditeur de contenu ont é
 
 **Nouvelles fonctionnalités de cette version**
 
-Règlement général sur la protection des données de l’UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
+Règlement général sur la protection des données de l’UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html)
 
 Creative Designer pour les emails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -699,7 +699,7 @@ Mise à jour de la section sur l’activité **[!UICONTROL Services d’abonneme
 
 Ajout d’un cas pratique détaillé sur la préparation d’une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
-Suppression de la section comprenant la liste des autorisations – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en) (PDF).
+Suppression de la section comprenant la liste des autorisations – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr) (PDF).
 
 Ajout d’un cas pratique détaillé sur l’utilisation des réponses automatiques des SMS – [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -771,7 +771,7 @@ Mise à jour et clarification de la [technote](https://helpx.adobe.com/fr/campai
 
 Ajout d’une technote expliquant la structure de la payload reçue dans une application mobile – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
-Mise à jour de la [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) sur la configuration du canal des notifications push avec de nouvelles données de payload à ajouter en fonction du système d’exploitation lors de la définition des postbacks dans l’interface Adobe Mobile Services.
+Mise à jour de la [section](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) sur la configuration du canal des notifications push avec de nouvelles données de payload à ajouter en fonction du système d’exploitation lors de la définition des postbacks dans l’interface Adobe Mobile Services.
 
 Mise à jour de la documentation sur les SMS avec l’ajout d’une clarification à la section [Réponses automatiques des SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
@@ -867,11 +867,11 @@ Le guide « Deliveries » (Diffusions) a été réorganisé et renommé « Ch
 
 Plusieurs captures d’écran ont été mises à jour afin de refléter les modifications de l’interface.
 
-Une nouvelle technote est disponible : « Intégration du SDK Adobe Mobile à votre application mobile » – [En savoir plus](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+Une nouvelle technote est disponible : « Intégration du SDK Adobe Mobile à votre application mobile » – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html)
 
 Les instructions relatives à la configuration du service People core service ou à l’intégration d’Audience Manager à Adobe Campaign ont été ajoutées – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 Mise à jour des liens d’aide contextuelle disponibles directement dans Adobe Campaign.
 
@@ -897,9 +897,9 @@ Le guide des workflows a été réorganisé et étoffé. Trouvez facilement comm
 
 Le calcul d’indicateur de rapport est à présent disponible pour les rapports dynamiques. Il comprend une description détaillée et une formule de calcul – [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Nouvelle section dédiée à la configuration d’Abobe Mobile Services pour permettre l’utilisation des notifications push et des données de point ciblés dans Adobe Campaign – [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Nouvelle section dédiée à la configuration d’Abobe Mobile Services pour permettre l’utilisation des notifications push et des données de point ciblés dans Adobe Campaign – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
 
-Mise à jour des sections sur la configuration et l’implémentation des applications mobiles, avec des procédures plus détaillées pour configurer et envoyer des notifications push – [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+Mise à jour des sections sur la configuration et l’implémentation des applications mobiles, avec des procédures plus détaillées pour configurer et envoyer des notifications push – [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
 
 Mise à jour de la section concernant l’utilisation d’images dans Campaign – [En savoir plus](../../designing/using/images.md#setting-up-image-properties)
 
@@ -911,7 +911,7 @@ Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point c
 
 Rapports dynamiques – [En savoir plus](../../reporting/using/about-dynamic-reports.md)
 
-Intégration avec Dreamweaver (Labs) – [En savoir plus](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Intégration avec Dreamweaver (Labs) – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimisation manuelle de l’heure d’envoi – [En savoir plus](../../sending/using/optimizing-the-sending-time.md)
 
@@ -941,7 +941,7 @@ Export des logs pour un reporting externe – [En savoir plus](../../automatin
 
 API des messages transactionnels – [En savoir plus](../../api/using/get-started-apis.md)
 
-Fonctionnalités marketing pour les messages transactionnels - [En savoir plus](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Capacités marketing des messages transactionnels - [En savoir plus](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
