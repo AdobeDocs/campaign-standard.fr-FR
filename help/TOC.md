@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation du Campaign Standard. '
+user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1703'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -120,19 +120,19 @@ ht-degree: 97%
       + [Définir le contenu du courrier](channels/using/defining-the-direct-mail-content.md)
    + Messages transactionnels {#transactional-messaging}
       + [Prise en main de la messagerie transactionnelle](channels/using/getting-started-with-transactional-msg.md)
-      + [Meilleures pratiques et limites](channels/using/transactional-messaging-limitations.md)
+      + [Bonnes pratiques et limites](channels/using/transactional-messaging-limitations.md)
       + Configuration des événements {#event-configuration}
          + [Configuration d’un événement transactionnel](channels/using/configuring-transactional-event.md)
          + [Publication d’un événement transactionnel](channels/using/publishing-transactional-event.md)
       + Modification des messages transactionnels {#transactional-message-edition}
-         + [Modification d’un message transactionnel](channels/using/editing-transactional-message.md)
+         + [Modifier un message transactionnel](channels/using/editing-transactional-message.md)
          + [Tester un message transactionnel](channels/using/testing-transactional-message.md)
          + [Cycle de vie du message transactionnel](channels/using/publishing-transactional-message.md)
          + [Exécution et surveillance](channels/using/transactional-message-execution.md)
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
-      + [Cas d&#39;utilisation de la messagerie transactionnelle](channels/using/transactional-messaging-use-case.md)
-   + Landing pages {#landing-pages}
+      + [Cas d’utilisation des messages transactionnels](channels/using/transactional-messaging-use-case.md)
+   + Pages de destination {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -184,7 +184,7 @@ ht-degree: 97%
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
    + Gestion de la délivrabilité {#managing-deliverability}
       + [A propos de la délivrabilité](sending/using/about-deliverability.md)
-      + [Démarrer une nouvelle plate-forme](sending/using/starting-new-platform.md)
+      + [Démarrer une nouvelle plateforme](sending/using/starting-new-platform.md)
       + [Contrôle du contenu des emails](sending/using/control-email-content.md)
       + [Amélioration de votre réputation](sending/using/improving-reputation.md)
       + [Certification IP](sending/using/ip-certification.md)
