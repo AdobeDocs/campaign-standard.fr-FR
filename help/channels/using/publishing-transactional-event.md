@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Configuration des messages transactionnels
-description: Découvrez comment configurer les messages transactionnels.
+title: Publication d’un événement transactionnel
+description: Découvrez comment prévisualisation, publier, annuler la publication et supprimer une configuration de événement transactionnel.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 69%
+source-wordcount: '630'
+ht-degree: 68%
 
 ---
 
