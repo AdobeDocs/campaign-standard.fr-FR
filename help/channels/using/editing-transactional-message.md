@@ -1,23 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messages transactionnels basés sur un événement
-description: Découvrez comment créer et publier un message transactionnel basé sur un événement.
-page-status-flag: never-activated
+title: Modifier un message transactionnel
+description: Découvrez comment accéder à un message transactionnel, le modifier et le personnaliser.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1585'
 ht-degree: 63%
 
 ---
 
 
-# Modification d&#39;un message transactionnel {#editing-transactional-message}
+# Modifier un message transactionnel {#editing-transactional-message}
 
 Une fois que vous avez créé et publié un événement<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, le message transactionnel correspondant est automatiquement créé.
 
