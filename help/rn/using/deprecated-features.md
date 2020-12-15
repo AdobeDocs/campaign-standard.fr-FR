@@ -6,11 +6,11 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 93%
 
 ---
 
@@ -40,6 +40,18 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Ligne d'objet prédictive</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> À compter du 15 décembre 2020, la fonctionnalité de ligne d'objet prédictive est abandonnée.</p><br/>
+   <p>Nous vous suggérons d'exploiter les capacités de courriel optimisées par l'IA pour analyser et prédire les taux ouverts, les délais d'envoi optimaux et le taux probable d'exécution en fonction des mesures d'engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">En savoir plus</a></p></br>
+     <p>
+     <em>Suppression des cibles : Avril 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Notifications push avec le SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d'accès à des informations personnelles</a>.</p>
   <p> 
-  <em>Date de suppression prévue : 2021</em></p>
+  <em>Date de suppression prévue : avril 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
