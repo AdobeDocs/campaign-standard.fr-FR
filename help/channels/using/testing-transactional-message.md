@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messages transactionnels basés sur un événement
-description: Découvrez comment créer et publier un message transactionnel basé sur un événement.
+title: Tester un message transactionnel
+description: Découvrez comment tester un message transactionnel en Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 76%
+source-wordcount: '300'
+ht-degree: 73%
 
 ---
 
