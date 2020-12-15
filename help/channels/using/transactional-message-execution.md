@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messages transactionnels basés sur un événement
-description: Découvrez comment créer et publier un message transactionnel basé sur un événement.
+title: Exécution et surveillance des messages transactionnels
+description: Découvrez comment exécuter les messages transactionnels et comment surveiller les messages transactionnels.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 70%
+source-wordcount: '757'
+ht-degree: 68%
 
 ---
 
