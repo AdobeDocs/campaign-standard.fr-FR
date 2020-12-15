@@ -6,11 +6,11 @@ description: '"Découvrez comment personnaliser l''affichage et exécuter des ac
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -77,7 +77,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 * insérer des [champs de personnalisation dynamiques](../../designing/using/personalization.md#inserting-a-personalization-field) dans vos messages ;
 * insérer des [blocs de personnalisation prédéfinis](../../designing/using/personalization.md#adding-a-content-block) ;
 * [personnaliser l&#39;expéditeur](../../designing/using/subject-line.md) d&#39;un email ou d&#39;un SMS ;
-* [personnaliser l&#39;objet](../../designing/using/subject-line.md) d&#39;un email ou utiliser les fonctionnalités d&#39;[optimisation prédictive de l&#39;objet](../../designing/using/subject-line.md#subject-line) pour ce faire ;
+* [Personnaliser la ](../../designing/using/subject-line.md) ligne d’objet d’un courriel
 * créer du [contenu conditionnel dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) ou [sur une landing page](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) ;
 * insérer du [texte dynamique](../../channels/using/defining-dynamic-text.md) dans un SMS ou une notification push.
 
@@ -114,7 +114,7 @@ Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tabl
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
