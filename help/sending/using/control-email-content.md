@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '744'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -36,14 +36,6 @@ Certains FAI vérifient la validité de l&#39;adresse d&#39;expéditeur (From) a
 ![](assets/delivery_content_edition16.png)
 
 Voir à ce propos la section [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender).
-
-## Objet {#subject-line}
-
-Lors de l&#39;édition d&#39;un email, vous pouvez tester différents objets et obtenir une estimation de son taux d&#39;ouverture avant l&#39;envoi. Voir à ce propos la section [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md).
-
-![](assets/predictive_subject_line_example.png)
-
-Pour plus d&#39;informations sur la définition de l&#39;objet d&#39;un email, voir [cette section](../../designing/using/subject-line.md).
 
 ## Optimisation de l&#39;heure d&#39;envoi {#send-time-optimization}
 
