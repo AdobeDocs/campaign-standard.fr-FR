@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Messages transactionnels basés sur un événement
-description: Découvrez comment créer et publier un message transactionnel basé sur un événement.
+title: Cycle de vie du message transactionnel
+description: Découvrez comment publier, suspendre, annuler la publication et supprimer un message transactionnel.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 77%
 
 ---
@@ -99,7 +99,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 ![](assets/message-center_13.png)
 
 **Rubriques connexes** :
-* [Modification d’un message transactionnel](../../channels/using/editing-transactional-message.md)
+* [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md)
 * [Tester un message transactionnel](../../channels/using/testing-transactional-message.md)
 * [Intégrer le déclenchement du événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
