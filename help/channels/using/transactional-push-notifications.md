@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: Notifications push transactionnelles
-description: Découvrez comment créer et publier une notification push transactionnelle.
+description: Découvrez comment envoyer des notifications Push transactionnelles avec Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1363'
 ht-degree: 57%
 
 ---
@@ -43,7 +43,7 @@ Pour envoyer une notification Push transactionnelle à tous les utilisateurs qui
 
 >[!NOTE]
 >
->Vous pouvez toujours personnaliser le contenu d’une notification Push transactionnelle basée sur un événement à l’aide des [attributs de événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (données du événement) et [enrichissement de événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (données de la base de données Campaign). Voir [l&#39;exemple ci-dessous](#sending-event-based-transactional-push-notification).
+>Vous pouvez toujours personnaliser le contenu d’une notification Push transactionnelle basée sur un événement en utilisant [attributs de événement](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (données du événement) et [enrichissement de événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (données de la base de données Campaign). Voir [l&#39;exemple ci-dessous](#sending-event-based-transactional-push-notification).
 
 L’événement doit contenir les trois éléments suivants :
 
