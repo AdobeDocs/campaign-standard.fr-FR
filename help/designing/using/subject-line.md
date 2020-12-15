@@ -6,10 +6,10 @@ description: Découvrez comment définir l’objet et l’expéditeur d’un ema
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '386'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ L’objet de l’email est obligatoire pour préparer et envoyer le message.
    ![](assets/email_designer_subject.png)
 
 1. Vous pouvez également ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique à la ligne d’objet en cliquant sur les icônes correspondantes. Pour plus d’informations à ce sujet, voir [Personnalisation](../../designing/using/personalization.md).
-1. Vous pouvez essayer différents objets afin d’obtenir une estimation du taux d’ouverture de votre email avant de l’envoyer. Voir à ce propos la section [Test de l’objet d’un email](../../sending/using/testing-subject-line-email.md).
 
 ## Définition de l’expéditeur d’un email{#email-sender}
 
