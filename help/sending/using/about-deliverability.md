@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '657'
+translation-type: tm+mt
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,6 @@ Voici une liste de points clés à vérifier pour assurer une bonne délivrabili
 Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
 * [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
 * [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
-* [Test de l&#39;objet d&#39;un email](../../sending/using/testing-subject-line-email.md)
 * [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
