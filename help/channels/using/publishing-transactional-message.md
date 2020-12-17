@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '681'
-ht-degree: 77%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 Lorsque le [message transactionnel](../../channels/using/editing-transactional-message.md) est prêt à être envoyé, il peut être publié.
 
-Les étapes de publication, de mise en pause, d’annulation de publication et de suppression d’un message transactionnel sont détaillées ci-dessous.
+Les étapes de publication, de mise en pause, de dépublication et de suppression d’un message transactionnel sont détaillées ci-dessous.
 
 >[!IMPORTANT]
 >
@@ -28,15 +28,15 @@ Les étapes de publication, de mise en pause, d’annulation de publication et d
 
 ## Processus de publication de messages transactionnels {#transactional-messaging-pub-process}
 
-Le graphique ci-dessous illustre le processus global de publication des messages transactionnels.
+Le graphique ci-dessous illustre le processus de publication de messages transactionnels.
 
 ![](assets/message-center_pub-process.png)
 
 **Rubriques connexes :**
-* [Publier un message transactionnel         ](#publishing-a-transactional-message)
-* [Suspension d&#39;un message transactionnel](#suspending-a-transactional-message-publication)
-* [Dépublier un message transactionnel         ](#unpublishing-a-transactional-message)
-* [Publication d’un événement](../../channels/using/publishing-transactional-event.md)
+* [Publier un message transactionnel](#publishing-a-transactional-message)
+* [Mettre en pause un message transactionnel](#suspending-a-transactional-message-publication)
+* [Dépublier un message transactionnel](#unpublishing-a-transactional-message)
+* [Publication d&#39;un événement](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
 
@@ -88,7 +88,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Publier un message transactionnel          {#publishing-a-transactional-message}
 
-Une fois votre message transactionnel modifié et testé, vous pouvez le publier. Cliquez simplement sur le bouton **[!UICONTROL Publier]**.
+Une fois que vous avez validé et testé le message transactionnel, vous pouvez le publier. Cliquez sur le bouton **[!UICONTROL Publier]**.
 
 ![](assets/message-center_12.png)
 
@@ -101,13 +101,13 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 **Rubriques connexes** :
 * [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md)
 * [Tester un message transactionnel](../../channels/using/testing-transactional-message.md)
-* [Intégrer le déclenchement du événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Suspendre la publication d’un message transactionnel           {#suspending-a-transactional-message-publication}
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d’attente, dans la base de données Adobe Campaign.
 
-Les événements placés en file d&#39;attente sont conservés pendant une période définie dans l&#39;API REST (voir la [documentation de l&#39;API REST](../../api/using/managing-transactional-messages.md)) ou dans le événement de déclenchement si vous utilisez le service principal Triggers (voir [À propos de Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Les événements placés dans la file d’attente sont conservés pendant une période définie dans l’API REST (voir la [documentation sur l&#39;API REST](../../api/using/managing-transactional-messages.md)) ou dans l’événement trigger si vous utilisez le core service Triggers (voir [À propos des Triggers Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ Désormais, même si l’événement est déclenché via votre site web, les mes
 
 >[!NOTE]
 >
->Pour publier à nouveau le message, vous devez revenir à la configuration de événement correspondante, [publier le événement](../../channels/using/publishing-transactional-event.md), puis [publier le message](#publishing-a-transactional-message).
+>Pour publier de nouveau le message, vous avez besoin de revenir à la configuration de l’événement correspondant, de [publier l&#39;événement](../../channels/using/publishing-transactional-event.md), et ensuite de [publier le message](#publishing-a-transactional-message).
 
 Si vous dépubliez un message transactionnel mis en pause, vous devrez attendre jusqu’à 24 heures avant de pouvoir le republier. Ce délai permet au workflow **[!UICONTROL Nettoyage de la base]** de nettoyer tous les événements qui ont été envoyés dans la file d’attente.
 
