@@ -6,9 +6,9 @@ description: Découvrez comment personnaliser un email dans le Concepteur d'emai
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2715'
 ht-degree: 100%
 
@@ -290,7 +290,7 @@ La définition du contenu dynamique est différente de la [définition des condi
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor)
 
-### Ordre de priorité          {#order-of-priority}
+### Ordre de priorité         {#order-of-priority}
 
 Lorsque vous définissez un contenu dynamique dans l&#39;éditeur d&#39;expression, l&#39;ordre de priorité est défini de la manière suivante :
 
@@ -371,7 +371,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 Vos contenus dynamiques sont correctement paramétrés.
 
-### Paramétrer le texte          {#configuring-text}
+### Paramétrer le texte         {#configuring-text}
 
 Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétrés comme suit :
 
@@ -401,7 +401,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux textes sont paramétré
 
 Vos champs de personnalisation sont correctement insérés dans le contenu dynamique choisi.
 
-### Prévisualiser l&#39;email          {#previewing-emails}
+### Prévisualiser l&#39;email         {#previewing-emails}
 
 La prévisualisation permet de vérifier que les champs de personnalisation et les contenus dynamiques sont paramétrés correctement avant d&#39;envoyer les **[!UICONTROL Bons à tirer]**. Différents profils de test qui correspondent aux cibles de l&#39;email peuvent être sélectionnés lors de la prévisualisation.
 
