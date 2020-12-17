@@ -6,11 +6,11 @@ description: Découvrez comment gérer les messages transactionnels avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## A propos des messages transactionnels
 
-Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de ce événement dans votre site Web.
+Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site web.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API)
 
-* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration du événement (voir [cette section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement (voir [cette section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### En-tête de requête POST
 
