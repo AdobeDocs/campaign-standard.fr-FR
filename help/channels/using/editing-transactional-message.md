@@ -11,24 +11,24 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '1585'
-ht-degree: 63%
+ht-degree: 99%
 
 ---
 
 
-# Modifier un message transactionnel {#editing-transactional-message}
+# Modification d’un message transactionnel {#editing-transactional-message}
 
 Une fois que vous avez créé et publié un événement<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, le message transactionnel correspondant est automatiquement créé.
 
-Les étapes de configuration et de publication du événement sont présentées dans les sections [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md) et [Publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md).
+Les étapes de configuration et de publication d’événement sont présentées dans les sections [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md) et [Publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md).
 
-Les étapes d&#39;accès, de modification et de personnalisation de ce message sont décrites ci-dessous.
+Les étapes d’accès, de modification et de personnalisation de ce message sont décrites ci-dessous.
 
 >[!IMPORTANT]
 >
 >Seuls les utilisateurs dotés du rôle [Administration](../../administration/using/users-management.md#functional-administrators) peuvent accéder aux messages transactionnels et les modifier.
 
-Une fois votre message prêt, il peut être testé et publié. Voir [Test d&#39;un message transactionnel](../../channels/using/testing-transactional-message.md) et [cycle de vie du Message transactionnel](../../channels/using/publishing-transactional-message.md).
+Une fois votre message prêt, il peut être testé et publié. Voir [Test d&#39;un message transactionnel](../../channels/using/testing-transactional-message.md) et [Cycle de vie du message transactionnel](../../channels/using/publishing-transactional-message.md).
 
 ## Accès aux messages transactionnels {#accessing-transactional-messages}
 
@@ -43,7 +43,7 @@ Pour accéder au message transactionnel que vous avez créé :
 
    ![](assets/message-center_message-board.png)
 
-Vous pouvez également accéder directement à un message transactionnel via le lien situé dans la zone de gauche de l’écran de configuration du événement correspondant. Voir [Prévisualisation et publication d’un événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+Vous pouvez également accéder directement à un message transactionnel via le lien situé dans la zone latérale gauche de l’écran de configuration de l’événement correspondant. Voir [Prévisualisation et publication de l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Personnaliser un message transactionnel          {#personalizing-a-transactional-message}
 
@@ -51,13 +51,13 @@ Pour modifier et personnaliser un message transactionnel, procédez comme suit.
 
 >[!NOTE]
 >
->Cette section décrit comment modifier un message transactionnel **basé sur un événement**. Les caractéristiques des messages transactionnels **basés sur le profil** sont détaillées [ci-dessous](#profile-transactional-message-specificities).
+>Cette section décrit comment modifier un message transactionnel **basé sur un événement**. Les caractéristiques des messages transactionnels **basés sur un profil** sont présentées [ci-dessous](#profile-transactional-message-specificities).
 >
 >Les étapes de configuration pour créer un message transactionnel basé sur un événement sont présentées dans [cette section](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-Par exemple, vous souhaitez envoyer une notification aux utilisateurs de votre site Web qui ont ajouté des produits à leur panier et qui quittent le site sans avoir à effectuer leurs achats. Cet exemple est présenté dans la section [Principe d&#39;exploitation de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle).
+Par exemple, vous souhaitez envoyer une notification aux utilisateurs de votre site web qui ont ajouté des produits à leur panier et qui quittent le site sans avoir effectuer leurs achats. Cet exemple est présenté dans la section [Principe de fonctionnement de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle).
 
-1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier l’objet et le contenu de votre message. Dans cet exemple, sélectionnez un modèle contenant des images et du texte. Pour plus d’informations sur les modèles de contenu de courrier électronique, voir [Conception de courriers électroniques à l’aide de modèles](../../designing/using/using-reusable-content.md#designing-templates).
+1. Cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier l’objet et le contenu de votre message. Dans cet exemple, sélectionnez un modèle contenant des images et du texte. Pour plus d’informations sur les modèles de contenu d’email, voir [Conception d&#39;emails à l&#39;aide de modèles](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -73,7 +73,7 @@ Par exemple, vous souhaitez envoyer une notification aux utilisateurs de votre s
 
    ![](assets/message-center_7.png)
 
-1. Vous pouvez également enrichir le contenu de votre message. Pour ce faire, ajoutez les champs du tableau que vous avez lié à votre configuration de événement (voir [Enrichissement du événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Dans cet exemple, sélectionnez le champ **[!UICONTROL Titre (formule de politesse)]** de la table **[!UICONTROL Profil]** dans **[!UICONTROL Contexte]** > **[!UICONTROL événement en temps réel]** > **[!UICONTROL contexte du Événement]**.
+1. Vous pouvez également enrichir le contenu de votre message. Pour ce faire, ajoutez les champs de la table que vous avez liée à votre configuration d&#39;événement (voir [Enrichir l&#39;événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Dans notre exemple, sélectionnez le champ **[!UICONTROL Titre (formule de salutation)]** dans la table **[!UICONTROL Profil]** via **[!UICONTROL Contexte]** > **[!UICONTROL Événement temps réel]** > **[!UICONTROL Contexte de l&#39;événement]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,19 +87,19 @@ Par exemple, vous souhaitez envoyer une notification aux utilisateurs de votre s
 
    ![](assets/message-center_9.png)
 
-   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Pour plus d&#39;informations à ce sujet, voir [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Voir à ce propos la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Utiliser des listes de produits dans un message transactionnel     {#using-product-listings-in-a-transactional-message}
 
-Lors de la modification du contenu d’un courrier électronique transactionnel, vous pouvez créer des listes de produits référençant une ou plusieurs collections de données. Par exemple, dans un courrier électronique d’abandon de panier, vous pouvez inclure une liste de tous les produits qui se trouvaient dans le panier des utilisateurs lorsqu’ils ont quitté votre site Web, avec une image, le prix et un lien vers chaque produit.
+Lors de la modification du contenu d’un email transactionnel, vous pouvez créer des listes de produits référençant une ou plusieurs collections de données. Par exemple, dans un email d’abandon de panier, vous pouvez inclure la liste de tous les produits figurant dans le panier de l’utilisateur au moment où il a quitté le site web, avec une image, le prix et un lien vers chaque produit.
 
 >[!IMPORTANT]
 >
->Les listes de produits ne sont disponibles que pour le canal de messagerie électronique, lorsque vous modifiez le contenu des messages électroniques transactionnels via l’interface [Concepteur de messages électroniques](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Les listes de produits ne sont disponibles que pour le canal Email, lorsque vous modifiez le contenu des emails transactionnels via l’interface du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Pour ajouter une liste de produits abandonnés dans un message transactionnel, suivez les étapes ci-dessous.
 
-Vous pouvez également regarder [cet ensemble de vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) expliquant les étapes requises pour configurer les listes de produits dans un courrier électronique transactionnel.
+Vous pouvez également regarder [cette série de vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=fr#configure-product-listings-in-transactional-emails) expliquant les étapes nécessaires à la configuration de listes de produits dans un email transactionnel.
 
 >[!NOTE]
 >
@@ -110,9 +110,9 @@ Vous pouvez également regarder [cet ensemble de vidéos](https://experienceleag
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Dans le message transactionnel, cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le contenu de l’email.
-1. Placez un composant de structure dans l’espace de travail. Pour en savoir plus sur ce sujet, voir [Définition de la structure du courrier électronique](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Placez un composant de structure dans l’espace de travail. Voir à ce propos la section [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d’image et un composant de bouton. Pour plus d’informations à ce sujet, voir [Utilisation des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d’image et un composant de bouton. Voir à ce propos la section [Utiliser des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Sélectionnez le composant de structure que vous venez de créer et cliquez sur l’icône **[!UICONTROL Activer la liste de produits]** dans la barre d’outils contextuelle.
 
@@ -129,7 +129,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL Colonne]** n’est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]** ). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d&#39;informations sur la sélection des composants de structure, voir [Définition de la structure du courrier électronique](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >L’option **[!UICONTROL Colonne]** n’est disponible que lorsque vous utilisez un composant de structure multicolonne (**[!UICONTROL Colonne 2:2]**, **[!UICONTROL Colonne 3:3]** et **[!UICONTROL Colonne 4:4]** ). Lors de l’édition de la liste de produits, ne remplissez que la première colonne. Les autres colonnes ne seront pas prises en compte. Pour plus d’informations sur la sélection de composants de structure, voir [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Sélectionnez la collection de données que vous avez créée lors de la configuration de l’événement associé au message transactionnel. Elle se trouve sous le nœud **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel]** > **[!UICONTROL Contexte de l’événement]**.
 
@@ -202,41 +202,41 @@ Pour plus d’informations sur la création d’une collection et de champs asso
 
    Le contenu de remplacement sera affiché si la collection est vide lorsque l’événement est déclenché, par exemple lorsqu’un client ne possède aucun produit dans son panier.
 
-1. Dans le volet Paramètres, éditez les styles de la liste de produits. Pour plus d’informations sur ce sujet, voir [Gestion des styles de courrier électronique](../../designing/using/styles.md).
+1. Dans le volet Paramètres, éditez les styles de la liste de produits. Voir à ce propos la section [Gérer les styles d&#39;email](../../designing/using/styles.md).
 1. Prévisualisez l’email en utilisant un profil de test associé à l’événement transactionnel adéquat et pour lequel vous avez défini des données de collection. Par exemple, ajoutez les informations suivantes dans la section **[!UICONTROL Données de l’événement]** pour le profil de test que vous souhaitez utiliser :
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
    Pour plus d’informations sur la définition d’un profil de test dans un message transactionnel, consultez [cette section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
-## Spécifications des messages transactionnels en fonction du profil {#profile-transactional-message-specificities}
+## Caractéristiques des messages transactionnels basés sur un profil {#profile-transactional-message-specificities}
 
-Vous pouvez envoyer des messages transactionnels en fonction de profils marketing client, ce qui vous permet d’exploiter toutes les informations de profil pour personnaliser le contenu du message, d’utiliser le lien de désinscription et d’appliquer des règles de typologie marketing telles que [règles de fatigue](../../sending/using/fatigue-rules.md).
+Vous pouvez envoyer des messages transactionnels en fonction de profils marketing client, ce qui vous permet d’exploiter toutes les informations de profil pour personnaliser le contenu du message, d’utiliser le lien de désabonnement et d’appliquer des règles de typologie marketing telles que [règles de fatigue](../../sending/using/fatigue-rules.md).
 
-* Pour en savoir plus sur les différences entre les messages transactionnels basés sur le événement et ceux basés sur le profil, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* Pour en savoir plus sur les différences entre les messages transactionnels basés sur un événement et ceux basés sur un profil, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
-* Les étapes de configuration pour créer un message transactionnel basé sur un profil sont détaillées dans [cette section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+* Les étapes de configuration pour créer un message transactionnel basé sur un profil sont présentées dans [cette section](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 <!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-Les étapes de création, de modification et de personnalisation d’un message transactionnel de profil sont pratiquement identiques à celles d’un message transactionnel de événement.
+Les étapes pour créer, personnaliser et publier un message transactionnel de profil sont les mêmes que pour un message transactionnel d’événement.
 
 Les différences sont énumérées ci-dessous.
 
-1. [Accédez au message transactionnel qui a été créé afin de l&#39;éditer.](#accessing-transactional-messages)
-1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre les modèles de courrier électronique transactionnel, vous pouvez également choisir tout modèle de courrier électronique ciblant la ressource **[!UICONTROL Profil]**.
+1. [Accédez au message transactionnel qui a été créé afin de l’éditer.](#accessing-transactional-messages)
+1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre les modèles d’email transactionnel, vous pouvez également choisir tout modèle d’email ciblant la ressource **[!UICONTROL Profil]**.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. Sélectionnez le modèle d&#39;email par défaut. Comme tous les courriers électroniques marketing, il comprend un **lien de désinscription**.
+1. Sélectionnez le modèle d’email par défaut. Comme tous les emails marketing, il contient un **lien de désabonnement**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Pour en savoir plus sur les modèles, voir [cette section](../../designing/using/using-reusable-content.md#content-templates).
+   Pour plus d’informations sur les modèles, voir [cette section](../../designing/using/using-reusable-content.md#content-templates).
 
-1. En outre, contrairement aux configurations basées sur des événements en temps réel, vous avez **accès direct à toutes les informations de profil** pour personnaliser votre message. Vous pouvez ajouter [champs de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme vous le feriez pour tout autre courrier électronique marketing standard.
+1. De plus, contrairement aux configurations basées sur des événements temps réel, vous disposez d’un **accès direct à toutes les informations de profil** pour personnaliser votre message. Vous pouvez ajouter des [champs de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme vous le feriez pour tout autre email marketing standard.
 
-1. Enregistrez vos modifications avant de publier le message. Voir à ce propos la section [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Enregistrez vos modifications avant de publier le message. Voir à ce propos la section [Publication d’un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
