@@ -6,11 +6,11 @@ description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécif
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1277'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
-Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
 Les administrateurs peuvent gérer les utilisateurs depuis la console d’administration. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations à ce sujet, consultez la documentation relative à la [console d’administration](https://helpx.adobe.com/fr/enterprise/using/users.html).
 
@@ -37,7 +37,7 @@ Pour accéder à l’interface de gestion des utilisateurs à partir d’Adobe C
 
 * Vidéo [Gérer les permissions utilisateur](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -89,7 +89,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Utiliser l’édition avancée d’expressions](../../automating/using/editing-queries.md#about-query-editor) : utilisez des fonctions avancées pour manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 * [Exporter des listes](../../automating/using/exporting-lists.md) et [importer des données à l’aide de modèles d’import existants](../../automating/using/importing-data-with-import-templates.md).
 
-### Utilisateurs de base           {#basic-users}
+### Utilisateurs de base          {#basic-users}
 
 Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les marketeurs peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
@@ -158,6 +158,6 @@ Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
 
 Cette vidéo montre comment gérer les droits d’accès des utilisateurs.
 
->[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
