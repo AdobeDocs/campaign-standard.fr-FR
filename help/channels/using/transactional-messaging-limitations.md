@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
@@ -28,11 +28,11 @@ Cette section liste les meilleures pratiques et les limites que vous devez conna
 
 Seuls les utilisateurs dotés du rôle [Administration](../../administration/using/users-management.md#functional-administrators) peuvent configurer des événements transactionnels et des messages transactionnels d’accès.
 
-## Configuration et publication du événement {#design-and-publication}
+## Configuration et publication d’événement {#design-and-publication}
 
-Lorsque vous configurez et publiez des événements transactionnels, certaines des étapes que vous devez effectuer ne peuvent pas être annulées. Vous devez connaître les limites suivantes :
+Au cours de la configuration et de la publication de messages transactionnels, certaines des étapes à suivre ne peuvent pas être annulées. Vous devez connaître les limites suivantes :
 
-* Les canaux disponibles pour la messagerie transactionnelle sont les suivants : **[!UICONTROL Courriel]**, **[!UICONTROL Mobile (SMS)]** et **[!UICONTROL Notification Push]**.
+* Les canaux disponibles pour la messagerie transactionnelle sont les suivants : **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** et **[!UICONTROL Notification push]**.
 * Un seul canal peut être utilisé pour chaque configuration d’événement. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Une fois l’événement créé, vous ne pouvez plus modifier le canal. Par conséquent, si un message n&#39;est pas envoyé avec succès, vous devez concevoir le mécanisme permettant de l&#39;envoyer depuis un autre canal à l&#39;aide d&#39;un workflow. Voir la section [Données de workflow et processus](../../automating/using/get-started-workflows.md).
 * Une fois l&#39;événement créé, vous ne pouvez pas modifier la dimension de ciblage (**[!UICONTROL Evénement temps réel]** ou **[!UICONTROL Profil]**). Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
@@ -51,20 +51,20 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 
 ### Messages transactionnels basés sur un événement.
 
-* les informations de personnalisation proviennent des données contenues dans l&#39;événement. Voir [Configuration des messages transactionnels basée sur le Événement](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* Les informations de personnalisation proviennent des données contenues dans l’événement. Voir [Configuration des messages transactionnels basés sur un événement](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * Vous ne **pouvez pas** utiliser les blocs de contenu **[!UICONTROL Lien de désabonnement]** dans un message transactionnel basé sur un événement.
-* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichissement d’un événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) et [Personnalisation d’un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* Comme les messages transactionnels basés sur un événement ne contiennent pas d&#39;informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d&#39;un enrichissement avec des profils.
+* Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message. Il est toutefois possible d’enrichir le contenu de votre message transactionnel en utilisant des informations de la base de données Adobe Campaign. Voir [Enrichissement d&#39;un événement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) et [Personnalisation d&#39;un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Comme les messages transactionnels basés sur un événement ne contiennent pas d’informations sur les profils, ils ne sont pas compatibles avec les règles de fatigue, même dans le cas d’un enrichissement avec des profils.
 
 ### Messages transactionnels basés sur un profil  
 
-* les informations de personnalisation peuvent provenir des données contenues dans l&#39;événement ou de l&#39;enregistrement de profil réconcilié. Voir [Configuration des messages transactionnels basée sur le Profil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) et [Spécifications des messages transactionnels basées sur le Profil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* Les informations de personnalisation peuvent provenir des données contenues dans l’événement ou de l’enregistrement de profil réconcilié. Voir [Configuration des messages transactionnels basés sur un profil](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) et [Caractéristiques des messages transactionnels basés sur un profil](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * Vous **pouvez** utiliser les blocs de contenu **[!UICONTROL Lien de désabonnement]** dans un message transactionnel basé sur un profil. Voir [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * Les règles de fatigue sont compatibles avec les messages transactionnels basés sur un profil. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
 ### Listes de produits
 
-Notez que les listes de produits sont disponibles uniquement dans les messages électroniques **transactionnels**. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Les listes de produits ne sont disponibles que dans les **emails transactionnels**. Voir [Utiliser des listes de produits dans un message transactionnel](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Marques {#permissions-and-branding}
 
