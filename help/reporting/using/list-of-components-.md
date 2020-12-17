@@ -6,11 +6,11 @@ description: Cette section contient la liste de tous les composants disponibles 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 Pour plus d&#39;informations sur la compatibilité entre les dimensions et les mesures, consultez ce [tableau](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
 
 ## Dimensions {#dimensions}
 
@@ -136,7 +136,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS         {#email-and-sms-metrics}
+### Mesures des emails et SMS        {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push         {#push-notification-metrics}
+### Mesures des notifications push        {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -322,7 +322,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App         {#in-app-metrics}
+### Mesures In-App        {#in-app-metrics}
 
 <table> 
  <thead> 
