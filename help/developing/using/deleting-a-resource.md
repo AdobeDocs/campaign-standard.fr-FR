@@ -6,11 +6,11 @@ description: 'Découvrez comment supprimer une ressource. '
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,4 +57,4 @@ Votre ressource est supprimée du modèle de données.
 
 >[!NOTE]
 >
->Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Annulation de la publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
