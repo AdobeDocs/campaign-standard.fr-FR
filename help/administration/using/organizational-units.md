@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 
 >[!IMPORTANT]
 >
->Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d&#39;un utilisateur ou d&#39;un groupe d&#39;utilisateur, ne le rattachez pas à l&#39;entité **[!UICONTROL Toutes.]** Nous vous recommandons d&#39;ajouter l&#39;option **Accéder aux champs de gestion des autorisations** avant d&#39;importer des profils. Pour plus d&#39;informations à ce sujet, consultez cette [section](../../administration/using/organizational-units.md#partitioning-profiles).
+>Si un utilisateur n&#39;est rattaché à aucune entité, il ne pourra pas se connecter à Adobe Campaign. Si vous souhaitez restreindre les accès d’un utilisateur ou d’un groupe d’utilisateur, ne le rattachez pas à l’entité **[!UICONTROL Tous]**. Nous vous recommandons d’ajouter l’option **Accéder aux champs de gestion des autorisations** avant d’importer des profils. Voir à ce propos cette [section](../../administration/using/organizational-units.md#partitioning-profiles).
 >
 >Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
@@ -97,16 +97,16 @@ Alors que les profils de l&#39;entité organisationnelle Geometrixx seront en le
 
 >[!IMPORTANT]
 >
->Nous vous recommandons d’ajouter cette option avant d’importer des profils, car les utilisateurs ne peuvent pas accéder aux profils sans unité d’organisation.
+>Nous vous recommandons d’ajouter cette option avant d’importer des profils, car les utilisateurs ne peuvent pas accéder aux profils sans entité organisationnelle.
 >
->Si vous avez déjà importé votre base de données client, une mise à jour est nécessaire pour définir les valeurs des unités organisationnelles sur les profils déjà importés.
+>Si vous avez déjà importé votre base client, il est nécessaire d’effectuer une mise à jour afin de définir les valeurs de l’entité organisationnelle sur les profils déjà importés.
 
 Si votre organisation doit isoler les profils contactés par chacune de vos marques, vous pouvez les partitionner en fonction de leur entité organisationnelle.
 
 Par défaut, les champs de l&#39;entité organisationnelle ne sont pas disponibles dans les profils et doivent être ajoutés.
 
 1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **Administration > Développement > Ressources personnalisées**.
-1. Sélectionnez **Profil** ou créez une ressource personnalisée pour étendre les profils. Pour plus d&#39;informations sur la façon d&#39;étendre les profils, consultez cette [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
+1. Sélectionnez **Profil** ou créez une ressource personnalisée pour étendre les profils. Pour plus d’informations sur l&#39;extension des profils, consultez cette [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
 1. Cochez la case **Ajouter les champs de gestion des autorisations d&#39;accès** pour ajouter les entités organisationnelles à l&#39;extension **Profil**.
 
    ![](assets/user_management_9.png)
