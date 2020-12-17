@@ -6,11 +6,11 @@ description: Pour configurer un message de confirmation pour les profils s'abonn
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c276c468627208b584a0342414cdbe382e349f50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1420'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,21 +78,21 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
 L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;email transactionnel.
 
-#### Conception du message de confirmation     {#design-the-confirmation-message-1}
+#### Conception du message de confirmation    {#design-the-confirmation-message-1}
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement que vous venez de publier.
 
 1. Depuis le logo Adobe Campaign, sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** et cliquez sur **[!UICONTROL Messages transactionnels]**.
 1. Sélectionnez l&#39;email transactionnel correspondant à l&#39;événement que vous venez de publier.
 
-1. Cliquez sur la section **[!UICONTROL Contenu]** et sélectionnez un modèle d&#39;email. Pour plus d’informations sur la modification d’un contenu de message transactionnel, voir [Modification de messages transactionnels](../../channels/using/editing-transactional-message.md).
+1. Cliquez sur la section **[!UICONTROL Contenu]** et sélectionnez un modèle d&#39;email. Pour en savoir plus sur la modification du contenu d&#39;un message transactionnel, voir [Modification des messages transactionnels](../../channels/using/editing-transactional-message.md).
 1. Comme vous pouvez accéder directement à tous les champs à partir de la ressource **[!UICONTROL Service]**, vous pouvez sélectionner n’importe quel champ dans le nœud **[!UICONTROL Contexte]** > **[!UICONTROL Evénement temps réel (rtEvent)]** > **[!UICONTROL Contexte de l’événement (ctx)]** > **[!UICONTROL Service]** pour personnaliser votre contenu.
 
    ![](assets/confirmation_personalization-service.png)
 
    Pour plus d&#39;informations sur la personnalisation d&#39;un message transactionnel, voir [cette section](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Prévisualisez votre message à l&#39;aide d&#39;un profil de test. Pour plus d&#39;informations à ce sujet, voir [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. Prévisualisez votre message à l&#39;aide d&#39;un profil de test. Voir à ce propos la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer votre contenu.
 1. Publiez le message transactionnel. Voir [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
@@ -134,7 +134,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Comme le message transactionnel est référencé dans la landing page, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement     {#create-the-event-2}
+#### Création de l&#39;événement    {#create-the-event-2}
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
@@ -160,7 +160,7 @@ L&#39;email de confirmation est un [message transactionnel](../../channels/using
    >
    >Vous pourrez ainsi utiliser les champs de personnalisation de la ressource [!UICONTROL Service] dans le message transactionnel.
 
-#### Conception du message de confirmation     {#design-the-confirmation-message-2}
+#### Conception du message de confirmation    {#design-the-confirmation-message-2}
 
 Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
