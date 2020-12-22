@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 98%
@@ -68,7 +68,7 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
-Cette collection peut être utilisée dans un email transactionnel pour ajouter des [listes de produits](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc. pour chaque produit de la liste.
+Cette collection peut être utilisée dans un email transactionnel pour ajouter des [listes de produits](../../designing/using/using-product-listings.md) au contenu du message, par exemple une liste de produits, avec le prix, le numéro de référence, la quantité, etc. pour chaque produit de la liste.
 
 1. Dans la section **[!UICONTROL Collections]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 
@@ -96,7 +96,7 @@ Voici l’aperçu de l’API pour cet exemple :
 **Rubriques connexes :**
 
 * [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Utiliser des listes de produits dans un message transactionnel ](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Utiliser des listes de produits dans un message transactionnel ](../../designing/using/using-product-listings.md)
 * [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enrichir l’événement {#enriching-the-transactional-message-content}
