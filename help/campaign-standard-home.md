@@ -5,11 +5,11 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Mise à jour du calendrier des versions](rn/using/release-planning.md)**<br/> Les dates des prochaines versions de février 2021 ont été ajoutées au calendrier des versions
+* **[Mettre à jour les ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rebonds durs incorrectsDécouvrez comment mettre à jour les rebonds durs incorrects après une panne de Gmail
+
+* **[Planification des ](rn/using/release-planning.md)**<br/> versionsLes prochaines dates de publication de février 2021 ont été ajoutées à la planification des versions
 
 * **[Populations témoins](sending/using/control-group.md)**<br/> Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
@@ -74,5 +76,5 @@ ht-degree: 100%
 | [Documentation relative au Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Calendrier des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
-| [Fonctionnalités obsolètes et supprimées](rn/using/deprecated-features.md)) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
+| [Fonctionnalités obsolètes et supprimées](rn/using/deprecated-features.md) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
 | [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
