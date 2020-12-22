@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6385'
-ht-degree: 99%
+source-wordcount: '6400'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 ## Décembre 2020 {#doc-updates-december-2020}
 
-La section de messagerie transactionnelle a été réorganisée et améliorée, avec une section de démarrage clarifiée comprenant [schémas améliorés](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) et un [cas d&#39;utilisation de bout en bout](../../channels/using/transactional-messaging-use-case.md) pour illustrer l&#39;ensemble du processus. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
+**La** connectivité prédictive des sujets est désormais obsolète. [En savoir plus](../../rn/using/deprecated-features.md)
 
-La section Confidentialité a été déplacée – [En savoir plus](../../start/using/privacy.md)
+La section de prise en main de **messagerie transactionnelle** comprend désormais [schémas améliorés](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) et [cas d&#39;utilisation de bout en bout](../../channels/using/transactional-messaging-use-case.md) pour illustrer le processus de mise en oeuvre. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
-Une nouvelle page sur l’accessibilité a été ajoutée pour en savoir plus sur la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard. [En savoir plus](../../start/using/accessibility.md)
+La section **Confidentialité** a été déplacée [ici](../../start/using/privacy.md).
 
-Une nouvelle limitation a été ajoutée à la section Messages transactionnels, indiquant que pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100. [En savoir plus](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+Une nouvelle page **Accessibilité** est disponible : il détaille la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard. [En savoir plus](../../start/using/accessibility.md)
+
+Une note d&#39;avertissement a été ajoutée, indiquant que, pour des performances optimales, le nombre de messages transactionnels publiés devrait rester inférieur à 100. [En savoir plus](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+La page des paramètres et protocoles du connecteur SMS a été déplacée [ici](../../administration/using/sms-protocol.md).
+
+La section **Utilisation des listes de produits dans un message transactionnel** a été déplacée [ici](../../designing/using/using-product-listings.md).
 
 ## Novembre 2020 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Ajout d’informations à la section sur l’activité Extraction de fichier. Ce
 
 Disponibilité générale du Concepteur d’email – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Listes de produits dans les emails transactionnels – [En savoir plus](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Listes de produits dans les emails transactionnels – [En savoir plus](../../designing/using/using-product-listings.md)
 
 Vue mobile dans le Concepteur d’email – [En savoir plus](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
