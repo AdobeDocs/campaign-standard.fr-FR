@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Prévisualiser des diffusions {#previewing-messages}
 
-## Prévisualiser l&#39;email         {#previewing-emails}
+## Prévisualiser l&#39;email          {#previewing-emails}
 
 Campaign Standard vous permet de prévisualiser les messages avant l’envoi, afin de vérifier leur personnalisation et la manière dont vos destinataires les verront.
 
@@ -117,7 +117,7 @@ Pour **In-App**, Campaign Standard vous permet de prévisualiser les messages à
 
 Pour prévisualiser un message In-App à l&#39;aide de profils de test, procédez comme suit :
 
-1. Une fois que vous avez renseigné les **[!UICONTROL propriétés]** de votre message In-App, sélectionné vos audiences et défini vos **[!UICONTROL triggers]**, vous pouvez personnaliser votre diffusion. Pour plus d’informations, voir [Personnalisation d’un message In-App](../../channels/using/customizing-an-in-app-message.md).
+1. Une fois que vous avez renseigné les **[!UICONTROL propriétés]** de votre message In-App, sélectionné vos audiences et défini vos **[!UICONTROL déclencheurs]**, vous pouvez personnaliser votre diffusion. Pour plus d’informations, voir [Personnalisation d’un message In-App](../../channels/using/customizing-an-in-app-message.md).
 
 1. Après avoir personnalisé votre contenu, vous pouvez vérifier directement le rendu de votre message In-App en fonction des appareils et du système d’exploitation dans la fenêtre d’aperçu.
 
