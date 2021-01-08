@@ -22,7 +22,7 @@ Pour envoyer des SMS, un ou plusieurs comptes externes doivent être configurés
 
 Les étapes de création et de modification d&#39;un compte externe sont présentées dans la section [Comptes externes. ](../../administration/using/external-accounts.md) Vous trouverez ci-dessous les paramètres spécifiques aux comptes externes pour l&#39;envoi des SMS.
 
-## Définition d&#39;un routage des SMS    {#defining-an-sms-routing}
+## Définition d&#39;un routage des SMS     {#defining-an-sms-routing}
 
 Le compte externe **[!UICONTROL Routage des SMS par SMPP]** est fourni par défaut, mais il peut être utile d&#39;ajouter d&#39;autres comptes.
 
@@ -69,7 +69,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
 Vous pouvez utiliser à présent votre nouveau routage pour envoyer des SMS avec Adobe Campaign.
 
-## Encodage et formats des SMS    {#sms-encoding-and-formats}
+## Encodage et formats des SMS     {#sms-encoding-and-formats}
 
 ### Encodage, longueur et translittération des SMS {#sms-encoding--length-and-transliteration}
 
@@ -98,7 +98,7 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
-### Tables des caractères - Norme GSM    {#table-of-characters---gsm-standard}
+### Tables des caractères - Norme GSM     {#table-of-characters---gsm-standard}
 
 Cette section présente les caractères pris en charge par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 
@@ -314,13 +314,13 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
    ![](assets/sms_data_coding1.png)
 
-### Réponse automatique aux MO    {#automatic-reply-sent-to-the-mo}
+### Réponse automatique aux MO     {#automatic-reply-sent-to-the-mo}
 
 Lorsqu&#39;un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à exécuter.
 
 Voir à ce sujet [cette section](../../channels/using/managing-incoming-sms.md).
 
-## Configuration des propriétés des SMS    {#configuring-sms-properties}
+## Configuration des propriétés des SMS     {#configuring-sms-properties}
 
 Cette section décrit la liste des paramètres propres aux SMS dans l&#39;écran des propriétés d&#39;une diffusion de type SMS ou d&#39;un modèle de SMS.
 
