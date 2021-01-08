@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Cycle de vie du message transactionnel
-description: Découvrez comment publier, suspendre, annuler la publication et supprimer un message transactionnel.
+description: Découvrez comment publier, mettre en pause, dépublier et supprimer un message transactionnel.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## Publier un message transactionnel          {#publishing-a-transactional-message}
+## Publier un message transactionnel           {#publishing-a-transactional-message}
 
 Une fois que vous avez validé et testé le message transactionnel, vous pouvez le publier. Cliquez sur le bouton **[!UICONTROL Publier]**.
 
