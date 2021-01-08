@@ -16,7 +16,7 @@ ht-degree: 100%
 ---
 
 
-# Gestion des profils de test    {#managing-test-profiles}
+# Gestion des profils de test     {#managing-test-profiles}
 
 ## Profils de test {#about-test-profiles}
 
