@@ -50,7 +50,7 @@ Assurez-vous que la case **[!UICONTROL Adresse renseignée]** est cochée dans l
 
 ![](assets/direct_mail_22.png)
 
-### Adresses postales    {#postal-addresses}
+### Adresses postales     {#postal-addresses}
 
 Lors de l&#39;ajout des champs à inclure dans le fichier d&#39;extraction, les champs d&#39;adresse postale sont accessibles dans le nœud **[!UICONTROL Localisation]**.
 
