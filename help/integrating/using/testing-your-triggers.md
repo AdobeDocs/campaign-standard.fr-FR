@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Test de vos Triggers
+title: Test de vos déclencheurs
 description: null
 audience: integrating
 content-type: reference
@@ -15,47 +15,47 @@ ht-degree: 100%
 ---
 
 
-# Test de vos Triggers{#testing-your-triggers}
+# Test de vos déclencheurs{#testing-your-triggers}
 
 Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
 
 **La fonctionnalité est-elle activée ?**
 
-Pour vérifier si l’intégration des triggers Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l’élément **[!UICONTROL Triggers Experience Cloud]**.
+Pour vérifier si l’intégration Triggers - Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l’élément **[!UICONTROL Triggers Experience Cloud]**.
 
 Si vous le voyez, passez à l’étape suivante.
 
 Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Consultez [Activation de la fonctionnalité](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
-**Tentative de création d’un trigger**
+**Tentative de création d’un déclencheur**
 
-Suivez les étapes décrites dans [Création d’un trigger mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour créer un trigger.
+Suivez les étapes décrites dans [Création d’un déclencheur mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour créer un déclencheur.
 
-Si le trigger est créé, passez à l’étape suivante. Dans le cas contraire, la connexion du paramétrage de l’intégration Trigger a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d’Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
+Si le déclencheur est créé, passez à l’étape suivante. Dans le cas contraire, la connexion du paramétrage de l’intégration du déclencheur a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d’Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
 
 * Nom de la société Experience Cloud
 * Identifiant de l’organisation IMS
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
-**Tentative de publication d’un trigger**
+**Tentative de publication d’un déclencheur**
 
-Suivez les étapes décrites dans [Création d’un trigger mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour publier un trigger.
+Suivez les étapes décrites dans [Création d’un déclencheur mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour publier un déclencheur.
 
 Si la publication est bien effectuée, passez à l’étape suivante. Dans le cas contraire, contactez Adobe pour relancer votre instance et réessayez.
 
-**Génération du trigger à partir du site Web**
+**Génération du déclencheur à partir du site Web**
 
-Suivez les étapes décrites dans [Édition du modèle de message transactionnel](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) pour modifier et publier le modèle transactionnel. Essayez ensuite de générer le trigger à partir du site Web.
+Suivez les étapes décrites dans [Édition du modèle de message transactionnel](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) pour modifier et publier le modèle transactionnel. Essayez ensuite de générer le déclencheur à partir du site Web.
 
-Si Analytics reçoit le trigger, passez à l’étape suivante. Dans le cas contraire, contrôlez les éléments suivants :
+Si Analytics reçoit le déclencheur, passez à l’étape suivante. Dans le cas contraire, contrôlez les éléments suivants :
 
-* Le Trigger est activé pour Analytics
+* Le déclencheur est activé pour Analytics
 * Le site Web a utilisé MCID et Analytics est activé dans DTM
-* La bonne suite de rapports Analytics est utilisée lors de la création des Triggers
+* La bonne suite de rapports Analytics est utilisée lors de la création des déclencheurs
 
-**Campaign reçoit-il le trigger ?**
+**Campaign reçoit-il le déclencheur ?**
 
-Dans le cas contraire, le trigger est transmis par la pipeline.
+Dans le cas contraire, le déclencheur est transmis par le pipeline.
 
 Dans le cas contraire, contactez Adobe pour vérifier la configuration des points de terminaison de pipeline.
 
@@ -65,9 +65,9 @@ Si tel est le cas, suivez ces directives :
 * La source de données CustomerId est créée via les attributs du client.
 * Vérifiez l’ID de la source de donnée.
 * Demandez à Adobe de relancer l’instance de Campaign après la configuration de la source de données.
-* Vérifier les problèmes d’analyse du trigger dans le rapport de trigger.
+* Vérifier les problèmes d’analyse du déclencheur dans le rapport de déclencheur.
 
-**Le trigger est-il à l’état En attente ?**
+**Le déclencheur est-il à l’état En attente ?**
 
 Dans le cas contraire, passez à l’étape suivante. Si tel est le cas, suivez ces directives :
 
@@ -80,6 +80,6 @@ Dans le cas contraire, passez à l’étape suivante. Si tel est le cas, suivez 
 
 Si le message n’est pas valide, vérifiez les éléments suivants :
 
-* Pour les champs de personnalisation d’enrichissement de trigger, validez le modèle transactionnel des collections eventCusResource associées.
+* Pour les champs de personnalisation d’enrichissement de déclencheur, validez le modèle transactionnel des collections eventCusResource associées.
 * Validation du format du message
 
