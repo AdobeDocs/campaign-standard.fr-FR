@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Notes de mise à jour            2020
+title: Notes de mise à jour             2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
@@ -77,7 +77,7 @@ ht-degree: 100%
 * Le nombre maximal d’événements en temps réel pouvant être publiés sur une instance est passé de 350 à 2 000. (CAMP-41608)
 * La synchronisation entre Adobe Launch et Campaign Standard a été améliorée grâce à l’utilisation du workflow technique syncWithLaunch. Ce workflow permet l’import automatique de toutes les propriétés mobiles d’Adobe Launch dans Adobe Campaign Standard. Pour plus d’informations, consultez [cette page](../../administration/using/technical-workflows.md).
 
-   Vous devrez envoyer une demande à l’Assistance client d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
+   Vous devrez envoyer une demande à l’Assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
 
 **Améliorations du Concepteur d’email**
 
