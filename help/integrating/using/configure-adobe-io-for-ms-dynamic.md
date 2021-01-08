@@ -23,7 +23,7 @@ Activez vos données CRM lors de la communication cross-canal : découvrez les 
 
  L’intégration Adobe Campaign Standard - Microsoft Dynamics 365 est décrite dans [cette page](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
-Avant d’exécuter la configuration préalable à l’intégration décrite dans cet article, il est supposé que vous avez déjà été approvisionné et que vous disposez d’un accès administrateur à l’instance Campaign Standard de votre organisation.  Si ce n’est pas le cas, vous devrez contacter le service clientèle d’Adobe pour terminer l’approvisionnement de Campaign.
+Avant d’exécuter la configuration préalable à l’intégration décrite dans cet article, il est supposé que vous avez déjà été approvisionné et que vous disposez d’un accès administrateur à l’instance Campaign Standard de votre organisation.  Si ce n’est pas le cas, vous devrez contacter l’assistance clientèle d’Adobe pour terminer l’approvisionnement de Campaign.
 
 >[!CAUTION]
 >
