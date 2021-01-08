@@ -19,7 +19,7 @@ ht-degree: 100%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Suppression d’un abonnement de service pour un profil spécifique  {#deleting-service-subscription}
+## Suppression d’un abonnement de service pour un profil spécifique   {#deleting-service-subscription}
 
 Cette procédure comporte trois étapes.
 
