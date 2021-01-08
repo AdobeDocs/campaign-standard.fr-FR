@@ -39,7 +39,7 @@ Il est recommandé d&#39;utiliser une activité **[!UICONTROL Fin]** au lieu de 
 1. Vous pouvez paramétrer l&#39;objet **Fin** pour qu&#39;il interrompe toutes les tâches en cours du workflow, y compris celles qui ne sont pas terminées. Pour cela, sélectionnez l&#39;option correspondante.
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-## Déclenchement d&#39;un autre workflow  {#triggering-another-workflow}
+## Déclenchement d&#39;un autre workflow   {#triggering-another-workflow}
 
 Vous pouvez déclencher un autre workflow à l&#39;aide de l&#39;onglet **[!UICONTROL Signal externe]** d&#39;une activité **[!UICONTROL Fin]**. Consultez la section [Signal externe](../../automating/using/external-signal.md).
 
