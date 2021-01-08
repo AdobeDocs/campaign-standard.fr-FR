@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# Définir les paramètres lors de l’appel du workflow      {#defining-the-parameters-when-calling-the-workflow}
+# Définir les paramètres lors de l’appel du workflow       {#defining-the-parameters-when-calling-the-workflow}
 
 Cette section explique comment définir des paramètres lors de l’appel d’un workflow. Pour plus d’informations sur l’exécution de cette opération à partir d’un appel API, consultez la [documentation des API REST](../../api/using/triggering-a-signal-activity.md).
 
