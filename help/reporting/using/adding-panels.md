@@ -33,7 +33,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre       {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre        {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
