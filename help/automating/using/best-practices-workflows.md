@@ -48,7 +48,7 @@ Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**,
 ### Nombre de workflows
 
 Par défaut, il est recommandé de ne pas exécuter simultanément plus de 20 workflows actifs. Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances. De même, Adobe recommande d&#39;étaler l&#39;exécution des workflows dans le temps.
-Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Cela ne s&#39;applique pas aux workflows en attente d&#39;une exécution planifiée. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter le service à la clientèle Adobe pour augmenter la limite.
+Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Cela ne s&#39;applique pas aux workflows en attente d&#39;une exécution planifiée. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l’assistance clientèle d’Adobe pour augmenter la limite.
 
 ### Fréquence
 
