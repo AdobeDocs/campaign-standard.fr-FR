@@ -2,39 +2,39 @@
 solution: Campaign Standard
 product: campaign
 title: Messages de relance
-description: Découvrez comment créer, gérer et envoyer un message de suivi.
+description: Découvrez comment créer, gérer et envoyer un message de relance.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '816'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
 # Messages de relance {#follow-up-messages}
 
-Un message de suivi est un modèle de diffusion marketing prédéfini qui peut être utilisé dans un processus pour envoyer une autre communication aux destinataires d’un message transactionnel spécifique.
+Un messages de relance est un modèle de diffusion marketing prédéfini qui peut être utilisé dans un workflow pour envoyer une des messages aux destinataires d’un message transactionnel spécifique.
 
-Reprenons l&#39;exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) : un email d&#39;abandon de panier est envoyé aux visiteurs de votre site Web ayant ajouté des produits dans leur panier, mais ayant quitté le site sans poursuivre leurs achats.
+Reprenons l’exemple présenté dans la section [Principe de fonctionnement des messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) : un email d’abandon de panier est envoyé aux visiteurs de votre site web ayant ajouté des produits dans leur panier, mais ayant quitté le site sans poursuivre leurs achats.
 
-Vous souhaitez envoyer un rappel convivial à tous les clients qui ont reçu la notification d&#39;abandon de panier mais qui ne l&#39;ont pas ouverte au bout de trois jours. Ils recevront un message de suivi basé sur les mêmes données que celles utilisées dans le premier courrier électronique envoyé.
+Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d’abandon de panier, mais ne l’ayant pas ouverte au bout de trois jours. Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
-## Configuration d’un événement pour envoyer un message de relance      {#configuring-an-event-to-send-a-follow-up-message}
+## Configuration d’un événement pour envoyer un message de relance       {#configuring-an-event-to-send-a-follow-up-message}
 
-Pour envoyer un message de suivi, vous devez d’abord configurer en conséquence le événement correspondant au message transactionnel déjà reçu.
+Pour envoyer un message de rappel, vous devez d’abord configurer en conséquence l’événement correspondant au message transactionnel déjà reçu.
 
-1. Utilisez la même configuration d’événement que celle que vous avez créée pour envoyer un message transactionnel basé sur un événement. Voir [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md).
+1. Utilisez la même configuration d’événement que celle que vous avez créée pour envoyer un message transactionnel basé sur un événement. Voir [Configuration d’un événement transactionnel](../../channels/using/configuring-transactional-event.md).
 1. Lors de la configuration de l’événement, cochez la case **[!UICONTROL Créer un modèle de diffusion de relance pour cet événement]** avant de le publier.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [Prévisualisation et publication du événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [Prévisualiser et publier l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Les étapes pour envoyer le message de suivi sont détaillées dans [cette section](#sending-a-follow-up-message).
+Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Les étapes pour envoyer le message de rappel sont présentées dans [cette section](#sending-a-follow-up-message).
 
 ## Accéder aux messages de relance      {#accessing-the-follow-up-messages}
 
@@ -62,7 +62,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
 1. Accédez à la liste des activités marketing et créez un workflow.
 
-   Voir [Création d’un processus](../../automating/using/building-a-workflow.md#creating-a-workflow).
+   Voir [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
 1. Placez une activité **[!UICONTROL Planificateur]** dans le workflow, puis ouvrez-la. Définissez la fréquence d&#39;exécution sur une fois par jour.
 
@@ -84,15 +84,15 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. Accédez à l’onglet activité **[!UICONTROL Cible]**, puis faites glisser et déposez l’élément **[!UICONTROL Logs de diffusion (journaux)]** de la palette dans l’espace de travail.
+1. Accédez à l’onglet **[!UICONTROL Cible]** de l’activité et effectuez un glisser-déposer de l’élément **[!UICONTROL Logs de diffusion]** de la palette vers l’espace de travail.
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   Sélectionnez **[!UICONTROL Exists]** pour cible à tous les clients qui ont reçu le courrier électronique.
+   Sélectionnez **[!UICONTROL Existe]** pour cibler tous les clients ayant reçu l’email.
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. Déplacez l’élément **[!UICONTROL Logs de tracking (suivi)]** de la palette vers l’espace de travail et sélectionnez **[!UICONTROL N’existe pas]** pour cible à tous les clients qui n’ont pas ouvert le courrier électronique.
+1. Déplacez l’élément **[!UICONTROL Logs de tracking (tracking)]** de la palette vers l’espace de travail, puis sélectionnez **[!UICONTROL N&#39;existe pas]** pour cibler tous les clients qui n’ont pas ouvert l’email.
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -110,7 +110,7 @@ Une fois que vous avez créé le modèle de diffusion de relance, vous pouvez l&
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   Vous pouvez également utiliser une diffusion [SMS](../../automating/using/sms-delivery.md) ou une diffusion de notification Push [Push](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** lors de la configuration de l&#39;événement. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
+   Vous pouvez également utiliser une activité [Diffusion SMS](../../automating/using/sms-delivery.md) ou une [Diffusion de notification push](../../automating/using/push-notification-delivery.md). Dans ce cas, vous devez sélectionner le canal **[!UICONTROL Mobile (SMS)]** ou **[!UICONTROL Application mobile]** lors de la configuration de l&#39;événement. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Ouvrez l’activité **Diffusion Email**. Dans l&#39;assistant de création, cochez la case **[!UICONTROL Messages de relance]** et sélectionnez le modèle de diffusion de relance qui a été créé après la publication de l&#39;événement.
 
