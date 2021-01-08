@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Publication d'un événement transactionnel
-description: Découvrez comment prévisualisation, publier, annuler la publication et supprimer une configuration de événement transactionnel.
+description: Découvrez comment prévisualiser, publier, dépublier et supprimer une configuration d’événement transactionnel.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
 
 Les événements (au format JSON) sont répertoriés du plus récent au plus ancien. Cette liste vous permet de vérifier des données telles que le contenu ou le statut d’un événement, à des fins de contrôle et de correction d’erreurs.
 
-## Dépublier un événement     {#unpublishing-an-event}
+## Dépublier un événement      {#unpublishing-an-event}
 
 Le bouton **[!UICONTROL Dépublier]** permet d’annuler la publication de l’événement, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé.
 
