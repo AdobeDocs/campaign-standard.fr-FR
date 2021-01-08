@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Plans, programmes et campagnes {#about-plans--programs-and-campaigns}
 
-Adobe Campaign permet de concevoir des campagnes marketing dans lesquelles vous pouvez créer et gérer différents types d&#39;activités : emails, SMS, notifications push, workflows, landing pages. Ces campagnes et leurs contenus peuvent être regroupés dans des programmes.
+Adobe Campaign permet de concevoir des campagnes marketing dans lesquelles vous pouvez créer et gérer différents types d’activités : emails, SMS, notifications push, workflows, landing pages. Ces campagnes et leurs contenus peuvent être regroupés dans des programmes.
 
 Les programmes et les campagnes permettent de regrouper et de visualiser les différentes activités marketing qui leur sont associées.
 
@@ -36,7 +36,7 @@ Des rapports sur les programmes et les campagnes permettent d&#39;analyser leur 
 * [Planning](../../start/using/timeline.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Créer un programme   {#creating-a-program}
+## Créer un programme    {#creating-a-program}
 
 Le programme correspond au premier niveau de l&#39;organisation. Il peut contenir des sous-programmes, des campagnes, des workflows ou des landing pages.
 
@@ -64,7 +64,7 @@ Le programme est créé et affiché. Utilisez le bouton **[!UICONTROL Créer]** 
 >
 >Vous pouvez également créer un programme depuis la liste des activités marketing.
 
-## Créer une campagne   {#creating-a-campaign}
+## Créer une campagne    {#creating-a-campaign}
 
 Dans les programmes et sous-programmes, vous pouvez ajouter des campagnes. Les campagnes peuvent contenir des activités marketing telles que des emails, des SMS, des notifications push, des workflows et des landing pages.
 
@@ -91,7 +91,7 @@ La campagne est créée et affichée. Utilisez le bouton **[!UICONTROL Créer]**
 
 Vous pouvez également créer une campagne depuis la liste des activités marketing. Vous pouvez choisir d&#39;associer l&#39;activité marketing à un sous-programme ou programme parent via la fenêtre des propriétés de la campagne.
 
-## Icônes et statuts des programmes et campagnes   {#programs-and-campaigns-icons-and-statuses}
+## Icônes et statuts des programmes et campagnes    {#programs-and-campaigns-icons-and-statuses}
 
 Chaque programme et chaque campagne de la liste sont représentés par un visuel et une icône dont la couleur indique le statut d&#39;exécution. Ce statut dépend de la période de validité du programme ou de la campagne.
 
