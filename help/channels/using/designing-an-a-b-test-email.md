@@ -26,7 +26,7 @@ Vous pouvez choisir de faire varier le contenu, le sujet ou l&#39;expéditeur de
 >
 >Il est impossible de réaliser des tests A/B sur des emails créés dans Adobe Experience Manager.
 
-## Créer un email de test A/B     {#creating-an-a-b-test-email}
+## Créer un email de test A/B      {#creating-an-a-b-test-email}
 
 La création d&#39;un email de type test A/B peut être réalisée à l&#39;aide de l&#39;assistant de création d&#39;un email standard, auquel est ajoutée une étape de paramétrage du test A/B. La création d&#39;un email standard est présentée dans la section [Créer un email](../../channels/using/creating-an-email.md).
 
