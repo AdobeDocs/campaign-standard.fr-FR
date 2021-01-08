@@ -6,9 +6,9 @@ description: Découvrez comment définir l’objet et l’expéditeur d’un ema
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
 ht-degree: 100%
 
