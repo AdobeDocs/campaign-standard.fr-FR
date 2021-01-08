@@ -22,7 +22,7 @@ Un workflow est toujours démarré manuellement. Une fois lancé, il peut toutef
 
 >[!CAUTION]
 >
-> Adobe recommande aux clients de hiérarchiser les exécutions de workflows et d’exécuter au maximum 20 workflows simultanément de façon à obtenir constamment des performances maximales sur leur instance. Il est possible de planifier plus de 20 exécutions de workflows simultanées ; elles s’exécuteront en séquence par défaut. Vous pouvez ajuster les paramètres par défaut pour le nombre maximal d’exécutions de workflows simultanées en envoyant un ticket à l’assistance client.
+> Adobe recommande aux clients de hiérarchiser les exécutions de workflows et d’exécuter au maximum 20 workflows simultanément de façon à obtenir constamment des performances maximales sur leur instance. Il est possible de planifier plus de 20 exécutions de workflows simultanées ; elles s’exécuteront en séquence par défaut. Vous pouvez ajuster les paramètres par défaut pour le nombre maximal d’exécutions de workflows simultanées en envoyant un ticket à l’assistance clientèle.
 
 Les actions relatives à l’exécution (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur est disponible pour l’appliquer.
 
