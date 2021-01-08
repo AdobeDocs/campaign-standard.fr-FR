@@ -15,7 +15,7 @@ ht-degree: 100%
 ---
 
 
-# Suivi des variables d’événements     {#monitoring-the-events-variables}
+# Suivi des variables d’événements      {#monitoring-the-events-variables}
 
 Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
