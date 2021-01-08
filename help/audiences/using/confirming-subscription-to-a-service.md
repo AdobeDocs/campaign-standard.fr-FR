@@ -45,7 +45,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de l&#39;email de confirmation sont décrites ci-dessous. Comme le message transactionnel est référencé dans le service, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement    {#create-the-event-1}
+#### Création de l&#39;événement     {#create-the-event-1}
 
 L&#39;email de confirmation est un message transactionnel car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
@@ -78,7 +78,7 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
 L&#39;événement est prêt. Vous pouvez maintenant concevoir le modèle d&#39;email transactionnel.
 
-#### Conception du message de confirmation    {#design-the-confirmation-message-1}
+#### Conception du message de confirmation     {#design-the-confirmation-message-1}
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement que vous venez de publier.
 
@@ -134,7 +134,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Comme le message transactionnel est référencé dans la landing page, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement    {#create-the-event-2}
+#### Création de l&#39;événement     {#create-the-event-2}
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
@@ -160,7 +160,7 @@ L&#39;email de confirmation est un [message transactionnel](../../channels/using
    >
    >Vous pourrez ainsi utiliser les champs de personnalisation de la ressource [!UICONTROL Service] dans le message transactionnel.
 
-#### Conception du message de confirmation    {#design-the-confirmation-message-2}
+#### Conception du message de confirmation     {#design-the-confirmation-message-2}
 
 Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
