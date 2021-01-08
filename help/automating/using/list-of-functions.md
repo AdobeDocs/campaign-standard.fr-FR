@@ -281,7 +281,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing    {#geomarketing}
+## Géomarketing     {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -300,7 +300,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques    {#numerical}
+## Numériques     {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -384,7 +384,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres    {#others}
+## Autres     {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -713,7 +713,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation    {#representation}
+## Représentation     {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
