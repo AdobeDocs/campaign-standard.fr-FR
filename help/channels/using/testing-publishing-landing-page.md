@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Avant de publier une landing page, vous devez effectuer des tests : valider l&#39;exécution, configurer l&#39;accès et définir la fin de vie de la landing page. Ces étapes sont des pré-requis et doivent être exécutées avec précaution.
 
-## Tester la landing page      {#testing-the-landing-page-}
+## Tester la landing page       {#testing-the-landing-page-}
 
 Comme la landing page aura un impact sur votre plateforme et les données, vous devez tester soigneusement son exécution. Pour cela :
 
@@ -45,7 +45,7 @@ Vous pouvez également générer la miniature de la landing page depuis cet écr
 >
 >Pour afficher l’aperçu de la landing page dans l’interface utilisateur de Campaign, l’URL du serveur applicatif doit être sécurisée. Dans ce cas, utilisez https:// plutôt que http:// pour configurer cette URL lors de la [configuration de votre marque](../../administration/using/branding.md#configuring-and-using-brands).
 
-## Configurer les paramètres de validité      {#setting-up-validity-parameters}
+## Configurer les paramètres de validité       {#setting-up-validity-parameters}
 
 Avant de procéder à la publication, il est vivement recommandé, pour des raisons de sécurité et de performances de la plateforme, de définir une date d&#39;expiration dans les propriétés de la landing page. A la date choisie, la landing page est automatiquement dépubliée. Pour cela :
 
@@ -65,7 +65,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 >
 >Vous pouvez également définir une date et une heure de déploiement : la landing page sera alors automatiquement publiée à la date spécifiée.
 
-## Publier une landing page      {#publishing-a-landing-page}
+## Publier une landing page       {#publishing-a-landing-page}
 
 Lorsque vous publiez une landing page, elle est mise en ligne et devient accessible aux visiteurs.
 
