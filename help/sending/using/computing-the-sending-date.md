@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Vous pouvez également définir une formule pour envoyer le message à chaque destinataire à une date et à une heure précises.
 
-## Personnalisation de la formule de date  {#customizing-date-formula}
+## Personnalisation de la formule de date   {#customizing-date-formula}
 
 Par exemple, vous pouvez utiliser l&#39;optimisation de l&#39;heure d&#39;envoi lors de l&#39;installation d&#39;une nouvelle plate-forme.
 
@@ -99,7 +99,7 @@ La diffusion sera envoyée progressivement à tous les destinataires ciblés sur
 >
 >Lors de la confirmation de l&#39;envoi, assurez-vous que toutes les dates sont dans le futur. Sinon, les messages seront envoyés dès que l&#39;envoi aura été confirmé.
 
-## A partir d&#39;une expression  {#using-an-expression}
+## A partir d&#39;une expression   {#using-an-expression}
 
 L&#39;optimisation de l&#39;heure d&#39;envoi est également utile pour les campagnes impliquant un centre d&#39;appel. Elle permet de garantir que tous les messages ne seront pas reçus en même temps. Votre entreprise peut ainsi traiter le nombre d&#39;appels en fonction de sa capacité.
 
