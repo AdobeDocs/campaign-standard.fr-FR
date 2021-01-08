@@ -148,7 +148,7 @@ Cette vidéo montre comment créer votre propre modèle.
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
-## A propos des fragments         {#about-fragments}
+## A propos des fragments          {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
@@ -204,7 +204,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
-### Créer un fragment de contenu         {#creating-a-content-fragment}
+### Créer un fragment de contenu          {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
@@ -242,7 +242,7 @@ Ce fragment peut à présent être utilisé dans n&#39;importe quel email créé
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
-### Enregistrer du contenu en tant que fragment         {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment          {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
