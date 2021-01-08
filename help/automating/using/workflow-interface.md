@@ -29,7 +29,7 @@ L’écran d’édition d’un workflow se compose des éléments suivants :
 
 ![](assets/wkf_overview.png)
 
-## Palette   {#palette}
+## Palette    {#palette}
 
 La palette se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
