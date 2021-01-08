@@ -26,7 +26,7 @@ Vous disposez de plusieurs options pour contrôler les inscriptions et désinscr
 * Affichez un rapport détaillant l’évolution des abonnements et des désabonnements dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
 * Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
-## Tableau de bord du service  {#service-dashboard}
+## Tableau de bord du service   {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
@@ -36,7 +36,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Applications mobiles  {#subscription-history}
+## Applications mobiles   {#subscription-history}
 
 Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
@@ -46,7 +46,7 @@ Pour consulter l&#39;historique des inscriptions et des désinscriptions au serv
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Rapports du service  {#service-reports}
+## Rapports du service   {#service-reports}
 
 Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
@@ -60,7 +60,7 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historique des événements liés à un profil  {#history-of-events-linked-to-a-profile}
+## Historique des événements liés à un profil   {#history-of-events-linked-to-a-profile}
 
 Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
