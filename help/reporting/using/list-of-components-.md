@@ -132,11 +132,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures        {#metrics}
+## Mesures         {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS        {#email-and-sms-metrics}
+### Mesures des emails et SMS         {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push        {#push-notification-metrics}
+### Mesures des notifications push         {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -322,7 +322,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App        {#in-app-metrics}
+### Mesures In-App         {#in-app-metrics}
 
 <table> 
  <thead> 
