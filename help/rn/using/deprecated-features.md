@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,15 +41,15 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
 <table> 
  <thead> 
  <tr> 
-   <th> <strong>Ligne d'objet prédictive</strong><br /> </th> 
+   <th> <strong>Optimisation prédictive de l’objet</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter du 15 décembre 2020, la fonctionnalité de ligne d'objet prédictive est abandonnée.</p><br/>
-   <p>Nous vous suggérons d'exploiter les capacités de courriel optimisées par l'IA pour analyser et prédire les taux ouverts, les délais d'envoi optimaux et le taux probable d'exécution en fonction des mesures d'engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">En savoir plus</a></p></br>
+   <td> <p> À compter du 15 décembre 2020, la fonctionnalité prédictive de l’objet est abandonnée.</p><br/>
+   <p>Nous vous suggérons d’exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d’ouverture, les délais d’envoi optimaux et le taux probable d’exécution en fonction des mesures d’engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">En savoir plus</a></p></br>
      <p>
-     <em>Suppression des cibles : Avril 2021</em></p>
+     <em>Date de suppression prévue : avril 2021</em></p>
      </td> 
   </tr> 
   </tbody> 
@@ -79,7 +79,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d'accès à des informations personnelles</a>.</p>
+   <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d’accès à des informations personnelles</a>.</p>
   <p> 
   <em>Date de suppression prévue : avril 2021</em></p>
    </td> 
@@ -130,7 +130,7 @@ Cette section répertorie les catégories et fonctionnalités qui ont été supp
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le <b>score de propension</b> a été retiré d’Adobe Experience Cloud Triggers. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les triggers existants. Pour plus d’informations, voir la section <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d’un déclencheur dans Campaign</a>.
+   <td> <p>Le <b>score de propension</b> a été retiré d’Adobe Experience Cloud Triggers. Cette option a donc été supprimée d’Adobe Campaign Standard. Pour éviter toute valeur obsolète de score de propension dans les schémas d’enrichissement, nous vous recommandons de les mettre à jour afin de récupérer les dernières modifications et de republier les déclencheurs existants. Pour plus d’informations, voir la section <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=fr">Publication d’un déclencheur dans Campaign</a>.
 </p></br>
    </td> 
   </tr> 
