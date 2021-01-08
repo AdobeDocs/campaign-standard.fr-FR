@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Paramétrer une landing page {#configuring-landing-page}
 
-## Confirmer la validation d&#39;une landing page    {#confirm-a-landing-page-submission}
+## Confirmer la validation d&#39;une landing page     {#confirm-a-landing-page-submission}
 
 Lorsqu&#39;une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
@@ -54,7 +54,7 @@ Pour sélectionner le service à associer, procédez comme suit :
 
    Utilisez l&#39;option **[!UICONTROL Service provenant de l&#39;URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
-## Définir les permissions et pré-charger les données    {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données     {#setting-permissions-and-pre-loading-data}
 
 L&#39;accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d&#39;un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
 Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
