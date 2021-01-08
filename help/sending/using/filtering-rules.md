@@ -48,7 +48,7 @@ Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée li
 >
 >Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des destinataires exclus est indiqué dans les logs d&#39;analyse de diffusion.
 
-## Créer une règle de filtrage      {#creating-a-filtering-rule}
+## Créer une règle de filtrage       {#creating-a-filtering-rule}
 
 Vous pouvez créer vos propres règles de filtrage en fonction de vos besoins. Vous pouvez par exemple filtrer la population cible de votre newsletter afin de ne jamais adresser de communications aux inscrits de moins de 18 ans.
 
@@ -90,7 +90,7 @@ Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si
 
 ![](assets/typology_rule-order_2.png)
 
-## Restreindre la portée d&#39;une règle de filtrage     {#restricting-the-applicability-of-a-filtering-rule}
+## Restreindre la portée d&#39;une règle de filtrage      {#restricting-the-applicability-of-a-filtering-rule}
 
 Vous pouvez restreindre le champ d&#39;application d&#39;une règle de filtrage en fonction du message à envoyer.
 
