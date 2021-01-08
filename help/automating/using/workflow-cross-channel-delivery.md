@@ -29,7 +29,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-## Créer un workflow      {#creating-workflow}
+## Créer un workflow       {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
