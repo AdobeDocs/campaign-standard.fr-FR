@@ -16,7 +16,7 @@ ht-degree: 100%
 ---
 
 
-# Exemples de requêtes    {#query-samples}
+# Exemples de requêtes     {#query-samples}
 
 Cette section présente un cas pratique d’utilisation d’une activité de **[!UICONTROL Requête]**. Pour plus d’informations sur l’utilisation d’une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md).
 
@@ -26,7 +26,7 @@ L’exemple qui suit montre une activité de requête configurée pour cibler le
 
 ![](assets/query_sample_1.png)
 
-## Ciblage des attributs d’emails    {#targeting-on-email-attributes}
+## Ciblage des attributs d’emails     {#targeting-on-email-attributes}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont le domaine d’adresse électronique est « orange.co.uk ».
 
@@ -36,7 +36,7 @@ L’exemple qui suit montre une activité de requête configurée pour cibler de
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Ciblage de profils dont c’est l’anniversaire    {#targeting-profiles-whose-birthday-is-today}
+## Ciblage de profils dont c’est l’anniversaire     {#targeting-profiles-whose-birthday-is-today}
 
 L’exemple qui suit montre une activité de requête configurée pour cibler des profils dont c’est l’anniversaire.
 
@@ -92,7 +92,7 @@ L’exemple qui suit montre une activité de requête configurée pour filtrer l
 
    ![](assets/query_sample_7days2.png)
 
-## Ciblage des profils ayant cliqué sur un lien spécifique    {#targeting-profiles-who-clicked-a-specific-link-}
+## Ciblage des profils ayant cliqué sur un lien spécifique     {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Faites glisser le filtre **[!UICONTROL Tracking (tracking)]** dans votre requête.
 
