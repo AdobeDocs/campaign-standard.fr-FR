@@ -66,7 +66,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails     {#email-rendering-report-description}
+## Description du rapport de rendu des emails      {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
