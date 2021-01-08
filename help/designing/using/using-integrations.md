@@ -52,7 +52,7 @@ Un contenu d’email peut être édité dans Experience Manager puis utilisé po
 
 Les listes de produits vous permettent de référencer une ou plusieurs collections de données dans le contenu email. Ces listes sont disponibles pour les emails transactionnels. Une section dédiée à cette fonctionnalité est disponible [ici](../../designing/using/using-product-listings.md).
 
-## Comparaison des options de conception d’email        {#email-design-options-comparison}
+## Comparaison des options de conception d’email         {#email-design-options-comparison}
 
 Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-après présente les possibilités, avantages et limites de chacune d’elles.
 
