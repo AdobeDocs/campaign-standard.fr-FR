@@ -24,7 +24,7 @@ Pour prendre en compte les modifications apportées au modèle de données et po
 >
 >Les ressources personnalisées sont automatiquement actualisées lors des mises à jour automatiques effectuées par Adobe.
 
-## Publier une ressource personnalisée  {#publishing-a-custom-resource}
+## Publier une ressource personnalisée   {#publishing-a-custom-resource}
 
 Pour appliquer les modifications apportées aux ressources, vous devez effectuer une mise à jour de la base de données.
 
@@ -68,7 +68,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
    ![](assets/schema_extension_31.png)
 
-## Publier une ressource avec l&#39;extension de l&#39;API  {#publishing-a-resource-with-api-extension}
+## Publier une ressource avec l&#39;extension de l&#39;API   {#publishing-a-resource-with-api-extension}
 
 Vous pouvez créer l&#39;API Profile and Services dans les cas suivants :
 
