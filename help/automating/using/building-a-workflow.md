@@ -36,7 +36,7 @@ Vous pouvez ouvrir les transitions afin de vérifier que les données transmises
 
 ![](assets/workflow_overview.png)
 
-## Créer un workflow        {#creating-a-workflow}
+## Créer un workflow         {#creating-a-workflow}
 
 La création d’un workflow est possible au sein d’un programme ou d’une campagne, ou dans la liste des activités marketing.
 
