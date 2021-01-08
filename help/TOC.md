@@ -258,8 +258,8 @@ ht-degree: 99%
       + [A propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
-      + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
-      + [Cas pratiques Triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
+      + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
+      + [Cas pratiques des déclencheurs d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l’intégration de Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Gérer les données entre Campaign et Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
