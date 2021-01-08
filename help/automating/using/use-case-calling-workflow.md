@@ -33,7 +33,7 @@ Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessou
 
 Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]** dans chacun d’eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l’appel des workflows.
 
-## Etape 1 : configurer l’appel API     {#step-1--configuring-the-api-call}
+## Etape 1 : configurer l’appel API      {#step-1--configuring-the-api-call}
 
 Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d’informations sur la syntaxe de l’appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
@@ -58,7 +58,7 @@ Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dess
 -d } 
 ```
 
-## Etape 2 : configurer le workflow 1     {#step-2--configuring-workflow-1}
+## Etape 2 : configurer le workflow 1      {#step-2--configuring-workflow-1}
 
 Le workflow 1 sera créé tel que ci-dessous :
 
@@ -129,7 +129,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
 Le workflow 1 est configuré, et vous pouvez maintenant créer le workflow 2. Voir à ce propos [cette section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Etape 3 : configurer le workflow 2     {#step-3--configuring-workflow-2}
+## Etape 3 : configurer le workflow 2      {#step-3--configuring-workflow-2}
 
 Le workflow 2 sera créé tel que ci-dessous :
 
@@ -186,6 +186,6 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc14.png)
 
-## Exécuter les workflows     {#executing-the-workflows}
+## Exécuter les workflows      {#executing-the-workflows}
 
 Une fois les workflows créés, vous pouvez les exécuter. Assurez-vous que les deux workflows sont démarrés avant d’effectuer l’appel API.
