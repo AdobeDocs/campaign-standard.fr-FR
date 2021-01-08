@@ -35,7 +35,7 @@ L&#39;édition d&#39;expressions peut être utilisée lors des opérations suiva
 * édition d&#39;une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d&#39;une condition de visibilité pour définir l&#39;affichage d&#39;un bloc de l&#39;éditeur de contenus HTML. Dans ce cas, l&#39;expression est éditée au format JavaScript et ne propose pas l&#39;utilisation des fonctions avancées standard.
 
-## Editer une expression   {#edit-an-expression}
+## Editer une expression {#edit-an-expression}
 
 L&#39;édition avancée d&#39;expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -64,7 +64,7 @@ L&#39;édition d&#39;une expression vous permet de personnaliser l&#39;expressio
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions   {#expression-syntax}
+## Syntaxe des expressions {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -106,8 +106,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
    >[!NOTE]
-   >
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -122,7 +121,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison   {#comparison-operators}
+## Opérateurs de comparaison {#comparison-operators}
 
 Pour certaines règles, l&#39;éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
