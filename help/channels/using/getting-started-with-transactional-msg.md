@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Prise en main de la messagerie transactionnelle {#getting-started-with-transactional-messaging}
 
-## Vue d’ensemble {#overview}
+## Vue d’ensemble  {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
