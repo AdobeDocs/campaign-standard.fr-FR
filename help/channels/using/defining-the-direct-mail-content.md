@@ -46,7 +46,7 @@ L&#39;écran de définition du **[!UICONTROL Contenu]** est spécifique au canal
 >
 >Pour plus d&#39;informations sur la définition des colonnes de sortie, reportez-vous à la section de l&#39;activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir la structure de fichier   {#defining-the-file-structure}
+## Définir la structure de fichier    {#defining-the-file-structure}
 
 L&#39;onglet **Structure de fichier** permet de paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
 
@@ -56,7 +56,7 @@ L&#39;onglet **Structure de fichier** permet de paramétrer les formats de sorti
 >
 >Les options disponibles sont présentées dans les sections de l&#39;activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir l&#39;en-tête et le pied de page   {#defining-the-header-and-footer}
+## Définir l&#39;en-tête et le pied de page    {#defining-the-header-and-footer}
 
 Vous pouvez parfois avoir besoin d&#39;ajouter des informations au début ou à la fin du fichier d&#39;extraction. Pour cela, vous pouvez utiliser les onglets **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]** de l&#39;écran de configuration **[!UICONTROL Contenu]**.
 
