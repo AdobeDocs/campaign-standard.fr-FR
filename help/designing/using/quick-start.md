@@ -115,7 +115,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d&#39;un modèle d&#39;usine       {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d&#39;un modèle d&#39;usine        {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
