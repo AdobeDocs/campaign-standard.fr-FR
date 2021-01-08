@@ -38,7 +38,7 @@ Dans ces deux listes :
 * Le bouton **[!UICONTROL Configurer la liste]** permet de choisir les informations affichées, de définir l’ordre des colonnes et d’appliquer un tri.
 * Vous pouvez utiliser des filtres pour trouver plus rapidement les informations dont vous avez besoin. Utilisez le champ de recherche pour rechercher du texte spécifique dans les noms des activités de workflow (par exemple &quot;requête&quot;) et les logs.
 
-## Gestion des erreurs       {#error-management}
+## Gestion des erreurs        {#error-management}
 
 Lorsqu’une erreur se produit, le workflow se met en pause et l’activité qui était en cours d’exécution lorsque l’erreur s’est produite clignote alors en rouge.
 
