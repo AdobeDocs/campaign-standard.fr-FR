@@ -23,7 +23,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017     {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017      {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -48,7 +48,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Correction d’une erreur qui empêchait la décompression correcte des fichiers compressés volumineux.
 * La sécurité a été renforcée dans la gestion des marques. La modification du nom d’une marque et de l’adresse de l’expéditeur est maintenant réservée aux administrateurs techniques Adobe.
@@ -131,7 +131,7 @@ _Ressources personnalisées_
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Certains clients doivent pouvoir utiliser un identifiant provenant d’Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Le protocole FTP devient obsolète. Vous devez à présent utiliser le protocole SFTP à la place. Pour ne pas bloquer les implémentations existantes, les configurations sur FTP continueront à fonctionner comme avant, mais l’option ne sera plus visible pour les nouvelles activités.
@@ -174,7 +174,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
-## Version 17.7 - Juillet 2017             {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017              {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -250,7 +250,7 @@ _Workflows_
 * Correction d’une erreur qui vous empêchait de définir une transition sortante dans l’assistant de création de diffusion récurrente.
 * Correction d’une erreur qui se produisait lors de l’utilisation d’une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017             {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017              {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -268,7 +268,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
-   <td> Email BCC donne la possibilité de conserver les emails envoyés aux destinataires permettant ainsi à la marque de les archiver. En ajoutant une adresse email en “copie cachée” (BCC en anglais) à tous les emails, les clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email. Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité s’avère utile pour aider les centres de service client lors de la résolution de conflits en temps réel.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
+   <td> Email BCC donne la possibilité de conserver les emails spécifiques envoyés à chaque destinataire, permettant ainsi à la marque de les archiver. En ajoutant une adresse email en “copie cachée” (BCC en anglais) à tous les emails, les clients Adobe Campaign Standard peuvent conserver une copie exacte de chaque email. Il s’agit d’une obligation juridique courante dans le secteur financier. De plus, cette fonctionnalité s’avère utile pour aider les centres de service client lors de la résolution de conflits en temps réel.<br /> Pour plus d’informations, consultez la <a href="../../sending/using/archiving.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ _Notifications push_
 * Correction d’une erreur qui vous empêchait de cliquer sur une notification push dans l’historique marketing d’un profil.
 * L’utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017             {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017              {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -334,7 +334,7 @@ _Notifications push_
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Résolution d’un problème de consommation de mémoire.
 
@@ -382,7 +382,7 @@ _Notifications push_
 * Correction d’une erreur en raison de laquelle un message d’erreur n’était pas affiché lors de la création d’une application Android associée à une application mobile n’ayant pas pu être créée sur MCPNS.
 * Correction d’une erreur qui permettait à un utilisateur d’ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017             {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017              {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -499,9 +499,9 @@ _Workflows_
    <td> API des messages transactionnels<br /> </td> 
    <td> L’API des messages transactionnels est maintenant disponible sur le site <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, ce qui facilite son utilisation et son contrôle :<br /> 
     <ul> 
-     <li> Vous pouvez tirer parti des capacités de contrôle et de reporting de la plate-forme adobe.io. </li> 
+     <li> Vous pouvez tirer parti des capacités de contrôle et de reporting de la plateforme adobe.io. </li> 
      <li> L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que le placement sur liste autorisée des adresses IP, ce qui simplifie le processus de sécurité. </li> 
-     <li> Toutes les API sont désormais intégrées sur une seule plate-forme, ce qui facilite plus que jamais l’ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l’API Profile &amp; Services. </li> 
+     <li> Toutes les API sont désormais intégrées sur une seule plateforme, ce qui facilite plus que jamais l’ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l’API Profile &amp; Services. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
