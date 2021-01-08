@@ -23,13 +23,13 @@ ht-degree: 100%
 
 Les demandes d’accès aux informations personnelles sont créées à l’aide d’une requête **POST**.
 
-Avant de créer des requêtes, vous devez définir l’espace de nommage que vous allez utiliser. Pour plus d’informations à ce sujet, consultez la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Avant de créer des requêtes, vous devez définir l’espace de noms que vous allez utiliser. Pour plus d’informations à ce sujet, consultez la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 La payload doit contenir les paramètres suivants :
 
 * **name** : nom interne unique
-* **namespace** : nom d’espace de nommage configuré dans l’interface de Campaign Standard
-* **reconciliationValue** : valeur de réconciliation basée sur la clé de réconciliation définie dans l’espace de nommage
+* **namespace** : nom d’espace de noms configuré dans l’interface de Campaign Standard
+* **reconciliationValue** : valeur de réconciliation basée sur la clé de réconciliation définie dans l’espace de noms
 * **label** : libellé de la requête
 * **type** : type de requête. Les valeurs acceptées sont « access » ou « delete ».
 * **regulation** : type de réglementation. Exemple : « GDPR », « ACCP ». Ce paramètre est obligatoire et disponible à partir de la version 19.4 de Campaign Standard. Si vous utilisez une version plus ancienne, vous n’avez pas besoin de l’ajouter à votre payload.
@@ -38,7 +38,7 @@ La payload doit contenir les paramètres suivants :
 
 ***Exemple de requête***
 
-Cette requête POST crée une demande d’accès à des informations personnelles basée sur une clé de réconciliation d’email définie dans l’espace de nommage AMCDS2 :
+Cette requête POST crée une demande d’accès à des informations personnelles basée sur une clé de réconciliation d’email définie dans l’espace de noms AMCDS2 :
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
