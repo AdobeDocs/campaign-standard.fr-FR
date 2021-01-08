@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Limites des messages transactionnels
-description: Découvrez les principales recommandations et limitations concernant les messages transactionnels à Adobe Campaign Standard.
+title: Limitations des messages transactionnels
+description: Découvrez les principales limitations et recommandations concernant les messages transactionnels dans Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -11,16 +11,16 @@ translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '768'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
-# Meilleures pratiques et limites de la messagerie transactionnelle {#transactional-messaging-limitations}
+# Bonnes pratiques et limites de la messagerie transactionnelle {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Cette section liste les meilleures pratiques et les limites que vous devez connaître avant de commencer à créer des messages transactionnels.
+Cette section répertorie les bonnes pratiques et limitations que vous devez connaître avant de créer des messages transactionnels.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -41,11 +41,11 @@ Au cours de la configuration et de la publication de messages transactionnels, c
 
 ## Nombre de messages transactionnels {#transactional-message-number}
 
-Le nombre de messages transactionnels publiés peut avoir un impact significatif sur votre plateforme. Pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100. Pour ce faire, annulez la publication ou supprimez les messages transactionnels inutilisés. Voir [Annulation de la publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) et [Suppression d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Le nombre de messages transactionnels publiés peut avoir un impact significatif sur votre plateforme. Pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100. Pour ce faire, dépubliez ou supprimez les messages transactionnels inutilisés. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) et [Supprimer un message transactionnel](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-Pour optimiser les performances, vous pouvez également annuler la publication ou supprimer des événements inutilisés. En effet, l’annulation de publication ou la suppression d’un événement entraînera également l’annulation de la publication ou la suppression des messages transactionnels correspondants, ainsi que de leur envoi et de leurs logs de tracking, le cas échéant. Voir [Annulation de la publication d&#39;un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) et [Suppression d&#39;un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+Pour optimiser les performances, vous pouvez également dépublier ou supprimer des événements inutilisés. En effet, la dépublication ou la suppression d’un événement entraînera également la dépublication ou la suppression des messages transactionnels correspondants, ainsi que leurs logs d’envoi et de tracking, le cas échéant. Voir [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) et [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personnalisation        {#personalization}
+## Personnalisation         {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous.
 
