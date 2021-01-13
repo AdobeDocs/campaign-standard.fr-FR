@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 2%
@@ -104,7 +104,7 @@ Dans le mode séparé **Transmetteur+récepteur**, la connexion utilisée dépen
 
 Par exemple, lors de l’envoi d’un MT, la connexion de l’émetteur est utilisée et le `RESP` qui reconnaît le MT est également envoyé par l’intermédiaire du canal de l’émetteur. Lorsque vous recevez un MO (ou un SR), la connexion du récepteur est utilisée pour recevoir le MO et pour envoyer le `RESP` qui reconnaît le MO.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 En Adobe Campaign Standard, la réconciliation MT et SR est native de la MTA, il n&#39;y a donc pas de processus SMS dédié.
 
@@ -500,7 +500,7 @@ La fenêtre est le nombre de `SUBMIT_SM PDU`s qui peuvent être envoyées sans a
 
 Exemple de transmission avec une fenêtre maximale de 4 :
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins le nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
 Si la fenêtre est trop grande, vous pouvez envoyer plus de messages de duplicata en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
@@ -698,7 +698,7 @@ Permet d’ajouter un fichier TLV personnalisé. Ce champ définit la partie de 
 
 Ce paramètre permet uniquement d’ajouter une option TLV par message.
 
-### Réponse automatique aux MO    {#automatic-reply}
+### Réponse automatique aux MO     {#automatic-reply}
 
 Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
 
@@ -758,7 +758,7 @@ La période de validité est transmise dans le champ `validity_period` du `SUBMI
 
 ## Connecteur SMPP {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Les flèches représentent le flux de données.
 
