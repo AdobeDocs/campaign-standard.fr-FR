@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 99%
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
       + [Cas d’utilisation des messages transactionnels](channels/using/transactional-messaging-use-case.md)
-   + Pages de destination {#landing-pages}
+   + Landing page {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -246,7 +246,7 @@ ht-degree: 99%
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign et Audience Manager ou People core service{#working-with-campaign-and-audience-manager-or-people-core-service}
       + [A propos de l’intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Mise en service et configuration de l’intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Approvisionnement et configuration de l’intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d’audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
@@ -264,7 +264,7 @@ ht-degree: 99%
       + [Prise en main de l’intégration de Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
       + [Gérer les données entre Campaign et Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [Demander l’intégration](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Configurer les E/S d’Adobe](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Configurer Adobe I/O](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Configuration de Dynamics 365 pour l’intégration Campaign](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Mappage des ressources personnalisées de Campaign et des entités personnalisées de Dynamics 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [Utilisation de l’intégration Dynamics 365](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
@@ -447,9 +447,9 @@ ht-degree: 99%
       + [Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Configuration du canal SMS {#configuring-sms}
-      + [Mise en oeuvre du canal SMS](administration/using/configuring-sms-channel.md)
+      + [Mise en œuvre du canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocole et paramètres du connecteur SMS](administration/using/sms-protocol.md)
-      + [Dépannage SMS](administration/using/troubleshooting-sms.md)
+      + [Résolution des problèmes liés aux SMS](administration/using/troubleshooting-sms.md)
    + Paramétrage de l’application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
