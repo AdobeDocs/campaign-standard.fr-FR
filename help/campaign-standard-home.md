@@ -5,11 +5,11 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Nouveautés
 
-* **[Mettre à jour les ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> rebonds durs incorrectsDécouvrez comment mettre à jour les rebonds durs incorrects après une panne de Gmail
+* **[Mise à jour des hard bounces incorrects](https://helpx.adobe.com/fr/campaign/kb/update-bounce-qualification.html)**<br/> Découvrez comment mettre à jour les hard bounces incorrects après une panne de Gmail
 
-* **[Planification des ](rn/using/release-planning.md)**<br/> versionsLes prochaines dates de publication de février 2021 ont été ajoutées à la planification des versions
+* **[Calendrier des versions](rn/using/release-planning.md)**<br/> Les dates des prochaines versions de février 2021 ont été ajoutées au calendrier des versions
 
 * **[Populations témoins](sending/using/control-group.md)**<br/> Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
