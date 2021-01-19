@@ -6,11 +6,11 @@ description: Découvrez comment gérer les styles d'email dans le Concepteur d'e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Pour sélectionner une colonne, vous pouvez également procéder comme suit :
 
 Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment-and-padding).
 
-## Ajuster les paramètres de style       {#adjusting-style-settings}
+## Ajuster les paramètres de style        {#adjusting-style-settings}
 
 1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
@@ -184,7 +184,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez une **[!UICONTROL Cible]**.
+1. Pour sélectionner le contexte de navigation dans lequel votre lien sera ouvert, sélectionnez un attribut de **[!UICONTROL Cible]**.
 
    ![](assets/stylelinks-target.png)
 
@@ -198,7 +198,7 @@ Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Co
 
 1. Enregistrez vos modifications.
 
-## Ajouter des attributs de style intégrés       {#adding-inline-styling-attributes}
+## Ajouter des attributs de style intégrés        {#adding-inline-styling-attributes}
 
 Dans l&#39;interface du Concepteur d&#39;email, lorsque vous sélectionnez un élément et affichez ses paramètres dans le volet latéral, vous pouvez personnaliser les attributs intégrés et leur valeur pour cet élément spécifique.
 
