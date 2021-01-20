@@ -6,9 +6,9 @@ description: Définissez des populations ciblées, sélectionnez des audiences, 
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign
 ## Autres ressources
 
 * [Utilisation du service Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Utilisation de Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Utilisation de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
 * [Vidéos sur les profils et les audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
