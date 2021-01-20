@@ -6,9 +6,9 @@ description: Découvrez les différentes méthodes pour enrichir la base de donn
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing.
 
-Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
