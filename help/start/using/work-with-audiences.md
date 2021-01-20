@@ -6,9 +6,9 @@ description: '"Découvrez comment personnaliser l''affichage et exécuter des ac
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 ### Synchronisation des profils à partir de Microsoft Dynamics 365
 
 L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
-Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing. Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing. Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
