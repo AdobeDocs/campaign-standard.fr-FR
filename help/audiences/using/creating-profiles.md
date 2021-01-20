@@ -6,9 +6,9 @@ description: Découvrez comment créer des profils et collecter des données sur
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-translation-type: ht
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Pour créer ou mettre à jour un profil dans Campaign, vous pouvez :
 * importer une liste de profils depuis un fichier, par l&#39;intermédiaire d&#39;un [workflow](../../automating/using/creating-import-workflow-templates.md) ;
 * collecter des données en ligne via des [landing pages](../../channels/using/getting-started-with-landing-pages.md) ;
 * créer des profils en masse via l&#39;[API REST](../../api/using/get-started-apis.md) ;
-* synchroniser les profils depuis [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) ;
+* synchroniser les profils depuis [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) ;
 * saisir des données dans les écrans de l&#39;interface graphique, comme expliqué ci-dessous.
 
 Par exemple, pour créer un profil directement dans l&#39;interface utilisateur, procédez comme suit :
@@ -66,6 +66,6 @@ Le profil est ajouté à la liste.
 
 Cette vidéo montre comment importer des profils avec un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
