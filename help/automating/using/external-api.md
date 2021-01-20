@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-translation-type: ht
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+workflow-type: tm+mt
 source-wordcount: '2172'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -114,7 +114,7 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 ### Exécution
 
-Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d’entrée HTTPS** qui enverra des données à ACS.
+Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point de terminaison HTTPS** qui enverra des données à Campaign.
 
 Si le point d’entrée l’exige, deux types de méthodes d’authentification sont disponibles :
 
