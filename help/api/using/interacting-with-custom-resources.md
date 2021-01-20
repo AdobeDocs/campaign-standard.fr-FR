@@ -6,18 +6,18 @@ description: En savoir plus sur la gestion des ressources personnalisées avec l
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 
 # Interaction avec des ressources personnalisées {#interacting-with-custom-resources}
 
-Le point d’entrée **/customResources** vous permet d’exposer les ressources personnalisées ACS dans REST. Grâce à cette API, l’intégration entre les entités personnalisées et les points d’entrée externes est possible.
+Le point de terminaison **/customResources** vous permet d’exposer les ressources personnalisées Campaign dans REST. Grâce à cette API, l’intégration entre les entités personnalisées et les points d’entrée externes est possible.
 
 Le comportement du point d’entrée /customResources est identique à celui du point d’entrée /profileAndServices.
 
