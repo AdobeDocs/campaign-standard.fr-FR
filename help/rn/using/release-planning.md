@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 96%
@@ -41,11 +41,11 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>25-27 janvier 2021<br /> </td>
+   <td>1er - 2 février 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>1er - 8 février 2021<br /> </td>
+   <td>8-15 février 2021<br /> </td>
   </tr>
  </tbody>
 </table>
