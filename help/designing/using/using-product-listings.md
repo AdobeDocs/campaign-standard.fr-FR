@@ -1,26 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Utiliser des listes de produits dans un message transactionnel   '
-description: Découvrez comment utiliser les listes de produits dans un contenu message transactionnel.
+title: 'Utiliser des listes de produits dans un message transactionnel    '
+description: Découvrez comment utiliser les listes de produits dans un contenu de message transactionnel.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Utiliser des listes de produits dans un message transactionnel    {#using-product-listings}
+# Utiliser des listes de produits dans un message transactionnel      {#using-product-listings}
 
 >[!IMPORTANT]
 >
->Les listes de produits sont disponibles uniquement pour **les messages électroniques transactionnels** via l&#39;interface [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Les listes de produits ne sont disponibles que pour les **messages d’email transactionnel** via l’interface du [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Lors de la modification du contenu d’un email transactionnel, vous pouvez créer des listes de produits référençant une ou plusieurs collections de données. Par exemple, dans un email d’abandon de panier, vous pouvez inclure la liste de tous les produits figurant dans le panier de l’utilisateur au moment où il a quitté le site web, avec une image, le prix et un lien vers chaque produit.
 
@@ -32,7 +32,7 @@ Vous pouvez également regarder [cette série de vidéos](https://experienceleag
 >
 >Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
 
-## Définir une liste de produits         {#defining-a-product-listing}
+## Définir une liste de produits          {#defining-a-product-listing}
 
 Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -74,7 +74,7 @@ Avant de pouvoir utiliser une liste de produits dans un message transactionnel, 
    >
    >Si vous souhaitez que les éléments de votre liste s’affichent verticalement (**[!UICONTROL Colonne]**), le nombre maximal d’éléments est limité en fonction du composant de structure sélectionné (2, 3 ou 4 colonnes). Pour plus d’informations sur la sélection de composants de structure, consultez la section [Editer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-## Remplir la liste de produits         {#populating-the-product-listing}
+## Remplir la liste de produits          {#populating-the-product-listing}
 
 Pour afficher une liste des produits provenant de l’événement associé à l’email transactionnel, suivez les étapes ci-dessous.
 
