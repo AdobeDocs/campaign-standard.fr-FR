@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Toutes les dates de publication peuvent faire l’objet de modifications. Nous v
 
 ## Version 21.1 - Version de février {#release-21-1-release}
 
-Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](../../rn/using/release-notes.md) du début de mise à niveau de l’environnement d’étape. Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](../../rn/using/release-notes.md) au début des mises à niveau de l’environnement de test. Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
