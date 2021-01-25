@@ -7,18 +7,18 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # Synthèse des bounces{#bounce-summary}
 
-Ce rapport décrit en détail les erreurs globales, matérielles et logicielles survenues pendant les diffusions ainsi que le traitement automatique des rebonds (voir [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
+Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours). (voir la section [Compréhension des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
