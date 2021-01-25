@@ -6,9 +6,9 @@ description: Découvrez comment concevoir des emails via les intégrations d’A
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -148,7 +148,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">A propos du Concepteur d’email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -157,6 +157,6 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
 
 Cette vidéo montre comment créer et modifier du contenu pour Adobe Campaign Standard à l’aide de Dreamweaver.
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
