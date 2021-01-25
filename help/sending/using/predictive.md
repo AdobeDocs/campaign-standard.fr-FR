@@ -6,11 +6,11 @@ description: Découvrez comment utiliser l’heure d’envoi et le scoring d’e
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard offre deux nouveaux modèles d’apprentissage automat
 >[!CAUTION]
 >Cette fonctionnalité ne fait pas partie des paramètres d’usine du produit. La mise en œuvre nécessite l’implication d’Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 >
->La fonctionnalité nécessite l&#39;utilisation d&#39;un enregistrement Azure ou Amazon S3 qui doit être fourni par le client.
+>La fonctionnalité nécessite l’utilisation d’un stockage Azure ou Amazon S3 qui doit être fourni par le client.
 
 ## Optimisation prédictive de l’heure d’envoi{#predictive-send-time}
 
