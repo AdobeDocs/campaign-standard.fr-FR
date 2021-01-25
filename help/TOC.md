@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
 source-wordcount: '1731'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -262,16 +262,16 @@ ht-degree: 97%
       + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
       + [Cas pratiques des déclencheurs d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
+      + [Prise en main de l’intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Bonnes pratiques et limites](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [Configurer Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
-      + [Configuration de Campaign et Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
+      + [Configuration de Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [Configuration de Campaign et d’Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + Configuration de l’application d’intégration {#configure-integration-tool}
-         + [Prise en main de l’application d’intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Prise en main de l’intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Accès à l’application d’intégration](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Connexion des systèmes à l’application d’intégration](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Utilisation de l’intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
