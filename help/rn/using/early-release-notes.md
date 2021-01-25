@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 5%
+source-wordcount: '2586'
+ht-degree: 4%
 
 ---
 
@@ -41,12 +41,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 <tbody> 
 <tr> 
 <td>
-<p>Le service de commentaires par courriel (EFS) est un service évolutif qui capture directement les commentaires des MTA amélioré, améliorant ainsi la précision des rapports. Cette fonctionnalité est disponible en version bêta privée et sera progressivement accessible à tous les clients dans les prochaines versions.</p>
+<p>Le service de commentaires par courrier électronique (EFS) est un service évolutif qui améliore la précision des rapports en capturant les commentaires par courrier électronique directement à partir de la MTA améliorée.</p>
 <ul>
-<li>Toutes les catégories de événements sont capturées : Retards, Livraisons, Envoi, Désabonnement (Lien, Liste), Commentaires (Plaintes De Spam, événements Asynchrones).</li>
+<li>Toutes les catégories de événements sont capturées : Retards, Livraisons, Envoi, Désabonnement (lien, Liste), Commentaires (plaintes de spam, événements asynchrones).</li>
 <li>Le calcul des indicateurs envoyés/distribués est maintenant fondé sur les commentaires en temps réel de l’AMT améliorée pour une précision et une réactivité améliorées.</li>
 <li>EFS résout le problème des retards de rapports de rebonds synchrones et retire 80 % de la charge du processus inMail.</li>
 </ul>
+<p>Cette fonctionnalité est disponible en tant que <strong>bêta privée</strong> et sera progressivement accessible à tous les clients dans les prochaines versions.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 <tbody> 
 <tr> 
 <td>
-<p>L'intégration avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue à partir de Adobe Experience Manager. Adobe Campaign Standard détecte désormais automatiquement les variantes de langue du contenu Adobe Experience Manager et permet l’importation et la création de variantes en masse, ce qui simplifie considérablement le nombre d’étapes qu’un praticien doit franchir pour créer une campagne multilingue basée sur le contenu Adobe Experience Manager.
+<p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue à partir de Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langue du contenu Adobe Experience Manager et permet l’importation et la création de variantes en masse, ce qui simplifie considérablement le nombre d’étapes qu’un praticien doit franchir pour créer une campagne multilingue basée sur le contenu Adobe Experience Manager.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,22 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Améliorations**
 
-* L&#39;intégration de Microsoft Dynamics 365 a été améliorée avec une application d&#39;intégration en libre-service dédiée et un processus de mise en oeuvre amélioré. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
+* **L&#39;** intégration de Microsoft Dynamics 365a été améliorée grâce à une application d&#39;intégration en libre-service dédiée et à un processus de mise en oeuvre amélioré. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
 
-* Correction d’un problème en raison duquel les diffusions s’exécutaient très lentement en raison de certains processus. Ceci est dû à des unités incorrectes définies pour plusieurs paramètres (millisecondes au lieu de secondes, par exemple).
+* Une amélioration a été apportée afin de faciliter le dépannage en cas de problème avec le **processus de messagerie transactionnelle**. Les administrateurs techniques d’Adobe peuvent désormais utiliser le suivi sur n’importe quel processus sans le redémarrer.
 
-* Correction d’un problème en raison duquel le SDK mobile envoyait une demande de suivi ouverte à condition que l’ID de diffusion/MessageID ne soit pas nul. Cela provoquerait 404 erreurs pour les diffusions dont le suivi est désactivé. Une variable supplémentaire (acsDeliveryTracking) contenant des informations sur l’état de suivi de la diffusion est maintenant envoyée dans la charge utile. Cette variable peut avoir deux valeurs activées ou désactivées selon l’état de suivi défini.
+* La liste **Profils** vous permet désormais de rechercher des enregistrements en fonction de l’un de ces champs : e-mail, prénom, nom ou champs personnalisés qui ont été ajoutés dans le filtrage avancé lors de l’extension de la ressource profil. Cette fonctionnalité est également disponible dans les API de Campaign Standard à l’aide du paramètre filterType.
 
-* Une amélioration a été apportée afin de faciliter le dépannage en cas de problème avec le processus de messagerie transactionnelle. Les administrateurs techniques d’Adobe peuvent désormais utiliser le suivi sur n’importe quel processus sans le redémarrer.
+* Un paramètre a été ajusté au nombre de conteneurs exécutant le processus de regroupement de base de données **Transactional messaging**. Cela permet de répartir uniformément la charge sur tous les conteneurs utilisés et d&#39;atteindre des performances optimales.
 
-* La liste Profils vous permet désormais de rechercher des enregistrements en fonction de l’un de ces champs : e-mail, prénom, nom ou champs personnalisés qui ont été ajoutés dans le filtrage avancé lors de l’extension de la ressource profil. Cette fonctionnalité est également disponible dans les API de Campaign Standard à l’aide du paramètre filterType.
+* Une nouvelle fonction **GetOption** est désormais disponible dans les activités à l&#39;aide de variables de événement après avoir appelé un processus avec des paramètres externes. Il vous permet de renvoyer la valeur d’une fonction spécifiée.
 
-* Un paramètre a été ajusté au nombre de conteneurs d&#39;exécution du processus de mise en pool de la base de données de messagerie transactionnelle. Cela permet de répartir uniformément la charge sur tous les conteneurs utilisés et d&#39;atteindre des performances optimales.
+* Une nouvelle option permet au Campaign Standard de **vérifier la disponibilité de la mémoire physique** sur votre système avant de démarrer un processus. Si la quantité de mémoire est trop faible, l&#39;exécution du flux de travail sera retardée jusqu&#39;à ce que la mémoire système atteigne ce seuil. Cela permet d&#39;éviter une dégradation supplémentaire des performances et d&#39;atténuer le risque de panne. Le flux de travaux reprend automatiquement lorsque la charge sur le serveur diminue et que la mémoire augmente. Notez que cette option est en lecture seule et ne peut pas être modifiée.
 
-* Une nouvelle fonction (GetOption) est désormais disponible dans les activités à l’aide de variables de événement après avoir appelé un processus avec des paramètres externes. Il vous permet de renvoyer la valeur d’une fonction spécifiée.
-
-* Une nouvelle option technique a été ajoutée. Il permet au Campaign Standard de vérifier s’il y a suffisamment de mémoire physique disponible sur votre système avant de démarrer un processus. Si la quantité de mémoire est trop faible, l&#39;exécution du flux de travail sera retardée jusqu&#39;à ce que la mémoire système atteigne ce seuil. Cela permet d&#39;éviter une dégradation supplémentaire des performances et d&#39;atténuer le risque de panne. Essayez de reprogrammer ce flux de travail à un moment moins activité et réessayez. Le flux de travaux reprend automatiquement une fois que la contrainte du serveur est relâchée. Notez que cette option est en lecture seule et ne peut pas être modifiée.
 
 **Autres changements**
 
 * Modification d’une erreur en avertissement lors de la préparation du message, lorsque la limite de 100 téléchargements de contenu par heure roulante est atteinte. Un avertissement s’affiche désormais lorsque la limite est atteinte, ce qui permet de poursuivre la diffusion.
-
-* Un nouveau mapping de diffusion (mapRtEventAppSubRcp) est désormais disponible pour les messages push transactionnels ciblant les profils. La diffusion, l’exclusion et les logs de tracking de ces diffusions seront désormais disponibles dans les tables broadLogAppSubRcp, excludeLogAppSubRcp et trackingLogAppSubRcp. Ceci résout un problème en raison duquel l’analyse de diffusion échouait lors de l’envoi d’un message push transactionnel utilisant la dimension cible Profil.
 
 * Lors de l’enrichissement du contenu d’un message transactionnel, les liens ne sont plus récupérés lors de l’extraction de données du tableau de Profil, ce qui réduit la latence pendant la préparation du message et évite les données de profil vides en raison d’une relation incorrecte définie avec le tableau de profil.
 
@@ -120,15 +117,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 * L’activité **Transférer le fichier** génère désormais une variable supplémentaire (filesCount) qui contient le nombre de fichiers téléchargés ou téléchargés. (CAMP-45842)
 
-* Le connecteur SMS peut maintenant envoyer plusieurs paramètres facultatifs avec chaque message.
+* Le **connecteur SMS** peut désormais envoyer plusieurs paramètres facultatifs avec chaque message.
 
-* Correction d’un problème qui empêchait les utilisateurs dotés du rôle MODELE DE DONNÉES de publier les extensions du journal de diffusion. Cette opération sera désormais disponible pour le rôle MODÈLE DE DONNÉES. (CAMP-46604)
-
-* Correction d’un problème dans les workflows qui pouvait se produire lors du copier-coller d’une activité **Déduplication** qui avait été exécutée une seule fois et qui utilisait une ressource temporaire. Une fois dupliquée, la ressource d’activité était automatiquement définie sur vide, ce qui entraînait des problèmes dans d’autres activités du flux de travail. Une fois collée, la ressource de l’activité reste la même, afin que l’erreur soit déclenchée le plus tôt possible et non plus plus tard dans le flux de travail. (CAMP-46903)
+* Les utilisateurs dotés du rôle DATAMODEL peuvent désormais publier les extensions du journal de diffusion. (CAMP-46604)
 
 * Le message d’erreur qui s’affichait lors de la publication d’une ressource ciblant une ressource personnalisée qui n’existe plus a été clarifié. (CAMP-46893)
 
-* Les langues suivantes ont été ajoutées à la liste de langue préférée : indonésien - Indonésie (in-id), anglais - Suède (en-se), anglais - Asie-Pacifique (en-ap), anglais - Japon (en-jp), espagnol - Amérique latine (es-la). (CAMP-46351)
+* Les langues suivantes ont été ajoutées à la liste **Langue préférée** : indonésien - Indonésie (in-id), anglais - Suède (en-se), anglais - Asie-Pacifique (en-ap), anglais - Japon (en-jp), espagnol - Amérique latine (es-la). (CAMP-46351)
 
 * Le sélecteur de profils sélectionné lors du test d’un landing page utilise désormais la ressource profilBase plutôt que le profil pour éviter le délai d’attente.
 
@@ -138,19 +133,23 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 * Amélioration des messages d’avertissement ou d’erreur dans les journaux de préparation de diffusion.
 
-* Amélioration des journaux des erreurs lors de la tentative de connexion à IMS.
+* Amélioration des journaux des erreurs lors de la tentative de connexion à Adobe Identity Management Service (IMS).
 
-* Vous pouvez désormais filtrer davantage les dimensions de la Diffusion et du Campaign à l’aide de la barre de recherche dans rapports dynamique.
+* Vous pouvez désormais filtrer davantage les dimensions de la Diffusion et de Campaign à l’aide de la barre de recherche dans **rapports dynamique**.
 
-* La date de validité du message SMS transactionnel peut désormais être définie par la valeur définie pour le paramètre d&#39;expiration dans l&#39;API Messages transactionnels. (CAMP-36600)
+* La date de validité du message SMS transactionnel peut désormais être définie par la valeur définie pour le paramètre d&#39;expiration dans l&#39;API **Messages transactionnels**. (CAMP-36600)
 
 * Dans le rapports dynamique, le rapport intégré **Résumé de la Diffusion** présentait des données incorrectes pour la mesure de taux de désabonnement. Une nouvelle mesure **désinscription unique** a été ajoutée pour corriger ce problème. (CAMP-46445)
 
 **Correctifs**
 
+* Correction d’un problème en raison duquel les diffusions s’exécutaient très lentement en raison de certains processus. Ceci est dû à des unités incorrectes définies pour plusieurs paramètres (millisecondes au lieu de secondes, par exemple).
+* Correction d’un problème dans les workflows qui pouvait se produire lors du copier-coller d’une activité **Déduplication** qui avait été exécutée une seule fois et qui utilisait une ressource temporaire. Une fois dupliquée, la ressource d’activité était automatiquement définie sur vide, ce qui entraînait des problèmes dans d’autres activités du flux de travail. Une fois collée, la ressource de l’activité reste la même, afin que l’erreur soit déclenchée le plus tôt possible et non plus plus tard dans le flux de travail. (CAMP-46903)
+* Correction d’un problème en raison duquel le SDK mobile envoyait une demande de suivi ouverte à condition que l’ID de diffusion/ID de message ne soit pas nul. Cela provoquerait 404 erreurs pour les diffusions dont le suivi est désactivé. Une variable supplémentaire (acsDeliveryTracking) contenant des informations sur l’état de suivi de la diffusion est maintenant envoyée dans la charge utile. Cette variable peut avoir deux valeurs activées ou désactivées selon l’état de suivi défini.
 * Correction d’un problème qui empêchait l’exécution des rapports de diffusion lorsque 5 000 lignes étaient affichées.
 * Correction d’un problème lié aux tests A/B qui empêchait la mise à jour du contenu de la variante B après la modification du modèle de diffusion. (CAMP-45235)
 * Correction d’un problème en raison duquel le processus de messagerie transactionnelle restait bloqué, empêchant l’envoi de messages.
+* Correction d’un problème en raison duquel l’analyse de l’diffusion échouait lors de l’envoi d’un message Push transactionnel utilisant la dimension cible de Profil. Un nouveau mapping de diffusion (mapRtEventAppSubRcp) est désormais disponible pour les messages push transactionnels ciblant les profils. La diffusion, l’exclusion et les logs de tracking de ces diffusions seront désormais disponibles dans les tables broadLogAppSubRcp, excludeLogAppSubRcp et trackingLogAppSubRcp.
 * Correction d’un problème qui pouvait entraîner des problèmes de navigation après avoir cliqué sur un lien interne (par exemple, lors de l’accès à la diffusion parent à partir d’un écran de résumé du BAT).
 * Correction d’un problème qui empêchait l’affichage de tous les modèles de contenu de Experience Manager disponibles lors de la création d’une diffusion. (CAMP-45990)
 * Correction d’un problème dans les workflows qui empêchait l’affichage des messages d’échec dans les logs de diffusion après l’ajout de la colonne **Motif** à l’onglet Données supplémentaires. (CAMP-45139)
