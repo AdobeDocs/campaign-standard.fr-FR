@@ -6,9 +6,9 @@ description: Découvrez comment être informé d'une adresse incorrecte et l'exc
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 
