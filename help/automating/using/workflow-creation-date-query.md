@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
