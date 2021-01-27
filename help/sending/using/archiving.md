@@ -6,9 +6,9 @@ description: Découvrez comment archiver des emails avec Adobe Campaign Standa
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’o
 >
 >Actuellement, les emails archivés ne peuvent pas être envoyés avec le MTA amélioré d’Adobe Campaign, même si vous avez déjà effectué une mise à niveau vers celui-ci.
 
-## Activer l’archivage des emails        {#activating-email-archiving}
+## Activer l’archivage des emails         {#activating-email-archiving}
 
 Une fois activée, la fonctionnalité Email BCC est activée dans le [modèle d’email](../../start/using/marketing-activity-templates.md) par le biais d’une option dédiée :
 
