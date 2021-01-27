@@ -6,9 +6,9 @@ description: Cette section explique dans le détail comment appeler un workflow 
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dess
 -d } 
 ```
 
-## Etape 2 : configurer le workflow 1      {#step-2--configuring-workflow-1}
+## Etape 2 : configurer le workflow 1       {#step-2--configuring-workflow-1}
 
 Le workflow 1 sera créé tel que ci-dessous :
 
@@ -129,7 +129,7 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
 Le workflow 1 est configuré, et vous pouvez maintenant créer le workflow 2. Voir à ce propos [cette section](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
-## Etape 3 : configurer le workflow 2      {#step-3--configuring-workflow-2}
+## Etape 3 : configurer le workflow 2       {#step-3--configuring-workflow-2}
 
 Le workflow 2 sera créé tel que ci-dessous :
 
@@ -186,6 +186,6 @@ Suivez les étapes ci-dessous pour configurer le workflow :
 
    ![](assets/extsignal_uc14.png)
 
-## Exécuter les workflows      {#executing-the-workflows}
+## Exécuter les workflows       {#executing-the-workflows}
 
 Une fois les workflows créés, vous pouvez les exécuter. Assurez-vous que les deux workflows sont démarrés avant d’effectuer l’appel API.
