@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ En cas de besoin, vous pouvez également ajouter un titre et un contenu à votre
 
    ![](assets/inapp_customize_11.png)
 
-### Boutons      {#buttons}
+### Boutons       {#buttons}
 
 Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
@@ -129,7 +129,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_11.png)
 
-### Paramètres      {#settings}
+### Paramètres       {#settings}
 
 1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
 1. A l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
@@ -138,7 +138,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale      {#customizing-a-local-notification-message-type}
+## Personnaliser un type de message de notification locale       {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
 Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
