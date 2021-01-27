@@ -6,9 +6,9 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
