@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 100%
 
@@ -271,7 +271,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l&#39;éditeur de contenu      {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l&#39;éditeur de contenu       {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l&#39;intérieur d&#39;un bloc de texte.
 
@@ -285,7 +285,7 @@ Pour modifier l&#39;alignement du texte, sélectionnez l&#39;une des trois icôn
 
 Vous pouvez également utiliser la barre d&#39;outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page      {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page       {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d&#39;une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
