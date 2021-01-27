@@ -6,9 +6,9 @@ description: Découvrez comment étendre la ressource Profil.
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Votre champ est maintenant configuré. Nous devons maintenant l&#39;étendre au 
 >
 >Si vous n&#39;avez pas besoin d&#39;étendre la ressource de profil de test, vous pouvez passer à l&#39;étape de publication.
 
-## Etape 2 : Etendre le profil de test     {#step-2--extend-the-test-profile}
+## Etape 2 : Etendre le profil de test      {#step-2--extend-the-test-profile}
 
 Pour vérifier si le nouveau champ créé est correctement configuré, vous pouvez le tester en envoyant votre diffusion à vos profils de test. Tout d&#39;abord, le nouveau champ doit également être créé pour les profils de test.
 
@@ -119,7 +119,7 @@ Pour vérifier si le nouveau champ créé est correctement configuré, vous pouv
 
 Votre nouveau champ est maintenant disponible pour les profils et les profils de test. Pour qu&#39;il soit correctement configuré, vous devez publier votre ressource personnalisée.
 
-## Etape 3 : Publier votre ressource personnalisée     {#step-3--publish-your-custom-resource}
+## Etape 3 : Publier votre ressource personnalisée      {#step-3--publish-your-custom-resource}
 
 Pour appliquer les modifications apportées aux ressources et les utiliser, vous devez effectuer une mise à jour de la base de données.
 
@@ -143,7 +143,7 @@ Pour appliquer les modifications apportées aux ressources et les utiliser, vous
 
 Votre nouveau champ de ressource est maintenant prêt à être utilisé et ciblé dans une diffusion, par exemple.
 
-## Etape 4 : Mettre à jour et cibler les profils avec un workflow     {#step-4--update-and-target-profiles-with-a-workflow}
+## Etape 4 : Mettre à jour et cibler les profils avec un workflow      {#step-4--update-and-target-profiles-with-a-workflow}
 
 Pour mettre à jour les profils avec les données du nouveau champ personnalisé, vous pouvez créer une landing page à l&#39;aide du modèle **[!UICONTROL Acquisition de profils]**. Pour plus d&#39;informations sur les landing pages, consultez cette [page](../../channels/using/getting-started-with-landing-pages.md).
 
