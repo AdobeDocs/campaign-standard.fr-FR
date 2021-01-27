@@ -6,9 +6,9 @@ description: Automatisez les processus avec des workflows, gérez les données e
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
