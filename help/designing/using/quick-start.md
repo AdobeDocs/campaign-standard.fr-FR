@@ -6,9 +6,9 @@ description: Commencez à créer du contenu d'email avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 100%
 
