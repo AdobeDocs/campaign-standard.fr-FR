@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Selon les paramètres renseignés et l’avancement du processus de création, c
 
 * **[!UICONTROL Confirmer l’envoi]** : confirme l’envoi définitif du message. Le résultat de l’envoi apparaît dans le bloc **[!UICONTROL Déploiement]**. Ce bouton n’apparaît qu’après la préparation de l’envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l’envoi à l’aide des boutons **Arrêter l’envoi** et **[!UICONTROL Mettre en pause.]** Pour plus d’informations sur la validation d’un envoi, consultez la section [Envoyer les messages](../../sending/using/confirming-the-send.md).
 
-## Blocs        {#blocks}
+## Blocs         {#blocks}
 
 L’écran principal est composé de différents blocs. Cliquez dans un bloc pour accéder à l’écran de paramètres correspondant :
 
