@@ -6,9 +6,9 @@ description: Découvrez comment concevoir des emails à l'aide d'un contenu d'em
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
 Découvrez cette fonctionnalité en vidéo.
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
