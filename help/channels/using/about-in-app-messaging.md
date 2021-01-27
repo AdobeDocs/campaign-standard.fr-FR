@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 100%
 
