@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Pour accéder à la liste des activités marketing d&#39;une campagne :
 
    Pour filtrer les messages récurrents, vous pouvez cocher la case correspondante.
 
-## Accéder à la liste des messages    {#accessing-the-message-list}
+## Accéder à la liste des messages     {#accessing-the-message-list}
 
 Pour accéder à la liste complète des activités marketing de toutes campagnes confondues, procédez comme suit :
 
