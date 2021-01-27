@@ -6,9 +6,9 @@ description: Découvrez ici les étapes clés pour ajouter une ressource dans le
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -31,6 +31,6 @@ Pour créer une ressource ou pour étendre une ressource existante avec de nouve
 
 Cette vidéo montre comment créer des ressources personnalisées.
 
->[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
