@@ -6,9 +6,9 @@ description: Découvrez comment éditer des profils existants et accéder aux in
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -53,13 +53,13 @@ L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes conc
 
 ![](assets/profile_creation4.png)
 
-## Logs d&#39;envoi et tracking    {#sending-and-tracking-logs}
+## Logs d&#39;envoi et tracking     {#sending-and-tracking-logs}
 
 Les onglets **[!UICONTROL Envois]** et **[!UICONTROL Tracking]** répertorient les diffusions envoyées au profil, ainsi que toutes les données de tracking associées.
 
 Pour plus d&#39;informations sur les envois et le tracking, consultez les sections [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs) et [Tracker les messages](../../sending/using/tracking-messages.md).
 
-## Abonnements    {#subscriptions}
+## Abonnements     {#subscriptions}
 
 Les abonnements du contact sont répertoriés dans l&#39;onglet correspondant. Pour plus d&#39;informations sur l&#39;abonnement à un service, voir [cette section](../../audiences/using/about-subscriptions.md).
 
