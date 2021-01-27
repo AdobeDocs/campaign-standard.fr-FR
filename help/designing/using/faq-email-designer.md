@@ -6,9 +6,9 @@ description: Questions fréquentes sur le Concepteur d’email.
 audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
 
