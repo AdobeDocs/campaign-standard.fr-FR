@@ -6,9 +6,9 @@ description: Commencez à créer du contenu d'email réutilisable avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 Cette vidéo montre comment créer votre propre modèle.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
@@ -204,7 +204,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 >
 >Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
 
-### Créer un fragment de contenu          {#creating-a-content-fragment}
+### Créer un fragment de contenu           {#creating-a-content-fragment}
 
 Vous pouvez créer vos propres fragments de contenu pour les utiliser selon vos besoins dans un ou plusieurs emails.
 
@@ -242,7 +242,7 @@ Ce fragment peut à présent être utilisé dans n&#39;importe quel email créé
 >
 >Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [A propos des fragments](#about-fragments).
 
-### Enregistrer du contenu en tant que fragment          {#saving-content-as-a-fragment}
+### Enregistrer du contenu en tant que fragment           {#saving-content-as-a-fragment}
 
 Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregistrer directement une partie de cet email en tant que fragment.
 
