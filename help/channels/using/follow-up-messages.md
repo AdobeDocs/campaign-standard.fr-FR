@@ -6,9 +6,9 @@ description: Découvrez comment créer, gérer et envoyer un message de relance.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Pour envoyer un message de rappel, vous devez d’abord configurer en conséquen
 
 Une fois la publication effectuée, un message transactionnel et un modèle de diffusion de relance associés au nouvel événement sont automatiquement créés. Les étapes pour envoyer le message de rappel sont présentées dans [cette section](#sending-a-follow-up-message).
 
-## Accéder aux messages de relance      {#accessing-the-follow-up-messages}
+## Accéder aux messages de relance       {#accessing-the-follow-up-messages}
 
 Pour gérer un événement dans un workflow, un modèle de diffusion est nécessaire. Le [message transactionnel](../../channels/using/editing-transactional-message.md) créé lors de la publication de l&#39;événement ne peut cependant pas être utilisé comme modèle. Vous devez donc créer un modèle de diffusion de relance spécifique qui prend en charge ce type d&#39;événement et qui peut être utilisé comme modèle dans un workflow.
 
