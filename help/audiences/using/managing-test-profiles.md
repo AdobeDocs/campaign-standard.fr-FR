@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -82,6 +82,6 @@ Pour éditer un profil de test et consulter les données qui lui sont associées
 
 Cette vidéo montre comment créer un profil de test.
 
->[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
