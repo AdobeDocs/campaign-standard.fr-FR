@@ -6,9 +6,9 @@ description: Un rapport dynamique permet d'ajouter un panneau pour mieux filtrer
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
