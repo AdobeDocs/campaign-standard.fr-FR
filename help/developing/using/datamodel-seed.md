@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 100%
                <tr>
                   <td>proof</td>
                   <td>Proof</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 100%
                <tr>
                   <td>sampleData</td>
                   <td>Sample data</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,7 +208,7 @@ ht-degree: 100%
                <tr>
                   <td>trap</td>
                   <td>Trap</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
             </table>
@@ -249,16 +249,16 @@ Par usage (byUsage)
         <th>Type</th>
         </tr>
         <tr>
-        <td>trap</td>
-        <td>boolean</td>
+        <td>piège</td>
+        <td>booléen</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>boolean</td>
+        <td>booléen</td>
         </tr>
         <tr>
-        <td>proof</td>
-        <td>boolean</td>
+        <td>bat</td>
+        <td>booléen</td>
         </tr>
     </table>
 
