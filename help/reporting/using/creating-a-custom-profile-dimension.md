@@ -6,9 +6,9 @@ description: Découvrez comment créer une dimension de profil personnalisé à 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Votre nouveau champ de profil est maintenant prêt à être utilisé et sélecti
 
 ![](assets/custom_profile_8.png)
 
-## Etape 2 : Extension des envois avec le champ de profil     {#step-2--extend-the-sending-logs-with-the-profile-field}
+## Etape 2 : Extension des envois avec le champ de profil      {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 Maintenant que votre champ de profil est créé, nous devons étendre les envois avec notre champ de profil pour créer la dimension de profil personnalisé associé dans les rapports dynamiques.
 
@@ -119,7 +119,7 @@ Votre profil personnalisé est maintenant disponible en tant que dimension de pr
 
 À présent que votre champ a été créé et que les envois ont été étendus avec ce champ de profil, vous pouvez commencer à cibler des destinataires dans les diffusions.
 
-## Etape 3 : Création d&#39;une diffusion ciblant des destinataires inscrits dans le programme de fidélité     {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Etape 3 : Création d&#39;une diffusion ciblant des destinataires inscrits dans le programme de fidélité      {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Une fois votre champ de profil publié, vous pouvez lancer votre diffusion. Dans cet exemple, nous voulons cibler tous les destinataires inscrits dans le programme de fidélité.
 
@@ -143,7 +143,7 @@ Une fois votre champ de profil publié, vous pouvez lancer votre diffusion. Dans
 
 Une fois votre email correctement envoyé aux destinataires sélectionnés, vous pouvez commencer à filtrer vos données et à tracker le succès de vos diffusions avec les rapports.
 
-## Etape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé     {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Etape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé      {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Après l&#39;envoi de votre diffusion, vous pouvez ventiler des rapports à l&#39;aide de la dimension de votre profil personnalisé à partir de l&#39;onglet **[!UICONTROL Profil]**.
 
