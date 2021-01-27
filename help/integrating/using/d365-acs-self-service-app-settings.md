@@ -53,7 +53,7 @@ L&#39;autre raison de configurer le serveur SFTP est que vous prévoyez d&#39;ex
 
 >[!IMPORTANT]
 >
->Vous êtes responsable des informations que vous accédez et téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements applicables en matière de protection de la vie privée. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>Vous êtes responsable des informations que vous accédez et téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements en vigueur sur la protection des renseignements personnels. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 
 Pour définir les paramètres SFTP Campaign pour l&#39;intégration Microsoft Dynamics 365, accédez à la section suivante :
@@ -72,7 +72,7 @@ Vous devez spécifier :
 
 * Le **Voulez-vous exporter les journaux vers votre SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation vers le point de terminaison SFTP. Vous pouvez l&#39;utiliser pour faciliter le débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
 
-## Configuration du protocole SFTP en Adobe Campaign {#ac-control-panel-settings}
+## Configuration SFTP en Adobe Campaign {#ac-control-panel-settings}
 
 Découvrez la gestion SFTP avec [Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) dans les sections suivantes :
 
