@@ -6,9 +6,9 @@ description: Cette section contient la liste de tous les composants disponibles 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1287'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS         {#email-and-sms-metrics}
+### Mesures des emails et SMS          {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -257,7 +257,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push         {#push-notification-metrics}
+### Mesures des notifications push          {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -322,7 +322,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App         {#in-app-metrics}
+### Mesures In-App          {#in-app-metrics}
 
 <table> 
  <thead> 
