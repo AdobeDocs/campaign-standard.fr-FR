@@ -6,9 +6,9 @@ description: Suivez ces étapes pour créer une diffusion email unique dans Adob
 audience: channels
 content-type: reference
 topic-tags: email-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 
@@ -98,6 +98,6 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 Cette vidéo montre comment créer un email.
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
