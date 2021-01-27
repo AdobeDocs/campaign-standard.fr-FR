@@ -6,9 +6,9 @@ description: '"Découvrez comment personnaliser l''affichage et exécuter des ac
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Integer luctus blandit ligula. Nulla quis vehicula augue, a lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
