@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -82,18 +82,18 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Template</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -106,7 +106,7 @@ ht-degree: 100%
                <tr>
                   <td>limitedDuration</td>
                   <td>Limited duration</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,12 +130,12 @@ ht-degree: 100%
                <tr>
                   <td>mode</td>
                   <td>Mode</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
