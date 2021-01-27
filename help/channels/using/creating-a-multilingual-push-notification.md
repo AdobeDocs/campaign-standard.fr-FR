@@ -6,9 +6,9 @@ description: Créez des notifications push multilingues pour cibler les utilisat
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 Vous pouvez maintenant commencer à personnaliser votre notification push multilingue.
 
-## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues     {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues      {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Après avoir téléchargé le fichier comportant les variantes de contenus, vous pouvez prévisualiser différentes variantes depuis la diffusion de la notification push.
 
@@ -108,7 +108,7 @@ Vous avez également la possibilité de créer et éditer des variantes supplém
 
 La diffusion de la notification push multilingue est prête à l&#39;envoi.
 
-## Etape 3 : envoi et analyse de la diffusion de notification push multilingue     {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Etape 3 : envoi et analyse de la diffusion de notification push multilingue      {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Les notifications push avec des variantes de contenus multilingues peuvent être maintenant envoyées à vos utilisateurs.
 
