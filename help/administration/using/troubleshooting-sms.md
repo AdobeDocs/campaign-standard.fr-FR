@@ -6,9 +6,9 @@ description: Résolution des problèmes de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 80e4f752a1b9b6c8b0125a502c05c19796e98104
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 100%
 
