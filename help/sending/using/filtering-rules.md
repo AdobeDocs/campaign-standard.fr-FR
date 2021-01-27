@@ -6,9 +6,9 @@ description: Utilisez des règles de filtrage pour affiner l'audience des messag
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
-| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
+| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Application mobile | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
 | **** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
@@ -90,7 +90,7 @@ Par défaut, le filtrage porte sur les **[!UICONTROL Profils]**. Par exemple, si
 
 ![](assets/typology_rule-order_2.png)
 
-## Restreindre la portée d&#39;une règle de filtrage      {#restricting-the-applicability-of-a-filtering-rule}
+## Restreindre la portée d&#39;une règle de filtrage       {#restricting-the-applicability-of-a-filtering-rule}
 
 Vous pouvez restreindre le champ d&#39;application d&#39;une règle de filtrage en fonction du message à envoyer.
 
