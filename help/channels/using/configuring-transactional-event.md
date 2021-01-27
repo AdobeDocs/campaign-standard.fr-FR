@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1747'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Pour commencer, créez l’événement correspondant à vos besoins.
 >
 >Le nombre d’événements transactionnels peut avoir un impact sur votre plateforme. Pour des performances optimales, veillez à supprimer les événements inutilisés. Voir la section [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Définir les attributs d’événement       {#defining-the-event-attributes}
+## Définir les attributs d’événement        {#defining-the-event-attributes}
 
 Dans la section **[!UICONTROL Champs]**, définissez les attributs qui seront intégrés au contenu de l’événement et qui pourront être utilisés pour personnaliser le message transactionnel.
 
@@ -64,7 +64,7 @@ Les étapes d’ajout et de modification des champs s’effectuent de la même m
 >
 >Si vous souhaitez créer un message transactionnel multilingue, définissez un attribut d’événement supplémentaire avec l’identifiant **[!UICONTROL AC_language]**. Cela s’applique uniquement aux messages transactionnels basés sur un événement. Une fois l’événement publié, les étapes nécessaires pour éditer le contenu d’un message transactionnel multilingue sont les mêmes que pour un email standard multilingue. Voir [Créer un email multilingue](../../channels/using/creating-a-multilingual-email.md).
 
-## Définir des collections de données       {#defining-data-collections}
+## Définir des collections de données        {#defining-data-collections}
 
 Vous pouvez ajouter une collection d’éléments au contenu de l’événement, chaque élément comprenant lui-même plusieurs attributs.
 
@@ -189,7 +189,7 @@ Pour envoyer un message transactionnel basé sur un événement, vous devez d’
 
 1. Intégrez l&#39;événement dans votre site web (voir [Intégrer le déclenchement d&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Messages transactionnels basés sur un profil       {#profile-based-transactional-messages}
+### Messages transactionnels basés sur un profil        {#profile-based-transactional-messages}
 
 Vous pouvez envoyer des messages transactionnels en fonction des profils client, ce qui vous permet d&#39;appliquer des règles de typologie marketing, d&#39;inclure le lien de désabonnement, d&#39;ajouter le message au rapport de diffusion global et de l&#39;exploiter dans le parcours client.
 
