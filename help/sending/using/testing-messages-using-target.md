@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 100%
 
@@ -271,6 +271,6 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 Cette vidéo explique comment tester vos emails à l’aide de la substitution de profil.
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
