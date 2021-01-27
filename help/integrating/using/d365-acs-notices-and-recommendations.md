@@ -101,7 +101,7 @@ Votre stockage SFTP dans Campaign devra être utilisé par l’intégration dans
 
 >[!IMPORTANT]
 >
->Vous êtes responsable des informations que vous accédez et téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements applicables en matière de protection de la vie privée. [En savoir plus](#acs-msdyn-manage-privacy).
+>Vous êtes responsable des informations que vous accédez et téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements en vigueur sur la protection des renseignements personnels. [En savoir plus](#acs-msdyn-manage-privacy).
 
 ## Gestion des données
 
