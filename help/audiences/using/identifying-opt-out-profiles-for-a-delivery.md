@@ -6,9 +6,9 @@ description: Découvrez comment identifier des profils exclus pour une diffusion
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 100%
 
