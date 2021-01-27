@@ -6,9 +6,9 @@ description: L'outil d'édition de requêtes permet d'utiliser des fonctions ava
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 100%
 
@@ -300,7 +300,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques     {#numerical}
+## Numériques      {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -384,7 +384,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres     {#others}
+## Autres      {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -713,7 +713,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation     {#representation}
+## Représentation      {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
