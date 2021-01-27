@@ -6,9 +6,9 @@ description: Découvrez comment tracker vos abonnés et mesurer les performances
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Applications mobiles   {#subscription-history}
+## Applications mobiles    {#subscription-history}
 
 Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
@@ -46,7 +46,7 @@ Pour consulter l&#39;historique des inscriptions et des désinscriptions au serv
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Rapports du service   {#service-reports}
+## Rapports du service    {#service-reports}
 
 Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
@@ -60,7 +60,7 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Historique des événements liés à un profil   {#history-of-events-linked-to-a-profile}
+## Historique des événements liés à un profil    {#history-of-events-linked-to-a-profile}
 
 Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
