@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
