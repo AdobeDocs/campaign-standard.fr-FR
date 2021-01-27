@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ En fonction des activités, vous pouvez ajouter plusieurs types de transitions s
 
 Vous pouvez indiquer un **[!UICONTROL Code segment]** pour la transition sortante d’une l’activité. Ce code segment permet d’identifier d’où viennent les sous-ensembles de la population cible finale, et peut par la suite servir à des fins de personnalisation dans un message.
 
-## Options d’exécution d’une activité        {#activity-execution-options}
+## Options d’exécution d’une activité         {#activity-execution-options}
 
 L’écran des propriétés d’une activité comporte un onglet **[!UICONTROL Options d’exécution]** vous permettant notamment de définir son mode d’exécution et le comportement en cas d’erreur.
 
