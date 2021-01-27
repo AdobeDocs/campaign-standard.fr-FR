@@ -6,9 +6,9 @@ description: Suivez ces étapes pour configurer un processus de double opt-in à
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 100%
 
@@ -67,13 +67,13 @@ Pour créer et configurer cette landing page, vous devez :
 
 1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
-## Etape 2 : création de l&#39;email de confirmation        {#step-2--create-the-confirmation-email}
+## Etape 2 : création de l&#39;email de confirmation         {#step-2--create-the-confirmation-email}
 
 Une fois la landing page de confirmation créée, vous pouvez concevoir l&#39;email de confirmation qui sera envoyé automatiquement à chaque visiteur qui valide la landing page d&#39;acquisition. Cette validation est considérée comme un événement, et l&#39;email est un message transactionnel, lié à une règle de typologie spécifique qui permet le ciblage des populations Opt-out.
 
 Les étapes de création de ces éléments sont décrites ci-dessous. Vous devez les suivre avant de créer la landing page d&#39;acquisition car celle-ci fera référence au modèle d&#39;email.
 
-### Création de l&#39;événement        {#create-the-event}
+### Création de l&#39;événement         {#create-the-event}
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : la validation du formulaire. Vous devez commencer par créer l&#39;événement et ensuite le modèle du message transactionnel.
 
@@ -106,7 +106,7 @@ Vous devez créer une [typologie](../../sending/using/about-typology-rules.md) s
 
 Cette typologie peut maintenant être associée à l&#39;email de confirmation.
 
-### Conception du message de confirmation        {#design-the-confirmation-message}
+### Conception du message de confirmation         {#design-the-confirmation-message}
 
 L&#39;email de confirmation est un message transactionnel basé sur l&#39;événement créé préalablement. Suivez les étapes ci-dessous pour créer ce message :
 
@@ -119,7 +119,7 @@ L&#39;email de confirmation est un message transactionnel basé sur l&#39;évén
 1. Editez les propriétés du modèle d&#39;email. Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]**, sélectionnez la typologie **TYPOLOGIE_PROFIL** créée préalablement.
 1. Enregistrez le message transactionnel et publiez-le.
 
-## Etape 3 : création de la landing page d&#39;acquisition        {#step-3--create-the-acquisition-landing-page}
+## Etape 3 : création de la landing page d&#39;acquisition         {#step-3--create-the-acquisition-landing-page}
 
 Vous devez créer la landing page d&#39;acquisition initiale. Ce formulaire d&#39;opt-in sera publié sur votre site web.
 
@@ -128,7 +128,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/blackList
+   /context/profil/liste bloquée
 
    puis définissez la valeur sur **vrai**.
 
