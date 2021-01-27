@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%
 
@@ -85,6 +85,6 @@ Une fois l&#39;envoi terminé, vous pouvez commencer à mesurer l&#39;impact de 
 
 Cette vidéo montre comment créer une diffusion SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
