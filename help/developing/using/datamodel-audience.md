@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ ht-degree: 100%
                <tr>
                   <td>doNotPersist</td>
                   <td>Do not historize this job</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 100%
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
                   <td>Adobe Marketing Cloud audience</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -153,7 +153,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
