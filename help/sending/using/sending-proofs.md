@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
