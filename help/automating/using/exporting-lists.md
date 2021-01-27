@@ -6,9 +6,9 @@ description: 'Adobe Campaign vous permet d''exporter les données affichées sou
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
@@ -80,6 +80,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 Cette vidéo montre comment configurer des listes.
 
->[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
