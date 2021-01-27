@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 100%
 
@@ -58,37 +58,37 @@ ht-degree: 100%
                <tr>
                   <td>blackListEmail</td>
                   <td>No longer contact by email</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListFax</td>
                   <td>No longer contact by fax</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListMobile</td>
                   <td>No longer contact by SMS</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPhone</td>
                   <td>No longer contact by phone</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
                   <td>No longer contact by direct mail</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPushnotification</td>
                   <td>No longer contact by push notification</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -191,20 +191,20 @@ ht-degree: 100%
                <tr>
                   <td>gender</td>
                   <td>Gender</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Unspecified - unknown - 0</li>
                         <li>Male - male - 1</li>
                         <li>Female - female - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -359,7 +359,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -448,7 +448,7 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>includeStart</td>
-<td>boolean</td>
+<td>booléen</td>
 </tr>
 <tr>
 <td>previousUnitsValue</td>
@@ -476,11 +476,11 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>operator</td>
-<td>enumeration</td>
+<td>énumération</td>
 </tr>
 <tr>
 <td>includeEnd</td>
-<td>boolean</td>
+<td>booléen</td>
 </tr>
 <tr>
 <td>endMonth</td>
@@ -488,7 +488,7 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>type</td>
-<td>enumeration</td>
+<td>énumération</td>
 </tr>
 <tr>
 <td>day</td>
@@ -569,7 +569,7 @@ Ouverts (hasOpenedDelivery)
 <th>Type</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>diffusion</td>
 <td>link</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ Reçus (hasReceivedDelivery)
 <th>Type</th>
 </tr>
 <tr>
-<td>delivery</td>
+<td>diffusion</td>
 <td>link</td>
 </tr>
 </table>
