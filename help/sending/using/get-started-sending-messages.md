@@ -6,9 +6,9 @@ description: Préparez, testez, planifiez, envoyez et surveillez vos messages.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
@@ -99,6 +99,6 @@ En savoir plus :
 
 Cette vidéo montre comment envoyer un email de test, préparer puis envoyer une diffusion email avec Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
