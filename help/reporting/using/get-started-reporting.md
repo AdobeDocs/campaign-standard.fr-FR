@@ -6,9 +6,9 @@ description: Analysez le succès de vos campagnes dans des rapports dynamiques i
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e20485978deba54f45010a41921b948f049222f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -82,6 +82,6 @@ En savoir plus :
 
 Cette vidéo offre une vue d’ensemble des fonctionnalités de rapports dynamiques d’Adobe Campaign Standard.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
