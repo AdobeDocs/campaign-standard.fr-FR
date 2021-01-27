@@ -6,9 +6,9 @@ description: Découvrez comment envoyer un message à une date et à une heure p
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ La diffusion sera envoyée progressivement à tous les destinataires ciblés sur
 >
 >Lors de la confirmation de l&#39;envoi, assurez-vous que toutes les dates sont dans le futur. Sinon, les messages seront envoyés dès que l&#39;envoi aura été confirmé.
 
-## A partir d&#39;une expression   {#using-an-expression}
+## A partir d&#39;une expression    {#using-an-expression}
 
 L&#39;optimisation de l&#39;heure d&#39;envoi est également utile pour les campagnes impliquant un centre d&#39;appel. Elle permet de garantir que tous les messages ne seront pas reçus en même temps. Votre entreprise peut ainsi traiter le nombre d&#39;appels en fonction de sa capacité.
 
