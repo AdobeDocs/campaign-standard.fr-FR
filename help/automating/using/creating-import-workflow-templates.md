@@ -6,9 +6,9 @@ description: Découvrez comment créer des modèles de workflow pour importer de
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 100%
 
