@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ La section **[!UICONTROL Configuration de liste]** de la définition des écrans
 
 L&#39;écran de présentation de la ressource est maintenant défini.
 
-## Définir la configuration de l&#39;écran de détail    {#defining-the-detail-screen-configuration}
+## Définir la configuration de l&#39;écran de détail     {#defining-the-detail-screen-configuration}
 
 La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la définition des écrans vous permet de définir les colonnes et les informations qui seront affichées dans l&#39;écran de détail de chaque élément de la ressource.
 
@@ -88,7 +88,7 @@ La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la défi
 
 L&#39;écran de détail de la ressource est maintenant défini.
 
-## Section Actions sur les données    {#actions-on-data-section}
+## Section Actions sur les données     {#actions-on-data-section}
 
 Ces paramètres permettent d&#39;afficher une barre de contrôle dans l&#39;écran de la ressource personnalisée. Trois options sont disponibles :
 
