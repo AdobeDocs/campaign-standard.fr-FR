@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Lorsqu’un événement est déclenché, il est affecté à une diffusion d’ex
 
 Par exemple, l’événement ne pourrait pas être assigné à une diffusion d’exécution, en raison d’un contenu incorrect, d’un problème de droits d’accès ou de branding, d’une erreur détectée lors de l’application des règles de typologie, etc. Dans ce cas, vous pouvez mettre le message en pause, l’éditer pour résoudre le problème et le publier à nouveau. Le système de reprise l’assignera ensuite à une nouvelle diffusion d’exécution.
 
-### Processus de reprise de l’envoi d’un message           {#message-sending-retry-process}
+### Processus de reprise de l’envoi d’un message            {#message-sending-retry-process}
 
 Une fois que l’événement a été assigné à une diffusion d’exécution, le message transactionnel peut échouer en raison d’une erreur temporaire, par exemple si la boîte du destinataire est pleine. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
