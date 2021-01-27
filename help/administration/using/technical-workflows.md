@@ -6,9 +6,9 @@ description: Les workflows techniques sont des workflows d'usine con√ßus pour g√
 audience: administration
 content-type: reference
 topic-tags: application-settings
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 100%
 
