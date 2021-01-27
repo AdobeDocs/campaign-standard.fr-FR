@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Après avoir ajouté des données additionnelles, vous pouvez appliquer un nivea
 
 Vous trouverez dans [cette section](../../automating/using/personalizing-email-with-additional-data.md) un cas pratique de la personnalisation d’un email contenant des données supplémentaires.
 
-### Ajouter un champ simple       {#adding-a-simple-field}
+### Ajouter un champ simple        {#adding-a-simple-field}
 
 En ajoutant un champ simple comme donnée additionnelle, celui-ci devient directement visible dans la transition sortante de l’activité. Cela permet par exemple de vérifier que les données issues de la requête sont celles souhaitées.
 
@@ -133,7 +133,7 @@ En ajoutant un champ simple comme donnée additionnelle, celui-ci devient direct
 
 ![](assets/enrichment_add_simple_field.png)
 
-### Ajouter un agrégat       {#adding-an-aggregate}
+### Ajouter un agrégat        {#adding-an-aggregate}
 
 Les agrégats permettent de calculer des valeurs à partir de champs de la dimension de ciblage ou de champs des dimensions liées à la dimension de ciblage. Par exemple : la moyenne des achats réalisés par un profil.
 Lorsque vous utilisez l’agrégat avec une requête, sa fonction peut revenir à zéro ce qui est alors considéré comme NULL. Utilisez l’onglet **[!UICONTROL Affiner la cible]** de votre requête pour filtrer la valeur agrégée :
