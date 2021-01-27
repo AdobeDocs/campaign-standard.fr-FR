@@ -6,9 +6,9 @@ description: Créez des messages personnalisés sur divers canaux, utilisez des 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
