@@ -6,9 +6,9 @@ description: Ce tutoriel explique comment exporter et importer un package de res
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
