@@ -6,9 +6,9 @@ description: Découvrez comment tracker le comportement des destinataires de vos
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
