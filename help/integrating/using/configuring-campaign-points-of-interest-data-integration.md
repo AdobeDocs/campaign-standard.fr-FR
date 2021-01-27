@@ -6,9 +6,9 @@ description: Découvrez comment configurer la fonctionnalité des données de po
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ Pour définir les points ciblés servant à collecter les données de localisati
 
 Une ressource personnalisée spécifique vous permet de définir les données à collecter auprès des abonnés de vos applications.
 
-Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
+Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 
 ## Accéder aux applications mobiles utilisées pour collecter les données de localisation {#accessing-mobile-apps-used-to-collect-location-data}
