@@ -6,9 +6,9 @@ description: Enrichissez le modèle de données Campaign Standard avec des resso
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
