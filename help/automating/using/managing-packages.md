@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Les étapes d’export d’un package sont présentées dans la section [Export 
 >
 >Il n’est pas possible de modifier la définition de ces deux packages. En revanche, ces derniers contiennent toujours les données disponibles les plus à jour. Vous pouvez [créer vos propres packages](#creating-a-package) pour exporter des éléments spécifiques.
 
-### Création de package    {#creating-a-package}
+### Création de package     {#creating-a-package}
 
 Pour exporter des jeux de données spécifiques, vous devez créer un package.
 
@@ -94,7 +94,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
 Votre package est maintenant créé et prêt à être exporté.
 
-### Export d’un package    {#exporting-a-package}
+### Export d’un package     {#exporting-a-package}
 
 L’export d’un package vous permet d’enregistrer un état spécifique d’une ressource que vous pourrez réimporter ultérieurement sur une même instance ou sur une autre instance.
 
@@ -138,7 +138,7 @@ L’onglet **[!UICONTROL Logs d’exécution]** répertorie toutes les étapes d
 >
 >Ces éléments sont accessibles en lecture seule.
 
-### Import d’un package    {#importing-a-package}
+### Import d’un package     {#importing-a-package}
 
 Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Voir à ce propos la section [Exports de package](#package-exports).
 
