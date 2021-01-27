@@ -6,9 +6,9 @@ description: Découvrez comment gérer les données cryptées.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
 
@@ -127,10 +127,10 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 Cette vidéo montre comment chiffrer des données à l’aide d’une clé GPG.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
