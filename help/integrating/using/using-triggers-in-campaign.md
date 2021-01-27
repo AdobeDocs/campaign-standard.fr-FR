@@ -6,9 +6,9 @@ description: null
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
 
