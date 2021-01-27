@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ L&#39;édition d&#39;une expression vous permet de personnaliser l&#39;expressio
 * [Syntaxe des expressions ](../../automating/using/advanced-expression-editing.md#expression-syntax)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Syntaxe des expressions {#expression-syntax}
+## Syntaxe des expressions  {#expression-syntax}
 
 ### Syntaxe standard {#standard-syntax}
 
@@ -106,8 +106,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
    >[!NOTE]
-   >
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -122,7 +121,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
 
 Dans cet exemple sont ciblés les profils de plus de 21 ans et dont le prénom est bien renseigné (symbolisé par le fait que le champ **firstName** contienne au moins un caractère).
 
-## Opérateurs de comparaison {#comparison-operators}
+## Opérateurs de comparaison  {#comparison-operators}
 
 Pour certaines règles, l&#39;éditeur de requêtes vous permet de choisir une valeur afin de définir votre condition.
 
@@ -156,7 +155,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> permet de retrouver tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> permet de retrouver les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
@@ -191,21 +190,21 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> S/O<br /> </td> 
    <td> <span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient. </span> Il permet d'insérer un caractère de substitution <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Ici, le caractère <strong>%</strong> de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas hypothétique où l'orthographe d'une valeur n'est pas certaine.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> S/O<br /> </td> 
    <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires répondant au nom de 'Smi%h' (donc Smith, etc.) ne sont pas retournés en résultat.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est vide</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> S/O<br /> </td> 
    <td> La première valeur doit correspondre à une valeur vide.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> permet de retrouver tous les profils dont le numéro de téléphone portable n'est pas renseigné.<br /> </td> 
   </tr> 
