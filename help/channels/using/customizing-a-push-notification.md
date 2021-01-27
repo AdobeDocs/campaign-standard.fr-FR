@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ A la réception d&#39;une notification sur un appareil, la valeur du badge de l&
 
    ![](assets/push_notif_advanced_1.png)
 
-## Ajouter un lien profond      {#add-a-deeplink}
+## Ajouter un lien profond       {#add-a-deeplink}
 
 Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web).
 
@@ -84,7 +84,7 @@ Pour ajouter un lien profond à une notification push :
 
    ![](assets/push_notif_advanced_4.png)
 
-## Définir une action      {#define-an-action}
+## Définir une action       {#define-an-action}
 
 Le cas échéant, vous pouvez ajouter l&#39;identifiant de catégorie de l&#39;application mobile et afficher ensuite des boutons d&#39;action. Ces notifications permettent à l&#39;utilisateur d&#39;effectuer plus rapidement différentes tâches en réponse à celles-ci, sans ouvrir l&#39;application ou la parcourir.
 
@@ -121,7 +121,7 @@ Pour ajouter une date d&#39;expiration à votre notification push :
 
 Notez que si la notification push n&#39;a pas été envoyée avant la date d&#39;expiration, elle sera ignorée.
 
-## Ajouter des champ personnalisés      {#add-custom-fields}
+## Ajouter des champ personnalisés       {#add-custom-fields}
 
 Les champs personnalisés vous permettent de transmettre des données personnalisées à la payload sous la forme d&#39;une paire de valeurs de clés. Vous pouvez utiliser cette option pour transmettre des données supplémentaires à l&#39;application en plus des clés prédéfinies.
 
@@ -158,7 +158,7 @@ Pour insérer du contenu multimédia dans la notification push :
 
    ![](assets/push_notif_advanced_2.png)
 
-## Changer le comportement des notifications pour iOS      {#change-the-notification-behavior-for-ios}
+## Changer le comportement des notifications pour iOS       {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
