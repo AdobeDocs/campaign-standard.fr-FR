@@ -6,9 +6,9 @@ description: Découvrez l'interface du reporting dynamique. Apprenez également 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ La barre d&#39;outils supérieure vous permet de modifier, d&#39;enregistrer ou 
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilisez l&#39;onglet **Projet** pour :
+Utilisez l’onglet **Projet** pour :
 
 * **Ouvrir...** : ouvre un rapport ou un modèle créé précédemment.
 * **Enregistrer sous...** : duplique les modèles pour les rendre modifiables.
@@ -71,11 +71,11 @@ La barre d&#39;outils se trouve au-dessus de votre espace de travail. Composée 
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
 
-### Onglet Projet    {#project-tab}
+### Onglet Projet     {#project-tab}
 
 ![](assets/tab_project.png)
 
-Utilisez l&#39;onglet **Projet** pour :
+Utilisez l’onglet **Projet** pour :
 
 * **Ouvrir...** : ouvre un rapport ou un modèle créé précédemment.
 * **Enregistrer sous...** : duplique les modèles pour les rendre modifiables.
@@ -92,7 +92,7 @@ L’onglet **Modifier** permet les opérations suivantes :
 * **Annuler** : annule la dernière action effectuée sur votre tableau de bord.
 * **Effacer tout** : supprime tous les panneaux sur votre tableau de bord.
 
-### Onglet Insérer    {#insert-tab}
+### Onglet Insérer     {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -103,7 +103,7 @@ L&#39;onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant 
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
 * **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
 
-### Onglet Partager    {#share-tab}
+### Onglet Partager     {#share-tab}
 
 ![](assets/tab_share_1.png)
 
@@ -147,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
