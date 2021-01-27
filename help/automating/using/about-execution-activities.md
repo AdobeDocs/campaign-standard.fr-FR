@@ -6,9 +6,9 @@ description: Les activités d'exécution sont disponibles à gauche de l'écran.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 100%
 
