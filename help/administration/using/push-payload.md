@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 100%
 
@@ -207,10 +207,10 @@ Pour comprendre les aspects d’une payload Android, consultez la section [Conce
 | Configuration Campaign | Attribut concerné dans iOS | Attribut concerné dans Android | Description |
 |:-:|:-:|:-:|:-:|
 | Titre du message <br>Corps du message | alerte → titre <br> alerte → corps | titre <br>corps | Ces données contiennent des détails du message d’alerte.<br>Le titre et les clés de corps fournissent le contenu de l’alerte. |
-| Jouer un son | sound | sound | Son personnalisé à jouer avec l’alerte. |
+| Jouer un son | sound | son | Son personnalisé à jouer avec l’alerte. |
 | Valeur du badge | badge | badge | Valeur entière à utiliser pour marquer l’icône de l’application. |
 | Ajouter un lien profond  | uri | NA | Un lien profond vous permet d&#39;amener directement les utilisateurs à un contenu situé dans l&#39;application (au lieu d&#39;ouvrir une page de navigateur Web). |
-| Catégorie | category | category | Pour afficher des actions personnalisées avec une notification à distance. <br>La clé de catégorie permet au système d’afficher les actions pour cette catégorie sous forme de boutons dans l’interface d’alerte. |
+| Catégorie | category | catégorie | Pour afficher des actions personnalisées avec une notification à distance. <br>La clé de catégorie permet au système d’afficher les actions pour cette catégorie sous forme de boutons dans l’interface d’alerte. |
 | Champs personnalisés | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | Toute donnée personnalisée que vous souhaitez envoyer à votre application. |
 | URL de contenu multimédia (images, gif, fichiers audio et vidéo)<br>(Applicable uniquement pour iOS 10 ou version ultérieure) | media-attachement-url | NA | URL de vos fichiers multimédia pour ajouter du contenu enrichi à votre notification. <br>Lorsque vous fournissez une valeur pour cette URL, le drapeau de contenu mutable est automatiquement envoyé dans le payload. <br> (Uniquement applicable pour iOS 10 ou version ultérieure) |
 | Contenu mutable <br> (Applicable uniquement pour iOS 10 ou version ultérieure) | mutable-content | NA | L’extension du service de notification dans votre application « intercepte » toutes les notifications distantes avec la clé de contenu mutable et vous permet de gérer/manipuler le contenu de la payload de requête, qui peut ensuite être utilisée pour personnaliser la notification. Cette fonctionnalité permet notamment de télécharger et d’afficher plusieurs médias, de décrypter toutes les données cryptées présentes dans la payload push. Vous trouverez plus d’informations dans [Modification de la payload d’une notification à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
