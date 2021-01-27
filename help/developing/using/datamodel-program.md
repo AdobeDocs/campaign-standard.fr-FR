@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -76,18 +76,18 @@ ht-degree: 100%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Template</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 100%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -235,7 +235,7 @@ Inclure les diffusions au fil de l&#39;eau depuis une liste hétérogène (withC
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>booléen</td>
     </tr>
 </table>
 
@@ -248,7 +248,7 @@ Inclure les sous-programmes (withParent)
         </tr>
         <tr>
         <td>withParent</td>
-        <td>boolean</td>
+        <td>booléen</td>
         </tr>
     </table>
 
