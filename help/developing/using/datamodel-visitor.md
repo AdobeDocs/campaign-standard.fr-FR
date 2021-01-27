@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -176,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Label</td>
+        <td>Libellé</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
