@@ -6,9 +6,9 @@ description: Créez des règles de fatigue afin de gérer la sur-sollicitation d
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2445'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Lors de la préparation de la diffusion, les profils sont exclus ou non de la di
 >
 >Pour que les règles de fatigue fonctionnent, vous devez définir une date de contact pour votre diffusion. Si vous choisissez d&#39;envoyer immédiatement les messages, la règle de fatigue ne sera pas appliquée.
 
-## Choisir le canal      {#choosing-the-channel}
+## Choisir le canal       {#choosing-the-channel}
 
 Les règles de fatigue sont disponibles pour divers canaux. Le canal est défini dans le champ **[!UICONTROL Canal]** des paramètres des règles de typologie. Vous pouvez sélectionner un seul canal ou **[!UICONTROL Tous les canaux]**.
 
@@ -111,7 +111,7 @@ Les règles de fatigue sont compatibles avec tous les types de diffusions : dif
 
 Les **messages transactionnels** peuvent être utilisés pour envoyer des messages de service ciblant un événement (rtEvent) et des messages de remarketing (ciblant des profils). Les règles de fatigue sont compatibles uniquement avec les messages marketing (ciblant des profils). Les messages transactionnels basés sur un événement ne contiennent pas d’informations sur les profils. Ils ne sont donc pas compatibles avec les règles de fatigue (même dans le cas d’un enrichissement avec des profils). Grâce à la prise en charge des messages marketing dans les messages transactionnels, vous pouvez **appliquer une règle de fatigue à tous les canaux, notamment les messages transactionnels de marketing**.
 
-## Définir le seuil      {#defining-the-threshold}
+## Définir le seuil       {#defining-the-threshold}
 
 Chaque règle de fatigue définit un seuil, c&#39;est-à-dire le nombre maximum de messages pouvant être envoyés à chaque profil sur une période. Une fois ce seuil atteint, aucune diffusion ne sera envoyée jusqu&#39;à la fin de la période concernée. Ce mode de fonctionnement permet d&#39;exclure automatiquement un profil d&#39;une diffusion si l&#39;envoi du message provoquait le dépassement du seuil défini, et ainsi une sur-sollicitation.
 
@@ -154,7 +154,7 @@ Affiner le seuil sur les diffusions est différent de limiter l&#39;application 
 * **[!UICONTROL Critères d&#39;application]** : vous choisissez d&#39;exécuter ou non la règle en fonction de critères spécifiques. Par exemple, si votre condition d&#39;application est &#39;Libellé commence par Newsletter&#39;, la règle ne s&#39;appliquera qu&#39;aux diffusions respectant cette condition. Si le libellé de la diffusion commence par &#39;Promotion&#39;, la règle ne s&#39;exécutera pas.
 * **[!UICONTROL Affiner le seuil sur les profils et diffusions > Diffusions à comptabiliser]** : toutes les diffusions utilisant cette règle de typologie exécuteront la règle, mais vous décidez quelles diffusions sont à comptabiliser parmi celles déjà envoyées et celles planifiées. Par exemple, si votre restriction est &#39;Libellé commence par Newsletter&#39;, la règle sera exécutée même si le libellé de la diffusion commence par &#39;Promo&#39;. Sur la période glissante, elle comptabilisera le nombre de diffusions dont le libellé commence par &#39;Newsletter&#39;.
 
-## Définir la période glissante      {#setting-the-sliding-period}
+## Définir la période glissante       {#setting-the-sliding-period}
 
 Les règles de fatigue sont définies par périodes glissantes de n jours. La période est configurée dans la section **[!UICONTROL Période glissante]**, par exemple 2 semaines, 7 jours ou 5 heures.
 
@@ -166,7 +166,7 @@ Par exemple, si vous définissez une période de 48 heures, le système effectu
 
 Pour limiter à une période de 15 jours la prise en compte des diffusions, entrez **Jour** et **7** ou 1 semaine dans la section **Période glissante.** Les diffusions envoyées jusqu&#39;à 7 jours avant la date de diffusion et planifiées jusqu&#39;à 7 jours après la date de diffusion à laquelle la règle est appliquée seront prises en compte dans le calcul.
 
-## Consulter les résultats de la fatigue      {#viewing-the-fatigue-results}
+## Consulter les résultats de la fatigue       {#viewing-the-fatigue-results}
 
 Lors de la préparation de la diffusion, les profils sont exclus ou non de la diffusion, selon le nombre de diffusions qui leur ont déjà été adressées. Pour consulter les résultats de l&#39;exécution de la règle de fatigue, cliquez sur le bouton situé en bas à droite du bloc **[!UICONTROL Déploiement]**.
 
@@ -186,7 +186,7 @@ Trois onglets sont disponibles. Ils indiquent les détails des résultats de l&#
 
    ![](assets/fatigue19.png)
 
-## Affichage du rapport Synthèse des règles de fatigue      {#viewing-the-fatigue-rule-summary-report}
+## Affichage du rapport Synthèse des règles de fatigue       {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign propose un rapport dédié sur les règles de fatigue afin de vous aider à comprendre la façon dont elles sont appliquées à vos campagnes. Vous pouvez ainsi déterminer l&#39;incidence que vos campagnes ont les unes sur les autres et effectuer les réglages nécessaires.
 
@@ -215,7 +215,7 @@ La table du bas présente toutes les diffusions au cours de la période sélecti
 >
 >Les données affichées ne dépendent pas du contexte du programme, du message ou de la campagne à partir duquel vous accédez au rapport. Ce rapport affiche toutes les règles de fatigue et diffusions pour l&#39;ensemble des entités organisationnelles. Vous obtenez ainsi une vue globale de toutes les diffusions afin de comprendre la façon dont vos campagnes s&#39;influencent entre elles.
 
-## Exemples      {#examples}
+## Exemples       {#examples}
 
 L&#39;implémentation de la gestion de la fatigue offre de nombreuses possibilités. Voici quelques exemples de ce que vous pouvez faire :
 
