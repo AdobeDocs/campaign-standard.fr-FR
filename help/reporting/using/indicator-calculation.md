@@ -6,9 +6,9 @@ description: Comprenez les résultats de vos rapports grâce à la liste des for
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Delivrés<br /> </td> 
-   <td> @delivered<br /> </td> 
+   <td> @delivery<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
@@ -252,8 +252,8 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Taux Bounces + Erreurs<br /> </td> 
-   <td> @rateBounces<br /> </td> 
-   <td> (@delivered/@sent)*100<br /> </td> 
+   <td> @rateBbonds<br /> </td> 
+   <td> (@delivery/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Ouvertures<br /> </td> 
@@ -267,13 +267,13 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Ouvertures uniques<br /> </td> 
-   <td> @uniqueopens<br /> </td> 
-   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
+   <td> @uniqueouvertures<br /> </td> 
+   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delivery)<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions uniques<br /> </td> 
@@ -288,7 +288,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple </a>.<br /> </td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple </a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics<br /> </td> 
@@ -318,8 +318,8 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   </tr> 
   <tr> 
    <td> Delivrés<br /> </td> 
-   <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @delivery<br /> </td> 
+   <td> @count(status=delivery)<br /> </td> 
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
@@ -331,7 +331,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Impressions uniques<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view))<br /> </td> 
+   <td> @unique(@count(status=vue))<br /> </td> 
    <td> Pour le modèle <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)</span>, utilisateur = Identifiant du destinataire.<br /> Pour les modèles <span class="uicontrol">Cibler tous les utilisateurs d'une application mobile (inAppBroadcast)</span> et <span class="uicontrol">Cibler les utilisateurs en fonction de leur profil Mobile (inApp)</span>, utilisateur = Identifiant MC ou équivalent qui représente une combinaison unique d'utilisateur, d'application mobile et d'appareil.<br /> </td> 
   </tr> 
   <tr> 
