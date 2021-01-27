@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ L&#39;éditeur de requêtes se compose d&#39;une **Palette** et d&#39;un **Espac
 
 ![](assets/query_editor_overview.png)
 
-### Palette   {#palette}
+### Palette    {#palette}
 
 La palette, située sur la gauche de l&#39;éditeur, est divisée en deux onglets, composés d&#39;éléments répartis dans des blocs thématiques. Ces onglets sont :
 
