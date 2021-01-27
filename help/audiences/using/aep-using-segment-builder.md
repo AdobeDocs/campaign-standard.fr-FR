@@ -7,9 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -94,7 +94,7 @@ Le symbole à la fin de chaque champ fournit des informations supplémentaires s
 
 >[!NOTE]
 >
->La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
+>La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Pour créer une règle, procédez comme suit :
 
