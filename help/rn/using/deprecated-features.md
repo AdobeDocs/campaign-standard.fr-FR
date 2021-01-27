@@ -6,9 +6,9 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 100%
 
