@@ -6,9 +6,9 @@ description: Apprenez comment renforcer la vérification de la qualité des mess
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 100%
 
@@ -31,16 +31,16 @@ Un ensemble de règles par défaut garantit les contrôles standard. Le tableau 
 ---------|----------|---------|---------
 | **[!UICONTROL Test A/B]** | Email | Au début de la personnalisation | Extrait la population d&#39;apprentissage pour une diffusion avec test A/B. |
 | **[!UICONTROL Vérifier la taille de la diffusion]** | Tous | Après le ciblage | Vérifie la taille des messages. |
-| **[!UICONTROL Vérifier que le contenu de l&#39;email n&#39;est pas vide]** | Email | Après le ciblage | Génère une erreur si le contenu du message est vide. |
+| **[!UICONTROL Vérifier que le contenu de l&#39;email n&#39;est pas vide]** | Courriel | Après le ciblage | Génère une erreur si le contenu du message est vide. |
 | **[!UICONTROL Vérifier le contenu In-App pour le modèle de message de diffusion]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle de diffusion. |
 | **[!UICONTROL Vérifier le contenu In-App pour le modèle de profil]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle de profil. |
 | **[!UICONTROL Vérifier le contenu In-App pour le modèle d&#39;abonné]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle d&#39;abonné. |
 | **[!UICONTROL Vérifier la taille du BAT]** | Tous | Après le ciblage | Génère un message d’erreur si la population cible du BAT dépasse 100 destinataires. |
-| **[!UICONTROL Vérifier le lien de partage vers les réseaux sociaux]** | Email | Au début de la personnalisation | Vérifie la présence d’un lien vers une page miroir lors de l&#39;inclusion d&#39;un lien de partage vers les réseaux sociaux (ViralLinks) dans le contenu. |
-| **[!UICONTROL Vérifier le sujet]** | Email | Au début de la personnalisation | Vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents de messagerie, et vérifie que l&#39;objet du message est bien renseigné. |
-| **[!UICONTROL Vérifier le lien de désabonnement]** | Email | Au début de la personnalisation | Vérifie la présence d&#39;au moins une URL de désabonnement (URL de type opt-out) dans chacun des contenus (HTML et Texte). |
-| **[!UICONTROL Vérifier les libellés d&#39;URL]** | Email | Au début de la personnalisation | Vérifie que chaque URL de tracking comporte un libellé. |
-| **[!UICONTROL Vérifier les URL]** | Email | Au début de la personnalisation | Vérifie les URL de tracking (présence du caractère « &amp; »). |
+| **[!UICONTROL Vérifier le lien de partage vers les réseaux sociaux]** | Courriel | Au début de la personnalisation | Vérifie la présence d’un lien vers une page miroir lors de l&#39;inclusion d&#39;un lien de partage vers les réseaux sociaux (ViralLinks) dans le contenu. |
+| **[!UICONTROL Vérifier le sujet]** | Courriel | Au début de la personnalisation | Vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents de messagerie, et vérifie que l&#39;objet du message est bien renseigné. |
+| **[!UICONTROL Vérifier le lien de désabonnement]** | Courriel | Au début de la personnalisation | Vérifie la présence d&#39;au moins une URL de désabonnement (URL de type opt-out) dans chacun des contenus (HTML et Texte). |
+| **[!UICONTROL Vérifier les libellés d&#39;URL]** | Courriel | Au début de la personnalisation | Vérifie que chaque URL de tracking comporte un libellé. |
+| **[!UICONTROL Vérifier les URL]** | Courriel | Au début de la personnalisation | Vérifie les URL de tracking (présence du caractère « &amp; »). |
 
 ## Phases d’exécution des règles de contrôle {#control-rules-execution-phases}
 
