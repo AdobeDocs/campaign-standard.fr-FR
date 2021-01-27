@@ -6,9 +6,9 @@ description: Découvrez comment afficher différents textes de manière dynamiqu
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 
