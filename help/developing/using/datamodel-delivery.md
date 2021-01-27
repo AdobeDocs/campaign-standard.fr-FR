@@ -5,9 +5,9 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
                <tr>
                   <td>advanced</td>
                   <td>Advanced delivery</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 100%
                <tr>
                   <td>builtIn</td>
                   <td>Built-in application object</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,13 +154,13 @@ ht-degree: 100%
                <tr>
                   <td>deliveryMode</td>
                   <td>Delivery mode</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Bulk delivery - bulk - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Description - descriptive - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                         <li>External - external - 0</li>
                      </ul>
                   </td>
@@ -204,13 +204,13 @@ ht-degree: 100%
                <tr>
                   <td>executionType</td>
                   <td>Execution type</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Unique - oneTime - 0</li>
                         <li>Continuous - continuous - 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -229,13 +229,13 @@ ht-degree: 100%
                <tr>
                   <td>hasAttachments</td>
                   <td>Add attached files</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>icon</td>
                   <td>Icon</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Transactional email - emailLightning - 60</li>
@@ -249,26 +249,26 @@ ht-degree: 100%
                         <li>Mobile application - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>Email - email - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isMaster</td>
                   <td>Master</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Template</td>
-                  <td>boolean </td>
+                  <td>booléen </td>
                   <td> </td>
                </tr>
                <tr>
@@ -297,7 +297,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -318,7 +318,7 @@ ht-degree: 100%
                         <li>Finished - finished - finished</li>
                         <li>Warning - warning - warning</li>
                         <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -355,17 +355,17 @@ ht-degree: 100%
                <tr>
                   <td>messageType</td>
                   <td>Channel</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
-                        <li>Fax - fax - 4</li>
+                        <li>Télécopie - télécopieur - 4</li>
                         <li>Mobile (SMS) - sms - 1</li>
-                        <li>Email - email - 0</li>
-                        <li>Phone - phone - 2</li>
-                        <li>Direct mail - paper - 3</li>
-                        <li>Mobile application - pushNotification - 40</li>
-                        <li>Other - other - 120</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>E-mail - e-mail - 0</li>
+                        <li>Téléphone - téléphone - 2</li>
+                        <li>Courrier - papier - 3</li>
+                        <li>Application mobile - pushNotification - 40</li>
+                        <li>Autres - autres - 120</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -402,11 +402,11 @@ ht-degree: 100%
                <tr>
                   <td>priority</td>
                   <td>Delivery priority</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>High - high - 20</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
@@ -480,7 +480,7 @@ ht-degree: 100%
                <tr>
                   <td>state</td>
                   <td>Status</td>
-                  <td>enumeration (byte) </td>
+                  <td>énumération (octet) </td>
                   <td>
                      <ul>
                         <li>Start pending - startPending - 51</li>
@@ -500,7 +500,7 @@ ht-degree: 100%
                         <li>Stopped - cancelled - 85</li>
                         <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                         <li>Arbitration in progress - targetArbitration - 13</li>
                      </ul>
                   </td>
@@ -568,15 +568,15 @@ ht-degree: 100%
                <tr>
                   <td>workflowStatus</td>
                   <td>Workflow status</td>
-                  <td>enumeration (string) (255)</td>
+                  <td>énumération (chaîne) (255)</td>
                   <td>
                      <ul>
-                        <li>In progress - started - started</li>
-                        <li>Editing - edition - edition</li>
-                        <li>Finished - finished - finished</li>
-                        <li>Warning - warning - warning</li>
-                        <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>En cours - commencé - commencé</li>
+                        <li>Edition - édition - édition</li>
+                        <li>Terminé - terminé - terminé</li>
+                        <li>Avertissement - avertissement</li>
+                        <li>Erroné - erreur - erreur</li>
+                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -606,7 +606,7 @@ Par type d&#39;exécution (byExecutionType)
     </tr>
     <tr>
     <td>executionType</td>
-    <td>enumeration</td>
+    <td>énumération</td>
     </tr>
 </table>
 
@@ -619,7 +619,7 @@ Par état logique (byLogicalStatus)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeration</td>
+    <td>énumération</td>
     </tr>
 </table>
 
@@ -679,7 +679,7 @@ Par état de publication (byPublicationStatus)
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>enumeration</td>
+    <td>énumération</td>
     </tr>
 </table>
 
@@ -692,7 +692,7 @@ Par état (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>enumeration</td>
+    <td>énumération</td>
     </tr>
 </table>
 
@@ -705,7 +705,7 @@ Messages de relance (showFollowup)
     </tr>
     <tr>
     <td>followup</td>
-    <td>boolean</td>
+    <td>booléen</td>
     </tr>
 </table>
 
@@ -717,8 +717,8 @@ Inclure les diffusions avancées (withAdvanced)
     <th>Type</th>
     </tr>
     <tr>
-    <td>advanced</td>
-    <td>boolean</td>
+    <td>avancé</td>
+    <td>booléen</td>
     </tr>
 </table>
 
@@ -731,7 +731,7 @@ Inclure les diffusions au fil de l&#39;eau depuis une liste hétérogène (withC
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>booléen</td>
     </tr>
 </table>
 
@@ -744,7 +744,7 @@ Inclure les BAT (withFCP)
     </tr>
     <tr>
     <td>withFCP</td>
-    <td>boolean</td>
+    <td>booléen</td>
     </tr>
 </table>
 
@@ -791,6 +791,6 @@ Afficher les paramètres d&#39;usine (showOob)
     </tr>
     <tr>
     <td>oob</td>
-    <td>boolean</td>
+    <td>booléen</td>
     </tr>
 </table>
