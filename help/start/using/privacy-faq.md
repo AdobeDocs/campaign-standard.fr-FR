@@ -9,9 +9,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 500a9575157a0652eac2504d2360f7a1cbd6189e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Adobe ne fournit pas de conseils juridiques. Vous devriez travailler avec votre 
 
 * Vérifiez que tous les emails marketing comprennent un lien de désabonnement.
 
-* Évaluez la stratégie globale du marketing pa email pour définir des mises en œuvre propres à chaque zone géographique.
+* Évaluez la stratégie globale du marketing email pour définir des mises en œuvre propres à chaque zone géographique.
 
 **Compréhension des données**
 
