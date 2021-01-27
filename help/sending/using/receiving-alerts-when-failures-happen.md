@@ -6,9 +6,9 @@ description: Découvrez comment utiliser le système de gestion des alertes.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 * [Fréquence des alertes](#alerting-frequency)
 * [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Créer un critère d&#39;alerte de diffusion       {#creating-a-delivery-alerting-criterion}
+### Créer un critère d&#39;alerte de diffusion        {#creating-a-delivery-alerting-criterion}
 
 Vous pouvez créer des critères d&#39;alerte de diffusion en fonction de vos besoins.
 
@@ -180,7 +180,7 @@ Une fois créés, ces critères peuvent être ajoutés, ainsi que d&#39;autres c
 
 [Ajouter ou étendre une ressource](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Paramètres des alertes de diffusion       {#delivery-alerting-parameters}
+## Paramètres des alertes de diffusion        {#delivery-alerting-parameters}
 
 ### Paramètres des critères {#criteria-parameters}
 
@@ -217,7 +217,7 @@ Vous pouvez changer ce paramètre dans le menu **[!UICONTROL Administration]** 
 >
 >Cette option s&#39;applique à tous les tableaux de bord définis dans Adobe Campaign. Vous ne pouvez pas définir une fréquence spécifique pour chaque tableau de bord.
 
-## Motifs des alertes de diffusion       {#delivery-alerting-reasons}
+## Motifs des alertes de diffusion        {#delivery-alerting-reasons}
 
 La fonctionnalité **Alertes de diffusion** maintient automatiquement informés tous les utilisateurs actifs d&#39;Adobe Campaign en ce qui concerne le statut d&#39;exécution des diffusions, par email ou par le biais d&#39;un tableau de bord.
 
