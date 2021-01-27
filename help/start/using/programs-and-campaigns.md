@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Le programme est créé et affiché. Utilisez le bouton **[!UICONTROL Créer]** 
 >
 >Vous pouvez également créer un programme depuis la liste des activités marketing.
 
-## Créer une campagne    {#creating-a-campaign}
+## Créer une campagne     {#creating-a-campaign}
 
 Dans les programmes et sous-programmes, vous pouvez ajouter des campagnes. Les campagnes peuvent contenir des activités marketing telles que des emails, des SMS, des notifications push, des workflows et des landing pages.
 
@@ -91,7 +91,7 @@ La campagne est créée et affichée. Utilisez le bouton **[!UICONTROL Créer]**
 
 Vous pouvez également créer une campagne depuis la liste des activités marketing. Vous pouvez choisir d&#39;associer l&#39;activité marketing à un sous-programme ou programme parent via la fenêtre des propriétés de la campagne.
 
-## Icônes et statuts des programmes et campagnes    {#programs-and-campaigns-icons-and-statuses}
+## Icônes et statuts des programmes et campagnes     {#programs-and-campaigns-icons-and-statuses}
 
 Chaque programme et chaque campagne de la liste sont représentés par un visuel et une icône dont la couleur indique le statut d&#39;exécution. Ce statut dépend de la période de validité du programme ou de la campagne.
 
