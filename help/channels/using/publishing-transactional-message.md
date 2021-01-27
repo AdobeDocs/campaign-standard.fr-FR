@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 * [Tester un message transactionnel](../../channels/using/testing-transactional-message.md)
 * [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Suspendre la publication d’un message transactionnel           {#suspending-a-transactional-message-publication}
+## Suspendre la publication d’un message transactionnel            {#suspending-a-transactional-message-publication}
 
 Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d’attente, dans la base de données Adobe Campaign.
 
@@ -113,7 +113,7 @@ Les événements placés dans la file d’attente sont conservés pendant une p�
 
 Lorsque vous cliquez sur **[!UICONTROL Reprendre]**, tous les événements placés dans la file d’attente sont envoyés (à condition qu’ils n’aient pas expiré). Ils contiennent alors les modifications effectuées tant que la publication du modèle était suspendue.
 
-## Dépublier un message transactionnel           {#unpublishing-a-transactional-message}
+## Dépublier un message transactionnel            {#unpublishing-a-transactional-message}
 
 Cliquez sur **[!UICONTROL Dépublier]** pour annuler la publication du message transactionnel. L’événement correspondant est également dépublié, ce qui supprime de l’API REST la ressource correspondant à l’événement précédemment créé.
 
