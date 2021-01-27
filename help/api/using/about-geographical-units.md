@@ -6,9 +6,9 @@ description: Découvrez les entités géographiques et les API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 
