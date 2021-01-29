@@ -64,7 +64,6 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
       >[!NOTE]
       >
       >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Le type des audiences sauvegardées ou des audiences disponibles lors d&#39;une mise à jour dépend des activités placées en amont dans le workflow.
 
    Si la dimension de ciblage de l&#39;audience est inconnue au moment de la sauvegarde (par exemple si elle est issue d&#39;un import de fichier), l&#39;audience créée ou mise à jour est de type **[!UICONTROL Fichier]**.
@@ -80,7 +79,7 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
 Le workflow défini dans cet exemple illustre la mise à jour régulière d&#39;une audience à partir d&#39;un ciblage :
 
 * Il est exécuté automatiquement une fois par mois grâce à un **[!UICONTROL Planificateur]**.
-* Une **[!UICONTROL Requête]** permet de récupérer tous les profils abonnés aux différents services disponibles de l&#39;application.
+* Une **[!UICONTROL Requête]** permet de récupérer tous les profils abonnés aux différents services applicatifs disponibles.
 * La **[!UICONTROL Sauvegarde d&#39;audience]** permet de mettre à jour l&#39;audience spécifiée en y supprimant les profils s&#39;étant désabonnés des services depuis la dernière exécution du workflow et en y ajoutant les nouveaux abonnés.
 
 ![](assets/save_audience_example_1.png)
