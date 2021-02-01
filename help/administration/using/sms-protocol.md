@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
-ht-degree: 100%
+source-wordcount: '8666'
+ht-degree: 96%
 
 ---
 
@@ -521,7 +521,7 @@ Pour connaître la limite de débit totale, multipliez ce nombre par le nombre t
 
 0 signifie pas de limite, le MTA enverra le MT aussi vite que possible.
 
-Il est généralement recommandé de maintenir ce paramètre en dessous de 1000, puisqu&#39;il est impossible de garantir un débit précis au-dessus de ce nombre, à moins que l&#39;architecture finale ne soit correctement évaluée et que le fournisseur SMPP ait été spécifiquement demandé. Il peut être préférable d&#39;augmenter le nombre de connexions au-dessus de 1000 MT/s.
+Il est généralement recommandé de maintenir ce paramètre en dessous de 1000, puisqu&#39;il est impossible de garantir un débit précis au-dessus de ce nombre à moins que l&#39;architecture finale ne soit correctement comparée. Si vous avez besoin d&#39;un débit supérieur à 1000, contactez votre fournisseur. Il peut être préférable d&#39;augmenter le nombre de connexions au-dessus de 1000 MT/s.
 
 #### Temps avant reconnexion {#time-reconnection}
 
@@ -698,6 +698,10 @@ Permet d&#39;ajouter un fichier TLV personnalisé. Ce champ définit la partie b
 
 Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
+>[!NOTE]
+>
+>A compter de la version 21.1, il est désormais possible d’ajouter plusieurs paramètres facultatifs. Voir à ce propos cette [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+
 ### Réponse automatique aux MO      {#automatic-reply}
 
 Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
@@ -715,6 +719,12 @@ La colonne **Action supplémentaire** fournit une action supplémentaire lorsque
 >Le paramètre d&#39;envoi du numéro de téléphone complet a un impact sur le comportement du mécanisme de quarantaine de réponse automatique : si l&#39;envoi du numéro de téléphone complet n&#39;est pas vérifié, le numéro de téléphone mis en quarantaine sera précédé d&#39;un signe plus (&quot;+&quot;) afin de le rendre compatible avec le format de numéro de téléphone international.
 
 Toutes les entrées du tableau sont traitées dans l&#39;ordre spécifié, jusqu&#39;à ce qu&#39;une règle corresponde. Si plusieurs règles correspondent à un MO, seule la règle la plus élevée est appliquée.
+
+### Paramètres facultatifs de réponse automatique (TLV) {#automatic-reply-tlv}
+
+Depuis la version 21.1, vous pouvez ajouter des paramètres facultatifs à la réponse automatique MT. Ils sont ajoutés en tant que paramètres TLV facultatifs à `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+
+Pour plus d&#39;informations sur les paramètres facultatifs, consultez cette [section](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Paramètres du modèle de diffusion SMS {#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ Ce paramètre est transmis dans le champ facultatif `dest_addr_subunit` du `SUBM
 
 #### Période de validité {#validity-period}
 
-La période de validité est transmise dans le champ `validity_period` du `SUBMIT_SM PDU`. La date est toujours formatée au format des heures UTC absolu, le champ de date se termine par &quot;00+&quot;.
+La période de validité est transmise dans le champ `validity_period` du `SUBMIT_SM PDU`. La date est toujours formatée en tant que format d’heure UTC absolu (le champ de date se termine par &quot;00+&quot;).
+
+#### Paramètres facultatifs SMPP (TLV) {#smpp-optional-parameters}
+
+Depuis la version 21.1, vous pouvez ajouter plusieurs paramètres facultatifs à chaque MT envoyé pour cette diffusion. Ces paramètres facultatifs sont ajoutés au `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+
+Chaque ligne du tableau représente un paramètre facultatif :
+
+* **Paramètre** : Description du paramètre. Non transmis au fournisseur.
+* **ID** de balise : Balise du paramètre facultatif. Doit être un nombre hexadécimal valide, au format 0x1234. Des valeurs non valides entraîneront une erreur de préparation de diffusion.
+* **Valeur** : Valeur du champ facultatif. Codé en UTF-8 lorsqu’il est transmis au fournisseur. Le format de codage ne peut pas être modifié, il n’est pas possible d’envoyer des valeurs binaires ou d’utiliser des codages différents, tels que UTF-16 ou GSM7.
+
+Si un paramètre facultatif possède le même **ID de balise** que l&#39;**ID de balise de service** défini dans le compte externe, la valeur définie dans ce tableau prévaut.
 
 ## Connecteur SMPP {#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ Cette liste de contrôle fournit une liste de choses que vous devriez vérifier 
 
 Vérifiez que vous n&#39;avez pas de vieux comptes externes SMS. Si vous laissez le compte test désactivé, il existe un risque qu&#39;il soit réactivé sur le système de production et qu&#39;il génère des conflits potentiels.
 
-Si plusieurs comptes de la même instance Adobe Campaign se connectent au même fournisseur, contactez ce dernier pour vérifier qu&#39;il distingue effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
+Vérifiez qu’aucune autre instance ne se connecte à ce compte. En particulier, assurez-vous que l’environnement d’étape ne se connecte pas au compte. Certains fournisseurs le soutiennent, mais il nécessite une configuration très spécifique à la fois côté Adobe Campaign et sur la plate-forme du fournisseur.
+
+Si vous devez disposer de plusieurs comptes sur la même instance Adobe Campaign qui se connectent au même fournisseur, contactez ce dernier pour vérifier qu’ils distinguent effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
