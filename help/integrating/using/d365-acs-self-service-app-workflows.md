@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 1%
@@ -19,7 +19,7 @@ La page **[!UICONTROL Workflows]** liste les workflows techniques et leur état.
 
 L’application d’intégration est fournie avec trois workflows :
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 à Campaign**
 * Envoyer *contacts* de Microsoft Dynamics 365 vers Adobe Campaign
@@ -71,4 +71,4 @@ Lorsque vous modifiez un processus, vos mises à jour ne sont PAS immédiatement
 
 Une indication d&#39;avertissement est ajoutée au bouton **Arrêter** afin de vous indiquer à quel moment (a) vous avez mis à jour votre flux de travail, mais (b) vous n&#39;avez pas arrêté/Début de ce flux de travail.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
