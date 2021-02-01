@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
    ![](assets/aem_2.png)
 
-1. Ensuite, dans le menu avancé sous **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**, dupliquez l’un des modèles existants pour créer un modèle d’email spécifique à Adobe Experience Manager.
+1. Ensuite, dans le menu avancé sous **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**, duplicata l’un des modèles existants pour créer un modèle de courrier électronique spécifique à Adobe Experience Manager.
 
    ![](assets/aem_3.png)
 
