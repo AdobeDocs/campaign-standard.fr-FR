@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -34,7 +34,7 @@ L&#39;écran de définition du **[!UICONTROL Contenu]** est spécifique au canal
 
 1. Cliquez sur le bouton **[!UICONTROL +]** ou **[!UICONTROL Ajouter un élément]** pour ajouter une colonne de sortie. Les **[!UICONTROL Colonnes de sortie]** permettent de définir les informations de profil (colonnes) à exporter dans le fichier de sortie.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
