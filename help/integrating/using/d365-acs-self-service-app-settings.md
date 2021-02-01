@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 3%
@@ -23,7 +23,7 @@ L&#39;écran **[!UICONTROL Paramètres]** vous permet de spécifier les informat
 
 Les informations d&#39;identification Microsoft Dynamics 365 permettent à l&#39;application d&#39;intégration d&#39;extraire vos données de Microsoft Dynamics 365.  Vous devez d&#39;abord suivre les étapes de l&#39;écran [Configurer l&#39;intégration Microsoft Dynamics 365 pour Campaign](../../integrating/using/d365-acs-configure-d365.md) afin de générer les valeurs qui seront collées dans cet écran. Les entrées décrites ci-dessous font référence à cet écran.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL ID]** client : Découvrez comment référencer votre ID de client dans  [cette section](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Les informations d’identification Adobe Campaign sont générées à l’aide 
 
 L&#39;image suivante explique en détail le mappage entre Adobe I/O et les entrées d&#39;écran des paramètres.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *Clé* privée : le processus de définition de ces débuts en cliquant sur le bouton &quot;Générer la paire de clés publique/privée&quot;. Vous allez créer un fichier zip que vous devez télécharger. Une fois téléchargé, décompressez le fichier, ce qui génère deux fichiers nommés certificate_pub.crt et private.key. Veillez à placer private.key dans un emplacement sécurisé et ne le partagez pas. Ouvrez le fichier private.key dans un éditeur de texte. Copiez la totalité de la valeur dans l’éditeur de texte (ctrl-A, ctrl-C sur un PC, ou cmd-A, cmd-C sur un Mac). Cela devrait inclure les lignes &quot;BEGIN PRIVATE KEY&quot; et &quot;END PRIVATE KEY&quot; dans leur intégralité. Collez tout ce texte multiligne dans la saisie &quot;Clé privée&quot; de l’écran Paramètres.
 
@@ -58,7 +58,7 @@ L&#39;autre raison de configurer le serveur SFTP est que vous prévoyez d&#39;ex
 
 Pour définir les paramètres SFTP Campaign pour l&#39;intégration Microsoft Dynamics 365, accédez à la section suivante :
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 Vous devez spécifier :
 
