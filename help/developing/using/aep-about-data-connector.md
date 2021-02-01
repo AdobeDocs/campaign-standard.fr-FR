@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '783'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
 >[!NOTE]
->Une fois Adobe Experience Platform Data Connector configuré et les données correctement ingérées dans Adobe Experience Platform, vous devez activer le jeu de données afin que les données soient incluses dans Real-time Customer Profile.
+>Une fois que le connecteur de données Adobe Experience Platform est configuré et que les données sont correctement ingérées dans Adobe Experience Platform, vous devez activer le jeu de données afin que les données soient incluses dans le Profil client en temps réel.
 >
 >Cette opération peut être effectuée via les API ou à l’aide de l’interface d’Adobe Experience Platform. Pour plus d’informations, consultez la documentation dédiée :
 >
@@ -44,7 +44,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour importer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/ingestion/home.html).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 
@@ -80,6 +80,6 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=fre_fr
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
