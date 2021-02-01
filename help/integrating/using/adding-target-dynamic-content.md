@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
 
 1. Prévisualisez votre email pour voir si, lorsque vous sélectionnez différents profils, l&#39;image insérée change en fonction des paramètres définis dans l&#39;activité Adobe Target et dans Adobe Campaign.
 
-La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses résultats sont accessibles dans Adobe Target.
+Votre diffusion contenant l’image dynamique peut maintenant être envoyée. Ses résultats sont accessibles dans Adobe Target.
 
 **Rubriques connexes :**
 
