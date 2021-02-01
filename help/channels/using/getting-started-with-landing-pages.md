@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
@@ -40,7 +40,7 @@ La section ci-dessous répertorie les limites que vous devez connaître avant de
 * Les landing pages sont limitées uniquement aux ressources **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**. Un enregistrement peut être sauvegardé et mis à jour depuis le **[!UICONTROL Profil]** et un abonnement/désabonnement à un **[!UICONTROL Service]**.
 Pour en savoir plus sur la configuration des ressources, voir [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Une page d’entrée ne peut pas afficher ni mettre à jour les données d’une autre ressource que **[!UICONTROL Profil]** et **[!UICONTROL Abonnement]**.
 
@@ -113,7 +113,7 @@ Une fois la landing page définie, vous pouvez simuler son exécution et son com
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Les tests de landing pages ne peuvent être effectués qu’avec des profils, et non des profils de test. Lors de l’envoi du formulaire, les données du profil sélectionné seront mises à jour. Pour éviter de modifier des profils réels, utilisez un faux profil client.
 
