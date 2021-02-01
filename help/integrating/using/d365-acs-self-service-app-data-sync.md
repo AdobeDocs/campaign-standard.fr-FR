@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Vous pouvez synchroniser des tableaux de Microsoft Dynamics 365 vers Campaign et
 
 La page **[!UICONTROL Microsoft Dynamics 365 to Campaign]** affiche une liste d&#39;entités dans Microsoft Dynamics 365 et les ressources personnalisées dans Adobe Campaign avec lesquelles elles seront synchronisées. Vous pouvez ajouter de nouveaux mappages, modifier ou supprimer des mappages existants.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Voici une description de chacune des colonnes du tableau :
 
@@ -67,7 +67,7 @@ Pour créer un mappage, procédez comme suit :
 1. Utilisez les listes déroulantes pour sélectionner les tables Microsoft Dynamics 365 et Campaign à mapper.
 La plupart des autres entrées de la page dépendent des tables que vous choisissez.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >Vous ne pouvez pas mapper chaque tableau plusieurs fois. Par conséquent, vous remarquerez que les sélections déroulantes n’incluront pas les tables qui ont déjà été mises en correspondance.
@@ -84,7 +84,7 @@ Vous pouvez ensuite procéder à la configuration du mappage. [En savoir plus](#
 
 Si vous modifiez un mappage existant, vous verrez que les sélections de table ne sont pas modifiables.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Il s’agit d’une opération par conception, car les entrées situées plus bas dans la page sont basées sur les champs associés à ces tableaux. La modification des tables rendrait tous les champs associés à ces tables non valides.  Si vous souhaitez modifier la table à mapper, vous devez revenir à la page précédente, supprimer le mappage à modifier et ajouter un nouveau mappage.
 
@@ -106,7 +106,7 @@ Vous pouvez définir les paramètres suivants :
 
 Lors de l&#39;ajout d&#39;un nouveau mappage de table Microsoft Dynamics 365 à Campaign, vous devez identifier le champ ID.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 La clé Principale Microsoft Dynamics 365 est en lecture seule, car l&#39;application la détectera.
 
@@ -118,7 +118,7 @@ Pour Campaign, vous devez sélectionner le champ qui sera la clé unique. Il doi
 
 Les clés Principales seront toujours les premiers noms de champ répertoriés dans la section **[!UICONTROL Mappages de champ]**. Pour rappel, l’icône suivante est répertoriée à droite pour vous rappeler que ce sont les Principales touches.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Ajouter d’autres mappages de champs
 
@@ -126,14 +126,14 @@ La section **[!UICONTROL Mappages de champs]** vous permet d’ajouter des mappa
 
 Sélectionnez les champs Microsoft Dynamics 365 et Campaign dans les listes :
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 Ces listes contiennent les noms des champs associés aux tables Microsoft Dynamics 365 et Campaign que vous avez sélectionnées en haut de la page.
 
 Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contrôler si les mises à jour de ce champ seront propagées de Microsoft Dynamics 365 à Campaign :
-* Si elle est activée sur ![](assets/d365-to-acs-icon-switch-on.png), les mises à jour des valeurs dans Microsoft Dynamics 365 seront propagées à Adobe Campaign au fur et à mesure que les mises à jour se produiront.
+* Si elle est activée sur ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), les mises à jour des valeurs dans Microsoft Dynamics 365 seront propagées à Adobe Campaign au fur et à mesure que les mises à jour se produiront.
 
-* Si vous avez désactivé ![](assets/d365-to-acs-icon-switch-off.png), la valeur sera propagée lorsque les données seront initialement chargées (ou relues), mais les mises à jour incrémentielles du champ dans Microsoft Dynamics 365 ne seront pas propagées.
+* Si vous avez désactivé ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png), la valeur sera propagée lorsque les données seront initialement chargées (ou relues), mais les mises à jour incrémentielles du champ dans Microsoft Dynamics 365 ne seront pas propagées.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contr
 
 Lorsque vous sélectionnez des valeurs de champ, le type de données s’affiche sous les menus déroulants.   Il est important de garder à l’esprit ce point lors du mappage des valeurs d’un champ à l’autre.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ La page **[!UICONTROL Campaign to Microsoft Dynamics 365]** vous permet d&#39;id
 
 Les quatre mesures que vous pouvez contrôler sont les suivantes : **Envoie**, **Clics**, **Ouvre** et **Rebonds**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Sélectionnez **Oui** pour confirmer que vous souhaitez que les événements de ce type enchaînent vers Microsoft Dynamics 365.
 
@@ -208,7 +208,7 @@ Pour en savoir plus sur la gestion des exclusions, consultez [cette section](../
 
 N&#39;oubliez pas que vous devez cliquer sur &quot;Enregistrer&quot; pour enregistrer vos sélections. N&#39;oubliez pas non plus que vous devez arrêter le flux de travail **Campaign to Microsoft Dynamics 365**, puis cliquer sur play pour l&#39;intégration afin d&#39;incorporer vos modifications.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Direction de la synchronisation Opt-in/sortie
 
