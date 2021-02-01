@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,8 @@ L’ingestion immédiate d’un mapping XDM dans Adobe Experience Platform est
 >
 >Pour exécuter l’appel d’API POST d’ingestion, l’utilisateur doit disposer d’un rôle d’**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -116,7 +117,7 @@ L’opération GET renvoie les informations suivantes :
 
 Les réponses possibles à l’opération GET sont les suivantes :
 
-* Demande d’ingestion réussie :
+* Demande d&#39;envoi réussie :
 
    ```
    {
@@ -140,7 +141,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Échec de la demande d’ingestion, avec un enregistrement chargé dans un lot :
+* Échec de la demande d&#39;importation, avec certains enregistrements transférés sous un lot :
 
    ```
    {
