@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 100%
+source-wordcount: '1297'
+ht-degree: 98%
 
 ---
 
@@ -247,8 +247,12 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant ouvert la diffusion.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Désinscription unique<br /> </td> 
+   <td> Nombre de destinataires ayant cliqué sur le lien de la désinscription.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Taux de désabonnement<br /> </td> 
-   <td> Pourcentage de désabonnements par destinataire par rapport au nombre de messages délivrés.<br /> </td> 
+   <td> Nombre de désinscriptions uniques par rapport aux messages remis.<br /> </td> 
   </tr> 
   <tr> 
    <td> Désabonnement<br /> </td> 
