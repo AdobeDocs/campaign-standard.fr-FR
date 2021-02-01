@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
@@ -19,7 +19,8 @@ ht-degree: 100%
 # Contrôler une diffusion{#monitoring-a-delivery}
 
 Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son impact : En tant qu’administrateur fonctionnel, vous pouvez accéder aux logs de messages et aux logs de diffusion.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion ou aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
