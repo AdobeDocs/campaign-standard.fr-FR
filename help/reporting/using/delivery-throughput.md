@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '86'
+ht-degree: 69%
 
 ---
 
@@ -27,4 +27,4 @@ Ce rapport regroupe les informations relatives au débit de diffusion d&#39;un e
 
 >[!NOTE]
 >
->La page **[!UICONTROL Débit des diffusions]** affiche la vitesse de débit pour le relais de vos messages depuis Campaign vers le MTA amélioré d’Adobe Campaign.
+>La page **[!UICONTROL débit de Diffusion]** affiche la vitesse de débit pour le relais de vos messages de Campaign vers l&#39;agent de transfert de message Adobe Campaign Enhanced MTA (Message Transfer Agent).
