@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6400'
-ht-degree: 100%
+source-wordcount: '6542'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,27 @@ ht-degree: 100%
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
 
-## Décembre 2020 {#doc-updates-december-2020}
+## Version 21.1 - Février 2021           {#release-21-1---february-2021}
+
+**Nouvelles fonctionnalités de cette version**
+
+Service de commentaires par courriel - [En savoir plus](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Améliorations de l’intégration Adobe Experience Manager - [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
+
+Interface d&#39;Experience Cloud unifié - [En savoir plus](../../start/using/interface-description.md#top-bar)
+
+**Autres mises à jour de la documentation accompagnant cette version**
+
+Des informations ont été ajoutées sur la manière de rechercher un profil en fonction de l’adresse électronique, du prénom, du nom ou de tout champ personnalisé. [En savoir plus](../../audiences/using/integrated-customer-profile.md)
+
+Des informations ont été ajoutées sur la nouvelle fonction GetOption qui vous permet de renvoyer la valeur d&#39;une fonction spécifiée lors de l&#39;appel d&#39;un processus avec des paramètres externes. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Des informations ont été ajoutées sur la nouvelle variable de sortie **[!UICONTROL filesCount]** disponible après l&#39;utilisation d&#39;une activité **[!UICONTROL Transférer le fichier]**. [En savoir plus](../../automating/using/transfer-file.md#output-variables)
+
+La section **Configuration du canal de messagerie** a été mise à jour afin de clarifier les derniers paramètres de messagerie applicables. Certains paramètres hérités encore utilisés pour certains clients sont répertoriés au bas de cette page. [En savoir plus](../../administration/using/configuring-email-channel.md)
+
+## Décembre 2020 {#doc-updates-december-2020}
 
 La fonctionnalité d’**optimisation prédictive de l’objet** est désormais obsolète. [En savoir plus](../../rn/using/deprecated-features.md)
 
