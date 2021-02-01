@@ -7,10 +7,10 @@ user-guide-description: 'Centre d’aide pour les principales fonctionnalités, 
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 99%
+source-wordcount: '1755'
+ht-degree: 98%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 99%
       + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Création d’un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Création d’un courrier électronique multilingue avec l’intégration Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign et Target {#working-with-campaign-and-target}
       + [A propos de l’intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurer l’intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 99%
       + [FAQ sur l’intégration du SDK Experience Platform](administration/using/aep-faq.md)
       + [Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Comment migrer votre application mobile du SDK v4 au SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuration du canal SMS {#configuring-sms}
       + [Mise en œuvre du canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocole et paramètres du connecteur SMS](administration/using/sms-protocol.md)
