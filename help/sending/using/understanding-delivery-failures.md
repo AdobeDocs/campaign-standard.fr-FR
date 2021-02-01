@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 98%
+source-wordcount: '1314'
+ht-degree: 88%
 
 ---
 
@@ -76,24 +76,27 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 
 Si un message est en échec en raison d’une erreur temporaire du type **Ignoré**, les reprises seront effectuées pendant la durée de la diffusion. Pour plus d’informations sur les types d’erreurs, voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons).
 
-Le nombre de reprises (le nombre de reprises à exécuter le jour suivant le démarrage de l’envoi) et le délai minimal entre traitements sont désormais gérés par le MTA amélioré d’Adobe, en fonction de la performance historique et actuelle d’une IP sur un domaine donné. Les paramètres de **Reprises** dans Campaign sont ignorés.
-Veuillez noter que la MTA améliorée Adobe Campaign n&#39;est pas disponible pour le canal Push.
+Le nombre de Reprises (le nombre de Reprises à exécuter le jour suivant le démarrage de l&#39;envoi) et le délai minimal entre les Reprises sont désormais <!--managed by the Adobe Campaign Enhanced MTA,--> en fonction de l&#39;efficacité historique et actuelle d&#39;une IP sur un domaine donné. Les paramètres de **Reprises** dans Campaign sont ignorés.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de la diffusion ou du modèle de diffusion, puis modifiez le champ **[!UICONTROL Durée de diffusion]** de la section [Période de validité](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**Le paramètre**[!UICONTROL  Durée de diffusion ]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte car elle est désormais gérée par le MTA amélioré d’Adobe Campaign.
+>**Le paramètre**[!UICONTROL  Durée de diffusion ]**dans vos diffusions Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
-Si, par exemple, vous souhaitez que les reprises pour une diffusion s’arrêtent après une journée, vous pouvez définir la durée de diffusion sur **1d**, et le MTA amélioré respectera ce paramètre en supprimant les messages dans la file d’attente des nouvelles reprises après une journée.
+Par exemple, si vous souhaitez que les Reprises d’une diffusion s’arrêtent après un jour, vous pouvez définir la durée de la diffusion sur **1d** et les messages de la file d’attente des nouvelles tentatives seront supprimés après un jour.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Une fois qu’un message figure dans la file d’attente du MTA amélioré depuis 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour de **[!UICONTROL Envoi]** à **[!UICONTROL Échec]** dans les [logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Une fois qu’un message a été placé dans la file d’attente de nouvelle tentative pendant un maximum de 3,5 jours et n’a pas été diffusé, il expire et son état est mis à jour<!--from **[!UICONTROL Sent]**--> en **[!UICONTROL Échec]** dans les [logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
-## Erreurs synchrones et asynchrones         {#synchronous-and-asynchronous-errors}
+## Erreurs synchrones et asynchrones  {#synchronous-and-asynchronous-errors}
 
 Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après sont envoi (erreur asynchrone).
 
@@ -102,13 +105,13 @@ Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, apr�
 
 ## Qualification des emails bounce         {#bounce-mail-qualification}
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
-
-Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, voir cette [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Pour les messages d’erreur d’échec de diffusion synchrone, l’agent de transfert de message Adobe Campaign Enhanced MTA (Message Transfer Agent) détermine le type et la qualification de rebond et renvoie ces informations à Campaign.
 
 >[!NOTE]
 >
->La qualification des emails bounce est maintenant gérée par le MTA amélioré d’Adobe Campaign. Les qualifications bounce figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
+>Les qualifications bounce figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
+
+Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, voir cette [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## Optimiser la délivrabilité des emails avec le mécanisme de double opt-in {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## Optimisation de la délivrabilité des courriers électroniques avec le mécanisme d&#39;inclusion de doublon {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Le mécanisme de double opt-in constitue une bonne pratique lors de l’envoi d’emails. Il protège la Plateforme des adresses email erronées ou non valides ainsi que des spammeurs, et empêche les éventuelles plaintes pour spam.
 
