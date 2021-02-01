@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1263'
 ht-degree: 100%
 
 ---
@@ -117,7 +117,9 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
    Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-La section suivante présente davantage de concepts et de bonnes pratiques générales concernant les messages : [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md).
+* La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
+
+D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
 ### Mise à jour des fragments {#email-designer-updates}
 
