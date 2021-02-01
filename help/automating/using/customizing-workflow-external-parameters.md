@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 98%
 
 ---
 
@@ -63,6 +63,7 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
    | DateFormat | Met en forme une date en utilisant le format spécifié dans le deuxième paramètre (exemple :  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Retourne le nom du chemin d’un fichier. | FileName(&lt;String>) |
    | FileExt | Retourne l’extension du chemin d’un fichier. | FileExt(&lt;String>) |
+   | GetOption | Renvoie la valeur de la fonction spécifiée. | GetOption(&lt;nomOption> |
    | IsNull | Indique si une chaîne ou une date est nulle. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Encode une URL en UTF8. | UrlUtf8Encode(&lt;String>) |
 
