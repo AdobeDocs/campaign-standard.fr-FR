@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Adobe Campaign Standard offre deux nouveaux modèles d’apprentissage automat
 
 * **Scoring d’engagement prédictif** : prédit la probabilité qu’un destinataire interagisse avec un message, ainsi que la probabilité d’opt out (désinscription) dans les 7 jours qui suivent l’envoi du prochain email. Les probabilités sont divisées en compartiments selon le risque spécifique de désengagement, c’est-à-dire moyen ou faible. Le modèle fournit également le rang centile de risque pour les clients, ce qui permet de comprendre le rang d’un certain client par rapport aux autres.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Cette fonctionnalité ne fait pas partie des paramètres d’usine du produit. La mise en œuvre nécessite l’implication d’Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 >
 >La fonctionnalité nécessite l’utilisation d’un stockage Azure ou Amazon S3 qui doit être fourni par le client.
