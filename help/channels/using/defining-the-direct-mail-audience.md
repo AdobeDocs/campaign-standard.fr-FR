@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Pour les courriers, les profils ciblés sont ceux qui seront inclus dans le fich
 
 Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d&#39;extraction. La quantité d&#39;informations de profil qui sera incluse pour chaque destinataire est définie dans l&#39;écran [Définir l&#39;extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
