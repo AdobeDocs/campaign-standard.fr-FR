@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 100%
+source-wordcount: '1831'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Pour un compte externe OAuth 2.0, indiquez les informations suivantes :
 * **Informations d’identification sensibles OAuth 2.0** : cette section est destinée aux informations d’identification sensibles par nature. Les valeurs d’identification sont masquées à l’écran après leur ajout ; à ce stade, elles ne seront ni lisibles ni modifiables. Si le point d’entrée de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps POST, vous pouvez sélectionner l’option Inclure dans l’en-tête pour ces informations d’identification.
 * **Informations d’identification non sensibles OAuth 2.0** : cette section est destinée aux informations d’identification non sensibles par nature. Les valeurs d’identification sont visibles à l’écran après leur ajout ; elles sont également modifiables.  Si le points d’entrée de l’autorisation nécessite l’insertion d’informations d’identification particulières dans l’en-tête d’autorisation HTTP au lieu du paramètre de corps POST, vous pouvez sélectionner l’option ‘Inclure dans l’en-tête’ pour ces informations d’identification.
 
-À la fin de la configuration, cliquez sur **Tester le connecteur** pour vérifier que le compte externe est configuré correctement.
+Après avoir saisi les informations du compte, cliquez sur **Tester la connexion** pour vérifier que le compte externe a été correctement configuré.
 
 ![](assets/external_accounts_OAuth.png)
 
