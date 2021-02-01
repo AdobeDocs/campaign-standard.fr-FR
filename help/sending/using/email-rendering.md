@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un r
 
 Les clients mobiles, de messagerie et webmail disponibles pour le **Rendu des emails** dans Adobe Campaign sont répertoriés sur le [site web](https://litmus.com/email-testing) de Litmus (cliquez sur **View all email clients**).
 
-## Consulter le rapport de rendu des emails {#checking-the-email-rendering-report}
+## Génération de rendu de courrier électronique {#checking-the-email-rendering-report}
 
 Une fois que vous avez créé votre diffusion email et défini son contenu ainsi que la population ciblée, suivez la procédure décrite ci-après.
 
@@ -66,20 +66,21 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## Description du rapport de rendu des emails      {#email-rendering-report-description}
+## Rapport de rendu de courriel {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
->[!NOTE]
->
->Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité.
->
->Les jetons représentent chaque rendu et non le rapport de rendu des emails complet, ce qui signifie que :
->
->**Chaque fois que le rapport d&#39;inbox rendering est généré, un jeton est déduit par client de messagerie : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook , un pour le rendu Apple Mail , etc.**
->
->**Pour une même diffusion**, si vous régénérez le rapport de rendu des emails, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
+### Jetons de rendu de courrier électronique
 
+Le nombre de rendus disponibles est listé dans votre accord de licence. Chaque diffusion pour laquelle le **Rendu des emails** est activé réduit vos rendus disponibles (également appelés jetons) d&#39;une unité.
+
+Les jetons représentent chaque rendu et non le rapport de rendu des emails complet, ce qui signifie que :
+
+* **Chaque** fois que le rapport Rendu du courrier électronique est généré, un jeton par client de messagerie est déduit : un jeton pour le rendu Outlook 2000, un pour le rendu Outlook, un pour le rendu Apple Mail, etc.
+
+* **Pour une même diffusion**, si vous régénérez le rapport de rendu des emails, le nombre de jetons disponibles est à nouveau réduit en fonction du nombre de rendus générés.
+
+### Résumé du rapport
 
 La synthèse du rapport présente le nombre de messages reçus, indésirables, non reçus ou en attente de réception.
 
