@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 100%
+ht-degree: 74%
 
 ---
 
@@ -51,8 +51,8 @@ Le menu **[!UICONTROL Diagnostic]** est un outil essentiel pour surveiller et an
 Les audits des exports vous permettent de surveiller les exports effectués sur vos instances : fichiers téléchargés à partir de workflows, exports de listes et fichiers téléchargés à partir de messages de courrier.
 [En savoir plus](../../administration/using/auditing-export-logs.md)
 
-**Licences**
-Dans le menu **[!UICONTROL Licences]**, surveillez les informations relatives à vos instances : licences installées, versions de build et acceptations des conditions générales.
+****
+LicencesDans le menu  **** Sous-licences, contrôlez les informations relatives à vos instances : les licences installées, les versions de build et les acceptations de conditions générales.
 [En savoir plus](../../administration/using/licenses.md)
 
 ## Surveillance des workflows {#monitoring-workflows}
@@ -63,20 +63,20 @@ Dans le menu **[!UICONTROL Licences]**, surveillez les informations relatives à
 Suivez les bonnes pratiques et les instructions de dépannage lorsque vous utilisez des workflows pour améliorer les performances.
 [En savoir plus](../../automating/using/best-practices-workflows.md)
 
-**Logs et tâches**
-Le monitoring des logs de workflow est une étape essentielle pour analyser vos workflows et vérifier qu&#39;ils s&#39;exécutent correctement.
+**Journaux et**
+tâchesLa surveillance des journaux de flux de travail est une étape clé pour analyser vos workflows et s&#39;assurer qu&#39;ils s&#39;exécutent correctement.
 [En savoir plus](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
-**Notifications**
-Campaign Standard vous permet d&#39;envoyer des notifications aux superviseurs afin de surveiller l&#39;exécution de vos workflows et de voir si une erreur nécessite votre attention.
+****
+NotificationsCampaign Standard vous permet d&#39;envoyer des notifications aux superviseurs afin de surveiller l&#39;exécution de vos workflows et de voir s&#39;il y a une erreur qui nécessite votre attention.
 [En savoir plus](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Délivrabilité**
-Campaign Standard met à votre disposition plusieurs outils de délivrabilité pour améliorer le nombre de messages correctement diffusés : rapports de débit de diffusion, optimisation de l’heure d’envoi, prévisualisation des messages, rendu des emails, gestion des quarantaines, etc.
+****
+DeliverabilityCampaign Standard offre plusieurs outils de délivrabilité pour vous aider à améliorer le nombre de messages remis avec succès : rapports sur le débit des diffusions, optimisation du temps d’envoi, prévisualisation des messages, rendu des courriels, gestion des quarantaines, etc.
 [En savoir plus](../../sending/using/about-deliverability.md)
 
 **Diffusions**
@@ -87,6 +87,6 @@ Une fois vos messages envoyés, des logs détaillés vous permettent de surveill
 Grâce à la fonction d&#39;alertes de diffusion, vous pouvez configurer des alertes qui seront automatiquement envoyées à un groupe d&#39;utilisateurs au sujet de l&#39;exécution des diffusions : échec d&#39;envoi ou de préparation, mauvais taux de bounces, faible débit, etc.
 [En savoir plus](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-**Rapports dynamiques**
-Les rapports dynamiques fournissent divers rapports pour vous aider à être tenu informé des performances de vos diffusions : bounces, diffusions les plus consultées par les destinataires, débit des diffusions, etc.
+**Création de**
+rapports dynamiquesLe rapports dynamique fournit divers rapports qui vous aident à être tenu informé des performances de vos diffusions : rebonds, la plupart des diffusions vues par les destinataires, le débit des diffusions, etc.
 [En savoir plus](../../reporting/using/about-dynamic-reports.md)
