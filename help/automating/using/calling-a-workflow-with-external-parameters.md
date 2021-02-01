@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Présentation
-description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
+title: 'Vue d’ensemble '
+description: Cette section décrit comment appeler un processus avec des paramètres externes.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
