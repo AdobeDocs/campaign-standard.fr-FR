@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdbba06289eef65d9e42b7d82086f8fa14e1473c
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 100%
+source-wordcount: '2785'
+ht-degree: 82%
 
 ---
 
@@ -19,16 +19,6 @@ ht-degree: 100%
 # Configuration du canal Email{#configuring-email-channel}
 
 En tant qu’[administrateur](../../administration/using/users-management.md#functional-administrators) Campaign, vous pouvez configurer les paramètres du canal email. Ces paramètres avancés comprennent les paramètres généraux du canal email, les comptes de routage email, les règles de gestion des emails et les propriétés des emails. Sur cette page, vous apprendrez à modifier les valeurs par défaut des paramètres généraux d’email et d’envoi.
-
-Notez que certains paramètres d’email sont désormais gérés par le MTA amélioré d’Adobe Campaign. Par conséquent :
-* Certaines configurations de l’interface utilisateur Campaign ne sont plus appliquées :
-   * Les paramètres **[!UICONTROL Reprises]** dans le [menu Configuration](#email-channel-parameters) et dans les [Paramètres d’envoi](#retries-parameters) des propriétés des emails.
-   * Les règles de **[!UICONTROL gestion MX]** et de **[!UICONTROL gestion des domaines]** dans le [menu Règles de gestion des emails](#email-processing-rules).
-
-* D’autres paramètres sont maintenant partiellement gérés par le MTA amélioré, tandis que certaines configurations peuvent encore être effectuées dans Campaign. Les paramètres concernés sont les suivant :
-   * Le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le menu **[!UICONTROL Configuration]**. Voir à ce propos [cette section](#email-channel-parameters).
-   * Le paramètre **[!UICONTROL Durée de diffusion]** ou **[!UICONTROL Limite de validité pour l’envoi de messages]** dans la section **[!UICONTROL Période de validité]**. Voir à ce propos [cette section](#validity-period-parameters).
-   * Les règles **[!UICONTROL Mails rebonds]** dans les **[!UICONTROL règles de gestion des emails]**. Voir à ce propos [cette section](#email-processing-rules).
 
 ## Paramètres du canal email {#email-channel-parameters}
 
@@ -51,11 +41,13 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
 * **Paramètres de la diffusion**
 
-   Adobe Campaign envoie les messages à compter de la date de début. Le champ **[!UICONTROL Durée de diffusion des messages]** permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle tentative.
+   Adobe Campaign envoie les messages à compter de la date de début.
+
+   Le champ **[!UICONTROL Durée de diffusion des messages]** permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle tentative.
 
    >[!IMPORTANT]
    >
-   >**Ce paramètre dans Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte car elle est alors gérée par le MTA amélioré d’Adobe Campaign.
+   >**Ce paramètre dans Campaign n’est désormais utilisé que s’il est défini sur 3,5 jours ou moins.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
    Le champ **[!UICONTROL Durée de validité des ressources en ligne]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
 
@@ -63,9 +55,9 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Les messages qui n’ont pas abouti de manière temporaire font l’objet de reprises automatiques. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Le nombre maximal de reprises à effectuer et le délai minimal entre les reprises sont désormais gérés par le MTA amélioré d’Adobe Campaign, en fonction de la performance historique et actuelle d’une IP sur un domaine donné. Les paramètres de **Reprises** dans Campaign seront ignorés.
+   >Le nombre maximal de Reprises à effectuer et le délai minimal entre les Reprises sont désormais basés sur le niveau de performance historique et actuel d’une IP dans un domaine donné. Les paramètres **[!UICONTROL Période de nouvelle tentative]** et **[!UICONTROL Nombre de Reprises]** dans Campaign seront ignorés.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -94,9 +86,16 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les administrateurs via le menu **[!UICONTROL Administration > Canaux > Email]**.
 
-Notez que les domaines de l’e-mail et les règles MX sont désormais gérés par le MTA amélioré d’Adobe Campaign :
-* La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée par le MTA amélioré pour tous les messages et tous les domaines. La signature n’utilise ni **Sender ID**, ni **DomainKeys** ou **S/MIME**, sauf indication contraire du MTA amélioré.
-* Le MTA amélioré utilise ses propres règles MX. Il peut ainsi personnaliser le débit par domaine en fonction de votre réputation, basée sur l&#39;historique des emails et les commentaires en temps réel provenant des domaines auxquels vous adressez des emails.
+>[!IMPORTANT]
+>
+>Les domaines de courriel et les règles MX sont désormais gérés automatiquement <!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> et ne peuvent pas être modifiés.
+
+* **La signature de l’authentification** par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée pour tous les messages contenant tous les domaines. Il ne se signe pas avec **ID d&#39;expéditeur**, **DomainKeys** ou **S/MIME**.
+* Les règles MX personnalisent automatiquement votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
+
+<!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
+* **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
+* The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
 ### Mails rebonds {#bounce-mails}
 
@@ -104,9 +103,9 @@ Les bounces asynchrones sont toujours qualifiés par le processus Campaign inMai
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Pour les messages d’erreur d’échec de diffusion synchrone, le MTA amélioré d’Adobe Campaign détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
+>Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par la MTA améliorée Adobe Campaign, qui détermine le type et la qualification de rebond, et renvoie ces informations à Campaign.
 
 Pour plus d’informations sur la qualification des emails bounce, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -160,15 +159,9 @@ La section **[!UICONTROL Envoi]** est uniquement disponible pour les modèles d�
 
 Les messages qui n’ont pas abouti de manière temporaire font l’objet de reprises automatiques. Voir à ce propos [Reprises après un échec temporaire de diffusion](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Le délai minimum entre traitements et le nombre maximum de reprises à effectuer sont désormais gérés par le MTA amélioré d’Adobe Campaign, en fonction de la performance historique et actuelle d’une IP sur un domaine donné. Les paramètres de **reprises** de Campaign seront ignorés.
-
-<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
-
-By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
-
-The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+>Le délai minimal entre les Reprises et le nombre maximal de Reprises à effectuer dépendent désormais de l’efficacité d’une IP sur le plan historique et actuel dans un domaine donné. **[!UICONTROL Période de nouvelle tentative]** et **[!UICONTROL Max. nombre de paramètres de Reprises]** dans Campaign sera ignoré.
 
 Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -219,7 +212,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
    >[!IMPORTANT]
    >
-   >Ce paramètre est désormais géré par le MTA amélioré d’Adobe Campaign. **Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+   >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
 * **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources mises en ligne, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
@@ -312,3 +305,43 @@ La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suiv
    >Le paramétrage des entités organisationnelles est accessible via le menu **Administration** > **Utilisateurs &amp; sécurité**.
 
 * Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modifié par]** et **[!UICONTROL Dernière modification]** sont automatiquement remplis.
+
+## Paramètres hérités {#legacy-settings}
+
+Si **vous n’exécutez pas** la dernière version de Campaign, les paramètres et les sections d’interface utilisateur décrits ci-dessous s’appliquent toujours à vous.
+
+### Reprises {#legacy-retries}
+
+Les paramètres **[!UICONTROL Reprises]** dans le menu [Configuration](#email-channel-parameters) et dans les [Paramètres d&#39;envoi](#retries-parameters) des propriétés de courriel indiquent le nombre de Reprises à effectuer le jour suivant le démarrage de l&#39;envoi (**[!UICONTROL Nombre de Reprises]** / **[!UICONTROL Max. nombre de Reprises]**) et délai minimal entre les Reprises (**[!UICONTROL Période de nouvelle tentative]**).
+
+Le nombre de Reprises peut être modifié globalement (contactez votre administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
+
+Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée. Une nouvelle tentative par jour est programmée après cela et jusqu&#39;à l&#39;échéance de la diffusion, définie globalement dans la section **[!UICONTROL Paramètres de Diffusion]** du menu **[!UICONTROL Configuration]**, ou dans la section **[!UICONTROL Période de validité]** au niveau de la diffusion (voir la section [Durée de la Diffusion](#legacy-delivery-duration) ci-dessous).
+
+### Durée de diffusion {#legacy-delivery-duration}
+
+Le paramètre **[!UICONTROL Durée de la diffusion de message]** du menu [Configuration](#email-channel-parameters) vous permet de spécifier la période pendant laquelle tout message de la diffusion qui rencontre une erreur temporaire ou un rebond logiciel sera tenté à nouveau.
+
+La **[!UICONTROL durée de Diffusion]** ou **[!UICONTROL Limite de validité d&#39;envoi de messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
+
+### Règles de gestion des emails     {#legacy-email-processing-rules}
+
+Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Retransmettre les courriels]** et **[!UICONTROL gestion de domaine]** sont accessibles et modifiées par les administrateurs via le **[!UICONTROL menu Administration > Canaux > Courriel > Règles de traitement des courriels]** [](#email-processing-rules).
+
+### Qualification des emails bounce  {#legacy-bounce-mail-qualification}
+
+Pour répertorier les différents bounces et les types d&#39;erreur et raisons associés, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+
+Les statuts de qualification des bounces sont les suivants :
+
+* **[!UICONTROL A qualifier]** : le mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe Délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
+* **[!UICONTROL Conserver]** : le mail bounce a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
+* **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
+
+<!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
+
+### Rapports d&#39;indicateur {#legacy-delivered-status-report}
+
+Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Livré]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les rebonds doux et durs seront rapportés.
+
+Les messages rebondissant doucement s’affichent sous la forme **[!UICONTROL Échec]** après le premier jour de la diffusion, et ils sont relancés chaque jour supplémentaire de la période de validité de la diffusion.
