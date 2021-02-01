@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1332'
+ht-degree: 83%
 
 ---
 
@@ -64,11 +64,11 @@ Les principes de navigation sont les suivants :
 
 ### Aide {#help}
 
-L&#39;icône **Aide** permet d&#39;importer Adobe Experience League dans le produit.
+Dans le coin supérieur droit, l’icône **Aide** permet d’importer Adobe Experience League dans le produit.
 
 ![](assets/ux_help.png)
 
-* **** Champ de recherche : les résultats de la recherche incluent la documentation et les articles d&#39;aide, les résultats des forums communautaires et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à plus de contenu pour tirer le meilleur parti de l&#39;application.
+Utilisez le champ **[!UICONTROL Rechercher]** pour trouver des instructions. Les résultats de la recherche incluent la documentation et les articles d’aide, les résultats des forums de la communauté et le contenu vidéo, ce qui vous permet d’accéder plus facilement à un plus grand nombre de contenus pour tirer le meilleur parti de l’application.
 
 Trois onglets vous aident à trouver de l’aide et de l’aide :
 
