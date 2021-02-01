@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 100%
+source-wordcount: '1166'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,10 @@ Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**,
 
 Par défaut, il est recommandé de ne pas exécuter simultanément plus de 20 workflows actifs. Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances. De même, Adobe recommande d&#39;étaler l&#39;exécution des workflows dans le temps.
 Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Cela ne s&#39;applique pas aux workflows en attente d&#39;une exécution planifiée. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l’assistance clientèle d’Adobe pour augmenter la limite.
+
+>[!NOTE]
+>
+>Avant de démarrer un processus, [!DNL Campaign Standard] vérifie s&#39;il y a suffisamment de mémoire physique système pour exécuter le processus. S&#39;il n&#39;y a pas assez de mémoire disponible, un message vous informe que l&#39;exécution du flux de travail sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
 
 ### Fréquence
 
