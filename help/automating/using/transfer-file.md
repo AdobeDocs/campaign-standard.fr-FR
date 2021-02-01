@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1232'
+ht-degree: 93%
 
 ---
 
@@ -134,13 +134,15 @@ Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent �
 
 Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos [cette page](../../automating/using/customizing-workflow-external-parameters.md).
 
-Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage. Par exemple :
+Veuillez noter que le chemin doit être relatif au répertoire d’espace de stockage du serveur Adobe Campaign. Les fichiers se trouvent dans le répertoire **sftp&lt;nomdevotreinstance>/**. Il est également impossible de parcourir les niveaux de répertoires supérieurs à l’espace de stockage.
 
-    >**user&amp;lt;nomdevotreinstance>/my_recipients.csv** est correct.
-    >
-    >**../hello/my_recipients.csv** est incorrect.
-    >
-    >**//myserver/hello/myrecipients.csv** est incorrect.
+par exemple :
+
+`user&lt;yourinstancename>/my_recipients.csv` est correcte.
+
+`../hello/my_recipients.csv` est incorrect.
+
+`//myserver/hello/myrecipients.csv` est incorrect.
 
 ## Paramètres d’historisation         {#historization-settings}
 
@@ -159,3 +161,16 @@ A chaque exécution de l’activité, le dossier est vérifié comme suit :
 >[!NOTE]
 >
 >Si l’activité n’est pas exécutée à nouveau, son dossier ne sera pas vérifié ni purgé. Faites donc preuve de prudence lorsque vous transférez des fichiers de grande taille.
+
+## Variables de sortie {#output-variables}
+
+L&#39;activité **[!UICONTROL Transférer le fichier]** génère des variables de événement en tant que sortie, que vous pouvez exploiter dans d&#39;autres activités, par exemple pour vérifier le nombre de fichiers téléchargés à l&#39;aide d&#39;une activité [Test](../../automating/using/test.md).
+
+Notez que les variables de événement peuvent également être transmises à un autre processus à l’aide d’un signal externe (voir [Personnalisation d’un processus avec des paramètres externes](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Les variables de sortie disponibles sont les suivantes :
+
+* **[!UICONTROL fileName]** : nom des fichiers transférés.
+* **[!UICONTROL filesCount]** : nombre de fichiers transférés.
+
+
