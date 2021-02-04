@@ -1,14 +1,14 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Notes de mise à jour             2020
+title: Notes de mise à jour              2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5329'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
@@ -64,19 +64,19 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Intégration de Journey AI</strong><br /> </th> 
+<th> <strong>Intégration de l’IA dédiée au parcours</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Nous sommes ravis d’annoncer Journey AI pour tous les clients Adobe Campaign Standard.</p>
-  <p>Journey AI utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours des clients en prédisant les préférences d’engagement de chaque individu.</p>
-  <P>Journey AI comprend deux fonctions de ML :</p>
+  <td> <p>Nous sommes ravis d’annoncer l’IA dédiée au parcours pour tous les clients Adobe Campaign Standard.</p>
+  <p>L’IA dédiée au parcours utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours des clients en prédisant les préférences d’engagement de chaque individu.</p>
+  <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
      <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vidéo pratique</a>.</li> 
      <li> <strong>Optimisation prédictive du temps d’envoi</strong> - Prévoit le meilleur moment pour envoyer des emails à chaque individu au cours d’une campagne afin d’optimiser les taux d’engagement et d’améliorer le retour sur investissement des campagnes par email. Regardez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">vidéo pratique</a>.</li>
     </ul>
-  <p>Si vous souhaitez découvrir la prise en main de Journey AI, veuillez consulter la <a href="../../sending/using/predictive.md">documentation détaillée</a> et contacter votre gestionnaire de compte. Notez que si Journey AI est disponible gratuitement pour les clients Campaign existants, un coût d’implémentation correspondant à environ 50 heures s’applique.</p>
+  <p>Si vous souhaitez découvrir la prise en main de l’IA dédiée au parcours, veuillez consulter la <a href="../../sending/using/predictive.md">documentation détaillée</a> et contacter votre gestionnaire de compte. Notez que si l’IA dédiée au parcours est disponible gratuitement pour les clients Campaign existants, un coût d’implémentation correspondant à environ 50 heures s’applique.</p>
     </td> 
 </tr> 
 </tbody> 
@@ -236,7 +236,7 @@ ht-degree: 100%
 
 **Fonctionnalités additionnelles** (à partir du 13 juillet)
 
-* **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA de parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
+* **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA dédiée au parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
 * **Nouvelle réglementation brésilienne sur la protection des informations personnelles** : en plus des fonctionnalités de protection des informations personnelles déjà disponibles dans Campaign, Adobe vous aide à vous préparer au LGDP (Lei Geral de Proteçao de Datos) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 ## Version 20.2 - Avril 2020 {#release-20-2---april-2020}
 
@@ -329,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
 
 **Améliorations**
 
@@ -485,4 +485,4 @@ ht-degree: 100%
 * Correction d’un problème qui entraînait des incohérences dans le nombre de désabonnements dans les rapports dynamiques. (CAMP-39949)
 * Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-App.
 * Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de bounces. (CAMP-38395)
-* Correction d’une faille qui permettait aux appels POST des abonnements aux applications de mettre à jour les tokens de notification push. (CAMP-39273)
+* Correction d’une faille qui permettait aux appels POST des abonnements aux applications de mettre à jour les jetons de notification push. (CAMP-39273)
