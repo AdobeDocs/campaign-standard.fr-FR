@@ -1,14 +1,14 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Notes de mise à jour             2019
+title: Notes de mise à jour              2019
 description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7614'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons d’autres fonctionnalités pour faciliter votre préparation au CCPA :</p>
    <ul>
     <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">Fonctionnalités obsolètes et supprimées</a>.</p></li>
     <li>Un champ <strong>Option d’opt-out du CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
@@ -394,7 +394,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait la désactivation du workflow de délivrabilité s’il ne se terminait pas correctement.
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer ou de planifier des rapports. (CAMP-31133)
 
-## Version 19.1.3 - Mars 2019               {#release-19-1-3---march-2019}
+## Version 19.1.3 - Mars 2019                {#release-19-1-3---march-2019}
 
 **Améliorations du Concepteur d’email**
 
@@ -535,7 +535,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
