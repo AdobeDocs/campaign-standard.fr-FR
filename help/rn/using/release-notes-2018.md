@@ -6,9 +6,9 @@ description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5458'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème qui empêchait l’affichage des erreurs à l’origine de l’échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d’une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
 
-## Version 18.7 - Juillet 2018             {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018              {#release-18-7---july-2018}
 
 **Nouveautés**
 
@@ -165,7 +165,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Dans le workflow technique d’usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d’erreurs consécutives à ignorer dans l’activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
 * Le code SQL généré lors de la gestion des conditions de restriction d’accès à l’entité a été optimisé.
 * L’activité **[!UICONTROL Mise à jour]** permet maintenant d’ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
-* Le workflow technique **[!UICONTROL Mise à jour de l’exécution des diffusions]** a été divisé en deux workflows afin d’optimiser les performances : - **[!UICONTROL Mise à jour de l’exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (IPC) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d’informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Le workflow technique **[!UICONTROL Mise à jour de l’exécution des diffusions]** a été divisé en deux workflows afin d’optimiser les performances : - **[!UICONTROL Mise à jour de l’exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (KPI) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d’informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * Lorsqu’une diffusion envoie des messages, le statut dans la section **[!UICONTROL Déploiement]** peut maintenant avoir deux valeurs : **[!UICONTROL Envoi]** : les messages sont en cours d’envoi. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
 * Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]** peuvent maintenant envoyer des bons à tirer. (CAMP-24313)
 * L’option **Activer TLS via SMPP** a été ajoutée au compte externe **Routage des SMS par SMPP**. Voir à ce propos cette [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -265,7 +265,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Corrections d’une erreur qui pouvait empêcher le bon traitement des demandes d’accès ou de suppression du RGPD. Ce comportement a été observé dans de rares cas lorsque les données extraites contenaient l’un des caractères suivants : &amp; &lt; > &quot; ’.
 
@@ -305,7 +305,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
@@ -334,7 +334,7 @@ _Ressources personnalisées_
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Correction d’un problème qui empêchait l’export de plus de 5 000 enregistrements d’une liste.
 * Correction d’un problème lors de l’export de données vers des fichiers nommés avec des champs de personnalisation.
@@ -402,7 +402,7 @@ _Messages transactionnels_
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * Mise à jour de la barre supérieure de l’interface d’Adobe Campaign avec le nouveau menu d’Experience Cloud.
 * Correction d’une erreur qui empêchait l’affichage du lien vers les **[!UICONTROL Offres]** dans la liste déroulante de la solution.
@@ -484,7 +484,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
 
 **Correctifs**
 
-_Plate-forme_
+_Plateforme_
 
 * La recherche de profils a été optimisée afin d’améliorer les performances.
 * L’identifiant interne des groupes de sécurité par défaut est désormais en mode de lecture seule pour les utilisateurs standard.
