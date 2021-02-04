@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '992'
 ht-degree: 21%
 
 ---
@@ -94,17 +94,9 @@ Lorsque les messages rebondissant à l’écran sont renvoyés à partir de la M
 
 * Dans le cas contraire, l’état devient **[!UICONTROL Échec]** et le pourcentage **[!UICONTROL Livré]** est réduit en conséquence.
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage final **[!UICONTROL Livré]** et le nombre final de **[!UICONTROL Envoyé]** et **[!UICONTROL Échec]**.
 
 ### Service de commentaires par courriel (bêta) {#email-feedback-service}
-
->[!NOTE]
->
->Cette section s’applique uniquement aux canaux électroniques.
 
 Grâce à la fonctionnalité de service de commentaires par courriel (EFS), l’état de chaque courriel est rapporté avec précision, car les commentaires sont capturés directement à partir de l’agent de transfert de messages amélioré.
 
