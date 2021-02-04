@@ -6,11 +6,11 @@ description: Cette page répertorie toutes les versions à venir d’Adobe Cam
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: ht
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,9 @@ Toutes les dates de publication peuvent faire l’objet de modifications. Nous v
 
 ## Version 21.1 - Version de février {#release-21-1-release}
 
-Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](../../rn/using/release-notes.md) au début des mises à niveau de l’environnement de test. Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par courriel à chaque client.
+
+Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](../../rn/using/release-notes.md) au début des mises à niveau de l’environnement de test.
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Les mises à jour des environnements s’effectuent par vagues, selon les dates 
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>1er - 2 février 2021<br /> </td>
+   <td>1er - 10 février 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>8 - 15 février 2021<br /> </td>
+   <td>8 - 17 février 2021<br /> </td>
   </tr>
  </tbody>
 </table>
+
+Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 ## Questions et réponses {#questions-and-answers}
 
@@ -58,7 +62,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L’instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -80,4 +84,4 @@ R : Oui. Il ne sera pas possible d’envoyer de nouveaux emails pendant la mise
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s’affiche avec la dernière version.
 
-Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
