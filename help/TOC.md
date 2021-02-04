@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 breadcrumb-title: Campaign Standard
 title: Guide de Campaign Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
-   + [Notes de mise à jour anticipées](rn/using/early-release-notes.md)
+   + [Notes de mise à jour initiales](rn/using/early-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2020](rn/using/release-notes-2020.md)
       + [Notes de mise à jour 2019](rn/using/release-notes-2019.md)
@@ -133,7 +133,7 @@ ht-degree: 98%
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
       + [Cas d’utilisation des messages transactionnels](channels/using/transactional-messaging-use-case.md)
-   + Landing page {#landing-pages}
+   + Landing pages {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [A propos des modèles de landing page](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -237,7 +237,7 @@ ht-degree: 98%
       + [Configuration de l’intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
       + [Création d’un contenu email dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Création d’un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Création d’un courrier électronique multilingue avec l’intégration Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
+      + [Création d’un email multilingue avec l’intégration d’Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign et Target {#working-with-campaign-and-target}
       + [A propos de l’intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurer l’intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -261,14 +261,14 @@ ht-degree: 98%
       + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
-      + [Cas pratiques des déclencheurs d’abandon](integrating/using/abandonment-triggers-use-cases.md)
+      + [Cas pratiques des triggers d’abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l’intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
       + [Bonnes pratiques et limites](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [Configuration de Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
+      + [Configuration de Microsoft Dynamics 365](integrating/using/d365-acs-configure-d365.md)
       + [Configuration de Campaign et d’Adobe I/O](integrating/using/d365-acs-configure-adobe-io.md)
       + Configuration de l’application d’intégration {#configure-integration-tool}
-         + [Prise en main de l’intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Prise en main de l’application d’intégration](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [Accès à l’application d’intégration](integrating/using/d365-acs-self-service-app-control-access.md)
          + [Connexion des systèmes à l’application d’intégration](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
@@ -416,9 +416,9 @@ ht-degree: 98%
       + [Programme](developing/using/datamodel-program.md)
       + [Membre de contrôle](developing/using/datamodel-seed.md)
       + [Service](developing/using/datamodel-service.md)
-      + [Evénement d’abonnement](developing/using/datamodel-subscription.md)
+      + [Événement d’abonnement](developing/using/datamodel-subscription.md)
       + [Logs de tracking](developing/using/datamodel-tracking.md)
-      + [Evénement de désabonnement](developing/using/datamodel-unsubscription.md)
+      + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
    + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
       + [À propos d’Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
@@ -451,7 +451,7 @@ ht-degree: 98%
       + [FAQ sur l’intégration du SDK Experience Platform](administration/using/aep-faq.md)
       + [Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
       + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Comment migrer votre application mobile du SDK v4 au SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
+      + [Comment effectuer une migration de votre application mobile depuis SDK v4 vers le SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuration du canal SMS {#configuring-sms}
       + [Mise en œuvre du canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocole et paramètres du connecteur SMS](administration/using/sms-protocol.md)
@@ -459,7 +459,7 @@ ht-degree: 98%
    + Paramétrage de l’application {#application-settings}
       + [A propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
-      + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
+      + [Mappings cibles dans Campaign](administration/using/target-mappings-in-campaign.md)
       + [Workflows techniques](administration/using/technical-workflows.md)
       + [Marques](administration/using/branding.md)
       + [Envoi de notifications internes](administration/using/sending-internal-notifications.md)
