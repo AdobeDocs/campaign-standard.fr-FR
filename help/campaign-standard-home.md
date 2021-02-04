@@ -5,11 +5,11 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Nouveautés
 
-* **[Campaign 21.1 La version de février est en ligne !](rn/using/release-notes.md)**<br/> Découvrez les nouvelles fonctionnalités, les dernières mises à jour et correctifs
+* **[La version de février de Campaign 21.1 est en ligne.](rn/using/release-notes.md)**<br/> Découvrez les nouvelles fonctionnalités ainsi que les dernières mises à jour et correctifs
 
 * **[Mise à jour des hard bounces incorrects](https://helpx.adobe.com/fr/campaign/kb/update-bounce-qualification.html)**<br/> Découvrez comment mettre à jour les hard bounces incorrects après une panne de Gmail
 
