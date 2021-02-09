@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
+source-git-commit: 558f88a129264560851832ca70628509661cb208
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -43,11 +43,11 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>1er - 10 février 2021<br /> </td>
+   <td>1er - 22 février 2021<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>8 - 17 février 2021<br /> </td>
+   <td>8 février - 1 mars 2021<br /> </td>
   </tr>
  </tbody>
 </table>
