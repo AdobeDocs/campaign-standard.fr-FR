@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
 <li>Le calcul de l’indicateur <b>Délivrés</b> est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l’amélioration de la précision et de la réactivité.</li>
 <li>Le service EFS résout le problème des retards grâce au reporting synchrone des soft bounces.</li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../../sending/using/confirming-the-send.md#email-feedback-service">documentation détaillée</a>.
+<p>Pour plus d’informations, consultez la <a href="../../sending/using/confirming-the-send.md#message-indicators">documentation détaillée</a>.
 </p>
 </td> 
 </tr> 
