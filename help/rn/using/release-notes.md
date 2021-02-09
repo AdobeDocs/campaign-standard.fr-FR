@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>Notifications améliorées - La liste déroulante Notifications comporte désormais deux onglets : l’une pour vos propres notifications de produits, l’autre pour des annonces de produits plus globales.</li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../../start/using/interface-description.md#top-bar">documentation détaillée</a>.
+</p>
+<p>REMARQUE : Ce changement sera progressivement appliqué à tous les environnements clients entre le 10 février et le 1er mars.
 </p>
 </td> 
 </tr> 
