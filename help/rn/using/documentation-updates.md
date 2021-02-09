@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6571'
 ht-degree: 97%
@@ -23,7 +23,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 **Nouvelles fonctionnalités de cette version**
 
-Service de commentaires par courriel - [En savoir plus](../../sending/using/confirming-the-send.md#email-feedback-service)
+Service de commentaires par courriel - [En savoir plus](../../sending/using/confirming-the-send.md#message-indicators)
 
 Améliorations de l’intégration d’Adobe Experience Manager – [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
 
