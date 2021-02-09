@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
-source-wordcount: '8666'
-ht-degree: 96%
+source-wordcount: '8665'
+ht-degree: 95%
 
 ---
 
@@ -478,7 +478,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * La prévisualisation affiche le numéro court si aucun numéro source n&#39;est fourni. Il reflétera le comportement réel sur le téléphone portable.
 
-* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l&#39;utilisateur pour un numéro court spécifique.
+* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine de l’utilisateur un code court spécifique.
 
 #### NPI/TON source, NPI/TON destination {#ton-npi}
 
@@ -702,9 +702,9 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 >
 >A compter de la version 21.1, il est désormais possible d’ajouter plusieurs paramètres facultatifs. Voir à ce propos cette [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Réponse automatique aux MO      {#automatic-reply}
+### Réponse automatique aux MO       {#automatic-reply}
 
-Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
+Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
 
 Les colonnes **Mot-clé** et **Numéro court** définissent les conditions pour déclencher la réponse automatique. Si les deux champs correspondent, le MO est envoyé et l&#39;action supplémentaire est déclenchée. Pour spécifier un caractère de remplacement, vous devez laisser le champ vide. Le mot-clé correspond au premier mot alphanumérique du texte MO, en ignorant la ponctuation et les espaces de début. Cela signifie que le champ **Mot-clé** ne peut pas contenir d&#39;espaces et doit être un seul mot.
 
