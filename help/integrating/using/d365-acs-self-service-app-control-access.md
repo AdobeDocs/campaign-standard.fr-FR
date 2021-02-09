@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 0%
@@ -34,11 +34,11 @@ Dans cette section, vous apprendrez comment accorder l&#39;accès à l&#39;inté
 1. Accédez à https://experience.adobe.com/ et connectez-vous au Adobe Experience Cloud.
 1. Accédez au **Admin Console**.
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. Cliquez sur **[!UICONTROL Produits]** pour accéder à vos solutions Experience Cloud.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ Dans cette section, vous apprendrez comment accorder l&#39;accès à l&#39;inté
 
 1. Cliquez sur la première instance à configurer.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    La page d’instance doit se présenter comme suit :
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau Profil]** et ajoutez une nouvelle entrée nommée : **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
 
@@ -63,11 +63,11 @@ Dans cette section, vous apprendrez comment accorder l&#39;accès à l&#39;inté
 
 1. Si vos entrées se présentent comme suit, cliquez sur le bouton **[!UICONTROL Terminé]**.
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    Le nouveau profil de produits a été ajouté.
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## Accorder l&#39;accès aux utilisateurs {#add-users-to-profile}
 
@@ -75,11 +75,11 @@ Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et
 
 1. Cliquez sur le nouveau profil que vous avez créé précédemment :  **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Developers]**.
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter le développeur]**.
 
