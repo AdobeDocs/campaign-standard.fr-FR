@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2196'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -114,13 +114,13 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 ### Exécution
 
-Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point de terminaison HTTPS** avec lequel le Campaign Standard communiquera.
+Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
 
 Si le point d’entrée l’exige, deux types de méthodes d’authentification sont disponibles :
 
-* Authentification de base : entrez votre nom d&#39;utilisateur/mot de passe dans la section **[!UICONTROL En-tête(s) de la demande]**.
+* Authentification de base : entrez votre nom d’utilisateur / mot de passe dans la section **[!UICONTROL En-tête(s) de demande]**.
 
-* Authentification OAuth : En cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l&#39;authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
+* Authentification OAuth : en cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l’authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ Cet onglet est disponible dans la plupart des activités de workflow. Pour plus 
 
 ## Test
 
-Pour tester la fonctionnalité API externe avec un point de terminaison de test simple, vous pouvez utiliser Postman Echo : https://docs.postman-echo.com.
+Pour tester la fonctionnalité API externe avec un point d&#39;entrée de test simple, vous pouvez utiliser Postman Echo : https://docs.postman-echo.com.
 
 ## Résolution des problèmes
 
@@ -260,7 +260,7 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <td> <p>La clé de l’en-tête HTTP n’est pas autorisée (clé de l’en-tête : ’Accept’).</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Une valeur d’en-tête HTTP est mauvaise (valeur d’en-tête : '%s').</td> 
+   <td> WKF-560247 - La valeur de l’en-tête HTTP est incorrecte (valeur de l’en-tête : ‘%s’).</td> 
    <td> <p>La valeur de l’en-tête HTTP est incorrecte (valeur de l’en-tête : ’%s’). </p>
     <p>Remarque : cette erreur est consignée lorsque la valeur d’en-tête personnalisée échoue à la validation selon les <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>.</p></td> 
   </tr> 
