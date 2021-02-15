@@ -6,11 +6,11 @@ description: Cette section contient la liste de tous les composants disponibles 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e129cde33b24831122433bd4b400204f38799b11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -132,11 +132,11 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures         {#metrics}
+## Mesures  {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
-### Mesures des emails et SMS          {#email-and-sms-metrics}
+### Mesures des emails et SMS  {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -247,12 +247,12 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Nombre de destinataires ayant ouvert la diffusion.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Désinscription unique<br /> </td> 
-   <td> Nombre de destinataires ayant cliqué sur le lien de la désinscription.<br /> </td> 
+   <td> Désabonnement unique<br /> </td> 
+   <td> Nombre de destinataires ayant cliqué sur le lien de désabonnement.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de désabonnement<br /> </td> 
-   <td> Nombre de désinscriptions uniques par rapport aux messages remis.<br /> </td> 
+   <td> Nombre de désbonnements uniques par rapport aux messages délivrés.<br /> </td> 
   </tr> 
   <tr> 
    <td> Désabonnement<br /> </td> 
@@ -261,7 +261,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures des notifications push          {#push-notification-metrics}
+### Mesures des notifications push  {#push-notification-metrics}
 
 <table> 
  <thead> 
@@ -326,7 +326,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </tbody> 
 </table>
 
-### Mesures In-App          {#in-app-metrics}
+### Mesures In-App  {#in-app-metrics}
 
 <table> 
  <thead> 
