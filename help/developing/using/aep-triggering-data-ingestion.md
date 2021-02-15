@@ -6,11 +6,11 @@ description: Découvrez comment déclencher l’ingestion des données par le bi
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,7 +117,7 @@ L’opération GET renvoie les informations suivantes :
 
 Les réponses possibles à l’opération GET sont les suivantes :
 
-* Demande d&#39;envoi réussie :
+* Demande d&#39;ingestion réussie :
 
    ```
    {
@@ -141,7 +141,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Échec de la demande d&#39;importation, avec certains enregistrements transférés sous un lot :
+* Échec de la demande d’ingestion, avec un enregistrement chargé dans un lot :
 
    ```
    {
