@@ -6,9 +6,9 @@ description: Découvrez comment créer des profils et collecter des données sur
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -66,6 +66,6 @@ Le profil est ajouté à la liste.
 
 Cette vidéo montre comment importer des profils avec un workflow.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
