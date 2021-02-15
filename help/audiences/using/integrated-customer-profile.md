@@ -7,11 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Un profil client intégré est disponible pour chaque contact de votre base de d
 
 Pour accéder au profil client intégré, procédez comme suit :
 
-1. Dans la page d&#39;accueil Adobe Campaign, cliquez sur la carte **[!UICONTROL profils client]** ou sur l&#39;onglet **Profils** pour afficher la liste des profils.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils client]** ou l&#39;onglet **Profils** pour afficher la liste des profils.
 
 1. Pour rechercher un profil en fonction d&#39;un champ spécifique, ouvrez le volet de recherche, puis sélectionnez le champ sur lequel vous souhaitez effectuer votre recherche.
 
@@ -33,7 +33,7 @@ Pour accéder au profil client intégré, procédez comme suit :
 
    >[!NOTE]
    >
-   >Notez que les recherches peuvent être effectuées en fonction des champs de courriel, de prénom et de nom ainsi que des champs personnalisés qui ont été ajoutés lors de l&#39;extension de la ressource.
+   >Notez que les recherches peuvent être effectuées en fonction des champs d&#39;email, de prénom et de nom ainsi que des champs personnalisés qui ont été ajoutés lors de l&#39;extension de la ressource.
    >
    >Les recherches sont sensibles à la casse et effectuées sur des préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil en utilisant les dernières lettres de son nom de famille.
 
@@ -45,7 +45,7 @@ Vous pouvez accéder à l&#39;**historique marketing** de ce contact.
 
 Des informations essentielles sur le profil sont rassemblées sur cette page, de même que la liste des événements.
 
-Cliquez sur un événement de la liste pour l’ouvrir : vous pouvez accéder aux messages qui ont été envoyés ou aux services auxquels le profil s&#39;est abonné.
+Cliquez sur un événement de la liste pour l&#39;ouvrir : vous pouvez accéder aux messages qui ont été envoyés ou aux services auxquels le profil s&#39;est abonné.
 
 ![](assets/mkt_hist_view.png)
 
