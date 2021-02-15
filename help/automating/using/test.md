@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Les conditions peuvent être basées sur des **fonctions** ou des **variables**,
 
    * ![](assets/extsignal_picker.png) : sélectionnez la variable d&#39;événements parmi toutes les variables disponibles dans le workflow (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md)).
 
-      Par exemple, vous pouvez vérifier le nombre de fichiers téléchargés après une activité de transfert de fichier [à l’aide de la variable **[!UICONTROL filesCount]**.](../../automating/using/transfer-file.md)
+      Par exemple, vous pouvez vérifier le nombre de fichiers téléchargés après une activité [Transfert de fichier](../../automating/using/transfer-file.md) à l’aide de la variable **[!UICONTROL filesCount]**.
 
       ![](assets/wkf_test_activity_variables.png)
 
