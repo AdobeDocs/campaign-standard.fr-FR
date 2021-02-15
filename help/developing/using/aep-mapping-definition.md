@@ -6,11 +6,11 @@ description: Découvrez comment mapper un champ Campaign Standard avec un champ
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 >
 >Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-Dans cette section, vous découvrirez comment mapper un champ de Campaign Standard avec un champ de modèle de données d’expérience (XDM).
+Dans cette section, vous allez découvrir comment mapper un champ Campaign Standard avec un champ XDM (Experience Data Model).
 
 Pour effectuer cette tâche, les prérequis sont les suivants :
 
@@ -51,7 +51,7 @@ L’écran ci-dessous présente la section **[!UICONTROL Mappings de champs]** d
 
 Le bouton **[!UICONTROL Créer un mapping de champs]** permet de sélectionner le champ Campaign Standard et l’expression de chemin de champ correspondante dans le schéma XDM.
 
-Si vous ne parvenez pas à trouver un champ Adobe Campaign Standard, vous pouvez utiliser le champ de recherche pour rechercher le champ. Actuellement, la recherche ne fonctionne que pour les champs ouverts dans la hiérarchie.
+Si vous ne parvenez pas à trouver un champ Campaign Standard, vous pouvez utiliser le champ de recherche pour le rechercher. Actuellement, la recherche ne fonctionne que pour les champs ouverts dans la hiérarchie.
 
 ![](assets/aep_mapfield.png)
 
