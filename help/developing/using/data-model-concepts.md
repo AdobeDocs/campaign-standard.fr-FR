@@ -7,11 +7,11 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les champs d’extension sont générés avec un préfixe de sorte qu’ils n’
 
 >[!NOTE]
 >
->Vous trouverez une représentation de modèle de données pour les ressources intégrées dans [cette page](../../developing/using/datamodel-introduction.md).
+>Vous trouverez une représentation de modèle de données pour les ressources natives dans [cette page](../../developing/using/datamodel-introduction.md).
 
 Il est également possible de [configurer la navigation](configuring-the-screen-definition.md) dans les écrans correspondant à la ressource créée.
 
