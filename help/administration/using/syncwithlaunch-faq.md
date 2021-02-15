@@ -6,9 +6,9 @@ description: Questions courantes à propos du workflow technique de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
 ht-degree: 100%
 
