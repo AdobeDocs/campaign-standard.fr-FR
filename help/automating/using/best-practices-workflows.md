@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1166'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 wo
 
 >[!NOTE]
 >
->Avant de démarrer un processus, [!DNL Campaign Standard] vérifie s&#39;il y a suffisamment de mémoire physique système pour exécuter le processus. S&#39;il n&#39;y a pas assez de mémoire disponible, un message vous informe que l&#39;exécution du flux de travail sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
+>Avant de démarrer un workflow, [!DNL Campaign Standard] vérifie si la mémoire physique système est suffisante pour exécuter le workflow. Si ce n’est pas le cas, un message vous informe que l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
 
 ### Fréquence
 
