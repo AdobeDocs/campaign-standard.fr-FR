@@ -6,9 +6,9 @@ description: '"Découvrez comment personnaliser l''affichage et exécuter des ac
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
 ht-degree: 100%
 
