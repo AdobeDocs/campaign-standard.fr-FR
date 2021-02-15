@@ -6,11 +6,11 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '83'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Utiliser des modèles](use-templates.md)**  - Faciliter et accélérer les nouvelles diffusions
+**[Utiliser des modèles](use-templates.md)** - Faciliter et accélérer de nouvelles diffusions
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
