@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
 workflow-type: tm+mt
 source-wordcount: '8665'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -420,7 +420,7 @@ En mode **transmitter / receiver** séparé, le nombre de connexions ci-dessus 
 
 #### Activer TLS via SMPP {#enable-TLS}
 
-Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La connexion TLS est gérée par la bibliothèque OpenSSL. Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
+Utilisez TLS pour vous connecter au fournisseur. La connexion sera cryptée. La connexion TLS est gérée par la bibliothèque OpenSSL.Tout ce qui est applicable à OpenSSL sera vrai pour cette connexion.
 
 #### Activer les traces SMPP en mode verbeux dans le fichier de log {#enable-verbose-log-file}
 
@@ -466,7 +466,7 @@ L&#39;inconvénient peut être de faibles performances en raison de la contentio
 
 Définit l&#39;adresse source par défaut des messages. Ce paramètre ne s&#39;applique que si le numéro source a été laissé vide dans la diffusion.
 
-Par défaut, le champ du numéro source n&#39;est pas transmis. Le fournisseur le remplace donc par le numéro court.
+Par défaut, le champ du numéro source n&#39;est pas transmis.Le fournisseur le remplace donc par le numéro court.
 
 Ceci active la fonction d&#39;écrasement de l&#39;adresse de l&#39;expéditeur / oADC.
 
@@ -502,7 +502,7 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée. La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
+La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
 Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en doublons en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
@@ -521,7 +521,7 @@ Pour connaître la limite de débit totale, multipliez ce nombre par le nombre t
 
 0 signifie pas de limite, le MTA enverra le MT aussi vite que possible.
 
-Il est généralement recommandé de maintenir ce paramètre en dessous de 1000, puisqu&#39;il est impossible de garantir un débit précis au-dessus de ce nombre à moins que l&#39;architecture finale ne soit correctement comparée. Si vous avez besoin d&#39;un débit supérieur à 1000, contactez votre fournisseur. Il peut être préférable d&#39;augmenter le nombre de connexions au-dessus de 1000 MT/s.
+Il est généralement recommandé de maintenir ce paramètre en dessous de 1000, puisqu&#39;il est impossible de garantir un débit précis au-dessus de ce nombre, à moins que l&#39;architecture finale ne soit correctement évaluée. Si vous avez besoin d&#39;un débit supérieur à 1000, contactez votre fournisseur. Il peut être préférable d&#39;augmenter le nombre de connexions au-dessus de 1000 MT/s.
 
 #### Temps avant reconnexion {#time-reconnection}
 
@@ -654,7 +654,7 @@ Indique le format de l&#39;ID renvoyé dans le champ `message_id` du `SUBMIT_SM_
 
 * **Nombre décimal** : l&#39;ID doit être un nombre décimal au format ASCII. Les espaces de début et de fin et les zéros de début sont supprimés lorsque ce paramètre est utilisé.
 
-* **Nombre hexadécimal** : l&#39;ID doit être un nombre hexadécimal au format ASCII, sans 0x ni h à la fin. L&#39;ID est ensuite converti en nombre décimal avant d&#39;être stocké dans la base de données.
+* **Nombre hexadécimal** : l&#39;ID doit être un nombre hexadécimal au format ASCII, sans 0x ni h à la fin.L&#39;ID est ensuite converti en nombre décimal avant d&#39;être stocké dans la base de données.
 
 * **Chaîne hexadécimale** : l&#39;ID doit être un texte encodé en ASCII qui est lui-même une chaîne d&#39;octets encodés en hexadécimal. Par exemple, dans le PDU, vous trouverez `0x34 0x31 0x34 0x32 0x34 0x33`, qui se traduit par &quot;414243&quot; en ASCII. Cette chaîne est alors décodée sous la forme d&#39;une chaîne hexadécimale d&#39;octets et vous obtenez &quot;ABC&quot; en conséquence : vous stockerez l&#39;ID &quot;ABC&quot; dans la base de données.
 
@@ -700,9 +700,9 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
 >[!NOTE]
 >
->A compter de la version 21.1, il est désormais possible d’ajouter plusieurs paramètres facultatifs. Voir à ce propos cette [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
+>À compter de la version 21.1, il est désormais possible d’ajouter plusieurs paramètres optionnels. Voir à ce propos cette [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Réponse automatique aux MO       {#automatic-reply}
+### Réponse automatique aux MO  {#automatic-reply}
 
 Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
 
@@ -722,9 +722,9 @@ Toutes les entrées du tableau sont traitées dans l&#39;ordre spécifié, jusqu
 
 ### Paramètres facultatifs de réponse automatique (TLV) {#automatic-reply-tlv}
 
-Depuis la version 21.1, vous pouvez ajouter des paramètres facultatifs à la réponse automatique MT. Ils sont ajoutés en tant que paramètres TLV facultatifs à `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+Depuis la version 21.1, vous pouvez ajouter des paramètres optionnels à la réponse automatique MT. Ils sont ajoutés en tant que paramètres TLV optionnels à `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
 
-Pour plus d&#39;informations sur les paramètres facultatifs, consultez cette [section](../../administration/using/sms-protocol.md#smpp-optional-parameters).
+Pour plus d&#39;informations sur les paramètres optionnels, consultez cette [section](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Paramètres du modèle de diffusion SMS {#sms-delivery-template-parameters}
 
@@ -764,19 +764,19 @@ Ce paramètre est transmis dans le champ facultatif `dest_addr_subunit` du `SUBM
 
 #### Période de validité {#validity-period}
 
-La période de validité est transmise dans le champ `validity_period` du `SUBMIT_SM PDU`. La date est toujours formatée en tant que format d’heure UTC absolu (le champ de date se termine par &quot;00+&quot;).
+La période de validité est transmise dans le champ `validity_period` du `SUBMIT_SM PDU`. La date est toujours formatée au format des heures UTC absolu (le champ de date se termine par &quot;00+&quot;).
 
 #### Paramètres facultatifs SMPP (TLV) {#smpp-optional-parameters}
 
-Depuis la version 21.1, vous pouvez ajouter plusieurs paramètres facultatifs à chaque MT envoyé pour cette diffusion. Ces paramètres facultatifs sont ajoutés au `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(page 131).
+Depuis la version 21.1, vous pouvez ajouter plusieurs paramètres optionnels à chaque MT envoyé pour cette diffusion. Ces paramètres facultatifs sont ajoutés au `SUBMIT_SM PDU` de la réponse, comme décrit à la section  .3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 131).
 
-Chaque ligne du tableau représente un paramètre facultatif :
+Chaque ligne de la table représente un paramètre facultatif :
 
-* **Paramètre** : Description du paramètre. Non transmis au fournisseur.
-* **ID** de balise : Balise du paramètre facultatif. Doit être un nombre hexadécimal valide, au format 0x1234. Des valeurs non valides entraîneront une erreur de préparation de diffusion.
-* **Valeur** : Valeur du champ facultatif. Codé en UTF-8 lorsqu’il est transmis au fournisseur. Le format de codage ne peut pas être modifié, il n’est pas possible d’envoyer des valeurs binaires ou d’utiliser des codages différents, tels que UTF-16 ou GSM7.
+* **Paramètre** : description du paramètre. Non transmis au fournisseur.
+* **Identifiant de balise** : balise du paramètre facultatif. Doit être un nombre hexadécimal valide, au format 0x1234. Des valeurs non valides entraîneront une erreur de préparation de diffusion.
+* **Valeur** : valeur du champ facultatif. Codé en UTF-8 lorsqu’il est transmis au fournisseur. Le format d&#39;encodage ne peut pas être modifié. Il n’est pas possible d’envoyer des valeurs binaires ou d’utiliser des encodages différents, tels que UTF-16 ou GSM7.
 
-Si un paramètre facultatif possède le même **ID de balise** que l&#39;**ID de balise de service** défini dans le compte externe, la valeur définie dans ce tableau prévaut.
+Si un paramètre facultatif possède le même **identifiant de balise** que l&#39;**identifiant de balise du service** défini dans le compte externe, la valeur définie dans cette table prévaut.
 
 ## Connecteur SMPP {#ACS-SMPP-connector}
 
@@ -800,7 +800,7 @@ L&#39;ID donné par le fournisseur est stocké dans la colonne `sProviderId` du 
 
 Lorsqu&#39;un MT est acquitté (`SUBMIT_SM_RESP`), `sProviderId` est immédiatement mis à jour dans la base de données.
 
-Chaque SR est traité individuellement par les threads de traitement SMPP. Ce processus est pseudo-synchrone : il est considéré comme synchrone depuis l&#39;extérieur, mais mis en œuvre en interne avec des implémentations pilotées par l&#39;événement. Les SR ne sont acquittés que lorsqu&#39;une mise à jour broadlog a réussi. Si une erreur se produit, le SR est rejeté.
+Chaque SR est traité individuellement par les threads de traitement SMPP. Ce processus est pseudo-synchrone : il est considéré comme synchrone depuis l&#39;extérieur, mais mis en œuvre en interne avec des implémentations pilotées par l&#39;événement. Les SR ne sont acquittés que lorsqu&#39;une mise à jour broadlog a réussi.Si une erreur se produit, le SR est rejeté.
 
 Voici le processus appliqué à chaque SR :
 
@@ -821,9 +821,9 @@ Cette liste de contrôle fournit une liste de choses que vous devriez vérifier 
 
 Vérifiez que vous n&#39;avez pas de vieux comptes externes SMS. Si vous laissez le compte test désactivé, il existe un risque qu&#39;il soit réactivé sur le système de production et qu&#39;il génère des conflits potentiels.
 
-Vérifiez qu’aucune autre instance ne se connecte à ce compte. En particulier, assurez-vous que l’environnement d’étape ne se connecte pas au compte. Certains fournisseurs le soutiennent, mais il nécessite une configuration très spécifique à la fois côté Adobe Campaign et sur la plate-forme du fournisseur.
+Vérifiez qu’aucune autre instance ne se connecte à ce compte. En particulier, assurez-vous que l’environnement d’évaluation ne se connecte pas au compte. Certains fournisseurs assurent cette prise en charge, mais cela nécessite une configuration très spécifique à la fois du côté d’Adobe Campaign et sur la plateforme du fournisseur.
 
-Si vous devez disposer de plusieurs comptes sur la même instance Adobe Campaign qui se connectent au même fournisseur, contactez ce dernier pour vérifier qu’ils distinguent effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
+Si vous devez connecter plusieurs comptes de la même instance Adobe Campaign se connectent au même fournisseur, contactez ce dernier pour vérifier qu&#39;il distingue effectivement les connexions entre ces comptes. La présence de plusieurs comptes avec le même nom d&#39;utilisateur nécessite une configuration supplémentaire.
 
 ### Activer les traces SMPP de verbose lors des vérifications {#enable-verbose}
 
