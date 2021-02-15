@@ -6,11 +6,11 @@ description: Découvrez comment ajouter du contenu dynamique Adobe Target dans u
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
 
 1. Prévisualisez votre email pour voir si, lorsque vous sélectionnez différents profils, l&#39;image insérée change en fonction des paramètres définis dans l&#39;activité Adobe Target et dans Adobe Campaign.
 
-Votre diffusion contenant l’image dynamique peut maintenant être envoyée. Ses résultats sont accessibles dans Adobe Target.
+La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses résultats sont accessibles dans Adobe Target.
 
 **Rubriques connexes :**
 
