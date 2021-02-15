@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 81%
 
 ## À propos du suivi des notifications push {#about-push-tracking}
 
-Pour vous assurer que la notification Push a été entièrement développée, vous devez vous assurer que la partie de suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications Push. Pour activer cette fonction, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé, Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec deux valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
+Pour vous assurer que la notification push a été entièrement développée, vous devez vérifier que la partie suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications push. Pour activer le suivi, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé. Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec les valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
 
 >[!IMPORTANT]
 >
->Cette variable n’est pas disponible pour les diffusions définies avant la version 21.1 ou les diffusions utilisant des modèles personnalisés.
+>Cette variable n’est pas disponible pour les diffusions définies avant la version 21.1 ou pour celles utilisant des modèles personnalisés.
 
 Le suivi push est divisé en trois types :
 
@@ -50,7 +50,7 @@ Pour envoyer des informations de suivi, trois variables doivent être envoyées.
 
 Pour le suivi des impressions, vous devez envoyer la valeur « 7 » pour l’action lors de l’appel de la fonction **[!UICONTROL trackAction]**.
 
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -91,7 +91,7 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 Pour ce faire, vous devez utiliser deux intentions : une pour le fait de cliquer sur la notification et une autre pour le fait de fermer la notification.
 
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -174,7 +174,7 @@ Pour effectuer le suivi des ouvertures, vous devez créer une intention. Les obj
 
 Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’**[!UICONTROL intention]** est définie, vous devez renvoyer les informations de suivi à Adobe Campaign Standard. Dans le cas présent, vous devez définir l’**[!UICONTROL intention d’ouverture]** pour une ouverture dans une certaine vue de votre application. La méthode onResume sera alors appelée avec les données de notification dans l’**[!UICONTROL objet d’intention]**.
 
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -240,7 +240,7 @@ Pour que le suivi des **[!UICONTROL impressions]** fonctionne toujours lorsque l
 >
 >Le suivi des impressions iOS n’est pas précis et ne doit pas être considéré comme fiable.
 
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 Le code suivant cible l’application en arrière-plan :
 
@@ -297,7 +297,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-iOS}
 
 Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel de la fonction **[!UICONTROL trackAction.]**
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -369,7 +369,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 Vous devez envoyer « 1 » et « 2 », car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée/ouverte par le biais d’une notification push, aucun événement de suivi ne se produit.
 
-Pour les diffusions créées avant la version 21.1 ou les diffusions avec modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation
