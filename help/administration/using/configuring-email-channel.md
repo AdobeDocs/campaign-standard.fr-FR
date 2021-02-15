@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bdbba06289eef65d9e42b7d82086f8fa14e1473c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2785'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    >[!IMPORTANT]
    >
-   >Le nombre maximal de Reprises à effectuer et le délai minimal entre les Reprises sont désormais basés sur le niveau de performance historique et actuel d’une IP dans un domaine donné. Les paramètres **[!UICONTROL Période de nouvelle tentative]** et **[!UICONTROL Nombre de Reprises]** dans Campaign seront ignorés.
+   >Le nombre maximal de reprises à effectuer et le délai minimal entre les reprises se fondent désormais sur la performance historique et actuelle d’une IP sur un domaine donné. Les paramètres **[!UICONTROL Intervalle entre deux reprises]** et **[!UICONTROL Nombre de Reprises]** dans Campaign seront ignorés.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -70,7 +70,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Comptes de routage email    {#email-routing-accounts}
+## Comptes de routage email     {#email-routing-accounts}
 
 Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
@@ -88,10 +88,10 @@ Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les adm
 
 >[!IMPORTANT]
 >
->Les domaines de courriel et les règles MX sont désormais gérés automatiquement <!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> et ne peuvent pas être modifiés.
+>Les domaines d&#39;email et les règles MX sont désormais gérés automatiquement<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> et ne peuvent pas être modifiés.
 
-* **La signature de l’authentification** par courrier électronique DKIM (DomainKeys Identified Mail) est effectuée pour tous les messages contenant tous les domaines. Il ne se signe pas avec **ID d&#39;expéditeur**, **DomainKeys** ou **S/MIME**.
-* Les règles MX personnalisent automatiquement votre débit par domaine en fonction de votre propre réputation de courriel historique et des commentaires en temps réel provenant des domaines où vous envoyez des courriers électroniques.
+* La signature d’authentification des emails **DKIM (DomainKeys Identified Mail)** est effectuée pour tous les messages et tous les domaines. Il ne se signe pas avec **Sender ID**, **DomainKeys** ou **S/MIME**.
+* Les règles MX personnalisent automatiquement votre débit par domaine en fonction de votre propre réputation d&#39;email historique et des commentaires en temps réel provenant des domaines où vous envoyez des emails.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -105,7 +105,7 @@ Ces règles contiennent la liste des chaînes de caractères qui peuvent être r
 
 >[!IMPORTANT]
 >
->Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par la MTA améliorée Adobe Campaign, qui détermine le type et la qualification de rebond, et renvoie ces informations à Campaign.
+>Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par le MTA amélioré d’Adobe Campaign, qui détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
 
 Pour plus d’informations sur la qualification des emails bounce, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -161,7 +161,7 @@ Les messages qui n’ont pas abouti de manière temporaire font l’objet de rep
 
 >[!IMPORTANT]
 >
->Le délai minimal entre les Reprises et le nombre maximal de Reprises à effectuer dépendent désormais de l’efficacité d’une IP sur le plan historique et actuel dans un domaine donné. **[!UICONTROL Période de nouvelle tentative]** et **[!UICONTROL Max. nombre de paramètres de Reprises]** dans Campaign sera ignoré.
+>Le délai minimum entre traitements et le nombre maximum de reprises à effectuer se basent désormais sur la performance historique et actuelle d’une IP, à la fois historiquement et sur un domaine donné. L&#39;**[!UICONTROL Intervalle entre deux reprises]** et le **[!UICONTROL Nombre de reprises max.]** dans Campaign seront ignorés.
 
 Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
@@ -212,7 +212,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
    >[!IMPORTANT]
    >
-   >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+   >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
 
 * **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources mises en ligne, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
 * **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
@@ -308,25 +308,25 @@ La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suiv
 
 ## Paramètres hérités {#legacy-settings}
 
-Si **vous n’exécutez pas** la dernière version de Campaign, les paramètres et les sections d’interface utilisateur décrits ci-dessous s’appliquent toujours à vous.
+Si vous n’exécutez **pas** la dernière version de Campaign, les paramètres et les sections d’interface utilisateur décrits ci-dessous s’appliquent toujours à vous.
 
 ### Reprises {#legacy-retries}
 
-Les paramètres **[!UICONTROL Reprises]** dans le menu [Configuration](#email-channel-parameters) et dans les [Paramètres d&#39;envoi](#retries-parameters) des propriétés de courriel indiquent le nombre de Reprises à effectuer le jour suivant le démarrage de l&#39;envoi (**[!UICONTROL Nombre de Reprises]** / **[!UICONTROL Max. nombre de Reprises]**) et délai minimal entre les Reprises (**[!UICONTROL Période de nouvelle tentative]**).
+Les paramètres **[!UICONTROL Reprises]** dans le [menu Configuration](#email-channel-parameters) et dans les [Paramètres d&#39;envoi](#retries-parameters) des propriétés d&#39;email indiquent le nombre de reprises à effectuer le jour suivant le démarrage de l&#39;envoi (**[!UICONTROL Nombre de Reprises]** / **[!UICONTROL Nombre de reprises max.]**) et délai minimal entre les reprises (**[!UICONTROL Intervalle entre deux reprises]**).
 
-Le nombre de Reprises peut être modifié globalement (contactez votre administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
+Le nombre de reprises peut être changé de manière globale (contactez l’administrateur technique Adobe) ou pour chaque diffusion ou modèle de diffusion.
 
-Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée. Une nouvelle tentative par jour est programmée après cela et jusqu&#39;à l&#39;échéance de la diffusion, définie globalement dans la section **[!UICONTROL Paramètres de Diffusion]** du menu **[!UICONTROL Configuration]**, ou dans la section **[!UICONTROL Période de validité]** au niveau de la diffusion (voir la section [Durée de la Diffusion](#legacy-delivery-duration) ci-dessous).
+Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec un intervalle minimum d’une heure, réparties sur les 24h de la journée. Une nouvelle tentative par jour est programmée après cela et jusqu&#39;à l&#39;échéance de la diffusion, définie globalement dans la section **[!UICONTROL Paramètres de diffusion]** du menu **[!UICONTROL Configuration]**, ou dans la section **[!UICONTROL Période de validité]** au niveau de la diffusion (voir la section [Durée de diffusion](#legacy-delivery-duration) ci-dessous).
 
 ### Durée de diffusion {#legacy-delivery-duration}
 
-Le paramètre **[!UICONTROL Durée de la diffusion de message]** du menu [Configuration](#email-channel-parameters) vous permet de spécifier la période pendant laquelle tout message de la diffusion qui rencontre une erreur temporaire ou un rebond logiciel sera tenté à nouveau.
+Le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le [menu Configuration](#email-channel-parameters) permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle reprise.
 
-La **[!UICONTROL durée de Diffusion]** ou **[!UICONTROL Limite de validité d&#39;envoi de messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
+La **[!UICONTROL Durée de diffusion]** ou **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
 
 ### Règles de gestion des emails     {#legacy-email-processing-rules}
 
-Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Retransmettre les courriels]** et **[!UICONTROL gestion de domaine]** sont accessibles et modifiées par les administrateurs via le **[!UICONTROL menu Administration > Canaux > Courriel > Règles de traitement des courriels]** [](#email-processing-rules).
+Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiées par les administrateurs via le [menu](#email-processing-rules) **[!UICONTROL Administration > Canaux > Email > Règles de traitement des emails]**.
 
 ### Qualification des emails bounce  {#legacy-bounce-mail-qualification}
 
@@ -340,8 +340,8 @@ Les statuts de qualification des bounces sont les suivants :
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### Rapports d&#39;indicateur {#legacy-delivered-status-report}
+### Rapports d&#39;indicateur de messages diffusés {#legacy-delivered-status-report}
 
-Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Livré]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les rebonds doux et durs seront rapportés.
+Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Diffusés]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les soft et hard bounces sont signalés.
 
-Les messages rebondissant doucement s’affichent sous la forme **[!UICONTROL Échec]** après le premier jour de la diffusion, et ils sont relancés chaque jour supplémentaire de la période de validité de la diffusion.
+Les messages soft bounces s’affichent sous la forme **[!UICONTROL Échec]** après le premier jour de la diffusion, et ils font l&#39;objet de nouvelles reprises chaque jour supplémentaire de la période de validité de la diffusion.
