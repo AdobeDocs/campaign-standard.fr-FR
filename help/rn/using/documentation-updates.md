@@ -25,19 +25,19 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 Service de commentaires par courriel - [En savoir plus](../../sending/using/confirming-the-send.md#message-indicators)
 
-Améliorations de l’intégration d’Adobe Experience Manager – [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
+Améliorations de l’intégration d’Adobe Experience Manager - [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
 
 Interface Experience Cloud unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Des informations ont été ajoutées sur la recherche d’un profil en fonction de l’adresse email, du prénom, du nom ou de tout champ personnalisé. [En savoir plus](../../audiences/using/integrated-customer-profile.md)
+Des informations ont été ajoutées sur la façon de rechercher un profil en fonction de l’email, du prénom, du nom ou de tout champ personnalisé. [En savoir plus](../../audiences/using/integrated-customer-profile.md)
 
-Des informations ont été ajoutées sur la nouvelle fonction GetOption pour renvoyer la valeur d’une fonction spécifiée lors de l’appel d’un workflow avec des paramètres externes. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Des informations ont été ajoutées sur la nouvelle fonction GetOption qui vous permet de renvoyer la valeur d&#39;une fonction spécifiée lors de l&#39;appel d&#39;un workflow avec des paramètres externes. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-Des informations ont été ajoutées sur la nouvelle variable de sortie **[!UICONTROL filesCount]** disponible après l’utilisation d’une activité **[!UICONTROL Transfert de fichier]**. [En savoir plus](../../automating/using/transfer-file.md#output-variables)
+Des informations ont été ajoutées sur la nouvelle variable de sortie **[!UICONTROL filesCount]** disponible après l&#39;utilisation d&#39;une activité **[!UICONTROL Transfert de fichier]**. [En savoir plus](../../automating/using/transfer-file.md#output-variables)
 
-La section **Configuration du canal Email** a été mise à jour afin de clarifier les derniers paramètres d’email applicables. Certains paramètres hérités encore utilisés pour certains clients sont répertoriés au bas de la page. [En savoir plus](../../administration/using/configuring-email-channel.md)
+La section **Configuration du canal email** a été mise à jour afin de clarifier les derniers paramètres de messagerie applicables. Certains paramètres hérités encore utilisés pour certains clients sont répertoriés au bas de la page. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
 ## Décembre 2020 {#doc-updates-december-2020}
 
@@ -589,7 +589,7 @@ Ajout d’informations sur la suppression d’une audience – [En savoir plus](
 
 Mise à jour de la section de rapport natif des notifications Push – [En savoir plus](../../reporting/using/push-notification-report.md)
 
-## Version 18.7 - Juillet 2018             {#release-18-7---july-2018}
+## Version 18.7 - Juillet 2018  {#release-18-7---july-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -667,7 +667,7 @@ La liste des solutions/core services Analytics pris en charge en vue de l’int�
 
 Certaines pages de la documentation consacrée à l’éditeur de contenu ont été fusionnées pour offrir un aperçu plus complet des différentes actions disponibles – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Version 18.3 - Mars 2018              {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018   {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -699,7 +699,7 @@ Mise à jour de la liste des ressources d’aide concernant l’intégration des
 
 Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
-## Version 18.2 - Février 2018              {#release-18-2---february-2018}
+## Version 18.2 - Février 2018   {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -743,7 +743,7 @@ Mises à jour des informations sur les diffusions en échec et les mises en quar
 
 Nouvelles sections consacrées aux [mappings de ciblage](../../administration/using/target-mappings-in-campaign.md) et aux [dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-## Version 18.1 - Janvier 2018              {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018   {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -771,7 +771,7 @@ Ajout d’informations sur les Paramètres d’historisation de l’activité Tr
 
 Mise à jour des instructions pour configurer l’intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-## Version 17.10 - Octobre 2017              {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017   {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -851,7 +851,7 @@ Mise à jour de la section sur l’activité de workflow Transfert de fichier �
 
 Ajout d’informations sur l’option Demander une confirmation avant l’envoi des messages de l’activité de workflow Diffusion email – [En savoir plus](../../automating/using/email-delivery.md)
 
-## Version 17.7 - Juillet 2017              {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017   {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -883,7 +883,7 @@ Le mécanisme de double opt-in est maintenant documenté via une procédure comp
 
 La section présentant la liste des rôles a été mise à jour – [En savoir plus](../../administration/using/list-of-roles.md)
 
-## Version 17.5 - Mai 2017              {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017   {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -905,7 +905,7 @@ Le tableau des autorisations a été modifié de façon à clarifier la fonction
 
 Mise à jour des liens d’aide contextuelle disponibles directement dans Adobe Campaign.
 
-## Version 17.4 - Avril 2017              {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017   {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
@@ -935,7 +935,7 @@ Mise à jour de la section concernant l’utilisation d’images dans Campaign �
 
 Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique – [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
-## Version 17.2 - Mars 2017              {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017   {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités de cette version**
 
