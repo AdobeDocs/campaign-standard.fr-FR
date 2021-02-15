@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
 ht-degree: 100%
 
@@ -137,6 +137,6 @@ Pour plus d’informations sur la publication d’une landing page, reportez-vou
 
 Cette vidéo montre comment créer et modifier une landing page.
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12&captions=fre_fr)
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
