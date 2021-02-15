@@ -6,9 +6,9 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p> À compter du 15 décembre 2020, la fonctionnalité prédictive de l’objet est abandonnée.</p><br/>
-   <p>Nous vous suggérons d’exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d’ouverture, les délais d’envoi optimaux et le taux probable d’exécution en fonction des mesures d’engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">En savoir plus</a></p></br>
+   <p>Nous vous suggérons d’exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d’ouverture, les délais d’envoi optimaux et le taux probable d’exécution en fonction des mesures d’engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
      <p>
      <em>Date de suppression prévue : avril 2021</em></p>
      </td> 
@@ -64,7 +64,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   <tr> 
    <td> <p> À compter de la version 20.1 de Campaign, le SDK v4 est obsolète. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">En savoir plus</a>.</p><br/>
    <p>Le <a href="https://aep-sdks.gitbook.io/docs/">SDK Mobile Adobe Experience Platform</a> (précédemment appelé v5) prendra exclusivement en charge les fonctionnalités Adobe Experience Cloud à venir.</p>
-   <p>Découvrez comment effectuer une migration du SDK v4 vers le SDK Mobile Adobe Experience Platform <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=fr#administrating">dans cette page</a>.</p></br>
+   <p>Découvrez comment migrer du SDK v4 vers le SDK mobile Adobe Experience Platform <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=fr">dans cette page</a>.</p></br>
      <p>
      <em>Date de suppression prévue : 31 août 2021</em></p>
      </td> 
@@ -97,7 +97,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
  <tbody> 
   <tr> 
    <td> <p>À compter de la version 19.0 de Campaign, l’ancien éditeur d’email est obsolète. Utilisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=fr">le Concepteur d’email de Campaign</a> pour créer et personnaliser le contenu de votre email. </p></br>
-   <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
+   <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=fr">cette section</a> pour apprendre à adapter vos modèles d’email pour le nouvel éditeur.</p></br>
   <p> 
   <em>Date de suppression prévue : fin 2021</em></p>
    </td> 
