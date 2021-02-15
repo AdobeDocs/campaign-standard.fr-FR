@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -138,13 +138,13 @@ Veuillez noter que le chemin doit être relatif au répertoire d’espace de sto
 
 par exemple :
 
-`user&lt;yourinstancename>/my_recipients.csv` est correcte.
+`user&lt;yourinstancename>/my_recipients.csv` est correct.
 
 `../hello/my_recipients.csv` est incorrect.
 
 `//myserver/hello/myrecipients.csv` est incorrect.
 
-## Paramètres d’historisation         {#historization-settings}
+## Paramètres d’historisation  {#historization-settings}
 
 A chacune de ses exécutions, l’activité **[!UICONTROL Transfert de fichier]** stocke les fichiers transférés ou téléchargés dans un dossier dédié. Un dossier est créé pour chaque activité **[!UICONTROL Transfert de fichier]** d’un workflow. Par conséquent, il est important de pouvoir limiter la taille de ce dossier de façon à préserver l’espace physique sur le serveur.
 
@@ -164,13 +164,13 @@ A chaque exécution de l’activité, le dossier est vérifié comme suit :
 
 ## Variables de sortie {#output-variables}
 
-L&#39;activité **[!UICONTROL Transférer le fichier]** génère des variables de événement en tant que sortie, que vous pouvez exploiter dans d&#39;autres activités, par exemple pour vérifier le nombre de fichiers téléchargés à l&#39;aide d&#39;une activité [Test](../../automating/using/test.md).
+L&#39;activité **[!UICONTROL Transfert de fichier]** génère des variables d&#39;événement en tant que sortie, que vous pouvez exploiter dans d&#39;autres activités, par exemple pour vérifier le nombre de fichiers téléchargés à l&#39;aide d&#39;une activité [Test](../../automating/using/test.md).
 
-Notez que les variables de événement peuvent également être transmises à un autre processus à l’aide d’un signal externe (voir [Personnalisation d’un processus avec des paramètres externes](../../automating/using/customizing-workflow-external-parameters.md)).
+Notez que les variables d&#39;événement peuvent également être transmises à un autre workflow à l’aide d’un signal externe (voir [Personnaliser un workflow avec des paramètres externes](../../automating/using/customizing-workflow-external-parameters.md)).
 
-Les variables de sortie disponibles sont les suivantes :
+Les variables de sortie disponibles sont les suivantes :
 
-* **[!UICONTROL fileName]** : nom des fichiers transférés.
-* **[!UICONTROL filesCount]** : nombre de fichiers transférés.
+* **[!UICONTROL fileName]** : nom des fichiers transférés.
+* **[!UICONTROL filesCount]** : nombre de fichiers transférés.
 
 
