@@ -6,24 +6,24 @@ description: Découvrez comment configurer Microsoft Dynamics 365 pour l’int�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '999'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
-# Configuration de Microsoft Dynamics 365 pour l&#39;intégration à Adobe Campaign Standard
+# Configuration de Microsoft Dynamics 365 pour l&#39;intégration avec Adobe Campaign Standard
 
 Découvrez comment configurer l’intégration de Microsoft Dynamics 365 et activer vos données CRM lors d’une communication cross-canal avec Adobe Campaign Standard.
 
 ## Présentation
 
-La description générale de l&#39;intégration Adobe Campaign Standard avec Microsoft Dynamics 365 est décrite dans [cette page](../../integrating/using/d365-acs-get-started.md).
+La description générale de l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 est présentée dans [cette page](../../integrating/using/d365-acs-get-started.md).
 
-Plusieurs applications devront être configurées pour activer l&#39;intégration. Cependant, cet article se concentrera sur les étapes requises dans Dynamics 365.
+Plusieurs applications devront être configurées pour activer l&#39;intégration. Cependant, cet article se concentre sur les étapes requises dans Dynamics 365.
 
 ## Conditions préalables requises
 
@@ -37,11 +37,11 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
-### Enregistrement d’une nouvelle application {#register-a-new-app}
+### Enregistrement d’une nouvelle application  {#register-a-new-app}
 
 1. Avec votre identifiant d’administrateur, connectez-vous à portal.azure.com.
 
@@ -53,14 +53,14 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign     `<stage or prod>`
+   * Nom : adobe campaign  `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >
->Microsoft Azure Directory affecte un ID d&#39;application (client) unique à votre application. Vous aurez besoin de cet ID plus tard dans la configuration de Dynamics 365, ainsi que lorsque vous effectuerez la configuration de l&#39;outil d&#39;intégration.
+>Microsoft Azure Directory affecte un identifiant (client) d’application unique à votre application. Vous en aurez besoin plus tard lors de la configuration de Dynamics 365, ainsi que lorsque vous effectuerez la configuration de l&#39;outil d&#39;intégration.
 
 ### Génération du secret client {#generate-a-client-secret}
 
@@ -106,7 +106,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe     `<stage or prod>`
+   * **[!UICONTROL Nom complet]** : API Adobe  `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -143,5 +143,5 @@ Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-
 
 **Rubriques connexes :**
 
-* [Configurer l&#39;](../../integrating/using/d365-acs-configure-adobe-io.md) intégration des E/S Adobe pour Microsoft Dynamics 365 est l&#39;étape suivante de la configuration de l&#39;intégration
-* [Commencez avec l’](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) application d’intégration en libre-service et suivez la liste complète des étapes nécessaires pour que l’intégration soit opérationnelle.
+* [Configuration de l&#39;intégration d&#39;Adobe IO pour Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) est l&#39;étape suivante de la configuration de l&#39;intégration.
+* [Prise en main de l&#39;application d’intégration en libre-service](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) comprend la liste complète des étapes nécessaires pour que l’intégration soit opérationnelle.
