@@ -6,9 +6,9 @@ description: Découvrez les différentes méthodes pour enrichir la base de donn
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
 ht-degree: 100%
 
