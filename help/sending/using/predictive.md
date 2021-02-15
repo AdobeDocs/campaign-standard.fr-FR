@@ -6,9 +6,9 @@ description: Découvrez comment utiliser l’heure d’envoi et le scoring d’e
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1073'
 ht-degree: 100%
 
