@@ -6,9 +6,9 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email         {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email  {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -165,6 +165,6 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 Cette vidéo présente un aperçu du concepteur d’email.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12&captions=fre_fr)
 
-Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
+Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
