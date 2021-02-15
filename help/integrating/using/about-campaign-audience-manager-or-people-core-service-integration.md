@@ -6,11 +6,11 @@ description: Avec l'intégration d'Audience Manager/de People core service, vous
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,6 +46,6 @@ L&#39;intégration prend en charge deux types d&#39;identifiants Adobe Experienc
 
    Par exemple, grâce à la possibilité de décrypter des adresses email ou des numéros de SMS cryptés, vous pouvez également envoyer des messages déclenchés à vos utilisateurs même si leur profil n&#39;existe pas dans la base de données Adobe Campaign.
 
-Le diagramme suivant décrit le fonctionnement de cette intégration. Ici, AAM signifie Adobe Audience Manager et ACS pour Adobe Campaign Standard.
+Le diagramme suivant décrit le fonctionnement de cette intégration. Ici, AAM signifie Adobe Audience Manager, et ACS Adobe Campaign Standard.
 
 ![](assets/aam_diagram.png)
