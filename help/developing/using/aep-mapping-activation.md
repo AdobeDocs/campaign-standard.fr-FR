@@ -6,11 +6,11 @@ description: Découvrez comment activer le mapping de données
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Pour mettre à jour le schéma XDM, procédez comme suit :
 
 1. Accédez à votre schéma XDM.
 
-1. Ajoutez le mixin **[!UICONTROL Confidentialité du Profil]** au schéma.
+1. Ajoutez le mixin **[!UICONTROL Confidentialité du profil]** au schéma.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
