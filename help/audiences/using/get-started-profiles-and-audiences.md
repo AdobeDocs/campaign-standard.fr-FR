@@ -6,9 +6,9 @@ description: Définissez des populations ciblées, sélectionnez des audiences, 
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
 ht-degree: 100%
 
