@@ -6,11 +6,11 @@ description: '"Découvrez comment naviguer dans Adobe Campaign et utiliser l’e
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1332'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Tous les écrans d’Adobe Campaign se composent des éléments suivants :
 
 ![](assets/ux_interface_01.png)
 
-## Page d’accueil          {#home-page}
+## Page d’accueil  {#home-page}
 
 La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d’Adobe Campaign. La liste des capacités figurant dans la page d’accueil de Campaign dépend de vos permissions et des options configurées pour votre organisation.
 
@@ -45,9 +45,9 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 * La vignette **[!UICONTROL Profils client]** permet d’accéder directement à la liste des profils et de consulter les événements concernant chacun d’entre eux. Voir à ce propos la section [Gestion des profils](../../audiences/using/about-profiles.md).
 * La vignette **[!UICONTROL Audiences]** permet d’accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
-## Barre supérieure           {#top-bar}
+## Barre supérieure  {#top-bar}
 
-La barre supérieure est visible sur chaque écran et vous permet de parcourir les fonctionnalités Adobe Campaign et d&#39;accéder au profil d&#39;Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud et à la documentation.
+Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d’Adobe Campaign et d’accéder au profil Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud ainsi qu’à la documentation Campaign.
 
 Les principes de navigation sont les suivants :
 
@@ -57,28 +57,28 @@ Les principes de navigation sont les suivants :
 
 * Le lien **[!UICONTROL Accueil]** permet d’afficher la page d’accueil d’Adobe Campaign.
 * Les liens **[!UICONTROL Activités marketing]**, **[!UICONTROL Programmes et Campagnes]**, **[!UICONTROL Profils]**, **[!UICONTROL Audiences]** et **[!UICONTROL Rapports]** permettent d’accéder aux vues liées à ces fonctionnalités.
-* L&#39;icône **Navigateur de solutions** vous permet de basculer entre vos organisations ou vers une autre application.
+* L&#39;icône **Commutateur de solution** vous permet de basculer entre vos organisations ou vers une autre application.
 * L&#39;icône **[!UICONTROL Aide]** est décrite [ci-dessous](#help).
 * L’icône **Notifications** affiche les dernières alertes ou informations.
 * L’icône **Utilisateur** vous permet d’afficher des informations liées à votre profil. Utilisez cette icône si vous devez **[!UICONTROL vous déconnecter]**.
 
 ### Aide {#help}
 
-Dans le coin supérieur droit, l’icône **Aide** permet d’importer Adobe Experience League dans le produit.
+Dans le coin supérieur droit, l’icône **Aide** permet d’afficher Adobe Experience League dans le produit.
 
 ![](assets/ux_help.png)
 
-Utilisez le champ **[!UICONTROL Rechercher]** pour trouver des instructions. Les résultats de la recherche incluent la documentation et les articles d’aide, les résultats des forums de la communauté et le contenu vidéo, ce qui vous permet d’accéder plus facilement à un plus grand nombre de contenus pour tirer le meilleur parti de l’application.
+Utilisez le champ **[!UICONTROL Rechercher]** pour trouver des instructions. Les résultats de la recherche incluent la documentation et les articles d’aide, les résultats des forums de la communauté et du contenu vidéo. Vous avez ainsi accès plus facilement à un plus grand nombre de contenus pour tirer le meilleur parti de l’application.
 
-Trois onglets vous aident à trouver de l’aide et de l’aide :
+Trois onglets vous aident à trouver de l’aide :
 
-1. L&#39;onglet **[!UICONTROL Aide]** contient :
-   * un accès rapide à la documentation Adobe Campaign Standard avec des liens contextuels.
-   * un lien **[!UICONTROL Apprentissage]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign.
-   * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign.
-   * un accès direct à : Centre d’aide, service à la clientèle, état du produit Experience Cloud, connexion des développeurs, notes de mise à jour, planification de la publication et l’écran **[!UICONTROL À propos]**.
-1. L&#39;onglet **[!UICONTROL Support]** vous permet d&#39;ouvrir un dossier d&#39;assistance et de nous contacter par téléphone ou par Twitter.
-1. L&#39;onglet **[!UICONTROL Commentaires]** facilite la création de rapports sur les problèmes ou le partage de vos idées.
+1. L&#39;onglet **[!UICONTROL Aide]** contient :
+   * un accès rapide à la documentation Adobe Campaign Standard avec des liens contextuels,
+   * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
+   * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign,
+   * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
+1. L’onglet **[!UICONTROL Support]** permet d&#39;ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur Twitter.
+1. L&#39;onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 
 ## Le menu avancé {#advanced-menu}
 
@@ -116,7 +116,7 @@ L’icône **[!UICONTROL Ressources]** permet d’accéder aux fonctionnalités 
 
 L’icône **[!UICONTROL Administration]** permet d’accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zone centrale           {#central-zone}
+## Zone centrale  {#central-zone}
 
 La zone centrale de l’interface utilisateur est une zone dynamique qui contient, par exemple, une liste d’éléments ou un jeu de vignettes. Elle permet d’éditer des éléments existants et de créer des ressources.
 
