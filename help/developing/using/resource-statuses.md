@@ -6,11 +6,11 @@ description: Découvrez les différents statuts des ressources en fonction de le
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Deux colonnes sont dédiées à l&#39;affichage des statuts dans l&#39;écran **
    >
    >L&#39;option **[!UICONTROL Annuler la réinitialisation]** est disponible lorsque la ressource que vous souhaitez réinitialiser contient toujours des liens vers d&#39;autres ressources avec le statut « Publiée ». Cette option permet de rétablir le processus de « réinitialisation ». Les statuts d&#39;origine des ressources personnalisées sont alors rétablis.
 
-* **Publiée** : la ressource a été publiée. Si la ressource est modifiée après la dernière date de modification, un message s’affiche pour vous inviter à republier la ressource afin de prendre en compte les dernières modifications.
+* **Publiée** : la ressource a été publiée. Si la ressource est modifiée après la date de dernière publication, alors un message invite l&#39;utilisateur à la republier afin de prendre en compte les dernières modifications.
 
 Le champ **[!UICONTROL Ne pas publier les dernières modifications]** empêche les modifications d&#39;être prises en compte lors des prochaines publications.
 
