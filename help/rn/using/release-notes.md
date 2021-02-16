@@ -6,11 +6,11 @@ description: Cette page détaille le contenu de la dernière version de Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2627'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../../start/using/interface-description.md#top-bar">documentation détaillée</a>.
 </p>
-<p>REMARQUE : Ce changement sera progressivement appliqué à tous les environnements clients entre le 10 février et le 1er mars.
+<p>REMARQUE : Ce changement sera progressivement appliqué à tous les environnements clients entre le 10 février et le 1er mars.
 </p>
 </td> 
 </tr> 
@@ -99,7 +99,7 @@ ht-degree: 98%
 
 * Une nouvelle fonction **GetOption** est désormais disponible dans les activités utilisant des variables d’événement après avoir appelé un workflow avec des paramètres externes. Elle vous permet de renvoyer la valeur d’une fonction spécifiée. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Une nouvelle option permet au Campaign Standard de **vérifier la disponibilité de la mémoire physique** sur votre système avant de démarrer un processus. Si la quantité de mémoire est trop faible, l’exécution du workflow sera retardée jusqu’à ce que la mémoire système atteigne ce seuil. Il est ainsi possible d’éviter une dégradation supplémentaire des performances et d’atténuer le risque de panne. Le workflow reprend automatiquement lorsque la charge du serveur diminue et que la mémoire augmente. Notez que cette option est en lecture seule et ne peut pas être modifiée. [En savoir plus](../../automating/using/best-practices-workflows.md#execution)
+* Une nouvelle option permet à Campaign Standard de **vérifier la disponibilité de la mémoire physique** dans votre système avant de démarrer un workflow. Si la quantité de mémoire est trop faible, l’exécution du workflow sera retardée jusqu’à ce que la mémoire système atteigne ce seuil. Il est ainsi possible d’éviter une dégradation supplémentaire des performances et d’atténuer le risque de panne. Le workflow reprend automatiquement lorsque la charge du serveur diminue et que la mémoire augmente. Notez que cette option est en lecture seule et ne peut pas être modifiée. [En savoir plus](../../automating/using/best-practices-workflows.md#execution)
 
 * Un nouveau processus est disponible dans Adobe Campaign Standard. Il permet d’effectuer plus facilement une migration depuis l’ancienne application mobile SDK v4 vers le **SDK Mobile Adobe Experience Platform**. Consultez à ce sujet [cette page](../../administration/using/sdkv4-migration.md).
 
