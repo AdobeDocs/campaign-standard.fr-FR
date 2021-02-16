@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: ht
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
-workflow-type: ht
-source-wordcount: '1166'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
+workflow-type: tm+mt
+source-wordcount: '1225'
+ht-degree: 95%
 
 ---
 
@@ -109,6 +109,8 @@ Vous pouvez prévisualiser les dix prochaines exécutions de vos workflows en cl
 ![](assets/preview_scheduler.png)
 
 Pour plus d&#39;informations, consultez [Activité Planificateur](../../automating/using/scheduler.md).
+
+Lors de la conception d’un processus planifié incluant plusieurs activités, vous devez vous assurer que le processus n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre flux de travaux afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente. Consultez [cette page](../../automating/using/scheduled-workflows-execution.md) pour plus d&#39;informations.
 
 ## Appel d&#39;un workflow avec des paramètres{#workflow-with-parameters}
 
