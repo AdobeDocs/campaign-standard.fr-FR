@@ -6,11 +6,11 @@ description: Cette page répertorie toutes les versions à venir d’Adobe Cam
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 558f88a129264560851832ca70628509661cb208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Toutes les dates de publication peuvent faire l’objet de modifications. Nous v
 
 ## Version 21.1 - Version de février {#release-21-1-release}
 
-Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par courriel à chaque client.
+Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
 Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](../../rn/using/release-notes.md) au début des mises à niveau de l’environnement de test.
 
@@ -47,7 +47,7 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>8 février - 1 mars 2021<br /> </td>
+   <td>8 février - 1er mars 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -62,7 +62,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L’instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -84,4 +84,4 @@ R : Oui. Il ne sera pas possible d’envoyer de nouveaux emails pendant la mise
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s’affiche avec la dernière version.
 
-Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
