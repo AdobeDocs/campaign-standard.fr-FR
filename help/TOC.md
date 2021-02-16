@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 breadcrumb-title: Centre d’aide
 title: Guide de Campaign Standard
-translation-type: ht
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
-workflow-type: ht
-source-wordcount: '1755'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+workflow-type: tm+mt
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [Surveiller l’exécution des workflows](automating/using/monitoring-workflow-execution.md)
       + [Gestion des options d’exécution](automating/using/managing-execution-options.md)
       + [Gestion des propriétés des activités](automating/using/activity-properties.md)
+      + [Exécution superposée de workflows planifiés](automating/using/scheduled-workflows-execution.md)
    + Appeler un workflow avec des paramètres externes {#calling-workflow-external-parameters}
       + [Présentation](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Déclarer les paramètres dans l’activité Signal externe](automating/using/declaring-parameters-external-signal.md)
