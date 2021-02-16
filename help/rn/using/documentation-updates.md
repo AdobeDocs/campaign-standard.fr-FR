@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6571'
-ht-degree: 100%
+source-wordcount: '6602'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d’Adobe Campaign Standard.
+
+## Février 2021 {#doc-updates-february-2021}
+
+Des informations ont été ajoutées sur la manière de s’assurer qu’un processus planifié n’est pas replanifié tant qu’une ou plusieurs tâches d’une exécution précédente n’ont pas encore été reprogrammées. [En savoir plus](../../automating/using/scheduled-workflows-execution.md)
 
 ## Version 21.1 - Février 2021 {#release-21-1---february-2021}
 
