@@ -6,9 +6,9 @@ description: Avec l'intégration d'Audience Manager/de People core service, vous
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 100%
 
