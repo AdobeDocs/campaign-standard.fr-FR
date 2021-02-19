@@ -257,7 +257,7 @@ Par usage (byUsage)
         <td>booléen</td>
         </tr>
         <tr>
-        <td>bat</td>
+        <td>BAT</td>
         <td>booléen</td>
         </tr>
     </table>
