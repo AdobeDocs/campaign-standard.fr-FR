@@ -6,9 +6,9 @@ description: Découvrez les différents statuts des ressources en fonction de le
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
 
