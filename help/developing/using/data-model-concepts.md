@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
