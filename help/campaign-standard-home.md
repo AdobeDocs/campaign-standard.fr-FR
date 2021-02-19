@@ -5,9 +5,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
