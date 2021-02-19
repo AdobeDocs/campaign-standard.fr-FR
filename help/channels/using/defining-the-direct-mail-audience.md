@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour chaque profil ciblé, une nouvelle ligne est ajoutée dans le fichier d&#39
 >
 >Vérifiez que les profils contiennent une adresse postale car cette information est indispensable pour le prestataire de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Voir [Recommandations](../../channels/using/about-direct-mail.md#recommendations).
 
-## Ajouter des profils de test et de type piège     {#adding-test-and-trap-profiles}
+## Ajouter des profils de test et de type piège      {#adding-test-and-trap-profiles}
 
 Ajoutez des profils de test afin de tester votre fichier avec un petit nombre de profils. Vous pouvez ainsi créer un fichier d&#39;exemple pour tester et valider la structure avant de préparer le fichier réel. Voir [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
