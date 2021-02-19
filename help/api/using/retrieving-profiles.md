@@ -6,9 +6,9 @@ description: Découvrez comment récupérer les profils à l’aide des API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
