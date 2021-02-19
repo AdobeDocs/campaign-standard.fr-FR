@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 100%
 
