@@ -6,9 +6,9 @@ description: En savoir plus sur la gestion des ressources personnalisées avec l
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
