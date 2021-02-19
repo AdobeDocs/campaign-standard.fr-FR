@@ -6,9 +6,9 @@ description: Gérez les schémas XDM pour rendre vos données Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '783'
 ht-degree: 100%
 
@@ -80,6 +80,6 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
