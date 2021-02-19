@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
