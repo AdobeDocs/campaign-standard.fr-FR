@@ -6,9 +6,9 @@ description: Découvrez comment configurer Microsoft Dynamics 365 pour l’int�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifi
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/27637?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
@@ -53,7 +53,7 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign  `<stage or prod>`
+   * Nom : adobe campaign   `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
@@ -106,7 +106,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe  `<stage or prod>`
+   * **[!UICONTROL Nom complet]** : API Adobe   `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -119,7 +119,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 1. Cliquez sur le bouton **[!UICONTROL OK]**.
 
-### Obtention de l’identifiant du tenant  {#get-the-tenant-id}
+### Obtention de l’identifiant du tenant   {#get-the-tenant-id}
 
 Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedrive/find-your-office-365-tenant-id) pour trouver votre identifiant de tenant.  Vous aurez besoin de cet identifiant lors de la configuration préalable à l’intégration dans l’outil d’intégration.
 
