@@ -68,9 +68,9 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
  <tbody> 
   <tr> 
    <td> <strong>Commencer à partir d’un email vide</strong><br /> </td> 
-   <td> Prise en charge<br /> </td> 
-   <td> Prise en charge<br /> </td> 
-   <td> Prise en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ecrire du code HTML</strong><br /> </td> 
@@ -86,9 +86,9 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
   </tr> 
   <tr> 
    <td> <strong>Personnalisation de base</strong><br /> </td> 
-   <td> Prise en charge<br /> </td> 
-   <td> Prise en charge<br /> </td> 
-   <td> Prise en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
+   <td> Pris en charge<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Personnalisation avancée</strong><br /> </td> 
