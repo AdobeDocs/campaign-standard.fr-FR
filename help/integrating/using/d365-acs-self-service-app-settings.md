@@ -4,9 +4,9 @@ description: Découvrez comment configurer l'application d'intégration Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 
