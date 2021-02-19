@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2587'
 ht-degree: 100%
 
