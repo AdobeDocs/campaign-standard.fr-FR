@@ -97,7 +97,7 @@ En savoir plus :
 
 * [A propos des paramètres de Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Comptes externes](../../administration/using/external-accounts.md)
-* [Mappings de ciblage dans Campaign](../../administration/using/target-mappings-in-campaign.md)
+* [Mappings cibles dans Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Workflows techniques](../../administration/using/technical-workflows.md)
 * [Marques](../../administration/using/branding.md)
 * [Envoi de notifications internes](../../administration/using/sending-internal-notifications.md)
