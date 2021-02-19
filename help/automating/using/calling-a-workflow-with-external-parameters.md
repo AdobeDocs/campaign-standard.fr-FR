@@ -6,9 +6,9 @@ description: Cette section explique dans le détail comment appeler un workflow 
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
