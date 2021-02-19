@@ -6,9 +6,9 @@ description: Découvrez la fonctionnalité de rendu des emails.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
