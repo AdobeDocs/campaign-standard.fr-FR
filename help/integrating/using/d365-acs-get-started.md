@@ -5,9 +5,9 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
