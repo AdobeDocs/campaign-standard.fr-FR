@@ -7,9 +7,9 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
 
