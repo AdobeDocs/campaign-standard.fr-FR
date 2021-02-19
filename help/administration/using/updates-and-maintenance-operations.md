@@ -6,9 +6,9 @@ description: null
 audience: administration
 content-type: reference
 topic-tags: application-settings
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%
 
