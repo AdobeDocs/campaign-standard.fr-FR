@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 100%
 
