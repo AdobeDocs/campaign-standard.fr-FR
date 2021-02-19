@@ -6,9 +6,9 @@ description: Avec les rapports dynamiques, placez des variables et des dimension
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
