@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 100%
 
