@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 100%
 
