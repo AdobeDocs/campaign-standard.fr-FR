@@ -6,9 +6,9 @@ description: '"Découvrez comment naviguer dans Adobe Campaign et utiliser l’e
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1332'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 * La vignette **[!UICONTROL Profils client]** permet d’accéder directement à la liste des profils et de consulter les événements concernant chacun d’entre eux. Voir à ce propos la section [Gestion des profils](../../audiences/using/about-profiles.md).
 * La vignette **[!UICONTROL Audiences]** permet d’accéder directement à la liste des audiences. A partir de là, vous pouvez accéder aux audiences existantes et en créer de nouvelles. Voir à ce propos la section [Gestion des audiences](../../audiences/using/about-audiences.md).
 
-## Barre supérieure  {#top-bar}
+## Barre supérieure   {#top-bar}
 
 Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d’Adobe Campaign et d’accéder au profil Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud ainsi qu’à la documentation Campaign.
 
@@ -116,7 +116,7 @@ L’icône **[!UICONTROL Ressources]** permet d’accéder aux fonctionnalités 
 
 L’icône **[!UICONTROL Administration]** permet d’accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/get-started-campaign-administration.md).
 
-## Zone centrale  {#central-zone}
+## Zone centrale   {#central-zone}
 
 La zone centrale de l’interface utilisateur est une zone dynamique qui contient, par exemple, une liste d’éléments ou un jeu de vignettes. Elle permet d’éditer des éléments existants et de créer des ressources.
 
