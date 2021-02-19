@@ -7,9 +7,9 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
 
