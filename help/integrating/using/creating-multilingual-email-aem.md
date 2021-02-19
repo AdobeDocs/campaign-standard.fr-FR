@@ -6,9 +6,9 @@ description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 100%
 
