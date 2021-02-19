@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
 
