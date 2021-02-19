@@ -9,9 +9,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 >[!NOTE]
 >
->Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
