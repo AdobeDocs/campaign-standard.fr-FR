@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
