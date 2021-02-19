@@ -6,9 +6,9 @@ description: Découvrez comment Campaign Standard et Microsoft Dynamics 365 g
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2470'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Lors de l&#39;approvisionnement de l’intégration, vous aurez la possibilité 
 * **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365
 * **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
-Si vous disposez également d’un processus distinct pour gérer la synchronisation des désinscriptions entre les systèmes, le flux de données de désinscription de l’intégration peut être désactivé.
+Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
 
 La configuration de désinscription bidirectionnelle utilise la logique pour déterminer la valeur à écrire sur les deux systèmes. La logique compare la date et l’heure entre les deux systèmes (changement au niveau des enregistrements dans Dynamics 365, changement au niveau des attributs dans Campaign) afin de déterminer quel système prévaut. Si Campaign contient la date et l’heure les plus récentes, alors la valeur Campaign prévaut. Si Dynamics 365 contient la date et l’heure les plus récentes ou identiques, alors opt-out=TRUE gagne (en supposant que l’une des valeurs soit TRUE).
 
@@ -101,7 +101,7 @@ Votre stockage SFTP dans Campaign devra être utilisé par l’intégration dans
 
 >[!IMPORTANT]
 >
->Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les informations contiennent des données personnelles, vous êtes tenu de respecter les lois et règlements applicables en matière de confidentialité. [En savoir plus](#acs-msdyn-manage-privacy).
+>Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements applicables en matière de protection de la vie privée. [En savoir plus](#acs-msdyn-manage-privacy).
 
 ## Gestion des données
 
