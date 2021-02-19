@@ -7,9 +7,9 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ L&#39;onglet **Structure de fichier** permet de paramétrer les formats de sorti
 >
 >Les options disponibles sont présentées dans les sections de l&#39;activité de workflow [Extraction de fichier](../../automating/using/extract-file.md).
 
-## Définir l&#39;en-tête et le pied de page    {#defining-the-header-and-footer}
+## Définir l&#39;en-tête et le pied de page     {#defining-the-header-and-footer}
 
 Vous pouvez parfois avoir besoin d&#39;ajouter des informations au début ou à la fin du fichier d&#39;extraction. Pour cela, vous pouvez utiliser les onglets **[!UICONTROL En-tête]** et **[!UICONTROL Pied de page]** de l&#39;écran de configuration **[!UICONTROL Contenu]**.
 
