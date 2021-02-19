@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Personnaliser un workflow avec des paramètres externes       {#customizing-a-workflow-with-external-parameters}
+# Personnaliser un workflow avec des paramètres externes  {#customizing-a-workflow-with-external-parameters}
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d’événements et peuvent être utilisés pour personnaliser les activités du workflow.
 
 Ils peuvent, par exemple, permettre de définir l’audience à lire dans l’activité **[!UICONTROL Lecture d’audience]**, le nom du fichier à transférer dans l’activité **[!UICONTROL Transfert de fichier]**, etc. (voir [cette page](../../automating/using/customizing-workflow-external-parameters.md)).
 
-## Utiliser des variables d’événements        {#using-events-variables}
+## Utiliser des variables d’événements   {#using-events-variables}
 
 Les variables d’événements sont utilisées dans une expression qui doit respecter la [syntaxe standard](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
@@ -63,11 +63,11 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
    | DateFormat | Met en forme une date en utilisant le format spécifié dans le deuxième paramètre (exemple :  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Retourne le nom du chemin d’un fichier. | FileName(&lt;String>) |
    | FileExt | Retourne l’extension du chemin d’un fichier. | FileExt(&lt;String>) |
-   | GetOption | Renvoie la valeur de la fonction spécifiée. | GetOption(&lt;nomOption>) |
+   | GetOption | Renvoie la valeur de la fonction spécifiée. | GetOption(&lt;optionName>) |
    | IsNull | Indique si une chaîne ou une date est nulle. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Encode une URL en UTF8. | UrlUtf8Encode(&lt;String>) |
 
-## Personnaliser les activités avec des variables d’événements      {#customizing-activities-with-events-variables}
+## Personnaliser les activités avec des variables d’événements   {#customizing-activities-with-events-variables}
 
 Les variables d’événements peuvent servir à personnaliser plusieurs activités, répertoriées dans la section ci-dessous. Pour plus d’informations sur la façon d’appeler une variable à partir d’une activité, consultez [cette section](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
