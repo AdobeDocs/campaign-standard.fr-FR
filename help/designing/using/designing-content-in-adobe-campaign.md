@@ -6,9 +6,9 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -165,6 +165,6 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 Cette vidéo présente un aperçu du concepteur d’email.
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
 Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
