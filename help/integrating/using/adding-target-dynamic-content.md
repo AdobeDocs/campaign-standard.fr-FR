@@ -6,9 +6,9 @@ description: Découvrez comment ajouter du contenu dynamique Adobe Target dans u
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 100%
 
