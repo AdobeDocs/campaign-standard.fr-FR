@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
+source-wordcount: '2478'
 ht-degree: 100%
 
 ---
@@ -63,29 +63,31 @@ ht-degree: 100%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interface Experience Cloud unifiée</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>La barre d’en-tête d’Adobe Campaign a été modifiée pour unifier et améliorer votre expérience sur tous les produits et services Experience Cloud. Ces modifications visent à faciliter votre expérience des produits et services, notamment :</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>Un basculement plus facile entre différentes entreprises ou vers une autre application.</li>
-<li>Guide d'utilisateur amélioré - Avec l’intégration d’Experience League dans le produit, les résultats des recherches incluent également les résultats des forums de la communauté et davantage de contenu vidéo, ce qui permet d’accéder plus facilement à un plus large éventail de contenu pour tirer pleinement parti de l’application. Nous avons également ajouté un mécanisme de commentaires directement dans le menu Aide, ce qui facilite le signalement de problèmes ou le partage d’idées.</li>
-<li>Notifications améliorées - La liste déroulante Notifications comporte désormais deux onglets : l’une pour vos propres notifications de produits, l’autre pour des annonces de produits plus globales.</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../../start/using/interface-description.md#top-bar">documentation détaillée</a>.
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>REMARQUE : Ce changement sera progressivement appliqué à tous les environnements clients entre le 10 février et le 1er mars.
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **Améliorations**
 
