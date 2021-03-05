@@ -6,9 +6,9 @@ description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4692'
 ht-degree: 100%
 
@@ -174,7 +174,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
-## Version 17.7 - Juillet 2017                {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017               {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -250,7 +250,7 @@ _Workflows_
 * Correction d’une erreur qui vous empêchait de définir une transition sortante dans l’assistant de création de diffusion récurrente.
 * Correction d’une erreur qui se produisait lors de l’utilisation d’une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017                {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017               {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -297,7 +297,7 @@ _Notifications push_
 * Correction d’une erreur qui vous empêchait de cliquer sur une notification push dans l’historique marketing d’un profil.
 * L’utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017                {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017               {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -382,7 +382,7 @@ _Notifications push_
 * Correction d’une erreur en raison de laquelle un message d’erreur n’était pas affiché lors de la création d’une application Android associée à une application mobile n’ayant pas pu être créée sur MCPNS.
 * Correction d’une erreur qui permettait à un utilisateur d’ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017                {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017               {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -400,7 +400,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -456,7 +456,7 @@ _Emails et SMS_
 * Correction d’une erreur qui pouvait provoquer la dépublication d’emails transactionnels.
 * Correction d’une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications avant la prévisualisation d’une diffusion.
 
-_Landings page_
+_Landing pages_
 
 * Correction d’une erreur qui empêchait l’édition en cliquant dans le contenu d’une landing page.
 
