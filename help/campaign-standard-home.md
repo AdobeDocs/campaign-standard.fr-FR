@@ -5,16 +5,16 @@ product: campaign
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
-source-wordcount: '238'
+workflow-type: ht
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
 
 
-# Centre d’aide {#campaign-standard-documentation}
+# Centre d&#39;aide {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
