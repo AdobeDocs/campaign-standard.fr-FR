@@ -6,9 +6,9 @@ description: Cette page détaille le contenu de la dernière version de Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
 ht-degree: 100%
 
