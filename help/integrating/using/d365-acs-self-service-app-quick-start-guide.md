@@ -6,10 +6,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ En savoir plus dans ces sections :
 * [Configurer Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mapper des ressources personnalisées de Campaign et des entités personnalisées de Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
-## Étapes clés de configuration de l’application d’intégration en libre-service {#self-service-app-configuration-steps}
+## Étapes clés de la configuration de l’application d’intégration en libre-service {#self-service-app-configuration-steps}
 
 Vous pouvez ensuite commencer à utiliser l’outil d’intégration. Suivez ces étapes :
 
@@ -52,9 +52,9 @@ Vous pouvez ensuite commencer à utiliser l’outil d’intégration. Suivez ces
 
 Ouvrez un navigateur et accédez au connecteur associé à votre zone géographique :
 
-* [Asie-Pacifique](http://d365-acs-ap.ea.adobe.com/)
-* [Europe, Moyen-Orient ou Afrique (EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [Amériques](http://d365-acs-na.ea.adobe.com/)
+* [Asie-Pacifique](https://d365-acs-ap.ea.adobe.com/)
+* [Europe, Moyen-Orient ou Afrique (EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [Amériques](https://d365-acs-am.ea.adobe.com/)
 
 ## Reconnaissance des modalités des demandes d&#39;accès à des informations personnelles {#self-service-app-acknowledgement}
 
@@ -75,18 +75,18 @@ Vérifiez que les sélections &quot;ORG&quot; et &quot;INSTANCE&quot; sont celle
 
 >[!IMPORTANT]
 >
-> Si vous configurez le connecteur pour la première fois et/ou si vous découvrez ce processus, nous vous invitons **fortement** à sélectionner l’instance &quot;stage&quot; ou &quot;dev&quot;. Vous devez vérifier que votre configuration fonctionne correctement avant de l’effectuer en production.
+> Si vous configurez le connecteur pour la première fois et/ou si vous découvrez ce processus, nous vous invitons **fortement** à sélectionner l’instance &quot;stage&quot; ou &quot;dev&quot;. Vous devez vérifier que votre configuration fonctionne correctement avant de l’utiliser en production.
 
-Si vous avez l&#39;organisation et l&#39;instance appropriées, cliquez sur le menu « hamburger » pour afficher un menu déroulant. Cliquez ensuite sur **[!UICONTROL Paramètres...]** dans le menu déroulant pour accéder à la page où vous saisissez vos informations d&#39;identification pour Microsoft Dynamics 365 et Campaign (voir ci-dessous).
+Si vous disposez de l&#39;organisation et de l&#39;instance appropriées, cliquez sur le menu « hamburger » pour afficher un menu déroulant. Cliquez sur **[!UICONTROL Paramètres...]** dans le menu déroulant pour accéder à la page où vous saisissez vos informations d&#39;identification pour Microsoft Dynamics 365 et Campaign (voir ci-dessous).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Dans la page **[!UICONTROL Paramètres]**, renseignez les sections suivantes :
 
-* Informations d&#39;identification Microsoft Dynamics 365
+* Informations d&#39;identification de Microsoft Dynamics 365
 * Informations d’identification Adobe
 
-Cliquez [ici](../../integrating/using/d365-acs-self-service-app-settings.md) pour trouver des informations plus détaillées sur l&#39;emplacement où trouver les informations pour chaque entrée. Lorsque vous avez terminé, cliquez sur le bouton **[!UICONTROL Enregistrer]** dans la partie inférieure de l’écran.
+Cliquez [ici](../../integrating/using/d365-acs-self-service-app-settings.md) pour obtenir des informations plus détaillées sur l&#39;emplacement où trouver les informations pour chaque entrée. Lorsque vous avez terminé, cliquez sur le bouton **[!UICONTROL Enregistrer]** dans la partie inférieure de l’écran.
 
 ## Vérifier la configuration initiale {#self-service-app-initial-config}
 
@@ -96,13 +96,13 @@ Dans la page **[!UICONTROL Workflows]**, cliquez sur l&#39;icône représentant 
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-Dans la page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vous pouvez accéder à la liste des mappages de table que vous avez configurés.  Vous obtiendrez par défaut un mappage contact/profil de paramètres d&#39;usine. Toutes les autres entités personnalisées devront être configurées séparément.
+Dans la page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vous pouvez accéder à la liste des mappings de table que vous avez configurés.  Vous obtiendrez par défaut un mapping contact/profil de paramètres d&#39;usine. Toutes les autres entités personnalisées devront être configurées séparément.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-Dans la page **[!UICONTROL Modifier le mappage de table]**, vérifiez la section **[!UICONTROL Mappages]** pour vous assurer que les champs de Microsoft Dynamics 365 sont mappés sur le bon champ dans Campaign. Si vous devez ajouter d’autres mappages, faites-le dès maintenant, ainsi que tout remplacement ou filtres. [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+Dans la page **[!UICONTROL Modifier le mapping de table]**, vérifiez la section **[!UICONTROL Mappings]** pour vous assurer que les champs de Microsoft Dynamics 365 sont mappés sur le bon champ dans Campaign. Si vous devez ajouter d’autres mappings, faites-le dès maintenant, ainsi que tout remplacement ou filtres. [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Pour ajouter de nouveaux mappages, consultez [cette section](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) pour plus d’informations.
+Pour ajouter de nouveaux mappings, consultez [cette section](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) pour plus d’informations.
 
 Une fois que votre configuration est correcte, cliquez sur le bouton **[!UICONTROL Lire]** en regard du workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** afin de débuter l&#39;intégration et le flux de données.
 
@@ -124,7 +124,7 @@ L’en-tête de l’application en libre-service vous permet de définir l’org
 
 Sélectionnez l&#39;**ORG** et l&#39;**INSTANCE** que vous souhaitez afficher/modifier. Ces champs apparaissent en lecture seule, mais ils deviennent modifiables lorsque vous placez le curseur de la souris dessus.
 
-Un menu déroulant s&#39;affiche lorsque vous cliquez sur le bouton avec les trois lignes horizontales ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) à droite de l&#39;en-tête.
+Un menu déroulant s&#39;affiche lorsque vous cliquez sur le bouton avec trois lignes horizontales ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) à droite de l&#39;en-tête.
 
 Les entrées du menu déroulant sont les suivantes :
 
@@ -144,7 +144,7 @@ Des barres de navigation s’affichent en haut de certains écrans lorsque vous 
 
 **Exemple :**
 
-Vous trouverez ci-dessous un exemple à partir de l’écran **[!UICONTROL Modifier le mappage de table]** qui montre les barres de navigation et le titre de la page. Dans ce cas, vous pouvez cliquer sur le texte **[!UICONTROL Workflows]** ou **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour accéder à l&#39;un des écrans précédents. Dans le cas présent, il n’est pas possible de cliquer sur **[!UICONTROL Modifier le mappage de table]** dans les barres de navigation, car il s’agit de l’écran actuel.
+Vous trouverez ci-dessous un exemple à partir de l’écran **[!UICONTROL Modifier le mapping de table]** qui montre les barres de navigation et le titre de la page. Dans cet exemple, vous pouvez cliquer sur le texte **[!UICONTROL Workflows]** ou **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour accéder à l&#39;un des écrans précédents. Dans le cas présent, il n’est pas possible de cliquer sur **[!UICONTROL Modifier le mapping de table]** dans les barres de navigation, car il s’agit de l’écran actuel.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
