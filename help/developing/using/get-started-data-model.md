@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
@@ -63,5 +63,5 @@ Avec les API de Campaign Standard, vous pouvez créer des intégrations pour Ado
 
 ## Autres ressources
 
-* [À propos d’Adobe Experience Platform Data Connector](../../developing/using/aep-about-data-connector.md)
+* [À propos d’Adobe Experience Platform Data Connector](../../integrating/using/aep-about-data-connector.md)
 * [Export / import de ressources personnalisées](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-cusres.html)
