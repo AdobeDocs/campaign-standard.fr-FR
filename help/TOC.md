@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 breadcrumb-title: Centre d’aide
 title: Guide de Campaign Standard
-translation-type: ht
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
-workflow-type: ht
-source-wordcount: '1759'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 99%
 
 ---
 
@@ -69,11 +69,7 @@ ht-degree: 100%
    + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
       + [Les processus d’inscription et de désinscription dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d’inscription et de désinscription dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [Identification des profils exclus pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Utilisation d’Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [À propos du service Audience Destinations](audiences/using/aep-about-audience-destinations-service.md)
-      + [Gestion des audiences Adobe Experience Platform](audiences/using/aep-managing-audiences.md)
-      + [Utilisation du créateur de segments](audiences/using/aep-using-segment-builder.md)
+      + [Identification des profils blacklistés pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canaux de communication {#communication-channels}
    + [Prise en main des canaux de communication](channels/using/get-started-communication-channels.md)
    + Canaux de communication {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 100%
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Utilisation de l’intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
+   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
+      + Service de destination des Audiences {#audience-destinations}
+         + [À propos du service Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
+         + [Gestion des audiences Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
+         + [Utilisation du créateur de segments](integrating/using/aep-using-segment-builder.md)
+         + [Ciblage des audiences Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+         + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [À propos d’Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Présentation d’Experience Platform Datamodel ](integrating/using/aep-data-model-overview.md)
+         + [Définition d’un mapping](integrating/using/aep-mapping-definition.md)
+         + [Activation du mapping](integrating/using/aep-mapping-activation.md)
+         + [Déclenchement de l’ingestion des données via les API](integrating/using/aep-triggering-data-ingestion.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d’un workflow {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 100%
          + [Export de profils dans un fichier externe](automating/using/exporting-profiles-in-file.md)
          + [Mise à jour de plusieurs statuts d’abonnement à partir d’un fichier](automating/using/updating-subscriptions-from-file.md)
          + [Abonnement de profils à partir d’un fichier vers un service spécifique](automating/using/subscribing-profiles-from-file.md)
-   + Utilisation des audiences Adobe Experience Platform {#working-with-aep-audiences}
-      + [Ciblage des audiences Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
-      + [Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Développement {#developing}
    + [Prise en main du modèle de données Campaign Standard](developing/using/get-started-data-model.md)
    + Ressources personnalisées {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 100%
       + [Logs de tracking](developing/using/datamodel-tracking.md)
       + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [À propos d’Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Présentation d’Experience Platform Datamodel ](developing/using/aep-data-model-overview.md)
-      + [Définition d’un mapping](developing/using/aep-mapping-definition.md)
-      + [Activation du mapping](developing/using/aep-mapping-activation.md)
-      + [Déclenchement de l’ingestion des données via les API](developing/using/aep-triggering-data-ingestion.md)
 + Administration {#administrating}
    + [Prise en main de l’administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Directives de supervision](administration/using/monitoring-guidelines.md)
