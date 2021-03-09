@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign
 
 ## Autres ressources
 
-* [Utilisation du service Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+* [Utilisation du service Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Utilisation de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
