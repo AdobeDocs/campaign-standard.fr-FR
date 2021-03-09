@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Les [principales législations](#privacy-regulations) se réfèrent de la maniè
 
 Ainsi, en tant qu&#39;entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Campaign agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’en tant que contrôleur de données, il vous appartient de gérer les relations avec les titulaires de données, par exemple pour gérer les [demandes d’accès à des informations personnelles](#privacy-requests).
 
-Lors de l’intégration de Campaign avec d’autres solutions Experience Cloud où les audiences peuvent être transférées d’un système à un autre, comme le [service Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou avec d’autres solutions comme [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), vous devez accorder une attention particulière à la protection des données personnelles.
+Lors de l’intégration de Campaign avec d’autres solutions Experience Cloud où les audiences peuvent être transférées d’un système à un autre, comme le [service Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou avec d’autres solutions comme [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), vous devez accorder une attention particulière à la protection des données personnelles.
 
 ## Acquisition de données {#data-acquisition}
 
