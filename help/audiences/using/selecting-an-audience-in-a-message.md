@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 88%
 
 ---
 
@@ -39,13 +39,15 @@ Les audiences peuvent être définies au moment de la création du message via l
 
 1. Définissez la **[!UICONTROL cible]** principale de l’email. Il s’agit de l’audience cible standard de l’email.
 
-   La cible est définie dans l’onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données.
-
-   Vous pouvez constituer votre cible principale à l’aide des fonctionnalités de l’[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
+   La cible est définie dans l’onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données. Vous pouvez constituer votre cible principale à l’aide des fonctionnalités de l’[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
    Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]** contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés. L’onglet **[!UICONTROL Explorateur]** vous permet d’accéder à des paramétrages supplémentaires.
 
    Vous pouvez ainsi réutiliser et combiner des audiences existantes, leur appliquer des filtres supplémentaires, etc.
+
+   >[!NOTE]
+   >
+   >Lors du ciblage d’une audience, notez que la définition de la audience n’est pas référencée mais **copiée** dans la requête. Si vous apportez des modifications à l’audience une fois qu’elle a été ciblée dans une requête, veillez à la configurer de nouveau pour tenir compte de la nouvelle définition.
 
 1. Définissez les **[!UICONTROL profils de test]** que vous souhaitez utiliser pour l’email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l’email avant son envoi à la cible principale.
 
