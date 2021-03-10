@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '443'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
 1. Si vous le souhaitez, vous pouvez compresser le fichier de sortie en sélectionnant **[!UICONTROL Compression]** dans le champ **[!UICONTROL Ajouter une étape de post-traitement]**. Le fichier de sortie sera compressé dans un fichier GZIP (.gz).
 
-   Le champ **[!UICONTROL Ajouter une étape de post-traitement]** permet également de chiffrer un fichier avant de l’extraire. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de post-traitement]** permet également de crypter un fichier avant de l’extraire. Pour plus d’informations sur l’utilisation des fichiers cryptés, consultez [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un élément]** pour ajouter une colonne de sortie.
 
