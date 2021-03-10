@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Lors de la construction de votre workflow, n&#39;utilisez pas plus d&#39;une act
 >
 >La **[!UICONTROL Fréquence de répétition]** de l&#39;activité ne peut pas être inférieure à 10 minutes, ce qui signifie qu&#39;un workflow ne peut pas être exécuté automatiquement plusieurs fois toutes les 10 minutes.
 
-Lors de la conception d’un processus planifié incluant plusieurs activités, vous devez vous assurer que le processus n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre flux de travaux afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente. Consultez [cette page](../../automating/using/scheduled-workflows-execution.md) pour plus d&#39;informations.
+Lors de la conception d’un workflow planifié incluant plusieurs activités, vous devez vous assurer que le workflow n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre workflow afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente. Pour plus d’informations, consultez [cette page](../../automating/using/scheduled-workflows-execution.md).
 
 **Rubriques connexes :**
 
