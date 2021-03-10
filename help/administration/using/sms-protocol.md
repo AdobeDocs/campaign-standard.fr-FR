@@ -6,11 +6,11 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8665'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -478,7 +478,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * La prévisualisation affiche le numéro court si aucun numéro source n&#39;est fourni. Il reflétera le comportement réel sur le téléphone portable.
 
-* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine de l’utilisateur un code court spécifique.
+* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l’utilisateur pour un numéro court spécifique.
 
 #### NPI/TON source, NPI/TON destination {#ton-npi}
 
@@ -704,7 +704,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
 ### Réponse automatique aux MO  {#automatic-reply}
 
-Cette fonctionnalité permet de répondre rapidement au texte à l&#39;opérateur et de gérer l&#39;envoi de code par abrégé à la liste bloquée.
+Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l’envoi de numéro court à la liste bloquée.
 
 Les colonnes **Mot-clé** et **Numéro court** définissent les conditions pour déclencher la réponse automatique. Si les deux champs correspondent, le MO est envoyé et l&#39;action supplémentaire est déclenchée. Pour spécifier un caractère de remplacement, vous devez laisser le champ vide. Le mot-clé correspond au premier mot alphanumérique du texte MO, en ignorant la ponctuation et les espaces de début. Cela signifie que le champ **Mot-clé** ne peut pas contenir d&#39;espaces et doit être un seul mot.
 
@@ -768,7 +768,7 @@ La période de validité est transmise dans le champ `validity_period` du `SUBMI
 
 #### Paramètres facultatifs SMPP (TLV) {#smpp-optional-parameters}
 
-Depuis la version 21.1, vous pouvez ajouter plusieurs paramètres optionnels à chaque MT envoyé pour cette diffusion. Ces paramètres facultatifs sont ajoutés au `SUBMIT_SM PDU` de la réponse, comme décrit à la section  .3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 131).
+Depuis la version 21.1, vous pouvez ajouter plusieurs paramètres optionnels à chaque MT envoyé pour cette diffusion. Ces paramètres facultatifs sont ajoutés au `SUBMIT_SM PDU` de la réponse, comme décrit à la section 5.3 de la [spécification SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 131).
 
 Chaque ligne de la table représente un paramètre facultatif :
 
