@@ -1,62 +1,62 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Exécution superposée de workflows planifiés
-description: Découvrez comment empêcher l’exécution de workflows planifiés qui se chevauchent.
+title: Chevauchement de l'exécution de workflows planifiés
+description: Découvrez comment empêcher le chevauchement de l’exécution de workflows planifiés.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a61c988f95dd84797e6e33707651304223045fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Exécution superposée de workflows planifiés {#preventing-overlapping-execution-of-scheduled-workflows}
+# Chevauchement de l&#39;exécution de workflows planifiés{#preventing-overlapping-execution-of-scheduled-workflows}
 
-## A propos de l’exécution des workflows planifiés
+## À propos du chevauchement de l’exécution de workflows planifiés
 
-En Campaign Standard, le moteur de workflow garantit qu’une instance de processus est exécutée par un seul processus. Le blocage d&#39;activités telles que les importations, les requêtes à exécution longue ou les écritures dans la base de données empêche l&#39;exécution de toute autre tâche lors de l&#39;exécution.
+Dans Campaign Standard, le moteur de workflow garantit l’exécution par un seul processus d’une instance de workflow. Le blocage d’activités telles que les imports, les requêtes à exécution longue ou les écritures dans la base de données empêchent l’exécution simultanée de toute autre tâche.
 
-D&#39;un autre côté, les activités non bloquantes ne bloquent pas l&#39;exécution d&#39;autres tâches (en général les activités qui attendent un événement tel que l&#39;activité **[!UICONTROL Planificateur]**).
+D’un autre côté, les activités non bloquantes ne bloquent pas l’exécution d’autres tâches (il s’agit en général d’activités qui attendent un événement, comme l’activité **[!UICONTROL Planificateur]**).
 
-Cela peut conduire à un scénario où un workflow basé sur une planification peut début de s&#39;exécuter même lorsque l&#39;exécution précédente du même workflow n&#39;est pas encore terminée, ce qui peut entraîner des problèmes de données inattendus.
+Cela peut conduire à un scénario dans lequel un workflow basé sur une planification est susceptible de commencer à s’exécuter même lorsque l’exécution précédente de ce workflow n’est pas encore terminée, et entraîner ainsi des problèmes de données inattendus.
 
-Par conséquent, lorsque vous concevez un processus planifié qui comprend plusieurs activités, vous devez vous assurer que le processus n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre flux de travaux afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente.
+Par conséquent, lorsque vous concevez un workflow planifié qui inclut plusieurs activités, vous devez vous assurer que ce workflow n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre workflow afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente.
 
-## Configuration du processus
+## Configuration du workflow
 
-Pour vérifier si une ou plusieurs tâches d&#39;une exécution de flux de travaux précédente sont toujours en attente, vous devez utiliser une activité **[!UICONTROL Requête]** et une  **[!UICONTROL Test]**.
+Pour vérifier si une ou plusieurs tâches d’une exécution de workflow précédente sont toujours en attente, vous devez utiliser une activité **[!UICONTROL Requête]** et une activité **[!UICONTROL Test]**.
 
-1. Ajoutez une activité **[!UICONTROL Requête]** après l&#39;activité **[!UICONTROL Planificateur]**, puis configurez-la comme suit.
+1. Ajoutez une activité **[!UICONTROL Requête]** après l’activité **[!UICONTROL Planificateur]**, puis configurez-la comme suit.
 
-1. Remplacez la ressource d’activité par **[!UICONTROL WorkflowTaskDetail]**, ce qui signifie qu’elle cible les tâches actuelles du processus.
+1. Remplacez la ressource de l’activité par **[!UICONTROL WorkflowTaskDetail]** afin qu’elle cible les tâches en cours du workflow.
 
    ![](assets/scheduled-wkf-resource.png)
 
-1. Configurez la requête avec les règles suivantes :
+1. Configurez la requête avec les règles suivantes :
 
    ![](assets/scheduled-wkf-query.png)
 
-   * La première règle filtres la tâche en cours (requête2) ainsi que la tâche de planification suivante (annexe2) appartenant au workflow en cours.
+   * La première règle filtre la tâche en cours (query2) ainsi que la tâche de planification suivante (schedule2) du workflow en cours.
 
       >[!NOTE]
       >
-      >Lorsqu&#39;une activité **[!UICONTROL Planificateur]** est début, elle ajoute immédiatement une autre tâche de planification à exécuter à la prochaine heure planifiée et début le flux de travail. Par conséquent, il est important de filtrer la requête ainsi que les tâches de planification lors de la recherche de tâches en attente d’une exécution précédente.
+      >Lorsqu’une activité **[!UICONTROL Planificateur]** démarre, elle ajoute immédiatement une autre tâche de planification à exécuter à la prochaine heure planifiée et débute le workflow. Par conséquent, il est important de filtrer la requête ainsi que les tâches de planification lors de la recherche de tâches en attente dans une exécution précédente.
 
-   * La deuxième règle détermine si les tâches d’une exécution précédente du flux de travaux sont toujours principales (en attente), ce qui correspond à l’état d’exécution 0.
+   * La deuxième règle détermine si les tâches d’une exécution précédente du workflow sont toujours actives (en attente), ce qui correspond au statut d’exécution 0.
 
-1. Ajoutez une activité **[!UICONTROL Test]** afin de vérifier le nombre de tâches en attente renvoyées par l&#39;activité **[!UICONTROL Requête]**. Pour ce faire, configurez deux transitions sortantes.
+1. Ajoutez une activité **[!UICONTROL Test]** afin de déterminer le nombre de tâches en attente renvoyées par l’activité **[!UICONTROL Requête]**. Pour ce faire, configurez deux transitions sortantes.
 
    ![](assets/scheduled-wkf-test.png)
 
-   * La première transition continue l&#39;exécution du flux de travaux s&#39;il n&#39;y a pas de tâches en attente,
-   * La deuxième transition annule l&#39;exécution du flux de travaux s&#39;il existe des tâches en attente.
+   * La première transition reprend l’exécution du workflow s’il n’existe pas de tâches en attente,
+   * la seconde transition annule l’exécution du workflow s’il existe des tâches en attente.
 
    ![](assets/scheduled-wkf-workflow.png)
 
-Vous pouvez désormais configurer le reste de votre flux de travail selon vos besoins. Si l&#39;exécution du workflow est annulée en raison de tâches en attente, lorsque le workflow s&#39;exécute de nouveau selon la planification, il peut passer par ces étapes. Ainsi, l’exécution du flux de travail ne se poursuivra que s’il n’existe aucune tâche principale (en attente) issue d’une exécution précédente.
+Vous pouvez maintenant configurer le reste de votre workflow en fonction de vos besoins. Si l’exécution du workflow est annulée en raison de tâches en attente, le workflow peut suivre ces étapes en s’exécutant de nouveau selon la planification. Ainsi, l’exécution du workflow ne se poursuivra que s’il n’existe aucune tâche active (en attente) issue d’une exécution précédente.
