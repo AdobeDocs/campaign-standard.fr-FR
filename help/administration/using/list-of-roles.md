@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les droits par défaut sont les suivants :
 
    >[!NOTE]
    >
-   >Si vous devez travailler avec des déclencheurs Experience Cloud, vous aurez besoin du droit **[!UICONTROL Administration]** pour pouvoir accéder au menu Triggers Experience Cloud. Pour plus d&#39;informations sur les déclencheurs Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Si vous devez travailler avec des triggers Experience Cloud, vous aurez besoin du droit d’**[!UICONTROL administration]** pour accéder au menu Triggers d’Experience Cloud. Pour plus d’informations sur les Triggers Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]** : droit pour l’exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Import générique]** : droit pour l&#39;exécution d&#39;un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.
@@ -38,7 +38,7 @@ Les droits par défaut sont les suivants :
 * **[!UICONTROL Démarrer des diffusions]** : droit pour la création, la modification, la préparation, l&#39;envoi et la suppression des diffusions.
 * **[!UICONTROL Workflow]** : droit de gérer l’exécution des workflows (démarrage, arrêt, pause, etc.). Les utilisateurs dotés de ce rôle ne peuvent pas envoyer de diffusion, même dans un workflow.
 
-Pour plus d’informations, reportez-vous au [tableau Rôles et permissions](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
+Pour plus d’informations, consultez le [tableau Rôles et permissions](/help/administration/using/assets/acs_rights.pdf), qui présente les fonctions disponibles dans l’interface en fonction des autorisations sélectionnées.
 
 [![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
