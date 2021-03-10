@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1016'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les groupes de sécurité sont des ensembles d&#39;utilisateurs qui partagent le
 
 Les utilisateurs doivent toujours être rattachés à un groupe de sécurité afin que vous puissiez leur affecter des rôles spécifiques et des entités organisationnelles.
 
-Pour plus d’informations sur les rôles, le tableau de la page suivante présente les opérations possibles disponibles en fonction du ou des rôles d’un utilisateur : [Autorisations Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
+Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
 Les groupes de sécurité par défaut sont :
 
@@ -35,7 +35,7 @@ Les groupes de sécurité par défaut sont :
 
 >[!IMPORTANT]
 >
->Les groupes de sécurité **[!UICONTROL Accès aux paramètres de délivrabilité (délivrabilité)]** et **[!UICONTROL Agents du Centre de messages (mcExec)]** sont des groupes internes d&#39;Adobe et ne doivent être attribués à aucun utilisateur.
+>Les groupes de sécurité **[!UICONTROL Accès aux paramètres de délivrabilité (délivrabilité)]** et **[!UICONTROL Agents de Message Center (mcExec)]** sont uniquement internes et ne doivent pas être affectés aux utilisateurs.
 
 Pour pouvoir accéder à Adobe Campaign, chaque utilisateur doit être affecté à un groupe de sécurité.
 
@@ -146,5 +146,5 @@ Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent
 
 >[!IMPORTANT]
 >
->Si les utilisateurs sont supprimés d’un groupe de sécurité dans la console d’administration, ils continueront à faire partie du groupe de sécurité Adobe Campaign et ne pourront plus se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses e-mail des utilisateurs dans la console d&#39;administration pour éviter qu&#39;ils ne reçoivent des informations sensibles.
+>Lorsque des utilisateurs sont supprimés d’un groupe de sécurité dans Admin Console, ils restent membres du groupe de sécurité d’Adobe Campaign, mais ne sont plus en mesure de se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses email des utilisateurs dans Admin Console pour éviter qu’ils ne reçoivent des informations sensibles.
 
