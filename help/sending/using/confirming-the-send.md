@@ -7,11 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 Une fois que la préparation de vos messages est terminée et que les étapes de validation ont été réalisées, vous pouvez démarrer l&#39;envoi. Pour plus d&#39;informations sur la préparation des messages, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 
-Seuls les utilisateurs dotés du rôle **[!UICONTROL diffusions de Début]** peuvent confirmer l’envoi. Voir à ce propos la section [Liste des rôles](../../administration/using/list-of-roles.md).
+Seuls les utilisateurs qui détiennent le rôle **[!UICONTROL Démarrer des diffusions]** peuvent confirmer l’envoi. Pour plus d’informations, consultez la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
 <!--Users without this role will see the following message: 
 
@@ -42,9 +42,9 @@ Une fois la préparation terminée, suivez les étapes ci-dessous pour envoyer v
 
 >[!NOTE]
 >
->Si le message est planifié, il est envoyé lorsque l’heure d’envoi est atteinte. Pour plus d&#39;informations sur la planification des messages, consultez [cette section](../../sending/using/about-scheduling-messages.md).
+>Si le message est planifié, il sera envoyé à l’heure d’envoi. Pour plus d’informations sur la planification des messages, consultez [cette section](../../sending/using/about-scheduling-messages.md).
 
-Si vous utilisez une diffusion récurrente sans période d&#39;agrégation, vous pouvez demander confirmation avant l&#39;envoi de la diffusion. Lors de la configuration de votre message, ouvrez le bloc **[!UICONTROL Planification]** du tableau de bord de diffusion et activez l&#39;option dédiée.
+Si vous utilisez une diffusion récurrente sans période d&#39;agrégation, vous pouvez demander confirmation avant l&#39;envoi de la diffusion. Pendant la configuration de votre message, ouvrez la zone **[!UICONTROL Planifier]** du tableau de bord de diffusion, puis activez l’option dédiée.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,13 +65,13 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 
 ![](assets/sending_delivery.png)
 
-Si la mise à jour des indicateurs de performance clés prend trop de temps ou ne reflètent pas les résultats des journaux d&#39;envoi, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **[!UICONTROL Déploiement]**.
+Si les KPI sont trop longs à se mettre à jour ou ne prennent pas en compte les résultats à partir des logs d’envoi, cliquez sur le bouton **[!UICONTROL Calculer les statistiques]** dans la fenêtre **[!UICONTROL Déploiement]**.
 
 ![](assets/sending_delivery7.png)
 
 Le message peut être affiché dans l’historique de l’un des profils ciblés. Voir à ce sujet la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
-Une fois un message envoyé, vous pouvez suivre le comportement des destinataires et le surveiller pour mesurer son impact. Voir à ce propos les sections suivantes :
+Une fois un message envoyé, vous pouvez suivre le comportement des destinataires et le surveiller pour mesurer son impact. Pour plus d’informations, consultez les sections suivantes :
 
 * [Tracker les messages](../../sending/using/tracking-messages.md)
 * [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
@@ -94,7 +94,7 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaiss
 
 * Dans le cas contraire, l&#39;état devient **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Délivrés]** diminue en conséquence.
 
-Par conséquent, vous devez attendre la fin de la période de validité pour afficher le pourcentage final **[!UICONTROL Livré]** et le nombre final de **[!UICONTROL Envoyé]** et **[!UICONTROL Échec]**.
+Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Délivrés]** final ainsi que le nombre final de messages réellement **[!UICONTROL Envoyés]** et **[!UICONTROL En échec]**.
 
 ### Service de commentaires par email (bêta) {#email-feedback-service}
 
@@ -112,7 +112,7 @@ Les logs de diffusion affichent l&#39;état **[!UICONTROL En attente]** pour cha
 
 ![](assets/efs-pending.png)
 
-Lorsque la diffusion de message aux profils ciblés est reportée en temps réel à partir de la MTA améliorée, les logs de diffusion affichent l’état **[!UICONTROL Envoyé]** pour chaque adresse qui a reçu le message. Le pourcentage **[!UICONTROL Délivrés]** augmente en conséquence lorsqu&#39;une diffusion est effectuée avec succès.
+Lorsque le message est effectivement diffusé aux profils ciblés et que ces informations sont renvoyées en temps réel depuis le MTA amélioré, les logs de diffusion affichent le statut **[!UICONTROL Envoyés]** pour chaque adresse ayant reçu le message avec succès. Le pourcentage **[!UICONTROL Délivrés]** augmente en conséquence lorsqu&#39;une diffusion est effectuée avec succès.
 
 Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état de log passe de **[!UICONTROL En attente]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Bounces + erreurs]** augmente en conséquence.
 
@@ -132,11 +132,11 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, leur état de
 
 ### Modifications ajoutées par le service EFS {#changes-introduced-by-efs}
 
-Les tableaux ci-dessous montrent les modifications des indicateurs de performance clés et l&#39;état des journaux envoyés introduites par la fonctionnalité EFS.
+Les tableaux ci-dessous présentent les modifications des KPI et des statuts des logs d’envoi ajoutées par la fonctionnalité EFS.
 
-**Avec le service de commentaires par courriel**
+**Avec le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+| Étape du processus d’envoi | Récapitulatif des KPI | Statut des logs d’envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** commence à 0 %</li></ul> | En attente |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** augmente en conséquence</li></ul> | En échec |
@@ -144,9 +144,9 @@ Les tableaux ci-dessous montrent les modifications des indicateurs de performanc
 | Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Diffusés]** augmente en conséquence</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** diminue en conséquence</li></ul> | Envoyés |
 | Échec des reprises des messages soft bounce | <ul><li> Aucun changement du pourcentage **[!UICONTROL Délivrés]** </li><li> Aucun changement du pourcentage **[!UICONTROL Bounces + erreurs]** </li></ul> | En échec |
 
-**Sans le service de commentaires par courriel**
+**Sans le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des indicateurs clés | Envoi de l&#39;état des journaux |
+| Étape du processus d’envoi | Récapitulatif des KPI | Statut des logs d’envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** commence à 0 %</li></ul> | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** diminue en conséquence.</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** augmente en conséquence</li></ul> | En échec |
