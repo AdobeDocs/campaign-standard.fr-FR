@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -103,9 +103,9 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
       ![](assets/wkf_file_loading1.png)
 
-1. Si le fichier à partir duquel vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l’option **[!UICONTROL Décompression]** dans le champ **[!UICONTROL Ajouter une étape de prétraitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
+1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l’option **[!UICONTROL Décompression]** dans le champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
 
-   Le champ **[!UICONTROL Ajouter une étape de prétraitement]** permet également de déchiffrer un fichier avant de l’importer dans la base de données. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de pré-traitement]** permet également de décrypter un fichier avant de l’importer dans la base de données. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. L&#39;option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s&#39;étant produites lors de l&#39;import et de l&#39;appliquer à une étape de post-traitement. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
 
