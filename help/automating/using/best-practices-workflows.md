@@ -7,11 +7,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -108,11 +108,11 @@ Vous pouvez prévisualiser les dix prochaines exécutions de vos workflows en cl
 
 ![](assets/preview_scheduler.png)
 
-Pour plus d&#39;informations, consultez [Activité Planificateur](../../automating/using/scheduler.md).
+Pour plus d’informations, consultez [Activité planificateur](../../automating/using/scheduler.md).
 
-Lors de la conception d’un processus planifié incluant plusieurs activités, vous devez vous assurer que le processus n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre flux de travaux afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente. Consultez [cette page](../../automating/using/scheduled-workflows-execution.md) pour plus d&#39;informations.
+Lors de la conception d’un workflow planifié incluant plusieurs activités, vous devez vous assurer que le workflow n’est pas replanifié tant qu’il n’est pas terminé. Pour ce faire, vous devez configurer votre workflow afin d’empêcher son exécution si une ou plusieurs tâches d’une exécution précédente sont toujours en attente. Pour plus d’informations, consultez [cette page](../../automating/using/scheduled-workflows-execution.md).
 
-## Appel d&#39;un workflow avec des paramètres{#workflow-with-parameters}
+## Appel d’un workflow avec des paramètres{#workflow-with-parameters}
 
 Veillez à ce que le nom et le nombre de paramètres soient identiques à ce qui est défini lors de l&#39;appel du workflow (voir [cette page](../../automating/using/defining-parameters-calling-workflow.md)). De plus, les types des paramètres doivent être cohérents par rapport aux valeurs attendues.
 
