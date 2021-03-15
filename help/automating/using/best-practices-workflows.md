@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
-translation-type: ht
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+feature: Workflows
+role: Data Architect
+level: Début
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 99%
 
 ---
 
