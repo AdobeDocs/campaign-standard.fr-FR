@@ -6,11 +6,14 @@ description: Découvrez comment concevoir des emails à partir de zéro dans le 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: Conception de courrier électronique
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1276'
+ht-degree: 99%
 
 ---
 
