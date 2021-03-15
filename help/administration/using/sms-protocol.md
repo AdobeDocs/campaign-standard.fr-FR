@@ -6,11 +6,14 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-translation-type: ht
-source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
-workflow-type: ht
-source-wordcount: '8665'
-ht-degree: 100%
+feature: Paramètres d’instance
+role: Administrateur
+level: Expérience
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '8669'
+ht-degree: 99%
 
 ---
 
