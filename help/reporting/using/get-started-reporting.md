@@ -6,11 +6,14 @@ description: Analysez le succès de vos campagnes dans des rapports dynamiques i
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 'Reporting '
+role: Leader
+level: Début
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 99%
 
 ---
 
