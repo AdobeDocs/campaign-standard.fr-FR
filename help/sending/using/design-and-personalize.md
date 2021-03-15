@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Découvrez comment concevoir le contenu de votre message et essayez d’éviter les problèmes courants qui pourraient vous empêcher d’exécuter votre diffusion. 
+feature: Délivrabilité
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 97%
 
 ---
 
