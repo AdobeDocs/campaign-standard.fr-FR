@@ -6,11 +6,14 @@ description: Découvrez comment Campaign Standard et Microsoft Dynamics 365 g
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Intégration de Microsoft CRM
+role: Data Architect
+level: Expérience
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2470'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 99%
 
 ---
 
@@ -55,9 +58,9 @@ Vous trouverez ci-dessous des liens pour vous aider à implémenter et/ou suppri
 
 ## Opt-out{#opt-out}
 
-En raison des différences dans les attributs d’opt-out entre Microsoft Dynamics 365 et Campaign, et des différences dans les besoins commerciaux de chaque client, le mappage d’opt-out a été laissé comme un exercice que le client doit terminer. Il est important de s’assurer que les opt-outs sont correctement mappés entre les systèmes afin que les préférences d’opt-out de l’utilisateur final soient préservées et qu’elles ne reçoivent pas de communication via un canal dont elles se sont désinscrites.
+En raison des différences dans les attributs d’opt-out entre Microsoft Dynamics 365 et Campaign, et des différences dans les besoins commerciaux de chaque client, le mapping d’opt-out a été laissé comme un exercice que le client doit terminer. Il est important de s’assurer que les opt-outs sont correctement mappés entre les systèmes afin que les préférences d’opt-out de l’utilisateur final soient préservées et qu’elles ne reçoivent pas de communication via un canal dont elles se sont désinscrites.
 
-Sachez que seuls les éléments suivants peuvent être utilisés dans les mappages d’opt-out :
+Sachez que seuls les éléments suivants peuvent être utilisés dans les mappings d’opt-out :
 
 * les attributs Campaign avec le préfixe « Ne plus contacter par » (par ex., Ne plus contacter par email), ou
 
@@ -67,10 +70,10 @@ Vous trouverez plus d&#39;informations sur les champs d&#39;entité de profil [i
 
 Dans Dynamics 365, la plupart des champs d’opt-out ont le préfixe « donot », toutefois, vous pouvez également utiliser d’autres attributs personnalisés à des fins d’opt-out si les types de données sont compatibles.
 
-Lors de l&#39;approvisionnement de l’intégration, vous aurez la possibilité de spécifier la configuration d’opt-out dont vous avez besoin pour votre entreprise :
+Lors de la mise en service de l’intégration, vous aurez la possibilité de spécifier la configuration d’opt-out dont vous avez besoin pour votre entreprise :
 
 * **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** : Dynamics 365 est une source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens de Dynamics 365 vers Campaign Standard.
-* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365
+* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
 * **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
 Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
@@ -101,7 +104,7 @@ Votre stockage SFTP dans Campaign devra être utilisé par l’intégration dans
 
 >[!IMPORTANT]
 >
->Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les renseignements contiennent des données personnelles, vous êtes responsable de respecter les lois et règlements applicables en matière de protection de la vie privée. [En savoir plus](#acs-msdyn-manage-privacy).
+>Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les informations contiennent des données personnelles, vous êtes tenu de respecter les lois et règlements applicables en matière de confidentialité. [En savoir plus](#acs-msdyn-manage-privacy).
 
 ## Gestion des données
 
@@ -193,7 +196,7 @@ Les barrières de sécurité suivantes doivent être prises en compte lors de la
 
 L’intégration a été conçue pour résoudre le cas pratique général du mouvement de données communes entre Microsoft Dynamics 365 et Campaign, mais elle n’est pas destinée à traiter chaque cas pratique spécifique à chaque client :
 
-* L’intégration n’émet aucune suppression de confidentialité (ex. : RGPD). La responsabilité de répondre aux demandes d’accès à des informations personnelles des utilisateurs finaux incombe au client ; de telles demandes doivent être effectuées indépendamment à la fois dans Campaign (via Adobe Experience Platform Privacy Service) et dans Dynamics 365. L’intégration peut générer des suppressions régulières pour faciliter la synchronisation des données, si nécessaire.   Consultez [la section Confidentialité](#manage-privacy-requests) pour plus d&#39;informations.
+* ’intégration n’émet aucune suppression d’informations personnelles (ex. : RGPD). La responsabilité de répondre aux demandes d’accès à des informations personnelles des utilisateurs finaux incombe au client ; de telles demandes doivent être effectuées indépendamment à la fois dans Campaign (via Adobe Experience Platform Privacy Service) et dans Dynamics 365. L’intégration peut générer des suppressions régulières pour faciliter la synchronisation des données, si nécessaire.   Consultez [la section Confidentialité](#manage-privacy-requests) pour plus d&#39;informations.
 
 * Aucune donnée de profil ou d’entité personnalisée ne sera synchronisée de Campaign vers Dynamics 365, à l’exception des informations d’opt-out (si elles sont configurées par le client).
 
