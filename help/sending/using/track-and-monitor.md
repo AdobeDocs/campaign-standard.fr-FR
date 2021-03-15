@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Découvrez comment Adobe Campaign vous permet de suivre les messages envoyés et comment vos destinataires réagissent à votre diffusion
+feature: Délivrabilité
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 94%
 
 ---
 
