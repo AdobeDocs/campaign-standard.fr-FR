@@ -7,16 +7,19 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Délivrabilité
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '654'
+ht-degree: 99%
 
 ---
 
 
-# A propos de la délivrabilité{#about-deliverability}
+# À propos de la délivrabilité{#about-deliverability}
 
 La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam.
 
