@@ -6,11 +6,14 @@ description: Suivez ces étapes pour créer une diffusion email unique dans Adob
 audience: channels
 content-type: reference
 topic-tags: email-messages
+feature: Email
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 99%
 
 ---
 
