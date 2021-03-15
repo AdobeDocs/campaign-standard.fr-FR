@@ -4,12 +4,12 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
-breadcrumb-title: Centre d’aide
 title: Guide de Campaign Standard
-translation-type: ht
-source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
-workflow-type: ht
-source-wordcount: '1756'
+breadcrumb-title: Centre d'aide
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '1751'
 ht-degree: 100%
 
 ---
