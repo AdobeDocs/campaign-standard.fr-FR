@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
+feature: Délivrabilité
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 99%
 
 ---
 
@@ -59,7 +62,7 @@ Signal Spam est un service français qui propose un reporting de rétroaction an
 
 Ce service permet de suivre la réputation des FAI français et l’évolution de l’activité des clients.
 
-Signal Spam fournit permet également aux utilisateurs finaux de déposer des plaintes directes via une interface dédiée. Ces plaintes sont ensuite mises en quarantaine dans la base de données des adresses email.
+Signal Spam fournit permet également aux utilisateurs finaux de déposer des plaintes directes via une interface dédiée.Ces plaintes sont ensuite mises en quarantaine dans la base de données des adresses email.
 
 ## 250ok {#solution-250ok}
 
