@@ -6,11 +6,14 @@ description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: Triggers
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +28,9 @@ Les prérequis sont :
 * Avoir accès à une instance Adobe Campaign configurée pour l&#39;intégration.
 * Un modèle d&#39;email multilingue Adobe Campaign paramétré pour recevoir du contenu AEM.
 
-## Création d’un contenu d’email dans Adobe Experience Manager {#creating-email-content-aem}
+## Création d&#39;un contenu d&#39;email dans Adobe Experience Manager {#creating-email-content-aem}
 
-1. Sur la page d&#39;accueil d’Adobe Experience Manager, sélectionnez **[!UICONTROL Site]**.
+1. Dans la page d&#39;accueil d&#39;Adobe Experience Manager, sélectionnez **[!UICONTROL Site]**.
 
    ![](assets/aem_acs_1.png)
 
@@ -41,11 +44,11 @@ Les prérequis sont :
 
    ![](assets/aem_acs_3.png)
 
-1. Ouvrez votre nouveau contenu d’email et personnalisez-le selon vos besoins. Pour plus d’informations à ce sujet, consultez cette [page](../../integrating/using/creating-email-experience-manager.md#editing-email-aem).
+1. Ouvrez votre nouveau contenu d&#39;email et personnalisez-le selon vos besoins. Pour plus d’informations à ce sujet, consultez cette [page](../../integrating/using/creating-email-experience-manager.md#editing-email-aem).
 
    ![](assets/aem_acs_4.png)
 
-1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu qui n’a pas été validé.
+1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
 
    ![](assets/aem_acs_7.png)
 
@@ -57,9 +60,9 @@ Les prérequis sont :
 
 ## Création de copies de langue {#creating-language-copies}
 
-Après avoir conçu le contenu de votre email, vous devez à présent créer des copies de langue qui seront synchronisées avec Adobe Campaign Standard en tant que variantes.
+Après avoir conçu le contenu de votre email, vous devez créer des copies de langue qui seront synchronisées avec Adobe Campaign Standard en tant que variantes.
 
-1. Sélectionnez la page que vous avez créée précédemment, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL Copie de langue]**.
+1. Sélectionnez la page que vous avez créée précédemment, cliquez sur **[!UICONTROL Créer]**, puis sur **[!UICONTROL Copie de la langue]**.
 
    ![](assets/aem_acs_5.png)
 
@@ -67,17 +70,17 @@ Après avoir conçu le contenu de votre email, vous devez à présent créer des
 
    ![](assets/aem_acs_6.png)
 
-1. Dans la liste déroulante **[!UICONTROL Langue(s) cible]**, sélectionnez la langue dans laquelle votre contenu sera traduit, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la liste déroulante **[!UICONTROL Langue(s) cible(s)]**, sélectionnez la langue dans laquelle votre contenu sera traduit, puis cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/aem_acs_9.png)
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-Vos copies de langue sont désormais créées. Vous pouvez désormais modifier votre contenu en fonction de la langue choisie.
+Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu en fonction de la langue choisie.
 
 >[!CAUTION]
 >
->Chaque copie de langue doit être approuvée via le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu qui n’a pas été validé.
+>Chaque copie de langue doit être approuvée via le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
 
 ![](assets/aem_acs_11.png)
 
@@ -87,17 +90,17 @@ Vos copies de langue sont désormais créées. Vous pouvez désormais modifier v
 
    ![](assets/aem_acs_12.png)
 
-1. Sélectionnez votre modèle d&#39;email multilingue Adobe Campaign configuré pour recevoir le contenu Adobe Experience Manager. Pour en savoir plus sur la création d’un modèle lié à votre instance Adobe Experience Manager, consultez cette [page](../../integrating/using/configure-experience-manager.md#config-acs).
+1. Sélectionnez le modèle d&#39;email multilingue Adobe Campaign configuré pour recevoir le contenu Adobe Experience Manager. Pour en savoir plus sur la création d&#39;un modèle lié à votre instance Adobe Experience Manager, consultez cette [page](../../integrating/using/configure-experience-manager.md#config-acs).
 
    >[!NOTE]
    >
-   >Dans ce cas, vous devrez dupliquer le modèle intégré **[!UICONTROL Email multilingue (mailMultiLang)]** pour pouvoir envoyer votre email multilingue.
+   >Dans le cas présent, vous devrez dupliquer le modèle intégré **[!UICONTROL Email multilingue (mailMultiLang)]** pour pouvoir envoyer votre email multilingue.
 
    ![](assets/aem_acs_13.png)
 
-1. Renseignez les champs **[!UICONTROL Propriétés]** et **[!UICONTROL Audience]** de votre email, puis cliquez sur **[!UICONTROL Créer]**.
+1. Renseignez les champs **[!UICONTROL Propriétés]** et **[!UICONTROL Audience]** de l&#39;email, puis cliquez sur **[!UICONTROL Créer]**.
 
-1. Dans la liste déroulante **[!UICONTROL Éditer les propriétés]**, assurez-vous que votre compte Adobe Experience Manager est correctement défini dans la liste déroulante **[!UICONTROL Contenu]**.
+1. Dans **[!UICONTROL Éditer les propriétés]**, vérifiez que votre compte Adobe Experience Manager est correctement défini dans la liste déroulante **[!UICONTROL Contenu]**.
 
    ![](assets/aem_acs_20.png)
 
@@ -105,19 +108,19 @@ Vos copies de langue sont désormais créées. Vous pouvez désormais modifier v
 
    ![](assets/aem_acs_16.png)
 
-1. Sélectionnez le contenu Adobe Experience Manager que vous avez créé précédemment et cliquez sur **[!UICONTROL Confirmer]**. Le contenu Adobe Experience Manager affiché ici n&#39;est que du contenu validé et peut être filtré sur son **[!UICONTROL Libellé]** et **[!UICONTROL Chemin]**.
+1. Sélectionnez le contenu Adobe Experience Manager que vous avez créé précédemment et cliquez sur **[!UICONTROL Confirmer]**. Le contenu Adobe Experience Manager affiché ici n&#39;est que du contenu validé et peut être filtré en fonction de ses **[!UICONTROL Libellé]** et **[!UICONTROL Chemin]**.
 
    >[!NOTE]
    >
-   >La copie de la langue choisie sera définie par défaut, vous pourrez la modifier ultérieurement dans le bloc **[!UICONTROL Variante du contenu]**.
+   >La copie de la langue choisie sera définie par défaut. Vous pourrez la modifier ultérieurement dans le bloc **[!UICONTROL Variante du contenu]**.
 
    ![](assets/aem_acs_17.png)
 
-1. Cliquez sur **[!UICONTROL Créer des variantes]** pour lier votre contenu multilingue. Adobe Campaign Standard reliera alors automatiquement les autres copies de langue à ce contenu. Les variantes créées auront le même libellé et la même langue de code que celles choisies dans Adobe Experience Manager.
+1. Cliquez sur **[!UICONTROL Créer des variantes]** pour lier votre contenu multilingue. Adobe Campaign Standard lie alors automatiquement les autres copies de langue à ce contenu. Les variantes créées ont le même libellé et le même code de langue que ceux choisis dans Adobe Experience Manager.
 
    ![](assets/aem_acs_18.png)
 
-1. Cliquez sur le bloc **[!UICONTROL Variante du contenu]** pour modifier votre variante par défaut si nécessaire et cliquez sur **[!UICONTROL Confirmer]**.
+1. Cliquez sur le bloc **[!UICONTROL Variante du contenu]** pour modifier votre variante par défaut en cas de besoin. Cliquez ensuite sur **[!UICONTROL Confirmer]**.
 
    ![](assets/aem_acs_19.png)
 
