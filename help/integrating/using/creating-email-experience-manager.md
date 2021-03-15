@@ -6,11 +6,14 @@ description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: Triggers
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 99%
 
 ---
 
@@ -66,7 +69,7 @@ Pour créer un contenu d&#39;email dans Adobe Experience Manager :
    Pour en savoir plus, visionnez la vidéo suivante :
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu qui n’a pas été validé.
+1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
 
 1. Une fois que le contenu et les paramètres d’envoi sont définis, vous pouvez passer à la validation, à la préparation et à l’envoi de l’email dans Adobe Campaign Standard.
 
