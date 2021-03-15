@@ -7,11 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
+feature: Gestion de l’accès
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 100%
+source-wordcount: '887'
+ht-degree: 99%
 
 ---
 
