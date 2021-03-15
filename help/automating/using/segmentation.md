@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: Workflows
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +91,6 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.
