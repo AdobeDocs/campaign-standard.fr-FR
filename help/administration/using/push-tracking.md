@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
+feature: Paramètres d’instance
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +23,7 @@ ht-degree: 100%
 
 ## À propos du suivi des notifications push {#about-push-tracking}
 
-Pour vous assurer que la notification push a été entièrement développée, vous devez vérifier que la partie suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications push. Pour activer le suivi, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé. Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec les valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
+Pour vous assurer que la notification push a été entièrement développée, vous devez vérifier que la partie de suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications push. Pour activer le suivi, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé. Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec les valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
 
 >[!IMPORTANT]
 >
