@@ -6,11 +6,14 @@ description: Découvrez comment récupérer des fichiers de données de confiden
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 98%
 
 ---
 
