@@ -7,16 +7,19 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
+feature: Dans l’application
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 100%
+source-wordcount: '1164'
+ht-degree: 99%
 
 ---
 
 
-# Personnalisation d’un message In-App{#customizing-an-in-app-message}
+# Personnalisation d&#39;un message In-App{#customizing-an-in-app-message}
 
 Pour parfaire votre message in-app, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
 
