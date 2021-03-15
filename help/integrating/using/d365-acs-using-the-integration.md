@@ -4,24 +4,27 @@ description: Découvrez comment utiliser l’intégration de Microsoft Dynamics�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Intégration de Microsoft CRM
+role: Data Architect
+level: Expérience
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 100%
+source-wordcount: '1613'
+ht-degree: 99%
 
 ---
 
 
-# Utilisation de l’intégration de Microsoft Dynamics 365
+# Utilisation de l&#39;intégration de Microsoft Dynamics 365
 
-Plusieurs flux de données sont effectuées par l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365. Ces flux sont présentés dans [cette page](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Plusieurs flux de données sont réalisés par l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365. Ces flux sont présentés dans [cette page](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 Vous trouverez plus de détails sur les flux de données dans ce document de la section [Flux de données](#data-flows).
 
 ## Expérience utilisateur Adobe Campaign Standard
 
-Lorsqu’un contact est créé, modifié, ou supprimé (si la suppression est activée) dans Microsoft Dynamics 365, il est envoyé à Campaign Standard. Ces contacts seront visibles dans l’écran Profils de Campaign et peuvent être ciblés dans les campagnes marketing. Voir l’écran Profils ci-dessous.
+Lorsqu&#39;un contact est créé, modifié, ou supprimé (si la suppression est activée) dans Microsoft Dynamics 365, il est envoyé à Campaign Standard. Ces contacts seront visibles dans l’écran Profils de Campaign et peuvent être ciblés dans les campagnes marketing. Voir l’écran Profils ci-dessous.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
@@ -53,7 +56,7 @@ Reportez au gros plan ci-dessous de la vue de chronologie pour l’utilisateur D
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Vous trouverez ci-dessous un gros plan de la vignette de l’assistant de relations (AR). L’application AppSource contient un workflow qui recherche un événement de clic sur l’URL de l’email Adobe. Lorsque cet événement se produit, il crée une tâche et définit une date d’échéance. Cela permet à la tâche de s’afficher dans la vignette de l’AR, ce qui lui donne une visibilité supplémentaire. Il existe un workflow similaire pour les événements Email bounce d’Adobe, qui ajoute une tâche pour réconcilier l’adresse email non valide. Ces workflows peuvent être désactivés dans la solution.
+Vous trouverez ci-dessous un gros plan de la carte de l’assistant de relations (AR). L’application AppSource contient un workflow qui recherche un événement de clic sur l’URL de l’email Adobe. Lorsque cet événement se produit, il crée une tâche et définit une date d’échéance. Cela permet à la tâche de s’afficher dans la carte de l’AR, ce qui lui donne une visibilité supplémentaire. Il existe un workflow similaire pour les événements Email bounce d’Adobe, qui ajoute une tâche pour réconcilier l’adresse email non valide. Ces workflows peuvent être désactivés dans la solution.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -69,7 +72,7 @@ Voici une liste des attributs et une description :
 
 * **Objet** : objet de l’événement ; composé de l’identifiant de campagne et de l’identifiant de diffusion de la diffusion email
 
-* **Propriétaire** : utilisateur de l’application créé lors des étapes après l&#39;approvisionnement
+* **Propriétaire** : utilisateur de l’application créé lors des étapes après la mise en service
 
 * **Concernant** : nom du contact
 
@@ -93,7 +96,7 @@ Voici une liste des attributs et une description :
 
 Les enregistrements nouveaux, mis à jour et supprimés (la suppression doit être activée) sont envoyés de la table des contacts Microsoft Dynamics 365 à la table de profils Campaign.
 
-Les mappages de tables peuvent être configurés dans l&#39;interface utilisateur de l&#39;application d&#39;intégration pour mapper les attributs de table Microsoft Dynamics 365 sur les attributs de table Campaign. Les mappages des tables peuvent être modifiés pour ajouter ou supprimer des attributs, si nécessaire.
+Les mappings de table peuvent être configurés dans l&#39;interface utilisateur de l&#39;application d&#39;intégration pour mapper les attributs de table Microsoft Dynamics 365 sur les attributs de table Campaign. Les mappings de table peuvent être modifiés pour ajouter ou supprimer des attributs, si nécessaire.
 
 L’exécution initiale du flux de données est conçue pour transférer tous les enregistrements mappés, y compris ceux marqués comme « inactifs ». Par la suite, l’intégration ne traitera que les mises à jour incrémentielles. L’exception à cette règle est le cas où les données sont relues ou un filtre est configuré. Des règles de filtrage de base basées sur des attributs peuvent être configurées pour déterminer les enregistrements à synchroniser avec Campaign.
 
@@ -158,7 +161,7 @@ Les événements de marketing email peuvent être activés/désactivés par type
 Les valeurs d’opt-out (par exemple, denyList) sont synchronisées entre les systèmes ; vous avez le choix entre les options suivantes lors de l’intégration :
 
 * **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** : Dynamics 365 est une source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens de Dynamics 365 vers Campaign Standard.
-* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365
+* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
 * **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
 Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
@@ -170,7 +173,7 @@ Si vous disposez également d’un processus distinct pour gérer la synchronisa
 >Le cas pratique d’opt-out **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** est une exception ; il est configuré dans le workflow d’entrée (contact vers profil).
 
 
-Le mappage de flux d’opt-out doit être spécifié par le client, car les besoins métier peuvent varier d’une société à l’autre. Du côté Campaign, seuls les attributs d’opt-out d’usine peuvent être utilisés pour le mappage d’opt-out :
+Le mapping des flux d’opt-out doit être spécifié par le client, car les besoins métier peuvent varier d’une société à l’autre. Du côté de Campaign, seuls les attributs d’opt-out d’usine peuvent être utilisés pour le mapping d’opt-out :
 
 * denyList
 * denyListEmail
