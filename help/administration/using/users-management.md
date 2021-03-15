@@ -6,11 +6,14 @@ description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécif
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: Gestion de l’accès
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1281'
+ht-degree: 99%
 
 ---
 
