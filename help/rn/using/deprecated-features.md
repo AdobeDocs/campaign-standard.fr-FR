@@ -6,11 +6,14 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-translation-type: ht
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+feature: 'Vue d’ensemble '
+role: Professionnel
+level: Début
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '738'
+ht-degree: 99%
 
 ---
 
