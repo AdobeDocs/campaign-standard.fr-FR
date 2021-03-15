@@ -6,11 +6,14 @@ description: Découvrez comment ajouter du contenu dynamique Adobe Target dans u
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
+feature: Triggers
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 99%
 
 ---
 
