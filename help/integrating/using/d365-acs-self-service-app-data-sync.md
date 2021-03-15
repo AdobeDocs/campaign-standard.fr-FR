@@ -5,26 +5,29 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Intégration de Microsoft CRM
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 99%
 
 ---
 
 
 # Synchroniser les données
 
-Vous pouvez synchroniser des tables de Microsoft Dynamics 365 vers Campaign et des mesures marketing Campaign vers Microsoft Dynamics 365. La synchronisation est exécutée par trois workflows techniques dédiés : **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, **[!UICONTROL Campaign vers Microsoft Dynamics 365]**, **[!UICONTROL Opt-in/Opt-out]**. Consultez cette section pour [en savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Vous pouvez synchroniser des tables de Microsoft Dynamics 365 vers Campaign et des mesures marketing Campaign vers Microsoft Dynamics 365. La synchronisation est exécutée par trois workflows techniques dédiés : **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, **[!UICONTROL Campaign vers Microsoft Dynamics 365]** et **[!UICONTROL Opt-in/opt-out]**. Consultez cette section pour [en savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 >[!IMPORTANT]
 >Vous devez arrêter/démarrer le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour que vos modifications soient prises en compte. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md)
 
 
-## Mapping des tables de Microsoft Dynamics 365 vers Campaign
+## Mapper des tables de Microsoft Dynamics 365 vers Campaign
 
-La page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** affiche une liste d&#39;entités dans Microsoft Dynamics 365 et les ressources personnalisées dans Adobe Campaign avec lesquelles elles seront synchronisées. Vous pouvez ajouter de nouveaux mappings et modifier ou supprimer des mappings existants.
+La page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** affiche une liste d&#39;entités dans Microsoft Dynamics 365 et les ressources personnalisées d’Adobe Campaign avec lesquelles elles seront synchronisées. Vous pouvez ajouter de nouveaux mappings et modifier ou supprimer des mappings existants.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
@@ -32,7 +35,7 @@ Voici une description de chacune des colonnes de la table :
 
 * **[!UICONTROL TABLE MICROSOFT DYNAMICS 365]** : cette colonne identifie l&#39;entité dans Microsoft Dynamics 365 qui sera la source de données pour le mapping.
 
-* **[!UICONTROL TABLE CAMPAIGN]** : cette colonne identifie quelle ressource dans Adobe Campaign sera la destination des données pour le mapping.
+* **[!UICONTROL TABLE CAMPAIGN]** : cette colonne identifie la ressource dans Adobe Campaign sera la destination des données pour le mapping.
 
 * **[!UICONTROL ACTIONS]** : les actions possibles sont énumérées ci-dessous :
 
@@ -40,7 +43,7 @@ Voici une description de chacune des colonnes de la table :
 
    * Utilisez l&#39;icône **[!UICONTROL Supprimer]** pour supprimer un mapping de table.
 
-   * Cliquez sur l&#39;icône **[!UICONTROL Relire les données]** pour resynchroniser toutes les données de la table Microsoft Dynamics 365. Normalement, l&#39;application d&#39;intégration ne synchronise que les données dans Microsoft Dynamics 365 qui ont récemment été modifiées. Cependant, dans certains cas (vous avez apporté une modification ou commis une erreur, par exemple), vous pouvez souhaiter que toutes les données soient resynchronisées. Dans ces cas, vous cliquez sur ce bouton et, la prochaine fois que vous arrêtez/démarrez le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vos données commencent à se synchroniser.
+   * Cliquez sur l&#39;icône **[!UICONTROL Relire les données]** pour resynchroniser toutes les données de la table Microsoft Dynamics 365. Normalement, l&#39;application d&#39;intégration ne synchronise que les données de Microsoft Dynamics 365 qui ont récemment été modifiées.  Cependant, dans certains cas (vous avez apporté une modification ou commis une erreur, par exemple), vous pouvez souhaiter que toutes les données soient resynchronisées. Dans ces cas, vous cliquez sur ce bouton et, la prochaine fois que vous arrêtez/démarrez le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vos données commencent à se synchroniser.
 
       Si vous cliquez sur le bouton **[!UICONTROL Relire les données]** et que les vérifications réussissent, l&#39;icône devient désactivée : les données de cette paire de mapping de table seront resynchronisées avec la prochaine exécution du workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**.
 
@@ -88,7 +91,7 @@ Si vous modifiez un mapping existant, vous verrez que les sélections de table n
 
 Ce comportement est lié à la conception, car les entrées situées plus bas dans la page reposent sur les champs associés à ces tables. La modification des tables rendrait tous les champs associés non valides. Si vous souhaitez modifier la table à mapper, vous devez revenir à la page précédente, supprimer le mapping à modifier et ajouter un nouveau mapping.
 
-### Configurer un mappage de table distinct {#new-mapping-settings}
+### Configurer un mapping de table distinct {#new-mapping-settings}
 
 Dans cette section, vous allez découvrir comment configurer un mapping **simple** d&#39;une table Microsoft Dynamics 365 vers une table Adobe Campaign.
 
