@@ -3,16 +3,19 @@ solution: Campaign Standard
 product: campaign
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
+feature: Modèle de données
+role: Développeur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 99%
 
 ---
 
 
-# Appel d&#39;une ressource à l&#39;aide d&#39;une clé d&#39;identification composite{#calling-a-resource-using-a-composite-identification-key}
+# Appel d’une ressource à l’aide d’une clé d’identification composite{#calling-a-resource-using-a-composite-identification-key}
 
 Dans certains cas, il est possible que vous deviez définir pour une ressource une clé d&#39;identification constituée de deux champs. Une fois la clé d&#39;identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d&#39;identification à partir de l&#39;interface de Campaign Standard ou des API.
 
