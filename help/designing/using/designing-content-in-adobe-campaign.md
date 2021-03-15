@@ -6,11 +6,14 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
+feature: Conception de courrier électronique
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 100%
+source-wordcount: '1268'
+ht-degree: 99%
 
 ---
 
