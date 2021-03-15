@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
-translation-type: ht
-source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+feature: Workflows
+role: Data Architect
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 99%
 
 ---
 
