@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-translation-type: ht
-source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
-workflow-type: ht
-source-wordcount: '1021'
-ht-degree: 100%
+feature: Suivi des performances
+role: Professionnel
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 99%
 
 ---
 
@@ -136,7 +139,7 @@ Les tableaux ci-dessous présentent les modifications des KPI et des statuts des
 
 **Avec le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des KPI | Statut des logs d’envoi |
+| Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 0 %</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** commence à 0 %</li></ul> | En attente |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Aucun changement du pourcentage **[!UICONTROL Délivrés]**</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** augmente en conséquence</li></ul> | En échec |
@@ -146,7 +149,7 @@ Les tableaux ci-dessous présentent les modifications des KPI et des statuts des
 
 **Sans le service de commentaires par email**
 
-| Étape du processus d’envoi | Récapitulatif des KPI | Statut des logs d’envoi |
+| Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** commence à 100 %</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** commence à 0 %</li></ul> | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | <ul><li>Le pourcentage **[!UICONTROL Délivrés]** diminue en conséquence.</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** augmente en conséquence</li></ul> | En échec |
