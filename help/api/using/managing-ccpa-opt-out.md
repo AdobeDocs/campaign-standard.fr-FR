@@ -6,11 +6,14 @@ description: Découvrez comment gérer le droit d’opposition du CCPA avec les 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +35,7 @@ Il est possible de surveiller et gérer l’état du droit d’opposition (opt-o
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de demande***
 
 * Exemple de requête GET pour récupérer dans un profil l’état du droit d’opposition du CCPA.
 
