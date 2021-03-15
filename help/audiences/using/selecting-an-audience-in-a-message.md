@@ -7,10 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
+feature: 'Audiences '
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '421'
 ht-degree: 88%
 
 ---
