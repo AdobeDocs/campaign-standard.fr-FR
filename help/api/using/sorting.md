@@ -6,11 +6,14 @@ description: En savoir plus sur les opérations de tri
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '93'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Pour savoir s’il est possible de trier un champ, vérifiez le paramètre « s
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de demande***
 
 * Exemple de requête GET pour récupérer des emails dans la base de données par ordre alphabétique.
 
