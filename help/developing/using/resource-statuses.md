@@ -6,11 +6,14 @@ description: Découvrez les différents statuts des ressources en fonction de le
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
+feature: Modèle de données
+role: Développeur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 99%
 
 ---
 
