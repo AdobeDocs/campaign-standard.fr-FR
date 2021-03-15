@@ -6,11 +6,14 @@ description: Découvrez comment définir la préparation avant l'envoi.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
+feature: Optimisation du temps d'envoi
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 98%
 
 ---
 
