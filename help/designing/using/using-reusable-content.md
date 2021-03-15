@@ -6,11 +6,14 @@ description: Commencez à créer du contenu d'email réutilisable avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: Conception de courrier électronique
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 100%
+source-wordcount: '1888'
+ht-degree: 99%
 
 ---
 
