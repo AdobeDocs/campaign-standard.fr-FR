@@ -7,11 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
+feature: Profils
+role: Professionnel
+level: Début
 translation-type: tm+mt
-source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ Un profil client intégré est disponible pour chaque contact de votre base de d
 
 Pour accéder au profil client intégré, procédez comme suit :
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils client]** ou l&#39;onglet **Profils** pour afficher la liste des profils.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la carte **[!UICONTROL Profils client]** ou l&#39;onglet **Profils** pour afficher la liste des profils.
 
 1. Pour rechercher un profil en fonction d&#39;un champ spécifique, ouvrez le volet de recherche, puis sélectionnez le champ sur lequel vous souhaitez effectuer votre recherche.
 
