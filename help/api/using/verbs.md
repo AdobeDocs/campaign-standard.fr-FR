@@ -6,11 +6,14 @@ description: Découvrez les verbes utilisés dans les API de Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '133'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +31,7 @@ Les verbes disponibles pour effectuer des opérations sur les ressources sont le
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de demande***
 
 * Exemple de requête GET sur la collection de profils.
 
