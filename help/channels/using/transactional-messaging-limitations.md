@@ -7,11 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: Messages transactionnels
+role: Professionnel
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 99%
 
 ---
 
