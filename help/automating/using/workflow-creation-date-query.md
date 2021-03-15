@@ -7,11 +7,14 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
+feature: Workflows
+role: Data Architect
+level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 99%
 
 ---
 
