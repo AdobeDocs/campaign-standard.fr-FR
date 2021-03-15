@@ -7,11 +7,14 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
+feature: Gestion de l’accès
+role: Administrateur
+level: Expérience
 translation-type: tm+mt
-source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 99%
 
 ---
 
