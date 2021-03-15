@@ -5,11 +5,14 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-translation-type: ht
-source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+feature: Intégration de Microsoft CRM
+role: Data Architect
+level: Intermédiaire
+translation-type: tm+mt
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
