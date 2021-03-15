@@ -6,11 +6,14 @@ description: Découvrez comment récupérer les profils à l’aide des API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Ingénieur de données
+level: Expérience
 translation-type: tm+mt
-source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 100%
+source-wordcount: '234'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +28,7 @@ En outre, les API Campaign Standard vous permettent de rechercher des profils en
 
 <br/>
 
-***Exemples de requêtes***
+***Exemples de demande***
 
 * Exemple de requête GET pour récupérer tous les profils.
 
@@ -94,7 +97,7 @@ Le paramètre **[!UICONTROL filterType]** permet de rechercher des profils en fo
 >
 >Les recherches sont sensibles à la casse et effectuées sur les préfixes uniquement. Par exemple, vous ne pouvez pas rechercher un profil en utilisant les dernières lettres de son nom de famille.
 
-***Exemples de requêtes***
+***Exemples de demande***
 
 * Exemple de demande de filtrage des profils en fonction du prénom.
 
