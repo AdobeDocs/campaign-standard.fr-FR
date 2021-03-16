@@ -10,9 +10,9 @@ feature: Paramètres d’instance
 role: Administrateur
 level: Expérience
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '662'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> <span class="uicontrol">Réconciliation des KPI avec Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Ce workflow récupère les KPI du service de rapports une fois par jour et les réconcilie avec les données Adobe Analytics. Il envoie ensuite la différence si nécessaire. Par défaut, il se déclenche tous les jours à 4.20H00.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Gestion des opt-out NMAC</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Ce workflow met à jour les désinscriptions aux notifications sur les terminaux mobiles. Par défaut, il se déclenche toutes les 6H00 entre 1H00 et minuit.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Archivage local Message Center</span> <br /> </td> 
