@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '1874'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -56,7 +56,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
    >[!NOTE]
    >
-   >Lors du ciblage d’une audience, notez que la définition de la audience n’est pas référencée mais **copiée** dans la requête. Si vous apportez des modifications à l’audience une fois qu’elle a été ciblée dans une requête, veillez à la configurer de nouveau pour tenir compte de la nouvelle définition.
+   >Lors du ciblage d’une audience, veuillez noter que la définition de l’audience n’est pas référencée, mais **copiée** dans la requête. Si vous apportez des modifications à l’audience après son ciblage dans une requête, veillez à configurer de nouveau cette dernière afin que la nouvelle définition soit prise en compte.
 
 1. Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la population ciblée via un onglet dédié. Ces données sont stockées dans des colonnes additionnelles et sont exploitables uniquement pour le workflow en cours. Vous pouvez notamment ajouter des données provenant des tables de la base Adobe Campaign liées à la dimension de ciblage de la requête. Consultez la section [Enrichir des données](#enriching-data).
 
