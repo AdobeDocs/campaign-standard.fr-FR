@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '848'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ Trois systèmes doivent être approvisionnés et configurés pour cette intégra
 
 Des demandes d&#39;assistance peuvent être enregistrées auprès du service clientèle d&#39;Adobe.
 
-Pour tout problème lié aux flux de données d’intégration, veillez à inclure les informations suivantes :
+Pour tout problème lié aux flux de données d’intégration, veillez à inclure les informations suivantes :
 
 * **Propriétaire du processus** : architectes d’ingénierie
 * **Identifiant du processus ES** : fourni pendant le processus d’intégration
