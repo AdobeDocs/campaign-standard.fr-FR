@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Les audiences peuvent être définies au moment de la création du message via l
 
    >[!NOTE]
    >
-   >Lors du ciblage d’une audience, notez que la définition de la audience n’est pas référencée mais **copiée** dans la requête. Si vous apportez des modifications à l’audience une fois qu’elle a été ciblée dans une requête, veillez à la configurer de nouveau pour tenir compte de la nouvelle définition.
+   >Lors du ciblage d’une audience, veuillez noter que la définition de l’audience n’est pas référencée, mais **copiée** dans la requête. Si vous apportez des modifications à l’audience après son ciblage dans une requête, veillez à configurer de nouveau cette dernière afin que la nouvelle définition soit prise en compte.
 
 1. Définissez les **[!UICONTROL profils de test]** que vous souhaitez utiliser pour l’email. Les profils de test recevront les bons à tirer que vous pouvez envoyer pour tester l’email avant son envoi à la cible principale.
 
