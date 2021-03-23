@@ -11,10 +11,10 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
    * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../sending/using/about-deliverability.md).
 
-* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations présentées [dans cette page](../../sending/using/starting-new-platform.md).
+* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations détaillées sur [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Contactez votre représentant Adobe pour obtenir de l&#39;aide.
 
