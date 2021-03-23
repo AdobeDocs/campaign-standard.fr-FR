@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
-translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: ht
-source-wordcount: '1754'
+translation-type: tm+mt
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+workflow-type: tm+mt
+source-wordcount: '1743'
 ht-degree: 100%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 100%
       + [Comprendre la gestion des quarantaines](sending/using/understanding-quarantine-management.md)
    + Gestion de la délivrabilité {#managing-deliverability}
       + [A propos de la délivrabilité](sending/using/about-deliverability.md)
-      + [Démarrer une nouvelle plateforme](sending/using/starting-new-platform.md)
       + [Contrôle du contenu des emails](sending/using/control-email-content.md)
-      + [Amélioration de votre réputation](sending/using/improving-reputation.md)
-      + [Certification IP](sending/using/ip-certification.md)
-      + [Recommandations techniques](sending/using/technical-recommendations.md)
       + [Contrôle de la délivrabilité](sending/using/monitor-deliverability.md)
       + [Résolution des problèmes](sending/using/troubleshooting.md)
    + Utilisation des règles de typologie {#working-with-typology-rules}
