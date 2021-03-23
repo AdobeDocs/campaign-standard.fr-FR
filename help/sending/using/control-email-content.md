@@ -11,50 +11,65 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 99%
+source-wordcount: '801'
+ht-degree: 41%
 
 ---
 
 
 # Contrôle du contenu des emails{#control-email-content}
 
-Pour augmenter le taux de délivrabilité de vos emails et qu&#39;ils parviennent à vos destinataires, l&#39;email doit suivre un certain nombre de règles.
+<!--TO KEEP because specific to Campaign-->
 
-* **Le nom et l&#39;adresse de l&#39;expéditeur** : l&#39;adresse doit identifier explicitement l&#39;expéditeur qui doit être propriétaire du domaine et l&#39;avoir enregistré. Le registre du domaine ne doit pas être privatisé.
-* **L&#39;objet** : évitez les majuscules, la ponctuation et les mots fréquemment utilisés par les spammers (« gagner », « gratuit », etc.).
-* **Personnalisez votre email** : personnaliser l&#39;email augmente les chances d&#39;ouverture de votre message.
-* **Les images et le texte** : respectez un ratio texte/images correct (60% de texte et 40% d&#39;images).
-* **Le lien et la landing page de désinscription** : le lien de désinscription est indispensable, il doit être visible, valide et le formulaire fonctionnel.
-* **Utilisez les outils** proposés par Adobe Campaign pour optimiser le contenu de votre email (analyse de diffusion, analyse anti-spam).
+Pour que vos courriels atteignent vos destinataires et améliorent le taux de livraison de vos courriels, ils doivent respecter un certain nombre de règles. Sinon, le contenu de certains messages peut être détecté comme indésirable. Adobe Campaign fournit plusieurs outils pour que votre contenu respecte ces règles.
 
-Pour plus d&#39;informations sur la modification du contenu des emails, consultez la [présentation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md) et les [bonnes pratiques de conception de messages](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+Suivez les principes ci-dessous lors de la conception du contenu de votre message :
+
+* [Nom et adresse](#sender-name) de l&#39;expéditeur : l&#39;adresse doit identifier explicitement l&#39;expéditeur. Le domaine doit être détenu par l&#39;expéditeur et enregistré auprès de celui-ci. Le registre des domaines ne doit pas être privatisé.
+
+   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+* [Personnalisation et optimisation](#perso-send-time-optimization) du temps d’envoi : la personnalisation du contenu et la définition d’une heure d’envoi par destinataire augmentent les chances d’ouverture de votre message.
+* Images et texte : respectez un rapport texte/image correct (par exemple, 60 % de texte et 40 % d’images).
+* [Désinscription ](#opt-out) linkand landing page : le lien désinscription est essentiel. Il doit être visible et valide et le formulaire doit être fonctionnel.
+* Prévisualisation : utilisez les outils proposés par Adobe Campaign pour vérifier et optimiser le contenu de votre courrier électronique ([analyse antispam](#anti-spam-analysis), [Rendu du courrier électronique](#message-responsiveness)).
+
+Pour obtenir des conseils supplémentaires sur l&#39;optimisation de la délivrabilité lors de la conception de contenu, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+
+>[!NOTE]
+>
+>Pour plus d&#39;informations sur la modification du contenu des courriels, consultez les [Présentation du Concepteur de courriels](../../designing/using/designing-content-in-adobe-campaign.md) et les [meilleures pratiques de conception des messages](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nom et adresse de l&#39;expéditeur {#sender-name}
 
-Certains FAI vérifient la validité de l&#39;adresse d&#39;expéditeur (From) avant d&#39;accepter les messages. Une adresse erronée peut causer un refus de la part du serveur receveur. Il faut s&#39;assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance ou dans les scénarios les plus couramment utilisés. Contactez votre administrateur.
+Certains FAI vérifient la validité de l&#39;adresse de l&#39;expéditeur (**[!UICONTROL From]**) avant d&#39;accepter les messages. Une adresse mal formée peut entraîner son rejet par le serveur de réception.
 
 ![](assets/delivery_content_edition16.png)
 
-Voir à ce propos la section [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender).
+Il faut s&#39;assurer qu&#39;une adresse correcte est bien renseignée au niveau de l&#39;instance ou dans les scénarios les plus couramment utilisés. Pour ce faire, contactez votre administrateur.
 
-## Optimisation de l&#39;heure d&#39;envoi {#send-time-optimization}
+Pour plus d’informations sur ce sujet, voir [Définition de l’expéditeur de courrier électronique d’un courrier électronique](../../designing/using/subject-line.md#email-sender).
 
-Pour améliorer le taux de succès de vos messages, vous pouvez définir manuellement une heure d&#39;envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l&#39;heure spécifiées.
+## Personnalisation et optimisation du temps d&#39;envoi {#perso-send-time-optimization}
 
-Voir à ce propos la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
+Pour améliorer l’expérience de vos destinataires et les faire ouvrir, Adobe Campaign vous permet de personnaliser vos messages. Voir à ce propos [cette section](../../designing/using/personalization.md).
+
+Pour augmenter le taux d&#39;ouverture de vos messages, vous pouvez également définir manuellement une heure d&#39;envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l&#39;heure spécifiées. Voir à ce propos la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
 
 ## Lien et formulaire de désinscription {#opt-out}
 
-Par défaut, une règle de typologie vérifie au moment de l&#39;analyse qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence.
+Par défaut, une règle de typologie vérifie au moment de l&#39;analyse qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence. Pour plus d&#39;informations sur la gestion des liens, consultez [cette section](../../designing/using/links.md).
 
-Il faut vérifier du début à la fin le bon fonctionnement du lien de désinscription avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que sa validation active bien les cases Ne plus contacter cette personne. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire.
+Il faut vérifier du début à la fin le bon fonctionnement du lien de désinscription avant chaque envoi. Par exemple, lorsque [envoie le BAT](../../sending/using/sending-proofs.md), assurez-vous que le lien est valide, que le formulaire est en ligne et que la validation de cette opération vérifie les zones **[!UICONTROL Ne plus contacter]**. Cette vérification doit être systématique car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire. Pour plus d’informations sur la gestion de l’inclusion et de l’exclusion, voir [cette section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+
+![](assets/optin_landingpage_3.png)
 
 Au cas où un problème empêchant la désinscription ne serait détecté qu&#39;après le démarrage de la diffusion, il sera toutefois possible de désinscrire manuellement (à l&#39;aide d&#39;une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien de désinscription, même s&#39;ils n&#39;ont pas pu ou voulu confirmer ce choix.
 
-Sauf dans des cas particuliers, il ne faut pas tenter de freiner la désinscription en demandant à l&#39;utilisateur de remplir certains champs comme l&#39;email, le nom, etc. La landing page de désinscription ne devra comprendre qu&#39;un seul bouton de validation. Demander une confirmation supplémentaire de l&#39;email n&#39;est pas fiable : il se peut qu&#39;une même personne possède deux adresses email redirigées vers la même boîte (par exemple, prenom.nom@club.fr et prenom.nom@club-internet.fr). Si ce profil ne se souvient que de la première adresse et qu&#39;il souhaite se désinscrire via un message envoyé à la seconde, le formulaire refusera la modification, car l&#39;identifiant crypté et l&#39;email saisi ne correspondent pas.
+En règle générale, vous ne devriez pas essayer de gêner les destinataires qui souhaitent s’exclure en leur demandant de remplir des champs tels que leur adresse électronique ou leur nom, par exemple. Le landing page de désinscription ne doit comporter qu’un seul bouton de validation.
+
+La demande de confirmation supplémentaire n&#39;est pas fiable : un utilisateur peut voir deux adresses électroniques redirigées vers la même zone (par exemple : firstname.lastname@club.com et firstname.lastname@internet-club.com). Si le profil est capable de se souvenir de la première adresse seulement et souhaite se désabonner via un message envoyé à l&#39;autre, le formulaire refusera cette adresse car l&#39;identifiant chiffré et l&#39;adresse électronique saisie ne correspondent pas.
 
 ## Analyse anti-spam {#anti-spam-analysis}
 
@@ -64,12 +79,12 @@ Dans l&#39;éditeur de contenus des messages, cliquez sur **[!UICONTROL Prévisu
 
 ![](assets/sending_anti-spam_analysis.png)
 
-## Vérification de la réactivité des messages {#message-responsiveness}
+## Rendu des emails {#message-responsiveness}
 
-Avant d&#39;envoyer votre message, vous pouvez vérifier son aspect sur différents appareils. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
+Avant d&#39;envoyer votre message, vous pouvez tester la réactivité de votre message en vérifiant à quoi ressemblera votre message sur différents périphériques. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
+
+![](assets/inbox_rendering_report_3.png)
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
 Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
-
-![](assets/inbox_rendering_report_3.png)
