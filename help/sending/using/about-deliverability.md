@@ -11,72 +11,117 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 99%
+source-wordcount: '749'
+ht-degree: 17%
 
 ---
 
 
-# À propos de la délivrabilité{#about-deliverability}
+# Qu&#39;est-ce que la délivrabilité{#about-deliverability}
 
-La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam.
+La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam. [Découvrez pourquoi la délivrabilité est importante](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
-Le taux de délivrabilité dépend de nombreux facteurs et notamment :
+Plus précisément, la délivrabilité des e-mails se rapporte à l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, par l&#39;intermédiaire d&#39;une adresse e-mail personnelle, dans un laps de temps court, et avec la qualité attendue en termes de contenu et de format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* le bon paramétrage de vos instances
-* la réputation de vos adresses IP
-* la qualité des adresses ciblées
-* le faible taux de plaintes
-* le contenu de vos messages
-* l&#39;authentification des messages (SPF, DKIM, DMARC)
-* la réputation de l&#39;expéditeur
+Pour en savoir plus sur ce qu&#39;est la délivrabilité et pour en savoir plus sur les termes, concepts et approches clés de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
-## Points clés à vérifier {#deliverability-key-points}
+## Comment améliorer la délivrabilité {#deliverability-key-points}
 
-Afin d&#39;optimiser la délivrabilité de vos emails Adobe Campaign, nous vous recommandons de suivre les bonnes pratiques listées ci-dessous. Les problèmes de délivrabilité sont généralement liés à des mesures de protection contre les spams mises en place par les fournisseurs d&#39;accès à internet et les administrateurs de serveurs de mail.
+Les problèmes de délivrabilité sont généralement liés aux mesures de protection contre le spam mises en oeuvre par les prestataires Internet et les administrateurs de serveurs de messagerie.
 
-La délivrabilité des emails désigne l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, via une adresse email personnelle, en peu de temps, et avec la qualité attendue en termes de contenu et de format. Ces caractéristiques se divisent en quatre catégories principales : qualité des données, message et contenu, infrastructure d&#39;envoi et réputation. Ensemble, elles forment la base d&#39;un programme performant de délivrabilité des emails.
+* Pour obtenir des recommandations générales sur la manière de concevoir des campagnes de marketing par courriel réussies, consultez la [Stratégie et définition de la délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
 
-Le taux de délivrabilité est le nombre d&#39;emails envoyés qui ont été délivrés avec succès aux destinataires.
-Voici une liste de points clés à vérifier pour assurer une bonne délivrabilité.
+* Pour des recommandations plus spécifiques sur la façon d&#39;optimiser la délivrabilité de vos courriels Adobe Campaign, nous vous recommandons d&#39;utiliser les meilleures pratiques répertoriées dans cette section.
 
-## Outils de délivrabilité {#deliverability-tools}
+>[!NOTE]
+>
+>Les FAI étant obligés de développer continuellement de nouvelles techniques de filtrage sophistiquées pour protéger leurs clients contre les spammeurs, la délivrabilité des courriels se caractérise par des critères et des règles en constante évolution. Consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) régulièrement mis à jour.
 
-Tout d&#39;abord, consultez la documentation sur les outils de délivrabilité fournis par Adobe Campaign :
+### Taux de délivrabilité
+
+Le taux de délivrabilité est le nombre de messages qui ont atteint les boîtes de réception des destinataires par rapport au nombre de messages qui ont été remis. Pour améliorer la délivrabilité, vous pouvez augmenter ce taux.
+
+Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, notamment :
+
+* Configuration correcte de vos instances : contactez votre représentant d&#39;Adobe pour obtenir de l&#39;aide.
+* Configuration réseau légitime : voir [cette section](../../sending/using/optimize-delivery.md#network-config) et [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Votre réputation d&#39;adresse IP : voir [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Qualité des adresses ciblées : voir [Gestion des Quarantaines](../../sending/using/optimize-delivery.md#quarantine-management).
+* Faibles taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) et de [rebond](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
+* Contenu de votre message : voir [Contrôle du contenu du courrier électronique](../../sending/using/control-email-content.md).
+* Authentification des messages (SPF, DKIM, DMARC) : voir [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Connaissance de l&#39;expéditeur : pour savoir comment les principaux FAI évaluent la réputation d&#39;un expéditeur, voir [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+
+## Outils de délivrabilité de Campaign {#deliverability-tools}
+
+Adobe Campaign fournit un certain nombre d’outils permettant de suivre et d’améliorer les performances de délivrabilité de votre plate-forme. Cette page met également en évidence les principaux principes que vous devez garder à l&#39;esprit pour optimiser la délivrabilité lors de l&#39;utilisation de Campaign.
+
+### Créez soigneusement votre message
+
+Lors de la configuration, de la conception et du test de votre message, veillez à respecter les meilleures pratiques mentionnées dans les sections ci-dessous. L&#39;exploitation de toutes les fonctionnalités fournies par Adobe Campaign vous aidera à améliorer la délivrabilité.
+
 * [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
-* [Personnaliser le nom de l&#39;expéditeur](../../designing/using/personalization.md#personalizing-the-sender)
-* [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md)
+* [Contrôle du contenu des emails](../../sending/using/control-email-content.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
-* [Rendu des emails](../../sending/using/email-rendering.md)
-* [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
-* [Recevoir des alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
+
+### Vérifier le consentement au moyen de l&#39;inclusion de doublon {#double-opt-in}
+
+Pour éviter d&#39;envoyer des messages à des adresses incorrectes, limiter les communications incorrectes et améliorer la réputation de l&#39;expéditeur, l&#39;Adobe recommande la mise en oeuvre d&#39;un mécanisme d&#39;inclusion doublon. Cela vous permet de vous assurer que vos destinataires se sont abonnés intentionnellement.
+
+Pour plus d’informations à ce sujet, voir [A propos de l’inclusion et de l’exclusion dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+Pour plus d&#39;informations sur les meilleures pratiques lors de la collecte de données auprès de vos clients, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+
+### Exploitation de la gestion des quarantaines
+
+Adobe Campaign gère une liste qui recueille les plaintes contre le spam, les rebonds durs et les rebonds doux qui se produisent de manière cohérente.
+
+Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur cette liste sont exclus par défaut de toutes les diffusions futures, car envoyer à ces contacts pourrait nuire à votre réputation d&#39;envoi.
+
+Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
+
+Voir à ce propos les sections suivantes :
+
 * [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Quarantaine et liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### Utilisation des outils de surveillance et de rapports
+
+Utilisez les fonctionnalités offertes par Adobe Campaign pour surveiller votre délivrabilité.
+
+Adobe Campaign vous permet de vérifier les performances de vos diffusions à l’aide d’un ensemble d’indicateurs intégrés en temps réel. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->Vous pouvez également créer des rapports entièrement personnalisables et en temps réel pour mieux comprendre vos diffusions.
+
+Voir à ce propos les sections suivantes :
+
+* [Contrôle de la délivrabilité](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [Recevoir des alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Vérifier la configuration du réseau {#network-configuration}
+<!--## General recommendations
 
-Les spammeurs cherchent à cacher leur véritable identité et par conséquent rendent leurs serveurs d&#39;envoi difficilement identifiables. Une configuration réseau correcte, qui ne cherche pas à cacher d&#39;information, est un préalable à tout envoi en masse.
+NOT SURE TO KEEP
 
-## Envoi à des adresses valides {#valid-addresses}
+Here are a few additional recommendations when it comes to deliverability.
 
-Les spammeurs utilisent parfois des générateurs d&#39;adresses basés sur des listes de prénoms et de noms fréquents ; d&#39;autre part, ils traitent rarement les notifications techniques renvoyées par les serveurs de messagerie. Un taux d&#39;adresses invalides élevé dans une diffusion est souvent interprété comme la marque d&#39;un spammeur. Une inscription par double opt-in et une gestion rigoureuse des rebonds techniques permet d&#39;éviter cela.
+### Send to valid addresses {#valid-addresses}
 
-## Réduction du taux de plaintes {#reduce-complaint-rate}
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-Les FAI ont systématisé la mise à disposition d&#39;une fonction &quot;Ceci est un spam&quot; pour permettre aux utilisateurs de rapporter les emails non sollicités et en déduire les envoyeurs. Une gestion honnête des demandes, une diffusion régulière sur sa liste, la vérification des inscriptions par double opt-in, la facilité de désinscription et son temps de prise en compte et surtout la mise en place de boucles de rétro-action ou &quot;feedback loop&quot; permettent de diminuer les taux de plaintes.
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## Envoi à des adresses pièges {#honeypot-addresses}
+### Reduce complaint rate {#reduce-complaint-rate}
 
-Les FAI et d&#39;autres organisations (voir le site https://www.projecthoneypot.org/) créent des boîtes mails ne correspondant à aucune personne physique dans le but de piéger les spammeurs. Ces adresses piège ou &quot;honey pots&quot; sont publiées sur le web dans le but qu&#39;elles soient trouvées par les robots collecteurs d&#39;adresses des spammeurs et pour ainsi en déduire les expéditeurs illégitimes. Un mécanisme de double opt-in empêche totalement l&#39;ajout de ce genre d&#39;adresses. Quand on utilise une liste fournie par un tiers, il faut être sûr des méthodes employées par ce dernier.
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## Adaptation du contenu des messages {#adapt-message-content}
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-Dans une moindre mesure, le contenu des messages peut amener certains filtres à détecter un spam. L&#39;emploi de certains mots, l&#39;usage de points d&#39;exclamation dans le corps ou le sujet du message doit être mesuré. Une parade temporaire des spammeurs a consisté à remplacer le texte interdit par des images dont le texte ne peut pas être examiné automatiquement par les filtres anti-spam. En réponse à cela, un message (au format HTML) contenant une trop forte proportion d&#39;images peut désormais être bloqué, de même qu&#39;un message embarquant les images en pièces-jointes.
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## Envois réguliers {#regular-deliveries}
-
-Les spammeurs font des envois ponctuels pour maintenir leur réputation dans le temps. Il est parfois nécessaire d&#39;adapter son plan marketing pour répondre aux exigences des bonnes pratiques imposées par les FAI et donc, après la phase de montée en réputation (ram-up), paramétrer des envois réguliers.
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
