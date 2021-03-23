@@ -11,10 +11,10 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '480'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
 * **Quelle est la différence entre une adresse email en liste bloquée et une adresse email en quarantaine ?**
 
-   * Le statut **[!UICONTROL Sur la liste bloquée]** signifie que l’un de vos destinataires a déclaré un message comme étant un spam.
+   * L&#39;état **[!UICONTROL À la liste bloquée]** est le résultat d&#39;une boucle de rétroaction [](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (lorsqu&#39;une personne signale un message comme indésirable).
 
    * L’application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
    Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
