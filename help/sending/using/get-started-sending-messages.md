@@ -9,10 +9,10 @@ topic-tags: about-sending-messages-with-campaign
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 99%
+source-wordcount: '598'
+ht-degree: 97%
 
 ---
 
@@ -86,9 +86,8 @@ En savoir plus :
 
 * [À propos de la délivrabilité](../../sending/using/about-deliverability.md)
 * [Contrôle de la délivrabilité](../../sending/using/monitor-deliverability.md)
-* [Amélioration de votre réputation](../../sending/using/improving-reputation.md)
-* [Recommandations techniques](../../sending/using/technical-recommendations.md)
-* [Contrôle du débit des diffusions](../../reporting/using/delivery-throughput.md)
+* [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Contrôle du débit des Diffusions](../../reporting/using/delivery-throughput.md)
 
 ## Autres ressources
 
