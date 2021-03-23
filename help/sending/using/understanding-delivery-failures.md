@@ -10,10 +10,10 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1318'
-ht-degree: 99%
+source-wordcount: '1368'
+ht-degree: 96%
 
 ---
 
@@ -38,6 +38,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Identifier les diffusions en échec pour un message  {#identifying-delivery-failures-for-a-message}
 
@@ -75,7 +76,12 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | **[!UICONTROL Texte trop long]** | Ignoré | Le nombre de caractères du SMS dépasse la limite autorisée. Voir à ce propos la section [Encodage, longueur et translittération des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration). |
 | **[!UICONTROL Caractère non pris en charge par le codage]** | Ignoré | Le message SMS contient un ou plusieurs caractères qui ne sont pas pris en charge par le codage. Voir à ce propos la section [Table des caractères - Norme GSM](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard). |
 
-## Reprises après une diffusion temporairement en échec   {#retries-after-a-delivery-temporary-failure}
+
+**Rubriques connexes :**
+* [Hard bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Soft bounces](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
+## Reprises après une diffusion temporairement en échec    {#retries-after-a-delivery-temporary-failure}
 
 Si un message est en échec en raison d’une erreur temporaire du type **Ignoré**, les reprises seront effectuées pendant la durée de la diffusion. Pour plus d’informations sur les types d’erreurs, voir [Types de diffusion en échec et raisons](#delivery-failure-types-and-reasons).
 
@@ -91,13 +97,12 @@ Pour modifier la durée d’une diffusion, accédez aux paramètres avancés de 
 
 Par exemple, si vous souhaitez que les reprises d’une diffusion s’arrêtent après un jour, vous pouvez définir la durée de la diffusion sur **1j**. Les messages de la file d’attente des nouvelles reprises seront alors supprimés après un jour.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >Une fois qu’un message figure dans la file d’attente pour un délai maximal de 3,5 jours et qu’il n’a pas été diffusé, il expire et son état est mis à jour<!--from **[!UICONTROL Sent]**--> sur **[!UICONTROL Échec]** dans les [logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Erreurs synchrones et asynchrones   {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 >
 >Les qualifications bounce figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
 
-Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, voir cette [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, voir [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+Pour en savoir plus sur les rebonds et les différents types de rebonds, voir [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
