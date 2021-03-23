@@ -5,12 +5,12 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
-breadcrumb-title: Centre d'aide
-translation-type: tm+mt
+breadcrumb-title: Centre d’aide
+translation-type: ht
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1754'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
       + [Gestion de la confidentialité](start/using/privacy-management.md)
       + [Demandes d&#39;accès à des informations personnelles](start/using/privacy-requests.md)
       + [FAQ relatif à la protection des données personnelles](start/using/privacy-faq.md)
-   + [Options d’aide et d’assistance](support.md)
+   + [Options d’aide et de support](support.md)
 + Profils et audiences {#profiles-and-audiences}
    + [Prise en main des profils et audiences](audiences/using/get-started-profiles-and-audiences.md)
    + Gestion de profils {#managing-profiles}
