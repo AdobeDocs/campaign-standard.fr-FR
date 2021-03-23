@@ -10,10 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 99%
+source-wordcount: '525'
+ht-degree: 87%
 
 ---
 
@@ -41,9 +41,12 @@ L&#39;intégration prend en charge deux types d&#39;identifiants Adobe Experienc
 * **Declared ID** : ce type d’identifiant permet de réconcilier tout type de données provenant de la base de données Adobe Campaign. Dans Adobe Campaign, il est représenté sous la forme d’une clé de réconciliation prédéfinie. Lors de l’échange de données, les identifiants de la base de données Adobe Campaign sont hachés. Ces identifiants hachés sont ensuite comparés aux identifiants hachés de l’audience Adobe Marketing Cloud impliquée dans l’import ou l’export.
    <br>Cette intégration prend en charge les identifiants Declared ID standard, hachés et cryptés.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >L’identifiant Declared ID ne fonctionne qu’avec Adobe Audience Manager. Il ne fonctionnera pas sans lui.
+   >La source de données d’ID déclarée peut désormais également être utilisée avec l’intégration du service principal People.
+   >
+   >Si vous utilisez l’intégration de service principal People et souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager pour éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
+
 
    Le cryptage permet de partager des données cryptées dans des sources de données (informations d&#39;identification personnelles, par exemple) à l&#39;aide de l&#39;identifiant Declared ID en spécifiant l&#39;algorithme de cryptage.
 
