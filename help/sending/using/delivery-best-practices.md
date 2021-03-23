@@ -11,10 +11,10 @@ feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Découvrez les bonnes pratiques en matière de conception et d&#39;envoi de diff
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Personnaliser le contenu](optimize-delivery.md)** - Appliquer les paramètres corrects
+**[Personnaliser le contenu](design-and-personalize.md)** - Appliquer les paramètres corrects
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
