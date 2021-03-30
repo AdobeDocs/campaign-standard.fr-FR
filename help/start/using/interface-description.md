@@ -6,14 +6,14 @@ description: '"Découvrez comment naviguer dans Adobe Campaign et utiliser l’e
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 'Vue d’ensemble '
+feature: Vue d’ensemble
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Tous les écrans d’Adobe Campaign se composent des éléments suivants :
 
 ![](assets/ux_interface_01.png)
 
-## Page d’accueil  {#home-page}
+## Page d’accueil   {#home-page}
 
 La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d’Adobe Campaign. La liste des capacités figurant dans la page d’accueil de Campaign dépend de vos permissions et des options configurées pour votre organisation.
 
