@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+workflow-type: tm+mt
 source-wordcount: '4696'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Création de contenu : import depuis une URL<br /> </td> 
-   <td> L’import depuis une URL permet de récupérer rapidement votre contenu créatif à partir d’un site web afin de créer des emails pour n’importe quelle diffusion. Vous pouvez en outre rationaliser votre processus de création en permettant à des tiers de partager du contenu directement via une URL. Le contenu importé peut être utilisé de manière flexible dans le cadre d’une diffusion unique ou au niveau des modèles, ce qui garantit la cohérence de la marque pour toutes les campagnes associées, qu’il s’agisse de messages basés sur un workflow ou transactionnels, et comprenant des tests A/B ou multivariés. L’import depuis une URL convertit et effectue automatiquement le tracking de tous les liens afin de surveiller les performances des emails via le reporting dynamique.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">documentation détaillée</a>.<br /> </td> 
+   <td> L’import depuis une URL permet de récupérer rapidement votre contenu créatif à partir d’un site web afin de créer des emails pour n’importe quelle diffusion. Vous pouvez en outre rationaliser votre processus de création en permettant à des tiers de partager du contenu directement via une URL. Le contenu importé peut être utilisé de manière flexible dans le cadre d’une diffusion unique ou au niveau des modèles, ce qui garantit la cohérence de la marque pour toutes les campagnes associées, qu’il s’agisse de messages basés sur un workflow ou transactionnels, et comprenant des tests A/B ou multivariés. L’import depuis une URL convertit et effectue automatiquement le tracking de tous les liens afin de surveiller les performances des emails via le reporting dynamique.<br /> Pour plus d’informations, consultez la <a href="../../designing/using/using-existing-content.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +177,7 @@ _Profils et audiences_
 * Adobe Campaign contient désormais un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Pour plus d’informations, consultez la [documentation détaillée](../../audiences/using/active-profiles.md).
 * Correction d’une erreur qui empêchait l’inscription des profils à un service lors de l’utilisation de l’API Profils et Services.
 
-## Version 17.7 - Juillet 2017               {#release-17-7---july-2017}
+## Version 17.7 - Juillet 2017                {#release-17-7---july-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -253,7 +253,7 @@ _Workflows_
 * Correction d’une erreur qui vous empêchait de définir une transition sortante dans l’assistant de création de diffusion récurrente.
 * Correction d’une erreur qui se produisait lors de l’utilisation d’une activité de requête de workflow basée sur un champ de ressource personnalisée avec une énumération comportant un grand nombre de valeurs.
 
-## Version 17.5 - Mai 2017               {#release-17-5---may-2017}
+## Version 17.5 - Mai 2017                {#release-17-5---may-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -300,7 +300,7 @@ _Notifications push_
 * Correction d’une erreur qui vous empêchait de cliquer sur une notification push dans l’historique marketing d’un profil.
 * L’utilisation des notifications push dans les workflows a été améliorée.
 
-## Version 17.4 - Avril 2017               {#release-17-4---april-2017}
+## Version 17.4 - Avril 2017                {#release-17-4---april-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -385,7 +385,7 @@ _Notifications push_
 * Correction d’une erreur en raison de laquelle un message d’erreur n’était pas affiché lors de la création d’une application Android associée à une application mobile n’ayant pas pu être créée sur MCPNS.
 * Correction d’une erreur qui permettait à un utilisateur d’ajouter des sons à une notification silencieuse.
 
-## Version 17.2 - Mars 2017               {#release-17-2---march-2017}
+## Version 17.2 - Mars 2017                {#release-17-2---march-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -403,7 +403,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -459,7 +459,7 @@ _Emails et SMS_
 * Correction d’une erreur qui pouvait provoquer la dépublication d’emails transactionnels.
 * Correction d’une erreur suite à laquelle le contenu ne pouvait pas être synchronisé correctement avec les dernières modifications avant la prévisualisation d’une diffusion.
 
-_Landing pages_
+_Landings page_
 
 * Correction d’une erreur qui empêchait l’édition en cliquant dans le contenu d’une landing page.
 
