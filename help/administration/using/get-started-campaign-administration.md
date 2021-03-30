@@ -6,14 +6,14 @@ description: Découvrez la gestion des utilisateurs et des autorisations, les co
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Gestion de l’accès
+feature: Gestion des accès
 role: Administrateur
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 99%
+source-wordcount: '646'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ En tant que solution cloud, Adobe Campaign propose aux administrateurs plusieurs
 >
 >Pour toute question ou demande concernant l&#39;implémentation et la configuration, contactez votre chargé de compte Adobe.
 
-Notez que si votre instance est hébergée sur AWS, les administrateurs peuvent également utiliser le panneau de contrôle de Campaign pour gérer les paramètres et suivre les utilisations de chacune de vos instances. Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
+Notez que les administrateurs peuvent également utiliser le Panneau de Contrôle Campaign pour gérer les paramètres et suivre les utilisations de chacune de vos instances. Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr).
 
 ## Menu Administration {#administration-menu}
 
