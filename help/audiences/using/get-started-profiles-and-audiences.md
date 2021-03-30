@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Profils
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -92,4 +92,4 @@ Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign
 * [Utilisation de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
-* [Vidéos sur les profils et les audiences](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vidéos sur les profils et les audiences](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
