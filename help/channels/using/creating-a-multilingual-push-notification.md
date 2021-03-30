@@ -9,11 +9,11 @@ topic-tags: push-notifications
 feature: Push
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Pour utiliser les variantes de contenus multilingues pour votre diffusion de not
 * [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Etape 3 : envoi et analyse de la diffusion de notification push multilingue ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Etape 1 : téléchargement d&#39;une variante de contenu multilingue     {#step-1--upload-multilingual-content-variant}
+## Etape 1 : téléchargement d&#39;une variante de contenu multilingue      {#step-1--upload-multilingual-content-variant}
 
 Avant de personnaliser votre notification push multilingue, vous devez télécharger les variantes de contenus dans un modèle de diffusion multilingue et créer la diffusion.
 
