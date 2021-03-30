@@ -6,14 +6,14 @@ description: Avec les rapports dynamiques, placez des variables et des dimension
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Leader
+feature: Reporting
+role: Directeur
 level: Débutant
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
