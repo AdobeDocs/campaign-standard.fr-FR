@@ -10,11 +10,11 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 feature: Courrier
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Assurez-vous que la case **[!UICONTROL Adresse renseignée]** est cochée dans l
 
 ![](assets/direct_mail_22.png)
 
-### Adresses postales     {#postal-addresses}
+### Adresses postales      {#postal-addresses}
 
 Lors de l&#39;ajout des champs à inclure dans le fichier d&#39;extraction, les champs d&#39;adresse postale sont accessibles dans le nœud **[!UICONTROL Localisation]**.
 
