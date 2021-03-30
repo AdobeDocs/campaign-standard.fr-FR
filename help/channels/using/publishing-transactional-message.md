@@ -10,11 +10,11 @@ context-tags: null
 feature: Messages transactionnels
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## Publier un message transactionnel           {#publishing-a-transactional-message}
+## Publier un message transactionnel            {#publishing-a-transactional-message}
 
 Une fois que vous avez validé et testé le message transactionnel, vous pouvez le publier. Cliquez sur le bouton **[!UICONTROL Publier]**.
 
