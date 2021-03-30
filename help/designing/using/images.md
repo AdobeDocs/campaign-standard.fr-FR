@@ -6,14 +6,14 @@ description: Découvrez comment gérer des images dans les emails avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception de courrier électronique
+feature: Conception d’email
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Selon votre configuration, les types d&#39;images suivants sont disponibles :
 >
 >Si vous choisissez d&#39;ajouter une image directement en éditant la version HTML de l&#39;email, vous ne devez pas appeler les **fichiers externes dans une balise &lt;script>** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
-### Insérer des images dans un email     {#inserting-images-in-an-email}
+### Insérer des images dans un email      {#inserting-images-in-an-email}
 
 1. Ajoutez un composant de structure. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
