@@ -7,14 +7,14 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Opérations
+feature: Campagnes
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Des rapports sur les programmes et les campagnes permettent d&#39;analyser leur 
 * [Planning](../../start/using/timeline.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
-## Créer un programme    {#creating-a-program}
+## Créer un programme     {#creating-a-program}
 
 Le programme correspond au premier niveau de l&#39;organisation. Il peut contenir des sous-programmes, des campagnes, des workflows ou des landing pages.
 
