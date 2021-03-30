@@ -6,14 +6,14 @@ description: Découvrez comment concevoir des emails à partir de zéro dans le 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception de courrier électronique
+feature: Conception d’email
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ Utilisez ce composant pour copier-coller les différentes parties de votre code 
 
 >[!NOTE]
 >
->Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la       section **head** du code HTML, sinon l’email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
+>Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la        section **head** du code HTML, sinon l’email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
 Pour rendre un contenu externe compatible avec le Concepteur d’email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
@@ -203,7 +203,7 @@ Le composant carrousel n’est pas compatible avec tous les programmes de messag
 
 **Rubriques connexes** :
 
-- [Créer un email](../../channels/using/creating-an-email.md)
+- [Création d’un email](../../channels/using/creating-an-email.md)
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
