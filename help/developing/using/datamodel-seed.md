@@ -7,12 +7,12 @@ audience: developing
 content-type: reference
 feature: Modèle de données
 role: Développeur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 98%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
@@ -157,7 +157,7 @@ ht-degree: 98%
                <tr>
                   <td>proof</td>
                   <td>Proof</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
@@ -175,7 +175,7 @@ ht-degree: 98%
                <tr>
                   <td>sampleData</td>
                   <td>Sample data</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
@@ -211,7 +211,7 @@ ht-degree: 98%
                <tr>
                   <td>trap</td>
                   <td>Trap</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
             </table>
@@ -252,16 +252,16 @@ Par usage (byUsage)
         <th>Type</th>
         </tr>
         <tr>
-        <td>piège</td>
-        <td>booléen</td>
+        <td>trap</td>
+        <td>boolean</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>booléen</td>
+        <td>boolean</td>
         </tr>
         <tr>
-        <td>BAT</td>
-        <td>booléen</td>
+        <td>proof</td>
+        <td>boolean</td>
         </tr>
     </table>
 
