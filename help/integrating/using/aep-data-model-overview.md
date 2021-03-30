@@ -6,14 +6,14 @@ description: Experience Data Model (XDM) est un ensemble standard de schémas 
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Intégration de Microsoft CRM
+feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,4 +49,4 @@ Vous pouvez effectuer les actions suivantes via l’API de schéma XDM :
 * afficher des descripteurs de schéma ;
 * créer, mettre à jour et supprimer des descripteurs de schéma.
 
-Tous les détails relatifs à la manipulation des appels d’API sont disponibles dans le [Guide du développeur](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Tous les détails relatifs à la manipulation des appels d’API sont disponibles dans le [Guide du développeur](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html).
