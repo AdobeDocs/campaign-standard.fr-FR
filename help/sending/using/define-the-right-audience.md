@@ -1,20 +1,20 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Définir l’audience appropriée
+title: Définition de l’audience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Lorsque votre contenu est prêt, apprenez comment définir soigneusement qui recevra votre message."'
+description: « Lorsque votre contenu est prêt, apprenez à soigneusement définir qui recevra votre message. »
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
