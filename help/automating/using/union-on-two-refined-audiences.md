@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+role: Architecte de données
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
