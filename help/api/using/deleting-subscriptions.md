@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Ingénieur de données
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Suppression d’un abonnement de service pour un profil spécifique   {#deleting-service-subscription}
+## Suppression d’un abonnement de service pour un profil spécifique    {#deleting-service-subscription}
 
 Cette procédure comporte trois étapes.
 
