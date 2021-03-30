@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ En savoir plus :
 
 * [À propos de la délivrabilité](../../sending/using/about-deliverability.md)
 * [Contrôle de la délivrabilité](../../sending/using/monitor-deliverability.md)
-* [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr-FR)
 * [Contrôle du débit des Diffusions](../../reporting/using/delivery-throughput.md)
 
 ## Autres ressources
