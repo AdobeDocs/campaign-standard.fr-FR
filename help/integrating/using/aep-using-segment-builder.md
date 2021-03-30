@@ -10,11 +10,11 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Intégration de Microsoft CRM
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '901'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -97,7 +97,7 @@ Le symbole à la fin de chaque champ fournit des informations supplémentaires s
 
 >[!NOTE]
 >
->La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+>La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://docs.adobe.com/content/help/fr-FR/experience-platform/segmentation/ui/overview.html).
 
 Pour créer une règle, procédez comme suit :
 
