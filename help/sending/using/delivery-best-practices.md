@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Découvrez les bonnes pratiques en matière de conception et d'envoi de diffusions avec Adobe Campaign.
+description: Découvrez les bonnes pratiques en matière de conception et d’envoi de diffusions avec Adobe Campaign.
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
