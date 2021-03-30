@@ -8,9 +8,9 @@ feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 100%
   </td>
   <td valign="top">
        <img alt="Assistance" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/fr/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Obtenir une assistance</strong></a>
     </div>
     <p><em>Accédez aux FAQ, aux bonnes pratiques, aux ressources d’aide et entrez en contact avec des experts</em></p>
