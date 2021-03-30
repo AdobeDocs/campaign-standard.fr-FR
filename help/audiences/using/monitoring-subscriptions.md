@@ -6,14 +6,14 @@ description: Découvrez comment tracker vos abonnés et mesurer les performances
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 'Audiences '
+feature: Audiences
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous disposez de plusieurs options pour contrôler les inscriptions et désinscr
 * Affichez un rapport détaillant l’évolution des abonnements et des désabonnements dans les **Rapports** du service. Voir [Rapports du service](#service-reports).
 * Recherchez la liste des services auxquels une personne a souscrit depuis son **Profil**. Voir [Historique des événements liés à un profil](#history-of-events-linked-to-a-profile).
 
-## Tableau de bord du service   {#service-dashboard}
+## Tableau de bord du service    {#service-dashboard}
 
 Pour visualiser la liste des personnes inscrites à un service :
 
