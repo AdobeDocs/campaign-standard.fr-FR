@@ -12,11 +12,11 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Confidentialité
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 >[!NOTE]
 >
->Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
