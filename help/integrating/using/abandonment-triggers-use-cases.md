@@ -9,11 +9,11 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Cette section détaille divers cas pratiques qui peuvent être implémentés via
 >
 >Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et cryptés sont également pris en charge. Vous pouvez envoyer des emails/SMS à un profil qui n&#39;existe pas dans Campaign en décryptant directement l&#39;adresse email/le numéro de mobile cryptés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
 
-## Conditions requises   {#pre-requisites}
+## Conditions requises    {#pre-requisites}
 
 Afin de pouvoir mettre en œuvre ces cas pratiques, vous devez avoir accès aux solutions/Core Services suivants :
 
