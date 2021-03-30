@@ -10,16 +10,16 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Exemples de requêtes     {#query-samples}
+# Exemples de requêtes      {#query-samples}
 
 Cette section présente un cas pratique d’utilisation d’une activité de **[!UICONTROL Requête]**. Pour plus d’informations sur l’utilisation d’une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md).
 
