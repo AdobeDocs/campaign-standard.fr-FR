@@ -7,21 +7,21 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-feature: 'Reporting '
-role: Leader
+feature: Reporting
+role: Directeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Synthèse des bounces{#bounce-summary}
 
-Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours). (voir la section [Compréhension des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
+Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours (voir la section [Compréhension des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
