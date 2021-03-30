@@ -8,11 +8,11 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Après avoir créé un événement déclencheur dans Adobe Campaign en fonction
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d’être créé. Voir à ce propos la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
-## Édition du modèle de message transactionnel       {#editing-the-transactional-message-template}
+## Édition du modèle de message transactionnel        {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l’événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d’un déclencheur mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
