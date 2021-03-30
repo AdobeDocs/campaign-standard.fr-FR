@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Paramètres d’instance
+feature: Paramètres de l’instance
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Le suivi des notifications locales peut être divisé en trois types :
 
 * **Impressions locales** : lorsqu’une notification locale a été envoyée à l’appareil et qu’elle se trouve dans le centre de notification, mais qu’elle n’a pas du tout été touchée. Dans la plupart des cas, le nombre des impressions doit être similaire, voire identique à celui des diffusions. Cela garantit que l&#39;appareil a bien reçu le message et a transmis cette information au serveur.
 
-* **clic**  local : lorsqu&#39;une notification locale a été remise au périphérique et que l&#39;utilisateur a cliqué sur la notification. L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures locales) ou l’ignorer.
+* **Clic local** : lorsqu’une notification locale a été envoyée à l’appareil et que l’utilisateur a cliqué sur cette dernière. L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures locales) ou l’ignorer.
 
 * **Ouverture locale** : lorsqu’une notification locale a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de cette dernière. Cette mesure est similaire au clic local, sauf qu’une ouverture locale ne sera pas déclenchée si la notification a été ignorée.
 
@@ -39,17 +39,17 @@ Pour envoyer des informations de suivi, trois variables doivent être envoyées�
 
 | Variable | Valeur |
 | :-: | :-: |
-| deliveryId | `deliveryId` des données entrantes (semblable au suivi Push où  `_dld` est utilisé) |
-| broadlogId | `broadlogId` des données entrantes (semblable au suivi Push où  `_mld` est utilisé) |
+| deliveryId | `deliveryId` à partir des données entrantes (similaire au suivi push où `_dld` est utilisé) |
+| broadlogId | `broadlogId` à partir des données entrantes (similaire au suivi push où `_mld` est utilisé) |
 | action | « 1 » pour Ouverture, « 2 » pour Clic et « 7 » pour Impression |
 
-## Mise en oeuvre du suivi des impressions locales {#implement-local-impression-tracking}
+## Implémentation du suivi des impressions locales {#implement-local-impression-tracking}
 
-Le Adobe Experience Platform Mobile SDK envoie automatiquement le événement d’impression pour Android et iOS sans configuration supplémentaire.
+Le SDK mobile d’Adobe Experience Platform envoie automatiquement l’événement d’impression pour Android et iOS, et ce, sans configuration supplémentaire.
 
-## Mise en oeuvre du suivi des clics {#implementing-click-tracking}
+## Implémentation du suivi des clics {#implementing-click-tracking}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
+Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 
 ### Pour Android {#implement-click-tracking-android}
 
@@ -57,7 +57,7 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 * L’utilisateur voit la notification, mais l’efface.
 
-   Pour effectuer le suivi des clics en cas de scénario de rejet, ajoutez le récepteur de diffusion `NotificationDismissalHandler` dans le fichier AndroidManifest de votre module d&#39;application.
+   Pour effectuer le suivi des clics dans le cadre d’un scénario de rejet, ajoutez le récepteur de diffusion `NotificationDismissalHandler` dans le fichier AndroidManifest de votre module d’application.
 
    ```
    <receiver
@@ -65,13 +65,13 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
    </receiver>
    ```
 
-* L&#39;utilisateur voit la notification et clique dessus, ce qui se transforme en suivi d’ouvertures.
+* L’utilisateur voit la notification et clique dessus, ce qui se transforme en suivi d’ouvertures.
 
-   Ce scénario doit générer un clic et un ouverture. Le suivi de ce clic fera partie de l’implémentation nécessaire pour suivre l’ouverture. Voir [Implémentation du suivi ouvert](#implement-open-tracking).
+   Ce scénario doit générer un clic et une ouverture. Le suivi de ce clic fera partie de l’implémentation nécessaire pour suivre les ouvertures. Voir [Implémentation du suivi d’ouvertures](#implement-open-tracking).
 
 ### Pour iOS {#implement-click-tracking-ios}
 
-Pour envoyer les informations de suivi des clics, vous devez ajouter les éléments suivants :
+Pour envoyer les informations de suivi des clics, vous devez ajouter les éléments suivants :
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -102,7 +102,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Mise en oeuvre du suivi ouvert {#implement-open-tracking}
+## Implémentation du suivi d’ouvertures {#implement-open-tracking}
 
 Vous devez envoyer « 1 » et « 2 » car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée / ouverte par le biais d’une notification locale, aucun événement de suivi ne se produit.
 
