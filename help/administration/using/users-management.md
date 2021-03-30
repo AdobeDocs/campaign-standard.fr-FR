@@ -6,14 +6,14 @@ description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécif
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion de l’accès
+feature: Gestion des accès
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1281'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Pour accéder à l’interface de gestion des utilisateurs à partir d’Adobe C
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer les permissions utilisateur](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* Vidéo [Gérer les permissions utilisateur](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -78,7 +78,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Exporter et importer des packages de données](../../automating/using/managing-packages.md) : échangez des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 * [Exporter des logs](../../automating/using/exporting-logs.md) et [définir des modèles d’import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
 
-### Utilisateurs experts           {#advanced-users}
+### Utilisateurs experts            {#advanced-users}
 
 Les utilisateurs experts sont des utilisateurs marketing qui effectuent les tâches les plus techniques dans Adobe Campaign. Ils préconfigurent tous les éléments utilisés par les marketeurs pour envoyer et contrôler leurs diffusions.
 
