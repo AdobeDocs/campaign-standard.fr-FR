@@ -7,14 +7,14 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: 'Audiences '
+feature: Audiences
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Pour créer une audience de type **Liste**, les étapes sont les suivantes :
 
    ![](assets/audiences_list_4.png)
 
-## Création d&#39;une audience de type Fichier    {#creating-file-audiences}
+## Création d&#39;une audience de type Fichier     {#creating-file-audiences}
 
 Cette section décrit la création d&#39;une audience de type **Fichier** à l&#39;aide d&#39;un import de fichier dans un workflow. Vous pouvez également créer des audiences à partir d&#39;un ciblage dans un [workflow](../../automating/using/get-started-workflows.md) ou via une requête depuis le menu **[!UICONTROL Audiences]** de l&#39;application.
 
