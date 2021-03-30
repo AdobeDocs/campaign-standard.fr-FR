@@ -10,11 +10,11 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1560'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
 L&#39;utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n&#39;est pas muet.
 
-## Actualiser la valeur du badge      {#refresh-the-badge-value}
+## Actualiser la valeur du badge       {#refresh-the-badge-value}
 
 Un badge est utilisé pour afficher le nombre de nouvelles informations non lues directement sur l&#39;icône de l&#39;application. La valeur du badge disparaît dès que l&#39;utilisateur ouvre ou lit le nouveau contenu de l&#39;application.
 
