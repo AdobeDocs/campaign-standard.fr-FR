@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -25,7 +25,7 @@ La délivrabilité permet de mesurer le succès des campagnes atteignant la boî
 
 Plus précisément, la délivrabilité des e-mails se rapporte à l&#39;ensemble des caractéristiques qui déterminent la capacité d&#39;un message à atteindre sa destination, par l&#39;intermédiaire d&#39;une adresse e-mail personnelle, dans un laps de temps court, et avec la qualité attendue en termes de contenu et de format. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Pour en savoir plus sur ce qu&#39;est la délivrabilité et pour en savoir plus sur les termes, concepts et approches clés de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
+Pour en savoir plus sur ce qu&#39;est la délivrabilité et pour en savoir plus sur les termes, concepts et approches clés de la délivrabilité, consultez le [Guide des meilleures pratiques en matière de délivrabilité des Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr-FR).
 
 ## Comment améliorer la délivrabilité {#deliverability-key-points}
 
@@ -62,7 +62,7 @@ Adobe Campaign fournit un certain nombre d’outils permettant de suivre et d’
 
 Lors de la configuration, de la conception et du test de votre message, veillez à respecter les meilleures pratiques mentionnées dans les sections ci-dessous. L&#39;exploitation de toutes les fonctionnalités fournies par Adobe Campaign vous aidera à améliorer la délivrabilité.
 
-* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
+* [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
 * [Contrôle du contenu des emails](../../sending/using/control-email-content.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
 * [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
