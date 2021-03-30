@@ -9,11 +9,11 @@ topic-tags: sheduling-messages
 feature: Suivi des performances
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 Vous pouvez également définir une formule pour envoyer le message à chaque destinataire à une date et à une heure précises.
 
-## Personnalisation de la formule de date   {#customizing-date-formula}
+## Personnalisation de la formule de date    {#customizing-date-formula}
 
 Par exemple, vous pouvez utiliser l&#39;optimisation de l&#39;heure d&#39;envoi lors de l&#39;installation d&#39;une nouvelle plate-forme.
 
