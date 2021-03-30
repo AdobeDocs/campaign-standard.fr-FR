@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Paramètres d’instance
+feature: Paramétres de l’instance
 role: Administrateur
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 99%
+source-wordcount: '1836'
+ht-degree: 98%
 
 ---
 
@@ -91,9 +91,7 @@ Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour 
 
 >[!NOTE]
 >
->Le Panneau de contrôle est disponible uniquement pour les utilisateurs administrateurs des clients hébergés sur AWS.
->
->Vérifiez [ici](https://docs.adobe.com/content/help/fr-FR/control-panel/using/faq.html#ims-org-id) si votre instance est hébergée sur AWS.
+>Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
 ## Compte OAuth 2.0 {#oauth-account}
 
