@@ -9,12 +9,12 @@ topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ L&#39;édition d&#39;expressions peut être utilisée lors des opérations suiva
 * édition d&#39;une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d&#39;une condition de visibilité pour définir l&#39;affichage d&#39;un bloc de l&#39;éditeur de contenus HTML. Dans ce cas, l&#39;expression est éditée au format JavaScript et ne propose pas l&#39;utilisation des fonctions avancées standard.
 
-## Editer une expression {#edit-an-expression}
+## Editer une expression  {#edit-an-expression}
 
 L&#39;édition avancée d&#39;expressions vous permet de définir manuellement une expression répondant spécifiquement à vos besoins.
 
@@ -158,7 +158,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> permet de retrouver tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
@@ -172,7 +172,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> permet de retrouver les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
@@ -193,21 +193,21 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> S/O<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">Comme</span> est quasiment identique à l’opérateur <span class="uicontrol">Contient. </span> Il permet d'insérer un caractère de substitution <span class="uicontrol">%</span> dans la valeur recherchée.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. Ici, le caractère <strong>%</strong> de substitution sert de "joker" afin de retrouver le nom "Martin" dans le cas hypothétique où l'orthographe d'une valeur n'est pas certaine.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> S/O<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires répondant au nom de 'Smi%h' (donc Smith, etc.) ne sont pas retournés en résultat.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est vide</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> S/O<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> La première valeur doit correspondre à une valeur vide.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong> permet de retrouver tous les profils dont le numéro de téléphone portable n'est pas renseigné.<br /> </td> 
   </tr> 
