@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: use-cases--extending-resources
 feature: Modèle de données
 role: Développeur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Rubriques connexes :
 * [Gestion des profils](../../audiences/using/about-profiles.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 
-## Etape 1 : Etendre la ressource Profil     {#step-1--extend-the-profile-resource}
+## Etape 1 : Etendre la ressource Profil      {#step-1--extend-the-profile-resource}
 
 Pour créer le champ **Centre d&#39;intérêts** pour les profils, vous devez d&#39;abord étendre la ressource d&#39;usine **[!UICONTROL Profils (profile)]**.
 
