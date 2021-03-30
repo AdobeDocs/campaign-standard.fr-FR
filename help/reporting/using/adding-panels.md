@@ -6,14 +6,14 @@ description: Un rapport dynamique permet d'ajouter un panneau pour mieux filtrer
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 'Reporting '
-role: Leader
+feature: Reporting
+role: Directeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre         {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre          {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
