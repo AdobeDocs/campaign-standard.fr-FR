@@ -6,14 +6,14 @@ description: Commencez à créer du contenu d'email avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception de courrier électronique
+feature: Conception d’email
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Vous pouvez ajuster le style de votre email, par exemple en modifiant la marge i
 
 Vous pouvez maintenant enregistrer et envoyer votre email.
 
-### Créer du contenu à partir d&#39;un modèle d&#39;usine        {#building-content-from-an-out-of-the-box-template}
+### Créer du contenu à partir d&#39;un modèle d&#39;usine         {#building-content-from-an-out-of-the-box-template}
 
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
