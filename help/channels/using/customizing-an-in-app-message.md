@@ -10,11 +10,11 @@ context-tags: delivery,inAppContent,back
 feature: Dans l’application
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Chaque type de disposition peut être prévisualisé sur différents appareils t
 
 ![](assets/inapp_customize_4.png)
 
-### Média      {#media}
+### Média       {#media}
 
 La liste déroulante **[!UICONTROL Médias]** permet d’ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
 
