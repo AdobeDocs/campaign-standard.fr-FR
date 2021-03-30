@@ -9,12 +9,12 @@ topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Cet outil est partagé par plusieurs fonctionnalités de l&#39;application :
 * définition de la cible d&#39;un **email**
 * définition d&#39;une population dans des activités de **workflows**.
 
-## Interface de l&#39;éditeur de requêtes   {#query-editor-interface}
+## Interface de l&#39;éditeur de requêtes    {#query-editor-interface}
 
 L&#39;éditeur de requêtes se compose d&#39;une **Palette** et d&#39;un **Espace de travail**.
 
