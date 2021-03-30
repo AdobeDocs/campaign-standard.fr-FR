@@ -10,11 +10,11 @@ context-tags: trigger,overview;trigger,main
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Le diagramme suivant décrit le fonctionnement de cette intégration.
 * Regardez la vidéo [Déclencher des messages de remarketing selon l&#39;activité du site](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques de déclencheurs d&#39;abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
-## Processus utilisateur de Triggers     {#triggers-user-process}
+## Processus utilisateur de Triggers      {#triggers-user-process}
 
 >[!CAUTION]
 >
