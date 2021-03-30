@@ -9,11 +9,11 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1052'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessou
 
 Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]** dans chacun d’eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l’appel des workflows.
 
-## Etape 1 : configurer l’appel API      {#step-1--configuring-the-api-call}
+## Etape 1 : configurer l’appel API       {#step-1--configuring-the-api-call}
 
 Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d’informations sur la syntaxe de l’appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
