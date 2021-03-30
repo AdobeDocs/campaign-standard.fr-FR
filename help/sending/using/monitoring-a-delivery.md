@@ -9,12 +9,12 @@ topic-tags: monitoring-messages
 context-tags: delivery,main
 feature: Suivi des performances
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '489'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
