@@ -6,14 +6,14 @@ description: 'Découvrez comment configurer l''intégration d''Audience Manager/
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Intégration du service principal People
+feature: Intégration de People Core Service
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
 La mise en service et la configuration d&#39;Audience Manager et de People core dans Adobe Campaign se fait en deux étapes : l&#39;[envoi d&#39;une demande à Adobe](#submitting-request-to-adobe), puis la [configuration de l&#39;intégration dans Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Envoi d&#39;une demande à Adobe      {#submitting-request-to-adobe}
+## Envoi d&#39;une demande à Adobe       {#submitting-request-to-adobe}
 
 L&#39;intégration d&#39;Audience Manager ou de People core service permet d&#39;importer et exporter des audiences ou des segments dans Adobe Campaign.
 
