@@ -9,11 +9,11 @@ topic-tags: working-with-typology-rules
 feature: Règles de typologie
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2450'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Rubriques connexes :
 * [Règles de typologie](../../sending/using/managing-typology-rules.md)
 * [Optimisation de la fréquence de communication pour éviter la fatigue de contact](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
-## Créer une règle de fatigue      {#creating-a-fatigue-rule}
+## Créer une règle de fatigue       {#creating-a-fatigue-rule}
 
 Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue]**, les étapes sont les suivantes :
 
