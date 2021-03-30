@@ -6,14 +6,14 @@ description: Suivez ces étapes pour configurer un processus de double opt-in à
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: landings page
+feature: Landing pages
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour mettre cela en place, vous devez :
 
 Ces étapes doivent être réalisées dans Adobe Campaign selon un ordre spécifique afin que tous les paramètres soient correctement activés.
 
-## Etape 1 : création de la landing page de confirmation        {#step-1--create-the-confirmation-landing-page}
+## Etape 1 : création de la landing page de confirmation         {#step-1--create-the-confirmation-landing-page}
 
 Le processus de configuration du mécanisme de double opt-in commence par la création de la landing page de confirmation. Cette page s&#39;affichera lorsque les visiteurs cliqueront sur l&#39;email de confirmation afin de s&#39;inscrire.
 
@@ -131,7 +131,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profil/liste bloquée
+   /context/profile/blackList
 
    puis définissez la valeur sur **vrai**.
 
