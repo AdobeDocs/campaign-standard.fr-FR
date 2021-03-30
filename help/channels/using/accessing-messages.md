@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: 'Vue d’ensemble '
+feature: Vue d’ensemble
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Les messages sont accessibles :
 * à partir de la page d&#39;accueil d&#39;Adobe Campaign
 * à partir de la liste des activités marketing
 
-## Accéder aux messages dans une campagne    {#accessing-messages-in-campaigns}
+## Accéder aux messages dans une campagne     {#accessing-messages-in-campaigns}
 
 Pour accéder à la liste des activités marketing d&#39;une campagne :
 
