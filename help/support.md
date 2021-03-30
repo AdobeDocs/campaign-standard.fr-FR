@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Options d’aide et de support pour Campaign Standard '
-description: Besoin d’aide pour Campaign Standard ? Vous êtes au bon endroit !
+title: 'Options d’aide et de support pour Campaign Standard '
+description: Besoin d’aide pour Campaign Standard ? Vous êtes au bon endroit !
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
@@ -19,9 +19,9 @@ ht-degree: 91%
 ---
 
 
-# Options d’aide et de support pour Campaign Standard {#help-support-options}
+# Options d’aide et de support pour Campaign Standard {#help-support-options}
 
-Besoin d’aide pour Campaign Standard ? Vous êtes au bon endroit !
+Besoin d’aide pour Campaign Standard ? Vous êtes au bon endroit !
 
 Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne et portail de support. Vous pouvez également rejoindre la communauté Campaign, poser des questions aux experts ou signaler un problème.
 
@@ -76,7 +76,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="start/using/privacy-management.md">Gestion de la confidentialité et du consentement</a></li>
         <li><a href="automating/using/query.md">Conception d’une requête</a></li>
         <li><a href="automating/using/query-samples.md">Exemples de requête</a></li>
-        <li><a href="https://helpx.adobe.com/fr/campaiacs-mobile.html">Configuration des canaux mobile</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configuration des canaux mobiles</a></li>
         </ul>
     </td>
     </tr>
@@ -89,7 +89,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 ### Qu’est-ce que le panneau de contrôle ?
 
 Le panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Campaign Standard, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr-FR#discover-control-panel) pour plus d’informations.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr#discover-control-panel) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -101,19 +101,19 @@ Le panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 ### FAQ sur le panneau de contrôle
 
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr-FR) pour accéder à la FAQ sur le panneau de contrôle Campaign.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr) pour accéder à la FAQ sur le panneau de contrôle Campaign.
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr-FR#sftp-management) pour plus d’informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr#sftp-management) pour plus d’informations.
 
 ### Sous-domaines et certificats
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
-* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr-FR#subdomains-and-certificates)
-* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr-FR#subdomains-and-certificates)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr-FR#subdomains-and-certificates)
+* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr#subdomains-and-certificates)
+* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
+* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#subdomains-and-certificates)
 
 ## Demande d’aide
 
@@ -129,6 +129,6 @@ Rejoignez la communauté Campaign Classic : cherchez des réponses à une ques
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d’Adobe pour résoudre vos problèmes.
 
-Pour enregistrer un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
+Pour enregistrer un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
 Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
