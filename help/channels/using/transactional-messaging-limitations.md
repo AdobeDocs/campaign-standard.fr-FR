@@ -10,11 +10,11 @@ context-tags: null
 feature: Messages transactionnels
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Le nombre de messages transactionnels publiés peut avoir un impact significatif
 
 Pour optimiser les performances, vous pouvez également dépublier ou supprimer des événements inutilisés. En effet, la dépublication ou la suppression d’un événement entraînera également la dépublication ou la suppression des messages transactionnels correspondants, ainsi que leurs logs d’envoi et de tracking, le cas échéant. Voir [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) et [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
-## Personnalisation         {#personalization}
+## Personnalisation          {#personalization}
 
 La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend du type du message transactionnel. Les spécificités sont répertoriées ci-dessous.
 
