@@ -7,12 +7,12 @@ audience: developing
 content-type: reference
 feature: Modèle de données
 role: Développeur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,18 +85,18 @@ ht-degree: 99%
                <tr>
                   <td>isExternal</td>
                   <td>Is external resource</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>Template</td>
-                  <td>booléen </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -166,7 +166,7 @@ ht-degree: 99%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>VALEUR NON VALIDE - __Invalid_value_ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -244,7 +244,7 @@ Par état (byState)
     </tr>
     <tr>
     <td>state</td>
-    <td>énumération</td>
+    <td>enumeration</td>
     </tr>
 </table>
 
@@ -257,7 +257,7 @@ Inclure les diffusions au fil de l&#39;eau depuis une liste hétérogène (withC
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>booléen</td>
+    <td>boolean</td>
     </tr>
 </table>
 
