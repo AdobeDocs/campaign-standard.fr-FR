@@ -9,11 +9,11 @@ topic-tags: transactional-messaging
 feature: Messages transactionnels
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Reprenons l’exemple présenté dans la section [Principe de fonctionnement des
 
 Vous souhaitez envoyer un rappel à tous les clients ayant reçu la notification d’abandon de panier, mais ne l’ayant pas ouverte au bout de trois jours. Chaque client concerné recevra alors un message de relance basé sur les mêmes données que celles utilisées dans le premier email qui a été envoyé.
 
-## Configuration d’un événement pour envoyer un message de relance       {#configuring-an-event-to-send-a-follow-up-message}
+## Configuration d’un événement pour envoyer un message de relance        {#configuring-an-event-to-send-a-follow-up-message}
 
 Pour envoyer un message de rappel, vous devez d’abord configurer en conséquence l’événement correspondant au message transactionnel déjà reçu.
 
