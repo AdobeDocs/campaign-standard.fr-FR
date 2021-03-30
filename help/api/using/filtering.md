@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Ingénieur de données
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -206,7 +206,7 @@ Si vous souhaitez utiliser un filtre personnalisé, vous devez le créer et le p
 Pour plus d’informations à ce sujet, consultez la documentation relative à Campaign Standard :
 
 * [Configuration de la définition des filtres](https://helpx.adobe.com/fr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Cas pratique : appel d’une ressource à l’aide d’une clé d’identification composite](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Cas pratique : appel d’une ressource à l’aide d’une clé d’identification composite](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
