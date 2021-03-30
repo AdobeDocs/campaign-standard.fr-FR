@@ -9,12 +9,12 @@ topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1116'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les éléments de chaque liste s’affichent par défaut selon leur date de modi
 
 Pour afficher le contenu d’un élément et le modifier, cliquez sur son libellé. Reportez-vous aux sections [Export d’un package](#exporting-a-package) et [Import d’un package](#importing-a-package).
 
-## Exports de package    {#package-exports}
+## Exports de package     {#package-exports}
 
 ### Packages par défaut {#standard-packages}
 
