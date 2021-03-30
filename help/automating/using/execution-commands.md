@@ -8,18 +8,18 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
-level: Début
-translation-type: tm+mt
+role: Architecte de données
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Commandes d’exécution        {#execution-commands}
+# Commandes d’exécution         {#execution-commands}
 
 Les icônes de la barre d’actions permettent de lancer, de tracker et de modifier l’exécution d’un workflow. Voir [La barre d’actions](../../automating/using/workflow-interface.md#action-bar).
 
