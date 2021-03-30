@@ -6,14 +6,14 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Conception de courrier électronique
+feature: Conception d’email
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email  {#email-designer-limitations}
+## Limitations du Concepteur d&#39;email   {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
