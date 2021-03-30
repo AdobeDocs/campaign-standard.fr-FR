@@ -6,14 +6,14 @@ description: Gérez les schémas XDM pour rendre vos données Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Intégration de Microsoft CRM
+feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
