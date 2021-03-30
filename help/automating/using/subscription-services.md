@@ -10,11 +10,11 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cett
 
    Ce dernier est prêt à être exécuté. Une fois exécuté, vous pouvez visualiser les profils inscrits ou désinscrits dans le détail du service.
 
-## Exemple : abonner des profils à un service spécifique après l’import d’un fichier     {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Exemple : abonner des profils à un service spécifique après l’import d’un fichier      {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 Cet exemple illustre comment importer un fichier contenant des profils et les abonner à un service existant. Après l’import du fichier, une réconciliation est nécessaire afin d’identifier les données importées comme étant des profils. Afin d’assurer que le fichier ne contient aucun doublon, une déduplication sera exécutée sur les données.
 
