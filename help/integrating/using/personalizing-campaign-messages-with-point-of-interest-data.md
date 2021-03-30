@@ -6,14 +6,14 @@ description: Découvrez comment créer un message personnalisé en fonction de l
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 'Audiences '
+feature: Audiences
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ L&#39;email contenant la réduction de 10 % sera envoyé aux abonnés :
 
 **Rubriques connexes :**
 
-* [Créer un email](../../channels/using/creating-an-email.md)
+* [Création d’un email](../../channels/using/creating-an-email.md)
 * [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)
 * [Envoyer les messages](../../sending/using/confirming-the-send.md)
 
