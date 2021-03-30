@@ -9,12 +9,12 @@ topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 feature: Email
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez choisir de faire varier le contenu, le sujet ou l&#39;expéditeur de
 >
 >Il est impossible de réaliser des tests A/B sur des emails créés dans Adobe Experience Manager.
 
-## Créer un email de test A/B      {#creating-an-a-b-test-email}
+## Créer un email de test A/B       {#creating-an-a-b-test-email}
 
 La création d&#39;un email de type test A/B peut être réalisée à l&#39;aide de l&#39;assistant de création d&#39;un email standard, auquel est ajoutée une étape de paramétrage du test A/B. La création d&#39;un email standard est présentée dans la section [Créer un email](../../channels/using/creating-an-email.md).
 
