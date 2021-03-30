@@ -9,16 +9,16 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '97'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Suivi des variables d’événements      {#monitoring-the-events-variables}
+# Suivi des variables d’événements       {#monitoring-the-events-variables}
 
 Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
