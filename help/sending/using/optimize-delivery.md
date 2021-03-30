@@ -6,7 +6,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Découvrez comment sécuriser et optimiser le processus d'envoi en amont.
+description: Découvrez comment sécuriser et optimiser le processus d’envoi en amont.
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
