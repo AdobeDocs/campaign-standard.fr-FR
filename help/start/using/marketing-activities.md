@@ -7,14 +7,14 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Opérations
+feature: Campagnes
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '504'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour accéder directement au contenu de chaque activité, choisissez un des él�
 
 Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre activité. Consultez la section [Créer une activité marketing](#creating-a-marketing-activity) pour en savoir plus.
 
-## Icônes et statuts des activités marketing      {#marketing-activity-icons-and-statuses}
+## Icônes et statuts des activités marketing       {#marketing-activity-icons-and-statuses}
 
 Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
