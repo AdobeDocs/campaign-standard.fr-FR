@@ -9,12 +9,12 @@ topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
 feature: Modèle de données
 role: Développeur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1844'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Lors de l&#39;édition de la ressource, dans l&#39;onglet **[!UICONTROL Structur
 * [des liens ;](#defining-links-with-other-resources)
 * [des logs d&#39;envoi.](#defining-sending-logs-extension)
 
-## Ajouter des champs à une ressource      {#adding-fields-to-a-resource}
+## Ajouter des champs à une ressource       {#adding-fields-to-a-resource}
 
 Vous pouvez ajouter de nouveaux champs à une ressource pour stocker les données qui ne font pas partie du modèle de données d&#39;usine.
 
