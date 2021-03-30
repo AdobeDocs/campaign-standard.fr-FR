@@ -6,14 +6,14 @@ description: Découvrez comment créer une dimension de profil personnalisé à 
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 'Reporting '
-role: Leader
+feature: Reporting
+role: Directeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Dans cet exemple, nous souhaitons créer le champ de profil personnalisé **Prog
 * [Étape 3 : Création d&#39;une diffusion ciblant des destinataires inscrits dans le programme de fidélité ](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [Étape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé ](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Etape 1 : Création d&#39;un champ de profil     {#step-1--create-a-new-profile-field}
+## Etape 1 : Création d&#39;un champ de profil      {#step-1--create-a-new-profile-field}
 
 Nous devons d&#39;abord créer le champ de profil **Programme de fidélité** qui attribuera un niveau de fidélité à nos destinataires : or, argent ou bronze.
 
