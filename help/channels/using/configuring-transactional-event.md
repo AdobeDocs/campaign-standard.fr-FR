@@ -10,11 +10,11 @@ context-tags: null
 feature: Messages transactionnels
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1752'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ La configuration varie en fonction du [type de message transactionnel](../../cha
 
 Une fois la configuration terminée, l’événement doit être publié. Voir [Publication d’un événement transactionnel](../../channels/using/publishing-transactional-event.md).
 
-## Créer un événement       {#creating-an-event}
+## Créer un événement        {#creating-an-event}
 
 Pour commencer, créez l’événement correspondant à vos besoins.
 
@@ -170,7 +170,7 @@ Pour accéder aux événements transactionnels déjà créés et les rechercher,
 
 La configuration d’un événement transactionnel peut varier en fonction du [type de message transactionnel](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) que vous souhaitez envoyer (événement ou profil) et du canal qui sera utilisé.
 
-Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir         [Créer un événement](#creating-an-event).
+Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir          [Créer un événement](#creating-an-event).
 
 ### Messages transactionnels basés sur un événement.{#event-based-transactional-messages}
 
