@@ -6,14 +6,14 @@ description: Grâce à l'intégration d'Assets Core service, utilisez les ressou
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Intégration du service principal People
-role: Data Architect
+feature: Intégration de People Core Service
+role: Architecte de données
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
