@@ -7,21 +7,21 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: landings page
+feature: Landing pages
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Paramétrer une landing page {#configuring-landing-page}
 
-## Confirmer la validation d&#39;une landing page     {#confirm-a-landing-page-submission}
+## Confirmer la validation d&#39;une landing page      {#confirm-a-landing-page-submission}
 
 Lorsqu&#39;une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
