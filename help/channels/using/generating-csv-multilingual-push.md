@@ -9,11 +9,11 @@ topic-tags: email-messages
 feature: Push
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1145'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Consultez l’exemple de fichier CSV en cliquant sur **[!UICONTROL Télécharger
 * **isMutableContent** : drapeau pour le Contenu mutable, la valeur 1 impliquant true, la valeur 0 impliquant false. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 * **locale** : le paramètre régional est le champ des variantes de langue, par ex. « en_us » pour l’anglais américain et « fr_fr » pour le français de France.
 * **language** : nom de la langue associée au paramètre régional. Par exemple, si le paramètre régional est « en_us », le nom de la langue doit être « Anglais - États-Unis ».
-* **silencePush** : drapeau pour le type de notification push. S’il s’agit d’une notification push classique, la valeur doit être 0. S’il s’agit d’une notification push silencieuse, la valeur doit être 1. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
+* **silentPush** : drapeau pour le type de notification push. S’il s’agit d’une notification push classique, la valeur doit être 0. S’il s’agit d’une notification push silencieuse, la valeur doit être 1. La valeur par défaut est 0. Si vous laissez cette colonne vide, la valeur est considérée comme étant 0.
 
 ## Contraintes et instructions relatives à la création d’un fichier CSV {#constraints-guideline-csv}
 
