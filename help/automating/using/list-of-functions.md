@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: filtering-data
 feature: Workflows
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1946'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -284,7 +284,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing     {#geomarketing}
+## Géomarketing      {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
