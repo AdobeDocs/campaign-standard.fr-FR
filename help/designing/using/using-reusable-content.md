@@ -6,14 +6,14 @@ description: Commencez à créer du contenu d'email réutilisable avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception de courrier électronique
+feature: Conception d’email
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1888'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 **Rubrique connexe**:
 
-* [Créer un email](../../channels/using/creating-an-email.md)
+* [Création d’un email](../../channels/using/creating-an-email.md)
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
@@ -151,7 +151,7 @@ Cette vidéo montre comment créer votre propre modèle.
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
-## A propos des fragments          {#about-fragments}
+## A propos des fragments           {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
