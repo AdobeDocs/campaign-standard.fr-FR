@@ -10,11 +10,11 @@ delivercontext-tags: delivery,smsContent,back
 feature: SMS
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Les destinataires peuvent maintenant être automatiquement désabonnés de vos m
 
 Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
-## Stocker les SMS entrants      {#storing-incoming-sms}
+## Stocker les SMS entrants       {#storing-incoming-sms}
 
 Dans le compte externe **[!UICONTROL Routage des SMS par SMPP]**, vous pouvez choisir de stocker les messages entrants, par exemple lorsqu&#39;un abonné répond &quot;STOP&quot; à un message SMS afin d&#39;être retiré de la liste des destinataires.
 
