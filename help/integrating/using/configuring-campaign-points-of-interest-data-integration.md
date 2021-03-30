@@ -6,14 +6,14 @@ description: Découvrez comment configurer la fonctionnalité des données de po
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 'Audiences '
-role: Data Architect
+feature: Audiences
+role: Architecte de données
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -190,7 +190,7 @@ Pour définir les points ciblés servant à collecter les données de localisati
 
 Une ressource personnalisée spécifique vous permet de définir les données à collecter auprès des abonnés de vos applications.
 
-Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
 
 ## Accéder aux applications mobiles utilisées pour collecter les données de localisation {#accessing-mobile-apps-used-to-collect-location-data}
@@ -205,7 +205,7 @@ Pour accéder aux applications créées dans Adobe Campaign :
 
 Une liste des abonnés de l&#39;application est également affichée dans l&#39;onglet **[!UICONTROL Abonnés à l&#39;application mobile]**. Les abonnés correspondent à tous les utilisateurs qui ont installé l&#39;application sur leur appareil mobile. Les profils de la base de données Adobe Campaign sont identifiés par un jeton d&#39;enregistrement.
 
-## Accéder aux données de localisation collectées     {#accessing-collected-location-data}
+## Accéder aux données de localisation collectées      {#accessing-collected-location-data}
 
 Une fois la configuration terminée, les données de points ciblés collectées sont répertoriées dans l&#39;onglet **[!UICONTROL Lieux]** de chaque profil. Pour accéder à la liste :
 
