@@ -9,11 +9,11 @@ topic-tags: get-started-campaign-integrations
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Permet de tracker les performances de vos diffusions email directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
     </td> 
   </tr> 
   <tr> 
@@ -88,14 +88,14 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Triggers Experience Cloud<br /> </td> 
    <td> Permet d'envoyer des emails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Permet d'éditer le contenu d'un email dans Dreamweaver et de le synchroniser avec Adobe Campaign.<br /> </td> 
    <td> 
-    Vidéo <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a> <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utilisation de l'extension de Campaign pour Dreamweaver</a> 
+    Vidéo <a href="https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a> <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utilisation de l'extension de Campaign pour Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
