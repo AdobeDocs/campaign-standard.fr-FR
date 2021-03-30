@@ -1,20 +1,20 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Utiliser des modèles de diffusion
+title: Utilisation de modèles de diffusion
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants."'
+description: « Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants. »
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
