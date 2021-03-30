@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Paramètres d’instance
+feature: Paramètres de l’instance
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1737'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Pour envoyer des SMS, un ou plusieurs comptes externes doivent être configurés
 
 Les étapes de création et de modification d&#39;un compte externe sont présentées dans la section [Comptes externes. ](../../administration/using/external-accounts.md) Vous trouverez ci-dessous les paramètres spécifiques aux comptes externes pour l&#39;envoi des SMS.
 
-## Définition d&#39;un routage des SMS     {#defining-an-sms-routing}
+## Définition d&#39;un routage des SMS      {#defining-an-sms-routing}
 
 Le compte externe **[!UICONTROL Routage des SMS par SMPP]** est fourni par défaut, mais il peut être utile d&#39;ajouter d&#39;autres comptes.
 
