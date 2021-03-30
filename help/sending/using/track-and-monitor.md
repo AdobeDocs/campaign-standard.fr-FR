@@ -1,20 +1,20 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Tracking et surveillance des messages
+title: Suivi et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Découvrez comment Adobe Campaign vous permet de suivre les messages envoyés et comment vos destinataires réagissent à votre diffusion
+description: Découvrez la manière dont Adobe Campaign vous permet de conserver une trace des messages envoyés et observez la réaction des destinataires face à votre diffusion
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
