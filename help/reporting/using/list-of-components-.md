@@ -6,14 +6,14 @@ description: Cette section contient la liste de tous les composants disponibles 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 'Reporting '
-role: Leader
-level: Début
-translation-type: tm+mt
+feature: Reporting
+role: Directeur
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
  </tbody> 
 </table>
 
-## Mesures  {#metrics}
+## Mesures   {#metrics}
 
 Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les différents rapports et leur définition.
 
