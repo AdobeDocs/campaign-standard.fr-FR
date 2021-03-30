@@ -10,11 +10,11 @@ context-tags: delivery,directMailContent,back
 feature: Courrier
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez définir l&#39;audience dans l&#39;assistant de création ou en cliq
 
 ![](assets/direct_mail_15.png)
 
-## Définir la cible principale     {#defining-the-main-target}
+## Définir la cible principale      {#defining-the-main-target}
 
 Pour les courriers, les profils ciblés sont ceux qui seront inclus dans le fichier d&#39;extraction qui sera envoyé à l&#39;opérateur de services postaux.
 
