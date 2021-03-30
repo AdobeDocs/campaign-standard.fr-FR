@@ -6,14 +6,14 @@ description: Découvrez comment envoyer des notifications système en temps rée
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramètres d’instance
+feature: Paramétres de l’instance
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
