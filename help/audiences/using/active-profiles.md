@@ -10,10 +10,10 @@ feature: Profils
 role: Professionnel
 level: Intermédiaire
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 99%
+source-wordcount: '316'
+ht-degree: 91%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce r
 
 >[!NOTE]
 >
->Si vous êtes hébergé sur AWS et que vous utilisez Campaign Standard à partir du build 10368, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Si vous utilisez Campaign Standard à partir de la version 10368, vous pouvez également surveiller le nombre de profils principaux utilisés sur vos instances directement à partir du Panneau de Contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Veuillez noter que la mesure des profils actifs est disponible et pertinente pour les **instances marketing** uniquement. Elle n’est ni applicable ni disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center/messagerie en temps réel).
-
 
 Les profils qui ont été exclus pendant la préparation de la diffusion (règles de typologie, quarantaines, populations témoins) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois. La partie inférieure du rapport contient la liste des profils actifs pour chaque dimension de ciblage.
 
