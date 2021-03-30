@@ -9,11 +9,11 @@ topic-tags: sending-and-tracking-messages
 feature: Suivi des performances
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Le tracking avec Adobe Campaign Standard vous permet d’accéder aux fonction
 </tr>
 </table>
 
-## Logs de tracking    {#tracking-logs}
+## Logs de tracking     {#tracking-logs}
 
 L&#39;onglet **[!UICONTROL Tracking]** liste l&#39;historique du tracking pour cette diffusion. Cet onglet affiche les informations de tracking sur les messages envoyés, soit toutes les URL qui ont fait l&#39;objet d&#39;un tracking par Adobe Campaign. Les informations de tracking de cet onglet sont mises à jour toutes les 10 minutes.
 
