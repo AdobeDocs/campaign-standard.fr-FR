@@ -6,14 +6,14 @@ description: Pour configurer un message de confirmation pour les profils s'abonn
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 'Audiences '
+feature: Audiences
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39
 
 Les étapes de création de l&#39;email de confirmation sont décrites ci-dessous. Comme le message transactionnel est référencé dans le service, vous devez d&#39;abord le créer.
 
-#### Création de l&#39;événement     {#create-the-event-1}
+#### Création de l&#39;événement      {#create-the-event-1}
 
 L&#39;email de confirmation est un message transactionnel car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
