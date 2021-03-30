@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Paramètres d’instance
+feature: Paramètres de l’instance
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ACPCore.collectPii(["email":email, "firstName":firstName, "lastName":lastName])
 
 Sous Android, l’[!DNL Experience Platform API] suivante est nécessaire :
 
-* collecTPII <br> Pour plus d’informations, voir collectPII.
+* collectPII <br> Pour plus d’informations, voir collectPII.
 
 Voici un exemple de mise en œuvre pour ce cas pratique avec Android :
 
