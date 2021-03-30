@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Les principales étapes sont décrites dans la vidéo suivante :
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
-### Enregistrement d’une nouvelle application  {#register-a-new-app}
+### Enregistrement d’une nouvelle application   {#register-a-new-app}
 
 1. Avec votre identifiant d’administrateur, connectez-vous à portal.azure.com.
 
