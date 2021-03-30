@@ -2,25 +2,25 @@
 solution: Campaign Standard
 product: campaign
 title: Ajouter du contenu dynamique Target
-description: Découvrez comment ajouter du contenu dynamique Adobe Target dans une de vos diffusions Adobe Campaign.
+description: Découvrez comment ajouter du contenu dynamique Adobe Target dans une de vos diffusions Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Ajouter du contenu dynamique Target{#adding-target-dynamic-content}
 
-Avec l&#39;intégration avec Adobe Target, des images dynamiques peuvent être ajoutées dans une diffusion afin de personnaliser le contenu selon les expériences.
+Avec l&#39;intégration avec Adobe Target, des images dynamiques peuvent être ajoutées dans une diffusion afin de personnaliser le contenu selon les expériences.
 
 Pendant l&#39;édition d&#39;un email, vous pouvez insérer depuis Adobe Target une image dynamique qui changera en fonction des destinataires.
 
