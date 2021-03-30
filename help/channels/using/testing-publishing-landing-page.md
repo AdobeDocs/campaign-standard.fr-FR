@@ -6,14 +6,14 @@ description: Découvrez comment tester et publier une landing page dans Adobe Ca
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: landings page
+feature: Landing pages
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 Avant de publier une landing page, vous devez effectuer des tests : valider l&#39;exécution, configurer l&#39;accès et définir la fin de vie de la landing page. Ces étapes sont des pré-requis et doivent être exécutées avec précaution.
 
-## Tester la landing page       {#testing-the-landing-page-}
+## Tester la landing page        {#testing-the-landing-page-}
 
 Comme la landing page aura un impact sur votre plateforme et les données, vous devez tester soigneusement son exécution. Pour cela :
 
