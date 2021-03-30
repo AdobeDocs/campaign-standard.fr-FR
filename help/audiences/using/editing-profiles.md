@@ -9,11 +9,11 @@ topic-tags: managing-profiles
 feature: Profils
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Rubrique connexe :
 * [Profil client intégré](../../audiences/using/integrated-customer-profile.md)
 * [Envoi au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## Données de profil générales    {#general-profile-data}
+## Données de profil générales     {#general-profile-data}
 
 L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes concernant le profil :
 
