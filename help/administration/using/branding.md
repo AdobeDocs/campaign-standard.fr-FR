@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Paramètres d’instance
+feature: Paramétres de l’instance
 role: Administrateur
-level: Expérience
+level: Expérimenté
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 97%
 
 ---
 
@@ -93,6 +93,10 @@ Une **marque** est définie par les caractéristiques suivantes :
 Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
 1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+
+   >[!NOTE]
+   >
+   >Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
 
 1. **Créer un ticket** - Une fois le sous-domaine configuré, Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
