@@ -10,11 +10,11 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d&#39;informations sur les workflows et les différents canaux disponi
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-## Créer un workflow       {#creating-workflow}
+## Créer un workflow        {#creating-workflow}
 
 Afin d&#39;envoyer deux diffusions différentes à un groupe donné, vous devez tout d&#39;abord définir votre cible.
 
