@@ -6,14 +6,14 @@ description: Découvrez comment utiliser le système de gestion des alertes.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
+feature: Bons à tirer
 role: Professionnel
-level: Début
-translation-type: tm+mt
+level: Débutant
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2302'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Si vous souhaitez envoyer des notifications selon des critères spécifiques à 
 
 Désormais, dès qu&#39;une diffusion répond aux critères définis dans ce tableau de bord, une notification d&#39;alerte est envoyée aux groupes d&#39;utilisateurs indiqués.
 
-## Critères des alertes de diffusion       {#delivery-alerting-criteria}
+## Critères des alertes de diffusion        {#delivery-alerting-criteria}
 
 ### A propos des critères des alertes de diffusion {#about-alerting-criteria}
 
