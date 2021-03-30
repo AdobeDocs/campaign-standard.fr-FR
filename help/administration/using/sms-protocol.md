@@ -6,14 +6,14 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramètres d’instance
+feature: Paramétres de l’instance
 role: Administrateur
-level: Expérience
-translation-type: tm+mt
+level: Expérimenté
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -705,7 +705,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 >
 >À compter de la version 21.1, il est désormais possible d’ajouter plusieurs paramètres optionnels. Voir à ce propos cette [section](../../administration/using/sms-protocol.md#automatic-reply-tlv).
 
-### Réponse automatique aux MO  {#automatic-reply}
+### Réponse automatique aux MO   {#automatic-reply}
 
 Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l’envoi de numéro court à la liste bloquée.
 
