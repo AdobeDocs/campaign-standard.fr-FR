@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+role: Architecte de données
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L’onglet **[!UICONTROL Propriétés]** permet de modifier les paramètres glob
 
 ![](assets/activity-properties2.png)
 
-## Gestion des transitions sortantes d’une activité        {#managing-an-activity-s-outbound-transitions}
+## Gestion des transitions sortantes d’une activité         {#managing-an-activity-s-outbound-transitions}
 
 Par défaut, certaines activités ne possèdent pas de transition sortante. Vous pouvez en ajouter à partir de l’onglet **[!UICONTROL Transitions]** ou de l’onglet **[!UICONTROL Propriétés]** de l’activité afin d’appliquer d’autres traitements à votre population dans un même workflow.
 
