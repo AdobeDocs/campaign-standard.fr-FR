@@ -24,7 +24,7 @@ L&#39;écran **[!UICONTROL Paramètres]** permet de spécifier les informations 
 
 ### Informations d&#39;identification de Microsoft Dynamics 365
 
-Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39;application d&#39;intégration à extraire vos données de Microsoft Dynamics 365.	Vous devez d&#39;abord suivre les étapes affichées dans l&#39;écran [Configuration de Microsoft Dynamics 365 pour l&#39;intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md) afin de générer les valeurs qui seront collées dans cet écran. Les entrées décrites ci-après font référence à cet écran.
+Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39;application d&#39;intégration à extraire vos données de Microsoft Dynamics 365. Vous devez d&#39;abord suivre les étapes affichées dans l&#39;écran [Configuration de Microsoft Dynamics 365 pour l&#39;intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md) afin de générer les valeurs qui seront collées dans cet écran. Les entrées décrites ci-après font référence à cet écran.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -71,7 +71,7 @@ Vous devez spécifier les informations suivantes :
 
 * **Clé SFTP** : si vous disposez d’une clé SSH, ajoutez-la ici. Sinon, consultez [cette section](#ac-control-panel-settings).
 
-* Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l&#39;intégration puisse utiliser le point d&#39;entrée SFTP.	
+* Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l&#39;intégration puisse utiliser le point d&#39;entrée SFTP.
 
 * L&#39;option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l&#39;intégration génère des informations de journalisation au point d&#39;entrée SFTP. Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
 
