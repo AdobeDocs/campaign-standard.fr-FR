@@ -9,9 +9,9 @@ topic-tags: troubleshooting
 feature: Reporting
 role: Directeur
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Cela donne le tableau suivant :
  <tbody> 
   <tr> 
    <td align="center"> <strong> Jour </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr>
