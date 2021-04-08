@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Options d’aide et de support
 role: Professionnel
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <td valign="top">
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Gestion des erreurs dans les workflows</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">Dépannage de l’exécution du processus</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Résolution des problèmes d’exécution des workflows</a></li>
         <li><a href="api/using/troubleshooting.md">Résolution des problèmes d’API</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Comprendre les échecs de diffusion</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Présentation des diffusions en échec</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -65,7 +65,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Gestion du fuseau horaire</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Réception d’une notification en cas d’échec</a></li>
         <li><a href="designing/using/using-existing-content.md">Import ou conversion d’un contenu d’email</a></li>
-        <li><a href="sending/using/delivery-best-practices.md">Bonnes pratiques de diffusion</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Bonnes pratiques relatives à la diffusion</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -76,7 +76,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="start/using/privacy-management.md">Gestion de la confidentialité et du consentement</a></li>
         <li><a href="automating/using/query.md">Conception d’une requête</a></li>
         <li><a href="automating/using/query-samples.md">Exemples de requête</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Configuration des canaux mobiles</a></li>
+        <li><a href="https://helpx.adobe.com/fr/campaiacs-mobile.html">Configuration des canaux mobiles</a></li>
         </ul>
     </td>
     </tr>
@@ -93,11 +93,11 @@ Le panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 ### Comment accéder au panneau de contrôle ?
 
- Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) pour plus d’informations.
+ Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr#discover-control-panel) pour plus d’informations.
 
 ### FAQ sur le panneau de contrôle
 
@@ -119,7 +119,7 @@ Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Le nouveau système de billetterie est passé par [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système requiert de nouveaux comptes individuels pour chaque utilisateur, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’Assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Le nouveau système de gestion des tickets a été mis en place via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système requiert de nouveaux comptes individuels pour chaque utilisateur, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’Assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Consultation d’experts
 
@@ -131,4 +131,4 @@ La création d’un ticket vous permet de contacter l’équipe du Service clien
 
 Pour enregistrer un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
