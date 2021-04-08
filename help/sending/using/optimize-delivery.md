@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Optimiser la diffusion des messages
+title: Optimisation de la diffusion des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
@@ -10,11 +10,11 @@ description: Découvrez comment sécuriser et optimiser le processus d’envoi e
 feature: Délivrabilité
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '754'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Pour que vos messages arrivent dans la boîte de réception de vos destinataires
 
    * Lorsque vous vérifiez la délivrabilité de votre email, vous devez vous concentrer sur quatre catégories principales : qualité des données, message et contenu, infrastructure d’envoi et réputation. Pour une étude plus approfondie de ce sujet, consultez [cette section](../../sending/using/about-deliverability.md).
 
-* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations détaillées sur [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Lors du démarrage d’une nouvelle plateforme, appliquez les recommandations présentées sur [cette page](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=fr#transition-process).
 
 * Contactez votre représentant Adobe pour obtenir de l&#39;aide.
 
