@@ -9,9 +9,9 @@ topic-tags: about-reporting
 feature: Reporting
 role: Directeur
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Prise en main des rapports dynamiques {#about-dynamic-reports}
 
-Les rapports dynamiques proposent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
+Les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
 >[!NOTE]
 >
