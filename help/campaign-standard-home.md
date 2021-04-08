@@ -7,9 +7,9 @@ description: Parcourir la documentation du produit Campaign Standard
 feature: Vue d’ensemble
 role: Professionnel
 level: Débutant
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
 ht-degree: 100%
 
