@@ -9,11 +9,11 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Data Architect
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -43,9 +43,9 @@ L&#39;intégration prend en charge deux types d&#39;identifiants Adobe Experienc
 
    >[!NOTE]
    >
-   >La source de données d’ID déclarée peut désormais également être utilisée avec l’intégration du service principal People.
+   >Désormais, la source de données des ID déclarés peut également être utilisée avec l’intégration de People Core Service.
    >
-   >Si vous utilisez l’intégration de service principal People et souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager pour éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
+   >Si vous utilisez l’intégration de People Core Service et que vous souhaitez ajouter l’intégration d’Audience Manager, vous aurez besoin de l’aide d’un consultant Adobe Audience Manager. Ce dernier vous aidera à éviter de perdre toutes les synchronisations d’ID collectées lors de la transition vers l’utilisation de cette source de données d’ID déclarés dans un contexte Adobe Audience Manager.
 
 
    Le cryptage permet de partager des données cryptées dans des sources de données (informations d&#39;identification personnelles, par exemple) à l&#39;aide de l&#39;identifiant Declared ID en spécifiant l&#39;algorithme de cryptage.
