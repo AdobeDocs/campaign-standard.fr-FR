@@ -10,11 +10,11 @@ context-tags: extAccount,main;extAccount,overview
 feature: Paramètres de l’instance
 role: Administrateur
 level: Expérimenté
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1836'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe    {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe   {#adobe-hosted-sftp-server-recommendations}
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
@@ -91,7 +91,7 @@ Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour 
 
 >[!NOTE]
 >
->Le Panneau de Contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’accorder l’accès administrateur à un utilisateur sont détaillées dans [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 ## Compte OAuth 2.0 {#oauth-account}
 
@@ -154,7 +154,7 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
-## Compte externe Google reCAPTCHA    {#google-recaptcha-external-account}
+## Compte externe Google reCAPTCHA   {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
