@@ -9,11 +9,11 @@ topic-tags: managing-profiles
 feature: Profils
 role: Professionnel
 level: Intermédiaire
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce r
 
 >[!NOTE]
 >
->Si vous utilisez Campaign Standard à partir de la version 10368, vous pouvez également surveiller le nombre de profils principaux utilisés sur vos instances directement à partir du Panneau de Contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>Si vous utilisez Campaign Standard à partir du build 10368, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 >
 >Veuillez noter que la mesure des profils actifs est disponible et pertinente pour les **instances marketing** uniquement. Elle n’est ni applicable ni disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center/messagerie en temps réel).
 
