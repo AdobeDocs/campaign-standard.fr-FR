@@ -7,16 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 feature: Messages transactionnels
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '821'
+source-wordcount: '818'
 ht-degree: 100%
 
 ---
-
 
 # Messages de relance {#follow-up-messages}
 
