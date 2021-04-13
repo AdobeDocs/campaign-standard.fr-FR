@@ -7,16 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 feature: Gestion des accès
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 100%
 
 ---
-
 
 # Licences{#licenses}
 
@@ -37,4 +37,3 @@ Un administrateur doit lire et accepter les nouvelles conditions d&#39;utilisati
 Une fois ce délai de 30 jours écoulé, si la licence n&#39;est pas acceptée, aucun utilisateur ne pourra utiliser cette instance. Les utilisateurs standard ne pourront pas accéder aux fonctionnalités d&#39;Adobe Campaign et ne verront le message suivant que lorsqu&#39;un administrateur fonctionnel aura accepté les dispositions de licence.
 
 ![](assets/license_4.png)
-
