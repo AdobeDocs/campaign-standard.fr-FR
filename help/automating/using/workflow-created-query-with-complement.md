@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # Création de diffusions avec un complémentaire {#deliveries-with-complement}
 
