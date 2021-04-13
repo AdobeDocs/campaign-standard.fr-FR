@@ -9,15 +9,15 @@ topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '791'
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
-
 
 # Edition de requêtes{#editing-queries}
 
