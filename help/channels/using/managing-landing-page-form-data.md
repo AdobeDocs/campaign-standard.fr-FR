@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: Landing pages
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '423'
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des données de formulaire de landing page{#managing-landing-page-form-data}
 
