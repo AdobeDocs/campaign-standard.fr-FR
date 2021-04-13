@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
 feature: Campagnes
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '377'
+source-wordcount: '374'
 ht-degree: 100%
 
 ---
-
 
 # Planning{#timeline}
 
