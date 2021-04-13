@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Ingénieur de données
-level: Expérimenté
+role: Data Engineer
+level: Experienced
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
-
 
 # Interaction avec des ressources personnalisées {#interacting-with-custom-resources}
 
@@ -48,4 +48,3 @@ POST /customResources/<customResourceName>
 >[!NOTE]
 >Le point d’entrée et les workflows de l’API de confidentialité (/privacy/privacyTool) ne gèrent pas les ressources personnalisées non liées à l’entité de profil.
 >Il vous appartiendra de gérer et de nettoyer les informations d’identification personnelle de ces ressources personnalisées. Pour plus d’informations sur l’outil de confidentialité, [cliquez ici](../../api/using/creating-a-privacy-request.md).
-
