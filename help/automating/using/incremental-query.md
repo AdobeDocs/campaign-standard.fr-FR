@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '667'
+source-wordcount: '664'
 ht-degree: 100%
 
 ---
-
 
 # Requête incrémentale{#incremental-query}
 
