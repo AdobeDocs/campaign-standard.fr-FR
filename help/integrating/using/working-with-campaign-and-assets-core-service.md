@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 feature: Intégration de People Core Service
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '170'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de Campaign et Assets core service{#working-with-campaign-and-assets-core-service}
 
@@ -38,4 +38,3 @@ L&#39;image est alors insérée. La diffusion peut à présent être personnalis
 
 * [Ressources et partage](https://docs.adobe.com/content/help/fr-FR/core-services/interface/assets/experience-cloud-assets.html)
 * [Editeur de contenus](../../designing/using/personalization.md#example-email-personalization)
-
