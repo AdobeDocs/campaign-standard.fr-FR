@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 feature: Profils
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 100%
 
 ---
-
 
 # Profil client intégré{#integrated-customer-profile}
 
