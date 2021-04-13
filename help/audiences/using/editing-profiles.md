@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: Profils
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 100%
 
 ---
-
 
 # Editer des profils{#editing-profiles}
 
