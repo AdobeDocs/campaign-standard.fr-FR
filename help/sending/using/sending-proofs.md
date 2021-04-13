@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 feature: Bons à tirer
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # Envoyer un bon à tirer {#sending-proofs}
 
