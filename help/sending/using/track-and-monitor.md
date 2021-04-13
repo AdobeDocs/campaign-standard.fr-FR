@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: Découvrez la manière dont Adobe Campaign vous permet de conserver une trace des messages envoyés et observez la réaction des destinataires face à votre diffusion
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
-
 
 # Tracker et suivre vos diffusions {#track-and-monitor}
 
