@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '659'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
-
 
 # Planificateur{#scheduler}
 
@@ -82,4 +82,3 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 Dans l&#39;exemple suivant, l&#39;activité est paramétrée afin de faire démarrer le workflow toutes les deux semaines, le lundi matin à 7h, pour une durée indéterminée.
 
 ![](assets/wkf_scheduler_example.png)
-
