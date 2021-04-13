@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
-
 
 # Gérer les SMS entrants{#managing-incoming-sms}
 
