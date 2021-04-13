@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: 5974a52c-8721-4575-b452-2982d6497235
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1307'
+source-wordcount: '1304'
 ht-degree: 100%
 
 ---
-
 
 # Création de modèles de workflow pour importer des données {#import-workflow-template}
 
