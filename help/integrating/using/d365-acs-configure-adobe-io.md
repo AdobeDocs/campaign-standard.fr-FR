@@ -6,15 +6,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '671'
+source-wordcount: '668'
 ht-degree: 100%
 
 ---
-
 
 # Configuration d&#39;Adobe Campaign Standard et d&#39;Adobe I/O pour l&#39;intégration de Microsoft Dynamics 365
 
