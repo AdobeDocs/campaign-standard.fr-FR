@@ -10,9 +10,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -76,7 +76,6 @@ Cela donne le tableau suivant :
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
-  <tr>
   <tr> 
    <td align="center"> Jour 1<br /> </td> 
    <td align="center"> 3<br /> </td> 
@@ -129,11 +128,11 @@ Les rapports doivent se présenter comme suit :
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>R1</strong><br/> </td> 
+   <td align="center"> <strong>100</strong><br/> </td> 
+   <td align="center"> <strong>90</strong><br/> </td> 
+   <td align="center"> <strong>10</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
