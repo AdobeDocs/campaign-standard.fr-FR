@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '409'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Rapport des notifications push{#push-notification-report}
 
@@ -51,4 +51,3 @@ Le deuxième tableau **Clics et ouvertures des notifications push** est divisé 
 * **[!UICONTROL Clics uniques]** : nombre de fois où un utilisateur unique interagit avec la notification push, par exemple clics sur la notification ou le bouton.
 * **[!UICONTROL Ouverture]** : nombre total de notifications push diffusées sur l&#39;appareil et ayant fait l&#39;objet d&#39;un clic par les utilisateurs ouvrant l&#39;application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 * **[!UICONTROL Ouvertures uniques]** : nombre de destinataires ayant ouvert la diffusion.
-
