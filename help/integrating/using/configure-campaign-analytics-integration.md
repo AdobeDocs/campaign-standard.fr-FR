@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l&#39;intégration Campaign-Analytics{#configure-campaign-analytics-integration}
 
@@ -55,4 +55,3 @@ Vos données sont à présent disponibles dans Adobe Analytics.
 * [Comptes externes](../../administration/using/external-accounts.md)
 * [Workflows techniques](../../administration/using/technical-workflows.md)
 * Vidéo [Partager les KPI pour le reporting intégré de Campaign](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)
-
