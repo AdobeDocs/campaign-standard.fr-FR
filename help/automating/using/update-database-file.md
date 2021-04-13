@@ -9,15 +9,15 @@ topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour de la base de données avec des données externes {#update-database-file}
 
