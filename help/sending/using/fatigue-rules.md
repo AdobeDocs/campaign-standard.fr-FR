@@ -7,16 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 feature: Règles de typologie
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2450'
+source-wordcount: '2447'
 ht-degree: 100%
 
 ---
-
 
 # Règles de fatigue{#fatigue-rules}
 
