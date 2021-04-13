@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Messages transactionnels
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '968'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de la messagerie transactionnelle {#getting-started-with-transactional-messaging}
 
