@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
-
 
 # Ajouter des composants{#adding-components}
 
@@ -46,4 +46,3 @@ Vous pouvez déposer autant de composants que nécessaire et les comparer les un
 
 * [Liste des composants](../../reporting/using/list-of-components-.md)
 * [Liste des rapports](../../reporting/using/defining-the-report-period.md)
-
