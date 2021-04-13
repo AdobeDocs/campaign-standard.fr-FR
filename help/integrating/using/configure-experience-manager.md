@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '384'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
-
 
 # Configuration de l’intégration Campaign-Experience Manager {#configuration-aem}
 
@@ -74,4 +74,3 @@ Pour configurer Adobe Experience Manager avec Adobe Campaign Standard, proc�
 1. Ensuite, connectez Adobe Experience Manager à Adobe Campaign en configurant un **[!UICONTROL Cloud Service]** dédié. Consultez cette [section](https://docs.adobe.com/content/help/fr/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
 1. Vous devez maintenant configurer l’externalisateur dans Adobe Experience Manager sur votre instance d’auteur. Consultez cette [section](https://docs.adobe.com/content/help/fr/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
-
