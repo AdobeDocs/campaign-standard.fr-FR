@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 translation-type: ht
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '4696'
+source-wordcount: '4693'
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour 2017{#release-notes}
 
@@ -543,4 +543,3 @@ _Intégrations_
 * Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées &quot;Probabilité de retour avant 30 jours&quot; avait été ajoutées au trigger Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
 * Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
-
