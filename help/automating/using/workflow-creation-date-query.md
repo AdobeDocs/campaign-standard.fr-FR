@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
-
 
 # Création de diffusions à la date de création des profils {#creation-date-query}
 
