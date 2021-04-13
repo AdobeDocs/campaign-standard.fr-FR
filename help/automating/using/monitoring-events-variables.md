@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
-
 
 # Suivi des variables d’événements       {#monitoring-the-events-variables}
 
