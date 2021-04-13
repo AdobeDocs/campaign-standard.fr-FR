@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 feature: Règles de typologie
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
-
 
 # À propos des typologies et des règles de typologie{#about-typology-rules}
 
