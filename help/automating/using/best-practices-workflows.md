@@ -9,15 +9,15 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
-level: Débutant
+level: Beginner
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 translation-type: ht
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1229'
+source-wordcount: '1226'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques relatives aux workflows{#workflow-best-practices}
 
