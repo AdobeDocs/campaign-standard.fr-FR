@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
-
 
 # Exemples de requêtes      {#query-samples}
 
