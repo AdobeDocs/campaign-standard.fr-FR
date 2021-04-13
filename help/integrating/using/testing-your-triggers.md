@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '454'
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
-
 
 # Test de vos déclencheurs{#testing-your-triggers}
 
@@ -84,4 +84,3 @@ Si le message n’est pas valide, vérifiez les éléments suivants :
 
 * Pour les champs de personnalisation d’enrichissement de déclencheur, validez le modèle transactionnel des collections eventCusResource associées.
 * Validation du format du message
-
