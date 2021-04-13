@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités de ciblage{#about-targeting-activities}
 
