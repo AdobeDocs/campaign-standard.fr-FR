@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Paramétres de l’instance
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '444'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
-
 
 # Ajout d’images et de vidéos iOS {#image-push}
 
@@ -160,4 +160,3 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 Vous pouvez maintenant tester la création de votre application et la diffusion que vous avez créée à l’étape 2 ci-dessus. Pour plus d’informations sur la préparation et l’envoi de votre notification push, consultez cette [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)
-
