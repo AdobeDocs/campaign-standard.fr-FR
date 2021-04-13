@@ -10,11 +10,11 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+workflow-type: tm+mt
+source-wordcount: '375'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 100%
 * Les API d’Adobe Campaign ne doivent être utilisées que de serveur à serveur.
 * Vérifiez systématiquement avec votre contact technique Adobe si le cas pratique que vous souhaitez mettre en œuvre est conforme à l’échelle autorisée par les API Adobe Campaign.
 * La configuration d’un accès AdobeIO nécessite des autorisations spécifiques. Contactez le support technique d’Adobe pour tout problème.
+
+## Droits et accès
+
+* Par défaut, les API Adobe Campaign utilisent le contexte administrateur et les unités et rôles d’organisation ne s’appliquent donc pas.
+* Les API Adobe Campaign sont exclues du contexte de rôle.
+* Si vous souhaitez configurer les API avec une unité d&#39;organisation ou des rôles, contactez d&#39;abord votre contact technique Adobe.
 
 ## Représentation des ressources
 
