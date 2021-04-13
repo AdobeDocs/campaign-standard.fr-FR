@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # A propos de l&#39;extension de l&#39;API{#about-extending-the-api}
 
