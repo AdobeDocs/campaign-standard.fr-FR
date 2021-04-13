@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '998'
+source-wordcount: '995'
 ht-degree: 100%
 
 ---
-
 
 # Construire un workflow{#building-a-workflow}
 
