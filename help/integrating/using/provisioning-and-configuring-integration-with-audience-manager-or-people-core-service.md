@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Intégration de People Core Service
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '796'
+source-wordcount: '793'
 ht-degree: 100%
 
 ---
-
 
 # Mise en service et configuration de l&#39;intégration avec Audience Manager ou People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
