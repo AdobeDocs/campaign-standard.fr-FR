@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '962'
+source-wordcount: '959'
 ht-degree: 100%
 
 ---
-
 
 # Gérer des données cryptées {#managing-encrypted-data}
 
