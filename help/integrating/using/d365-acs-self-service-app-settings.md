@@ -5,16 +5,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Intégration de Microsoft CRM
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '814'
+source-wordcount: '811'
 ht-degree: 100%
 
 ---
-
 
 # Connecter les systèmes à l&#39;application d&#39;intégration
 
@@ -24,7 +24,7 @@ L&#39;écran **[!UICONTROL Paramètres]** permet de spécifier les informations 
 
 ### Informations d&#39;identification de Microsoft Dynamics 365
 
-Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39;application d&#39;intégration à extraire vos données de Microsoft Dynamics 365. Vous devez d&#39;abord suivre les étapes affichées dans l&#39;écran [Configuration de Microsoft Dynamics 365 pour l&#39;intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md) afin de générer les valeurs qui seront collées dans cet écran. Les entrées décrites ci-après font référence à cet écran.
+Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39;application d&#39;intégration à extraire vos données de Microsoft Dynamics 365.  Vous devez d&#39;abord suivre les étapes affichées dans l&#39;écran [Configuration de Microsoft Dynamics 365 pour l&#39;intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md) afin de générer les valeurs qui seront collées dans cet écran. Les entrées décrites ci-après font référence à cet écran.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
