@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Courrier
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '288'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
-
 
 # Définir l&#39;audience du courrier{#defining-the-direct-mail-audience}
 
