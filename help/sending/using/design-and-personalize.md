@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment concevoir le contenu de votre message et évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. 
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
-
 
 # Créer du contenu personnalisé {#build-personalized-content}
 
