@@ -7,16 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
-
 
 # Principales étapes pour envoyer un message{#key-steps-to-send-a-message}
 
