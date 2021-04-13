@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 70f6038d-9c5e-4e30-a958-913b454e6d61
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '54'
+source-wordcount: '51'
 ht-degree: 100%
 
 ---
-
 
 # Identification des profils exclus pour une diffusion{#identifying-opt-out-profiles-for-a-delivery}
 
@@ -28,4 +28,3 @@ Les profils exclus pour une diffusion spécifique sont répertoriés après la p
 
 * [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 * [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
-
