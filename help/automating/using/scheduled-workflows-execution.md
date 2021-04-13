@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
-
 
 # Chevauchement de l&#39;exécution de workflows planifiés{#preventing-overlapping-execution-of-scheduled-workflows}
 
