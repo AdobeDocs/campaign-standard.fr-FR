@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation de Triggers dans Campaign{#using-triggers-in-campaign}
 
@@ -102,4 +102,3 @@ Pour afficher le rapport de déclencheur dédié dans Adobe Campaign, ouvrez l�
 Le rapport montre le nombre d’événements traités par rapport au nombre d’événements envoyés par Analytics. Il affiche également la liste de tous les déclencheurs récents.
 
 ![](assets/trigger_uc_browse_14.png)
-
