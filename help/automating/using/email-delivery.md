@@ -9,15 +9,15 @@ topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 100%
 
 ---
-
 
 # Diffusion Email{#email-delivery}
 
