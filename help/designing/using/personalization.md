@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 feature: Conception d’email
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2720'
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
-
 
 # Personnalisation du contenu des emails {#personalization}
 
@@ -430,4 +430,3 @@ L&#39;image est modifiée grâce au contenu dynamique, et le texte accroche corr
 
 * [Création d&#39;une audience](../../audiences/using/creating-audiences.md)
 * [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md)
-
