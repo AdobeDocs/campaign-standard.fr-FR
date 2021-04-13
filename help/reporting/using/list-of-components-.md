@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 feature: Reporting
-role: Directeur
-level: Débutant
+role: Leader
+level: Beginner
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1300'
+source-wordcount: '1298'
 ht-degree: 100%
 
 ---
-
 
 # Liste des composants {#list-of-components}
 
@@ -468,4 +468,3 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
   </tr> 
  </tbody> 
 </table>
-
