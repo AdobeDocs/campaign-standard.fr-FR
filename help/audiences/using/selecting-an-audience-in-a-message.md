@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 feature: Audiences
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '421'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # Sélectionner une audience dans un message{#selecting-an-audience-in-a-message}
 
@@ -63,4 +63,3 @@ Les audiences peuvent être définies au moment de la création du message via l
 Le bloc des audiences est mis à jour et affiche qu’une cible ainsi que des profils de test ont été sélectionnés pour cet email.
 
 ![](assets/delivery_audience_definition_3.png)
-
