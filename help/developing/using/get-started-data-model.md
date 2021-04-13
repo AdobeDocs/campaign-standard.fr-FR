@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Modèle de données
-role: Développeur
-level: Intermédiaire
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main du modèle de données de Campaign Standard {#get-started-data-model}
 
