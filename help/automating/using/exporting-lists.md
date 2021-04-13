@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '462'
+source-wordcount: '459'
 ht-degree: 100%
 
 ---
-
 
 # Export de listes{#exporting-lists}
 
