@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: « Lorsque votre contenu est prêt, apprenez à soigneusement définir qui recevra votre message. »
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # Définir l’audience appropriée {#define-the-right-audience}
 
