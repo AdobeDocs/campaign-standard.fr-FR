@@ -9,15 +9,15 @@ topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour de plusieurs statuts d’abonnement depuis un fichier {#updating-multiple-subscription-statuses-from-a-file}
 
