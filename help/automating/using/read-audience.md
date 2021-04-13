@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '229'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
-
 
 # Lecture d&#39;audience{#read-audience}
 
