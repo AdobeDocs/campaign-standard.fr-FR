@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '521'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # Envoi d&#39;une notification push récurrente avec un workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
