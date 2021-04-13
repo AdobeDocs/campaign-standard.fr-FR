@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
-
 
 # Ajouter des panneaux{#adding-panels}
 
