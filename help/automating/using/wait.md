@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: wait,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
-
 
 # Attente{#wait}
 
@@ -56,4 +56,3 @@ Le workflow se présente comme suit :
 * Une **[!UICONTROL Attente]** de 24 h permettant d&#39;attendre entre l&#39;envoi de l&#39;invitation et la suite du workflow.
 * Une seconde **[!UICONTROL Requête]** permettant de cibler les profils ayant reçus le premier email mais n&#39;ayant pas cliqué sur le lien d&#39;inscription à l&#39;intérieur.
 * Une seconde **[!UICONTROL Diffusion email]** permettant d&#39;envoyer le rappel d&#39;invitation aux personnes sélectionnées.
-
