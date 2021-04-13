@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Architecte de données
-level: Débutant
+role: Data Architect
+level: Beginner
+exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
-
 
 # Commandes d’exécution         {#execution-commands}
 
