@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 feature: Adresse de contrôle
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '392'
+source-wordcount: '389'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation des pièges {#using-traps}
 
