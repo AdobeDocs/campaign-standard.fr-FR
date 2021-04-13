@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 100%
 
 ---
-
 
 # Rendez-vous{#and-join}
 
@@ -45,4 +45,3 @@ L&#39;activité **[!UICONTROL Rendez-vous]** ne déclenche sa transition sortant
 L&#39;exemple suivant montre l&#39;exécution de deux branches d&#39;un workflow avant qu&#39;elles ne se rejoignent avec l&#39;activité **[!UICONTROL Rendez-vous]**. L&#39;extraction de fichier ne pourra avoir lieu que lorsque les trois transitions entrantes de l&#39;activité **[!UICONTROL Rendez-vous]** seront activées.
 
 ![](assets/wkf_and-join_example.png)
-
