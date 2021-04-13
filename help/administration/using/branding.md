@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Paramétres de l’instance
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1333'
+source-wordcount: '1331'
 ht-degree: 100%
 
 ---
-
 
 # Marques{#branding}
 
@@ -200,4 +200,3 @@ Pour créer un email lié à une marque, procédez comme suit :
 1. Votre email est déjà configuré. Vous pouvez en vérifier les informations avant de le tester grâce à des profils de test, puis de l&#39;envoyer à votre audience.
 
    ![](assets/branding_16.png)
-
