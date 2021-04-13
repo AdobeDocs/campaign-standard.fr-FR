@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Paramétres de l’instance
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1362'
+source-wordcount: '1360'
 ht-degree: 100%
 
 ---
-
 
 # Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform {#sdkv4-migration}
 
