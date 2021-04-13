@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Audiences
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 100%
 
 ---
-
 
 # A propos des audiences{#about-audiences}
 
