@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 feature: Suivi des performances
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1119'
+source-wordcount: '1116'
 ht-degree: 100%
 
 ---
-
 
 # Calcul de la date d&#39;envoi{#computing-the-sending-date}
 
@@ -178,4 +178,3 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 * Le deuxième segment recevra le message deux heures plus tard (le 25 mai à 10 heures).
 * Le troisième segment recevra le message six heures plus tard (le 25 mai à 14 heures).
 * Le quatrième segment recevra le message huit heures plus tard (le 25 mai à 16 heures).
-
