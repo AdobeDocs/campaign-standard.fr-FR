@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: configuring-channels
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
-
 
 # À propos d’Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
