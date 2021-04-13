@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 100%
 
 ---
-
 
 # Création ou extension de la ressource{#creating-or-extending-the-resource}
 
