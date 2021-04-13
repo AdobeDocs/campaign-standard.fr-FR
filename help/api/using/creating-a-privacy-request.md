@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Ingénieur de données
-level: Expérimenté
+role: Data Engineer
+level: Experienced
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
-
 
 # Création d’une demande d’accès à des informations personnelles {#creating-a-privacy-request}
 
