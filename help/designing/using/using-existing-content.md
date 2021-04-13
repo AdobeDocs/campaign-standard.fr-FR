@@ -7,12 +7,13 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 feature: Conception d’email
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1242'
+source-wordcount: '1239'
 ht-degree: 100%
 
 ---
@@ -166,7 +167,7 @@ Pour plus d&#39;informations sur la conversion d&#39;un email existant en email 
 
 **Rubrique connexe**:
 
-* [Créer un email](../../channels/using/creating-an-email.md)
+* [Création d’un email](../../channels/using/creating-an-email.md)
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
