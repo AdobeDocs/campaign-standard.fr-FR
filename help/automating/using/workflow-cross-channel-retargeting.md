@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '388'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
-
 
 # Workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email{#retargeting-delivery-to-non-openers}
 
