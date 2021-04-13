@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '371'
+source-wordcount: '368'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes{#troubleshooting}
 
