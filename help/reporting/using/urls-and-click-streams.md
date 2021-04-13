@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # URL et flux de clics{#urls-and-click-streams}
 
@@ -31,4 +31,3 @@ Le tableau **Top des liens les plus visités** contient les données disponibles
 
 * **Clic** : nombre de clics sur un contenu dans une diffusion.
 * **Clics uniques** : nombre de destinataires ayant cliqué sur un contenu dans une diffusion.
-
