@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1844'
+source-wordcount: '1842'
 ht-degree: 100%
 
 ---
-
 
 # Configuration de la structure de données de la ressource{#configuring-the-resource-s-data-structure}
 
