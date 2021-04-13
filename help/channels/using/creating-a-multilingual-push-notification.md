@@ -7,16 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '992'
+source-wordcount: '989'
 ht-degree: 100%
 
 ---
-
 
 # Création d&#39;une notification push multilingue{#creating-a-multilingual-push-notification}
 
