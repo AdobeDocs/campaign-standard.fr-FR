@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 feature: Gestion des accès
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 100%
 
 ---
-
 
 # Entités organisationnelles{#organizational-units}
 
@@ -125,4 +125,3 @@ Les champs de l&#39;entité organisationnelle sont ajoutés à vos profils, dans
 
 * [A propos des entités](../../administration/using/organizational-units.md#about-units)
 * [Gestion des accès](../../administration/using/about-access-management.md)
-
