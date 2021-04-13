@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 100%
 
 ---
-
 
 # A propos de l&#39;intégration Campaign-Analytics{#about-campaign-analytics-integration}
 
