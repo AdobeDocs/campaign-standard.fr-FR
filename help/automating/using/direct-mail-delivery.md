@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '968'
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
-
 
 # Diffusion courrier{#direct-mail-delivery}
 
