@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: cusResource,main
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 100%
 
 ---
-
 
 # Configuration de la définition des filtres{#configuring-filter-definition}
 
