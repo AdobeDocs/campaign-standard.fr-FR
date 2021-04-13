@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 feature: Reporting
-role: Directeur
-level: Débutant
+role: Leader
+level: Beginner
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '829'
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main des rapports dynamiques {#about-dynamic-reports}
 
