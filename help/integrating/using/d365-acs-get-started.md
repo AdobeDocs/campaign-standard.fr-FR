@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '848'
+source-wordcount: '845'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de l’intégration de Microsoft Dynamics 365
 
