@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: filtering-data
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1946'
+source-wordcount: '1943'
 ht-degree: 100%
 
 ---
-
 
 # Liste des fonctions{#list-of-functions}
 
@@ -749,4 +749,3 @@ Les fonctions de représentation sont utilisées pour classer des valeurs.
   </tr> 
  </tbody> 
 </table>
-
