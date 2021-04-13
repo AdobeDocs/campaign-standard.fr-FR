@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '326'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
-
 
 # Dimensions et mesures de Campaign dans Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
@@ -103,4 +103,3 @@ Les **[!UICONTROL mesures]** de Campaign qui figurent dans Analytics sont réper
   </tr> 
  </tbody> 
 </table>
-
