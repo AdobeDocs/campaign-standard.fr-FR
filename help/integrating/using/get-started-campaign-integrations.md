@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '636'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
-
 
 # A propos des intégrations de Campaign{#get-started-campaign-integrations}
 
@@ -105,4 +105,3 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
   </tr> 
  </tbody> 
 </table>
-
