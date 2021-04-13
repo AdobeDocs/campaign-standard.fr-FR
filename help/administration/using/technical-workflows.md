@@ -7,20 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 feature: Paramètres de l’instance
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 translation-type: ht
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '662'
+source-wordcount: '660'
 ht-degree: 100%
 
 ---
 
-
 # Workflows techniques{#technical-workflows}
 
-Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés périodiquement pour s&#39;exécuter sur le serveur.
+Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés pour s’exécuter périodiquement sur le serveur.
 
 Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions.
 
@@ -121,4 +121,3 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   </tr> 
  </tbody> 
 </table>
-
