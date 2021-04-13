@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 feature: Gestion des accès
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1020'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des groupes et des utilisateurs{#managing-groups-and-users}
 
@@ -150,4 +150,3 @@ Vos utilisateurs sont maintenant affectés à un groupe de sécurité et peuvent
 >[!IMPORTANT]
 >
 >Lorsque des utilisateurs sont supprimés d’un groupe de sécurité dans Admin Console, ils restent membres du groupe de sécurité d’Adobe Campaign, mais ne sont plus en mesure de se connecter à Adobe Campaign. Dans un tel cas, il convient de supprimer les adresses email des utilisateurs dans Admin Console pour éviter qu’ils ne reçoivent des informations sensibles.
-
