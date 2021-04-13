@@ -6,16 +6,16 @@ description: Préparez, testez, planifiez, envoyez et surveillez vos messages.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main du test et de l’envoi {#about-sending-messages-with-campaign}
 
@@ -50,7 +50,7 @@ En savoir plus :
 
 * [Préparer l’envoi](../../sending/using/preparing-the-send.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
-* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
+* [Envoi de BAT](../../sending/using/sending-proofs.md)
 * [Rendu des emails](../../sending/using/email-rendering.md)
 * [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [À propos des typologies et des règles de typologie](../../sending/using/about-typology-rules.md)
