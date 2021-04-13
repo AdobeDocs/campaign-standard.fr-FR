@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1368'
+source-wordcount: '1365'
 ht-degree: 100%
 
 ---
-
 
 # Comprendre les diffusions en échec{#understanding-delivery-failures}
 
