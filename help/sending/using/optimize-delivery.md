@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment sécuriser et optimiser le processus d’envoi en amont.
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 translation-type: ht
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '754'
+source-wordcount: '751'
 ht-degree: 100%
 
 ---
-
 
 # Optimiser votre diffusion {#optimize-delivery}
 
