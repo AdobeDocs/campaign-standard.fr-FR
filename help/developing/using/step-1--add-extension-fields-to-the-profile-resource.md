@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 100%
 
 ---
-
 
 # Etape 1 : Ajouter des champs d&#39;extension à la ressource Profil{#step-add-extension-fields-to-the-profile-resource}
 
@@ -26,4 +26,3 @@ ht-degree: 100%
 1. Sélectionnez la ressource **[!UICONTROL Profil]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Ajoutez le champ **[!UICONTROL Code Promotion]** de type **[!UICONTROL Texte]** avec l&#39;identifiant **[!UICONTROL Marque]** dans les champs de la ressource.
-
