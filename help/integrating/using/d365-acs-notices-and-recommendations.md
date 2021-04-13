@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2476'
+source-wordcount: '2473'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques et limites {#acs-msdyn-best-practices}
 
