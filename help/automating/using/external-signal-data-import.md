@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
-
 
 # Signal externe et import de données {#external-signal-data-import}
 
