@@ -7,20 +7,20 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 feature: Optimisation de l’heure d’envoi
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '301'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
 
-
 # Optimiser l&#39;heure d&#39;envoi{#optimizing-the-sending-time}
 
-Pour améliorer le taux d&#39;ouverture de vos messages, vous pouvez définir manuellement une heure d&#39;envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l&#39;heure spécifiées.
+Pour améliorer le taux d&#39;ouverture de vos messages, vous pouvez définir manuellement une heure d&#39;envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées.
 
 La définition d&#39;une heure d&#39;envoi est possible au niveau de la diffusion ou à l&#39;aide d&#39;un workflow.
 
@@ -46,4 +46,3 @@ Plusieurs options sont disponibles :
 * **[!UICONTROL Envoyer à une date personnalisée définie en fonction d&#39;une formule]** : chaque destinataire recevra le message à une date et une heure calculée en fonction d&#39;une formule spécifiée.
 
    Voir [Calcul de la date d&#39;envoi](../../sending/using/computing-the-sending-date.md).
-
