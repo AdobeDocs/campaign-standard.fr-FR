@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 feature: Email
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '853'
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
-
 
 # Créer un email de test A/B{#designing-an-a-b-test-email}
 
