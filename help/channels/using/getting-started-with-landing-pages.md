@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing pages
-role: Professionnel
+role: Business Practitioner
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1043'
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main des landing pages {#getting-started-with-landing-pages}
 
