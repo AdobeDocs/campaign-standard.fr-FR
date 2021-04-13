@@ -7,16 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 feature: Landing pages
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1237'
+source-wordcount: '1234'
 ht-degree: 100%
 
 ---
-
 
 # Configuration d&#39;un processus de double opt-in{#setting-up-a-double-opt-in-process}
 
