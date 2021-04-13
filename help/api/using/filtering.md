@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Ingénieur de données
-level: Expérimenté
+role: Data Engineer
+level: Experienced
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
 
 # Filtrage {#filtering}
 
