@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 feature: Suivi des performances
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1026'
+source-wordcount: '1023'
 ht-degree: 100%
 
 ---
-
 
 # Confirmer l&#39;envoi{#confirming-the-send}
 
