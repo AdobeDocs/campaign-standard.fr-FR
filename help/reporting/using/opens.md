@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 100%
 
 ---
-
 
 # Ouvertures{#opens}
 
