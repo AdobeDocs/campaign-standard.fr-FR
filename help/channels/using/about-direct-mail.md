@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 feature: Courrier
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
-
 
 # A propos du canal Courrier{#about-direct-mail}
 
