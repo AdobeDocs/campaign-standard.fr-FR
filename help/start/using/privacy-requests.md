@@ -7,16 +7,16 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Confidentialité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1833'
+source-wordcount: '1830'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des demandes d&#39;accès à des informations personnelles {#privacy-requests}
 
