@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # Indicateurs de tracking{#tracking-indicators}
 
@@ -37,4 +37,3 @@ Le tableau **[!UICONTROL Indicateurs de tracking]** et le graphique **Top 5 des 
 * **Désabonnement** : nombre de clics sur le lien de désinscription.
 * **Indésirables** : nombre de destinataires ayant déclaré un email comme étant un spam.
 * **Page miroir** : nombre de clics sur le lien de la page miroir.
-
