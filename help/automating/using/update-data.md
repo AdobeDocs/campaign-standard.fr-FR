@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '541'
+source-wordcount: '538'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour de données{#update-data}
 
