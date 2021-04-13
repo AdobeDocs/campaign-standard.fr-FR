@@ -7,16 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 feature: Gestion des accès
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des accès{#about-access-management}
 
@@ -48,4 +48,3 @@ La gestion des utilisateurs s&#39;effectue dans la console d&#39;administration 
 * [Entités organisationnelles](../../administration/using/organizational-units.md)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
 * [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md)
-
