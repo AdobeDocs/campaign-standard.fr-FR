@@ -8,14 +8,14 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '584'
+source-wordcount: '582'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques d’import {#import-best-practices}
 
