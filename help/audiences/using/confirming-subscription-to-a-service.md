@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 feature: Audiences
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1424'
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
-
 
 # Confirmation d&#39;un abonnement à un service{#confirming-subscription-to-a-service}
 
