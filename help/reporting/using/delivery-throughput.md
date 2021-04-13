@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
-
 
 # Débit des diffusions{#delivery-throughput}
 
