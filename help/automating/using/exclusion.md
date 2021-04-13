@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 100%
 
 ---
-
 
 # Exclusion{#exclusion}
 
@@ -51,4 +51,3 @@ Un ensemble principal est défini parmi les transitions entrantes. Les membres d
 L&#39;exemple suivant montre le paramétrage de deux activités de requête visant à filtrer les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et dont l&#39;adresse email n&#39;est pas valide. Ceux dont l&#39;email n&#39;est pas valide sont ensuite exclus du premier ensemble. Cela permet par exemple d&#39;envoyer un email par la suite.
 
 ![](assets/wkf_exclusion_example.png)
-
