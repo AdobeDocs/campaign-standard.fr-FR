@@ -10,11 +10,11 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '184'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 87%
 
 ---
 
@@ -26,12 +26,13 @@ Le comportement du point d’entrée /customResources est identique à celui du 
 
 Les ressources personnalisées exposées dans cette API sont les suivantes :
 
-* toutes les entités liées à l’entité de profil ;
-* toutes les entités liées aux enfants de l’entité de profil ;
+* toutes les entités qui ne sont pas exposées sous /profileAndServicesExt
 * toutes les entités non liées au profil et, pour ces entités, leurs enfants et petits-enfants.
+* par défaut, toutes les entités qui ne sont liées à rien, ainsi que leurs enfants et petits-enfants.
 
 >[!NOTE]
 >Les ressources personnalisées disponibles dans /profileAndServicesExt ne sont pas exposées dans l’API /customResources.
+
 
 Voici un exemple expliquant comment récupérer les métadonnées d’une ressource personnalisée :
 
