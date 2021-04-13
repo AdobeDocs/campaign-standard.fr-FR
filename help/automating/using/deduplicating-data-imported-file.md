@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 100%
 
 ---
-
 
 # Dédupliquer les données d’un fichier importé {#deduplicating-the-data-from-an-imported-file}
 
