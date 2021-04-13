@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Conception d’email
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---
-
 
 # Questions fréquentes sur le Concepteur d’email
 
