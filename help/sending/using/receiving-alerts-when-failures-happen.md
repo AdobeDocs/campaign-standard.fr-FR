@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Bons à tirer
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2302'
+source-wordcount: '2299'
 ht-degree: 100%
 
 ---
-
 
 # Recevoir des alertes en cas d&#39;échec{#receiving-alerts-when-failures-happen}
 
@@ -283,4 +283,3 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 * [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
