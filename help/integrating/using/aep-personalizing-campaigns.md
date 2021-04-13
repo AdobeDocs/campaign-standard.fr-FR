@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: channel-activities
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '292'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
-
 
 # Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
 
