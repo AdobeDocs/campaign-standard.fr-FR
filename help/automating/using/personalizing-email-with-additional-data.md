@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '499'
+source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # Personnaliser un email avec des données additionnelles {#example--personalizing-an-email-with-additional-data}
 
