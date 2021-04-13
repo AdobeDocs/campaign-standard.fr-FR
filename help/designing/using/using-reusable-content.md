@@ -7,12 +7,13 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 feature: Conception d’email
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1888'
+source-wordcount: '1885'
 ht-degree: 100%
 
 ---
