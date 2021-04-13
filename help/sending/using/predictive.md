@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 feature: Optimisation de l’heure d’envoi
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
-
 
 # Optimisation de la conception et de la diffusion avec des emails optimisés par l’IA{#journey-ai}
 
@@ -153,26 +153,3 @@ En utilisant une activité de requête dans un workflow, vous pouvez utiliser le
 Par exemple, avec les critères de **niveau de rétention** :
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
