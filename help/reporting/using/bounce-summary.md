@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: 03ea2f20-959c-497e-bd71-4e77132d712e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
-
 
 # Synthèse des bounces{#bounce-summary}
 
