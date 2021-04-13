@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
 feature: Campagnes
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '504'
+source-wordcount: '501'
 ht-degree: 100%
 
 ---
-
 
 # Activités marketing{#marketing-activities}
 
@@ -96,4 +96,3 @@ Selon le contexte, vous pouvez :
 >[!NOTE]
 >
 >Vous pouvez également créer une activité marketing depuis la liste des activités marketing. Dans ce cas, vous pouvez créer n’importe quel type d’activité et choisir de lier l’activité marketing à une campagne parente (ou à un programme parent si vous créez un programme) par l’intermédiaire des propriétés de l’activité.
-
