@@ -9,15 +9,15 @@ topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # A propos des Triggers Adobe Experience Cloud{#about-adobe-experience-cloud-triggers}
 
@@ -65,4 +65,3 @@ Voici quelques remarques importantes à prendre en considération avant d&#39;ut
 >[!NOTE]
 >
 >Pour en savoir plus sur les bonnes pratiques et les limites techniques, consultez [Bonnes pratiques et limites des déclencheurs](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
-
