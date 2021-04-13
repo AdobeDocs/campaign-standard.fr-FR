@@ -9,15 +9,15 @@ topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
-
 
 # Services d’inscriptions {#subscription-services}
 
@@ -161,4 +161,3 @@ Le workflow de se présente comme suit :
    Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
 
    ![](assets/subscription_activity_example_from_file.png)
-
