@@ -9,15 +9,15 @@ topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
-
 
 # Abonner des profils à un service spécifique après l’import d’un fichier{#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
