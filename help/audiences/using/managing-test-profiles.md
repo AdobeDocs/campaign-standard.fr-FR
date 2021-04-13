@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 feature: Profils
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '470'
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des profils de test      {#managing-test-profiles}
 
