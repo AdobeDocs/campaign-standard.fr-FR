@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: b780704c-210b-4cab-9016-91726a86de6d
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités de Data Management{#about-data-management-activities}
 
