@@ -7,14 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Suivi des performances
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
-workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’o
 >
 >Adobe Campaign ne gère pas les fichiers archivés. Il vous permet d’envoyer les messages de votre choix à une adresse dédiée, à partir de laquelle ils peuvent être traités et archivés au moyen d’un système externe.
 
-## Recommandations et limitations   {#recommendations-and-limitations}
+## Recommandations et limitations  {#recommendations-and-limitations}
 
 * Cette fonctionnalité est en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
 * L’adresse en Cci de votre choix doit être fournie à l’équipe Adobe qui la configurera pour vous.
@@ -41,9 +41,9 @@ Une fois la fonctionnalité activée, vous devez activer Email BCC depuis l’o
 
 >[!NOTE]
 >
->Actuellement, les courriels archivés sont toujours envoyés par le module d&#39;archivage hérité qui utilise un simple relais SMTP.
+>Actuellement, les emails archivés sont toujours envoyés par l&#39;ancien module d&#39;archivage qui utilise un simple relais SMTP.
 
-## Activer l’archivage des emails    {#activating-email-archiving}
+## Activer l’archivage des emails  {#activating-email-archiving}
 
 Une fois activée, la fonctionnalité Email BCC est activée dans le [modèle d’email](../../start/using/marketing-activity-templates.md) par le biais d’une option dédiée :
 
