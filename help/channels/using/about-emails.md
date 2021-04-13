@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: email-messages
 context-tags: deliveryCreation,wizard
 feature: Email
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
-
 
 # A propos des emails{#about-emails}
 
