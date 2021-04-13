@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+role: Business Practitioner
+level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
+translation-type: tm+mt
+source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
-
 
 # Calendrier des versions {#release-planning}
 
@@ -44,11 +44,11 @@ Des informations détaillées sur cette version sont disponibles dans les [Notes
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>19-20 avril 2021<br /> </td>
+   <td>Bientôt disponible<br /> </td>
   </tr>
   <tr>
    <td> Production<br /> </td>
-   <td>26 avril - 3 mai 2021<br /> </td>
+   <td>Bientôt disponible<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l’instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L’instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -87,4 +87,4 @@ R : Oui. Il ne sera pas possible d’envoyer de nouveaux emails pendant la mise
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s’affiche avec la dernière version.
 
-Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
