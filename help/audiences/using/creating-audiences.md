@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 feature: Audiences
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1021'
+source-wordcount: '1018'
 ht-degree: 100%
 
 ---
-
 
 # Création d&#39;une audience{#creating-audiences}
 
@@ -147,4 +147,3 @@ Votre date d&#39;expiration est maintenant configurée. Lorsque cette date sera 
 Pour supprimer une audience, vous pouvez également la sélectionner, puis cliquer sur le bouton **[!UICONTROL Supprimer l&#39;élément]**.
 
 ![](assets/audience_delete_1.png)
-
