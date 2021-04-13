@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
-
 
 # Notions de modèle de données{#data-model-concepts}
 
