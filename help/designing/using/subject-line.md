@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 feature: Conception d’email
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '357'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---
-
 
 # Définition de l’objet et de l’expéditeur d’un email{#defining-the-subject-line-of-an-email}
 
