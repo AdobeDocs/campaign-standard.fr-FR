@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '840'
+source-wordcount: '837'
 ht-degree: 100%
 
 ---
-
 
 # Personnaliser un workflow avec des paramètres externes   {#customizing-a-workflow-with-external-parameters}
 
