@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: e0d281f7-d522-425c-9854-894e84a0a422
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '170'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # A propos de l&#39;intégration Campaign-Target{#about-campaign-target-integration}
 
