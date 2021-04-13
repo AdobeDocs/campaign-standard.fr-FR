@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '554'
+source-wordcount: '551'
 ht-degree: 100%
 
 ---
-
 
 # Enrichissement des données de profil avec des données contenues dans un fichier {#enriching-profile-data-with-data-contained-in-a-file}
 
