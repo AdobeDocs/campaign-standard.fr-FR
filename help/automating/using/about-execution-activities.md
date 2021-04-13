@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités d&#39;exécution{#about-execution-activities}
 
@@ -35,4 +35,3 @@ La section **[!UICONTROL Exécution]** fournit les activités suivantes :
 * [Attente](../../automating/using/wait.md)
 * [Signal externe](../../automating/using/external-signal.md)
 * [Test](../../automating/using/test.md)
-
