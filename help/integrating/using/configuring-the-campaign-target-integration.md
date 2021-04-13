@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '197'
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # Configurer l&#39;intégration Campaign-Target{#configuring-the-campaign-target-integration}
 
