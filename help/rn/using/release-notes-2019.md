@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '7618'
+source-wordcount: '7615'
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour 2019{#release-notes-2019}
 
@@ -621,4 +621,3 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Le débit d’envoi a été amélioré et stabilisé pour les messages SMS.
 * Correction d’un problème qui empêchait l’utilisation du caractère &quot;~&quot; dans un message SMS. (CAMP-29172)
 * Correction d’un problème de diffusions avec l’option d’optimisation de l’heure d’envoi. (CAMP-29231)
-
