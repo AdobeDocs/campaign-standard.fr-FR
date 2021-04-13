@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
-
 
 # Mise à jour des données à l’aide de la réconciliation {#data-update-reconciliation}
 
