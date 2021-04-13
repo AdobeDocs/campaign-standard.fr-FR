@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Paramètres de l’instance
-role: Administrateur
-level: Expérimenté
+role: Administrator
+level: Experienced
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1836'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
-
 
 # Comptes externes{#external-accounts}
 
