@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Messages transactionnels
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1368'
+source-wordcount: '1365'
 ht-degree: 100%
 
 ---
-
 
 # Notifications push transactionnelles{#transactional-push-notifications}
 
