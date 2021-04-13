@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '333'
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des processus d&#39;opt-in et d’opt-out dans Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
@@ -59,4 +59,3 @@ Pour que les utilisateurs puissent s’inscrire ou se désinscrire de toutes les
 Lorsqu&#39;un utilisateur clique sur le lien de la landing page, l&#39;option **[!UICONTROL Ne plus contacter (tous canaux)]** du profil est automatiquement sélectionnée.
 
 ![](assets/blocklisting_allchannels.png)
-
