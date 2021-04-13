@@ -9,15 +9,15 @@ topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
-
 
 # À propos du service Audience Destinations {#about-audiences}
 
