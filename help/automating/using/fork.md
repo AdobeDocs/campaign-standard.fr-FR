@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: fork,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Branchement{#fork}
 
@@ -44,4 +44,3 @@ L&#39;activité **[!UICONTROL Branchement]** permet de réaliser, au sein d&#39;
 L&#39;exemple suivant montre l&#39;intersection de deux activités de requête visant à cibler les profils de la base Adobe Campaign qui sont des femmes habitant à Paris. Le branchement permet alors de lancer en parallèle plusieurs activités : d&#39;une part une sauvegarde d&#39;audience permettant de garder en mémoire la population calculée, et d&#39;autre part une segmentation permettant d&#39;envoyer deux emails différents avec du contenu ciblé pour chaque segment. Le premier email est envoyé aux femmes parisiennes dont l&#39;âge est compris entre 18 et 40 ans et le second aux femmes parisiennes de plus de 40 ans.
 
 ![](assets/wkf_fork_example.png)
-
