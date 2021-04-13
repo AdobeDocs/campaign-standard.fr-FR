@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
-
 
 # Ajouter du contenu dynamique Target{#adding-target-dynamic-content}
 
@@ -57,4 +57,3 @@ La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses
 * [Portail d&#39;Adobe Target](https://docs.adobe.com/content/help/fr-FR/target/using/integrate/campaign-and-target.html)
 * [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md)
 * Vidéo [Personnaliser des images d&#39;email en temps réel](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)
-
