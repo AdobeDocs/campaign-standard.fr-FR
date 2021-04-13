@@ -7,16 +7,16 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 feature: Profils
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '456'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
-
 
 # Enrichissement de la base de données{#enriching-the-database}
 
