@@ -7,16 +7,16 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
-
 
 # Interface{#about-the-interface}
 
