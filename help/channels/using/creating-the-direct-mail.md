@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Courrier
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '625'
+source-wordcount: '622'
 ht-degree: 100%
 
 ---
-
 
 # Créer le courrier{#creating-the-direct-mail}
 
