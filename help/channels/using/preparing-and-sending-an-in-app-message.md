@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: Dans l’application
-role: Professionnel
+role: Business Practitioner
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1400'
+source-wordcount: '1398'
 ht-degree: 100%
 
 ---
-
 
 # Préparation et envoi d&#39;un message In-App{#preparing-and-sending-an-in-app-message}
 
