@@ -9,15 +9,15 @@ topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
-
 
 # Diffusions conjointes d’emails et de courriers {#coupling-email-direct-mail}
 
