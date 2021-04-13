@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '301'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
-
 
 # Création d’une diffusion email tous les mardis{#creating-email-every-tuesday}
 
