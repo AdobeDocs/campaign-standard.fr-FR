@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: « Une fois que votre message est prêt, découvrez comment effectuer toutes les vérifications avant de l’envoyer »
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
-
 
 # Effectuer toutes les vérifications avant d’envoyer {#perform-all-checks}
 
@@ -64,4 +64,3 @@ Si vous disposez de plusieurs contenus pour une diffusion email, vous pouvez uti
 * Choisissez la version qui a eu le plus de succès et envoyez-la au reste de vos destinataires.
 
 En savoir plus à ce sujet dans [cette section](../../channels/using/designing-an-a-b-test-email.md).
-
