@@ -4,16 +4,16 @@ product: campaign
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '616'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---
-
 
 # Appel d’une ressource à l’aide d’une clé d’identification composite{#calling-a-resource-using-a-composite-identification-key}
 
