@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 feature: Suivi des performances
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: ddc92077-df73-411d-a161-3263581e6945
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '489'
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
-
 
 # Contrôler une diffusion{#monitoring-a-delivery}
 
