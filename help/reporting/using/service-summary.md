@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: b680b0c3-a65b-416f-8e28-46a9b494c754
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
-
 
 # Synthèse du service{#service-summary}
 
