@@ -7,15 +7,15 @@ content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Intégration de Microsoft CRM
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1110'
+source-wordcount: '1107'
 ht-degree: 100%
 
 ---
-
 
 # Prise en main de l’application d’intégration en libre-service {#gs-self-service-app}
 
