@@ -9,15 +9,15 @@ topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Utiliser des ressources différentes des dimensions de ciblage {#using-resources-different-from-targeting-dimensions}
 
