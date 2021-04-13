@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '5462'
+source-wordcount: '5459'
 ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour 2018{#release-notes}
 
@@ -526,4 +526,3 @@ _Profils et audiences_
 * Ajout d’une info-bulle affichant le nombre de résultats exact après le comptage de la population d’une requête.
 * Correction d’une erreur qui empêchait un utilisateur de sélectionner une audience ou de fermer la fenêtre du sélecteur d’audience.
 * Mise à jour de la liste des fonctions disponibles dans l’éditeur d’expression. Suppression des fonctions **FormatCurrency** et **ConvertCurrency**.
-
