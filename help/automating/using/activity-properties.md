@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '699'
+source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des propriétés des activités {#activity-properties}
 
