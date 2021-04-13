@@ -6,16 +6,16 @@ description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 100%
 
 ---
-
 
 # Profil (nms:recipient)
 
