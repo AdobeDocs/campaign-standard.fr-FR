@@ -8,15 +8,15 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
 role: Data Architect
-level: Expérimenté
+level: Experienced
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '2200'
+source-wordcount: '2197'
 ht-degree: 100%
 
 ---
-
 
 # API externe {#external-api}
 
