@@ -6,16 +6,16 @@ description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
 feature: Modèle de données
-role: Développeur
-level: Expérimenté
+role: Developer
+level: Experienced
+exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1208'
+source-wordcount: '1206'
 ht-degree: 100%
 
 ---
-
 
 # Historique marketing (nms:history)
 
