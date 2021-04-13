@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Architecte de données
-level: Intermédiaire
+role: Data Architect
+level: Intermediate
+exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # A propos des activités des canaux{#about-channel-activities}
 
@@ -33,4 +33,3 @@ La section **[!UICONTROL Canaux]** fournit les activités suivantes :
 * [Diffusion Notification push ](../../automating/using/push-notification-delivery.md)
 * [Diffusion courrier](../../automating/using/direct-mail-delivery.md)
 * [Diffusion In-App ](../../automating/using/in-app-delivery.md)
-
