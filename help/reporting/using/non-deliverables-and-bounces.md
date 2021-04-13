@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: c527e890-2b49-4422-a866-e55a6468c54b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
-
 
 # Echecs et bounces{#non-deliverables-and-bounces}
 
