@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 feature: SMS
-role: Professionnel
-level: Débutant
+role: Business Practitioner
+level: Beginner
+exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
-
 
 # A propos des SMS{#about-sms-messages}
 
