@@ -9,15 +9,15 @@ topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
-level: Intermédiaire
+level: Intermediate
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '327'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # Segmentation en fonction de la localisation {#segmentation-on-location}
 
@@ -66,4 +66,3 @@ Remarque : pour atteindre toutes les personnes qui ont entré paris, quelle que
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/wf-segmentation-location.png)
-
