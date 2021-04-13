@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + Configuration des canaux {#configuring-channels}
       + [A propos de la configuration des canaux](administration/using/about-channel-configuration.md)
       + [Configuration du canal Email](administration/using/configuring-email-channel.md)
-      + [Mettre à jour la qualification des rebonds après une panne de fournisseur de services Internet](administration/using/update-bounce-qualification.md)
+      + [Mettre à jour la qualification des bounces après une panne de FAI](administration/using/update-bounce-qualification.md)
       + [Configuration d’une application mobile](administration/using/configuring-a-mobile-application.md)
    + Configuration des canaux mobiles {#configuring-mobile}
       + [Mise en œuvre du suivi Push](administration/using/push-tracking.md)
