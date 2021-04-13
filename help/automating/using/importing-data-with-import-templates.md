@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Architecte de données
-level: Expérimenté
+role: Data Architect
+level: Experienced
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1153'
+source-wordcount: '1150'
 ht-degree: 100%
 
 ---
-
 
 # Importer des données avec des modèles d&#39;import{#importing-data-with-import-templates}
 
