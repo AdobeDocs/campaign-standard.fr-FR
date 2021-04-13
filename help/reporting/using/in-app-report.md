@@ -7,16 +7,16 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 feature: Reporting
-role: Directeur
-level: Intermédiaire
+role: Leader
+level: Intermediate
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # Rapport In-App{#in-app-report}
 
@@ -47,4 +47,3 @@ Le deuxième tableau **Clics et rejets In-App** est divisé en trois catégories
 * **[!UICONTROL Clics In-App uniques]** : nombre de fois où les destinataires ont cliqué sur le bouton 1 ou le bouton 2.
 * **[!UICONTROL Rejet In-App]** : nombre total de messages que les destinataires ont ignoré en cliquant sur le bouton de fermeture ou en l&#39;ignorant automatiquement.
 * **[!UICONTROL Rejet In-App unique]** : nombre de fois où les destinataires ont ignoré un message In-App.
-
