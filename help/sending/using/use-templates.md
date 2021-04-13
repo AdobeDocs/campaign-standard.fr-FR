@@ -8,16 +8,16 @@ topic-tags: deliveries-best-practices
 index: y
 description: « Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants. »
 feature: Délivrabilité
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
+exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '833'
+source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # Utilisez les modèles {#use-templates}
 
