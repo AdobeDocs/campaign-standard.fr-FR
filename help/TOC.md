@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 100%
 
