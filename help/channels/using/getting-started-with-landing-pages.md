@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing pages
+feature: Landing Pages
 role: Business Practitioner
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 translation-type: ht

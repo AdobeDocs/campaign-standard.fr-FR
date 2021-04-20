@@ -6,7 +6,7 @@ description: Découvrez comment cibler les audiences Adobe Experience Platform
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49

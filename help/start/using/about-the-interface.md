@@ -6,7 +6,7 @@ description: L'espace de travail de Campaign est basé sur des concepts communs 
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656

@@ -6,7 +6,7 @@ description: Commencez à créer du contenu d'email avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41

@@ -6,7 +6,7 @@ description: Découvrez comment envoyer des notifications système en temps rée
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5

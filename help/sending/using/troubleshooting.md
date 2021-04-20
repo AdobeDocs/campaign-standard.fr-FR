@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Délivrabilité
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953

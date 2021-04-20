@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Courrier
+feature: Direct Mail
 role: Business Practitioner
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931

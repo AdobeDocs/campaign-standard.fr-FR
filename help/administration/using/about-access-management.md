@@ -6,7 +6,7 @@ description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des g
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion des accès
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb

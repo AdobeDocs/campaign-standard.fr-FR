@@ -6,7 +6,7 @@ description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277

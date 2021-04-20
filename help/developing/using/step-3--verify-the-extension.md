@@ -6,7 +6,7 @@ description: Apprenez à accéder au champ étendu avec l'API REST.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d

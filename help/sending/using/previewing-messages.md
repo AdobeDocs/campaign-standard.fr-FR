@@ -6,7 +6,7 @@ description: Découvrez comment prévisualiser un message dans l’éditeur de c
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Adresse de contrôle
+feature: Seed Address
 role: Business Practitioner
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85

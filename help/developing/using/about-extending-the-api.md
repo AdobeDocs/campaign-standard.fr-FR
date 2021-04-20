@@ -6,7 +6,7 @@ description: Découvrez comment exposer des champs étendus pour les profils de 
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431

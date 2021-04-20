@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff

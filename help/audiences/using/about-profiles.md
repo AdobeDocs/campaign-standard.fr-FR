@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77

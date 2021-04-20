@@ -6,7 +6,7 @@ description: Découvrez comment gérer les diffusions en échec dans Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Délivrabilité
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa

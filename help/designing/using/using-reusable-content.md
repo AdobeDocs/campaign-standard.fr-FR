@@ -6,7 +6,7 @@ description: Commencez à créer du contenu d'email réutilisable avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4

@@ -6,7 +6,7 @@ description: Découvrez comment configurer Adobe Campaign pour envoyer des notif
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db

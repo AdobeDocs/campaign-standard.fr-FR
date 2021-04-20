@@ -6,7 +6,7 @@ description: Découvrez comment étendre l’abonnement à une ressource d’app
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f

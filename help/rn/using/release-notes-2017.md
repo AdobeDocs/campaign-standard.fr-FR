@@ -6,7 +6,7 @@ description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b

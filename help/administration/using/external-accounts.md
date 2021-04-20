@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f

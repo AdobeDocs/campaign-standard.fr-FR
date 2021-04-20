@@ -6,7 +6,7 @@ description: Découvrez comment diagnostiquer le modèle de données Adobe Campa
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4

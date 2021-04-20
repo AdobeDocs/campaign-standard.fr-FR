@@ -6,7 +6,7 @@ description: Résolution des problèmes de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9

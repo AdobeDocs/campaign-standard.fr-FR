@@ -6,7 +6,7 @@ description: Découvrez comment créer des profils et collecter des données sur
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b

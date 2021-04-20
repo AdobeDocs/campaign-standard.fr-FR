@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez les bonnes pratiques en matière de conception et d’envoi de diffusions avec Adobe Campaign.
-feature: Délivrabilité
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a

@@ -6,7 +6,7 @@ description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des 
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Opérations
+feature: Campaigns
 role: Business Practitioner
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad

@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Optimisation de l’heure d’envoi
+feature: Send Time Optimization
 role: Business Practitioner
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 translation-type: ht

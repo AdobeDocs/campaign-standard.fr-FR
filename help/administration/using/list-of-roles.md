@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Gestion des accès
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef

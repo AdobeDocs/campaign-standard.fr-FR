@@ -6,7 +6,7 @@ description: Les workflows techniques sont des workflows d'usine conçus pour g�
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57

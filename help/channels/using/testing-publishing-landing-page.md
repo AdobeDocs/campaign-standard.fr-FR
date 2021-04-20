@@ -6,7 +6,7 @@ description: Découvrez comment tester et publier une landing page dans Adobe Ca
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing pages
+feature: Landing Pages
 role: Business Practitioner
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987

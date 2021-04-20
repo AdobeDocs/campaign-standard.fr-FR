@@ -6,7 +6,7 @@ description: Découvrez les différentes méthodes pour enrichir la base de donn
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458

@@ -6,7 +6,7 @@ description: 'Découvrez comment supprimer une ressource. '
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f

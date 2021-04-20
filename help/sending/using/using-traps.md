@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Adresse de contrôle
+feature: Seed Address
 role: Business Practitioner
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb

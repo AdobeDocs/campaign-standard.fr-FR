@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing pages
+feature: Landing Pages
 role: Business Practitioner
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1

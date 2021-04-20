@@ -6,7 +6,7 @@ description: '"Chaque canal doit être configuré : configuration technique, mo
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898

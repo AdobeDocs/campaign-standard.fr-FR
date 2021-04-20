@@ -6,7 +6,7 @@ description: Découvrez comment gérer des images dans les emails avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2

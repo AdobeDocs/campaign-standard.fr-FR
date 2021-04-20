@@ -5,7 +5,7 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340

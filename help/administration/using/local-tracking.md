@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab

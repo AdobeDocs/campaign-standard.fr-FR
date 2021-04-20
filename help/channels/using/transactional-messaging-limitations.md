@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a

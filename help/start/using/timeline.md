@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campagnes
+feature: Campaigns
 role: Business Practitioner
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf

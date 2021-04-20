@@ -5,7 +5,7 @@ title: Mises à jour et opérations de maintenance
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d

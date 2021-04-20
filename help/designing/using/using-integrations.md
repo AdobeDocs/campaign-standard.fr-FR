@@ -6,7 +6,7 @@ description: Découvrez comment concevoir des emails via les intégrations d’A
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470

@@ -6,7 +6,7 @@ description: Découvrez comment gérer des liens avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197

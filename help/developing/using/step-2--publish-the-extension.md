@@ -5,7 +5,7 @@ title: '« Étape 2 : Publier l’extension »'
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c

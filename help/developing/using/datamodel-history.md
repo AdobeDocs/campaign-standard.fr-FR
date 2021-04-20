@@ -5,7 +5,7 @@ title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691

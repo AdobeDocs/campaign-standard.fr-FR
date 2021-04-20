@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Lorsque votre contenu est prêt, apprenez à soigneusement définir qui recevra votre message. »
-feature: Délivrabilité
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df

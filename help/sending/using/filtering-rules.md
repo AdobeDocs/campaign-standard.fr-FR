@@ -6,7 +6,7 @@ description: Utilisez des règles de filtrage pour affiner l'audience des messag
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Règles de typologie
+feature: Typology Rules
 role: Business Practitioner
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35

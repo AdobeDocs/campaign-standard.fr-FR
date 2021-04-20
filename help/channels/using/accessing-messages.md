@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc

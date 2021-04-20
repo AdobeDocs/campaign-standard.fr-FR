@@ -5,7 +5,7 @@ title: Conservation des données
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528

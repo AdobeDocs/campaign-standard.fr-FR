@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47

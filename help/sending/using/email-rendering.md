@@ -6,7 +6,7 @@ description: Découvrez la fonctionnalité de rendu des emails.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Optimisation de l’heure d’envoi
+feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6

@@ -6,7 +6,7 @@ description: Découvrez comment personnaliser un email dans le Concepteur d'emai
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d

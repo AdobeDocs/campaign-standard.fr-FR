@@ -5,7 +5,7 @@ title: Commencer avec les sources et les destinations
 description: En savoir plus sur les sources et les destinations Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources et destinations
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

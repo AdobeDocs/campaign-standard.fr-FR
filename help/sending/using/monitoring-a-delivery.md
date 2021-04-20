@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Suivi des performances
+feature: Performance Monitoring
 role: Business Practitioner
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945

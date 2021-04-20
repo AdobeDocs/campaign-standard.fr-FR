@@ -6,7 +6,7 @@ description: Découvrez comment être informé d'une adresse incorrecte et l'exc
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Courrier
+feature: Direct Mail
 role: Business Practitioner
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899

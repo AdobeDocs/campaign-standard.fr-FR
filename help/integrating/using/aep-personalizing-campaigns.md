@@ -6,7 +6,7 @@ description: Découvrez comment personnaliser vos campagnes à l’aide des attr
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0

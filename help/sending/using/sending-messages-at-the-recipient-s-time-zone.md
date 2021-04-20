@@ -6,7 +6,7 @@ description: Apprenez comment envoyer les messages au fuseau horaire du destinat
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Bons à tirer
+feature: Proofs
 role: Business Practitioner
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024

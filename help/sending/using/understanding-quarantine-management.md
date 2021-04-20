@@ -6,7 +6,7 @@ description: Découvrez comment optimiser la délivrabilité avec la gestion des
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Délivrabilité
+feature: Deliverability
 role: Business Practitioner
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90

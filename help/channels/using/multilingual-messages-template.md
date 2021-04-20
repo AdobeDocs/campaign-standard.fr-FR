@@ -6,7 +6,7 @@ description: Découvrez comment définir et exécuter des diffusions email/SMS m
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Messages multilingues
+feature: Multilingual Messages
 role: Business Practitioner
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be

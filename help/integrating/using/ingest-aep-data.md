@@ -5,7 +5,7 @@ title: Incorporer des audiences Adobe Experience Platform dans Campaign
 description: Découvrez comment intégrer des audiences Adobe Experience Platform dans le Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Sources et destinations
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

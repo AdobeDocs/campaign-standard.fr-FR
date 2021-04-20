@@ -6,7 +6,7 @@ description: Les administrateurs peuvent tracker les exports qui ont été effec
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion des accès
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2

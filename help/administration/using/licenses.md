@@ -6,7 +6,7 @@ description: Obtenez des informations supplémentaires sur les licences install�
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion des accès
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc

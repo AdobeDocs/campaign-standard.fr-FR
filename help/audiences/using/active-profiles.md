@@ -6,7 +6,7 @@ description: Vous pouvez accéder à un rapport dédié sur les mesures des clie
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc

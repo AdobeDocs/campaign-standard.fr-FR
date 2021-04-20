@@ -6,7 +6,7 @@ description: Découvrez comment éditer des profils existants et accéder aux in
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profils
+feature: Profiles
 role: Business Practitioner
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164

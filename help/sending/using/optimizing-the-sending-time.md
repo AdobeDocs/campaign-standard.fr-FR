@@ -6,7 +6,7 @@ description: Découvrez comment configurer l'heure d'envoi et accroître le taux
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Optimisation de l’heure d’envoi
+feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8

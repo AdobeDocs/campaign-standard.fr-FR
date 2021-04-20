@@ -6,7 +6,7 @@ description: Découvrez comment utiliser, avec le Concepteur d’email, des emai
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7

@@ -6,7 +6,7 @@ description: Découvrez comment utiliser le système de gestion des alertes.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Bons à tirer
+feature: Proofs
 role: Business Practitioner
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d

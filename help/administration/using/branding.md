@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b

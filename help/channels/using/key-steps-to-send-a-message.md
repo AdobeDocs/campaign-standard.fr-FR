@@ -6,7 +6,7 @@ description: Suivez ces étapes pour créer et envoyer des messages avec Adobe C
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Vue d’ensemble
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad

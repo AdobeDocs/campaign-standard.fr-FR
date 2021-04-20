@@ -6,7 +6,7 @@ description: Découvrez comment définir entièrement une ressource.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b8731088-a675-4070-9036-bf2b5254e4e8

@@ -4,7 +4,7 @@ description: Découvrez comment utiliser l’intégration de Microsoft Dynamics�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37

@@ -6,7 +6,7 @@ description: Découvrez ici les étapes clés pour ajouter une ressource dans le
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47

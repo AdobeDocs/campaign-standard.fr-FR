@@ -6,7 +6,7 @@ description: Découvrez comment importer ou exporter votre audience au sein des 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Intégration de People Core Service
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e

@@ -6,7 +6,7 @@ description: Découvrez comment utiliser l’heure d’envoi et le scoring d’e
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Optimisation de l’heure d’envoi
+feature: Send Time Optimization
 role: Business Practitioner
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e

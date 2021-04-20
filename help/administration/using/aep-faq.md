@@ -6,7 +6,7 @@ description: FAQ sur le SDK Adobe Experience Platform et l’intégration d’Ad
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70

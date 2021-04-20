@@ -6,7 +6,7 @@ description: Découvrez comment créer, gérer et envoyer un message de relance.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: Business Practitioner
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26

@@ -6,7 +6,7 @@ description: Enrichissez le modèle de données Campaign Standard avec des resso
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

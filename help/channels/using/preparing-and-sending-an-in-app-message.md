@@ -7,7 +7,7 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: Dans l’application
+feature: In App
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 translation-type: ht

@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Bons à tirer
+feature: Proofs
 role: Business Practitioner
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05

@@ -6,7 +6,7 @@ description: Questions courantes à propos du workflow technique de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Administrator
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830

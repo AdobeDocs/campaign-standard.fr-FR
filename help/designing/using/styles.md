@@ -6,7 +6,7 @@ description: Découvrez comment gérer les styles d'email dans le Concepteur d'e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: Business Practitioner
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91

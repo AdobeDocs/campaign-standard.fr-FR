@@ -6,7 +6,7 @@ description: Découvrez comment étendre la ressource Profil.
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f

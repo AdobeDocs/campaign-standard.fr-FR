@@ -7,7 +7,7 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Gestion des accès
+feature: Access Management
 role: Administrator
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d

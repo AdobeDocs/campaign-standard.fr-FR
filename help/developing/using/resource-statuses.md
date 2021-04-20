@@ -6,7 +6,7 @@ description: Découvrez les différents statuts des ressources en fonction de le
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7290ebc5-8a58-4b7f-99bf-d942e37c944e
