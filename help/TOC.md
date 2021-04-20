@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -269,10 +269,10 @@ ht-degree: 98%
       + [Utilisation de l’intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign et Adobe Experience Platform {#adobe-experience-platform}
       + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
-         + [Commencer avec les sources et les destinations](integrating/using/get-started-sources-destinations.md)
-         + [Incorporer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
+         + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)
+         + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
          + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Service de destination des Audiences (bêta) {#audience-destinations}
+      + Service Audience Destinations (version bêta) {#audience-destinations}
          + [À propos du service Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
          + [Gestion des audiences Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
          + [Utilisation du créateur de segments](integrating/using/aep-using-segment-builder.md)
