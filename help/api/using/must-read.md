@@ -10,11 +10,11 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 85%
 
 ## Droits et accès
 
-* Par défaut, les API Adobe Campaign utilisent le contexte administrateur et les unités et rôles d’organisation ne s’appliquent donc pas.
+* Par défaut, les API Adobe Campaign utilisent le contexte administrateur et les entités organisationnelles et rôles ne s’appliquent donc pas.
 * Les API Adobe Campaign sont exclues du contexte de rôle.
-* Si vous souhaitez configurer les API avec une unité d&#39;organisation ou des rôles, contactez d&#39;abord votre contact technique Adobe.
+* Si vous souhaitez configurer les API avec une entité organisationnelle ou des rôles, contactez d&#39;abord votre contact technique Adobe.
 
 ## Représentation des ressources
 
