@@ -10,9 +10,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Ces occurrences sont ajoutées car **&quot;un clic sur un email implique l&#39;o
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?      {#counts-recurring-deliveries}
+## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?       {#counts-recurring-deliveries}
 
 Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
 Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
