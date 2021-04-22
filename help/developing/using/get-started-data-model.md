@@ -6,15 +6,15 @@ description: Enrichissez le modèle de données Campaign Standard avec des resso
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Data Model
+feature: Modèle de données
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,4 +67,4 @@ Avec les API de Campaign Standard, vous pouvez créer des intégrations pour Ado
 ## Autres ressources
 
 * [Export / import de ressources personnalisées](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-cusres.html)
-* [Exporter des données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Export de données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
