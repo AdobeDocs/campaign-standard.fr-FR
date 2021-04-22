@@ -77,7 +77,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
     <tr> 
    <td>Plateforme de données clientes Adobe en temps réel (RTCDP)<br /> </td> 
    <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe (RTCDP) vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.</td>
-   <td><a href="../../integrating/using/get-started-sources-destinations.md">Prise en main des sources et destinations</a></td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Prise en main des sources et des destinations</a></td>
   </tr> 
   <tr> 
    <td> Asset core service et Assets On Demand<br /> </td> 
