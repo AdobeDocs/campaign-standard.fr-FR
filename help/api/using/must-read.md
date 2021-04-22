@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * Par défaut, les API Adobe Campaign utilisent le contexte administrateur et les entités organisationnelles et rôles ne s’appliquent donc pas.
 * Les API Adobe Campaign sont exclues du contexte de rôle.
-* Si vous souhaitez configurer les API avec une entité organisationnelle ou des rôles, contactez d&#39;abord votre contact technique Adobe.
+* Si vous souhaitez configurer les API avec une entité organisationnelle ou des rôles, contactez d’abord votre contact technique Adobe.
 
 ## Représentation des ressources
 
