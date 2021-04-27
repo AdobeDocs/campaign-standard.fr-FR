@@ -10,11 +10,11 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+workflow-type: tm+mt
 source-wordcount: '1943'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -303,7 +303,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques      {#numerical}
+## Numériques       {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -387,7 +387,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres      {#others}
+## Autres       {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -660,7 +660,7 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Cryptage au moyen d'un algorithme AES (mode bloc CBC), une chaîne de caractères (1er paramètre) avec une clé (2e paramètre) et un vecteur d'initialisation (3e paramètre). La clé et le vecteur d'initialisation doivent être indiqués sous une représentation hexadécimale (commençant par <strong>\x</strong>). Le résultat sera sous forme hexadécimale sans <strong>\x</strong>.<br /> Notez que la taille de la clé peut être de 128, 192 ou 256 bits (16, 24 ou 32 caractères hexadécimaux), mais nous vous conseillons d'utiliser 256 bits et un ID randomisé de la même longueur que la clé.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;chaîne&gt;, &lt;chaîne&gt;, &lt;chaîne&gt;)<br /> Par exemple : encryption_aescbcEncrypt(johndoe@exemple.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> crypt_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Par exemple : crypt_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x012346 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -716,7 +716,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation      {#representation}
+## Représentation       {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
