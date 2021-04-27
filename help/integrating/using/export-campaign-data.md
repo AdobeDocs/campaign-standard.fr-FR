@@ -9,23 +9,23 @@ feature: Sources et destinations
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
+workflow-type: tm+mt
+source-wordcount: '534'
+ht-degree: 87%
 
 ---
 
 # Exporter des données de Campaign vers Adobe Experience Platform {#sources}
 
-Pour exporter des données de Campaign Standard vers Adobe Real-time Customer Data Platform (RTCDP), vous devez d’abord créer un workflow dans Campaign Standard pour exporter les données que vous souhaitez partager vers votre emplacement de stockage S3 ou Azure Blob.
+Pour exporter des données de Campaign Standard vers une plateforme de données client en temps réel Adobe (RTCDP), vous devez d&#39;abord créer un processus dans Campaign Standard pour exporter vers votre emplacement d&#39;enregistrement de données Amazon Enregistrement Service (S3) ou Azure Blob  les données que vous souhaitez partager.
 
 Une fois le workflow configuré et les données envoyées à votre emplacement de stockage, vous devez connecter votre emplacement de stockage S3 ou Azure Blob en tant que **Source** dans Adobe Experience Platform.
 
 >[!NOTE]
-
-Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (tel que votre CRM) doivent être importées directement dans Adobe Experience Platform.
+>
+>Veuillez noter que nous vous recommandons d’exporter uniquement les données générées par Campaign (par exemple, envois, ouvertures, clics, etc.) vers Adobe Experience Platform. Les données ingérées à partir d’une source tierce (tel que votre CRM) doivent être importées directement dans Adobe Experience Platform.
 
 ## Création d’un workflow d’exportation dans Campaign Standard
 
@@ -55,7 +55,7 @@ Rubriques connexes :
 
 ## Connecter votre emplacement de stockage en tant que source
 
-Les étapes principales pour connecter votre emplacement de stockage S3 ou Azure Blob en tant que **Source** dans Adobe Experience Platform sont énumérées ci-dessous. Des informations détaillées sur chacune de ces étapes sont disponibles dans la [documentation des connecteurs source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr).
+Les étapes principales pour connecter votre enregistrement Amazon Enregistrement Service (S3) ou Azure Blob  en tant que **Source** dans la plate-forme d&#39;expérience d&#39;Adobe sont énumérées ci-dessous. Des informations détaillées sur chacune de ces étapes sont disponibles dans la [documentation des connecteurs source](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr).
 
 1. Dans le menu **[!UICONTROL Sources]** d’Adobe Experience Platform, créez une connexion vers votre emplacement de stockage :
 
