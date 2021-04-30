@@ -7,10 +7,10 @@ user-guide-description: 'Centre d’aide pour les principales fonctionnalités, 
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
 translation-type: tm+mt
-source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
+source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 100%
+source-wordcount: '1783'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
+   + [Problème de signature des URL suivies](rn/using/tracked-urls.md)
 + Prise en main {#getting-started}
    + [À propos d’Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Découverte de l’interface {#discovering-the-interface}
