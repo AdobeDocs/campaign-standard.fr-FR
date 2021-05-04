@@ -10,11 +10,11 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1943'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -284,7 +284,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing      {#geomarketing}
+## Géomarketing       {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -660,12 +660,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Cryptage au moyen d'un algorithme AES (mode bloc CBC), une chaîne de caractères (1er paramètre) avec une clé (2e paramètre) et un vecteur d'initialisation (3e paramètre). La clé et le vecteur d'initialisation doivent être indiqués sous une représentation hexadécimale (commençant par <strong>\x</strong>). Le résultat sera sous forme hexadécimale sans <strong>\x</strong>.<br /> Notez que la taille de la clé peut être de 128, 192 ou 256 bits (16, 24 ou 32 caractères hexadécimaux), mais nous vous conseillons d'utiliser 256 bits et un ID randomisé de la même longueur que la clé.<br /> </td> 
-   <td> crypt_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Par exemple : crypt_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x012346 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;Chaîne&gt;, &lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /> Par exemple : encryption_aescbcEncrypt(johndoe@exemple.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## des agrégats.{#aggregates}
+## Agrégats {#aggregates}
 
 Les fonctions d&#39;agrégation sont disponibles uniquement lors de l&#39;[ajout de données additionnelles](../../automating/using/query.md#enriching-data) depuis une activité de **[!UICONTROL Requête]** d&#39;un workflow.
 
