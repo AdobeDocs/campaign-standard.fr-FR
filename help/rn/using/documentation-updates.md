@@ -11,10 +11,10 @@ role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 translation-type: tm+mt
-source-git-commit: d694ffb4f375a4ad18c1115e2b0475625332eabe
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
 source-wordcount: '6808'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +40,7 @@ Désormais, la source de données **d’ID déclarés** peut également être ut
 
 Des informations ont été ajoutées au sujet de l’implémentation du tracking local pour les applications mobiles. [En savoir plus](../../administration/using/local-tracking.md)
 
-La section [Délivrabilité](../../sending/using/about-deliverability.md) a été mise à jour et inclut désormais des liens vers le nouveau [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr). Toutes les informations génériques relatives à la délivrabilité qui peuvent s’appliquer à diverses solutions d’Adobe ont été déplacées vers l’[annexe du guide des bonnes pratiques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=fr#additional-resources).
+La section [Délivrabilité](../../sending/using/about-deliverability.md) a été mise à jour et inclut désormais des liens vers le nouveau [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr). Toutes les informations génériques relatives à la délivrabilité qui peuvent s’appliquer à diverses solutions d’Adobe ont été déplacées vers l’[annexe du guide des bonnes pratiques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Version 21.1 - Février 2021 {#release-21-1---february-2021}
 
