@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Profils actifs
-description: Vous pouvez accéder à un rapport dédié sur les mesures des clients et visualiser les profils actifs dans la base de données de Campaign.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Profils Principaux
+description: Découvrez comment accéder aux mesures et aux profils principaux des clients
+feature: Profils
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '313'
-ht-degree: 100%
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 26%
 
 ---
 
-# Profils actifs{#active-profiles}
+# Mesures des clients {#customer-metrics}
 
-Adobe Campaign contient un rapport qui indique le nombre de profils actifs. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation. Seuls les administrateurs y ont accès, sous **[!UICONTROL Administration > Mesures des clients]**.
+Les administrateurs fonctionnels de Campaign peuvent accéder au rapport **[!UICONTROL Mesures du client]** à partir de **[!UICONTROL Administration > Mesures du client]**.
 
 ![](assets/audience_active_profiles1.png)
 
+Ce rapport affiche :
+
+* l’ID d’Experience Cloud
+* ID d’organisation IMS
+* le nombre de **profils principaux**
+* liste des dimensions de ciblage disponibles dans l&#39;instance
+
+Ce rapport est généré chaque mois par le workflow technique de **[!UICONTROL facturation.]**
+
+## Profils actifs{#active-profiles}
+
+Conformément à votre contrat, chacune de vos instances Campaign est configurée avec un nombre spécifique de profils principaux. Veuillez consulter votre contrat de licence pour connaître le nombre de profils principaux achetés.
+
 >[!NOTE]
 >
->Si vous utilisez Campaign Standard à partir du build 10368, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le panneau de contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
->
->Veuillez noter que la mesure des profils actifs est disponible et pertinente pour les **instances marketing** uniquement. Elle n’est ni applicable ni disponible pour les instances d’exécution, c’est-à-dire les instances MID (mid-sourcing) et RT (Message Center/messagerie en temps réel).
+>En tant qu’utilisateur administrateur, vous pouvez également surveiller le nombre de profils principaux utilisés sur vos instances directement à partir du Panneau de Contrôle. Pour plus d’informations à ce sujet, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
 
-Les profils qui ont été exclus pendant la préparation de la diffusion (règles de typologie, quarantaines, populations témoins) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois. La partie inférieure du rapport contient la liste des profils actifs pour chaque dimension de ciblage.
 
-Ce rapport est généré chaque mois par le workflow technique de **[!UICONTROL facturation]**. Il contient le nombre de profils actifs ciblés au cours de la période glissante des 12 derniers mois.
-
-Veuillez noter que les profils qui ont été exclus pendant la préparation de la diffusion (règles de typologie, quarantaines) ne sont pas pris en compte. En outre, un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois.
+Un &quot;Profil&quot; est un enregistrement d’informations représentant un client final, une prospect ou un prospect. Les profils sont considérés comme **principaux** s&#39;ils ont été ciblés par une diffusion de Campaign au cours des 12 derniers mois par un canal quelconque. Les profils qui ont été exclus pendant la préparation de la diffusion (par règle de typologie ou mécanisme de quarantaine, par exemple) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions n’est comptabilisé qu’une seule fois. Ce rapport est fourni uniquement à titre d’information ; il n’a aucune incidence directe sur la facturation.
 
 ![](assets/audience_active_profiles2.png)
 
-La partie inférieure du rapport contient la liste des profils actifs traités par le workflow de facturation :
+La partie inférieure du rapport contient la liste des profils actifs pour chaque dimension de ciblage. Il indique le nombre de principaux profils ciblés au cours de la période variable des 12 derniers mois.
 
-* La source **[!UICONTROL NmsRecipient]** comprend tous les clients qui ont été contactés à l’aide des informations de leur profil Campaign Standard.
+* La source **[!UICONTROL NmsRecipient]** comprend tous les profils qui ont été contactés à l&#39;aide de l&#39;information provenant de leur profil Campaign Standard.
 
-* D’un autre côté, les clients ciblés à l’aide d’un élément d’information spécifique uniquement (adresse email, numéro de téléphone), sans rapport avec leur profil Campaign, relèveront de la source **[!UICONTROL anonyme]**.
+* La source **[!UICONTROL anonyme]** des clients indique le nombre de profils ciblés à l’aide d’une information spécifique uniquement (adresse électronique, numéro de téléphone), sans rapport avec leur profil Campaign.
