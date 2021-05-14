@@ -7,13 +7,12 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: Campagnes
 role: Business Practitioner
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -33,7 +32,7 @@ Pour accéder à la liste des activités marketing, sélectionnez le lien **[!UI
 >
 >Depuis la page d&#39;accueil, les activités sont également accessibles depuis la vignette **[!UICONTROL Activités marketing]**.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 Le volet **[!UICONTROL Recherche]** permet de filtrer les éléments selon différents critères : par nom (libellé et identifiant), date, statut ou type d&#39;activité. Par défaut, tous les types d&#39;activité sont sélectionnés, à l&#39;exception des programmes.
 
