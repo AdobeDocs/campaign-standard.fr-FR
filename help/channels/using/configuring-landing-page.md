@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landing pages
 role: Business Practitioner
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +56,7 @@ Pour sélectionner le service à associer, procédez comme suit :
 
    Utilisez l&#39;option **[!UICONTROL Service provenant de l&#39;URL]** pour que la landing page puisse être utilisée pour plusieurs services. Vous devez alors référencer la landing page lors du paramétrage du service.
 
-## Définir les permissions et pré-charger les données      {#setting-permissions-and-pre-loading-data}
+## Définir les permissions et pré-charger les données       {#setting-permissions-and-pre-loading-data}
 
 L&#39;accès à une landing page peut être limité à des visiteurs identifiés qui proviennent d&#39;un lien figurant dans un message envoyé par Campaign, par exemple, ou à une entité organisationnelle spécifique.
 Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dans la landing page. Pour cela :
@@ -70,12 +69,11 @@ Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dan
 
    Si un profil de la base de données correspond au visiteur de la page, ses données sont affichées dans les champs du formulaire mappés avec la base de données et les éléments de personnalisation de la landing page sont pris en compte.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-Vous pouvez également procéder comme suit :
+Vous pouvez également autoriser tout visiteur à accéder au landing page à l’aide de l’option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
 
-* Utiliser les paramètres d&#39;URL pour identifier les visiteurs, à l&#39;aide de l&#39;option **[!UICONTROL Autoriser l&#39;identification des visiteurs via les paramètres de l&#39;URL]** : vous devez ensuite choisir la clé de chargement et mapper les paramètres de filtre avec les paramètres de l&#39;URL correspondante.
-* Autoriser n&#39;importe quel visiteur à accéder à la landing page, à l&#39;aide de l&#39;option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Les landing pages peuvent également être liées à une entité organisationnelle. L&#39;accès des utilisateurs aux différentes landing pages sera ainsi défini. Pour assigner une entité organisationnelle :
 
@@ -111,7 +109,7 @@ Une fois votre compte externe Google reCAPTCHA version 3 configuré, vous pouve
 1. Cochez l&#39;option **[!UICONTROL Utiliser reCAPTCHA pour protéger votre site contre les spams et les abus]**.
 1. Sélectionnez le compte externe Google reCAPTCHA que vous venez de créer.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Cliquez sur **[!UICONTROL Confirmer]**.
 
