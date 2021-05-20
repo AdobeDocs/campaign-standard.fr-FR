@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Déclenchement de l’ingestion des données via les API
-description: Découvrez comment déclencher l’ingestion des données par le biais des API.
+title: Déclenchement de l'ingestion des données via les API
+description: Découvrez comment déclencher l'ingestion des données par le biais des API.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -10,59 +10,59 @@ feature: Intégration de Microsoft CRM
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
 source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
 ---
 
-# Déclenchement de l’ingestion des données via les API {#triggering-data-ingestion-apis}
+# Déclenchement de l&#39;ingestion des données via les API {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
 
-Adobe Campaign Standard permet de déclencher l’ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d’ingestion.
+Adobe Campaign Standard permet de déclencher l&#39;ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d&#39;ingestion.
 
-Cette page décrit comment déclencher et récupérer le statut de l’ingestion de vos mappings de données. Pour des informations globales sur les API de Campaign Standard, consultez [cette section](../../api/using/get-started-apis.md).
+Cette page décrit comment déclencher et récupérer le statut de l&#39;ingestion de vos mappings de données. Pour des informations globales sur les API de Campaign Standard, consultez [cette section](../../api/using/get-started-apis.md).
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
-Avant d’utiliser les API, le mapping de données doit avoir été configuré et publié dans l’interface de Campaign Standard. Voir à ce propos les sections suivantes :
+Avant d&#39;utiliser les API, le mapping de données doit avoir été configuré et publié dans l&#39;interface de Campaign Standard. Voir à ce propos les sections suivantes :
 
-* [Définition du mapping](../../integrating/using/aep-mapping-definition.md)
+* [Définition d&#39;un mapping](../../integrating/using/aep-mapping-definition.md)
 * [Activation du mapping](../../integrating/using/aep-mapping-activation.md)
 
-Une fois le mapping de données créé, vous devez l’arrêter afin de pouvoir le déclencher à votre convenance depuis les API. Pour ce faire, procédez comme suit :
+Une fois le mapping de données créé, vous devez l&#39;arrêter afin de pouvoir le déclencher à votre convenance depuis les API. Pour ce faire, procédez comme suit :
 
-1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Statut de l’export des données vers Platform.]**
+1. Dans Campaign Standard, accédez au menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Statut de l&#39;export des données vers Platform.]**
 
-1. Double-cliquez sur le mapping de données pour l’ouvrir, puis cliquez sur le bouton **[!UICONTROL Arrêter]**.
+1. Double-cliquez sur le mapping de données pour l&#39;ouvrir, puis cliquez sur le bouton **[!UICONTROL Arrêter]**.
 
    ![](assets/aep_datamapping_stop.png)
 
 1. Enregistrez vos modifications
 
-L’exécution du mapping de données est arrêtée. Vous pouvez utiliser les API de Campaign Standard pour le déclencher manuellement.
+L&#39;exécution du mapping de données est arrêtée. Vous pouvez utiliser les API de Campaign Standard pour le déclencher manuellement.
 
-## Démarrage de l’ingestion immédiate des données {#starting-immediate-ingestion}
+## Démarrage de l&#39;ingestion immédiate des données {#starting-immediate-ingestion}
 
-L’ingestion immédiate d’un mapping XDM dans Adobe Experience Platform est déclenchée par une opération POST :
+L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform est déclenchée par une opération POST :
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Pour exécuter l’appel d’API POST d’ingestion, l’utilisateur doit disposer d’un rôle d’**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
+>Pour exécuter l&#39;appel d&#39;API POST d&#39;ingestion, l&#39;utilisateur doit disposer d&#39;un rôle d&#39;**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
 
-L’opération POST renvoie des informations concernant le statut de la demande créée :
+L&#39;opération POST renvoie des informations concernant le statut de la demande créée :
 
 * Demande envoyée avec succès pour le mapping XDM :
 
@@ -84,7 +84,7 @@ L’opération POST renvoie des informations concernant le statut de la demande 
 }
 ```
 
-* Échec de la demande, car le mapping XDM n’est pas publié ou est arrêté :
+* Échec de la demande, car le mapping XDM n&#39;est pas publié ou est arrêté :
 
 ```
 {
@@ -97,9 +97,9 @@ L’opération POST renvoie des informations concernant le statut de la demande 
 }
 ```
 
-## Récupération du statut d’une demande d’ingestion {#retrieving-status}
+## Récupération du statut d&#39;une demande d&#39;ingestion {#retrieving-status}
 
-Il est possible de récupérer le statut d’une demande d’ingestion à l’aide d’une opération GET et de l’identifiant de la demande souhaitée dans les paramètres :
+Il est possible de récupérer le statut d&#39;une demande d&#39;ingestion à l&#39;aide d&#39;une opération GET et de l&#39;identifiant de la demande souhaitée dans les paramètres :
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -108,16 +108,16 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l’interface Campaign Standard, dans le menu **[!UICONTROL Statut de l’export des données vers Platform]** (voir [Activation du mapping](../../integrating/using/aep-mapping-activation.md)).
+>Des informations détaillées sur le statut de la demande de mapping XDM et ses traitements associés sont disponibles dans l&#39;interface Campaign Standard, dans le menu **[!UICONTROL Statut de l&#39;export des données vers Platform]** (voir [Activation du mapping](../../integrating/using/aep-mapping-activation.md)).
 
-L’opération GET renvoie les informations suivantes :
+L&#39;opération GET renvoie les informations suivantes :
 
-* **batchId** : ce champ n’est renseigné que si un échec s’est produit après la préparation et le transfert par lots.
-* **info** : l’identifiant du mapping XDM.
-* **numRecords** : nombre d’enregistrements ingérés (statut de succès uniquement).
-* **status** : statut de la demande d’ingestion (succès/échec/en cours).
+* **batchId** : ce champ n&#39;est renseigné que si un échec s&#39;est produit après la préparation et le transfert par lots.
+* **info** : identifiant du mapping XDM.
+* **numRecords** : nombre d&#39;enregistrements ingérés (statut de succès uniquement).
+* **status** : statut de la demande d&#39;ingestion (succès/échec/en cours).
 
-Les réponses possibles à l’opération GET sont les suivantes :
+Les réponses possibles à l&#39;opération GET sont les suivantes :
 
 * Demande d&#39;ingestion réussie :
 
@@ -131,7 +131,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Échec de la demande d’ingestion sans aucun enregistrement ingéré :
+* Échec de la demande d&#39;ingestion sans aucun enregistrement ingéré :
 
    ```
    {
@@ -143,7 +143,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Échec de la demande d’ingestion, avec un enregistrement chargé dans un lot :
+* Échec de la demande d&#39;ingestion, avec un enregistrement chargé dans un lot :
 
    ```
    {
@@ -155,7 +155,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Demande d’ingestion abandonnée après ingestion de certains enregistrements (cette situation est possible en cas de blocage) :
+* Demande d&#39;ingestion abandonnée après ingestion de certains enregistrements (cette situation est possible en cas de blocage) :
 
    ```
    {
@@ -167,7 +167,7 @@ Les réponses possibles à l’opération GET sont les suivantes :
    }
    ```
 
-* Demande d’ingestion en cours (lorsque la demande a chargé les données dans un lot ou lorsque le lot est en cours de préparation pour la demande) :
+* Demande d&#39;ingestion en cours (lorsque la demande a chargé les données dans un lot ou lorsque le lot est en cours de préparation pour la demande) :
 
    ```
    {
