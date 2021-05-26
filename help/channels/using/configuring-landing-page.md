@@ -12,15 +12,15 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Paramétrer une landing page {#configuring-landing-page}
 
-## Confirmer la validation d&#39;une landing page      {#confirm-a-landing-page-submission}
+## Confirmer la validation d&#39;une landing page       {#confirm-a-landing-page-submission}
 
 Lorsqu&#39;une landing page est validée par un visiteur, vous pouvez configurer les actions déclenchées. Pour cela :
 
@@ -71,7 +71,7 @@ Dans le cas de visiteurs identifiés, vous pouvez précharger leurs données dan
 
    ![](assets/lp_parameters_3_temp.png)
 
-Vous pouvez également autoriser tout visiteur à accéder au landing page à l’aide de l’option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
+Vous pouvez également autoriser n&#39;importe quel visiteur à accéder à la landing page à l&#39;aide de l&#39;option **[!UICONTROL Autoriser les visiteurs non identifiés]**.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
@@ -101,7 +101,7 @@ Vous pouvez configurer Google reCAPTCHA version 3 avec votre landing page afin 
 
 Une fois votre compte externe Google reCAPTCHA version 3 configuré, vous pouvez l&#39;ajouter à votre landing page :
 
-1. Avant de publier votre landing page, accédez aux propriétés de la page à l&#39;aide de l&#39;icône ![](assets/edit_darkgrey-24px.png) figurant dans le dashboard de votre landing page.
+1. Avant de publier votre landing page, accédez aux propriétés de la page à l&#39;aide de l&#39;icône ![](assets/edit_darkgrey-24px.png) figurant dans le tableau de bord de votre landing page.
 
    ![](assets/lp_parameters_google3.png)
 
