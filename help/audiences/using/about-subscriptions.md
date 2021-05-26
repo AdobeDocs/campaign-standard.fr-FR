@@ -1,22 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: A propos des inscriptions
+title: À propos des abonnements
 description: Découvrez les services et les abonnements dans Campaign Standard.
 feature: Audiences
 role: Business Practitioner
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# A propos des inscriptions{#about-subscriptions}
+# À propos des abonnements{#about-subscriptions}
 
-Utilisez Adobe Campaign pour créer et gérer des bulletins d&#39;information et des communications entre canaux, par le biais d&#39;un ensemble de **services** : les messages ne sont envoyés qu’aux profils qui se sont abonnés au service (inclusion). Ces profils sont identifiés à l&#39;aide d&#39;un filtre dédié lors de la création d&#39;un message.
+Utilisez Adobe Campaign pour créer et de gérer des newsletters et des communications cross-canal par le biais d’un ensemble de **services** : les messages ne peuvent être envoyés qu&#39;aux profils s&#39;étant abonnés au service (opt-in). Ces profils sont identifiés à l&#39;aide d&#39;un filtre dédié lors de la création d&#39;un message.
 
 Des mécanismes d&#39;inscription peuvent être configurés pour offrir à vos clients la possibilité de s&#39;inscrire à ces services, notamment via des **emails** et des **landing pages**.
 
