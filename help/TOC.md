@@ -6,7 +6,7 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d’aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l’utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d’aide
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1785'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
-   + [Notes de mise à jour initiales](rn/using/early-release-notes.md)
+   + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour              2020](rn/using/release-notes-2020.md)
       + [Notes de mise à jour              2019](rn/using/release-notes-2019.md)
@@ -62,13 +62,13 @@ ht-degree: 99%
       + [Création d&#39;une audience](audiences/using/creating-audiences.md)
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestion des inscriptions {#managing-subscriptions}
-      + [A propos des inscriptions](audiences/using/about-subscriptions.md)
+      + [À propos des abonnements](audiences/using/about-subscriptions.md)
       + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les inscriptions](audiences/using/monitoring-subscriptions.md)
       + [Confirmation d&#39;un abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
    + Comprendre les processus d’inscription et de désinscription {#understanding-opt-in-and-opt-out-processes}
-      + [À propos des processus d’opt-in et d’opt-out dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Gestion des processus d&#39;opt-in et d’opt-out dans Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Identification des profils exclus pour une diffusion](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + Canaux de communication {#communication-channels}
@@ -223,7 +223,7 @@ ht-degree: 99%
       + [Ajouter des composants](reporting/using/adding-components.md)
       + [Création d&#39;une dimension de profil personnalisé](reporting/using/creating-a-custom-profile-dimension.md)
       + [Création d&#39;un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
-+ Intégration avec d’autres solutions {#integrating-with-adobe-cloud}
++ Intégration avec d&#39;autres solutions {#integrating-with-adobe-cloud}
    + [Prise en main des intégrations de Campaign](integrating/using/get-started-campaign-integrations.md)
    + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
       + [A propos de l’intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
@@ -281,9 +281,9 @@ ht-degree: 99%
       + Adobe Experience Platform Data Connector (version bêta) {#data-connector}
          + [À propos d’Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Présentation d’Experience Platform Datamodel ](integrating/using/aep-data-model-overview.md)
-         + [Définition d’un mapping](integrating/using/aep-mapping-definition.md)
+         + [Définition d&#39;un mapping](integrating/using/aep-mapping-definition.md)
          + [Activation du mapping](integrating/using/aep-mapping-activation.md)
-         + [Déclenchement de l’ingestion des données via les API](integrating/using/aep-triggering-data-ingestion.md)
+         + [Déclenchement de l&#39;ingestion des données via les API](integrating/using/aep-triggering-data-ingestion.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d’un workflow {#workflow-general-operation}
@@ -300,7 +300,7 @@ ht-degree: 99%
       + [Chevauchement de l&#39;exécution de workflows planifiés](automating/using/scheduled-workflows-execution.md)
    + Appeler un workflow avec des paramètres externes {#calling-workflow-external-parameters}
       + [Vue d’ensemble](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [Déclaration des paramètres dans l&#39;activité Signal externe](automating/using/declaring-parameters-external-signal.md)
+      + [Déclarer les paramètres dans l’activité Signal externe](automating/using/declaring-parameters-external-signal.md)
       + [Définir les paramètres lors de l’appel du workflow       ](automating/using/defining-parameters-calling-workflow.md)
       + [Suivi des variables d’événements      ](automating/using/monitoring-events-variables.md)
       + [Personnaliser le workflow avec des paramètres externes](automating/using/customizing-workflow-external-parameters.md)
@@ -425,12 +425,12 @@ ht-degree: 99%
       + [Membre de contrôle](developing/using/datamodel-seed.md)
       + [Service](developing/using/datamodel-service.md)
       + [Événement d’abonnement](developing/using/datamodel-subscription.md)
-      + [logs de tracking](developing/using/datamodel-tracking.md)
+      + [Logs de tracking](developing/using/datamodel-tracking.md)
       + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
    + [Prise en main de l’administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
-   + [Directives de supervision](administration/using/monitoring-guidelines.md)
+   + [Instructions de surveillance](administration/using/monitoring-guidelines.md)
    + [Instructions de configuration](administration/using/about-configuration-guidelines.md)
    + Utilisateurs et sécurité {#users-and-security}
       + [Gestion des accès](administration/using/about-access-management.md)
