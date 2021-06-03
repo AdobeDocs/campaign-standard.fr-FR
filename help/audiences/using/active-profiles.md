@@ -7,10 +7,10 @@ feature: Profils
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
-workflow-type: ht
-source-wordcount: '198'
-ht-degree: 100%
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,17 @@ Conformément à votre contrat, chacune de vos instances Campaign est dotée d&#
 
 ![](assets/audience_active_profiles_list.png)
 
-Les profils qui ont été exclus pendant la préparation de la diffusion (en raison de règles de typologie ou d&#39;un mécanisme de quarantaine, par exemple) ne sont pas pris en compte. Un profil qui a été ciblé par plusieurs diffusions n&#39;est comptabilisé qu&#39;une seule fois. Ce rapport est fourni uniquement à titre d&#39;information ; il n&#39;a aucune incidence directe sur la facturation.
+
+
+* Les profils qui ont été exclus pendant la préparation de la diffusion (en raison de règles de typologie ou d&#39;un mécanisme de quarantaine, par exemple) ne sont pas pris en compte.
+
+* Les destinataires des messages transactionnels sont comptabilisés dans les profils Principaux.
+
+* Un profil qui a été ciblé par plusieurs diffusions n&#39;est comptabilisé qu&#39;une seule fois.
+
+* Ce rapport est fourni uniquement à titre d&#39;information ; il n&#39;a aucune incidence directe sur la facturation.
+
+Au bas de la page, les dimensions de ciblage sont répertoriées avec le nombre de profils pour chacune d&#39;elles. Les destinataires des messages transactionnels sont associés à la dimension **Anonyme** .
 
 >[!NOTE]
 >
