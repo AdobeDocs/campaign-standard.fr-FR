@@ -6,15 +6,14 @@ description: Découvrez comment Campaign Standard et Microsoft Dynamics 365 g
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Intégration de Microsoft CRM
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '2473'
-ht-degree: 100%
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 94%
 
 ---
 
@@ -170,19 +169,19 @@ Les barrières de sécurité suivantes doivent être prises en compte lors de la
 
    Lors de l’estimation du volume global des appels au moteur Campaign, il est important de prendre en compte d’autres sources d’appels au moteur, notamment les landing pages, les WebApps, les JSSP, les API, les inscriptions aux applications mobiles, etc.
 
-   Consultez des informations sur le package Campaign à cette adresse : https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html
+   Affichez les informations du module Adobe Campaign Standard ici : [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html)
 
-* L’intégration prend en charge un maximum de 30 millions de contacts.
+* L’intégration prend en charge un maximum de 15 millions d’enregistrements totaux pour la synchronisation initiale avec les ressources dans Campaign. La synchronisation incrémentielle est limitée par le package Adobe Campaign Standard.
 
-* L’offre d’intégration standard comprend la prise en charge de cinq entités personnalisées au maximum, chacune ayant une taille maximale de 50 colonnes.
+* L’offre d’intégration standard comprend la prise en charge de vingt entités personnalisées au maximum, chacune d’elles d’une taille maximale de 50 colonnes.
 
 * Vous devez créer et publier vos ressources personnalisées avant de mettre en œuvre l’intégration.
 
 * La profondeur maximale de table lors de la liaison des tables est de deux (c’est-à-dire., table1->table2->table3).
 
-* La prise en charge des types de données Microsoft Dynamics 365 est limitée. Si votre modèle de données contient un type de données autre que des types de données simples (par exemple, chaînes, entiers, décimales, etc.), vous devrez peut-être mettre à jour votre modèle de données avant d’utiliser l’intégration.
+* L’intégration prend en charge jusqu’à 5 colonnes liées par ressource personnalisée. La liaison de plusieurs colonnes entre des ressources personnalisées peut avoir des répercussions considérables sur les performances. **Le** lien simple de cardinalité 0 ou 1 est préférable au lien **simple de cardinalité** 1.
 
-* Si vous choisissez de conserver les données existantes dans les entités personnalisées Campaign, vous devrez préparer les données pour l’intégration.
+* L’intégration prend en charge la transformation entre les types de données Microsoft Dynamics 365 primitifs (booléen, entier, décimal, double, chaîne, dateTime, date) et les types de données Adobe Campaign Standard (entier, booléen, flottant, double, date, date et heure, chaîne). Les types de données plus avancés sont interprétés comme des chaînes et synchronisés en l’état.
 
 * Il peut être nécessaire d&#39;établir des fenêtres de maintenance pour l&#39;intégration entre Adobe et le client.
 
