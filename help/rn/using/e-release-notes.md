@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 7%
 
 ---
@@ -53,6 +53,9 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 * L’intégration du service principal Asset avec le Concepteur d’email peut désormais être utilisée par les utilisateurs standard.
 
 * Un nouveau message a été ajouté pour confirmer la réussite de la migration d’une application push v4 vers une application push v5.
+
+* Lors de la création de jetons JSONWeb pour l’authentification auprès de l’API du Campaign Standard, les profils de produit sont désormais **considérés**. Cela signifie que les entités organisationnelles et les rôles attribués au groupe de sécurité (qui correspond au profil de produit sur Adobe IO) seront appliqués au compte technique IMS nécessaire pour les appels de l’API REST du Campaign Standard. (CAMP-47479)
+
 
 **Correctifs**
 
@@ -111,5 +114,3 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 * Correction d’un problème dans le Concepteur d’email en raison duquel l’intégration d’Asset Core Service échouait toujours lors de la sélection d’une ressource. (CAMP-47446)
 
 * Correction d’un problème qui bloquait certaines diffusions de Journey Orchestration en raison de la non-prise en charge des horodatages avec une valeur exacte (c’est-à-dire se terminant par 00) envoyés par les événements de Journey Orchestration.
-
-* Le workflow technique updateDeliveryIndicators a été optimisé. Les identifiants de diffusion ayant le même schéma broadlog/trackinglog sont désormais regroupés. Cela limite le nombre de requêtes, améliorant ainsi les performances.
