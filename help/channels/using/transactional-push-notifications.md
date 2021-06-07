@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Messages transactionnels
 role: Business Practitioner
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1365'
-ht-degree: 100%
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+workflow-type: tm+mt
+source-wordcount: '1495'
+ht-degree: 91%
 
 ---
 
@@ -196,3 +195,37 @@ L’utilisateur correspondant reçoit une notification push transactionnelle com
 >[!NOTE]
 >
 >Il n&#39;y a pas de champ de jeton d&#39;enregistrement, d&#39;application ni de plateforme push. Dans cet exemple, la réconciliation est effectuée avec le champ email.
+
+## Modification du mapping de ciblage dans une notification push transactionnelle {#change-target-mapping}
+
+Les notifications push transactionnelles utilisent un [mapping de ciblage](../../administration/using/target-mappings-in-campaign.md) spécifique qui contient les paramètres techniques requis pour envoyer ce type de diffusions.
+
+Pour modifier ce mapping de ciblage, procédez comme suit :
+
+1. Dans la liste des messages transactionnels, sélectionnez une notification push.
+
+1. Dans le tableau de bord des messages, cliquez sur le bouton **[!UICONTROL Editer les propriétés]** .
+
+   ![](assets/message-center_push_edit.png)
+
+1. Développez la section **[!UICONTROL Paramètres avancés]** .
+
+1. Cliquez sur **[!UICONTROL Sélectionner un élément &#39;Mapping de ciblage&#39;]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Sélectionnez un mapping de ciblage dans la liste.
+
+   >[!NOTE]
+   >
+   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l’envoi de notifications push transactionnelles **basées sur un profil**, utilisez le mappage cible **[!UICONTROL Profil - Evénement temps réel pour push (mapRtEventAppSubRcp)]**.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Confirmez votre modification et publiez le message. Voir [Publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >Vous devez republier le message pour que la modification soit effective, sinon le mapping de ciblage précédent sera toujours utilisé.
+
+
