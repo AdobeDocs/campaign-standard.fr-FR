@@ -7,15 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: Paramètres de l’instance
 role: Administrator
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1735'
-ht-degree: 100%
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +71,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
 Vous pouvez utiliser à présent votre nouveau routage pour envoyer des SMS avec Adobe Campaign.
 
-## Encodage et formats des SMS      {#sms-encoding-and-formats}
+## Encodage et formats des SMS       {#sms-encoding-and-formats}
 
 ### Encodage, longueur et translittération des SMS {#sms-encoding--length-and-transliteration}
 
@@ -101,7 +100,7 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
-### Tables des caractères - Norme GSM      {#table-of-characters---gsm-standard}
+### Tables des caractères - Norme GSM       {#table-of-characters---gsm-standard}
 
 Cette section présente les caractères pris en charge par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères. Pour en savoir plus, consultez la section [Encodage, longueur et translittération des SMS](#sms-encoding--length-and-transliteration).
 
@@ -317,13 +316,13 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
    ![](assets/sms_data_coding1.png)
 
-### Réponse automatique aux MO      {#automatic-reply-sent-to-the-mo}
+### Réponse automatique aux MO       {#automatic-reply-sent-to-the-mo}
 
 Lorsqu&#39;un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à exécuter.
 
 Voir à ce sujet [cette section](../../channels/using/managing-incoming-sms.md).
 
-## Configuration des propriétés des SMS      {#configuring-sms-properties}
+## Configuration des propriétés des SMS       {#configuring-sms-properties}
 
 Cette section décrit la liste des paramètres propres aux SMS dans l&#39;écran des propriétés d&#39;une diffusion de type SMS ou d&#39;un modèle de SMS.
 
@@ -333,15 +332,11 @@ Les paramètres spécifiques à l&#39;envoi des SMS sont regroupés dans les sec
 
 Dans la section **[!UICONTROL Paramètres avancés]** :
 
-* L&#39;option **[!UICONTROL De]** vous permet de personnaliser le nom de l&#39;émetteur du SMS à l&#39;aide d&#39;une chaîne de caractères. C&#39;est le nom qui s&#39;affichera dans le champ correspondant à l&#39;expéditeur du SMS sur le téléphone mobile du destinataire.
+* Le **[!UICONTROL Numéro court]** permet d’ajouter un numéro court spécifique à votre diffusion. Les destinataires qui se sont désinscrits de ce numéro court spécifique seront automatiquement exclus pendant la préparation du message. Pour plus d’informations sur la configuration du numéro court, consultez [cette section](../../channels/using/managing-incoming-sms.md).
 
-   Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](#defining-an-sms-routing).
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
+   >Si le champ **[!UICONTROL Numéro court]** est laissé vide, la valeur du champ **[!UICONTROL Numéro court]** défini dans le compte externe sera utilisée.
 
 Dans la section **[!UICONTROL Envoyer]** d’un modèle SMS :
 
