@@ -7,15 +7,14 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment concevoir le contenu de votre message et évitez les problèmes courants qui peuvent vous empêcher d’exécuter votre diffusion. 
-feature: Deliverability
+feature: Délivrabilité
 role: Business Practitioner
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '930'
-ht-degree: 100%
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 88%
 
 ---
 
@@ -75,7 +74,7 @@ Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de 
 
 Découvrez comment insérer un lien d’exclusion [dans cette section](../../designing/using/personalization.md#adding-a-content-block).
 
-### Taille des emails
+### Taille des emails {#email-size}
 
 Pour éviter des problèmes de performances ou de délivrabilité, la taille maximale recommandée d’un email est d’environ **35 Ko**.
 
@@ -83,11 +82,21 @@ Pour maintenir la taille de l’email sous cette limite, tenez compte des possib
 
 * Supprimer les styles redondants ou inutilisés
 
-* Déplacer une partie du contenu de l’email vers une landing page
+* Déplacez une partie du contenu de l&#39;email vers une [landing page](../../channels/using/getting-started-with-landing-pages.md)
 
 * Minimiser votre code
 
-Veillez à tester toutes les modifications avant l’envoi final
+Veillez à tester toutes les modifications avant l’envoi final.
+
+Dans Adobe Campaign, la taille maximale par défaut d&#39;un email est définie sur **100 Mo**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+Si la limite est atteinte, le message qui dépasse la limite échoue et un message d’erreur s’affiche dans les logs de diffusion. Les autres messages d&#39;une même diffusion ne seront pas impactés. Dans ce cas, vous devez adapter la partie dynamique du modèle d&#39;email ou les fragments de contenu utilisés par la diffusion. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobe recommande de conserver la valeur par défaut de la taille maximale du message. Cependant, cette valeur peut être modifiée dans l’option **[!UICONTROL Taille maximale du message]**, via le menu **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Options]**, uniquement par [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators).
+
+>[!IMPORTANT]
+>
+>Si vous définissez cette valeur sur zéro, aucune limite ne sera appliquée.
 
 ### Longueur des SMS
 
