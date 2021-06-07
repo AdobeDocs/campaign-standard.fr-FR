@@ -6,15 +6,14 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 98%
 
 ---
 
@@ -43,22 +42,6 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Optimisation prédictive de l’objet</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> À compter du 15 décembre 2020, la fonctionnalité prédictive de l’objet est abandonnée.</p><br/>
-   <p>Nous vous suggérons d’exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d’ouverture, les délais d’envoi optimaux et le taux probable d’exécution en fonction des mesures d’engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
-     <p>
-     <em>Date de suppression prévue : avril 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Notifications push avec le SDK v4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
      <p>
      <em>Date de suppression prévue : 31 août 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Demandes d’accès à des informations personnelles - API et interface de Campaign</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>À compter de la version 19.4 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d’accès à des informations personnelles</a>.</p>
-  <p> 
-  <em>Date de suppression prévue : avril 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
 ## Catégories supprimées {#removed-features}
 
 Cette section répertorie les catégories et fonctionnalités qui ont été supprimées de Campaign Standard.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Demandes d’accès à des informations personnelles - API et interface de Campaign</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>À compter de la version 21.2 de Campaign, l’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d’accès à des informations personnelles</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Optimisation prédictive de l’objet</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> À compter d’avril 2021, la fonctionnalité Predictive Subject Line est désactivée.</p><br/>
+   <p>Nous vous suggérons d’exploiter les fonctionnalités de messagerie optimisée par IA pour analyser et estimer les taux d’ouverture, les délais d’envoi optimaux et le taux probable d’exécution en fonction des mesures d’engagement historiques. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=fr">En savoir plus</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
