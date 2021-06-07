@@ -6,15 +6,14 @@ description: Grâce à l'intégration d'Assets Core service, utilisez les ressou
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: People Core Service Integration
+feature: Intégration de People Core Service
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +21,11 @@ ht-degree: 100%
 
 L&#39;intégration d&#39;Assets core service ou d&#39;Assets On Demand (en fonction de la configuration de votre environnement Adobe Experience Cloud) avec Adobe Campaign permet d&#39;utiliser des ressources partagées depuis Adobe Experience Cloud dans vos emails et landing pages Adobe Campaign.
 
-Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos emails et landing pages.
+>[!CAUTION]
+>
+> L’intégration à Assets Core Service est limitée aux [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators).
+
+Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos emails et landing pages, comme suit :
 
 1. Depuis l&#39;édition du contenu d&#39;un email ou d&#39;une landing page, placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Image partagée depuis Adobe Experience Cloud]**.
 
@@ -37,4 +40,4 @@ L&#39;image est alors insérée. La diffusion peut à présent être personnalis
 **Rubriques connexes :**
 
 * [Ressources et partage](https://docs.adobe.com/content/help/fr-FR/core-services/interface/assets/experience-cloud-assets.html)
-* [Editeur de contenus](../../designing/using/personalization.md#example-email-personalization)
+* [Editeur de contenus ](../../designing/using/personalization.md#example-email-personalization)
