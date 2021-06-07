@@ -10,11 +10,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: ht
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 93%
 
 ---
 
@@ -176,8 +175,11 @@ Par exemple, ici, nous définissons la **[!UICONTROL limite supérieure]** sur 5
 
 ![](assets/troubleshooting_3.png)
 
-La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut s&#39;afficher pour deux raisons :
+La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut être affichée pour trois raisons :
 
 * La diffusion a été supprimée et s&#39;affiche ici sous la forme **N/A** pour ne pas entraîner d&#39;incohérence dans les résultats.
-* Lorsque vous placez la dimension **[!UICONTROL Diffusion transactionnelle]** dans vos rapports, la valeur **N/A** peut apparaître. Elle s&#39;affiche, car le rapport dynamique récupère chaque diffusion, même si elle n&#39;est pas transactionnelle.
-Elle peut également s&#39;afficher lorsque vous placez la dimension **[!UICONTROL Diffusion]** dans votre rapport. Dans ce cas, la valeur **N/A** représente les diffusions transactionnelles.
+* Lorsque vous placez la dimension **[!UICONTROL Diffusion transactionnelle]** dans vos rapports, la valeur **N/A** peut apparaître. Elle s&#39;affiche, car le rapport dynamique récupère chaque diffusion, même si elle n&#39;est pas transactionnelle. Elle peut également s&#39;afficher lorsque vous placez la dimension **[!UICONTROL Diffusion]** dans votre rapport. Dans ce cas, la valeur **N/A** représente les diffusions transactionnelles.
+* Lorsqu’une dimension est utilisée avec une mesure qui n’est pas liée à la dimension. Dans l’exemple ci-dessous, une ventilation est ajoutée avec la dimension **[!UICONTROL URL de suivi]** même si le nombre de **[!UICONTROL clics]** est défini sur 0 dans cette diffusion.
+
+   ![](assets/troubleshooting_4.png)
+
