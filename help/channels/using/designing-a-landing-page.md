@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landing pages
 role: Business Practitioner
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1673'
-ht-degree: 100%
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
+workflow-type: tm+mt
+source-wordcount: '1677'
+ht-degree: 97%
 
 ---
 
@@ -31,14 +30,14 @@ Le contenu des landing pages est conçu dans l&#39;éditeur de contenu de Campai
 
 >[!NOTE]
 >
->Si votre instance a été installée avant la version 19.0 d&#39;Adobe Campaign Standard, vous avez toujours accès à l&#39;ancien éditeur de contenu d&#39;email. L&#39;interface, les principes d&#39;utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l&#39;ancien éditeur de contenu d&#39;email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l&#39;interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
+>Pour la conception d&#39;emails, si votre instance a été installée avant la version 19.0 d&#39;Adobe Campaign Standard, vous avez toujours accès à l&#39;ancien éditeur de contenu d&#39;emails. L&#39;interface, les principes d&#39;utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l&#39;ancien éditeur de contenu d&#39;email qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre email par le biais de l&#39;interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Cette page décrit les spécificités de l&#39;éditeur de contenu de landing page. Pour plus d&#39;informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d&#39;email** :
 
 * [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Ajout d&#39;un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
-* [Insertion d&#39;un lien](../../designing/using/links.md#inserting-a-link)
-* [Insertion d&#39;images](../../designing/using/images.md)
+* [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
+* [Insérer un lien](../../designing/using/links.md#inserting-a-link)
+* [Insérer des images](../../designing/using/images.md)
 * [Bonnes pratiques générales pour la conception de contenu](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
@@ -274,7 +273,7 @@ Vous pouvez ajouter une **bordure** au bloc sélectionné.
 
 ![](assets/des_lp_content_6.png)
 
-### Changer le style du texte dans l&#39;éditeur de contenu       {#changing-the-text-style-in-the-content-editor}
+### Changer le style du texte dans l&#39;éditeur de contenu        {#changing-the-text-style-in-the-content-editor}
 
 Pour modifier le style du texte, vous devez vous placer à l&#39;intérieur d&#39;un bloc de texte.
 
@@ -288,7 +287,7 @@ Pour modifier l&#39;alignement du texte, sélectionnez l&#39;une des trois icôn
 
 Vous pouvez également utiliser la barre d&#39;outils pour modifier les attributs de la police : changer la taille de la police, mettre le texte en gras ou en italique, le souligner ou changer la couleur du texte. Consultez [cette section](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Insérer des images dans une landing page       {#inserting-images-in-a-landing-page}
+### Insérer des images dans une landing page        {#inserting-images-in-a-landing-page}
 
 1. Dans le contenu d&#39;une landing page, sélectionnez un bloc contenant une image.
 1. Sélectionnez le bouton **[!UICONTROL Insérer]**.
