@@ -6,15 +6,14 @@ description: Les workflows techniques sont des workflows d'usine conçus pour g�
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Paramètres de l’instance
 role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '660'
-ht-degree: 100%
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 96%
 
 ---
 
@@ -100,9 +99,14 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Mettre à jour l'exécution des diffusions.</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Ce workflow met à jour les indicateurs de tracking de la diffusion. Par défaut, il se déclenche toutes les 10 minutes.<br /> </td> 
+   <td> <span class="uicontrol">Récupération des logs de tracking</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Récupérer les logs de tracking</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Ce workflow restaure les logs de tracking perdus. Notez que ce workflow technique est utilisé dans des contextes spécifiques et limité à une utilisation interne par Adobe. <br> Par défaut, il se déclenche toutes les 10 minutes.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mettre à jour les indicateurs de diffusion</span> <br /> </td> 
