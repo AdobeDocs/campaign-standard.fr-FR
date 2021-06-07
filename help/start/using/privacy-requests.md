@@ -6,14 +6,13 @@ description: Découvrez comment gérer les demandes d'accès à des informations
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: Confidentialité
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1830'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1734'
 ht-degree: 100%
 
 ---
@@ -36,7 +35,7 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign per
 
 Pour effectuer ces demandes, vous devez utiliser l&#39;intégration de **Privacy Core Service**. Les demandes d&#39;accès à des informations personnelles transmises par Privacy Core Service à toutes les solutions Experience Cloud sont automatiquement traitées par Campaign via un workflow dédié.
 
-### Prérequis {#prerequesites}
+### Conditions préalables requises {#prerequesites}
 
 Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, assistance clientèle ou portail web).
 
@@ -156,21 +155,21 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
 * **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d&#39;accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu&#39;aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n&#39;a été trouvée dans la base de données.
 
-### Désactivation de la procédure en 2 étapes {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-Privacy Core Service ne prend pas en charge la procédure en 2 étapes.
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->Avant d&#39;utiliser l&#39;intégration de Privacy Core Service pour gérer vos demandes d&#39;accès à des informations personnelles, vous devez désactiver la procédure en 2 étapes pour les demandes de suppression depuis l&#39;interface de Campaign Standard.
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-Si cette option n&#39;est pas désactivée, toutes les demandes de suppression gérées avec Privacy Core Service resteront en attente et ne seront pas terminées.
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-La procédure en 2 étapes est activée par défaut.
+By default, the 2-step process is activated.
 
-Pour modifier ce mode, cliquez sur **[!UICONTROL Editer les propriétés]**, dans l&#39;angle supérieur droit de l&#39;écran **[!UICONTROL Demandes d&#39;accès à des informations personnelles]**, puis désactivez l&#39;option **[!UICONTROL Activer la procédure en 2 étapes]**.
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## Droit d&#39;opposition (opt-out) à la vente des informations personnelles (CCPA) {#sale-of-personal-information-ccpa}
 
