@@ -11,11 +11,10 @@ feature: SMS
 role: Business Practitioner
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 95%
 
 ---
 
@@ -59,6 +58,10 @@ Pour ce faire :
    Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé « STOP », ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n’est pas placé sur la liste bloquée afin que l’utilisateur puisse continuer à recevoir des emails.
 
    ![](assets/sms_mo.png)
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+1. À partir des **[!UICONTROL Paramètres avancés]** de votre diffusion SMS **[!UICONTROL Propriétés]**, vous pouvez définir un **[!UICONTROL Numéro court]** spécifique pour exclure automatiquement les destinataires qui se sont désinscrits. Voir à ce propos [cette section](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Les destinataires peuvent maintenant être automatiquement désabonnés de vos messages et mis en quarantaine avec cette réponse automatique. Les destinataires en quarantaine sont répertoriés dans la table **[!UICONTROL Adresses]** accessible via le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Quarantaines.]** Pour plus d&#39;informations sur les quarantaines, consultez cette [section](../../sending/using/understanding-quarantine-management.md).
 
