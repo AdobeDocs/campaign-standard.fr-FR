@@ -11,10 +11,9 @@ feature: SMS
 role: Business Practitioner
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+workflow-type: tm+mt
+source-wordcount: '433'
 ht-degree: 100%
 
 ---
@@ -39,4 +38,15 @@ Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, s
 
 ## Expéditeur des SMS {#sms-sender}
 
-Vous pouvez personnaliser le nom de l&#39;expéditeur du SMS. Pour en savoir plus, consultez la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+>[!IMPORTANT]
+>
+>Vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
+
+L&#39;option **[!UICONTROL De]** vous permet de personnaliser le nom de l&#39;émetteur du SMS à l&#39;aide d&#39;une chaîne de caractères. C&#39;est le nom qui s&#39;affichera dans le champ correspondant à l&#39;expéditeur du SMS sur le téléphone mobile du destinataire.
+
+Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Le compte externe spécifique aux diffusions SMS est présenté dans la section [Définir un routage SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+
+![](assets/sms_creation_8.png)
+
+
+
