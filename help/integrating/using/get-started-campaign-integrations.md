@@ -10,11 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-translation-type: ht
-source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
-workflow-type: ht
-source-wordcount: '669'
-ht-degree: 100%
+source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 91%
 
 ---
 
@@ -49,24 +48,24 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
+   <td> Adobe Experience Manager<br /> </td> 
    <td> Permet de créer des contenus d'email ou des formulaires mappés à la base Adobe Campaign directement dans Adobe Experience Manager.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Utiliser Campaign et Experience Manager</a>, <a href="https://helpx.adobe.com/fr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Intégrer Experience Manager et Campaign Standard</a>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_AEM.html">Créer un email avec Experience Manager et Campaign</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Classic, Standard<br /> </td> 
+   <td> Adobe Target<br /> </td> 
    <td> Permet d'insérer des images calculées dynamiquement par Adobe Target au moment de l'ouverture d'un email créé et envoyé via Adobe Campaign.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Utiliser Campaign et Target</a>, <a href="https://docs.adobe.com/content/help/fr-FR/target/using/integrate/campaign-and-target.html">Intégrer Campaign et Target</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Personnaliser les images d'email en temps réel</a> (étape 3)
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Standard, Premium <br /> </td> 
+   <td> Adobe Analytics      <br /> </td> 
    <td> Permet de tracker les performances de vos diffusions email directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
     </td> 
   </tr> 
   <tr> 
@@ -74,13 +73,13 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Permet d'échanger des audiences avec les différentes applications d'Adobe Experience Cloud que vous utilisez.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People core service (Profiles &amp; Audiences)</a><br /> </td> 
   </tr> 
-    <tr> 
-   <td>Plateforme de données clientes Adobe en temps réel (RTCDP)<br /> </td> 
+   <tr> 
+   <td> Plateforme de données clientes Adobe en temps réel (RTCDP)<br /> </td> 
    <td> L’intégration entre Adobe Campaign et la plateforme de données clientes en temps réel d’Adobe (RTCDP) vous permet de partager des données de segments et d’importer des audiences dans Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Prise en main des sources et des destinations</a></td>
   </tr> 
   <tr> 
-   <td> Asset core service et Assets On Demand<br /> </td> 
+   <td> Adobe Asset core service et Assets On Demand<br /> </td> 
    <td> Permet d'insérer des ressources de votre bibliothèque Adobe Experience Cloud dans les emails et les landing pages créés dans Adobe Campaign.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets core service</a> ou Assets On Demand<br /> </td> 
   </tr> 
@@ -90,21 +89,26 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Envoyer des messages marketing en fonction de la localisation avec Campaign et les données de points ciblés</a> (Analytics pour Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Triggers Experience Cloud<br /> </td> 
+   <td> Triggers Adobe Experience Cloud<br /> </td> 
    <td> Permet d'envoyer des emails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
     </td> 
   </tr> 
+    <tr> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> Permet d’envoyer des emails, des notifications push et des SMS à l’aide des fonctionnalités de messagerie transactionnelle d’Adobe Campaign Standard dans le contexte d’Adobe Journey Orchestration, par le biais d’une action d’usine.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Utilisation d’Adobe Journey Orchestration et d’Adobe Campaign Standard</a><br /> </td> 
+  </tr> 
   <tr> 
-   <td> Dreamweaver<br /> </td> 
+   <td> Adobe Dreamweaver<br /> </td> 
    <td> Permet d'éditer le contenu d'un email dans Dreamweaver et de le synchroniser avec Adobe Campaign.<br /> </td> 
    <td> 
     Vidéo <a href="https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Créer des emails personnalisés avec Dreamweaver</a> <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Utilisation de l'extension de Campaign pour Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> SDK Experience Platform<br /> </td> 
+   <td> SDK Adobe Experience Platform<br /> </td> 
    <td> Permettent d'automatiser l'activation des propriétés de l'application mobile dans Adobe Campaign à l'aide des SDK Adobe Experience Platform.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">Configuration d'une application mobile à l'aide des SDK Experience Platform</a><br /> </td> 
   </tr> 
