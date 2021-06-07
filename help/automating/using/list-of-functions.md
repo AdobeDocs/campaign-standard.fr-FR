@@ -10,11 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: ht
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
-workflow-type: ht
-source-wordcount: '1943'
-ht-degree: 100%
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+workflow-type: tm+mt
+source-wordcount: '1973'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 >
 >D’autres fonctions sont disponibles dans toutes les activités qui vous permettent d’utiliser des variables d’événements après avoir appelé un workflow avec des paramètres externes. Elles sont présentées dans [cette section](../../automating/using/customizing-workflow-external-parameters.md).
 
-## Dates {#dates}
+## Dates       {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
 
@@ -481,7 +480,7 @@ Ce tableau contient les autres fonctions disponibles.
  </tbody> 
 </table>
 
-## Chaîne {#string}
+## Chaîne  {#string}
 
 Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
 
@@ -707,8 +706,16 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
    <td> <strong>Min</strong>, Minimum<br /> </td> 
    <td> Renvoie la valeur minimum d'une colonne de type numérique, chaîne ou date.<br /> </td> 
    <td> Min(&lt;valeur&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>, agrégat de chaîne<br /> </td> 
+   <td> Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparées par le caractère du second argument (le séparateur par défaut est une virgule).<br /> </td> 
+   <td> StringAgg(&lt;valeurs de chaîne&gt;,&lt;separator&gt;)
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, Somme<br /> </td> 
    <td> Renvoie la somme des valeurs d'une colonne de type numérique.<br /> </td> 
    <td> Sum(&lt;valeur&gt;)<br /> </td> 
