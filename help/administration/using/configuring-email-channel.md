@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: Paramètres de l’instance
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: ht
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
-workflow-type: ht
-source-wordcount: '2821'
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+workflow-type: tm+mt
+source-wordcount: '2819'
 ht-degree: 100%
 
 ---
@@ -34,7 +33,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
    Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’Assistance clientèle d’Adobe.
-   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [Panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) pour configurer un nouveau sous-domaine, ou contacter l’Assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
+   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’Assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
    * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
@@ -85,7 +84,7 @@ Le type de compte doit toujours être défini sur **[!UICONTROL Routage]**, le c
 
 [Comptes externes](../../administration/using/external-accounts.md)
 
-## Règles de gestion des emails  {#email-processing-rules}
+## Règles de gestion des emails   {#email-processing-rules}
 
 Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les administrateurs via le menu **[!UICONTROL Administration > Canaux > Email]**.
 
@@ -126,7 +125,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## Liste des propriétés des emails  {#list-of-email-properties}
+## Liste des propriétés des emails   {#list-of-email-properties}
 
 Cette section décrit la liste des paramètres disponibles dans l’écran des propriétés d’un email ou d’un modèle d’email.
 
@@ -168,7 +167,7 @@ Les messages qui n’ont pas abouti de manière temporaire font l’objet de rep
 
 Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
-#### Paramètres de format des emails  {#email-format-parameters}
+#### Paramètres de format des emails   {#email-format-parameters}
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
@@ -199,7 +198,7 @@ Si vous activez l’option de mode test SMTP pour un modèle d’email, cette op
 
 Pour plus d’informations sur la configuration SMTP, reportez-vous à la section [Liste des paramètres SMTP des emails](#list-of-email-smtp-parameters).
 
-### Paramètres de période de validité  {#validity-period-parameters}
+### Paramètres de période de validité   {#validity-period-parameters}
 
 La section **[!UICONTROL Période de validité]** propose les paramètres suivants :
 
@@ -233,7 +232,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 >
 >Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
 
-### Paramètres du tracking  {#tracking-parameters}
+### Paramètres du tracking   {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
@@ -253,7 +252,7 @@ Cliquez sur le bouton à droite du champ qui va être modifié, puis ajoutez le 
 
 L’insertion et l’utilisation du contenu de personnalisation sont présentées dans la documentation [Personnalisation du contenu des emails](../../designing/using/personalization.md).
 
-#### Contexte de ciblage  {#target-context}
+#### Contexte de ciblage   {#target-context}
 
 Le contexte de ciblage permet de définir l’ensemble les tables qui seront utilisées pour le ciblage (dans l’écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l’éditeur de contenu HTML) de l’email.
 
@@ -297,11 +296,11 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
    >
    >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
-### Liste des paramètres d’autorisation d’accès  {#list-of-access-authorization-parameters}
+### Liste des paramètres d’autorisation d’accès   {#list-of-access-authorization-parameters}
 
 La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suivants :
 
-* Le champ **[!UICONTROL Entité organisationnelle]** permet de restreindre l’accès de cet email à certains utilisateurs. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités filles auront accès, en lecture seule, à cet email.
+* Le champ **[!UICONTROL Entité organisationnelle]** permet de restreindre l’accès de cet email à certains utilisateurs. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités enfants auront accès, en lecture seule, à cet email.
 
    >[!NOTE]
    >
@@ -327,11 +326,11 @@ Le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le [menu Co
 
 La **[!UICONTROL Durée de diffusion]** ou **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
 
-### Règles de gestion des emails  {#legacy-email-processing-rules}
+### Règles de gestion des emails   {#legacy-email-processing-rules}
 
 Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiées par les administrateurs via le [menu](#email-processing-rules) **[!UICONTROL Administration > Canaux > Email > Règles de traitement des emails]**.
 
-### Qualification des emails bounce  {#legacy-bounce-mail-qualification}
+### Qualification des emails bounce   {#legacy-bounce-mail-qualification}
 
 Pour répertorier les différents bounces et les types d&#39;erreur et raisons associés, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
@@ -343,7 +342,7 @@ Les statuts de qualification des bounces sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification de bounce. Voir à ce propos [cette page](../../administration/using/update-bounce-qualification.md).
+>En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Voir à ce propos [cette page](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
