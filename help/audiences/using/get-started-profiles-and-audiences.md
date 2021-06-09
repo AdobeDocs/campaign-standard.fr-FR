@@ -10,11 +10,10 @@ feature: Profils
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: ht
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: ht
-source-wordcount: '607'
-ht-degree: 100%
+source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +50,7 @@ En savoir plus :
 
 * [A propos des profils](../../audiences/using/about-profiles.md)
 * [Profils actifs](../../audiences/using/active-profiles.md)
-* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
+* [Gestion des profils de test     ](../../audiences/using/managing-test-profiles.md)
 * [Enrichissement de la base de données Campaign](../../audiences/using/enriching-campaign-database.md)
 * [A propos des audiences](../../audiences/using/about-audiences.md)
 * [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
@@ -73,8 +72,8 @@ Fournir des **liens de désabonnement** dans vos messages permet l’ajout de pr
 
 En savoir plus :
 
-* [A propos des abonnements](../../audiences/using/about-subscriptions.md)
-* [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [À propos des abonnements](../../audiences/using/about-subscriptions.md)
+* [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Respect de la confidentialité {#privacy}
 
@@ -92,4 +91,4 @@ Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign
 * [Utilisation de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
-* [Vidéos sur les profils et les audiences](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Vidéos sur les profils et les audiences](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
