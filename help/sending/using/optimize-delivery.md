@@ -7,14 +7,13 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment sécuriser et optimiser le processus d’envoi en amont.
-feature: Deliverability
+feature: Délivrabilité
 role: Business Practitioner
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '751'
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+workflow-type: tm+mt
+source-wordcount: '747'
 ht-degree: 100%
 
 ---
@@ -37,7 +36,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * [Exécution du workflow](../../automating/using/about-workflow-execution.md) : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans cette page](../../automating/using/monitoring-workflow-execution.md). Pour en savoir plus, consultez la section [bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md).
 
-* Vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/discover-control-panel/key-features.html) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://docs.adobe.com/content/help/fr-FR/control-panel/using/performance-monitoring/about-performance-monitoring.html).
+* Vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
 ## Vérifier la configuration du réseau {#network-config}
 
