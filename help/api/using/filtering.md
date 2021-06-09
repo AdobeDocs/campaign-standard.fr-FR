@@ -10,11 +10,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 98%
 
 ---
 
@@ -206,7 +205,7 @@ Si vous souhaitez utiliser un filtre personnalisé, vous devez le créer et le p
 Pour plus d’informations à ce sujet, consultez la documentation relative à Campaign Standard :
 
 * [Configuration de la définition des filtres](https://helpx.adobe.com/fr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Cas pratique : appel d’une ressource à l’aide d’une clé d’identification composite](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Cas pratique : appel d’une ressource à l’aide d’une clé d’identification composite](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
