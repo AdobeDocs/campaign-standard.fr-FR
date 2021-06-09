@@ -6,15 +6,14 @@ description: Découvrez comment mapper un champ Campaign Standard avec un champ
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Intégration de Microsoft CRM
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
 
 Dans cette section, vous allez découvrir comment mapper un champ Campaign Standard avec un champ XDM (Experience Data Model).
 
@@ -44,7 +43,7 @@ Pour effectuer cette tâche, les prérequis sont les suivants :
 
 >[!NOTE]
 >
->Pour qu’un lot soit ingéré dans Real-time Customer Profile ou Identity Service, le jeu de données doit être [activé pour Real-time Customer Profile](https://docs.adobe.com/content/help/fr-FR/experience-platform/rtcdp/intro/get-started.html).
+>Pour qu’un lot soit ingéré dans Real-time Customer Profile ou Identity Service, le jeu de données doit être [activé pour Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >Si le jeu de données sélectionné est déjà utilisé dans un mapping de données existant, un avertissement s’affiche pour vous informer que vos données peuvent être remplacées dans Adobe Experience Platform. Cette situation peut se produire lorsqu’il existe des destinataires communs dans les mappings de données utilisant un même jeu de données.
 
@@ -64,7 +63,7 @@ Les ressources étendues définies dans Campaign Standard sont mappées comme t
 
 Vous pouvez personnaliser l’extension XDM via l’API et définir votre propre extension pour mieux contrôler le mapping.
 
-Voir le [tutoriel relatif à l’API Schema Registry](https://docs.adobe.com/content/help/fr-FR/experience-platform/xdm/api/getting-started.html) pour en savoir plus.
+Voir le [tutoriel relatif à l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) pour en savoir plus.
 
 Pour mapper un champ d’énumération, vous devez utiliser l’éditeur d’expression afin de définir chaque valeur d’énumération correspondant à la valeur XDM. Par exemple, postalAdressfield doit être défini comme suit :
 
