@@ -11,11 +11,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +32,7 @@ Le diagramme suivant décrit le fonctionnement de cette intégration.
 
 **Rubriques connexes :**
 
-* Apprenez-en plus sur les différents types de déclencheurs : [documentation Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/activation/triggers.html).
+* Apprenez-en plus sur les différents types de déclencheurs : [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
 * Regardez la vidéo [Déclencher des messages de remarketing selon l&#39;activité du site](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 * Découvrez nos deux [cas pratiques de déclencheurs d&#39;abandon](../../integrating/using/abandonment-triggers-use-cases.md).
 
