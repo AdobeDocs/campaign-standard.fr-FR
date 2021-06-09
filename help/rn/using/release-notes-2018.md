@@ -6,14 +6,13 @@ description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '5459'
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5457'
 ht-degree: 100%
 
 ---
@@ -44,7 +43,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +127,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Améliorations**
 
-* L’intégration d’Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://docs.adobe.com/content/help/fr-FR/target/using/administer/manage-users/enterprise/properties-overview.html) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L’intégration d’Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d’un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d’accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l’enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez &quot;La suppression/duplication de l’enregistrement implique celle de l’enregistrement cible référencé par le lien&quot;.
 
 **Autres changements**
@@ -264,7 +263,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème qui pouvait empêcher le chargement de Creative Designer. (CAMP-24573)
 * Correction d’un problème qui supprimait les caractères ajoutés après des champs de personnalisation dans l’objet d’un email. (CAMP-24113)
 
-## Version 18.4 - Avril 2018              {#release-18-4---april-2018}
+## Version 18.4 - Avril 2018               {#release-18-4---april-2018}
 
 **Correctifs**
 
@@ -290,7 +289,7 @@ _Ressources personnalisées_
 
 * Correction d’une erreur qui entraînait l’échec de la préparation des ressources personnalisées.
 
-## Version 18.3 - Mars 2018              {#release-18-3---march-2018}
+## Version 18.3 - Mars 2018               {#release-18-3---march-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -308,7 +307,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
@@ -380,7 +379,7 @@ _Messages transactionnels_
 * Correction d’une erreur liée au modèle de message transactionnel lors de l’extension de la ressource de diffusion.
 * Il est maintenant possible de supprimer les messages transactionnels.
 
-## Version 18.2 - Février 2018              {#release-18-2---february-2018}
+## Version 18.2 - Février 2018               {#release-18-2---february-2018}
 
 **Nouvelles fonctionnalités**
 
@@ -444,7 +443,7 @@ Il est recommandé de ne pas utiliser Internet Explorer version 11 en raison de
 
 Certains problèmes peuvent se produire lors de l’utilisation des liens d’aide contextuelle dans l’interface de Campaign. Ils seront résolus dans la version 18.3.
 
-## Version 18.1 - Janvier 2018              {#release-18-1---january-2018}
+## Version 18.1 - Janvier 2018               {#release-18-1---january-2018}
 
 **Nouvelles fonctionnalités**
 
