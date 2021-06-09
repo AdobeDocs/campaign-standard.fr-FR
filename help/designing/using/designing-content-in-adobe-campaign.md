@@ -6,15 +6,14 @@ description: Créez du contenu d’email à partir de zéro, en important du cod
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: Conception d’email
 role: Business Practitioner
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1265'
-ht-degree: 100%
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 99%
 
 ---
 
@@ -157,9 +156,9 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 * La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
 * Les paires de substitution, les caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés sur 2 octets (16 bits) et doivent être codés sur 2 caractères UTF-16. Ces caractères incluent certains idéographes CJK, la plupart des émoticônes et certaines langues.<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
 
-**Rubriques connexes :**
+**Rubriques connexes**
 
-* Vidéo [Créer un email](../../channels/using/creating-an-email.md)
+* [Créer un email](../../channels/using/creating-an-email.md)
 * [Concevoir une landing page](../../channels/using/designing-a-landing-page.md)
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Créer et envoyer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
@@ -170,4 +169,4 @@ Cette vidéo présente un aperçu du concepteur d’email.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
+Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
