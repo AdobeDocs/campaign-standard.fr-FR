@@ -10,11 +10,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1449'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '1437'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +29,14 @@ Les applications mobiles utilisées pour collecter les données de localisation 
 
 Pour pouvoir utiliser Adobe Experience Platform Location Services avec les applications mobiles configurées à l&#39;aide du SDK Adobe Experience Platform, vous devez :
 
-1. Ajouter les extensions **[!UICONTROL Places]** et **[!UICONTROL Places Monitor]** à votre configuration d&#39;application mobile dans Adobe Experience Platform Launch. Configurer votre application mobile dans Adobe Campaign. Voir [Installation de l&#39;extension Places dans Adobe Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) et [Installation de l&#39;extension Places Monitor dans Experience Platform Launch](https://docs.adobe.com/content/help/fr-FR/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Ajouter les extensions **[!UICONTROL Places]** et **[!UICONTROL Places Monitor]** à votre configuration d&#39;application mobile dans Adobe Experience Platform Launch. Configurer votre application mobile dans Adobe Campaign. Voir [Installation de l&#39;extension Places dans Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) et [Installation de l&#39;extension Places Monitor dans Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. Une fois les extensions configurées, créez des éléments de données dans **[!UICONTROL Adobe Experience Platform Launch]** pour récupérer des données de ces extensions. Reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Step1Createdataelements) pour créer vos éléments de données.
 
 1. Ensuite, dans **[!UICONTROL Adobe Experience Platform Launch]**, vous devez créer des règles pour prendre en charge les cas pratiques mobiles entre Point ciblé et Adobe Campaign.\
    Cette règle sera déclenchée lorsqu&#39;un utilisateur entre dans un **[!UICONTROL Point ciblé]** repéré géographiquement. Reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Locationpostback) pour créer votre règle.
 
-1. Définissez vos **[!UICONTROL Points ciblés]** dans Places. Voir [Création d&#39;un point ciblé](https://docs.adobe.com/content/help/fr-FR/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Définissez vos **[!UICONTROL Points ciblés]** dans Places. Voir [Création d&#39;un point ciblé](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Vérifier que vous avez accès à l&#39;application mobile et aux données de localisation collectées dans Adobe Campaign. Voir [Accéder aux applications mobiles utilisées pour collecter les données de localisation](#accessing-mobile-apps-used-to-collect-location-data) et [Accéder aux données de localisation collectées](#accessing-collected-location-data).
 
@@ -165,7 +164,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
 
 >[!NOTE]
 >
->Pour obtenir des informations détaillées sur la configuration des postbacks, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Pour obtenir des informations détaillées sur la configuration des postbacks, voir la [Documentation Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
 
 ### Intégrer le SDK dans une application mobile {#integrating-the-sdk-into-a-mobile-application}
 
@@ -180,17 +179,17 @@ Pour définir les points ciblés servant à collecter les données de localisati
 1. Connectez-vous à l&#39;interface Adobe Mobile Services.
 1. Ajoutez votre application.
 
-   Pour plus d&#39;informations sur la gestion des applications dans Mobile Services, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Pour plus d&#39;informations sur la gestion des applications dans Mobile Services, voir la [Documentation Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
 
 1. Définissez les points ciblés.
 
-   Pour plus d&#39;informations sur la gestion des points ciblés, voir la [Documentation Adobe Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/location-ug/t-manage-points.html).
+   Pour plus d&#39;informations sur la gestion des points ciblés, voir la [Documentation Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
 ### Collecter les données de points ciblés auprès des abonnés {#collecting-subscribers--points-of-interest-data}
 
 Une ressource personnalisée spécifique vous permet de définir les données à collecter auprès des abonnés de vos applications.
 
-Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
+Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 
 ## Accéder aux applications mobiles utilisées pour collecter les données de localisation {#accessing-mobile-apps-used-to-collect-location-data}
