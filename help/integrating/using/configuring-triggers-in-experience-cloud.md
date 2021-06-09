@@ -10,11 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '873'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +57,7 @@ Il vous faudra également un site web opérationnel.
 
 Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) et [Campaign](#configuring-triggers-and-aliases-in-campaign).
 
-### Configurer Experience Cloud DTM Core Service     {#configuring-experience-cloud-dtm-core-service}
+### Configurer Experience Cloud DTM Core Service      {#configuring-experience-cloud-dtm-core-service}
 
 1. Dans le DTM (Dynamic Tag Management) Core Service DTM Experience Cloud, activez l&#39;Identifiant Experience Cloud et Adobe Analytics pour les pages de votre site web.
 
@@ -68,7 +67,7 @@ Pour suivre ces cas pratiques, vous devez configurer [Experience Cloud DTM Core 
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Configurer Experience Cloud People Core Service     {#configuring-experience-cloud-people-core-service}
+### Configurer Experience Cloud People Core Service      {#configuring-experience-cloud-people-core-service}
 
 L&#39;alias référencé précédemment dans DTM doit être créé dans le Core Service People Experience Cloud via un Attribut Client. Veillez à en créer un nouveau et à référencer le même alias DTM dans le code d&#39;intégration (« visitorid », par exemple).
 
@@ -78,7 +77,7 @@ L&#39;alias référencé précédemment dans DTM doit être créé dans le Core 
 >
 >Cet Attribut client sera utilisé dans la Data source dans Adobe Campaign (étape suivante).
 
-### Configurer les déclencheurs et les alias dans Campaign   {#configuring-triggers-and-aliases-in-campaign}
+### Configurer les déclencheurs et les alias dans Campaign    {#configuring-triggers-and-aliases-in-campaign}
 
 1. Vérifiez que les **[!UICONTROL déclencheurs Experience Cloud]** sont visibles sur votre instance Adobe Campaign Standard. Si ce n&#39;est pas le cas, contactez les administrateurs Adobe Campaign.
 
@@ -92,13 +91,13 @@ L&#39;alias référencé précédemment dans DTM doit être créé dans le Core 
    >
    >Vous pouvez réconcilier vos déclencheurs pour les utilisateurs anonymes et enregistrés. Pour les utilisateurs anonymes, le profil doit exister dans Adobe Campaign et un email a déjà été envoyé à l&#39;utilisateur. Pour cela, la configuration d&#39;identifiant de visiteur suffit. Toutefois, si vous souhaitez réconcilier des déclencheurs pour les utilisateurs enregistrés, vous devez paramétrer la source de données ID déclaré. Pour en savoir plus, consultez [Configuration de la source de données](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Création d&#39;un déclencheur dans l&#39;interface d&#39;Experience Cloud   {#creating-a-trigger-in-the-experience-cloud-interface}
+## Création d&#39;un déclencheur dans l&#39;interface d&#39;Experience Cloud    {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Un déclencheur Adobe Experience Cloud doit être créé pour pouvoir l&#39;utiliser dans Campaign.
 
 Créez un déclencheur dans Experience Cloud et assurez-vous de sélectionner la suite de rapports utilisée sur votre site Web. Veillez à choisir les bonnes dimensions pour que le déclencheur fonctionne.
 
-Consultez la [documentation Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/activation/triggers.html) et regardez cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
+Consultez la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) et regardez cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Bonnes pratiques et limites de Triggers {#triggers-best-practices-and-limitations}
 
