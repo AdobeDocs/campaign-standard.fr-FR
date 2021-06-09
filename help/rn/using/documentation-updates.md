@@ -10,10 +10,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6897'
-ht-degree: 99%
+source-wordcount: '6883'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Ajout d’un nouveau cas pratique, décrivant comment créer une population tém
 
 Les informations relatives aux propriétés des landing pages ont été déplacées dans une section dédiée – [En savoir plus](../../channels/using/configuring-landing-page.md)
 
-La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
+La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
 Le tableau de **calcul des indicateurs** a été mis à jour – [En savoir plus](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Ajout d’une section comportant des cas pratiques sur les workflows axés sur l
 
 Ajout d’une procédure dans la section de dépannage des workflows. Celle-ci aborde la manière d’afficher les requêtes SQL dans l’onglet Log – [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ajout d’un article d’aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Ajout d’un article d’aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
 
 Mise à jour de la section décrivant les modèles et les fragments de contenu – [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Ajout d’un avertissement à la documentation des ressources personnalisées. I
 
 **Nouvelles fonctionnalités de cette version**
 
-Panneau de contrôle – [En savoir plus](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Notifications locales – [En savoir plus](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Publication d’un nouvel article sur le calendrier des versions pour communique
 
 Mise à jour des liens d’aide contextuelle directement accessibles depuis Adobe Campaign.
 
-Cette [page](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/overview.html) devient la page officielle des vidéos d’Adobe Campaign Standard.
+Cette [page](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) devient la page officielle des vidéos d’Adobe Campaign Standard.
 
 Ajout d’une section sur la rétention des données comprenant les valeurs de rétention par défaut pour les tables standards – [En savoir plus](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ Déplacement vers cet [emplacement](https://helpx.adobe.com/fr/campaign/kb/confi
 
 Déplacement vers cet [emplacement](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) de la section Configuration d’une application mobile à l’aide des SDK Adobe Experience Platform.
 
-Mise à jour des vidéos et déplacement vers cet [emplacement](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html).
+Mise à jour des vidéos et déplacement vers cet [emplacement](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Mise à jour de la section Type des utilisateurs – [En savoir plus](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Notifications push récurrentes – [En savoir plus](../../automating/using/pu
 
 Connecteur Amazon Simple Storage Service (S3) – [En savoir plus](../../administration/using/external-accounts.md)
 
-Intégration de Dreamweaver disponible – [En savoir plus](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Intégration de Dreamweaver disponible – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -984,7 +984,7 @@ Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point c
 
 Rapports dynamiques – [En savoir plus](../../reporting/using/about-dynamic-reports.md)
 
-Intégration avec Dreamweaver (Labs) – [En savoir plus](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Intégration avec Dreamweaver (Labs) – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimisation manuelle de l’heure d’envoi – [En savoir plus](../../sending/using/optimizing-the-sending-time.md)
 
