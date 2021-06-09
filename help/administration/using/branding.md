@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Paramétres de l’instance
 role: Administrator
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1331'
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+workflow-type: tm+mt
+source-wordcount: '1329'
 ht-degree: 100%
 
 ---
@@ -92,7 +91,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
-1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://docs.adobe.com/content/help/fr-FR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
@@ -112,7 +111,7 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
 1. **Vérifier les instructions relatives à la délivrabilité** : avant de commencer à utiliser le nouveau domaine, la stratégie doit être discutée avec l&#39;équipe Adobe chargée de la délivrabilité Elle aidera à définir les bonnes pratiques, si une nouvelle affinité doit être créée pour fractionner les adresses IP entre les domaines par exemple, et/ou si un plan de propagation doit être défini. Pour en savoir plus sur les bonnes pratiques en matière de délivrabilité, [consultez cette section](../../sending/using/about-deliverability.md).
 
-## Affectation d&#39;une marque à un email          {#assigning-a-brand-to-an-email}
+## Affectation d&#39;une marque à un email           {#assigning-a-brand-to-an-email}
 
 ### Liaison d&#39;une marque à un modèle {#linking-a-brand-to-a-template}
 
@@ -144,11 +143,11 @@ Une fois votre modèle créé, vous pouvez le lier à une marque. Pour cela :
 
 Votre modèle est lié à la marque. Dans l&#39;éditeur d&#39;email, les éléments comme l&#39;**adresse email de l&#39;expéditeur par défaut**, le **nom de l&#39;expéditeur par défaut** ou le **logo** utiliseront les données paramétrées de la marque.
 
-### Cas pratique de marque          {#branding-use-case}
+### Cas pratique de marque           {#branding-use-case}
 
 Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
 
-#### Configurer une nouvelle marque          {#configure-a-new-brand}
+#### Configurer une nouvelle marque           {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -166,7 +165,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Mettre en œuvre une nouvelle marque          {#implement-a-new-brand}
+#### Mettre en œuvre une nouvelle marque           {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -185,7 +184,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Utiliser la nouvelle marque dans une diffusion          {#use-the-new-brand-in-a-delivery}
+#### Utiliser la nouvelle marque dans une diffusion           {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 
