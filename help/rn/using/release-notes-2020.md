@@ -6,25 +6,24 @@ description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign S
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '5330'
-ht-degree: 100%
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5304'
+ht-degree: 98%
 
 ---
 
 # Notes de mise à jour 2020{#release-notes-2020}
 
-[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
+[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020 {#release-20-4---october-2020}
 
@@ -38,9 +37,9 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer les comportements de la population cible qui a reçu le message et ceux des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pouvez également cibler une population témoin dans les futures campagnes.
+  <td> <p>Vous pouvez désormais utiliser des <strong>Populations témoins</strong> pour mesurer l’impact de vos campagnes en excluant une partie de leur audience. Vous pourrez ensuite comparer les comportements de la population cible qui a reçu le message et ceux des contacts qui n’ont pas été ciblés. En fonction des logs d’envoi, vous pourrez également cibler une population témoin dans les prochaines campagnes.
 </p>
-<p>Pour plus d’informations, consultez la <a href="../../sending/using/control-group.md">documentation détaillée</a> et visualisez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">vidéo pratique</a>.
+<p>Pour plus d’informations, consultez la <a href="../../sending/using/control-group.md">documentation détaillée</a> et visualisez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">vidéo pratique</a>.
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>L’IA dédiée au parcours utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours des clients en prédisant les préférences d’engagement de chaque individu.</p>
   <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
-     <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vidéo pratique</a>.</li> 
-     <li> <strong>Optimisation prédictive du temps d’envoi</strong> - Prévoit le meilleur moment pour envoyer des emails à chaque individu au cours d’une campagne afin d’optimiser les taux d’engagement et d’améliorer le retour sur investissement des campagnes par email. Regardez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">vidéo pratique</a>.</li>
+     <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">vidéo pratique</a>.</li> 
+     <li> <strong>Optimisation prédictive du temps d’envoi</strong> - Prévoit le meilleur moment pour envoyer des emails à chaque individu au cours d’une campagne afin d’optimiser les taux d’engagement et d’améliorer le retour sur investissement des campagnes par email. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">vidéo pratique</a>.</li>
     </ul>
   <p>Si vous souhaitez découvrir la prise en main de l’IA dédiée au parcours, veuillez consulter la <a href="../../sending/using/predictive.md">documentation détaillée</a> et contacter votre gestionnaire de compte. Notez que si l’IA dédiée au parcours est disponible gratuitement pour les clients Campaign existants, un coût d’implémentation correspondant à environ 50 heures s’applique.</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD et le CCPA. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
 <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation PDPA a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="../../rn/using/deprecated-features.md">Fonctionnalités obsolètes et supprimées</a>.</p></li>
 </ul>
-<p>Reportez-vous à la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
+<p>Reportez-vous à la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">vidéo pratique</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>sélectionner et utiliser un objet de tableau à partir d’un JSON sans avoir à nommer l’objet « data » ou le mettre au niveau supérieur.</li>
 </ul>
 <p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
-<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">vidéo de procédure</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 - Avril 2020 {#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Outre les profils de test, vous pouvez maintenant tester vos emails sur des profils ciblés réels. Vous obtenez ainsi une représentation exacte du message que le profil recevra : champs personnalisés, informations dynamiques et personnalisées, notamment des données additionnelles provenant des workflows, etc. </p>
-    <p>Pour plus d’informations, consultez la <a href="../../sending/using/testing-messages-using-target.md">documentation détaillée</a> et regardez la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vidéo de tutoriel</a>. </p>
+    <p>Pour plus d’informations, consultez la <a href="../../sending/using/testing-messages-using-target.md">documentation détaillée</a> et regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">vidéo de tutoriel</a>. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://docs.adobe.com/content/help/fr-FR/control-panel/using/release-notes.html).
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Améliorations**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector est maintenant intégré avec Adobe Campaign Standard. Vous pouvez rendre vos données Campaign disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) sur le modèle de données Adobe Experience Platform (XDM). </p>
-    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../integrating/using/aep-about-data-connector.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vidéo pratique</a>.</p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../integrating/using/aep-about-data-connector.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">vidéo pratique</a>.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations permet de partager des segments d’Adobe Experience Platform avec Adobe Campaign.</p>
-    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentation détaillée</a> et la <a href="https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">vidéo pratique</a>. </p>
+    <p>Remarque : cette fonctionnalité n’est disponible que pour les clients hébergés sur Azure. Pour plus d’informations sur cette fonctionnalité et les conditions pour l’activer, consultez la <a href="../../integrating/using/aep-about-audience-destinations-service.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">vidéo pratique</a>. </p>
    </td> 
   </tr> 
  </tbody> 
