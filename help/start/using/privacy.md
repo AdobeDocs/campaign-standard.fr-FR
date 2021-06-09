@@ -9,15 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
+feature: Confidentialité
 role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1480'
-ht-degree: 100%
+source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
+workflow-type: tm+mt
+source-wordcount: '1478'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +130,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 >[!NOTE]
 >
->Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Cet ensemble d’outils facilite l’application de vos exigences en matière de confidentialité pour les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -139,7 +138,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-Les demandes **d’accès** et de **suppression** sont présentées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess). Les étapes de mise en œuvre pour créer ces demandes sont détaillées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Il existe également des tutoriels, disponibles [ici](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Les demandes **d’accès** et de **suppression** sont présentées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess). Les étapes de mise en œuvre pour créer ces demandes sont détaillées dans [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Il existe également des tutoriels, disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
 ## Fonctionnalités de tracking {#tracking-capabilities}
 
