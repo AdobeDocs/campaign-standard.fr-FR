@@ -7,15 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Paramétres de l’instance
 role: Administrator
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 98%
 
 ---
 
@@ -58,7 +57,7 @@ Après avoir personnalisé votre notification push dans Adobe Campaign, vous dev
 
 >[!NOTE]
 >
->Si votre application est en Objective-C, reportez-vous à la [documentation](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html) suivante.
+>Si votre application est en Objective-C, reportez-vous à la [documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html) suivante.
 
 Si votre application est en [!DNL Swift], procédez comme suit :
 
