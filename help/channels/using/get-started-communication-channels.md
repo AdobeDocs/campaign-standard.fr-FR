@@ -6,14 +6,13 @@ description: Créez des messages personnalisés sur divers canaux, utilisez des 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '525'
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -79,7 +78,7 @@ En savoir plus :
 * [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md)
 * [Publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md)
 * [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md)
-* [Publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md)
+* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md)
 * [Notifications push transactionnelles](../../channels/using/transactional-push-notifications.md)
 * [Messages de relance](../../channels/using/follow-up-messages.md)
 
@@ -95,15 +94,15 @@ En savoir plus :
 
 * [Prise en main des landing pages](../../channels/using/getting-started-with-landing-pages.md)
 * [Modèles de landing page](../../channels/using/landing-page-templates.md)
-* [Gérer des données de formulaire de landing page](../../channels/using/managing-landing-page-form-data.md)
-* [Configuration d’un processus de double opt-in](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [Gestion des données de formulaire de landing page](../../channels/using/managing-landing-page-form-data.md)
+* [Configuration d&#39;un processus de double opt-in](../../channels/using/setting-up-a-double-opt-in-process.md)
 
-## Autres ressources
+## Ressources supplémentaires
 
 * [Optimiser votre délivrabilité](../../sending/using/about-deliverability.md)
-* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
+* [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
 * [Conception d’un contenu d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Importation d’un contenu AEM](../../integrating/using/creating-email-experience-manager.md)
 * [Envoi de messages avec des workflows](../../automating/using/about-channel-activities.md)
-* [Vidéos de tutoriels sur les canaux de communication](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Vidéos de tutoriels sur les canaux de communication](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=fr)
 * [Cas pratique : création d’une diffusion cross-canal](../../automating/using/workflow-cross-channel-delivery.md)
