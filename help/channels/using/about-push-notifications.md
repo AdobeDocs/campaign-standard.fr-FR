@@ -11,11 +11,10 @@ feature: Push
 role: Business Practitioner
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1302'
-ht-degree: 100%
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+workflow-type: tm+mt
+source-wordcount: '1300'
+ht-degree: 99%
 
 ---
 
@@ -51,12 +50,12 @@ En tant qu’utilisateur expert, reportez-vous aux [technotes](https://helpx.ado
 
 **Contenu connexe :**
 
-* [Préparation et envoi d’une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Création d’une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
-* [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
+* [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
+* [Rapport des notifications push](../../reporting/using/push-notification-report.md)
 * [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 >[!NOTE]
 >Pour tirer parti de la fonctionnalité de notification push de Campaign, vous devez fournir un certificat push valide au format. pem sans mot de passe.
@@ -85,7 +84,7 @@ Avant d’envoyer les notifications push, vous devez effectuer les opérations s
 
 Consultez les ressources ci-dessous :
 
-* [Tutoriels vidéos](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Tutoriels vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Documentation du produit](../../channels/using/about-push-notifications.md)
 * Configuration à l’aide de la [documentation](../../administration/using/configuring-a-mobile-application.md) du SDK AEP
 * [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
@@ -98,7 +97,7 @@ Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’appro
 
 Les clients doivent fournir un certificat push valide au format .pem pour envoyer une notification push. Vous n’avez pas besoin d’un mot de passe pour ce certificat.
 
-### Que faire si je dispose d’un certificat .p12 au lieu d’un certificat .pem ? {#certificates}
+### Que faire si je dispose d’un certificat .p12 au lieu d’un certificat .pem ?  {#certificates}
 
 Vous pouvez convertir un certificat .p12 en certificat .pem en exécutant la commande ci-dessous dans un terminal. Plusieurs ressources en ligne sont également disponibles pour les instructions de conversion.
 
