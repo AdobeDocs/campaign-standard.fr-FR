@@ -6,15 +6,14 @@ description: Découvrez comment tracker le comportement des destinataires de vos
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
+feature: Suivi des performances
 role: Business Practitioner
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '509'
-ht-degree: 100%
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Les informations de tracking sont disponibles pour chaque contact de votre base 
 Adobe Campaign utilise deux types de cookies :
 
 * Un cookie de session (nlid). Il contient l’identifiant de l’email envoyé au contact (broadlogId) et l’identifiant du modèle de message (deliveryId). Il est déposé lorsque le contact clique sur une URL contenue dans un email envoyé par Adobe Campaign et permet de tracker son comportement sur le web. Ce cookie de session est effacé automatiquement à la fermeture du navigateur. Le contact a la possibilité d&#39;en interdire le dépôt en adaptant les paramètres de son navigateur.
-* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d’identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible [ici](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-mc.html).
+* Un cookie partagé entre les solutions Adobe Experience Cloud. Il permet d’identifier un internaute qui interagit avec les solutions Experience Cloud lors de ses visites sur un site web. La description de ce cookie est disponible [ici](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 Le tracking avec Adobe Campaign Standard vous permet d’accéder aux fonctionnalités suivantes :
 
