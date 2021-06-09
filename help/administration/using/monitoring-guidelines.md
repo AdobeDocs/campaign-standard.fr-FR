@@ -7,14 +7,13 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Access Management
+feature: Gestion des accès
 role: Administrator
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '511'
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -44,7 +43,7 @@ Les workflows techniques sont des opérations ou traitements programmés pour s�
 
 **Panneau de contrôle**
 
-Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les permissions d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/control-panel/using/control-panel-home.html)
+Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les permissions d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
 >[!NOTE]
 >
