@@ -6,15 +6,14 @@ description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécif
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: Gestion des accès
 role: Administrator
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1279'
-ht-degree: 100%
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 99%
 
 ---
 
@@ -38,9 +37,9 @@ Pour accéder à l’interface de gestion des utilisateurs à partir d’Adobe C
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer les permissions utilisateur](https://docs.adobe.com/content/help/fr-FR/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)
+* Vidéo [Gérer les permissions utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -92,7 +91,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 * [Utiliser l’édition avancée d’expressions](../../automating/using/editing-queries.md#about-query-editor) : utilisez des fonctions avancées pour manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 * [Exporter des listes](../../automating/using/exporting-lists.md) et [importer des données à l’aide de modèles d’import existants](../../automating/using/importing-data-with-import-templates.md).
 
-### Utilisateurs de base            {#basic-users}
+### Utilisateurs de base             {#basic-users}
 
 Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les marketeurs peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
