@@ -10,10 +10,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '520'
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+workflow-type: tm+mt
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
@@ -65,8 +64,8 @@ L’éditeur de requêtes contient des **règles et des filtres prédéfinis** p
 
 En savoir plus :
 
-* [Modification de requêtes](../../automating/using/editing-queries.md)
-* [Edition avancée d’expressions](../../automating/using/advanced-expression-editing.md)
+* [Edition de requêtes](../../automating/using/editing-queries.md)
+* [Edition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
 ## Importation/exportation des données {#import-export-data}
@@ -92,6 +91,6 @@ En savoir plus :
 
 ## Autres ressources
 
-* [Vidéos contenant des tutoriels relatifs aux processus et à la gestion des données](https://docs.adobe.com/content/help/fr-FR/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Vidéos contenant des tutoriels relatifs aux processus et à la gestion des données](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=fr)
 * [Workflows techniques](../../administration/using/technical-workflows.md)
 * [Prise en main du modèle de données de Campaign Standard](../../developing/using/get-started-data-model.md)
