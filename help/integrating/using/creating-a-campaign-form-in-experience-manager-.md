@@ -10,11 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 96%
 
 ---
 
@@ -41,4 +40,4 @@ Pour créer un formulaire Adobe Campaign sur votre site AEM :
 1. Editez le contenu du formulaire en ajoutant différents champs et composants que vous pouvez mapper aux champs de la base Adobe Campaign.
 1. Testez et publier le formulaire afin de le rendre accessible sur votre site AEM.
 
-Pour plus d&#39;informations, consultez la [documentation détaillée](https://docs.adobe.com/content/help/fr-FR/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
+Pour plus d&#39;informations, consultez la [documentation détaillée](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html).
