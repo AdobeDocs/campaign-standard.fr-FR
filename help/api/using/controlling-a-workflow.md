@@ -10,11 +10,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '97'
-ht-degree: 100%
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +34,7 @@ Quatre commandes d’exécution sont disponibles pour contrôler un workflow :
 * Reprendre
 * Arrêter
 
-Pour plus d’informations sur les commandes d’exécution, reportez-vous à la [documentation de Campaign](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Pour plus d’informations sur les commandes d’exécution, reportez-vous à la [documentation de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
