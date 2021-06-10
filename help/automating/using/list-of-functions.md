@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1973'
-ht-degree: 98%
+source-wordcount: '1943'
+ht-degree: 100%
 
 ---
 
@@ -707,11 +707,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
    <td> Renvoie la valeur minimum d'une colonne de type numérique, chaîne ou date.<br /> </td> 
    <td> Min(&lt;valeur&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, agrégat de chaîne<br /> </td> 
-   <td> Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparées par le caractère du second argument (le séparateur par défaut est une virgule).<br /> </td> 
-   <td> StringAgg(&lt;valeurs de chaîne&gt;,&lt;separator&gt;)
-  </tr>
+
 
 
 
