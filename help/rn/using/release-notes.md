@@ -10,10 +10,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ Les nouvelles fonctionnalités, améliorations et correctifs inclus dans la proc
 * Dans les diffusions à plusieurs variantes, les utilisateurs ne peuvent plus créer de copies de langue si la variante par défaut a été supprimée. Un message s’affiche maintenant lors de la création de la copie de langue. (CAMP-48235)
 
 * Le processus de suppression de profil en deux étapes (obsolète à partir de la version 19.4 de Campaign) est désormais désactivé par défaut. Auparavant, il devait être désactivé manuellement à partir de l’interface de Campaign avant d’utiliser Privacy Core Service. Si vous ne le faites pas, les demandes de suppression restent en attente sans avoir terminé.
-
-* Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077) [En savoir plus](../../automating/using/list-of-functions.md#aggregates)
 
 * Dans les rapports dynamiques, le segment **Exclure le bon à tirer** a été supprimé. (CAMP-46161)
 
