@@ -6,20 +6,20 @@ description: Les workflows techniques sont des workflows d'usine conçus pour g�
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramètres de l’instance
+feature: Paramètres de l'instance
 role: Administrator
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '699'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Workflows techniques{#technical-workflows}
 
-Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés pour s’exécuter périodiquement sur le serveur.
+Les workflows techniques sont livrés d&#39;usine avec Adobe Campaign. Les workflows techniques sont des opérations ou traitements programmés pour s&#39;exécuter périodiquement sur le serveur.
 
 Ils permettent de réaliser les opérations de maintenance sur la base, remonter les informations de tracking sur les diffusions et mettre en place les traitements prévisionnels sur les diffusions.
 
@@ -50,7 +50,7 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   <tr> 
    <td> <span class="uicontrol">Facturation</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
-   <td> Ce workflow transmet par email le rapport d'activité du système à l'utilisateur 'billing'. Par défaut, il se déclenche tous les jours à 1H00.<br /> </td> 
+   <td> Ce workflow transmet par e-mail le rapport d'activité du système à l'utilisateur 'billing'. Par défaut, il se déclenche tous les jours à 1H00.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
@@ -70,7 +70,7 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   <tr> 
    <td> <span class="uicontrol">Partage instantané des rapports</span> <br /> </td> 
    <td> <span class="uicontrol">reportSendingNow</span> <br /> </td> 
-   <td> Ce workflow démarre dès qu'un rapport devrait être envoyé. Il convertit votre rapport en fichier PDF puis l'envoie dans un email aux destinataires ciblés.<br /> </td> 
+   <td> Ce workflow démarre dès qu'un rapport devrait être envoyé. Il convertit votre rapport en fichier PDF puis l'envoie dans un e-mail aux destinataires ciblés.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Réconciliation des KPI avec Adobe Analytics</span> <br /> </td> 
@@ -96,12 +96,12 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <tr> 
    <td> <span class="uicontrol">Synchroniser avec Launch</span><br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d'Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupération des logs de tracking</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d'Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupérer les logs de tracking</span> <br /> </td> 
