@@ -11,9 +11,9 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,12 +26,12 @@ Cette section contient des questions courantes relatives aux rapports dynamiques
 Il s&#39;agit d&#39;un comportement attendu.
 Prenons l&#39;exemple suivant pour expliquer ce comportement.
 
-Un email est envoyé aux profils P1 et P2.
+Un e-mail est envoyé aux profils P1 et P2.
 
-P1 ouvre l&#39;email deux fois le premier jour, puis trois fois le jour suivant.
+P1 ouvre l&#39;e-mail deux fois le premier jour, puis trois fois le jour suivant.
 
-P2, quant à lui, ouvre l&#39;email une fois le premier jour et ne le rouvre pas les jours suivants.
-Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;email envoyé :
+P2, quant à lui, ouvre l&#39;e-mail une fois le premier jour et ne le rouvre pas les jours suivants.
+Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;e-mail envoyé :
 
 <table> 
  <thead> 
@@ -55,9 +55,9 @@ Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;e
  </tbody> 
 </table>
 
-Pour comprendre le nombre total des ouvertures uniques, nous devons additionner les chiffres des lignes des **[!UICONTROL Ouvertures uniques]**, ce qui nous donne la valeur 3. Toutefois, comme l&#39;email n&#39;était ciblé que sur 2 profils, le taux d&#39;ouverture devrait être de 150 %.
+Pour comprendre le nombre total des ouvertures uniques, nous devons additionner les chiffres des lignes des **[!UICONTROL Ouvertures uniques]**, ce qui nous donne la valeur 3. Toutefois, comme l&#39;e-mail n&#39;était ciblé que sur 2 profils, le taux d&#39;ouverture devrait être de 150 %.
 
-Pour ne pas obtenir de pourcentage supérieur à 100, la définition des **[!UICONTROL ouvertures uniques]** est le nombre de broadlogs uniques ouverts. Dans ce cas, même si P1 a ouvert l&#39;email le jour 1 et le jour 2, les ouvertures uniques sont toujours égales à 1.
+Pour ne pas obtenir de pourcentage supérieur à 100, la définition des **[!UICONTROL ouvertures uniques]** est le nombre de broadlogs uniques ouverts. Dans ce cas, même si P1 a ouvert l&#39;e-mail le jour 1 et le jour 2, les ouvertures uniques sont toujours égales à 1.
 
 Cela donne le tableau suivant :
 
@@ -96,17 +96,17 @@ Cela donne le tableau suivant :
 
 Cela peut être dû au fait que la méthode heuristique est utilisée dans les rapports dynamiques pour tracker les ouvertures, même lorsque nous ne pouvons pas tracker l&#39;action **[!UICONTROL Ouvrir]**.
 
-Par exemple, si un utilisateur a désactivé les images sur son client et qu&#39;il clique sur un lien dans l&#39;email, l&#39;**[!UICONTROL Ouverture]** peut ne pas être trackée par la base de données mais le **[!UICONTROL clic]** oui.
+Par exemple, si un utilisateur a désactivé les images sur son client et qu&#39;il clique sur un lien dans l&#39;e-mail, l&#39;**[!UICONTROL Ouverture]** peut ne pas être trackée par la base de données mais le **[!UICONTROL clic]** oui.
 
 Par conséquent, les logs de tracking des **[!UICONTROL ouvertures]** peuvent ne pas avoir le même décompte que dans la base de données.
 
-Ces occurrences sont ajoutées car **&quot;un clic sur un email implique l&#39;ouverture de l&#39;email&quot;**.
+Ces occurrences sont ajoutées car **&quot;un clic sur un e-mail implique l&#39;ouverture de l&#39;e-mail&quot;**.
 
 >[!NOTE]
 >
 >Comme les décomptes uniques reposent sur le sketch HLL, des incohérences mineures entre les décomptes sont possibles.
 
-## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?       {#counts-recurring-deliveries}
+## Comment les décomptes des diffusions récurrentes/transactionnelles sont-ils calculés ?  {#counts-recurring-deliveries}
 
 Lors de l&#39;utilisation de diffusions récurrentes et transactionnelles, les décomptes sont attribués aux diffusions parents et enfants.
 Prenons comme exemple une diffusion récurrente appelée **R1** définie pour s&#39;exécuter tous les jours le jour 1 (RC1), le jour 2 (RC2) et le jour 3 (RC3).
@@ -175,11 +175,11 @@ Par exemple, ici, nous définissons la **[!UICONTROL limite supérieure]** sur 5
 
 ![](assets/troubleshooting_3.png)
 
-La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut être affichée pour trois raisons :
+La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle peut s&#39;afficher pour trois raisons :
 
 * La diffusion a été supprimée et s&#39;affiche ici sous la forme **N/A** pour ne pas entraîner d&#39;incohérence dans les résultats.
 * Lorsque vous placez la dimension **[!UICONTROL Diffusion transactionnelle]** dans vos rapports, la valeur **N/A** peut apparaître. Elle s&#39;affiche, car le rapport dynamique récupère chaque diffusion, même si elle n&#39;est pas transactionnelle. Elle peut également s&#39;afficher lorsque vous placez la dimension **[!UICONTROL Diffusion]** dans votre rapport. Dans ce cas, la valeur **N/A** représente les diffusions transactionnelles.
-* Lorsqu’une dimension est utilisée avec une mesure qui n’est pas liée à la dimension. Dans l’exemple ci-dessous, une ventilation est ajoutée avec la dimension **[!UICONTROL URL de suivi]** même si le nombre de **[!UICONTROL clics]** est défini sur 0 dans cette diffusion.
+* Lorsqu&#39;une dimension est utilisée avec une mesure qui n&#39;est pas liée à la dimension. Dans l&#39;exemple ci-dessous, une ventilation est ajoutée avec la dimension **[!UICONTROL URL de tracking]** même si le nombre de **[!UICONTROL clics]** est défini sur 0 dans cette diffusion.
 
    ![](assets/troubleshooting_4.png)
 
