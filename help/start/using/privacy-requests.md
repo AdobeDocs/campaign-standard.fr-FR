@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1734'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Pour effectuer ces demandes, vous devez utiliser l&#39;intégration de **Privacy
 
 ### Conditions préalables requises {#prerequesites}
 
-Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (email, assistance clientèle ou portail web).
+Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
 
 Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
@@ -47,7 +47,7 @@ Par conséquent, il est de votre responsabilité, en tant que contrôleur de don
 
 ### Espaces de noms {#namesspaces}
 
-Avant de créer des demandes d&#39;accès à des informations personnelles, vous devez définir l&#39;espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : email et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
+Avant de créer des demandes d&#39;accès à des informations personnelles, vous devez définir l&#39;espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
 
 Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=fr#privacy) sur la création d&#39;un espace de noms.
 
@@ -219,7 +219,7 @@ Pour plus d&#39;informations sur la façon d&#39;étendre la ressource de profil
 
 1. Vérifiez que le champ est disponible sur les détails d&#39;un profil. Voir à ce propos [cette section](#usage).
 
-### Utilisation {#usage}
+### Usage {#usage}
 
 Il est de la responsabilité du contrôleur de données d&#39;indiquer la valeur du champ et de suivre les règles et les directives du CCPA relatives à la vente des données.
 
