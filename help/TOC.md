@@ -7,7 +7,7 @@ user-guide-description: 'Centre d''aide pour les principales fonctionnalités, t
 title: Guide de Campaign Standard
 breadcrumb-title: Centre d'aide
 source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1787'
 ht-degree: 100%
 
