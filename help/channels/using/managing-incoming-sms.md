@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 Lorsqu&#39;un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à exécuter.
 
-Cette configuration est définie dans la section **[!UICONTROL Réponse automatique aux MO]** du [compte externe de routage des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO est l&#39;acronyme de « Mobile Originated », ce qui signifie que vous pouvez configurer une réponse automatique au téléphone mobile qui a envoyé le SMS.
+Cette configuration est définie dans la section **[!UICONTROL Réponse automatique aux MO]** du [compte externe de routage des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO est l&#39;acronyme de &quot;Mobile Originated&quot;, ce qui signifie que vous pouvez configurer une réponse automatique au téléphone mobile qui a envoyé le SMS.
 
 Pour ce faire :
 
@@ -55,19 +55,19 @@ Pour ce faire :
    * L&#39;action **[!UICONTROL Supprimer de la quarantaine]** retire de la quarantaine le numéro de téléphone du profil.
    * L&#39;action **[!UICONTROL Aucune]** permet d&#39;envoyer uniquement le message aux destinataires sans effectuer d&#39;action.
 
-   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé « STOP », ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n’est pas placé sur la liste bloquée afin que l’utilisateur puisse continuer à recevoir des emails.
+   Par exemple, dans la configuration ci-dessous, si les destinataires envoient le mot-clé &quot;STOP&quot;, ils reçoivent automatiquement une confirmation de désinscription et leur numéro de téléphone est mis en quarantaine, avec le statut **[!UICONTROL Sur liste bloquée]**. Ce statut se rapporte uniquement au numéro de téléphone. Le profil n&#39;est pas placé sur la liste bloquée afin que l&#39;utilisateur puisse continuer à recevoir des e-mails.
 
    ![](assets/sms_mo.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. À partir des **[!UICONTROL Paramètres avancés]** de votre diffusion SMS **[!UICONTROL Propriétés]**, vous pouvez définir un **[!UICONTROL Numéro court]** spécifique pour exclure automatiquement les destinataires qui se sont désinscrits. Voir à ce propos [cette section](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+1. À partir des **[!UICONTROL Paramètres avancés]** des **[!UICONTROL Propriétés]** de votre diffusion SMS, vous pouvez définir un **[!UICONTROL Numéro court]** spécifique pour exclure automatiquement les destinataires qui se sont désinscrits. Pour plus d&#39;informations, consultez [cette section](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
 Les destinataires peuvent maintenant être automatiquement désabonnés de vos messages et mis en quarantaine avec cette réponse automatique. Les destinataires en quarantaine sont répertoriés dans la table **[!UICONTROL Adresses]** accessible via le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Quarantaines.]** Pour plus d&#39;informations sur les quarantaines, consultez cette [section](../../sending/using/understanding-quarantine-management.md).
 
 Au besoin, ces SMS entrants peuvent être stockés. Voir à ce propos cette [section](#storing-incoming-sms).
 
-## Stocker les SMS entrants       {#storing-incoming-sms}
+## Stocker les SMS entrants  {#storing-incoming-sms}
 
 Dans le compte externe **[!UICONTROL Routage des SMS par SMPP]**, vous pouvez choisir de stocker les messages entrants, par exemple lorsqu&#39;un abonné répond &quot;STOP&quot; à un message SMS afin d&#39;être retiré de la liste des destinataires.
 
