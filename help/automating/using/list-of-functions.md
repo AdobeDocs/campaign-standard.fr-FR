@@ -37,9 +37,9 @@ Plusieurs types de fonctions sont disponibles, en fonction des résultats souhai
 
 >[!NOTE]
 >
->D’autres fonctions sont disponibles dans toutes les activités qui vous permettent d’utiliser des variables d’événements après avoir appelé un workflow avec des paramètres externes. Elles sont présentées dans [cette section](../../automating/using/customizing-workflow-external-parameters.md).
+>D&#39;autres fonctions sont disponibles dans toutes les activités qui vous permettent d&#39;utiliser des variables d&#39;événements après avoir appelé un workflow avec des paramètres externes. Elles sont présentées dans [cette section](../../automating/using/customizing-workflow-external-parameters.md).
 
-## Dates       {#dates}
+## Dates {#dates}
 
 Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#39;heure.
 
@@ -283,7 +283,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
  </tbody> 
 </table>
 
-## Géomarketing       {#geomarketing}
+## Géomarketing {#geomarketing}
 
 Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géographiques.
 
@@ -302,7 +302,7 @@ Les fonctions de géomarketing sont utilisées pour manipuler des valeurs géogr
  </tbody> 
 </table>
 
-## Numériques       {#numerical}
+## Numériques {#numerical}
 
 Les fonctions numériques sont utilisées pour convertir du texte en nombres.
 
@@ -386,7 +386,7 @@ Les fonctions numériques sont utilisées pour convertir du texte en nombres.
  </tbody> 
 </table>
 
-## Autres       {#others}
+## Autres {#others}
 
 Ce tableau contient les autres fonctions disponibles.
 
@@ -424,7 +424,7 @@ Ce tableau contient les autres fonctions disponibles.
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extrait le domaine d'une adresse email<br /> </td> 
+   <td> Extrait le domaine d'une adresse e-mail<br /> </td> 
    <td> GetEmailDomain(&lt;valeur&gt;)<br /> </td> 
   </tr>
   <tr> 
@@ -719,7 +719,7 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
  </tbody> 
 </table>
 
-## Représentation       {#representation}
+## Représentation {#representation}
 
 Les fonctions de représentation sont utilisées pour classer des valeurs.
 
