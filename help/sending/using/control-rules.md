@@ -10,7 +10,7 @@ feature: Règles de typologie
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Les règles de contrôle permettent de vérifier la validité et la qualité des
 Un ensemble de règles par défaut garantit les contrôles standard. Le tableau ci-dessous fournit des informations sur ces règles, ainsi que sur le canal et les [phases d’exécution](#control-rules-execution-phases) associés.
 
 | Libellé | Canal | Phase d’exécution | Description |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL Test A/B]** | Email | Au début de la personnalisation | Extrait la population d&#39;apprentissage pour une diffusion avec test A/B. |
 | **[!UICONTROL Vérifier la taille de la diffusion]** | Tous | Après le ciblage | Vérifie la taille des messages. |
 | **[!UICONTROL Vérifier que le contenu de l&#39;email n&#39;est pas vide]** | Email | Après le ciblage | Génère une erreur si le contenu du message est vide. |
