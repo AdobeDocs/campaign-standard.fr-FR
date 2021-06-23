@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '852'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Votre audience est maintenant importée dans votre base de données Adobe Campai
 
 >[!NOTE]
 >
->Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent être partagées au préalable dans People Core Service ou Audience Manager. Ce processus prend entre 12 et 24 heures, en plus des 24 à 36 heures de synchronisation avec Campaign. Dans ce cas spécifique, l&#39;échéance de partage d&#39;audience peut aller jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audience Adobe Analytics dans People Core service et Audience manager, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
+>Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent être partagées au préalable dans People Core Service ou Audience Manager. Ce processus prend entre 12 et 24 heures, en plus des 24 à 36 heures de synchronisation avec Campaign. Dans ce cas spécifique, l&#39;échéance de partage d&#39;audience peut aller jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audience Adobe Analytics dans People Core service et Audience manager, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
 
 ## Exporter une audience {#exporting-an-audience}
 
@@ -77,7 +77,7 @@ Il peut être réalisé dans un nouveau workflow par les utilisateurs connectés
 1. Validez la configuration de l&#39;activité et enregistrez votre workflow.
 1. Démarrez votre workflow pour exporter votre audience. La synchronisation entre Adobe Campaign et People core service peut prendre plusieurs heures.
 
-La synchronisation entre Adobe Campaign et People core service prend entre 24 et 36 heures. Au terme de cette période, vous pourrez trouver votre nouvelle audience dans People core service et la réutiliser dans d&#39;autres solutions Adobe Experience Cloud. Pour plus d&#39;informations sur l&#39;utilisation d&#39;une audience partagée Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
+La synchronisation entre Adobe Campaign et People core service prend entre 24 et 36 heures. Au terme de cette période, vous pourrez trouver votre nouvelle audience dans People core service et la réutiliser dans d&#39;autres solutions Adobe Experience Cloud. Pour plus d&#39;informations sur l&#39;utilisation d&#39;une audience partagée Adobe Campaign dans Adobe People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=fr).
 
 **Rubriques connexes :**
 
