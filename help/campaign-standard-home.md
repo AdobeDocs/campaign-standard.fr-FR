@@ -8,10 +8,10 @@ feature: Vue d’ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Campaign - Intégration RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Découvrez comment partager des données entre Campaign et Real-time Customer Data Platform (RTCDP)
+* **[](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQ sur la protection de la confidentialité d’Apple MailTrouvez des conseils initiaux en réponse à l’annonce d’Apple concernant iOS 15
 
-* **[Mise à jour des hard bounces incorrects](https://helpx.adobe.com/fr/campaign/kb/update-bounce-qualification.html)**<br/> Découvrez comment mettre à jour les hard bounces incorrects après une panne de la messagerie
+* **[Campaign - Intégration RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Découvrez comment partager des données entre Campaign et Real-time Customer Data Platform (RTCDP)
 
 * **[Populations témoins](sending/using/control-group.md)**<br/> Mesurez l’impact de vos campagnes en excluant une partie de leur audience
 
