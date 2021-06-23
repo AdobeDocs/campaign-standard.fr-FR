@@ -11,7 +11,7 @@ role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Campaign propose un environnement graphique qui permet de construire des p
 
 Un workflow peut également faire intervenir des utilisateurs, pour leur affecter une tâche ou demander la validation d&#39;une tâche accomplie. Ainsi, il est possible d&#39;assigner une tâche à un ou plusieurs utilisateurs qui seront chargés de saisir son contenu ou spécifier sa cible, puis de faire valider un BAT avant d&#39;envoyer un message.
 
-Les workflows peuvent intervenir dans différents contextes, par exemple :
+Les workflows peuvent intervenir dans différents contextes, par exemple :
 
 * Ciblage afin de gérer des audiences ou envoyer des messages.
 * Data management (ETL) pour manipuler des données.
@@ -64,8 +64,8 @@ L’éditeur de requêtes contient des **règles et des filtres prédéfinis** p
 
 En savoir plus :
 
-* [Edition de requêtes](../../automating/using/editing-queries.md)
-* [Edition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)
+* [Édition de requêtes](../../automating/using/editing-queries.md)
+* [Édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
 ## Importation/exportation des données {#import-export-data}
