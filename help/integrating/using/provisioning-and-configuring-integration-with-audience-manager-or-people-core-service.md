@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Mise en service et configuration de l'intégration avec Audience Manager ou People core service
+title: Approvisionnement et configuration de l'intégration avec Audience Manager ou People core service
 description: 'Découvrez comment configurer l''intégration d''Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d''Adobe Experience Cloud. '
 audience: integrating
 content-type: reference
@@ -11,17 +11,17 @@ role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
 ht-degree: 100%
 
 ---
 
-# Mise en service et configuration de l&#39;intégration avec Audience Manager ou People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 La mise en service et la configuration d&#39;Audience Manager et de People core dans Adobe Campaign se fait en deux étapes : l&#39;[envoi d&#39;une demande à Adobe](#submitting-request-to-adobe), puis la [configuration de l&#39;intégration dans Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
-## Envoi d&#39;une demande à Adobe       {#submitting-request-to-adobe}
+## Envoi d&#39;une demande à Adobe        {#submitting-request-to-adobe}
 
 L&#39;intégration d&#39;Audience Manager ou de People core service permet d&#39;importer et exporter des audiences ou des segments dans Adobe Campaign.
 
@@ -62,7 +62,7 @@ Cette intégration doit d’abord être configurée. Pour demander la mise en se
 
 ## Configuration de l&#39;intégration dans Adobe Campaign        {#configuring-the-integration-in-adobe-campaign}
 
-Après l&#39;envoi de cette demande, Adobe met en service l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
+Après l&#39;envoi de cette demande, Adobe approvisionne l&#39;intégration et vous contacte pour vous fournir des informations afin de terminer la configuration :
 
 * [Étape 1 : Configuration ou vérification des comptes externes dans Adobe Campaign](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Étape 2 : Configuration des sources de données      ](#step-2--configure-the-data-sources)
