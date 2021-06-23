@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,5 +39,5 @@ L&#39;image est alors insérée. La diffusion peut à présent être personnalis
 
 **Rubriques connexes :**
 
-* [Ressources et partage](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Ressources et partage](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=fr)
 * [Éditeur de contenus](../../designing/using/personalization.md#example-email-personalization)
