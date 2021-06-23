@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 >
 >Pour créer des déclencheurs, vous aurez besoin du rôle **[!UICONTROL Administration]** ou vous devrez appartenir au groupe de sécurité **[!UICONTROL Administrateurs]**. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/list-of-roles.md).
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html?lang=fr). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un déclencheur Adobe Experience Cloud existant.
 
@@ -78,7 +78,7 @@ Après avoir créé un événement déclencheur dans Adobe Campaign en fonction
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d’être créé. Voir à ce propos la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
-## Édition du modèle de message transactionnel        {#editing-the-transactional-message-template}
+## Édition du modèle de message transactionnel         {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l’événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d’un déclencheur mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
