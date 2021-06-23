@@ -12,7 +12,7 @@ role: Administrator
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1832'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP   {#sftp-external-account}
+## Compte externe SFTP    {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
