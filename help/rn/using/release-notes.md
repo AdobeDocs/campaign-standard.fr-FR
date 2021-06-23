@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## Version 21.2 - Juin 2021 {#release-21-2---june-2021}
 
-Les nouvelles fonctionnalités, améliorations et correctifs inclus dans la prochaine version du Campaign Standard sont répertoriés ci-dessous. Les nouvelles fonctionnalités, améliorations et corrections incluses dans cette version de Campaign Standard sont répertoriées ci-dessous.
+Les nouvelles fonctionnalités, améliorations et corrections incluses dans la prochaine version de Campaign Standard sont répertoriées ci-dessous. Les nouvelles fonctionnalités, améliorations et corrections incluses dans cette version de Campaign Standard sont répertoriées ci-dessous.
 
 **Améliorations**
 
