@@ -7,24 +7,24 @@ user-guide-description: 'Centre d''aide pour les principales fonctionnalités, t
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Aide d&#39;Adobe Campaign Standard {#using}
 
-+ [Documentation du Campaign Standard](campaign-standard-home.md)
++ [Documentation de Campaign Standard](campaign-standard-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
 + Notes de mise à jour {#release-notes}
    + [Dernière version](rn/using/release-notes.md)
    + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2021](rn/using/release-notes-2021.md)
-      + [Notes de mise à jour  2020](rn/using/release-notes-2020.md)
-      + [Notes de mise à jour  2019](rn/using/release-notes-2019.md)
+      + [Notes de mise à jour   2020](rn/using/release-notes-2020.md)
+      + [Notes de mise à jour   2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
@@ -79,7 +79,7 @@ ht-degree: 99%
       + [Accéder aux messages](channels/using/accessing-messages.md)
       + [Tableau de bord des messages](channels/using/message-dashboard.md)
       + [Modèles de messages multilingues](channels/using/multilingual-messages-template.md)
-   + Bonnes pratiques de diffusion {#delivery-bestpractices}
+   + Bonnes pratiques relatives à la diffusion {#delivery-bestpractices}
       + [Découvrir les bonnes pratiques](sending/using/delivery-best-practices.md)
       + [Optimiser votre diffusion](sending/using/optimize-delivery.md)
       + [Utilisez les modèles](sending/using/use-templates.md)
@@ -465,7 +465,7 @@ ht-degree: 99%
       + [Comptes externes](administration/using/external-accounts.md)
       + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
       + [Workflows techniques](administration/using/technical-workflows.md)
-      + [Marques](administration/using/branding.md)
+      + [Branding](administration/using/branding.md)
       + [Envoi de notifications internes](administration/using/sending-internal-notifications.md)
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
