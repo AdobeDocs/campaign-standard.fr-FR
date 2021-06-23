@@ -12,9 +12,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 Le créateur de segments vous permet de créer des audiences en définissant des règles basées sur les données provenant du [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
-Cette section présente les concepts globaux lors de la création d’un segment. Pour plus d’informations sur le créateur de segments, consultez [le guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Cette section présente les concepts globaux lors de la création d’un segment. Pour plus d’informations sur le créateur de segments, consultez [le guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
 L’interface du créateur de segments se compose comme suit :
 
@@ -48,7 +48,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 Le volet de gauche répertorie tous les attributs, événements et audiences disponibles pour la création de règles.
 
-Les champs répertoriés sont des attributs capturés par votre entreprise et rendus disponibles via le [système de modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Les champs répertoriés sont des attributs capturés par votre entreprise et rendus disponibles via le [système de modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr).
 
 Les champs sont organisés en onglets :
 
@@ -82,7 +82,7 @@ Les champs sont organisés en onglets :
 >
 >**La segmentation multi-entité** vous permet d’étendre les données de profil avec des données supplémentaires basées sur des produits, des magasins ou d’autres classes non relatives au profil. Une fois connecté, les données d’autres classes deviennent disponibles comme si elles étaient natives du schéma de profil.
 >
->Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html).
+>Consultez à ce sujet la [documentation dédiée](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=fr).
 
 Par défaut, le créateur de segments affiche les champs dans lesquels des données sont déjà présentes. Pour afficher le schéma complet, y compris les champs pour lesquels les données ne sont pas présentes, activez l’option **[!UICONTROL Afficher le schéma XDM complet]** à partir des paramètres.
 
@@ -96,7 +96,7 @@ Le symbole à la fin de chaque champ fournit des informations supplémentaires s
 
 >[!NOTE]
 >
->La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
 Pour créer une règle, procédez comme suit :
 
