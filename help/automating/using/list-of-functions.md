@@ -11,7 +11,7 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1943'
 ht-degree: 100%
 
