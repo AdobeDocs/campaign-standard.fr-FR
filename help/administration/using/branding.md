@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Marques
+title: Branding
 description: Découvrez tous les outils disponibles pour gérer les identités de la marque.
 audience: administration
 content-type: reference
@@ -12,13 +12,13 @@ role: Administrator
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
 
-# Marques{#branding}
+# Branding{#branding}
 
 ## A propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 
@@ -26,7 +26,7 @@ Chaque entreprise dispose de directives visuelles et techniques en ce qui concer
 
 Les administrateurs techniques peuvent définir une ou plusieurs marques afin de renseigner de manière centralisée les paramètres qui touchent à l&#39;identité d&#39;une marque, par exemple : le logo de la marque, le domaine d&#39;URL d&#39;accès aux landing pages ainsi que les paramètres du tracking des messages. Avec Adobe Campaign, vous pouvez créer ces marques et les associer à des messages ou des landing pages. Cette configuration est gérée dans des modèles.
 
-## Configuration et utilisation des marques          {#configuring-and-using-brands}
+## Configuration et utilisation des marques           {#configuring-and-using-brands}
 
 Le principe général de paramétrage et d&#39;utilisation des marques est le suivant :
 
