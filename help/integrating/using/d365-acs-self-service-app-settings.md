@@ -4,15 +4,14 @@ description: Découvrez comment configurer l'application d'intégration Campaign
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Intégration de Microsoft CRM
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '811'
-ht-degree: 100%
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +33,7 @@ Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39
 
 * **[!UICONTROL Tenant]** : découvrez comment trouver votre identifiant du tenant dans [cette section](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]** : l&#39;URL possède le format `https://&lt;nomserveur>.api.crm.dynamic.com/
+* **[!UICONTROL URL]** : L’URL aura le format  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Informations d&#39;identification de l&#39;API Adobe
 
