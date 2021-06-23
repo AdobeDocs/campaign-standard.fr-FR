@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4689'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 17.10 - Octobre 2017       {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017        {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -329,7 +329,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver en ligne<br /> </td> 
-   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L’intégration nécessite l’installation de l’extension Adobe Campaign Integration à partir de la page suivante : <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon </a><br />. Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L’intégration nécessite l’installation de l’extension Adobe Campaign Integration à partir de la page suivante : <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon </a><br />. Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,7 +402,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
