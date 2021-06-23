@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ Adobe Campaign crée des profils client complets en temps réel, ce qui vous per
 
 En savoir plus :
 
-* [A propos des profils](../../audiences/using/about-profiles.md)
+* [À propos des profils](../../audiences/using/about-profiles.md)
 * [Profils actifs](../../audiences/using/active-profiles.md)
-* [Gestion des profils de test     ](../../audiences/using/managing-test-profiles.md)
+* [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Enrichissement de la base de données Campaign](../../audiences/using/enriching-campaign-database.md)
-* [A propos des audiences](../../audiences/using/about-audiences.md)
+* [À propos des audiences](../../audiences/using/about-audiences.md)
 * [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [Ajouter une population témoin](../../sending/using/control-group.md)
 
@@ -90,5 +90,5 @@ Pour en savoir plus, consultez [cet article](https://helpx.adobe.com/fr/campaign
 * [Ingérer des audiences Adobe Experience Platform dans Campaign](../../integrating/using/ingest-aep-data.md)
 * [Utilisation de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Audiences partagées Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [Utilisation des workflows pour l’importation de profils](../../automating/using/creating-import-workflow-templates.md)
-* [Vidéos sur les profils et les audiences](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Utilisation des workflows pour l’import de profils](../../automating/using/creating-import-workflow-templates.md)
+* [Vidéos sur les profils et les audiences](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=fr)
