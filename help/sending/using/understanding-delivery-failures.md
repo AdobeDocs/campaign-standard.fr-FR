@@ -10,14 +10,14 @@ feature: Délivrabilité
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
-workflow-type: ht
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Comprendre les diffusions en échec{#understanding-delivery-failures}
+# Comprendre les échecs de diffusion{#understanding-delivery-failures}
 
 ## A propos des diffusions en échec {#about-delivery-failures}
 
@@ -58,7 +58,7 @@ Trois types d’erreur sont liés à une diffusion en échec :
 Les motifs possibles d’une diffusion en échec sont les suivants :
 
 | Libellé de l&#39;erreur | Type d&#39;erreur | Description |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Utilisateur inconnu]** | Hard | L&#39;adresse n&#39;existe pas. Aucune autre diffusion ne sera envoyée pour ce profil. |
 | **** | Hard | L&#39;adresse a été mise en quarantaine. |
 | **[!UICONTROL Inatteignable]** | Soft/Hard | Une erreur s’est produite dans la chaîne de distribution du message (domaine temporairement inatteignable, par exemple). Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
@@ -66,7 +66,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
 | **[!UICONTROL Refusés]** | Soft/Hard | L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Doublon]** | Ignoré | L’adresse a déjà été détectée dans la segmentation. |
-| **[!UICONTROL Non définie]** | Soft | L’adresse est en cours de qualification parce que les erreurs n’ont pas encore été incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
+| **[!UICONTROL Non définie]** | Soft | l’adresse est en cours de qualification, car les erreurs n’ont pas été incrémentées. | et pourtant. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
 | **[!UICONTROL Erreur ignorée]** | Ignoré | L’adresse se trouve sur la liste autorisée et un email lui sera envoyé dans tous les cas. |
 | **[!UICONTROL Adresse sur liste bloquée]** | Hard | L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
@@ -120,7 +120,7 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 
 Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
