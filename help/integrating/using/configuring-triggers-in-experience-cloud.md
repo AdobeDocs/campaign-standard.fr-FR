@@ -11,9 +11,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ L&#39;équipe Adobe aura besoin des informations suivantes pour activer les déc
 * Identifiant de l’organisation IMS
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
-## Configuration des solutions et services     {#configuring-solutions-and-services}
+## Configuration des solutions et services      {#configuring-solutions-and-services}
 
 Afin de pouvoir utiliser cette fonction, vous devez avoir accès aux solutions/core services suivants :
 
@@ -97,7 +97,7 @@ Un déclencheur Adobe Experience Cloud doit être créé pour pouvoir l&#39;util
 
 Créez un déclencheur dans Experience Cloud et assurez-vous de sélectionner la suite de rapports utilisée sur votre site Web. Veillez à choisir les bonnes dimensions pour que le déclencheur fonctionne.
 
-Consultez la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) et regardez cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
+Consultez la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html?lang=fr) et regardez cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Bonnes pratiques et limites de Triggers {#triggers-best-practices-and-limitations}
 
