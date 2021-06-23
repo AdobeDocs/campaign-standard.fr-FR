@@ -12,7 +12,7 @@ role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2819'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
-## Comptes de routage email  {#email-routing-accounts}
+## Comptes de routage email   {#email-routing-accounts}
 
 Le compte externe **[!UICONTROL Routage e-mail intégré]** est fourni par défaut. Il contient les paramètres techniques qui permettent à l’application d’envoyer des emails.
 
@@ -147,7 +147,7 @@ En haut de l’écran des paramètres d’email, identifiez l’email à l’aid
 >
 >L’identifiant doit être unique.
 
-Le champ **[!UICONTROL Marque]** permet de sélectionner la marque liée à la diffusion. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Marques](../../administration/using/branding.md).
+Le champ **[!UICONTROL Marque]** permet de sélectionner la marque liée à la diffusion. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Branding](../../administration/using/branding.md).
 
 Le champ **[!UICONTROL Campagne]** permet de renseigner la campagne associée à l’email.
 
