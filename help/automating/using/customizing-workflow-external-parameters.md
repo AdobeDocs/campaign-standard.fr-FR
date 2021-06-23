@@ -10,9 +10,8 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
 
@@ -58,7 +57,7 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
    En outre, vous pouvez utiliser les fonctions ci-dessous, disponibles dans toutes les activités, qui vous permettent d&#39;appliquer des variables d&#39;événements après avoir appelé un workflow avec des paramètres externes (voir [cette section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)) :
 
    | Nom | Description | Syntaxe |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Indique si une chaîne (premier paramètre) se termine par une chaîne spécifique (deuxième paramètre). | EndWith(&lt;String>,&lt;String>) |
    | startWith | Indique si une chaîne (premier paramètre) commence par une chaîne spécifique (deuxième paramètre). | startWith(&lt;String>,&lt;String>) |
    | Extract | Retourne les premiers caractères d’une chaîne en utilisant un séparateur. | Extract(&lt;String>,&lt;Separator>) |
