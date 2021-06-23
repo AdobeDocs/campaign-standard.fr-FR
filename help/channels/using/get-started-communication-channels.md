@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ En savoir plus :
 * [Accéder aux messages](../../channels/using/accessing-messages.md)
 * [Tableau de bord des messages](../../channels/using/message-dashboard.md)
 * [Modèles de messages multilingues](../../channels/using/multilingual-messages-template.md)
-* [Modèles d’activité marketing](../../start/using/marketing-activity-templates.md)
+* [Modèles d&#39;activité marketing](../../start/using/marketing-activity-templates.md)
 
 ## Canaux de communication {#available-communication-channels}
 
