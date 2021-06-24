@@ -6,15 +6,14 @@ description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Paramétres de l’instance
 role: Administrator
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '8667'
-ht-degree: 100%
+source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+workflow-type: tm+mt
+source-wordcount: '8666'
+ht-degree: 99%
 
 ---
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**Le protocole et les paramètres du connecteur SMS** pour Adobe Campaign Classic sont décrits à cette [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=fr#sending-messages).
+>**Le protocole et les paramètres du connecteur SMS** pour Adobe Campaign Classic sont décrits à cette [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 >
 >Dans ce document, toutes les références au protocole, aux noms de champs et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
-## Présentation {#overview}
+## Vue d&#39;ensemble {#overview}
 
 Les SMS peuvent se limiter à envoyer des SMS courts sans formatage, mais leur simplicité en fait un canal de communication précieux.
 
@@ -294,7 +293,7 @@ Le champ &quot;err&quot; contient le code d&#39;erreur propre au fournisseur. Le
 
 Enfin, le champ &quot;text&quot; contient généralement le début du texte du MT. Adobe Campaign n&#39;en tient pas compte et certains fournisseurs ne le transmettent pas pour éviter les fuites d&#39;informations d&#39;identification personnelle et la consommation de bande passante du réseau. Il peut être utilisé lors de résolution des problèmes pour repérer plus facilement le SR correspondant à un test MT en lisant ce champ.
 
-### Exemple de traitement SR dans un SMPP générique Adobe Campaign Standard Extended{#sr-processing}
+### Exemple de traitement SR dans un SMPP générique Adobe Campaign Standard Extended {#sr-processing}
 
 Cet exemple montre comment afficher le cas d&#39;une mise en œuvre suivant la recommandation de l&#39;Annexe B, les valeurs par défaut dans le compte externe et un SMS MT réussi.
 
@@ -459,7 +458,7 @@ Pour obtenir une explication plus générale du processus d&#39;encodage, consul
 
 Lorsque l&#39;option est activée, le MO entrant est stocké dans le tableau inSMS de la base de données. Ce tableau peut être interrogé à l&#39;aide de l&#39;activité requête de tout workflow.
 
-#### Activer les mises à jour des KPI en temps réel pendant le traitement du SR (rapport d&#39;état){#real-time-kpi}
+#### Activer les mises à jour des KPI en temps réel pendant le traitement du SR (rapport d&#39;état) {#real-time-kpi}
 
 Lorsqu&#39;ils sont activés, les KPI (indicateurs de performance clés) sont mis à jour en temps réel sur la page de diffusion principale lors de la réception d&#39;un SR d&#39;erreur.
 
@@ -481,7 +480,7 @@ La spécification d&#39;un numéro court s&#39;avère utile pour deux fonctionna
 
 * La prévisualisation affiche le numéro court si aucun numéro source n&#39;est fourni. Il reflétera le comportement réel sur le téléphone portable.
 
-* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l’utilisateur pour un numéro court spécifique.
+* Le paramètre de liste bloquée de la fonction de réponse automatique envoie uniquement à la quarantaine l&#39;utilisateur pour un numéro court spécifique.
 
 #### NPI/TON source, NPI/TON destination {#ton-npi}
 
@@ -707,7 +706,7 @@ Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
 ### Réponse automatique aux MO   {#automatic-reply}
 
-Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l’envoi de numéro court à la liste bloquée.
+Cette fonctionnalité permet de répondre rapidement du texte au MO et de gérer l&#39;envoi de numéro court à la liste bloquée.
 
 Les colonnes **Mot-clé** et **Numéro court** définissent les conditions pour déclencher la réponse automatique. Si les deux champs correspondent, le MO est envoyé et l&#39;action supplémentaire est déclenchée. Pour spécifier un caractère de remplacement, vous devez laisser le champ vide. Le mot-clé correspond au premier mot alphanumérique du texte MO, en ignorant la ponctuation et les espaces de début. Cela signifie que le champ **Mot-clé** ne peut pas contenir d&#39;espaces et doit être un seul mot.
 
