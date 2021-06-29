@@ -10,14 +10,14 @@ context-tags: delivery,triggers,back
 feature: Dans l’application
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
-workflow-type: ht
-source-wordcount: '931'
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
 
-# A propos de la messagerie In-App{#about-in-app-messaging}
+# À propos de la messagerie In-App{#about-in-app-messaging}
 
 La messagerie in-app est un canal de messagerie qui permet d&#39;afficher un message lorsque l&#39;utilisateur est actif dans l&#39;application mobile. Ce type de message complète les notifications push qui sont diffusées au centre de notification du téléphone de l&#39;utilisateur. Pour plus d&#39;informations sur le canal Notification push, consultez cette [section](../../channels/using/about-push-notifications.md).
 
@@ -43,76 +43,20 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 * [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](https://helpx.adobe.com/fr/campaign/kb/configure-launch-rules-acs-use-cases.html)
 * [Guide Campaign Standard Mobile](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
-## FAQ sur les messages In-App {#in-app-faq}
+## Gestion des champs de profil mobile avec des données personnelles et sensibles          {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-### Quelles sont les suggestions de ressources utiles pour en savoir plus sur le canal In-App dans Adobe Campaign Standard ? {#resources-inapp}
+Dans Adobe Campaign, les données d’attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
-Consultez les ressources ci-dessous :
+Cette ressource doit être étendue pour collecter les données que vous avez l’intention d’envoyer depuis d’appareil mobile vers Adobe Campaign. Consultez à ce propos cette [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 
-* [Tutoriels vidéos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=fr)
-* [Article de blog](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [Page de la communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Pour permettre une personnalisation plus sécurisée de vos messages In-App, les champs de profil mobile de cette ressource doivent être configurés en conséquence. Dans vos **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**, lors de la création de vos champs de profils mobiles, cochez **[!UICONTROL Personnel et sensible]** pour les rendre non disponibles durant la personnalisation des messages In-App.
 
-### Quel est l’objectif des API des extensions Campaign setLinkageField et resetLinkageField ? {#extensions-apis}
+>[!NOTE]
+>
+>Si une implémentation existe avec une extension de ressource personnalisée sur cette table, nous vous conseillons de libeller les champs de manière adéquate avant de les utiliser pour la personnalisation des messages In-App.
 
-Puisque les messages In-App sont extraits par le SDK de Campaign, nous voulons fournir un mécanisme sécurisé pour nous assurer que les messages In-App contenant des données de PII ne tombent pas entre des mains malveillantes. À ce titre, nous avons mis en place le mécanisme suivant pour assurer la diffusion sécurisée des messages vers l&#39;appareil :
+![](assets/in_app_personal_data_2.png)
 
-* Les clients marquent les champs de profil mobile (table appSubscriberRcp) comme étant Personnels et sensibles s’ils veulent s’assurer que ces informations spécifiques soient diffusées en toute sécurité.
-* Les champs marqués comme tels ne peuvent être utilisés que dans le modèle Profil (et non dans le modèle appSubscriber ou le modèle Broadcast) qui comporte un mécanisme de sécurité supplémentaire intégré.
-* Les messages créés à l’aide d’un modèle Profil ne peuvent être diffusés que lorsque l’utilisateur s’est connecté à l’application.
-* Afin de faciliter cette authentification sécurisée, les développeurs d’applications mobiles doivent transmettre des détails d’authentification supplémentaires à l’aide de l’API setLinkageField. Notez que les champs de liaison sont ceux qui sont identifiés comme le lien entre le Profil mobile et le Profil CRM lors de l&#39;extension de la table appSubscriberRcp.
-* Ils doivent vider les messages In-App stockés sur l’appareil et resetLinkagefields lorsque l’utilisateur se déconnecte de l’application à l’aide de resetLinkageField. Ainsi, si un autre utilisateur se connecte à l’application, il ne voit pas les messages destinés à l’utilisateur précédent.
-* Reportez-vous aux [API SDK Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) pour mettre en œuvre ce mécanisme de sécurité côté client.
+Une fois la ressource personnalisée **[!UICONTROL Abonnements à une application]** configurée et personnalisée, vous pouvez commencer à préparer la diffusion In-App à l&#39;aide du modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**. Seuls les champs qui ne sont pas personnels ni sensibles sont disponibles pour la personnalisation depuis la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]**.
 
-### Que dois-je faire pour activer le reporting In-App Campaign ? {#enable-inapp-reporting}
-
-Vous devez configurer le postback de tracking In-App. Les instructions se trouvent [ici](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
-
-Pour mettre en œuvre le tracking des notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
-
-### Quels rapports sont disponibles pour le canal In-App ? {#report-inapp}
-
-Un rapport d’usine est disponible dans Adobe Campaign pour le canal In-App. Consultez cette [documentation](../../reporting/using/in-app-report.md).
-
-Consultez cette [page](../../reporting/using/indicator-calculation.md#in-app-delivery) pour comprendre comment est calculée chaque mesure In-App.
-
-### Prenez-vous en charge des variantes de contenu multilingues pour In-App similaires à push ? {#multilingual-inapp}
-
-Aucun modèle multilingue n’est actuellement disponible pour les messages In-App.
-
-Cependant, si l’objectif est d’envoyer un message In-App dans une langue autre que l’anglais, le contenu peut être directement collé dans les zones de texte disponibles.
-
-![](assets/faq_inapp.png)
-
-### Les champs de personnalisation Campaign peuvent-ils être ajoutés au code HTML personnalisé ? {#custom-html-inapp}
-
-Non, cela n’est pas encore pris en charge.
-
-### J’ai configuré un message d’alerte mais il ne s’affiche pas sur l’appareil. {#alert-message}
-
-Pour les messages d’alerte, au moins un bouton Ignorer (un bouton principal ou secondaire doit avoir une action Ignorer) est requis. Sinon, il est possible d’enregistrer le message mais il ne sera pas reçu.
-
-### Si le son personnalisé iOS des notifications locales n’est pas lu, le son par défaut sera-t-il lu à la place ? {#local-notification-sound}
-
-Pour le son personnalisé sur iOS, vous devez fournir un nom de fichier avec son extension lors de la création d’une notification locale (par exemple, sound.caf). Si cette extension n&#39;est pas indiquée, le son par défaut est utilisé.
-
-### Les URL de lien profond sont-elles prises en charge dans les messages In-App ? {#inapp-deeplinks}
-
-Oui, les URL de lien profond sont prises en charge dans les messages In-App. Les liens profonds doivent inclure les éléments suivants :
-
-* Un langage indiquant que le tracking des diffusions doit être désactivé pour que les URL de lien profond fonctionnent.
-* Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
-
-### Un message In-App peut-il être déclenché lorsque l’utilisateur lance l’application à partir d’une notification push ? {#inapp-push-trigger}
-
-Oui, ces messages sont aussi appelés des messages en daisy chain. Suivez les étapes suivantes :
-
-1. Créez un message In-App.
-
-1. Définissez un événement personnalisé et sélectionnez-le en tant que déclencheur d’événement pour cet IAM, par exemple « Déclencheur du push de prévisualisation d&#39;automne ».
-
-1. Lors de la création de votre message push, définissez une variable personnalisée dont la valeur peut être définie comme un événement utilisé pour déclencher IAM, par exemple Clé = &quot;inappkey&quot; et Valeur = &quot;Déclencheur du push de prévisualisation d’automne&quot;.
-
-1. Dans le code de l’application mobile, mettez en œuvre le déclencheur d’événement comme suit :
-
-   ![](assets/faq_inapp_2.png)
+Si vous devez effectuer une personnalisation avec les champs **Personal and Sensitive**, il est recommandé d&#39;utiliser le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** qui possède un mécanisme de sécurité supplémentaire pour veiller à ce que les informations PII de vos utilisateurs restent protégées.
