@@ -10,15 +10,17 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '670'
-ht-degree: 100%
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
-# Création d&#39;un rapport à partir des segments de workflow{#creating-a-report-workflow-segment}
+# Création d&#39;un rapport à partir de segments de workflow{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Le code segment ]**ne peut cibler que les diffusions email et SMS.
 
 Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
 Pour cibler ces segments dans vos rapports :
@@ -29,6 +31,7 @@ Pour cibler ces segments dans vos rapports :
 
 >[!CAUTION]
 >Le contrat d&#39;utilisation des rapports dynamiques doit être accepté pour commencer à collecter ces données.
+>
 >Pour plus d&#39;informations sur ce contrat, consultez [cette page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Etape 1 : mise à jour de la ressource personnalisée Profils avec les segments{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ Vous pouvez maintenant commencer à créer votre workflow avec des codes segment
 
 Les codes segment seront collectés dès que vous aurez activé l&#39;option de code segment dans **[!UICONTROL Extension des logs d&#39;envoi]**.
 
-## Etape 2 : création d&#39;un workflow avec des segments{#step-2--create-a-workflow-segments}
+## Etape 2 : création d&#39;un workflow avec des segments {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Si la transition d&#39;entrée de la diffusion email est vide, le code segment de la transition précédente sera ajouté par défaut.
@@ -101,7 +104,7 @@ Vous devez d&#39;abord créer un workflow avec une population ciblée différent
 
 Vous pouvez maintenant accéder à vos rapports pour tracker les codes segment.
 
-## Etape 3 : création d&#39;un rapport dynamique pour filtrer les segments{#step-3--create-a-dynamic-report-filter-segments}
+## Etape 3 : création d&#39;un rapport dynamique pour filtrer les segments {#step-3--create-a-dynamic-report-filter-segments}
 
 Après avoir envoyé des diffusions avec votre workflow, vous pouvez répartir les rapports à l&#39;aide des codes segment de votre workflow.
 
