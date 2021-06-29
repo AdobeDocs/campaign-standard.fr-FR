@@ -7,14 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: Dans l’application
 role: Business Practitioner
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1161'
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '1051'
 ht-degree: 100%
 
 ---
@@ -128,7 +127,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 1. Saisissez l’URL web ou le lien profond dans le champ **[!UICONTROL URL destination]**, si vous avez choisi l’action **[!UICONTROL Rediriger]**.
 1. Vérifiez le contenu de votre message dans la fenêtre de prévisualisation ou en cliquant sur le bouton Aperçu.
 
-   Consultez la page [Prévisualisation du message in-app](#previewing-the-in-app-message).
+   Consultez la page [Prévisualisation du message in-app](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Vous pouvez également trouver une liste des exigences liées au code HTML perso
 ![](assets/inapp_customize_3.png)
 
 Une fois le code HTML importé, vous pouvez trouver un aperçu de votre fichier sur différents appareils dans la fenêtre de prévisualisation.
-
-## Prévisualisation du message in-app {#previewing-the-in-app-message}
-
-Avant d’envoyer votre message in-app, vous pouvez le tester avec vos profils de test pour vérifier ce que l’audience cible verra lorsqu’elle recevra la diffusion.
-
-1. Cliquez sur le bouton **[!UICONTROL Aperçu]**.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Cliquez sur le bouton **[!UICONTROL Sélectionner un profil de test]** et sélectionnez un de vos profils de test pour commencer à prévisualiser votre diffusion. Pour plus d’informations sur les profils de test, consultez cette [section](../../audiences/using/managing-test-profiles.md).
-1. Vérifiez votre message sur différents appareils tels que des appareils Android, des téléphones iPhone et même des tablettes. Vous pouvez également contrôler si les champs de personnalisation récupèrent les données adéquates.
-
-   ![](assets/inapp_sending_3.png)
-
-1. Vous pouvez maintenant envoyer votre message et mesurer son impact à l’aide des rapports de diffusion. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/in-app-report.md).
