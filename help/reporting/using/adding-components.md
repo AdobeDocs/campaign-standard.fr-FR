@@ -10,11 +10,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 84%
 
 ---
 
@@ -39,6 +38,16 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
    * **Temps** : configurez une période de temps pour votre tableau.
 
 1. Déposez des composants dans un panneau pour commencer à filtrer vos données.
+
+   ![](assets/dynamic_report_components_2.png)
+
+1. Après avoir fait glisser et déposé votre composant, vous pouvez configurer davantage votre tableau à l’aide de l’option **[!UICONTROL Paramètres de ligne]**.
+
+   ![](assets/dynamic_report_components_3.png)
+
+1. Vous pouvez également filtrer davantage votre tableau en cliquant sur l’icône **Rechercher**. Avec cette recherche, vous pouvez rechercher des résultats spécifiques, tels qu’une diffusion ou un navigateur spécifique, par exemple.
+
+   ![](assets/dynamic_report_components_4.png)
 
 Vous pouvez déposer autant de composants que nécessaire et les comparer les uns aux autres.
 
