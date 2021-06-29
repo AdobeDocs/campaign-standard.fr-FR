@@ -11,11 +11,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1233'
-ht-degree: 100%
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
+workflow-type: tm+mt
+source-wordcount: '1253'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
@@ -37,7 +36,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 * [Cas pratique : mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 1. Placez une activité **[!UICONTROL Transfert de fichier]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -54,7 +53,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Stockage Blob de Microsoft Azure](#azure-blob-configuration-wf)
+   * [Stockage Blob Microsoft Azure](#azure-blob-configuration-wf)
    * [Fichier(s) présent(s) sur le serveur Adobe Campaign](#files-server-configuration-wf)
 
 1. La section **[!UICONTROL Options supplémentaires]**, disponible en fonction du protocole choisi, vous permet d’ajouter des paramètres à votre protocole. Vous pouvez ainsi :
@@ -105,6 +104,12 @@ Le protocole Amazon S3 permet de lancer le téléchargement d’un fichier depu
 3. Indiquez le chemin d’accès au fichier à télécharger.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > Les caractères génériques ne sont pas pris en charge avec Amazon S3.
+   >
+   > Pour cibler plusieurs fichiers tels que `my_file_02` et `my _file_3433`, vous pouvez utiliser la syntaxe suivante : `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Si vous souhaitez supprimer les fichiers source une fois le transfert terminé, cochez la case **[!UICONTROL Effacer les fichiers source après leur transfert]**.
 
