@@ -11,15 +11,14 @@ feature: Push
 role: Business Practitioner
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1557'
-ht-degree: 100%
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
+workflow-type: tm+mt
+source-wordcount: '1576'
+ht-degree: 98%
 
 ---
 
-# Personnalisation d&#39;une notification push{#customizing-a-push-notification}
+# Personnaliser une notification push{#customizing-a-push-notification}
 
 Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéder à un ensemble d&#39;options avancées lors de sa création.
 
@@ -29,7 +28,7 @@ En tant qu&#39;utilisateur expert, consultez la note technique [Présentation de
 
 **Contenu connexe :**
 
-* [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
+* [Rapport des notifications push](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
 
 ## Jouer un son {#play-a-sound}
@@ -45,7 +44,9 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Le fichier son est lu lors de la diffusion de la notification s’il est défini dans le package de l’application mobile. Sinon, le son par défaut de l’appareil est émis.
+1. Le fichier son est lu lors de la diffusion de la notification s’il est défini dans le package de l’application mobile. Vous pouvez la définir sur **default** pour lire le son par défaut de l’appareil.
+
+   Si le champ **[!UICONTROL Jouer un son]** est vide, aucun son ne sera lu.
 
 L&#39;utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n&#39;est pas muet.
 
