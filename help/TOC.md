@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: ht
-source-wordcount: '1790'
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+workflow-type: tm+mt
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -111,6 +111,7 @@ ht-degree: 100%
       + [À propos de la messagerie In-App](channels/using/about-in-app-messaging.md)
       + [Préparation et envoi d&#39;un message In-App](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Personnalisation d&#39;un message In-App](channels/using/customizing-an-in-app-message.md)
+      + [FAQ sur les messages In-App](channels/using/in-app-faq.md)
    + Courrier {#direct-mail}
       + [À propos du courrier](channels/using/about-direct-mail.md)
       + [Retour à l&#39;expéditeur](channels/using/return-to-sender.md)
