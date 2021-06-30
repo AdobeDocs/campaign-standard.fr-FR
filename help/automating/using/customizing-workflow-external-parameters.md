@@ -11,13 +11,13 @@ role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '837'
 ht-degree: 100%
 
 ---
 
-# Personnaliser un workflow avec des paramètres externes   {#customizing-a-workflow-with-external-parameters}
+# Personnaliser un workflow avec des paramètres externes {#customizing-a-workflow-with-external-parameters}
 
 Une fois le workflow déclenché, les paramètres sont ingérés dans les variables d’événements et peuvent être utilisés pour personnaliser les activités du workflow.
 
