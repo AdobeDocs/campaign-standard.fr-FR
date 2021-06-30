@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Un ensemble de règles par défaut garantit les contrôles standard. Le tableau 
 | **[!UICONTROL Vérifier les libellés d&#39;URL]** | Email | Au début de la personnalisation | Vérifie que chaque URL de tracking comporte un libellé. |
 | **[!UICONTROL Vérifier les URL]** | Email | Au début de la personnalisation | Vérifie les URL de tracking (présence du caractère « &amp; »). |
 
-## Phases d’exécution des règles de contrôle {#control-rules-execution-phases}
+## Phases d&#39;exécution des règles de contrôle {#control-rules-execution-phases}
 
 Les règles de contrôle peuvent être appliquées à différentes phases du cycle de vie de la diffusion :
 
