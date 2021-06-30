@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1365'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Les motifs possibles d’une diffusion en échec sont les suivants :
 | **[!UICONTROL Boîte pleine]** | Soft | La boîte aux lettres de cet utilisateur est pleine et ne peut pas accepter d’autres messages. Cette adresse peut éventuellement être retirée de la liste des quarantaines pour faire une nouvelle tentative, et l’est automatiquement au bout de 30 jours. Pour que l’adresse soit automatiquement retirée de la liste des adresses en quarantaine, le workflow technique **[!UICONTROL Nettoyage de la base]** doit être démarré. |
 | **[!UICONTROL Refusés]** | Soft/Hard | L’adresse a été mise en quarantaine en raison d’un retour de sécurité signalant du spam. Selon l’erreur renvoyée par le fournisseur, l’adresse sera directement mise en quarantaine ou la diffusion sera envoyée à nouveau jusqu’à ce que Campaign reçoive une erreur justifiant le statut Quarantaine ou que le nombre d’erreurs atteigne 5. |
 | **[!UICONTROL Doublon]** | Ignoré | L’adresse a déjà été détectée dans la segmentation. |
-| **[!UICONTROL Non définie]** | Soft | l’adresse est en cours de qualification, car les erreurs n’ont pas été incrémentées. | et pourtant. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
+| **[!UICONTROL Non définie]** | Soft | L&#39;adresse est en cours de qualification parce que les erreurs n&#39;ont pas encore été  | incrémentées. Ce type d’erreur apparaît lorsqu’un nouveau message d’erreur est envoyé par le serveur : il peut s’agir d’une erreur isolée, mais si elle se répète, le compteur d’erreur augmente, ce qui permet d’alerter les équipes techniques. |
 | **[!UICONTROL Erreur ignorée]** | Ignoré | L’adresse se trouve sur la liste autorisée et un email lui sera envoyé dans tous les cas. |
 | **[!UICONTROL Adresse sur liste bloquée]** | Hard | L’adresse a été ajoutée à la liste bloquée au moment de l’envoi. |
 | **[!UICONTROL Compte désactivé]** | Soft/Hard | Lorsque le Fournisseur d’Accès Internet (FAI) détecte une inactivité prolongée, il peut fermer le compte de l’utilisateur, ce qui rend les diffusions vers son adresse impossibles. Le type d’erreur Soft ou Hard dépend du type d’erreur reçu : si le compte est temporairement désactivé en raison d’une inactivité de 6 mois et qu’il peut toujours être activé, le statut **[!UICONTROL En erreur]** sera affecté et la diffusion sera de nouveau envoyée. Si l’erreur a reçu des signaux indiquant que le compte est définitivement désactivé, il sera mis directement en quarantaine. |
@@ -105,7 +105,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 ## Erreurs synchrones et asynchrones    {#synchronous-and-asynchronous-errors}
 
-Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après sont envoi (erreur asynchrone).
+Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
 * **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d&#39;erreur. L&#39;envoi de la diffusion au serveur du profil n&#39;est pas autorisé.
 * **Erreur asynchrone** : un email bounce ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
@@ -120,7 +120,7 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 
 Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
