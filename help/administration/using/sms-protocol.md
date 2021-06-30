@@ -11,9 +11,9 @@ role: Administrator
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8666'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -738,7 +738,7 @@ Ce champ est facultatif. Il permet d&#39;écraser l&#39;adresse de l&#39;expédi
 
 Le champ est limité à 21 caractères par la spécification SMPP, mais certains fournisseurs peuvent autoriser des valeurs plus longues. Notez également que des restrictions très strictes peuvent être appliquées dans certains pays, par exemple la longueur, le contenu, les caractères autorisés.
 
-### Paramètres de la diffusion {#delivery-parameters}
+### Paramètres de diffusion {#delivery-parameters}
 
 #### Nombre maximal de SMS par message {#maximum-sms}
 
