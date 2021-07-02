@@ -10,10 +10,10 @@ feature: Vue d'ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
+source-git-commit: b020d5c55ae8754bd792eb756dd5eb13ee988a66
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Les mises à niveau sont déployées en deux phases. En premier lieu, les instan
 
 Toutes les dates de publication peuvent faire l&#39;objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-## Version 21.2 - Juin 2021 {#release-21-2-release}
+## Version 21.3 - Juin 2021 {#release-21-3-release}
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
@@ -43,11 +43,11 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>7-8 juin 2021<br /> </td>
+   <td>7-8 septembre 2021<br /> </td>
   </tr>
   <tr>
-   <td> Production<br /> </td>
-   <td>14-21 juin 2021<br /> </td>
+   <td>Production<br /> </td>
+   <td>14-21 septembre 2021<br /> </td>
   </tr>
  </tbody>
 </table>
