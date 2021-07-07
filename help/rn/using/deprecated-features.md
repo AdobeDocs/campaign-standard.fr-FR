@@ -10,10 +10,10 @@ feature: Vue d'ensemble
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '773'
+ht-degree: 94%
 
 ---
 
@@ -39,6 +39,22 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps et une solution de remplacement est fournie. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Standard ou ne doivent pas être utilisées dans le cadre d&#39;une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
 Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d&#39;envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression prévue pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Intégration des ressources Experience Cloud</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> À compter de juillet 2021, Assets est désormais un service principal hérité, sous assistance médicale. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">En savoir plus</a>.</p>
+   <p>Pour une nouvelle mise en oeuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Standard.</p>
+     <em>Date de suppression prévue : 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -91,7 +107,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
 
 ## Catégories supprimées {#removed-features}
 
-Cette section répertorie les catégories et fonctionnalités qui ont été supprimées de Campaign Standard.
+Cette section répertorie les fonctionnalités supprimées de Campaign Standard.
 
 
 <table> 
