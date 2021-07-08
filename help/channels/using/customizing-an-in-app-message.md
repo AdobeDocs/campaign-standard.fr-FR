@@ -2,17 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: Personnalisation d'un message In-App
-description: Découvrez comment personnaliser vos messages in-app à l’aide de diverses options.
+description: Découvrez comment personnaliser vos messages In-App à l’aide de diverses options.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: Dans l’application
+feature: Dans l'application
 role: Business Practitioner
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 # Personnalisation d&#39;un message In-App{#customizing-an-in-app-message}
 
-Pour parfaire votre message in-app, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
+Pour parfaire votre message In-App, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
 
-L’éditeur de contenu in-app vous permet de choisir entre deux modes de message in-app :
+L’éditeur de contenu In-App vous permet de choisir entre deux modes de message In-App :
 
-* [Modèle de message](#customizing-with-a-message-template) : ce modèle permet de personnaliser entièrement votre message in-app avec des images ou des vidéos et des boutons d’action.
+* [Modèle de message](#customizing-with-a-message-template) : ce modèle permet de personnaliser entièrement votre message In-App avec des images ou des vidéos et des boutons d’action.
 * [Message personnalisé](#customizing-with-a-custom-html-message) : ce modèle permet d’importer du code HTML personnalisé.
 
 ![](assets/inapp_customize_1.png)
@@ -71,7 +71,7 @@ Chaque type de disposition peut être prévisualisé sur différents appareils t
 
 ### Média       {#media}
 
-La liste déroulante **[!UICONTROL Médias]** permet d’ajouter des médias à votre message in-app afin de créer une expérience utilisateur unique.
+La liste déroulante **[!UICONTROL Médias]** permet d’ajouter des médias à votre message In-App afin de créer une expérience utilisateur unique.
 
 1. Sélectionnez le **[!UICONTROL Type de média]** : image ou vidéo.
 1. Pour le type de média **[!UICONTROL Image]**, saisissez l’URL dans le champ **[!UICONTROL URL médias]** en respectant les formats pris en charge.
@@ -134,8 +134,8 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 ### Paramètres       {#settings}
 
 1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
-1. A l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message in-app.
-1. A l’aide de l’option **[!UICONTROL Alignement des boutons]**, choisissez si l’alignement de votre bouton sera horizontal ou vertical.
+1. À l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message In-App.
+1. À l’aide de l’option **[!UICONTROL Alignement des boutons]**, choisissez si l’alignement de votre bouton sera horizontal ou vertical.
 1. Choisissez si votre message in-app peut être ignoré automatiquement après quelques secondes.
 
    ![](assets/inapp_customize_7.png)
@@ -158,7 +158,7 @@ Pour personnaliser une notification locale :
 1. Sous la catégorie **[!UICONTROL Option avancée]**, dans le champ **[!UICONTROL Attendre pour afficher]**, choisissez la durée (en secondes) pendant laquelle votre notification locale apparaîtra à l’écran une fois votre événement déclenché.
 1. Dans le champ **[!UICONTROL Son]**, entrez le nom du fichier son, avec l’extension, que doit lancer l’appareil mobile à réception de la notification.
 
-   Le fichier son est lu lors de la diffusion de la notification s’il est défini dans le package de l’application mobile. Sinon, le son par défaut de l’appareil est émis.
+   Le fichier son est lu lors de la diffusion de la notification s&#39;il est défini dans le package de l&#39;application mobile. Sinon, le son par défaut de l’appareil est émis.
 
    ![](assets/inapp_customize_19.png)
 
@@ -166,7 +166,7 @@ Pour personnaliser une notification locale :
 1. Pour transmettre des données personnalisées dans la payload sous la forme d’une paire de valeurs de clés, vous pouvez ajouter des champs personnalisés à votre notification locale. Dans la catégorie **[!UICONTROL Champs personnalisés]**, cliquez sur le bouton **[!UICONTROL Créer un élément]**.
 1. Saisissez vos **[!UICONTROL Clés]**, puis les **[!UICONTROL Valeurs]** associées à chacune des clés.
 
-   Notez que la finalité des champs personnalisés et leur gestion dépend entièrement de l’application mobile.
+   Notez que la finalité des champs personnalisés et leur gestion dépendent entièrement de l’application mobile.
 
 1. Dans la catégorie **[!UICONTROL Options Apple]**, remplissez les champs **[!UICONTROL Catégorie]** afin d’ajouter un ID de catégorie pour les actions personnalisées si elles sont disponibles dans votre application mobile Apple.
 
