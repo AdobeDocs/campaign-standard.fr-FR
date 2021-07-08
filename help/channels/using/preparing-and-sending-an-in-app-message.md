@@ -7,11 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: Dans l’application
+feature: Dans l'application
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1262'
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Votre message in-app est maintenant prêt à être envoyé à votre audience cib
 
 ## Prévisualisation du message in-app {#previewing-the-in-app-message}
 
-Avant d’envoyer votre message in-app, vous pouvez le tester avec vos profils de test pour vérifier ce que l’audience cible verra lorsqu’elle recevra la diffusion.
+Avant d’envoyer votre message In-App, vous pouvez le tester avec vos profils de test pour vérifier ce que l’audience cible verra lorsqu’elle recevra la diffusion.
 
 1. Cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
