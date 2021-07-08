@@ -12,9 +12,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1576'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Le fichier son est lu lors de la diffusion de la notification s’il est défini dans le package de l’application mobile. Vous pouvez la définir sur **default** pour lire le son par défaut de l’appareil.
+1. Le fichier son est lu lors de la diffusion de la notification s’il est défini dans le package de l’application mobile. Vous pouvez le définir sur **Par défaut** pour lire le son par défaut de l’appareil.
 
-   Si le champ **[!UICONTROL Jouer un son]** est vide, aucun son ne sera lu.
+   Si le champ **[!UICONTROL Jouer un son]** est vide, aucun son ne sera joué.
 
 L&#39;utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n&#39;est pas muet.
 
