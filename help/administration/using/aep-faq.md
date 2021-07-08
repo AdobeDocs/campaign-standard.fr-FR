@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: FAQ sur le SDK Adobe Experience Platform et l’intégration d’Adobe Campaign
-description: FAQ sur le SDK Adobe Experience Platform et l’intégration d’Adobe Campaign
+description: FAQ sur le SDK Adobe Experience Platform et l'intégration d'Adobe Campaign
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l’instance
+feature: Paramètres de l’instance
 role: Administrator
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
 ht-degree: 100%
 
@@ -33,12 +33,12 @@ Pour plus d’informations sur les notifications push ou les messages In-App, co
 
 Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe Experience Platform et l’intégration de Campaign Standard :
 
-* [Vidéo de présentation](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video) de Launch/des applications mobiles
+* [Vidéo de présentation](https://www.adobe.com/fr/experience-platform/launch.html#acpl-mobile-video) de Launch/des applications mobiles
 * [Guide des conseils et astuces](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf) concernant Launch/les applications mobiles
 
 ## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ?  {#aep-validity}
 
-Oui, l’intégration du [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondant à l’aide d’[!DNL Adobe Launch] pour activer l’intégration.
+Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante à l’aide d’[!DNL Adobe Launch] pour activer l’intégration.
 
 Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
