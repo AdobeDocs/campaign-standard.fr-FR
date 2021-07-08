@@ -11,7 +11,7 @@ feature: Dans l'application
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
 
