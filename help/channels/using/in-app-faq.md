@@ -2,18 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: FAQ sur les messages In-App
-description: Questions fréquentes sur la messagerie In-App
+description: Foire aux questions sur la messagerie In-App
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: Dans l’application
+feature: Dans l'application
 role: Business Practitioner
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,9 +84,9 @@ Oui, ces messages sont aussi appelés des messages en daisy chain. Suivez les é
 
 1. Créez un message In-App.
 
-1. Définissez un événement personnalisé et sélectionnez-le en tant que déclencheur d’événement pour cet IAM, par exemple « Déclencheur du push de prévisualisation d&#39;automne ».
+1. Définissez un événement personnalisé et sélectionnez-le en tant que déclencheur d’événement pour cet IAM, par exemple « Déclencheur du push de prévisualisation d’automne ».
 
-1. Lors de la création de votre message push, définissez une variable personnalisée dont la valeur peut être définie comme un événement utilisé pour déclencher IAM, par exemple Clé = &quot;inappkey&quot; et Valeur = &quot;Déclencheur du push de prévisualisation d’automne&quot;.
+1. Lors de la création de votre message push, définissez une variable personnalisée dont la valeur peut être définie comme un événement utilisé pour déclencher IAM, par exemple Clé = « inappkey » et Valeur = « Déclencheur du push de prévisualisation d’automne ».
 
 1. Dans le code de l’application mobile, mettez en œuvre le déclencheur d’événement comme suit :
 
