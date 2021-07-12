@@ -7,13 +7,12 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Access Management
-role: Administrator
+feature: Gestion des accès
+role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 >
 >Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
-Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités filles. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
+Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités enfants. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
 
 Par défaut, seules les entités **[!UICONTROL Toutes]** sont disponibles.
 
@@ -86,7 +85,7 @@ L&#39;utilisateur assigné aux groupes Utilisateurs standard et Geometrixx Cloth
 
 ![](assets/manage_units_7.png)
 
-L&#39;entité Geometrixx Clothes étant une entité fille de Geometrixx, le message suivant apparaît lorsque l&#39;utilisateur tente de modifier le modèle Geometrixx :
+L&#39;entité Geometrixx Clothes étant une entité enfant de Geometrixx, le message suivant apparaît lorsque l&#39;utilisateur tente de modifier le modèle Geometrixx :
 
 ![](assets/manage_units_8.png)
 
