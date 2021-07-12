@@ -6,18 +6,17 @@ description: Préparez, testez, planifiez, envoyez et surveillez vos messages.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
 
-# Prise en main du test et de l’envoi {#about-sending-messages-with-campaign}
+# Prise en main du test et de l&#39;envoi {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -48,11 +47,11 @@ Utilisez des **typologies** pour vérifier, au cours de la préparation, si votr
 
 En savoir plus :
 
-* [Préparer l’envoi](../../sending/using/preparing-the-send.md)
+* [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
-* [Envoi de BAT](../../sending/using/sending-proofs.md)
-* [Rendu des emails](../../sending/using/email-rendering.md)
-* [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
+* [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
+* [Rendu des e-mails](../../sending/using/email-rendering.md)
+* [Planification de l&#39;envoi des messages](../../sending/using/about-scheduling-messages.md)
 * [À propos des typologies et des règles de typologie](../../sending/using/about-typology-rules.md)
 
 ## Envoi, surveillance et tracking {#send-track-messages}
@@ -67,11 +66,11 @@ Vous pouvez aussi paramétrer Adobe Campaign pour **conserver une copie des emai
 
 En savoir plus :
 
-* [Confirmer l’envoi](../../sending/using/confirming-the-send.md)
+* [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md)
 * [Tracker les messages](../../sending/using/tracking-messages.md)
-* [Archivage avec Email BCC](../../sending/using/archiving.md)
+* [Archivage avec e-mail Cci](../../sending/using/archiving.md)
 * [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
-* [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
+* [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 
 ## Indications relatives à la délivrabilité {#improve-deliverability}
@@ -85,15 +84,15 @@ Campaign Standard met à votre disposition plusieurs **outils de délivrabilité
 En savoir plus :
 
 * [À propos de la délivrabilité](../../sending/using/about-deliverability.md)
-* [Contrôle de la délivrabilité](../../sending/using/monitor-deliverability.md)
+* [Surveillance de la délivrabilité](../../sending/using/monitor-deliverability.md)
 * [Guide des bonnes pratiques relatives à la délivrabilité](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr)
 * [Contrôle du débit des diffusions](../../reporting/using/delivery-throughput.md)
 
-## Autres ressources
+## Ressources supplémentaires
 
 * [Conception d’emails de test A/B](../../channels/using/designing-an-a-b-test-email.md)
 * [Prise en main des emails](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
-* [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md)
+* [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
 * [Ajouter une population témoin](../../sending/using/control-group.md)
 
 ## Tutoriel vidéo {#video}
