@@ -6,13 +6,12 @@ description: En savoir plus sur les fonctionnalités Adobe Campaign Standard pou
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
-role: Business Practitioner
+feature: Confidentialité
+role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -63,7 +62,7 @@ Tous ces règlements s&#39;appliquent aux clients Adobe Campaign qui détiennent
 >
 >Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
 
-## Droit d&#39;accès et droit à l&#39;oubli {#right-access-forgotten}
+## Droit d’accès et droit à l’oubli {#right-access-forgotten}
 
 Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d&#39;**Accès** et de **Suppression**.
 
@@ -103,7 +102,7 @@ Outre les outils de gestion du consentement fournis par Adobe Campaign, vous pou
 
 En ce qui concerne la conservation des données, les tables de logs d&#39;usine de Campaign possèdent des périodes de conservation prédéfinies, limitant généralement le stockage des données à 6 mois ou moins.
 
-Vous trouverez ci-dessous les valeurs de conservation par défaut pour les tables d’usine. Notez que la configuration de conservation est définie par les administrateurs techniques Adobe lors de la mise en œuvre et que les valeurs peuvent varier pour chaque mise en œuvre, selon les exigences du client.
+Vous trouverez ci-dessous les valeurs de conservation par défaut pour les tables d&#39;usine. Notez que la configuration de conservation est définie par les administrateurs techniques Adobe lors de la mise en œuvre et que les valeurs peuvent varier pour chaque mise en œuvre, selon les exigences du client.
 
 * **Tracking consolidé** : 6 mois
 * **Logs de diffusion** : 6 mois
