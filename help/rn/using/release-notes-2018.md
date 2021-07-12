@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '5457'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez su
 
 Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
-## Version 18.9 - Septembre 2018 {#release-18-9---september-2018}
+## Version 18.9 - Septembre 2018  {#release-18-9---september-2018}
 
 **Nouveautés**
 
@@ -43,7 +43,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -153,7 +153,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème dans Creative Designer qui entraînait l’apparition d’un formatage et d’une couleur de police non souhaités lors du changement d’un texte avec un style intégré en un lien ou lors de l’édition de ce lien. (CAMP-26001)
 * Correction d’un problème qui empêchait le rapport Hot clicks d’afficher les pourcentages pour chaque condition dans les diffusions comportant du contenu dynamique. Auparavant, seuls les clics sur la variante par défaut étaient affichés.
 
-## Version 18.6 - Juin 2018 {#release-18-6---june-2018}
+## Version 18.6 - Juin 2018  {#release-18-6---june-2018}
 
 **Améliorations**
 
@@ -191,7 +191,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’une erreur liée à l’affichage des données internationales pour les niveaux de compte dans les rapports dynamiques.
 * Il est désormais possible de créer un service sans message de confirmation d’abonnement ou de désabonnement.
 
-## Version 18.5 - Mai 2018 {#release-18-5---may-2018}
+## Version 18.5 - Mai 2018  {#release-18-5---may-2018}
 
 **Nouveautés**
 
@@ -307,7 +307,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
