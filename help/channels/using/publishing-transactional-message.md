@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 
 ---
 
-# Cycle de vie du message transactionnel {#publishing-transactional-message}
+# Cycle de vie d&#39;un message transactionnel {#publishing-transactional-message}
 
 Lorsque le [message transactionnel](../../channels/using/editing-transactional-message.md) est prêt à être envoyé, il peut être publié.
 
@@ -36,9 +35,9 @@ Le graphique ci-dessous illustre le processus de publication de messages transac
 ![](assets/message-center_pub-process.png)
 
 **Rubriques connexes :**
-* [Publier un message transactionnel](#publishing-a-transactional-message)
+* [Publier un message transactionnel           ](#publishing-a-transactional-message)
 * [Mettre en pause un message transactionnel](#suspending-a-transactional-message-publication)
-* [Dépublier un message transactionnel](#unpublishing-a-transactional-message)
+* [Dépublier un message transactionnel           ](#unpublishing-a-transactional-message)
 * [Publication d&#39;un événement](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
