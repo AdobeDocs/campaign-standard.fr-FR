@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Paramètres de l’instance
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Vous pouvez configurer les types de comptes externes suivants :
 
 Les comptes externes peuvent être configurés par les administrateurs depuis le menu **[!UICONTROL Administration > Paramétrage de l’application > Comptes externes]**.
 
-## Création d’un compte externe {#creating-an-external-account}
+## Création d&#39;un compte externe {#creating-an-external-account}
 
 Adobe Campaign est livré avec un ensemble de comptes externes prédéfinis. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.
 
@@ -90,7 +90,7 @@ Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour 
 
 >[!NOTE]
 >
->Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+>Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
 ## Compte OAuth 2.0 {#oauth-account}
 
