@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: Options d’aide et de support
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -97,7 +96,7 @@ Le panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 ### Comment accéder au panneau de contrôle ?
 
- Le panneau de contrôle est directement accessible à partir d’Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr#discover-control-panel) pour plus d’informations.
+Le panneau de contrôle est directement accessible à partir d&#39;Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr#discover-control-panel) pour plus d&#39;informations.
 
 ### FAQ sur le panneau de contrôle
 
@@ -105,21 +104,21 @@ Le panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 ### Gestion SFTP
 
-Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP qui sont connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l’ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr#sftp-management) pour plus d’informations.
+Dans le panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP connectés aux instances Campaign auxquelles vous avez accès. Vous pouvez surveiller leur capacité de stockage, gérer l&#39;ajout des adresses IP à la liste autorisée et les clés SSH publiques. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr#sftp-management) pour plus d&#39;informations.
 
 ### Sous-domaines et certificats
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr#subdomains-and-certificates)
-* [Configuration d’un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
+* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
 * [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#subdomains-and-certificates)
 
 ## Demande d’aide
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Le nouveau système de gestion des tickets a été mis en place via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système requiert de nouveaux comptes individuels pour chaque utilisateur, avec les autorisations adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’Assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Le nouveau système de gestion des tickets a été mis en place via la console [Adobe Admin Console](https://adminconsole.adobe.com/overview). Ce nouveau système nécessite de nouveaux comptes individuels pour chaque utilisateur, avec les permissions adéquates. Si vous constatez que vous ne pouvez pas vous connecter à l’aide de votre Adobe ID, demandez l’accès par le biais d’Experience League. L’équipe de l’Assistance clientèle vous contactera alors dès que possible. [En savoir plus](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Consultation d’experts
 
@@ -127,8 +126,8 @@ Rejoignez la communauté Campaign Classic : cherchez des réponses à une ques
 
 ### Création d’un ticket ou démarrage d’une conversation
 
-La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d’Adobe pour résoudre vos problèmes.
+La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
 Pour enregistrer un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
