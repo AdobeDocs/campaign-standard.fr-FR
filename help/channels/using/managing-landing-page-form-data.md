@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: Landing pages
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
