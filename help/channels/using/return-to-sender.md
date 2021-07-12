@@ -6,13 +6,12 @@ description: Découvrez comment être informé d'une adresse incorrecte et l'exc
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct Mail
-role: Business Practitioner
+feature: Courrier
+role: User
 level: Intermediate
 exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 
