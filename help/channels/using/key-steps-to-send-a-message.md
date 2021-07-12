@@ -6,13 +6,12 @@ description: Suivez ces étapes pour créer et envoyer des messages avec Adobe C
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Vue d’ensemble
+role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
@@ -24,11 +23,11 @@ Dans cette section, vous apprendrez comment créer et envoyer des messages perso
 
 Des informations spécifiques sur la création et la configuration de chaque canal de communication sont disponibles dans les sections suivantes :
 
-* [Création d’un email](../../channels/using/creating-an-email.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Création d’un SMS](../../channels/using/creating-an-sms-message.md)
-* [Création d’une diffusion courrier](../../channels/using/creating-the-direct-mail.md)
+* [Créer une diffusion courrier](../../channels/using/creating-the-direct-mail.md)
 * [Création d’une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
-* [Préparation et envoi d’un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
+* [Préparation et envoi d&#39;un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
 Pour découvrir les bonnes pratiques en matière de diffusion, consultez la section [Bonnes pratiques de diffusion](../../sending/using/delivery-best-practices.md).
 
