@@ -6,13 +6,12 @@ description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des 
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: Opérations
+role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 # Modèles d&#39;activité marketing {#marketing-activity-templates}
 
-## Modèles {#about-templates}
+## A propos des modèles {#about-templates}
 
 Lorsque vous créez une activité marketing, le premier écran de l&#39;assistant vous invite à sélectionner un type – ou modèle. Les modèles vous permettent de préconfigurer certains paramètres selon vos besoins. Le modèle peut contenir un paramétrage complet ou partiel de l&#39;activité marketing. La gestion des modèles est effectuée par l&#39;administrateur fonctionnel.
 
