@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Paramètres de l’instance
+role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 
