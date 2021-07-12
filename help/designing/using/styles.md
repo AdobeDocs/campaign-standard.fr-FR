@@ -6,19 +6,18 @@ description: Découvrez comment gérer les styles d'email dans le Concepteur d'e
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 100%
 
 ---
 
-# Gestion des styles d&#39;email {#managing-styles}
+# Gestion des styles d&#39;e-mail {#managing-styles}
 
 
 Dans le Concepteur d&#39;email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s&#39;affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
