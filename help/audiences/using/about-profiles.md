@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
-feature: Profiles
-role: Business Practitioner
+feature: Profils
+role: User
 level: Beginner
 exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
-# A propos des profils{#about-profiles}
+# À propos des profils{#about-profiles}
 
 Adobe Campaign vous permet de gérer des contacts dans toutes les étapes de leur cycle de vie : création, import, ciblage, tracking des actions, mise à jour, etc. Les contacts sont stockés dans la base de données sous forme de profils regroupant les informations qui leur sont attachées : nom, prénom, coordonnées, abonnements, diffusions, etc.
 
