@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
 ---
 
-# Publication d’un événement transactionnel {#publishing-transactional-event}
+# Publication d&#39;un événement transactionnel {#publishing-transactional-event}
 
 Une fois la [configuration](../../channels/using/configuring-transactional-event.md) terminée, l’événement est prêt à être publié. Les étapes de prévisualisation, de publication, de dépublication et de suppression d’un événement sont décrites ci-dessous.
 
