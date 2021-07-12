@@ -6,13 +6,12 @@ description: Découvrez comment tester et publier une landing page dans Adobe Ca
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: Landing pages
+role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
