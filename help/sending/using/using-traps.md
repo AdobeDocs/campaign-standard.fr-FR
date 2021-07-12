@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Seed Address
-role: Business Practitioner
+feature: Adresse de contrôle
+role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
