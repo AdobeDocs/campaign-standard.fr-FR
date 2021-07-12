@@ -7,13 +7,12 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campagnes
+role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -57,7 +56,7 @@ Le programme correspond au premier niveau de l&#39;organisation. Il peut conteni
 
 1. Sélectionnez une date de début et une date de fin pour le programme. Ces dates s&#39;appliquent uniquement au programme.
 
-   Vous pouvez choisir de créer votre programme à l&#39;intérieur d&#39;un programme parent. Sélectionnez alors celui-ci parmi les programmes existants.
+   Vous pouvez choisir de créer votre programme à l&#39;intérieur d&#39;un programme parent. Sélectionnez alors le programme parent dans les programmes existants.
 
 1. Cliquez sur **[!UICONTROL Créer]** pour valider la création du programme.
 
