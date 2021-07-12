@@ -7,11 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Confidentialité
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1734'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
 1. Cliquez sur **[!UICONTROL Créer]**. Vous pouvez maintenant créer des demandes d&#39;accès à des informations personnelles basées sur votre nouvel espace de noms. Si vous utilisez plusieurs espaces de noms, vous devez créer une demande d&#39;accès à des informations personnelles par espace de noms.
 
-### Création d&#39;une demande d&#39;accès à des informations personnelles {#create-privacy-request}
+### Création d’une demande d’accès à des informations personnelles {#create-privacy-request}
 
 >[!IMPORTANT]
 >
