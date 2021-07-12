@@ -6,19 +6,18 @@ description: Découvrez la gestion des utilisateurs et des autorisations, les co
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Gestion des accès
+role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
 
 ---
 
-# Prise en main de l’administration de Campaign Standard{#about-administrating-adobe-campaign}
+# Prise en main de l&#39;administration de Campaign Standard {#about-administrating-adobe-campaign}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Administration</a></p></td>
@@ -66,7 +65,7 @@ En savoir plus :
 * [Entités organisationnelles](../../administration/using/organizational-units.md)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
 * [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md)
-* [Audit des logs d’export](../../administration/using/auditing-export-logs.md)
+* [Audit des logs d&#39;export](../../administration/using/auditing-export-logs.md)
 * [Licences](../../administration/using/licenses.md)
 
 ## Configuration des canaux {#channels-configuration}
@@ -81,10 +80,10 @@ Configurez les **applications mobiles** afin de pouvoir envoyer des messages In-
 
 En savoir plus :
 
-* [A propos de la configuration des canaux](../../administration/using/about-channel-configuration.md)
-* [Configuration du canal Email](../../administration/using/configuring-email-channel.md)
+* [À propos de la configuration des canaux](../../administration/using/about-channel-configuration.md)
+* [Configuration du canal e-mail](../../administration/using/configuring-email-channel.md)
 * [Configuration du canal SMS](../../administration/using/configuring-sms-channel.md)
-* [Configuration d’une application mobile](../../administration/using/configuring-a-mobile-application.md)
+* [Configuration d&#39;une application mobile](../../administration/using/configuring-a-mobile-application.md)
 
 ## Paramétrage de l’application {#application-settings}
 
@@ -98,9 +97,9 @@ Définissez une ou plusieurs **marques** pour votre organisation et configurez l
 
 En savoir plus :
 
-* [A propos des paramètres de Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
+* [À propos des paramètres de Campaign Standard](../../administration/using/about-campaign-standard-settings.md)
 * [Comptes externes](../../administration/using/external-accounts.md)
-* [Mappings cibles dans Campaign](../../administration/using/target-mappings-in-campaign.md)
+* [Mappings de ciblage dans Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Workflows techniques](../../administration/using/technical-workflows.md)
-* [Marques](../../administration/using/branding.md)
+* [Branding](../../administration/using/branding.md)
 * [Envoi de notifications internes](../../administration/using/sending-internal-notifications.md)
