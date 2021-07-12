@@ -7,11 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Délivrabilité
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Lorsqu’une diffusion ne peut pas être envoyée à un profil, le serveur dista
 >
 >Les messages d’erreur **email** (ou « bounces ») sont qualifiés par le MTA amélioré (bounces synchrones) ou par le traitement inMail (bounces asynchrones).
 >
->Les messages d’erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
+>Les messages d&#39;erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
 
 Les messages peuvent être également exclus pendant la préparation de la diffusion si une adresse est mise en quarantaine ou si un profil est placé dans une liste bloquée. Les messages exclus sont répertoriés dans l’onglet **[!UICONTROL Exclus]** du tableau de bord des diffusions (voir [cette section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -52,10 +52,10 @@ Un rapport d’usine dédié est également disponible. Ce rapport présente l�
 Trois types d’erreur sont liés à une diffusion en échec :
 
 * **Hard** : une erreur de type &quot;hard&quot; indique une adresse invalide. Il s’agit d’un message d’erreur indiquant explicitement que l’adresse est invalide, par exemple : &quot;Utilisateur inconnu&quot;.
-* **Soft** : il s’agit d’une erreur qui peut être temporaire, ou qui n’a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
-* **Ignoré** : il s’agit d’une erreur que l’on sait temporaire, par exemple &quot;Out of office&quot;, ou d’une erreur technique, par exemple si l’expéditeur est de type &quot;postmaster&quot;.
+* **Soft** : il s&#39;agit d&#39;une erreur qui peut être temporaire, ou qui n&#39;a pas pu être qualifiée, par exemple : &quot;Domaine invalide&quot; ou &quot;Boîte pleine&quot;.
+* **Ignoré** : il s&#39;agit d&#39;une erreur que l&#39;on sait temporaire, par exemple &quot;Out of office&quot;, ou d&#39;une erreur technique, par exemple si l&#39;expéditeur est de type &quot;postmaster&quot;.
 
-Les motifs possibles d’une diffusion en échec sont les suivants :
+Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 | Libellé de l&#39;erreur | Type d&#39;erreur | Description |
 | ---------|----------|---------|
@@ -120,7 +120,7 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 
 Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
