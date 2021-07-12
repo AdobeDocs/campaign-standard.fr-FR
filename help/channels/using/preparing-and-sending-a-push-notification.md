@@ -8,12 +8,11 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
 
@@ -129,5 +128,5 @@ Vous pouvez maintenant mesurer la portée de la diffusion de votre notification 
 
 **Rubriques connexes :**
 
-* [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
+* [Rapport des notifications push](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
