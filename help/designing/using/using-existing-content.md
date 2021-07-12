@@ -6,13 +6,12 @@ description: Découvrez comment concevoir des emails à l'aide d'un contenu d'em
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 
 **Rubriques connexes :**
 
-* [Créer un email](../../channels/using/creating-an-email.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Gestion des landing pages](../../channels/using/getting-started-with-landing-pages.md)
 
 ## Editer des contenus existants avec le Concepteur d&#39;email{#editing-existing-contents-with-the-email-designer}
@@ -167,7 +166,7 @@ Pour plus d&#39;informations sur la conversion d&#39;un email existant en email 
 
 **Rubrique connexe**:
 
-* [Création d’un email](../../channels/using/creating-an-email.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
