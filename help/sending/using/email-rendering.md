@@ -6,19 +6,18 @@ description: Découvrez la fonctionnalité de rendu des emails.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: Optimisation de l’heure d’envoi
+role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 
 ---
 
-# Rendu des emails{#email-rendering}
+# Rendu des e-mails{#email-rendering}
 
 Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
@@ -65,8 +64,8 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 **Rubriques connexes** :
 
-* [Création d’un email](../../channels/using/creating-an-email.md)
-* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
+* [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 * [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
 ## du rapport de rendu des emails {#email-rendering-report-description}
