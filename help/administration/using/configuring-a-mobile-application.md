@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Paramètres de l’instance
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ Par défaut, le workflow technique démarre toutes les 15 minutes. Si nécessai
 
 Votre workflow va maintenant redémarrer et synchroniser les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard.
 
-## Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign. {#set-up-campaign}
+## Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign.  {#set-up-campaign}
 
 Pour utiliser une propriété mobile Experience Platform Launch dans Campaign, vous devez également configurer cette propriété dans Adobe Campaign. Dans Adobe Campaign, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard.
 
