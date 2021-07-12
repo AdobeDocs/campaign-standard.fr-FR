@@ -6,19 +6,18 @@ description: Découvrez comment prévisualiser un message dans l’éditeur de c
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Seed Address
-role: Business Practitioner
+feature: Adresse de contrôle
+role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 100%
 
 ---
 
-# Prévisualiser des diffusions {#previewing-messages}
+# Aperçu des diffusions {#previewing-messages}
 
 ## Prévisualiser l&#39;email           {#previewing-emails}
 
@@ -51,8 +50,8 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 **Rubriques connexes :**
 
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
-* [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
-* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
+* [Test des e-mails à l&#39;aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
+* [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 
 ## Prévisualiser des SMS {#previewing-sms}
 
@@ -82,7 +81,7 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 **Rubriques connexes :**
 
-* [A propos des SMS](../../channels/using/about-sms-messages.md)
+* [À propos des SMS](../../channels/using/about-sms-messages.md)
 * [Créer un SMS](../../channels/using/creating-an-sms-message.md)
 * [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md)
 
@@ -110,9 +109,9 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 **Rubriques connexes :**
 
-* [A propos des notifications push](../../channels/using/about-push-notifications.md)
-* [Préparation et envoi d’une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Personnalisation d’une notification push](../../channels/using/customizing-a-push-notification.md)
+* [À propos des notifications push](../../channels/using/about-push-notifications.md)
+* [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Personnaliser une notification push](../../channels/using/customizing-a-push-notification.md)
 
 ## Prévisualiser des messages In-App {#previewing-in-app}
 
@@ -138,6 +137,6 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 **Rubriques connexes :**
 
-* [A propos de la messagerie In-App](../../channels/using/about-in-app-messaging.md)
-* [Préparation et envoi d’un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
-* [Personnalisation d’un message In-App](../../channels/using/customizing-an-in-app-message.md)
+* [À propos de la messagerie In-App](../../channels/using/about-in-app-messaging.md)
+* [Préparation et envoi d&#39;un message In-App](../../channels/using/preparing-and-sending-an-in-app-message.md)
+* [Personnalisation d&#39;un message In-App](../../channels/using/customizing-an-in-app-message.md)
