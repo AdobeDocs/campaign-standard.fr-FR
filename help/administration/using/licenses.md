@@ -6,13 +6,12 @@ description: Obtenez des informations supplémentaires sur les licences install�
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Gestion des accès
+role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 
