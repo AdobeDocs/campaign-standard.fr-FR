@@ -6,13 +6,12 @@ description: Découvrez les différentes méthodes pour enrichir la base de donn
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: Profils
+role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
