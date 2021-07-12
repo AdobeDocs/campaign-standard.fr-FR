@@ -6,13 +6,12 @@ description: Découvrez comment créer des profils et collecter des données sur
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profils
+role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
