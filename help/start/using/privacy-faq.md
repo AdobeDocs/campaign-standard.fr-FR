@@ -9,13 +9,12 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: Confidentialité
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Voici quelques-unes des questions fréquentes sur la confidentialité et le cons
 
 Les éléments répertoriés ci-dessous renvoient aux termes et concepts clés relatifs à la protection des informations personnelles et au consentement dans Adobe Campaign :
 
-* [Règlements relatifs à la gestion de la confidentialitét](../../start/using/privacy-management.md#privacy-management-regulations)
+* [Règlements relatifs à la gestion de la confidentialité](../../start/using/privacy-management.md#privacy-management-regulations)
 * [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data)
 * [Droit d’accès et droit à l’oubli](../../start/using/privacy-management.md#right-access-forgotten)
 * [Consentement, conservation des données et rôles](../../start/using/privacy-management.md#consent-retention-roles)
@@ -82,7 +81,7 @@ Il peut même arriver que certains consentements doivent être actualisés pour 
 
 Plutôt que de considérer ces exigences accrues de consentement comme un risque pour l’univers commercialisable, les spécialistes marketing pourraient les considérer comme un véritable indicateur de l’engagement et de la fidélité de la marque, ainsi que de la satisfaction et de la confiance des clients.
 
-## Gérer le consentement {#manage-consent}
+## Gestion du consentement {#manage-consent}
 
 **Comment les contrôleurs de données peuvent-ils gérer le consentement dans Adobe Campaign ?**
 
