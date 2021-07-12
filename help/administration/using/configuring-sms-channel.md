@@ -8,11 +8,11 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Paramètres de l'instance
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 100%
 
