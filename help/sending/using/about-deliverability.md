@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Plus précisément, la délivrabilité des emails désigne l’ensemble des cara
 
 Pour en apprendre davantage sur la délivrabilité et en savoir plus sur les termes, concepts et approches clés qui s’y rapportent, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
 
-## Procédure d’amélioration de la délivrabilité {#deliverability-key-points}
+## Procédure d&#39;amélioration de la délivrabilité {#deliverability-key-points}
 
 En règle générale, les problèmes de délivrabilité sont liés aux mesures de protection contre le spam implémentées par les prestataires Internet et les administrateurs de serveurs de messagerie.
 
@@ -37,22 +36,22 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 >[!NOTE]
 >
->Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), qui est mis à jour régulièrement.
+>Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), qui est mis à jour régulièrement.
 
 ### Taux de délivrabilité
 
-Le taux de délivrabilité correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Pour améliorer la délivrabilité, vous pouvez faire en sorte d’augmenter ce taux.
+Le taux de délivrabilité correspond au nombre de messages qui ont atteint les boîtes de réception des destinataires comparé au nombre de messages délivrés. Pour améliorer la délivrabilité, vous pouvez faire en sorte d&#39;augmenter ce taux.
 
 Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, parmi lesquels :
 
-* Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l’aide.
+* Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l&#39;aide.
 * Configuration réseau légitime : consultez [cette section](../../sending/using/optimize-delivery.md#network-config) ainsi que la section [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
-* Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
+* Votre réputation d&#39;adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
 * Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](../../sending/using/optimize-delivery.md#quarantine-management).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
 * Le contenu de votre message : consultez la section [Contrôle du contenu des emails](../../sending/using/control-email-content.md).
 * Authentification des messages (SPF, DKIM, DMARC) : consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
-* Réputation de l’expéditeur : pour savoir comment les principaux FAI évaluent la réputation d’un expéditeur, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=fr).
+* Réputation de l&#39;expéditeur : pour savoir comment les principaux FAI évaluent la réputation d&#39;un expéditeur, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html?lang=fr).
 
 ## Outils de délivrabilité de Campaign {#deliverability-tools}
 
@@ -63,9 +62,9 @@ Adobe Campaign fournit un ensemble d’outils pour suivre et améliorer les per
 Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirez parti de toutes les fonctionnalités fournies par Adobe Campaign pour améliorer la délivrabilité.
 
 * [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
-* [Contrôle du contenu des emails](../../sending/using/control-email-content.md)
+* [Contrôle du contenu des e-mails](../../sending/using/control-email-content.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
-* [Envoi de BAT](../../sending/using/sending-proofs.md)
+* [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 
@@ -79,13 +78,13 @@ Pour plus d’informations sur les bonnes pratiques à appliquer lors de la coll
 
 Adobe Campaign gère une liste qui rassemble les plaintes contre le spam, les hard bounces et soft bounces qui surviennent de manière systématique.
 
-Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur cette liste sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d’envoi.
+Pour protéger votre délivrabilité, les destinataires dont les adresses se trouvent sur cette liste sont exclus par défaut de toute diffusion future. En effet, un envoi à ces contacts pourrait nuire à votre réputation d&#39;envoi.
 
 Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 
 Voir à ce propos les sections suivantes :
 
-* [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
+* [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [Quarantaine et liste bloquée](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
@@ -100,7 +99,7 @@ Voir à ce propos les sections suivantes :
 * [Surveillance de la délivrabilité](../../sending/using/monitor-deliverability.md)
 
    <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
-* [Réception d’alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 
 <!--## General recommendations
