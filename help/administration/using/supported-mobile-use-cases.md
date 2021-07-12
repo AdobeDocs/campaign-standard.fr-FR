@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Paramètres de l’instance
+role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
 
 ---
 
-# Cas pratiques mobiles pris en charge dans Adobe Campaign Standard {#mobile-use-cases}
+# Cas pratiques mobiles pris en charge dans Adobe Campaign Standard {#mobile-use-cases}
 
 Dans cette page, vous trouverez la liste de tous les cas pratiques mobiles pris en charge dans [!DNL Adobe Campaign Standard] en utilisant les [!DNL Adobe Experience Platform SDKs]. Notez que la prise en charge de ces cas pratiques suppose l’installation et la configuration des [!DNL Adobe Experience Platform SDKs], d’[!DNL Adobe Experience Platform Launch] et d’[!DNL Adobe Campaign Standard]. Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/configuring-a-mobile-application.md).
 
@@ -27,7 +26,7 @@ Adobe Campaign Standard prend en charge les cas pratiques suivants :
 
 * [Enregistrer un profil mobile dans Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
 * [Envoyer un jeton push à Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
-* [Enrichir un profil mobile à l’aide de données personnalisées provenant de votre application ](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
+* [Enrichir un profil mobile à l’aide de données personnalisées provenant de votre application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [Enrichir un profil mobile avec les données de cycle de vie de votre application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Tracker les interactions de l’utilisateur à l’aide de notifications push](../../administration/using/supported-mobile-use-cases.md#track-user-push)
 * [Mettre en œuvre un événement personnalisé dans votre application mobile pour déclencher des messages In-App.](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
