@@ -6,19 +6,18 @@ description: Découvrez comment personnaliser un email dans le Concepteur d'emai
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2717'
 ht-degree: 100%
 
 ---
 
-# Personnalisation du contenu des emails {#personalization}
+# Personnalisation du contenu des e-mails {#personalization}
 
 Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d&#39;effectuer les opérations suivantes :
 
@@ -86,7 +85,7 @@ Une fois la personnalisation générée (lors de la prévisualisation et de la p
 >
 >Si l&#39;email est créé depuis un workflow, les données additionnelles calculées dans le workflow sont aussi disponibles dans les champs de personnalisation. Pour plus d&#39;informations sur l&#39;ajout de données additionnelles depuis un workflow, consultez la section [Enrichir les données](../../automating/using/about-targeting-activities.md#enriching-data).
 
-## Ajouter un bloc de contenu{#adding-a-content-block}
+## Ajout d&#39;un bloc de contenu{#adding-a-content-block}
 
 Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et possèdent un rendu spécifique. Vous pouvez par exemple ajouter un message de salutations ou un lien vers la page miroir.
 
@@ -178,8 +177,8 @@ Voir à ce sujet [Dimensions de ciblage et ressources](../../automating/using/qu
 
 **Rubriques connexes :**
 
-* [Insertion d’un champ de personnalisation](#inserting-a-personalization-field)
-* [Ajouter un bloc de contenu](#adding-a-content-block)
+* [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field)
+* [Ajout d&#39;un bloc de contenu](#adding-a-content-block)
 * [Définir du contenu dynamique dans un email](#defining-dynamic-content-in-an-email)
 
 ## Personnaliser la source d&#39;une image{#personalizing-an-image-source}
@@ -290,8 +289,8 @@ La définition du contenu dynamique est différente de la [définition des condi
 
 **Rubriques connexes :**
 
-* [Envoyer un bon à tirer](../../sending/using/sending-proofs.md)
-* [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor)
+* [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
+* [Édition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Ordre de priorité           {#order-of-priority}
 
