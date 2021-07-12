@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 100%
 
 ---
 
-# Génération d’un fichier CSV pour les notifications push multilingues{#generating-csv-multilingual-push}
+# Génération d&#39;un fichier CSV pour les notifications push multilingues{#generating-csv-multilingual-push}
 
 Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications push multilingues. Le format du fichier CSV doit respecter certaines instructions pour que le téléchargement du fichier puisse être effectué et, par conséquent, pour la création d’une diffusion. Les sections suivantes décrivent le format de fichier et les points à prendre en compte.
 
