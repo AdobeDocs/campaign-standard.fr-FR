@@ -6,13 +6,12 @@ description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des g
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Gestion des accès
+role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 
