@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Email
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
 
 ---
 
-# Créer un email multilingue{#creating-a-multilingual-email}
+# Créer un e-mail multilingue{#creating-a-multilingual-email}
 
 Vous pouvez envoyer un email multilingue aux profils ayant des préférences linguistiques différentes : chaque profil recevra une variante de l&#39;email dans sa langue préférée.
 
