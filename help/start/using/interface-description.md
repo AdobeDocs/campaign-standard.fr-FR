@@ -6,19 +6,18 @@ description: '"Découvrez comment naviguer dans Adobe Campaign et utiliser l’e
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: Vue d’ensemble
+role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1371'
 ht-degree: 100%
 
 ---
 
-# Description de l’interface{#interface-description}
+# Description de l&#39;interface{#interface-description}
 
 Adobe Campaign vous permet de naviguer à travers différents menus et écrans pour gérer vos campagnes.
 
@@ -91,7 +90,7 @@ Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaign
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 
-### Plans marketing {#marketing-plans}
+### Plans marketing  {#marketing-plans}
 
 L’icône **[!UICONTROL Plans Marketing]** permet d’accéder aux fonctionnalités suivantes :
 
@@ -117,7 +116,7 @@ L’icône **[!UICONTROL Ressources]** permet d’accéder aux fonctionnalités 
 * **[!UICONTROL Blocs de contenu]** - voir à ce propos la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
 * **[!UICONTROL Modèles et fragments de contenu]** - voir à ce propos la section [Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
-### Administration {#administration}
+### Administration  {#administration}
 
 L’icône **[!UICONTROL Administration]** permet d’accéder aux fonctionnalités avancées qui ne peuvent être utilisées que par un administrateur fonctionnel. Voir à ce propos la section [Administration](../../administration/using/get-started-campaign-administration.md).
 
@@ -149,7 +148,7 @@ Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
    ![](assets/ux_workspace.png)
 
-## Barre d’actions {#action-bar}
+## La barre d&#39;actions  {#action-bar}
 
 Selon le type d’écran affiché, une barre contenant des actions liées à l’écran, s’affiche en position haute.
 
