@@ -7,18 +7,17 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
-# Gestion des processus d&#39;opt-in et d’opt-out dans Campaign{#managing-opt-in-and-opt-out-in-campaign}
+# Gestion des processus d&#39;opt-in et d&#39;opt-out dans Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
 ## Gestion des processus d&#39;opt-in et d’opt-out d&#39;un profil {#managing-opt-in-and-opt-out-from-a-profile}
 
