@@ -7,12 +7,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -42,7 +41,7 @@ Vous devez configurer un email transactionnel et référencer ce message à part
 
 Lors de sa configuration à partir du service, le message transactionnel de confirmation n&#39;est envoyé que la première fois que chaque visiteur s&#39;abonne à ce service. Si un profil est déjà abonné, aucun message de confirmation ne sera renvoyé à celui-ci.
 
-### Etape 1 : création de l&#39;email de confirmation{#step-1--create-the-confirmation-email-1}
+### Etape 1 : création de l&#39;email de confirmation         {#step-1--create-the-confirmation-email-1}
 
 Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39;abonne à la newsletter (via une landing page ou tout autre moyen). L&#39;abonnement est considéré comme un événement et l&#39;email est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) qui cible chaque profil qui s&#39;abonne au service.
 
@@ -131,7 +130,7 @@ Vous pouvez également référencer le message de confirmation d&#39;une landing
 
 Lors du référencement du message de confirmation de la landing page, un message est envoyé à chaque soumission de la landing page (même si le profil est déjà abonné).
 
-### Etape 1 : création de l&#39;email de confirmation {#step-1--create-the-confirmation-email-2}
+### Etape 1 : création de l&#39;email de confirmation         {#step-1--create-the-confirmation-email-2}
 
 Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39;abonne à la newsletter via une landing page. L&#39;abonnement est considéré comme un événement et l&#39;email est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) qui cible chaque profil qui s&#39;abonne au service.
 
