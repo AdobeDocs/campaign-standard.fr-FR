@@ -6,15 +6,14 @@ description: Découvrez comment envoyer un message à une date et à une heure p
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Suivi des performances
+role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
+source-wordcount: '1115'
+ht-degree: 98%
 
 ---
 
@@ -44,17 +43,17 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Remplissez le champ **[!UICONTROL Code segment]** : saisissez manuellement la date et l&#39;heure d&#39;envoi du message.
 
-      Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, le format doit être le suivant : **AAAA-MM-JJ hh:mm:ss+tz**.
+      Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, Utilisez le format suivant : **AAAA-MM-JJ hh:mm:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      Pour envoyer le deuxième lot le jour suivant, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
+      Pour envoyer le lot suivant le lendemain, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
 
       Pour les segments restants, définissez les lots comme ceci :
 
-      * **03/06/2017 10:00:00+01**
-      * **04/06/2017 10:00:00+01**
-      * **05/06/2017 10:00:00+01**
+      * **2017-06-03 10:00:00+01**
+      * **2017-06-04 10:00:00+01**
+      * **2017-06-05 10:00:00+01**
    * Veillez à sélectionner l&#39;option **[!UICONTROL Limiter la population de ce segment]**.
 
       Dans l&#39;onglet **[!UICONTROL Limitation]**, sélectionnez **[!UICONTROL Tirage aléatoire]** et saisissez le pourcentage souhaité pour chaque segment : 10 pour le premier groupe, 15 pour le deuxième, etc.
