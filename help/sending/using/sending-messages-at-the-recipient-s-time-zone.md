@@ -6,13 +6,12 @@ description: Apprenez comment envoyer les messages au fuseau horaire du destinat
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Proofs
-role: Business Practitioner
+feature: Bons à tirer
+role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
