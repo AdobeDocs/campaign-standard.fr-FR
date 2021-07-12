@@ -7,11 +7,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Vue d’ensemble
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '4689'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ _Ressources personnalisées_
 * Correction d’une erreur qui se produisait dans les écrans de type Liste dans lesquels les lignes de ressources personnalisées étaient affichées sans aucune donnée.
 * Correction d’une erreur qui empêchait les champs de type booléen avec la valeur ’False’ de s’afficher dans les ressources personnalisées.
 
-## Version 17.9 - Septembre 2017 {#release-17-9---september-2017}
+## Version 17.9 - Septembre 2017  {#release-17-9---september-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -402,7 +402,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -467,7 +467,7 @@ _Workflows_
 * Correction d’une erreur qui pouvait empêcher la lecture de la transition Rejet d’une activité **[!UICONTROL Chargement de fichier]**.
 * Correction d’une erreur qui empêchait la prise en compte correcte des colonnes échangées lors de la configuration d’une activité **[!UICONTROL Chargement de fichier]**.
 
-## Version 17.1 - Janvier 2017 {#release-17-1---january-2017}
+## Version 17.1 - Janvier 2017  {#release-17-1---january-2017}
 
 **Nouvelles fonctionnalités**
 
