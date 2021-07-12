@@ -6,13 +6,12 @@ description: Commencez à créer du contenu d'email réutilisable avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 100%
 
@@ -140,7 +139,7 @@ Pour l&#39;utiliser, créez un email et sélectionnez le modèle de contenu que 
 
 **Rubrique connexe**:
 
-* [Création d’un email](../../channels/using/creating-an-email.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
