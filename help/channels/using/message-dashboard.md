@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: Overview
-role: Business Practitioner
+feature: Vue d’ensemble
+role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
@@ -36,9 +35,9 @@ La barre grise regroupe différentes icônes en lien avec votre message.
 **Rubriques connexes :**
 
 * [Configuration des canaux](../../administration/using/about-channel-configuration.md)
-* [Accéder aux rapports](../../reporting/using/about-dynamic-reports.md)
+* [Accès aux rapports](../../reporting/using/about-dynamic-reports.md)
 
-## La barre d’actions {#action-bar}
+## La barre d&#39;actions  {#action-bar}
 
 La barre d’actions contient différentes icônes permettant d’agir sur votre message.
 
