@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 100%
 
@@ -57,7 +56,7 @@ Vous pouvez également créer un profil de test ou en utiliser un existant depui
 **Rubriques connexes :**
 
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
-* [Créer des audiences](../../audiences/using/creating-audiences.md)
+* [Création d&#39;une audience](../../audiences/using/creating-audiences.md)
 
 ## Envoyer le BAT {#sending-proof}
 
