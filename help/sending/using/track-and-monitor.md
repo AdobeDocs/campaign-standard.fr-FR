@@ -7,13 +7,12 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez la manière dont Adobe Campaign vous permet de conserver une trace des messages envoyés et observez la réaction des destinataires face à votre diffusion
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -70,4 +69,4 @@ Pour plus d&#39;informations à ce sujet, consultez la section [Rapport Hot clic
 **Rubriques connexes :**
 
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [Rapports](../../reporting/using/about-dynamic-reports.md)
+* [Rapports ](../../reporting/using/about-dynamic-reports.md)
