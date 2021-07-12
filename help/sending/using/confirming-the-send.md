@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Suivi des performances
+role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 100%
 
@@ -135,7 +134,7 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, leur état de
 
 ### Modifications ajoutées par le service EFS {#changes-introduced-by-efs}
 
-Les tableaux ci-dessous présentent les modifications des KPI et des statuts des logs d’envoi ajoutées par la fonctionnalité EFS.
+Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
 
 **Avec le service de commentaires par email**
 
