@@ -6,13 +6,12 @@ description: Résolution des problèmes de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Paramétres de l’instance
+role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2698'
 ht-degree: 100%
 
