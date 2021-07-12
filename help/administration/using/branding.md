@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Paramétres de l’instance
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
 
-# Branding{#branding}
+# Marques{#branding}
 
 ## A propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 
