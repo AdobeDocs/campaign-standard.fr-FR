@@ -7,13 +7,12 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: Profils
+role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
