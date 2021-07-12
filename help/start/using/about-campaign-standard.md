@@ -6,13 +6,12 @@ description: Découvrez les principales fonctionnalités, l'interface utilisateu
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Overview
-role: Business Practitioner
+feature: Vue d’ensemble
+role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 100%
 
@@ -48,7 +47,7 @@ Planifiez, coordonnez et orchestrez des campagnes cross-canal.
 
 **Tirez parti des workflows** pour orchestrer et automatiser vos campagnes. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
-## Créer et envoyer des messages {#design-send}
+## Créer et envoyer des messages  {#design-send}
 
 <img width="60px" alt="conditions" src="assets/icon_send.svg"/>
 
