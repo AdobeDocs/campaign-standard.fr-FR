@@ -6,13 +6,12 @@ description: Découvrez les instructions de configuration Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Gestion des accès
+role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 
