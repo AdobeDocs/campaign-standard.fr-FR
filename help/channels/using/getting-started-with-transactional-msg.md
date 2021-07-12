@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -21,15 +20,15 @@ ht-degree: 100%
 
 # Prise en main de la messagerie transactionnelle {#getting-started-with-transactional-messaging}
 
-## Vue d’ensemble   {#overview}
+## Vue d&#39;ensemble {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu’un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
+Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu&#39;un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
 
-* **Quand doit-il être envoyé ?** Ce message contenant des informations importantes, l’utilisateur s’attend à ce qu’il soit envoyé en temps réel. Le délai entre le déclenchement de l’événement et l’arrivée du message doit donc être très court.
+* **Quand doit-il être envoyé ?** Ce message contenant des informations importantes, l&#39;utilisateur s&#39;attend à ce qu&#39;il soit envoyé en temps réel. Le délai entre le déclenchement de l&#39;événement et l&#39;arrivée du message doit donc être très court.
 
-* **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d’un taux d’ouverture élevé. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clients dans la mesure où il définit la relation client.
+* **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d&#39;un taux d&#39;ouverture élevé. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clients dans la mesure où il définit la relation client.
 
 * **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été expédiée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client a consulté votre site web, etc.
 
@@ -51,9 +50,9 @@ Le processus global de messagerie transactionnelle peut être décrit comme suit
 
 ![](assets/message-center-process.png)
 
-Par exemple, imaginez que vous êtes une société disposant d’un site web sur lequel vos clients peuvent acheter des produits.
+Par exemple, imaginez que vous êtes une société disposant d&#39;un site web sur lequel vos clients peuvent acheter des produits.
 
-Adobe Campaign vous permet d’envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l’un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d’abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
+Adobe Campaign vous permet d&#39;envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
 
 Les principales étapes de mise en place de ce système sont décrites ci-dessous dans [cette section](#key-steps).
 
