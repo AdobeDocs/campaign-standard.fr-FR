@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
 ---
 
-# Contrôle de la délivrabilité{#monitor-deliverability}
+# Surveillance de la délivrabilité{#monitor-deliverability}
 
 Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICONTROL Débit des diffusions]** ainsi que sur les différents outils de monitoring proposés par Adobe Campaign. Voici quelques instructions supplémentaires pour le suivi de la délivrabilité :
 * Vérifiez régulièrement le débit des diffusions pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
@@ -29,7 +28,7 @@ Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICON
 * Vérifiez que le nombre d’erreurs et les mises en quarantaines correspondent aux autres diffusions.
 * Consultez attentivement les logs de diffusion pour déterminer le type des erreurs indiquées (listes bloquées, problèmes liés aux DNS, règles anti-spam, etc…).
 
-## Débit des diffusions (Delivery throughput){#delivery-throughput}
+## Débit des diffusions {#delivery-throughput}
 
 Ce rapport contient les informations relatives au débit de diffusion de l’ensemble de la plateforme sur une période donnée afin de mesurer la vitesse de diffusion des messages.
 
