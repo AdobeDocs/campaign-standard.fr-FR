@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -91,6 +90,6 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
 Intégrez l’événement à votre site web. Voir [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## Étape 4 - Diffusion du message {#message-delivery}
+## Étape 4 - Diffuser le message {#message-delivery}
 
 Une fois toutes ces étapes effectuées, dès qu’un client achète des produits sur votre site web, il reçoit un email de confirmation personnalisé contenant des informations sur son achat.
