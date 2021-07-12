@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
 ---
 
-# Modification d’un message transactionnel {#editing-transactional-message}
+# Modifier un message transactionnel {#editing-transactional-message}
 
 Une fois que vous avez créé et publié un événement<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->, le message transactionnel correspondant est automatiquement créé.
 
