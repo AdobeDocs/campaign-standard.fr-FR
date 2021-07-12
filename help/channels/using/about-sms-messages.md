@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# A propos des SMS{#about-sms-messages}
+# À propos des SMS{#about-sms-messages}
 
 Adobe Campaign permet de distribuer des messages SMS (Short Message Service).
 
