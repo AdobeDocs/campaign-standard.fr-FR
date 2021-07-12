@@ -7,11 +7,11 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 feature: Règles de typologie
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
-| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
+| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Application mobile | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
 | **** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
