@@ -6,13 +6,12 @@ description: Les mappings de ciblage sont des objets techniques utilisés par Ca
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Paramètres de l’instance
+role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 
