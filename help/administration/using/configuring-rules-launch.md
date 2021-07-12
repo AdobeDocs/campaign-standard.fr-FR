@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Paramètres de l'instance
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 100%
 
 ---
 
-# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
+# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
 
 Dans [!DNL Adobe Experience Platform Launch], vous devez créer des éléments de données et des règles pour envoyer les informations d&#39;identification personnelles et d&#39;autres données depuis les applications mobiles vers [!DNL Adobe Campaign Standard].
 
