@@ -7,11 +7,11 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Suivi des performances
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
