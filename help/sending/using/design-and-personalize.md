@@ -8,17 +8,17 @@ topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment concevoir le contenu de votre message et évitez les problèmes courants qui peuvent vous empêcher d'exécuter votre diffusion. 
 feature: Délivrabilité
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 100%
 
 ---
 
-# Créer du contenu personnalisé {#build-personalized-content}
+# Création de contenu personnalisé {#build-personalized-content}
 
 Lors de la conception du contenu de votre message, évitez les problèmes courants qui peuvent vous empêcher d&#39;exécuter votre diffusion. La plupart du temps, les erreurs possibles sont liées à la [personnalisation](../../designing/using/personalization.md), à la mise en forme lors de l&#39;[utilisation d&#39;un contenu existant](../../designing/using/using-existing-content.md) et à la [conversion d&#39;un contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content), ainsi qu&#39;aux [images](../../designing/using/images.md).
 
@@ -76,7 +76,7 @@ Découvrez comment insérer un lien d&#39;exclusion [dans cette section](../../d
 
 ### Taille des e-mails  {#email-size}
 
-Pour éviter des problèmes de performances ou de délivrabilité, la taille maximale recommandée d&#39;un e-mail est d&#39;environ **35 Ko**.
+Pour éviter des problèmes de performances ou de délivrabilité, la taille maximale recommandée d’un email est d’environ **35 Ko**.
 
 Pour maintenir la taille de l&#39;e-mail sous cette limite, tenez compte des possibilités suivantes :
 
