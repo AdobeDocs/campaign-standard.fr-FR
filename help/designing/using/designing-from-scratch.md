@@ -6,19 +6,18 @@ description: Découvrez comment concevoir des emails à partir de zéro dans le 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 100%
 
 ---
 
-# Conception d’emails à partir de zéro {#designing-an-email-content-from-scratch}
+# Conception d&#39;e-mails à partir de zéro {#designing-an-email-content-from-scratch}
 
 Découvrez comment maîtriser l’édition de contenu d’email. Avec le Concepteur d’email, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
 
@@ -84,7 +83,7 @@ Pour éditer la structure d’un email :
 
 Lorsque la structure est définie, vous pouvez ajouter des fragments de contenu et des composants à votre email.
 
-## Utilisation d’un pré-titre {#preheader}
+## Utilisation d’un pré-titre  {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -203,8 +202,8 @@ Le composant carrousel n’est pas compatible avec tous les programmes de messag
 
 **Rubriques connexes** :
 
-- [Création d’un email](../../channels/using/creating-an-email.md)
+- [Créer un e-mail](../../channels/using/creating-an-email.md)
 - [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [Planification de l’envoi des messages](../../sending/using/about-scheduling-messages.md)
+- [Planification de l&#39;envoi des messages](../../sending/using/about-scheduling-messages.md)
 - [Prévisualiser un message](../../sending/using/previewing-messages.md)
-- [Rendu des emails](../../sending/using/email-rendering.md)
+- [Rendu des e-mails](../../sending/using/email-rendering.md)
