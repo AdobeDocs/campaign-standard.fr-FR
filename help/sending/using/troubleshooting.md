@@ -7,13 +7,12 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
 
