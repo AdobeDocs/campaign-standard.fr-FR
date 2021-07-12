@@ -7,13 +7,12 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: Règles de typologie
+role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 100%
 
