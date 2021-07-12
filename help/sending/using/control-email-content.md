@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 
 ---
 
-# Contrôle du contenu des emails{#control-email-content}
+# Contrôle du contenu des e-mails{#control-email-content}
 
 <!--TO KEEP because specific to Campaign-->
 
@@ -57,7 +56,7 @@ Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir vo
 
 Pour améliorer le taux d’ouverture de vos messages, vous pouvez également définir manuellement une heure d’envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées. Voir à ce propos la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
 
-## Lien et formulaire de désinscription {#opt-out}
+## Lien et formulaire d’exclusion {#opt-out}
 
 Par défaut, une règle de typologie vérifie au moment de l&#39;analyse qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence. Pour plus d’informations sur la gestion des liens, consultez [cette section](../../designing/using/links.md).
 
@@ -79,7 +78,7 @@ Dans l&#39;éditeur de contenus des messages, cliquez sur **[!UICONTROL Prévisu
 
 ![](assets/sending_anti-spam_analysis.png)
 
-## Rendu des emails {#message-responsiveness}
+## Rendu des e-mails {#message-responsiveness}
 
 Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifiant son apparence sur différents appareils. Vous vous assurez ainsi que son affichage sera optimal sur divers clients web, webmails et appareils.
 
