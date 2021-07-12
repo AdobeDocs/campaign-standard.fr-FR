@@ -6,13 +6,12 @@ description: Découvrez la prise en charge de l’accessibilité dans l’espace
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campaigns
-role: Business Practitioner
+feature: Campagnes
+role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -95,7 +94,7 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 | Onglet | Parcourir les différents éléments de l’interface utilisateur |
 | Entrée ou Espace | Activer l’élément sélectionné |
 
-### Concepteur d’email {#email-designer-shortcuts}
+### Concepteur d&#39;email {#email-designer-shortcuts}
 
 | Raccourci | Action |
 |:-:|:-:|
