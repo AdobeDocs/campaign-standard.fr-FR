@@ -7,12 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 100%
 
@@ -30,9 +29,9 @@ Cette fonctionnalité utilise les préférences linguistiques indiquées dans le
 
 Pour utiliser les variantes de contenus multilingues pour votre diffusion de notification push, suivez ces étapes :
 
-* [Etape 1 : téléchargement d&#39;une variante de contenu multilingue ](#step-1--upload-multilingual-content-variant)
-* [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Etape 3 : envoi et analyse de la diffusion de notification push multilingue ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Etape 1 : téléchargement d&#39;une variante de contenu multilingue     ](#step-1--upload-multilingual-content-variant)
+* [Etape 2 : aperçu et finalisation d&#39;une notification push à l&#39;aide de variantes de contenus multilingues     ](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Etape 3 : envoi et analyse de la diffusion de notification push multilingue     ](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## Etape 1 : téléchargement d&#39;une variante de contenu multilingue      {#step-1--upload-multilingual-content-variant}
 
@@ -133,6 +132,6 @@ Vous pouvez maintenant mesurer l&#39;impact de la diffusion de votre notificatio
 
 **Rubriques connexes :**
 
-* [Rapport des notifications push (Push notification)](../../reporting/using/push-notification-report.md)
+* [Rapport des notifications push](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
 * [Atteindre des audiences multilingues à l&#39;aide d&#39;un seul workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
