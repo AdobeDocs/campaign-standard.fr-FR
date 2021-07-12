@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%
 
 ---
 
-# A propos de la conception du contenu d&#39;un SMS et d&#39;une notification push{#about-sms-and-push-content-design}
+# À propos de la conception du contenu d&#39;un SMS et d&#39;une notification push{#about-sms-and-push-content-design}
 
 Utilisez l&#39;éditeur de contenu pour définir, modifier et personnaliser le contenu des SMS et des notifications push dans Adobe Campaign.
 
