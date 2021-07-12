@@ -7,11 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 feature: Conception d’email
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
 
