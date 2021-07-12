@@ -7,19 +7,18 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Lorsque votre contenu est prêt, apprenez à soigneusement définir qui recevra votre message. »
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Définir l’audience appropriée {#define-the-right-audience}
+# Définition de l&#39;audience appropriée {#define-the-right-audience}
 
 La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des bons à tirer permettant de configurer un cycle de validation complet.
 
