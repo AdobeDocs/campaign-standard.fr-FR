@@ -6,13 +6,12 @@ description: Découvrez comment utiliser le système de gestion des alertes.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Bons à tirer
+role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -137,7 +136,7 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
 * [Envois](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Fréquence des alertes](#alerting-frequency)
-* [Icônes et statuts des activités marketing ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Icônes et statuts des activités marketing      ](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Créer un critère d&#39;alerte de diffusion        {#creating-a-delivery-alerting-criterion}
 
@@ -280,6 +279,6 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
 **Rubriques connexes :**
 
-* [Comprendre les diffusions en échec](../../sending/using/understanding-delivery-failures.md)
+* [Comprendre les échecs de diffusion](../../sending/using/understanding-delivery-failures.md)
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
-* [Les processus d’inscription et de désinscription dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
