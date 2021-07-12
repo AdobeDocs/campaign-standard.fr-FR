@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Overview
-role: Business Practitioner
+feature: Vue d’ensemble
+role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
