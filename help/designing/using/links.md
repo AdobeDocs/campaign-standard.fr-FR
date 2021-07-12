@@ -6,13 +6,12 @@ description: Découvrez comment gérer des liens avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 # Ajout de liens {#links}
 
-## Insérer un lien {#inserting-a-link}
+## Insertion d&#39;un lien {#inserting-a-link}
 
 L&#39;éditeur vous permet de personnaliser un email ou une landing page en insérant des liens dans les éléments du contenu HTML.
 
