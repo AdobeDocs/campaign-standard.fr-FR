@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
 ---
 
-# Créer un service{#creating-a-service}
+# Création d&#39;un service{#creating-a-service}
 
 Pour pouvoir gérer les inscriptions, vous devez d&#39;abord créer un service et le configurer. La configuration d&#39;un nouveau service vous permet d&#39;indiquer les emails de confirmation que recevront les profils qui s&#39;abonnent au service ou s&#39;en désabonnent. Vous définirez également les landing pages d&#39;inscription et de désinscription associées au service. Par exemple, un lien d&#39;abonnement à un service inséré dans un email renverra automatiquement le profil vers la landing page d&#39;inscription spécifiée dans le service.
 
