@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
 ---
 
-# Exécution et surveillance des messages transactionnels {#transactional-messaging-execution}
+# Exécution et monitoring des messages transactionnels {#transactional-messaging-execution}
 
 ## Diffusion d’exécution du message transactionnel {#transactional-message-execution-delivery}
 
@@ -30,7 +29,7 @@ Une fois le message publié et l’intégration de votre site effectuée, lorsqu
 Une **diffusion d&#39;exécution** est un message technique non exploitable et non fonctionnel créé une fois par mois pour chaque message transactionnel, et chaque fois qu’un message transactionnel est modifié et publié de nouveau.
 
 **Rubriques connexes** :
-* [Publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [Intégrer le déclenchement de l&#39;événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Processus de reprise de la messagerie transactionnelle {#transactional-message-retry-process}
