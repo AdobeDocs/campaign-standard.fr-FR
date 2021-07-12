@@ -7,13 +7,12 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -69,7 +68,7 @@ La manière dont vous pouvez personnaliser le contenu d&#39;un message dépend d
 
 Les listes de produits ne sont disponibles que dans les **emails transactionnels**. Voir [Utiliser des listes de produits dans un message transactionnel](../../designing/using/using-product-listings.md).
 
-## Marques {#permissions-and-branding}
+## Branding {#permissions-and-branding}
 
 En matière de gestion des [marques](../../administration/using/branding.md), les messages transactionnels offrent moins de souplesse que les messages standard. Adobe recommande de lier toutes les marques utilisées dans les messages transactionnels à l&#39;entité organisationnelle **** Tous[](../../administration/using/organizational-units.md). Pour plus d&#39;informations, lisez l&#39;explication détaillée ci-après.
 
