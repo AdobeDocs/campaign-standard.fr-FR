@@ -6,19 +6,18 @@ description: Découvrez comment archiver des emails avec Adobe Campaign Standa
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Suivi des performances
+role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: ht
-source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
-# Archivage avec Email BCC{#archiving-emails}
+# Archivage avec e-mail Cci{#archiving-emails}
 
 Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme via Email BCC.
 
