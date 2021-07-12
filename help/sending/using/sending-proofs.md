@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: Bons à tirer
+role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Envoyer un bon à tirer {#sending-proofs}
+# Envoi d&#39;un bon à tirer {#sending-proofs}
 
 ## À propos des bons à tirer {#about-proofs}
 
@@ -107,7 +106,7 @@ Pour masquer le numéro du bon à tirer dans la ligne d’objet, activez l’opt
 **Rubrique connexe :**
 
 * Vidéo [Envoyer un test, préparer un email et l’envoyer](../../sending/using/get-started-sending-messages.md#video)
-* [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
+* [Test des e-mails à l&#39;aide des profils ciblés](../../sending/using/testing-messages-using-target.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Prévisualiser un message](../../sending/using/previewing-messages.md)
-* [Configuration du canal Email](../../administration/using/configuring-email-channel.md)
+* [Configuration du canal e-mail](../../administration/using/configuring-email-channel.md)
