@@ -6,13 +6,12 @@ description: Découvrez comment concevoir des emails via les intégrations d’A
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -42,7 +41,7 @@ Cette fonctionnalité est présentée dans la documentation Dreamweaver, accessi
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
-## Modifier le contenu dans Experience Manager{#editing-content-in-experience-manager}
+## Modifier le contenu dans Experience Manager {#editing-content-in-experience-manager}
 
 Un contenu d’email peut être édité dans Experience Manager puis utilisé pour un ou plusieurs messages d’email dans Adobe Campaign Standard. Reportez-vous à [ce document](../../integrating/using/integrating-with-experience-manager.md).
 
@@ -151,7 +150,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">A propos du Concepteur d’email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
