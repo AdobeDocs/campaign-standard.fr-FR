@@ -7,12 +7,11 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: Landing pages
+role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 100%
 
@@ -30,8 +29,8 @@ Cette page contient des informations sur chacune de ces étapes, ainsi que des r
 
 **Rubriques connexes :**
 
-* [Créer un service](../../audiences/using/creating-a-service.md)
-* [Configuration d’un processus de double opt-in](setting-up-a-double-opt-in-process.md)
+* [Création d&#39;un service](../../audiences/using/creating-a-service.md)
+* [Configuration d&#39;un processus de double opt-in](setting-up-a-double-opt-in-process.md)
 
 ## Limites des landing pages{#landing-page-limitations}
 
