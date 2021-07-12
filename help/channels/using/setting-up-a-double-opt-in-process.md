@@ -6,13 +6,12 @@ description: Suivez ces étapes pour configurer un processus de double opt-in à
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: Landing pages
+role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 100%
 
@@ -131,7 +130,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/blackList
+   /context/profile/liste bloquée
 
    puis définissez la valeur sur **vrai**.
 
