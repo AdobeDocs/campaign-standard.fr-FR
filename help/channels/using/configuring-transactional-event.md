@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: Messages transactionnels
+role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1749'
 ht-degree: 100%
 
 ---
 
-# Configuration d’un événement transactionnel {#configuring-transactional-event}
+# Configuration d&#39;un événement transactionnel {#configuring-transactional-event}
 
 Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord décrire la structure des données d’événement en créant et en configurant un événement.
 
@@ -99,8 +98,8 @@ Voici l’aperçu de l’API pour cet exemple :
 **Rubriques connexes :**
 
 * [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Utiliser des listes de produits dans un message transactionnel ](../../designing/using/using-product-listings.md)
-* [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Utiliser des listes de produits dans un message transactionnel      ](../../designing/using/using-product-listings.md)
+* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Enrichir l’événement {#enriching-the-transactional-message-content}
 
@@ -145,8 +144,8 @@ Une fois l’événement et le message publiés, le lien permettra d’enrichir 
 **Rubriques connexes :**
 
 * [Prévisualiser et publier l’événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Personnaliser un message transactionnel](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
-* [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
+* [Personnaliser un message transactionnel           ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [Publier un message transactionnel           ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## Recherche d’événements transactionnels {#searching-transactional-events}
 
@@ -172,7 +171,7 @@ La configuration d’un événement transactionnel peut varier en fonction du [t
 
 Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir          [Créer un événement](#creating-an-event).
 
-### Messages transactionnels basés sur un événement.{#event-based-transactional-messages}
+### Messages transactionnels basés sur un événement. {#event-based-transactional-messages}
 
 Vous pouvez envoyer des messages transactionnels d’événement ciblant un événement. Ce type de message transactionnel ne contient pas d’informations de profil : la cible de la diffusion est définie par les données contenues dans l’événement lui-même.
 
@@ -199,7 +198,7 @@ Vous pouvez envoyer des messages transactionnels en fonction des profils client,
 Pour envoyer un message transactionnel basé sur un profil, vous devez d&#39;abord créer et configurer un événement ciblant les **données contenues dans la base de données Adobe Campaign**.
 
 1. Lors de la création de la configuration d’un événement, sélectionnez la dimension de ciblage **[!UICONTROL Evénement de profil]** (voir [Créer un événement](#creating-an-event)).
-1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)). Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n’avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
+1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)). Vous devez ajouter au moins un champ pour créer un enrichissement. Vous n&#39;avez pas à créer des champs tels que **Prénom** et **Nom**, car vous pourrez utiliser les champs de personnalisation de la base de données Adobe Campaign.
 1. Créez un enrichissement afin de lier l&#39;événement à la ressource **[!UICONTROL Profil]** (voir [Enrichir l&#39;événement](#enriching-the-transactional-message-content)) et sélectionnez cet enrichissement comme enrichissement de ciblage ****.
 
    >[!IMPORTANT]
