@@ -6,13 +6,12 @@ description: Découvrez comment gérer des images dans les emails avec le Concep
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 100%
 
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 # Utilisation d’images {#images}
 
-## Insérer des images{#inserting-images}
+## Insertion d&#39;images{#inserting-images}
 
 Vous pouvez insérer des images dans vos emails et landing pages.
 
