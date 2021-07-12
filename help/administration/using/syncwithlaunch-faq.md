@@ -6,19 +6,18 @@ description: Questions courantes à propos du workflow technique de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Instance Settings
-role: Administrator
+feature: Paramètres de l’instance
+role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
 ---
 
-# FAQ sur la synchronisation d’Adobe Launch {#syncwithlaunch-faq}
+# FAQ sur la synchronisation d&#39;Adobe Launch {#syncwithlaunch-faq}
 
 Vous pouvez importer les propriétés mobiles d’Adobe Launch dans Adobe Campaign Standard grâce au workflow technique dédié **[!UICONTROL Synchronisation avec Launch]**. Pour plus d’informations, consultez cette [page](../../administration/using/technical-workflows.md)
 
@@ -50,7 +49,7 @@ Pour plus d’informations sur les entités organisationnelles, consultez cette 
 
 1. Ensuite, vérifiez que la synchronisation entre [!DNL Launch] et Adobe Campaign a été effectuée avec le workflow technique **[!UICONTROL syncWithLaunch]**.
 
-## Comment vérifier si la synchronisation entre Adobe Campaign et Launch a été effectuée ? {#sync-campaign-launch}
+## Comment vérifier si la synchronisation entre Adobe Campaign et Launch a été effectuée ?  {#sync-campaign-launch}
 
 1. Dans le menu avancé d’Adobe Campaign Standard, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l’application]** > **[!UICONTROL Workflows]**.
 
@@ -60,7 +59,7 @@ Pour plus d’informations sur les entités organisationnelles, consultez cette 
 
 1. Vérifiez dans les logs que la synchronisation du workflow est activée et qu’elle a été effectuée avec succès.
 
-## J’ai réinitialisé la clé PKey pour une application mobile configurée dans Launch. Comment la reconfigurer dans Launch ? {#configuring-pkey}
+## J’ai réinitialisé la clé PKey pour une application mobile configurée dans Launch. Comment la reconfigurer dans Launch ?  {#configuring-pkey}
 
 1. Ouvrez la propriété mobile dans Adobe Launch.
 
