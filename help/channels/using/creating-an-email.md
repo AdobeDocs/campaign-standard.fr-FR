@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Email
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Créer un email{#creating-an-email}
+# Créer un e-mail{#creating-an-email}
 
 La création d&#39;un email est possible au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), à partir de la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign ou dans la [liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities). Il est également possible de créer des emails à envoi unique ou récurrent à partir d’un workflow.
 
