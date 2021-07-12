@@ -6,13 +6,12 @@ description: Découvrez comment définir l’objet et l’expéditeur d’un ema
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Conception d’email
+role: User
 level: Beginner
 exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
@@ -36,7 +35,7 @@ L’objet de l’email est obligatoire pour préparer et envoyer le message.
 
 1. Vous pouvez également ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique à la ligne d’objet en cliquant sur les icônes correspondantes. Pour plus d’informations à ce sujet, voir [Personnalisation](../../designing/using/personalization.md).
 
-## Définition de l’expéditeur d’un email{#email-sender}
+## Définition de l’expéditeur d’un email {#email-sender}
 
 Pour définir le nom de l’expéditeur qui apparaîtra dans l’en-tête des messages, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du Concepteur d’email (accessible par le biais de l’icône Accueil).
 
@@ -56,6 +55,6 @@ Pour définir le nom de l’expéditeur qui apparaîtra dans l’en-tête des me
 
 **Rubriques connexes :**
 
-* [Insertion d’un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
+* [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Ajout d&#39;un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
 * [Définir du contenu dynamique dans un email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
