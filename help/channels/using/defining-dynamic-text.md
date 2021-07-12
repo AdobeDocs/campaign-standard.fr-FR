@@ -7,12 +7,11 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
