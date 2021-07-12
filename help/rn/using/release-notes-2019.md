@@ -6,18 +6,18 @@ description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d’ensemble
-role: Business Practitioner
+feature: Vue d'ensemble
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
-workflow-type: ht
-source-wordcount: '7597'
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
+source-wordcount: '7598'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour 2019{#release-notes-2019}
+# Notes de mise à jour    2019{#release-notes-2019}
 
 [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
@@ -37,7 +37,7 @@ ht-degree: 100%
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons d’autres fonctionnalités pour faciliter votre préparation au CCPA :</p>
    <ul>
     <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
     <li>Un champ <strong>Option d’opt-out du CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=fr">vidéo pratique</a>.</p>
@@ -147,7 +147,7 @@ ht-degree: 100%
 * Correction d’un problème en raison duquel l’état d’une diffusion pouvait être &quot;Démarrage en attente&quot; même si la diffusion était terminée. (CAMP-35355)
 * Correction d’un problème qui empêchait l’affichage des logs des workflows après activation, puis désactivation des logs SQL.
 
-## Version 19.3 - Juillet 2019 {#release-19-3---july-2019}
+## Version 19.3 - Juillet 2019                {#release-19-3---july-2019}
 
 **Nouveautés**
 
@@ -258,7 +258,7 @@ ht-degree: 100%
 * Correction d’un problème de sécurité qui endommageait le contenu d’un email lorsque l’objet contenait plusieurs lignes.
 
 
-## Version 19.2.7 - Juillet 2019 {#release-19-2-7---july-2019}
+## Version 19.2.7 - Juillet 2019                {#release-19-2-7---july-2019}
 
 **Améliorations**
 
@@ -292,7 +292,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
 * Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
 
-## Version 19.2 - Mai 2019 {#release-19-2---may-2019}
+## Version 19.2 - Mai 2019  {#release-19-2---may-2019}
 
 **Nouveautés**
 
@@ -410,7 +410,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui empêchait l’édition des règles de typologie. (CAMP-31750)
 * Correction d’un problème lié au processus inMail qui pouvait s’arrêter de manière inattendue. (CAMP-31238)
 
-## Version 19.1 - Février 2019 {#release-19-1---february-2019}
+## Version 19.1 - Février 2019               {#release-19-1---february-2019}
 
 **Nouveautés**
 
@@ -516,7 +516,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui entraînait une différence entre les profils ciblés lors de la création d’une diffusion In-App et ceux affichés dans le tableau de bord de la diffusion. (CAMP-28722)
 * Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait la sélection d’une ressource partagée dans un email.
 
-## Version 19.0 - Janvier 2019 {#release-19-0---january-2019}
+## Version 19.0 - Janvier 2019               {#release-19-0---january-2019}
 
 **Nouveautés**
 
@@ -537,7 +537,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
+    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
