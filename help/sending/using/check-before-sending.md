@@ -7,13 +7,12 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Une fois que votre message est prêt, découvrez comment effectuer toutes les vérifications avant de l’envoyer »
-feature: Deliverability
-role: Business Practitioner
+feature: Délivrabilité
+role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -25,7 +24,7 @@ Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche cor
 
 Avant d’envoyer votre message, vérifiez également que les paramètres et la configuration sont cohérents par rapport à la diffusion.
 
-## Pourquoi la validation est-elle essentielle ? {#validation-is-key}
+## Pourquoi la validation est-elle essentielle ?  {#validation-is-key}
 
 Avant d&#39;envoyer une diffusion, vous devez vous assurer que vos destinataires recevront le message que vous souhaitez réellement leur envoyer. Pour cela, vous devez valider le contenu du message et les paramètres de diffusion.
 
@@ -33,7 +32,7 @@ Cette étape vous permet de détecter les éventuelles erreurs et de les corrige
 
 Les étapes de validation d&#39;une diffusion sont présentées [dans cette section](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
-## Rendu des emails {#email-rendering}
+## Rendu des e-mails {#email-rendering}
 
 Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
@@ -45,7 +44,7 @@ Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un r
 
 * Les fonctionnalités de rendu des emails sont essentielles pour déterminer si vos campagnes email réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d&#39;un email à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s&#39;affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d&#39;identifier rapidement les problèmes et de les corriger afin d&#39;améliorer la délivrabilité.
 
-En savoir plus à ce sujet dans [cette section](../../sending/using/email-rendering.md).
+En savoir plus [dans cette section](../../sending/using/email-rendering.md).
 
 ## Messages de BAT {#proof-messages}
 
