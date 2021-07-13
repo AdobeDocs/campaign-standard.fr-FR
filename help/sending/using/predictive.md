@@ -10,9 +10,9 @@ feature: Optimisation de l’heure d’envoi
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -33,8 +33,7 @@ Adobe Campaign Standard offre deux nouveaux modèles d’apprentissage automat
 
 >[!IMPORTANT]
 >Cette fonctionnalité ne fait pas partie des paramètres d’usine du produit. La mise en œuvre nécessite l’implication d’Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
->
->La fonctionnalité nécessite l’utilisation d’un stockage Azure ou Amazon S3 qui doit être fourni par le client.
+
 
 ## Optimisation de l&#39;heure d&#39;envoi prédictive{#predictive-send-time}
 
