@@ -13,7 +13,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>7-8 septembre 2021<br /> </td>
+   <td>7-8 septembre 2021<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>14-21 septembre 2021<br /> </td>
+   <td>14-21 septembre 2021<br /> </td>
   </tr>
  </tbody>
 </table>
