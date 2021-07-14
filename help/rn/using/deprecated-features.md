@@ -13,7 +13,7 @@ exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,13 +43,13 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Intégration des ressources Experience Cloud</strong><br /> </th> 
+   <th> <strong>Intégration d'Experience Cloud Assets</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter de juillet 2021, Assets est désormais un service principal hérité, sous assistance médicale. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">En savoir plus</a>.</p>
-   <p>Pour une nouvelle mise en oeuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Standard.</p>
+   <td> <p> À partir de juillet 2021, Assets est désormais un ancien service principal, encore actif. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=fr">En savoir plus</a>.</p>
+   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Standard.</p>
      <em>Date de suppression prévue : 2022</em></p>
      </td> 
   </tr> 
@@ -105,7 +105,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
  </tbody> 
 </table>
 
-## Catégories supprimées {#removed-features}
+## Fonctionnalités supprimées {#removed-features}
 
 Cette section répertorie les fonctionnalités supprimées de Campaign Standard.
 
