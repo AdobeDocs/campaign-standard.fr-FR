@@ -10,9 +10,9 @@ feature: Vue d'ensemble
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6883'
+source-wordcount: '6924'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 99%
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
+
+## Juillet 2021 {#doc-updates-july-2021}
+
+Une nouvelle section a été ajoutée pour décrire comment permettre aux utilisateurs de s’abonner ou de se désabonner de plusieurs services à partir d’une seule page d’entrée. [En savoir plus](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+La section **Gestion des données de formulaire de landing page** a été mise à jour et clarifiée. [En savoir plus](../../channels/using/managing-landing-page-form-data.md)
 
 ## Version 21.2 - Juin 2021 {#release-21-2---june-2021}
 
