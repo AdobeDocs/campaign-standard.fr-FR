@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1365'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 
 Les bounces asynchrones sont toujours qualifiés par le processus inMail via les règles **[!UICONTROL Mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de gestion des emails]**, puis **[!UICONTROL Emails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
