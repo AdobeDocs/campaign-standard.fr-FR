@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Pour passer en mode de production, vous devez créer une autre application. Veil
 
 ### Puis-je télécharger simultanément les informations d’identification iOS et Android ?  {#ios-android-credentials}
 
-Oui, Campaign prend en charge les deux plates-formes en même temps et vous permet de télécharger des informations d’identification pour les deux plates-formes.
+Oui, Campaign prend en charge les deux plateformes en même temps et vous permet de télécharger des informations d’identification pour les deux plates-formes.
 
 ### J’ai téléchargé les certificats push avec succès, mais aucun message push n’est envoyé. {#push-certificates-upload}
 
