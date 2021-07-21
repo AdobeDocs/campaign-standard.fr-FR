@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Test et publication d&#39;une landing page{#testing-publishing--landing-page}
 
-## A propos de la publication d&#39;une landing page {#about-landing-page-publication}
+## À propos de la publication d&#39;une landing page {#about-landing-page-publication}
 
 Avant de publier une landing page, vous devez effectuer des tests : valider l&#39;exécution, configurer l&#39;accès et définir la fin de vie de la landing page. Ces étapes sont des pré-requis et doivent être exécutées avec précaution.
 
