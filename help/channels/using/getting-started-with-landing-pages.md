@@ -11,7 +11,7 @@ feature: Landing pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1041'
 ht-degree: 100%
 
