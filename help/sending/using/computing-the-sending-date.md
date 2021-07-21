@@ -11,9 +11,9 @@ role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,11 +43,11 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Remplissez le champ **[!UICONTROL Code segment]** : saisissez manuellement la date et l&#39;heure d&#39;envoi du message.
 
-      Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, Utilisez le format suivant : **AAAA-MM-JJ hh:mm:ss+tz**.
+      Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, Le format doit être le suivant : **:mm:AAAA-MM-JJ hh:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      Pour envoyer le lot suivant le lendemain, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
+      Pour envoyer le deuxième lot le jour suivant, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
 
       Pour les segments restants, définissez les lots comme ceci :
 
