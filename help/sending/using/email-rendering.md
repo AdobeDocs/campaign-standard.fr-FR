@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '538'
 ht-degree: 100%
 
@@ -66,9 +66,9 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 * [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
-* [Editeur de requête](../../automating/using/editing-queries.md#about-query-editor)
+* [Éditeur de requête](../../automating/using/editing-queries.md#about-query-editor)
 
-## du rapport de rendu des emails {#email-rendering-report-description}
+## Rapport de rendu des emails {#email-rendering-report-description}
 
 Ce rapport présente les rendus des emails tels qu&#39;ils apparaissent côté destinataire. Les rendus des emails peuvent être différents selon le mode d&#39;ouverture de la diffusion email par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
