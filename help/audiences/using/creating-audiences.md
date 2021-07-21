@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
 ht-degree: 100%
 
@@ -111,7 +111,7 @@ Pour que cette intégration fonctionne, vous devez d&#39;abord la configurer. Po
 
 ## Modifier une audience {#editing-audiences}
 
-La modification d&#39;une audience dépend de son type :
+La modification d&#39;une audience dépend de son type :
 
 * Pour modifier une audience de type **Requête**, accédez à la liste des audiences via le menu **[!UICONTROL Audiences]**, ou la vignette **[!UICONTROL Audiences]** de la page d&#39;accueil d&#39;Adobe Campaign.
 
