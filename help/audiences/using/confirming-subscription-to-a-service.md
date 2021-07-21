@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1421'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Vous devez configurer un email transactionnel et référencer ce message à part
 
 Lors de sa configuration à partir du service, le message transactionnel de confirmation n&#39;est envoyé que la première fois que chaque visiteur s&#39;abonne à ce service. Si un profil est déjà abonné, aucun message de confirmation ne sera renvoyé à celui-ci.
 
-### Etape 1 : création de l&#39;email de confirmation         {#step-1--create-the-confirmation-email-1}
+### Étape 1 : création de l&#39;email de confirmation {#step-1--create-the-confirmation-email-1}
 
 Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39;abonne à la newsletter (via une landing page ou tout autre moyen). L&#39;abonnement est considéré comme un événement et l&#39;email est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) qui cible chaque profil qui s&#39;abonne au service.
 
@@ -99,7 +99,7 @@ L&#39;email de confirmation est un message transactionnel basé sur l&#39;évén
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer votre contenu.
 1. Publiez le message transactionnel. Voir [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-### Etape 2 : création et configuration du service {#step-2--create-and-configure-the-service-1}
+### Étape 2 : création et configuration du service {#step-2--create-and-configure-the-service-1}
 
 1. Dans le menu avancé **Profils &amp; audiences** > **Services** (via le logo Adobe Campaign), créez un service.
 1. Accédez à la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service.
@@ -130,7 +130,7 @@ Vous pouvez également référencer le message de confirmation d&#39;une landing
 
 Lors du référencement du message de confirmation de la landing page, un message est envoyé à chaque soumission de la landing page (même si le profil est déjà abonné).
 
-### Etape 1 : création de l&#39;email de confirmation         {#step-1--create-the-confirmation-email-2}
+### Étape 1 : création de l&#39;email de confirmation {#step-1--create-the-confirmation-email-2}
 
 Un email de confirmation sera automatiquement envoyé à chaque profil qui s&#39;abonne à la newsletter via une landing page. L&#39;abonnement est considéré comme un événement et l&#39;email est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) qui cible chaque profil qui s&#39;abonne au service.
 
@@ -166,14 +166,14 @@ L&#39;email de confirmation est un [message transactionnel](../../channels/using
 
 Les étapes de conception du message transactionnel sont présentées dans cette [section](#design-the-confirmation-message-1).
 
-### Etape 2 : création et configuration du service {#step-2--create-and-configure-the-service-2}
+### Étape 2 : création et configuration du service {#step-2--create-and-configure-the-service-2}
 
 1. Dans le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]** (via le logo Adobe Campaign), créez un service.
 1. Accédez à la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service.
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Ce libellé s&#39;affichera dans le message de confirmation et dans la landing page d&#39;abonnement.
 1. Cliquez sur **[!UICONTROL Confirmer]** et enregistrez le service.
 
-### Etape 3 : création et configuration de la landing page {#step-3--create-and-configure-the-landing-page}
+### Étape 3 : création et configuration de la landing page {#step-3--create-and-configure-the-landing-page}
 
 Créez une landing page d&#39;abonnement qui sera publiée sur votre site web.
 
