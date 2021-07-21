@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1263'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du Concepteur d&#
 
 **Composants de structure** : éléments structurels définissant la disposition de l&#39;email..
 
-**Composants de contenu** : les composants de contenu sont des composants bruts et vides que vous pouvez éditer une fois qu&#39;ils ont été placés dans un email.
+**Composants de contenu** : les composants de contenu sont des composants bruts et vides que vous pouvez modifier une fois qu&#39;ils ont été placés dans un email.
 
 ## Bonnes pratiques relatives à la conception de contenu {#content-design-best-practices}
 
