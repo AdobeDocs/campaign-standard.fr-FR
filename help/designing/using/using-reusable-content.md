@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1885'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Con
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer des modèles en vidéo](#video)
 
-### A propos des modèles de contenu {#content-templates}
+### À propos des modèles de contenu {#content-templates}
 
 Vous pouvez gérer les contenus HTML qui seront proposés dans l&#39;onglet **[!UICONTROL Modèles]** de la page d&#39;accueil du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
@@ -49,7 +49,7 @@ Lors de l&#39;édition de contenu à l&#39;aide du Concepteur d&#39;email, vous 
 
 **Rubriques connexes :**
 
-* Pour plus d&#39;informations sur l&#39;édition de contenu, voir [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md).
+* Pour plus d&#39;informations sur la modification de contenu, voir [À propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ### Créer un modèle de contenu {#creating-a-content-template}
 
