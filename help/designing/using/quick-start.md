@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Prise en main du Concepteur d'emails
+title: Prise en main du Concepteur d'email
 description: Commencez à créer du contenu d'email avec le Concepteur d'email.
 audience: designing
 content-type: reference
@@ -11,13 +11,13 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '935'
 ht-degree: 100%
 
 ---
 
-# Prise en main du concepteur d&#39;e-mails {#quick-start}
+# Prise en main du Concepteur d&#39;e-mail {#quick-start}
 
 Le Concepteur d&#39;email propose quatre méthodes pour créer des emails.
 
