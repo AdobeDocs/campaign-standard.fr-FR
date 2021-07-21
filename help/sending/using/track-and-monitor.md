@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Un
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
-Pour contrôler vos campagnes, vous devez vérifier que le message a bien été délivré à vos destinataires.
+Pour contrôler vos campagnes, vous devez vérifier que le message a bien été diffusé à vos destinataires.
 
 **Conseils**
 
