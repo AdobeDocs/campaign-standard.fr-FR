@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1734'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
 1. Cliquez sur **[!UICONTROL Créer]**. Vous pouvez maintenant créer des demandes d&#39;accès à des informations personnelles basées sur votre nouvel espace de noms. Si vous utilisez plusieurs espaces de noms, vous devez créer une demande d&#39;accès à des informations personnelles par espace de noms.
 
-### Création d’une demande d’accès à des informations personnelles {#create-privacy-request}
+### Création d&#39;une demande d&#39;accès à des informations personnelles {#create-privacy-request}
 
 >[!IMPORTANT]
 >
@@ -189,7 +189,7 @@ Un consommateur décide, par l&#39;intermédiaire de votre système, qu&#39;il n
 >
 >En tant que contrôleur de données, il vous incombe de recevoir la demande du titulaire de données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
 
-### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
+### Prérequis  pour les tables personnalisées {#ccpa-prerequisite}
 
 À compter de la version 19.4, le champ **[!UICONTROL Option d&#39;Opt-out du CCPA]** est fourni dans l&#39;API et l&#39;interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
