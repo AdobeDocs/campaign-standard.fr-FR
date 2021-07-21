@@ -11,7 +11,7 @@ role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Vous pouvez importer les propriétés mobiles d’Adobe Launch dans Adobe Campai
 
 La section ci-dessous répertorie les questions courantes sur cette synchronisation.
 
-## J’ai créé une propriété dans [!DNL Launch] (non-administrateur ou entité organisationnelle ALL). Mon application est à l’état Ready to Configure dans Adobe Campaign, mais je ne peux pas l’ouvrir/la configurer. {#configuring-property}
+## J’ai créé une propriété dans [!DNL Launch] (non-administrateur ou entité organisationnelle ALL). Mon application est à l’état Prêt pour configuration dans Adobe Campaign, mais je ne peux pas l’ouvrir/la configurer. {#configuring-property}
 
 Seul l’administrateur de l’entité organisationnelle ALL peut configurer des applications mobiles dans Adobe Campaign Standard. Une fois l’application configurée, seuls les utilisateurs de l’entité organisationnelle affectée peuvent la modifier. Pour plus d’informations sur les entités organisationnelles, consultez cette [page](../../administration/using/organizational-units.md).
 
