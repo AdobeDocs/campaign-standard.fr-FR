@@ -11,17 +11,17 @@ role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '331'
 ht-degree: 100%
 
 ---
 
-# Éditer des profils{#editing-profiles}
+# Modifier des profils{#editing-profiles}
 
 ## Accès aux propriétés des profils {#accessing-profile-properties}
 
-Pour éditer un profil existant et consulter les données qui lui sont associées, ou pour le modifier, les étapes sont les suivantes :
+Pour modifier un profil existant et consulter les données qui lui sont associées, ou pour le modifier, les étapes sont les suivantes :
 
 1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la vignette **[!UICONTROL Profils clients]** ou l&#39;onglet **[!UICONTROL Profils]**.
 1. Sélectionnez un contact.
