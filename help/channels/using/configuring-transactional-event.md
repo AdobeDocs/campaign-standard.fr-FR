@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
 ht-degree: 100%
 
@@ -169,7 +169,7 @@ Pour accéder aux événements transactionnels déjà créés et les rechercher,
 
 La configuration d’un événement transactionnel peut varier en fonction du [type de message transactionnel](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) que vous souhaitez envoyer (événement ou profil) et du canal qui sera utilisé.
 
-Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir          [Créer un événement](#creating-an-event).
+Les sections suivantes détaillent quelle configuration spécifique devrait être définie en fonction du message transactionnel souhaité. Pour en savoir plus sur les étapes générales à suivre pour configurer un événement, voir           [Créer un événement](#creating-an-event).
 
 ### Messages transactionnels basés sur un événement. {#event-based-transactional-messages}
 
