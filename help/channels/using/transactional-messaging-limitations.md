@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Cette section répertorie les bonnes pratiques et limitations que vous devez con
 
 ## Autorisations {#permissions}
 
-Seuls les utilisateurs dotés du rôle [Administration](../../administration/using/users-management.md#functional-administrators) peuvent configurer des événements transactionnels et des messages transactionnels d’accès.
+Seuls les utilisateurs dotés du rôle [Administration](../../administration/using/users-management.md#functional-administrators) peuvent configurer des événements transactionnels et accéder aux messages transactionnels.
 
 ## Configuration et publication d’événement {#design-and-publication}
 
