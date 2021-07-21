@@ -11,7 +11,7 @@ feature: Optimisation de l’heure d’envoi
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
 ht-degree: 100%
 
