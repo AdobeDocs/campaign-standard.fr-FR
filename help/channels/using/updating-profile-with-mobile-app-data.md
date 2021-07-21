@@ -12,9 +12,9 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Suivez ensuite les étapes ci-dessous pour configurer chaque activité.
 
 ### Configurez l&#39;activité **[!UICONTROL Planificateur]**
 
-Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréquence d&#39;exécution]** (par exemple, &quot;Quotidienne&quot;), l&#39;**[!UICONTROL Heure]** (par exemple, &quot;1:00:00 h&quot;) et le **[!UICONTROL Début]** (par exemple, la date du jour).
+Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréquence d&#39;exécution]** (par exemple, &quot;Quotidienne&quot;), l&#39;**[!UICONTROL Heure]**:00: (par exemple, &quot;13 h&quot;) et le **[!UICONTROL Début]** (par exemple, la date du jour).
 
 ![](assets/update_profile2.png)
 
