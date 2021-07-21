@@ -11,7 +11,7 @@ feature: Dans l'application
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
 ht-degree: 100%
 
