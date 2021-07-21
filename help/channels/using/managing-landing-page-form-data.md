@@ -12,9 +12,9 @@ role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ Dans le contenu de la landing page, les champs de saisie sont utilisés pour sto
 
 Pour cela, ces champs doivent être mappés aux champs de la base de données.
 
-Vous pouvez définir et gérer leur mappage à l’aide de la section **[!UICONTROL Données du formulaire]** de la palette de gauche.
+Vous pouvez définir et gérer leur mappage à l&#39;aide de la section **[!UICONTROL Données de formulaire]** de la palette de gauche.
 
 ![](assets/lp_form-data.png)
 
-## Association des champs de formulaire  {#mapping-form-fields}
+## Mappage des champs de formulaire  {#mapping-form-fields}
 
-Pour mettre à jour la base de données Campaign selon vos besoins, associez les champs de la base pertinents aux blocs de type zone de saisie, bouton radio ou case à cocher de votre landing page.
+Pour mettre à jour la base de données Campaign selon vos besoins, associez les champs pertinents de la base de données aux blocs de type zone de saisie, bouton radio ou case à cocher de votre landing page.
 
 Pour ce faire, procédez comme suit :
 
@@ -42,15 +42,15 @@ Pour ce faire, procédez comme suit :
 
 1. Accédez à la section **[!UICONTROL Données de formulaire]** de la palette de gauche.
 
-1. Pour modifier le type du champ, sélectionnez une valeur dans la liste déroulante **[!UICONTROL Type HTML du champ]** .
+1. Pour modifier le type de champ, sélectionnez une valeur dans la liste déroulante **[!UICONTROL Type HTML du champ]**.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur l’utilisation du type de case à cocher dans une landing page, reportez-vous aux sections [Mise à jour de plusieurs abonnements aux services](#multiple-subscriptions) et [Case à cocher Contrat](#agreement-checkbox) .
+   >Pour plus d&#39;informations sur l&#39;utilisation du type case à cocher dans une landing page, reportez-vous aux sections [Mise à jour de plusieurs abonnements aux services](#multiple-subscriptions) et [Case à cocher Accord](#agreement-checkbox).
 
-1. Si vous sélectionnez un type de champ non compatible avec le champ de base de données actuellement sélectionné dans la zone **[!UICONTROL Champ]** , un message d’avertissement s’affiche. Pour un mappage optimal, sélectionnez une valeur appropriée.
+1. Si vous sélectionnez un type de champ non compatible avec le champ de base de données actuellement sélectionné dans la zone **[!UICONTROL Champ]**, un message d&#39;avertissement s&#39;affiche. Pour un mappage optimal, sélectionnez une valeur appropriée.
 
    ![](assets/lp_field-type-warning.png)
 
@@ -60,9 +60,9 @@ Pour ce faire, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les landing pages peuvent uniquement être mappées avec les ressources **[!UICONTROL Profils]** ou **[!UICONTROL Service]**.
+   >Les landing pages peuvent uniquement être mappées aux ressources **[!UICONTROL Profils]** ou **[!UICONTROL Service]**.
 
-   Dans cet exemple, mappez le champ **Nom** de votre landing page avec le champ **[!UICONTROL Nom]** de la ressource **[!UICONTROL Profils]** .
+   Dans cet exemple, mappez le champ **Nom** de votre landing page au champ **[!UICONTROL Nom]** de la ressource **[!UICONTROL Profils]**.
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,9 +70,9 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/lp_mandatory-option.png)
 
-   Si un champ obligatoire n’est pas renseigné, un message d’erreur s’affiche lorsque l’utilisateur envoie la page.
+   Si un champ obligatoire n&#39;est pas renseigné, un message d&#39;erreur s&#39;affiche lorsque l&#39;utilisateur envoie la page.
 
-1. Cliquez sur **[!UICONTROL Confirmer]** pour enregistrer vos modifications.
+1. Cliquez sur **[!UICONTROL Confirmer]** pour sauvegarder vos changements.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -86,27 +86,27 @@ Pour cela :
 
    ![](assets/lp_parameters_job.png)
 
-1. Sélectionnez la **[!UICONTROL Clé de réconciliation]** : ce champ de base de données permet de déterminer si le visiteur possède un profil déjà connu dans la base de données Adobe Campaign. Il peut s’agir par exemple d’un email, d’un prénom ou d’un nom. La clé de réconciliation permet de mettre à jour ou créer un profil, en fonction du paramètre **[!UICONTROL Stratégie de mise à jour]** défini ci-dessous.
+1. Sélectionnez la **[!UICONTROL clé de réconciliation]** : ce champ de base de données permet de déterminer si le visiteur possède un profil déjà connu dans la base de données Adobe Campaign. Il peut s&#39;agir par exemple d&#39;une adresse email, d&#39;un prénom ou d&#39;un nom. La clé de réconciliation permet de mettre à jour ou de créer un profil, en fonction du paramètre **[!UICONTROL Stratégie de mise à jour]** défini ci-dessous.
 
 1. Définissez la **[!UICONTROL Correspondance des paramètres du formulaire]** : cette section permet de mettre en correspondance les paramètres des champs de la landing page et ceux utilisés dans la clé de réconciliation.
 
-1. Sélectionnez la **[!UICONTROL Stratégie de mise à jour]** : si la clé de réconciliation permet de récupérer un profil de base existant, vous pouvez choisir de mettre à jour ce profil avec les données saisies dans le formulaire, ou au contraire empêcher cette mise à jour.
+1. Sélectionnez la **[!UICONTROL Stratégie de mise à jour]** : si la clé de réconciliation permet de retrouver un profil existant en base, vous pouvez mettre à jour ce profil avec les données entrées dans le formulaire ou bien empêcher cette mise à jour.
 
    ![](assets/lp_parameters_update-strategy.png)
 
 ## Abonnements multiples à des services {#multiple-subscriptions}
 
-Vous pouvez utiliser plusieurs cases à cocher sur une seule page d’entrée pour permettre aux utilisateurs de s’abonner ou de se désabonner de plusieurs services.
+Vous pouvez utiliser plusieurs cases à cocher sur une seule landing page pour permettre aux utilisateurs de s&#39;abonner ou de se désabonner de plusieurs services.
 
 Pour ce faire, procédez comme suit :
 
-1. Lors de la conception de la landing page :
+1. Lors de la conception de la landing page :
 
-   * Sélectionnez un bloc et, dans la section **[!UICONTROL Données du formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
+   * Sélectionnez un bloc et, dans la section **[!UICONTROL Données de formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
       ![](assets/lp_show_source.png)
 
@@ -114,11 +114,11 @@ Pour ce faire, procédez comme suit :
 
       ![](assets/lp_manual-checkbox.png)
 
-1. Assurez-vous que la case est cochée dans votre contenu. La liste déroulante **[!UICONTROL Type]** s’affiche dans la section **[!UICONTROL Données du formulaire]** de la palette gauche. Sélectionnez **[!UICONTROL Service et abonnement]** dans la liste.
+1. Assurez-vous que la case est cochée dans votre contenu. La liste déroulante **[!UICONTROL Type]** correspondante est affichée dans la section **[!UICONTROL Données de formulaire]** de la palette de gauche. Sélectionnez **[!UICONTROL Service et abonnement]** dans la liste.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Choisissez une option dans la liste déroulante **[!UICONTROL Comportement]** .
+1. Choisissez une option dans la liste déroulante **[!UICONTROL Comportement]**.
 
    ![](assets/lp_checkbox-behavior.png)
 
@@ -126,15 +126,15 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/lp_checkbox-service.png)
 
-1. Assurez-vous que l’option **[!UICONTROL Obligatoire]** n’est pas cochée. Sinon, vos utilisateurs n’auront pas le choix.
+1. Assurez-vous que l&#39;option **[!UICONTROL Obligatoire]** n&#39;est pas cochée. Sinon, vos utilisateurs n&#39;auront pas le choix.
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. Pour ajouter d’autres cases à cocher permettant de s’abonner à d’autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
+1. Pour ajouter d&#39;autres cases à cocher permettant de s&#39;abonner à d&#39;autres services, répétez les étapes ci-dessus autant de fois que nécessaire.
 
    ![](assets/lp_multiple-checkboxes.png)
 
-Une fois la landing page publiée, les utilisateurs peuvent cocher plusieurs cases pour s’inscrire à plusieurs newsletters de la même page.
+Une fois la landing page publiée, les utilisateurs peuvent cocher plusieurs cases pour s&#39;inscrire à plusieurs newsletters de la même page.
 
 ## Case à cocher Accord {#agreement-checkbox}
 
@@ -148,13 +148,13 @@ Cela vous permet, par exemple, de demander le consentement des utilisateurs pour
 
 Pour insérer et configurer cette case à cocher, procédez comme suit :
 
-1. Lors de la conception de la landing page :
+1. Lors de la conception de la landing page :
 
-   * Sélectionnez un bloc et, dans la section **[!UICONTROL Données du formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
+   * Sélectionnez un bloc et, dans la section **[!UICONTROL Données de formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l’aide du bouton **[!UICONTROL Afficher la source]**.
+   * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
       ![](assets/lp_show_source.png)
 
@@ -166,7 +166,7 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
    ![](assets/lp_select_checkbox.png)
 
-1. La liste déroulante **[!UICONTROL Type]** s’affiche dans la section **[!UICONTROL Données du formulaire]** de la palette gauche. Sélectionnez **[!UICONTROL Accord]** dans la liste.
+1. La liste déroulante **[!UICONTROL Type]** correspondante est affichée dans la section **[!UICONTROL Données de formulaire]** de la palette de gauche. Sélectionnez **[!UICONTROL Accord]** dans la liste.
 
    ![](assets/lp_form_data_drop-down.png)
 
