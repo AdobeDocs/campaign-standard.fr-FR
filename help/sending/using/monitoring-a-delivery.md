@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports ](../../reporting/using/about-dynamic-reports.md)
 
-## Delivery logs {#delivery-logs}
+## Logs de diffusion {#delivery-logs}
 
 ### Envois {#sending-logs}
 
@@ -71,14 +71,14 @@ Tous les détails du log d’envoi sont en lecture seule. Vous pouvez également
 >
 >Pour afficher le rendu de la page miroir dans l’interface utilisateur de Campaign, l’URL du serveur de page miroir doit être sécurisée. Dans ce cas, utilisez https:// plutôt que http:// pour configurer cette URL lors de la [configuration de votre marque](../../administration/using/branding.md#configuring-and-using-brands).
 
-### Exclusion logs {#exclusion-logs}
+### Logs d&#39;exclusion {#exclusion-logs}
 
-L&#39;onglet **[!UICONTROL Exclus]** liste tous les messages qui ont été exclus de l&#39;envoi à la cible et indique la raison de l&#39;échec de l&#39;envoi.
+L’onglet **[!UICONTROL Logs d’exclusion]** liste tous les messages qui ont été exclus de l&#39;envoi à la cible et indique la raison de l&#39;échec de l&#39;envoi.
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes {#exclusion-causes}
+### Causes d&#39;exclusion {#exclusion-causes}
 
-L&#39;onglet **[!UICONTROL Exclusions appliquées]** indique le volume (en nombre de messages) des messages qui ont été exclus de l&#39;envoi à la cible.
+L&#39;onglet **[!UICONTROL Causes d&#39;exclusion]** indique le volume (en nombre de messages) des messages qui ont été exclus de l&#39;envoi à la cible.
 
 ![](assets/sending_delivery5.png)
