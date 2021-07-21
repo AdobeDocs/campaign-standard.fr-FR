@@ -12,7 +12,7 @@ role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1360'
 ht-degree: 100%
 
@@ -121,11 +121,11 @@ R : L’application mobile après la migration est visible depuis le menu avanc�
 
 R : L’application SDK Adobe Experience Platform nouvellement créée utilisée pour la migration n’existe pas en tant qu’application distincte. Seule l’application SDK v4 migrée est disponible.
 
-### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A (fille de l’entité organisationnelle TOUS) et que le SDK Adobe Experience Platform est défini sur TOUS, comment puis-je migrer mon application mobile ?  {#v4-org-unit}
+### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A (fille de l’entité organisationnelle TOUS) et que le SDK Adobe Experience Platform est défini sur TOUS, Comment puis-je migrer mon application mobile ?  {#v4-org-unit}
 
 R : Les administrateurs de l&#39;**[!UICONTROL entité organisationnelle]** TOUS disposent des droits pour gérer les deux applications mobiles et sont chargés de la migration.
 
-### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A et que l’application SDK Adobe Experience Platform est définie sur B (sœur de l’entité organisationnelle A), comment puis-je migrer mon application mobile ?  {#aep-org-unit}
+### Q : Si l’entité organisationnelle de l’application mobile SDK v4 est définie sur A et que l’application SDK Adobe Experience Platform est définie sur B (sœur de l’entité organisationnelle A), Comment puis-je migrer mon application mobile ?  {#aep-org-unit}
 
 R : L’application SDK Adobe Experience Platform étant la ressource d’une **[!UICONTROL entité organisationnelle]** sœur, l’application mobile n&#39;est pas visible pour les utilisateurs de l’**[!UICONTROL entité organisationnelle]** A. L’application mobile est disponible pour les administrateurs de l’**[!UICONTROL entité organisationnelle]** TOUS, mais nous ne recommandons pas à ces administrateurs de migrer l’application mobile.
 ans ce cas, vous devez déplacer vos applications mobiles vers la même **[!UICONTROL entité organisationnelle]** ou dans une **[!UICONTROL entité organisationnelle]** avec un lien parent.
