@@ -12,7 +12,7 @@ role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Un profil de test est un profil contenant des informations de contact fictives o
 
 Le profil de test est alors ajouté dans la liste des profils.
 
-## Editer un profil de test {#editing-test-profiles}
+## Modifier un profil de test {#editing-test-profiles}
 
 Pour éditer un profil de test et consulter les données qui lui sont associées, ou pour le modifier, les étapes sont les suivantes :
 
