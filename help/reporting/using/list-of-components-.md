@@ -10,10 +10,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1298'
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+workflow-type: tm+mt
+source-wordcount: '1272'
 ht-degree: 100%
 
 ---
@@ -384,10 +383,6 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
 
 ## Segments {#segments}
 
->[!NOTE]
->
->Par défaut, le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné pour filtrer vos rapports, mais il peut être modifié si nécessaire.
-
 Le tableau ci-dessous contient la liste des segments utilisés dans les différents rapports et leur définition.
 
 <table> 
@@ -461,10 +456,6 @@ Le tableau ci-dessous contient la liste des segments utilisés dans les différe
   <tr> 
    <td> Toutes les visites<br /> </td> 
    <td> Tous les destinataires<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Exclure le BAT<br /> </td> 
-   <td> Exclure les BAT de vos rapports<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
