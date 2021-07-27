@@ -10,9 +10,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
-workflow-type: ht
-source-wordcount: '302'
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Les composants vous permettent de personnaliser vos rapports grâce à différen
 
    * **Dimensions** : obtenez des détails issus du log de diffusion, tels que le navigateur du destinataire, son domaine, ou la réussite d’une diffusion.
    * **Mesures** : obtenez des détails sur le statut d&#39;un message. Par exemple, s&#39;il a été délivré et si l&#39;utilisateur l&#39;a ouvert.
-   * **[!UICONTROL Segments]** : filtrez les données selon la tranche d&#39;âge du destinataire. Les **[!UICONTROL Segments]** peuvent être placés directement dans un tableau Structure libre ou dans la barre supérieure du panneau. Par défaut, le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné, mais il peut être modifié si nécessaire.
+   * **[!UICONTROL Segments]** : filtrez les données selon la tranche d&#39;âge du destinataire. Les **[!UICONTROL Segments]** peuvent être placés directement dans un tableau Structure libre ou dans la barre supérieure du panneau.
 
       Cette catégorie est disponible uniquement lorsque l&#39;administrateur a accepté les conditions générales de l&#39;accord sur l&#39;utilisation des rapports dynamiques qui s&#39;affiche à l&#39;écran. Si l&#39;administrateur refuse les conditions générales de l&#39;accord, les segments ne sont pas visibles dans l&#39;onglet **[!UICONTROL Composants]** et les données ne sont pas collectées.
 
