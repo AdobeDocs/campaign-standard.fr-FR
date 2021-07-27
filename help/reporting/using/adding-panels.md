@@ -10,11 +10,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '392'
-ht-degree: 100%
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 95%
 
 ---
 
@@ -36,31 +35,31 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre          {#adding-a-freeform-table}
+## Ajouter un tableau Structure libre           {#adding-a-freeform-table}
 
 Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
 
 Les tableaux et les visualisations sont redimensionnables et peuvent être déplacés pour améliorer la personnalisation de votre rapport.
 
-1. Cliquez sur l’icône **Panneaux**.
+1. Cliquez sur l’icône **[!UICONTROL Panneaux]**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Placez l’élément **Structure libre** sur votre tableau de bord.
+1. Placez l’élément **[!UICONTROL Structure libre]** sur votre tableau de bord.
 
-   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **Insérer** et en sélectionnant **Nouvelle Forme Libre** ou en cliquant sur **Ajouter un panneau structure libre** dans un panneau vide.
+   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle Forme Libre]** ou en cliquant sur **[!UICONTROL Ajouter un panneau structure libre]** dans un panneau vide.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Le segment **[!UICONTROL Exclure le BAT]** est déjà sélectionné par défaut. Si nécessaire, vous pouvez la modifier en faisant glisser l&#39;un des **[!UICONTROL segments]** depuis l&#39;onglet **[!UICONTROL Composants]** vers la barre supérieure.
+1. Dans le champ **[!UICONTROL Déposer un segment ici]** , ajoutez un **[!UICONTROL Segment]** de l’onglet **[!UICONTROL Composants]** dans la barre supérieure.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Positionnez des éléments de l’onglet **Composants** dans les colonnes et les rangées pour créer votre tableau.
+1. Positionnez des éléments de l’onglet **[!UICONTROL Composants]** dans les colonnes et les rangées pour créer votre tableau.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Cliquez sur l’icône **Paramètres** pour modifier l’affichage des données dans vos colonnes.
+1. Cliquez sur l’icône **[!UICONTROL Paramètres]** pour modifier l’affichage des données dans vos colonnes.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -72,7 +71,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
    * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
    * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Bounces + erreurs]**.
 
-1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **Visualiser.** Une visualisation représentant les rangées sélectionnées est ajoutée.
+1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation représentant les rangées sélectionnées est ajoutée.
 
    ![](assets/dynamic_report_freeform_5.png)
 
