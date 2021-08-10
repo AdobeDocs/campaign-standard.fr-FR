@@ -11,15 +11,15 @@ role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
 source-git-commit: 8062995481a889d8865267e6134efa74648753f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Ajouter des panneaux{#adding-panels}
 
-## Ajouter un panneau vide {#adding-a-blank-panel}
+## Ajouter un panneau vierge {#adding-a-blank-panel}
 
 Pour commencer votre rapport, vous pouvez ajouter un ensemble de panneaux à un rapport d&#39;usine ou personnalisé. Chaque panneau contient différents jeux de données et est composé de visualisations et de tableaux Structure libre.
 
@@ -51,7 +51,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Dans le champ **[!UICONTROL Déposer un segment ici]** , ajoutez un **[!UICONTROL Segment]** de l’onglet **[!UICONTROL Composants]** dans la barre supérieure.
+1. Dans le champ **[!UICONTROL Déposer un segment ici]**, ajoutez un **[!UICONTROL segment]** de l’onglet **[!UICONTROL Composants]** dans la barre supérieure.
 
    ![](assets/dynamic_report_panel_3.png)
 
