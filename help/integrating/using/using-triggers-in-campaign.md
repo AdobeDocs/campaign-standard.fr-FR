@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Utilisation de Triggers dans Campaign
+description: Créez un événement déclencheur dans Adobe Campaign en fonction d’un déclencheur Adobe Experience Cloud existant.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,10 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -76,13 +77,13 @@ Après avoir créé un événement déclencheur dans Adobe Campaign en fonction
 
 1. Cliquer sur le bouton **[!UICONTROL Afficher le déclencheur dans Experience Cloud]** permet d’afficher la définition du déclencheur dans Adobe Experience Cloud.
 
-Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d’être créé. Voir à ce propos la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
+Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d’être créé. Pour plus d&#39;informations, consultez la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
 ## Édition du modèle de message transactionnel         {#editing-the-transactional-message-template}
 
 Une fois que vous avez créé et publié l’événement déclencheur, le modèle transactionnel correspondant est automatiquement créé. Consultez la section [Création d’un déclencheur mappé dans Campaign](#creating-a-mapped-trigger-in-campaign) pour en savoir plus.
 
-Pour que l’événement entraîne l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Voir à ce propos la section [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md).
+Pour que l’événement entraîne l’envoi d’un message transactionnel, vous devez personnaliser ce modèle, le tester et le publier. Ces étapes sont les mêmes que pour un message transactionnel standard. Pour plus d&#39;informations, consultez la section [Modifier un message transactionnel](../../channels/using/editing-transactional-message.md).
 
 >[!NOTE]
 >
