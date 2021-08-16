@@ -2,22 +2,22 @@
 solution: Campaign Standard
 product: campaign
 title: '« Étape 2 : Publier l’extension »'
+description: Découvrez comment publier l’extension en Campaign Standard. Partie 2 d’une série.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
-feature: Data Model
+feature: Modèle de données
 role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 89%
 
 ---
 
-# Etape 2 : Publier l&#39;extension{#step-publish-the-extension}
+# Étape 2 : publier l&#39;extension{#step-publish-the-extension}
 
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Publication]** dans le menu avancé (via le logo Adobe Campaign).
 1. Cliquez sur le bouton **[!UICONTROL Préparer la publication]**.
