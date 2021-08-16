@@ -2,17 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Mises à jour et opérations de maintenance
+description: Informations sur les opérations de mise à jour et de maintenance du serveur Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramétres de l’instance
+feature: Paramétres de l'instance
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 93%
 
 ---
 
