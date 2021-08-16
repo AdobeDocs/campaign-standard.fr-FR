@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: API externe
+description: L’activité API externe récupère des données dans le workflow du Campaign Standard à partir d’un système externe via un appel API HTTP.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,11 +11,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '2197'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '2217'
+ht-degree: 99%
 
 ---
 
@@ -68,7 +68,7 @@ Des barrières de sécurité spécifiques ont été mises en place :
 >
 >L’activité d’API externe a pour objectif de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez l’activité pour commencer la configuration.
 
@@ -238,10 +238,10 @@ Ces messages de log sont utilisés pour consigner des informations sur des condi
    <p> Remarque : cette erreur est consignée lorsque l’URL d’API échoue aux règles de validation.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’%s’).</td> 
-   <td> <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’localhost’).</p>
-    <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’192.168.0.5’).</p>
-    <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’[2001]’).</p></td>
+   <td> WKF-560244 - L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’%s’).</td> 
+   <td> <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’localhost’).</p>
+    <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’192.168.0.5’).</p>
+    <p>L’hôte d’URL de l’API ne doit pas être ’localhost’ ni un littéral d’adresse IP (hôte d’URL : ’[2001]’).</p></td>
   </tr> 
   <tr> 
    <td> WKF-560238 - L’URL d’API doit être une URL (https) sécurisée (URL demandée : ’%s’).</td> 
