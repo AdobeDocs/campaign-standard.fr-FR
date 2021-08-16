@@ -2,17 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: Conservation des données
+description: Les tables de logs d'usine dans Campaign possèdent des périodes de conservation prédéfinies, limitant généralement leur stockage de données à 6 moins ou moins. Découvrez les valeurs de rétention par défaut pour les tables standard.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramètres de l’instance
+feature: Paramétres de l'instance
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 94%
 
 ---
 
@@ -25,11 +26,11 @@ Vous trouverez ci-dessous les valeurs de conservation par défaut pour les table
 * **Tracking consolidé** : 6 mois
 * **Logs de diffusion** : 6 mois
 * **Logs de tracking** : 6 mois
-* **Evénements** : 1 mois
+* **Événements** : 1 mois
 * **Statistiques du traitement des événements** : 6 mois
-* **Evénements historisés** : 6 mois
+* **Événements historisés** : 6 mois
 * **Entités temporaires** : 7 jours
-* **Evénements Pipeline ignorés** : 1 mois
+* **Événements Pipeline ignorés** : 1 mois
 * **Alertes de diffusion** : 1 mois
 * **Audits des exports** : 6 mois
 
