@@ -10,10 +10,10 @@ feature: Vue d'ensemble
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Les mises à niveau sont déployées en deux phases. En premier lieu, les instan
 
 Toutes les dates de publication peuvent faire l&#39;objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-## Version 21.3 - Juin 2021 {#release-21-3-release}
+## Version 21.3 - Version de septembre 2021 {#release-21-3-release}
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](../../rn/using/release-notes.md).
+Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour initiales](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
@@ -54,8 +54,6 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
 
 Pour toute question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
-Abonnez-vous aux [notifications de mises à jour de Campaign Standard](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) pour obtenir des informations sur les prochaines versions directement dans votre boîte de réception.
-
 ## Questions et réponses {#questions-and-answers}
 
 **Q : Quel est l&#39;impact ?**
@@ -64,7 +62,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L&#39;instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -86,4 +84,4 @@ R : Oui. Il ne sera pas possible d&#39;envoyer de nouveaux emails pendant la mi
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s&#39;affiche avec la dernière version.
 
-Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
