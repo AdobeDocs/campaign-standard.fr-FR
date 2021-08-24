@@ -5,14 +5,12 @@ title: Prise en main des sources et des destinations
 description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources et destinations
 role: Data Architect
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '310'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
@@ -29,7 +27,7 @@ Adobe Experience Platform permet de partager des données entre Campaign Standar
 
 >[!IMPORTANT]
 >
->Lorsque vous effectuez cette intégration, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs selon votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l&#39;esprit les limites du stockage SFTP, les limites du stockage en base de données, et les limites des profils actifs en fonction de votre contrat Adobe Campaign.
 
 Pour un aperçu plus détaillé d’Adobe Real-time Customer Data Platform, des destinations et des sources, consultez les pages suivantes :
 
@@ -48,4 +46,4 @@ Une fois les connecteurs configurés, vous pouvez configurer un import ou un exp
 Pour plus d’informations sur la configuration de ces processus d’import et d’export, reportez-vous aux sections suivantes :
 
 * [Ingérer des audiences Adobe Experience Platform dans Campaign](../../integrating/using/ingest-aep-data.md)
-* [Export de données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Exporter des données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
