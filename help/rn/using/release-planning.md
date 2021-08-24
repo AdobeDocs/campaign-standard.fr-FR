@@ -10,7 +10,7 @@ feature: Vue d'ensemble
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -31,7 +31,7 @@ Toutes les dates de publication peuvent faire l&#39;objet de modifications. Nous
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour initiales](../../rn/using/e-release-notes.md).
+Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour initiales](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
