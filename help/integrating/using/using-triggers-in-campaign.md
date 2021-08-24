@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Utilisation de Triggers dans Campaign
-description: Créez un événement déclencheur dans Adobe Campaign en fonction d’un déclencheur Adobe Experience Cloud existant.
+description: Créez un événement Trigger dans Adobe Campaign, basé sur un Trigger Adobe Experience Cloud existant.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -11,15 +11,15 @@ role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Utilisation de Triggers dans Campaign{#using-triggers-in-campaign}
 
-## Création d’un déclencheur mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
+## Création d&#39;un Trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Les étapes de mise en œuvre sont les suivantes :
 
 1. Vous pouvez maintenant publier vos déclencheurs. Pour plus d’informations à ce sujet, voir [Publication d’un déclencheur dans Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
-## Publication d’un déclencheur dans Campaign {#publishing-trigger-in-campaign}
+## Publication d&#39;un Trigger dans Campaign {#publishing-trigger-in-campaign}
 
 Après avoir créé un événement déclencheur dans Adobe Campaign en fonction d’un déclencheur Adobe Experience Cloud existant, vous devez le publier.
 
