@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Test de vos déclencheurs
-description: Découvrez des conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign.
+title: Test de vos Triggers
+description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -11,13 +11,13 @@ role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '471'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Test de vos déclencheurs{#testing-your-triggers}
+# Test de vos Triggers{#testing-your-triggers}
 
 Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
 
