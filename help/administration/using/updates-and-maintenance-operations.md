@@ -6,14 +6,14 @@ description: Informations sur les opérations de mise à jour et de maintenance 
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramétres de l'instance
+feature: Paramètres de l'instance
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
