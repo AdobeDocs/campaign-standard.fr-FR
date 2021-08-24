@@ -5,14 +5,12 @@ title: Exporter des données de Campaign vers Adobe Experience Platform
 description: Découvrez comment exporter des données de Campaign Standard vers Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources et destinations
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: ht
-source-git-commit: 4855585539653a0bb496d210b001765b5b557570
-workflow-type: ht
-source-wordcount: '534'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '531'
 ht-degree: 100%
 
 ---
@@ -50,7 +48,7 @@ Des exemples de workflows de gestion des données sont disponibles dans la secti
 Rubriques connexes :
 
 * [Activités de Data Management](../../automating/using/about-data-management-activities.md)
-* [A propos de l’import et de l’export de données](../../automating/using/about-data-import-and-export.md)
+* [À propos de l&#39;import et de l&#39;export de données](../../automating/using/about-data-import-and-export.md)
 
 
 ## Connecter votre emplacement de stockage en tant que source
@@ -64,7 +62,7 @@ Les étapes principales pour connecter votre service de stockage Amazon (S3) ou 
 
    >[!NOTE]
    >
-   >L’emplacement de stockage peut être Amazon S3, SFTP avec mot de passe, SFTP avec clé SSH ou des connexions Azure Blob. La méthode préférée pour envoyer des données vers Adobe Campaign est via Amazon S3 ou Azure Blob :
+   >L&#39;emplacement de l&#39;enregistrement peut être Amazon S3, SFTP avec mot de passe, SFTP avec clé SSH ou des connexions Azure Blob. La méthode préférée pour envoyer des données vers Adobe Campaign est via Amazon S3 ou Azure Blob :
 
    ![](assets/rtcdp-connector.png)
 
