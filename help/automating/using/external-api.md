@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: API externe
-description: L’activité API externe récupère des données dans le workflow du Campaign Standard à partir d’un système externe via un appel API HTTP.
+description: L'activité API externe récupère des données dans le workflow Campaign Standard d'un système externe via un appel API HTTP.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -12,9 +12,9 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2217'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ Des barrières de sécurité spécifiques ont été mises en place :
 
 >[!CAUTION]
 >
->L’activité d’API externe a pour objectif de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique requiert cela, la recommandation consiste à utiliser l’activité [Transfert de fichier](../../automating/using/transfer-file.md).
+>L’activité d’API externe a pour objectif de récupérer les données de l’ensemble de la campagne (dernier ensemble d’offres, derniers scores, etc.), et non de récupérer des informations spécifiques pour chaque profil, car cela peut entraîner le transfert de grandes quantités de données. Si le cas pratique le requiert, la recommandation consiste à utiliser l&#39;activité [Transfert de fichier](../../automating/using/transfer-file.md).
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 Placez une activité **[!UICONTROL API externe]** dans votre workflow et ouvrez l’activité pour commencer la configuration.
 
