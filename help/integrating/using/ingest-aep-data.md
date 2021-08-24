@@ -5,14 +5,12 @@ title: Ingérer des audiences Adobe Experience Platform dans Campaign
 description: Découvrez comment ingérer des audiences Adobe Experience Platform dans Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Sources et destinations
 role: Data Architect
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-translation-type: ht
-source-git-commit: 27cbb2f8a202b3361122fdadfcfe8d0820aa3cb3
-workflow-type: ht
-source-wordcount: '331'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '328'
 ht-degree: 100%
 
 ---
@@ -52,4 +50,4 @@ Des exemples de workflows de gestion des données sont disponibles dans la secti
 Rubriques connexes :
 
 * [Activités de Data Management](../../automating/using/about-data-management-activities.md)
-* [A propos de l’import et de l’export de données](../../automating/using/about-data-import-and-export.md)
+* [À propos de l&#39;import et de l&#39;export de données](../../automating/using/about-data-import-and-export.md)
