@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: '« Étape 2 : Publier l’extension »'
-description: Découvrez comment publier l’extension en Campaign Standard. Partie 2 d’une série.
+title: '"Étape 2 : Publier l''extension"'
+description: Découvrez comment publier l'extension dans Campaign Standard. Partie 2 d'une série.
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -11,9 +11,9 @@ role: Developer
 level: Experienced
 exl-id: e3bebded-764c-4d2e-9580-c413f1576a2c
 source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
