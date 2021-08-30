@@ -6,14 +6,14 @@ description: Cette page répertorie toutes les versions à venir d'Adobe Campa
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Vue d'ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Les mises à niveau sont déployées en deux phases. En premier lieu, les instan
 
 Toutes les dates de publication peuvent faire l&#39;objet de modifications. Nous vous recommandons de consulter régulièrement cette page pour vérifier la présence de mises à jour.
 
-## Version 21.3 - Version de septembre 2021 {#release-21-3-release}
+## Version 21.3 - Version de septembre 2021 {#release-21-3-release}
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour initiales](../../rn/using/early-release-notes.md).
+Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour initiales](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
