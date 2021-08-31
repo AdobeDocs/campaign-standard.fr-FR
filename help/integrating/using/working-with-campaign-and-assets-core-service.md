@@ -6,22 +6,18 @@ description: Grâce à l'intégration d'Assets Core service, utilisez les ressou
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Intégration de People Core Service
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
-workflow-type: ht
-source-wordcount: '198'
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
 
 # Utilisation de Campaign et Assets core service{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Experience Cloud Assets est désormais désactivé. Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Standard.
 
 L&#39;intégration d&#39;Assets core service ou d&#39;Assets On Demand (en fonction de la configuration de votre environnement Adobe Experience Cloud) avec Adobe Campaign permet d&#39;utiliser des ressources partagées depuis Adobe Experience Cloud dans vos e-mails et landing pages Adobe Campaign.
 

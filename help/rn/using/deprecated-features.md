@@ -6,13 +6,13 @@ description: Cette page répertorie les fonctionnalités obsolètes et supprimé
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Vue d'ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '773'
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+workflow-type: tm+mt
+source-wordcount: '727'
 ht-degree: 100%
 
 ---
@@ -39,22 +39,6 @@ Cette section répertorie les fonctions et fonctionnalités qui ont été désig
 En règle générale, les fonctionnalités qui doivent être supprimées dans une version ultérieure sont définies comme étant obsolètes dans un premier temps et une solution de remplacement est fournie. Ces fonctions et fonctionnalités ne sont plus disponibles pour les nouveaux clients de Campaign Standard ou ne doivent pas être utilisées dans le cadre d&#39;une nouvelle implémentation. Elles sont également supprimées de la documentation du produit.
 
 Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d&#39;envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression prévue pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Intégration d'Experience Cloud Assets</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> À partir de juillet 2021, Assets est désormais un ancien service principal, encore actif. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=fr">En savoir plus</a>.</p>
-   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer Experience Cloud Assets à Adobe Campaign Standard.</p>
-     <em>Date de suppression prévue : 2022</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
