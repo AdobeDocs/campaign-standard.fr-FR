@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 47%
@@ -41,7 +41,7 @@ La mise en quarantaine et la liste bloquée ne s’appliquent pas au même objet
 
 * **** La mise en quarantaine s&#39;applique uniquement à une  **adresse**  (ou un numéro de téléphone, etc.), et non au profil lui-même. Par exemple, un profil dont l&#39;adresse email est en quarantaine peut mettre à jour son profil et saisir une nouvelle adresse, puis être à nouveau ciblé par des actions de diffusion. De même, si deux profils ont le même numéro de téléphone, ils seront tous deux affectés si le numéro est mis en quarantaine.
 
-   Les adresses ou numéros de téléphone mis en quarantaine sont affichés dans les [logs d&#39;exclusion](identifying-quarantined-addresses-for-a-delivery) (pour une diffusion) ou dans la [liste de quarantaine](#identifying-quarantined-addresses-for-the-entire-platform) (pour l&#39;ensemble de la plateforme).
+   Les adresses ou numéros de téléphone mis en quarantaine sont affichés dans les [logs d&#39;exclusion](#identifying-quarantined-addresses-for-a-delivery) (pour une diffusion) ou dans la [liste de quarantaine](#identifying-quarantined-addresses-for-the-entire-platform) (pour l&#39;ensemble de la plateforme).
 
 * En revanche, en cas d’activation de la **liste bloquée**, le **profil** ne sera plus ciblé par la diffusion, par exemple après une désinscription (opt-out), pour un canal donné. Par exemple, si un profil de la liste bloquée pour le canal email comporte deux adresses email, les deux adresses seront exclues de la diffusion. Pour plus d’informations sur le processus de liste bloquée, voir la section [À propos des processus d’opt-in et d’opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
