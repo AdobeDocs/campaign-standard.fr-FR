@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '683'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '680'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
@@ -137,7 +137,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]**, qui s’exécute tous les jou
 
 Lorsqu’un message transactionnel a été dépublié ou qu’il n’a pas encore été publié, vous pouvez le supprimer de la liste des messages transactionnels. Pour cela :
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Diffusions]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Diffusions]**.
 1. Passez la souris sur le message de votre choix.
 1. Cliquez sur le bouton **[!UICONTROL Supprimer l’élément]**.
 

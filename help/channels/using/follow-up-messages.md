@@ -6,13 +6,13 @@ description: Découvrez comment créer, gérer et envoyer un message de relance.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '818'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '815'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Pour gérer un événement dans un workflow, un modèle de diffusion est nécess
 
 Pour accéder à ce modèle :
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche.
+1. Cliquez sur le logo **Adobe **, en haut à gauche.
 1. Sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Cochez la case **[!UICONTROL Messages de relance]** dans le volet de gauche.
 

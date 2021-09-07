@@ -10,10 +10,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 81%
 
 ---
 
@@ -29,6 +29,6 @@ Les profils exclus sont automatiquement exclus pendant l&#39;analyse des diffusi
 
 >[!NOTE]
 >
->L’opt-out s&#39;applique aux **Profils**, contrairement à la quarantaine qui est liée à une **adresse email** ou un **numéro de téléphone**. Si un profil est exclu, toutes les adresses qui y sont liées sont donc exclues des diffusions. Si un utilisateur possède deux profils dans la base de données, il sera toujours ciblé par les diffusions, car seul un de ses profils est exclu. Pour s&#39;assurer que toutes ses adresses sont exclues, ajoutez-les aux adresses mises en quarantaine. Voir à ce propos [cette page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>L’opt-out s&#39;applique aux **Profils**, contrairement à la quarantaine qui est liée à une **adresse email** ou un **numéro de téléphone**. Si un profil est exclu, toutes les adresses qui y sont liées sont donc exclues des diffusions. Cependant, si un utilisateur possède deux profils dans la base de données, il sera toujours ciblé par les diffusions, car seul un de ses profils est exclu. Pour vous assurer que toutes ses adresses sont exclues, ajoutez-les aux adresses mises en quarantaine. Voir à ce propos [cette page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
 
 Pour plus d&#39;informations sur les abonnements aux services, consultez [cette page](../../audiences/using/about-subscriptions.md).

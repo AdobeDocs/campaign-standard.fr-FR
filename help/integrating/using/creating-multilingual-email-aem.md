@@ -10,15 +10,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
-# Création d’un email multilingue avec l’intégration d’Adobe Experience Manager {#creating-multilingual-email-aem}
+# Création d&#39;un e-mail multilingue avec l&#39;intégration d&#39;Adobe Experience Manager {#creating-multilingual-email-aem}
 
 Grâce à ce document, vous allez découvrir comment créer un email multilingue à l&#39;aide d&#39;Adobe Experience Manager et des copies de langue.
 
@@ -127,5 +126,9 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 1. Si votre contenu ou vos variantes sont mis à jour dans Adobe Experience Manager, vous pouvez directement les synchroniser dans Adobe Campaign Standard avec le bouton **[!UICONTROL Actualiser les contenus AEM]**.
 
 1. Votre email est désormais prêt à être envoyé. Pour plus d’informations à ce propos, consultez cette [page](../../sending/using/get-started-sending-messages.md).
+
+   >[!NOTE]
+   >
+   >Vous ne pourrez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu AEM qui n’a pas été approuvé.
 
 Votre audience recevra votre email selon les **[!UICONTROL Préférences linguistiques]** définies dans leurs **[!UICONTROL Profils]**. Pour en savoir plus sur la modification des profils et des préférences linguistiques, consultez cette [page](../../audiences/using/editing-profiles.md).

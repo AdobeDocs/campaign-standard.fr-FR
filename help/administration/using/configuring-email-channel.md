@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2819'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '2816'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,13 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
-   * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’Assistance clientèle d’Adobe.
-   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’Assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
+   * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
+   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
    * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
 
-   L’**[!UICONTROL identifiant pour les rapports de délivrabilité]** est fourni par l’Assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
+   L’**[!UICONTROL identifiant pour les rapports de délivrabilité]** est fourni par l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
    <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Paramètres de la diffusion**
@@ -131,7 +131,7 @@ Cette section décrit la liste des paramètres disponibles dans l’écran des p
 
 >[!NOTE]
 >
->Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos permissions](../../administration/using/users-management.md).
+>Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos autorisations](../../administration/using/users-management.md).
 
 Pour éditer les propriétés d’un email ou d’un modèle d’email, utilisez le bouton **[!UICONTROL Editer les propriétés]**.
 
@@ -236,7 +236,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
-* **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [A propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d’activation du tracking sur les URL.
 * **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
 
@@ -276,7 +276,7 @@ La préparation des messages est présentée dans la section [Valider les messag
 
 * **[!UICONTROL Calculer le libellé lors de la préparation de la diffusion]** : permet de calculer la valeur du libellé de l’email pendant la phase de préparation du message à l’aide des champs de personnalisation, des blocs de contenu et du texte dynamique.
 
-   Il est également possible de personnaliser le libellé de la diffusion avec les variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Voir à ce propos [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+   Il est également possible de personnaliser le libellé de la diffusion avec les variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Pour plus d’informations, consultez [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : cette option permet d’ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
 
@@ -332,7 +332,7 @@ Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTR
 
 ### Qualification des emails bounce   {#legacy-bounce-mail-qualification}
 
-Pour répertorier les différents bounces et les types d&#39;erreur et raisons associés, cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+Pour répertorier les différents bounces et les types d&#39;erreur et raisons associés, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
 Les statuts de qualification des bounces sont les suivants :
 

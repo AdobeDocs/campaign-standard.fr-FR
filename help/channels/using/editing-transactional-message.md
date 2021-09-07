@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '679'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Une fois votre message prêt, il peut être testé et publié. Voir [Test d&#39;
 
 Pour accéder au message transactionnel que vous avez créé :
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche.
+1. Cliquez sur le logo **Adobe **, en haut à gauche.
 1. Sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
 
    ![](assets/message-center_4.png)
@@ -89,7 +89,7 @@ Par exemple, vous souhaitez envoyer une notification aux utilisateurs de votre s
 
    ![](assets/message-center_9.png)
 
-   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Voir à ce propos la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   Vous constatez que les champs de personnalisation correspondent bien aux informations saisies dans le profil de test. Pour plus d&#39;informations, consultez la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 <!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -236,7 +236,7 @@ Les différences sont énumérées ci-dessous.
 
 1. De plus, contrairement aux configurations basées sur des événements temps réel, vous disposez d’un **accès direct à toutes les informations de profil** pour personnaliser votre message. Vous pouvez ajouter des [champs de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field) comme vous le feriez pour tout autre email marketing standard.
 
-1. Enregistrez vos modifications avant de publier le message. Voir à ce propos la section [Publication d’un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Enregistrez vos modifications avant de publier le message. Pour plus d&#39;informations, consultez la section [Publication d’un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 

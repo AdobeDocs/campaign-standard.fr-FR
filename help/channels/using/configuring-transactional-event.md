@@ -7,13 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1749'
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+workflow-type: tm+mt
+source-wordcount: '1745'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord
 >
 >Seuls les [Administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->disposent des droits adéquats pour créer et modifier des configurations d’événement.
 
-La configuration varie en fonction du [type de message transactionnel](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) que vous souhaitez envoyer et du canal qui sera utilisé. Voir à ce propos la section [Configurations spécifiques](#transactional-event-specific-configurations).
+La configuration varie en fonction du [type de message transactionnel](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) que vous souhaitez envoyer et du canal qui sera utilisé. Pour plus d&#39;informations, consultez la section [Configurations spécifiques](#transactional-event-specific-configurations).
 
 Une fois la configuration terminée, l’événement doit être publié. Voir [Publication d’un événement transactionnel](../../channels/using/publishing-transactional-event.md).
 
@@ -34,7 +34,7 @@ Une fois la configuration terminée, l’événement doit être publié. Voir [P
 
 Pour commencer, créez l’événement correspondant à vos besoins.
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Saisissez un **[!UICONTROL Libellél]** et un **[!UICONTROL Identifiant]** pour l’événement. Le champ **[!UICONTROL Identifiant]** est obligatoire et doit commencer par le préfixe &quot;EVT&quot;. Si vous n’utilisez pas ce préfixe, il est automatiquement ajouté lorsque vous cliquez sur **[!UICONTROL Créer]**.
 
@@ -48,11 +48,11 @@ Pour commencer, créez l’événement correspondant à vos besoins.
 
 1. Sélectionnez la dimension de ciblage qui correspond à la configuration de l’événement souhaitée et cliquez sur **[!UICONTROL Créer]**.
 
-   Les messages transactionnels basés sur un événement ciblent des données contenues dans l’événement lui-même, alors que les messages transactionnels basés sur un profil ciblent des données contenues dans la base de données Adobe Campaign. Voir à ce propos la section [Configurations spécifiques](#transactional-event-specific-configurations).
+   Les messages transactionnels basés sur un événement ciblent des données contenues dans l’événement lui-même, alors que les messages transactionnels basés sur un profil ciblent des données contenues dans la base de données Adobe Campaign. Pour plus d&#39;informations, consultez la section [Configurations spécifiques](#transactional-event-specific-configurations).
 
 >[!NOTE]
 >
->Le nombre d’événements transactionnels peut avoir un impact sur votre plateforme. Pour des performances optimales, veillez à supprimer les événements inutilisés. Voir la section [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Le nombre d’événements transactionnels peut avoir un impact sur votre plateforme. Pour des performances optimales, veillez à supprimer les événements inutilisés. Pour plus d&#39;informations, consultez la section [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Définir les attributs d’événement        {#defining-the-event-attributes}
 
@@ -151,7 +151,7 @@ Une fois l’événement et le message publiés, le lien permettra d’enrichir 
 
 Pour accéder aux événements transactionnels déjà créés et les rechercher, procédez comme suit.
 
-1. Cliquez sur le logo **[!UICONTROL Adobe Campaign]**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**.
 1. Cliquez sur le bouton **[!UICONTROL Afficher la recherche]**.
 
    ![](assets/message-center_search-events.png)

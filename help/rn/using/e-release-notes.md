@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Dernière version
-description: Cette page détaille le contenu de la dernière version de Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Notes de mise à jour initiales
+description: Notes de mise à jour initiales
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
+# Notes de mise à jour initiales {#new-release}
 
-# Dernière version{#latest-release}
+Cette page décrit les nouvelles fonctionnalités, les améliorations et les correctifs inclus dans la prochaine version de Campaign Standard.
+
+>[!CAUTION]
+>
+> Ce contenu est sujet à des modifications sans préavis jusqu&#39;à la date de mise à niveau des environnements d&#39;évaluation. Pour en savoir plus, consultez la [page du calendrier des versions](../../rn/using/release-planning.md).
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---sept-2021}
-
-Les nouvelles fonctionnalités, améliorations et correctifs inclus dans la dernière version de Campaign Standard sont répertoriés ci-dessous.
 
 **Nouveautés**
 
@@ -98,7 +100,7 @@ Les nouvelles fonctionnalités, améliorations et correctifs inclus dans la dern
 
 * Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
 * La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
-* Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche les utilisateurs de créer des index en double, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire.
+* Ajout d’une vérification de cohérence lors de la création d’index dans les ressources personnalisées et amélioration des messages d’erreur.
 
 **Autres changements**
 

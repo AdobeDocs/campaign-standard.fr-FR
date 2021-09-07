@@ -6,14 +6,14 @@ description: Découvrez comment personnaliser un email dans le Concepteur d'emai
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2717'
-ht-degree: 100%
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
+workflow-type: tm+mt
+source-wordcount: '2725'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent 
 
 ## Personnaliser l&#39;expéditeur {#personalizing-the-sender}
 
-Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil). Voir à ce sujet [Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
+Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil). Pour plus d’informations, consultez [Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
 
 Vous pouvez changer le nom de l’expéditeur en cliquant sur le bloc **Nom de l’expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
@@ -53,7 +53,9 @@ Adobe Campaign vous permet de personnaliser une ou plusieurs URL dans votre mess
 
 >[!NOTE]
 >
->La personnalisation des URL ne peut se faire ni sur le nom de domaine, ni sur l&#39;extension. Un message d&#39;erreur s&#39;affiche lors de l&#39;analyse du message si la personnalisation n&#39;est pas correcte. Lorsque vous sélectionnez un bloc de contenu, vous n&#39;êtes pas autorisé à sélectionner des éléments comme **Lien vers la page miroir**. Ce type de bloc est interdit dans un lien.
+>Lorsque le mécanisme de signature d’URL pour les liens de tracking est désactivé, la personnalisation des URL ne peut pas être appliquée au nom de domaine ni à l’extension de l’URL. Un message d&#39;erreur s&#39;affiche lors de l&#39;analyse du message si la personnalisation n&#39;est pas correcte.
+>
+>Lorsque vous sélectionnez un bloc de contenu, vous n&#39;êtes pas autorisé à sélectionner des éléments comme **Lien vers la page miroir**. Ce type de bloc est interdit dans un lien.
 
 ## Insertion d&#39;un champ de personnalisation{#inserting-a-personalization-field}
 
@@ -147,7 +149,7 @@ Pour créer un bloc de contenu, respectez les étapes suivantes :
 
    ![](assets/content_bloc_02.png)
 
-1. Vous pouvez sélectionner une **[!UICONTROL Dimension de ciblage]**. Voir à ce propos la section [A propos de la dimension de ciblage](#about-targeting-dimension).
+1. Vous pouvez sélectionner une **[!UICONTROL Dimension de ciblage]**. Pour plus d&#39;informations, consultez la section [À propos de la dimension de ciblage](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
@@ -163,7 +165,7 @@ Votre bloc de contenu est désormais utilisable dans l&#39;éditeur de contenu d
 >
 >Lorsque vous éditez le contenu d&#39;un bloc, vérifiez qu&#39;aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s&#39;affichent à l&#39;écran ; ils auront donc un impact sur la présentation de votre contenu.
 
-### A propos de la dimension de ciblage           {#about-targeting-dimension}
+### À propos de la dimension de ciblage {#about-targeting-dimension}
 
 La dimension de ciblage permet de définir dans quel type de message vous pouvez utiliser le bloc de contenu. Cela permet d&#39;éviter d&#39;utiliser des blocs inadéquats dans un message, ce qui peut entraîner des erreurs.
 
@@ -173,7 +175,7 @@ Par exemple, la dimension de ciblage du bloc **[!UICONTROL Lien de désabonnemen
 
 Si vous laissez ce champ vide, le bloc de contenu sera compatible avec tous les messages, quelle que soit la dimension de ciblage. Si vous définissez une dimension de ciblage, ce bloc ne sera compatible qu&#39;avec les messages ayant la même dimension de ciblage.
 
-Voir à ce sujet [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+Pour plus d’informations, consultez [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 **Rubriques connexes :**
 
