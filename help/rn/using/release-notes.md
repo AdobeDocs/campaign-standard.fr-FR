@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ Les nouvelles fonctionnalités, améliorations et correctifs inclus dans la dern
 
 * Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en oeuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
 * Les fonctionnalités obsolètes et supprimées sont répertoriées dans [cette page](deprecated-features.md).
-* Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077)
+* Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077) [En savoir plus](../../automating/using/list-of-functions.md#aggregates)
 * Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour de meilleures performances.
 * Les modèles de messagerie in-app sont désormais disponibles pour toutes les langues prises en charge dans Campaign Standard.
 * Le délai de préparation de la diffusion a été optimisé pour les messages transactionnels en réduisant le nombre d’appels au serveur de suivi lors de l’analyse de la diffusion.

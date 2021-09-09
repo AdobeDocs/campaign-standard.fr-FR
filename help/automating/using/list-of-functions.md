@@ -10,16 +10,16 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: ht
-source-wordcount: '1943'
-ht-degree: 100%
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
+workflow-type: tm+mt
+source-wordcount: '1972'
+ht-degree: 99%
 
 ---
 
 # Liste des fonctions{#list-of-functions}
 
-## A propos des fonctions {#about-functions}
+## À propos des fonctions {#about-functions}
 
 L&#39;outil d&#39;édition de requêtes permet d&#39;utiliser des fonctions avancées afin de réaliser des filtrages complexes. Pour cela, la palette de l&#39;outil contient l&#39;élément **[!UICONTROL Expression]** que vous pouvez utiliser dans l&#39;espace de travail. L&#39;utilisation de cet élément est détaillée dans une [section spécifique](../../automating/using/advanced-expression-editing.md).
 
@@ -222,7 +222,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Convertit une chaîne en date + fuseau horaire.<br /> Exemple : ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> Convertit une chaîne en date + fuseau horaire.<br /> Exemple : ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asie/Téhéran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,11 +707,12 @@ Elles sont utilisées pour effectuer des calculs sur un ensemble de valeurs.
    <td> Renvoie la valeur minimum d'une colonne de type numérique, chaîne ou date.<br /> </td> 
    <td> Min(&lt;valeur&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, agrégat de chaîne<br /> </td>
+   <td> Renvoie la concaténation des valeurs d'une colonne de type chaîne, séparée par le caractère dans le deuxième argument (le séparateur par défaut est une virgule).<br /> </td>
+   <td> StringAgg(&lt;valeurs de chaîne&gt;,&lt;séparateur&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Somme<br /> </td> 
    <td> Renvoie la somme des valeurs d'une colonne de type numérique.<br /> </td> 
    <td> Sum(&lt;valeur&gt;)<br /> </td> 
