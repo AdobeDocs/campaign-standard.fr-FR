@@ -1,12 +1,12 @@
 ---
-solution: Campaign Standard
+solution: Campaign, Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
+source-git-commit: 7da7984edc744fcdf20247b043112b82e3d8de63
 workflow-type: tm+mt
 source-wordcount: '1794'
 ht-degree: 100%
