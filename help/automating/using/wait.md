@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Attente
 description: L'activité Attente permet de suspendre momentanément l'exécution d'une partie d'un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '309'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
@@ -27,11 +24,11 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Attente]** permet de suspendre momentanément l&#39;exécution d&#39;une partie d&#39;un workflow. Elle active sa transition sortante après un délai pouvant aller de quelques secondes à plusieurs mois, permettant l&#39;exécution des activités placées à la suite.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Attente]** est utilisée pour permettre qu&#39;un certain temps s&#39;écoule entre l&#39;exécution de deux activités. Par exemple, attendre plusieurs jours après une activité de diffusion par email puis analyser les ouvertures et les clics générés pendant ce laps de temps avant d&#39;appliquer d&#39;autres traitements (email de rappel, création d&#39;audience, etc.).
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 1. Placez une activité **[!UICONTROL Attente]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -41,9 +38,9 @@ L&#39;activité **[!UICONTROL Attente]** est utilisée pour permettre qu&#39;un 
 
    ![](assets/wait_duration.png)
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple {#example}
+## Exemple  {#example}
 
 L&#39;exemple suivant illustre l&#39;activité **[!UICONTROL Attente]** dans un cas typique. Un email d&#39;invitation à un événement est envoyé. 24 heures après l&#39;envoi, les journaux de la diffusion email sont analysés et un email de rappel est envoyé aux personnes ayant reçu le premier email mais qui ne se sont pas inscrits.
 

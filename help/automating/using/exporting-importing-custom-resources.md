@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Export/import de ressources personnalisées
 description: Ce tutoriel explique comment exporter et importer un package de ressources personnalisées.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '691'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '690'
 ht-degree: 100%
 
 ---

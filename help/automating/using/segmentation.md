@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation
 description: L’activité Segmentation permet de créer un ou plusieurs segments à partir d’une population calculée par des activités placées en amont.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '964'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---
@@ -35,7 +32,7 @@ L’activité **[!UICONTROL Segmentation]** permet de créer un ou plusieurs seg
 * [Cas pratique : segmentation en fonction de la localisation](../../automating/using/workflow-segmentation-location.md)
 * [Cas pratique : segmentation en fonction des tranches d’âge](../../automating/using/segmentation-age-groups.md)
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L’activité **[!UICONTROL Segmentation]** est généralement placée après des activités de ciblage (requête, intersection, union, exclusion, etc.) permettant de définir la population de base à partir de laquelle les segments seront formés.
 
@@ -91,7 +88,6 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.

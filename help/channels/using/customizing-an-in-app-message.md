@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnalisation d'un message In-App
 description: Découvrez comment personnaliser vos messages In-App à l’aide de diverses options.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: Dans l'application
+feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1051'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1049'
 ht-degree: 100%
 
 ---

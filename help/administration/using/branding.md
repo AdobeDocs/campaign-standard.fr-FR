@@ -1,26 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Branding
 description: Découvrez tous les outils disponibles pour gérer les identités de la marque.
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1329'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1327'
 ht-degree: 100%
 
 ---
 
-# Branding{#branding}
+# Marques{#branding}
 
-## A propos de l&#39;identité d&#39;une marque {#about-brand-identity}
+## À propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 
 Chaque entreprise dispose de directives visuelles et techniques en ce qui concerne la marque. Avec Adobe Campaign, vous pouvez définir un ensemble de spécifications pour présenter à vos clients une marque cohérente, depuis les logos jusqu&#39;aux aspects techniques, tels que l&#39;expéditeur de l&#39;email, l&#39;URL ou les domaines.
 
@@ -38,7 +36,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 >
 >Les marques ne peuvent pas être créées ni modifiées par des utilisateurs finaux : ces opérations doivent être effectuées par l&#39;administrateur technique Adobe Campaign. Pour toute demande, contactez l&#39;Assistance clientèle Adobe.
 >
->Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Voir à ce propos la section [Messages transactionnels et marque](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
+>Le multi-branding ne peut pas être utilisé dans le contexte des messages transactionnels. Pour plus d&#39;informations, consultez la section [Messages transactionnels et marque](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding).
 
 Les marques figurent dans **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage des marques]**.
 
@@ -91,7 +89,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
-1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
+1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://helpx.adobe.com/fr/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >

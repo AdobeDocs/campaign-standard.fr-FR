@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tracker les messages
 description: Découvrez comment tracker le comportement des destinataires de vos diffusions.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Suivi des performances
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '507'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
 
 # Tracker les messages{#tracking-messages}
 
-## A propos du tracking {#about-tracking}
+## À propos du tracking {#about-tracking}
 
 Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de tracker le comportement des destinataires de vos diffusions. Pour cela, Adobe Campaign utilise des cookies de session et des cookies permanents.
 
@@ -90,9 +88,9 @@ Dans la colonne **[!UICONTROL Type]**, les valeurs possibles sont :
 
 Pour plus d’informations sur l’insertion de liens de tracking, consultez [cette page](../../designing/using/links.md#inserting-a-link).
 
-Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Voir à ce propos la section, consultez cette [page](../../reporting/using/tracking-indicators.md).
+Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Pour plus d&#39;informations, consultez la section, consultez cette [page](../../reporting/using/tracking-indicators.md).
 
-## Tracked URLs {#tracked-urls}
+## URL trackées {#tracked-urls}
 
 L&#39;onglet **[!UICONTROL URL trackées]** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour 2018
 description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '5457'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '5456'
 ht-degree: 100%
 
 ---
@@ -43,7 +41,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +70,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème en raison duquel le nombre de logs était différent entre le tableau de bord et le rapport de synthèse des emails transactionnels. (CAMP-28237
 * Correction d’une erreur dans les workflows qui pouvait afficher un message d’erreur lors de l’import d’un fichier via une activité Transfert de fichier. (CAMP-27435)
 * Correction d’une erreur liée aux landing pages contenant plus de 25 services qui entraînait la désélection aléatoire des services dans le formulaire. (CAMP-26572)
-* Correction d’une erreur dans les workflows qui empêchait la configuration des comptes externes avec une URL SFTP lors de l’utilisation de l’activité Transfert de fichier. (CAMP-26475)
+* Correction d&#39;une erreur dans les workflows qui empêchait la configuration des comptes externes avec une URL SFTP lors de l&#39;utilisation de l&#39;activité Transfert de fichier. (CAMP-26475)
 * Correction d’une erreur qui empêchait la mise à jour du rapport de synthèse des services. (CAMP-26301)
 * Correction d’une erreur dans les workflows lors de l’utilisation d’une activité Enrichissement. Celle-ci empêchait un champ personnalisé d’afficher la date correcte. (CAMP-26242)
 * Correction d’une erreur qui empêchait la mise à jour des dates d’abonnement au service lors d’un import via un import de fichier.
@@ -307,7 +305,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 

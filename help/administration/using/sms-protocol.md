@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Protocole et paramètres du connecteur SMS
 description: En savoir plus sur le connecteur SMS et comment le configurer.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '8666'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '8664'
 ht-degree: 100%
 
 ---
@@ -182,7 +180,7 @@ Champs visibles dans un `SUBMIT_SM PDU` :
 
 * **registered_delivery** : indique si un SR est demandé ou non. Adobe Campaign définit toujours cet indicateur, à l&#39;exception des réponses automatiques. Pour les messages en plusieurs parties, l&#39;indicateur n&#39;est défini que pour la première partie. Toutes les versions ont le même comportement.
 
-* **data_coding** : indique le codage utilisé dans le champ de texte. Voir la section [Encodage du texte SMS](../../administration/using/sms-protocol.md#sms-text-encoding) pour plus d&#39;informations.
+* **data_coding** : indique le codage utilisé dans le champ de texte. Pour plus d&#39;informations, consultez la section [Encodage du texte SMS](../../administration/using/sms-protocol.md#sms-text-encoding) pour plus d&#39;informations.
 
 * **short_message** : texte du message. Si UDH est utilisé, il contient également l&#39;en-tête UHD.
 
@@ -389,7 +387,7 @@ Définit le nom de l&#39;implémentation SMSC. Il doit être défini sur le nom 
 
 #### Serveur {#server}
 
-Nom DNS ou adresse IP du serveur auquel se connecter.
+Nom DNS ou adresse IP du serveur auquel se connecter.
 
 #### Port {#port}
 
@@ -547,7 +545,7 @@ Ces paramètres sont des paramètres avancés qui adaptent le connecteur Adobe C
 
 #### Définir un mapping des encodages spécifique {#encoding-specific-mapping}
 
-Voir la section [Encodage de texte SMS](../../administration/using/sms-protocol.md#sms-text-encoding) pour plus d&#39;informations sur l&#39;encodage de texte.
+Pour plus d&#39;informations, consultez la section [Encodage de texte SMS](../../administration/using/sms-protocol.md#sms-text-encoding) pour plus d&#39;informations sur l&#39;encodage de texte.
 
 Ce paramètre permet de définir un mapping de codage personnalisé différent de la spécification. Vous pourrez déclarer une liste d&#39;encodages, ainsi que leur valeur `data_coding`.
 

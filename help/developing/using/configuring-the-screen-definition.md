@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration de la définition d'écran
 description: Découvrez comment définir de nouveaux écrans Adobe Campaign à partir de la structure des données des ressources.
 audience: developing
@@ -11,15 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '683'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
 
-# Configuration de la définition d&#39;écran{#configuring-the-screen-definition}
+# Configuration de la définition des écrans{#configuring-the-screen-definition}
 
 Lors de la création d&#39;une ressource ou de l&#39;ajout de nouveaux champs à une ressource existante, vous pouvez définir la façon dont ils doivent apparaître dans l&#39;interface.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion Email
 description: L'activité Diffusion Email permet de paramétrer l'envoi d'un email unique ou récurrent dans un workflow.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '904'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '903'
 ht-degree: 100%
 
 ---
 
-# Diffusion Email{#email-delivery}
+# Diffusion e-mail{#email-delivery}
 
 ## Description {#description}
 
@@ -33,7 +30,7 @@ Les emails uniques sont des emails standard, envoyés une seule fois.
 
 Les emails récurrents permettent d&#39;envoyer plusieurs fois sur une période définie un même email à des cibles différentes. Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Diffusion Email]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;un email à une cible calculée dans le même workflow.
 

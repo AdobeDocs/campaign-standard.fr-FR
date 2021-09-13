@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création d'une dimension de profil personnalisé
 description: Découvrez comment créer une dimension de profil personnalisé à partir des données de profil personnalisé.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '930'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '929'
 ht-degree: 100%
 
 ---
@@ -24,10 +21,10 @@ Les rapports peuvent également être créés et gérés en fonction des donnée
 
 Dans cet exemple, nous souhaitons créer le champ de profil personnalisé **Programmes de fidélité**, qui sera divisé en trois niveaux : or, argent et bronze. Le profil personnalisé sera étendu pour pouvoir l&#39;utiliser comme une dimension de profil personnalisé dans les rapports dynamiques.
 
-* [Étape 1 : Création d&#39;un champ de profil ](#step-1--create-a-new-profile-field)
-* [Étape 2 : Extension des envois avec le champ de profil ](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Étape 3 : Création d&#39;une diffusion ciblant des destinataires inscrits dans le programme de fidélité ](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Étape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé ](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Etape 1 : Création d&#39;un champ de profil     ](#step-1--create-a-new-profile-field)
+* [Etape 2 : Extension des envois avec le champ de profil     ](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Etape 3 : Création d&#39;une diffusion ciblant des destinataires inscrits dans le programme de fidélité     ](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Etape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé     ](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Etape 1 : Création d&#39;un champ de profil      {#step-1--create-a-new-profile-field}
 

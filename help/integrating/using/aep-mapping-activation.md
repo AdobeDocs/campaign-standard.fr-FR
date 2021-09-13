@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Activation du mapping
 description: Découvrez comment activer le mapping de données
 audience: administration
@@ -10,10 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '497'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Une fois la définition du mapping terminée, vous pouvez le publier. Après l’étape de déploiement, la réplication des données entre Campaign Standard et Adobe Experience Platform démarre automatiquement. Vous pouvez arrêter la réplication à tout moment en cliquant sur le bouton **[!UICONTROL Arrêter]**.
 

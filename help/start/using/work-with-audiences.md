@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnalisation des listes
 description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 100%
@@ -48,7 +45,7 @@ Les profils Adobe Campaign représentent l&#39;ensemble des contacts stockés da
 
 **En savoir plus**
 
-* [A propos des profils](../../audiences/using/about-profiles.md)
+* [À propos des profils](../../audiences/using/about-profiles.md)
 * [Accès au nombre de profils actifs dans votre organisation](../../audiences/using/active-profiles.md)
 
 ## Enrichissement de votre base de données {#populating-database}
@@ -119,8 +116,8 @@ Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des a
 
 **En savoir plus**
 
-* [A propos des audiences](../../audiences/using/about-audiences.md)
-* [Création d’une audience](../../audiences/using/creating-audiences.md)
+* [À propos des audiences](../../audiences/using/about-audiences.md)
+* [Création d&#39;une audience](../../audiences/using/creating-audiences.md)
 
 ## Gestion de la confidentialité {#privacy-management}
 

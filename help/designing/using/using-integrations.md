@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Conception d’emails par le biais des intégrations d’Adobe Campaign '
 description: Découvrez comment concevoir des emails via les intégrations d’Adobe Campaign dans le Concepteur d’email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -148,9 +146,9 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-a
   </tr> 
   <tr> 
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
-   <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">A propos du Concepteur d’email</a>.<br /> </td> 
+   <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du Concepteur d'email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

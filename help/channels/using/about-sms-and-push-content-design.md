@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de la conception du contenu d'un SMS et d'une notification push
+title: À propos de la conception du contenu d'un SMS et d'une notification push
 description: Découvrez l'éditeur utilisé pour modifier le contenu des SMS et des notifications push dans Adobe Campaign.
 audience: designing
 content-type: reference
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '169'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation en fonction de la localisation
 description: Ce cas pratique montre comment effectuer une segmentation en fonction de la localisation.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '324'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---

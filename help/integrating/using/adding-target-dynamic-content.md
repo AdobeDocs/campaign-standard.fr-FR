@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ajouter du contenu dynamique Target
 description: Découvrez comment ajouter du contenu dynamique Adobe Target dans une de vos diffusions Adobe Campaign.
 audience: integrating
@@ -10,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '453'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -54,5 +52,5 @@ La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses
 **Rubriques connexes :**
 
 * [Portail d&#39;Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr)
-* [A propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md)
+* [À propos de la conception du contenu d&#39;un email](../../designing/using/designing-content-in-adobe-campaign.md)
 * Vidéo [Personnaliser des images d&#39;email en temps réel](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html)

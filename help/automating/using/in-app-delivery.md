@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion In-App
 description: L'activité Diffusion In-App permet de paramétrer l'envoi d'un message in-app dans un workflow.
 audience: automating
@@ -10,11 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +23,7 @@ ht-degree: 100%
 
 L&#39;activité **Diffusion In-App** permet de paramétrer l&#39;envoi d&#39;un message in-app dans un workflow. La messagerie in-app permet d&#39;afficher un message lorsque l&#39;utilisateur est actif dans l&#39;application. Pour plus d&#39;informations sur la diffusion In-App, consultez cette [section](../../channels/using/about-in-app-messaging.md).
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Diffusion In-App]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;un message In-App à une audience cible calculée dans le même workflow.
 
@@ -34,13 +31,13 @@ Les destinataires sont définis en amont de l&#39;activité dans le même workfl
 
 La préparation du message est déclenchée selon les paramètres d&#39;exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d&#39;en automatiser l&#39;exécution.
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 1. Placez une activité **[!UICONTROL Requête]** dans votre workflow. La dimension de ciblage de l&#39;activité **[!UICONTROL Requête]** dans l&#39;onglet **[!UICONTROL Propriétés]** doit être mise à jour selon le modèle sélectionné à l&#39;étape 4 :
 
    * La dimension de ciblage doit être définie sur **[!UICONTROL mobileApp (mobileAppV5)]** pour le modèle **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]**.
    * La dimension de ciblage doit être définie sur **[!UICONTROL Profil (profile)]** pour le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]**.
-   * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** pour le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**.
+   * La dimension de ciblage doit être définie sur **[!UICONTROL abonnements à une application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** pour le modèle **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** .
 
 1. Placez une activité **[!UICONTROL Diffusion In-App]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.

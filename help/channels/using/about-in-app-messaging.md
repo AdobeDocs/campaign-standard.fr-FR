@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de la messagerie In-App
+title: À propos de la messagerie In-App
 description: Affichez un message ou une alerte dans l'application mobile avec la messagerie in-app.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: Dans l’application
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '499'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '497'
 ht-degree: 100%
 
 ---

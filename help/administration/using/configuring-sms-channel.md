@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration du canal SMS
 description: '"Découvrez les étapes de configuration des SMS : routage, encodage, formats et propriétés avancées. "'
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Paramètres de l'instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1680'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1678'
 ht-degree: 100%
 
 ---
@@ -320,7 +318,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
 Lorsqu&#39;un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à exécuter.
 
-Voir à ce sujet [cette section](../../channels/using/managing-incoming-sms.md).
+Pour plus d’informations, consultez [cette section](../../channels/using/managing-incoming-sms.md).
 
 ## Configuration des propriétés des SMS  {#configuring-sms-properties}
 

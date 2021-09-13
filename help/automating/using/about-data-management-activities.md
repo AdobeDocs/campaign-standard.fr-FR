@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos des activités de Data Management
+title: À propos des activités de Data Management
 description: Les activités de gestion des données sont disponibles dans le côté gauche de l'écran.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: b780704c-210b-4cab-9016-91726a86de6d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '130'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
-# A propos des activités de Data Management{#about-data-management-activities}
+# À propos des activités de Data Management{#about-data-management-activities}
 
 Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Data Management (ETL)]**.
 
@@ -33,6 +30,6 @@ La section **[!UICONTROL Data Management (ETL)]** fournit les activités suivant
 * [Transfert de fichier](../../automating/using/transfer-file.md)
 * [Réconciliation](../../automating/using/reconciliation.md)
 * [Extraction de fichier](../../automating/using/extract-file.md)
-* [Services d’inscriptions](../../automating/using/subscription-services.md)
+* [Services d&#39;abonnements](../../automating/using/subscription-services.md)
 
 Les activités **[!UICONTROL Gestion des données (ETL)]** permettent de définir des **codes segment** pour leurs transitions sortantes. Vous pouvez ensuite créer des rapports à partir de ces codes segment pour mesurer l’efficacité des campagnes marketing. Voir à ce propos [cette section](../../reporting/using/creating-a-report-workflow-segment.md).

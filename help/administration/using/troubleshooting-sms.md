@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Résolution des problèmes de SMS
 description: Résolution des problèmes de SMS
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramétres de l'instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2698'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '2696'
 ht-degree: 100%
 
 ---
@@ -113,9 +111,9 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit rester active pendant au moins une heure en continu. Voir la section [Problème de connexion instable](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit rester active pendant au moins une heure en continu. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
-* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Voir la section [Problème de connexions instables](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
+* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](../../administration/using/troubleshooting-sms.md#issues-unstable-connection).
 
 * Vérifiez que le broadlog est présent et que son statut est correct avec les dates correctes. Si ce n&#39;est pas le cas, il peut s&#39;agir d&#39;un problème de préparation de diffusion ou de diffusion.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contrôler les inscriptions
 description: Découvrez comment tracker vos abonnés et mesurer les performances de vos services à l'aide des tableaux de bord et des rapports.
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '358'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '357'
 ht-degree: 100%
 
 ---
@@ -64,6 +62,6 @@ Pour afficher un rapport présentant l&#39;évolution des inscriptions et des d�
 
 ## Historique des événements liés à un profil    {#history-of-events-linked-to-a-profile}
 
-Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Voir à ce propos la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
+Pour connaître la liste des services auxquels un contact s&#39;est abonné, vous pouvez consulter son historique marketing. Pour plus d&#39;informations, consultez la section [Profil client intégré](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)

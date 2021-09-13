@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface des workflows
 description: Découvrez l’interface et les options pour créer, éditer et exécuter un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '857'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '856'
 ht-degree: 100%
 
 ---
@@ -72,7 +69,7 @@ Certains raccourcis sont activés uniquement au niveau de l’espace de travail�
 
 ![](assets/workflow_workspace.png)
 
-## La barre d’actions {#action-bar}
+## La barre d&#39;actions  {#action-bar}
 
 En fonction des éléments sélectionnés dans l’espace de travail ou du statut d’exécution du workflow, les boutons disponibles dans la barre d’actions peuvent différer.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À lire absolument
 description: À lire absolument avant d’utiliser les API.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-translation-type: ht
-source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
-workflow-type: ht
-source-wordcount: '375'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
 
 ---

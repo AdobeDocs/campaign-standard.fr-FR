@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Suivi et surveillance des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez la manière dont Adobe Campaign vous permet de conserver une trace des messages envoyés et observez la réaction des destinataires face à votre diffusion
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '433'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -34,7 +32,7 @@ Pour contrôler vos campagnes, vous devez vérifier que le message a bien été 
 
 * Depuis le tableau de bord d&#39;un message, vous pouvez accéder à plusieurs rapports relatifs à ce message spécifique.
 
-Voir à ce propos la section [Suivre une diffusion](../../sending/using/monitoring-a-delivery.md).
+Pour plus d&#39;informations, consultez la section [Suivre une diffusion](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
@@ -56,7 +54,7 @@ Voir à ce propos le guide [Reporting](../../reporting/using/about-dynamic-repor
 
 Le rapport Hot clicks présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien. En affichant le pourcentage de clics sur chaque contenu dynamique, vous pouvez identifier les contenus les plus attrayants pour les destinataires.
 
-Pour plus d&#39;informations à ce sujet, consultez la section [Rapport Hot clicks](../../reporting/using/hot-clicks.md).
+Pour plus d’informations, consultez la section [Rapport Hot clicks](../../reporting/using/hot-clicks.md).
 
 ## Conseils sur les performances des diffusions {#performance-tips}
 

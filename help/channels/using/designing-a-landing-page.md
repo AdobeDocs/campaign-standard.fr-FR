@@ -1,26 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Concevoir une landing page
 description: Découvrez comment concevoir le contenu d'une landing page.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing pages
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1677'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1675'
 ht-degree: 100%
 
 ---
 
 # Concevoir une landing page{#designing-a-landing-page}
 
-## A propos de la conception du contenu d&#39;une landing page {#about-content-design}
+## À propos de la conception du contenu d&#39;une landing page {#about-content-design}
 
 Les landing pages sont créées de la même façon que toute autre [activité marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -316,7 +314,7 @@ Certains blocs, comme les images, ne peuvent pas être sélectionnés directemen
 
 Le fil d&#39;Ariane est présenté dans la section [Gestion des blocs](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style).
 
-Les étapes suivantes pour définir le contenu dynamique dans une landing page sont similaires à celles que vous devez suivre pour un e-mail. Reportez-vous à [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Les étapes suivantes pour définir le contenu dynamique dans une landing page sont similaires à celles que vous devez suivre pour un e-mail. Consultez [cette section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 >[!NOTE]
 >

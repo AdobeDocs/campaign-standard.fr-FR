@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contrôle d’une diffusion dans Adobe Campaign Standard
 description: Découvrez comment contrôler une diffusion dans Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Suivi des performances
+feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '486'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '484'
 ht-degree: 100%
 
 ---
@@ -34,7 +32,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
    ![](assets/sending_delivery1.png)
 
-   Le journal contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Voir à ce propos la section [Valider les messages](../../sending/using/previewing-messages.md).
+   Le journal contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Valider les messages](../../sending/using/previewing-messages.md).
 
    Vous pouvez exporter le journal en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
 
@@ -42,7 +40,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
 * **Alertes de diffusion** : pour tracker les performances des diffusions, Adobe Campaign propose un système d&#39;alerte par email qui envoie des notifications afin d&#39;avertir les utilisateurs des activités système importantes.
 * **Rapports** : depuis le tableau de bord d&#39;un message, vous pouvez accéder à plusieurs rapports relatifs à ce message spécifique. Un menu **[!UICONTROL Rapports]** vous permet également d&#39;accéder à la liste complète des rapports intégrés ou personnalisés que vous pouvez utiliser pour mettre en avant des mesures spécifiques relatives à votre message ou campagne.
-* Un administrateur peut également exporter des logs dans un fichier distinct qui peut être traité dans vos outils de reporting ou de Business Intelligence. Voir à ce propos la section [Exporter des logs](../../automating/using/exporting-logs.md).
+* Un administrateur peut également exporter des logs dans un fichier distinct qui peut être traité dans vos outils de reporting ou de Business Intelligence. Pour plus d&#39;informations, consultez la section [Exporter des logs](../../automating/using/exporting-logs.md).
 
 **Rubriques connexes :**
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des messages transactionnels
 description: Découvrez comment gérer les messages transactionnels avec les API.
 audience: developing
@@ -10,17 +8,16 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '679'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '678'
 ht-degree: 100%
 
 ---
 
 # Gestion des messages transactionnels {#managing-transactional-messages}
 
-## A propos des messages transactionnels
+## À propos des messages transactionnels
 
 Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site web.
 

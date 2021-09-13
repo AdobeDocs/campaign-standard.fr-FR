@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Accessibilité dans Adobe Campaign Standard
 description: Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campagnes
+feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '608'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
@@ -21,9 +19,9 @@ ht-degree: 100%
 
 Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
 
-L’accessibilité consiste à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Les exemples de fonctionnalités d’accessibilité pour les produits logiciels incluent le contenu structuré de manière sémantique, la prise en charge des lecteurs d’écran, les équivalents textuels pour les graphiques, les raccourcis clavier, etc.
+L’accessibilité consiste à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Les exemples de fonctionnalités d’accessibilité pour les produits logiciels incluent le classement sémantique du contenu structuré de manière sémantique, la prise en charge des lecteurs d’écran, les équivalents textuels pour les graphiques, les raccourcis clavier, etc.
 
-Adobe Campaign Standard offre des fonctionnalités qui rendent plus accessibles l’utilisation de contrastes, de libellés, de contenu structuré, de navigation clavier et d’aide contextuelle.
+Adobe Campaign Standard offre des fonctionnalités qui rendent plus accessible l’utilisation des contrastes, des libellés, des contenus structurés, de la navigation clavier et de l’aide contextuelle.
 
 ## Fonctionnalités d’accessibilité {#accessibility-features}
 
@@ -45,9 +43,9 @@ L’interface utilisateur d’Adobe Campaign Standard s’efforce de fournir u
 
 ### Interface utilisateur {#user-interface}
 
-L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction entre tous les utilisateurs et le contenu en ajoutant des textes alternatifs aux éléments visuels et en utilisant une structure sémantique pour transmettre des informations visuellement et par programmation.
+L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction entre tous les utilisateurs et le contenu en ajoutant des textes alternatifs aux éléments visuels, et en utilisant une structure sémantique pour transmettre des informations visuellement et par programmation.
 
-* Lorsque l’utilisateur laisse vide un champ d’ID obligatoire, un graphique indique visuellement quel champ contient une erreur à l’aide du texte du message d’erreur et ces mêmes informations sont transmises par programmation aux utilisateurs à l’aide de technologies d’assistance telles que les lecteurs d’écran.
+* Lorsque l’utilisateur laisse vide un champ d’ID obligatoire, un graphique indique visuellement quel champ contient une erreur à l’aide d&#39;un message d’erreur. Ces informations sont également transmises par programmation aux utilisateurs à l’aide de technologies d’assistance, telles que les lecteurs d’écran.
 
    ![](assets/accessibility_3.png)
 
@@ -81,7 +79,7 @@ Nous nous efforçons de rendre l’application Adobe Campaign Standard aussi u
 
 ## Travailler dans la langue que vous préférez {#languages}
 
-Adobe Campaign Standard est disponible dans différentes langues : anglais, français et allemand.
+Adobe Campaign Standard est disponible dans différentes langues : allemand, anglais et français.
 
 Veuillez noter que la langue est configurée à l’installation et ne peut pas être modifiée par la suite.
 

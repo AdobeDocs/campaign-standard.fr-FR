@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Utiliser des ressources différentes des dimensions de ciblage
 description: Découvrez comment utiliser une ressource différente de la dimension de ciblage.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '302'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
 
 ---

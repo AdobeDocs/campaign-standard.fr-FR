@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '146'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
 
 ---
@@ -144,7 +141,7 @@ ht-degree: 100%
     <tr>
         <td>recipientId</td>
         <td>Profile ID</td>
-        <td>integer </td>
+        <td>entier </td>
         <td> </td>
     </tr>
     <tr>
@@ -162,7 +159,7 @@ ht-degree: 100%
     <tr>
         <td>referrerId</td>
         <td>Referrer ID</td>
-        <td>integer </td>
+        <td>entier </td>
         <td> </td>
     </tr>
     <tr>
@@ -179,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Label</td>
+        <td>Libellé</td>
         <td>string (255)</td>
         <td> </td>
     </tr>

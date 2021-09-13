@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer un email de test A/B
 description: Découvrez la fonctionnalité de test A/B et suivez ces étapes pour créer un email depuis un modèle de test A/B dans Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '850'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '849'
 ht-degree: 100%
 
 ---
@@ -86,7 +84,7 @@ Dans le cadre spécifique d&#39;un test A/B :
 
 Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne.
 
-## A propos des indicateurs de test A/B {#about-a-b-test-indicators}
+## À propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
 Dans le tableau de bord des emails, plusieurs indicateurs sont proposés pour vous aider à mesurer votre test A/B : nombre de clics, ouvertures, bounces, etc.
 

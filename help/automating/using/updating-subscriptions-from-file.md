@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour de plusieurs statuts d’abonnement depuis un fichier
 description: Ce cas pratique illustre comment importer un fichier contenant des profils et mettre à jour leur abonnement à plusieurs services indiqués dans le fichier.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '427'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
 
-# Mise à jour de plusieurs statuts d’abonnement depuis un fichier {#updating-multiple-subscription-statuses-from-a-file}
+# Mise à jour de plusieurs statuts d&#39;abonnement depuis un fichier {#updating-multiple-subscription-statuses-from-a-file}
 
 Cet exemple illustre comment importer un fichier contenant des profils et mettre à jour leur abonnement à plusieurs services indiqués dans le fichier. Après l’import du fichier, une réconciliation est nécessaire afin d’identifier les données importées comme étant des profils avec un lien aux services. Afin d’assurer que le fichier ne contient aucun doublon, une déduplication sera exécutée sur les données.
 

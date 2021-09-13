@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform
 description: Découvrez comment personnaliser vos campagnes à l’aide des attributs d’Adobe Experience Platform.
 audience: automating
@@ -10,19 +8,18 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '289'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
 
-# Personnalisation des campagnes à l’aide des attributs d’Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
+# Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 >
 >Les canaux **push** et **In-App** ne sont pas encore disponibles pour la personnalisation à l’aide de données contextuelles issues d’Adobe Experience Platform.
 
@@ -59,5 +56,5 @@ Pour ce faire, vous devez ajouter ces attributs à l’activité **[!UICONTROL L
 Pour plus d’informations sur la création et la personnalisation de diffusions, voir la documentation de Campaign Standard :
 
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
-* [A propos des activités des canaux](../../automating/using/about-channel-activities.md)
+* [À propos des activités des canaux](../../automating/using/about-channel-activities.md)
 * [Personnaliser les diffusions](../../designing/using/personalization.md)

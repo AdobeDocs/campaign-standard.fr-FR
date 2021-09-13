@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l'intégration Campaign-Audience Manager ou People core service
+title: À propos de l'intégration Campaign-Audience Manager ou People core service
 description: Avec l'intégration d'Audience Manager/de People core service, vous pouvez partager des audiences ou des segments au sein des différentes solutions d'Adobe Experience Cloud.
 audience: integrating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '522'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
 
-# À propos de l’intégration Campaign-Audience Manager ou People core service{#about-campaign-audience-manager-or-people-core-service-integration}
+# À propos de l&#39;intégration Campaign-Audience Manager ou People core service{#about-campaign-audience-manager-or-people-core-service-integration}
 
 >[!CAUTION]
 >

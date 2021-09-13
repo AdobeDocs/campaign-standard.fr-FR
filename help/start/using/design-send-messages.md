@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnalisation des listes
 description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -59,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor s&#39;assied amet, l&#39;élite adipiscing continue. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. taquam de talus d&#39;Aène, quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 
@@ -106,7 +103,7 @@ Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tabl
 
 **En savoir plus**
 
-* [Accéder aux rapports](../../reporting/using/about-dynamic-reports.md)
+* [Accès aux rapports](../../reporting/using/about-dynamic-reports.md)
 * [Contrôler une diffusion](../../sending/using/monitoring-a-delivery.md)
 * [Tracker les messages](../../sending/using/tracking-messages.md)
 
@@ -114,7 +111,7 @@ Avec Adobe Campaign, vous pouvez contrôler et tracker chaque diffusion. Le tabl
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consécutitetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. Aenean tellus quam, tristique quis risus consécutitetur, pulvinar elementum dui.
+Lorem ipsum dolor s&#39;assied amet, l&#39;élite adipiscing continue. Vestibulum placerat mauris libero, non congue sapien rhoncus id. Entier luctus blandit ligula. Nulla quis véhicule augue, une lacinia risus. Nunc pharetra fringilla enim eu suscipit. Mauris consécutitetur maximus euismod. Cras et véhicule nulla. taquam de talus d&#39;Aène, quis risus consécutitetur, pulvinar elementum dui.
 
 **En savoir plus**
 

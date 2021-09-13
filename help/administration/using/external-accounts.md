@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Comptes externes
 description: Paramétrez des comptes externes pour configurer des connexions à des systèmes externes tels que des serveurs SFTP.
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1832'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1830'
 ht-degree: 100%
 
 ---
@@ -57,7 +55,7 @@ Les comptes externes sont utilisés par des processus techniques, tels que des w
 
 Le compte externe est créé et ajouté à la liste des comptes. Il peut être désormais utilisé pour vos transferts de fichiers/données ou vos configurations de routage dans les activités de workflow et les propriétés de diffusion.
 
-## Compte externe SFTP    {#sftp-external-account}
+## Compte externe SFTP   {#sftp-external-account}
 
 Des informations différentes doivent être spécifiées en fonction des types de compte externe.
 
@@ -67,9 +65,9 @@ Pour un compte externe SFTP, indiquez les informations suivantes :
 * Numéro de port. Par exemple, **22**.
 * Identifiants du serveur SFTP : nom de compte et mot de passe utilisés pour se connecter au serveur.
 
-### Recommandations relatives au serveur SFTP hébergé par Adobe    {#adobe-hosted-sftp-server-recommendations}
+### Recommandations relatives au serveur SFTP hébergé par Adobe   {#adobe-hosted-sftp-server-recommendations}
 
-Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
+Lors de la gestion de fichiers et de données à des fins d’ETL, les fichiers sont stockés sur un serveur SFTP hébergé fourni par Adobe. Ce serveur SFTP est conçu pour être un espace de stockage temporaire pour lequel vous pouvez contrôler la conservation et la suppression des fichiers.
 
 Lorsqu’il n’est pas correctement utilisé ou suivi, cet espace peut rapidement remplir l’espace physique disponible sur le serveur et entraîner de graves problèmes, tels que la perte ou l’endommagement de données sur votre plateforme.
 
@@ -79,14 +77,14 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques sui
 * Utilisez l’authentification par clé pour éviter l’expiration du mot de passe. Seuls les formats **OpenSSH** et **SSH2** sont pris en charge. Vous devrez fournir la clé publique à l’équipe de support Adobe pour qu’elle soit téléchargée sur le serveur Campaign.
 * Conservez les données que le temps nécessaire. 15 jours est la durée maximale.
 * Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
-* Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
+* Utilisez des batchs dans les téléchargements SFTP ainsi que dans les workflows.
 * Gérez les erreurs/exceptions.
-* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
-* Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
+* Connectez-vous de temps à autre au SFTP afin de vérifier directement ce qui s’y trouve.
+* Gardez à l’esprit que la gestion des disques SFTP relève principalement de votre responsabilité.
 
-Veuillez également noter que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. L’ajout à la liste autorisée des adresses IP et l’accès à la clé publique nécessaire pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Veuillez également noter que les adresses IP publiques à partir desquelles vous tentez d’initier la connexion SFTP doivent être ajoutées à la liste autorisée sur l’instance Campaign. L’ajout à la liste autorisée des adresses IP et l’accès à la clé publique nécessaire pour l’authentification peuvent être demandés par le biais d’un [ticket d’assistance](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
-Les serveurs SFTP peuvent être gérés à partir du Panneau de contrôle. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr).
+Les serveurs SFTP peuvent être gérés à partir du panneau de contrôle. Pour plus d’informations, consultez la [documentation du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr).
 
 >[!NOTE]
 >

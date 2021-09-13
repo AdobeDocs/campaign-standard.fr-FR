@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des données dans Campaign et Microsoft Dynamics 365
 description: Découvrez comment Campaign Standard et Microsoft Dynamics 365 gèrent les données communes
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
-workflow-type: ht
-source-wordcount: '2513'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '2510'
 ht-degree: 100%
 
 ---
 
 # Bonnes pratiques et limites {#acs-msdyn-best-practices}
 
-## Gérer les données {#acs-msdyn-manage-data}
+## Gestion des données {#acs-msdyn-manage-data}
 
 En ce qui concerne la synchronisation des contacts et des entités personnalisées, cette intégration traite **Microsoft Dynamics 365 comme la source de vérité**. Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365 et et non dans Adobe Campaign Standard). Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées dans Campaign pendant la synchronisation, car la synchronisation est unidirectionnelle.
 
@@ -55,7 +53,7 @@ Vous trouverez ci-dessous des liens pour vous aider à implémenter et/ou suppri
 >
 >Si un enregistrement de ressource personnalisée Campaign contient des informations personnelles, applicables à l&#39;utilisation de Campaign par un client, il doit être lié à un enregistrement de profil Campaign correspondant (soit directement, soit par l&#39;intermédiaire d&#39;une autre ressource personnalisée) afin qu&#39;une suppression liée à la confidentialité dans l&#39;enregistrement de profil puisse également supprimer l&#39;enregistrement de la ressource personnalisée liée contenant des informations personnelles. Les options de liaison et de suppression entre les entités doivent être configurées pour permettre cette suppression en cascade des enregistrements liés. Des informations personnelles ne doivent pas être saisies dans une ressource personnalisée qui n&#39;est pas liée au profil.
 
-## Opt-out{#opt-out}
+## Désinscription (opt-out) {#opt-out}
 
 En raison des différences dans les attributs d&#39;opt-out entre Microsoft Dynamics 365 et Campaign, et des différences dans les besoins commerciaux de chaque client, le mapping d&#39;opt-out a été laissé comme un exercice que le client doit terminer. Il est important de s&#39;assurer que les opt-outs sont correctement mappés entre les systèmes afin que les préférences d&#39;opt-out de l&#39;utilisateur final soient préservées et qu&#39;elles ne reçoivent pas de communication via un canal dont elles se sont désinscrites.
 
@@ -85,25 +83,25 @@ Découvrez comment sélectionner les options d&#39;opt-out/opt-in dans [cette se
 >
 >Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences de désinscription reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
 
-Si vous avez sélectionné la configuration d&#39;opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d&#39;opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign ci-dessous »). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
+Si vous avez sélectionné la configuration d’opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d’opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign » ci-dessous). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
 
 >[!IMPORTANT]
 >
 >Si vous avez besoin de la configuration d&#39;opt-out **Bidirectionnelle** ou **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)**, vous devez adresser la demande à votre contact technique Adobe pour que les workflows d&#39;opt-out soient configurés sur votre instance Campaign.
 
-## Utilisation du stockage SFTP dans Campaign
+## Utilisation du stockage SFTP dans Campaign
 
-Votre stockage SFTP dans Campaign devra être utilisé par l&#39;intégration dans les cas pratiques ci-dessous.  Vous devez vous assurer que votre compte SFTP dispose d&#39;une capacité de stockage suffisante pour prendre en charge ces cas pratiques. Le dépassement de la capacité de stockage SFTP sous licence peut nuire gravement à l&#39;utilisation fonctionnelle de Campaign, à l&#39;intégration et/ou au compte SFTP.
+Votre stockage SFTP dans Campaign devra être utilisé par l’intégration dans les cas pratiques ci-dessous.  Vous devez vous assurer que votre compte SFTP dispose d’une capacité de stockage suffisante pour prendre en charge ces cas pratiques. Le dépassement de la capacité de stockage SFTP sous licence peut nuire gravement à l&#39;utilisation fonctionnelle de Campaign, à l&#39;intégration et/ou au compte SFTP.
 
 | Cas pratique | Description |
 |---|---|
-| Bidirectionnelle et unidirectionnelle (Campaign vers Microsoft Dynamics 365) | Les flux de données d&#39;opt-out bidirectionnels et unidirectionnels (Campaign vers Microsoft Dynamics 365) utiliseront le stockage SFTP dans Campaign. Un workflow Campaign exportera les modifications incrémentales dans le dossier SFTP. À partir de là, l&#39;intégration récupérera les enregistrements et les traitera. |
+| Bidirectionnelle et unidirectionnelle (Campaign vers Microsoft Dynamics 365) | Les flux de données d’opt-out bidirectionnels et unidirectionnels (Campaign vers Microsoft Dynamics 365) utiliseront le stockage SFTP dans Campaign. Un workflow Campaign exportera les modifications incrémentales dans le dossier SFTP. À partir de là, l&#39;intégration récupérera les enregistrements et les traitera. |
 | Logs d&#39;opt-out | Les logs de sortie du connecteur s&#39;avèrent utiles lors du dépannage de l&#39;intégration. Ils peuvent être activés/désactivés. |
 
 
 >[!IMPORTANT]
 >
->Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les informations contiennent des données personnelles, vous êtes tenu de respecter les lois et règlements applicables en matière de confidentialité. [En savoir plus](#acs-msdyn-manage-privacy).
+>Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les informations contiennent des données personnelles, vous êtes tenu de respecter les lois et règlements applicables en matière de confidentialité. [En savoir plus](#acs-msdyn-manage-privacy).
 
 ## Gestion des données
 
@@ -123,11 +121,11 @@ N&#39;oubliez pas que Microsoft Dynamics 365 reste la source de vérité et que
 
 L&#39;intégration utilise une architecture qui permet de détecter les mises à jour et de les ajouter à la &quot;file d&#39;attente&quot; de traitement peu de temps après leur apparition dans Microsoft Dynamics 365 (c&#39;est-à-dire, en diffusion, et non en traitement par lots). Pour cette raison, il n&#39;est pas nécessaire de spécifier les fréquences ou les plannings d&#39;exécution des flux de données.
 
-L&#39;exception à cette règle est le flux de données d&#39;opt-out bidirectionnel et de Campaign vers Dynamics 365. Pour ces configurations d&#39;opt-out, les enregistrements Campaign mis à jour sont exportés vers SFTP par le biais d&#39;un workflow Campaign une fois par jour, après quoi l&#39;outil d&#39;intégration lit le fichier et traite l&#39;enregistrement.
+L&#39;exception à cette règle est le flux de données d&#39;opt-out bidirectionnel et de Campaign vers Dynamics 365. Pour ces configurations d’opt-out, les enregistrements Campaign mis à jour sont exportés vers SFTP par le biais d’un workflow Campaign une fois par jour, après quoi l’outil d’intégration lit le fichier et traite l’enregistrement.
 
 ### Contrat d&#39;utilisation des données
 
-Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données seront traitées aux États-Unis dans le cadre de cette intégration. Voir à ce sujet [cette section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données seront traitées aux États-Unis dans le cadre de cette intégration. Pour plus d’informations, consultez [cette section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Garde-fous et limitations
 

@@ -1,16 +1,14 @@
 ---
-keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
-product: campaign
+keywords: Campaign Standard;accueil;thèmes populaires
 title: Documentation du produit Adobe Campaign Standard
 description: Parcourir la documentation du produit Campaign Standard
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '236'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -46,7 +44,7 @@ ht-degree: 100%
     <div>
     <a href="administration/using/about-access-management.md"><strong>Rôles et groupes de sécurité</strong></a>
     </div>
-    <em>Découvrez comment définir des permissions et affecter des rôles aux utilisateurs de Campaign</em>
+    <em>Découvrez comment définir des autorisations et affecter des rôles aux utilisateurs de Campaign</em>
     <br>
   </td>
   <td valign="top">
@@ -73,8 +71,8 @@ ht-degree: 100%
 
 | Pages utiles | Ressources destinées aux développeurs |
 |---|---|
-| [Notes de mise à jour](rn/using/release-notes.md) | [Triggers Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [API Campaign](api/using/get-started-apis.md) |
+| [Notes de mise à jour](rn/using/release-notes.md) | [Déclencheurs Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Calendrier des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
 | [Fonctionnalités obsolètes et supprimées](rn/using/deprecated-features.md) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Définir la période d'un rapport
 description: La période de votre rapport permet de filtrer les données en fonction des dates choisies.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '205'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 Avant de lancer un rapport ou d&#39;y accéder, vous devez appliquer une période. La période donnée est accessible en haut à droite du rapport.
 
-Par défaut, pour une campagne ou un programme, la période de filtrage commence à la date de début et termine à la date de fin du programme ou de la campagne. Pour une diffusion, la date de début correspond à la date d&#39;envoi et la date de fin correspond à la date d&#39;envoi plus 7 jours.
+Par défaut, pour une campagne ou un programme, la période de filtrage commence à la date de début et termine à la date de fin du programme ou de la campagne. Pour une diffusion, la date de début correspond à la date d&#39;envoi et la date de fin correspond à la date d&#39;envoi plus 7 jours.
 
 Pour modifier le filtre, sélectionnez une date de début et une période ou utilisez la période pré-configurée, telle que la semaine dernière, il y a deux mois, etc.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contrôle des modifications du modèle de données
 description: Découvrez comment diagnostiquer le modèle de données Adobe Campaign.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '62'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '60'
 ht-degree: 100%
 
 ---

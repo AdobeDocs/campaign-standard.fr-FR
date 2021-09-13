@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Calcul de la date d'envoi
 description: Découvrez comment envoyer un message à une date et à une heure précises.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Suivi des performances
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1115'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1113'
 ht-degree: 100%
 
 ---
@@ -35,7 +33,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. Accédez à la liste des activités marketing et créez un workflow. Voir à ce propos la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Accédez à la liste des activités marketing et créez un workflow. Pour plus d&#39;informations, consultez la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Placez une activité **Requête** dans votre workflow, puis ouvrez-la. Consultez la section [Requête](../../automating/using/query.md).
 1. Choisissez une audience, par exemple tous vos clients Gold et cliquez sur **[!UICONTROL Confirmer]** pour enregistrer la requête.
 1. Placez une activité **Segmentation** dans votre workflow, puis ouvrez-la. Consultez la section [Segmentation](../../automating/using/segmentation.md).
@@ -111,7 +109,7 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. Accédez à la liste des activités marketing et créez un workflow. Voir à ce propos la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Accédez à la liste des activités marketing et créez un workflow. Pour plus d&#39;informations, consultez la section [Créer un workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Placez une activité **Requête** dans votre workflow, puis ouvrez-la. Consultez la section [Requête](../../automating/using/query.md).
 1. Choisissez une audience, par exemple les profils âgés de plus de 35 ans, et cliquez sur **[!UICONTROL Confirmer]** pour enregistrer la requête.
 1. Placez une activité **Segmentation** dans votre workflow, puis ouvrez-la. Consultez la section [Segmentation](../../automating/using/segmentation.md).

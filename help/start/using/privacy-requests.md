@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Demandes d'accès à des informations personnelles
 description: Découvrez comment gérer les demandes d'accès à des informations personnelles dans Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Confidentialité
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1734'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1733'
 ht-degree: 100%
 
 ---
@@ -31,7 +29,7 @@ Le droit d&#39;opposition (opt-out) à la vente des informations personnelles, s
 
 ## À propos des demandes d&#39;accès à des informations personnelles {#about-privacy-requests}
 
-Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d&#39;accès et de suppression. Le **droit d&#39;accès** et le **droit à l&#39;oubli** (demande de suppression) sont décrits dans [cette section](../../start/using/privacy-management.md#right-access-forgotten).
+Pour faciliter la préparation à la protection des données, Adobe Campaign permet désormais de gérer les demandes d’accès et de suppression. Le **droit d&#39;accès** et le **droit à l&#39;oubli** (demande de suppression) sont décrits dans [cette section](../../start/using/privacy-management.md#right-access-forgotten).
 
 Pour effectuer ces demandes, vous devez utiliser l&#39;intégration de **Privacy Core Service**. Les demandes d&#39;accès à des informations personnelles transmises par Privacy Core Service à toutes les solutions Experience Cloud sont automatiquement traitées par Campaign via un workflow dédié.
 
@@ -43,7 +41,7 @@ Par conséquent, il est de votre responsabilité, en tant que contrôleur de don
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
+>Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez la section [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
 
 ### Espaces de noms {#namesspaces}
 
@@ -187,9 +185,9 @@ Un consommateur décide, par l&#39;intermédiaire de votre système, qu&#39;il n
 
 >[!IMPORTANT]
 >
->En tant que contrôleur de données, il vous incombe de recevoir la demande du titulaire de données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d&#39;informations sur votre rôle en tant que contrôleur de données, voir [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
+>En tant que contrôleur de données, il vous incombe de recevoir la demande du titulaire de données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et personnes concernées](../../start/using/privacy.md#personal-data).
 
-### Prérequis  pour les tables personnalisées {#ccpa-prerequisite}
+### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
 À compter de la version 19.4, le champ **[!UICONTROL Option d&#39;Opt-out du CCPA]** est fourni dans l&#39;API et l&#39;interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
@@ -217,7 +215,7 @@ Pour plus d&#39;informations sur la façon d&#39;étendre la ressource de profil
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Vérifiez que le champ est disponible sur les détails d&#39;un profil. Voir à ce propos [cette section](#usage).
+1. Vérifiez que le champ est disponible sur les détails d&#39;un profil. Pour plus d’informations, consultez [cette section](#usage).
 
 ### Usage {#usage}
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transfert de fichier
 description: L’activité Transfert de fichier permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 audience: automating
@@ -11,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1252'
 ht-degree: 100%
 
 ---
@@ -80,9 +78,9 @@ Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des par
 Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
 ![](assets/wkf_file_transfer_04.png)
 
-### Configuration avec SFTP {#SFTP-configuration-wf}
+### Configuration avec SFTP {#SFTP-configuration-wf}
 
-Le protocole SFTP permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe.
+Le protocole SFTP permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe.
 
 Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d’accès au fichier à télécharger.
 ![](assets/wkf_file_transfer_07.png)

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Définition de l’audience appropriée
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Lorsque votre contenu est prêt, apprenez à soigneusement définir qui recevra votre message. »
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '516'
 ht-degree: 100%
 
 ---
@@ -46,7 +44,7 @@ Vous pouvez effectuer une diffusion aux destinataires qui sont stockés dans un 
 
 Pour envoyer des messages aux abonnés d&#39;une newsletter, vous pouvez directement cibler les abonnés du service d&#39;information correspondant. En savoir plus dans [cette section](../../audiences/using/about-subscriptions.md).
 
-**Conseil** : créez une audience de type Liste qui cible les abonnés à votre newsletter à l’aide d’un workflow. Vous pouvez ensuite sélectionner cette audience dans une diffusion. Voir à ce propos la section [Création d’une audience de type Liste](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Conseil** : créez une audience de type Liste qui cible les abonnés à votre newsletter à l’aide d’un workflow. Vous pouvez ensuite sélectionner cette audience dans une diffusion. Pour plus d&#39;informations, consultez la section [Création d’une audience de type Liste](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Bons à tirer, profils de test et populations témoins {#proofs-test-control-groups}
 

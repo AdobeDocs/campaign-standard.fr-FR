@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '689'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
@@ -163,7 +160,7 @@ ht-degree: 100%
                         <li>Bulk delivery - bulk - 1</li>
                         <li>Mid-sourcing - midSourcing - 4</li>
                         <li>Description - descriptive - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                         <li>External - external - 0</li>
                      </ul>
                   </td>
@@ -213,7 +210,7 @@ ht-degree: 100%
                         <li>Unique - oneTime - 0</li>
                         <li>Continuous - continuous - 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -252,7 +249,7 @@ ht-degree: 100%
                         <li>Mobile application - pushNotification - 40</li>
                         <li>Transactional SMS - smsLightning - 61</li>
                         <li>Email - email - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -300,7 +297,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -321,7 +318,7 @@ ht-degree: 100%
                         <li>Finished - finished - finished</li>
                         <li>Warning - warning - warning</li>
                         <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -366,9 +363,9 @@ ht-degree: 100%
                         <li>Email - email - 0</li>
                         <li>Phone - phone - 2</li>
                         <li>Direct mail - paper - 3</li>
-                        <li>Mobile application - pushNotification - 40</li>
+                        <li>Application mobile - pushNotification - 40</li>
                         <li>Other - other - 120</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -409,7 +406,7 @@ ht-degree: 100%
                   <td>
                      <ul>
                         <li>High - high - 20</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Normal - normal - 10</li>
                      </ul>
                   </td>
@@ -503,7 +500,7 @@ ht-degree: 100%
                         <li>Stopped - cancelled - 85</li>
                         <li>Personalization in progress - messagePreparation - 22</li>
                         <li>Target ready - targetReady - 15</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitration in progress - targetArbitration - 13</li>
                      </ul>
                   </td>
@@ -574,12 +571,12 @@ ht-degree: 100%
                   <td>enumeration (string) (255)</td>
                   <td>
                      <ul>
-                        <li>In progress - started - started</li>
+                        <li>En cours - démarré - commencé</li>
                         <li>Editing - edition - edition</li>
                         <li>Finished - finished - finished</li>
                         <li>Warning - warning - warning</li>
                         <li>Erroneous - error - error</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>

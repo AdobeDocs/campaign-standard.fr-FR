@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Construire un workflow
 description: Cette section détaille les principes généraux et les bonnes pratiques pour la création d’un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '995'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '994'
 ht-degree: 100%
 
 ---
@@ -53,7 +50,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 
    >[!NOTE]
    >
-   >Chaque activité marketing propose plusieurs types par défaut. Ceux-ci permettent de pré-configurer certains paramètres en fonction de vos besoins. Voir à ce propos la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
+   >Chaque activité marketing propose plusieurs types par défaut. Ceux-ci permettent de pré-configurer certains paramètres en fonction de vos besoins. Pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
 
 1. Renseignez les propriétés générales du workflow.
 
@@ -69,7 +66,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 
    Pour trouver plus facilement les workflows qui ne fonctionnent pas de la manière attendue et résoudre les problèmes, Adobe recommande d’attribuer aux workflows des libellés et des noms adéquats. Renseignez également le champ de description du workflow pour que l’opérateur puisse facilement comprendre son objectif.
 
-1. Validez la création de l’activité, dont le tableau de bord s’affiche alors. Voir à ce propos la section [Interface des workflows](../../automating/using/workflow-interface.md).
+1. Validez la création de l’activité, dont le tableau de bord s’affiche alors. Pour plus d&#39;informations, consultez la section [Interface des workflows](../../automating/using/workflow-interface.md).
 
 1. Une fois le workflow prêt à être configuré, vous pouvez accéder à d’autres options en cliquant sur le bouton **[!UICONTROL Éditer les propriétés]**.
 

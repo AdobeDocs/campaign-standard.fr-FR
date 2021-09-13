@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Requête incrémentale
 description: L'activité Requête incrémentale permet de filtrer et d'extraire une population d'éléments de la base de données Adobe Campaign.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '664'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '663'
 ht-degree: 100%
 
 ---
@@ -31,7 +28,7 @@ Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la popula
 
 L’activité utilise l’outil d’édition de requêtes, dont le fonctionnement est détaillé dans une [section dédiée](../../automating/using/editing-queries.md#about-query-editor).
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 Une **[!UICONTROL Requête incrémentale]** doit être associée à un **[!UICONTROL Planificateur]** afin de définir la récurrence de l&#39;exécution du workflow, et donc de la requête.
 
@@ -73,6 +70,6 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 1. Vous pouvez définir des **[!UICONTROL Données additionnelles]** pour la population ciblée via un onglet dédié. Ces données sont stockées dans des colonnes additionnelles et sont exploitables uniquement pour le workflow en cours. Vous pouvez notamment ajouter des données provenant des tables de la base Adobe Campaign liées à la dimension de ciblage de la requête. Consultez la section [Enrichir des données](../../automating/using/query.md#enriching-data).
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-## Enrichir des données {#enriching-data}
+## Enrichir des données  {#enriching-data}
 
 De la même manière que pour une requête, vous pouvez enrichir les données issues d&#39;une **[!UICONTROL Requête incrémentale]**. Consultez la section [Enrichir des données](../../automating/using/query.md#enriching-data).

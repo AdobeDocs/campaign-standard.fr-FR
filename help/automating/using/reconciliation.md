@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Réconciliation
 description: L'activité Réconciliation permet de relier des données non identifiées à des ressources existantes.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '509'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Réconciliation]** permet de relier des données non identifiées à des ressources existantes.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée à des fins de Data Management et répond à deux cas d&#39;utilisation distincts :
 
@@ -55,7 +52,7 @@ L&#39;activité **[!UICONTROL Réconciliation]** peut par exemple être placée 
 
 ## Configuration {#configuration}
 
-1. Placez une activité **[!UICONTROL Réconciliation]** dans votre workflow, à la suite d&#39;une transition contenant une population dont la dimension de ciblage ne provient pas directement d&#39;Adobe Campaign. Voir à ce sujet [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Placez une activité **[!UICONTROL Réconciliation]** dans votre workflow, à la suite d&#39;une transition contenant une population dont la dimension de ciblage ne provient pas directement d&#39;Adobe Campaign. Pour plus d’informations, consultez [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 1. Si vous souhaitez définir des liens entre les données entrantes et d&#39;autres dimensions de la base, accédez à l&#39;onglet **[!UICONTROL Liens]**.
 

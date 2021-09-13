@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edition avancée d'expressions
 description: L'assistant d'édition de requêtes permet de définir des expressions avancées.
 audience: automating
@@ -11,23 +9,22 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1096'
 ht-degree: 100%
 
 ---
 
-# Edition avancée d&#39;expressions{#advanced-expression-editing}
+# Édition avancée d&#39;expressions{#advanced-expression-editing}
 
-## A propos de l&#39;édition avancée d&#39;expressions {#about-advanced-expression-editing}
+## À propos de l&#39;édition avancée d&#39;expressions {#about-advanced-expression-editing}
 
 L&#39;édition d&#39;une expression consiste à saisir manuellement des conditions pour former une règle.
 
 Ce mode permet d&#39;utiliser des fonctions avancées. Ces fonctions permettent de manipuler les valeurs utilisées afin de réaliser des requêtes spécifiques : manipulation de dates, de chaînes, de champs numériques, tris, etc.
 
-Il est également possible d’utiliser des variables d’événements de workflow lors de l’édition d’une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
+Il est également possible d’utiliser des variables d’événements de workflow lors de l’édition d’une expression. Pour plus d&#39;informations, consultez la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
 
 L&#39;édition d&#39;expressions peut être utilisée lors des opérations suivantes :
 
@@ -44,7 +41,7 @@ L&#39;édition avancée d&#39;expressions vous permet de définir manuellement u
 
 L&#39;édition des expressions peut être utilisée dans la fenêtre Audience lors de la création d&#39;un email ou dans une activité de type Requête lors de la création d&#39;un workflow.
 
-1. Accédez à la fenêtre d&#39;édition d&#39;expression par l&#39;un des moyens décrits dans la section [A propos de l&#39;édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Elle se compose des éléments suivants :
+1. Accédez à la fenêtre d&#39;édition d&#39;expression par l&#39;un des moyens décrits dans la section [À propos de l&#39;édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing). Elle se compose des éléments suivants :
 
    * un champ de saisie, dans lequel l&#39;expression est définie
    * la liste des champs disponibles, utilisables dans l&#39;expression, et correspondant à la dimension de ciblage de la requête (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)).
@@ -56,7 +53,7 @@ L&#39;édition des expressions peut être utilisée dans la fenêtre Audience lo
 
    En double-cliquant sur un champ ou une fonction, celui-ci est ajouté à l&#39;expression à l&#39;endroit où est placé le curseur de saisie.
 
-   Il est possible d&#39;utiliser les variables d&#39;événements des workflows pour créer une expression. Voir à ce propos la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
+   Il est possible d&#39;utiliser les variables d&#39;événements des workflows pour créer une expression. Pour plus d&#39;informations, consultez la section [Personnaliser les activités avec des variables d&#39;événements](../../automating/using/customizing-workflow-external-parameters.md).
 
 1. Si besoin, donnez à votre règle un nom spécifique. Le nom saisi apparaîtra au niveau de la règle dans l&#39;espace de travail de l&#39;outil d&#39;édition de requêtes.
 
@@ -96,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 Dans cet exemple sont ciblés les profils dont la date de création correspond au mois et à l&#39;année courants.
 
-### Syntaxe JavaScript {#javascript-syntax}
+### Syntaxe JavaScript   {#javascript-syntax}
 
 Lors de la définition des conditions de visibilité d&#39;un bloc de type texte de l&#39;éditeur de contenus HTML, vous devez utiliser une expression dont la syntaxe est de type JavaScript.
 
@@ -109,8 +106,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
    >[!NOTE]
-   >
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -159,7 +155,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> permet de retrouver tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
@@ -173,7 +169,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> permet de retrouver les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 

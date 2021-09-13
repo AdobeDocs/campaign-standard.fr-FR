@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour de la base de données avec des données externes
 description: Ce cas pratique montre comment ajouter ou mettre à jour les profils de la base de données Adobe Campaign avec les données récupérées depuis le fichier.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '111'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '110'
 ht-degree: 100%
 
 ---

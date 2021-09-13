@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Identifier des doublons avant une diffusion
 description: L'exemple suivant illustre une déduplication permettant d'exclure les doublons d'une cible avant l'envoi d'un email. Cela permet d'éviter d'envoyer une communication plusieurs fois à un même profil.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: a09b101b-f76f-4377-9854-1fcffaad4f9a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '288'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---

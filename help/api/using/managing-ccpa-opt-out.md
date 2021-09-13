@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion du droit d’opposition du CCPA
 description: Découvrez comment gérer le droit d’opposition du CCPA avec les API
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '149'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
 
-# Gestion du droit d’opposition du CCPA {#managing-ccpa-optout}
+# Gestion du droit d&#39;opposition du CCPA {#managing-ccpa-optout}
 
 Il est possible de surveiller et gérer l’état du droit d’opposition (opt-out) à la vente d’informations personnelles du CCPA à l’aide de l’attribut de profil **ccpaOptOut** et des valeurs « true » ou « false » :
 
@@ -31,7 +28,7 @@ Il est possible de surveiller et gérer l’état du droit d’opposition (opt-o
 >
 >L’attribut « Option d’Opt-out du CCPA » n’est disponible qu’à partir de la version 19.4. Pour les environnements 19.3, vous devez développer la ressource Profiles et ajouter un champ booléen. Ce champ sera ajouté à l’API avec le libellé choisi. Nous vous suggérons d’utiliser « Option d’Opt-out du CCPA ».
 >
->Pour plus d&#39;informations à ce sujet, consultez la [documentation sur les demandes d&#39;accès à des informations personnelles](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>Pour plus d’informations, consultez la [documentation sur les demandes d&#39;accès à des informations personnelles](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Appeler un workflow avec des paramètres externes
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1049'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
 
-# Utilisation :{#use-case}
+# Cas pratique {#use-case}
 
 Le cas pratique ci-dessous vous présente comment appeler un workflow avec des paramètres au sein de vos workflows.
 
@@ -32,7 +29,7 @@ Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessou
 
 ![](assets/extsignal_uc_process.png)
 
-## Prérequis {#prerequisites}
+## Conditions préalables requises {#prerequisites}
 
 Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec une activité **[!UICONTROL Signal externe]** dans chacun d’eux. Ce faisant, vous pourrez cibler ces activités Signal lors de l’appel des workflows.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main des API de Campaign Standard
 description: Créez des intégrations et construisez votre propre écosystème en interfaçant Campaign avec un ensemble de technologies.
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
 
-# Prise en main des API de Campaign Standard{#get-started-apis}
+# Prise en main des API de Campaign Standard {#get-started-apis}
 
 Les API de Campaign Standard vous permettent de **créer des intégrations** pour Adobe Campaign Standard et de **construire votre propre écosystème** en interfaçant l’application avec l’ensemble des technologies que vous utilisez.
 

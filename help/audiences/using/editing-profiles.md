@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Editer des profils
 description: Découvrez comment éditer des profils existants et accéder aux informations sur les contacts, les préférences en matière de canaux, le tracking, les abonnements, etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profils
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '331'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '330'
 ht-degree: 100%
 
 ---

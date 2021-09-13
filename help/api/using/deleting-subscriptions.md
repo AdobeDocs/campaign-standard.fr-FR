@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Suppression des abonnements
 description: Découvrez comment supprimer des abonnements avec les API.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## Suppression d’un abonnement de service pour un profil spécifique    {#deleting-service-subscription}
+## Suppression d’un abonnement de service pour un profil spécifique {#deleting-service-subscription}
 
 Cette procédure comporte trois étapes.
 

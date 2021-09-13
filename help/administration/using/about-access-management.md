@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des accès
 description: Gérez les opérateurs d'Adobe Campaign à l'aide des rôles, des groupes et des entités organisationnelles.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---

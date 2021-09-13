@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Génération d’un fichier CSV pour les notifications push multilingues avec Campaign Standard
 description: Le téléchargement d’un fichier CSV pour générer du contenu à diffuser est une fonctionnalité utilisée pour prendre en charge les notifications push multilingues.
 audience: channels
@@ -10,9 +8,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1142'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1141'
 ht-degree: 100%
 
 ---

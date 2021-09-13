@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l’intégration Campaign-Experience Manager
+title: À propos de l’intégration Campaign-Experience Manager
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
-workflow-type: ht
-source-wordcount: '640'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '639'
 ht-degree: 100%
 
 ---
 
-# A propos de l’intégration Campaign-Experience Manager{#integrating-with-experience-manager}
+# À propos de l’intégration Campaign-Experience Manager{#integrating-with-experience-manager}
 
 Cette intégration entre Adobe Campaign Standard et Experience Manager vous permet d&#39;utiliser du contenu créé dans Adobe Experience Manager dans vos emails Adobe Campaign.
 

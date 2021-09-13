@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion Notification push
 description: L'activité Diffusion Notification push permet de paramétrer l'envoi d'une notification push unique ou récurrente dans un workflow.
 audience: automating
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '815'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '814'
 ht-degree: 100%
 
 ---
 
-# Diffusion Notification push{#push-notification-delivery}
+# Diffusion notification push{#push-notification-delivery}
 
 ## Description {#description}
 
@@ -31,7 +28,7 @@ L&#39;activité **[!UICONTROL Notification push]** permet de paramétrer l&#39;e
 * **Les notifications envoyées une seule fois sont des diffusions standard de notification push sur des applications mobiles, envoyées une seule fois.**
 * **Les notifications récurrentes permettent d’envoyer plusieurs fois sur une période définie une même notification push à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Notification push]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;une notification push à une cible calculée dans le même workflow.
 

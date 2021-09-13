@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création de modèles de workflow pour importer des données
 description: Découvrez comment créer des modèles de workflow pour importer des données.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1304'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1303'
 ht-degree: 100%
 
 ---
@@ -124,7 +121,7 @@ Par exemple :
       >
       >Si vous envisagez d’envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l’opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ **[postalAddress/@addrDefined]** comme **[!UICONTROL Destination]**. Pour plus d’informations sur les courriers et l’utilisation de l’option **[!UICONTROL Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
 
-1. Après la troisième transition de l’activité **[!UICONTROL Segmentation]**, ajoutez une activité **[!UICONTROL Extraction de fichier]** et une activité **[!UICONTROL Transfert de fichier]** si vous voulez tracker les données non insérées dans la base de données. Paramétrez ces activités afin d’exporter la colonne dont vous avez besoin et de transférer le fichier sur un serveur FTP ou SFTP, où vous pourrez le récupérer.
+1. Après la troisième transition de l’activité **[!UICONTROL Segmentation]**, ajoutez une activité **[!UICONTROL Extraction de fichier]** et une activité **[!UICONTROL Transfert de fichier]** si vous voulez tracker les données non insérées dans la base de données. Paramétrez ces activités afin d’exporter la colonne dont vous avez besoin et de transférer le fichier sur un serveur FTP ou SFTP, où vous pourrez le récupérer.
 1. Ajoutez une activité **[!UICONTROL Fin]** et enregistrez le modèle de workflow.
 
 Le modèle est à présent utilisable et disponible pour chaque nouveau workflow. Il suffira alors de spécifier le fichier contenant les données à importer dans l’activité **[!UICONTROL Chargement de fichier]**.

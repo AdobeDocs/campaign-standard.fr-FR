@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentation en fonction des tranches d’âge
 description: Cette page présente une segmentation de profils de la base de données en fonction de leur tranche d’âge. Le but du workflow est d'envoyer un email distinct pour chaque tranche d'âge.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '203'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
-# Segmentation en fonction des tranches d’âge {#segmentation-age-groups}
+# Segmentation en fonction des tranches d&#39;âge {#segmentation-age-groups}
 
 L&#39;exemple suivant illustre une segmentation de profils de la base de données en fonction de leur tranche d&#39;âge.
 

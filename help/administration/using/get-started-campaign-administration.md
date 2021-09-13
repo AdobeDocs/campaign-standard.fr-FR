@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main de l’administration de Campaign Standard
 description: Découvrez la gestion des utilisateurs et des autorisations, les conseils de surveillance, les configurations spécifiques à un canal et les instructions de paramétrage d’application.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '644'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---

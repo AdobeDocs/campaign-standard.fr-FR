@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Supprimer une ressource
 description: 'Découvrez comment supprimer une ressource. '
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '252'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---

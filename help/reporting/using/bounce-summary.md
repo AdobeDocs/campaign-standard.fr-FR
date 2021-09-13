@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Synthèse des bounces
 description: Grâce au rapport d’usine Synthèse des bounces, découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 03ea2f20-959c-497e-bd71-4e77132d712e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '289'
 ht-degree: 100%
 
 ---

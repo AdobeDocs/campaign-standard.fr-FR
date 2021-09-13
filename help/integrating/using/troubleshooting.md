@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Résolution des problèmes
 description: Découvrez comment résoudre les problèmes liés au partage des ressources.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '368'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '367'
 ht-degree: 100%
 
 ---

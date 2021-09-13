@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main de la création de rapports dynamiques
 description: Analysez le succès de vos campagnes dans des rapports dynamiques intégrés ou personnalisés.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '373'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -42,9 +39,9 @@ Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouve
 En savoir plus :
 
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
-* [Interface du reporting](../../reporting/using/reporting-interface.md)
+* [Interface de reporting](../../reporting/using/reporting-interface.md)
 
-## Créer des rapports {#build-reports}
+## Créer vos rapports {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -73,13 +70,13 @@ En savoir plus :
 * [Ajouter des panneaux](../../reporting/using/adding-panels.md)
 * [Ajouter des visualisations](../../reporting/using/adding-visualizations.md)
 * [Ajouter des composants](../../reporting/using/adding-components.md)
-* [Création d’une dimension de profil personnalisé](../../reporting/using/creating-a-custom-profile-dimension.md)
-* [Création d’un rapport à partir de segments de workflow](../../reporting/using/creating-a-report-workflow-segment.md)
+* [Création d&#39;une dimension de profil personnalisé](../../reporting/using/creating-a-custom-profile-dimension.md)
+* [Création d&#39;un rapport à partir de segments de workflow](../../reporting/using/creating-a-report-workflow-segment.md)
 
-## Autres ressources
+## Ressources supplémentaires
 
 * [Export des logs](../../automating/using/exporting-logs.md)
-* [À propos de l’intégration Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
+* [À propos de l&#39;intégration Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
 ## Tutoriel vidéo {#video}
 

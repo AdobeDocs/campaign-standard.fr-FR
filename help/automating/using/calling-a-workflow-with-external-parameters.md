@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Vue d’ensemble '
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '192'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '191'
 ht-degree: 100%
 
 ---
 
-# Présentation {#calling-a-workflow-with-external-parameters}
+# Vue d’ensemble {#calling-a-workflow-with-external-parameters}
 
 Campaign Standard vous permet d’appeler un workflow avec des paramètres (un nom d’audience à cibler, un nom de fichier à importer, un contenu de message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
 

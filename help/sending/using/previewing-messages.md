@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prévisualiser un message
 description: Découvrez comment prévisualiser un message dans l’éditeur de contenu ou le Concepteur d’email.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Adresse de contrôle
+feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '652'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '650'
 ht-degree: 100%
 
 ---
@@ -59,7 +57,7 @@ Pour les **SMS**, Campaign Standard vous permet de prévisualiser les messages �
 
 Pour prévisualiser un SMS à l’aide de profils de test, procédez comme suit :
 
-1. Une fois que vous avez renseigné les **[!UICONTROL Propriétés]** de votre SMS et sélectionné vos audiences, vous pouvez personnaliser votre diffusion. Voir à ce sujet [cette section](../../channels/using/personalizing-sms-messages.md).
+1. Une fois que vous avez renseigné les **[!UICONTROL Propriétés]** de votre SMS et sélectionné vos audiences, vous pouvez personnaliser votre diffusion. Pour plus d’informations, consultez [cette section](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 

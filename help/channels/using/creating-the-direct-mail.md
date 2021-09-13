@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer le courrier
 description: Suivez ces étapes pour créer une diffusion courrier dans Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Courrier
+feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '622'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -97,6 +95,6 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
 Vous pouvez à présent envoyer le fichier d&#39;extraction à l&#39;opérateur de services postaux. Pour cela, vous disposez de plusieurs options :
 
 * Vous pouvez l&#39;envoyer en pièce jointe dans un email classique.
-* Vous pouvez l&#39;envoyer via Adobe Campaign : créez votre diffusion courrier dans un [workflow](../../automating/using/direct-mail-delivery.md) de campagne et ajoutez une activité **[!UICONTROL Transfert de fichier]** pour envoyer le fichier via FTP, par exemple. Voir à ce propos la section [Transfert de fichier](../../automating/using/transfer-file.md).
+* Vous pouvez l&#39;envoyer via Adobe Campaign : créez votre diffusion courrier dans un [workflow](../../automating/using/direct-mail-delivery.md) de campagne et ajoutez une activité **[!UICONTROL Transfert de fichier]** pour envoyer le fichier via FTP, par exemple. Pour plus d&#39;informations, consultez la section [Transfert de fichier](../../automating/using/transfer-file.md).
 
 L’opérateur récupère la liste des adresses erronées et l’envoie à Adobe Campaign qui place automatiquement ces adresses dans la liste bloquée. Voir [Retour à l’expéditeur](../../channels/using/return-to-sender.md).

@@ -1,26 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des règles de typologie
 description: Découvrez comment utiliser les règles de typologie.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Règles de typologie
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '576'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '574'
 ht-degree: 100%
 
 ---
 
 # Gestion des règles de typologie {#managing-typology-rules}
 
-## A propos des règles de typologie {#about-typology-rules}
+## À propos des règles de typologie {#about-typology-rules}
 
  Les règles de typologie sont des règles d’entreprise qui vous permettent d’effectuer des vérifications et filtrages de votre message avant de l’envoyer. Les types de règles de typologie disponibles sont les suivants :
 
@@ -80,7 +78,7 @@ Cependant, vous pouvez adapter l&#39;ordre d&#39;exécution des règles de même
 
 Par exemple, une règle de filtrage dont l&#39;ordre d&#39;exécution est positionné à 20 sera exécutée avant une règle de filtrage dont l&#39;ordre d&#39;exécution est positionné à 30.
 
-Dans les **[!UICONTROL Propriétés]** d&#39;une règle de typologie, vous pouvez définir son ordre d&#39;exécution. Lorsque plusieurs règles doivent être appliquées, l&#39;ordre d&#39;exécution de chaque règle détermine celles à traiter en premier. Voir à ce propos la section [Ordre d&#39;exécution des règles de typologie](#typology-rules-execution-order).
+Dans les **[!UICONTROL Propriétés]** d&#39;une règle de typologie, vous pouvez définir son ordre d&#39;exécution. Lorsque plusieurs règles doivent être appliquées, l&#39;ordre d&#39;exécution de chaque règle détermine celles à traiter en premier. Pour plus d&#39;informations, consultez la section [Ordre d&#39;exécution des règles de typologie](#typology-rules-execution-order).
 
 ![](assets/typology_rule-active.png)
 

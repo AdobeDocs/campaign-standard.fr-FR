@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Approvisionnement et configuration de l'intégration avec Audience Manager ou People core service
 description: 'Découvrez comment configurer l''intégration d''Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d''Adobe Experience Cloud. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Intégration de People Core Service
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '791'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
 
 ---

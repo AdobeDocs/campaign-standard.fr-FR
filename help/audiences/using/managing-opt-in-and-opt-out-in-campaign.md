@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des processus d'opt-in et d’opt-out dans Campaign
 description: Découvrez la gestion des processus d'opt-in et d’opt-out dans Adobe Campaign
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '330'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Signal externe et import de données
 description: L’exemple suivant illustre l’activité Signal externe utilisée avec l’import de données.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '232'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---

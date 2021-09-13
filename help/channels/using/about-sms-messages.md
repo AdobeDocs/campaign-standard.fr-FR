@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos des SMS
+title: À propos des SMS
 description: Découvrez les spécificités principales du canal SMS dans Adobe Campaign.
 audience: channels
 content-type: reference
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -34,7 +32,7 @@ La création d&#39;un SMS est possible depuis le menu **[!UICONTROL Activités m
 
 Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Pour plus d&#39;informations, consultez la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * un modèle de diffusion correctement lié à ce compte externe.
 
 **Rubriques connexes :**

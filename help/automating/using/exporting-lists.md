@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Export de listes
 description: 'Adobe Campaign vous permet d''exporter les données affichées sous forme de listes depuis un écran de présentation directement dans un fichier en vue d''une utilisation ultérieure. '
 audience: automating
@@ -10,11 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +40,7 @@ Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste
 
    Une popup de confirmation s&#39;affiche. Une fois que vous avez confirmé l&#39;export, le fichier est automatiquement téléchargé sur votre poste.
 
-Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : profileBase_20150426_120253.txt pour un export de profils réalisé le 26 avril 2015 à 12h02 et 53 secondes. Il est encodé au format UTF-8.
+Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : le nom profileBase_20150426_120253.txt sera appliqué à une exportation de profils effectuée le 26 avril 2015 à 12:02:53. Il est encodé au format UTF-8.
 
 Les valeurs numériques et les dates tiennent compte de la locale de l&#39;utilisateur qui exécute l&#39;export. Par exemple : JJ-MM-YYYY ou MM-JJ-YYYY.
 

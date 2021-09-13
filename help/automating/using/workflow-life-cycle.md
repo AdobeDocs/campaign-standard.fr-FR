@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Cycle de vie d'un workflow
 description: En savoir plus sur le cycle de vie d’un workflow
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '201'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---

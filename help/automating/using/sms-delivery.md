@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion SMS
 description: L'activité Diffusion SMS permet de paramétrer l'envoi d'un SMS unique ou récurrent dans un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '829'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '828'
 ht-degree: 100%
 
 ---
@@ -32,7 +29,7 @@ L&#39;activité **[!UICONTROL Diffusion SMS]** permet de paramétrer l&#39;envoi
 * **Les SMS uniques sont des SMS standard, envoyés une seule fois.**
 * **Les SMS récurrents permettent d’envoyer plusieurs fois sur une période définie un même SMS à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Diffusion SMS]** est généralement utilisée afin d&#39;automatiser l&#39;envoi d&#39;un SMS à une cible calculée dans le même workflow.
 
@@ -42,7 +39,7 @@ Les destinataires du SMS sont définis en amont de l&#39;activité dans le même
 
 La préparation du message est déclenchée selon les paramètres d&#39;exécution du workflow. Depuis le tableau de bord du message, vous pouvez choisir de demander ou non une confirmation manuelle pour envoyer le message (requise par défaut). Vous pouvez lancer manuellement le workflow ou bien placer une activité de planification afin d&#39;en automatiser l&#39;exécution.
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 1. Placez une activité **[!UICONTROL Diffusion SMS]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -60,7 +57,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
 1. Sélectionnez un type de SMS. Les types de SMS sont issus des modèles de SMS définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du SMS. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de la diffusion dans le workflow est mis à jour avec le libellé du SMS.
-1. Définissez le contenu du SMS. Consultez la section concernant la [création d&#39;un SMS](../../channels/using/creating-an-sms-message.md).
+1. Définition du contenu du SMS. Consultez la section concernant la [création d&#39;un SMS](../../channels/using/creating-an-sms-message.md).
 1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion SMS]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l&#39;onglet **[!UICONTROL Général]** des options avancées de l&#39;activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité) puis cochez l&#39;une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.

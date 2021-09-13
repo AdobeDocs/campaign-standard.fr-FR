@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface du reporting
 description: Découvrez l'interface du reporting dynamique. Apprenez également comment passer d'un onglet et d'un menu à un autre.
 audience: reporting
@@ -10,17 +8,16 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '775'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '774'
 ht-degree: 100%
 
 ---
 
-# Interface du reporting{#reporting-interface}
+# Interface de reporting{#reporting-interface}
 
-La barre d&#39;outils supérieure vous permet de modifier, d&#39;enregistrer ou d&#39;imprimer votre rapport, par exemple.
+La barre d’outils supérieure vous permet de modifier, d’enregistrer ou d’imprimer votre rapport, par exemple.
 
 ![](assets/dynamic_report_toolbar.png)
 
@@ -58,8 +55,8 @@ Les onglets de gauche vous permettent de créer votre rapport et de filtrer les 
 
 Ces onglets vous donnent accès aux éléments suivants :
 
-* **[!UICONTROL Panneaux]** : ajoutez un panneau vide ou une forme libre à votre rapport pour commencer à filtrer les données. Voir à ce propos la section Ajouter des panneaux.
-* **[!UICONTROL Visualisations]** : déposez une sélection d’éléments de visualisation pour donner à votre rapport une dimension graphique. Voir à ce propos la section Ajouter des visualisations.
+* **[!UICONTROL Panneaux]** : ajoutez un panneau vide ou une forme libre à votre rapport pour commencer à filtrer les données. Pour plus d&#39;informations, consultez la section Ajouter des panneaux.
+* **[!UICONTROL Visualisations]** : déposez une sélection d’éléments de visualisation pour donner à votre rapport une dimension graphique. Pour plus d&#39;informations, consultez la section Ajouter des visualisations.
 * **[!UICONTROL Composants]** : permettent de personnaliser les rapports grâce à différentes dimensions, mesures, segments et périodes.
 
 ## Barre d&#39;outils {#toolbar}
@@ -104,7 +101,7 @@ L&#39;onglet **Insérer** vous permet de personnaliser vos rapports en ajoutant 
 * **Nouveau panneau vierge** : ajoute un nouveau panneau vierge à votre tableau de bord.
 * **Nouvelle structure libre** : ajoute une nouvelle structure libre à votre tableau de bord.
 * **Nouvelle ligne** : ajoute un nouveau graphique linéaire à votre tableau de bord.
-* **Nouvelle barre** : ajoute un nouveau graphique en barres à votre tableau de bord.
+* **Nouvelle barre** : ajoute un nouveau graphique à barre à votre tableau de bord.
 
 ### Onglet Partager     {#share-tab}
 
@@ -150,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

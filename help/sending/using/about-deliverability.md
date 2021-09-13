@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À propos de la délivrabilité dans Adobe Campaign Standard
 description: Découvrez les concepts et bonnes pratiques liés à la délivrabilité, ainsi que les outils proposés par Adobe Campaign Standard pour optimiser l'envoi de vos diffusions.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '746'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '745'
 ht-degree: 100%
 
 ---
@@ -36,7 +34,7 @@ En règle générale, les problèmes de délivrabilité sont liés aux mesures d
 
 >[!NOTE]
 >
->Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr), qui est mis à jour régulièrement.
+>Les FAI sont sans cesse obligés de développer de nouvelles techniques de filtrage sophistiquées afin de protéger leurs clients contre les spammeurs. Par conséquent, les critères et les règles qui caractérisent la délivrabilité des emails sont en constante évolution. Prenez soin de consulter le [Guide des bonnes pratiques relatives à la délivrabilité d&#39;Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html), qui est mis à jour régulièrement.
 
 ### Taux de délivrabilité
 
@@ -46,7 +44,7 @@ Avec Adobe Campaign, le taux de délivrabilité dépend de nombreux facteurs, pa
 
 * Configuration correcte de vos instances : contactez votre représentant Adobe pour obtenir de l&#39;aide.
 * Configuration réseau légitime : consultez [cette section](../../sending/using/optimize-delivery.md#network-config) ainsi que la section [Configuration et stratégie du domaine](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#domain-setup-and-strategy).
-* Votre réputation d&#39;adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
+* Votre réputation d’adresse IP : consultez la section [Stratégie IP](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#ip-strategy).
 * Qualité des adresses ciblées : consultez la section [Gestion des quarantaines](../../sending/using/optimize-delivery.md#quarantine-management).
 * Le faible taux de [plaintes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html?lang=fr) et de [hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces).
 * Le contenu de votre message : consultez la section [Contrôle du contenu des emails](../../sending/using/control-email-content.md).

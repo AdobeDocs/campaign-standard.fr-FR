@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Utiliser des listes de produits dans un message transactionnel    '
 description: Découvrez comment utiliser les listes de produits dans un contenu de message transactionnel.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '923'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '921'
 ht-degree: 100%
 
 ---
@@ -36,12 +34,12 @@ Vous pouvez également regarder [cette série de vidéos](https://experienceleag
 
 ## Définir une liste de produits           {#defining-a-product-listing}
 
-Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Voir à ce propos la section [Définir des collections de données](../../channels/using/configuring-transactional-event.md#defining-data-collections).
+Avant de pouvoir utiliser une liste de produits dans un message transactionnel, vous devez définir au niveau de l’événement la liste des produits et les champs de chaque produit de la liste que vous souhaitez afficher. Pour plus d&#39;informations, consultez la section [Définir des collections de données](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Dans le message transactionnel, cliquez sur le bloc **[!UICONTROL Contenu]** pour modifier le contenu de l’email.
-1. Placez un composant de structure dans l’espace de travail. Voir à ce propos la section [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Placez un composant de structure dans l’espace de travail. Pour plus d&#39;informations, consultez la section [Définir la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d’image et un composant de bouton. Voir à ce propos la section [Utiliser des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+   Par exemple, sélectionnez un composant de structure à une colonne et ajoutez un composant de texte, un composant d’image et un composant de bouton. Pour plus d&#39;informations, consultez la section [Utiliser des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Sélectionnez le composant de structure que vous venez de créer et cliquez sur l’icône **[!UICONTROL Activer la liste de produits]** dans la barre d’outils contextuelle.
 
@@ -131,7 +129,7 @@ Pour plus d’informations sur la création d’une collection et de champs asso
 
    Le contenu de remplacement sera affiché si la collection est vide lorsque l’événement est déclenché, par exemple lorsqu’un client ne possède aucun produit dans son panier.
 
-1. Dans le volet Paramètres, éditez les styles de la liste de produits. Voir à ce propos la section [Gérer les styles d&#39;email](../../designing/using/styles.md).
+1. Dans le volet Paramètres, éditez les styles de la liste de produits. Pour plus d&#39;informations, consultez la section [Gérer les styles d&#39;email](../../designing/using/styles.md).
 1. Prévisualisez l’email en utilisant un profil de test associé à l’événement transactionnel adéquat et pour lequel vous avez défini des données de collection. Par exemple, ajoutez les informations suivantes dans la section **[!UICONTROL Données de l’événement]** pour le profil de test que vous souhaitez utiliser :
 
    ![](assets/message-center_loop_test-profile_payload.png)

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À propos des typologies et des règles de typologie
 description: Découvrez comment les typologies et les règles de typologie fonctionnent dans Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Règles de typologie
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '192'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '190'
 ht-degree: 100%
 
 ---

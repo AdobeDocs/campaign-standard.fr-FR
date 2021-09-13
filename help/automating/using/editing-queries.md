@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Edition de requêtes
 description: Créez une population grâce aux règles et aux filtres prédéfinis.
 audience: automating
@@ -11,17 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '788'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
 
-# Edition de requêtes{#editing-queries}
+# Édition de requêtes{#editing-queries}
 
-## A propos de l&#39;éditeur de requêtes {#about-query-editor}
+## À propos de l&#39;éditeur de requêtes {#about-query-editor}
 
 L&#39;outil d&#39;édition de requêtes est un assistant permettant de filtrer des données contenues dans la base de données Adobe Campaign.
 
@@ -120,4 +117,4 @@ Vos requêtes sont à présent créées et définies. Vous pouvez créer une pop
 * [Cas pratique : création d’une diffusion email hebdomadaire](../../automating/using/workflow-weekly-offer.md)
 * [Cas pratique : création d’une diffusion segmentée sur la localisation](../../automating/using/workflow-segmentation-location.md)
 * [Cas pratique : création de diffusions avec un complément](../../automating/using/workflow-created-query-with-complement.md)
-* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n&#39;ayant pas ouvert l&#39;email](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)

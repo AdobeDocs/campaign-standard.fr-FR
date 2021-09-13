@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À propos du service Audience Destinations
 description: En savoir plus sur le service Audience Destinations.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '379'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Donnez à vos clients les moyens d’acquérir des expériences en exploitant [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) pour créer des audiences très ciblées basées sur des jeux de données complexes et volumineux. Adobe Experience Platform regroupe les données de profil, de comportement et multi-entités sur des sources en ligne et hors ligne, y compris Adobe Analytics, afin de vous aider à créer une vue à 360 degrés de votre client, ce qui vous permet de gérer efficacement vos expériences client.
 

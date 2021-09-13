@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notifications push transactionnelles
 description: Découvrez comment envoyer des notifications push transactionnelles avec Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1495'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1493'
 ht-degree: 100%
 
 ---
@@ -50,7 +48,7 @@ Pour envoyer une notification push transactionnelle anonyme à tous les utilisat
 L&#39;événement doit contenir les trois éléments suivants :
 
 * Un **jeton d&#39;enregistrement** qui est l&#39;identifiant de l&#39;utilisateur pour une application mobile et un appareil. Il peut ne pas correspondre à un profil de la base de données Adobe Campaign.
-* Un **nom d&#39;application mobile** (un pour tous les appareils : Android et iOS). Il s&#39;agit de l&#39;identifiant de l&#39;application mobile configuré dans Adobe Campaign qui sera utilisé pour la réception des notifications push sur les appareils des utilisateurs. Voir à ce propos la section [Configurer une application mobile](../../administration/using/configuring-a-mobile-application.md).
+* Un **nom d&#39;application mobile** (un pour tous les appareils : Android et iOS). Il s&#39;agit de l&#39;identifiant de l&#39;application mobile configuré dans Adobe Campaign qui sera utilisé pour la réception des notifications push sur les appareils des utilisateurs. Pour plus d&#39;informations, consultez la section [Configurer une application mobile](../../administration/using/configuring-a-mobile-application.md).
 * Une **plateforme push** (&quot;gcm&quot; pour Android et &quot;apns&quot; pour iOS).
 
 Pour configurer l&#39;événement, procédez comme suit :
@@ -218,7 +216,7 @@ Pour modifier ce mapping de ciblage, procédez comme suit :
 
    >[!NOTE]
    >
-   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l&#39;envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
+   >Pour optimiser le temps et les performances de préparation de la diffusion lors de l&#39;envoi de notifications push transactionnelles **basées sur profil**, utilisez le mapping de ciblage **[!UICONTROL Profil - Événement en temps réel pour les notifications push (mapRtEventAppSubRcp)]**.
 
    ![](assets/message-center_push_target-mapping_change.png)
 

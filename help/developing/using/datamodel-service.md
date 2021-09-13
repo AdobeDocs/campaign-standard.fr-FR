@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '215'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -96,7 +93,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -138,7 +135,7 @@ ht-degree: 100%
                      <ul>
                         <li>Viral - viral - 1</li>
                         <li>Newsletter - newsletter - 0</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Cas pratique de la messagerie transactionnelle
 description: Découvrez un exemple complet de la fonctionnalité de messagerie transactionnelle d’Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '528'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---

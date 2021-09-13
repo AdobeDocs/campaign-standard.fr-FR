@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Rapport In-App
 description: Grâce au rapport d'usine In-App, découvrez les performances de vos messages In-App.
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '268'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---

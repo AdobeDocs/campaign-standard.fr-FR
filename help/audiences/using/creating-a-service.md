@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer un service
 description: Découvrez comment créer votre premier service et le configurer pour envoyer des emails de confirmation à vos abonnés.
 audience: audiences
@@ -11,9 +9,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '469'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -28,7 +26,7 @@ Pour configurer un service :
 
 1. Depuis le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]**, accessible via le logo Adobe Campaign, ajoutez un nouveau service ou sélectionnez le service existant de votre choix. Si vous créez un nouveau service, suivez simplement les étapes affichées à l&#39;écran.
 
-   Un modèle de service est disponible par défaut. Ce modèle est pré-paramétré avec des landing pages et des emails de confirmation par défaut. Vous pouvez créer d&#39;autres modèles afin de spécifier des paramètres spécifiques. Voir à ce propos la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
+   Un modèle de service est disponible par défaut. Ce modèle est pré-paramétré avec des landing pages et des emails de confirmation par défaut. Vous pouvez créer d&#39;autres modèles afin de spécifier des paramètres spécifiques. Pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
 
 1. Dans la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service, paramétrez les messages de confirmation pour l&#39;inscription et la désinscription.
 

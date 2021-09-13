@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration des Triggers dans Experience Cloud
 description: 'Découvrez comment configurer l''intégration des Triggers Adobe Experience Cloud pour commencer à envoyer des diffusions personnalisées à vos clients selon leurs comportements précédents. '
 audience: integrating
@@ -10,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '871'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
 
 ---

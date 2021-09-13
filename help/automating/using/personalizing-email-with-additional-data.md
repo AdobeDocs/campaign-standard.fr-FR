@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnaliser un email avec des données additionnelles
 description: Ce cas pratique montre comment ajouter différents types de données additionnelles dans une requête et les utiliser comme champ de personnalisation dans un email.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '496'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '495'
 ht-degree: 100%
 
 ---
 
-# Personnaliser un email avec des données additionnelles {#example--personalizing-an-email-with-additional-data}
+# Personnaliser un e-mail avec des données additionnelles {#example--personalizing-an-email-with-additional-data}
 
 L’exemple suivant illustre l’ajout de différents types de données additionnelles dans une requête et leur utilisation en tant que champ de personnalisation dans un email. Pour plus d’informations sur l’enrichissement des données ciblées par une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md#enriching-data).
 

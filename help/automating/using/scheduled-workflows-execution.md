@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chevauchement de l'exécution de workflows planifiés
 description: Découvrez comment empêcher le chevauchement de l’exécution de workflows planifiés.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '432'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '431'
 ht-degree: 100%
 
 ---

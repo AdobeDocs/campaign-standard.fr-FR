@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour 2017
 description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '4689'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '4688'
 ht-degree: 100%
 
 ---
@@ -402,7 +400,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -515,7 +513,7 @@ _Général_
 
 * Les options d’**[!UICONTROL Autorisation d’accès]** figurent à nouveau dans les propriétés des landing pages.
 * Correction d’une erreur qui était susceptible d’entraîner le rendu d’une ancienne image au lieu de la bonne. Cette erreur se produisait lorsque l’image source avait été mise à jour dans la définition du contenu d’une diffusion ou d’une landing page.
-* Correction d’un problème qui empêchait les utilisateurs d’éditer certains champs dans un compte externe SFTP existant.
+* Correction d’un problème qui empêchait les utilisateurs d’éditer certains champs dans un compte externe SFTP existant.
 * Correction de plusieurs problèmes liés à l’interface utilisateur. Par exemple, les utilisateurs peuvent désormais éditer les attributs des profils et enregistrer les modifications sans rencontrer de problème dans l’interface utilisateur.
 
 _Emails et SMS_
@@ -532,7 +530,7 @@ _Notifications push_
 _Workflows_
 
 * Correction d’une erreur qui était susceptible d’empêcher les prévisualisations des requêtes sur les ressources d’événement (rtEvent, par exemple).
-* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l’activité suivante. Par exemple, transférez le fichier de rejets via un serveur SFTP à l’aide d’une activité **[!UICONTROL Transfert de fichier]** .
+* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l’activité suivante. Par exemple, transférez le fichier de rejets via un serveur SFTP à l&#39;aide d&#39;une activité **[!UICONTROL Transfert de fichier]** .
 * Correction d’une erreur qui était susceptible d’empêcher un utilisateur de limiter la population d’un segment lorsque **[!UICONTROL Ressource temporaire]** était sélectionnée dans l’onglet **[!UICONTROL Général]** de l’activité **[!UICONTROL Segmentation]** .
 * **[!UICONTROL Les activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
 * Correction d’une erreur qui était susceptible d’empêcher le bon fonctionnement de l’option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **[!UICONTROL Union]**.

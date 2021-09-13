@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Récupération des profils
 description: Découvrez comment récupérer les profils à l’aide des API.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
@@ -22,7 +19,7 @@ ht-degree: 100%
 
 La récupération des profils est effectuée avec une requête **GET**.
 
-Vous pouvez ensuite affiner votre recherche à l’aide de filtres, de classements et de paginations. Voir à ce propos la section [Autres opérations](../../api/using/sorting.md).
+Vous pouvez ensuite affiner votre recherche à l’aide de filtres, de classements et de paginations. Pour plus d&#39;informations, consultez la section [Autres opérations](../../api/using/sorting.md).
 
 En outre, les API Campaign Standard vous permettent de rechercher des profils en fonction de l’un de ces champs : email, prénom, nom ou tout champ personnalisé. Voir à ce propos [cette section](#searching-field).
 

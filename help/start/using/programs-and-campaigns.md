@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Programmes et campagnes
-description: Dans Adobe Campaign, les programmes et les campagnes permettent de regrouper et orchestrer les différentes activités marketing qui leur sont associées. Des rapports sur les programmes et les campagnes permettent d'analyser leur impact.
+description: Dans Adobe Campaign, les programmes et les campagnes permettent de regrouper et d'orchestrer les différentes activités marketing qui leur sont associées. Des rapports sur les programmes et les campagnes permettent d'analyser leur impact.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campagnes
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '670'
 ht-degree: 100%
 
 ---
@@ -48,7 +46,7 @@ Le programme correspond au premier niveau de l&#39;organisation. Il peut conteni
 
    ![](assets/programs_and_campaigns_2.png)
 
-   Les types de programme disponibles sont issus des modèles définis dans la section **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de programme.]** Voir à ce propos la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
+   Les types de programme disponibles sont issus des modèles définis dans la section **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de programme.]** Pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
 
 1. Dans l&#39;écran **[!UICONTROL Propriétés]**, saisissez le nom du programme et son identifiant.
 
@@ -76,7 +74,7 @@ Dans les programmes et sous-programmes, vous pouvez ajouter des campagnes. Les c
 
    ![](assets/programs_and_campaigns_7.png)
 
-   Les types de campagne disponibles sont issus des modèles définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de campagne]**. Voir à ce propos la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
+   Les types de campagne disponibles sont issus des modèles définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de campagne]**. Pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
 
 1. Dans l&#39;écran **[!UICONTROL Propriétés]**, saisissez le nom de la campagne et son identifiant.
 1. Sélectionnez une date de début et une date de fin pour la campagne. Ces dates s&#39;appliquent uniquement à la campagne.
@@ -99,6 +97,6 @@ Chaque programme et chaque campagne de la liste sont représentés par un visuel
 
 * Gris : le programme/la campagne n&#39;a pas encore commencé - statut **[!UICONTROL En édition]**.
 * Bleu : le programme/la campagne est en cours - statut **[!UICONTROL En cours]**.
-* Vert : le programme/la campagne est terminé(e) - statut **[!UICONTROL Terminé.]** Par défaut, la date de début de validité est automatiquement renseignée avec la date du jour, et la date de fin est calculée par rapport à la date de début (**J+186 jours**). Vous pouvez modifier ces dates dans les propriétés du programme ou de la campagne.
+* Vert : le programme/la campagne est terminé(e) - statut **[!UICONTROL Terminé.]** Par défaut, la date de début de validité est automatiquement renseignée avec la date du jour, et la date de fin est calculée par rapport à la date de début (**J+186 jours**). Vous pouvez modifier ces dates dans les propriétés du programme ou de la campagne.
 
 ![](assets/programs_and_campaigns.png)

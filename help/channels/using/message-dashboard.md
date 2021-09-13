@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Tableau de bord des messages
 description: Découvrez la composition du tableau de bord d’un message, notamment la barre d’actions et les différents blocs fonctionnels.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: delivery,main
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '611'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -61,7 +59,7 @@ L’écran principal est composé de différents blocs. Cliquez dans un bloc pou
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Déploiement]** : permet de tracker l’état d’avancement de la préparation ou de l’envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Voir à ce propos la section [Confirmer l’envoi](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Déploiement]** : permet de tracker l’état d’avancement de la préparation ou de l’envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Pour plus d&#39;informations, consultez la section [Confirmer l’envoi](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]** : permet de définir la cible principale du message ainsi que les profils de test. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Planning]** : permet de définir la date d’envoi du message. Voir [Planning](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Contenu]** : permet de définir le contenu du message et de le prévisualiser. Voir [Principales étapes pour envoyer un message](../../channels/using/key-steps-to-send-a-message.md).

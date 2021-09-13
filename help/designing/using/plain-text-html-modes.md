@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modification des formats de texte brut, HTML et d'email mobile
 description: Découvrez le texte simple et les modes HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '828'
 ht-degree: 100%
 
 ---
@@ -65,7 +63,7 @@ Vous pouvez affiner le responsive design d&#39;un email en éditant séparément
 
 Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du Concepteur d&#39;email sont présentés plus haut sur cette page.
 
-1. Créez un email et commencez à éditer le contenu. Voir à ce propos la section [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Créez un email et commencez à éditer le contenu. Pour plus d&#39;informations, consultez la section [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Pour accéder à la vue mobile dédiée, cliquez sur le bouton **[!UICONTROL Passer en vue Mobile]**.
 
    ![](assets/email_designer_mobile_view_switch.png)

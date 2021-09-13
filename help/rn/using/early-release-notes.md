@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour initiales
 description: Notes de mise à jour initiales
-feature: Vue d'ensemble
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +21,6 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 >[!CAUTION]
 >
 > Ce contenu est sujet à des modifications sans préavis jusqu&#39;à la date de mise à niveau des environnements d&#39;évaluation. Pour en savoir plus, consultez la [page du calendrier des versions](../../rn/using/release-planning.md).
-
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 <tbody> 
 <tr> 
 <td>
-<p>La nouvelle fonctionnalité Suivi capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Il comprend un moyen en libre-service d’accéder à un historique de données pour vous aider à répondre à des questions telles que :</p>
+<p>La nouvelle fonctionnalité du journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Ceci comprend un accès en libre-service à un historique de données permettant de répondre à des questions, notamment :</p>
 <ul>
-<li>Qu’est-il advenu de ce workflow et qui l’a mis à jour pour la dernière fois ?</li>
-<li>Qui a effectué les dernières modifications ?</li>
+<li>Qu’est-il advenu de ce workflow et qui l’a mis à jour pour la dernière fois ?</li>
+<li>Qui a effectué les dernières modifications ?</li>
 <li>Quel était l'état précédent ?</li>
 </ul>
-<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également suivies.</p>
+<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour les éléments suivants : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également trackées.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -96,13 +93,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Améliorations**
 
-* Lors de la création d&#39;une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l&#39;état de validation du contenu est désormais vérifié avant envoi.
+* Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
 * La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
 * Ajout d’une vérification de cohérence lors de la création d’index dans les ressources personnalisées et amélioration des messages d’erreur.
 
 **Correctifs**
 
-* Correction d&#39;une erreur de délai d&#39;expiration lors de l&#39;import de contenu d&#39;email depuis une URL. (CAMP-49054)
+* Correction d’une erreur de délai d’expiration lors de l’import de contenu d’e-mail depuis une URL. (CAMP-49054)
 * Correction d’une erreur (-69) provoquée par la fin de la session lors de l’accès à une URL marquée d’un signet ou de l’actualisation d’une page à partir du navigateur. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Correction d’un problème lors de la synchronisation des règles du serveur de délivrabilité hérité vers le nouveau serveur de délivrabilité. (CAMP-48923)
-* Correction d’un problème lors du chargement d’un modèle d’email avec des balises HTML dans le Concepteur d’email. (CAMP-48243)
+* Correction d’un problème survenant lors de la synchronisation des règles de l’ancien serveur de délivrabilité avec le nouveau. (CAMP-48923)
+* Correction d’un problème lors du chargement d’un modèle d’e-mail avec des balises HTML dans le Concepteur d’e-mail. (CAMP-48243)

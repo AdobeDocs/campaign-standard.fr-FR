@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos des activités d'exécution
+title: À propos des activités d'exécution
 description: Les activités d'exécution sont disponibles à gauche de l'écran.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '68'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '67'
 ht-degree: 100%
 
 ---
 
-# A propos des activités d&#39;exécution{#about-execution-activities}
+# À propos des activités d&#39;exécution{#about-execution-activities}
 
 Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Exécution]**.
 

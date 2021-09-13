@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Audit des logs d'export
 description: Les administrateurs peuvent tracker les exports qui ont été effectués depuis Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '122'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '120'
 ht-degree: 100%
 
 ---

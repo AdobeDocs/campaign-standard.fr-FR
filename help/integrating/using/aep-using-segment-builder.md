@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Utilisation du créateur de segments
 description: Découvrez comment utiliser le créateur de segments afin de créer des audiences.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '886'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '883'
 ht-degree: 100%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Le créateur de segments vous permet de créer des audiences en définissant des règles basées sur les données provenant du [profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr).
 
@@ -48,7 +46,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -96,7 +94,7 @@ Le symbole à la fin de chaque champ fournit des informations supplémentaires s
 
 >[!NOTE]
 >
->La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+>La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Pour créer une règle, procédez comme suit :
 

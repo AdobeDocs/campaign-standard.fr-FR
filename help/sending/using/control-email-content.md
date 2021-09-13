@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contrôle du contenu des emails dans Adobe Campaign Standard
 description: Découvrez comment améliorer la délivrabilité dans Adobe Campaign Standard en modifiant le contenu de vos emails.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '798'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -54,7 +52,7 @@ Pour plus d’informations à ce sujet, consultez la section [Définition de l�
 
 Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir votre email, Adobe Campaign vous permet de personnaliser vos messages. Pour plus d’informations à ce sujet, consultez [cette section](../../designing/using/personalization.md).
 
-Pour améliorer le taux d’ouverture de vos messages, vous pouvez également définir manuellement une heure d’envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées. Voir à ce propos la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
+Pour améliorer le taux d’ouverture de vos messages, vous pouvez également définir manuellement une heure d’envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées. Pour plus d&#39;informations, consultez la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
 
 ## Lien et formulaire d’exclusion {#opt-out}
 
@@ -72,7 +70,7 @@ Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur
 
 ## Analyse anti-spam {#anti-spam-analysis}
 
-L&#39;éditeur de messages d&#39;Adobe Campaign intègre une **Analyse anti-spam** qui permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spam utilisés à sa réception. Voir à ce propos la section [Prévisualiser un message](../../sending/using/previewing-messages.md).
+L&#39;éditeur de messages d&#39;Adobe Campaign intègre une **Analyse anti-spam** qui permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spam utilisés à sa réception. Pour plus d&#39;informations, consultez la section [Prévisualiser un message](../../sending/using/previewing-messages.md).
 
 Dans l&#39;éditeur de contenus des messages, cliquez sur **[!UICONTROL Prévisualiser]**. Un message vous avertit si l&#39;analyse anti-spam a détecté un risque élevé pour le message. Pour afficher les détails, cliquez sur **[!UICONTROL Analyse anti-spam]**.
 
@@ -86,4 +84,4 @@ Avant d’envoyer votre message, vous pouvez tester sa réactivité en vérifian
 
 Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
-Voir à ce propos la section [Rendu des emails](../../sending/using/email-rendering.md).
+Pour plus d&#39;informations, consultez la section [Rendu des emails](../../sending/using/email-rendering.md).

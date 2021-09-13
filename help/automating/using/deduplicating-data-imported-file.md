@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Dédupliquer les données d’un fichier importé
 description: Cet exemple montre comment dédupliquer les données d'un fichier importé avant de les charger dans la base de données.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
 
-# Dédupliquer les données d’un fichier importé {#deduplicating-the-data-from-an-imported-file}
+# Dédupliquer les données d&#39;un fichier importé {#deduplicating-the-data-from-an-imported-file}
 
 Cet exemple montre comment dédupliquer les données d&#39;un fichier importé avant de les charger dans la base de données. Ce procédé permet d&#39;améliorer la qualité des données chargées dans la base.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envoi de notifications internes
 description: Découvrez comment envoyer des notifications système en temps réel à vos utilisateurs Adobe Campaign.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '271'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '269'
 ht-degree: 100%
 
 ---

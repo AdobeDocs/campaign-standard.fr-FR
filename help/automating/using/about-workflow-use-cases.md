@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À propos des cas pratiques de workflows
 description: En savoir plus sur les cas pratiques de workflows dans Campaign Standard.
 audience: automating
@@ -9,10 +7,9 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '234'
 ht-degree: 100%
 
 ---
@@ -29,41 +26,41 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 
 * [Création de diffusions avec un complémentaire](../../automating/using/workflow-created-query-with-complement.md)
 * [Création de diffusions à la date de création des profils](../../automating/using/workflow-creation-date-query.md)
-* [Création d’une diffusion hebdomadaire](../../automating/using/workflow-weekly-offer.md)
-* [Création d’une diffusion cross-canal](../../automating/using/workflow-cross-channel-delivery.md)
+* [Création d&#39;une diffusion hebdomadaire](../../automating/using/workflow-weekly-offer.md)
+* [Création d&#39;une diffusion cross-canal](../../automating/using/workflow-cross-channel-delivery.md)
 * [Identification de doublons avant une diffusion](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Diffusion d’anniversaire](../../automating/using/birthday-delivery.md)
-* [Association de diffusions courrier et email](../../automating/using/coupling-email-direct-mail.md)
-* [Envoi d’un email contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
-* [Personnalisation d’un email avec des données additionnelles](../../automating/using/personalizing-email-with-additional-data.md)
-* [Envoi d’une notification push récurrente](../../automating/using/recurring-push-notifications.md)
+* [Diffusion d&#39;anniversaire](../../automating/using/birthday-delivery.md)
+* [Diffusions conjointes d&#39;e-mails et de courriers](../../automating/using/coupling-email-direct-mail.md)
+* [Envoi d&#39;un e-mail contenant des champs enrichis](../../automating/using/sending-email-enriched-fields.md)
+* [Personnaliser un e-mail avec des données additionnelles](../../automating/using/personalizing-email-with-additional-data.md)
+* [Envoi d&#39;une notification push récurrente](../../automating/using/recurring-push-notifications.md)
 
 ## Segmentation et ciblage {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-* [Exemples de requêtes ](../../automating/using/query-samples.md)
+* [Exemples de requêtes](../../automating/using/query-samples.md)
 * [Union sur deux audiences affinées](../../automating/using/union-on-two-refined-audiences.md)
-* [Création d’une segmentation sur la localisation](../../automating/using/workflow-segmentation-location.md)
-* [Reciblage des personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Création d&#39;une segmentation sur la localisation](../../automating/using/workflow-segmentation-location.md)
+* [Reciblage des personnes n&#39;ayant pas ouvert l&#39;e-mail](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Requête incrémentale sur les abonnés à un service](../../automating/using/incremental-query-on-subscribers.md)
-* [Segmentation en fonction des groupes d’âges](../../automating/using/segmentation-age-groups.md)
+* [Segmentation en fonction des tranches d&#39;âge](../../automating/using/segmentation-age-groups.md)
 * [Utiliser des ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Data management {#management}
+## Gestion des données {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
 * [Réconcilier une audience de type fichier avec la base de données](../../automating/using/reconcile-file-audience-with-database.md)
-* [Dédupliquer les données d’un fichier importé](../../automating/using/deduplicating-data-imported-file.md)
+* [Dédupliquer les données d&#39;un fichier importé](../../automating/using/deduplicating-data-imported-file.md)
 * [Enrichissement des données de profil avec des données contenues dans un fichier](../../automating/using/enriching-profile-data-file.md)
 * [Activité de signal externe et import de données](../../automating/using/external-signal-data-import.md)
 * [Mise à jour de la base de données avec des données externes](../../automating/using/update-database-file.md)
-* [Mise à jour de données en fonction d’une réception de fichier automatique](../../automating/using/update-data-automatic-download.md)
-* [Réconciliation de données à l’aide de relations](../../automating/using/reconciliation-using-relations.md)
-* [Mise à jour de données à l’aide de la réconciliation](../../automating/using/data-update-reconciliation.md)
+* [Mise à jour des données à l&#39;aide d&#39;un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
+* [Réconciliation des données à l&#39;aide des relations](../../automating/using/reconciliation-using-relations.md)
+* [Mise à jour des données à l&#39;aide de la réconciliation](../../automating/using/data-update-reconciliation.md)
 * [Export de profils dans un fichier externe](../../automating/using/exporting-profiles-in-file.md)
-* [Mise à jour de plusieurs statuts d’abonnement à partir d’un fichier](../../automating/using/updating-subscriptions-from-file.md)
-* [Abonnement de profils à partir d’un fichier vers un service spécifique](../../automating/using/subscribing-profiles-from-file.md)
-* [Import de données cryptées à l’aide d’une clé générée par le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Mise à jour de plusieurs statuts d&#39;abonnement depuis un fichier](../../automating/using/updating-subscriptions-from-file.md)
+* [Abonnement de profils à partir d&#39;un fichier vers un service spécifique](../../automating/using/subscribing-profiles-from-file.md)
+* [Import de données chiffrées à l’aide d’une clé générée par le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Chiffrement et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

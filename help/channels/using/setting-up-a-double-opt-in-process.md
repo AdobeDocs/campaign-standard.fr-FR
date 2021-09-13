@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration d'un processus de double opt-in
 description: Suivez ces étapes pour configurer un processus de double opt-in à l'aide de landing pages dans Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing pages
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1234'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1232'
 ht-degree: 100%
 
 ---
 
 # Configuration d&#39;un processus de double opt-in{#setting-up-a-double-opt-in-process}
 
-## A propos du double opt-in {#about-double-opt-in}
+## À propos du double opt-in {#about-double-opt-in}
 
 Le mécanisme de double opt-in constitue une bonne pratique lors de l’envoi d’emails. Il protège la Plateforme des adresses email erronées ou non valides ainsi que des spammeurs, et empêche les éventuelles plaintes pour spam.
 
@@ -130,7 +128,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/blackList
+   /context/profile/liste bloquée
 
    puis définissez la valeur sur **vrai**.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de la configuration des canaux
+title: À propos de la configuration des canaux
 description: '"Chaque canal doit être configuré : configuration technique, modèles et propriétés des messages."'
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '146'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
 
 ---

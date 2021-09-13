@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Chargement de fichier
 description: L'activité Chargement de fichier permet d'importer les données d'un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1527'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -25,13 +22,13 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
 ![](assets/data_loading.png)
 
-L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
+L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l’utilisation d’une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l’activité. Le fichier à charger peut par exemple être une liste de contacts.
 
@@ -94,7 +91,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
    Vous pouvez par exemple modifier le libellé d&#39;une colonne, sélectionner son type (chaîne, nombre entier, date, etc.) ou encore définir le traitement des erreurs.
 
-   Voir à ce sujet [Format des colonnes](#column-format).
+   Pour plus d’informations, consultez [Format des colonnes](#column-format).
 
    ![](assets/wkf_file_loading4.png)
 

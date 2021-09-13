@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Préparer l'envoi
 description: Découvrez comment définir la préparation avant l'envoi.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Optimisation de l’heure d’envoi
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '465'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -53,7 +51,7 @@ La préparation correspond à l&#39;étape de calcul de la population cible et d
 
 1. Vérifiez le résultat de la préparation avant de confirmer l&#39;envoi des messages. Si le nombre de messages à envoyer ne correspond pas à votre paramétrage, modifiez la définition de la population ciblée (voir [Sélectionner une audience dans un message](../../audiences/using/selecting-an-audience-in-a-message.md)) et relancez la préparation.
 
-Une fois la préparation terminée, votre message est prêt à être envoyé. Voir à ce propos la section [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
+Une fois la préparation terminée, votre message est prêt à être envoyé. Pour plus d&#39;informations, consultez la section [Confirmer l&#39;envoi](../../sending/using/confirming-the-send.md).
 
 **Règles de typologie**
 

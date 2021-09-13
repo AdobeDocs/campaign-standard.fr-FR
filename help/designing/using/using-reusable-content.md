@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Création et utilisation d''un contenu réutilisable '
 description: Commencez à créer du contenu d'email réutilisable avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1885'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1883'
 ht-degree: 100%
 
 ---
@@ -25,7 +23,7 @@ Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Con
 
 >[!NOTE]
 >
-> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** > **Modèles**. Les modèles utilisés dans le Concepteur d&#39;email sont des modèles de contenu. Pour plus d&#39;informations, voir [A propos des modèles](../../start/using/marketing-activity-templates.md).
+> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** > **Modèles**. Les modèles utilisés dans le Concepteur d&#39;email sont des modèles de contenu. Pour plus d&#39;informations, voir [À propos des modèles](../../start/using/marketing-activity-templates.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer des modèles en vidéo](#video)
 
@@ -109,13 +107,13 @@ Lorsque vous éditez un email avec le Concepteur d&#39;email, vous ne pouvez pas
 
 Vous pouvez maintenant créer un modèle d&#39;email à l&#39;aide du Concepteur d&#39;email. Utilisez des composants de contenu pour représenter les différentes sections de votre email et ajustez les paramètres pour qu&#39;ils ressemblent autant que possible à votre newsletter d&#39;origine. Insérez enfin les fragments que vous venez de créer.
 
-1. A l&#39;aide du Concepteur d&#39;email, créez un modèle. Voir à ce propos la section [Modèles de contenu](#content-templates).
+1. A l&#39;aide du Concepteur d&#39;email, créez un modèle. Pour plus d&#39;informations, consultez la section [Modèles de contenu](#content-templates).
 1. Insérez plusieurs composants de structure dans votre modèle, correspondant à l&#39;en-tête, au pied de page et au corps de votre email. Pour plus d&#39;informations sur l&#39;ajout de composants de structure, voir [Modifier la structure d&#39;un email à l&#39;aide du Concepteur d&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Insérez autant de composants de contenu que nécessaire pour créer le corps de votre newsletter. Il s&#39;agit du contenu éditable de l&#39;email que vous mettrez à jour tous les mois.
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Si vous maîtrisez le code HTML, Adobe recommande d&#39;utiliser les composants **[!UICONTROL Html]** dans lesquels vous pouvez copier-coller les éléments les plus complexes de l&#39;email d&#39;origine. Utilisez d&#39;autres composants comme **[!UICONTROL Button]**, **[!UICONTROL Image]** ou **[!UICONTROL Text]** pour le contenu restant. Voir à ce propos la section [A propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+   Si vous maîtrisez le code HTML, Adobe recommande d&#39;utiliser les composants **[!UICONTROL Html]** dans lesquels vous pouvez copier-coller les éléments les plus complexes de l&#39;email d&#39;origine. Utilisez d&#39;autres composants comme **[!UICONTROL Button]**, **[!UICONTROL Image]** ou **[!UICONTROL Text]** pour le contenu restant. Pour plus d&#39;informations, consultez la section [À propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
@@ -151,7 +149,7 @@ Cette vidéo montre comment créer votre propre modèle.
 
 D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
-## A propos des fragments           {#about-fragments}
+## À propos des fragments          {#about-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
@@ -196,7 +194,7 @@ Pour définir le contenu de votre email, vous pouvez ajouter des éléments de c
 
    >[!NOTE]
    >
-   >Les fragments sont verrouillés par défaut lorsqu&#39;ils sont ajoutés à un email. Vous pouvez arrêter la synchronisation avec le fragment d&#39;origine si vous souhaitez modifier le fragment d&#39;un email spécifique. Vous pouvez aussi directement apporter votre modification dans le fragment. Voir [A propos des fragments](#about-fragments).
+   >Les fragments sont verrouillés par défaut lorsqu&#39;ils sont ajoutés à un email. Vous pouvez arrêter la synchronisation avec le fragment d&#39;origine si vous souhaitez modifier le fragment d&#39;un email spécifique. Vous pouvez aussi directement apporter votre modification dans le fragment. Voir [À propos des fragments](#about-fragments).
 
 1. Répétez cette procédure pour tous les éléments que vous devez ajouter à votre email.
 1. Enregistrez votre email.
@@ -205,7 +203,7 @@ Maintenant que la structure de l&#39;email est remplie, vous pouvez modifier le 
 
 >[!NOTE]
 >
->Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Voir à ce propos la section [A propos des fragments](#about-fragments).
+>Si un fragment est modifié, les changements sont automatiquement propagés dans les emails dans lequel il est utilisé. Pour plus d&#39;informations, consultez la section [A propos des fragments](#about-fragments).
 
 ### Créer un fragment de contenu           {#creating-a-content-fragment}
 
@@ -243,7 +241,7 @@ Ce fragment peut à présent être utilisé dans n&#39;importe quel email créé
 
 >[!NOTE]
 >
->Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [A propos des fragments](#about-fragments).
+>Vous ne pouvez pas insérer de champs de personnalisation dans un fragment sauf s&#39;il est utilisé dans un email et qu&#39;il est déverrouillé. Voir [À propos des fragments](#about-fragments).
 
 ### Enregistrer du contenu en tant que fragment           {#saving-content-as-a-fragment}
 
@@ -305,7 +303,7 @@ A l&#39;aide du Concepteur d&#39;email, créez un fragment pour chaque section r
 
 Pour cela, procédez comme suit :
 
-1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Voir à ce propos la section [Créer un fragment de contenu](#creating-a-content-fragment).
+1. Dans Adobe Campaign, accédez à **[!UICONTROL Ressources]** > **[!UICONTROL Modèles et fragments de contenu]**, puis créez un fragment pour votre en-tête. Pour plus d&#39;informations, consultez la section [Créer un fragment de contenu](#creating-a-content-fragment).
 1. Ajoutez autant de composants de structure que vous le souhaitez à votre fragment.
 
    ![](assets/des_loading_compatible_fragment_1.png)

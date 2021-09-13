@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Utilisation de modèles de diffusion
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants. »
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
@@ -68,7 +66,7 @@ Pour plus d&#39;informations sur la personnalisation du nom de l&#39;expéditeur
 
 Dans la section **Paramètres avancés** des propriétés d&#39;un modèle de SMS, l&#39;option **De** permet de personnaliser le nom de l&#39;expéditeur du SMS à l&#39;aide d&#39;une chaîne de caractères. C&#39;est le nom qui s&#39;affichera dans le champ correspondant à l&#39;expéditeur du SMS sur le téléphone mobile du destinataire.
 
-Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Voir à ce propos la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md).
+Si ce champ est vide, c&#39;est le numéro source renseigné dans le compte externe qui sera utilisé. Si aucun numéro source n&#39;y figure, c&#39;est le numéro court qui sera utilisé. Pour plus d&#39;informations, consultez la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md).
 
 **Conseil** : vérifiez la loi en vigueur dans votre pays concernant la modification de l&#39;adresse de l&#39;expéditeur. Vérifiez également auprès de votre fournisseur de service SMS s&#39;il propose cette fonctionnalité.
 

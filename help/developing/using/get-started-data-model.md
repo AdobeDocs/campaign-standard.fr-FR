@@ -1,19 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main du modèle de données de Campaign Standard
 description: Enrichissez le modèle de données Campaign Standard avec des ressources et des champs personnalisés et étendez les API REST pour exposer les champs étendus.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: Modèle de données
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: ht
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
-workflow-type: ht
-source-wordcount: '340'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -67,4 +64,4 @@ Avec les API de Campaign Standard, vous pouvez créer des intégrations pour Ado
 ## Autres ressources
 
 * [Export / import de ressources personnalisées](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-cusres.html)
-* [Export de données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Exporter des données de Campaign vers Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

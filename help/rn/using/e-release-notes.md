@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour initiales
 description: Notes de mise à jour initiales
 feature: Overview
@@ -9,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 43%
@@ -104,7 +102,7 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Autres changements**
 
-* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en oeuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
+* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en oeuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)
 * Les fonctionnalités obsolètes et supprimées sont répertoriées dans [cette page](deprecated-features.md).
 * Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077)
 * Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour de meilleures performances.

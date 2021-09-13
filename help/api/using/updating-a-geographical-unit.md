@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour de l’entité géographique d’un profil
 description: Découvrez comment gérer les entités géographiques avec les API.
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '95'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '94'
 ht-degree: 100%
 
 ---
 
-# Mise à jour de l’entité géographique d’un profil {#updating-a-geographical-unit}
+# Mise à jour de l&#39;entité géographique d&#39;un profil {#updating-a-geographical-unit}
 
 1. Exécutez une requête GET sur la ressource **geoUnitBase** pour récupérer la clé PKey de l’entité géographique.
 1. Exécutez une requête PATCH sur la clé PKey du profil, avec la clé PKey de l’entité géographique souhaitée dans la payload.

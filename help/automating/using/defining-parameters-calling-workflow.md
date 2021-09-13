@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Appeler un workflow avec des paramètres externes
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '203'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
-# Définir les paramètres lors de l’appel du workflow        {#defining-the-parameters-when-calling-the-workflow}
+# Définir les paramètres lors de l’appel du workflow       {#defining-the-parameters-when-calling-the-workflow}
 
 Cette section explique comment définir des paramètres lors de l’appel d’un workflow. Pour plus d’informations sur l’exécution de cette opération à partir d’un appel API, consultez la [documentation des API REST](../../api/using/triggering-a-signal-activity.md).
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour des attributs d’une entité géographique
 description: Découvrez comment mettre à jour les attributs d’une entité géographique avec les API
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '87'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '86'
 ht-degree: 100%
 
 ---

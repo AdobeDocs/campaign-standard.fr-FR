@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l'intégration Campaign-Données de points ciblés
+title: À propos de l'intégration Campaign-Données de points ciblés
 description: Grâce à la collecte des données de points ciblés auprès des abonnés de votre application mobile, envoyez-leur des messages marketing en fonction de leur localisation par le biais de l'intégration dans Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
 
-# A propos de l&#39;intégration Campaign-Données de points ciblés{#about-campaign-points-of-interest-data-integration}
+# À propos de l&#39;intégration Campaign-Données de points ciblés{#about-campaign-points-of-interest-data-integration}
 
 Outre l&#39;activité en ligne des clients, il est également possible de détecter et d&#39;utiliser leur emplacement physique. Grâce à l&#39;intégration avec Adobe Analytics pour Mobile, vous pouvez utiliser Adobe Campaign pour envoyer des messages marketing aux abonnés de votre application mobile en fonction de leur localisation.
 

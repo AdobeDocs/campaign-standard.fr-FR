@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '209'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -115,7 +112,7 @@ ht-degree: 100%
                <tr>
                   <td>errorLimit</td>
                   <td>Errors before aborting</td>
-                  <td>integer </td>
+                  <td>entier </td>
                   <td> </td>
                </tr>
                <tr>
@@ -156,7 +153,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Label</td>
+                  <td>Libellé</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -205,7 +202,7 @@ ht-degree: 100%
                <tr>
                   <td>sourceId</td>
                   <td>Source Id</td>
-                  <td>integer </td>
+                  <td>entier </td>
                   <td> </td>
                </tr>
                <tr>

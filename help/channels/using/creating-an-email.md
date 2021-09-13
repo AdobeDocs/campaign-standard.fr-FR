@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer un email
 description: Suivez ces étapes pour créer une diffusion email unique dans Adobe Campaign.
 audience: channels
@@ -10,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '561'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '560'
 ht-degree: 100%
 
 ---

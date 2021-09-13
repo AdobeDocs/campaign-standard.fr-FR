@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour                2019
 description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d'ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '7598'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '7597'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour     2019{#release-notes-2019}
+# Notes de mise à jour                2019{#release-notes-2019}
 
 [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
@@ -37,7 +35,7 @@ ht-degree: 100%
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons d’autres fonctionnalités pour faciliter votre préparation au CCPA :</p>
    <ul>
     <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
     <li>Un champ <strong>Option d’opt-out du CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=fr">vidéo pratique</a>.</p>
@@ -306,7 +304,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=fr">vidéo de procédure</a>.</p></td> 
+   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=fr">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifications locales<br /> </td> 
@@ -373,7 +371,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Dans l’activité Extraction de fichier, les capacités Javascript ont été mises à jour lors de la définition du nom d’un fichier à exporter. Seule la fonction formatDate est maintenant disponible pour une utilisation dans le champ Sortie. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/extract-file.md).
 * La génération automatique d’ID de séquence a été améliorée pour les ressources personnalisées. Les clés primaires pour les nouvelles ressources personnalisées sont maintenant 64 bits par défaut.
 * Le mode de test de publication de ressource personnalisée a été amélioré. Un message d’avertissement s’affiche maintenant si la dernière publication de ressource personnalisée est en échec et n’est pas corrigée. Après un échec de publication de ressource personnalisée, vous pouvez revenir à la dernière version opérationnelle. Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
-* Une nouvelle option a été ajoutée à l’activité Transfert de fichier. Elle permet de trier les fichiers lorsque vous utilisez l’action de téléchargement de fichier, en mode SFTP. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/transfer-file.md). (CAMP-33109)
+* Une nouvelle option a été ajoutée à l’activité Transfert de fichier. Elle permet de trier les fichiers lorsque vous utilisez l’action de téléchargement de fichier, en mode SFTP. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Correctifs**
 
@@ -537,7 +535,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
+    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 

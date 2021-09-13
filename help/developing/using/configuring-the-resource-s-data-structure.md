@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration de la structure de données de la ressource
 description: Découvrez comment configurer la structure de données.
 audience: developing
@@ -11,10 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1842'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1840'
 ht-degree: 100%
 
 ---
@@ -28,8 +25,8 @@ Lors de l&#39;édition de la ressource, dans l&#39;onglet **[!UICONTROL Structur
 * [des champs ;](#adding-fields-to-a-resource)
 * [Clés d’identification](#defining-identification-keys)
 * [des index ;](#defining-indexes)
-* [des liens ;](#defining-links-with-other-resources)
-* [des logs d&#39;envoi.](#defining-sending-logs-extension)
+* [Liens](#defining-links-with-other-resources)
+* [Envois](#defining-sending-logs-extension)
 
 ## Ajouter des champs à une ressource       {#adding-fields-to-a-resource}
 
@@ -130,7 +127,7 @@ Les index créés s&#39;affichent dans la liste de la section **[!UICONTROL Inde
 >
 >Pour en savoir plus sur les bonnes pratiques lors de la création d’index, consultez cette [section](../../developing/using/data-model-best-practices.md#indexes).
 
-## Définir les liens avec d&#39;autres ressources {#defining-links-with-other-resources}
+## Définir les liens avec d’autres ressources {#defining-links-with-other-resources}
 
 Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
 

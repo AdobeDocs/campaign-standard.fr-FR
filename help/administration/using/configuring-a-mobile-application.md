@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration d'une application mobile
 description: Découvrez comment configurer Adobe Campaign pour envoyer des notifications push ou des messages In-App à l’aide du SDK V4 ou du SDK Experience Platform.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1353'
 ht-degree: 100%
 
 ---
@@ -58,7 +56,7 @@ Cette étape permet à l’utilisateur de se connecter à Experience Platform La
    * Installez l’extension **[!UICONTROL Places]** dans Experience Platform Launch. Consultez à ce sujet cette [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr).
    * Installez l’extension **[!UICONTROL Places Monitor]** dans Experience Platform Launch. Consultez à ce sujet cette [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html?lang=fr)
 
-1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Voir la section [Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Pour plus d&#39;informations, consultez la section [Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile.
 Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).

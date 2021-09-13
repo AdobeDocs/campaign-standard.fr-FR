@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Intersection
 description: L'activité Intersection permet de ne conserver que les éléments communs aux différentes populations entrantes dans l'activité.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '305'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
@@ -26,7 +23,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin de réaliser un filtrage supplémentaire sur les populations des transitions entrantes.
 
@@ -45,7 +42,7 @@ L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-## Exemple {#example}
+## Exemple  {#example}
 
 L&#39;exemple suivant montre l&#39;intersection de deux activités de requête visant à filtrer respectivement les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;adresse email renseignée est valide.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création d’une demande d’accès à des informations personnelles
 description: Découvrez comment créer une demande d’accès à des informations personnelles avec les API
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '211'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
 
-# Création d’une demande d’accès à des informations personnelles {#creating-a-privacy-request}
+# Création d&#39;une demande d&#39;accès à des informations personnelles {#creating-a-privacy-request}
 
 >[!CAUTION]
 >

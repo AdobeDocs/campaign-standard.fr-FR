@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Utilisation d’images
 description: Découvrez comment gérer des images dans les emails avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '307'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -35,7 +33,7 @@ Selon votre configuration, les types d&#39;images suivants sont disponibles :
 
 ### Insérer des images dans un email      {#inserting-images-in-an-email}
 
-1. Ajoutez un composant de structure. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant de structure. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Dans le composant de structure, ajoutez un composant de contenu **[!UICONTROL Image]**.
 
    ![](assets/des_insert_images_1.png)

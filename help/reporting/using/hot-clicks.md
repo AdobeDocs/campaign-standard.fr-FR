@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Hot clicks
 description: Grâce au rapport d'usine Hot clicks, découvrez à quel endroit votre client a cliqué dans votre diffusion.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '492'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '491'
 ht-degree: 100%
 
 ---

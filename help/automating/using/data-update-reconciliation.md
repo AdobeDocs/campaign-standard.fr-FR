@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour des données à l’aide de la réconciliation
 description: L'exemple suivant illustre un workflow permettant de créer une audience de profils directement à partir d'un fichier importé contenant des nouveaux clients.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '129'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
 
-# Mise à jour des données à l’aide de la réconciliation {#data-update-reconciliation}
+# Mise à jour des données à l&#39;aide de la réconciliation {#data-update-reconciliation}
 
 L&#39;exemple suivant illustre un workflow permettant de créer une audience de profils directement à partir d&#39;un fichier importé contenant des nouveaux clients. Il se compose des activités suivantes :
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extraction de fichier
 description: L'activité Extraction de fichier permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
 audience: automating
@@ -11,11 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '444'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Extraction de fichier]** permet d&#39;exporter des données présentes dans Adobe Campaign sous la forme d&#39;un fichier externe.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 La façon dont les données seront extraites est définie lors du paramétrage de l&#39;activité.
 
@@ -46,7 +43,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
    ![](assets/wkf_data_export1.png)
 
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
-1. Indiquez le libellé du **Fichier de sortie**. Le libellé du fichier sera automatiquement complété avec la date et l&#39;heure de création pour être unique. Par exemple : destinataires_20150815_081532.txt pour un fichier généré le 15 août 2015 à 08h15 et 32 secondes.
+1. Indiquez le libellé du **Fichier de sortie**. Le libellé du fichier sera automatiquement complété avec la date et l&#39;heure de création pour être unique. Par exemple : recipients_20150815_081532.txt pour un fichier généré le 15 août 2015 à 08:15:32.
 
    >[!NOTE]
    >
@@ -77,5 +74,5 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
 
-1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
+1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l'intégration Campaign-Analytics
+title: À propos de l'intégration Campaign-Analytics
 description: Grâce à la collecte des données de KPI depuis Adobe Campaign, vous pouvez désormais partager les données sur les campagnes avec Adobe Analytics afin d'évaluer les mesures de marketing par email depuis Adobe Campaign.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '207'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '206'
 ht-degree: 100%
 
 ---
 
-# A propos de l&#39;intégration Campaign-Analytics{#about-campaign-analytics-integration}
+# À propos de l&#39;intégration Campaign-Analytics{#about-campaign-analytics-integration}
 
 Grâce à l&#39;intégration d&#39;Adobe Analytics dans Adobe Campaign, vous pouvez désormais tracker le succès de vos diffusions email directement dans Adobe Analytics.
 

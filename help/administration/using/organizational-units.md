@@ -1,26 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Entités organisationnelles
 description: Définissez les niveaux d'accès de vos utilisateurs à l'aide des entités organisationnelles.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '885'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '883'
 ht-degree: 100%
 
 ---
 
 # Entités organisationnelles{#organizational-units}
 
-## A propos des entités {#about-units}
+## À propos des entités {#about-units}
 
 Chaque objet et utilisateur de la plate-forme est rattaché à une entité organisationnelle. Cette entité permet de définir une structure hiérarchique afin de filtrer la vue des utilisateurs. L&#39;entité d&#39;un utilisateur définit son niveau d&#39;accès aux différents objets de la plateforme.
 
@@ -40,7 +38,7 @@ Lorsqu&#39;une entité organisationnelle est affectée à l&#39;utilisateur, cel
 
 >[!NOTE]
 >
->Lorsqu&#39;un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s&#39;appliquent. Voir à ce propos la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
+>Lorsqu&#39;un utilisateur est présent dans plusieurs groupes rattachés à différentes entités, certaines règles s&#39;appliquent. Pour plus d&#39;informations, consultez la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
 ## Création et gestion des entités      {#creating-and-managing-units}
 
@@ -68,7 +66,7 @@ Il nous faut à présent créer les entités organisationnelles pour les groupes
 Pour connaître l&#39;impact de l&#39;assignation de différentes entités à différents groupes de sécurité, l&#39;utilisateur assigné aux groupes Administrateur et Geometrixx créera deux modèles d&#39;email pour déterminer ce à quoi l&#39;autre utilisateur assigné à Utilisateur standard et Geometrixx Clothes peut ou non accéder.
 
 1. Dans le menu avancé, sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
-1. Dupliquez un modèle existant et personnalisez-le selon vos besoins. Voir à ce propos la section [Modèles](../../start/using/marketing-activity-templates.md).
+1. Dupliquez un modèle existant et personnalisez-le selon vos besoins. Pour plus d&#39;informations, consultez la section [Modèles](../../start/using/marketing-activity-templates.md).
 1. Une fois le modèle créé, sélectionnez l&#39;icône **[!UICONTROL Editer les propriétés]** pour lui assigner des entités.
 
    ![](assets/manage_units_6.png)
@@ -122,5 +120,5 @@ Les champs de l&#39;entité organisationnelle sont ajoutés à vos profils, dans
 
 **Rubriques connexes** :
 
-* [A propos des entités](../../administration/using/organizational-units.md#about-units)
+* [À propos des entités](../../administration/using/organizational-units.md#about-units)
 * [Gestion des accès](../../administration/using/about-access-management.md)

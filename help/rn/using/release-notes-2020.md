@@ -1,29 +1,27 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notes de mise à jour                2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Vue d'ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '5305'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '5304'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour     2020{#release-notes-2020}
+# Notes de mise à jour                2020{#release-notes-2020}
 
 [Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
 
@@ -90,7 +88,7 @@ ht-degree: 100%
 * **Améliorations de l’exécution du workflow** (bêta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version bêta et ne sont disponibles que pour un certain nombre de clients. La disponibilité générale est prévue pour début 2021.
 * Pour améliorer la sécurité, Campaign utilise désormais un **mécanisme de signature** pour le tracking des liens dans les emails.
 * La configuration des applications mobiles a été améliorée avec des **messages d’erreur plus clairs** lors du téléchargement de certificats iOS ou de clés Android.
-* La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Consultez à ce sujet [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
+* La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Améliorations du Concepteur d’email**
 
@@ -247,7 +245,7 @@ ht-degree: 100%
 * Le nombre maximal d’événements en temps réel pouvant être publiés sur une instance est passé de 350 à 2 000. (CAMP-41608)
 * La synchronisation entre Adobe Launch et Campaign Standard a été améliorée grâce à l’utilisation du workflow technique syncWithLaunch. Ce workflow permet l’import automatique de toutes les propriétés mobiles d’Adobe Launch dans Adobe Campaign Standard. Pour plus d’informations, consultez [cette page](../../administration/using/technical-workflows.md).
 
-   Vous devrez envoyer une demande à l’Assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
+   Vous devrez envoyer une demande à l’assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
 
 **Améliorations du Concepteur d’email**
 
@@ -293,7 +291,7 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 - Avril 2020                {#release-20-2---april-2020}
 
@@ -331,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Améliorations**
 

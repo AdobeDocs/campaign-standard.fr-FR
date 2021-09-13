@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email '
 description: Découvrez comment utiliser, avec le Concepteur d’email, des emails créés dans l’ancien éditeur.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '458'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '456'
 ht-degree: 100%
 
 ---
@@ -40,12 +38,12 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
 ## Créer votre structure d’email
 
 1. Ouvrez le **[!UICONTROL Concepteur d’email]** pour créer un contenu d’email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Modifier les styles d’un email](../../designing/using/styles.md).
-1. Ajoutez autant de composants de structure que vous avez de sections. Voir à ce propos la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
+1. Ajoutez autant de composants de structure que vous avez de sections. Pour plus d&#39;informations, consultez la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## Ajouter du contenu HTML
 
-1. Ajoutez un composant HTML à chaque composant de structure. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant HTML à chaque composant de structure. Pour plus d&#39;informations, consultez la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiez votre code HTML et collez-le dans chaque composant.
 
 ## Gérer le style de votre email {#manage-the-style-of-your-email}

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Déclenchement de l'ingestion des données via les API
 description: Découvrez comment déclencher l'ingestion des données par le biais des API.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
-workflow-type: ht
-source-wordcount: '483'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '480'
 ht-degree: 100%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Adobe Campaign Standard permet de déclencher l&#39;ingestion immédiate des mappings de données par le biais des API et de récupérer le statut de vos demandes d&#39;ingestion.
 
@@ -56,7 +54,8 @@ L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform
 >
 >Pour exécuter l&#39;appel d&#39;API POST d&#39;ingestion, l&#39;utilisateur doit disposer d&#39;un rôle d&#39;**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

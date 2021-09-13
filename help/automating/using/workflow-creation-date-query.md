@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création de diffusions à la date de création du profil
 description: Ce cas pratique montre comment créer des diffusions à la date de création du profil.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

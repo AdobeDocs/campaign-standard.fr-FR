@@ -1,26 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Activités marketing
-description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer une activité, éditer une activité existante et consulter leur état et validité."'
+description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer et modifier une activité, et en consulter l’état et la validité."'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campagnes
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '501'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
 
 # Activités marketing{#marketing-activities}
 
-## A propos des activités marketing {#about-marketing-activities}
+## À propos des activités marketing {#about-marketing-activities}
 
 Vous pouvez créer et gérer les activités marketing depuis les programmes et les campagnes auxquels elles appartiennent, ou via la liste des activités marketing.
 
@@ -45,7 +43,7 @@ Le bouton **[!UICONTROL Créer]** peut être utilisé pour créer une autre acti
 Dans la zone principale, chaque type d&#39;activité de la liste est caractérisé par une icône :
 
 * ![](assets/marketing_program_icon.png) Programme
-* ![](assets/marketing_campaign_icon.png) Campaign
+* ![](assets/marketing_campaign_icon.png) Campagne
 * ![](assets/marketing_email_icon.png) Email
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) Notification push

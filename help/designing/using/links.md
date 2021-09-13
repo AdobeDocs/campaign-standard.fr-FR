@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ajout de liens
 description: Découvrez comment gérer des liens avec le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '603'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '601'
 ht-degree: 100%
 
 ---
@@ -75,7 +73,7 @@ Lorsque vous éditez un email à l&#39;aide du [Concepteur d&#39;email](../../de
 * [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block)
 * [Définir un contenu dynamique](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## A propos des URL trackées {#about-tracked-urls}
+## À propos des URL trackées {#about-tracked-urls}
 
 Adobe Campaign vous permet de tracker le comportement de vos destinataires lorsqu&#39;ils cliquent sur une URL incluse dans un email. Pour plus d’informations sur le tracking, consultez [cette section](../../sending/using/tracking-messages.md#about-tracking).
 

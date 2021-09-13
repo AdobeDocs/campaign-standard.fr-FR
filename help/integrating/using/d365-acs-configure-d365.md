@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuration de Microsoft Dynamics 365 pour l’intégration de Campaign
 description: Découvrez comment configurer Microsoft Dynamics 365 pour l’intégration de Campaign.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1002'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -44,7 +41,7 @@ Les principales étapes sont décrites dans la vidéo suivante :
 
 Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessous.
 
-### Enregistrement d’une nouvelle application   {#register-a-new-app}
+### Enregistrement d’une nouvelle application {#register-a-new-app}
 
 1. Avec votre identifiant d’administrateur, connectez-vous à portal.azure.com.
 
@@ -109,7 +106,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe   `<stage or prod>`
+   * **[!UICONTROL Nom complet]** : API Adobe    `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).

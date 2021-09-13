@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bonnes pratiques relatives aux modèle de données dans Adobe Campaign Standard
 description: Découvrez les bonnes pratiques lors de la conception de votre modèle de données Adobe Campaign Standard.
 audience: developing
@@ -11,10 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1558'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1556'
 ht-degree: 100%
 
 ---
@@ -30,7 +27,7 @@ Ce document présente les principales recommandations lors de la conception de v
 >
 >Vous trouverez une représentation du modèle de données des ressources natives dans [cette page](../../developing/using/datamodel-introduction.md).
 
-## Présentation {#overview}
+## Vue d&#39;ensemble {#overview}
 
 Le système Adobe Campaign est extrêmement flexible et peut être étendu au-delà de l’implémentation initiale. Toutefois, même si les possibilités sont infinies, il est essentiel de prendre des décisions judicieuses et de construire des bases solides pour commencer à concevoir votre modèle de données.
 
@@ -88,7 +85,7 @@ Cette section présente les bonnes pratiques à suivre lors de la [configuration
 
 ### Identificateurs {#identifiers}
 
-Les ressources Adobe Campaign ont trois identifiants et il est possible d’en ajouter un supplémentaire.
+Les ressources Adobe Campaign ont trois identifiants et il est possible d&#39;en ajouter un supplémentaire.
 
 Le tableau ci-après décrit ces identifiants et leur finalité.
 
@@ -99,7 +96,7 @@ Le tableau ci-après décrit ces identifiants et leur finalité.
 | Nom d’affichage | Nom technique | Description | Bonnes pratiques |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>La clé PKey est la clé primaire physique d’une table Adobe Campaign.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique.</li><li>Dans Adobe Campaign Standard, cette valeur n’est pas visible par l’utilisateur final (sauf dans les URL).</li></ul> | <ul><li>Par le biais du [système API](../../api/using/get-started-apis.md), il est possible de récupérer une valeur PKey (qui est une valeur générée/hachée, et non la clé physique).</li><li>Il n’est pas recommandé de l’utiliser à d’autres fins que la récupération, la mise à jour ou la suppression d’enregistrements via l’API.</li></ul> |
-| Identifiant | name ou internalName | <ul><li>Cette information est l’identifiant unique d’un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «  », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront stockés sous la forme de « abc_def » et s’écraseront mutuellement.</li></ul> |
+| Identifiant | name ou internalName | <ul><li>Cette information est l’identifiant unique d’un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «  », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, &quot;abc-def&quot; et &quot;abc:def&quot; seront stockés sous la forme de &quot;abc_def&quot; et s&#39;écraseront mutuellement.</li></ul> |
 | Libellé | label | <ul><li>Le libellé est l’identifiant d’entreprise d’un objet ou d’un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s’agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d’Adobe Campaign.</li></ul> |
 | Identifiant ACS | acsId | <ul><li>Un identifiant supplémentaire peut être généré : l’[identifiant ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Comme la clé PKey ne peut pas être utilisée dans l’interface utilisateur d’Adobe Campaign, il s’agit d’une solution permettant d’obtenir une valeur unique générée lors de l’insertion d’un enregistrement de profil.</li><li>La valeur ne peut être générée automatiquement que si l’option est activée dans la ressource avant qu’un enregistrement ne soit inséré dans Adobe Campaign.</li></ul> | <ul><li>Cet UUID peut être utilisé comme clé de réconciliation.</li><li>Un identifiant ACS généré automatiquement ne peut pas être utilisé comme référence dans un workflow ou dans une définition de package.</li><li>Cette valeur est spécifique à une instance Adobe Campaign.</li></ul> |
 
@@ -122,7 +119,7 @@ Les clés d’identification ne doivent pas être utilisées comme référence d
 
 <!--For more on defining identification keys, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).-->
 
-### Index {#indexes}
+### des index ; {#indexes}
 
 Adobe Campaign ajoute automatiquement un [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) à toutes les clés primaires et internes définies dans une ressource.
 
@@ -141,30 +138,30 @@ La définition de liens avec d’autres ressources est présentée dans [cette s
 * Bien qu’il soit possible de joindre n’importe quelle table dans un workflow, Adobe recommande de définir des liens communs entre les ressources directement dans la définition de la structure de données.
 * Le lien doit être défini en fonction des données réelles contenues dans vos tables. Une mauvaise définition peut avoir un impact sur les données récupérées via les liens, par exemple la duplication inattendue d’enregistrements.
 * Attribuez au lien un nom cohérent avec celui de la ressource : le nom du lien doit permettre de comprendre à quoi correspond la table distante.
-* N’utilisez pas un nom de lien comportant le suffixe « id ». Par exemple, appelez-le « transaction » plutôt que « transactionId ».
+* N’utilisez pas un nom de lien comportant le suffixe « id ». Par exemple, appelez-le &quot;transaction&quot; plutôt que &quot;transactionId&quot;.
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
 
 ## Performances {#performance}
 
-Afin d’optimiser les performances à tout moment, suivez les bonnes pratiques ci-dessous.
+Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratiques ci-dessous.
 
 ### Recommandations générales {#general-recommendations}
 
-* Évitez d’utiliser des opérations telles que « CONTAINS » dans les requêtes. Si vous savez ce qui est attendu et souhaitez appliquer un filtre, appliquez la même condition avec un opérateur « ÉGAL À » ou d’autres opérateurs de filtre spécifiques.
+* Évitez d&#39;utiliser des opérations telles que &quot;CONTAINS&quot; dans les requêtes. Si vous savez ce qui est attendu et souhaitez appliquer un filtre, appliquez la même condition avec un opérateur « ÉGAL À » ou d’autres opérateurs de filtre spécifiques.
 * Évitez toute jointure avec des champs non indexés lors de la création de données dans des workflows.
 * Veillez à ce que les processus tels que l’import et l’export se produisent en dehors des heures de bureau.
-* Vérifiez qu’il existe un planning pour toutes les activités quotidiennes et respectez-le.
-* Si un ou plusieurs processus quotidiens échouent et s’ils doivent être exécutés le même jour, vérifiez que des processus en conflit ne sont pas en cours d’exécution lorsque le processus manuel est lancé, car cela peut avoir un impact sur les performances du système.
-* Vérifiez qu’aucune campagne quotidienne n’est exécutée pendant le processus d’import ou lorsqu’un processus manuel est exécuté.
-* Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l’utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
-* Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l’intégration des données avec Adobe Campaign.
+* Vérifiez qu&#39;il existe un planning pour toutes les activités quotidiennes et respectez-le.
+* Si un ou plusieurs processus quotidiens échouent et s&#39;ils doivent être exécutés le même jour, vérifiez que des processus en conflit ne sont pas en cours d&#39;exécution lorsque le processus manuel est lancé, car cela peut avoir un impact sur les performances du système.
+* Vérifiez qu&#39;aucune campagne quotidienne n&#39;est exécutée pendant le processus d&#39;import ou lorsqu&#39;un processus manuel est exécuté.
+* Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l&#39;utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
+* Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l&#39;intégration des données avec Adobe Campaign.
 
-### Relations de type « un à plusieurs » {#one-to-many-relationships}
+### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
 
-* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type « un à plusieurs », il devient plus difficile pour les utilisateurs de construire une logique significative dans l’application. Il peut s’avérer difficile pour les marketeurs n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
-* Qu’une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d’une table à l’autre si cela permet d’éviter une jointure.
-* Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type « un à plusieurs », par exemple la formule Pondération d’offre et Diffusions.
+* La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s&#39;avérer difficile pour les marketeurs n&#39;ayant pas de compétences techniques de construire et de comprendre correctement la logique.
+* Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Il est aussi parfois judicieux de dupliquer certains champs d&#39;une table à l&#39;autre si cela permet d&#39;éviter une jointure.
+* Certaines fonctionnalités intégrées ne pourront pas faire référence à des relations de type &quot;un à plusieurs&quot;, par exemple la formule Pondération d&#39;offre et Diffusions.
 
 ### Tables volumineuses {#large-tables}
 

@@ -1,27 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: À propos d’Adobe Experience Platform Data Connector
 description: Gérez les schémas XDM pour rendre vos données Campaign Standard disponibles sur Adobe Experience Platform.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '774'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '771'
 ht-degree: 100%
 
 ---
 
-# À propos d’Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# À propos d&#39;Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Adobe Experience Platform Data Connector permet aux clients existants de rendre leurs données disponibles sur Adobe Experience Platform en mappant les données XTK (données ingérées dans Campaign) avec les données XDM (Experience Data Model) sur Adobe Experience Platform.
 

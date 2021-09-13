@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Notions de modèle de données
 description: Découvrez le modèle de données Adobe Campaign et comment le modifier.
 audience: developing
@@ -11,10 +9,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '249'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '247'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interface de l'éditeur de contenu de SMS et de notification push
 description: Découvrez comment utiliser les différentes sections de l'éditeur pour modifier le contenu de vos SMS et notifications push.
 audience: designing
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '331'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
@@ -89,7 +87,7 @@ La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le
 L&#39;éditeur de contenu de SMS et de notification push offre les possibilités suivantes :
 
 * Saisir du texte
-* Ajouter un champ de personnalisation Voir à ce propos la section [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
-* Ajouter un bloc de contenu Voir à ce propos la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
-* Ajouter du texte dynamique Voir à ce propos la section [Définir un texte dynamique](../../channels/using/defining-dynamic-text.md).
-* Personnaliser le nom de l&#39;expéditeur du SMS (SMS uniquement). Voir à ce propos la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
+* Ajouter un champ de personnalisation Pour plus d&#39;informations, consultez la section [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+* Ajouter un bloc de contenu Pour plus d&#39;informations, consultez la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
+* Ajouter du texte dynamique Pour plus d&#39;informations, consultez la section [Définir un texte dynamique](../../channels/using/defining-dynamic-text.md).
+* Personnaliser le nom de l&#39;expéditeur du SMS (SMS uniquement). Pour plus d&#39;informations, consultez la section [Configuration des SMS](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).

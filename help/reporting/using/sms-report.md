@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Rapport SMS
 description: 'Grâce au rapport d''usine SMS, découvrez les performances de vos diffusions SMS. '
 audience: reporting
@@ -10,10 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '74'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '73'
 ht-degree: 100%
 
 ---

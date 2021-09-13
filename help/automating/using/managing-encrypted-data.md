@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gérer des données cryptées
 description: Découvrez comment gérer les données cryptées.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
-workflow-type: ht
-source-wordcount: '953'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '952'
 ht-degree: 100%
 
 ---
@@ -29,7 +27,7 @@ Pour pouvoir crypter les données sortantes ou décrypter les données entrantes
 >
 >Le panneau de contrôle est disponible pour tous les clients hébergés sur AWS (à l’exception de ceux qui hébergent leurs instances marketing on-premise).
 
-Si vous ne pouvez pas utiliser le panneau de contrôle, vous devez contacter l’Assistance clientèle d’Adobe afin qu’elle indique à votre instance les commandes de cryptage/décryptage nécessaires. Pour ce faire, envoyez une demande indiquant :
+Si vous ne pouvez pas utiliser le panneau de contrôle, vous devez contacter l’assistance clientèle d’Adobe afin qu’elle indique à votre instance les commandes de cryptage/décryptage nécessaires. Pour ce faire, envoyez une demande indiquant :
 
 * Le **libellé** qui s’affichera dans l’interface de Campaign pour utiliser la commande. Par exemple, « Crypter le fichier ».
 * La **commande** à installer sur votre instance.
@@ -64,12 +62,12 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfert de fichier]** : transfère le fichier d’une source externe vers Campaign. Dans cet exemple, nous voulons transférer le fichier depuis un serveur SFTP.
+   * **[!UICONTROL Transfert de fichier]** : transfère le fichier d’une source externe vers Campaign. Dans cet exemple, nous voulons transférer le fichier depuis un serveur SFTP.
    * **[!UICONTROL Chargement de fichier]** : charge les données du fichier dans la base de données et le décrypte à l’aide de la clé privée générée dans le panneau de contrôle.
 
 1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/load-file.md).
 
-   Dans l’onglet **[!UICONTROL Protocole]**, spécifiez des détails sur le serveur sftp et le fichier .gpg crypté à transférer.
+   Dans l’onglet **[!UICONTROL Protocole]**, spécifiez des détails sur le serveur sftp et le fichier .gpg crypté à transférer.
 
    ![](assets/gpg_transfer.png)
 
@@ -87,7 +85,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Vous pouvez maintenant exécuter le workflow.
 
-## Cas pratique : cryptage et export de données à l’aide d’une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
+## Cas pratique : chiffrage et export de données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle.
 
@@ -105,7 +103,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    * Activité **[!UICONTROL Requête]** : dans cet exemple, nous voulons exécuter une requête pour cibler les données de la base de données que nous voulons exporter.
    * Activité **[!UICONTROL Extraction de fichier]** : crypte et extrait les données dans un fichier.
-   * **[!UICONTROL Transfert de fichier]** : transfère le fichier contenant les données cryptées vers un serveur SFTP.
+   * **[!UICONTROL Transfert de fichier]** : transfère le fichier contenant les données cryptées vers un serveur SFTP.
 
 1. Configurez l’activité **[!UICONTROL Requête]** pour qu’elle cible les données de votre choix dans la base de données. Voir à ce propos [cette section](../../automating/using/query.md).
 
@@ -119,11 +117,11 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
    >
    >La valeur entre parenthèses est le **commentaire** que vous avez défini lors de la génération de la paire de clés à l’aide de votre outil de cryptage GPG. Veillez à bien sélectionner la clé correspondante correcte, sinon le destinataire ne pourra pas décrypter le fichier.
 
-1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le serveur SFTP auquel vous souhaitez envoyer le fichier. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/transfer-file.md).
+1. Ouvrez l’activité **[!UICONTROL Transfert de fichier]**, puis spécifiez le serveur SFTP auquel vous souhaitez envoyer le fichier. Les concepts généraux de configuration de l’activité sont présentés dans [cette section](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
-1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
+1. Vous pouvez maintenant exécuter le workflow. Une fois exécuté, les données ciblées par la requête sont exportées vers le serveur SFTP dans un fichier .gpg crypté.
 
 ## Tutoriels vidéo {#video}
 

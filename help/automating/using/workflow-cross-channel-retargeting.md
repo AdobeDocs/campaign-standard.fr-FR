@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Reciblage des personnes n’ayant pas ouvert l’email
 description: Ce cas pratique montre comment recibler les personnes n’ayant pas ouvert l’email.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '385'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '384'
 ht-degree: 100%
 
 ---

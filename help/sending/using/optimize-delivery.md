@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Optimisation de la diffusion des messages
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment sécuriser et optimiser le processus d’envoi en amont.
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '747'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '746'
 ht-degree: 100%
 
 ---

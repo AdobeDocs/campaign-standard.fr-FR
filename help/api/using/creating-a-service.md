@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer un service
 description: Découvrez comment créer un service avec les API.
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '74'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '73'
 ht-degree: 100%
 
 ---
 
-# Créer un service {#creating-a-service}
+# Création d&#39;un service {#creating-a-service}
 
 La création de services est effectuée avec une requête **POST** sur la ressource de service.
 

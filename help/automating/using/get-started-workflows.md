@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main des processus et de la gestion des données
 description: Automatisez les processus avec des workflows, gérez les données et les audiences, envoyez des messages, et bien plus encore.
 audience: automating
@@ -10,14 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
-workflow-type: ht
-source-wordcount: '518'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Prise en main des processus et de la gestion des données{#get-started-processes-data-management}
+# Prise en main des processus et de la gestion des données {#get-started-processes-data-management}
 
 <table>
 <tr>
@@ -68,7 +66,7 @@ En savoir plus :
 * [Édition avancée d&#39;expressions](../../automating/using/advanced-expression-editing.md)
 * [Liste des fonctions](../../automating/using/list-of-functions.md)
 
-## Importation/exportation des données {#import-export-data}
+## Import/export des données {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

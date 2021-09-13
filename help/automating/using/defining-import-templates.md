@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Définir un modèle d'import
 description: Les modèles d'import permettent de réduire les paramètres nécessaires et d'importer plus rapidement les données.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 100%
@@ -83,5 +80,5 @@ Le modèle d&#39;import est à présent disponible pour les utilisateurs et peut
 
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Import et export de données](../../automating/using/about-data-import-and-export.md)
-* [Exemple : modèle de workflow d&#39;import ](../../automating/using/creating-import-workflow-templates.md)
+* [Exemple : modèle de workflow d&#39;import  ](../../automating/using/creating-import-workflow-templates.md)
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Répartition par domaine
 description: Grâce au rapport d'usine Répartition par domaine, découvrez les données de performance de vos diffusions selon chaque domaine de votre client.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '236'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envoi d'une notification push récurrente avec un workflow
 description: Dans cet exemple, une notification push personnalisée est envoyée chaque premier jour du mois, à 8h, aux abonnés de votre application mobile selon leur fuseau horaire.
 audience: automating
@@ -10,10 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '518'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---

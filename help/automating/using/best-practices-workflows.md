@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bonnes pratiques relatives aux workflows
 description: Découvrez les bonnes pratiques à appliquer à vos workflows.
 audience: automating
@@ -11,11 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1226'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1225'
+ht-degree: 99%
 
 ---
 

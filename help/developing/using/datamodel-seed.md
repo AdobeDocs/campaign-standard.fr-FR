@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '173'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '171'
 ht-degree: 100%
 
 ---
@@ -260,7 +257,7 @@ Par usage (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>proof</td>
+        <td>BAT</td>
         <td>boolean</td>
         </tr>
     </table>

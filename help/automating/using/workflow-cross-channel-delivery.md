@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion cross-canal
 description: Ce cas pratique montre comment créer une diffusion cross-canal
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '918'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '917'
 ht-degree: 100%
 
 ---
 
-# Création d’une diffusion cross-canal{#cross-channel-delivery}
+# Création d&#39;une diffusion cross-canal{#cross-channel-delivery}
 
 Ce document vous permet de découvrir la fonctionnalité d&#39;Adobe Campaign suivante via un cas pratique standard : création d&#39;un workflow de diffusion cross-canal.
 
@@ -44,7 +41,7 @@ Créez un nouveau workflow dans le programme ou la campagne de votre choix:
 1. Sélectionnez **[!UICONTROL Nouveau workflow]** en tant que type de workflow et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés du workflow, puis cliquez sur **[!UICONTROL Créer]**.
 
-Les étapes détaillées pour créer un workflow sont présentées dans la section [Création d&#39;un workflow](../../automating/using/building-a-workflow.md).
+Les étapes détaillées pour créer un workflow sont présentées dans la section [Création d’un workflow](../../automating/using/building-a-workflow.md).
 
 ## Créer une activité Requête {#creating-query-activity}
 

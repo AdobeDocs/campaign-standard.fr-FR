@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création d’un email multilingue avec l’intégration d’Adobe Experience Manager.
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 96%

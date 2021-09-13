@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Présentation de la structure de la payload des notifications push Campaign Standard
 description: L’objectif de ce document est de décrire la structure de la payload reçue dans les applications mobiles.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1150'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1148'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bonnes pratiques d’import
 description: Découvrez les meilleures pratiques à appliquer lors de l’import de données dans la base de données.
 audience: automating
@@ -9,19 +7,18 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '582'
-ht-degree: 100%
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
-# Bonnes pratiques d’import {#import-best-practices}
+# Bonnes pratiques d&#39;import {#import-best-practices}
 
 >[!CAUTION]
 >
->Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
 Pour garantir la cohérence des données au sein de la base de données et éviter les erreurs fréquentes lors de la mise à jour de la base de données ou de l’export de données, faites preuve de précaution et suivez les quelques règles simples détaillées ci-dessous.
 
@@ -43,7 +40,7 @@ Un exemple de modèle de workflow générique conçu pour importer des données 
 
 **Rubriques connexes :**
 
-* [Activité Chargement de fichier](../../automating/using/load-file.md)
+* [Chargement de fichier activité](../../automating/using/load-file.md)
 * [Activité Réconciliation](../../automating/using/reconciliation.md)
 * [Activité Segmentation](../../automating/using/segmentation.md)
 * [Activité Déduplication](../../automating/using/deduplication.md)
@@ -58,7 +55,7 @@ Par exemple :
 * Séparateur : onglet ou point virgule
 * Première ligne avec en-têtes
 * Pas de délimiteur de chaîne
-* Format de date : AAAA/MM/JJ HH:mm:SS
+* Format de date : AAAA/MM/JJ HH:mm:SS
 
 Voici un exemple de fichier à importer :
 
@@ -76,7 +73,7 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 **Rubriques connexes :**
 
-* [Activité Chargement de fichier](../../automating/using/load-file.md)
+* [Chargement de fichier activité](../../automating/using/load-file.md)
 * [Activité Extraction de fichier](../../automating/using/extract-file.md)
 
 ## Importer en mode Delta {#importing-in-delta-mode}

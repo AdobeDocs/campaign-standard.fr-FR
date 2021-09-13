@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Vérification avant envoi
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: « Une fois que votre message est prêt, découvrez comment effectuer toutes les vérifications avant de l’envoyer »
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '412'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '411'
 ht-degree: 100%
 
 ---

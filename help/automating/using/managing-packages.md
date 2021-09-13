@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des packages
 description: Les administrateurs peuvent définir des packages pour échanger des ressources entre différentes instances Adobe Campaign par le biais de fichiers structurés au format XML.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1113'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
@@ -85,7 +82,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
    ![](assets/packages_4.png)
 
-1. Utilisez l’éditeur de requêtes pour filtrer les éléments à exporter. Voir à ce propos la section [Edition de requêtes](../../automating/using/editing-queries.md#creating-queries).
+1. Utilisez l’éditeur de requêtes pour filtrer les éléments à exporter. Pour plus d&#39;informations, consultez la section [Edition de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
    ![](assets/packages_5.png)
 
@@ -143,7 +140,7 @@ L’onglet **[!UICONTROL Logs d’exécution]** répertorie toutes les étapes d
 
 ### Import d’un package     {#importing-a-package}
 
-Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Voir à ce propos la section [Exports de package](#package-exports).
+Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Pour plus d&#39;informations, consultez la section [Exports de package](#package-exports).
 
 L’import manuel d’un package consiste en deux étapes : il faut d’abord télécharger un fichier avant de pouvoir importer son contenu.
 

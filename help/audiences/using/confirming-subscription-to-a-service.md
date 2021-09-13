@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Confirmation d'un abonnement à un service
 description: Pour configurer un message de confirmation pour les profils s'abonnant à un service dans Adobe Campaign, suivez les étapes ci-après.
 audience: audiences
@@ -10,16 +8,16 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1421'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1420'
 ht-degree: 100%
 
 ---
 
 # Confirmation d&#39;un abonnement à un service{#confirming-subscription-to-a-service}
 
-## A propos de l&#39;envoi de la confirmation d&#39;abonnement {#sending-subscription-confirmation}
+## À propos de l&#39;envoi de la confirmation d&#39;abonnement {#sending-subscription-confirmation}
 
 Cette section décrit comment envoyer un email de confirmation personnalisé automatique aux profils qui s&#39;abonnent à un service spécifique.
 
@@ -94,7 +92,7 @@ L&#39;email de confirmation est un message transactionnel basé sur l&#39;évén
 
    Pour plus d&#39;informations sur la personnalisation d&#39;un message transactionnel, voir [cette section](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. Prévisualisez votre message à l&#39;aide d&#39;un profil de test. Voir à ce propos la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. Prévisualisez votre message à l&#39;aide d&#39;un profil de test. Pour plus d&#39;informations, consultez la section [Définition d&#39;un profil de test spécifique](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** pour enregistrer votre contenu.
 1. Publiez le message transactionnel. Voir [Publier un message transactionnel](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).

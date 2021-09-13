@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Migration de l'application mobile SDK v4 vers le SDK Adobe Experience Platform
 description: Ce document vous permet de migrer votre application mobile SDK v4 vers le SDK Adobe Experience Platform.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Paramétres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1360'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1358'
 ht-degree: 100%
 
 ---
@@ -60,7 +58,7 @@ Avant de procéder à la migration, tenez compte des recommandations suivantes 
 * Avant la migration, assurez-vous d’avoir affecté l’**[!UICONTROL entité organisationnelle]** de l’application mobile à migrer et de l’application Adobe Experience Platform que vous utilisez pour la migration.
 * Après la migration, l’application devient une application SDK Adobe Experience Platform. Ses modifications sont liées à la **[!UICONTROL Propriété mobile]** Launch correspondante.
 
-1. Créez une **[!UICONTROL propriété Mobile]** dans Adobe Experience Platform Launch. Pour plus d&#39;informations à ce sujet, consultez la documentation d&#39;[Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Créez une **[!UICONTROL propriété Mobile]** dans Adobe Experience Platform Launch. Pour plus d’informations, consultez la documentation d&#39;[Adobe Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 1. Dans Adobe Campaign Standard, dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Workflows]** et ouvrez le workflow **[!UICONTROL syncWithLaunch]**. Vérifiez si le workflow s’est terminé sans erreur.
 

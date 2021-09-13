@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: À propos des abonnements
+title: À propos des inscriptions
 description: Découvrez les services et les abonnements dans Campaign Standard.
 feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '222'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '221'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer un SMS
 description: Suivez ces étapes pour créer une diffusion SMS unique dans Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '545'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
@@ -28,10 +26,10 @@ Les paramètres avancés des SMS sont détaillés dans la section [Configuration
 
 Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
-* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Voir à ce propos la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* un compte externe de type **[!UICONTROL Routage]** paramétré sur le canal **[!UICONTROL Mobile (SMS)]** avec le mode de diffusion **[!UICONTROL Envoi en masse]**. Pour plus d&#39;informations, consultez la section [Routage](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * un modèle de diffusion correctement lié à ce compte externe.
 
-1. Créez une diffusion SMS depuis la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. Création d’une diffusion SMS. depuis la [page d&#39;accueil](../../start/using/interface-description.md#home-page) Adobe Campaign, au sein d&#39;une [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) ou dans la [liste des activités marketing](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    Vous pouvez également ajouter une activité SMS à un workflow. Voir à ce propos le guide [Workflows](../../automating/using/sms-delivery.md).
 
@@ -80,7 +78,7 @@ Une fois l&#39;envoi terminé, vous pouvez commencer à mesurer l&#39;impact de 
 
 **Rubriques connexes :**
 
-* [A propos de l&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](../../channels/using/about-sms-and-push-content-design.md)
+* [À propos de l&#39;édition du contenu d&#39;un SMS et d&#39;une notification push](../../channels/using/about-sms-and-push-content-design.md)
 * [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 
 ## Tutoriel vidéo {#video}

@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Appel d'une ressource à l'aide d'une clé d'identification composite
 description: Découvrez comment appeler une ressource à l'aide d'une clé d'identification composite.
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '614'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Appel d’une ressource à l’aide d’une clé d’identification composite{#calling-a-resource-using-a-composite-identification-key}
+# Appel d&#39;une ressource à l&#39;aide d&#39;une clé d&#39;identification composite{#calling-a-resource-using-a-composite-identification-key}
 
 Dans certains cas, il est possible que vous deviez définir pour une ressource une clé d&#39;identification constituée de deux champs. Une fois la clé d&#39;identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d&#39;identification à partir de l&#39;interface de Campaign Standard ou des API.
 
@@ -30,7 +27,7 @@ Les étapes principales de ce cas pratique sont les suivantes :
 Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
-* [Définir les clés d&#39;identification ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Définir les clés d&#39;identification      ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Etape 1 : configurer la clé d&#39;identification{#step-1-configure-the-identification-key}

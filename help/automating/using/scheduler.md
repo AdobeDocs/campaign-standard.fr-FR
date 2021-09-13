@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Planificateur
 description: L'activité Planificateur permet de planifier le déclenchement d'un workflow ou d'une activité.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '656'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Planificateur]** permet de planifier le déclenchement d&#39;un workflow ou d&#39;une activité.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Planificateur]** est à considérer comme un départ planifié. Les règles de positionnement de l&#39;activité dans le diagramme sont les mêmes que pour l&#39;activité **[!UICONTROL Début]**. L&#39;activité ne doit jamais comporter de transition entrante.
 
@@ -75,9 +72,9 @@ Lors de la conception d’un workflow planifié incluant plusieurs activités, v
 
    Pour plus d&#39;informations sur l&#39;envoi d&#39;une diffusion selon le fuseau horaire du destinataire, consultez cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) ou reportez-vous à cet [exemple](../../automating/using/recurring-push-notifications.md) de workflow récurrent.
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple {#example}
+## Exemple  {#example}
 
 Dans l&#39;exemple suivant, l&#39;activité est paramétrée afin de faire démarrer le workflow toutes les deux semaines, le lundi matin à 7h, pour une durée indéterminée.
 

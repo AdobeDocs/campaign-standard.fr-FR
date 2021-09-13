@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main des intégrations de Campaign
 description: Utilisez d'autres solutions d'Adobe et combinez leurs différentes fonctionnalités avec Campaign.
 audience: integrating
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
-workflow-type: ht
-source-wordcount: '714'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '713'
 ht-degree: 100%
 
 ---
 
-# A propos des intégrations de Campaign{#get-started-campaign-integrations}
+# À propos des intégrations de Campaign{#get-started-campaign-integrations}
 
 Cette section présente les intégrations fonctionnelles disponibles entre la version actuelle d&#39;Adobe Campaign et d&#39;autres solutions et services.
 
@@ -65,7 +63,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Adobe Analytics<br /> </td> 
    <td> Permet de tracker les performances de vos diffusions e-mail directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +90,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Triggers Adobe Experience Cloud<br /> </td> 
    <td> Permet d'envoyer des e-mails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
     </td> 
   </tr> 
     <tr> 

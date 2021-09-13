@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: URL et flux de clics
 description: Grâce au rapport d'usine URL et flux de clics, découvrez les performances des URL dans vos diffusions.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: f9bf39a3-7dca-429e-97bc-454b04f0d2a2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---

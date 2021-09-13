@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ciblage des audiences Adobe Experience Platform
 description: Découvrez comment cibler les audiences Adobe Experience Platform dans les workflows.
 audience: automating
@@ -10,19 +8,18 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '421'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
 
-# Ciblage des audiences Adobe Experience Platform {#targeting-aep-audiences}
+# Ciblage des audiences Adobe Experience Platform {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’Assistance clientèle d’Adobe si vous souhaitez y accéder.
+>Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Une fois l’[audience Adobe Experience Platform](../../integrating/using/aep-about-audience-destinations-service.md) créée à l’aide du créateur de segments, vous pouvez l’utiliser de la même manière qu’une audience Campaign dans les workflows pour personnaliser et envoyer des messages.
 
@@ -69,4 +66,4 @@ Pour plus d’informations sur l’utilisation des workflows et des diffusions, 
 * [Présentation des workflows](../../automating/using/get-started-workflows.md)
 * [Construire un workflow](../../automating/using/building-a-workflow.md)
 * [Découvrir les canaux de communication](../../channels/using/get-started-communication-channels.md)
-* [A propos des activités des canaux](../../automating/using/about-channel-activities.md)
+* [À propos des activités des canaux](../../automating/using/about-channel-activities.md)

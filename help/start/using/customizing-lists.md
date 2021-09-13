@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnalisation des listes
 description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Opérations
+feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '398'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -55,7 +53,7 @@ Vous pouvez également configurer les colonnes affichées pour une liste. Pour a
    * **[!UICONTROL DESC]** : applique un tri descendant (décroissant) sur la colonne.
 
 1. Supprimez les colonnes que vous ne souhaitez pas afficher. Pour cela, cochez les cases correspondant aux colonnes à supprimer. Utilisez ensuite le bouton ![](assets/delete.png) de la barre d&#39;actions pour valider la suppression.
-1. Une fois que votre liste contient les bonnes colonnes, vous pouvez modifier l&#39;ordre dans lequel elles seront affichées dans la liste. Pour cela, cochez les cases des colonnes à déplacer. Utilisez ensuite les flèches ![](assets/arrowdown.png) et ![](assets/arrowup.png).
+1. Une fois que votre liste contient les colonnes souhaitées, vous pouvez modifier l’ordre dans lequel elles seront affichées. Pour cela, cochez les cases des colonnes à déplacer. Utilisez ensuite les flèches ![](assets/arrowdown.png) et ![](assets/arrowup.png).
 1. Validez la configuration de votre liste en sélectionnant **[!UICONTROL OK]**.
 
 Votre liste est désormais affichée telle que vous l&#39;avez configurée.

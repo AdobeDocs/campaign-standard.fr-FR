@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Diffusion courrier
 description: L'activité Diffusion courrier permet de paramétrer l'envoi d'un courrier unique ou récurrent dans un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '965'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '964'
 ht-degree: 100%
 
 ---
@@ -32,7 +29,7 @@ L&#39;activité **[!UICONTROL Diffusion courrier]** permet de configurer et de p
 * **Les courriers classiques ne sont envoyés qu’une seule fois.**
 * **Les courriers récurrents permettent d’envoyer plusieurs fois sur une période définie un même courrier à des cibles différentes.** Vous pouvez agréger les diffusions par période afin d’obtenir des rapports adaptés.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 En règle générale, l&#39;activité **[!UICONTROL Diffusion courrier]** est utilisée pour automatiser la préparation d&#39;un fichier contenant des données de profil. Ce fichier peut ensuite être envoyé à un partenaire/prestataire en charge de l&#39;envoi.
 
@@ -45,7 +42,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 **Rubriques connexes :**
 
 * [Cas pratique : diffusions conjointes d’emails et de courriers](../../automating/using/coupling-email-direct-mail.md)
-* [A propos du canal Courrier](../../channels/using/about-direct-mail.md)
+* [À propos du canal Ccourrier](../../channels/using/about-direct-mail.md)
 
 ## Configuration {#configuration}
 

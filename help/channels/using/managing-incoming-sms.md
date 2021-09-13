@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gérer les SMS entrants
 description: Découvrez comment gérer les SMS STOP et stocker les SMS entrants dans Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '720'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '719'
 ht-degree: 100%
 
 ---

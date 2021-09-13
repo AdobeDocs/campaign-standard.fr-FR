@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gestion des styles d'email
 description: Découvrez comment gérer les styles d'email dans le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1091'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1089'
 ht-degree: 100%
 
 ---
@@ -48,7 +46,7 @@ Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment
 
 ## Ajuster les paramètres de style        {#adjusting-style-settings}
 
-1. Sélectionnez un élément dans votre email. Voir à ce propos la section [Sélectionner un élément](#selecting-an-element).
+1. Sélectionnez un élément dans votre email. Pour plus d&#39;informations, consultez la section [Sélectionner un élément](#selecting-an-element).
 1. Ajustez les paramètres selon vos besoins. Chaque élément sélectionné offre un ensemble différent de paramètres.
 
    Vous pouvez insérer des arrière-plans, modifier les tailles, changer l&#39;alignement horizontal ou vertical, gérer les couleurs, ajouter une [marge ou une marge intérieure](#selecting-an-element), etc.

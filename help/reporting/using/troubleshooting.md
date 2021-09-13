@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Résolution des problèmes
 description: Vous trouverez ici des questions courantes relatives aux rapports dynamiques.
 audience: reporting
@@ -10,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 100%
 
 Cette section contient des questions courantes relatives aux rapports dynamiques.
 
-## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne. {#unique-open-clicks-no-match}
+## Pour les ouvertures uniques et les clics uniques, le décompte de la ligne agrégée ne correspond pas à ceux de chaque ligne.  {#unique-open-clicks-no-match}
 
 Il s&#39;agit d&#39;un comportement attendu.
 Prenons l&#39;exemple suivant pour expliquer ce comportement.
@@ -92,7 +90,7 @@ Cela donne le tableau suivant :
 >
 >Les décomptes uniques reposent sur un sketch HLL, ce qui peut entraîner de légères imprécisions dans le cas de nombres élevés.
 
-## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données. {#open-counts-no-match-database}
+## Les décomptes des ouvertures ne correspondent pas à ceux de la base de données.  {#open-counts-no-match-database}
 
 Cela peut être dû au fait que la méthode heuristique est utilisée dans les rapports dynamiques pour tracker les ouvertures, même lorsque nous ne pouvons pas tracker l&#39;action **[!UICONTROL Ouvrir]**.
 
@@ -157,7 +155,7 @@ Les rapports doivent se présenter comme suit :
  </tbody> 
 </table>
 
-## Quelle est la signification des couleurs dans le tableau des rapports ? {#reports-color-signification}
+## Quelle est la signification des couleurs dans le tableau des rapports ?  {#reports-color-signification}
 
 Les couleurs affichées dans vos rapports sont aléatoires et ne peuvent pas être personnalisées. Elles représentent une barre de progression et s&#39;affichent pour mettre en évidence la valeur maximale atteinte dans vos rapports.
 

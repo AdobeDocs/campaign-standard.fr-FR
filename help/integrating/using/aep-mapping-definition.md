@@ -1,27 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Définition d’un mapping
 description: Découvrez comment mapper un champ Campaign Standard avec un champ XDM (Experience Data Model).
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Intégration de Microsoft CRM
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '515'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
 
-# Définition d’un mapping {#mapping-definition}
+# Définition d&#39;un mapping {#mapping-definition}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l&#39;Assistance clientèle d&#39;Adobe si vous souhaitez y accéder.
+>Adobe Experience Platform Data Connector est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
 Dans cette section, vous allez découvrir comment mapper un champ Campaign Standard avec un champ XDM (Experience Data Model).
 

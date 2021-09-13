@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"Etape 1 : Ajouter des champs d''extension à la ressource Profil"'
 description: Découvrez comment étendre la ressource Profil.
 audience: developing
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
 
-# Etape 1 : Ajouter des champs d&#39;extension à la ressource Profil{#step-add-extension-fields-to-the-profile-resource}
+# Étape 1 : ajouter des champs d&#39;extension à la ressource Profil{#step-add-extension-fields-to-the-profile-resource}
 
 1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
 1. Cliquez sur l&#39;icône **[!UICONTROL Créer]** pour créer une nouvelle ressource personnalisée.

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnaliser un SMS
 description: Découvrez la spécificité des options de translittération lors de la personnalisation des SMS.
 audience: channels
@@ -11,16 +9,16 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '433'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
 
 # Personnaliser un SMS{#personalizing-sms-messages}
 
-Les principes de personnalisation des SMS sont les mêmes que pour les [e-mails](../../designing/using/personalization.md#inserting-a-personalization-field). Vous devez toutefois être attentif aux options de translittération car elles peuvent faire changer l&#39;encodage et donc le nombre de SMS à envoyer. Voir à ce propos la section [Translittération et longueur des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
+Les principes de personnalisation des SMS sont les mêmes que pour les [e-mails](../../designing/using/personalization.md#inserting-a-personalization-field). Vous devez toutefois être attentif aux options de translittération car elles peuvent faire changer l&#39;encodage et donc le nombre de SMS à envoyer. Pour plus d&#39;informations, consultez la section [Translittération et longueur des SMS](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, selon l&#39;option de translittération choisie, ne générera pas le même nombre d&#39;envois :
 

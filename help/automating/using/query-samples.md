@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Exemples de requêtes '
 description: Cette section présente un cas pratique d’utilisation d’une activité de Requête.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '366'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
-# Exemples de requêtes      {#query-samples}
+# Exemples de requêtes     {#query-samples}
 
 Cette section présente un cas pratique d’utilisation d’une activité de **[!UICONTROL Requête]**. Pour plus d’informations sur l’utilisation d’une activité de **[!UICONTROL Requête]**, consultez [cette section](../../automating/using/query.md).
 

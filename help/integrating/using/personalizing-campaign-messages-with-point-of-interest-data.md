@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Personnaliser des messages Campaign avec les données de points ciblés
 description: Découvrez comment créer un message personnalisé en fonction de la localisation de vos abonnés grâce à l'intégration des données de points ciblés.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '288'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '287'
 ht-degree: 100%
 
 ---
@@ -64,6 +61,6 @@ L&#39;email contenant la réduction de 10 % sera envoyé aux abonnés :
 
 **Rubriques connexes :**
 
-* [Création d’un email](../../channels/using/creating-an-email.md)
+* [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Définir le contenu](../../designing/using/personalization.md#example-email-personalization)
 * [Envoyer les messages](../../sending/using/confirming-the-send.md)

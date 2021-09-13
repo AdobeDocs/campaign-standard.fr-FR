@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Requête incrémentale sur les abonnés à un service
 description: L’exemple ci-après montre comment configurer une activité de requête incrémentale pour filtrer les abonnés à un service.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '218'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '217'
 ht-degree: 100%
 
 ---

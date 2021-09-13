@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création de contenu personnalisé
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Découvrez comment concevoir le contenu de votre message et évitez les problèmes courants qui peuvent vous empêcher d'exécuter votre diffusion. 
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1044'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1043'
 ht-degree: 100%
 
 ---

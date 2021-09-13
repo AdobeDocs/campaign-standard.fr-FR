@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour des données à l’aide d’un téléchargement automatique de fichier
 description: 'L''exemple suivant montre le résultat d''une activité de chargement d''un fichier automatiquement téléchargé via une activité de transfert, suivie d''une mise à jour de données. '
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '297'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
 
-# Mise à jour des données à l’aide d’un téléchargement automatique de fichier{#updating-data-automatic-file-download}
+# Mise à jour des données à l&#39;aide d&#39;un téléchargement automatique de fichier {#updating-data-automatic-file-download}
 
 L&#39;activité de chargement de fichier sert essentiellement à structurer des données issues d&#39;une activité de transfert de fichier en vue de les intégrer à des données existantes.
 

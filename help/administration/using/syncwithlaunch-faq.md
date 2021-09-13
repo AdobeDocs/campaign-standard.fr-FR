@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: FAQ sur le workflow technique de synchronisation avec Launch
 description: Questions courantes à propos du workflow technique de Launch.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '507'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---

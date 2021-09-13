@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Appeler un workflow avec des paramètres externes
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
-workflow-type: ht
-source-wordcount: '837'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '836'
 ht-degree: 100%
 
 ---

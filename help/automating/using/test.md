@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Test
 description: L’activité Test active une transition en fonction d’un résultat au test.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L’activité **[!UICONTROL Test]** active une transition en fonction d’un résultat au test.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 Une activité **Test** active la première transition qui satisfait la condition qui lui est associée.
 

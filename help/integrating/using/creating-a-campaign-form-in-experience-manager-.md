@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Création d''un formulaire Campaign dans Experience Manager '
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez concevoir des formulaires directement dans AEM afin de créer et mettre à jour des profils ou gérer des abonnements.
 audience: integrating
@@ -10,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
-workflow-type: ht
-source-wordcount: '186'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '185'
 ht-degree: 100%
 
 ---

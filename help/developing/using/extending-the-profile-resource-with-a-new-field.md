@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extension de la ressource Profil avec un nouveau champ
 description: Découvrez comment étendre la ressource Profil.
 audience: developing
@@ -10,17 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1156'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
 
 # Extension de la ressource Profil avec un nouveau champ{#extending-the-profile-resource-with-a-new-field}
 
-## A propos de l&#39;extension de profils {#about-extending-profiles}
+## À propos de l&#39;extension de profils {#about-extending-profiles}
 
 Ce cas pratique présente l&#39;extension d&#39;un profil et d&#39;un profil de test avec un champ dédié.
 
@@ -28,10 +25,10 @@ Nous souhaitons ici mettre à jour nos profils avec le nouveau champ à l&#39;ai
 
 Procédez comme suit :
 
-* [Etape 1 : Etendre la ressource Profil ](#step-1--extend-the-profile-resource)
-* [Etape 2 : Etendre le profil de test ](#step-2--extend-the-test-profile)
-* [Etape 3 : Publier votre ressource personnalisée ](#step-3--publish-your-custom-resource)
-* [Etape 4 : Mettre à jour et cibler les profils avec un workflow ](#step-4--update-and-target-profiles-with-a-workflow)
+* [Etape 1 : Etendre la ressource Profil     ](#step-1--extend-the-profile-resource)
+* [Etape 2 : Etendre le profil de test     ](#step-2--extend-the-test-profile)
+* [Etape 3 : Publier votre ressource personnalisée     ](#step-3--publish-your-custom-resource)
+* [Etape 4 : Mettre à jour et cibler les profils avec un workflow     ](#step-4--update-and-target-profiles-with-a-workflow)
 
 Le champ suivant sera ensuite ajouté à nos profils et pourra être ciblé dans une diffusion :
 
@@ -40,7 +37,7 @@ Le champ suivant sera ensuite ajouté à nos profils et pourra être ciblé dans
 Rubriques connexes :
 
 * [Ressources personnalisées](../../developing/using/data-model-concepts.md)
-* [Gestion des profils](../../audiences/using/about-profiles.md)
+* [Gérer des profils](../../audiences/using/about-profiles.md)
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 
 ## Etape 1 : Etendre la ressource Profil      {#step-1--extend-the-profile-resource}

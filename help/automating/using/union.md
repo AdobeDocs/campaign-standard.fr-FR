@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Union
 description: L'activité Union permet de regrouper le résultat de plusieurs activités dans une même cible.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '406'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
 
 ---
@@ -31,7 +28,7 @@ L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusi
 >
 >Les ensembles ne doivent pas nécessairement être homogènes.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populations des transitions entrantes dans le cadre d&#39;une segmentation, d&#39;une définition d&#39;audience ou en vue de la préparation de la cible d&#39;un message par exemple.
 
@@ -53,9 +50,9 @@ L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populat
 1. Cochez la case **[!UICONTROL Utiliser uniquement les données additionnelles communes]** si vous souhaitez ne conserver que les données additionnelles présentes dans toutes les transitions entrantes.
 1. Cochez la case **[!UICONTROL Limiter la taille de la population générée]** si vous souhaitez limiter la taille de la population à un nombre donné d&#39;enregistrements, que vous indiquez dans le champ **[!UICONTROL Nombre maximum d&#39;enregistrements]**.
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population calculée.
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple {#example}
+## Exemple  {#example}
 
 L&#39;exemple suivant montre le résultat de deux activités de requête visant à regrouper les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;âge est compris entre 34 et 40 ans. Le résultat contient l&#39;ensemble des profils des deux requêtes ou le nombre d&#39;enregistrements maximum défini lors du paramétrage, le cas échéant.
 

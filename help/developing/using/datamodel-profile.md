@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
 description: En savoir plus sur le datamodel
 audience: developing
@@ -9,10 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1250'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -200,7 +197,7 @@ ht-degree: 100%
                         <li>Unspecified - unknown - 0</li>
                         <li>Male - male - 1</li>
                         <li>Female - female - 2</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -362,7 +359,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -455,11 +452,11 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>integer</td>
+<td>entier</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>integer</td>
+<td>entier</td>
 </tr>
 <tr>
 <td>endDay</td>

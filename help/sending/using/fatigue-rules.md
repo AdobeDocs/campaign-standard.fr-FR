@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Règles de fatigue
 description: Créez des règles de fatigue afin de gérer la sur-sollicitation des profils en matière de communication.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Règles de typologie
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2447'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '2445'
 ht-degree: 100%
 
 ---
 
 # Règles de fatigue{#fatigue-rules}
 
-## A propos des règles de fatigue {#about-fatigue-rules}
+## À propos des règles de fatigue {#about-fatigue-rules}
 
 Les règles de fatigue permettent aux marketeurs de définir des règles métier cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Extension des abonnements à une ressource d’application
 description: Découvrez comment étendre l’abonnement à une ressource d’application
 audience: developing
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
 
 ---
 
-# Extension des abonnements à une ressource d’application{#extending-the-subscriptions-to-an-application-resource}
+# Extension des abonnements à une ressource d&#39;application{#extending-the-subscriptions-to-an-application-resource}
 
 Dans Adobe Campaign, les données d’attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications. Pour plus d’informations sur les ressources personnalisées, consultez [cette page](../../developing/using/key-steps-to-add-a-resource.md).
 

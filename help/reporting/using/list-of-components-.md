@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Liste des composants '
 description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
 audience: reporting
@@ -10,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
-workflow-type: ht
-source-wordcount: '1272'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---

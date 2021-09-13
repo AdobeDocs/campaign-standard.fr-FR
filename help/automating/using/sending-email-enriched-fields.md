@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envoi d’un email contenant des champs enrichis
 description: L'exemple ci-dessous montre comment envoyer un email enrichi avec des données additionnelles extraites d'un fichier externe par le biais de l'activité Chargement de fichier.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '363'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
 
-# Envoi d’un email contenant des champs enrichis {#sending-email-enriched-fields}
+# Envoi d&#39;un e-mail contenant des champs enrichis {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 

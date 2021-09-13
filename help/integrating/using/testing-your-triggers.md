@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Test de vos Triggers
 description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign.
 audience: integrating
@@ -10,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
-workflow-type: ht
-source-wordcount: '471'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '470'
 ht-degree: 100%
 
 ---

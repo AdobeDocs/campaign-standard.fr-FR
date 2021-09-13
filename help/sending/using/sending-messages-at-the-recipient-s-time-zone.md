@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Envoi des messages au fuseau horaire du destinataire
 description: Apprenez comment envoyer les messages au fuseau horaire du destinataire.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Bons à tirer
+feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '416'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

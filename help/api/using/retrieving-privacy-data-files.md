@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Récupération de fichiers de données de confidentialité
 description: Découvrez comment récupérer des fichiers de données de confidentialité avec les API
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '195'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '194'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Principales étapes pour ajouter une ressource
 description: Découvrez ici les étapes clés pour ajouter une ressource dans le modèle de données Adobe Campaign.
 audience: developing
@@ -10,10 +8,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '107'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -24,7 +21,7 @@ Pour créer une ressource ou pour étendre une ressource existante avec de nouve
 
 1. [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 1. [Configuration de la structure de données de la ressource](../../developing/using/configuring-the-resource-s-data-structure.md)
-1. [Configuration de la définition d’écran](../../developing/using/configuring-the-screen-definition.md)
+1. [Configuration de la définition des écrans](../../developing/using/configuring-the-screen-definition.md)
 1. [Configuration de la définition des filtres](../../developing/using/configuring-filter-definition.md)
 1. [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md)
 

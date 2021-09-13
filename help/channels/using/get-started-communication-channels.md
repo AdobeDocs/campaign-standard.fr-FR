@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main des canaux de communication
 description: Créez des messages personnalisés sur divers canaux, utilisez des modèles, créez des landing pages et consultez les bonnes pratiques.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Vue d’ensemble
+feature: Overview
 role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '523'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '522'
 ht-degree: 100%
 
 ---

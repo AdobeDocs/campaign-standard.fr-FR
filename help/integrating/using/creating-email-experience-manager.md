@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création d’un contenu d’email dans Adobe Experience Manager.
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '445'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '444'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ Connectez-vous à votre instance Adobe Experience Manager de création et parc
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## Création d’un contenu d’email dans Adobe Experience Manager {#creating-email-content-aem}
+## Création d&#39;un contenu d&#39;email dans Adobe Experience Manager {#creating-email-content-aem}
 
 Plusieurs modèles spécifiques à Adobe Campaign sont disponibles. Vous devez utiliser l’un de ces modèles car ils contiennent des composants prédéfinis pris en charge par Adobe Campaign.
 
@@ -56,7 +53,7 @@ Par défaut, deux modèles prédéfinis permettent de créer des contenus d&#39;
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## Modification et envoi d’un email{#editing-email-aem}
+## Modification et envoi d’un email {#editing-email-aem}
 
 Vous pouvez modifier le contenu de l’email en ajoutant des composants et des ressources. Les champs de personnalisation peuvent être utilisés pour diffuser un message plus pertinent en fonction des données des destinataires dans Adobe Campaign.
 

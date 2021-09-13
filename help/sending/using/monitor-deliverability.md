@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Contrôle de la délivrabilité dans Adobe Campaign Standard
 description: Utilisez les outils proposés par Adobe Campaign Standard pour suivre la délivrabilité de votre plateforme.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Délivrabilité
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '326'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
@@ -32,19 +30,19 @@ Vous trouverez ci-dessous des informations détaillées sur le rapport **[!UICON
 
 Ce rapport contient les informations relatives au débit de diffusion de l’ensemble de la plateforme sur une période donnée afin de mesurer la vitesse de diffusion des messages.
 
-Voir à ce propos la section [Débit de diffusion](../../reporting/using/delivery-throughput.md).
+Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 Vous pouvez paramétrer l’affichage des valeurs en sélectionnant le périmètre de la vue.
 
-D’autres rapports sont disponibles, tels que **[!UICONTROL synthèse de diffusion]** ou **[!UICONTROL échecs et bounces]**. Voir à ce propos la section [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md).
+D’autres rapports sont disponibles, tels que **[!UICONTROL synthèse de diffusion]** ou **[!UICONTROL échecs et bounces]**. Pour plus d&#39;informations, consultez la section [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md).
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
 Le tableau de bord des messages vous permet d’accéder aux logs de diffusion : **[!UICONTROL Logs d’envoi]**, **[!UICONTROL Logs d’exclusion]**, **[!UICONTROL Causes d’exclusions]**, **[!UICONTROL Logs de tracking]** et **[!UICONTROL URL trackées]**. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion, et fournissent des informations de tracking telles que les ouvertures et les clics.
 
-Voir à ce propos la section [Suivre une diffusion](../../sending/using/monitoring-a-delivery.md).
+Pour plus d&#39;informations, consultez la section [Suivre une diffusion](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
@@ -52,7 +50,7 @@ Voir à ce propos la section [Suivre une diffusion](../../sending/using/monitori
 
 La fonctionnalité **[!UICONTROL Alertes de diffusion]** est un système de gestion des alertes qui permet à un groupe d’utilisateurs de recevoir automatiquement des notifications contenant des informations sur l’exécution de leurs diffusions.
 
-Voir à ce propos la section [Recevoir des alertes en cas d’échec](../../sending/using/receiving-alerts-when-failures-happen.md).
+Pour plus d&#39;informations, consultez la section [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

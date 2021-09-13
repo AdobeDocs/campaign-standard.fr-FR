@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Suivi d’une demande d’accès à des informations personnelles
 description: Découvrez comment suivre une demande d’accès à des informations personnelles avec les API
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '55'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '54'
 ht-degree: 100%
 
 ---
 
-# Suivi d’une demande d’accès à des informations personnelles {#monitoring-a-privacy-request}
+# Suivi d&#39;une demande d&#39;accès à des informations personnelles {#monitoring-a-privacy-request}
 
 Vous pouvez suivre les informations relatives à une demande d’accès à des informations personnelles créée à l’aide d’une requête **GET**.
 

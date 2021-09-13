@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ressources personnalisées
 description: En savoir plus sur la gestion des ressources personnalisées avec les API.
 audience: developing
@@ -10,10 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-translation-type: ht
-source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
-workflow-type: ht
-source-wordcount: '191'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '190'
 ht-degree: 100%
 
 ---

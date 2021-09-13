@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Recevoir des alertes en cas d'échec
 description: Découvrez comment utiliser le système de gestion des alertes.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Bons à tirer
+feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '2299'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '2298'
 ht-degree: 100%
 
 ---
 
 # Recevoir des alertes en cas d&#39;échec{#receiving-alerts-when-failures-happen}
 
-## A propos des alertes de diffusion {#about-delivery-alerting}
+## À propos des alertes de diffusion {#about-delivery-alerting}
 
 La fonctionnalité **Alertes de diffusion** est un système de gestion des alertes qui permet à un groupe d&#39;utilisateurs de recevoir automatiquement des notifications contenant des informations sur l&#39;exécution de leurs diffusions.
 
@@ -50,7 +48,7 @@ Les notifications envoyées contiennent les éléments suivants :
 
 ## Tableaux de bord des alertes de diffusion {#delivery-alerting-dashboards}
 
-### A propos des tableaux de bord des alertes de diffusion {#about-delivery-alerting-dashboards}
+### À propos des tableaux de bord des alertes de diffusion {#about-delivery-alerting-dashboards}
 
 Pour gérer les destinataires des notifications, définir les critères des alertes et accéder à l&#39;historique des alertes, vous devez utiliser des tableaux de bord.
 
@@ -94,7 +92,7 @@ Désormais, dès qu&#39;une diffusion répond aux critères définis dans ce tab
 
 ## Critères des alertes de diffusion        {#delivery-alerting-criteria}
 
-### A propos des critères des alertes de diffusion {#about-alerting-criteria}
+### À propos des critères des alertes de diffusion {#about-alerting-criteria}
 
 Pour accéder aux critères des alertes de diffusion, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Alertes de diffusion]** et sélectionnez **[!UICONTROL Critères des alertes de diffusion]**.
 
@@ -103,7 +101,7 @@ Pour accéder aux critères des alertes de diffusion, cliquez sur **[!UICONTROL 
 Les critères suivants peuvent être utilisés dans les tableaux de bord des alertes de diffusion :
 
 * **[!UICONTROL Diffusions en échec]** : toute diffusion planifiée sur une période définie, ayant un statut en erreur.
-* **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l&#39;étape de préparation (calcul de la cible et génération du contenu) n&#39;a pas réussi. Voir à ce propos la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l&#39;étape de préparation (calcul de la cible et génération du contenu) n&#39;a pas réussi. Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 * **[!UICONTROL Diffusion avec taux de soft bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de soft bounces est supérieur à un pourcentage défini.
 * **[!UICONTROL Diffusion avec taux de hard bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de hard bounces est supérieur à un pourcentage défini.
 * **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n&#39;ont pas encore été pris en compte par le système.
@@ -163,7 +161,7 @@ Pour cela, vous devez d&#39;abord étendre la ressource **Diffusion** et ajouter
 
    Pour plus d&#39;informations sur la création et l&#39;édition des filtres personnalisés, voir [Définir des filtres](../../developing/using/configuring-filter-definition.md).
 
-1. Enregistrez vos modifications et publiez vos ressources. Voir à ce propos la section [Publier une ressource personnalisée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Enregistrez vos modifications et publiez vos ressources. Pour plus d&#39;informations, consultez la section [Publier une ressource personnalisée](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    Le filtre est créé. Il peut maintenant être sélectionné dans un nouveau critère d&#39;alerte de diffusion.
 
@@ -238,7 +236,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * un problème de délivrabilité ;
    * un workflow en erreur.
 
-   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Voir à ce propos la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
+   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Pour plus d&#39;informations, consultez la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
 
 * **[!UICONTROL Diffusions avec préparation en échec]** : une erreur peut se produire lors de la préparation de la diffusion dans les cas suivants :
 
@@ -247,7 +245,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * La cible est absente.
    * La diffusion dépasse la taille limite.
 
-   Voir à ce propos la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
+   Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
 
 * Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs soft incorrect]** peuvent être les suivantes :
 
@@ -266,7 +264,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    Pour éviter les soft et hard bounces, suivez les bonnes pratiques suivantes :
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
-   * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [A propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
+   * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
 
 

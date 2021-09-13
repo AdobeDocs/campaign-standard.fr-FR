@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configurer l'intégration Campaign-Analytics
 description: Découvrez comment configurer l'intégration d'Adobe Analytics pour commencer à mesurer les performances de vos diffusions email.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '258'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
@@ -24,7 +21,7 @@ Cette intégration vous permet de partager vos données de KPI (Key Performance 
 
 Pour commencer l&#39;intégration entre Adobe Campaign Standard et Adobe Analytics, vous devez d&#39;abord configurer le compte externe associé à Adobe Analytics.
 
-Les comptes externes et les workflows techniques peuvent uniquement être gérés par l&#39;administrateur fonctionnel de la plate-forme.
+Les comptes externes et les workflows techniques peuvent uniquement être gérés par l&#39;administrateur fonctionnel de la plateforme.
 
 1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration > Paramétrage de l&#39;application > Comptes externes]**.
 1. Sélectionnez le compte externe **[!UICONTROL Partager les KPI avec Adobe Analytics]**.

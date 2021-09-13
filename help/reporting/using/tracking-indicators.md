@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Indicateurs de tracking
 description: Grâce au rapport d'usine Indicateurs de tracking, découvrez le comportement de vos clients lorsqu'ils reçoivent des emails.
 audience: reporting
@@ -11,10 +9,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5071c124-07b7-49c3-8f36-5928ded3c544
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '155'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '154'
 ht-degree: 100%
 
 ---

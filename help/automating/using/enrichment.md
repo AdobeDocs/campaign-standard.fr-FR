@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Enrichissement
 description: L'activité Enrichissement est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '591'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Enrichissement]** est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Enrichissement]** est généralement utilisée à la suite des activités de ciblage ou d&#39;un import de fichier et avant les activités permettant de consommer les données ciblées.
 

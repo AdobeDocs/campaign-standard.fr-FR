@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Prise en main de la messagerie transactionnelle
 description: Découvrez en quoi consiste la messagerie transactionnelle ainsi que les étapes principales pour configurer un message transactionnel dans Adobe Campaign Standard.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Messages transactionnels
+feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '965'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '963'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Calcul des indicateurs
 description: Comprenez les résultats de vos rapports grâce à la liste des formules de chaque mesure.
 audience: reporting
@@ -10,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '726'
 ht-degree: 100%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les différents rapports et leur formule de calcul en fonction du type de diffusion.
 
-## Diffusion Email {#email-delivery}
+## Diffusion Email  {#email-delivery}
 
 <table> 
  <thead> 
@@ -226,7 +224,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion Notification push {#push-notification-delivery}
+## Diffusion Notification push  {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -270,7 +268,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Ouvertures uniques<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
+   <td> Les ouvertures uniques sont calculées à l'aide des concepts ThetaSketch de RecipientIds uniques. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
@@ -290,7 +288,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
   <tr> 
    <td> Clics uniques<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=fr#unique-open-clicks-no-match">exemple </a>.<br /> </td> 
+   <td> Les clics uniques sont calculés à l'aide des concepts de ThetaSketch. Pour plus d’informations à ce propos, consultez cet <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">exemple </a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de clics<br /> </td> 
@@ -300,7 +298,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
  </tbody> 
 </table>
 
-## Diffusion In-App {#in-app-delivery}
+## Diffusion In-App  {#in-app-delivery}
 
 <table> 
  <thead> 

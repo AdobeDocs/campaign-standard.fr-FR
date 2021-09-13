@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création d'une notification push multilingue
 description: Créez des notifications push multilingues pour cibler les utilisateurs dans leur langue et zone géographique préférées.
 audience: channels
@@ -10,16 +8,16 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '989'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---
 
 # Création d&#39;une notification push multilingue{#creating-a-multilingual-push-notification}
 
-## A propos des notifications push multilingues {#about-multilingual-push-notification}
+## À propos des notifications push multilingues {#about-multilingual-push-notification}
 
 Personnalisez le contenu des notifications push en envoyant des messages selon les préférences linguistiques et de zone géographique des utilisateurs. Vous pouvez directement importer des variantes de contenus de notification push multilingue dans l&#39;éditeur de contenus et envoyer une notification push multilingue dans une seule diffusion.
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Directives de supervision
 description: Cette section présente des directives générales pour la surveillance de Campaign Standard.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '509'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -43,7 +41,7 @@ Les workflows techniques sont des opérations ou traitements programmés pour s�
 
 **Panneau de contrôle**
 
-Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les permissions d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+Le panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les permissions d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, surveiller l’utilisation des profils actifs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
 >[!NOTE]
 >

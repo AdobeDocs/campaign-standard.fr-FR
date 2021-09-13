@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Requête
 description: L’activité Requête permet de filtrer et d’extraire une population d’éléments de la base de données Adobe Campaign.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1871'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1870'
 ht-degree: 100%
 
 ---
@@ -31,10 +28,10 @@ L’activité utilise l’outil d’édition de requêtes, dont le fonctionnemen
 
 **Rubriques connexes :**
 
-* [Exemples de requêtes ](../../automating/using/query-samples.md)
+* [Exemples de requêtes](../../automating/using/query-samples.md)
 * [Cas pratique : workflow de reciblage envoyant une nouvelle diffusion aux personnes n’ayant pas ouvert l’email](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas d’utilisation type :
 
@@ -42,7 +39,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 * enrichissement de données de toute table de la base Adobe Campaign
 * export des données.
 
-## Configuration {#configuration}
+## Configuration  {#configuration}
 
 1. Placez une activité **[!UICONTROL Requête]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent. Par défaut, l’activité est pré-paramétrée pour rechercher des profils.
@@ -50,7 +47,7 @@ L’activité **[!UICONTROL Requête]** peut être utilisée dans plusieurs cas 
 
    La **[!UICONTROL Ressource]** permet d’affiner les filtres affichés dans la palette tandis que la **[!UICONTROL Dimension de ciblage]**, contextuelle à la ressource sélectionnée, correspond au type de population que vous souhaitez obtenir (profils identifiés, diffusions, etc.).
 
-   Voir à ce sujet [Dimensions de ciblage et ressources](#targeting-dimensions-and-resources).
+   Pour plus d’informations, consultez [Dimensions de ciblage et ressources](#targeting-dimensions-and-resources).
 
 1. Depuis l’onglet **[!UICONTROL Cible]**, effectuez votre requête en définissant et combinant des règles.
 
@@ -106,7 +103,7 @@ Par défaut, la dimension de ciblage et la ressource sont définies pour cibler 
 
 Pour plus d’informations à ce sujet, reportez-vous à ce cas pratique : [Utiliser des ressources différentes des dimensions de ciblage](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Enrichir des données {#enriching-data}
+## Enrichir des données  {#enriching-data}
 
 L’onglet **[!UICONTROL Données additionnelles]** des activités **[!UICONTROL Requête]**, **[!UICONTROL Requête incrémentale]** et **[!UICONTROL Enrichissement]** permet d’enrichir les données ciblées et de les transmettre aux activités suivantes du workflow, où elles pourront être exploitées. Il est notamment possible d’ajouter :
 
@@ -201,7 +198,7 @@ Veuillez noter que si vous devez effectuer un tri sur votre agrégat, vous devez
 
    Par exemple, si vous avez sélectionné 3 lignes à renvoyer dans l’onglet **[!UICONTROL Paramètres]**, et que vous souhaitez récupérer les trois achats les plus récents, vous pouvez définir un tri décroissant sur le champ &quot;date&quot; de la collection qui correspond aux transactions.
 
-1. Reportez-vous à la section [Trier les données ajoutées](#sorting-additional-data).
+1. Pour plus d&#39;informations, consultez la section [Trier les données ajoutées](#sorting-additional-data).
 1. Sélectionnez **[!UICONTROL Valider]** pour finaliser l’ajout de la collection.
 
 ### Filtrer les données ajoutées {#filtering-added-data}

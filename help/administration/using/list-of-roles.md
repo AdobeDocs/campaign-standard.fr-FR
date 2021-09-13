@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Liste des rôles
 description: Obtenez des informations sur la liste des rôles que vous pouvez affecter à vos utilisateurs.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Gestion des accès
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '252'
 ht-degree: 100%
 
 ---

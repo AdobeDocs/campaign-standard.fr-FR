@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l'extension de l'API
+title: À propos de l'extension de l'API
 description: Découvrez comment exposer des champs étendus pour les profils de ressources personnalisées dans l'API Profiles publique.
 audience: developing
 content-type: reference
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
 
-# A propos de l&#39;extension de l&#39;API{#about-extending-the-api}
+# À propos de l&#39;extension de l&#39;API{#about-extending-the-api}
 
 Ce cas pratique présente l’exposition des champs étendus de la ressource personnalisée Profiles dans l’API Profiles publique, afin de mettre à jour instantanément le profil d&#39;un client avec un code promotion généré à partir d&#39;un système de facturation, par exemple.
 

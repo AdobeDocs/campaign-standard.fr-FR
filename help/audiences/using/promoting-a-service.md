@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Promouvoir un service
 description: Utilisez Adobe Campaign pour promouvoir un service et interagir avec vos clients par le biais de landing pages et d'emails dédiés ou directement sur votre site web.
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '197'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---

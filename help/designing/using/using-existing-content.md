@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Conception d''emails à l''aide de contenu existant '
 description: Découvrez comment concevoir des emails à l'aide d'un contenu d'email existant dans le Concepteur d'email.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Conception d’email
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1239'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1237'
 ht-degree: 100%
 
 ---
@@ -211,9 +209,9 @@ Si tel n&#39;est pas le cas, divisez les différents blocs de votre code HTML. P
 Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Concepteur d&#39;email pour chaque section de votre email existant :
 
 1. Ouvrez le Concepteur d’email pour créer un contenu d’email vide.
-1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Voir à ce propos la section [Modifier les styles d’un email](../../designing/using/styles.md).
-1. Ajoutez un composant de structure. Voir à ce propos la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Ajoutez un composant HTML. Voir à ce propos la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
+1. Ajoutez un composant de structure. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Ajoutez un composant HTML. Pour plus d&#39;informations, consultez la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Copiez votre code HTML et collez-le dans ce composant.
 1. Passer en vue Mobile. Voir à ce propos [cette section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 

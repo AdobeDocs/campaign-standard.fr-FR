@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Partager une landing page
 description: Découvrez comment tester et publier une landing page dans Adobe Campaign.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing pages
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '388'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '386'
 ht-degree: 100%
 
 ---

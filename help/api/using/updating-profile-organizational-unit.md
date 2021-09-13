@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour de l’entité organisationnelle d’un profil
 description: Découvrez comment mettre à jour l’entité organisationnelle d’un profil avec les API.
 audience: developing
@@ -10,15 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '97'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
 
-# Mise à jour de l’entité organisationnelle d’un profil {#managing-organizational-units}
+# Mise à jour de l&#39;entité organisationnelle d&#39;un profil {#managing-organizational-units}
 
 1. Exécutez une requête GET sur la ressource **orgUnitBase** pour récupérer la clé PKey de l’entité organisationnelle.
 1. Exécutez une requête PATCH sur la clé PKey du profil, avec la clé PKey de l’entité organisationnelle souhaitée dans la payload.

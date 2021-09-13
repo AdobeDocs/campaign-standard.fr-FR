@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Réconciliation des données à l’aide des relations
 description: L'exemple suivant illustre un workflow permettant de mettre à jour les données de la base à partir de données d'achats contenues dans un fichier.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '348'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
-# Réconciliation des données à l’aide des relations {#reconciliation-relations}
+# Réconciliation des données à l&#39;aide des relations {#reconciliation-relations}
 
 L&#39;exemple suivant illustre un workflow permettant de mettre à jour les données de la base à partir de données d&#39;achats contenues dans un fichier. Les données d&#39;achats comportent des données référençant des éléments d&#39;autres dimensions, tels que l&#39;email des clients et les codes produits.
 

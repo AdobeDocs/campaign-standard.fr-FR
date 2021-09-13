@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Modèles
 description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des paramètres selon vos besoins : les modèles peuvent contenir un paramétrage complet ou partiel de l''activité marketing, afin de simplifier l''utilisation d''Adobe Campaign pour les utilisateurs finaux non techniques."'
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Opérations
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '409'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
 
 ---
 
 # Modèles d&#39;activité marketing {#marketing-activity-templates}
 
-## A propos des modèles {#about-templates}
+## À propos des modèles {#about-templates}
 
 Lorsque vous créez une activité marketing, le premier écran de l&#39;assistant vous invite à sélectionner un type – ou modèle. Les modèles vous permettent de préconfigurer certains paramètres selon vos besoins. Le modèle peut contenir un paramétrage complet ou partiel de l&#39;activité marketing. La gestion des modèles est effectuée par l&#39;administrateur fonctionnel.
 
@@ -29,7 +27,7 @@ Par exemple, dans le cas d&#39;un modèle d&#39;email, vous pouvez pré-renseign
 
 ![](assets/template_1.png)
 
-Pour chaque type d&#39;activité marketing, un ou plusieurs modèles d&#39;usine sont proposés. Ils proposent un paramétrage minimal pour chaque type d&#39;activité marketing. Ces modèles d&#39;usine ne peuvent être ni modifiés, ni supprimés.
+Pour chaque type d&#39;activité marketing, un ou plusieurs modèles d&#39;usine sont proposés. Ils proposent un paramétrage minimal pour chaque type d&#39;activité marketing. Ces modèles d&#39;usine ne peuvent être ni modifiés ni supprimés.
 
 Des modèles sont disponibles pour les activités marketing suivantes :
 
@@ -46,9 +44,9 @@ Des modèles sont disponibles pour les activités marketing suivantes :
 
 ## Créer un modèle {#creating-a-new-template}
 
-Les modèles de message peuvent être gérés par l&#39;administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Ressources > Modèles]**. Les modèles d&#39;usine ne peuvent être ni modifiés, ni supprimés. Pour créer un modèle, vous devez en dupliquer un existant.
+Les modèles de message peuvent être gérés par l&#39;administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Ressources > Modèles]**. Les modèles d&#39;usine ne peuvent être ni modifiés ni supprimés. Pour créer un modèle, vous devez en dupliquer un.
 
-1. Sélectionnez un modèle existant. Dans notre exemple, nous avons choisi un **[!UICONTROL Modèle de diffusion]**.
+1. Sélectionnez un modèle. Dans notre exemple, nous avons choisi un **[!UICONTROL Modèle de diffusion]**.
 
    ![](assets/template_2.png)
 

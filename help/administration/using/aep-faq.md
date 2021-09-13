@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: FAQ sur le SDK Adobe Experience Platform et l’intégration d’Adobe Campaign
 description: FAQ sur le SDK Adobe Experience Platform et l'intégration d'Adobe Campaign
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Paramètres de l’instance
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '948'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '946'
 ht-degree: 100%
 
 ---

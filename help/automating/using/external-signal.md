@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Signal externe
 description: L'activité Signal externe déclenche un workflow lorsque certaines conditions sont remplies dans un autre workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '650'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -27,7 +24,7 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Signal externe]** déclenche un workflow lorsque certaines conditions sont remplies dans un autre workflow ou un appel de l&#39;API REST.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Signal externe]** permet d&#39;organiser et d&#39;orchestrer différents processus qui composent un même parcours client dans différents workflows. Elle permet de démarrer un workflow à partir d&#39;un autre, supportant ainsi des parcours client plus complexes tout en améliorant le contrôle et la réactivité en cas de problèmes.
 

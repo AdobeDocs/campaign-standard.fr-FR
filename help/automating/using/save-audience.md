@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sauvegarde d'audience
 description: L'activité Sauvegarde d'audience permet de mettre à jour une audience existante ou de créer une nouvelle audience à partir de la population calculée en amont dans un workflow.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '866'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '865'
 ht-degree: 100%
 
 ---
@@ -33,7 +30,7 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** permet de mettre à j
 
 Cette activité permet également d&#39;exporter des profils en tant qu&#39;audience/segment Adobe Experience Cloud. Cela permet par la suite de pouvoir exploiter ces audiences dans d&#39;autres solutions Adobe Experience Cloud. Pour plus d&#39;informations sur les audiences partagées, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement utilisée afin de conserver des groupes de population calculés dans le même workflow, en les convertissant en audiences réutilisables.
 
@@ -67,7 +64,6 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
       >[!NOTE]
       >
       >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Le type des audiences sauvegardées ou des audiences disponibles lors d&#39;une mise à jour dépend des activités placées en amont dans le workflow.
 
    Si la dimension de ciblage de l&#39;audience est inconnue au moment de la sauvegarde (par exemple si elle est issue d&#39;un import de fichier), l&#39;audience créée ou mise à jour est de type **[!UICONTROL Fichier]**.
@@ -76,9 +72,9 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
 
    Le contenu de l&#39;audience sauvegardée est ensuite disponible dans la vue détaillée de l&#39;audience, accessible depuis le menu **[!UICONTROL Audiences]**. Les colonnes disponibles depuis cette vue correspondent aux colonnes de la transition entrante de l&#39;activité de sauvegarde de l&#39;audience du workflow. Par exemple : les colonnes du fichier importé, les données additionnelles ajoutées depuis une requête.
 
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple {#example}
+## Exemple  {#example}
 
 Le workflow défini dans cet exemple illustre la mise à jour régulière d&#39;une audience à partir d&#39;un ciblage :
 

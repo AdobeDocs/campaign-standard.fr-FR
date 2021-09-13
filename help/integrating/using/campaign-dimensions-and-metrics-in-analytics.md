@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Dimensions et mesures de Campaign dans Analytics
 description: Découvrez les différentes dimensions proposées dans Adobe Analytics afin de commencer le tracking de vos diffusions email depuis Adobe Campaign.
 audience: integrating
@@ -10,10 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '323'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Mise à jour de données
 description: L'activité Mise à jour de données permet de mettre à jour en masse les champs de la base de données.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '538'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
@@ -27,14 +24,14 @@ ht-degree: 100%
 
 L&#39;activité **[!UICONTROL Mise à jour de données]** permet de mettre à jour en masse les champs de la base de données.
 
-## Contexte d&#39;utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L&#39;activité **Mise à jour de données** peut notamment être utilisée suite à un import de fichier, afin d&#39;insérer les données récupérées dans la base de données Adobe Campaign. Plusieurs options permettent de personnaliser la mise à jour des données.
 
 **Rubriques connexes :**
 
 * [Cas pratique : mise à jour des données à l’aide d’un fichier](../../automating/using/update-database-file.md)
-* [Mise à jour des données à l’aide d’un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
+* [Mise à jour des données à l&#39;aide d&#39;un téléchargement automatique de fichier](../../automating/using/update-data-automatic-download.md)
 
 ## Configuration {#configuration}
 
@@ -56,7 +53,7 @@ L&#39;activité **Mise à jour de données** peut notamment être utilisée suit
 
 1. Dans l&#39;onglet **[!UICONTROL Identification]**, indiquez comment identifier les enregistrements dans la base de données :
 
-   * **[!UICONTROL En utilisant des clés de réconciliation]** : sélectionnez la **[!UICONTROL Dimension à mettre à jour]**, puis définissez les **[!UICONTROL Clés permettant de retrouver les enregistrements]**. Voir à ce sujet [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+   * **[!UICONTROL En utilisant des clés de réconciliation]** : sélectionnez la **[!UICONTROL Dimension à mettre à jour]**, puis définissez les **[!UICONTROL Clés permettant de retrouver les enregistrements]**. Pour plus d’informations, consultez [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
    * Si les données en entrée correspondent à une dimension de ciblage existante, sélectionnez l&#39;option **[!UICONTROL En utilisant directement la dimension de ciblage]**. Sélectionnez alors la **[!UICONTROL Dimension à mettre à jour]**.
 
    Si le type d&#39;opération sélectionné implique une mise à jour, vous devez obligatoirement utiliser des clés de réconciliation.

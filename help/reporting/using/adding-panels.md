@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Ajouter des panneaux
 description: Un rapport dynamique permet d'ajouter un panneau pour mieux filtrer les données selon la période choisie.
 audience: reporting
@@ -10,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
-workflow-type: ht
-source-wordcount: '379'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '378'
 ht-degree: 100%
 
 ---

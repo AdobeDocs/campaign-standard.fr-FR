@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Services d’inscriptions
 description: L’activité Services d’inscription permet d’inscrire ou de désinscrire des profils en masse à un service.
 audience: automating
@@ -11,15 +9,14 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1176'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '1175'
 ht-degree: 100%
 
 ---
 
-# Services d’inscriptions {#subscription-services}
+# Services d&#39;abonnements {#subscription-services}
 
 ## Description {#description}
 
@@ -31,7 +28,7 @@ L’activité **[!UICONTROL Services d’abonnements]** permet d’abonner ou de
 >
 >Lorsqu’un abonnement est géré dans le cadre d’un workflow, les profils abonnés ou non ne reçoivent pas les différents emails de confirmation définis dans les propriétés du service.
 
-## Contexte d’utilisation {#context-of-use}
+## Contexte d&#39;utilisation  {#context-of-use}
 
 L’activité **[!UICONTROL Services d’abonnements]** est la seule fonctionnalité d’Adobe Campaign qui permet d’abonner ou de désabonner plusieurs profils à un service en une seule action.
 

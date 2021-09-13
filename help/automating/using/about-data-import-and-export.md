@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: A propos de l'import et de l'export de données
+title: À propos de l'import et de l'export de données
 description: Découvrez les différentes manières d'importer et d'exporter des données avec Adobe Campaign.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '331'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
-# A propos de l&#39;import et de l&#39;export de données{#about-data-import-and-export}
+# À propos de l&#39;import et de l&#39;export de données{#about-data-import-and-export}
 
 En fonction des besoins de votre entreprise, plusieurs méthodes permettent d&#39;importer et d&#39;exporter des données dans Adobe Campaign :
 
@@ -35,6 +32,6 @@ Adobe Campaign propose également un moyen simplifié d&#39;effectuer des import
 
 **Rubriques connexes** :
 
-* [Importer des données avec des modèles d’import](../../automating/using/importing-data-with-import-templates.md)
-* [Définir un modèle d’import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
+* [Importer des données avec des modèles d&#39;import](../../automating/using/importing-data-with-import-templates.md)
+* [Définir un modèle d&#39;import](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 * [Gestion des packages](../../automating/using/managing-packages.md)

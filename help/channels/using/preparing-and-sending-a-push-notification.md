@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Créer et envoyer une notification push
 description: Suivez ces étapes pour créer une notification push unique dans Adobe Campaign.
 audience: channels
@@ -11,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '910'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '909'
 ht-degree: 100%
 
 ---
@@ -52,7 +50,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont le
 
    Vous pouvez associer la notification push à une campagne. Pour cela, sélectionnez celle-ci parmi les campagnes déjà créées.
 
-1. Dans l&#39;écran suivant, vous pouvez spécifier une audience (tous les clients VIP qui se sont abonnés à une application mobile spécifique, par exemple). Voir à ce propos la section [Créer une audience](../../audiences/using/creating-audiences.md).
+1. Dans l&#39;écran suivant, vous pouvez spécifier une audience (tous les clients VIP qui se sont abonnés à une application mobile spécifique, par exemple). Pour plus d&#39;informations, consultez la section [Créer une audience](../../audiences/using/creating-audiences.md).
 
    Votre audience sera automatiquement filtrée en fonction de l&#39;application mobile sélectionnée à l&#39;étape précédente.
 

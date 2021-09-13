@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Création de diffusions avec un complémentaire
 description: Ce cas pratique montre comment créer des diffusions avec un complémentaire.
 audience: automating
@@ -11,10 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '297'
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -56,7 +53,7 @@ Vous pouvez envoyer un email à vos clients : un email pour les clients créés
 
 ## Créer une diffusion email {#create-an-email-delivery}
 
-1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d&#39;une activité [Diffusion Email](../../automating/using/email-delivery.md) après chaque segment.
+1. Dans **[!UICONTROL Activités]** > **[!UICONTROL Canaux]**, effectuez un glisser-déposer d’une activité [Diffusion Email](../../automating/using/email-delivery.md) après chaque segment.
 1. Cliquez sur l&#39;activité et sélectionnez ![](assets/edit_darkgrey-24px.png) pour édition.
 1. Sélectionnez **[!UICONTROL Email unique]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
