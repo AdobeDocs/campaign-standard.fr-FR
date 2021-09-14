@@ -9,7 +9,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
@@ -155,7 +155,7 @@ Sous iOS, l’[!DNL Experience Platform API] suivante est nécessaire :
 Voici un exemple d’implémentation de ce cas pratique avec iOS :
 
 ```
-ACPCore.collectPii(["email":email, "firstName":firstName, "lastName":lastName])
+ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName, "lastName":lastName])
 ```
 
 ### Avec Android {#enrich-mobile-profile-custom-android}
@@ -168,9 +168,10 @@ Voici un exemple de mise en œuvre pour ce cas pratique avec Android :
 
 ```
 HashMap<String, String> data = new HashMap<>();
-data.put("firstName", firstNameText);
-data.put("lastName", lastNameText);
-data.put("email", emailText);
+data.put("pushPlatform", "gcm");
+data.put("firstName", firstNameText); 
+data.put("lastName", lastNameText); 
+data.put("email", emailText); 
 MobileCore.collectPii(data);
 ```
 
