@@ -54,7 +54,8 @@ L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform
 >
 >Pour exécuter l&#39;appel d&#39;API POST d&#39;ingestion, l&#39;utilisateur doit disposer d&#39;un rôle d&#39;**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

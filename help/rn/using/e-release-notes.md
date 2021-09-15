@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -90,8 +90,8 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Amélioration de la sécurité**
 
-* La sécurité a été renforcée pour la protection contre les attaques SSRF. (CAMP-47836)
-* La liste des utilisateurs est désormais réservée aux administrateurs. (CAMP-47260)
+* La sécurité a été renforcée pour assurer une protection contre les attaques SSRF. (CAMP-47836)
+* La liste des utilisateurs est désormais restreinte aux administrateurs. (CAMP-47260)
 * Les variables d’environnement ne peuvent plus être utilisées dans le cadre de l’extension de paramètre dans une URL. (CAMP-47268)
 
 **Améliorations**
@@ -102,40 +102,40 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Autres changements**
 
-* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en oeuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)
+* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en œuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
 * Les fonctionnalités obsolètes et supprimées sont répertoriées dans [cette page](deprecated-features.md).
 * Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077)
-* Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour de meilleures performances.
-* Les modèles de messagerie in-app sont désormais disponibles pour toutes les langues prises en charge dans Campaign Standard.
-* Le délai de préparation de la diffusion a été optimisé pour les messages transactionnels en réduisant le nombre d’appels au serveur de suivi lors de l’analyse de la diffusion.
+* Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour optimiser les performances.
+* Les modèles de messagerie In-App sont maintenant disponibles pour toutes les langues prises en charge dans Campaign Standard.
+* Le délai de préparation des diffusions a été optimisé pour les messages transactionnels grâce à la réduction du nombre d’appels au serveur de tracking lors de l’analyse d’une diffusion.
 * Un nouveau message d’alerte informe les utilisateurs d’un taux de rebond élevé.
-* Amélioration des messages d’erreur et des avertissements de journal afin de faciliter le débogage lorsque la récupération des logs de tracking a échoué. (CAMP-48939, CAMP-47360)
-* Vous pouvez désormais entièrement personnaliser les URL, y compris le nom de domaine. [En savoir plus](../../designing/using/personalization.md#personalizing-urls)
+* Amélioration des messages d’erreur et des avertissements des logs afin de faciliter le débogage lorsque la récupération des logs de tracking a échoué. (CAMP-48939, CAMP-47360)
+* Vous pouvez maintenant entièrement personnaliser les URL, y compris le nom de domaine. [En savoir plus](../../designing/using/personalization.md#personalizing-urls)
 
 **Correctifs**
 
 * Correction d’une erreur de délai d’expiration lors de l’import de contenu d’e-mail depuis une URL. (CAMP-49054)
-* Correction d’une erreur (-69) provoquée par la fin d’une session lors de l’accès à une URL marquée d’un signet ou de l’actualisation d’une page à partir du navigateur. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Correction d’une erreur (-69) entraînée par la fin de la session lors de l’accès à une URL marquée d’un signet ou de l’actualisation d’une page à partir du navigateur. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Correction d’un problème survenant lors de la synchronisation des règles de l’ancien serveur de délivrabilité avec le nouveau. (CAMP-48923)
 * Correction d’un problème lors du chargement d’un modèle d’e-mail avec des balises HTML dans le Concepteur d’e-mail. (CAMP-48243)
-* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le Concepteur d&#39;email. (CAMP-49075)
-* Correction d’un problème dans l’interface en raison duquel une marge intérieure trop importante était ajoutée entre la barre supérieure et le contenu.
+* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le Concepteur d’e-mail. (CAMP-49075)
+* Correction d’un problème dans l’interface : une marge intérieure trop importante était ajoutée entre la barre supérieure et le contenu.
 * Correction d’un problème lié aux messages transactionnels qui entraînait une erreur de publication lors de l’utilisation de blocs de contenu Campaign dans le contenu Adobe Experience Manager. (CAMP-49233)
 * Correction d’un problème qui entraînait l’affichage d’un message d’erreur en cas d’échec de l’authentification. L’utilisateur est maintenant redirigé vers la page de connexion.
 * Correction d’un problème d’affichage des jetons qui empêchait les utilisateurs de modifier ou de partager un rapport.
 * Correction d’un problème lors de la publication d’une ressource personnalisée à l’aide d’une expression de filtre avec des relations de table 1-n. (CAMP-48740)
 * Correction d’un problème de mise en forme de date qui empêchait la récupération des dates de contact de diffusion dans les transitions de workflow. (CAMP-48871)
-* Correction d’un problème qui empêchait l’extension des envois lors de la création d’une dimension de profil personnalisé.
-* Correction d’un problème qui entraînait l’échec des diffusions avec plusieurs variantes linguistiques. Désormais, si un utilisateur supprime la variante de langue par défaut, une autre variante de langue doit être définie comme variante par défaut avant de créer des copies de langue. (CAMP-48235)
-* Correction d’un problème en raison duquel les messages électroniques affichaient des espaces blancs supplémentaires dans Outlook si l’utilisateur avait sélectionné l’option **Afficher uniquement sur les appareils mobiles** lors de la conception du message. (CAMP-48902)
+* Correction d’un problème qui empêchait l’extension des logs d’envoi lors de la création d’une dimension de profil personnalisé.
+* Correction d’un problème qui entraînait l’échec des diffusions avec plusieurs variantes linguistiques. Désormais, si un utilisateur supprime la variante linguistique par défaut, une autre variante doit être définie comme variante par défaut avant de créer des copies de langue. (CAMP-48235)
+* Correction d’un problème en raison duquel les messages e-mail affichaient des espaces supplémentaires dans Outlook si l’utilisateur avait sélectionné l’option **Afficher uniquement sur les appareils mobiles** lors de la conception du message. (CAMP-48902)
 * Correction d’un problème en raison duquel la date de dernière exécution du champ de l’activité de requête incrémentale était absente de l’onglet **Données traitées** après l’exécution du workflow de requête incrémentale. (CAMP-48879)
-* Correction d’un problème qui vous empêchait de définir correctement un code segment dynamique dans l’activité de workflow **Segmentation** . (CAMP-48727)
-* Correction d&#39;une erreur qui se produisait de manière aléatoire lors de l&#39;enregistrement d&#39;un workflow après son édition. (CAMP-48695)
-* Correction d’un problème qui vous empêchait de publier des ressources personnalisées en raison du fait que le schéma de données d’un déclencheur restait inchangé même après la suppression du déclencheur. (CAMP-48523)
+* Correction d’un problème qui empêchait de définir correctement un code segment dynamique dans l’activité de workflow **Segmentation**. (CAMP-48727)
+* Correction d&#39;une erreur qui se produisait de manière aléatoire lors de l&#39;enregistrement d&#39;un workflow après sa modification. (CAMP-48695)
+* Correction d’un problème qui empêchait de publier des ressources personnalisées en raison du fait que le schéma de données d’un déclencheur restait inchangé même après la suppression de ce dernier. (CAMP-48523)
 * Correction d’un problème qui empêchait le traitement des demandes de feedback loop, car le processus InMail n’était pas en mesure de récupérer les logs de diffusion à mettre à jour. (CAMP-48705)
-* Correction d’un problème qui vous empêchait de définir correctement les options d’exclusion dans l’activité de workflow **Exclusion** .(CAMP-48355)
-* Correction d’un problème qui se produisait lorsque les activités d’enrichissement dans les workflows impliquaient des abonnements ou des désabonnements à un service. Ce problème a entraîné un blocage.
+* Correction d’un problème qui empêchait de définir correctement les options d’exclusion dans l’activité de workflow **Exclusion**.(CAMP-48355)
+* Correction d’un problème qui se produisait lorsque les activités d’enrichissement des workflows impliquaient des abonnements ou des désabonnements à un service. Ce problème entraînait un blocage.
 * Correction d’un problème qui empêchait l’exécution des workflows.
 * Correction d’un problème qui empêchait les utilisateurs de renommer ou de supprimer des groupes de sécurité d’usine de l’interface utilisateur.
-* Correction d’un problème qui empêchait les utilisateurs de supprimer une tâche de publication d’événement incomplète.
+* Correction d’un problème qui empêchait les utilisateurs de supprimer un traitement de publication d’événement incomplet.
 * Correction d’un problème en raison duquel le workflow de nettoyage de la base échouait avec une erreur. (CAMP-49097)

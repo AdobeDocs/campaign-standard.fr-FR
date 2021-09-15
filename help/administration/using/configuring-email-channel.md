@@ -131,7 +131,7 @@ Cette section décrit la liste des paramètres disponibles dans l’écran des p
 >
 >Certains paramètres sont uniquement disponibles dans les modèles. Les paramètres accessibles [dépendent de vos autorisations](../../administration/using/users-management.md).
 
-Pour éditer les propriétés d’un email ou d’un modèle d’email, utilisez le bouton **[!UICONTROL Editer les propriétés]**.
+Pour modifier les propriétés d’un e-mail ou d’un modèle d’e-mail, utilisez le bouton **[!UICONTROL Editer les propriétés]**.
 
 ![](assets/delivery_options_1.png)
 
@@ -149,7 +149,7 @@ Le champ **[!UICONTROL Marque]** permet de sélectionner la marque liée à la d
 
 Le champ **[!UICONTROL Campagne]** permet de renseigner la campagne associée à l’email.
 
-Vous pouvez également ajouter une **[!UICONTROL Description]** dans le champ correspondant et modifier l’image affichée sur la vignette de l’email, dans les listes.
+Vous pouvez également ajouter une **[!UICONTROL Description]** dans le champ correspondant et modifier l’image affichée sur la miniature de l’e-mail, dans les listes.
 
 ### Paramètres d’envoi {#sending-parameters}
 
@@ -304,7 +304,7 @@ La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suiv
    >
    >Le paramétrage des entités organisationnelles est accessible via le menu **Administration** > **Utilisateurs &amp; sécurité**.
 
-* Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modifié par]** et **[!UICONTROL Dernière modification]** sont automatiquement remplis.
+* Les champs **[!UICONTROL Créé par]**, **[!UICONTROL Créé le]**, **[!UICONTROL Modification par]** et **[!UICONTROL Dernière modification]** sont automatiquement remplis.
 
 ## Paramètres hérités {#legacy-settings}
 
@@ -334,7 +334,7 @@ Pour répertorier les différents bounces et les types d&#39;erreur et raisons a
 
 Les statuts de qualification des bounces sont les suivants :
 
-* **[!UICONTROL A qualifier]** : le mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe Délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
+* **[!UICONTROL A qualifier]** : le mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe chargée de la délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
 * **[!UICONTROL Conserver]** : le mail bounce a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
 * **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
 

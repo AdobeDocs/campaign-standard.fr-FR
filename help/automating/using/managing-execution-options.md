@@ -12,7 +12,7 @@ exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : permet d’enregistrer les requêtes SQL du workflow dans les journaux.
 
-* **[!UICONTROL Mode de diagnostic (enregistrer le plan d’exécution des requêtes longues et donner des recommandations)]** : cochez cette option si vous souhaitez que le plan d’exécution complet soit consigné. Elle est désactivée par défaut.
+* **[!UICONTROL Mode de diagnostic (consigner le plan d’exécution des requêtes longues et donner des recommandations)]** : cochez cette option si vous souhaitez que le plan d’exécution complet soit consigné. Cette fonctionnalité est désactivée par défaut.
 
-   Pour plus d&#39;informations sur cette option, consultez cette [section](#diagnostic-mode).
+   Pour plus d&#39;informations à ce sujet, consulter cette [section](#diagnostic-mode).
 
 * **[!UICONTROL Conserver les résultats intermédiaires]** : cochez cette option si vous souhaitez pouvoir visualiser le détail des transitions.
 
@@ -58,34 +58,34 @@ La section **[!UICONTROL Gestion des erreurs]** propose des options supplémenta
 >
 >Cette option peut avoir un impact significatif sur les performances de votre workflow et doit être utilisée avec parcimonie.
 
-Lorsqu’elle est activée, l’option **[!UICONTROL Mode de diagnostic (Plan d’exécution des logs de requêtes longues et donner des recommandations)]** de la section **[!UICONTROL Exécution]** des propriétés du workflow consigne l’intégralité du plan d’exécution si une requête dure plus d’une minute.
+Lorsqu’elle est activée, l’option **[!UICONTROL Mode de diagnostic (consigner le plan d’exécution des requêtes longues et donner des recommandations)]** de la section **[!UICONTROL Exécution]** des propriétés du workflow consigne l’intégralité du plan d’exécution si une requête dure plus d’une minute.
 
 ![](assets/wkf_diagnostic.png)
 
 Après avoir activé cette option et lancé votre workflow, si votre requête dure plus d’une minute, le plan d’exécution est consigné. Vous pouvez ensuite récupérer votre plan d’exécution à l’aide d’une ANALYSE EXPLAIN.
 
-Pour plus d’informations à ce sujet, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/9.4/using-explain.html).
+Pour plus d&#39;informations à ce propos, consultez la [documentation PostgreSQL](https://www.postgresql.org/docs/9.4/using-explain.html).
 
 Si cette requête contient une analyse de séquence, le **[!UICONTROL mode de diagnostic]** fournit également des recommandations pour créer un index à l’aide d’une expression de filtre.
 
 >[!NOTE]
 >
-> Ces recommandations sont faites à titre de référence uniquement et doivent être utilisées avec précaution en fonction de votre cas d’utilisation.
+> Ces recommandations sont données à titre de référence uniquement et doivent être utilisées avec précaution en fonction de votre cas d’utilisation.
 
 ![](assets/wkf_diagnostic_4.png)
 
-Les deux conditions suivantes doivent être remplies lors de l’exécution de votre workflow pour déclencher des recommandations :
+Les deux conditions suivantes doivent être remplies lors de l’exécution de votre workflow pour déclencher des recommandations :
 
-* L’analyse de la séquence prend plus de 40 % de temps pour la requête.
+* L’analyse de la séquence prend plus de 40 % de temps pour la requête.
 
-* Les lignes résultantes après l’analyse de la séquence sont inférieures à 1 % du total des lignes présentes dans le tableau.
+* Les lignes obtenues après l’analyse de la séquence sont inférieures à 1 % du total des lignes présentes dans le tableau.
 
-Vous pouvez gérer l’option à partir du menu avancé en sélectionnant **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Options]** :
+Vous pouvez gérer l’option à partir du menu avancé en sélectionnant **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l’application]** > **[!UICONTROL Options]** :
 
-* **[!UICONTROL Heure d’exécution de la requête (en millisecondes)(DiagnosticModeQueryTime)]** : Depuis le champ  **** Valeur, vous pouvez définir une nouvelle heure pour l’exécution de votre requête. Si l&#39;exécution de votre requête dépasse cette valeur, le plan d&#39;exécution sera consigné.
+* **[!UICONTROL Heure d’exécution de la requête (en millisecondes)(DiagnosticModeQueryTime)]** : depuis le champ **[!UICONTROL Valeur]**, vous pouvez définir une nouvelle heure pour l’exécution de votre requête. Si l&#39;exécution de votre requête dépasse cette valeur, le plan d&#39;exécution sera consigné.
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Pourcentage du temps d’analyse seq (DiagnosticModeSeqScanPercentage)]** : À partir du champ  **** Valeur, vous pouvez modifier le pourcentage du temps de requête nécessaire à l’analyse de la séquence pour que la recommandation soit générée.
+* **[!UICONTROL Pourcentage de temps de scan seq (DiagnosticModeSeqScanPercentage)]** : depuis le champ **[!UICONTROL Valeur]**, vous pouvez modifier le pourcentage du temps de requête nécessaire à l’analyse de la séquence pour que la recommandation soit générée.
 
    ![](assets/wkf_diagnostic_3.png)

@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## À propos du double opt-in {#about-double-opt-in}
 
-Le mécanisme de double opt-in constitue une bonne pratique lors de l’envoi d’emails. Il protège la Plateforme des adresses email erronées ou non valides ainsi que des spammeurs, et empêche les éventuelles plaintes pour spam.
+Le mécanisme de double opt-in constitue une bonne pratique lors de l’envoi d’emails. Il protège la plateforme des adresses email erronées ou non valides ainsi que des spammeurs, et empêche les éventuelles plaintes pour spam.
 
 Le principe consiste à envoyer un email pour confirmer l’accord du visiteur avant de le stocker en tant que profil dans votre base de données Adobe Campaign : le visiteur remplit une landing page en ligne, il reçoit ensuite un email et doit cliquer sur le lien de confirmation afin de finaliser son abonnement.
 

@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Gérer des données cryptées {#managing-encrypted-data}
+# Gérer des données chiffrées {#managing-encrypted-data}
 
 ## À propos des étapes de prétraitement {#about-preprocessing-stages}
 

@@ -195,7 +195,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 **Autres changements**
 
-* Transformation d’une erreur en avertissement lors de la préparation du message, lorsque la limite de 100 téléchargements de contenu par heure glissante  est atteinte. Un avertissement s&#39;affiche désormais lorsque la limite est atteinte, ce qui permet de poursuivre la diffusion.
+* Transformation d’une erreur en avertissement lors de la préparation du message, lorsque la limite de 100 téléchargements de contenu par heure glissante est atteinte. Un avertissement s&#39;affiche désormais lorsque la limite est atteinte, ce qui permet de poursuivre la diffusion.
 
 * Lors de l&#39;enrichissement du contenu d&#39;un message transactionnel, les liens ne sont plus récupérés lors de l&#39;extraction de données du tableau de profil, ce qui réduit la latence pendant la préparation du message et évite les données de profil vides en raison d&#39;une relation incorrecte définie avec le tableau de profil.
 

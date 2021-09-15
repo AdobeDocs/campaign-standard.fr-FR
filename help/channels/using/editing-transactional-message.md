@@ -221,7 +221,7 @@ Les étapes pour créer, personnaliser et publier un message transactionnel de p
 
 Les différences sont énumérées ci-dessous.
 
-1. [Accédez au message transactionnel qui a été créé afin de l’éditer.](#accessing-transactional-messages)
+1. [Accédez au message transactionnel qui a été créé afin de le modifier.](#accessing-transactional-messages)
 1. Dans le message transactionnel, cliquez sur la section **[!UICONTROL Contenu]**. Outre les modèles d’email transactionnel, vous pouvez également choisir tout modèle d’email ciblant la ressource **[!UICONTROL Profil]**.
 
    ![](assets/message-center_marketing_templates.png)

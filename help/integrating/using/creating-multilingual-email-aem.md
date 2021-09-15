@@ -11,7 +11,7 @@ exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les prérequis sont :
 * Avoir accès à une instance Adobe Campaign configurée pour l&#39;intégration.
 * Un modèle d&#39;email multilingue Adobe Campaign paramétré pour recevoir du contenu AEM.
 
-## Création d&#39;un contenu d&#39;email dans Adobe Experience Manager {#creating-email-content-aem}
+## Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager {#creating-email-content-aem}
 
 1. Dans la page d&#39;accueil d&#39;Adobe Experience Manager, sélectionnez **[!UICONTROL Site]**.
 
@@ -127,6 +127,6 @@ Vos copies de langue sont créées. Vous pouvez maintenant modifier le contenu e
 
    >[!NOTE]
    >
-   >Vous ne pourrez pas envoyer d’email dans Adobe Campaign s’il utilise un contenu AEM qui n’a pas été approuvé.
+   >Vous ne pouvez pas envoyer d&#39;e-mail dans Adobe Campaign si son contenu AEM pas été validé.
 
 Votre audience recevra votre email selon les **[!UICONTROL Préférences linguistiques]** définies dans leurs **[!UICONTROL Profils]**. Pour en savoir plus sur la modification des profils et des préférences linguistiques, consultez cette [page](../../audiences/using/editing-profiles.md).

@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2725'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign vous permet de personnaliser une ou plusieurs URL dans votre mess
 
 >[!NOTE]
 >
->Lorsque le mécanisme de signature d’URL pour les liens de tracking est désactivé, la personnalisation des URL ne peut pas être appliquée au nom de domaine ni à l’extension de l’URL. Un message d&#39;erreur s&#39;affiche lors de l&#39;analyse du message si la personnalisation n&#39;est pas correcte.
+>Lorsque le mécanisme de signature URL pour les liens de tracking est désactivé, la personnalisation des URL ne peut pas être appliquée au nom de domaine ni à l’extension de l’URL. Un message d&#39;erreur s&#39;affiche lors de l&#39;analyse du message si la personnalisation n&#39;est pas correcte.
 >
 >Lorsque vous sélectionnez un bloc de contenu, vous n&#39;êtes pas autorisé à sélectionner des éléments comme **Lien vers la page miroir**. Ce type de bloc est interdit dans un lien.
 
@@ -363,7 +363,7 @@ Dans cet exemple, les contenus dynamiques appliqués aux illustrations sont para
 
 **Pour cibler les profils de plus de 27 ans :**
 
-1. Sélectionnez le contenu dynamique depuis la palette et éditez-le.
+1. Sélectionnez le contenu dynamique depuis la palette et modifiez-le.
 1. Modifiez son libellé puis sélectionnez le champ **[!UICONTROL Age]** depuis le nœud **[!UICONTROL Profil]**.
 1. Ajoutez l&#39;opérateur **Supérieur à** puis 27 pour créer l&#39;expression **plus de 27 ans**.
 

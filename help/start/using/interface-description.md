@@ -118,7 +118,7 @@ L’icône **[!UICONTROL Administration]** permet d’accéder aux fonctionnalit
 
 ## Zone centrale   {#central-zone}
 
-La zone centrale de l’interface utilisateur est une zone dynamique qui contient, par exemple, une liste d’éléments ou un jeu de vignettes. Elle permet d’éditer des éléments existants et de créer des ressources.
+La zone centrale de l’interface utilisateur est une zone dynamique qui contient, par exemple, une liste d’éléments ou un jeu de vignettes. Elle permet de modifier des éléments existants et de créer des ressources.
 
 ![](assets/ux_genericscreen.png)
 

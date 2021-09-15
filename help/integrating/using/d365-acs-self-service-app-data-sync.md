@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1947'
+workflow-type: tm+mt
+source-wordcount: '1944'
 ht-degree: 100%
 
 ---
@@ -23,7 +22,6 @@ Vous pouvez synchroniser des tables de Microsoft Dynamics 365 vers Campaign et 
 
 >[!IMPORTANT]
 >Vous devez arrêter/démarrer le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour que vos modifications soient prises en compte. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md)
-
 
 ## Mapper des tables de Microsoft Dynamics 365 vers Campaign
 
@@ -57,8 +55,6 @@ Voici une description de chacune des colonnes de la table :
       >[!IMPORTANT]
       >
       > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
-
-
 
 
 ## Créer un mapping {#add-a-new-mapping}
@@ -142,7 +138,6 @@ Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contr
 >
 >Cliquez sur l&#39;en-tête de colonne **[!UICONTROL Appliquer les mises à jour]** pour mettre à jour **tous** les commutateurs à activer ou à désactiver.
 
-
 Lorsque vous sélectionnez des valeurs de champ, le type de données s’affiche sous les menus déroulants.  Souvenez-nous de ce point lors du mapping des valeurs d’un champ à l’autre.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
@@ -181,7 +176,6 @@ L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe 
 >[!NOTE]
 >
 > Si aucun filtre n&#39;est ajouté, tous les enregistrements qui ont été modifiés seront propagés vers Adobe Campaign.
-
 
 ### Paramètres avancés {#advanced-settings}
 

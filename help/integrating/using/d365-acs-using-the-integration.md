@@ -8,10 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1610'
+workflow-type: tm+mt
+source-wordcount: '1607'
 ht-degree: 100%
 
 ---
@@ -102,7 +101,7 @@ L’exécution initiale du flux de données est conçue pour transférer tous le
 
 Les règles de remplacement de base peuvent être configurées dans l&#39;interface utilisateur de l&#39;application d&#39;intégration pour remplacer une valeur d’attribut par une autre (par exemple, « vert » pour « #00FF00 », « F » pour 1, etc.).
 
-En fonction du volume d’enregistrements, il se peut que votre stockage SFTP dans Campaign doive être utilisé pour le transfert initial de données. [En savoir plus](#initial-data-transfer).
+En fonction du volume d’enregistrements, il se peut que votre stockage SFTP dans Campaign doive être utilisé pour le transfert initial de données. [En savoir plus](#initial-data-transfer).
 
 L’attribut externalId de la table de profils Campaign doit être renseigné avec l’attribut de contact contactId Dynamics 365 pour que l’entrée de contact fonctionne. Les entités personnalisées Campaign doivent également être renseignées avec un attribut d’identifiant unique Dynamics 365 ; cependant, cet attribut peut être stocké dans n’importe quel attribut d’entité personnalisée Campaign (c.-à-d. qu’il n’est pas nécessaire qu’il s’agisse d’externalId).
 
@@ -112,7 +111,7 @@ L’attribut externalId de la table de profils Campaign doit être renseigné av
 
 #### Entités personnalisées
 
-L’[intégration Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) prend en charge les entités personnalisées, ce qui permet de synchroniser les entités personnalisées de Dynamics 365 avec les ressources personnalisées correspondantes dans Campaign.
+L&#39;[intégration Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) prend en charge les entités personnalisées, ce qui permet de synchroniser les entités personnalisées de Dynamics 365 avec les ressources personnalisées correspondantes dans Campaign.
 
 Les nouvelles données des ressources personnalisées peuvent être utilisées à plusieurs fins, notamment pour la segmentation et la personnalisation.
 
@@ -122,18 +121,17 @@ L’intégration prend en charge les tables liées et non liées. La liaison est
 >
 >Si un enregistrement de ressource personnalisée Campaign contient des informations personnelles, des recommandations spécifiques s’appliquent. En savoir plus dans [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 
-
-Lors de la configuration des flux de données d’entités personnalisées, il est important de tenir compte des points suivants :
+Lors de la configuration des flux de données d&#39;entités personnalisées, il est important de tenir compte des points suivants :
 
 * La création et la modification de ressources personnalisées Campaign sont des opérations délicates qui doivent être effectuées uniquement par des utilisateurs experts.
-* Pour les flux de données d’entités personnalisées, le suivi des modifications doit être activé dans Dynamics 365 pour les entités personnalisées synchronisées.
-* Si un enregistrement parent et et un enregistrement enfant lié sont créés presque au même moment dans Dynamics 365, en raison du traitement parallèle de l’intégration, il peut arriver qu’un nouvel enregistrement enfant soit créé dans Campaign avant l’enregistrement de son parent.
+* Pour les flux de données d&#39;entités personnalisées, le suivi des modifications doit être activé dans Dynamics 365 pour les entités personnalisées synchronisées.
+* Si un enregistrement parent et et un enregistrement enfant lié sont créés presque au même moment dans Dynamics 365, en raison du traitement parallèle de l&#39;intégration, il peut arriver qu&#39;un nouvel enregistrement enfant soit créé dans Campaign avant l&#39;enregistrement de son parent.
 
-* Si les enregistrements parent et enfant sont liés du côté Campaign à l’aide de l’option **Lien simple de cardinalité 1**, l’enregistrement enfant reste masqué et inaccessible (via l’interface utilisateur ou l’API) jusqu’à ce que l’enregistrement parent arrive dans Campaign.
+* Si les enregistrements parent et enfant sont liés du côté Campaign à l&#39;aide de l&#39;option **Lien simple de cardinalité 1**, l&#39;enregistrement enfant reste masqué et inaccessible (via l&#39;interface utilisateur ou l&#39;API) jusqu&#39;à ce que l&#39;enregistrement parent arrive dans Campaign.
 
-* (En supposant que le **lien simple de cardinalité 1** est présent dans Campaign) Si l’enregistrement enfant est mis à jour ou supprimé dans Dynamics 365 et que cette modification est écrite dans Campaign avant que l’enregistrement parent ne s’affiche dans Campaign (ce qui est peu probable, mais qui peut parfois arriver), cette mise à jour ou suppression ne sera pas traitée dans Campaign et une erreur sera générée. Dans le cas d’une mise à jour, l’enregistrement en question devra de nouveau être mis à jour dans Dynamics 365 pour synchroniser l’enregistrement mis à jour. Dans le cas de la suppression, l’enregistrement en question devra être pris en charge séparément du côté Campaign, car il n’y aura plus d’enregistrement dans Dynamics 365 à supprimer ou à mettre à jour.
+* (En supposant que le **lien simple de cardinalité 1** est présent dans Campaign) Si l&#39;enregistrement enfant est mis à jour ou supprimé dans Dynamics 365 et que cette modification est écrite dans Campaign avant que l&#39;enregistrement parent ne s&#39;affiche dans Campaign (ce qui est peu probable, mais qui peut parfois arriver), cette mise à jour ou suppression ne sera pas traitée dans Campaign et une erreur sera générée. Dans le cas d&#39;une mise à jour, l&#39;enregistrement en question devra de nouveau être mis à jour dans Dynamics 365 pour synchroniser l&#39;enregistrement mis à jour. Dans le cas de la suppression, l&#39;enregistrement en question devra être pris en charge séparément du côté Campaign, car il n&#39;y aura plus d&#39;enregistrement dans Dynamics 365 à supprimer ou à mettre à jour.
 
-* Si vous vous trouvez dans une situation où vous pensez avoir masqué des enregistrements enfants sans avoir aucun moyen d’y accéder, vous pouvez temporairement changer le type de lien de cardinalité en **lien simple de cardinalité 0 ou 1** pour accéder à ces enregistrements.
+* Si vous vous trouvez dans une situation où vous pensez avoir masqué des enregistrements enfants sans avoir aucun moyen d&#39;y accéder, vous pouvez temporairement changer le type de lien de cardinalité en **lien simple de cardinalité 0 ou 1** pour accéder à ces enregistrements.
 
 Vous trouverez une présentation plus exhaustive des ressources personnalisées de Campaign dans [cette section](../../developing/using/key-steps-to-add-a-resource.md).
 
@@ -161,8 +159,8 @@ Les événements de marketing email peuvent être activés/désactivés par type
 Les valeurs d’opt-out (par exemple, denyList) sont synchronisées entre les systèmes ; vous avez le choix entre les options suivantes lors de l’intégration :
 
 * **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** : Dynamics 365 est une source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens de Dynamics 365 vers Campaign Standard.
-* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
-* **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
+* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
+* **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d&#39;opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
 Si vous disposez également d’un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d’opt-out de l’intégration peut être désactivé.
 
@@ -171,7 +169,6 @@ Si vous disposez également d’un processus distinct pour gérer la synchronisa
 >Dans l’interface utilisateur de l’application d’intégration, les cas pratique d’opt-out **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** et **Bidirectionnelle** sont configurés dans un workflow d’opt-out distinct. [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >Le cas pratique d’opt-out **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** est une exception ; il est configuré dans le workflow d’entrée (contact vers profil).
-
 
 Le mapping des flux d’opt-out doit être spécifié par le client, car les besoins métier peuvent varier d’une société à l’autre. Du côté de Campaign, seuls les attributs d’opt-out d’usine peuvent être utilisés pour le mapping d’opt-out :
 

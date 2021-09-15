@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6985'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaig
 
 **Nouvelles fonctionnalités de cette version**
 
-Interface d’Experience Cloud unifiée améliorée - [En savoir plus](../../start/using/interface-description.md#top-bar)
+Interface Experience Cloud améliorée et unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
 
-Nouvelle fonctionnalité Suivi - [En savoir plus](../../administration/using/audit.md)
+Nouvelle fonctionnalité Journal d’audit – [En savoir plus](../../administration/using/audit.md)
 
-Mode de diagnostic des workflows - [En savoir plus](../../automating/using/managing-execution-options.md)
+Mode de diagnostic des workflows – [En savoir plus](../../automating/using/managing-execution-options.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
 Une nouvelle section a été ajoutée sur la façon de supprimer une adresse de la liste de quarantaine. [En savoir plus](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-La section **Quarantaine et Liste bloquée** a été clarifiée. [En savoir plus](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+La section **Quarantaine et liste bloquée** a été clarifiée. [En savoir plus](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## Juillet 2021 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ La page **Calendrier des versions** a été mise à jour avec de nouvelles dates
 
 ## Avril 2021 {#doc-updates-april-2021}
 
-Une nouvelle section a été ajoutée sur l’utilisation des sources et des destinations Adobe Experience Platform pour partager des données entre Campaign Standard et la plateforme de données clients en temps réel Adobe (RTCDP). [En savoir plus](../../integrating/using/get-started-sources-destinations.md)
+Une nouvelle section consacrée à la manière d&#39;utiliser les sources et destinations Adobe Experience Platform pour partager des données entre Campaign Standard et Real-time Customer Data Platform (RTCDP) a été ajoutée. [En savoir plus](../../integrating/using/get-started-sources-destinations.md)
 
 ## Mars 2021 {#doc-updates-march-2021}
 
@@ -190,7 +190,7 @@ Nouvelles fonctionnalités d&#39;emails optimisées par l&#39;IA : optimisation
 
 Les cas d&#39;utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../automating/using/about-workflow-use-cases.md)
 
-Des cas d&#39;utilisation ont été ajoutés pour [crypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [décrypter](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l&#39;aide du panneau de contrôle et des workflows Campaign.
+Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l&#39;aide du panneau de contrôle et des workflows Campaign.
 
 Les références à l&#39;ancien site web d&#39;assistance ont été remplacées par la nouvelle URL. [En savoir plus](../../support.md)
 
@@ -908,7 +908,7 @@ Mise à jour de la documentation sur les messages de relance avec un cas pratiqu
 
 Ajout d&#39;une documentation sur l&#39;identifiant ACS. [En savoir plus](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
-Ajout de nouvelles fonctions de hachage et de cryptage avec des exemples. [En savoir plus](../../automating/using/list-of-functions.md)
+Ajout de nouvelles fonctions de hachage et de chiffrement avec des exemples. [En savoir plus](../../automating/using/list-of-functions.md)
 
 Mise à jour de la section sur l&#39;activité de workflow Transfert de fichier. [En savoir plus](../../automating/using/transfer-file.md)
 
@@ -924,7 +924,7 @@ Notifications Adobe Campaign – [En savoir plus](../../administration/using/s
 
 Alertes sur les diffusions – [En savoir plus](../../sending/using/receiving-alerts-when-failures-happen.md)
 
-Identifiant Declared ID crypté dans les sources de données – [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Identifiant Declared ID chiffré dans les sources de données – [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Partage des KPI de Campaign vers Analytics – [En savoir plus](../../integrating/using/about-campaign-analytics-integration.md)
 

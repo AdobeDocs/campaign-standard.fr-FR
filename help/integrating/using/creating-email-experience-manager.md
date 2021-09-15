@@ -31,7 +31,7 @@ Connectez-vous à votre instance Adobe Experience Manager de création et parc
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## Création d&#39;un contenu d&#39;email dans Adobe Experience Manager {#creating-email-content-aem}
+## Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager {#creating-email-content-aem}
 
 Plusieurs modèles spécifiques à Adobe Campaign sont disponibles. Vous devez utiliser l’un de ces modèles car ils contiennent des composants prédéfinis pris en charge par Adobe Campaign.
 

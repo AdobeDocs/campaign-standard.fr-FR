@@ -11,13 +11,13 @@ exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1434'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Configurer l&#39;intégration Campaign-Données de points ciblés{#configuring-campaign-points-of-interest-data-integration}
 
-## Configurer l&#39;intégration Campaign-Données de points ciblés avec les SDK Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
+## Configurer l&#39;intégration Campaign-Données de points ciblés  avec les SDK Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Pour utiliser la fonctionnalité de données Point ciblé avec des applications 
 1. Définir les données à collecter auprès des abonnés de votre application mobile. Voir [Collecter les données de points ciblés auprès des abonnés](#collecting-subscribers--points-of-interest-data).
 1. Vérifier que vous avez accès à l&#39;application mobile et aux données de localisation collectées dans Adobe Campaign. Voir [Accéder aux applications mobiles utilisées pour collecter les données de localisation](#accessing-mobile-apps-used-to-collect-location-data) et [Accéder aux données de localisation collectées](#accessing-collected-location-data).
 
-### Configuration d&#39;une application mobile dans Adobe Campaign à l&#39;aide du SDK V 4 {#setting-up-a-mobile-app-in-campaign}
+### Configuration d&#39;une application mobile dans Adobe Campaign à l&#39;aide du SDK V4 {#setting-up-a-mobile-app-in-campaign}
 
 Pour pouvoir collecter des données de points ciblés avec Adobe Campaign, vous devez configurer l&#39;application mobile à partir de laquelle Adobe Campaign recevra les données.
 
@@ -75,7 +75,7 @@ Vous pouvez maintenant utiliser ces valeurs dans Adobe Mobile Services pour term
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Configurer une application mobile dans Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Configurer une application mobile V4 dans Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Pour envoyer les données collectées par Adobe Mobile Services vers Adobe Campaign, vous devez configurer des postbacks dans l&#39;interface Mobile Services.
 
@@ -194,7 +194,7 @@ Cette étape est présentée dans la page [Configuration d&#39;une application m
 
 Pour accéder aux applications créées dans Adobe Campaign :
 
-1. Cliquez sur le logo **Adobe **, en haut à gauche.
+1. Cliquez sur le logo **Adobe**, en haut à gauche.
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK v4)]** ou **[!UICONTROL Application mobile (SDK AEP)]** selon le SDK.
 1. Dans la liste, sélectionnez une application mobile pour afficher ses propriétés.
 

@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1107'
+workflow-type: tm+mt
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -27,18 +26,18 @@ Avant de commencer à utiliser l’outil d’intégration, vous devez comprendre
 
 En savoir plus dans ces sections :
 
-* [Prise en main de l’intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
+* [Prise en main de l’intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Bonnes pratiques et limites de l&#39;intégration](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Découvrir les étapes clés d’implémentation de cette intégration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Utilisation de l’intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
+* [Utilisation de l&#39;intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
-## Prérequis {#self-service-app-prerequisites}
+## Conditions préalables requises {#self-service-app-prerequisites}
 
 Vous devez configurer Microsoft Dynamics 365 et Adobe Campaign Standard pour que l&#39;application d&#39;intégration ait accès à vos données. Cette configuration prendra du temps dans Dynamics 365, Adobe Campaign Standard et Adobe I/O ; toutefois, une fois ces applications configurées, vous pourrez contrôler l&#39;intégration par le biais de l&#39;interface utilisateur de l&#39;application d&#39;intégration en libre-service.
 
 En savoir plus dans ces sections :
 
-* [Configuration de Microsoft Dynamics 365 pour l’intégration Campaign](../../integrating/using/d365-acs-configure-d365.md)
+* [Configuration de Microsoft Dynamics 365 pour l’intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md)
 * [Configurer Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mapper des ressources personnalisées de Campaign et des entités personnalisées de Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
@@ -113,7 +112,6 @@ Une fois que votre configuration est correcte, cliquez sur le bouton **[!UICONTR
 >
 >Il est **vivement** recommandé de commencer l’exécution dans vos environnements de test ou de développement avant l’environnement de production. Vérifiez que l&#39;instance stage/dev est sélectionnée dans l&#39;en-tête.
 
-
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 Une fois l’exécution commencée, vous devriez être en mesure d’effectuer des tests en ajoutant ou en modifiant des entrées dans Microsoft Dynamics 365 et en observant ces modifications dans Adobe Campaign après quelques minutes. Si, à tout moment, vous devez arrêter ce processus, il vous suffit d&#39;appuyer sur le même bouton pour l&#39;arrêter. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
@@ -135,7 +133,7 @@ Les entrées du menu déroulant sont les suivantes :
 
 * **Documentation** : cette option permet d’accéder à la documentation Adobe Campaign spécifique à cette intégration.
 
-* **Assistance clientèle** : il s’agit d’un lien vers la documentation Experience Cloud relative à l’enregistrement d’une demande auprès de l’Assistance clientèle.
+* **Assistance clientèle** : il s’agit d’un lien vers la documentation Experience Cloud relative à l’enregistrement d’une demande auprès de l’assistance clientèle.
 
 * **Déconnexion** : cette option vous déconnectera de l’application et vous permettra de vous reconnecter en tant qu’autre utilisateur.
 

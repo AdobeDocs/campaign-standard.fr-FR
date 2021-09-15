@@ -9,10 +9,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-translation-type: ht
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '425'
+workflow-type: tm+mt
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
@@ -32,7 +31,6 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 >[!IMPORTANT]
 >
 > Ces étapes nécessitent un rôle **Administrateur** dans la version Experience Cloud de votre organisation.
-
 
 1. Accédez à https://experience.adobe.com/ et connectez-vous à Adobe Experience Cloud.
 1. Accédez à l&#39;**Admin Console**.
@@ -72,7 +70,7 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## Accorder l&#39;accès aux utilisateurs {#add-users-to-profile}
+## Octroi d&#39;accès aux utilisateurs {#add-users-to-profile}
 
 Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et procédez comme suit :
 

@@ -53,11 +53,11 @@ Elle est axée sur la répartition des différentes tâches entre trois types d�
 
 >[!NOTE]
 >
->Les administrateurs fonctionnels diffèrent des administrateurs techniques Adobe. Les administrateurs techniques Adobe assument un rôle interne à Adobe qui ne peut être utilisé par aucun client. Ils gèrent la configuration et l’hébergement de l’instance, le contrôle et la supervision de l’infrastructure et la résolution des problèmes techniques.
+>Les administrateurs fonctionnels diffèrent des administrateurs techniques Adobe. Les administrateurs techniques Adobe assument un rôle interne à Adobe qui ne peut être utilisé par aucun client. Ils gèrent l’approvisionnement et l’hébergement de l’instance, le contrôle et la supervision de l’infrastructure et la résolution des problèmes techniques.
 
 ### Administrateurs fonctionnels {#functional-administrators}
 
-Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux parties les plus techniques de l’interface. Ils détiennent le rôle **[!UICONTROL Administration]** et veillent à ce que la Plateforme soit configurée de sorte que les marketeurs puissent se concentrer exclusivement sur la diffusion de leurs campagnes.
+Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux parties les plus techniques de l’interface. Ils détiennent le rôle **[!UICONTROL Administration]** et veillent à ce que la plateforme soit configurée de sorte que les marketeurs puissent se concentrer exclusivement sur la diffusion de leurs campagnes.
 
 >[!IMPORTANT]
 >
@@ -67,8 +67,8 @@ Les administrateurs fonctionnels sont les seuls utilisateurs ayant accès au men
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
-* [Gérer les utilisateurs et les permissions](../../administration/using/about-access-management.md) : gérez les accès à la Plateforme (utilisateurs, rôles, groupes de sécurité, entités).
-* [Configurer les différents canaux](../../administration/using/about-channel-configuration.md) : configurez les différents canaux de la Plateforme ainsi que la gestion des typologies et des quarantaines.
+* [Gérer les utilisateurs et les permissions](../../administration/using/about-access-management.md) : gérez les accès à la plateforme (utilisateurs, rôles, groupes de sécurité, entités).
+* [Configurer les différents canaux](../../administration/using/about-channel-configuration.md) : configurez les différents canaux de la plateforme ainsi que la gestion des typologies et des quarantaines.
 * [Configurer les paramètres généraux de l’application](../../administration/using/external-accounts.md) : configurez les différents éléments de l’application (comptes externes, options, workflows techniques).
 * [Développer de nouvelles fonctionnalités pour améliorer les fonctions d’usine](../../developing/using/data-model-concepts.md) : gérez vos ressources personnalisées et accédez aux outils de diagnostic.
 * [Configurer les paramètres de l’instance](../../administration/using/branding.md) : définissez vos différentes marques et configurez leurs paramètres (logo, gestion du tracking, domaine d’URL d’accès aux landing pages, etc.).
