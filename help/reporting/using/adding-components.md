@@ -1,6 +1,6 @@
 ---
 title: Ajouter des composants
-description: Placez des composants dans votre tableau Structure libre afin de commencer à filtrer les données et créer votre rapport.
+description: Placez des composants dans votre tableau à structure libre pour commencer à filtrer vos données et à créer votre rapport.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 

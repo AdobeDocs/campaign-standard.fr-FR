@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -159,7 +159,7 @@ Si le `DELIVER_SM PDU` n&#39;est pas suivi d&#39;un acquittement, vérifiez ce q
 
 Si vous avez tout corrigé, mais que des SR non valides figurent toujours dans les tampons du fournisseur, vous pouvez les ignorer à l&#39;aide de l&#39;option **Nombre d&#39;acquittements d&#39;identifiant invalides**. Cette option doit être utilisée avec soin et réinitialisée à 0 aussi vite que possible après le nettoyage des tampons.
 
-## Problème lors du traitement de MO (et de la réponse liste bloquée / auto){#issue-process-MO}
+## Problème lors du traitement de MO (et de la réponse liste bloquée/auto){#issue-process-MO}
 
 * Activez les traces SMPP pendant les tests. Si vous n&#39;activez pas le protocole TLS, vous devez effectuer une capture réseau lors de la résolution des problèmes de MO pour vérifier que les PDU contiennent les informations correctes et sont correctement formatées.
 

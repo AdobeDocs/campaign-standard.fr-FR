@@ -9,10 +9,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * [Exécution du workflow](../../automating/using/about-workflow-execution.md) : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans cette page](../../automating/using/monitoring-workflow-execution.md). Pour en savoir plus, consultez la section [bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md).
 
-* Vous pouvez tirer parti des [fonctionnalités du panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
+* Vous pouvez tirer parti des [fonctionnalités du Panneau de Contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [surveillance des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
 ## Vérifier la configuration du réseau {#network-config}
 

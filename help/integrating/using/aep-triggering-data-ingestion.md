@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Cette page décrit comment déclencher et récupérer le statut de l&#39;ingesti
 
 ## Conditions préalables requises {#prerequisites}
 
-Avant d&#39;utiliser les API, le mapping de données doit avoir été configuré et publié dans l&#39;interface de Campaign Standard. Voir à ce propos les sections suivantes :
+Avant d&#39;utiliser les API, le mapping de données doit avoir été configuré et publié dans l&#39;interface de Campaign Standard. Pour plus d’informations, consultez les sections suivantes :
 
 * [Définition d&#39;un mapping](../../integrating/using/aep-mapping-definition.md)
 * [Activation du mapping](../../integrating/using/aep-mapping-activation.md)
@@ -54,7 +54,8 @@ L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform
 >
 >Pour exécuter l&#39;appel d&#39;API POST d&#39;ingestion, l&#39;utilisateur doit disposer d&#39;un rôle d&#39;**exécution de fonction SQL**. Ce rôle peut être attribué par un administrateur de Campaign Standard en exécutant le Script JS suivant :
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```

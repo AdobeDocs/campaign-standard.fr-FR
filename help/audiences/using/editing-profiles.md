@@ -1,6 +1,6 @@
 ---
-title: Editer des profils
-description: Découvrez comment éditer des profils existants et accéder aux informations sur les contacts, les préférences en matière de canaux, le tracking, les abonnements, etc.
+title: Modifier des profils
+description: Découvrez comment éditer des profils existants et accéder aux coordonnées, canaux préférés, logs de tracking, abonnements, etc.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 

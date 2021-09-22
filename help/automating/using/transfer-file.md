@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -72,7 +72,8 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
 Le protocole HTTP permet de lancer le téléchargement d’un fichier depuis un compte externe ou une URL.
 
-Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**. Dans ce cas, sélectionnez le compte de votre choix et indiquez le chemin d’accès au fichier à télécharger.
+Avec ce protocole, vous pouvez choisir **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** . Dans ce cas, sélectionnez le compte de votre choix et indiquez le chemin d’accès au fichier à télécharger.
+
 ![](assets/wkf_file_transfer_03.png)
 
 Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
@@ -82,7 +83,7 @@ Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**.
 
 Le protocole SFTP permet de lancer le téléchargement d’un fichier depuis une URL ou un compte externe.
 
-Avec ce protocole, vous pouvez choisir l’option **[!UICONTROL Utiliser des paramètres de connexion définis dans un compte externe]**, puis sélectionner le compte désiré et indiquer le chemin d’accès au fichier à télécharger.
+Avec ce protocole, vous pouvez choisir d’**[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** , puis sélectionner le compte de votre choix et spécifier le chemin d’accès au fichier à télécharger.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -176,5 +177,5 @@ Notez que les variables d’événement peuvent également être transmises à u
 
 Les variables de sortie disponibles sont les suivantes :
 
-* **[!UICONTROL fileName]** : nom des fichiers transférés.
-* **[!UICONTROL filesCount]** : nombre de fichiers transférés.
+* **[!UICONTROL fileName]** : nom des fichiers transférés.
+* **[!UICONTROL filesCount]** : nombre de fichiers transférés.

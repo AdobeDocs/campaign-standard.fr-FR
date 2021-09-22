@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Une fois que vous avez créé un email dans Adobe Campaign, vous devez en défin
 
 Le Concepteur d’email vous permet de créer des emails captivants et personnalisés au moyen d’une interface par glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
-Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
+Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l’interface glisser-déposer et le code HTML en cliquant sur un bouton.
 
 Le Concepteur d&#39;email permet de créer du contenu d&#39;email et des modèles de contenu d&#39;email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 
 * Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
 * La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
-* Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche les utilisateurs de dupliquer des index, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire.
+* Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche les utilisateurs de dupliquer des index, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire. [Apprenez-en davantage](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)   
 
 **Autres changements**
 

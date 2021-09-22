@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="start/using/privacy-management.md">Gestion de la confidentialité et du consentement</a></li>
         <li><a href="automating/using/query.md">Conception d’une requête</a></li>
         <li><a href="automating/using/query-samples.md">Exemples de requête</a></li>
-        <li><a href="https://helpx.adobe.com/fr/campaiacs-mobile.html">Configuration des canaux mobiles</a></li>
+        <li><a href="administration/using/push-tracking.md">Configuration des canaux mobiles</a></li>
         </ul>
     </td>
     </tr>
@@ -119,12 +119,12 @@ Le nouveau système de gestion des tickets a été mis en place via la console [
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Création d’un ticket ou démarrage d’une conversation
 
 La création d’un ticket vous permet de contacter l’équipe du Service clientèle d’Adobe pour tout problème lié à vos produits Adobe. La console Adobe Admin Console vous permettra de discuter avec le Service clientèle d&#39;Adobe pour résoudre vos problèmes.
 
-Pour enregistrer un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
+Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Suivez la procédure détaillée décrite dans [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

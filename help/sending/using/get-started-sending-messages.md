@@ -7,10 +7,10 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Une fois la cible définie et le contenu d’un message créé, vous devez prép
 
 Une fois les campagnes marketing exécutées et les différents messages envoyés, surveillez-les à l’aide de logs pour vérifier le succès de votre opération et récupérez les informations de tracking des destinataires.
 
-Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabilité de Campaign Standard pour améliorer le nombre de messages diffusés et assurer le succès des campagnes marketing.
+Enfin, utilisez les consignes et les outils de délivrabilité disponibles dans Campaign Standard pour améliorer le nombre de messages diffusés et assurer le succès des campagnes marketing.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment envoyer un email de test, préparer et envoyer une diffusion email en vidéo](#video)
 
@@ -77,7 +77,7 @@ En savoir plus :
 
 La délivrabilité permet de mesurer le succès des campagnes atteignant la boîte de réception de vos destinataires sans bounces ou sans être marqués comme spam.
 
-Campaign Standard met à votre disposition plusieurs **outils de délivrabilité** pour améliorer le nombre de messages correctement diffusés : rapports de débit de diffusion, optimisation de l’heure d’envoi, aperçu des messages, rendu des emails, gestion des quarantaines, etc.
+Campaign Standard fournit plusieurs **outils de délivrabilité** pour vous aider à améliorer le nombre de messages correctement diffusés : rapports de débit de diffusion, optimisation de l’heure d’envoi, aperçu des messages, rendu des emails, gestion des quarantaines, etc.
 
 En savoir plus :
 

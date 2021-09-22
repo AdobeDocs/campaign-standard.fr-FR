@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 100%
@@ -81,7 +81,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Pour afficher le modèle de message, cliquez sur le bouton **[!UICONTROL Autres choix]**, en haut à droite, puis sur **[!UICONTROL Modèle transactionnel de déclencheur]**.
+1. Pour afficher le modèle de message, cliquez sur le bouton **[!UICONTROL Autres choix]**, en haut à droite, puis sur **[!UICONTROL Modèle transactionnel de trigger]**.
 
 1. Personnalisez son contenu et les données expéditeur.
 

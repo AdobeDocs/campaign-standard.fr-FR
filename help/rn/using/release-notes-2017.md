@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4688'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -499,7 +499,7 @@ _Workflows_
    <td> API des messages transactionnels<br /> </td> 
    <td> L’API des messages transactionnels est maintenant disponible sur le site <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, ce qui facilite son utilisation et son contrôle :<br /> 
     <ul> 
-     <li> Vous pouvez tirer parti des capacités de contrôle et de reporting de la plateforme adobe.io. </li> 
+     <li> Vous pouvez bénéficier des fonctionnalités de surveillance et de reporting de la plateforme adobe.io. </li> 
      <li> L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que le placement sur liste autorisée des adresses IP, ce qui simplifie le processus de sécurité. </li> 
      <li> Toutes les API sont désormais intégrées sur une seule plateforme, ce qui facilite plus que jamais l’ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l’API Profile &amp; Services. </li> 
     </ul> </td> 

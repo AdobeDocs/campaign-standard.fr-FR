@@ -4,10 +4,10 @@ description: '"Découvrez comment personnaliser l''affichage et exécuter des ac
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ Les messages personnalisés sont essentiels pour envoyer du contenu pertinent, p
 
 * Découvrez la personnalisation des emails à travers un [exemple de bout en bout](../../designing/using/personalization.md#example-email-personalization)
 * [Personnaliser une URL](../../designing/using/personalization.md#personalizing-urls)
-* [Configurer la personnalisation d’une image](../../designing/using/personalization.md#personalizing-an-image-source)
+* [Configurer la personnalisation d&#39;une image](../../designing/using/personalization.md#personalizing-an-image-source)
 
 ## Tracker et surveiller vos diffusions
 

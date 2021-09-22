@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -116,11 +116,11 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
 
-Si le point d’entrée l’exige, deux types de méthodes d’authentification sont disponibles :
+Si le point de terminaison le requiert, deux types de méthode d’authentification sont disponibles :
 
-* Authentification de base : entrez votre nom d’utilisateur / mot de passe dans la section **[!UICONTROL En-tête(s) de demande]**.
+* Authentification de base : saisissez vos informations de nom d’utilisateur/mot de passe dans la section **[!UICONTROL En-tête(s) de demande]** .
 
-* Authentification OAuth : en cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l’authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
+* Authentification OAuth : En cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l’authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
@@ -325,7 +325,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -351,6 +351,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

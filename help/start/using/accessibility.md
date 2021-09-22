@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 
 ### Page d’accueil {#homepage-shortcuts}
 
-| Raccourci | Action |
-|:-:|:-:|
-| Onglet | Parcourir les différents éléments de l’interface utilisateur |
-| Entrée ou Espace | Activer l’élément sélectionné |
+| Action | Raccourci |
+| --- | --- |
+| Parcourir les différents éléments de l’interface utilisateur | Onglet |
+| Activer l’élément sélectionné | Entrée ou Barre d’espacement |
 
 ### Concepteur d&#39;email {#email-designer-shortcuts}
 
-| Raccourci | Action |
-|:-:|:-:|
-| Ctrl + Z | Annuler |
-| Ctrl + Y | Rétablir |
+| Action | Raccourci Windows | raccourci macOS |
+| --- | --- | --- |
+| Annuler | Ctrl + Z | Commande + Z |
+| Rétablir | Ctrl + Y | Maj + Commande + Z |
 
 ### Rapports dynamiques {#report-shortcuts}
 
-| Raccourci | Action |
-|:-:|:-:|
-| Ctrl + O | Ouvrir le projet |
-| Ctrl + S | Enregistrer |
-| Maj + Ctrl + S | Enregistrer sous |
-| Alt + R | Actualiser le projet |
-| Maj + Ctrl + V | Télécharger le fichier CSV |
-| Alt + P | Imprimer |
-| Ctrl + Z | Annuler |
-| Ctrl + Maj + Z | Rétablir |
-| Alt + B | Nouveau panneau vierge |
-| Alt + A | Nouvelle forme libre |
-| Alt + 1 | Nouveau tableau à structure libre |
-| Alt + 2 | Nouvelle ligne |
-| Alt + 3 | Nouvelle barre |
-| Alt + S | Envoyer le rapport maintenant |
-| Maj + Alt + S | Envoyer le rapport d’après le planning |
-| Maj = Alt + L | Rapports différés |
+| Action | Raccourci Windows | raccourci macOS |
+| --- | --- | --- |
+| Ouverture d’un projet | Ctrl + O | Commande + O |
+| Enregistrer | Ctrl + S | Commande + S |
+| Enregistrer sous | Maj + Ctrl + S | Maj + Commande + S |
+| Actualiser le projet | Alt + R | Commande + R |
+| Télécharger le fichier CSV | Maj + Ctrl + V | Maj + Commande + V |
+| Imprimer | Alt + P | Commande + P |
+| Annuler | Ctrl + Z | Commande + Z |
+| Rétablir | Ctrl + Y | Maj + Commande + Z |
+| Nouveau panneau vierge | Alt + B | Option + B |
+| Nouvelle forme libre | Alt + A | Option + A |
+| Nouveau tableau à structure libre | Alt + 1 | Option + 1 |
+| Nouvelle ligne | Alt + 2 | Option + 2 |
+| Nouvelle barre | Alt + 3 | Option + 3 |
+| Envoyer le rapport maintenant | Alt + S | Option + S |
+| Envoyer le rapport d’après le planning | Maj + Alt + S | Maj + Option + S |
+| Rapports différés | Maj + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Autres lectures {#further-reading}
 

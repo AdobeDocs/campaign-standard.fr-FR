@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,10 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
    Pour plus d&#39;informations sur l&#39;action à réaliser sur l&#39;API Profiles &amp; Services, consultez [Publier une ressource avec l&#39;extension de l&#39;API](#publishing-a-resource-with-api-extension).
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Comme les index en double entraînent l’échec de la publication, l’étape de préparation vérifie si l’index défini pour la ressource existe déjà avec le même nom pour une autre ressource. Si cela se produit, un message d&#39;erreur s&#39;affiche, vous demandant de renommer l&#39;index. Voir [Définition des index](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Une fois l&#39;analyse effectuée, cliquez sur le bouton **[!UICONTROL Publier]** pour appliquer vos nouvelles configurations.
 1. Une fois la publication effectuée, le volet **[!UICONTROL Résumé]** de chaque ressource indique que le statut est désormais **[!UICONTROL Publié]** et précise la date de la dernière publication.

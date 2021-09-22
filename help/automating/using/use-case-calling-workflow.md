@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Le cas pratique ci-dessous vous présente comment appeler un workflow avec des paramètres au sein de vos workflows.
 
-L’objectif est de déclencher un workflow à partir d’un appel API avec des paramètres externes. Ce workflow chargera des données dans votre base de données à partir d’un fichier et créera une audience associée. Une fois l’audience créée, un deuxième workflow sera déclenché pour envoyer un message personnalisé avec les paramètres externes définis dans l’appel API.
+L’objectif est de déclencher un workflow à partir d’un appel API avec des paramètres externes. Ce workflow chargera des données dans votre base de données à partir d’un fichier et créera une audience associée. Une fois l&#39;audience créée, un deuxième workflow sera déclenché pour envoyer un message personnalisé avec les paramètres externes définis dans l&#39;appel API.
 
 Pour mettre en place ce cas pratique, vous devez réaliser les actions ci-dessous :
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5456'
-ht-degree: 100%
+source-wordcount: '5459'
+ht-degree: 99%
 
 ---
 
@@ -249,8 +249,8 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème selon lequel des événements de reporting bruts n’avaient pas d’événements de suivi associés, car le champ eventDate n’était pas correctement rempli.
 * Correction d’un problème qui empêchait des champs personnalisés de s’afficher dans la fenêtre d’aperçu d’une diffusion de notification push.
 * Correction d’un problème qui empêchait le texte d’être renvoyé à la ligne dans le corps du message d’une notification push dans la fenêtre d’aperçu.
-* Correction d’un problème lors de l’envoi d’une diffusion récurrente provenant d’un workflow lorsque la cible principale est vide.
-* Correction d’un problème qui empêchait l’accès à un mapping de ciblage si celui-ci est lié à un schéma inexistant.
+* Correction d’un problème lors de l’envoi d’une diffusion récurrente à partir d’un workflow lorsque la cible principale est vide.
+* Correction d’un problème qui empêchait l’accès à un mapping de ciblage s’il était lié à un schéma inexistant.
 * Correction d’un problème qui pouvait se produire lors de l’importation d’un fichier zip via une activité Chargement de fichier. (CAMP-24309)
 * Correction d’un problème qui entraînait une erreur PostgreSQL lors de l’envoi d’une diffusion récurrente. (CAMP-23613)
 * Correction d’un problème qui affichait un message d’erreur lors de l’envoi d’une requête API REST avec un attribut JSON vide. (CAMP-23506)
@@ -469,7 +469,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d’une notification ; </li> 
      <li> ajouter un identifiant de thread à une notification. </li> 
-    </ul> Pour plus d’informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d’informations, consultez <a href="https://helpx.adobe.com/fr/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">cette technote</a>.<br /> </td> 
+    </ul> Pour plus d’informations sur les options Contenu mutable et Contenu disponible, consultez la <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">documentation détaillée</a>.<br /> <strong>Avertissement :</strong> ces mises à jour des notifications push requièrent une mise à niveau des applications mobiles des clients. Pour plus d’informations, consultez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">cette technote</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Diffusions optimisées avec les fuseaux horaires<br /> </td> 
