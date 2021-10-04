@@ -9,9 +9,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,7 @@ Adobe Campaign fournit un ensemble d’outils pour suivre et améliorer les per
 
 ### Création minutieuse de votre message
 
-Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirez parti de toutes les fonctionnalités fournies par Adobe Campaign pour améliorer la délivrabilité.
+Lors de la configuration, de la conception et du test de votre message, assurez-vous de suivre les bonnes pratiques mentionnées dans les sections ci-dessous. Tirer parti de toutes les fonctionnalités d&#39;Adobe Campaign contribue à améliorer la délivrabilité.
 
 * [Bonnes pratiques relatives à la diffusion](../../sending/using/delivery-best-practices.md)
 * [Contrôle du contenu des e-mails](../../sending/using/control-email-content.md)

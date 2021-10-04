@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Les implémentations In-App et des notifications push doivent être effectuées par des utilisateurs expérimentés. Si vous avez besoin d&#39;aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels.
+>Les implémentations In-App et des notifications push doivent être effectuées par des utilisateurs expérimentés. Pour obtenir de l’aide, contactez votre chargé de compte d’Adobe ou votre partenaire de services professionnels.
 
 Pour envoyer des notifications push et des messages In-App avec l&#39;application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign.
 
@@ -87,7 +87,7 @@ Votre workflow va maintenant redémarrer et synchroniser les propriétés mobile
 
 Pour utiliser une propriété mobile Experience Platform Launch dans Campaign, vous devez également configurer cette propriété dans Adobe Campaign. Dans Adobe Campaign, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard.
 
-Vous devrez attendre que le workflow technique s’exécute et synchronise la propriété mobile Launch sur Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
+Vous devez attendre que le workflow technique s’exécute et synchronise la propriété mobile Launch avec Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
 
 Pour plus d’informations sur le wokflow technique de synchronisation de l’application mobile AEPSDK depuis Launch, voir cette [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 

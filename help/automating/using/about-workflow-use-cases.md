@@ -7,10 +7,10 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
 
-Vous pourrez ainsi découvrir les différents contextes d’utilisation des workflows pour répondre à vos besoins.
+Ils vous aident à découvrir les différents contextes d’utilisation des workflows et à répondre à vos besoins.
 
 ## Diffusions {#deliveries}
 

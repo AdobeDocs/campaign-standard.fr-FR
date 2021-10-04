@@ -8,10 +8,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Pour gérer un événement dans un workflow, un modèle de diffusion est nécess
 
 Pour accéder à ce modèle :
 
-1. Cliquez sur le logo **Adobe **, en haut à gauche.
+1. Cliquez sur le logo **Adobe** , en haut à gauche.
 1. Sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Cochez la case **[!UICONTROL Messages de relance]** dans le volet de gauche.
 

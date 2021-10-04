@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comme
 
 >[!IMPORTANT]
 >
->Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits d’<b>administrateur système</b> sur l’organisation ou d’un [compte de développeur](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans la console d’administration.</a>
+>Pour gérer les certificats dans Adobe IO, assurez-vous de disposer des droits <b>Administrateur système</b> sur l’organisation ou d’un [compte de développeur](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html)</a> dans le Admin Console.
 
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec Adobe Campaign Service** dans Adobe IO et configurez-la. Vos informations d’identification seront alors générées (clé d’API, secret client...).

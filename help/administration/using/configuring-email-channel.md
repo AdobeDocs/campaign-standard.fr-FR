@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2816'
-ht-degree: 100%
+source-wordcount: '2815'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTR
 
 ### Qualification des emails bounce   {#legacy-bounce-mail-qualification}
 
-Pour répertorier les différents bounces et les types d&#39;erreur et raisons associés, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+Pour répertorier les différents bounces et les types d’erreur et raisons associés, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
 Les statuts de qualification des bounces sont les suivants :
 

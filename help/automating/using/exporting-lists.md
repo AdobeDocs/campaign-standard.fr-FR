@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 95%
+source-wordcount: '457'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,7 @@ Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste
    ![](assets/export_list_mode_switch.png)
 
 1. Organisez les colonnes de la liste tel que vous souhaitez les exporter à l&#39;aide du bouton **[!UICONTROL Configurer la liste]**, en haut à droite. Outre les colonnes configurées, la clé primaire de la ressource sera également exportée.
-1. Si vous le souhaitez, appliquez un filtre. Pour cela, cliquez sur le bouton en haut à gauche pour afficher le volet de recherche.
+1. Si vous le souhaitez, appliquez un filtre. Pour ce faire, cliquez sur le bouton dans le coin supérieur gauche pour afficher le volet de recherche.
 
    Si vous effectuez un export à partir d&#39;une liste contenant différentes ressources, vous devez appliquer vos filtres de manière à ce qu&#39;un seul type de ressource soit affiché dans la liste.
 

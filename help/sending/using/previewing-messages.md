@@ -8,10 +8,10 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '649'
+ht-degree: 97%
 
 ---
 
@@ -41,11 +41,11 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 
    ![](assets/sending_test-profile.png)
 
-1. Pour quitter le mode de **[!UICONTROL prévisualisation]**, sélectionnez le bouton **[!UICONTROL Editer]** en haut à gauche de l’écran.
+1. Pour quitter le mode **[!UICONTROL Aperçu]**, cliquez sur le bouton **[!UICONTROL Modifier]** en haut à gauche de l’écran.
 
    ![](assets/sending_preview_edit.png)
 
-**Rubriques connexes :**
+**Rubriques connexes** 
 
 * [Gestion des profils de test](../../audiences/using/managing-test-profiles.md)
 * [Test des e-mails à l&#39;aide des profils ciblés](../../sending/using/testing-messages-using-target.md)

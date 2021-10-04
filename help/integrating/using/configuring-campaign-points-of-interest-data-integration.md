@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 100%
+source-wordcount: '1432'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ Pour utiliser la fonctionnalité de données Point ciblé avec des applications 
 
 Pour pouvoir collecter des données de points ciblés avec Adobe Campaign, vous devez configurer l&#39;application mobile à partir de laquelle Adobe Campaign recevra les données.
 
-1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile]**.
+1. Cliquez sur le logo **Adobe** , en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile]**.
 1. Cliquez sur **[!UICONTROL Créer]** pour configurer une application.
 1. Saisissez un nom dans le champ **[!UICONTROL Nom de l&#39;application]** et cliquez sur **[!UICONTROL Créer]**.
 
@@ -194,7 +194,7 @@ Cette étape est présentée dans la page [Configuration d&#39;une application m
 
 Pour accéder aux applications créées dans Adobe Campaign :
 
-1. Cliquez sur le logo **Adobe**, en haut à gauche.
+1. Cliquez sur le logo **Adobe** , en haut à gauche.
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK v4)]** ou **[!UICONTROL Application mobile (SDK AEP)]** selon le SDK.
 1. Dans la liste, sélectionnez une application mobile pour afficher ses propriétés.
 

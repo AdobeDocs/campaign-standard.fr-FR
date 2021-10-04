@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 98%
+source-wordcount: '945'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe 
 
 ## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ?  {#aep-validity}
 
-Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante à l’aide d’[!DNL Adobe Launch] pour activer l’intégration.
+Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Adobe Launch] pour activer l’intégration.
 
 Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
@@ -76,7 +76,7 @@ Procédez comme suit :
 
 ## Que dois-je faire pour enrichir un profil mobile dans Campaign ?  {#enrich-mobile-profile}
 
-Vous devez configurer un postback CollectPII (consultez à ce sujet cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#PIIpostback)) et mettre en œuvre l’API CollectPII à partir du SDK (consultez à ce sujet cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Vous devez configurer un postback CollectPII (voir cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#PIIpostback)) et mettre en oeuvre l’API CollectPII à partir du SDK (voir cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## À quelle fréquence un appel CollectPII doit-il être déclenché ?  {#collect-pii}
 

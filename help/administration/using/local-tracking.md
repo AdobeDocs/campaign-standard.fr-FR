@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ Le suivi des notifications locales peut être divisé en trois types :
 
 Pour mettre en œuvre le suivi pour Adobe Campaign Standard, l’application mobile doit inclure les SDK Mobile dans l’application. Ces SDK sont disponibles dans [!DNL Adobe Mobile Services].
 
-Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues d’Adobe Campaign et l’autre est une variable d’action qui détermine s’il s’agit d’une impression, d’un clic ou d’une ouverture.
+Pour envoyer des informations de suivi, trois variables doivent être envoyées : deux font partie des données reçues d’Adobe Campaign et l’autre est une variable d’action qui détermine s’il s’agit d’une impression, d’un clic ou d’une ouverture.
 
 | Variable | Valeur |
 | :-: | :-: |
@@ -46,11 +46,11 @@ Le SDK mobile d’Adobe Experience Platform envoie automatiquement l’événe
 
 ## Implémentation du suivi des clics {#implementing-click-tracking}
 
-Pour le suivi des clics, vous devez envoyer la valeur « 2 » pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
+Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 
 ### Pour Android {#implement-click-tracking-android}
 
-Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
+Pour effectuer le suivi des clics, deux scénarios doivent être mis en oeuvre :
 
 * L’utilisateur voit la notification, mais l’efface.
 
@@ -68,7 +68,7 @@ Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 ### Pour iOS {#implement-click-tracking-ios}
 
-Pour envoyer les informations de suivi des clics, vous devez ajouter les éléments suivants :
+Pour envoyer les informations de suivi des clics, vous devez ajouter les éléments suivants :
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -101,13 +101,13 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 
 ## Implémentation du suivi d’ouvertures {#implement-open-tracking}
 
-Vous devez envoyer « 1 » et « 2 » car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée / ouverte par le biais d’une notification locale, aucun événement de suivi ne se produit.
+Vous devez envoyer &quot;1&quot; et &quot;2&quot;, car l’utilisateur doit cliquer sur la notification pour ouvrir l’application. Si l’application n’est pas lancée / ouverte par le biais d’une notification locale, aucun événement de suivi ne se produit.
 
 ### Pour Android {#implement-open-tracking-android}
 
-Pour suivre l’ouverture, nous devons créer l’intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées, dans ce cas, en cliquant sur la notification pour ouvrir l’application.
+Pour suivre les ouvertures, nous devons créer une intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées, dans ce cas, en cliquant sur la notification pour ouvrir l’application.
 
-Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’intention est définie, vous devez renvoyer les informations de suivi à Adobe Campaign. Dans ce cas, la Vue Android ([!DNL Activity]) qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet d’intention dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des ouvertures.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Une fois l’intention définie, vous devez renvoyer les informations de suivi à Adobe Campaign. Dans ce cas, la Vue Android ([!DNL Activity]) qui a déclenché la notification sera ouverte ou mise en premier plan suite au clic de l’utilisateur. L&#39;objet d’intention dans [!DNL Activity] contient les données de notification qui peuvent être utilisées pour effectuer le suivi des ouvertures.
 
 MainActivity.java (étend [!DNL Activity])
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

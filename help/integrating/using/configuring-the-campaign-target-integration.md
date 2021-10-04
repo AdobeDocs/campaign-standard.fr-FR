@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ Les éléments suivants sont nécessaires pour cette procédure :
 * un tenant Adobe Target
 * un &quot;rawbox&quot; Adobe Target défini afin d&#39;établir la connexion avec Adobe Campaign
 
-1. Depuis le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Options]**, accessible via le logo Adobe Campaign, en haut à gauche.
+1. Dans le menu avancé, via le logo Adobe Campaign situé dans le coin supérieur gauche, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Options]**.
 1. Pour configurer les options de tenant et de serveur pour Adobe Target, renseignez les champs suivants :
 
    * **[!UICONTROL TNT_TenantName]** : nom du tenant Adobe Target. Cette valeur correspond au nom du **[!UICONTROL Client Adobe Target]**.

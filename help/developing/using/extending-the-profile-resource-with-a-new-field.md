@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1154'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Pour créer le champ **Centre d&#39;intérêts** pour les profils, vous devez d&
 
 1. Cliquez sur **[!UICONTROL Ajouter un élément]**, puis ajoutez autant de valeurs que nécessaire en ajoutant un **[!UICONTROL Libellé]** et un **[!UICONTROL Identifiant]**, puis en cliquant sur **[!UICONTROL Ajouter]**.
 
-   Nous allons créer ici les valeurs Livres, Expositions, Films et N/A pour que les profils puissent effectuer un choix entre ces options.
+   Dans cet exemple, créez les valeurs Livres, Expositions, Films et N/A pour que les profils puissent choisir entre ces options.
 
    ![](assets/schema_extension_uc11.png)
 

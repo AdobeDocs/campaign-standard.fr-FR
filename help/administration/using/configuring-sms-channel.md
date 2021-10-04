@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1678'
-ht-degree: 100%
+source-wordcount: '1676'
+ht-degree: 98%
 
 ---
 
@@ -56,9 +56,9 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
    Vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
 
-   Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
+   Les valeurs de tous les champs correspondant aux durées doivent être renseignées en secondes.
 
-1. Spécifiez les paramètres propres au SMSC si vous devez définir un mapping spécifique des encodages. Voir à ce sujet la section [Spécificités du SMSC](#smsc-specifics).
+1. Définissez les paramètres spécifiques au SMSC si vous devez définir un mapping de codage spécifique. Voir à ce sujet la section [Spécificités du SMSC](#smsc-specifics).
 
    Activez l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet (utiliser des caractères autres que des chiffres)]** si vous ne souhaitez pas respecter le protocole SMPP et transférer le préfixe **[!UICONTROL +]** sur le serveur du fournisseur SMS (SMS-C).
 

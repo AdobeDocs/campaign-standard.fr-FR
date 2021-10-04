@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '672'
+ht-degree: 87%
 
 ---
 
 # Gestion des messages transactionnels {#managing-transactional-messages}
 
-## À propos des messages transactionnels
-
 Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site web.
 
 >[!NOTE]
 >
->La configuration d&#39;un événement est présentée dans [cette section](../../channels/using/configuring-transactional-event.md).
+>La configuration des événements est présentée dans [cette section](../../channels/using/configuring-transactional-event.md).
 
-Par exemple, vous souhaitez qu’un événement de type « Abandon de panier » soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur web de votre site doit se servir de l’API REST des messages transactionnels.
+Par exemple, vous souhaitez qu’un événement de type « Abandon de panier » soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, en tant que développeur web, vous devez utiliser l’API REST des messages transactionnels.
 
-1. Il exécute une requête selon la méthode POST, qui déclenche l’[envoi de l’événement transactionnel](#sending-a-transactional-event).
-1. La réponse à la requête POST contient une clé primaire, qui permet au développeur d’exécuter une ou plusieurs requêtes par le biais d’une requête GET. De cette façon, il peut obtenir le [statut de l’événement](#transactional-event-status).
+1. Envoyez une demande selon la méthode du POST, qui déclenche l’envoi de l’événement transactionnel [.](#sending-a-transactional-event)
+1. La réponse à la requête du POST contient une clé Principal, qui vous permet d’envoyer une ou plusieurs requêtes par le biais d’une requête de GET. Vous pouvez ensuite obtenir le [statut de l’événement](#transactional-event-status).
 
 ## Envoi d’un événement transactionnel {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API)
+   Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API.
 
 * **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement (voir [cette section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

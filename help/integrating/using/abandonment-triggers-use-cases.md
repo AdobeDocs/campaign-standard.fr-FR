@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Maintenant que nous avons créé un déclencheur Experience Cloud, nous allons l
 
 Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans Experience Cloud.
 
-1. Pour créer le déclencheur dans Adobe , cliquez sur le logo **Adobe Campaign**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Triggers Experience Cloud]**.
+1. Pour créer le déclencheur dans Adobe Campaign, cliquez sur le logo **Adobe** , en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Triggers Experience Cloud]**.
 
    ![](assets/remarketing_1.png)
 
@@ -101,7 +101,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Il clique sur un lien qui ouvre une page de votre site Web. Dans cet exemple, la bannière dirige le destinataire vers la page d&#39;accueil du site Web de réservation de voyages.
+1. Le destinataire clique sur un lien qui l’amène sur votre site web. Dans cet exemple, la bannière dirige le destinataire vers la page d&#39;accueil du site Web de réservation de voyages.
 
    ![](assets/trigger_uc_browse_11.png)
 

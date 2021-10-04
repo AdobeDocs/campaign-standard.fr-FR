@@ -4,10 +4,10 @@ description: Les modèles d'import permettent de réduire les paramètres néces
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,7 @@ Ces modèles par défaut sont en lecture seule et ne sont pas visibles par les u
 
 1. Accédez à l&#39;onglet **[!UICONTROL Workflow]**. Vous pouvez ici enrichir le workflow proposé par défaut en y ajoutant de nouvelles activités, selon vos besoins.
 
-   Pour plus d&#39;informations sur la configuration des activités de workflow, reportez-vous au cas d&#39;utilisation de la section suivante : [Exemple : modèle de workflow d&#39;import](../../automating/using/creating-import-workflow-templates.md). Ce cas d&#39;utilisation vous aidera à configurer un workflow réutilisable pour importer des profils provenant d&#39;un CRM dans la base de données Adobe Campaign.
+   Pour plus d&#39;informations sur la configuration des activités de workflow, reportez-vous au cas d&#39;utilisation de la section suivante : [Exemple : modèle de workflow d&#39;import](../../automating/using/creating-import-workflow-templates.md). Ce cas pratique vous aide à configurer un workflow qui peut être réutilisé pour importer des profils en provenance d&#39;un CRM dans la base de données Adobe Campaign.
 
 1. Enregistrez votre modèle pour que le paramétrage du workflow soit correctement pris en compte.
 1. Chargez un fichier d&#39;exemple depuis l&#39;onglet **[!UICONTROL Propriétés]**. Le fichier chargé peut contenir uniquement les colonnes nécessaires aux futurs imports ou des données d&#39;exemple. La présence de données dans le fichier d&#39;exemple permet de tester l&#39;import simplifié une fois le workflow défini.

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 92%
 
 ---
 
@@ -93,9 +93,9 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
 
    >[!NOTE]
    >
-   >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d’octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
+   >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
-1. **Créer un ticket** - Une fois le sous-domaine configuré, Adobe devra le configurer dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
+1. **Créer un ticket**  : une fois le sous-domaine configuré, Adobe le configure dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
    * Objet : configuration de la nouvelle marque ACS
 
@@ -145,13 +145,13 @@ Votre modèle est lié à la marque. Dans l&#39;éditeur d&#39;email, les élém
 
 Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
 
-#### Configurer une nouvelle marque           {#configure-a-new-brand}
+#### Étape 1 : Configurer une nouvelle marque {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >La configuration des marques n&#39;est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
 
-1. L&#39;administrateur Adobe Campaign crée la marque dans **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage des marques]**. il ajoute l&#39;élément **Voyages sous les tropiques** et configure l&#39;**[!UICONTROL identité]** et les **[!UICONTROL paramètres d&#39;en-tête des emails envoyés]** de la marque.
+1. L&#39;administrateur d&#39;Adobe Campaign crée d&#39;abord la marque à partir du menu **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage de la marque]**, puis ajoute l&#39;élément **Voyages sous les tropiques** et configure l&#39;**[!UICONTROL ID]** et les **[!UICONTROL paramètres d&#39;en-tête des emails envoyés]** de la marque.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Mettre en œuvre une nouvelle marque           {#implement-a-new-brand}
+#### Étape 2 : Mettre en oeuvre une nouvelle marque {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -182,7 +182,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Utiliser la nouvelle marque dans une diffusion           {#use-the-new-brand-in-a-delivery}
+#### Étape 3 : Utiliser la nouvelle marque dans une diffusion {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 

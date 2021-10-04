@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2695'
 ht-degree: 99%
 
 ---
@@ -235,7 +235,7 @@ Chaque fois que vous cherchez de l&#39;aide sur une question de SMS, que ce soit
 
 ### Capture réseau {#network-capture}
 
-Une capture réseau n&#39;est pas toujours nécessaire, en général les messages SMPP en mode verbeux sont suffisants. Voici quelques directives qui vous aideront à déterminer si une capture réseau est nécessaire :
+Une capture réseau n&#39;est pas toujours nécessaire, en général les messages SMPP en mode verbeux sont suffisants. Voici quelques instructions qui vous aident à déterminer si une capture réseau est nécessaire :
 
 * Problèmes de connexion, mais les messages en mode verbose n&#39;affichent aucun `BIND_RESP PDU`.
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Visible sur chaque écran, la barre supérieure vous permet de naviguer entre le
 
 Les principes de navigation sont les suivants :
 
-* Le logo **Adobe**, situé dans le coin supérieur gauche de la page, vous donne accès aux configurations et fonctionnalités avancées. Les menus dépendent de votre profil et de vos autorisations.
+* Le logo **Adobe** situé dans le coin supérieur gauche de la page vous donne accès aux fonctionnalités avancées et aux configurations. Les menus dépendent de votre profil et de vos autorisations.
 
    Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
@@ -82,7 +82,7 @@ Trois onglets vous aident à trouver de l’aide :
 
 ## Le menu avancé {#advanced-menu}
 
-Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaign**, en haut à gauche de chacun des écrans. Il peut varier en fonction de votre contrat et des permissions utilisateur.
+Le menu avancé s’affiche en cliquant sur l’icône **Adobe Campaign**, dans le coin supérieur gauche de chaque écran. Il peut varier en fonction de votre contrat et des permissions utilisateur.
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7597'
-ht-degree: 100%
+source-wordcount: '7596'
+ht-degree: 99%
 
 ---
 
@@ -454,7 +454,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
    Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/using-reusable-content.md#content-templates).
 
-* Notre nouvelle expérience d’intégration vous permet de commencer à créer plus rapidement des emails et facilite l’accès à la documentation et aux tutoriels.
+* Notre nouvelle expérience d’intégration vous permet de commencer plus rapidement la création d’emails et d’accéder plus facilement à la documentation et aux tutoriels.
 
    Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 

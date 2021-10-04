@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 100%
+source-wordcount: '1086'
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile_createelement.png)
 
-1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s&#39;agir de l&#39;email du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, nous utiliserons le champ &quot;Email (cusEmail)&quot;.
+1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s&#39;agir de l&#39;email du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ &quot;Email (cusEmail)&quot;.
 
 1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp. Il peut s&#39;agir de l&#39;email du profil ou d&#39;un champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ &quot;Email (email)&quot; pour l&#39;associer au champ &quot;Email (cusEmail)&quot; de la table appSubscriptionRcp.
 

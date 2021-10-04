@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1147'
+ht-degree: 98%
 
 ---
 
@@ -220,7 +220,7 @@ Pour comprendre les aspects d’une payload Android, consultez la section [Conce
 
 ### Comment récupérer les informations de payload dans le code d’application mobile {#payload-information}
 
-Les informations de payload envoyées par le serveur de l’application sont reçues par le code de l’application mobile dans un gestionnaire d’événement qui indique qu’une notification push a été reçue. Cet événement varie selon la plateforme mobile sur laquelle l’application est en cours d’exécution et selon que l’application est exécutée au premier plan ou en arrière-plan. La documentation suivante vous aidera à identifier le gestionnaire d’événement que vous souhaitez gérer en fonction de votre cas d&#39;utilisation.
+Les informations de payload envoyées par le serveur de l’application sont reçues par le code de l’application mobile dans un gestionnaire d’événement qui indique qu’une notification push a été reçue. Cet événement varie selon la plateforme mobile sur laquelle l’application est en cours d’exécution et selon que l’application est exécutée au premier plan ou en arrière-plan. La documentation suivante vous aide à identifier le gestionnaire d’événements que vous souhaitez gérer en fonction de votre cas d’utilisation.
 
 * Applications iOS : **Gestion des notifications à distance** dans [Notifications à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Applications Android : [Réception de messages sur une application client Android](https://firebase.google.com/docs/cloud-messaging/android/receive)
