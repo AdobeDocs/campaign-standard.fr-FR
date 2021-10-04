@@ -4,9 +4,9 @@ description: En savoir plus sur la gestion de la confidentialité avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
@@ -27,4 +27,4 @@ Le point d’entrée de l’API de confidentialité est **/privacy/privacyTool**
 
 Le droit d’opposition du CCPA est géré à l’aide de l’attribut de profil **ccpaOptOut**.
 
-Pour plus d’informations sur Adobe Campaign Standard et la conformité en matière de confidentialité, reportez-vous à la [documentation dédiée](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html).
+Pour plus d’informations sur Adobe Campaign Standard et la conformité en matière de confidentialité, reportez-vous à la [documentation dédiée](../../start/using/privacy-requests.md).
