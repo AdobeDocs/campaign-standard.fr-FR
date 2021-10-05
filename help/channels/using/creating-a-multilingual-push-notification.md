@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 1. Dans la fenêtre **[!UICONTROL Gérez les variantes de contenu]**, déposez votre fichier ou sélectionnez un fichier sur votre ordinateur.
 
-   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l&#39;option **[!UICONTROL Télécharger le fichier d&#39;exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d&#39;informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [technote](https://helpx.adobe.com/fr/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l&#39;option **[!UICONTROL Télécharger le fichier d&#39;exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d&#39;informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [page](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ Vous pouvez maintenant mesurer l&#39;impact de la diffusion de votre notificatio
 
 * [Rapport des notifications push](../../reporting/using/push-notification-report.md)
 * [Envoi d&#39;une notification push dans un workflow](../../automating/using/push-notification-delivery.md)
-* [Atteindre des audiences multilingues à l&#39;aide d&#39;un seul workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

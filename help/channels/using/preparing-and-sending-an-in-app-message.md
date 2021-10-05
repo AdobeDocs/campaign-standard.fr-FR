@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1246'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
    * **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]**
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**
 
-1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]** Notez que si vous n&#39;avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n&#39;apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]** Notez que si vous n&#39;avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n&#39;apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    * **[!UICONTROL Evénements d&#39;application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d&#39;informations sur la création d&#39;événements, consultez cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+      Pour plus d&#39;informations sur la création d&#39;événements, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d&#39;usine pris en charge par le SDK Adobe Mobile.
 
@@ -86,7 +86,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    * **[!UICONTROL Places]** : les trois catégories suivantes tirent parti de données de localisation en temps réel de façon à diffuser des expériences mobiles pertinentes : données contextuelles de Places, métadonnées personnalisées de Places ou type d&#39;événement Places.
 
-      Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://placesdocs.com/).
+      Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://experienceleague.adobe.com/docs/places/using/home.html).
    ![](assets/inapp_creating_4.png)
 
 1. Si vous utilisez un **[!UICONTROL événement Analytics]**, les événements Adobe Analytics et Etat d&#39;affichage seront automatiquement renseignés en fonction des suites de rapports configurées dans l&#39;extension Analytics dans Adobe Experience Platform Launch. Les événements Données de contexte, quant à eux, devront être ajoutés manuellement.
@@ -103,7 +103,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    ![](assets/inapp_creating_5.png)
 
-1. Modifiez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d&#39;un message in-app](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/communication-channels/in-app-messaging/customizing-an-in-app-message.html).
+1. Modifiez le contenu de votre message et définissez les options avancées. Voir [Personnalisation d&#39;un message in-app](../../channels/using/customizing-an-in-app-message.md).
 
    ![](assets/inapp_creating_6.png)
 

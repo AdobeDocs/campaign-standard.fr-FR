@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,3 @@ L&#39;audience est composée de profils dont la préférence linguistique a ét�
 1. Planifiez l&#39;envoi à l&#39;aide de l&#39;option **[!UICONTROL Envoi après confirmation]**.
 1. Une fois l&#39;email envoyé, vous pouvez accéder à ses logs et rapports pour mesurer le succès de votre campagne. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/about-dynamic-reports.md).
 
-**Rubrique connexe :**
-
-* [Atteindre des audiences multilingues à l&#39;aide d&#39;un seul workflow](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

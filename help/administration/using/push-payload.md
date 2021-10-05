@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 98%
 
 ---
@@ -216,7 +216,7 @@ Pour comprendre les aspects d’une payload Android, consultez la section [Conce
 | Contenu mutable <br> (Applicable uniquement pour iOS 10 ou version ultérieure) | mutable-content | NA | L’extension du service de notification dans votre application « intercepte » toutes les notifications distantes avec la clé de contenu mutable et vous permet de gérer/manipuler le contenu de la payload de requête, qui peut ensuite être utilisée pour personnaliser la notification. Cette fonctionnalité permet notamment de télécharger et d’afficher plusieurs médias, de décrypter toutes les données cryptées présentes dans la payload push. Vous trouverez plus d’informations dans [Modification de la payload d’une notification à distance](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Uniquement applicable pour iOS 10 ou version ultérieure) |
 | Contenu disponible | content-available | NA | La sélection de cette option permet de réactiver une application iOS lorsqu’elle est en arrière-plan/suspendue. La réactivation implique que l’application s’exécute en arrière-plan et que le gestionnaire d’événement approprié responsable de la réception de la payload des données de notification push obtient un contrôle et peut utiliser les données pour effectuer n’importe quel calcul, y compris, mais sans s’y limiter, la création d’une notification push personnalisée et l’affichage de cette dernière. Pour plus d’informations, reportez-vous à la section [Mise en éveil d’une application avec la diffusion d&#39;une notification](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL de contenu multimédia (fichiers image)<br>(Applicable uniquement pour Android) | NA | media-attachement-url | URL de vos fichiers image pour ajouter du contenu enrichi à votre notification. |
-| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de broadlogId et deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où l’utilisateur a cliqué sur/ouvert la notification push. Ces informations sont calculées et envoyées en interne par le serveur applicatif, sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Valeurs de broadlogId et deliveryId.<br>Ces attributs sont requis si votre application souhaite appeler un postback de suivi pour effectuer le suivi du moment où l’utilisateur a cliqué sur/ouvert la notification push. Ces informations sont calculées et envoyées en interne par le serveur applicatif, sans intervention de l’utilisateur.<br>Vous trouverez des informations sur les postbacks sur cette [page](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Comment récupérer les informations de payload dans le code d’application mobile {#payload-information}
 
