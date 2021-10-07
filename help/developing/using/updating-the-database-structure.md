@@ -10,9 +10,9 @@ role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
    >[!NOTE]
    >
-   >Comme les index en double entraînent l’échec de la publication, l’étape de préparation vérifie si l’index défini pour la ressource existe déjà avec le même nom pour une autre ressource. Si cela se produit, un message d&#39;erreur s&#39;affiche, vous demandant de renommer l&#39;index. Voir [Définition des index](configuring-the-resource-s-data-structure.md#defining-indexes).
+   >Comme les index en double entraînent l&#39;échec de la publication, l&#39;étape de préparation vérifie si l&#39;index défini pour la ressource existe déjà avec le même nom pour une autre ressource. Si c’est le cas, un message d&#39;erreur s&#39;affiche, vous demandant de renommer l&#39;index. Voir [Définition des index](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Une fois l&#39;analyse effectuée, cliquez sur le bouton **[!UICONTROL Publier]** pour appliquer vos nouvelles configurations.
 1. Une fois la publication effectuée, le volet **[!UICONTROL Résumé]** de chaque ressource indique que le statut est désormais **[!UICONTROL Publié]** et précise la date de la dernière publication.
