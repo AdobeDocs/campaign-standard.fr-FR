@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -89,28 +89,28 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 
 | Action | Raccourci |
 | --- | --- |
-| Parcourir les différents éléments de l’interface utilisateur | Onglet |
-| Activer l’élément sélectionné | Entrée ou Barre d’espacement |
+| Parcourir les différents éléments de l’interface utilisateur | Tabulation |
+| Activer l’élément sélectionné | Entrée ou Barre d&#39;espacement |
 
 ### Concepteur d&#39;email {#email-designer-shortcuts}
 
-| Action | Raccourci Windows | raccourci macOS |
+| Action | Raccourci Windows | Raccourci macOS |
 | --- | --- | --- |
-| Annuler | Ctrl + Z | Commande + Z |
-| Rétablir | Ctrl + Y | Maj + Commande + Z |
+| Annuler | Ctrl + Z | Commande + Z |
+| Rétablir | Ctrl + Y | Maj + Commande + Z |
 
 ### Rapports dynamiques {#report-shortcuts}
 
-| Action | Raccourci Windows | raccourci macOS |
+| Action | Raccourci Windows | Raccourci macOS |
 | --- | --- | --- |
-| Ouverture d’un projet | Ctrl + O | Commande + O |
-| Enregistrer | Ctrl + S | Commande + S |
-| Enregistrer sous | Maj + Ctrl + S | Maj + Commande + S |
+| Ouvrir un projet | Ctrl + O | Commande + O |
+| Enregistrer | Ctrl + S | Commande + S |
+| Enregistrer sous | Maj + Ctrl + S | Maj + Commande + S |
 | Actualiser le projet | Alt + R | Commande + R |
-| Télécharger le fichier CSV | Maj + Ctrl + V | Maj + Commande + V |
+| Télécharger le fichier CSV | Maj + Ctrl + V | Maj + Commande + V |
 | Imprimer | Alt + P | Commande + P |
-| Annuler | Ctrl + Z | Commande + Z |
-| Rétablir | Ctrl + Y | Maj + Commande + Z |
+| Annuler | Ctrl + Z | Commande + Z |
+| Rétablir | Ctrl + Y | Maj + Commande + Z |
 | Nouveau panneau vierge | Alt + B | Option + B |
 | Nouvelle forme libre | Alt + A | Option + A |
 | Nouveau tableau à structure libre | Alt + 1 | Option + 1 |
@@ -118,7 +118,7 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 | Nouvelle barre | Alt + 3 | Option + 3 |
 | Envoyer le rapport maintenant | Alt + S | Option + S |
 | Envoyer le rapport d’après le planning | Maj + Alt + S | Maj + Option + S |
-| Rapports différés | Maj + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
+| Rapports différés | Maj+ Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Autres lectures {#further-reading}
 
