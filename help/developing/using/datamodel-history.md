@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
 ht-degree: 100%
 
@@ -88,13 +88,13 @@ ht-degree: 100%
                <tr>
                   <td>countBroadLogEvents</td>
                   <td>CountBroadLogEvents</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countSubHistoEvents</td>
                   <td>CountSubHistoEvents</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -322,7 +322,7 @@ ht-degree: 100%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -407,11 +407,11 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>entier</td>
+<td>integer</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>entier</td>
+<td>integer</td>
 </tr>
 <tr>
 <td>endDay</td>
