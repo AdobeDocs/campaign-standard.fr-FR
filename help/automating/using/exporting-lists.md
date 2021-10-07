@@ -11,7 +11,7 @@ exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Elle est présente dans tous les écrans disposant d&#39;une vue en mode **Liste
 
    Une popup de confirmation s&#39;affiche. Une fois que vous avez confirmé l&#39;export, le fichier est automatiquement téléchargé sur votre poste.
 
-Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : le nom profileBase_20150426_120253.txt sera appliqué à une exportation de profils effectuée le 26 avril 2015 à 12:02:53. Il est encodé au format UTF-8.
+Le fichier est généré au format CSV avec une extension .TXT. Il est nommé selon la ressource exportée et la date de l&#39;export. Par exemple : profileBase_20150426_120253.txt pour un export de profils réalisé le 26 avril 2015 à 12:02:53. Il est encodé au format UTF-8.
 
 Les valeurs numériques et les dates tiennent compte de la locale de l&#39;utilisateur qui exécute l&#39;export. Par exemple : JJ-MM-YYYY ou MM-JJ-YYYY.
 

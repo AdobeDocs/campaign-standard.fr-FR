@@ -49,7 +49,7 @@ Certaines configurations spécifiques peuvent être paramétrées pour définir 
 * [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport des notifications push](../../reporting/using/push-notification-report.md)
-* [Guide Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Conditions préalables requises {#prerequisites}
 

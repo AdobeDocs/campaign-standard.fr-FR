@@ -85,7 +85,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Vous pouvez maintenant exécuter le workflow.
 
-## Cas pratique : chiffrage et export de données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
+## Cas pratique : chiffrement et export de données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas pratique, créez un workflow pour chiffrer et exporter des données à l’aide d’une clé installée sur Panneau de Contrôle.
 

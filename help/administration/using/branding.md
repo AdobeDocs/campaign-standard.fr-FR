@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ---
 
-# Marques{#branding}
+# Branding{#branding}
 
 ## À propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 
@@ -151,7 +151,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 >
 >La configuration des marques n&#39;est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
 
-1. L&#39;administrateur d&#39;Adobe Campaign crée d&#39;abord la marque à partir du menu **[!UICONTROL Administration > Paramétrage de l&#39;instance > Paramétrage de la marque]**, puis ajoute l&#39;élément **Voyages sous les tropiques** et configure l&#39;**[!UICONTROL ID]** et les **[!UICONTROL paramètres d&#39;en-tête des emails envoyés]** de la marque.
+1. The Adobe Campaign administrator first creates the brand from the **[!UICONTROL Administration > Instance settings > Brand configuration]** menu, and adds the **Vacations in the Tropics** element, and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
 
    ![](assets/branding_07.png)
 
@@ -182,7 +182,7 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Étape 3 : Utiliser la nouvelle marque dans une diffusion {#use-the-new-brand-in-a-delivery}
+#### Step 3: Use the new brand in a delivery {#use-the-new-brand-in-a-delivery}
 
 Pour créer un email lié à une marque, procédez comme suit :
 

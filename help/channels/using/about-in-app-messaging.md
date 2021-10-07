@@ -39,7 +39,7 @@ Pour commencer à envoyer des messages In-App sur des applications mobiles en ut
 
 * [Rapport In-App](../../reporting/using/in-app-report.md)
 * [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
-* [Guide Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Gestion des champs de profil mobile avec des données personnelles et sensibles          {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

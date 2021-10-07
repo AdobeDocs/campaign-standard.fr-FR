@@ -40,7 +40,7 @@ Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 * [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 * [Configuration des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Rapport SMS](../../reporting/using/sms-report.md)
-* [Guide Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Modèle de diffusion SMS {#sms-delivery-template}
 

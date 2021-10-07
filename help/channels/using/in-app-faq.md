@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Puisque les messages In-App sont extraits par le SDK de Campaign, nous voulons f
 * Les clients marquent les champs de profil mobile (table appSubscriberRcp) comme étant Personnels et sensibles s’ils veulent s’assurer que ces informations spécifiques soient diffusées en toute sécurité.
 * Les champs marqués comme tels ne peuvent être utilisés que dans le modèle Profil (et non dans le modèle appSubscriber ou le modèle Broadcast) qui comporte un mécanisme de sécurité supplémentaire intégré.
 * Les messages créés à l’aide d’un modèle Profil ne peuvent être diffusés que lorsque l’utilisateur s’est connecté à l’application.
-* Pour faciliter cette authentification sécurisée, les développeurs d’applications mobiles doivent transmettre des détails d’authentification supplémentaires à l’aide de l’API setLinkageField. Notez que les champs de liaison sont ceux qui sont identifiés comme le lien entre le Profil mobile et le Profil CRM lors de l&#39;extension de la table appSubscriberRcp.
+* Afin de faciliter cette authentification sécurisée, les développeurs d&#39;applications mobiles doivent transmettre des détails d&#39;authentification supplémentaires à l&#39;aide de l&#39;API setLinkageField. Notez que les champs de liaison sont ceux qui sont identifiés comme le lien entre le Profil mobile et le Profil CRM lors de l&#39;extension de la table appSubscriberRcp.
 * Ils doivent vider les messages In-App stockés sur l’appareil et resetLinkagefields lorsque l’utilisateur se déconnecte de l’application à l’aide de resetLinkageField. Ainsi, si un autre utilisateur se connecte à l’application, il ne voit pas les messages destinés à l’utilisateur précédent.
 * Reportez-vous aux [API SDK Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) pour mettre en œuvre ce mécanisme de sécurité côté client.
 

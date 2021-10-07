@@ -11,7 +11,7 @@ exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -142,4 +142,4 @@ Dans la réponse, le champ &quot;status&quot; vous permet de savoir si l’évé
 * **deliveryFailed** : une erreur de diffusion s’est produite pendant le traitement de l’événement.
 * **routageFailed** : la phase de routage a échoué ; cette situation peut se produire, par exemple, lorsque le type d’événement spécifié est introuvable.
 * **tooOld** : l’événement a expiré avant d’être traité ; cette situation peut se produire pour diverses raisons, par exemple lorsqu’un envoi échoue à plusieurs reprises (l’événement n’est plus à jour) ou lorsque le serveur ne peut plus traiter les événements après une surcharge.
-* **targetingFailed** : Campaign Standard n’a pas pu enrichir un lien utilisé pour le ciblage des messages.
+* **targetingFailed** : Campaign Standard n&#39;a pas pu enrichir un lien utilisé pour le ciblage des messages.

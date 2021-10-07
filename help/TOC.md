@@ -21,8 +21,8 @@ ht-degree: 99%
    + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2021](rn/using/release-notes-2021.md)
-      + [Notes de mise à jour     2020](rn/using/release-notes-2020.md)
-      + [Notes de mise à jour     2019](rn/using/release-notes-2019.md)
+      + [Notes de mise à jour      2020](rn/using/release-notes-2020.md)
+      + [Notes de mise à jour      2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
