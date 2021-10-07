@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '444'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Connectez-vous à votre instance Adobe Experience Manager de création et parc
 
 >[!VIDEO](https://video.tv.adobe.com/v/29996)
 
-## Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager {#creating-email-content-aem}
+## Création d&#39;un contenu d&#39;email dans Adobe Experience Manager {#creating-email-content-aem}
 
 Plusieurs modèles spécifiques à Adobe Campaign sont disponibles. Vous devez utiliser l’un de ces modèles car ils contiennent des composants prédéfinis pris en charge par Adobe Campaign.
 
