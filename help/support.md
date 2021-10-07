@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -127,4 +127,4 @@ La création d’un ticket vous permet de contacter l’équipe du Service clien
 
 Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
