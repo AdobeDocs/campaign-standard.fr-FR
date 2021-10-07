@@ -1,14 +1,14 @@
 ---
-title: À propos des inscriptions
+title: À propos des abonnements
 description: Découvrez les services et les abonnements dans Campaign Standard.
 feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Les abonnements peuvent également être gérés à l&#39;aide de l&#39;API Adob
 
 Pour créer un mécanisme d’abonnement, procédez comme suit :
 
-1. **Créer un service**  : suivez les étapes décrites  [dans cette ](../../audiences/using/creating-a-service.md) section pour créer un service d’abonnement.
+1. **Créer un service** : suivez les étapes décrites [dans cette section](../../audiences/using/creating-a-service.md) pour créer un service d&#39;abonnement.
 1. **Partager le lien** : apprenez à promouvoir et à partager votre service [dans cette page](../../audiences/using/promoting-a-service.md).
 1. **Surveiller les abonnements** : découvrez plusieurs façons de surveiller les abonnements à votre service [dans cette section](../../audiences/using/monitoring-subscriptions.md).
 1. **Confirmer les abonnements** : suivez [ce tutoriel](../../audiences/using/confirming-subscription-to-a-service.md) pour envoyer un message de confirmation d&#39;abonnement.
