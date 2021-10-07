@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 **Rubriques connexes :**
 
 * [Cas pratique : diffusions conjointes d’emails et de courriers](../../automating/using/coupling-email-direct-mail.md)
-* [À propos du canal Ccourrier](../../channels/using/about-direct-mail.md)
+* [À propos du canal Courrier](../../channels/using/about-direct-mail.md)
 
 ## Configuration {#configuration}
 
