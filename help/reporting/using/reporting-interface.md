@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -147,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
