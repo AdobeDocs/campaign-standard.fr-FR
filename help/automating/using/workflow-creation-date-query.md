@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Vous devez obtenir :
 
 Cliquez sur **[!UICONTROL Confirmer]**.
 
-### Récupérer les profils créés le même mois que le mois d’exécution{#retrieving-profiles-created-on-the-same-month}
+### Récupération des profils créés le même mois que le mois d’exécution{#retrieving-profiles-created-on-the-same-month}
 
 1. Dans l&#39;éditeur de **[!UICONTROL requêtes]**, sélectionnez la première requête et dupliquez-la.
 1. Ouvrez le duplicata.
