@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Le comportement du point d’entrée /customResources est identique à celui du 
 
 Les ressources personnalisées exposées dans cette API sont les suivantes :
 
-* toutes les entités qui ne sont pas exposées sous /profileAndServicesExt ;
+* toutes les entités qui ne sont pas exposées sous /profileAndServicesExt
 * toutes les entités non liées au profil et, pour ces entités, leurs enfants et petits-enfants.
 * par défaut, toutes les entités qui ne sont liées à rien, ainsi que leurs enfants et petits-enfants.
 
