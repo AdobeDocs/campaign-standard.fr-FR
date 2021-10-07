@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Envoi des messages au fuseau horaire du destinataire{#sending-messages-at-the-recipient-s-time-zone}
 
-Lors de la gestion d&#39;une opération dans laquelle la date et l&#39;heure sont importantes, vous pouvez planifier une diffusion tenant compte de l&#39;heure locale de chaque destinataire : ils recevront des emails, des SMS ou des notifications push au moment programmé, dans leur propre fuseau horaire.
+Lorsque vous gérez une campagne dans laquelle la date et l&#39;heure sont importantes, vous pouvez planifier une diffusion tenant compte de l&#39;heure locale de chaque destinataire : celui-ci recevra un email, un SMS ou des notifications push au moment programmé, dans son propre fuseau horaire.
 
 >[!NOTE]
 >
