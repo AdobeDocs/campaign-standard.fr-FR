@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '917'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Pour créer une diffusion SMS :
 1. Saisissez les propriétés SMS et cliquez sur **[!UICONTROL Suivant]**.
 1. Editez et enregistrez votre contenu.
 
-Une fois vos diffusions créées et éditées, votre workflow est prêt à être démarré.
+Une fois vos diffusions créées et modifiées, votre workflow est prêt à être démarré.
 
 ![](assets/wkf_segment_deliveries.png)
 
