@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
 ht-degree: 100%
 
@@ -257,7 +257,7 @@ Par usage (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>BAT</td>
+        <td>proof</td>
         <td>boolean</td>
         </tr>
     </table>
