@@ -9,9 +9,9 @@ role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Avec les [modèles d’import](../../automating/using/importing-data-with-import
 
 L’[export de logs](../../automating/using/exporting-logs.md) permet d’exporter les données contenues dans les logs à l’aide d’un workflow simple. Vous pouvez ainsi analyser les résultats de vos campagnes marketing dans vos propres outils de reporting ou de BI.
 
-Utilisez les [packages](../../automating/using/managing-packages.md) pour échanger des ressources entre différentes instances de campagne, par exemple pour répliquer la configuration d’une instance ou pour transférer des données d’un serveur vers un autre, y compris des ressources personnalisées.
+Utilisez les [packages](../../automating/using/managing-packages.md) pour échanger des ressources entre différentes instances de Campaign, par exemple pour répliquer la configuration d&#39;une instance ou pour transférer des données d&#39;un serveur à un autre, y compris des ressources personnalisées.
 
 Enfin, l’[export de listes](../../automating/using/exporting-lists.md) permet d’exporter des listes issues de Campaign Standard, par exemple la liste des profils de test, la liste des adresses email mises en quarantaine, etc.
 
