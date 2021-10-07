@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
 ht-degree: 100%
 
@@ -141,7 +141,7 @@ ht-degree: 100%
     <tr>
         <td>recipientId</td>
         <td>Profile ID</td>
-        <td>entier </td>
+        <td>integer </td>
         <td> </td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@ ht-degree: 100%
     <tr>
         <td>referrerId</td>
         <td>Referrer ID</td>
-        <td>entier </td>
+        <td>integer </td>
         <td> </td>
     </tr>
     <tr>
@@ -176,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Libellé</td>
+        <td>Label</td>
         <td>string (255)</td>
         <td> </td>
     </tr>
