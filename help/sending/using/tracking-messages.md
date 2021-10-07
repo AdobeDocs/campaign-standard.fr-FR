@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ Pour plus d’informations sur l’insertion de liens de tracking, consultez [ce
 
 Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Pour plus d&#39;informations, consultez la section, consultez cette [page](../../reporting/using/tracking-indicators.md).
 
-## URL trackées {#tracked-urls}
+## Tracked URLs {#tracked-urls}
 
 L&#39;onglet **[!UICONTROL URL trackées]** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
 
