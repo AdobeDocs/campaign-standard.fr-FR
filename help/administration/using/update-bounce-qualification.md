@@ -7,9 +7,9 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ En fonction du calendrier de l’incident, voici les instructions recommandées 
 Pour les instances Campaign contenant des informations de réponse de retour SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
 * **Texte d’erreur (texte de la quarantaine)** contenant « 550-5.1.1 Le compte de messagerie que vous avez tenté d’atteindre n’existe pas » ET **Texte d’erreur (texte de la quarantaine)** contenant « support.google.com » **
-* **Mise à jour de l’état (@lastModified)**  le ou après 12/14/2020 6:55:h
-* **Mise à jour de l’état (@lastModified)** le ou avant 12/16/2020 6:00:h
+* **Mise à jour du statut (@lastModified)** le ou après le 14/12/2020 à 6:55:00
+* **État de la mise à jour (@lastModified)** le ou avant le 16/12/2020 6:00:00
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de nettoyage de la base de données ****, soit simplement les supprimer de la table.
 
