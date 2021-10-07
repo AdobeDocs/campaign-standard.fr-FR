@@ -10,9 +10,9 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2216'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -116,11 +116,11 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
 
-Si le point de terminaison le requiert, deux types de méthode d’authentification sont disponibles :
+Si le point d&#39;entrée l&#39;exige, deux types de mécanismes d&#39;authentification sont disponibles :
 
-* Authentification de base : saisissez vos informations de nom d’utilisateur/mot de passe dans la section **[!UICONTROL En-tête(s) de demande]** .
+* Authentification de base : entrez votre nom d’utilisateur / mot de passe dans la section **[!UICONTROL En-tête(s) de demande]**.
 
-* Authentification OAuth : En cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l’authentification OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
+* Authentification OAuth : en cliquant sur **[!UICONTROL Utiliser les paramètres de connexion définis dans un compte externe]** dans un compte externe, vous pouvez sélectionner un compte externe où l’ Authentication OAuth est définie. Pour plus d’informations, consultez la section [Comptes externes](../../administration/using/external-accounts.md).
 
 ![](assets/externalAPI-execution.png)
 
