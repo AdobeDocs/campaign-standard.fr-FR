@@ -10,13 +10,13 @@ role: Data Architect
 level: Intermediate
 exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
 ---
 
-# Diffusions conjointes d&#39;e-mails et de courriers {#coupling-email-direct-mail}
+# Diffusions conjointes d&#39;emails et de courriers {#coupling-email-direct-mail}
 
 En tant que marketeur, vous souhaitez envoyer un catalogue papier par courrier. Celui-ci contient des remises de 10 % sur certaines pages qui sont associées à un code de promotion et un lien pour acheter le produit sur le site Web.
 
@@ -33,4 +33,4 @@ Voici un exemple de workflow qui mélange les canaux Courrier et Email.
 **Rubriques connexes :**
 
 * [Activité de diffusion courrier](../../automating/using/direct-mail-delivery.md)
-* [À propos du canal Ccourrier](../../channels/using/about-direct-mail.md)
+* [À propos du canal Courrier](../../channels/using/about-direct-mail.md)
