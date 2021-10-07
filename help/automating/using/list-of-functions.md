@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1972'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -220,7 +220,7 @@ Les fonctions de date sont utilisées pour manipuler des valeurs de date ou d&#3
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Convertit une chaîne en date + fuseau horaire.<br /> Exemple : ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asie/Téhéran")<br /> </td> 
+   <td> Convertit une chaîne en date + fuseau horaire.<br /> Exemple : ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
