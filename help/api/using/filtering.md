@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -133,8 +133,8 @@ Il est possible de combiner plusieurs filtres dans une seule requête :
    }
    ```
 
-* Exemple de requête de GET pour récupérer les ressources &quot;profile&quot; contenant &quot;Doe&quot; dans
-les champs email ou nom (le filtre byText recherche à la fois les champs email et nom).
+* Exemple de requête GET pour récupérer les ressources &quot;profile&quot; contenant &quot;Doe&quot; dans
+les champs email ou nom (le filtre byText effectue une recherche dans les champs email et nom).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
