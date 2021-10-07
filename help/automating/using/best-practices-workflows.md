@@ -10,9 +10,9 @@ role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ L&#39;onglet Tâches permet de voir le séquencement de l&#39;exécution des act
 
 #### Résolution des problèmes liés aux activités Data Management{#troubleshooting-data-management-activities}
 
-Vous pouvez analyser les requêtes SQL dans l&#39;onglet Journal.
+Vous pouvez analyser les requêtes SQL dans l&#39;onglet Log.
 
 1. Dans l&#39;espace de travail du workflow, cliquez sur **[!UICONTROL Editer les propriétés]**.
 1. Dans **[!UICONTROL Général]** > **[!UICONTROL Exécution]**, cochez les options **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** et **[!UICONTROL Exécuter dans le moteur]**, puis cliquez sur **[!UICONTROL Confirmer]**.
