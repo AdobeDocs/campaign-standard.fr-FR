@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Tirez profit des [activités marketing](../../start/using/marketing-activities.m
 
 ![](assets/marketing-activities.png)
 
-Les messages peuvent être créés à partir de la liste des activités marketing ou d&#39;un workflow à l&#39;aide d&#39;[activités dédiées](../../automating/using/about-channel-activities.md).
+Les messages peuvent être créés à partir de la liste des activités marketing ou à partir d&#39;un workflow, à l&#39;aide des [activités dédiées](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
