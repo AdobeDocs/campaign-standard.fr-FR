@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ En outre, les API Campaign Standard vous permettent de rechercher des profils en
    }
    ```
 
-## Recherche de profils en fonction d’un champ {#searching-field}
+## Recherche de profils en fonction d&#39;un champ {#searching-field}
 
 Le paramètre **[!UICONTROL filterType]** permet de rechercher des profils en fonction de l’un de ces champs : email, prénom, nom ou tout champ personnalisé qui a été ajouté dans le filtrage avancé lors de l’extension de la ressource de profil.
 
