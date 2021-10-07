@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
 ht-degree: 100%
 
