@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1096'
 ht-degree: 100%
 
@@ -106,8 +106,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
    >[!NOTE]
-   >
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+   Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -156,7 +155,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur à</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;<br /> </td> 
    <td> La première valeur doit être strictement inférieure à la seconde valeur.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> permet de retrouver tous les profils créés dans la base de données il y a moins de 100 jours.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
   <tr> 
    <td> <span class="uicontrol">Inférieur ou égal à</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;&gt;<br /> </td> 
+   <td> &lt;=<br /> </td> 
    <td> La première valeur doit être inférieure ou égale à la seconde valeur.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> permet de retrouver les profils âgés de 60 ans ou moins.<br /> </td> 
   </tr> 
