@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher le
 
    ![](assets/adobeIO6.png)
 
-1. Dans l’écran suivant, vous pouvez voir les détails de votre nouveau projet Adobe IO. Cliquez sur **[!UICONTROL Ajouter au projet]** en haut à gauche de l’écran et sélectionnez **API** dans la liste déroulante.
+1. Dans l’écran suivant, vous pouvez voir les détails de votre nouveau projet Adobe IO. Cliquez sur **[!UICONTROL Ajouter au projet]** dans la partie supérieure gauche de l’écran et sélectionnez **API** dans la liste déroulante.
 
    ![](assets/adobeIO7.png)
 
@@ -91,7 +91,7 @@ Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher le
 
 1. Sur l’écran suivant, cliquez sur **[!UICONTROL Enregistrer l’API configurée]**.  Vous serez redirigé vers l’écran des détails du projet.
 
-1. Cliquez maintenant sur **[!UICONTROL Ajouter au projet]** en haut à gauche de l’écran et sélectionnez **API** dans la liste déroulante, comme vous l’avez fait précédemment.
+1. Cliquez maintenant sur **[!UICONTROL Ajouter au projet]** dans la partie supérieure gauche de l’écran et sélectionnez **API** dans la liste déroulante, comme vous l’avez fait précédemment.
 
 1. Sur l’écran suivant, vous devez sélectionner l’API de gestion I/O, puis cliquer sur **[!UICONTROL Suivant]**.
 
