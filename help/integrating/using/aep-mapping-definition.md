@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour effectuer cette tâche, les prérequis sont les suivants :
 
 >[!NOTE]
 >
->Pour qu’un lot soit ingéré dans Real-time Customer Profile ou Identity Service, le jeu de données doit être [activé pour Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=fr).
+>Pour qu’un lot soit ingéré dans Profil client en temps réel ou Service d’identité, le jeu de données doit être [activé pour Profil clienten temps réel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=fr).
 >
 >Si le jeu de données sélectionné est déjà utilisé dans un mapping de données existant, un avertissement s’affiche pour vous informer que vos données peuvent être remplacées dans Adobe Experience Platform. Cette situation peut se produire lorsqu’il existe des destinataires communs dans les mappings de données utilisant un même jeu de données.
 
@@ -63,7 +63,7 @@ Vous pouvez personnaliser l’extension XDM via l’API et définir votre propre
 
 Voir le [tutoriel relatif à l’API Schema Registry](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=fr) pour en savoir plus.
 
-Pour mapper un champ d’énumération, vous devez utiliser l’éditeur d’expression afin de définir chaque valeur d’énumération correspondant à la valeur XDM. Par exemple, le champ postaladdress doit être défini comme suit :
+Pour mapper un champ d’énumération, vous devez utiliser l’éditeur d’expression afin de définir chaque valeur d’énumération correspondant à la valeur XDM. Par exemple, postalAdressfield doit être défini comme suit :
 
 ![](assets/aep_enummapping.png)
 
