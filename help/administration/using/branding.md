@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le principe général de paramétrage et d&#39;utilisation des marques est le su
 
 1. Créer et configurer la marque : cette opération requiert des permissions spécifiques et est réalisée par l&#39;administrateur technique Adobe Campaign. Les étapes pour obtenir une nouvelle marque dans Campaign sont détaillées [dans cette section](#creating-a-brand).
 1. Créer un ou plusieurs modèles de diffusion et de landing pages pour cette marque. Voir la section [Créer un modèle](../../start/using/marketing-activity-templates.md).
-1. Créer des messages et des landing pages à partir de ce modèle. Voir les sections [Créer un email](../../channels/using/creating-an-email.md) et [Créer une landing page](../../channels/using/designing-a-landing-page.md).
+1. Créer des messages et des landing pages à partir de ce modèle. Voir les sections [Créer un e-mail](../../channels/using/creating-an-email.md) et [Créer une landing page](../../channels/using/designing-a-landing-page.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 ## Créer une nouvelle marque {#creating-a-brand}
 
-Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’email que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
+Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou créer un nouveau type d’e-mail que vous devez envoyer sous un autre sous-domaine. Pour ce faire, suivez les étapes ci-après :
 
 1. **Configurer un nouveau sous-domaine** - Pour tout nouveau sous-domaine utilisé par Adobe, la première étape consiste à le configurer. Vous pouvez effectuer cette opération via le [panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr) ou contacter votre contact technique Adobe. Pour en savoir plus sur la configuration de sous-domaine, voir [cet article](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=fr).
 
@@ -95,7 +95,7 @@ Vous pouvez ajouter de nouvelles entités de votre organisation dans Campaign ou
    >
    >Le panneau de contrôle est accessible à tous les utilisateurs administrateurs. Les étapes permettant d&#39;octroyer un accès administrateur à un utilisateur sont présentées sur [cette page](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr#discover-control-panel).
 
-1. **Créer un ticket**  : une fois le sous-domaine configuré, Adobe le configure dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
+1. **Créer un ticket** - Une fois le sous-domaine configuré, Adobe le configurera dans votre environnement de production. Pour ce faire, [créez un ticket pour l’assistance clientèle](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html) avec les informations suivantes :
 
    * Objet : configuration de la nouvelle marque ACS
 
@@ -143,15 +143,15 @@ Votre modèle est lié à la marque. Dans l&#39;éditeur d&#39;email, les élém
 
 ### Cas pratique de marque           {#branding-use-case}
 
-Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle marque sur le thème du voyage.
+Dans cet exemple, nous allons créer et utiliser dans un e-mail, une nouvelle marque sur le thème du voyage.
 
-#### Étape 1 : Configurer une nouvelle marque {#configure-a-new-brand}
+#### Étape 1 : configurer une nouvelle marque           {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
->La configuration des marques n&#39;est gérée que par Adobe, car elle nécessite des paramètres techniques et des permissions spécifiques.
+>La configuration des marques n’est gérée que par Adobe, car elle nécessite des paramètres techniques et des autorisations spécifiques.
 
-1. The Adobe Campaign administrator first creates the brand from the **[!UICONTROL Administration > Instance settings > Brand configuration]** menu, and adds the **Vacations in the Tropics** element, and configures the **[!UICONTROL ID]** and the **[!UICONTROL Header parameters of sent emails]** of the brand.
+1. L’administrateur d’Adobe Campaign commence par créer la marque à partir du menu **[!UICONTROL Administration > Paramétrage de l’instance > Configuration de la marque]**, puis ajoute l’élément **Voyages sous les tropiques** et configure l’**[!UICONTROL identifiant]** et les **[!UICONTROL paramètres d’en-tête des e-mails envoyés]** de la marque.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ Dans cet exemple, nous allons créer, et utiliser dans un email, une nouvelle ma
 
 La marque est correctement créée et paramétrée. Elle peut désormais être utilisée par les équipes marketing.
 
-#### Étape 2 : Mettre en oeuvre une nouvelle marque {#implement-a-new-brand}
+#### Étape 2 : mettre en œuvre une nouvelle marque           {#implement-a-new-brand}
 
 En tant que chargé de diffusion, vous êtes responsable de la création des modèles de diffusion afin d&#39;utiliser la nouvelle marque. Pour ce faire, procédez comme suit :
 
@@ -182,9 +182,9 @@ En tant que chargé de diffusion, vous êtes responsable de la création des mod
 
    Le modèle de diffusion peut désormais être utilisé pour créer des emails qui seront envoyés à une audience.
 
-#### Step 3: Use the new brand in a delivery {#use-the-new-brand-in-a-delivery}
+#### Étape 3 : utiliser la nouvelle marque dans une diffusion           {#use-the-new-brand-in-a-delivery}
 
-Pour créer un email lié à une marque, procédez comme suit :
+Pour Créer un e-mail lié à une marque, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** dans le menu **[!UICONTROL Activités marketing]**.
 
