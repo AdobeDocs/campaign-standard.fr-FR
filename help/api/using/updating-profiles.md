@@ -9,9 +9,9 @@ role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La mise à jour des profils est effectuée avec une requête **PATCH** .
 
 1. La première étape consiste à **récupérer le profil**.
 
-1. Dans une seconde requête, effectuez une **requête de PATCH** sur le profil avec les informations complétées dans la payload.
+1. Dans une seconde requête, nous allons exécuter une **requête PATCH** sur le profil, avec les informations complétées dans la payload.
 
 1. Pour vérifier si la requête PATCH a mis à jour le profil, nous pouvons exécuter une requête GET finale.
 
