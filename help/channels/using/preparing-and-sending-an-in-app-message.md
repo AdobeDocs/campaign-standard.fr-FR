@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign so
 
    * **[!UICONTROL Places]** : les trois catégories suivantes tirent parti de données de localisation en temps réel de façon à diffuser des expériences mobiles pertinentes : données contextuelles de Places, métadonnées personnalisées de Places ou type d&#39;événement Places.
 
-      Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://experienceleague.adobe.com/docs/places/using/home.html).
+      Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr).
    ![](assets/inapp_creating_4.png)
 
 1. Si vous utilisez un **[!UICONTROL événement Analytics]**, les événements Adobe Analytics et Etat d&#39;affichage seront automatiquement renseignés en fonction des suites de rapports configurées dans l&#39;extension Analytics dans Adobe Experience Platform Launch. Les événements Données de contexte, quant à eux, devront être ajoutés manuellement.
