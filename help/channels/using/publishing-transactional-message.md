@@ -1,5 +1,5 @@
 ---
-title: Cycle de vie du message transactionnel
+title: Cycle de vie d'un message transactionnel
 description: Découvrez comment publier, mettre en pause, dépublier et supprimer un message transactionnel.
 audience: channels
 content-type: reference
@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '679'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -135,7 +135,7 @@ Le workflow **[!UICONTROL Nettoyage de la base]**, qui s’exécute tous les jou
 
 Lorsqu’un message transactionnel a été dépublié ou qu’il n’a pas encore été publié, vous pouvez le supprimer de la liste des messages transactionnels. Pour cela :
 
-1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
 1. Passez la souris sur le message de votre choix.
 1. Cliquez sur le bouton **[!UICONTROL Supprimer l’élément]**.
 
