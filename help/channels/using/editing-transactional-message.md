@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '675'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois votre message prêt, il peut être testé et publié. Voir [Test d&#39;
 
 Pour accéder au message transactionnel que vous avez créé :
 
-1. Cliquez sur le logo **Adobe** , en haut à gauche.
+1. Cliquez sur le logo **Adobe**, en haut à gauche.
 1. Sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Messages transactionnels]**.
 
    ![](assets/message-center_4.png)
