@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,11 +41,11 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
 1. Si vous utilisez les autorisations d&#39;Enterprise permissions dans vos paramètres d&#39;Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d&#39;Enterprise dans [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif. Il n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations d&#39;Enterprise dans Target.
 1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d&#39;Adobe Campaign.
 
-   Les champs d&#39;Adobe Campaign utilisés doivent avoir été spécifiés au niveau du &quot;rawbox&quot;. Dans cet exemple, définissez différentes expériences en fonction du genre du destinataire.
+   Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans cet exemple, définissez différentes expériences en fonction du sexe du destinataire.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. Prévisualisez votre email pour voir si, lorsque vous sélectionnez différents profils, l&#39;image insérée change en fonction des paramètres définis dans l&#39;activité Adobe Target et dans Adobe Campaign.
+1. Prévisualisez votre e-mail pour voir si, lorsque vous sélectionnez différents profils, l’image insérée change en fonction des paramètres définis dans l’activité Adobe Target et dans Adobe Campaign.
 
 La diffusion contenant l&#39;image dynamique peut maintenant être envoyée. Ses résultats sont accessibles dans Adobe Target.
 
