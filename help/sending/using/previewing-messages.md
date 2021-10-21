@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 
    ![](assets/sending_test-profile.png)
 
-1. Pour quitter le mode **[!UICONTROL Aperçu]**, cliquez sur le bouton **[!UICONTROL Modifier]** en haut à gauche de l’écran.
+1. Pour quitter le mode **[!UICONTROL Prévisualisation]**, cliquez sur le bouton **[!UICONTROL Modifier]** en haut à gauche de l’écran.
 
    ![](assets/sending_preview_edit.png)
 
