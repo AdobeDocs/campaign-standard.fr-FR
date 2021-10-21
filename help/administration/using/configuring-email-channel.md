@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2815'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
 * **Délivrabilité**
 
-   L’**[!UICONTROL identifiant pour les rapports de délivrabilité]** est fourni par l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
+   L’**[!UICONTROL identifiant pour les rapports de diffusion]** est fourni par l’assistance clientèle d’Adobe. Il identifie chaque instance à l’aide d’un identifiant de délivrabilité utilisé dans les rapports techniques de délivrabilité.
    <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Paramètres de la diffusion**
@@ -330,7 +330,7 @@ Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTR
 
 ### Qualification des emails bounce   {#legacy-bounce-mail-qualification}
 
-Pour répertorier les différents bounces et les types d’erreur et raisons associés, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+Pour répertorier les différents bounces et les types d’erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
 Les statuts de qualification des bounces sont les suivants :
 
