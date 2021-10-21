@@ -5,9 +5,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Campaign Standard propose plusieurs outils pour vous aider à développer votre 
 
 Les workflows permettent de collecter des données et de les importer dans la base de données Campaign via les activités de [**[!UICONTROL Data management. ]**](../../automating/using/about-data-management-activities.md) Les informations génériques et les bonnes pratiques relatives à l&#39;import de données par le biais de workflows sont présentées dans [cette section](../../automating/using/about-data-import-and-export.md).
 
-Vous pouvez en outre configurer des modèles pour importer des données. L’utilisation de modèles d’import est une bonne pratique pour importer régulièrement des fichiers avec la même structure. Vous pouvez configurer deux types de modèles :
+Vous pouvez en outre configurer des modèles pour importer des données. L’utilisation de modèles d’import est recommandée si vous devez importer régulièrement des fichiers avec la même structure. Vous pouvez configurer deux types de modèles :
 
 * **Modèles de workflow** : il s&#39;agit de workflows préconfigurés que vous pouvez paramétrer une fois selon vos besoins. Vous pouvez ensuite les réutiliser chaque fois que vous souhaitez importer des données et mettre à jour la base de données. Vous trouverez un exemple de modèle de workflow pour importer des données dans [cette section](../../automating/using/creating-import-workflow-templates.md).
 
