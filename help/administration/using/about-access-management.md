@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les rôles, les groupes et les entités organisationnelles peuvent être gérés
 
 ![](assets/user_management_1.png)
 
-Les utilisateurs sont gérés dans le Admin Console (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation du Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html)).
+La gestion des utilisateurs s’effectue dans Admin Console (voir la section [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md) ou la [documentation Admin Console](https://helpx.adobe.com/fr/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 
