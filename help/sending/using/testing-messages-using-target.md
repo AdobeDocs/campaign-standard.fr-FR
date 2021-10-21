@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -190,7 +190,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 1. Construisez le workflow pour créer une audience à partir du fichier. Pour ce faire, ajoutez et configurez les activités suivantes :
 
    * Activité **[!UICONTROL Chargement de fichier]** : importe le fichier CSV (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/load-file.md)).
-   * Activité **[!UICONTROL Réconciliation]** : associe les informations du fichier aux informations de la base de données. Dans cet exemple, utilisez l&#39;adresse email du profil comme champ de réconciliation (pour plus d&#39;informations sur cette activité, consultez [cette section](../../automating/using/reconciliation.md)).
+   * Activité **[!UICONTROL Réconciliation]** : associe les informations du fichier aux informations de la base de données. Dans cet exemple, nous utiliserons l’adresse e-mail du profil comme champ de réconciliation (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/reconciliation.md)).
    * Activité **[!UICONTROL Sauvegarde d’audience]** : crée une audience à partir du fichier importé (pour en savoir plus sur cette activité, reportez-vous à [cette section](../../automating/using/save-audience.md)).
 
    ![](assets/substitution_uc2.png)
