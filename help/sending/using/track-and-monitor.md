@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Tracker et suivre vos diffusions {#track-and-monitor}
 
-Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Cela vous permet d’améliorer les futurs envois et d’optimiser vos prochaines campagnes.
+Vous avez cliqué sur le bouton Envoyer ? Voyons maintenant ce qui se passe. Une fois la diffusion envoyée, Adobe Campaign vous permet de conserver une trace des messages envoyés et de découvrir la réaction des destinataires face à votre diffusion. Vous pourrez ainsi améliorer les prochains envois et optimiser vos prochaines campagnes.
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 
