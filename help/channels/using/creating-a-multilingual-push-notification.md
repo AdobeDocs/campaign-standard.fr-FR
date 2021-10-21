@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 
 1. Dans la fenêtre **[!UICONTROL Gérez les variantes de contenu]**, déposez votre fichier ou sélectionnez un fichier sur votre ordinateur.
 
-   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l&#39;option **[!UICONTROL Télécharger le fichier d&#39;exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d&#39;informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [page](../../channels/using/generating-csv-multilingual-push.md).
+   Le fichier doit être encodé UTF8 et avoir une disposition spécifique que vous pouvez découvrir en cliquant sur l&#39;option **[!UICONTROL Télécharger le fichier d&#39;exemple]**. Vous devez également utiliser la syntaxe adéquate pour les valeurs des paramètres régionaux. Pour plus d’informations sur le format de fichier et les paramètres régionaux pris en charge, consultez cette [page](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
