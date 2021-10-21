@@ -5,9 +5,9 @@ user-guide-description: 'Centre d''aide pour les principales fonctionnalités, t
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -254,7 +254,7 @@ ht-degree: 99%
       + [À propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
-      + [Test de vos déclencheurs](integrating/using/testing-your-triggers.md)
+      + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques des Triggers d&#39;abandon](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign et Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Prise en main de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
@@ -281,7 +281,7 @@ ht-degree: 99%
          + [Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector (version bêta) {#data-connector}
          + [À propos d&#39;Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-         + [Présentation du modèle de données Experience Platform](integrating/using/aep-data-model-overview.md)
+         + [Présentation du modèle de données Experience Platform](integrating/using/aep-data-model-overview.md)
          + [Définition d&#39;un mapping](integrating/using/aep-mapping-definition.md)
          + [Activation du mapping](integrating/using/aep-mapping-activation.md)
          + [Déclenchement de l&#39;ingestion des données via les API](integrating/using/aep-triggering-data-ingestion.md)
