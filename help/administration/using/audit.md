@@ -8,7 +8,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -105,7 +105,6 @@ Pour ce faire :
       >[!NOTE]
       >
       >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
-
    ![](assets/audit-trail_5.png)
 
 1. Dans la page **[!UICONTROL Options]**, définissez la **[!UICONTROL valeur (entier)]** sur 0 si vous souhaitez désactiver le **[!UICONTROL Journal d’audit]** ou sur 1 pour l’activer.
