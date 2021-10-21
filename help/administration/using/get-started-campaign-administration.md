@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Notez que les utilisateurs administrateurs peuvent également utiliser le pannea
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-Les différentes opérations d’administration d’Adobe Campaign sont effectuées à partir du menu **[!UICONTROL Administration]** accessible en cliquant sur le logo Adobe Campaign dans le coin supérieur gauche. Cette partie de l&#39;interface est uniquement accessible aux administrateurs fonctionnels de la plateforme.
+Les différentes opérations d’administration d’Adobe Campaign sont effectuées à l’aide du menu **[!UICONTROL Administration]**, accessible après avoir cliqué sur le logo d’Adobe Campaign dans le coin supérieur gauche. Cette partie de l&#39;interface est uniquement accessible aux administrateurs fonctionnels de la plateforme.
 
 Voici la liste des différents menus disponibles :
 
