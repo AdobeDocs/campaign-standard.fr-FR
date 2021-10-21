@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2444'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Rubriques connexes :
 
 Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue]**, les étapes sont les suivantes :
 
-1. Cliquez sur le logo Adobe Campaign, en haut à gauche de l’interface, puis sélectionnez **[!UICONTROL Administration]** **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
+1. Cliquez sur le logo Adobe Campaign, en haut à gauche de l&#39;interface, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
 
    ![](assets/fatigue4.png)
 
