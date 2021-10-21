@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 
 ![](assets/overview_home_page.png)
 
-* La vignette **[!UICONTROL Créer un email]** permet d’accéder à l’assistant de création d’email. Grâce à cet assistant, vous pouvez choisir un type d’email, sélectionner les destinataires de votre message et définir votre contenu. Pour plus d&#39;informations, consultez la section [Créer un email](../../channels/using/creating-an-email.md).
+* La vignette **[!UICONTROL Créer un e-mail]** permet d’accéder à l’assistant de création d’email. Grâce à cet assistant, vous pouvez choisir un type d’email, sélectionner les destinataires de votre message et définir votre contenu. Pour plus d&#39;informations, consultez la section [Créer un e-mail](../../channels/using/creating-an-email.md).
 * La vignette **[!UICONTROL Créer un SMS]** permet d’accéder à l’assistant de création de SMS. Grâce à cet assistant, vous pouvez choisir un type de SMS, sélectionner les destinataires de votre message et définir votre contenu. Pour plus d&#39;informations, consultez la section [Créer un SMS](../../channels/using/creating-an-sms-message.md).
 * La vignette **[!UICONTROL Créer un courrier]** permet d’accéder à l’assistant de création de courrier. Pour plus d&#39;informations, consultez la section [Créer un courrier](../../channels/using/creating-the-direct-mail.md).
 * La vignette **[!UICONTROL Créer une notification push]** permet d’accéder à l’assistant de création de notification. Grâce à cet assistant, vous pouvez choisir un type de notification push, sélectionner les destinataires de votre message et définir votre contenu. Voir la section [Créer une notification push](../../channels/using/preparing-and-sending-a-push-notification.md).
@@ -51,7 +51,7 @@ Visible sur chaque écran, la barre supérieure vous permet de naviguer entre le
 
 Les principes de navigation sont les suivants :
 
-* Le logo **Adobe** situé dans le coin supérieur gauche de la page vous donne accès aux fonctionnalités avancées et aux configurations. Les menus dépendent de votre profil et de vos autorisations.
+* Le logo **Adobe**, situé dans le coin supérieur gauche de la page, vous donne accès aux configurations et fonctionnalités avancées. Les menus dépendent de votre profil et de vos autorisations.
 
    Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
@@ -80,9 +80,9 @@ Trois onglets vous aident à trouver de l’aide :
 1. L’onglet **[!UICONTROL Support]** permet d&#39;ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur Twitter.
 1. L&#39;onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 
-## Le menu avancé {#advanced-menu}
+## Menu avancé {#advanced-menu}
 
-Le menu avancé s’affiche en cliquant sur l’icône **Adobe Campaign**, dans le coin supérieur gauche de chaque écran. Il peut varier en fonction de votre contrat et des permissions utilisateur.
+Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaign**, en haut à gauche de chacun des écrans. Il peut varier en fonction de votre contrat et des permissions utilisateur.
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 
