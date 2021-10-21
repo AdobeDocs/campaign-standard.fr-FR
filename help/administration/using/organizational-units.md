@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 >
 >Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
-Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Cet utilisateur dispose d’un accès en lecture et écriture à tous les objets de son entité et de ses entités enfants. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
+Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités enfants. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
 
 Par défaut, seules les entités **[!UICONTROL Toutes]** sont disponibles.
 
@@ -79,17 +79,17 @@ Pour connaître l&#39;impact de l&#39;assignation de différentes entités à di
 
 1. Suivez les mêmes procédures pour créer le second modèle assigné à l&#39;entité organisationnelle Geometrixx Clothes créée précédemment.
 
-Les utilisateurs affectés aux groupes **Utilisateur standard** et **Geometrixx** pourront voir les deux modèles. En raison de la structure hiérarchique des entités organisationnelles, elles disposeront d&#39;un accès en lecture et en écriture au modèle associé à l&#39;entité Vêtements Geometrixx et d&#39;un accès en lecture seule au modèle associé à l&#39;entité Geometrixx.
+Les utilisateurs assignés aux groupes **Utilisateur standard** et **Vêtements Geometrixx** pourront voir les deux modèles. En raison de la structure hiérarchique des entités organisationnelles, ils disposeront d’un accès en lecture et écriture au modèle lié à l’entité Vêtements Geometrixx, et uniquement d’un accès en lecture seule au modèle lié à l’entité Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-L&#39;entité Geometrixx vêtements étant une unité enfant de Geometrixx, le message suivant apparaît lorsque les utilisateurs tentent de modifier le modèle de Geometrixx :
+L’entité Vêtements Geometrixx étant une entité enfant de Geometrixx, le message suivant apparaît lorsqu’un utilisateur tente de modifier le modèle Geometrixx :
 
 ![](assets/manage_units_8.png)
 
-Les entités organisationnelles peuvent restreindre l&#39;accès aux différentes fonctionnalités telles que les profils. Par exemple, si nos utilisateurs de Geometrixx connectés à l&#39;onglet **[!UICONTROL Profils]**, ils pourront accéder pleinement aux profils de l&#39;entité organisationnelle Geometrixx Vêtements et les modifier.
+Les entités organisationnelles peuvent limiter l’accès aux différentes fonctionnalités telles que les profils. Par exemple, si nos utilisateurs Vêtements Geometrixx accèdent à l’onglet **[!UICONTROL Profils]**, ils bénéficient d’un accès total aux profils de l’unité organisationnelle Vêtements Geometrixx et peuvent les modifier.
 
-Alors que les profils de l&#39;entité organisationnelle Geometrixx seront en lecture seule, l&#39;erreur suivante apparaîtra si les utilisateurs tentent de modifier un profil : **[!UICONTROL Vous n’avez pas les droits nécessaires pour modifier la ressource &#39;profil&#39; d’ID]**.
+Alors que les profils de l’entité organisationnelle Geometrixx seront en lecture seule, l’erreur suivante apparaîtra si des utilisateurs tentent de modifier un profil : **[!UICONTROL Vous n’avez pas les droits nécessaires pour modifier la ressource &#39;profil&#39; d’identifiant]**.
 
 ![](assets/manage_units_10.png)
 
