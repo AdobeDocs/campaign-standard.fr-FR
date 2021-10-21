@@ -9,24 +9,24 @@ role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Gestion des messages transactionnels {#managing-transactional-messages}
 
-Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site web.
+Une fois que vous avez créé et publié un événement transactionnel, vous devez intégrer le déclenchement de cet événement dans votre site Web.
 
 >[!NOTE]
 >
->La configuration des événements est présentée dans [cette section](../../channels/using/configuring-transactional-event.md).
+>La configuration des événements est détaillée dans [cette section](../../channels/using/configuring-transactional-event.md).
 
-Par exemple, vous souhaitez qu’un événement de type « Abandon de panier » soit déclenché lorsque l’un de vos clients quitte votre site web avant d’avoir acheté les produits de son panier. Pour ce faire, en tant que développeur web, vous devez utiliser l’API REST des messages transactionnels.
+Par exemple, vous souhaitez qu’un événement de type « Abandon de panier » soit déclenché lorsque l’un de vos clients quitte votre site Web avant d’avoir acheté les produits de son panier. Pour ce faire, le développeur Web de votre site doit se servir de l’API REST des messages transactionnels.
 
-1. Envoyez une demande selon la méthode du POST, qui déclenche l’envoi de l’événement transactionnel [.](#sending-a-transactional-event)
-1. La réponse à la requête du POST contient une clé Principal, qui vous permet d’envoyer une ou plusieurs requêtes par le biais d’une requête de GET. Vous pouvez ensuite obtenir le [statut de l’événement](#transactional-event-status).
+1. Il exécute une requête selon la méthode POST, qui déclenche l’[envoi de l’événement transactionnel](#sending-a-transactional-event).
+1. La réponse à la requête POST contient une clé primaire, qui permet au développeur d’exécuter une ou plusieurs requêtes par le biais d’une requête GET. Vous pouvez ensuite obtenir le [statut de l’événement](#transactional-event-status).
 
 ## Envoi d’un événement transactionnel {#sending-a-transactional-event}
 
