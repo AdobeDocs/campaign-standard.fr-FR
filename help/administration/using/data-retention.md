@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Vous trouverez ci-dessous les valeurs de conservation par défaut pour les table
 
 La fonctionnalité de workflow standard permet de configurer des périodes de conservation pour n&#39;importe quelle table personnalisée.
 
-Contactez les consultants Adobe ou les administrateurs techniques pour en savoir plus sur la rétention ou pour définir la rétention pour les tables personnalisées.
+Pour en savoir plus sur la conservation des données ou pour définir une rétention pour les tables personnalisées, contactez les consultants ou les administrateurs techniques d’Adobe.
