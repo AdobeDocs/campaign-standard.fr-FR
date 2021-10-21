@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Les étapes de création et de modification d&#39;un compte externe sont présen
 
 Le compte externe **[!UICONTROL Routage des SMS par SMPP]** est fourni par défaut, mais il peut être utile d&#39;ajouter d&#39;autres comptes.
 
-Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un compte externe. Pour plus d&#39;informations sur le protocole et les paramètres SMS, consultez cette [note technique](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=fr).
 
 1. Créez un compte externe depuis **[!UICONTROL Administration > Paramétrage de l&#39;application > Comptes externes]**.
 1. Définissez le type de compte sur **[!UICONTROL Routage]**, le canal sur **[!UICONTROL Mobile (SMS)]** et le mode de diffusion sur **[!UICONTROL Envoi en masse]**.
@@ -56,9 +56,9 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
    Vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
 
-   Les valeurs de tous les champs correspondant aux durées doivent être renseignées en secondes.
+   Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
-1. Définissez les paramètres spécifiques au SMSC si vous devez définir un mapping de codage spécifique. Voir à ce sujet la section [Spécificités du SMSC](#smsc-specifics).
+1. Spécifiez les paramètres propres au SMSC si vous devez définir un mapping spécifique des chiffrements. Voir à ce sujet la section [Spécificités du SMSC](#smsc-specifics).
 
    Activez l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet (utiliser des caractères autres que des chiffres)]** si vous ne souhaitez pas respecter le protocole SMPP et transférer le préfixe **[!UICONTROL +]** sur le serveur du fournisseur SMS (SMS-C).
 
@@ -346,7 +346,7 @@ Dans la section **[!UICONTROL Envoyer]** d&#39;un modèle SMS :
 
    ![](assets/sms_smpp_3.png)
 
-* Le champ **[!UICONTROL Mode de transmission]** permet de déterminer la méthode de remise des messages par SMS :
+* Le champ **[!UICONTROL Mode de transmission]** permet de déterminer la méthode de diffusion des messages par SMS :
 
    * **[!UICONTROL Enregistré sur le mobile]** : le message est stocké sur la carte SIM du téléphone du destinataire.
    * **[!UICONTROL Enregistré sur le terminal]** : le message est stocké dans la mémoire interne du téléphone.
