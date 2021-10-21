@@ -8,21 +8,21 @@ feature: Access Management
 role: Admin
 level: Experienced
 source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Licences{#licenses}
 
-La fenêtre **[!UICONTROL Licences]** vous permet de consulter les licences installées sur votre instance et les différentes informations s&#39;y rapportant, telles que le numéro de build, la version de release ou bien si les termes du contrat ont été acceptés et par qui.
+La vue **[!UICONTROL Licences]** vous permet de consulter les licences installées sur votre instance et les différentes informations s&#39;y rapportant, telles que le numéro de version, la version d’autorisation ou bien si les termes du contrat ont été acceptés, et par qui.
 
 ![](assets/license_1.png)
 
-Avec un nouveau build ou une nouvelle fonctionnalité, les termes de licence peuvent changer et doivent être acceptés par un administrateur fonctionnel de l’instance.
+L’apparition d’une nouvelle version ou d’une nouvelle fonctionnalité peut entraîner la modification des termes de la licence, qui doivent alors être acceptés par un administrateur fonctionnel de l’instance.
 
-Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n&#39;est requise de leur part. Il est toujours possible d’utiliser Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
+Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n’est requise de leur part. Il est toujours possible d’utiliser Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
