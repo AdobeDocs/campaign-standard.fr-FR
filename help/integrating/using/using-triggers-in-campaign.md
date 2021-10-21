@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/h
 
 Les étapes de mise en œuvre sont les suivantes :
 
-1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Déclencheurs Experience Cloud]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans de marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
