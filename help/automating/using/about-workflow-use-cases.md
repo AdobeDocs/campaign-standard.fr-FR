@@ -8,17 +8,17 @@ feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # À propos des cas pratiques de workflows {#about-workflow-use-cases}
 
-Cette section présente différents cas pratiques utilisant des fonctionnalités de workflows dans Campaign.
+Cette section présente différents cas d’utilisation utilisant des fonctionnalités de workflows dans Campaign.
 
-Ils vous aident à découvrir les différents contextes d’utilisation des workflows et à répondre à vos besoins.
+Vous pourrez ainsi découvrir les différents contextes d’utilisation des workflows pour répondre à vos besoins.
 
 ## Diffusions {#deliveries}
 
