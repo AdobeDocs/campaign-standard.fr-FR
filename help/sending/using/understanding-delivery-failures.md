@@ -1,5 +1,5 @@
 ---
-title: Comprendre les diffusions en échec
+title: Comprendre les échecs de diffusion
 description: Découvrez comment gérer les diffusions en échec dans Campaign.
 audience: sending
 content-type: reference
@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1358'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 **Rubriques connexes :**
 * [Hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces)
-* [Soft bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability)
+* [Soft bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#soft-bounces)
 
 ## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
 
@@ -116,9 +116,9 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 >
 >Les qualifications bounce figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
 
-Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Email > Règles de traitement des emails]** et sélectionnez **[!UICONTROL Mails rebonds]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **Adobe**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**, puis **[!UICONTROL E-mails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
