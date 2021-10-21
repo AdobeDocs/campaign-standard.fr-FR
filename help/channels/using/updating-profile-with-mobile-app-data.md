@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Création et mise à jour des informations de profil en fonction des données d&#39;application mobile
 
-## Présentation
+## Vue d’ensemble
 
 Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/met à jour les données de profil après l&#39;envoi par une application mobile de données de collecte de PII, selon une planification.
 
@@ -27,7 +27,7 @@ Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/me
 
 L&#39;objectif de ce cas pratique est de créer ou de mettre à jour un profil Campaign Standard si les données de PII renvoyées par une application mobile contiennent des données liées au profil.
 
-## Prérequis
+## Conditions préalables requises
 
 Avant que les profils puissent être créés ou mis à jour en fonction des données d&#39;abonnement aux applications mobiles, vous devez suivre plusieurs étapes de configuration pour activer les notifications push dans Campaign Standard :
 
@@ -106,7 +106,7 @@ Dans l&#39;onglet **[!UICONTROL Général]**, définissez la **[!UICONTROL Fréq
 
    ![](assets/update_profile_createelement.png)
 
-1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s&#39;agir de l&#39;email du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ &quot;Email (cusEmail)&quot;.
+1. Dans le champ **[!UICONTROL Source]**, sélectionnez un champ de la table appSubscrsiptionRcp en tant que champ de réconciliation. Il peut s’agir de l’e-mail du profil, de crmId, de marketingCloudId, etc. Dans cet exemple, utilisez le champ « Email (cusEmail) ».
 
 1. Dans le champ **[!UICONTROL Destination]**, sélectionnez un champ dans la table des profils pour réconcilier les données de la table appSubscriptionRcp. Il peut s&#39;agir de l&#39;email du profil ou d&#39;un champ étendu tel que crmId, marketingCloudId, etc. Dans cet exemple, nous devons sélectionner le champ &quot;Email (email)&quot; pour l&#39;associer au champ &quot;Email (cusEmail)&quot; de la table appSubscriptionRcp.
 
