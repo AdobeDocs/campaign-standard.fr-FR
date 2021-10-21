@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1322'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Les implémentations In-App et des notifications push doivent être effectuées par des utilisateurs expérimentés. Pour obtenir de l’aide, contactez votre chargé de compte d’Adobe ou votre partenaire de services professionnels.
+>Les implémentations In-App et les notifications push doivent être effectuées par des utilisateurs expérimentés. Si vous avez besoin d’aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels.
 
-Pour envoyer des notifications push et des messages In-App avec l&#39;application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign.
+Pour envoyer des notifications push et des messages In-App avec l’application SDK Experience Platform, une application mobile doit être créée dans Adobe Experience Platform Launch et configurée dans Adobe Campaign.
 
 Une fois une application mobile configurée, vous pouvez récupérer les données de PII qu&#39;elle a collectées pour créer ou mettre à jour des profils à partir de votre base de données. Pour plus d&#39;informations à ce sujet, reportez-vous à cette section : [Création et mise à jour des informations de profil en fonction des données d&#39;application mobile](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -85,7 +85,7 @@ Votre workflow va maintenant redémarrer et synchroniser les propriétés mobile
 
 Pour utiliser une propriété mobile Experience Platform Launch dans Campaign, vous devez également configurer cette propriété dans Adobe Campaign. Dans Adobe Campaign, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard.
 
-Vous devez attendre que le workflow technique s’exécute et synchronise la propriété mobile Launch avec Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
+Vous devrez attendre que le workflow technique s’exécute et synchronise la propriété mobile Launch sur Adobe Campaign. Vous pouvez ensuite la configurer dans Adobe Campaign.
 
 Pour plus d’informations sur le wokflow technique de synchronisation de l’application mobile AEPSDK depuis Launch, voir cette [section](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
@@ -93,7 +93,7 @@ Pour plus d’informations sur le wokflow technique de synchronisation de l’ap
 >
 >Par défaut, les administrateurs dont l’entité organisationnelle est définie sur ALL peuvent modifier l’application mobile.
 
-1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (AEP SDK)]**.
 
    ![](assets/launch.png)
 
@@ -130,7 +130,7 @@ Son **[!UICONTROL Property Status]** doit être **[!UICONTROL Ready to configure
 
 Votre application mobile est maintenant prête à être utilisée dans Campaign pour les notifications push ou les diffusions In-App. Vous pouvez à présent la configurer davantage pour créer des événements qui déclencheront vos messages In-App et/ou téléchargeront les certificats push.
 
-1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (AEP SDK)]**.
 
 1. Sélectionnez l’application mobile créée et configurée dans Experience Platform Launch.
 
