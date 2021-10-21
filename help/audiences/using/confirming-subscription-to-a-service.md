@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1414'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Désormais, lorsque les profils s’abonnent à ce service, ils reçoivent le me
 
 >[!NOTE]
 >
->Un message n’est envoyé que la première fois que l’utilisateur s’abonne.
+>Un message est uniquement envoyé la première fois que l’utilisateur s’abonne.
 
 ## Configuration d&#39;un message de confirmation à partir d&#39;une landing page {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
 1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
-Désormais, lorsque les profils s’abonnent à votre newsletter en envoyant la landing page, ils reçoivent le message de confirmation que vous avez défini avec les champs personnalisés mappés au service.
+Désormais, chaque fois qu’un profil s’abonne à votre newsletter en soumettant la page de destination, il reçoit le message de confirmation que vous avez défini avec des champs personnalisés mappés au service.
 
 >[!NOTE]
 >
->Un message est envoyé chaque fois que la landing page est envoyée, même si le profil est déjà abonné.
+>Un message est envoyé à chaque soumission de la page de destination, même si le profil est déjà abonné.
