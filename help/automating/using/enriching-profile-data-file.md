@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Le workflow est configuré comme suit :
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Avec cet exemple de fichier, utilisez l&#39;adresse email pour réconcilier les données avec les profils de la base de données. Vous pouvez également activer des identifiants uniques, comme décrit dans [ce document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   Avec cet exemple de fichier, nous allons utiliser l’adresse e-mail pour réconcilier les données avec les profils de la base de données. Vous pouvez également activer des identifiants uniques, comme décrit dans [ce document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * Une activité [Enrichissement](../../automating/using/enrichment.md) crée un lien entre les données de transaction chargées depuis le fichier et les profils sélectionnés dans la **[!UICONTROL Requête]**. Le lien est défini dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité. Il repose sur la transition provenant de l&#39;activité **[!UICONTROL Chargement de fichier]**. Il utilise le champ &quot;email&quot; de la ressource de profil et la colonne &quot;client&quot; du fichier importé en tant que critères de réconciliation.
 
