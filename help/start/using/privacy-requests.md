@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1709'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Par conséquent, il est de votre responsabilité, en tant que contrôleur de don
 
 ### Espaces de noms {#namesspaces}
 
-Avant de créer des demandes d&#39;accès à des informations personnelles, définissez l&#39;espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
+Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
 
 Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=fr#privacy) sur la création d&#39;un espace de noms.
 
@@ -53,7 +53,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 >
 >Si vous utilisez plusieurs espaces de noms, créez une demande d’accès à des informations personnelles par espace de noms.
 
-1. Cliquez sur le logo Adobe Campaign dans le coin supérieur gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Espaces de noms]**.
+1. Cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Espaces de noms]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -77,7 +77,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
 1. Un espace de noms Service d’identités est associé à un espace de noms dans Campaign. Vous devez indiquer comment l’espace de noms sera réconcilié dans Campaign.
 
-   Sélectionnez un mapping de ciblage (**[!UICONTROL Destinataires]**, **[!UICONTROL Événement en temps réel]** ou **[!UICONTROL Abonnements à une application]**). Si vous souhaitez utiliser plusieurs mappings de ciblage, créez un espace de noms par mapping de ciblage.
+   Sélectionnez un mapping de ciblage (**[!UICONTROL Destinataires]**, **[!UICONTROL Événement en temps réel]** ou **[!UICONTROL Abonnements à une application]**). Si vous souhaitez utiliser plusieurs mappings de ciblage, vous devez créer un espace de noms par mapping.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -127,9 +127,9 @@ Si vous avez créé des ressources personnalisées ayant un lien vers la ressour
 
 Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=fr#privacy) sur la modification des ressources personnalisées.
 
-Pour que cela fonctionne, vous devez sélectionner l&#39;option **[!UICONTROL La suppression de l&#39;enregistrement cible entraîne la suppression des enregistrements référencés par le lien]** dans la ressource personnalisée :
+Pour que cela fonctionne, vous devez sélectionner l’option **[!UICONTROL La suppression de l&#39;enregistrement cible entraîne la suppression des enregistrements référencés par le lien]** dans la ressource personnalisée :
 
-1. Cliquez sur le logo Adobe Campaign dans le coin supérieur gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Ressources personnalisées]**.
+1. Cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Ressources personnalisées]**.
 
 1. Sélectionnez une ressource personnalisée qui a un lien vers la ressource profils (type own).
 
@@ -177,7 +177,7 @@ La configuration et l&#39;usage des demandes d&#39;accès et de suppression sont
 
 Outre les outils de [gestion du consentement](../../start/using/privacy-management.md#consent-management) fournis par Adobe Campaign, vous pouvez suivre si un client s&#39;est opposé à la vente de ses informations personnelles.
 
-Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de ne pas autoriser la vente de leurs informations personnelles à un tiers, vous pourrez stocker et suivre ces informations.
+Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de ne pas autoriser la vente de leurs informations personnelles à un tiers, vous pouvez stocker et suivre ces informations.
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 À compter de la version 19.4, le champ **[!UICONTROL Option d&#39;Opt-out du CCPA]** est fourni dans l&#39;API et l&#39;interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
-Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ . Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
+Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
 
 Pour plus d&#39;informations sur la façon d&#39;étendre la ressource de profil, consultez [cette section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
