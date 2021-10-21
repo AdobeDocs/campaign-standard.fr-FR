@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1432'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Pour utiliser la fonctionnalité de données Point ciblé avec des applications 
 
 Pour pouvoir collecter des données de points ciblés avec Adobe Campaign, vous devez configurer l&#39;application mobile à partir de laquelle Adobe Campaign recevra les données.
 
-1. Cliquez sur le logo **Adobe** , en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile]**.
 1. Cliquez sur **[!UICONTROL Créer]** pour configurer une application.
 1. Saisissez un nom dans le champ **[!UICONTROL Nom de l&#39;application]** et cliquez sur **[!UICONTROL Créer]**.
 
@@ -187,14 +187,14 @@ Pour définir les points ciblés servant à collecter les données de localisati
 
 Une ressource personnalisée spécifique vous permet de définir les données à collecter auprès des abonnés de vos applications.
 
-Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+Cette étape est présentée dans la page [Configuration d&#39;une application mobile à l&#39;aide du SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
 
 ## Accéder aux applications mobiles utilisées pour collecter les données de localisation {#accessing-mobile-apps-used-to-collect-location-data}
 
 Pour accéder aux applications créées dans Adobe Campaign :
 
-1. Cliquez sur le logo **Adobe** , en haut à gauche.
+1. Cliquez sur le logo **Adobe**, en haut à gauche.
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK v4)]** ou **[!UICONTROL Application mobile (SDK AEP)]** selon le SDK.
 1. Dans la liste, sélectionnez une application mobile pour afficher ses propriétés.
 
