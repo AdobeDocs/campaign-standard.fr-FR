@@ -1,5 +1,5 @@
 ---
-title: Gérer des données cryptées
+title: Gérer des données chiffrées
 description: Découvrez comment gérer les données cryptées.
 audience: automating
 content-type: reference
@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Une fois la demande traitée, les commandes de cryptage/décryptage seront dispo
 
 ## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le panneau de contrôle {#use-case-gpg-decrypt}
 
-Dans ce cas pratique, créez un workflow afin d&#39;importer des données cryptées dans un système externe, à l&#39;aide d&#39;une clé générée dans le Panneau de Contrôle.
+Dans ce cas pratique, nous allons créer un workflow afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -58,7 +58,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Dans le système externe, utilisez la clé publique téléchargée à l’aide du panneau de contrôle pour crypter les données à importer dans Campaign Standard.
 
-1. Dans Campaign Standard, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour cela, créez un workflow comme suit :
+1. Dans Campaign Standard, créez un workflow pour importer les données cryptées et les décrypter à l’aide de la clé privée installée via le panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 ## Cas pratique : chiffrement et export de données à l&#39;aide d&#39;une clé installée sur le panneau de contrôle {#use-case-gpg-encrypt}
 
-Dans ce cas pratique, créez un workflow pour chiffrer et exporter des données à l’aide d’une clé installée sur Panneau de Contrôle.
+Dans ce cas d’utilisation, nous allons créer un workflow pour chiffrer et exporter des données à l’aide d’une clé installée sur le panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -97,7 +97,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    ![](assets/gpg_install.png)
 
-1. Dans Campaign Standard, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour cela, créez un workflow comme suit :
+1. Dans Campaign Standard, créez un workflow pour exporter les données et les chiffrer à l&#39;aide de la clé privée installée à l&#39;aide du panneau de contrôle. Pour ce faire, nous allons créer un workflow comme suit :
 
    ![](assets/gpg-workflow-export.png)
 
