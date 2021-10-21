@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2695'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -235,7 +235,7 @@ Chaque fois que vous cherchez de l&#39;aide sur une question de SMS, que ce soit
 
 ### Capture réseau {#network-capture}
 
-Une capture réseau n&#39;est pas toujours nécessaire, en général les messages SMPP en mode verbeux sont suffisants. Voici quelques instructions qui vous aident à déterminer si une capture réseau est nécessaire :
+Une capture réseau n’est pas toujours nécessaire, en général les messages SMPP en mode verbeux sont suffisants. Voici quelques directives qui vous aideront à déterminer si une capture réseau est nécessaire :
 
 * Problèmes de connexion, mais les messages en mode verbose n&#39;affichent aucun `BIND_RESP PDU`.
 
@@ -255,7 +255,7 @@ Dans certains cas, la capture du trafic réseau n&#39;est pas nécessaire. Voici
 
 * Problèmes de performances : les logs contiennent toutes les informations nécessaires pour tracer les problèmes de performance.
 
-* Problèmes de minutage (`retry timing`, `enquire_link` période, plafonnement du débit, etc.)
+* Problèmes de minutage (`retry timing`, `enquire_link` période, limitation du débit, etc.)
 
 * Analyse et traitement SR : les logs explicites offrent beaucoup plus de contexte et une meilleure présentation.
 
