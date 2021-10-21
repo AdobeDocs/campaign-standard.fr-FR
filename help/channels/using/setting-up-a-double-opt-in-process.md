@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -128,7 +128,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/liste bloquée
+   /context/profile/blackList
 
    puis définissez la valeur sur **vrai**.
 
@@ -143,7 +143,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Personnalisez la page de confirmation pour informer les nouveaux abonnés qu&#39;ils doivent valider son abonnement.
+1. Personnalisez la page de confirmation afin d’informer le nouvel abonné qu’il doit valider son inscription.
 
    ![](assets/optin_acquisition_page2.png)
 
