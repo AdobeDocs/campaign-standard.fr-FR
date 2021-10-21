@@ -10,15 +10,15 @@ role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Créer le courrier{#creating-the-direct-mail}
 
-La création d&#39;une diffusion courrier est très similaire à celle d&#39;un email classique. Les étapes suivantes présentent la configuration qui est spécifique à ce canal. Pour plus d&#39;informations sur d&#39;autres options, reportez-vous à la section [Créer un email](../../channels/using/creating-an-email.md).
+La création d&#39;une diffusion courrier est très similaire à celle d&#39;un email classique. Les étapes suivantes présentent la configuration qui est spécifique à ce canal. Pour plus d&#39;informations sur d&#39;autres options, reportez-vous à la section [Créer un e-mail](../../channels/using/creating-an-email.md).
 
 >[!NOTE]
 >
