@@ -9,19 +9,19 @@ role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Test de vos Triggers{#testing-your-triggers}
 
-Les conseils de dépannage suivants vous aident à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
+Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
 
 **La fonctionnalité est-elle activée ?**
 
-Pour vérifier si l&#39;intégration Triggers - Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l’élément **[!UICONTROL Triggers Experience Cloud]**.
+Pour vérifier si l’intégration Triggers - Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l’élément **[!UICONTROL Triggers Experience Cloud]**.
 
 Si vous le voyez, passez à l’étape suivante.
 
