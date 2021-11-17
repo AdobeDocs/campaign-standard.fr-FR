@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
-source-wordcount: '5459'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '5457'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Mobile App dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème qui empêchait l’ouverture de Creative Designer, entraînant une erreur. (CAMP-27304)
 * Correction d’une erreur qui empêchait le bon fonctionnement des opérations de glisser-déposer dans Creative Designer lors de l’utilisation d’Internet Explorer 11.
 * Correction d’une erreur en raison de laquelle les photos téléchargées depuis un appareil photo et prises en mode portrait s’affichaient dans une position de rotation indésirable.
-* Correction d’une erreur qui affichait des informations de sélection imprécises lors de l’utilisation de l’éditeur de requêtes dans Creative Designer.
-* Correction d’une erreur qui empêchait la duplication correcte d’un élément lors de l’utilisation de l’éditeur de requêtes dans Creative Designer.
+* Correction d’une erreur qui affichait des informations de sélection imprécises lors de l’utilisation de le requêteur dans Creative Designer.
+* Correction d’une erreur qui empêchait la duplication correcte d’un élément lors de l’utilisation du requêteur dans Creative Designer.
 * Correction d’une erreur qui entraînait la poursuite de la diffusion de messages SMS à des destinataires sur liste bloquée même s’ils avaient été désabonnés via une réponse automatique. (CAMP-27128)
 * Correction d’un problème qui empêchait l’affichage des erreurs à l’origine de l’échec du workflow **Nettoyage de la base**. (CAMP-26876)
 * Correction d’une erreur qui empêchait la suppression de champs personnalisés dans une définition de notification push. (CAMP-25588)
@@ -303,9 +303,9 @@ _Ressources personnalisées_
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
    <td> Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d’autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:<br /> 
     <ul> 
-     <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-     <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+     <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
+     <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
@@ -355,7 +355,7 @@ _Emails, SMS et courrier_
 _Audiences et requêtes_
 
 * Correction d’un problème qui empêchait d’accéder aux données et de configurer des requêtes pour les destinataires répliqués d’Adobe Campaign Classic vers Standard.
-* Correction d’un problème qui se produisait lors de l’utilisation d’un champ de type filtre dans l’éditeur de requêtes, après avoir utilisé le bouton **Compter** ou **Prévisualiser**.
+* Correction d’un problème qui se produisait lors de l’utilisation d’un champ de type filtre dans le requêteur, après avoir utilisé le bouton **Compter** ou **Prévisualiser**.
 
 _Workflows_
 
@@ -465,7 +465,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
    <td> Nouvelles fonctionnalités push<br /> </td> 
    <td> Prévisualisation des notifications push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où un utilisateur ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser l’option Contenu mutable pour :<br /> 
     <ul> 
-     <li> décrypter des données diffusées dans un format crypté ; </li> 
+     <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
      <li> changer le texte du titre ou du corps d’une notification ; </li> 
      <li> ajouter un identifiant de thread à une notification. </li> 

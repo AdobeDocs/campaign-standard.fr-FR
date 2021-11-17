@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '1237'
-ht-degree: 100%
+source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 93%
 
 ---
 
@@ -141,7 +141,17 @@ Il est possible de personnaliser l&#39;URL distante à partir de laquelle le con
 
    >[!NOTE]
    >
-   >Les champs de personnalisation disponibles sont uniquement liés aux attributs de **diffusion** (date de création de l&#39;email, statut, libellé de la campagne, etc.).
+   >Les champs de personnalisation disponibles sont liés à **Diffusion** attributs uniquement (date de création de l&#39;email, statut, libellé de la campagne, etc.).
+
+Si le téléchargement de contenu échoue lors de la première tentative, il peut être tenté à nouveau deux fois :
+
+1. La seconde tentative démarre 50 ms après la première tentative.
+1. Le troisième essai commence 100 ms après le second essai.
+
+Ces reprises sont utiles dans les cas suivants :
+
+* Une panne de service de courte durée sur un serveur distant
+* Une défaillance du serveur sur une grappe, auquel cas les reprises sont plus susceptibles de réussir grâce à l’équilibrage de charge sur un serveur opérationnel
 
 ### Mode de compatibilité {#compatibility-mode}
 

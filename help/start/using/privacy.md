@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 100%
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à v
 
 * Le **droit d’accès** permet au titulaire de données de demander au contrôleur de données si les données personnelles le concernant sont traitées ou non, et lorsqu’elles le sont, où et à quelles fins.
 
-* Le **droit à l&#39;oubli**  (demande de suppression) permet au titulaire des données d’exiger du contrôleur de données qu’il supprime les données personnelles qui le concernent.
+* Le **Droit à l&#39;oubli** (demande de suppression) autorise le titulaire de données à demander au contrôleur de données d’effacer ses données personnelles.
 
 >[!NOTE]
 >
@@ -148,4 +148,4 @@ Grâce à ses fonctionnalités de tracking, Adobe Campaign permet de suivre le c
 >
 >Des règlements, tels que le Règlement général sur la protection des données (RGPD), imposent aux entreprises d’obtenir l’accord des utilisateurs du site web avant d’installer des cookies. Vous devez informer les utilisateurs que vos sites sont équipés d’outils de tracking web par le biais d’une demande d’autorisation.
 
-Vous pouvez également ajouter des [liens trackés](../../designing/using/links.md#about-tracked-urls) dans vos messages pour mesurer l’impact de votre diffusion et du comportement du destinataire dans le rapport intégré des [indicateurs de tracking](../../reporting/using/tracking-indicators.md), ou créer vos propres [rapports dédiés](../../reporting/using/about-dynamic-reports.md).
+Vous pouvez également ajouter des [liens suivis](../../designing/using/links.md#about-tracked-urls) dans vos messages pour mesurer l’impact de votre diffusion et du comportement du destinataire dans le rapport intégré des [indicateurs de tracking](../../reporting/using/tracking-indicators.md), ou créer vos propres [rapports dédiés](../../reporting/using/about-dynamic-reports.md).

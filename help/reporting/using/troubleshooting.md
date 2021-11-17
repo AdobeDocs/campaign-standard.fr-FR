@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ Voici une représentation visuelle de l&#39;interaction des profils avec l&#39;e
 
 Pour comprendre le nombre total des ouvertures uniques, nous devons additionner les chiffres des lignes des **[!UICONTROL Ouvertures uniques]**, ce qui nous donne la valeur 3. Toutefois, comme l&#39;e-mail n&#39;était ciblé que sur 2 profils, le taux d&#39;ouverture devrait être de 150 %.
 
-Pour ne pas obtenir de pourcentage supérieur à 100, la définition des **[!UICONTROL ouvertures uniques]** est le nombre de broadlogs uniques ouverts. Dans ce cas, même si P1 a ouvert l&#39;e-mail le jour 1 et le jour 2, les ouvertures uniques sont toujours égales à 1.
+Pour ne pas obtenir de pourcentage supérieur à 100, la définition des **[!UICONTROL ouvertures uniques]** est le nombre de broadlogs uniques ouverts. Dans ce cas, même si P1 a ouvert l&#39;email le jour 1 et le jour 2, leurs ouvertures uniques seront toujours de 1.
 
 Cela donne le tableau suivant :
 

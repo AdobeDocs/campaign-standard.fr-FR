@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 ## Principaux concepts {#key-concepts}
 
-* Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour importer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
+* Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour ingérer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
 * Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
 
@@ -58,7 +58,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
 
-   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plate-forme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
    >[!NOTE]
    >

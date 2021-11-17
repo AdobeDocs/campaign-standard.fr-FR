@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ L&#39;intégration entre le core service Activation Experience Cloud **[!UICONTR
 
 Dans Adobe Experience Cloud, vous définissez les différents déclencheurs, c&#39;est-à-dire les comportements des clients que vous souhaitez contrôler, comme tous les clients qui ont abandonné leur visite de votre site Web, effectué une recherche sur votre site Web, mais sans effectuer d&#39;achats, ou dont la session a expiré. Lors de la création d&#39;un déclencheur, vous définissez sa condition et les données qui seront envoyées à Adobe Campaign dans l&#39;événement (pload). 
 
-Dans Adobe Campaign, vous sélectionnez le déclencheur qui a été précédemment créé, vous enrichissez les données de l&#39;événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au déclencheur. Par exemple, lorsqu&#39;un client abandonne sa visite de votre site Web, un événement est envoyé à Adobe Campaign. Adobe Campaign peut ensuite utiliser cet événement par le biais d&#39;un email de remarketing envoyé au client dans un délai de 15 minutes.
+Dans Adobe Campaign, vous sélectionnez le déclencheur qui a été précédemment créé, vous enrichissez les données de l&#39;événement avec celles du datamart et vous définissez un modèle de message transactionnel lié au déclencheur. Par exemple, lorsqu’un client abandonne sa visite sur votre site web, un événement est envoyé à Adobe Campaign, qui peut ensuite exploiter cet événement par le biais d’un email de remarketing envoyé au client dans les 15 minutes.
 
 Le diagramme suivant décrit le fonctionnement de cette intégration.
 

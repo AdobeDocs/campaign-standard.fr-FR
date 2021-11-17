@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez également configurer une landing page **[!UICONTROL Liste bloquée]
    ![](assets/optin_landingpage_1.png)
 
 1. Enregistrez la landing page et publiez-la.
-1. Dans la landing page, les cases à cocher sont déjà sélectionnées en fonction de l&#39;onglet **[!UICONTROL Général]** du profil. L&#39;utilisateur peut sélectionner ou désélectionner les canaux en fonction de ses besoins et envoyer le formulaire.
+1. Dans la landing page, les cases à cocher sont déjà sélectionnées en fonction de l&#39;onglet **[!UICONTROL Général]** du profil. L’utilisateur peut sélectionner ou désélectionner les canaux en fonction de ses besoins et envoyer le formulaire.
 
    ![](assets/optin_landingpage_2.png)
 

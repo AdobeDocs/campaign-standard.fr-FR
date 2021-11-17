@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -92,7 +92,7 @@ Le paramètre **[!UICONTROL filterType]** permet de rechercher des profils en fo
 
 >[!NOTE]
 >
->Les recherches sont sensibles à la casse et effectuées sur les préfixes uniquement. Par exemple, vous ne pouvez pas rechercher un profil en utilisant les dernières lettres de son nom de famille.
+>Les recherches sont sensibles à la casse et effectuées sur les préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil à l’aide des dernières lettres de leur nom de famille.
 
 ***Exemples de demande***
 

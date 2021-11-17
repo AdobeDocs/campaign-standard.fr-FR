@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Cette section détaille divers cas pratiques qui peuvent être implémentés via
 
 >[!NOTE]
 >
->Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et chiffrés sont également pris en charge. Vous pouvez envoyer des e-mails/SMS à un profil qui n&#39;existe pas dans Campaign en déchiffrant directement l&#39;adresse e-mail/le numéro de mobile cryptés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
+>Les cas pratiques décrits dans cette section sont basés sur l&#39;Identifiant du visiteur Experience Cloud. Ils peuvent également être mis en œuvre avec le Declared ID Experience Cloud. Les identifiants de type Declared ID hachés et chiffrés sont également pris en charge. Vous pouvez envoyer des emails/SMS à un profil qui n&#39;existe pas dans Campaign en déchiffrant directement l&#39;adresse e-mail/le numéro de mobile chiffrés. Dans ce cas, il n&#39;est toutefois pas possible d&#39;effectuer une personnalisation avec les données de profil.
 
 ## Conditions requises    {#pre-requisites}
 
@@ -101,11 +101,11 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Le destinataire clique sur un lien qui ouvre une page de votre site Web. Dans cet exemple, la bannière dirige le destinataire vers la page d&#39;accueil du site Web de réservation de voyages.
+1. Le destinataire clique sur un lien qui l’amène à votre site web. Dans cet exemple, la bannière dirige le destinataire vers la page d&#39;accueil du site Web de réservation de voyages.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Le destinataire se rend sur la page « Offres » mais interrompt brusquement sa visite. Après un délai de 10 minutes, Adobe Campaign déclenche l&#39;envoi du message transactionnel.
+1. Le destinataire se rend sur la page &quot;Offres&quot; mais interrompt soudainement sa visite. Après un délai de 10 minutes, Adobe Campaign déclenche l&#39;envoi du message transactionnel.
 
    ![](assets/trigger_uc_browse_12.png)
 

@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '881'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## À propos des entités {#about-units}
 
-Chaque objet et utilisateur de la plate-forme est rattaché à une entité organisationnelle. Cette entité permet de définir une structure hiérarchique afin de filtrer la vue des utilisateurs. L&#39;entité d&#39;un utilisateur définit son niveau d&#39;accès aux différents objets de la plateforme.
+Chaque objet et utilisateur de la plateforme est rattaché à une entité organisationnelle. Cette entité permet de définir une structure hiérarchique afin de filtrer la vue des utilisateurs. L&#39;entité d&#39;un utilisateur définit son niveau d&#39;accès aux différents objets de la plateforme.
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ Chaque objet et utilisateur de la plate-forme est rattaché à une entité organ
 >
 >Par défaut, l&#39;entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
 
-Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Il a accès en lecture et écriture à tous les objets de son entité et des entités enfants. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
+Un utilisateur a accès, en lecture seule, à tous les objets des entités parentes. Cet utilisateur dispose d’un accès en lecture et écriture à tous les objets de son unité et de ses entités enfants. Un utilisateur n&#39;a pas accès aux objets des branches parallèles.
 
 Par défaut, seules les entités **[!UICONTROL Toutes]** sont disponibles.
 

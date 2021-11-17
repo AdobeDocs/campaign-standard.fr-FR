@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: ebb05c9f9b5501eeda11b16be79fbb4226c0a6fe
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -210,7 +210,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
     <div>
     <p><strong>Gestion des SMS entrants</strong></p>
     </div>
-    <p>Lorsqu'un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l'action à effectuer. Personnalisation d'un type de message de notification locale</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Cliquez ici pour plus d'informations.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Lorsqu'un profil répond à un SMS qui a été envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l'action à effectuer. Personnaliser un type de message de notification locale</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Cliquez ici pour plus d’informations.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>

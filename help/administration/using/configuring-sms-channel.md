@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -316,7 +316,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
 ### Réponse automatique aux MO  {#automatic-reply-sent-to-the-mo}
 
-Lorsqu&#39;un profil répond à un SMS envoyé par le biais de Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à exécuter.
+Lorsqu&#39;un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à effectuer.
 
 Pour plus d’informations, consultez [cette section](../../channels/using/managing-incoming-sms.md).
 

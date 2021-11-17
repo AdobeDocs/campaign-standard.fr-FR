@@ -8,16 +8,16 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Créer un e-mail multilingue{#creating-a-multilingual-email}
 
-Vous pouvez envoyer un email multilingue aux profils ayant des préférences linguistiques différentes : chaque profil recevra une variante de l&#39;email dans sa langue préférée.
+Vous pouvez envoyer un email multilingue à des profils avec des préférences linguistiques différentes : chaque profil recevra une variante de l&#39;email dans sa langue préférée.
 
 Pour cela, vérifiez qu&#39;un modèle d&#39;email multilingue est disponible. Si ce n&#39;est pas le cas, apprenez à en créer un dans [cette section](../../channels/using/multilingual-messages-template.md).
 

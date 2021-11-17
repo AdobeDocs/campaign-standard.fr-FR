@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -127,7 +127,7 @@ Pour plus d’informations sur la création d’une collection et de champs asso
 
    ![](assets/message-center_loop_fallback.png)
 
-   Le contenu de remplacement sera affiché si la collection est vide lorsque l’événement est déclenché, par exemple lorsqu’un client ne possède aucun produit dans son panier.
+   Le contenu de secours s’affiche si la collection est vide au déclenchement de l’événement, par exemple si un client n’a rien dans son panier.
 
 1. Dans le volet Paramètres, éditez les styles de la liste de produits. Pour plus d&#39;informations, consultez la section [Gérer les styles d&#39;email](../../designing/using/styles.md).
 1. Prévisualisez l’email en utilisant un profil de test associé à l’événement transactionnel adéquat et pour lequel vous avez défini des données de collection. Par exemple, ajoutez les informations suivantes dans la section **[!UICONTROL Données de l’événement]** pour le profil de test que vous souhaitez utiliser :

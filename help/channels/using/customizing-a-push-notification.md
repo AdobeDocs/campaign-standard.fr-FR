@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
    Si le champ **[!UICONTROL Jouer un son]** est vide, aucun son ne sera joué.
 
-L&#39;utilisateur reçoit ensuite la notification push. Le son est émis uniquement si le téléphone n&#39;est pas muet.
+L&#39;utilisateur ne recevra alors la notification push et le son que si son téléphone n&#39;est pas coupé.
 
 ## Actualiser la valeur du badge       {#refresh-the-badge-value}
 
@@ -170,7 +170,7 @@ Lorsque l&#39;option **[!UICONTROL Contenu mutable]** est cochée ou qu&#39;une 
 
 Vous pouvez ensuite tirer parti des extensions de votre application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser cette option pour :
 
-* décrypter des données diffusées dans un format crypté ;
+* déchiffrer des données diffusées dans un format chiffré ;
 * télécharger des images ou d&#39;autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ;
 * changer le texte du titre ou du corps d&#39;une notification ;
 * ajouter un identifiant de thread à une notification.

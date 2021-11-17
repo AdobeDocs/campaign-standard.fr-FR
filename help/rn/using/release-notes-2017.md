@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
 source-wordcount: '4688'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -199,8 +199,8 @@ _Profils et audiences_
    <td> En plus de visualiser les notifications directement dans Adobe Campaign Standard, Adobe Campaign propose également un système d’alerte par email, qui déclenche l’envoi d’alertes par email aux utilisateurs ou aux membres externes afin de les informer d’activités système importantes. Créez, gérez et recevez des alertes et des tableaux de bord personnalisables pour suivre les performances des diffusions.<br /> Les alertes de diffusion d’Adobe Campaign accroissent l’efficacité en maintenant automatiquement informés tous les utilisateurs actifs d’Adobe Campaign en ce qui concerne le statut d’exécution des diffusions, par email ou par le biais d’un tableau de bord. Pour plus d’informations, consultez la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Identifiant Declared ID crypté dans les sources de données<br /> </td> 
-   <td> Envoyez des emails et des SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact cryptées (adresse email ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID cryptés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts encore inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Identifiant Declared ID chiffré dans les sources de données<br /> </td> 
+   <td> Envoyez des e-mails et des SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts encore inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Partage des KPI de Campaign vers Analytics<br /> </td> 
@@ -208,7 +208,7 @@ _Profils et audiences_
   </tr> 
   <tr> 
    <td> Canal Courrier - Retour à l’expéditeur<br /> </td> 
-   <td> Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Les marketeurs peuvent ainsi être avertis si une adresse est incorrecte, interagir avec le client à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Cela permet aux marketeurs d’être avertis d’une adresse incorrecte et d’interagir avec le client via d’autres canaux ou de l’encourager à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -369,8 +369,8 @@ _Intégrations_
 
 _Audiences et requêtes_
 
-* Correction d’une erreur qui empêchait l’utilisation des agrégats (somme et moyenne) sur une collection dans l’éditeur de requêtes.
-* Correction d’une erreur qui empêchait le rechargement de l’éditeur de requêtes après le changement de la ressource du filtre.
+* Correction d’une erreur qui empêchait l’utilisation des agrégats (somme et moyenne) sur une collection dans le requêteur.
+* Correction d’une erreur qui empêchait le rechargement du requêteur après le changement de la ressource du filtre.
 
 _Rapports_
 
@@ -400,7 +400,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
