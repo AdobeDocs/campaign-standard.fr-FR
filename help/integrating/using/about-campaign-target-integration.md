@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
 
@@ -23,8 +23,8 @@ Cette intégration permet à un destinataire de recevoir un email via Adobe Camp
 
 Plusieurs types de données peuvent être utilisés par Adobe Target :
 
-* données provenant du datamart Adobe Campaign ;
-* segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
-* données d&#39;Adobe Target : user agent, adresse IP, données de géolocalisation.
+* données provenant du datamart Adobe Campaign ;
+* segments associés à l&#39;identifiant visiteur dans Adobe Target, si les données utilisées ne sont pas soumises à des limitations légales ;
+* données d&#39;Adobe Target : user agent, adresse IP, données de géolocalisation.
 
-Vous pouvez également trouver des informations supplémentaires sur l&#39;intégration entre Adobe Campaign et Adobe Target sur le [Portail Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).
+Vous pouvez également trouver des informations supplémentaires sur l&#39;intégration entre Adobe Campaign et Adobe Target sur le [Portail Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=fr).

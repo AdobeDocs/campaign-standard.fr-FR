@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2510'
 ht-degree: 100%
 
@@ -19,15 +19,15 @@ ht-degree: 100%
 
 ## Gestion des données {#acs-msdyn-manage-data}
 
-En ce qui concerne la synchronisation des contacts et des entités personnalisées, cette intégration traite **Microsoft Dynamics 365 comme la source de vérité**. Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365 et et non dans Adobe Campaign Standard). Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées dans Campaign pendant la synchronisation, car la synchronisation est unidirectionnelle.
+En ce qui concerne la synchronisation des contacts et des entités personnalisées, cette intégration traite **Microsoft Dynamics 365 comme la source de vérité**. Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365 et et non dans Adobe Campaign Standard). Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées dans Campaign pendant la synchronisation, car la synchronisation est unidirectionnelle.
 
 L&#39;intégration peut être facultativement configurée pour émettre des appels de suppression de profil vers Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, afin de préserver l&#39;intégrité des données. Cependant, une suppression de profil est différente d&#39;une suppression des informations personnelles. Une suppression des informations personnelles dans Campaign supprimera l&#39;enregistrement du profil Campaign et les entrées de log associées ; alors qu&#39;une suppression du profil normale ne fera que supprimer l&#39;enregistrement du profil Campaign, laissant des traces dans les logs Campaign. Si la fonction de suppression du profil est activée dans l&#39;intégration, il sera nécessaire de suivre d&#39;autres étapes pour traiter correctement les demandes d&#39;accès à des informations personnelles provenant du titulaire de données. Reportez-vous aux étapes de la [Confidentialité section ci-dessous](#manage-privacy-requests).
 
 ## Confidentialité{#acs-msdyn-manage-privacy}
 
-Cette intégration est conçue pour transférer des données d&#39;utilisateur final entre Microsoft Dynamics 365 et Adobe Campaign Standard. Ces données comprennent des informations personnelles si elles sont contenues dans vos données d&#39;utilisateur final. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
+Cette intégration est conçue pour transférer des données d&#39;utilisateur final entre Microsoft Dynamics 365 et Adobe Campaign Standard. Ces données comprennent des informations personnelles si elles sont contenues dans vos données d&#39;utilisateur final. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
 
-Cette intégration a pour but de transférer les données des utilisateurs finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
+Cette intégration a pour but de transférer les données des utilisateurs finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
 
 L&#39;intégration ne permet pas de supprimer ou de traiter toute autre demande d&#39;accès à des informations personnelles (à l&#39;exception de la désinscription). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
 
@@ -47,7 +47,7 @@ Vous trouverez ci-dessous des liens pour vous aider à implémenter et/ou suppri
 
 * [Microsoft Dynamics 365](https://docs.microsoft.com/fr-fr/dynamics365/get-started/gdpr/)
 
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
+* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
 
 >[!IMPORTANT]
 >
@@ -67,11 +67,11 @@ Vous trouverez plus d&#39;informations sur les champs d&#39;entité de profil [i
 
 Dans Dynamics 365, la plupart des champs d&#39;opt-out ont le préfixe &quot;donot&quot;, toutefois, vous pouvez également utiliser d&#39;autres attributs personnalisés à des fins d&#39;opt-out si les types de données sont compatibles.
 
-Lors de la mise en service de l&#39;intégration, vous aurez la possibilité de spécifier la configuration d&#39;opt-out dont vous avez besoin pour votre entreprise :
+Lors de la mise en service de l’intégration, vous aurez la possibilité de spécifier la configuration d’opt-out dont vous avez besoin pour votre entreprise :
 
-* **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** : Dynamics 365 est une source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens de Dynamics 365 vers Campaign Standard.
-* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
-* **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d&#39;opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
+* **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** : Dynamics 365 est une source de vérité pour les opt-outs. Les attributs d&#39;opt-out seront synchronisés dans un sens de Dynamics 365 vers Campaign Standard.
+* **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** : Campaign Standard est la source de vérité pour les opt-outs. Les attributs d’opt-out seront synchronisés dans un sens, de Campaign Standard vers Dynamics 365.
+* **Bidirectionnelle** : Dynamics 365 ET Campaign Standard sont deux sources de vérité. Les attributs d’opt-out seront synchronisés de façon bidirectionnelle entre Campaign Standard et Dynamics 365
 
 Si vous disposez également d&#39;un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d&#39;opt-out de l&#39;intégration peut être désactivé.
 
@@ -81,9 +81,9 @@ Découvrez comment sélectionner les options d&#39;opt-out/opt-in dans [cette se
 
 >[!NOTE]
 >
->Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences de désinscription reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
+>Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences de désinscription reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
 
-Si vous avez sélectionné la configuration d’opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d’opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign » ci-dessous). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
+Si vous avez sélectionné la configuration d’opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d’opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign » ci-dessous). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
 
 >[!IMPORTANT]
 >
@@ -131,11 +131,11 @@ Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données s
 
 >[!IMPORTANT]
 >
->Certaines actions de votre part (p.ex., l&#39;ingestion initiale des enregistrements, la relecture des données d&#39;enregistrement, etc.) peuvent entraîner une grande quantité d&#39;enregistrements ingérés de Microsoft Dynamics 365 vers votre instance Adobe Campaign. Pour limiter le risque de problèmes de performances, il est recommandé d&#39;arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.) jusqu&#39;à ce que la grande quantité d&#39;enregistrements ait été ingérée dans Campaign.
+>Certaines actions de votre part (p.ex., l&#39;ingestion initiale des enregistrements, la relecture des données d&#39;enregistrement, etc.) peuvent entraîner une grande quantité d&#39;enregistrements ingérés de Microsoft Dynamics 365 vers votre instance Adobe Campaign. Pour limiter le risque de problèmes de performances, il est recommandé d&#39;arrêter tous les processus Campaign (par exemple, aucune activité marketing, aucune exécution de workflows, etc.) jusqu&#39;à ce que la grande quantité d&#39;enregistrements ait été ingérée dans Campaign.
 
 ### Entités personnalisées
 
-L&#39;[intégration Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) prend en charge les entités personnalisées, ce qui permet de synchroniser les entités personnalisées de Dynamics 365 avec les ressources personnalisées correspondantes dans Campaign.
+L’[intégration Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) prend en charge les entités personnalisées, ce qui permet de synchroniser les entités personnalisées de Dynamics 365 avec les ressources personnalisées correspondantes dans Campaign.
 
 L&#39;intégration prend en charge les tables liées et non liées.
 
@@ -167,9 +167,9 @@ Les barrières de sécurité suivantes doivent être prises en compte lors de la
 
    Lors de l&#39;estimation du volume global des appels au moteur Campaign, il est important de prendre en compte d&#39;autres sources d&#39;appels au moteur, notamment les landing pages, les WebApps, les JSSP, les API, les inscriptions aux applications mobiles, etc.
 
-   [Consultez des informations sur le package Adobe Campaign Standard ici : https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html)
+   [Consultez des informations sur le package Adobe Campaign Standard ici : https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html)
 
-* L&#39;intégration prend en charge un maximum de 15 millions d&#39;enregistrements au total pour la synchronisation initiale avec les ressources dans Campaign. La synchronisation incrémentielle est limitée par le package Adobe Campaign Standard.
+* L&#39;intégration prend en charge un maximum de 15 millions d&#39;enregistrements au total pour la synchronisation initiale avec les ressources dans Campaign. La synchronisation incrémentielle est limitée par le package Adobe Campaign Standard.
 
 * L&#39;offre d&#39;intégration standard comprend la prise en charge de vingt entités personnalisées au maximum, chacune d&#39;elles d&#39;une taille maximale de 50 colonnes.
 
@@ -179,7 +179,7 @@ Les barrières de sécurité suivantes doivent être prises en compte lors de la
 
 * L&#39;intégration prend en charge jusqu&#39;à 5 colonnes liées par ressource personnalisée. La liaison de plusieurs colonnes entre des ressources personnalisées peut avoir des répercussions considérables sur les performances. **Le lien simple de cardinalité 0 ou 1** est préférable au **lien simple de cardinalité 1**.
 
-* L&#39;intégration prend en charge la transformation entre les types de données Microsoft Dynamics 365 primitifs (booléen, entier, décimal, double, chaîne, date et heure, date) et les types de données Adobe Campaign Standard (entier, booléen, flottant, double, date, date et heure, chaîne). Les types de données plus avancés sont interprétés comme des chaînes et synchronisés en l&#39;état.
+* L&#39;intégration prend en charge la transformation entre les types de données Microsoft Dynamics 365 primitifs (booléen, entier, décimal, double, chaîne, date et heure, date) et les types de données Adobe Campaign Standard (entier, booléen, flottant, double, date, date et heure, chaîne). Les types de données plus avancés sont interprétés comme des chaînes et synchronisés en l&#39;état.
 
 * Il peut être nécessaire d&#39;établir des fenêtres de maintenance pour l&#39;intégration entre Adobe et le client.
 
@@ -193,7 +193,7 @@ Les barrières de sécurité suivantes doivent être prises en compte lors de la
 
 L&#39;intégration a été conçue pour résoudre le cas pratique général du mouvement de données communes entre Microsoft Dynamics 365 et Campaign, mais elle n&#39;est pas destinée à traiter chaque cas pratique spécifique à chaque client :
 
-* &#39;intégration n&#39;émet aucune suppression d&#39;informations personnelles (ex. : RGPD). La responsabilité de répondre aux demandes d&#39;accès à des informations personnelles des utilisateurs finaux incombe au client ; de telles demandes doivent être effectuées indépendamment à la fois dans Campaign (via Adobe Experience Platform Privacy Service) et dans Dynamics 365. L&#39;intégration peut générer des suppressions régulières pour faciliter la synchronisation des données, si nécessaire.   Consultez [la section Confidentialité](#manage-privacy-requests) pour plus d&#39;informations.
+* ’intégration n’émet aucune suppression d’informations personnelles (ex. : RGPD). La responsabilité de répondre aux demandes d&#39;accès à des informations personnelles des utilisateurs finaux incombe au client ; de telles demandes doivent être effectuées indépendamment à la fois dans Campaign (via Adobe Experience Platform Privacy Service) et dans Dynamics 365. L&#39;intégration peut générer des suppressions régulières pour faciliter la synchronisation des données, si nécessaire.   Consultez [la section Confidentialité](#manage-privacy-requests) pour plus d&#39;informations.
 
 * Aucune donnée de profil ou d&#39;entité personnalisée ne sera synchronisée de Campaign vers Dynamics 365, à l&#39;exception des informations d&#39;opt-out (si elles sont configurées par le client).
 

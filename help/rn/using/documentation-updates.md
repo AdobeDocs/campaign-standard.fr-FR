@@ -1,6 +1,6 @@
 ---
 title: Mises à jour de la documentation
-description: Découvrez l'ensemble des mises à jour les plus récentes de la documentation d'Adobe Campaign Standard.
+description: Découvrez l’ensemble des mises à jour les plus récentes de la documentation d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6964'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # Mises à jour de la documentation{#documentation-updates}
 
-Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
+Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---september-2021}
 
 **Nouvelles fonctionnalités de cette version**
 
-Interface Experience Cloud améliorée et unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
+Interface Experience Cloud améliorée et unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
 
 Nouvelle fonctionnalité Journal d’audit – [En savoir plus](../../administration/using/audit.md)
 
@@ -62,7 +62,7 @@ La page **Calendrier des versions** a été mise à jour avec de nouvelles dates
 
 ## Avril 2021 {#doc-updates-april-2021}
 
-Une nouvelle section consacrée à la manière d&#39;utiliser les sources et destinations Adobe Experience Platform pour partager des données entre Campaign Standard et Real-time Customer Data Platform (RTCDP) a été ajoutée. [En savoir plus](../../integrating/using/get-started-sources-destinations.md)
+Une nouvelle section consacrée à la manière d&#39;utiliser les sources et destinations Adobe Experience Platform pour partager des données entre Campaign Standard et Real-time Customer Data Platform (RTCDP) a été ajoutée. [En savoir plus](../../integrating/using/get-started-sources-destinations.md)
 
 ## Mars 2021 {#doc-updates-march-2021}
 
@@ -72,9 +72,9 @@ La section qui répertorie les étapes clés concernant l&#39;envoi d&#39;un mes
 
 Des informations ont été ajoutées pour indiquer que, lors de la sélection d&#39;une audience dans une requête, sa définition est copiée et non référencée. [En savoir plus](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-Les informations relatives au service Audience Destinations et au connecteur de données Adobe Experience Platform ont été regroupées dans une nouvelle section. [En savoir plus](../../integrating/using/aep-about-audience-destinations-service.md)
+Les informations relatives au service Audience Destinations et au connecteur de données Adobe Experience Platform ont été regroupées dans une nouvelle section. [En savoir plus](../../integrating/using/aep-about-audience-destinations-service.md)
 
-Désormais, la source de données **d&#39;ID déclarés** peut également être utilisée avec l&#39;intégration de People Core Service. Des informations ont été ajoutées à la documentation sur l&#39;intégration de Campaign-Audience Manager ou People Core Service. [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Désormais, la source de données **d&#39;ID déclarés** peut également être utilisée avec l&#39;intégration de People Core Service. Des informations ont été ajoutées à la documentation sur l’intégration de Campaign-Audience Manager ou People Core Service. [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Des informations ont été ajoutées au sujet de l&#39;implémentation du tracking local pour les applications mobiles. [En savoir plus](../../administration/using/local-tracking.md)
 
@@ -86,9 +86,9 @@ La section [Délivrabilité](../../sending/using/about-deliverability.md) a ét�
 
 Service de commentaires par email – [En savoir plus](../../sending/using/confirming-the-send.md#message-indicators)
 
-Améliorations de l&#39;intégration d&#39;Adobe Experience Manager - [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
+Améliorations de l&#39;intégration d&#39;Adobe Experience Manager - [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
 
-Interface Experience Cloud unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
+Interface Experience Cloud unifiée – [En savoir plus](../../start/using/interface-description.md#top-bar)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -112,7 +112,7 @@ Un cas pratique de bout en bout est désormais disponible pour illustrer le proc
 
 La section **Confidentialité** a été déplacée [ici](../../start/using/privacy.md).
 
-Une nouvelle page **Accessibilité** est disponible : elle présente la prise en charge de l&#39;accessibilité dans l&#39;espace de travail Adobe Campaign Standard. [En savoir plus](../../start/using/accessibility.md)
+Une nouvelle page **Accessibilité** est disponible : elle présente la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard. [En savoir plus](../../start/using/accessibility.md)
 
 Une note d&#39;avertissement a été ajoutée, indiquant que, pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100. [En savoir plus](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -130,7 +130,7 @@ La section **Confidentialité** a été déplacée et enrichie de deux nouvelles
 
 La section **Messagerie transactionnelle** a été réorganisée et regroupée en un seul emplacement pour une navigation améliorée. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
-Des informations ont été ajoutées dans la section Connecteur de données Adobe Experience Platform sur l&#39;erreur de validation du mapping de données liée à la gestion de la confidentialité et sur la manière de la résoudre. [En savoir plus](../../integrating/using/aep-mapping-activation.md)
+Des informations ont été ajoutées dans la section Connecteur de données Adobe Experience Platform sur l&#39;erreur de validation du mapping de données liée à la gestion de la confidentialité et sur la manière de la résoudre. [En savoir plus](../../integrating/using/aep-mapping-activation.md)
 
 ## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
 
@@ -160,7 +160,7 @@ Une note d&#39;avertissement a été ajoutée pour avertir les utilisateurs des 
 
 Une nouvelle section a été ajoutée pour détailler le processus de création d&#39;une nouvelle marque. [En savoir plus](../../administration/using/branding.md#creating-a-brand)
 
-La nouvelle intégration Campaign Standard - Microsoft Dynamics 365 est désormais disponible. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
+La nouvelle intégration Campaign Standard - Microsoft Dynamics 365 est désormais disponible – [En savoir plus](../../integrating/using/d365-acs-get-started.md)
 
 Des informations sur les sources anonymes ont été ajoutées dans le rapport Profils actifs. [En savoir plus](../../audiences/using/active-profiles.md)
 
@@ -190,17 +190,17 @@ Nouvelles fonctionnalités d&#39;emails optimisées par l&#39;IA : optimisation
 
 Les cas d&#39;utilisation des workflows ont été actualisés et réorganisés en sections thématiques. [En savoir plus](../../automating/using/about-workflow-use-cases.md)
 
-Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l&#39;aide du panneau de contrôle et des workflows Campaign.
+Des cas d&#39;utilisation ont été ajoutés pour [chiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) et [déchiffrer](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) des données à l&#39;aide du Panneau de contrôle et des workflows Campaign.
 
 Les références à l&#39;ancien site web d&#39;assistance ont été remplacées par la nouvelle URL. [En savoir plus](../../support.md)
 
 La configuration de compte Litmus personnalisé a été supprimée de la fonctionnalité d&#39;Inbox rendering. [En savoir plus](../../sending/using/email-rendering.md)
 
-L&#39;intégration Campaign Standard - Microsoft Dynamics 365 n&#39;est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera prochainement disponible. Les pages d&#39;aide connexes ont été supprimées. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
+L’intégration Campaign Standard - Microsoft Dynamics 365 n’est actuellement pas disponible. Un nouveau connecteur est en cours de développement et sera prochainement disponible. Les pages d&#39;aide connexes ont été supprimées. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
 
 ## Mai 2020 {#doc-updates-may-2020}
 
-La page de présentation de Campaign Standard a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
+La page de présentation de Campaign Standard a été enrichie et réorganisée en thèmes. [En savoir plus](../../start/using/about-campaign-standard.md)
 
 La section Paramètres du canal email a été clarifiée avec des informations supplémentaires sur les champs de masques autorisés et l&#39;identifiant des rapports de diffusion. [En savoir plus](../../administration/using/configuring-email-channel.md)
 
@@ -228,11 +228,11 @@ Une section de questions fréquentes a été ajoutée au sujet du Concepteur d&#
 
 ## Avril 2020 {#doc-updates-april-2020}
 
-L&#39;intégration de Microsoft Dynamics 365 avec la documentation d&#39;Adobe Campaign Standard est désormais disponible dans la documentation principale. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
+L&#39;intégration de Microsoft Dynamics 365 avec la documentation d’Adobe Campaign Standard est désormais disponible dans la documentation principale. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
 
 Des ressources supplémentaires ont été ajoutées à la page d&#39;accueil de la documentation. [En savoir plus](../../campaign-standard-home.md)
 
-Des informations sur le service d&#39;identité Experience Cloud (ECID) ont été ajoutées à la documentation du connecteur Adobe Experience Platform. [En savoir plus](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Des informations sur le service d&#39;identité Experience Cloud (ECID) ont été ajoutées à la documentation du connecteur Adobe Experience Platform. [En savoir plus](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 La section Messages transactionnels a été améliorée avec des informations sur l&#39;accès aux derniers événements transactionnels et des captures d&#39;écran mises à jour. [En savoir plus](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -284,11 +284,11 @@ Déplacement et mise à jour de la section consacrée à l&#39;archivage avec e-
 
 Mise à jour de la documentation sur la configuration d&#39;une application mobile et des pages connexes pour prendre en compte l&#39;obsolescence du SDK V4. [En savoir plus](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Mise à jour et amélioration de la documentation sur l&#39;intégration Adobe Campaign Standard/Adobe Experience Manager. [En savoir plus](../../integrating/using/configure-experience-manager.md)
+Mise à jour et amélioration de la documentation sur l’intégration Adobe Campaign Standard/Adobe Experience Manager –  [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
 Mise à jour de la documentation sur le Concepteur d&#39;e-mails de Campaign et des pages connexes pour prendre en compte l&#39;obsolescence du [!DNL Adobe Creative SDK]. [En savoir plus](../../rn/using/deprecated-features.md)
 
-Disponibilité d&#39;une nouvelle section consacrée aux bonnes pratiques relatives au modèle de données Campaign Standard. [En savoir plus](../../developing/using/data-model-best-practices.md)
+Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relatives au modèle de données Campaign Standard –  [En savoir plus](../../developing/using/data-model-best-practices.md)
 
 Ajout d&#39;informations sur le droit natif **[!UICONTROL Workflow]**. [En savoir plus](../../administration/using/list-of-roles.md)
 
@@ -304,7 +304,7 @@ Audience Destinations (version bêta) – [En savoir plus](../../integrating/u
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Mise à jour de la documentation relative à la gestion de la confidentialité avec des informations sur la création du champ d&#39;opt-out du CCPA pour les ressources de profil personnalisées. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html)
+Mise à jour de la documentation relative à la gestion de la confidentialité avec des informations sur la création du champ d&#39;opt-out du CCPA pour les ressources de profil personnalisées. [En savoir plus](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 Réorganisation et amélioration des notes de mise à jour. [En savoir plus](../../rn/using/release-notes.md)
 
@@ -332,7 +332,7 @@ Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques. 
 
 Ajout d&#39;une nouvelle page sur les directives générales relatives aux diffusions mobiles dans Adobe Campaign Standard. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html)
 
-Mise à jour de la documentation relative à l&#39;utilisation de Campaign et d&#39;Experience Manager avec une nouvelle section de **conseils sur l&#39;utilisation de l&#39;intégration Campaign-Experience Manager**. [En savoir plus](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+Mise à jour de la documentation relative à l’utilisation de Campaign et d’Experience Manager avec une nouvelle section de **conseils sur l’utilisation de l’intégration Campaign-Experience Manager** –  [En savoir plus](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 Amélioration de la page d&#39;accueil de la documentation des API avec des redirections vers les différentes rubriques. [En savoir plus](../../api/using/get-started-apis.md)
 
@@ -346,21 +346,21 @@ Le guide de prise en main de la délivrabilité a été intégré à la document
 
 Le guide de prise en main sur l&#39;export/import des ressources personnalisées a été intégré dans la documentation principale. [En savoir plus](../../automating/using/exporting-importing-custom-resources.md)
 
-Ajout d&#39;un nouveau cas pratique, décrivant comment créer une population témoin à l&#39;aide d&#39;un workflow dans Campaign Standard.
+Ajout d’un nouveau cas pratique, décrivant comment créer une population témoin à l’aide d’un workflow dans Campaign Standard.
 
 Les informations relatives aux propriétés des landing pages ont été déplacées dans une section dédiée. [En savoir plus](../../channels/using/configuring-landing-page.md)
 
-La documentation du panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+La documentation du Panneau de contrôle a été intégrée au nouvel ensemble de documentation collaborative. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
 
 Le tableau de **calcul des indicateurs** a été mis à jour. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Le jeu de documentation des API a été intégré à la documentation de Campaign Standard. [En savoir plus](../../api/using/get-started-apis.md)
+Le jeu de documentation des API a été intégré à la documentation de Campaign Standard.[En savoir plus](../../api/using/get-started-apis.md)
 
 La section de prise en main de la création d&#39;un email personnalisé a été déplacée et mise à jour. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-get-started-with-emails.html)
 
 Mise à jour du guide de prise en main des bonnes pratiques de diffusion. [En savoir plus](../../sending/using/delivery-best-practices.md)
 
-Le datamodel a été intégré à la documentation de Campaign Standard. [En savoir plus](../../developing/using/datamodel-audience.md)
+Le datamodel a été intégré à la documentation de Campaign Standard. [En savoir plus](../../developing/using/datamodel-audience.md)
 
 Le nouveau point d&#39;entrée d&#39;API **/customResources** a été ajouté à la documentation de l&#39;API. [En savoir plus](../../api/using/interacting-with-custom-resources.md)
 
@@ -374,7 +374,7 @@ Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](../../integ
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La liste des messages d&#39;erreur d&#39;Adobe Campaign a été mise à jour. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s&#39;agit maintenant d&#39;une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
@@ -404,7 +404,7 @@ Un nouvel exemple a été ajouté pour montrer comment envoyer un email contenan
 
 Une nouvelle section sur l&#39;utilisation des pièges a été ajoutée. [En savoir plus](../../sending/using/using-traps.md)
 
-Une note sur l&#39;option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
+Une note sur l&#39;option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 Réorganisation du guide du concepteur d&#39;emails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -414,7 +414,7 @@ Ajout d&#39;une section comportant des cas pratiques sur les workflows axés sur
 
 Ajout d&#39;une procédure dans la section de dépannage des workflows. Celle-ci aborde la manière d&#39;afficher les requêtes SQL dans l&#39;onglet Log. [En savoir plus](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Ajout d&#39;un article d&#39;aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le panneau de contrôle. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
+Ajout d’un article d’aide comportant des informations relatives aux sous-domaines et à la gestion des certificats dans le Panneau de contrôle –  [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
 
 Mise à jour de la section décrivant les modèles et les fragments de contenu. [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -430,7 +430,7 @@ Rapport sur le segment de workflow – [En savoir plus](../../reporting/using/
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Disponibilité du Guide de mise en œuvre de Campaign Standard. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html)
+Disponibilité du Guide de mise en œuvre de Campaign Standard –[En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html)
 
 Création d&#39;un ensemble de nouveaux articles d&#39;aide sur l&#39;implémentation et l&#39;utilisation du connecteur Microsoft Dynamics 365. Cette fonctionnalité est actuellement en disponibilité limitée. [En savoir plus](../../integrating/using/d365-acs-get-started.md)
 
@@ -438,7 +438,7 @@ Ajout d&#39;une note à la section [Appeler un workflow avec des paramètres](..
 
 Des informations ont été ajoutées sur la personnalisation du libellé d&#39;une diffusion avec des variables d&#39;événements qui ont été déclarées dans l&#39;activité de signal externe du workflow. [En savoir plus](../../automating/using/external-signal.md)
 
-Ajout d&#39;une section présentant comment créer un utilisateur dans Adobe Campaign Standard. [En savoir plus](../../administration/using/users-management.md)
+Ajout d’une section présentant comment créer un utilisateur dans Adobe Campaign Standard –  [En savoir plus](../../administration/using/users-management.md)
 
 Disponibilité d&#39;un nouvel article comprenant des conseils pour simplifier les campagnes marketing, notamment des liens vers la documentation du produit et des vidéos de tutoriel. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html)
 
@@ -476,7 +476,7 @@ Ajout d&#39;un avertissement à la documentation des ressources personnalisées.
 
 **Nouvelles fonctionnalités de cette version**
 
-Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+Panneau de contrôle – [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Notifications locales – [En savoir plus](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -492,7 +492,7 @@ Publication d&#39;un nouvel article sur le calendrier des versions pour communiq
 
 Mise à jour des liens d&#39;aide contextuelle directement accessibles depuis Adobe Campaign.
 
-Cette [page](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=fr) devient la page officielle des vidéos d&#39;Adobe Campaign Standard.
+Cette [page](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=fr) devient la page officielle des vidéos d’Adobe Campaign Standard.
 
 Ajout d&#39;une section sur la rétention des données comprenant les valeurs de rétention par défaut pour les tables standards. [En savoir plus](../../administration/using/data-retention.md)
 
@@ -502,7 +502,7 @@ Ajout d&#39;informations sur la nouvelle option de tri de l&#39;activité **Tran
 
 Mise à jour de la [documentation sur les API REST](../../api/using/get-started-apis.md) :
 
-* Ajout d&#39;une nouvelle section comportant des informations génériques sur les raisons d&#39;utiliser les API REST Campaign Standard
+* Ajout d’une nouvelle section comportant des informations génériques sur les raisons d’utiliser les API REST Campaign Standard
 * Mise à disposition d&#39;un ensemble de requêtes d&#39;API préconçues, représentant des cas pratiques courants
 * Ajout d&#39;une section sur la gestion des entités organisationnelles
 * Ajout d&#39;informations sur la création d&#39;un service
@@ -558,7 +558,7 @@ Ajout au chapitre Editer un contenu d&#39;email de la nouvelle expérience d&#39
 
 Ajout d&#39;une section sur les limites des messages transactionnels. [En savoir plus](../../channels/using/transactional-messaging-limitations.md)
 
-Ajout d&#39;une section comparant les différentes options de création d&#39;email dans Adobe Campaign. [En savoir plus](../../designing/using/using-integrations.md#email-design-options-comparison)
+Ajout d’une section comparant les différentes options de création d’email dans Adobe Campaign –  [En savoir plus](../../designing/using/using-integrations.md#email-design-options-comparison)
 
 La section Créer des blocs de contenu personnalisés a été étoffée avec des détails sur les dimensions de ciblage. [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
@@ -630,9 +630,9 @@ Ajout d&#39;informations sur la nouvelle option de l&#39;activité Extraction de
 
 Déplacement vers cet [emplacement](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) de la section Configuration d&#39;une application mobile à l&#39;aide du SDK V4.
 
-Déplacement vers cet [emplacement](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html) de la section Configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform.
+Déplacement vers cet [emplacement](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) de la section Configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform.
 
-Mise à jour des vidéos et déplacement vers cet [emplacement](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=fr).
+Mise à jour des vidéos et déplacement vers cet [emplacement](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html).
 
 Mise à jour de la section Type des utilisateurs. [En savoir plus](../../administration/using/users-management.md)
 
@@ -662,9 +662,9 @@ Import de contenu automatisé à partir d&#39;une URL au moment de la préparati
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Ajout d&#39;une nouvelle technote sur les paramètres et le protocole du connecteur SMS. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html)
+Ajout d&#39;une nouvelle technote sur les paramètres et le protocole du connecteur SMS. [En savoir plus](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
-Mise à jour de la documentation sur l&#39;intégration d&#39;Experience Manager avec Adobe Campaign. [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
+Mise à jour de la documentation sur l&#39;intégration d&#39;Experience Manager avec Adobe Campaign. [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
 
 Entière réorganisation du guide &quot;Conception du contenu&quot;, notamment pour présenter les deux éditeurs permettant de concevoir le contenu des emails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -674,7 +674,7 @@ La liste des attributs HTML permettant une conformité totale avec Creative Desi
 
 Ajout d&#39;informations sur la langue par défaut d&#39;un modèle multilingue. [En savoir plus](../../channels/using/multilingual-messages-template.md)
 
-Le guide Utilisateurs &amp; sécurité a été mis à jour pour refléter le fait que l&#39;entité géographique soit devenue obsolète pour les nouvelles instances de Campaign Standard, ainsi que pour les instances existantes sans entité géographique créée, à partir de la version 18.7. [En savoir plus](../../rn/using/deprecated-features.md)
+Le guide Utilisateurs &amp; sécurité a été mis à jour pour refléter le fait que l’entité géographique soit devenue obsolète pour les nouvelles instances de Campaign Standard, ainsi que pour les instances existantes sans entité géographique créée, à partir de la version 18.7 – [En savoir plus](../../rn/using/deprecated-features.md)
 
 ## Version 18.6 - Juin 2018  {#release-18-6---june-2018}
 
@@ -688,7 +688,7 @@ Mise à jour et réorganisation de la documentation sur l&#39;intégration Trigg
 
 Ajout d&#39;un cas pratique détaillé permettant de créer une dimension de profil personnalisée. [En savoir plus](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-Réorganisation de la documentation Utilisation de Campaign et Audience Manager ou People core service. [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+Réorganisation de la documentation Utilisation de Campaign et Audience Manager ou People core service. [En savoir plus](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 Mise à jour de la définition du rôle Préparer les diffusions. [En savoir plus](../../administration/using/list-of-roles.md)
 
@@ -734,7 +734,7 @@ Certaines pages de la documentation consacrée à l&#39;éditeur de contenu ont 
 
 **Nouvelles fonctionnalités de cette version**
 
-Règlement général sur la protection des données de l&#39;UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html)
+Règlement général sur la protection des données de l&#39;UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer pour les emails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -760,7 +760,7 @@ Mise à jour de la section relative à l&#39;activité Planificateur. [En savoir
 
 Mise à jour de la liste des ressources d&#39;aide concernant l&#39;intégration des solutions Campaign et Adobe. [En savoir plus](../../integrating/using/get-started-campaign-integrations.md)
 
-Mise à jour de l&#39;aide contextuelle intégrée à Campaign Standard.
+Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
 ## Version 18.2 - Février 2018   {#release-18-2---february-2018}
 
@@ -832,7 +832,7 @@ Ajout d&#39;informations sur la récupération des SMS entrants à l&#39;aide d&
 
 Ajout d&#39;informations sur les Paramètres d&#39;historisation de l&#39;activité Transfert de fichier. [En savoir plus](../../automating/using/transfer-file.md)
 
-Mise à jour des instructions pour configurer l&#39;intégration avec Audience Manager ou People core service. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Mise à jour des instructions pour configurer l’intégration avec Audience Manager ou People core service – [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## Version 17.10 - Octobre 2017   {#release-17-10---october-2017}
 
@@ -854,17 +854,17 @@ Ajout de précisions sur l&#39;export de package natif. [En savoir plus](../../a
 
 Mise à jour de la définition et des exemples de compte externe. [En savoir plus](../../administration/using/external-accounts.md)
 
-Mise à jour de nombreuses captures d&#39;écran pour refléter les modifications apportées aux catégories de l&#39;éditeur de requêtes.
+Mise à jour de nombreuses captures d&#39;écran pour refléter les modifications apportées aux catégories du requêteur.
 
 Déplacement et réorganisation de la section [Alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 Clarification de la section &#39;Ressources personnalisées&#39; avec une procédure plus détaillée pour [définir des filtres](../../developing/using/configuring-filter-definition.md).
 
-Mise à jour et clarification de la [technote](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html) sur l&#39;intégration du SDK Mobile Adobe Experience Cloud avec une application mobile pour recevoir des notifications push Adobe Campaign Standard.
+Mise à jour et clarification de la [technote](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html) sur l’intégration du SDK Mobile Adobe Experience Cloud avec une application mobile pour recevoir des notifications push Adobe Campaign Standard.
 
 Ajout d&#39;une technote expliquant la structure de la payload reçue dans une application mobile. [En savoir plus](../../administration/using/push-payload.md)
 
-Mise à jour de la [section](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) sur la configuration du canal des notifications push avec de nouvelles données de payload à ajouter en fonction du système d&#39;exploitation lors de la définition des postbacks dans l&#39;interface Adobe Mobile Services.
+Mise à jour de la [section](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) sur la configuration du canal des notifications push avec de nouvelles données de payload à ajouter en fonction du système d&#39;exploitation lors de la définition des postbacks dans l&#39;interface Adobe Mobile Services.
 
 Mise à jour de la documentation sur les SMS avec l&#39;ajout d&#39;une clarification à la section [Réponses automatiques des SMS](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
@@ -888,7 +888,7 @@ Amélioration de l&#39;abonnement en masse – [En savoir plus](../../automati
 
 Liste détaillée de tous les composants disponibles dans les rapports dynamiques et modifications apportées aux formules. [En savoir plus](../../reporting/using/list-of-components-.md)
 
-Liste détaillée des KPI partagés avec Adobe Analytics. [En savoir plus](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+Liste détaillée des KPI partagés avec Adobe Analytics – [En savoir plus](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 Vidéo Nouveau rapport dynamique. 
 
@@ -902,7 +902,7 @@ Ajout d&#39;une documentation sur le rapport des profils actifs. [En savoir plus
 
 La documentation sur les [alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) a été mise à jour avec une section sur la résolution des problèmes qui donne quelques conseils sur les actions que vous pouvez entreprendre à la réception des alertes.
 
-Disponibilité d&#39;un nouveau guide de prise en main : il présente certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu&#39;à l&#39;envoi et le suivi. [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html)
+Disponibilité d’un nouveau guide de prise en main : il présente certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu’à l’envoi et le suivi – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html)
 
 Mise à jour de la documentation sur les messages de relance avec un cas pratique plus détaillé. [En savoir plus](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
@@ -960,13 +960,13 @@ Le guide &quot;Deliveries&quot; (Diffusions) a été réorganisé et renommé &q
 
 Plusieurs captures d&#39;écran ont été mises à jour afin de refléter les modifications de l&#39;interface.
 
-Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile à votre application mobile&quot;. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/integrate-mobile-sdk.html)
+Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile à votre application mobile&quot;. [En savoir plus](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
-Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
-Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
+Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 
 ## Version 17.4 - Avril 2017   {#release-17-4---april-2017}
 
@@ -984,19 +984,19 @@ Intégration de Dreamweaver disponible – [En savoir plus](https://experience
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Section ajoutée sur les différents types d&#39;utilisateurs Adobe Campaign. [En savoir plus](../../administration/using/users-management.md)
+Section ajoutée sur les différents types d’utilisateurs Adobe Campaign. [En savoir plus](../../administration/using/users-management.md)
 
 Le guide des workflows a été réorganisé et étoffé. Trouvez facilement comment [créer](../../automating/using/building-a-workflow.md) et [exécuter](../../automating/using/about-workflow-execution.md) un workflow, comment [cibler](../../automating/using/about-targeting-activities.md) et [gérer](../../automating/using/about-targeting-activities.md#enriching-data) vos données, comment [importer et exporter](../../automating/using/about-data-import-and-export.md) des données et comment utiliser les données de workflow afin de mettre à jour la base de données ou d&#39;envoyer des diffusions.
 
 Le calcul d&#39;indicateur de rapport est à présent disponible pour les rapports dynamiques. Il comprend une description détaillée et une formule de calcul. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Nouvelle section dédiée à la configuration d&#39;Abobe Mobile Services pour permettre l&#39;utilisation des notifications push et des données de point ciblés dans Adobe Campaign. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
+Nouvelle section dédiée à la configuration d’Abobe Mobile Services pour permettre l’utilisation des notifications push et des données de point ciblés dans Adobe Campaign. [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-Mise à jour des sections sur la configuration et l&#39;implémentation des applications mobiles, avec des procédures plus détaillées pour configurer et envoyer des notifications push. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html)
+Mise à jour des sections sur la configuration et l&#39;implémentation des applications mobiles, avec des procédures plus détaillées pour configurer et envoyer des notifications push. [En savoir plus](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Mise à jour de la section concernant l&#39;utilisation d&#39;images dans Campaign. [En savoir plus](../../designing/using/images.md#setting-up-image-properties)
 
-Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique. [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
+Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point ciblé), y compris les étapes de configuration et le cas pratique. [En savoir plus](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
 ## Version 17.2 - Mars 2017   {#release-17-2---march-2017}
 
@@ -1004,7 +1004,7 @@ Mise à jour de la partie intégration avec Adobe Analytics pour Mobile (point c
 
 Rapports dynamiques – [En savoir plus](../../reporting/using/about-dynamic-reports.md)
 
-Intégration avec Dreamweaver (Labs) – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr)
+Intégration avec Dreamweaver (Labs) – [En savoir plus](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Optimisation manuelle de l&#39;heure d&#39;envoi – [En savoir plus](../../sending/using/optimizing-the-sending-time.md)
 

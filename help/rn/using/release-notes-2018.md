@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour 2018
-description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 # Notes de mise à jour 2018{#release-notes}
 
-Vous recherchez une version 2018 spécifique d’Adobe Campaign Standard ?
+Vous recherchez une version 2018 spécifique d’Adobe Campaign Standard ?
 
 Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez sur une version pour consulter son contenu.
 
-Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
+Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
 ## Version 18.9 - Septembre 2018  {#release-18-9---september-2018}
 
@@ -41,14 +41,14 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
   </tr> 
   <tr> 
    <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Améliorations**
 
-* Adobe Campaign Standard prend maintenant en charge la version 4 de l’API Amazon S3.
+* Adobe Campaign Standard prend maintenant en charge la version 4 de l&#39;API Amazon S3.
 
 **Autres changements**
 
@@ -76,9 +76,9 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’une erreur qui empêchait la mise à jour des dates d’abonnement au service lors d’un import via un import de fichier.
 * Correction d’une erreur liée à l’activité Chargement du fichier qui empêchait les workflows d’importer des fichiers (CAMP-27068).
 * Correction d’une erreur qui affichait un nombre d’abonnements incorrect dans les rapports de synthèse des services (CAMP-25587).
-* Correction d’un problème lié à la différence des données entre les rapports Adobe Analytics et Adobe Campaign. (CAMP-25393)
+* Correction d&#39;un problème lié à la différence des données entre les rapports Adobe Analytics et Adobe Campaign. (CAMP-25393)
 * Correction d’une erreur qui empêchait un utilisateur ayant un accès limité de se connecter. (CAMP-27381)
-* Correction d’une erreur qui empêchait l’affichage de la liste de contenu Adobe Experience Manager lors de l’édition d’un email à l’aide de Creative Designer. (CAMP-27181)
+* Correction d’une erreur qui empêchait l’affichage de la liste de contenu Adobe Experience Manager lors de l’édition d’un email à l’aide de Creative Designer. (CAMP-27181)
 * Correction d’un problème qui empêchait l’ouverture de Creative Designer, entraînant une erreur. (CAMP-27304)
 * Correction d’une erreur qui empêchait le bon fonctionnement des opérations de glisser-déposer dans Creative Designer lors de l’utilisation d’Internet Explorer 11.
 * Correction d’une erreur en raison de laquelle les photos téléchargées depuis un appareil photo et prises en mode portrait s’affichaient dans une position de rotation indésirable.
@@ -125,7 +125,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Améliorations**
 
-* L’intégration d’Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
+* L’intégration d’Adobe Campaign et Adobe Target vous permet désormais de tirer parti de la fonctionnalité [Autorisations](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr) de Target. Lorsque vous incluez dans un email une image dynamique provenant d’Adobe Target, vous pouvez maintenant spécifier une propriété Target (code at_property).
 * Les ressources personnalisées disposant d’un lien owncopy vers la ressource de profils sont à présent prises en compte par les demandes d’accès/de suppression des informations personnelles dans le cadre du RGPD. Pour les liens simples de cardinalité 1 et les liens de collection de cardinalité N, vous devez sélectionner &quot;La suppression/duplication de l’enregistrement cible implique celle des enregistrements référencés par le lien&quot; dans la ressource personnalisée. Pour les liens simples de cardinalité 0 ou 1, sélectionnez &quot;La suppression/duplication de l’enregistrement implique celle de l’enregistrement cible référencé par le lien&quot;.
 
 **Autres changements**
@@ -140,7 +140,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 * Correction d’un problème avec le filtre de requête byEmail qui ne renvoyait pas de résultats. (CAMP-23420)
 * Correction d’un problème qui permettait à un utilisateur standard d’accéder à certaines fonctionnalités ou à certains écrans réservés aux administrateurs (points de terminaison /rest/head/*, écrans de messages transactionnels et écrans d’import de profils et d’audiences).
 * Correction d’un problème qui empêchait le traitement de ressources personnalisées dans le cadre de demandes de suppression des informations personnelles liées au RGPD si leur nom commençait par un nombre.
-* Correction d’un problème qui empêchait l’activité Sauvegarde d’audience de partager des abonnés aux applications dans Adobe Experience Cloud.
+* Correction d’un problème qui empêchait l’activité Sauvegarde d’audience de partager des abonnés aux applications dans Adobe Experience Cloud.
 * Correction d’un problème qui pouvait se produire avec l’activité Transfert de fichier lorsque le nom du fichier contenait des espaces blancs. (CAMP-25936)
 * Correction d’un problème qui pouvait se produire lors de l’utilisation du bouton de reconnexion après l’expiration d’une session. (CAMP-25560)
 * Correction d’un problème qui pouvait entraîner des exclusions lors de l’envoi des diffusions avec une optimisation des fuseaux horaires associée à des règles de fatigue. (CAMP-25425)
@@ -172,12 +172,12 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Correctifs**
 
-* Correction d’une erreur qui empêchait l’envoi des e-mails lors de l’inclusion d’une image dynamique depuis Adobe Target (CAMP-24848).
+* Correction d’une erreur qui empêchait l’envoi des e-mails lors de l’inclusion d’une image dynamique depuis Adobe Target (CAMP-24848).
 * Correction d’une erreur liée aux workflows techniques **[!UICONTROL Demande d’accès/de suppression des informations personnelles]**. Ils ne se terminaient pas en cas d’échec d’une des demandes.
 * Correction d’une erreur qui empêchait Privacy Core service de recevoir les mises à jour des statuts de demande de Campaign.
 * Correction d’une erreur qui empêchait le fonctionnement correct du workflow technique **[!UICONTROL Import de l’audience partagée]** (CAMP-25465).
 * Correction d’une erreur qui empêchait les demandes d’accès aux informations personnelles de Campaign d’être marquées comme étant terminées dans Privacy Core Service.
-* Correction d’une erreur qui empêchait certains utilisateurs de se connecter à Campaign Standard via l’authentification IMS lorsque l’Adobe ID était trop long. (CAMP-24095)
+* Correction d’une erreur qui empêchait certains utilisateurs de se connecter à Campaign Standard via l’authentification IMS lorsque l’Adobe ID était trop long. (CAMP-24095)
 * Correction d’une erreur dans Creative Designer qui se produisait lors de la suppression de modules de contenu. (CAMP-25242)
 * Correction d’une erreur lors de l’utilisation des règles de fatigue des notifications push pour les abonnés sans profil dans la base de données. (CAMP-25344)
 * Correction d’une erreur qui affichait un message d’erreur lors de l’accès aux exclus des diffusions. (CAMP-24724)
@@ -230,9 +230,9 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 
 **Autres changements**
 
-* L’activité de workflow Lecture d’audience peut désormais lire les audiences Experience Cloud. Cette activité ne pouvait auparavant lire que les audiences de type Requête et Liste. Consultez la [documentation détaillée](../../automating/using/read-audience.md). (CAMP-23623)
-* L’identifiant de la Source de données partagée par défaut est désormais en lecture seule uniquement et ne peut plus être modifié. La modification de cet identifiant peut entraîner des problèmes lors du partage d’audiences avec Experience Cloud.
-* L’import d’audiences depuis Audience Manager est désormais possible avec des fichiers partagés. Auparavant, seul le dernier fichier du segment était importé par le workflow technique importSharedAudience.
+* L’activité de workflow Lecture d’audience peut désormais lire les audiences Experience Cloud. Cette activité ne pouvait auparavant lire que les audiences de type Requête et Liste. Consultez la [documentation détaillée](../../automating/using/read-audience.md). (CAMP-23623)
+* L’identifiant de la Source de données partagée par défaut est désormais en lecture seule uniquement et ne peut plus être modifié. La modification de cet identifiant peut entraîner des problèmes lors du partage d’audiences avec Experience Cloud.
+* L&#39;import d&#39;audiences depuis Audience Manager est désormais possible avec des fichiers partagés. Auparavant, seul le dernier fichier du segment était importé par le workflow technique importSharedAudience.
 * Les comptes externes d’AWS S3 prennent désormais en charge les régions et le mécanisme d’authentification en version 4. Consultez la [documentation détaillée](../../administration/using/external-accounts.md).
 * La fenêtre de sélection de ressources se charge plus rapidement et permet de sélectionner une ressource, puis d’être fermée sans problème.
 * Les propriétés et la structure des workflows techniques peuvent désormais être modifiées par les utilisateurs disposant de droits d’administration et appartenant aux entités organisationnelles et géographiques &quot;Toutes&quot;.
@@ -301,7 +301,7 @@ _Ressources personnalisées_
  <tbody> 
   <tr> 
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
-   <td> Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d’autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:<br /> 
+   <td> Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d’autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:<br /> 
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
@@ -309,7 +309,7 @@ _Ressources personnalisées_
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
-   <td> Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’emails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des emails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br />Les fonctionnalités principales sont les suivantes :<br /> 
+   <td> Le nouvel outil Creative Designer d’Adobe Campaign offre un environnement de création entièrement intégré dans Campaign, permettant la création rapide et facile d’emails personnalisés, sans avoir à écrire une seule ligne de code. Grâce à sa puissante interface de conception par glisser-déposer, Creative Designer permet de créer facilement des emails à partir de zéro ou en utilisant des fragments ou des modèles de contenu existants. <br />Les fonctionnalités principales sont les suivantes :<br /> 
     <ul> 
      <li> Créez visuellement des emails personnalisés et au design responsive grâce à une interface de conception par glisser-déposer, complétée par des intégrations Creative Cloud natives. </li> 
      <li> Créez et enregistrez un modèle de contenu d’email et utilisez des modèles enregistrés pour faciliter la création d’emails. </li> 
@@ -354,7 +354,7 @@ _Emails, SMS et courrier_
 
 _Audiences et requêtes_
 
-* Correction d’un problème qui empêchait d’accéder aux données et de configurer des requêtes pour les destinataires répliqués d’Adobe Campaign Classic vers Standard.
+* Correction d’un problème qui empêchait d’accéder aux données et de configurer des requêtes pour les destinataires répliqués d’Adobe Campaign Classic vers Standard.
 * Correction d’un problème qui se produisait lors de l’utilisation d’un champ de type filtre dans le requêteur, après avoir utilisé le bouton **Compter** ou **Prévisualiser**.
 
 _Workflows_
@@ -366,7 +366,7 @@ _Workflows_
 
 _Intégrations_
 
-* Correction d’un problème qui empêchait d’envoyer correctement des caractères internationaux à Adobe Analytics.
+* Correction d’un problème qui empêchait d’envoyer correctement des caractères internationaux à Adobe Analytics.
 * Les ressources doivent à présent se charger plus rapidement lorsque vous insérez une image dans un message depuis votre bibliothèque de ressources Experience Cloud.
 * Correction d’un problème qui empêchait, dans certains cas, la fermeture de la fenêtre de sélection de ressources.
 * Depuis le détail d’une source de données, vous pouvez à présent accéder directement au workflow associé pour en vérifier l’état.
@@ -404,7 +404,7 @@ _Messages transactionnels_
 
 _Plateforme_
 
-* Mise à jour de la barre supérieure de l’interface d’Adobe Campaign avec le nouveau menu d’Experience Cloud.
+* Mise à jour de la barre supérieure de l’interface d’Adobe Campaign avec le nouveau menu d’Experience Cloud.
 * Correction d’une erreur qui empêchait l’affichage du lien vers les **[!UICONTROL Offres]** dans la liste déroulante de la solution.
 
 _Emails, SMS et courrier_
@@ -459,11 +459,11 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Partage des rapports<br /> </td> 
-   <td> Le partage des rapports vous permet de partager vos rapports avec les utilisateurs d’Adobe Campaign sous la forme de pièces jointes à un email, notamment de façon récurrente et automatique. Les utilisateurs recevant des rapports récurrents ont la possibilité de se désabonner de ces communications par le biais d’un lien dédié inclus dans chaque email.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/reporting-interface.md#share-tab">documentation détaillée</a>.<br /> </td> 
+   <td> Le partage des rapports vous permet de partager vos rapports avec les utilisateurs d’Adobe Campaign sous la forme de pièces jointes à un email, notamment de façon récurrente et automatique. Les utilisateurs recevant des rapports récurrents ont la possibilité de se désabonner de ces communications par le biais d’un lien dédié inclus dans chaque email.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/reporting-interface.md#share-tab">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nouvelles fonctionnalités push<br /> </td> 
-   <td> Prévisualisation des notifications push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où un utilisateur ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser l’option Contenu mutable pour :<br /> 
+   <td> Prévisualisation des notifications push : prévisualisez les notifications push sur les appareils iOS et Android dans l’éditeur de contenus des notifications push pour voir exactement à quoi elles ressembleront avant de tester ou d’envoyer la diffusion.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">documentation détaillée</a>.<br /> Contenu disponible : lorsque des applications ne sont pas ouvertes pendant de longues périodes, leurs données peuvent devenir obsolètes. Celles-ci doivent alors être mises à jour ou remplacées au moment où un utilisateur ouvre enfin une application, ce qui peut entraîner un temps d’attente avant de pouvoir l’utiliser. Avec la nouvelle prise en charge du Contenu disponible, les utilisateurs d’Adobe Campaign peuvent mettre en éveil leur application afin d’actualiser ses données en arrière-plan lors de la diffusion d’une notification push, ce qui accroît la cohérence et le contrôle sur l’expérience in-app d’un utilisateur.<br /> Contenu mutable : grâce à la nouvelle prise en charge du Contenu mutable, les utilisateurs d’Adobe Campaign peuvent désormais tirer parti des extensions de leur application mobile pour modifier davantage le contenu ou la présentation des notifications push envoyées depuis Adobe Campaign. Par exemple, les utilisateurs peuvent utiliser l’option Contenu mutable pour :<br /> 
     <ul> 
      <li> déchiffrer des données diffusées dans un format chiffré ; </li> 
      <li> télécharger des images ou d’autres fichiers multimédia et les ajouter sous forme de pièces jointes à une notification ; </li> 
@@ -477,7 +477,7 @@ Certains problèmes peuvent se produire lors de l’utilisation des liens d’ai
   </tr> 
   <tr> 
    <td> Déclenchement de l’activité Signal depuis l’API<br /> </td> 
-   <td> Il est désormais possible de déclencher une activité Signal pour vos workflows directement depuis l’API Adobe Campaign Standard.<br /> Pour plus d’informations, consultez la <a href="/help/api/using/triggering-a-signal-activity.md">documentation détaillée</a> .<br /> </td> 
+   <td> Il est désormais possible de déclencher une activité Signal pour vos workflows directement depuis l’API Adobe Campaign Standard.<br /> Pour plus d’informations, consultez la <a href="/help/api/using/triggering-a-signal-activity.md">documentation détaillée</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>

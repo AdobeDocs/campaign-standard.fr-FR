@@ -1,5 +1,5 @@
 ---
-title: Conception de contenu dans Adobe Campaign
+title: Conception de contenu dans Adobe Campaign
 description: Créez du contenu d’email à partir de zéro, en important du code HTML ou en utilisant des modèles existants.
 audience: designing
 content-type: reference
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1261'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Concepteur d&#39;e-mails de Campaign{#designing-content-in-adobe-campaign}
 
-Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
+Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
 Le Concepteur d’email vous permet de créer des emails captivants et personnalisés au moyen d’une interface par glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
@@ -119,7 +119,7 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
 * La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
 
-D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
+D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html).
 
 ### Mise à jour des fragments {#email-designer-updates}
 

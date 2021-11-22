@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 # Bonnes pratiques relatives aux workflows{#workflow-best-practices}
 
-Avec Adobe Campaign, vous pouvez configurer tous les types de workflows pour effectuer une vaste étendue de tâches. Toutefois, lors de la conception et de l&#39;exécution de vos workflows, vous devez faire très attention, car une mauvaise implémentation peut entraîner de faibles performances, des erreurs et des problèmes de Plateforme. Vous trouverez ci-dessous une liste de bonnes pratiques et de conseils de dépannage.
+Avec Adobe Campaign, vous pouvez configurer tous les types de workflows pour effectuer une vaste étendue de tâches. Toutefois, lors de la conception et de l&#39;exécution de vos workflows, vous devez faire très attention, car une mauvaise implémentation peut entraîner de faibles performances, des erreurs et des problèmes de plateforme. Vous trouverez ci-dessous une liste de bonnes pratiques et de conseils de dépannage.
 
 >[!NOTE]
 >
->La conception et l&#39;exécution des workflows doivent être effectuées par un utilisateur expérimenté Adobe Campaign.
+>La conception et l&#39;exécution des workflows doivent être effectuées par un utilisateur expérimenté Adobe Campaign.
 
 ## Attribution d&#39;un nom{#naming}
 
@@ -94,7 +94,7 @@ Pour accéder au détail des transitions, cochez l&#39;option Conserver les rés
 
 ### Activités d&#39;attribution de libellé{#activity-labeling}
 
-Lors du développement de votre workflow, un nom est généré pour chaque activité, comme pour tous les objets Adobe Campaign. Bien que le nom d&#39;une activité soit généré par l&#39;outil et ne puisse pas être modifié, il est recommandé de lui attribuer un nom explicite lors de sa configuration.
+Lors du développement de votre workflow, un nom est généré pour chaque activité, comme pour tous les objets Adobe Campaign. Bien que le nom d&#39;une activité soit généré par l&#39;outil et ne puisse pas être modifié, il est recommandé de lui attribuer un nom explicite lors de sa configuration.
 
 ### Duplication des activités{#activity-duplicating}
 
@@ -122,7 +122,8 @@ Pour plus d&#39;informations, voir [Appeler un workflow avec des paramètres ext
 
 ## Export de packages{#exporting-packages}
 
-Pour exporter des packages, les ressources exportées ne doivent pas contenir d&#39;identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s&#39;éloignant des modèles livrés par Adobe Campaign Standard. Pour plus d&#39;informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
+Pour exporter des packages, les ressources exportées ne doivent pas contenir d&#39;identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s&#39;éloignant des modèles livrés par Adobe Campaign Standard.
+Pour plus d&#39;informations, consultez [Gestion des packages](../../automating/using/managing-packages.md).
 
 ## Export de listes{#exporting-lists}
 
@@ -131,7 +132,7 @@ Pour plus d&#39;informations, consultez [Export de listes](../../automating/usin
 
 ## Résolution des problèmes{#workflow-troubleshooting}
 
-Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés aux workflows.
+Adobe Campaign propose divers logs pour mieux comprendre les problèmes liés aux workflows.
 
 ### Utilisation des logs de workflow{#using-workflow-logs}
 

@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour                2019
-description: Cette page répertorie toutes les versions 2019 d’Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2019 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7596'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Notes de mise à jour      2019{#release-notes-2019}
 
-[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
+[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
 ## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
 
@@ -35,7 +35,7 @@ ht-degree: 100%
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons d’autres fonctionnalités pour faciliter votre préparation au CCPA :</p>
    <ul>
     <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
-    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">Fonctionnalités obsolètes et supprimées</a>.</p></li>
+    <li><p>Lors de la création d’une demande d’accès à des informations personnelles, le type de réglementation (RGPD ou CCPA) a été ajouté à Privacy Core Service. Cette méthode est celle que vous devez utiliser pour toutes les demandes d’accès et de suppression. L’utilisation de l’API et de l’interface de Campaign pour les demandes d’accès et de suppression est obsolète.  Consultez l’article <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Fonctionnalités obsolètes et supprimées</a>.</p></li>
     <li>Un champ <strong>Option d’opt-out du CCPA</strong> a été ajouté à la ressource Profils pour permettre aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa">En savoir plus</a>.</li>
   </ul>
     <p>Reportez-vous à la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=fr">vidéo pratique</a>.</p>
@@ -159,7 +159,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> Activité API externe (version bêta publique)<br /> </td> 
-   <td> <p>Pour accroître la personnalisation, l’activité API externe permet de récupérer des données provenant de systèmes externes dans un workflow via un appel API REST. Les points d’entrée REST peuvent être un système de gestion client, le Runtime Adobe I/O Runtime ou un point d’entrée REST Adobe Experience Cloud (par exemple, Data Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=fr">vidéo de procédure</a>.</p></td> 
+   <td> <p>Pour accroître la personnalisation, l’activité API externe permet de récupérer des données provenant de systèmes externes dans un workflow via un appel API REST. Les points d’entrée REST peuvent être un système de gestion client, le Runtime Adobe I/O Runtime ou un point d’entrée REST Adobe Experience Cloud (par exemple, Data Platform, Target, Analytics, Campaign).</p><p>Cette fonctionnalité est actuellement en version bêta publique.</p><p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=fr">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Rapport sur le segment de workflow<br /> </td> 
@@ -201,7 +201,7 @@ ht-degree: 100%
 
 **Autres améliorations**
 
-* Grâce à l’intégration avec Adobe Experience Platform Location Services, Adobe Campaign est maintenant compatible pour envoyer des messages marketing géolocalisés aux abonnés de votre application mobile via le SDK Experience Platform. Pour plus d’informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* Grâce à l’intégration avec Adobe Experience Platform Location Services, Adobe Campaign est maintenant compatible pour envoyer des messages marketing géolocalisés aux abonnés de votre application mobile via le SDK Experience Platform. Pour plus d’informations, consultez la [documentation détaillée](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
 * La fonctionnalité de reporting a été améliorée pour offrir une meilleure expérience. Pour utiliser cette fonctionnalité, vous devez accepter le contrat d’utilisation des rapports dynamiques. Consultez à ce sujet la [documentation détaillée](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * Dans les workflows, une option a été ajoutée pour prévisualiser les dix prochaines exécutions d’un workflow. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
 * Dans l’activité Planificateur, une nouvelle option permet de sélectionner un jour spécifique d’une semaine particulière pour les diffusions mensuelles. Consultez à ce sujet la [documentation détaillée](../../automating/using/scheduler.md).
@@ -285,7 +285,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui empêchait la reprise de l’envoi des SMS suite à une déconnexion du connecteur SMS.
 * Correction d’un problème qui fermait les connexions SMPP lorsque TLS était activé.
 * Correction d’un problème qui fermait les connexions SMPP lorsque TLS était activé.
-* L’option &quot;Launch_URL_Campaign&quot; a été ajoutée dans Campaign pour gérer les propriétés des applications mobiles créées avec le SDK Mobile Adobe Experience Platform.
+* L’option &quot;Launch_URL_Campaign&quot; a été ajoutée dans Campaign pour gérer les propriétés des applications mobiles créées avec le SDK Mobile Adobe Experience Platform.
 * Correction d’une erreur qui entraînait la désélection de l’option d’environnement sandbox après le téléchargement du certificat d’une nouvelle propriété mobile et la sortie de la page de propriété de l’application mobile.
 * Correction d’un problème qui empêchait l’utilisateur d’enrichir le contenu d’un message transactionnel avec des informations de la ressource Service. (CAMP-33707)
 * Correction d’un problème lié aux landing pages de liste bloquée qui se produisait lors du désabonnement des profils d’un service.
@@ -366,7 +366,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Lors de l’export d’un package avec des groupes de sécurité, celui-ci contient désormais les rôles attribués à chaque groupe. (CAMP-32960)
 * Dans l’activité Chargement de fichier, une nouvelle option permet de vérifier que les colonnes du fichier téléchargé correspondent à la définition de colonne. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/load-file.md). (CAMP-32229)
 * Les workflows peuvent maintenant être démarrés avec une payload, ce qui permet d’utiliser et de partager des paramètres externes entre les activités au sein d’un workflow. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 et CAMP-29413)
-* Les API de Campaign Standard permettent maintenant de mettre à jour les entités géographiques et organisationnelles des profils à l’aide d’une payload. Pour plus d’informations, consultez la [documentation détaillée](../../api/using/get-started-apis.md).
+* Les API de Campaign Standard permettent maintenant de mettre à jour les entités géographiques et organisationnelles des profils à l’aide d’une payload. Pour plus d’informations, consultez la [documentation détaillée](../../api/using/get-started-apis.md).
 * Les messages d’erreur qui s’affichent lorsqu’un objet de la base de données n’est pas accessible ont été clarifiés.
 * Dans l’activité Extraction de fichier, les capacités Javascript ont été mises à jour lors de la définition du nom d’un fichier à exporter. Seule la fonction formatDate est maintenant disponible pour une utilisation dans le champ Sortie. Pour plus d’informations, consultez la [documentation détaillée](../../automating/using/extract-file.md).
 * La génération automatique d’ID de séquence a été améliorée pour les ressources personnalisées. Les clés primaires pour les nouvelles ressources personnalisées sont maintenant 64 bits par défaut.
@@ -377,7 +377,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Correction d’un problème qui entraînait une fuite de mémoire sur le MTA lorsque les paramètres SMS étaient rechargés.
 * Correction d’un problème qui empêchait la publication des mises à jour de la base de données en mode de réparation.
-* Correction d’un problème qui entraînait des divergences entre les rapports Adobe Analytics et les rapports dynamiques Adobe Campaign. (CAMP-25393)
+* Correction d’un problème qui entraînait des divergences entre les rapports Adobe Analytics et les rapports dynamiques Adobe Campaign. (CAMP-25393)
 * Correction d’une erreur qui entraînait l’échec du workflow de partage de rapport.
 * Correction d’une erreur qui empêchait les utilisateurs d’envoyer des messages In-App avec uniquement l’URL de média.
 * Correction d’un problème qui affichait une application mobile, même si son certificat n’était pas téléchargé sur l’instance.
@@ -385,7 +385,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * De nouvelles instances de Campaign Standard ont été configurées. (CAMP-32635 et CAMP-32344)
 * Correction d’une erreur qui empêchait la personnalisation de la formule de date dans un workflow. (CAMP-30336)
 * Correction d’un problème lors de la définition d’une formule de date personnalisée qui pouvait empêcher les champs &quot;Données additionnelles&quot; et &quot;Code segment&quot; d’être disponibles dans la liste déroulante. (CAMP-32383)
-* Correction d’un problème qui pouvait empêcher les activités &quot;Transfert de fichier&quot; et &quot;Extraction de fichier&quot; de rechercher les rejets de fichiers s’ils étaient cryptés. (CAMP-32377)
+* Correction d’un problème qui pouvait empêcher les activités &quot;Transfert de fichier&quot; et &quot;Extraction de fichier&quot; de rechercher les rejets de fichiers s’ils étaient chiffrés. (CAMP-32377)
 * Correction d’un problème dans les API qui pouvait empêcher le filtre lineCount d’afficher le nombre total exact. (CAMP-31424)
 * Correction d’un problème dans les landing pages qui empêchait les champs d’entrée d’afficher la valeur mise à jour une fois celle-ci modifiée. (CAMP-31401)
 * Correction d’un problème qui entraînait l’activation inattendue d’une activité de signal.
@@ -426,11 +426,11 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
   </tr> 
   <tr> 
    <td> Intégration de Launch pour les applications mobiles<br /> </td> 
-   <td> <p>Cette version contient l’intégration d’Adobe Campaign avec les versions de disponibilité générale des extensions Android et iOS pour Adobe Campaign Standard dans les SDK Adobe Experience Platform Launch et Mobile. Ces extensions prennent en charge la messagerie push, la messagerie In-App et les mises à jour des profils des applications mobiles.</p><p> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.</p> </td> 
+   <td> <p>Cette version contient l’intégration d’Adobe Campaign avec les versions de disponibilité générale des extensions Android et iOS pour Adobe Campaign Standard dans les SDK Adobe Experience Platform Launch et Mobile. Ces extensions prennent en charge la messagerie push, la messagerie In-App et les mises à jour des profils des applications mobiles.</p><p> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Messagerie In-App mobile<br /> </td> 
-   <td> <p>Cette version contient la version de disponibilité générale du canal In-App dans Campaign. D’un point de vue fonctionnel, les ajouts les plus importants à la version bêta sont les rapports dynamiques pour le canal In-App et l’établissement d’une liaison sécurisée entre le SDK Mobile et MCIAS (service de messagerie In-App Experience Cloud qui fournit les règles In-App au SDK). L’établissement d’une liaison sécurisée garantit que les données PII de vos utilisateurs ne tombent pas entre des mains malveillantes. Il permet également de préserver la confidentialité de l’utilisateur sur un appareil partagé en effaçant le cache des messages chaque fois que l’utilisateur se déconnecte.</p><p>Pour plus d’informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a> et le <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=fr">tutoriel In-App</a> dédié.</p> </td> 
+   <td> <p>Cette version contient la version de disponibilité générale du canal In-App dans Campaign. D'un point de vue fonctionnel, les ajouts les plus importants à la version bêta sont les rapports dynamiques pour le canal In-App et l'établissement d'une liaison sécurisée entre le SDK Mobile et MCIAS (service de messagerie In-App Experience Cloud qui fournit les règles In-App au SDK). L’établissement d’une liaison sécurisée garantit que les données PII de vos utilisateurs ne tombent pas entre des mains malveillantes. Il permet également de préserver la confidentialité de l’utilisateur sur un appareil partagé en effaçant le cache des messages chaque fois que l’utilisateur se déconnecte.</p><p>Pour plus d’informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a> et le <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=fr">tutoriel In-App</a> dédié.</p> </td> 
   </tr> 
   <tr> 
    <td> Améliorations des workflows<br /> </td> 
@@ -468,9 +468,9 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Vous pouvez maintenant ajouter des canaux sociaux personnalisés à votre modèle d’email en plus de ceux déjà disponibles.
 * Correction d’un problème qui empêchait de faire défiler le menu de structure lorsque plus de 18 structures étaient utilisées. (CAMP-31173)
-* Correction d’un problème qui affichait le pré-en-tête en haut du contenu lors du transfert d’un email contenant un pré-en-tête envoyé avec Adobe Campaign. (CAMP-30736)
-* Correction d’un problème qui empêchait la mise à jour de la ligne d’objet lorsque l’utilisateur cliquait sur l’option **Actualiser le contenu AEM** après avoir modifié l’objet dans Adobe Experience Manager. (CAMP-29984)
-* Correction de plusieurs problèmes qui empêchaient l’utilisation d’images dynamiques d’Adobe Target.
+* Correction d’un problème qui affichait le pré-en-tête en haut du contenu lors du transfert d’un email contenant un pré-en-tête envoyé avec Adobe Campaign. (CAMP-30736)
+* Correction d’un problème qui empêchait la mise à jour de la ligne d’objet lorsque l’utilisateur cliquait sur l’option **Actualiser le contenu AEM** après avoir modifié l’objet dans Adobe Experience Manager. (CAMP-29984)
+* Correction de plusieurs problèmes qui empêchaient l’utilisation d’images dynamiques d’Adobe Target.
 * Correction d’un problème qui empêchait la mise à jour de l’aperçu lors de la récupération du contenu au moment de la préparation si le contenu avait déjà été importé à partir d’une URL.
 * L’icône YouTube a été ajoutée au composant de contenu **Social**.
 * La vue **Liste** a été ajoutée pour les composants de contenu et les fragments affichés dans la palette du Concepteur d’email.
@@ -488,7 +488,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 **Autres changements**
 
-* A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](../../rn/using/deprecated-features.md).
+* A compter du printemps 2019 et de la version Campaign Standard 19.2, Adobe Campaign et Adobe Experience Cloud arrêteront la prise en charge de Microsoft Internet Explorer 11. Passez à Microsoft Edge ou tout autre navigateur pris en charge. Consultez la page [Fonctionnalités supprimées et obsolètes](../../rn/using/deprecated-features.md).
 * Le champ **Code pays** de la ressource Profil a été renommé en **Code pays/zone géographique**.
 
 **Correctifs**
@@ -531,11 +531,11 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
    <td> Disponibilité générale du Concepteur d’email<br /> </td> 
    <td> <p>Le nouveau Concepteur d’email intuitif (anciennement Creative Designer) est passé à la phase de disponibilité générale. Il prend maintenant en charge toutes les fonctionnalités de l’ancien éditeur de contenu, notamment :</p> 
     <ul> 
-     <li> Utilisation des <a href="../../integrating/using/adding-target-dynamic-content.md">images dynamiques d’Adobe Target</a> </li> 
+     <li> Utilisation des <a href="../../integrating/using/adding-target-dynamic-content.md">images dynamiques d’Adobe Target</a> </li> 
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
+    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 
@@ -570,7 +570,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 **Concepteur d’email**
 
-* Correction d’un problème qui entraînait l’activation de la fonctionnalité d’entité géographique sur un modèle d’email ou un fragment de contenu créé dans le Concepteur d’email, même si cette fonctionnalité était désactivée dans Adobe Campaign, ce qui rendait le modèle ou le fragment indisponible lors d’une nouvelle tentative d’accès. (CAMP-28174)
+* Correction d’un problème qui entraînait l’activation de la fonctionnalité d’entité géographique sur un modèle d’email ou un fragment de contenu créé dans le Concepteur d’email, même si cette fonctionnalité était désactivée dans Adobe Campaign, ce qui rendait le modèle ou le fragment indisponible lors d’une nouvelle tentative d’accès. (CAMP-28174)
 * Correction d’un problème qui empêchait l’enregistrement des conditions de contenu dynamique lors de l’édition de contenu dans le Concepteur d’email. (CAMP-27905)
 * Correction d’un problème qui entraînait la suppression de la version HTML du contenu de l’email après avoir édité la version en texte brut d’un message et interrompu la synchronisation HTML dans le Concepteur d’email. (CAMP-28507)
 * Correction d’un problème qui empêchait l’ouverture de l’interface du Concepteur d’email lors de l’utilisation d’Internet Explorer 11. (CAMP-28273)
@@ -588,7 +588,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Correction d’un problème qui entraînait l’affichage de logs de diffusion incorrects dans les rapports dynamiques. (CAMP-23446)
 * Correction d’un problème qui avait un impact sur les chiffres du rapport de synthèse des bounces (CAMP-28703).
-* Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait l’affichage des ressources lors de la sélection de l’option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]** dans un email (CAMP-28732).
+* Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait l’affichage des ressources lors de la sélection de l’option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]** dans un email (CAMP-28732).
 * Correction d’un problème qui empêchait l’envoi de SMS contenant le caractère ’œ’ bien que la translittération soit autorisée dans le compte externe SMPP. (CAMP-29041)
 * Correction d’un problème qui entraînait l’affichage d’enregistrements en double lors de l’utilisation d’une activité Segmentation dans des workflows. (CAMP-28743)
 * Correction d’un problème qui empêchait la suppression de l’une des correspondances de valeurs sur une colonne dans une activité de workflow. (CAMP-28708)
@@ -598,7 +598,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui se produisait lors de l’export de tables de ressources personnalisées contenant plus de 100 000 enregistrements. (CAMP-28150)
 * Correction d’un problème qui empêchait la suppression des messages transactionnels liés à des Triggers. (CAMP-28385)
 * Suppression des mots de passe qui étaient affichés de manière non sécurisée dans certains logs SMS.
-* Correction d’un problème en raison duquel les connexions au simulateur SMPP échouaient en raison d’un mot de passe vide envoyé par Adobe Campaign.
+* Correction d’un problème en raison duquel les connexions au simulateur SMPP échouaient en raison d’un mot de passe vide envoyé par Adobe Campaign.
 * Correction d’un problème qui empêchait l’envoi de campagnes lorsque les connexions SMS étaient instables.
 * Correction d’un problème qui entraînait l’affichage de diffusions supprimées dans les rapports dynamiques.
 * Correction d’un problème qui empêchait la récupération des données additionnelles des tables des exclus, des logs de diffusion et du tracking lors de l’utilisation d’une activité Enrichissement dans un workflow.
@@ -609,8 +609,8 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème qui permettait aux utilisateurs de modifier les workflows intégrés.
 * Correction d’un problème lors de la création d’une campagne à partir d’un modèle de campagne comprenant un workflow avec une activité d’extraction configurée. (CAMP-29198)
 * Correction d’un problème lié à l’activité d’extraction de fichiers qui empêchait d’utiliser la même expression pour plusieurs éléments. (CAMP-29182)
-* Dans l’éditeur de requête, correction d’un problème lié à la condition de jointure entre le broadlog et le log de tracking pour rtEvent. (CAMP-28780)
-* Correction d’un problème qui empêchait l’enregistrement des modifications apportées à l’option de page d’entrée &quot;Action spécifique&quot;. (CAMP-29422)
+* Dans le requêteur, correction d’un problème lié à la condition de jointure entre le broadlog et le log de tracking pour rtEvent. (CAMP-28780)
+* Correction d’un problème qui empêchait l’enregistrement des modifications apportées à l’option de landing page « Action spécifique ». (CAMP-29422)
 * Correction d’un problème qui empêchait d’exporter la payload d’un événement dans un workflow. (CAMP-29029)
 * Correction d’un problème qui empêchait l’exclusion des numéros de SMS sur la liste bloquée dans un message SMS. (CAMP-28898)
 * Correction d’un problème qui empêchait les fournisseurs SMPP d’être avertis en cas d’erreur lors du traitement des messages entrants. (CAMP-29804)

@@ -7,8 +7,9 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -22,7 +23,7 @@ La vue **[!UICONTROL Licences]** vous permet de consulter les licences installé
 
 L’apparition d’une nouvelle version ou d’une nouvelle fonctionnalité peut entraîner la modification des termes de la licence, qui doivent alors être acceptés par un administrateur fonctionnel de l’instance.
 
-Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n’est requise de leur part. Il est toujours possible d’utiliser Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
+Une fois connectés, les utilisateurs standard verront apparaître la fenêtre suivante. Aucune action n’est requise de leur part. Il est toujours possible d’utiliser Adobe Campaign en cliquant sur le bouton **[!UICONTROL OK]**.
 
 ![](assets/license_2.png)
 
@@ -30,6 +31,6 @@ Un administrateur doit lire et accepter les nouvelles conditions d&#39;utilisati
 
 ![](assets/license_3.png)
 
-Une fois ce délai de 30 jours écoulé, si la licence n&#39;est pas acceptée, aucun utilisateur ne pourra utiliser cette instance. Les utilisateurs standard ne pourront pas accéder aux fonctionnalités d&#39;Adobe Campaign et ne verront le message suivant que lorsqu&#39;un administrateur fonctionnel aura accepté les dispositions de licence.
+Une fois ce délai de 30 jours écoulé, si la licence n&#39;est pas acceptée, aucun utilisateur ne pourra utiliser cette instance. Les utilisateurs standard ne pourront pas accéder aux fonctionnalités d&#39;Adobe Campaign et ne verront le message suivant que lorsqu&#39;un administrateur fonctionnel aura accepté les dispositions de licence.
 
 ![](assets/license_4.png)

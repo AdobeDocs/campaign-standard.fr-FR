@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -80,15 +80,15 @@ Une typologie contient les règles de vérification qui sont appliquées lors de
 
 Dans la section **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Préparation]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
-Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
+Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
 
 Pour plus d’informations sur les typologies, consultez [cette section](../../sending/using/managing-typologies.md).
 
 ## Associer une marque à un modèle
 
-Les paramètres des emails envoyés relatifs à l&#39;identité d&#39;une marque (le logo de la marque et l&#39;adresse de l&#39;expéditeur, par exemple) sont gérés de manière centralisée dans Adobe Campaign. Vous pouvez créer une ou plusieurs marques et les associer à des modèles de diffusion.
+Les paramètres des emails envoyés relatifs à l&#39;identité d&#39;une marque (le logo de la marque et l&#39;adresse de l&#39;expéditeur, par exemple) sont gérés de manière centralisée dans Adobe Campaign. Vous pouvez créer une ou plusieurs marques et les associer à des modèles de diffusion.
 
-Pour plus d&#39;informations sur l&#39;utilisation et la configuration des marques dans Adobe Campaign, voir Marques.
+Pour plus d&#39;informations sur l&#39;utilisation et la configuration des marques dans Adobe Campaign, voir Marques.
 
 Pour afficher ou modifier la marque affectée à un modèle de diffusion, cliquez sur le bouton Editer les propriétés du modèle et accédez aux détails de la marque.
 

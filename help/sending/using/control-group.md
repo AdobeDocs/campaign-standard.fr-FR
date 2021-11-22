@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Que vous ayez sélectionné l’option **[!UICONTROL Tirage aléatoire]** ou **[
 
 * Sélectionnez **[!UICONTROL Taille maximale]** et remplissez le cadre correspondant.
 
-   Par exemple, si vous définissez 100, Adobe Campaign va :
+   Par exemple, si vous définissez 100, Adobe Campaign va :
    * extraire de manière aléatoire 100 profils de la population cible ;
    * extraire les 100 profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
 
@@ -106,7 +106,7 @@ Pour cela :
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. Définissez les critères d’exclusion à l’aide de l’[éditeur de requêtes](../../automating/using/editing-queries.md). Vous pouvez également sélectionner une [audience](../../audiences/using/about-audiences.md) qui a été créée auparavant.
+1. Définissez les critères d’exclusion à l’aide du [requêteur](../../automating/using/editing-queries.md). Vous pouvez également sélectionner une [audience](../../audiences/using/about-audiences.md) qui a été créée auparavant.
 
    ![](assets/control-group-target-exclusion.png)
 
@@ -137,7 +137,7 @@ Vous trouverez ci-dessous un exemple de définition d’une population témoin �
 
 1. Définissez 100 comme taille maximale. Les 100 plus vieux profils de votre cible seront extraits.
 
-1. Dans la section **[!UICONTROL Exclusion de la cible]**, définissez les profils qui seront exclus de votre cible, en fonction des critères de votre choix à l’aide de l’[éditeur de requêtes](../../automating/using/editing-queries.md). Par exemple, « Age est inférieur à 20 ».
+1. Dans la section **[!UICONTROL Exclusion de la cible]**, définissez les profils qui seront exclus de votre cible, en fonction des critères de votre choix à l’aide du [requêteur](../../automating/using/editing-queries.md). Par exemple, « Age est inférieur à 20 ».
 
    ![](assets/control-group-target-exclusion-example.png)
 

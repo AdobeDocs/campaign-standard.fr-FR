@@ -1,6 +1,6 @@
 ---
 title: Test de vos Triggers
-description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign.
+description: Découvrez les conseils de dépannage pour vous aider à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l'utilisation de Triggers avec Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 # Test de vos Triggers{#testing-your-triggers}
 
-Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
+Les conseils de dépannage suivants vous aideront à résoudre les problèmes les plus courants que vous pouvez rencontrer lors de l’utilisation de Triggers avec Adobe Campaign :
 
 **La fonctionnalité est-elle activée ?**
 
-Pour vérifier si l’intégration Triggers - Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l’élément **[!UICONTROL Triggers Experience Cloud]**.
+Pour vérifier si l’intégration Triggers - Campaign est activée, cliquez sur le logo Adobe Campaign, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]**. Vous devriez voir l&#39;élément **[!UICONTROL Triggers Experience Cloud]**.
 
 Si vous le voyez, passez à l’étape suivante.
 
@@ -31,11 +31,11 @@ Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenai
 
 Suivez les étapes décrites dans [Création d’un déclencheur mappé dans Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) pour créer un déclencheur.
 
-Si le déclencheur est créé, passez à l’étape suivante. Dans le cas contraire, la connexion du paramétrage de l’intégration du déclencheur a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d’Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
+Si le déclencheur est créé, passez à l’étape suivante. Dans le cas contraire, la connexion du paramétrage de l’intégration du déclencheur a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d&#39;Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
 
-* Nom de la société Experience Cloud
+* Nom de la société Experience Cloud
 * Identifiant de l’organisation IMS
-* Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
+* Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 **Tentative de publication d’un déclencheur**
 

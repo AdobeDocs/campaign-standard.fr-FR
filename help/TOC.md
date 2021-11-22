@@ -1,18 +1,18 @@
 ---
 audience: end-user
-user-guide-title: Campaign Standard
-user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
-title: Guide de Campaign Standard
-breadcrumb-title: Documentation d’Adobe Campaign Standard
+user-guide-title: Campaign Standard
+user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
+title: Guide de Campaign Standard
+breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 100%
 
 ---
 
 
-# Aide d&#39;Adobe Campaign Standard {#using}
+# Aide d&#39;Adobe Campaign Standard {#using}
 
 + [Documentation de Campaign Standard](campaign-standard-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
@@ -29,7 +29,7 @@ ht-degree: 100%
    + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
    + [Problème de signature des URL trackées](rn/using/tracked-urls.md)
 + Prise en main {#getting-started}
-   + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
+   + [À propos d&#39;Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Découverte de l&#39;interface {#discovering-the-interface}
       + [Interface](start/using/about-the-interface.md)
       + [Description de l&#39;interface](start/using/interface-description.md)
@@ -131,7 +131,7 @@ ht-degree: 100%
       + [Notifications push transactionnelles](channels/using/transactional-push-notifications.md)
       + [Messages de relance](channels/using/follow-up-messages.md)
       + [Cas pratique de la messagerie transactionnelle](channels/using/transactional-messaging-use-case.md)
-   + Pages de destination {#landing-pages}
+   + Landing pages {#landing-pages}
       + [Prise en main des landing pages](channels/using/getting-started-with-landing-pages.md)
       + [À propos des modèles de landing pages](channels/using/landing-page-templates.md)
       + [Paramétrer une landing page](channels/using/configuring-landing-page.md)
@@ -226,12 +226,12 @@ ht-degree: 100%
       + [Création d&#39;un rapport à partir de segments de workflow](reporting/using/creating-a-report-workflow-segment.md)
 + Intégration avec d&#39;autres solutions {#integrating-with-adobe-cloud}
    + [Prise en main des intégrations de Campaign](integrating/using/get-started-campaign-integrations.md)
-   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
-      + [À propos de l&#39;intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [Configuration de l&#39;intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
-      + [Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Création d&#39;un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Création d&#39;un e-mail multilingue avec l&#39;intégration d&#39;Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
+   + Campaign et Experience Manager {#working-with-campaign-and-experience-manager}
+      + [À propos de l&#39;intégration Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Configuration de l&#39;intégration Campaign-Experience Manager](integrating/using/configure-experience-manager.md)
+      + [Création d&#39;un contenu d&#39;e-mail dans Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
+      + [Création d&#39;un formulaire Campaign dans Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Création d&#39;un e-mail multilingue avec l&#39;intégration d&#39;Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign et Target {#working-with-campaign-and-target}
       + [À propos de l&#39;intégration Campaign-Target](integrating/using/about-campaign-target-integration.md)
       + [Configurer l&#39;intégration Campaign-Target](integrating/using/configuring-the-campaign-target-integration.md)
@@ -240,19 +240,19 @@ ht-degree: 100%
       + [À propos de l&#39;intégration Campaign-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Configurer l&#39;intégration Campaign-Analytics](integrating/using/configure-campaign-analytics-integration.md)
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+   + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
-      + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+      + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign et Analytics pour Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [À propos de l&#39;intégration Campaign-Données de points ciblés](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Configurer l&#39;intégration Campaign-Données de points ciblés](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Personnaliser des messages Campaign avec les données de points ciblés](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
    + Campaign et Triggers {#working-with-campaign-and-triggers}
-      + [À propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
-      + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
+      + [À propos des Triggers Adobe Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Configuration des Triggers dans Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Utilisation de Triggers dans Campaign](integrating/using/using-triggers-in-campaign.md)
       + [Test de vos Triggers](integrating/using/testing-your-triggers.md)
       + [Cas pratiques des Triggers d&#39;abandon](integrating/using/abandonment-triggers-use-cases.md)
@@ -268,19 +268,19 @@ ht-degree: 100%
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Utilisation de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
-   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
-      + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
+   + Campaign et Adobe Experience Platform {#adobe-experience-platform}
+      + Sources et destinations Adobe Experience Platform {#aep-sources-destinations}
          + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)
-         + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
-         + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
+         + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
       + Service Audience Destinations (version bêta) {#audience-destinations}
          + [À propos du service Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
-         + [Gestion des audiences Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
+         + [Gestion des audiences Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
          + [Utilisation du créateur de segments](integrating/using/aep-using-segment-builder.md)
-         + [Ciblage des audiences Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
-         + [Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector (version bêta) {#data-connector}
-         + [À propos d&#39;Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
+         + [Ciblage des audiences Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
+         + [Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector (version bêta) {#data-connector}
+         + [À propos d&#39;Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
          + [Présentation du modèle de données Experience Platform](integrating/using/aep-data-model-overview.md)
          + [Définition d&#39;un mapping](integrating/using/aep-mapping-definition.md)
          + [Activation du mapping](integrating/using/aep-mapping-activation.md)
@@ -391,7 +391,7 @@ ht-degree: 100%
          + [Mise à jour de plusieurs statuts d&#39;abonnement depuis un fichier](automating/using/updating-subscriptions-from-file.md)
          + [Abonnement de profils à partir d&#39;un fichier vers un service spécifique](automating/using/subscribing-profiles-from-file.md)
 + Développement {#developing}
-   + [Prise en main du modèle de données de Campaign Standard](developing/using/get-started-data-model.md)
+   + [Prise en main du modèle de données de Campaign Standard](developing/using/get-started-data-model.md)
    + Ressources personnalisées {#about-custom-resources}
       + [Notions de modèle de données](developing/using/data-model-concepts.md)
       + [Statuts des ressources](developing/using/resource-statuses.md)
@@ -419,7 +419,7 @@ ht-degree: 100%
       + [Audience](developing/using/datamodel-audience.md)
       + [Campagne](developing/using/datamodel-campaign.md)
       + [Diffusion](developing/using/datamodel-delivery.md)
-      + [Pages de destination](developing/using/datamodel-landingpage.md)
+      + [Landing pages](developing/using/datamodel-landingpage.md)
       + [Historique marketing](developing/using/datamodel-history.md)
       + [Profil](developing/using/datamodel-profile.md)
       + [Programme](developing/using/datamodel-program.md)
@@ -430,7 +430,7 @@ ht-degree: 100%
       + [Événement de désabonnement](developing/using/datamodel-unsubscription.md)
       + [Visiteur](developing/using/datamodel-visitor.md)
 + Administration {#administrating}
-   + [Prise en main de l&#39;administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
+   + [Prise en main de l&#39;administration de Campaign Standard](administration/using/get-started-campaign-administration.md)
    + [Instructions de surveillance](administration/using/monitoring-guidelines.md)
    + [Journal d&#39;audit](administration/using/audit.md)
    + [Instructions de configuration](administration/using/about-configuration-guidelines.md)
@@ -453,16 +453,16 @@ ht-degree: 100%
       + [Présentation de la structure de la payload des notifications push](administration/using/push-payload.md)
       + [Implémentation du tracking des notifications locales](administration/using/local-tracking.md)
       + [FAQ sur la synchronisation d&#39;Adobe Launch](administration/using/syncwithlaunch-faq.md)
-      + [FAQ sur l&#39;intégration du SDK Experience Platform](administration/using/aep-faq.md)
-      + [Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
-      + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
+      + [FAQ sur l&#39;intégration du SDK Experience Platform](administration/using/aep-faq.md)
+      + [Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuration du canal SMS {#configuring-sms}
       + [Mise en œuvre du canal SMS](administration/using/configuring-sms-channel.md)
       + [Protocole et paramètres du connecteur SMS](administration/using/sms-protocol.md)
       + [Résolution des problèmes de SMS](administration/using/troubleshooting-sms.md)
    + Paramétrage de l&#39;application {#application-settings}
-      + [À propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
+      + [À propos des paramètres de Campaign Standard](administration/using/about-campaign-standard-settings.md)
       + [Comptes externes](administration/using/external-accounts.md)
       + [Mappings de ciblage dans Campaign](administration/using/target-mappings-in-campaign.md)
       + [Workflows techniques](administration/using/technical-workflows.md)
@@ -471,9 +471,9 @@ ht-degree: 100%
       + [Conservation des données](administration/using/data-retention.md)
       + [Mises à jour et opérations de maintenance](administration/using/updates-and-maintenance-operations.md)
 + Utilisation des API {#working-with-apis}
-   + [Prise en main des API de Campaign Standard](api/using/get-started-apis.md)
-   + À propos des API de Campaign Standard {#about-campaign-standard-apis}
-      + [Pourquoi utiliser les API de Campaign Standard ?](api/using/why-using-campaign-standard-apis.md)
+   + [Prise en main des API de Campaign Standard](api/using/get-started-apis.md)
+   + À propos des API de Campaign Standard {#about-campaign-standard-apis}
+      + [Pourquoi utiliser les API de Campaign Standard ?](api/using/why-using-campaign-standard-apis.md)
       + [Configuration de l&#39;accès aux API](api/using/setting-up-api-access.md)
    + Concepts globaux {#global-concepts}
       + [À lire absolument](api/using/must-read.md)

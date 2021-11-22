@@ -9,19 +9,19 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 100%
 
 ---
 
-# Configuration de Microsoft Dynamics 365 pour l&#39;intégration avec Adobe Campaign Standard
+# Configuration de Microsoft Dynamics 365 pour l&#39;intégration avec Adobe Campaign Standard
 
-Découvrez comment configurer l’intégration de Microsoft Dynamics 365 et activer vos données CRM lors d’une communication cross-canal avec Adobe Campaign Standard.
+Découvrez comment configurer l’intégration de Microsoft Dynamics 365 et activer vos données CRM lors d’une communication cross-canal avec Adobe Campaign Standard.
 
 ## Présentation
 
-La description générale de l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 est présentée dans [cette page](../../integrating/using/d365-acs-get-started.md).
+La description générale de l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 est présentée dans [cette page](../../integrating/using/d365-acs-get-started.md).
 
 Plusieurs applications devront être configurées pour activer l&#39;intégration. Cependant, cet article se concentre sur les étapes requises dans Dynamics 365.
 
@@ -33,7 +33,7 @@ Si vous configurez l’intégration pour les environnements d’évaluation et d
 
 ## Configuration de l’application et des autorisations
 
-Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifier auprès de votre instance Microsoft Dynamics 365 par le biais des API Web afin de publier les événements d’expérience Campaign Standard sur la vue de calendrier de l’interface de Microsoft Dynamics 365.
+Un jeton d‘accès OAuth permet à l’outil d’intégration de s’authentifier auprès de votre instance Microsoft Dynamics 365 par le biais des API Web afin de publier les événements d’expérience Campaign Standard sur la vue de calendrier de l’interface de Microsoft Dynamics 365.
 
 Les principales étapes sont décrites dans la vidéo suivante :
 
@@ -53,7 +53,7 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign   `<stage or prod>`
+   * Nom : adobe campaign  `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app).
@@ -111,7 +111,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
    Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
 
-1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue de calendrier lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
+1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue de calendrier lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
 
 1. Ouvrez la liste des rôles utilisateur en cliquant sur **[!UICONTROL GÉRER LES RÔLES]** dans le ruban supérieur.
 
@@ -123,19 +123,19 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
 
 Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedrive/find-your-office-365-tenant-id) pour trouver votre identifiant de tenant.  Vous aurez besoin de cet identifiant lors de la configuration préalable à l’intégration dans l’outil d’intégration.
 
-## Installation de Campaign Standard pour Microsoft Dynamics 365 {#install-appsource-app}
+## Installation de Campaign Standard pour Microsoft Dynamics 365 {#install-appsource-app}
 
-Pour intégrer l’application Dynamics 365 à votre environnement Campaign Standard, procédez comme suit :
+Pour intégrer l’application Dynamics 365 à votre environnement Campaign Standard, procédez comme suit :
 
-1. Accédez au lien suivant : [https://appsource.microsoft.com/fr-fr/marketplace/apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez _Adobe Campaign pour Dynamics 365_ dans la barre de recherche.
+1. Accédez au lien suivant : [https://appsource.microsoft.com/fr-fr/marketplace/apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez _Adobe Campaign pour Dynamics 365_ dans la barre de recherche.
 Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-fr/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
 1. Suivez les instructions pour installer l’application pour votre instance Dynamics 365.
 1. Une fois installée, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.
 1. Cliquez sur l’icône en forme d’engrenage dans le coin supérieur droit, puis sur **[!UICONTROL Paramètres avancés]**. Dans la bannière supérieure, cliquez sur la liste déroulante en regard de **[!UICONTROL Paramètres]**, puis sur **[!UICONTROL Traitements]** sous **[!UICONTROL Centre de traitement]**.
-1. Recherchez la tâche **[!UICONTROL Email bounce Adobe Campaign]** et cliquez dessus.
+1. Recherchez la tâche **[!UICONTROL Email bounce Adobe Campaign]** et cliquez dessus.
 1. Dans l’onglet **[!UICONTROL Administration]**, remplacez le propriétaire par l’utilisateur de l’application API Adobe créé précédemment en cliquant sur **[!UICONTROL Actions]** dans le ruban supérieur, puis sélectionnez **[!UICONTROL Attribuer à un autre utilisateur]** et **[!UICONTROL Utilisateur de l’application API Adobe]** dans la liste déroulante.
 1. Réactivez le traitement.
-1. Faites de même pour la tâche **[!UICONTROL Clic email Adobe Campaign]**.
+1. Faites de même pour la tâche **[!UICONTROL Clic email Adobe Campaign]**.
 
 >[!NOTE]
 >

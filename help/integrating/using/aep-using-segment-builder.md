@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ L’interface du créateur de segments se compose comme suit :
 
 Pour créer un segment, procédez comme suit :
 
-Le créateur de segments doit maintenant s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
+Le créateur de segments doit maintenant s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
 
 1. Nommez le segment, puis entrez une description (facultatif).
 
@@ -46,7 +46,7 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
 1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -68,11 +68,11 @@ Les champs répertoriés sont des attributs capturés par votre entreprise et re
 
 Les champs sont organisés en onglets :
 
-* **[!UICONTROL Attributs]** : Attributs de profils existants pouvant provenir de votre base de données Adobe Campaign et/ou Adobe Experience Platform. Ils font référence à des informations statiques jointes à un profil (par exemple, adresse électronique, pays de résidence, statut du programme de fidélité, etc.).
+* **[!UICONTROL Attributs]** : Attributs de profils existants pouvant provenir de votre base de données Adobe Campaign et/ou Adobe Experience Platform. Ils font référence à des informations statiques jointes à un profil (par exemple, adresse électronique, pays de résidence, statut du programme de fidélité, etc.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Événements]** : Activités qui identifient les consommateurs qui ont eu une certaine interaction avec les points de contact clients de votre entreprise, comme « toute personne qui a commandé deux fois en deux semaines ». Il peut être diffusé en continu à partir d’Adobe Analytics ou directement ingéré dans Adobe Experience Platform à l’aide d’outils ETL tiers.
+* **[!UICONTROL Événements]** : Activités qui identifient les consommateurs qui ont eu une certaine interaction avec les points de contact clients de votre entreprise, comme « toute personne qui a commandé deux fois en deux semaines ». Il peut être diffusé en continu à partir d’Adobe Analytics ou directement ingéré dans Adobe Experience Platform à l’aide d’outils ETL tiers.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -94,7 +94,7 @@ Le symbole à la fin de chaque champ fournit des informations supplémentaires s
 
 >[!NOTE]
 >
->La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+>La section ci-dessous fournit des informations générales sur la définition des règles. Voir à ce propos le [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Pour créer une règle, procédez comme suit :
 

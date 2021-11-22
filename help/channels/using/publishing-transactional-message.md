@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -105,9 +105,9 @@ Pour accéder aux rapports relatifs à votre message transactionnel, utilisez le
 
 ## Suspendre la publication d’un message transactionnel            {#suspending-a-transactional-message-publication}
 
-Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d’attente, dans la base de données Adobe Campaign.
+Vous pouvez suspendre la publication de votre message transactionnel en utilisant le bouton **[!UICONTROL Mettre en pause]**, afin de modifier les données contenues dans le message par exemple. Les événements ne sont alors plus traités, mais ils sont conservés dans une file d&#39;attente, dans la base de données Adobe Campaign.
 
-Les événements placés dans la file d’attente sont conservés pendant une période définie dans l’API REST (voir la [documentation sur l&#39;API REST](../../api/using/managing-transactional-messages.md)) ou dans l’événement trigger si vous utilisez le core service Triggers (voir [À propos des Triggers Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+Les événements placés dans la file d’attente sont conservés pendant une période définie dans l’API REST (voir la [documentation sur l&#39;API REST](../../api/using/managing-transactional-messages.md)) ou dans l’événement trigger si vous utilisez le core service Triggers (voir [À propos des Triggers Adobe Experience Cloud](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 

@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 100%
 
@@ -160,7 +160,7 @@ Un lien décrit l&#39;association d&#39;une table avec d&#39;autres tables.
    >
    >Il n&#39;est pas possible de renommer un lien après sa création. Pour renommer un lien, vous devez le supprimer et le recréer.
 
-1. La liste **[!UICONTROL Catégorie pour l&#39;audience et le ciblage]** permet d&#39;affecter ce lien à une catégorie, ce qui le rend plus visible dans l&#39;outil d&#39;édition de requête.
+1. La liste **[!UICONTROL Catégorie pour l&#39;audience et le ciblage]** permet d&#39;affecter ce lien à une catégorie, ce qui le rend plus visible dans le requêteur.
 1. Si nécessaire, la section **[!UICONTROL Définition du lien inverse]** permet d&#39;afficher le libellé et l&#39;identifiant de la ressource dans la ressource ciblée.
 1. Définissez le comportement des enregistrements référencés par le lien dans la section **[!UICONTROL Comportement en cas de suppression/duplication]**.
 

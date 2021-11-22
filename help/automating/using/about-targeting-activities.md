@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Vous pouvez sélectionner les données à l&#39;aide des activités suivantes :
 
 ## Segmenter des données {#segmenting-data}
 
-Adobe Campaign permet de procéder à des traitements d&#39;ensembles sur des données en entrée. Il est ainsi possible de regrouper plusieurs populations, d&#39;en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
+Adobe Campaign permet de procéder à des traitements d&#39;ensembles sur des données en entrée. Il est ainsi possible de regrouper plusieurs populations, d&#39;en exclure une partie ou de ne conserver que les données communes entre plusieurs cibles.
 
 * L&#39;activité **[!UICONTROL Union]** permet de regrouper le résultat de plusieurs activités dans une même cible. Pour plus d&#39;informations, consultez la section [Union](../../automating/using/union.md).
 * L&#39;activité **[!UICONTROL Intersection]** permet de ne conserver que les éléments communs aux différentes populations entrantes dans l&#39;activité. Pour plus d&#39;informations, consultez la section [Intersection](../../automating/using/intersection.md).

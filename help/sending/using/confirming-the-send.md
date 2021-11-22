@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Si vous utilisez une diffusion récurrente sans période d&#39;agrégation, vous
 
 ## Comprendre les indicateurs de message {#message-indicators}
 
-Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]** affiche vos données de KPI avec :
+Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]** affiche vos données de KPI avec :
 
 * le nombre de messages à envoyer,
 * le nombre de messages envoyés,
@@ -96,7 +96,7 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaiss
 
 Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Délivrés]** final ainsi que le nombre final de messages réellement **[!UICONTROL Envoyés]** et **[!UICONTROL En échec]**.
 
-### Service de commentaires par email (bêta) {#email-feedback-service}
+### Service de commentaires par email (version bêta) {#email-feedback-service}
 
 Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
 

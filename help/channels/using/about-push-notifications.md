@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 100%
 
@@ -22,15 +22,15 @@ ht-degree: 100%
 >
 >L’implémentation des notifications push doit être réalisée par des utilisateurs experts. Si vous avez besoin d’aide, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Le canal Notification push est une fonctionnalité en option. Vérifiez votre contrat de licence et contactez votre chargé de compte pour l’activer.
 
-Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées à des appareils mobiles iOS et Android.
+Adobe Campaign vous permet d’envoyer des notifications push personnalisées et segmentées à des appareils mobiles iOS et Android.
 
 Ces messages sont reçus sur des applications mobiles que vous configurez dans Adobe Campaign à l’aide du SDK Experience Platform. Voir à ce propos [Configuration d’une application mobile à l’aide des SDK Experience Platform](../../administration/using/configuring-a-mobile-application.md).
 
-Dans Adobe Campaign, les données d’attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
+Dans Adobe Campaign, les données d’attributs de profil mobile envoyées depuis un appareil mobile sont stockées dans la ressource **[!UICONTROL Abonnements à une application (appSubscriptionRcp)]** qui permet de définir les données que vous souhaitez collecter auprès des abonnés de vos applications.
 
-Cette ressource doit être étendue pour collecter les données que vous avez l’intention d’envoyer depuis d’appareil mobile vers Adobe Campaign. Consultez à ce propos cette [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+Cette ressource doit être étendue pour collecter les données que vous avez l’intention d’envoyer depuis d’appareil mobile vers Adobe Campaign. Consultez à ce propos cette [page](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 
-Dans Adobe Campaign, deux types de notification push sont disponibles :
+Dans Adobe Campaign, deux types de notification push sont disponibles :
 
 * **[!UICONTROL Les notifications de type Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) définissables dans la section **[!UICONTROL Options avancées]**.
 
@@ -49,7 +49,7 @@ Certaines configurations spécifiques peuvent être paramétrées pour définir 
 * [Préparation et envoi d&#39;une notification push](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Création d&#39;une notification push multilingue](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Rapport des notifications push](../../reporting/using/push-notification-report.md)
-* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Conditions préalables requises {#prerequisites}
 
@@ -60,19 +60,19 @@ Certaines configurations spécifiques peuvent être paramétrées pour définir 
 
 Avant d’envoyer les notifications push, vous devez effectuer les opérations suivantes :
 
-1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL Notification Push]**. Si vous ne pouvez pas accéder à ces canaux, contactez l&#39;équipe de votre compte.
+1. Dans Adobe Campaign, vérifiez que vous pouvez accéder au canal **[!UICONTROL Notification Push]**. Si vous ne pouvez pas accéder à ces canaux, contactez l&#39;équipe de votre compte.
 
-1. Vérifiez que votre utilisateur dispose des autorisations nécessaires dans Adobe Campaign Standard et Experience Platform Launch.
+1. Vérifiez que votre utilisateur dispose des autorisations nécessaires dans Adobe Campaign Standard et Experience Platform Launch.
 
-1. Dans Experience Platform Launch, créez une propriété mobile. Pour plus d’informations, voir [Configuration d’une propriété mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Dans Experience Platform Launch, créez une propriété mobile. Pour plus d’informations, voir [Configuration d’une propriété mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
 
-1. Dans Experience Platform Launch, installez l’extension **[!UICONTROL Adobe Campaign Standard]**.
+1. Dans Experience Platform Launch, installez l’extension **[!UICONTROL Adobe Campaign Standard]**.
 
-1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Pour plus d’informations, voir [Configuration de votre application Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans Experience Platform Launch. Pour plus d’informations, voir [Configuration de votre application Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile. Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Ajoutez la configuration spécifique au canal à votre configuration d’application mobile. Pour plus d&#39;informations, reportez-vous à la section [Configuration de l&#39;application spécifique au canal dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
-1. Pour prendre en charge les mises en œuvre de cas d’utilisation mobile, reportez-vous aux instructions détaillées sur les extensions, les règles Experience Platform Launch et l’implémentation de SDK dans la section [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard avec utilisation des SDK Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Pour prendre en charge les mises en œuvre de cas d’utilisation mobile, reportez-vous aux instructions détaillées sur les extensions, les règles Experience Platform Launch et l’implémentation de SDK dans la section [Cas d’utilisation mobile pris en charge dans Adobe Campaign Standard avec utilisation des SDK Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## FAQ sur les notifications push {#push-faq}
 
@@ -87,7 +87,7 @@ Consultez les ressources ci-dessous :
 
 ### Que dois-je faire pour acquérir un jeton push dans Campaign ?  {#push-token-acquisition}
 
-Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
 
 ### Une fois que je dispose d’un jeton push et d’un ECID dans Campaign, que dois-je faire pour envoyer une notification push ?  {#sending-push}
 
@@ -127,7 +127,7 @@ Vérifiez que vous suivez bien les instructions de payload push fournies [ici](.
 
 Notez que pour Android, Campaign ne prend en charge que la payload de données et non celle de notification.
 
-### J’ai configuré une application dans la section Administration d’Adobe Campaign Standard, mais l’application mobile n’est pas disponible dans les propriétés de diffusion. {#mobile-app-unavailable}
+### J’ai configuré une application dans la section Administration d’Adobe Campaign Standard, mais l’application mobile n’est pas disponible dans les propriétés de diffusion. {#mobile-app-unavailable}
 
 Un certificat push valide doit également être téléchargé pour qu’une application puisse être disponible dans les propriétés de diffusion.
 
@@ -148,9 +148,9 @@ Procédez comme suit :
 
 Vous trouverez des instructions plus détaillées sur cette [page](../../administration/using/push-tracking.md).
 
-### Quels rapports sont disponibles pour le canal push ?  {#push-report-available}
+### Quels rapports sont disponibles pour le canal push ?  {#push-report-available}
 
-Un rapport d’usine est disponible dans Adobe Campaign pour le canal push. Consultez cette [documentation](../../reporting/using/push-notification-report.md).
+Un rapport d’usine est disponible dans Adobe Campaign pour le canal push. Consultez cette [documentation](../../reporting/using/push-notification-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) pour comprendre comment est calculée chaque mesure push.
 
@@ -159,4 +159,4 @@ Consultez cette [page](../../reporting/using/indicator-calculation.md#push-notif
 Oui, les liens profonds sont pris en charge dans les messages push. Les liens profonds doivent inclure les éléments suivants :
 
 * Un langage indiquant que le tracking des diffusions doit être désactivé pour que les liens profonds fonctionnent.
-* Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

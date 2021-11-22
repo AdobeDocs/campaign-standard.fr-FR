@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
 1. Sélectionnez le type de message in-app. Celui-ci dépendra des données ciblées dans votre activité **[!UICONTROL Requête]**.
 
-   * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** : ce type de message permet de cibler les profils Adobe Campaign abonnés à votre application mobile et de personnaliser les messages In-App avec les attributs de profil disponibles dans Campaign.
+   * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** : ce type de message permet de cibler les profils Adobe Campaign abonnés à votre application mobile et de personnaliser les messages In-App avec les attributs de profil disponibles dans Campaign.
    * **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]** : ce type de message permet d&#39;envoyer un message à tous les utilisateurs de votre application mobile, même s&#39;ils ne possèdent pas de profil dans Campaign.
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** : ce type de message permet de cibler tous les utilisateurs d&#39;une application mobile ayant un profil mobile dans Campaign, qu&#39;ils soient connus ou non, et de personnaliser les messages in-app avec tous les attributs de profil obtenus à partir de l&#39;appareil mobile.
 

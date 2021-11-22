@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 100%
 
@@ -23,17 +23,17 @@ ht-degree: 100%
 Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/met à jour les données de profil après l&#39;envoi par une application mobile de données de collecte de PII, selon une planification.
 
 * Les **PII** (Personally Identifiable Information) sont des données personnelles. Il peut s&#39;agir de n&#39;importe quelles données, notamment d&#39;informations qui n&#39;apparaissent pas dans la table des profils de la base de données Campaign (par exemple, les [points ciblés](../../integrating/using/about-campaign-points-of-interest-data-integration.md) Analytics pour les applications mobiles). Les données de PII sont définies par le développeur d&#39;applications mobiles, généralement avec un marketeur.
-* La **collecte des PII** est une opération HTTP-POST vers une API REST dans Adobe Campaign Standard à partir d&#39;une application mobile.
+* La **collecte des PII** est une opération HTTP-POST vers une API REST dans Adobe Campaign Standard à partir d&#39;une application mobile.
 
-L&#39;objectif de ce cas pratique est de créer ou de mettre à jour un profil Campaign Standard si les données de PII renvoyées par une application mobile contiennent des données liées au profil.
+L&#39;objectif de ce cas pratique est de créer ou de mettre à jour un profil Campaign Standard si les données de PII renvoyées par une application mobile contiennent des données liées au profil.
 
 ## Conditions préalables requises
 
-Avant que les profils puissent être créés ou mis à jour en fonction des données d&#39;abonnement aux applications mobiles, vous devez suivre plusieurs étapes de configuration pour activer les notifications push dans Campaign Standard :
+Avant que les profils puissent être créés ou mis à jour en fonction des données d&#39;abonnement aux applications mobiles, vous devez suivre plusieurs étapes de configuration pour activer les notifications push dans Campaign Standard :
 
 1. [Créer une application mobile](../../administration/using/configuring-a-mobile-application.md)
 1. [Intégrer le SDK Adobe Mobile avec votre application mobile](../../administration/using/supported-mobile-use-cases.md).
-1. [Configurer Adobe Campaign pour envoyer des notifications push](../../administration/using/configuring-a-mobile-application.md).
+1. [Configurer Adobe Campaign pour envoyer des notifications push](../../administration/using/configuring-a-mobile-application.md).
 
 ## Etape 1 - Etendre la ressource Profil pour les notifications push/abonnements
 
@@ -58,7 +58,7 @@ L&#39;association des données de profil lors de l&#39;extension de la ressource
 
 ## Etape 2 - Créer le workflow
 
-L&#39;utilisation d&#39;un workflow dans Campaign Standard permet à un administrateur d&#39;identifier et de synchroniser de manière unique les données entre les données AppSubscription (abonné) et de profil ou de destinataire. Bien qu&#39;une mise à jour à partir d&#39;un workflow ne synchronise pas les données de profil en temps réel, elle ne doit pas entraîner de verrouillage de base de données ni de surcharge indus.
+L&#39;utilisation d&#39;un workflow dans Campaign Standard permet à un administrateur d&#39;identifier et de synchroniser de manière unique les données entre les données AppSubscription (abonné) et de profil ou de destinataire. Bien qu&#39;une mise à jour à partir d&#39;un workflow ne synchronise pas les données de profil en temps réel, elle ne doit pas entraîner de verrouillage de base de données ni de surcharge indus.
 
 Les étapes principales pour créer le workflow sont les suivantes :
 

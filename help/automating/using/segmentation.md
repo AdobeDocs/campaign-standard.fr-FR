@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
 1. Dans l’onglet **[!UICONTROL Général]**, sélectionnez le **[!UICONTROL type de ressource]** sur lequel la segmentation doit être effectuée :
 
    * **[!UICONTROL Ressource de la base]** si la segmentation porte sur des données déjà existantes en base de données. Sélectionnez la **[!UICONTROL Dimension de filtrage]** en fonction des données que vous souhaitez segmenter. Par défaut, la segmentation porte sur les **profils**.
-   * **[!UICONTROL Ressource temporaire]** si la segmentation porte sur des données temporaires du workflow : sélectionnez l’**[!UICONTROL Ensemble ciblé]** contenant les données à segmenter. Ce cas peut être rencontré à la suite d’un import de fichier ou si des données de la base ont été enrichies.
+   * **[!UICONTROL Ressource temporaire]** si la segmentation porte sur des données temporaires du workflow : sélectionnez l&#39;**[!UICONTROL Ensemble ciblé]** contenant les données à segmenter. Ce cas peut être rencontré à la suite d’un import de fichier ou si des données de la base ont été enrichies.
 
 1. Sélectionnez le type de transition sortante que vous souhaitez :
 
@@ -88,7 +88,6 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.

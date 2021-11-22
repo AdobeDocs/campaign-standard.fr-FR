@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Pour cela, vous devez étendre la ressource **[!UICONTROL Profiles]** et défini
 
 1. Enregistrez vos modifications et publiez les ressources. Voir à ce sujet la section [Mettre à jour la structure de la base de données](../../developing/using/updating-the-database-structure.md).
 
-Une fois l&#39;extension de la ressource **[!UICONTROL Profiles]** publiée, les utilisateurs verront apparaître ce filtre dans l&#39;onglet des raccourcis de l&#39;interface de l&#39;[éditeur de requêtes](../../automating/using/editing-queries.md).
+Une fois l&#39;extension de la ressource **[!UICONTROL Profiles]** publiée, les utilisateurs verront apparaître ce filtre dans l&#39;onglet des raccourcis de l&#39;interface du [requêteur](../../automating/using/editing-queries.md).
 
 Lors de la création d&#39;un email, ils pourront ainsi facilement définir leur audience afin que le message soit envoyé à tous les clients ayant dépensé plus d&#39;un certain montant au cours des trois derniers mois.
 
@@ -81,7 +81,7 @@ Il leur suffira de saisir le montant souhaité dans la boîte de dialogue qui s&
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Une fois qu’un filtre est configuré, vous pouvez l’utiliser à partir des API de Campaign Standard en utilisant la syntaxe suivante :
+Une fois qu’un filtre est configuré, vous pouvez l’utiliser à partir des API de Campaign Standard en utilisant la syntaxe suivante :
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 

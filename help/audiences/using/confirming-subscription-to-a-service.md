@@ -1,6 +1,6 @@
 ---
 title: Confirmation d'un abonnement à un service
-description: Pour configurer un message de confirmation pour les profils s'abonnant à un service dans Adobe Campaign, suivez les étapes ci-après.
+description: Pour configurer un message de confirmation pour les profils s'abonnant à un service dans Adobe Campaign, suivez les étapes ci-après.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Les étapes de création de l&#39;email de confirmation sont décrites ci-dessou
 
 L&#39;email de confirmation est un message transactionnel car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
-1. Créez un événement à partir du menu **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**, accessible par le biais du logo Adobe Campaign.
+1. Créez un événement à partir du menu **[!UICONTROL Plans marketing**[!UICONTROL  > ]**Messages transactionnels**[!UICONTROL  > ]**Configuration des événements]**, accessible par le biais du logo Adobe Campaign.
 1. Saisissez un libellé, sélectionnez une dimension de ciblage et cliquez sur **[!UICONTROL Créer]**.
 
    Les étapes de configuration sont présentées dans la section [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md).
@@ -60,7 +60,7 @@ L&#39;email de confirmation est un message transactionnel car il réagit à un �
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL publicLabel]** est obligatoire. Si vous ne l&#39;ajoutez pas à la structure de données d&#39;événement, Adobe Campaign ne pourra pas effectuer de réconciliation avec le service. Lorsque vous vous abonnez à un service, ce champ sera renseigné avec le **[!UICONTROL Libellé du service]** du service correspondant.
+   >Le champ **[!UICONTROL publicLabel]** est obligatoire. Si vous ne l&#39;ajoutez pas à la structure de données d&#39;événement, Adobe Campaign ne pourra pas effectuer de réconciliation avec le service. Lorsque vous vous abonnez à un service, ce champ sera renseigné avec le **[!UICONTROL Libellé du service]** du service correspondant.
 
 1. Dans la section **[!UICONTROL Enrichissement]**, cliquez sur **[!UICONTROL Créer un élément]** et sélectionnez la ressource cible **[!UICONTROL Service]**.
 
@@ -99,7 +99,7 @@ L&#39;email de confirmation est un message transactionnel basé sur l&#39;évén
 
 ### Étape 2 : création et configuration du service {#step-2--create-and-configure-the-service-1}
 
-1. Dans le menu avancé **Profils &amp; audiences** > **Services** (via le logo Adobe Campaign), créez un service.
+1. Dans le menu avancé **Profils &amp; audiences** > **Services** (via le logo Adobe Campaign), créez un service.
 1. Accédez à la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service.
 1. Renseignez le champ **[!UICONTROL Libellé du service.]**
 
@@ -138,7 +138,7 @@ Les étapes de création de ces éléments sont décrites ci-dessous. Comme le m
 
 L&#39;email de confirmation est un [message transactionnel](../../channels/using/getting-started-with-transactional-msg.md) car il réagit à un événement : l&#39;abonnement à un service. Ce message sera envoyé pour confirmer l&#39;abonnement à votre newsletter.
 
-1. Créez un événement à partir du menu **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration des événements]**, accessible par le biais du logo Adobe Campaign.
+1. Créez un événement à partir du menu **[!UICONTROL Plans marketing**[!UICONTROL  > ]**Messages transactionnels**[!UICONTROL  > ]**Configuration des événements]**, accessible par le biais du logo Adobe Campaign.
 1. Saisissez un libellé, sélectionnez une dimension de ciblage et cliquez sur **[!UICONTROL Créer]**.
 
    Les étapes de configuration sont présentées dans la section [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md).
@@ -149,7 +149,7 @@ L&#39;email de confirmation est un [message transactionnel](../../channels/using
 
    >[!NOTE]
    >
-   >Le champ **[!UICONTROL serviceName]** est obligatoire. Si vous ne l&#39;ajoutez pas à la structure de données d&#39;événement, Adobe Campaign ne pourra pas effectuer de réconciliation avec le service auquel les profils peuvent s&#39;abonner.
+   >Le champ **[!UICONTROL serviceName]** est obligatoire. Si vous ne l&#39;ajoutez pas à la structure de données d&#39;événement, Adobe Campaign ne pourra pas effectuer de réconciliation avec le service auquel les profils peuvent s&#39;abonner.
 
 1. Dans la section **[!UICONTROL Enrichissement]**, cliquez sur **[!UICONTROL Créer un élément]** et sélectionnez la ressource cible **[!UICONTROL Service]**.
 1. Dans la section **[!UICONTROL Définition de la jointure]**, faites correspondre le champ **[!UICONTROL serviceName]** de la ressource **[!UICONTROL Service]** au champ **[!UICONTROL nom]** de la configuration de l&#39;événement.
@@ -166,7 +166,7 @@ Les étapes de conception du message transactionnel sont présentées dans cette
 
 ### Étape 2 : création et configuration du service {#step-2--create-and-configure-the-service-2}
 
-1. Dans le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]** (via le logo Adobe Campaign), créez un service.
+1. Dans le menu avancé **[!UICONTROL Profils &amp; audiences]** > **[!UICONTROL Services]** (via le logo Adobe Campaign), créez un service.
 1. Accédez à la section **[!UICONTROL Propriétés du service]**, accessible via le bouton ![](assets/edit_darkgrey-24px.png) du tableau de bord du service.
 1. Renseignez le champ **[!UICONTROL Libellé du service]**. Ce libellé s&#39;affichera dans le message de confirmation et dans la landing page d&#39;abonnement.
 1. Cliquez sur **[!UICONTROL Confirmer]** et enregistrez le service.
@@ -190,8 +190,8 @@ Pour créer et configurer cette landing page, procédez comme suit :
 
 1. [Testez et publiez](../../channels/using/testing-publishing-landing-page.md) la landing page.
 
-Désormais, chaque fois qu’un profil s’abonne à votre newsletter en soumettant la page de destination, il reçoit le message de confirmation que vous avez défini avec des champs personnalisés mappés au service.
+Désormais, chaque fois qu’un profil s’abonne à votre newsletter en soumettant la landing page, il reçoit le message de confirmation que vous avez défini avec des champs personnalisés mappés au service.
 
 >[!NOTE]
 >
->Un message est envoyé à chaque soumission de la page de destination, même si le profil est déjà abonné.
+>Un message est envoyé à chaque soumission de la landing page, même si le profil est déjà abonné.

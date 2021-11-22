@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Avant de configurer les workflows, vous devez créer les workflows 1 et 2 avec 
 
 ## Etape 1 : configurer l’appel API       {#step-1--configuring-the-api-call}
 
-Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d’informations sur la syntaxe de l’appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
+Effectuez un appel API pour déclencher le workflow 1 avec des paramètres. Pour plus d’informations sur la syntaxe de l’appel API, consultez la [documentation des API REST Campaign Standard](../../api/using/triggering-a-signal-activity.md).
 
 Dans notre cas, nous souhaitons appeler le workflow avec les paramètres ci-dessous :
 

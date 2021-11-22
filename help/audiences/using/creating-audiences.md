@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 100%
 
@@ -99,7 +99,7 @@ Pour créer une audience de type **Fichier**, les étapes sont les suivantes :
 
 ## Création d&#39;audiences de type Experience Cloud     {#creating-experience-cloud-audiences}
 
-Adobe Campaign vous permet d&#39;échanger et de partager des audiences avec Adobe Experience Cloud. Une audience de type **Experience Cloud** est directement importée depuis People core service dans Adobe Campaign à l&#39;aide du workflow technique **[!UICONTROL Importer une audience partagée]**.
+Adobe Campaign vous permet d&#39;échanger et de partager des audiences avec Adobe Experience Cloud. Une audience de type **Experience Cloud** est directement importée depuis People core service dans Adobe Campaign à l&#39;aide du workflow technique **[!UICONTROL Importer une audience partagée]**.
 
 Contrairement à l&#39;audience de type **Requête** qui effectue des requêtes sur les profils depuis Adobe Campaign, l&#39;audience **Experience Cloud** est composé d&#39;une liste de Visitor ID.
 
@@ -111,7 +111,7 @@ Pour que cette intégration fonctionne, vous devez d&#39;abord la configurer. Po
 
 La modification d&#39;une audience dépend de son type :
 
-* Pour modifier une audience de type **Requête**, accédez à la liste des audiences via le menu **[!UICONTROL Audiences]**, ou la vignette **[!UICONTROL Audiences]** de la page d&#39;accueil d&#39;Adobe Campaign.
+* Pour modifier une audience de type **Requête**, accédez à la liste des audiences via le menu **[!UICONTROL Audiences]**, ou la vignette **[!UICONTROL Audiences]** de la page d&#39;accueil d&#39;Adobe Campaign.
 
    Ouvrez l&#39;audience de votre choix. Tous les éléments d&#39;une audience déjà créée sont modifiables.
 

@@ -1,6 +1,6 @@
 ---
-title: Obtenir l'accès à l'application en libre-service d'intégration d’Adobe Campaign Standard avec Dynamics 365
-description: Application en libre-service d'intégration d’Adobe Campaign Standard avec Dynamics 365
+title: Obtenir l'accès à l'application en libre-service d'intégration d’Adobe Campaign Standard avec Dynamics 365
+description: Application en libre-service d'intégration d’Adobe Campaign Standard avec Dynamics 365
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -16,28 +16,28 @@ ht-degree: 100%
 
 ---
 
-# Accéder à l&#39;application en libre-service d&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365
+# Accéder à l&#39;application en libre-service d&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365
 
-Cette configuration nécessite que vous collaboriez avec un administrateur Experience Cloud (EC) pour votre entreprise. Il s’agit des étapes initiales nécessaires pour vous donner accès à l’interface de l’application d’intégration en libre-service. Une fois que vous avez accès à l&#39;outil, vous allez configurer des connexions à vos données et le flux de données entre Adobe Campaign et Microsoft Dynamics 365.
+Cette configuration nécessite que vous collaboriez avec un administrateur Experience Cloud (EC) pour votre entreprise. Il s’agit des étapes initiales nécessaires pour vous donner accès à l’interface de l’application d’intégration en libre-service. Une fois que vous avez accès à l&#39;outil, vous allez configurer des connexions à vos données et le flux de données entre Adobe Campaign et Microsoft Dynamics 365.
 
 >[!NOTE]
 >
->Vous devez contacter votre représentant Adobe et fournir les noms d&#39;instance et d&#39;organisation Adobe Campaign Standard. Une demande sera enregistrée pour que l’application d’intégration soit activée pour votre entreprise.
+>Vous devez contacter votre représentant Adobe et fournir les noms d&#39;instance et d&#39;organisation Adobe Campaign Standard. Une demande sera enregistrée pour que l’application d’intégration soit activée pour votre entreprise.
 
 ## Ajouter un profil de produit
 
-Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39;intégration d’Adobe Campaign Standard avec l&#39;application en libre-service Microsoft Dynamics 365. Les utilisateurs ayant accès à votre organisation dans Adobe Experience Cloud n’auront pas accès à l’application en libre-service d’intégration, sauf si vous suivez les étapes ci-dessous pour le leur accorder.
+Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39;intégration d’Adobe Campaign Standard avec l&#39;application en libre-service Microsoft Dynamics 365. Les utilisateurs ayant accès à votre organisation dans Adobe Experience Cloud n’auront pas accès à l’application en libre-service d’intégration, sauf si vous suivez les étapes ci-dessous pour le leur accorder.
 
 >[!IMPORTANT]
 >
-> Ces étapes nécessitent un rôle **Administrateur** dans la version Experience Cloud de votre organisation.
+> Ces étapes nécessitent un rôle **Administrateur** dans la version Experience Cloud de votre organisation.
 
-1. Accédez à https://experience.adobe.com/ et connectez-vous à Adobe Experience Cloud.
+1. Accédez à https://experience.adobe.com/ et connectez-vous à Adobe Experience Cloud.
 1. Accédez à l&#39;**Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Cliquez sur **[!UICONTROL Produits]** pour accéder à vos solutions Experience Cloud.
+1. Cliquez sur **[!UICONTROL Produits]** pour accéder à vos solutions Experience Cloud.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -54,9 +54,9 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Nouveau profil]** et ajoutez une nouvelle entrée appelée : **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
+1. Cliquez sur le bouton **[!UICONTROL Nouveau profil]**  et ajoutez une nouvelle entrée appelée : **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
 
-   * Si cette entrée figure dans la liste, vous n&#39;avez pas besoin de continuer. Cliquez sur **Adobe Campaign Standard** dans le menu de gauche et vérifiez les autres instances Campaign.
+   * Si cette entrée figure dans la liste, vous n&#39;avez pas besoin de continuer. Cliquez sur **Adobe Campaign Standard** dans le menu de gauche et vérifiez les autres instances Campaign.
 
    * Veillez à remplacer « votre-nom-instance-prod » par le nom réel de votre instance.
 
@@ -74,7 +74,7 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 
 Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et procédez comme suit :
 
-1. Cliquez sur le nouveau profil que vous avez créé précédemment :  **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
+1. Cliquez sur le nouveau profil que vous avez créé précédemment :  **Campaign Standard - votre-nom-instance-prod - Intégration D365/ACS**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 

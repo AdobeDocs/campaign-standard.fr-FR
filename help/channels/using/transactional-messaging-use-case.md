@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Cas pratique de la messagerie transactionnelle {#transactional-messaging-use-case}
 
-Dans cet exemple, vous souhaitez utiliser la fonctionnalité de messagerie transactionnelle Adobe Campaign pour envoyer un email de confirmation après chaque achat sur votre site web, identifiant vos clients par le biais de leur identifiant CRM.
+Dans cet exemple, vous souhaitez utiliser la fonctionnalité de messagerie transactionnelle Adobe Campaign pour envoyer un email de confirmation après chaque achat sur votre site web, identifiant vos clients par le biais de leur identifiant CRM.
 
 Les prérequis sont les suivants :
 

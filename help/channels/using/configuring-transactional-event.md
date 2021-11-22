@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1743'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Configuration d&#39;un événement transactionnel {#configuring-transactional-event}
 
-Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord décrire la structure des données d’événement en créant et en configurant un événement.
+Pour envoyer un message transactionnel avec Adobe Campaign, vous devez d’abord décrire la structure des données d’événement en créant et en configurant un événement.
 
 >[!IMPORTANT]
 >
@@ -81,7 +81,7 @@ Cette collection peut être utilisée dans un email transactionnel pour ajouter 
 
    ![](assets/message-center_collection_fields.png)
 
-1. L’onglet **[!UICONTROL Enrichissement]** vous permet d’enrichir chaque élément de la collection. Vous pourrez ainsi personnaliser les éléments de la liste de produits correspondante avec les informations de la base de données Adobe Campaign ou d’autres ressources que vous avez créées.
+1. L’onglet **[!UICONTROL Enrichissement]** vous permet d’enrichir chaque élément de la collection. Vous pourrez ainsi personnaliser les éléments de la liste de produits correspondante avec les informations de la base de données Adobe Campaign ou d’autres ressources que vous avez créées.
 
 >[!NOTE]
 >
@@ -179,7 +179,7 @@ Pour envoyer un message transactionnel basé sur un événement, vous devez d’
 1. Ajoutez des champs à l’événement afin de personnaliser le message transactionnel (voir [Définir les attributs d’événement](#defining-the-event-attributes)).
 1. Les messages transactionnels basés sur un événement sont censés utiliser uniquement les données figurant dans l’événement envoyé pour définir le destinataire et la personnalisation du contenu du message.
 
-   Cependant, si vous souhaitez utiliser des informations supplémentaires provenant de la base de données Adobe Campaign, vous pouvez enrichir le contenu du message transactionnel (voir [Enrichissement du contenu du message transactionnel](#enriching-the-transactional-message-content)).
+   Cependant, si vous souhaitez utiliser des informations supplémentaires provenant de la base de données Adobe Campaign, vous pouvez enrichir le contenu du message transactionnel (voir [Enrichissement du contenu du message transactionnel](#enriching-the-transactional-message-content)).
 
 1. Prévisualisez et publiez l’événement (voir [Prévisualiser et publier l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 

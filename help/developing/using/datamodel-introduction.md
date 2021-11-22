@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Description du modèle de données{#data-model-introduction}
 
-Un modèle de données d’usine est fourni avec Adobe Campaign.
+Un modèle de données d’usine est fourni avec Adobe Campaign.
 
 Le modèle de données Adobe Campaign Standard affiche la structure SQL native pour un ensemble de ressources liées au marketing.
 

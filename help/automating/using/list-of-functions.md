@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1972'
 ht-degree: 100%
 
@@ -651,12 +651,12 @@ Les fonctions de chaîne sont utilisées pour manipuler un ensemble de chaînes.
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
-   <td> Décrypte une valeur cryptée au format HEX avec le préfixe "<strong>x</strong>" (1er paramètre) à l'aide d'une clé au format HEX (2ème paramètre) et d'un vecteur d'initialisation au format HEX (3ème paramètre)<br /> </td> 
+   <td> Déchiffre une valeur chiffrée au format HEX avec le préfixe "<strong>x</strong>" (1er paramètre) à l'aide d'une clé au format HEX (2ème paramètre) et d'un vecteur d'initialisation au format HEX (3ème paramètre)<br /> </td> 
    <td> encryption_aescbcDecrypt(&lt;Chaîne&gt;, &lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> Cryptage au moyen d'un algorithme AES (mode bloc CBC), une chaîne de caractères (1er paramètre) avec une clé (2e paramètre) et un vecteur d'initialisation (3e paramètre). La clé et le vecteur d'initialisation doivent être indiqués sous une représentation hexadécimale (commençant par <strong>\x</strong>). Le résultat sera sous forme hexadécimale sans <strong>\x</strong>.<br /> Notez que la taille de la clé peut être de 128, 192 ou 256 bits (16, 24 ou 32 caractères hexadécimaux), mais nous vous conseillons d'utiliser 256 bits et un ID randomisé de la même longueur que la clé.<br /> </td> 
+   <td> Chiffrement au moyen d'un algorithme AES (mode bloc CBC), une chaîne de caractères (1er paramètre) avec une clé (2e paramètre) et un vecteur d'initialisation (3e paramètre). La clé et le vecteur d'initialisation doivent être indiqués sous une représentation hexadécimale (commençant par <strong>\x</strong>). Le résultat sera sous forme hexadécimale sans <strong>\x</strong>.<br /> Notez que la taille de la clé peut être de 128, 192 ou 256 bits (16, 24 ou 32 caractères hexadécimaux), mais nous vous conseillons d'utiliser 256 bits et un ID randomisé de la même longueur que la clé.<br /> </td> 
    <td> encryption_aescbcEncrypt(&lt;Chaîne&gt;, &lt;Chaîne&gt;, &lt;Chaîne&gt;)<br /> Par exemple : encryption_aescbcEncrypt(johndoe@exemple.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 

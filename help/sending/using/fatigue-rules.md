@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Rubriques connexes :
 
 Pour créer et paramétrer une règle de typologie de type **[!UICONTROL Fatigue]**, les étapes sont les suivantes :
 
-1. Cliquez sur le logo Adobe Campaign, en haut à gauche de l&#39;interface, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
+1. Cliquez sur le logo Adobe Campaign, en haut à gauche de l&#39;interface, puis sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
 
    ![](assets/fatigue4.png)
 
@@ -255,7 +255,7 @@ Dans ce cas pratique, nous allons créer une règle de typologie afin de ne pas 
 
 Pour identifier les clients et les prospects, nous avons étendu la ressource Profiles avec le champ **[!UICONTROL Statut]**, qui contient 0 pour les profils Premium et 1 pour les profils standards.
 
-Les étapes de création de cette règle sont les suivantes :
+Les étapes de création de cette règle sont les suivantes :
 
 1. Créez une règle de typologie de type **Fatigue**.
 1. Dans la section **[!UICONTROL Seuil]**, nous allons créer une formule de calcul du seuil qui dépendra de chaque profil. Sélectionnez la valeur **[!UICONTROL Dépend du destinataire]** dans le champ **[!UICONTROL Type de seuil]**, puis cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]**.

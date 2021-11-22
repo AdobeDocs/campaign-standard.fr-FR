@@ -30,7 +30,7 @@ Vous pouvez également regarder [cette série de vidéos](https://experienceleag
 
 >[!NOTE]
 >
->Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
+>Adobe Campaign ne prend pas en charge les listes de produits imbriquées, ce qui signifie que vous ne pouvez pas inclure une liste de produits dans une autre.
 
 ## Définir une liste de produits           {#defining-a-product-listing}
 

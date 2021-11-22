@@ -26,7 +26,7 @@ Cette configuration est définie dans la section **[!UICONTROL Réponse automati
 
 Pour ce faire :
 
-1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration > Paramétrage de l&#39;application > Comptes externes]**, puis le compte externe **[!UICONTROL Routage des SMS par SMPP]**.
+1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration > Paramétrage de l&#39;application > Comptes externes]**, puis le compte externe **[!UICONTROL Routage des SMS par SMPP]**.
 1. Dans la catégorie **[!UICONTROL Réponse automatique aux MO]**, cliquez sur **[!UICONTROL Créer un élément]** pour commencer à configurer votre réponse automatique.
 
    ![](assets/sms_mo_1.png)

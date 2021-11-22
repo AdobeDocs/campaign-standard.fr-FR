@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ---
 
-# À propos d&#39;Adobe Experience Platform Data Connector {#about-aep-data-connector}
+# À propos d&#39;Adobe Experience Platform Data Connector {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour ingérer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
+* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 
@@ -56,9 +56,9 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le log de tracking et les données de Broadlog sont automatiquement ingérés dans Adobe Experience Platform en tant qu’événements d’expérience. Cette ingestion est diffusée en temps réel vers Adobe Experience Platform.
 
-* Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
+* Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
 
-   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le transfert d’usine des événements d’abonnement n’est pas pris en charge. Pour transférer des événements d’abonnement, vous pouvez créer le fichier XDM et le jeu de données correspondants sur Adobe Experience Platform, puis configurer un mapping de données personnalisé pour ces données.
 
-* En ce qui concerne les demandes d’accès à des informations personnelles (actions d’accès et de suppression), les clients doivent effectuer des demandes distinctes par le biais du [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr#how-to-use-privacy-service-to-manage-privacy-job-requests) : l’une pour Campaign et l’autre pour Adobe Experience Platform. Pour plus d’informations à ce sujet, voir [À propos des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess) et [Gestion des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) dans Campaign.
+* En ce qui concerne les demandes d’accès à des informations personnelles (actions d’accès et de suppression), les clients doivent effectuer des demandes distinctes par le biais du [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr#how-to-use-privacy-service-to-manage-privacy-job-requests) : l’une pour Campaign et l’autre pour Adobe Experience Platform. Pour plus d’informations à ce sujet, voir [À propos des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess) et [Gestion des demandes d’accès à des informations personnelles](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) dans Campaign.
 
 * Pour chaque champ XDM, la définition du libellé DULE doit être effectuée dans Adobe Experience Platform. Il incombe au client d’appliquer des libellés DULE.
 
@@ -78,8 +78,8 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
+Cette vidéo présente un aperçu du connecteur de données Adobe Experience Platform.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=fr).
+D’autres vidéos relatives au connecteur de données Adobe Experience Platform sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=fr).

@@ -19,7 +19,7 @@ ht-degree: 74%
 
 Adobe améliore constamment ses solutions en ajoutant de nouvelles fonctionnalités, des améliorations et des correctifs.
 
-Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouvelle version. Aucune action n&#39;est requise pour la mise à niveau.
+Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouvelle version. Aucune action n&#39;est requise pour la mise à niveau.
 
 Les mises à niveau sont déployées en deux phases. Tout d’abord, les instances de test sont mises à niveau afin de vous permettre de tester de nouvelles fonctionnalités et d’adapter votre configuration si nécessaire. Les instances de production sont ensuite mises à niveau.
 

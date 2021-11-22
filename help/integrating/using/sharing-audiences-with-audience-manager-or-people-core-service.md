@@ -1,5 +1,5 @@
 ---
-title: Partage d'audiences avec Audience Manager ou People core service
+title: Partage d'audiences avec Audience Manager ou People core service
 description: Découvrez comment importer ou exporter votre audience au sein des différentes solutions d'Adobe Experience Cloud.
 audience: integrating
 content-type: reference
@@ -9,54 +9,54 @@ role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 100%
 
 ---
 
-# Partage d&#39;audiences avec Audience Manager ou People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
+# Partage d&#39;audiences avec Audience Manager ou People core service{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Importer une audience {#importing-an-audience}
 
-L&#39;intégration de People core service permet d&#39;importer directement une audience dans Adobe Campaign via un workflow technique afin d&#39;enrichir votre base de données. Pour plus d&#39;informations sur le partage d&#39;audiences dans People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
+L&#39;intégration de People core service permet d&#39;importer directement une audience dans Adobe Campaign via un workflow technique afin d&#39;enrichir votre base de données. Pour plus d&#39;informations sur le partage d&#39;audiences dans People core service, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
 
-L&#39;import des audiences/segments depuis People core service dans Adobe Campaign peut être effectué à partir du menu **[!UICONTROL Audiences]** uniquement par les utilisateurs connectés via IMS (authentification via l&#39;Adobe ID).
+L&#39;import des audiences/segments depuis People core service dans Adobe Campaign peut être effectué à partir du menu **[!UICONTROL Audiences]** uniquement par les utilisateurs connectés via IMS (authentification via l&#39;Adobe ID).
 
 1. Accédez au menu **[!UICONTROL Audiences]**.
 1. Depuis la barre d&#39;actions, sélectionnez **[!UICONTROL Créer]** pour accéder à l&#39;écran de création d&#39;une audience.
 1. Indiquez le libellé de la nouvelle audience.
-1. Paramétrez le **[!UICONTROL Type]** de l&#39;audience sur **[!UICONTROL Experience Cloud]** afin d&#39;indiquer que l&#39;audience en cours de création est une audience importée depuis People core service.
+1. Paramétrez le **[!UICONTROL Type]** de l&#39;audience sur **[!UICONTROL Experience Cloud]** afin d&#39;indiquer que l&#39;audience en cours de création est une audience importée depuis People core service.
 1. Depuis le champ **[!UICONTROL Nom de l&#39;audience partagée]**, sélectionnez l&#39;audience à importer. Seuls les segments peuvent être importés. Les données granulaires, notamment les paires clé-valeur, les caractéristiques et les règles ne sont pas prises en charge.
 
    ![](assets/aam_import_audience.png)
 
 1. Sélectionnez la **[!UICONTROL Data source partagée correspondante]**.
 
-   Si la source de données sélectionnée est configurée pour utiliser un algorithme de cryptage, une option supplémentaire offre la possibilité de **[!UICONTROL Forcer la réconciliation avec un profil]**. Cochez cette option si le champ **[!UICONTROL Canal]** de la source de données est défini sur Email ou Mobile (SMS) et si vous voulez utiliser les données de profil.
+   Si la source de données sélectionnée est configurée pour utiliser un algorithme de chiffrement, une option supplémentaire offre la possibilité de **[!UICONTROL Forcer la réconciliation avec un profil]**. Cochez cette option si le champ **[!UICONTROL Canal]** de la source de données est défini sur Email ou Mobile (SMS) et si vous voulez utiliser les données de profil.
 
-   Si vous ne sélectionnez pas l&#39;option **[!UICONTROL Forcer la réconciliation avec un profil]** et si le champ **[!UICONTROL Canal]** est défini dans l&#39;AMC Data source sur Email ou Mobile (SMS), tous les identifiants Declared ID cryptés sont décryptés. Une audience de type **Fichier** avec la liste de toutes les adresses email et de tous les numéros de téléphone mobile est créée/mise à jour. Ainsi, aucune adresse email ni aucun numéro de téléphone mobile n&#39;est perdu lors de l&#39;import d&#39;une audience partagée via cette intégration, et ce même si ce profil n&#39;existe pas dans Campaign. Ces types d&#39;audience ne peuvent pas être utilisés directement car ils doivent être réconciliés manuellement à l&#39;aide de workflows.
+   Si vous ne sélectionnez pas l&#39;option **[!UICONTROL Forcer la réconciliation avec un profil]** et si le champ **[!UICONTROL Canal]** est défini dans l&#39;AMC Data source sur Email ou Mobile (SMS), tous les identifiants Declared ID chiffrés sont déchiffrés. Une audience de type **Fichier** avec la liste de toutes les adresses email et de tous les numéros de téléphone mobile est créée/mise à jour. Ainsi, aucune adresse email ni aucun numéro de téléphone mobile n&#39;est perdu lors de l&#39;import d&#39;une audience partagée via cette intégration, et ce même si ce profil n&#39;existe pas dans Campaign. Ces types d&#39;audience ne peuvent pas être utilisés directement car ils doivent être réconciliés manuellement à l&#39;aide de workflows.
 
 1. Validez la création de l&#39;audience.
 
    L&#39;audience est ensuite importée à l&#39;aide d&#39;un workflow technique. Elle est composée des enregistrements dont l&#39;identifiant (Visitor ID ou Declared ID) a pu être réconcilié avec la dimension des profils. Les identifiants provenant des segments de People core service non reconnus par Adobe Campaign ne sont pas importés.
 
-Votre audience est maintenant importée dans votre base de données Adobe Campaign. Le processus d&#39;import prend entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People core service ou d&#39;Audience Manager. Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
+Votre audience est maintenant importée dans votre base de données Adobe Campaign. Le processus d&#39;import prend entre 24 et 36 heures pour se synchroniser lorsque les segments sont importés directement à partir de People core service ou d&#39;Audience Manager. Au terme de cette période, vous pourrez trouver et utiliser votre nouvelle audience dans Adobe Campaign.
 
 >[!NOTE]
 >
->Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent être partagées au préalable dans People Core Service ou Audience Manager. Ce processus prend entre 12 et 24 heures, en plus des 24 à 36 heures de synchronisation avec Campaign. Dans ce cas spécifique, l&#39;échéance de partage d&#39;audience peut aller jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audience Adobe Analytics dans People Core service et Audience manager, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=fr).
+>Si vous importez des audiences d&#39;Adobe Analytics vers Adobe Campaign, celles-ci doivent être partagées au préalable dans People Core Service ou Audience Manager. Ce processus prend entre 12 et 24 heures, en plus des 24 à 36 heures de synchronisation avec Campaign. Dans ce cas spécifique, l&#39;échéance de partage d&#39;audience peut aller jusqu&#39;à 60 heures. Pour plus d&#39;informations sur le partage d&#39;audience Adobe Analytics dans People Core service et Audience manager, consultez cette [documentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Exporter une audience {#exporting-an-audience}
 
-L&#39;export d&#39;une audience depuis Adobe Campaign vers Audience Manager ou People core service peut être réalisé à l&#39;aide d&#39;un workflow et de l&#39;activité de **[!UICONTROL Sauvegarde d&#39;audience]**.
+L&#39;export d&#39;une audience depuis Adobe Campaign vers Audience Manager ou People core service peut être réalisé à l&#39;aide d&#39;un workflow et de l&#39;activité de **[!UICONTROL Sauvegarde d&#39;audience]**.
 
 Il peut être réalisé dans un nouveau workflow par les utilisateurs connectés via IMS uniquement (authentification via l&#39;Adobe ID).
 
 1. Créez un workflow à partir d&#39;un programme, d&#39;une campagne ou de la liste des activités marketing.
 1. En utilisant les différentes activités à votre disposition, ciblez un ensemble de profils.
 1. A la suite du ciblage, placez une activité **[!UICONTROL Sauvegarde d&#39;audience]** puis ouvrez-la.
-1. Sélectionnez **[!UICONTROL Partager dans Adobe Experience Cloud]**.
+1. Sélectionnez **[!UICONTROL Partager dans Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 

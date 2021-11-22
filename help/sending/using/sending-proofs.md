@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Pour envoyer des bons à tirer, procédez comme suit :
 
    ![](assets/bat_select.png)
 
-1. Sélectionnez le type de BAT que vous souhaitez utiliser :
+1. Sélectionnez le type de BAT que vous souhaitez utiliser :
 
    * **[!UICONTROL Rendu des emails]** : sélectionnez cette option pour tester la réception de votre message en fonction des boîtes de messagerie ciblées. Pour plus d’informations, voir [Rendu des emails](../../sending/using/email-rendering.md).
    * **[!UICONTROL Bon à tirer]** : sélectionnez cette option pour tester le message avant son envoi à la cible principale. Les destinataires du BAT sont chargés de la validation de la diffusion, tant sur son contenu que sur sa forme.

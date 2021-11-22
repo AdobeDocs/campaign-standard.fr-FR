@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
-**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter au format CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
+**Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter au format CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
 
 En savoir plus :
 
@@ -45,7 +45,7 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard est fourni avec un ensemble de **rapports dynamiques d’usine**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
+Campaign Standard est fourni avec un ensemble de **rapports dynamiques d’usine**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 
@@ -84,4 +84,4 @@ Cette vidéo offre une vue d’ensemble des fonctionnalités de rapports dynamiq
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

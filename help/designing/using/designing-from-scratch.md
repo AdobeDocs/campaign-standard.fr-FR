@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -187,7 +187,7 @@ Utilisez ce composant pour insérer des liens vers des pages de réseaux sociaux
 
    ![](assets/des_carousel_browse.png)
 
-1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de vignettes souhaitées dans le carrousel.
+1. Dans le volet **[!UICONTROL Paramètres]**, définissez le nombre de miniatures souhaitées dans le carrousel.
 1. Sélectionnez une image de remplacement à partir de votre ordinateur.
 
    ![](assets/des_carousel_fallback.png)

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Sélectionner une audience dans un message{#selecting-an-audience-in-a-message}
 
-Adobe Campaign vous permet de paramétrer plusieurs types de profils dans les audiences d’un message.
+Adobe Campaign vous permet de paramétrer plusieurs types de profils dans les audiences d’un message.
 
 Les audiences peuvent être définies au moment de la création du message via l’assistant de création ou depuis le tableau de bord du message s’il a déjà été créé.
 
@@ -30,7 +30,7 @@ Les audiences peuvent être définies au moment de la création du message via l
 
    ![](assets/delivery_audience_definition_1.png)
 
-   L’écran de définition des audiences s’ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d’audience qui recevra le message :
+   L’écran de définition des audiences s’ouvre. Il dispose de deux onglets permettant de définir distinctement la population de chaque type d’audience qui recevra le message :
 
    * Cible
    * Profils de test
@@ -39,7 +39,7 @@ Les audiences peuvent être définies au moment de la création du message via l
 
 1. Définissez la **[!UICONTROL cible]** principale de l’email. Il s’agit de l’audience cible standard de l’email.
 
-   La cible est définie dans l’onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données. Vous pouvez constituer votre cible principale à l’aide des fonctionnalités de l’[éditeur de requêtes](../../automating/using/editing-queries.md#creating-queries).
+   La cible est définie dans l’onglet **[!UICONTROL Cible]**. Elle est constituée des profils identifiés de votre base de données. Vous pouvez constituer votre cible principale à l’aide des fonctionnalités du [requêteur](../../automating/using/editing-queries.md#creating-queries).
 
    Lorsque vous vous trouvez sur cet onglet, la palette **[!UICONTROL Raccourcis]** contient uniquement les filtres prédéfinis et les audiences ayant été définis sur les profils identifiés. L’onglet **[!UICONTROL Explorateur]** vous permet d’accéder à des paramétrages supplémentaires.
 

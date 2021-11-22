@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Pour afficher le contenu d’un élément et le modifier, cliquez sur son libell
 
 >[!IMPORTANT]
 >
->L’export de package n’est pas autorisé si les ressources exportées ont des identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s’éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur &quot;SDM&quot; ou &quot;sdm&quot;.
+>L’export de package n’est pas autorisé si les ressources exportées ont des identifiants par défaut. Il est donc obligatoire de modifier les identifiants des ressources exportables en s’éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur &quot;SDM&quot; ou &quot;sdm&quot;.
 >
 >Lors de l’export de packages contenant des identifiants par défaut, les erreurs du type suivant peuvent s’afficher : &quot;L’entité de type ’Marques (branding)’ utilise un identifiant par défaut (’BRD1’) susceptible de provoquer un conflit lors de l’import du package. Modifiez ce nom et renouvelez l’opération.&quot;
 
@@ -82,7 +82,7 @@ Pour créer un package, vous devez disposer des droits d’administration.
 
    ![](assets/packages_4.png)
 
-1. Utilisez l’éditeur de requêtes pour filtrer les éléments à exporter. Pour plus d&#39;informations, consultez la section [Edition de requêtes](../../automating/using/editing-queries.md#creating-queries).
+1. Utilisez le requêteur pour filtrer les éléments à exporter. Pour plus d&#39;informations, consultez la section [Edition de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
    ![](assets/packages_5.png)
 
@@ -100,7 +100,7 @@ L’export d’un package vous permet d’enregistrer un état spécifique d’u
 
 >[!CAUTION]
 >
->L’export de packages n’est pas autorisé si les ressources exportées ont des identifiants d’usine. Il est donc obligatoire de modifier les identifiants des ressources exportables en s’éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur &quot;SDM&quot; ou &quot;sdm&quot;.
+>L’export de packages n’est pas autorisé si les ressources exportées ont des identifiants d’usine. Il est donc obligatoire de modifier les identifiants des ressources exportables en s’éloignant des modèles livrés par Adobe Campaign Standard. Par exemple, pour exporter des profils de test, il ne faut pas utiliser un identifiant contenant la valeur &quot;SDM&quot; ou &quot;sdm&quot;.
 
 1. Depuis **[!UICONTROL Administration]** > **[!UICONTROL Déploiement]** > **[!UICONTROL Exports de package]**, sélectionnez un package pour accéder à ses détails.
 1. Vérifiez que le package contient les données dont vous avez besoin.
@@ -140,9 +140,9 @@ L’onglet **[!UICONTROL Logs d’exécution]** répertorie toutes les étapes d
 
 ### Import d’un package     {#importing-a-package}
 
-Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Pour plus d&#39;informations, consultez la section [Exports de package](#package-exports).
+Un administrateur peut importer manuellement un package issu d’un export réalisé au préalable à partir d’une instance Adobe Campaign. Pour plus d&#39;informations, consultez la section [Exports de package](#package-exports).
 
-L’import manuel d’un package consiste en deux étapes : il faut d’abord télécharger un fichier avant de pouvoir importer son contenu.
+L’import manuel d’un package consiste en deux étapes : il faut d’abord télécharger un fichier avant de pouvoir importer son contenu.
 
 1. Depuis **[!UICONTROL Administration]** > **[!UICONTROL Déploiement]** > **[!UICONTROL Imports de package]**, cliquez sur le bouton **[!UICONTROL Créer]** dans la liste des imports de package.
 

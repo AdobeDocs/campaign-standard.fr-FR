@@ -1,6 +1,6 @@
 ---
-title: Configuration de l’intégration Campaign-Experience Manager
-description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
+title: Configuration de l’intégration Campaign-Experience Manager
+description: Avec l'intégration d'Adobe Experience Manager, vous pouvez créer du contenu directement dans AEM et l'utiliser ultérieurement dans Adobe Campaign.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
@@ -9,15 +9,15 @@ role: Data Architect
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
 ---
 
-# Configuration de l&#39;intégration Campaign-Experience Manager {#configuration-aem}
+# Configuration de l&#39;intégration Campaign-Experience Manager {#configuration-aem}
 
-Cette intégration entre Adobe Campaign Standard et Experience Manager vous permet d&#39;utiliser du contenu créé dans Adobe Experience Manager dans vos emails Adobe Campaign.
+Cette intégration entre Adobe Campaign Standard et Experience Manager vous permet d&#39;utiliser du contenu créé dans Adobe Experience Manager dans vos emails Adobe Campaign.
 
 À travers ce cas pratique vous apprendrez à créer et gérer des contenus d’email dans Adobe Experience Manager, puis à les utiliser pour vos campagnes marketing en les important dans vos emails Adobe Campaign Standard.
 
@@ -27,16 +27,16 @@ Vous devez au préalable posséder les éléments suivants :
 
 * Une instance Adobe Experience Manager de création (également appelée **authoring**).
 * Une instance Adobe Experience Manager de publication (également appelée **publishing**).
-* Une instance Adobe Campaign
+* Une instance Adobe Campaign
 
 ## Configuration dans Adobe Campaign Standard {#config-acs}
 
 Afin de pouvoir utiliser conjointement ces deux solutions, vous devez les paramétrer pour les connecter l&#39;une à l&#39;autre.
-Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
+Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
-1. Vous devez d’abord configurer le compte externe de l’**[!UICONTROL instance Adobe Experience Manager]** sous **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Comptes externes]**.
+1. Vous devez d’abord configurer le compte externe de l’**[!UICONTROL instance Adobe Experience Manager]** sous **[!UICONTROL Administration]** > **[!UICONTROL Paramètres de l’application]** > **[!UICONTROL Comptes externes]**.
 
-1. Configurez le compte externe de type Adobe Experience Manager avec l’URL de votre **[!UICONTROL serveur]** , le **[!UICONTROL compte]** et le **[!UICONTROL mot de passe]**.
+1. Configurez le compte externe de type Adobe Experience Manager avec l’URL de votre **[!UICONTROL serveur]** , le **[!UICONTROL compte]** et le **[!UICONTROL mot de passe]**.
 
    ![](assets/aem_1.png)
 
@@ -58,7 +58,7 @@ Les étapes de configuration d&#39;Adobe Campaign sont les suivants :
 
    ![](assets/aem_4.png)
 
-1. Dans la liste déroulante **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Adobe Experience Manager]** dans le champ **[!UICONTROL Source de contenu]**, puis votre compte externe créé précédemment dans le **[!UICONTROL compte Adobe Experience Manager]**.
+1. Dans la liste déroulante **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Adobe Experience Manager]** dans le champ **[!UICONTROL Source de contenu]**, puis votre compte externe créé précédemment dans le **[!UICONTROL compte Adobe Experience Manager]**.
 
 Vous devez maintenant configurer l’intégration dans Adobe Experience Manager.
 
@@ -68,6 +68,6 @@ Pour configurer Adobe Experience Manager avec Adobe Campaign Standard, proc�
 
 1. Vous devez d’abord configurer la réplication entre les instances de création et de publication d’Adobe Experience Manager. Consultez cette [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=fr#configuring-adobe-experience-manager).
 
-1. Ensuite, connectez Adobe Experience Manager à Adobe Campaign en configurant un **[!UICONTROL Cloud Service]** dédié. Consultez cette [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=fr#connecting-aem-to-adobe-campaign).
+1. Ensuite, connectez Adobe Experience Manager à Adobe Campaign en configurant un **[!UICONTROL Cloud Service]** dédié. Consultez cette [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=fr#connecting-aem-to-adobe-campaign).
 
 1. Vous devez maintenant configurer l’externalisateur dans Adobe Experience Manager sur votre instance d’auteur. Consultez cette [section](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=fr#configuring-the-externalizer).

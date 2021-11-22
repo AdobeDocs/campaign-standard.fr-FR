@@ -1,11 +1,11 @@
 ---
 title: Personnalisation des listes
-description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
+description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Les profils Adobe Campaign représentent l&#39;ensemble des contacts stockés da
 
 <img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
 
-Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign et contient des références à la documentation dédiée.
+Campaign Standard propose plusieurs outils pour vous aider à développer votre base de données marketing. Cette section décrit les différentes méthodes que vous pouvez utiliser pour injecter des données dans Campaign et contient des références à la documentation dédiée.
 
 ### Import de données par le biais de workflows {#importing-data-through-workflows}
 
@@ -81,12 +81,12 @@ Pour plus d&#39;informations sur les landing pages, reportez-vous à la [documen
 
 ### Synchronisation des profils à partir de Microsoft Dynamics 365
 
-L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
+L&#39;intégration de Campaign Standard avec Microsoft Dynamics 365 vous permet de transmettre les données de contact de Microsoft Dynamics 365 à la base de données Campaign.
 Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés dans les campagnes marketing. Pour plus d&#39;informations sur cette intégration, reportez-vous à la [documentation dédiée](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Veuillez noter que le connecteur Campaign Standard-Microsoft Dynamics 365 est actuellement à disponibilité limitée et qu&#39;il est soumis à plusieurs restrictions, détaillées dans la documentation.
+>Veuillez noter que le connecteur Campaign Standard-Microsoft Dynamics 365 est actuellement à disponibilité limitée et qu&#39;il est soumis à plusieurs restrictions, détaillées dans la documentation.
 
 **En savoir plus**
 
@@ -95,7 +95,7 @@ Ces contacts sont alors visibles dans la liste Profils et peuvent être ciblés 
 
 ### Import de données par le biais d&#39;appels d&#39;API
 
-Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services. Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/get-started-apis.md).
+Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour mettre à jour la base de données comme créer, mettre à jour ou supprimer des profils ou des services. Pour plus d&#39;informations sur l&#39;utilisation des API, reportez-vous à la [documentation dédiée](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -110,7 +110,7 @@ Les API Campaign Standard vous permettent d&#39;effectuer des opérations pour m
 
 <img width="60px" alt="conditions" src="assets/icon_audience.svg"/>
 
-Pour vous permettre de diffuser des messages pertinents et performants, ainsi que d&#39;atteindre vos clients efficacement, Adobe Campaign intègre des fonctionnalités de ciblage et d&#39;analyse avancée.
+Pour vous permettre de diffuser des messages pertinents et performants, ainsi que d&#39;atteindre vos clients efficacement, Adobe Campaign intègre des fonctionnalités de ciblage et d&#39;analyse avancée.
 
 Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des audiences qui seront ciblées par vos différentes campagnes, selon les informations dont vous disposez à leur sujet, leurs activités, leur langue, leurs préférences ou leur historique marketing. De cette façon, vous pouvez, par exemple, filtrer les profils abonnés ou créer des audiences de la cible en fonction d&#39;un nombre illimité de critères.
 
@@ -123,9 +123,9 @@ Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des a
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
-Le RGPD est la nouvelle loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l&#39;UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
+Le RGPD est la nouvelle loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l&#39;UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
-Pour plus d&#39;informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html).
+Pour plus d&#39;informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à ce [guide](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html).
 
 **En savoir plus**
 

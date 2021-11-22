@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Les messages peuvent être créés à partir de la liste des activités marketin
 
 ## Définition de l’audience
 
-Définissez les destinataires de votre message. Pour ce faire, utilisez l’[éditeur de requêtes](../../automating/using/editing-queries.md) du volet gauche pour filtrer les données contenues dans votre base de données et créer des règles permettant de cibler votre audience.
+Définissez les destinataires de votre message. Pour ce faire, utilisez le [requêteur](../../automating/using/editing-queries.md) du volet gauche pour filtrer les données contenues dans votre base de données et créer des règles permettant de cibler votre audience.
 
 Plusieurs types d’audiences sont disponibles :
 

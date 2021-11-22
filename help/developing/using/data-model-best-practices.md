@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Ce document présente les principales recommandations lors de la conception de v
 
 >[!NOTE]
 >
->Pour créer et modifier des ressources afin d’étendre le modèle de données prédéfini d’Adobe Campaign, consultez [cette section](../../developing/using/key-steps-to-add-a-resource.md).
+>Pour créer et modifier des ressources afin d’étendre le modèle de données prédéfini d’Adobe Campaign, consultez [cette section](../../developing/using/key-steps-to-add-a-resource.md).
 >
 >Vous trouverez une représentation du modèle de données des ressources natives dans [cette page](../../developing/using/datamodel-introduction.md).
 
@@ -57,7 +57,7 @@ While some of this data cleansing might be performed in Adobe Campaign, the reco
 
 Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
-### Données pour Adobe Campaign {#data-for-campaign}
+### Données pour Adobe Campaign {#data-for-campaign}
 
 Quelles données doivent être envoyées à Adobe Campaign ? Il est essentiel de déterminer les données requises pour vos activités marketing.
 
@@ -96,7 +96,7 @@ Le tableau ci-après décrit ces identifiants et leur finalité.
 | Nom d’affichage | Nom technique | Description | Bonnes pratiques |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>La clé PKey est la clé primaire physique d’une table Adobe Campaign.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique.</li><li>Dans Adobe Campaign Standard, cette valeur n’est pas visible par l’utilisateur final (sauf dans les URL).</li></ul> | <ul><li>Par le biais du [système API](../../api/using/get-started-apis.md), il est possible de récupérer une valeur PKey (qui est une valeur générée/hachée, et non la clé physique).</li><li>Il n’est pas recommandé de l’utiliser à d’autres fins que la récupération, la mise à jour ou la suppression d’enregistrements via l’API.</li></ul> |
-| Identifiant | name ou internalName | <ul><li>Cette information est l’identifiant unique d’un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «  », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, &quot;abc-def&quot; et &quot;abc:def&quot; seront stockés sous la forme de &quot;abc_def&quot; et s&#39;écraseront mutuellement.</li></ul> |
+| Identifiant | name ou internalName | <ul><li>Cette information est l’identifiant unique d’un enregistrement dans une table. Cette valeur peut être mise à jour manuellement.</li><li>Cet identifiant conserve sa valeur lorsqu’il est déployé dans une autre instance d’Adobe Campaign. Il doit avoir un nom différent de la valeur générée pour pouvoir être exporté via un package.</li><li>Il ne s’agit pas de la clé primaire actuelle de la table.</li></ul> | <ul><li>N’utilisez pas de caractères spéciaux tels que l’espace «  », le point-virgule « ; » ou le tiret « - ».</li><li>Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, &quot;abc-def&quot; et &quot;abc:def&quot; seront stockés sous la forme de &quot;abc_def&quot; et s&#39;écraseront mutuellement.</li></ul> |
 | Libellé | label | <ul><li>Le libellé est l’identifiant d’entreprise d’un objet ou d’un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s’agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d’Adobe Campaign.</li></ul> |
 | Identifiant ACS | acsId | <ul><li>Un identifiant supplémentaire peut être généré : l’[identifiant ACS](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Comme la clé PKey ne peut pas être utilisée dans l’interface utilisateur d’Adobe Campaign, il s’agit d’une solution permettant d’obtenir une valeur unique générée lors de l’insertion d’un enregistrement de profil.</li><li>La valeur ne peut être générée automatiquement que si l’option est activée dans la ressource avant qu’un enregistrement ne soit inséré dans Adobe Campaign.</li></ul> | <ul><li>Cet UUID peut être utilisé comme clé de réconciliation.</li><li>Un identifiant ACS généré automatiquement ne peut pas être utilisé comme référence dans un workflow ou dans une définition de package.</li><li>Cette valeur est spécifique à une instance Adobe Campaign.</li></ul> |
 

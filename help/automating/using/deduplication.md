@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 1. Sélectionnez le **[!UICONTROL Type de ressource]** sur lequel doit être effectuée la déduplication :
 
    * **[!UICONTROL Ressource de la base]** si la déduplication porte sur des données déjà existantes en base de données. Sélectionnez la **[!UICONTROL Dimension de filtrage]** et la **[!UICONTROL Dimension de ciblage]** en fonction des données que vous souhaitez dédupliquer. Par défaut, la déduplication porte sur les **profils**.
-   * **[!UICONTROL Ressource temporaire]** si la déduplication porte sur des données temporaires du workflow : sélectionnez l&#39;**[!UICONTROL Ensemble ciblé]** contenant les données à dédupliquer. Ce cas peut être rencontré à la suite d&#39;un import de fichier ou si des données de la base ont été enrichies (par exemple avec un code segment).
+   * **[!UICONTROL Ressource temporaire]** si la déduplication porte sur des données temporaires du workflow : sélectionnez l&#39;**[!UICONTROL Ensemble ciblé]** contenant les données à dédupliquer. Ce cas peut être rencontré à la suite d&#39;un import de fichier ou si des données de la base ont été enrichies (par exemple avec un code segment).
 
 1. Sélectionnez le **[!UICONTROL Nombre d&#39;enregistrements uniques à conserver]**. La valeur par défaut de ce champs est 1. La valeur 0 permet de conserver tous les doublons.
 
@@ -61,7 +61,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
    * Si la valeur du champ est 0 : tous les enregistrements sont conservés.
    * Si la valeur du champ est 2 : les enregistrements C et Z sont conservés et deux enregistrements parmi A, B et Y sont conservés, au hasard ou en fonction de la méthode de déduplication choisie par la suite.
 
-1. Définissez les critères d&#39;**[!UICONTROL Identification des doublons]** en ajoutant des conditions dans la liste prévue à cet effet. Indiquez les champs et/ou expressions pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, nom, prénom etc. L&#39;ordre des conditions permet d&#39;indiquer lesquelles traiter en priorité.
+1. Définissez les critères d&#39;**[!UICONTROL Identification des doublons]** en ajoutant des conditions dans la liste prévue à cet effet. Indiquez les champs et/ou expressions pour lesquels des valeurs identiques permettent d&#39;identifier les doublons : adresse email, nom, prénom etc. L&#39;ordre des conditions permet d&#39;indiquer lesquelles traiter en priorité.
 1. Sélectionnez dans la liste déroulante la **[!UICONTROL Méthode de déduplication]** à utiliser :
 
    * **[!UICONTROL Choisir pour moi]** : sélectionne au hasard parmi les doublons l&#39;enregistrement à conserver.

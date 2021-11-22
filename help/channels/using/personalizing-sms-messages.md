@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Voici l&#39;exemple d&#39;un SMS contenant des champs de personnalisation qui, s
 
 **Bonjour &lt;Prénom> &lt;Nom>, de nouveaux produits sont disponibles. Venez les découvrir en magasin !**
 
-* Pour un destinataire nommé &#39;Jean Dupont&#39;, aucun caractère spécial n&#39;étant présent, Adobe Campaign choisira l&#39;encodage GSM qui autorise jusqu&#39;à 160 caractères par SMS. Le message sera donc envoyé en une seule partie.
+* Pour un destinataire nommé &#39;Jean Dupont&#39;, aucun caractère spécial n&#39;étant présent, Adobe Campaign choisira l&#39;encodage GSM qui autorise jusqu&#39;à 160 caractères par SMS. Le message sera donc envoyé en une seule partie.
 * Pour un destinataire nommé &#39;Raphaël Laforêt&#39;, les caractères &#39;ë&#39; et &#39;ê&#39; ne peuvent pas être encodés en GSM. Selon le paramétrage choisi pour la translittération, Adobe Campaign a le choix entre deux comportements :
 
    * Si la translittération est autorisée, &#39;ë&#39; et &#39;ê&#39; seront remplacés par &#39;e&#39;, ce qui permet d&#39;utiliser l&#39;encodage GSM et autorise 160 caractères dans le SMS. Ce message sera envoyé en un seul SMS, mais il sera légèrement altéré.

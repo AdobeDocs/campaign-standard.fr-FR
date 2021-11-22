@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -40,13 +40,13 @@ Avant de personnaliser votre notification push multilingue, vous devez télécha
 >Vous pouvez également ignorer cette étape si vous souhaitez créer manuellement une variante pour chaque variante linguistique.
 
 1. Dans **[!UICONTROL Activités marketing]**, cliquez sur le bouton **[!UICONTROL Créer]**, puis sélectionnez **[!UICONTROL Notification push]**.
-1. Sélectionnez le modèle **[!UICONTROL Envoyer des notifications push multilingues aux profils Campaign]** si vous souhaitez cibler les profils Adobe Campaign abonnés à votre application mobile. Choisissez le modèle **[!UICONTROL Envoyer des notifications push multilingues aux abonnés de l&#39;application]** pour envoyer une notification push à tous les utilisateurs ayant accepté de recevoir des notifications de votre application mobile.
+1. Sélectionnez le modèle **[!UICONTROL Envoyer des notifications push multilingues aux profils Campaign]** si vous souhaitez cibler les profils Adobe Campaign abonnés à votre application mobile. Choisissez le modèle **[!UICONTROL Envoyer des notifications push multilingues aux abonnés de l&#39;application]** pour envoyer une notification push à tous les utilisateurs ayant accepté de recevoir des notifications de votre application mobile.
 
    ![](assets/multivariant_push_2.png)
 
 1. Renseignez les propriétés de la notification push et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
 
-   La liste déroulante contiendra les applications des SDK V4 et Adobe Experience Platform.
+   La liste déroulante contiendra les applications des SDK V4 et Adobe Experience Platform.
 
 1. Dans la fenêtre **[!UICONTROL Audiences]**, déposez vos requêtes pour affiner votre audience.
 

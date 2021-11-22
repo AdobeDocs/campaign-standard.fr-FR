@@ -1,6 +1,6 @@
 ---
-title: Accessibilité dans Adobe Campaign Standard
-description: Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
+title: Accessibilité dans Adobe Campaign Standard
+description: Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
 audience: designing
 content-type: reference
 topic-tags: accessibility
@@ -9,15 +9,15 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 100%
 
 ---
 
-# Accessibilité dans Adobe Campaign Standard {#accessibility-acs}
+# Accessibilité dans Adobe Campaign Standard {#accessibility-acs}
 
-Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
+Découvrez la prise en charge de l’accessibilité dans l’espace de travail Adobe Campaign Standard.
 
 L’accessibilité consiste à rendre des produits utilisables par les personnes ayant des déficiences visuelles, auditives, cognitives, motrices et autres. Les exemples de fonctionnalités d’accessibilité pour les produits logiciels incluent le classement sémantique du contenu structuré de manière sémantique, la prise en charge des lecteurs d’écran, les équivalents textuels pour les graphiques, les raccourcis clavier, etc.
 
@@ -79,7 +79,7 @@ Nous nous efforçons de rendre l’application Adobe Campaign Standard aussi u
 
 ## Travailler dans la langue que vous préférez {#languages}
 
-Adobe Campaign Standard est disponible dans différentes langues : allemand, anglais et français.
+Adobe Campaign Standard est disponible dans différentes langues : allemand, anglais et français.
 
 Veuillez noter que la langue est configurée à l’installation et ne peut pas être modifiée par la suite.
 
@@ -122,8 +122,8 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 
 ## Autres lectures {#further-reading}
 
-Adobe Campaign Standard s’efforce de fournir un niveau d’accessibilité toujours plus élevé, ce qui rend le produit facile à utiliser pour tous.
+Adobe Campaign Standard s’efforce de fournir un niveau d’accessibilité toujours plus élevé, ce qui rend le produit facile à utiliser pour tous.
 
 Nous vous encourageons à utiliser le [formulaire de commentaires sur l’accessibilité d’Adobe](https://www.adobe.com/accessibility/feedback.html) pour nous faire part de suggestions d’amélioration et des problèmes d&#39;accessibilité que vous rencontrez.
 
-Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr#release-notes) pour suivre les dernières améliorations et fonctionnalités.
+Vous pouvez également consulter les [notes de mise à jour d’Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=fr#release-notes) pour suivre les dernières améliorations et fonctionnalités.

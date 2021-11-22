@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Plans, programmes et campagnes {#about-plans--programs-and-campaigns}
 
-Adobe Campaign permet de concevoir des campagnes marketing dans lesquelles vous pouvez créer et gérer différents types d’activités : emails, SMS, notifications push, workflows, landing pages. Ces campagnes et leurs contenus peuvent être regroupés dans des programmes.
+Adobe Campaign permet de concevoir des campagnes marketing dans lesquelles vous pouvez créer et gérer différents types d’activités : emails, SMS, notifications push, workflows, landing pages. Ces campagnes et leurs contenus peuvent être regroupés dans des programmes.
 
 Les programmes et les campagnes permettent de regrouper et de visualiser les différentes activités marketing qui leur sont associées.
 
@@ -40,7 +40,7 @@ Des rapports sur les programmes et les campagnes permettent d&#39;analyser leur 
 
 Le programme correspond au premier niveau de l&#39;organisation. Il peut contenir des sous-programmes, des campagnes, des workflows ou des landing pages.
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]**.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. Dans l&#39;écran **[!UICONTROL Mode de création]**, sélectionnez un type de programme.
 
@@ -68,7 +68,7 @@ Le programme est créé et affiché. Utilisez le bouton **[!UICONTROL Créer]** 
 
 Dans les programmes et sous-programmes, vous pouvez ajouter des campagnes. Les campagnes peuvent contenir des activités marketing telles que des emails, des SMS, des notifications push, des workflows et des landing pages.
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]** et accédez à un programme ou sous-programme.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, sélectionnez la vignette **[!UICONTROL Programmes &amp; Campagnes]** et accédez à un programme ou sous-programme.
 1. Cliquez sur le bouton **[!UICONTROL Créer]** et sélectionnez **[!UICONTROL Campagne]**.
 1. Dans l&#39;écran **[!UICONTROL Mode de création]**, sélectionnez un type de campagne.
 

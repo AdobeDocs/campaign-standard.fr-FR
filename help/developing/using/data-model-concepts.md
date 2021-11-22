@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 # Notions de modèle de données{#data-model-concepts}
 
-Un modèle de données d’usine est fourni avec Adobe Campaign. Ce modèle de données peut être modifié par les [administrateurs](../../administration/using/users-management.md#functional-administrators) qui peuvent ajouter de nouvelles ressources ou des extensions à des ressources existantes.
+Un modèle de données d’usine est fourni avec Adobe Campaign. Ce modèle de données peut être modifié par les [administrateurs](../../administration/using/users-management.md#functional-administrators) qui peuvent ajouter de nouvelles ressources ou des extensions à des ressources existantes.
 
 >[!CAUTION]
 >
 >La création et la modification de ressources sont des opérations sensibles qui doivent être effectuées uniquement par des utilisateurs experts.
 
-Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d’**accéder aux outils de diagnostic**.
+Le menu **[!UICONTROL Administration]** > **[!UICONTROL Développement]** accessible via le logo Adobe Campaign, vous permet de gérer vos **ressources personnalisées**, de les **publier** et d&#39;**accéder aux outils de diagnostic**.
 
-Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d’**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d’achats ou de produits par exemple.
+Les données utilisées par Adobe Campaign sont décrites par le biais de différentes ressources. Il est possible d’**enrichir le modèle de données** fourni en créant vos propres ressources personnalisées, comme des tables d’achats ou de produits par exemple.
 
 Les ressources natives (comme les campagnes, les e-mails ou les audiences) ne peuvent pas être modifiées. Cependant, il est possible de les étendre pour leur ajouter de nouveaux champs.
 

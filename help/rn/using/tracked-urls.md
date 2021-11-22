@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Veuillez noter que les liens de désinscription peuvent échouer comme tout autr
 
 **Cela vous concerne-t-il ?**
 
-Certains utilisateurs Campaign Standards sont affectés, car le mécanisme de signature pour le tracking des liens dans les e-mails a été introduit dans [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020), en octobre 2020, et est activé par défaut pour tous les clients.
+Certains utilisateurs Campaign Standards sont affectés, car le mécanisme de signature pour le tracking des liens dans les e-mails a été introduit dans [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020), en octobre 2020, et est activé par défaut pour tous les clients.
 
 **Comment effectuer la mise à jour ?**
 

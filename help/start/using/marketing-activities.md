@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ La couleur associée à cette icône indique le statut d&#39;exécution de l&#39
 * Bleu : l&#39;activité est en cours - statut **[!UICONTROL En cours]**.
 * Vert : l&#39;activité est terminée - statut **[!UICONTROL Terminé]**.
 * Jaune : l&#39;activité a fait l&#39;objet d&#39;un avertissement - statut **[!UICONTROL Avertissement]**.
-* Rouge : une erreur est survenue - statut **[!UICONTROL En erreur]**.
+* Rouge : une erreur est survenue - statut **[!UICONTROL En erreur]**.
 
 ## Créer une activité marketing {#creating-a-marketing-activity}
 

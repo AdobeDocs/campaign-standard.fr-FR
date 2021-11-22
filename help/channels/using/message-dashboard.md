@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 886aae39-2029-471c-b4d1-c6ca57d0e568
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -26,8 +26,8 @@ Le tableau de bord d’un message est un espace de travail composé de différen
 
 La barre grise regroupe différentes icônes en lien avec votre message.
 
-* **[!UICONTROL Afficher le résumé]** : affiche/masque les informations principales relatives au message.
-* **[!UICONTROL Editer les propriétés]**[ : permet d’accéder à l’écran d’édition des paramètres avancés du message](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL Afficher le résumé]** : affiche/masque les informations principales relatives au message.
+* **[!UICONTROL Editer les propriétés]**[ : permet d&#39;accéder à l&#39;écran d&#39;édition des paramètres avancés du message](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Rapports]** : permet d’accéder à la liste des rapports relatifs au message.
 
 **Rubriques connexes :**
@@ -43,23 +43,23 @@ La barre d’actions contient différentes icônes permettant d’agir sur votre
 
 Selon les paramètres renseignés et l’avancement du processus de création, certaines d’entre elles peuvent ne pas être disponibles.
 
-* **[!UICONTROL Afficher les bons à tirer]** : affiche/masque la liste des bons à tirer envoyés, s’ils existent. Ce bouton n’est actif que lorsque vous avez envoyé des bons à tirer.
+* **[!UICONTROL Afficher les bons à tirer]** : affiche/masque la liste des bons à tirer envoyés, s&#39;ils existent. Ce bouton n’est actif que lorsque vous avez envoyé des bons à tirer.
 
    Pour plus d’informations sur les bons à tirer, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
 * **[!UICONTROL Envoyer un test]** : vous permet de sélectionner le mode de validation à utiliser : **[!UICONTROL Rendu des emails]** (email uniquement), **[!UICONTROL Bon à tirer]** ou les deux. Pour plus d’informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md). Ce bouton n’est actif que lorsque vous avez créé des profils de test.
 
-* **[!UICONTROL Préparer l’envoi]** : lance la préparation de l’envoi. Le bloc **[!UICONTROL Déploiement]** apparaît et affiche le résultat de la préparation. Ce bouton n’apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant. Pour plus d&#39;informations sur la préparation de messages, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Préparer l&#39;envoi]** : lance la préparation de l&#39;envoi. Le bloc **[!UICONTROL Déploiement]** apparaît et affiche le résultat de la préparation. Ce bouton n’apparaît que lorsque la cible a été renseignée. Vous pouvez arrêter à tout moment la préparation via le bouton correspondant. Pour plus d&#39;informations sur la préparation de messages, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
 
 * **[!UICONTROL Confirmer l’envoi]** : confirme l’envoi définitif du message. Le résultat de l’envoi apparaît dans le bloc **[!UICONTROL Déploiement]**. Ce bouton n’apparaît qu’après la préparation de l’envoi. Vous pouvez, à tout moment, arrêter ou mettre en pause l’envoi à l’aide des boutons **Arrêter l’envoi** et **[!UICONTROL Mettre en pause.]** Pour plus d’informations sur la validation d’un envoi, consultez la section [Envoyer les messages](../../sending/using/confirming-the-send.md).
 
 ## Blocs         {#blocks}
 
-L’écran principal est composé de différents blocs. Cliquez dans un bloc pour accéder à l’écran de paramètres correspondant :
+L’écran principal est composé de différents blocs. Cliquez dans un bloc pour accéder à l’écran de paramètres correspondant :
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Déploiement]** : permet de tracker l’état d’avancement de la préparation ou de l’envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Pour plus d&#39;informations, consultez la section [Confirmer l’envoi](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Déploiement]** : permet de tracker l&#39;état d&#39;avancement de la préparation ou de l&#39;envoi du message. Cliquez sur le bouton situé en bas à droite du bloc pour accéder aux logs d’analyse et d’envoi. Ce bloc n’apparaît qu’après la préparation de l’envoi. Pour plus d&#39;informations, consultez la section [Confirmer l’envoi](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]** : permet de définir la cible principale du message ainsi que les profils de test. Voir [Créer une audience](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Planning]** : permet de définir la date d’envoi du message. Voir [Planning](../../sending/using/about-scheduling-messages.md).
 * **[!UICONTROL Contenu]** : permet de définir le contenu du message et de le prévisualiser. Voir [Principales étapes pour envoyer un message](../../channels/using/key-steps-to-send-a-message.md).

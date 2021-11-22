@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Découvrez comment maîtriser l&#39;édition de contenu d&#39;email. Avec le Con
 
 >[!NOTE]
 >
-> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** > **Modèles**. Les modèles utilisés dans le Concepteur d&#39;email sont des modèles de contenu. Pour plus d&#39;informations, voir [À propos des modèles](../../start/using/marketing-activity-templates.md).
+> Dans Adobe Campaign Standard, vous pouvez créer différents types de modèles accessibles à partir du menu **Ressources** > **Modèles**. Les modèles utilisés dans le Concepteur d&#39;email sont des modèles de contenu. Pour plus d&#39;informations, voir [À propos des modèles](../../start/using/marketing-activity-templates.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment créer des modèles en vidéo](#video)
 
@@ -147,7 +147,7 @@ Cette vidéo montre comment créer votre propre modèle.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
 
 ## À propos des fragments          {#about-fragments}
 

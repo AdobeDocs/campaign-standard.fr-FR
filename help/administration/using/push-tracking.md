@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## À propos du suivi des notifications push {#about-push-tracking}
 
-Pour vous assurer que la notification push a été entièrement développée, vous devez vérifier que la partie de suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications push. Pour activer le suivi, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé. Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec les valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
+Pour vous assurer que la notification push a été entièrement développée, vous devez vérifier que la partie de suivi a été implémentée correctement, car le suivi n’est pas activé pour toutes les notifications push. Pour activer le suivi, les développeurs doivent identifier les diffusions pour lesquelles le suivi est activé. Adobe Campaign Standard enverra un indicateur appelé `_acsDeliveryTracking` avec les valeurs **on** ou **off**. Le développeur de l’application ne doit envoyer une demande de suivi que sur les diffusions dont la variable est définie sur **on**.
 
 >[!IMPORTANT]
 >
@@ -34,9 +34,9 @@ Le suivi push est divisé en trois types :
 
 * **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
-Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
+Afin de mettre en œuvre le suivi pour Campaign Standard, l’application mobile doit inclure le SDK Mobile. Ces SDK sont disponibles sur Adobe Mobile Services. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
-Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
+Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
 
 | Variable | Valeur |
 |:-:|:-:|
@@ -172,7 +172,7 @@ Vous devez envoyer « 1 » et « 2 », car l’utilisateur doit cliquer sur 
 
 Pour effectuer le suivi des ouvertures, vous devez créer une intention. Les objets d’intention permettent au système d’exploitation Android d’appeler votre méthode lorsque certaines actions sont effectuées (dans le cas présent, cliquer sur la notification pour ouvrir l’application).
 
-Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’**[!UICONTROL intention]** est définie, vous devez renvoyer les informations de suivi à Adobe Campaign Standard. Dans le cas présent, vous devez définir l’**[!UICONTROL intention d’ouverture]** pour une ouverture dans une certaine vue de votre application. La méthode onResume sera alors appelée avec les données de notification dans l’**[!UICONTROL objet d’intention]**.
+Ce code est basé sur la mise en œuvre du suivi des impressions de clics. Lorsque l’**[!UICONTROL intention]** est définie, vous devez renvoyer les informations de suivi à Adobe Campaign Standard. Dans le cas présent, vous devez définir l’**[!UICONTROL intention d’ouverture]** pour une ouverture dans une certaine vue de votre application. La méthode onResume sera alors appelée avec les données de notification dans l’**[!UICONTROL objet d’intention]**.
 
 Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 

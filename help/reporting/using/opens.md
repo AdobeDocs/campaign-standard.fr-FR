@@ -10,7 +10,7 @@ role: Leader
 level: Intermediate
 exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Quatre tableaux et graphiques offrent une répartition du nombre total de destin
 
 * Navigateur
 * Appareil
-* Plate-forme
+* Plateforme
 * Domaine
 
 Les tableaux et graphiques **[!UICONTROL TOP 5]** affichent les diffusions ayant le plus grand nombre de messages délivrés.

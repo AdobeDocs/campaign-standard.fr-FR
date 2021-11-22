@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Personnalisation d&#39;un message In-App{#customizing-an-in-app-message}
 
-Pour parfaire votre message In-App, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
+Pour parfaire votre message In-App, Adobe Campaign vous permet d’accéder à un ensemble d’options avancées lors de sa création.
 
 L’éditeur de contenu In-App vous permet de choisir entre deux modes de message In-App :
 
@@ -138,7 +138,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
    ![](assets/inapp_customize_7.png)
 
-## Personnaliser un type de message de notification locale       {#customizing-a-local-notification-message-type}
+## Personnalisation d’un type de message de notification locale {#customizing-a-local-notification-message-type}
 
 Les notifications locales peuvent uniquement être déclenchées par une application à une heure spécifique et en fonction d’un événement. Elles alerteront les utilisateurs sur le fait que quelque chose se passe dans leur application, même sans accès à Internet.
 Pour découvrir comment tracker les notifications locales, reportez-vous à cette [page](../../administration/using/local-tracking.md).
@@ -182,7 +182,7 @@ Le fichier doit avoir une disposition spécifique que vous pouvez découvrir en 
 
 ![](assets/inapp_customize_16.png)
 
-Vous pouvez également trouver une liste des exigences liées au code HTML personnalisé pour réussir l’import dans Adobe Campaign.
+Vous pouvez également trouver une liste des exigences liées au code HTML personnalisé pour réussir l’import dans Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 

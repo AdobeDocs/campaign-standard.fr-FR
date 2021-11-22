@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 100%
 
@@ -144,7 +144,7 @@ Vous pouvez par exemple créer un critère qui permet l&#39;envoi d&#39;une noti
 
 Pour cela, vous devez d&#39;abord étendre la ressource **Diffusion** et ajouter un nouveau filtre permettant de sélectionner uniquement les diffusions ayant le statut **[!UICONTROL Terminé]**.
 
-1. Accédez à **Adobe Campaign** > **Administration** > **Développement** > **Ressources personnalisées** et cliquez sur **[!UICONTROL Créer]**.
+1. Accédez à **Adobe Campaign** > **Administration** > **Développement** > **Ressources personnalisées** et cliquez sur **[!UICONTROL Créer]**.
 1. Sélectionnez **[!UICONTROL Etendre une ressource existante]**, sélectionnez la ressource **[!UICONTROL Diffusion]** dans la liste déroulante et cliquez sur **[!UICONTROL Créer]** pour l&#39;éditer.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -265,7 +265,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
+   * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
 
 
 

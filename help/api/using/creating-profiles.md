@@ -9,7 +9,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ La création de profils est effectuée avec une requête **POST** sur la ressour
 
 ***Exemple de requête***
 
-Exemple de requête POST pour créer un profil avec le message « john.doe@mail.com ».
+Exemple de requête POST pour créer un profil avec le message « john.doe@mail.com ».
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ Exemple de requête POST pour créer un profil avec le message « john.doe@mail.
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-Elle renvoie le profil créé, avec l’adresse email « john.doe@mail.com ».
+Elle renvoie le profil créé, avec l’adresse email « john.doe@mail.com ».
 
 ```
 {

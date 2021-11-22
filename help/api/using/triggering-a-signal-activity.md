@@ -9,7 +9,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 # Déclenchement d&#39;une activité de signal {#triggering-a-signal-activity}
 
-Un workflow Adobe Campaign Standard peut comporter une ou plusieurs activités **Signal externe**. Ces activités sont des « écouteurs » (listeners) qui attendent d’être déclenchés.
+Un workflow Adobe Campaign Standard peut comporter une ou plusieurs activités **Signal externe**. Ces activités sont des « écouteurs » (listeners) qui attendent d’être déclenchés.
 
-Les API de Campaign Standard vous permettent de déclencher une activité **Signal externe** pour appeler un workflow. L’appel d’API peut inclure des paramètres à incorporer dans les variables d’événements du workflow (nom de l’audience à cibler, nom du fichier à importer, partie du contenu du message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
+Les API de Campaign Standard vous permettent de déclencher une activité **Signal externe** pour appeler un workflow. L’appel d’API peut inclure des paramètres à ingérer dans les variables d’événements du workflow (nom de l’audience à cibler, nom du fichier à importer, partie du contenu du message, etc.). De cette façon, vous pouvez facilement intégrer vos automatisations Campaign avec votre système externe.
 
 >[!NOTE]
 >

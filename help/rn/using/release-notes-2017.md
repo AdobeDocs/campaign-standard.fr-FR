@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour 2017
-description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 # Notes de mise à jour 2017{#release-notes}
 
-Vous recherchez une version 2017 spécifique d’Adobe Campaign Standard ?
+Vous recherchez une version 2017 spécifique d’Adobe Campaign Standard ?
 
 Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez sur une version pour consulter son contenu.
 
-Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
+Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
 ## Version 17.10 - Octobre 2017        {#release-17-10---october-2017}
 
@@ -66,10 +66,10 @@ _Emails, SMS et courrier_
 _Notifications push_
 
 * Lors de la configuration du canal Notification push, la plateforme du provider de push doit être **apns** pour iOS, et **gcm** pour Android.
-* Correction d’une erreur qui empêchait l’ajout d’une application mobile iOS dans l’interface d’Adobe Campaign.
+* Correction d’une erreur qui empêchait l’ajout d’une application mobile iOS dans l’interface d’Adobe Campaign.
 * Les notifications push sont désormais prises en charge sur les applications mobiles Android reposant sur GCM et FCM.
 * Correction d’une erreur qui empêchait l’enregistrement du contenu lors de la duplication d’un modèle de notification push.
-* Il est désormais possible de créer ou de mettre à jour un profil de la base de données Adobe Campaign en réconciliant les données des utilisateurs de l’application mobile.
+* Il est désormais possible de créer ou de mettre à jour un profil de la base de données Adobe Campaign en réconciliant les données des utilisateurs de l’application mobile.
 * Adobe Campaign privilégie maintenant le traitement des notifications push transactionnelles par rapport aux notifications push standard.
 
 _Rapports_
@@ -124,7 +124,7 @@ _Ressources personnalisées_
   </tr> 
   <tr> 
    <td> Inscription en masse avec l’origine et la date<br /> </td> 
-   <td> Grâce à l’amélioration apportée à l’inscription en masse, vous pouvez désormais stocker les informations d’inscription (origine et date) directement dans la base de données d’Adobe Campaign Standard par le biais de l’activité Services d’inscription d’un workflow.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/subscription-services.md">documentation détaillée</a>.<br /> </td> 
+   <td> Grâce à l’amélioration apportée à l’inscription en masse, vous pouvez désormais stocker les informations d’inscription (origine et date) directement dans la base de données d’Adobe Campaign Standard par le biais de l’activité Services d’inscription d’un workflow.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/subscription-services.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +133,7 @@ _Ressources personnalisées_
 
 _Plateforme_
 
-* Certains clients doivent pouvoir utiliser un identifiant provenant d’Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+* Certains clients doivent pouvoir utiliser un identifiant provenant d’Adobe Campaign Standard, car ils ne gèrent pas de clé unique pour identifier leurs enregistrements. Cet identifiant (**Identifiant ACS**) peut être exporté et utilisé comme clé de réconciliation lors de la mise à jour des données. Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 * Le protocole FTP devient obsolète. Vous devez à présent utiliser le protocole SFTP à la place. Pour ne pas bloquer les implémentations existantes, les configurations sur FTP continueront à fonctionner comme avant, mais l’option ne sera plus visible pour les nouvelles activités.
 
 _Emails, SMS et courrier_
@@ -196,15 +196,15 @@ _Profils et audiences_
   </tr> 
   <tr> 
    <td> Alertes de diffusion<br /> </td> 
-   <td> En plus de visualiser les notifications directement dans Adobe Campaign Standard, Adobe Campaign propose également un système d’alerte par email, qui déclenche l’envoi d’alertes par email aux utilisateurs ou aux membres externes afin de les informer d’activités système importantes. Créez, gérez et recevez des alertes et des tableaux de bord personnalisables pour suivre les performances des diffusions.<br /> Les alertes de diffusion d’Adobe Campaign accroissent l’efficacité en maintenant automatiquement informés tous les utilisateurs actifs d’Adobe Campaign en ce qui concerne le statut d’exécution des diffusions, par email ou par le biais d’un tableau de bord. Pour plus d’informations, consultez la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentation détaillée</a>.<br /> </td> 
+   <td> En plus de visualiser les notifications directement dans Adobe Campaign Standard, Adobe Campaign propose également un système d’alerte par email, qui déclenche l’envoi d’alertes par email aux utilisateurs ou aux membres externes afin de les informer d’activités système importantes. Créez, gérez et recevez des alertes et des tableaux de bord personnalisables pour suivre les performances des diffusions.<br /> Les alertes de diffusion d’Adobe Campaign accroissent l’efficacité en maintenant automatiquement informés tous les utilisateurs actifs d’Adobe Campaign en ce qui concerne le statut d’exécution des diffusions, par email ou par le biais d’un tableau de bord. Pour plus d’informations, consultez la <a href="../../sending/using/receiving-alerts-when-failures-happen.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Identifiant Declared ID chiffré dans les sources de données<br /> </td> 
-   <td> Envoyez des e-mails et des SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts encore inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Envoyez des e-mails et des SMS sans avoir besoin d’un profil existant dans Campaign à l’aide d’informations de contact chiffrées (adresse e-mail ou numéro de téléphone) sous forme d’identifiant Declared ID. Dans la mesure où les identifiants Declared ID chiffrés peuvent être décodés par Adobe Campaign Standard, Campaign peut désormais créer des profils marketing lors de la réception d’audiences d’autres solutions Experience Cloud contenant des contacts encore inconnus.<br /> Ciblez des clients et des prospects inconnus en temps réel par email et SMS pour à la fois accroître la fidélité de votre clientèle actuelle et acquérir de nouveaux clients. Tirez pleinement parti des données des cookies propriétaires (depuis Adobe Audience Manager*) une fois les prospects authentifiés et exploitez ces informations dans Adobe Campaign. <br /> *Adobe Audience Manager est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Partage des KPI de Campaign vers Analytics<br /> </td> 
-   <td> Partagez des données sur les campagnes avec Adobe Analytics afin de comparer les mesures de marketing par email issues de Campaign à d’autres efforts de marketing et de publicité en analysant le comportement de conversion avant et après clic.<br /> Effectuez directement le suivi des performances générales et découvrez des synergies avec des programmes externes dans Analytics. Appliquez les conclusions tirées de cette vue consolidée à vos campagnes ; améliorez ainsi les taux de conversion, de clics publicitaires et d’ouvertures et optimisez votre chiffre d’affaires et les performances globales de la campagne. <br /> Adobe Analytics est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentation détaillée</a>.<br /> </td> 
+   <td> Partagez des données sur les campagnes avec Adobe Analytics afin de comparer les mesures de marketing par email issues de Campaign à d’autres efforts de marketing et de publicité en analysant le comportement de conversion avant et après clic.<br /> Effectuez directement le suivi des performances générales et découvrez des synergies avec des programmes externes dans Analytics. Appliquez les conclusions tirées de cette vue consolidée à vos campagnes ; améliorez ainsi les taux de conversion, de clics publicitaires et d’ouvertures et optimisez votre chiffre d’affaires et les performances globales de la campagne. <br /> Adobe Analytics est requis. Pour plus d’informations, consultez la <a href="../../integrating/using/about-campaign-analytics-integration.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Canal Courrier - Retour à l’expéditeur<br /> </td> 
@@ -264,7 +264,7 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Canal Courrier<br /> </td> 
-   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer vos clients et leur proposer une expérience unique qui les conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
+   <td> Reconnectez avec les fondamentaux de la communication grâce au premier canal off-line d’Adobe Campaign. Le canal Courrier vous permet de personnaliser et de générer le fichier requis par les opérateurs de services postaux dans le cadre de vos campagnes cross-canal. Utilisez le canal Courrier pour relancer vos clients et leur proposer une expérience unique qui les conduira vers votre application, site web ou magasin.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-direct-mail.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Email BCC<br /> </td> 
@@ -323,11 +323,11 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Connecteur Amazon Simple Storage Service (S3)<br /> </td> 
-   <td> Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. La configuration est réalisée dans un compte externe.<br /> Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /> </td> 
+   <td> Le connecteur Amazon Simple Storage Service (S3) peut désormais être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. La configuration est réalisée dans un compte externe.<br /> Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver en ligne<br /> </td> 
-   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L’intégration nécessite l’installation de l’extension Adobe Campaign Integration à partir de la page suivante : <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon </a><br />. Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> L’intégration nécessite l’installation de l’extension Adobe Campaign Integration à partir de la page suivante : <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon </a><br />. Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -522,10 +522,10 @@ _Emails et SMS_
 
 _Notifications push_
 
-* Correction d’une erreur qui était susceptible d’empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
+* Correction d&#39;une erreur qui était susceptible d&#39;empêcher une publication (postback) depuis une application sur le serveur Adobe Campaign.
 * Correction d’une erreur qui était susceptible d’empêcher la prise en compte de **[!UICONTROL Jouer un son]** et de **[!UICONTROL Champs personnalisés]** pour Android.
 * Correction d’une erreur qui était susceptible d’entraîner l’ajout d’un caractère d’échappement supplémentaire aux caractères Unicode utilisés pour les emojis.
-* Lorsque le jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
+* Lorsque le jeton d’enregistrement d’un abonné est ajouté à la liste bloquée, le statut correspondant est désormais mis immédiatement à jour dans la liste des abonnés de l’application, dans Adobe Campaign.
 
 _Workflows_
 
@@ -537,6 +537,6 @@ _Workflows_
 
 _Intégrations_
 
-* Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées &quot;Probabilité de retour avant 30 jours&quot; avait été ajoutées au trigger Abandon dans Adobe Experience Cloud.
+* Correction d’un problème qui était susceptible d’entraîner une erreur lors du déploiement d’un déclenchement d’événement dans Adobe Campaign. Cette erreur se produisait lorsque les métadonnées &quot;Probabilité de retour avant 30 jours&quot; avait été ajoutées au trigger Abandon dans Adobe Experience Cloud.
 * Correction d’une erreur qui était susceptible d’entraîner l’effacement du champ Dimension cible par un workflow technique lors de l’import des audiences depuis People core service. Les requêtes suivantes ne pouvaient pas récupérer les audiences importées.
-* Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.
+* Correction d’une erreur qui était susceptible d’entraîner l’échec d’une activité **[!UICONTROL Sauvegarde d’audience]** d’un workflow lorsque l’option **[!UICONTROL Partager dans Adobe Experience Cloud]** était cochée.

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 # À propos des typologies et des règles de typologie{#about-typology-rules}
 
-Campaign Standard vous permet de lier un message à une **typologie**, afin de vérifier si le message est valide et répond à vos critères de qualité.
+Campaign Standard vous permet de lier un message à une **typologie**, afin de vérifier si le message est valide et répond à vos critères de qualité.
 
 Les typologies sont des ensembles de **règles de typologie**, qui sont exécutés pendant la phase d’analyse du message. Elles vous permettent de vous assurer que vos e-mails contiennent toujours certains éléments (comme un lien de désinscription ou une ligne d’objet) ou des règles de filtrage pour exclure des groupes de votre cible visée (tels que les clients désabonnés, les concurrents et les clients ne faisant pas partie du programme de fidélité).
 
 ![](assets/typology_messagelink.png)
 
-Des typologies prêtes à l&#39;emploi et des règles de typologie sont disponibles dans Campaign Standard. En fonction de vos besoins, vous pouvez également créer de nouvelles règles et les ajouter à des typologies existantes ou nouvelles pour les lier à vos messages.
+Des typologies prêtes à l&#39;emploi et des règles de typologie sont disponibles dans Campaign Standard. En fonction de vos besoins, vous pouvez également créer de nouvelles règles et les ajouter à des typologies existantes ou nouvelles pour les lier à vos messages.
 
 Pour créer et appliquer une typologie aux messages, procédez comme suit :
 

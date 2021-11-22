@@ -9,13 +9,13 @@ role: Data Architect
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
 ---
 
-# Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
+# Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >

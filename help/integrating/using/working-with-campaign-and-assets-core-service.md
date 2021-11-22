@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # Utilisation de Campaign et Assets core service{#working-with-campaign-and-assets-core-service}
 
-L&#39;intégration d&#39;Assets core service ou d&#39;Assets On Demand (en fonction de la configuration de votre environnement Adobe Experience Cloud) avec Adobe Campaign permet d&#39;utiliser des ressources partagées depuis Adobe Experience Cloud dans vos e-mails et landing pages Adobe Campaign.
+L&#39;intégration d&#39;Assets core service ou d&#39;Assets On Demand (en fonction de la configuration de votre environnement Adobe Experience Cloud) avec Adobe Campaign permet d&#39;utiliser des ressources partagées depuis Adobe Experience Cloud dans vos e-mails et landing pages Adobe Campaign.
 
 L&#39;intégration avec Assets Core Service est limitée aux [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators).
 
-Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos e-mails et landing pages comme suit :
+Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisées dans vos e-mails et landing pages comme suit :
 
-1. Depuis l&#39;édition du contenu d&#39;un e-mail ou d&#39;une landing page, placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Image partagée depuis Adobe Experience Cloud]**.
+1. Depuis l&#39;édition du contenu d&#39;un e-mail ou d&#39;une landing page, placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Image partagée depuis Adobe Experience Cloud]**.
 
    ![](assets/dam_insert_image_dce.png)
 

@@ -1,5 +1,5 @@
 ---
-title: Prise en main de Campaign Standard
+title: Prise en main de Campaign Standard
 description: Découvrez les principales fonctionnalités, l'interface utilisateur et les directives globales.
 audience: start
 content-type: reference
@@ -9,17 +9,17 @@ role: User
 level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
 ---
 
-# Prise en main de Campaign Standard {#about-campaign-standard}
+# Prise en main de Campaign Standard {#about-campaign-standard}
 
-Adobe Campaign Standard est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
+Adobe Campaign Standard est un puissant outil de gestion de campagnes cross-canal. Il peut vous aider à aligner vos stratégies en ligne et hors ligne pour créer des expériences client personnalisées.
 
-Il vous permet de contrôler l’ensemble du processus de création, d’exécution et de tracking des campagnes cross-canal, ainsi que l’envoi de messages personnalisés en fonction du profil, du comportement, des préférences et des besoins des clients. Vous pouvez orchestrer, modéliser et automatiser facilement l&#39;ensemble du processus marketing et intégrer Adobe Campaign à d&#39;autres solutions Adobe.
+Il vous permet de contrôler l’ensemble du processus de création, d’exécution et de tracking des campagnes cross-canal, ainsi que l’envoi de messages personnalisés en fonction du profil, du comportement, des préférences et des besoins des clients. Vous pouvez orchestrer, modéliser et automatiser facilement l&#39;ensemble du processus marketing et intégrer Adobe Campaign à d&#39;autres solutions Adobe.
 
 ## Développer votre base de données marketing {#grow-database}
 
@@ -74,12 +74,12 @@ Utilisez la fonction d’alerte de diffusion pour suivre les succès ou les éch
 
 <img width="60px" alt="conditions" src="assets/icon_admin.svg"/>
 
-**Étendez le modèle de données de Campaign Standard** avec vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données à l’aide d’une vue unique. [Prise en main du modèle de données de Campaign Standard](../../developing/using/get-started-data-model.md)
+**Étendez le modèle de données de Campaign Standard** avec vos propres champs et ressources et surveillez toutes les modifications apportées au modèle de données à l’aide d’une vue unique. [Prise en main du modèle de données de Campaign Standard](../../developing/using/get-started-data-model.md)
 
-**Utilisez les API REST** pour effectuer tout un éventail d’opérations et intégrer Campaign Standard dans votre propre écosystème. [Prise en main des API REST de Campaign Standard](../../api/using/get-started-apis.md)
+**Utilisez les API REST** pour effectuer tout un éventail d’opérations et intégrer Campaign Standard dans votre propre écosystème. [Prise en main des API REST de Campaign Standard](../../api/using/get-started-apis.md)
 
-**Administrez Campaign** à partir d’une vue unique : surveillez votre instance et gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et paramétrez vos canaux de communication. [Prise en main de l’administration de Campaign Standard](../../administration/using/get-started-campaign-administration.md)
+**Administrez Campaign** à partir d’une vue unique : surveillez votre instance et gérez les autorisations des utilisateurs. Configurez des serveurs externes pour vous connecter à votre instance et paramétrez vos canaux de communication. [Prise en main de l’administration de Campaign Standard](../../administration/using/get-started-campaign-administration.md)
 
-**Importez et exportez facilement des données** à l’aide des fonctionnalités de gestion des données de Campaign Standard. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
+**Importez et exportez facilement des données** à l’aide des fonctionnalités de gestion des données de Campaign Standard. [Prise en main des processus et de la gestion des données](../../automating/using/get-started-workflows.md)
 
-**Combinez les fonctionnalités de Campaign avec d’autres solutions** pour créer plus efficacement des campagnes marketing optimales. [Prise en main des intégrations de Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)
+**Combinez les fonctionnalités de Campaign avec d’autres solutions** pour créer plus efficacement des campagnes marketing optimales. [Prise en main des intégrations de Campaign Standard](../../integrating/using/get-started-campaign-integrations.md)

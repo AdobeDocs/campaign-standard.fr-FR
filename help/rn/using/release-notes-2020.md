@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour                2020
-description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5304'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 # Notes de mise à jour      2020{#release-notes-2020}
 
-[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
+[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign prend désormais en charge OAuth pour l’authentification dans l’activité de workflow <strong>API externe</strong>. Cette nouvelle fonctionnalité permet à cette activité de communiquer avec des systèmes nécessitant une prise en charge OAuth.
+  <td> <p>Adobe Campaign prend désormais en charge OAuth pour l’authentification dans l’activité de workflow <strong>API externe</strong>. Cette nouvelle fonctionnalité permet à cette activité de communiquer avec des systèmes nécessitant une prise en charge OAuth.
 </p>
 <p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a>.
 </p>
@@ -69,7 +69,7 @@ ht-degree: 100%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Nous sommes ravis d’annoncer l’IA dédiée au parcours pour tous les clients Adobe Campaign Standard.</p>
+  <td> <p>Nous sommes ravis d’annoncer Journey AI pour tous les clients Adobe Campaign Standard.</p>
   <p>L’IA dédiée au parcours utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours des clients en prédisant les préférences d’engagement de chaque individu.</p>
   <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
@@ -84,8 +84,8 @@ ht-degree: 100%
 
 **Améliorations**
 
-* **Gestion de la confidentialité** : le champ **Option d’Opt-out du CCPA**, qui était disponible via l’interface Campaign et l’API, est maintenant également pris en charge par Privacy Core Service. Ce champ permet aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa)
-* **Améliorations de l’exécution du workflow** (bêta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version bêta et ne sont disponibles que pour un certain nombre de clients. La disponibilité générale est prévue pour début 2021.
+* **Gestion de la confidentialité** : le champ **Option d’Opt-out du CCPA**, qui était disponible via l’interface Campaign et l’API, est maintenant également pris en charge par Privacy Core Service. Ce champ permet aux utilisateurs d’Adobe Campaign de déterminer si un client s’est opposé à la vente de ses informations personnelles. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#ccpa)
+* **Améliorations de l’exécution du workflow** (version bêta) : dans le cadre d’une initiative mondiale autour des workflows, des améliorations majeures ont été apportées pour stabiliser la gestion de la mémoire, réduire la latence et optimiser la mémoire consommée par les workflows pendant l’exécution. Ces améliorations sont actuellement en version bêta et ne sont disponibles que pour un certain nombre de clients. La disponibilité générale est prévue pour début 2021.
 * Pour améliorer la sécurité, Campaign utilise désormais un **mécanisme de signature** pour le tracking des liens dans les emails.
 * La configuration des applications mobiles a été améliorée avec des **messages d’erreur plus clairs** lors du téléchargement de certificats iOS ou de clés Android.
 * La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
@@ -109,7 +109,7 @@ ht-degree: 100%
 
 **Autres changements**
 
-* Des mécanismes de reprise ont été ajoutés en cas d’erreur lors de la tentative d’importation d’une audience Experience Platform à l’aide d’une activité **Lecture d’audience**. (CAMP-43947, CAMP-43366)
+* Des mécanismes de reprise ont été ajoutés en cas d’erreur lors de la tentative d’importation d’une audience Experience Platform à l’aide d’une activité **Lecture d’audience**. (CAMP-43947, CAMP-43366)
 * Les entités organisationnelles sont désormais automatiquement définies pour correspondre à l’entité organisationnelle de l’utilisateur qui crée le profil ou l’entité. Les entités organisationnelles ne peuvent plus être supprimées et laissées vides.
 * Lors de la publication d’une ressource personnalisée, un pop-up de confirmation s’affiche maintenant après la préparation.
 * Le message pop-up qui s’affiche en cas d’échec d’une ressource personnalisée a été amélioré pour une plus grande clarté.
@@ -145,13 +145,13 @@ ht-degree: 100%
 * Correction d’un problème en raison duquel les instances ne fonctionnaient pas après le déploiement de ressources personnalisées contenant des définitions de liens incorrectes. (CAMP-44406)
 * Correction d’un problème en raison duquel des entités liées vides (typologies, marques, etc.) étaient créées après avoir copié et collé une diffusion dans un modèle de campagne. (CAMP-44765)
 * Correction d’un problème qui empêchait l’envoi de BAT en raison d’une gestion incorrecte des tables de préparation de diffusion en cas de blocage de la base de données ou de redémarrage simple de la base de données sur Azure.
-* Correction d’un problème qui pouvait empêcher de supprimer des liens avec du contenu Experience Manager dans une diffusion configurée avec du contenu multilingue. (CAMP-44029)
+* Correction d’un problème qui pouvait empêcher de supprimer des liens avec du contenu Experience Manager dans une diffusion configurée avec du contenu multilingue. (CAMP-44029)
 * Correction d’un problème dans les rapports dynamiques qui pouvait afficher un message d’erreur lors de la tentative de filtrage des dimensions.  (CAMP-43097)
 * Correction d’un problème en raison duquel un écran vide s’affichait lors de l’accès à des profils sur une instance configurée avec des ressources personnalisées contenant des définitions de liens spécifiques. (CAMP-41009)
 * Correction d’un problème dans les workflows qui pouvait se produire lors de l’utilisation d’une activité **Enrichissement** avec deux activités d’entrée dont les deux ressources cibles étaient liées. (CAMP-42133)
 * Correction d’un problème en raison duquel les workflows d’importation fonctionnaient en boucle lors de l’utilisation d’une activité de **Transfert de fichier**. (CAMP-43754)
 * Correction d’un problème en raison duquel les doublons n’étaient pas pris en compte lors de la création d’un profil avec des logs exportés. (CAMP-45031)
-* Correction d’un problème en raison duquel les données étaient incohérentes entre les rapports d’Adobe Campaign et les rapports exportés dans des fichiers PDF. (CAMP-43010)
+* Correction d’un problème en raison duquel les données étaient incohérentes entre les rapports d’Adobe Campaign et les rapports exportés dans des fichiers PDF. (CAMP-43010)
 * Correction d’une erreur qui entraînait l’échec du workflow de diffusion de courrier en cas d’utilisation de champs de données existants dans des fonctions. (CAMP-42737)
 * Correction d’un problème lors de l’import de packages contenant des événements transactionnels et des modèles de message. Le processus d’importation s’arrêtait à 5 %. (CAMP-42544)
 * Correction d’un problème qui provoquait une erreur (Uncatch TypeError) après modification de l’activité **Enrichissement** et ajout de données supplémentaires dans un workflow. (CAMP-41877)
@@ -171,7 +171,7 @@ ht-degree: 100%
 * Correction d’un problème en raison duquel un message d’erreur s’affichait lors du test de la connexion à un compte externe avant sa création. Le bouton **Tester la connexion** s’affiche désormais uniquement une fois que le compte externe a été créé.
 * Correction d’un problème en raison duquel les messages étaient en attente après le redémarrage du MTA amélioré sur les instances configurées avec partage.
 * Correction d’un problème en raison duquel le nombre de profils actifs ne correspondait pas au nombre effectif de diffusions envoyées.
-* Correction d’un problème susceptible d’entraîner une latence lors de la recherche de ressources dans l’éditeur de requêtes d’un workflow.
+* Correction d’un problème susceptible d’entraîner une latence lors de la recherche de ressources dans le requêteur d’un workflow.
 * Correction d’un problème lors de la sélection de l’option **Définir les champs à prendre en compte dans la recherche texte** d’une ressource personnalisée. Si la liste de champs n’était pas renseignée, la publication de ressources personnalisées échouait.
 * Correction d’un problème de performances lors de l’affichage de l’aperçu des ressources personnalisées avec un volume important de données.
 * Correction d’un problème qui empêchait l’import d’une diffusion à l’aide de substitutions de profils.
@@ -181,7 +181,7 @@ ht-degree: 100%
 * Correction d’un problème qui pouvait vous empêcher de publier des ressources personnalisées après la création d’un nouveau filtre à l’aide d’un agrégat.
 * Correction d’un problème en raison duquel un taux d’ouverture de tracking incorrect pour les destinataires Gmail était provoqué par le proxy d’image Gmail.
 * Correction d’un problème qui provoquait des erreurs de mémoire insuffisante lors de l’import d’un package.
-* Correction d’un problème en raison duquel l’action de dissociation d’Experience Manager échouait lorsque le contenu Experience Manager incluait un chemin d’accès avec un caractère « %20 ».
+* Correction d’un problème en raison duquel l’action de dissociation d’Experience Manager échouait lorsque le contenu Experience Manager incluait un chemin d’accès avec un caractère « %20 ».
 * Correction d’une erreur sur des libellés lors de la duplication d’activités de workflow.
 * Correction d’un problème lié au sélecteur de message transactionnel dans une landing page lorsque l’option **Déclencher l’envoi d’un message** était sélectionnée.
 * Correction d’un problème lié aux messages transactionnels ou aux diffusions récurrentes qui empêchait l’initialisation du statut de la diffusion avec la valeur par défaut appropriée. Les logs d’erreurs ont également été améliorés.
@@ -227,7 +227,7 @@ ht-degree: 100%
 <li>analyser les propriétés sélectionnées sous forme de nœuds feuilles à partir d’un JSON et les aplatir en une seule ligne de tableau ;</li>
 <li>sélectionner et utiliser un objet de tableau à partir d’un JSON sans avoir à nommer l’objet « data » ou le mettre au niveau supérieur.</li>
 </ul>
-<p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
+<p><strong>Attention :</strong> les clients devront <strong>remplacer toutes les activités API externes en version bêta</strong> par des activités API externes DG dans leurs workflows.  Les workflows qui utilisent la version bêta de l’API externe cesseront de fonctionner dans la version 20.3.</p>
 <p>Pour plus d’informations, consultez la <a href="../../automating/using/external-api.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=fr">vidéo de procédure</a>.</p>
 </td> 
 </tr> 
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Intégrations d’Experience Platform**
 
-*  L’activation des [audiences Experience Platform](../../integrating/using/aep-targeting-audiences.md) d’Adobe depuis l’activité **Lecture d’audience** a été améliorée afin d’offrir des performances optimisées et une meilleure stabilité. En outre, les logs des workflows ont été rendus plus clairs et plus détaillés en ce qui concerne les traitements d’activation, ce qui facilite le monitoring et la résolution des problèmes lors de la lecture des audiences d’Adobe Experience Platform.
+*  L’activation des [audiences Experience Platform](../../integrating/using/aep-targeting-audiences.md) d’Adobe depuis l’activité **Lecture d’audience** a été améliorée afin d’offrir des performances optimisées et une meilleure stabilité. En outre, les logs des workflows ont été rendus plus clairs et plus détaillés en ce qui concerne les traitements d’activation, ce qui facilite le monitoring et la résolution des problèmes lors de la lecture des audiences d’Adobe Experience Platform.
 
 **Correctifs**
 
@@ -291,7 +291,7 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du Panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Version 20.2 - Avril 2020                {#release-20-2---april-2020}
 
@@ -305,7 +305,7 @@ ht-degree: 100%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le connecteur de stockage Blob de Microsoft Azure peut maintenant être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow <strong>Transfert de fichier</strong>. </p>
+   <td> <p>Le connecteur de stockage Blob de Microsoft Azure peut maintenant être utilisé pour importer ou exporter des données vers Adobe Campaign à l’aide d’une activité de workflow <strong>Transfert de fichier</strong>. </p>
     <p>Pour plus d’informations, consultez la <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">documentation détaillée</a>.</p>
    </td> 
   </tr> 
@@ -329,7 +329,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 **Améliorations**
 
@@ -350,11 +350,11 @@ ht-degree: 100%
 * Correction d’un problème de mise en retrait HTML en raison duquel le pied de page des emails était déplacé vers la gauche dans Microsoft Outlook. (CAMP-40987)
 * Correction d’un problème en raison duquel les champs de personnalisation ciblant un attribut de collection défini en HTML étaient copiés dans le contenu en texte simple lors du passage en mode de texte simple. (CAMP-40365)
 * Correction d’un problème qui empêchait l’insertion de liens dans un segment de texte sélectionné. (CAMP-41406)
-* Correction d’un problème en raison duquel la date était modifiée lors de la sélection d’un fuseau horaire dans l’éditeur de requêtes. (CAMP-38277)
+* Correction d’un problème en raison duquel la date était modifiée lors de la sélection d’un fuseau horaire dans le requêteur. (CAMP-38277)
 
 **Autres changements**
 
-* Le workflow d’usine **Réconciliation des KPI avec Adobe Analytics** s’exécute maintenant jusqu’à la date courante au lieu de s’exécuter pendant une seule journée.
+* Le workflow d’usine **Réconciliation des KPI avec Adobe Analytics** s’exécute maintenant jusqu’à la date courante au lieu de s’exécuter pendant une seule journée.
 * Le MCPNS ne prend pas en charge l’ajout d’APNS et d’APNS-SANDBOX en tant que plateformes dans une application. Une fois le certificat ajouté dans Adobe Campaign Standard, vous ne pouvez plus restaurer vos paramètres dans la mesure où une seule plateforme APNS (production ou sandbox) peut être ajoutée à l’application MCPNS.
 
 **Intégrations d’Experience Platform**

@@ -1,6 +1,6 @@
 ---
 title: Chargement de fichier
-description: L'activité Chargement de fichier permet d'importer les données d'un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign.
+description: L'activité Chargement de fichier permet d'importer les données d'un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
+>Lorsque vous utilisez cette fonctionnalité, gardez à l’esprit les limites du stockage SFTP, du stockage en base de données et des profils actifs en fonction de votre contrat Adobe Campaign.
 
 ![](assets/data_loading.png)
 
-L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l’utilisation d’une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
+L&#39;activité **[!UICONTROL Chargement de fichier]** permet d&#39;importer les données d&#39;un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l&#39;utilisation d&#39;une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign.
 
 ## Contexte d&#39;utilisation  {#context-of-use}
 
@@ -35,7 +35,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 Vous pouvez ainsi :
 
 * utiliser la structure du fichier pour l&#39;appliquer aux données d&#39;un autre fichier (récupéré grâce à l&#39;activité **[!UICONTROL Transfert de fichier]**) ou,
-* utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
+* utiliser la structure et les données du fichier pour les importer dans Adobe Campaign.
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Depuis l&#39;onglet **[!UICONTROL Structure du fichier]**, visualisez la structure automatiquement détectée du fichier d&#39;exemple.
 
-   Si la structure du fichier a été détectée de manière incorrecte, vous disposez de plusieurs options permettant de corriger les éventuelles erreurs :
+   Si la structure du fichier a été détectée de manière incorrecte, vous disposez de plusieurs options permettant de corriger les éventuelles erreurs :
 
    * Vous pouvez choisir d&#39;utiliser la structure d&#39;un autre fichier en sélectionnant l&#39;option **[!UICONTROL Détecter la structure depuis un nouveau fichier]**.
    * Vous pouvez modifier les paramètres de détection par défaut afin de les adapter à votre fichier. Le champ **[!UICONTROL Type de fichier]** permet d&#39;indiquer si le fichier à importer est composé de colonnes à longueur fixe. Si c&#39;est le cas, vous devez également spécifier le nombre maximal de caractères pour chaque colonne dans l&#39;onglet **[!UICONTROL Définition des colonnes]**.
@@ -87,7 +87,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Depuis l&#39;onglet **[!UICONTROL Définition des colonnes]**, vérifiez le format des données de chaque colonne et ajustez les paramètres si nécessaire.
 
-   L&#39;onglet **[!UICONTROL Définition des colonnes]** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d&#39;erreur (grâce à la gestion des nulls par exemple) et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
+   L&#39;onglet **[!UICONTROL Définition des colonnes]** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d&#39;erreur (grâce à la gestion des nulls par exemple) et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
 
    Vous pouvez par exemple modifier le libellé d&#39;une colonne, sélectionner son type (chaîne, nombre entier, date, etc.) ou encore définir le traitement des erreurs.
 
@@ -105,7 +105,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l’option **[!UICONTROL Décompression]** dans le champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
 
-   Le champ **[!UICONTROL Ajouter une étape de pré-traitement]** permet également de décrypter un fichier avant de l’importer dans la base de données. Pour plus d’informations sur l’utilisation des fichiers cryptés, voir [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de pré-traitement]** permet également de déchiffrer un fichier avant de l’importer dans la base de données. Pour plus d’informations sur l’utilisation des fichiers chiffrés, consultez [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. L&#39;option **[!UICONTROL Conserver les rejets dans un fichier]** permet de télécharger un fichier contenant des erreurs s&#39;étant produites lors de l&#39;import et de l&#39;appliquer à une étape de post-traitement. Lorsque l&#39;option est activée, la transition sortante est renommée &quot;Rejets&quot;.
 
@@ -129,7 +129,7 @@ Pour cela, sélectionnez **[!UICONTROL Editer les propriétés]** dans les actio
 
 Vous pouvez alors modifier le formatage de chaque colonne.
 
-Le formatage des colonnes permet de définir le traitement des valeurs de chaque colonne :
+Le formatage des colonnes permet de définir le traitement des valeurs de chaque colonne :
 
 * **[!UICONTROL Ignorer la colonne]** : permet de ne pas traiter cette colonne lors du chargement des données.
 * **[!UICONTROL Type de données]** : permet de spécifier le type de données attendu dans la colonne.

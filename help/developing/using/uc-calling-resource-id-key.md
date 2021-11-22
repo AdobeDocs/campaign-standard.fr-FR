@@ -6,7 +6,7 @@ role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Appel d&#39;une ressource à l&#39;aide d&#39;une clé d&#39;identification composite{#calling-a-resource-using-a-composite-identification-key}
 
-Dans certains cas, il est possible que vous deviez définir pour une ressource une clé d&#39;identification constituée de deux champs. Une fois la clé d&#39;identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d&#39;identification à partir de l&#39;interface de Campaign Standard ou des API.
+Dans certains cas, il est possible que vous deviez définir pour une ressource une clé d&#39;identification constituée de deux champs. Une fois la clé d&#39;identification configurée, vous devez configurer une définition de filtre afin de pouvoir appeler la ressource avec cette clé d&#39;identification à partir de l&#39;interface de Campaign Standard ou des API.
 
 Dans ce cas pratique, la ressource **Profil** a été étendue avec les champs personnalisés **&quot;Identifiant CRM&quot;** et **&quot;catégorie&quot;**. Nous allons créer une clé d&#39;identification pour la ressource Profil qui sera composée de ces deux champs. Nous configurerons ensuite une définition de filtre afin de pouvoir accéder à la ressource Profil à l&#39;aide de la clé d&#39;identification.
 
@@ -28,7 +28,7 @@ Rubriques connexes :
 
 * [Création ou extension de la ressource](../../developing/using/creating-or-extending-the-resource.md)
 * [Définir les clés d&#39;identification      ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [API REST Campaign Standard](../../api/using/get-started-apis.md)
+* [API REST Campaign Standard](../../api/using/get-started-apis.md)
 
 ## Etape 1 : configurer la clé d&#39;identification{#step-1-configure-the-identification-key}
 
@@ -88,13 +88,13 @@ Rubriques connexes :
 
 ## Etape 3 : appeler la ressource en fonction de sa clé d&#39;identification{#step-3-call-the-resource-based-on-its-identification-key}
 
-Une fois la clé d&#39;identification et sa définition de filtre configurées, vous pouvez les utiliser pour appeler la ressource à partir de l&#39;interface de Campaign standard ou des API REST.
+Une fois la clé d&#39;identification et sa définition de filtre configurées, vous pouvez les utiliser pour appeler la ressource à partir de l&#39;interface de Campaign standard ou des API REST.
 
 Pour utiliser la définition de filtre depuis l&#39;interface, employez une activité **[!UICONTROL Requête]** dans un workflow (voir [cette section](../../automating/using/query.md)). Le filtre devient ensuite disponible dans le volet gauche.
 
 ![](assets/uc_idkey9.png)
 
-Pour utiliser la définition de filtre depuis les API REST de Campaign Standard, utilisez la syntaxe suivante :
+Pour utiliser la définition de filtre depuis les API REST de Campaign Standard, utilisez la syntaxe suivante :
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -109,4 +109,4 @@ Dans notre cas, la syntaxe permettant de récupérer un profil de la catégorie 
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Pour plus d&#39;informations, consultez la [documentation des API REST Campaign Standard](../../api/using/filtering.md).
+Pour plus d&#39;informations, consultez la [documentation des API REST Campaign Standard](../../api/using/filtering.md).

@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ L’écran d’édition d’un workflow se compose des éléments suivants :
 
 La palette se situe sur la partie gauche de l’écran. Toutes les activités disponibles sont réparties en plusieurs catégories :
 
-* [Ciblage](../../automating/using/about-targeting-activities.md) : activités spécifiques à la réalisation d’un ciblage, à la manipulation et au filtrage de populations
+* [Ciblage](../../automating/using/about-targeting-activities.md) : activités spécifiques à la réalisation d’un ciblage, à la manipulation et au filtrage de populations
 * [Exécution](../../automating/using/about-execution-activities.md) : activités spécifiques à l’organisation et à l’exécution du workflow
 * [Canaux](../../automating/using/about-channel-activities.md) : activités représentant les différents canaux de communication disponibles
 * [Data Management (ETL)](../../automating/using/about-data-management-activities.md) : activités de manipulation des données

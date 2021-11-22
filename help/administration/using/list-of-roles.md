@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Liste des rôles{#list-of-roles}
 
-Par défaut, Adobe Campaign propose un ensemble de rôles qui permettent de définir les autorisations unitaires attribuées aux utilisateurs et groupes d&#39;utilisateurs.
+Par défaut, Adobe Campaign propose un ensemble de rôles qui permettent de définir les autorisations unitaires attribuées aux utilisateurs et groupes d&#39;utilisateurs.
 
 Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l&#39;interface et définissent leur accès aux différentes fonctionnalités.
 
@@ -30,7 +30,7 @@ Les droits par défaut sont les suivants :
 
    >[!NOTE]
    >
-   >Si vous devez travailler avec Experience Cloud Triggers, vous aurez besoin du droit d’**[!UICONTROL Administration]** pour accéder au menu Experience Cloud Triggers. Pour plus d’informations sur les Triggers Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   >Si vous devez travailler avec Experience Cloud Triggers, vous aurez besoin du droit d’**[!UICONTROL Administration]** pour accéder au menu Experience Cloud Triggers. Pour plus d’informations sur les Triggers Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]** : droit pour l’exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Import générique]** : droit pour l’exécution d’un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.

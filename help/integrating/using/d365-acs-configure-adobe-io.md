@@ -9,21 +9,21 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
 
 ---
 
-# Configuration d&#39;Adobe Campaign Standard et d&#39;Adobe I/O pour l&#39;intégration de Microsoft Dynamics 365
+# Configuration d&#39;Adobe Campaign Standard et d&#39;Adobe I/O pour l&#39;intégration de Microsoft Dynamics 365
 
-Cet article explique comment configurer Adobe Campaign Standard et Adobe I/O pour permettre à l&#39;application d&#39;intégration d&#39;accéder aux données.
+Cet article explique comment configurer Adobe Campaign Standard et Adobe I/O pour permettre à l&#39;application d&#39;intégration d&#39;accéder aux données.
 
-## Configurer Adobe Campaign Standard {#campaign-standard}
+## Configurer Adobe Campaign Standard {#campaign-standard}
 
 ### Extensions de profil
 
-Activez les « extensions de profil » dans Adobe Campaign Standard.   Cette activation est nécessaire pour que les champs personnalisés de la ressource Profil soient synchronisés depuis Microsoft Dynamics 365.   Les étapes pour les activer sont les suivantes :
+Activez les « extensions de profil » dans Adobe Campaign Standard.   Cette activation est nécessaire pour que les champs personnalisés de la ressource Profil soient synchronisés depuis Microsoft Dynamics 365.   Les étapes pour les activer sont les suivantes :
 
 1. Accédez à Paramètres -> Administration -> Développement -> Publication.
 1. Cliquez sur « Préparer la publication » pour préparer une publication.
@@ -31,11 +31,11 @@ Activez les « extensions de profil » dans Adobe Campaign Standard.   Cette a
 
 ## Configurer Adobe I/O {#adobe-io}
 
-Adobe I/O vous permet d&#39;activer l&#39;accès de l’API à Adobe Campaign Standard et d&#39;autres produits Adobe. Cet article explique en détail comment configurer Adobe I/O afin de permettre à l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 d&#39;accéder à la synchronisation des données.
+Adobe I/O vous permet d&#39;activer l&#39;accès de l’API à Adobe Campaign Standard et d&#39;autres produits Adobe. Cet article explique en détail comment configurer Adobe I/O afin de permettre à l&#39;intégration d&#39;Adobe Campaign Standard avec Microsoft Dynamics 365 d&#39;accéder à la synchronisation des données.
 
 ### Vue d’ensemble 
 
-Avant d’exécuter la configuration préalable à l’intégration décrite dans cet article, il est supposé que vous avez déjà été approvisionné et que vous disposez d’un accès administrateur à l’instance Campaign Standard de votre organisation.  Si ce n’est pas le cas, vous devrez contacter l’assistance clientèle d’Adobe pour terminer l’approvisionnement de Campaign.
+Avant d’exécuter la configuration préalable à l’intégration décrite dans cet article, il est supposé que vous avez déjà été approvisionné et que vous disposez d’un accès administrateur à l’instance Campaign Standard de votre organisation.  Si ce n’est pas le cas, vous devrez contacter l’assistance clientèle d’Adobe pour terminer l’approvisionnement de Campaign.
 
 >[!CAUTION]
 >
@@ -77,7 +77,7 @@ Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher le
 
 1. Sur l’écran suivant, vous devez sélectionner les profils de produits à associer à ce projet. Sélectionnez le profil de produits contenu dans le titre : Identifiant du tenant de votre instance Campaign - [!UICONTROL Administrateurs]
 
-   Exemple : Campaign Standard - votre-identifiantdutenant-campaign - Administrateurs
+   Exemple : Campaign Standard - votre-identifiantdutenant-campaign - Administrateurs
 
 1. Cliquez sur **[!UICONTROL Enregistrer l’API configurée]**.
 
@@ -106,5 +106,5 @@ La configuration préalable à l’intégration dans Campaign est maintenant ter
 
 
 * [Adobe IO - Intégration de compte de service](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
-* [Campaign Standard - Configuration de l’accès à l’API](../../api/using/setting-up-api-access.md)
-* [Campaign Standard - Intégration de Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Campaign Standard - Configuration de l’accès à l’API](../../api/using/setting-up-api-access.md)
+* [Campaign Standard - Intégration de Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)

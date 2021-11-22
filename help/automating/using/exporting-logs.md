@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
 
@@ -66,9 +66,9 @@ L&#39;opération d&#39;export des logs peut être effectuée par les utilisateur
 
       Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
 
-1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** et configurez-la pour transférer le fichier nouvellement créé du serveur Adobe Campaign vers un autre emplacement où vous pourrez accéder au fichier (un serveur SFTP, par exemple).
+1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** et configurez-la pour transférer le fichier nouvellement créé du serveur Adobe Campaign vers un autre emplacement où vous pourrez accéder au fichier (un serveur SFTP, par exemple).
 
-   * Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Envoi de fichier]** puisque l&#39;objectif est d&#39;envoyer le fichier d&#39;Adobe Campaign vers un autre serveur.
+   * Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Envoi de fichier]** puisque l&#39;objectif est d&#39;envoyer le fichier d&#39;Adobe Campaign vers un autre serveur.
    * Dans l&#39;onglet **[!UICONTROL Protocole]**, indiquez les paramètres de transfert et sélectionnez le [compte externe](../../administration/using/external-accounts.md#creating-an-external-account) à utiliser.
 
 1. Ajoutez une activité **[!UICONTROL Fin]** pour vous assurer que le workflow se termine correctement et enregistrez ce dernier.

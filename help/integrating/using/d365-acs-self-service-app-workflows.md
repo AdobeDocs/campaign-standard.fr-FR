@@ -24,21 +24,21 @@ L’application d’intégration est fournie avec trois workflows :
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 vers Campaign**
-* Envoi de *contacts* de Microsoft Dynamics 365 vers Adobe Campaign
-* *Entités personnalisées* : import des tables personnalisées de Microsoft Dynamics 365 vers Adobe Campaign. [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* Ce workflow est également appelé **Entrée** (en référence à l&#39;entrée de données de Microsoft Dynamics 365 vers Adobe Campaign).
+* Envoi de *contacts* de Microsoft Dynamics 365 vers Adobe Campaign
+* *Entités personnalisées* : import des tables personnalisées de Microsoft Dynamics 365 vers Adobe Campaign. [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* Ce workflow est également appelé **Entrée** (en référence à l&#39;entrée de données de Microsoft Dynamics 365 vers Adobe Campaign).
 
 **Campaign vers Microsoft Dynamics 365**
-* Les événements de marketing par email d&#39;Adobe Campaign Standard sont envoyés à Dynamics 365 (envoi par email, ouverture, clic, bounce). [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* Ce workflow est également appelé **sortie** (en référence à la sortie des données d&#39;Adobe Campaign vers Microsoft Dynamics 365).
+* Les événements de marketing par email d&#39;Adobe Campaign Standard sont envoyés à Dynamics 365 (envoi par email, ouverture, clic, bounce). [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* Ce workflow est également appelé **sortie** (en référence à la sortie des données d&#39;Adobe Campaign vers Microsoft Dynamics 365).
 
 **Opt-in/opt-out**
 
-Les états d&#39;opt-out (par exemple, liste bloquée) peuvent être synchronisés de Microsoft Dynamics 365 vers Adobe Campaign ou d&#39;Adobe Campaign vers Microsoft Dynamics 365. Les données peuvent également être synchronisées de façon bidirectionnelle (c&#39;est-à-dire que les données sont acheminées dans les deux sens). [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+Les états d&#39;opt-out (par exemple, liste bloquée) peuvent être synchronisés de Microsoft Dynamics 365 vers Adobe Campaign ou d&#39;Adobe Campaign vers Microsoft Dynamics 365. Les données peuvent également être synchronisées de façon bidirectionnelle (c&#39;est-à-dire que les données sont acheminées dans les deux sens). [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
->Il est vivement recommandé d&#39;arrêter le workflow **Microsoft Dynamics 365 vers Campaign** avant de publier les modifications apportées à Adobe Campaign Standard ou Microsoft Dynamics 365. Ces modifications comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d&#39;identifiant, etc., qui sont actuellement utilisés par l&#39;intégration. Si vous ne le faites pas, vous risquez de perdre des données et/ou d’interrompre le workflow de manière inattendue.
+>Il est vivement recommandé d&#39;arrêter le workflow **Microsoft Dynamics 365 vers Campaign** avant de publier les modifications apportées à Adobe Campaign Standard ou Microsoft Dynamics 365. Ces modifications comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d&#39;identifiant, etc., qui sont actuellement utilisés par l&#39;intégration. Si vous ne le faites pas, vous risquez de perdre des données et/ou d’interrompre le workflow de manière inattendue.
 
 ## Backlog des workflows
 
@@ -62,7 +62,7 @@ Les actions possibles sont répertoriées ci-dessous.
 
 * **Modifier** : en cliquant sur l&#39;icône représentant un crayon, vous accédez à une autre page qui vous permet de mettre à jour le workflow. Souvenez-vous que les modifications que vous apportez NE prendront PAS effet tant que vous n’arrêterez pas le workflow et que vous ne le redémarrerez pas.
 
-* **Démarrer** : un bouton Démarrer demande qu’un workflow arrêté soit démarré. Ce bouton s’affiche uniquement lorsque les processus associés au workflow sont actuellement arrêtés. Les processus passent d’abord par les états « DÉMARRAGE EN COURS » puis « EXÉCUTION EN COURS ». Les données associées au workflow ne commenceront pas à se synchroniser tant que le workflow ne sera pas en cours d’exécution.
+* **Démarrer** : un bouton Démarrer demande qu’un workflow arrêté soit démarré. Ce bouton s’affiche uniquement lorsque les processus associés au workflow sont actuellement arrêtés. Les processus passent d’abord par les états « DÉMARRAGE EN COURS » puis « EXÉCUTION EN COURS ». Les données associées au workflow ne commenceront pas à se synchroniser tant que le workflow ne sera pas en cours d’exécution.
 
    Le bouton Démarrer est un bouton bascule. Si les processus de workflow ont déjà été démarrés, le bouton se transforme en bouton **Arrêter**.
 

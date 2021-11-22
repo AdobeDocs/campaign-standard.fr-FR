@@ -7,17 +7,17 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
 ---
 
-
 # FAQ sur les messages In-App {#in-app-faq}
 
-## Quelles sont les suggestions de ressources utiles pour en savoir plus sur le canal In-App dans Adobe Campaign Standard ?  {#resources-inapp}
+## Quelles sont les suggestions de ressources utiles pour en savoir plus sur le canal In-App dans Adobe Campaign Standard ?  {#resources-inapp}
 
 Consultez les ressources ci-dessous :
 
@@ -44,7 +44,7 @@ Pour mettre en œuvre le tracking des notifications locales, reportez-vous à ce
 
 ## Quels rapports sont disponibles pour le canal In-App ?  {#report-inapp}
 
-Un rapport d’usine est disponible dans Adobe Campaign pour le canal In-App. Consultez cette [documentation](../../reporting/using/in-app-report.md).
+Un rapport d’usine est disponible dans Adobe Campaign pour le canal In-App. Consultez cette [documentation](../../reporting/using/in-app-report.md).
 
 Consultez cette [page](../../reporting/using/indicator-calculation.md#in-app-delivery) pour comprendre comment est calculée chaque mesure In-App.
 
@@ -73,7 +73,7 @@ Pour le son personnalisé sur iOS, vous devez fournir un nom de fichier avec son
 Oui, les URL de lien profond sont prises en charge dans les messages In-App. Les liens profonds doivent inclure les éléments suivants :
 
 * Un langage indiquant que le tracking des diffusions doit être désactivé pour que les URL de lien profond fonctionnent.
-* Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Apflyer avec Branch en tant que partenaires pouvant effectuer le tracking de liens profonds. Pour plus d&#39;informations sur l&#39;intégration de Branch et Adobe Campaign Standard, consultez cette [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## Un message In-App peut-il être déclenché lorsque l’utilisateur lance l’application à partir d’une notification push ?  {#inapp-push-trigger}
 

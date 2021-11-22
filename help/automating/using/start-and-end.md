@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Vous pouvez déclencher un autre workflow à l&#39;aide de l&#39;onglet **[!UICO
 
 ## Exemple  {#example}
 
-L&#39;exemple suivant montre l&#39;exécution d&#39;un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **[!UICONTROL Fin]**. La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **[!UICONTROL Fin]**. Une fois que la tâche correspondante sera terminée, l&#39;ensemble du workflow sera interrompu : l&#39;effet sera le même que si l&#39;on avait sélectionné le bouton ![](assets/stop_darkgrey-24px.png) (voir la section [La barre d&#39;actions).](../../automating/using/workflow-interface.md#action-bar)
+L&#39;exemple suivant montre l&#39;exécution d&#39;un workflow complexe avec une activité **[!UICONTROL Début]** et plusieurs activités **[!UICONTROL Fin]**. La case **[!UICONTROL Arrêter toutes les tâches en cours]** a été cochée pour la première activité **[!UICONTROL Fin]**. Une fois que la tâche correspondante sera terminée, l&#39;ensemble du workflow sera interrompu : l&#39;effet sera le même que si l&#39;on avait sélectionné le bouton ![](assets/stop_darkgrey-24px.png) (voir la section [La barre d&#39;actions).](../../automating/using/workflow-interface.md#action-bar)
 
 ![](assets/wkf_start_end_example.png)

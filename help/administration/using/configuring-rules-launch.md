@@ -1,6 +1,6 @@
 ---
-title: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
-description: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
+title: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
+description: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1117'
 ht-degree: 100%
 
 ---
 
-# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
+# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
 
 Dans [!DNL Adobe Experience Platform Launch], créez des éléments de données et des règles pour envoyer les informations d’identification personnelles et d’autres données depuis les applications mobiles vers [!DNL Adobe Campaign Standard].
 
@@ -36,7 +36,7 @@ Pour créer des règles dans [!DNL Experience Platform Launch], procédez comme 
 Voici les éléments de données que nous vous recommandons de créer dans [!DNL Experience Platform Launch].
 Vous pouvez créer des éléments de données supplémentaires en fonction de vos besoins.
 
-* **[!UICONTROL Identifiant Experience Cloud]**
+* **[!UICONTROL Identifiant Experience Cloud]**
 * **[!UICONTROL Pkey]**
 * **[!UICONTROL Serveur Campaign]**
 
@@ -44,11 +44,11 @@ Pour créer ces éléments de données, procédez comme suit :
 
 1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Data Elements]**.
 
-1. Pour créer l&#39;élément de données **[!UICONTROL Identifiant Experience Cloud]**, cliquez sur **[!UICONTROL Create New Data Element]**.
+1. Pour créer l’élément de données **[!UICONTROL Identifiant Experience Cloud]**, cliquez sur **[!UICONTROL Create New Data Element]**.
 
 1. Dans le champ **[!UICONTROL Name]**, saisissez par exemple **mcid**.
 
-1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Mobile Core]**. Sélectionnez ensuite **[!UICONTROL Experience Cloud ID]** dans la liste déroulante de type **[!UICONTROL Data element]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Mobile Core]**. Sélectionnez ensuite **[!UICONTROL Experience Cloud ID]** dans la liste déroulante de type **[!UICONTROL Data element]**.
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -56,13 +56,13 @@ Pour créer ces éléments de données, procédez comme suit :
 
 1. Dans le champ **[!UICONTROL Name]**, saisissez par exemple **pkey**.
 
-1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL pkey]** dans la liste déroulante de type **[!UICONTROL Data element]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL pkey]** dans la liste déroulante de type **[!UICONTROL Data element]**.
 
 1. Pour créer l&#39;élément de données Serveur Campaign, cliquez sur **[!UICONTROL Add data element]**.
 
 1. Dans le champ **[!UICONTROL Name]**, saisissez un nom, par exemple, **camp-server**.
 
-1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL Campaign Server]** dans la liste déroulante de type **[!UICONTROL Data element]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL Campaign Server]** dans la liste déroulante de type **[!UICONTROL Data element]**.
 
 ## Création de règles {#creating-rules}
 
@@ -77,7 +77,7 @@ Vous devez créer des règles pour les situations suivantes :
 
 >[!NOTE]
 >
->Pour envoyer des informations d’identification personnelle d’une application mobile à Adobe Campaign, vous devez mettre en œuvre une API SDK. Voir à ce sujet la section [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Pour envoyer des informations d’identification personnelle d’une application mobile à Adobe Campaign, vous devez mettre en œuvre une API SDK. Voir à ce sujet la section [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
 Pour envoyer des données d&#39;identification personnelles à [!DNL Adobe Campaign Standard], créez une règle dans [!DNL Experience Platform Launch] :
 
@@ -121,7 +121,7 @@ Pour envoyer des données d&#39;identification personnelles à [!DNL Adobe Campa
 
    Le paramètre marketingCloudId permet de mettre en correspondance vos abonnés d&#39;application et les destinataires contenus dans la base de données. Il est donc indispensable. Vous pouvez spécifier d&#39;autres paires clé-valeur en fonction des besoins de votre entreprise. Dans l&#39;exemple ci-dessus, les informations E-mail, Prénom et Nom sont transmises depuis l&#39;application.
 
-   Les clés (par exemple cusEmail, cusFirstName et cusLastName) doivent correspondre aux ID de champ définis dans votre ressource personnalisée dans l&#39;instance Adobe Campaign Standard. Les variables de valeur (par exemple, e-mail, firstName et LastName) doivent correspondre aux clés contenues dans les données JSON envoyées à partir de l&#39;application mobile lors de l&#39;appel de l&#39;API AMS collectPII depuis le code de l&#39;application.
+   Les clés (par exemple cusEmail, cusFirstName et cusLastName) doivent correspondre aux ID de champ définis dans votre ressource personnalisée dans l’instance Adobe Campaign Standard. Les variables de valeur (par exemple, e-mail, firstName et LastName) doivent correspondre aux clés contenues dans les données JSON envoyées à partir de l&#39;application mobile lors de l&#39;appel de l&#39;API AMS collectPII depuis le code de l&#39;application.
 
    Vous pouvez également transmettre des données de cycle de vie dans le postback Collect PII ou dans un autre postback, en fonction de vos déclencheurs d&#39;événement. Voici un exemple des données de cycle de vie JSON :
 
@@ -155,11 +155,11 @@ Pour envoyer des données de tracking à [!DNL Adobe Campaign Standard] pour ind
 
 1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, sélectionnez l&#39;onglet **[!UICONTROL Rules]** et cliquez sur **[!UICONTROL Add Rule]**.
 
-1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics In-App**.
+1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics In-App**.
 
 1. Dans la section **[!UICONTROL Events]**, cliquez sur **[!UICONTROL Add]**.
 
-1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL Tracking des clics In-App]** dans la liste déroulante **[!UICONTROL Event type]**.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Adobe Campaign Standard]**. Sélectionnez ensuite **[!UICONTROL Tracking des clics In-App]** dans la liste déroulante **[!UICONTROL Event type]**.
 
 1. Cliquez sur **[!UICONTROL Keep changes]**.
 
@@ -197,7 +197,7 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Rules]**, puis sur **[!UICONTROL Add Rule]**.
 
-1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics push**.
+1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics push**.
 
 1. Dans la section **[!UICONTROL Events]**, cliquez sur **[!UICONTROL Add]**.
 
@@ -231,9 +231,9 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 1. Dans la section **[!UICONTROL Events]**, cliquez sur **[!UICONTROL Add]**.
 
-1. Créez un événement, par exemple, Entrée dans un point ciblé ou Sortie d&#39;un point ciblé. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **Places - Beta**. Ensuite, **Enter POI** ou **Exit POI** dans la liste déroulante **[!UICONTROL Event type]**.
+1. Créez un événement, par exemple, Entrée dans un point ciblé ou Sortie d&#39;un point ciblé. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **Places - Version bêta**. Ensuite, **Enter POI** ou **Exit POI** dans la liste déroulante **[!UICONTROL Event type]**.
 
-1. Entrez un nom, par exemple, **Places - Bêta - Entrée dans un point ciblé** ou **Sortie d&#39;un point ciblé**.
+1. Entrez un nom, par exemple, **Places - Version bêta - Entrée dans un point ciblé** ou **Sortie d&#39;un point ciblé**.
 
 1. Dans la section **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Add]**.
 

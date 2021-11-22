@@ -1,5 +1,5 @@
 ---
-title: 'Création d''un formulaire Campaign dans Experience Manager '
+title: 'Création d''un formulaire Campaign dans Experience Manager '
 description: Avec l'intégration d'Adobe Experience Manager, vous pouvez concevoir des formulaires directement dans AEM afin de créer et mettre à jour des profils ou gérer des abonnements.
 audience: integrating
 content-type: reference
@@ -9,23 +9,23 @@ role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Création d&#39;un formulaire Campaign dans Experience Manager {#creating-a-campaign-form-in-experience-manager}
+# Création d&#39;un formulaire Campaign dans Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
 Vous pouvez créer des pages de type « formulaire » sur vos sites AEM et mapper les champs de ces formulaires aux champs de la base de données Adobe Campaign, afin de créer et mettre à jour des profils ou de gérer les abonnements d&#39;un service.
 
 Pour créer un formulaire Adobe Campaign sur votre site AEM :
 
-1. Dans votre site AEM, créez une page basée sur le modèle **Profil Adobe Campaign**.
+1. Dans votre site AEM, créez une page basée sur le modèle **Profil Adobe Campaign**.
 
    ![](assets/aem_content_forms.png)
 
-1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]** correspondant à votre instance Adobe Campaign.
+1. Dans les propriétés de la page, sélectionnez le **[!UICONTROL Cloud Service]** correspondant à votre instance Adobe Campaign.
 
    ![](assets/aem_content_forms_2.png)
 

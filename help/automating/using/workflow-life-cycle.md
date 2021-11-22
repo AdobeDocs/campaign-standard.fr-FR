@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Cycle de vie d&#39;un workflow {#life-cycle}
 
-Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle étant associée à un statut et à une couleur :
+Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle étant associée à un statut et à une couleur :
 
 * **En édition** (gris)
 
@@ -32,7 +32,7 @@ Le cycle de vie d’un workflow comporte trois grandes étapes, chacune d’elle
 
    Un workflow est terminé lorsqu’il n’a plus de tâche en cours ou lorsque l’exécution a explicitement été arrêtée.
 
-Une fois qu’il a été démarré, un workflow peut également se voir attribuer deux autres statuts :
+Une fois qu’il a été démarré, un workflow peut également se voir attribuer deux autres statuts :
 
 * **Avertissement** (jaune)
 

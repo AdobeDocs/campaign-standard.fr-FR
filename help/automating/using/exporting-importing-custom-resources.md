@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Ce tutoriel a pour objectif d&#39;exporter et d&#39;importer un package de ressources personnalisées d&#39;un environnement de développement vers un environnement de production.
 
-Cet exemple est destiné aux administrateurs fonctionnels liés à Adobe Campaign.
+Cet exemple est destiné aux administrateurs fonctionnels liés à Adobe Campaign.
 
-Les prérequis sont :
+Les prérequis sont :
 
 * **Une ou plusieurs ressources personnalisées** disponibles et publiées.
 

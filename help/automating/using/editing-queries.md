@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Édition de requêtes{#editing-queries}
 
-## À propos de l&#39;éditeur de requêtes {#about-query-editor}
+## À propos du requêteur {#about-query-editor}
 
 L&#39;outil d&#39;édition de requêtes est un assistant permettant de filtrer des données contenues dans la base de données Adobe Campaign.
 
@@ -30,9 +30,9 @@ Cet outil est partagé par plusieurs fonctionnalités de l&#39;application :
 * définition de la cible d&#39;un **email**
 * définition d&#39;une population dans des activités de **workflows**.
 
-## Interface de l&#39;éditeur de requêtes    {#query-editor-interface}
+## Interface du requêteur {#query-editor-interface}
 
-L&#39;éditeur de requêtes se compose d&#39;une **Palette** et d&#39;un **Espace de travail**.
+Le requêteur se compose d&#39;une **Palette** et d&#39;un **Espace de travail**.
 
 ![](assets/query_editor_overview.png)
 
@@ -58,7 +58,7 @@ Lorsque vous déplacez un élément de la palette dans l&#39;espace de travail, 
 
 ## Créer une requête {#creating-queries}
 
-L&#39;éditeur de requêtes peut être utilisé pour définir une audience ou un profil de test dans un message, une population dans un workflow et pour créer une audience de type Requête.
+Le requêteur peut être utilisé pour définir une audience ou un profil de test dans un message, une population dans un workflow et pour créer une audience de type Requête.
 
 Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]** lors de la création d&#39;une diffusion ou dans une activité de type **Requête** lors de la création d&#39;un workflow.
 

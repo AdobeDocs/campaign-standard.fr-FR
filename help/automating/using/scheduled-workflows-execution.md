@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## À propos du chevauchement de l’exécution de workflows planifiés
 
-Dans Campaign Standard, le moteur de workflow garantit l’exécution par un seul processus d’une instance de workflow. Le blocage d’activités telles que les imports, les requêtes à exécution longue ou les écritures dans la base de données empêchent l’exécution simultanée de toute autre tâche.
+Dans Campaign Standard, le moteur de workflow garantit l’exécution par un seul processus d’une instance de workflow. Le blocage d’activités telles que les imports, les requêtes à exécution longue ou les écritures dans la base de données empêchent l’exécution simultanée de toute autre tâche.
 
 D’un autre côté, les activités non bloquantes ne bloquent pas l’exécution d’autres tâches (il s’agit en général d’activités qui attendent un événement, comme l’activité **[!UICONTROL Planificateur]**).
 

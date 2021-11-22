@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -58,12 +58,12 @@ Dans les [propriétés du workflow](../../automating/using/managing-execution-op
 
 Les options possibles sont les suivantes :
 
-* **[!UICONTROL Superviseurs]** : permet de définir le groupe de personnes à avertir (email et notification in-app) si le workflow rencontre une erreur. Si aucun groupe n’est défini, personne ne sera notifié. Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Superviseurs]** : permet de définir le groupe de personnes à avertir (email et notification in-app) si le workflow rencontre une erreur. Si aucun groupe n’est défini, personne ne sera notifié. Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL En cas d’erreur]** : permet de définir l’action à effectuer lorsque l’activité a rencontré une erreur. Deux options sont disponibles :
 
    * **Suspendre le processus** : le workflow est automatiquement suspendu. Le statut du workflow est alors **En erreur** et la couleur qui lui est associée passe au rouge. Lorsque le problème est résolu, relancez le workflow.
-   * **Ignorer** : l’activité n’est pas exécutée, de même que, par voie de conséquence, toutes celles qui lui succèdent (dans la même branche). Cela peut s’avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
+   * **Ignorer** : l’activité n’est pas exécutée, de même que, par voie de conséquence, toutes celles qui lui succèdent (dans la même branche). Cela peut s’avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
 
 * **[!UICONTROL Erreurs consécutives]** : permet de définir un certain nombre d’erreurs consécutives autorisées avant que l’exécution du workflow ne soit automatiquement suspendue.
 

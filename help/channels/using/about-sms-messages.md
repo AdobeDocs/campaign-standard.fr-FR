@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -40,11 +40,11 @@ Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 * [Gestion des modèles](../../start/using/marketing-activity-templates.md)
 * [Configuration des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Rapport SMS](../../reporting/using/sms-report.md)
-* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
+* [Guide de Campaign Standard Mobile](../../channels/using/get-started-communication-channels.md)
 
 ## Modèle de diffusion SMS {#sms-delivery-template}
 
-Adobe Campaign met à votre disposition un modèle de diffusion vers les mobiles. Ce modèle doit être correctement associé au compte externe utilisé pour le canal **[!UICONTROL Mobile (SMS)]**. Pour y accéder et le modifier :
+Adobe Campaign met à votre disposition un modèle de diffusion vers les mobiles. Ce modèle doit être correctement associé au compte externe utilisé pour le canal **[!UICONTROL Mobile (SMS)]**. Pour y accéder et le modifier :
 
 1. Sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]** depuis le menu avancé.
 1. Survolez le modèle **[!UICONTROL Envoyer par SMS]** avec la souris et sélectionnez l&#39;option **Dupliquer l&#39;élément**.

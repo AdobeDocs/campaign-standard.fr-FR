@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Le contenu des landing pages est conçu dans l&#39;éditeur de contenu de Campai
 
 >[!NOTE]
 >
->En ce qui concerne la conception d&#39;e-mail, si votre instance a été installée avant la version 19.0 d&#39;Adobe Campaign Standard, vous avez toujours accès à l&#39;ancien éditeur de contenu d&#39;e-mail. L&#39;interface, les principes d&#39;utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l&#39;ancien éditeur de contenu d&#39;e-mail qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre e-mail par le biais de l&#39;interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [concepteur d&#39;e-mail](../../designing/using/designing-content-in-adobe-campaign.md).
+>En ce qui concerne la conception d&#39;e-mail, si votre instance a été installée avant la version 19.0 d&#39;Adobe Campaign Standard, vous avez toujours accès à l&#39;ancien éditeur de contenu d&#39;e-mail. L&#39;interface, les principes d&#39;utilisation et la configuration sont pratiquement les mêmes que ceux décrits ci-dessous pour les landing pages. Cependant, toutes les fonctionnalités peuvent ne pas être disponibles ou gérées dans l&#39;ancien éditeur de contenu d&#39;e-mail qui est obsolète à compter de la version 19.0. Pour éditer rapidement le contenu de votre e-mail par le biais de l&#39;interface de type glisser-déposer avec des fonctionnalités étendues, utilisez le [concepteur d&#39;e-mail](../../designing/using/designing-content-in-adobe-campaign.md).
 
 Cette page décrit les spécificités de l&#39;éditeur de contenu de landing page. Pour plus d&#39;informations sur les actions communes à une ou plusieurs activités marketing, reportez-vous aux sections suivantes du guide **Concevoir un contenu d&#39;e-mail** :
 
@@ -41,11 +41,11 @@ Cette page décrit les spécificités de l&#39;éditeur de contenu de landing pa
 >[!NOTE]
 >Si vous disposez d&#39;une landing page déjà prédéfinie au format HTML, vous pouvez l&#39;importer directement via le bouton **[!UICONTROL Changer de contenu]**.
 >
->Avant d&#39;importer une page HTML dans Adobe Campaign, assurez-vous qu&#39;elle s&#39;ouvre et s&#39;affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s&#39;exécuter sans erreur hors de l&#39;éditeur. Evitez en général d&#39;utiliser des scripts dans le contenu des messages pour qu&#39;il soit correctement traité par les clients de messagerie.
+>Avant d&#39;importer une page HTML dans Adobe Campaign, assurez-vous qu&#39;elle s&#39;ouvre et s&#39;affiche correctement dans les différents navigateurs. Si la page HTML contient des scripts en langage JavaScript, ils doivent s&#39;exécuter sans erreur hors de l&#39;éditeur. Evitez en général d&#39;utiliser des scripts dans le contenu des messages pour qu&#39;il soit correctement traité par les clients de messagerie.
 
 ## Interface de l&#39;éditeur de contenu de landing page{#landing-page-content-editor-interface}
 
-L&#39;éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
+L&#39;éditeur de contenu de landing page permet de définir, modifier et personnaliser facilement du contenu dans Adobe Campaign. Pour y accéder, cliquez sur le bloc **[!UICONTROL Contenu]** dans le tableau de bord des landing pages.
 
 L&#39;éditeur de contenu est organisé en trois sections distinctes. Elles permettent de visualiser le contenu et de le modifier.
 

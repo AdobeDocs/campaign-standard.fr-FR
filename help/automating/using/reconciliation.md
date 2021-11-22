@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -28,9 +28,9 @@ L&#39;activité **[!UICONTROL Réconciliation]** permet de relier des données n
 
 L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée à des fins de Data Management et répond à deux cas d&#39;utilisation distincts :
 
-* Ajout de relations : un onglet **[!UICONTROL Liens]** permet d&#39;ajouter des liens entre les données entrantes et plusieurs autres dimensions de la base de données Adobe Campaign.
+* Ajout de relations : un onglet **[!UICONTROL Liens]** permet d&#39;ajouter des liens entre les données entrantes et plusieurs autres dimensions de la base de données Adobe Campaign.
 
-   Par exemple, un fichier contenant des données d&#39;achats peut également contenir des informations permettant d&#39;identifier les produits achetés ainsi que l&#39;acheteur. Deux dimensions supplémentaires (en plus de celle des **Achats**) sont alors concernées par les données du fichier : la dimension des **Produits** et la dimension des **Profils**. Il faut ainsi créer des relations entre ces dernières et la dimension des **Achats** (voir exemple ci-après).
+   Par exemple, un fichier contenant des données d&#39;achats peut également contenir des informations permettant d&#39;identifier les produits achetés ainsi que l&#39;acheteur. Deux dimensions supplémentaires (en plus de celle des **Achats**) sont alors concernées par les données du fichier : la dimension des **Produits** et la dimension des **Profils**. Il faut ainsi créer des relations entre ces dernières et la dimension des **Achats** (voir exemple ci-après).
 
    Lorsqu&#39;une relation est définie, une colonne est ajoutée aux données entrantes afin de référencer la clé étrangère de la dimension liée.
 
@@ -38,7 +38,7 @@ L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée �
    >
    >Cette opération suppose que les données des dimensions liées sont déjà présentes en base. Par exemple, si vous importez un fichier d&#39;actes d&#39;achats indiquant quel produit a été acheté, à quelle heure, par quel client, etc., le produit ainsi que le client doivent déjà exister en base.
 
-* Identification de données : un onglet **[!UICONTROL Identification]** vous permet de simplement associer les données entrantes à des colonnes d&#39;une dimension existante dans la base de données Adobe Campaign. En sortie de l&#39;activité, les données sont identifiées comme appartenant à la dimension définie.
+* Identification de données : un onglet **[!UICONTROL Identification]** vous permet de simplement associer les données entrantes à des colonnes d&#39;une dimension existante dans la base de données Adobe Campaign. En sortie de l&#39;activité, les données sont identifiées comme appartenant à la dimension définie.
 
    Vous pouvez par exemple ensuite réaliser une sauvegarde d&#39;audience, mettre à jour les données de la base, etc.
 
@@ -52,7 +52,7 @@ L&#39;activité **[!UICONTROL Réconciliation]** peut par exemple être placée 
 
 ## Configuration {#configuration}
 
-1. Placez une activité **[!UICONTROL Réconciliation]** dans votre workflow, à la suite d&#39;une transition contenant une population dont la dimension de ciblage ne provient pas directement d&#39;Adobe Campaign. Pour plus d’informations, consultez [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
+1. Placez une activité **[!UICONTROL Réconciliation]** dans votre workflow, à la suite d&#39;une transition contenant une population dont la dimension de ciblage ne provient pas directement d&#39;Adobe Campaign. Pour plus d’informations, consultez [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 1. Si vous souhaitez définir des liens entre les données entrantes et d&#39;autres dimensions de la base, accédez à l&#39;onglet **[!UICONTROL Liens]**.
 

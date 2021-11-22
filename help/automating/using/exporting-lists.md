@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Export de listes{#exporting-lists}
 
-Adobe Campaign vous permet d&#39;exporter le contenu de vos listes directement dans un fichier en vue d&#39;une utilisation ultérieure. L&#39;export d&#39;une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+Adobe Campaign vous permet d&#39;exporter le contenu de vos listes directement dans un fichier en vue d&#39;une utilisation ultérieure. L&#39;export d&#39;une liste dans un fichier génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment configurer une liste en vidéo](#video)
 
@@ -82,4 +82,4 @@ Cette vidéo montre comment configurer des listes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

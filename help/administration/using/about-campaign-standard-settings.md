@@ -1,6 +1,6 @@
 ---
-title: À propos des paramètres de Campaign Standard
-description: À propos des paramètres de Campaign Standard
+title: À propos des paramètres de Campaign Standard
+description: À propos des paramètres de Campaign Standard
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
 ---
 
-# À propos des paramètres de Campaign Standard{#about-campaign-standard-settings}
+# À propos des paramètres de Campaign Standard{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard est fourni avec différents éléments d&#39;application qui peuvent être configurés en fonction de vos besoins. Vous pouvez, par exemple :
 

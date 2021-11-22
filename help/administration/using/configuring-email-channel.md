@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2815'
 ht-degree: 100%
 
@@ -28,11 +28,11 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
 * **Champs de masques autorisés**
 
-   Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+   Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
-   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
-   * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
+   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
+   * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
 
@@ -41,7 +41,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
 * **Paramètres de la diffusion**
 
-   Adobe Campaign envoie les messages à compter de la date de début.
+   Adobe Campaign envoie les messages à compter de la date de début.
 
    Le champ **[!UICONTROL Durée de diffusion des messages]** permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle tentative.
 
@@ -105,7 +105,7 @@ Ces règles contiennent la liste des chaînes de caractères qui peuvent être r
 
 >[!IMPORTANT]
 >
->Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par le MTA amélioré d’Adobe Campaign, qui détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
+>Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par le MTA amélioré d’Adobe Campaign, qui détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
 
 Pour plus d’informations sur la qualification des emails bounce, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -208,7 +208,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Durée de diffusion]** / **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** : Adobe Campaign envoie les messages à partir de la date de début. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
+* **[!UICONTROL Durée de diffusion]**  / **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** : Adobe Campaign envoie les messages à partir de la date de début. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
 
    >[!IMPORTANT]
    >
@@ -222,9 +222,9 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
    >Un contenu HTML doit avoir été défini pour l’email pour que la page miroir soit créée.
 
    * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
-   * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
+   * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
    * **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
-   * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
+   * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
 
 >[!NOTE]
 >
@@ -292,7 +292,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
    >[!IMPORTANT]
    >
-   >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
+   >L’ajout d’un script pour l’insertion d’en-têtes SMTP supplémentaires est réservé aux utilisateurs expérimentés. La syntaxe de ce script doit être strictement conforme aux exigences de ce type de contenu : aucun espace superflu, aucune ligne vide, etc.
 
 ### Liste des paramètres d’autorisation d’accès   {#list-of-access-authorization-parameters}
 
@@ -336,7 +336,7 @@ Les statuts de qualification des bounces sont les suivants :
 
 * **[!UICONTROL A qualifier]** : le mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe chargée de la délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
 * **[!UICONTROL Conserver]** : le mail bounce a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
-* **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
+* **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
 
 >[!NOTE]
 >

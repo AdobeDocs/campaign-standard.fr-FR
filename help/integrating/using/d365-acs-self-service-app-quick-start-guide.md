@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Prise en main de l’application d’intégration en libre-service {#gs-self-service-app}
 
-L&#39;intégration d’Adobe Campaign Standard avec l&#39;application d&#39;intégration en libre-service Microsoft Dynamics 365 vous permet de configurer des flux de données, de contrôler s&#39;ils sont en cours d&#39;exécution ou non et dans quel environnement. Vous devez toutefois remplir certaines conditions préalables avant de commencer à utiliser l’application d’intégration en libre-service.
+L&#39;intégration d’Adobe Campaign Standard avec l&#39;application d&#39;intégration en libre-service Microsoft Dynamics 365 vous permet de configurer des flux de données, de contrôler s&#39;ils sont en cours d&#39;exécution ou non et dans quel environnement. Vous devez toutefois remplir certaines conditions préalables avant de commencer à utiliser l’application d’intégration en libre-service.
 
 ## Concepts et restrictions {#concepts-and-restrictions}
 
@@ -31,9 +31,9 @@ En savoir plus dans ces sections :
 * [Découvrir les étapes clés d’implémentation de cette intégration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Utilisation de l&#39;intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
-## Conditions préalables requises {#self-service-app-prerequisites}
+## Conditions préalables {#self-service-app-prerequisites}
 
-Vous devez configurer Microsoft Dynamics 365 et Adobe Campaign Standard pour que l&#39;application d&#39;intégration ait accès à vos données. Cette configuration prendra du temps dans Dynamics 365, Adobe Campaign Standard et Adobe I/O ; toutefois, une fois ces applications configurées, vous pourrez contrôler l&#39;intégration par le biais de l&#39;interface utilisateur de l&#39;application d&#39;intégration en libre-service.
+Vous devez configurer Microsoft Dynamics 365 et Adobe Campaign Standard pour que l&#39;application d&#39;intégration ait accès à vos données. Cette configuration prendra du temps dans Dynamics 365, Adobe Campaign Standard et Adobe I/O ; toutefois, une fois ces applications configurées, vous pourrez contrôler l&#39;intégration par le biais de l&#39;interface utilisateur de l&#39;application d&#39;intégration en libre-service.
 
 En savoir plus dans ces sections :
 
@@ -71,7 +71,7 @@ Lorsque vous accédez pour la première fois à l’interface utilisateur, une p
 
 >[!NOTE]
 >
-> Il est normal de recevoir des alertes indiquant qu&#39;il est « impossible de se connecter » à Adobe Campaign Standard ou Microsoft Dynamics 365 si les paramètres de l&#39;application n&#39;ont pas encore été configurés.
+> Il est normal de recevoir des alertes indiquant qu&#39;il est « impossible de se connecter » à Adobe Campaign Standard ou Microsoft Dynamics 365 si les paramètres de l&#39;application n&#39;ont pas encore été configurés.
 
 Vérifiez que les sélections &quot;ORG&quot; et &quot;INSTANCE&quot; sont celles que vous prévoyez de configurer. Dans le cas contraire, cliquez sur la liste déroulante et sélectionnez l’organisation et l’instance appropriées.
 
@@ -114,7 +114,7 @@ Une fois que votre configuration est correcte, cliquez sur le bouton **[!UICONTR
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-Une fois l’exécution commencée, vous devriez être en mesure d’effectuer des tests en ajoutant ou en modifiant des entrées dans Microsoft Dynamics 365 et en observant ces modifications dans Adobe Campaign après quelques minutes. Si, à tout moment, vous devez arrêter ce processus, il vous suffit d&#39;appuyer sur le même bouton pour l&#39;arrêter. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+Une fois l’exécution commencée, vous devriez être en mesure d’effectuer des tests en ajoutant ou en modifiant des entrées dans Microsoft Dynamics 365 et en observant ces modifications dans Adobe Campaign après quelques minutes. Si, à tout moment, vous devez arrêter ce processus, il vous suffit d&#39;appuyer sur le même bouton pour l&#39;arrêter. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## Espace de travail de l&#39;application d&#39;intégration {#self-service-app-workspace}
@@ -129,11 +129,11 @@ Un menu déroulant s&#39;affiche lorsque vous cliquez sur le bouton avec trois l
 
 Les entrées du menu déroulant sont les suivantes :
 
-* **Paramètres** : si vous sélectionnez cette option, vous accédez à un écran qui vous permet de spécifier les informations d&#39;identification d&#39;API pour Microsoft Dynamics 365 et Adobe Campaign, ainsi que d&#39;autres paramètres généraux pour l&#39;application.
+* **Paramètres** : si vous sélectionnez cette option, vous accédez à un écran qui vous permet de spécifier les informations d&#39;identification d&#39;API pour Microsoft Dynamics 365 et Adobe Campaign, ainsi que d&#39;autres paramètres généraux pour l&#39;application.
 
-* **Documentation** : cette option permet d’accéder à la documentation Adobe Campaign spécifique à cette intégration.
+* **Documentation** : cette option permet d’accéder à la documentation Adobe Campaign spécifique à cette intégration.
 
-* **Assistance clientèle** : il s’agit d’un lien vers la documentation Experience Cloud relative à l’enregistrement d’une demande auprès de l’assistance clientèle.
+* **Assistance clientèle** : il s’agit d’un lien vers la documentation Experience Cloud relative à l’enregistrement d’une demande auprès de l’assistance clientèle.
 
 * **Déconnexion** : cette option vous déconnectera de l’application et vous permettra de vous reconnecter en tant qu’autre utilisateur.
 

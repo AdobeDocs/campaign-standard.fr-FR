@@ -1,6 +1,6 @@
 ---
 title: Gestion des processus d'opt-in et d’opt-out dans Campaign
-description: Découvrez la gestion des processus d'opt-in et d’opt-out dans Adobe Campaign
+description: Découvrez la gestion des processus d'opt-in et d’opt-out dans Adobe Campaign
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes

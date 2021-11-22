@@ -10,7 +10,7 @@ role: Data Architect
 level: Beginner
 exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Les icônes de la barre d’actions permettent de lancer, de tracker et de modif
 
 ![](assets/wkf_execution_2.png)
 
-Les actions disponibles sont les suivantes :
+Les actions disponibles sont les suivantes :
 
 **Début**
 
@@ -30,7 +30,7 @@ Le bouton ![](assets/play_darkgrey-24px.png) permet de lancer l’exécution d�
 
 >[!NOTE]
 >
->Le démarrage est un processus asynchrone : la demande est enregistrée et sera traitée dès que possible par le moteur d’exécution de workflow.
+>Le démarrage est un processus asynchrone : la demande est enregistrée et sera traitée dès que possible par le moteur d’exécution de workflow.
 
 **Pause**
 
@@ -44,7 +44,7 @@ Le bouton ![](assets/stop_darkgrey-24px.png) arrête un workflow en cours d’ex
 
 Le bouton ![](assets/pauseplay_darkgrey-24px.png) consiste à arrêter, puis démarrer un workflow. Dans la plupart des cas, cela permet de redémarrer plus vite. C’est également utile pour automatiser le redémarrage lorsque l’arrêt prend un certain temps, car le bouton ![](assets/play_darkgrey-24px.png) n’est disponible que lorsque l’arrêt est effectif.
 
-Lorsqu’une ou plusieurs activités d’un workflow sont sélectionnées, d’autres actions sont possibles :
+Lorsqu’une ou plusieurs activités d’un workflow sont sélectionnées, d’autres actions sont possibles :
 
 **Traitement anticipé**
 
@@ -56,7 +56,7 @@ Le bouton ![](assets/check_darkgrey-24px.png) réactive la ou les activités mis
 
 **Exécution suspendue**
 
-Le bouton ![](assets/check_pause_darkgrey-24px.png) met le workflow en pause à l’activité sélectionnée : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
+Le bouton ![](assets/check_pause_darkgrey-24px.png) met le workflow en pause à l&#39;activité sélectionnée : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
 
 **Pas d’exécution**
 

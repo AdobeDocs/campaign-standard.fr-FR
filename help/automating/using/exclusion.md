@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Un ensemble principal est défini parmi les transitions entrantes. Les membres d
    >Les transitions entrantes doivent contenir le même type de population. Par exemple, si l&#39;ensemble principal contient des profils de test, les autres transitions doivent aussi contenir des profils de test.
 
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
-1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
+1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
 ## Exemple  {#example}
 

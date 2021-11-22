@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Rubriques connexes :
 
 Pour créer le champ **Centre d&#39;intérêts** pour les profils, vous devez d&#39;abord étendre la ressource d&#39;usine **[!UICONTROL Profils (profile)]**.
 
-1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
+1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
 1. Si vous n&#39;avez pas déjà étendu la ressource **[!UICONTROL Profils]**, cliquez sur **[!UICONTROL Créer]**.
 1. Choisissez l&#39;option **[!UICONTROL Etendre une ressource existante]**.
 1. Sélectionnez la ressource **[!UICONTROL Profil (profile)]**.
@@ -98,7 +98,7 @@ Votre champ est maintenant configuré. Nous devons maintenant l&#39;étendre au 
 
 Pour vérifier si le nouveau champ créé est correctement configuré, vous pouvez le tester en envoyant votre diffusion à vos profils de test. Tout d&#39;abord, le nouveau champ doit également être créé pour les profils de test.
 
-1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
+1. Dans le menu de navigation avancé (via le bouton Adobe Campaign), sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Ressources personnalisées]**.
 1. Si vous n&#39;avez pas déjà étendu la ressource **[!UICONTROL Profils]**, cliquez sur **[!UICONTROL Créer]**.
 1. Choisissez l&#39;option **[!UICONTROL Etendre une ressource existante]**.
 1. Sélectionnez la ressource **[!UICONTROL Profil de test (seedMember)]**.

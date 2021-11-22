@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%
 
@@ -60,10 +60,10 @@ Pour accéder à la liste complète des activités marketing de toutes campagnes
 
 Chaque état d&#39;un message est associé à une couleur, visible sur sa vignette dans les listes. Les statuts possibles sont :
 
-* **[!UICONTROL En édition]** (gris) : le message est en édition
-* **[!UICONTROL En cours]** (bleu) : l&#39;envoi du message est en cours
-* **[!UICONTROL Terminé]** (vert) : l&#39;envoi s&#39;est terminé sans erreur
-* **[!UICONTROL En erreur]** (rouge) : l&#39;envoi a été annulé ou une erreur est survenue lors de la préparation ou de l&#39;envoi
+* **[!UICONTROL En édition]** (gris) : le message est en édition
+* **[!UICONTROL En cours]** (bleu) : l&#39;envoi du message est en cours
+* **[!UICONTROL Terminé]** (vert) : l&#39;envoi s&#39;est terminé sans erreur
+* **[!UICONTROL En erreur]** (rouge) : l&#39;envoi a été annulé ou une erreur est survenue lors de la préparation ou de l&#39;envoi
 
    >[!NOTE]
    >

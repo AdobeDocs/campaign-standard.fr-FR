@@ -1,6 +1,6 @@
 ---
 title: Modèles
-description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des paramètres selon vos besoins : les modèles peuvent contenir un paramétrage complet ou partiel de l''activité marketing, afin de simplifier l''utilisation d''Adobe Campaign pour les utilisateurs finaux non techniques."'
+description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des paramètres selon vos besoins : les modèles peuvent contenir un paramétrage complet ou partiel de l''activité marketing, afin de simplifier l''utilisation d''Adobe Campaign pour les utilisateurs finaux non techniques."'
 audience: start
 content-type: reference
 topic-tags: managing-templates
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Des modèles sont disponibles pour les activités marketing suivantes :
 
 ## Créer un modèle {#creating-a-new-template}
 
-Les modèles de message peuvent être gérés par l&#39;administrateur fonctionnel de la plate-forme, depuis le menu **[!UICONTROL Ressources > Modèles]**. Les modèles d&#39;usine ne peuvent être ni modifiés ni supprimés. Pour créer un modèle, vous devez en dupliquer un.
+Les modèles de message peuvent être gérés par l&#39;administrateur fonctionnel de la plateforme, depuis le menu **[!UICONTROL Ressources > Modèles]**. Les modèles d&#39;usine ne peuvent être ni modifiés ni supprimés. Pour créer un modèle, vous devez en dupliquer un.
 
 1. Sélectionnez un modèle. Dans notre exemple, nous avons choisi un **[!UICONTROL Modèle de diffusion]**.
 

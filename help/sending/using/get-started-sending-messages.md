@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabil
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-La **préparation des messages** de Campaign Standard analyse la cible, la personnalisation et la validité de ceux-ci. Les erreurs détectées pendant cette étape doivent être corrigées avant de poursuivre.
+La **préparation des messages** de Campaign Standard analyse la cible, la personnalisation et la validité de ceux-ci. Les erreurs détectées pendant cette étape doivent être corrigées avant de poursuivre.
 
 **Prévisualisation et test** de vos messages à l’aide de différentes fonctionnalités : envoyez des BAT pour tester des profils ou des profils ciblés, testez l’objet de vos emails et vérifiez le rendu de vos messages pour garantir qu’ils s’afficheront de manière optimale sur différents clients web, emails et appareils.
 
@@ -56,11 +56,11 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Une fois votre message prêt, vous pouvez vérifier les logs et les rapports d’envoi et d’accès pour **surveiller la diffusion** et mesurer le succès de votre campagne. Adobe Campaign met également à votre disposition un système d’alerte par email pour tracker les succès ou les échecs de diffusion, ainsi que des fonctionnalités de gestion des quarantaines.
+Une fois votre message prêt, vous pouvez vérifier les logs et les rapports d’envoi et d’accès pour **surveiller la diffusion** et mesurer le succès de votre campagne. Adobe Campaign met également à votre disposition un système d’alerte par email pour tracker les succès ou les échecs de diffusion, ainsi que des fonctionnalités de gestion des quarantaines.
 
 **Trackez le comportement** des destinataires des messages en utilisant des cookies de session et permanents. Vous pourrez ainsi récupérer les informations de tracking (URL cliquées, pages miroir, messages ouverts...).
 
-Vous pouvez aussi paramétrer Adobe Campaign pour **conserver une copie des emails** envoyés depuis votre plateforme via Email BCC. Activez cette fonctionnalité notamment si votre entreprise doit archiver tous les emails sortants à des fins de conformité.
+Vous pouvez aussi paramétrer Adobe Campaign pour **conserver une copie des emails** envoyés depuis votre plateforme via Email BCC. Activez cette fonctionnalité notamment si votre entreprise doit archiver tous les emails sortants à des fins de conformité.
 
 En savoir plus :
 
@@ -95,8 +95,8 @@ En savoir plus :
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo montre comment envoyer un email de test, préparer puis envoyer une diffusion email avec Campaign Standard.
+Cette vidéo montre comment envoyer un email de test, préparer puis envoyer une diffusion email avec Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 100%
 
@@ -18,18 +18,18 @@ ht-degree: 100%
 
 # Résolution des problèmes{#troubleshooting}
 
-Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
+Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
 
 ## Même message d’erreur pour un FAI {#same-error-for-an-isp}
 
-**Pourquoi ai-je toujours le même message d’erreur pour un FAI particulier ?**
+**Pourquoi ai-je toujours le même message d&#39;erreur pour un FAI particulier ?**
 
-Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
+Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut que vous rencontriez des problèmes de réputation liés à votre adresse IP ou votre adresse d&#39;expéditeur. Appliquez les recommandations suivantes :
 * Vérifiez si vous recevez un fort pourcentage d’échecs liés à des adresses email inexistantes (échecs de type **Utilisateur inconnu**)
 * Mettez à jour vos formulaires d’abonnement pour détecter d’éventuelles erreurs sur la saisie des noms de domaine (par exemple, gmaul.com ou yaho.com)
 * Si vous constatez des erreurs indiquant que vos messages sont déclarés en spam, ou que vos messages sont constamment bloqués, essayez d’exclure de la cible les destinataires qui n’ont pas ouvert ou cliqué dans l’un de vos messages dans les 12 mois précédents.
 
-Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d’Adobe Campaign.
+Si le problème persiste, contactez les services commerciaux, délivrabilité ou support d&#39;Adobe Campaign.
 
 ## Liste bloquée et quarantaine {#denylist-versus-quarantine}
 
@@ -40,7 +40,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
    * L’application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
    Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
-* **A quoi correspondent les différentes raisons de mise en quarantaine ?**
+* **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
    Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 

@@ -1,6 +1,6 @@
 ---
 title: Description de l’interface
-description: '« Découvrez comment naviguer dans Adobe Campaign et utiliser l''espace de travail : page d''accueil, barre supérieure, menus avancés et barres d''actions. »'
+description: '« Découvrez comment naviguer dans Adobe Campaign et utiliser l’espace de travail : page d’accueil, barre supérieure, menus avancés et barres d’actions. »'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Adobe Campaign vous permet de naviguer à travers différents menus et écrans pour gérer vos campagnes.
 
-Tous les écrans d’Adobe Campaign se composent des éléments suivants :
+Tous les écrans d’Adobe Campaign se composent des éléments suivants :
 
 * Une barre supérieure pour la navigation
 * Un menu avancé pour l’accès aux fonctionnalités et paramétrages spécifiques
@@ -30,7 +30,7 @@ Tous les écrans d’Adobe Campaign se composent des éléments suivants :
 
 ## Page d’accueil   {#home-page}
 
-La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d’Adobe Campaign. La liste des capacités figurant dans la page d’accueil de Campaign dépend de vos autorisations et des options configurées pour votre organisation.
+La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapide aux principales fonctionnalités d’Adobe Campaign. La liste des capacités figurant dans la page d’accueil de Campaign dépend de vos autorisations et des options configurées pour votre organisation.
 
 ![](assets/overview_home_page.png)
 
@@ -47,7 +47,7 @@ La page d’accueil se compose d’un jeu de vignettes qui permet un accès rapi
 
 ## Barre supérieure   {#top-bar}
 
-Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d’Adobe Campaign et d’accéder au profil Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud ainsi qu’à la documentation Campaign.
+Visible sur chaque écran, la barre supérieure vous permet de naviguer entre les fonctionnalités d’Adobe Campaign et d’accéder au profil Adobe connecté, aux notifications, aux solutions Adobe Experience Cloud ainsi qu’à la documentation Campaign.
 
 Les principes de navigation sont les suivants :
 
@@ -55,7 +55,7 @@ Les principes de navigation sont les suivants :
 
    Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
-* Le lien **[!UICONTROL Accueil]** permet d’afficher la page d’accueil d’Adobe Campaign.
+* Le lien **[!UICONTROL Accueil]** permet d&#39;afficher la page d&#39;accueil d&#39;Adobe Campaign.
 * Les liens **[!UICONTROL Activités marketing]**, **[!UICONTROL Programmes et Campagnes]**, **[!UICONTROL Profils]**, **[!UICONTROL Audiences]** et **[!UICONTROL Rapports]** permettent d’accéder aux vues liées à ces fonctionnalités.
 * L&#39;icône **Commutateur de solution** vous permet de basculer entre vos organisations ou vers une autre application.
 * L&#39;icône **[!UICONTROL Aide]** est décrite [ci-dessous](#help).
@@ -64,7 +64,7 @@ Les principes de navigation sont les suivants :
 
 ### Aide {#help}
 
-Dans le coin supérieur droit, l’icône **Aide** permet d’afficher Adobe Experience League dans le produit.
+Dans le coin supérieur droit, l’icône **Aide** permet d’afficher Adobe Experience League dans le produit.
 
 ![](assets/ux_help.png)
 
@@ -73,16 +73,16 @@ Utilisez le champ **[!UICONTROL Rechercher]** pour trouver des instructions. Les
 Trois onglets vous aident à trouver de l’aide :
 
 1. L&#39;onglet **[!UICONTROL Aide]** contient :
-   * un accès rapide à la documentation Adobe Campaign Standard avec des liens contextuels,
-   * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
+   * un accès rapide à la documentation Adobe Campaign Standard avec des liens contextuels,
+   * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
    * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign,
-   * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
+   * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
 1. L’onglet **[!UICONTROL Support]** permet d&#39;ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur Twitter.
 1. L&#39;onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 
 ## Menu avancé {#advanced-menu}
 
-Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaign**, en haut à gauche de chacun des écrans. Il peut varier en fonction de votre contrat et des permissions utilisateur.
+Le menu avancé s’affiche lorsque vous cliquez sur l’icône **Adobe Campaign**, en haut à gauche de chacun des écrans. Il peut varier en fonction de votre contrat et des permissions utilisateur.
 
 Ce menu permet de naviguer vers des fonctionnalités et paramétrages spécifiques.
 
@@ -92,25 +92,25 @@ L’icône **[!UICONTROL Plans Marketing]** permet d’accéder aux fonctionnali
 
 * **[!UICONTROL Activités marketing]** - pour plus d&#39;informations, consultez la section [Liste des activités marketing](../../start/using/marketing-activities.md#about-marketing-activities).
 * **[!UICONTROL Programmes et Campagnes]** - pour plus d&#39;informations, consultez la section [Liste des programmes](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
-* **[!UICONTROL Planning]** : pour plus d&#39;informations, consultez la section [Planning](../../start/using/timeline.md).
-* **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus **[!UICONTROL Diffusions]** et **[!UICONTROL Configuration des événements]** : pour plus d&#39;informations, consultez la section [Messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
+* **[!UICONTROL Planning]** : pour plus d&#39;informations, consultez la section [Planning](../../start/using/timeline.md).
+* **[!UICONTROL Messages transactionnels]**, qui contient les sous-menus **[!UICONTROL Diffusions]** et **[!UICONTROL Configuration des événements]** : pour plus d&#39;informations, consultez la section [Messages transactionnels](../../channels/using/getting-started-with-transactional-msg.md).
 
 ### Profils &amp; audiences {#profiles-e-audiences}
 
 L’icône **[!UICONTROL Profils &amp; audiences]** permet d’accéder aux fonctionnalités suivantes :
 
-* **[!UICONTROL Profils]** : pour plus d&#39;informations, consultez la section [Gestion des profils](../../audiences/using/about-profiles.md).
-* **[!UICONTROL Profils de test]** : pour plus d&#39;informations, consultez la section [Gestion des profils de test](../../audiences/using/managing-test-profiles.md).
-* **[!UICONTROL Audiences]** : pour plus d&#39;informations, consultez la section [Gestion des audiences](../../audiences/using/about-audiences.md).
-* **[!UICONTROL Services]** : pour plus d&#39;informations, consultez la section [Créer un service](../../audiences/using/creating-a-service.md).
+* **[!UICONTROL Profils]** : pour plus d&#39;informations, consultez la section [Gestion des profils](../../audiences/using/about-profiles.md).
+* **[!UICONTROL Profils de test]** : pour plus d&#39;informations, consultez la section [Gestion des profils de test](../../audiences/using/managing-test-profiles.md).
+* **[!UICONTROL Audiences]** : pour plus d&#39;informations, consultez la section [Gestion des audiences](../../audiences/using/about-audiences.md).
+* **[!UICONTROL Services]** : pour plus d&#39;informations, consultez la section [Créer un service](../../audiences/using/creating-a-service.md).
 
 ### Ressources {#resources}
 
 L’icône **[!UICONTROL Ressources]** permet d’accéder aux fonctionnalités suivantes :
 
-* **[!UICONTROL Modèles]**, qui contient les sous-menus pour chaque type de modèle : pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
-* **[!UICONTROL Blocs de contenu]** : pour plus d&#39;informations, consultez la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
-* **[!UICONTROL Modèles et fragments de contenu]** : pour plus d&#39;informations, consultez la section [Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
+* **[!UICONTROL Modèles]**, qui contient les sous-menus pour chaque type de modèle : pour plus d&#39;informations, consultez la section [Gestion des modèles](../../start/using/marketing-activity-templates.md).
+* **[!UICONTROL Blocs de contenu]** : pour plus d&#39;informations, consultez la section [Ajouter un bloc de contenu](../../designing/using/personalization.md#adding-a-content-block).
+* **[!UICONTROL Modèles et fragments de contenu]** : pour plus d&#39;informations, consultez la section [Modèle de contenu](../../designing/using/using-reusable-content.md#content-templates).
 
 ### Administration  {#administration}
 
@@ -138,7 +138,7 @@ Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
    ![](assets/ux_activityselection.png)
 
-* Pour les workflows et l’éditeur de requêtes, un **espace de travail** avec une palette permet de concevoir l’objet.
+* Pour les workflows et le requêteur, un **espace de travail** avec une palette permet de concevoir l’objet.
 
    Vous pouvez glisser/déposer les éléments de la palette vers l’espace de travail pour paramétrer l’élément courant.
 
@@ -150,7 +150,7 @@ Selon le type d’écran affiché, une barre contenant les actions correspondant
 
 ![](assets/actionbar.png)
 
-Cette barre contient des actions communes : recherche, filtrage, mais aussi des actions propres à l’écran affiché :
+Cette barre contient des actions communes : recherche, filtrage, mais aussi des actions propres à l’écran affiché :
 
 * Pour les actions liées aux écrans de type **espace de travail**, consultez la section [Barre d’actions](../../automating/using/workflow-interface.md#action-bar) des workflows.
 * Pour les actions liées aux écrans de type **tableau de bord**, consultez la section [Le tableau de bord des messages](../../channels/using/message-dashboard.md) pour plus d’informations.

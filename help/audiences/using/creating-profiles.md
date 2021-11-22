@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 100%
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 # Créer un profil{#creating-profiles}
 
-Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cible principale des messages.
+Dans Adobe Campaign, les profils sont utilisés par défaut pour définir la cible principale des messages.
 
 >[!NOTE]
 >
->La création des profils est également possible à l’aide de l’API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
+>La création des profils est également possible à l’aide de l’API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/creating-profiles.md).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez comment importer des profils à l’aide d’un workflow en vidéo](#video)
 
@@ -68,4 +68,4 @@ Cette vidéo montre comment importer des profils avec un workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

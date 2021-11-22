@@ -9,7 +9,7 @@ role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Pour cibler ces segments dans vos rapports :
 
 Avant de créer des rapports sur le code segment, vous devez mettre à jour la ressource personnalisée **[!UICONTROL Profils]** pour que les codes segment soient stockés.
 
-1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Ressources personnalisées]**, puis sélectionnez la ressource **[!UICONTROL Profil (profil)]**.
+1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]** > **[!UICONTROL Ressources personnalisées]**, puis sélectionnez la ressource **[!UICONTROL Profil (profil)]**.
 1. Dans le menu **[!UICONTROL Extension des logs d&#39;envoi]**, à partir de l&#39;onglet **[!UICONTROL Structure de données]**, cochez la case **[!UICONTROL Ajouter un code segment]** pour permettre le stockage de vos codes segment à partir des workflows de ciblage et pour les envoyer aux rapports dynamiques.
 
    Le **[!UICONTROL Code segment]** sera ensuite disponible dans la section de dimension **[!UICONTROL Profil]** de votre rapport.

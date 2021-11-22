@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: d7ca0de6-7f7b-4e31-877c-909d962c5f53
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Cela se produit lorsque le schéma XDM que vous utilisez n’a pas été mis à 
 
 Pour mettre à jour le schéma XDM, procédez comme suit :
 
-1. Accédez au jeu de données sur Adobe Experience Platform à l’aide du lien présent sur la page de mapping XDM.
+1. Accédez au jeu de données sur Adobe Experience Platform à l’aide du lien présent sur la page de mapping XDM.
 
 1. Accédez à votre schéma XDM.
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    ![](assets/email_creation_4.png)
 
-   Vous pouvez concevoir votre message directement au moyen d&#39;un modèle de contenu prédéfini, ou utiliser Dreamweaver ou Adobe Experience Manager. Si vous ne souhaitez pas concevoir le contenu par vous-même, vous pouvez également charger un contenu qui a été préparé pour vous ou importer un contenu existant depuis une URL. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md).
+   Vous pouvez concevoir votre message directement au moyen d&#39;un modèle de contenu prédéfini, ou utiliser Dreamweaver ou Adobe Experience Manager. Si vous ne souhaitez pas concevoir le contenu par vous-même, vous pouvez également charger un contenu qui a été préparé pour vous ou importer un contenu existant depuis une URL. Voir [Sélectionner un contenu existant](../../designing/using/using-existing-content.md).
 
 1. Prévisualisez votre message. Voir [Prévisualiser le message](../../sending/using/previewing-messages.md).
 1. Validez la création de l&#39;email.
@@ -91,8 +91,8 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 **Rubriques connexes** :
 
 * [Créer un e-mail personnalisé](../../channels/using/key-steps-to-send-a-message.md) : guide pas à pas
-* [Intégration d’Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
-* [Intégration d’Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+* [Intégration d’Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [Intégration d’Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Tutoriel vidéo {#video}
 
@@ -100,4 +100,4 @@ Cette vidéo montre comment créer un e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

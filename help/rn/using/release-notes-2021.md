@@ -1,14 +1,15 @@
 ---
 title: Notes de mise à jour 2021
-description: Cette page répertorie toutes les versions 2021 d'Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2021 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: ht
+exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+workflow-type: tm+mt
 source-wordcount: '3509'
 ht-degree: 100%
 
@@ -16,11 +17,11 @@ ht-degree: 100%
 
 # Notes de mise à jour 2021{#release-notes-2021}
 
-[Calendrier des versions](../../rn/using/release-planning.md) | [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
+[Calendrier des versions](../../rn/using/release-planning.md) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
 
 ## Version 21.2 - Juin 2021 {#release-21-2---june-2021}
 
-Les nouvelles fonctionnalités, améliorations et corrections incluses dans la prochaine version de Campaign Standard sont répertoriées ci-dessous. Les nouvelles fonctionnalités, améliorations et corrections incluses dans cette version de Campaign Standard sont répertoriées ci-dessous.
+Les nouvelles fonctionnalités, améliorations et corrections incluses dans la prochaine version de Campaign Standard sont répertoriées ci-dessous. Les nouvelles fonctionnalités, améliorations et corrections incluses dans cette version de Campaign Standard sont répertoriées ci-dessous.
 
 **Améliorations**
 
@@ -48,7 +49,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Un nouveau message a été ajouté pour confirmer la réussite de la migration d&#39;une application push v4 vers une application push v5.
 
-* Lors de la création de jetons JSONWeb pour l&#39;authentification auprès de l&#39;API Campaign Standard, les profils de produit sont désormais **considérés**. Cela signifie que les entités organisationnelles et les rôles attribués au groupe de sécurité (qui correspond au profil de produit sur AdobeIO) seront appliqués au compte technique IMS nécessaire pour les appels de l&#39;API REST de Campaign Standard. (CAMP-47479)
+* Lors de la création de jetons JSONWeb pour l&#39;authentification auprès de l&#39;API Campaign Standard, les profils de produit sont désormais **considérés**. Cela signifie que les entités organisationnelles et les rôles attribués au groupe de sécurité (qui correspond au profil de produit sur AdobeIO) seront appliqués au compte technique IMS nécessaire pour les appels de l&#39;API REST de Campaign Standard. (CAMP-47479)
 
 **Correctifs**
 
@@ -62,7 +63,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;une régression qui pouvait entraîner des taux d&#39;ouverture incorrects pour Gmail en raison du filtrage des événements de tracking reçus de comptes Gmail. (CAMP-46504)
 
-* Correction de divers problèmes provoquant des incohérences de données entre les rapports dans Adobe Campaign Standard et les rapports dans Adobe Analytics. (CAMP-47671, CAMP-47296)
+* Correction de divers problèmes provoquant des incohérences de données entre les rapports dans Adobe Campaign Standard et les rapports dans Adobe Analytics. (CAMP-47671, CAMP-47296)
 
 * Correction d&#39;un problème qui empêchait l&#39;accès aux logs de diffusion après l&#39;échec de la préparation. (CAMP-48296)
 
@@ -84,7 +85,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème qui réinitialisait une activité de **Requête incrémentale** après avoir modifié le nom interne du workflow. Cela se produisait lorsqu&#39;un champ de date était utilisé comme mode incrémental. (CAMP-47674)
 
-* Correction d&#39;un problème qui empêchait l&#39;affichage de la miniature de prévisualisation dans la synthèse de la diffusion, lors de la création d&#39;un e-mail multilingue avec l&#39;intégration Adobe Experience Manager. Ce problème se produisait lors de l&#39;utilisation du bouton **Création de la copie de la langue** pour créer les variantes d&#39;e-mail. (CAMP-47810)
+* Correction d&#39;un problème qui empêchait l&#39;affichage de la miniature de prévisualisation dans la synthèse de la diffusion, lors de la création d&#39;un e-mail multilingue avec l&#39;intégration Adobe Experience Manager. Ce problème se produisait lors de l&#39;utilisation du bouton **Création de la copie de la langue** pour créer les variantes d&#39;e-mail. (CAMP-47810)
 
 * Correction d&#39;un problème qui empêchait les utilisateurs d&#39;accéder à la diffusion parente à partir de la diffusion enfant e-mail ou SMS. (CAMP-47986)
 
@@ -98,13 +99,13 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème lié au concepteur d&#39;e-mails en raison duquel les dimensions d&#39;une image étaient réduites lors du téléchargement d&#39;une image. (CAMP-47017)
 
-* Correction d&#39;un problème qui empêchait l&#39;affichage de tous les modèles Experience Manager disponibles lors de la création d&#39;une diffusion. (CAMP-48132)
+* Correction d&#39;un problème qui empêchait l&#39;affichage de tous les modèles Experience Manager disponibles lors de la création d&#39;une diffusion. (CAMP-48132)
 
 * Correction d&#39;une erreur qui empêchait le lien Campagne de la page Résumé d&#39;une diffusion envoyée de rediriger les utilisateurs vers la campagne associée. (CAMP-48012)
 
 * Correction d&#39;un problème dans le concepteur d&#39;e-mails en raison duquel l&#39;intégration d&#39;Asset Core Service échouait toujours lors de la sélection d&#39;une ressource. (CAMP-47446)
 
-* Correction d&#39;un problème qui bloquait certaines diffusions de Journey Orchestration en raison de la non-prise en charge de la date et de l&#39;heure avec une valeur exacte (c&#39;est-à-dire se terminant par 00) envoyés par les événements de Journey Orchestration.
+* Correction d&#39;un problème qui bloquait certaines diffusions de Journey Orchestration en raison de la non-prise en charge de la date et de l&#39;heure avec une valeur exacte (c&#39;est-à-dire se terminant par 00) envoyés par les événements de Journey Orchestration.
 
 ## Version 21.1 - Février 2021               {#release-21-1---february-2021}
 
@@ -135,14 +136,14 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Améliorations de l'intégration Adobe Experience Manager</strong><br /> </th> 
+<th> <strong>Améliorations de l'intégration Adobe Experience Manager</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
-<p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d'un contenu Adobe Experience Manager, et permet l'importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
+<p>L'intégration de Campaign avec Adobe Experience Manager a été améliorée : vous pouvez désormais importer plus facilement du contenu multilingue depuis Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard détecte désormais automatiquement les variantes de langues d'un contenu Adobe Experience Manager, et permet l'importation et la création de variantes en masse. Cette approche simplifie considérablement le nombre d’étapes nécessaires pour créer une campagne multilingue basée sur un contenu Adobe Experience Manager.</p>
 <p>Pour plus d'informations, consultez la <a href="../../integrating/using/creating-multilingual-email-aem.md">documentation détaillée</a>.
 </p>
 </td> 
@@ -182,15 +183,15 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Une amélioration a été apportée pour faciliter la résolution des problèmes en cas de difficulté avec le processus de messagerie transactionnelle. Les administrateurs techniques d&#39;Adobe peuvent désormais utiliser le suivi sur n&#39;importe quel processus, sans le redémarrer.
 
-* La liste **Profils** permet désormais de rechercher des enregistrements en fonction de l&#39;un de ces champs : email, prénom, nom ou champs personnalisés qui ont été ajoutés dans le filtrage avancé lors de l&#39;extension de la ressource de profil. Cette fonctionnalité est également disponible dans les API de Campaign Standard par le biais du paramètre filterType. [En savoir plus](../../audiences/using/integrated-customer-profile.md)
+* La liste **Profils** permet désormais de rechercher des enregistrements en fonction de l&#39;un de ces champs : email, prénom, nom ou champs personnalisés qui ont été ajoutés dans le filtrage avancé lors de l&#39;extension de la ressource de profil. Cette fonctionnalité est également disponible dans les API de Campaign Standard par le biais du paramètre filterType. [En savoir plus](../../audiences/using/integrated-customer-profile.md)
 
 * Un paramètre a été adapté au nombre de conteneurs exécutant le processus de pool de la base de données de messagerie transactionnelle. Il est ainsi possible de répartir uniformément la charge sur tous les conteneurs utilisés et d&#39;obtenir des performances optimales.
 
 * Une nouvelle fonction **GetOption** est désormais disponible dans les activités utilisant des variables d&#39;événement après avoir appelé un workflow avec des paramètres externes. Elle vous permet de renvoyer la valeur d&#39;une fonction spécifiée. [En savoir plus](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Une nouvelle option permet à Campaign Standard de **vérifier la disponibilité de la mémoire physique** dans votre système avant de démarrer un workflow. Si la quantité de mémoire est trop faible, l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la mémoire système atteigne ce seuil. Il est ainsi possible d&#39;éviter une dégradation supplémentaire des performances et d&#39;atténuer le risque de panne. Le workflow reprend automatiquement lorsque la charge du serveur diminue et que la mémoire augmente. Notez que cette option est en lecture seule et ne peut pas être modifiée. [En savoir plus](../../automating/using/best-practices-workflows.md#execution)
+* Une nouvelle option permet à Campaign Standard de **vérifier la disponibilité de la mémoire physique** dans votre système avant de démarrer un workflow. Si la quantité de mémoire est trop faible, l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la mémoire système atteigne ce seuil. Il est ainsi possible d&#39;éviter une dégradation supplémentaire des performances et d&#39;atténuer le risque de panne. Le workflow reprend automatiquement lorsque la charge du serveur diminue et que la mémoire augmente. Notez que cette option est en lecture seule et ne peut pas être modifiée. [En savoir plus](../../automating/using/best-practices-workflows.md#execution)
 
-* Un nouveau processus est disponible dans Adobe Campaign Standard. Il permet d&#39;effectuer plus facilement une migration depuis l&#39;ancienne application mobile SDK v4 vers le **SDK Mobile Adobe Experience Platform**. Pour plus d’informations, consultez [cette page](../../administration/using/sdkv4-migration.md).
+* Un nouveau processus est disponible dans Adobe Campaign Standard. Il permet d’effectuer plus facilement une migration depuis l’ancienne application mobile SDK v4 vers le **SDK Mobile Adobe Experience Platform**. Pour plus d’informations, consultez [cette page](../../administration/using/sdkv4-migration.md).
 
 **Autres changements**
 
@@ -216,11 +217,11 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Le format de journal SMPP a été amélioré.
 
-* Des paramètres facultatifs pour les fonctions JS cryptString et decryptString ont été ajoutés pour correspondre aux API Adobe Campaign Classic.
+* Des paramètres facultatifs pour les fonctions JS cryptString et decryptString ont été ajoutés pour correspondre aux API Adobe Campaign Classic.
 
 * Amélioration des messages d&#39;avertissement ou d&#39;erreur dans les logs de préparation de diffusion.
 
-* Amélioration des logs d&#39;erreurs lors de la tentative de connexion à Adobe Identity Management Service (IMS).
+* Amélioration des logs d’erreurs lors de la tentative de connexion à Adobe IDentity Management Service (IMS).
 
 * Vous pouvez désormais filtrer de manière plus détaillée les dimensions de **diffusion** et de **campagne** à l&#39;aide de la barre de recherche dans les rapports dynamiques.
 
@@ -240,13 +241,13 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
    >[!IMPORTANT]
    >
-   >En raison de cette modification, si vous utilisez une notification transactionnelle push basée sur les profils existante (créée avant la mise à niveau vers Adobe Campaign 21.1), il est recommandé de mettre à jour le mapping de ciblage vers le nouveau et de publier à nouveau le message. Voir les étapes détaillées [ici](../../channels/using/transactional-push-notifications.md#change-target-mapping). L&#39;utilisation du mapping de ciblage précédent **Profil - Evénement temps réel** (*mapRtEventRcp*) peut entraîner des temps de préparation de diffusion plus longs et une dégradation des performances.
+   >En raison de cette modification, si vous utilisez une notification transactionnelle push basée sur les profils existante (créée avant la mise à niveau vers Adobe Campaign 21.1), il est recommandé de mettre à jour le mapping de ciblage vers le nouveau et de publier à nouveau le message. Voir les étapes détaillées [ici](../../channels/using/transactional-push-notifications.md#change-target-mapping). L&#39;utilisation du mapping de ciblage précédent **Profil - Evénement temps réel** (*mapRtEventRcp*) peut entraîner des temps de préparation de diffusion plus longs et une dégradation des performances.
 
 * Correction d&#39;un problème qui empêchait l&#39;exécution des rapports de diffusion lorsque 5 000 lignes étaient affichées.
 * Correction d&#39;un problème lié aux tests A/B qui empêchait la mise à jour du contenu de la variante B après modification du modèle de diffusion. (CAMP-45235)
 * Correction d&#39;un problème en raison duquel le processus de messagerie transactionnelle restait bloqué, empêchant l&#39;envoi de messages.
 * Correction d’un problème qui pouvait entraîner des problèmes de navigation en cas de clic sur un lien interne (par exemple, lors de l’accès à la diffusion parente à partir d’un écran de résumé du BAT).
-* Correction d&#39;un problème qui empêchait l&#39;affichage de tous les modèles de contenu Experience Manager disponibles lors de la création d&#39;une diffusion. (CAMP-45990)
+* Correction d’un problème qui empêchait l’affichage de tous les modèles de contenu Experience Manager disponibles lors de la création d’une diffusion. (CAMP-45990)
 * Correction d&#39;un problème dans les workflows qui empêchait l&#39;affichage des messages d&#39;échec dans les logs de diffusion après l&#39;ajout de la colonne **Raison** dans l&#39;onglet Données additionnelles. (CAMP-45139)
 * Correction d’un problème qui pouvait se produire lorsque deux appels d’abonnement d’application avaient le même identifiant Marketing Cloud (message d’erreur « la duplication de la valeur de la clé viole une erreur de contrainte unique »).
 * Correction d&#39;un problème susceptible d&#39;entraîner des problèmes de lenteur lors du glisser-déposer d&#39;activités dans un workflow contenant une grande quantité d&#39;activités **Requête** et **Lecture d&#39;audience**. (CAMP-44511)
@@ -309,7 +310,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 * Correction d&#39;un problème qui pouvait ralentir l&#39;affichage des rendus dans le **rapport de rendu des emails**. (CAMP-46226)
 * Correction d&#39;un problème qui pouvait empêcher la publication de ressources personnalisées configurées avec un élément de type Liste dans la définition d&#39;écran. (CAMP-47217)
 * Correction d&#39;un problème dans le concepteur d&#39;emails qui empêchait le rendu correct des séparateurs de ligne dans **Microsoft Outlook** lorsqu&#39;ils étaient placés en haut du contenu email. (CAMP-46294)
-* Correction d&#39;un problème en raison duquel la réconciliation des KPI avec le workflow technique **Adobe Analytics** était bloquée. (CAMP-46576)
+* Correction d’un problème en raison duquel la réconciliation des KPI avec le workflow technique **Adobe Analytics** était bloquée. (CAMP-46576)
 * Correction d&#39;un problème dans le **concepteur d&#39;emails** en raison duquel les fragments ne s&#39;affichaient pas automatiquement dans les zones de recherche lors de l&#39;insertion de blocs de contenu. (CAMP-44205)
 * Correction d&#39;un problème dans le **concepteur d&#39;emails** en raison duquel des caractères indésirables s&#39;affichaient dans les emails envoyés lors de l&#39;utilisation d&#39;émoticônes dans des fragments. (CAMP-46621)
 * Correction d&#39;une régression introduite dans la version 20.4 du **concepteur d&#39;emails** qui affectait le composant Diviseur, ce qui entraînait des hauteurs de ligne supplémentaires et des distorsions d&#39;image dans le contenu. (CAMP-46663)

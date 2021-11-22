@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 100%
 
@@ -86,7 +86,7 @@ Pour maintenir la taille de l&#39;e-mail sous cette limite, tenez compte des pos
 
 Veillez à tester toutes les modifications avant l&#39;envoi final.
 
-Dans Adobe Campaign, la taille maximale par défaut d&#39;un e-mail est définie sur **100 Mo**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+Dans Adobe Campaign, la taille maximale par défaut d&#39;un e-mail est définie sur **100 Mo**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
 Si la limite est atteinte, le message qui dépasse la limite échoue et un message d&#39;erreur s&#39;affiche dans les logs de diffusion. Les autres messages d&#39;une même diffusion ne seront pas impactés. Dans ce cas, vous devez adapter la partie dynamique du modèle d&#39;e-mail ou les fragments de contenu utilisés par la diffusion. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 

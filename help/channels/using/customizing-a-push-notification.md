@@ -18,9 +18,9 @@ ht-degree: 98%
 
 # Personnaliser une notification push{#customizing-a-push-notification}
 
-Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéder à un ensemble d&#39;options avancées lors de sa création.
+Pour parfaire votre notification push, Adobe Campaign vous permet d&#39;accéder à un ensemble d&#39;options avancées lors de sa création.
 
-En tant qu&#39;utilisateur expert, consultez la note technique [Présentation de la structure de la payload des notifications push Campaign Standard](../../administration/using/push-payload.md) pour configurer des applications mobiles dans Adobe Campaign.
+En tant qu&#39;utilisateur expert, consultez la note technique [Présentation de la structure de la payload des notifications push Campaign Standard](../../administration/using/push-payload.md) pour configurer des applications mobiles dans Adobe Campaign.
 
 ![](assets/push_notif_advanced.png)
 

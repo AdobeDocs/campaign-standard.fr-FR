@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 100%
 
@@ -50,6 +50,6 @@ Le workflow de réconciliation se présente comme suit :
 
 ![](assets/readaudience_activity_example2.png)
 
-* L&#39;activité [Lecture d&#39;audience](../../automating/using/read-audience.md) télécharge l&#39;audience de type Fichier créée dans le workflow d&#39;import. Les données de l&#39;audience ne sont pas encore réconciliées avec la base de données Adobe Campaign.
+* L&#39;activité [Lecture d&#39;audience](../../automating/using/read-audience.md) télécharge l&#39;audience de type Fichier créée dans le workflow d&#39;import. Les données de l&#39;audience ne sont pas encore réconciliées avec la base de données Adobe Campaign.
 * Via son onglet [Identification](../../automating/using/reconciliation.md), une activité **[!UICONTROL Réconciliation]** identifie les données entrantes comme étant des profils. Par exemple, en utilisant le champ **email** comme critère de réconciliation.
 * Une activité [Mise à jour de données](../../automating/using/update-data.md) insère et met à jour la ressource profils de la base de données avec les données entrantes. Comme les données sont déjà identifiées comme des profils, vous pouvez sélectionner l&#39;option **[!UICONTROL En utilisant directement la dimension de ciblage]**, puis **[!UICONTROL Profils]** dans l&#39;onglet **[!UICONTROL Identification]** de l&#39;activité. Pour finir, ajoutez simplement la liste des champs à mettre à jour dans l&#39;onglet correspondant.

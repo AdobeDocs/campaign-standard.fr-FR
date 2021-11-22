@@ -1,6 +1,6 @@
 ---
 title: Dernière version
-description: Cette page détaille le contenu de la dernière version de Campaign Standard
+description: Cette page détaille le contenu de la dernière version de Campaign Standard
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interface Experience Cloud unifiée</strong><br /> </th> 
+<th> <strong>Interface Experience Cloud unifiée</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>La barre d’en-tête d’Adobe Campaign a été modifiée pour unifier et améliorer votre expérience sur tous les produits et services Experience Cloud. Ces modifications visent à faciliter votre expérience des produits et services, notamment :</p>
+<p>La barre d’en-tête d’Adobe Campaign a été modifiée pour unifier et améliorer votre expérience sur tous les produits et services Experience Cloud. Ces modifications visent à faciliter votre expérience des produits et services, notamment :</p>
 <ul>
 <li>Basculement plus facile entre différentes entreprises ou vers une autre application.</li>
 <li>Guide d'utilisateur amélioré - Avec l’intégration d’Experience League dans le produit, les résultats des recherches incluent également les résultats des forums de la communauté et davantage de contenu vidéo, ce qui permet d’accéder plus facilement à un plus large éventail de contenu pour tirer pleinement parti de l’application. Nous avons également ajouté un mécanisme de commentaires directement dans le menu Aide, ce qui facilite le signalement de problèmes ou le partage d’idées.</li>
@@ -56,13 +56,13 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 <tbody> 
 <tr> 
 <td>
-<p>La nouvelle fonctionnalité du journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Ceci comprend un accès en libre-service à un historique de données permettant de répondre à des questions, notamment :</p>
+<p>La nouvelle fonctionnalité du journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Ceci comprend un accès en libre-service à un historique de données permettant de répondre à des questions, notamment :</p>
 <ul>
 <li>Qu’est-il advenu de ce workflow et qui l’a mis à jour pour la dernière fois ?</li>
 <li>Qui a effectué les dernières modifications ?</li>
 <li>Quel était l'état précédent ?</li>
 </ul>
-<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour les éléments suivants : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également trackées.</p>
+<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour les éléments suivants : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également trackées.</p>
 <p>Pour plus d'informations, consultez la <a href="../../administration/using/audit.md">documentation détaillée</a>.</p>
 </td> 
 </tr> 
@@ -94,17 +94,17 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 
 **Améliorations**
 
-* Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
+* Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
 * La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
 * Un nouveau contrôle de cohérence dans la publication des ressources personnalisées empêche les utilisateurs de dupliquer des index, ce qui entraîne l’échec de la publication. Un message d’erreur amélioré demande à l’utilisateur de renommer l’index, si nécessaire. [Apprenez-en davantage](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)   
 
 **Autres changements**
 
-* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en œuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
+* Les services Connecteur de données Adobe Experience Platform et Audience Destinations sont désormais obsolètes avec Campaign Standard. Si vous utilisez ces fonctionnalités, vous devez migrer vers les sources et destinations d’Adobe et adapter votre mise en œuvre. [Apprenez-en davantage](../../integrating/using/get-started-sources-destinations.md)   
 * Les fonctionnalités obsolètes et supprimées sont répertoriées dans [cette page](deprecated-features.md).
 * Une nouvelle fonction d&#39;agrégat &#39;StringAgg&#39; a été introduite pour concaténer les valeurs d&#39;une colonne de type chaîne. (CAMP-47077) [En savoir plus](../../automating/using/list-of-functions.md#aggregates)
 * Le workflow technique **Mise à jour des indicateurs de diffusion** (updateDeliveryIndicators) a été amélioré pour optimiser les performances.
-* Les modèles de messagerie In-App sont maintenant disponibles pour toutes les langues prises en charge dans Campaign Standard.
+* Les modèles de messagerie In-App sont maintenant disponibles pour toutes les langues prises en charge dans Campaign Standard.
 * Le délai de préparation des diffusions a été optimisé pour les messages transactionnels grâce à la réduction du nombre d’appels au serveur de tracking lors de l’analyse d’une diffusion.
 * Un nouveau message d’alerte informe les utilisateurs d’un taux de rebond élevé.
 * Amélioration des messages d’erreur et des avertissements des logs afin de faciliter le débogage lorsque la récupération des logs de tracking a échoué. (CAMP-48939, CAMP-47360)
@@ -116,9 +116,9 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 * Correction d’une erreur (-69) entraînée par la fin de la session lors de l’accès à une URL marquée d’un signet ou de l’actualisation d’une page à partir du navigateur. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Correction d’un problème survenant lors de la synchronisation des règles de l’ancien serveur de délivrabilité avec le nouveau. (CAMP-48923)
 * Correction d’un problème lors du chargement d’un modèle d’e-mail avec des balises HTML dans le Concepteur d’e-mail. (CAMP-48243)
-* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le Concepteur d’e-mail. (CAMP-49075)
+* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le Concepteur d’e-mail. (CAMP-49075)
 * Correction d’un problème dans l’interface : une marge intérieure trop importante était ajoutée entre la barre supérieure et le contenu.
-* Correction d’un problème lié aux messages transactionnels qui entraînait une erreur de publication lors de l’utilisation de blocs de contenu Campaign dans le contenu Adobe Experience Manager. (CAMP-49233)
+* Correction d’un problème lié aux messages transactionnels qui entraînait une erreur de publication lors de l’utilisation de blocs de contenu Campaign dans le contenu Adobe Experience Manager. (CAMP-49233)
 * Correction d’un problème qui entraînait l’affichage d’un message d’erreur en cas d’échec de l’authentification. L’utilisateur est maintenant redirigé vers la page de connexion.
 * Correction d’un problème d’affichage des jetons qui empêchait les utilisateurs de modifier ou de partager un rapport.
 * Correction d’un problème lors de la publication d’une ressource personnalisée à l’aide d’une expression de filtre avec des relations de table 1-n. (CAMP-48740)

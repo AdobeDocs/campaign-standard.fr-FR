@@ -1,6 +1,6 @@
 ---
 title: Personnalisation des listes
-description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
+description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 651a53b4-e02f-4963-99e6-2e2c324b1c8c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -48,8 +48,8 @@ Vous pouvez également configurer les colonnes affichées pour une liste. Pour a
 
    Pour chaque colonne ajoutée, indiquez si vous souhaitez appliquer un tri par défaut :
 
-   * **[!UICONTROL NON]** : aucun tri sur la colonne
-   * **[!UICONTROL ASC]** : applique un tri ascendant (croissant) sur la colonne
+   * **[!UICONTROL NON]** : aucun tri sur la colonne
+   * **[!UICONTROL ASC]** : applique un tri ascendant (croissant) sur la colonne
    * **[!UICONTROL DESC]** : applique un tri descendant (décroissant) sur la colonne.
 
 1. Supprimez les colonnes que vous ne souhaitez pas afficher. Pour cela, cochez les cases correspondant aux colonnes à supprimer. Utilisez ensuite le bouton ![](assets/delete.png) de la barre d&#39;actions pour valider la suppression.

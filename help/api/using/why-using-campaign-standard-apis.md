@@ -9,7 +9,7 @@ role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Adobe Campaign Standard fournit des API qui permettent aux systèmes existants de s’intégrer à la plateforme Campaign pour résoudre des problèmes concrets en temps réel.
 
-Les sites web publics, comme les pages d’inscription ou de désinscription, doivent se connecter aux systèmes principaux pour stocker les informations de profil. Les systèmes principaux tels qu’Adobe Campaign offrent la souplesse et la puissance nécessaires pour traiter les données de profils et leur appliquer des opérations personnalisées.
+Les sites web publics, comme les pages d’inscription ou de désinscription, doivent se connecter aux systèmes principaux pour stocker les informations de profil. Les systèmes principaux tels qu’Adobe Campaign offrent la souplesse et la puissance nécessaires pour ingérer les données de profil et leur appliquer des opérations personnalisées.
 
 Voici quelques exemples :
 

@@ -1,6 +1,6 @@
 ---
 title: À propos des cas pratiques de workflows
-description: En savoir plus sur les cas pratiques de workflows dans Campaign Standard.
+description: En savoir plus sur les cas pratiques de workflows dans Campaign Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -62,5 +62,5 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Export de profils dans un fichier externe](../../automating/using/exporting-profiles-in-file.md)
 * [Mise à jour de plusieurs statuts d&#39;abonnement depuis un fichier](../../automating/using/updating-subscriptions-from-file.md)
 * [Abonnement de profils à partir d&#39;un fichier vers un service spécifique](../../automating/using/subscribing-profiles-from-file.md)
-* [Import de données chiffrées à l’aide d’une clé générée par le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Chiffrement et export de données à l’aide d’une clé installée sur le panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [Import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

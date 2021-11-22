@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
-| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
+| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Application mobile | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
 | **** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
@@ -40,7 +40,7 @@ Outre ces règles de filtrage par défaut, deux règles d’exclusion sont dispo
 * **[!UICONTROL Exclusion d’adresses]** (**[!UICONTROL addressExclusions]**)
 * **[!UICONTROL Exclusion de domaines]** (**[!UICONTROL domainExclusions]**).
 
-Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale cryptée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
+Pendant l&#39;analyse de l&#39;email, ces règles comparent les adresses email des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale chiffrée, gérée dans l&#39;instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
 Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée liée à une activité malveillante, notamment l’utilisation d’un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s’abonner par le biais de l’un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement mise en liste bloquée.
 
@@ -50,7 +50,7 @@ Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée li
 
 ## Créer une règle de filtrage        {#creating-a-filtering-rule}
 
-Vous pouvez créer vos propres règles de filtrage en fonction de vos besoins. Vous pouvez par exemple filtrer la population cible de votre newsletter afin de ne jamais adresser de communications aux inscrits de moins de 18 ans.
+Vous pouvez créer vos propres règles de filtrage en fonction de vos besoins. Vous pouvez par exemple filtrer la population cible de votre newsletter afin de ne jamais adresser de communications aux abonnés de moins de 18 ans.
 
 Pour créer cette règle de typologie de filtrage, procédez comme suit :
 
@@ -62,7 +62,7 @@ Pour créer cette règle de typologie de filtrage, procédez comme suit :
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Explorateur]** de l&#39;éditeur de requêtes, faites glisser le nœud **[!UICONTROL Abonné]** dans la partie centrale de l&#39;écran.
+1. Dans l&#39;onglet **[!UICONTROL Explorateur]**  du requêteur, faites glisser le nœud **[!UICONTROL Abonné]** dans la partie centrale de l&#39;écran.
 
    ![](assets/typology_create-rule-subscriber.png)
 
@@ -82,7 +82,7 @@ Lorsque cette règle est utilisée dans un message, les abonnés mineurs sont au
 
 ## Configuration du contexte de ciblage des règles de filtrage {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard vous permet de configurer les dimensions **Ciblage** et **Filtrage** à utiliser en fonction des données que vous souhaitez cibler.
+Campaign Standard vous permet de configurer les dimensions **Ciblage** et **Filtrage** à utiliser en fonction des données que vous souhaitez cibler.
 
 Pour ce faire, ouvrez les propriétés de la règle de typologie, puis accédez à la section **[!UICONTROL Informations avancées]**.
 

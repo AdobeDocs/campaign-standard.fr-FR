@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ La section **[!UICONTROL Configuration de l&#39;écran de détail]** de la défi
 
 1. Développez la section **[!UICONTROL Configuration de l&#39;écran de détail]** et cochez la case **[!UICONTROL Définir un écran de détail]** pour configurer l&#39;écran correspondant à chaque élément de la ressource. Si vous ne cochez pas cette case, le détail des éléments de cette ressource ne sera pas accessible.
 1. Vous pouvez ajouter en un seul clic tous les champs de votre ressource personnalisée. Pour cela, cliquez sur l&#39;icône ![](assets/addallfieldsicon.png) ou utilisez le bouton **[!UICONTROL Ajouter un élément]**.
-1. Sélectionnez un élément parmi ceux créés pour cette ressource et indiquez un type de champ :
+1. Sélectionnez un élément parmi ceux créés pour cette ressource et indiquez un type de champ :
 
    * **[!UICONTROL Champ de saisie]** : il s&#39;agira d&#39;un champ éditable.
    * **[!UICONTROL Valeur]** : il s&#39;agira d&#39;un champ non modifiable.

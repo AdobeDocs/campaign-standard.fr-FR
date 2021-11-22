@@ -1,6 +1,6 @@
 ---
 title: Gestion des audiences Adobe Experience Platform
-description: Découvrez comment gérer Adobe Experience Platform dans Campaign Standard.
+description: Découvrez comment gérer Adobe Experience Platform dans Campaign Standard.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -10,39 +10,39 @@ role: Data Architect
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 
 ---
 
-# Gestion des audiences Adobe Experience Platform {#about-audiences}
+# Gestion des audiences Adobe Experience Platform {#about-audiences}
 
 >[!IMPORTANT]
 >
 >Le service Audience Destinations est actuellement en version bêta et peut être fréquemment mis à jour sans préavis. Les clients doivent être hébergés sur Azure (actuellement en version bêta en Amérique du Nord uniquement) pour accéder à ces fonctionnalités. Contactez l’assistance clientèle d’Adobe si vous souhaitez y accéder.
 
-## Accès aux audiences Adobe Experience Platform
+## Accès aux audiences Adobe Experience Platform
 
-Pour accéder au créateur de segments d’Adobe Experience Platform, accédez à la carte **[!UICONTROL Audiences]** sur la page d’accueil de Campaign Standard (ou au lien **[!UICONTROL Audiences]** dans l’en-tête), puis sélectionnez l’environnement **[!UICONTROL Adobe Experience Platform]**.
+Pour accéder au créateur de segments d’Adobe Experience Platform, accédez à la carte **[!UICONTROL Audiences]** sur la page d’accueil de Campaign Standard (ou au lien **[!UICONTROL Audiences]** dans l’en-tête), puis sélectionnez l’environnement **[!UICONTROL Adobe Experience Platform]**.
 
 ![](assets/aep_audiences_access.png)
 
-Vous serez d’abord dirigé vers la page de liste de segments d’Adobe Experience Platform, où vous pourrez accéder aux segments existants de la plateforme Adobe Experience Platform pour les modifier davantage.
+Vous serez d’abord dirigé vers la page de liste de segments d’Adobe Experience Platform, où vous pourrez accéder aux segments existants de la plateforme Adobe Experience Platform pour les modifier davantage.
 
-Une barre de recherche et un filtre sont disponibles pour vous aider à trouver le segment Adobe Experience Platform souhaité.
+Une barre de recherche et un filtre sont disponibles pour vous aider à trouver le segment Adobe Experience Platform souhaité.
 
 ![](assets/aep_audiences_list.png)
 
-## Création d&#39;audiences Adobe Experience Platform
+## Création d&#39;audiences Adobe Experience Platform
 
-Pour créer une audience Adobe Experience Platform directement dans Campaign Standard, procédez comme suit :
+Pour créer une audience Adobe Experience Platform directement dans Campaign Standard, procédez comme suit :
 
-1. Dans la page de liste de segments Adobe Experience Platform, cliquez sur le bouton **[!UICONTROL Nouvelle audience]** situé dans le coin droit.
+1. Dans la page de liste de segments Adobe Experience Platform, cliquez sur le bouton **[!UICONTROL Nouvelle audience]** situé dans le coin droit.
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. Le créateur de segments doit désormais s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
+1. Le créateur de segments doit désormais s’afficher dans votre espace de travail. Il vous permet de créer un segment à l’aide des données d’Adobe Experience Platform qui seront éventuellement utilisées pour créer votre audience.
 
 1. Nommez le segment dans le volet de droite et entrez une description (facultatif).
 
@@ -60,7 +60,7 @@ Pour créer une audience Adobe Experience Platform directement dans Campaign Sta
 
    ![](assets/aep_audiences_creation_query.png)
 
-L’audience est désormais prête à être activée. Vous pouvez l’utiliser comme cible pour vos campagnes (voir [Ciblage des audiences Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
+L’audience est désormais prête à être activée. Vous pouvez l’utiliser comme cible pour vos campagnes (voir [Ciblage des audiences Adobe Experience Platform](../../integrating/using/aep-targeting-audiences.md)).
 
 ## Modifier une audience
 

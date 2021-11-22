@@ -9,7 +9,7 @@ role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -62,8 +62,8 @@ Le tableau ci-dessous indique ce qui se passe après l&#39;acceptation de cet ac
 
 |  | Rapports dynamiques | Connecteur Microsoft Dynamics 365 |
 |---|---|---|
-| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting des Etats-Unis. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components-.md) | **Fonctionnalité disponible**. <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des Etats-Unis. |
-| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting EMEA. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components-.md) | **Fonctionnalité disponible.** <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données EMEA. Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
+| Amériques et Asie-Pacifique | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting des Etats-Unis. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components-.md) | **Fonctionnalité disponible**. <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données des Etats-Unis. |
+| EMEA (Europe, Moyen-Orient et Afrique) | **Fonctionnalité disponible**. <br>Toutes les informations de profil personnalisées et d&#39;usine (ville, pays/région, état, genre et segments selon l&#39;âge) sont transmises au centre de reporting EMEA. Pour plus d&#39;informations sur les dimensions de profil, consultez cette [page](../../reporting/using/list-of-components-.md) | **Fonctionnalité disponible.** <br>Tous les champs de profil personnalisés et d&#39;usine, ainsi que les champs d&#39;événement Adobe Campaign Standard sont traités dans le centre de données EMEA. Les <br>**[!UICONTROL données de contrôle ]**qui contiennent les données d&#39;enregistrement Adobe I/O et les identifiants des événements utilisateur des clients sont envoyés et stockés dans le centre de données des Etats-Unis. |
 
 Le tableau ci-dessous indique ce qui se passe après le refus de cet accord selon votre zone géographique. Notez que même si vous refusez cet accord, le reporting sur les diffusions et l&#39;intégration de Microsoft Dynamics 365 sera toujours disponible.
 

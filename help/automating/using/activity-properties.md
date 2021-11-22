@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 100%
 
@@ -51,19 +51,19 @@ Pour y accéder, sélectionnez l’activité de votre choix dans un workflow, pu
 
 Le champ **[!UICONTROL Exécution]** vous permet de définir l’action à effectuer au moment du déclenchement de la tâche. Trois options sont disponibles :
 
-* **Normale** : l’activité est exécutée normalement.
-* **Activer mais ne pas exécuter** : l’activité est mise en pause, de même que, par voie de conséquence, les futurs traitements qui en découlent. Cela peut s’avérer utile si vous souhaitez assister au déclenchement de la tâche.
+* **Normale** : l’activité est exécutée normalement.
+* **Activer mais ne pas exécuter** : l’activité est mise en pause, de même que, par voie de conséquence, les futurs traitements qui en découlent. Cela peut s’avérer utile si vous souhaitez assister au déclenchement de la tâche.
 * **Ne pas activer** : l’activité n’est pas exécutée, de même que, par voie de conséquence, toutes celles qui lui succèdent (dans la même branche).
 
 Le champ **[!UICONTROL En cas d’erreur]** vous permet de définir l’action à effectuer lorsque l’activité a rencontré une erreur. Deux options sont disponibles :
 
 * **Suspendre le processus** : le workflow est automatiquement suspendu. Le statut du workflow est alors **En erreur** et la couleur qui lui est associée passe au rouge. Lorsque le problème est résolu, relancez le workflow.
-* **Ignorer** : l’activité n’est pas exécutée, de même que, par voie de conséquence, toutes celles qui lui succèdent (dans la même branche). Cela peut s’avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
+* **Ignorer** : l’activité n’est pas exécutée, de même que, par voie de conséquence, toutes celles qui lui succèdent (dans la même branche). Cela peut s’avérer utile dans le cas de tâches récurrentes. Si la branche comporte un planificateur placé en amont, celui-ci se déclenchera normalement à sa prochaine date d’exécution.
 
 Le champ **[!UICONTROL Comportement]** vous permet de définir la marche à suivre en cas de tâches asynchrones. Deux options sont disponibles :
 
-* **Plusieurs tâches autorisées** : plusieurs tâches peuvent être exécutées en même temps, même si la première n’est pas terminée.
-* **La tâche en cours est prioritaire** : lorsqu’une tâche est en cours, celle-ci est prioritaire. Tant qu’une tâche est toujours en cours, aucune autre tâche ne sera exécutée.
+* **Plusieurs tâches autorisées** : plusieurs tâches peuvent être exécutées en même temps, même si la première n’est pas terminée.
+* **La tâche en cours est prioritaire** : lorsqu’une tâche est en cours, celle-ci est prioritaire. Tant qu’une tâche est toujours en cours, aucune autre tâche ne sera exécutée.
 
 Le champ **[!UICONTROL Durée max. d’exécution]** vous permet d’indiquer une durée de type &quot;30s&quot; ou &quot;1h&quot;. Si l’activité n’est pas terminée une fois cette durée écoulée, une alerte est déclenchée, ce qui n’a par ailleurs aucun impact sur le fonctionnement du workflow.
 

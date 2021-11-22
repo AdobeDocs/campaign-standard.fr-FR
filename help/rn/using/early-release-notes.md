@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # Notes de mise à jour initiales {#new-release}
 
-Cette page décrit les nouvelles fonctionnalités, les améliorations et les correctifs inclus dans la prochaine version de Campaign Standard.
+Cette page décrit les nouvelles fonctionnalités, les améliorations et les correctifs inclus dans la prochaine version de Campaign Standard.
 
 >[!CAUTION]
 >
@@ -31,13 +31,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Interface Experience Cloud unifiée</strong><br /> </th> 
+<th> <strong>Interface Experience Cloud unifiée</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>La barre d’en-tête d’Adobe Campaign a été modifiée pour unifier et améliorer votre expérience sur tous les produits et services Experience Cloud. Ces modifications visent à faciliter votre expérience des produits et services, notamment :</p>
+<p>La barre d’en-tête d’Adobe Campaign a été modifiée pour unifier et améliorer votre expérience sur tous les produits et services Experience Cloud. Ces modifications visent à faciliter votre expérience des produits et services, notamment :</p>
 <ul>
 <li>Basculement plus facile entre différentes entreprises ou vers une autre application.</li>
 <li>Guide d'utilisateur amélioré - Avec l’intégration d’Experience League dans le produit, les résultats des recherches incluent également les résultats des forums de la communauté et davantage de contenu vidéo, ce qui permet d’accéder plus facilement à un plus large éventail de contenu pour tirer pleinement parti de l’application. Nous avons également ajouté un mécanisme de commentaires directement dans le menu Aide, ce qui facilite le signalement de problèmes ou le partage d’idées.</li>
@@ -59,13 +59,13 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 <tbody> 
 <tr> 
 <td>
-<p>La nouvelle fonctionnalité du journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Ceci comprend un accès en libre-service à un historique de données permettant de répondre à des questions, notamment :</p>
+<p>La nouvelle fonctionnalité du journal d’audit capture, en temps réel, une liste complète d’actions et d’événements se produisant dans Adobe Campaign. Ceci comprend un accès en libre-service à un historique de données permettant de répondre à des questions, notamment :</p>
 <ul>
 <li>Qu’est-il advenu de ce workflow et qui l’a mis à jour pour la dernière fois ?</li>
 <li>Qui a effectué les dernières modifications ?</li>
 <li>Quel était l'état précédent ?</li>
 </ul>
-<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour les éléments suivants : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également trackées.</p>
+<p>Adobe Campaign effectue désormais un audit des actions de création, d’édition et de suppression pour les éléments suivants : workflows, options, ressources personnalisées. Les modifications de ces éléments sont également trackées.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -93,7 +93,7 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Améliorations**
 
-* Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
+* Lors de la création d’une diffusion récurrente dans un workflow, associée à un contenu Adobe Experience Manager, l’état de validation du contenu est désormais vérifié avant envoi.
 * La limite de connexion à la base de données est maintenant alignée avec le package Campaign pour éviter les erreurs de connexion.
 * Ajout d’une vérification de cohérence lors de la création d’index dans les ressources personnalisées et amélioration des messages d’erreur.
 

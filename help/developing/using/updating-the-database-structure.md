@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 >
 >Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
-1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Publication]** dans le menu avancé (via le logo Adobe Campaign).
+1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Publication]** dans le menu avancé (via le logo Adobe Campaign).
 1. Par défaut, l&#39;option **[!UICONTROL Déterminer les modifications depuis la dernière publication]** est cochée, ce qui signifie que seuls les changements apportés depuis la dernière mise à jour seront appliqués.
 
    >[!NOTE]
@@ -93,7 +93,7 @@ La ressource personnalisée est intégrée par défaut, mais si, pour un comport
 
 ![](assets/removefromextoption.png)
 
-Après l&#39;étape **[!UICONTROL Préparer la publication]**, Adobe Campaign affiche les différences entre la version actuelle et la future version de l&#39;API après publication dans l&#39;onglet **[!UICONTROL Aperçu de l&#39;API Profiles &amp; Services]**. Si vous étendez l&#39;API pour la première fois, la définition d&#39;usine de la ressource personnalisée est comparée à votre extension.
+Après l&#39;étape **[!UICONTROL Préparer la publication]**, Adobe Campaign affiche les différences entre la version actuelle et la future version de l&#39;API après publication dans l&#39;onglet **[!UICONTROL Aperçu de l&#39;API Profiles &amp; Services]**. Si vous étendez l&#39;API pour la première fois, la définition d&#39;usine de la ressource personnalisée est comparée à votre extension.
 
 Les informations contenues dans l&#39;onglet sont divisées en trois sections : éléments ajoutés, supprimés et modifiés.
 
@@ -105,4 +105,4 @@ L&#39;analyse des différences est une étape obligatoire, car la publication mo
 >
 >Cette publication met à jour l&#39;API **[!UICONTROL profilesAndServicesExt]**. L&#39;API **[!UICONTROL profilesAndServices]** n&#39;est pas mise à jour.
 
-Pour plus d&#39;informations sur l&#39;API Adobe Campaign, reportez-vous à la documentation Adobe Campaign dédiée sur [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).
+Pour plus d&#39;informations sur l&#39;API Adobe Campaign, reportez-vous à la documentation Adobe Campaign dédiée sur [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html).

@@ -1,19 +1,19 @@
 ---
-keywords: Campaign Standard;accueil;thèmes populaires
-title: Documentation du produit Adobe Campaign Standard
-description: Parcourir la documentation du produit Campaign Standard
+keywords: Campaign Standard;accueil;thèmes populaires
+title: Documentation du produit Adobe Campaign Standard
+description: Parcourir la documentation du produit Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 
 ---
 
-# Documentation d&#39;Adobe Campaign Standard {#campaign-standard-documentation}
+# Documentation d&#39;Adobe Campaign Standard {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
@@ -71,9 +71,9 @@ ht-degree: 100%
 
 | Pages utiles | Ressources destinées aux développeurs |
 |---|---|
-| [Notes de mise à jour](rn/using/release-notes.md) | [Déclencheurs Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentation relative au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [API Campaign](api/using/get-started-apis.md) |
+| [Notes de mise à jour](rn/using/release-notes.md) | [Déclencheurs Experience Cloud](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) | [API Campaign](api/using/get-started-apis.md) |
 | [Guide de mise en œuvre](https://helpx.adobe.com/fr/campaign/kb/campaign-standard-implementation-guide.html) | [Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
 | [Calendrier des versions](rn/using/release-planning.md) | [Modèle de données Campaign](developing/using/datamodel-introduction.md) |
 | [Fonctionnalités obsolètes et supprimées](rn/using/deprecated-features.md) | [Guide multi-solution](integrating/using/get-started-campaign-integrations.md) |
-| [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |
+| [Prise en main de Campaign Standard](start/using/about-campaign-standard.md) | [Notes techniques](https://helpx.adobe.com/fr/campaign/kb/acs-article-list.html) |

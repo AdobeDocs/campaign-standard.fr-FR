@@ -1,6 +1,6 @@
 ---
 title: API externe
-description: L'activité API externe récupère des données dans le workflow Campaign Standard d'un système externe via un appel API HTTP.
+description: L'activité API externe récupère des données dans le workflow Campaign Standard d'un système externe via un appel API HTTP.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,7 +10,7 @@ role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Les points d’entrée de système externes peuvent être des point d’entrée 
 
 >[!NOTE]
 >
->Pour des raisons de sécurité, l’utilisation de JSSP n’est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance Runtime Adobe I/O via l’activité API externe.
+>Pour des raisons de sécurité, l&#39;utilisation de JSSP n&#39;est pas prise en charge dans Campaign Standard. Si vous devez exécuter du code, vous pouvez appeler une instance Runtime Adobe I/O via l’activité API externe.
 
 Les principales caractéristiques de cette activité sont les suivantes :
 
@@ -105,7 +105,7 @@ Comportement de la **case à cocher Aplatir** :
 
 La case à cocher Aplatir (par défaut : non cochée) est fournie pour indiquer si le fichier JSON doit être aplati ou non sur une carte clé/valeur.
 
-* Lorsque la **case à cocher est désactivée** (non cochée), l’exemple JSON est analysé pour la recherche d’un objet de tableau. L’utilisateur devra fournir une version abrégée du format JSON d’exemple de réponse de l’API afin qu’Adobe Campaign puisse déterminer exactement le tableau que l’utilisateur souhaite utiliser. Au moment de la création du workflow, le chemin d’accès à l’objet de tableau imbriqué sera déterminé et enregistré, de sorte qu’il puisse être utilisé au moment de l’exécution pour accéder à cet objet de tableau à partir du corps de réponse JSON reçu de l’appel API.
+* Lorsque la **case à cocher est désactivée** (non cochée), l’exemple JSON est analysé pour la recherche d’un objet de tableau. L’utilisateur devra fournir une version abrégée du format JSON d’exemple de réponse de l’API afin qu’Adobe Campaign puisse déterminer exactement le tableau que l’utilisateur souhaite utiliser. Au moment de la création du workflow, le chemin d’accès à l’objet de tableau imbriqué sera déterminé et enregistré, de sorte qu’il puisse être utilisé au moment de l’exécution pour accéder à cet objet de tableau à partir du corps de réponse JSON reçu de l’appel API.
 
 * Lorsque la **case à cocher est activée** (cochée), l’exemple JSON est aplati et toutes les propriétés spécifiées dans l’exemple JSON fourni sont utilisées pour créer des colonnes du tableau temporaire de sortie et affichées dans l’onglet Définitions des colonnes. Notez que s’il existe un objet de tableau dans l’exemple JSON, tous les éléments de ces objets de tableau seront également aplatis.
 
@@ -114,7 +114,7 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 ### Exécution
 
-Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
+Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
 
 Si le point d&#39;entrée l&#39;exige, deux types de mécanismes d&#39;authentification sont disponibles :
 
@@ -136,7 +136,7 @@ Cet onglet permet de contrôler les **propriétés générales** de l’activit�
 >
 >Cet onglet s’affiche lorsque le **format des données de réponse** est complété et validé dans l’onglet Mapping sortant.
 
-L’onglet **Définition des colonnes** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d’erreur et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
+L’onglet **Définition des colonnes** vous permet de définir précisément la structure des données de chaque colonne pour importer des données qui ne contiennent pas d’erreur et les faire correspondre aux types pré-existants de la base Adobe Campaign pour des opérations ultérieures.
 
 ![](assets/externalAPI-column.png)
 

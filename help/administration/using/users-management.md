@@ -1,6 +1,6 @@
 ---
 title: Gestion des utilisateurs
-description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécifiques. Découvrez les principaux types d’utilisateurs. '
+description: 'Les utilisateurs d’Adobe Campaign détiennent des rôles spécifiques. Découvrez les principaux types d’utilisateurs. '
 audience: administration
 content-type: reference
 topic-tags: users-and-security
@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -19,25 +19,25 @@ ht-degree: 100%
 
 ## À propos des utilisateurs {#about-users}
 
-Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
+Adobe Campaign permet d’affecter un ensemble de rôles à vos utilisateurs afin de définir la partie de l’interface à laquelle ils ont accès.
 
 Les rôles spécifiques et les autorisations correspondantes sont présentés dans les sections suivantes : [Rôles](../../administration/using/list-of-roles.md) et [Autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
-Les administrateurs peuvent gérer les utilisateurs depuis Admin Console. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations, consultez la documentation relative à [Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html).
+Les administrateurs peuvent gérer les utilisateurs depuis Admin Console. Les utilisateurs sont ensuite automatiquement synchronisés avec Adobe Campaign. Pour plus d’informations, consultez la documentation relative à [Admin Console](https://helpx.adobe.com/fr/enterprise/using/users.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
-Pour visualiser les utilisateurs dans Adobe Campaign, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Utilisateurs &amp; Sécurité > Utilisateurs]**.
+Pour visualiser les utilisateurs dans Adobe Campaign, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Utilisateurs &amp; Sécurité > Utilisateurs]**.
 
-Pour accéder à l’interface de gestion des utilisateurs à partir d’Adobe Campaign, cliquez sur **[!UICONTROL Administrer les utilisateurs]**.
+Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Adobe Campaign, cliquez sur **[!UICONTROL Administrer les utilisateurs]**.
 
 ![](assets/user_management_5.png)
 
 **Rubriques connexes :**
 
-* Vidéo [Gérer les permissions utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
+* Vidéo [Gérer les autorisations utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Type d’utilisateurs {#type-of-users}
 
@@ -45,10 +45,10 @@ Cette répartition des utilisateurs n’est pas obligatoire ; elle représente 
 
 Cette section présente les principaux types d’utilisateurs Adobe Campaign. Pour plus d’informations sur les rôles spécifiques qu’un utilisateur peut détenir (démarrer des diffusions, exporter, préparer des diffusions, etc.), reportez-vous aux pages [Liste des rôles](../../administration/using/list-of-roles.md) et [Gestion des groupes et des utilisateurs](../../administration/using/managing-groups-and-users.md).
 
-Elle est axée sur la répartition des différentes tâches entre trois types d’utilisateurs principaux dans Adobe Campaign :
+Elle est axée sur la répartition des différentes tâches entre trois types d’utilisateurs principaux dans Adobe Campaign :
 
 * [Administrateurs fonctionnels](#functional-administrators) : il s’agit des utilisateurs les plus techniques parmi tous les utilisateurs de votre organisation.
-* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les marketeurs ont besoin pour envoyer et contrôler leurs diffusions.
+* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les marketeurs ont besoin pour envoyer et contrôler leurs diffusions.
 * [Utilisateurs de base](#basic-users) : il s’agit des marketeurs qui personnalisent, diffusent et contrôlent leurs campagnes.
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 
 ## Création d’un utilisateur {#creating-a-user}
 
-Pour ajouter un utilisateur à votre instance, vous devez d’abord le créer dans Admin Console avant de le gérer dans Adobe Campaign Standard.
+Pour ajouter un utilisateur à votre instance, vous devez d’abord le créer dans Admin Console avant de le gérer dans Adobe Campaign Standard.
 
 1. Dans le menu avancé, sélectionnez **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Utilisateurs]** et cliquez sur **[!UICONTROL Administrer les utilisateurs]** pour accéder à la console d’administration.
 
@@ -126,13 +126,13 @@ Pour ajouter un utilisateur à votre instance, vous devez d’abord le créer da
 
    ![](assets/create_user_4.png)
 
-Votre utilisateur est maintenant créé et doit recevoir un email le redirigeant vers la fenêtre suivante, où il doit définir un mot de passe puis accepter le contrat d’utilisation. Cet utilisateur pourra alors se connecter à votre instance Adobe Campaign Standard.
+Votre utilisateur est maintenant créé et doit recevoir un email le redirigeant vers la fenêtre suivante, où il doit définir un mot de passe puis accepter le contrat d’utilisation. Cet utilisateur pourra alors se connecter à votre instance Adobe Campaign Standard.
 
 ![](assets/create_user_5.png)
 
-Lorsque vous vous connectez à votre instance, cet utilisateur est synchronisé avec Adobe Campaign Standard.
+Lorsque vous vous connectez à votre instance, cet utilisateur est synchronisé avec Adobe Campaign Standard.
 
-Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchronisé avec Adobe Campaign :
+Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchronisé avec Adobe Campaign :
 
 1. Dans le menu avancé **[!UICONTROL Administration > Utilisateurs &amp; sécurité > Utilisateurs]**, sélectionnez l’utilisateur créé précédemment.
 
@@ -152,7 +152,7 @@ Vous pourrez ensuite vérifier si votre utilisateur a été correctement synchro
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
+Votre utilisateur peut maintenant utiliser Adobe Campaign Standard.
 
 ## Tutoriel vidéo {#video}
 
@@ -160,4 +160,4 @@ Cette vidéo montre comment gérer les droits d’accès des utilisateurs.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Standard sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=fr).

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Pour prévisualiser un message à l’aide des profils de test, procédez comme 
 
 ## Prévisualiser des SMS {#previewing-sms}
 
-Pour les **SMS**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour les **SMS**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
 Pour prévisualiser un SMS à l’aide de profils de test, procédez comme suit :
 
@@ -85,7 +85,7 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 ## Prévisualiser des notifications push {#previewing-push}
 
-Pour les **notifications push**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour les **notifications push**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
 Pour prévisualiser une notification push à l’aide de profils de test, procédez comme suit :
 
@@ -113,7 +113,7 @@ Vous pouvez maintenant voir la représentation exacte de votre message en foncti
 
 ## Prévisualiser des messages In-App {#previewing-in-app}
 
-Pour **In-App**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+Pour **In-App**, Campaign Standard vous permet de prévisualiser les messages à l’aide de profils de test. Vous obtenez ainsi une représentation exacte du message qu’un profil spécifique recevra. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
 Pour prévisualiser un message In-App à l&#39;aide de profils de test, procédez comme suit :
 

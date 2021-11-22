@@ -21,7 +21,7 @@ La récupération des profils est effectuée avec une requête **GET**.
 
 Vous pouvez ensuite affiner votre recherche à l’aide de filtres, de classements et de paginations. Pour plus d&#39;informations, consultez la section [Autres opérations](../../api/using/sorting.md).
 
-En outre, les API Campaign Standard vous permettent de rechercher des profils en fonction de l’un de ces champs : email, prénom, nom ou tout champ personnalisé. Voir à ce propos [cette section](#searching-field).
+En outre, les API Campaign Standard vous permettent de rechercher des profils en fonction de l’un de ces champs : email, prénom, nom ou tout champ personnalisé. Voir à ce propos [cette section](#searching-field).
 
 <br/>
 

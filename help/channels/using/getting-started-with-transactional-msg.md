@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
 
@@ -30,13 +30,13 @@ Un message transactionnel est une communication individuelle et unique envoyée 
 
 * **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été expédiée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client a consulté votre site web, etc.
 
-Adobe Campaign permet d’intégrer cette fonctionnalité à un système d’information qui lui envoie les événements destinés à être transformés en messages transactionnels personnalisés.
+Adobe Campaign permet d’intégrer cette fonctionnalité à un système d’information qui lui envoie les événements destinés à être transformés en messages transactionnels personnalisés.
 
 Selon vos options, les messages transactionnels peuvent être envoyés par email, SMS ou [notification push](../../channels/using/transactional-push-notifications.md). Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >
->Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
+>Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
@@ -50,13 +50,13 @@ Le processus global de messagerie transactionnelle peut être décrit comme suit
 
 Par exemple, imaginez que vous êtes une société disposant d&#39;un site web sur lequel vos clients peuvent acheter des produits.
 
-Adobe Campaign vous permet d&#39;envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
+Adobe Campaign vous permet d’envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
 
 Les principales étapes de mise en place de ce système sont décrites ci-dessous dans [cette section](#key-steps).
 
 ## Types de message transactionnel {#transactional-message-types}
 
-Dans Adobe Campaign, deux types de messages transactionnels sont disponibles :
+Dans Adobe Campaign, deux types de messages transactionnels sont disponibles :
 
 **Messages transactionnels basés sur un événement** ciblant les données contenues dans l’événement. Ces messages :
 * Ne contiennent pas d’informations sur le profil et ne peuvent donc pas inclure de liens de désabonnement.
@@ -66,7 +66,7 @@ Dans Adobe Campaign, deux types de messages transactionnels sont disponibles :
 Vous pouvez envoyer un message transactionnel basé sur un événement à un client qui doit par exemple récupérer un mot de passe oublié ou confirmer une commande. En effet, vous ne souhaitez pas que votre destinataire se désabonne de ce type de communication et cette notification ne doit pas être ajoutée au compteur des messages marketing dans le cadre d&#39;une règle de fatigue.
 
 **Messages transactionnels basés sur un profil** ciblant des profils de la base de données marketing Campaign. Avec ce type de message, vous pouvez :
-* utiliser les données contenues dans la base de données Adobe Campaign ;
+* utiliser les données contenues dans la base de données Adobe Campaign ;
 * personnaliser votre message avec les informations de profil en ajoutant un [enrichissement](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) à la configuration d&#39;événement ;
 * appliquer des [règles de typologie marketing](../../sending/using/managing-typology-rules.md) ou des [règles de fatigue](../../sending/using/fatigue-rules.md) ;
 * inclure le lien de désinscription dans les messages ;
@@ -79,7 +79,7 @@ Le type du message est défini lors de la configuration de l’événement qui s
 
 ## Principales étapes {#key-steps}
 
-Les principales étapes de création et de gestion des messages transactionnels personnalisés dans Adobe Campaign sont résumées dans le schéma ci-dessous.
+Les principales étapes de création et de gestion des messages transactionnels personnalisés dans Adobe Campaign sont résumées dans le schéma ci-dessous.
 
 ![](assets/message-center-overview.png)
 
@@ -119,7 +119,7 @@ Pour plus d’informations sur la modification et la publication d’un message 
 |--- |--- |--- |
 | Cette étape est effectuée par le développeur de votre site web. | Utilisez l’API REST des messages transactionnels pour intégrer l’événement à votre site web. | L’événement est déclenché lorsqu’un client abandonne son panier. |
 
-Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard**.
+Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard**.
 
 Pour plus d’informations sur l’utilisation de l’API REST Campaign pour gérer les messages transactionnels, consultez la [documentation de l&#39;API REST](../../api/using/managing-transactional-messages.md).
 

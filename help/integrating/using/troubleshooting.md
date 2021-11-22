@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 100%
 
@@ -34,18 +34,18 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
    La **[!UICONTROL Priorité]** est utilisée lorsque plusieurs data sources sont définies. Elle décide quelle data source sera utilisée pour la mise en correspondance avec l&#39;alias reçu dans l&#39;ordre défini. La **[!UICONTROL Priorité]** n&#39;est nécessaire que pour l&#39;implémentation des Triggers.
 
-   Vérifiez que la clé de réconciliation est correcte. C&#39;est la valeur hachée/cryptée de ce champ qui est utilisée pour exporter et importer les audiences.
+   Vérifiez que la clé de réconciliation est correcte. C&#39;est la valeur hachée/chiffrée de ce champ qui est utilisée pour exporter et importer les audiences.
 
-   En cas de hachage ou de cryptage de l&#39;identifiant Declared ID, vérifiez que les mêmes paramètres/algorithmes de cryptage sont utilisés sur votre site Web.
+   En cas de hachage ou de chiffrement de l&#39;identifiant Declared ID, vérifiez que les mêmes paramètres/algorithmes de chiffrement sont utilisés sur votre site Web.
 
-   Un seul algorithme de cryptage est pris en charge : AES en mode CBC avec une taille de clé de 128, 192 ou 256 octets, avec un remplissage PKCS.
+   Un seul algorithme de chiffrement est pris en charge : AES en mode CBC avec une taille de clé de 128, 192 ou 256 octets, avec un remplissage PKCS.
 
-   Si l&#39;algorithme de cryptage AES est sélectionné, les champs supplémentaires suivants doivent être correctement définis :
+   Si l&#39;algorithme de chiffrement AES est sélectionné, les champs supplémentaires suivants doivent être correctement définis :
 
-   * **Clé de cryptage** pour AES
-   * **Cryptage IV** (vecteur d&#39;initialisation) pour AES
-   * **Canal** (Email/SMS/Autre) : ce champ permet de décrypter directement les adresses email et les numéros de SMS. Vérifiez que la clé de réconciliation correspond au paramètre du champ **Canal**. Si vous sélectionnez Autre, ce décryptage spécifique ne sera pas effectué et la clé de réconciliation sera utilisée pour réconcilier les données.
+   * **Clé de chiffrement** pour AES
+   * **Chiffrement IV** (vecteur d&#39;initialisation) pour AES
+   * **Canal** (Email/SMS/Autre) : ce champ permet de déchiffrer directement les adresses e-mail et les numéros de SMS. Vérifiez que la clé de réconciliation correspond au paramètre du champ **Canal**. Si vous sélectionnez Autre, ce déchiffrement spécifique ne sera pas effectué et la clé de réconciliation sera utilisée pour réconcilier les données.
 
-   Les audiences Experience Cloud peuvent ne pas être partagées parce que le workflow technique s&#39;est arrêté ou est en pause. Accédez au workflow **[!UICONTROL Importer une audience partagée]** en cliquant directement sur l&#39;option **[!UICONTROL Afficher l&#39;audience partagée]** dans votre Data source.
+   Les audiences Experience Cloud peuvent ne pas être partagées parce que le workflow technique s&#39;est arrêté ou est en pause. Accédez au workflow **[!UICONTROL Importer une audience partagée]** en cliquant directement sur l&#39;option **[!UICONTROL Afficher l&#39;audience partagée]** dans votre Data source.
 
 Il est possible que certaines données soient manquantes lors du partage d&#39;une audience via People core service ou lors de l&#39;import d&#39;une audience. Seuls les enregistrements dont l&#39;identifiant (&#39;Visitor ID&#39; ou &#39;Declared ID&#39;) a pu être réconcilié avec la dimension des profils sont transférés. Les identifiants provenant des segments de People core service non reconnus par Adobe Campaign ne sont pas importés.

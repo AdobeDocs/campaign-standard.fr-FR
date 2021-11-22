@@ -1,6 +1,6 @@
 ---
 title: Cas pratiques des déclencheurs d'abandon
-description: Découvrez comment utiliser l'intégration Triggers Experience Cloud grâce à ces différents cas pratiques.
+description: Découvrez comment utiliser l'intégration Triggers Experience Cloud grâce à ces différents cas pratiques.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -30,8 +30,8 @@ Cette section détaille divers cas pratiques qui peuvent être implémentés via
 
 Afin de pouvoir mettre en œuvre ces cas pratiques, vous devez avoir accès aux solutions/Core Services suivants :
 
-* Adobe Campaign
-* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Applications mobiles, Select ou Standard.
+* Adobe Campaign
+* Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Applications mobiles, Select ou Standard.
 * Core Service Triggers Experience Cloud
 * Core Service DTM Experience Cloud
 * Identifiant du visiteur Experience Cloud et Core Service People Experience Cloud
@@ -44,9 +44,9 @@ Pour plus d&#39;informations, consultez [Configuration des solutions et services
 
 Dans ce cas pratique, nous allons créer un déclencheur simple qui se déclenchera à chaque fois qu&#39;un client abandonnera sa visite sur le site Web. Cet exemple part du principe que vous avez configuré DTM pour collecter et envoyer des données vers Adobe Marketing, et que tous vos événements sont déjà créés.
 
-### Création d&#39;un déclencheur Experience Cloud    {#creating-an-experience-cloud-trigger}
+### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger}
 
-1. Sélectionnez **[!UICONTROL Gérer les déclencheurs]** dans le menu Experience Cloud Activation Core Service.
+1. Sélectionnez **[!UICONTROL Gérer les Triggers]** dans le menu Experience Cloud Activation Core Service.
 
    ![](assets/trigger_uc_browse_1.png)
 
@@ -58,13 +58,13 @@ Dans ce cas pratique, nous allons créer un déclencheur simple qui se déclench
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Utiliser le déclencheur dans Adobe Campaign    {#using-the-trigger-in-adobe-campaign}
+### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign}
 
-Maintenant que nous avons créé un déclencheur Experience Cloud, nous allons l&#39;utiliser dans Adobe Campaign.
+Maintenant que nous avons créé un déclencheur Experience Cloud, nous allons l&#39;utiliser dans Adobe Campaign.
 
-Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans Experience Cloud.
+Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans Experience Cloud.
 
-1. Pour créer le Trigger dans Adobe Campaign, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Pour créer le Trigger dans Adobe Campaign, cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -77,7 +77,7 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. Publiez le déclencheur dans Adobe Campaign. Ce processus créera toujours automatiquement un modèle de message transactionnel.
+1. Publiez le déclencheur dans Adobe Campaign. Ce processus créera toujours automatiquement un modèle de message transactionnel.
 
    ![](assets/trigger_uc_browse_6.png)
 
@@ -109,11 +109,11 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s&#39;est lancé.
+1. À tout moment, vous pouvez vérifier les logs Experience Cloud pour voir combien de fois le déclencheur s&#39;est lancé.
 
    ![](assets/trigger_uc_browse_13.png)
 
-1. Vous pouvez également afficher le rapport de déclencheur Adobe Campaign.
+1. Vous pouvez également afficher le rapport de déclencheur Adobe Campaign.
 
    ![](assets/trigger_uc_browse_14.png)
 
@@ -121,18 +121,18 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dans
 
 Dans ce cas pratique, nous allons créer un déclencheur pour reprendre contact avec des visiteurs ayant visité notre site Web de réservation de voyages et qui, ayant cherché une destination sans trouver de résultats pertinents, n&#39;ont rien réservé. Le processus général est le même que pour le cas pratique précédent (voir [Déclencheur d&#39;abandon de navigation](#browse-abandonment-trigger)). Ici, nous allons nous focaliser sur la personnalisation de l&#39;email de remarketing.
 
-### Création d&#39;un déclencheur Experience Cloud    {#creating-an-experience-cloud-trigger-1}
+### Création d&#39;un trigger Experience Cloud  {#creating-an-experience-cloud-trigger-1}
 
-Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur Experience Cloud. Voir [Créer un déclencheur Experience Cloud](#creating-an-experience-cloud-trigger). La différence principale est la définition du déclencheur.
+Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur Experience Cloud. Voir [Créer un déclencheur Experience Cloud](#creating-an-experience-cloud-trigger). La différence principale est la définition du déclencheur.
 
 ![](assets/trigger_uc_search_1.png)
 
 La section **[!UICONTROL Inclure les métadonnées]** vous permet de transférer toutes les données collectées via Analytics vers la payload de déclencheur. Dans cet exemple, nous allons créer un eVar personnalisé (eVar 3, par exemple) pour collecter le terme de recherche que le visiteur saisit. Ce terme sera ensuite utilisé dans l&#39;email transactionnel envoyé à ce même visiteur.
 
-### Utiliser le déclencheur dans Adobe Campaign    {#using-the-trigger-in-adobe-campaign-1}
+### Utiliser le trigger dans Adobe Campaign  {#using-the-trigger-in-adobe-campaign-1}
 
-1. Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur dans Adobe Campaign. Voir [Utiliser le déclencheur dans Adobe Campaign](#using-the-trigger-in-adobe-campaign). La différence principale est la manière dont, dans Adobe Campaign, nous accédons et utilisons les métadonnées transmises dans la payload de déclencheur.
-1. Dans le déclencheur d&#39;abandon de recherche créé dans Adobe Campaign, cliquez sur l&#39;icône **[!UICONTROL Contenu et enrichissement de l&#39;événement]** pour voir la payload transmise à Adobe Campaign.
+1. Suivez les étapes décrites dans le cas pratique précédent pour créer le déclencheur dans Adobe Campaign. Voir [Utiliser le déclencheur dans Adobe Campaign](#using-the-trigger-in-adobe-campaign). La différence principale est la manière dont, dans Adobe Campaign, nous accédons et utilisons les métadonnées transmises dans la payload de déclencheur.
+1. Dans le trigger d&#39;abandon de recherche créé dans Adobe Campaign, cliquez sur l&#39;icône **[!UICONTROL Contenu et enrichissement de l&#39;événement]** pour voir la payload transmise à Adobe Campaign.
 
    ![](assets/trigger_uc_search_2.png)
 

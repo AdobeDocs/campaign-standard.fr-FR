@@ -1,6 +1,6 @@
 ---
 title: Transfert de fichier
-description: L’activité Transfert de fichier permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
+description: L’activité Transfert de fichier permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ![](assets/file_transfer.png)
 
-L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
+L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign.
 
 ## Contexte d&#39;utilisation  {#context-of-use}
 
@@ -43,8 +43,8 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    ![](assets/wkf_file_transfer_01.png)
 
    * **Réception de fichier** : vous permet de télécharger un fichier.
-   * **Envoi de fichier** : vous permet d’envoyer un fichier. Le téléchargement d’un fichier depuis Adobe Campaign génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
-   * **Test d’existence de fichier** : vous permet de vérifier l’existence d’un fichier.
+   * **Envoi de fichier** : vous permet d’envoyer un fichier. Le téléchargement d&#39;un fichier depuis Adobe Campaign génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+   * **Test d’existence de fichier** : vous permet de vérifier l’existence d’un fichier.
    * **Listage de fichiers** : vous permet de lister les fichiers présents sur le serveur défini dans l’onglet **[!UICONTROL Protocole]**. Cette action est principalement utilisée à des fins de débogage, afin de vérifier si l’activité est configurée en fonction de vos besoins avant de télécharger les fichiers à partir du serveur distant.
 
 1. Sélectionnez le protocole que vous souhaitez utiliser :
@@ -52,7 +52,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
    * [Stockage Blob Microsoft Azure](#azure-blob-configuration-wf)
-   * [Fichier(s) présent(s) sur le serveur Adobe Campaign](#files-server-configuration-wf)
+   * [Fichier(s) présent(s) sur le serveur Adobe Campaign](#files-server-configuration-wf)
 
 1. La section **[!UICONTROL Options supplémentaires]**, disponible en fonction du protocole choisi, vous permet d’ajouter des paramètres à votre protocole. Vous pouvez ainsi :
 
@@ -137,7 +137,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 ### Configuration avec des fichiers présents sur le serveur Adobe Campaign {#files-server-configuration-wf}
 
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
-Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent être utilisés pour filtrer les fichiers.
+Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent être utilisés pour filtrer les fichiers.
 
 Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos [cette page](../../automating/using/customizing-workflow-external-parameters.md).
 

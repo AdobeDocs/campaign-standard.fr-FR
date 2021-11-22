@@ -1,6 +1,6 @@
 ---
 title: Utilisation de Triggers dans Campaign
-description: Créez un événement Trigger dans Adobe Campaign, basé sur un Trigger Adobe Experience Cloud existant.
+description: Créez un événement Trigger dans Adobe Campaign, basé sur un Trigger Adobe Experience Cloud existant.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 100%
 
@@ -23,25 +23,25 @@ ht-degree: 100%
 >
 >Pour créer des déclencheurs, vous aurez besoin du rôle **[!UICONTROL Administration]** ou vous devrez appartenir au groupe de sécurité **[!UICONTROL Administrateurs]**. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/list-of-roles.md).
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html?lang=fr). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html?lang=fr). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
 
-Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un déclencheur Adobe Experience Cloud existant.
+Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un déclencheur Adobe Experience Cloud existant.
 
-Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour mieux comprendre comment les déclencheurs sont configurés dans Adobe Campaign.
+Vous pouvez regarder cette [vidéo](https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html#step-two) pour mieux comprendre comment les déclencheurs sont configurés dans Adobe Campaign.
 
 Les étapes de mise en œuvre sont les suivantes :
 
-1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans de marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans de marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Créer.]** L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mappage des déclencheurs créés dans l’interface d’Experience Cloud.
+1. Cliquez sur le bouton **[!UICONTROL Créer.]** L’assistant de création qui s’affiche contient la liste de tous les déclencheurs définis dans Adobe Experience Cloud. La colonne **[!UICONTROL Nombre d’envois Analytics]** indique le nombre d’événements envoyés à Campaign par le déclencheur Adobe Experience Cloud. Il s’agit d’un mappage des déclencheurs créés dans l’interface d’Experience Cloud.
 
    ![](assets/remarketing_2.png)
 
-1. Sélectionnez le déclencheur Adobe Experience Cloud que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez le déclencheur Adobe Experience Cloud que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Configurez les propriétés générales du déclencheur. A cette étape de l’assistant, indiquez également le canal et la dimension de ciblage à utiliser pour le déclencheur (voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources)). Validez ensuite la création du déclencheur.
-1. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Contenu et enrichissement de l’événement]** pour afficher le contenu de la payload. Cet écran vous permet également d’enrichir les données de l’événement avec les données de profil stockées dans la base de données Adobe Campaign. L’enrichissement s’effectue de la même manière que pour un message transactionnel standard.
+1. Cliquez sur le bouton situé à droite du champ **[!UICONTROL Contenu et enrichissement de l’événement]** pour afficher le contenu de la payload. Cet écran vous permet également d’enrichir les données de l’événement avec les données de profil stockées dans la base de données Adobe Campaign. L’enrichissement s’effectue de la même manière que pour un message transactionnel standard.
 
    ![](assets/remarketing_3.png)
 
@@ -73,7 +73,7 @@ Après avoir créé un événement déclencheur dans Adobe Campaign en fonction
 
    ![](assets/trigger_publish_4.png)
 
-1. Cliquer sur le bouton **[!UICONTROL Afficher le déclencheur dans Experience Cloud]** permet d’afficher la définition du déclencheur dans Adobe Experience Cloud.
+1. Cliquer sur le bouton **[!UICONTROL Afficher le déclencheur dans Experience Cloud]** permet d’afficher la définition du déclencheur dans Adobe Experience Cloud.
 
 Une fois la publication effectuée, un modèle transactionnel associé au nouvel événement est alors automatiquement créé. Vous devez ensuite modifier et publier le modèle qui vient d’être créé. Pour plus d&#39;informations, consultez la section [Edition du modèle](../../start/using/marketing-activity-templates.md).
 
@@ -87,13 +87,13 @@ Pour que l’événement entraîne l’envoi d’un message transactionnel, vous
 >
 >Si vous dépubliez le modèle, l’événement déclencheur sera automatiquement dépublié.
 
-Lors de l’édition du contenu, vous pouvez ajouter un champ de personnalisation basé sur les informations envoyées par le déclencheur Analytics. Si vous enrichissez les données de l’événement avec les données de profil Adobe Campaign, vous pouvez personnaliser le message selon ces informations. Pour personnaliser votre message, sélectionnez **[!UICONTROL Evénement transactionnel]** > **[!UICONTROL Contexte de l’événement]**, puis un champ.
+Lors de l’édition du contenu, vous pouvez ajouter un champ de personnalisation basé sur les informations envoyées par le déclencheur Analytics. Si vous enrichissez les données de l’événement avec les données de profil Adobe Campaign, vous pouvez personnaliser le message selon ces informations. Pour personnaliser votre message, sélectionnez **[!UICONTROL Evénement transactionnel]** > **[!UICONTROL Contexte de l’événement]**, puis un champ.
 
 ![](assets/remarketing_8.png)
 
 ## Accès aux rapports {#accessing-the-reports}
 
-Pour afficher le rapport de déclencheur dédié dans Adobe Campaign, ouvrez l’événement déclencheur que vous avez précédemment créé, puis cliquez sur **[!UICONTROL Afficher le rapport]**.
+Pour afficher le rapport de trigger dédié dans Adobe Campaign, ouvrez l&#39;événement déclencheur que vous avez précédemment créé, puis cliquez sur **[!UICONTROL Afficher le rapport]**.
 
 ![](assets/remarketing_9.png)
 

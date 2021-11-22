@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Avant de pouvoir utiliser l’événement, vous devez le prévisualiser et le pu
    >
    >Pour que cet événement déclenche l’envoi d’un message transactionnel, vous devez modifier et publier le message qui vient d’être créé. Voir les sections [Modification](../../channels/using/editing-transactional-message.md) et [Publication d&#39;un message transactionnel](../../channels/using/publishing-transactional-message.md). Il vous faut également [intégrer le déclenchement de cet événement](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) à votre site web.
 
-1. Une fois qu’Adobe Campaign commence à recevoir des événements liés à cette configuration de l’événement, le lien des **[!UICONTROL Derniers événements transactionnels]** sous la section **[!UICONTROL Historique]** vous permet d’accéder aux derniers événements envoyés par votre service tiers et traités par Adobe Campaign.
+1. Une fois qu’Adobe Campaign commence à recevoir des événements liés à cette configuration de l’événement, le lien des **[!UICONTROL Derniers événements transactionnels]** sous la section **[!UICONTROL Historique]** vous permet d’accéder aux derniers événements envoyés par votre service tiers et traités par Adobe Campaign.
 
 ![](assets/message-center_latest-events.png)
 

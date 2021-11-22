@@ -1,6 +1,6 @@
 ---
 title: Extraction de fichier
-description: L'activité Extraction de fichier permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
+description: L'activité Extraction de fichier permet d'exporter des données présentes dans Adobe Campaign sous la forme d'un fichier externe.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ![](assets/export.png)
 
-L&#39;activité **[!UICONTROL Extraction de fichier]** permet d&#39;exporter des données présentes dans Adobe Campaign sous la forme d&#39;un fichier externe.
+L&#39;activité **[!UICONTROL Extraction de fichier]** permet d&#39;exporter des données présentes dans Adobe Campaign sous la forme d&#39;un fichier externe.
 
 ## Contexte d&#39;utilisation  {#context-of-use}
 
@@ -51,7 +51,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
 1. Si vous le souhaitez, vous pouvez compresser le fichier de sortie en sélectionnant **[!UICONTROL Compression]** dans le champ **[!UICONTROL Ajouter une étape de post-traitement]**. Le fichier de sortie sera compressé dans un fichier GZIP (.gz).
 
-   Le champ **[!UICONTROL Ajouter une étape de post-traitement]** permet également de crypter un fichier avant de l’extraire. Pour plus d’informations sur l’utilisation des fichiers cryptés, consultez [cette section](../../automating/using/managing-encrypted-data.md)
+   Le champ **[!UICONTROL Ajouter une étape de post-traitement]** permet également de chiffrer un fichier avant de l’extraire. Pour plus d’informations sur l’utilisation des fichiers chiffrés, consultez [cette section](../../automating/using/managing-encrypted-data.md)
 
 1. Cliquez sur le bouton **[!UICONTROL Créer un élément]** pour ajouter une colonne de sortie.
 

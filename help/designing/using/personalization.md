@@ -17,7 +17,7 @@ ht-degree: 98%
 
 # Personnalisation du contenu des e-mails {#personalization}
 
-Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d&#39;effectuer les opérations suivantes :
+Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent être personnalisés de plusieurs façons différentes. Celles-ci peuvent être combinées selon des critères qui sont fonction des profils. En règle générale, Adobe Campaign permet d&#39;effectuer les opérations suivantes :
 
 * Insérer des champs de personnalisation dynamiques. Voir [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
 * Insérer des blocs de personnalisation prédéfinis. Voir [Ajouter un bloc de contenu](#adding-a-content-block).
@@ -35,11 +35,11 @@ Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de 
 
 >[!NOTE]
 >
->Les paramètres d’en-tête ne doivent pas être vides. L’adresse de l’expéditeur est obligatoire pour permettre l’envoi d’un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
+>Les paramètres d’en-tête ne doivent pas être vides. L’adresse de l’expéditeur est obligatoire pour permettre l’envoi d’un email (norme RFC). Adobe Campaign effectue une vérification syntaxique des adresses email saisies.
 
 ## Personnaliser une URL{#personalizing-urls}
 
-Adobe Campaign vous permet de personnaliser une ou plusieurs URL dans votre message, en insérant des champs de personnalisation, des blocs de contenu ou du contenu dynamique à la suite de celles-ci. Pour cela :
+Adobe Campaign vous permet de personnaliser une ou plusieurs URL dans votre message, en insérant des champs de personnalisation, des blocs de contenu ou du contenu dynamique à la suite de celles-ci. Pour cela :
 
 1. Insérez une URL externe et renseignez ses paramètres. Voir [Insérer un lien](../../designing/using/links.md#inserting-a-link).
 1. S&#39;ils ne s&#39;affichent pas, cliquez sur le crayon en regard de l&#39;URL sélectionnée dans le volet Paramètres pour accéder aux options de personnalisation.
@@ -131,7 +131,7 @@ Les blocs de contenu d&#39;usine sont les suivants :
 
 Vous pouvez définir de nouveaux blocs de contenu qui pourront être insérés dans un message ou une landing page.
 
-Pour créer un bloc de contenu, respectez les étapes suivantes :
+Pour créer un bloc de contenu, respectez les étapes suivantes :
 
 1. Cliquez sur **[!UICONTROL Ressources > Blocs de contenu]** depuis le menu avancé pour accéder à la liste des blocs de contenu.
 1. Cliquez sur le bouton **[!UICONTROL Créer]** ou dupliquez un bloc de contenu déjà existant.
@@ -312,7 +312,7 @@ Lorsque vous définissez un contenu dynamique dans l&#39;éditeur d&#39;expressi
 
 Vous ne pouvez définir qu&#39;un ordre de priorité par contenu dynamique.
 
-## Exemple : personnalisation d&#39;un email{#example-email-personalization}
+## Exemple : personnalisation d&#39;un email{#example-email-personalization}
 
 Dans cet exemple, un membre de l’équipe du service marketing a créé un email pour informer certains de ses clients qu’il existe une offre spéciale qui leur est réservée. Il a été décidé de personnaliser l&#39;email en fonction de l&#39;âge des clients. Entre 18 et 27 ans, ils recevront un email contenant une illustration et une accroche différentes des clients âgés de plus de 27 ans.
 

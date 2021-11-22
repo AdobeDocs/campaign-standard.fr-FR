@@ -1,6 +1,6 @@
 ---
 title: Profil client intégré
-description: '"Trackez l''interaction de chaque client dans une vue unique : le profil client intégré d''Adobe Campaign est mis à jour tout au long du cycle de vie du client."'
+description: '"Trackez l''interaction de chaque client dans une vue unique : le profil client intégré d''Adobe Campaign est mis à jour tout au long du cycle de vie du client."'
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -22,7 +22,7 @@ Un profil client intégré est disponible pour chaque contact de votre base de d
 
 Pour accéder au profil client intégré, procédez comme suit :
 
-1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la carte **[!UICONTROL Profils client]** ou l&#39;onglet **Profils** pour afficher la liste des profils.
+1. Depuis la page d&#39;accueil d&#39;Adobe Campaign, cliquez sur la carte **[!UICONTROL Profils client]** ou l&#39;onglet **Profils** pour afficher la liste des profils.
 
 1. Pour rechercher un profil en fonction d&#39;un champ spécifique, ouvrez le volet de recherche, puis sélectionnez le champ sur lequel vous souhaitez effectuer votre recherche.
 
@@ -51,4 +51,4 @@ Cliquez sur un événement de la liste pour l&#39;ouvrir : vous pouvez accéder
 
 >[!NOTE]
 >
->L&#39;historique marketing est également accessible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/interacting-with-marketing-history.md) .
+>L&#39;historique marketing est également accessible à l&#39;aide de l&#39;API Adobe Campaign Standard. Consultez à ce sujet la [documentation dédiée](../../api/using/interacting-with-marketing-history.md) .

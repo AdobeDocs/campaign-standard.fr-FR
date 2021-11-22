@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 Avant d&#39;appuyer sur le bouton **[!UICONTROL Envoyer]**, vérifiez que l&#39;affichage de votre message sera optimal sur divers clients web, webmails et appareils.
 
-Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
+Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un rapport dédié. Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception.
 
-Les clients mobiles, de messagerie et webmail disponibles pour le **Rendu des emails** dans Adobe Campaign sont répertoriés sur le [site web](https://litmus.com/email-testing) de Litmus (cliquez sur **View all email clients**).
+Les clients mobiles, de messagerie et webmail disponibles pour le **Rendu des emails** dans Adobe Campaign sont répertoriés sur le [site web](https://litmus.com/email-testing) de Litmus (cliquez sur **View all email clients**).
 
 ## Génération du rendu des emails {#checking-the-email-rendering-report}
 
@@ -31,7 +31,7 @@ Une fois que vous avez créé votre diffusion email et défini son contenu ainsi
 
    ![](assets/email_rendering_05.png)
 
-1. Utilisez l&#39;éditeur de requêtes pour définir les profils de test à utiliser, notamment ceux destinés à l&#39;utilisation du **Rendu des emails**. Voir [À propos des profils de test](../../audiences/using/managing-test-profiles.md).
+1. Utilisez le requêteur pour définir les profils de test à utiliser, notamment ceux destinés à l&#39;utilisation du **Rendu des emails**. Voir [À propos des profils de test](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_rendering_06.png)
 
@@ -64,7 +64,7 @@ Le rapport dédié au rendu des emails s&#39;affiche. Voir [Description du rappo
 
 * [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Envoi d&#39;un bon à tirer](../../sending/using/sending-proofs.md)
-* [Éditeur de requête](../../automating/using/editing-queries.md#about-query-editor)
+* [Requêteur](../../automating/using/editing-queries.md#about-query-editor)
 
 ## Rapport de rendu des emails {#email-rendering-report-description}
 

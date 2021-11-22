@@ -5,7 +5,7 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%
 
@@ -23,14 +23,14 @@ Un modèle d&#39;import est défini par l&#39;administrateur fonctionnel et peut
 Trois modèles par défaut sont disponibles en lecture seule :
 
 * **[!UICONTROL Mettre à jour les logs de diffusion et les mises en quarantaine Courrier]** : ce modèle peut servir de base pour de nouveaux imports permettant de mettre à jour les mises en quarantaine et les logs de diffusion du canal Courrier. Le workflow de ce modèle contient les activités suivantes :
-* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
+* **[!UICONTROL Import de données]** : ce modèle peut servir de base pour de nouveaux imports permettant d&#39;insérer les données d&#39;un fichier dans la base de données. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
    * **[!UICONTROL Mise à jour de données]** : cette activité permet d&#39;insérer les données du fichier dans la base de données.
 
 * **[!UICONTROL Import de liste]** : ce modèle peut servir de base pour de nouveaux imports permettant de créer une audience de type **Liste** à partir des données d&#39;un fichier. Le workflow de ce modèle contient les activités suivantes :
 
-   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
+   * **[!UICONTROL Chargement de fichier]** : cette activité permet de télécharger un fichier de données sur le serveur Adobe Campaign.
    * **[!UICONTROL Réconciliation]** : cette activité permet d&#39;associer une dimension de ciblage aux données importées. Cela permet ensuite de créer une audience de type **Liste**. Si la dimension de ciblage des données importées n&#39;est pas connue, l&#39;audience est de type **Fichier**. Voir [Dimensions de ciblage et ressources](../../automating/using/query.md#targeting-dimensions-and-resources).
    * **[!UICONTROL Sauvegarde d&#39;audience]** : cette activité permet d&#39;enregistrer les données importées sous la forme d&#39;audience de type **Liste**. Le nom de l&#39;audience sauvegardée correspondra au nom du fichier importé par l&#39;utilisateur, auquel sera ajouté un suffixe précisant la date et l&#39;heure de l&#39;import. Par exemple : &#39;profiles_20150406_151448&#39;.
 
@@ -48,7 +48,7 @@ Ces modèles par défaut sont en lecture seule et ne sont pas visibles par les u
 
 1. Accédez à l&#39;onglet **[!UICONTROL Workflow]**. Vous pouvez ici enrichir le workflow proposé par défaut en y ajoutant de nouvelles activités, selon vos besoins.
 
-   Pour plus d&#39;informations sur la configuration des activités de workflow, reportez-vous au cas d&#39;utilisation de la section suivante : [Exemple : modèle de workflow d&#39;import](../../automating/using/creating-import-workflow-templates.md). Ce cas d’utilisation vous aidera à configurer un workflow réutilisable pour importer des profils provenant d’un CRM dans la base de données Adobe Campaign.
+   Pour plus d&#39;informations sur la configuration des activités de workflow, reportez-vous au cas d&#39;utilisation de la section suivante : [Exemple : modèle de workflow d&#39;import](../../automating/using/creating-import-workflow-templates.md). Ce cas d’utilisation vous aidera à configurer un workflow réutilisable pour importer des profils provenant d’un CRM dans la base de données Adobe Campaign.
 
 1. Enregistrez votre modèle pour que le paramétrage du workflow soit correctement pris en compte.
 1. Chargez un fichier d&#39;exemple depuis l&#39;onglet **[!UICONTROL Propriétés]**. Le fichier chargé peut contenir uniquement les colonnes nécessaires aux futurs imports ou des données d&#39;exemple. La présence de données dans le fichier d&#39;exemple permet de tester l&#39;import simplifié une fois le workflow défini.

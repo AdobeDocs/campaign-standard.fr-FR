@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landing pages</a></p></td></tr>
 </table>
 
- Adobe Campaign vous permet de lancer, de mesurer et d&#39;automatiser des campagnes sur chaque canal.
-L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Avec l&#39;aide d’Adobe Campaign, vous pouvez importer les données client de différents systèmes, appareils et canaux, dans un seul et même profil. Ensuite, lancez des campagnes pertinentes et opportunes qui répondent aux besoins de vos clients aux bons endroits et de la bonne manière lors de leur parcours client.
+ Adobe Campaign vous permet de lancer, de mesurer et d&#39;automatiser des campagnes sur chaque canal.
+L&#39;harmonisation de tous vos canaux marketing n&#39;est pas un impossible. Avec l&#39;aide d’Adobe Campaign, vous pouvez importer les données client de différents systèmes, appareils et canaux, dans un seul et même profil. Ensuite, lancez des campagnes pertinentes et opportunes qui répondent aux besoins de vos clients aux bons endroits et de la bonne manière lors de leur parcours client.
 
 ## Concepts globaux {#global-concepts}
 
@@ -48,11 +48,11 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Cinq canaux de communication** sont disponibles dans Adobe Campaign : email, message SMS, notification push, message In-App et diffusion courrier.
+**Cinq canaux de communication** sont disponibles dans Adobe Campaign : email, message SMS, notification push, message In-App et diffusion courrier.
 
 Pour chaque canal, des fonctionnalités spécifiques sont disponibles. Par exemple, le canal email permet d’effectuer des tests A/B pour tester jusqu’à 3 versions d’un email. Avec le canal SMS, vous pouvez gérer les messages STOP SMS et stocker dans votre base de données les SMS entrants reçus des destinataires.
 
-De plus, vous pouvez tirer parti de la **personnalisation et des fonctionnalités de contenu dynamique** de Campaign Standard pour capter l’intérêt de votre audience.
+De plus, vous pouvez tirer parti de la **personnalisation et des fonctionnalités de contenu dynamique** de Campaign Standard pour capter l’intérêt de votre audience.
 
 En savoir plus :
 

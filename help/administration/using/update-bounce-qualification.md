@@ -7,7 +7,7 @@ topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Mettre à jour la qualification des bounces après une panne de FAI {#update-bounce-qualification.md}
 
-Si vous N&#39;exécutez PAS la dernière version de Campaign, cette section peut s&#39;appliquer à vous. Vérifiez avec votre représentant Adobe Campaign.
+Si vous N&#39;exécutez PAS la dernière version de Campaign, cette section peut s&#39;appliquer à vous. Vérifiez avec votre représentant Adobe Campaign.
 
 ## Contexte
 
@@ -30,7 +30,7 @@ Google a déclaré que les pannes et interruptions de Gmail qui ont causé ce pr
 >Vous pouvez vérifier le tableau de bord d’état de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&amp;v=status).
 
 
-Selon la logique standard de gestion des retours, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un paramètre **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
+Selon la logique standard de gestion des bounces, Adobe Campaign a automatiquement ajouté ces destinataires à la liste de quarantaine avec un **[!UICONTROL Statut]** de **[!UICONTROL Quarantaine]**. Pour corriger ce problème, vous devez mettre à jour votre table de quarantaines dans Campaign en recherchant et en supprimant ces destinataires ou en basculant leur **[!UICONTROL Statut]** sur **[!UICONTROL Valide]** afin que le processus de nettoyage de nuit les supprime.
 
 Pour trouver les destinataires qui ont été affectés par ce problème Gmail, ou au cas où cela se reproduirait avec un autre FAI, référez-vous aux instructions ci-dessous.
 
@@ -50,7 +50,7 @@ Pour les instances Campaign contenant des informations de réponse de retour SMT
 * **Mise à jour du statut (@lastModified)** le ou après le 14/12/2020 à 6:55:00
 * **État de la mise à jour (@lastModified)** le ou avant le 16/12/2020 6:00:00
 
-Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de nettoyage de la base de données ****, soit simplement les supprimer de la table.
+Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](../../sending/using/understanding-delivery-failures.md)

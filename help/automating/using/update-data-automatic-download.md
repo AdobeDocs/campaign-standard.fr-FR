@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -45,4 +45,4 @@ Pour créer le workflow, procédez comme suit :
 1. Paramétrez l&#39;activité comme indiqué ci-dessus.
 1. Placez une activité [Mise à jour de données](../../automating/using/update-data.md), connectez-la à la suite de l&#39;activité **[!UICONTROL Chargement de fichier]** et paramétrez-la.
 
-Une fois le workflow lancé, le fichier voulu est téléchargé, les données sont extraites, puis elles sont utilisées pour enrichir la base Adobe Campaign.
+Une fois le workflow lancé, le fichier voulu est téléchargé, les données sont extraites, puis elles sont utilisées pour enrichir la base Adobe Campaign.

@@ -105,7 +105,7 @@ Si votre organisation doit isoler les profils contactés par chacune de vos marq
 
 Par défaut, les champs de l&#39;entité organisationnelle ne sont pas disponibles dans les profils et doivent être ajoutés.
 
-1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **Administration > Développement > Ressources personnalisées**.
+1. Dans le menu avancé, via le logo Adobe Campaign, sélectionnez **Administration > Développement > Ressources personnalisées**.
 1. Sélectionnez **Profil** ou créez une ressource personnalisée pour étendre les profils. Pour plus d’informations sur l&#39;extension des profils, consultez cette [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
 1. Cochez la case **Ajouter les champs de gestion des autorisations d&#39;accès** pour ajouter les entités organisationnelles à l&#39;extension **Profil**.
 

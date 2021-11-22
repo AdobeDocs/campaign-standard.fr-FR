@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ Vous disposez de plusieurs options pour contrôler les inscriptions et désinscr
 
 ## Tableau de bord du service    {#service-dashboard}
 
-Pour visualiser la liste des personnes inscrites à un service :
+Pour visualiser la liste des personnes inscrites à un service :
 
 1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.
@@ -38,7 +38,7 @@ Pour visualiser la liste des personnes inscrites à un service :
 
 ## Applications mobiles    {#subscription-history}
 
-Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
+Pour consulter l&#39;historique des inscriptions et des désinscriptions au service :
 
 1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.
@@ -48,7 +48,7 @@ Pour consulter l&#39;historique des inscriptions et des désinscriptions au serv
 
 ## Rapports du service    {#service-reports}
 
-Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
+Pour afficher un rapport présentant l&#39;évolution des inscriptions et des désinscriptions :
 
 1. Accédez à la liste des services via le menu avancé **Profils &amp; audiences** > **Services**, accessible depuis le logo Adobe Campaign.
 1. Sélectionnez le service de votre choix pour afficher le tableau de bord correspondant.

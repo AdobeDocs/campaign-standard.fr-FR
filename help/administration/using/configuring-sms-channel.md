@@ -269,13 +269,13 @@ Cette section présente les caractères pris en charge par la norme GSM. Tout ca
  </tbody> 
 </table>
 
-SP : espace (Space)
+SP : espace (Space)
 
-ESC : caractère d&#39;échappement (Escape)
+ESC : caractère d&#39;échappement (Escape)
 
-LF : saut de ligne (Line Feed)
+LF : saut de ligne (Line Feed)
 
-CR : retour chariot (Carriage Return)
+CR : retour chariot (Carriage Return)
 
 **Caractères doubles**
 
@@ -287,15 +287,15 @@ CR : retour chariot (Carriage Return)
 >
 >Ces options permettent d&#39;adapter le connecteur à une utilisation avec un SMSC non standard (par exemple qui ne suit pas exactement les spécificités du protocole SMPP 3.4) ou avec des exigences d&#39;encodage spécifiques ; seuls les utilisateurs experts peuvent les configurer.
 
-Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
+Lors de l&#39;envoi d&#39;un SMS, Adobe Campaign peut utiliser un ou plusieurs encodages de texte. Chaque encodage possède un jeu de caractères disponibles qui lui est propre, et le nombre de caractères qu&#39;il est possible de mettre dans un SMS dépend de l&#39;encodage.
 
-Le champ **[!UICONTROL Data_coding]** permet à Adobe Campaign de signaler au SMSC l&#39;encodage utilisé.
+Le champ **[!UICONTROL Data_coding]** permet à Adobe Campaign de signaler au SMSC l&#39;encodage utilisé.
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMS-C possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMS-C possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
 
-La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** vous permet de déclarer des **data_coding** et de forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
+La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** vous permet de déclarer des **data_coding** et de forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 
 **Configuration**
 
@@ -308,7 +308,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
 * Lorsque la fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** est cochée, vous pouvez définir les encodages que vous souhaitez utiliser ainsi que les valeurs du champ **[!UICONTROL data_coding]** associées. Adobe Campaign tentera d&#39;utiliser le premier encodage de la liste, puis le suivant, si l&#39;encodage se révèle impossible.
 
-   L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
+   L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 
    Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMS-C ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 

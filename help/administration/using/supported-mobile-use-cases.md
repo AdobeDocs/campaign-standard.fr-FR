@@ -1,5 +1,5 @@
 ---
-title: Cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce aux SDK Adobe Experience Platform
+title: Cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce aux SDK Adobe Experience Platform
 description: Ce document apporte des informations sur la prise en charge des cas pratiques mobiles.
 audience: channels
 content-type: reference
@@ -10,20 +10,20 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
 ---
 
-# Cas pratiques mobiles pris en charge dans Adobe Campaign Standard {#mobile-use-cases}
+# Cas pratiques mobiles pris en charge dans Adobe Campaign Standard {#mobile-use-cases}
 
 Dans cette page, vous trouverez la liste de tous les cas pratiques mobiles pris en charge dans [!DNL Adobe Campaign Standard] en utilisant les [!DNL Adobe Experience Platform SDKs]. Notez que la prise en charge de ces cas pratiques suppose l’installation et la configuration des [!DNL Adobe Experience Platform SDKs], d’[!DNL Adobe Experience Platform Launch] et d’[!DNL Adobe Campaign Standard]. Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/configuring-a-mobile-application.md).
 
-Adobe Campaign Standard prend en charge les cas pratiques suivants :
+Adobe Campaign Standard prend en charge les cas pratiques suivants :
 
-* [Enregistrer un profil mobile dans Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [Envoyer un jeton push à Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [Enregistrer un profil mobile dans Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
+* [Envoyer un jeton push à Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [Enrichir un profil mobile à l’aide de données personnalisées provenant de votre application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [Enrichir un profil mobile avec les données de cycle de vie de votre application](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Tracker les interactions de l’utilisateur à l’aide de notifications push](../../administration/using/supported-mobile-use-cases.md#track-user-push)
@@ -32,11 +32,11 @@ Adobe Campaign Standard prend en charge les cas pratiques suivants :
 
 Pour configurer ces cas pratiques, vous devez utiliser les extensions d’[!DNL Experience Platform Launch] suivantes :
 
-* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension de Campaign Standard, voir la section [Configurer l’extension de Campaign Standard dans Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension de Campaign Standard, voir la section [Configurer l’extension de Campaign Standard dans Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Mobile Core, voir la section [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Profile, voir la section [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
-## Enregistrer un profil mobile dans Campaign Standard {#register-mobile-profile}
+## Enregistrer un profil mobile dans Campaign Standard {#register-mobile-profile}
 
 ### Avec iOS {#register-mobile-profile-ios}
 
@@ -109,7 +109,7 @@ public void onResume() {
  }
 ```
 
-## Envoyer un jeton push à Adobe Campaign Standard {#send-push-token}
+## Envoyer un jeton push à Adobe Campaign Standard {#send-push-token}
 
 ### Avec iOS {#send-push-token-ios}
 
@@ -181,7 +181,7 @@ Pour que ce cas pratique fonctionne, vous devez créer des règles pour les post
 
 >[!NOTE]
 >
->Adobe Campaign ne fait pas la distinction entre les données personnalisées et les données de cycle de vie provenant de l’application mobile. Ces deux types de données peuvent être envoyés au serveur à l’aide d’une règle de postback CollectPII en réponse à un événement dans l’application mobile.
+>Adobe Campaign ne fait pas la distinction entre les données personnalisées et les données de cycle de vie provenant de l’application mobile. Ces deux types de données peuvent être envoyés au serveur à l’aide d’une règle de postback CollectPII en réponse à un événement dans l’application mobile.
 
 ### Avec iOS {#enrich-mobile-profile-lifecycle-ios}
 
@@ -342,7 +342,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### Avec Android {#linkage-fields-inapp-android}
 
-Pour définir des champs de liaison servant à effectuer une authentification supplémentaire pour le modèle de profil basé sur les messages In-App dans Android, le SDK Experience Platform suivant est nécessaire :
+Pour définir des champs de liaison servant à effectuer une authentification supplémentaire pour le modèle de profil basé sur les messages In-App dans Android, le SDK Experience Platform suivant est nécessaire :
 
 * Définir des champs de liaison <br>Pour plus d’informations, voir la section [Définir des champs de liaison](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
 * Réinitialiser les champs de liaison <br>Pour plus d’informations, voir la section [Réinitialiser les champs de liaison](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).

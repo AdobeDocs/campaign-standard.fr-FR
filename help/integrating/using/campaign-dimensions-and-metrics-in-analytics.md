@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Dimensions et mesures de Campaign dans Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-L&#39;intégration d&#39;Adobe Campaign et d&#39;Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
+L&#39;intégration d&#39;Adobe Campaign et d&#39;Adobe Analytics permet le tracking des performances des diffusions email directement dans Adobe Analytics.
 
 Les **[!UICONTROL dimensions]** de Campaign qui figurent dans Analytics sont répertoriées ci-dessous :
 

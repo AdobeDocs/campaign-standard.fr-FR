@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Les administrateurs fonctionnels peuvent accéder aux workflows techniques depui
 
 ## Liste des workflows techniques {#list-of-technical-workflows}
 
-Les workflows techniques sont utilisés pour gérer les processus techniques et d&#39;arrière-plan déclenchés automatiquement dans Adobe Campaign.
+Les workflows techniques sont utilisés pour gérer les processus techniques et d&#39;arrière-plan déclenchés automatiquement dans Adobe Campaign.
 
 <table> 
  <tbody> 
@@ -94,12 +94,12 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <tr> 
    <td> <span class="uicontrol">Synchroniser avec Launch</span><br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d'Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupération des logs de tracking</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d'Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupérer les logs de tracking</span> <br /> </td> 

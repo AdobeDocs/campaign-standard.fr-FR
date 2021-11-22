@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -23,12 +23,12 @@ En fonction des besoins de votre entreprise, plusieurs méthodes permettent d&#3
 * **Listes** : tous les écrans de type Liste peuvent être configurés et les données affichées peuvent être exportées dans un fichier distinct.
 * **Workflows** : importez des données depuis des fichiers et utilisez-les pour mettre à jour la base de données ou envoyer des emails. Vous pouvez également sélectionner les données à exporter dans des fichiers. Les workflows offrent le meilleur moyen d&#39;automatiser des mises à jour régulières comme des imports de profils.
 
-   * L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l’utilisation d’une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](../../automating/using/load-file.md).
-   * L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign. Vous pouvez utiliser cette activité avant un **[!UICONTROL Chargement de fichier]** si vous devez récupérer le fichier à partir d’une source externe. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](../../automating/using/transfer-file.md).
+   * L’activité **[!UICONTROL Chargement de fichier]** permet d’importer les données d’un fichier sous une forme structurée afin de les utiliser dans Adobe Campaign. Les données importées le sont temporairement et nécessitent l’utilisation d’une autre activité pour les intégrer définitivement dans la base de données Adobe Campaign. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](../../automating/using/load-file.md).
+   * L’activité **[!UICONTROL Transfert de fichier]** permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers dans Adobe Campaign. Vous pouvez utiliser cette activité avant un **[!UICONTROL Chargement de fichier]** si vous devez récupérer le fichier à partir d’une source externe. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](../../automating/using/transfer-file.md).
 
 Lors de la conception des imports, il est recommandé d&#39;utiliser des modèles de workflow que vous pouvez adapter à vos besoins. Pour plus d&#39;informations sur la configuration d&#39;un modèle de workflow pour l&#39;import de données, reportez-vous à [ce cas pratique](../../automating/using/creating-import-workflow-templates.md).
 
-Adobe Campaign propose également un moyen simplifié d&#39;effectuer des imports réguliers qui consiste à concevoir des **modèles d&#39;import**. Les modèles d&#39;import sont des modèles de workflow spécialisés qui sont accessibles dans un écran dédié. Une fois l&#39;import conçu, l&#39;utilisateur qui l&#39;effectue doit uniquement charger le fichier à importer dans une vue simplifiée.
+Adobe Campaign propose également un moyen simplifié d&#39;effectuer des imports réguliers qui consiste à concevoir des **modèles d&#39;import**. Les modèles d&#39;import sont des modèles de workflow spécialisés qui sont accessibles dans un écran dédié. Une fois l&#39;import conçu, l&#39;utilisateur qui l&#39;effectue doit uniquement charger le fichier à importer dans une vue simplifiée.
 
 **Rubriques connexes** :
 

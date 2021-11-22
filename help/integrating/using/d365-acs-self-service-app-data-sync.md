@@ -25,7 +25,7 @@ Vous pouvez synchroniser des tables de Microsoft Dynamics 365 vers Campaign et 
 
 ## Mapper des tables de Microsoft Dynamics 365 vers Campaign
 
-La page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** affiche une liste d&#39;entités dans Microsoft Dynamics 365 et les ressources personnalisées d’Adobe Campaign avec lesquelles elles seront synchronisées. Vous pouvez ajouter de nouveaux mappings et modifier ou supprimer des mappings existants.
+La page **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** affiche une liste d&#39;entités dans Microsoft Dynamics 365 et les ressources personnalisées d’Adobe Campaign avec lesquelles elles seront synchronisées. Vous pouvez ajouter de nouveaux mappings et modifier ou supprimer des mappings existants.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
@@ -33,7 +33,7 @@ Voici une description de chacune des colonnes de la table :
 
 * **[!UICONTROL TABLE MICROSOFT DYNAMICS 365]** : cette colonne identifie l&#39;entité dans Microsoft Dynamics 365 qui sera la source de données pour le mapping.
 
-* **[!UICONTROL TABLE CAMPAIGN]** : cette colonne identifie la ressource dans Adobe Campaign sera la destination des données pour le mapping.
+* **[!UICONTROL TABLE CAMPAIGN]** : cette colonne identifie la ressource dans Adobe Campaign sera la destination des données pour le mapping.
 
 * **[!UICONTROL ACTIONS]** : les actions possibles sont énumérées ci-dessous :
 
@@ -54,7 +54,7 @@ Voici une description de chacune des colonnes de la table :
 
       >[!IMPORTANT]
       >
-      > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
+      > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
 
 
 ## Créer un mapping {#add-a-new-mapping}
@@ -89,7 +89,7 @@ Ce comportement est lié à la conception, car les entrées situées plus bas da
 
 ### Configurer un mapping de table distinct {#new-mapping-settings}
 
-Dans cette section, vous allez découvrir comment configurer un mapping **simple** d&#39;une table Microsoft Dynamics 365 vers une table Adobe Campaign.
+Dans cette section, vous allez découvrir comment configurer un mapping **simple** d&#39;une table Microsoft Dynamics 365 vers une table Adobe Campaign.
 
 Vous pouvez définir les paramètres suivants :
 
@@ -121,7 +121,7 @@ Les clés primaires sont toujours les premiers noms de champ répertoriés dans 
 
 #### Ajouter d’autres mappings de champs
 
-La section **[!UICONTROL Mappings de champs]** vous permet d’ajouter des mappings de champs autres que les clés primaires. Pour ajouter un mapping d&#39;un champ de Microsoft Dynamics 365 vers Adobe Campaign, cliquez sur le bouton **[!UICONTROL Ajouter un nouveau mapping de champs]**.
+La section **[!UICONTROL Mappings de champs]** vous permet d’ajouter des mappings de champs autres que les clés primaires. Pour ajouter un mapping d&#39;un champ de Microsoft Dynamics 365 vers Adobe Campaign, cliquez sur le bouton **[!UICONTROL Ajouter un nouveau mapping de champs]**.
 
 Sélectionnez les champs Microsoft Dynamics 365 et Campaign dans les listes :
 
@@ -130,7 +130,7 @@ Sélectionnez les champs Microsoft Dynamics 365 et Campaign dans les listes :
 Ces listes contiennent les noms des champs associés aux tables Microsoft Dynamics 365 et Campaign que vous avez sélectionnées en haut de la page.
 
 Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contrôler si les mises à jour de ce champ seront propagées de Microsoft Dynamics 365 vers Campaign :
-* S’il se trouve sur ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), les mises à jour de la ou des valeurs dans Microsoft Dynamics 365 seront propagées à Adobe Campaign au fur et à mesure que les mises à jour s’effectueront.
+* S’il se trouve sur ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png), les mises à jour de la ou des valeurs dans Microsoft Dynamics 365 seront propagées à Adobe Campaign au fur et à mesure que les mises à jour s’effectueront.
 
 * Si vous avez désactivé ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png), la valeur sera propagée lorsque les données seront initialement chargées (ou relues), mais les mises à jour incrémentales du champ dans Microsoft Dynamics 365 ne seront pas propagées.
 
@@ -154,7 +154,7 @@ Les remplacements de champs vous permettent d’identifier :
 
 * un nom de champ Microsoft Dynamics 365 (qui a été ajouté au-dessus dans la section des mappings de champs) ;
 * une valeur existante (qui existe dans Microsoft Dynamics 365) ; et
-* une nouvelle valeur à écrire vers Adobe Campaign.
+* une nouvelle valeur à écrire vers Adobe Campaign.
 
 Une liste déroulante sera fournie pour les valeurs de liste de sélection, d&#39;énumération et boléennes. Une zone de texte sera utilisée pour d’autres types numériques et de chaîne.
 
@@ -167,27 +167,27 @@ Vous spécifiez un filtre en renseignant les informations suivantes :
 * nom du champ Microsoft Dynamics 365 ;
 * valeur de comparaison ; et
 * valeur (de Microsoft Dynamics 365).
-Si le nom du champ, la comparaison et la valeur sont vrais pour un enregistrement donné, l’enregistrement est propagé vers Adobe Campaign.
+Si le nom du champ, la comparaison et la valeur sont vrais pour un enregistrement donné, l’enregistrement est propagé vers Adobe Campaign.
 
 Vous pouvez choisir comment ces filtres sont évalués en définissant l’entrée libellée **[!UICONTROL Sélectionner l’opérateur de comparaison de filtre]**. Si vous choisissez **Et**, tous les filtres doivent être vrais pour qu’un enregistrement soit propagé vers Campaign. Si vous sélectionnez **Ou**, l’enregistrement est propagé si l’un d’eux est évalué comme vrai.
 
-L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign. Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
+L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe Campaign Standard qui seront filtrés à partir de Microsoft Dynamics 365 ?]** contrôle si vous souhaitez que les enregistrements qui ont été filtrés soient supprimés de Campaign. Si vous sélectionnez **Non**, les enregistrements resteront dans Adobe Campaign. Sélectionnez **Oui** pour qu’ils soient supprimés par la logique d’intégration.
 
 >[!NOTE]
 >
-> Si aucun filtre n&#39;est ajouté, tous les enregistrements qui ont été modifiés seront propagés vers Adobe Campaign.
+> Si aucun filtre n&#39;est ajouté, tous les enregistrements qui ont été modifiés seront propagés vers Adobe Campaign.
 
 ### Paramètres avancés {#advanced-settings}
 
 Vous pouvez configurer les options supplémentaires suivantes lors de la configuration d’un mapping :
 
-* Définissez l&#39;option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ). Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
+* Définissez l&#39;option **[!UICONTROL Appliquer les suppressions dans Microsoft Dynamics 365 vers Campaign ?]** sur **Oui**, si vous souhaitez propager les suppressions effectuées dans Microsoft Dynamics 365 vers le champ correspondant dans Adobe Campaign (en fonction du mapping du nom de champ). Sélectionnez **Non** pour ignorer les suppressions dans Microsoft Dynamics 365.
 
 * Définissez l&#39;option **[!UICONTROL Utiliser les valeurs techniques dans les listes de sélection Microsoft Dynamics 365 ?]** sur **Non** si vous souhaitez propager vers Campaign la valeur d&#39;affichage associée à une liste de sélections Microsoft Dynamics 365. Sélectionnez **Oui** pour propager la valeur technique.
 
 ## Synchroniser les événements marketing Campaign vers Microsoft Dynamics 365
 
-La page **[!UICONTROL Campaign vers Microsoft Dynamics 365]** vous permet d&#39;identifier les événements de marketing par email qui seront mappés d’Adobe Campaign vers Microsoft Dynamics 365.
+La page **[!UICONTROL Campaign vers Microsoft Dynamics 365]** vous permet d&#39;identifier les événements de marketing par email qui seront mappés d’Adobe Campaign vers Microsoft Dynamics 365.
 
 Les quatre mesures que vous pouvez contrôler sont les suivantes : **Envois**, **Clics**, **Ouvertures** et **Bounces**.
 
@@ -199,7 +199,7 @@ Cliquez [ici](../../integrating/using/d365-acs-self-service-app-workflows.md) po
 
 ## Workflow d’opt-in/opt-out {#opt-in-out-wf}
 
-Le workflow d’**opt-in/opt-out** permet d&#39;identifier le flux d&#39;informations d&#39;opt-in/opt-out entre Microsoft Dynamics 365 et Adobe Campaign. Cela suppose que les données sont associées à l&#39;entité Microsoft Dynamics 365 « contact » et à la ressource Adobe Campaign « profil ».
+Le workflow d’**opt-in/opt-out** permet d&#39;identifier le flux d&#39;informations d&#39;opt-in/opt-out entre Microsoft Dynamics 365 et Adobe Campaign. Cela suppose que les données sont associées à l&#39;entité Microsoft Dynamics 365 « contact » et à la ressource Adobe Campaign « profil ».
 
 En savoir plus sur la gestion des opt-outs dans [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
@@ -211,18 +211,18 @@ N&#39;oubliez pas que vous devez cliquer sur « Enregistrer » pour enregistre
 
 Vous trouverez ci-dessous la liste des options de synchronisation des données disponibles :
 
-* **[!UICONTROL Désactivé]** : lorsque cette option est sélectionnée, aucune information d&#39;opt-in/opt-out ne se déplace entre Adobe Campaign et Microsoft Dynamics 365.
+* **[!UICONTROL Désactivé]** : lorsque cette option est sélectionnée, aucune information d&#39;opt-in/opt-out ne se déplace entre Adobe Campaign et Microsoft Dynamics 365.
 
-* **[!UICONTROL Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)]** : cette option est utilisée pour acheminer les informations d’opt-in/opt-out de Microsoft Dynamics 365 vers Adobe Campaign uniquement. L’application d’intégration ne vous permet pas de configurer le flux dans cet écran ; cliquez sur le bouton **[!UICONTROL Enregistrer]** et accédez au workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**. Dans ce workflow, vous pouvez modifier le mapping des tables de contacts/profils afin d’identifier comment mapper vos champs d’opt-in/opt-out.
+* **[!UICONTROL Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)]** : cette option est utilisée pour acheminer les informations d’opt-in/opt-out de Microsoft Dynamics 365 vers Adobe Campaign uniquement. L’application d’intégration ne vous permet pas de configurer le flux dans cet écran ; cliquez sur le bouton **[!UICONTROL Enregistrer]** et accédez au workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**. Dans ce workflow, vous pouvez modifier le mapping des tables de contacts/profils afin d’identifier comment mapper vos champs d’opt-in/opt-out.
 
-* **[!UICONTROL Unidirectionnelle (Campaign vers Microsoft Dynamics 365)]** : cette option rendra la section **Mappings** visible. Ces entrées vous permettent de définir quels champs Adobe Campaign vont mapper les données sur les champs de Microsoft Dynamics 365. Cela signifie que si vous mettez manuellement à jour une valeur dans Microsoft Dynamics 365, sa valeur sera remplacée par celle d’Adobe Campaign si elle change.
+* **[!UICONTROL Unidirectionnelle (Campaign vers Microsoft Dynamics 365)]** : cette option rendra la section **Mappings** visible. Ces entrées vous permettent de définir quels champs Adobe Campaign vont mapper les données sur les champs de Microsoft Dynamics 365. Cela signifie que si vous mettez manuellement à jour une valeur dans Microsoft Dynamics 365, sa valeur sera remplacée par celle d’Adobe Campaign si elle change.
 
-* **[!UICONTROL Bidirectionnelle]** : cette option rendra la section **Mappings** visible. Ces paires identifieront les champs de Microsoft Dynamics 365 et Adobe Campaign qui seront mappés les uns aux autres. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md).
+* **[!UICONTROL Bidirectionnelle]** : cette option rendra la section **Mappings** visible. Ces paires identifieront les champs de Microsoft Dynamics 365 et Adobe Campaign qui seront mappés les uns aux autres. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md).
 
 ### Mappings
 
-Cette section s&#39;applique uniquement lorsque le champ du sens de la synchronisation des informations d&#39;opt-in/opt-out est défini sur **[!UICONTROL Unidirectionnelle (Campaign vers Microsoft Dynamics 365)]** ou **[!UICONTROL Bidirectionnelle]**. Vous pouvez définir quels champs de Microsoft Dynamics 365 correspondent à quelles entrées dans Adobe Campaign.
+Cette section s&#39;applique uniquement lorsque le champ du sens de la synchronisation des informations d&#39;opt-in/opt-out est défini sur **[!UICONTROL Unidirectionnelle (Campaign vers Microsoft Dynamics 365)]** ou **[!UICONTROL Bidirectionnelle]**. Vous pouvez définir quels champs de Microsoft Dynamics 365 correspondent à quelles entrées dans Adobe Campaign.
 
 Les noms de champ Microsoft Dynamics 365 incluent tous ceux de type **booléen**.
 
-Les noms de champ Adobe Campaign sont un ensemble fixe de valeurs spécifiques à l’opt-in/opt-out. Les noms de champ Adobe Campaign sont un ensemble fixe de valeurs spécifiques aux informations d’opt-in/opt-out. **L&#39;ensemble des valeurs de cette liste ne peut pas être modifié**.
+Les noms de champ Adobe Campaign sont un ensemble fixe de valeurs spécifiques à l’opt-in/opt-out. Les noms de champ Adobe Campaign sont un ensemble fixe de valeurs spécifiques aux informations d’opt-in/opt-out. **L&#39;ensemble des valeurs de cette liste ne peut pas être modifié**.
