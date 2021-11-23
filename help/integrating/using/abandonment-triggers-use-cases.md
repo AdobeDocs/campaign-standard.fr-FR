@@ -1,5 +1,5 @@
 ---
-title: Cas pratiques des déclencheurs d'abandon
+title: Cas pratiques des Triggers d'abandon
 description: Découvrez comment utiliser l'intégration Triggers Experience Cloud grâce à ces différents cas pratiques.
 audience: integrating
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,11 +101,11 @@ Dans Adobe Campaign, vous devez créer un déclencheur lié à celui créé dan
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. Le destinataire clique sur un lien qui l’amène à votre site web. Dans cet exemple, la bannière dirige le destinataire vers la page d&#39;accueil du site Web de réservation de voyages.
+1. Le destinataire clique sur un lien qui ouvre une page de votre site Web. Dans cet exemple, la bannière dirige le destinataire vers la page d’accueil du site Web de réservation de voyages.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. Le destinataire se rend sur la page &quot;Offres&quot; mais interrompt soudainement sa visite. Après un délai de 10 minutes, Adobe Campaign déclenche l&#39;envoi du message transactionnel.
+1. Le destinataire se rend sur la page « Offres », mais interrompt brusquement sa visite. Après un délai de 10 minutes, Adobe Campaign déclenche l&#39;envoi du message transactionnel.
 
    ![](assets/trigger_uc_browse_12.png)
 

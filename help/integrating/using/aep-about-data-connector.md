@@ -11,7 +11,7 @@ exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le mapping d’usine n’est disponible que pour les champs fournis par défaut dans Campaign Standard. Pour ingérer tous les champs et ressources personnalisés, chaque client doit définir son propre mapping.
 
-* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. &#x200B; La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
+* Adobe Experience Platform Data Connector transmet régulièrement les données de profil par le biais de la plateforme. La durée de l’intervalle est de 15 minutes. Cette valeur peut être modifiée à l’aide des [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=fr).
 
 * Un ingénieur de données peut publier, modifier et suspendre le mapping entre Campaign et Adobe Experience Platform.
 

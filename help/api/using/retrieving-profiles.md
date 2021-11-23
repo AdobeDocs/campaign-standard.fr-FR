@@ -11,7 +11,7 @@ exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Le paramètre **[!UICONTROL filterType]** permet de rechercher des profils en fo
 
 >[!NOTE]
 >
->Les recherches sont sensibles à la casse et effectuées sur les préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil à l’aide des dernières lettres de leur nom de famille.
+>Les recherches sont sensibles à la casse et effectuées sur les préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil en utilisant les dernières lettres de son nom de famille.
 
 ***Exemples de demande***
 

@@ -1,6 +1,6 @@
 ---
-title: Créer un e-mail multilingue
-description: Suivez ces étapes pour Créer un e-mail multilingue qui cible des destinataires avec des préférences linguistiques différentes.
+title: Création d’un e-mail multilingue
+description: Suivez ces étapes pour Création d’un e-mail multilingue qui cible des destinataires avec des préférences linguistiques différentes.
 audience: channels
 content-type: reference
 topic-tags: email-messages
@@ -11,13 +11,13 @@ exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Créer un e-mail multilingue{#creating-a-multilingual-email}
+# Création d’un e-mail multilingue{#creating-a-multilingual-email}
 
-Vous pouvez envoyer un email multilingue à des profils avec des préférences linguistiques différentes : chaque profil recevra une variante de l&#39;email dans sa langue préférée.
+Vous pouvez envoyer un e-mail multilingue aux profils ayant des préférences linguistiques différentes : chaque profil recevra une variante de cet e-mail dans sa langue préférée.
 
 Pour cela, vérifiez qu&#39;un modèle d&#39;email multilingue est disponible. Si ce n&#39;est pas le cas, apprenez à en créer un dans [cette section](../../channels/using/multilingual-messages-template.md).
 

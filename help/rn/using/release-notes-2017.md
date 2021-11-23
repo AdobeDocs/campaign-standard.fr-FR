@@ -11,7 +11,7 @@ exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '4688'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ _Profils et audiences_
   </tr> 
   <tr> 
    <td> Canal Courrier - Retour à l’expéditeur<br /> </td> 
-   <td> Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Cela permet aux marketeurs d’être avertis d’une adresse incorrecte et d’interagir avec le client via d’autres canaux ou de l’encourager à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
+   <td> Les échanges de fichiers plats avec les opérateurs de services postaux intégrant les informations de retour à l’expéditeur sont désormais pris en charge. Cette amélioration du canal Courrier permet d’exclure les adresses postales correspondantes des communications futures.<br /> Les spécialistes du marketing peuvent ainsi être avertis si une adresse est incorrecte, interagir avec le client à travers d’autres canaux ou l’inciter à mettre à jour son adresse postale. Comme ils n’envoient plus de courrier à des adresses incorrectes, les dépenses marketing inutiles sont également réduites. <br /> Le canal Courrier est disponible en tant que canal additionnel. Pour plus d’informations, consultez la <a href="../../channels/using/return-to-sender.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

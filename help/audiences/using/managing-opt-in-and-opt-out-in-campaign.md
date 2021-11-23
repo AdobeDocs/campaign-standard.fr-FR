@@ -11,7 +11,7 @@ exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Vous pouvez également configurer une landing page **[!UICONTROL Liste bloquée]
 
    ![](assets/optin_landingpage_2.png)
 
-1. Une fois le formulaire envoyé, l&#39;onglet **[!UICONTROL Général]** du profil est mis à jour en fonction de la sélection de l&#39;utilisateur.
+1. Une fois le formulaire envoyé, l’onglet **[!UICONTROL Général]** du profil est mis à jour en fonction de la sélection de l’utilisateur.
 
    ![](assets/optin_landingpage_3.png)
 

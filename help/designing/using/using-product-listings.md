@@ -12,7 +12,7 @@ exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ Pour plus d’informations sur la création d’une collection et de champs asso
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. Faites glisser un ou plusieurs composants de contenu et éditez-les si nécessaire.
+1. Faites glisser un ou plusieurs composants de contenu et modifiez-les si nécessaire.
 
    ![](assets/message-center_loop_fallback.png)
 

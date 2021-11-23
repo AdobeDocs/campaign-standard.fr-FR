@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Pour accéder au profil client intégré, procédez comme suit :
    >
    >Notez que les recherches peuvent être effectuées en fonction des champs d&#39;email, de prénom et de nom ainsi que des champs personnalisés qui ont été ajoutés lors de l&#39;extension de la ressource.
    >
-   >Les recherches sont sensibles à la casse et effectuées sur des préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil à l’aide des dernières lettres de leur nom de famille.
+   >Les recherches sont sensibles à la casse et effectuées sur des préfixes uniquement. Par exemple, vous ne pourrez pas rechercher un profil en utilisant les dernières lettres de son nom de famille.
 
 1. Sélectionnez un contact pour ouvrir son profil.
 

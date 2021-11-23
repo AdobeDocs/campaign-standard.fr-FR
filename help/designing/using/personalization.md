@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2725'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -314,7 +314,7 @@ Vous ne pouvez définir qu&#39;un ordre de priorité par contenu dynamique.
 
 ## Exemple : personnalisation d&#39;un email{#example-email-personalization}
 
-Dans cet exemple, un membre de l’équipe du service marketing a créé un email pour informer certains de ses clients qu’il existe une offre spéciale qui leur est réservée. Il a été décidé de personnaliser l&#39;email en fonction de l&#39;âge des clients. Entre 18 et 27 ans, ils recevront un email contenant une illustration et une accroche différentes des clients âgés de plus de 27 ans.
+Dans cet exemple, un membre de l’équipe du service marketing a créé un e-mail pour informer certains de ses clients qu’il existe une offre spéciale qui leur est réservée. Il a été décidé de personnaliser l’e-mail en fonction de l’âge des clients. Entre 18 et 27 ans, ils recevront un email contenant une illustration et une accroche différentes des clients âgés de plus de 27 ans.
 
 L&#39;email est donc créé comme suit :
 

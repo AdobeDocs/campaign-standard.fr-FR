@@ -12,7 +12,7 @@ exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## Gérer les SMS STOP {#managing-stop-sms}
 
-Lorsqu&#39;un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à effectuer.
+Lorsqu’un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l’action à effectuer.
 
 Cette configuration est définie dans la section **[!UICONTROL Réponse automatique aux MO]** du [compte externe de routage des SMS](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO est l&#39;acronyme de &quot;Mobile Originated&quot;, ce qui signifie que vous pouvez configurer une réponse automatique au téléphone mobile qui a envoyé le SMS.
 

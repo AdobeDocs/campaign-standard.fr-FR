@@ -11,25 +11,25 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Calendrier des versions {#release-planning}
 
-Adobe améliore constamment ses solutions en ajoutant de nouvelles fonctionnalités, des améliorations et des correctifs.
+Adobe perfectionne constamment ses solutions en ajoutant de nouvelles fonctionnalités, des améliorations et des correctifs.
 
 Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque nouvelle version. Aucune action n&#39;est requise pour la mise à niveau.
 
 Les mises à niveau sont déployées en deux phases. Tout d’abord, les instances de test sont mises à niveau afin de vous permettre de tester de nouvelles fonctionnalités et d’adapter votre configuration si nécessaire. Les instances de production sont ensuite mises à niveau.
 
-Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour.
+Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour.
 
-## Version 22.1 - Version de février 2022 {#release-22-1-release}
+## Version 22.1 - Version de février 2022 {#release-22-1-release}
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Vous trouverez des informations détaillées sur cette version dans la section [Notes de mise à jour](../../rn/using/release-notes.md) à la date de mise à niveau de l’environnement de test.
+Des informations détaillées sur cette version sont disponibles dans les [notes de mise à jour](../../rn/using/release-notes.md) au début des mises à niveau de l’environnement de test.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Vous trouverez des informations détaillées sur cette version dans la section [
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>8-9 février 2022<br /> </td>
+   <td>8 et 9 février 2022<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>15-22 février 2022<br /> </td>
+   <td>Du 15 au 22 février 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -72,13 +72,13 @@ R : Non. Les messages ne seront pas envoyés pendant plusieurs minutes. Une foi
 
 **Q : Les workflows continueront-ils de s&#39;exécuter et d&#39;envoyer les diffusions ?**
 
-R : Non. Pendant la mise à niveau de la version, le serveur de workflow et le MTA sont arrêtés. Par conséquent, les workflows ne s&#39;exécuteront pas et les diffusions ne sont pas envoyées pendant quelques minutes. Aucune action n&#39;est requise : les workflows redémarreront dès que l&#39;instance sera mise à niveau.
+R : Non. Pendant la mise à niveau de la version, le serveur de workflow et le MTA sont arrêtés. Par conséquent, les workflows ne s’exécuteront pas et les diffusions ne seront pas envoyées pendant quelques minutes. Aucune action n&#39;est requise : les workflows redémarreront dès que l&#39;instance sera mise à niveau.
 
 **Q : Les liens de tracking dans les messages fonctionneront-t-il toujours pendant la mise à niveau ?**
 
 R : Oui. Il ne sera pas possible d&#39;envoyer de nouveaux emails pendant la mise à niveau, mais les liens de tracking inclus dans les messages déjà envoyés seront opérationnels.
 
-**Q : Comment savoir si la mise à niveau est terminée ?**
+**Q : Comment savoir si la mise à niveau est terminée ?**
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s&#39;affiche avec la dernière version.
 

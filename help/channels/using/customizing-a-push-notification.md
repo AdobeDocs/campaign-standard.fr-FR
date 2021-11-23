@@ -12,7 +12,7 @@ exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une no
 
    Si le champ **[!UICONTROL Jouer un son]** est vide, aucun son ne sera joué.
 
-L&#39;utilisateur ne recevra alors la notification push et le son que si son téléphone n&#39;est pas coupé.
+L’utilisateur ne recevra alors la notification push et le son que si le son de son téléphone n’est pas désactivé.
 
 ## Actualiser la valeur du badge       {#refresh-the-badge-value}
 

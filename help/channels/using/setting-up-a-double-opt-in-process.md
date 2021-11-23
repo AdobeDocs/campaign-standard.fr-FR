@@ -11,7 +11,7 @@ exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +143,7 @@ Pour créer et configurer cette landing page, vous devez :
 
    ![](assets/optin_acquisition_page1.png)
 
-1. Personnalisez la page de confirmation pour informer les nouveaux abonnés qu&#39;ils doivent valider leur abonnement.
+1. Personnalisez la page de confirmation pour informer les nouveaux abonnés qu’ils doivent valider leur abonnement.
 
    ![](assets/optin_acquisition_page2.png)
 

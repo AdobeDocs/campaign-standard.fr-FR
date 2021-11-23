@@ -16,7 +16,7 @@ exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à 
 
 * Le **droit d’accès** permet au titulaire de données de demander au contrôleur de données si les données personnelles le concernant sont traitées ou non, et lorsqu’elles le sont, où et à quelles fins.
 
-* Le **Droit à l&#39;oubli** (demande de suppression) autorise le titulaire de données à demander au contrôleur de données d’effacer ses données personnelles.
+* Le **Droit à l’oubli** (demande de suppression) autorise le titulaire de données à demander au contrôleur de données d’effacer ses données personnelles.
 
 >[!NOTE]
 >

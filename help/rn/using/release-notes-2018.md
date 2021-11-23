@@ -11,7 +11,7 @@ exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -303,8 +303,8 @@ _Ressources personnalisées_
    <td> Règlement général sur la protection des données (RGPD) de l’UE<br /> </td> 
    <td> Le RGPD, qui entrera en vigueur le 25 mai 2018, est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE.<br /> Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons, en qualité de responsable du traitement des données, d’autres fonctionnalités pour faciliter votre préparation en tant que contrôleur de données à certaines demandes RGPD:<br /> 
     <ul> 
-     <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-     <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles collectées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
+     <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
+     <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
     </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 

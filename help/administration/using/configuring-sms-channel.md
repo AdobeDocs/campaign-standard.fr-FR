@@ -12,7 +12,7 @@ exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1679'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -316,7 +316,7 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
 
 ### Réponse automatique aux MO  {#automatic-reply-sent-to-the-mo}
 
-Lorsqu&#39;un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l&#39;action à effectuer.
+Lorsqu’un profil répond à un SMS envoyé via Campaign, vous pouvez configurer les messages qui lui sont automatiquement renvoyés, ainsi que l’action à effectuer.
 
 Pour plus d’informations, consultez [cette section](../../channels/using/managing-incoming-sms.md).
 
