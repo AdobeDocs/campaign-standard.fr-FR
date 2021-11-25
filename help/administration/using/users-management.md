@@ -67,7 +67,7 @@ Les administrateurs fonctionnels sont les seuls utilisateurs ayant accès au men
 
 Voici les principales tâches qu’ils peuvent effectuer :
 
-* [Gérer les utilisateurs et les permissions](../../administration/using/about-access-management.md) : gérez les accès à la plateforme (utilisateurs, rôles, groupes de sécurité, entités).
+* [Gérer les utilisateurs et les autorisations](../../administration/using/about-access-management.md) : gérez les accès à la Plateforme (utilisateurs, rôles, groupes de sécurité, entités).
 * [Configurer les différents canaux](../../administration/using/about-channel-configuration.md) : configurez les différents canaux de la plateforme ainsi que la gestion des typologies et des quarantaines.
 * [Configurer les paramètres généraux de l’application](../../administration/using/external-accounts.md) : configurez les différents éléments de l’application (comptes externes, options, workflows techniques).
 * [Développer de nouvelles fonctionnalités pour améliorer les fonctions d’usine](../../developing/using/data-model-concepts.md) : gérez vos ressources personnalisées et accédez aux outils de diagnostic.

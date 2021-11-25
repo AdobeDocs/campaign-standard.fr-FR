@@ -28,7 +28,7 @@ Les administrateurs techniques peuvent définir une ou plusieurs marques afin de
 
 Le principe général de paramétrage et d&#39;utilisation des marques est le suivant :
 
-1. Créer et configurer la marque : cette opération requiert des permissions spécifiques et est réalisée par l&#39;administrateur technique Adobe Campaign. Les étapes pour obtenir une nouvelle marque dans Campaign sont détaillées [dans cette section](#creating-a-brand).
+1. Créer et configurer la marque : cette opération requiert des autorisations spécifiques et est réalisée par l&#39;administrateur technique Adobe Campaign. Les étapes pour obtenir une nouvelle marque dans Campaign sont détaillées [dans cette section](#creating-a-brand).
 1. Créer un ou plusieurs modèles de diffusion et de landing pages pour cette marque. Voir la section [Créer un modèle](../../start/using/marketing-activity-templates.md).
 1. Créer des messages et des landing pages à partir de ce modèle. Voir les sections [Créer un e-mail](../../channels/using/creating-an-email.md) et [Créer une landing page](../../channels/using/designing-a-landing-page.md).
 

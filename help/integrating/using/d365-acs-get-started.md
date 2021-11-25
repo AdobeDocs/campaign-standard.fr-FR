@@ -89,7 +89,7 @@ Trois systèmes doivent être approvisionnés et configurés pour cette intégra
 >
 >Pour chaque système, ces étapes doivent être exécutées par un **administrateur**.
 >
->Les étapes de cette documentation vous guideront tout au long de la création des intégrations/inscriptions impliquant l&#39;attribution de permissions et/ou d&#39;accès administrateur.  Vous êtes tenu de vous assurer que ces étapes sont conformes aux politiques de votre entreprise avant de les exécuter, et de les exécuter avec précaution.
+>Les étapes de cette documentation vous guideront tout au long de la création des intégrations/inscriptions impliquant l&#39;attribution d&#39;autorisations et/ou d&#39;accès administrateur.  Vous êtes tenu de vous assurer que ces étapes sont conformes aux politiques de votre entreprise avant de les exécuter, et de les exécuter avec précaution.
 
 ### Demande d’assistance
 

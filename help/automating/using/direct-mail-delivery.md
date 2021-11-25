@@ -66,7 +66,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 
 1. Sélectionnez un type de courrier. Les types de courrier sont issus des modèles définis dans le menu **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du courrier. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de diffusion dans le workflow est mis à jour avec le libellé du courrier.
-1. Définissez le contenu du courrier. Consultez la section concernant l&#39;[édition de contenu](../../designing/using/personalization.md).
+1. Définition du contenu du publipostage direct. Consultez la section concernant l&#39;[édition de contenu](../../designing/using/personalization.md).
 1. Par défaut, l&#39;activité **[!UICONTROL Diffusion courrier]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion courrier]**, accédez à l&#39;onglet **[!UICONTROL Général]** des options avancées de l&#39;activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité), puis cochez l&#39;une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante. Cette transition contient le fichier généré par l&#39;activité Diffusion courrier et la population initiale reçue par l&#39;activité Diffusion courrier.

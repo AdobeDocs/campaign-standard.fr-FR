@@ -49,7 +49,7 @@ L&#39;onglet **[!UICONTROL Général]** regroupe les informations suivantes conc
 * les informations de contact, telles que le prénom, le nom, la date de naissance, la photo, la préférence linguistique du destinataire (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)), etc. ;
 * les canaux sur lesquels le profil peut être contacté, incluant son adresse email, son numéro de téléphone mobile et ses informations d&#39;opt-out ;
 * l&#39;adresse postale (pour le [courrier](../../channels/using/about-direct-mail.md)) et le fuseau horaire du contact (pour [planifier les messages dans son fuseau horaire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)) ;
-* l&#39;autorisation d&#39;accès qui indique l&#39;entité organisationnelle du destinataire (pour [gérer les permissions](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
+* l&#39;autorisation d&#39;accès qui indique l&#39;entité organisationnelle du destinataire (pour [gérer les autorisations](../../administration/using/about-access-management.md)). Voir également [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
 
 ![](assets/profile_creation4.png)
 
