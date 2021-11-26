@@ -88,6 +88,7 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.
