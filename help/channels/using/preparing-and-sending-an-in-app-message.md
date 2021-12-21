@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
+source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1259'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,9 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
    * **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]**
    * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]**
 
-1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]** Notez que si vous n&#39;avez pas configuré votre application mobile avec Adobe Campaign Standard, elle n&#39;apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion.]**
+
+   Si vous ne voyez aucune application dans la liste déroulante, assurez-vous que vos applications mobiles se trouvent dans une **Configuré** état. Applications dans une **Prêt à être configuré** n’apparaîtra pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
    ![](assets/inapp_creating_3.png)
 

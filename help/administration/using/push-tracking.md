@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '969'
+ht-degree: 98%
 
 ---
 
@@ -232,13 +232,11 @@ Pour comprendre le fonctionnement des notifications iOS, les trois états d’u
 * **Arrière-plan** : lorsque l’application n’est pas à l’écran mais que le processus n’est pas fermé. Lorsque vous double-cliquez sur le bouton d’accueil, il montre généralement toutes les applications qui se trouvent en arrière-plan.
 * **Désactivée/fermée** : une application dont le processus a été interrompu.
 
-Si une application est fermée, Apple ne l’appellera pas tant qu’elle n’aura pas été relancée. Vous ne pourrez donc pas savoir quand la notification a été reçue sur iOS.
-
 Pour que le suivi des **[!UICONTROL impressions]** fonctionne toujours lorsque l’application est en arrière-plan, il faut envoyer **[!UICONTROL Contenu disponible]** pour informer l’application qu’un suivi doit être effectué.
 
 >[!CAUTION]
 >
->Le suivi des impressions iOS n’est pas précis et ne doit pas être considéré comme fiable.
+> Si une application est fermée, Apple ne l’appellera pas tant qu’elle n’aura pas été relancée. Vous ne pourrez donc pas savoir quand la notification a été reçue sur iOS. </br> C’est pourquoi le suivi des impressions iOS peut ne pas être précis et ne doit pas être considéré comme fiable.
 
 Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
