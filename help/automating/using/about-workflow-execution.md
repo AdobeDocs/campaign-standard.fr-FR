@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 Un workflow est toujours démarré manuellement. Une fois lancé, il peut toutefois rester inactif selon les informations spécifiées via un [planificateur](../../automating/using/scheduler.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe recommande aux clients de hiérarchiser les exécutions de workflows et d’exécuter au maximum 20 workflows simultanément de façon à obtenir constamment des performances maximales sur leur instance. Il est possible de planifier plus de 20 exécutions de workflows simultanées ; elles s’exécuteront en séquence par défaut. Vous pouvez ajuster les paramètres par défaut pour le nombre maximal d’exécutions de workflows simultanées en envoyant un ticket à l’assistance clientèle.
+> Adobe recommande aux clients de ne pas exécuter plus de 20 workflows principaux simultanément, et de hiérarchiser et diffuser l&#39;exécution de vos workflows au fil du temps. Voir à ce propos la section Bonnes pratiques de la section [cette page](../../automating/using/best-practices-workflows.md).
 
 Les actions relatives à l’exécution (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur est disponible pour l’appliquer.
 

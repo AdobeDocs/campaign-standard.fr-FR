@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1246'
+ht-degree: 95%
 
 ---
 
@@ -47,12 +47,15 @@ Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**,
 
 ### Nombre de workflows
 
-Par défaut, il est recommandé de ne pas exécuter simultanément plus de 20 workflows actifs. Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances. De même, Adobe recommande d’étaler l’exécution des workflows dans le temps.
-Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Cela ne s&#39;applique pas aux workflows en attente d&#39;une exécution planifiée. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l’assistance clientèle d’Adobe pour augmenter la limite.
+Par défaut, nous vous recommandons **ne pas exécuter simultanément plus de 20 workflows principaux** (cela ne s’applique pas aux workflows en attente d’une exécution planifiée). Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances.
 
->[!NOTE]
+Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l’assistance clientèle d’Adobe pour augmenter la limite.
+
+>[!IMPORTANT]
 >
->Avant de démarrer un workflow, [!DNL Campaign Standard] vérifie si la mémoire physique système est suffisante pour exécuter le workflow. Si ce n’est pas le cas, un message vous informe que l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
+>Même si vous n&#39;atteignez pas le seuil des 20 workflows, Adobe vous recommande de **étaler l&#39;exécution de votre workflow dans le temps**. L’échelonnement de l’exécution de vos workflows garantit de meilleures performances de votre instance.
+
+Avant de démarrer un workflow, [!DNL Campaign Standard] vérifie si la mémoire physique système est suffisante pour exécuter le workflow. Si ce n’est pas le cas, un message vous informe que l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
 
 ### Fréquence
 

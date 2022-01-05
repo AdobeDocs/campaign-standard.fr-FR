@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1809'
 ht-degree: 100%
 
 ---
@@ -515,3 +515,4 @@ ht-degree: 100%
       + [Mise à jour de l&#39;entité géographique d&#39;un profil](api/using/updating-a-geographical-unit.md)
       + [Mise à jour des attributs d&#39;une entité géographique](api/using/updating-geographical-unit-attributes.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

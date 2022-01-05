@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '553'
+ht-degree: 93%
 
 ---
 
@@ -33,6 +33,10 @@ Les workflows peuvent intervenir dans différents contextes, par exemple :
 * Data management (ETL) pour manipuler des données.
 * Import de données dans la base de Campaign.
 * Processus techniques tels que les tâches de nettoyage de la base (cleanup), la récupération des informations de tracking, etc.
+
+>[!IMPORTANT]
+>
+> Adobe recommande aux clients de ne pas exécuter plus de 20 workflows principaux simultanément, et de hiérarchiser et diffuser l&#39;exécution de vos workflows au fil du temps. Voir à ce propos la section Bonnes pratiques de la section [cette page](../../automating/using/best-practices-workflows.md).
 
 ## Activités de workflow {#workflow-activities}
 
