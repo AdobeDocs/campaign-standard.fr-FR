@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 * Après l&#39;envoi de vos messages In-App, vous pouvez désormais choisir de désactiver votre diffusion. Vous pouvez ainsi supprimer votre diffusion sans perdre de données de reporting. (CAMP-48469)
 * Pour éviter tout problème, les utilisateurs ne peuvent plus utiliser le même nom pour une colonne de table personnalisée que celui utilisé pour la clé Principal automatique dans la base de données, `"<dataType><resourceName>Id"`. (CAMP-49358)
 * Vous pouvez désormais surveiller votre diffusion et suivre les logs des traitements avec la nouvelle **Historique des tâches** du tableau de bord de vos messages. (CAMP-49840)
+* Amélioration de la stabilité et de l’intégrité des bases de données, en réduisant les tuples morts, lorsque de nombreux messages sont envoyés sur tous les canaux au fil du temps. (CAMP-49755, CAMP-49792, CAMP-49849)
+* Afin de garantir l&#39;actualisation automatique des connexions à la base de données en cas de blocage ou de redémarrage de la base de données, des améliorations ont été apportées à Campaign Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Correctifs**
 
