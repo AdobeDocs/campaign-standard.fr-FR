@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
 source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Les comptes externes et les workflows techniques peuvent uniquement être géré
 
    ![](assets/analytics.png)
 
-Le workflow technique **[!UICONTROL Partager les KPI avec Adobe Analytics]** va maintenant être lancé automatiquement. Il est consultable depuis le menu avancé en sélectionnant **[!UICONTROL Administration > Paramétrage de l&#39;application > Workflow]**. Ce workflow technique peut conserver jusqu’à 6 mois de broadlogs. Notez que ce workflow est incrémentiel et va transmettre les données du jour précédent.
+Le workflow technique **[!UICONTROL Partager les KPI avec Adobe Analytics]** va maintenant être lancé automatiquement. Il est consultable depuis le menu avancé en sélectionnant **[!UICONTROL Administration > Paramétrage de l&#39;application > Workflow]**. Ce workflow technique peut conserver jusqu&#39;à 6 mois de broadlogs. Notez que ce workflow est incrémentiel et transmet les données du jour précédent.
 
 ![](assets/analytics_3.png)
 
