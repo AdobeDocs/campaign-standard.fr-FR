@@ -10,9 +10,9 @@ role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Vous pouvez dupliquer des workflows. Dans **[!UICONTROL Activités marketing]**,
 
 ### Nombre de workflows
 
-Par défaut, nous vous recommandons **ne pas exécuter simultanément plus de 20 workflows principaux** (cela ne s’applique pas aux workflows en attente d’une exécution planifiée). Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances.
+Par défaut, nous recommandons de **ne pas exécuter plus de 20 workflows actifs simultanément** (cela ne s&#39;applique pas aux workflows en attente d&#39;une exécution planifiée). Lorsque cette limite est atteinte, les workflows sont placés en file d&#39;attente afin de ne pas impacter les performances.
 
-Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l’assistance clientèle d’Adobe pour augmenter la limite.
+Dans des contextes spécifiques, vous devrez peut-être exécuter plus de 20 workflows. Si tel est le cas, vous devez vérifier les possibilités avec un expert de Campaign et contacter l&#39;assistance clientèle d&#39;Adobe pour augmenter la limite.
 
 >[!IMPORTANT]
 >
->Même si vous n&#39;atteignez pas le seuil des 20 workflows, Adobe vous recommande de **étaler l&#39;exécution de votre workflow dans le temps**. L’échelonnement de l’exécution de vos workflows garantit de meilleures performances de votre instance.
+>Même si vous n&#39;atteignez pas le seuil des 20 workflows, Adobe vous recommande d&#39;**étaler l&#39;exécution des workflows dans le temps**. L&#39;étalement de l&#39;exécution de vos workflows améliore les performances de votre instance.
 
 Avant de démarrer un workflow, [!DNL Campaign Standard] vérifie si la mémoire physique système est suffisante pour exécuter le workflow. Si ce n’est pas le cas, un message vous informe que l&#39;exécution du workflow sera retardée jusqu&#39;à ce que la charge sur le serveur diminue et que la mémoire système augmente.
 
