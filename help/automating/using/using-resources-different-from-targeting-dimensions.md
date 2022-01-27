@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
 source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur les dimensions de ciblage et les ressources, repo
 **Exemple 1 : identification des profils ciblés par la diffusion avec le libellé « Ravi de vous revoir parmi nous »**.
 
 * Dans ce cas, nous voulons cibler des profils. La dimension de ciblage sera donc définie sur **[!UICONTROL Profils (profile)]**.
-* Nous voulons également filtrer les profils sélectionnés en fonction du libellé de la diffusion. La ressource sera donc définie sur **[!UICONTROL Logs de diffusion]**. De cette manière, nous filtrons directement dans la table des logs de diffusion, ce qui va offrir de meilleures performances.
+* Nous voulons également filtrer les profils sélectionnés en fonction du libellé de la diffusion. La ressource sera donc définie sur **[!UICONTROL Logs de diffusion]**. Ainsi, nous appliquons un filtre directement dans la table des logs de diffusion, ce qui offrira de meilleures performances.
 
 ![](assets/targeting_dimension6.png)
 
