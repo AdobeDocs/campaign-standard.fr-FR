@@ -1,23 +1,34 @@
 ---
 title: Mises à jour de la documentation
-description: Découvrez l’ensemble des mises à jour les plus récentes de la documentation d’Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: Découvrez l’ensemble des mises à jour les plus récentes de la documentation d’Adobe Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6964'
-ht-degree: 100%
+source-wordcount: '7126'
+ht-degree: 97%
 
 ---
 
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
+
+## Février 2022 {#doc-updates-feb-2022}
+
+Amélioration du mécanisme de reprise pour les diffusions, y compris le contenu importé à partir d’une URL. [En savoir plus](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+Ajout d’une note d’avertissement concernant les mots-clés qui déclenchent des réponses automatiques des SMS : ils ne doivent contenir que des caractères alphanumériques. [En savoir plus](../../channels/using/managing-incoming-sms.md)
+
+Mise à jour du niveau d’accès des options qui contrôlent le contrôle : options antérieures pour l’activation/la désactivation [Suivi](../../administration/using/audit.md) n’étaient pas accessibles à [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators). Grâce à cette modification, le niveau d’accès à l’audit est modifié pour fournir un contrôle aux administrateurs fonctionnels. [En savoir plus](../../administration/using/audit.md#enable-disable-audit)
+
+Ajout d’une note à la section Email de test A/B : si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale. Sinon, les journaux afficheront un avertissement. [En savoir plus](../../channels/using/designing-an-a-b-test-email.md)
+
+Mise à jour de la description de la variable **[!UICONTROL Supprimer les fichiers source après leur transfert]** dans le **Transfert de fichier** , notamment un rappel pour surveiller manuellement la taille du contenu archivé dans le répertoire SFTP si l’option n’est pas sélectionnée. [En savoir plus](../../automating/using/transfer-file.md)
+
+Mise à jour de tous les liens obsolètes dans **Confidentialité** sections. [En savoir plus](../../start/using/privacy.md)
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---september-2021}
 
@@ -84,7 +95,7 @@ La section [Délivrabilité](../../sending/using/about-deliverability.md) a ét�
 
 **Nouvelles fonctionnalités de cette version**
 
-Service de commentaires par email – [En savoir plus](../../sending/using/confirming-the-send.md#message-indicators)
+Service de retour d&#39;e-mail – [En savoir plus](../../sending/using/confirming-the-send.md#message-indicators)
 
 Améliorations de l&#39;intégration d&#39;Adobe Experience Manager - [En savoir plus](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -642,7 +653,7 @@ Mise à jour de la section Type des utilisateurs. [En savoir plus](../../adminis
 
 Messagerie in-app (version bêta) – [En savoir plus](../../channels/using/about-in-app-messaging.md)
 
-Intégration d&#39;Adobe Launch pour les applications mobiles (version bêta) – [En savoir plus](../../sending/using/managing-typologies.md)
+Intégration avec Adobe Launch pour les applications mobiles (version bêta) – [En savoir plus](../../sending/using/managing-typologies.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 

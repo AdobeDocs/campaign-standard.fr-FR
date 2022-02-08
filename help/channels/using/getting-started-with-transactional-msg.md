@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 100%
@@ -91,7 +91,7 @@ Chacune de ces étapes est décrite plus en détail ci-dessous.
 
 ### Étape 1 - Créer et publier la configuration de l’événement {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | Utilisateur | Action | Résultat |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ La création et la publication d’un événement sont présentées dans les sec
 
 ### Étape 2 - Modifier et publier le message transactionnel {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | Utilisateur | Action | Résultat |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Pour plus d’informations sur la modification et la publication d’un message 
 
 ### Étape 3 - Intégrer le déclenchement de l’événement {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Pour plus d’informations sur l’utilisation de l’API REST Campaign pour gé
 
 ### Étape 4 - Diffuser le message {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Une fois toutes ces étapes effectuées, le message peut être diffusé.
 
