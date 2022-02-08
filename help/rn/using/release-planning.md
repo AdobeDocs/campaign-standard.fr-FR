@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 830b81a8adffd39f00b7568dde56cf482eab0806
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: c9b2c376e3d3c769dc070c24a59219e8f22c8464
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Toutes les dates de publication peuvent faire l’objet de modifications : cons
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour initiales](../../rn/using/e-release-notes.md).
+Vous trouverez des informations détaillées sur cette version dans la section [Notes de mise à jour initiales](../../rn/using/e-release-notes.md) à la date de mise à niveau dans l’environnement intermédiaire.
 
 <table>
  <thead>
@@ -60,7 +60,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L&#39;instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -82,4 +82,4 @@ R : Oui. Il ne sera pas possible d&#39;envoyer de nouveaux emails pendant la mi
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s&#39;affiche avec la dernière version.
 
-Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).

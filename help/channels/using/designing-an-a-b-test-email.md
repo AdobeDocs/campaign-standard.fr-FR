@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 100%
+source-wordcount: '868'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ Dans le cadre spécifique d&#39;un test A/B :
    * **[!UICONTROL Nombre de variantes]** : vous pouvez choisir d&#39;utiliser deux ou trois variantes. Si vous choisissez trois variantes, ce choix n&#39;est plus modifiable après validation de cette étape de l&#39;assistant.
    * **[!UICONTROL Stratégie gagnante]** : sélectionnez le critère à utiliser pour déterminer la variante gagnante.
    * **[!UICONTROL Répartition de la cible]** : choisissez quel pourcentage de la cible recevra chaque variante. Le pourcentage restant recevra la variante gagnante une fois qu&#39;elle sera déterminée. La sélection est réalisée aléatoirement parmi les profils de la cible.
+
+      >[!NOTE]
+      >
+      >Si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale.
+
    * **[!UICONTROL Méthode d&#39;envoi du gagnant]** : choisissez si vous souhaitez que la variante gagnante soit automatiquement envoyée une fois déterminée ou si vous souhaitez confirmer manuellement l&#39;envoi à la population restante.
    * **[!UICONTROL Durée du test]** : indiquez la durée du test. La variante gagnante est déterminée automatiquement à l&#39;issue de cette durée. Vous pouvez choisir manuellement la variante gagnante avant la fin du test depuis le tableau de bord de l&#39;email.
 
@@ -88,4 +93,4 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 Dans le tableau de bord des emails, plusieurs indicateurs sont proposés pour vous aider à mesurer votre test A/B : nombre de clics, ouvertures, bounces, etc.
 
-Notez que l&#39;indicateur **[!UICONTROL Réactivité estimée des destinataires]** est un taux comparant le nombre de destinataires ayant cliqué au nombre de destinataires ayant ouvert l&#39;email. Par exemple, si 10 destinataires ont ouvert l&#39;email et si 5 d&#39;entre eux ont cliqué dessus, le taux de réactivité est de 50 %.
+Notez que l&#39;indicateur **[!UICONTROL Réactivité estimée des destinataires]** est un taux comparant le nombre de destinataires ayant cliqué au nombre de destinataires ayant ouvert l&#39;email. Par exemple, si 10 destinataires ont ouvert l&#39;email et que 5 destinataires ont cliqué dessus, le taux de réactivité est de 50%.
