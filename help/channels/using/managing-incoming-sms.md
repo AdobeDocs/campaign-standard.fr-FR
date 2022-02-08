@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '724'
+ht-degree: 99%
 
 ---
 
@@ -34,6 +34,10 @@ Pour ce faire :
 1. Sélectionnez le mot-clé qui déclenchera cette réponse automatique. Les mots-clés ne respectent pas la casse. Dans le cas présent, si les destinataires envoient le mot-clé &quot;STOP&quot;, ils recevront la réponse automatique.
 
    Laissez cette colonne vide si vous souhaitez envoyer la même réponse quel que soit le mot-clé.
+
+   >[!IMPORTANT]
+   >
+   >Seuls les caractères alphanumériques sont autorisés.
 
    ![](assets/sms_mo_2.png)
 

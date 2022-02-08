@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 91%
 
 ---
 
@@ -37,6 +37,12 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
    Vous pouvez exporter le journal en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
 
    ![](assets/sending_delivery2.png)
+
+* **Logs de traitement**: Vous pouvez accéder à une liste des tâches par lots déclenchées par la diffusion à partir du tableau de bord du message en sélectionnant **[!UICONTROL Historique des tâches]** de la **[!UICONTROL Résumé]** liste déroulante.
+
+   Sélectionnez une tâche dans la liste pour afficher les détails de la tâche sélectionnée. **[!UICONTROL Tâche par lots]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Alertes de diffusion** : pour tracker les performances des diffusions, Adobe Campaign propose un système d&#39;alerte par email qui envoie des notifications afin d&#39;avertir les utilisateurs des activités système importantes.
 * **Rapports** : depuis le tableau de bord d&#39;un message, vous pouvez accéder à plusieurs rapports relatifs à ce message spécifique. Un menu **[!UICONTROL Rapports]** vous permet également d&#39;accéder à la liste complète des rapports intégrés ou personnalisés que vous pouvez utiliser pour mettre en avant des mesures spécifiques relatives à votre message ou campagne.

@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '48'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Vous pouvez suivre les informations relatives à une demande d’accès à des informations personnelles créée à l’aide d’une requête **GET**.
 
-La description de la liste d’états est disponible dans la [documentation relative à la gestion de la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+La description de la liste d’états est disponible dans la [documentation relative à la gestion de la confidentialité](../../start/using/privacy-requests.md).
 
 <br/>
 

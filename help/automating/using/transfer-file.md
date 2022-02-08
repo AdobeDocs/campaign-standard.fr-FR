@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 95%
 
 ---
 
@@ -54,11 +54,13 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    * [Stockage Blob Microsoft Azure](#azure-blob-configuration-wf)
    * [Fichier(s) présent(s) sur le serveur Adobe Campaign](#files-server-configuration-wf)
 
-1. La section **[!UICONTROL Options supplémentaires]**, disponible en fonction du protocole choisi, vous permet d’ajouter des paramètres à votre protocole. Vous pouvez ainsi :
+1. La section **[!UICONTROL Options supplémentaires]**, disponible en fonction du protocole choisi, vous permet d’ajouter des paramètres à votre protocole.
 
-   * **[!UICONTROL Effacer les fichiers source après leur transfert]**.
-   * **[!UICONTROL Désactiver le mode passif]**.
-   * **[!UICONTROL Lister tous les fichiers]** : cette option est disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** dans l’onglet **[!UICONTROL Général]**. Elle permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères **&#39;n&#39;**.
+   Vous pouvez ainsi :
+
+   * **[!UICONTROL Effacer les fichiers source après leur transfert]**.: supprime les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
+   * **[!UICONTROL Désactiver le mode passif]**: permet de spécifier le port de connexion à utiliser pour le transfert de données.
+   * **[!UICONTROL Liste de tous les fichiers]**: cette option est disponible lors de la sélection de l’option **[!UICONTROL Listes de fichiers]** dans le **[!UICONTROL Général]** . Elle permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères **&#39;n&#39;**.
 
 1. La section **[!UICONTROL En cas d’absence de fichier]** de l’onglet **[!UICONTROL Options avancées]** vous permet d’agir sur les erreurs ou les fichiers inexistants détectés lors du lancement de l’activité.
 

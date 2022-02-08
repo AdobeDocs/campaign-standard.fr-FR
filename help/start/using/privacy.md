@@ -13,9 +13,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1424'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Pour gérer correctement la confidentialité et les données personnelles, trava
 
 >[!NOTE]
 >
->Pour en savoir plus sur la façon dont les règlements RGPD, CCPA et PDPA s’appliquent à Adobe Campaign, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Pour en savoir plus sur la façon dont les règlements RGPD, CCPA et PDPA s’appliquent à Adobe Campaign, consultez [cette page](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Confidentialité d&#39;Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -59,7 +59,7 @@ Adobe Campaign fait partie intégrante des solutions Adobe Experience Cloud. 
 * **Modalités de collecte des informations dans Adobe Experience Cloud**
 
    * Les solutions Adobe Experience Cloud utilisent des cookies et des technologies similaires, telles que les balises web (également appelées pixels), pour vous permettre de collecter des informations. Pour plus d’informations sur les cookies et les fonctionnalités de tracking avec Adobe Campaign, consultez [cette section](#tracking-capabilities).
-   * Vous pouvez également utiliser les technologies Adobe Experience Cloud dans vos applications mobiles. Pour plus d’informations sur l’envoi de diffusions mobiles avec Campaign, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-mobile.html).
+   * Vous pouvez également utiliser les technologies Adobe Experience Cloud dans vos applications mobiles. Pour plus d’informations sur l’envoi de diffusions mobiles avec Campaign, consultez [cette page](../../channels/using/mobile-guide.md).
 
 * **Les choix de confidentialité des utilisateurs concernant votre utilisation d’Adobe Experience Cloud**
 
@@ -100,14 +100,14 @@ Adobe Campaign vous permet de collecter des données, y compris des information
 
 ## Gestion de la confidentialité {#privacy-management}
 
-La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html).
+La gestion de la confidentialité se rapporte à tous les processus et outils qui peuvent vous aider à vous conformer aux règlements relatifs à la confidentialité (RGPD, CCPA, etc.). Pour une présentation de la gestion de la confidentialité, consultez [cette page](../../start/using/privacy-management.md#privacy-management-regulations).
 
 Adobe Campaign vous propose divers ensembles de fonctionnalités dédiées à la gestion de la confidentialité :
 * Gestion du consentement, conservation des données et rôles utilisateur. Voir [cette section](#consent).
 * Demandes d&#39;accès à des informations personnelles (droit d&#39;accès et droit à l&#39;oubli). Voir [cette section](#privacy-requests).
-* Droit d&#39;opposition (opt-out) à la vente des informations personnelles (spécifique au règlement CCPA). Voir [cette section](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ccpa).
+* Droit d&#39;opposition (opt-out) à la vente des informations personnelles (spécifique au règlement CCPA). Voir [cette section](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
-Les principales fonctionnalités de confidentialité relatives à Campaign et un exemple des acteurs impliqués sont présentés dans [cette section](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+Les principales fonctionnalités de confidentialité relatives à Campaign et un exemple des acteurs impliqués sont présentés dans [cette section](#personal-data).
 
 
 ### Consentement, conservation des données et rôles {#consent}
@@ -118,7 +118,7 @@ Depuis l’origine, Adobe Campaign dispose de fonctions importantes, essentiell
 * **Conservation des données** : toutes les tables de logs standard intégrées comportent des périodes de conservation prédéfinies, limitant généralement leur enregistrement de données à 6 mois ou moins. Il est possible de définir des périodes de conservation supplémentaires à l&#39;aide de workflows. Pour en savoir plus, contactez les consultants Adobe ou les administrateurs techniques.
 * **Gestion des droits** : Adobe Campaign permet de gérer les droits affectés aux divers opérateurs Campaign par l’intermédiaire de différents rôles préconfigurés ou personnalisés. Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données, les modifier ou les exporter. Pour plus d’informations à ce sujet, consultez la section [À propos de la gestion des accès](../../administration/using/about-access-management.md).
 
-Pour plus d’informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#consent).
+Pour plus d’informations sur ces fonctionnalités et leur gestion dans Adobe Campaign, consultez [cette page](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### Demandes d&#39;accès à des informations personnelles {#privacy-requests}
 
@@ -130,15 +130,9 @@ Adobe Campaign dispose de fonctionnalités supplémentaires pour vous aider à 
 
 >[!NOTE]
 >
->Cet ensemble d’outils facilite la mise en conformité de votre politique de confidentialité avec les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>Cet ensemble d’outils facilite la mise en conformité de votre politique de confidentialité avec les règlements RGPD, CCPA et PDPA. Pour en savoir plus sur ces différents règlements, consultez [cette page](../../start/using/privacy-management.md#privacy-management-regulations).
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-Les demandes **d’accès** et de **suppression** sont présentées sur [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#righttoaccess). La procédure de création de ces demandes est pour sa part détaillée sur [cette page](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Des tutoriels sont également disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
+Les demandes **d’accès** et de **suppression** sont présentées sur [cette page](../../start/using/privacy-management.md#right-access-forgotten). La procédure de création de ces demandes est pour sa part détaillée sur [cette page](../../start/using/privacy-requests.md#about-privacy-requests). Des tutoriels sont également disponibles [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
 
 ## Fonctionnalités de tracking {#tracking-capabilities}
 

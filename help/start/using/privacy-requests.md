@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 100%
+source-wordcount: '1701'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ Ces informations s&#39;appliquent au RGPD, au CCPA, au PDPA et au LGPD. Pour plu
 
 Le droit d&#39;opposition (opt-out) à la vente des informations personnelles, spécifique au CCPA, est expliqué dans [cette section](#sale-of-personal-information-ccpa).
 
->[!IMPORTANT]
->
->À compter de la version 19.4, l&#39;utilisation de l&#39;API et de l&#39;interface de Campaign pour les demandes d&#39;accès et de suppression devient obsolète. Pour toute demande d&#39;accès et de suppression RGPD, CCPA, PDPA ou LGPD, vous devez utiliser la méthode d&#39;intégration de [Privacy Core Service](#create-privacy-request).
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## À propos des demandes d&#39;accès à des informations personnelles {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
 ### Création d&#39;une demande d&#39;accès à des informations personnelles {#create-privacy-request}
 
->[!IMPORTANT]
->
->L&#39;intégration de **Privacy Core Service** est la méthode appropriée pour toutes les demandes d&#39;accès et de suppression.
->
->À compter de la version 19.4, l&#39;utilisation de l&#39;API et de l&#39;interface de Campaign pour les demandes d&#39;accès et de suppression devient obsolète. Utilisez Privacy Core Service pour toute demande d&#39;accès et de suppression relative au RGPD, au CCPA, au PDPA ou au LGPD.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 L&#39;intégration avec Privacy Core Service vous permet d&#39;automatiser vos demandes d&#39;accès à des informations personnelles dans un contexte multisolution grâce à un seul appel API JSON. Les demandes d&#39;accès à des informations personnelles transmises par Privacy Core Service à toutes les solutions Experience Cloud sont automatiquement traitées par Campaign via un workflow dédié.
 
 Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr) pour savoir comment créer des demandes d&#39;accès à des informations personnelles à partir de Privacy Core Service.
+
+>[!IMPORTANT]
+>
+>Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} et ajoutez l’ID d’espace de noms à la requête, ou utilisez le [appel API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} pour effectuer la requête.
+>
+>N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 
@@ -189,7 +189,7 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 ### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
-À compter de la version 19.4, le champ **[!UICONTROL Option d&#39;Opt-out du CCPA]** est fourni dans l&#39;API et l&#39;interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
+Le **[!UICONTROL Droit d’opposition (opt-out) du CCPA]** est fourni dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
 Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
 

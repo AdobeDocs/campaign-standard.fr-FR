@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 ## Groupes de sécurité {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>Les groupes de sécurité **[!UICONTROL Accès aux paramètres de délivrabilité (délivrabilité)]** et **[!UICONTROL Agents de Message Center (mcExec)]** sont uniquement internes et ne doivent pas être affectés aux utilisateurs.
+
 Les groupes de sécurité sont des ensembles d&#39;utilisateurs qui partagent les mêmes rôles et droits au sein de votre entreprise.
 
-Les utilisateurs doivent toujours être rattachés à un groupe de sécurité afin que vous puissiez leur affecter des rôles spécifiques et des entités organisationnelles.
+Les utilisateurs doivent toujours être rattachés à un groupe de sécurité afin que vous puissiez leur affecter des rôles spécifiques et des entités organisationnelles. Pour restreindre l’accès d’un utilisateur, n’ajoutez pas l’utilisateur à la campagne **[!UICONTROL Utilisateurs standard]** groupe, car il est lié à **[!UICONTROL Tous]** l&#39;entité organisationnelle.
 
 Pour plus d’informations sur les rôles, le tableau de la page suivante reprend les différentes opérations possibles en fonction du ou des rôle des l’utilisateur : [Autorisations dans Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr).
 
@@ -33,17 +37,7 @@ Les groupes de sécurité par défaut sont :
 * **[!UICONTROL Utilisateurs standard]**
 * **[!UICONTROL Superviseurs de workflow]**
 
->[!IMPORTANT]
->
->Les groupes de sécurité **[!UICONTROL Accès aux paramètres de délivrabilité (délivrabilité)]** et **[!UICONTROL Agents de Message Center (mcExec)]** sont uniquement internes et ne doivent pas être affectés aux utilisateurs.
-
-Pour pouvoir accéder à Adobe Campaign, chaque utilisateur doit être affecté à un groupe de sécurité.
-
-Si vous souhaitez restreindre les accès d&#39;un utilisateur, ne l&#39;ajoutez pas dans le groupe des utilisateurs standard (Campaign Standard users), car celui-ci est rattaché à **[!UICONTROL toute]** l&#39;entité organisationnelle.
-
->[!NOTE]
->
->Par défaut, l’entité organisationnelle **[!UICONTROL Tous (tous)]** est affectée au groupe de sécurité **[!UICONTROL Administrateurs]**. Elle est en lecture seule et ne peut pas être modifiée.
+Notez que ces groupes de sécurité intégrés sont en lecture seule et ne peuvent pas être modifiés. Pour créer votre propre groupe de sécurité avec un ensemble de rôles spécifiques, reportez-vous à la section ci-dessous.
 
 ## Créer un groupe de sécurité et affecter des utilisateurs {#creating-a-security-group-and-assigning-users}
 

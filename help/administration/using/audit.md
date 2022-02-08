@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: b7b9b137de1c62b00895550c7f5bec8ae508bd3b
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 98%
 
 ---
 
@@ -88,6 +88,10 @@ Pour accéder au journal d&#39;audit de votre instance :
 
 ## Activer/désactiver le journal d’audit {#enable-disable-audit}
 
+>[!NOTE]
+>
+> Seuls les administrateurs fonctionnels peuvent activer ou désactiver le Suivi. Pour en savoir plus à ce sujet, consultez cette [page](../../administration/using/users-management.md#functional-administrators).
+
 Le journal d’audit peut être facilement activé ou désactivé pour une activité spécifique.
 
 Pour ce faire :
@@ -106,7 +110,6 @@ Pour ce faire :
       >[!NOTE]
       >
       >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
-
    ![](assets/audit-trail_5.png)
 
 1. Dans la page **[!UICONTROL Options]**, définissez la **[!UICONTROL valeur (entier)]** sur 0 si vous souhaitez désactiver le **[!UICONTROL Journal d’audit]** ou sur 1 pour l’activer.
