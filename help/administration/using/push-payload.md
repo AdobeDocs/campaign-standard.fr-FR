@@ -1,18 +1,15 @@
 ---
 title: Présentation de la structure de la payload des notifications push Campaign Standard
-description: L’objectif de ce document est de décrire la structure de la payload reçue dans les applications mobiles.
+description: En savoir plus sur la structure de la payload reçue dans les applications mobiles
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 100%
+source-wordcount: '1137'
+ht-degree: 99%
 
 ---
 

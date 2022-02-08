@@ -1,16 +1,14 @@
 ---
 title: Conservation des données
-description: Les tables de logs d'usine dans Campaign possèdent des périodes de conservation prédéfinies, limitant généralement leur stockage de données à 6 moins ou moins. Découvrez les valeurs de rétention par défaut pour les tables standard.
+description: Découvrez les valeurs de rétention par défaut pour les tables standard
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 100%
 
 ---

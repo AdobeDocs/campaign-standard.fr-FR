@@ -1,15 +1,12 @@
 ---
 title: Gestion des groupes et des utilisateurs
-description: Découvrez comment créer des groupes de sécurité et gérer les utilisateurs.
+description: Découvrez comment créer des groupes de sécurité et gérer les utilisateurs
 audience: administration
-content-type: reference
-topic-tags: users-and-security
-context-tags: user,overview;user,main;security,overview;security,main
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 94%

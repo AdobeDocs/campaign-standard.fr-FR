@@ -1,18 +1,15 @@
 ---
 title: Configuration du canal SMS
-description: '"Découvrez les étapes de configuration des SMS : routage, encodage, formats et propriétés avancées. "'
+description: Découvrez les étapes de configuration des SMS, notamment le routage, le codage, les formats et les propriétés avancées
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 100%
+source-wordcount: '1678'
+ht-degree: 99%
 
 ---
 

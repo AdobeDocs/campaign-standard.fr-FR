@@ -1,15 +1,12 @@
 ---
 title: Affichage d’une image à partir d’une notification push Adobe Campaign Standard
-description: Découvrez ici comment afficher une image à partir d’une notification push Adobe Campaign Standard sur un appareil iOS.
+description: Découvrez ici comment afficher une image à partir d’une notification push Adobe Campaign Standard sur un appareil iOS
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%

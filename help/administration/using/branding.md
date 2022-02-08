@@ -1,15 +1,13 @@
 ---
 title: Branding
-description: Découvrez tous les outils disponibles pour gérer les identités de la marque.
+description: Découvrez tous les outils disponibles pour gérer les identités de la marque
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%

@@ -1,18 +1,15 @@
 ---
-title: Directives de supervision
-description: Cette section présente des directives générales pour la surveillance de Campaign Standard.
+title: Instructions de surveillance
+description: Cette page présente des instructions générales pour la surveillance des Campaign Standards
 audience: production
-content-type: reference
-topic-tags: introduction
-index: y
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
