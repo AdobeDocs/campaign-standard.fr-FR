@@ -1,21 +1,18 @@
 ---
 title: Résolution des problèmes
-description: Découvrez les problèmes courants liés aux API Campaign Standard.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Découvrez les problèmes courants liés aux API Campaign Standard
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 100%
 
 ---
 
-# Résolution des problèmes {#troubleshooting}
+# Dépannage des API {#troubleshooting}
 
 * **Lorsque vous accédez à la console Adobe.io, l’erreur suivante s’affiche : « La console Adobe I/O est uniquement disponible pour sélectionner les membres des comptes d’entreprise. Si vous pensez que vous devriez y avoir accès, contactez votre administrateur système. »**
 
@@ -87,7 +84,7 @@ Votre jeton n’est pas valide (appel IMS incorrect utilisé pour générer un j
 
 * **Je ne vois pas mon profil après la création**
 
-Selon la configuration de l’instance, le profil créé doit être associé à un **orgUnit**. Pour comprendre comment ajouter ce champ à votre création, consultez [cette section](../../api/using/creating-profiles.md).
+Selon la configuration de l’instance, le profil créé doit être associé à un **orgUnit**. Pour comprendre comment ajouter ce champ à votre création, consultez [cette section](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
