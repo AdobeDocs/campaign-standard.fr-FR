@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 98%
+source-wordcount: '724'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 * Amélioration du traitement des données de rapport afin d’éviter une surcharge du système. (CAMP-47578)
 * Après lʼenvoi de vos messages in-app, vous pouvez désormais choisir de désactiver votre diffusion. Vous pouvez ainsi supprimer votre diffusion sans perdre aucune donnée de rapport. (CAMP-48469)
 * Pour éviter tout problème, les utilisateurs ne peuvent plus utiliser le même nom pour une colonne de tableau personnalisée que celui utilisé pour la clé primaire automatique dans la base de données, `"<dataType><resourceName>Id"`. (CAMP-49358)
-* Vous pouvez désormais surveiller votre diffusion et effectuer le suivi des logs de tâches dans la nouvelle liste déroulante **Historique des tâches** du tableau de bord de vos messages. (CAMP-49840)
+* Vous pouvez désormais surveiller votre diffusion et effectuer le suivi des logs de tâches dans la nouvelle liste déroulante **Historique des tâches** du tableau de bord de vos messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Amélioration de la stabilité et de lʼintégrité de la base de données en réduisant le nombre de tuples inactifs, lorsquʼun grand nombre de messages sont envoyés sur tous les canaux au fil du temps. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Des améliorations ont été apportées à MTA (Mail Transfer Agent ) de Campaign, afin de garantir lʼactualisation automatique des connexions à la base de données en cas de panne ou de redémarrage de celle-ci. (CAMP-48063)
 

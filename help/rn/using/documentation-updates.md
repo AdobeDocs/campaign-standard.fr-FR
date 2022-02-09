@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7126'
+source-wordcount: '7165'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campai
 
 ## Février 2022 {#doc-updates-feb-2022}
 
+## Version 22.1 - Février 2022 {#release-22-1}
+
+**Améliorations incluses dans la version**
+
 Amélioration du mécanisme de reprise pour les diffusions, y compris le contenu importé à partir d’une URL. [En savoir plus](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Ajout d’une note d’avertissement concernant les mots-clés qui déclenchent des réponses automatiques des SMS : ils ne doivent contenir que des caractères alphanumériques. [En savoir plus](../../channels/using/managing-incoming-sms.md)
-
 Mise à jour du niveau d’accès des options qui contrôlent le contrôle : options antérieures pour l’activation/la désactivation [Suivi](../../administration/using/audit.md) n’étaient pas accessibles à [administrateurs fonctionnels](../../administration/using/users-management.md#functional-administrators). Grâce à cette modification, le niveau d’accès à l’audit est modifié pour fournir un contrôle aux administrateurs fonctionnels. [En savoir plus](../../administration/using/audit.md#enable-disable-audit)
+
+La nouvelle **Historique des tâches** Une liste déroulante a été ajoutée au tableau de bord des messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md)
+
+**Autres changements**
+
+Ajout d’une note d’avertissement concernant les mots-clés qui déclenchent des réponses automatiques des SMS : ils ne doivent contenir que des caractères alphanumériques. [En savoir plus](../../channels/using/managing-incoming-sms.md)
 
 Ajout d’une note à la section Email de test A/B : si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale. Sinon, les journaux afficheront un avertissement. [En savoir plus](../../channels/using/designing-an-a-b-test-email.md)
 
 Mise à jour de la description de la variable **[!UICONTROL Supprimer les fichiers source après leur transfert]** dans le **Transfert de fichier** , notamment un rappel pour surveiller manuellement la taille du contenu archivé dans le répertoire SFTP si l’option n’est pas sélectionnée. [En savoir plus](../../automating/using/transfer-file.md)
 
 Mise à jour de tous les liens obsolètes dans **Confidentialité** sections. [En savoir plus](../../start/using/privacy.md)
+
+Ajout d’un lien direct vers la documentation du Panneau de Contrôle Campaign dans le tableau de contenu de la documentation du Campaign Standard.
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---september-2021}
 
