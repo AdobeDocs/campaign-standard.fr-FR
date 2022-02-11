@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1701'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
 1. Cliquez sur **[!UICONTROL Créer]**. Vous pouvez maintenant créer des demandes d&#39;accès à des informations personnelles basées sur votre nouvel espace de noms. Si vous utilisez plusieurs espaces de noms, créez une demande d’accès à des informations personnelles par espace de noms.
 
-### Création d&#39;une demande d&#39;accès à des informations personnelles {#create-privacy-request}
+### Création d’une demande d’accès à des informations personnelles {#create-privacy-request}
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
@@ -95,9 +95,9 @@ Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](h
 
 >[!IMPORTANT]
 >
->Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} et ajoutez l’ID d’espace de noms à la requête, ou utilisez le [appel API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} pour effectuer la requête.
+>Pour soumettre une requête à l’aide du type d’espace de noms personnalisé, réutilisez la [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target=&quot;_blank&quot;} et ajoutez l’identifiant d’espace de noms à la requête, ou utilisez l’[appel API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target=&quot;_blank&quot;} pour effectuer la requête.
 >
->N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
+>N’utilisez que l’[Interface utilisateur Accès à des informations personnelles](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;} pour envoyer des requêtes à l’aide du type d’espace de nom standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 
@@ -189,7 +189,7 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 ### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
-Le **[!UICONTROL Droit d’opposition (opt-out) du CCPA]** est fourni dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
+Le champ **[!UICONTROL Désinscription du CCPA]** est fourni tel quel dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
 Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
 
