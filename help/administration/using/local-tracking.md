@@ -1,13 +1,13 @@
 ---
 title: Mise en œuvre du suivi des notifications push
-description: Découvrez comment vérifier que le tracking des notifications push a été correctement implémenté sur iOS et Android
+description: Découvrez comment vérifier que le suivi des notifications push a été correctement mis en œuvre sur iOS et Android
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
 ht-degree: 100%
 
