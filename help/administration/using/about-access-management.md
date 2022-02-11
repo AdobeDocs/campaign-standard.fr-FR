@@ -1,15 +1,15 @@
 ---
 title: Gestion des accès
-description: Découvrez comment gérer vos opérateurs Adobe Campaign à l’aide de rôles, de groupes et d’entités organisationnelles
+description: Apprenez à gérer vos opérateurs Adobe Campaign à l’aide de rôles, de groupes et d’entités organisationnelles.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
