@@ -1,15 +1,15 @@
 ---
 title: FAQ sur le workflow technique de synchronisation avec Launch
-description: Questions courantes à propos du workflow technique Adobe Launch
+description: Questions courantes à propos du workflow technique d’Adobe Launch
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
