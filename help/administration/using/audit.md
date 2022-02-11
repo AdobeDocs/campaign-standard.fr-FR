@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Pour accéder au journal d&#39;audit de votre instance :
 
 >[!NOTE]
 >
-> Seuls les administrateurs fonctionnels peuvent activer ou désactiver le Suivi. Pour en savoir plus à ce sujet, consultez cette [page](../../administration/using/users-management.md#functional-administrators).
+> Seuls les administrateurs fonctionnels peuvent activer ou désactiver le journal d’audit. Pour en savoir plus à ce sujet, consultez cette [page](../../administration/using/users-management.md#functional-administrators).
 
 Le journal d’audit peut être facilement activé ou désactivé pour une activité spécifique.
 
