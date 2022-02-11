@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '868'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 Dans le tableau de bord des emails, plusieurs indicateurs sont proposés pour vous aider à mesurer votre test A/B : nombre de clics, ouvertures, bounces, etc.
 
-Notez que l&#39;indicateur **[!UICONTROL Réactivité estimée des destinataires]** est un taux comparant le nombre de destinataires ayant cliqué au nombre de destinataires ayant ouvert l&#39;email. Par exemple, si 10 destinataires ont ouvert l&#39;email et que 5 destinataires ont cliqué dessus, le taux de réactivité est de 50%.
+Notez que l&#39;indicateur **[!UICONTROL Réactivité estimée des destinataires]** est un taux comparant le nombre de destinataires ayant cliqué au nombre de destinataires ayant ouvert l&#39;email. Par exemple, si 10 destinataires ont ouvert l’e-mail et que 5 ont cliqué dessus, le taux de réactivité est de 50 %.
