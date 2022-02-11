@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1336'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -160,13 +160,13 @@ Une fois que la préparation de votre diffusion est terminée et que les étapes
 
 1. Mesurez l&#39;impact de vos messages In-App avec des rapports de diffusion. Pour plus d’informations sur le reporting, consultez [cette section](../../reporting/using/in-app-report.md).
 
-1. Après avoir envoyé vos messages In-App, vous pouvez choisir de désactiver votre diffusion. Cela peut s’avérer utile si vous souhaitez arrêter une diffusion particulière ou si vous souhaitez exécuter une nouvelle diffusion avec le même déclencheur, par exemple.
+1. Après lʼenvoi de vos messages in-app, vous pouvez choisir de désactiver votre diffusion. Cela peut s’avérer utile si vous souhaitez arrêter une diffusion particulière ou si vous souhaitez exécuter une nouvelle diffusion avec le même déclencheur, par exemple.
 
-   Cliquez sur **[!UICONTROL Désactiver]** then **[!UICONTROL Ok]** pour démarrer la demande de désactivation.
+   Cliquez sur **[!UICONTROL Désactiver]** puis **[!UICONTROL OK]** pour démarrer la requête de désactivation.
 
    ![](assets/inapp_sending_8.png)
 
-1. Une fois la demande envoyée, votre diffusion sera désactivée et aucun autre message ne sera envoyé.
+1. Une fois la requête envoyée, votre diffusion sera désactivée et aucun autre message ne sera envoyé.
 
    Notez que vos rapports pour cette diffusion seront toujours accessibles.
 
