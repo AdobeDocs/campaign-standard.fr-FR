@@ -1,13 +1,13 @@
 ---
 title: Liste des rôles
-description: Obtenez des informations sur la liste des rôles que vous pouvez affecter à vos utilisateurs
+description: Découvrez la liste des rôles que vous pouvez affecter à vos utilisateurs
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
