@@ -1,15 +1,15 @@
 ---
 title: Prise en main de l’administration de Campaign Standard
-description: Découvrez la gestion des utilisateurs et des autorisations, les conseils de surveillance, les configurations spécifiques à un canal et les instructions de paramètres d’application.
+description: Découvrez la gestion des utilisateurs et des autorisations, les directives de surveillance, les configurations spécifiques à un canal et les directives de paramétrage des applications.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
