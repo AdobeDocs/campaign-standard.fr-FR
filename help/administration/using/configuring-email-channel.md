@@ -1,13 +1,13 @@
 ---
-title: Configuration du canal email dans Adobe Campaign Standard
-description: Découvrez comment configurer le canal email dans Adobe Campaign Standard
+title: Configuration du canal e-mail dans Adobe Campaign Standard
+description: Découvrez comment configurer le canal e-mail dans Adobe Campaign Standard
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2815'
 ht-degree: 100%
 
