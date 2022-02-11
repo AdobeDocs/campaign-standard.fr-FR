@@ -1,15 +1,15 @@
 ---
 title: Configuration du canal SMS
-description: Découvrez les étapes de configuration des SMS, notamment le routage, le codage, les formats et les propriétés avancées
+description: Apprenez les étapes de configuration des SMS, notamment le routage, le codage, les formats et les propriétés avancées.
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
