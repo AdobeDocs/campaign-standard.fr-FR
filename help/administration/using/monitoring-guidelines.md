@@ -1,15 +1,15 @@
 ---
 title: Instructions de surveillance
-description: Cette page présente des instructions générales pour la surveillance des Campaign Standards
+description: Cette page présente des directives générales pour le suivi de performance de Campaign Standard
 audience: production
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
