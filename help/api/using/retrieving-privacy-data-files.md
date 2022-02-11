@@ -9,7 +9,7 @@ role: Data Engineer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->L’intégration de [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) est la méthode appropriée pour toutes les demandes d’accès et de suppression. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>L’intégration [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) est la méthode appropriée pour toutes les demandes d’accès et de suppression. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Pour récupérer le fichier contenant toutes les informations associées à une valeur de réconciliation, procédez comme suit :
 
