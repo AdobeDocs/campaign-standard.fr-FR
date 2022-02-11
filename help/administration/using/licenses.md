@@ -1,13 +1,13 @@
 ---
 title: Licences
-description: Obtenez des informations supplémentaires sur les licences installées sur votre instance
+description: En savoir plus sur les licences installées sur votre instance
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
