@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
    ![](assets/sending_delivery2.png)
 
-* **Logs de traitement**: Vous pouvez accéder à une liste des tâches par lots déclenchées par la diffusion à partir du tableau de bord du message en sélectionnant **[!UICONTROL Historique des tâches]** de la **[!UICONTROL Résumé]** liste déroulante.
+* **Logs de tâche** : vous pouvez accéder à une liste des tâches par lots déclenchées par la diffusion, à partir du tableau de bord des messages en sélectionnant **[!UICONTROL Historique des tâches]** de la liste déroulante **[!UICONTROL Résumé]**.
 
-   Sélectionnez une tâche dans la liste pour afficher les détails de la tâche sélectionnée. **[!UICONTROL Tâche par lots]**.
+   Sélectionnez une tâche dans la liste pour afficher les détails de la tâche **[!UICONTROL Traitement par lots]** sélectionnée.
 
    ![](assets/sending_delivery8.png)
 
