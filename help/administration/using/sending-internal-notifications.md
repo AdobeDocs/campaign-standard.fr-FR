@@ -1,12 +1,12 @@
 ---
 title: Envoi de notifications internes
-description: Découvrez comment envoyer des notifications système en temps réel à vos utilisateurs Adobe Campaign
+description: Découvrez comment envoyer des notifications système en temps réel à vos utilisateurs d’Adobe Campaign.
 audience: administration
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
 
