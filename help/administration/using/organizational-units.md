@@ -1,13 +1,13 @@
 ---
 title: Entités organisationnelles
-description: Définissez les niveaux d'accès de vos utilisateurs à l'aide des entités organisationnelles
+description: Définir les niveaux d’accès de vos utilisateurs à l’aide des entités organisationnelles
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
 ht-degree: 100%
 
