@@ -1,15 +1,15 @@
 ---
 title: Cas pratiques mobiles pris en charge dans Adobe Campaign Standard grâce aux SDK Adobe Experience Platform
-description: Découvrez comment prendre en charge les cas pratiques mobiles
+description: Découvrez comment prendre en charge les cas d’utilisation mobiles
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
