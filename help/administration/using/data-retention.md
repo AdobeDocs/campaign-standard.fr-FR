@@ -1,13 +1,13 @@
 ---
 title: Conservation des données
-description: Découvrez les valeurs de rétention par défaut pour les tables standard
+description: Découvrez les valeurs de conservation par défaut pour les tableaux standard
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
