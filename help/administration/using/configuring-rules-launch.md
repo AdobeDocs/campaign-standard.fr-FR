@@ -1,6 +1,6 @@
 ---
 title: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
-description: Découvrez comment configurer des règles Adobe Experience Platform Launch pour prendre en charge les cas pratiques Adobe Campaign Standard
+description: Découvrez comment configurer les règles d’Adobe Experience Platform Launch pour prendre en charge les cas d’utilisation d’Adobe Campaign Standard
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
