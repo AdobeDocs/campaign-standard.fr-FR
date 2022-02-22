@@ -1,18 +1,18 @@
 ---
-title: Création d'un service
-description: Découvrez comment créer un service avec les API
+title: Créer un service
+description: Découvrez comment créer un service à l’aide des API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Création d’un service avec des API{#creating-a-service-api}
+# Créer un service à l’aide des API{#creating-a-service-api}
 
 La création de services est effectuée avec une requête **POST** sur la ressource de service.
 
