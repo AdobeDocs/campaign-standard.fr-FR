@@ -1,18 +1,18 @@
 ---
-title: Interaction avec l’historique marketing
+title: Interagir avec l’historique marketing
 description: Découvrez comment interagir avec l’historique marketing des profils
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
 ht-degree: 100%
 
 ---
 
-# Interaction avec l’historique marketing{#interacting-with-marketing-history}
+# Interagir avec l’historique marketing{#interacting-with-marketing-history}
 
 Le point d’entrée **history** vous permet d’interagir avec l’historique marketing d’un profil.
 Vous pouvez ainsi, par exemple, récupérer facilement la page miroir d’une diffusion envoyée à un profil. Pour ce faire, procédez comme suit :
