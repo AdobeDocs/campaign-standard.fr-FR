@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
    * **[!UICONTROL Effacer les fichiers source après leur transfert]**.: efface les fichiers sur le serveur distant. Si vous ne cochez pas cette option, veillez à surveiller manuellement la taille du contenu archivé dans le répertoire SFTP.
 
-   * **[!UICONTROL Tri des fichiers]**: permet de trier les fichiers par ordre alphanumérique. Par défaut, cette option est désactivée.
+   * **[!UICONTROL Tri des fichiers]** : permet de trier les fichiers par ordre alphanumérique. Par défaut, cette option est désactivée.
 
       <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
@@ -85,7 +85,7 @@ Avec ce protocole, vous pouvez choisir l&#39;option **[!UICONTROL Utiliser des p
 Vous pouvez également choisir l’option **[!UICONTROL Configuration rapide]**. Il suffit de saisir l’URL dans le champ URL.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Suivez les redirections]**, **[!UICONTROL Ignorer le code de retour HTTP]**, et **[!UICONTROL Ajout des en-têtes HTTP reçus au fichier]** sont les options supplémentaires disponibles lorsque vous sélectionnez le protocole HTTP.
+**[!UICONTROL Suivre les redirections]**, **[!UICONTROL Ignorer le code de retour HTTP]** et **[!UICONTROL Ajouter les en-têtes HTTP reçus au fichier]** sont les options supplémentaires disponibles lorsque vous sélectionnez le protocole HTTP.
 
 ### Configuration avec SFTP {#SFTP-configuration-wf}
 
