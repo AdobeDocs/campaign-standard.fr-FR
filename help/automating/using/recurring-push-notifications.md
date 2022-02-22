@@ -1,18 +1,18 @@
 ---
-title: Envoi d'une notification push récurrente avec un workflow
-description: Dans cet exemple, une notification push personnalisée est envoyée chaque premier jour du mois, à 8h, aux abonnés de votre application mobile selon leur fuseau horaire
+title: Envoyer une notification push récurrente avec un workflow
+description: Dans cet exemple, une notification push personnalisée est envoyée chaque premier jour du mois, à 20 h, aux abonnés de votre application mobile selon leur fuseau horaire.
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
 source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Envoi d&#39;une notification push récurrente avec un workflow {#sending-a-recurring-push-notification-with-a-workflow}
+# Envoyer une notification push récurrente avec un workflow {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
