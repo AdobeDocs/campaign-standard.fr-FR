@@ -1,18 +1,18 @@
 ---
-title: Mise à jour des profils
+title: Mettre à jour des profils
 description: Découvrez comment mettre à jour les profils à l’aide des API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '96'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Mise à jour des profils avec les API{#updating-profiles-api}
+# Mettre à jour des profils à l’aide des API{#updating-profiles-api}
 
 La mise à jour des profils est effectuée avec une requête **PATCH** .
 
