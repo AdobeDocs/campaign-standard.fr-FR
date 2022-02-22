@@ -9,13 +9,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Créer un profil avec les API {#creating-profiles-api}
+# Créer un profil à l’aide des API {#creating-profiles-api}
 
 La création de profils est effectuée avec une requête **POST** sur la ressource de profil.
 
