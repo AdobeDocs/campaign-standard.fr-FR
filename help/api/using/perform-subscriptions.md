@@ -1,18 +1,18 @@
 ---
-title: Mise en œuvre des abonnements
-description: Découvrez comment mettre en œuvre des abonnements avec les API
+title: Mettre en œuvre des abonnements
+description: Découvrez comment mettre en œuvre des abonnements à l’aide des API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Mise en oeuvre des abonnements avec les API{#performing-subscriptions}
+# Mettre en œuvre des abonnements à l’aide des API{#performing-subscriptions}
 
 ## Méthode 1 : abonnement d’un profil à un service
 
