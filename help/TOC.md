@@ -5,7 +5,7 @@ user-guide-description: 'Centre d''aide pour les principales fonctionnalités, t
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1809'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
       + [Sélectionner une audience dans un message](audiences/using/selecting-an-audience-in-a-message.md)
    + Gestion des abonnements {#managing-subscriptions}
       + [À propos des abonnements](audiences/using/about-subscriptions.md)
-      + [Création d&#39;un service](audiences/using/creating-a-service.md)
+      + [Créer un service](audiences/using/creating-a-service.md)
       + [Promouvoir un service](audiences/using/promoting-a-service.md)
       + [Contrôler les abonnements](audiences/using/monitoring-subscriptions.md)
       + [Confirmation d&#39;un abonnement à un service](audiences/using/confirming-subscription-to-a-service.md)
@@ -488,14 +488,14 @@ ht-degree: 100%
       + [Ressources personnalisées](api/using/custom-resources.md)
    + [Interaction avec des ressources personnalisées](api/using/interacting-with-custom-resources.md)
    + Gestion de profils {#managing-profiles}
-      + [Récupération des profils](api/using/retrieving-profiles.md)
-      + [Mise à jour des profils](api/using/updating-profiles.md)
+      + [Récupérer des profils](api/using/retrieving-profiles.md)
+      + [Mettre à jour des profils](api/using/updating-profiles.md)
       + [Créer un profil](api/using/creating-profiles-api.md)
    + Gestion des services et des abonnements {#managing-services-and-subscriptiopns}
-      + [Création d&#39;un service](api/using/creating-a-service.md)
-      + [Récupération des abonnements](api/using/retrieving-subscriptions.md)
+      + [Créer un service](api/using/creating-a-service.md)
+      + [Récupérer des abonnements](api/using/retrieving-subscriptions.md)
       + [Mise en œuvre des abonnements](api/using/perform-subscriptions.md)
-      + [Suppression des abonnements](api/using/deleting-subscriptions.md)
+      + [Supprimer des abonnements](api/using/deleting-subscriptions.md)
    + [Interaction avec l&#39;historique marketing](api/using/interacting-with-marketing-history.md)
    + Gestion de la confidentialité {#privacy-management}
       + [Création d&#39;une demande d&#39;accès à des informations personnelles](api/using/creating-a-privacy-request.md)
