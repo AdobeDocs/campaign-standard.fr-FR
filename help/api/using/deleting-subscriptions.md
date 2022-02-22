@@ -1,18 +1,18 @@
 ---
-title: Suppression des abonnements
-description: Découvrez comment supprimer des abonnements avec les API
+title: Supprimer des abonnements
+description: Découvrez comment supprimer des abonnements à l’aide des API
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Suppression des abonnements avec les API {#mdeleting-subscriptions-api}
+# Supprimer des abonnements à l’aide des API {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
