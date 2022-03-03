@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '2815'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '2841'
+ht-degree: 99%
 
 ---
 
@@ -234,6 +234,7 @@ La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 * **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d’activation du tracking sur les URL.
 * **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
+* **[!UICONTROL Utiliser le pixel de suivi en haut de l&#39;email]**: permet de déplacer le pixel de suivi en haut de l&#39;email plutôt qu&#39;en bas.
 
 ### Paramètres avancés {#advanced-parameters}
 
@@ -337,7 +338,7 @@ Les statuts de qualification des bounces sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour en savoir plus sur le sujet, consultez [cette page](../../administration/using/update-bounce-qualification.md).
+>En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour plus d’informations à ce sujet, consultez [cette page](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 

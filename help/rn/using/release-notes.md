@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 * Vous pouvez désormais surveiller votre diffusion et effectuer le suivi des logs de tâches dans la nouvelle liste déroulante **Historique des tâches** du tableau de bord de vos messages. [En savoir plus](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Amélioration de la stabilité et de lʼintégrité de la base de données en réduisant le nombre de tuples inactifs, lorsquʼun grand nombre de messages sont envoyés sur tous les canaux au fil du temps. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Des améliorations ont été apportées à MTA (Mail Transfer Agent ) de Campaign, afin de garantir lʼactualisation automatique des connexions à la base de données en cas de panne ou de redémarrage de celle-ci. (CAMP-48063)
-
+* Nouvelle option de suivi **Utiliser le pixel de suivi en haut de l&#39;email** a été ajouté aux propriétés de l’email, ce qui vous permet de déplacer le pixel de suivi en haut de l’email plutôt qu’en bas. (CAMP-49672)
 
 **Correctifs**
 
