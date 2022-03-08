@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 * Un nouveau message d’alerte informe les utilisateurs d’un taux de rebond élevé.
 * Amélioration des messages d’erreur et des avertissements des logs afin de faciliter le débogage lorsque la récupération des logs de tracking a échoué. (CAMP-48939, CAMP-47360)
 * Vous pouvez maintenant entièrement personnaliser les URL, y compris le nom de domaine. [En savoir plus](../../designing/using/personalization.md#personalizing-urls)
-* Les profils de BAT et de type piège ont désormais été exclus du calcul des performances de diffusion dans les rapports dynamiques. (CAMP-47338)
+* Les profils de BAT et de type piège sont désormais exclus du calcul des performances de diffusion dans les rapports dynamiques. (CAMP-47338)
 
 **Correctifs**
 
