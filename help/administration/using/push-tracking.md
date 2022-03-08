@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le suivi push est divisé en trois types :
 
 * **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
-Pour mettre en oeuvre le suivi pour Campaign Standard, l’application mobile doit inclure les SDK Adobe Experience Platform. Ces SDK sont disponibles dans la section [Documentation des SDK Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+Pour implémenter le tracking de Campaign Standard, l&#39;application mobile doit inclure les SDK Adobe Experience Platform. Ces SDK sont disponibles dans la [Documentation des SDK Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
 Pour envoyer des informations de suivi, trois variables doivent être envoyées. Deux de ces variables font partie des données reçues de Campaign Standard. Une autre variable est une variable d’action qui détermine s’il s’agit d’une **impression**, d’un **clic** ou d’une **ouverture**.
 
@@ -45,9 +45,9 @@ Pour envoyer des informations de suivi, trois variables doivent être envoyées.
 
 ### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-android}
 
-Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l’action lors de l’appel de la fonction `collectMessageInfo()` ou `trackAction()` fonctions.
+Pour le tracking des impressions, vous devez envoyer la valeur « 7 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 
-Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
+Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -86,7 +86,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-android}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel de `collectMessageInfo()` ou `trackAction()` fonctions.
+Pour le tracking des clics, vous devez envoyer la valeur « 2 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 Pour effectuer le suivi des clics, deux scénarios doivent être gérés :
 
 * L’utilisateur voit la notification, mais l’efface.
@@ -248,7 +248,7 @@ private void handleTracking() {
 
 ### Comment mettre en œuvre le suivi des impressions push {#push-impression-tracking-iOS}
 
-Pour le suivi des impressions, vous devez envoyer la valeur &quot;7&quot; pour l’action lors de l’appel de la fonction `collectMessageInfo()` ou `trackAction()` fonctions.
+Pour le tracking des impressions, vous devez envoyer la valeur « 7 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 
 Pour comprendre le fonctionnement des notifications iOS, les trois états d’une application doivent être présentés :
 
@@ -332,7 +332,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Comment mettre en œuvre le suivi des clics {#push-click-tracking-iOS}
 
-Pour le suivi des clics, vous devez envoyer la valeur &quot;2&quot; pour l’action lors de l’appel de `collectMessageInfo()` ou `trackAction()` fonctions.
+Pour le tracking des clics, vous devez envoyer la valeur « 2 » pour l&#39;action lors de l&#39;appel des fonctions `collectMessageInfo()` ou `trackAction()`.
 Pour les diffusions créées avant la version 21.1 ou pour celles avec un modèle personnalisé, consultez cette [section](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
