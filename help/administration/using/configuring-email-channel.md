@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: ht
-source-wordcount: '2841'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '2887'
+ht-degree: 98%
 
 ---
 
@@ -234,7 +234,7 @@ La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 * **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d’activation du tracking sur les URL.
 * **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
-* **[!UICONTROL Utiliser le pixel de tracking en haut de l&#39;e-mail]** : permet de déplacer le pixel de tracking en haut de l&#39;e-mail plutôt qu&#39;en bas.
+* **[!UICONTROL Utiliser le pixel de tracking en haut de l&#39;e-mail]** : permet de déplacer le pixel de tracking en haut de l&#39;e-mail plutôt qu&#39;en bas. Par défaut, ce pixel se trouve au bas de vos emails. Si vous envoyez des messages volumineux, envisagez de déplacer ce pixel en haut de vos emails plutôt qu’en bas afin d’améliorer le suivi des ouvertures. Sinon, le pixel de suivi pourrait être coupé par certains fournisseurs de messagerie.
 
 ### Paramètres avancés {#advanced-parameters}
 

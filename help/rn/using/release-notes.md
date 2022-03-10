@@ -5,17 +5,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 98%
 
 ---
 
 
 # Dernière version{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de janvier du Panneau de contrôle** avec surveillance des débits et de la latence. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
+![Panneau de Contrôle](assets/do-not-localize/cp-icon.png) **Nouvelles versions de Panneau de Contrôle** avec les débits, la latence et la surveillance des workflows. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target=&quot;_blank&quot;}.
 
 ## Version 22.1 - Février 2022 {#feb-2022}
 
