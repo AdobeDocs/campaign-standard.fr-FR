@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
 workflow-type: tm+mt
-source-wordcount: '2887'
-ht-degree: 98%
+source-wordcount: '2882'
+ht-degree: 79%
 
 ---
 
 # Configuration du canal e-mail{#configuring-email-channel}
 
-En tant qu’[administrateur](../../administration/using/users-management.md#functional-administrators) Campaign, vous pouvez configurer les paramètres du canal email. Ces paramètres avancés comprennent les paramètres généraux du canal email, les comptes de routage email, les règles de gestion des emails et les propriétés des emails. Sur cette page, vous apprendrez à modifier les valeurs par défaut des paramètres généraux d’email et d’envoi.
+En tant qu’[administrateur](../../administration/using/users-management.md#functional-administrators) Campaign, vous pouvez configurer les paramètres du canal email. Ces paramètres avancés comprennent les paramètres généraux du canal email, les comptes de routage email, les règles de gestion des emails et les propriétés des emails. Sur cette page, découvrez comment modifier les valeurs par défaut des paramètres généraux d&#39;envoi et d&#39;email.
 
 ## Paramètres du canal email {#email-channel-parameters}
 
@@ -28,7 +28,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
    Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
-   * Si vous souhaitez ajouter une adresse, vous pouvez utiliser le [Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contacter l’assistance clientèle d’Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
+   * Pour ajouter une autre adresse, vous pouvez utiliser [Panneau de Contrôle de campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine, ou contactez l’équipe d’assistance clientèle d’Adobe. Notez que si plusieurs masques sont utilisés, ils sont séparés par des virgules.
    * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
 
 * **Délivrabilité**
@@ -40,7 +40,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Adobe Campaign envoie les messages à compter de la date de début.
 
-   Le champ **[!UICONTROL Durée de diffusion des messages]** permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle tentative.
+   Lorsqu&#39;un message d&#39;une diffusion est rejeté en raison d&#39;une erreur temporaire ou d&#39;un soft bounce, Campaign tente à nouveau d&#39;envoyer ce message tous les jours. Utilisez la variable **[!UICONTROL Durée de diffusion des messages]** pour spécifier la période pendant laquelle des reprises peuvent avoir lieu.
 
    >[!IMPORTANT]
    >
@@ -62,7 +62,7 @@ L’écran Configuration email permet de définir les paramètres du canal email
 
    Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un soft bounce. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
-   Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse email est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l’adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+   Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse email est mise en quarantaine. La valeur par défaut est **&quot;5&quot;**: l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Pour plus d’informations sur ce sujet, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
@@ -142,9 +142,9 @@ En haut de l’écran des paramètres d’email, identifiez l’email à l’aid
 >
 >L’identifiant doit être unique.
 
-Le champ **[!UICONTROL Marque]** permet de sélectionner la marque liée à la diffusion. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Branding](../../administration/using/branding.md).
+Utilisez la variable **[!UICONTROL Marque]** pour sélectionner la marque associée à la diffusion. Pour plus d’informations sur l’utilisation des marques et leur paramétrage, voir la section [Branding](../../administration/using/branding.md).
 
-Le champ **[!UICONTROL Campagne]** permet de renseigner la campagne associée à l’email.
+Dans le **[!UICONTROL Campagne]** , saisissez l&#39;opération associée à l&#39;email.
 
 Vous pouvez également ajouter une **[!UICONTROL Description]** dans le champ correspondant et modifier l’image affichée sur la miniature de l’e-mail, dans les listes.
 
@@ -177,7 +177,8 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
 
 #### Mode test SMTP {#smtp-test-mode}
 
-L’option **[!UICONTROL Activer le mode test SMTP]** permet de tester l’envoi des emails via une connexion SMTP sans envoyer réellement de messages.
+Utilisez la variable **[!UICONTROL Activation du mode test SMTP]** pour tester l&#39;envoi des emails via une connexion SMTP sans envoyer réellement de messages.
+
 Les messages sont traités jusqu’à la connexion au serveur SMTP, mais ne sont pas envoyés.
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Durée de diffusion]**  / **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** : Adobe Campaign envoie les messages à partir de la date de début. Ce champ permet de définir la durée pendant laquelle les messages pourront être envoyés.
+* **[!UICONTROL Durée de diffusion]**  / **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** : Adobe Campaign envoie les messages à partir de la date de début. Utilisez ce champ pour indiquer la période pendant laquelle les messages peuvent être envoyés.
 
    >[!IMPORTANT]
    >
    >**Vous devez définir une valeur allant jusqu’à 3,5 jours.** Si vous définissez une valeur supérieure à 3,5 jours, elle ne sera pas prise en compte.
+   >
+   >Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
 
 * **[!UICONTROL Durée de validité des ressources]** / **[!UICONTROL Date limite de validité des ressources]** : ce champ est utilisé pour les ressources mises en ligne, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d’économiser de l’espace disque).
-* **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Ce champ permet de modifier le mode de génération de cette page :
-
-   >[!IMPORTANT]
-   >
-   >Un contenu HTML doit avoir été défini pour l’email pour que la page miroir soit créée.
+* **[!UICONTROL Gestion de la page miroir]** : la page miroir est une page HTML accessible en ligne via un navigateur web et dont le contenu est identique à celui de l’email. Par défaut, la page miroir est générée si le lien est inséré dans le contenu du mail. Utilisez ce champ pour modifier la manière dont cette page est générée :
 
    * **[!UICONTROL Générer la page miroir si le lien apparaît dans le contenu du message]** (mode par défaut) : la page miroir est générée si le lien est inséré dans le contenu du mail.
    * **Forcer la génération de la page miroir** : même si aucun lien vers la page miroir n’est inséré dans les messages, la page miroir sera créée.
    * **Ne pas générer de page miroir** : aucune page miroir n’est générée, même si le lien est présent dans les messages.
    * **Générer une page miroir accessible depuis l’identifiant du message** : cette option permet d’accéder au contenu de la page miroir, avec les informations de personnalisation, dans l’écran des logs de diffusion.
 
->[!NOTE]
->
->Le paramètre **[!UICONTROL Durée de diffusion]** ne s’applique pas aux messages transactionnels. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
+   >[!IMPORTANT]
+   >
+   >La page miroir n’est générée que si un contenu de HTML a été défini pour l’email.
+
 
 ### Paramètres du tracking   {#tracking-parameters}
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
-* **[!UICONTROL Activer le tracking]** : permet d’activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Limite de validité du tracking]** : permet de définir la durée d’activation du tracking sur les URL.
-* **[!UICONTROL URL de substitution des URL périmées]** : vous pouvez renseigner une URL vers une page web qui sera affichée après expiration du tracking.
-* **[!UICONTROL Utiliser le pixel de tracking en haut de l&#39;e-mail]** : permet de déplacer le pixel de tracking en haut de l&#39;e-mail plutôt qu&#39;en bas. Par défaut, ce pixel se trouve au bas de vos emails. Si vous envoyez des messages volumineux, envisagez de déplacer ce pixel en haut de vos emails plutôt qu’en bas afin d’améliorer le suivi des ouvertures. Sinon, le pixel de suivi pourrait être coupé par certains fournisseurs de messagerie.
+* **[!UICONTROL Activation du suivi]**: utilisez cette option pour activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Limite de validité du suivi]**: utilisez cette option pour définir la durée d&#39;activation du tracking sur les URL.
+* **[!UICONTROL URL de substitution des URL expirées]**: utilisez cette option pour saisir une URL vers une page web de secours : il s’affiche une fois le suivi expiré.
+* **[!UICONTROL Utiliser le pixel de suivi en haut de l&#39;email]**: utilisez cette option pour déplacer le pixel de suivi en haut de l&#39;email plutôt qu&#39;en bas. Par défaut, ce pixel se trouve au bas de vos emails. Si vous envoyez des messages volumineux, envisagez de déplacer ce pixel en haut de vos emails plutôt qu’en bas afin d’améliorer le suivi des ouvertures. Sinon, le pixel de suivi pourrait être coupé par certains fournisseurs de messagerie.
 
 ### Paramètres avancés {#advanced-parameters}
 
@@ -250,7 +250,7 @@ L’insertion et l’utilisation du contenu de personnalisation sont présentée
 
 #### Contexte de ciblage   {#target-context}
 
-Le contexte de ciblage permet de définir l’ensemble les tables qui seront utilisées pour le ciblage (dans l’écran de définition des audiences) et la personnalisation (définition de champs de personnalisation, dans l’éditeur de contenu HTML) de l’email.
+Utilisez le contexte de ciblage pour définir un ensemble de tables qui seront utilisées pour le ciblage des emails (dans l&#39;écran de définition de l&#39;audience) et la personnalisation (définition de champs de personnalisation dans l&#39;éditeur de contenu de HTML).
 
 #### Routage  {#routing}
 
@@ -270,15 +270,15 @@ La préparation des messages est présentée dans la section [Valider les messag
    >
    >Les typologies, accessibles via le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]**, sont présentées dans [cette section](../../sending/using/about-typology-rules.md).
 
-* **[!UICONTROL Calculer le libellé lors de la préparation de la diffusion]** : permet de calculer la valeur du libellé de l’email pendant la phase de préparation du message à l’aide des champs de personnalisation, des blocs de contenu et du texte dynamique.
+* **[!UICONTROL Calculer le libellé lors de la préparation de la diffusion]**: utilisez cette option pour calculer la valeur du libellé de l&#39;email lors de la phase de préparation des messages à l&#39;aide de champs de personnalisation, de blocs de contenu et de texte dynamique.
 
    Il est également possible de personnaliser le libellé de la diffusion avec les variables d’événements qui ont été déclarées dans l’activité de signal externe du workflow. Pour plus d’informations, consultez [cette section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : cette option permet d’ajouter les logs des requêtes SQL dans le journal lors de la phase de préparation.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**: utilisez cette option pour ajouter les logs de requête SQL dans le journal pendant la phase de préparation.
 
 #### Paramètres de BAT {#proof-settings}
 
-Cette section vous permet de configurer le préfixe par défaut à utiliser dans l’objet. Voir à ce propos [cette section](../../sending/using/sending-proofs.md).
+Dans cette section, vous pouvez configurer le préfixe par défaut à utiliser dans l’objet des messages du BAT. En savoir plus sur les BAT dans [cette section](../../sending/using/sending-proofs.md).
 
 ### Liste des paramètres SMTP des emails {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ La section **[!UICONTROL SMTP]** propose les paramètres suivants :
 
 La section **[!UICONTROL Autorisation d’accès]** propose les paramètres suivants :
 
-* Le champ **[!UICONTROL Entité organisationnelle]** permet de restreindre l’accès de cet email à certains utilisateurs. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités enfants auront accès, en lecture seule, à cet email.
+* Le **[!UICONTROL Entité organisationnelle]** sert à restreindre l’accès de cet email à certains utilisateurs. Les utilisateurs associés à l’entité spécifiée ou aux entités parentes auront accès, en lecture et écriture, à cet email. Les utilisateurs associés aux entités enfants auront accès, en lecture seule, à cet email.
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec u
 
 ### Durée de diffusion {#legacy-delivery-duration}
 
-Le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le [menu Configuration](#email-channel-parameters) permet de spécifier la période pendant laquelle tout message contenu dans la diffusion, et entraînant une erreur temporaire ou un soft bounce, fera l’objet d’une nouvelle reprise.
+Utilisez la variable **[!UICONTROL Durée de diffusion des messages]** du paramètre [Menu de configuration](#email-channel-parameters) pour spécifier la période pendant laquelle tout message de la diffusion qui rencontre une erreur temporaire ou un soft bounce sera repris.
 
-La **[!UICONTROL Durée de diffusion]** ou **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) permet de spécifier la durée pendant laquelle les messages peuvent être envoyés.
+Utilisez la variable **[!UICONTROL Durée de diffusion]** ou **[!UICONTROL Limite de validité pour l’envoi de messages]** du paramètre [Paramètres de période de validité](#validity-period-parameters) pour indiquer la durée pendant laquelle les messages peuvent être envoyés.
 
 ### Règles de gestion des emails   {#legacy-email-processing-rules}
 
-Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiées par les administrateurs via le [menu](#email-processing-rules) **[!UICONTROL Administration > Canaux > Email > Règles de traitement des emails]**.
+Les règles **[!UICONTROL gestion MX]**, **[!UICONTROL Bounces]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiées par les administrateurs via le menu **[!UICONTROL Administration > Canaux > Email > Règles de traitement des emails.]** [En savoir plus](#email-processing-rules).
 
-### Qualification des emails bounce   {#legacy-bounce-mail-qualification}
+### Qualification des emails bounce     {#legacy-bounce-mail-qualification}
 
-Pour répertorier les différents bounces et les types d’erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+Pour répertorier les différents bounces, ainsi que les types d’erreur et les raisons associés, cliquez sur le bouton **Adobe** logo, en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
 Les statuts de qualification des bounces sont les suivants :
 
@@ -338,12 +338,12 @@ Les statuts de qualification des bounces sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour plus d’informations à ce sujet, consultez [cette page](../../administration/using/update-bounce-qualification.md).
+>En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. [En savoir plus](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Rapports d&#39;indicateur de messages diffusés {#legacy-delivered-status-report}
 
-Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Diffusés]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les soft et hard bounces sont signalés.
+Dans le **[!UICONTROL Résumé]** vue de chaque message, la variable **[!UICONTROL Délivrés]** augmente progressivement tout au long de la période de validité de la diffusion, à mesure que les soft et hard bounces sont signalés.
 
-Les messages soft bounces s’affichent sous la forme **[!UICONTROL Échec]** après le premier jour de la diffusion, et ils font l&#39;objet de nouvelles reprises chaque jour supplémentaire de la période de validité de la diffusion.
+Les messages rebonds soft s’affichent comme **[!UICONTROL En échec]** le premier jour suivant la diffusion. Ces messages sont relancés chaque jour, jusqu&#39;à la fin de la période de validité de la diffusion.
