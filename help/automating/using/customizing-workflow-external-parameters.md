@@ -1,5 +1,5 @@
 ---
-title: Appeler un workflow avec des paramètres externes
+title: Personnaliser un workflow avec des paramètres externes
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
 content-type: reference
@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 100%

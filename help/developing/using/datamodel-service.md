@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Service DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 99%
 
 ---
 

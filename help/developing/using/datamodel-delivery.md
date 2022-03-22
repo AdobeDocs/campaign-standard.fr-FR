@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Diffusion DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 99%
 
 ---
 
@@ -363,7 +363,7 @@ ht-degree: 100%
                         <li>Email - email - 0</li>
                         <li>Phone - phone - 2</li>
                         <li>Direct mail - paper - 3</li>
-                        <li>Application mobile - pushNotification - 40</li>
+                        <li>Application Mobile - pushNotification - 40</li>
                         <li>Other - other - 120</li>
                         <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>

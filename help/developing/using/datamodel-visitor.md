@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Visiteur DataModel
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '145'
+ht-degree: 98%
 
 ---
 

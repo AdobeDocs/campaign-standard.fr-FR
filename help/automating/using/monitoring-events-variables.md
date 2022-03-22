@@ -1,5 +1,5 @@
 ---
-title: Appeler un workflow avec des paramètres externes
+title: Suivi des variables d'événements
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 100%
 
 ---
