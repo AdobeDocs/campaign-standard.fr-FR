@@ -1,5 +1,5 @@
 ---
-title: Mise en œuvre du suivi local
+title: Implémenter le tracking local
 description: Découvrez comment vérifier que le suivi des notifications push a été correctement mis en œuvre sur iOS et Android
 audience: channels
 feature: Instance Settings
@@ -7,13 +7,13 @@ role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
 ht-degree: 100%
 
 ---
 
-# Mise en œuvre du suivi local {#local-tracking}
+# Implémenter le tracking local {#local-tracking}
 
 ## À propos du suivi local {#about-local-tracking}
 
