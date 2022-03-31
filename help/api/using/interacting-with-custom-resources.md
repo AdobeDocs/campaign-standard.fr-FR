@@ -1,6 +1,6 @@
 ---
-title: Interaction avec des ressources personnalisées
-description: En savoir plus sur la gestion des ressources personnalisées avec les API.
+title: Interagir avec des ressources personnalisées
+description: En savoir plus sur la gestion des ressources personnalisées avec les API
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,13 +9,13 @@ role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
 ht-degree: 100%
 
 ---
 
-# Interaction avec des ressources personnalisées {#interacting-with-custom-resources}
+# Interagir avec des ressources personnalisées {#interacting-with-custom-resources}
 
 Le point d’entrée **/customResources** vous permet d’exposer les ressources personnalisées Campaign dans REST. Grâce à cette API, l’intégration entre les entités personnalisées et les points d’entrée externes est possible.
 
