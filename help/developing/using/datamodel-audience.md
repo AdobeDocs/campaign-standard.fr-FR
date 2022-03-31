@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 99%
                <tr>
                   <td>errorLimit</td>
                   <td>Errors before aborting</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -153,7 +153,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -202,7 +202,7 @@ ht-degree: 99%
                <tr>
                   <td>sourceId</td>
                   <td>Source Id</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
