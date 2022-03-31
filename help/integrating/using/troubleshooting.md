@@ -1,5 +1,5 @@
 ---
-title: Résolution des problèmes d’intégration
+title: Résoudre des problèmes d'intégration
 description: Découvrez comment résoudre les problèmes liés au partage des ressources.
 audience: integrating
 content-type: reference
@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Dans ce cas, vérifiez que les éléments suivants sont correctement configurés
 
 * **Comptes externes**
 
-   Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Comptes externes]**, vérifiez que les comptes S3 externes ci-dessous sont correctement configurés. Les serveurs S3 mentionnés doivent avoir été configurés pendant la mise en service.
+   Dans **[!UICONTROL Administration]** > **[!UICONTROL Paramétrage de l&#39;application]** > **[!UICONTROL Comptes externes]**, vérifiez que les comptes S3 externes ci-dessous sont correctement configurés. Les serveurs S3 mentionnés doivent avoir été configurés pendant l’approvisionnement.
 
    * **[!UICONTROL importSharedAudience]** : compte S3 dédié à l&#39;import d&#39;audiences.
    * **[!UICONTROL exportSharedAudience]** : compte S3 dédié à l&#39;export d&#39;audiences.
