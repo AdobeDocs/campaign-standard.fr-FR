@@ -1,5 +1,5 @@
 ---
-title: Journaux de suivi des modèles de données
+title: Logs de tracking du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '36'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
