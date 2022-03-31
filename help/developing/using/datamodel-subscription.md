@@ -1,5 +1,5 @@
 ---
-title: Événement d’abonnement au modèle de données
+title: Événement d'abonnement du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '79'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Evénement d&#39;abonnement (nms:rtEvent)
+# Événement d&#39;abonnement (nms:rtEvent)
 
 ## Description de l&#39;objet
 
