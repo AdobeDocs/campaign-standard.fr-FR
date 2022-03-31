@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2908'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ En tant qu’[administrateur](../../administration/using/users-management.md#fun
 
 ## Paramètres du canal email {#email-channel-parameters}
 
-L’écran Configuration email permet de définir les paramètres du canal email. Les administrateurs peuvent accéder à ces configurations dans le me **[!UICONTROL Administration] > [!UICONTROL Canaux] > [!UICONTROL Email] > [!UICONTROL Configuration]**.
+L’écran Configuration du canal e-mail permet de définir les paramètres du canal e-mail. Les administrateurs peuvent accéder à ces configurations dans le me **[!UICONTROL Administration] > [!UICONTROL Canaux] > [!UICONTROL Email] > [!UICONTROL Configuration]**.
 
 ![](assets/channels_1.png)
 
@@ -177,7 +177,7 @@ Vous pouvez paramétrer le format des emails envoyés. Trois options sont dispon
 
 #### Mode test SMTP {#smtp-test-mode}
 
-Utilisez l&#39;option **[!UICONTROL Activer le mode test SMTP]** pour tester l&#39;envoi d&#39;e-mails via une connexion SMTP sans envoyer réellement de messages. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
+Utilisez l&#39;option **[!UICONTROL Activer le mode test SMTP]** pour tester l&#39;envoi d&#39;e-mails via une connexion SMTP sans envoyer réellement de messages. La diffusion est traitée jusqu&#39;à la connexion au serveur SMTP mais n&#39;est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
