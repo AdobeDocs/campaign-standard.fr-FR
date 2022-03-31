@@ -1,14 +1,14 @@
 ---
-title: Dépannage des API
+title: Résolution des problèmes d’API
 description: Découvrez les problèmes courants liés aux API Campaign Standard
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,10 +20,10 @@ Vous ne pouvez créer des clés d’API que pour les organisations IMS dont vous
 
 * **Lors de l’exécution d’une requête sur Adobe.io, vous obtenez {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profil non valide&quot;}.**
 
-Cela signifie qu’il existe un problème avec la mise en service IMS de votre produit Campaign spécifique : l’équipe IMS doit le résoudre.
+Cela signifie qu’il existe un problème avec l’approvisionnement IMS de votre produit Campaign spécifique : l’équipe IMS doit le résoudre.
 
 Pour plus de détails, vous pouvez appeler l’API IMS avec votre jeton pour voir à quoi ressemble votre profil IMS : pour qu’Adobe.io puisse acheminer votre requête, vous devez disposer d’un prodCtx possédant un identifiant id_organization identique à celui inséré dans l’URL.
-S’il manque, la mise en service IMS doit être corrigée.
+S’il manque, l’approvisionnement IMS doit être corrigé.
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
