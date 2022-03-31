@@ -1,5 +1,5 @@
 ---
-title: Membre de contrôle DataModel
+title: Membre de contrôle du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -257,7 +257,7 @@ Par usage (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>BAT</td>
+        <td>proof</td>
         <td>boolean</td>
         </tr>
     </table>
