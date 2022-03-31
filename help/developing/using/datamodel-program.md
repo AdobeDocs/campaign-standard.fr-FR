@@ -1,5 +1,5 @@
 ---
-title: Programme DataModel
+title: Programme du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 99%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 99%
                         <li>Started - started - 1</li>
                         <li>Editing - edition - 0</li>
                         <li>Finished - finished - 2</li>
-                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
