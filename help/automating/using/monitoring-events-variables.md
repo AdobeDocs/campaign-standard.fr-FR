@@ -1,5 +1,5 @@
 ---
-title: Suivi des variables d'événements
+title: Surveiller des variables d'événements
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
 content-type: reference
@@ -9,13 +9,13 @@ role: Data Architect
 level: Intermediate
 exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
 ht-degree: 100%
 
 ---
 
-# Suivi des variables d&#39;événements {#monitoring-the-events-variables}
+# Surveiller des variables d&#39;événements {#monitoring-the-events-variables}
 
 Il est possible de suivre les variables d’événements disponibles dans le workflow, y compris les paramètres externes déclarés. Pour cela, procédez comme suit :
 
