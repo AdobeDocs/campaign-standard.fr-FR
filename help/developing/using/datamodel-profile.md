@@ -1,5 +1,5 @@
 ---
-title: Profil DataModel
+title: Profil du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1249'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -197,7 +197,7 @@ ht-degree: 99%
                         <li>Unspecified - unknown - 0</li>
                         <li>Male - male - 1</li>
                         <li>Female - female - 2</li>
-                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -359,7 +359,7 @@ ht-degree: 99%
                         <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                         <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                         <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-                        <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                         <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                         <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -452,11 +452,11 @@ Anniversaire (birthday)
 </tr>
 <tr>
 <td>previousUnitsValue</td>
-<td>entier</td>
+<td>integer</td>
 </tr>
 <tr>
 <td>nextUnitsValue</td>
-<td>entier</td>
+<td>integer</td>
 </tr>
 <tr>
 <td>endDay</td>
