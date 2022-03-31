@@ -1,5 +1,5 @@
 ---
-title: Événement de désabonnement au modèle de données
+title: Événement de désabonnement du modèle de données
 description: En savoir plus sur le datamodel
 audience: developing
 content-type: reference
@@ -8,13 +8,13 @@ role: Developer
 level: Experienced
 exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# Evénement de désabonnement (nms:rtEvent)
+# Événement de désabonnement (nms:rtEvent)
 
 ## Description de l&#39;objet
 
