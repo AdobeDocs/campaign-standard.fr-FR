@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2510'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ L&#39;intégration ne permet pas de supprimer ou de traiter toute autre demande 
 
 Si vous avez configuré l&#39;intégration pour émettre des appels de suppression de profil classiques à Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, suivez les étapes ci-dessous. Vérifiez qu&#39;aucune mise à jour n&#39;est effectuée sur l&#39;enregistrement concerné au cours de ce processus.
 
-1. Émettre une demande de suppression des informations personnelles à [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Émettre une demande de suppression des informations personnelles à [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. Surveiller la demande jusqu&#39;à ce qu&#39;elle soit terminée
 

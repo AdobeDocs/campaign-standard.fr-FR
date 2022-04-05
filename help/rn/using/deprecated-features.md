@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 97%
@@ -133,7 +133,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 21.2 de Campaign, l'utilisation de l'API et de l'interface de Campaign pour les demandes d'accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>À compter de la version 21.2 de Campaign, l'utilisation de l'API et de l'interface de Campaign pour les demandes d'accès à des informations personnelles et de suppression est obsolète. La suppression en deux étapes ne sera pas disponible. Utilisez <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a>.</p></br>
    <p>Voir aussi <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=fr">Gestion des demandes d'accès à des informations personnelles</a>.</p>
   </td> 
   </tr> 
