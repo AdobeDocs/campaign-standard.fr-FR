@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 100%
 
@@ -180,16 +180,16 @@ ht-degree: 100%
                <li>Greek - el - el</li>
                <li>English - en - en</li>
                <li>Chinese - zh - zh</li>
-               <li>French (France) - fr_FR - fr_FR</li>
+               <li>Français (France) - fr_FR - fr_FR</li>
                <li>Vietnamese - vi - vi</li>
-               <li>Portuguese (Portugal) - pt_PT - pt_PT</li>
-               <li>Italian (Italy) - it_IT - it_IT</li>
-               <li>Italian - it - it</li>
-               <li>Dutch (Belgium) - nl_BE - nl_BE</li>
-               <li>Norwegian (Norway) - no_NO - no_NO</li>
-               <li>Dutch (Netherlands) - nl_NL - nl_NL</li>
+               <li>Portugais (Portugal) - pt_PT - pt_PT</li>
+               <li>Italien (Italie) - it_IT - it_IT</li>
+               <li>Italien - it - it</li>
+               <li>Néerlandais (Belgique) - nl_BE - nl_BE</li>
+               <li>Norvégien (Norvège) - no_NO - no_NO</li>
+               <li>Néerlandais (Pays-Bas) - nl_NL - nl_NL</li>
                <li>Arabic - ar - ar</li>
-               <li>English (United States) - en_US - en_US</li>
+               <li>Anglais (États-Unis) - en_US - en_US</li>
                <li>Irish - ga - ga</li>
                <li>Czech - cs - cs</li>
                <li>Estonian - et - et</li>
@@ -198,30 +198,30 @@ ht-degree: 100%
                <li>Russian - ru - ru</li>
                <li>Dutch - nl - nl</li>
                <li>Walloon - wa - wa</li>
-               <li>Portuguese - pt - pt</li>
-               <li>French (Belgium) - fr_BE - fr_BE</li>
-               <li>Latvian - lv - lv</li>
-               <li>Lithuanian - lt - lt</li>
+               <li>Portugais - pt - pt</li>
+               <li>Français (Belgique) - fr_BE - fr_BE</li>
+               <li>Letton - lv - lv</li>
+               <li>Lituanien - lt - lt</li>
                <li>Thai - th - th</li>
-               <li>English (United Kingdom) - en_GB - en_GB</li>
+               <li>Anglais (Royaume-Uni) - en_GB - en_GB</li>
                <li>French - fr - fr</li>
-               <li>Portuguese (Brazil) - pt_BR - pt_BR</li>
+               <li>Portugais (Brésil) - pt_BR - pt_BR</li>
                <li>German - de - de</li>
                <li>Danish - da - da</li>
-               <li>Finnish - fi - fi</li>
+               <li>Finnois - fi - fi</li>
                <li>Hungarian - hu - hu</li>
-               <li>Swedish (Finland) - sv_FI - sv_FI</li>
+               <li>Suédois (Finlande) - sv_FI - sv_FI</li>
                <li>Japanese - ja - ja</li>
-               <li>Hebrew - he - he</li>
+               <li>Hébreu - he - he</li>
                <li>Korean - ko - ko</li>
                <li>Swedish - sv - sv</li>
-               <li>Sweden (Swedish) - sv_SE - sv_SE</li>
-               <li>Slovak - sk - sk</li>
+               <li>Suède (suédois) - sv_SE - sv_SE</li>
+               <li>Slovaque - sk - sk</li>
                <li>Maltese - mt - mt</li>
-               <li>Italian (Switzerland) - it_CH - it_CH</li>
-               <li>Polish - pl - pl</li>
-               <li>Slovene - sl - sl</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>Italien (Suisse) - it_CH - it_CH</li>
+               <li>Polonais - pl - pl</li>
+               <li>Slovène - sl - sl</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -299,7 +299,7 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>label</td>
-         <td>Label</td>
+         <td>Libellé</td>
          <td>string (128)</td>
          <td> </td>
       </tr>
@@ -332,7 +332,7 @@ ht-degree: 100%
                <li>Finished - finished - finished</li>
                <li>Warning - warning - warning</li>
                <li>Erroneous - error - error</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -410,7 +410,7 @@ ht-degree: 100%
             <ul>
                <li>Update - updateTarget - 1</li>
                <li>Unauthorized - unauthorized - 0</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
@@ -429,7 +429,7 @@ ht-degree: 100%
                <li>Blacklist - blackList - 3</li>
                <li>No specific action - none - 0</li>
                <li>Unsubscription - unsubscription - 2</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                <li>Subscription - subscription - 1</li>
             </ul>
          </td>
@@ -449,7 +449,7 @@ ht-degree: 100%
                <li>Editing - edit - 0</li>
                <li>Publishing failed - failed - 99</li>
                <li>Closed - closed - 20</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                <li>Online - opened - 10</li>
             </ul>
          </td>
@@ -542,7 +542,7 @@ ht-degree: 100%
                <li>(GMT+12:00) Fidji - Pacific_Fiji - Pacific/Fiji</li>
                <li>(GMT+02:00) Athens, Istanbul, Minsk - Europe_Athens - Europe/Athens</li>
                <li>(GMT+04:00) Tbilissi - Asia_Tbilisi - Asia/Tbilisi</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45) Katmandu - Asia_Katmandu - Asia/Katmandu</li>
                <li>(GMT-05:00) Indiana (East) - America_Indianapolis - America/Indianapolis</li>
                <li>(GMT-01:00) Cape Verde islands - Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
@@ -632,7 +632,7 @@ ht-degree: 100%
                <li>Generic - generic - 0</li>
                <li>Unsubscription from a service - unsubscription - 3</li>
                <li>Blacklist - blackList - 4</li>
-               <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
+               <li>VALEUR INVALIDE - __Invalid_value__ - __Invalid_value__</li>
                <li>Acquisition - acquisition - 1</li>
                <li>Subscription to a service - subscription - 2</li>
             </ul>

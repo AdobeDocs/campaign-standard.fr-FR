@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Suivez les étapes décrites dans [Création d’un déclencheur mappé dans Cam
 Si le déclencheur est créé, passez à l’étape suivante. Dans le cas contraire, la connexion du paramétrage de l’intégration du déclencheur a échoué. Vérifiez si Triggers est configuré dans Experience Cloud (Découvrez les notions de base d&#39;Adobe Campaign par le biais de procédures détaillées simples et tirez parti de la puissance de la solution.). Dans le cas contraire, contactez votre chargé de compte Adobe ou votre partenaire de services professionnels. Les informations suivantes sont nécessaires :
 
 * Nom de la société Experience Cloud
-* Identifiant de l’organisation IMS
+* Identifiant de l&#39;organisation
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 **Tentative de publication d’un déclencheur**

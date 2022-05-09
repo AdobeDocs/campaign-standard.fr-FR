@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Cette fonctionnalité doit être activée dans Adobe Campaign par Adobe. Contact
 L&#39;équipe Adobe aura besoin des informations suivantes pour activer les déclencheurs :
 
 * Nom de la société Experience Cloud
-* Identifiant de l’organisation IMS
+* Identifiant de l&#39;organisation
 * Identifiant de société Analytics (peut être identique au nom de la société Experience Cloud)
 
 ## Configuration des solutions et services      {#configuring-solutions-and-services}
@@ -101,7 +101,7 @@ Consultez la [documentation Adobe Experience Cloud](https://experienceleague.a
 
 Voici la liste des bonnes pratiques et des limites qui s&#39;appliquent à l&#39;utilisation de l&#39;intégration Campaign - Triggers :
 
-* Si vous disposez de plusieurs instances Campaign Standard, toutes ces instances peuvent recevoir des Triggers tant qu&#39;elles sont sur le même identifiant de l’organisation IMS. Analytics doit lui aussi être sur le même identifiant de l’organisation IMS.
+* Si vous disposez de plusieurs instances de Campaign Standard, toutes les instances peuvent recevoir des déclencheurs tant qu’elles se trouvent dans la même organisation. Analytics doit également appartenir à la même organisation.
 * Vous ne pouvez pas créer de déclencheur dans le Trigger Core Service à l&#39;aide d&#39;événements provenant de deux suites de rapports différentes.
 * Les déclencheurs se basent sur les messages transactionnels. Les messages transactionnels sont utilisés dès que vous devez envoyer un message très rapidement. Vous ne pouvez pas mettre en liste d&#39;attente des messages transactionnels et les faire s&#39;exécuter en boucle dans un lot.
 * Par nature, les déclencheurs ne sont pas déterministes. Lorsqu&#39;un déclencheur est généré, il envoie tous les alias associés au cookie. Par conséquent, en cas de navigateurs partagés comme dans les bornes de magasins, les bibliothèques, les cybercafés, ou sur les appareils partagés au domicile (mari et femme se connectant sur un même appareil), il n&#39;est pas possible de se mapper au bon ID. Tous les ID utilisés pour se connecter au navigateur sont envoyés à Campaign, qui transmet un message en fonction de la première réconciliation. S&#39;il existe plusieurs « ID d&#39;emails » éligibles pour la réconciliation, Campaign n&#39;envoie pas d&#39;email. Campaign n&#39;a aucun moyen de déterminer le bon ID d&#39;email, sauf s&#39;il est récupéré et communiqué par Analytics.

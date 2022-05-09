@@ -1,5 +1,5 @@
 ---
-title: Configuration de l’intégration d’Adobe IO pour Microsoft Dynamics 365
+title: Configuration de l’Intégration avec Adobe IO pour Microsoft Dynamics 365
 description: Découvrez comment configurer l’intégration d’Adobe IO pour Microsoft Dynamics 365.
 audience: integrating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Vous devez créer un projet Adobe IO et le configurer pour l’intégration.
 
 Pour ce faire, procédez comme suit :
 
-1. Accédez à la [console d’Adobe IO](https://console.adobe.io/home#) et sélectionnez votre ID d’organisation Adobe IMS dans le menu déroulant de la partie supérieure droite de l’écran.
+1. Accédez à la [console d’Adobe IO](https://console.adobe.io/home#) et sélectionnez votre ID d’organisation Adobe dans le menu déroulant de la partie supérieure droite de l’écran.
 
 1. Cliquez ensuite sur **[!UICONTROL Créer un projet]** sous **[!UICONTROL Démarrage rapide]**.
 
