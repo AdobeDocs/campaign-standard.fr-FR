@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 100%
+source-wordcount: '1605'
+ht-degree: 98%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 En plus des [profils de test](../../audiences/using/managing-test-profiles.md), vous pouvez tester un email en vous mettant à la place de l’un des profils ciblés. Cela vous permet d’obtenir une représentation réaliste du message que le profil recevra (champs personnalisés, informations dynamiques et personnalisées, y compris les données additionnelles provenant des workflows...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Cette fonctionnalité est disponible avec les emails uniquement.
+>Cette fonctionnalité vous permet d’envoyer des informations personnelles de profil à des adresses email externes. Gardez à l’esprit que l’exécution des demandes d’accès à des informations personnelles (RGPD et CCPA) dans Campaign Standard NE S’EXÉCUTERA PAS en externe.
 
 Les étapes principales sont les suivantes :
 
@@ -35,9 +35,9 @@ Les étapes principales sont les suivantes :
 1. **Prévisualisez** dans le Concepteur d’email la manière dont l’email s’affichera pour les profils.
 1. Envoyez les bons à tirer.
 
->[!IMPORTANT]
->
->Cette fonctionnalité vous permet d’envoyer des informations personnelles de profil à des adresses email externes. Gardez à l’esprit que l’exécution des demandes d’accès à des informations personnelles (RGPD et CCPA) dans Campaign Standard NE S’EXÉCUTERA PAS en externe.
+   >[!IMPORTANT]
+   >
+   >Les bons à tirer sont traités par [!DNL Campaign Standard] comme diffusions standard. Par conséquent, l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux logs de diffusion et de tracking des profils sélectionnés.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
