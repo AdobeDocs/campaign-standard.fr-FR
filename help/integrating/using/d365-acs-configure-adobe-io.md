@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Vous devez créer un projet Adobe IO et le configurer pour l’intégration.
 
 Pour ce faire, procédez comme suit :
 
-1. Accédez à la [console d’Adobe IO](https://console.adobe.io/home#) et sélectionnez votre ID d’organisation Adobe dans le menu déroulant de la partie supérieure droite de l’écran.
+1. Accédez à [Adobe IO Console](https://console.adobe.io/home#) et sélectionnez votre ID d’organisation Adobe dans le menu déroulant de la partie supérieure droite de l’écran.
 
 1. Cliquez ensuite sur **[!UICONTROL Créer un projet]** sous **[!UICONTROL Démarrage rapide]**.
 
