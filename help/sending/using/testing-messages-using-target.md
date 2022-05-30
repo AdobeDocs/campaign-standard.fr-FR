@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les étapes principales sont les suivantes :
 
    >[!IMPORTANT]
    >
-   >Les bons à tirer sont traités par [!DNL Campaign Standard] comme diffusions standard. Par conséquent, l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux logs de diffusion et de tracking des profils sélectionnés.
+   >Les BAT sont traités par [!DNL Campaign Standard] comme des diffusions standard. Par conséquent, l’envoi de BAT à l’aide de la substitution de profil ajoutera des enregistrements aux logs de diffusion et de tracking des profils sélectionnés.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
