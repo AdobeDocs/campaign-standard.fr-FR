@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 37%
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 **Amélioration**
 
-* **Adobe Notification Service** - Campaign est fourni avec le service de notification d’Adobe qui permet aux solutions Experience Cloud d’alerter les utilisateurs sur les activités qui sont importantes pour eux dans l’ensemble de l’Experience Cloud. À compter de la version 2.2, l’expérience utilisateur a été améliorée : les notifications sont hiérarchisées et les notifications générées par un produit sont séparées des annonces d’état d’Adobe. De plus, lorsque la notification fait référence à un workflow spécifique, vous pouvez désormais accéder directement au workflow correspondant à partir de l&#39;email ou de la notification intégrée au produit.  Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+* **Adobe Notification Service** - Campaign est fourni avec Adobe Notification Service, qui permet aux solutions Experience Cloud de tenir les utilisateurs d’Experience Cloud informés des activités qui leur sont importantes. À compter de la version 22.2, l’expérience utilisateur a été améliorée : les notifications sont hiérarchisées et les notifications générées par les produits sont séparées des annonces de statut d’Adobe. En complément, lorsque la notification fait référence à un workflow spécifique, vous pouvez désormais accéder directement au workflow correspondant à partir de l’e-mail ou de la notification intégrée au produit.  Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 
-**Mise à niveau de sécurité**
+**Mise à niveau de la sécurité**
 
-* Cette version est fournie avec une activité de mise à niveau de sécurité pour atténuer la vulnérabilité Apache et rendre votre environnement d’instance plus sécurisé. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}.
+* Cette version est fournie avec une activité de mise à niveau de la sécurité pour atténuer la vulnérabilité Apache et rendre votre environnement d’instance plus sécurisé. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=fr){target=&quot;_blank&quot;}.
 
