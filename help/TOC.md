@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Centre d''aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l''utilisation de Campaign Standard. '
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1809'
 ht-degree: 100%
 
@@ -79,9 +79,9 @@ ht-degree: 100%
       + [Modèles de messages multilingues](channels/using/multilingual-messages-template.md)
       + [Prise en main des canaux mobiles](channels/using/mobile-guide.md)
    + Bonnes pratiques relatives à la diffusion {#delivery-bestpractices}
-      + [Découvrir les bonnes pratiques](sending/using/delivery-best-practices.md)
-      + [Optimiser votre diffusion](sending/using/optimize-delivery.md)
-      + [Utilisez les modèles](sending/using/use-templates.md)
+      + [Découverte des bonnes pratiques](sending/using/delivery-best-practices.md)
+      + [Optimisation de votre diffusion](sending/using/optimize-delivery.md)
+      + [Utilisation de modèles](sending/using/use-templates.md)
       + [Création de contenu personnalisé](sending/using/design-and-personalize.md)
       + [Définition de l&#39;audience appropriée](sending/using/define-the-right-audience.md)
       + [Vérification avant envoi](sending/using/check-before-sending.md)
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Dimensions et mesures de Campaign dans Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign et Audience Manager ou People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [À propos de l&#39;intégration Campaign-Audience Manager ou People core service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [ Approvisionnement et configuration de l&#39;intégration avec Audience Manager ou People core service](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Résolution des problèmes](integrating/using/troubleshooting.md)
       + [Partage d&#39;audiences avec Audience Manager ou People core service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Utilisation de Campaign et Assets core service](integrating/using/working-with-campaign-and-assets-core-service.md)

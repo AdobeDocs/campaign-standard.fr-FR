@@ -8,8 +8,8 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ L&#39;alias référencé précédemment dans DTM doit être créé dans le Core 
 
    >[!NOTE]
    >
-   >Vous pouvez réconcilier vos déclencheurs pour les utilisateurs anonymes et enregistrés. Pour les utilisateurs anonymes, le profil doit exister dans Adobe Campaign et un email a déjà été envoyé à l&#39;utilisateur. Pour cela, la configuration d&#39;identifiant de visiteur suffit. Toutefois, si vous souhaitez réconcilier des déclencheurs pour les utilisateurs enregistrés, vous devez paramétrer la source de données ID déclaré. Pour en savoir plus, consultez [Configuration de la source de données](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >Vous pouvez réconcilier vos déclencheurs pour les utilisateurs anonymes et enregistrés. Pour les utilisateurs anonymes, le profil doit exister dans Adobe Campaign et un email a déjà été envoyé à l&#39;utilisateur. Pour cela, la configuration d&#39;identifiant de visiteur suffit. Toutefois, si vous souhaitez réconcilier des déclencheurs pour les utilisateurs enregistrés, vous devez paramétrer la source de données ID déclaré. Pour en savoir plus, consultez [Configuration de la source de données](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Création d&#39;un trigger dans l&#39;interface d&#39;Experience Cloud  {#creating-a-trigger-in-the-experience-cloud-interface}
 
