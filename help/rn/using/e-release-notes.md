@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Cette page décrit les nouvelles fonctionnalités, les améliorations et les cor
 
 ## Version 22.2 - Juin 2022 {#rn-2022}
 
-**Amélioration**
+**Améliorations**
 
 * **Adobe Notification Service** - Campaign est fourni avec Adobe Notification Service, qui permet aux solutions Experience Cloud de tenir les utilisateurs d’Experience Cloud informés des activités qui leur sont importantes. À compter de la version 22.2, l’expérience utilisateur a été améliorée : les notifications sont hiérarchisées et les notifications générées par les produits sont séparées des annonces de statut d’Adobe. En complément, lorsque la notification fait référence à un workflow spécifique, vous pouvez désormais accéder directement au workflow correspondant à partir de l’e-mail ou de la notification intégrée au produit.  Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
 * **Optimisation au démarrage du workflow** - Adobe a ajouté une nouvelle fonctionnalité qui permet d’ajuster le nombre de workflows qui démarrent à peu près au même moment. Cela permet d’éviter les pics du processeur qui auraient pu entraîner des interruptions de service ou des temps d’arrêt. Adobe l’activerait après la version 22.2. Il n’y a pas d’autre élément d’action concernant le même client.
+
+* **Accessibilité** - Adobe a apporté de nombreux correctifs d’accessibilité pour améliorer la facilité d’utilisation globale de l’application. Ces fonctionnalités sont actuellement activées uniquement pour un ensemble d’utilisateurs avancés. Elles seront déployées vers tous les clients de la version ACS 2.2.3. Voici quelques exemples d’améliorations de l’accessibilité :
+
+   * S’assurer qu’il existe un indicateur de focus visible pour les éléments pouvant être ciblés sur chaque écran
+   * Création de repères de page pour une navigation plus facile
+   * Ajout du nom, du rôle, de la valeur et de l’état pour de nombreux contrôles
+   * Correction des problèmes rencontrés avec l’ordre de mise au point dynamique sur les écrans principaux
 
 **Mise à niveau de la sécurité**
 
