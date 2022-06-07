@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '939'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '941'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur les notifications push ou les messages In-App, co
 
 * [FAQ sur les notifications push](../../channels/using/about-push-notifications.md#push-faq)
 * [FAQ sur les messages In-App](../../channels/using/in-app-faq.md)
-* [FAQ sur le workflow technique de synchronisation avec Launch](../../administration/using/syncwithlaunch-faq.md)
+* [FAQ sur les balises dans la synchronisation Adobe Experience Platform](../../administration/using/syncwithlaunch-faq.md)
 
 ## Ressources utiles avant de commencer {#resource-mobile-property}
 
@@ -34,7 +34,7 @@ Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe�
 
 ## L’intégration du SDK Adobe Experience Platform est-elle disponible pour Adobe Campaign Standard et Adobe Campaign Classic ?  {#aep-validity}
 
-Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Adobe Launch] pour activer l’intégration.
+Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer le **[!UICONTROL Extension]** via le [!DNL Data Collection UI] pour activer l’intégration.
 
 Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 

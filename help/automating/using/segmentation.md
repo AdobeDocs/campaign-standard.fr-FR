@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 100%
+source-wordcount: '991'
+ht-degree: 89%
 
 ---
 
@@ -88,15 +88,16 @@ L’activité **[!UICONTROL Segmentation]** est généralement placée après de
       >[!NOTE]
       >
       >Vous pouvez choisir des limitations différentes pour chaque valeur. Par exemple, vous pouvez définir un groupement sur le champ **[!UICONTROL Genre]** et limiter la population dont le genre est **[!UICONTROL Masculin]** à 10 et la population dont le genre est **[!UICONTROL Féminin]** à 30. Si vous utilisez plusieurs champs pour le groupement de données, tous les groupements doivent être de la même taille.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Validez la configuration du segment.
 1. Ajoutez autant de segments que nécessaire en répétant les étapes 6 à 10 de cette procédure.
 1. Si nécessaire, éditez les paramètres de l’onglet **[!UICONTROL Options avancées]** de l’activité :
 
-   * Cochez l’option **[!UICONTROL Permettre le recouvrement des populations de sortie]** si vous souhaitez qu’un membre de la population entrante puisse appartenir à plusieurs segments. La population en sortie de l’activité pourra être supérieure à la population en entrée.
-   * Cochez l’option **[!UICONTROL Concaténer le code de chaque segment]** si la population entrante a déjà un code segment et que vous souhaitez le conserver. Le code segment défini dans l’activité sera ajouté au code segment initial.
-   * Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Voir le [Cas pratique : création de diffusions avec un complémentaire](../../automating/using/workflow-created-query-with-complement.md).
+   * Le **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de définir comment gérer les profils appartenant à plusieurs segments :
+      * Lorsque l’option n’est pas activée, la variable **[!UICONTROL Segmentation]** l&#39;activité vérifie qu&#39;un profil n&#39;est pas présent dans plusieurs transitions en sortie, même si ce profil répond aux critères de plusieurs sous-ensembles.
+      * Lorsque l&#39;option est activée, les profils se trouvent dans plusieurs sous-ensembles s&#39;ils répondent à leurs critères de filtrage.
+   * Si un code segment que vous souhaitez conserver a déjà été affecté à la population entrante, cochez la case **[!UICONTROL Concaténer le code de chaque segment]** . Le code segment défini dans l’activité sera ajouté au code segment initial.
+   * Si vous devez exploiter la population restante, cochez la case **[!UICONTROL Générer le complémentaire]** . Voir le [Cas pratique : création de diffusions avec un complémentaire](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.

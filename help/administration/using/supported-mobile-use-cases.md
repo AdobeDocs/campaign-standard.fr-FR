@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Cas pratiques mobiles pris en charge dans Adobe Campaign Standard {#mobile-use-cases}
 
-Dans cette page, vous trouverez la liste de tous les cas pratiques mobiles pris en charge dans [!DNL Adobe Campaign Standard] en utilisant les [!DNL Adobe Experience Platform SDKs]. Notez que la prise en charge de ces cas pratiques suppose l’installation et la configuration des [!DNL Adobe Experience Platform SDKs], d’[!DNL Adobe Experience Platform Launch] et d’[!DNL Adobe Campaign Standard]. Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/configuring-a-mobile-application.md).
+Dans cette page, vous trouverez la liste de tous les cas pratiques mobiles pris en charge dans [!DNL Adobe Campaign Standard] en utilisant les [!DNL Adobe Experience Platform SDKs]. Notez que la prise en charge de ces cas pratiques suppose l’installation et la configuration des [!DNL Adobe Experience Platform SDKs], d’[!DNL tags in Adobe Experience Platform] et d’[!DNL Adobe Campaign Standard]. Pour plus d’informations à ce propos, consultez [cette page](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard prend en charge les cas pratiques suivants :
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard prend en charge les cas pratiques suivants :
 * [Mettre en œuvre un événement personnalisé dans votre application mobile pour déclencher des messages In-App.](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Définir des champs de liaison servant à effectuer une authentification supplémentaire pour le modèle de profil basé sur les messages In-App](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-Pour configurer ces cas pratiques, vous devez utiliser les extensions d’[!DNL Experience Platform Launch] suivantes :
+Pour configurer ces cas pratiques, vous avez besoin des extensions suivantes :
 
-* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension de Campaign Standard, voir la section [Configurer l’extension de Campaign Standard dans Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension Campaign Standard, voir [Configuration de l’extension Campaign Standard dans l’interface utilisateur de collecte de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Mobile Core, voir la section [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Profile, voir la section [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

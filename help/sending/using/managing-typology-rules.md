@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Les règles de typologie sont disponibles depuis le menu **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Typologies]** > **[!UICONTROL Règles de typologie]**.
 
-Par défaut, plusieurs règles de typologie de **filtre** et de **contrôle** d’usine sont disponibles. Elles sont détaillées dans les sections [Règles de filtrage](../../sending/using/fatigue-rules.md) et [Règles de contrôle](../../sending/using/control-rules.md).
+Par défaut, plusieurs règles de typologie de **filtre** et de **contrôle** d’usine sont disponibles. Elles sont détaillées dans les sections [Règles de filtrage](../../sending/using/filtering-rules.md) et [Règles de contrôle](../../sending/using/control-rules.md).
 
 Selon vos besoins, vous pouvez modifier des règles de typologie existantes ou en créer de nouvelles, à l’exception des règles de **[!UICONTROL contrôle]** , qui sont en lecture seule et ne peuvent pas être modifiées.
 

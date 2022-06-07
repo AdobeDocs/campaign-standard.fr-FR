@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '706'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 96%
 
 ---
 
@@ -92,12 +92,12 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
    <tr> 
    <td> <span class="uicontrol">Synchroniser avec Launch</span><br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce workflow synchronise les propriétés mobiles de la balise importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupération des logs de tracking</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> Ce worklflow synchronise les propriétés mobiles d’Adobe Launch importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
+   <td> Ce workflow synchronise les propriétés mobiles de la balise importées dans Adobe Campaign Standard. Il est lancé toutes les 15 minutes.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Récupérer les logs de tracking</span> <br /> </td> 

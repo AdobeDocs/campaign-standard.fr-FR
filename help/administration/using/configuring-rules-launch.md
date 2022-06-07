@@ -1,6 +1,6 @@
 ---
-title: Configuration des règles d'Adobe Experience Platform Launch pour la prise en charge des cas pratiques Adobe Campaign Standard
-description: Découvrez comment configurer les règles d’Adobe Experience Platform Launch pour prendre en charge les cas d’utilisation d’Adobe Campaign Standard
+title: Configuration des règles de balises pour la prise en charge des cas pratiques Adobe Campaign Standard
+description: Découvrez comment configurer des règles de balises pour prendre en charge les cas pratiques Adobe Campaign Standard
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,20 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
-source-wordcount: '1120'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 73%
 
 ---
 
-# Configuration des règles de Launch pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
+# Configuration des règles de balises pour la prise en charge des cas pratiques Adobe Campaign Standard {#configuring-rules-launch}
 
-Dans [!DNL Adobe Experience Platform Launch], créez des éléments de données et des règles pour envoyer les informations d’identification personnelles et d’autres données depuis les applications mobiles vers [!DNL Adobe Campaign Standard].
+Dans l’interface utilisateur de collecte de données, créez des éléments de données et des règles pour envoyer les informations d’identification personnelles et d’autres données depuis les applications mobiles vers [!DNL Adobe Campaign Standard].
 
-Pour que toutes les modifications apportées à la configuration d&#39;[!DNL Adobe Experience Platform Launch] prennent effet, vous devez les publier. Pour plus d&#39;informations, voir la section [Publication](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Pour que toutes les modifications de configuration de l’interface utilisateur de la collecte de données soient prises en compte, vous devez les publier. Pour plus d&#39;informations, voir la section [Publication](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-Pour créer des règles dans [!DNL Experience Platform Launch], procédez comme suit :
+Pour créer des règles dans l’interface utilisateur de la collecte de données, procédez comme suit :
 
 1. [Création d&#39;éléments de données](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [Création de règles](../../administration/using/configuring-rules-launch.md#create-data-elements) pour les cas pratiques que vous souhaitez prendre en charge :
@@ -33,7 +33,7 @@ Pour créer des règles dans [!DNL Experience Platform Launch], procédez comme 
 
 ## Création d&#39;éléments de données {#create-data-elements}
 
-Voici les éléments de données que nous vous recommandons de créer dans [!DNL Experience Platform Launch].
+Voici les éléments de données que nous vous recommandons de créer dans l’interface utilisateur de collecte de données.
 Vous pouvez créer des éléments de données supplémentaires en fonction de vos besoins.
 
 * **[!UICONTROL Identifiant Experience Cloud]**
@@ -42,7 +42,7 @@ Vous pouvez créer des éléments de données supplémentaires en fonction de vo
 
 Pour créer ces éléments de données, procédez comme suit :
 
-1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Data Elements]**.
+1. Dans l’interface utilisateur de la collecte de données, dans le tableau de bord de votre application mobile, cliquez sur le bouton **[!UICONTROL Éléments de données]** .
 
 1. Pour créer l’élément de données **[!UICONTROL Identifiant Experience Cloud]**, cliquez sur **[!UICONTROL Create New Data Element]**.
 
@@ -79,9 +79,9 @@ Vous devez créer des règles pour les situations suivantes :
 >
 >Pour envoyer des informations d’identification personnelle d’une application mobile à Adobe Campaign, vous devez mettre en œuvre une API SDK. Voir à ce sujet la section [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-Pour envoyer des données d&#39;identification personnelles à [!DNL Adobe Campaign Standard], créez une règle dans [!DNL Experience Platform Launch] :
+Pour envoyer des données de PII à [!DNL Adobe Campaign Standard], créez une règle dans l’interface utilisateur de la collecte de données :
 
-1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Rules]**, puis **[!UICONTROL Create New Rule]**.
+1. Dans l’interface utilisateur de la collecte de données, dans le tableau de bord de votre application mobile, cliquez sur le bouton **[!UICONTROL Règles]** tab puis **[!UICONTROL Créer une règle]**.
 
 1. Saisissez un nom, par exemple, **Mobile Core - Collect PII**.
 
@@ -135,7 +135,7 @@ Pour envoyer des données d&#39;identification personnelles à [!DNL Adobe Campa
    }
    ```
 
-   Les éléments de données définis dans [!DNL Experience Platform Launch] doivent être inclus entre doubles pourcentages, par exemple %%mcid%%, et les variables contextuelles de l&#39;application doivent être incluses entre pourcentages simples, par exemple %contextdata.email%.
+   Les éléments de données définis dans l’interface utilisateur de la collecte de données doivent être inclus entre deux pourcentages, par exemple `%%mcid%%`, et les variables contextuelles de l’application doivent être incluses dans des pourcentages uniques, par exemple %contextdata.email%.
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 
@@ -149,11 +149,11 @@ Vos données utilisateur sont maintenant configurées pour être envoyées à Ca
 
 >[!NOTE]
 >
->Si vous utilisez Android ACPCore v1.4.0 ou une version ultérieure / iOS ACPCore v2.3.0 ou une version ultérieure, la configuration des postbacks de suivi n&#39;est pas requise.
+>Si vous utilisez Android ACPCore v1.4.0 ou une version ultérieure/iOS ACPCore v2.3.0 ou une version ultérieure, la configuration des postbacks de suivi n’est pas requise.
 
-Pour envoyer des données de tracking à [!DNL Adobe Campaign Standard] pour indiquer comment vos utilisateurs interagissent avec les messages In-App dans votre application mobile, créez la règle suivante dans [!DNL Experience Platform Launch] :
+Pour envoyer des données de suivi à [!DNL Adobe Campaign Standard] pour créer des rapports sur la manière dont vos utilisateurs interagissent avec les messages In-App dans votre application mobile, créez la règle suivante dans l’interface utilisateur de la collecte de données :
 
-1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, sélectionnez l&#39;onglet **[!UICONTROL Rules]** et cliquez sur **[!UICONTROL Add Rule]**.
+1. Dans l’interface utilisateur de la collecte de données, dans le tableau de bord de votre application mobile, sélectionnez la variable **[!UICONTROL Règles]** et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
 1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics In-App**.
 
@@ -189,13 +189,13 @@ Pour envoyer des données de tracking à [!DNL Adobe Campaign Standard] pour ind
 >
 >Si vous utilisez Android ACPCore v1.4.0 ou une version ultérieure/iOS ACPCore v2.3.0 ou une version ultérieure, la configuration des postbacks de suivi n’est pas requise.
 
-Pour envoyer des données de suivi à [!DNL Adobe Campaign Standard] pour traquer vos diffusions de notifications push et l’interaction de vos utilisateurs avec votre application mobile, vous devez créer une règle dans [!DNL Experience Platform Launch].
+Pour envoyer des données de suivi à [!DNL Adobe Campaign Standard], qui vous aide à effectuer le suivi des diffusions des notifications push et de l’interaction de vos utilisateurs avec votre application mobile, vous devez créer une règle dans l’interface utilisateur de la collecte de données.
 
 Pour plus d&#39;informations sur le tracking des messages push, voir la section [Tracking des messages push](../../administration/using/push-tracking.md).
 
 Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. Pour plus d&#39;informations, voir la section [Tracker les actions de l&#39;application](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Rules]**, puis sur **[!UICONTROL Add Rule]**.
+1. Dans l’interface utilisateur de la collecte de données, dans le tableau de bord de votre application mobile, cliquez sur le bouton **[!UICONTROL Règles]** et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
 1. Saisissez un nom, par exemple, **Adobe Campaign - Tracking des clics push**.
 
@@ -225,7 +225,7 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
 ### Postback de l&#39;emplacement {#location-postback}
 
-1. Dans [!DNL Experience Platform Launch], depuis le tableau de bord de votre application mobile, cliquez sur l&#39;onglet **[!UICONTROL Rules]**, puis sur **[!UICONTROL Add Rule]**.
+1. Dans l’interface utilisateur de la collecte de données, dans le tableau de bord de votre application mobile, cliquez sur le bouton **[!UICONTROL Règles]** et cliquez sur **[!UICONTROL Ajouter une règle]**.
 
 1. Entrez un nom, par exemple, **Postback de l&#39;emplacement**.
 
@@ -264,7 +264,7 @@ Pour tracker les actions de l&#39;application, utilisez l&#39;API trackAction. P
 
    >[!NOTE]
    >
-   >Dans l’exemple ci-dessus, les éléments de données situés à droite doivent être configurés dans [!DNL Experience Platform Launch] en suivant les étapes requises pour la [Création d’éléments de données](../../administration/using/configuring-rules-launch.md#create-data-elements). Les éléments de données situés à gauche sont pris en charge dans [!DNL Adobe Campaign Standard] et n’ont pas besoin de configuration. Si vous avez besoin de données supplémentaires, vous devez incorporer des extensions de ressources personnalisées dans [!DNL Adobe Campaign Standard].
+   >Dans l’exemple ci-dessus, les éléments de données situés à droite doivent être configurés dans l’interface utilisateur de collecte de données en suivant la procédure décrite à la section [Création d’éléments de données](../../administration/using/configuring-rules-launch.md#create-data-elements). Les éléments de données situés à gauche sont pris en charge dans [!DNL Adobe Campaign Standard] et n’ont pas besoin de configuration. Si vous avez besoin de données supplémentaires, vous devez incorporer des extensions de ressources personnalisées dans [!DNL Adobe Campaign Standard].
 
 1. Dans **[!UICONTROL Content Type]**, saisissez **application/json**.
 

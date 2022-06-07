@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 89%
 
 ---
 
@@ -181,3 +181,12 @@ La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle pe
 
    ![](assets/troubleshooting_4.png)
 
+## Les rapports des diffusions affichent des données incomplètes lors de l’utilisation du mapping de ciblage personnalisé.
+
+Si vous utilisez des mappages Target personnalisés importés dans des diffusions et qu’aucune donnée n’est affichée dans les différents rapports, cela peut signifier que les enrichissements de création de rapports n’ont pas été créés pour ces mappages Target.
+
+Pour résoudre ce problème :
+
+* Après avoir importé votre mapping de ciblage à partir d’un fichier XML, vous devrez également importer l’enrichissement de reporting.
+
+* Au lieu d&#39;importer votre mapping de ciblage, vous pouvez le créer directement dans Adobe Campaign Standard, ce qui créera automatiquement l&#39;enrichissement de reporting.
