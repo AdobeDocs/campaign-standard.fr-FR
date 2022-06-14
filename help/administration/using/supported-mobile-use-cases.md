@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard prend en charge les cas pratiques suivants :
 * [Mettre en œuvre un événement personnalisé dans votre application mobile pour déclencher des messages In-App.](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Définir des champs de liaison servant à effectuer une authentification supplémentaire pour le modèle de profil basé sur les messages In-App](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-Pour configurer ces cas pratiques, vous avez besoin des extensions suivantes :
+Pour configurer ces cas pratiques, vous devez utiliser les extensions suivantes :
 
-* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension Campaign Standard, voir [Configuration de l’extension Campaign Standard dans l’interface utilisateur de collecte de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Pour installer et configurer l’extension de Campaign Standard, voir la section [Configurer l’extension de Campaign Standard dans l’interface utilisateur de collecte de données](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Mobile Core, voir la section [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, qui est automatiquement installée. <br>Pour plus d’informations sur l’extension Profile, voir la section [Profil](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 
