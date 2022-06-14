@@ -5,9 +5,9 @@ user-guide-description: 'Centre d''aide pour les principales fonctionnalités, t
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1812'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 99%
    + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2021](rn/using/release-notes-2021.md)
-      + [Notes de mise à jour      2020](rn/using/release-notes-2020.md)
-      + [Notes de mise à jour      2019](rn/using/release-notes-2019.md)
+      + [Notes de mise à jour       2020](rn/using/release-notes-2020.md)
+      + [Notes de mise à jour       2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)
@@ -454,7 +454,7 @@ ht-degree: 99%
       + [Implémentation du tracking des notifications locales](administration/using/local-tracking.md)
       + [FAQ sur les balises dans la synchronisation Adobe Experience Platform](administration/using/syncwithlaunch-faq.md)
       + [FAQ sur l&#39;intégration du SDK Experience Platform](administration/using/aep-faq.md)
-      + [Configuration des règles de balises pour la prise en charge des cas pratiques Adobe Campaign Standard](administration/using/configuring-rules-launch.md)
+      + [Configuration des règles de balise pour la prise en charge des cas pratiques Adobe Campaign Standard.](administration/using/configuring-rules-launch.md)
       + [Cas pratiques mobiles pris en charge dans Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Comment migrer votre application mobile du SDK v4 vers le SDK Adobe Experience Platform](administration/using/sdkv4-migration.md)
    + Configuration du canal SMS {#configuring-sms}
