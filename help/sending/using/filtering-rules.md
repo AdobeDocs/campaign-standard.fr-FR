@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Le tableau ci-dessous fournit des informations sur les règles de filtrage d’u
 | **[!UICONTROL Exclure les applications mobiles]** | Mobile application | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message. |
 | **[!UICONTROL Exclure les applications mobiles pour le message In-App]** | In-App | Exclut les abonnements aux applications qui ne correspondent pas à l’application mobile définie dans le message (modèle In-App). |
 | **[!UICONTROL Exclure les applications mobiles des diffusions In-App]** | In-App | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (modèle de diffusion In-App). |
-| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Application mobile | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
+| **[!UICONTROL Exclure les applications mobiles pour les notifications push]** | Mobile application | Exclut les abonnements à des applications qui ne correspondent pas à l’application mobile définie dans le message (pour Push). |
 | **** | Tous | Exclut les adresses mises en quarantaine. |
 | **[!UICONTROL Cible limitée en taille]** | Tous | Vérifie si la taille maximale de diffusion a été atteinte pour la cible. S’applique aux diffusions de mailing direct avec l’option « date limite de diffusion » activée. |
 
@@ -66,7 +66,7 @@ Pour créer cette règle de typologie de filtrage, procédez comme suit :
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Sélectionnez la **[!UICONTROL Age]** et définir les conditions de filtrage afin que l&#39;âge des abonnés soit inférieur à 18 ans.
+1. Sélectionnez le champ **[!UICONTROL Âge]** et définissez les conditions de filtrage de sorte que l&#39;âge des abonnés soit inférieur à 18.
 
    ![](assets/typology_create-rule-age.png)
 
