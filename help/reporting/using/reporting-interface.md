@@ -9,9 +9,9 @@ role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '760'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,14 +115,14 @@ L&#39;onglet **[!UICONTROL Partager]** permet d&#39;envoyer vos rapports aux uti
 
       ![](assets/tab_share_4.png)
 
-   1. Sélectionnez les destinataires dans la liste déroulante. Notez que vous ne pouvez pas sélectionner d’utilisateurs en dehors de votre entreprise.
+   1. Sélectionnez les destinataires dans la liste déroulante. Notez que vous ne pouvez pas sélectionner d’utilisateurs en dehors de votre organisation.
    1. Cochez la case **[!UICONTROL Afficher les options de planification]** si vous souhaitez envoyer des emails récurrents. Vous pouvez également sélectionner l&#39;option **[!UICONTROL Envoyer le rapport d&#39;après le planning]** dans l&#39;onglet **[!UICONTROL Partager]**.
    1. Cliquez sur **[!UICONTROL Envoyer maintenant]**. Les destinataires recevront alors votre rapport joint à un email.
 
 * **[!UICONTROL Envoyer le rapport d&#39;après le planning]** : planifiez votre rapport et envoyez des emails récurrents à vos destinataires.
 
    1. Au besoin, dans la fenêtre **[!UICONTROL Envoyer le rapport]**, ajoutez une description.
-   1. Sélectionnez les destinataires dans la liste déroulante. Notez que vous ne pouvez pas sélectionner d’utilisateurs en dehors de votre entreprise.
+   1. Sélectionnez les destinataires dans la liste déroulante. Notez que vous ne pouvez pas sélectionner d’utilisateurs en dehors de votre organisation.
 
       ![](assets/tab_share_5.png)
 
@@ -147,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
