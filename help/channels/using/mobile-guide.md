@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -96,9 +96,9 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
 <tr>
   <td>
     <div>
-    <p><strong>Configuration des règles de balises pour la prise en charge des cas pratiques Adobe Campaign Standard</strong></p>
+    <p><strong>Configuration des règles de balise pour la prise en charge des cas pratiques Adobe Campaign Standard.</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Cliquez ici</strong></a> pour commencer à créer des éléments de données et des règles dans l’interface utilisateur de collecte de données afin d’envoyer des informations d’identification personnelles et d’autres données d’applications mobiles à Adobe Campaign Standard.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Cliquez ici</strong></a> pour commencer à créer des éléments de données et des règles dans l’interface utilisateur de collecte de données afin d'envoyer des informations PII et d'autres données des applications mobiles vers Adobe Campaign Standard.</p>
     <br>
   </td>
   <td>
