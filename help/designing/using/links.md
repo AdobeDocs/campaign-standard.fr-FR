@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe
 
    * **Lien externe** : insérez un lien vers une URL externe.
 
-      Vous pouvez définir la personnalisation des URL. Voir [Personnaliser une URL](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      Vous pouvez définir la personnalisation des URL. Voir [Personnaliser une URL](personalization.md#personalizing-urls).
 
    * **Landing page** : donnez accès à une landing page Adobe Campaign.
    * **Lien d&#39;abonnement** : insérez un lien pour s&#39;abonner à un service Adobe Campaign.
