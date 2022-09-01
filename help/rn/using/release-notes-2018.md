@@ -1,17 +1,15 @@
 ---
 title: Notes de mise à jour 2018
 description: Cette page répertorie toutes les versions 2018 d’Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5457'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -40,7 +38,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
    <td> La messagerie in-app permet d’interagir plus efficacement avec les utilisateurs d’application mobile en offrant une interaction contextuelle et en permettant d’atteindre les utilisateurs susceptibles de ne pas s’être abonnés aux notifications push. Utilisez la messagerie In-App avec les notifications push pour créer une expérience hautement personnalisée et pertinente. Vous obtiendrez ainsi une meilleure conversion et rétention des utilisateurs de votre application.<br /> Pour plus d’informations, consultez la <a href="../../channels/using/about-in-app-messaging.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Intégration d’Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
+   <td> Intégration avec Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
    <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +136,7 @@ Découvrez les [mises à jour les plus récentes de la documentation](../../rn/u
 **Correctifs**
 
 * Correction d’un problème avec le filtre de requête byEmail qui ne renvoyait pas de résultats. (CAMP-23420)
-* Correction d’un problème qui permettait à un utilisateur standard d’accéder à certaines fonctionnalités ou à certains écrans réservés aux administrateurs (points de terminaison /rest/head/*, écrans de messages transactionnels et écrans d’import de profils et d’audiences).
+* Correction d’un problème qui permettait à un utilisateur standard d’accéder à certaines fonctionnalités ou écrans réservés aux administrateurs (/rest/head/&#42; points de fin, écrans de messages transactionnels, profils et audiences (écrans d’import).
 * Correction d’un problème qui empêchait le traitement de ressources personnalisées dans le cadre de demandes de suppression des informations personnelles liées au RGPD si leur nom commençait par un nombre.
 * Correction d’un problème qui empêchait l’activité Sauvegarde d’audience de partager des abonnés aux applications dans Adobe Experience Cloud.
 * Correction d’un problème qui pouvait se produire avec l’activité Transfert de fichier lorsque le nom du fichier contenait des espaces blancs. (CAMP-25936)
