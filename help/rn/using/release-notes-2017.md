@@ -1,14 +1,12 @@
 ---
 title: Notes de mise à jour 2017
 description: Cette page répertorie toutes les versions 2017 d’Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: ht
 source-wordcount: '4678'
 ht-degree: 100%
