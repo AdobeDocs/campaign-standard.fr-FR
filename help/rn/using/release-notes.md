@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
+source-git-commit: 163cd5bf2091a4655bf1bc2c733fdaa4757b3f36
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 20%
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 20%
 ![Panneau de contrôle](assets/do-not-localize/cp-icon.png) **Nouvelle version du panneau de contrôle**. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target=&quot;_blank&quot;}.
 
 
-## Version 22.3 - Automne/hiver 2022 {#sept-22}
+## Version 22.2 - Juin 2022 {#june-2022}
 
-### Amélioration{#rn-improvements}
+**Améliorations**
 
-**Accessibilité**
+* **Adobe Notification Service** - Campaign est fourni avec Adobe Notification Service, qui permet aux solutions Experience Cloud de tenir les utilisateurs d’Experience Cloud informés des activités qui leur sont importantes. À compter de la version 22.2, l’expérience utilisateur a été améliorée : les notifications sont hiérarchisées et les notifications générées par les produits sont séparées des annonces de statut d’Adobe. En complément, lorsque la notification fait référence à un workflow spécifique, vous pouvez désormais accéder directement au workflow correspondant à partir de l’e-mail ou de la notification intégrée au produit.  Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
 
-Campaign Standard 2.2.3 comprend des correctifs et améliorations d’accessibilité qui permettent aux utilisateurs de naviguer et de tirer le meilleur parti d’Adobe Campaign.
+* **Optimisation du démarrage des workflow** - Adobe a ajouté une nouvelle fonctionnalité qui permet d’ajuster le nombre de workflows qui démarrent à peu près au même moment. Cela permet d’éviter les pics de processeur qui auraient pu entraîner des interruptions de service ou des temps d’arrêt. Adobe l’activerait après la version 22.2. Il n’y a pas d’autre élément d’action concernant le même client.
 
-Ces fonctionnalités sont publiées dans Disponibilité limitée et déployées uniquement vers un ensemble de clients. Pour que ces améliorations soient activées dans votre ou vos environnements Campaign, contactez votre représentant Adobe.
+* **Accessibilité** - Adobe a apporté de nombreux correctifs d’accessibilité pour améliorer la facilité d’utilisation globale de l’application. Ces fonctionnalités sont actuellement activées uniquement pour un ensemble d’utilisateurs initiaux. Elles seront déployées vers tous les clients de la version ACS 2.2.3. Voici quelques exemples d’améliorations de l’accessibilité :
 
-<!--
-* **Data retention**
+   * Assurance qu’il existe un indicateur de focus visible pour les éléments pouvant être ciblés sur chaque écran
+   * Création de repères de page pour une navigation plus facile
+   * Ajout du nom, du rôle, de la valeur et de l’état pour de nombreux contrôles
+   * Correction des problèmes rencontrés avec l’ordre de focus dynamique sur les écrans principaux
 
-    Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
--->
 
-### Mise à jour de sécurité{#rn-security}
+**Correctifs**
 
-Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
-
-### Correctifs{#e-rn-fixes}
-
-* Correction d’un problème lié aux rapports planifiés, qui étaient déclenchés une heure avant la planification. (CAMP-51502)
-* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux Envois (nms:broadLogRcp). (CAMP-51127)
-* Correction d’un problème qui empêchait l’extension des ressources personnalisées avec ACS Connector (Prime Offering). (CAMP-51033)
-* Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
+* Correction d’un problème du workflow technique de facturation lié à une erreur de clé en double. (CAMP-51029)
+* Ajout de la catégorie de navigateur Microsoft Edge manquante dans les rapports de tracking. Ils étaient auparavant catégorisés avec les ouvertures Microsoft Chrome. (CAMP-51165)
+* Correction d’un problème lié aux demandes relatives au RGPD qui ne supprimaient pas les données des tables enfants. (CAMP-48276)
+* Correction d’un problème dans le Concepteur d’e-mail en raison duquel la condition de visibilité d’un fragment n’était pas enregistrée, dans un modèle de message transactionnel. (CAMP-50338)
+* Correction d’un problème dans les rapports de campagne en raison duquel la période n’était pas prise en compte. (CAMP-50991)
+* Correction d&#39;une erreur qui provoquait l&#39;échec des e-mails planifiés : l&#39;analyse de la diffusion ne pouvait pas démarrer car la diffusion était toujours dans l&#39;état « Reprise en attente ». (CAMP-50302)
+* Correction d’un problème dans le Concepteur d’e-mail lors de la prévisualisation d’un e-mail avec une substitution de profil. (CAMP-49312)
+* Correction d’un problème lié à une valeur vide dans les énumérations personnalisées : lors de la création d&#39;une ressource personnalisée avec un champ qui est une énumération de texte et ne contient qu&#39;une seule valeur, cette valeur est maintenant définie par défaut, afin que vous puissiez créer une requête sur ce champ sous la forme d&#39;une requête simple. (CAMP-50606)
 
