@@ -6,16 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '7566'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour       2019{#release-notes-2019}
-
-[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour les plus récentes](../../rn/using/release-notes.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
 
 ## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
 
