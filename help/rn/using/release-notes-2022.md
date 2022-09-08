@@ -4,16 +4,43 @@ description: Cette page répertorie toutes les versions 2022 d'Adobe Campaign�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # Notes de mise à jour 2022{#release-notes-2022}
 
-[Calendrier des versions](../../rn/using/release-planning.md) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
+## Version 22.2 - Juin 2022 {#june-2022}
+
+**Améliorations**
+
+* **Adobe Notification Service** - Campaign est fourni avec Adobe Notification Service, qui permet aux solutions Experience Cloud de tenir les utilisateurs d’Experience Cloud informés des activités qui leur sont importantes. À compter de la version 22.2, l’expérience utilisateur a été améliorée : les notifications sont hiérarchisées et les notifications générées par les produits sont séparées des annonces de statut d’Adobe. En complément, lorsque la notification fait référence à un workflow spécifique, vous pouvez désormais accéder directement au workflow correspondant à partir de l’e-mail ou de la notification intégrée au produit.  Pour plus d’informations sur les notifications d’Adobe Campaign, voir [Notifications Adobe Campaign](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Accessibilité** - Adobe a apporté de nombreux correctifs d’accessibilité pour améliorer la facilité d’utilisation globale de l’application. Ces fonctionnalités sont actuellement activées uniquement pour un ensemble d’utilisateurs en amont, et elles seront déployées vers tous les clients dans les prochaines versions. Voici quelques exemples d’améliorations de l’accessibilité :
+
+   * Assurance qu’il existe un indicateur de focus visible pour les éléments pouvant être ciblés sur chaque écran
+   * Création de repères de page pour une navigation plus facile
+   * Ajout du nom, du rôle, de la valeur et de l’état pour de nombreux contrôles
+   * Correction des problèmes rencontrés avec l’ordre de focus dynamique sur les écrans principaux
+
+
+**Correctifs**
+
+* Correction d’un problème du workflow technique de facturation lié à une erreur de clé en double. (CAMP-51029)
+* Ajout de la catégorie de navigateur Microsoft Edge manquante dans les rapports de tracking. Ils étaient auparavant catégorisés avec les ouvertures Microsoft Chrome. (CAMP-51165)
+* Correction d’un problème lié aux demandes relatives au RGPD qui ne supprimaient pas les données des tables enfants. (CAMP-48276)
+* Correction d’un problème dans le Concepteur d’e-mail en raison duquel la condition de visibilité d’un fragment n’était pas enregistrée, dans un modèle de message transactionnel. (CAMP-50338)
+* Correction d’un problème dans les rapports de campagne en raison duquel la période n’était pas prise en compte. (CAMP-50991)
+* Correction d&#39;une erreur qui provoquait l&#39;échec des e-mails planifiés : l&#39;analyse de la diffusion ne pouvait pas démarrer car la diffusion était toujours dans l&#39;état « Reprise en attente ». (CAMP-50302)
+* Correction d’un problème dans le Concepteur d’e-mail lors de la prévisualisation d’un e-mail avec une substitution de profil. (CAMP-49312)
+* Correction d’un problème lié à une valeur vide dans les énumérations personnalisées : lors de la création d&#39;une ressource personnalisée avec un champ qui est une énumération de texte et ne contient qu&#39;une seule valeur, cette valeur est maintenant définie par défaut, afin que vous puissiez créer une requête sur ce champ sous la forme d&#39;une requête simple. (CAMP-50606)
 
 
 ## Version 22.1 - Février 2022 {#feb-2022}

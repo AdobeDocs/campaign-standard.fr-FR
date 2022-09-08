@@ -1,16 +1,13 @@
 ---
 title: Fonctionnalités obsolètes et supprimées de Campaign Standard
 description: Cette page répertorie les fonctionnalités obsolètes et supprimées d’Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-deprecated-features
 feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
-workflow-type: ht
-source-wordcount: '868'
+source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
+workflow-type: tm+mt
+source-wordcount: '861'
 ht-degree: 100%
 
 ---
@@ -48,7 +45,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
   <tr> 
    <td> <p> À compter de la version 21.3 de Campaign Standard, l’intégration au service Audience Destinations est obsolète. </p>
    <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer Audience Destinations à Adobe Campaign Standard. Vous avez toutefois la possibilité d’intégrer Campaign et Adobe Experience Platform par l’intermédiaire des sources et des destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=fr">En savoir plus</a>.</p>
-     <em>Date de suppression prévue : septembre 2022</em></p>
+     <em>Date de suppression prévue : 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -63,8 +60,8 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
  <tbody> 
   <tr> 
    <td> <p> À compter de la version 21.3 de Campaign Standard, l’intégration au connecteur d’Adobe Experience Platform est obsolète. </p>
-   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer le connecteur d’Adobe Experience Platform à Adobe Campaign Standard. Vous avez toutefois la possibilité d’intégrer Campaign et Adobe Experience Platform par l’intermédiaire des sources et des destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=fr">En savoir plus</a>.</p>
-     <em>Date de suppression prévue : septembre 2022</em></p>
+   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer le connecteur d’Adobe Experience Platform à Adobe Campaign Standard. Vous avez toutefois la possibilité d’intégrer Campaign et Adobe Experience Platform par l’intermédiaire des sources et des destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">En savoir plus</a>.</p>
+     <em>Date de suppression prévue : 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -81,9 +78,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
   <tr> 
    <td> <p>À compter de la version 19.0 de Campaign, l'ancien éditeur d'email est obsolète. Utilisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=fr">le concepteur d'emails de Campaign</a> pour créer et personnaliser le contenu de votre email. </p></br>
    <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=fr">cette section</a> pour apprendre à adapter vos modèles d'email pour le nouvel éditeur.</p></br>
-  <p> 
-  <em>Date de suppression prévue : fin 2022</em></p>
-   </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>

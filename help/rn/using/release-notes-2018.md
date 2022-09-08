@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5457'
+source-wordcount: '5413'
 ht-degree: 99%
 
 ---
 
 # Notes de mise à jour 2018{#release-notes}
-
-Vous recherchez une version 2018 spécifique d’Adobe Campaign Standard ?
-
-Chaque version contient des nouvelles fonctionnalités et correctifs. Cliquez sur une version pour consulter son contenu.
-
-Découvrez les [mises à jour les plus récentes de la documentation](../../rn/using/documentation-updates.md) d’Adobe Campaign Standard. Si vous recherchez une note de mise à jour plus récente, consultez cette [page](../../rn/using/release-notes.md).
 
 ## Version 18.9 - Septembre 2018  {#release-18-9---september-2018}
 

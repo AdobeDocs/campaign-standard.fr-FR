@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
-workflow-type: ht
-source-wordcount: '963'
-ht-degree: 100%
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 96%
 
 ---
 
 # Prise en main de la messagerie transactionnelle {#getting-started-with-transactional-messaging}
-
-## Vue d&#39;ensemble {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu&#39;un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
 
@@ -93,9 +89,9 @@ Chacune de ces étapes est décrite plus en détail ci-dessous.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Utilisateur | Action | Résultat |
-|--- |--- |--- |
-| Cette étape doit être effectuée par un administrateur disposant de [droits d&#39;administration](../../administration/using/users-management.md#functional-administrators). | Configurez un événement qui sera appelé « Abandon de panier » et publiez cette configuration d’événement. | L’API qui sera utilisée par le développeur de votre site web est déployée et un message transactionnel est automatiquement créé. |
+| Créer un événement | Utilisateur | Action | Résultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Cette étape doit être effectuée par un administrateur disposant de [droits d&#39;administration](../../administration/using/users-management.md#functional-administrators). | Configurez un événement qui sera appelé « Abandon de panier » et publiez cette configuration d’événement. | L’API qui sera utilisée par le développeur de votre site web est déployée et un message transactionnel est automatiquement créé. |
 
 La création et la publication d’un événement sont présentées dans les sections [Configuration d&#39;un événement transactionnel](../../channels/using/configuring-transactional-event.md) et [Publication d&#39;un événement transactionnel](../../channels/using/publishing-transactional-event.md).
 
@@ -103,9 +99,9 @@ La création et la publication d’un événement sont présentées dans les sec
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Utilisateur | Action | Résultat |
-|--- |--- |--- |
-| Cette étape peut être effectuée par un utilisateur marketing disposant de [droits d&#39;administration](../../administration/using/users-management.md#functional-administrators). | Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le. | Le message transactionnel sera alors prêt à être envoyé. |
+| Modifier le message | Utilisateur | Action | Résultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Cette étape peut être effectuée par un utilisateur marketing disposant de [droits d&#39;administration](../../administration/using/users-management.md#functional-administrators). | Modifiez et personnalisez le message transactionnel, testez-le, puis publiez-le. | Le message transactionnel sera alors prêt à être envoyé. |
 
 Pour plus d’informations sur la modification et la publication d’un message transactionnel, voir [Modification de messages transactionnels](../../channels/using/editing-transactional-message.md) et [Cycle de vie du message transactionnel](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Pour plus d’informations sur la modification et la publication d’un message 
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| Utilisateur | Action | Résultat |
-|--- |--- |--- |
-| Cette étape est effectuée par le développeur de votre site web. | Utilisez l’API REST des messages transactionnels pour intégrer l’événement à votre site web. | L’événement est déclenché lorsqu’un client abandonne son panier. |
-
 Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard**.
+
+| Mise en oeuvre du déclencheur | Utilisateur | Action | Résultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Cette étape est effectuée par le développeur de votre site web. | Utilisez l’API REST des messages transactionnels pour intégrer l’événement à votre site web. | L’événement est déclenché lorsqu’un client abandonne son panier. |
 
 Pour plus d’informations sur l’utilisation de l’API REST Campaign pour gérer les messages transactionnels, consultez la [documentation de l&#39;API REST](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Pour plus d’informations sur l’utilisation de l’API REST Campaign pour gé
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-Une fois toutes ces étapes effectuées, le message peut être diffusé.
+Une fois toutes les étapes ci-dessus effectuées, le message peut être diffusé.
 
-Dès qu’un utilisateur quitte le site sans commander les produits dans son panier, l’événement Campaign correspondant est déclenché. L’utilisateur reçoit alors automatiquement un email de notification.
+| Diffuser le message | Utilisateur | Action | Résultat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Cette étape est effectuée par les clients qui visitent votre site web. | Dès qu&#39;un utilisateur quitte le site sans commander les produits dans son panier, l’événement Campaign correspondant est déclenché. | L’utilisateur reçoit alors automatiquement un email de notification. |
 
 ## Rubriques connexes :
 
