@@ -8,17 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: ht
-source-wordcount: '4587'
+source-wordcount: '4569'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2021{#release-notes-2021}
-
-[Calendrier des versions](../../rn/using/release-planning.md) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2020.md) | [Fonctionnalités obsolètes](../../rn/using/deprecated-features.md)
-
 
 ## Version 21.3 - Septembre 2021  {#release-21-3---sept-2021}
 
@@ -195,7 +192,7 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la p
 
 * Correction d&#39;un problème en raison duquel les ressources personnalisées avec l&#39;option **Ne pas synchroniser** activée pouvaient référencer un schéma qui avait été réinitialisé ou supprimé. Ce problème provoquait une erreur lors de la publication des ressources personnalisées.
 
-* Correction d&#39;un problème lié aux désinscriptions des SMS lors de l&#39;utilisation de plusieurs numéros courts sur le même compte externe.
+* Correction d&#39;un problème lié au processus d’opt-out des SMS lors de l&#39;utilisation de plusieurs numéros courts sur le même compte externe.
 
 * Correction d&#39;un problème qui empêchait l&#39;accès à un nouveau critère d&#39;alerte de diffusion (&quot;la ressource à laquelle vous essayez d&#39;accéder est inatteignable&quot;) après la publication de la base de données. (CAMP-48221)
 
