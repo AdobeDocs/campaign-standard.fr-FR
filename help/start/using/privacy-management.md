@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 
 * Également appelé « Effacement de données », le **Droit à l’oubli** (demande de suppression) autorise le titulaire de données à demander au contrôleur de données d’effacer ses données personnelles, de cesser la diffusion des données et de faire éventuellement cesser le traitement des données par des tiers.
 
-Pour découvrir comment créer des demandes d&#39;**accès** et de **suppression**, et comment elles sont traitées par Adobe Campaign, consultez les [étapes d&#39;implémentation](../../start/using/privacy-requests.md#about-privacy-requests).
+Pour découvrir comment créer des demandes d’**accès** et de **suppression**, ainsi que leur traitement par Adobe Campaign, consultez la section [Étapes d’implémentation](../../start/using/privacy-requests.md#about-privacy-requests).
 
 Vous trouverez également des informations sur la gestion de la protection des données dans Campaign Standard [ici](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr#privacy).
 
@@ -81,7 +81,7 @@ Vous trouverez également des informations sur la gestion de la protection des d
 En plus des récentes options **Droit d’accès** et **Droit à l’oubli**, Adobe Campaign propose d’autres fonctionnalités importantes qui sont essentielles pour la protection des données :
 
 * [Gestion du consentement](#consent-management) : fonctionnalité d&#39;abonnement pour la gestion des préférences.
-* [Conservation des données](#data-retention) : périodes de conservation des données pour toutes les tables de logs d&#39;usine ; des périodes de conservation supplémentaires peuvent être configurées avec des workflows.
+* [Conservation des données](../../administration/using/data-retention.md) : périodes de conservation des données pour toutes les tables de logs d&#39;usine ; des périodes de conservation supplémentaires peuvent être configurées avec des workflows.
 * [Gestion des droits](#rights-management) : accès aux données géré par les droits nommés
 
 ### Gestion du consentement {#consent-management}
@@ -95,27 +95,6 @@ Depuis le début, Adobe Campaign se sert de certaines fonctionnalités pour gé
 Pour plus d&#39;informations sur la gestion du consentement, consultez les sections [À propos des abonnements](../../audiences/using/about-subscriptions.md) et [Prise en main des landing pages](../../channels/using/getting-started-with-landing-pages.md).
 
 Outre les outils de gestion du consentement fournis par Adobe Campaign, vous pouvez suivre si un client s&#39;est opposé à la vente de ses informations personnelles. Voir [cette section](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Conservation des données {#data-retention}
-
-En ce qui concerne la conservation des données, les tables de logs d&#39;usine de Campaign possèdent des périodes de conservation prédéfinies, limitant généralement le stockage des données à 6 mois ou moins.
-
-Vous trouverez ci-dessous les valeurs de conservation par défaut pour les tables d&#39;usine. Notez que la configuration de conservation est définie par les administrateurs techniques Adobe lors de la mise en œuvre et que les valeurs peuvent varier pour chaque mise en œuvre, selon les exigences du client.
-
-* **Tracking consolidé** : 6 mois
-* **Logs de diffusion** : 6 mois
-* **Logs de tracking** : 6 mois
-* **Événements** : 1 mois
-* **Statistiques du traitement des événements** : 6 mois
-* **Événements historisés** : 6 mois
-* **Entités temporaires** : 7 jours
-* **Événements Pipeline ignorés** : 1 mois
-* **Alertes de diffusion** : 1 mois
-* **Audits des exports** : 6 mois
-
-Tout comme pour la suppression, il est possible de configurer des périodes de conservation des données pour des tables personnalisées en utilisant les fonctionnalités standard des workflows.
-
-Pour en savoir plus sur la conservation des données ou pour définir des périodes de conservation pour les tables personnalisées, contactez les consultants ou les administrateurs techniques d&#39;Adobe.
 
 ### Gestion des droits {#rights-management}
 
