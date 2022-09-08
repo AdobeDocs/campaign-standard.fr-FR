@@ -8,20 +8,18 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
-workflow-type: tm+mt
-source-wordcount: '5304'
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+workflow-type: ht
+source-wordcount: '5274'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour      2020{#release-notes-2020}
+# Notes de mise à jour       2020{#release-notes-2020}
 
-[Calendrier des versions](https://helpx.adobe.com/fr/campaign/kb/acs-release-planning.html) | [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr) | [Mises à jour de la documentation](../../rn/using/documentation-updates.md) | [Notes de mise à jour précédentes](../../rn/using/release-notes-2019.md) | [Fonctionnalités obsolètes](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr)
+![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
-![](assets/do-not-localize/cp-icon.png) **Version de juin du nouveau Panneau de contrôle** avec surveillance des profils actifs, audit de délivrabilité des sous-domaines et gestion des clés GPG. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
-
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version d&#39;octobre du Panneau de contrôle** avec configuration de domaine utilisant des CNAME et nouvelles fonctionnalités de surveillance de base de données. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
 ## Version 20.4 - Octobre 2020        {#release-20-4---october-2020}
 
@@ -266,7 +264,7 @@ ht-degree: 100%
 * Ajout de la langue ES-US dans la liste des langues d’usine pour les emails multilingues. (CAMP-42279)
 * Les fichiers téléchargés avec une activité de transfert de fichier seront désormais supprimés au bout de X jours, où X est déterminé par le champ **Jours d’historique** sous le menu **Exécution** dans les propriétés du workflow. [En savoir plus](../../automating/using/managing-execution-options.md)
 
-**Intégrations d’Experience Platform**
+**Intégrations avec Experience Platform**
 
 *  L’activation des [audiences Experience Platform](../../integrating/using/aep-targeting-audiences.md) d’Adobe depuis l’activité **Lecture d’audience** a été améliorée afin d’offrir des performances optimisées et une meilleure stabilité. En outre, les logs des workflows ont été rendus plus clairs et plus détaillés en ce qui concerne les traitements d’activation, ce qui facilite le monitoring et la résolution des problèmes lors de la lecture des audiences d’Adobe Experience Platform.
 
@@ -291,7 +289,7 @@ ht-degree: 100%
 * Correction d’une erreur qui empêchait les utilisateurs d’apporter des modifications aux rapports. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du Panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nouvelle version de juin du Panneau de contrôle** avec renouvellement de certificat pour les sous-domaines CNAME. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
 ## Version 20.2 - Avril 2020                {#release-20-2---april-2020}
 
@@ -329,7 +327,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+>Au mois d’avril, de nouvelles fonctionnalités seront disponibles dans le Panneau de contrôle Campaign, notamment la gestion des enregistrements TXT Google, la surveillance de l’espace des bases de données et les alertes par email. Pour en savoir plus sur ces fonctionnalités, consultez la [note de mise à jour du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr).
 
 **Améliorations**
 
@@ -357,7 +355,7 @@ ht-degree: 100%
 * Le workflow d’usine **Réconciliation des KPI avec Adobe Analytics** s’exécute maintenant jusqu’à la date courante au lieu de s’exécuter pendant une seule journée.
 * Le MCPNS ne prend pas en charge l’ajout d’APNS et d’APNS-SANDBOX en tant que plateformes dans une application. Une fois le certificat ajouté dans Adobe Campaign Standard, vous ne pouvez plus restaurer vos paramètres dans la mesure où une seule plateforme APNS (production ou sandbox) peut être ajoutée à l’application MCPNS.
 
-**Intégrations d’Experience Platform**
+**Intégrations avec Experience Platform**
 
 >[!NOTE]
 >
