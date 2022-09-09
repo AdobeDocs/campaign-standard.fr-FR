@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7258'
-ht-degree: 100%
+source-wordcount: '7288'
+ht-degree: 99%
 
 ---
 
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
+
+## Version 22.3 - Automne/hiver 2022 {#release-22-3}
+
+Les notes de mise à jour de la version d’automne/d’hiver de Campaign Standard 22.3 ont été publiées. [En savoir plus](release-notes.md)
+
+Les périodes de conservation des données ont été mises à jour pour prendre en compte les modifications apportées à la version 22.3. [En savoir plus](../../administration/using/data-retention.md)
+
 
 ## Version 22.2 - Juin 2022 {#release-22-2}
 
@@ -757,7 +764,7 @@ Ajout des informations sur les types de logs de tracking. [En savoir plus](../..
 
 La section relative à l&#39;activité Requête a été mise à jour avec des exemples de requêtes. [En savoir plus](../../automating/using/query.md#query-samples)
 
-La section dédiée au placement sur liste bloquée a été renommée &quot;Comprendre les processus d&#39;opt-in et d&#39;opt-out&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer l&#39;inscription à des canaux spécifiques, et de configurer des landing pages pour gérer les inscriptions et les désinscriptions. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La section dédiée au placement sur liste bloquée a été renommée &quot;Comprendre les processus d&#39;opt-in et d&#39;opt-out&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer le processus d’opt-in à des canaux spécifiques, et de configurer des landing pages pour gérer les processus d’opt-in et d’opt-out. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Découvrez les bonnes pratiques relatives à l’utilisation de serveurs SFTP hébergés Adobe – [En savoir plus](../../administration/using/external-accounts.md#sftp-external-account)
 
