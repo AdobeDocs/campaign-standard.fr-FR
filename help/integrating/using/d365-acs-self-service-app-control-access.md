@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## Octroi d&#39;accès aux utilisateurs {#add-users-to-profile}
+## Octroyer l’accès aux utilisateurs {#add-users-to-profile}
 
 Dans la page **[!UICONTROL Produits]**, sélectionnez votre instance Campaign et procédez comme suit :
 
