@@ -1,5 +1,5 @@
 ---
-title: 'Prise en main de l’outil d’intégration '
+title: Prise en main de l’outil d’intégration
 description: Prise en main de l’outil d’intégration
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1104'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ En savoir plus dans ces sections :
 * [Prise en main de l’intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Bonnes pratiques et limites de l&#39;intégration](../../integrating/using/d365-acs-notices-and-recommendations.md)
 * [Découvrir les étapes clés d’implémentation de cette intégration](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
-* [Utilisation de l&#39;intégration de Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
+* [Utiliser l&#39;intégration Microsoft Dynamics 365](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Conditions préalables {#self-service-app-prerequisites}
 
@@ -37,7 +37,7 @@ Vous devez configurer Microsoft Dynamics 365 et Adobe Campaign Standard pour q
 
 En savoir plus dans ces sections :
 
-* [Configuration de Microsoft Dynamics 365 pour l’intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md)
+* [Configurer Microsoft Dynamics 365 pour l’intégration de Campaign](../../integrating/using/d365-acs-configure-d365.md)
 * [Configurer Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Mapper des ressources personnalisées de Campaign et des entités personnalisées de Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
@@ -45,7 +45,7 @@ En savoir plus dans ces sections :
 
 Vous pouvez ensuite commencer à utiliser l’outil d’intégration. Suivez ces étapes :
 
-1. [Obtenir l&#39;accès à l’application d’intégration](../../integrating/using/d365-acs-self-service-app-control-access.md)
+1. [Obtenir l’accès à l’application d’intégration](../../integrating/using/d365-acs-self-service-app-control-access.md)
 1. [Configurer l’application d’intégration en fonction de votre utilisation](../../integrating/using/d365-acs-self-service-app-settings.md)
 1. [Implémenter la synchronisation des données](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [Configurer des workflows de synchronisation](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -63,7 +63,7 @@ Ouvrez un navigateur et accédez au connecteur associé à votre zone géographi
 Lorsque vous accédez pour la première fois à l’interface utilisateur en libre-service, une reconnaissance des modalités des demandes d&#39;accès à des informations personnelles s’affiche. Vous devez reconnaître que vous avez compris votre rôle dans l&#39;exécution des demandes d&#39;accès à des informations personnelles dans Campaign et Microsoft Dynamics 365 séparément avant de pouvoir continuer.
 Pour en savoir plus sur vos responsabilités en matière de confidentialité et sur la façon de gérer les demandes d&#39;accès à des informations personnelles, consultez [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
-## Configuration de vos informations d&#39;identification {#self-service-app-credentials}
+## Configurer vos informations d&#39;identification {#self-service-app-credentials}
 
 Lorsque vous accédez pour la première fois à l’interface utilisateur, une page s’affiche avec un en-tête qui ressemble à celui-ci :
 
@@ -117,7 +117,7 @@ Une fois que votre configuration est correcte, cliquez sur le bouton **[!UICONTR
 Une fois l’exécution commencée, vous devriez être en mesure d’effectuer des tests en ajoutant ou en modifiant des entrées dans Microsoft Dynamics 365 et en observant ces modifications dans Adobe Campaign après quelques minutes. Si, à tout moment, vous devez arrêter ce processus, il vous suffit d&#39;appuyer sur le même bouton pour l&#39;arrêter. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
-## Espace de travail de l&#39;application d&#39;intégration {#self-service-app-workspace}
+## Espace de travail de l’application d&#39;intégration {#self-service-app-workspace}
 
 ### En-tête de l’application {#app-header}
 
