@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1607'
 ht-degree: 100%
 
@@ -135,7 +135,7 @@ Lors de la configuration des flux de données d&#39;entités personnalisées, il
 
 Vous trouverez une présentation plus exhaustive des ressources personnalisées de Campaign dans [cette section](../../developing/using/key-steps-to-add-a-resource.md).
 
-### Flux d’événements de marketing par email{#email-marketing-event-flow}
+### Flux d’événements de marketing par e-mail{#email-marketing-event-flow}
 
 Les événements de marketing email sont envoyés de Campaign vers Microsoft Dynamics 365 pour apparaître dans la vue Planning.
 
