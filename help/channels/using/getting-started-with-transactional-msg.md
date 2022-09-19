@@ -10,9 +10,9 @@ role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
 source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Pour plus d’informations sur la modification et la publication d’un message 
 
 Une fois que vous avez créé l’événement de votre choix, il vous faut intégrer le déclenchement de cet événement à votre site web.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.-->**Pour ce faire, le développeur web de votre site doit se servir de l’API REST Adobe Campaign Standard**.
 
-| Mise en oeuvre du déclencheur | Utilisateur | Action | Résultat |
+| Mettre en œuvre le déclencheur | Utilisateur | Action | Résultat |
 | --- |--- |--- |--- |
 | <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Cette étape est effectuée par le développeur de votre site web. | Utilisez l’API REST des messages transactionnels pour intégrer l’événement à votre site web. | L’événement est déclenché lorsqu’un client abandonne son panier. |
 
@@ -125,7 +125,7 @@ Une fois toutes les étapes ci-dessus effectuées, le message peut être diffus�
 
 | Diffuser le message | Utilisateur | Action | Résultat |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Cette étape est effectuée par les clients qui visitent votre site web. | Dès qu&#39;un utilisateur quitte le site sans commander les produits dans son panier, l’événement Campaign correspondant est déclenché. | L’utilisateur reçoit alors automatiquement un email de notification. |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Cette étape est effectuée par les clients qui visitent votre site web. | Dès qu’un utilisateur quitte le site sans commander les produits dans son panier, l’événement Campaign correspondant est déclenché. | L’utilisateur reçoit alors automatiquement un email de notification. |
 
 ## Rubriques connexes :
 
