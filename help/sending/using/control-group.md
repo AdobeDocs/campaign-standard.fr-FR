@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Vous pouvez extraire les **logs d’envoi** pour comparer la façon dont la popu
 
 >[!IMPORTANT]
 >
->Pour accéder aux logs de diffusion, vous devez disposer d’un [Rôle d’administrateur](../../administration/using/users-management.md#functional-administrators) et de faire partie de la **[!UICONTROL Tous]** [entité organisationnelle](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>Pour accéder aux logs de diffusion, vous devez disposer d’un [Rôle d’administrateur](../../administration/using/users-management.md#functional-administrators) et faire partie de l’[entité organisationnelle](../../administration/using/organizational-units.md) **[!UICONTROL Tous]**. <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### Vérification des logs de diffusion {#checking-logs}
 
