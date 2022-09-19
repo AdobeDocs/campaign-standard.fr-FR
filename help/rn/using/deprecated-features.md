@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
  <tbody> 
   <tr> 
    <td> <p> À compter de la version 21.3 de Campaign Standard, l’intégration au connecteur d’Adobe Experience Platform est obsolète. </p>
-   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer le connecteur d’Adobe Experience Platform à Adobe Campaign Standard. Vous avez toutefois la possibilité d’intégrer Campaign et Adobe Experience Platform par l’intermédiaire des sources et des destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">En savoir plus</a>.</p>
+   <p>Pour une nouvelle mise en œuvre, vous ne pouvez plus intégrer le connecteur d’Adobe Experience Platform à Adobe Campaign Standard. Vous avez toutefois la possibilité d’intégrer Campaign et Adobe Experience Platform par l’intermédiaire des sources et des destinations. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=fr">En savoir plus</a>.</p>
      <em>Date de suppression prévue : 2023</em></p>
      </td> 
   </tr> 
