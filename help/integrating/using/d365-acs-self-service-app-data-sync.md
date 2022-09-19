@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1944'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Si vous modifiez un mapping existant, vous verrez que les sélections de table n
 
 Ce comportement est lié à la conception, car les entrées situées plus bas dans la page reposent sur les champs associés à ces tables. La modification des tables rendrait tous les champs associés non valides. Si vous souhaitez modifier la table à mapper, vous devez revenir à la page précédente, supprimer le mapping à modifier et ajouter un nouveau mapping.
 
-### Configurer un mapping de table distinct {#new-mapping-settings}
+### Configurer un mapping de tableau individuel {#new-mapping-settings}
 
 Dans cette section, vous allez découvrir comment configurer un mapping **simple** d&#39;une table Microsoft Dynamics 365 vers une table Adobe Campaign.
 
