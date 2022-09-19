@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour.
 
-## Version 22.3 - Version d’automne/d’hiver 2022 {#release-22-3-release}
+## Version 22.3 - Version d’automne/hiver 2022 {#release-22-3-release}
 
 Les mises à jour des environnements s&#39;effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par email à chaque client.
 
-Vous trouverez des informations détaillées sur cette version dans la section [Notes de mise à jour](release-notes.md).
+Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](release-notes.md).
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Vous trouverez des informations détaillées sur cette version dans la section [
  <tbody>
   <tr>
    <td>Préproduction<br /> </td>
-   <td>8 septembre 2022 - début 2023<br /> </td>
+   <td>8 septembre 2022 - Début 2023<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>15 septembre 2022 - début 2023<br /> </td>
+   <td>15 septembre 2022 - Début 2023<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ R : Les modifications sont répertoriées dans les [Notes de mise à jour](../.
 
 **Q : Quelle est la procédure de validation ?**
 
-R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+R : Lorsque l&#39;instance de préproduction est mise à niveau, Adobe recommande de valider les processus, de vérifier que les cas pratiques fonctionnent avec la nouvelle version et de signaler tout problème à l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 **Q : L&#39;instance sera-t-elle accessible pendant la mise à niveau ?**
 
@@ -82,4 +82,4 @@ R : Oui. Il ne sera pas possible d&#39;envoyer de nouveaux emails pendant la mi
 
 R : Lorsque vous vous connectez à Campaign, une fenêtre contextuelle de notification s&#39;affiche avec la dernière version.
 
-Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Pour toute autre question, contactez l&#39;[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
