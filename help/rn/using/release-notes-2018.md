@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5413'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td> Intégration avec Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +130,7 @@ ht-degree: 99%
 **Correctifs**
 
 * Correction d’un problème avec le filtre de requête byEmail qui ne renvoyait pas de résultats. (CAMP-23420)
-* Correction d’un problème qui permettait à un utilisateur standard d’accéder à certaines fonctionnalités ou écrans réservés aux administrateurs (/rest/head/&#42; points de fin, écrans de messages transactionnels, profils et audiences (écrans d’import).
+* Correction d’un problème qui permettait à un utilisateur standard d’accéder à certaines fonctionnalités ou à certains écrans réservés aux administrateurs (points d’entrée /rest/head/&#42;, écrans de messages transactionnels et écrans d’importation de profils et d’audiences).
 * Correction d’un problème qui empêchait le traitement de ressources personnalisées dans le cadre de demandes de suppression des informations personnelles liées au RGPD si leur nom commençait par un nombre.
 * Correction d’un problème qui empêchait l’activité Sauvegarde d’audience de partager des abonnés aux applications dans Adobe Experience Cloud.
 * Correction d’un problème qui pouvait se produire avec l’activité Transfert de fichier lorsque le nom du fichier contenait des espaces blancs. (CAMP-25936)
@@ -297,7 +297,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 
