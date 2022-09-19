@@ -145,7 +145,7 @@ Le protocole Blob Microsoft Azure permet d’accéder à l’objet Blob situé s
 ### Configuration avec des fichiers présents sur le serveur Adobe Campaign {#files-server-configuration-wf}
 
 Le protocole **[!UICONTROL Fichier(s) présent(s) sur le serveur Adobe Campaign]** correspond au référentiel contenant le ou les fichiers à récupérer.
-Les métacaractères, ou caractères génériques (par exemple * ou ?) peuvent être utilisés pour filtrer les fichiers.
+Les métacaractères ou caractères génériques (par exemple &#42; ou ?) peuvent être utilisés pour filtrer les fichiers.
 
 Choisissez si vous souhaitez **[!UICONTROL Définir un chemin d’accès au fichier]** ou **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]**. L’option **[!UICONTROL Utiliser un chemin d’accès au fichier dynamique]** permet d’utiliser une expression standard et des variables d’événements pour personnaliser le nom du fichier à transférer. Voir à ce propos [cette page](../../automating/using/customizing-workflow-external-parameters.md).
 
