@@ -10,7 +10,7 @@ role: Data Architect
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Les principaux avantages sont les suivants :
 >
 >Cette intégration considère Dynamics 365 comme source de vérité pour la synchronisation des contacts et des entités personnalisées.  Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365, et non dans Adobe Campaign Standard.  Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées lors de la synchronisation.
 
-## Étapes clés de la mise en œuvre de l&#39;intégration de Microsoft Dynamics 365{#request-and-implement-this-integration}
+## Étapes clés de la mise en œuvre de l&#39;intégration Microsoft Dynamics 365{#request-and-implement-this-integration}
 
 Pour configurer cette intégration, vous devez suivre les étapes ci-dessous.
 
