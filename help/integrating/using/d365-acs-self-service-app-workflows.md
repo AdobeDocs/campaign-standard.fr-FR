@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Cette application d’intégration commence par lire les données, puis les écr
 >[!NOTE]
 >Si vos enregistrements Microsoft Dynamics 365 et/ou Campaign ne sont pas mis à jour, vous devez d&#39;abord vérifier si un grand nombre d&#39;enregistrements est en attente d&#39;écriture sur la destination.
 
-## Workflow status {#workflow-status}
+## Statut du workflow {#workflow-status}
 
 La colonne **[!UICONTROL État]** indique l&#39;état des processus en arrière-plan associés au workflow. Les valeurs possibles sont les suivantes :
 
