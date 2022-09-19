@@ -189,7 +189,7 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 ### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
-Le champ **[!UICONTROL Désinscription du CCPA]** est fourni tel quel dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
+Le champ **[!UICONTROL Opt-out du CCPA]** est fourni tel quel dans l’API et l’interface de Campaign. Par défaut, le champ est disponible pour la ressource **[!UICONTROL Profil]** standard.
 
 Si vous utilisez une ressource de profil personnalisée, vous devez étendre la ressource et ajouter le champ. Nous vous recommandons d&#39;utiliser un nom différent du nom d&#39;origine du champ, par exemple : **[!UICONTROL Opt-out du CCPA]** (optoutccpa). Lorsqu&#39;un champ est créé, il est automatiquement pris en charge par l&#39;API de Campaign.
 
