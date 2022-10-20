@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Les profils client intégrés de Campaign permettent de tracker chaque interacti
 
 Segmentez votre base de données en différentes audiences pour optimiser la cible de vos campagnes marketing.
 
-Gérez les autorisations et le consentement des clients à l’aide de services et de landing pages pour configurer des mécanismes simples d’inscription et de désinscription.
+Gérez les autorisations et le consentement des clients à l’aide de services et de landing pages pour configurer des mécanismes simples d’opt-in et d&#39;opt-out.
 
 ## Segmentation et ciblage {#segmenting-targeting}
 
