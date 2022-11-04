@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ La création d’une activité marketing est présentée dans la section [Créer
 
    ![](assets/workflow_creation_2.png)
 
-   Vous pouvez saisir un nom dans le champ **Libellé** et modifier l’identifiant. Le nom de l’activité et son identifiant apparaissent dans l’interface, mais ne sont pas visibles par les destinataires des messages.
+   Vous pouvez saisir un nom dans le champ **Libellé** et modifier l’identifiant.
 
    >[!NOTE]
    >

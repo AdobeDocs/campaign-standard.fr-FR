@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,9 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
    >
    >Les modèles de relance et de test A/B sont masqués par défaut. Cochez les cases situées à gauche (au niveau du panneau latéral **[!UICONTROL Filtrer]**) si vous souhaitez les afficher.
 
-1. Renseignez les propriétés générales de l&#39;email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l&#39;identifiant. Le nom de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
+1. Renseignez les propriétés générales de l&#39;email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l&#39;identifiant.
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    Vous pouvez ajouter une description, qui sera visible par l’utilisateur dans le contenu de la campagne.
 
@@ -91,8 +93,9 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 **Rubriques connexes** :
 
 * [Créer un e-mail personnalisé](../../channels/using/key-steps-to-send-a-message.md) : guide pas à pas
-* [Intégration d’Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
-* [Intégration d’Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
+* [Intégration avec Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+* [Intégration avec Adobe Experience Manager
+](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Tutoriel vidéo {#video}
 
