@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
-source-wordcount: '544'
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+workflow-type: ht
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -43,9 +43,9 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
 1. Renseignez les propriétés générales du SMS.
 
-   ![](assets/sms_creation_2.png)
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
-   Le libellé de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
+   ![](assets/sms_creation_2.png)
 
 1. Indiquez l&#39;audience que vous souhaitez cibler. Vous pouvez sélectionner une audience existante ou cibler directement une population en définissant et en associant des règles.
 
