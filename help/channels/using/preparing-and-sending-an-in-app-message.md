@@ -8,7 +8,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 100%
@@ -61,8 +61,6 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 1. Renseignez les propriétés du message in-app et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
 
    Si aucune application n&#39;est visible dans la liste déroulante, assurez-vous que l&#39;état de vos applications mobiles soit défini sur **Configuré**. Les applications dont l&#39;état est **Prêt à être configuré** n&#39;apparaissent pas dans la liste. Pour plus d&#39;informations sur cette configuration d&#39;application mobile, consultez cette [page](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/inapp_creating_3.png)
 

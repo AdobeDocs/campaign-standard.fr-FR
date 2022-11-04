@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
@@ -31,9 +31,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
    >
    >Les modèles de relance et de test A/B sont masqués par défaut. Cochez les cases situées à gauche (au niveau du panneau latéral **[!UICONTROL Filtrer]**) si vous souhaitez les afficher.
 
-1. Renseignez les propriétés générales de l&#39;email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l&#39;identifiant.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Renseignez les propriétés générales de l&#39;email. Vous pouvez saisir un nom dans le champ **Libellé** et modifier l&#39;identifiant. Le nom de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
 
    Vous pouvez ajouter une description, qui sera visible par l’utilisateur dans le contenu de la campagne.
 
