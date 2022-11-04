@@ -92,8 +92,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
 * [Créer un e-mail personnalisé](../../channels/using/key-steps-to-send-a-message.md) : guide pas à pas
 * [Intégration avec Adobe Campaign et de Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
-* [Intégration avec Adobe Experience Manager
-](../../integrating/using/integrating-with-experience-manager.md)
+* [Intégration avec Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
 ## Tutoriel vidéo {#video}
 
