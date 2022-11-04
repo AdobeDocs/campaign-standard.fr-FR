@@ -9,8 +9,8 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
-workflow-type: tm+mt
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -45,6 +45,8 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont l
 1. Renseignez les propriétés de la notification push et sélectionnez votre application mobile dans le champ **[!UICONTROL Associer une application mobile à une diffusion]**.
 
    La liste déroulante contiendra les applications des SDK V4 et Experience Platform.
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/push_notif_properties.png)
 
