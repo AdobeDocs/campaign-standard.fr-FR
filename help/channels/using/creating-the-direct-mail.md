@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,12 @@ La création d&#39;une diffusion courrier est très similaire à celle d&#39;un 
 1. Renseignez les propriétés générales de la diffusion.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Le nom de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
+   >
+   >Assurez-vous que le champ Identifiant ne contient pas d’espace vide pour éviter toute discordance, par exemple lors de l’intégration à Adobe Analytics.
 
 1. Définissez l&#39;audience que vous souhaitez inclure dans le fichier d&#39;extraction ainsi que les profils de test et de type piège. Voir [Définir l&#39;audience du courrier](../../channels/using/defining-the-direct-mail-audience.md).
 
