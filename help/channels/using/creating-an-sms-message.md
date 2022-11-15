@@ -12,7 +12,7 @@ exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
 
    >[!NOTE]
    >
-   >Le nom de l&#39;activité et son identifiant apparaissent dans l&#39;interface, mais ne sont pas visibles par les destinataires des messages.
+   >Le nom de l’activité et son identifiant apparaissent dans l’interface, mais ne sont pas visibles par les destinataires des messages.
    >
-   >Assurez-vous que le champ Identifiant ne contient pas d’espace vide pour éviter toute discordance, par exemple lors de l’intégration à Adobe Analytics.
+   >Assurez-vous que le champ d’identifiant ne contient pas d’espace vide pour éviter toute discordance, par exemple lors de l’intégration à Adobe Analytics.
 
 1. Indiquez l&#39;audience que vous souhaitez cibler. Vous pouvez sélectionner une audience existante ou cibler directement une population en définissant et en associant des règles.
 
