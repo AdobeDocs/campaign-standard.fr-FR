@@ -4,7 +4,8 @@ description: Cette page répertorie toutes les versions 2022 d’Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
 workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
@@ -96,4 +97,3 @@ ht-degree: 100%
 * Amélioration des performances lors de la duplication des audiences, afin d’éviter tout problème lors de l’utilisation de grandes audiences. (CAMP-49639)
 * Correction d’un problème qui pouvait empêcher un filtre personnalisé dʼafficher les résultats corrects dans une activité **Requête**. (CAMP-49417)
 * Correction dʼune erreur qui entraînait lʼaffichage dʼun message dʼerreur lors de lʼutilisation dʼun fragment dans une diffusion dont le nom contient une virgule. Ce problème a été résolu, des virgules peuvent désormais être utilisées dans les noms des fragments. (CAMP-49216)
-
