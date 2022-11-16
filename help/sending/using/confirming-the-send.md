@@ -131,8 +131,7 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, leur état de
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
-### Modifications ajoutées par EFS
- {#changes-introduced-by-efs}
+### Modifications ajoutées par EFS {#changes-introduced-by-efs}
 
 Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
 
