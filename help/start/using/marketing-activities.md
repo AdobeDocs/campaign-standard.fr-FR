@@ -1,6 +1,6 @@
 ---
 title: Activités marketing
-description: '"Découvrez comment créer et gérer vos activités marketing : campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer et modifier une activité, et en consulter l’état et la validité."'
+description: "Découvrez comment créer et gérer vos activités marketing\_: campagnes, diffusions email, SMS et par notification push, landing pages, workflows. Vous pouvez facilement créer et modifier une activité, et en consulter l’état et la validité."
 audience: start
 content-type: reference
 topic-tags: marketing-plans

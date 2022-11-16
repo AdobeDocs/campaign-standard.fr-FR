@@ -1,6 +1,6 @@
 ---
 title: Echecs et bounces
-description: 'Grâce au rapport d''usine Echecs et bounces, découvrez les erreurs qui peuvent s''être produites pendant votre diffusion. '
+description: Grâce au rapport d'usine Echecs et bounces, découvrez les erreurs qui peuvent s'être produites pendant votre diffusion.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

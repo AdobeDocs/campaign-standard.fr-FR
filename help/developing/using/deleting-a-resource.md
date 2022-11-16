@@ -1,6 +1,6 @@
 ---
 title: Supprimer une ressource
-description: 'Découvrez comment supprimer une ressource. '
+description: Découvrez comment supprimer une ressource.
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

@@ -1,13 +1,13 @@
 ---
 title: Workflows techniques
-description: 'En savoir plus à propos des workflows techniques '
+description: En savoir plus à propos des workflows techniques
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Les workflows techniques sont utilisés pour gérer les processus techniques et 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
-   <td> <span class="uicontrol">cleanup</span> <br /> </td> 
+   <td> <span class="uicontrol">nettoyage</span> <br /> </td> 
    <td> Ce workflow est le workflow d'entretien de la base : il procède aux différents calculs des statistiques et traitements, et supprime les données obsolètes de la base de données selon le paramétrage défini. Par défaut, il se déclenche tous les jours à 4H00.<br /> </td> 
   </tr> 
   <tr> 

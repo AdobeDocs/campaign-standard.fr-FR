@@ -1,6 +1,6 @@
 ---
 title: Profil client intégré
-description: '"Trackez l''interaction de chaque client dans une vue unique : le profil client intégré d''Adobe Campaign est mis à jour tout au long du cycle de vie du client."'
+description: "Trackez l'interaction de chaque client dans une vue unique\_: le profil client intégré d'Adobe\_Campaign est mis à jour tout au long du cycle de vie du client."
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles

@@ -1,5 +1,5 @@
 ---
-title: 'Conception d''emails à l''aide de contenu existant '
+title: Conception d'emails à l'aide de contenu existant
 description: Découvrez comment concevoir des emails à l'aide d'un contenu d'email existant dans le Concepteur d'email.
 audience: designing
 content-type: reference

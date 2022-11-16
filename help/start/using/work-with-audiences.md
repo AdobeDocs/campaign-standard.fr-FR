@@ -1,6 +1,6 @@
 ---
 title: Personnalisation des listes
-description: '"Découvrez comment personnaliser l''affichage et exécuter des actions sur les écrans de type Liste dans Adobe Campaign Standard : tri, filtrage, suppression ou duplication d''éléments. Les écrans de type Liste affichent les éléments d''une ou plusieurs ressources données."'
+description: "Découvrez comment personnaliser l'affichage et exécuter des actions sur les écrans de type Liste dans Adobe\_Campaign\_Standard\_: tri, filtrage, suppression ou duplication d'éléments. Les écrans de type Liste affichent les éléments d'une ou plusieurs ressources données."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface

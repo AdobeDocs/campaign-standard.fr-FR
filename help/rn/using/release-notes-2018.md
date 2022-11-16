@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '5413'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Intégration avec Adobe Launch pour les applications mobiles (version bêta)<br /> </td> 
-   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
+   <td> L’intégration d’Adobe Launch avec Adobe Campaign simplifie et automatise maintenant le processus d’activation de la propriété Application mobile dans Campaign à l’aide du SDK Mobile V5.<br /> Pour plus d’informations, consultez la <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +297,7 @@ _Ressources personnalisées_
     <ul> 
      <li> Droit d’accès : permet au titulaire de données de recevoir une copie de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
      <li> Droit de suppression : autorise le titulaire de données à demander la suppression de ses données personnelles capturées par les contrôleurs de données, notamment les données éventuellement stockées dans Adobe Campaign. </li> 
-    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
+    </ul> Pour plus d’informations, consultez la <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer pour les e-mails (version bêta)<br /> </td> 

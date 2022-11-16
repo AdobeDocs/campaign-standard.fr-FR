@@ -1,5 +1,5 @@
 ---
-title: '"Etape 1 : Ajouter des champs d''extension à la ressource Profil"'
+title: "Etape\_1\_: Ajouter des champs d'extension à la ressource Profil"
 description: Découvrez comment étendre la ressource Profil.
 audience: developing
 content-type: reference

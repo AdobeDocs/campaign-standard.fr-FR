@@ -54,17 +54,17 @@ Pour améliorer l’expérience de vos destinataires et les inciter à ouvrir vo
 
 Pour améliorer le taux d’ouverture de vos messages, vous pouvez également définir manuellement une heure d’envoi par destinataire. Dans la mesure du possible, chaque profil recevra le message à la date et à l’heure spécifiées. Pour plus d&#39;informations, consultez la section [Optimiser l&#39;heure d&#39;envoi](../../sending/using/optimizing-the-sending-time.md).
 
-## Lien et formulaire d’exclusion {#opt-out}
+## Lien et formulaire d’opt-out {#opt-out}
 
-Par défaut, une règle de typologie vérifie au moment de l&#39;analyse qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence. Pour plus d’informations sur la gestion des liens, consultez [cette section](../../designing/using/links.md).
+Par défaut, une règle de typologie vérifie au moment de l&#39;analyse qu&#39;un lien d&#39;opt-out est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence. Pour plus d’informations sur la gestion des liens, consultez [cette section](../../designing/using/links.md).
 
-Vous devez vérifier le bon fonctionnement du lien de désinscription avant chaque envoi. Par exemple, lors de l’[envoi du BAT](../../sending/using/sending-proofs.md), assurez-vous que le lien est valide, que le formulaire est en ligne et que sa validation active bien les cases **[!UICONTROL Ne plus contacter]**. Cette vérification doit être systématique, car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire. Pour plus d’informations sur la gestion de l’opt-in et de l’opt-out, consultez [cette section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
+Vous devez vérifier le bon fonctionnement du lien d&#39;opt-out avant chaque envoi. Par exemple, lors de l’[envoi du BAT](../../sending/using/sending-proofs.md), assurez-vous que le lien est valide, que le formulaire est en ligne et que sa validation active bien les cases **[!UICONTROL Ne plus contacter]**. Cette vérification doit être systématique, car on ne peut pas exclure une erreur humaine dans la saisie du lien ou dans la modification du formulaire. Pour plus d’informations sur la gestion de l’opt-in et de l’opt-out, consultez [cette section](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
-Au cas où un problème empêchant la désinscription ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible de désinscrire manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien de désinscription, même s’ils n’ont pas pu confirmer ce choix.
+Au cas où un problème empêchant la opt-out ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible de désinscrire manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d&#39;opt-out, même s’ils n’ont pas pu confirmer ce choix.
 
-De manière générale, n’essayez pas de faire obstacle aux destinataires qui souhaitent se désinscrire en leur demandant de remplir des champs tels que leur adresse email ou leur nom, par exemple. La landing page de désinscription ne doit comporter qu’un seul bouton de validation.
+De manière générale, n’essayez pas de faire obstacle aux destinataires qui souhaitent se désinscrire en leur demandant de remplir des champs tels que leur adresse e-mail ou leur nom, par exemple. La landing page de désinscription ne doit comporter qu’un seul bouton de validation.
 
 Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur peut disposer de deux adresses email redirigées vers la même boîte (par exemple : prénom.nom@club.com et prénom.nom@internet-club.com). Si le profil est capable de se souvenir uniquement de la première adresse et souhaite se désinscrire via un message envoyé à l’autre, le formulaire refusera cette adresse car l’identifiant chiffré et l’adresse email saisie ne correspondront pas.
 

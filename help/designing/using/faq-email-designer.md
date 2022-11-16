@@ -1,5 +1,5 @@
 ---
-title: 'Questions fréquentes sur le Concepteur d’email '
+title: Questions fréquentes sur le Concepteur d’email
 description: Questions fréquentes sur le Concepteur d’email.
 audience: designing
 content-type: reference

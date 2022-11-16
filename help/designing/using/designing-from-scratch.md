@@ -1,5 +1,5 @@
 ---
-title: 'Conception d’emails à partir de zéro '
+title: Conception d’emails à partir de zéro
 description: Découvrez comment concevoir des emails à partir de zéro dans le Concepteur d’email.
 audience: designing
 content-type: reference

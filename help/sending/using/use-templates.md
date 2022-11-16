@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Utilisez les modèles {#use-templates}
+# Utilisation de modèles {#use-templates}
 
 Les modèles de diffusion accroissent l&#39;efficacité en offrant des configurations prêtes à l&#39;emploi pour les types d&#39;activité les plus courants. Grâce aux modèles, les marketeurs peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 

@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Optimiser votre diffusion {#optimize-delivery}
+# Optimisation de votre diffusion {#optimize-delivery}
 
 Avant même de commencer à créer des diffusions, vous pouvez prendre des mesures pour sécuriser et optimiser le processus d&#39;envoi en amont.
 
@@ -66,7 +66,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 * Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. [En savoir plus](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
-* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Voir à ce propos [cette section](../../sending/using/understanding-quarantine-management.md).
+* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Pour plus d’informations, consultez [cette section](../../sending/using/understanding-quarantine-management.md).
 
 * Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
 

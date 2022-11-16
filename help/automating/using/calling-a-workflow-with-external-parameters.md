@@ -1,5 +1,5 @@
 ---
-title: 'Vue d’ensemble '
+title: Vue d’ensemble
 description: Cette section explique dans le détail comment appeler un workflow avec des paramètres externes.
 audience: automating
 content-type: reference

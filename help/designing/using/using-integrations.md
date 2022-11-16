@@ -1,5 +1,5 @@
 ---
-title: 'Conception d’emails par le biais des intégrations d’Adobe Campaign '
+title: Conception d’emails par le biais des intégrations d’Adobe Campaign
 description: Découvrez comment concevoir des emails via les intégrations d’Adobe Campaign dans le Concepteur d’email.
 audience: designing
 content-type: reference
@@ -21,7 +21,7 @@ Adobe Campaign propose plusieurs options de création d&#39;email. Vous pouvez 
 
 ## Modifier le contenu dans Dreamweaver {#editing-content-in-dreamweaver}
 
-L’intégration d’Adobe Campaign Standard à Dreamweaver permet d’éditer le contenu d’un email dans l’interface de Dreamweaver. Vous avez accès à l’interface puissante de Dreamweaver pour concevoir du contenu d’email réactif.
+L’intégration d’Adobe Campaign Standard avec Dreamweaver permet d’éditer le contenu d’un email dans l’interface de Dreamweaver. Vous avez accès à l’interface puissante de Dreamweaver pour concevoir du contenu d’email réactif.
 
 * **Synchronisation bidirectionnelle**
 

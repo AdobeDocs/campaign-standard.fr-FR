@@ -20,7 +20,7 @@ Des mécanismes d&#39;inscription peuvent être configurés pour offrir à vos c
 
 Chaque service est fourni avec :
 
-* des mécanismes d&#39;**inscription** (opt-in) et de **[!UICONTROL désinscription]**.
+* Mécanismes d&#39;**opt-in** et d&#39;**[!UICONTROL opt-out]**.
 * des **mécanismes de confirmation** d&#39;inscription et/ou de désinscription.
 * un suivi de l&#39;**historique** des inscriptions.
 

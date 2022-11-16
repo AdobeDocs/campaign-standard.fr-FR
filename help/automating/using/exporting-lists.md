@@ -1,6 +1,6 @@
 ---
 title: Export de listes
-description: 'Adobe Campaign vous permet d''exporter les données affichées sous forme de listes depuis un écran de présentation directement dans un fichier en vue d''une utilisation ultérieure. '
+description: Adobe Campaign vous permet d'exporter les données affichées sous forme de listes depuis un écran de présentation directement dans un fichier en vue d'une utilisation ultérieure.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data

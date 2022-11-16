@@ -66,11 +66,11 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Découvrez les consignes relatives aux liens de désabonnement [dans cette section](../../designing/using/personalization.md#about-targeting-dimension).
 
-Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de contrôle vérifie au moment de l&#39;analyse du message qu&#39;un lien de désinscription est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence.
+Par défaut, une [règle de typologie](../../sending/using/control-rules.md) de contrôle vérifie au moment de l&#39;analyse du message qu&#39;un lien d&#39;opt-out est bien présent dans le contenu d&#39;une diffusion et génère un avertissement en cas d&#39;absence.
 
 **Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
 
-Découvrez comment insérer un lien d&#39;exclusion [dans cette section](../../designing/using/personalization.md#adding-a-content-block).
+Découvrez comment insérer un lien d&#39;opt-out [dans cette section](../../designing/using/personalization.md#adding-a-content-block).
 
 ### Taille des e-mails  {#email-size}
 

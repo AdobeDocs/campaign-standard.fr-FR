@@ -1,5 +1,5 @@
 ---
-title: '"Étape 2 : Publier l''extension"'
+title: "Étape\_2\_: Publier l'extension"
 description: Découvrez comment publier l'extension dans Campaign Standard. Partie 2 d'une série.
 audience: developing
 content-type: reference

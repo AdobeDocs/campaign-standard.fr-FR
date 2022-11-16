@@ -5,8 +5,8 @@ user-guide-description: Centre d'aide pour les principales fonctionnalités, tâ
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 100%
    + Versions précédentes {#previous-releases}
       + [Notes de mise à jour 2022](rn/using/release-notes-2022.md)
       + [Notes de mise à jour 2021](rn/using/release-notes-2021.md)
-      + [Notes de mise à jour       2020](rn/using/release-notes-2020.md)
-      + [Notes de mise à jour       2019](rn/using/release-notes-2019.md)
+      + [Notes de mise à jour 2020](rn/using/release-notes-2020.md)
+      + [Notes de mise à jour 2019](rn/using/release-notes-2019.md)
       + [Notes de mise à jour 2018](rn/using/release-notes-2018.md)
       + [Notes de mise à jour 2017](rn/using/release-notes-2017.md)
    + [Calendrier des versions](rn/using/release-planning.md)

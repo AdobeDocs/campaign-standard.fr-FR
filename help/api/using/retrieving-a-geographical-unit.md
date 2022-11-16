@@ -18,7 +18,8 @@ ht-degree: 100%
 # Récupération de l&#39;entité géographique d&#39;un profil {#retrieving-geographical-unit}
 
 1. Exécutez une requête GET sur la clé PKey du profil pour récupérer l’URL **geoUnit** .
-1. Exécutez une requête GET sur l’URL pour obtenir plus de détails sur l’entité géographique.
+1. Exécutez une requête GET sur l’URL pour récupérer plus de détails sur l’entité géographique.
+
 
 <br/>
 

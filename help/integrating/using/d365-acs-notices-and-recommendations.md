@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2510'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Cette intégration est conçue pour transférer des données d&#39;utilisateur f
 
 Cette intégration a pour but de transférer les données des utilisateurs finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
 
-L&#39;intégration ne permet pas de supprimer ou de traiter toute autre demande d&#39;accès à des informations personnelles (à l&#39;exception de la désinscription). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
+L&#39;intégration ne permet pas de supprimer ou de traiter toute autre demande d&#39;accès à des informations personnelles (à l&#39;exception du processus d’opt-out). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
 
 Si vous avez configuré l&#39;intégration pour émettre des appels de suppression de profil classiques à Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, suivez les étapes ci-dessous. Vérifiez qu&#39;aucune mise à jour n&#39;est effectuée sur l&#39;enregistrement concerné au cours de ce processus.
 
@@ -75,13 +75,13 @@ Lors de la mise en service de l’intégration, vous aurez la possibilité de sp
 
 Si vous disposez également d&#39;un processus distinct pour gérer la synchronisation des opt-outs entre les systèmes, le flux de données d&#39;opt-out de l&#39;intégration peut être désactivé.
 
-La configuration de désinscription bidirectionnelle utilise la logique pour déterminer la valeur à écrire sur les deux systèmes. La logique compare la date et l&#39;heure entre les deux systèmes (changement au niveau des enregistrements dans Dynamics 365, changement au niveau des attributs dans Campaign) afin de déterminer quel système prévaut. Si Campaign contient la date et l&#39;heure les plus récentes, alors la valeur Campaign prévaut. Si Dynamics 365 contient la date et l&#39;heure les plus récentes ou identiques, alors opt-out=TRUE gagne (en supposant que l&#39;une des valeurs soit TRUE).
+La configuration d&#39;opt-out bidirectionnelle utilise la logique pour déterminer la valeur à écrire sur les deux systèmes. La logique compare la date et l&#39;heure entre les deux systèmes (changement au niveau des enregistrements dans Dynamics 365, changement au niveau des attributs dans Campaign) afin de déterminer quel système prévaut. Si Campaign contient la date et l&#39;heure les plus récentes, alors la valeur Campaign prévaut. Si Dynamics 365 contient la date et l&#39;heure les plus récentes ou identiques, alors opt-out=TRUE gagne (en supposant que l&#39;une des valeurs soit TRUE).
 
 Découvrez comment sélectionner les options d&#39;opt-out/opt-in dans [cette section](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!NOTE]
 >
->Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences de désinscription reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
+>Veuillez consulter et, le cas échéant, mettre à jour les règles de typologie par défaut et spécifiques dans Adobe Campaign avant d&#39;effectuer des modifications ici pour vous assurer que ces modifications sont correctement appliquées à toutes les communications sortantes. Par exemple, veillez à ce que tous les mappages vers les préférences d&#39;opt-out reflètent fidèlement les choix d&#39;intention/de communication du destinataire et n&#39;interrompent pas par inadvertance la diffusion d&#39;une relation ou de messages transactionnels tels que les confirmations de commande client.
 
 Si vous avez sélectionné la configuration d’opt-out **bidirectionnelle** ou **unidirectionnelle de Campaign vers Microsoft Dynamics 365**, les données d’opt-out Campaign seront régulièrement exportées via le workflow vers votre zone de stockage SFTP dans Campaign (voir « Utilisation du stockage SFTP dans Campaign » ci-dessous). Si vos workflows d&#39;opt-out Campaign s&#39;arrêtent, vous devrez les redémarrer manuellement dès que possible afin de réduire le risque de synchronisations d&#39;opt-out manquées.
 

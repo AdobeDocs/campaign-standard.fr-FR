@@ -1,5 +1,5 @@
 ---
-title: 'Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email '
+title: Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email
 description: Découvrez comment utiliser, avec le Concepteur d’email, des emails créés dans l’ancien éditeur.
 audience: designing
 content-type: reference

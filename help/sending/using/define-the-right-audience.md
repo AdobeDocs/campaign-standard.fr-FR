@@ -34,7 +34,7 @@ Par défaut, les modèles de diffusion ciblent les **profils**. Adobe Campaign 
 
 Ces mappings sont présentés [dans cette section](../../automating/using/query.md#targeting-dimensions-and-resources).
 
-Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Voir à ce propos [cette section](../../administration/using/target-mappings-in-campaign.md).
+Vous pouvez également créer et utiliser un mapping de ciblage personnalisé. Pour plus d’informations, consultez [cette section](../../administration/using/target-mappings-in-campaign.md).
 
 ## Données externes {#external-data}
 

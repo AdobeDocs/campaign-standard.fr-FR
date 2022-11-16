@@ -1,5 +1,5 @@
 ---
-title: '"Etape 3 : Vérifier l''extension"'
+title: "Etape 3\_: Vérifier l'extension"
 description: Apprenez à accéder au champ étendu avec l'API REST.
 audience: developing
 content-type: reference

@@ -1,6 +1,6 @@
 ---
 title: Mise à jour des données à l’aide d’un téléchargement automatique de fichier
-description: 'L''exemple suivant montre le résultat d''une activité de chargement d''un fichier automatiquement téléchargé via une activité de transfert, suivie d''une mise à jour de données. '
+description: L'exemple suivant montre le résultat d'une activité de chargement d'un fichier automatiquement téléchargé via une activité de transfert, suivie d'une mise à jour de données.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

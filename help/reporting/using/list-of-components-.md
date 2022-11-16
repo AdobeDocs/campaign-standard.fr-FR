@@ -1,5 +1,5 @@
 ---
-title: 'Liste des composants '
+title: Liste des composants
 description: Cette section contient la liste de tous les composants disponibles dans les rapports dynamiques et leur définition.
 audience: reporting
 content-type: reference

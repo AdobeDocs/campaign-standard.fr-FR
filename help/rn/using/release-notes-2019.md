@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour                2019
+title: Notes de mise à jour 2019
 description: Cette page répertorie toutes les versions 2019 d'Adobe Campaign Standard.
 feature: Overview
 role: User
@@ -7,13 +7,13 @@ level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
-workflow-type: ht
-source-wordcount: '7566'
+workflow-type: tm+mt
+source-wordcount: '7564'
 ht-degree: 100%
 
 ---
 
-# Notes de mise à jour       2019{#release-notes-2019}
+# Notes de mise à jour 2019{#release-notes-2019}
 
 ## Version 19.4 - Décembre 2019 {#release-19-4---october-2019}
 
@@ -532,7 +532,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
      <li> <a href="../../designing/using/using-reusable-content.md#content-templates">Modèles de contenu d’usine</a> entièrement compatibles </li> 
     </ul> 
-    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=fr">page</a>.</p> </td> 
+    <p>Pour plus d’informations, consultez la <a href="../../designing/using/designing-content-in-adobe-campaign.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr">vidéo de procédure</a>. Les améliorations et les correctifs sont répertoriés ci-dessous.</p><p>Par conséquent, l’ancien éditeur de contenu d’email est maintenant obsolète. Pour plus d’informations, consultez cette <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Listes des produits dans les emails transactionnels<br /> </td> 

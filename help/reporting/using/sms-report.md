@@ -1,6 +1,6 @@
 ---
 title: Rapport SMS
-description: 'Grâce au rapport d''usine SMS, découvrez les performances de vos diffusions SMS. '
+description: Grâce au rapport d'usine SMS, découvrez les performances de vos diffusions SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

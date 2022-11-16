@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Créer un e-mail de test A/B{#designing-an-a-b-test-email}
 
-La fonctionnalité de test A/B dans Adobe Campaign vous permet de définir de deux à trois variantes d&#39;un email. Chaque variante est envoyée à des échantillons de population afin de déterminer celle qui entraîne les meilleurs résultats. Une fois déterminée, la variante gagnante est alors envoyée à la population ciblée restante.
+La fonctionnalité de test A/B dans Adobe Campaign vous permet de définir de deux à trois variantes d&#39;un email. Chaque variante est envoyée à des échantillons de population afin de déterminer celle qui entraîne les meilleurs résultats. Une fois déterminée, la variante gagnante est alors envoyée à la population restante.
 
 Vous pouvez choisir de faire varier le contenu, le sujet ou l&#39;expéditeur de l&#39;email.
 

@@ -1,6 +1,6 @@
 ---
 title: Modèles
-description: '"Les modèles d''Adobe Campaign permettent de pré-configurer des paramètres selon vos besoins : les modèles peuvent contenir un paramétrage complet ou partiel de l''activité marketing, afin de simplifier l''utilisation d''Adobe Campaign pour les utilisateurs finaux non techniques."'
+description: "Les modèles d'Adobe\_Campaign permettent de pré-configurer des paramètres selon vos besoins\_: les modèles peuvent contenir un paramétrage complet ou partiel de l'activité marketing, afin de simplifier l'utilisation d'Adobe\_Campaign pour les utilisateurs finaux non techniques."
 audience: start
 content-type: reference
 topic-tags: managing-templates

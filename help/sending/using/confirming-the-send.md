@@ -96,13 +96,14 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, ils apparaiss
 
 Par conséquent, vous devez attendre la fin de la période de validité pour voir le pourcentage **[!UICONTROL Délivrés]** final ainsi que le nombre final de messages réellement **[!UICONTROL Envoyés]** et **[!UICONTROL En échec]**.
 
-### Service de commentaires par email (version bêta) {#email-feedback-service}
+### Service de retour d&#39;e-mail (bêta) {#email-feedback-service}
 
-Grâce à la fonctionnalité Service de commentaires par email (EFS), l&#39;état de chaque email est signalé avec précision, car les commentaires sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
+Grâce à la fonctionnalité Service de retour d&#39;e-mail (EFS - Email Feedback Service), l&#39;état de chaque email est signalé avec précision, car les retours sont capturés directement depuis le MTA (Message Tranfer Agent) amélioré.
+
 
 >[!IMPORTANT]
 >
->Le service de commentaires par email est actuellement disponible en version bêta.
+>Le service de retour d&#39;e-mail est actuellement disponible en version bêta.
 
 Une fois la diffusion lancée, le pourcentage **[!UICONTROL Délivrés]** n&#39;est plus modifié lorsque le message est relayé avec succès de Campaign vers le MTA amélioré.
 
@@ -130,11 +131,13 @@ Lorsque les messages soft bounce sont renvoyés du MTA amélioré, leur état de
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
-### Modifications ajoutées par le service EFS {#changes-introduced-by-efs}
+### Modifications ajoutées par EFS
+ {#changes-introduced-by-efs}
 
 Les tableaux ci-après présentent les modifications des KPI et de l&#39;état des logs d&#39;envoi ajoutées par la fonctionnalité EFS.
 
-**Avec le service de commentaires par email**
+
+**Avec le service de retour d&#39;e-mail**
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |
@@ -144,7 +147,7 @@ Les tableaux ci-après présentent les modifications des KPI et de l&#39;état d
 | Les reprises des messages soft bounce sont effectuées avec succès | <ul><li>Le pourcentage **[!UICONTROL Diffusés]** augmente en conséquence</li><li>Le pourcentage **[!UICONTROL Bounces + erreurs]** diminue en conséquence</li></ul> | Envoyés |
 | Échec des reprises des messages soft bounce | <ul><li> Aucun changement du pourcentage **[!UICONTROL Délivrés]** </li><li> Aucun changement du pourcentage **[!UICONTROL Bounces + erreurs]** </li></ul> | En échec |
 
-**Sans le service de commentaires par email**
+**Sans le service de retour d&#39;e-mail**
 
 | Étape du processus d’envoi | Résumé des KPI | État des logs d&#39;envoi |
 |--- |--- |--- |

@@ -1,5 +1,5 @@
 ---
-title: 'Création et utilisation d''un contenu réutilisable '
+title: Création et utilisation d'un contenu réutilisable
 description: Commencez à créer du contenu d'email réutilisable avec le Concepteur d'email.
 audience: designing
 content-type: reference

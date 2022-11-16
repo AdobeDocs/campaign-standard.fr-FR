@@ -8,13 +8,13 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 100%
 
 ---
 
-# Branding{#branding}
+# Marques{#branding}
 
 ## À propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 

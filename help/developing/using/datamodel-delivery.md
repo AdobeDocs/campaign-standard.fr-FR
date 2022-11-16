@@ -324,7 +324,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>Email header parameters</td>
+                  <td>Paramètres d'en-tête des e-mails</td>
                   <td>item </td>
                   <td> </td>
                </tr>

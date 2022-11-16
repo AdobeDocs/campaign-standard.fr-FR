@@ -1,6 +1,6 @@
 ---
 title: Mise en service et configuration de l'intégration avec Audience Manager ou People core service
-description: 'Découvrez comment configurer l''intégration d''Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d''Adobe Experience Cloud. '
+description: Découvrez comment configurer l'intégration d'Audience Manager/de People core service pour commencer à partager des audiences ou des segments avec les différentes solutions d'Adobe Experience Cloud.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 
