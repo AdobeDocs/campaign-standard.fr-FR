@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 92%
 
 ---
 
@@ -73,6 +73,12 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 1. Cliquez sur l&#39;onglet **[!UICONTROL Structure de fichier]** pour paramétrer les formats de sortie, des dates et des nombres du fichier qui sera exporté.
 
    Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Si vous souhaitez extraire des données dans un fichier CSV avec un codage spécifique, sélectionnez d’abord le format de sortie &quot;Texte&quot;. Sélectionnez l’encodage souhaité dans la liste déroulante, puis modifiez le format de sortie en &quot;CSV (Excel)&quot;.
 
 1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
