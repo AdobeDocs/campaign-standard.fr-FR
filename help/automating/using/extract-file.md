@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ La façon dont les données seront extraites est définie lors du paramétrage d
 
    >[!NOTE]
    >
-   >Si vous souhaitez extraire des données dans un fichier CSV avec un codage spécifique, sélectionnez d’abord le format de sortie &quot;Texte&quot;. Sélectionnez l’encodage souhaité dans la liste déroulante, puis modifiez le format de sortie en &quot;CSV (Excel)&quot;.
+   >Si vous souhaitez extraire des données dans un fichier CSV avec un codage spécifique, sélectionnez d’abord le format de sortie « Texte ». Sélectionnez l’encodage que vous souhaitez dans la liste déroulante, puis modifiez le format de sortie en « CSV (Excel) ».
 
 1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez l&#39;option **[!UICONTROL Ne pas générer de fichier si la transition entrante est vide]** pour éviter de créer et télécharger des fichiers vides sur les serveurs SFTP si la transition entrante est vide.
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
