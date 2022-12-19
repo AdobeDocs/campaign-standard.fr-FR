@@ -8,10 +8,10 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1087'
+ht-degree: 78%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 0%
 Grâce à Campaign, vous pouvez optimiser la conception et la diffusion des parcours client afin de prédire les préférences d’engagement de chaque individu. Perfectionnés par l’IA et le machine learning, l’optimisation de l’heure d’envoi et le score prédictif de l’engagement d’Adobe Campaign peuvent analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques.
 
 >[!IMPORTANT]
+>
 >Cette fonctionnalité ne fait pas partie des paramètres d’usine du produit. La mise en œuvre nécessite l’implication d’Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
 
 Adobe Campaign offre deux nouveaux modèles de machine learning : **optimisation prédictive de l’heure d’envoi** et **score prédictif de l’engagement**. Ces deux modèles sont des modèles d’apprentissage automatique spécifiques à la conception et à la diffusion de meilleurs parcours clients.
@@ -35,6 +36,7 @@ L’optimisation de l’heure d’envoi prédictive estime la meilleure heure d�
 Dans le modèle d’optimisation de l’heure d’envoi prédictive, il existe deux sous-modèles :
 
 * **L’heure d’envoi prédictive pour les ouvertures est le meilleur moment pour envoyer une communication au client afin de maximiser les ouvertures**
+
 * **L’heure d’envoi prédictive pour les clics est le meilleur moment pour envoyer une communication au client afin de maximiser les clics**
 
 **Entrée du modèle** : logs de diffusion, logs de tracking et attributs de profil (autres que PII)
@@ -77,6 +79,7 @@ Par défaut, les scores du profil indiquent le meilleur moment de la journée po
 ### Envoyer des messages au meilleur moment{#use-predictive-send-time}
 
 Pour que les emails soient envoyés à l’heure optimale par profil, la diffusion doit être planifiée à l’aide de l’option **[!UICONTROL Envoyer à une date personnalisée définie par une formule]**.
+
 Découvrez comment calculer la date d’envoi [dans cette section](../../sending/using/computing-the-sending-date.md).
 
 La formule doit être renseignée avec le meilleur moment du jour donné où l’email sera envoyé.
@@ -86,7 +89,7 @@ La formule doit être renseignée avec le meilleur moment du jour donné où l�
 Exemple de formule :
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
