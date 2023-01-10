@@ -63,7 +63,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Adobe Analytics<br /> </td> 
    <td> Permet de tracker les performances de vos diffusions e-mail directement dans Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Partager les données de Campaign avec Analytics</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Partager les KPI pour le reporting intégré de Campaign</a> (étape 1))
     </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
    <td> Triggers Adobe Experience Cloud<br /> </td> 
    <td> Permet d'envoyer des e-mails personnalisés à vos clients dans Adobe Campaign en réaction à des comportements spécifiques trackés sur votre site web par Adobe Analytics.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Utiliser les triggers Experience Cloud dans Campaign Standard</a> <a href="../../integrating/using/abandonment-triggers-use-cases.md">Cas pratiques Triggers-Campaign d'abandon</a>, vidéo <a href="https://helpx.adobe.com/fr/marketing-cloud/how-to/email-marketing.html">Déclencher des messages de remarketing selon l'activité du site</a> (étape 2)
     </td> 
   </tr> 
     <tr> 
