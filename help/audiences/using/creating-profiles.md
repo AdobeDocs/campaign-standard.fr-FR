@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 96%
 
 ---
 
@@ -50,6 +50,10 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    * Les informations de contact, telles que nom, prénom, genre, date de naissance, photo, préférence linguistique (pour les [emails multilingues](../../channels/using/creating-a-multilingual-email.md)) permettent de personnaliser davantage les diffusions.
    * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
+
+      >[!NOTE]
+      > Les numéros de téléphone mobile doivent toujours être au format international (`+<country><number>`) dans la table des profils.
+
    * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
    * La catégorie **[!UICONTROL Adresse]** contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
    * La catégorie **[!UICONTROL Autorisation d’accès]** indique les entités organisationnelles du profil pour [gérer les autorisations](../../administration/using/about-access-management.md). Pour ajouter les champs des entités organisationnelles à vos profils, reportez-vous à la section [Partitionnement des profils](../../administration/using/organizational-units.md#partitioning-profiles).
