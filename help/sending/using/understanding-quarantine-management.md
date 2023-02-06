@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 100%
+source-wordcount: '1408'
+ht-degree: 81%
 
 ---
 
@@ -97,25 +97,14 @@ Définissez l’adresse (ou le numéro de téléphone, etc.) et le type de canal
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Sortir une adresse de quarantaine {#removing-a-quarantined-address}
+## Sortir une adresse de la quarantaine {#removing-a-quarantined-address}
 
-Si nécessaire, vous pouvez supprimer manuellement une adresse de la liste de quarantaine. En outre, les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base]**. (Pour plus d&#39;informations sur ces workflows, consultez [cette section](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-Pour supprimer manuellement une adresse de la liste de quarantaine, effectuez l’une des actions ci-dessous.
 
->[!IMPORTANT]
->
->La suppression manuelle d’une adresse e-mail de la quarantaine signifie que vous recommencerez à envoyer la diffusion vers cette adresse. Par conséquent, cela peut avoir de graves répercussions sur votre délivrabilité et votre réputation IP, ce qui peut entraîner le blocage de votre adresse IP ou de votre domaine d’envoi. Procédez avec précaution lorsque vous envisagez de supprimer une adresse de quarantaine. En cas de doute, contactez un expert en délivrabilité.
 
-* Sélectionnez l’adresse dans la liste **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**, puis l’option **[!UICONTROL Supprimer l’élément]**.
+### Mises à jour automatiques {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* Sélectionnez une adresse et remplacez son **[!UICONTROL Statut]** par **[!UICONTROL Valide]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   Vous pouvez également modifier son statut en **[!UICONTROL Placé sur liste autorisée]**. Dans ce cas, l&#39;adresse reste dans la liste de quarantaine, mais elle sera systématiquement ciblée, même si une erreur se produit.
+Les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow Nettoyage de la base . Pour en savoir plus sur les workflows techniques, voir [cette section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
 
@@ -125,11 +114,43 @@ Les adresses sont automatiquement supprimées de la liste de quarantaine dans le
 
 Leur état devient ensuite **[!UICONTROL Valide]**.
 
+Le nombre maximal de reprises à effectuer en cas de statut **[!UICONTROL En erreur]** et le délai minimal entre les reprises se fondent désormais sur la performance historique et actuelle d’une IP sur un domaine donné.
+
+
 >[!IMPORTANT]
 >
->Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne seront jamais supprimés, même s&#39;ils reçoivent un e-mail.
+>Destinataires ayant une adresse dans un **[!UICONTROL Quarantaine]** ou **[!UICONTROL Placé sur la liste bloquée]** ne sont jamais supprimés, même s’ils reçoivent un courrier électronique.
 
-Le nombre maximal de reprises à effectuer en cas de statut **[!UICONTROL En erreur]** et le délai minimal entre les reprises se fondent désormais sur la performance historique et actuelle d’une IP sur un domaine donné.
+
+### Mises à jour manuelles {#unquarantine-manual}
+
+Vous pouvez également mettre une adresse en quarantaine manuellement.  Pour supprimer manuellement une adresse de la liste de quarantaine, vous pouvez la retirer de la liste de quarantaine ou modifier son statut en **[!UICONTROL Valide]**.
+
+* Sélectionnez l’adresse dans la liste **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**, puis l’option **[!UICONTROL Supprimer l’élément]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Sélectionnez une adresse et remplacez son **[!UICONTROL Statut]** par **[!UICONTROL Valide]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### Mises à jour en bloc {#unquarantine-bulk}
+
+Vous devrez peut-être effectuer des mises à jour en bloc sur la liste de quarantaine, par exemple en cas de panne du FAI. Dans ce cas, les emails sont incorrectement marqués comme rebonds, car ils ne peuvent pas être correctement remis à leur destinataire. Ces adresses doivent être supprimées de la liste de quarantaine.
+
+Pour ce faire, créez un workflow et ajoutez une **[!UICONTROL Requête]** activité sur votre table des quarantaines pour filtrer tous les destinataires concernés. Une fois identifiés, ils peuvent être supprimés de la liste de quarantaine et inclus dans les prochaines diffusions email de Campaign.
+
+En fonction du calendrier de l&#39;incident, voici les instructions recommandées pour cette requête.
+
+* **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot;
+
+   où &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
+
+* **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
+* **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
+
+Une fois que vous disposez de la liste des destinataires concernés, ajoutez une **[!UICONTROL Mise à jour de données]** activité pour définir l’état de leur adresse électronique sur **[!UICONTROL Valide]** afin qu’elles soient supprimées de la liste de quarantaine par la variable **[!UICONTROL Nettoyage de la base]** workflow. Vous pouvez également les supprimer de la table des quarantaines.
 
 ## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
