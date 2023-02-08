@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Les applications mobiles utilisées pour collecter les données de localisation 
 
 Pour pouvoir utiliser Adobe Experience Platform Location Services avec les applications mobiles configurées à l&#39;aide du SDK Adobe Experience Platform, vous devez :
 
-1. Ajouter les extensions **[!UICONTROL Places]** et **[!UICONTROL Places Monitor]** à votre configuration d&#39;application mobile dans l’interface utilisateur de collecte de données. Configurer votre application mobile dans Adobe Campaign. Voir [Installation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr#install-the-places-extension-in-adobe-experience-platform-launch) et [Installation de l’extension Places Monitor](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html?lang=fr#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Ajoutez la variable **[!UICONTROL Places]** extension à la configuration de votre application mobile dans l’interface utilisateur de collecte de données. Configurer votre application mobile dans Adobe Campaign. Voir [Installation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Une fois les extensions configurées, créez des éléments de données dans l’interface utilisateur de collecte de données pour récupérer des données de ces extensions. Reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Step1Createdataelements) pour créer vos éléments de données.
 

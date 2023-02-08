@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 98%
 
 ---
 
@@ -50,9 +50,7 @@ Cette étape permet à l’utilisateur de se connecter à l’interface utilisat
 
 1. Dans l’interface utilisateur de collecte de données, cliquez sur l’onglet **[!UICONTROL Extensions]**, accédez au **[!UICONTROL catalogue]** et recherchez l’extension **[!UICONTROL Adobe Campaign Standard]**. Pour plus d’informations, voir la section [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Pour prendre en charge les cas pratiques des localisations dans Campaign Standard, installez les extensions **[!UICONTROL Places]** et **[!UICONTROL Places Monitor]**.
-   * Installez l’extension **[!UICONTROL Places]** dans l’interface utilisateur de collecte de données. Voir cette [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr).
-   * Installez l’extension **[!UICONTROL Places Monitor]** dans l’interface utilisateur de collecte de données. Consultez à ce sujet cette [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html?lang=fr)
+1. Pour prendre en charge les cas d’utilisation des emplacements dans Campaign Standard, installez le **[!UICONTROL Places]** dans l’interface utilisateur de la collecte de données. Voir cette [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr).
 
 1. Dans Adobe Campaign Standard, configurez la propriété mobile que vous avez créée dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations, consultez la section [Configuration de l’application Adobe Experience Platform Launch dans Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
