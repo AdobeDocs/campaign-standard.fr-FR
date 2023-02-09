@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
-workflow-type: ht
-source-wordcount: '7318'
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+workflow-type: tm+mt
+source-wordcount: '7268'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Intégration de Microsoft Dynamics 365 (GA) – [En savoir plus](../../integ
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+La liste des messages d’erreur d’Adobe Campaign a été mise à jour. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html)
 
 Amélioration et enrichissement du guide de prise en main du RGPD. Il s&#39;agit maintenant d&#39;une documentation sur la gestion de la vie privée, incluant le RGPD et la CCPA. [En savoir plus](https://helpx.adobe.com/content/help/fr/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Ajout d&#39;une section sur les mises à jour recommandées du concepteur d&#39;
 
 Ajout d&#39;une section sur les bonnes pratiques relatives aux workflows. [En savoir plus](../../automating/using/best-practices-workflows.md)
 
-Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
 
 Ajout d&#39;un avertissement à la documentation des ressources personnalisées. Il est recommandé d&#39;utiliser 30 caractères maximum pour les identifiants des ressources personnalisées. Cette recommandation s&#39;applique également aux champs de ressources personnalisées, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Ajout d&#39;un cas pratique sur la façon d&#39;appeler un profil à l&#39;aide 
 
 Ajout d&#39;une recommandation concernant l&#39;utilisation des diffusions récurrentes sans période d&#39;agrégation lors de l&#39;appel d&#39;un workflow avec des paramètres. [En savoir plus](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
 
 Ajout d&#39;un avertissement à la documentation des ressources personnalisées. Il est recommandé d&#39;utiliser 30 caractères maximum pour les identifiants des ressources personnalisées. Cette recommandation s&#39;applique également aux champs de ressources personnalisées, aux clés, aux index et aux liens. [En savoir plus](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Ajout d&#39;une technote sur l&#39;affichage d&#39;une image d&#39;une notificat
 
 Ajout d&#39;une technote sur la mise en œuvre du tracking des notifications push. [En savoir plus](../../administration/using/push-tracking.md)
 
-Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Mise à jour de la liste des messages d&#39;erreur de Standard et Campaign Classic. [En savoir plus](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr)
 
 Mise à jour de la documentation sur l&#39;intégration Triggers - Campaign. [En savoir plus](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ Ajout d&#39;une section dans la documentation sur les API relative aux **filtres
 
 **Nouvelles fonctionnalités de cette version**
 
-RGPD : intégration avec Core Service. [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html)
+RGPD : intégration avec Core Service. [En savoir plus](../../start/using/privacy-management.md)
 
 Améliorations des notifications push. retours détaillés de la diffusion.  [En savoir plus](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Certaines pages de la documentation consacrée à l&#39;éditeur de contenu ont 
 
 **Nouvelles fonctionnalités de cette version**
 
-Règlement général sur la protection des données de l&#39;UE (RGPD) – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_GDPR.html)
+Règlement général sur la protection des données de l&#39;UE (RGPD) – [En savoir plus](../../start/using/privacy.md)
 
 Creative Designer pour les emails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Activité d&#39;enrichissement : enrichissez les données en fonction des trans
 
 Modification de la plupart des URL des intégrations des solutions Adobe avec Campaign. Vérifiez vos signets. [En savoir plus](../../integrating/using/get-started-campaign-integrations.md)
 
-Datamodel v1 est maintenant disponible avec la structure SQL pour les ressources natives - [En savoir plus](https://docs.adobe.com/content/help/fr-FR/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+Datamodel v1 est maintenant disponible avec la structure SQL pour les ressources natives - [En savoir plus](../../developing/using/datamodel-introduction.md)
 
 Ajout d&#39;informations sur la préparation d&#39;un message dans une diffusion – [En savoir plus](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ Ajout d&#39;une documentation sur le rapport des profils actifs. [En savoir plus
 
 La documentation sur les [alertes de diffusion](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) a été mise à jour avec une section sur la résolution des problèmes qui donne quelques conseils sur les actions que vous pouvez entreprendre à la réception des alertes.
 
-Disponibilité d’un nouveau guide de prise en main : il présente certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu’à l’envoi et le suivi – [En savoir plus](https://docs.campaign.adobe.com/doc/standard/getting_started/fr/ACS_DeliveryBestPractices.html)
+Disponibilité d’un nouveau guide de prise en main : il présente certaines des bonnes pratiques que vous pouvez appliquer pour la diffusion de vos communications avec Adobe Campaign, depuis la création et le ciblage jusqu’à l’envoi et le suivi – [En savoir plus](../../sending/using/delivery-best-practices.md)
 
 Mise à jour de la documentation sur les messages de relance avec un cas pratique plus détaillé. [En savoir plus](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
