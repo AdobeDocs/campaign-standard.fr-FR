@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Marques{#branding}
+# Branding{#branding}
 
 ## À propos de l&#39;identité d&#39;une marque {#about-brand-identity}
 

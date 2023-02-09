@@ -90,9 +90,9 @@ Pour plus d’informations sur l’insertion de liens de tracking, consultez [ce
 
 Le rapport **[!UICONTROL Indicateurs de tracking]** contient les indicateurs clés de tracking du comportement une fois les emails reçus. Pour plus d&#39;informations, consultez la section, consultez cette [page](../../reporting/using/tracking-indicators.md).
 
-## URL trackées {#tracked-urls}
+## Tracked URLs {#tracked-urls}
 
-L&#39;onglet **[!UICONTROL URL trackées]** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
+L’onglet **[!UICONTROL URL trackées]** regroupe les URL contenues dans le message envoyé, leur type et leur URL source.
 
 ![](assets/sending_delivery6.png)
 

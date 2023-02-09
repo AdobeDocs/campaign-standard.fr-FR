@@ -37,7 +37,7 @@ Enfin, appuyez-vous sur les indications et les outils relatifs à la délivrabil
 
 La **préparation des messages** de Campaign Standard analyse la cible, la personnalisation et la validité de ceux-ci. Les erreurs détectées pendant cette étape doivent être corrigées avant de poursuivre.
 
-**Prévisualisation et test** de vos messages à l’aide de différentes fonctionnalités : envoyez des BAT pour tester des profils ou des profils ciblés, testez l’objet de vos emails et vérifiez le rendu de vos messages pour garantir qu’ils s’afficheront de manière optimale sur différents clients web, emails et appareils.
+**Prévisualisation et test** de vos messages à l’aide de différentes fonctionnalités : envoyez des BAT aux profils de test ou à des profils ciblés, testez l’objet de vos e-mails et vérifiez le rendu de vos messages pour garantir qu’ils s’afficheront de manière optimale sur différents clients web, e-mails et appareils.
 
 Utilisez les fonctionnalités de planification de Campaign pour définir quand vos messages seront envoyés. Vous pouvez, par exemple, adapter l’envoi au fuseau horaire du destinataire, optimiser l’heure d’envoi ou calculer la date d’envoi.
 

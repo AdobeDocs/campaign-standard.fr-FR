@@ -257,7 +257,7 @@ Par usage (byUsage)
         <td>boolean</td>
         </tr>
         <tr>
-        <td>BAT</td>
+        <td>proof</td>
         <td>boolean</td>
         </tr>
     </table>

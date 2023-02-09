@@ -7,7 +7,7 @@ level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # Dernière version{#latest-release}
 
-![Panneau de contrôle](assets/do-not-localize/cp-icon.png) **Nouvelle version du panneau de contrôle**. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target=&quot;_blank&quot;}.
+![Panneau de contrôle](assets/do-not-localize/cp-icon.png) **Nouvelle version du panneau de contrôle**. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target="_blank"}.
 
 
 ## Version 22.3 - Automne/hiver 2022 {#sept-22}

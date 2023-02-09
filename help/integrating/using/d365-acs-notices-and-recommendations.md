@@ -153,9 +153,9 @@ Lors de la configuration des flux de données d&#39;entités personnalisées, il
 
 Vous trouverez une présentation plus exhaustive des ressources personnalisées de Campaign dans [cette section](../../developing/using/key-steps-to-add-a-resource.md).
 
-### Barrières de sécurité de l&#39;intégration
+### Mécanismes de sécurisation de l&#39;intégration
 
-Les barrières de sécurité suivantes doivent être prises en compte lors de la planification de l&#39;utilisation de cette intégration. Consultez votre représentant technique Adobe si vous pensez que vous ne respectez pas ces barrières de sécurité.
+Les mécanismes de sécurisation suivants doivent être pris en compte lors de la planification de l&#39;utilisation de cette intégration. Consultez votre représentant technique Adobe si vous pensez que vous ne respectez pas ces mécanismes de sécurisation.
 
 * Vous devez activer la licence du package Campaign approprié pour prendre en charge le volume d&#39;appels au moteur généré par l&#39;intégration. Le dépassement du volume d&#39;appels du moteur sous licence peut entraîner une baisse des performances de Campaign.
 

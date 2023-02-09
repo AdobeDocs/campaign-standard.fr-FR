@@ -104,7 +104,7 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 >title="Paramètres d’arrière-plan"
 >abstract="Le Concepteur d’email vous permet de personnaliser la couleur de fond ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
 
-Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d&#39;email, Adobe a les recommandations suivantes :
+Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d’e-mail, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. Dans la plupart des cas, définissez les couleurs de fond au niveau des colonnes.
@@ -208,4 +208,4 @@ Dans l&#39;interface du Concepteur d&#39;email, lorsque vous sélectionnez un é
 
 1. Modifiez les valeurs des attributs existants, ou ajoutez-en de nouveaux à l&#39;aide du bouton **+**. Vous pouvez ajouter tout attribut et toute valeur compatible CSS.
 
-Le style est ensuite appliqué à l&#39;élément sélectionné. Si aucun attribut de style spécifique n&#39;est défini pour les éléments enfants, ils héritent du style de l&#39;élément parent.
+Le style est ensuite appliqué à l&#39;élément sélectionné. Si aucun attribut de style spécifique n’est défini pour les éléments enfants, ils héritent du style de l’élément parent.

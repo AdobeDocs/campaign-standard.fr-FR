@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 100%
+source-wordcount: '1683'
+ht-degree: 98%
 
 ---
 
@@ -95,9 +95,9 @@ Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](h
 
 >[!IMPORTANT]
 >
->Pour soumettre une requête à l’aide du type d’espace de noms personnalisé, réutilisez la [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target=&quot;_blank&quot;} et ajoutez l’identifiant d’espace de noms à la requête, ou utilisez l’[appel API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target=&quot;_blank&quot;} pour effectuer la requête.
+>Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target="_blank"} pour effectuer la requête.
 >
->N’utilisez que l’[Interface utilisateur Accès à des informations personnelles](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target=&quot;_blank&quot;} pour envoyer des requêtes à l’aide du type d’espace de nom standard.
+>N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 

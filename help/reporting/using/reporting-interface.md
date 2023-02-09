@@ -147,4 +147,4 @@ Les utilisateurs ciblés recevront alors votre rapport joint à un email directe
 
 **Rubrique connexe :**
 
-* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [Partage automatique des rapports avec les parties prenantes par email](https://helpx.adobe.com/fr/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

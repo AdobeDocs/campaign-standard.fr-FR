@@ -48,7 +48,7 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 >title="Définition des colonnes de l’email"
 >abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
-Le Concepteur d’email permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
+Le Concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
 Pour éditer la structure d’un email :
 

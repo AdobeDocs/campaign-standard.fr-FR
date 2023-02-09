@@ -72,7 +72,7 @@ La structure du dossier compressé est libre. Toutefois, le référencement des 
 
 Les formats supportés lors de l&#39;import sont les suivants :
 
-* un fichier HTML avec feuille de style incorporée,
+* Un fichier HTML avec une feuille de style incorporée
 * un dossier compressé (.zip) contenant le fichier HTML, la feuille de style (.CSS) et les images.
 
 >[!NOTE]

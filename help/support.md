@@ -127,4 +127,4 @@ La création d’un ticket vous permet de contacter l’équipe du Service clien
 
 Pour signaler un problème ou démarrer une session de conversation dans ce nouveau système, connectez-vous à la console [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Suivez la procédure détaillée décrite sur [cette page](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).

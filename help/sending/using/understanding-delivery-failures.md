@@ -118,7 +118,7 @@ Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message 
 
 Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **Adobe**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**, puis **[!UICONTROL E-mails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

@@ -128,7 +128,7 @@ Pour créer et configurer cette landing page, vous devez :
 1. Concevoir une [landing page](../../channels/using/getting-started-with-landing-pages.md) basée sur le modèle **[!UICONTROL Acquisition de profils (acquisition)]**. Saisir le libellé **ACQUISITION**.
 1. Editez les propriétés de la landing page, dans la section **[!UICONTROL Traitement]** > **[!UICONTROL Données additionnelles]**, cliquez sur **[!UICONTROL Ajouter un élément]** et saisissez le chemin du contexte suivant :
 
-   /context/profile/liste bloquée
+   /context/profile/blackList
 
    puis définissez la valeur sur **vrai**.
 

@@ -35,7 +35,7 @@ Pour accéder à l&#39;interface de gestion des utilisateurs à partir d&#39;Ado
 
 * Vidéo [Gérer les autorisations utilisateur](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=fr)
 * [Liste des rôles](../../administration/using/list-of-roles.md)
-* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Liste des autorisations](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
 
 ## Type d’utilisateurs {#type-of-users}
 

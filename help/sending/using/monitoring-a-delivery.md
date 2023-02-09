@@ -24,7 +24,7 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 >
 >Seuls les [administrateurs](../../administration/using/users-management.md#functional-administrators) fonctionnels, avec un rôle d’**[!UICONTROL administration]** et un accès aux entités **Toutes**, peuvent accéder aux logs d’envoi, aux logs de messages, aux logs de tracking, aux logs d’exclusion ou aux logs d’abonnement. Un utilisateur autre qu’administrateur peut cibler ces logs mais en commençant par une table liée (profils, diffusion).
 
-* **Logs des messages** : ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l&#39;envoi, la cible exclue et les raisons de l&#39;exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
+* **Logs des messages** : ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
    Pour visualiser les logs des messages, cliquez sur l&#39;icône située en bas à droite du bloc **[!UICONTROL Déploiement]**.
 

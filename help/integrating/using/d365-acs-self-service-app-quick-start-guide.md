@@ -22,7 +22,7 @@ L&#39;intégration d’Adobe Campaign Standard avec l&#39;application d&#39;in
 
 ## Concepts et restrictions {#concepts-and-restrictions}
 
-Avant de commencer à utiliser l’outil d’intégration, vous devez comprendre les concepts et les barrières de sécurité associés à l’intégration et effectuer quelques étapes initiales pour y accéder.
+Avant de commencer à utiliser l’outil d’intégration, vous devez comprendre les concepts et les mécanismes de sécurisation associés à l’intégration et effectuer quelques étapes initiales pour y accéder.
 
 En savoir plus dans ces sections :
 

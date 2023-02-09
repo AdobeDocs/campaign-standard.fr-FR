@@ -141,7 +141,7 @@ ht-degree: 100%
     <tr>
         <td>recipientId</td>
         <td>Profile ID</td>
-        <td>entier </td>
+        <td>integer </td>
         <td> </td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@ ht-degree: 100%
     <tr>
         <td>referrerId</td>
         <td>Referrer ID</td>
-        <td>entier </td>
+        <td>integer </td>
         <td> </td>
     </tr>
     <tr>
@@ -176,7 +176,7 @@ ht-degree: 100%
     </tr>
     <tr>
         <td>title</td>
-        <td>Libellé</td>
+        <td>Label</td>
         <td>string (255)</td>
         <td> </td>
     </tr>

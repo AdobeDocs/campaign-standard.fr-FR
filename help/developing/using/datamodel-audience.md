@@ -112,7 +112,7 @@ ht-degree: 100%
                <tr>
                   <td>errorLimit</td>
                   <td>Errors before aborting</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -153,7 +153,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>label</td>
-                  <td>Libellé</td>
+                  <td>Label</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -202,7 +202,7 @@ ht-degree: 100%
                <tr>
                   <td>sourceId</td>
                   <td>Source Id</td>
-                  <td>entier </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>

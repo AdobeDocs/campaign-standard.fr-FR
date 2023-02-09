@@ -38,7 +38,7 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les barrières de sécurité de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et barrières de sécurité](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
+Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les mécanismes de sécurisation de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et mécanismes de sécurisation](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
 Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
@@ -46,9 +46,9 @@ Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activ
 >
 >Vous ne pourrez pas copier sur les valeurs de l’en-tête spécifiques aux activités, car elles sont masquées dans l’activité.
 
-### Limites et barrières de sécurité {#guardrails}
+### Limites et mécanismes de sécurisation {#guardrails}
 
-Les barrières de sécurité suivantes s’appliquent à cette activité :
+Les mécanismes de sécurisation suivants s’appliquent à cette activité :
 
 * Limite de taille des données de réponse http de 5 Mo (remarque : il s’agit d’une modification par rapport à la limite de 50 Mo de la version précédente)
 * Le timeout des demandes est de 1 minute (remarque : il s’agit d’une modification par rapport au timeout de 10 minutes de la version précédente.)
@@ -56,7 +56,7 @@ Les barrières de sécurité suivantes s’appliquent à cette activité :
 * Les URL autres que HTTPS sont rejetées
 * L’en-tête de demande &quot;Accept: application/json&quot; et l’en-tête de réponse &quot;Content-Type: application/json&quot; sont autorisés
 
-Des barrières de sécurité spécifiques ont été mises en place :
+Des mécanismes de sécurisation spécifiques ont été mis en place :
 
 * **Profondeur JSON maximale** : limite la profondeur maximale d’un code JSON imbriqué personnalisé qui peut être traité à 10 niveaux.
 * **Longueur de clé JSON maximale** : limite la longueur maximale de la clé interne générée à 255. Cette clé est associée à l’ID de colonne.

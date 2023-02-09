@@ -148,7 +148,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
    <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du Concepteur d'email</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
-   <td> Consultez la section <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
+   <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

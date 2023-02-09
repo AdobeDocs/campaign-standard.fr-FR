@@ -85,7 +85,7 @@ L&#39;icône **[!UICONTROL Liens]** de la barre d&#39;action affiche automatique
 >
 >Par défaut, le tracking est activé. Cette fonctionnalité n&#39;est disponible que pour les emails, même si le tracking a été activé dans Adobe Campaign. Pour plus d&#39;informations sur les paramètres de tracking, voir [cette section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
-L&#39;URL, la catégorie, le libellé et le type de tracking de chaque lien peuvent être modifiés à partir de cette liste. Pour éditer un lien, cliquez sur l&#39;icône de crayon correspondante.
+L&#39;URL, la catégorie, le libellé et le type de tracking de chaque lien peuvent être modifiés à partir de cette liste. Pour éditer un lien, cliquez sur l’icône représentant un crayon correspondante.
 
 ![](assets/des_links_tracking.png)
 
