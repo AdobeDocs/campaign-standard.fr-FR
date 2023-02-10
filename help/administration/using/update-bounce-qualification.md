@@ -4,16 +4,14 @@ description: Découvrez comment mettre à jour la qualification des rebonds apr�
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '434'
 ht-degree: 100%
 
 ---
 
-# Mettre à jour la qualification des bounces après une panne de FAI {#update-bounce-qualification.md}
-
-Si vous N&#39;exécutez PAS la dernière version de Campaign, cette section peut s&#39;appliquer à vous. Vérifiez avec votre représentant Adobe Campaign.
+# Mettre à jour la qualification des rebonds après une panne d’un FAI{#update-bounce-qualification.md}
 
 ## Contexte
 
