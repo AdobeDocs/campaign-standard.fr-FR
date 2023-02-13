@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 ### Enregistrement d’une nouvelle application   {#register-a-new-app}
 
-1. Sous votre compte administrateur, connectez-vous à [portal.azure.com](https://portal.azure.com){target="_blank"}.
+1. Avec votre identifiant d’administrateur, connectez-vous à [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. Cliquez sur **[!UICONTROL Azure Active Directory]** dans le menu de gauche, puis sur **[!UICONTROL Inscriptions des applications]** dans le sous-menu qui s’affiche.
 
@@ -99,9 +99,9 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
    * **[!UICONTROL Nom complet]** : API Adobe   `<stage or prod>`
-   * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur si vous le souhaitez)
+   * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur ou de l’administratrice si vous le souhaitez)
 
-   Pour plus d’informations sur la création d’un utilisateur d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
+   Pour plus d’informations sur la création d’un utilisateur ou d’une utilisatrice d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Cliquez sur l’icône de l’utilisateur et téléchargez une icône Adobe Campaign ; il s’agit de l’icône qui s’affiche dans la vue de calendrier lorsque de nouveaux événements Adobe apparaissent dans Dynamics 365.
 
@@ -136,5 +136,5 @@ Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-
 
 **Rubriques connexes :**
 
-* [Configuration de l’intégration d’Adobe Developer pour Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) est l’étape suivante de la configuration de l’intégration
-* [Prise en main de l&#39;application d’intégration en libre-service](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) comprend la liste complète des étapes nécessaires pour que l’intégration soit opérationnelle.
+* [Configurer Adobe Developer pour l’intégration Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) est l’étape suivante de la configuration de l’intégration
+* [Prise en main de l’application d’intégration en libre-service](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) comprend la liste complète des étapes nécessaires pour que l’intégration soit opérationnelle.
