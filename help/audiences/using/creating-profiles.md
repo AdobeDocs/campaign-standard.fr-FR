@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '409'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
 
       >[!NOTE]
-      > Les numéros de téléphone mobile doivent toujours être au format international (`+<country><number>`) dans la table des profils.
+      > Les numéros de téléphone mobile doivent toujours être au format international (`+<country><number>`) dans la table de profils.
 
    * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
    * La catégorie **[!UICONTROL Adresse]** contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.
