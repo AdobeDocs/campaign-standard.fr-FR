@@ -7,15 +7,15 @@ level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4627'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2017{#release-notes}
 
-## Version 17.10 - Octobre 2017        {#release-17-10---october-2017}
+## Version 17.10 - Octobre 2017 {#release-17-10---october-2017}
 
 **Nouvelles fonctionnalités**
 
@@ -489,9 +489,9 @@ _Workflows_
   </tr> 
   <tr> 
    <td> API des messages transactionnels<br /> </td> 
-   <td> L’API des messages transactionnels est désormais disponible, ce qui facilite l’utilisation et la surveillance des éléments suivants :<br /> 
+   <td> L’API des messages transactionnels est maintenant disponible, ce qui facilite son utilisation et sa surveillance :<br /> 
     <ul> 
-     <li> Vous pouvez bénéficier des fonctionnalités de surveillance et de reporting de la plateforme Adobe Developer. </li> 
+     <li> Vous pouvez tirer parti des capacités de surveillance et de reporting de la plateforme Adobe Developer. </li> 
      <li> L’authentification est désormais effectuée en utilisant l’authentification basée sur les jetons adobe.io plutôt que le placement sur liste autorisée des adresses IP, ce qui simplifie le processus de sécurité. </li> 
      <li> Toutes les API sont désormais intégrées sur une seule plateforme, ce qui facilite plus que jamais l’ajout des fonctionnalités de messages transactionnels à votre intégration si vous prenez déjà en charge l’API Profile &amp; Services. </li> 
     </ul> </td> 
