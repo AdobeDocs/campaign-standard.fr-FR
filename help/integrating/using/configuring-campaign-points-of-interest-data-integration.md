@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1405'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Les applications mobiles utilisées pour collecter les données de localisation 
 
 Pour pouvoir utiliser Adobe Experience Platform Location Services avec les applications mobiles configurées à l&#39;aide du SDK Adobe Experience Platform, vous devez :
 
-1. Ajoutez la variable **[!UICONTROL Places]** extension à la configuration de votre application mobile dans l’interface utilisateur de collecte de données. Configurer votre application mobile dans Adobe Campaign. Voir [Installation de l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Ajouter l’extension **[!UICONTROL Places]** à votre configuration d’application mobile dans l’interface utilisateur de collecte de données. Configurer votre application mobile dans Adobe Campaign. Voir [Installer l’extension Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. Une fois les extensions configurées, créez des éléments de données dans l’interface utilisateur de collecte de données pour récupérer des données de ces extensions. Reportez-vous à cette [page](https://helpx.adobe.com/fr/campaign/kb/config-app-in-launch.html#Step1Createdataelements) pour créer vos éléments de données.
 
