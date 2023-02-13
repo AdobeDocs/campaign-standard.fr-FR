@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1408'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -97,11 +97,11 @@ Définissez l’adresse (ou le numéro de téléphone, etc.) et le type de canal
 
 ![](assets/quarantines-create-last-delivery.png)
 
-## Sortir une adresse de la quarantaine {#removing-a-quarantined-address}
+## Suppression d’une adresse de la quarantaine {#removing-a-quarantined-address}
 
 ### Mises à jour automatiques {#unquarantine-auto}
 
-Les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow Nettoyage de la base . Pour en savoir plus sur les workflows techniques, voir [cette section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+Les adresses qui correspondent à des conditions spécifiques sont automatiquement supprimées de la liste de quarantaine par le workflow Nettoyage de la base de données. En savoir plus sur les workflows techniques dans [cette section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 Les adresses sont automatiquement supprimées de la liste de quarantaine dans les cas suivants :
 
@@ -116,12 +116,12 @@ Le nombre maximal de reprises à effectuer en cas de statut **[!UICONTROL En err
 
 >[!IMPORTANT]
 >
->Destinataires ayant une adresse dans un **[!UICONTROL Quarantaine]** ou **[!UICONTROL Placé sur la liste bloquée]** ne sont jamais supprimés, même s’ils reçoivent un courrier électronique.
+>Les destinataires avec une adresse dont le statut est **[!UICONTROL En quarantaine]** ou **[!UICONTROL Sur liste bloquée]** ne font jamais l’objet d’une suppression, même s’ils/elles reçoivent un e-mail.
 
 
 ### Mises à jour manuelles {#unquarantine-manual}
 
-Vous pouvez également mettre une adresse en quarantaine manuellement.  Pour supprimer manuellement une adresse de la liste de quarantaine, vous pouvez la retirer de la liste de quarantaine ou modifier son statut en **[!UICONTROL Valide]**.
+Vous pouvez également retirer une adresse en quarantaine manuellement.  Pour supprimer manuellement une adresse de la liste de quarantaine, vous pouvez la retirer de la liste ou changer son statut en **[!UICONTROL Valide]**.
 
 * Sélectionnez l’adresse dans la liste **[!UICONTROL Administration > Canaux > Quarantaines > Adresses]**, puis l’option **[!UICONTROL Supprimer l’élément]**.
 
@@ -134,20 +134,20 @@ Vous pouvez également mettre une adresse en quarantaine manuellement.  Pour sup
 
 ### Mises à jour en bloc {#unquarantine-bulk}
 
-Vous devrez peut-être effectuer des mises à jour en bloc sur la liste de quarantaine, par exemple en cas de panne du FAI. Dans ce cas, les emails sont incorrectement marqués comme rebonds, car ils ne peuvent pas être correctement remis à leur destinataire. Ces adresses doivent être supprimées de la liste de quarantaine.
+Vous devrez peut-être effectuer des mises à jour en bloc sur la liste de quarantaine, par exemple en cas de panne du FAI. Dans ce cas, les e-mails sont incorrectement marqués comme rebonds, car ils ne peuvent pas être correctement remis à leur destinataire. Ces adresses doivent être supprimées de la liste de quarantaine.
 
-Pour ce faire, créez un workflow et ajoutez une **[!UICONTROL Requête]** activité sur votre table des quarantaines pour filtrer tous les destinataires concernés. Une fois identifiés, ils peuvent être supprimés de la liste de quarantaine et inclus dans les prochaines diffusions email de Campaign.
+Pour ce faire, créez un workflow et ajoutez une activité **[!UICONTROL Requête]** sur votre table de quarantaine pour filtrer tous les destinataires concernés. Une fois identifiés, ils peuvent être supprimés de la liste de quarantaine et inclus dans les prochaines diffusions e-mail de Campaign.
 
-En fonction du calendrier de l&#39;incident, voici les instructions recommandées pour cette requête.
+En fonction du calendrier de l’incident, voici les instructions recommandées pour cette requête.
 
-* **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;550-5.1.1&quot; ET **Texte de l&#39;erreur (texte des quarantaines)** contient &quot;support.ISP.com&quot;
+* **Le texte d’erreur (texte de quarantaine)** contient « 550-5.1.1 » ET **Le texte d’erreur (texte de quarantaine)** contient « support.ISP.com »,
 
-   où &quot;support.ISP.com&quot; peut être : &quot;support.apple.com&quot; ou &quot;support.google.com&quot;, par exemple
+   où « ISP.com » peut être « support.apple.com » ou « support.google.com », par exemple.
 
-* **Mise à jour du statut (@lastModified)** sur ou après MM/JJ/AAAA HH:MM:SS AM
-* **Mise à jour du statut (@lastModified)** sur ou avant MM/JJ/AAAA HH:MM:SS PM
+* **Mise à jour du statut (@lastModified)** le ou après le JJ/MM/AAAA à HH:MM:SS AM
+* **Mise à jour du statut (@lastModified)** le ou avant le JJ/MM/AAAA à HH:MM:SS PM
 
-Une fois que vous disposez de la liste des destinataires concernés, ajoutez une **[!UICONTROL Mise à jour de données]** activité pour définir l’état de leur adresse électronique sur **[!UICONTROL Valide]** afin qu’elles soient supprimées de la liste de quarantaine par la variable **[!UICONTROL Nettoyage de la base]** workflow. Vous pouvez également les supprimer de la table des quarantaines.
+Une fois que vous disposez de la liste des destinataires concernés, ajoutez une activité **[!UICONTROL Mise à jour de données]** pour définir le statut de leur adresse e-mail sur **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le workflow **[!UICONTROL Nettoyage de la base de données]**. Vous pouvez également les supprimer uniquement de la table de quarantaine.
 
 ## Conditions de mise en quarantaine d&#39;une adresse  {#conditions-for-sending-an-address-to-quarantine}
 
