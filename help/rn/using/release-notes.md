@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '114'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ### Mise à jour de sécurité{#rn-security}
 
-Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
+Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
 
 ### Correctifs{#e-rn-fixes}
 
