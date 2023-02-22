@@ -53,7 +53,7 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Configurez la date et l&#39;heure d&#39;expiration dans la section **[!UICONTROL Publication]** : la landing page est automatiquement dépubliée à la date spécifiée et n&#39;est donc plus disponible.
+1. Configurez la date et l’heure d’expiration dans la section **[!UICONTROL Publication]** : la landing page est automatiquement dépubliée à la date spécifiée et n’est donc plus disponible. 
 
    Vous pouvez sélectionner le fuseau horaire à prendre en compte pour cette date et cette heure.
 
@@ -69,4 +69,4 @@ Avant de procéder à la publication, il est vivement recommandé, pour des rais
 
 Lorsque vous publiez une landing page, elle est mise en ligne et devient accessible aux visiteurs.
 
-Vous pouvez à tout moment dépublier ou mettre à jour et republier votre landing page via le bouton **[!UICONTROL Publier]**. Cependant, si la republication échoue et que vous n&#39;avez pas dépublié votre landing page auparavant, la première version reste en ligne.
+Vous pouvez à tout moment dépublier ou mettre à jour et republier votre landing page via le bouton **[!UICONTROL Publier]**. Cependant, si la republication échoue et que vous n’avez pas dépublié votre landing page auparavant, la première version reste en ligne.

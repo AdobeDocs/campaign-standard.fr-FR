@@ -33,7 +33,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Debia
 
 ### Mise à jour de sécurité{#rn-security}
 
-Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
+Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
 
 ### Correctifs{#e-rn-fixes}
 

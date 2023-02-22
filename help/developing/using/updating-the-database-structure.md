@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Pour appliquer les modifications apportées aux ressources, vous devez effectuer
 
 >[!NOTE]
 >
->Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Si le champ d’une ressource personnalisée utilisée lors d’un événement est modifié ou supprimé, l’événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Développement]**, puis **[!UICONTROL Publication]** dans le menu avancé (via le logo Adobe Campaign).
 1. Par défaut, l&#39;option **[!UICONTROL Déterminer les modifications depuis la dernière publication]** est cochée, ce qui signifie que seuls les changements apportés depuis la dernière mise à jour seront appliqués.

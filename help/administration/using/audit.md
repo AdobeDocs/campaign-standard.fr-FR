@@ -108,7 +108,6 @@ Pour ce faire :
       >[!NOTE]
       >
       >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
-
    ![](assets/audit-trail_5.png)
 
 1. Dans la page **[!UICONTROL Options]**, définissez la **[!UICONTROL valeur (entier)]** sur 0 si vous souhaitez désactiver le **[!UICONTROL Journal d’audit]** ou sur 1 pour l’activer.

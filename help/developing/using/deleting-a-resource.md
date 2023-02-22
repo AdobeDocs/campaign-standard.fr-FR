@@ -57,4 +57,4 @@ Votre ressource est supprimée du modèle de données.
 
 >[!NOTE]
 >
->Si le champ d&#39;une ressource personnalisée utilisée lors d&#39;un événement est modifié ou supprimé, l&#39;événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+>Si le champ d’une ressource personnalisée utilisée lors d’un événement est modifié ou supprimé, l’événement correspondant sera automatiquement dépublié. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).

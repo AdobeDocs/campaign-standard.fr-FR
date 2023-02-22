@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7268'
 ht-degree: 100%
 
@@ -224,7 +224,7 @@ La section **Préparation de l&#39;envoi** a été déplacée [ici](../../sendin
 
 Une nouvelle section a été ajoutée avec des directives relatives à la surveillance Campaign Standard. [En savoir plus](../../administration/using/monitoring-guidelines.md)
 
-La section Limites et protection de l&#39;API externe a été mise à jour. [En savoir plus](../../automating/using/external-api.md#guardrails)
+La section Limites et mécanismes de sécurisation de l&#39;API externe a été mise à jour. [En savoir plus](../../automating/using/external-api.md#guardrails)
 
 La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -322,7 +322,7 @@ Disponibilité d&#39;une nouvelle section décrivant comment supprimer une confi
 
 Mise à jour des sections sur les messages transactionnels pour prendre en compte les mises à jour et améliorations de l&#39;interface utilisateur. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
-Mise à jour des informations relatives aux protections pour l&#39;activité API externe. [En savoir plus](../../automating/using/external-api.md)
+Mise à jour des informations relatives aux mécanismes de sécurisation pour l&#39;activité API externe. [En savoir plus](../../automating/using/external-api.md)
 
 ## Mars 2020 {#doc-updates-march-2020}
 

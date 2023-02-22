@@ -127,7 +127,7 @@ L&#39;exception à cette règle est le flux de données d&#39;opt-out bidirectio
 
 Si vous vous trouvez dans les régions EMEA ou APAC, certaines de vos données seront traitées aux États-Unis dans le cadre de cette intégration. Pour plus d’informations, consultez [cette section](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Garde-fous et limitations
+## Limites et mécanismes de sécurisation
 
 >[!IMPORTANT]
 >

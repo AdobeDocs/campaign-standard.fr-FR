@@ -38,7 +38,7 @@ Les principales caractéristiques de cette activité sont les suivantes :
 
 ### Remarques concernant la compatibilité descendante {#from-beta-to-ga}
 
-Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les mécanismes de sécurisation de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et mécanismes de sécurisation](#guardrails). Ces modifications de barrières de sécurité ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
+Avec la version 20.4 de Campaign Standard, la limite de taille des données des données de réponse http et les mécanismes de sécurisation de timeout de réponse ont été abaissés afin de s’aligner sur les bonnes pratiques - voir [Limites et mécanismes de sécurisation](#guardrails). Ces modifications de mécanismes de sécurisation ne prendront pas effet dans les activités d’API externe existantes ; par conséquent, il est recommandé de remplacer les activités d’API externe existantes par de nouvelles versions dans tous les workflows.
 
 Lorsque vous remplacez les activités d’API externe, ajoutez la nouvelle activité d’API externe au workflow, copiez manuellement les détails de la configuration, puis supprimez l’ancienne activité.
 
