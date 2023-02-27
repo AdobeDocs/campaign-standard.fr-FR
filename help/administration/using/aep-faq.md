@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '942'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe�
 
 Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Data Collection UI] pour activer l’intégration.
 
-Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+Voir à ce sujet la section [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quelles fonctionnalités l’intégration du SDK Adobe Experience Platform facilite-t-elle dans Adobe Campaign ?  {#aep-capabilities}
 
@@ -65,16 +65,16 @@ Procédez comme suit :
 1. Configurez une **[!UICONTROL propriété mobile]** dans [!DNL Launch].
 1. Installez l’extension Adobe Campaign Standard. Notez que l’extension Adobe Campaign Standard nécessite également les extensions **[!UICONTROL Mobile Core]**, **[!UICONTROL Profil]** et **[!UICONTROL Cycle de vie]** qui sont installées par défaut dans [!DNL Launch].
    * Les utilisateurs doivent configurer le délai d’expiration de la session dans l’extension **[!UICONTROL Mobile Core]**, ce qui a un impact sur la fréquence des événements du cycle de vie.
-   * Une fois l’extension configurée, les utilisateurs doivent ajouter les dépendances appropriées dans l’application mobile à l’aide de Cocoapods pour iOS et Gradle pour Android. Suivez les instructions décrites [ici](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * Une fois l’extension configurée, les utilisateurs doivent ajouter les dépendances appropriées dans l’application mobile à l’aide de Cocoapods pour iOS et Gradle pour Android. Suivez les instructions décrites [ici](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * Choisissez toujours les versions les plus récentes des bibliothèques.
-   * Dans l’application mobile, enregistrez les extensions **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identité]**, **[!UICONTROL Cycle de vie]** et **[!UICONTROL Signal]**. Suivez les instructions décrites [ici](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * Dans l’application mobile, enregistrez les extensions **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identité]**, **[!UICONTROL Cycle de vie]** et **[!UICONTROL Signal]**. Suivez les instructions décrites [ici](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * Une fois les extensions enregistrées, lancez ACPCore. Pour Android, veillez à définir Application onCreate(). Suivez scrupuleusement la procédure indiquée dans les instructions d’installation mobile pour la propriété Mobile de Launch.
-   * Les API de SDK suivantes seront également nécessaires. Mettez en œuvre les API Début de cycle de vie et Pause comme décrit [ici](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) pour Android et ici pour iOS.
+   * Les API de SDK suivantes seront également nécessaires. Mettez en œuvre les API Début de cycle de vie et Pause comme décrit [ici](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) pour Android et ici pour iOS.
 1. Configurez une **[!UICONTROL propriété mobile]** dans Adobe Campaign Standard. Appliquez la procédure décrite [ici](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Que dois-je faire pour enrichir un profil mobile dans Campaign ?  {#enrich-mobile-profile}
 
-Vous devez configurer un postback CollectPII (consultez à ce sujet cette [page](../../administration/using/configuring-rules-launch.md#pii-postback)) et mettre en œuvre l’API CollectPII à partir du SDK (consultez à ce sujet cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+Vous devez configurer un postback CollectPII (consultez à ce sujet cette [page](../../administration/using/configuring-rules-launch.md#pii-postback)) et mettre en œuvre l’API CollectPII à partir du SDK (consultez à ce sujet cette [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## À quelle fréquence un appel CollectPII doit-il être déclenché ?  {#collect-pii}
 
@@ -96,9 +96,9 @@ Il s’agit d’un problème connu résultant de l’expiration des jetons. Vous
 
 Consultez les ressources ci-dessous :
 
-* [Documentation](https://aep-sdks.gitbook.io/docs/) du SDK Experience Platform
-* [Documentation](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) Prise en main du SDK Launch et Experience Platform
-* [Documentation](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep) Mise à niveau vers le SDK Experience Platform
+* [Documentation](https://developer.adobe.com/client-sdks/documentation/) du SDK Experience Platform
+* [Documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) Prise en main du SDK Launch et Experience Platform
+* [Documentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks) Mise à niveau vers le SDK Experience Platform
 * [Documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) du SDK Github Experience Platform
 
 ## L’erreur « Vous n’avez pas d’accès en écriture sur la diffusion » s’affiche lors de la création d’une diffusion de notification push. {#write-access-error}

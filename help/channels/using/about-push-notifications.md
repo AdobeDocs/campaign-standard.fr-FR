@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 100%
+source-wordcount: '1260'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Avant d’envoyer les notifications push, vous devez effectuer les opérations s
 
 1. Vérifiez que votre utilisateur dispose des autorisations nécessaires dans Adobe Campaign Standard et des balises dans Adobe Experience Platform.
 
-1. Dans l’interface utilisateur de collecte de données, créez une propriété mobile. Pour plus d’informations, voir [Configuration d’une propriété mobile](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Dans l’interface utilisateur de collecte de données, créez une propriété mobile. Pour plus d’informations, voir [Configuration d’une propriété mobile](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Dans l’interface utilisateur de collecte de données, installez l’extension **[!UICONTROL Adobe Campaign Standard]**.
 
@@ -87,7 +87,7 @@ Consultez les ressources ci-dessous :
 
 ### Que dois-je faire pour acquérir un jeton push dans Campaign ?  {#push-token-acquisition}
 
-Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+Vérifiez que l’équipe chargée de l’approvisionnement a terminé l’approvisionnement du canal push dans Adobe Campaign Standard. Mettez en œuvre l’API setPushIdentifier à partir du SDK. Pour plus d’informations à ce propos, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging).
 
 ### Une fois que je dispose d’un jeton push et d’un ECID dans Campaign, que dois-je faire pour envoyer une notification push ?  {#sending-push}
 
@@ -144,7 +144,7 @@ Les développeurs d’application mobile doivent gérer la prise en charge des f
 Procédez comme suit :
 
 * Configurez un postback de tracking push. Les instructions se trouvent [ici](../../administration/using/configuring-a-mobile-application.md).
-* Implémentez l’API trackAction à partir de Mobile Core. Voir cette [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) pour plus d’informations.
+* Implémentez l’API trackAction à partir de Mobile Core. Voir cette [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) pour plus d’informations.
 
 Vous trouverez des instructions plus détaillées sur cette [page](../../administration/using/push-tracking.md).
 

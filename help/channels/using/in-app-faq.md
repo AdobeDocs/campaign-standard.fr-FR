@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Puisque les messages In-App sont extraits par le SDK de Campaign, nous voulons f
 * Les messages créés à l’aide d’un modèle Profil ne peuvent être diffusés que lorsque l’utilisateur s’est connecté à l’application.
 * Afin de faciliter cette authentification sécurisée, les développeurs d&#39;applications mobiles doivent transmettre des détails d&#39;authentification supplémentaires à l&#39;aide de l&#39;API setLinkageField. Notez que les champs de liaison sont ceux qui sont identifiés comme le lien entre le Profil mobile et le Profil CRM lors de l&#39;extension de la table appSubscriberRcp.
 * Ils doivent vider les messages In-App stockés sur l’appareil et resetLinkagefields lorsque l’utilisateur se déconnecte de l’application à l’aide de resetLinkageField. Ainsi, si un autre utilisateur se connecte à l’application, il ne voit pas les messages destinés à l’utilisateur précédent.
-* Reportez-vous aux [API SDK Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) pour mettre en œuvre ce mécanisme de sécurité côté client.
+* Reportez-vous aux [API SDK Mobile](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) pour mettre en œuvre ce mécanisme de sécurité côté client.
 
 ## Que dois-je faire pour activer le reporting In-App Campaign ?  {#enable-inapp-reporting}
 

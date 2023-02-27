@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Dans l’interface utilisateur de collecte de données, créez des éléments de données et des règles pour envoyer les informations d’identification personnelles et d’autres données depuis les applications mobiles vers [!DNL Adobe Campaign Standard].
 
-Pour que toutes les modifications apportées à la configuration de l’interface utilisateur de collecte de données prennent effet, vous devez les publier. Pour plus d&#39;informations, voir la section [Publication](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Pour que toutes les modifications apportées à la configuration de l’interface utilisateur de collecte de données prennent effet, vous devez les publier. Pour plus d&#39;informations, voir la section [Publication](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Pour créer des règles dans l’interface utilisateur de collecte de données, procédez comme suit :
 
@@ -77,7 +77,7 @@ Vous devez créer des règles pour les situations suivantes :
 
 >[!NOTE]
 >
->Pour envoyer des informations d’identification personnelle d’une application mobile à Adobe Campaign, vous devez mettre en œuvre une API SDK. Voir à ce sujet la section [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Pour envoyer des informations d’identification personnelle d’une application mobile à Adobe Campaign, vous devez mettre en œuvre une API SDK. Voir à ce sujet la section [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 Pour envoyer des données de PII à [!DNL Adobe Campaign Standard], créez une règle dans l’interface utilisateur de collecte de données :
 
