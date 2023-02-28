@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 80%
 
 ---
 
 # Profils actifs{#active-profiles}
 
-Les administrateurs fonctionnels de Campaign peuvent accéder au rapport **[!UICONTROL Mesures des clients]** à partir de **[!UICONTROL Administration > Mesures des clients]**.
+Vous pouvez accéder aux détails des profils principaux à partir de la **[!UICONTROL Mesures des clients]** rapport. Ce rapport est disponible uniquement pour les administrateurs fonctionnels de Campaign. Pour accéder à ce rapport, cliquez sur l’icône Adobe Campaign en haut à gauche du [interface utilisateur](../../start/using/interface-description.md#advanced-menu)et accédez à **[!UICONTROL Administration > Mesures des clients]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Ce rapport est généré tous les mois par le workflow technique **[!UICONTROL Facturation]** et affiche le nombre de **profils actifs**.
+Ce rapport est généré tous les mois par le workflow technique **[!UICONTROL Facturation]** et affiche le nombre de **profils actifs**. En savoir plus sur les workflows techniques dans [cette page](../../administration/using/technical-workflows.md).
 
 Un &quot;Profil&quot; est un enregistrement d&#39;informations représentant un client final ou un prospect. Les profils sont considérés comme **actifs** s&#39;ils ont été ciblés par une diffusion de Campaign au cours des 12 derniers mois via un canal quelconque.
 
