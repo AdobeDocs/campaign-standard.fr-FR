@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 83%
 
 ---
 
@@ -42,13 +42,10 @@ L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée �
 
    Vous pouvez par exemple ensuite réaliser une sauvegarde d&#39;audience, mettre à jour les données de la base, etc.
 
-L&#39;activité **[!UICONTROL Réconciliation]** peut par exemple être placée après une activité de chargement de données visant à importer des données non standard dans la base.
+Par exemple, la variable **[!UICONTROL Réconciliation]** peut être placée après une activité de chargement de données pour importer des données non standard dans la base de données.
 
-**Rubriques connexes :**
+Lorsque la variable **Enrichissement** vous permet de définir des données additionnelles à traiter dans votre workflow (utilisez une **Enrichissement** pour combiner des données provenant de plusieurs ensembles ou pour créer des liens vers une ressource temporaire), la variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L&#39;opération de réconciliation implique que les données des dimensions liées se trouvent déjà dans la base de données. Des cas d’utilisation sont disponibles dans [cette section](#use-cases-reconciliation).
 
-* [Cas pratique : réconciliation des données à l’aide des relations](../../automating/using/reconciliation-using-relations.md)
-* [Cas pratique : mise à jour des données à l’aide de la réconciliation](../../automating/using/data-update-reconciliation.md)
-* [Cas pratique : réconcilier une audience de type fichier avec la base de données](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuration {#configuration}
 
@@ -70,3 +67,12 @@ L&#39;activité **[!UICONTROL Réconciliation]** peut par exemple être placée 
    * **[!UICONTROL Les conserver dans la population de sortie]** : toutes les données de la transition entrante sont conservées dans la transition sortante de l&#39;activité.
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
+
+
+## Cas pratiques{#use-cases-reconciliation}
+
+Découvrez comment utiliser cette activité dans les cas pratiques suivants :
+
+* [Cas pratique : réconciliation des données à l’aide des relations](../../automating/using/reconciliation-using-relations.md)
+* [Cas pratique : mise à jour des données à l’aide de la réconciliation](../../automating/using/data-update-reconciliation.md)
+* [Cas pratique : réconcilier une audience de type fichier avec la base de données](../../automating/using/reconcile-file-audience-with-database.md)
