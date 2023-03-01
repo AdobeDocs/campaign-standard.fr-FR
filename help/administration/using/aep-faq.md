@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe�
 
 Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Data Collection UI] pour activer l’intégration.
 
-Voir à ce sujet la section [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Pour plus d&#39;informations à ce sujet, consultez cette [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quelles fonctionnalités l’intégration du SDK Adobe Experience Platform facilite-t-elle dans Adobe Campaign ?  {#aep-capabilities}
 
