@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
 source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -42,9 +42,9 @@ L&#39;activité **[!UICONTROL Réconciliation]** est essentiellement utilisée �
 
    Vous pouvez par exemple ensuite réaliser une sauvegarde d&#39;audience, mettre à jour les données de la base, etc.
 
-Par exemple, la variable **[!UICONTROL Réconciliation]** peut être placée après une activité de chargement de données pour importer des données non standard dans la base de données.
+L’activité **[!UICONTROL Réconciliation]** peut par exemple être placée après une activité de chargement de données visant à importer des données non standard dans la base de données.
 
-Lorsque la variable **Enrichissement** vous permet de définir des données additionnelles à traiter dans votre workflow (utilisez une **Enrichissement** pour combiner des données provenant de plusieurs ensembles ou pour créer des liens vers une ressource temporaire), la variable **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L&#39;opération de réconciliation implique que les données des dimensions liées se trouvent déjà dans la base de données. Des cas d’utilisation sont disponibles dans [cette section](#use-cases-reconciliation).
+Si vous utilisez l’activité **Enrichissement** pour définir des données supplémentaires à traiter dans votre workflow (en utilisant une activité **Enrichissement** pour combiner des données provenant de plusieurs jeux ou pour créer des liens vers une ressource temporaire), l’activité **Réconciliation** vous permet de lier des données non identifiées à des ressources existantes. L’opération de réconciliation suppose que les données des dimensions liées sont déjà présentes dans la base de données. Vous pouvez consulter des cas d’utilisation dans [cette section](#use-cases-reconciliation).
 
 
 ## Configuration {#configuration}
@@ -69,9 +69,9 @@ Lorsque la variable **Enrichissement** vous permet de définir des données addi
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
 
-## Cas pratiques{#use-cases-reconciliation}
+## Cas d’utilisation{#use-cases-reconciliation}
 
-Découvrez comment utiliser cette activité dans les cas pratiques suivants :
+Découvrez comment utiliser cette activité dans les cas d’utilisation suivants :
 
 * [Cas pratique : réconciliation des données à l’aide des relations](../../automating/using/reconciliation-using-relations.md)
 * [Cas pratique : mise à jour des données à l’aide de la réconciliation](../../automating/using/data-update-reconciliation.md)
