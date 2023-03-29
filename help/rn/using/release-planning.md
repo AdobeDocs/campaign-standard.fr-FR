@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour.
 
-## Version 22.3 - Version d’automne/hiver 2022 {#release-22-3-release}
+## Version 23.1 - Version printemps/été 2023 {#release-23-1-release}
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
@@ -41,11 +41,11 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
  <tbody>
   <tr>
    <td>Évaluation<br /> </td>
-   <td>8 septembre 2022 - Début 2023<br /> </td>
+   <td>11 avril 2023 - Juillet 2023<br /> </td>
   </tr>
   <tr>
    <td>Production<br /> </td>
-   <td>15 septembre 2022 - Début 2023<br /> </td>
+   <td>18 avril 2023 - Juillet 2023<br /> </td>
   </tr>
  </tbody>
 </table>
