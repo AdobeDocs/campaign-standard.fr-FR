@@ -25,7 +25,6 @@ Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux d
 Suivez les principes ci-dessous lors de la conception du contenu de votre message :
 
 * [Nom et adresse de l’expéditeur](#sender-name) : l’adresse doit identifier explicitement l’expéditeur, lequel doit être propriétaire du domaine et l’avoir enregistré. Le registre du domaine ne doit pas être privatisé.
-
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personnalisation et optimisation de l’heure d’envoi](#perso-send-time-optimization) : la personnalisation du contenu et la définition d’une heure d’envoi par destinataire augmentent les chances d’ouverture de votre message.
 * Images et texte : respectez un ratio texte/images correct (par exemple, 60 % de texte et 40 % d’images).
