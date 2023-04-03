@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 100%
 
 ![Panneau de contrôle](assets/do-not-localize/cp-icon.png) **Nouvelle version du panneau de contrôle**. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target="_blank"}.
 
+## Version 22.3.2 {#feb-23}
+
+### Mise à jour de sécurité{#rn-security2}
+
+Cette version est fournie avec la mise à niveau de sécurité suivante : Debian a été mis à niveau vers la version v11.0.
 
 ## Version 22.3 - Automne/hiver 2022 {#sept-22}
 
