@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 100%
@@ -18,7 +18,6 @@ ht-degree: 100%
 # Notes de mise à jour initiales {#e-new-release}
 
 Cette page décrit les améliorations et correctifs inclus dans la prochaine version de Campaign Standard.
-
 >[!CAUTION]
 >
 > Ce contenu est sujet à des modifications sans préavis jusqu&#39;à la date de mise à niveau des environnements d&#39;évaluation. Pour en savoir plus, consultez la [page du calendrier des versions](../../rn/using/release-planning.md).
@@ -41,4 +40,3 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 * Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envois (nms:broadLogRcp). (CAMP-51127)
 * Correction d’un problème qui empêchait l’extension des ressources personnalisées avec ACS Connector (Prime Offering). (CAMP-51033)
 * Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
-
