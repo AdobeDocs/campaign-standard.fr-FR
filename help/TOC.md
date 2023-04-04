@@ -5,9 +5,9 @@ user-guide-description: Centre d'aide pour les principales fonctionnalités, tâ
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1818'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
    + Messages transactionnels {#transactional-messaging}
       + [Prise en main de la messagerie transactionnelle](channels/using/getting-started-with-transactional-msg.md)
       + [Bonnes pratiques et limites](channels/using/transactional-messaging-limitations.md)
-      + [Mises à jour des autorisations de messages transactionnels](channels/using/transactional-message-permission.md)
+      + [Mises à jour des autorisations pour les messages transactionnels](channels/using/transactional-message-permission.md)
       + Configuration des événements {#event-configuration}
          + [Configuration d&#39;un événement transactionnel](channels/using/configuring-transactional-event.md)
          + [Publication d&#39;un événement transactionnel](channels/using/publishing-transactional-event.md)
