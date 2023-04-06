@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 87afaf6fed5bc3db134f10444cd7b6b5f35640f0
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,23 +29,23 @@ Toutes les dates de publication peuvent faire l’objet de modifications : cons
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](release-notes.md).
+Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](e-release-notes.md).
 
 <table>
  <thead>
   <tr>
-   <th> Environnements<br /> </th>
-   <th> Dates <br /> </th>
+   <th> Environnements </th>
+   <th> Dates </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td>Évaluation<br /> </td>
-   <td>11 avril 2023 - Juillet 2023<br /> </td>
+   <td>Évaluation </td>
+   <td>11 avril 2023 - Juillet 2023 </td>
   </tr>
   <tr>
-   <td>Production<br /> </td>
-   <td>18 avril 2023 - Juillet 2023<br /> </td>
+   <td>Production </td>
+   <td>18 avril 2023 - Juillet 2023 </td>
   </tr>
  </tbody>
 </table>
