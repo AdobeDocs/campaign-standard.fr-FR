@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
 ### Améliorations {#e-rn-improvements}
 
-* Le service de messagerie push a été modernisé afin d’optimiser la maintenance. (CAMP-47959)
-* Le service de messagerie SMS a été modernisé afin d’offrir une meilleure stabilité. (CAMP-52217)
+* Le service de messagerie push a été modernisé afin d’améliorer la prise en charge. (CAMP-47959)
+* Le service de messagerie SMS a été amélioré afin d’offrir une meilleure stabilité. (CAMP-52217)
+* Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’améliorations de l’accessibilité :
+   * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
+   * L’application a été ravie pour les utilisateurs d’écran tactile.
+   * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
+
+### Autres changements  {#e-rn-changes}
+
 * La clé en main **Workflow de création de rapports d’enrichissement** a été ajouté. Après l&#39;import d&#39;un mapping de ciblage d&#39;une instance vers une autre, exécutez simplement le workflow pour importer les entrées d&#39;enrichissement de reporting correspondantes. (CAMP-52452)
 
-### Correctifs {#e-rn-patches}
+### Problèmes résolus{#e-rn-patches}
 
 * Correction d’un problème qui entraînait une erreur de délai d’expiration lors de l’affichage de la variable **Hot click** rapport. (CAMP-51582)
 * Correction d’un problème qui empêchait l’utilisation de l’intégration avec la variable **Places** service. (CAMP-51923)
