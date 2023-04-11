@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 16%
 
 ---
 
@@ -17,22 +17,26 @@ ht-degree: 100%
 
 ![Panneau de contrôle](assets/do-not-localize/cp-icon.png) **Nouvelle version du panneau de contrôle**. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr){target="_blank"}.
 
-## Version 22.3.2 {#feb-23}
+## Version 23.1 - Version du printemps/été 2023 {#apr-23}
 
-### Mise à jour de sécurité{#rn-security2}
+### Améliorations {#e-rn-improvements}
 
-Cette version est fournie avec la mise à niveau de sécurité suivante : Debian a été mis à niveau vers la version v11.0.
+* Le service de messagerie push a été modernisé afin d’améliorer la prise en charge. (CAMP-47959)
+* Le service de messagerie SMS a été amélioré afin d’offrir une meilleure stabilité. (CAMP-52217)
+* Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’améliorations de l’accessibilité :
+   * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
+   * L’application a été ravie pour les utilisateurs d’écran tactile.
+   * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
 
-## Version 22.3 - Automne/hiver 2022 {#sept-22}
+### Autres changements  {#e-rn-changes}
 
-### Mise à jour de sécurité{#rn-security}
+* La clé en main **Workflow de création de rapports d’enrichissement** a été ajouté. Après l&#39;import d&#39;un mapping de ciblage d&#39;une instance vers une autre, exécutez simplement le workflow pour importer les entrées d&#39;enrichissement de reporting correspondantes. (CAMP-52452)
 
-Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
+### Problèmes résolus{#e-rn-patches}
 
-### Correctifs{#e-rn-fixes}
-
-* Correction d’un problème lié aux rapports planifiés, qui étaient déclenchés une heure avant la planification. (CAMP-51502)
-* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envois (nms:broadLogRcp). (CAMP-51127)
-* Correction d’un problème qui empêchait l’extension des ressources personnalisées avec ACS Connector (Prime Offering). (CAMP-51033)
-* Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
-
+* Correction d’un problème qui entraînait une erreur de délai d’expiration lors de l’affichage de la variable **Hot click** rapport. (CAMP-51582)
+* Correction d’un problème qui empêchait l’utilisation de l’intégration avec la variable **Places** service. (CAMP-51923)
+* Correction d’un problème qui empêchait le bon fonctionnement du planificateur de workflow. (CAMP-52003)
+* Correction d’un problème qui empêchait l’affichage des détails de la ventilation lors de l’affichage de la version PDF d’un rapport dynamique personnalisé avec un grand volume de données. (CAMP-52178)
+* Correction d’un problème qui entraînait l’affichage d’une erreur lors de l’accès aux rapports. (CAMP-52500)
+* Correction d’un problème qui appliquait incorrectement la variable **Limiter les instances MTA pour ce compte** Paramètre du connecteur SMS à tous les canaux au lieu de s’appliquer uniquement aux SMS. (CAMP-52640)

@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # Notes de mise à jour 2022{#release-notes-2022}
+
+## Version 22.3.2 {#feb-23}
+
+### Mise à jour de sécurité{#rn-security2}
+
+Cette version est fournie avec la mise à niveau de sécurité suivante : Debian a été mis à niveau vers la version v11.0.
+
+## Version 22.3 - Automne/hiver 2022 {#sept-22}
+
+### Mise à jour de sécurité{#rn-security}
+
+Cette version est fournie avec la mise à niveau de sécurité suivante : Apache Tomcat a été mis à niveau de la v7.0 vers la v8.0.
+
+### Correctifs{#rn-fixes}
+
+* Correction d’un problème lié aux rapports planifiés, qui étaient déclenchés une heure avant la planification. (CAMP-51502)
+* Correction d’un problème sur les indicateurs de diffusion dans le tableau de bord Diffusion qui ne correspondait pas aux logs d’envois (nms:broadLogRcp). (CAMP-51127)
+* Correction d’un problème qui empêchait l’extension des ressources personnalisées avec ACS Connector (Prime Offering). (CAMP-51033)
+* Amélioration du processus de publication des réponses aux demandes d’accès à des informations personnelles afin d’éviter tout retard. (CAMP-50613)
 
 ## Version 22.2 - Juin 2022 {#june-2022}
 
