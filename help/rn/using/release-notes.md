@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
 * Le service de messagerie SMS a été amélioré afin d’offrir une meilleure stabilité. (CAMP-52217)
 * Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’améliorations de l’accessibilité :
    * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
-   * L’application a été ravie pour les utilisateurs d’écran tactile.
+   * L’application a été améliorée pour les utilisateurs d’écran tactile.
    * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
 
 ### Autres changements  {#e-rn-changes}
