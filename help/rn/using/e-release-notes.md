@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 21%
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,7 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 >
 > Ce contenu est sujet à des modifications sans préavis jusqu&#39;à la date de mise à niveau des environnements d&#39;évaluation. Pour en savoir plus, consultez la [page du calendrier des versions](../../rn/using/release-planning.md).
 
-## Version 23.1 - Version du printemps/été 2023 {#apr-23}
+## Version 23.1 - Version printemps/été 2023 {#apr-23}
 
 ### Améliorations {#e-rn-improvements}
 
@@ -35,13 +35,13 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
 ### Autres changements  {#e-rn-changes}
 
-* La clé en main **Workflow de création de rapports d’enrichissement** a été ajouté. Après l&#39;import d&#39;un mapping de ciblage d&#39;une instance vers une autre, exécutez simplement le workflow pour importer les entrées d&#39;enrichissement de reporting correspondantes. (CAMP-52452)
+* Ajout du **Workflow de création d’enrichissement de rapports** prêt à l’emploi. Une fois que vous avez importé un mapping de ciblage d’une instance à une autre, il vous suffit d’exécuter le workflow pour importer les entrées d’enrichissement de rapports correspondantes. (CAMP-52452)
 
 ### Problèmes résolus{#e-rn-patches}
 
-* Correction d’un problème qui entraînait une erreur de délai d’expiration lors de l’affichage de la variable **Hot click** rapport. (CAMP-51582)
-* Correction d’un problème qui empêchait l’utilisation de l’intégration avec la variable **Places** service. (CAMP-51923)
+* Correction d’un problème qui entraînait une erreur de délai d’expiration lors de l’affichage du rapport **Hot Click**. (CAMP-51582)
+* Correction d’un problème qui empêchait l’utilisation de l’intégration au service **Places**. (CAMP-51923)
 * Correction d’un problème qui empêchait le bon fonctionnement du planificateur de workflow. (CAMP-52003)
-* Correction d’un problème qui empêchait l’affichage des détails de la ventilation lors de l’affichage de la version PDF d’un rapport dynamique personnalisé avec un grand volume de données. (CAMP-52178)
-* Correction d’un problème qui entraînait l’affichage d’une erreur lors de l’accès aux rapports. (CAMP-52500)
-* Correction d’un problème qui appliquait incorrectement la variable **Limiter les instances MTA pour ce compte** Paramètre du connecteur SMS à tous les canaux au lieu de s’appliquer uniquement aux SMS. (CAMP-52640)
+* Correction d’un problème qui empêchait l’affichage des détails de la répartition lors de la visualisation de la version PDF d’un rapport dynamique personnalisé contenant un grand nombre de données. (CAMP-52178)
+* Correction d’un problème qui entraînait l’affichage d’un message d’erreur lors de l’accès aux rapports. (CAMP-52500)
+* Correction d’un problème qui appliquait par erreur le paramètre du connecteur SMS **Limiter les instances MTA pour ce compte** à tous les canaux au lieu de l’appliquer uniquement aux SMS. (CAMP-52640)
