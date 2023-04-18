@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
 ### Améliorations {#e-rn-improvements}
 
-* Le service de messagerie push a été modernisé afin d’améliorer la prise en charge. (CAMP-47959)
-* Le service de messagerie SMS a été amélioré afin d’offrir une meilleure stabilité. (CAMP-52217)
-* Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’améliorations de l’accessibilité :
+* Le service de messagerie push a été modernisé afin d’optimiser le support. (CAMP-47959)
+* Le service de messagerie SMS a été optimisé afin d’offrir une meilleure stabilité. (CAMP-52217)
+* Adobe a apporté de nombreux correctifs d’accessibilité afin d’améliorer la facilité d’utilisation globale de l’application. Voici quelques exemples d’amélioration de l’accessibilité :
    * L’accessibilité clavier de l’interface a été optimisée dans de nombreux écrans.
-   * L’application a été ravie pour les utilisateurs d’écran tactile.
+   * L’application a été adaptée aux utilisateurs et utilisatrices d’écrans tactiles.
    * La couleur de plusieurs éléments de l’interface a été modifiée afin d’améliorer la visibilité.
 
 ### Autres changements  {#e-rn-changes}
