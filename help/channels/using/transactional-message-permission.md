@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 18%
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->Actuellement, ces fonctionnalités ne sont disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
+>Ces fonctionnalités ne sont actuellement disponibles que pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
 
-Actuellement, dans Adobe Campaign Standard, les utilisateurs ne disposant pas du groupe de sécurité Administrateur ne peuvent pas accéder aux événements transactionnels, ni les créer, ni les publier, ce qui entraîne des problèmes pour les utilisateurs professionnels qui doivent configurer et publier des événements, mais ne disposent pas des droits d’administrateur. En outre, il n’est pas possible de dupliquer des événements transactionnels.
+Actuellement, dans Adobe Campaign Standard, les utilisateurs et les utilisatrices non membres du groupe de sécurité d’administration ne peuvent pas accéder aux événements transactionnels, en créer ou en publier. Cela entraîne des problèmes pour les utilisateurs et utilisatrices professionnels qui doivent configurer et publier des événements, mais ne disposent pas des droits d’administration. En outre, il n’est pas possible de dupliquer des événements transactionnels.
 
 Nous avons apporté les améliorations suivantes au contrôle d’accès des messages transactionnels :
 
-* Une nouvelle **[!UICONTROL Rôle]**, appelé **Utilisateur MC**, a été ajouté pour permettre aux utilisateurs non-administrateurs de gérer la configuration des événements transactionnels. Le rôle **Utilisateur/utilisatrice MC** permet aux utilisateurs et utilisatrices d’accéder aux événements et messages transactionnels, de les créer, de les publier et de les dépublier.
+* Ajout d’un nouveau **[!UICONTROL rôle]**, appelé **Utilisateur ou utilisatrice MC** afin de permettre aux personnes qui ne disposent pas du rôle d’administration de gérer les configurations de l’événement transactionnel. Le rôle **Utilisateur ou utilisatrice MC** permet aux utilisateurs et utilisatrices d’accéder aux événements et messages transactionnels, de les créer, de les publier et de les dépublier.
 
-* Les diffusions d’exécution (c’est-à-dire les messages techniques créés chaque fois qu’un message transactionnel est édité et publié de nouveau, ou une fois par mois par défaut) sont désormais définies sur la valeur **[!UICONTROL Entité organisationnelle]** du groupe de sécurité auquel appartient l’utilisateur créant l’événement, plutôt que d’être limité au **[!UICONTROL Entité organisationnelle]** de **Agent Message Center (mcExec)** groupe de sécurité.
+* Les diffusions d’exécution (c’est-à-dire les messages techniques créés chaque fois qu’un message transactionnel est modifié et publié de nouveau, ou une fois par mois par défaut) sont désormais définies sur l’**[!UICONTROL entité organisationnelle]** du groupe de sécurité auquel appartient l’utilisateur ou l’utilisatrice qui crée l’événement, au lieu de se limiter à l’**[!UICONTROL entité organisationnelle]** du groupe de sécurité **Agent Message Center (mcExec)**.
 
-* **Administrateurs** peut désormais dupliquer les événements transactionnels publiés, ainsi que les utilisateurs avec la variable **Utilisateur MC** rôle pourvu qu’ils soient dans le même **Entité organisationnelle** hiérarchie en tant qu’utilisateur ayant créé l’événement.
+* Les **administrateurs et administratrices** peuvent désormais dupliquer les événements transactionnels publiés, ainsi que les utilisateurs et utilisatrices affectés au rôle **Utilisateur ou utilisatrice MC**, pourvu qu’ils soient dans la même hiérarchie d’**entité organisationnelle** que l’utilisateur ou l’utilisatrice qui a créé l’événement.
 
-## Attribution du rôle utilisateur MC {#assign-role}
+## Attribuer le rôle Utilisateur ou utilisatrice MC {#assign-role}
 
-Pour affecter la variable **Utilisateur MC** rôle de votre groupe de sécurité :
+Pour attribuer le rôle **Utilisateur ou utilisatrice MC** à votre groupe de sécurité :
 
 1. Créez un **[!UICONTROL Groupe de sécurité]** ou modifiez un groupe existant. [En savoir plus](../../administration/using/managing-groups-and-users.md).
 
@@ -52,39 +52,39 @@ Pour affecter la variable **Utilisateur MC** rôle de votre groupe de sécurité
 
 1. Une fois la configuration effectuée, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Utilisateurs liés à ceci **[!UICONTROL Groupe de sécurité]** peut désormais accéder aux événements et messages transactionnels, les créer et les publier.
+Les personnes appartenant à ce **[!UICONTROL groupe de sécurité]** peuvent désormais accéder aux événements et messages transactionnels, en créer et en publier.
 
-## Affectation du groupe de sécurité utilisateur MC {#assign-group}
+## Attribuer un groupe de sécurité à l’utilisateur ou à l’utilisatrice MC {#assign-group}
 
-1. Dans le Admin Console, sélectionnez la variable **Produits** .
+1. Dans l’Admin Console, sélectionnez l’onglet **Produits**.
 
-1. Sélectionner **Adobe Campaign Standard** choisissez ensuite votre instance.
+1. Sélectionnez **Adobe Campaign Standard** puis choisissez votre instance.
 
-1. Dans la **Profils de produit** , sélectionnez la variable **Utilisateur MC** groupe.
+1. Dans la liste **Profils de produit**, sélectionnez le groupe **Utilisateur ou utilisatrice MC**.
 
-1. Cliquez sur **Ajouter un utilisateur** et saisissez le nom, le groupe d’utilisateurs ou l’adresse électronique du profil que vous souhaitez ajouter à ce profil de produit.
+1. Cliquez sur **Ajouter un utilisateur ou une utilisatrice** et saisissez le nom, le groupe d’utilisateurs et d’utilisatrices ou l’adresse e-mail du profil que vous souhaitez ajouter à ce profil de produit.
 
 1. Une fois l’ajout effectué, cliquez sur **Enregistrer**.
 
-Utilisateurs ajoutés à cette liste **[!UICONTROL Groupe de sécurité]** peut désormais accéder aux événements et messages transactionnels, les créer et les publier.
+Les personnes appartenant à ce **[!UICONTROL groupe de sécurité]** peuvent alors accéder aux événements et messages transactionnels, en créer et en publier.
 
-## Duplication d’événements transactionnels {#duplicate-transactional-events}
+## Dupliquer des événements transactionnels {#duplicate-transactional-events}
 
-Un utilisateur avec la variable **Administrateur** groupe de sécurité<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> peut désormais dupliquer une configuration d’événement si l’événement a été **publié**.
+Un utilisateur ou une utilisatrice avec le **groupe de sécurité** d’Administration<!--([Functional administrators](../../administration/using/users-management.md#functional-administrators)?)--> peut désormais dupliquer une configuration d’événement si l’événement a été **publié**.
 
-En outre, les utilisateurs non administrateurs avec la variable **Utilisateur MC** Le rôle peut désormais accéder aux configurations d’événement, mais son autorisation de duplication est déterminée par la fonction **Entité organisationnelle** à qui ils appartiennent. Si l’utilisateur actuel et l’utilisateur qui a créé l’événement appartiennent à la même hiérarchie d’entités organisationnelles, la duplication est autorisée.
+En outre, les utilisateurs et utilisatrices qui ne sont pas administrateurs ou administratrices et qui ont été affectés au rôle **Utilisateur ou utilisatrice MC** peuvent désormais accéder aux configurations d’événement, mais leur autorisation de duplication est déterminée par l’**entité organisationnelle** à laquelle ils appartiennent. Si la personne actuelle et celle qui a créé l’événement appartiennent à la même hiérarchie d’entité organisationnelle, la duplication est autorisée.
 
-Par exemple, si un utilisateur appartenant à l&#39;entité organisationnelle &quot;Ventes de France&quot; crée une configuration d&#39;événement :
+Par exemple, si un utilisateur ou une utilisatrice appartenant à l’entité organisationnelle « Ventes de France » crée une configuration d’événement :
 
-* Un autre utilisateur dont l&#39;entité organisationnelle est &quot;Ventes Paris&quot; pourra dupliquer cet événement, car &quot;Ventes Paris&quot; fait partie de l&#39;entité organisationnelle &quot;Ventes France&quot;.
+* Un autre utilisateur ou une autre utilisatrice appartenant à l’entité organisationnelle « Ventes de Paris » peut dupliquer cet événement, car « Ventes de Paris » fait partie de l’entité organisationnelle « Ventes de France ».
 
-* Cependant, un utilisateur dont l’entité organisationnelle est &quot;Ventes de San Francisco&quot; ne pourra pas le faire, car &quot;Ventes de San Francisco&quot; se trouve sous l’entité organisationnelle &quot;Ventes des États-Unis&quot;, qui est distincte de l’entité organisationnelle &quot;Ventes de France&quot;.
+* En revanche, un utilisateur ou une utilisatrice dont l’entité organisationnelle s’intitule « Ventes de San Francisco » ne pourra pas le faire, car « Ventes de San Francisco » fait partie de l’entité organisationnelle« Ventes des États-Unis », qui est indépendante de l’entité organisationnelle « Ventes de France ».
 
-Pour dupliquer une configuration d’événement, procédez comme suit.
+Pour dupliquer une configuration d’événement, procédez comme suit :
 
 1. Cliquez sur le logo **Adobe**, en haut à gauche, puis sélectionnez **[!UICONTROL Plans marketing]** > **[!UICONTROL Messages transactionnels]** > **[!UICONTROL Configuration d’événements]**.
 
-1. Passez la souris sur la configuration de l’événement publié de votre choix et sélectionnez l’événement **[!UICONTROL Dupliquer l’élément]** bouton .
+1. Passez la souris sur la configuration de l’événement de votre choix et sélectionnez le bouton **[!UICONTROL Dupliquer l’élément]**.
 
    ![](assets/message-center_duplicate-button.png)
 
@@ -92,7 +92,7 @@ Pour dupliquer une configuration d’événement, procédez comme suit.
    >
    >Vous ne pouvez pas dupliquer une configuration d’événement qui n’est pas publiée. [En savoir plus](publishing-transactional-event.md)
 
-1. L’événement dupliqué s’affiche automatiquement. Elle contient la même configuration que celle que vous avez définie pour l’événement d’origine, mais elle contient la variable **[!UICONTROL Version préliminaire]** statut.
+1. L’événement dupliqué s’affiche automatiquement. Il contient la même configuration que celle que vous avez définie pour l’événement d’origine, mais il présente le statut **[!UICONTROL Brouillon]**.
 
    ![](assets/message-center_duplicated-draft-event.png)
 
@@ -100,7 +100,7 @@ Pour dupliquer une configuration d’événement, procédez comme suit.
 
    ![](assets/message-center_duplicated-message.png)
 
-1. Ouvrez le message nouvellement dupliqué. Il contient la même conception que celle que vous avez définie pour le message d’origine, mais il comporte la propriété **[!UICONTROL Version préliminaire]** même si le message transactionnel d’origine a été publié.
+1. Ouvrez le message nouvellement dupliqué. Il contient la même conception que celle que vous avez définie pour le message d’origine, mais il comporte le statut **[!UICONTROL Brouillon]**, même si le message transactionnel d’origine a été publié.
 
    ![](assets/message-center_duplicated-draft-message.png)
 
@@ -108,14 +108,14 @@ Pour dupliquer une configuration d’événement, procédez comme suit.
 
 ## Impacts {#impacts}
 
-Le tableau ci-dessous décrit l’impact de ces améliorations :
+Le tableau ci-dessous décrit l’impact de ces améliorations :
 
 | Objets | Avant cette modification | Après cette modification |
 |:-: | :--: | :-:|
 | Événements transactionnels | Seules les personnes membres du groupe de sécurité **Administrateur** peuvent créer et publier des événements. | Le rôle **Utilisateur/utilisatrice MC** permet de créer et de publier des événements. |
-| Messages transactionnels | Les messages transactionnels sont définis sur la variable **Entité organisationnelle** de **Agent Message Center (mcExec)** groupe de sécurité. | Les messages transactionnels sont définis sur la variable **Entité organisationnelle** du groupe de sécurité auquel appartient l’utilisateur créant l’événement/le message transactionnel. |
-| Diffusions d&#39;exécution | Les diffusions d’exécution sont définies sur la variable **Entité organisationnelle** de **Agent Message Center (mcExec)** groupe de sécurité. | Les diffusions d’exécution sont définies sur la variable **Entité organisationnelle** du groupe de sécurité auquel appartient l’utilisateur créant l’événement/le message transactionnel. |
-| Événements transactionnels publiés | La duplication n’est possible pour aucun utilisateur. | <ul><li>Utilisateurs avec la variable **Administrateur** Le groupe de sécurité peut dupliquer les événements publiés.</li> <li>Utilisateurs avec la variable **Utilisateur MC** Le rôle peut dupliquer des événements publiés s’ils se trouvent dans le même **Entité organisationnelle** hiérarchie en tant qu’utilisateur ayant créé l’événement.</li></ul> |
+| Messages transactionnels | Les message transactionnels sont définis sur l’**entité organisationnelle** du groupe de sécurité **Agent Message Center (mcExec)**. | Les messages transactionnels sont définis sur l’**entité organisationnelle** du groupe de sécurité auquel appartient l’utilisateur ou l’utilisatrice qui crée l’événement ou le message transactionnel. |
+| Diffusions d’exécution | Les diffusions d’exécution sont définies sur l’**entité organisationnelle** du groupe de sécurité **Agent Message Center (mcExec)**. | Les diffusions d’exécution sont définies sur l’**entité organisationnelle** du groupe de sécurité auquel appartient l’utilisateur ou l’utilisatrice qui crée le message ou l’événement transactionnel. |
+| Événements transactionnels publiés | La duplication est impossible. | <ul><li>Les utilisateurs et utilisatrices membres du groupe de sécurité d’**administration** peuvent dupliquer les événements publiés.</li> <li>Les utilisateurs et utilisatrices affectés au rôle **Utilisateur ou utilisatrice MC** peuvent dupliquer des événements publiés, pourvus qu’ils fassent partie de la même hiérarchie d’**entité organisationnelle** que l’utilisateur ou l’utilisatrice qui a créé l’événement.</li></ul> |
 
 
 <!--Transactional Message Templates| Transactional Message templates are set to the Organizational unit **All**. | Transaction Message Template will be set to the **Organizational unit** of the security group to which the user creating the message template belongs.-->
