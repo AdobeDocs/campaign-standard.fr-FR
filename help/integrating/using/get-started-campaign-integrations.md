@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 100%
+source-wordcount: '709'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ Si vous souhaitez intégrer des flux de données d&#39;autres systèmes avec Ado
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Permet d'envoyer des e-mails, des notifications push et des SMS à l'aide des fonctionnalités de messagerie transactionnelle d'Adobe Campaign Standard dans le contexte d'Adobe Journey Orchestration, par le biais d'une action d'usine.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=fr">Utilisation d'Adobe Journey Orchestration et d'Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Utilisation d'Adobe Journey Orchestration et d'Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

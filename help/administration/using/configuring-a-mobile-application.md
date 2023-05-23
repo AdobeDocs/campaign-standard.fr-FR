@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 100%
+source-wordcount: '1329'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ Pour terminer la configuration, procédez comme suit :
    * Dans Adobe Campaign Standard, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard. Cette étape permet à l’utilisateur de se connecter à Adobe Campaign Standard, d’accéder à la page de l’application mobile SDK Experience Platform et d’afficher les propriétés de l’application mobile créée dans l’interface utilisateur de collecte de données.
 
    * Dans l’interface utilisateur de collecte de données, assurez-vous que votre utilisateur IMS fait partie d’un profil de produit Experience Platform Launch.
-Cette étape permet à l’utilisateur de se connecter à l’interface utilisateur de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface utilisateur de collecte de données, voir [Création de votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=fr#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie pour l’entreprise ou les propriétés, mais l’utilisateur doit être en mesure de se connecter.
+Cette étape permet à l’utilisateur de se connecter à l’interface utilisateur de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface utilisateur de collecte de données, voir [Création de votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie pour l’entreprise ou les propriétés, mais l’utilisateur doit être en mesure de se connecter.
 
    Pour exécuter d’autres tâches, comme installer une extension, publier une application, configurer des environnements, etc., vous devez définir des autorisations dans le profil de produit.
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7564'
+source-wordcount: '7562'
 ht-degree: 100%
 
 ---
@@ -301,7 +301,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
  <tbody> 
   <tr> 
    <td> Panneau de contrôle<br /> </td> 
-   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=fr">vidéo de procédure</a>.</p></td> 
+   <td> <p>Pour accroître l’efficacité de votre travail en tant qu’utilisateur administrateur, vous pouvez facilement surveiller la capacité de vos instances et gérer leurs paramètres (à commencer par la gestion des serveurs SFTP).</p><p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=fr">vidéo de procédure</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Notifications locales<br /> </td> 
@@ -328,7 +328,7 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 * Correction d’un problème qui créait des espaces inutiles lors de l’utilisation d’éléments incorporés dans l’interface du Concepteur d’email. (CAMP-32163)
 * Correction d’un problème qui supprimait certains attributs de balise HTML supplémentaires ajoutés par l’utilisateur après avoir enregistré le contenu d’un email dans le Concepteur d’email. (CAMP-32162)
 * Correction d’un problème qui affichait une balise Microsoft Office en mode HTML du Concepteur d’email, même après sa suppression. (CAMP-32141)
-* Si vous avez créé un email à l’aide d’une version antérieure du Concepteur d’email, une fenêtre contextuelle s’ouvre maintenant lors de l’ouverture du contenu de cet email pour inviter l’utilisateur à effectuer une mise à jour vers la version la plus récente. (CAMP-31529)
+* Si vous avez créé un email à l’aide d’une version antérieure du Concepteur d’e-mail, une fenêtre pop-up s’ouvre maintenant lors de l’ouverture du contenu de cet e-mail pour inviter l’utilisateur à effectuer une mise à jour vers la version la plus récente. (CAMP-31529)
 * Correction d’un problème qui déformait les images d’un email créé avec le Concepteur d’email lorsqu’il était diffusé à certains clients de messagerie. (CAMP-31407)
 * Correction d’un problème qui empêchait l’affichage correct de certains éléments (listes ou boutons, par exemple) en mode texte brut lorsqu’ils avaient été créés en mode HTML. (CAMP-32582, CAMP-32542)
 * Correction d’un problème qui empêchait l’affichage de plus de 50 entités organisationnelles dans un modèle de contenu ou des propriétés de fragment. (CAMP-32932)

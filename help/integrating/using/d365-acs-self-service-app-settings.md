@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -69,23 +69,23 @@ Vous devez spécifier les informations suivantes :
 
 * **Clé SFTP** : si vous disposez d’une clé SSH, ajoutez-la ici. Sinon, consultez [cette section](#ac-control-panel-settings).
 
-* Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l&#39;intégration puisse utiliser le point d&#39;entrée SFTP.
+* Les **plages IP** doivent être incluses dans votre configuration SFTP Adobe Campaign. Vous devrez les placer dans la liste autorisée pour que l’intégration puisse utiliser le point d’entrée SFTP.
 
-* L&#39;option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l&#39;intégration génère des informations de journalisation au point d&#39;entrée SFTP. Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
+* L&#39;option **Voulez-vous exporter les logs vers votre serveur SFTP Adobe Campaign ?** vous permet de déterminer si l’intégration génère des informations de journalisation au point d’entrée SFTP. Ces informations peuvent servir au débogage si Adobe Campaign ou Microsoft Dynamics 365 n&#39;affiche pas les informations attendues.
 
 ## Configuration de SFTP dans Adobe Campaign {#ac-control-panel-settings}
 
 Découvrez la gestion SFTP avec le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) dans les sections suivantes :
 
-* [À propos de la gestion SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr#sftp-management)
+* [À propos de la gestion SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [Gestion de l’espace de stockage SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#installing-ssh-key)
+* [Gestion de l’espace de stockage SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [Ajout de plages d&#39;adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=fr#sftp-management)
+* [Ajout de plages d&#39;adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [Gestion des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#sftp-management)
+* [Gestion des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [Connexion à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=fr#sftp-management)
+* [Connexion à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Une fois la configuration terminée, connectez-vous au serveur SFTP avec la clé privée et créez le répertoire &quot;d365_loads/export&quot;.
 

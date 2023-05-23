@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 <td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personnaliser vos rapports</a></p></td></tr>
 </table>
 
-Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics.
+Les rapports dynamiques sont constitués de rapports entièrement personnalisables en temps réel pour mesurer l’impact de vos activités marketing. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez les rapports dynamiques en vidéo](#video)
 
@@ -32,7 +32,7 @@ Les rapports dynamiques sont constitués de rapports entièrement personnalisabl
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
+Grâce à **l’interface glisser-déposer** des rapports dynamiques, vous pouvez, à partir d’un emplacement unique, explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
 **Gérez vos rapports dynamiques** grâce à différentes fonctionnalités : vous pouvez actualiser les données en temps réel, imprimer vos rapports ou les exporter au format CSV. Vous pouvez également partager vos rapports avec des utilisateurs de Campaign Standard par le biais d’emails ponctuels ou récurrents.
 

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7269'
-ht-degree: 100%
+source-wordcount: '7263'
+ht-degree: 99%
 
 ---
 
@@ -316,7 +316,7 @@ Ajout d&#39;informations sur l&#39;utilisation des agrégats dans une activité 
 
 Ajout d&#39;une limite avec MCPNS lors de la configuration d&#39;une application mobile. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
-Ajout d&#39;une nouvelle section sur les instructions de configuration au guide Administration. Déplacement de la section relative aux navigateurs et aux systèmes d&#39;exploitation compatibles du Guide de prise en main vers cette section. Ajout également d&#39;une note technique sur les points d&#39;entrée réseau Campaign Standard à cette section. [En savoir plus](../../administration/using/about-configuration-guidelines.md)
+Ajout d&#39;une nouvelle section sur les instructions de configuration au guide Administration. Déplacement de la section relative aux navigateurs et aux systèmes d&#39;exploitation compatibles du Guide de prise en main vers cette section. Ajout également d’une note technique sur les points d’entrée réseau Campaign Standard à cette section. [En savoir plus](../../administration/using/about-configuration-guidelines.md)
 
 Disponibilité d&#39;une nouvelle section décrivant comment supprimer une configuration d&#39;événement. [En savoir plus](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
@@ -410,7 +410,7 @@ Mise à jour du guide de prise en main des bonnes pratiques de diffusion. [En sa
 
 Le datamodel a été intégré à la documentation de Campaign Standard. [En savoir plus](../../developing/using/datamodel-audience.md)
 
-Le nouveau point d&#39;entrée d&#39;API **/customResources** a été ajouté à la documentation de l&#39;API. [En savoir plus](../../api/using/interacting-with-custom-resources.md)
+Le nouveau point d’entrée d’API **/customResources** a été ajouté à la documentation de l’API. [En savoir plus](../../api/using/interacting-with-custom-resources.md)
 
 ## Version 19.4 - Octobre 2019        {#release-19-4---october-2019}
 
@@ -562,7 +562,7 @@ Mise à jour du guide sur l&#39;automatisation avec des liens vers les activité
 
 Mise à jour de la section Calcul des indicateurs pour les rapports dynamiques. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
+Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux comprendre la compatibilité entre les dimensions et les mesures. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 Mise à jour de la liste des fonctions pour les workflows. [En savoir plus](../../automating/using/list-of-functions.md)
 
@@ -840,7 +840,7 @@ Mise à jour de la section sur l&#39;activité **[!UICONTROL Services d&#39;abon
 
 Ajout d&#39;un cas pratique détaillé sur la préparation d&#39;une diffusion. [En savoir plus](../../sending/using/preparing-the-send.md)
 
-Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr) (PDF).
+Suppression de la section comprenant la liste des autorisations. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (PDF).
 
 Ajout d&#39;un cas pratique détaillé sur l&#39;utilisation des réponses automatiques des SMS. [En savoir plus](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1012,7 +1012,7 @@ Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=fr)
+Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 

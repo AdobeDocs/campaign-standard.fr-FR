@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1269'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Pour plus d&#39;informations sur la compatibilité entre les dimensions et les mesures, consultez ce [tableau](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Si deux composants ne sont pas compatibles, la cellule affiche la valeur **Aucun**.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=fr)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## Dimensions {#dimensions}
 

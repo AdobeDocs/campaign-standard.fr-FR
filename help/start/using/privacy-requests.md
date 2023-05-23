@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 98%
+source-wordcount: '1669'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Par conséquent, il est de votre responsabilité, en tant que contrôleur de don
 
 Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
 
-Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=fr#privacy) sur la création d&#39;un espace de noms.
+Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) sur la création d&#39;un espace de noms.
 
 >[!NOTE]
 >
@@ -95,9 +95,9 @@ Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](h
 
 >[!IMPORTANT]
 >
->Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target="_blank"} pour effectuer la requête.
+>Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} pour effectuer la requête.
 >
->N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
+>N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 
@@ -125,7 +125,7 @@ Voici la liste des ressources d&#39;usine qui sont prises en compte lors de l&#3
 
 Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type own), celles-ci sont également prises en compte. Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
 
-Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=fr#privacy) sur la modification des ressources personnalisées.
+Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) sur la modification des ressources personnalisées.
 
 Pour que cela fonctionne, vous devez sélectionner l’option **[!UICONTROL La suppression de l&#39;enregistrement cible entraîne la suppression des enregistrements référencés par le lien]** dans la ressource personnalisée :
 
