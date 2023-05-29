@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1329'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour terminer la configuration, procédez comme suit :
    * Dans Adobe Campaign Standard, assurez-vous que l’utilisateur IMS figure dans les profils de produit utilisateur et administrateur standard. Cette étape permet à l’utilisateur de se connecter à Adobe Campaign Standard, d’accéder à la page de l’application mobile SDK Experience Platform et d’afficher les propriétés de l’application mobile créée dans l’interface utilisateur de collecte de données.
 
    * Dans l’interface utilisateur de collecte de données, assurez-vous que votre utilisateur IMS fait partie d’un profil de produit Experience Platform Launch.
-Cette étape permet à l’utilisateur de se connecter à l’interface utilisateur de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface utilisateur de collecte de données, voir [Création de votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie pour l’entreprise ou les propriétés, mais l’utilisateur doit être en mesure de se connecter.
+Cette étape permet à l’utilisateur de se connecter à l’interface utilisateur de collecte de données pour créer et afficher les propriétés. Pour plus d’informations sur les profils de produit dans l’interface utilisateur de collecte de données, voir [Création de votre profil de produit](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=fr#gain-admin-rights-for-a-tags-product-profile). Dans le profil de produit, aucune autorisation ne doit être définie pour l’entreprise ou les propriétés, mais l’utilisateur doit être en mesure de se connecter.
 
    Pour exécuter d’autres tâches, comme installer une extension, publier une application, configurer des environnements, etc., vous devez définir des autorisations dans le profil de produit.
 
@@ -148,7 +148,7 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
 
 1. Dans la section **[!UICONTROL Paramètres spécifiques à l&#39;appareil]** du tableau de bord d&#39;une application mobile, pour chaque type d&#39;appareil, fournissez les détails de l&#39;application, y compris le certificat pour iOS et la clé du serveur pour Android.
 
-   Une fois le certificat transféré, un message vous informe que le transfert a réussi et indique la date d’expiration de votre certificat.
+   Une fois le certificat chargé, un message vous informe que le chargement a réussi et indique la date d’expiration de votre certificat.
 
    >[!NOTE]
    >
