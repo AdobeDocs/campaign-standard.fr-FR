@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 ### Qu’est-ce que le Panneau de contrôle ?
 
 Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur de produit Campaign Standard, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) pour plus d’informations.
+[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr#discover-control-panel) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Le Panneau de contrôle accroît votre efficacité en tant qu’administrateur d
 
 ### Comment accéder au Panneau de contrôle ?
 
-Le Panneau de contrôle est directement accessible à partir d&#39;Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel) pour plus d&#39;informations.
+Le Panneau de contrôle est directement accessible à partir d&#39;Adobe Experience Cloud. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=fr#discover-control-panel) pour plus d&#39;informations.
 
 ### FAQ sur le Panneau de contrôle
 
@@ -107,9 +107,9 @@ Dans le Panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus :
 
-* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr#subdomains-and-certificates)
+* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr#subdomains-and-certificates)
+* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=fr#subdomains-and-certificates)
 
 ## Demande d’aide
 
