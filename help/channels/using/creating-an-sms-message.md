@@ -10,7 +10,7 @@ role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
    ![](assets/sms_creation_4.png)
 
 1. Validez la création du message. Son tableau de bord est alors affiché.
-1. Planifier l’envoi. Le SMS peut être envoyé manuellement juste après la préparation du message ou automatiquement à une date planifiée. Voir [Planifier des messages](../../sending/using/about-scheduling-messages.md).
+1. Planifiez l’envoi. Le SMS peut être envoyé manuellement juste après la préparation du message ou automatiquement à une date planifiée. Voir [Planifier des messages](../../sending/using/about-scheduling-messages.md).
 1. Préparez le message pour analyser sa validité, sa personnalisation et sa cible.
 
    ![](assets/sms_creation_6.png)
