@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -77,15 +77,15 @@ Vous devez spécifier les informations suivantes :
 
 Découvrez la gestion SFTP avec le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) dans les sections suivantes :
 
-* [À propos de la gestion SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [À propos de la gestion SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=fr#sftp-management)
 
-* [Gestion de l’espace de stockage SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
+* [Gestion de l’espace de stockage SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#installing-ssh-key)
 
-* [Ajout de plages d&#39;adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
+* [Ajout de plages d&#39;adresses IP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=fr#sftp-management)
 
-* [Gestion des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
+* [Gestion des clés](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=fr#sftp-management)
 
-* [Connexion à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
+* [Connexion à votre serveur SFTP](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=fr#sftp-management)
 
 Une fois la configuration terminée, connectez-vous au serveur SFTP avec la clé privée et créez le répertoire &quot;d365_loads/export&quot;.
 
