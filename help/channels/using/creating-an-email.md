@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ La création d&#39;un email est possible au sein d&#39;une [campagne](../../star
 
    ![](assets/delivery_dashboard_2.png)
 
-1. Planifier l’envoi. Voir [Planifier des messages](../../sending/using/about-scheduling-messages.md).
+1. Planifiez l’envoi. Voir [Planifier des messages](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/delivery_planning.png)
 
