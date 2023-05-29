@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7562'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Le CCPA est la nouvelle loi sur la protection de la vie privée de l’État de Californie. Il harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant en Californie.</p>
+   <td> <p>Le CCPA est la nouvelle loi sur la protection de la vie privée de l’État de Californie. Il harmonise et modernise les exigences en matière de protection des données qui entreront en vigueur le 1er janvier 2020. Cette loi s’applique aux clients Adobe Campaign qui détiennent des données pour les titulaires de données résidant en Californie.</p>
    <p>Outre les fonctionnalités de confidentialité déjà disponibles dans Adobe Campaign (notamment la gestion du consentement, les paramètres de conservation des données et les rôles utilisateur), nous incluons d’autres fonctionnalités pour faciliter votre préparation au CCPA :</p>
    <ul>
     <li>Droit d’accès et droit de suppression : nous tirons parti des capacités qui ont été ajoutées pour le RGPD. <a href="https://helpx.adobe.com/content/help/fr/campaign/kb/acs-privacy.html#righttoaccess">En savoir plus</a> </li>
