@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1669'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Pour effectuer ces demandes, vous devez utiliser l&#39;intégration de **Privacy
 
 Adobe Campaign met à la disposition des contrôleurs de données des outils afin de créer et traiter des demandes d&#39;accès à des informations personnelles pour les données stockées dans Adobe Campaign. Il incombe toutefois au contrôleur de données de gérer la relation avec le titulaire de données (e-mail, assistance clientèle ou portail web).
 
-Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l&#39;identité du titulaire de données à l&#39;origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
+Par conséquent, il est de votre responsabilité, en tant que contrôleur de données, de vérifier l’identité du titulaire de données à l’origine de la demande et de confirmer que les données renvoyées au demandeur concernent le titulaire de données.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les données personnelles et sur les différentes entités qui gèrent les données (Contrôleur de données, Responsable du traitement des données et Titulaire de données), consultez la section [Données personnelles et acteurs impliqués](../../start/using/privacy.md#personal-data).
+>Pour plus d’informations sur les données personnelles et sur les différentes entités qui gèrent les données (contrôleur de données, responsable du traitement des données et titulaire de données), consultez la section [Données personnelles et personas](../../start/using/privacy.md#personal-data).
 
 ### Espaces de noms {#namesspaces}
 
-Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L&#39;espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
+Avant de créer des demandes d’accès à des informations personnelles, vous devez définir l’espace de noms que vous utiliserez. L’espace de noms est la clé qui sera utilisée pour identifier le titulaire de données dans la base de données Adobe Campaign. Deux espaces de noms d&#39;usine sont disponibles : e-mail et téléphone mobile. Si vous avez besoin d&#39;un autre espace de noms (un champ personnalisé de profil, par exemple), suivez les étapes ci-dessous.
 
-Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) sur la création d&#39;un espace de noms.
+Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=fr#privacy) sur la création d&#39;un espace de noms.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Reportez-vous également à ce [tutoriel](https://experienceleague.adobe.com/doc
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Sélectionnez la **[!UICONTROL Clé de réconciliation]**. Il s&#39;agit du champ qui sera utilisé pour identifier le titulaire de données dans la base de données Adobe Campaign.
+1. Sélectionnez la **[!UICONTROL Clé de réconciliation]**. Il s’agit du champ qui sera utilisé pour identifier le titulaire de données dans la base de données Adobe Campaign.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
@@ -95,9 +95,9 @@ Reportez-vous à la documentation d&#39;[Experience Platform Privacy Service](h
 
 >[!IMPORTANT]
 >
->Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la méthode [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} pour effectuer la requête.
+>Pour envoyer une requête à l’aide du type d’espace de noms personnalisé, utilisez la [méthode JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=fr#access-delete){target="_blank"} pour effectuer la requête.
 >
->N’utilisez que la variable [Interface utilisateur de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de noms standard.
+>N’utilisez que l’[interface utilisateur Confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=fr#request-builder){target="_blank"} pour envoyer des requêtes à l’aide du type d’espace de nom standard.
 
 Chaque traitement du Privacy Core Service est divisé en plusieurs demandes d&#39;accès à des informations personnelles dans Campaign en fonction du nombre d&#39;espaces de noms utilisés (une demande correspondant à un espace de noms). En outre, un traitement peut être exécuté sur plusieurs instances. C&#39;est pourquoi plusieurs fichiers sont créés pour un seul traitement. Par exemple, si une demande contient deux espaces de noms et est exécutée sur trois instances, six fichiers sont envoyés. Soit un fichier par espace de noms et par instance.
 
@@ -109,7 +109,7 @@ Le modèle d&#39;un nom de fichier est le suivant : `<InstanceName>-<NamespaceI
 
 ### Liste des ressources {#list-of-resources}
 
-Lors de l&#39;exécution d&#39;une demande d&#39;accès à des informations personnelles ou de suppression, Adobe Campaign recherche toutes les données du titulaire de données en fonction de la valeur de **réconciliation** dans toutes les ressources ayant un lien avec la ressource de profils (type own).
+Lors de l’exécution d’une demande d’accès à des informations personnelles ou de suppression, Adobe Campaign recherche toutes les données du titulaire de données en fonction de la valeur de **réconciliation** dans toutes les ressources ayant un lien avec la ressource de profils (type own).
 
 Voici la liste des ressources d&#39;usine qui sont prises en compte lors de l&#39;exécution des demandes d&#39;accès à des données personnelles :
 
@@ -125,7 +125,7 @@ Voici la liste des ressources d&#39;usine qui sont prises en compte lors de l&#3
 
 Si vous avez créé des ressources personnalisées ayant un lien vers la ressource de profils (type own), celles-ci sont également prises en compte. Par exemple, si une ressource de transaction est liée à la ressource de profils et si une ressource de détails de transaction est liée à la ressource de transaction, elles sont toutes deux prises en compte.
 
-Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) sur la modification des ressources personnalisées.
+Reportez-vous également à [ce tutoriel](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=fr#privacy) sur la modification des ressources personnalisées.
 
 Pour que cela fonctionne, vous devez sélectionner l’option **[!UICONTROL La suppression de l&#39;enregistrement cible entraîne la suppression des enregistrements référencés par le lien]** dans la ressource personnalisée :
 
@@ -151,7 +151,7 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
    <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
-* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d&#39;accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu&#39;aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n&#39;a été trouvée dans la base de données.
+* **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d&#39;accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données. 
 
 <!--### Disabling the 2-step process {#disabling-two-step-process}
 
@@ -185,7 +185,7 @@ Lorsque les utilisateurs décident, par l’intermédiaire de votre système, de
 
 >[!IMPORTANT]
 >
->En tant que contrôleur de données, il vous incombe de recevoir la demande du titulaire de données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et personnes concernées](../../start/using/privacy.md#personal-data).
+>En tant que contrôleur des données, il vous incombe de recevoir la demande du titulaire des données et de suivre les dates de la demande pour le CCPA. En tant que fournisseur de technologie, nous offrons uniquement une option d&#39;opt-out. Pour plus d’informations sur votre rôle en tant que contrôleur de données, voir la section [Données personnelles et personnes concernées](../../start/using/privacy.md#personal-data).
 
 ### Condition préalable requise pour les tables personnalisées {#ccpa-prerequisite}
 
