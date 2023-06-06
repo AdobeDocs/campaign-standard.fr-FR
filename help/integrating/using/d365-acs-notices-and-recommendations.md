@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2474'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 En ce qui concerne la synchronisation des contacts et des entités personnalisées, cette intégration traite **Microsoft Dynamics 365 comme la source de vérité**. Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365 et et non dans Adobe Campaign Standard). Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées dans Campaign pendant la synchronisation, car la synchronisation est unidirectionnelle.
 
-L&#39;intégration peut être facultativement configurée pour émettre des appels de suppression de profil vers Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, afin de préserver l&#39;intégrité des données. Cependant, une suppression de profil est différente d&#39;une suppression des informations personnelles. Une suppression des informations personnelles dans Campaign supprimera l&#39;enregistrement du profil Campaign et les entrées de log associées ; alors qu&#39;une suppression du profil normale ne fera que supprimer l&#39;enregistrement du profil Campaign, laissant des traces dans les logs Campaign. Si la fonction de suppression du profil est activée dans l&#39;intégration, il sera nécessaire de suivre d&#39;autres étapes pour traiter correctement les demandes d&#39;accès à des informations personnelles provenant du titulaire de données. Reportez-vous aux étapes de la [Confidentialité section ci-dessous](#manage-privacy-requests).
+L&#39;intégration peut être facultativement configurée pour émettre des appels de suppression de profil vers Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, afin de préserver l&#39;intégrité des données. Cependant, une suppression de profil est différente d&#39;une suppression des informations personnelles. Une suppression des informations personnelles dans Campaign supprimera l&#39;enregistrement du profil Campaign et les entrées de log associées ; alors qu&#39;une suppression du profil normale ne fera que supprimer l&#39;enregistrement du profil Campaign, laissant des traces dans les logs Campaign. Si la fonction de suppression du profil est activée dans l’intégration, il sera nécessaire de suivre d’autres étapes pour traiter correctement les demandes d’accès à des informations personnelles provenant du titulaire de données. Reportez-vous aux étapes de la [Confidentialité section ci-dessous](#manage-privacy-requests).
 
 ## Confidentialité{#acs-msdyn-manage-privacy}
 
@@ -29,7 +29,7 @@ Cette intégration est conçue pour transférer des données d&#39;utilisateur f
 
 Cette intégration a pour but de transférer les données des utilisateurs finaux (notamment les informations personnelles, lesquelles sont dans les données des utilisateurs finaux) entre Microsoft Dynamics 365 et Adobe Campaign Standard. En tant que contrôleur de données, votre société est tenue de se conformer aux lois et règlements en matière de confidentialité applicables à votre collecte et à votre utilisation des données personnelles.
 
-L&#39;intégration ne permet pas de supprimer ou de traiter toute autre demande d&#39;accès à des informations personnelles (à l&#39;exception du processus d’opt-out). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
+L’intégration n’émet pas de demandes de suppression relatives aux informations personnelles des titulaires de données (RGPD, par exemple) et ne traitent pas d’autres demandes d’accès à des informations personnelles (à l’exception du processus d’opt-out). Lorsque vous traitez des demandes d&#39;accès à des informations personnelles, vous devez le faire indépendamment dans Microsoft Dynamics 365 et Campaign (via Adobe Experience Platform Privacy Service).
 
 Si vous avez configuré l&#39;intégration pour émettre des appels de suppression de profil classiques à Campaign lorsqu&#39;un contact est supprimé dans Dynamics 365, suivez les étapes ci-dessous. Vérifiez qu&#39;aucune mise à jour n&#39;est effectuée sur l&#39;enregistrement concerné au cours de ce processus.
 
@@ -43,11 +43,6 @@ Si vous avez configuré l&#39;intégration pour émettre des appels de suppressi
 
 1. Vérifier que l&#39;enregistrement a été supprimé des deux systèmes
 
-Vous trouverez ci-dessous des liens pour vous aider à implémenter et/ou supprimer des demandes liées à la confidentialité dans chaque système :
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/fr-fr/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr)
 
 >[!IMPORTANT]
 >
