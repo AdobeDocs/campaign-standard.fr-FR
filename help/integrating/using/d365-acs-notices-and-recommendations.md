@@ -9,7 +9,7 @@ role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2474'
 ht-degree: 100%
 
@@ -154,15 +154,15 @@ Les mécanismes de sécurisation suivants doivent être pris en compte lors de l
 
 * Vous devez activer la licence du package Campaign approprié pour prendre en charge le volume d&#39;appels au moteur généré par l&#39;intégration. Le dépassement du volume d&#39;appels du moteur sous licence peut entraîner une baisse des performances de Campaign.
 
-   Utilisez les éléments suivants pour estimer le volume d&#39;appels au moteur à partir de l&#39;intégration :
+  Utilisez les éléments suivants pour estimer le volume d&#39;appels au moteur à partir de l&#39;intégration :
 
    * Insertions d&#39;enregistrements (c&#39;est-à-dire, nouvel enregistrement) : 1 appel au moteur
    * Suppressions d&#39;enregistrements : 1 appel au moteur
    * Mises à jour d&#39;enregistrement : 2 appels au moteur (un seul appel si l&#39;enregistrement de destination est identique à l&#39;enregistrement source, c&#39;est-à-dire si aucun changement n&#39;est apporté à l&#39;enregistrement Campaign)
 
-   Lors de l&#39;estimation du volume global des appels au moteur Campaign, il est important de prendre en compte d&#39;autres sources d&#39;appels au moteur, notamment les landing pages, les WebApps, les JSSP, les API, les inscriptions aux applications mobiles, etc.
+  Lors de l&#39;estimation du volume global des appels au moteur Campaign, il est important de prendre en compte d&#39;autres sources d&#39;appels au moteur, notamment les landing pages, les WebApps, les JSSP, les API, les inscriptions aux applications mobiles, etc.
 
-   [Consultez des informations sur le package Adobe Campaign Standard ici : https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html)
+  [Consultez des informations sur le package Adobe Campaign Standard ici : https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/fr/legal/product-descriptions/campaign-standard.html)
 
 * L&#39;intégration prend en charge un maximum de 15 millions d&#39;enregistrements au total pour la synchronisation initiale avec les ressources dans Campaign. La synchronisation incrémentielle est limitée par le package Adobe Campaign Standard.
 
