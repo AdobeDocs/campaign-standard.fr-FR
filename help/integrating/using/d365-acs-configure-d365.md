@@ -9,9 +9,9 @@ role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Plusieurs applications devront être configurées pour activer l&#39;intégratio
 
 ## Conditions préalables
 
-Avant d’effectuer la configuration préalable à l’intégration dans ce document, on suppose que vous avez déjà configuré et que vous disposez d’un accès administrateur à l’instance Microsoft Dynamics 365 de votre organisation.  Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
+Avant d’exécuter les étapes de configuration préalable à l’intégration décrites dans ce document, vous devez avoir déjà configuré l’instance Microsoft Dynamics 365 de votre entreprise et disposer d’un accès administrateur. Si ce n’est pas le cas, vous devrez contacter le service clientèle de Microsoft pour terminer la mise en service de Dynamics 365.
 
 Si vous configurez l’intégration pour les environnements d’évaluation et de production, vous devez exécuter les étapes ci-dessous pour vos instances d’évaluation et de production Dynamics 365. Quelques instructions ci-dessous varient légèrement selon que vous configurez une instance d’évaluation ou de production Dynamics 365 (par exemple, pour l’instance de production, sélectionnez « prod » pour `<stage or prod>`).
 
@@ -119,8 +119,8 @@ Suivez les instructions [de cette page](https://docs.microsoft.com/fr-fr/onedriv
 
 Pour intégrer l’application Dynamics 365 à votre environnement Campaign Standard, procédez comme suit :
 
-1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps)et recherchez_Adobe Campaign Standard_ dans la barre de recherche.
-Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
+1. Accédez à [Microsoft Business Apps](https://appsource.microsoft.com/fr-fr/marketplace/apps) et recherchez Adobe Campaign Standard dans la barre de recherche.
+Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-fr/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Suivez les instructions pour installer l’application pour votre instance Dynamics 365.
 1. Une fois installée, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.
 1. Cliquez sur l’icône en forme d’engrenage dans le coin supérieur droit, puis sur **[!UICONTROL Paramètres avancés]**. Dans la bannière supérieure, cliquez sur la liste déroulante en regard de **[!UICONTROL Paramètres]**, puis sur **[!UICONTROL Traitements]** sous **[!UICONTROL Centre de traitement]**.
