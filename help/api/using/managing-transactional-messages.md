@@ -40,11 +40,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>** : les points d’entrée (endPoints) de l’API des messages transactionnels.
 
-   Le nom du point d’entrée de l’API des messages transactionnels dépend de la configuration de votre instance. Il correspond à la valeur &quot;mc&quot; suivie de votre identifiant d’organisation personnel. Prenons l’exemple de la société Geometrixx, dont l’identifiant d’organisation est &quot;geometrixx&quot;. Dans ce cas, la requête POST serait la suivante :
+  Le nom du point d’entrée de l’API des messages transactionnels dépend de la configuration de votre instance. Il correspond à la valeur &quot;mc&quot; suivie de votre identifiant d’organisation personnel. Prenons l’exemple de la société Geometrixx, dont l’identifiant d’organisation est &quot;geometrixx&quot;. Dans ce cas, la requête POST serait la suivante :
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API.
+  Notez que le point d’entrée de l’API des messages transactionnels est également visible pendant l’aperçu de l’API.
 
 * **&lt;eventID>** : type d’événement à envoyer. Cet identifiant est généré lors de la création de la configuration de l’événement (voir [cette section](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

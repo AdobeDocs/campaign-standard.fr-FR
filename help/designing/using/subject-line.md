@@ -41,9 +41,9 @@ Pour définir le nom de l’expéditeur qui apparaîtra dans l’en-tête des me
 
 * Le champ **[!UICONTROL De : nom]** permet de saisir le nom de l’expéditeur. Par défaut, le bloc **Nom de l’expéditeur** par défaut est automatiquement inscrit dans le champ. L’adresse email de l’expéditeur et le nom de l’expéditeur par défaut sont définis dans **[!UICONTROL Marques]** et accessibles via le logo Adobe Campaign sous le menu avancé **[!UICONTROL Administration > Paramètres de l’instance > Paramétrage des marques]**.
 
-   Vous pouvez changer le nom de l’expéditeur en cliquant sur le bloc **Nom de l’expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
+  Vous pouvez changer le nom de l’expéditeur en cliquant sur le bloc **Nom de l’expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
-   Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique en cliquant sur les icônes situées sous le nom de l’expéditeur. Pour plus d’informations à ce sujet, voir [Personnalisation](../../designing/using/personalization.md).
+  Le champ peut être personnalisé. Pour cela, vous pouvez ajouter des champs de personnalisation, des blocs de contenu et du contenu dynamique en cliquant sur les icônes situées sous le nom de l’expéditeur. Pour plus d’informations à ce sujet, voir [Personnalisation](../../designing/using/personalization.md).
 
 * Le champ **[!UICONTROL De : adresse email]** n’est pas éditable depuis cette section. Vous pouvez le modifier en éditant les propriétés de l’email depuis son tableau de bord. Pour plus d’informations, voir [Liste des paramètres avancés des emails](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

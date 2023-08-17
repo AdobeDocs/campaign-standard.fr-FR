@@ -35,9 +35,9 @@ Le tableau **Raisons de bounce** contient les données disponibles pour les type
 * **[!UICONTROL Boîte pleine]** : type d’erreur générée lorsque la boîte de réception du destinataire est pleine. Il y a cinq tentatives d’envoi du message avant que cette erreur soit générée.
 * **[!UICONTROL Non connecté]** : type d’erreur générée lorsque le téléphone portable du destinataire est éteint ou n’est pas connecté au réseau au moment de l’envoi du message.
 
-   >[!NOTE]
-   >
-   >Ce type d’envoi ne concerne que les diffusions sur les canaux mobiles.
+  >[!NOTE]
+  >
+  >Ce type d’envoi ne concerne que les diffusions sur les canaux mobiles.
 
 * **[!UICONTROL Refusé]** : type d’erreur générée lorsqu’une adresse est refusée par le fournisseur d’accès Internet (FAI). Par exemple, lorsqu’une règle de sécurité a été appliquée par un logiciel anti-spam.
 

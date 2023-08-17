@@ -73,7 +73,6 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. Revenez à la vue mobile pour vérifier que votre contenu s&#39;affiche correctement et enregistrez vos modifications.
 
 ## Cas pratique

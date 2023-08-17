@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Prise en main des rapports dynamiques {#about-dynamic-reports}
 
-Les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d&#39;accéder aux données de profil, ce qui permet l&#39;analyse démographique par dimensions de profil, telles que le genre, la ville et l&#39;âge, en plus des données de campagne email fonctionnelles comme les ouvertures et les clics. Grâce à l&#39;interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes email par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
+Les rapports dynamiques fournissent des rapports entièrement personnalisables en temps réel. Ils offrent la possibilité d’accéder aux données de profil, ce qui permet l’analyse démographique par dimensions de profil, telles que le genre, la ville et l’âge, en plus des données de campagne par e-mail fonctionnelles comme les ouvertures et les clics. Grâce à l’interface glisser-déposer, vous pouvez explorer les données, déterminer les performances de vos campagnes par e-mail par rapport à vos segments de clients les plus importants et mesurer leur impact sur les destinataires.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Les rapports sont accessibles :
 
 * depuis la page d&#39;accueil, en sélectionnant l&#39;onglet **[!UICONTROL Rapports]** dans la barre supérieure ou la vignette **[!UICONTROL Rapports]** pour accéder aux rapports relatifs à toutes les diffusions ;
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * dans chaque programme, campagne et message, depuis le bouton **Rapports**, en cliquant sur **Rapports dynamiques** pour consulter uniquement les rapports spécifiques à la diffusion.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 Certains rapports peuvent ne pas être immédiatement disponibles après une diffusion, selon le délai de collecte et de traitement des informations.
 
@@ -50,7 +50,7 @@ Les rapports dynamiques sont divisés en deux catégories :
 
 ## Accord sur l&#39;utilisation des rapports dynamiques {#dynamic-reporting-usage-agreement}
 
-L&#39;accord sur l&#39;utilisation des rapports dynamiques fonctionne comme un consentement contextuel pour le traitement des données. Par défaut, seuls les utilisateurs auxquels sont affectés des droits d&#39;administration peuvent afficher et accepter ou refuser cet accord.
+L’accord sur l’utilisation des rapports dynamiques fonctionne comme un consentement pop-up pour le traitement des données. Par défaut, seuls les utilisateurs auxquels sont affectés des droits d&#39;administration peuvent afficher et accepter ou refuser cet accord.
 
 Trois options sont disponibles :
 

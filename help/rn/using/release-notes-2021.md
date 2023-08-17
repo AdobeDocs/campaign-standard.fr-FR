@@ -361,9 +361,9 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 
 * Correction de problèmes en raison desquels l&#39;analyse de diffusion échouait lors de l&#39;envoi de notifications push transactionnelles ciblant les profils, en introduisant un nouveau [mapping de ciblage](../../administration/using/target-mappings-in-campaign.md) : **Profil - Événement en temps réel pour les notifications Push** (*mapRtEventAppSubRcp*). Les logs de diffusion, d&#39;exclusion et de tracking pour les [notifications push transactionnelles basées sur les profils](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) seront désormais stockés dans les tables *broadLogAppSubRcp*, *excludeLogAppSubRcp* et *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >En raison de cette modification, si vous utilisez une notification transactionnelle push basée sur les profils existante (créée avant la mise à niveau vers Adobe Campaign 21.1), il est recommandé de mettre à jour le mapping de ciblage vers le nouveau et de publier à nouveau le message. Voir les étapes détaillées [ici](../../channels/using/transactional-push-notifications.md#change-target-mapping). L&#39;utilisation du mapping de ciblage précédent **Profil - Evénement temps réel** (*mapRtEventRcp*) peut entraîner des temps de préparation de diffusion plus longs et une dégradation des performances.
+  >[!IMPORTANT]
+  >
+  >En raison de cette modification, si vous utilisez une notification transactionnelle push basée sur les profils existante (créée avant la mise à niveau vers Adobe Campaign 21.1), il est recommandé de mettre à jour le mapping de ciblage vers le nouveau et de publier à nouveau le message. Voir les étapes détaillées [ici](../../channels/using/transactional-push-notifications.md#change-target-mapping). L&#39;utilisation du mapping de ciblage précédent **Profil - Evénement temps réel** (*mapRtEventRcp*) peut entraîner des temps de préparation de diffusion plus longs et une dégradation des performances.
 
 * Correction d&#39;un problème qui empêchait l&#39;exécution des rapports de diffusion lorsque 5 000 lignes étaient affichées.
 * Correction d&#39;un problème lié aux tests A/B qui empêchait la mise à jour du contenu de la variante B après modification du modèle de diffusion. (CAMP-45235)
@@ -373,7 +373,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction d&#39;un problème dans les workflows qui empêchait l&#39;affichage des messages d&#39;échec dans les logs de diffusion après l&#39;ajout de la colonne **Raison** dans l&#39;onglet Données additionnelles. (CAMP-45139)
 * Correction d’un problème qui pouvait se produire lorsque deux appels d’abonnement d’application avaient le même identifiant Marketing Cloud (message d’erreur « la duplication de la valeur de la clé viole une erreur de contrainte unique »).
 * Correction d&#39;un problème susceptible d&#39;entraîner des problèmes de lenteur lors du glisser-déposer d&#39;activités dans un workflow contenant une grande quantité d&#39;activités **Requête** et **Lecture d&#39;audience**. (CAMP-44511)
-* Correction d&#39;une erreur qui pouvait se produire à la fin de la préparation d&#39;un message transactionnel, empêchant le transfert des informations de redirection vers les serveurs de tracking.
+* Correction d’une erreur qui pouvait se produire à la fin de la préparation d’un message transactionnel, empêchant le chargement des informations de redirection vers les serveurs de tracking.
 * Correction d&#39;un problème qui pouvait afficher des messages d&#39;erreur lors de l&#39;ouverture de modèles d&#39;import ou d&#39;anciens traitements d&#39;import après personnalisation de la ressource de workflow. (CAMP-46183)
 * Correction d&#39;un problème qui empêchait l&#39;exécution d&#39;une activité **Lecture d&#39;audience** si elle était configurée avec un nom d&#39;audience dynamique. (CAMP-46047)
 * Correction d&#39;un problème qui empêchait l&#39;affichage du bouton **Exporter la liste**.

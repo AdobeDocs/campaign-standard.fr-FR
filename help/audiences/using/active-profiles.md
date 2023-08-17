@@ -41,3 +41,4 @@ Au bas de la page, les dimensions de ciblage sont répertoriées avec le nombre 
 >[!NOTE]
 >
 >En tant qu&#39;utilisateur administrateur, vous pouvez également surveiller le nombre de profils actifs utilisés sur vos instances directement depuis le Panneau de contrôle. Pour plus d’informations, consultez la [documentation du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr).
+>

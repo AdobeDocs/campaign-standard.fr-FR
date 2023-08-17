@@ -30,7 +30,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
 * Charge du serveur : lorsque Campaign gère simultanément trop de tâches différentes en même temps, cela peut ralentir les performances. Le serveur doit coordonner toutes les données entrantes et sortantes pour l’ensemble des diffusions afin de s’assurer que les données sont correctes et disponibles à temps.
 
-   **CONSEIL** : pour éviter cette situation, coordonnez la planification des diffusions avec les autres membres de votre équipe afin d’assurer les meilleures performances.
+  **CONSEIL** : pour éviter cette situation, coordonnez la planification des diffusions avec les autres membres de votre équipe afin d’assurer les meilleures performances.
 
 * [Exécution du workflow](../../automating/using/about-workflow-execution.md) : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans cette page](../../automating/using/monitoring-workflow-execution.md). Pour en savoir plus, consultez la section [bonnes pratiques relatives aux workflows](../../automating/using/best-practices-workflows.md).
 

@@ -95,8 +95,7 @@ Adobe Campaign vous permet de vérifier les performances de vos diffusions à l
 Voir à ce propos les sections suivantes :
 
 * [Surveillance de la délivrabilité](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [Recevoir des alertes en cas d&#39;échec](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md)
 

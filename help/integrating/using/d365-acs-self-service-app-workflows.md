@@ -46,6 +46,7 @@ Cette application d’intégration commence par lire les données, puis les écr
 
 >[!NOTE]
 >Si vos enregistrements Microsoft Dynamics 365 et/ou Campaign ne sont pas mis à jour, vous devez d&#39;abord vérifier si un grand nombre d&#39;enregistrements est en attente d&#39;écriture sur la destination.
+>
 
 ## Statut du workflow {#workflow-status}
 
@@ -64,7 +65,7 @@ Les actions possibles sont répertoriées ci-dessous.
 
 * **Démarrer** : un bouton Démarrer demande qu’un workflow arrêté soit démarré. Ce bouton s’affiche uniquement lorsque les processus associés au workflow sont actuellement arrêtés. Les processus passent d’abord par les états « DÉMARRAGE EN COURS » puis « EXÉCUTION EN COURS ». Les données associées au workflow ne commenceront pas à se synchroniser tant que le workflow ne sera pas en cours d’exécution.
 
-   Le bouton Démarrer est un bouton bascule. Si les processus de workflow ont déjà été démarrés, le bouton se transforme en bouton **Arrêter**.
+  Le bouton Démarrer est un bouton bascule. Si les processus de workflow ont déjà été démarrés, le bouton se transforme en bouton **Arrêter**.
 
 * **Arrêter** : un bouton **Arrêter** demande l’arrêt d’un workflow en cours d’exécution. Ce bouton s’affiche uniquement lorsque les processus associés au workflow sont en cours d’exécution.
 

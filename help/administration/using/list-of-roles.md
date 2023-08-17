@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -25,9 +25,9 @@ Les droits par défaut sont les suivants :
 
 * **[!UICONTROL Administration]** : droit d&#39;administration générique.
 
-   >[!NOTE]
-   >
-   >Si vous devez travailler avec Experience Cloud Triggers, vous aurez besoin du droit d’**[!UICONTROL Administration]** pour accéder au menu Experience Cloud Triggers. Pour plus d’informations sur les Triggers Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Si vous devez travailler avec Experience Cloud Triggers, vous aurez besoin du droit d’**[!UICONTROL Administration]** pour accéder au menu Experience Cloud Triggers. Pour plus d’informations sur les Triggers Experience Cloud, consultez cette [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]** : droit pour l’exécution des publications et de créer des ressources personnalisées.
 * **[!UICONTROL Import générique]** : droit pour l’exécution d’un import générique sur les données. Pour que cela fonctionne, vous devez associer le rôle **[!UICONTROL Import générique]** au rôle **[!UICONTROL Workflow]**.

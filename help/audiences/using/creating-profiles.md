@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 100%
 
@@ -51,8 +51,8 @@ Par exemple, pour créer un profil directement dans l&#39;interface utilisateur,
    * Le **[!UICONTROL Fuseau horaire]** du profil est utilisé pour envoyer des diffusions en fonction du fuseau horaire du profil. Voir à ce propos cette [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
    * La catégorie **[!UICONTROL Canaux]**, qui contient les adresses email, les numéros de téléphone portable et les informations d&#39;opt-out, indique sur quel canal le profil est accessible.
 
-      >[!NOTE]
-      > Les numéros de téléphone mobile doivent toujours être au format international (`+<country><number>`) dans la table de profils.
+     >[!NOTE]
+     > Les numéros de téléphone mobile doivent toujours être au format international (`+<country><number>`) dans la table de profils.
 
    * La catégorie **[!UICONTROL Ne plus contacter]** est mise à jour dès qu&#39;un profil se désabonne d&#39;un canal.
    * La catégorie **[!UICONTROL Adresse]** contient l&#39;adresse postale qui doit être complétée ainsi que l&#39;option **[!UICONTROL Adresse renseignée]** à activer pour envoyer des [courriers](../../channels/using/about-direct-mail.md) à ce profil. Si la case **[!UICONTROL Adresse renseignée]** n&#39;est pas cochée, le profil se retrouve exclu de toutes les diffusions courriers.

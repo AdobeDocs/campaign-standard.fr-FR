@@ -51,16 +51,16 @@ Si elle est spécifiée dans un fichier par le biais de colonnes dédiées, cett
    * **[!UICONTROL Sélectionner un service spécifique]** : sélectionnez manuellement un service.
    * **[!UICONTROL Sélectionner les services depuis la transition entrante]** : le service est spécifié dans la transition entrante. Vous pouvez, par exemple, importer un fichier qui spécifie le service à gérer pour chaque ligne. Si vous avez sélectionné cette option, vérifiez qu’un lien a été préalablement créé entre les données et la ressource **Service**, comme illustré dans [cet exemple](#example--updating-multiple-subscription-statuses-from-a-file).
 
-      Le service sur lequel effectuer l’opération est alors sélectionné de manière dynamique pour chaque enregistrement.
+     Le service sur lequel effectuer l’opération est alors sélectionné de manière dynamique pour chaque enregistrement.
 
 1. Sélectionnez le **[!UICONTROL Type d’opération]** à exécuter à l’aide de l’une des options suivantes :
 
    * **[!UICONTROL Sélectionner un type d’opération spécifique]** : sélectionnez manuellement un type d’opération si vous souhaitez **[!UICONTROL Abonner]** ou **[!UICONTROL Désabonner]** des profils.
    * **[!UICONTROL Sélectionner un type d’opération depuis un chemin de transition entrante]** : sélectionnez la colonne des données entrantes spécifiant l’opération à effectuer pour chaque enregistrement.
 
-      Dans cette colonne, l’opération doit être spécifiée sous la forme d’une valeur booléenne ou d’un entier. Utilisez la valeur **0** pour désabonner un enregistrement et la valeur **1** pour en abonner un.
+     Dans cette colonne, l’opération doit être spécifiée sous la forme d’une valeur booléenne ou d’un entier. Utilisez la valeur **0** pour désabonner un enregistrement et la valeur **1** pour en abonner un.
 
-      Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez toujours utiliser l’option [Recodification des valeurs](../../automating/using/load-file.md#column-format) disponible dans l’activité **[!UICONTROL Chargement de fichier]**..
+     Si les valeurs contenues dans un fichier importé ne répondent pas aux exigences ci-dessus, vous pouvez toujours utiliser l’option [Recodification des valeurs](../../automating/using/load-file.md#column-format) disponible dans l’activité **[!UICONTROL Chargement de fichier]**..
 
 1. Si les données en entrée contiennent une colonne avec la date d’abonnement au service correspondant au profil, sélectionnez-la. Vous pouvez la laisser vide, mais aucune date d’abonnement n’est définie lors de l’exécution du workflow.
 1. Définissez l’origine de l’abonnement. Vous pouvez la définir sur une origine des champs des données en entrée ou sur une valeur constante de votre choix en cochant l’option **[!UICONTROL Définir une constante comme origine]**. Vous pouvez la laisser vide, mais aucune origine n’est définie lors de l’exécution du workflow.
@@ -79,34 +79,34 @@ Le workflow de se présente comme suit :
 
 * Une activité de **[!UICONTROL Chargement de fichier]** permettant de charger le fichier de profils et de définir la structure des colonnes importées.
 
-   Pour cet exemple, le fichier chargé est au format .csv et contient les données suivantes :
+  Pour cet exemple, le fichier chargé est au format .csv et contient les données suivantes :
 
-   ```
-   lastname;firstname;email;birthdate;subdate
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
-   phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
-   weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
-   reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
-   ```
+  ```
+  lastname;firstname;email;birthdate;subdate
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
+  phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
+  weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
+  reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
+  ```
 
-   ![](assets/subscription_activity_example2.png)
+  ![](assets/subscription_activity_example2.png)
 
 * Une **[!UICONTROL Réconciliation]** permet d’identifier les données provenant du fichier comme appartenant à la dimension des profils de la base de données Adobe Campaign. Seul l’onglet **[!UICONTROL Identification]** est configuré. Il permet d’identifier les données du fichier en fonction de l’adresse email des profils.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
 * Une **[!UICONTROL Déduplication]** basée sur le champ **email** de la ressource temporaire (issue de la réconciliation) permettant d’identifier d’éventuels doublons. Si les données importées depuis le fichier contiennent des doublons, l’abonnement à un service échouera pour l’ensemble des données.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * Une activité de **[!UICONTROL Services d’abonnements]** permet de sélectionner le service auquel les profils doivent s’abonner, le champ correspondant à la date d’abonnement et l’origine de l’abonnement.
 
-   ![](assets/subscription_activity_example4.png)
+  ![](assets/subscription_activity_example4.png)
 
 ## Exemple : mettre à jour plusieurs statuts d’abonnement depuis un fichier {#example--updating-multiple-subscription-statuses-from-a-file}
 
@@ -118,43 +118,43 @@ Le workflow de se présente comme suit :
 
 * Une activité de **[!UICONTROL Chargement de fichier]** permettant de charger le fichier de profils et de définir la structure des colonnes importées.
 
-   Pour cet exemple, le fichier chargé est au format .csv et contient les données suivantes :
+  Pour cet exemple, le fichier chargé est au format .csv et contient les données suivantes :
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que &quot;sub&quot; ou &quot;unsub&quot; dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence, une recodification des valeurs est effectuée dans le détail de la colonne &quot;operation&quot;.
+  Comme vous l’avez peut-être remarqué, l’opération est spécifiée en tant que &quot;sub&quot; ou &quot;unsub&quot; dans le fichier. Le système attend une valeur de type **Booléen** ou **Entier** pour déterminer l’opération à réaliser : la valeur &quot;0&quot; pour désabonner et la valeur &quot;1&quot; pour abonner. Pour répondre à cette exigence, une recodification des valeurs est effectuée dans le détail de la colonne &quot;operation&quot;.
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   Si le fichier utilise déjà les valeurs &quot;0&quot; et &quot;1&quot; pour identifier l’opération, il n’est pas nécessaire de recodifier ces valeurs. Veillez simplement à ce que la colonne soit traitée comme un **Booléen** ou un **Entier** dans l’onglet **[!UICONTROL Définition des colonnes]**.
+  Si le fichier utilise déjà les valeurs &quot;0&quot; et &quot;1&quot; pour identifier l’opération, il n’est pas nécessaire de recodifier ces valeurs. Veillez simplement à ce que la colonne soit traitée comme un **Booléen** ou un **Entier** dans l’onglet **[!UICONTROL Définition des colonnes]**.
 
 * Une **[!UICONTROL Réconciliation]** permet d’identifier les données provenant du fichier comme appartenant à la dimension des profils de la base de données Adobe Campaign. Par le biais de l’onglet **[!UICONTROL Identification]**, le champ **email** du fichier est associé au champ **email** de la ressource de profil.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   Dans l’onglet **[!UICONTROL Liens]**, un lien est créé avec la ressource de service pour que le champ **service** du fichier soit reconnu. Dans cet exemple, les valeurs correspondent au champ **nom** de la ressource de service.
+  Dans l’onglet **[!UICONTROL Liens]**, un lien est créé avec la ressource de service pour que le champ **service** du fichier soit reconnu. Dans cet exemple, les valeurs correspondent au champ **nom** de la ressource de service.
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
 * Une **[!UICONTROL Déduplication]** basée sur le champ **email** de la ressource temporaire (issue de la réconciliation) permet d’identifier les doublons. Il est important de supprimer les doublons, car s’il en existe, l’abonnement à un service échouera pour l’ensemble des données.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * Une activité **[!UICONTROL Services d’inscription]** identifie les services à mettre à jour comme provenant de la transition, au travers du lien créé dans l’activité **[!UICONTROL Réconciliation]**.
 
-   Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
+  Le **[!UICONTROL Type d’opération]** est identifié comme provenant du champ **operation** du fichier. Seul un champ Booléen ou Entier peut être sélectionné ici. Si la colonne du fichier contenant l’opération à effectuer n’apparaît pas dans la liste, vérifiez que vous avez correctement défini le format de la colonne dans l’activité **[!UICONTROL Chargement de fichier]**, comme expliqué plus haut dans cet exemple.
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

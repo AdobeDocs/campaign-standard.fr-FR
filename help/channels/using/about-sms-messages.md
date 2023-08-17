@@ -44,7 +44,7 @@ Pour diffuser des SMS vers un téléphone mobile, il vous faut :
 
 ## Modèle de diffusion SMS {#sms-delivery-template}
 
-Adobe Campaign met à votre disposition un modèle de diffusion vers les mobiles. Ce modèle doit être correctement associé au compte externe utilisé pour le canal **[!UICONTROL Mobile (SMS)]**. Pour y accéder et le modifier :
+Adobe Campaign met à votre disposition un modèle de diffusion vers les appareils mobiles. Ce modèle doit être correctement associé au compte externe utilisé pour le canal **[!UICONTROL Mobile (SMS)]**. Pour y accéder et le modifier :
 
 1. Sélectionnez **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]** depuis le menu avancé.
 1. Survolez le modèle **[!UICONTROL Envoyer par SMS]** avec la souris et sélectionnez l&#39;option **Dupliquer l&#39;élément**.

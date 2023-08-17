@@ -21,12 +21,12 @@ Dans Adobe Campaign, trois types de messages In-App sont disponibles :
 
 * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Campaign (inAppProfile)]** : ce type de message permet de cibler les profils Adobe Campaign (profils CRM) abonnés à votre application mobile. Ce type de message peut être personnalisé avec tous les attributs de profil disponibles dans Adobe Campaign. Il nécessite toutefois l&#39;établissement d&#39;une liaison sécurisée entre le SDK Mobile et le service de messagerie In-App de Campaign pour s&#39;assurer que les messages contenant des informations personnelles et sensibles ne sont utilisés que par des utilisateurs autorisés.
 
-   Pour télécharger ce type de message sur les appareils des utilisateurs, le SDK Mobile doit envoyer les champs de liaison utilisés pour associer un profil mobile à un profil CRM dans Adobe Campaign. Pour plus d&#39;informations sur les API de SDK nécessaires pour la prise en charge des messages In-App, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
+  Pour télécharger ce type de message sur les appareils des utilisateurs, le SDK Mobile doit envoyer les champs de liaison utilisés pour associer un profil mobile à un profil CRM dans Adobe Campaign. Pour plus d&#39;informations sur les API de SDK nécessaires pour la prise en charge des messages In-App, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 * **[!UICONTROL Cibler tous les utilisateurs d&#39;une application mobile (inAppBroadcast)]** : ce type de message vous permet d&#39;envoyer des messages à tous les utilisateurs (actuels ou futurs) de votre application mobile, même s&#39;ils ne disposent pas d&#39;un profil existant dans Adobe Campaign. La personnalisation n&#39;est donc pas possible lors de la personnalisation des messages, car le profil de l&#39;utilisateur peut ne pas exister dans Adobe Campaign.
 * **[!UICONTROL Cibler les utilisateurs en fonction de leur profil Mobile (inApp)]** : ce type de message permet de cibler tous les utilisateurs connus ou anonymes d&#39;une application mobile ayant un profil mobile dans Adobe Campaign. Ce type de message peut être personnalisé à l&#39;aide d&#39;attributs qui ne sont pas personnels ni sensibles. Il n&#39;est pas nécessaire d&#39;établir une liaison sécurisée entre le SDK Mobile et le service de messagerie In-App d&#39;Adobe Campaign.
 
-   Pour plus d&#39;informations sur la gestion des données personnelles et sensibles, reportez-vous à la section [Gestion des champs de profil mobile avec des données personnelles et sensibles](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+  Pour plus d&#39;informations sur la gestion des données personnelles et sensibles, reportez-vous à la section [Gestion des champs de profil mobile avec des données personnelles et sensibles](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
 
 ![](assets/diagram_inapp.png)
 
@@ -76,19 +76,20 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
    * **[!UICONTROL Evénements d&#39;application mobile]** : événements personnalisés implémentés dans votre application mobile.
 
-      Pour plus d&#39;informations sur la création d&#39;événements, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
+     Pour plus d&#39;informations sur la création d&#39;événements, consultez cette [page](../../administration/using/configuring-a-mobile-application.md).
 
    * **[!UICONTROL Evénements de cycle de vie]** : événements de cycle de vie d&#39;usine pris en charge par le SDK Adobe Mobile.
 
-      Pour plus d&#39;informations sur les événements de cycle de vie, consultez cette [page](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=fr).
+     Pour plus d&#39;informations sur les événements de cycle de vie, consultez cette [page](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=fr).
 
    * **[!UICONTROL Evénements Analytics]** : les trois catégories suivantes sont prises en charge en fonction de ce qui est instrumenté dans votre application mobile : Adobe Analytics, Données de contexte ou Etat d&#39;affichage.
 
-      Ces événements ne sont disponibles que si vous possédez une licence Adobe Analytics.
+     Ces événements ne sont disponibles que si vous possédez une licence Adobe Analytics.
 
    * **[!UICONTROL Places]** : les trois catégories suivantes tirent parti de données de localisation en temps réel de façon à diffuser des expériences mobiles pertinentes : données contextuelles de Places, métadonnées personnalisées de Places ou type d&#39;événement Places.
 
-      Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr).
+     Pour plus d&#39;informations sur Adobe Places, consultez la [documentation relative à Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=fr).
+
    ![](assets/inapp_creating_4.png)
 
 1. Si vous utilisez un **[!UICONTROL événement Analytics]**, les événements Adobe Analytics et Etat d&#39;affichage seront automatiquement renseignés en fonction des suites de rapports configurées dans l&#39;extension Analytics dans l’interface utilisateur de collecte de données. Les événements Données de contexte, quant à eux, devront être ajoutés manuellement.

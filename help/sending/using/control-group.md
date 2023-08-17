@@ -48,23 +48,23 @@ Dans la section **[!UICONTROL Extraction de la cible]**, sélectionnez l’une d
 
 * **[!UICONTROL Tirage aléatoire]** : lors de la préparation de la diffusion, Adobe Campaign extraira de manière aléatoire un certain nombre de profils correspondant au pourcentage ou au nombre maximal que vous définissez comme [limite de taille](#size-limit).
 
-   Par exemple, si vous définissez ensuite le seuil sur 10 dans la section **[!UICONTROL Limites]**, la population témoin sera composée des 10 % sélectionnés de manière aléatoire parmi la population ciblée.<!--Change screenshot to match example)-->
+  Par exemple, si vous définissez ensuite le seuil sur 10 dans la section **[!UICONTROL Limites]**, la population témoin sera composée des 10 % sélectionnés de manière aléatoire parmi la population ciblée.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Conserver les premiers suite à un tri]** : cette option vous permet de définir une limite en fonction d’un ou de plusieurs ordres de tri.
 
-   Par exemple :
+  Par exemple :
 
    * Sélectionnez le champ **[!UICONTROL Age]** comme critère de tri.
    * Définissez 100 comme seuil dans la section **[!UICONTROL Limites]** (voir [Limite de taille](#size-limit)).
    * Laissez l’option **[!UICONTROL Tri descendant]** cochée.
 
-   La population témoin sera composée par conséquent des 100 plus vieux destinataires.<!--Change screenshot to match example)-->
+  La population témoin sera composée par conséquent des 100 plus vieux destinataires.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des destinataires contactés.
+  Il peut être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des destinataires contactés.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Que vous ayez sélectionné l’option **[!UICONTROL Tirage aléatoire]** ou **[
 
 * Sélectionnez **[!UICONTROL Taille (en % de la population initiale)]** et remplissez le cadre correspondant.
 
-   Par exemple, si vous définissez 10, selon l’option sélectionnée ci-dessus, Adobe Campaign va :
+  Par exemple, si vous définissez 10, selon l’option sélectionnée ci-dessus, Adobe Campaign va :
    * extraire de manière aléatoire 10 % de la population cible ;
    * extraire les 10 % de profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
 
-   >[!NOTE]
-   >
-   >Si vous désélectionnez l’option **[!UICONTROL Tri descendant]**, les 10 % de profils les plus jeunes seront extraits.
+  >[!NOTE]
+  >
+  >Si vous désélectionnez l’option **[!UICONTROL Tri descendant]**, les 10 % de profils les plus jeunes seront extraits.
 
 * Sélectionnez **[!UICONTROL Taille maximale]** et remplissez le cadre correspondant.
 
-   Par exemple, si vous définissez 100, Adobe Campaign va :
+  Par exemple, si vous définissez 100, Adobe Campaign va :
    * extraire de manière aléatoire 100 profils de la population cible ;
    * extraire les 100 profils les plus âgés de la population cible, si vous avez sélectionné le champ **[!UICONTROL Age]** comme critère de tri.
 
-   >[!NOTE]
-   >
-   >Si vous désélectionnez l’option **[!UICONTROL Tri descendant]**, les 100 de profils les plus jeunes seront extraits.
+  >[!NOTE]
+  >
+  >Si vous désélectionnez l’option **[!UICONTROL Tri descendant]**, les 100 de profils les plus jeunes seront extraits.
 
 ## Exclusion d’une population spécifique {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Pour savoir quels profils ont été supprimés de la cible après l’envoi du m
 
 * Dans l’onglet **[!UICONTROL Logs d’envoi]**, vous pouvez voir les profils extraits et exclus. Ils ont le statut **[!UICONTROL Ignoré]** et **[!UICONTROL Population témoin]** comme motif d’échec.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * Vous pouvez également vérifier l’onglet **[!UICONTROL Causes d’exclusion]** pour voir le nombre de profils qui n’ont pas été inclus dans la diffusion.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### Utilisation des logs de population témoin {#using-logs}
 

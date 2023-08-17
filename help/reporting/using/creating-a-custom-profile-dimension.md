@@ -145,7 +145,7 @@ Une fois votre email correctement envoyé aux destinataires sélectionnés, vous
 
 ## Etape 4 : Création d&#39;un rapport dynamique pour filtrer les destinataires avec la dimension de profil personnalisé      {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
-Après l&#39;envoi de votre diffusion, vous pouvez ventiler des rapports à l&#39;aide de la dimension de votre profil personnalisé à partir de l&#39;onglet **[!UICONTROL Profil]**.
+Après l’envoi de votre diffusion, vous pouvez répartir des rapports à l’aide de la dimension de votre profil personnalisé à partir de l’onglet **[!UICONTROL Profil]**.
 
 1. Depuis l&#39;onglet **[!UICONTROL Rapports]**, sélectionnez un rapport aux paramètres d&#39;usine et cliquez sur le bouton **[!UICONTROL Créer]** pour en lancer un à partir de zéro.
 

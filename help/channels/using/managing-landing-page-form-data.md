@@ -102,15 +102,15 @@ Pour ce faire, procédez comme suit :
 
    * Sélectionnez un bloc et, dans la section **[!UICONTROL Données de formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Vous pouvez ainsi insérer la case à cocher là où cela vous convient dans la page.
+     Vous pouvez ainsi insérer la case à cocher là où cela vous convient dans la page.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Assurez-vous que la case est cochée dans votre contenu. La liste déroulante **[!UICONTROL Type]** correspondante est affichée dans la section **[!UICONTROL Données de formulaire]** de la palette de gauche. Sélectionnez **[!UICONTROL Service et abonnement]** dans la liste.
 
@@ -150,13 +150,13 @@ Pour insérer et configurer cette case à cocher, procédez comme suit :
 
    * Sélectionnez un bloc et, dans la section **[!UICONTROL Données de formulaire]**, sélectionnez **[!UICONTROL Case à cocher]** comme type de champ.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * Si vous maîtrisez le langage HTML, vous pouvez également insérer manuellement une case à cocher à l&#39;aide du bouton **[!UICONTROL Afficher la source]**.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

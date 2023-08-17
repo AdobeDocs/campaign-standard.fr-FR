@@ -120,6 +120,7 @@ L’intégration prend en charge les tables liées et non liées. La liaison est
 >[!IMPORTANT]
 >
 >Si un enregistrement de ressource personnalisée Campaign contient des informations personnelles, des recommandations spécifiques s’appliquent. En savoir plus dans [cette section](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 Lors de la configuration des flux de données d&#39;entités personnalisées, il est important de tenir compte des points suivants :
 
@@ -169,6 +170,7 @@ Si vous disposez également d’un processus distinct pour gérer la synchronisa
 >Dans l’interface utilisateur de l’application d’intégration, les cas pratique d’opt-out **Unidirectionnelle (Microsoft Dynamics 365 vers Campaign)** et **Bidirectionnelle** sont configurés dans un workflow d’opt-out distinct. [En savoir plus](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >Le cas pratique d’opt-out **Unidirectionnelle (Campaign vers Microsoft Dynamics 365)** est une exception ; il est configuré dans le workflow d’entrée (contact vers profil).
+>
 
 Le mapping des flux d’opt-out doit être spécifié par le client, car les besoins métier peuvent varier d’une société à l’autre. Du côté de Campaign, seuls les attributs d’opt-out d’usine peuvent être utilisés pour le mapping d’opt-out :
 

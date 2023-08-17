@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -46,8 +46,8 @@ Cette section présente les principaux types d’utilisateurs Adobe Campaign. P
 Elle est axée sur la répartition des différentes tâches entre trois types d’utilisateurs principaux dans Adobe Campaign :
 
 * [Administrateurs fonctionnels](#functional-administrators) : il s’agit des utilisateurs les plus techniques parmi tous les utilisateurs de votre organisation.
-* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les marketeurs ont besoin pour envoyer et contrôler leurs diffusions.
-* [Utilisateurs de base](#basic-users) : il s’agit des marketeurs qui personnalisent, diffusent et contrôlent leurs campagnes.
+* [Utilisateurs experts](#advanced-users) : ils configurent tous les éléments dont les spécialistes marketing ont besoin pour envoyer et contrôler leurs diffusions.
+* [Utilisateurs de base](#basic-users) : il s’agit des spécialistes marketing qui personnalisent, diffusent et contrôlent leurs campagnes.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Elle est axée sur la répartition des différentes tâches entre trois types d�
 
 ### Administrateurs fonctionnels {#functional-administrators}
 
-Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux parties les plus techniques de l’interface. Ils détiennent le rôle **[!UICONTROL Administration]** et veillent à ce que la plateforme soit configurée de sorte que les marketeurs puissent se concentrer exclusivement sur la diffusion de leurs campagnes.
+Les administrateurs fonctionnels sont les utilisateurs pouvant accéder aux parties les plus techniques de l’interface. Ils détiennent le rôle **[!UICONTROL Administration]** et veillent à ce que la plateforme soit configurée de sorte que les spécialistes marketing puissent se concentrer exclusivement sur la diffusion de leurs campagnes.
 
 >[!IMPORTANT]
 >
@@ -89,7 +89,7 @@ Voici les principales tâches qu’ils peuvent effectuer :
 
 ### Utilisateurs de base             {#basic-users}
 
-Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les marketeurs peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
+Grâce à l’administrateur fonctionnel et aux utilisateurs experts, les spécialistes marketing peuvent personnaliser, diffuser et contrôler leurs campagnes sans se soucier de la configuration technique. Pour cela, ils doivent se faire attribuer, par exemple, les rôles d’usine **[!UICONTROL Préparer des diffusions]**, **[!UICONTROL Workflow]** et **[!UICONTROL Démarrer des diffusions]**. Ces rôles sont combinés dans le groupe de sécurité d’usine **[!UICONTROL Utilisateurs standard]**. Voir à ce propos cette [section](../../administration/using/list-of-roles.md).
 
 Voici les principales tâches qu’ils peuvent effectuer :
 

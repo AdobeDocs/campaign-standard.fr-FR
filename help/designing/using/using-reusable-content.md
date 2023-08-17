@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1881'
 ht-degree: 100%
 
@@ -249,7 +249,7 @@ Lorsque vous éditez un email avec le Concepteur d&#39;email, vous pouvez enregi
 
 * Vous ne pouvez pas enregistrer en tant que fragment une structure contenant des champs de personnalisation, du contenu dynamique ou un autre fragment.
 * Vous pouvez uniquement sélectionner des structures adjacentes.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. Lors de l&#39;édition d&#39;un email dans le Concepteur d&#39;email, sélectionnez **[!UICONTROL Enregistrer en tant que fragment]** dans la barre d&#39;outils principale.
 

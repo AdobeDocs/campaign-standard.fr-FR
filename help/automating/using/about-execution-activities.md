@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Depuis la palette, située à gauche de l&#39;écran, développez la section **[!UICONTROL Exécution]**.
 
-Les activités ci-après sont spécifiques à l&#39;organisation et à l&#39;exécution du workflow. Leur principale tâche est de coordonner les autres activités.
+Les activités ci-après sont spécifiques à l’organisation et à l’exécution du workflow. Leur principale tâche est de coordonner les autres activités.
 
 ![](assets/wkf_execution_activities.png)
 

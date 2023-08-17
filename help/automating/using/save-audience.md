@@ -45,25 +45,27 @@ L&#39;activité **[!UICONTROL Sauvegarde d&#39;audience]** est essentiellement u
 
       * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
       * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
+
    * **[!UICONTROL Créer et mettre à jour une audience]** : saisissez le nom d&#39;une audience et choisissez le type de mise à jour. L&#39;audience est créée si elle n&#39;existe pas. Si elle existe déjà, elle est mise à jour selon le mode choisi :
 
       * **[!UICONTROL Remplacer le contenu de l&#39;audience par les nouvelles données]** : l&#39;intégralité du contenu de l&#39;audience est remplacée. Les anciennes données sont perdues. Seules les données issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience sont conservées.
 
-         Attention, cette option écrase le type et la dimension de ciblage de l&#39;audience mise à jour.
+        Attention, cette option écrase le type et la dimension de ciblage de l&#39;audience mise à jour.
 
       * **[!UICONTROL Compléter l&#39;audience avec les nouvelles données]** : les anciennes données de l&#39;audience sont conservées et sont complétées avec celles issues de la transition entrante de l&#39;activité de sauvegarde d&#39;audience.
 
-         Attention, cette option provoque une erreur si le type ou la dimension de ciblage de l&#39;audience mise à jour ne sont pas compatibles avec le paramétrage actuel du workflow. Par exemple, il est impossible de compléter une audience de type fichier avec des profils issus d&#39;une requête.
+        Attention, cette option provoque une erreur si le type ou la dimension de ciblage de l&#39;audience mise à jour ne sont pas compatibles avec le paramétrage actuel du workflow. Par exemple, il est impossible de compléter une audience de type fichier avec des profils issus d&#39;une requête.
+
    * **[!UICONTROL Créer une nouvelle audience]** : renseignez le nom de l&#39;audience à créer. L&#39;heure et la date de création de l&#39;audience seront automatiquement ajoutées au nom de l&#39;audience. Cela permet à l&#39;audience d&#39;être unique à chaque exécution du workflow.
    * **[!UICONTROL Partager dans Adobe Experience Cloud]** : si vous avez ciblé des profils et que vous souhaitez exporter votre audience vers Adobe Experience Cloud, sélectionnez cette option, puis sélectionnez une audience partagée existante ou créez une audience.
 
-      Sélectionnez également une **[!UICONTROL Source de données partagées]** qui correspond à la ressource des données contenues dans l&#39;audience, afin que les données soient correctement réconciliées dans Adobe Experience Cloud.
+     Sélectionnez également une **[!UICONTROL Source de données partagées]** qui correspond à la ressource des données contenues dans l&#39;audience, afin que les données soient correctement réconciliées dans Adobe Experience Cloud.
 
-      En utilisant cette option, l&#39;audience partagée n&#39;est pas ajoutée à la liste des audiences d&#39;Adobe Campaign, disponible via le menu **[!UICONTROL Audiences]**.
+     En utilisant cette option, l&#39;audience partagée n&#39;est pas ajoutée à la liste des audiences d&#39;Adobe Campaign, disponible via le menu **[!UICONTROL Audiences]**.
 
-      >[!NOTE]
-      >
-      >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+     >[!NOTE]
+     >
+     >Cette option n&#39;est disponible que si la fonctionnalité de partage d&#39;audiences avec Adobe Experience Cloud a été paramétrée par votre administrateur. Pour plus d&#39;informations, voir [Utilisation de Campaign et People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
    Le type des audiences sauvegardées ou des audiences disponibles lors d&#39;une mise à jour dépend des activités placées en amont dans le workflow.
 

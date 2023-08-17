@@ -66,34 +66,34 @@ Les requêtes peuvent être définies dans la fenêtre **[!UICONTROL Audience]**
 
    * pour un **champ** de type chaîne ou numérique, spécifiez l&#39;opérateur de comparaison et la valeur.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * pour un **champ** de type date ou date et heure, vous pouvez choisir de définir une date précise, une intervalle entre deux dates précises ou une date ou période relative à la date d&#39;exécution de la requête.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * pour un **champ** de type booléen, cochez les cases associées aux valeurs possibles pour le champ.
    * pour un **groupement**, sélectionnez le champ du groupement sur lequel vous souhaitez créer la règle, puis définissez la condition de la même manière que pour les autres champs.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * pour un lien de type **1-1** avec une autre ressource de la base, sélectionnez directement une valeur de la table ciblée.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * pour un lien de type **1-N** avec une autre ressource de la base, vous pouvez définir une sous-requête sur les champs de cette seconde ressource.
 
-      Spécifier une sous-condition n&#39;est pas obligatoire.
+     Spécifier une sous-condition n&#39;est pas obligatoire.
 
-      Vous pouvez par exemple seulement sélectionner l&#39;opérateur **[!UICONTROL Existe]** sur le tracking des profils et valider la règle. La règle renverra tous les profils pour lesquels le tracking existe.
+     Vous pouvez par exemple seulement sélectionner l&#39;opérateur **[!UICONTROL Existe]** sur le tracking des profils et valider la règle. La règle renverra tous les profils pour lesquels le tracking existe.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * pour un **filtre prédéfini**, saisissez ou sélectionnez les éléments de votre choix en fonction des critères proposés.
 
-      Pour faciliter l&#39;élaboration de requêtes complexes et répétitives, les administrateurs peuvent créer des filtres. Ceux-ci apparaissent dans l&#39;éditeur de requêtes sous la forme de règles pré-paramétrées et permettent de limiter le nombre d&#39;étapes à réaliser pour l&#39;utilisateur.
+     Pour faciliter l&#39;élaboration de requêtes complexes et répétitives, les administrateurs peuvent créer des filtres. Ceux-ci apparaissent dans l&#39;éditeur de requêtes sous la forme de règles pré-paramétrées et permettent de limiter le nombre d&#39;étapes à réaliser pour l&#39;utilisateur.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. Donnez éventuellement un nom à votre règle. Ce nom est affiché au niveau de la règle dans l&#39;espace de travail. Si aucun nom n&#39;est défini, un texte automatique décrivant les conditions est affiché.
 1. Pour combiner les éléments de l&#39;espace de travail, imbriquez-les afin de créer différents groupes et/ou niveaux de groupes. Vous pouvez alors sélectionner un opérateur logique afin de combiner les éléments de même niveau :

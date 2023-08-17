@@ -78,7 +78,7 @@ Vous pouvez ajouter plusieurs composants de contenu à votre email, tels que des
    1. Cliquez sur **Parcourir**.
    1. Sélectionnez votre fichier image sur votre ordinateur.
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **Texte avec personnalisation**
 
@@ -87,7 +87,7 @@ Vous pouvez ajouter plusieurs composants de contenu à votre email, tels que des
    1. Pour ajouter un champ de personnalisation, cliquez sur **Insérer un champ de personnalisation** dans la barre d&#39;outils.
    1. Sélectionnez le champ dont vous avez besoin, tel que Prénom.
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ Vous pouvez ajouter plusieurs composants de contenu à votre email, tels que des
    1. Saisissez votre contenu HTML.
    1. Cliquez sur **Enregistrer**.
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   Si vous maîtrisez le langage HTML, vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Pour plus d&#39;informations, consultez la section [À propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
+  Si vous maîtrisez le langage HTML, vous pouvez copier-coller le code HTML du pied de page d&#39;origine à l&#39;aide du composant de contenu **[!UICONTROL Html]**. Pour plus d&#39;informations, consultez la section [À propos des composants de contenu](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Application d&#39;un style à votre composant d&#39;email
 

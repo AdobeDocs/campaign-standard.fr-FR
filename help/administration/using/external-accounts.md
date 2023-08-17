@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 100%
 
@@ -142,9 +142,9 @@ Lors de la configuration de ce nouveau compte externe, vous devez indiquer les i
 
 * Serveur : saisissez l’URL du serveur Adobe Experience Manager. Par exemple :
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * Identifiants du compte AEM : utilisez le compte qui accédera à l’instance d’Adobe Experience Manager. Il doit s’agir d’un compte appartenant au groupe distant de campagnes dans Experience Manager.
 
@@ -165,7 +165,7 @@ Pour un compte externe Google reCAPTCHA version 3, fournissez les détails suiv
 * Votre **[!UICONTROL Clé du site]** et **[!UICONTROL Secret du site]**
 * Un **[!UICONTROL Seuil]** compris entre 0 et 1
 
-   Une valeur de **[!UICONTROL Seuil]** de 0.0 signifie qu’il s’agit vraisemblablement d’un bot, tandis qu’une valeur de 1.0 représente une bonne interaction. Par défaut, vous pouvez utiliser un seuil de 0.5.
+  Une valeur de **[!UICONTROL Seuil]** de 0.0 signifie qu’il s’agit vraisemblablement d’un bot, tandis qu’une valeur de 1.0 représente une bonne interaction. Par défaut, vous pouvez utiliser un seuil de 0.5.
 
 ![](assets/external_accounts_3.png)
 

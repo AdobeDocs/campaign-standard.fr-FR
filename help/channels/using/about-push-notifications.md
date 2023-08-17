@@ -34,7 +34,7 @@ Dans Adobe Campaign, deux types de notification push sont disponibles :
 
 * **[!UICONTROL Les notifications de type Alerte/Message/Badge]** vous permettent d’envoyer des messages texte standard avec des contenus supplémentaires (son, badge, lien profond, etc.) définissables dans la section **[!UICONTROL Options avancées]**.
 
-   Ces types de notification permettent d’ajouter un titre et un message dans lequel l’utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
+  Ces types de notification permettent d’ajouter un titre et un message dans lequel l’utilisation des champs de personnalisation est possible. Pour personnaliser votre message, veillez à sélectionner le modèle **[!UICONTROL Diffuser par notification push (vers profils)]**.
 
 * **[!UICONTROL Les notifications de type Notification silencieuse]** sont utilisées pour avertir de façon silencieuse l’application sans message ni contenu pour l’utilisateur final. Un cas pratique classique de ce type de message est d’avertir l’application de la disponibilité de contenu à télécharger depuis le serveur.
 

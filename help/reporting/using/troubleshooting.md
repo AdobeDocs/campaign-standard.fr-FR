@@ -177,9 +177,9 @@ La valeur **N/A** peut parfois apparaître dans vos rapports dynamiques. Elle pe
 
 * La diffusion a été supprimée et s&#39;affiche ici sous la forme **N/A** pour ne pas entraîner d&#39;incohérence dans les résultats.
 * Lorsque vous placez la dimension **[!UICONTROL Diffusion transactionnelle]** dans vos rapports, la valeur **N/A** peut apparaître. Elle s&#39;affiche, car le rapport dynamique récupère chaque diffusion, même si elle n&#39;est pas transactionnelle. Elle peut également s&#39;afficher lorsque vous placez la dimension **[!UICONTROL Diffusion]** dans votre rapport. Dans ce cas, la valeur **N/A** représente les diffusions transactionnelles.
-* Lorsqu&#39;une dimension est utilisée avec une mesure qui n&#39;est pas liée à la dimension. Dans l&#39;exemple ci-dessous, une ventilation est ajoutée avec la dimension **[!UICONTROL URL de tracking]** même si le nombre de **[!UICONTROL clics]** est défini sur 0 dans cette diffusion.
+* Lorsqu&#39;une dimension est utilisée avec une mesure qui n&#39;est pas liée à la dimension. Dans l’exemple ci-dessous, une répartition est ajoutée avec la dimension **[!UICONTROL URL de tracking]** même si le nombre de **[!UICONTROL clics]** est défini sur 0 dans cette diffusion.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## Les rapports des diffusions affichent des données incomplètes lors de l’utilisation du mapping de ciblage personnalisé.
 

@@ -42,7 +42,7 @@ Après la mise à niveau du SDK Adobe de la version v4 vers Adobe Experience P
 | Ce qui change après la migration |
 |:-:|
 | L’application mobile est disponible dans **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK Adobe Experience Platform)]**. Avant la migration, elle était disponible dans **[!UICONTROL Administration]** > **[!UICONTROL Canaux]** > **[!UICONTROL Application mobile (SDK v4)]**. |
-| Le **[!UICONTROL point d&#39;entrée pour la collecte des PII]** de l’application change. L&#39;ancien **[!UICONTROL point d&#39;entrée pour la collecte des PII]** continue de fonctionner. Les données envoyées ne sont donc pas perdues. |
+| Le **[!UICONTROL point d’entrée pour la collecte des PII]** de l’application change. L’ancien **[!UICONTROL point d’entrée pour la collecte des PII]** continue de fonctionner. Les données envoyées ne sont donc pas perdues. |
 | L’application sera liée à une balise **[!UICONTROL Propriété mobile]**. Elle est traitée en tant qu’application mobile nouvellement créée. |
 | L’application SDK Adobe Experience Platform d’origine utilisée dans la migration n’existe pas en tant qu’application distincte. Seule l’application SDK v4 migrée est disponible. |
 

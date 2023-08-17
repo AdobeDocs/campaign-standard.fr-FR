@@ -72,7 +72,7 @@ ht-degree: 100%
   <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
      <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=fr">vidéo pratique</a>.</li> 
-     <li> <strong>Optimisation prédictive du temps d’envoi</strong> - Prévoit le meilleur moment pour envoyer des emails à chaque individu au cours d’une campagne afin d’optimiser les taux d’engagement et d’améliorer le retour sur investissement des campagnes par email. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=fr">vidéo pratique</a>.</li>
+     <li> <strong>Optimisation prédictive du temps d’envoi</strong> - Prévoit le meilleur moment pour envoyer des e-mails à chaque individu au cours d’une campagne afin d’optimiser les taux d’engagement et d’améliorer le retour sur investissement des campagnes par e-mail. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=fr">vidéo pratique</a>.</li>
     </ul>
   <p>Si vous souhaitez découvrir la prise en main de l’IA dédiée au parcours, veuillez consulter la <a href="../../sending/using/predictive.md">documentation détaillée</a> et contacter votre gestionnaire de compte. Notez que si l’IA dédiée au parcours est disponible gratuitement pour les clients Campaign existants, un coût d’implémentation correspondant à environ 50 heures s’applique.</p>
     </td> 
@@ -243,7 +243,7 @@ ht-degree: 100%
 * Le nombre maximal d’événements en temps réel pouvant être publiés sur une instance est passé de 350 à 2 000. (CAMP-41608)
 * La synchronisation entre Adobe Launch et Campaign Standard a été améliorée grâce à l’utilisation du workflow technique syncWithLaunch. Ce workflow permet l’import automatique de toutes les propriétés mobiles d’Adobe Launch dans Adobe Campaign Standard. Pour plus d’informations, consultez [cette page](../../administration/using/technical-workflows.md).
 
-   Vous devrez envoyer une demande à l’assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
+  Vous devrez envoyer une demande à l’assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
 
 **Améliorations du Concepteur d’email**
 
@@ -464,7 +464,7 @@ ht-degree: 100%
 
 * Correction d’un problème lors de l’exécution d’une demande de suppression d’informations personnelles qui empêchait la suppression des données utilisateur dans les logs d’exclusion. (CAMP-39003)
 * Correction d’une erreur qui entraînait des problèmes d’accessibilité lors du redimensionnement du texte dans un élément de conteneur.
-* Correction d’un problème qui empêchait les utilisateurs de fermer la fenêtre contextuelle Calendrier qui s’affichait lorsqu’ils pointaient sur des activités marketing.
+* Correction d’un problème qui empêchait les utilisateurs de fermer le pop-up Calendrier qui s’affichait lorsqu’ils pointaient sur des activités marketing.
 * Correction d’un problème dans l’activité **[!UICONTROL API externe]** qui affichait le bouton **[!UICONTROL Confirmer]** même lorsqu’aucune donnée n’était modifiée.
 * Correction d’un problème lors de l’utilisation d’une activité **[!UICONTROL Union]** sur des requêtes avec des dimensions cibles différentes. Les données de transition n’affichaient que les enregistrements de la dimension de ciblage du jeu principal. (CAMP-36831)
 * Correction d’un problème qui pouvait entraîner une erreur lors de l’utilisation d’une activité de **[!UICONTROL réconciliation]** dans des contextes spécifiques, par exemple avec deux activités entrantes, l’une étant une activité d’exclusion. (CAMP-37490)

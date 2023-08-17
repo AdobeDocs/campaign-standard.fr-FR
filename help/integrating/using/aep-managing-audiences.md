@@ -48,9 +48,9 @@ Pour créer une audience Adobe Experience Platform directement dans Campaign 
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Pour créer un segment, vous devez sélectionner une **stratégie de fusion** correspondant à votre objectif marketing pour ce segment.
+1. Pour créer un segment, vous devez sélectionner une **politique de fusion** correspondant à votre objectif marketing pour ce segment.
 
-   Dans le volet des paramètres, une stratégie de fusion Platform par défaut est sélectionnée. Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   Dans le volet des paramètres, une politique de fusion Platform par défaut est sélectionnée. Pour plus d’informations sur les politiques de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

@@ -51,17 +51,17 @@ Pour effectuer le suivi des clics, deux scénarios doivent être mis en œuvre 
 
 * L’utilisateur voit la notification, mais l’efface.
 
-   Pour effectuer le suivi des clics dans le cadre d’un scénario de rejet, ajoutez le récepteur de diffusion `NotificationDismissalHandler` dans le fichier AndroidManifest de votre module d’application.
+  Pour effectuer le suivi des clics dans le cadre d’un scénario de rejet, ajoutez le récepteur de diffusion `NotificationDismissalHandler` dans le fichier AndroidManifest de votre module d’application.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * L’utilisateur voit la notification et clique dessus, ce qui se transforme en suivi d’ouvertures.
 
-   Ce scénario doit générer un clic et une ouverture. Le suivi de ce clic fera partie de l’implémentation nécessaire pour suivre les ouvertures. Voir [Implémentation du suivi d’ouvertures](#implement-open-tracking).
+  Ce scénario doit générer un clic et une ouverture. Le suivi de ce clic fera partie de l’implémentation nécessaire pour suivre les ouvertures. Voir [Implémentation du suivi d’ouvertures](#implement-open-tracking).
 
 ### Pour iOS {#implement-click-tracking-ios}
 

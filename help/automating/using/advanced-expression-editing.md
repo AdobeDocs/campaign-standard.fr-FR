@@ -30,7 +30,7 @@ L&#39;édition d&#39;expressions peut être utilisée lors des opérations suiva
 
 * définition d’une requête, via l’option **[!UICONTROL Mode avancé]** disponible lors de l’ajout d’une règle.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * édition d&#39;une expression dans un workflow. Par exemple pour ajouter des données additionnelles dans une activité.
 * édition d&#39;une condition de visibilité pour définir l&#39;affichage d&#39;un bloc de l&#39;éditeur de contenus HTML. Dans ce cas, l&#39;expression est éditée au format JavaScript et ne propose pas l&#39;utilisation des fonctions avancées standard.
@@ -76,9 +76,9 @@ Les expressions standard sont composées d&#39;une ou plusieurs conditions, resp
    * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;valeur1>** et **&lt;valeur2>**.
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
-   >[!NOTE]
-   >
-   >Le type de données de **&lt;valeur1>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;valeur1>** est une date, alors **&lt;valeur2>** doit également être une date.
+  >[!NOTE]
+  >
+  >Le type de données de **&lt;valeur1>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;valeur1>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -105,8 +105,9 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
    * **&lt;opérateur de comparaison>** est l&#39;un des opérateurs listés dans la section [Opérateurs de comparaison](../../automating/using/advanced-expression-editing.md#comparison-operators). Cet opérateur définit la méthode de comparaison entre **&lt;contexte>** et **&lt;valeur2>**.
    * **&lt;valeur2>** est un champ, une fonction ou une valeur saisie manuellement.
 
-   >[!NOTE]
-   >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+  >[!NOTE]
+  >
+  Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 

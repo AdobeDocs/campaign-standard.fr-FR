@@ -88,9 +88,9 @@ Dans le conteneur span, il existe deux attributs obligatoires :
 
 * Un autre est data-nl-expr, qui est le chemin du champ de personnalisation. Par exemple, si vous insérez le champ de personnalisation « firstName » depuis l’interface utilisateur, le chemin de navigation sera **[!UICONTROL Contexte (context)]** > **[!UICONTROL Profil (profile)]** > **[!UICONTROL Prénom (firstName)]** (comme illustré dans l’image ci-dessous). Dans ce cas, le chemin sera
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 

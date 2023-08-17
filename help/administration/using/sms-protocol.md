@@ -8,8 +8,8 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8664'
-ht-degree: 100%
+source-wordcount: '8650'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 * Adresse de l&#39;expéditeur, qui peut être appelée `oADC` ou parfois `sender id`. Il peut s&#39;agir d&#39;un numéro de téléphone utilisé au quotidien, d&#39;un numéro court envoyé par l&#39;intermédiaire d&#39;un fournisseur ou d&#39;un nom. Le nom est une fonctionnalité facultative. Dans ce cas, vous ne pouvez pas répondre au SMS.
 
-* Indicateur indiquant si le message est un message Flash. Un message Flash est une fenêtre contextuelle qui n&#39;est pas stockée en mémoire.
+* Indicateur indiquant si le message est un message Flash. Un message Flash est un pop-up qui n’est pas stocké en mémoire.
 
 * Indicateur indiquant si un SR est attendu ou non.
 
@@ -269,7 +269,7 @@ Lorsqu&#39;un SR est reçu, le statut et l&#39;erreur se trouvent dans son champ
 
 #### Format de champ de texte SR {#sr-text-field-format}
 
-La spécification recommande d&#39;utiliser ce format pour le champ de texte SR. Il s&#39;agit d&#39;une liste de sous-champs séparés dans l&#39;espace par deux points pour séparer le nom du champ et sa valeur. Les noms de champ ne sont pas sensibles à la casse.
+La spécification recommande d&#39;utiliser ce format pour le champ de texte SR. Il s&#39;agit d&#39;une liste de sous-champs séparés dans l&#39;espace par deux points pour séparer le nom du champ et sa valeur. Les noms de champ ne respectent jamais la casse.
 
 Exemple d&#39;un champ de texte SR correspondant à la recommandation de l&#39;Annexe B :
 
@@ -527,7 +527,7 @@ Lorsque la connexion TCP est perdue, le connecteur attend ce nombre de secondes 
 
 #### Délai d&#39;expiration des MT {#expiration-period}
 
-Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la stratégie de nouvelle tentative globale du MTA s&#39;appliquera.
+Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la politique de nouvelle tentative globale du MTA s&#39;appliquera.
 
 #### Délai d&#39;attente maximal d&#39;un bind {#bind-timeout}
 
@@ -831,19 +831,16 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les 
-valeurs `data_coding` possibles.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
 * **Vérifier que les SR sont correctement traités**
-Le SMS doit être marqué comme reçu dans le log de diffusion. Le log des diffusions doit réussir et se présenter comme suit :
-
-Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir    `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion doit réussir et se présenter comme suit :
+  `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un 
-`DELIVER_SM_RESP` (command_status=0) réussi.
+Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0) réussi.
 
 ### Vérifier les PDU {#check-pdus}
 

@@ -40,7 +40,7 @@ Pour vous aider, Adobe Campaign capture le rendu et le rend disponible dans un 
 
 * Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception : webmail, service de messagerie, mobile, etc.
 
-* Les fonctionnalités de rendu des emails sont essentielles pour déterminer si vos campagnes email réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d&#39;un email à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s&#39;affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d&#39;identifier rapidement les problèmes et de les corriger afin d&#39;améliorer la délivrabilité.
+* Les fonctionnalités de rendu des e-mails sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI et des services webmail. Les outils de ce type envoient une copie de vérification d’un e-mail à un réseau de boîtes de réception de test pour que vous puissiez voir comment le message s’affichera à travers ces différents services. Ils peuvent également inclure des rapports et des options de correction de code qui vous permettent d’identifier rapidement les problèmes et de les corriger afin d’améliorer la délivrabilité.
 
 En savoir plus [dans cette section](../../sending/using/email-rendering.md).
 

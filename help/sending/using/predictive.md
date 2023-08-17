@@ -66,7 +66,7 @@ Détails de la sortie
 >
 >Ces fonctionnalités prédictives s’appliquent uniquement aux canaux e-mail et push.
 
-Une fois mises en œuvre dans Campaign, les fonctionnalités d’apprentissage automatique enrichissent les données des profils avec de nouveaux onglets contenant leurs meilleurs scores d’ouverture/de clic. Les mesures sont calculées et intégrées dans Campaign à l’aide de workflows techniques.
+Une fois mises en œuvre dans Campaign, les fonctionnalités de machine learning enrichissent les données des profils avec de nouveaux onglets contenant leurs meilleurs scores d’ouverture/de clic. Les mesures sont calculées et intégrées dans Campaign à l’aide de workflows techniques.
 
 Pour accéder à ces mesures, vous devez effectuer les opérations suivantes :
 

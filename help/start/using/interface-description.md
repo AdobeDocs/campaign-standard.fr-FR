@@ -53,7 +53,7 @@ Les principes de navigation sont les suivants :
 
 * Le logo **Adobe**, situé dans le coin supérieur gauche de la page, vous donne accès aux configurations et fonctionnalités avancées. Les menus dépendent de votre profil et de vos autorisations.
 
-   Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
+  Le menu avancé est présenté dans la section [Menu avancé](#advanced-menu).
 
 * Le lien **[!UICONTROL Accueil]** permet d&#39;afficher la page d&#39;accueil d&#39;Adobe Campaign.
 * Les liens **[!UICONTROL Activités marketing]**, **[!UICONTROL Programmes et Campagnes]**, **[!UICONTROL Profils]**, **[!UICONTROL Audiences]** et **[!UICONTROL Rapports]** permettent d’accéder aux vues liées à ces fonctionnalités.
@@ -126,23 +126,23 @@ Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
 * Une **liste** présentant des éléments : programmes, campagnes, profils, etc. Ces éléments sont visualisables en mode **[!UICONTROL Vignettes]** ou en mode **[!UICONTROL Liste]**. Utilisez le bouton de changement de mode pour passer de l’un à l’autre. Chaque élément présente des indicateurs.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Un compteur permet de connaitre le nombre d’éléments. Si ce nombre dépasse 30, le comptage total n’est obtenu qu’en cliquant sur ce compteur.
+  Un compteur permet de connaitre le nombre d’éléments. Si ce nombre dépasse 30, le comptage total n’est obtenu qu’en cliquant sur ce compteur.
 
 * Un **tableau de bord** présentant une vue d’ensemble de tous les paramétrages liés à une activité. Cet écran comprend des zones interactives permettant de séparer et de configurer les différents concepts indépendamment.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Lors de la création d’un élément, lorsque plusieurs choix sont possibles, un **écran de sélection** permet de choisir le type d’élément à ajouter (campagnes, diffusions). Cet écran de sélection est également proposé pour l’accès aux rapports.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * Pour les workflows et le requêteur, un **espace de travail** avec une palette permet de concevoir l’objet.
 
-   Vous pouvez glisser/déposer les éléments de la palette vers l’espace de travail pour paramétrer l’élément courant.
+  Vous pouvez glisser/déposer les éléments de la palette vers l’espace de travail pour paramétrer l’élément courant.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## La barre d&#39;actions  {#action-bar}
 

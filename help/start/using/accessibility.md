@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ L’interface utilisateur d’Adobe Campaign Standard s’efforce de fournir u
 
 * Le texte et les en-têtes de grande taille ont été améliorés pour atteindre un rapport de contraste de 3:1.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * Le contenu de l’aide et le corps de texte de l’application ont été mis à jour pour respecter un rapport de contraste de 4,5:1.
 
 * Les icônes de mise en pause et d’annulation des workflows ont été mises à jour afin d’améliorer le contraste entre les couleurs d’arrière-plan et de premier plan.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * La couleur, la forme et l’emplacement ne sont pas les seules méthodes utilisées pour communiquer les informations ou la hiérarchie dans l’application.
 
@@ -47,11 +47,11 @@ L’interface utilisateur d’Adobe Campaign Standard facilite l’interaction
 
 * Lorsque l’utilisateur laisse vide un champ d’ID obligatoire, un graphique indique visuellement quel champ contient une erreur à l’aide d&#39;un message d’erreur. Ces informations sont également transmises par programmation aux utilisateurs à l’aide de technologies d’assistance, telles que les lecteurs d’écran.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * Le contenu qui s’affiche au survol ou au focus peut être ignoré par l’utilisateur et n’obscurcit aucun autre contenu.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Des textes alternatifs pour les images et des noms accessibles pour les boutons ont été ajoutés et peuvent être lus à haute voix avec une technologie d’assistance au lieu de s’appuyer uniquement sur des indices visuels pour identifier les éléments.
 
@@ -75,7 +75,7 @@ Lors de la conception d’un email, vous pouvez accéder à une info-bulle qui f
 
 ## Prise en charge de la technologie d’assistance {#screen-magnifiers}
 
-Nous nous efforçons de rendre l’application Adobe Campaign Standard aussi utilisable que possible par diverses technologies d’assistance, y compris, mais sans s’y limiter, les claviers modifiés, les logiciels de grossissement d’écran, les lecteurs d’écran, les logiciels de reconnaissance vocale et d’autres dispositifs d’assistance.
+Nous nous efforçons de rendre l’application Adobe Campaign Standard aussi utilisable que possible par diverses technologies d’assistance, y compris, mais sans s’y limiter, les claviers modifiés, les logiciels de grossissement d’écran, les lecteurs d’écran, les logiciels de reconnaissance vocale et d’autres appareils d’assistance.
 
 ## Travailler dans la langue que vous préférez {#languages}
 

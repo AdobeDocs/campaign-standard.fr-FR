@@ -42,11 +42,12 @@ Le workflow de se présente comme suit :
    * Deux agrégats basés sur la collection des transactions : le nombre de produits achetés et le montant total dépensé. Vous pouvez les ajouter depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage des agrégats, en utilisant les agrégats **Count** et **Sum**. Reportez-vous à la section [Ajouter un agrégat](../../automating/using/query.md#adding-an-aggregate).
    * Une collection permettant de retrouver le montant, la date et le produit de la dernière transaction effectuée.
 
-      Pour cela, vous devez ajouter les différents champs que vous souhaitez afficher depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage d’une collection.
+     Pour cela, vous devez ajouter les différents champs que vous souhaitez afficher depuis l’onglet **[!UICONTROL Données]** de la fenêtre de paramétrage d’une collection.
 
-      Pour que seule la transaction la plus récente soit renvoyée, vous devez indiquer &quot;1&quot; au niveau du **[!UICONTROL Nombre de lignes à retourner]** et appliquer un tri décroissant sur le champ **Date** de la collection depuis l’onglet **[!UICONTROL Tri]**.
+     Pour que seule la transaction la plus récente soit renvoyée, vous devez indiquer &quot;1&quot; au niveau du **[!UICONTROL Nombre de lignes à retourner]** et appliquer un tri décroissant sur le champ **Date** de la collection depuis l’onglet **[!UICONTROL Tri]**.
 
-      Reportez-vous aux sections [Ajouter une collection](../../automating/using/query.md#adding-a-collection) et [Trier les données additionnelles](../../automating/using/query.md#sorting-additional-data).
+     Reportez-vous aux sections [Ajouter une collection](../../automating/using/query.md#adding-a-collection) et [Trier les données additionnelles](../../automating/using/query.md#sorting-additional-data).
+
    ![](assets/enrichment_example4.png)
 
 1. Si vous souhaitez vérifier que les données sont correctement transmises en sortie de l’activité, lancez une première fois le workflow (sans l’activité de **[!UICONTROL Diffusion Email]**) et ouvrez la transition sortante de la requête.

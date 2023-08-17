@@ -87,7 +87,7 @@ Une fois la personnalisation générée (lors de la prévisualisation et de la p
 
 ## Ajout d&#39;un bloc de contenu{#adding-a-content-block}
 
-Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et possèdent un rendu spécifique. Vous pouvez par exemple ajouter un message de salutations ou un lien vers la page miroir.
+Adobe Campaign propose une liste de blocs de contenus pré-paramétrés. Ces blocs de contenu sont dynamiques, personnalisés et possèdent un rendu spécifique. Vous pouvez par exemple ajouter un message de salutations ou un lien vers la page miroir.
 
 >[!NOTE]
 >
@@ -320,15 +320,15 @@ L&#39;email est donc créé comme suit :
 
 * des contenus dynamiques sont appliqués sur l&#39;illustration et paramétrés en fonction de l&#39;âge.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   L&#39;insertion et le paramétrage des contenus dynamiques sont décrits dans la section [Définir le contenu dynamique dans un email](#defining-dynamic-content-in-an-email).
+  L&#39;insertion et le paramétrage des contenus dynamiques sont décrits dans la section [Définir le contenu dynamique dans un email](#defining-dynamic-content-in-an-email).
 
 * des champs de personnalisation et des contenus dynamiques sont appliqués sur le texte. En fonction de l&#39;âge, l&#39;email commence par le prénom du profil, ou par sa civilité et son nom.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   L&#39;ajout et le paramétrage de champs de personnalisation sont présentés dans la section [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
+  L&#39;ajout et le paramétrage de champs de personnalisation sont présentés dans la section [Insertion d&#39;un champ de personnalisation](#inserting-a-personalization-field).
 
 ### Paramétrer les illustrations {#configuring-images}
 

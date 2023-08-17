@@ -47,13 +47,13 @@ Vous pouvez éditer la version HTML de l&#39;email de deux façons différentes�
 
 * Sélectionnez **[!UICONTROL Edition]** > **[!UICONTROL HTML]** pour ouvrir la version HTML de l&#39;ensemble de l&#39;email.
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
 * Dans l&#39;interface WYSIWYG, sélectionnez un élément et cliquez sur l&#39;icône **[!UICONTROL Code source]**.
 
-   Seule la source de l&#39;élément sélectionné s&#39;affiche. Vous pouvez éditer le code source si l&#39;élément sélectionné est un composant de contenu **[!UICONTROL HTML]**. D&#39;autres composants sont en lecture seule, mais peuvent toujours être édités dans la version HTML complète de l&#39;email.
+  Seule la source de l&#39;élément sélectionné s&#39;affiche. Vous pouvez éditer le code source si l&#39;élément sélectionné est un composant de contenu **[!UICONTROL HTML]**. D&#39;autres composants sont en lecture seule, mais peuvent toujours être édités dans la version HTML complète de l&#39;email.
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
 Si vous modifiez le code HTML, la réactivité de l&#39;email peut être altérée. Veillez à le tester à l&#39;aide du bouton **[!UICONTROL Prévisualiser]**. Voir [Prévisualiser le message](../../sending/using/previewing-messages.md).
 

@@ -110,7 +110,7 @@ Il est possible d&#39;envoyer les notifications push à une audience sélectionn
 1. Cliquez maintenant sur **[!UICONTROL Confirmer]** pour commencer à envoyer des notifications push.
 1. Vérifiez le statut de votre diffusion par le biais du tableau de bord du message et des logs. Pour plus d&#39;informations à ce sujet, consultez [Envoi de messages](../../sending/using/confirming-the-send.md) et [Logs de diffusion](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   Dans cet exemple, le tableau de bord du message indique qu&#39;Adobe Campaign a tenté d&#39;envoyer deux notifications push : l&#39;une a été envoyée au périphérique avec succès, mais l&#39;autre a échoué. Pour savoir pourquoi la diffusion a échoué, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
+   Dans cet exemple, le tableau de bord du message indique qu&#39;Adobe Campaign a tenté d&#39;envoyer deux notifications push : l&#39;une a été envoyée à l’appareil avec succès, mais l&#39;autre a échoué. Pour savoir pourquoi la diffusion a échoué, cliquez sur le bouton ![](assets/lp_link_properties.png) en bas de la fenêtre **[!UICONTROL Déploiement]**.
 
    ![](assets/push_send_4.png)
 

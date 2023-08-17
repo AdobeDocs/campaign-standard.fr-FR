@@ -35,16 +35,16 @@ Vous pouvez insérer un lien sur tout élément de la page : image, mot, groupe
 
    * **Lien externe** : insérez un lien vers une URL externe.
 
-      Vous pouvez définir la personnalisation des URL. Voir [Personnaliser une URL](personalization.md#personalizing-urls).
+     Vous pouvez définir la personnalisation des URL. Voir [Personnaliser une URL](personalization.md#personalizing-urls).
 
    * **Landing page** : donnez accès à une landing page Adobe Campaign.
    * **Lien d&#39;abonnement** : insérez un lien pour s&#39;abonner à un service Adobe Campaign.
    * **Lien de désabonnement** : insérez un lien pour se désabonner d&#39;un service Adobe Campaign.
    * **Lien définissant une action** : définissez une action qui se produit lors d&#39;un clic sur la landing page.
 
-      >[!NOTE]
-      >
-      >Ce type de lien est uniquement disponible pour les landing pages.
+     >[!NOTE]
+     >
+     >Ce type de lien est uniquement disponible pour les landing pages.
 
 1. Vous pouvez modifier le texte qui s&#39;affiche pour le destinataire.
 1. Vous pouvez définir le comportement du navigateur lorsque l&#39;utilisateur clique sur le lien (ouverture d&#39;une nouvelle fenêtre, par exemple).

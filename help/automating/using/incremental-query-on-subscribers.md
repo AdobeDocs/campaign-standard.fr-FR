@@ -26,16 +26,16 @@ Le workflow est construit de la manière suivante :
 
 * Un [Planificateur](../../automating/using/scheduler.md), afin que le workflow s’exécute chaque lundi à 6h.
 
-   ![](assets/incremental_query_example2.png)
+  ![](assets/incremental_query_example2.png)
 
 * Une [Requête incrémentale](../../automating/using/incremental-query.md), permettant de cibler tous les abonnés actuels lors de la première exécution, puis uniquement les nouveaux abonnés de la semaine lors des exécutions suivantes.
 
-   ![](assets/incremental_query_example3.png)
+  ![](assets/incremental_query_example3.png)
 
 * Une [Diffusion Email](../../automating/using/email-delivery.md). Le workflow est exécuté une fois par semaine, mais vous pouvez agréger les emails envoyés ainsi que les résultats par mois, par exemple pour générer des rapports portant sur un mois entier et non une seule semaine.
 
-   Pour cela, choisissez ici de créer un **[!UICONTROL Email récurrent]** regroupant les emails et les résultats **[!UICONTROL Par mois]**.
+  Pour cela, choisissez ici de créer un **[!UICONTROL Email récurrent]** regroupant les emails et les résultats **[!UICONTROL Par mois]**.
 
-   Définissez le contenu de votre email, en insérant le code promotion de bienvenue. Pour plus d’informations à ce sujet, voir les sections [Définition du contenu des emails](../../designing/using/personalization.md).
+  Définissez le contenu de votre email, en insérant le code promotion de bienvenue. Pour plus d’informations à ce sujet, voir les sections [Définition du contenu des emails](../../designing/using/personalization.md).
 
 Lancez alors l’exécution du workflow. Chaque semaine les nouveaux abonnés recevront l&#39;email de bienvenue avec le code promotion.

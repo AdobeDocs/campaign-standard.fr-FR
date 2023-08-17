@@ -20,7 +20,7 @@ ht-degree: 100%
 Adobe Experience Platform vous permet de partager des données entre Campaign Standard et Adobe Real-time Customer Data Platform (RTCDP). Vous pouvez ainsi cibler des audiences Adobe Experience Platform dans vos workflows Campaign, puis renvoyer à Adobe Real-time Customer Data Platform les données liées à ces audiences, notamment les envois, les ouvertures et les clics.
 
 * Avec **Destinations**, ingérez les audiences d&#39;Adobe Experience Platform dans Campaign Standard. Il est ainsi possible d’activer vos données connues et inconnues pour vos campagnes marketing.
-* Avec **Sources**, exportez les données de Campaign Standard (par exemple, envois, ouvertures, clics) dans Adobe Experience Platform. Vous pouvez ainsi centraliser les données collectées à partir de sources disparates dans un seul et même endroit, et utiliser les connaissances acquises pour faire davantage.
+* Avec **Sources**, exportez les données de Campaign Standard (par exemple, envois, ouvertures, clics) dans Adobe Experience Platform. Vous pouvez ainsi centraliser les données collectées à partir de sources disparates dans un seul et même endroit, et utiliser les informations acquises pour faire davantage.
 
 
 >[!IMPORTANT]

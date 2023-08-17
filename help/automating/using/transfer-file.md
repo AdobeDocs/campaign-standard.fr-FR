@@ -43,7 +43,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
    ![](assets/wkf_file_transfer_01.png)
 
    * **Réception de fichier** : vous permet de télécharger un fichier.
-   * **Envoi de fichier** : vous permet d’envoyer un fichier. Le téléchargement d&#39;un fichier depuis Adobe Campaign génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
+   * **Chargement de fichier** : vous permet de charger un fichier. Le téléchargement d&#39;un fichier depuis Adobe Campaign génère une entrée de journal dans le menu **[!UICONTROL Audits des exports]**. Pour plus d’informations sur les audits des exports, consultez la section [Audits des exports](../../administration/using/auditing-export-logs.md).
    * **Test d’existence de fichier** : vous permet de vérifier l’existence d’un fichier.
    * **Listage de fichiers** : vous permet de lister les fichiers présents sur le serveur défini dans l’onglet **[!UICONTROL Protocole]**. Cette action est principalement utilisée à des fins de débogage, afin de vérifier si l’activité est configurée en fonction de vos besoins avant de télécharger les fichiers à partir du serveur distant.
 
@@ -62,7 +62,7 @@ Vous pouvez utiliser cette activité pour récupérer des données qui seront en
 
    * **[!UICONTROL Tri des fichiers]** : permet de trier les fichiers par ordre alphanumérique. Par défaut, cette option est désactivée.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL Lister tous les fichiers]** : cette option est disponible lors de la sélection de l’action **[!UICONTROL Listage des fichiers]** dans l’onglet **[!UICONTROL Général]**. Elle permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères **&#39;n&#39;**.
 

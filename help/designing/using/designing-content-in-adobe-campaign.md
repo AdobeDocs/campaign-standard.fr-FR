@@ -105,17 +105,17 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
 * Utilisez les styles intégrés plutôt qu&#39;une feuille CSS distincte et une feuille CSS dans la section &lt;head> du code HTML. En utilisant les styles intégrés, vous pourrez optimiser l&#39;enregistrement et la réutilisation des fragments de contenu.
 
-   Voir [Ajouter des attributs de style intégrés](../../designing/using/styles.md#adding-inline-styling-attributes).
+  Voir [Ajouter des attributs de style intégrés](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Si vous importez des fichiers ZIP comportant le contenu HTML, utilisez une feuille CSS standard. Les feuilles de style SCSS ne sont pas prises en charge.
 
 * Etablissez facilement votre marque en créant et en réutilisant des fragments de contenu pour assurer la cohérence de vos campagnes marketing.
 
-   Voir [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+  Voir [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * Lors de l&#39;édition du **contenu d&#39;un email** :
 
-   Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Pour plus d&#39;informations, consultez la section [Rendu des emails](../../sending/using/email-rendering.md).
+  Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Pour plus d&#39;informations, consultez la section [Rendu des emails](../../sending/using/email-rendering.md).
 
 * La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
 

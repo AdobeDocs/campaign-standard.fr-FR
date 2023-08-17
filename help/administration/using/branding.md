@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 * Une **identité** qui permet d&#39;identifier et de personnaliser votre marque. Cette section contient les champs suivants :
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Libellé**, visible dans l&#39;interface
    * **Nom de la marque**
@@ -53,7 +53,7 @@ Une **marque** est définie par les caractéristiques suivantes :
 
 * **[!UICONTROL Paramètres d&#39;en-tête des emails envoyés]** qui permettent de personnaliser les informations qui seront visibles par les destinataires de vos campagnes. Cette section contient les champs suivants :
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Expéditeur (adresse email)** avec l&#39;adresse email de la marque
    * **Expéditeur (nom)** avec le nom de la marque
@@ -61,27 +61,27 @@ Une **marque** est définie par les caractéristiques suivantes :
    * **Répondre à (nom)** avec le nom de la marque
    * **Erreur (adresse email)** avec l&#39;adresse email à utiliser en cas d&#39;erreur
 
-   >[!IMPORTANT]
-   >
-   >Après avoir mis à jour les paramètres d&#39;en-tête des emails, si le nom et l&#39;adresse email de l&#39;expéditeur ne sont pas modifiés dans l&#39;email créé à partir du modèle, vérifiez les paramètres avancés de ce dernier.
+  >[!IMPORTANT]
+  >
+  >Après avoir mis à jour les paramètres d&#39;en-tête des emails, si le nom et l&#39;adresse email de l&#39;expéditeur ne sont pas modifiés dans l&#39;email créé à partir du modèle, vérifiez les paramètres avancés de ce dernier.
 
 * **Serveur(s) exposé(s) sur Internet** permet de définir les serveurs utilisés pour le tracking et l&#39;accès aux landing pages. Cette section contient les champs suivants :
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **URL externe du serveur applicatif** utilisée pour héberger les différentes landing pages créées et y accéder
    * **URL externe du serveur de tracking** utilisée en tant qu&#39;URL trackée lors des diffusions
    * **URL externe du serveur de page miroir** utilisée en tant que page miroir par défaut dans vos diffusions
 
-   >[!NOTE]
-   >
-   >Pour afficher l’aperçu de la landing page et le rendu de la page miroir dans l’interface utilisateur de Campaign, les URL du serveur applicatif et du serveur de page miroir doivent être sécurisées. Dans ce cas, utilisez https:// plutôt que http:// lors de la configuration de ces URL.
+  >[!NOTE]
+  >
+  >Pour afficher l’aperçu de la landing page et le rendu de la page miroir dans l’interface utilisateur de Campaign, les URL du serveur applicatif et du serveur de page miroir doivent être sécurisées. Dans ce cas, utilisez https:// plutôt que http:// lors de la configuration de ces URL.
 
 * **[!UICONTROL Paramétrage des URL de tracking (Web Analytics)]** qui permet de définir la configuration du tracking de vos URL pour votre marque.
 
-   Les paramètres additionnels qui permettent de tracker les liens sur des systèmes externes tels que les outils de Web Analytics comme Adobe Analytics ou Google Analytics sont définis dans cette section.
+  Les paramètres additionnels qui permettent de tracker les liens sur des systèmes externes tels que les outils de Web Analytics comme Adobe Analytics ou Google Analytics sont définis dans cette section.
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## Créer une nouvelle marque {#creating-a-brand}
 

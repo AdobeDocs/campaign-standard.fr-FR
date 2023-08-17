@@ -45,7 +45,7 @@ Selon les paramètres renseignés et l’avancement du processus de création, c
 
 * **[!UICONTROL Afficher les bons à tirer]** : affiche/masque la liste des bons à tirer envoyés, s&#39;ils existent. Ce bouton n’est actif que lorsque vous avez envoyé des bons à tirer.
 
-   Pour plus d’informations sur les bons à tirer, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
+  Pour plus d’informations sur les bons à tirer, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md).
 
 * **[!UICONTROL Envoyer un test]** : vous permet de sélectionner le mode de validation à utiliser : **[!UICONTROL Rendu des emails]** (email uniquement), **[!UICONTROL Bon à tirer]** ou les deux. Pour plus d’informations sur les profils de test, voir la section [Envoyer un bon à tirer](../../sending/using/sending-proofs.md). Ce bouton n’est actif que lorsque vous avez créé des profils de test.
 
@@ -74,20 +74,20 @@ Vous trouverez ci-dessous une liste des messages pouvant être affichés :
 
 * *&quot;L’option de mode test SMTP est activée pour cet email : aucun message ne sera envoyé.&quot;*
 
-   Voir à ce propos [cette section](../../administration/using/configuring-email-channel.md#smtp-test-mode).
+  Voir à ce propos [cette section](../../administration/using/configuring-email-channel.md#smtp-test-mode).
 
 * *&quot;Le compte externe de routage a été désactivé.&quot;*
 
-   Pour plus d’informations, voir [Comptes externes](../../administration/using/external-accounts.md).
+  Pour plus d’informations, voir [Comptes externes](../../administration/using/external-accounts.md).
 
 * *« Les messages ne peuvent pas être envoyés, car l’affinité IP actuelle n’est gérée par aucun processus d’envoi. »*
 
-   Si ce message s’affiche, un problème s’est produit au niveau de la définition de l’affinité IP ou du processus d’envoi. Contactez votre administrateur Adobe.
+  Si ce message s’affiche, un problème s’est produit au niveau de la définition de l’affinité IP ou du processus d’envoi. Contactez votre administrateur Adobe.
 
 * *« Ce message transactionnel est un modèle de message transactionnel d’usine. Si vous souhaitez le modifier, vous devez le dupliquer et utiliser votre copie. »*
 
-   Certains de ces modèles de message transactionnel d’usine sont des modèles de landing page intégrés. Voir à ce propos [cette section](../../channels/using/landing-page-templates.md).
+  Certains de ces modèles de message transactionnel d’usine sont des modèles de landing page intégrés. Voir à ce propos [cette section](../../channels/using/landing-page-templates.md).
 
 * *&quot;Ce message est un modèle de message transactionnel technique. Vous ne pouvez pas le modifier ni le publier.&quot;*
 
-   Cet avertissement s’affiche dans des modèles de message transactionnel vides ne pouvant pas être modifiés. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).
+  Cet avertissement s’affiche dans des modèles de message transactionnel vides ne pouvant pas être modifiés. Pour plus d’informations sur les messages transactionnels, voir [cette section](../../channels/using/getting-started-with-transactional-msg.md).

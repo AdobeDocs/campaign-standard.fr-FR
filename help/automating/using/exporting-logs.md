@@ -36,39 +36,39 @@ L&#39;opération d&#39;export des logs peut être effectuée par les utilisateur
 
    * Dans l&#39;onglet **[!UICONTROL Propriétés]**, remplacez la ressource cible par **Logs de diffusion** (broadLogRcp).
 
-      ![](assets/export_logs_query_properties.png)
+     ![](assets/export_logs_query_properties.png)
 
    * Dans l&#39;onglet **[!UICONTROL Cible]**, définissez une condition afin de récupérer tous les logs de diffusion qui correspondent aux diffusions envoyées en 2016 ou après. Pour plus d&#39;informations à ce sujet, voir la section [Edition de requêtes](../../automating/using/editing-queries.md#creating-queries).
 
-      ![](assets/export_logs_query_target.png)
+     ![](assets/export_logs_query_target.png)
 
    * Dans l&#39;onglet **[!UICONTROL Données traitées]**, sélectionnez **[!UICONTROL Utiliser un champ de date]** et le champ **lastModified**. Pendant les prochaines exécutions du workflow, seuls les logs qui auront été modifiés ou créés après la dernière exécution seront récupérés.
 
-      ![](assets/export_logs_query_processeddata.png)
+     ![](assets/export_logs_query_processeddata.png)
 
-      Après la première exécution du workflow, vous pouvez voir dans cet onglet la date de dernière exécution qui sera utilisée pour la prochaine exécution. Cette date est automatiquement mise à jour à chaque exécution du workflow. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant une autre qui répond à vos besoins.
+     Après la première exécution du workflow, vous pouvez voir dans cet onglet la date de dernière exécution qui sera utilisée pour la prochaine exécution. Cette date est automatiquement mise à jour à chaque exécution du workflow. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant une autre qui répond à vos besoins.
 
 1. Ajoutez une activité **[!UICONTROL Extraction de fichier]** qui permettra d&#39;exporter les données interrogées vers un fichier :
 
    * Dans l&#39;onglet **[!UICONTROL Extraction]**, indiquez le nom du fichier.
 
-      Si vous sélectionnez l&#39;option **[!UICONTROL Ajoutez la date et l&#39;heure au nom du fichier.]**, ce nom sera automatiquement renseigné avec la date d&#39;exportation pour s&#39;assurer que tous les fichiers extraits sont uniques. Sélectionnez les colonnes que vous souhaitez exporter dans votre fichier. Ici, vous pouvez sélectionner des données de ressources associées, telles que des informations de diffusion ou de profil.
+     Si vous sélectionnez l&#39;option **[!UICONTROL Ajoutez la date et l&#39;heure au nom du fichier.]**, ce nom sera automatiquement renseigné avec la date d&#39;exportation pour s&#39;assurer que tous les fichiers extraits sont uniques. Sélectionnez les colonnes que vous souhaitez exporter dans votre fichier. Ici, vous pouvez sélectionner des données de ressources associées, telles que des informations de diffusion ou de profil.
 
-      >[!NOTE]
-      >
-      >Pour exporter un identifiant unique pour chaque log, sélectionnez l&#39;élément **[!UICONTROL Identifiant du log de diffusion]**.
+     >[!NOTE]
+     >
+     >Pour exporter un identifiant unique pour chaque log, sélectionnez l&#39;élément **[!UICONTROL Identifiant du log de diffusion]**.
 
-      Pour organiser le fichier final, vous pouvez appliquer un tri, selon la date du log, par exemple, comme l&#39;illustre l&#39;exemple ci-après.
+     Pour organiser le fichier final, vous pouvez appliquer un tri, selon la date du log, par exemple, comme l&#39;illustre l&#39;exemple ci-après.
 
-      ![](assets/export_logs_extractfile_extraction.png)
+     ![](assets/export_logs_extractfile_extraction.png)
 
    * Dans l&#39;onglet **[!UICONTROL Structure du fichier]**, définissez le format du fichier de sortie selon vos besoins.
 
-      Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
+     Cochez l&#39;option **[!UICONTROL Exporter les libellés plutôt que les valeurs internes des énumérations]** si vous exportez des valeurs d&#39;énumération. Cette option permet de récupérer des libellés plus courts qui sont compréhensibles à la place d&#39;identifiants.
 
 1. Ajoutez une activité **[!UICONTROL Transfert de fichier]** et configurez-la pour transférer le fichier nouvellement créé du serveur Adobe Campaign vers un autre emplacement où vous pourrez accéder au fichier (un serveur SFTP, par exemple).
 
-   * Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Envoi de fichier]** puisque l&#39;objectif est d&#39;envoyer le fichier d&#39;Adobe Campaign vers un autre serveur.
+   * Dans l’onglet **[!UICONTROL Général]**, sélectionnez **[!UICONTROL Chargement de fichier]** puisque l’objectif est d’envoyer le fichier d’Adobe Campaign vers un autre serveur. 
    * Dans l&#39;onglet **[!UICONTROL Protocole]**, indiquez les paramètres de transfert et sélectionnez le [compte externe](../../administration/using/external-accounts.md#creating-an-external-account) à utiliser.
 
 1. Ajoutez une activité **[!UICONTROL Fin]** pour vous assurer que le workflow se termine correctement et enregistrez ce dernier.

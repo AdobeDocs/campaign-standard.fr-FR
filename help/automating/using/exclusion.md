@@ -34,7 +34,7 @@ Un ensemble principal est défini parmi les transitions entrantes. Les membres d
 
 1. Placez une activité **[!UICONTROL Exclusion]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
-1. Sélectionnez l&#39;**[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C&#39;est l&#39;ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l&#39;ensemble principal.
+1. Sélectionnez l&#39;**[!UICONTROL Ensemble principal]** parmi les transitions entrantes. C’est l’ensemble à partir duquel des éléments sont exclus. Les autres ensembles correspondent aux éléments devant être exclus de l’ensemble principal.
 
    >[!NOTE]
    >

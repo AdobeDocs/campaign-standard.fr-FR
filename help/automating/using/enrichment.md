@@ -1,6 +1,6 @@
 ---
 title: Enrichissement
-description: L'activité Enrichissement est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
+description: L’activité d’enrichissement est une activité avancée qui permet de définir des données additionnelles à traiter dans un workflow.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities

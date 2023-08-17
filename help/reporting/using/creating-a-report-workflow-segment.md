@@ -18,7 +18,7 @@ ht-degree: 100%
 # Création d&#39;un rapport à partir de segments de workflow{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Le code segment ]**ne peut cibler que les diffusions e-mail et SMS.
+> **[!UICONTROL Le code segment]** ne peut cibler que les diffusions e-mail et SMS.
 
 Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
 Pour cibler ces segments dans vos rapports :
@@ -104,7 +104,7 @@ Vous pouvez maintenant accéder à vos rapports pour tracker les codes segment.
 
 ## Etape 3 : création d&#39;un rapport dynamique pour filtrer les segments {#step-3--create-a-dynamic-report-filter-segments}
 
-Après avoir envoyé des diffusions avec votre workflow, vous pouvez répartir les rapports à l&#39;aide des codes segment de votre workflow.
+Après avoir envoyé des diffusions avec votre workflow, vous pouvez répartir les rapports à l’aide des codes segment de votre workflow.
 
 1. Dans l&#39;onglet **[!UICONTROL Rapports]**, sélectionnez un rapport d&#39;usine et cliquez sur le bouton **[!UICONTROL Créer un projet]** pour en lancer un à partir de zéro.
 

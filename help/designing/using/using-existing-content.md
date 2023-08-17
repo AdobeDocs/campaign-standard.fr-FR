@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 100%
 
@@ -87,9 +87,9 @@ Avant d&#39;importer du contenu depuis une URL, vérifiez que les exigences suiv
 * Pour des raisons de sécurité, seules les URL commençant par **[!UICONTROL https]** sont autorisées.
 * Vérifiez que toutes les ressources (images, CSS) sont définies dans des liens absolus et HTTPS. Sinon, après l&#39;envoi de l&#39;email, la page miroir serait affichée sans ses ressources. Voici un exemple de définition d&#39;un lien absolu :
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -249,6 +249,5 @@ Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Co
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Revenez à la vue mobile pour vérifier que votre contenu s&#39;affiche correctement et enregistrez vos modifications.

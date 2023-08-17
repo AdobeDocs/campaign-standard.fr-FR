@@ -26,17 +26,17 @@ Il existe deux types de destinataires de bons à tirer :
 
 * Les **profils de test** permettent de cibler des destinataires additionnels, qui ne correspondent pas aux critères de ciblage définis.
 
-   Ils peuvent être ajoutés à l’audience d’un message afin de détecter une utilisation frauduleuse de votre base de données de destinataires ou de contrôler la bonne réception de vos messages. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
+  Ils peuvent être ajoutés à l’audience d’un message afin de détecter une utilisation frauduleuse de votre base de données de destinataires ou de contrôler la bonne réception de vos messages. Voir à ce sujet la section [Gérer les profils de test](../../audiences/using/managing-test-profiles.md).
 
-   >[!NOTE]
-   >
-   >Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus dans l’audience de votre message.
+  >[!NOTE]
+  >
+  >Pour pouvoir envoyer un bon à tirer, des profils de test doivent être inclus dans l’audience de votre message.
 
 * Les **profils de substitution** vous permettent de vous mettre à la place de l’un des profils ciblés et d’obtenir une représentation exacte du message que le profil recevra. Pour plus d’informations, voir [Test des emails à l’aide des profils ciblés](../../sending/using/testing-messages-using-target.md).
 
-   >[!NOTE]
-   >
-   >Cette fonctionnalité est disponible uniquement pour le canal Email.
+  >[!NOTE]
+  >
+  >Cette fonctionnalité est disponible uniquement pour le canal Email.
 
 ## Envoyer un bon à tirer {#sending-a-proof}
 

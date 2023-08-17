@@ -31,11 +31,11 @@ Pour ce faire, ajoutez et configurez les éléments suivants :
 
 * Activité **[!UICONTROL Extraction de fichier]** pour extraire les données ciblées dans un fichier CSV. Pour plus d’informations sur la configuration de cette activité, consultez [cette section](../../automating/using/extract-file.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * Activité **[!UICONTROL Transfert de fichier]** pour transférer le fichier CSV vers votre emplacement de stockage. Pour plus d’informations sur la configuration de cette activité, consultez [cette section](../../automating/using/transfer-file.md).
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 Par exemple, le workflow ci-dessous extrait régulièrement les logs dans un fichier CSV, puis transfère ce fichier vers un emplacement de stockage.
 

@@ -63,11 +63,11 @@ Depuis l&#39;interface d&#39;Adobe Campaign, vous pouvez :
 * Modifier les paramètres des critères pour chaque tableau de bord. Voir [Paramètres des critères](#criteria-parameters).
 * Définir un groupe de destinataires pour chaque tableau de bord.
 
-   Vous souhaitez par exemple informer les utilisateurs disposant de droits d&#39;administration des diffusions en échec uniquement. Vous voulez également que les utilisateurs marketing reçoivent des informations sur les diffusions avec mauvais taux de soft bounces. Vous devez donc créer deux tableaux de bord différents et définir les critères souhaités pour chaque groupe de destinataires.
+  Vous souhaitez par exemple informer les utilisateurs disposant de droits d&#39;administration des diffusions en échec uniquement. Vous voulez également que les utilisateurs marketing reçoivent des informations sur les diffusions avec mauvais taux de soft bounces. Vous devez donc créer deux tableaux de bord différents et définir les critères souhaités pour chaque groupe de destinataires.
 
 * Accéder à l&#39;historique de toutes les alertes envoyées pour chaque tableau de bord.
 
-   Lorsque vous sélectionnez un tableau de bord, la dernière alerte envoyée associée à celui-ci s&#39;affiche par défaut. Toutes les alertes envoyées sont répertoriées dans la partie gauche de l&#39;écran. Cliquez sur un élément dans la liste **[!UICONTROL Historique]** pour accéder aux alertes correspondantes.
+  Lorsque vous sélectionnez un tableau de bord, la dernière alerte envoyée associée à celui-ci s&#39;affiche par défaut. Toutes les alertes envoyées sont répertoriées dans la partie gauche de l&#39;écran. Cliquez sur un élément dans la liste **[!UICONTROL Historique]** pour accéder aux alertes correspondantes.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -120,15 +120,15 @@ Pour chaque critère, vous pouvez définir les paramètres suivants :
 
 * **[!UICONTROL Indicateurs à ajouter dans les alertes]**, c&#39;est-à-dire les colonnes qui apparaîtront dans la section **[!UICONTROL Détails]** de la notification pour les diffusions correspondant au critère sélectionné.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Type d&#39;alerte]**, c&#39;est-à-dire le libellé et la couleur qui apparaîtront en regard du critère de diffusion dans la synthèse de la notification.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Fréquence des critères]** : si une diffusion répond à un critère, ce dernier est répété dans chaque notification envoyée pendant la période de contrôle. Sinon, une seule alerte est envoyée par jour (à la première occurrence) par critère d&#39;alerte pour une diffusion.
 
-   Cette option est définie par défaut sur une fois par jour pour tous les critères.
+  Cette option est définie par défaut sur une fois par jour pour tous les critères.
 
 **Rubriques connexes :**
 
@@ -191,15 +191,15 @@ Dans l&#39;onglet **[!UICONTROL Paramètres des critères]** d&#39;un [tableau d
 * **[!UICONTROL Taille minimale de la cible de la diffusion]** : si vous saisissez par exemple la valeur 100 dans ce champ, une notification est envoyée uniquement pour les diffusions dont la cible est supérieure ou égale à 100 destinataires. Ce paramètre s&#39;applique à tous les critères.
 * **[!UICONTROL Période de contrôle avant et après la date de contact (en heures)]** : nombre d&#39;heures avant et après l&#39;heure actuelle. Seules les diffusions dont la date de contact est comprise dans cette plage sont prises en compte. Ce paramètre s&#39;applique à tous les critères. Par défaut, la valeur de ce champ est définie sur 24 heures.
 
-   Pour plus d&#39;informations sur la date de contact, voir [Planning](../../sending/using/about-scheduling-messages.md).
+  Pour plus d&#39;informations sur la date de contact, voir [Planning](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Taux maximal de soft bounces]** : une notification est envoyée pour toutes les diffusions dont le taux de soft bounces est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
 
-   Pour plus d&#39;informations sur les soft bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Pour plus d&#39;informations sur les soft bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Taux maximal de soft bounces]** : une notification est envoyée pour toutes les diffusions dont le taux de hard bounces est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
 
-   Pour plus d&#39;informations sur les hard bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Pour plus d&#39;informations sur les hard bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Limite de durée minimale pour une diffusion ayant le statut &#39;Démarrage en attente&#39; (en minutes)]** : une notification est envoyée pour toutes les diffusions ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée dans le champ. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n&#39;ont pas encore été pris en compte par le système.
 * **[!UICONTROL Délai minimal (en minutes) nécessaire pour le calcul du débit]** : seules les diffusions ayant démarré (avec le statut **[!UICONTROL En cours]**) depuis plus longtemps que la durée spécifiée sont prises en compte pour le critère **[!UICONTROL Diffusions avec faible débit]**.
@@ -236,7 +236,7 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * un problème de délivrabilité ;
    * un workflow en erreur.
 
-   Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Pour plus d&#39;informations, consultez la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
+  Si la diffusion est déclenchée à l&#39;aide d&#39;un workflow, vérifiez que ce dernier a correctement démarré. Pour plus d&#39;informations, consultez la section [Exécuter un workflow](../../automating/using/about-workflow-execution.md). Sinon, contactez votre administrateur Adobe Campaign pour résoudre ce problème.
 
 * **[!UICONTROL Diffusions avec préparation en échec]** : une erreur peut se produire lors de la préparation de la diffusion dans les cas suivants :
 
@@ -245,35 +245,33 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
    * La cible est absente.
    * La diffusion dépasse la taille limite.
 
-   Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
+  Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
 
 * Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs soft incorrect]** peuvent être les suivantes :
 
    * Le serveur du destinataire est en panne.
    * La boîte de messagerie du destinataire est pleine.
 
-   Pour plus d&#39;informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Pour plus d&#39;informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs hard incorrect]** peuvent être les suivantes :
+  Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs hard incorrect]** peuvent être les suivantes :
 
    * Le destinataire est ajouté sur la liste bloquée, ce qui signifie qu’il ne souhaite plus être contacté.
    * L&#39;adresse email du destinataire n&#39;existe pas.
    * Le domaine du destinataire n&#39;existe pas.
    * Le serveur du destinataire bloque la diffusion.
 
-   Pour éviter les soft et hard bounces, suivez les bonnes pratiques suivantes :
+  Pour éviter les soft et hard bounces, suivez les bonnes pratiques suivantes :
 
    * Créez des règles de typologie de type Filtrage pour exclure une partie de la cible des messages (comme les destinataires en quarantaine) pendant l&#39;analyse de la diffusion. Voir [Créer une règle de filtrage](../../sending/using/filtering-rules.md).
    * Mettez régulièrement à jour votre base client pour conserver de bons processus de gestion des quarantaines. Voir [À propos des quarantaines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * D&#39;une manière générale, améliorez autant que possible la délivrabilité. Consultez la documentation détaillé d&#39;Adobe Campaign relative à la [délivrabilité](../../sending/using/about-deliverability.md) et contactez votre administrateur Adobe Campaign pour obtenir de l&#39;aide.
 
-
-
 * **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : cette alerte indique généralement un problème au niveau du MTA (Message Transfer Agent). Le processus d&#39;exécution attend la disponibilité de certaines ressources. Le MTA n&#39;a peut-être pas été démarré.
 
-   **[!UICONTROL Diffusions avec faible débit]** : il s&#39;agit encore une fois d&#39;un problème de délivrabilité qui signale que le MTA est trop lent.
+  **[!UICONTROL Diffusions avec faible débit]** : il s&#39;agit encore une fois d&#39;un problème de délivrabilité qui signale que le MTA est trop lent.
 
-   Pour plus d&#39;informations sur ces problèmes, contactez votre administrateur Adobe Campaign.
+  Pour plus d&#39;informations sur ces problèmes, contactez votre administrateur Adobe Campaign.
 
 **Rubriques connexes :**
 

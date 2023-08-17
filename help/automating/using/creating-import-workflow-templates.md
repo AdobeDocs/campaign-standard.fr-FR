@@ -26,9 +26,9 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
    * **[!UICONTROL Chargement de fichier]** : définissez la structure attendue du fichier contenant les données à importer.
 
-      >[!NOTE]
-      >
-      >Il n’est possible d’importer que les données d’un seul fichier. Si le workflow comporte plusieurs activités de **[!UICONTROL Chargement de fichier]**, le même fichier sera réutilisé à chaque fois.
+     >[!NOTE]
+     >
+     >Il n’est possible d’importer que les données d’un seul fichier. Si le workflow comporte plusieurs activités de **[!UICONTROL Chargement de fichier]**, le même fichier sera réutilisé à chaque fois.
 
    * **[!UICONTROL Réconciliation]** : réconciliez les données importées avec les données se trouvant dans la base de données.
    * **[!UICONTROL Segmentation]** : créez des filtres pour traiter les enregistrements différemment selon qu’ils aient pu ou non être réconciliés.
@@ -42,18 +42,18 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
    * Définissez la structure attendue en téléchargeant un fichier exemple. Le fichier exemple ne doit contenir que quelques lignes mais toutes les colonnes nécessaires pour l’import. Vérifiez et éditez le format du fichier pour vous assurer que le type de chaque colonne est paramétré correctement : texte, date, nombre entier, etc.
 Par exemple :
 
-      ```
-      lastname;firstname;birthdate;email;crmID
-      Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
-      ```
+     ```
+     lastname;firstname;birthdate;email;crmID
+     Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
+     ```
 
    * Dans la section **[!UICONTROL Fichier à charger]**, sélectionnez **[!UICONTROL Transférer un nouveau fichier depuis le poste local]** et laissez le champ vide. A chaque fois qu’un nouveau workflow sera créé à partir de ce modèle, vous pourrez préciser ici le fichier souhaité (tant qu’il correspond à la structure définie).
 
-      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, si vous sélectionnez **[!UICONTROL Utiliser le fichier provenant de la transition entrante]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** avant de récupérer le fichier à importer à partir d’un serveur FTP/SFTP.
+     Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, si vous sélectionnez **[!UICONTROL Utiliser le fichier provenant de la transition entrante]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** avant de récupérer le fichier à importer à partir d’un serveur FTP/SFTP.
 
-      Si vous souhaitez que les utilisateurs puissent télécharger un fichier contenant les erreurs qui se sont produites pendant un import, cochez l’option **[!UICONTROL Conserver les rejets dans un fichier]** et indiquez le **[!UICONTROL Nom du fichier]**.
+     Si vous souhaitez que les utilisateurs puissent télécharger un fichier contenant les erreurs qui se sont produites pendant un import, cochez l’option **[!UICONTROL Conserver les rejets dans un fichier]** et indiquez le **[!UICONTROL Nom du fichier]**.
 
-      ![](assets/import_template_example1.png)
+     ![](assets/import_template_example1.png)
 
 1. Configurez l’activité **[!UICONTROL Réconciliation]**. Dans ce contexte, le but de cette activité est d’identifier les données entrantes.
 
@@ -72,11 +72,11 @@ Par exemple :
    * Dans l’onglet **[!UICONTROL Options avancées]**, cochez l’option **[!UICONTROL Générer le complémentaire]** pour voir si des enregistrements n’ont pas pu être intégrés dans la base de données. Le cas échéant, vous pourrez alors appliquer d’autres traitements aux données complémentaires : export de fichier, mise à jour de liste, etc.
    * Dans le premier segment de l’onglet **[!UICONTROL Segments]**, ajoutez une condition de filtrage sur la population entrante pour sélectionner uniquement les enregistrements pour lesquels l’identifiant dans le CRM du profil est différent de 0. De cette manière, les données du fichier réconciliées avec les profils de la base de données sont sélectionnées dans ce sous-ensemble.
 
-      ![](assets/import_template_example3.png)
+     ![](assets/import_template_example3.png)
 
    * Ajoutez un second segment pour sélectionner les enregistrements non réconciliés disposant de suffisamment de données pour être intégrés dans la base de données Par exemple : adresse email, prénom et nom de famille. La valeur de l’identifiant dans le CRM des profils des enregistrements qui ne sont pas réconciliés est égale à 0.
 
-      ![](assets/import_template_example3_2.png)
+     ![](assets/import_template_example3_2.png)
 
    * Tous les enregistrement qui ne sont pas sélectionnés dans les deux premiers sous-ensembles sont sélectionnés dans le **[!UICONTROL Complémentaire]**.
 
@@ -85,21 +85,21 @@ Par exemple :
    * Sélectionnez **[!UICONTROL Mise à jour]** comme **[!UICONTROL Type d’opération]**, puisque la transition entrante contient uniquement des destinataires déjà présents dans la base de données.
    * Dans l’onglet **[!UICONTROL Identification]**, sélectionnez **[!UICONTROL En utilisant des critères de réconciliation]** et définissez une clé entre la **[!UICONTROL Dimension à mettre à jour]**, Profils dans le cas présent, et le lien créé dans l’activité **[!UICONTROL Réconciliation]**. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** est utilisé.
 
-      ![](assets/import_template_example6.png)
+     ![](assets/import_template_example6.png)
 
    * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des destinataires, utilisez le bouton baguette magique pour réconcilier les différents champs automatiquement.
 
-      ![](assets/import_template_example6_2.png)
+     ![](assets/import_template_example6_2.png)
 
-      >[!NOTE]
-      >
-      >Si vous envisagez d’envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l’opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ `postalAddress/@addrDefined` comme **[!UICONTROL Destination]**. Pour plus d’informations sur les courriers et l’utilisation de l’option **[!UICONTROL Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
+     >[!NOTE]
+     >
+     >Si vous envisagez d’envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l’opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ `postalAddress/@addrDefined` comme **[!UICONTROL Destination]**. Pour plus d’informations sur les courriers et l’utilisation de l’option **[!UICONTROL Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configurez l’activité **[!UICONTROL Déduplication]** située après la transition contenant les profils non réconciliés :
 
    * Dans l’onglet **[!UICONTROL Propriétés]**, définissez le **[!UICONTROL Type de ressource]** sur la ressource temporaire générée à partir de l’activité **[!UICONTROL Réconciliation]** du workflow.
 
-      ![](assets/import_template_example4.png)
+     ![](assets/import_template_example4.png)
 
    * Dans cet exemple, le champ email est utilisé pour trouver les profils uniques. Vous pouvez utiliser n’importe quel champ dont vous êtes sûr qu’il est rempli et qu’il fait partie d’une combinaison unique.
    * Sélectionnez une **[!UICONTROL Méthode de déduplication]**. Dans ce cas, l’application décide automatiquement quels enregistrements conserver en cas de doublons.
@@ -111,15 +111,15 @@ Par exemple :
    * Sélectionnez **[!UICONTROL Ajouter uniquement]** comme **[!UICONTROL Type d’opération]**, puisque la transition entrante contient uniquement des profils non présents dans la base de données.
    * Dans l’onglet **[!UICONTROL Identification]**, sélectionnez **[!UICONTROL En utilisant des critères de réconciliation]** et définissez une clé entre la **[!UICONTROL Dimension à mettre à jour]**, Profils dans le cas présent, et le lien créé dans l’activité **[!UICONTROL Réconciliation]**. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** est utilisé.
 
-      ![](assets/import_template_example6.png)
+     ![](assets/import_template_example6.png)
 
    * Dans l’onglet **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension Profils à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des destinataires, utilisez le bouton baguette magique pour réconcilier les différents champs automatiquement.
 
-      ![](assets/import_template_example6_2.png)
+     ![](assets/import_template_example6_2.png)
 
-      >[!NOTE]
-      >
-      >Si vous envisagez d’envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l’opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ **[postalAddress/@addrDefined]** comme **[!UICONTROL Destination]**. Pour plus d’informations sur les courriers et l’utilisation de l’option **[!UICONTROL Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
+     >[!NOTE]
+     >
+     >Si vous envisagez d’envoyer des courriers à ces profils, veillez à inclure une adresse postale, car cette information est indispensable pour l’opérateur de services postaux. Assurez-vous également que la case **[!UICONTROL Adresse renseignée]** est cochée dans les informations des profils. Pour mettre à jour cette option dans un workflow, ajoutez simplement un élément aux champs à mettre à jour. Spécifiez **1** comme **[!UICONTROL Source]** et sélectionnez le champ **[postalAddress/@addrDefined]** comme **[!UICONTROL Destination]**. Pour plus d’informations sur les courriers et l’utilisation de l’option **[!UICONTROL Adresse renseignée]**, consultez [ce document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Après la troisième transition de l’activité **[!UICONTROL Segmentation]**, ajoutez une activité **[!UICONTROL Extraction de fichier]** et une activité **[!UICONTROL Transfert de fichier]** si vous voulez tracker les données non insérées dans la base de données. Paramétrez ces activités afin d’exporter la colonne dont vous avez besoin et de transférer le fichier sur un serveur FTP ou SFTP, où vous pourrez le récupérer.
 1. Ajoutez une activité **[!UICONTROL Fin]** et enregistrez le modèle de workflow.

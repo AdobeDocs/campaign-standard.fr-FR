@@ -25,7 +25,7 @@ Les prérequis sont :
 
 * **Une ou plusieurs ressources personnalisées** disponibles et publiées.
 
-   En outre, vous devez avoir défini une clé unique pour ces ressources, car les clés primaires automatiques ne sont pas exportées dans les packages. La ressource peut donc avoir une clé primaire et une clé unique supplémentaire pour garantir l&#39;unicité des données.
+  En outre, vous devez avoir défini une clé unique pour ces ressources, car les clés primaires automatiques ne sont pas exportées dans les packages. La ressource peut donc avoir une clé primaire et une clé unique supplémentaire pour garantir l&#39;unicité des données.
 * **Avoir les droits nécessaires** pour créer et exporter un package.
 
 Ressources supplémentaires :

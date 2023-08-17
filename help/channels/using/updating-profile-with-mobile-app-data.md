@@ -22,7 +22,7 @@ ht-degree: 100%
 
 Cette page décrit les étapes d&#39;élaboration d&#39;un workflow qui crée/met à jour les données de profil après l&#39;envoi par une application mobile de données de collecte de PII, selon une planification.
 
-* Les **PII** (Personally Identifiable Information) sont des données personnelles. Il peut s&#39;agir de n&#39;importe quelles données, notamment d&#39;informations qui n&#39;apparaissent pas dans la table des profils de la base de données Campaign (par exemple, les [points ciblés](../../integrating/using/about-campaign-points-of-interest-data-integration.md) Analytics pour les applications mobiles). Les données de PII sont définies par le développeur d&#39;applications mobiles, généralement avec un marketeur.
+* Les **PII** (Personally Identifiable Information) sont des données personnelles. Il peut s&#39;agir de n&#39;importe quelles données, notamment d&#39;informations qui n&#39;apparaissent pas dans la table des profils de la base de données Campaign (par exemple, les [points ciblés](../../integrating/using/about-campaign-points-of-interest-data-integration.md) Analytics pour les applications mobiles). Les données de PII sont définies par le développeur d’applications mobiles, généralement avec un spécialiste marketing.
 * La **collecte des PII** est une opération HTTP-POST vers une API REST dans Adobe Campaign Standard à partir d&#39;une application mobile.
 
 L&#39;objectif de ce cas pratique est de créer ou de mettre à jour un profil Campaign Standard si les données de PII renvoyées par une application mobile contiennent des données liées au profil.

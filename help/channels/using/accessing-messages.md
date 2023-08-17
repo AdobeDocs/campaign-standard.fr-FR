@@ -65,6 +65,6 @@ Chaque état d&#39;un message est associé à une couleur, visible sur sa vignet
 * **[!UICONTROL Terminé]** (vert) : l&#39;envoi s&#39;est terminé sans erreur
 * **[!UICONTROL En erreur]** (rouge) : l&#39;envoi a été annulé ou une erreur est survenue lors de la préparation ou de l&#39;envoi
 
-   >[!NOTE]
-   >
-   >Un bandeau jaune de notification peut apparaître au-dessus de la vignette lorsqu&#39;une action est requise, par exemple lorsque vous devez confirmer l&#39;envoi d&#39;un message.
+  >[!NOTE]
+  >
+  >Un bandeau jaune de notification peut apparaître au-dessus de la vignette lorsqu&#39;une action est requise, par exemple lorsque vous devez confirmer l&#39;envoi d&#39;un message.

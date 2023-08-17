@@ -45,23 +45,23 @@ La liste déroulante **[!UICONTROL Disposition]** propose quatre options différ
 
 * **[!UICONTROL Pleine page]** : ce type de disposition couvre tout l’écran des appareils de votre audience.
 
-   Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
+  Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
 
 * **[!UICONTROL Grand modal]** : cette disposition apparaît dans une grande fenêtre de style alerte. Votre application est toujours visible en arrière-plan.
 
-   Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
+  Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
 
 * **[!UICONTROL Petit modal]** : cette disposition apparaît dans une petite fenêtre de style alerte. Votre application est toujours visible en arrière-plan.
 
-   Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
+  Elle prend en charge des composants multimédia (image, vidéo), texte et bouton.
 
 * **[!UICONTROL Alerte]** : ce type de disposition apparaît comme message d’alerte du système d’exploitation natif.
 
-   Il ne peut prendre en charge que les composants texte et bouton.
+  Il ne peut prendre en charge que les composants texte et bouton.
 
 * **[!UICONTROL Notification locale]** : ce type de disposition apparaît en tant que message de bannière.
 
-   Il prend uniquement en charge le son, le texte et la destination. Pour plus d’informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](#customizing-a-local-notification-message-type).
+  Il prend uniquement en charge le son, le texte et la destination. Pour plus d’informations sur la notification locale, consultez [Personnaliser un type de message de notification locale](#customizing-a-local-notification-message-type).
 
 Chaque type de disposition peut être prévisualisé sur différents appareils tels que téléphone, tablette, plateforme (Android ou iOS, par exemple) et orientation (paysage ou portrait) dans la fenêtre de droite de l’éditeur de contenu.
 

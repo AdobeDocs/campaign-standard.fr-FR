@@ -58,6 +58,7 @@ L&#39;ingestion immédiate d&#39;un mapping XDM dans Adobe Experience Platform
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 L&#39;opération POST renvoie des informations concernant le statut de la demande créée :
 
@@ -109,7 +110,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 L&#39;opération GET renvoie les informations suivantes :
 
-* **batchId** : ce champ n&#39;est renseigné que si un échec s&#39;est produit après la préparation et le transfert par lots.
+* **batchId** : ce champ n’est renseigné que si un échec s’est produit après la préparation et le chargement par lots.
 * **info** : identifiant du mapping XDM.
 * **numRecords** : nombre d&#39;enregistrements ingérés (statut de succès uniquement).
 * **status** : statut de la demande d&#39;ingestion (succès/échec/en cours).
@@ -118,60 +119,60 @@ Les réponses possibles à l&#39;opération GET sont les suivantes :
 
 * Demande d&#39;ingestion réussie :
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * Échec de la demande d&#39;ingestion sans aucun enregistrement ingéré :
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * Échec de la demande d&#39;ingestion, avec un enregistrement chargé dans un lot :
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * Demande d&#39;ingestion abandonnée après ingestion de certains enregistrements (cette situation est possible en cas de blocage) :
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * Demande d&#39;ingestion en cours (lorsque la demande a chargé les données dans un lot ou lorsque le lot est en cours de préparation pour la demande) :
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

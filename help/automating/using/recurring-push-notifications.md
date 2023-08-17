@@ -42,7 +42,7 @@ Pour créer le workflow, procédez comme suit :
    * Placez l&#39;élément **Logs de diffusion (logs)** dans l&#39;espace de travail, puis sélectionnez **Existe** pour cibler tous les clients qui ont reçu l&#39;email.
    * Placez l&#39;élément **Logs de tracking (tracking)** dans l&#39;espace de travail, puis sélectionnez **N&#39;existe pas** pour cibler tous les clients qui n&#39;ont pas ouvert l&#39;email.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. L’activité [Diffusion notification push](../../automating/using/push-notification-delivery.md) vous permet de saisir le contenu de votre message et de sélectionner les champs de personnalisation que vous souhaitez utiliser.
 
@@ -51,7 +51,7 @@ Pour créer le workflow, procédez comme suit :
    * Dans le bloc **[!UICONTROL Planning]**, sélectionnez **[!UICONTROL Messages à envoyer automatiquement dans le fuseau horaire défini ci-dessous]**. Dans le cas présent, Pacifique a été sélectionné pour le **[!UICONTROL Fuseau horaire de la date de contact]**, comme dans l&#39;activité **[!UICONTROL Planificateur]** du workflow.
    * Dans le champ **[!UICONTROL Optimiser le délai d&#39;envoi par destinataire]**, sélectionnez **[!UICONTROL Envoyer au fuseau horaire du destinataire]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour démarrer le workflow récurrent.
 

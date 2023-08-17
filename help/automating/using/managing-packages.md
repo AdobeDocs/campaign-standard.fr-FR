@@ -49,7 +49,7 @@ Les étapes d’export d’un package sont présentées dans la section [Export 
 * Le package **[!UICONTROL Plateforme]** regroupe toutes les ressources ajoutées pendant la configuration technique : ressources personnalisées, ensembles de ressources personnalisées, Triggers et options d’application de type **[!UICONTROL Système]**.
 * Le package **[!UICONTROL Administration]** regroupe tous les objets ajoutés pendant la configuration métier : modèles d’opération, modèles de contenu, modèles de diffusion, modèles de landing page, modèles de programme et modèles de workflow.
 
-   Il comprend également les objets suivants : blocs de contenu, mappings de ciblage, comptes externes, entités organisationnelles, options d’application de type **[!UICONTROL Utilisateur]**, rôles, typologies, règles de typologie et utilisateurs.
+  Il comprend également les objets suivants : blocs de contenu, mappings de ciblage, comptes externes, entités organisationnelles, options d’application de type **[!UICONTROL Utilisateur]**, rôles, typologies, règles de typologie et utilisateurs.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Lorsque l’opération est terminée, plusieurs sections s’affichent :
 
 * La section **[!UICONTROL Statut de l’export]** indique si l’opération s’est correctement déroulée.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * L’onglet **[!UICONTROL Journal]** permet de consulter les différentes étapes de l’export. Il contient les états de tous les exports précédents.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Lorsque l’opération est terminée, plusieurs sections s’affichent :
 * **[!UICONTROL La section Statut de l’import]** indique si l’opération s’est correctement déroulée.
 * L’onglet **[!UICONTROL Logs d’exécution]** permet de consulter les différentes étapes de l’import. Il est particulièrement important pour l’affichage des erreurs.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Une fois qu’un package a été importé, il n’est pas possible de le réimporter à partir du même élément. Vous pouvez uniquement modifier son libellé et son identifiant.
 

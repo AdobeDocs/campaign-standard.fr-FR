@@ -26,23 +26,23 @@ Plusieurs méthodes permettent de contrôler une diffusion et de mesurer son imp
 
 * **Logs des messages** : ces logs sont accessibles depuis le tableau de bord des messages. Ils indiquent le détail de l’envoi, la cible exclue et les raisons de l’exclusion et fournissent des informations de tracking telles que les ouvertures et les clics.
 
-   Pour visualiser les logs des messages, cliquez sur l&#39;icône située en bas à droite du bloc **[!UICONTROL Déploiement]**.
+  Pour visualiser les logs des messages, cliquez sur l&#39;icône située en bas à droite du bloc **[!UICONTROL Déploiement]**.
 
-   Plusieurs onglets contiennent les informations (si elles existent) relatives aux **[!UICONTROL Envois]**, aux **[!UICONTROL Exclus]**, aux **[!UICONTROL Exclusions appliquées]**, au **[!UICONTROL Tracking]** et aux **[!UICONTROL URL trackées]**. Voir [Logs de diffusion](#delivery-logs).
+  Plusieurs onglets contiennent les informations (si elles existent) relatives aux **[!UICONTROL Envois]**, aux **[!UICONTROL Exclus]**, aux **[!UICONTROL Exclusions appliquées]**, au **[!UICONTROL Tracking]** et aux **[!UICONTROL URL trackées]**. Voir [Logs de diffusion](#delivery-logs).
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   Le journal contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Valider les messages](../../sending/using/previewing-messages.md).
+  Le journal contient tous les messages relatifs à la diffusion et aux bons à tirer (BAT). Des icônes spécifiques permettent de repérer les erreurs ou avertissements. Pour plus d&#39;informations, consultez la section [Valider les messages](../../sending/using/previewing-messages.md).
 
-   Vous pouvez exporter le journal en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
+  Vous pouvez exporter le journal en cliquant sur le bouton **[!UICONTROL Exporter la liste]**.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
 * **Logs de tâche** : vous pouvez accéder à une liste des tâches par lots déclenchées par la diffusion, à partir du tableau de bord des messages en sélectionnant **[!UICONTROL Historique des tâches]** de la liste déroulante **[!UICONTROL Résumé]**.
 
-   Sélectionnez une tâche dans la liste pour afficher les détails de la tâche **[!UICONTROL Traitement par lots]** sélectionnée.
+  Sélectionnez une tâche dans la liste pour afficher les détails de la tâche **[!UICONTROL Traitement par lots]** sélectionnée.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **Alertes de diffusion** : pour tracker les performances des diffusions, Adobe Campaign propose un système d&#39;alerte par email qui envoie des notifications afin d&#39;avertir les utilisateurs des activités système importantes.
 * **Rapports** : depuis le tableau de bord d&#39;un message, vous pouvez accéder à plusieurs rapports relatifs à ce message spécifique. Un menu **[!UICONTROL Rapports]** vous permet également d&#39;accéder à la liste complète des rapports intégrés ou personnalisés que vous pouvez utiliser pour mettre en avant des mesures spécifiques relatives à votre message ou campagne.

@@ -53,7 +53,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
    * **[!UICONTROL SMS]** : le SMS est envoyé une seule fois. Vous pouvez définir à cet endroit si vous souhaitez ou non ajouter une transition en sortie de l&#39;activité. Les différents types de transition sont détaillés à l&#39;étape 7 de cette procédure.
    * **[!UICONTROL SMS récurrent]** : le SMS est envoyé plusieurs fois, à une fréquence définie dans une activité **[!UICONTROL Planificateur]**. Choisissez la période d&#39;agrégation des envois. Cela permet de regrouper tous les envois ayant eu lieu dans la période définie dans une seule vue, aussi appelé **exécution récurrente** et accessible depuis la liste des activités marketing de l&#39;application.
 
-      Par exemple, pour un SMS récurrent d&#39;anniversaire, envoyé chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que le SMS est envoyé chaque jour.
+     Par exemple, pour un SMS récurrent d&#39;anniversaire, envoyé chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que le SMS est envoyé chaque jour.
 
 1. Sélectionnez un type de SMS. Les types de SMS sont issus des modèles de SMS définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du SMS. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de la diffusion dans le workflow est mis à jour avec le libellé du SMS.

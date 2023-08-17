@@ -42,7 +42,7 @@ L&#39;activité **Mise à jour de données** peut notamment être utilisée suit
    * **[!UICONTROL Ajouter ou mettre à jour]** : ajouter des données ou les mettre à jour si des enregistrements existent déjà dans la base.
    * **[!UICONTROL Ajouter uniquement]** : ajouter des données uniquement. Les enregistrements déjà existants ne sont pas mis à jour. Si des critères de réconciliation sont définis, seuls les enregistrements non réconciliés sont ajoutés.
 
-      Cochez la case **[!UICONTROL Générer une transition sortante pour les rejets]** si les données importées comportent certains enregistrements déjà présents en base afin d&#39;éviter toute erreur.
+     Cochez la case **[!UICONTROL Générer une transition sortante pour les rejets]** si les données importées comportent certains enregistrements déjà présents en base afin d&#39;éviter toute erreur.
 
    * **[!UICONTROL Mettre à jour]** : mettre à jour des données des enregistrements déjà présents en base uniquement.
    * **[!UICONTROL Supprimer]** : supprimer des données.

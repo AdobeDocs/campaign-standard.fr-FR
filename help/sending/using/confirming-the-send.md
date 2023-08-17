@@ -59,9 +59,9 @@ Lorsque le message est envoyé aux contacts, la zone **[!UICONTROL Déploiement]
 * le pourcentage de messages ouverts,
 * le pourcentage de clics dans les messages (pour les emails).
 
-   >[!NOTE]
-   >
-   >Le **[!UICONTROL Taux d&#39;ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
+  >[!NOTE]
+  >
+  >Le **[!UICONTROL Taux d&#39;ouverture]** et le **[!UICONTROL Taux de clics]** sont mis à jour toutes les heures.
 
 ![](assets/sending_delivery.png)
 

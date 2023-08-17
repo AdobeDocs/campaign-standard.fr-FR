@@ -83,11 +83,11 @@ Vous pouvez sélectionner cette option dans l&#39;écran de publication.
 
 * Si l&#39;API n&#39;a pas encore été publiée (en d&#39;autres termes, si vous n&#39;avez jamais étendu la ressource ou si vous n&#39;avez jamais coché cette option pour cette ressource ou une autre), vous avez le choix de la créer ou non.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Si l&#39;API a déjà été publiée (c&#39;est-à-dire si vous avez étendu la ressource et coché cette option), la mise à jour de l&#39;API est forcée.
 
-   En effet, une fois créée, l&#39;API est mise à jour automatiquement chaque fois que vous la publiez à nouveau. Cela permet d&#39;éviter de rompre la ressource de profil ou de service de cette API et d&#39;endommager votre instance.
+  En effet, une fois créée, l&#39;API est mise à jour automatiquement chaque fois que vous la publiez à nouveau. Cela permet d&#39;éviter de rompre la ressource de profil ou de service de cette API et d&#39;endommager votre instance.
 
 La ressource personnalisée est intégrée par défaut, mais si, pour un comportement précis, vous ne souhaitez pas publier cette ressource, sélectionnez l&#39;option **[!UICONTROL Masquer cette ressource dans les API]** disponible dans les **[!UICONTROL Propriétés de la ressource]**.
 

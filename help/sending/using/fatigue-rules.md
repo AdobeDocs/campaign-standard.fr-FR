@@ -99,9 +99,9 @@ Les canaux suivants sont disponibles :
 * Canal Courrier
 * Application mobile : ce canal permet d&#39;envoyer des notifications push à des profils ou des abonnés de l&#39;application. Si vous choisissez d&#39;envoyer des notifications push à des profils, ils seront compatibles avec les règles de fatigue multicanal.
 
-   >[!IMPORTANT]
-   >
-   >Les règles de fatigue sont incompatibles avec les notifications push envoyées aux abonnés de l&#39;application. Si vous envoyez des messages aux abonnés de l&#39;application, les règles de fatigue ne s&#39;appliqueront pas.
+  >[!IMPORTANT]
+  >
+  >Les règles de fatigue sont incompatibles avec les notifications push envoyées aux abonnés de l&#39;application. Si vous envoyez des messages aux abonnés de l&#39;application, les règles de fatigue ne s&#39;appliqueront pas.
 
 * Tous les canaux : cette option permet d&#39;appliquer la règle à tous les canaux. Vous pouvez par exemple décider d&#39;envoyer un maximum de 3 messages par mois sur n&#39;importe quel canal. Si vous avez envoyé 2 emails à un profil la semaine dernière et que vous essayez d&#39;envoyer une notification push aujourd&#39;hui, ce profil sera exclu.
 
@@ -135,11 +135,11 @@ Vous avez ensuite deux possibilités :
 
 * sélectionner un champ de profil : le seuil variera pour chaque profil en fonction du champ sélectionné. Par exemple, si vous avez étendu la ressource Profiles avec un champ &#39;Fréquence des communications&#39;, cliquez sur le bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]** et sélectionnez votre champ. Pour chaque profil, le seuil prendra la valeur du champ &#39;Fréquence des communications&#39;.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * définir une formule : cliquez sur le second bouton situé à droite du champ **[!UICONTROL Formule de calcul du seuil]** pour définir une formule sophistiquée de calcul du seuil. Par exemple, vous pouvez faire dépendre le nombre de messages autorisés en fonction du segment auquel appartient le profil. Ainsi, un profil répertorié dans un segment &#39;Web&#39; pourrait recevoir plus de messages que les autres profils. Une formule de type **[!UICONTROL Iif (@origin=&#39;Web&#39;, 5, 3)]** permet d&#39;autoriser l&#39;envoi de 5 messages à ces profils contre seulement 3 messages pour les profils des autres segments.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **Affiner le seuil sur les profils et diffusions**
 
@@ -176,15 +176,15 @@ Trois onglets sont disponibles. Ils indiquent les détails des résultats de l&#
 
 * Logs de diffusion :
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Exclus :
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Exclusions appliquées :
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Affichage du rapport Synthèse des règles de fatigue       {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ L&#39;implémentation de la gestion de la fatigue offre de nombreuses possibilit
 
 * Créer une règle de fatigue qui utilise un **seuil constant** s&#39;appliquant à **tous les canaux** :
 
-   Imaginons que vous créez une règle multicanal avec un seuil constant de 3 sur une période glissante de 7 jours.
+  Imaginons que vous créez une règle multicanal avec un seuil constant de 3 sur une période glissante de 7 jours.
 
-   La semaine dernière, les profils Premium ont reçu un email de promotion et un email de remarketing transactionnel. Vous avez également planifié un SMS qui sera envoyé la semaine prochaine. Vous décidez d&#39;envoyer aujourd&#39;hui une notification push ciblant tous vos profils. Les profils Premium seront exclus de la notification push d&#39;aujourd&#39;hui, car leur nombre maximum de messages sur une période de 15 jours a déjà été atteint.
+  La semaine dernière, les profils Premium ont reçu un email de promotion et un email de remarketing transactionnel. Vous avez également planifié un SMS qui sera envoyé la semaine prochaine. Vous décidez d&#39;envoyer aujourd&#39;hui une notification push ciblant tous vos profils. Les profils Premium seront exclus de la notification push d&#39;aujourd&#39;hui, car leur nombre maximum de messages sur une période de 15 jours a déjà été atteint.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Créer une règle de fatigue qui utilise un **seuil variable** reposant sur un **champ de profil** :
 
-   Vous avez étendu la ressource Profiles avec un champ &#39;Limiter les communications&#39; afin de définir un seuil différent pour chaque profil. Dans la règle de fatigue, définissez un seuil variable qui repose sur ce champ et sélectionnez une période glissante de 2 jours. Prenons deux exemples de profil : la limite des communications de Jean est de 1 et le seuil de David est de 2. Jean et David ont déjà reçu un email de newsletter hier. Vous décidez de leur envoyer un autre email aujourd&#39;hui. Seul David le recevra, car Jean a été exclu de la cible.
+  Vous avez étendu la ressource Profiles avec un champ &#39;Limiter les communications&#39; afin de définir un seuil différent pour chaque profil. Dans la règle de fatigue, définissez un seuil variable qui repose sur ce champ et sélectionnez une période glissante de 2 jours. Prenons deux exemples de profil : la limite des communications de Jean est de 1 et le seuil de David est de 2. Jean et David ont déjà reçu un email de newsletter hier. Vous décidez de leur envoyer un autre email aujourd&#39;hui. Seul David le recevra, car Jean a été exclu de la cible.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Créer une règle de fatigue qui utilise une **formule de calcul du seuil** :
 
-   Vous souhaitez changer le seuil selon l&#39;âge de vos profils. Si un profil a moins de 40 ans, vous souhaitez définir une limite de 4. Pour les profils plus âgés, vous voulez une limite de 2. Au lieu de définir ce seuil pour chaque profil avec un champ étendu, vous pouvez créer une formule directement dans la règle de fatigue afin de calculer le seuil selon l&#39;âge des profils. Dans cet exemple, la formule serait **[!UICONTROL Iif (@age&lt;40, 4, 2)]**.
+  Vous souhaitez changer le seuil selon l&#39;âge de vos profils. Si un profil a moins de 40 ans, vous souhaitez définir une limite de 4. Pour les profils plus âgés, vous voulez une limite de 2. Au lieu de définir ce seuil pour chaque profil avec un champ étendu, vous pouvez créer une formule directement dans la règle de fatigue afin de calculer le seuil selon l&#39;âge des profils. Dans cet exemple, la formule serait **[!UICONTROL Iif (@age&lt;40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Cette section contient également un exemple détaillé de règle de fatigue utilisant une formule de calcul du seuil.
+  >[!NOTE]
+  >
+  >Cette section contient également un exemple détaillé de règle de fatigue utilisant une formule de calcul du seuil.
 
 * Créer une règle de fatigue qui **affine le seuil** sur les profils et diffusions :
 
-   Vous avez étendu la ressource Profiles avec un champ &#39;Score&#39; et la ressource des diffusions avec un champ &#39;Type&#39;. Vous voulez définir un seuil constant de 3, mais souhaitez exclure de la comptabilisation toutes les diffusions de type &#39;Alerte&#39; ou &#39;Black Friday&#39; et tous les profils dont le score est supérieur à 10. Lors de l&#39;exécution de la règle, celle-ci comptabilisera, parmi les diffusions déjà envoyées et les diffusions planifiées, toutes les diffusions qui ne sont pas de type &#39;Alerte&#39; ni &#39;Black Friday&#39; envoyées aux profils dont le score est inférieur à 10.
+  Vous avez étendu la ressource Profiles avec un champ &#39;Score&#39; et la ressource des diffusions avec un champ &#39;Type&#39;. Vous voulez définir un seuil constant de 3, mais souhaitez exclure de la comptabilisation toutes les diffusions de type &#39;Alerte&#39; ou &#39;Black Friday&#39; et tous les profils dont le score est supérieur à 10. Lors de l&#39;exécution de la règle, celle-ci comptabilisera, parmi les diffusions déjà envoyées et les diffusions planifiées, toutes les diffusions qui ne sont pas de type &#39;Alerte&#39; ni &#39;Black Friday&#39; envoyées aux profils dont le score est inférieur à 10.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Vous trouverez ci-dessous un exemple détaillé de règle de fatigue utilisant une formule de calcul du seuil.
 

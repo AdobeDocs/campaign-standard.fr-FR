@@ -44,9 +44,9 @@ Pour vérifier si une ou plusieurs tâches d’une exécution de workflow préc�
 
    * La première règle filtre la tâche en cours (query2) ainsi que la tâche de planification suivante (schedule2) du workflow en cours.
 
-      >[!NOTE]
-      >
-      >Lorsqu’une activité **[!UICONTROL Planificateur]** démarre, elle ajoute immédiatement une autre tâche de planification à exécuter à la prochaine heure planifiée et débute le workflow. Par conséquent, il est important de filtrer la requête ainsi que les tâches de planification lors de la recherche de tâches en attente dans une exécution précédente.
+     >[!NOTE]
+     >
+     >Lorsqu’une activité **[!UICONTROL Planificateur]** démarre, elle ajoute immédiatement une autre tâche de planification à exécuter à la prochaine heure planifiée et débute le workflow. Par conséquent, il est important de filtrer la requête ainsi que les tâches de planification lors de la recherche de tâches en attente dans une exécution précédente.
 
    * La deuxième règle détermine si les tâches d’une exécution précédente du workflow sont toujours actives (en attente), ce qui correspond au statut d’exécution 0.
 

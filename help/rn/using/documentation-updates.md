@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7263'
 ht-degree: 100%
 
@@ -816,7 +816,7 @@ Mise à jour de l’aide contextuelle intégrée à Campaign Standard.
 
 Abonnement : abonnez ou désabonnez une liste de profils à plusieurs services – [En savoir plus](../../automating/using/subscription-services.md)
 
-Activité d&#39;enrichissement : enrichissez les données en fonction des transitions précédentes – [En savoir plus](../../automating/using/enrichment.md)
+Activité d’enrichissement : enrichissez les données en fonction des transitions précédentes – [En savoir plus](../../automating/using/enrichment.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 

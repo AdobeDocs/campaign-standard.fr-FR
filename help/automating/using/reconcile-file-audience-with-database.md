@@ -28,21 +28,21 @@ Le workflow d&#39;import se présente comme suit :
 
 * Une activité [Chargement de fichier](../../automating/using/load-file.md) télécharge un fichier contenant des données de profils extraites à l&#39;aide d&#39;un outil externe.
 
-   Par exemple :
+  Par exemple :
 
-   ```
-   lastname;firstname;birthdate;email;crmID
-   Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
-   Mars;Daniel;17/11/1987;dannymars@example.com;123545
-   Smith;Clara;08/02/1989;hayden.smith@example.com;124567
-   Durance;Allison;15/12/1978;allison.durance@example.com;120987
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
-   Binder;Tom;19/01/1982;tombinder@example.com;128653
-   Binder;Tommy;19/01/1915;tombinder@example.com;134576
-   Connor;Jade;10/10/1979;connor.jade@example.com;132452
-   Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
-   Ross;Timothy;04/07/1986;timross@example.com;157643
-   ```
+  ```
+  lastname;firstname;birthdate;email;crmID
+  Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
+  Mars;Daniel;17/11/1987;dannymars@example.com;123545
+  Smith;Clara;08/02/1989;hayden.smith@example.com;124567
+  Durance;Allison;15/12/1978;allison.durance@example.com;120987
+  Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
+  Binder;Tom;19/01/1982;tombinder@example.com;128653
+  Binder;Tommy;19/01/1915;tombinder@example.com;134576
+  Connor;Jade;10/10/1979;connor.jade@example.com;132452
+  Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
+  Ross;Timothy;04/07/1986;timross@example.com;157643
+  ```
 
 * Une activité [Sauvegarde d&#39;audience](../../automating/using/save-audience.md) sauvegarde les données entrantes sous forme d&#39;audience. Comme les données n&#39;ont pas encore été réconciliées, l&#39;audience est une Audience Fichier et ses données ne sont pas encore reconnues en tant que données de profil.
 

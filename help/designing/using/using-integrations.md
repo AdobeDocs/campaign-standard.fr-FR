@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 100%
 
@@ -25,15 +25,15 @@ L’intégration d’Adobe Campaign Standard avec Dreamweaver permet d’éditer
 
 * **Synchronisation bidirectionnelle**
 
-   Dès qu’un élément est édité dans un produit, il est mis à jour en temps réel dans l’autre. Si vous voulez changer la couleur du texte dans Dreamweaver, dès que vous réalisez ce changement, la couleur du texte est synchronisée dans Campaign. En outre, lorsque vous sélectionnez du code dans Dreamweaver ou Campaign, la sélection demeure entre les deux produits, car les numéros de lignes sont identiques. Cela peut se révéler très utile lorsque vous recherchez un élément spécifique dans le code.
+  Dès qu’un élément est édité dans un produit, il est mis à jour en temps réel dans l’autre. Si vous voulez changer la couleur du texte dans Dreamweaver, dès que vous réalisez ce changement, la couleur du texte est synchronisée dans Campaign. En outre, lorsque vous sélectionnez du code dans Dreamweaver ou Campaign, la sélection demeure entre les deux produits, car les numéros de lignes sont identiques. Cela peut se révéler très utile lorsque vous recherchez un élément spécifique dans le code.
 
 * **Télécharger des images locales vers Adobe Campaign via Dreamweaver**
 
-   Lorsque vous créez ou éditez un email au sein de Dreamweaver, vous pouvez simplement sélectionner une image de votre ordinateur de bureau ou poste local. Même si Dreamweaver vous a toujours permis de le faire, quand Dreamweaver et Campaign sont connectés, le fichier local est immédiatement téléchargé vers le serveur Adobe Campaign. Par conséquent, il n’est pas nécessaire de télécharger les images à mesure que le contenu change. De plus, cela assure que les images les plus récentes sont toujours en ligne dans Campaign.
+  Lorsque vous créez ou éditez un email au sein de Dreamweaver, vous pouvez simplement sélectionner une image de votre ordinateur de bureau ou poste local. Même si Dreamweaver vous a toujours permis de le faire, quand Dreamweaver et Campaign sont connectés, le fichier local est immédiatement téléchargé vers le serveur Adobe Campaign. Par conséquent, il n’est pas nécessaire de télécharger les images à mesure que le contenu change. De plus, cela assure que les images les plus récentes sont toujours en ligne dans Campaign.
 
 * **Ajouter la personnalisation de Campaign dans Dreamweaver**
 
-   Le développeur d’email n’a plus besoin d’ajouter du texte du type `[[FIRSTNAME_PLACEHOLDER]]` ni de rechercher la syntaxe des tables de votre modèle de données. La barre d’outils Campaign dans Dreamweaver se connecte directement au modèle de données de votre instance Campaign. Cela signifie que vous pouvez extraire toutes les données que vous voulez pour les personnaliser, du prénom à l’adresse. Si vous avez créé des blocs de contenu au sein de Campaign, vous pouvez également les intégrer directement dans Dreamweaver.
+  Le développeur d’email n’a plus besoin d’ajouter du texte du type `[[FIRSTNAME_PLACEHOLDER]]` ni de rechercher la syntaxe des tables de votre modèle de données. La barre d’outils Campaign dans Dreamweaver se connecte directement au modèle de données de votre instance Campaign. Cela signifie que vous pouvez extraire toutes les données que vous voulez pour les personnaliser, du prénom à l’adresse. Si vous avez créé des blocs de contenu au sein de Campaign, vous pouvez également les intégrer directement dans Dreamweaver.
 
 Cette fonctionnalité est présentée dans la documentation Dreamweaver, accessible [ici](https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
@@ -140,8 +140,8 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
   </tr> 
   <tr> 
    <td> <strong>Audience</strong><br /> </td> 
-   <td> Les marketeurs qui souhaitent conserver la possibilité d’utiliser des composants HTML avec des fonctionnalités de glisser-déposer.<br /> </td> 
-   <td> Les marketeurs qui utilisent déjà Experience Manager et qui souhaitent utiliser des modèles d’email standard avec peu de personnalisation.<br /> </td> 
+   <td> Les spécialistes marketing qui souhaitent conserver la possibilité d’utiliser des composants HTML avec des fonctionnalités de glisser-déposer.<br /> </td> 
+   <td> Les spécialistes marketing qui utilisent déjà Experience Manager et qui souhaitent utiliser des modèles d’email standard avec peu de personnalisation.<br /> </td> 
    <td> Les développeurs qui souhaitent coder des contenus d’email et s’intégrer directement avec Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 

@@ -27,11 +27,11 @@ La réponse renvoie les métadonnées principales de la ressource (tous les autr
 
    * &quot;apiName&quot; : nom de l’attribut utilisé dans les API.
    * &quot;type&quot; : définition de type de niveau supérieur (chaîne, nombre, lien, collection, énumération...).
-   * &quot;dataPolicy&quot; : la valeur du champ doit respecter les règles données. Par exemple, si la règle dataPolicy est définie sur &quot;email&quot;, la valeur doit être un email valide. Lors d’un PATCH ou d’un POST, la variable dataPolicy peut vérifier la valeur ou modifier la valeur à transformer (smartCase, par exemple).
+   * &quot;dataPolicy&quot; : la valeur du champ doit respecter les politiques données. Par exemple, si la règle dataPolicy est définie sur &quot;email&quot;, la valeur doit être un email valide. Lors d’un PATCH ou d’un POST, la variable dataPolicy peut vérifier la valeur ou modifier la valeur à transformer (smartCase, par exemple).
    * &quot;category&quot; : indique la catégorie du champ dans le requêteur.
    * &quot;resType&quot; : le type technique.
 
-      Si &quot;type&quot; est renseigné avec la valeur &quot;link&quot; ou &quot;collection&quot;, la valeur resTarget est le nom de la ressource ciblée par le lien.
+     Si &quot;type&quot; est renseigné avec la valeur &quot;link&quot; ou &quot;collection&quot;, la valeur resTarget est le nom de la ressource ciblée par le lien.
 Si &quot;type&quot; est renseigné avec la valeur &quot;enumeration&quot;, un champ &quot;values&quot; est ajouté et chaque valeur d’énumération est détaillée dans le nœud **values** .
 
 * Le nœud **Filters** renvoie l’URL permettant de récupérer les filtres associés. Voir à ce propos [cette section](../../api/using/filtering.md).

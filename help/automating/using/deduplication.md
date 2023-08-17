@@ -67,15 +67,15 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
    * **[!UICONTROL Choisir pour moi]** : sélectionne au hasard parmi les doublons l&#39;enregistrement à conserver.
    * **[!UICONTROL Par ordonnancement de valeurs]** : permet de définir un ordre de priorité des valeurs pour un ou plusieurs champs. Pour définir les valeurs, sélectionnez un champ ou créez une expression puis ajoutez la ou les valeurs dans le tableau correspondant. Cliquez sur le bouton **[!UICONTROL Ajouter]** situé au-dessus de la liste des valeurs pour définir un nouveau champ.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l&#39;expression sélectionnée n&#39;est pas vide.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL A partir d&#39;une expression]** : permet de conserver les enregistrements dont la valeur de l&#39;expression renseignée est la plus petite ou la plus grande.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. Si besoin, gérez les [Transitions](../../automating/using/activity-properties.md) de l&#39;activité afin d&#39;accéder à des options avancées sur la population transmise en sortie.
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.

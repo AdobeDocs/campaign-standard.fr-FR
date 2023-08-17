@@ -41,23 +41,23 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
 
    * Remplissez le champ **[!UICONTROL Code segment]** : saisissez manuellement la date et l&#39;heure d&#39;envoi du message.
 
-      Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, Le format doit être le suivant : **:mm:AAAA-MM-JJ hh:ss+tz**.
+     Par exemple, si vous voulez envoyer le premier groupe le 1er juin à 10 heures GMT+1, Le format doit être le suivant : **:mm:AAAA-MM-JJ hh:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Pour envoyer le deuxième lot le jour suivant, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
+     Pour envoyer le deuxième lot le jour suivant, saisissez **2017-06-02 10:00:00+01** pour le deuxième segment.
 
-      Pour les segments restants, définissez les lots comme ceci :
+     Pour les segments restants, définissez les lots comme ceci :
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * Veillez à sélectionner l&#39;option **[!UICONTROL Limiter la population de ce segment]**.
 
-      Dans l&#39;onglet **[!UICONTROL Limitation]**, sélectionnez **[!UICONTROL Tirage aléatoire]** et saisissez le pourcentage souhaité pour chaque segment : 10 pour le premier groupe, 15 pour le deuxième, etc.
+     Dans l&#39;onglet **[!UICONTROL Limitation]**, sélectionnez **[!UICONTROL Tirage aléatoire]** et saisissez le pourcentage souhaité pour chaque segment : 10 pour le premier groupe, 15 pour le deuxième, etc.
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Une fois que tous les segments ont été définis, sélectionnez **[!UICONTROL Générer tous les segments dans une même transition]** et cliquez sur **[!UICONTROL Confirmer]**.
 
@@ -122,13 +122,12 @@ Ce processus peut être planifié à l&#39;aide d&#39;un workflow.
       * 14 heures - 16 heures : **6**. Le centre d&#39;appel étant fermé entre 12 heures et 14 heures, le message sera envoyé au troisième quart de la population cible à 14 heures (date de contact + 6 heures).
       * 16 heures - 18 heures : **8**. Le message sera envoyé au dernier quart de la population cible à 16 heures (date de contact + 8 heures).
 
-      >[!NOTE]
-      >
-      >La date de contact sera définie dans l&#39;activité de Diffusion Email ultérieurement dans le workflow.
+     >[!NOTE]
+     >
+     >La date de contact sera définie dans l&#39;activité de Diffusion Email ultérieurement dans le workflow.
 
    * Veillez à sélectionner l&#39;option **[!UICONTROL Limiter la population de ce segment]**.
    * Dans l&#39;onglet **[!UICONTROL Limitation]**, sélectionnez **[!UICONTROL Tirage aléatoire]** et saisissez le pourcentage souhaité pour chaque segment : **25**.
-
 
 1. Une fois que tous les segments ont été définis, sélectionnez **[!UICONTROL Générer tous les segments dans une même transition]** et cliquez sur **[!UICONTROL Confirmer]**.
 

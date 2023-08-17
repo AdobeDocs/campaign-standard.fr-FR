@@ -47,9 +47,9 @@ Adobe ne fournit pas de conseils juridiques. Nous vous recommandons donc de vous
 
 * Examinez les différents types de données client stockées dans Adobe Campaign et définissez des identifiants uniques (il en faudra certainement plusieurs).
 
-* Définissez des règles et procédures d’authentification et de confirmation de l’identité des titulaires des données.
+* Définissez des règles et procédures d’authentification et de validation pour la confirmation de l’identité des titulaires des données.
 
-* Assurez-vous que la réponse adressée au titulaire des données est parfaitement compréhensible.
+* Assurez-vous que la réponse adressée au titulaire de données est parfaitement compréhensible.
 
 **Obtention du consentement**
 
@@ -87,7 +87,7 @@ Plutôt que de considérer ces exigences accrues de consentement comme un risque
 
 Adobe Campaign offre déjà des capacités de gestion du consentement à plus de niveaux que la plupart des spécialistes marketing ne tirent parti des champs de données personnalisés ou d’un ou plusieurs services.
 
-Il est conseillé aux professionnels du marketing de consulter leur service juridique pour savoir comment procéder, puis tirer parti des capacités déjà intégrées à Adobe Campaign.
+Il est conseillé aux spécialistes marketing de consulter leur service juridique pour savoir comment procéder, puis tirer parti des capacités déjà intégrées à Adobe Campaign.
 
 Par exemple, il est possible d’étendre le modèle de données dans Adobe Campaign pour suivre non seulement si les personnes ont choisi de s’inscrire, mais aussi l’horodatage de l’opt-in et un type d’indicateur qui capture la portée précise du consentement.
 
@@ -95,7 +95,7 @@ Par exemple, il est possible d’étendre le modèle de données dans Adobe Cam
 
 **Quelles données les contrôleurs de données peuvent-ils supprimer dans Adobe Campaign en réponse à une requête d’un client (titulaire des données) ?**
 
-Toutes les données associées au titulaire de données seront supprimées, y compris les tableaux prêts à l’emploi et personnalisés.
+Toutes les données associées au titulaire de données seront supprimées, y compris les tables d’usine et personnalisées.
 
 Techniquement, toutes les données liées au titulaire de données avec `integrity="own"` seront supprimées.
 

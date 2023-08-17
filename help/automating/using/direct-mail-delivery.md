@@ -58,11 +58,11 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
    * **[!UICONTROL Courrier]** : le courrier est envoyé une seule fois. Vous pouvez définir à cet endroit si vous souhaitez ou non ajouter une transition en sortie de l&#39;activité. Les différents types de transition sont détaillés à l&#39;étape 7 de cette procédure.
    * **[!UICONTROL Courrier récurrent]** : le courrier est envoyé plusieurs fois, à une fréquence définie dans une activité **[!UICONTROL Planificateur]**. Choisissez la période d&#39;agrégation des envois. Cela permet de regrouper tous les envois ayant eu lieu dans la période définie dans un seul courrier, aussi appelé **exécution récurrente** et accessible depuis la liste des activités marketing de l&#39;application.
 
-      Par exemple, pour un courrier récurrent d&#39;anniversaire, traité chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous obtiendrez ainsi des rapports sur votre diffusion mois par mois alors que le courrier est traité chaque jour.
+     Par exemple, pour un courrier récurrent d&#39;anniversaire, traité chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous obtiendrez ainsi des rapports sur votre diffusion mois par mois alors que le courrier est traité chaque jour.
 
-      >[!NOTE]
-      >
-      >Pour les courriers récurrents, un nouveau fichier est généré à chaque exécution du workflow. La période d&#39;agrégation sélectionnée n&#39;a aucun impact sur ce comportement.
+     >[!NOTE]
+     >
+     >Pour les courriers récurrents, un nouveau fichier est généré à chaque exécution du workflow. La période d&#39;agrégation sélectionnée n&#39;a aucun impact sur ce comportement.
 
 1. Sélectionnez un type de courrier. Les types de courrier sont issus des modèles définis dans le menu **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du courrier. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de diffusion dans le workflow est mis à jour avec le libellé du courrier.

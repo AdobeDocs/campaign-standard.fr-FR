@@ -62,7 +62,8 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
    * **[!UICONTROL Email]** : l&#39;email est envoyé une seule fois. Vous pouvez définir à cet endroit si vous souhaitez ou non ajouter une transition en sortie de l&#39;activité. Les différents types de transition sont détaillés à l&#39;étape 7 de cette procédure.
    * **[!UICONTROL Email récurrent]** : l&#39;email est envoyé plusieurs fois, à une fréquence définie dans une activité **[!UICONTROL Planificateur]**. Choisissez la période d&#39;agrégation des envois. Cela permet de regrouper tous les envois ayant eu lieu dans la période définie dans un seul email, aussi appelé **exécution récurrente** et accessible depuis la liste des activités marketing de l&#39;application.
 
-      Par exemple, pour un email récurrent d&#39;anniversaire, envoyé chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que l&#39;email est envoyé chaque jour.
+     Par exemple, pour un email récurrent d&#39;anniversaire, envoyé chaque jour, vous pouvez choisir d&#39;agréger les envois par mois. Vous pourrez ainsi obtenir des rapports sur votre diffusion mois par mois alors que l&#39;email est envoyé chaque jour.
+
    >[!NOTE]
    >
    >Les diffusions récurrentes sont préparées en fonction de la **période d’agrégation**. Par exemple, si la période d’agrégation est &quot;par jour&quot;, la diffusion n’est repréparée qu’une fois par jour. Si vous prévoyez d’appeler ce workflow plusieurs fois par jour, utilisez [!UICONTROL Pas d’agrégation].

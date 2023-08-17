@@ -71,19 +71,19 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
    * Vous pouvez choisir d&#39;utiliser la structure d&#39;un autre fichier en sélectionnant l&#39;option **[!UICONTROL Détecter la structure depuis un nouveau fichier]**.
    * Vous pouvez modifier les paramètres de détection par défaut afin de les adapter à votre fichier. Le champ **[!UICONTROL Type de fichier]** permet d&#39;indiquer si le fichier à importer est composé de colonnes à longueur fixe. Si c&#39;est le cas, vous devez également spécifier le nombre maximal de caractères pour chaque colonne dans l&#39;onglet **[!UICONTROL Définition des colonnes]**.
 
-      Dans **[!UICONTROL Format du fichier]** sont regroupées toutes les options de détection nécessaires pour récupérer correctement les données du fichier. Vous pouvez les modifier puis détecter à nouveau la structure du dernier fichier chargé dans l&#39;activité en prenant en compte ces nouveaux paramètres. Utilisez pour cela le bouton **[!UICONTROL Appliquer la configuration]**. Vous pouvez par exemple spécifier un séparateur de colonnes différent.
+     Dans **[!UICONTROL Format du fichier]** sont regroupées toutes les options de détection nécessaires pour récupérer correctement les données du fichier. Vous pouvez les modifier puis détecter à nouveau la structure du dernier fichier chargé dans l&#39;activité en prenant en compte ces nouveaux paramètres. Utilisez pour cela le bouton **[!UICONTROL Appliquer la configuration]**. Vous pouvez par exemple spécifier un séparateur de colonnes différent.
 
-      >[!NOTE]
-      >
-      >Cette opération prend en compte le dernier fichier téléchargé dans l&#39;activité. Si le fichier détecté est volumineux, l&#39;aperçu des données porte seulement sur les 30 premières lignes.
+     >[!NOTE]
+     >
+     >Cette opération prend en compte le dernier fichier téléchargé dans l&#39;activité. Si le fichier détecté est volumineux, l&#39;aperçu des données porte seulement sur les 30 premières lignes.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      Dans la section **[!UICONTROL Format du fichier]**, l&#39;option **[!UICONTROL Vérifier les colonnes du fichier par rapport aux définitions de colonne]** vous permet de vérifier que les colonnes du fichier que vous téléchargez correspondent à la définition des colonnes.
+     Dans la section **[!UICONTROL Format du fichier]**, l&#39;option **[!UICONTROL Vérifier les colonnes du fichier par rapport aux définitions de colonne]** vous permet de vérifier que les colonnes du fichier que vous téléchargez correspondent à la définition des colonnes.
 
-      Si le nombre et/ou le nom des colonnes ne correspond pas à la définition des colonnes, un message d&#39;erreur apparaîtra lors de l&#39;exécution du workflow. Si l&#39;option n&#39;est pas activée, les avertissements figureront dans le log.
+     Si le nombre et/ou le nom des colonnes ne correspond pas à la définition des colonnes, un message d&#39;erreur apparaîtra lors de l&#39;exécution du workflow. Si l&#39;option n&#39;est pas activée, les avertissements figureront dans le log.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Depuis l&#39;onglet **[!UICONTROL Définition des colonnes]**, vérifiez le format des données de chaque colonne et ajustez les paramètres si nécessaire.
 
@@ -101,7 +101,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
    * est celui que vous avez téléchargé lors de l&#39;étape précédente ;
    * est un nouveau fichier à télécharger depuis le poste local. L&#39;option **[!UICONTROL Transférer un nouveau fichier depuis le poste local]** s&#39;affiche si le téléchargement d&#39;un premier fichier a déjà été défini dans le workflow. Elle vous permet de télécharger un autre fichier à exploiter si le fichier actuel ne convient pas.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Si le fichier dont vous souhaitez charger les données est compressé dans un fichier GZIP (.gz), sélectionnez l’option **[!UICONTROL Décompression]** dans le champ **[!UICONTROL Ajouter une étape de pré-traitement]**. Cela permet de décompresser le fichier avant de procéder au chargement des données. Cette option est disponible uniquement si le fichier provient de la transition entrante de l&#39;activité.
 
@@ -137,7 +137,7 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 
    * **[!UICONTROL Nombre de caractères maximum]** : permet de spécifier le nombre maximum de caractères pour les colonnes de type chaîne.
 
-      Ce champ doit être renseigné lors du chargement des fichiers composés de colonnes à longueur fixe.
+     Ce champ doit être renseigné lors du chargement des fichiers composés de colonnes à longueur fixe.
 
    * **[!UICONTROL Gestion de la casse]** : permet de définir si un traitement au niveau de la casse doit être appliqué pour les données de type **Texte**.
    * **[!UICONTROL Gestion des espaces]** : permet d&#39;indiquer si certains espaces doivent être ignorés dans une chaîne pour les données de type **Texte**.
@@ -154,9 +154,9 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
    * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;absence de recodification]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
    * **[!UICONTROL Rejeter la ligne en cas d&#39;absence de recodification]** : la ligne entière n&#39;est pas traitée sauf si une recodification a été définie pour la valeur en erreur (voir option **[!UICONTROL Recodification des valeurs]** ci-dessus).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Le Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Le Traitement des erreurs]** concerne les erreurs au niveau des valeurs renseignées dans le fichier importé. Par exemple, un mauvais type de données rencontré (&quot;quatre&quot; en toutes lettres pour une colonne de type &quot;Nombre entier&quot;), une chaîne contenant plus de caractères que le nombre maximum autorisé, une date avec les mauvais séparateurs, etc. En revanche, cette option ne concerne pas les erreurs générées par la gestion des valeurs vides.
 
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
 * **[!UICONTROL Gestion des valeurs vides]** : permet d&#39;indiquer comment gérer les valeurs vides rencontrées lors du chargement des données.

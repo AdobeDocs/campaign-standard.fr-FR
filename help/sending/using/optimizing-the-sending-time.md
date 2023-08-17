@@ -32,14 +32,14 @@ Plusieurs options sont disponibles :
 
 * **[!UICONTROL Pas d&#39;optimisation]** : les messages sont envoyés à l&#39;heure de l&#39;utilisateur.
 
-   Par exemple, si votre fuseau horaire est GMT+1 et que vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l&#39;envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 11 heures (heure locale du destinataire).
+  Par exemple, si votre fuseau horaire est GMT+1 et que vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l&#39;envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 11 heures (heure locale du destinataire).
 
 * **[!UICONTROL Envoyer en fonction du fuseau horaire du destinataire]** : tous les destinataires recevront le message en fonction de leur fuseau horaire.
 
-   Par exemple, si vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l&#39;envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 9 heures (heure locale du destinataire).
+  Par exemple, si vous tapez 9 heures dans le champ **[!UICONTROL Démarrer l&#39;envoi le]**, un destinataire se trouvant dans le fuseau horaire GMT+3 recevra le message à 9 heures (heure locale du destinataire).
 
-   Voir [Envoi des messages au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+  Voir [Envoi des messages au fuseau horaire du destinataire](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
 * **[!UICONTROL Envoyer à une date personnalisée définie en fonction d&#39;une formule]** : chaque destinataire recevra le message à une date et une heure calculée en fonction d&#39;une formule spécifiée.
 
-   Voir [Calcul de la date d&#39;envoi](../../sending/using/computing-the-sending-date.md).
+  Voir [Calcul de la date d&#39;envoi](../../sending/using/computing-the-sending-date.md).

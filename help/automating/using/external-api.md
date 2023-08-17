@@ -96,7 +96,7 @@ L’analyseur JSON est conçu pour s’adapter aux types de motifs de structure 
 L’exemple de définition JSON doit présenter les **caractéristiques suivantes** :
 
 * Les **éléments de tableau** doivent contenir des propriétés de premier niveau (les niveaux plus profonds ne sont pas pris en charge).
-   Les **noms de propriété** deviennent des noms de colonne pour le schéma de sortie du tableau temporaire de sortie.
+  Les **noms de propriété** deviennent des noms de colonne pour le schéma de sortie du tableau temporaire de sortie.
 * Les **éléments JSON** à capturer doivent être imbriqués à 10 niveaux ou moins dans la réponse JSON.
 * La définition du **nom de colonne** repose sur le premier élément du tableau &quot;data&quot;.
 La définition des colonnes (ajout/suppression) et la valeur de type de la propriété peuvent être éditées dans l’onglet **Définition des colonnes**.
@@ -114,9 +114,9 @@ Si l’**analyse est validée**, un message s’affiche. Il vous invite à perso
 
 ### Exécution
 
-Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d&#39;entrée HTTPS** avec lequel Campaign Standard communiquera.
+Cet onglet vous permet de définir le point d’entrée de la connexion. Le champ **[!UICONTROL URL]** vous permet de définir le **point d’entrée HTTPS** avec lequel Campaign Standard communiquera.
 
-Si le point d&#39;entrée l&#39;exige, deux types de mécanismes d&#39;authentification sont disponibles :
+Si le point d’entrée l’exige, deux types de mécanismes d’authentification sont disponibles :
 
 * Authentification de base : entrez votre nom d’utilisateur / mot de passe dans la section **[!UICONTROL En-tête(s) de demande]**.
 
@@ -158,7 +158,7 @@ Cet onglet est disponible dans la plupart des activités de workflow. Pour plus 
 
 ## Test
 
-Pour tester la fonctionnalité API externe avec un point d&#39;entrée de test simple, vous pouvez utiliser Postman Echo : https://docs.postman-echo.com.
+Pour tester la fonctionnalité API externe avec un point d’entrée de test simple, vous pouvez utiliser Postman Echo : https://docs.postman-echo.com.
 
 ## Résolution des problèmes
 

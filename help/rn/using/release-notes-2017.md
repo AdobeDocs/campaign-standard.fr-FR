@@ -112,7 +112,7 @@ _Ressources personnalisées_
   </tr> 
   <tr> 
    <td> Reporting dynamique avec les données de profil<br /> </td> 
-   <td> Le reporting dynamique offre des rapports métier en temps réel entièrement personnalisables. Dans cette version, une amélioration apportée au reporting dynamique offre un accès aux données de profil, ce qui permet d’effectuer des analyses démographiques par dimension de profil (genre, ville, code postal et âge) en plus des données fonctionnelles des campagnes email comme les ouvertures et les clics Avec la même interface intuitive de type glisser-déposer, il n’a jamais été aussi simple de déterminer les performances de votre campagne email pour les segments clients les plus importants.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
+   <td> Le reporting dynamique offre des rapports métier en temps réel entièrement personnalisables. Dans cette version, une amélioration apportée au reporting dynamique offre un accès aux données de profil, ce qui permet d’effectuer des analyses démographiques par dimension de profil (genre, ville, code postal et âge) en plus des données fonctionnelles des campagnes par e-mail comme les ouvertures et les clics Avec la même interface intuitive de type glisser-déposer, il n’a jamais été aussi simple de déterminer les performances de votre campagne par e-mail pour les segments clients les plus importants.<br /> Pour plus d’informations, consultez la <a href="../../reporting/using/about-dynamic-reports.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Inscription en masse avec l’origine et la date<br /> </td> 
@@ -392,7 +392,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver (Labs)<br /> </td> 
-   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes email avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> Avec l’intégration d’Adobe Campaign et de Dreamweaver, vous disposez à présent d’un processus intégré pour créer des campagnes par e-mail avec des solutions Adobe.<br /> Vous pouvez modifier les emails Adobe Campaign dans Dreamweaver. Le contenu est synchronisé de manière automatique et transparente entre les deux solutions.<br /> Pour la release initiale, l’intégration est disponible en tant que fonctionnalité « Labs » et fonctionne uniquement avec Dreamweaver Pre Release Beta. Pour l’activer, veuillez contacter AC-DW-integration@adobe.com.<br /> Pour plus d’informations, regardez cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation manuelle de l’heure d’envoi<br /> </td> 
@@ -522,7 +522,7 @@ _Notifications push_
 _Workflows_
 
 * Correction d’une erreur qui était susceptible d’empêcher les prévisualisations des requêtes sur les ressources d’événement (rtEvent, par exemple).
-* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l’activité suivante. Par exemple, transférez le fichier de rejets via un serveur SFTP à l&#39;aide d&#39;une activité **[!UICONTROL Transfert de fichier]** .
+* Le fichier de rejets généré par une activité **[!UICONTROL Chargement de fichier]** peut désormais être récupéré dans sa transition sortante et traité dans l’activité suivante. Par exemple, chargez le fichier de rejets via un serveur SFTP à l’aide d’une activité **[!UICONTROL Chargement de fichier]**.
 * Correction d’une erreur qui était susceptible d’empêcher un utilisateur de limiter la population d’un segment lorsque **[!UICONTROL Ressource temporaire]** était sélectionnée dans l’onglet **[!UICONTROL Général]** de l’activité **[!UICONTROL Segmentation]** .
 * **[!UICONTROL Les activités Planificateur]** ne peuvent plus être définies pour exécuter un workflow plusieurs fois toutes les 10 minutes.
 * Correction d’une erreur qui était susceptible d’empêcher le bon fonctionnement de l’option **[!UICONTROL Utiliser uniquement les données additionnelles communes]** dans une activité **[!UICONTROL Union]**.

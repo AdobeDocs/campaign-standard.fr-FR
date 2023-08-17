@@ -7,7 +7,7 @@ level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7562'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Rapport sur le segment de workflow<br /> </td> 
-   <td> <p>Cette fonctionnalité permet aux marketeurs de répartir les performances de diffusion par code segment. Lorsque vous créez un workflow et que vous utilisez une activité de segmentation pour affecter des segments à la population de la diffusion, ces derniers peuvent maintenant être intégrés dans la même diffusion. Vous pouvez ainsi afficher les statistiques d’ouverture/clic selon plusieurs segments au sein d’une seule diffusion.</p><p>Pour plus d’informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=fr">vidéo de procédure</a>.</p></td>
+   <td> <p>Cette fonctionnalité permet aux spécialistes marketing de répartir les performances de diffusion par code segment. Lorsque vous créez un workflow et que vous utilisez une activité de segmentation pour affecter des segments à la population de la diffusion, ces derniers peuvent maintenant être intégrés dans la même diffusion. Vous pouvez ainsi afficher les statistiques d’ouverture/clic selon plusieurs segments au sein d’une seule diffusion.</p><p>Pour plus d’informations, consultez la <a href="../../reporting/using/creating-a-report-workflow-segment.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=fr">vidéo de procédure</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -239,7 +239,7 @@ ht-degree: 100%
 * Correction d’un problème qui se produisait lors de la configuration d’une liste et de l’ajout du champ &quot;icône&quot; à celle-ci. (CAMP-34585)
 * Correction d’un problème qui empêchait l’utilisation des symboles &quot;|&quot; et &quot;%&quot; en tant que séparateurs de date ou d’heure dans les activités de workflow de chargement de fichier. (CAMP-34706)
 * Correction d’un problème qui se produisait lors de l’utilisation des conditions de visibilité avec des cases à cocher dans les landing pages. (CAMP-34802)
-* Correction d’un problème dans l’activité Enrichissement qui empêchait l’affichage des champs de l’onglet &quot;Données additionnelles&quot; si la dimension de filtrage était définie sur les logs de tracking et la dimension cible dans le profil.
+* Correction d’un problème dans l’activité d’enrichissement qui empêchait l’affichage des champs de l’onglet « Données additionnelles »i la dimension de filtrage était définie sur les logs de tracking et la dimension cible dans le profil.
 * Correction d’un problème qui entraînait un message d’erreur lors de l’export d’une ressource « workflowTemplate ».
 * Correction d’un problème qui empêchait, lors de la création d’un profil, d’enregistrer le champ « Code pays/zone géographique » s’il était sélectionné dans la boîte de dialogue.
 * Correction de plusieurs problèmes qui se produisaient lors de l’utilisation du modèle d’import de courrier (updateQuarantinesDeliveryLogsDirectMail).
@@ -449,19 +449,19 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Un ensemble de quatre modèles d’email réactif conçus par des artistes Behance est maintenant disponible.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/using-reusable-content.md#content-templates).
+  Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/using-reusable-content.md#content-templates).
 
 * Notre nouvelle expérience d’intégration vous permet de commencer à créer plus rapidement des e-mails et facilite l’accès à la documentation et aux tutoriels.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
+  Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page).
 
 * Vous avez maintenant la possibilité de configurer le nombre et la largeur des colonnes en fonction de vos besoins.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+  Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 * Lors de l’édition dans la vue mobile, vous pouvez masquer certains composants uniquement dans l’affichage mobile pour utiliser efficacement l’espace.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+  Pour plus d’informations, consultez la [documentation détaillée](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
 * Vous pouvez maintenant ajouter des canaux sociaux personnalisés à votre modèle d’email en plus de ceux déjà disponibles.
 * Correction d’un problème qui empêchait de faire défiler le menu de structure lorsque plus de 18 structures étaient utilisées. (CAMP-31173)
@@ -481,7 +481,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * La liste déroulante Fuseau horaire de l’écran de création de profil a été déplacée de la section Adresse vers la section supérieure de l’interface.
 * Vous pouvez maintenant ajouter des séparateurs lors de la configuration d’écrans de ressources personnalisés, ce qui vous permet d’organiser vos champs en catégories.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
+  Pour plus d’informations, consultez la [documentation détaillée](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration).
 
 **Autres changements**
 
@@ -598,7 +598,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction d’un problème en raison duquel les connexions au simulateur SMPP échouaient en raison d’un mot de passe vide envoyé par Adobe Campaign.
 * Correction d’un problème qui empêchait l’envoi de campagnes lorsque les connexions SMS étaient instables.
 * Correction d’un problème qui entraînait l’affichage de diffusions supprimées dans les rapports dynamiques.
-* Correction d’un problème qui empêchait la récupération des données additionnelles des tables des exclus, des logs de diffusion et du tracking lors de l’utilisation d’une activité Enrichissement dans un workflow.
+* Correction d’un problème qui empêchait la récupération des données additionnelles des tables des exclus, des logs de diffusion et du tracking lors de l’utilisation d’une activité d’enrichissement dans un workflow.
 * Correction d’un problème lié aux demandes de suppression RGPD qui se produisait lors de l’utilisation d’un type de lien &quot;Lien de collection de cardinalité N&quot; et de l’option &quot;La suppression de l’enregistrement cible entraîne la suppression des enregistrements référencés par le lien&quot;.
 * Correction d’un problème lié au partage des rapports.
 * Correction d’un problème qui entraînait des problèmes de débit lors de l’envoi d’une notification push.

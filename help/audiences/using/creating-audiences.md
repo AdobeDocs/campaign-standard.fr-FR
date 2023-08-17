@@ -113,11 +113,11 @@ La modification d&#39;une audience dépend de son type :
 
 * Pour modifier une audience de type **Requête**, accédez à la liste des audiences via le menu **[!UICONTROL Audiences]**, ou la vignette **[!UICONTROL Audiences]** de la page d&#39;accueil d&#39;Adobe Campaign.
 
-   Ouvrez l&#39;audience de votre choix. Tous les éléments d&#39;une audience déjà créée sont modifiables.
+  Ouvrez l&#39;audience de votre choix. Tous les éléments d&#39;une audience déjà créée sont modifiables.
 
-   >[!CAUTION]
-   >
-   >Si vous changez la **[!UICONTROL Dimension de filtrage]** de la requête, les règles déjà paramétrées sont perdues.
+  >[!CAUTION]
+  >
+  >Si vous changez la **[!UICONTROL Dimension de filtrage]** de la requête, les règles déjà paramétrées sont perdues.
 
 * Pour modifier une audience de type **Liste** ou de type **Fichier**, éditez le workflow à partir duquel elle a été créée et modifiez l&#39;activité de **[!UICONTROL Sauvegarde d&#39;audience]**. Démarrez le workflow pour que l&#39;audience soit modifiée.
 * Pour éditer une audience de type **Experience Cloud**, consultez la section [Importer/exporter des audiences avec l&#39;intégration de People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

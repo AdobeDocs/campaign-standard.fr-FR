@@ -31,6 +31,7 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
 >[!IMPORTANT]
 >
 > Ces étapes nécessitent un rôle **Administrateur** dans la version Experience Cloud de votre organisation.
+>
 
 1. Accédez à https://experience.adobe.com/ et connectez-vous à Adobe Experience Cloud.
 1. Accédez à l&#39;**Admin Console**.
@@ -45,6 +46,7 @@ Dans cette section, vous allez découvrir comment accorder l&#39;accès à l&#39
    >[!IMPORTANT]
    >
    >Les étapes restantes de cette section seront effectuées pour chacune de vos instances Campaign (développement, test, production).
+   >
 
 1. Cliquez sur la première instance à configurer.
 

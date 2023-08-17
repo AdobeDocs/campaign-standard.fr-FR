@@ -44,28 +44,28 @@ Si vous utilisez une variable dans une activité, l’interface vous aide à l�
 
 * ![](assets/extsignal_picker.png) : sélectionnez la variable d’événement parmi toutes les variables disponibles dans le workflow.
 
-   ![](assets/wkf_test_activity_variables.png)
+  ![](assets/wkf_test_activity_variables.png)
 
 * ![](assets/extsignal_expression_editor.png) : modifiez les expressions en associant des variables et des fonctions (voir [cette page](../../automating/using/advanced-expression-editing.md)).
 
-   ![](assets/wkf_test_activity_variables_expression.png)
+  ![](assets/wkf_test_activity_variables_expression.png)
 
-   Cette liste fournit des fonctions qui vous permettent d&#39;effectuer un filtrage complexe. Ces fonctions sont présentées dans [cette section](../../automating/using/list-of-functions.md).
+  Cette liste fournit des fonctions qui vous permettent d&#39;effectuer un filtrage complexe. Ces fonctions sont présentées dans [cette section](../../automating/using/list-of-functions.md).
 
-   En outre, vous pouvez utiliser les fonctions ci-dessous, disponibles dans toutes les activités, qui vous permettent d&#39;appliquer des variables d&#39;événements après avoir appelé un workflow avec des paramètres externes (voir [cette section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)) :
+  En outre, vous pouvez utiliser les fonctions ci-dessous, disponibles dans toutes les activités, qui vous permettent d&#39;appliquer des variables d&#39;événements après avoir appelé un workflow avec des paramètres externes (voir [cette section](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)) :
 
-   | Nom | Description | Syntaxe |
-   | ---------|----------|---------|
-   | EndWith | Indique si une chaîne (premier paramètre) se termine par une chaîne spécifique (deuxième paramètre). | EndWith(&lt;String>,&lt;String>) |
-   | startWith | Indique si une chaîne (premier paramètre) commence par une chaîne spécifique (deuxième paramètre). | startWith(&lt;String>,&lt;String>) |
-   | Extract | Retourne les premiers caractères d’une chaîne en utilisant un séparateur. | Extract(&lt;String>,&lt;Separator>) |
-   | ExtractRight | Retourne les derniers caractères d’une chaîne en utilisant un séparateur. | ExtractRight(&lt;String>,&lt;Separator>) |
-   | DateFormat | Met en forme une date en utilisant le format spécifié dans le deuxième paramètre (exemple :  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
-   | FileName | Retourne le nom du chemin d’un fichier. | FileName(&lt;String>) |
-   | FileExt | Retourne l’extension du chemin d’un fichier. | FileExt(&lt;String>) |
-   | GetOption | Renvoie la valeur de la fonction spécifiée. | GetOption(&lt;optionName>) |
-   | IsNull | Indique si une chaîne ou une date est nulle. | IsNull(&lt;String/date>) |
-   | UrlUtf8Encode | Encode une URL en UTF8. | UrlUtf8Encode(&lt;String>) |
+  | Nom | Description | Syntaxe |
+  | ---------|----------|---------|
+  | EndWith | Indique si une chaîne (premier paramètre) se termine par une chaîne spécifique (deuxième paramètre). | EndWith(&lt;String>,&lt;String>) |
+  | startWith | Indique si une chaîne (premier paramètre) commence par une chaîne spécifique (deuxième paramètre). | startWith(&lt;String>,&lt;String>) |
+  | Extract | Retourne les premiers caractères d’une chaîne en utilisant un séparateur. | Extract(&lt;String>,&lt;Separator>) |
+  | ExtractRight | Retourne les derniers caractères d’une chaîne en utilisant un séparateur. | ExtractRight(&lt;String>,&lt;Separator>) |
+  | DateFormat | Met en forme une date en utilisant le format spécifié dans le deuxième paramètre (exemple :  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
+  | FileName | Retourne le nom du chemin d’un fichier. | FileName(&lt;String>) |
+  | FileExt | Retourne l’extension du chemin d’un fichier. | FileExt(&lt;String>) |
+  | GetOption | Renvoie la valeur de la fonction spécifiée. | GetOption(&lt;optionName>) |
+  | IsNull | Indique si une chaîne ou une date est nulle. | IsNull(&lt;String/date>) |
+  | UrlUtf8Encode | Encode une URL en UTF8. | UrlUtf8Encode(&lt;String>) |
 
 ## Personnaliser les activités avec des variables d’événements   {#customizing-activities-with-events-variables}
 
@@ -112,17 +112,17 @@ Les variables d’événements déclarées sont à présent disponibles dans la 
 
 * Définissez le nom du modèle à utiliser pour la diffusion.
 
-   >[!NOTE]
-   >
-   >Cette action est disponible uniquement pour les diffusions **récurrentes**.
+  >[!NOTE]
+  >
+  >Cette action est disponible uniquement pour les diffusions **récurrentes**.
 
-   ![](assets/extsignal_activities_template.png)
+  ![](assets/extsignal_activities_template.png)
 
 * Personnalisez la diffusion : lorsque vous sélectionnez un champ de personnalisation pour configurer une diffusion, des variables d’événements sont disponibles dans l’élément **[!UICONTROL Paramètres de workflow]**. Vous pouvez les utiliser comme tout autre champ de personnalisation, par exemple pour définir l’objet de la diffusion, l’expéditeur, etc.
 
-   La personnalisation de la diffusion est présentée dans [cette section](../../designing/using/personalization.md).
+  La personnalisation de la diffusion est présentée dans [cette section](../../designing/using/personalization.md).
 
-   ![](assets/extsignal_activities_perso.png)
+  ![](assets/extsignal_activities_perso.png)
 
 **Codes segment** : définissez le code segment en fonction des variables d’événements.
 

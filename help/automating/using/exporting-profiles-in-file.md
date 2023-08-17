@@ -38,15 +38,15 @@ Le but de ce workflow est d&#39;exporter une liste de profils sous la forme d&#3
 
    * Format de sortie CSV
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Format de date
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Validez votre activité.
 1. Placez une activité de type [Transfert de fichier](../../automating/using/transfer-file.md) à la suite de l&#39;activité **[!UICONTROL Extraction de fichier]** pour récupérer le fichier extrait sur un compte externe.
-1. Ouvrez l&#39;activité et choisissez l&#39;action **[!UICONTROL Envoi de fichier]**.
+1. Ouvrez l’activité et choisissez l’action **[!UICONTROL Chargement de fichier]**.
 
    ![](assets/wkf_data_export11.png)
 

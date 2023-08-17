@@ -44,9 +44,9 @@ Le créateur de segments doit maintenant s’afficher dans votre espace de trava
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. Assurez-vous que la stratégie de fusion souhaitée est sélectionnée dans le volet des paramètres.
+1. Assurez-vous que la politique de fusion souhaitée est sélectionnée dans le volet des paramètres.
 
-   Pour plus d’informations sur les stratégies de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
+   Pour plus d’informations sur les politiques de fusion, reportez-vous à la section dédiée du [guide d’utilisation du créateur de segments](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=fr).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -70,11 +70,11 @@ Les champs sont organisés en onglets :
 
 * **[!UICONTROL Attributs]** : Attributs de profils existants pouvant provenir de votre base de données Adobe Campaign et/ou Adobe Experience Platform. Ils font référence à des informations statiques jointes à un profil (par exemple, adresse électronique, pays de résidence, statut du programme de fidélité, etc.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Événements]** : Activités qui identifient les consommateurs qui ont eu une certaine interaction avec les points de contact clients de votre entreprise, comme « toute personne qui a commandé deux fois en deux semaines ». Il peut être diffusé en continu à partir d’Adobe Analytics ou directement ingéré dans Adobe Experience Platform à l’aide d’outils ETL tiers.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >

@@ -28,23 +28,23 @@ Les options possibles sont les suivantes :
 
 * **[!UICONTROL Jours d’historique]** : indique le nombre de jours après lesquels l’historique doit être purgé. L’historique contient des éléments liés au workflow : logs, tâches, événements (objets techniques liés à l’opération du workflow), ainsi que les fichiers téléchargés par l’activité **[!UICONTROL Transfert de fichier]**. La valeur par défaut est de 30 jours pour les modèles de workflow d’usine.
 
-   La purge de l’historique est effectuée par le workflow technique Nettoyage de la base, qui est exécuté par défaut tous les jours (voir [Liste des workflows techniques](../../administration/using/technical-workflows.md)).
+  La purge de l’historique est effectuée par le workflow technique Nettoyage de la base, qui est exécuté par défaut tous les jours (voir [Liste des workflows techniques](../../administration/using/technical-workflows.md)).
 
-   >[!IMPORTANT]
-   >
-   >Si le champ **[!UICONTROL Jours d’historique]** n’est pas renseigné, la valeur prise en compte est « 1 », ce qui signifie que l’historique sera purgé après 1 jour.
+  >[!IMPORTANT]
+  >
+  >Si le champ **[!UICONTROL Jours d’historique]** n’est pas renseigné, la valeur prise en compte est « 1 », ce qui signifie que l’historique sera purgé après 1 jour.
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]** : permet d’enregistrer les requêtes SQL du workflow dans les journaux.
 
 * **[!UICONTROL Mode de diagnostic (consigner le plan d’exécution des requêtes longues et donner des recommandations)]** : cochez cette option si vous souhaitez que le plan d’exécution complet soit consigné. Cette fonctionnalité est désactivée par défaut.
 
-   Pour plus d&#39;informations à ce sujet, consulter cette [section](#diagnostic-mode).
+  Pour plus d&#39;informations à ce sujet, consulter cette [section](#diagnostic-mode).
 
 * **[!UICONTROL Conserver les résultats intermédiaires]** : cochez cette option si vous souhaitez pouvoir visualiser le détail des transitions.
 
-   >[!CAUTION]
-   >
-   >Cette option consomme beaucoup d’espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
+  >[!CAUTION]
+  >
+  >Cette option consomme beaucoup d’espace disque. De plus, elle a été conçue pour vous aider à créer un workflow et à garantir une configuration et un comportement corrects. Laissez-la décochée sur les instances de production.
 
 * **[!UICONTROL Exécuter dans le moteur (ne pas utiliser en production)]** : permet d’exécuter le workflow localement, à des fins de test d’environnement de développement.
 
@@ -84,8 +84,8 @@ Vous pouvez gérer l’option à partir du menu avancé en sélectionnant **[!UI
 
 * **[!UICONTROL Heure d’exécution de la requête (en millisecondes)(DiagnosticModeQueryTime)]** : depuis le champ **[!UICONTROL Valeur]**, vous pouvez définir une nouvelle heure pour l’exécution de votre requête. Si l&#39;exécution de votre requête dépasse cette valeur, le plan d&#39;exécution sera consigné.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Pourcentage de temps de scan seq (DiagnosticModeSeqScanPercentage)]** : depuis le champ **[!UICONTROL Valeur]**, vous pouvez modifier le pourcentage du temps de requête nécessaire à l’analyse de la séquence pour que la recommandation soit générée.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

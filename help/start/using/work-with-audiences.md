@@ -123,7 +123,7 @@ Grâce aux workflows et à l&#39;éditeur de requêtes, vous pouvez créer des a
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
-Le RGPD est la nouvelle loi de l&#39;Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s&#39;applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l&#39;UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
+Le RGPD est la nouvelle loi de l’Union européenne (UE) sur la protection de la vie privée. Il harmonise et modernise les exigences en matière de protection des données. Il s’applique aux clients Adobe Campaign qui détiennent des données pour des titulaires de données résidant dans l’UE. Outre les fonctionnalités de protection des données déjà disponibles dans Adobe Campaign (notamment la gestion des accords, les paramètres de rétention des données et les rôles utilisateur), nous incluons, dans le cadre de notre rôle de fournisseur de service de traitement des données, des fonctionnalités supplémentaires pour faciliter votre préparation en tant que Contrôleur de données à certaines demandes RGPD.
 
 Pour plus d’informations sur les outils et fonctionnalités proposés par Adobe Campaign pour vous aider à être en conformité avec le RGPD, reportez-vous à [cette section](../../start/using/privacy.md).
 

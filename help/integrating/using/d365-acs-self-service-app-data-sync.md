@@ -22,6 +22,7 @@ Vous pouvez synchroniser des tables de Microsoft Dynamics 365 vers Campaign et 
 
 >[!IMPORTANT]
 >Vous devez arrêter/démarrer le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** pour que vos modifications soient prises en compte. [En savoir plus](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
 
 ## Mapper des tables de Microsoft Dynamics 365 vers Campaign
 
@@ -43,19 +44,19 @@ Voici une description de chacune des colonnes de la table :
 
    * Cliquez sur l&#39;icône **[!UICONTROL Relire les données]** pour resynchroniser toutes les données de la table Microsoft Dynamics 365. Normalement, l&#39;application d&#39;intégration ne synchronise que les données de Microsoft Dynamics 365 qui ont récemment été modifiées.  Cependant, dans certains cas (vous avez apporté une modification ou commis une erreur, par exemple), vous pouvez souhaiter que toutes les données soient resynchronisées. Dans ces cas, vous cliquez sur ce bouton et, la prochaine fois que vous arrêtez/démarrez le workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**, vos données commencent à se synchroniser.
 
-      Si vous cliquez sur le bouton **[!UICONTROL Relire les données]** et que les vérifications réussissent, l&#39;icône devient désactivée : les données de cette paire de mapping de table seront resynchronisées avec la prochaine exécution du workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**.
+     Si vous cliquez sur le bouton **[!UICONTROL Relire les données]** et que les vérifications réussissent, l&#39;icône devient désactivée : les données de cette paire de mapping de table seront resynchronisées avec la prochaine exécution du workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]**.
 
-      Vous ne pouvez pas choisir de relire les données lorsque les conditions suivantes sont remplies :
+     Vous ne pouvez pas choisir de relire les données lorsque les conditions suivantes sont remplies :
 
       * il existe 2 000 000 d&#39;éléments (ou plus) dans la mesure Backlog associée au workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** (affiché dans la **[!UICONTROL page Workflows]**) ;
       * la table Microsoft Dynamics 365 comporte 2 000 000 d&#39;enregistrements ou plus.
 
-      Le nombre d’enregistrements à resynchroniser varie. Si vous disposez d’un grand nombre d’enregistrements, la synchronisation peut prendre du temps. Reportez-vous à la mesure **[!UICONTROL Backlog]** de la page **[!UICONTROL Workflows]** au fur et à mesure que l’application d’intégration effectue le processus de synchronisation.
+     Le nombre d’enregistrements à resynchroniser varie. Si vous disposez d’un grand nombre d’enregistrements, la synchronisation peut prendre du temps. Reportez-vous à la mesure **[!UICONTROL Backlog]** de la page **[!UICONTROL Workflows]** au fur et à mesure que l’application d’intégration effectue le processus de synchronisation.
 
-      >[!IMPORTANT]
-      >
-      > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
-
+     >[!IMPORTANT]
+     >
+     > Il est vivement recommandé d&#39;arrêter le workflow d&#39;intégration lors de la publication de modifications dans Adobe Campaign Standard ou Microsoft Dynamics 365. Les modifications applicables sont les suivantes : mises à jour des ressources/entités (et de leurs champs associés), des liens, des colonnes d&#39;identifiants, etc. qui sont actuellement utilisés par l&#39;intégration.
+     >
 
 ## Créer un mapping {#add-a-new-mapping}
 
@@ -137,6 +138,7 @@ Le commutateur **[!UICONTROL Appliquer les mises à jour]** vous permet de contr
 >[!NOTE]
 >
 >Cliquez sur l&#39;en-tête de colonne **[!UICONTROL Appliquer les mises à jour]** pour mettre à jour **tous** les commutateurs à activer ou à désactiver.
+>
 
 Lorsque vous sélectionnez des valeurs de champ, le type de données s’affiche sous les menus déroulants.  Souvenez-nous de ce point lors du mapping des valeurs d’un champ à l’autre.
 
@@ -176,6 +178,7 @@ L&#39;option **[!UICONTROL Voulez-vous supprimer les enregistrements dans Adobe�
 >[!NOTE]
 >
 > Si aucun filtre n&#39;est ajouté, tous les enregistrements qui ont été modifiés seront propagés vers Adobe Campaign.
+>
 
 ### Paramètres avancés {#advanced-settings}
 

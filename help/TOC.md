@@ -5,7 +5,7 @@ user-guide-description: Centre d'aide pour les principales fonctionnalités, tâ
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 100%
 
@@ -479,7 +479,7 @@ ht-degree: 100%
       + [Configuration de l&#39;accès aux API](api/using/setting-up-api-access.md)
    + Concepts globaux {#global-concepts}
       + [À lire absolument](api/using/must-read.md)
-      + [Points d&#39;entrée](api/using/endpoints.md)
+      + [Points d’entrée](api/using/endpoints.md)
       + [Mécanisme des métadonnées](api/using/metadata-mechanism.md)
       + [Verbes](api/using/verbs.md)
       + Autres opérations {#additional-operations}

@@ -57,13 +57,13 @@ Une diffusion d&#39;exécution est un message technique non fonctionnel et non e
 
 * Chaque fois qu&#39;une diffusion récurrente est exécutée ou mise à jour.
 
-   Par exemple, si le workflow qui gère cette diffusion est exécuté une fois par mois, il y aura une diffusion d&#39;exécution par mois. De plus, chaque fois que le contenu de la diffusion est mis à jour, une autre diffusion d&#39;exécution est créée.
+  Par exemple, si le workflow qui gère cette diffusion est exécuté une fois par mois, il y aura une diffusion d&#39;exécution par mois. De plus, chaque fois que le contenu de la diffusion est mis à jour, une autre diffusion d&#39;exécution est créée.
 
-   Pour plus d&#39;informations sur les diffusions email récurrentes, voir [Diffusion Email](../../automating/using/email-delivery.md).
+  Pour plus d&#39;informations sur les diffusions email récurrentes, voir [Diffusion Email](../../automating/using/email-delivery.md).
 
 * Par défaut, une fois par mois pour les messages transactionnels et chaque fois qu&#39;un message transactionnel est édité et republié.
 
-   Pour plus d’informations sur les messages transactionnels, voir la section [Prise en main de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md).
+  Pour plus d’informations sur les messages transactionnels, voir la section [Prise en main de la messagerie transactionnelle](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -56,6 +56,7 @@ Vous pouvez aussi configurer le serveur SFTP si vous prévoyez d&#39;exécuter 
 >[!IMPORTANT]
 >
 >Vous êtes responsable des informations auxquelles vous accédez et que vous téléchargez à partir des dossiers SFTP. Si les informations contiennent des données personnelles, vous êtes tenu de respecter les lois et règlements applicables en matière de confidentialité. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
 
 Pour définir les paramètres SFTP Campaign pour l&#39;intégration de Microsoft Dynamics 365, accédez à la section suivante :
 

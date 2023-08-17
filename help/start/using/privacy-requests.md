@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1669'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Traitement]**/**[!UICONTROL Reprise en cours]** : le workflow traite la demande.
 * **[!UICONTROL Suppression en attente]** : le workflow a identifié toutes les données du destinataire à supprimer.
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
-   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
+  <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
 * **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL État de la demande]** de la liste des demandes d&#39;accès à des informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données. 
 

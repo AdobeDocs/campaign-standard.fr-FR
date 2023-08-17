@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Utilisation de modèles {#use-templates}
 
-Les modèles de diffusion accroissent l&#39;efficacité en offrant des configurations prêtes à l&#39;emploi pour les types d&#39;activité les plus courants. Grâce aux modèles, les marketeurs peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
+Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants.Grâce aux modèles, les spécialistes marketing peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 
 En savoir plus sur les modèles de diffusion dans [cette section](../../start/using/marketing-activity-templates.md).
 

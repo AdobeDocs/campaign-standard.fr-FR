@@ -37,7 +37,7 @@ Un ensemble de règles par défaut garantit les contrôles standard. Le tableau 
 | **[!UICONTROL Vérifier le contenu In-App pour le modèle d&#39;abonné]** | In-App | Au début de la personnalisation | Vérifie que le contenu/les triggers In-App ne sont pas vides pour le modèle d&#39;abonné. |
 | **[!UICONTROL Vérifier la taille du BAT]** | Tous | Après le ciblage | Génère un message d’erreur si la population cible du BAT dépasse 100 destinataires. |
 | **[!UICONTROL Vérifier le lien de partage vers les réseaux sociaux]** | Email | Au début de la personnalisation | Vérifie la présence d’un lien vers une page miroir lors de l&#39;inclusion d&#39;un lien de partage vers les réseaux sociaux (ViralLinks) dans le contenu. |
-| **[!UICONTROL Vérifier le sujet]** | Email | Au début de la personnalisation | Vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents de messagerie, et vérifie que l&#39;objet du message est bien renseigné. |
+| **[!UICONTROL Vérifier l’objet]** | Email | Au début de la personnalisation | Vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents de messagerie, et vérifie que l&#39;objet du message est bien renseigné. |
 | **[!UICONTROL Vérifier le lien de désabonnement]** | Email | Au début de la personnalisation | Vérifie la présence d&#39;au moins une URL de désabonnement (URL de type opt-out) dans chacun des contenus (HTML et Texte). |
 | **[!UICONTROL Vérifier les libellés d&#39;URL]** | Email | Au début de la personnalisation | Vérifie que chaque URL de tracking comporte un libellé. |
 | **[!UICONTROL Vérifier les URL]** | Email | Au début de la personnalisation | Vérifie les URL de tracking (présence du caractère « &amp; »). |
@@ -50,7 +50,7 @@ Les règles de contrôle peuvent être appliquées à différentes phases du cyc
 
 * **Après le ciblage** : l’exécution après le ciblage vous permet de connaître le volume de la cible afin d’appliquer la règle de contrôle.
 
-   Par exemple, la règle de contrôle **Vérification de la taille des BAT** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
+  Par exemple, la règle de contrôle **Vérification de la taille des BAT** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
 
 * **Au début de la personnalisation**: s’applique lorsque la vérification concerne la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d&#39;analyse.
 

@@ -87,15 +87,15 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 
 * **Alignement du texte** : placez le curseur de votre souris sur du texte et servez-vous de la barre d&#39;outils contextuelle pour l&#39;aligner.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * L&#39;**Alignement horizontal** peut être appliqué au texte, aux images et aux boutons, mais pas aux composants **[!UICONTROL Diviseur]** et **[!UICONTROL Social]** à l&#39;heure actuelle.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * Pour définir l&#39;**alignement vertical**, sélectionnez une colonne au sein d&#39;un composant de structure et choisissez une option dans le volet Paramètres.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Définition des fonds {#about-backgrounds}
 
@@ -114,35 +114,35 @@ Vous trouverez ci-dessous les paramètres de fond disponibles.
 
 * Définissez une **[!UICONTROL Couleur de fond]** pour l&#39;ensemble de l&#39;email. Assurez-vous de sélectionner les paramètres du corps dans l&#39;arborescence de navigation accessible à partir de la palette gauche.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Définissez la même couleur de fond pour tous les composants de structure en sélectionnant **[!UICONTROL Couleur de fond de la fenêtre]**. Cette option vous permet de sélectionner un paramètre différent de la couleur de fond.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Définissez une couleur de fond différente pour chaque composant de structure. Sélectionnez une structure dans l&#39;arborescence de navigation accessibles à partir de la palette gauche afin d&#39;appliquer une couleur de fond spécifique uniquement sur cette structure.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
+  Veillez à ne pas définir de couleur de fond de la fenêtre, car celle-ci peut masquer les couleurs de fond de la structure.
 
 * Définissez une **[!UICONTROL Image de fond]** pour le contenu d&#39;un composant de structure.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
+  >[!NOTE]
+  >
+  >Certains programmes de messagerie ne prennent pas en charge les images de fond. Si ces images ne sont pas prises en charge, la couleur d’arrière-plan de la ligne est utilisée à la place. Assurez-vous de sélectionner une couleur de fond de secours appropriée dans le cas où l&#39;image ne pourrait s&#39;afficher.
 
 * Définissez une couleur de fond au niveau des colonnes.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Il s&#39;agit du cas pratique le plus courant. Adobe vous recommande de définir les couleur de fond au niveau des colonnes afin de profiter d&#39;une plus grande flexibilité lors de l&#39;édition de l&#39;ensemble du contenu d&#39;email.
+  >[!NOTE]
+  >
+  >Il s&#39;agit du cas pratique le plus courant. Adobe vous recommande de définir les couleur de fond au niveau des colonnes afin de profiter d&#39;une plus grande flexibilité lors de l&#39;édition de l&#39;ensemble du contenu d&#39;email.
 
-   Vous pouvez également définir une image de fond au niveau des colonnes, mais cette option est rarement utilisée.
+  Vous pouvez également définir une image de fond au niveau des colonnes, mais cette option est rarement utilisée.
 
 ### Exemple : ajustement de la marge intérieure et de l&#39;alignement vertical {#example--adjusting-vertical-alignment-and-padding}
 

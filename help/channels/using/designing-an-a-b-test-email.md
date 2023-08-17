@@ -51,14 +51,15 @@ Dans le cadre spécifique d&#39;un test A/B :
    * **[!UICONTROL Stratégie gagnante]** : sélectionnez le critère à utiliser pour déterminer la variante gagnante.
    * **[!UICONTROL Répartition de la cible]** : choisissez quel pourcentage de la cible recevra chaque variante. Le pourcentage restant recevra la variante gagnante une fois qu&#39;elle sera déterminée. La sélection est réalisée aléatoirement parmi les profils de la cible.
 
-      >[!NOTE]
-      >
-      >Si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale.
+     >[!NOTE]
+     >
+     >Si la population totale est inférieure à 50 000, chaque variante doit représenter au moins 10 % de la population totale.
 
    * **[!UICONTROL Méthode d&#39;envoi du gagnant]** : choisissez si vous souhaitez que la variante gagnante soit automatiquement envoyée une fois déterminée ou si vous souhaitez confirmer manuellement l&#39;envoi à la population restante.
    * **[!UICONTROL Durée du test]** : indiquez la durée du test. La variante gagnante est déterminée automatiquement à l&#39;issue de cette durée. Vous pouvez choisir manuellement la variante gagnante avant la fin du test depuis le tableau de bord de l&#39;email.
 
-      Le test doit avoir une durée supérieure ou égale à une heure afin que des données de tracking puissent être collectées et correctement prises en compte pour le choix de la variante gagnante.
+     Le test doit avoir une durée supérieure ou égale à une heure afin que des données de tracking puissent être collectées et correctement prises en compte pour le choix de la variante gagnante.
+
    ![](assets/ab_parameters.png)
 
 1. Une fois les paramètres du test A/B définis, passez à l&#39;étape suivante de l&#39;assistant et définissez le contenu de l&#39;email. En fonction du modèle que vous avez choisi, vous pouvez définir plusieurs objets, plusieurs noms d&#39;expéditeurs ou plusieurs contenus différents. Utilisez le carrousel afin de naviguer entre les différentes variantes de l&#39;élément. Pour plus d&#39;informations, consultez la section relative à l&#39;[éditeur de contenu](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -66,7 +67,7 @@ Dans le cadre spécifique d&#39;un test A/B :
    ![](assets/create_ab_testing2.png)
 
 1. Validez la création de l&#39;email. Le tableau de bord de l&#39;email s&#39;affiche.
-1. Planifiez l&#39;envoi. La date définie indique le début du test A/B.
+1. Planifier l’envoi. La date définie indique le début du test A/B.
 1. Vérifiez les paramètres du test A/B affichés au niveau du bloc **[!UICONTROL Paramètres du test A/B]**. Vous pouvez les modifier jusqu&#39;à la confirmation de l&#39;envoi du test (étape 9) en sélectionnant le bloc.
 
    ![](assets/create_ab_testing3.png)

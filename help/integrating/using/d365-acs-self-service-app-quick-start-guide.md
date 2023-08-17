@@ -111,6 +111,7 @@ Une fois que votre configuration est correcte, cliquez sur le bouton **[!UICONTR
 >[!IMPORTANT]
 >
 >Il est **vivement** recommandé de commencer l’exécution dans vos environnements de test ou de développement avant l’environnement de production. Vérifiez que l&#39;instance stage/dev est sélectionnée dans l&#39;en-tête.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 

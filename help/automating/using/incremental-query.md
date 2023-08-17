@@ -40,7 +40,7 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
 
 * export des données.
 
-   Vous pouvez utiliser une activité **[!UICONTROL Requête incrémentale]** pour exporter de manière régulière les nouveaux logs vers des fichiers. Cet export peut s&#39;avérer utile si vous souhaitez par exemple utiliser les données des logs dans des outils de Business Intelligence ou de reporting externes. Un exemple complet est présenté dans la section [Exporter des logs](../../automating/using/exporting-logs.md).
+  Vous pouvez utiliser une activité **[!UICONTROL Requête incrémentale]** pour exporter de manière régulière les nouveaux logs vers des fichiers. Cet export peut s&#39;avérer utile si vous souhaitez par exemple utiliser les données des logs dans des outils de Business Intelligence ou de reporting externes. Un exemple complet est présenté dans la section [Exporter des logs](../../automating/using/exporting-logs.md).
 
 **Rubriques connexes :**
 
@@ -60,7 +60,8 @@ L&#39;activité **[!UICONTROL Requête incrémentale]** peut être utilisée dan
    * **[!UICONTROL Exclure les résultats des exécutions précédentes]** : à chaque nouvelle exécution, les résultats des exécutions précédentes sont exclus.
    * **[!UICONTROL Utiliser un champ date]** : les prochaines exécutions tiennent compte uniquement des résultats pour lesquels le champ date sélectionné est postérieur ou égal à la date de dernière exécution de l&#39;activité **[!UICONTROL Requête incrémentale]**. Vous pouvez sélectionner un champ date associé à la ressource sélectionnée dans l&#39;onglet **[!UICONTROL Propriétés]**. Ce mode offre de meilleures performances lors de l&#39;interrogation de ressources volumineuses telles que des données de log.
 
-      Après la première exécution du workflow, vous pouvez voir dans cet onglet la date de dernière exécution qui sera utilisée pour la prochaine exécution. Cette date est automatiquement mise à jour à chaque exécution du workflow. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant une autre qui répond à vos besoins.
+     Après la première exécution du workflow, vous pouvez voir dans cet onglet la date de dernière exécution qui sera utilisée pour la prochaine exécution. Cette date est automatiquement mise à jour à chaque exécution du workflow. Vous avez toujours la possibilité de remplacer cette valeur en en saisissant une autre qui répond à vos besoins.
+
    >[!NOTE]
    >
    >Le mode **[!UICONTROL Utiliser un champ date]** offre davantage de flexibilité selon le champ date sélectionné. Par exemple, si le champ sélectionné correspond à une date de modification, le mode du champ date vous permet de récupérer les données qui ont été récemment mises à jour. L&#39;autre mode, en revanche, exclut simplement les enregistrements qui ont déjà été ciblés dans une exécution précédente, même s&#39;ils ont été modifiés depuis la dernière exécution du workflow.

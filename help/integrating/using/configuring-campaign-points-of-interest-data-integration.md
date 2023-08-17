@@ -66,10 +66,10 @@ Pour pouvoir collecter des données de points ciblés avec Adobe Campaign, vous
 
    Ne remplissez pas la section **[!UICONTROL Paramètres spécifiques à l&#39;appareil]**, qui concerne uniquement le paramétrage des applications destinées à recevoir des notifications push.
 
-Dans la section **[!UICONTROL Propriétés de l&#39;application mobile]**, deux URL sont répertoriées : **[!UICONTROL Point d&#39;entrée pour la collecte des PII]** et **[!UICONTROL Point d&#39;entrée des services de localisation]**. Elles seront utilisées dans l&#39;interface Adobe Mobile Services. Voir [Configurer une application mobile dans Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
+Dans la section **[!UICONTROL Propriétés de l’application mobile]**, deux URL sont répertoriées : **[!UICONTROL Point d’entrée pour la collecte des PII]** et **[!UICONTROL Point d’entrée des services de localisation]**. Elles seront utilisées dans l&#39;interface Adobe Mobile Services. Voir [Configurer une application mobile dans Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* L&#39;URL **[!UICONTROL Point d&#39;entrée pour la collecte des PII]** sert à collecter les jetons d&#39;enregistrement et les identifiants Experience Cloud des utilisateurs à partir de l&#39;application mobile lors de son lancement. Lorsqu&#39;un utilisateur se connecte à l&#39;application à l&#39;aide d&#39;identifiants comme l&#39;adresse électronique, le prénom et le nom, ces données sont également utilisées pour réconcilier le jeton d&#39;enregistrement de l&#39;utilisateur avec un profil Adobe Campaign.
-* L&#39;URL **[!UICONTROL Point d&#39;entrée des services de localisation]** sert à collecter les données de localisation telles que la latitude, la longitude et le rayon d&#39;un point ciblé d&#39;un utilisateur.
+* L’URL **[!UICONTROL Point d’entrée pour la collecte des PII]** sert à collecter les jetons d’enregistrement et les identifiants Experience Cloud des utilisateurs à partir de l’application mobile lors de son lancement. Lorsqu&#39;un utilisateur se connecte à l&#39;application à l&#39;aide d&#39;identifiants comme l&#39;adresse électronique, le prénom et le nom, ces données sont également utilisées pour réconcilier le jeton d&#39;enregistrement de l&#39;utilisateur avec un profil Adobe Campaign.
+* L’URL **[!UICONTROL Point d’entrée des services de localisation]** sert à collecter les données de localisation telles que la latitude, la longitude et le rayon d’un point ciblé d’un utilisateur.
 
 Vous pouvez maintenant utiliser ces valeurs dans Adobe Mobile Services pour terminer la configuration, comme expliqué dans la section [Configurer une application mobile dans Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services).
 
@@ -82,8 +82,8 @@ Pour envoyer les données collectées par Adobe Mobile Services vers Adobe Campa
 Vous aurez besoin d&#39;informations spécifiques accessibles dans les paramètres de l&#39;application mobile définis dans Adobe Campaign (voir [Configurer une application mobile dans Campaign](#setting-up-a-mobile-app-in-campaign)) :
 
 * **[!UICONTROL Identifiant IMS de l&#39;organisation]**
-* **[!UICONTROL Point d&#39;entrée pour la collecte des PII]**
-* **[!UICONTROL Point d&#39;entrée des services de localisation]**
+* **[!UICONTROL Point d’entrée pour la collecte des PII]**
+* **[!UICONTROL Point d’entrée des services de localisation]**
 
 Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-après. Si vous n&#39;êtes pas un utilisateur d&#39;Adobe Analytics, contactez votre administrateur Adobe Campaign.
 
@@ -100,34 +100,34 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
 1. Créez un postback.
 
    * Sélectionnez **[!UICONTROL PII]** comme **[!UICONTROL Type de postback]**.
-   * Dans le champ **[!UICONTROL URL]**, copiez l&#39;URL **[!UICONTROL Point d&#39;entrée pour la collecte des PII]** à partir de l&#39;application mobile que vous avez configurée dans l&#39;interface Adobe Campaign, précédée du nom du serveur. Voir [Configurer une application mobile dans Campaign](#setting-up-a-mobile-app-in-campaign).
+   * Dans le champ **[!UICONTROL URL]**, copiez l’URL **[!UICONTROL Point d’entrée pour la collecte des PII]** à partir de l’application mobile que vous avez configurée dans l’interface Adobe Campaign, précédée du nom du serveur. Voir [Configurer une application mobile dans Campaign](#setting-up-a-mobile-app-in-campaign).
    * Renseignez le champ **[!UICONTROL Corps de publication]** comme suit :
 
-      Pour iOS:
+     Pour iOS:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"apns",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"apns",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
-      Pour Android :
+     Pour Android :
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"gcm",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"gcm",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
    * Définissez **Type de contenu** sur **[!UICONTROL application/json]**.
    * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez n&#39;importe quel événement, généralement **[!UICONTROL Lancé]** et **[!UICONTROL existe]**.
@@ -136,25 +136,25 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
 1. Créez un deuxième postback.
 
    * Sélectionnez **[!UICONTROL Postback]** comme **[!UICONTROL Type de postback]**.
-   * Dans le champ **[!UICONTROL URL]**, copiez l&#39;URL **[!UICONTROL Point d&#39;entrée des services de localisation]** à partir de l&#39;application mobile que vous avez configurée dans l&#39;interface Adobe Campaign, précédée du nom du serveur. Voir [Configurer une application mobile dans Campaign](#setting-up-a-mobile-app-in-campaign).
+   * Dans le champ **[!UICONTROL URL]**, copiez l’URL **[!UICONTROL Point d’entrée des services de localisation]** à partir de l’application mobile que vous avez configurée dans l’interface Adobe Campaign, précédée du nom du serveur. Voir [Configurer une application mobile dans Campaign](#setting-up-a-mobile-app-in-campaign).
    * Renseignez le champ **[!UICONTROL Corps de publication]** comme suit :
 
-      ```
-      {
-      "locationData":{
-      "distances":"{a.loc.dist}",
-      "poiLabel":"{a.loc.poi}",
-      "latitude.a":"{a.loc.lat.a}",
-      "latitude.b":"{a.loc.lat.b}",
-      "latitude.c":"{a.loc.lat.c}",
-      "longitude.a":"{a.loc.lon.a}",
-      "longitude.b":"{a.loc.lon.b}",
-      "longitude.c":"{a.loc.lon.c}",
-      "appId":"{a.appid}",
-      "marketingCloudId":"{mid}"
-      }
-      }
-      ```
+     ```
+     {
+     "locationData":{
+     "distances":"{a.loc.dist}",
+     "poiLabel":"{a.loc.poi}",
+     "latitude.a":"{a.loc.lat.a}",
+     "latitude.b":"{a.loc.lat.b}",
+     "latitude.c":"{a.loc.lat.c}",
+     "longitude.a":"{a.loc.lon.a}",
+     "longitude.b":"{a.loc.lon.b}",
+     "longitude.c":"{a.loc.lon.c}",
+     "appId":"{a.appid}",
+     "marketingCloudId":"{mid}"
+     }
+     }
+     ```
 
    * Définissez **Type de contenu** sur **[!UICONTROL application/json]**.
    * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez **[!UICONTROL campaign.test]** et **[!UICONTROL existe]**.

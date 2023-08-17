@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Points d&#39;entrée {#endpoints}
+# Points d’entrée {#endpoints}
 
 Points d’entrée disponibles des API REST d’Adobe Campaign :
 

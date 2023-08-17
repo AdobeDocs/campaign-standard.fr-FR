@@ -39,7 +39,7 @@ Vous pouvez maintenant ajouter une marge intérieure à cet élément.
 
 ## Puis-je importer du contenu HTML dans le Concepteur d’email ?
 
-Vous pouvez transférer votre propre contenu HTML dans le Concepteur d’email. Si ce contenu n’a pas été créé à l’aide du Concepteur d’email, il sera chargé en mode de compatibilité, conçu pour conserver le code HTML d’origine, mais en limitant certaines fonctionnalités d’édition par le biais de l’interface utilisateur.
+Vous pouvez charger votre propre contenu HTML dans le Concepteur d’email. Si ce contenu n’a pas été créé à l’aide du Concepteur d’email, il sera chargé en mode de compatibilité, conçu pour conserver le code HTML d’origine, mais en limitant certaines fonctionnalités d’édition par le biais de l’interface utilisateur.
 
 Pour plus d’informations, voir la section [Mode de compatibilité](../../designing/using/using-existing-content.md#compatibility-mode).
 

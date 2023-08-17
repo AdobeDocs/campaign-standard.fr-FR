@@ -38,15 +38,15 @@ Pour créer ou étendre une ressource :
 
    * **[!UICONTROL Créer une nouvelle ressource]** : renseignez les champs **[!UICONTROL Libellé]** et **[!UICONTROL Identifiant]**. Le champ **[!UICONTROL Identifiant]** est obligatoire. Si vous laissez le champ Libellé vide, il sera automatiquement renseigné à partir de l&#39;identifiant.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >Utilisez 30 caractères au maximum.
+     >[!NOTE]
+     >
+     >Utilisez 30 caractères au maximum.
 
    * **[!UICONTROL Etendre une ressource existante]** : sélectionnez la ressource que vous souhaitez étendre.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. Cliquez sur **[!UICONTROL Créer]** pour créer la ressource. Celle-ci prend alors le statut **[!UICONTROL En création]** s&#39;il s&#39;agit d&#39;une nouvelle ressource ou **[!UICONTROL En édition]** s&#39;il s&#39;agit d&#39;une extension.
 

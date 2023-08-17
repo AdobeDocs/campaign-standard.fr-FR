@@ -38,13 +38,14 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
    * Le statut **[!UICONTROL Sur la liste bloquée]** signifie que l’un de vos destinataires a déclaré un message comme étant un spam lors d’un [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops).
 
    * L’application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
-   Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
+
+  Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 
 * **A quoi correspondent les différentes raisons de mise en quarantaine ?**
 
-   Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
+  Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, adresse en liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
-   Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
+  Pour plus d’informations, voir [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md).
 
 ## Retrait de la liste bloquée {#removing-from-denylist}
 
@@ -56,16 +57,16 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
 * **Comment puis-je savoir si l’une de mes adresses IP est sur la liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 
-   Pour vérifier si votre adresse IP se trouve dans une liste bloquée, vous pouvez utiliser différents sites web, tels que :
+  Pour vérifier si votre adresse IP se trouve dans une liste bloquée, vous pouvez utiliser différents sites web, tels que :
    * [MX Toolbox](https://mxtoolbox.com/)
    * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
 
-   En général, la vérification d’une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l’adresse IP.
+  En général, la vérification d’une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l’adresse IP.
 
-   En cliquant sur le lien correspondant, accédez aux détails du site web.
+  En cliquant sur le lien correspondant, accédez aux détails du site web.
 
-   Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l’a mise en liste bloquée.
+  Vous pouvez ensuite demander que votre adresse IP soit supprimée du site web qui l’a mise en liste bloquée.
 
-   >[!NOTE]
-   >
-   >Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.
+  >[!NOTE]
+  >
+  >Le processus peut varier selon le site web. Certains sites requièrent la création d&#39;un compte alors que d&#39;autres demandent uniquement que vous fournissiez l&#39;adresse IP.

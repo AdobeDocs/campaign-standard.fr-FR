@@ -38,9 +38,8 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 >
 >Cette opération peut être effectuée via les API ou à l’aide de l’interface d’Adobe Experience Platform. Pour plus d’informations, consultez la documentation dédiée :
 >
->* [Activation d’un jeu de données pour Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=fr)
->* [Configuration d’un jeu de données pour Real-time Customer Profile et Identity Service à l’aide des API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=fr)
-
+>* [Activation d’un jeu de données pour le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=fr)
+>* [Configuration d’un jeu de données pour le profil client en temps réel et le service d’identités à l’aide des API](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=fr)
 
 ## Principaux concepts {#key-concepts}
 
@@ -60,11 +59,11 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
 
-   Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+  Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
-   >[!NOTE]
-   >
-   >Sachez que si deux personnes ou plus partagent un même appareil, l’ECID sera le même pour ces deux profils dans le service d’identité unifiée.
+  >[!NOTE]
+  >
+  >Sachez que si deux personnes ou plus partagent un même appareil, l’ECID sera le même pour ces deux profils dans le service d’identité unifiée.
 
 ## Limites {#limitations}
 

@@ -41,12 +41,12 @@ Termes utilisés dans ces sections :
 
 * **Profil**: Un profil est un modèle de données standard d’Experience Platform utilisé pour définir les attributs des consommateurs. Un profil peut également être un agrégat de données et d’attributs liés à une personne ou un appareil.
 
-   Exemple : « John Doe est un homme de 55 ans. »
+  Exemple : « John Doe est un homme de 55 ans. »
 
 * **Segment** : Ensemble de règles qui définit un sous-ensemble de profils de votre base de données, à l’aide d’attributs et de données d’événement.
 
-   Exemple : « Hommes > 50 ans. »
+  Exemple : « Hommes > 50 ans. »
 
 * **Audience** : Collection de profils qui respectent les règles de segmentation.
 
-   Exemple : Liste de profils correspondant à tous les hommes de plus de 50 ans dans votre base de données.
+  Exemple : Liste de profils correspondant à tous les hommes de plus de 50 ans dans votre base de données.

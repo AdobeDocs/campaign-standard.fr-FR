@@ -43,13 +43,13 @@ Pour établir une session d’API Adobe I/O de service à service sécurisée, c
    * &lt;ORGANIZATION> : votre instance de production,
    * &lt;ORGANIZATION-mkt-stage> : votre instance d’évaluation.
 
-   Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre administratrice ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentation Adobe Developer</a>).
+  Pour obtenir votre valeur ORGANIZATION ID, contactez votre administrateur ou votre administratrice ou votre contact technique Adobe. Vous pouvez également la récupérer dans Adobe I/O lors de la création d’une nouvelle intégration, dans la liste des licences (voir la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentation Adobe Developer</a>).
 
 * **&lt;ACCESS_TOKEN>** : votre jeton d’accès personnel, récupéré lors de l’échange de votre jeton Web JSON par le biais d’une requête POST.
 
 * **&lt;API_KEY>** : votre clé d’API personnelle. Elle est fournie dans Adobe I/O après la création d’une nouvelle intégration avec Adobe Campaign Service.
 
-   ![texte alternatif](assets/tenant.png)
+  ![texte alternatif](assets/tenant.png)
 
 ## Résolution des problèmes
 

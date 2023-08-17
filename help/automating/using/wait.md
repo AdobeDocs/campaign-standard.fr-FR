@@ -28,7 +28,7 @@ L&#39;activité **[!UICONTROL Attente]** permet de suspendre momentanément l&#3
 
 L&#39;activité **[!UICONTROL Attente]** est utilisée pour permettre qu&#39;un certain temps s&#39;écoule entre l&#39;exécution de deux activités. Par exemple, attendre plusieurs jours après une activité de diffusion email puis analyser les ouvertures et les clics générés pendant ce laps de temps avant d&#39;appliquer d&#39;autres traitements (email de rappel, création d&#39;audience, etc.).
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 1. Placez une activité **[!UICONTROL Attente]** dans votre workflow.
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
@@ -40,9 +40,9 @@ L&#39;activité **[!UICONTROL Attente]** est utilisée pour permettre qu&#39;un 
 
 1. Validez le paramétrage de l’activité et enregistrez le workflow.
 
-## Exemple  {#example}
+## Exemple {#example}
 
-L&#39;exemple suivant illustre l&#39;activité **[!UICONTROL Attente]** dans un cas typique. Un email d&#39;invitation à un événement est envoyé. 24 heures après l&#39;envoi, les journaux de la diffusion email sont analysés et un email de rappel est envoyé aux personnes ayant reçu le premier email mais qui ne se sont pas inscrits.
+L’exemple suivant illustre l’activité **[!UICONTROL Attente]** dans un cas typique. Un e-mail d’invitation à un événement est envoyé. 24 heures après l&#39;envoi, les journaux de la diffusion email sont analysés et un email de rappel est envoyé aux personnes ayant reçu le premier email mais qui ne se sont pas inscrits.
 
 Le workflow se présente comme suit :
 

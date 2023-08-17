@@ -25,7 +25,7 @@ Le **[!UICONTROL journal d&#39;audit]** comprend trois composants :
 
 * **Journal d’audit des ressources personnalisées** : vérifiez l’activité et la dernière modification apportée aux ressources personnalisées.
 
-   Pour plus d&#39;informations sur les **[!UICONTROL ressources personnalisées]**, consultez cette [page](../../developing/using/key-steps-to-add-a-resource.md).
+  Pour plus d&#39;informations sur les **[!UICONTROL ressources personnalisées]**, consultez cette [page](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Journal d&#39;audit des workflows** : consultez les activités et les dernières modifications apportées aux workflows, ainsi que l’état de vos workflows, tel que :
 
@@ -43,11 +43,11 @@ Le **[!UICONTROL journal d&#39;audit]** comprend trois composants :
    * Redémarrage du workflow avec le même utilisateur
    * Commande inconnue de redémarrage du workflow
 
-   Pour plus d’informations sur les **[!UICONTROL workflows]**, consultez cette [page](../../automating/using/get-started-workflows.md).
+  Pour plus d’informations sur les **[!UICONTROL workflows]**, consultez cette [page](../../automating/using/get-started-workflows.md).
 
 * **Journal d’audit des options** : consultez les activités et les dernières modifications apportées à vos options.
 
-   Pour plus d’informations sur les **[!UICONTROL options]** consultez cette [page](../../administration/using/about-campaign-standard-settings.md).
+  Pour plus d’informations sur les **[!UICONTROL options]** consultez cette [page](../../administration/using/about-campaign-standard-settings.md).
 
 Notez que, par défaut, la période de conservation est de 30 jours.
 
@@ -105,9 +105,9 @@ Pour ce faire :
    * Option **[!UICONTROL XtkAudit_CusResource]** pour gérer le journal d’audit des ressources personnalisées.
    * Option **[!UICONTROL XtkAudit_Enable_All]** pour gérer le journal d&#39;audit de chaque entité.
 
-      >[!NOTE]
-      >
-      >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
+     >[!NOTE]
+     >
+     >Si l’option **[!UICONTROL XtkAudit_Enable_All]** est définie sur 0, la fonction **[!UICONTROL Journal d’audit]** sera complètement désactivée, indépendamment des autres valeurs d’option individuelles.
 
    ![](assets/audit-trail_5.png)
 

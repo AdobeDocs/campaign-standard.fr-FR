@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Outre les outils de gestion du consentement fournis par Adobe Campaign, vous po
 
 Adobe Campaign permet de gérer les droits assignés aux divers opérateurs Campaign par l&#39;intermédiaire de différents rôles préconfigurés ou personnalisés.
 
-Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données. Par exemple, plusieurs responsables marketing peuvent couvrir des secteurs géographiques différents en n&#39;ayant accès qu&#39;aux données de leur secteur.
+Vous pouvez ainsi gérer qui, dans votre entreprise, peut accéder à différents types de données. Par exemple, plusieurs spécialistes marketing peuvent couvrir des secteurs géographiques différents en n’ayant accès qu’aux données de leur secteur.
 
 De même, cette fonctionnalité vous permet de configurer différentes fonctionnalités pour chaque utilisateur, telles que la limitation des expéditeurs autorisés à envoyer des diffusions. Il est même possible, en rapport avec la confidentialité, de déterminer qui peut modifier ou exporter des données.
 

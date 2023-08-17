@@ -34,79 +34,79 @@ Il est possible de surveiller et gérer l’état du droit d’opposition (opt-o
 
 * Exemple de requête GET pour récupérer dans un profil l’état du droit d’opposition du CCPA.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  ```
 
-   Réponse à la requête GET.
+  Réponse à la requête GET.
 
-   ```
-   {
-   "PKey": "<PKEY>",
-     "ccpaOptOut": false,
-     "firstName": "John",
-     "lastName": "Doe",
-   ...
-   }
-   ```
+  ```
+  {
+  "PKey": "<PKEY>",
+    "ccpaOptOut": false,
+    "firstName": "John",
+    "lastName": "Doe",
+  ...
+  }
+  ```
 
 * Exemple de requête POST pour indiquer le droit d’opposition du CCPA dans un profil.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "firstName": "John",
-   -d  "lastName": "Doe",
-   -d  "email": "jdoe@mail.com",
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "firstName": "John",
+  -d  "lastName": "Doe",
+  -d  "email": "jdoe@mail.com",
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   Réponse à la requête GET.
+  Réponse à la requête GET.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```
 
 * Exemple de requête PATCH pour mettre à jour un profil concernant le droit d’opposition du CCPA.
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   Réponse à la requête GET.
+  Réponse à la requête GET.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```

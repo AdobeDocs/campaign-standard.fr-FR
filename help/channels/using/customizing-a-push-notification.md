@@ -36,7 +36,7 @@ La fonction **[!UICONTROL Jouer un son]** permet à l&#39;application d&#39;éme
 Un son permet d&#39;avertir l&#39;utilisateur lors de la réception d&#39;une notification push, ce qui lui donne davantage de visibilité. Pour ajouter un son à votre application mobile :
 
 1. Ouvrez la notification push et accédez à la section **[!UICONTROL Options avancées]**.
-1. Dans le champ **[!UICONTROL Jouer un son]**, entrez le nom du fichier son, sans l&#39;extension, que doit lancer le terminal mobile à réception de la notification.
+1. Dans le champ **[!UICONTROL Jouer un son]**, entrez le nom du fichier son, sans l’extension, que doit lancer l’appareil mobile à réception de la notification.
 
    Pour plus d&#39;informations sur les formats multimédias pris en charge, consultez la documentation [Apple](https://support.apple.com/kb/PH16864?locale=fr_FR) et [Android](https://developer.android.com/guide/topics/media/media-formats).
 

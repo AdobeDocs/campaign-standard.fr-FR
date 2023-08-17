@@ -96,9 +96,9 @@ Ces paramètres permettent d&#39;afficher une barre de contrôle dans l&#39;écr
 
 * **[!UICONTROL Autoriser la création]** : cette option permet d&#39;activer la création d&#39;éléments de la ressource. L&#39;utilisateur peut donc ajouter des enregistrements supplémentaires.
 
-   >[!NOTE]
-   >
-   >Vous devez activer l&#39;écran de détail associé à la ressource pour rendre cette option accessible.
+  >[!NOTE]
+  >
+  >Vous devez activer l&#39;écran de détail associé à la ressource pour rendre cette option accessible.
 
 * **[!UICONTROL Autoriser la duplication]** : cette option permet d&#39;activer la duplication d&#39;enregistrements liés à la ressource personnalisée.
 * **[!UICONTROL Autoriser la suppression]** : cette option permet d&#39;activer la suppression d&#39;enregistrements liés à la ressource personnalisée.

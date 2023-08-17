@@ -47,15 +47,15 @@ ht-degree: 100%
 * Dans les broadlogs, il est maintenant possible de faire la distinction entre le nombre maximal de connexions et le nombre maximal de messages par heure. Lorsque les limites sont atteintes, il est alors possible de savoir pourquoi le débit est limité. Auparavant, le même message (&quot;quota atteint&quot;) s’appliquait aux deux cas.
 * Lors de la configuration d’une application mobile dans Campaign, l’utilisateur peut désormais savoir si le certificat iOS et la clé du serveur Android ont été téléchargés avec succès et leur date d’expiration.
 
-   Pour plus d’informations, consultez la documentation détaillée sur la configuration d’une application mobile à l’aide de [SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
+  Pour plus d’informations, consultez la documentation détaillée sur la configuration d’une application mobile à l’aide de [SDK V4](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html) et [SDK V5](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html).
 
 * Ciblez des utilisateurs sur une application mobile spécifique en sélectionnant cette application mobile lorsque vous définissez les propriétés de Campaign. Cette fonctionnalité est destinée aux canaux Push et Messagerie in-app.
 
-   Pour plus d’informations, consultez la [documentation détaillée](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+  Pour plus d’informations, consultez la [documentation détaillée](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
 
 * Lors de la sélection d’un bloc de contenu à l’aide de l’interface Creative Designer, tous les blocs de contenu de la liste sont maintenant chargés et affichés. (CAMP-27311)
 
-   Consultez à ce sujet la [documentation détaillée](../../designing/using/personalization.md#adding-a-content-block).
+  Consultez à ce sujet la [documentation détaillée](../../designing/using/personalization.md#adding-a-content-block).
 
 **Correctifs**
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 * Correction d’une erreur liée aux landing pages contenant plus de 25 services qui entraînait la désélection aléatoire des services dans le formulaire. (CAMP-26572)
 * Correction d&#39;une erreur dans les workflows qui empêchait la configuration des comptes externes avec une URL SFTP lors de l&#39;utilisation de l&#39;activité Transfert de fichier. (CAMP-26475)
 * Correction d’une erreur qui empêchait la mise à jour du rapport de synthèse des services. (CAMP-26301)
-* Correction d’une erreur dans les workflows lors de l’utilisation d’une activité Enrichissement. Celle-ci empêchait un champ personnalisé d’afficher la date correcte. (CAMP-26242)
+* Correction d’une erreur dans les workflows lors de l’utilisation d’une activité d’enrichissement. Celle-ci empêchait un champ personnalisé d’afficher la date correcte. (CAMP-26242)
 * Correction d’une erreur qui empêchait la mise à jour des dates d’abonnement au service lors d’un import via un import de fichier.
 * Correction d’une erreur liée à l’activité Chargement du fichier qui empêchait les workflows d’importer des fichiers (CAMP-27068).
 * Correction d’une erreur qui affichait un nombre d’abonnements incorrect dans les rapports de synthèse des services (CAMP-25587).
@@ -106,7 +106,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> Message de notification de mise à jour de Campaign<br /> </td> 
-   <td> Un message contextuel apparaît maintenant lorsqu’un utilisateur se connecte après la mise à niveau de l’instance vers une nouvelle version. Le message indique le numéro de version et inclut un lien vers les notes de mise à jour. Vous pouvez choisir de masquer le message jusqu’à la prochaine mise à jour. <br /> </td> 
+   <td> Un message pop-up apparaît maintenant lorsqu’un utilisateur se connecte après la mise à niveau de l’instance vers une nouvelle version. Le message indique le numéro de version et inclut un lien vers les notes de mise à jour. Vous pouvez choisir de masquer le message jusqu’à la prochaine mise à jour. <br /> </td> 
   </tr> 
   <tr> 
    <td> Gestion des utilisateurs<br /> </td> 

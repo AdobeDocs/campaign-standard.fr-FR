@@ -38,7 +38,7 @@ Pour créer le workflow, procédez comme suit :
 
 1. Placez une activité [Enrichissement](../../automating/using/enrichment.md) dans votre workflow et liez les activités Chargement de fichier et Requête à cette activité.
 
-1. Dans l&#39;onglet **[!UICONTROL Relations avancées]** de l&#39;activité Enrichissement, sélectionnez le **[!UICONTROL Lien simple de cardinalité 0 ou 1]** et définissez les champs à utiliser pour la réconciliation. Nous utilisons ici le nom de famille pour réconcilier les données avec les profils de base de données.
+1. Dans l’onglet **[!UICONTROL Relations avancées]** de l’activité d’enrichissement, sélectionnez le **[!UICONTROL Lien simple de cardinalité 0 ou 1]** et définissez les champs à utiliser pour la réconciliation. Nous utilisons ici le nom de famille pour réconcilier les données avec les profils de base de données.
 
    ![](assets/load_file_enrichment_relation.png)
 
@@ -60,7 +60,7 @@ Pour créer le workflow, procédez comme suit :
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. Ajoutez un champ de personnalisation et sélectionnez les données additionnelles définies dans l&#39;activité Enrichissement (ici, le numéro de compte) du nœud **[!UICONTROL Données additionnelles (targetData)]**. Vous pouvez ainsi récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l&#39;email.
+1. Ajoutez un champ de personnalisation et sélectionnez les données additionnelles définies dans l’activité d’enrichissement (ici, le numéro de compte) du nœud **[!UICONTROL Données additionnelles (targetData)]**. Vous pouvez ainsi récupérer dynamiquement le numéro de compte de chaque profil dans le contenu de l&#39;email.
 
    ![](assets/load_file_perso_field.png)
 

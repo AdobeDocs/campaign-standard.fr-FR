@@ -29,6 +29,7 @@ Cette intégration requiert les versions de logiciels suivantes :
 >[!CAUTION]
 >
 >Cette fonctionnalité ne fait pas partie des paramètres d’usine du produit. La mise en œuvre nécessite l’implication d’Adobe Consulting. Veuillez contacter votre représentant Adobe pour en savoir plus.
+>
 
 ## Principes
 
@@ -56,6 +57,7 @@ Les principaux avantages sont les suivants :
 >[!CAUTION]
 >
 >Cette intégration considère Dynamics 365 comme source de vérité pour la synchronisation des contacts et des entités personnalisées.  Toute modification des attributs synchronisés doit être effectuée dans Dynamics 365, et non dans Adobe Campaign Standard.  Si des modifications sont effectuées dans Campaign, elles peuvent être éventuellement écrasées lors de la synchronisation.
+>
 
 ## Étapes clés de la mise en œuvre de l&#39;intégration Microsoft Dynamics 365{#request-and-implement-this-integration}
 
@@ -73,9 +75,9 @@ Détails de l’organigramme (mise en correspondance avec les étapes ci-dessus)
 * **Étape 4** - L’équipe chargée de l&#39;intégration d&#39;Adobe vous donnera accès à l&#39;interface utilisateur (IU) de l&#39;application d&#39;intégration.
 * **Étape 5** - Vous pourrez configurer les mappings de données, les remplacements, les filtres, etc. Vous pourrez aussi tester votre intégration depuis l&#39;interface utilisateur de l&#39;application d&#39;intégration.
 
-   >[!IMPORTANT]
-   >
-   > Si vous avez besoin de la configuration d&#39;opt-out bidirectionnelle ou de Campaign vers Dynamics 365, vous devrez en effectuer la demande auprès de votre contact technique Adobe pour que les workflows d&#39;opt-out soient configurés sur votre instance Campaign. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  >[!IMPORTANT]
+  >
+  > Si vous avez besoin de la configuration d&#39;opt-out bidirectionnelle ou de Campaign vers Dynamics 365, vous devrez en effectuer la demande auprès de votre contact technique Adobe pour que les workflows d&#39;opt-out soient configurés sur votre instance Campaign. [En savoir plus](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Configurer cette intégration {#configure-this-integration}
 
@@ -90,6 +92,7 @@ Trois systèmes doivent être approvisionnés et configurés pour cette intégra
 >Pour chaque système, ces étapes doivent être exécutées par un **administrateur**.
 >
 >Les étapes de cette documentation vous guideront tout au long de la création des intégrations/inscriptions impliquant l&#39;attribution d&#39;autorisations et/ou d&#39;accès administrateur.  Vous êtes tenu de vous assurer que ces étapes sont conformes aux politiques de votre entreprise avant de les exécuter, et de les exécuter avec précaution.
+>
 
 ### Demande d’assistance
 

@@ -30,14 +30,14 @@ Le workflow est défini comme suit :
 * Une activité [Requête](../../automating/using/query.md) permettant de cibler les profils de personnes dont la date de naissance et l&#39;adresse email sont renseignées.
 * Une activité [Segmentation](../../automating/using/segmentation.md) permettant de créer trois segments répartis dans des transitions sortantes différentes : 18 - 25 ans, 26 - 32 ans et plus de 32 ans. Les segments sont définis selon les paramètres suivants :
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * un filtrage sur l&#39;âge permettant de définir la tranche d&#39;âge du segment
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * une limitation de type **[!UICONTROL Tirage aléatoire]** associé à une limite de **[!UICONTROL Taille maximale]** avec pour valeur 100.
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * Une activité [Diffusion email](../../automating/using/email-delivery.md) par segment.

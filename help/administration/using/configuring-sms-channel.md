@@ -280,7 +280,7 @@ CR : retour chariot (Carriage Return)
 
 **Caractères doubles**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### Spécificités des SMSC {#smsc-specifics}
 
@@ -305,15 +305,15 @@ La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]*
    * Il tente d&#39;utiliser l&#39;encodage GSM et lui affecte la valeur **data_coding = 0**.
    * Si l&#39;encodage GSM échoue, il utilise l&#39;encodage **UCS2** et lui affecte la valeur **data_coding = 8**.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * Lorsque la fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** est cochée, vous pouvez définir les encodages que vous souhaitez utiliser ainsi que les valeurs du champ **[!UICONTROL data_coding]** associées. Adobe Campaign tentera d&#39;utiliser le premier encodage de la liste, puis le suivant, si l&#39;encodage se révèle impossible.
 
-   L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
+  L&#39;ordre de déclaration est important : il est recommandé d&#39;ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 
-   Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMS-C ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
+  Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMS-C ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Réponse automatique aux MO  {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ Dans la section **[!UICONTROL Paramètres avancés]** :
 
 * Le **[!UICONTROL Numéro court]** permet d&#39;ajouter un numéro court spécifique à votre diffusion. Les destinataires qui se sont désinscrits de ce numéro court spécifique seront automatiquement exclus pendant la préparation du message. Pour plus d&#39;informations sur la façon de configurer le numéro court, consultez [cette section](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Si le champ **[!UICONTROL Numéro court]** est laissé vide, la valeur du champ **[!UICONTROL Numéro court]** défini dans le compte externe sera utilisée.
+  >[!NOTE]
+  >
+  >Si le champ **[!UICONTROL Numéro court]** est laissé vide, la valeur du champ **[!UICONTROL Numéro court]** défini dans le compte externe sera utilisée.
 
 Dans la section **[!UICONTROL Envoyer]** d&#39;un modèle SMS :
 
 * L&#39;option **[!UICONTROL Nombre maximal de SMS par message]** vous permet de définir le nombre de SMS à utiliser pour envoyer un message. Si ce nombre est dépassé, le message ne sera pas envoyé.
 
-   >[!IMPORTANT]
-   >
-   >Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message et donc le nombre de SMS peuvent varier d&#39;un destinataire à l&#39;autre. Pour en savoir plus, consultez la section [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
+  >[!IMPORTANT]
+  >
+  >Si vous avez inséré des champs de personnalisation ou du texte conditionnel dans le contenu de votre SMS, la longueur du message et donc le nombre de SMS peuvent varier d&#39;un destinataire à l&#39;autre. Pour en savoir plus, consultez la section [Personnaliser un SMS](../../channels/using/personalizing-sms-messages.md).
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * Le champ **[!UICONTROL Mode de transmission]** permet de déterminer la méthode de diffusion des messages par SMS :
 

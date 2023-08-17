@@ -20,7 +20,7 @@ Adobe Campaign vous permet de définir et de gérer les permissions attribuées 
 * **Les entités organisationnelles** : elles permettent de définir une hiérarchie d&#39;autorisations sur les différents objets de la plateforme (emails, workflows, modèles, utilisateurs, profils, etc.). Reportez-vous à la section [Entités organisationnelles](../../administration/using/organizational-units.md).
 * **Les rôles** : ensemble de droits unitaires qui permettent de définir les autorisations attribuées aux utilisateurs et groupes d&#39;utilisateurs. Consultez la section [Liste des rôles](../../administration/using/list-of-roles.md).
 
-   Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l&#39;interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des autorisations](../../administration/using/list-of-roles.md).
+  Combinés avec les entités organisationnelles, les rôles donnent aux utilisateurs une vue filtrée de l&#39;interface et définissent leur accès aux différentes fonctionnalités. Voir à ce propos le [tableau des autorisations](../../administration/using/list-of-roles.md).
 
 >[!IMPORTANT]
 >

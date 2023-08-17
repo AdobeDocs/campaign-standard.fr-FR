@@ -43,7 +43,7 @@ L&#39;activité **[!UICONTROL Union]** est utilisée afin de réunir les populat
 1. Sélectionnez l’activité puis ouvrez-la à l’aide du bouton ![](assets/edit_darkgrey-24px.png), disponible dans les actions rapides qui s’affichent.
 1. Sélectionnez le **[!UICONTROL Type de réconciliation]** pour définir la gestion des doublons issus de la confrontation des populations entrantes :
 
-   * **[!UICONTROL Uniquement les clés]** : c&#39;est le mode par défaut. L&#39;activité ne conserve qu&#39;un élément lorsque des éléments provenant des différentes transitions entrantes ont la même clé. Cette option ne peut être utilisée que si les populations en entrée sont homogènes.
+   * **[!UICONTROL Uniquement les clés]** : c&#39;est le mode par défaut. Lorsque des éléments provenant des différentes transitions entrantes ont la même clé, l’activité ne conserve qu’un élément. Cette option ne peut être utilisée que si les populations entrantes sont homogènes.
    * **[!UICONTROL Toutes les colonnes communes]** : les données sont réconciliées sur la base de toutes les colonnes communes aux transitions entrantes. Vous devez alors sélectionner l&#39;ensemble principal qui sera conservé en cas de doublon. Cette option peut être utilisée notamment si les dimensions de ciblage des populations entrantes sont différentes.
    * **[!UICONTROL Une sélection de colonnes]** : sélectionnez cette option pour définir la liste des colonnes sur lesquelles sera appliquée la réconciliation des données. Vous devez d&#39;abord sélectionner l&#39;ensemble principal (celui qui contient les données sources), puis les colonnes à utiliser pour la jointure.
 
