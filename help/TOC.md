@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centre d'aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l'utilisation de Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: tm+mt
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)
       + [Ingérer des audiences Adobe Experience Platform dans Campaign](integrating/using/ingest-aep-data.md)
       + [Exporter des données de Campaign vers Adobe Experience Platform](integrating/using/export-campaign-data.md)
-         + Service Audience Destinations (version bêta) {#audience-destinations}
-            + [À propos du service Audience Destinations](integrating/using/aep-about-audience-destinations-service.md)
-            + [Gestion des audiences Adobe Experience Platform](integrating/using/aep-managing-audiences.md)
-            + [Utilisation du créateur de segments](integrating/using/aep-using-segment-builder.md)
-            + [Ciblage des audiences Adobe Experience Platform](integrating/using/aep-targeting-audiences.md)
-            + [Personnalisation des campagnes à l&#39;aide des attributs d&#39;Adobe Experience Platform](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform Data Connector (version bêta) {#data-connector}
-            + [À propos d&#39;Adobe Experience Platform Data Connector](integrating/using/aep-about-data-connector.md)
-            + [Présentation du modèle de données Experience Platform](integrating/using/aep-data-model-overview.md)
-            + [Définition d&#39;un mapping](integrating/using/aep-mapping-definition.md)
-            + [Activation du mapping](integrating/using/aep-mapping-activation.md)
-            + [Déclenchement de l&#39;ingestion des données via les API](integrating/using/aep-triggering-data-ingestion.md)
 + Gestion des processus et des données {#managing-processes-and-data}
    + [Prise en main de la gestion des données et des processus](automating/using/get-started-workflows.md)
    + Fonctionnement général d&#39;un workflow {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [Mise à jour des attributs d&#39;une entité géographique](api/using/updating-geographical-unit-attributes.md)
    + [Résolution des problèmes](api/using/troubleshooting.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+
