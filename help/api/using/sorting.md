@@ -9,15 +9,15 @@ role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
 source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Tri
 
-Le tri est disponible par défaut dans l’ordre croissant. Pour trier par ordre décroissant, ajoutez **%20desc** à la fonction **_order** valeur du paramètre.
+Le tri est disponible par défaut dans l’ordre croissant. Pour trier par ordre décroissant, ajoutez **%20desc** à la valeur du paramètre **_order**.
 
 Pour savoir s’il est possible de trier un champ, vérifiez le paramètre « sortable » dans les métadonnées de la ressource. Voir à ce propos [cette section](../../api/using/metadata-mechanism.md).
 
