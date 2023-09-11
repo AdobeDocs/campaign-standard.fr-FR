@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ Les [principales législations](#privacy-regulations) se réfèrent de la maniè
 
 Ainsi, en tant qu’entreprise qui collecte et partage des données personnelles, vous êtes le contrôleur de données, vos clients sont les titulaires de données et Adobe Campaign agit comme un responsable du traitement des données lors du traitement des données personnelles des clients selon vos instructions. Notez qu’en tant que contrôleur de données, il vous appartient de gérer les relations avec les titulaires de données, par exemple lors de la gestion des [demandes d’accès à des informations personnelles](#privacy-requests). 
 
-Lors de l&#39;intégration de Campaign avec d&#39;autres solutions Experience Cloud où les audiences peuvent être transférées d&#39;un système à un autre, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)ou avec d’autres solutions telles que [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), vous devez veiller à la protection des données personnelles.
+Lors de l’intégration de Campaign à d’autres solutions Experience Cloud où les audiences peuvent être transférées d’un système à un autre, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager ou People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), ou à d’autres solutions comme [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), vous devez accorder une attention particulière à la protection des données personnelles.
 
 ## Acquisition de données {#data-acquisition}
 
