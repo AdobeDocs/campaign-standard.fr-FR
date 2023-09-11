@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7253'
 ht-degree: 100%
 
@@ -280,7 +280,7 @@ L&#39;intégration de Microsoft Dynamics 365 avec la documentation d’Adobe C
 
 Des ressources supplémentaires ont été ajoutées à la page d&#39;accueil de la documentation. [En savoir plus](../../campaign-standard-home.md)
 
-Des informations sur le service d&#39;identité Experience Cloud (ECID) ont été ajoutées à la documentation du connecteur Adobe Experience Platform.
+Des informations sur le service d’identité Experience Cloud (ECID) ont été ajoutées à la documentation du connecteur Adobe Experience Platform.
 
 La section Messages transactionnels a été améliorée avec des informations sur l&#39;accès aux derniers événements transactionnels et des captures d&#39;écran mises à jour. [En savoir plus](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
