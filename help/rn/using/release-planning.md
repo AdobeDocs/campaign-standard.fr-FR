@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 96%
 
 ---
 
@@ -25,11 +25,15 @@ Les mises à niveau sont déployées en deux phases. Tout d’abord, les instanc
 
 Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour.
 
-## Version 23.1 - Version du printemps/été 2023 {#release-23-1-release}
+## Version 23.2 - Version d’automne/hiver 2023 {#release-23-2-release}
 
 Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](release-notes.md).
+>[!AVAILABILITY]
+>
+>Cette version est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
  <tbody>
   <tr>
    <td>Évaluation </td>
-   <td>11 avril 2023 - Juillet 2023 </td>
+   <td>3-9 octobre 2023 </td>
   </tr>
   <tr>
    <td>Production </td>
-   <td>18 avril 2023 - Juillet 2023 </td>
+   <td>12-18 octobre 2023 </td>
   </tr>
  </tbody>
 </table>
