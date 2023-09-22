@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 36%
+source-wordcount: '254'
+ht-degree: 28%
 
 ---
 
@@ -41,3 +41,10 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
   Pour en savoir plus sur Adobe Campaign et Experience Cloud Triggers, consultez [cette page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
+* **Localisation** - Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
+
+   * Allemand : Zielgruppe
+   * Portugais du Brésil : público-alvo
+   * Espagnol : público desatario
+
+  Ces modifications seront progressivement déployées avec la prochaine interface utilisateur et les prochaines versions de la documentation.
