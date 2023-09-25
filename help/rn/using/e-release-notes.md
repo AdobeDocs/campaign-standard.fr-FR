@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 28%
+source-wordcount: '250'
+ht-degree: 29%
 
 ---
 
@@ -31,9 +31,9 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
 ### Améliorations {#e-rn-improvements}
 
-* **Intégration avec Adobe Experience Manager**. Lors de la création d&#39;un modèle de diffusion pour les messages transactionnels dans Adobe Experience Manager, vous pouvez désormais personnaliser le message en sélectionnant et en utilisant les champs de personnalisation définis dans Campaign Standard. Une nouvelle liste déroulante est disponible dans Adobe Experience Manager.
+* **Intégration avec Adobe Experience Manager**. Lors de la création d&#39;un modèle de diffusion personnalisé pour les messages transactionnels dans Adobe Experience Manager, vous pouvez désormais sélectionner et utiliser les champs de personnalisation définis dans Campaign Standard dans une liste déroulante.
 
-* **Expiration des cookies** - L’expiration par défaut des cookies est désormais fixée à 6 mois, conformément à la réglementation française.
+* **Expiration des cookies** - L’expiration par défaut des cookies est désormais fixée à 6 mois, conformément aux recommandations de l’Agence française de protection des données (CNIL).
 
 * **Amélioration de la recherche de profil** - La recherche de profil a été optimisée afin que les scénarios de délai d’expiration de la recherche puissent être réduits.
 
