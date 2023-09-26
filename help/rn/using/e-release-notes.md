@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 29%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
@@ -37,10 +37,6 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
 * **Amélioration de la recherche de profil** - La recherche de profil a été optimisée afin que les scénarios de délai d’expiration de la recherche puissent être réduits.
 
-* **Intégration à Adobe Experience Cloud Triggers** - La nouvelle interface utilisateur de Triggers Experience Cloud offre une expérience intuitive de gestion des comportements de consommateurs et de personnalisation des expériences utilisateur. La nouvelle interface utilisateur d’Adobe Experience Cloud Triggers est progressivement déployée vers tous les clients.
-
-  Pour en savoir plus sur Adobe Campaign et Experience Cloud Triggers, consultez [cette page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
-
 * **Localisation** - Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
 
    * Allemand : Zielgruppe
@@ -48,3 +44,7 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
    * Espagnol : público desatario
 
   Ces modifications seront progressivement déployées avec la prochaine interface utilisateur et les prochaines versions de la documentation.
+
+* **Intégration à Adobe Experience Cloud Triggers** - La nouvelle interface utilisateur des Triggers Experience Cloud est désormais disponible. Il offre une expérience intuitive de gestion des comportements des consommateurs et de personnalisation des expériences utilisateur. La nouvelle interface utilisateur d’Adobe Experience Cloud Triggers est progressivement déployée pour tous les clients, entre le 11 et le 16 octobre 2023.
+
+  Pour en savoir plus sur Adobe Campaign et Experience Cloud Triggers, consultez [cette page](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
