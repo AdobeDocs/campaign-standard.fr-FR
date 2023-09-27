@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7253'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7302'
+ht-degree: 98%
 
 ---
 
 # Mises à jour de la documentation{#documentation-updates}
 
 Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campaign, cette page répertorie toutes les nouvelles mises à jour de la documentation d&#39;Adobe Campaign Standard.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## Septembre 2023 {#doc-updates-sept-2023}
+
+* La nouvelle interface utilisateur des Triggers Experience Cloud est désormais disponible. Il offre une expérience intuitive de gestion des comportements des consommateurs et de personnalisation des expériences utilisateur. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## Version 23.1 - Printemps/Été 2023 {#release-23-1}
+
+Les notes de mise à jour de la version 23.1 printemps/été 2023 de Campaign Standard ont été publiées. [En savoir plus](release-notes.md)
+
 
 ## Novembre 2022 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ Des informations ont été ajoutées dans la page d’activité de workflow **[!
 
 ## Version 22.3 - Automne/hiver 2022 {#release-22-3}
 
-Les notes de mise à jour de la version automne/hiver de Campaign Standard 22.3 ont été publiées. [En savoir plus](release-notes.md)
+Les notes de mise à jour de la version d’automne/d’hiver 2022 de Campaign Standard 22.3 ont été publiées. [En savoir plus](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -226,7 +239,7 @@ Une nouvelle section a été ajoutée avec des directives relatives à la survei
 
 La section Limites et mécanismes de sécurisation de l&#39;API externe a été mise à jour. [En savoir plus](../../automating/using/external-api.md#guardrails)
 
-La page de présentation de la gestion des données personnelles a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+La page de présentation de la gestion de la vie privée a été mise à jour pour inclure des informations sur la loi thaïlandaise sur la protection des données personnelles (PDPA) et la loi brésilienne sur la protection des données (Lei Geral de Proteção de Dados - LGPD). [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 Le guide Canal mobile a été réorganisé et amélioré. Un nouveau guide Configuration des canaux mobiles a été ajouté avec la documentation technique sur la configuration mobile. [En savoir plus](../../administration/using/push-tracking.md)
 
@@ -484,7 +497,7 @@ Création d&#39;un ensemble de nouveaux articles d&#39;aide sur l&#39;implément
 
 Ajout d&#39;une note à la section [Appeler un workflow avec des paramètres](../../automating/using/calling-a-workflow-with-external-parameters.md) concernant la préparation d&#39;une diffusion et la période d&#39;agrégation.
 
-Des informations ont été ajoutées sur la personnalisation du libellé d&#39;une diffusion avec des variables d&#39;événements qui ont été déclarées dans l&#39;activité de signal externe du workflow. [En savoir plus](../../automating/using/external-signal.md)
+Ajout d&#39;informations sur la personnalisation du libellé d&#39;une diffusion avec des variables d&#39;événement qui ont été déclarées dans l&#39;activité de signal externe du workflow - [En savoir plus](../../automating/using/external-signal.md)
 
 Ajout d’une section présentant comment créer un utilisateur dans Adobe Campaign Standard –  [En savoir plus](../../administration/using/users-management.md)
 
@@ -496,7 +509,7 @@ Ajout d&#39;un diagramme expliquant comment les différents modèles In-App gèr
 
 Mise à jour de la section sur l&#39;enregistrement du contenu d&#39;un email en tant que fragment dans le concepteur d&#39;emails. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
-Ajout d&#39;un avertissement sur l&#39;impact des espaces blancs supplémentaires sur la présentation du contenu d&#39;un email. [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
+Ajout d’un avertissement sur l’impact des espaces blancs supplémentaires sur la mise en page du contenu d’un email. [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
 Ajout d&#39;une section sur les mises à jour recommandées du concepteur d&#39;emails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
@@ -770,7 +783,7 @@ Ajout des informations sur les types de logs de tracking. [En savoir plus](../..
 
 La section relative à l&#39;activité Requête a été mise à jour avec des exemples de requêtes. [En savoir plus](../../automating/using/query.md#query-samples)
 
-La section dédiée au placement sur liste bloquée a été renommée &quot;Comprendre les processus d&#39;opt-in et d&#39;opt-out&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer le processus d’opt-in à des canaux spécifiques, et de configurer des landing pages pour gérer les processus d’opt-in et d’opt-out. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+La section consacrée aux listes bloquées a été renommée &quot;Comprendre les processus d’opt-in et d’opt-out&quot;. Celle-ci a été mise à jour avec des informations concernant la manière de gérer le processus d’opt-in à des canaux spécifiques, et de configurer des landing pages pour gérer les processus d’opt-in et d’opt-out. [En savoir plus](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Découvrez les bonnes pratiques relatives à l’utilisation de serveurs SFTP hébergés Adobe – [En savoir plus](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Une nouvelle technote est disponible : &quot;Intégration du SDK Adobe Mobile
 
 Les instructions relatives à la configuration du service People core service ou à l&#39;intégration d&#39;Audience Manager à Adobe Campaign ont été ajoutées. [En savoir plus](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-Le tableau des autorisations a été modifié de façon à clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+Le tableau des autorisations a été révisé afin de clarifier la fonction de certains rôles. [En savoir plus](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Mise à jour des liens d&#39;aide contextuelle disponibles directement dans Adobe Campaign.
 
