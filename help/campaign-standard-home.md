@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## Nouveautés
 
-* **[Les notes de mise à jour de Campaign 22.3 sont en ligne](rn/using/release-notes.md)**<br/> Découvrez les nouvelles fonctionnalités, les améliorations et les correctifs apportés par la version 22.3 de Campaign Standard.
+* **[Les notes de mise à jour de Campaign 23.2 sont en ligne](rn/using/release-notes.md)**<br/> Découvrez les nouvelles fonctionnalités, les améliorations et les correctifs apportés par la version 23.2 de Campaign Standard.
 
 * **[Campaign - Intégration RTCDP](integrating/using/get-started-sources-destinations.md)**<br/> Découvrez comment partager des données entre Campaign et Real-time Customer Data Platform (RTCDP)
 
