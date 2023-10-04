@@ -1,5 +1,5 @@
 ---
-title: Utilisation de Triggers dans Campaign
+title: Utiliser les Triggers dans Campaign
 description: Créez un événement Trigger dans Adobe Campaign, basé sur un Trigger Adobe Experience Cloud existant.
 audience: integrating
 content-type: reference
@@ -9,13 +9,13 @@ role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
 ---
 
-# Utilisation de Triggers dans Campaign{#using-triggers-in-campaign}
+# Utiliser les Triggers dans Campaign{#using-triggers-in-campaign}
 
 ## Création d&#39;un Trigger mappé dans Campaign {#creating-a-mapped-trigger-in-campaign}
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >Pour créer des déclencheurs, vous aurez besoin du rôle **[!UICONTROL Administration]** ou vous devrez appartenir au groupe de sécurité **[!UICONTROL Administrateurs]**. Pour plus d’informations à ce propos, consultez cette [page](../../administration/using/list-of-roles.md).
 
-Vous devez au préalable définir les comportements que vous souhaitez contrôler dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
+Vous devez au préalable définir les comportements que vous souhaitez surveiller dans Adobe Experience Cloud (core service **[!UICONTROL Triggers]**). Voir à ce propos la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr). Lorsque vous définissez le déclencheur, vous devez activer les alias. Pour chaque comportement (abandon de navigation/formulaire, ajout/suppression de produits, session expirée, etc.), un nouveau déclencheur doit être ajouté dans Adobe Experience Cloud.
 
 Vous devez à présent créer un événement déclencheur dans Adobe Campaign. Celui-ci doit être basé sur un déclencheur Adobe Experience Cloud existant.
 
