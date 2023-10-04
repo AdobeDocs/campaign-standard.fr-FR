@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ Un déclencheur Adobe Experience Cloud doit être créé pour pouvoir l&#39;ut
 
 Créez un déclencheur dans Experience Cloud et assurez-vous de sélectionner la suite de rapports utilisée sur votre site Web. Veillez à choisir les bonnes dimensions pour que le déclencheur fonctionne.
 
-Voir [Documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr).
+Consultez la [documentation Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr).
 
 ## Bonnes pratiques et limites de Triggers {#triggers-best-practices-and-limitations}
 
