@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
 source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -62,6 +62,6 @@ Vous pouvez utiliser des pièges lors de l’envoi de messages transactionnels. 
 
 >[!NOTE]
 >
->Lors de l’utilisation d’un profil de test comme piège, les champs enrichis d’un message verront leurs données additionnelles correspondantes sélectionnées aléatoirement à partir d’un profil cible réel et affectées au profil de test de piège. Toutefois, sachez que si le profil ciblé réel est exclu en raison des règles de typologie appliquées lors de la première préparation du message, la préparation de la diffusion échouera. Cet échec se produit car les valeurs de champ enrichi ne peuvent pas être remplacées par le profil de type piège. Par conséquent, les règles de typologie d&#39;exclusion peuvent ne pas s&#39;appliquer correctement aux vrais destinataires.
+>Lors de l’utilisation d’un profil de test comme piège, tous les champs enrichis d’un message voient leurs données supplémentaires correspondantes sélectionnées de manière aléatoire dans un profil ciblé réel et affectées au profil de test du piège. Toutefois, sachez que si le profil ciblé réel est exclu en raison des règles de typologie appliquées lors de la première préparation du message, la préparation de la diffusion échoue. Cet échec se produit, car les valeurs de champ enrichi ne peuvent pas être remplacées par le profil de type Piège. Par conséquent, les règles de typologie d’exclusion peuvent ne pas s’appliquer correctement aux véritables destinataires.
 >
->Pour éviter cette situation, évitez d’utiliser des profils de test de type piège simultanément avec des règles de filtrage ou de fatigue dans votre typologie transactionnelle. En savoir plus sur l&#39;enrichissement. Pour plus d’informations sur l’enrichissement, consultez [cet exemple](../../automating/using/enriching-profile-data-file.md).
+>Pour éviter cette situation, évitez d’utiliser des profils de test de type Piège simultanément avec des règles de filtrage ou de fatigue dans votre typologie transactionnelle. En savoir plus sur l’enrichissement. Pour plus d’informations sur l’enrichissement, consultez [cet exemple](../../automating/using/enriching-profile-data-file.md).
