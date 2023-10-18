@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Cette page décrit les améliorations et correctifs inclus dans la prochaine ver
 
   Ces modifications seront progressivement déployées avec la prochaine UI et les prochaines versions de la documentation.
 
-### Autres changements  {#e-rn-other-changes}
+### Autres changements {#e-rn-other-changes}
 
 * Les messages transactionnels prennent désormais en charge l’utilisation de plusieurs affinités séparées par des virgules.
 
 ### Correctifs {#e-rn-fixes}
 
 * Correction d’une régression qui pouvait entraîner des problèmes de performances lors de l’utilisation de workflows volumineux. (CAMP-53369)
-* Correction d’un problème qui empêchait le fonctionnement du lien de l’email dans une alerte de workflow ou une notification. (CAMP-51874)
+* Correction d’un problème qui empêchait le fonctionnement du lien de l’e-mail dans une alerte de workflow ou une notification. (CAMP-51874)
