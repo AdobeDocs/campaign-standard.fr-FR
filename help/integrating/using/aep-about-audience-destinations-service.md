@@ -12,9 +12,9 @@ exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Le service Audience Destinations est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne sont ni améliorées ni prises en charge. En savoir plus [sur cette page](../../rn/using/deprecated-features.md)
+>Le service Destinations d’audience est désormais obsolète. Les fonctionnalités obsolètes sont toujours disponibles, mais elles ne seront ni améliorées ni prises en charge à l’avenir. En savoir plus [sur cette page](../../rn/using/deprecated-features.md)
 
 Donnez à vos clients les moyens d’acquérir des expériences en exploitant [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=fr) pour créer des audiences très ciblées basées sur des jeux de données complexes et volumineux. Adobe Experience Platform regroupe les données de profil, de comportement et multi-entités sur des sources en ligne et hors ligne, y compris Adobe Analytics, afin de vous aider à créer une vue à 360 degrés de votre client, ce qui vous permet de gérer efficacement vos expériences client.
 
