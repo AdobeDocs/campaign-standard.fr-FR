@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Accessibilité** - Adobe a apporté de nombreux correctifs d’accessibilité pour améliorer la facilité d’utilisation globale de l’application. Ces fonctionnalités sont actuellement accessibles à un nombre restreint d’utilisateurs initiaux. Elles seront déployées vers tous les clients dans les prochaines versions. Voici quelques exemples d’améliorations de l’accessibilité :
+* **Accessibilité** : Adobe a apporté de nombreux correctifs d’accessibilité pour améliorer la facilité d’utilisation globale de l’application. Ces fonctionnalités sont actuellement accessibles à un nombre restreint d’utilisateurs initiaux. Elles seront déployées vers tous les clients dans les prochaines versions. Voici quelques exemples d’améliorations de l’accessibilité :
 
    * Assurance qu’il existe un indicateur de focus visible pour les éléments pouvant être ciblés sur chaque écran
    * Création de repères de page pour une navigation plus facile
@@ -111,8 +111,8 @@ Cette version est fournie avec la mise à niveau de sécurité suivante : Apach
 * Pour résoudre divers problèmes, le mécanisme de reprise a été amélioré pour les diffusions comprenant du contenu importé dʼune URL. [En savoir plus](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
 * Correction d’un problème qui se produisait après la création d’un filtre dans une ressource personnalisée, puis son utilisation comme clé de réconciliation dans une page de destination. Si la ressource personnalisée était publiée à nouveau, le filtre était supprimé de la liste des clés de réconciliation disponibles pour la page de destination. (CAMP-49516)
 * Correction d’un problème dans les pages de destination lors de l’utilisation de conditions dynamiques avec des cases à cocher. (CAMP-48604)
-* Correction d’un problème qui se produisait dans une **Requête** activité lors de l’utilisation de la condition de filtre &quot;En cours ou avant octobre&quot;. Lorsque vous travailliez à partir dʼune instance réglée sur un fuseau horaire européen, le mois sélectionné pour le filtre affichait septembre au lieu dʼoctobre, en raison dʼun problème lors de la conversion du fuseau horaire. (CAMP-48602)
+* Correction d’un problème qui se produisait dans une activité **Requête** lors de l’utilisation de la condition de filtre « En ou avant octobre ». Lorsque vous travailliez à partir dʼune instance réglée sur un fuseau horaire européen, le mois sélectionné pour le filtre affichait septembre au lieu dʼoctobre, en raison dʼun problème lors de la conversion du fuseau horaire. (CAMP-48602)
 * Pour optimiser la délivrabilité, Adobe Campaign envoie désormais les e-mails à l’aide d’un encodage 7 bits au lieu de 8 bits. Cela empêche les relais intermédiaires dʼinvalider la signature DKIM, ce qui pourrait affecter lʼauthenticité des messages. (CAMP-49016)
 * Amélioration des performances lors de la duplication des audiences, afin d’éviter tout problème lors de l’utilisation de grandes audiences. (CAMP-49639)
 * Correction d’un problème qui pouvait empêcher un filtre personnalisé dʼafficher les résultats corrects dans une activité **Requête**. (CAMP-49417)
-* Correction dʼune erreur qui entraînait lʼaffichage dʼun message dʼerreur lors de lʼutilisation dʼun fragment dans une diffusion dont le nom contient une virgule. Le problème a été résolu, des virgules peuvent désormais être utilisées dans les noms des fragments. (CAMP-49216)
+* Correction dʼune erreur qui entraînait lʼaffichage dʼun message dʼerreur lors de lʼutilisation dʼun fragment dans une diffusion dont le nom contient une virgule. Ce problème a été résolu, des virgules peuvent désormais être utilisées dans les noms de fragments. (CAMP-49216)
