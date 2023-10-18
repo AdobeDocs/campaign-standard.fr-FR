@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -23,33 +23,33 @@ ht-degree: 62%
 
 >[!AVAILABILITY]
 >
->Cette version est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre représentant Adobe.
+>Cette version est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre personne représentante Adobe.
 
 ### Améliorations {#fall-23-rn-improvements}
 
-* **Intégration avec Adobe Experience Manager**. Lors de la création d&#39;un modèle de diffusion personnalisé pour les messages transactionnels dans Adobe Experience Manager, vous pouvez désormais sélectionner et utiliser les champs de personnalisation définis dans Campaign Standard dans une liste déroulante. [En savoir plus](../../integrating/using/creating-email-experience-manager.md)
+* **Intégration avec Adobe Experience Manager**. Lors de la création d’un modèle de diffusion personnalisé pour les messages transactionnels dans Adobe Experience Manager, vous pouvez désormais sélectionner et utiliser les champs de personnalisation définis dans Campaign Standard dans une liste déroulante. [En savoir plus](../../integrating/using/creating-email-experience-manager.md)
 
-* **Expiration des cookies** - L’expiration du cookie par défaut est désormais définie sur 6 mois, conformément aux recommandations de l’Agence française de protection des données (CNIL).
+* **Expiration des cookies** : l’expiration par défaut des cookies est désormais fixée à 6 mois, conformément aux recommandations de l’Agence française de protection des données (CNIL).
 
-* **Amélioration de la recherche de profil** - La recherche de profil a été optimisée afin que les scénarios de délai d’expiration de la recherche puissent être réduits.
+* **Amélioration de la recherche de profil** : la recherche de profil a été optimisée afin que les scénarios de délai d’expiration de la recherche puissent être réduits.
 
-* **Localisation** - Les traductions du terme &quot;audience&quot; lorsqu’elles font référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
+* **Localisation** : les traductions du terme « audience » lorsqu’il fait référence à un groupe de profils destinés à recevoir un message ont été harmonisées dans tous les produits Digital Experience pour les langues suivantes :
 
-   * Allemand : Zielgruppe
-   * Portugais du Brésil : público-alvo
-   * Espagnol : público desatario
+   * Allemand : Zielgruppe
+   * Portugais du Brésil : público-alvo
+   * Espagnol : público desatario
 
-  Ces modifications seront progressivement déployées avec la prochaine interface utilisateur et les prochaines versions de la documentation.
+  Ces modifications seront progressivement déployées avec la prochaine UI et les prochaines versions de la documentation.
 
 
-### Autres changements  {#fall-23-rn-other-changes}
+### Autres changements {#fall-23-rn-other-changes}
 
 * Les messages transactionnels prennent désormais en charge l’utilisation de plusieurs affinités séparées par des virgules. [En savoir plus](../../sending/using/managing-typologies.md)
 
 ### Correctifs {#fall-23-rn-fixes}
 
 * Correction d’une régression qui pouvait entraîner des problèmes de performances lors de l’utilisation de workflows volumineux. (CAMP-53369)
-* Correction d’un problème qui empêchait le fonctionnement du lien dans une alerte email de workflow ou une notification. (CAMP-51874)
+* Correction d’un problème qui empêchait le fonctionnement du lien dans une alerte e-mail de workflow ou une notification. (CAMP-51874)
 
 ## Version 23.1 - Version printemps/été 2023 {#apr-23}
 
