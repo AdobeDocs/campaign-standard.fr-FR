@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7338'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standar
 
 * La nouvelle interface utilisateur des Triggers d’Experience Cloud est désormais disponible. Elle offre une expérience intuitive de gestion des comportements des consommateurs et des consommatrices et de personnalisation des expériences client. [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=fr){target="_blank"}.
 
-* Ajout d’une note sur l’utilisation de profils de test de type piège combinés à des règles de filtrage ou de fatigue - [En savoir plus](../../sending/using/using-traps.md)
+* Une note sur l’utilisation de profils de test de type Piège combinés à des règles de filtrage ou de fatigue a été ajoutée. [En savoir plus](../../sending/using/using-traps.md)
 
 ## Version 23.1 - Printemps/été 2023 {#release-23-1}
 
@@ -247,7 +247,7 @@ Le guide Canal mobile a été réorganisé et amélioré. Un nouveau guide Confi
 
 La page Gestion de la confidentialité dans Campaign Standard a été mise à jour, avec notamment des clarifications sur la façon de gérer les demandes d&#39;accès aux informations personnelles par le biais de l&#39;intégration de Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-Nouvelles fonctionnalités d&#39;emails optimisées par l&#39;IA : optimisation du temps d&#39;envoi et scores de profil. [En savoir plus](../../sending/using/predictive.md)
+Nouvelles fonctionnalités d&#39;e-mails optimisées par l&#39;IA : optimisation du temps d&#39;envoi et scores de profil. [En savoir plus](../../sending/using/predictive.md)
 
 ## Juin 2020 {#doc-updates-june-2020}
 
@@ -287,7 +287,7 @@ Une nouvelle section consacrée à la protection des informations personnelles e
 
 Un cas d&#39;utilisation a été ajouté pour vous permettre de convertir les e-mails de l&#39;ancien éditeur dans le concepteur d&#39;e-mails. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
 
-Une section de questions fréquentes a été ajoutée au sujet du Concepteur d&#39;email. [En savoir plus](../../designing/using/faq-email-designer.md)
+Une section de questions fréquentes a été ajoutée au sujet du Concepteur d&#39;e-mail. [En savoir plus](../../designing/using/faq-email-designer.md)
 
 ## Avril 2020 {#doc-updates-april-2020}
 
@@ -321,7 +321,7 @@ La section Messages transactionnels a été mise à jour avec des informations s
 
 Intégration de Blob Azure.  [En savoir plus](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
-Test d&#39;emails à l&#39;aide de profils ciblés – [En savoir plus](../../sending/using/testing-messages-using-target.md)
+Test d&#39;e-mails à l&#39;aide de profils ciblés – [En savoir plus](../../sending/using/testing-messages-using-target.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
@@ -403,7 +403,7 @@ Amélioration de la page d&#39;accueil de la documentation des API avec des redi
 
 La documentation du compte externe Configuration S3 a été mise à jour. [En savoir plus](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
-La section Concevoir un contenu d&#39;email a été réorganisée. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+La section Concevoir un contenu d&#39;e-mail a été réorganisée. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Le guide de prise en main de la délivrabilité a été intégré à la documentation de base et mis à jour. [En savoir plus](../../sending/using/about-deliverability.md)
 
@@ -481,7 +481,7 @@ Ajout d’un article d’aide comportant des informations relatives aux sous-dom
 
 Mise à jour de la section décrivant les modèles et les fragments de contenu. [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
-Ajout d&#39;une section décrivant comment enregistrer un contenu d&#39;email en tant que modèle dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-template)
+Ajout d&#39;une section décrivant comment enregistrer un contenu d&#39;e-mail en tant que modèle dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## Version 19.3 - Juillet 2019                {#release-19-3---july-2019}
 
@@ -617,7 +617,7 @@ Améliorations des workflows – En savoir plus [ici](../../automating/using/w
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Ajout au chapitre Editer un contenu d&#39;email de la nouvelle expérience d&#39;intégration pour la création de contenu d&#39;email et d&#39;autres améliorations apportées au Concepteur d’e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
+Ajout au chapitre Editer un contenu d&#39;e-mail de la nouvelle expérience d&#39;intégration pour la création de contenu d&#39;e-mail et d&#39;autres améliorations apportées au Concepteur d’e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 Ajout d&#39;une section sur les limites des messages transactionnels. [En savoir plus](../../channels/using/transactional-messaging-limitations.md)
 
@@ -673,7 +673,7 @@ Améliorations de la Messagerie In-App (version bêta) – [En savoir plus](..
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d’e-mail et l&#39;obsolescence de l&#39;éditeur de contenu d&#39;email. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d’e-mail et l&#39;obsolescence de l&#39;éditeur de contenu d&#39;e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Mise à jour de la documentation [In-App](../../channels/using/about-in-app-messaging.md) et [Notification push](../../channels/using/about-push-notifications.md).
 
@@ -941,7 +941,7 @@ Ajout d&#39;informations sur le filtrage simple et multiple dans l&#39;API. [En 
 
 **Nouvelles fonctionnalités de cette version**
 
-Bibliothèque de modèles d&#39;email – [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
+Bibliothèque de modèles d&#39;e-mail – [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
 Rapports dynamiques avec les données de profil – [En savoir plus](../../reporting/using/about-dynamic-reports.md)
 
