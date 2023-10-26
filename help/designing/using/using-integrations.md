@@ -1,6 +1,6 @@
 ---
 title: Conception d’emails par le biais des intégrations d’Adobe Campaign
-description: Découvrez comment concevoir des emails via les intégrations d’Adobe Campaign dans le Concepteur d’email.
+description: Découvrez comment concevoir des emails via les intégrations d'Adobe Campaign dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Conception d’emails multi-solution {#multi-solution-email-design}
 
-Adobe Campaign propose plusieurs options de création d&#39;email. Vous pouvez utiliser des solutions telles que Dreamweaver pour modifier le contenu de votre email et créer des messages réactifs dans le Concepteur d’email. Vous pouvez également envoyer par email du contenu avec Adobe Experience Manager et l&#39;utiliser dans vos emails dans Adobe Campaign Standard.
+Adobe Campaign propose plusieurs options de création d&#39;email. Vous pouvez utiliser des solutions telles que Dreamweaver pour modifier le contenu de votre email et créer des messages réactifs dans le concepteur d’e-mail. Vous pouvez également envoyer par email du contenu avec Adobe Experience Manager et l&#39;utiliser dans vos emails dans Adobe Campaign Standard.
 
 ## Modifier le contenu dans Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -60,7 +60,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Concepteur d’email<br /> </th> 
+   <th> Concepteur d’e-mail<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -146,7 +146,7 @@ Adobe Campaign propose plusieurs options de création d’email. Le tableau ci-
   </tr> 
   <tr> 
    <td> <strong>Pour en savoir plus</strong><br /> </td> 
-   <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du Concepteur d'email</a>.<br /> </td> 
+   <td> Voir <a href="../../designing/using/designing-content-in-adobe-campaign.md">À propos du concepteur d’e-mail</a>.<br /> </td> 
    <td> Voir <a href="../../integrating/using/integrating-with-experience-manager.md">Intégration avec Experience Manager</a>.<br /> </td> 
    <td> Consultez la section <a href="https://helpx.adobe.com/fr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver et Campaign</a> et regardez cette <a href="#video">vidéo</a>.<br /> </td> 
   </tr> 

@@ -1,6 +1,6 @@
 ---
 title: Personnalisation du contenu des emails
-description: Découvrez comment personnaliser un email dans le Concepteur d'email.
+description: Découvrez comment personnaliser un email dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -27,7 +27,7 @@ Le contenu et l&#39;affichage des messages diffusés par Adobe Campaign peuvent
 
 ## Personnaliser l&#39;expéditeur {#personalizing-the-sender}
 
-Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil). Pour plus d’informations, consultez [Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
+Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du concepteur d’e-mail (accessible par le biais de l&#39;icône Accueil). Pour plus d’informations, consultez [Définition de l&#39;expéditeur d&#39;un email](../../designing/using/subject-line.md#email-sender).
 
 Vous pouvez changer le nom de l’expéditeur en cliquant sur le bloc **Nom de l’expéditeur**. Le champ devient éditable et vous pouvez y inscrire le nom que vous souhaitez.
 
@@ -161,7 +161,7 @@ Votre bloc de contenu est désormais utilisable dans l&#39;éditeur de contenu d
 
 >[!CAUTION]
 >
->Lorsque vous éditez le contenu d&#39;un bloc, vérifiez qu&#39;aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s&#39;affichent à l&#39;écran ; ils auront donc un impact sur la présentation de votre contenu.
+>Lorsque vous éditez le contenu d&#39;un bloc, vérifiez qu&#39;aucun espace blanc ne se trouve entre le début et la fin de vos instructions *if*. Dans le code HTML, les espaces blancs s&#39;affichent à l&#39;écran ; ils auront donc un impact sur la mise en page de votre contenu.
 
 ### À propos de la dimension de ciblage {#about-targeting-dimension}
 

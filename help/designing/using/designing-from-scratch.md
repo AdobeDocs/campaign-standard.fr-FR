@@ -1,6 +1,6 @@
 ---
 title: Conception d’emails à partir de zéro
-description: Découvrez comment concevoir des emails à partir de zéro dans le Concepteur d’email.
+description: Découvrez comment concevoir des emails à partir de zéro dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 # Conception d&#39;e-mails à partir de zéro {#designing-an-email-content-from-scratch}
 
-Découvrez comment maîtriser l’édition de contenu d’email. Avec le Concepteur d’email, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
+Découvrez comment maîtriser l’édition de contenu d’email. Avec le concepteur d’e-mail, vous pouvez créer des emails et des modèles avec ou sans votre propre contenu prédéfini.
 
-Voici les principales étapes pour créer entièrement un contenu d’email à l’aide du Concepteur d’email :
+Voici les principales étapes pour créer entièrement un contenu d’email à l’aide du concepteur d’e-mail :
 
 1. Créez un email et ouvrez son contenu.
 1. Ajoutez des composants de structure pour former l’email. Voir [Modifier la structure de l’email](#defining-the-email-structure).
@@ -46,9 +46,9 @@ Vous pouvez également regarder cette [vidéo de présentation](https://video.tv
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="Définition des colonnes de l’email"
->abstract="Le Concepteur d’email vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
+>abstract="Le concepteur d’e-mail vous permet de définir facilement la disposition de votre email en définissant la structure des colonnes."
 
-Le Concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
+Le concepteur d’e-mail permet de définir facilement la structure de votre email. En ajoutant et en déplaçant des éléments structurels à l’aide de simples actions de glisser-déposer, vous pouvez concevoir la forme de votre email en quelques secondes.
 
 Pour éditer la structure d’un email :
 
@@ -111,7 +111,7 @@ Les composants de contenu sont des composants bruts et vides que vous pouvez éd
 
 Vous pouvez ajouter autant de composants de contenu que vous le souhaitez dans un composant de structure. Vous pouvez également les déplacer à l’intérieur du composant de structure ou vers un autre composant de structure.
 
-Voici la liste des composants disponibles dans le Concepteur d’email :
+Voici la liste des composants disponibles dans le concepteur d’e-mail :
 
 ### **[!UICONTROL Bouton]**
 
@@ -119,7 +119,7 @@ Si vous avez besoin d’utiliser plusieurs boutons, plutôt que d’éditer chaq
 
 Vous pouvez aussi enregistrer des boutons dans des fragments réutilisables. Voir à ce propos [Créer un fragment de contenu](../../designing/using/using-reusable-content.md#creating-a-content-fragment) et [Enregistrer du contenu en tant que fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l’image de remplacement dans le Concepteur d’email.
+Sélectionnez **[!UICONTROL Vue de la version de secours]** pour afficher l&#39;image de remplacement dans le concepteur d’e-mail.
 
 ### **[!UICONTROL Texte]**
 
@@ -137,7 +137,7 @@ Utilisez ce composant pour copier-coller les différentes parties de votre code 
 >
 >Un composant HTML autonome est éditable avec des options limitées. Si tous les styles ne sont pas intégrés, veillez à ajouter le CSS adéquat dans la         section **head** du code HTML, sinon l’email ne sera pas réactif. Utilisez le bouton **[!UICONTROL Aperçu]** afin de tester la réactivité de votre contenu (voir [Prévisualiser des messages](../../sending/using/previewing-messages.md)).
 
-Pour rendre un contenu externe compatible avec le Concepteur d’email, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
+Pour rendre un contenu externe compatible avec le concepteur d’e-mail, Adobe recommande de créer entièrement un message et de copier le contenu de votre email existant dans des fragments et des composants.
 
 Si un contenu ne peut pas être recréé, vous pouvez copier et coller le code HTML de l’email d’origine à l’aide du composant de contenu **[!UICONTROL Html]**. Assurez-vous de bien connaître le langage HTML avant de poursuivre.
 

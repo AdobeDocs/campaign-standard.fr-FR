@@ -1,6 +1,6 @@
 ---
 title: Gestion des styles d'email
-description: Découvrez comment gérer les styles d'email dans le Concepteur d'email.
+description: Découvrez comment gérer les styles d'email dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -18,7 +18,7 @@ ht-degree: 100%
 # Gestion des styles d&#39;e-mail {#managing-styles}
 
 
-Dans le Concepteur d&#39;email, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s&#39;affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
+Dans le concepteur d’e-mail, lorsque vous sélectionnez un élément, plusieurs options spécifiques au type de contenu sélectionné s&#39;affichent dans le volet **[!UICONTROL Paramètres]**. Vous pouvez utiliser ces options pour changer facilement le style de votre email.
 
 ## Sélectionner un élément        {#selecting-an-element}
 
@@ -59,7 +59,7 @@ Consultez un exemple dans [cette section](#example--adjusting-vertical-alignment
 
 ## Ajustement de la marge et de la marge intérieure {#about-padding-and-margin}
 
-L&#39;interface du Concepteur d&#39;email permet d&#39;ajuster rapidement les paramètres de marge et de marge intérieure.
+L&#39;interface du concepteur d’e-mail permet d&#39;ajuster rapidement les paramètres de marge et de marge intérieure.
 
 **[!UICONTROL Marge intérieure]** : ce paramètre permet de gérer l&#39;espace situé à l&#39;intérieur de la bordure d&#39;un élément.
 
@@ -102,9 +102,9 @@ Pour la **[!UICONTROL marge]** et la **[!UICONTROL marge intérieure]**, cliquez
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Paramètres d’arrière-plan"
->abstract="Le Concepteur d’email vous permet de personnaliser la couleur de fond ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
+>abstract="Le concepteur d’e-mail vous permet de personnaliser la couleur de fond ou l&#39;image d&#39;arrière-plan de votre contenu. Notez que l&#39;image d&#39;arrière-plan n&#39;est pas prise en charge par tous les clients de messagerie."
 
-Lorsqu&#39;il s&#39;agit de définir des fonds dans le Concepteur d’e-mail, Adobe a les recommandations suivantes :
+Lorsqu&#39;il s&#39;agit de définir des fonds dans le concepteur d’e-mail, Adobe a les recommandations suivantes :
 
 1. Appliquez une couleur de fond au corps de votre email si votre design le requiert.
 1. Dans la plupart des cas, définissez les couleurs de fond au niveau des colonnes.
@@ -175,7 +175,7 @@ Vous souhaitez ajuster la marge intérieure et l&#39;alignement vertical à l&#3
 
 ## Style des liens {#about-styling-links}
 
-Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le Concepteur d&#39;email.
+Vous pouvez souligner un lien et sélectionner sa couleur et sa cible dans le concepteur d’e-mail.
 
 1. Dans un composant dans lequel un lien est inséré, sélectionnez le texte du libellé du lien.
 
