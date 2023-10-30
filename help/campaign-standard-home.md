@@ -6,16 +6,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
-workflow-type: ht
-source-wordcount: '232'
+source-git-commit: 5577f764beb3c5c6635d14073edcd2387f47ce5c
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
 
 # Documentation d&#39;Adobe Campaign Standard {#campaign-standard-documentation}
 
-![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg)
+<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
 
 ## Nouveautés
 
@@ -54,7 +54,7 @@ ht-degree: 100%
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Concevoir un email</strong></a>
     </div>
-    <em>Découvrez comment utiliser le  Concepteur d’e-mail pour créer des emails réactifs et personnalisés</em> <br>
+    <em>Découvrez comment utiliser le  concepteur d’e-mail pour créer des emails réactifs et personnalisés</em> <br>
   </td>
   <td valign="top">
        <img alt="Assistance" src="start/using/assets/do-not-localize/help.jpeg" />
