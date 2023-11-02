@@ -4,12 +4,12 @@ description: Découvrez comment gérer les données chiffrées.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: Workflows, Encryption
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+workflow-type: ht
 source-wordcount: '942'
 ht-degree: 100%
 
