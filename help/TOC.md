@@ -5,9 +5,9 @@ user-guide-description: Centre d'aide pour les principales fonctionnalités, tâ
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
 source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -162,7 +162,7 @@ ht-degree: 99%
    + [Prise en main du test et de l&#39;envoi](sending/using/get-started-sending-messages.md)
    + Préparation et test des messages {#preparing-and-testing-messages}
       + [Aperçu des diffusions](sending/using/previewing-messages.md)
-      + [Envoi d&#39;un bon à tirer](sending/using/sending-proofs.md)
+      + [Envoi d’un BAT](sending/using/sending-proofs.md)
       + [Test des e-mails à l&#39;aide des profils ciblés](sending/using/testing-messages-using-target.md)
       + [Fonctionnalités prédictives d’engagement client](sending/using/predictive.md)
       + [Rendu des e-mails](sending/using/email-rendering.md)
