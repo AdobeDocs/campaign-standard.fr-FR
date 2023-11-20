@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Au cours de la configuration et de la publication de messages transactionnels, c
 
 ## Nombre de messages transactionnels {#transactional-message-number}
 
-Le nombre de messages transactionnels publiés peut avoir un impact significatif sur votre plateforme. Pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100. Pour ce faire, dépubliez ou supprimez les messages transactionnels inutilisés. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) et [Supprimer un message transactionnel](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Le nombre de messages transactionnels publiés peut avoir un impact significatif sur votre plateforme. Pour des performances optimales, le nombre de messages transactionnels publiés doit rester inférieur à 100, faute de quoi une dégradation des performances peut être observée. Pour ce faire, dépubliez ou supprimez les messages transactionnels inutilisés afin de respecter la barrière de sécurité mentionnée ci-dessus. Voir [Dépublier un message transactionnel](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) et [Supprimer un message transactionnel](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Pour optimiser les performances, vous pouvez également dépublier ou supprimer des événements inutilisés. En effet, la dépublication ou la suppression d’un événement entraînera également la dépublication ou la suppression des messages transactionnels correspondants, ainsi que leurs logs d’envoi et de tracking, le cas échéant. Voir [Dépublier un événement](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) et [Supprimer un événement](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
