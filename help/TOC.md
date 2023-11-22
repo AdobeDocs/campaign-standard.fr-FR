@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Centre d'aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l'utilisation de Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
-workflow-type: ht
-source-wordcount: '1761'
-ht-degree: 100%
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
+workflow-type: tm+mt
+source-wordcount: '1768'
+ht-degree: 99%
 
 ---
 
@@ -269,6 +269,7 @@ ht-degree: 100%
          + [Connecter les systèmes à l&#39;application d&#39;intégration](integrating/using/d365-acs-self-service-app-settings.md)
          + [Gestion des workflows de synchronisation](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Mappage des données entre Microsoft Dynamics 365 et Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Migration des informations d’identification de JWT vers OAuth Server-to-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Utilisation de l&#39;intégration de Microsoft Dynamics 365](integrating/using/d365-acs-using-the-integration.md)
    + Campaign et Adobe Experience Platform {#adobe-experience-platform}
       + [Prise en main des sources et des destinations](integrating/using/get-started-sources-destinations.md)

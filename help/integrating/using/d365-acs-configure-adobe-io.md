@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '606'
+ht-degree: 85%
 
 ---
 
@@ -59,21 +59,13 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/adobeIO2.png)
 
-1. Sélectionnez l’API Adobe Campaign (vous devrez peut-être faire défiler l’écran vers le bas) et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez Adobe Campaign et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/adobeIO3.png)
 
-1. Sur l’écran suivant, vous aurez la possibilité de télécharger votre propre clé publique ou de laisser Adobe Developer générer la paire de clés pour vous. Ces instructions suivront la deuxième option. Si vous décidez de laisser Adobe Developer générer la paire de clés, cliquez sur l’option 1 ; cliquez ensuite sur le bouton **[!UICONTROL Générer la paire de clés]**.
+1. Dans l’écran suivant, vous aurez la possibilité de choisir un type d’authentification. Vous pouvez choisir OAuth Server-to-Server ou Service Account (JWT). Notez que les informations d’identification du compte de service (JWT) ne sont plus recommandées pour les nouveaux projets et ont été abandonnées au profit des informations d’identification OAuth Server-to-Server plus récentes. Les instructions fournies dans ce guide s’appliquent uniquement à l’authentification OAuth serveur à serveur.
 
    ![](assets/adobeIO4.png)
-
-1. Sur l’écran suivant, vous serez invité à attribuer un nom et à sélectionner l’emplacement de téléchargement du fichier zip de la paire de clés.
-
-Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher les clés publique et privée. Adobe Developer aura déjà appliqué la clé publique à votre projet Adobe Developer. Vous devrez conserver votre clé privée pour plus tard ; elle sera utilisée lors de la configuration préalable à l’intégration de l’outil d’intégration.
-
-1. Cliquez sur **[!UICONTROL Suivant]** pour continuer
-
-   ![](assets/adobeIO5.png)
 
 1. Sur l’écran suivant, vous devez sélectionner les profils de produits à associer à ce projet. Sélectionnez le profil de produits contenu dans le titre : Identifiant du tenant de votre instance Campaign - [!UICONTROL Administrateurs]
 
@@ -81,11 +73,11 @@ Une fois le fichier téléchargé, vous pouvez le décompresser pour afficher le
 
 1. Cliquez sur **[!UICONTROL Enregistrer l’API configurée]**.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. Dans l’écran suivant, vous pouvez voir les détails de votre nouveau projet Adobe Developer. Cliquez sur **[!UICONTROL Ajouter au projet]** dans la partie supérieure gauche de l’écran et sélectionnez **API** dans la liste déroulante.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. Sur l’écran suivant, vous devez sélectionner l’API des événements I/O, puis cliquer sur **[!UICONTROL Suivant]**.
 
@@ -103,8 +95,7 @@ La configuration préalable à l’intégration dans Campaign est maintenant ter
 
 * [Configurer Adobe Developer pour l’intégration Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) est l’étape suivante de la configuration de l’intégration.
 * [Présentation de l’application d’intégration en libre-service](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) comprend la liste complète des étapes permettant de rendre l’intégration opérationnelle.
-
-
 * [Adobe Developer - Intégration de compte de service](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuration de l’accès à l’API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Intégration de Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Migration des informations d’identification de JWT vers OAuth Server-to-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contient les étapes de migration des informations d’identification de JWT vers OAuth Server-to-Server.

@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -39,11 +39,10 @@ Les informations d&#39;identification de Microsoft Dynamics 365 autorisent l&#39
 
 Les informations d&#39;identification d&#39;Adobe Campaign sont générées à l&#39;aide d&#39;[Adobe I/O](https://www.adobe.io/). Vous devez accéder à l&#39;écran [Configuration d&#39;Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) et suivre les instructions qu&#39;il contient avant de pouvoir renseigner les entrées de cette section.
 
-L&#39;image ci-après montre en détail le mapping entre Adobe I/O et les entrées de l&#39;écran des paramètres.
+* Sélectionnez le type d’authentification Oauth, car l’authentification basée sur JWT est obsolète.
+* L&#39;image ci-après montre en détail le mapping entre Adobe I/O et les entrées de l&#39;écran des paramètres.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Clé privée* : la définition de celle-ci débute en cliquant sur le bouton « Générer la paire de clés publique/privée ». Un fichier zip est alors créé. Vous devez le télécharger. Une fois le fichier téléchargé, décompressez-le. Vous obtenez alors deux fichiers appelés certificate_pub.crt et private.key. Veillez à placer le fichier private.key à un endroit sécurisé et ne le partagez pas. Ouvrez le fichier private.key dans un éditeur de texte. Copiez la totalité de la valeur dans l&#39;éditeur de texte (ctrl-A, ctrl-C sur PC ou cmd-A, cmd-C sur Mac). Les lignes &quot;BEGIN PRIVATE KEY&quot; et &quot;END PRIVATE KEY&quot; doivent être incluses dans leur intégralité. Collez l&#39;intégralité de ce texte de plusieurs lignes dans l’entrée « Clé privée » de l’écran Paramètres.
 
 * *URL* : cette valeur suit le modèle https\://mc.adobe.io/&lt;nom-instance-campaign>. L&#39;en-tête de l&#39;application d&#39;intégration comprend l&#39;Org et l&#39;Instance. La partie &quot;nom-instance-campaign&quot; de l&#39;URL correspond simplement au nom trouvé dans cette valeur d&#39;instance.
 
