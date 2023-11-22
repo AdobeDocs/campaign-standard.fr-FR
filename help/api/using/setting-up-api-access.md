@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +26,11 @@ Pour configurer l’accès aux API d’Adobe Campaign Standard, procédez comm
 1. **Vérifiez que vous disposez d’un certificat numérique**, ou créez-en un si nécessaire. Les clés publique et privée fournies avec le certificat sont nécessaires dans les étapes suivantes.
 1. **Créez une nouvelle intégration avec Adobe Campaign Service** dans [Adobe Developer](https://developer.adobe.com/) et configurez-la. Vos informations d’identification seront alors générées (clé d’API, secret client...).
 1. **Créez un jeton Web JSON (JWT)** à partir des informations d’identification précédemment générées, et signez-le avec votre clé privée. Le jeton JWT code toutes les informations d’identité et de sécurité dont Adobe a besoin pour vérifier votre identité et vous accorder l’accès à l’API.
+
+   >[!AVAILABILITY]
+   >
+   >JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera mise à jour pour refléter ces mises à jour.
+
 1. **Échangez votre JWT pour un jeton d’accès** via une requête POST. Ce jeton d’accès devra être utilisé dans chaque en-tête de vos requêtes d’API.
 
 Pour établir une session d’API Adobe I/O de service à service sécurisée, chaque requête adressée à un service Adobe doit inclure les informations ci-dessous dans l’en-tête d’autorisation.

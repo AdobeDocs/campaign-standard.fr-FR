@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: ht
-source-wordcount: '7338'
-ht-degree: 100%
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+workflow-type: tm+mt
+source-wordcount: '7375'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,9 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campai
 
 ## Version 23.2 - Automne/hiver 2023 {#release-23-2}
 
-Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standard 23.2 ont été publiées. [En savoir plus](release-notes.md)
+* Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standard 23.2 ont été publiées. [En savoir plus](release-notes.md)
+
+* JWT (JSON Web Tokens) est actuellement en cours d’obsolescence et est remplacé par OAuth. La transition sera progressivement effectuée dans les prochaines versions de Campaign et la documentation sera mise à jour pour refléter ces mises à jour.
 
 ## Octobre 2023 {#doc-updates-oct-2023}
 
@@ -29,7 +31,6 @@ Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standar
 ## Version 23.1 - Printemps/été 2023 {#release-23-1}
 
 Les notes de mise à jour de la version printemps/été 2023 de Campaign Standard 23.1 ont été publiées. [En savoir plus](release-notes.md)
-
 
 ## Novembre 2022 {#doc-updates-november-2022}
 
@@ -285,9 +286,9 @@ Des informations ont été ajoutées dans la section de substitution de profil c
 
 Une nouvelle section consacrée à la protection des informations personnelles et au consentement a été ajoutée à la documentation de base. [En savoir plus](../../start/using/privacy.md)
 
-Un cas d&#39;utilisation a été ajouté pour vous permettre de convertir les e-mails de l&#39;ancien éditeur dans le concepteur d&#39;e-mails. [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
+Un cas d’utilisation a été ajouté pour vous permettre de convertir les e-mails de l’ancien éditeur dans le concepteur d’e-mail – [En savoir plus](../../designing/using/converting-emails-from-legacy-editor.md)
 
-Une section de questions fréquentes a été ajoutée au sujet du Concepteur d&#39;e-mail. [En savoir plus](../../designing/using/faq-email-designer.md)
+Une section de questions fréquentes a été ajoutée au sujet du concepteur d’e-mail – [En savoir plus](../../designing/using/faq-email-designer.md)
 
 ## Avril 2020 {#doc-updates-april-2020}
 
@@ -349,7 +350,7 @@ Mise à jour de la documentation sur la configuration d&#39;une application mobi
 
 Mise à jour et amélioration de la documentation sur l’intégration Adobe Campaign Standard/Adobe Experience Manager –  [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
-Mise à jour de la documentation sur le Concepteur d&#39;e-mails de Campaign et des pages connexes pour prendre en compte l&#39;obsolescence du [!DNL Adobe Creative SDK]. [En savoir plus](../../rn/using/deprecated-features.md)
+Mise à jour de la documentation sur le concepteur d’e-mail de Campaign et des pages connexes pour prendre en compte l&#39;obsolescence du [!DNL Adobe Creative SDK]. [En savoir plus](../../rn/using/deprecated-features.md)
 
 Disponibilité d’une nouvelle section consacrée aux bonnes pratiques relatives au modèle de données Campaign Standard –  [En savoir plus](../../developing/using/data-model-best-practices.md)
 
@@ -447,7 +448,7 @@ Le guide de prise en main des bonnes pratiques de diffusion a été déplacé et
 
 Ajout d&#39;une nouvelle section. Elle fournit un aperçu des différentes méthodes qui vous permettent d&#39;enrichir la base de données Campaign Standard. [En savoir plus](../../audiences/using/enriching-campaign-database.md)
 
-Une nouvelle section décrivant l&#39;association du style au Concepteur d’e-mail a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
+Une nouvelle section décrivant l&#39;association du style au concepteur d’e-mails a été ajoutée. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 
 Des informations relatives à la confidentialité ont été ajoutées à la documentation des API. [Cliquez ici](../../api/using/creating-a-privacy-request.md)
 
@@ -457,7 +458,7 @@ Ajout d&#39;une nouvelle section relative aux paramètres de Campaign Standard.
 
 Ajout d&#39;une nouvelle section décrivant comment envoyer un email de confirmation personnalisé automatique aux profils qui s&#39;abonnent à un service spécifique. [En savoir plus](../../audiences/using/confirming-subscription-to-a-service.md)
 
-La section Messagerie transactionnelle a été modifiée en fonction des dernières mises à jour de l&#39;interface utilisateur, y compris l&#39;édition du contenu avec le Concepteur d’e-mail. [En savoir plus](../../channels/using/editing-transactional-message.md)
+La section Messagerie transactionnelle a été modifiée en fonction des dernières mises à jour de l&#39;interface utilisateur, y compris l&#39;édition du contenu avec le concepteur d’e-mails. [En savoir plus](../../channels/using/editing-transactional-message.md)
 
 Réorganisation du chapitre sur les landing pages. Il a également été enrichi d&#39;une nouvelle section décrivant les étapes de configuration d&#39;une landing page. [En savoir plus](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -469,7 +470,7 @@ Une nouvelle section sur l&#39;utilisation des pièges a été ajoutée. [En sav
 
 Une note sur l&#39;option **Launch_URL_Campaign** a été ajoutée à la page sur la configuration d&#39;une application mobile à l&#39;aide des SDK Adobe Experience Platform. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdk.html)
 
-Réorganisation du guide du Concepteur d’e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+Réorganisation du guide du concepteur d’e-mails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## Août 2019 {#doc-updates-august-2019}
 
@@ -481,7 +482,7 @@ Ajout d’un article d’aide comportant des informations relatives aux sous-dom
 
 Mise à jour de la section décrivant les modèles et les fragments de contenu. [En savoir plus](../../designing/using/using-reusable-content.md#content-templates)
 
-Ajout d&#39;une section décrivant comment enregistrer un contenu d&#39;e-mail en tant que modèle dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-template)
+Ajout d&#39;une section décrivant comment enregistrer un contenu d&#39;email en tant que modèle dans le concepteur d’e-mails. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## Version 19.3 - Juillet 2019                {#release-19-3---july-2019}
 
@@ -509,11 +510,11 @@ Ajout d&#39;une section de résolution des problèmes pour les rapports dynamiqu
 
 Ajout d&#39;un diagramme expliquant comment les différents modèles In-App gèrent les informations personnelles. [En savoir plus](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-Mise à jour de la section sur l&#39;enregistrement du contenu d&#39;un email en tant que fragment dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
+Mise à jour de la section sur l&#39;enregistrement du contenu d&#39;un email en tant que fragment dans le concepteur d’e-mails. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
 Ajout d’un avertissement sur l’impact des espaces blancs supplémentaires sur la mise en page du contenu d’un email. [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Ajout d&#39;une section sur les mises à jour recommandées du Concepteur d’e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Ajout d&#39;une section sur les mises à jour recommandées du concepteur d’e-mails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -581,11 +582,11 @@ Ajout d&#39;un tableau sur la compatibilité des rapports dynamiques pour mieux 
 
 Mise à jour de la liste des fonctions pour les workflows. [En savoir plus](../../automating/using/list-of-functions.md)
 
-Réorganisation et étoffement du chapitre Conception du contenu avec une nouvelle section décrivant de façon claire les différentes méthodes de conception d&#39;un email en utilisant des contenus existants dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-existing-content.md)
+Réorganisation et étoffement du chapitre Conception du contenu avec une nouvelle section décrivant de façon claire les différentes méthodes de conception d&#39;un email en utilisant des contenus existants dans le concepteur d’e-mails. [En savoir plus](../../designing/using/using-existing-content.md)
 
-Ajout d&#39;une section sur l&#39;enregistrement du contenu d&#39;un email en tant que fragment dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
+Ajout d&#39;une section sur l&#39;enregistrement du contenu d&#39;un email en tant que fragment dans le concepteur d’e-mails. [En savoir plus](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)
 
-Mise à jour de la section sur la gestion des liens avec des informations supplémentaires sur la gestion des URL trackées dans le Concepteur d’e-mail. [En savoir plus](../../designing/using/links.md#inserting-a-link)
+Mise à jour de la section sur la gestion des liens avec des informations supplémentaires sur la gestion des URL trackées dans le concepteur d’e-mails. [En savoir plus](../../designing/using/links.md#inserting-a-link)
 
 Ajout d&#39;une section pour décrire le processus spécifique à la reprise des messages transactionnels. [En savoir plus](../../channels/using/transactional-message-execution.md#transactional-message-retry-process)
 
@@ -617,7 +618,7 @@ Améliorations des workflows – En savoir plus [ici](../../automating/using/w
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Ajout au chapitre Editer un contenu d&#39;e-mail de la nouvelle expérience d&#39;intégration pour la création de contenu d&#39;e-mail et d&#39;autres améliorations apportées au Concepteur d’e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
+Ajout au chapitre Editer un contenu d&#39;email de la nouvelle expérience d&#39;intégration pour la création de contenu d&#39;email et d&#39;autres améliorations apportées au concepteur d’e-mails. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 Ajout d&#39;une section sur les limites des messages transactionnels. [En savoir plus](../../channels/using/transactional-messaging-limitations.md)
 
@@ -625,7 +626,7 @@ Ajout d’une section comparant les différentes options de création d’email 
 
 La section Créer des blocs de contenu personnalisés a été étoffée avec des détails sur les dimensions de ciblage. [En savoir plus](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Ajout d&#39;un avertissement indiquant que le Concepteur d’e-mail ne prend pas en charge Internet Explorer 11. [En savoir plus](../../administration/using/about-configuration-guidelines.md)
+Ajout d&#39;un avertissement indiquant que le concepteur d’e-mails ne prend pas en charge Internet Explorer 11. [En savoir plus](../../administration/using/about-configuration-guidelines.md)
 
 Ajout d&#39;avertissements à la section Supprimer une ressource concernant la réinitialisation. [En savoir plus](../../developing/using/deleting-a-resource.md)
 
@@ -663,17 +664,17 @@ Ajout d&#39;informations à la section sur l&#39;activité Extraction de fichier
 
 **Nouvelles fonctionnalités de cette version**
 
-Disponibilité générale du Concepteur d’e-mail – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+Disponibilité générale du concepteur d’e-mails – [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Listes de produits dans les emails transactionnels – [En savoir plus](../../designing/using/using-product-listings.md)
 
-Vue mobile dans le Concepteur d’e-mail – [En savoir plus](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
+Vue mobile dans le concepteur d’e-mails – [En savoir plus](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 Améliorations de la Messagerie In-App (version bêta) – [En savoir plus](../../channels/using/about-in-app-messaging.md)
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du Concepteur d’e-mail et l&#39;obsolescence de l&#39;éditeur de contenu d&#39;e-mail. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
+Mise à jour du guide Conception de contenu pour prendre en compte la disponibilité générale du concepteur d’e-mails et l&#39;obsolescence de l&#39;éditeur de contenu d&#39;email. [En savoir plus](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Mise à jour de la documentation [In-App](../../channels/using/about-in-app-messaging.md) et [Notification push](../../channels/using/about-push-notifications.md).
 
@@ -685,7 +686,7 @@ Ajout d&#39;informations sur la nouvelle option de l&#39;activité de chargement
 
 Ajout d&#39;informations sur le nouveau champ de l&#39;activité Mise à jour de données permettant de configurer la taille maximale des mises à jour pour les données à télécharger. [En savoir plus](../../automating/using/update-data.md)
 
-Mise à jour de la documentation [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) avec des informations relatives au Concepteur d’e-mail.
+Mise à jour de la documentation [Importer du contenu depuis une URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) avec des informations relatives au concepteur d’e-mails.
 
 Ajout de Microsoft Edge (dernière version) à la liste des navigateurs compatibles pour les ordinateurs. [En savoir plus](../../administration/using/about-configuration-guidelines.md)
 
