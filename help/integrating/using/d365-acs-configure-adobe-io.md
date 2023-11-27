@@ -9,9 +9,9 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -59,11 +59,11 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/adobeIO2.png)
 
-1. Sélectionnez Adobe Campaign et cliquez sur **[!UICONTROL Suivant]**.
+1. Sélectionnez Adobe Campaign et cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/adobeIO3.png)
 
-1. Dans l’écran suivant, vous aurez la possibilité de choisir un type d’authentification. Vous pouvez choisir OAuth Server-to-Server ou Service Account (JWT). Notez que les informations d’identification du compte de service (JWT) ne sont plus recommandées pour les nouveaux projets et ont été abandonnées au profit des informations d’identification OAuth Server-to-Server plus récentes. Les instructions fournies dans ce guide s’appliquent uniquement à l’authentification OAuth serveur à serveur.
+1. Dans l’écran suivant, vous aurez la possibilité de choisir un type d’authentification. Vous pouvez choisir OAuth serveur à serveur ou Compte de service (JWT). Notez que les informations d’identification du compte de service (JWT) ne sont plus recommandées pour les nouveaux projets et ont été abandonnées au profit des informations d’identification OAuth serveur à serveur plus récentes. Les instructions fournies dans ce guide s’appliquent uniquement à l’authentification OAuth serveur à serveur.
 
    ![](assets/adobeIO4.png)
 
@@ -98,4 +98,4 @@ La configuration préalable à l’intégration dans Campaign est maintenant ter
 * [Adobe Developer - Intégration de compte de service](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - Configuration de l’accès à l’API](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Intégration de Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [Migration des informations d’identification de JWT vers OAuth Server-to-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contient les étapes de migration des informations d’identification de JWT vers OAuth Server-to-Server.
+* [Migration des informations d’identification de JWT vers OAuth serveur à serveur](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) contient les étapes de migration des informations d’identification de JWT vers OAuth serveur à serveur.
