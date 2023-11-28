@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 100%
+source-wordcount: '1333'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +77,7 @@ Trois onglets vous aident à trouver de l’aide :
    * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
    * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign,
    * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
-1. L’onglet **[!UICONTROL Support]** permet d&#39;ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur Twitter.
+1. La variable **[!UICONTROL Assistance]** vous permet d’ouvrir un cas d’assistance et de nous contacter par téléphone ou X (anciennement appelé Twitter).
 1. L&#39;onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 
 ## Menu avancé {#advanced-menu}
