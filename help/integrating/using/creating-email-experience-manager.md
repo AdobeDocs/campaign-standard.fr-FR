@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 74%
 
 ---
 
@@ -43,6 +43,7 @@ Par défaut, deux modèles prédéfinis permettent de créer des contenus d&#39;
 1. Dans Adobe Experience Manager, créez une **[!UICONTROL page]**.
 
 1. Sélectionnez le modèle **[!UICONTROL Adobe Campaign Email]**. Regardez la vidéo ci-après pour connaître les étapes détaillées.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Ouvrez votre nouveau contenu d’email.
@@ -64,12 +65,42 @@ Pour créer un contenu d&#39;email dans Adobe Experience Manager :
 1. Ajoutez des **[!UICONTROL champs de personnalisation]** via le composant **[!UICONTROL Texte et personnalisation]**. Chaque composant correspond à une utilisation spécifique : insertion d’images, ajout de personnalisation, etc.
 
    Pour en savoir plus, visionnez la vidéo suivante :
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. Dans l’onglet **[!UICONTROL Processus]**, sélectionnez le workflow de validation **[!UICONTROL Approuver pour Adobe Campaign]**. Vous ne pouvez pas envoyer d&#39;email dans Adobe Campaign si son contenu n&#39;a pas été validé.
 
-1. Une fois que le contenu et les paramètres d’envoi sont définis, vous pouvez passer à la validation, à la préparation et à l’envoi de l’email dans Adobe Campaign Standard.
+Pour envoyer votre email dans Adobe Campaign Standard :
 
-   Pour en savoir plus, visionnez la vidéo suivante :
+1. Une fois le contenu et les paramètres d&#39;envoi définis, créez un email à partir d&#39;un modèle d&#39;email spécifique à AEM dans Adobe Campaign Standard.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ En savoir plus sur le modèle spécifique à AEM.
+
+   1. Dans le menu avancé, accédez à **[!UICONTROL Ressources]** `>` **[!UICONTROL Modèles]** `>` **[!UICONTROL Modèles de diffusion]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. Dupliquez ou sélectionnez l&#39;un des modèles de diffusion.
+
+   1. Dans la **[!UICONTROL Propriétés]** de votre modèle, dans la variable **[!UICONTROL Contenu]** , sélectionnez **[!UICONTROL Adobe Experience Manager en mode Contenu]** puis votre compte Adobe Experience Manager.
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. Renseignez les propriétés de votre email et cliquez sur **[!UICONTROL Créer]** pour sélectionner le contenu de votre AEM.
+
+1. Accédez au **[!UICONTROL Contenu]** bloque.
+
+   ![](assets/aem_send_2.png)
+
+1. Dans la **[!UICONTROL Utiliser le contenu Adobe Experience Manager]** , cliquez sur **[!UICONTROL Lier AEM contenu]**.
+
+   Sélectionnez ensuite le contenu que vous souhaitez utiliser dans votre email.
+
+   ![](assets/aem_send_3.png)
+
+1. Personnalisez davantage votre email en spécifiant des paramètres supplémentaires tels que les audiences cibles et la planification de l&#39;exécution via le tableau de bord. Une fois configurée, vous pouvez désormais envoyer la diffusion email. [En savoir plus](../../sending/using/confirming-the-send.md)
+
