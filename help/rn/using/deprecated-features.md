@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +36,26 @@ En règle générale, les fonctionnalités qui doivent être supprimées dans un
 Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la fonctionnalité dans leur déploiement actuel et d&#39;envisager de modifier leur implémentation pour utiliser la solution de remplacement proposée. Référez-vous à la version de suppression prévue pour planifier les mises à jour de votre environnement et de vos projets en conséquence.
 
 
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK V4 pour les applications mobiles</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>La prise en charge des SDK Adobe Experience Platform Mobile version 4 est terminée le 31 août 2021. Si vous utilisez toujours cette version héritée du SDK dans Adobe Campaign Standard, vous devez mettre à jour votre mise en oeuvre avec le SDK Adobe Experience Platform. <strong>avant fin juin 2024</strong>. </p></br>
+   <p>Lire <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=fr">cet article</a> pour savoir comment adapter votre mise en oeuvre et passer au dernier SDK Experience Platform.</p></br>
+   <p><strong>Attention</strong>: le SDK V4 ne sera plus pris en charge en Campaign Standard à compter de la fin juin 2024.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
 <table> 
  <thead> 
   <tr> 
@@ -44,7 +64,7 @@ Il est conseillé aux clients d&#39;évaluer dans quelle mesure ils utilisent la
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>À compter de la version 19.0 de Campaign, l'ancien éditeur d'email est obsolète. Utilisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=fr">le concepteur d'emails de Campaign</a> pour créer et personnaliser le contenu de votre email. </p></br>
+   <td> <p>À compter de la version 19.0 de Campaign, l'ancien éditeur d'email est obsolète. Utilisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=fr">le concepteur d’e-mails de Campaign</a> pour créer et personnaliser le contenu de votre email. </p></br>
    <p>Lisez <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=fr">cette section</a> pour apprendre à adapter vos modèles d'email pour le nouvel éditeur.</p></br>
   </td> 
   </tr> 
