@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
-workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ Trois onglets vous aident à trouver de l’aide :
    * un lien **[!UICONTROL Formation]** qui vous permet d&#39;accéder à la bibliothèque de cours Adobe Campaign,
    * un lien **[!UICONTROL Communauté]** pour accéder au forum dédié à vos questions sur Campaign,
    * un accès direct aux éléments suivants : Centre d’aide, Assistance clientèle, État du produit Experience Cloud, Connexion développeur, Notes de mise à jour, Calendrier des versions et écran **[!UICONTROL À propos]**.
-1. La variable **[!UICONTROL Assistance]** vous permet d’ouvrir un cas d’assistance et de nous contacter par téléphone ou X (anciennement appelé Twitter).
-1. L&#39;onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
+1. L’onglet **[!UICONTROL Support]** permet d’ouvrir un dossier d’assistance et de nous contacter par téléphone ou sur X (anciennement Twitter).
+1. L’onglet **[!UICONTROL Commentaires]** permet de signaler facilement des problèmes ou de partager vos idées.
 
 ## Menu avancé {#advanced-menu}
 
@@ -124,7 +124,7 @@ La zone centrale de l’interface utilisateur est une zone dynamique qui contien
 
 Le contenu et le format d’affichage de la zone centrale peuvent varier :
 
-* Une **liste** présentant des éléments : programmes, campagnes, profils, etc. Ces éléments sont visualisables en mode **[!UICONTROL Vignettes]** ou en mode **[!UICONTROL Liste]**. Utilisez le bouton de changement de mode pour passer de l’un à l’autre. Chaque élément présente des indicateurs.
+* Une **liste** qui affiche les différents éléments tels que les programmes, campagnes, profils, etc. Ces éléments peuvent être visualisés dans les modes **[!UICONTROL Carte]** ou **[!UICONTROL Liste]**. Utilisez le bouton de changement de mode pour passer de l’un à l’autre. Chaque élément présente des indicateurs.
 
   ![](assets/ux_liste.png)
 
