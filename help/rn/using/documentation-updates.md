@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7375'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7250'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Des informations sur les sources anonymes ont été ajoutées dans le rapport Pr
 
 Une nouvelle section mise à jour concernant la prise en main de la messagerie transactionnelle est disponible. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
-La section **Limites des messages transactionnels** a été déplacée [ici.](../../channels/using/transactional-messaging-limitations.md).
+La variable **Limites des messages transactionnels** section déplacée [here](../../channels/using/transactional-messaging-limitations.md).
 
 La section **Préparation de l&#39;envoi** a été déplacée [ici](../../sending/using/preparing-the-send.md).
 
@@ -342,11 +342,11 @@ Mise à jour des informations relatives aux mécanismes de sécurisation pour l&
 
 ## Mars 2020 {#doc-updates-march-2020}
 
-Ajout à la documentation principale d&#39;informations plus détaillées sur le MTA amélioré, notamment en ce qui concerne les règles de gestion des emails et la qualification des emails bounce. [En savoir plus](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Ajout à la documentation principale d’informations plus détaillées sur le MTA amélioré, notamment en ce qui concerne les règles de gestion des e-mails et la qualification des e-mails rejetés. [En savoir plus](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 Déplacement et mise à jour de la section consacrée à l&#39;archivage avec e-mail Cci. [En savoir plus](../../sending/using/archiving.md)
 
-Mise à jour de la documentation sur la configuration d&#39;une application mobile et des pages connexes pour prendre en compte l&#39;obsolescence du SDK V4. [En savoir plus](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+Mise à jour de la documentation sur la configuration d&#39;une application mobile et des pages connexes pour prendre en compte l&#39;obsolescence du SDK V4. [En savoir plus](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Mise à jour et amélioration de la documentation sur l’intégration Adobe Campaign Standard/Adobe Experience Manager –  [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
@@ -380,7 +380,7 @@ Ajout d&#39;informations dans le guide Utilisation des API concernant le nouveau
 
 Ajout d&#39;une nouvelle section décrivant les avertissements pouvant être affichés dans un tableau de bord de messages. [En savoir plus](../../channels/using/message-dashboard.md#warnings)
 
-Disponibilité de la documentation relative au MTA amélioré d&#39;Adobe Campaign, qui décrit l&#39;infrastructure d&#39;envoi mise à niveau afin d&#39;améliorer la délivrabilité, le débit et la gestion des bounces. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
+Disponibilité de la documentation relative au MTA amélioré d’Adobe Campaign, qui décrit l’infrastructure d’envoi mise à niveau afin d’améliorer la délivrabilité, le débit et la gestion des rebonds. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
 
 Ajout de notes pour indiquer que les URL du serveur d&#39;applications et du serveur de pages miroir doivent être sécurisées pour que les aperçus des landing pages et des pages miroir s&#39;affichent dans l&#39;interface utilisateur de Campaign. [En savoir plus](../../administration/using/branding.md#configuring-and-using-brands)
 

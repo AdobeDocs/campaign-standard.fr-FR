@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '888'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ Consultez les ressources ci-dessous pour plus d’informations sur le SDK Adobe�
 
 Oui, l’intégration de [!DNL Adobe Experience Platform SDK] est disponible pour Adobe Campaign Standard et Adobe Campaign Classic. Vous devez installer l’**[!UICONTROL extension]** correspondante via [!DNL Data Collection UI] pour activer l’intégration.
 
-Pour plus d&#39;informations à ce sujet, consultez cette [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Pour plus d’informations à ce propos, consultez cette [page](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Quelles fonctionnalités l’intégration du SDK Adobe Experience Platform facilite-t-elle dans Adobe Campaign ?  {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Consultez les ressources ci-dessous :
 
 * [Documentation](https://developer.adobe.com/client-sdks/documentation/) du SDK Experience Platform
 * [Documentation](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) Prise en main du SDK Launch et Experience Platform
-* [Documentation](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks) Mise à niveau vers le SDK Experience Platform
+* [Documentation](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/) Mise à niveau vers le SDK Experience Platform
 * [Documentation](https://github.com/Adobe-Marketing-Cloud/acp-sdks/) du SDK Github Experience Platform
 
 ## L’erreur « Vous n’avez pas d’accès en écriture sur la diffusion » s’affiche lors de la création d’une diffusion de notification push. {#write-access-error}

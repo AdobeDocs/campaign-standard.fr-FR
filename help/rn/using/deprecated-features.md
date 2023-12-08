@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 90%
@@ -127,7 +127,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Standard
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> À compter de la version 20.1 de Campaign, le SDK v4 est obsolète. Il a été supprimé. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">En savoir plus</a>.</p><br/>
+   <td> <p> À compter de la version 20.1 de Campaign, le SDK v4 est obsolète. Il a été supprimé. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">En savoir plus</a>.</p><br/>
    <p>Le <a href="https://developer.adobe.com/client-sdks/documentation/">SDK Mobile Adobe Experience Platform</a> (auparavant appelé v5) prend maintenant exclusivement en charge les fonctionnalités Adobe Experience Cloud à venir.</p>
    <p>Après le 31 août 2021, les clients peuvent continuer à télécharger et à utiliser les SDK version 4, mais il n’y a plus d’assistance clientèle ni d’accès aux forums.</p>
    <p>Découvrez comment migrer du SDK v4 vers le SDK mobile Adobe Experience Platform <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=fr">dans cette page</a>.</p></br>

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1315'
+ht-degree: 99%
 
 ---
 
@@ -100,7 +100,7 @@ Les étapes de création d&#39;un message In-App autonome avec Adobe Campaign s
 
 1. Si vous utilisez un trigger **[!UICONTROL Places]**, des données contextuelles de Places, des métadonnées personnalisées de Places ou un type d&#39;événement Places seront automatiquement renseignés d&#39;après l&#39;ensemble des bibliothèques et leurs points d&#39;intérêt créés dans Adobe Places.
 
-   Notez que ce trigger sera appliqué sur l&#39;appareil uniquement pour les points ciblés des bibliothèques sélectionnées dans l&#39;extension Places dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations sur l&#39;extension Places et son installation, consultez cette [documentation](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html?lang=fr).
+   Notez que ce trigger sera appliqué sur l&#39;appareil uniquement pour les points ciblés des bibliothèques sélectionnées dans l&#39;extension Places dans l’interface utilisateur de collecte de données. Pour plus d&#39;informations sur l&#39;extension Places et son installation, consultez cette [documentation](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Dans l&#39;onglet **[!UICONTROL Fréquence et durée]**, sélectionnez la fréquence du trigger, la date de début et de fin, le jour de la semaine et l&#39;heure du jour auxquels le message in-app sera actif.
 
