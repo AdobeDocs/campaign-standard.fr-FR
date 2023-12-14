@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
 workflow-type: tm+mt
-source-wordcount: '7280'
+source-wordcount: '7279'
 ht-degree: 99%
 
 ---
@@ -20,7 +20,7 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campai
 
 Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. En savoir plus dans [cette technote](../../administration/using/push-technote.md).
 
-## Version 23.2 - Automne/hiver 2023 {#release-23-2}
+## Version 23.2 - Automne 2023 {#release-23-2}
 
 * Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standard 23.2 ont été publiées. [En savoir plus](release-notes.md)
 
