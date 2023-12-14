@@ -1,5 +1,5 @@
 ---
-title: Notes de mise à jour                2020
+title: Notes de mise à jour 2020
 description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
 audience: rn
 content-type: reference
@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '5217'
-ht-degree: 100%
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '5272'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 100%
 <tbody> 
 <tr> 
   <td> <p>Nous sommes ravis d’annoncer Journey AI pour tous les clients Adobe Campaign Standard.</p>
-  <p>L’IA dédiée au parcours utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours des clients en prédisant les préférences d’engagement de chaque individu.</p>
+  <p>Parcours AI utilise l’apprentissage automatique avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours client en prédisant les préférences d’engagement de chaque individu.</p>
   <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
      <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=fr">vidéo pratique</a>.</li> 
@@ -88,9 +89,9 @@ ht-degree: 100%
 * La configuration des applications mobiles a été améliorée avec des **messages d’erreur plus clairs** lors du téléchargement de certificats iOS ou de clés Android.
 * La **gestion des erreurs SMS** a été améliorée afin d’éviter qu’un trop grand nombre de profils ne soit ajouté à la liste de quarantaine. Par défaut, les erreurs SMS sont désormais configurées en tant qu’erreurs soft plutôt qu’en tant qu’erreurs hard. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/campaign/kb/sms-connector-protocol-and-settings.html).
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
-* Nous avons amélioré l’expérience utilisateur dans le concepteur d’email grâce à la **nouvelle aide contextuelle dynamique** qui connecte entièrement l’interface utilisateur et la documentation, ce qui permet d’accéder facilement aux derniers contenus d’aide.
+* Nous avons amélioré l’expérience utilisateur dans le concepteur d’e-mail grâce à la **nouvelle aide contextuelle dynamique** qui connecte entièrement l’interface utilisateur et la documentation, ce qui permet d’accéder facilement aux derniers contenus d’aide.
 * Correction d’un problème en raison duquel les sauts de ligne dans un message étaient supprimés lors de la modification de sa version texte. (CAMP-44483)
 * Correction d’un problème qui empêchait la génération et la synchronisation automatiques de la version en texte brut d’un modèle HTML. (CAMP-44195)
 * Correction d’un problème qui pouvait se produire lors du redimensionnement des images. Une fois les messages envoyés, les images ne s’affichaient pas correctement dans Microsoft Outlook. (CAMP-44656)
@@ -235,7 +236,7 @@ ht-degree: 100%
 **Fonctionnalités additionnelles** (à partir du 13 juillet)
 
 * **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA dédiée au parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
-* **Nouvelle réglementation brésilienne sur la protection des informations personnelles** : en plus des fonctionnalités de protection des informations personnelles déjà disponibles dans Campaign, Adobe vous aide à vous préparer au LGPD (Lei Geral de Proteçao de Datos) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
+* **La nouvelle réglementation brésilienne sur la protection des données** - Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign, Adobe vous aide à vous préparer au Lei Geral de Proteçao de Datos (LGPD) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
 
@@ -245,9 +246,9 @@ ht-degree: 100%
 
   Vous devrez envoyer une demande à l’assistance clientèle d’Adobe (directement ou par l’intermédiaire de votre contact Adobe) pour que le workflow technique syncWithLaunch soit activé dans votre instance Campaign. (CAMP-40082)
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
-* Le Concepteur d’email peut maintenant gérer une mise en forme HTML plus flexible que le W3C strict. (CAMP-42529)
+* Le concepteur d’e-mail peut maintenant gérer une mise en forme HTML plus flexible que le W3C strict. (CAMP-42529)
 * Correction d’un problème lié aux [images cliquables](../../designing/using/links.md#inserting-a-link) afin d’empêcher l’affichage des liens en regard de l’image dans les blocs de contenu. (CAMP-41586)
 * Correction d’un problème qui empêchait la redirection vers une landing page lorsqu’une catégorie de l’[URL trackée](../../designing/using/links.md#about-tracked-urls) était ajoutée dans le modèle. (CAMP-41537)
 * Correction d’un problème lié aux marges intérieures des boutons dans Outlook.
@@ -335,14 +336,14 @@ ht-degree: 100%
 * Campaign Standard permet maintenant d’envoyer des bons à tirer à des profils de test avec des données additionnelles provenant des workflows.
 * Les protections pour l’activité API externe ont été mises à jour. [En savoir plus](../../automating/using/external-api.md)
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Correction d’un problème ayant un impact sur l’échappement lors de plusieurs clics sur une image personnalisée.
 * Correction d’un problème lors de la duplication de composants de texte dynamique qui entraînait la duplication de la mauvaise ligne. (CAMP-41249)
 * Correction d’un problème de remplissage dans Outlook lors de la définition du remplissage au niveau du tableau et non au niveau div.
 * Correction d’un problème en raison duquel la largeur d’une image était modifiée lors du passage en mode HTML. (CAMP-41116)
 * Correction d’un problème qui empêchait l’accessibilité du composant des médias sociaux lors de la fourniture d’un texte de remplacement aux icônes. (CAMP-41345)
-* Correction d’un problème en raison duquel les balises `<br>` visibles s’affichaient lors de l’utilisation des opérations de copier-coller dans le Concepteur d’email.
+* Correction d’un problème en raison duquel les balises `<br>` visibles s’affichaient lors de l’utilisation des opérations de copier-coller dans le concepteur d’e-mail.
 * Correction d’un problème en raison duquel les balises HTML s’affichaient dans l’email après le passage du contenu HTML au texte simple. (CAMP-41138)
 * Correction d’un problème empêchant le rendu des boutons avec une seule bordure définie.
 * Correction d’un problème de mise en retrait HTML en raison duquel le pied de page des emails était déplacé vers la gauche dans Microsoft Outlook. (CAMP-40987)
@@ -386,7 +387,7 @@ ht-degree: 100%
 
 ## Version 20.1.2 - Février 2020               {#release-20-1-2---february-2020}
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Correction d’un problème qui entraînait l’ajout d’un élément de balise HTML dans un fragment obsolète lors de l’application de correctifs, puis de l’enregistrement du contenu. (CAMP-40685)
 * Correction d’un problème qui entraînait l’ajout d’un espace lors de l’utilisation de contenu dynamique. (CAMP-40605)
@@ -429,7 +430,7 @@ ht-degree: 100%
 
 **Améliorations**
 
-* Disponibilité générale du MTA amélioré : les messages (y compris les messages transactionnels) sont maintenant envoyés par le MTA amélioré d’Adobe Campaign. Ce MTA est doté d’une version mise à niveau de l’infrastructure d’envoi qui permet d’améliorer la délivrabilité, le débit et la gestion des bounces. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
+* Disponibilité générale du MTA amélioré : les messages (y compris les messages transactionnels) sont maintenant envoyés par le MTA amélioré d’Adobe Campaign. Ce MTA est doté d’une version mise à niveau de l’infrastructure d’envoi qui permet d’améliorer la délivrabilité, le débit et la gestion des rebonds. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-enhanced-mta.html)
 
 * La gestion des fuseaux horaires a été améliorée. Vous pouvez maintenant définir un [fuseau horaire spécifique](../../automating/using/building-a-workflow.md) pour l’ensemble d’un workflow. Le fuseau horaire sélectionné s’applique à toutes les activités du workflow. Les informations sur le fuseau horaire, configurées pour l’opérateur ou le serveur, s’affichent maintenant dans l’interface (dans les logs et après avoir sélectionné un fuseau horaire). (CAMP-37672)
 
@@ -437,7 +438,7 @@ ht-degree: 100%
 
 * L’identifiant de log de diffusion (unique pour chaque log) est maintenant disponible dans les ressources des logs de diffusion et de tracking pour toutes les dimensions de ciblage. Vous pouvez ainsi identifier les logs d’envoi ou de tracking, par exemple lors d’un export. [En savoir plus](../../automating/using/exporting-logs.md)
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Ajout d’instructions de texte obligatoires manquantes lors de la création d’une audience.
 * Correction d’un problème qui se produisait lorsqu’un utilisateur cliquait sur le bouton **Changer de contenu** dans l’assistant de l’ancien éditeur d’email.
@@ -482,5 +483,5 @@ ht-degree: 100%
 * Correction d’une erreur qui affichait incorrectement le domaine de l’expéditeur dans les rapports dynamiques. (CAMP-33123)
 * Correction d’un problème qui entraînait des incohérences dans le nombre de désabonnements dans les rapports dynamiques. (CAMP-39949)
 * Correction d’un problème qui empêchait l’affichage des adresses dans l’écran Logs d’envoi lors de l’envoi de messages In-App.
-* Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de bounces. (CAMP-38395)
+* Correction d’un problème qui empêchait la mise à jour des logs d’envoi des SMS avec le nombre correct de rebonds. (CAMP-38395)
 * Correction d’une faille qui permettait aux appels POST des abonnements aux applications de mettre à jour les jetons de notification push. (CAMP-39273)
