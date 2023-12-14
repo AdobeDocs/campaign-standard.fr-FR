@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Centre d'aide pour les principales fonctionnalités, tâches, paramètres et autres ressources nécessaires à l'utilisation de Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation d’Adobe Campaign Standard
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
+workflow-type: tm+mt
+source-wordcount: '1777'
 ht-degree: 100%
 
 ---
@@ -205,13 +205,13 @@ ht-degree: 100%
       + [Résolution des problèmes](reporting/using/troubleshooting.md)
    + Liste des rapports {#list-of-reports}
       + [Définir la période d&#39;un rapport](reporting/using/defining-the-report-period.md)
-      + [Synthèse des bounces](reporting/using/bounce-summary.md)
+      + [Synthèse des rebonds](reporting/using/bounce-summary.md)
       + [Répartition par domaine](reporting/using/breakdown-by-domains.md)
       + [Plaintes](reporting/using/complaints.md)
       + [Synthèse des diffusions](reporting/using/delivery-summary.md)
       + [Débit des diffusions](reporting/using/delivery-throughput.md)
       + [Rapport In-App](reporting/using/in-app-report.md)
-      + [Échecs et bounces](reporting/using/non-deliverables-and-bounces.md)
+      + [Non-délivrables et rebonds](reporting/using/non-deliverables-and-bounces.md)
       + [Ouvertures](reporting/using/opens.md)
       + [Rapport des notifications push](reporting/using/push-notification-report.md)
       + [Rapport SMS](reporting/using/sms-report.md)
