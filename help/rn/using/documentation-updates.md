@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Outre les [Notes de mise à jour](../../rn/using/release-notes.md) Adobe Campai
 
 ## Décembre 2023 {#doc-updates-dec-2023}
 
-Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. En savoir plus dans [cette technote](../../administration/using/push-technote.md).
+Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et auront une incidence sur votre mise en œuvre d’Adobe Campaign. Consultez [cette note technique](../../administration/using/push-technote.md) pour en savoir plus.
 
-## Version 23.2 - Automne 2023 {#release-23-2}
+## Version 23.2 - Automne 2023 {#release-23-2}
 
 * Les notes de mise à jour de la version automne/hiver 2023 de Campaign Standard 23.2 ont été publiées. [En savoir plus](release-notes.md)
 
@@ -236,9 +236,9 @@ Des informations sur les sources anonymes ont été ajoutées dans le rapport Pr
 
 Une nouvelle section mise à jour concernant la prise en main de la messagerie transactionnelle est disponible. [En savoir plus](../../channels/using/getting-started-with-transactional-msg.md)
 
-La variable **Limites des messages transactionnels** section déplacée [here](../../channels/using/transactional-messaging-limitations.md).
+La section **Limites des messages transactionnels** a été déplacée [ici](../../channels/using/transactional-messaging-limitations.md).
 
-La section **Préparation de l&#39;envoi** a été déplacée [ici](../../sending/using/preparing-the-send.md).
+La section **Préparation de l’envoi** a été déplacée [ici](../../sending/using/preparing-the-send.md).
 
 ## Juillet 2020 {#doc-updates-july-2020}
 
@@ -350,7 +350,7 @@ Ajout à la documentation principale d’informations plus détaillées sur le M
 
 Déplacement et mise à jour de la section consacrée à l&#39;archivage avec e-mail Cci. [En savoir plus](../../sending/using/archiving.md)
 
-Mise à jour de la documentation sur la configuration d&#39;une application mobile et des pages connexes pour prendre en compte l&#39;obsolescence du SDK V4. [En savoir plus](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Mise à jour de la documentation sur la configuration d&#39;une application mobile et des pages connexes pour prendre en compte l&#39;obsolescence du SDK V4. [En savoir plus](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=fr)
 
 Mise à jour et amélioration de la documentation sur l’intégration Adobe Campaign Standard/Adobe Experience Manager –  [En savoir plus](../../integrating/using/configure-experience-manager.md)
 
