@@ -1,5 +1,5 @@
 ---
-title: Configurer l'intégration Campaign-Données de points ciblés
+title: Configurer l'intégration de données Campaign-Points ciblés
 description: Découvrez comment configurer la fonctionnalité des données de points ciblés dans Adobe Campaign pour envoyer des messages personnalisés en fonction de la localisation de vos abonnés.
 audience: integrating
 content-type: reference
@@ -9,15 +9,15 @@ role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Configurer l&#39;intégration Campaign-Données de points ciblés  {#configuring-campaign-points-of-interest-data-integration}
+# Configurer l’intégration de données Campaign-Points ciblés{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuration de l&#39;intégration Campaign-Données de points ciblés avec les SDK Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
+## Configuration de l’intégration des données Points ciblés-Campaign aux SDK Adobe Experience Platform {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
      ```
 
    * Définissez **Type de contenu** sur **[!UICONTROL application/json]**.
-   * Dans le **Quelles balises de données déclenchent le postback ?**, sélectionnez n’importe quel événement, généralement **[!UICONTROL Lancé]** et **[!UICONTROL existe]**.
+   * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez n’importe quel événement, généralement **[!UICONTROL Lancé]** et **[!UICONTROL existe]**.
    * Cliquez sur **[!UICONTROL Enregistrer et activer]**.
 
 1. Créez un deuxième postback.
@@ -157,7 +157,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
      ```
 
    * Définissez **Type de contenu** sur **[!UICONTROL application/json]**.
-   * Dans le **Quelles balises de données déclenchent le postback ?**, sélectionnez **[!UICONTROL campaign.test]** et **[!UICONTROL existe]**.
+   * Dans la section **Quelles balises de données déclenchent le postback ?**, sélectionnez **[!UICONTROL campaign.test]** et **[!UICONTROL existe]**.
    * Cliquez sur **[!UICONTROL Enregistrer et activer]**.
 
 >[!NOTE]
@@ -166,7 +166,7 @@ Vous devez avoir accès à Adobe Analytics pour effectuer la configuration ci-ap
 
 ### Intégrer le SDK dans une application mobile {#integrating-the-sdk-into-a-mobile-application}
 
-Le kit de développement logiciel (SDK) de Mobile Services facilite l’intégration d’une application mobile dans Adobe Campaign.
+Le kit de développement logiciel (SDK) du core service mobile facilite l’intégration d’une application mobile dans Adobe Campaign.
 
 Cette étape est décrite dans cette [page](https://helpx.adobe.com/fr/campaign/kb/configuring-app-sdkv4.html).
 
