@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Toutes les instances Adobe Campaign Standard sont mises à niveau à chaque no
 
 Les mises à niveau sont déployées en deux phases. Tout d’abord, les instances d’évaluation sont mises à niveau afin de vous permettre de tester de nouvelles fonctionnalités et d’adapter votre configuration si nécessaire. Les instances de production sont ensuite mises à niveau.
 
-Toutes les dates de publication peuvent faire l’objet de modifications : consultez régulièrement cette page pour rechercher des mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
+Toutes les dates de publication peuvent faire l’objet de modifications : consultez cette page régulièrement pour vérifier la présence de mises à jour. Les mises à jour des environnements s’effectuent par vagues, selon les dates indiquées ci-dessous. Les dates exactes sont communiquées par e-mail à chaque client ou cliente.
 
-## Version 24.1 - Version d’hiver 2024 {#release-24-1-release}
+## Version 24.1 - Version d’hiver 2024 {#release-24-1-release}
 
-Vous trouverez des informations détaillées sur cette version dans la section [Notes de mise à jour](release-notes.md) une semaine avant le début des mises à niveau de l’environnement intermédiaire.
+Des informations détaillées sur cette version sont disponibles dans les [Notes de mise à jour](release-notes.md) une semaine avant le début des mises à niveau de l’environnement d’évaluation.
 
 <table>
  <thead>
@@ -39,17 +39,17 @@ Vous trouverez des informations détaillées sur cette version dans la section [
  <tbody>
   <tr>
    <td>Évaluation </td>
-   <td>16 janvier - 13 février 2024 </td>
+   <td>16 janvier-13 février 2024 </td>
   </tr>
   <tr>
    <td>Production </td>
-   <td>23 janvier - 20 février 2024 </td>
+   <td>23 janvier-20 février 2024 </td>
   </tr>
  </tbody>
 </table>
 
 
-## Version 23.2 - Version limitée de l’automne 2023 {#release-23-2-release}
+## Version 23.2 - Version limitée d’automne 2023 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
