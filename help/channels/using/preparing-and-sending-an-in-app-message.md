@@ -9,9 +9,9 @@ feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1315'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
