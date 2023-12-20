@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour 2020
-description: Cette page répertorie toutes les versions 2020 d'Adobe Campaign Standard.
+description: Cette page répertorie toutes les versions 2020 d’Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
@@ -10,9 +10,9 @@ level: Beginner
 hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5272'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 <tbody> 
 <tr> 
   <td> <p>Nous sommes ravis d’annoncer Journey AI pour tous les clients Adobe Campaign Standard.</p>
-  <p>Parcours AI utilise l’apprentissage automatique avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours client en prédisant les préférences d’engagement de chaque individu.</p>
+  <p>L’IA dédiée au parcours utilise un logiciel de machine learning (ML) avancé pour permettre aux entreprises d’optimiser la conception et la diffusion des parcours de leur clientèle en prédisant les préférences d’engagement de chaque individu.</p>
   <P>L’IA dédiée au parcours comprend deux fonctions de ML :</p>
 <ul> 
      <li> <strong>Évaluation prédictive de l’engagement</strong> - Identifie intelligemment le niveau d’engagement préféré des clients pour mieux cibler et personnaliser les messages afin d’augmenter les conversions et la rétention. Regardez la <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=fr">vidéo pratique</a>.</li> 
@@ -236,7 +236,7 @@ ht-degree: 98%
 **Fonctionnalités additionnelles** (à partir du 13 juillet)
 
 * **Optimisation du temps d’envoi et scores de profil optimisés par l’IA** : vous pouvez maintenant optimiser la conception et la diffusion des parcours clients afin de prévoir les préférences d’engagement de chaque particulier. Optimisé par l’IA dédiée au parcours, Adobe Campaign peut analyser et estimer les taux d’ouverture, les temps d’envoi optimaux et l’attrition probable en fonction des mesures d’engagement historiques. [En savoir plus](../../sending/using/predictive.md)
-* **La nouvelle réglementation brésilienne sur la protection des données** - Outre les fonctionnalités de confidentialité déjà disponibles dans Campaign, Adobe vous aide à vous préparer au Lei Geral de Proteçao de Datos (LGPD) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
+* **Nouvelle réglementation brésilienne sur la protection de la confidentialité** : en plus des fonctionnalités de protection des informations personnelles déjà disponibles dans Campaign, Adobe vous aide à vous préparer au LGDP (Lei Geral de Proteçao de Datos) brésilien. Lors de la création d’une demande d’accès à des informations personnelles, la réglementation LGPD a été ajoutée à Privacy Core Service. [En savoir plus](https://helpx.adobe.com/fr/campaign/kb/campaign-privacy-overview.html)
 
 **Améliorations**
 
