@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
 ## Étape 1 - Créer et publier la configuration de l’événement {#create-event-configuration}
 
-1. Créez un événement à l’aide du canal **[!UICONTROL Email]**. Voir [Création d&#39;un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
+1. Créez un événement à l’aide de la variable **[!UICONTROL Email]** canal. Voir la section [Créer un événement](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
 1. Sélectionnez la dimension de ciblage **[!UICONTROL Profil]** pour créer un [ message transactionnel basé sur un profil ](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
@@ -62,7 +62,7 @@ Les principales étapes de mise en œuvre de ce cas pratique sont présentées c
 
    ![](assets/message-center_usecase5.png)
 
-1. Prévisualisez et publiez l’événement (voir [Prévisualisation et publication de l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Prévisualisez et publiez l’événement. Voir la section [Prévisualiser et publier l&#39;événement](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Étape 2 - Modifier et publier le message transactionnel {#create-transactional-message}
 

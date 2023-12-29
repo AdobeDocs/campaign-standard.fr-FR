@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ Un workflow est toujours démarré manuellement. Une fois lancé, il peut toutef
 >
 > Adobe recommande à ses clients de ne pas exécuter plus de 20 workflows actifs simultanément ainsi que de hiérarchiser et d&#39;étaler l&#39;exécution des workflows dans le temps. Pour en savoir plus, consultez les bonnes pratiques disponibles sur [cette page](../../automating/using/best-practices-workflows.md).
 
-Les actions relatives à l’exécution (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur est disponible pour l’appliquer.
+Actions liées à l’exécution (démarrage, arrêt, pause, etc.) are **asynchrone** processus : la commande est enregistrée et sera effective une fois que le serveur sera disponible pour l&#39;appliquer.
 
 En général, dans un workflow, le résultat de chaque activité est transmis à l’activité suivante via une transition, représentée par une flèche.
 

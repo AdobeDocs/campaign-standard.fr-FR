@@ -10,7 +10,7 @@ level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '493'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <ul>
         <li><a href="sending/using/monitor-deliverability.md">Délivrabilité</a></li>
         <li><a href="administration/using/aep-faq.md">Notifications InApp et push</a></li>
-        <li><a href="designing/using/faq-email-designer.md">Concepteur d’email</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Concepteur d’e-mail</a></li>
         </ul>
     </td>
     <td valign="top">

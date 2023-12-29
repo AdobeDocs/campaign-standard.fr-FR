@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Rapport SMS{#sms-report}
 
-Le rapport **SMS** fournit des détails sur les diffusions SMS tels que les débits de diffusion et les taux de bounce.
+Le rapport **SMS** fournit des détails sur les diffusions SMS tels que les débits de diffusion et les taux de rebond.
 
 ![](assets/dynamic_report_sms.png)
 

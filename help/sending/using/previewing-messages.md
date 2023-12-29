@@ -1,6 +1,6 @@
 ---
 title: Prévisualiser un message
-description: Découvrez comment prévisualiser un message dans l’éditeur de contenu ou le Concepteur d’email.
+description: Découvrez comment prévisualiser un message dans l’éditeur de contenu ou le concepteur d’e-mail.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -27,7 +27,7 @@ Pour les **emails**, Campaign Standard permet de prévisualiser les messages à
 
 Pour prévisualiser un message à l’aide des profils de test, procédez comme suit :
 
-1. Dans le [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
+1. Dans le [concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md), cliquez sur le bouton **[!UICONTROL Aperçu]**.
 
    ![](assets/sending_preview.png)
 

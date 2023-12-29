@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1049'
+ht-degree: 91%
 
 ---
 
@@ -84,7 +84,7 @@ Pour maintenir la taille de l&#39;e-mail sous cette limite, tenez compte des pos
 
 * Minimiser votre code
 
-Veillez à tester toutes les modifications avant l&#39;envoi final.
+Veillez à tester toutes les modifications avant l’envoi final.
 
 Dans Adobe Campaign, la taille maximale par défaut d&#39;un e-mail est définie sur **100 Mo**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
@@ -100,7 +100,7 @@ Adobe recommande de conserver la valeur par défaut de la taille maximale de mes
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM. Notez que l&#39;insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l&#39;encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l&#39;onglet des paramètres du canal SMPP du **[!UICONTROL Compte externe]** correspondant.
+La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM. Notez que l&#39;insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l&#39;encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l&#39;onglet Paramètres du canal SMPP de la balise **[!UICONTROL Compte externe]**.
 En savoir plus dans [cette section](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Conseils** :
@@ -117,9 +117,9 @@ Le responsive design des e-mails permet de s&#39;assurer que le rendu d&#39;un e
 
 * Utilisez du code HTML en responsive design plutôt que du code HTML web
 
-* Utilisez le mode Aperçu et envoyez des BAT pour tester le rendu sur le plus grand nombre d&#39;appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l&#39;envoi.
+* Utilisez le mode Aperçu et envoyez des bons à tirer pour tester le rendu sur le plus grand nombre d’appareils possible. Apprenez à [prévisualiser un message](../../sending/using/previewing-messages.md) avant l&#39;envoi.
 
-* Le concepteur d&#39;e-mails de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [dans cette page](../../designing/using/using-reusable-content.md#content-templates).
+* Le concepteur d’e-mail de Campaign est fourni avec des modèles mis en forme en responsive design pour les appareils mobiles. En savoir plus [dans cette page](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Gestion des images {#manage-images}
 
@@ -147,4 +147,4 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 Adobe recommande de prévisualiser votre message afin de vérifier sa personnalisation et l&#39;affichage de la diffusion par vos destinataires.
 
-Dans le concepteur d&#39;e-mails, le bouton **[!UICONTROL Aperçu]** vous permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](../../sending/using/previewing-messages.md)
+Dans le concepteur d’e-mail, le bouton **[!UICONTROL Aperçu]** vous permet de visualiser le rendu de chaque contenu pour un destinataire. Les champs de personnalisation et les éléments conditionnels du contenu sont remplacés par les informations correspondantes pour le profil sélectionné. [En savoir plus](../../sending/using/previewing-messages.md)

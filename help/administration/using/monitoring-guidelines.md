@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '493'
 ht-degree: 100%
 
 ---
@@ -93,10 +93,10 @@ Une fois vos messages envoyés, des logs détaillés vous permettent de surveill
 
 **Alertes de diffusion**
 
-Grâce à la fonctionnalité d’alertes de diffusion, vous pouvez configurer des alertes qui seront automatiquement envoyées à un groupe d’utilisateurs au sujet de l’exécution des diffusions : échec d’envoi ou de préparation, mauvais taux de bounces, faible débit, etc.
+Grâce à la fonctionnalité d’alertes de diffusion, vous pouvez configurer des alertes qui seront automatiquement envoyées à un groupe d’utilisateurs au sujet de l’exécution des diffusions : échec d’envoi ou de préparation, mauvais taux de rebond, faible débit, etc.
 [En savoir plus](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Rapports dynamiques**
 
-Les rapports dynamiques fournissent divers rapports pour vous aider à être tenu informé des performances de vos diffusions : bounces, diffusions les plus consultées par les destinataires, débit des diffusions, etc.
+Les rapports dynamiques fournissent divers rapports pour vous aider à être tenu informé des performances de vos diffusions : rebonds, diffusions les plus consultées par les destinataires, débit des diffusions, etc.
 [En savoir plus](../../reporting/using/about-dynamic-reports.md)

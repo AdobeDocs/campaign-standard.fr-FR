@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -71,7 +71,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
    * Règles de filtrage définies par l&#39;utilisateur.
 
 1. Règles de contrôle, si elles s&#39;appliquent à la fin du ciblage.
-1. Règles de contrôle, si elles s’appliquent au début de la personnalisation.
+1. Règles de contrôle, si elles s&#39;appliquent au début de la personnalisation.
 1. Règles de contrôle, si elles s&#39;appliquent à la fin de la personnalisation.
 
 Cependant, vous pouvez adapter l&#39;ordre d&#39;exécution des règles de même type dans chaque typologie. En effet, lorsque plusieurs règles sont exécutées lors de la même phase de traitement des messages, vous pouvez choisir dans quel ordre elles doivent être appliquées.

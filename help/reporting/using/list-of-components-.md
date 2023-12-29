@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1308'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Le tableau ci-dessous contient la liste des dimensions utilisées dans les diff�
   </tr> 
   <tr> 
    <td> Raison de l'échec<br /> </td> 
-   <td> Types d'erreurs qui provoquaient des bounces pour chaque diffusion (par exemple : utilisateur inconnu, domaine non valide ou boîte pleine).<br /> </td> 
+   <td> Types d’erreurs qui provoquaient des rebonds pour chaque diffusion (par exemple : utilisateur inconnu, domaine non valide ou boîte pleine).<br /> </td> 
   </tr> 
   <tr> 
    <td> Genre<br /> </td> 
@@ -155,11 +155,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de diffusions marquées sur la liste bloquée.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Erreurs<br /> </td> 
+   <td> Rebonds + erreurs<br /> </td> 
    <td> Nombre total d'erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux Bounces + Erreurs<br /> </td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
    <td> Pourcentage d'emails qui ont fait l'objet d'un bounce par rapport au nombre d'emails envoyés.<br /> </td> 
   </tr> 
   <tr> 
@@ -179,11 +179,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de messages envoyés avec succès.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce<br /> </td> 
+   <td> Rebond définitif<br /> </td> 
    <td> Nombre total d’erreurs permanentes, telles qu’une adresse email incorrecte.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de hard bounce<br /> </td> 
+   <td> Taux de rebond définitif<br /> </td> 
    <td> Pourcentage de diffusions en erreur en raison d'erreurs permanentes.<br /> </td> 
   </tr> 
   <tr> 
@@ -216,7 +216,7 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
   </tr> 
   <tr> 
    <td> Quarantaine<br /> </td> 
-   <td> Nombre de messages qui ont fait l’objet d’un bounce et qui ont entraîné la mise en quarantaine de l’adresse.<br /> </td> 
+   <td> Nombre de messages qui ont fait l’objet d’un rebond et qui ont entraîné la mise en quarantaine de l’adresse.<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux de mise en quarantaine<br /> </td> 
@@ -231,11 +231,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
    <td> Pourcentage de messages marqués comme rejetés.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> Rebond temporaire<br /> </td> 
    <td> Nombre total d’erreurs temporaires, telles qu’une boîte de réception pleine.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounces<br /> </td> 
+   <td> Taux de rebonds temporaires<br /> </td> 
    <td> Pourcentage de diffusions en erreur pour une raison temporaire.<br /> </td> 
   </tr> 
   <tr> 
@@ -272,11 +272,11 @@ Les tableaux ci-dessous contiennent la liste des mesures utilisées dans les dif
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + Erreurs<br /> </td> 
+   <td> Rebonds + erreurs<br /> </td> 
    <td> Nombre total d'erreurs cumulées lors des diffusions par rapport au nombre total de messages envoyés, par exemple erreurs du MCPNS ou du fournisseur.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux Bounces + Erreurs<br /> </td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
    <td> Pourcentage de notifications push qui ont fait l'objet d'un bounce par rapport au nombre de notifications push envoyées.<br /> </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,6 @@
 ---
-title: Conversion d’un email créé avec l’ancien éditeur en email compatible avec le Concepteur d’email
-description: Découvrez comment utiliser, avec le Concepteur d’email, des emails créés dans l’ancien éditeur.
+title: Conversion d’un email créé avec l’ancien éditeur en email compatible avec le concepteur d’e-mail
+description: Découvrez comment utiliser, avec le concepteur d’e-mail, des emails créés dans l’ancien éditeur.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -10,16 +10,16 @@ level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
 
 # Conversion du contenu des emails de l’ancien éditeur {#converting-an-html-content}
 
-Ouvrez le Concepteur d’email et créez des modèles et des fragments réutilisables à partir du code HTML de l’email créé dans l’ancien éditeur.
+Ouvrez le concepteur d’e-mail et créez des modèles et des fragments réutilisables à partir du code HTML de l’email créé dans l’ancien éditeur.
 
-Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide d’un email HTML et de le diviser en différents composants HTML dans le Concepteur d’email.
+Ce cas pratique permet de créer un modèle de concepteur d’e-mail à l’aide d’un email HTML et de le diviser en différents composants HTML dans le concepteur d’e-mail.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
 
 ## Créer votre structure d’email
 
-1. Ouvrez le **[!UICONTROL Concepteur d’email]** pour créer un contenu d’email vide.
+1. Ouvrez le **[!UICONTROL concepteur d’e-mail]** pour créer un contenu d’email vide.
 1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
 1. Ajoutez autant de composants de structure que vous avez de sections. Pour plus d&#39;informations, consultez la section [Editer la structure de l&#39;email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -65,7 +65,7 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
    >
    >Veillez à ajouter votre style après cette opération dans une autre balise de style personnalisée.
    >
-   >Ne modifiez pas le CSS généré par le Concepteur d&#39;email :
+   >Ne modifiez pas le CSS généré par le concepteur d’e-mail :
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -77,7 +77,7 @@ Ce cas pratique permet de créer un modèle de Concepteur d’email à l’aide 
 
 ## Cas pratique
 
-Essayons de convertir cet email, créé dans l’ancien éditeur, en modèle **[!UICONTROL Concepteur d’email]**.
+Essayons de convertir cet email, créé dans l’ancien éditeur, en modèle **[!UICONTROL concepteur d’e-mail]**.
 
 ### Identifier la section de votre email
 
@@ -125,4 +125,4 @@ Vous pouvez maintenant vérifier le rendu de votre email.
 
 Pour plus d’informations à ce sujet, voir la section [Gérer le style de votre email](#manage-the-style-of-your-email).
 
-Votre ancien email est maintenant disponible dans le Concepteur d’email.
+Votre ancien email est maintenant disponible dans le concepteur d’e-mail.

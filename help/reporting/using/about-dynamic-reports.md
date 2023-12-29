@@ -10,8 +10,8 @@ level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '835'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ Certains rapports peuvent ne pas être immédiatement disponibles après une dif
 
 Les rapports dynamiques sont divisés en deux catégories :
 
-* les **modèles**, qui peuvent être modifiés après avoir été copiés à l&#39;aide de l&#39;option **Enregistrer sous** (**Projet > Enregistrer sous...**) dans le modèle.
+* **Modèles**, qui peut être modifié en les copiant à l’aide de la fonction **Enregistrer sous** option (**Projet > Enregistrer sous.**) dans le modèle.
 * les **rapports personnalisés** (en bleu), qui peuvent être créés directement en cliquant sur le bouton **Créer un nouveau projet** sur la page d&#39;accueil des **Rapports**.
 
 >[!NOTE]

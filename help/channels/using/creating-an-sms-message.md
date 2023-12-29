@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Pour créer et diffuser des SMS vers un téléphone mobile, vous devez avoir :
    >
    >Vous pouvez définir des règles de fatigue cross-canal globales qui excluront automatiquement les profils sur-sollicités des campagnes. Voir [Règles de fatigue](../../sending/using/fatigue-rules.md).
 
-1. Envoyez des bons à tirer pour vérifier et valider votre message et contrôlez l&#39;inbox rendering. Voir à ce sujet la section [Envoyer un bon à tirer (BAT)](../../sending/using/sending-proofs.md).
+1. Envoyez des bons à tirer à vérifier, validez votre message et suivez son rendu dans la boîte de réception. Voir [Envoyer un bon à tirer](../../sending/using/sending-proofs.md) .
 1. Validez l&#39;envoi du message. L&#39;envoi débutera selon le planning que vous avez défini.
 
    ![](assets/sms_creation_7.png)

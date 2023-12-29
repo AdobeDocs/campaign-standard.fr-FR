@@ -217,7 +217,7 @@ Avec Adobe Campaign Standard, vous pouvez envoyer des diffusions mobiles par l
     <div>
     <p><strong>Rapport SMS</strong></p>
     </div>
-    <p>Le rapport SMS fournit des détails sur les diffusions SMS tels que les débits de diffusion et les taux de bounce.</br><a href="../../reporting/using/sms-report.md"><strong>Cliquez ici</strong></a> pour plus d'informations.</p>
+    <p>Le rapport SMS fournit des détails sur les diffusions SMS tels que les débits de diffusion et les taux de rebond.</br><a href="../../reporting/using/sms-report.md"><strong>Cliquez ici</strong></a> pour plus d'informations.</p>
     <br>
   </td>
 </tr>

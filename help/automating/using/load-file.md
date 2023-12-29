@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1526'
-ht-degree: 100%
+source-wordcount: '1528'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Le paramétrage de l&#39;activité se déroule en deux temps. Tout d&#39;abord, 
 
 1. Validez le paramétrage de l&#39;activité et enregistrez le workflow.
 
-Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d&#39;informations sur les jounaux de workflows, reportez-vous à cette [section](../../automating/using/monitoring-workflow-execution.md)..
+Si une erreur se produit dans l&#39;activité après l&#39;exécution du workflow, consultez les journaux pour obtenir plus de détails sur les valeurs incorrectes dans le fichier. Pour plus d’informations sur les logs de workflows, reportez-vous à la section [cette section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Format des colonnes          {#column-format}
 

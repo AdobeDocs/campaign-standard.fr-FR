@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 100%
+source-wordcount: '1337'
+ht-degree: 97%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## À propos des diffusions en échec {#about-delivery-failures}
 
-Lorsqu’une diffusion ne peut pas être envoyée à un profil, le serveur distant envoie automatiquement un message d’erreur, qui est relevé par la plateforme Adobe Campaign et qualifié afin de déterminer si l’adresse email ou le numéro de téléphone doit être mis ou non en quarantaine Voir [Qualification des emails bounce](#bounce-mail-qualification).
+Lorsqu’une diffusion ne peut pas être envoyée à un profil, le serveur distant envoie automatiquement un message d’erreur, qui est relevé par la plateforme Adobe Campaign et qualifié afin de déterminer si l’adresse email ou le numéro de téléphone doit être mis ou non en quarantaine Voir [Qualification des e-mails rejetés](#bounce-mail-qualification).
 
 >[!NOTE]
 >
->Les messages d’erreur **email** (ou « bounces ») sont qualifiés par le MTA amélioré (bounces synchrones) ou par le traitement inMail (bounces asynchrones).
+>Les messages d’erreur **E-mail** (ou « rebonds ») sont qualifiés par le MTA amélioré (rebonds synchrones) ou par le traitement inMail (rebonds asynchrones).
 >
 >Les messages d&#39;erreur de type **SMS** (ou &quot;SR&quot; pour &quot;Status Report&quot;) sont qualifiés par le processus MTA.
 
@@ -35,7 +35,7 @@ Les messages peuvent être également exclus pendant la préparation de la diffu
 
 * [Comprendre la gestion des quarantaines](../../sending/using/understanding-quarantine-management.md)
 * [À propos des processus d&#39;opt-in et d&#39;opt-out dans Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability)
+* [Rebonds](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability)
 
 ## Identifier les diffusions en échec pour un message    {#identifying-delivery-failures-for-a-message}
 
@@ -43,7 +43,7 @@ Une fois une diffusion envoyée, l’onglet **[!UICONTROL Envois]** (voir [cette
 
 ![](assets/sending_logs.png)
 
-Un rapport d’usine dédié est également disponible. Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours. Voir à ce propos [cette section](../../reporting/using/bounce-summary.md).
+Un rapport d’usine dédié est également disponible. Ce rapport présente l’ensemble des erreurs relatives aux rebonds définitifs et temporaires survenues lors des diffusions ainsi que le traitement automatique des rebonds. Voir à ce propos [cette section](../../reporting/using/bounce-summary.md).
 
 ## Types de diffusion en échec et raisons    {#delivery-failure-types-and-reasons}
 
@@ -75,8 +75,8 @@ Les motifs possibles d&#39;une diffusion en échec sont les suivants :
 
 
 **Rubriques connexes :**
-* [Hard bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces)
-* [Soft bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#soft-bounces)
+* [Rebonds définitifs](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#hard-bounces)
+* [Rebonds temporaires](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#soft-bounces)
 
 ## Reprises après une diffusion temporairement en échec     {#retries-after-a-delivery-temporary-failure}
 
@@ -105,20 +105,20 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 Une diffusion peut échouer immédiatement (erreur synchrone) ou plus tard, après son envoi (erreur asynchrone).
 
-* **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d&#39;erreur. L&#39;envoi de la diffusion au serveur du profil n&#39;est pas autorisé.
-* **Erreur asynchrone** : un email bounce ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
+* **Erreur synchrone** : le serveur distant contacté par le serveur de diffusion Adobe Campaign a retourné immédiatement un message d’erreur. L’envoi de la diffusion au serveur du profil n’est pas autorisé.
+* **Erreur asynchrone**: un mail rebond ou un SR a été renvoyé plus tard par le serveur de réception. Les erreurs asynchrones peuvent se produire jusqu’à une semaine après l’envoi d’une diffusion.
 
-## Qualification des emails bounce    {#bounce-mail-qualification}
+## Qualification des e-mails rebonds {#bounce-mail-qualification}
 
-Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message Transfer Agent) amélioré d’Adobe Campaign détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
+Pour les messages d’erreur d’échec de diffusion synchrone, le MTA (Message Transfer Agent) amélioré d’Adobe Campaign détermine le type et la qualification du rebond et renvoie ces informations à Campaign.
 
 >[!NOTE]
 >
->Les qualifications bounce figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
+>Les qualifications de rebond figurant dans le tableau **[!UICONTROL Qualification des messages]** de Campaign ne sont plus utilisées.
 
-Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **Adobe**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**, puis **[!UICONTROL E-mails bounce]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Les rebonds asynchrones restent qualifiés par le processus inMail grâce aux règles de **[!UICONTROL mail entrant]**. Pour accéder à ces règles, cliquez sur le logo **Adobe**, en haut à gauche, sélectionnez **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**, puis **[!UICONTROL E-mails rejetés]**. Pour plus d’informations sur cette règle, consultez [cette section](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Pour en savoir plus sur les bounces et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
+Pour en savoir plus sur les rebonds et leurs différentes sortes, consultez [cette section](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=fr#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

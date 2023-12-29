@@ -10,7 +10,7 @@ level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1652'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Pour la sortie, les événements de marketing email suivants sont envoyés de Ca
 
 *  Clic sur une URL d’email Adobe Campaign
 
-*  Email bounce Adobe Campaign
+* E-mails rejetés Adobe Campaign
 
 Pour voir la chronologie d’un contact, accédez à votre liste de contacts en cliquant sur Concentrateur des ventes dans le menu déroulant Dynamics 365. Cliquez ensuite sur Contacts dans la barre de menu de gauche et sélectionnez un contact.
 
@@ -55,7 +55,7 @@ Reportez au gros plan ci-dessous de la vue de chronologie pour l’utilisateur D
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Vous trouverez ci-dessous un gros plan de la carte de l’assistant de relations (AR). L’application AppSource contient un workflow qui recherche un événement de clic sur l’URL de l’email Adobe. Lorsque cet événement se produit, il crée une tâche et définit une date d’échéance. Cela permet à la tâche de s’afficher dans la carte de l’AR, ce qui lui donne une visibilité supplémentaire. Il existe un workflow similaire pour les événements Email bounce d’Adobe, qui ajoute une tâche pour réconcilier l’adresse email non valide. Ces workflows peuvent être désactivés dans la solution.
+Vous trouverez ci-dessous un gros plan de la carte de l’assistant de relations (AR). L’application AppSource contient un workflow qui recherche un événement de clic sur l’URL de l’email Adobe. Lorsque cet événement se produit, il crée une tâche et définit une date d’échéance. Cela permet à la tâche de s’afficher dans la carte de l’AR, ce qui lui donne une visibilité supplémentaire. Il existe un workflow similaire pour les événements E-mails rejetés d’Adobe, qui ajoute une tâche pour réconcilier l’adresse e-mail non valide. Ces workflows peuvent être désactivés dans la solution.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -79,11 +79,11 @@ Voici une liste des attributs et une description :
 
 * **Nom de la diffusion** : identifiant de la diffusion dans Campaign Standard
 
-* **Date d’envoi/d’ouverture/de clic/de bounce** : date/heure de création de l’événement
+* **Date d’envoi/d’ouverture/de clic/de rebond** : date/heure de création de l’événement
 
 * **URL de tracking** : URL sur laquelle l’utilisateur a cliqué
 
-* **URL de page miroir** : URL vers la page miroir de l’email envoyé/ouvert/sur lequel l’utilisateur a cliqué/de bounce. La période d’expiration de la page miroir d’email peut être modifiée dans l’écran de configuration de l’activité de canal email Campaign correspondante. [En savoir plus](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL de page miroir** : URL vers la page miroir de l’e-mail envoyé/ouvert/sur lequel l’utilisateur a cliqué/rejeté. La période d’expiration de la page miroir d’email peut être modifiée dans l’écran de configuration de l’activité de canal email Campaign correspondante. [En savoir plus](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ Types d’événements de marketing pris en charge :
 * Envoi - email envoyé au destinataire
 * Ouverture- email ouvert par le destinataire
 * Clic - URL dans l’email sur lequel clique le destinataire
-* Bounce - l’email envoyé au destinataire a fait l’objet d’un hard bounce
+* Rebond - L’e-mail envoyé au destinataire a fait l’objet d’un rebond définitif
 
 Les attributs des événements suivants sont affichés dans Dynamics 365 :
 * Nom de la campagne marketing
@@ -153,7 +153,7 @@ Les attributs des événements suivants sont affichés dans Dynamics 365 :
 * URL de la page miroir de l’email
 * URL sur laquelle l’utilisateur a cliqué (événements de clic uniquement)
 
-Les événements de marketing email peuvent être activés/désactivés par type (envoi, ouverture, clic, bounce) de sorte que seuls les types d’événements sélectionnés seront transmis à Dynamics 365.
+Les événements de marketing par e-mail peuvent être activés/désactivés par type (envoi, ouverture, clic, rebond) de sorte que seuls les types d’événements sélectionnés seront transmis à Dynamics 365.
 
 ### Flux d’opt-out {#opt-out-flow}
 

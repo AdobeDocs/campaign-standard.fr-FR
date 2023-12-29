@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2005'
 ht-degree: 100%
 
 ---
@@ -48,10 +48,10 @@ Voici une description de chacune des colonnes de la table :
 
      Vous ne pouvez pas choisir de relire les données lorsque les conditions suivantes sont remplies :
 
-      * il existe 2 000 000 d&#39;éléments (ou plus) dans la mesure Backlog associée au workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** (affiché dans la **[!UICONTROL page Workflows]**) ;
+      * il existe 2 000 000 d’éléments (ou plus) dans la mesure Liste d’attente associée au workflow **[!UICONTROL Microsoft Dynamics 365 vers Campaign]** (affiché dans la **[!UICONTROL page Workflows]**) ;
       * la table Microsoft Dynamics 365 comporte 2 000 000 d&#39;enregistrements ou plus.
 
-     Le nombre d’enregistrements à resynchroniser varie. Si vous disposez d’un grand nombre d’enregistrements, la synchronisation peut prendre du temps. Reportez-vous à la mesure **[!UICONTROL Backlog]** de la page **[!UICONTROL Workflows]** au fur et à mesure que l’application d’intégration effectue le processus de synchronisation.
+     Le nombre d’enregistrements à resynchroniser varie. Si vous disposez d’un grand nombre d’enregistrements, la synchronisation peut prendre du temps. Reportez-vous à la mesure **[!UICONTROL Liste d’attente]** de la page **[!UICONTROL Workflows]** au fur et à mesure que l’application d’intégration effectue le processus de synchronisation.
 
      >[!IMPORTANT]
      >
@@ -192,7 +192,7 @@ Vous pouvez configurer les options supplémentaires suivantes lors de la configu
 
 La page **[!UICONTROL Campaign vers Microsoft Dynamics 365]** vous permet d&#39;identifier les événements de marketing par email qui seront mappés d’Adobe Campaign vers Microsoft Dynamics 365.
 
-Les quatre mesures que vous pouvez contrôler sont les suivantes : **Envois**, **Clics**, **Ouvertures** et **Bounces**.
+Les quatre mesures que vous pouvez contrôler sont les suivantes : **Envois**, **Clics**, **Ouvertures** et **Rebonds**.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 

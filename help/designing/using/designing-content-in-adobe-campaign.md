@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 100%
 
 Une fois que vous avez créé un email dans Adobe Campaign, vous devez en définir le contenu.
 
-Le Concepteur d’email vous permet de créer des emails captivants et personnalisés au moyen d’une interface par glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
+Le concepteur d’e-mail vous permet de créer des emails captivants et personnalisés au moyen d’une interface par glisser-déposer. Que vous commenciez à partir de zéro ou que vous utilisiez des fragments ou des modèles de contenu existants, vous pouvez concevoir et affiner le contenu de chaque email pour un usage promotionnel ou transactionnel.
 
-Conçu pour générer du code HTML optimisé favorisant une conception réactive, le Concepteur d&#39;emails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
+Conçu pour générer du code HTML optimisé favorisant une conception réactive, le concepteur d’e-mails permet de définir et d&#39;appliquer facilement des conditions de visibilité et des contenus dynamiques à un email, un modèle ou un fragment, directement via l&#39;interface utilisateur. Vous pouvez basculer facilement entre l&#39;interface glisser-déposer et le code HTML d&#39;un simple clic sur un bouton.
 
-Le Concepteur d&#39;email permet de créer du contenu d&#39;email et des modèles de contenu d&#39;email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
+Le concepteur d’e-mail permet de créer du contenu d&#39;email et des modèles de contenu d&#39;email. Il est compatible avec les emails simples, les emails transactionnels, les emails de test A/B, les emails multilingues et les emails récurrents.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez le concepteur d’email en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez le concepteur d’e-mail en vidéo](#video)
 
-* Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du Concepteur d’email](../../designing/using/quick-start.md).
-* Pour une présentation du Concepteur d&#39;email, voir [Utilisation du Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
+* Pour découvrir comment créer un contenu d’email, voir la section [Prise en main du concepteur d’e-mail](../../designing/using/quick-start.md).
+* Pour une présentation du concepteur d’e-mail, voir [Utilisation du concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md).
 * Pour en savoir plus sur la création de contenu :
    * En partant de zéro, voir [Conception d&#39;emails à partir de zéro](../../designing/using/designing-from-scratch.md).
    * A l&#39;aide d&#39;un contenu existant, voir [Conception à l&#39;aide d&#39;un contenu existant](../../designing/using/using-existing-content.md).
@@ -45,7 +45,7 @@ Vous pouvez également définir un contenu dynamique qui varie en fonction de ch
 
 Améliorez vos messages et landing pages avec des liens et des images. Voir [Insérer un lien](../../designing/using/links.md#inserting-a-link) et [Insérer des images](../../designing/using/images.md#inserting-images).
 
-## Interface du Concepteur d&#39;email {#email-designer-interface}
+## Interface du concepteur d’e-mail {#email-designer-interface}
 
 Le Concepteur d&#39;email propose de nombreuses options qui permettent de créer, éditer et personnaliser tous les aspects de votre contenu.
 
@@ -65,9 +65,9 @@ Accédez à des options et des paramètres plus généraux à partir de la **bar
 
 La **barre d&#39;outils contextuelle** de l&#39;interface de l&#39;éditeur présente des fonctionnalités différentes selon la zone sélectionnée. Elle regroupe des boutons d&#39;action et des boutons permettant de modifier le style du texte. Les modifications effectuées s&#39;appliquent toujours sur la zone sélectionnée.
 
-### Page d&#39;accueil du Concepteur d&#39;email {#email-designer-home-page}
+### Page d&#39;accueil du concepteur d’e-mail {#email-designer-home-page}
 
-Lors de la [création d&#39;un email](../../channels/using/creating-an-email.md), la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]** s&#39;affiche automatiquement lors de la sélection du contenu de l&#39;email.
+Lors de la [création d&#39;un email](../../channels/using/creating-an-email.md), la page d&#39;accueil du **[!UICONTROL concepteur d’e-mail]** s&#39;affiche automatiquement lors de la sélection du contenu de l&#39;email.
 
 ![](assets/email_designer_home_page.png)
 
@@ -83,7 +83,7 @@ L&#39;onglet **[!UICONTROL Formation et support]** permet d&#39;accéder facilem
 
 ![](assets/email_designer_home_support.png)
 
-Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du Concepteur d&#39;email vous permet également de choisir le mode de conception de votre contenu :
+Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du concepteur d’e-mail vous permet également de choisir le mode de conception de votre contenu :
 
 * Cliquez sur le bouton **[!UICONTROL Créer]** pour commencer à créer entièrement un contenu. Voir [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 * Cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier à partir de votre ordinateur. Voir [Importer du contenu depuis un fichier](../../designing/using/using-existing-content.md#importing-content-from-a-file).
@@ -95,7 +95,7 @@ Si vous ne sélectionnez pas de modèle, la page d&#39;accueil du Concepteur d&#
 
 **Fragments** : un fragment est un composant réutilisable pouvant être référencé dans un ou plusieurs emails.
 
-**Composants de structure** : éléments structurels définissant la disposition de l&#39;email..
+**Composants de structure**: éléments structurels définissant la disposition de l&#39;email.
 
 **Composants de contenu** : les composants de contenu sont des composants bruts et vides que vous pouvez modifier une fois qu&#39;ils ont été placés dans un email.
 
@@ -117,13 +117,13 @@ Pour utiliser correctement le Concepteur d&#39;email et créer des emails optima
 
   Prévisualisez vos messages avant de les envoyer. Adobe Campaign permet de tester le rendu des emails à l&#39;aide de Litmus. Pour plus d&#39;informations, consultez la section [Rendu des emails](../../sending/using/email-rendering.md).
 
-* La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
+* La balise meta de référent n’est pas prise en charge dans le concepteur d’e-mail.
 
 D&#39;autres bonnes pratiques générales et de conception relatives aux messages sont présentées dans le guide pas à pas Adobe Campaign suivant : [Bonnes pratiques de diffusion avec Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Mise à jour des fragments {#email-designer-updates}
 
-Le Concepteur d&#39;email est sans cesse amélioré. Si vous avez créé un contenu d&#39;email entièrement ou à partir d&#39;un modèle d&#39;usine ou si vous avez créé des fragments, le message de mise à jour suivant peut s&#39;afficher lors de la prochaine ouverture du contenu :
+Le concepteur d’e-mail est sans cesse amélioré. Si vous avez créé un contenu d&#39;email entièrement ou à partir d&#39;un modèle d&#39;usine ou si vous avez créé des fragments, le message de mise à jour suivant peut s&#39;afficher lors de la prochaine ouverture du contenu :
 
 ![](assets/email_designer_fragment_patch_message.png)
 
@@ -143,7 +143,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * La mise à jour des fragments utilisés dans des emails déjà préparés n&#39;a aucun impact sur ces derniers.
 
-## Limitations du Concepteur d&#39;email    {#email-designer-limitations}
+## Limitations du concepteur d’e-mail  {#email-designer-limitations}
 
 * Vous ne pouvez pas utiliser de champs de personnalisation dans un fragment. Pour plus d&#39;informations sur les fragments, voir [cette section](../../designing/using/using-reusable-content.md#about-fragments).
 
@@ -151,7 +151,7 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 * Lors de l&#39;édition de styles, seules les polices web officiellement prises en charge par la plupart des clients d&#39;email sont disponibles.
 * Les styles ne peuvent pas être enregistrés en tant que thème pour une réutilisation ultérieure. Le style CSS peut toutefois être enregistré dans un modèle de contenu ou dans un email. Pour plus d&#39;informations sur les styles, voir [cette section](../../designing/using/styles.md).
-* La balise meta de référent n’est pas prise en charge dans le Concepteur d’email.
+* La balise meta de référent n’est pas prise en charge dans le concepteur d’e-mail.
 * Les paires de substitution, les caractères non inclus dans le plan multilingue de base du jeu de caractères Unicode, ne peuvent pas être stockés sur 2 octets (16 bits) et doivent être codés sur 2 caractères UTF-16. Ces caractères incluent certains idéographes CJK, la plupart des émoticônes et certaines langues.<br>Ces caractères peuvent provoquer des problèmes d’incompatibilité dans le texte dynamique. Vous devez effectuer des tests stricts avant d&#39;envoyer vos messages.
 
 **Rubriques connexes**
@@ -163,8 +163,8 @@ En ce qui concerne les fragments, tenez compte des points suivants :
 
 ## Tutoriel vidéo {#video}
 
-Cette vidéo présente un aperçu du concepteur d’email.
+Cette vidéo présente un aperçu du concepteur d’e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Pour commencer à utiliser le concepteur d’email, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles
+Pour commencer à utiliser le concepteur d’e-mail, regardez cette [série de vidéos](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=fr#GettingStarted) qui explique la fonctionnalité générale de l’outil et qui décrit comment créer entièrement un email ou le concevoir à l’aide de modèles

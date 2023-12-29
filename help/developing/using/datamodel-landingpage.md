@@ -11,7 +11,7 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1817'
 ht-degree: 100%
 
 ---
@@ -392,13 +392,13 @@ ht-degree: 100%
       </tr>
       <tr>
          <td>reconciliationFilter (queryFilterBase)</td>
-         <td>Reconciliation key</td>
+         <td>Clé de réconciliation</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationFilterMapping</td>
-         <td>Reconciliation key parameters</td>
+         <td>Paramètres de la clé de réconciliation</td>
          <td>collection </td>
          <td> </td>
       </tr>

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Avant d&#39;accéder à l&#39;image dans Adobe Campaign, les tâches suivantes d
    L&#39;intégration prend uniquement en charge les images statiques. Le reste du contenu n&#39;est pas personnalisable.
 
 1. Saisissez le nom du &quot;rawbox&quot; défini dans Adobe Target.
-1. Si vous utilisez les autorisations d&#39;Enterprise autorisations dans vos paramètres d&#39;Adobe Target, ajoutez la propriété correspondante dans ce champ. Vous trouverez des informations supplémentaires sur les autorisations d&#39;Enterprise dans [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif. Il n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations d&#39;Enterprise dans Target.
+1. Dans Adobe Target, si vous utilisez les autorisations Enterprise, ajoutez la propriété correspondante dans ce champ. Pour plus d&#39;informations sur les autorisations Enterprise Target, consultez [cette page](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=fr). Ce champ est facultatif et n&#39;est pas obligatoire si vous n&#39;utilisez pas les autorisations Enterprise dans Target.
 1. Dans **[!UICONTROL Paramètres de décision additionnels]**, associez les champs définis dans les segments Adobe Target et les champs d&#39;Adobe Campaign.
 
    Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans cet exemple, définissez différentes expériences en fonction du sexe du destinataire.

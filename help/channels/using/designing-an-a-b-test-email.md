@@ -11,7 +11,7 @@ level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '873'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Dans le cadre spécifique d&#39;un test A/B :
    ![](assets/create_ab_testing2.png)
 
 1. Validez la création de l&#39;email. Le tableau de bord de l&#39;email s&#39;affiche.
-1. Planifier l’envoi. La date définie indique le début du test A/B.
+1. Planifiez l&#39;envoi. La date définie indique le début du test A/B.
 1. Vérifiez les paramètres du test A/B affichés au niveau du bloc **[!UICONTROL Paramètres du test A/B]**. Vous pouvez les modifier jusqu&#39;à la confirmation de l&#39;envoi du test (étape 9) en sélectionnant le bloc.
 
    ![](assets/create_ab_testing3.png)
@@ -76,7 +76,7 @@ Dans le cadre spécifique d&#39;un test A/B :
 1. Avant d&#39;envoyer le test A/B, vérifiez votre email en envoyant des BAT.
 1. Une fois la préparation terminée, confirmez l&#39;envoi du test. Après la confirmation, les paramètres de test A/B ne sont plus modifiables.
 
-   Le test A/B démarre à la date définie dans le **[!UICONTROL Planing d&#39;envoi]**. Vous pouvez tracker son avancement à l&#39;aide des blocs **[!UICONTROL Test A/B]** et **[!UICONTROL Déploiement]**.
+   Le test A/B démarre à la date définie dans le **[!UICONTROL Planning d&#39;envoi]**. Vous pouvez tracker son avancement à l&#39;aide des blocs **[!UICONTROL Test A/B]** et **[!UICONTROL Déploiement]**.
 
    Vous pouvez à tout moment sélectionner manuellement la variante gagnante si vous souhaitez écourter la durée du test.
 
@@ -92,6 +92,6 @@ Votre email est maintenant défini et envoyé. Vous pouvez accéder à ses logs 
 
 ## À propos des indicateurs de test A/B {#about-a-b-test-indicators}
 
-Dans le tableau de bord des emails, plusieurs indicateurs sont proposés pour vous aider à mesurer votre test A/B : nombre de clics, ouvertures, bounces, etc.
+Dans le tableau de bord des e-mails, plusieurs indicateurs sont proposés pour vous aider à mesurer votre test A/B : nombre de clics, ouvertures, rebonds, etc.
 
 Notez que l&#39;indicateur **[!UICONTROL Réactivité estimée des destinataires]** est un taux comparant le nombre de destinataires ayant cliqué au nombre de destinataires ayant ouvert l&#39;email. Par exemple, si 10 destinataires ont ouvert l’e-mail et que 5 ont cliqué dessus, le taux de réactivité est de 50 %.

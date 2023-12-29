@@ -12,7 +12,7 @@ exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -59,7 +59,7 @@ La barre d&#39;actions contient différents boutons permettant d&#39;agir sur le
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Insérer un champ de personnalisation</span> <br /> </td> 
    <td> SMS et notifications push<br /> </td> 
-   <td> Permet d'ajouter un champ de la base de données dans le contenu. Voir <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Insertion d'un champ de personnalisation</a>.<br /> </td> 
+   <td> Permet d'ajouter un champ de la base de données dans le contenu. Voir <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Insérer un champ de personnalisation</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 

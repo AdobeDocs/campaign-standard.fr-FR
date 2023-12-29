@@ -10,7 +10,7 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Créez et envoyez vos messages sur différents canaux de communication en ligne 
 
 **Utilisez les canaux de communication de Campaign** pour diffuser vos campagnes marketing vers les bons destinataires : emails, SMS, notifications push, messages In-App, courrier, landing pages. Gagnez du temps et améliorez la cohérence de votre stratégie de messagerie en créant des modèles pour tous les types de messages (messages transactionnels, récurrents, multilingues). Effectuez des tests A/B et retenez l’attention de votre audience grâce à la personnalisation et aux fonctionnalités de contenu dynamique. [Prise en main des canaux de communication](../../channels/using/get-started-communication-channels.md)
 
-**Utilisez le Concepteur d’email de Campaign** pour créer des emails attrayants et personnalisés. Créez des emails intégralement ou réutilisez des fragments ou des modèles de contenus intégrés pour les concevoir au format HTML optimisé pour le responsive design. [Prise en main de la conception du contenu des emails](../../designing/using/designing-content-in-adobe-campaign.md)
+**Utilisez le concepteur d’e-mail de Campaign** pour créer des emails attrayants et personnalisés. Créez des emails intégralement ou réutilisez des fragments ou des modèles de contenus intégrés pour les concevoir au format HTML optimisé pour le responsive design. [Prise en main de la conception du contenu des emails](../../designing/using/designing-content-in-adobe-campaign.md)
 
 **Analysez et vérifiez le contenu de vos messages** avant de les envoyer, grâce aux différentes fonctionnalités de test, notamment les aperçus, les BAT, les tests d’objet des emails et le rendu des emails. Assurez-vous de diffuser les messages au bon moment en optimisant leur heure d’envoi (planification, gestion des fuseaux horaires). [Prise en main du test et de l’envoi de messages](../../sending/using/get-started-sending-messages.md)
 

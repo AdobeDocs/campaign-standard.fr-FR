@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '874'
 ht-degree: 100%
 
 ---
 
 # Prise en main de l’intégration de Microsoft Dynamics 365
 
-Activez vos données CRM lors d’une communication cross-canal : découvrez comment transférer des contacts de Microsoft Dynamics 365 à Adobe Campaign et partager les données de performances de la campagne (envois, ouvertures, clics et bounces) d’Adobe Campaign vers Microsoft Dynamics 365.
+Activez vos données CRM lors d’une communication cross-canal : découvrez comment transférer des contacts de Microsoft Dynamics 365 à Adobe Campaign et partager les données de performances de la campagne (envois, ouvertures, clics et rebonds) d’Adobe Campaign vers Microsoft Dynamics 365.
 
 Cette intégration requiert les versions de logiciels suivantes :
 
@@ -35,7 +35,7 @@ Cette intégration requiert les versions de logiciels suivantes :
 
 L’intégration Adobe Campaign Standard et Microsoft Dynamics 365 permet la synchronisation de toutes les données de contact disponibles dans le système CRM, rendant ainsi toutes celles appropriées disponibles pour les activités de campagne.
 
-Inversement, comme les profils au sein d’Adobe Campaign Standard interagissent avec les messages, ces données (p. ex. : envois, ouvertures, clics et bounces) se déplacent automatiquement vers Microsoft Dynamics 365 pour conserver les enregistrements Contact complets avec les activités de marketing.
+Inversement, comme les profils au sein d’Adobe Campaign Standard interagissent avec les messages, ces données (par exexemple : envois, ouvertures, clics et rebonds) se déplacent automatiquement vers Microsoft Dynamics 365 pour conserver les enregistrements Contact complets avec les activités de marketing.
 
 L&#39;intégration prend également en charge les [entités personnalisées](../../integrating/using/d365-acs-self-service-app-settings.md) dans Dynamics 365 pour qu&#39;elles soient synchronisées avec les **ressources personnalisées** correspondantes dans Campaign.
 
@@ -43,7 +43,7 @@ Cette intégration est conçue pour prendre en charge quatre principaux cas prat
 
 1. Synchronisation des contacts de Dynamics 365 vers Campaign afin qu’ils puissent être ciblés dans les campagnes marketing
 1. Synchronisation des entités personnalisées de Dynamics 365 vers Campaign afin qu’elles puissent être utilisées pour la segmentation et la personnalisation
-1. Envoi d’événements de marketing par email (envois, ouvertures, clics, bounces) de Campaign vers Dynamics 365 pour s’afficher dans le référentiel de ventes dans l’interface de Dynamics 365
+1. Envoi d’événements de marketing par e-mail (envois, ouvertures, clics, rebonds) de Campaign vers Dynamics 365 pour s’afficher dans le référentiel de ventes dans l’interface de Dynamics 365
 1. Synchronisation des statuts d&#39;opt-out (par exemple, ne pas envoyer d&#39;email) entre Dynamics 365 et Campaign afin de conserver les préférences de confidentialité des clients.
 
 Les principaux avantages sont les suivants :

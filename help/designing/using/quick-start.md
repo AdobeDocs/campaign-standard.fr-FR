@@ -1,6 +1,6 @@
 ---
-title: Prise en main du Concepteur d'email
-description: Commencez à créer du contenu d'email avec le Concepteur d'email.
+title: Prise en main du concepteur d’e-mail
+description: Commencez à créer du contenu d'email avec le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 ---
 
-# Prise en main du Concepteur d&#39;e-mail {#quick-start}
+# Prise en main du concepteur d’e-mail {#quick-start}
 
-Le Concepteur d&#39;email propose quatre méthodes pour créer des emails.
+Le concepteur d’e-mail propose quatre méthodes pour créer des emails.
 
-Vous pouvez créer un email [entièrement nouveau dans le Concepteur d&#39;emails](#without-existing-content) :
+Vous pouvez créer un email [entièrement nouveau dans le concepteur d’e-mails](#without-existing-content) :
 
 1. Vous pouvez **créer un email à partir d’une zone de travail vierge** en ajoutant facilement la structure et les composants de contenu et en personnalisant leur contenu pour envoyer rapidement une diffusion. Vous pouvez également gérer entièrement les éléments de style. Pour plus d&#39;informations, consultez la [documentation de prise en main rapide](#from-scratch-email) ou la [documentation complète](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
@@ -52,7 +52,7 @@ Vous pouvez facilement créer un email, ajouter des composants et personnaliser 
 
 Les objets sont obligatoires lors de l&#39;envoi d&#39;un email. Pour plus d&#39;informations, voir [Définition de l&#39;objet d&#39;un email](../../designing/using/subject-line.md).
 
-1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
+1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du concepteur d’e-mail (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
 
 ![](assets/subject-line-quick-start.png)
 
@@ -121,11 +121,11 @@ Vous pouvez maintenant enregistrer et envoyer votre email.
 Vous pouvez créer un email à partir de modèles d&#39;usine, tels que des messages d&#39;accueil de client, des newsletters et des emails de réengagement, puis les personnaliser.
 
 1. Créez un email et ouvrez son contenu. Voir à ce propos [Créer un email](../../channels/using/creating-an-email.md).
-1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]**.
+1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL concepteur d’e-mail]**.
 1. Cliquez sur l&#39;onglet **[!UICONTROL Modèles]**.
 1. Choisissez un modèle HTML d&#39;usine.
 Les différents modèles présentent de multiples combinaisons de plusieurs types d&#39;éléments. Par exemple, les modèles &#39;Contour progressif&#39; possèdent des marges, tandis que les modèles &#39;Astro&#39; en sont dépourvus. Pour plus d&#39;informations, consultez la section [Modèles de contenu](../../designing/using/using-reusable-content.md#content-templates).
-1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du Concepteur d&#39;email (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
+1. Accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du concepteur d’e-mail (accessible par le biais de l&#39;icône Accueil) et renseignez la section **[!UICONTROL Objet.]**
 1. Vous pouvez associer ces éléments afin de créer plusieurs variantes d&#39;emails. Par exemple, vous pouvez dupliquer une section d&#39;email en sélectionnant un composant de structure et en cliquant sur **[!UICONTROL Dupliquer]** dans la barre d&#39;outils contextuelle.
 1. Vous pouvez déplacer les éléments au moyen de la flèche bleue située à gauche de façon à faire glisser un composant de structure au-dessus ou en dessous d&#39;un autre. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Vous pouvez également déplacer des composants afin de modifier l&#39;organisation de chaque élément de structure. Pour plus d&#39;informations, consultez la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
@@ -134,11 +134,11 @@ Les différents modèles présentent de multiples combinaisons de plusieurs type
 
 ## Utiliser un contenu d&#39;email existant {#with-existing-content}
 
-Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
+Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de concepteur d’e-mail.
 
 ### Conversion de contenu HTML {#converting-an-html-content}
 
-Ce cas pratique présente comment convertir rapidement un email HTML en composants du Concepteur d&#39;email. Pour plus d’informations à ce sujet, voir la section [Conversion de contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
+Ce cas pratique présente comment convertir rapidement un email HTML en composants du concepteur d’e-mail. Pour plus d’informations à ce sujet, voir la section [Conversion de contenu HTML](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -151,6 +151,6 @@ Ce cas pratique présente comment convertir rapidement un email HTML en composan
 
 ### Import et édition d&#39;un email HTML {#compatibility-mode}
 
-Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l&#39;aide de l&#39;éditeur WYSIWYG du Concepteur d&#39;email.
+Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l&#39;aide de l&#39;éditeur WYSIWYG du concepteur d’e-mail.
 
-Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le Concepteur d&#39;email, voir [cette section](../../designing/using/using-existing-content.md#compatibility-mode).
+Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le concepteur d’e-mail, voir [cette section](../../designing/using/using-existing-content.md#compatibility-mode).

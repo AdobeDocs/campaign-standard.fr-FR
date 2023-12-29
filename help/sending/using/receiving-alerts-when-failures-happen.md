@@ -10,7 +10,7 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2305'
 ht-degree: 100%
 
 ---
@@ -102,8 +102,8 @@ Les critères suivants peuvent être utilisés dans les tableaux de bord des ale
 
 * **[!UICONTROL Diffusions en échec]** : toute diffusion planifiée sur une période définie, ayant un statut en erreur.
 * **[!UICONTROL Diffusions avec préparation en échec]** : toute diffusion modifiée pendant une période définie pour laquelle l&#39;étape de préparation (calcul de la cible et génération du contenu) n&#39;a pas réussi. Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Diffusion avec taux de soft bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de soft bounces est supérieur à un pourcentage défini.
-* **[!UICONTROL Diffusion avec taux de hard bounces incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de hard bounces est supérieur à un pourcentage défini.
+* **[!UICONTROL Diffusion avec taux de rebonds temporaires incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de rebonds temporaires est supérieur à un pourcentage défini.
+* **[!UICONTROL Diffusion avec taux de rebonds définitifs incorrect]** : toute diffusion planifiée sur une période définie, ayant au moins le statut **[!UICONTROL En cours]** et dont le taux de rebonds définitifs est supérieur à un pourcentage défini.
 * **[!UICONTROL Diffusions avec un état de démarrage en attente long]** : toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL Démarrage en attente]** pendant une durée supérieure à celle spécifiée. Le statut **[!UICONTROL Démarrage en attente]** signifie que les messages n&#39;ont pas encore été pris en compte par le système.
 * **[!UICONTROL Diffusions avec faible débit]** : toute diffusion ayant démarré depuis plus longtemps qu&#39;une durée définie, avec un pourcentage de messages traités inférieur à un pourcentage défini et un débit inférieur à une valeur définie.
 * **[!UICONTROL Diffusions en cours]** :toute diffusion planifiée sur une période définie, ayant le statut **[!UICONTROL En cours]**.
@@ -193,11 +193,11 @@ Dans l&#39;onglet **[!UICONTROL Paramètres des critères]** d&#39;un [tableau d
 
   Pour plus d&#39;informations sur la date de contact, voir [Planning](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Taux maximal de soft bounces]** : une notification est envoyée pour toutes les diffusions dont le taux de soft bounces est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
+* **[!UICONTROL Taux maximal de rebonds temporaires]** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds temporaires est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
 
   Pour plus d&#39;informations sur les soft bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Taux maximal de soft bounces]** : une notification est envoyée pour toutes les diffusions dont le taux de hard bounces est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
+* **[!UICONTROL Taux maximal de rebonds définitifs]** : une notification est envoyée pour toutes les diffusions dont le taux de rebonds définitifs est supérieur à la valeur spécifiée. Par défaut, la valeur de ce champ est définie sur 0,05 (5 %).
 
   Pour plus d&#39;informations sur les hard bounces, voir [À propos de la qualification des emails bounce](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) et [Liste des types de diffusions en échec](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
@@ -247,14 +247,14 @@ Vous trouverez ci-dessous quelques raisons possibles de la réception de notific
 
   Pour plus d&#39;informations, consultez la section [Préparer l&#39;envoi](../../sending/using/preparing-the-send.md). Ces erreurs sont toutefois généralement détectées lors de l&#39;analyse des messages. Voir [Règles de contrôle](../../sending/using/control-rules.md).
 
-* Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs soft incorrect]** peuvent être les suivantes :
+* Les causes possibles d’une alerte **[!UICONTROL Diffusion avec taux d’erreurs incorrect pour les rebonds temporaires]** peuvent être les suivantes :
 
    * Le serveur du destinataire est en panne.
    * La boîte de messagerie du destinataire est pleine.
 
   Pour plus d&#39;informations, consultez les onglets **[!UICONTROL Exclus]** et **[!UICONTROL Exclusions appliquées]** des logs de diffusion. Voir [Exclus](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-  Les causes possibles d&#39;une alerte **[!UICONTROL Diffusion avec taux d&#39;erreurs hard incorrect]** peuvent être les suivantes :
+  Les causes possibles d’une alerte **[!UICONTROL Diffusion avec taux d’erreurs incorrect pour les rebonds définitifs]** peuvent être les suivantes :
 
    * Le destinataire est ajouté sur la liste bloquée, ce qui signifie qu’il ne souhaite plus être contacté.
    * L&#39;adresse email du destinataire n&#39;existe pas.

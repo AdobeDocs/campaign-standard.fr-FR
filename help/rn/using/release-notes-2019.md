@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7562'
+source-wordcount: '7680'
 ht-degree: 100%
 
 ---
@@ -72,11 +72,11 @@ ht-degree: 100%
 * La sécurité de la protection contre les injections dans les en-têtes d’email a été améliorée.
 * La sécurité a été renforcée pour la protection contre les attaques SSRF où les expressions xtk peuvent être utilisées (HTML d’email, contenu texte et objet, SMS et contenu de notification push).
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Correction d’un problème qui empêchait le suivi des liens de désabonnement, d’abonnement et de landing page lorsqu’ils étaient insérés dans un email. (CAMP-37809)
 * Correction d’un problème susceptible d’entraîner des erreurs lors de la création d’un email et de la sélection d’un modèle. (CAMP-38000)
-* Lors de l’édition d’un lien à l’aide du Concepteur d’email, vous pouvez désormais utiliser l’option **Souligner le lien**. En outre, la propriété **Cible** a été ajoutée avec la valeur par défaut définie sur **Aucune**. [En savoir plus](../../designing/using/styles.md#about-styling-links)
+* Lors de l’édition d&#39;un lien à l’aide du concepteur d’e-mail, vous pouvez désormais utiliser l’option **Souligner le lien**. En outre, la propriété **Cible** a été ajoutée avec la valeur par défaut définie sur **Aucune**. [En savoir plus](../../designing/using/styles.md#about-styling-links)
 * Correction d’un problème de couleur sur les liens au sein des composants de texte dans le corps d’un email. (CAMP-37330)
 * Correction d’un problème qui empêchait la suppression des liens associés lors de la suppression d’une image. (CAMP-37234)
 * Correction d’un problème qui empêchait l’enregistrement des modifications des paramètres **Ordre de priorité** du contenu dynamique dans une condition. (CAMP-36883)
@@ -90,7 +90,7 @@ ht-degree: 100%
 * Correction d’un problème qui affichait de manière aléatoire des espaces insécables de largeur nulle. (CAMP-35116)
 * Correction d’un problème lié à la position des boutons dans la boîte de dialogue **Enregistrer en tant que fragment**.
 * Correction d’un problème d’aperçu lors de l’ajout d’une balise HTML dans un titre d’image et un texte alternatif.
-* Correction d’un problème lors de l’édition, dans le Concepteur d’email, des liens créés dans des emails à partir de l’ancien éditeur.
+* Correction d&#39;un problème lors de l&#39;édition, dans le concepteur d’e-mail, des liens créés dans des emails à partir de l&#39;ancien éditeur.
 * Correction d’un problème en raison duquel les balises de style étaient dupliquées dans le contenu.
 * Correction d’un problème lié au format de date lors de l’insertion d’un champ de personnalisation dans un email.
 * Correction d’un problème d’enregistrement lors du passage du mode HTML au texte brut.
@@ -168,21 +168,21 @@ ht-degree: 100%
 
 * Correction d’un problème de sécurité pour empêcher les attaques par déni de service (DoS) sur les demandes d’obtention d’images non valides. (CAMP-33454)
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Correction d’un problème qui ajoutait des balises de style HTML supplémentaires à un modèle HTML chaque fois qu’un composant était ajouté, ce qui augmentait considérablement la taille du modèle. (CAMP-34694)
 * Correction d’un problème qui empêchait la disponibilité de certaines options de menu de la barre d’outils supérieure droite. (CAMP-34577)
 * Correction d’un problème qui se produisait lorsque le bloc de contenu URL de la page miroir était inséré dans un contenu d’email. (CAMP-34779)
 * Correction d’un problème qui se produisait lors de l’utilisation du code JPSP dans un email, rendant difficile l’édition du contenu. (CAMP-34574)
 * Correction d’un problème en raison duquel les images étaient tronquées dans la partie supérieure en cas d’ajout d’un lien hypertexte sur celles-ci. (CAMP-34382)
-* Correction d’un problème d’affichage lors de l’utilisation du Concepteur d’email avec Firefox. (CAMP-34364)
+* Correction d&#39;un problème d&#39;affichage lors de l&#39;utilisation du concepteur d’e-mail avec Firefox. (CAMP-34364)
 * Correction de plusieurs problèmes liés au mode Avancé qui se produisaient lors de la définition du contenu dynamique d’un email. (CAMP-34351, CAMP-34333, CAMP-34331)
 * Correction de plusieurs problèmes liés à l’éditeur de règles de contenu dynamique (CAMP-34304, CAMP-34303).
-* Correction d’un problème qui empêchait l’affichage du champ Lien dans le volet Paramètres du Concepteur d’email (CAMP-33749).
+* Correction d&#39;un problème qui empêchait l&#39;affichage du champ Lien dans le volet Paramètres du concepteur d’e-mail (CAMP-33749).
 * Correction d’un problème lié à l’icône YouTube qui était surdimensionnée dans les emails envoyés. (CAMP-33726)
 * Correction d’un problème de sécurité qui permettait d’éditer le contenu de la page miroir. (CAMP-33691)
 * Correction d’un problème qui endommageait la sortie HTML lors de l’utilisation du symbole supérieur à dans du contenu dynamique. (CAMP-33688)
-* Correction d’un problème qui se produisait lors de l’utilisation de l’option Annuler pendant l’édition de texte dans le Concepteur d’email. (CAMP-32565)
+* Correction d&#39;un problème qui se produisait lors de l&#39;utilisation de l&#39;option Annuler pendant l&#39;édition de texte dans le concepteur d’e-mail. (CAMP-32565)
 * Correction d’un problème qui créait des balises supplémentaires lors de l’annulation de styles au lieu de les supprimer. (CAMP-32359)
 * Vous pouvez maintenant définir si chaque composant utilisé dans un email s’affichera uniquement sur les postes de travail ou sur les appareils mobiles.
 * Vous pouvez désormais définir la largeur et la hauteur d’un composant de contenu Social.
@@ -191,9 +191,9 @@ ht-degree: 100%
 * Correction d’un problème qui empêchait la sélection d’une structure de colonne n:n une fois déposée dans l’espace de travail.
 * Correction d’un problème en raison duquel la miniature du message apparaissait floue dans le tableau de bord de l’email.
 * Correction d’un problème qui empêchait l’affichage correct de l’arrière-plan des emails reçus dans Outlook.
-* Correction de certains problèmes de tri sur la page d’accueil du Concepteur d’email.
+* Correction de certains problèmes de tri sur la page d&#39;accueil du concepteur d’e-mail.
 * Correction d’un problème qui se produisait lors de la duplication de variantes pendant l’utilisation de contenu dynamique.
-* Certains champs indésirables ont été supprimés du volet Paramètres du Concepteur d’email.
+* Certains champs indésirables ont été supprimés du volet Paramètres du concepteur d’e-mail.
 
 **Autres améliorations**
 
@@ -225,7 +225,7 @@ ht-degree: 100%
 * Correction d’un problème qui entraînait un message d’erreur de publication de ressource personnalisée erroné après la connexion.
 * Correction d’un problème qui affichait une page vierge lors de la création ou de l’extension d’une ressource personnalisée.
 * Correction d’un problème qui empêchait une audience avec appSubscriptionrcp comme dimension de ciblage d’être disponible pour le ciblage dans une diffusion mobile.
-* Correction d’une erreur qui empêchait la mise en quarantaine des adresses hard bounce. (CAMP-24587)
+* Correction d’une erreur qui empêchait la mise en quarantaine des adresses e-mail avec rebonds définitifs. (CAMP-24587)
 * Correction d’un problème qui se produisait lors de l’ajout d’une règle de typologie et qui la supprimait avant de l’enregistrer. (CAMP-32789)
 * Correction d’un problème qui empêchait l’affichage du contenu de la landing page lors de la désactivation du contenu dynamique. (CAMP-32924)
 * Correction d’un problème lié aux diffusions récurrentes qui se produisait lors de l’utilisation de la personnalisation sur les attributs d’une diffusion principale. (CAMP-32983)
@@ -264,13 +264,13 @@ ht-degree: 100%
 
 ## Version 19.2.4 - Juin 2019 {#release-19-2-4---june-2019}
 
-**Concepteur d’email**
+**Concepteur d’e-mail**
 
 * Correction d’un problème qui empêchait les utilisateurs d’éditer des fragments si le code HTML contenait des balises &lt;style> vides. Il s’agit d’un correctif de suivi pour CAMP-33778 dans la version 19.2.3.
 
 ## Version 19.2.3 - Juin 2019 {#release-19-2-3---june-2019}
 
-**Concepteur d’email**
+**Concepteur d’e-mail**
 
 Mise en place d’une série d’améliorations et de correctifs afin d’optimiser les fragments dans la version 19.2. Les nouveaux fragments fonctionneront de manière transparente. Les fragments conçus précédemment ont été grisés et devront être migrés vers le nouveau format. Pour cela, cliquez sur chaque fragment et validez sa migration vers le nouveau format. Nous vous recommandons de tester quelques fragments avant de migrer l’ensemble.
 
@@ -322,22 +322,22 @@ Mise en place d’une série d’améliorations et de correctifs afin d’optimi
 
 * Correction d’un problème de sécurité potentiel de détournement de clic dans l’espace de travail de reporting.
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
-* Correction d’un problème qui se produisait lors de la duplication de fragments et de leur utilisation dans le Concepteur d’email. (CAMP-33193)
-* Correction d’un problème qui créait des espaces inutiles lors de l’utilisation d’éléments incorporés dans l’interface du Concepteur d’email. (CAMP-32163)
-* Correction d’un problème qui supprimait certains attributs de balise HTML supplémentaires ajoutés par l’utilisateur après avoir enregistré le contenu d’un email dans le Concepteur d’email. (CAMP-32162)
-* Correction d’un problème qui affichait une balise Microsoft Office en mode HTML du Concepteur d’email, même après sa suppression. (CAMP-32141)
-* Si vous avez créé un email à l’aide d’une version antérieure du Concepteur d’e-mail, une fenêtre pop-up s’ouvre maintenant lors de l’ouverture du contenu de cet e-mail pour inviter l’utilisateur à effectuer une mise à jour vers la version la plus récente. (CAMP-31529)
-* Correction d’un problème qui déformait les images d’un email créé avec le Concepteur d’email lorsqu’il était diffusé à certains clients de messagerie. (CAMP-31407)
+* Correction d’un problème qui se produisait lors de la duplication de fragments et de leur utilisation dans le concepteur d’e-mail. (CAMP-33193)
+* Correction d’un problème qui créait des espaces inutiles lors de l’utilisation d’éléments incorporés dans l’interface du concepteur d’e-mail. (CAMP-32163)
+* Correction d’un problème qui supprimait certains attributs de balise HTML supplémentaires ajoutés par l’utilisateur après avoir enregistré le contenu d’un email dans le concepteur d’e-mail. (CAMP-32162)
+* Correction d’un problème qui affichait une balise Microsoft Office en mode HTML du concepteur d’e-mail, même après sa suppression. (CAMP-32141)
+* Si vous avez créé un email à l’aide d’une version antérieure du concepteur d’e-mail, une fenêtre pop-up s’ouvre maintenant lors de l’ouverture du contenu de cet e-mail pour inviter l’utilisateur à effectuer une mise à jour vers la version la plus récente. (CAMP-31529)
+* Correction d’un problème qui déformait les images d’un email créé avec le concepteur d’e-mail lorsqu’il était diffusé à certains clients de messagerie. (CAMP-31407)
 * Correction d’un problème qui empêchait l’affichage correct de certains éléments (listes ou boutons, par exemple) en mode texte brut lorsqu’ils avaient été créés en mode HTML. (CAMP-32582, CAMP-32542)
 * Correction d’un problème qui empêchait l’affichage de plus de 50 entités organisationnelles dans un modèle de contenu ou des propriétés de fragment. (CAMP-32932)
-* Correction d’un problème lié à la couleur d’arrière-plan de la fenêtre d’affichage lors de la réception dans Outlook d’un email créé avec le Concepteur d’email. (CAMP-31402)
-* Correction d’un problème qui empêchait les contenus d’email créés avec le Concepteur d’email d’être réactifs lorsqu’ils étaient ouverts dans Outlook. (CAMP-31400)
+* Correction d’un problème lié à la couleur d’arrière-plan de la fenêtre d’affichage lors de la réception dans Outlook d’un email créé avec le concepteur d’e-mail. (CAMP-31402)
+* Correction d’un problème qui empêchait les contenus d’email créés avec le concepteur d’e-mail d’être réactifs lorsqu’ils étaient ouverts dans Outlook. (CAMP-31400)
 * Correction d’un problème qui empêchait le contenu dynamique de fonctionner correctement lorsqu’il était utilisé dans l’objet d’un email. (CAMP-32837)
 * Correction d’un problème lié aux objets des emails qui n’étaient pas correctement placés dans une séquence d’échappement.
-* Correction d’un problème qui empêchait le chargement de fragments dans la palette de gauche du Concepteur d’email.
-* Correction d’un problème qui empêchait l’affichage des fragments créés lors de l’édition du contenu d’email dans la palette de gauche du Concepteur d’email au moment de l’actualisation de la liste des fragments.
+* Correction d&#39;un problème qui empêchait le chargement de fragments dans la palette de gauche du concepteur d’e-mail.
+* Correction d’un problème qui empêchait l’affichage des fragments créés lors de l’édition du contenu d’email dans la palette de gauche du concepteur d’e-mail au moment de l’actualisation de la liste des fragments.
 * Correction de plusieurs problèmes qui se produisaient lors de l’utilisation de contenu dynamique dans un email.
 * Correction d’un problème lié au sélecteur de couleurs qui se produisait lors de la définition d’une couleur à l’aide de valeurs RVB.
 * Correction d’un problème qui empêchait la page miroir d’être réactive lors de la réception de l’email sur un mobile.
@@ -393,7 +393,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 ## Version 19.1.3 - Mars 2019                 {#release-19-1-3---march-2019}
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Correction d’un problème qui empêchait la modification d’un modèle après son enregistrement.
 * Résolution de divers problèmes qui pouvaient se produire dans les emails lors de l’utilisation d’un modèle créé auparavant.
@@ -445,7 +445,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 
 * Le code HTML de landing page généré a été mis à jour afin d’empêcher toute indexation par les moteurs de recherche.
 
-**Améliorations du Concepteur d’email**
+**Améliorations du concepteur d’e-mail**
 
 * Un ensemble de quatre modèles d’email réactif conçus par des artistes Behance est maintenant disponible.
 
@@ -470,7 +470,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * Correction de plusieurs problèmes qui empêchaient l’utilisation d’images dynamiques d’Adobe Target.
 * Correction d’un problème qui empêchait la mise à jour de l’aperçu lors de la récupération du contenu au moment de la préparation si le contenu avait déjà été importé à partir d’une URL.
 * L’icône YouTube a été ajoutée au composant de contenu **Social**.
-* La vue **Liste** a été ajoutée pour les composants de contenu et les fragments affichés dans la palette du Concepteur d’email.
+* La vue **Liste** a été ajoutée pour les composants de contenu et les fragments affichés dans la palette du concepteur d’e-mail.
 
 **Autres améliorations**
 
@@ -525,8 +525,8 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
  </thead> 
  <tbody> 
   <tr> 
-   <td> Disponibilité générale du Concepteur d’email<br /> </td> 
-   <td> <p>Le nouveau Concepteur d’email intuitif (anciennement Creative Designer) est passé à la phase de disponibilité générale. Il prend maintenant en charge toutes les fonctionnalités de l’ancien éditeur de contenu, notamment :</p> 
+   <td> Disponibilité générale du concepteur d’e-mail<br /> </td> 
+   <td> <p>Le nouveau concepteur d’e-mail intuitif (anciennement Creative Designer) est passé à la phase de disponibilité générale. Il prend maintenant en charge toutes les fonctionnalités de l’ancien éditeur de contenu, notamment :</p> 
     <ul> 
      <li> Utilisation des <a href="../../integrating/using/adding-target-dynamic-content.md">images dynamiques d’Adobe Target</a> </li> 
      <li> Possibilité de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">récupérer automatiquement du contenu depuis une URL au moment de la préparation</a> </li> 
@@ -539,7 +539,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
    <td> <p>Vous pouvez maintenant référencer une ou plusieurs collections de produits dans un email transactionnel. Vous pouvez par exemple envoyer automatiquement un email d’abandon de panier répertoriant tous les produits qui étaient dans le panier de l’utilisateur avec une image, le prix et un lien vers chaque produit.</p><p>Pour plus d’informations, consultez la <a href="../../designing/using/using-product-listings.md">documentation détaillée</a> et la <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=fr">vidéo de procédure</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> Vue mobile dans le Concepteur d’email<br /> </td> 
+   <td> Vue mobile dans le concepteur d’e-mail<br /> </td> 
    <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l’édition du contenu d’un email. Vous pouvez ainsi affiner le responsive design d’un email en éditant séparément toutes les options de style pour l’affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur fond, etc.).</p><p> Pour plus d’informations, consultez la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -565,26 +565,26 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
 * La liste des pays disponibles lors de la définition de l’adresse d’un profil a été enrichie. (CAMP-26707)
 * Un message d’erreur s’affiche maintenant lorsque vous essayez d’importer un workflow intégré.
 
-**Concepteur d’email**
+**Concepteur d’e-mail**
 
-* Correction d’un problème qui entraînait l’activation de la fonctionnalité d’entité géographique sur un modèle d’email ou un fragment de contenu créé dans le Concepteur d’email, même si cette fonctionnalité était désactivée dans Adobe Campaign, ce qui rendait le modèle ou le fragment indisponible lors d’une nouvelle tentative d’accès. (CAMP-28174)
-* Correction d’un problème qui empêchait l’enregistrement des conditions de contenu dynamique lors de l’édition de contenu dans le Concepteur d’email. (CAMP-27905)
-* Correction d’un problème qui entraînait la suppression de la version HTML du contenu de l’email après avoir édité la version en texte brut d’un message et interrompu la synchronisation HTML dans le Concepteur d’email. (CAMP-28507)
-* Correction d’un problème qui empêchait l’ouverture de l’interface du Concepteur d’email lors de l’utilisation d’Internet Explorer 11. (CAMP-28273)
-* Correction d’un problème qui déformait le rendu des paramètres de style Microsoft Outlook appliqués aux boutons avec le Concepteur d’email.
-* Correction d’un problème lié au Concepteur d’email qui rendait éditable l’URL d’un fragment de contenu utilisé dans un email, ce qui n’était pas prévu, le fragment étant verrouillé par défaut.
-* Correction d’un problème qui empêchait l’affichage du composant diviseur du Concepteur d’email dans Microsoft Office.
+* Correction d’un problème qui entraînait l’activation de la fonctionnalité d’entité géographique sur un modèle d’email ou un fragment de contenu créé dans le concepteur d’e-mail, même si cette fonctionnalité était désactivée dans Adobe Campaign, ce qui rendait le modèle ou le fragment indisponible lors d’une nouvelle tentative d’accès. (CAMP-28174)
+* Correction d&#39;un problème qui empêchait l&#39;enregistrement des conditions de contenu dynamique lors de l&#39;édition de contenu dans le concepteur d’e-mail. (CAMP-27905)
+* Correction d&#39;un problème qui entraînait la suppression de la version HTML du contenu de l&#39;email après avoir édité la version en texte brut d&#39;un message et interrompu la synchronisation HTML dans le concepteur d’e-mail. (CAMP-28507)
+* Correction d&#39;un problème qui empêchait l&#39;ouverture de l&#39;interface du concepteur d’e-mail lors de l&#39;utilisation d&#39;Internet Explorer 11. (CAMP-28273)
+* Correction d’un problème qui déformait le rendu des paramètres de style Microsoft Outlook appliqués aux boutons avec le concepteur d’e-mail.
+* Correction d’un problème lié au concepteur d’e-mail qui rendait éditable l’URL d’un fragment de contenu utilisé dans un email, ce qui n’était pas prévu, le fragment étant verrouillé par défaut.
+* Correction d’un problème qui empêchait l’affichage du composant diviseur du concepteur d’e-mail dans Microsoft Office.
 * Correction d’un problème qui entraînait le gel des pages de certains navigateurs Internet lors de l’affichage d’un contenu synchronisé à partir d’AEM à l’aide de l’ancien éditeur de contenu d’email. (CAMP-29068)
 * Correction d’une erreur qui se produisait lors d’un clic sur une image dans un email lorsque l’ancien éditeur de contenu d’email était utilisé. (CAMP-30424)
-* Correction d’un problème qui empêchait l’affichage des fragments nouvellement créés lors de l’édition d’un email dans le Concepteur d’email. (CAMP-29928)
-* Correction d’un problème qui empêchait l’affichage correct du texte des boutons dans les emails créés avec le Concepteur d’email et reçus à l’aide du client webmail Outlook.
-* Il est maintenant possible de créer des messages transactionnels de profil à l’aide du Concepteur d’email. (CAMP-28900)
-* Correction d’une erreur dans le Concepteur d’email qui rendait le contenu éditable lors de la récupération automatique du contenu d’une URL au moment de la préparation, alors qu’il devait être verrouillé.
+* Correction d&#39;un problème qui empêchait l&#39;affichage des fragments nouvellement créés lors de l&#39;édition d&#39;un email dans le concepteur d’e-mail. (CAMP-29928)
+* Correction d’un problème qui empêchait l’affichage correct du texte des boutons dans les emails créés avec le concepteur d’e-mail et reçus à l’aide du client webmail Outlook.
+* Il est maintenant possible de créer des messages transactionnels de profil à l&#39;aide du concepteur d’e-mail. (CAMP-28900)
+* Correction d’une erreur dans le concepteur d’e-mail qui rendait le contenu éditable lors de la récupération automatique du contenu d’une URL au moment de la préparation, alors qu’il devait être verrouillé.
 
 **Correctifs**
 
 * Correction d’un problème qui entraînait l’affichage de logs de diffusion incorrects dans les rapports dynamiques. (CAMP-23446)
-* Correction d’un problème qui avait un impact sur les chiffres du rapport de synthèse des bounces (CAMP-28703).
+* Correction d’un problème qui avait un impact sur les chiffres du rapport de synthèse des rebonds (CAMP-28703).
 * Correction d’un problème lié à l’intégration de Campaign avec Assets Core Service qui empêchait l’affichage des ressources lors de la sélection de l’option **[!UICONTROL Image partagée depuis Adobe Experience Cloud]** dans un email (CAMP-28732).
 * Correction d’un problème qui empêchait l’envoi de SMS contenant le caractère ’œ’ bien que la translittération soit autorisée dans le compte externe SMPP. (CAMP-29041)
 * Correction d’un problème qui entraînait l’affichage d’enregistrements en double lors de l’utilisation d’une activité Segmentation dans des workflows. (CAMP-28743)

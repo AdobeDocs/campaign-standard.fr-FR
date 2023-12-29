@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 94%
 
 ---
 
@@ -50,8 +50,8 @@ Les règles de contrôle peuvent être appliquées à différentes phases du cyc
 
 * **Après le ciblage** : l’exécution après le ciblage vous permet de connaître le volume de la cible afin d’appliquer la règle de contrôle.
 
-  Par exemple, la règle de contrôle **Vérification de la taille des BAT** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
+  Par exemple, la règle de contrôle **Vérification de la taille des BAT** s&#39;applique obligatoirement après l&#39;étape de ciblage : cette règle permet de ne pas préparer la personnalisation des messages si les destinataires du BAT sont trop nombreux.
 
-* **Au début de la personnalisation**: s’applique lorsque la vérification concerne la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d&#39;analyse.
+* **Au début de la personnalisation**: s’applique lorsque la vérification porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d&#39;analyse.
 
-* **A la fin de l&#39;analyse**: lorsqu’une vérification nécessite que la personnalisation du message soit effectuée.
+* **A la fin de l&#39;analyse**: lorsqu’une vérification nécessite que la personnalisation du message soit terminée.

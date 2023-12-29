@@ -1,6 +1,6 @@
 ---
 title: Utilisation d’images
-description: Découvrez comment gérer des images dans les emails avec le Concepteur d'email.
+description: Découvrez comment gérer des images dans les emails avec le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content

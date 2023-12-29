@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ Pour plus d&#39;informations, consultez la section [Débit de diffusion](../../r
 
 Vous pouvez paramétrer l’affichage des valeurs en sélectionnant le périmètre de la vue.
 
-D’autres rapports sont disponibles, tels que **[!UICONTROL synthèse de diffusion]** ou **[!UICONTROL échecs et bounces]**. Pour plus d&#39;informations, consultez la section [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md).
+D’autres rapports sont disponibles, tels que **[!UICONTROL Synthèse de diffusion]** ou **[!UICONTROL Non-délivrables et rebonds]**. Pour plus d&#39;informations, consultez la section [Rapports dynamiques](../../reporting/using/about-dynamic-reports.md).
 
 ## Surveillance des diffusions {#monitoring-deliveries}
 

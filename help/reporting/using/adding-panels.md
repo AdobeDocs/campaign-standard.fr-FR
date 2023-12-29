@@ -33,9 +33,9 @@ Ce panneau vous permet de créer vos rapports selon vos besoins. Vous pouvez ajo
 
 Vous pouvez ajouter à présent un tableau Structure libre à votre panneau pour commencer à cibler les données.
 
-## Ajouter un tableau Structure libre           {#adding-a-freeform-table}
+## Ajouter un tableau à structure libre {#adding-a-freeform-table}
 
-Les tableaux Structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes valeurs métriques et des dimensions disponibles dans le tableau **Composant**.
+Les tableaux à structure libre vous permettent de créer un tableau pour analyser vos données à l’aide des différentes mesures et des dimensions disponibles dans le tableau **Composant**.
 
 Les tableaux et les visualisations sont redimensionnables et peuvent être déplacés pour améliorer la personnalisation de votre rapport.
 
@@ -45,7 +45,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
 
 1. Placez l’élément **[!UICONTROL Structure libre]** sur votre tableau de bord.
 
-   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle Forme Libre]** ou en cliquant sur **[!UICONTROL Ajouter un panneau structure libre]** dans un panneau vide.
+   Vous pouvez également ajouter un tableau en cliquant sur l’onglet **[!UICONTROL Insérer]** et en sélectionnant **[!UICONTROL Nouvelle structure libre]** ou en cliquant sur **[!UICONTROL Ajouter un tableau à structure libre]** dans un panneau vide.
 
    ![](assets/dynamic_report_panel_2.png)
 
@@ -67,7 +67,7 @@ Les tableaux et les visualisations sont redimensionnables et peuvent être dépl
    * **[!UICONTROL Pourcentage]** : permet d&#39;afficher ou de masquer le pourcentage dans la colonne.
    * **[!UICONTROL Interpréter zéro comme n&#39;étant pas une valeur]** : permet d&#39;afficher ou de masquer une valeur lorsqu&#39;elle est égale à zéro.
    * **[!UICONTROL Arrière-plan]** : permet d’afficher ou de masquer la barre de progression horizontale dans les cellules.
-   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Bounces + erreurs]**.
+   * **[!UICONTROL Inclure les nouvelles tentatives]** : permet d’inclure les nouvelles tentatives dans le résultat. Cette option est uniquement disponible pour les éléments **[!UICONTROL Envoyés]** et **[!UICONTROL Rebonds + erreurs]**.
 
 1. Sélectionnez une ou plusieurs rangées et cliquez sur l’icône **[!UICONTROL Visualiser.]** Une visualisation représentant les rangées sélectionnées est ajoutée.
 

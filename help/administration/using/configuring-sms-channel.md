@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 100%
+source-wordcount: '1707'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Si vous souhaitez utiliser le protocole SMPP, vous pouvez également créer un c
 
    Activez l&#39;option **[!UICONTROL Stocker les MO entrants dans la base de données]** si vous souhaitez que tous les SMS entrants soient stockés dans la table SMS entrants. Pour plus d&#39;informations sur la façon de récupérer vos SMS entrants, reportez-vous à cette [section](../../channels/using/managing-incoming-sms.md#storing-incoming-sms).
 
-   L&#39;option **[!UICONTROL Activer les mises à jour KPI en temps réel pendant le traitement du SR (rapport d&#39;état)]** permet de mettre à jour les KPI **[!UICONTROL Délivrés]** et **[!UICONTROL Bounces + erreurs]** en temps réel après l&#39;envoi de votre diffusion. Ces KPI sont disponibles dans la fenêtre **[!UICONTROL Déploiement]** et sont directement recalculés en fonction du SR reçu du fournisseur.
+   L’option **[!UICONTROL Activer les mises à jour KPI en temps réel pendant le traitement du SR (rapport d’état)]** permet de mettre à jour les KPI **[!UICONTROL Délivrés]** et **[!UICONTROL Rebonds + erreurs]** en temps réel après l’envoi de votre diffusion. Ces KPI sont disponibles dans la fenêtre **[!UICONTROL Déploiement]** et sont directement recalculés en fonction du SR reçu du fournisseur.
 
    ![](assets/sms_connection_1.png)
 
@@ -294,7 +294,7 @@ Le champ **[!UICONTROL Data_coding]** permet à Adobe Campaign de signaler au S
 
 >[!NOTE]
 >
->La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMS-C possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
+>La correspondance entre la valeur du **data_coding** et l&#39;encodage réellement utilisé est standardisée. Cependant, certains SMSC possèdent une correspondance qui leur est propre : dans ce cas, votre administrateur **Adobe Campaign** doit déclarer cette correspondance. Consultez votre fournisseur pour en savoir plus.
 
 La fonctionnalité **[!UICONTROL Définir un mapping spécifique des encodages]** vous permet de déclarer des **data_coding** et de forcer l&#39;encodage si besoin : pour ce faire, spécifiez un seul encodage dans le tableau.
 

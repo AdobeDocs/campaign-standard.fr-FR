@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4627'
-ht-degree: 100%
+source-wordcount: '4637'
+ht-degree: 99%
 
 ---
 
@@ -61,13 +61,13 @@ _Notifications push_
 * Correction d’une erreur qui empêchait l’ajout d’une application mobile iOS dans l’interface d’Adobe Campaign.
 * Les notifications push sont désormais prises en charge sur les applications mobiles Android reposant sur GCM et FCM.
 * Correction d’une erreur qui empêchait l’enregistrement du contenu lors de la duplication d’un modèle de notification push.
-* Il est désormais possible de créer ou de mettre à jour un profil de la base de données Adobe Campaign en réconciliant les données des utilisateurs de l’application mobile.
+* Il est désormais possible de créer ou de mettre à jour un profil de la base de données Adobe Campaign en réconciliant les données des utilisateurs et utilisatrices de l’application mobile.
 * Adobe Campaign privilégie maintenant le traitement des notifications push transactionnelles par rapport aux notifications push standard.
 
 _Rapports_
 
 * Correction d’une erreur qui empêchait l’affichage des pourcentages de hot clicks dans le contenu de l’email.
-* Correction d’une erreur en raison de laquelle la mesure de placement sur liste bloquée était comptabilisée en tant que hard bounce au lieu de bounce.
+* Correction d’une erreur en raison de laquelle la mesure de placement sur liste bloquée était comptabilisée comme un rebond définitif au lieu d’un rebond.
 * Correction d’un problème qui entraînait l’affichage de comptes négatifs dans les données de synthèse.
 * Correction d’une erreur qui entraînait le comptage des profils dans un segment d’âge incorrect.
 * Les formules de calcul des soft et hard bounces ont été modifiées.
@@ -311,7 +311,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Notifications push récurrentes<br /> </td> 
-   <td> Vous pouvez désormais configurer des notifications push récurrentes dans un workflow. Vous pouvez les utiliser dans les cas où les utilisateurs s’attendent à recevoir des mises à jour régulières, comme des rappels hebdomadaires, pour découvrir des nouveaux contenus ou des promotions.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/push-notification-delivery.md">documentation détaillée</a>.<br /> </td> 
+   <td> Vous pouvez désormais configurer des notifications push récurrentes dans un workflow. Vous pouvez les utiliser dans les cas où les utilisateurs ou utilisatrices s’attendent à recevoir des mises à jour régulières, comme des rappels hebdomadaires, pour découvrir des nouveaux contenus ou des promotions.<br /> Pour plus d’informations, consultez la <a href="../../automating/using/push-notification-delivery.md">documentation détaillée</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Connecteur Amazon Simple Storage Service (S3)<br /> </td> 
@@ -319,7 +319,7 @@ _Notifications push_
   </tr> 
   <tr> 
    <td> Intégration de Dreamweaver en ligne<br /> </td> 
-   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> Cela nécessite l’installation de l’intégration Adobe Campaign. Pour plus d’informations, reportez-vous à cette <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">vidéo</a>.<br /> </td> 
+   <td> L’intégration entre Adobe Campaign et Dreamweaver est désormais pleinement opérationnelle. Elle fonctionne avec la dernière version officielle de Dreamweaver (17.0.2).<br /> Cela nécessite l’installation de l’extension d’intégration Adobe Campaign. Voir à ce sujet la section <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=fr">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

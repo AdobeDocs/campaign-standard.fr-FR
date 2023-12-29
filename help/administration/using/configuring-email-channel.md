@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2910'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Champs de masques autorisés**
 
-  Les **[!UICONTROL Paramètres d’en-tête des emails envoyés]** répertorient les adresses email autorisées que vous pouvez utiliser pour envoyer des emails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des bounces asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
    * Si vous souhaitez ajouter une autre adresse, vous pouvez utiliser le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine ou contacter l&#39;assistance clientèle d&#39;Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
@@ -40,7 +40,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
   Adobe Campaign envoie les messages à compter de la date de début.
 
-  Lorsqu&#39;un message de diffusion est rejeté en raison d&#39;une erreur temporaire ou d&#39;un soft bounce, Campaign tente à nouveau d&#39;envoyer ce message chaque jour. Utilisez le champ **[!UICONTROL Durée de diffusion des messages]** pour spécifier le délai pendant lequel les reprises peuvent se produire.
+  Lorsqu’un message de diffusion est rejeté en raison d’une erreur ou d’un rebond temporaire, Campaign tente à nouveau d’envoyer ce message chaque jour. Utilisez le champ **[!UICONTROL Durée de diffusion des messages]** pour spécifier le délai pendant lequel les reprises peuvent se produire.
 
   >[!IMPORTANT]
   >
@@ -60,7 +60,7 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Paramètres de mise en quarantaine des emails**
 
-  Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un soft bounce. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
+  Dans le champ **[!UICONTROL Durée entre deux erreurs significatives]**, saisissez une valeur pour définir le temps d’attente de l’application avant d’incrémenter le compteur d’erreurs en cas d’échec lié à un rebond temporaire. La valeur par défaut est **&quot;1d&quot;**, pour 1 jour.
 
   Lorsque la valeur **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** est atteinte, l’adresse email est mise en quarantaine. La valeur par défaut est **&quot;5&quot;** : l&#39;adresse est mise en quarantaine à la cinquième erreur. Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -96,15 +96,15 @@ Les **[!UICONTROL règles de gestion des emails]** sont accessibles pour les adm
 
 ### Mails rebonds {#bounce-mails}
 
-Les bounces asynchrones sont toujours qualifiés par le processus Campaign inMail à l’aide des règles **[!UICONTROL Emails bounce]**.
+Les rebonds asynchrones sont toujours qualifiés par le processus Campaign inMail à l’aide des règles **[!UICONTROL E-mails rejetés]**.
 
 Ces règles contiennent la liste des chaînes de caractères qui peuvent être renvoyées par les serveurs distants et qui permettent de qualifier l&#39;erreur en **Hard**, **Soft** ou **Ignoré**.
 
 >[!IMPORTANT]
 >
->Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par le MTA amélioré d’Adobe Campaign, qui détermine le type et la qualification du bounce et renvoie ces informations à Campaign.
+>Les messages d’erreur d’échec de diffusion synchrone sont désormais qualifiés par le MTA amélioré d’Adobe Campaign, qui détermine le type et la qualification du rebond et renvoie ces informations à Campaign.
 
-Pour plus d’informations sur la qualification des emails bounce, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
+Pour plus d’informations sur la qualification des e-mails rejetés, reportez-vous à cette [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
 <!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
@@ -160,7 +160,7 @@ Les messages qui n’ont pas abouti de manière temporaire font l’objet de rep
 >
 >Le délai minimum entre traitements et le nombre maximum de reprises à effectuer se basent désormais sur la performance historique et actuelle d’une IP, à la fois historiquement et sur un domaine donné. L&#39;**[!UICONTROL Intervalle entre deux reprises]** et le **[!UICONTROL Nombre de reprises max.]** dans Campaign seront ignorés.
 
-Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de bounce. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
+Le **paramètre de durée de diffusion** (défini dans la section [Paramètres de la période de validité](#validity-period-parameters)) **configuré dans Campaign sera toujours respecté, mais jusqu’à 3,5 jours seulement**. À ce stade, tout message de la file d’attente des reprises est supprimé de la file d’attente et renvoyé sous forme de rebond. Pour plus d’informations sur les échecs de diffusion, consultez cette [section](../../sending/using/understanding-delivery-failures.md#about-delivery-failures).
 
 #### Paramètres de format des emails   {#email-format-parameters}
 
@@ -230,7 +230,7 @@ La section **[!UICONTROL Période de validité]** propose les paramètres suivan
 
 La section **[!UICONTROL Tracking]** propose les paramètres suivants :
 
-* **[!UICONTROL Activer le tracking]** : utilisez cette option pour activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l’icône **[!UICONTROL Liens]** dans la barre d’actions Concepteur d’email. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Activer le tracking]** : utilisez cette option pour activer/désactiver le tracking des URL des messages. Pour gérer le tracking pour chaque URL de message, utilisez l&#39;icône **[!UICONTROL Liens]** dans la barre d&#39;actions concepteur d’e-mail. Voir [À propos des URL trackées](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Limite de validité du tracking]** : utilisez cette option pour définir la durée d&#39;activation du tracking sur les URL.
 * **[!UICONTROL URL de substitution des URL périmées]** : utilisez cette option pour renseigner une URL vers une page web de secours. Elle s&#39;affiche après expiration du tracking.
 * **[!UICONTROL Utiliser le pixel de tracking en haut de l&#39;e-mail]** : utilisez cette option pour déplacer le pixel de tracking en haut de l&#39;e-mail plutôt qu&#39;en bas. Par défaut, ce pixel se trouve au bas de vos e-mails. Si vous envoyez des messages volumineux, envisagez de déplacer ce pixel en haut de vos e-mails plutôt qu&#39;en bas afin d&#39;améliorer le tracking des ouvertures. À défaut, le pixel de tracking peut être coupé par certains fournisseurs de messagerie.
@@ -317,32 +317,32 @@ Par défaut, cinq reprises sont planifiées le premier jour de l’envoi, avec u
 
 ### Durée de diffusion {#legacy-delivery-duration}
 
-Utilisez le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le [menu Configuration](#email-channel-parameters) pour spécifier la période pendant laquelle tout message contenu dans la diffusion qui entraîne une erreur temporaire ou un soft bounce fera l&#39;objet d&#39;une nouvelle reprise.
+Utilisez le paramètre **[!UICONTROL Durée de diffusion des messages]** dans le [menu Configuration](#email-channel-parameters) pour spécifier la période pendant laquelle tout message contenu dans la diffusion qui entraîne une erreur ou un rebond temporaire fera l’objet d’une nouvelle reprise.
 
 Utilisez la **[!UICONTROL Durée de diffusion]** ou la **[!UICONTROL Limite de validité pour l&#39;envoi des messages]** dans la section [Paramètres de période de validité](#validity-period-parameters) pour spécifier la durée pendant laquelle les messages peuvent être envoyés.
 
 ### Règles de gestion des e-mails {#legacy-email-processing-rules}
 
-Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails bounce]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules).
+Les règles **[!UICONTROL Gestion des MX]**, **[!UICONTROL E-mails rejetés]** et **[!UICONTROL Gestion de domaine]** sont accessibles et modifiables par les administrateurs via le menu **[!UICONTROL Administration > Canaux > E-mail > Règles de gestion des e-mails]**. [En savoir plus](#email-processing-rules).
 
-### Qualification des e-mails bounce {#legacy-bounce-mail-qualification}
+### Qualification des e-mails rejetés {#legacy-bounce-mail-qualification}
 
-Pour répertorier les différents bounces ainsi que les types d&#39;erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
+Pour répertorier les différents rebonds, ainsi que les types d’erreur et raisons associés, cliquez sur le logo **Adobe** en haut à gauche, puis sélectionnez **[!UICONTROL Administration > Canaux > Quarantaines > Qualification des messages]**.
 
 Les statuts de qualification des bounces sont les suivants :
 
-* **[!UICONTROL A qualifier]** : le mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe chargée de la délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
-* **[!UICONTROL Conserver]** : le mail bounce a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des emails existantes et en enrichir la liste.
+* **[!UICONTROL À qualifier]** : l&#39;e-mail rejeté n’a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe chargée de la délivrabilité afin de garantir le bon fonctionnement de la délivrabilité de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, le mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des emails.
+* **[!UICONTROL Conserver]** : l&#39;e-mail rejeté a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des e-mails existantes et en enrichir la liste.
 * **[!UICONTROL Ignorer]** : le mail rebond a été qualifié mais ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité**. Il ne sera donc pas envoyé vers les instances clientes.
 
 >[!NOTE]
 >
->En cas de panne d&#39;un FAI, les emails envoyés via Campaign seront incorrectement marqués comme bounces. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. [En savoir plus](../../administration/using/update-bounce-qualification.md).
+>En cas de panne d’un FAI, les e-mails envoyés via Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. [En savoir plus](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Rapports d&#39;indicateur de messages diffusés {#legacy-delivered-status-report}
 
-Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Diffusés]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les soft et hard bounces sont signalés.
+Dans la vue **[!UICONTROL Résumé]** de chaque message, le pourcentage **[!UICONTROL Diffusés]** augmentera progressivement tout au long de la période de validité de la diffusion, à mesure que les rebonds temporaires et définitifs sont signalés.
 
 Les messages soft bounce s&#39;affichent sous la forme **[!UICONTROL Échec]** le premier jour après la diffusion. Ces messages font l&#39;objet de reprises chaque jour, et ce jusqu&#39;à la fin de la période de validité de la diffusion.

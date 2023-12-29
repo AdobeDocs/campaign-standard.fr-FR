@@ -11,7 +11,7 @@ exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -27,6 +27,6 @@ Vous pouvez utiliser Campaign pour promouvoir un service en :
 
   >[!NOTE]
   >
-  >Il est également important de donner la possibilité aux abonnés de se désinscrire. Pour cela, insérez un <b>Lien de désabonnement</b> au service dans l&#39;email de confirmation envoyé automatiquement aux nouveaux abonnés (défini dans les propriétés du service) ainsi que dans les futurs emails de la newsletter.
+  >Il est également important de donner aux abonnés la possibilité de se désinscrire. Pour cela, insérez un service. <b>Lien de désabonnement</b> dans l&#39;email de confirmation (défini dans les propriétés du service) envoyé automatiquement aux nouveaux abonnés, ainsi que dans les futurs emails de la newsletter.
 
 * rendant accessible une landing page d&#39;inscription ou de désinscription via la navigation sur un site web. Les URL permettant d&#39;accéder aux landing pages doivent spécifier des paramètres tels que le service associé ainsi que l&#39;identifiant du profil y accédant. Il est possible de définir cet identifiant dans les paramètres de la landing page (voir [Paramétrer une landing page](../../channels/using/configuring-landing-page.md)).

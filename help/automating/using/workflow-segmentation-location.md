@@ -53,7 +53,7 @@ Remarque : pour atteindre toutes les personnes qui ont entré paris, quelle que
 1. Sélectionnez **[!UICONTROL Email simple]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
+1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre email avec des offres spécifiques à chaque emplacement.
 

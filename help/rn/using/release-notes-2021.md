@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4695'
 ht-degree: 100%
 
 ---
@@ -114,8 +114,8 @@ Les nouvelles fonctionnalités, améliorations et corrections incluses dans la d
 * Correction d’une erreur de délai d’expiration lors de l’import de contenu d’e-mail depuis une URL. (CAMP-49054)
 * Correction d’une erreur (-69) entraînée par la fin de la session lors de l’accès à une URL marquée d’un signet ou de l’actualisation d’une page à partir du navigateur. (CAMP-49003, CAMP-48930, CAMP-48894)
 * Correction d’un problème survenant lors de la synchronisation des règles de l’ancien serveur de délivrabilité avec le nouveau. (CAMP-48923)
-* Correction d’un problème lors du chargement d’un modèle d’e-mail avec des balises HTML dans le Concepteur d’e-mail. (CAMP-48243)
-* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le Concepteur d’e-mail. (CAMP-49075)
+* Correction d’un problème lors du chargement d’un modèle d’e-mail avec des balises HTML dans le concepteur d’e-mail. (CAMP-48243)
+* Correction d&#39;une erreur qui empêchait le chargement du contenu Adobe Experience Manager lors de la création de messages transactionnels avec le concepteur d’e-mail. (CAMP-49075)
 * Correction d’un problème dans l’interface : une marge intérieure trop importante était ajoutée entre la barre supérieure et le contenu.
 * Correction d’un problème lié aux messages transactionnels qui entraînait une erreur de publication lors de l’utilisation de blocs de contenu Campaign dans le contenu Adobe Experience Manager. (CAMP-49233)
 * Correction d’un problème qui entraînait l’affichage d’un message d’erreur en cas d’échec de l’authentification. L’utilisateur est maintenant redirigé vers la page de connexion.
@@ -245,8 +245,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 <ul>
 <li>Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.</li>
 <li>Le calcul de l'indicateur <b>Délivrés</b> est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l'amélioration de la précision et de la réactivité.</li>
-<li>EFS résout le problème des retards grâce au reporting synchrone des soft bounces.
-</li>
+<li>EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.</li>
 </ul>
 <p>Pour plus d'informations, consultez la <a href="../../sending/using/confirming-the-send.md">documentation détaillée</a>.
 </p>
@@ -418,7 +417,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction d&#39;un problème lors de l&#39;utilisation de ressources personnalisées liées à des données de Profil en raison duquel l&#39;ordre de priorité d&#39;affichage dans l&#39;écran de configuration des **détails** était modifié lors de l&#39;enregistrement. (CAMP-46312)
 * Correction d&#39;un problème en raison duquel il était impossible d&#39;afficher les données dans les rapports dynamiques en raison de diffusions basées sur un mapping de diffusion personnalisé.
 * Correction d&#39;une erreur qui vous empêchait de sélectionner une collection avec une cible de ressources incorrecte dans une activité de **requête** de workflow.
-* Correction d&#39;un problème en raison duquel le processus InMail pouvait valider incorrectement les hard bounces.
+* Correction d’un problème en raison duquel le processus InMail pouvait valider incorrectement les rebonds définitifs.
 * Correction d&#39;une erreur qui se produisait lors de l&#39;ouverture d&#39;un écran de profil en raison d&#39;une erreur de lien.
 * Correction d&#39;un problème qui pouvait empêcher la suppression de données RGPD du processus de nettoyage.
 * Correction d&#39;une erreur qui se produisait lorsque la configuration de planification était mise à jour manuellement au clavier dans les paramètres de planification de la diffusion email.
@@ -431,12 +430,12 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 * Correction d&#39;un problème qui pouvait empêcher l&#39;importation de contenu HTML dans un modèle de message transactionnel. (CAMP-47318)
 * Correction d&#39;un problème qui pouvait ralentir l&#39;affichage des rendus dans le **rapport de rendu des emails**. (CAMP-46226)
 * Correction d&#39;un problème qui pouvait empêcher la publication de ressources personnalisées configurées avec un élément de type Liste dans la définition d&#39;écran. (CAMP-47217)
-* Correction d&#39;un problème dans le concepteur d&#39;emails qui empêchait le rendu correct des séparateurs de ligne dans **Microsoft Outlook** lorsqu&#39;ils étaient placés en haut du contenu email. (CAMP-46294)
+* Correction d&#39;un problème dans le concepteur d’e-mails qui empêchait le rendu correct des séparateurs de ligne dans **Microsoft Outlook** lorsqu&#39;ils étaient placés en haut du contenu email. (CAMP-46294)
 * Correction d’un problème en raison duquel la réconciliation des KPI avec le workflow technique **Adobe Analytics** était bloquée. (CAMP-46576)
-* Correction d&#39;un problème dans le **concepteur d&#39;emails** en raison duquel les fragments ne s&#39;affichaient pas automatiquement dans les zones de recherche lors de l&#39;insertion de blocs de contenu. (CAMP-44205)
-* Correction d&#39;un problème dans le **concepteur d&#39;emails** en raison duquel des caractères indésirables s&#39;affichaient dans les emails envoyés lors de l&#39;utilisation d&#39;émoticônes dans des fragments. (CAMP-46621)
-* Correction d&#39;une régression introduite dans la version 20.4 du **concepteur d&#39;emails** qui affectait le composant Diviseur, ce qui entraînait des hauteurs de ligne supplémentaires et des distorsions d&#39;image dans le contenu. (CAMP-46663)
-* Correction d&#39;un problème en raison duquel les boutons d&#39;usine restaient centrés lorsque le message était envoyé à une boîte aux lettres Outlook, même si ces boutons étaient alignés à droite ou à gauche dans le **concepteur d&#39;emails**. (CAMP-46466)
-* Correction d&#39;un problème qui empêchait l&#39;actualisation de la liste des profils de test lors de la recherche de profils dans la prévisualisation du **concepteur d&#39;emails**. (CAMP-45265)
-* Correction d&#39;un problème en raison duquel les profils de test personnalisés ne s&#39;affichaient pas dans la liste lors de la recherche de profils dans la prévisualisation du **concepteur d&#39;emails**. (CAMP-45589)
+* Correction d&#39;un problème dans le **concepteur d’e-mails** en raison duquel les fragments ne s&#39;affichaient pas automatiquement dans les zones de recherche lors de l&#39;insertion de blocs de contenu. (CAMP-44205)
+* Correction d&#39;un problème dans le **concepteur d’e-mails** en raison duquel des caractères indésirables s&#39;affichaient dans les emails envoyés lors de l&#39;utilisation d&#39;émoticônes dans des fragments. (CAMP-46621)
+* Correction d&#39;une régression introduite dans la version 20.4 du **concepteur d’e-mails** qui affectait le composant Diviseur, ce qui entraînait des hauteurs de ligne supplémentaires et des distorsions d&#39;image dans le contenu. (CAMP-46663)
+* Correction d&#39;un problème en raison duquel les boutons d&#39;usine restaient centrés lorsque le message était envoyé à une boîte aux lettres Outlook, même si ces boutons étaient alignés à droite ou à gauche dans le **concepteur d’e-mails**. (CAMP-46466)
+* Correction d&#39;un problème qui empêchait l&#39;actualisation de la liste des profils de test lors de la recherche de profils dans la prévisualisation du **concepteur d’e-mails**. (CAMP-45265)
+* Correction d&#39;un problème en raison duquel les profils de test personnalisés ne s&#39;affichaient pas dans la liste lors de la recherche de profils dans la prévisualisation du **concepteur d’e-mails**. (CAMP-45589)
 * Correction d&#39;un problème en raison duquel des dates incohérentes s&#39;affichaient lors de la génération de graphiques de tendance à partir du **rapport de synthèse des diffusions.** (CAMP-45521)

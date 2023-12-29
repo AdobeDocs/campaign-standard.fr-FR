@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 100%
+source-wordcount: '1104'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ Les expressions JavaScript sont composées d&#39;une ou plusieurs conditions, re
 
   >[!NOTE]
   >
-  >Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
+  Le type de données de **&lt;contexte>** et de **&lt;valeur2>** doit être identique. Par exemple, si **&lt;contexte>** est une date, alors **&lt;valeur2>** doit également être une date.
 
 * Si vous souhaitez utiliser plusieurs conditions, elles peuvent être combinées à l&#39;aide d&#39;opérateurs logiques.
 
@@ -200,7 +200,7 @@ Les conditions doivent être liées aux valeurs à l&#39;aide de l&#39;un des op
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> Similaire à <span class="uicontrol">Comme</span>. Permet de ne pas obtenir la valeur renseignée. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires répondant au nom de 'Smi%h' (donc Smith, etc.) ne sont pas retournés en résultat.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Ici, les destinataires correspondent au nom 'Smi%h' (donc Smith, etc.) ne sont pas renvoyées par conséquent.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Est vide</span> <br /> </td> 

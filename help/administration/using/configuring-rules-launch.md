@@ -11,7 +11,7 @@ level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1154'
 ht-degree: 100%
 
 ---
@@ -119,7 +119,7 @@ Pour envoyer des données de PII à [!DNL Adobe Campaign Standard], créez une r
    "{%contextdata.lastName%}" }
    ```
 
-   Le paramètre marketingCloudId permet de mettre en correspondance vos abonnés d&#39;application et les destinataires contenus dans la base de données. Il est donc indispensable. Vous pouvez spécifier d&#39;autres paires clé-valeur en fonction des besoins de votre entreprise. Dans l&#39;exemple ci-dessus, les informations E-mail, Prénom et Nom sont transmises depuis l&#39;application.
+   Le paramètre marketingCloudId vous permet de faire concorder les personnes abonnées à votre application avec les destinataires dans la base de données. À ce titre, il est obligatoire. Vous pouvez spécifier d&#39;autres paires clé-valeur en fonction des besoins de votre entreprise. Dans l&#39;exemple ci-dessus, les informations E-mail, Prénom et Nom sont transmises depuis l&#39;application.
 
    Les clés (par exemple cusEmail, cusFirstName et cusLastName) doivent correspondre aux ID de champ définis dans votre ressource personnalisée dans l’instance Adobe Campaign Standard. Les variables de valeur (par exemple, e-mail, firstName et LastName) doivent correspondre aux clés contenues dans les données JSON envoyées à partir de l&#39;application mobile lors de l&#39;appel de l&#39;API AMS collectPII depuis le code de l&#39;application.
 

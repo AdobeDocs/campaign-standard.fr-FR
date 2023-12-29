@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 100%
+source-wordcount: '694'
+ht-degree: 98%
 
 ---
 
 # Création d&#39;un rapport à partir de segments de workflow{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Le code segment]** ne peut cibler que les diffusions e-mail et SMS.
+> **[!UICONTROL Code segment]** ne peuvent cibler que les diffusions email et SMS.
 
 Après avoir créé un workflow et filtré votre population dans une audience ciblée différente, vous pouvez mesurer l&#39;efficacité de vos campagnes marketing en fonction des segments définis dans ce workflow de ciblage.
 Pour cibler ces segments dans vos rapports :

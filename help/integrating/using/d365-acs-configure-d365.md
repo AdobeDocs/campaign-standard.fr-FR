@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Pour générer le jeton d’accès OAuth, suivez les étapes décrites ci-dessou
 
 1. Renseignez les champs de l’écran d’inscription de l’application :
 
-   * Nom : adobe campaign  `<stage or prod>`
+   * Nom : adobe campaign `<stage or prod>`
    * Type de compte pris en charge : **[!UICONTROL Comptes dans cet annuaire organisationnel uniquement]** (valeur par défaut)
 
 Pour plus d’informations sur la création d’une application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
@@ -98,7 +98,7 @@ Ce nouvel utilisateur est un utilisateur générique. Il sera utilisé par l’a
    * **[!UICONTROL Nom d’utilisateur]** (email) : adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (par exemple, adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL ID d’application]** : ID de l’application que vous avez inscrite dans Azure AD (obligatoire)
    * Vous pouvez laisser les champs suivants vides : **[!UICONTROL URI de l’ID d’application]** et **[!UICONTROL ID d’objet Azure AD]**
-   * **[!UICONTROL Nom complet]** : API Adobe   `<stage or prod>`
+   * **[!UICONTROL Nom complet]**: API ADOBE `<stage or prod>`
    * **[!UICONTROL E-mail]** : identique au **[!UICONTROL nom d’utilisateur]** (ou adresse e-mail de l’administrateur ou de l’administratrice si vous le souhaitez)
 
    Pour plus d’informations sur la création d’un utilisateur ou d’une utilisatrice d’application, reportez-vous à [cette section](https://docs.microsoft.com/fr-fr/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
@@ -124,7 +124,7 @@ Vous pouvez également accéder à ce [lien](https://appsource.microsoft.com/fr-
 1. Suivez les instructions pour installer l’application pour votre instance Dynamics 365.
 1. Une fois installée, accédez à votre instance Dynamics 365 et connectez-vous en tant qu’administrateur.
 1. Cliquez sur l’icône en forme d’engrenage dans le coin supérieur droit, puis sur **[!UICONTROL Paramètres avancés]**. Dans la bannière supérieure, cliquez sur la liste déroulante en regard de **[!UICONTROL Paramètres]**, puis sur **[!UICONTROL Traitements]** sous **[!UICONTROL Centre de traitement]**.
-1. Recherchez la tâche **[!UICONTROL Email bounce Adobe Campaign]** et cliquez dessus.
+1. Recherchez la tâche **[!UICONTROL E-mails rejetés Adobe Campaign]** et cliquez dessus.
 1. Dans l’onglet **[!UICONTROL Administration]**, remplacez le propriétaire par l’utilisateur de l’application API Adobe créé précédemment en cliquant sur **[!UICONTROL Actions]** dans le ruban supérieur, puis sélectionnez **[!UICONTROL Attribuer à un autre utilisateur]** et **[!UICONTROL Utilisateur de l’application API Adobe]** dans la liste déroulante.
 1. Réactivez le traitement.
 1. Faites de même pour la tâche **[!UICONTROL Clic email Adobe Campaign]**.

@@ -1,6 +1,6 @@
 ---
 title: Ajout de liens
-description: Découvrez comment gérer des liens avec le Concepteur d'email.
+description: Découvrez comment gérer des liens avec le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -59,7 +59,7 @@ Une fois le lien créé, vous pouvez encore le modifier dans le volet Paramètre
 
 ![](assets/des_link_edit.png)
 
-Lorsque vous éditez un email à l&#39;aide du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l&#39;email et les modifier. Cette liste permet d&#39;avoir une vue centrale et de localiser chaque URL dans le contenu de l&#39;email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](#about-tracked-urls).
+Lorsque vous éditez un email à l&#39;aide du [concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md), vous pouvez facilement accéder aux liens créés à partir du tableau répertoriant toutes les URL incluses dans l&#39;email et les modifier. Cette liste permet d&#39;avoir une vue centrale et de localiser chaque URL dans le contenu de l&#39;email. Pour y accéder, reportez-vous à la section [A propos des URL trackées](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
@@ -44,6 +44,6 @@ L&#39;activité **[!UICONTROL Intersection]** est essentiellement utilisée afin
 
 ## Exemple  {#example}
 
-L’exemple suivant montre l’intersection de deux activités de requête. visant à filtrer respectivement les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;adresse email renseignée est valide.
+L&#39;exemple suivant montre l&#39;intersection de deux activités de requête visant à filtrer respectivement les profils de la base Adobe Campaign dont l&#39;âge est compris entre 18 et 27 ans et ceux dont l&#39;adresse email renseignée est valide.
 
 ![](assets/wkf_intersection_example.png)

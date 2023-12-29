@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Si le problème persiste, contactez les services commerciaux, délivrabilité ou
 
    * Le statut **[!UICONTROL Sur la liste bloquée]** signifie que l’un de vos destinataires a déclaré un message comme étant un spam lors d’un [feedback loop](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#feedback-loops).
 
-   * L’application du statut **[!UICONTROL Quarantaine]** est entraînée par un échec soft ou hard.
+   * L’application du statut **[!UICONTROL Quarantaine]** est le résultat d’un rebond temporaire ou définitif.
 
   Voir à ce propos cette [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist).
 

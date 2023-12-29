@@ -19,7 +19,7 @@ ht-degree: 100%
 
 L’opt-out entraîne la fin du ciblage d’un profil par n’importe quelle diffusion ou des diffusions d’un canal spécifique.
 
-Pour que les profils puissent être inclus ou exclus, vous devez créer une landing page dédiée. Pour en savoir plus à ce sujet, consultez [Configuration des landing pages d&#39;opt-in et d’opt-out](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
+Pour que les utilisateurs et utilisatrices puissent donner leur opt-in ou opt-out, vous devez créer une page de destination dédiée. Pour en savoir plus à ce sujet, consultez [Configuration des landing pages d&#39;opt-in et d’opt-out](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages).
 
 Les profils peuvent également être inclus ou exclus manuellement par un opérateur. Pour en savoir plus à ce sujet, consultez [Gestion des opt-in et opt-out dans un profil](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 

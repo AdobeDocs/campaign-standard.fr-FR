@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
@@ -70,7 +70,7 @@ En savoir plus :
 
 Tous les canaux de communication d’Adobe Campaign doivent être correctement configurés pour pouvoir envoyer efficacement des messages. Le menu **[!UICONTROL Canal]** permet de gérer les paramètres techniques liés aux différents canaux.
 
-Configurez les différents paramètres des **emails** : règles de traitement pour les bounces, les quarantaines, les propriétés des emails et les paramètres de routage, ainsi que les règles de typologie. Définissez les configurations et les propriétés du routage pour le canal **SMS**, ainsi que le codage et les formats SMS.
+Configurez les différents paramètres des **e-mails** : règles de traitement pour les rebonds, les quarantaines, les propriétés des e-mails et les paramètres de routage, ainsi que les règles de typologie. Définissez les configurations et les propriétés du routage pour le canal **SMS**, ainsi que le codage et les formats SMS.
 
 Configurez les **applications mobiles** afin de pouvoir envoyer des messages In-App et des notifications push à l’aide des SDK Adobe Experience Platform.
 

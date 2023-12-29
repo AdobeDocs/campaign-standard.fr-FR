@@ -1,6 +1,6 @@
 ---
-title: Echecs et bounces
-description: Grâce au rapport d'usine Echecs et bounces, découvrez les erreurs qui peuvent s'être produites pendant votre diffusion.
+title: Non-délivrables et rebonds
+description: Grâce au rapport d’usine Non-délivrables et rebonds, découvrez les erreurs qui peuvent s’être produites pendant votre diffusion.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 ---
 
-# Échecs et bounces{#non-deliverables-and-bounces}
+# Non-délivrables et rebonds{#non-deliverables-and-bounces}
 
-Le rapport **[!UICONTROL Echecs et bounces]** fournit des détails sur toutes les erreurs rencontrées lors d&#39;une diffusion.
+Le rapport **[!UICONTROL Non-délivrables et rebonds]** fournit des détails sur toutes les erreurs rencontrées lors d’une diffusion.
 
 ![](assets/delivery_reports_7.png)
 

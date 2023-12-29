@@ -24,7 +24,7 @@ L’onglet **Visualisations** vous permet de positionner des éléments de visua
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Après avoir ajouté une visualisation à votre panneau, Rapports Dynamiques détecte automatiquement les données dans votre tableau Structure libre. Sélectionnez les paramètres de votre visualisation.
-1. S’il existe plusieurs tableaux Structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **Paramètres de source de données.** Cette fenêtre peut également être ouverte en cliquant sur le point de couleur à côté de votre titre de visualisation.
+1. S’il existe plusieurs tableaux à structure libre, sélectionnez la source de données à ajouter à votre graphique dans la fenêtre **Paramètres de source de données.** Cette fenêtre peut également être ouverte en cliquant sur le point de couleur à côté de votre titre de visualisation.
 
    ![](assets/dynamic_report_visualization_2.png)
 

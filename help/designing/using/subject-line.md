@@ -1,6 +1,6 @@
 ---
 title: Définition de l’objet et de l’expéditeur d’un email
-description: Découvrez comment définir l’objet et l’expéditeur d’un email dans le Concepteur d’email.
+description: Découvrez comment définir l'objet et l'expéditeur d'un email dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -23,10 +23,10 @@ L’objet de l’email est obligatoire pour préparer et envoyer le message.
 
 >[!NOTE]
 >
->Si l’objet est vide, un avertissement apparaît dans le tableau de bord du message ainsi que dans le Concepteur d’email.
+>Si l’objet est vide, un avertissement apparaît dans le tableau de bord du message ainsi que dans le concepteur d’e-mail.
 
 1. Créez un email.
-1. Accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du Concepteur d’email (accessible par le biais de l’icône Accueil).
+1. Accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du concepteur d’e-mail (accessible par le biais de l’icône Accueil).
 1. Renseignez la section **[!UICONTROL Objet]**.
 
    ![](assets/email_designer_subject.png)
@@ -35,7 +35,7 @@ L’objet de l’email est obligatoire pour préparer et envoyer le message.
 
 ## Définition de l’expéditeur d’un email {#email-sender}
 
-Pour définir le nom de l’expéditeur qui apparaîtra dans l’en-tête des messages, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du Concepteur d’email (accessible par le biais de l’icône Accueil).
+Pour définir le nom de l&#39;expéditeur qui apparaîtra dans l&#39;en-tête des messages, accédez à l&#39;onglet **[!UICONTROL Propriétés]** de la page d&#39;accueil du concepteur d’e-mail (accessible par le biais de l&#39;icône Accueil).
 
 ![](assets/delivery_content_edition16.png)
 

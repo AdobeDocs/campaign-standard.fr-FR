@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Modification des formats de texte brut, HTML et d&#39;email mobile {#plain-text-and-html-modes}
 
-Le Concepteur d&#39;emails permet de modifier différents rendus d&#39;emails. Il permet de générer une version textuelle de votre email, de modifier la source HTML d&#39;un email et de concevoir des emails visualisables sur les appareils mobiles.
+Le concepteur d’e-mails permet de modifier différents rendus d&#39;emails. Il permet de générer une version textuelle de votre email, de modifier la source HTML d&#39;un email et de concevoir des emails visualisables sur les appareils mobiles.
 
 ## Générer une version texte de l&#39;email {#generating-a-text-version-of-the-email}
 
@@ -61,7 +61,7 @@ Si vous modifiez le code HTML, la réactivité de l&#39;email peut être altér�
 
 Vous pouvez affiner le responsive design d&#39;un email en éditant séparément toutes les options de style pour l&#39;affichage mobile. Par exemple, vous pouvez adapter les marges et la marge intérieure, utiliser des polices de plus grande ou plus petite taille, modifier les boutons ou appliquer différentes couleurs de fond qui seront spécifiques à la version mobile de votre email.
 
-Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du Concepteur d&#39;email sont présentés plus haut sur cette page.
+Toutes les options de style sont disponibles dans la vue mobile. Les paramètres de style du concepteur d’e-mail sont présentés plus haut sur cette page.
 
 1. Créez un email et commencez à éditer le contenu. Pour plus d&#39;informations, consultez la section [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Pour accéder à la vue mobile dédiée, cliquez sur le bouton **[!UICONTROL Passer en vue Mobile]**.

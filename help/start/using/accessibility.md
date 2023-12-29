@@ -92,7 +92,7 @@ Veuillez noter que la langue est configurée à l’installation et ne peut pas 
 | Parcourir les différents éléments de l’interface utilisateur | Tabulation |
 | Activer l’élément sélectionné | Entrée ou Barre d&#39;espacement |
 
-### Concepteur d&#39;email {#email-designer-shortcuts}
+### Concepteur d’e-mail {#email-designer-shortcuts}
 
 | Action | Raccourci Windows | Raccourci macOS |
 | --- | --- | --- |

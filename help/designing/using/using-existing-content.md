@@ -1,6 +1,6 @@
 ---
 title: Conception d'emails à l'aide de contenu existant
-description: Découvrez comment concevoir des emails à l'aide d'un contenu d'email existant dans le Concepteur d'email.
+description: Découvrez comment concevoir des emails à l'aide d'un contenu d'email existant dans le concepteur d’e-mail.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1302'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 >Les images ci-après illustrent le chargement d&#39;un contenu existant à l&#39;aide du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Après la création de l&#39;email ou de la landing page, ouvrez son contenu.
-1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL Concepteur d&#39;email]**.
+1. Cliquez sur l&#39;icône Accueil pour accéder à la page d&#39;accueil du **[!UICONTROL concepteur d’e-mail]**.
 
    ![](assets/des_loading_1.png)
 
@@ -47,14 +47,14 @@ Lorsque vous créez un email ou une landing page, vous pouvez choisir de charger
 
    >[!NOTE]
    >
-   >Le [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md) utilise un balisage spécifique. Le contenu HTML standard téléchargé dans Campaign doit correspondre au balisage attendu pour être entièrement compatible et éditable dans le Concepteur d&#39;email. S&#39;il ne correspond pas, votre contenu est téléchargé en [mode de compatibilité](#compatibility-mode). Pour rendre compatibles les contenus existants, reportez-vous à [cette section](#editing-existing-contents-with-the-email-designer).
+   >Le [concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md) utilise un balisage spécifique. Le contenu HTML standard téléchargé dans Campaign doit correspondre au balisage attendu pour être entièrement compatible et éditable dans le concepteur d’e-mail. S&#39;il ne correspond pas, votre contenu est téléchargé en [mode de compatibilité](#compatibility-mode). Pour rendre compatibles les contenus existants, reportez-vous à [cette section](#editing-existing-contents-with-the-email-designer).
 
 **Rubriques connexes :**
 
 * [Créer un e-mail](../../channels/using/creating-an-email.md)
 * [Gestion des landing pages](../../channels/using/getting-started-with-landing-pages.md)
 
-## Editer des contenus existants avec le Concepteur d&#39;email{#editing-existing-contents-with-the-email-designer}
+## Editer des contenus existants avec le concepteur d’e-mail{#editing-existing-contents-with-the-email-designer}
 
 Pour tirer pleinement parti des possibilités d&#39;édition du [Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md), votre code HTML importé doit contenir des balises spécifiques qui le rendent compatibles avec l&#39;éditeur WYSIWYG.
 
@@ -66,7 +66,7 @@ Pour rendre du contenu externe existant entièrement éditable dans le Concepteu
 
 ### Importer du contenu depuis un fichier {#importing-content-from-a-file}
 
-Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier depuis votre ordinateur, puis confirmez l&#39;opération.
+Dans la page d&#39;accueil du concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger un fichier depuis votre ordinateur, puis confirmez l&#39;opération.
 
 La structure du dossier compressé est libre. Toutefois, le référencement des fichiers en HTML doit être relatif et doit respecter l&#39;arborescence du dossier compressé.
 
@@ -97,7 +97,7 @@ Avant d&#39;importer du contenu depuis une URL, vérifiez que les exigences suiv
 
 Pour récupérer du contenu existant depuis une URL, procédez comme suit :
 
-1. Dans la page d&#39;accueil du Concepteur d&#39;email, cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]**.
+1. Dans la page d&#39;accueil du concepteur d’e-mail, cliquez sur le bouton **[!UICONTROL Importer depuis l&#39;URL]**.
 
    ![](assets/email_designer_importfromurl.png)
 
@@ -130,7 +130,7 @@ Pour récupérer du contenu au moment de la préparation d&#39;une diffusion, pr
 
 Il est possible de personnaliser l&#39;URL distante à partir de laquelle le contenu sera récupéré. Pour cela, procédez comme suit :
 
-1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]** du Concepteur d&#39;email.
+1. Cliquez sur le libellé de l&#39;email en haut de l&#39;écran pour accéder à l&#39;onglet **[!UICONTROL Propriétés]** du concepteur d’e-mail.
 1. Recherchez le champ **[!UICONTROL URL distante]**.
 
    ![](assets/email_designer_importfromurl4.png)
@@ -155,7 +155,7 @@ Ces tentatives sont utiles dans les cas suivants :
 
 ### Mode de compatibilité {#compatibility-mode}
 
-Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l&#39;aide de l&#39;éditeur WYSIWYG du Concepteur d&#39;email.
+Lorsque vous téléchargez un contenu, il doit contenir des balises spécifiques pour être entièrement compatible et éditable à l&#39;aide de l&#39;éditeur WYSIWYG du concepteur d’e-mail.
 
 Si tout ou partie du code HTML téléchargé n&#39;est pas conforme avec le balisage attendu, le contenu est alors chargé en &quot;mode de compatibilité&quot;, ce qui limite les possibilités d&#39;édition via l&#39;interface utilisateur.
 
@@ -170,19 +170,19 @@ Lorsqu&#39;un contenu est chargé en mode de compatibilité, vous pouvez toujour
 
 D&#39;autres modifications telles que l&#39;ajout de nouvelles sections à votre email ou des styles sophistiqués doivent être effectuées directement dans le code source de l&#39;email via le mode HTML.
 
-Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le Concepteur d&#39;email, voir [cette section](../../designing/using/using-existing-content.md).
+Pour plus d&#39;informations sur la conversion d&#39;un email existant en email compatible avec le concepteur d’e-mail, voir [cette section](../../designing/using/using-existing-content.md).
 
 **Rubrique connexe**:
 
 * [Créer un e-mail](../../channels/using/creating-an-email.md)
-* [Vidéo d&#39;introduction au Concepteur d&#39;email](../../designing/using/designing-content-in-adobe-campaign.md#video)
+* [Vidéo d&#39;introduction au concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Concevoir entièrement un contenu d&#39;email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
 ## Conversion de contenu HTML {#converting-an-html-content}
 
-Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de Concepteur d&#39;email.
+Si vous voulez créer un framework de fragments et de modèles modulaires qui peuvent être associés afin d&#39;être réutilisés dans plusieurs emails, vous devriez envisager de convertir le code HTML de votre email en modèle de concepteur d’e-mail.
 
-Ce cas pratique présente comment convertir rapidement un email HTML en composants du Concepteur d&#39;email.
+Ce cas pratique présente comment convertir rapidement un email HTML en composants du concepteur d’e-mail.
 
 >[!CAUTION]
 >
@@ -216,9 +216,9 @@ Si tel n&#39;est pas le cas, divisez les différents blocs de votre code HTML. P
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Concepteur d&#39;email pour chaque section de votre email existant :
+Une fois tous vos blocs identifiés, répétez la procédure suivante dans le concepteur d’e-mail pour chaque section de votre email existant :
 
-1. Ouvrez le Concepteur d’email pour créer un contenu d’email vide.
+1. Ouvrez le concepteur d’e-mail pour créer un contenu d’email vide.
 1. Définissez les attributs au niveau du corps : les couleurs de fond, la largeur, etc. Pour plus d&#39;informations, consultez la section [Modifier les styles d’un email](../../designing/using/styles.md).
 1. Ajoutez un composant de structure. Pour plus d&#39;informations, consultez la section [Éditer la structure de l’email](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Ajoutez un composant HTML. Pour plus d&#39;informations, consultez la section [Ajouter des fragments et des composants de contenu](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
@@ -242,7 +242,7 @@ Une fois tous vos blocs identifiés, répétez la procédure suivante dans le Co
    >
    >Veillez à ajouter votre style après cette opération dans une autre balise de style personnalisée.
    >
-   >Ne modifiez pas le CSS généré par le Concepteur d&#39;email :
+   >Ne modifiez pas le CSS généré par le concepteur d’e-mail :
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`

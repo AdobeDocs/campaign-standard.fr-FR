@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5411'
-ht-degree: 100%
+source-wordcount: '5442'
+ht-degree: 99%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 * Dans le workflow technique d’usine **Mise à jour pour la délivrabilité**, les administrateurs fonctionnels peuvent maintenant définir le nombre d’erreurs consécutives à ignorer dans l’activité javascript **Mise à jour des règles**. Par défaut, la valeur du champ est définie sur 0, ce qui signifie que toutes les erreurs seront ignorées.
 * Le code SQL généré lors de la gestion des conditions de restriction d’accès à l’entité a été optimisé.
 * L’activité **[!UICONTROL Mise à jour]** permet maintenant d’ajouter, de mettre à jour ou de supprimer des données relatives aux abonnements (table nms:appSubscriptionRcp).
-* Le workflow technique **[!UICONTROL Mise à jour de l’exécution des diffusions]** a été divisé en deux workflows afin d’optimiser les performances : - **[!UICONTROL Mise à jour de l’exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs de performance clé (KPI) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d’informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Le workflow technique **[!UICONTROL Mise à jour de l’exécution des diffusions]** a été divisé en deux workflows afin d’optimiser les performances : - **[!UICONTROL Mise à jour de l’exécution des diffusions]** : met à jour le tracking de la diffusion. Par défaut, il est démarré toutes les 10 minutes. **[!UICONTROL Mise à jour des indicateurs de diffusion]** : met à jour les indicateurs clés de performance (KPI) de la diffusion. Par défaut, il est démarré toutes les heures. Pour plus d’informations sur les workflows techniques, voir cette [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * Lorsqu’une diffusion envoie des messages, le statut dans la section **[!UICONTROL Déploiement]** peut maintenant avoir deux valeurs : **[!UICONTROL Envoi]** : les messages sont en cours d’envoi. **[!UICONTROL Envoi (nouvel essai)]** : un nouvel essai est en cours.
 * Les utilisateurs disposant du rôle **[!UICONTROL Préparation de la diffusion]** peuvent maintenant envoyer des bons à tirer. (CAMP-24313)
 * L’option **Activer TLS via SMPP** a été ajoutée au compte externe **Routage des SMS par SMPP**. Voir à ce propos cette [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
@@ -272,7 +272,7 @@ _Workflows_
 _Reporting_
 
 * Le workflow de partage des KPI récupère désormais les valeurs des diffusions pour les deux derniers mois au lieu des six derniers. Correction d’un problème lié au compte externe de partage des KPI qui affichait des dates tronquées.
-* Correction d’un problème qui pouvait entraîner la non-prise en compte de certains messages dans les mesures **Envoyés**, **Délivrés** et **Bounce**.
+* Correction d’un problème qui pouvait entraîner la non-prise en compte de certains messages dans les mesures **Envoyés**, **Délivrés** et **Rebond**.
 * Correction d’un problème qui survenait lorsque la période choisie dans le **Rapport Synthèse des diffusions** était trop étendue.
 
 _Ressources personnalisées_
@@ -334,7 +334,7 @@ _Plateforme_
 _Emails, SMS et courrier_
 
 * Correction d’un problème qui entraînait la troncature des SMS en plusieurs parties, car la taille des parties était calculée en caractères et non en octets.
-* Ajout d’une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **[!UICONTROL Bounces + erreurs]** après l’envoi de la diffusion. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
+* Ajout d’une option permettant de mettre à jour en temps réel le KPI **[!UICONTROL Délivrés]** ou **[!UICONTROL Rebonds + erreurs]** après l’envoi de la diffusion. Ils sont directement recalculés à partir du SR (Status Report) reçu du fournisseur.
 * Correction d’un problème lié au widget de calendrier dans le planificateur de diffusion.
 * Correction d’un problème d’affichage lors de l’ouverture d’une cible pour la seconde fois dans une diffusion envoyée.
 * Correction d’un problème qui entraînait l’affichage d’un message d’erreur demandant une date de début lors de la création d’un modèle d’email avec une date d’envoi différée.
@@ -403,7 +403,7 @@ _Emails, SMS et courrier_
 
 * Amélioration de la phase de préparation des diffusions pour optimiser les performances.
 * Correction de plusieurs problèmes qui entraînaient l’endommagement du tracking dans certains cas très spécifiques.
-* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l&#39;envoi. Consultez la [documentation détaillée](../../sending/using/preparing-the-send.md)..
+* Correction d’un problème de mise à jour de date de contact qui se produisait lorsque la date de contact était modifiée entre la préparation de la diffusion et sa validation. Vous pouvez modifier la date de contact après la préparation. Vous devrez toutefois préparer à nouveau la diffusion avant de pouvoir valider l’envoi. Voir [documentation détaillée](../../sending/using/preparing-the-send.md).
 
 _Notifications push_
 

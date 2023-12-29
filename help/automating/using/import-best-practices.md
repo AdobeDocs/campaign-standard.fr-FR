@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Un exemple de modèle de workflow générique conçu pour importer des données 
 
 **Rubriques connexes :**
 
-* [Chargement de fichier  activité](../../automating/using/load-file.md)
+* [Activité Chargement de fichier](../../automating/using/load-file.md)
 * [Activité Réconciliation](../../automating/using/reconciliation.md)
 * [Activité Segmentation](../../automating/using/segmentation.md)
 * [Activité Déduplication](../../automating/using/deduplication.md)
@@ -73,7 +73,7 @@ Lorsque cela est possible, utilisez des fichiers compressés pour les imports et
 
 **Rubriques connexes :**
 
-* [Chargement de fichier  activité](../../automating/using/load-file.md)
+* [Activité Chargement de fichier](../../automating/using/load-file.md)
 * [Activité Extraction de fichier](../../automating/using/extract-file.md)
 
 ## Importer en mode Delta {#importing-in-delta-mode}

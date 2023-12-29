@@ -9,8 +9,8 @@ role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
-workflow-type: ht
-source-wordcount: '606'
+workflow-type: tm+mt
+source-wordcount: '602'
 ht-degree: 100%
 
 ---

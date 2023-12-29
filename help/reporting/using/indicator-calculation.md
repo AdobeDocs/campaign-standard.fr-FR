@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '738'
 ht-degree: 100%
 
 ---
@@ -51,16 +51,16 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux sur la liste bloquée<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Erreurs<br /> </td> 
+   <td> Rebonds + erreurs<br /> </td> 
    <td> @Bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux Bounces + Erreurs<br /> </td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -87,19 +87,19 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de délivrabilité<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> Rebonds définitifs<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de hard bounce<br /> </td> 
+   <td> Taux de rebond définitif<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
    <td> Domaine invalide<br /> </td> 
@@ -153,7 +153,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de mise en quarantaine<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr>
   <tr> 
    <td> Rejetés<br /> </td> 
@@ -165,7 +165,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> Taux de rejet<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
    <td> Traités/envoyés<br /> </td> 
@@ -174,16 +174,16 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounces<br /> </td> 
+   <td> Rebond temporaire<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Taux de soft bounces<br /> </td> 
+   <td> Taux de rebonds temporaires<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Bounces).<br /> </td> 
+   <td> Le dénominateur pour le calcul du taux repose sur la mesure Envoyés (Délivrés + Rebonds).<br /> </td> 
   </tr> 
   <tr> 
    <td> Clics uniques<br /> </td> 
@@ -251,7 +251,7 @@ Les tableaux ci-dessous contiennent la liste des indicateurs utilisés dans les 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Taux Bounces + Erreurs<br /> </td> 
+   <td> Taux de rebond + erreurs<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 

@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Cet exemple comporte deux ressources personnalisées **Produits** et **Commandes
 
 1. Paramétrez le détail de la ressource **[!UICONTROL Ressource personnalisée]** en sélectionnant les deux ressources, **Produits** et **Commandes**, dans les conditions de filtrage.
 
-   N&#39;oubliez pas de modifier l&#39;opérateur logique. La valeur doit être **OU** pour que la structure de la ressource produits et la structure de la ressource commandes soient intégrées dans le package.
+   Veillez à ne pas oublier de modifier l&#39;opérateur logique. La valeur doit être définie sur **OU** afin que la structure de la ressource produits et de la ressource commandes soient intégrées dans le package.
 
    ![](assets/cusresources_export3.png)
 

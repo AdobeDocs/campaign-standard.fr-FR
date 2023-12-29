@@ -9,7 +9,7 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 100%
                   <td> </td>
                </tr>
                <tr>
-                  <td>attachment</td>
+                  <td>pièce jointe</td>
                   <td>Attached files</td>
                   <td>collection </td>
                   <td> </td>
@@ -425,7 +425,7 @@ ht-degree: 100%
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
-                  <td>Push notification preview</td>
+                  <td>Aperçu de la notification push</td>
                   <td>item </td>
                   <td> </td>
                </tr>

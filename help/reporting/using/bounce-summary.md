@@ -1,6 +1,6 @@
 ---
-title: Synthèse des bounces
-description: Grâce au rapport d’usine Synthèse des bounces, découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
+title: Synthèse des rebonds
+description: Grâce au rapport prêt à l’emploi Synthèse des rebonds, découvrez le statut des campagnes envoyées et les erreurs qu’elles ont peut-être rencontrées.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 03ea2f20-959c-497e-bd71-4e77132d712e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# Synthèse des bounces{#bounce-summary}
+# Synthèse des rebonds{#bounce-summary}
 
-Ce rapport présente l’ensemble des statistiques d’erreurs hard et soft survenues lors des diffusions ainsi que le traitement automatique des retours (voir la section [Compréhension des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
+Ce rapport présente l’ensemble des erreurs relatives aux rebonds définitifs et temporaires survenues lors des diffusions ainsi que le traitement automatique des rebonds (voir la section [Compréhension des échecs de diffusion](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
@@ -26,7 +26,7 @@ Chaque tableau est représenté par des nombres et des graphiques de synthèse. 
 
 **Flop 5 des répartitions** liste les cinq diffusions présentant le plus grand nombre de mises en quarantaine :
 
-Le tableau **Raisons de bounce** contient les données disponibles pour les types d’erreur ayant causé des bounces pour chaque diffusion :
+Le tableau **Raisons des rebonds** contient les données disponibles pour les types d’erreur ayant causé des rebonds pour chaque diffusion :
 
 * **[!UICONTROL Utilisateur inconnu]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que l’adresse email est invalide.
 * **[!UICONTROL Domaine invalide]** : type d’erreur générée lors de l’envoi d’une diffusion indiquant que le domaine de l’adresse email est erroné ou n’existe plus.

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ La préparation du message est déclenchée selon les paramètres d&#39;exécuti
 1. Sélectionnez un type de SMS. Les types de SMS sont issus des modèles de SMS définis dans **[!UICONTROL Ressources]** > **[!UICONTROL Modèles]** > **[!UICONTROL Modèles de diffusion]**.
 1. Renseignez les propriétés générales du SMS. Vous pouvez également rattacher l&#39;activité à une campagne existante. Le libellé de l&#39;activité de la diffusion dans le workflow est mis à jour avec le libellé du SMS.
 1. Définition du contenu du SMS. Consultez la section concernant la [création d&#39;un SMS](../../channels/using/creating-an-sms-message.md).
-1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion SMS]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion Email]**, accédez à l&#39;onglet **[!UICONTROL Général]** des options avancées de l&#39;activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l&#39;activité) puis cochez l&#39;une des options suivantes :
+1. Par défaut, l&#39;activité de **[!UICONTROL Diffusion SMS]** ne possède aucune transition sortante. Si vous souhaitez ajouter une transition sortante à votre activité de **[!UICONTROL Diffusion par SMS]**, accédez à l’onglet **[!UICONTROL Général]** des options avancées de l’activité (bouton ![](assets/dlv_activity_params-24px.png), disponible dans les actions rapides de l’activité), puis cochez l’une des options suivantes :
 
    * **[!UICONTROL Ajouter une transition sortante sans la population]** : permet de générer une transition sortante contenant la même population que la transition entrante.
    * **[!UICONTROL Ajouter une transition sortante avec la population]** : permet de générer une transition sortante contenant la population à qui le SMS a été envoyé. La population ciblée exclue pendant la préparation de la diffusion (quarantaine, numéros non valides, etc.) est exclue de cette transition.

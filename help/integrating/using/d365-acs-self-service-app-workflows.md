@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ L’application d’intégration est fournie avec trois workflows :
 * Ce workflow est également appelé **Entrée** (en référence à l&#39;entrée de données de Microsoft Dynamics 365 vers Adobe Campaign).
 
 **Campaign vers Microsoft Dynamics 365**
-* Les événements de marketing par email d&#39;Adobe Campaign Standard sont envoyés à Dynamics 365 (envoi par email, ouverture, clic, bounce). [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* Les événements de marketing par e-mail d’Adobe Campaign Standard sont envoyés à Dynamics 365 (envoi par e-mail, ouverture, clic, rebond). [En savoir plus](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * Ce workflow est également appelé **sortie** (en référence à la sortie des données d&#39;Adobe Campaign vers Microsoft Dynamics 365).
 
 **Opt-in/opt-out**
@@ -40,9 +40,9 @@ Les états d&#39;opt-out (par exemple, liste bloquée) peuvent être synchronis�
 >
 >Il est vivement recommandé d&#39;arrêter le workflow **Microsoft Dynamics 365 vers Campaign** avant de publier les modifications apportées à Adobe Campaign Standard ou Microsoft Dynamics 365. Ces modifications comprennent des mises à jour de ressources/entités (et de leurs champs associés), de liens, de colonnes d&#39;identifiant, etc., qui sont actuellement utilisés par l&#39;intégration. Si vous ne le faites pas, vous risquez de perdre des données et/ou d’interrompre le workflow de manière inattendue.
 
-## Backlog des workflows
+## Liste d’attente des workflows
 
-Cette application d’intégration commence par lire les données, puis les écrit vers la destination. La colonne **[!UICONTROL Backlog]** indique le nombre d&#39;enregistrements placés en file d&#39;attente et en attente d&#39;écriture. Cette valeur doit augmenter lorsque une grande quantité de données doit être traitée (par exemple, lorsque vous exécutez l’intégration pour la première fois, que vous relisez les données, etc.).
+Cette application d’intégration commence par lire les données, puis les écrit vers la destination. La colonne **[!UICONTROL Liste d’attente]** indique le nombre d’enregistrements placés en file d’attente et en attente d’écriture. Cette valeur doit augmenter lorsque une grande quantité de données doit être traitée (par exemple, lorsque vous exécutez l’intégration pour la première fois, que vous relisez les données, etc.).
 
 >[!NOTE]
 >Si vos enregistrements Microsoft Dynamics 365 et/ou Campaign ne sont pas mis à jour, vous devez d&#39;abord vérifier si un grand nombre d&#39;enregistrements est en attente d&#39;écriture sur la destination.

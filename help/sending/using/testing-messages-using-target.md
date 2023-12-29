@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1606'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Les étapes principales sont les suivantes :
 1. **Sélectionnez un ou plusieurs profils** parmi les profils ciblés par l’email.
 1. Associez à chaque profil une **adresse de substitution** à laquelle les bons à tirer seront envoyés.
 1. (Facultatif) Pour chaque profil, définissez un **préfixe** à ajouter à l’objet du bon à tirer.
-1. **Prévisualisez** dans le Concepteur d’email la manière dont l’email s’affichera pour les profils.
+1. **Prévisualisez** dans le concepteur d’e-mail la manière dont l’email s’affichera pour les profils.
 1. Envoyez les bons à tirer.
 
    >[!IMPORTANT]
@@ -141,7 +141,7 @@ Pour importer des profils à utiliser pour les tests à partir d’une audience,
 
 >[!NOTE]
 >
->La prévisualisation est disponible avec le Concepteur d’email uniquement.
+>La prévisualisation est disponible avec le concepteur d’e-mail uniquement.
 
 Pour pouvoir prévisualiser les messages à l’aide des profils ciblés, veillez à ajouter ces profils à la liste **[!UICONTROL Substitution de profil]** (voir [Définir les profils et les adresses de substitution](#selecting-profiles)).
 
@@ -149,7 +149,7 @@ Si vous souhaitez utiliser des champs de personnalisation dans le message, vous 
 
 Pour prévisualiser les messages à l’aide de la substitution de profils, procédez comme suit :
 
-1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le Concepteur d’email.
+1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le concepteur d’e-mail.
 
    ![](assets/substitution_preview_access.png)
 
@@ -239,7 +239,7 @@ Les principales étapes pour ce cas pratique sont les suivantes :
 
 ### Étape 4 : prévisualiser le message à l’aide des profils ciblés
 
-1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le Concepteur d’email.
+1. Dans le tableau de bord des messages, cliquez sur la capture instantanée du contenu pour ouvrir le message dans le concepteur d’e-mail.
 
    ![](assets/substitution_uc10.png)
 

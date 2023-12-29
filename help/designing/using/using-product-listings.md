@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '922'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Les listes de produits ne sont disponibles que pour les **messages d’email transactionnel** via l’interface du [Concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Les listes de produits ne sont disponibles que pour les **messages d’email transactionnel** via l’interface du [concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Lors de la modification du contenu d’un email transactionnel, vous pouvez créer des listes de produits référençant une ou plusieurs collections de données. Par exemple, dans un email d’abandon de panier, vous pouvez inclure la liste de tous les produits figurant dans le panier de l’utilisateur au moment où il a quitté le site web, avec une image, le prix et un lien vers chaque produit.
 

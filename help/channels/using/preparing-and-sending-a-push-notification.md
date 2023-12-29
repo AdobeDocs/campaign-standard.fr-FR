@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '893'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Les étapes de création d&#39;une notification push avec Adobe Campaign sont l
    Pour plus d&#39;informations sur les tests d&#39;envoi, reportez-vous à la section [Profils de test](../../sending/using/sending-proofs.md).
 
 1. Sélectionnez les profils de test et cliquez sur **[!UICONTROL Prévisualiser]** pour afficher la notification : le contenu est personnalisé avec les données de profil de test.
-1. Vérifiez la présentation de la notification push sur différents appareils : sélectionnez iPhone, téléphone Android, tablette Android ou iPad pour prévisualiser le rendu.
+1. Vérifiez la mise en page de la notification push sur différents appareils : sélectionnez iPhone, téléphone Android, tablette Android ou iPad pour prévisualiser le rendu.
 
    ![](assets/push_notif_preview.png)
 

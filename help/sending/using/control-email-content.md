@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '794'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 >[!NOTE]
 >
->Pour plus d’informations sur la modification du contenu des emails, consultez la [Présentation du concepteur d’email](../../designing/using/designing-content-in-adobe-campaign.md) et les [Bonnes pratiques de conception de messages](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>Pour plus d’informations sur la modification du contenu des emails, consultez la [Présentation du concepteur d’e-mail](../../designing/using/designing-content-in-adobe-campaign.md) et les [Bonnes pratiques de conception de messages](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## Nom et adresse de l’expéditeur {#sender-name}
 
@@ -71,7 +71,7 @@ Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur
 
 L&#39;éditeur de messages d&#39;Adobe Campaign intègre une **Analyse anti-spam** qui permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spam utilisés à sa réception. Pour plus d&#39;informations, consultez la section [Prévisualiser un message](../../sending/using/previewing-messages.md).
 
-Dans l&#39;éditeur de contenus des messages, cliquez sur **[!UICONTROL Prévisualiser]**. Un message vous avertit si l&#39;analyse anti-spam a détecté un risque élevé pour le message. Pour afficher les détails, cliquez sur **[!UICONTROL Analyse anti-spam]**.
+Dans l&#39;éditeur de contenu de message, cliquez sur **[!UICONTROL Aperçu]**. Un message vous avertit si la vérification anti-spam a détecté un risque élevé pour ce message. Cliquez sur **[!UICONTROL Analyse anti-spam]** pour afficher les détails.
 
 ![](assets/sending_anti-spam_analysis.png)
 

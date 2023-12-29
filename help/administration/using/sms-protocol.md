@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 99%
 
 ---
@@ -297,7 +297,7 @@ Cet exemple montre comment afficher le cas d&#39;une mise en œuvre suivant la r
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Tout d&#39;abord, l&#39;expression régulière `id extraction` est appliquée pour extraire l&#39;identifiant et le rapprocher avec le MT correspondant.
+Tout d’abord, l’expression régulière `id extraction` est appliquée pour extraire l’identifiant et le réconcilier avec le MT correspondant.
 
 Ensuite, les champs expression régulière `status extraction` et expression régulière `error code extraction` sont appliqués pour extraire ces champs et sont ajoutés à la chaîne.
 
@@ -831,16 +831,16 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous configurez une table de mappage des caractères personnalisée, envoyez au moins un SMS pour tous les `data_coding` valeurs.
 
 * **Vérifier que les SR sont correctement traités**
-Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion doit réussir et se présenter comme suit :
+Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0) réussi.
+Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 

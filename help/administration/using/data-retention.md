@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 91%
 
 ---
 
@@ -29,9 +29,9 @@ Vous trouverez ci-dessous les périodes de conservation par défaut pour les tab
 * **Logs de diffusion** : 6 mois (recommandé : 1 mois)
 * **Logs de tracking** : 6 mois (recommandé : 1 mois)
 * **Événements** : 1 mois
-* **Statistiques du traitement des événements** : 6 mois (recommandé : 1 mois)
+* **Statistiques du traitement des événements**: 6 mois (recommandé : 1 mois)
 * **Événements archivés** : 6 mois (recommandé : 1 mois)
 * **Entités temporaires** : 7 jours
 * **Événements Pipeline ignorés** : 1 mois
 * **Alertes de diffusion** : 1 mois
-* **Audits des exports** : 6 mois (recommandé : 1 mois)
+* **Exporter l’audit**: 6 mois (recommandé : 1 mois)

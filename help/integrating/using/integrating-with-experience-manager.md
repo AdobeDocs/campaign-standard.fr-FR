@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
@@ -39,13 +39,13 @@ Adobe Campaign Standard est compatible avec Adobe Experience Manager 6.1, 6
 
   La configuration de l’externaliseur lors de l’implémentation d’Experience Manager pour Adobe Campaign Standard permet de transformer un chemin de ressource en URL. Vous pouvez ainsi rendre vos images visibles sur la page. Si l’externaliseur n’est pas configuré correctement, vos emails contiendront des images endommagées.
 
-  Pour découvrir comment configurer l’externaliseur, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=fr)..
+  Pour savoir comment configurer l’externaliseur, reportez-vous à cette section [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=fr).
 
 * **Organisez vos modèles d’email pour éviter toute mauvaise utilisation.**
 
   Le fait de conserver les modèles organisés permet de s’assurer que les modèles adéquats se trouvent dans les dossiers adéquats. Vous êtes ainsi certain de ne pas choisir des modèles incorrects par erreur. Lors de l’implémentation, il est nécessaire de créer des chemins d’accès pour enregistrer les modèles aux bons emplacements.
 
-  Pour plus d’informations sur les modèles, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=fr#template-availability)..
+  Pour plus d’informations sur les modèles, consultez cette [page](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=fr#template-availability).
 
 * **Commencez rapidement avec les composants d’usine.**
 

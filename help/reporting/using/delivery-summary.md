@@ -1,6 +1,6 @@
 ---
 title: Synthèse des diffusions
-description: Grâce au rapport d'usine Synthèse des diffusions, découvrez les statistiques de vos diffusions comme le nombre d'envois, de bounces et d'ouvertures.
+description: Grâce au rapport prêt à l’emploi Synthèse des diffusions, découvrez les statistiques de vos diffusions comme le nombre d’envois, de rebonds et d’ouvertures.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -28,7 +28,7 @@ Le tableau **Statistiques de diffusion** contient les données disponibles pour 
 
 * **[!UICONTROL Traités/envoyés]** : nombre total d&#39;envois pour la diffusion.
 * **[!UICONTROL Délivrés]** : nombre de messages envoyés avec succès, par rapport au nombre total de messages envoyés. Les erreurs remontées (rebonds) sont prises en compte. Cependant, les plaintes (déclarations comme spam) et les messages d&#39;absence de type &quot;absent du bureau&quot; ne sont pas pris en compte.
-* **[!UICONTROL Bounces + erreurs]** : nombre total d&#39;erreurs cumulées lors des diffusions et du traitement automatique des retours par rapport au nombre total de messages envoyés.
+* **[!UICONTROL Rebonds + erreurs]** : nombre total d’erreurs cumulées lors des diffusions et du traitement automatique des rebonds par rapport au nombre total de messages envoyés.
 
 Le tableau **Open and clicks** contient les données disponibles concernant l&#39;activité des destinataires pour chaque diffusion, telles que :
 

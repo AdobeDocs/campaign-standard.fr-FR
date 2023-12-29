@@ -42,7 +42,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Sélectionnez **[!UICONTROL Ajouter une transition sortante sans la population]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle d&#39;email et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés de l&#39;email et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la mise en page de votre email, cliquez sur **[!UICONTROL Utiliser le Concepteur d&#39;email]**.
+1. Pour créer la mise en page de votre e-mail, cliquez sur **[!UICONTROL Utiliser le concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre email avec des offres spécifiques à chaque emplacement. Pour plus d&#39;informations, consultez la section décrivant la [conception d&#39;un email](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Cliquez sur **[!UICONTROL Aperçu]** pour vérifier votre mise en page.
@@ -67,7 +67,7 @@ Vous pouvez envoyer un email à des clients et ensuite un SMS à ceux qui n&#39;
 1. Sélectionnez **[!UICONTROL SMS simple]** et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez un modèle de SMS et cliquez sur **[!UICONTROL Suivant]**.
 1. Saisissez les propriétés SMS et cliquez sur **[!UICONTROL Suivant]**.
-1. Pour créer la mise en page de votre SMS, cliquez sur **[!UICONTROL Concepteur d&#39;email]**.
+1. Pour créer la mise en page de votre SMS, cliquez sur **[!UICONTROL concepteur d’e-mail]**.
 1. Insérez des éléments ou sélectionnez un modèle existant.
 1. Personnalisez votre SMS avec des offres spécifiques à chaque emplacement.
 Pour plus d’informations, voir la section [Conception d’un SMS](../../channels/using/creating-an-sms-message.md).

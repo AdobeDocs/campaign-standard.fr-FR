@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 100%
+source-wordcount: '2753'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ Cette option est uniquement proposée pour les éléments suivants : ADDRESS, B
 
 L&#39;éditeur d&#39;expression est présenté dans la section [Edition avancée d&#39;expressions](../../automating/using/editing-queries.md#about-query-editor).
 
-Ces conditions adoptent la syntaxe des expressions XTK (par ex : **context.profile.email !=&#39;&#39;** ou **context.profile.status=&#39;0&#39;**). Par défaut, tous les champs sont visibles.
+Ces conditions adoptent la syntaxe des expressions XTK (par exemple : **context.profile.email !=&#39;&#39;** ou **context.profile.status=&#39;0&#39;**). Par défaut, tous les champs sont visibles.
 
 >[!NOTE]
 >

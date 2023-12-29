@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ En savoir plus :
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard est fourni avec un ensemble de **rapports dynamiques d’usine**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : bounces, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
+Campaign Standard est fourni avec un ensemble de **rapports dynamiques prêts à l’emploi**. Vous pouvez ainsi mesurer différents aspects de vos campagnes marketing : rebonds, diffusions déclarées majoritairement comme spam ou courrier indésirable, diffusions les plus consultées par les destinataires, rapports liés aux canaux, rapports de débit de diffusion et de tracking, etc.
 
 **Combinez différents composants** (dimensions, mesures et segments, périodes) pour créer vos propres rapports ou personnaliser des rapports en version usine.
 

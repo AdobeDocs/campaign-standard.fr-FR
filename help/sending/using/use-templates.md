@@ -52,7 +52,7 @@ Les champs **[!UICONTROL Répondre à]** correspondent à l&#39;adresse email et
 
 **Conseil** : Adobe recommande d&#39;utiliser une adresse réelle existante comme l&#39;Assistance clientèle de votre marque. Ainsi, si un destinataire envoie une réponse, l&#39;Assistance clientèle sera en mesure de la traiter.
 
-Pour modifier le nom de l’expéditeur qui apparaîtra dans l’en-tête des messages envoyés, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du Concepteur d’email (accessible par le biais de l’icône Accueil) et cliquez sur le bloc **[!UICONTROL Nom de l’expéditeur par défaut]**.
+Pour modifier le nom de l’expéditeur qui apparaîtra dans l’en-tête des messages envoyés, accédez à l’onglet **[!UICONTROL Propriétés]** de la page d’accueil du concepteur d’e-mail (accessible par le biais de l’icône Accueil) et cliquez sur le bloc **[!UICONTROL Nom de l’expéditeur par défaut]**.
 
 ![](assets/template-content.png)
 
