@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
 # Hot clicks{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>Le rapport Hot Clicks présente exclusivement la version HTML de l’email et ne prend pas en charge la version Texte.
+
 Ce rapport est consultable au niveau de chaque diffusion ou chaque message transactionnel, à partir du bouton **[!UICONTROL Rapports]**.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-Il présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien.
+Il présente le contenu du message avec le pourcentage de clics sur chaque lien.
 
 ![](assets/delivery_reports_10.png)
 
