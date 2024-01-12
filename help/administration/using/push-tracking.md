@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 100%
+source-wordcount: '943'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,11 @@ Pour vous assurer que la notification push a été entièrement développée, vo
 
 Le suivi push est divisé en trois types :
 
-* **Impressions push** : lorsqu’une notification push a été envoyée à l’appareil et qu’elle se trouve dans le centre de notification, mais qu’elle n’a pas du tout été touchée.  On considère qu’il s’agit d’une impression.  Dans la plupart des cas, le nombre des impressions doit être similaire, voire identique à celui des diffusions. Cela garantit que l&#39;appareil a bien reçu le message et a transmis cette information au serveur.
+* **Impressions push** - Lorsqu&#39;une notification push a été correctement diffusée sur l&#39;appareil, résidant dans le centre de notification sans interaction de l&#39;utilisateur.
 
 * **Clic push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur ce dernier.  L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures push) ou l’ignorer.
 
-* **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
+* **Ouverture push** - Lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
 Pour implémenter le tracking de Campaign Standard, l&#39;application mobile doit inclure les SDK Adobe Experience Platform. Ces SDK sont disponibles dans la [Documentation des SDK Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
