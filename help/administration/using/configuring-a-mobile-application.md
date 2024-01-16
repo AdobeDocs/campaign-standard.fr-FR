@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 91%
+source-wordcount: '1376'
+ht-degree: 89%
 
 ---
 
@@ -153,7 +153,7 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
      Saisissez les informations suivantes sur l’application :
 
       * **ID d’application (ID de bundle iOS)**: voir [Documentation Apple](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) pour plus d’informations sur le Bundle ID.
-      * **Fichier de certificat iOS (P8)**: effectuez un glisser-déposer de votre clé d’authentification .p8.
+      * **Fichier de certificat iOS (P8)**: effectuez un glisser-déposer de votre clé d’authentification .p8. Pour plus d’informations sur la génération du fichier d’authentification .p8, reportez-vous à la section [Compte de développeur Apple](https://developer.apple.com/account/ios/authkey/create).
       * **ID de clé**: voir [Documentation Apple](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) pour plus d’informations sur l’ID de clé.
       * **Identifiant de l’équipe iOS**: voir [Documentation Apple](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) pour plus d’informations sur l’identifiant d’équipe iOS.
 
@@ -165,7 +165,7 @@ Votre application mobile est maintenant prête à être utilisée dans Campaign 
      Saisissez les informations suivantes sur l’application :
 
       * **ID d’application (nom du module Android)**: voir [Documentation Android](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) pour plus d’informations sur le nom du module.
-      * **Fichier de clé Android (Json)**: effectuez un glisser-déposer de votre fichier de clé privée .json .
+      * **Fichier de clé Android (Json)**: effectuez un glisser-déposer de votre fichier de clé privée .json . Pour plus d’informations sur la génération du fichier de clé privée .json, reportez-vous à la section [Documentation destinée aux développeurs pour Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
