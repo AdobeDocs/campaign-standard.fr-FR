@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Documentation du produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
-source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
+source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1769'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [Dernière version](rn/using/release-notes.md)
    + [Notes de mise à jour initiales](rn/using/e-release-notes.md)
    + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour 2023](rn/using/release-notes-2023.md)
       + [Notes de mise à jour 2022](rn/using/release-notes-2022.md)
       + [Notes de mise à jour 2021](rn/using/release-notes-2021.md)
       + [Notes de mise à jour 2020](rn/using/release-notes-2020.md)

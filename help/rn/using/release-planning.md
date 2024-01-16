@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Toutes les dates de publication peuvent faire l’objet de modifications : cons
 
 ## Version 24.1 - Version d’hiver 2024 {#release-24-1-release}
 
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour initiales](e-release-notes.md).
+Vous trouverez des informations détaillées sur cette version dans la section [Notes de mise à jour](release-notes.md) lorsque les mises à niveau de l’environnement d’évaluation démarrent.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Vous trouverez des informations détaillées sur cette version dans les [Notes d
   </tr>
  </tbody>
 </table>
-
-
-## Version 23.2 - Version limitée d’automne 2023 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->Cette version est disponible uniquement pour un ensemble d’organisations (disponibilité limitée). Pour plus d’informations, contactez votre personne représentante Adobe.
-
-Vous trouverez des informations détaillées sur cette version dans les [Notes de mise à jour](release-notes.md).
-
-<table>
- <thead>
-  <tr>
-   <th> Environnements </th>
-   <th> Dates </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Évaluation </td>
-   <td>3 au 9 octobre 2023 </td>
-  </tr>
-  <tr>
-   <td>Production </td>
-   <td>12 au 18 octobre 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-Pour toute question, contactez l’[Assistance clientèle Adobe](https://helpx.adobe.com/fr/enterprise/using/support-for-experience-cloud.html).
 
 ## Questions et réponses {#questions-and-answers}
 
