@@ -1,18 +1,18 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Documentation du produit pour Adobe Campaign Standard.
+user-guide-description: Documentation produit pour Adobe Campaign Standard.
 title: Guide de Campaign Standard
 breadcrumb-title: Documentation de Campaign Standard
 source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Documentation d&#39;Adobe Campaign Standard {#using}
+# Documentation d’Adobe Campaign Standard {#using}
 
 + [Documentation de Campaign Standard](campaign-standard-home.md)
 + [Dernières mises à jour](rn/using/documentation-updates.md)
