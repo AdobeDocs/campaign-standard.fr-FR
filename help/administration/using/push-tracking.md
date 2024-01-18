@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
 source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Pour vous assurer que la notification push a été entièrement développée, vo
 
 Le suivi push est divisé en trois types :
 
-* **Impressions push** - Lorsqu&#39;une notification push a été correctement diffusée sur l&#39;appareil, résidant dans le centre de notification sans interaction de l&#39;utilisateur.
+* **Impressions push** : lorsqu’une notification push a bien été diffusée sur l’appareil et qu’elle réside dans le centre de notification sans interaction de l’utilisateur ou de l’utilisatrice.
 
 * **Clic push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur ce dernier.  L’utilisateur a voulu consulter la notification (qui sera déplacée vers le suivi des ouvertures push) ou l’ignorer.
 
-* **Ouverture push** - Lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur a cliqué sur la notification, entraînant l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
+* **Ouverture push** : lorsqu’une notification push a été envoyée à l’appareil et que l’utilisateur ou l’utilisatrice a cliqué sur la notification, entraînant ainsi l’ouverture de l’application. Cette mesure est similaire au Clic push, sauf qu’une Ouverture push ne sera pas déclenchée si la notification a été ignorée.
 
 Pour implémenter le tracking de Campaign Standard, l&#39;application mobile doit inclure les SDK Adobe Experience Platform. Ces SDK sont disponibles dans la [Documentation des SDK Adobe Experience Platform](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
