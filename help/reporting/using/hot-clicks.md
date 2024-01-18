@@ -10,9 +10,9 @@ role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
 source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Le rapport Hot Clicks présente exclusivement la version HTML de l’email et ne prend pas en charge la version Texte.
+>Le rapport Hot Clicks présente exclusivement la version HTML de l’e-mail et ne prend pas en charge la version Texte.
 
 Ce rapport est consultable au niveau de chaque diffusion ou chaque message transactionnel, à partir du bouton **[!UICONTROL Rapports]**.
 
