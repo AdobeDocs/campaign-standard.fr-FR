@@ -3,12 +3,12 @@ title: À propos de l'extension de l'API
 description: Découvrez comment exposer des champs étendus pour les profils de ressources personnalisées dans l'API Profiles publique.
 audience: developing
 content-type: reference
-topic-tags: use-case--extending-the-api
+topic-tags: use-case-extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
@@ -25,9 +25,9 @@ Ce cas pratique présente l’exposition des champs étendus de la ressource per
 
 Les étapes nécessaires pour exposer les champs étendus dans l’API publique sont les suivantes :
 
-1. [Ajouter les champs d’extension à la ressource Profiles](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-1. [Publier l’extension](../../developing/using/step-2--publish-the-extension.md)
-1. [Vérifier la disponibilité des nouveaux champs étendus dans l’API](../../developing/using/step-3--verify-the-extension.md)
+1. [Ajouter les champs d’extension à la ressource Profiles](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+1. [Publier l’extension](../../developing/using/step-2-publish-the-extension.md)
+1. [Vérifier la disponibilité des nouveaux champs étendus dans l’API](../../developing/using/step-3-verify-the-extension.md)
 
 **Rubriques connexes :**
 

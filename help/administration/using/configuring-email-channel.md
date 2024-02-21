@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2910'
-ht-degree: 100%
+source-wordcount: '2941'
+ht-degree: 97%
 
 ---
 
@@ -25,11 +25,15 @@ L’écran Configuration du canal e-mail permet de définir les paramètres du c
 
 * **Champs de masques autorisés**
 
-  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse de l’erreur).  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+  Les **[!UICONTROL Paramètres d’en-tête des e-mails envoyés]** répertorient les adresses e-mail autorisées que vous pouvez utiliser pour envoyer des e-mails à vos destinataires (adresse d’expéditeur) et leur permettre de renvoyer des réponses automatisées telles que des rebonds asynchrones, des réponses indiquant leur absence, etc. (adresse d’erreur).
+
+  Adobe Campaign vérifie que les adresses saisies sont valides lors de l’étape de préparation du message. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient poser des problèmes de délivrabilité.
+
    * Les adresses d’expéditeur et d’erreur sont configurées par Adobe. Ces champs ne peuvent pas être vides.
    * Vous ne pouvez pas modifier ces champs. Pour mettre à jour une adresse, contactez l’assistance clientèle d’Adobe.
    * Si vous souhaitez ajouter une autre adresse, vous pouvez utiliser le [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) pour configurer un nouveau sous-domaine ou contacter l&#39;assistance clientèle d&#39;Adobe. Si plusieurs masques sont utilisés, ils doivent être séparés par des virgules.
-   * Il est recommandé de définir des adresses à l’aide d’une étoile comme dans l’expression *@votredomaine.com : il est ainsi possible d’utiliser toute adresse se terminant par votre nom de sous-domaine.
+   * Il est recommandé de définir des adresses à l’aide d’une étoile telle que **@yourdomain.com**: il vous permet d’utiliser toute adresse se terminant par votre nom de sous-domaine.
+   * Prise en charge de Campaign, par défaut, Google et Yahoo **Liste-Unsubscribe en un clic** fonctionnalité. Gardez à l’esprit que si vous modifiez la valeur d’en-tête dans les modèles personnalisés, elle risque de rompre la conformité avec Google/Yahoo. **Liste-Unsubscribe en un clic**.
 
 * **Délivrabilité**
 
@@ -166,7 +170,7 @@ Le **paramètre de durée de diffusion** (défini dans la section [Paramètres d
 
 Vous pouvez paramétrer le format des emails envoyés. Trois options sont disponibles :
 
-* **Tenir compte des préférences des destinataires** (mode par défaut) : le format du message est défini en fonction des informations enregistrées dans le profil du destinataire et stockées par défaut dans le champ **Format des emails** (@emailFormat). Si un destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si ce champ n’est pas renseigné, le message sera envoyé en multipart-alternative (voir ci-dessous).
+* **Tenir compte des préférences des destinataires** (mode par défaut) : le format du message est défini en fonction des informations enregistrées dans le profil du destinataire et stockées par défaut dans le champ **Format des emails** (@emailFormat). Si une personne destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si ce champ n’est pas renseigné, le message sera envoyé en multipart-alternative (voir ci-dessous).
 * **Laisser le mailer des destinataires choisir le format le plus adapté (multipart-alternative)** : le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie du destinataire (multipart-alternative).
 
   >[!IMPORTANT]

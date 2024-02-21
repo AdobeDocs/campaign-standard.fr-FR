@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7680'
 ht-degree: 100%
@@ -61,7 +61,7 @@ ht-degree: 100%
 * Le pop-up de consentement pour la création de rapports dynamiques a été mis à jour afin d’inclure l’intégration de Microsoft Dynamics 365 et Adobe Campaign Standard. En acceptant les termes, les données de profil seront incluses lors de l’utilisation de l’intégration Adobe Campaign Standard/Microsoft Dynamics 365 et de la création de rapports dynamiques. [En savoir plus](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Correction d’un problème qui affichait des dates de contact incorrectes lors de la réception d’alertes de diffusion.
 * Lorsqu’un événement de message transactionnel est envoyé avec un paramètre de contexte inconnu, Campaign renvoie maintenant un message d’erreur « 400 »au lieu de « 500 ». (CAMP-28632)
-* Un nouveau segment **Exclure le BAT** a été ajouté dans les rapports dynamiques. Ce segment est désormais sélectionné par défaut pour filtrer les rapports. [En savoir plus](../../reporting/using/list-of-components-.md#segments)
+* Un nouveau segment **Exclure le BAT** a été ajouté dans les rapports dynamiques. Ce segment est désormais sélectionné par défaut pour filtrer les rapports. [En savoir plus](../../reporting/using/list-of-components.md#segments)
 * L’option **Expiration du message** a été ajoutée à la notification push. Elle vous permet de spécifier une date d’expiration à laquelle le message ne sera plus envoyé par Apple (APNS) ou Android (FCM). [En savoir plus](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Des améliorations ont été apportées à l’activité **Chargement de fichier** : les logs des workflows ont été rendus plus clairs et plus détaillés sur l’erreur qui se produit lorsqu’un fichier ne se charge pas. La transition sortante générée lors de l’activation de l’option **Conserver les rejets dans un fichier** a été renommée **Rejets**. [En savoir plus](../../automating/using/load-file.md)
 * Des logs associés multilingues ont été ajoutés aux logs d’envoi afin de mieux comprendre les échecs d’envoi en raison de langues manquantes dans les fichiers CSV téléchargés.
@@ -540,7 +540,7 @@ Pour optimiser le fonctionnement et les performances, plusieurs améliorations o
   </tr> 
   <tr> 
    <td> Vue mobile dans le concepteur d’e-mail<br /> </td> 
-   <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l’édition du contenu d’un email. Vous pouvez ainsi affiner le responsive design d’un email en éditant séparément toutes les options de style pour l’affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur fond, etc.).</p><p> Pour plus d’informations, consultez la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
+   <td> <p>Vous pouvez maintenant basculer vers une vue mobile dédiée lors de l’édition du contenu d’un email. Vous pouvez ainsi affiner le responsive design d’un e-mail en éditant séparément toutes les options de style pour l’affichage mobile, (adapter les marges, réduire la taille des polices, changer de couleur d’arrière-plan, etc.).</p><p> Pour plus d’informations, consultez la <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">documentation détaillée</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Améliorations de la Messagerie In-App (version bêta)<br /> </td> 

@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7297'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ Mise à jour de la section sur la création de service. [En savoir plus](../../a
 
 Ajout de cas pratiques pour une meilleure compréhension des entités et des groupes de sécurité. [En savoir plus](../../administration/using/organizational-units.md)
 
-Amélioration des définitions et des calculs des dimensions, mesures et segments dans les rapports dynamiques. [En savoir plus](../../reporting/using/list-of-components-.md)
+Amélioration des définitions et des calculs des dimensions, mesures et segments dans les rapports dynamiques. [En savoir plus](../../reporting/using/list-of-components.md)
 
 Ajout d&#39;informations sur la récupération des SMS entrants à l&#39;aide d&#39;un workflow. [En savoir plus](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Amélioration de l&#39;abonnement en masse – [En savoir plus](../../automati
 
 **Autres mises à jour de la documentation accompagnant cette version**
 
-Liste détaillée de tous les composants disponibles dans les rapports dynamiques et modifications apportées aux formules. [En savoir plus](../../reporting/using/list-of-components-.md)
+Liste détaillée de tous les composants disponibles dans les rapports dynamiques et modifications apportées aux formules. [En savoir plus](../../reporting/using/list-of-components.md)
 
 Liste détaillée des KPI partagés avec Adobe Analytics – [En savoir plus](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ La documentation sur le rendu des emails a été mise à jour. [En savoir plus](
 
 Le tableau de calcul des indicateurs de rapports a été mis à jour. [En savoir plus](../../reporting/using/indicator-calculation.md)
 
-La documentation sur le reporting a été mise à jour avec quatre nouvelles mesures. [En savoir plus](../../reporting/using/list-of-components-.md)
+La documentation sur le reporting a été mise à jour avec quatre nouvelles mesures. [En savoir plus](../../reporting/using/list-of-components.md)
 
 Documentation ajoutée sur la génération d&#39;ID uniques pour les profils. [En savoir plus](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 
