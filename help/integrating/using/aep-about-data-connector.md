@@ -11,7 +11,7 @@ exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
 ht-degree: 100%
 
@@ -59,11 +59,11 @@ Les sections ci-après décrivent les étapes clés pour effectuer un mapping de
 
 * Le service d’identifiant Experience Cloud (ECID) est un identifiant d’appareil envoyé par défaut avec les événements Experience.
 
-  Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identité de la plateforme pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[Aide du service d’identité Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+  Il s’agit d’un identifiant unique et persistant attribué à un visiteur, qui peut être utilisé par le service d’identités de Platform pour identifier le même visiteur et ses données dans différentes solutions Experience Cloud. Pour plus d’informations, reportez-vous à l’[aide du service d’identités d’Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
   >[!NOTE]
   >
-  >Sachez que si deux personnes ou plus partagent un même appareil, l’ECID sera le même pour ces deux profils dans le service d’identité unifiée.
+  >Sachez que si deux personnes ou plus partagent un même appareil, l’ECID sera le même pour ces deux profils dans le service d’identités unifié.
 
 ## Limites {#limitations}
 

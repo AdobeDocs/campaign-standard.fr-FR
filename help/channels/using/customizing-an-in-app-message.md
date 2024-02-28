@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
 ht-degree: 100%
 
@@ -131,7 +131,7 @@ Vous pouvez ajouter jusqu’à deux boutons à votre message In-App.
 
 ### Paramètres       {#settings}
 
-1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur de fond entre une couleur claire et foncée.
+1. Dans la catégorie **[!UICONTROL Paramètres]**, sélectionnez votre couleur d’arrière-plan entre une couleur claire et foncée.
 1. À l’aide de l’option **[!UICONTROL Afficher le bouton Fermer]**, choisissez d’afficher ou non un bouton de fermeture afin que les utilisateurs puissent ignorer le message In-App.
 1. À l’aide de l’option **[!UICONTROL Alignement des boutons]**, choisissez si l’alignement de votre bouton sera horizontal ou vertical.
 1. Choisissez si votre message in-app peut être ignoré automatiquement après quelques secondes.

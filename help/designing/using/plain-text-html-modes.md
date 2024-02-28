@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
 ht-degree: 100%
 
@@ -118,11 +118,11 @@ Toutes les options de style sont disponibles dans la vue mobile. Les paramètres
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Passez de nouveau en vue mobile, puis désactivez le paramètre **[!UICONTROL Couleur de fond]**.
+1. Passez de nouveau en vue mobile, puis désactivez le paramètre **[!UICONTROL Couleur d’arrière-plan]**.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
-   La couleur de fond définie dans la vue de poste de travail est maintenant appliquée : elle devient grise (non vide).
+   La couleur d’arrière-plan définie dans la vue de poste de travail est maintenant appliquée : elle devient grise (non vide).
 
    La seule exception concerne le paramètre **[!UICONTROL Couleur de bordure]**. Lorsqu&#39;il est désactivé dans la vue mobile, aucune bordure n&#39;est plus appliquée, même si une couleur de bordure est définie dans la vue de poste de travail.
 

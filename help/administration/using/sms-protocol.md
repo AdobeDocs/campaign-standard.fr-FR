@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8640'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -831,7 +831,7 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 ### Tester votre SMS {#test}
 
 * **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous configurez une table de mappage des caractères personnalisée, envoyez au moins un SMS pour tous les `data_coding` valeurs.
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
 * **Vérifier que les SR sont correctement traités**
 Le SMS doit être marqué comme reçu dans le log de diffusion. Le journal de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
@@ -840,7 +840,7 @@ Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de 
 
 * **Vérifier que les MO sont traités**
 Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.) essayez de faire des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
-Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` (command_status=0).
+Archivez le journal auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
 

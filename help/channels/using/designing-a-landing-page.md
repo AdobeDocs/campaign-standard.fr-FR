@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ L&#39;éditeur de contenu est organisé en trois sections distinctes. Elles perm
 
 ![](assets/des_lp_content_8.png)
 
-1. La **palette** située à gauche de l&#39;écran permet de modifier les paramètres du bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur de fond, bordure, alignement du texte, condition de visibilité, etc. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
+1. La **palette** située à gauche de l&#39;écran permet de modifier les paramètres du bloc sélectionné. Les options pouvant être modifiées sont les suivantes : couleur d’arrière-plan, bordure, alignement du texte, condition de visibilité, etc. Voir [Insertion d&#39;un champ de personnalisation](../../designing/using/personalization.md#inserting-a-personalization-field).
 1. La **barre d&#39;actions** regroupe les options générales de la page. Vous pouvez sélectionner un modèle et changer le mode d&#39;affichage.
 1. La **zone d&#39;édition** principale permet d&#39;interagir directement avec le contenu, grâce à la barre d&#39;outils contextuelle : insérer un lien sur une image, modifier la police de caractères, supprimer un champ, etc.
 

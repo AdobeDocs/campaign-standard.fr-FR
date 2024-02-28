@@ -11,7 +11,7 @@ exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Pour effectuer cette tâche, les prérequis sont les suivants :
 
 >[!NOTE]
 >
->Pour qu’un lot soit ingéré dans Profil client en temps réel ou Service d’identité, le jeu de données doit être [activé pour Profil clienten temps réel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=fr).
+>Pour qu’un lot soit ingéré dans le profil client en temps réel ou le service d’identités, le jeu de données doit être [activé pour le profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=fr).
 >
 >Si le jeu de données sélectionné est déjà utilisé dans un mapping de données existant, un avertissement s’affiche pour vous informer que vos données peuvent être remplacées dans Adobe Experience Platform. Cette situation peut se produire lorsqu’il existe des destinataires communs dans les mappings de données utilisant un même jeu de données.
 
